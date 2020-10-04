@@ -24,10 +24,10 @@ const validate = pattern => data => R.compose(
 )(pattern);
 
 const validateDomainData = validate({
-  //name: {
-    //reason: 'The name of the file is invalid',
-    //fn: R.match(/[A-Za-z0-9]{3,}/g),
-  //},
+  name: {
+    reason: 'The name of the file is invalid',
+    fn: str => str.match(/^[A-Za-z0-9]{3,}$/ig),
+  },
   description: {
     reason: 'Description has to be shorter than 100 characters',
     fn: R.anyPass([

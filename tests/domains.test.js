@@ -10,9 +10,20 @@ describe('Domains', () => {
       });
     });
 
-    describe('isValidDomainData', () => {
+    describe('validateDomainData', () => {
+      it('should return true if the name is invalid', () => {
+        const { valid, errors } = validateDomainData({
+          name: 'hello world',
+          forceHttps: true,
+          record: { CNAME: ['hello.com'] },
+        });
+        expect(valid).toBe(false);
+        expect(errors[0][0]).toBe('name');
+      });
+
       it('should return true for a valid object', () => {
         const { valid, errors } = validateDomainData({
+          name: 'something',
           forceHttps: true,
           record: { CNAME: ['hello.com'] },
         });
