@@ -32,25 +32,25 @@ const validateDomainData = validate({
     ]),
   },
   description: {
-    reason: 'Description has to be shorter than 100 characters',
+    reason: '`description` has to be shorter than 100 characters',
     fn: R.anyPass([
       R.empty,
       hasLengthLessThan(100),
     ]),
   },
   forceHttps: {
-    reason: 'forceHttp is required to be true or false',
+    reason: '`forceHttp` is required to be true or false',
     fn: R.is(Boolean),
   },
   record: {
     reason: 'Invalid record',
     fn: R.allPass([
       R.is(Object),
+      R.compose(hasLengthLessThan(1), R.keys),
       R.anyPass([
         R.propSatisfies(R.is(Array), 'CNAME'),
         R.propSatisfies(R.is(Array), 'A'),
       ]),
-      R.compose(hasLengthLessThan(1), R.keys),
     ]),
   },
 });
