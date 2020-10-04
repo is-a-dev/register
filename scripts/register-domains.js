@@ -1,5 +1,5 @@
 const R = require('ramda');
-const { VALID_RECORD_TYPES, NC_DOMAIN, TTL } = require('../utils/constants');
+const { VALID_RECORD_TYPES, TTL } = require('../utils/constants');
 const { domainService: domain } = require('../utils/domain-service');
 const { getDomains } = require('../utils/domain');
 
@@ -8,7 +8,7 @@ const getRecords = R.compose(R.toPairs, R.pick(VALID_RECORD_TYPES));
 const toHostList = R.chain(data => {
   const rs = getRecords(data.record);
 
-  const records = R.chain(([recordType, urls]) =>
+  return R.chain(([recordType, urls]) =>
     (Array.isArray(urls) ? urls : [urls]).map(url => ({
       HostName: data.name,
       RecordType: recordType,
@@ -16,10 +16,6 @@ const toHostList = R.chain(data => {
       TTL,
     }))
   , rs);
-
-  return !data.forceHttps ? records : records.concat([
-    { HostName: data.name, RecordType: 'URL', Address: `https://${data.name}.${NC_DOMAIN}` },
-  ]);
 });
 
 const registerDomains = async ({ domainService, getDomains }) => {

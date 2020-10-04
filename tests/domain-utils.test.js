@@ -9,7 +9,6 @@ describe('getDomains', () => {
 
 const defaultDomain = {
   name: 'aaa',
-  forceHttps: false,
   record: {
     A: ['121.121.121.121']
   },
@@ -24,8 +23,6 @@ const getstroflen = len => Array(len).fill('a').join('');
 describe('validateDomainData', () => {
   const invalidCases = [
     {},
-    { forceHttps: false },
-    { forceHttps: 1 },
     { name: 'helo' },
     { name: 'wwow', record: { A: ['12312'] } },
     ...['', ' ', undefined, 'hlo wld', 'g32++13', 'ajsdD_123yq', 'khsda%', '122*dsd', getstroflen(101)].map(name => ({

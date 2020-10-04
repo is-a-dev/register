@@ -52,10 +52,6 @@ const validateDomainData = validate({
       }),
     ]),
   },
-  forceHttps: {
-    reason: '`forceHttp` is required to be true or false',
-    fn: R.is(Boolean),
-  },
   record: {
     reason: 'Invalid record',
     fn: R.allPass([
