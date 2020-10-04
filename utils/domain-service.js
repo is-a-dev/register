@@ -18,8 +18,6 @@ const getDomainService = ({ Namecheap }) => {
 
   let hostList = [];
 
-  console.log(NC_USER, NC_DOMAIN, NC_API_KEY);
-
   const getHosts = async () => {
     if (hostList.length) return hostList;
 
@@ -39,30 +37,31 @@ const getDomainService = ({ Namecheap }) => {
     return list;
   };
 
-  const setHosts = hosts => nc.dns.setHosts(NC_DOMAIN, hosts);
+  const setHosts = hosts => {
+    return nc.dns.setHosts(NC_DOMAIN, hosts);
+  };
 
-  const findHost = async host => {
+  const findIndexHost = async host => {
     const list = await getHosts();
-    const matchIndex = list.findIndex(R.whereEq({
+    return list.findIndex(R.whereEq({
       RecordType: host.RecordType,
       HostName: host.HostName,
       Address: host.Address,
       // MXPref: host.MXPref,
       TTL: host.TTL || TTL,
     }));
-
-    return matchIndex;
   };
 
-  const mergeHosts = async hosts => {
-    return hosts;
-    //const hostList = await getHosts();
-    //hosts.map()
+  const updateHosts = async hosts => {
+    const hostList = await getHosts();
+    hosts.map(host => {
+      // 
+    });
     // If source is bigger, merge all matching items and add new ones
     // If dest is bigger, merge all matching items and add missing ones
   };
 
-  return { getHosts, setHosts, findHost };
+  return { getHosts, setHosts, updateHosts };
 }
 
 module.exports = {
