@@ -4,6 +4,8 @@ const R = require('ramda');
 
 const DOMAINS_PATH = path.resolve('domains');
 
+const log = m => x => console.log(m, x) || x;
+
 const toDomain = str => path.join(DOMAINS_PATH, str);
 
 const toDomainData = R.compose(require, toDomain);
@@ -22,6 +24,11 @@ const validate = pattern => data => R.compose(
   R.filter(([key, { fn }]) => fn ? !fn(data[key]) : false),
   R.toPairs,
 )(pattern);
+
+const validateCNAME = R.allPass([
+  R.compose(R.equals(1), R.length, R.keys),
+  R.propSatisfies(R.is(Array), 'CNAME'),
+]);
 
 const validateDomainData = validate({
   name: {
@@ -52,10 +59,9 @@ const validateDomainData = validate({
     reason: 'Invalid record',
     fn: R.allPass([
       R.is(Object),
-      R.compose(hasLengthLessThan(1), R.keys),
-      R.anyPass([
-        R.propSatisfies(R.is(Array), 'CNAME'),
-        R.propSatisfies(R.is(Array), 'A'),
+      R.cond([
+        [R.prop('CNAME'), validateCNAME],
+        [R.T, R.T],
       ]),
     ]),
   },

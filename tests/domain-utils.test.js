@@ -23,13 +23,14 @@ describe('validateDomainData', () => {
     { forceHttps: false },
     { forceHttps: 1 },
     { name: 'helo' },
-    { record: { CNAME: ['sd'] } },
     { name: 'wwow', record: { A: ['12312'] } },
     ...['', ' ', undefined, 'hello world', 'good12312++123', 'ajsdjasdaSD_123yuqehq', 'khsda%', '12112**dsd', Array(101).fill('a').join('')]
     .map(name => ({
       ...defaultDomain,
       name,
     })),
+    { ...defaultDomain, record: { CNAME: ['sd'], A: ['121,3213'] } },
+    //{ ...defaultDomain, record: { FOOBAR: ['sd'] } },
     { ...defaultDomain, owner: {}, },
     { ...defaultDomain, owner: { username: 'hwelo', }, },
     { ...defaultDomain, owner: { email: 'hwelo' }, },
