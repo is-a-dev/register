@@ -1,0 +1,21 @@
+{
+  "name": "is-a-dev-core",
+  "version": "1.0.0",
+  "description": "Register *.is-a.dev domains for free",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/is-a.dev/register-domain"
+  },
+  "keywords": [
+    "__"
+  ],
+  "author": "Akshay Nair <phenax5@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "jest": "^26.4.2",
+    "ramda": "^0.27.1"
+  }
+}
