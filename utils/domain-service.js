@@ -34,9 +34,7 @@ const getDomainService = ({ Namecheap }) => {
     return list;
   };
 
-  const setHosts = hosts => {
-    return nc.dns.setHosts(NC_DOMAIN, hosts);
-  };
+  const setHosts = hosts => nc.dns.setHosts(NC_DOMAIN, hosts);
 
   const getHostKey = host => `${host.HostName}--${host.RecordType}`;
   const toHostMap = hosts => hosts.reduce((acc, host) => {
