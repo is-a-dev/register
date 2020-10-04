@@ -32,7 +32,7 @@ describe('validateDomainData', () => {
       ...defaultDomain,
       name,
     })),
-    { ...defaultDomain, record: { CNAME: ['sd'], A: ['121,3213'] } },
+    { ...defaultDomain, record: { CNAME: 'sd', A: ['121,3213'] } },
     //{ ...defaultDomain, record: { FOOBAR: ['sd'] } },
     { ...defaultDomain, owner: {}, },
     { ...defaultDomain, owner: { username: 'hwelo', }, },
@@ -49,7 +49,7 @@ describe('validateDomainData', () => {
       ...defaultDomain,
       description: getstroflen(99),
     },
-    { ...defaultDomain, record: { CNAME: ['sd'], URL: ['121,3213'] } },
+    { ...defaultDomain, record: { CNAME: 'sd', URL: '121,3213' } },
   ];
 
   it('should return false for invalid data', () => {

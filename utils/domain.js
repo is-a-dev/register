@@ -27,7 +27,7 @@ const validate = pattern => data => R.compose(
 
 const validateNameRecord = type => R.allPass([
   R.compose(R.equals(1), R.length, R.reject(R.equals('URL')), R.keys),
-  R.propSatisfies(R.is(Array), type),
+  R.propSatisfies(R.is(String), type),
 ]);
 
 const validateDomainData = validate({
@@ -64,7 +64,7 @@ const validateDomainData = validate({
         [R.prop('CNAME'),  validateNameRecord('CNAME')],
         [R.prop('ALIAS'),  validateNameRecord('ALIAS')],
         [R.prop('A'),      R.propSatisfies(R.is(Array), 'A')],
-        [R.prop('URL'),    R.propSatisfies(R.is(Array), 'URL')],
+        [R.prop('URL'),    R.propSatisfies(R.is(String), 'URL')],
         [R.T, R.T],
       ]),
     ]),

@@ -6,6 +6,6 @@
   },
   "forceHttps": true,
   "record": {
-    "CNAME": ["duckduckgo.com"]
+    "CNAME": "duckduckgo.com"
   }
 }
