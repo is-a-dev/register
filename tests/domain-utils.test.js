@@ -11,6 +11,10 @@ const defaultDomain = {
   name: 'aaa',
   forceHttps: false,
   record: { A: ['121.121.121.121'] },
+  owner: {
+    username: 'betsy',
+    email: 'betsyfuckyoassup@foobar.com',
+  },
 };
 
 describe('validateDomainData', () => {
@@ -26,10 +30,9 @@ describe('validateDomainData', () => {
       ...defaultDomain,
       name,
     })),
-    {
-      ...defaultDomain,
-      description: Array(201).fill('a').join(''),
-    },
+    { ...defaultDomain, owner: {}, },
+    { ...defaultDomain, owner: { username: 'hwelo', }, },
+    { ...defaultDomain, owner: { email: 'hwelo' }, },
   ];
 
   const validCases = [

@@ -31,17 +31,18 @@ const validateDomainData = validate({
       str => str && str.match(/^[A-Za-z0-9\-]{2,}$/ig),
     ]),
   },
-  description: {
-    reason: '`description` has to be shorter than 200 characters',
-    fn: R.anyPass([
-      R.empty,
-      R.is(String),
-      hasLengthLessThan(200),
+  description: { reason: '', fn: R.T, },
+  repo: { reason: '', fn: R.T, },
+  owner: {
+    reason: '`owner` needs username and email properties',
+    fn: R.allPass([
+      R.is(Object),
+      R.complement(R.isEmpty),
+      R.where({
+        username: R.is(String),
+        email: R.is(String),
+      }),
     ]),
-  },
-  repo: {
-    reason: '',
-    fn: R.T,
   },
   forceHttps: {
     reason: '`forceHttp` is required to be true or false',
