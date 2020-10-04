@@ -4,8 +4,8 @@ const { NC_DOMAIN, TTL } = require('../utils/constants');
 describe('toHostList', () => {
   it('should flatten domain data to list of hosts (without https)', () => {
     const res = toHostList([
-      { name: 'akshay', forceHttps: false, record: { CNAME: ['phenax.github.io'] } },
-      { name: 'foobar', forceHttps: false, record: { CNAME: ['v.io'] } },
+      { name: 'akshay', forceHttps: false, record: { CNAME: 'phenax.github.io' } },
+      { name: 'foobar', forceHttps: false, record: { CNAME: 'v.io' } },
       { name: 'xx', forceHttps: false, record: { A: ['1.2.3.4', '5.6.3.2', '1.2.31.1'] } },
     ]);
 
@@ -20,8 +20,8 @@ describe('toHostList', () => {
 
   it('should flatten domain data to list of hosts (with https)', () => {
     const res = toHostList([
-      { name: 'akshay', forceHttps: true, record: { CNAME: ['phenax.github.io'] } },
-      { name: 'foobar', forceHttps: false, record: { CNAME: ['v.io'] } },
+      { name: 'akshay', forceHttps: true, record: { CNAME: 'phenax.github.io' } },
+      { name: 'foobar', forceHttps: false, record: { CNAME: 'v.io' } },
       { name: 'xx', forceHttps: true, record: { A: ['1.2.3.4', '5.6.3.2', '1.2.31.1'] } },
     ]);
 

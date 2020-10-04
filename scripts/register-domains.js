@@ -9,7 +9,7 @@ const toHostList = R.chain(data => {
   const rs = getRecords(data.record);
 
   const records = R.chain(([recordType, urls]) =>
-    urls.map(url => ({
+    (Array.isArray(urls) ? urls : [urls]).map(url => ({
       HostName: data.name,
       RecordType: recordType,
       Address: url,
