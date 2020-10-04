@@ -7,6 +7,8 @@ Register a free `yourname.is-a.dev` domain
 * Fork this project
 * Add a `domain-name.json` new file in `domains/` directory
 * [Read the api reference for the json file](./API.md)
+* The PR will be reviewed and merged
+* After merging, the changes will take effect within a day
 * That's it! Done! Now go show off your cool `.is-a.dev` domain
 
 ## Donate
