@@ -26,7 +26,10 @@ const validate = pattern => data => R.compose(
 const validateDomainData = validate({
   name: {
     reason: 'The name of the file is invalid',
-    fn: str => str.match(/^[A-Za-z0-9]{3,}$/ig),
+    fn: R.allPass([
+      hasLengthLessThan(100),
+      str => str && str.match(/^[A-Za-z0-9\-]{3,}$/ig),
+    ]),
   },
   description: {
     reason: 'Description has to be shorter than 100 characters',

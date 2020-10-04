@@ -1,6 +1,6 @@
 {
   "forceHttps": true,
   "record": {
-    "CNAME": "phenax.github.io"
+    "CNAME": ["phenax.github.io"]
   }
 }
