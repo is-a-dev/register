@@ -26,7 +26,7 @@ const validate = pattern => data => R.compose(
 )(pattern);
 
 const validateNameRecord = type => R.allPass([
-  R.compose(R.equals(1), R.length, R.keys),
+  R.compose(R.equals(1), R.length, R.reject(R.equals('URL')), R.keys),
   R.propSatisfies(R.is(Array), type),
 ]);
 
@@ -59,10 +59,12 @@ const validateDomainData = validate({
     reason: 'Invalid record',
     fn: R.allPass([
       R.is(Object),
+      //r => R.keys(r).
       R.cond([
         [R.prop('CNAME'),  validateNameRecord('CNAME')],
         [R.prop('ALIAS'),  validateNameRecord('ALIAS')],
         [R.prop('A'),      R.propSatisfies(R.is(Array), 'A')],
+        [R.prop('URL'),    R.propSatisfies(R.is(Array), 'URL')],
         [R.T, R.T],
       ]),
     ]),
