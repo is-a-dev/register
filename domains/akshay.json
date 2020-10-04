@@ -1,4 +1,10 @@
 {
+  "description": "Akshay's personal website",
+  "repo": "https://github.com/phenax/phenax.github.io",
+  "owner": {
+    "username": "phenax",
+    "email": "phenax5@gmail.com"
+  },
   "forceHttps": true,
   "record": {
     "CNAME": ["phenax.github.io"]
