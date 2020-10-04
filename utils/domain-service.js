@@ -43,6 +43,7 @@ const getDomainService = ({ Namecheap }) => {
     const key = getHostKey(host);
     return { ...acc, [key]: [ ...(acc[key] || []), host ] };
   }, {});
+
   const updateHosts = async hosts => {
     const hostList = await getHosts();
     const remoteHostMap = toHostMap(hostList);
@@ -58,7 +59,7 @@ const getDomainService = ({ Namecheap }) => {
       return [...acc, ...local];
     }, []);
 
-    await setHosts(newHostList);
+    return setHosts(newHostList);
   };
 
   return { getHosts, setHosts, updateHosts };
@@ -68,17 +69,4 @@ module.exports = {
   getDomainService,
   domainService: getDomainService({ Namecheap }),
 };
-
-//getDomainService({ Namecheap }).setHosts([
-  //{ HostName: 'fuck', RecordType: 'CNAME', Address: 'google.com', TTL },
-  //{ HostName: 'fuck.booboo.xyz', RecordType: 'URL', Address: 'https://fuck.booboo.xyz' },
-  //{ HostName: 'foobar', RecordType: 'CNAME', Address: 'duckduckgo.com', TTL },
-  //{ HostName: 'hello', RecordType: 'A', Address: '103.130.211.123', TTL },
-//]).then(console.log).catch(console.error);
-
-//getDomainService({ Namecheap }).getHosts()
-  //.then(console.log)
-  //.catch(console.error);
-
-//getDomainService({ Namecheap }).hasHost({ HostName: 'fuck', RecordType: 'CNAME', Address: 'duckduckgo.com' });
 

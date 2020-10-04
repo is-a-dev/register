@@ -115,33 +115,6 @@ describe('Domain service', () => {
         { HostName: 'b', RecordType: 'CNAME', Address: 'farboo' },
       ]);
     });
-
-    xit('should maintain existing entries on the server', async () => {
-      const records = [
-        { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
-        { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'goo' },
-        { HostId: 3, Name: 'c', Type: 'A', Address: '12.131321.213' },
-      ];
-
-      const onGet = () => Promise.resolve({ hosts: records });
-      const onSet = jest.fn(async () => ({}));
-
-      const mockDomainService = getDomainService({ Namecheap: getNcClass({ onSet, onGet }) });
-      await mockDomainService.updateHosts([
-        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
-        { HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
-      ]);
-
-      const [hosts] = onSet.mock.calls[0];
-
-      expect(hosts.map(R.pick(['HostName', 'RecordType', 'Address']))).toEqual([
-        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
-        { HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
-        { HostName: 'c', RecordType: 'A', Address: '12.131321.213' },
-      ]);
-      expect();
-      // expect(onSet).toBeCalledTimes(1);
-    });
   });
 });
 
