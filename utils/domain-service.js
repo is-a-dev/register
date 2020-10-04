@@ -23,16 +23,13 @@ const getDomainService = ({ Namecheap }) => {
 
     const list = await nc.dns.getHosts(NC_DOMAIN)
       .then(R.propOr([], 'hosts'))
-      .then(R.map(host => ({
+      .then(R.map(host => R.omit(['Name', 'Type'], {
         ...host,
         HostName: host.Name,
         RecordType: host.Type,
         Address: `${host.Address}`.replace(/\.$/g, ''),
-        Name: undefined,
-        Type: undefined,
       })));
 
-    //console.log(list);
     hostList = list;
     return list;
   };
@@ -41,24 +38,27 @@ const getDomainService = ({ Namecheap }) => {
     return nc.dns.setHosts(NC_DOMAIN, hosts);
   };
 
-  const findIndexHost = async host => {
-    const list = await getHosts();
-    return list.findIndex(R.whereEq({
-      RecordType: host.RecordType,
-      HostName: host.HostName,
-      Address: host.Address,
-      // MXPref: host.MXPref,
-      TTL: host.TTL || TTL,
-    }));
-  };
-
+  const getHostKey = host => `${host.HostName}--${host.RecordType}`;
+  const toHostMap = hosts => hosts.reduce((acc, host) => {
+    const key = getHostKey(host);
+    return { ...acc, [key]: [ ...(acc[key] || []), host ] };
+  }, {});
   const updateHosts = async hosts => {
     const hostList = await getHosts();
-    hosts.map(host => {
-      // 
-    });
-    // If source is bigger, merge all matching items and add new ones
-    // If dest is bigger, merge all matching items and add missing ones
+    const remoteHostMap = toHostMap(hostList);
+    const localHostMap = toHostMap(hosts);
+
+    const newHostList = R.toPairs(localHostMap).reduce((acc, [key, local]) => {
+      const remote = remoteHostMap[key];
+
+      if (remote) {
+        return acc.concat(local.map((localItem, index) => R.merge(remote[index], localItem)));
+      }
+
+      return [...acc, ...local];
+    }, []);
+
+    await setHosts(newHostList);
   };
 
   return { getHosts, setHosts, updateHosts };

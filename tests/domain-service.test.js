@@ -44,8 +44,8 @@ describe('Domain service', () => {
   describe('updateHosts', () => {
     it('should append new hosts with existing ones and set it', async () => {
       const records = [
-        { HostId: 1, HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
-        { HostId: 2, HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
+        { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
+        { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'goo' },
       ];
 
       const onGet = () => Promise.resolve({ hosts: records });
@@ -58,13 +58,19 @@ describe('Domain service', () => {
         { HostName: 'c', RecordType: 'A', Address: '12.131321.213' },
       ]);
 
-      console.log(onSet.mock.calls);
-      //expect(onSet).toBeCalledTimes(1);
+      const [hosts] = onSet.mock.calls[0];
+
+      expect(hosts.map(R.pick(['HostName', 'RecordType', 'Address']))).toEqual([
+        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
+        { HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
+        { HostName: 'c', RecordType: 'A', Address: '12.131321.213' },
+      ]);
     });
+
     it('should update matching host and set it', async () => {
       const records = [
-        { HostId: 1, HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
-        { HostId: 2, HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
+        { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
+        { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'goo' },
       ];
 
       const onGet = () => Promise.resolve({ hosts: records });
@@ -76,14 +82,45 @@ describe('Domain service', () => {
         { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },
       ]);
 
-      console.log(onSet.mock.calls);
-      //expect(onSet).toBeCalledTimes(1);
+      const [hosts] = onSet.mock.calls[0];
+
+      expect(hosts.map(R.pick(['HostName', 'RecordType', 'Address']))).toEqual([
+        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
+        { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },
+      ]);
     });
-    it('should maintain existing entries on the server', async () => {
+
+    it('should update matching host and set it', async () => {
       const records = [
-        { HostId: 1, HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
-        { HostId: 2, HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
-        { HostId: 3, HostName: 'c', RecordType: 'A', Address: '12.131321.213' },
+        { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
+        { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'goo' },
+        { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'xaa' },
+      ];
+
+      const onGet = () => Promise.resolve({ hosts: records });
+      const onSet = jest.fn(async () => ({}));
+
+      const mockDomainService = getDomainService({ Namecheap: getNcClass({ onSet, onGet }) });
+      await mockDomainService.updateHosts([
+        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
+        { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },
+        { HostName: 'b', RecordType: 'CNAME', Address: 'farboo' },
+      ]);
+
+      const [hosts] = onSet.mock.calls[0];
+
+      expect(hosts.map(R.pick(['HostName', 'RecordType', 'Address']))).toEqual([
+        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
+        { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },
+        { HostName: 'b', RecordType: 'CNAME', Address: 'farboo' },
+      ]);
+    });
+
+    xit('should maintain existing entries on the server', async () => {
+      const records = [
+        { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
+        { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'goo' },
+        { HostId: 3, Name: 'c', Type: 'A', Address: '12.131321.213' },
       ];
 
       const onGet = () => Promise.resolve({ hosts: records });
@@ -95,7 +132,14 @@ describe('Domain service', () => {
         { HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
       ]);
 
-      console.log(onSet.mock.calls);
+      const [hosts] = onSet.mock.calls[0];
+
+      expect(hosts.map(R.pick(['HostName', 'RecordType', 'Address']))).toEqual([
+        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
+        { HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
+        { HostName: 'c', RecordType: 'A', Address: '12.131321.213' },
+      ]);
+      expect();
       // expect(onSet).toBeCalledTimes(1);
     });
   });
