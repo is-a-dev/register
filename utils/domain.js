@@ -28,15 +28,20 @@ const validateDomainData = validate({
     reason: 'The name of the file is invalid',
     fn: R.allPass([
       hasLengthLessThan(100),
-      str => str && str.match(/^[A-Za-z0-9\-]{3,}$/ig),
+      str => str && str.match(/^[A-Za-z0-9\-]{2,}$/ig),
     ]),
   },
   description: {
-    reason: '`description` has to be shorter than 100 characters',
+    reason: '`description` has to be shorter than 200 characters',
     fn: R.anyPass([
       R.empty,
-      hasLengthLessThan(100),
+      R.is(String),
+      hasLengthLessThan(200),
     ]),
+  },
+  repo: {
+    reason: '',
+    fn: R.T,
   },
   forceHttps: {
     reason: '`forceHttp` is required to be true or false',
