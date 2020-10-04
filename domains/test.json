@@ -1,0 +1,11 @@
+{
+  "description": "Test website by akshay",
+  "owner": {
+    "username": "phenax",
+    "email": "phenax5@gmail.com"
+  },
+  "forceHttps": true,
+  "record": {
+    "CNAME": ["duckduckgo.com"]
+  }
+}
