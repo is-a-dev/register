@@ -14,7 +14,7 @@ This project is a free service for developers and will stay that way.
 
 Donations will be greatly appreciated!
 
-<a href="https://www.buymeacoffee.com/phenax"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg?style=flat-square" alt="Buy Me A Coffee donate button" /></a>
+<a href="https://www.buymeacoffee.com/phenax"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-blue.svg?style=flat-square" alt="Buy Me A Coffee donate button" /></a>
 <a href="https://liberapay.com/phenax"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=flat-square" alt="Liberapay recurring donation button" /></a>
 
 
