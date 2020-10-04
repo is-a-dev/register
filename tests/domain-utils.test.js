@@ -10,12 +10,16 @@ describe('getDomains', () => {
 const defaultDomain = {
   name: 'aaa',
   forceHttps: false,
-  record: { A: ['121.121.121.121'] },
+  record: {
+    A: ['121.121.121.121']
+  },
   owner: {
     username: 'betsy',
     email: 'betsyfuckyoassup@foobar.com',
   },
 };
+
+const getstroflen = len => Array(len).fill('a').join('');
 
 describe('validateDomainData', () => {
   const invalidCases = [
@@ -24,8 +28,7 @@ describe('validateDomainData', () => {
     { forceHttps: 1 },
     { name: 'helo' },
     { name: 'wwow', record: { A: ['12312'] } },
-    ...['', ' ', undefined, 'hello world', 'good12312++123', 'ajsdjasdaSD_123yuqehq', 'khsda%', '12112**dsd', Array(101).fill('a').join('')]
-    .map(name => ({
+    ...['', ' ', undefined, 'hlo wld', 'g32++13', 'ajsdD_123yq', 'khsda%', '122*dsd', getstroflen(101)].map(name => ({
       ...defaultDomain,
       name,
     })),
@@ -44,7 +47,7 @@ describe('validateDomainData', () => {
     })),
     {
       ...defaultDomain,
-      description: Array(99).fill('a').join(''),
+      description: getstroflen(99),
     },
   ];
 
@@ -59,6 +62,7 @@ describe('validateDomainData', () => {
   it('should return true if the name is valid', () => {
     validCases.forEach(data => {
       const { valid, errors } = validateDomainData(data);
+      if (!valid) console.log(errors);
       expect(valid).toBe(true);
       expect(errors).toEqual([]);
     });
