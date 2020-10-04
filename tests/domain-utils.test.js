@@ -33,7 +33,7 @@ describe('validateDomainData', () => {
       name,
     })),
     { ...defaultDomain, record: { CNAME: 'sd', A: ['121,3213'] } },
-    //{ ...defaultDomain, record: { FOOBAR: ['sd'] } },
+    { ...defaultDomain, record: { A: ['121', '12'], FOOBAR: ['sd'] } },
     { ...defaultDomain, owner: {}, },
     { ...defaultDomain, owner: { username: 'hwelo', }, },
     { ...defaultDomain, owner: { email: 'hwelo' }, },

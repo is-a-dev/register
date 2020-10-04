@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const R = require('ramda');
+const { VALID_RECORD_TYPES } = require('./constants');
 
 const DOMAINS_PATH = path.resolve('domains');
 
@@ -59,7 +60,7 @@ const validateDomainData = validate({
     reason: 'Invalid record',
     fn: R.allPass([
       R.is(Object),
-      //r => R.keys(r).
+      R.compose(R.isEmpty, R.flip(R.difference)(VALID_RECORD_TYPES), R.keys),
       R.cond([
         [R.prop('CNAME'),  validateNameRecord('CNAME')],
         [R.prop('ALIAS'),  validateNameRecord('ALIAS')],
