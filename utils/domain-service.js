@@ -1,18 +1,14 @@
 const R = require('ramda');
 const Namecheap = require('@rqt/namecheap');
+const { NC_DOMAIN, NC_USER, NC_API_KEY, ENV, IP_ADDRESS } = require('../utils/constants');
 
-const path = require('path');
-require('dotenv').config({ path: path.resolve('.env.sandbox') });
-
-const IS_SANDBOX = true;
-const { NC_USER, NC_API_KEY, NC_DOMAIN } = process.env;
-const TTL = 5*60;
+const IS_SANDBOX = ENV === 'sandbox';
 
 const getDomainService = ({ Namecheap }) => {
   const nc = new Namecheap({
     user: NC_USER,
     key: NC_API_KEY,
-    ip: '103.226.85.9',
+    ip: IP_ADDRESS,
     sandbox: IS_SANDBOX,
   });
 

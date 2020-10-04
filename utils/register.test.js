@@ -1,5 +1,5 @@
 const { toHostList } = require('../scripts/register-domains');
-const { NC_DOMAIN } = require('../utils/constants');
+const { NC_DOMAIN, TTL } = require('../utils/constants');
 
 describe('toHostList', () => {
   it('should flatten domain data to list of hosts (without https)', () => {
@@ -10,11 +10,11 @@ describe('toHostList', () => {
     ]);
 
     expect(res).toEqual([
-      { HostName: 'akshay', RecordType: 'CNAME', Address: 'phenax.github.io' },
-      { HostName: 'foobar', RecordType: 'CNAME', Address: 'v.io' },
-      { HostName: 'xx', RecordType: 'A', Address: '1.2.3.4' },
-      { HostName: 'xx', RecordType: 'A', Address: '5.6.3.2' },
-      { HostName: 'xx', RecordType: 'A', Address: '1.2.31.1' }
+      { HostName: 'akshay', RecordType: 'CNAME', Address: 'phenax.github.io', TTL },
+      { HostName: 'foobar', RecordType: 'CNAME', Address: 'v.io', TTL },
+      { HostName: 'xx', RecordType: 'A', Address: '1.2.3.4', TTL },
+      { HostName: 'xx', RecordType: 'A', Address: '5.6.3.2', TTL },
+      { HostName: 'xx', RecordType: 'A', Address: '1.2.31.1', TTL },
     ]);
   });
 
@@ -26,12 +26,12 @@ describe('toHostList', () => {
     ]);
 
     expect(res).toEqual([
-      { HostName: 'akshay', RecordType: 'CNAME', Address: 'phenax.github.io' },
+      { HostName: 'akshay', RecordType: 'CNAME', Address: 'phenax.github.io', TTL },
       { HostName: 'akshay', RecordType: 'URL', Address: `https://akshay.${NC_DOMAIN}` },
-      { HostName: 'foobar', RecordType: 'CNAME', Address: 'v.io' },
-      { HostName: 'xx', RecordType: 'A', Address: '1.2.3.4' },
-      { HostName: 'xx', RecordType: 'A', Address: '5.6.3.2' },
-      { HostName: 'xx', RecordType: 'A', Address: '1.2.31.1' },
+      { HostName: 'foobar', RecordType: 'CNAME', Address: 'v.io', TTL },
+      { HostName: 'xx', RecordType: 'A', Address: '1.2.3.4', TTL },
+      { HostName: 'xx', RecordType: 'A', Address: '5.6.3.2', TTL },
+      { HostName: 'xx', RecordType: 'A', Address: '1.2.31.1', TTL },
       { HostName: 'xx', RecordType: 'URL', Address: `https://xx.${NC_DOMAIN}` },
     ]);
   });

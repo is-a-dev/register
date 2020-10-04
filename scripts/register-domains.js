@@ -1,5 +1,5 @@
 const R = require('ramda');
-const { VALID_RECORD_TYPES, NC_DOMAIN } = require('../utils/constants');
+const { VALID_RECORD_TYPES, NC_DOMAIN, TTL } = require('../utils/constants');
 const { domainService: domain } = require('../utils/domain-service');
 const { getDomains } = require('../utils/domain');
 
@@ -13,6 +13,7 @@ const toHostList = R.chain(data => {
       HostName: data.name,
       RecordType: recordType,
       Address: url,
+      TTL,
     }))
   , rs);
 
