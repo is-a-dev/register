@@ -24,11 +24,12 @@ const registerDomains = async ({ domainService, getDomains }) => {
   if (domains.length === 0)
     return Promise.reject(new Error('Nothing to register'));
 
+  console.log(`Publishing ${domains.length} records...`);
   return domainService.updateHosts(domains);
 };
 
 const main = async () => {
-  console.log(`Registering domains in ${ENV}...`);
+  console.log(`Running in ${ENV} mode`);
   const result = await registerDomains({ domainService: dc, getDomains: gd });
   console.log(result);
 };
