@@ -20,6 +20,9 @@ const toHostList = R.chain(data => {
 
 const registerDomains = async ({ domainService, getDomains }) => {
   const domains = await getDomains().then(toHostList);
+  
+  if (domains.length === 0)
+    return Promise.reject(new Error('Nothing to register'));
 
   return domainService.updateHosts(domains);
 };
