@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  node: circleci/node@4.8.2
+  node: circleci/node@4.1.0
 jobs:
   validate:
     executor:
