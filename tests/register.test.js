@@ -1,5 +1,6 @@
-const { toHostList } = require('../scripts/register-domains');
+const { toHostList, registerDomains } = require('../scripts/register-domains');
 const { TTL } = require('../utils/constants');
+const { getDomainService } = require('../utils/domain-service');
 
 describe('toHostList', () => {
   it('should flatten domain data to list of hosts (without https)', () => {
@@ -18,3 +19,14 @@ describe('toHostList', () => {
     ]);
   });
 });
+
+describe('registerDomains', () => {
+  it('should register the new set of hosts generated from domains list', () => {
+    const localHosts = [];
+    const remoteHosts = [];
+
+    //const domainService = getDomainService({ Namecheap:  });
+    //registerDomains({ getDomains: async () => localHosts, domainService });
+  });
+});
+

@@ -1,12 +1,12 @@
 const R = require('ramda');
 const { getDomainService } = require('../utils/domain-service');
 
-const getNcClass = ({ onSet, onGet } = {}) => class Namecheap {
-  dns = {
+const getNc = ({ onSet, onGet } = {}) => ({
+  dns: {
     setHosts: (_, list) => onSet(list),
     getHosts: (_) => onGet(),
-  };
-};
+  },
+});
 
 describe('Domain service', () => {
   describe('getHosts', () => {
@@ -16,7 +16,7 @@ describe('Domain service', () => {
         { Name: 'xx', Type: 'A', Address: '111.1.1212.1' },
       ];
       const onGet = async () => ({ hosts })
-      const mockDomainService = getDomainService({ Namecheap: getNcClass({ onGet }) });
+      const mockDomainService = getDomainService({ nc: getNc({ onGet }) });
       const list = await mockDomainService.getHosts();
 
       expect(list).toEqual([
@@ -35,7 +35,7 @@ describe('Domain service', () => {
         return Promise.resolve(null);
       });
 
-      const mockDomainService = getDomainService({ Namecheap: getNcClass({ onSet }) });
+      const mockDomainService = getDomainService({ nc: getNc({ onSet }) });
       await mockDomainService.setHosts(records);
       expect(onSet).toBeCalledTimes(1);
     });
@@ -51,7 +51,7 @@ describe('Domain service', () => {
       const onGet = () => Promise.resolve({ hosts: records });
       const onSet = jest.fn(async () => ({}));
 
-      const mockDomainService = getDomainService({ Namecheap: getNcClass({ onSet, onGet }) });
+      const mockDomainService = getDomainService({ nc: getNc({ onSet, onGet }) });
       await mockDomainService.updateHosts([
         { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
         { HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
@@ -76,7 +76,7 @@ describe('Domain service', () => {
       const onGet = () => Promise.resolve({ hosts: records });
       const onSet = jest.fn(async () => ({}));
 
-      const mockDomainService = getDomainService({ Namecheap: getNcClass({ onSet, onGet }) });
+      const mockDomainService = getDomainService({ nc: getNc({ onSet, onGet }) });
       await mockDomainService.updateHosts([
         { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
         { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },
@@ -100,7 +100,7 @@ describe('Domain service', () => {
       const onGet = () => Promise.resolve({ hosts: records });
       const onSet = jest.fn(async () => ({}));
 
-      const mockDomainService = getDomainService({ Namecheap: getNcClass({ onSet, onGet }) });
+      const mockDomainService = getDomainService({ nc: getNc({ onSet, onGet }) });
       await mockDomainService.updateHosts([
         { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
         { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },

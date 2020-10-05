@@ -4,14 +4,7 @@ const { NC_DOMAIN, NC_USER, NC_API_KEY, ENV, IP_ADDRESS } = require('../utils/co
 
 const IS_SANDBOX = ENV === 'sandbox';
 
-const getDomainService = ({ Namecheap }) => {
-  const nc = new Namecheap({
-    user: NC_USER,
-    key: NC_API_KEY,
-    ip: IP_ADDRESS,
-    sandbox: IS_SANDBOX,
-  });
-
+const getDomainService = ({ nc }) => {
   let hostList = [];
 
   const getHosts = async () => {
@@ -57,10 +50,18 @@ const getDomainService = ({ Namecheap }) => {
   };
 
   return { getHosts, setHosts, updateHosts };
-}
+};
+
+const nc = new Namecheap({
+  user: NC_USER,
+  key: NC_API_KEY,
+  ip: IP_ADDRESS,
+  sandbox: IS_SANDBOX,
+});
+
+const domainService = getDomainService({ nc });
 
 module.exports = {
   getDomainService,
-  domainService: getDomainService({ Namecheap }),
+  domainService,
 };
-
