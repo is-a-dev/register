@@ -1,14 +1,12 @@
 version: 2.1
 orbs:
-  node: circleci/node@4.1.0
+  node: circleci/node@4.8.2
 jobs:
-  build:
+  validate:
     executor:
       name: node/default
       tag: '14'
     steps:
       - checkout
-      - node/with-cache:
-          steps:
-            - run: yarn
+      - run: yarn
       - run: yarn test
