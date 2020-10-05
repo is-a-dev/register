@@ -34,7 +34,7 @@ const main = async () => {
 };
 
 if (require.main === module) {
-  main();
+  main().catch(console.error);
 } else {
   module.exports = { toHostList, registerDomains };
 }
