@@ -4,7 +4,7 @@
 
 is-a-dev is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
 
-Note: This service is currently in beta so expect some delays in PR merge.
+Note: This service is currently in **beta** so expect some delays in PR merge.
 
 
 ## How do I register?
@@ -27,7 +27,7 @@ Donations will be greatly appreciated!
 
 
 ## Report abuse
-If you think someone is abusing a domain you can report it by creating an issue with the label "report-abuse".
+If you think someone is abusing a domain you can report it by creating an issue with the label `report-abuse`.
 
 
 
