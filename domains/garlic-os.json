@@ -5,7 +5,7 @@
     "username": "the-garlic-os",
     "email": "sisdfk@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "the-garlic-os.github.io"
   }
 }
