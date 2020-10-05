@@ -1,5 +1,5 @@
 const R = require('ramda');
-const { VALID_RECORD_TYPES, TTL } = require('../utils/constants');
+const { VALID_RECORD_TYPES, TTL, ENV } = require('../utils/constants');
 const { domainService: dc } = require('../utils/domain-service');
 const { getDomains: gd } = require('../utils/domain');
 
@@ -28,7 +28,7 @@ const registerDomains = async ({ domainService, getDomains }) => {
 };
 
 const main = async () => {
-  console.log('Registering domains...');
+  console.log(`Registering domains in ${ENV}...`);
   const result = await registerDomains({ domainService: dc, getDomains: gd });
   console.log(result);
 };
