@@ -5,7 +5,7 @@ is-a-dev is a service that allows developers to get a sweet-looking `.is-a.dev` 
 ## How do I register?
 * Fork this project
 * Add a `your-domain-name.json` new file in `domains/` directory to register `your-domain-name.is-a.dev`
-* [Read the api reference for the json file](./API.md)
+* [Read the docs for information about the json file](./API.md)
 * The PR will be reviewed and merged
 * After merging, the changes will take effect within a day
 * That's it! Done! Now go show off your cool `.is-a.dev` domain
