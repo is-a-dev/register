@@ -3,9 +3,7 @@ orbs:
   node: circleci/node@4.1.0
 jobs:
   build:
-    executor:
-      name: node/default
-      tag: '13'
+    executor: node/default
     steps:
       - checkout
       - run: yarn
