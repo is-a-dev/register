@@ -18,7 +18,7 @@ const getDomains = () =>
       name: name.replace(/\.json$/, ''),
     })));
 
-const hasLengthLessThan = len => R.compose(R.not, R.lt(len), R.length);
+const between = (min, max) => num => num >= min && num <= max;
 
 const validate = pattern => data => R.compose(
   invalidPairs => invalidPairs.length ? { errors: invalidPairs, valid: false } : { errors: [], valid: true },
@@ -34,9 +34,12 @@ const validateNameRecord = type => R.allPass([
 const validateDomainData = validate({
   name: {
     reason: 'The name of the file is invalid',
-    fn: R.allPass([
-      hasLengthLessThan(100),
-      str => str && str.match(/^[A-Za-z0-9\-]{2,}$/ig),
+    fn: R.anyPass([
+      R.equals('@'),
+      R.allPass([
+        R.compose(between(2, 100), R.length),
+        str => str && str.match(/^[A-Za-z0-9\-]+$/ig),
+      ])
     ]),
   },
   description: { reason: '', fn: R.T, },
