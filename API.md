@@ -27,6 +27,10 @@ Example (for github pages) -
 The way you register your own domain name is through a pull request.
 To register `my-domain.is-a.dev`, you need to create a `domains/my-domain.json` file
 
+The file name must pass the following criteria -
+* Must be alpha numeric with dashes as seperators
+* Must be more than 2 characters long
+
 The file needs to have the following fields -
 
 ### owner (required)
@@ -76,7 +80,7 @@ Replace CNAME with ALIAS for alias record type
       "999.999.991.999",
       "999.999.992.999",
       "999.999.993.999",
-      "999.999.994.999",
+      "999.999.994.999"
     ]
   }
 }
