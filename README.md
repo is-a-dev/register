@@ -3,7 +3,7 @@ Register a free `yourname.is-a.dev` domain
 
 ## How do I register?
 * Fork this project
-* Add a `domain-name.json` new file in `domains/` directory
+* Add a `your-domain-name.json` new file in `domains/` directory to register `your-domain-name.is-a.dev`
 * [Read the api reference for the json file](./API.md)
 * The PR will be reviewed and merged
 * After merging, the changes will take effect within a day
