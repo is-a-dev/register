@@ -5,7 +5,7 @@ jobs:
   build:
     executor:
       name: node/default
-      tag: '14'
+      tag: '13'
     steps:
       - checkout
       - run: yarn
