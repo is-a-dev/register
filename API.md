@@ -1,4 +1,4 @@
-# API Reference
+# Documentation
 
 ## How to register
 * First you need to create a pull request with your `domains/my-domain.json` file
@@ -27,6 +27,8 @@ Example (for github pages) -
 The way you register your own domain name is through a pull request.
 To register `my-domain.is-a.dev`, you need to create a `domains/my-domain.json` file
 
+The file needs to have the following fields -
+
 ### owner (required)
 You need to specify some information about yourself here.
 This is so that you can be contacted if required.
@@ -49,12 +51,14 @@ Describe your domain name and your usage. This is purely for documentation purpo
 This is a link to your website repository or your github account. This is purely for documentation purpose and is optional.
 
 
-### records
+### records (required)
 This is where you specify how you want to link to your server/webpage.
 
 Currently, only `CNAME`, `ALIAS`, `A`, `URL` record types are supported.
 
-##### CNAME/ALIAS
+Here's a few different use cases for the given record types -
+
+* **CNAME/ALIAS**
 Replace CNAME with ALIAS for alias record type
 ```json
 {
@@ -64,7 +68,7 @@ Replace CNAME with ALIAS for alias record type
 }
 ```
 
-##### A record
+* **A record**
 ```json
 {
   "records": {
@@ -78,7 +82,7 @@ Replace CNAME with ALIAS for alias record type
 }
 ```
 
-##### URL redirection
+* **URL redirection**
 ```json
 {
   "records": {
@@ -87,7 +91,7 @@ Replace CNAME with ALIAS for alias record type
 }
 ```
 
-##### Force HTTPS on your CNAME (or ALIAS or A) record
+* **Force HTTPS on your CNAME (or ALIAS or A) record**
 ```json
 {
   "records": {
