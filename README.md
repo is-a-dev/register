@@ -9,7 +9,7 @@ Register a free `yourname.is-a.dev` domain
 * After merging, the changes will take effect within a day
 * That's it! Done! Now go show off your cool `.is-a.dev` domain
 
-## Donate
+## Donations
 This project is a free service for developers and will stay that way.
 
 Donations will be greatly appreciated!
