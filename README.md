@@ -1,4 +1,7 @@
-# is-a-dev
+![is-a-dev banner](./media/banner.svg)
+
+<hr />
+
 is-a-dev is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
 
 
