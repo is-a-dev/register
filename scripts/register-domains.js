@@ -21,7 +21,7 @@ const toHostList = R.chain(data => {
 const registerDomains = async ({ domainService, getDomains }) => {
   const domains = await getDomains().then(toHostList);
 
-  console.log(domains);
+  await domainService.updateHosts(domains);
 };
 
 const main = () => {
