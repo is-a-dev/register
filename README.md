@@ -1,8 +1,6 @@
 # is-a-dev
 Register a free `yourname.is-a.dev` domain
 
-[NOTE: Work in progress. This is not usable yet]
-
 ## How do I register?
 * Fork this project
 * Add a `domain-name.json` new file in `domains/` directory
