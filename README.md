@@ -1,5 +1,6 @@
 # is-a-dev
-Register a free `yourname.is-a.dev` domain
+is-a-dev is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
+
 
 ## How do I register?
 * Fork this project
@@ -8,6 +9,7 @@ Register a free `yourname.is-a.dev` domain
 * The PR will be reviewed and merged
 * After merging, the changes will take effect within a day
 * That's it! Done! Now go show off your cool `.is-a.dev` domain
+
 
 ## Donations
 This project is a free service for developers and will stay that way.
