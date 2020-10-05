@@ -1,7 +1,7 @@
 const R = require('ramda');
 const { VALID_RECORD_TYPES, TTL } = require('../utils/constants');
-const { domainService: domain } = require('../utils/domain-service');
-const { getDomains } = require('../utils/domain');
+const { domainService: dc } = require('../utils/domain-service');
+const { getDomains: gd } = require('../utils/domain');
 
 const getRecords = R.compose(R.toPairs, R.pick(VALID_RECORD_TYPES));
 
@@ -21,11 +21,13 @@ const toHostList = R.chain(data => {
 const registerDomains = async ({ domainService, getDomains }) => {
   const domains = await getDomains().then(toHostList);
 
-  await domainService.updateHosts(domains);
+  return domainService.updateHosts(domains);
 };
 
-const main = () => {
-  console.log('Running cli');
+const main = async () => {
+  console.log('Registering domains...');
+  const result = await registerDomains({ domainService: dc, getDomains: gd });
+  console.log(result);
 };
 
 if (require.main === module) {
