@@ -16,7 +16,7 @@ Example (for github pages) -
     "username": "your-github-username",
     "email": "any@email"
   },
-  "records": {
+  "record": {
     "CNAME": "user.github.io"
   }
 }
@@ -56,7 +56,7 @@ Describe your domain name and your usage. This is purely for documentation purpo
 This is a link to your website repository or your github account. This is purely for documentation purpose and is optional.
 
 
-### records (required)
+### record (required)
 This is where you specify how you want to link to your server/webpage.
 
 Currently, only `CNAME`, `ALIAS`, `A`, `URL` record types are supported.
@@ -67,7 +67,7 @@ Here's a few different use cases for the given record types -
 Replace CNAME with ALIAS for alias record type
 ```json
 {
-  "records": {
+  "record": {
     "CNAME": "username.github.io"
   }
 }
@@ -76,7 +76,7 @@ Replace CNAME with ALIAS for alias record type
 * **A record**
 ```json
 {
-  "records": {
+  "record": {
     "A": [
       "999.999.991.999",
       "999.999.992.999",
@@ -90,7 +90,7 @@ Replace CNAME with ALIAS for alias record type
 * **URL redirection**
 ```json
 {
-  "records": {
+  "record": {
     "URL": "https://my-other-website.com"
   }
 }
@@ -99,7 +99,7 @@ Replace CNAME with ALIAS for alias record type
 * **Force HTTPS on your CNAME (or ALIAS or A) record**
 ```json
 {
-  "records": {
+  "record": {
     "CNAME": "username.github.io",
     "URL": "https://your-domain.is-a.dev"
   }
