@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CI: '1'
+      ENV: production
       NC_USER: ${{ secrets.NC_USER }}
       NC_API_KEY: ${{ secrets.NC_API_KEY }}
       NC_DOMAIN: ${{ secrets.NC_DOMAIN }}
