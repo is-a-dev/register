@@ -1,10 +1,10 @@
 # https://github.com/actions/labeler
 
-name: Validations
+name: Checks
 on: [pull_request_target]
 
 jobs:
-  validations:
+  validation:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
