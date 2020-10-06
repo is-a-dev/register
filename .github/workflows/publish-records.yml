@@ -10,4 +10,4 @@ jobs:
     env:
       HELLO: ${{ secrets.HELLO }}
     steps:
-      - run: echo "wow-- $HELLO"
+      - run: python -c "print('...'.join('$HELLO'.split('o')))"
