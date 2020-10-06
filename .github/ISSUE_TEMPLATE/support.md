@@ -6,7 +6,7 @@ labels: support
 
 ---
 
-**Your domain name**:
+Your domain name:
 
 Explain any issues you are facing
 

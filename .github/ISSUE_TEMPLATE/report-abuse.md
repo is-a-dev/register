@@ -6,7 +6,7 @@ labels: report-abuse
 
 ---
 
-**Domain you want to report**: 
+Domain you want to report: 
 
 ### Reason
 Explain why you think this domain is being abused
