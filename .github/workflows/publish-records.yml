@@ -2,12 +2,26 @@ name: Publish records
 
 on:
   workflow_dispatch:
-    name: 'Publish all records'
+    name: 'Publish records'
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      HELLO: ${{ secrets.HELLO }}
+      NC_USER: ${{ secrets.NC_USER }}
+      NC_API_KEY: ${{ secrets.NC_API_KEY }}
+      NC_DOMAIN: ${{ secrets.NC_DOMAIN }}
+      IP_ADDRESS: ${{ secrets.IP_ADDRESS }}
     steps:
-      - run: python -c "print('...'.join('$HELLO'.split('o')))"
+      - uses: actions/checkout@v2
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install
+      - name: Running tests
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: test
+      - name: Publishing records
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: publish-records
