@@ -1,6 +1,6 @@
 # https://github.com/actions/labeler
 
-name: Maintainence
+name: Validations
 on: pull_request
 
 jobs:
