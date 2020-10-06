@@ -1,7 +1,8 @@
 const path = require('path');
 
-if (!process.env.CI) {
-  const { ENV = 'sandbox' } = process.env;
+const { ENV = 'sandbox', CI } = process.env;
+
+if (!CI) {
   require('dotenv').config({ path: path.resolve(`.env.${ENV}`) });
 }
 
