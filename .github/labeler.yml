@@ -3,4 +3,4 @@ domain:
 
 documentation:
   - ./*.md
-  - docs/*.md
+  - ./**/*.md

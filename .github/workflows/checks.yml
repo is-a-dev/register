@@ -19,6 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Labelling pull request
-        uses: actions/labeler@v2
+        uses: actions/labeler@main
         with:
-          repo-token: "${{secrets.GITHUB_TOKEN}}"
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
