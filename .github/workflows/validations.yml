@@ -4,10 +4,20 @@ name: Validations
 on: [pull_request_target]
 
 jobs:
+  validations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: test
   label:
     runs-on: ubuntu-latest
     steps:
-    - name: Labelling pull request
-      uses: actions/labeler@v2
-      with:
-        repo-token: "${{secrets.GITHUB_TOKEN}}"
+      - name: Labelling pull request
+        uses: actions/labeler@v2
+        with:
+          repo-token: "${{secrets.GITHUB_TOKEN}}"
