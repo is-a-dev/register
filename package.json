@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Register *.is-a.dev domains for free",
   "scripts": {
-    "test": "jest",
+    "test": "ENV=test jest",
     "publish-records": "yarn test && node ./scripts/register-domains.js"
   },
   "repository": {
