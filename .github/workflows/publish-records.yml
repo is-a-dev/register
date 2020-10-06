@@ -1,0 +1,11 @@
+name: Publish records
+
+on:
+  workflow_dispatch:
+    name: 'Publish all records'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello yo"

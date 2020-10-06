@@ -1,0 +1,13 @@
+# https://github.com/actions/labeler
+
+name: Maintainence
+on: pull_request
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Labelling pull request
+      uses: actions/labeler@v2
+      with:
+        repo-token: "${{secrets.GITHUB_TOKEN}}"
