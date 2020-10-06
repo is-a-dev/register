@@ -57,7 +57,7 @@ if (!NC_API_KEY) {
   process.exit(1);
 }
 
-console.log('>>>> iii', `${process.env.IP_ADDRESS}`.split('.'));
+console.log('>>>> iii', `${process.env.NC_API_KEY}`.length);
 
 const nc = new Namecheap({
   user: NC_USER,
