@@ -8,4 +8,4 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Hello yo"
+      - run: echo "Hello yo"
