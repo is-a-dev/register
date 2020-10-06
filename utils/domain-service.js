@@ -52,6 +52,11 @@ const getDomainService = ({ nc }) => {
   return { getHosts, setHosts, updateHosts };
 };
 
+if (!NC_API_KEY) {
+  console.error('NC_API_KEY cannot be empty');
+  process.exit(1);
+}
+
 const nc = new Namecheap({
   user: NC_USER,
   key: NC_API_KEY,
