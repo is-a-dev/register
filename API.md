@@ -22,6 +22,8 @@ Example (for github pages) -
 }
 ```
 
+NOTE: For github pages users, to fix the 404 you get after registering the domain, add `your-domain.is-a.dev` to your github pages repo in Settings > Github pages > Custom domain.
+
 
 ## Domains json file
 The way you register your own domain name is through a pull request.

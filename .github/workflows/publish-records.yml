@@ -1,0 +1,25 @@
+name: Publish records
+
+on:
+  workflow_dispatch:
+    name: 'Publish records'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      CI: '1'
+      ENV: production
+      NC_USER: ${{ secrets.NC_USER }}
+      NC_API_KEY: ${{ secrets.NC_API_KEY }}
+      NC_DOMAIN: ${{ secrets.NC_DOMAIN }}
+      IP_ADDRESS: ${{ secrets.IP_ADDRESS }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install
+      - name: Publishing records
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: publish-records
