@@ -11,7 +11,8 @@ jobs:
       - uses: borales/actions-yarn@v2.0.0
         with:
           cmd: install
-      - uses: borales/actions-yarn@v2.0.0
+      - name: Running tests
+        uses: borales/actions-yarn@v2.0.0
         with:
           cmd: test
   label:

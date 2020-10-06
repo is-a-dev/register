@@ -7,5 +7,7 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    env:
+      HELLO: ${{ secrets.HELLO }}
     steps:
-      - run: echo "Hello yo"
+      - run: echo "wow-- $HELLO"
