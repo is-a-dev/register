@@ -1,6 +1,9 @@
 const path = require('path');
-const { ENV = 'sandbox' } = process.env;
-require('dotenv').config({ path: path.resolve(`.env.${ENV}`) });
+
+if (!process.env.CI) {
+  const { ENV = 'sandbox' } = process.env;
+  require('dotenv').config({ path: path.resolve(`.env.${ENV}`) });
+}
 
 const { NC_USER, NC_API_KEY, NC_DOMAIN, IP_ADDRESS } = process.env;
 
