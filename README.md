@@ -1,4 +1,4 @@
-![is-a-dev banner](./media/banner.svg)
+![is-a-dev banner](./media/banner.png)
 
 <br />
 
