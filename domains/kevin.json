@@ -1,0 +1,12 @@
+{
+  "description": "Kevin is a Dev",
+  "repo": "https://github.com/ikevin",
+  "owner": {
+    "username": "ikevin",
+    "email": "ikevin@gmail.com"
+  },
+  "record": {
+    "CNAME": "ikevin.github.io",
+    "URL": "https://ikevin.is-a.dev"
+  }
+}
