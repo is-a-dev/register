@@ -13,7 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Comment
-        if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request_target.merged == true
+        if: github.event_name == 'pull_request' && github.event.action == 'closed'
+        # && github.event.pull_request_target.merged == true
         uses: actions/github-script@v3
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
