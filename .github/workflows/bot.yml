@@ -9,7 +9,6 @@ jobs:
   instructions:
     name: instructions
     runs-on: ubuntu-latest
-    if: 
     steps:
       - uses: actions/checkout@v2
       - name: Comment
