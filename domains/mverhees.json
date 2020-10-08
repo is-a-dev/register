@@ -1,0 +1,12 @@
+{
+    "description": "Mike's website",
+    "repo": "https://github.com/MikeVerhees/MikeVerhees.github.io",
+    "owner": {
+        "username": "MikeVerhees",
+        "email": "mikeverhees95@gmail.com"
+    },
+    "record": {
+        "CNAME": "MikeVerhees.github.io",
+        "URL": "https://mverhees.is-a.dev"
+    }
+}
