@@ -1,0 +1,11 @@
+{
+  "description": " Charlie is a Dev",
+  "owner": {
+    "username": "cachrisman",
+    "email": "charlie.chrisman@gmail.com"
+  },
+  "record": {
+    "CNAME": "www.charliechrisman.com",
+    "URL": "https://charlie.is-a.dev"
+  }
+}
