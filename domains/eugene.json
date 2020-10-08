@@ -1,0 +1,12 @@
+{
+  "description": "Home for Eugene",
+  "repo": "https://github.com/fidesachates/fidesachates.github.io",
+  "owner": {
+    "username": "fidesachates",
+    "email": "fidesachates@protonmail.com"
+  },
+  "record": {
+    "CNAME": "fidesachates.github.io",
+    "URL": "https://eugene.is-a.dev"
+  }
+}
