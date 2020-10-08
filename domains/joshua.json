@@ -1,0 +1,12 @@
+{
+    "description": "Joshua's personal developer website",
+    "repo": "https://github.com/JoshuaCarroll",
+    "owner": {
+        "username": "joshuacarroll",
+        "email": "joshcarroll@hotmail.com"
+    },
+    "record": {
+        "CNAME": "aa5jc.com",
+        "URL": "http://aa5jc.com"
+    }
+}
