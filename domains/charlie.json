@@ -1,11 +1,12 @@
 {
   "description": " Charlie is a Dev",
+  "repo": "https://github.com/cachrisman/cachrisman.github.io",
   "owner": {
     "username": "cachrisman",
     "email": "charlie.chrisman@gmail.com"
   },
   "record": {
-    "CNAME": "www.charliechrisman.com",
+    "CNAME": "cachrisman.github.io",
     "URL": "https://charlie.is-a.dev"
   }
 }
