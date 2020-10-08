@@ -11,6 +11,7 @@ If your domain points to a server you own, add \`domain-name.is-a.dev\` to your 
 * Open up the **settings** tab
 * Scroll down to the **Github pages** section
 * In the **Custom domain** text input, enter the domain you registered (\`domain-name.is-a.dev\`)
+* Check the 'Enforce HTTPS' check box if you added the URL record for forced https redirection
 * Give it some time to reflect and you should be good to go
 
 
