@@ -1,0 +1,13 @@
+  
+{
+    "description": "Rayvid's website",
+    "repo": "https://github.com/Rayvid",
+    "owner": {
+        "username": "rayvid",
+        "email": "gin.kisonas@gmail.com"
+    },
+    "record": {
+        "CNAME": "rayvid.github.io",
+        "URL": "https://rayvid.is-a.dev"
+    }
+}
