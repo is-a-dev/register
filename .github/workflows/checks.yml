@@ -10,6 +10,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
+          fetch-depth: 0
       - name: Installing dependencies
         uses: borales/actions-yarn@v2.0.0
         with:
