@@ -4,13 +4,14 @@ The changes you have made will soon be reflected!!
 
 ## Here\'s what you need to do next
 
-If your domain points to a server you own, add \`domain-name.is-a.dev\` to your server config.
+If your domain points to a server you own, add \`domain-name.is-a.dev\` to your server config. For https, you will have to configure ssl certificate to allow the new subdomain.
 
 ### For github pages users,
 * Go to your github page repo (\`user/user.github.io\`)
 * Open up the **settings** tab
 * Scroll down to the **Github pages** section
 * In the **Custom domain** text input, enter the domain you registered (\`domain-name.is-a.dev\`)
+* Check the 'Enforce HTTPS' check box if you added the URL record for forced https redirection
 * Give it some time to reflect and you should be good to go
 
 
