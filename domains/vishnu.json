@@ -1,0 +1,12 @@
+{
+    "description": "Don't trust. Verify",
+    "repo": "https://github.com/merkle-groot/merkle-groot.github.io",
+    "owner": {
+        "username": "merkle-groot",
+        "email": "visheh10@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://merkle-groot.github.io/",
+        "URL": "https://vishnu.is-a.dev"
+    }
+}
