@@ -1,0 +1,12 @@
+{
+  "description": "GitHub profile page",
+  "repo": "https://github.com/rmariuzzo/rmariuzzo",
+  "owner": {
+    "username": "rmariuzzo",
+    "email": "rubens@mariuzzo.com"
+  },
+  "record": {
+    "CNAME": "https://github.com/rmariuzzo",
+    "URL": "https://rmariuzzo.is-a.dev"
+  }
+}
