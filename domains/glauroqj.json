@@ -1,9 +1,10 @@
 {
-  "description": "glauroqj personal blog",
+  "description": "glauroqj personal site",
   "owner": {
     "username": "glauroqj",
     "email": "glauro.juliani@hotmail.com"
   },
+  "repo": "https://github.com/glauroqj/register",
   "record": {
     "URL": "http://glauroqj.is-a.dev"
   }
