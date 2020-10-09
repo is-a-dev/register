@@ -1,0 +1,11 @@
+{
+  "description": "tokyo.is-a.dev",
+  "repo": "https://github.com/is-a-dev/is-a-dev.github.io",
+  "owner": {
+    "username": "a-tokyo",
+    "email": "ahmed.tokyo1@gmail.com"
+  },
+  "record": {
+    "CNAME": "is-a-dev.github.io"
+  }
+}
