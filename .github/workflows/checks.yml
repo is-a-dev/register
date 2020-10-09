@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          repository: ${{ github.repository }}
           ref: ${{ github.head_ref }}
           fetch-depth: 0
       - name: Installing dependencies
