@@ -1,0 +1,12 @@
+{
+    "description": "Aaron's personal developer website",
+    "repo": "https://github.com/aaron-harvey",
+    "owner": {
+        "username": "cabbage",
+        "email": "1255651384@qq.com"
+    },
+    "record": {
+        "CNAME": "cabbage.com",
+        "URL": "https://cabbage.is-a.dev"
+    }
+}
