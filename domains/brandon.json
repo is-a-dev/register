@@ -1,12 +1,12 @@
 {
   "description": "Brandons's personal developer website",
-  "repo": "https://github.com/b-hexsoul",
+  "repo": "https://github.com/b-hexsoul/b-hexsoul",
   "owner": {
     "username": "b-hexsoul",
     "email": "brandon.hexsel@gmail.com"
   },
   "record": {
-    "CNAME": "b-hexsoul.github.io",
+    "CNAME": "https://b-hexsoul.github.io/b-hexsoul/",
     "URL": "https://brandon.is-a.dev"
   }
 }
