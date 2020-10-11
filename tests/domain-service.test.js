@@ -2,8 +2,8 @@ const R = require('ramda');
 const { getDomainService } = require('../utils/domain-service');
 
 const getCpanel = ({ zone, redir, setZone, setRedir } = {}) => ({
-  addZoneRecord: (host) => setZone(host),
-  addRedirection: (_) => setRedir(),
+  addZoneRecord: (rec) => setZone(rec),
+  addRedirection: (rec) => setRedir(rec),
   fetchZoneRecords: (_) => zone(),
   fetchRedirections: (_) => redir(),
 });
@@ -50,21 +50,47 @@ describe('Domain service', () => {
     });
   });
 
-  return;
   describe('setHosts', () => {
     it('should resolve with a list of hosts', async () => {
-      const records = [ { x: 'y' }, { z: 'a' } ];
+      const records = [
+        { name: 'xx', type: 'CNAME', address: 'fck.com' },
+        { name: 'xx', type: 'A', address: '111.1.1212.1' },
+        { name: 'foo', type: 'URL', address: 'https://google.com' },
+        { name: 'foo1', type: 'URL', address: 'https://duck.com' },
+      ];
 
       const setZone = jest.fn(async () => {});
+      const setRedir = jest.fn(async () => {});
 
-      const mockDomainService = getDomainService({ cpanel: getCpanel({ setZone }) });
+      const mockDomainService = getDomainService({ cpanel: getCpanel({ setZone, setRedir }) });
       await mockDomainService.setHosts(records);
 
       expect(setZone).toBeCalledTimes(2);
-      expect(setZone.mock.calls.map(R.head)).toEqual([ { x: 'y' }, { z: 'a' } ]);
+      expect(setRedir).toBeCalledTimes(2);
+      expect(setZone.mock.calls.map(R.head)).toEqual([
+        { name: 'xx', type: 'CNAME', address: 'fck.com' },
+        { name: 'xx', type: 'A', address: '111.1.1212.1' },
+      ]);
+      expect(setRedir.mock.calls.map(R.head)).toEqual([
+        {
+          domain: 'foo.booboo.xyz',
+          redirect: 'https://google.com',
+          redirect_wildcard: 1,
+          redirect_www: 0,
+          type: 'permanent',
+        },
+        {
+          domain: 'foo1.booboo.xyz',
+          redirect: 'https://duck.com',
+          redirect_wildcard: 1,
+          redirect_www: 0,
+          type: 'permanent',
+        },
+      ]);
     });
   });
 
+  return;
 
   describe('updateHosts', () => {
     it('should append new hosts with existing ones and set it', async () => {

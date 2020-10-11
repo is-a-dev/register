@@ -4,21 +4,35 @@ const {DOMAIN_DOMAIN} = require('./constants');
 
 const flattenPromise = xs => Promise.all(xs);
 
+const recordToRedirection = ({ name, address }) => ({
+  domain: `${name}.${DOMAIN_DOMAIN}`,
+  redirect: address,
+  type: 'permanent',
+  redirect_wildcard: 1,
+  redirect_www: 0,
+});
+const recordToZone = R.identity;
+
+const zoneToRecord = ({ name, type, cname, address, ...host }) => ({
+  ...host,
+  name: `${name}`,
+  type: `${type}`,
+  address: `${cname || address}`.replace(/\.$/g, ''),
+});
+const redirectionToRecord = ({ domain, destination }) => ({
+  name: `${domain}`.replace('.' + DOMAIN_DOMAIN, ''),
+  type: 'URL',
+  address: `${destination}`,
+});
+
 const getDomainService = ({ cpanel }) => {
   let hostList = [];
 
-  const fetchZoneRecords = () => cpanel.fetchZoneRecords().then(R.map(host => ({
-    ...host,
-    name: `${host.name}`,
-    type: `${host.type}`,
-    address: `${host.cname || host.address}`.replace(/\.$/g, ''),
-  })));
+  const fetchZoneRecords = () => cpanel.fetchZoneRecords().then(R.map(zoneToRecord));
+  const fetchRedirections = () => cpanel.fetchRedirections().then(R.map(redirectionToRecord));
 
-  const fetchRedirections = () => cpanel.fetchRedirections().then(R.map(host => ({
-    name: `${host.domain}`.replace('.' + DOMAIN_DOMAIN, ''),
-    type: 'URL',
-    address: `${host.destination}`,
-  })));
+  const addZoneRecord = R.compose(cpanel.addZoneRecord, recordToZone);
+  const addRedirection = R.compose(cpanel.addRedirection, recordToRedirection);
 
   const getHosts = async () => {
     if (hostList.length) return hostList;
@@ -29,7 +43,10 @@ const getDomainService = ({ cpanel }) => {
     return list;
   };
 
-  const setHosts = R.compose(flattenPromise, R.map(cpanel.addZoneRecord));
+  const setHosts = R.compose(flattenPromise, R.map(R.cond([
+    [ R.propEq('type', 'URL'),  addRedirection ],
+    [ R.T,                      addZoneRecord ],
+  ])));
 
   const getHostKey = host => `${host.HostName}--${host.RecordType}`;
   const toHostMap = hosts => hosts.reduce((acc, host) => {

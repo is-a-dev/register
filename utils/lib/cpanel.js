@@ -42,19 +42,19 @@ const CpanelClient = (options) => {
     ),
 
     // { domain, name, type(A|CNAME), cname, address, ttl }
-    //     -> { result: { status } }
+    //     -> {}
     addZoneRecord: api2('ZoneEdit', 'add_zone_record', { domain: options.domain }),
 
-    // { domain, redirect, type(permanent|tmp), redirect_wildcard(0|1), redirect(0|1|2) }
-    //     -> {}
-    addRedirection: uapi('Mime', 'add_redirect'),
-
     // {}
-    //     -> {  }
+    //     -> { domain, destination }
     fetchRedirections: R.compose(
       p => p.then(R.pathOr([], ['data'])),
       uapi('Mime', 'list_redirects'),
     ),
+
+    // { domain, redirect, type(permanent|tmp), redirect_wildcard(0|1), redirect(0|1|2) }
+    //     -> {}
+    addRedirection: uapi('Mime', 'add_redirect'),
   };
 };
 
