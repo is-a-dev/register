@@ -2,8 +2,6 @@ const R = require('ramda');
 const { cpanel } = require('./lib/cpanel');
 const { DOMAIN_DOMAIN } = require('./constants');
 
-const promiseAll = xs => Promise.all(xs);
-
 const recordToRedirection = ({ name, address }) => ({
   domain: `${name}.${DOMAIN_DOMAIN}`,
   redirect: address,
@@ -11,7 +9,13 @@ const recordToRedirection = ({ name, address }) => ({
   redirect_wildcard: 1,
   redirect_www: 0,
 });
-const recordToZone = R.identity;
+const recordToZone = ({ name, type, address, ...rec }) => ({
+  ...rec,
+  name,
+  type,
+  address,
+  cname: type === 'CNAME' ? address : undefined,
+})
 
 const zoneToRecord = ({ name, type, cname, address, ...host }) => ({
   ...host,
@@ -71,7 +75,12 @@ const batchLazyTasks = count => tasks => tasks.reduce((batches, task) => {
 }, []);
 
 const executeBatch = (batches) => batches.reduce((promise, batch) => {
-  return promise.then(() => Promise.all(batch.map(fn => fn())));
+  return promise.then(() => {
+    console.log('>>> Running batch', batch.length);
+    return Promise.all(batch.map(fn => fn().catch(e => {
+      console.error(e);
+    })));
+  });
 }, Promise.resolve());
 
 const getDomainService = ({ cpanel }) => {
@@ -95,11 +104,13 @@ const getDomainService = ({ cpanel }) => {
     return list;
   };
 
-  const addRecords = R.compose(batchLazyTasks(10), R.map(R.cond([
+  const BATCH_SIZE = 10;
+
+  const addRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.map(R.cond([
     [ R.propEq('type', 'URL'),  addRedirection ],
     [ R.T,                      addZoneRecord ],
   ])));
-  const editRecords = R.compose(batchLazyTasks(10), R.map(R.cond([
+  const editRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.map(R.cond([
     [ R.propEq('type', 'URL'),  editRedirection ],
     [ R.T,                      editZoneRecord ],
   ])));
@@ -108,7 +119,8 @@ const getDomainService = ({ cpanel }) => {
     const remoteHostList = await getHosts();
     const { add, edit } = diffRecords(remoteHostList, hosts);
 
-    return executeBatch(addRecords(add).concat(editRecords(edit)));
+    await executeBatch(addRecords(add).concat(editRecords(edit)));
+    return { additions: add.length, edits: edit.length };
   };
 
   return { getHosts, updateHosts };
