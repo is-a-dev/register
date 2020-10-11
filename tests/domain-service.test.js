@@ -11,12 +11,11 @@ const getCpanel = ({ zone, addZone, editZone, redir, addRedir, editRedir } = {})
   redirection: {
     fetch: (_) => redir(),
     add: (rec) => addRedir(rec),
-    edit: (rec) => editZone(rec),
+    edit: (rec) => editRedir(rec),
   },
 });
 
 describe('diffRecords', () => {
-  return;
   it('should show added record', () => {
     const oldRecords = [
       { name: 'xx', type: 'CNAME', address: 'fck.com.' },
@@ -92,8 +91,7 @@ describe('Domain service', () => {
     editRedir,
   }) });
 
-  const getRecordCalls = recfn => recfn.mock.calls.map(R.head).map(R.pick(['name', 'type', 'address']));
-  const getZoneCalls = () => getRecordCalls(addZone);
+  const getRecordCalls = recfn => recfn.mock.calls.map(R.head).map(R.pick(['name', 'type', 'address', 'redirect', 'domain']));
 
   beforeEach(() => {
     addZone.mockClear();
@@ -245,6 +243,53 @@ describe('Domain service', () => {
       expect(getRecordCalls(editZone)).toEqual([
         { name: 'b', type: 'CNAME', address: 'googoogaga' },
         { name: 'b', type: 'CNAME', address: 'farboo' },
+      ]);
+    });
+
+    it('should workout this complex example', async () => {
+      const zones = [
+        { someid: 1, name: 'a', type: 'CNAME', address: 'world' },
+        { someid: 2, name: 'b', type: 'A', address: '1' },
+        { someid: 2, name: 'b', type: 'A', address: '2' },
+        { someid: 2, name: 'c', type: 'CNAME', address: 'hello.com' },
+      ];
+      const redirections = [
+        { domain: `b.${DOMAIN_DOMAIN}`, destination: 'https://foobar.com' },
+        { domain: `c.${DOMAIN_DOMAIN}`, destination: 'https://goobar.com' },
+        { domain: `x.${DOMAIN_DOMAIN}`, destination: 'https://example.com' },
+      ];
+
+      const mockDomainService = mockDS({ zones, redirections });
+      await mockDomainService.updateHosts([
+        { name: 'a', type: 'CNAME', address: 'boo' },
+        { name: 'b', type: 'A', address: '1' },
+        { name: 'b', type: 'A', address: '2' },
+        { name: 'b', type: 'A', address: '3' },
+        { name: 'b', type: 'URL', address: 'https://wowow.com' },
+        { name: 'c', type: 'CNAME', address: 'hello.com' },
+        { name: 'c', type: 'URL', address: 'https://goobar.com' },
+        { name: 'd', type: 'CNAME', address: 'helo.com' },
+        { name: 'd', type: 'URL', address: 'https://hhh.com' },
+        { name: 'x', type: 'URL', address: 'https://example69.com' },
+      ]);
+
+      expect(addZone).toBeCalledTimes(2);
+      expect(editZone).toBeCalledTimes(1);
+      expect(addRedir).toBeCalledTimes(1);
+      expect(editRedir).toBeCalledTimes(2);
+      expect(getRecordCalls(addZone)).toEqual([
+        { name: 'b', type: 'A', address: '3' },
+        { name: 'd', type: 'CNAME', address: 'helo.com' }
+      ]);
+      expect(getRecordCalls(editZone)).toEqual([
+        { name: 'a', type: 'CNAME', address: 'boo' },
+      ]);
+      expect(getRecordCalls(addRedir)).toEqual([
+        { domain: `d.${DOMAIN_DOMAIN}`, type: 'permanent', redirect: 'https://hhh.com' },
+      ]);
+      expect(getRecordCalls(editRedir)).toEqual([
+        { domain: `b.${DOMAIN_DOMAIN}`, type: 'permanent', redirect: 'https://wowow.com' },
+        { domain: `x.${DOMAIN_DOMAIN}`, type: 'permanent', redirect: 'https://example69.com' },
       ]);
     });
   });
