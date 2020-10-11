@@ -18,19 +18,19 @@ const toHostList = R.chain(data => {
   , rs);
 });
 
-const registerDomains = async ({ domainService, getDomains }) => {
+const registerDomains = async ({ domainService, getDomains, log = () => {} }) => {
   const domains = await getDomains().then(toHostList);
   
   if (domains.length === 0)
     return Promise.reject(new Error('Nothing to register'));
 
-  console.log(`Publishing ${domains.length} records...`);
+  log(`Publishing ${domains.length} records...`);
   return domainService.updateHosts(domains);
 };
 
 const main = async () => {
   console.log(`Running in ${ENV} mode`);
-  const result = await registerDomains({ domainService: dc, getDomains: gd });
+  const result = await registerDomains({ domainService: dc, getDomains: gd, log: console.log });
   console.log(result);
 };
 
