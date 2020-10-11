@@ -141,46 +141,6 @@ describe('Domain service', () => {
     });
   });
 
-  describe('setHosts', () => {
-    it('should resolve with a list of hosts', async () => {
-      const records = [
-        { name: 'xx', type: 'CNAME', address: 'fck.com' },
-        { name: 'xx', type: 'A', address: '111.1.1212.1' },
-        { name: 'foo', type: 'URL', address: 'https://google.com' },
-        { name: 'foo1', type: 'URL', address: 'https://duck.com' },
-      ];
-
-      const addZone = jest.fn(async () => {});
-      const addRedir = jest.fn(async () => {});
-
-      const mockDomainService = getDomainService({ cpanel: getCpanel({ addZone, addRedir }) });
-      await mockDomainService.setHosts(records);
-
-      expect(addZone).toBeCalledTimes(2);
-      expect(addRedir).toBeCalledTimes(2);
-      expect(addZone.mock.calls.map(R.head)).toEqual([
-        { name: 'xx', type: 'CNAME', address: 'fck.com' },
-        { name: 'xx', type: 'A', address: '111.1.1212.1' },
-      ]);
-      expect(addRedir.mock.calls.map(R.head)).toEqual([
-        {
-          domain: 'foo.booboo.xyz',
-          redirect: 'https://google.com',
-          redirect_wildcard: 1,
-          redirect_www: 0,
-          type: 'permanent',
-        },
-        {
-          domain: 'foo1.booboo.xyz',
-          redirect: 'https://duck.com',
-          redirect_wildcard: 1,
-          redirect_www: 0,
-          type: 'permanent',
-        },
-      ]);
-    });
-  });
-
   describe('updateHosts', () => {
     it('should append new hosts with existing ones and set it', async () => {
       const zones = [

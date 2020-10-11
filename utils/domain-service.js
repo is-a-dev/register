@@ -2,7 +2,7 @@ const R = require('ramda');
 const { cpanel } = require('./lib/cpanel');
 const { DOMAIN_DOMAIN } = require('./constants');
 
-const flattenPromise = xs => Promise.all(xs);
+const promiseAll = xs => Promise.all(xs);
 
 const recordToRedirection = ({ name, address }) => ({
   domain: `${name}.${DOMAIN_DOMAIN}`,
@@ -58,17 +58,33 @@ const diffRecords = (oldRecords, newRecords) => {
   }, { add: [], edit: [] });
 };
 
+const lazyTask = fn => data => () => fn(data);
+
+const batchLazyTasks = count => tasks => tasks.reduce((batches, task) => {
+  if (batches.length === 0) return [[task]];
+
+  const full = R.init(batches);
+  const last = R.last(batches);
+
+  if (last.length >= count) return [...batches, [task]];
+  return [...full, [...last, task]];
+}, []);
+
+const executeBatch = (batches) => batches.reduce((promise, batch) => {
+  return promise.then(() => Promise.all(batch.map(fn => fn())));
+}, Promise.resolve());
+
 const getDomainService = ({ cpanel }) => {
   let hostList = [];
 
   const fetchZoneRecords = () => cpanel.zone.fetch().then(R.map(zoneToRecord));
   const fetchRedirections = () => cpanel.redirection.fetch().then(R.map(redirectionToRecord));
 
-  const addZoneRecord = R.compose(cpanel.zone.add, recordToZone);
-  const addRedirection = R.compose(cpanel.redirection.add, recordToRedirection);
+  const addZoneRecord = lazyTask(R.compose(cpanel.zone.add, recordToZone));
+  const addRedirection = lazyTask(R.compose(cpanel.redirection.add, recordToRedirection));
 
-  const editZoneRecord = R.compose(cpanel.zone.edit, recordToZone);
-  const editRedirection = R.compose(cpanel.redirection.edit, recordToRedirection);
+  const editZoneRecord = lazyTask(R.compose(cpanel.zone.edit, recordToZone));
+  const editRedirection = lazyTask(R.compose(cpanel.redirection.edit, recordToRedirection));
 
   const getHosts = async () => {
     if (hostList.length) return hostList;
@@ -79,11 +95,11 @@ const getDomainService = ({ cpanel }) => {
     return list;
   };
 
-  const addRecords = R.compose(flattenPromise, R.map(R.cond([
+  const addRecords = R.compose(batchLazyTasks(10), R.map(R.cond([
     [ R.propEq('type', 'URL'),  addRedirection ],
     [ R.T,                      addZoneRecord ],
   ])));
-  const editRecords = R.compose(flattenPromise, R.map(R.cond([
+  const editRecords = R.compose(batchLazyTasks(10), R.map(R.cond([
     [ R.propEq('type', 'URL'),  editRedirection ],
     [ R.T,                      editZoneRecord ],
   ])));
@@ -92,10 +108,10 @@ const getDomainService = ({ cpanel }) => {
     const remoteHostList = await getHosts();
     const { add, edit } = diffRecords(remoteHostList, hosts);
 
-    return Promise.all([ addRecords(add), editRecords(edit) ]);
+    return executeBatch(addRecords(add).concat(editRecords(edit)));
   };
 
-  return { getHosts, setHosts: addRecords, updateHosts };
+  return { getHosts, updateHosts };
 };
 
 const domainService = getDomainService({ cpanel });
