@@ -10,6 +10,8 @@ const { DOMAIN_USER, DOMAIN_API_KEY, DOMAIN_DOMAIN, DOMAIN_API_HOST, DOMAIN_API_
 
 const IS_TEST = ENV === 'test';
 
+const DOMAINS_PATH = require('path').resolve('domains');
+
 module.exports = {
   ENV,
   VALID_RECORD_TYPES: ['CNAME', 'A', 'ALIAS', 'URL'],
@@ -18,5 +20,6 @@ module.exports = {
   DOMAIN_API_KEY: IS_TEST ? 'testkey' : DOMAIN_API_KEY,
   DOMAIN_API_HOST: IS_TEST ? 'example.com' : DOMAIN_API_HOST,
   DOMAIN_API_PORT: IS_TEST ? 6969 : DOMAIN_API_PORT,
-  TTL: 5*60, // TODO: Increase ttl
+  DOMAINS_PATH,
+  TTL: 5*60*60,
 };

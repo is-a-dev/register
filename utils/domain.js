@@ -1,9 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const R = require('ramda');
-const { VALID_RECORD_TYPES } = require('./constants');
-
-const DOMAINS_PATH = path.resolve('domains');
+const { VALID_RECORD_TYPES, DOMAINS_PATH } = require('./constants');
 
 const log = m => x => console.log(m, x) || x;
 

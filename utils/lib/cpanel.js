@@ -1,7 +1,7 @@
 const R = require('ramda');
 const fetch = require('node-fetch');
 const qs = require('qs');
-const { DOMAIN_API_HOST, DOMAIN_API_PORT, DOMAIN_USER, DOMAIN_API_KEY, DOMAIN_DOMAIN, ...c } = require('../constants');
+const { DOMAIN_API_HOST, DOMAIN_API_PORT, DOMAIN_USER, DOMAIN_API_KEY, DOMAIN_DOMAIN } = require('../constants');
 
 const CpanelClient = (options) => {
   // TODO: Make defaultQuery functional
@@ -79,18 +79,6 @@ const cpanel = CpanelClient({
   domain: DOMAIN_DOMAIN,
   dependencies: { fetch },
 });
-
-//cpanel.fetchZoneRecords()
-//cpanel.addRedirection({
-  //domain: 'hello.is-a.dev',
-  //redirect: 'https://googole.com',
-  //type: 'permanent',
-  //redirect_wildcard: 1,
-  //redirect_www: 0,
-//})
-//cpanel.fetchRedirections()
-  //.then(d => console.log(JSON.stringify(d, null, 2)))
-  //.catch(console.error);
 
 module.exports = {
   cpanel,
