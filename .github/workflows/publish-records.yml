@@ -23,4 +23,4 @@ jobs:
       - name: Publishing records
         uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: publish-records:ci
+          cmd: publish-records
