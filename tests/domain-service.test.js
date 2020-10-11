@@ -1,5 +1,5 @@
 const R = require('ramda');
-const { getDomainService } = require('../utils/domain-service');
+const { getDomainService, diffRecords } = require('../utils/domain-service');
 
 const getCpanel = ({ zone, redir, setZone, setRedir } = {}) => ({
   addZoneRecord: (rec) => setZone(rec),
@@ -8,7 +8,85 @@ const getCpanel = ({ zone, redir, setZone, setRedir } = {}) => ({
   fetchRedirections: (_) => redir(),
 });
 
+describe('diffRecords', () => {
+  it('should show added record', () => {
+    const oldRecords = [
+      { name: 'xx', type: 'CNAME', address: 'fck.com.' },
+      { name: 'xa', type: 'A', address: '111.1.1212.1' },
+    ];
+    const newRecords = [
+      { name: 'xx', type: 'CNAME', address: 'fck.com.' },
+      { name: 'xa', type: 'A', address: '111.1.1212.1' },
+      { name: 'boo', type: 'CNAME', address: 'x.com' },
+    ];
+
+    const result = diffRecords(oldRecords, newRecords);
+    expect(result).toEqual({
+      edit: [],
+      add: [
+        { name: 'boo', type: 'CNAME', address: 'x.com' },
+      ],
+    });
+  });
+
+  it('should show edited records', () => {
+    const oldRecords = [
+      { name: 'xx', type: 'CNAME', address: 'fck.com.' },
+      { name: 'xa', type: 'A', address: '111.1.1212.1' },
+    ];
+    const newRecords = [
+      { name: 'xx', type: 'CNAME', address: 'fck.com.' },
+      { name: 'xa', type: 'A', address: '69.69.69.69' },
+    ];
+
+    const result = diffRecords(oldRecords, newRecords);
+    expect(result).toEqual({
+      edit: [
+        { name: 'xa', type: 'A', address: '69.69.69.69' },
+      ],
+      add: [],
+    });
+  });
+
+  it('should show added records with the same name and record type', () => {
+    const oldRecords = [
+      { name: 'xx', type: 'CNAME', address: 'fck.com.' },
+      { name: 'xa', type: 'A', address: '69.69.69.69' },
+    ];
+    const newRecords = [
+      { name: 'xx', type: 'CNAME', address: 'fck.com.' },
+      { name: 'xa', type: 'A', address: '69.69.69.69' },
+      { name: 'xa', type: 'A', address: '69.69.4.20' },
+    ];
+
+    const result = diffRecords(oldRecords, newRecords);
+    expect(result).toEqual({
+      edit: [],
+      add: [
+        { name: 'xa', type: 'A', address: '69.69.4.20' },
+      ],
+    });
+  });
+});
+
 describe('Domain service', () => {
+  const setZone = jest.fn(async () => ({}));
+  const setRedir = jest.fn(async () => ({}));
+
+  const mockDS = ({ zones, redirections }) => getDomainService({ cpanel: getCpanel({
+    zone: async () => ({ hosts: zones }),
+    redir: async () => ({ hosts: redirections }),
+    setZone,
+    setRedir,
+  }) });
+
+  const getZoneCalls = () => setZone.mock.calls.map(R.head).map(R.pick(['name', 'type', 'address']));
+
+  beforeEach(() => {
+    setZone.mockClear();
+    setRedir.mockClear();
+  });
+
   describe('getHosts', () => {
     it('should resolve with a list of hosts', async () => {
       const zones = [
@@ -90,62 +168,55 @@ describe('Domain service', () => {
     });
   });
 
-  return;
-
   describe('updateHosts', () => {
+    return;
+
     it('should append new hosts with existing ones and set it', async () => {
-      const records = [
-        { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
-        { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'goo' },
+      const zones = [
+        { HostId: 1, name: 'a', type: 'CNAME', address: 'boo' },
+        { HostId: 2, name: 'b', type: 'CNAME', address: 'goo' },
       ];
+      const redirections = [];
 
-      const onGet = () => Promise.resolve({ hosts: records });
-      const onSet = jest.fn(async () => ({}));
-
-      const mockDomainService = getDomainService({ cpanel: getCpanel({ onSet, onGet }) });
+      const mockDomainService = mockDS({ zones, redirections });;
       await mockDomainService.updateHosts([
-        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
-        { HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
-        { HostName: 'c', RecordType: 'A', Address: '12.131321.213' },
+        { name: 'a', type: 'CNAME', address: 'boo' },
+        { name: 'b', type: 'CNAME', address: 'goo' },
+        { name: 'c', type: 'A', address: '12.131321.213' },
       ]);
 
-      const [hosts] = onSet.mock.calls[0];
-
-      expect(hosts.map(R.pick(['HostName', 'RecordType', 'Address']))).toEqual([
-        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
-        { HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
-        { HostName: 'c', RecordType: 'A', Address: '12.131321.213' },
+      expect(setZone).toBeCalledTimes(1);
+      expect(getZoneCalls()).toEqual([
+        { name: 'c', type: 'A', address: '12.131321.213' },
       ]);
     });
 
     it('should update matching host and set it', async () => {
-      const records = [
-        { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
-        { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'goo' },
+      const zones = [
+        { HostId: 1, Name: 'a', Type: 'CNAME', address: 'boo' },
+        { HostId: 2, Name: 'b', Type: 'CNAME', address: 'goo' },
       ];
+      const redirections = [];
 
-      const onGet = () => Promise.resolve({ hosts: records });
-      const onSet = jest.fn(async () => ({}));
-
-      const mockDomainService = getDomainService({ cpanel: getCpanel({ onSet, onGet }) });
+      const mockDomainService = mockDS({ zones, redirections });;
       await mockDomainService.updateHosts([
-        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
-        { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },
+        { name: 'a', type: 'CNAME', address: 'boo' },
+        { name: 'b', type: 'CNAME', address: 'googoogaga' },
       ]);
 
-      const [hosts] = onSet.mock.calls[0];
-
-      expect(hosts.map(R.pick(['HostName', 'RecordType', 'Address']))).toEqual([
-        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
-        { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },
+      expect(setZone).toBeCalledTimes(2);
+      expect(getZoneCalls()).toEqual([
+        { name: 'a', type: 'CNAME', address: 'boo' },
+        { name: 'b', type: 'CNAME', address: 'googoogaga' },
       ]);
     });
+    return;
 
     it('should update matching host and set it', async () => {
       const records = [
-        { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
-        { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'goo' },
-        { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'xaa' },
+        { HostId: 1, Name: 'a', Type: 'CNAME', address: 'boo' },
+        { HostId: 2, Name: 'b', Type: 'CNAME', address: 'goo' },
+        { HostId: 2, Name: 'b', Type: 'CNAME', address: 'xaa' },
       ];
 
       const onGet = () => Promise.resolve({ hosts: records });
@@ -153,17 +224,17 @@ describe('Domain service', () => {
 
       const mockDomainService = getDomainService({ cpanel: getCpanel({ onSet, onGet }) });
       await mockDomainService.updateHosts([
-        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
-        { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },
-        { HostName: 'b', RecordType: 'CNAME', Address: 'farboo' },
+        { name: 'a', type: 'CNAME', address: 'boo' },
+        { name: 'b', type: 'CNAME', address: 'googoogaga' },
+        { name: 'b', type: 'CNAME', address: 'farboo' },
       ]);
 
       const [hosts] = onSet.mock.calls[0];
 
-      expect(hosts.map(R.pick(['HostName', 'RecordType', 'Address']))).toEqual([
-        { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
-        { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },
-        { HostName: 'b', RecordType: 'CNAME', Address: 'farboo' },
+      expect(hosts.map(R.pick(['name', 'type', 'address']))).toEqual([
+        { name: 'a', type: 'CNAME', address: 'boo' },
+        { name: 'b', type: 'CNAME', address: 'googoogaga' },
+        { name: 'b', type: 'CNAME', address: 'farboo' },
       ]);
     });
   });

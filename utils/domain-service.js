@@ -25,6 +25,13 @@ const redirectionToRecord = ({ domain, destination }) => ({
   address: `${destination}`,
 });
 
+const getHostKey = host => `${host.name}##${host.type}`;
+
+const toHostMap = hosts => hosts.reduce((acc, host) => {
+  const key = getHostKey(host);
+  return { ...acc, [key]: [ ...(acc[key] || []), host ] };
+}, {});
+
 const getDomainService = ({ cpanel }) => {
   let hostList = [];
 
@@ -48,12 +55,6 @@ const getDomainService = ({ cpanel }) => {
     [ R.T,                      addZoneRecord ],
   ])));
 
-  const getHostKey = host => `${host.HostName}--${host.RecordType}`;
-  const toHostMap = hosts => hosts.reduce((acc, host) => {
-    const key = getHostKey(host);
-    return { ...acc, [key]: [ ...(acc[key] || []), host ] };
-  }, {});
-
   const updateHosts = async hosts => {
     const hostList = await getHosts();
     const remoteHostMap = toHostMap(hostList);
@@ -75,9 +76,36 @@ const getDomainService = ({ cpanel }) => {
   return { getHosts, setHosts, updateHosts };
 };
 
+const diffRecords = (oldRecords, newRecords) => {
+  const remoteHostMap = toHostMap(oldRecords);
+  const localHostMap = toHostMap(newRecords);
+
+  return R.toPairs(localHostMap).reduce((acc, [key, local]) => {
+    const remote = remoteHostMap[key];
+
+    if (remote) {
+      let adds = [];
+      let edits = [];
+
+      const diff = R.differenceWith((a, b) => a.address === b.address, local, remote);
+
+      if (diff.length === local.length - remote.length) {
+        adds = diff;
+      } else {
+        edits = diff;
+      }
+
+      return { ...acc, add: acc.add.concat(adds), edit: acc.edit.concat(edits) };
+    }
+
+    return { ...acc, add: acc.add.concat(local) };
+  }, { add: [], edit: [] });
+};
+
 const domainService = getDomainService({ cpanel });
 
 module.exports = {
   getDomainService,
   domainService,
+  diffRecords,
 };
