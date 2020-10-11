@@ -12,7 +12,7 @@ const toHostList = R.chain(data => {
     (Array.isArray(urls) ? urls : [urls]).map(url => ({
       name: data.name,
       type: recordType,
-      address: url,
+      address: (recordType === 'CNAME' ? `${url}`.toLowerCase() : `${url}`).replace(/\/$/g, ''),
       ttl: TTL,
     }))
   , rs);

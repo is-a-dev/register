@@ -10,23 +10,24 @@ const recordToRedirection = ({ name, address }) => ({
   redirect_www: 0,
 });
 const recordToZone = ({ name, type, address, ...rec }) => ({
-  ...rec,
+  ...rec, //line
   name,
   type,
-  address,
-  cname: type === 'CNAME' ? address : undefined,
-})
+  ...(type === 'CNAME' ? { cname: address } : { address }),
+});
 
-const zoneToRecord = ({ name, type, cname, address, ...host }) => ({
+const cleanName = name => `${name}`.replace(new RegExp(`\.${DOMAIN_DOMAIN}\.?$`), '').toLowerCase();
+
+const zoneToRecord = ({ name, type, cname, address, record, ...host }) => ({
   ...host,
-  name: `${name}`,
+  name: cleanName(name),
   type: `${type}`,
-  address: `${cname || address}`.replace(/\.$/g, ''),
+  address: `${cname || address || record}`.replace(/\.$/g, '').toLowerCase(),
 });
 const redirectionToRecord = ({ domain, destination }) => ({
-  name: `${domain}`.replace('.' + DOMAIN_DOMAIN, ''),
+  name: cleanName(domain),
   type: 'URL',
-  address: `${destination}`,
+  address: `${destination}`.replace(/\/$/g, ''),
 });
 
 const getHostKey = host => `${host.name}##${host.type}`;
@@ -79,7 +80,12 @@ const executeBatch = (batches) => batches.reduce((promise, batch) => {
     console.log('>>> Running batch', batch.length);
     return Promise.all(batch.map(fn => fn().catch(e => {
       console.error(e);
-    })));
+    }))).then(values => {
+      const results = values.map(R.pathOr([], ['cpanelresult', 'data', 0]));
+      const failed = results.filter(x => (x.result || {}).status != 1);
+      console.log(`${values.length - failed.length}/${values.length}`);
+      failed.length && console.log(failed);
+    });
   });
 }, Promise.resolve());
 
@@ -90,9 +96,8 @@ const getDomainService = ({ cpanel }) => {
   const fetchRedirections = () => cpanel.redirection.fetch().then(R.map(redirectionToRecord));
 
   const addZoneRecord = lazyTask(R.compose(cpanel.zone.add, recordToZone));
-  const addRedirection = lazyTask(R.compose(cpanel.redirection.add, recordToRedirection));
-
   const editZoneRecord = lazyTask(R.compose(cpanel.zone.edit, recordToZone));
+  const addRedirection = lazyTask(R.compose(cpanel.redirection.add, recordToRedirection));
   const editRedirection = lazyTask(R.compose(cpanel.redirection.edit, recordToRedirection));
 
   const getHosts = async () => {
