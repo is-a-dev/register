@@ -1,29 +1,25 @@
 const R = require('ramda');
-const Namecheap = require('@rqt/namecheap');
-const { NC_DOMAIN, NC_USER, NC_API_KEY, ENV, IP_ADDRESS } = require('../utils/constants');
+const { cpanel } = require('./lib/cpanel');
 
-const IS_SANDBOX = ENV === 'sandbox';
+const flattenPromise = xs => Promise.all(xs);
 
-const getDomainService = ({ nc }) => {
+const getDomainService = ({ cpanel }) => {
   let hostList = [];
 
   const getHosts = async () => {
     if (hostList.length) return hostList;
 
-    const list = await nc.dns.getHosts(NC_DOMAIN)
-      .then(R.propOr([], 'hosts'))
+    const list = await cpanel.fetchZoneRecords()
       .then(R.map(host => R.omit(['Name', 'Type'], {
         ...host,
-        HostName: host.Name,
-        RecordType: host.Type,
-        Address: `${host.Address}`.replace(/\.$/g, ''),
+        address: `${host.cname || host.address}`.replace(/\.$/g, ''),
       })));
 
     hostList = list;
     return list;
   };
 
-  const setHosts = hosts => nc.dns.setHosts(NC_DOMAIN, hosts);
+  const setHosts = R.compose(flattenPromise, R.map(cpanel.addZoneRecord));
 
   const getHostKey = host => `${host.HostName}--${host.RecordType}`;
   const toHostMap = hosts => hosts.reduce((acc, host) => {
@@ -52,19 +48,7 @@ const getDomainService = ({ nc }) => {
   return { getHosts, setHosts, updateHosts };
 };
 
-if (!NC_API_KEY) {
-  console.error('NC_API_KEY cannot be empty');
-  process.exit(1);
-}
-
-const nc = new Namecheap({
-  user: NC_USER,
-  key: NC_API_KEY,
-  ip: IP_ADDRESS,
-  sandbox: IS_SANDBOX,
-});
-
-const domainService = getDomainService({ nc });
+const domainService = getDomainService({ cpanel });
 
 module.exports = {
   getDomainService,

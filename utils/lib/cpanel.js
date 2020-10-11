@@ -32,7 +32,10 @@ const CpanelClient = (options) => {
   return {
     // { customonly, domain }
     //     -> { cpanelresult: { data[{ class, ttl, name, line, Line, cname, type, record }] } }
-    fetchZoneRecords: api('ZoneEdit', 'fetchzone_records', { customonly: 1, domain: options.domain }),
+    fetchZoneRecords: R.compose(
+      p => p.then(R.pathOr([], ['cpanelresult', 'data'])),
+      api('ZoneEdit', 'fetchzone_records', { customonly: 1, domain: options.domain })
+    ),
     // { domain, name, type, cname, address, ttl }
     //     -> { result: { status } }
     addZoneRecord: api('ZoneEdit', 'add_zone_record', { domain: options.domain }),
@@ -52,6 +55,8 @@ const cpanel = CpanelClient({
   domain: DOMAIN_DOMAIN,
   dependencies: { fetch },
 });
+
+// cpanel.fetchZoneRecords().then(hosts => console.log(JSON.stringify(hosts, null, 2)));
 
 module.exports = {
   cpanel,

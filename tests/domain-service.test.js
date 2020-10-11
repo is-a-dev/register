@@ -1,27 +1,25 @@
 const R = require('ramda');
 const { getDomainService } = require('../utils/domain-service');
 
-const getNc = ({ onSet, onGet } = {}) => ({
-  dns: {
-    setHosts: (_, list) => onSet(list),
-    getHosts: (_) => onGet(),
-  },
+const getCpanel = ({ onSet, onGet } = {}) => ({
+  addZoneRecord: (host) => onSet(host),
+  fetchZoneRecords: (_) => onGet(),
 });
 
 describe('Domain service', () => {
   describe('getHosts', () => {
     it('should resolve with a list of hosts', async () => {
       const hosts = [
-        { Name: 'xx', Type: 'CNAME', Address: 'fck.com.' },
-        { Name: 'xx', Type: 'A', Address: '111.1.1212.1' },
+        { name: 'xx', type: 'CNAME', address: 'fck.com.' },
+        { name: 'xx', type: 'A', address: '111.1.1212.1' },
       ];
-      const onGet = async () => ({ hosts })
-      const mockDomainService = getDomainService({ nc: getNc({ onGet }) });
+      const onGet = async () => hosts;
+      const mockDomainService = getDomainService({ cpanel: getCpanel({ onGet }) });
       const list = await mockDomainService.getHosts();
 
       expect(list).toEqual([
-        { HostName: 'xx', RecordType: 'CNAME', Address: 'fck.com' },
-        { HostName: 'xx', RecordType: 'A', Address: '111.1.1212.1' },
+        { name: 'xx', type: 'CNAME', address: 'fck.com' },
+        { name: 'xx', type: 'A', address: '111.1.1212.1' },
       ]);
     });
   });
@@ -30,16 +28,17 @@ describe('Domain service', () => {
     it('should resolve with a list of hosts', async () => {
       const records = [ { x: 'y' }, { z: 'a' } ];
 
-      const onSet = jest.fn((list) => {
-        expect(list).toBe(records);
-        return Promise.resolve(null);
-      });
+      const onSet = jest.fn(async () => {});
 
-      const mockDomainService = getDomainService({ nc: getNc({ onSet }) });
+      const mockDomainService = getDomainService({ cpanel: getCpanel({ onSet }) });
       await mockDomainService.setHosts(records);
-      expect(onSet).toBeCalledTimes(1);
+
+      expect(onSet).toBeCalledTimes(2);
+      expect(onSet.mock.calls.map(R.head)).toEqual([ { x: 'y' }, { z: 'a' } ]);
     });
   });
+
+  return;
 
   describe('updateHosts', () => {
     it('should append new hosts with existing ones and set it', async () => {
@@ -51,7 +50,7 @@ describe('Domain service', () => {
       const onGet = () => Promise.resolve({ hosts: records });
       const onSet = jest.fn(async () => ({}));
 
-      const mockDomainService = getDomainService({ nc: getNc({ onSet, onGet }) });
+      const mockDomainService = getDomainService({ cpanel: getCpanel({ onSet, onGet }) });
       await mockDomainService.updateHosts([
         { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
         { HostName: 'b', RecordType: 'CNAME', Address: 'goo' },
@@ -76,7 +75,7 @@ describe('Domain service', () => {
       const onGet = () => Promise.resolve({ hosts: records });
       const onSet = jest.fn(async () => ({}));
 
-      const mockDomainService = getDomainService({ nc: getNc({ onSet, onGet }) });
+      const mockDomainService = getDomainService({ cpanel: getCpanel({ onSet, onGet }) });
       await mockDomainService.updateHosts([
         { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
         { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },
@@ -100,7 +99,7 @@ describe('Domain service', () => {
       const onGet = () => Promise.resolve({ hosts: records });
       const onSet = jest.fn(async () => ({}));
 
-      const mockDomainService = getDomainService({ nc: getNc({ onSet, onGet }) });
+      const mockDomainService = getDomainService({ cpanel: getCpanel({ onSet, onGet }) });
       await mockDomainService.updateHosts([
         { HostName: 'a', RecordType: 'CNAME', Address: 'boo' },
         { HostName: 'b', RecordType: 'CNAME', Address: 'googoogaga' },
