@@ -1,6 +1,8 @@
 const R = require('ramda');
 const { cpanel } = require('./lib/cpanel');
-const { DOMAIN_DOMAIN } = require('./constants');
+const { DOMAIN_DOMAIN, IS_TEST } = require('./constants');
+
+const log = IS_TEST ? () => {} : console.log;
 
 const recordToRedirection = ({ name, address }) => ({
   domain: `${name}.${DOMAIN_DOMAIN}`,
@@ -13,7 +15,8 @@ const recordToZone = ({ name, type, address, ...rec }) => ({
   ...rec, //line
   name,
   type,
-  ...(type === 'CNAME' ? { cname: address } : { address }),
+  address,
+  ...(type === 'CNAME' ? { cname: address } : {}),
 });
 
 const cleanName = name => `${name}`.replace(new RegExp(`\.${DOMAIN_DOMAIN}\.?$`), '').toLowerCase();
@@ -75,17 +78,19 @@ const batchLazyTasks = count => tasks => tasks.reduce((batches, task) => {
   return [...full, [...last, task]];
 }, []);
 
-const executeBatch = (batches) => batches.reduce((promise, batch) => {
-  return promise.then(() => {
-    console.log('>>> Running batch', batch.length);
-    return Promise.all(batch.map(fn => fn().catch(e => {
-      console.error(e);
-    }))).then(values => {
-      const results = values.map(R.pathOr([], ['cpanelresult', 'data', 0]));
-      const failed = results.filter(x => (x.result || {}).status != 1);
-      console.log(`${values.length - failed.length}/${values.length}`);
-      failed.length && console.log(failed);
-    });
+const executeBatch = (batches) => batches.reduce((promise, batch, index) => {
+  return promise.then(async () => {
+    log('>>> Running batch number:', index + 1, `(size: ${batch.length})`);
+
+    const values = await Promise.all(batch.map(fn => fn().catch(e => console.error(e))));
+
+    const results = values.map(R.pathOr({}, ['cpanelresult', 'data', 0]));
+    const failed = results.filter(x => (x.result || {}).status != 1);
+
+    log(`${values.length - failed.length}/${values.length}`);
+    failed.length && log(failed);
+
+    return null;
   });
 }, Promise.resolve());
 
@@ -109,9 +114,10 @@ const getDomainService = ({ cpanel }) => {
     return list;
   };
 
-  const BATCH_SIZE = 10;
+  const BATCH_SIZE = 1;
 
-  const addRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.map(R.cond([
+  const addRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.filter(Boolean), R.map(R.cond([
+    [ R.propEq('name', 'www'),  () => null ],
     [ R.propEq('type', 'URL'),  addRedirection ],
     [ R.T,                      addZoneRecord ],
   ])));
