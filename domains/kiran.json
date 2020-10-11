@@ -1,0 +1,12 @@
+{
+    "description": "Kiran's personal developer website",
+    "repo": "https://github.com/sudopower",
+    "owner": {
+        "username": "sudopower",
+        "email": "nkirandroid@gmail.com"
+    },
+    "record": {
+        "CNAME": "sudopower.com",
+        "URL": "https://kiran.is-a.dev"
+    }
+}
