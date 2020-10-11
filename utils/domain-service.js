@@ -1,6 +1,6 @@
 const R = require('ramda');
 const { cpanel } = require('./lib/cpanel');
-const {DOMAIN_DOMAIN} = require('./constants');
+const { DOMAIN_DOMAIN } = require('./constants');
 
 const flattenPromise = xs => Promise.all(xs);
 
@@ -32,50 +32,6 @@ const toHostMap = hosts => hosts.reduce((acc, host) => {
   return { ...acc, [key]: [ ...(acc[key] || []), host ] };
 }, {});
 
-const getDomainService = ({ cpanel }) => {
-  let hostList = [];
-
-  const fetchZoneRecords = () => cpanel.fetchZoneRecords().then(R.map(zoneToRecord));
-  const fetchRedirections = () => cpanel.fetchRedirections().then(R.map(redirectionToRecord));
-
-  const addZoneRecord = R.compose(cpanel.addZoneRecord, recordToZone);
-  const addRedirection = R.compose(cpanel.addRedirection, recordToRedirection);
-
-  const getHosts = async () => {
-    if (hostList.length) return hostList;
-
-    const list = await Promise.all([fetchZoneRecords(), fetchRedirections()]).then(R.flatten);
-
-    hostList = list;
-    return list;
-  };
-
-  const setHosts = R.compose(flattenPromise, R.map(R.cond([
-    [ R.propEq('type', 'URL'),  addRedirection ],
-    [ R.T,                      addZoneRecord ],
-  ])));
-
-  const updateHosts = async hosts => {
-    const hostList = await getHosts();
-    const remoteHostMap = toHostMap(hostList);
-    const localHostMap = toHostMap(hosts);
-
-    const newHostList = R.toPairs(localHostMap).reduce((acc, [key, local]) => {
-      const remote = remoteHostMap[key];
-
-      if (remote) {
-        return acc.concat(local.map((localItem, index) => R.merge(remote[index], localItem)));
-      }
-
-      return [...acc, ...local];
-    }, []);
-
-    return setHosts(newHostList);
-  };
-
-  return { getHosts, setHosts, updateHosts };
-};
-
 const diffRecords = (oldRecords, newRecords) => {
   const remoteHostMap = toHostMap(oldRecords);
   const localHostMap = toHostMap(newRecords);
@@ -100,6 +56,46 @@ const diffRecords = (oldRecords, newRecords) => {
 
     return { ...acc, add: acc.add.concat(local) };
   }, { add: [], edit: [] });
+};
+
+const getDomainService = ({ cpanel }) => {
+  let hostList = [];
+
+  const fetchZoneRecords = () => cpanel.zone.fetch().then(R.map(zoneToRecord));
+  const fetchRedirections = () => cpanel.redirection.fetch().then(R.map(redirectionToRecord));
+
+  const addZoneRecord = R.compose(cpanel.zone.add, recordToZone);
+  const addRedirection = R.compose(cpanel.redirection.add, recordToRedirection);
+
+  const editZoneRecord = R.compose(cpanel.zone.edit, recordToZone);
+  const editRedirection = R.compose(cpanel.redirection.edit, recordToRedirection);
+
+  const getHosts = async () => {
+    if (hostList.length) return hostList;
+
+    const list = await Promise.all([fetchZoneRecords(), fetchRedirections()]).then(R.flatten);
+
+    hostList = list;
+    return list;
+  };
+
+  const addRecords = R.compose(flattenPromise, R.map(R.cond([
+    [ R.propEq('type', 'URL'),  addRedirection ],
+    [ R.T,                      addZoneRecord ],
+  ])));
+  const editRecords = R.compose(flattenPromise, R.map(R.cond([
+    [ R.propEq('type', 'URL'),  editRedirection ],
+    [ R.T,                      editZoneRecord ],
+  ])));
+
+  const updateHosts = async hosts => {
+    const remoteHostList = await getHosts();
+    const { add, edit } = diffRecords(remoteHostList, hosts);
+
+    return Promise.all([ addRecords(add), editRecords(edit) ]);
+  };
+
+  return { getHosts, setHosts: addRecords, updateHosts };
 };
 
 const domainService = getDomainService({ cpanel });

@@ -34,27 +34,35 @@ const CpanelClient = (options) => {
     api({ basePath: 'execute', action: `${module}/${func}` })(module, func, defaultQuery);
 
   return {
-    // { customonly, domain }
-    //     -> { cpanelresult: { data[{ class, ttl, name, line, Line, cname, type, record }] } }
-    fetchZoneRecords: R.compose(
-      p => p.then(R.pathOr([], ['cpanelresult', 'data'])),
-      api2('ZoneEdit', 'fetchzone_records', { customonly: 1, domain: options.domain })
-    ),
+    zone: {
+      // { customonly, domain }
+      //     -> { cpanelresult: { data[{ class, ttl, name, line, Line, cname, type, record }] } }
+      fetch: R.compose(
+        p => p.then(R.pathOr([], ['cpanelresult', 'data'])),
+        api2('ZoneEdit', 'fetchzone_records', { customonly: 1, domain: options.domain })
+      ),
 
-    // { domain, name, type(A|CNAME), cname, address, ttl }
-    //     -> {}
-    addZoneRecord: api2('ZoneEdit', 'add_zone_record', { domain: options.domain }),
+      // { name, type(A|CNAME), cname, address, ttl }
+      //     -> {}
+      add: api2('ZoneEdit', 'add_zone_record', { domain: options.domain }),
 
-    // {}
-    //     -> { domain, destination }
-    fetchRedirections: R.compose(
-      p => p.then(R.pathOr([], ['data'])),
-      uapi('Mime', 'list_redirects'),
-    ),
+      // { name, type(A|CNAME), cname, address, ttl }
+      //     -> {}
+      edit: api2('ZoneEdit', 'edit_zone_record', { domain: options.domain }),
+    },
+    redirection: {
+      // {}
+      //     -> { domain, destination }
+      fetch: R.compose(
+        p => p.then(R.pathOr([], ['data'])),
+        uapi('Mime', 'list_redirects'),
+      ),
 
-    // { domain, redirect, type(permanent|tmp), redirect_wildcard(0|1), redirect(0|1|2) }
-    //     -> {}
-    addRedirection: uapi('Mime', 'add_redirect'),
+      // { domain, redirect, type(permanent|tmp), redirect_wildcard(0|1), redirect(0|1|2) }
+      //     -> {}
+      add: uapi('Mime', 'add_redirect'),
+      edit: uapi('Mime', 'add_redirect'), // NOTE: adding new updates exisiting
+    },
   };
 };
 
