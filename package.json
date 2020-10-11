@@ -4,7 +4,7 @@
   "description": "Register *.is-a.dev domains for free",
   "scripts": {
     "test": "ENV=test jest",
-    "publish-records": "yarn test && node ./scripts/register-domains.js"
+    "publish-records:ci": "ENV=test yarn test && ENV=production node ./scripts/register-domains.js"
   },
   "repository": {
     "type": "git",
