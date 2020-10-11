@@ -60,7 +60,6 @@ const validateDomainData = validate({
       R.compose(R.isEmpty, R.flip(R.difference)(VALID_RECORD_TYPES), R.keys),
       R.cond([
         [R.prop('CNAME'),  validateNameRecord('CNAME')],
-        [R.prop('ALIAS'),  validateNameRecord('ALIAS')],
         [R.prop('A'),      R.propSatisfies(R.is(Array), 'A')],
         [R.prop('URL'),    R.propSatisfies(R.is(String), 'URL')],
         [R.T, R.T],

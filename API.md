@@ -63,12 +63,11 @@ This is a link to your website repository or your github account. This is purely
 ### record (required)
 This is where you specify how you want to link to your server/webpage.
 
-Currently, only `CNAME`, `ALIAS`, `A`, `URL` record types are supported.
+Currently, only `CNAME`, `A`, `URL` record types are supported.
 
 Here's a few different use cases for the given record types -
 
-* **CNAME/ALIAS**
-Replace CNAME with ALIAS for alias record type
+* **CNAME**
 ```json
 {
   "record": {
@@ -100,7 +99,7 @@ Replace CNAME with ALIAS for alias record type
 }
 ```
 
-* **Force HTTPS on your CNAME (or ALIAS or A) record**
+* **Force HTTPS on your CNAME (or or A) record**
 ```json
 {
   "record": {
