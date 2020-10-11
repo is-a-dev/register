@@ -24,7 +24,7 @@ const registerDomains = async ({ domainService, getDomains, log = () => {} }) =>
   if (domains.length === 0)
     return Promise.reject(new Error('Nothing to register'));
 
-  log(`Publishing ${domains.length} records...`);
+  log(`${domains.length} records found`);
   return domainService.updateHosts(domains);
 };
 

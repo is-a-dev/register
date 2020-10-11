@@ -49,8 +49,6 @@ describe('registerDomains', () => {
     editRedir,
   }) });
 
-  const getRecordCalls = recfn => recfn.mock.calls.map(R.head).map(R.pick(['name', 'type', 'address', 'redirect', 'domain']));
-
   beforeEach(() => {
     addZone.mockClear();
     editZone.mockClear();
