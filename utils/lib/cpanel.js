@@ -51,7 +51,10 @@ const CpanelClient = (options) => {
 
     // {}
     //     -> {  }
-    fetchRedirections: uapi('Mime', 'list_redirects'),
+    fetchRedirections: R.compose(
+      p => p.then(R.pathOr([], ['data'])),
+      uapi('Mime', 'list_redirects'),
+    ),
   };
 };
 

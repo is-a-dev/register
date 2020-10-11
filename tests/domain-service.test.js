@@ -1,20 +1,24 @@
 const R = require('ramda');
 const { getDomainService } = require('../utils/domain-service');
 
-const getCpanel = ({ onSet, onGet } = {}) => ({
-  addZoneRecord: (host) => onSet(host),
-  fetchZoneRecords: (_) => onGet(),
+const getCpanel = ({ zone, redir, setZone, setRedir } = {}) => ({
+  addZoneRecord: (host) => setZone(host),
+  addRedirection: (_) => setRedir(),
+  fetchZoneRecords: (_) => zone(),
+  fetchRedirections: (_) => redir(),
 });
 
 describe('Domain service', () => {
   describe('getHosts', () => {
     it('should resolve with a list of hosts', async () => {
-      const hosts = [
+      const zones = [
         { name: 'xx', type: 'CNAME', address: 'fck.com.' },
         { name: 'xx', type: 'A', address: '111.1.1212.1' },
       ];
-      const onGet = async () => hosts;
-      const mockDomainService = getDomainService({ cpanel: getCpanel({ onGet }) });
+      const redirections = [];
+      const zone = async () => zones;
+      const redir = async () => redirections;
+      const mockDomainService = getDomainService({ cpanel: getCpanel({ zone, redir }) });
       const list = await mockDomainService.getHosts();
 
       expect(list).toEqual([
@@ -22,23 +26,45 @@ describe('Domain service', () => {
         { name: 'xx', type: 'A', address: '111.1.1212.1' },
       ]);
     });
-  });
 
-  describe('setHosts', () => {
-    it('should resolve with a list of hosts', async () => {
-      const records = [ { x: 'y' }, { z: 'a' } ];
+    it('should resolve with a redirections', async () => {
+      const zones = [
+        { name: 'xx', type: 'CNAME', address: 'fck.com.' },
+        { name: 'xx', type: 'A', address: '111.1.1212.1' },
+      ];
+      const redirections = [
+        { domain: 'foo.booboo.xyz', destination: 'https://google.com' },
+        { domain: 'foo1.booboo.xyz', destination: 'https://duck.com' },
+      ];
+      const zone = async () => zones;
+      const redir = async () => redirections;
+      const mockDomainService = getDomainService({ cpanel: getCpanel({ zone, redir }) });
+      const list = await mockDomainService.getHosts();
 
-      const onSet = jest.fn(async () => {});
-
-      const mockDomainService = getDomainService({ cpanel: getCpanel({ onSet }) });
-      await mockDomainService.setHosts(records);
-
-      expect(onSet).toBeCalledTimes(2);
-      expect(onSet.mock.calls.map(R.head)).toEqual([ { x: 'y' }, { z: 'a' } ]);
+      expect(list).toEqual([
+        { name: 'xx', type: 'CNAME', address: 'fck.com' },
+        { name: 'xx', type: 'A', address: '111.1.1212.1' },
+        { name: 'foo', type: 'URL', address: 'https://google.com' },
+        { name: 'foo1', type: 'URL', address: 'https://duck.com' },
+      ]);
     });
   });
 
   return;
+  describe('setHosts', () => {
+    it('should resolve with a list of hosts', async () => {
+      const records = [ { x: 'y' }, { z: 'a' } ];
+
+      const setZone = jest.fn(async () => {});
+
+      const mockDomainService = getDomainService({ cpanel: getCpanel({ setZone }) });
+      await mockDomainService.setHosts(records);
+
+      expect(setZone).toBeCalledTimes(2);
+      expect(setZone.mock.calls.map(R.head)).toEqual([ { x: 'y' }, { z: 'a' } ]);
+    });
+  });
+
 
   describe('updateHosts', () => {
     it('should append new hosts with existing ones and set it', async () => {

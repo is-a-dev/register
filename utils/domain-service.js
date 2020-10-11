@@ -1,19 +1,29 @@
 const R = require('ramda');
 const { cpanel } = require('./lib/cpanel');
+const {DOMAIN_DOMAIN} = require('./constants');
 
 const flattenPromise = xs => Promise.all(xs);
 
 const getDomainService = ({ cpanel }) => {
   let hostList = [];
 
+  const fetchZoneRecords = () => cpanel.fetchZoneRecords().then(R.map(host => ({
+    ...host,
+    name: `${host.name}`,
+    type: `${host.type}`,
+    address: `${host.cname || host.address}`.replace(/\.$/g, ''),
+  })));
+
+  const fetchRedirections = () => cpanel.fetchRedirections().then(R.map(host => ({
+    name: `${host.domain}`.replace('.' + DOMAIN_DOMAIN, ''),
+    type: 'URL',
+    address: `${host.destination}`,
+  })));
+
   const getHosts = async () => {
     if (hostList.length) return hostList;
 
-    const list = await cpanel.fetchZoneRecords()
-      .then(R.map(host => R.omit(['Name', 'Type'], {
-        ...host,
-        address: `${host.cname || host.address}`.replace(/\.$/g, ''),
-      })));
+    const list = await Promise.all([fetchZoneRecords(), fetchRedirections()]).then(R.flatten);
 
     hostList = list;
     return list;
