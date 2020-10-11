@@ -10,10 +10,10 @@ const toHostList = R.chain(data => {
 
   return R.chain(([recordType, urls]) =>
     (Array.isArray(urls) ? urls : [urls]).map(url => ({
-      HostName: data.name,
-      RecordType: recordType,
-      Address: url,
-      TTL,
+      name: data.name,
+      type: recordType,
+      address: url,
+      ttl: TTL,
     }))
   , rs);
 });
