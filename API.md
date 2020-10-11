@@ -17,8 +17,7 @@
     "email": "any@email"
   },
   "record": {
-    "CNAME": "github-username.github.io",
-    "URL": "https://your-domain.is-a.dev"
+    "CNAME": "github-username.github.io"
   }
 }
 ```
@@ -95,16 +94,6 @@ Here's a few different use cases for the given record types -
 {
   "record": {
     "URL": "https://my-other-website.com"
-  }
-}
-```
-
-* **Force HTTPS on your CNAME (or or A) record**
-```json
-{
-  "record": {
-    "CNAME": "username.github.io",
-    "URL": "https://your-domain.is-a.dev"
   }
 }
 ```
