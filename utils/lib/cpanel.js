@@ -5,7 +5,7 @@ const { DOMAIN_API_HOST, DOMAIN_API_PORT, DOMAIN_USER, DOMAIN_API_KEY, DOMAIN_DO
 
 const CpanelClient = (options) => {
   // TODO: Make defaultQuery functional
-  const api = (module, func, defaultQuery = {}) => (q = {}) => {
+  const api = ({ basePath = '', action = '' }) => (module, func, defaultQuery = {}) => (q = {}) => {
     const query = {
       ...defaultQuery,
       ...q,
@@ -22,23 +22,36 @@ const CpanelClient = (options) => {
       rejectUnauthorized: false,
     };
 
-    const path = `${options.path || '/json-api'}/cpanel?${qs.stringify(query)}`;
+    const path = `${basePath}/${action}?${qs.stringify(query)}`;
     const reqUrl = `https://${options.host}:${options.port}/${path}`;
 
     const { fetch } = options.dependencies;
     return fetch(reqUrl, request).then(res => res.json());
   };
 
+  const api2 = api({ basePath: 'json-api', action: 'cpanel' });
+  const uapi = (module, func, defaultQuery) =>
+    api({ basePath: 'execute', action: `${module}/${func}` })(module, func, defaultQuery);
+
   return {
     // { customonly, domain }
     //     -> { cpanelresult: { data[{ class, ttl, name, line, Line, cname, type, record }] } }
     fetchZoneRecords: R.compose(
       p => p.then(R.pathOr([], ['cpanelresult', 'data'])),
-      api('ZoneEdit', 'fetchzone_records', { customonly: 1, domain: options.domain })
+      api2('ZoneEdit', 'fetchzone_records', { customonly: 1, domain: options.domain })
     ),
-    // { domain, name, type, cname, address, ttl }
+
+    // { domain, name, type(A|CNAME), cname, address, ttl }
     //     -> { result: { status } }
-    addZoneRecord: api('ZoneEdit', 'add_zone_record', { domain: options.domain }),
+    addZoneRecord: api2('ZoneEdit', 'add_zone_record', { domain: options.domain }),
+
+    // { domain, redirect, type(permanent|tmp), redirect_wildcard(0|1), redirect(0|1|2) }
+    //     -> {}
+    addRedirection: uapi('Mime', 'add_redirect'),
+
+    // {}
+    //     -> {  }
+    fetchRedirections: uapi('Mime', 'list_redirects'),
   };
 };
 
@@ -56,7 +69,17 @@ const cpanel = CpanelClient({
   dependencies: { fetch },
 });
 
-// cpanel.fetchZoneRecords().then(hosts => console.log(JSON.stringify(hosts, null, 2)));
+//cpanel.fetchZoneRecords()
+//cpanel.addRedirection({
+  //domain: 'hello.is-a.dev',
+  //redirect: 'https://googole.com',
+  //type: 'permanent',
+  //redirect_wildcard: 1,
+  //redirect_www: 0,
+//})
+//cpanel.fetchRedirections()
+  //.then(d => console.log(JSON.stringify(d, null, 2)))
+  //.catch(console.error);
 
 module.exports = {
   cpanel,
