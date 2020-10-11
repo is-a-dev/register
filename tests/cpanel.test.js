@@ -30,7 +30,7 @@ describe('Cpanel client', () => {
         dependencies: { fetch },
       });
 
-      await cpanel.fetchZoneRecords();
+      await cpanel.zone.fetch();
     });
 
     it('should make the correct request with query', async () => {
@@ -53,7 +53,7 @@ describe('Cpanel client', () => {
         dependencies: { fetch },
       });
 
-      await cpanel.fetchZoneRecords({ domain: 'foobar.boeey' });
+      await cpanel.zone.fetch({ domain: 'foobar.boeey' });
     });
   });
 
@@ -78,12 +78,64 @@ describe('Cpanel client', () => {
         dependencies: { fetch },
       });
 
-      await cpanel.addZoneRecord({
+      await cpanel.zone.add({
         name: 'googo',
         type: 'boyee',
         cname: 'beey',
         type: 'CNAME',
         ttl: 2020,
+      });
+    });
+  });
+
+  describe('fetchredirections', () => {
+    it('should make the correct request', async () => {
+      const fetch = mockFetch((url, request) => {
+        expect(url).toBe('https://example.com:2000/execute/Mime/list_redirects?cpanel_jsonapi_user=boy&cpanel_jsonapi_module=Mime&cpanel_jsonapi_func=list_redirects&cpanel_jsonapi_apiversion=2');
+        expect(request).toEqual({
+          headers: {
+            Authorization: 'cpanel boy:boybyebye',
+          },
+          rejectUnauthorized: false,
+        });
+      });
+
+      const cpanel = CpanelClient({
+        host: 'example.com',
+        port: 2000,
+        username: 'boy',
+        apiKey: 'boybyebye',
+        domain: 'a.b',
+        dependencies: { fetch },
+      });
+
+      await cpanel.redirection.fetch();
+    });
+  });
+  describe('addredirection', () => {
+    it('should make the correct request', async () => {
+      const fetch = mockFetch((url, request) => {
+        expect(url).toBe('https://example.com:2000/execute/Mime/add_redirect?domain=googo&destination=https%3A%2F%2Foodf.com&cpanel_jsonapi_user=boy&cpanel_jsonapi_module=Mime&cpanel_jsonapi_func=add_redirect&cpanel_jsonapi_apiversion=2');
+        expect(request).toEqual({
+          headers: {
+            Authorization: 'cpanel boy:boybyebye',
+          },
+          rejectUnauthorized: false,
+        });
+      });
+
+      const cpanel = CpanelClient({
+        host: 'example.com',
+        port: 2000,
+        username: 'boy',
+        apiKey: 'boybyebye',
+        domain: 'a.b',
+        dependencies: { fetch },
+      });
+
+      await cpanel.redirection.add({
+        domain: 'googo',
+        destination: 'https://oodf.com'
       });
     });
   });
