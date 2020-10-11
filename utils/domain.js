@@ -36,7 +36,7 @@ const validateDomainData = validate({
       R.equals('@'),
       R.allPass([
         R.compose(between(2, 100), R.length),
-        str => str && str.match(/^[A-Za-z0-9\-]+$/ig),
+        str => str && str.match(/^[a-z0-9\-]+$/ig),
       ])
     ]),
   },
