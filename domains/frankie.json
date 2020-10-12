@@ -1,11 +1,11 @@
 {
   "description": "Now that's a spicy 404 page!",
-  "repo": "https://github.com/github-username/",
+  "repo": "https://github.com/frankie-tech/frankie-tech.github.io",
   "owner": {
-    "username": "github-username",
-    "email": "any@email"
+    "username": "frankie-tech",
+    "email": "26461046+frankie-tech@users.noreply.github.com"
   },
   "record": {
-    "CNAME": "github-username.github.io"
+    "CNAME": "frankie-tech.github.io"
   }
 }
