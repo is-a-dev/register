@@ -1,0 +1,12 @@
+{
+    "description": "My proud is-a.dev website",
+    "owner": {
+        "username": "edwinm",
+        "email": "edwin@bitstorm.org"
+    },
+    "record": {
+        "CNAME": [
+            "bitstorm.org"
+        ]
+    }
+}
