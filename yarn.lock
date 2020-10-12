@@ -458,11 +458,6 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@rqt/namecheap@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@rqt/namecheap/-/namecheap-2.4.2.tgz#8537eea6efbe7ac4fd449e3aee5f2c1d80986fcf"
-  integrity sha512-RfrK7ywOraz0nR/BlQt8fJQDcOfI9cLSTpa6l9JS9ER0HJ6t1FQ8Pxmplj/lVQv8rkczuVADdZVC3HlL98Q31w==
-
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.1.tgz#e7df00f98a203324f6dc7cc606cad9d4a8ab2217"
@@ -2467,6 +2462,11 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
+
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-int64@^0.4.0:
   version "0.4.0"
