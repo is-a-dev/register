@@ -1,0 +1,12 @@
+{
+  "description": "Kiran's is-a.dev domain !",
+  "repo": "https://github.com/sudopower/",
+  "owner": {
+    "username": "sudopower",
+    "email": "nkirandroid@gmail.com"
+  },
+  "record": {
+    "CNAME": "sudopower.com",
+    "URL": "https://kirannambiar.is-a.dev"
+  }
+}
