@@ -1,11 +1,18 @@
+const R = require('ramda');
 const { toHostList, registerDomains } = require('../scripts/register-domains');
-const { TTL } = require('../utils/constants');
+const { TTL, DOMAIN_DOMAIN } = require('../utils/constants');
 const { getDomainService } = require('../utils/domain-service');
 
-const getNc = ({ onSet, onGet } = {}) => ({
-  dns: {
-    setHosts: (_, list) => onSet(list),
-    getHosts: (_) => onGet(),
+const getCpanel = ({ zone, addZone, editZone, redir, addRedir, editRedir } = {}) => ({
+  zone: {
+    fetch: (_) => zone(),
+    add: (rec) => addZone(rec),
+    edit: (rec) => editZone(rec),
+  },
+  redirection: {
+    fetch: (_) => redir(),
+    add: (rec) => addRedir(rec),
+    edit: (rec) => editRedir(rec),
   },
 });
 
@@ -18,113 +25,80 @@ describe('toHostList', () => {
     ]);
 
     expect(res).toEqual([
-      { HostName: 'akshay', RecordType: 'CNAME', Address: 'phenax.github.io', TTL },
-      { HostName: 'foobar', RecordType: 'CNAME', Address: 'v.io', TTL },
-      { HostName: 'xx', RecordType: 'A', Address: '1.2.3.4', TTL },
-      { HostName: 'xx', RecordType: 'A', Address: '5.6.3.2', TTL },
-      { HostName: 'xx', RecordType: 'A', Address: '1.2.31.1', TTL },
+      { name: 'akshay', type: 'CNAME', address: 'phenax.github.io', ttl: TTL },
+      { name: 'foobar', type: 'CNAME', address: 'v.io', ttl: TTL },
+      { name: 'xx', type: 'A', address: '1.2.3.4', ttl: TTL },
+      { name: 'xx', type: 'A', address: '5.6.3.2', ttl: TTL },
+      { name: 'xx', type: 'A', address: '1.2.31.1', ttl: TTL },
     ]);
   });
 });
 
 describe('registerDomains', () => {
+  const addZone = jest.fn(async () => ({}));
+  const editZone = jest.fn(async () => ({}));
+  const addRedir = jest.fn(async () => ({}));
+  const editRedir = jest.fn(async () => ({}));
+
+  const mockDS = ({ zones, redirections }) => getDomainService({ cpanel: getCpanel({
+    zone: async () => zones,
+    redir: async () => redirections,
+    addZone,
+    addRedir,
+    editZone,
+    editRedir,
+  }) });
+
+  beforeEach(() => {
+    addZone.mockClear();
+    editZone.mockClear();
+    addRedir.mockClear();
+    editRedir.mockClear();
+  });
+
   it('should register the new set of hosts generated from domains list', async () => {
     const localHosts = [
       { name: 'a', record: { CNAME: 'hello' } },
       { name: 'b', record: { CNAME: 'xaa' } },
     ];
     const remoteHosts = [
-      { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
-      { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'goo' },
-      { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'xaa' },
+      { someididk: 1, name: 'a', type: 'CNAME', address: 'hello' },
+      { someididk: 2, name: 'b', type: 'CNAME', address: 'goo' },
+      { someididk: 2, name: 'b', type: 'CNAME', address: 'xaa' },
     ];
+    const remoteRedirections = [];
 
-    const onSet = jest.fn(async () => ({}));
-
-    const domainService = getDomainService({ nc: getNc({ onSet, onGet: async () => ({ hosts: remoteHosts }) }) });
+    const domainService = mockDS({ zones: remoteHosts, redirections: remoteRedirections });
     await registerDomains({ getDomains: async () => localHosts, domainService });
 
-    expect(onSet).toBeCalledTimes(1);
-
-    const [hosts] = onSet.mock.calls[0];
-    expect(hosts).toEqual([
-      { HostId: 1, Address: 'hello', HostName: 'a', RecordType: 'CNAME', TTL },
-      { HostId: 2, Address: 'xaa', HostName: 'b', RecordType: 'CNAME', TTL },
-    ]);
+    expect(addZone).toBeCalledTimes(0);
+    expect(editZone).toBeCalledTimes(0);
+    expect(addRedir).toBeCalledTimes(0);
+    expect(editRedir).toBeCalledTimes(0);
   });
 
   it('should add the new set hosts', async () => {
     const localHosts = [
-      { name: 'a', record: { CNAME: 'boo' } },
-      { name: 'b', record: { CNAME: 'xaa' } },
-      { name: 'c', record: { CNAME: 'yello' } },
+      { name: 'a', record: { CNAME: 'boo', URL: 'z' } },
+      { name: 'b', record: { CNAME: 'xaa', URL: 'x' } },
+      { name: 'c', record: { CNAME: 'yello', URL: 'https://google.com' } },
     ];
     const remoteHosts = [
-      { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
-      { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'xaa' },
+      { someididk: 1, name: 'a', type: 'CNAME', address: 'boo' },
+      { someididk: 2, name: 'b', type: 'CNAME', address: 'xaa' },
+    ];
+    const remoteRedirections = [
+      { domain: `b.${DOMAIN_DOMAIN}`, destination: 'x' },
+      { domain: `a.${DOMAIN_DOMAIN}`, destination: 'y' },
     ];
 
-    const onSet = jest.fn(async () => ({}));
-
-    const domainService = getDomainService({ nc: getNc({ onSet, onGet: async () => ({ hosts: remoteHosts }) }) });
+    const domainService = mockDS({ zones: remoteHosts, redirections: remoteRedirections });
     await registerDomains({ getDomains: async () => localHosts, domainService });
 
-    expect(onSet).toBeCalledTimes(1);
-
-    const [hosts] = onSet.mock.calls[0];
-    expect(hosts).toEqual([
-      { HostId: 1, Address: 'boo', HostName: 'a', RecordType: 'CNAME', TTL },
-      { HostId: 2, Address: 'xaa', HostName: 'b', RecordType: 'CNAME', TTL },
-      { Address: 'yello', HostName: 'c', RecordType: 'CNAME', TTL },
-    ]);
-  });
-
-  it('should remove unlisted hosts', async () => {
-    const localHosts = [
-      { name: 'a', record: { CNAME: 'boo' } },
-    ];
-    const remoteHosts = [
-      { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
-      { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'xaa' },
-    ];
-
-    const onSet = jest.fn(async () => ({}));
-
-    const domainService = getDomainService({ nc: getNc({ onSet, onGet: async () => ({ hosts: remoteHosts }) }) });
-    await registerDomains({ getDomains: async () => localHosts, domainService });
-
-    expect(onSet).toBeCalledTimes(1);
-
-    const [hosts] = onSet.mock.calls[0];
-    expect(hosts).toEqual([
-      { HostId: 1, Address: 'boo', HostName: 'a', RecordType: 'CNAME', TTL },
-    ]);
-  });
-
-  it('should change record type from cname to a', async () => {
-    const localHosts = [
-      { name: 'a', record: { CNAME: 'boo' } },
-      { name: 'b', record: { A: ['1', '2', '3'] } },
-    ];
-    const remoteHosts = [
-      { HostId: 1, Name: 'a', Type: 'CNAME', Address: 'boo' },
-      { HostId: 2, Name: 'b', Type: 'CNAME', Address: 'xaa' },
-    ];
-
-    const onSet = jest.fn(async () => ({}));
-
-    const domainService = getDomainService({ nc: getNc({ onSet, onGet: async () => ({ hosts: remoteHosts }) }) });
-    await registerDomains({ getDomains: async () => localHosts, domainService });
-
-    expect(onSet).toBeCalledTimes(1);
-
-    const [hosts] = onSet.mock.calls[0];
-    expect(hosts).toEqual([
-      { HostId: 1, Address: 'boo', HostName: 'a', RecordType: 'CNAME', TTL },
-      { Address: '1', HostName: 'b', RecordType: 'A', TTL },
-      { Address: '2', HostName: 'b', RecordType: 'A', TTL },
-      { Address: '3', HostName: 'b', RecordType: 'A', TTL },
-    ]);
+    expect(addZone).toBeCalledTimes(1);
+    expect(editZone).toBeCalledTimes(0);
+    expect(addRedir).toBeCalledTimes(1);
+    expect(editRedir).toBeCalledTimes(1);
   });
 });
 
