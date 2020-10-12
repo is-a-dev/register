@@ -10,27 +10,27 @@ const toHostList = R.chain(data => {
 
   return R.chain(([recordType, urls]) =>
     (Array.isArray(urls) ? urls : [urls]).map(url => ({
-      HostName: data.name,
-      RecordType: recordType,
-      Address: url,
-      TTL,
+      name: data.name,
+      type: recordType,
+      address: (recordType === 'CNAME' ? `${url}`.toLowerCase() : `${url}`).replace(/\/$/g, ''),
+      ttl: TTL,
     }))
   , rs);
 });
 
-const registerDomains = async ({ domainService, getDomains }) => {
+const registerDomains = async ({ domainService, getDomains, log = () => {} }) => {
   const domains = await getDomains().then(toHostList);
   
   if (domains.length === 0)
     return Promise.reject(new Error('Nothing to register'));
 
-  console.log(`Publishing ${domains.length} records...`);
+  log(`${domains.length} records found`);
   return domainService.updateHosts(domains);
 };
 
 const main = async () => {
   console.log(`Running in ${ENV} mode`);
-  const result = await registerDomains({ domainService: dc, getDomains: gd });
+  const result = await registerDomains({ domainService: dc, getDomains: gd, log: console.log });
   console.log(result);
 };
 
