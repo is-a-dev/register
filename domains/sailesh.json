@@ -1,0 +1,10 @@
+{
+  "description": "Sailesh's Personal Website",
+  "owner": {
+    "username": "saileshbro",
+    "email": "saileshbro@gmail.com"
+  },
+  "record": {
+    "CNAME": "saileshbro.github.io"
+  }
+}
