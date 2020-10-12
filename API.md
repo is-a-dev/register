@@ -2,27 +2,28 @@
 
 ## How to register
 * First you need to create a pull request with your `domains/my-domain.json` file
-* This PR will be reviewed, merged
-* The changes will take effect in less than a day after the PR gets merged
-* `Github pages` users, need to go to their repo settings page and change the domain to `your-domain.is-a.dev` after everything is done
+* This PR will be reviewed
+* The changes will take effect soon after the PR gets merged
 * And that's it
 
-Example (for github pages) -
+### For github pages users
+* A github pages json file (with cname record and https redirection) will look something like this -
 ```json
 {
   "description": "Add some description",
-  "repo": "https://github.com/user/user.github.io",
+  "repo": "https://github.com/github-username/github-username.github.io",
   "owner": {
-    "username": "your-github-username",
+    "username": "github-username",
     "email": "any@email"
   },
   "record": {
-    "CNAME": "user.github.io"
+    "CNAME": "github-username.github.io"
   }
 }
 ```
+* After the pull request is merged, you will see a 404 error on `your-domain.is-a.dev`. To fix this go to your github page repo's `Settings > Github pages > Custom domain` and add `your-domain.is-a.dev` in the given field
+* Check the `Enforce HTTPS` checkbox below the custom domain input
 
-NOTE: For github pages users, to fix the 404 you get after registering the domain, add `your-domain.is-a.dev` to your github pages repo in Settings > Github pages > Custom domain.
 
 
 ## Domains json file
@@ -61,12 +62,11 @@ This is a link to your website repository or your github account. This is purely
 ### record (required)
 This is where you specify how you want to link to your server/webpage.
 
-Currently, only `CNAME`, `ALIAS`, `A`, `URL` record types are supported.
+Currently, only `CNAME`, `A`, `URL` record types are supported.
 
 Here's a few different use cases for the given record types -
 
-* **CNAME/ALIAS**
-Replace CNAME with ALIAS for alias record type
+* **CNAME**
 ```json
 {
   "record": {
@@ -94,16 +94,6 @@ Replace CNAME with ALIAS for alias record type
 {
   "record": {
     "URL": "https://my-other-website.com"
-  }
-}
-```
-
-* **Force HTTPS on your CNAME (or ALIAS or A) record**
-```json
-{
-  "record": {
-    "CNAME": "username.github.io",
-    "URL": "https://your-domain.is-a.dev"
   }
 }
 ```
