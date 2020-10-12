@@ -1,0 +1,11 @@
+{
+  "description": "Now that's a spicy 404 page!",
+  "repo": "https://github.com/github-username/",
+  "owner": {
+    "username": "github-username",
+    "email": "any@email"
+  },
+  "record": {
+    "CNAME": "github-username.github.io"
+  }
+}
