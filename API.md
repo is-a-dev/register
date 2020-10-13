@@ -17,12 +17,12 @@
     "email": "any@email"
   },
   "record": {
-    "CNAME": "github-username.github.io",
-    "URL": "https://your-domain.is-a.dev"
+    "CNAME": "github-username.github.io"
   }
 }
 ```
 * After the pull request is merged, you will see a 404 error on `your-domain.is-a.dev`. To fix this go to your github page repo's `Settings > Github pages > Custom domain` and add `your-domain.is-a.dev` in the given field
+* Check the `Enforce HTTPS` checkbox below the custom domain input
 
 
 
@@ -62,12 +62,11 @@ This is a link to your website repository or your github account. This is purely
 ### record (required)
 This is where you specify how you want to link to your server/webpage.
 
-Currently, only `CNAME`, `ALIAS`, `A`, `URL` record types are supported.
+Currently, only `CNAME`, `A`, `URL` record types are supported.
 
 Here's a few different use cases for the given record types -
 
-* **CNAME/ALIAS**
-Replace CNAME with ALIAS for alias record type
+* **CNAME**
 ```json
 {
   "record": {
@@ -95,16 +94,6 @@ Replace CNAME with ALIAS for alias record type
 {
   "record": {
     "URL": "https://my-other-website.com"
-  }
-}
-```
-
-* **Force HTTPS on your CNAME (or ALIAS or A) record**
-```json
-{
-  "record": {
-    "CNAME": "username.github.io",
-    "URL": "https://your-domain.is-a.dev"
   }
 }
 ```
