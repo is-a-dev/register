@@ -1,9 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const R = require('ramda');
-const { VALID_RECORD_TYPES } = require('./constants');
-
-const DOMAINS_PATH = path.resolve('domains');
+const { VALID_RECORD_TYPES, DOMAINS_PATH } = require('./constants');
 
 const log = m => x => console.log(m, x) || x;
 
@@ -38,7 +36,7 @@ const validateDomainData = validate({
       R.equals('@'),
       R.allPass([
         R.compose(between(2, 100), R.length),
-        str => str && str.match(/^[A-Za-z0-9\-]+$/ig),
+        str => str && str.match(/^[a-z0-9\-]+$/ig),
       ])
     ]),
   },
@@ -62,7 +60,6 @@ const validateDomainData = validate({
       R.compose(R.isEmpty, R.flip(R.difference)(VALID_RECORD_TYPES), R.keys),
       R.cond([
         [R.prop('CNAME'),  validateNameRecord('CNAME')],
-        [R.prop('ALIAS'),  validateNameRecord('ALIAS')],
         [R.prop('A'),      R.propSatisfies(R.is(Array), 'A')],
         [R.prop('URL'),    R.propSatisfies(R.is(String), 'URL')],
         [R.T, R.T],
