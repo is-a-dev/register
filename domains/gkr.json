@@ -4,6 +4,6 @@
     "email": "hello@gautamkrishnar.com"
   },
   "record": {
-    "A": ["185.224.138.125"]
+    "CNAME": "gautamkrishnar.github.io"
   }
 }

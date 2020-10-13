@@ -1,7 +1,14 @@
 const R = require('ramda');
+const fs = require('fs');
 const { getDomains, validateDomainData } = require('../utils/domain');
+const { DOMAINS_PATH } = require('../utils/constants');
 
 describe('Domains', () => {
+  it('should all be json', async () => {
+    const files = await fs.promises.readdir(DOMAINS_PATH, {});
+    expect(files.filter(f => !/\.json$/g.test(f)).length).toBe(0);
+  });
+
   it('should be valid', (done) => {
     getDomains()
       .then(R.map(data => {
