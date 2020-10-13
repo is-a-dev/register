@@ -1,0 +1,11 @@
+{
+    "description": "Kaguwo's Personal Website",
+    "owner": {
+        "username": "kaguwomin",
+        "email": "business@kaguwo.com"
+    },
+    "record": {
+        "CNAME": "kaguwo.com",
+        "URL": "https://kaguwo.is-a.dev"
+    }
+}
