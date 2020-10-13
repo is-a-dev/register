@@ -5,8 +5,6 @@
         "email": "edwin@bitstorm.org"
     },
     "record": {
-        "CNAME": [
-            "bitstorm.org"
-        ]
+        "CNAME": "bitstorm.org"
     }
 }
