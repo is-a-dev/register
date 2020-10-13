@@ -1,0 +1,12 @@
+{
+  "description": "My Site",
+  "repo": "https://github.com/snaildos",
+  "owner": {
+    "username": "snaildos",
+    "email": ""
+  },
+  "record": {
+    "CNAME": "snaildos.tk",
+    "URL": "https://snaildos.is-a.dev"
+  }
+}
