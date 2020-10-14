@@ -1,0 +1,12 @@
+{
+    "description": "Augustin's personal developer website",
+    "repo": "https://github.com/AugustinJose1221",
+    "owner": {
+        "username": "AugustinJose1221",
+        "email": "augustinjose1221@gmail.com"
+    },
+    "record": {
+        "CNAME": "www.augustinjose.com",
+        "URL": "https://augustin.is-a.dev"
+    }
+}
