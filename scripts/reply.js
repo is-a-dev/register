@@ -1,6 +1,6 @@
 
 const getInstructions = () => `
-The changes you have made will soon be reflected!!
+The changes have been published!! It should reflect in less than 24 hours.
 
 ## Here\'s what you need to do next
 
@@ -11,12 +11,12 @@ If your domain points to a server you own, add \`domain-name.is-a.dev\` to your 
 * Open up the **settings** tab
 * Scroll down to the **Github pages** section
 * In the **Custom domain** text input, enter the domain you registered (\`domain-name.is-a.dev\`)
-* Check the 'Enforce HTTPS' check box if you added the URL record for forced https redirection
+* Check the 'Enforce HTTPS' checkbox below the input
 * Give it some time to reflect and you should be good to go
 
 
 ## Need support with your domain?
-If you are having trouble setting up your domain, [create an issue](https://github.com/is-a-dev/register/issues/new/choose) and pick the \`support\` template. Describe any issue you are facing there. I\'ll try my best to get back to you asap!
+If you are having trouble setting up your domain, [create an issue](https://github.com/is-a-dev/register/issues/new/choose). I\'ll try my best to get back to you asap!
 
 
 ## Love/Hate the service?
