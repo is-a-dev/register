@@ -2,11 +2,11 @@
     "description": "Augustin's personal developer website",
     "repo": "https://github.com/AugustinJose1221",
     "owner": {
-        "username": "AugustinJose",
-        "email": "aaron@lolsup.com"
+        "username": "AugustinJose1221",
+        "email": "augustinjose1221@gmail.com"
     },
     "record": {
-        "CNAME": "https://github.com/AugustinJose1221",
+        "CNAME": "www.augustinjose.com",
         "URL": "https://augustin.is-a.dev"
     }
 }
