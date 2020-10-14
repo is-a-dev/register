@@ -9,7 +9,7 @@ const recordToRedirection = ({ name, address }) => ({
   redirect: address,
   type: 'permanent',
   redirect_wildcard: 1,
-  redirect_www: 0,
+  redirect_www: 1,
 });
 const recordToZone = ({ name, type, address, ...rec }) => ({
   ...rec, //line
