@@ -1,0 +1,12 @@
+{
+    "description": "Tharindu's personal developer website",
+    "repo": "https://github.com/tharindusathis/tharindu",
+    "owner": {
+        "username": "tharindusathis",
+        "email": "tharindu.sathis@gmail.com"
+    },
+    "record": {
+        "CNAME": "tharindu.vercel.app",
+        "URL": "https://tharindu.is-a.dev"
+    }
+}
