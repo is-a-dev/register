@@ -22,7 +22,7 @@
 }
 ```
 * After the pull request is merged, you will see a 404 error on `your-domain.is-a.dev`. To fix this go to your github page repo's `Settings > Github pages > Custom domain` and add `your-domain.is-a.dev` in the given field
-* If you have added the `URL` record for forced https, check the `Enforce HTTPS` checkbox too
+* Check the `Enforce HTTPS` checkbox below the custom domain input
 
 
 
