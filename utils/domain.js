@@ -17,6 +17,7 @@ const getDomains = () =>
     })));
 
 const between = (min, max) => num => num >= min && num <= max;
+const testRegex = regex => str => !!(str && str.match(regex));
 
 const validate = pattern => data => R.compose(
   invalidPairs => invalidPairs.length ? { errors: invalidPairs, valid: false } : { errors: [], valid: true },
@@ -24,9 +25,10 @@ const validate = pattern => data => R.compose(
   R.toPairs,
 )(pattern);
 
-const validateNameRecord = type => R.allPass([
-  R.compose(R.equals(1), R.length, R.reject(R.equals('URL')), R.keys),
+const validateCnameRecord = type => R.allPass([
   R.propSatisfies(R.is(String), type),
+  R.compose(R.equals(1), R.length, R.reject(R.equals('URL')), R.keys),
+  R.propSatisfies(R.complement(testRegex(/^https?:\/\//ig)), type),
 ]);
 
 const validateDomainData = validate({
@@ -36,7 +38,7 @@ const validateDomainData = validate({
       R.equals('@'),
       R.allPass([
         R.compose(between(2, 100), R.length),
-        str => str && str.match(/^[a-z0-9\-]+$/ig),
+        testRegex(/^[a-z0-9\-]+$/g),
       ])
     ]),
   },
@@ -54,12 +56,12 @@ const validateDomainData = validate({
     ]),
   },
   record: {
-    reason: 'Invalid record',
+    reason: 'Invalid record. CNAME records have to be a host name and A records has to be a list of ips',
     fn: R.allPass([
       R.is(Object),
       R.compose(R.isEmpty, R.flip(R.difference)(VALID_RECORD_TYPES), R.keys),
       R.cond([
-        [R.prop('CNAME'),  validateNameRecord('CNAME')],
+        [R.prop('CNAME'),  validateCnameRecord('CNAME')],
         [R.prop('A'),      R.propSatisfies(R.is(Array), 'A')],
         [R.prop('URL'),    R.propSatisfies(R.is(String), 'URL')],
         [R.T, R.T],

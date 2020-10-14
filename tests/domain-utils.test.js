@@ -34,6 +34,8 @@ describe('validateDomainData', () => {
     { ...defaultDomain, owner: {}, },
     { ...defaultDomain, owner: { username: 'hwelo', }, },
     { ...defaultDomain, owner: { email: 'hwelo' }, },
+    { ...defaultDomain, record: { CNAME: 'http://foobar.com' } },
+    { ...defaultDomain, record: { CNAME: 'https://foobar.com' } },
   ];
 
   const validCases = [
