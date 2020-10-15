@@ -66,7 +66,7 @@ const executeBatch = (batches) => batches.reduce((promise, batch, index) => {
 
     const values = await Promise.all(batch.map(fn => fn().catch(e => console.error(e))));
 
-    const results = values.map(R.pathOr({}, ['cpanelresult', 'data', 0]));
+    const results = values.map(data => R.pathOr({ result: data }, ['cpanelresult', 'data', 0], data));
     const failed = results.filter(x => (x.result || {}).status != 1);
 
     log(`${values.length - failed.length}/${values.length}`);
