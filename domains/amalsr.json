@@ -1,0 +1,11 @@
+{
+  "description": "A very simple but stupid website",
+  "repo": "https://github.com/asr1191/asr1191.github.io",
+  "owner": {
+    "username": "asr1191",
+    "email": "amalsraj95@gmail.com"
+  },
+  "record": {
+    "CNAME": "asr1191.github.io"
+  }
+}
