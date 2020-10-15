@@ -120,8 +120,8 @@ describe('Domain service', () => {
 
     it('should resolve with a redirections', async () => {
       const zones = [
-        { name: 'xx', type: 'CNAME', address: 'fck.com.' },
-        { name: 'xx', type: 'A', address: '111.1.1212.1' },
+        { line: '111', name: 'xx', type: 'CNAME', address: 'fck.com.' },
+        { line: '112', name: 'xx', type: 'A', address: '111.1.1212.1' },
       ];
       const redirections = [
         { domain: 'foo.booboo.xyz', destination: 'https://google.com' },
@@ -133,10 +133,10 @@ describe('Domain service', () => {
       const list = await mockDomainService.getHosts();
 
       expect(list).toEqual([
-        { name: 'xx', type: 'CNAME', address: 'fck.com' },
-        { name: 'xx', type: 'A', address: '111.1.1212.1' },
-        { name: 'foo', type: 'URL', address: 'https://google.com' },
-        { name: 'foo1', type: 'URL', address: 'https://duck.com' },
+        { id: '111', name: 'xx', type: 'CNAME', address: 'fck.com' },
+        { id: '112', name: 'xx', type: 'A', address: '111.1.1212.1' },
+        { id: `foo.${DOMAIN_DOMAIN}`, name: 'foo', type: 'URL', address: 'https://google.com' },
+        { id: `foo1.${DOMAIN_DOMAIN}`, name: 'foo1', type: 'URL', address: 'https://duck.com' },
       ]);
     });
   });

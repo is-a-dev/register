@@ -11,8 +11,8 @@ const recordToRedirection = ({ name, address }) => ({
   redirect_wildcard: 1,
   redirect_www: 1,
 });
-const recordToZone = ({ name, type, address, ...rec }) => ({
-  ...rec, //line
+const recordToZone = ({ name, type, address, id }) => ({
+  line: id,
   name,
   type,
   address,
@@ -21,13 +21,14 @@ const recordToZone = ({ name, type, address, ...rec }) => ({
 
 const cleanName = name => `${name}`.replace(new RegExp(`\.${DOMAIN_DOMAIN}\.?$`), '').toLowerCase();
 
-const zoneToRecord = ({ name, type, cname, address, record, ...host }) => ({
-  ...host,
+const zoneToRecord = ({ name, type, cname, address, record, line: id }) => ({
+  id,
   name: cleanName(name),
   type: `${type}`,
   address: `${cname || address || record}`.replace(/\.$/g, '').toLowerCase(),
 });
 const redirectionToRecord = ({ domain, destination }) => ({
+  id: domain,
   name: cleanName(domain),
   type: 'URL',
   address: `${destination}`.replace(/\/$/g, ''),
