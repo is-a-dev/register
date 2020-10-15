@@ -1,0 +1,12 @@
+{
+    "description": "Yinier's personal developer website",
+    "repo": "https://github.com/yrmartinez/yrmartinez.github.io",
+    "owner": {
+        "username": "yrmartinez",
+        "email": "yiromartinez91@gmail.com"
+    },
+    "record": {
+        "CNAME": "yrmartinez.github.io",
+        "URL": "https://yiro.is-a.dev"
+    }
+}
