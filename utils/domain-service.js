@@ -91,7 +91,7 @@ const getDomainService = ({ cpanel }) => {
     cpanel.zone.remove,
     R.pick(['line']),
     recordToZone,
-    print(({ name }) => `Editing zone for ${name}...`),
+    print(({ name }) => `Deleting zone for ${name}...`),
   ));
   const addRedirection = lazyTask(R.compose(
     cpanel.redirection.add,
@@ -102,7 +102,7 @@ const getDomainService = ({ cpanel }) => {
     cpanel.redirection.remove,
     R.pick(['domain']),
     recordToRedirection,
-    print(({ name }) => `Editing redirection for ${name}`),
+    print(({ name }) => `Deleting redirection for ${name}`),
   ));
 
   const getHosts = async () => {
