@@ -1,4 +1,3 @@
-
 {
   "description": "This website is a link to my personal developer portfolio.",
   "repo": "https://github.com/derMelnik/derMelnik.github.io",
@@ -7,7 +6,6 @@
     "email": "dermelnik@pm.me"
   },
   "record": {
-    "CNAME": "derMelnik.github.io",
-    "URL": "https://dermelnik.is-a.dev"
+    "CNAME": "derMelnik.github.io"
   }
 }
