@@ -6,7 +6,6 @@
     "email": "charlie.chrisman@gmail.com"
   },
   "record": {
-    "CNAME": "cachrisman.github.io",
-    "URL": "https://charlie.is-a.dev"
+    "CNAME": "cachrisman.github.io"
   }
 }

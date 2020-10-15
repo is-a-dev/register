@@ -1,4 +1,3 @@
-  
 {
   "description": "Personal Page",
   "repo": "https://github.com/reuben-x/reuben-x.github.io",
@@ -7,7 +6,6 @@
     "email": "reubenthomaspeter@gmail.com"
   },
   "record": {
-    "CNAME": "reuben-x.github.io",
-    "URL": "https://reuben.is-a.dev"
+    "CNAME": "reuben-x.github.io"
   }
 }
