@@ -45,10 +45,9 @@ const CpanelClient = (options) => {
       // { name, type(A|CNAME), cname, address, ttl }
       //     -> {}
       add: api2('ZoneEdit', 'add_zone_record', { domain: options.domain }),
-
-      // { name, type(A|CNAME), cname, address, ttl }
+      // { line }
       //     -> {}
-      edit: api2('ZoneEdit', 'edit_zone_record', { domain: options.domain }),
+      remove: api2('ZoneEdit', 'remove_zone_record', { domain: options.domain }),
     },
     redirection: {
       // {}
@@ -61,7 +60,9 @@ const CpanelClient = (options) => {
       // { domain, redirect, type(permanent|tmp), redirect_wildcard(0|1), redirect(0|1|2) }
       //     -> {}
       add: uapi('Mime', 'add_redirect'),
-      edit: uapi('Mime', 'add_redirect'), // NOTE: adding new updates exisiting
+      // { domain }
+      //     -> {}
+      remove: uapi('Mime', 'delete_redirect'),
     },
   };
 };
