@@ -67,6 +67,8 @@ const diffRecords = (oldRecords, newRecords) => {
   }, { add: [], edit: [] });
 };
 
+const print = fn => x => log(fn(x)) || x;
+
 const lazyTask = fn => data => () => fn(data);
 
 const batchLazyTasks = count => tasks => tasks.reduce((batches, task) => {
@@ -101,10 +103,26 @@ const getDomainService = ({ cpanel }) => {
   const fetchZoneRecords = () => cpanel.zone.fetch().then(R.map(zoneToRecord));
   const fetchRedirections = () => cpanel.redirection.fetch().then(R.map(redirectionToRecord));
 
-  const addZoneRecord = lazyTask(R.compose(cpanel.zone.add, recordToZone));
-  const editZoneRecord = lazyTask(R.compose(cpanel.zone.edit, recordToZone));
-  const addRedirection = lazyTask(R.compose(cpanel.redirection.add, recordToRedirection));
-  const editRedirection = lazyTask(R.compose(cpanel.redirection.edit, recordToRedirection));
+  const addZoneRecord = lazyTask(R.compose(
+    cpanel.zone.add,
+    recordToZone,
+    print(({ name }) => `Adding zone for ${name}...`),
+  ));
+  const editZoneRecord = lazyTask(R.compose(
+    cpanel.zone.edit,
+    recordToZone,
+    print(({ name }) => `Editing zone for ${name}...`),
+  ));
+  const addRedirection = lazyTask(R.compose(
+    cpanel.redirection.add,
+    recordToRedirection,
+    print(({ name }) => `Adding redirection for ${name}`),
+  ));
+  const editRedirection = lazyTask(R.compose(
+    cpanel.redirection.edit,
+    recordToRedirection,
+    print(({ name }) => `Editing redirection for ${name}`),
+  ));
 
   const getHosts = async () => {
     if (hostList.length) return hostList;
@@ -118,7 +136,7 @@ const getDomainService = ({ cpanel }) => {
   const BATCH_SIZE = 1;
 
   const addRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.filter(Boolean), R.map(R.cond([
-    [ R.propEq('name', 'www'),  () => null ],
+    [ R.propEq('name', 'www'),  R.always(null) ],
     [ R.propEq('type', 'URL'),  addRedirection ],
     [ R.T,                      addZoneRecord ],
   ])));
