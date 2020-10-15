@@ -34,37 +34,16 @@ const redirectionToRecord = ({ domain, destination }) => ({
   address: `${destination}`.replace(/\/$/g, ''),
 });
 
-const getHostKey = host => `${host.name}##${host.type}`;
-
-const toHostMap = hosts => hosts.reduce((acc, host) => {
-  const key = getHostKey(host);
-  return { ...acc, [key]: [ ...(acc[key] || []), host ] };
-}, {});
+const getHostKey = host => `${host.name}##${host.type}##${host.address}`;
 
 const diffRecords = (oldRecords, newRecords) => {
-  const remoteHostMap = toHostMap(oldRecords);
-  const localHostMap = toHostMap(newRecords);
+  const isMatchingRecord = (a, b) => getHostKey(a) === getHostKey(b);
 
-  return R.toPairs(localHostMap).reduce((acc, [key, local]) => {
-    const remote = remoteHostMap[key];
+  const remove = R.differenceWith(isMatchingRecord, oldRecords, newRecords);
+  const add = R.differenceWith(isMatchingRecord, newRecords, oldRecords)
+    .filter(r => !['www', '@'].includes(r.name));
 
-    if (remote) {
-      let adds = [];
-      let edits = [];
-
-      const diff = R.differenceWith((a, b) => a.address === b.address, local, remote);
-
-      if (diff.length === local.length - remote.length) {
-        adds = diff;
-      } else {
-        edits = diff;
-      }
-
-      return { ...acc, add: acc.add.concat(adds), edit: acc.edit.concat(edits) };
-    }
-
-    return { ...acc, add: acc.add.concat(local) };
-  }, { add: [], edit: [] });
+  return { add, remove };
 };
 
 const print = fn => x => log(fn(x)) || x;
@@ -108,8 +87,9 @@ const getDomainService = ({ cpanel }) => {
     recordToZone,
     print(({ name }) => `Adding zone for ${name}...`),
   ));
-  const editZoneRecord = lazyTask(R.compose(
-    cpanel.zone.edit,
+  const removeZoneRecord = lazyTask(R.compose(
+    cpanel.zone.remove,
+    R.pick(['line']),
     recordToZone,
     print(({ name }) => `Editing zone for ${name}...`),
   ));
@@ -118,8 +98,9 @@ const getDomainService = ({ cpanel }) => {
     recordToRedirection,
     print(({ name }) => `Adding redirection for ${name}`),
   ));
-  const editRedirection = lazyTask(R.compose(
-    cpanel.redirection.edit,
+  const removeRedirection = lazyTask(R.compose(
+    cpanel.redirection.remove,
+    R.pick(['domain']),
     recordToRedirection,
     print(({ name }) => `Editing redirection for ${name}`),
   ));
@@ -140,17 +121,20 @@ const getDomainService = ({ cpanel }) => {
     [ R.propEq('type', 'URL'),  addRedirection ],
     [ R.T,                      addZoneRecord ],
   ])));
-  const editRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.map(R.cond([
-    [ R.propEq('type', 'URL'),  editRedirection ],
-    [ R.T,                      editZoneRecord ],
+  const removeRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.map(R.cond([
+    [ R.propEq('type', 'URL'),  removeRedirection ],
+    [ R.T,                      removeZoneRecord ],
   ])));
 
   const updateHosts = async hosts => {
     const remoteHostList = await getHosts();
-    const { add, edit } = diffRecords(remoteHostList, hosts);
+    const { add, remove } = diffRecords(remoteHostList, hosts);
 
-    await executeBatch(addRecords(add).concat(editRecords(edit)));
-    return { additions: add.length, edits: edit.length };
+    await executeBatch([
+      ...removeRecords(remove),
+      ...addRecords(add),
+    ]);
+    return { added: add.length, removed: remove.length };
   };
 
   return { getHosts, updateHosts };
