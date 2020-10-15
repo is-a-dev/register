@@ -1,0 +1,11 @@
+{
+  "description": "wanna get the domain",
+  "repo": "https://github.com/Frost-creator/github-username.github.io",
+  "owner": {
+    "username": "Frost-creator",
+    "email": "khasanst2003@gmail.com"
+  },
+  "record": {
+    "CNAME": "Frost-creator.github.io"
+  }
+}
