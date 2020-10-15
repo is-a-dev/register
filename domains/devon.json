@@ -1,0 +1,11 @@
+{
+    "description": "Devon Powell is a full-stack software engineer",
+    "repo": "https://github.com/D-Pow/d-pow.github.io",
+    "owner": {
+        "username": "D-Pow",
+        "email": "dpow9373@gmail.com"
+    },
+    "record": {
+        "CNAME": "d-pow.github.io"
+    }
+}
