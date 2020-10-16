@@ -5,7 +5,6 @@
     "email": "me@aashutosh.dev"
   },
   "record": {
-    "CNAME": "aashutosh.dev",
-    "URL": "https://aashutosh.is-a.dev"
+    "CNAME": "aashutosh.dev"
   }
 }
