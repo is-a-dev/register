@@ -1,0 +1,11 @@
+{
+    "description": "Subdomain of Hat Kid!",
+    "repo": "https://github.com/hatkidchan/",
+    "owner": {
+        "username": "hatkidchan",
+        "email": "hatkidchan@gmail.com"
+    },
+    "record": {
+        "CNAME": "hatkidchan.github.io"
+    }
+}
