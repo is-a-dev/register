@@ -1,0 +1,11 @@
+{
+  "description": "This website is a link to my personal developer portfolio.",
+  "repo": "https://github.com/derMelnik/derMelnik.github.io",
+  "owner": {
+    "username": "derMelnik",
+    "email": "dermelnik@pm.me"
+  },
+  "record": {
+    "CNAME": "derMelnik.github.io"
+  }
+}

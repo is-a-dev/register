@@ -1,12 +1,11 @@
 {
-    "description": "Rahul's personal developer website",
-    "repo": "https://github.com/rahuldahal",
-    "owner": {
-        "username": "rahuldahal",
-        "email": "rdaahal@gmail.com"
-    },
-    "record": {
-        "CNAME": "rahuldahal.com.np",
-        "URL": "https://rahul.is-a.dev"
-    }
+  "description": "Rahul's personal developer website",
+  "repo": "https://github.com/rahuldahal",
+  "owner": {
+    "username": "rahuldahal",
+    "email": "rdaahal@gmail.com"
+  },
+  "record": {
+    "CNAME": "rahuldahal.com.np"
+  }
 }
