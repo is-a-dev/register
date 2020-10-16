@@ -1,6 +1,4 @@
-# Documentation
-
-## How to register
+# How to register
 * First you need to create a pull request with your `domains/my-domain.json` file
 * This PR will be reviewed
 * The changes will take effect soon after the PR gets merged
@@ -44,7 +42,7 @@
 
 
 
-## Domains json file
+# Domains json file
 The way you register your own domain name is through a pull request.
 To register `my-domain.is-a.dev`, you need to create a `domains/my-domain.json` file
 
