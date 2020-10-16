@@ -1,0 +1,11 @@
+{
+  "description": "Andy's portfolio website",
+  "repo": "https://github.com/andyfaizan/andyfaizan.github.io",
+  "owner": {
+    "username": "andyfaizan",
+    "email": "andyfaizan@gmail.com"
+  },
+  "record": {
+    "CNAME": "andyfaizan.github.io"
+  }
+}
