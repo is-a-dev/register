@@ -1,5 +1,3 @@
-# https://github.com/actions/labeler
-
 name: Checks
 on: [pull_request_target]
 

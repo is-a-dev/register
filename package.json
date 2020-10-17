@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/is-a.dev/register-domain"
+    "url": "https://github.com/is-a-dev/register"
   },
   "keywords": [
-    "__"
+    "subdomain"
   ],
   "author": "Akshay Nair <phenax5@gmail.com>",
   "license": "GPL-3.0",
