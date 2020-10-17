@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "ENV=test jest",
-    "lint": "eslint utils scripts",
+    "lint": "eslint utils scripts domains --ext .json,.js",
     "publish-records": "node ./scripts/register-domains.js"
   },
   "repository": {
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "eslint": "^7.11.0",
+    "eslint-plugin-json": "^2.1.2",
     "eslint-plugin-node": "^11.1.0"
   }
 }

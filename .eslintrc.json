@@ -1,12 +1,14 @@
 {
   "extends": [
     "eslint:recommended",
-    "plugin:node/recommended"
+    "plugin:node/recommended",
+    "plugin:json/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 2020
   },
   "rules": {
+    "indent": ["error", 2],
     "node/exports-style": ["error", "module.exports"],
     "node/file-extension-in-import": ["error", "always"],
     "node/prefer-global/buffer": ["error", "always"],
