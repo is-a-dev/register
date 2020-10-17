@@ -2,7 +2,7 @@
 const getInstructions = () => `
 The changes have been published!! It should reflect in less than 24 hours.
 
-## Here\'s what you need to do next
+## Here's what you need to do next
 
 If your domain points to a server you own, add \`domain-name.is-a.dev\` to your server config. For https, you will have to configure ssl certificate to allow the new subdomain.
 
@@ -16,13 +16,13 @@ If your domain points to a server you own, add \`domain-name.is-a.dev\` to your 
 
 
 ## Need support with your domain?
-If you are having trouble setting up your domain, [create an issue](https://github.com/is-a-dev/register/issues/new/choose). I\'ll try my best to get back to you asap!
+If you're having trouble setting up your domain, [create an issue](https://github.com/is-a-dev/register/issues/new/choose). I'll try my best to get back to you asap!
 
 
 ## Love/Hate the service?
 **Love it?** Leave it a **star**! Also consider **[donating](https://github.com/is-a-dev/register#donations)** so that I can keep this service running forever.
 
-**Hate it?** Please leave your feedback by [creating an issue](https://github.com/is-a-dev/register/issues/new/choose). I\'d really like to keep improving this service for developers.
+**Hate it?** Please leave your feedback by [creating an issue](https://github.com/is-a-dev/register/issues/new/choose). I'd really like to keep improving this service for developers.
 `;
 
 module.exports = {
