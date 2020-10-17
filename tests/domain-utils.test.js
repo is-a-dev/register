@@ -50,7 +50,7 @@ describe('validateDomainData', () => {
       ...defaultDomain,
       description: getstroflen(99),
     },
-    { ...defaultDomain, record: { CNAME: 'sd', URL: '121,3213' } },
+    { ...defaultDomain, record: { CNAME: 'aa.sd', URL: '121,3213' } },
   ];
 
   it('should return false for invalid data', () => {

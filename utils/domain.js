@@ -25,13 +25,17 @@ const validate = pattern => data => R.compose(
   R.toPairs,
 )(pattern);
 
-const validateCnameRecord = key => R.allPass([
+const or = R.anyPass;
+const and = R.allPass;
+
+const validateCnameRecord = key => and([
   R.propSatisfies(R.is(String), key),
   R.compose(R.equals(1), R.length, R.reject(R.equals('URL')), R.keys),
+  R.propSatisfies(R.compose(R.gte(R.__, 3), R.length), key),
   R.propSatisfies(R.complement(testRegex(/^https?:\/\//ig)), key),
 ]);
 
-const validateARecord = key => R.allPass([
+const validateARecord = key => and([
   R.compose(R.equals(1), R.length, R.keys),
   R.propSatisfies(R.compose(R.gte(R.__, 1), R.length), key),
 ]);
@@ -39,9 +43,9 @@ const validateARecord = key => R.allPass([
 const validateDomainData = validate({
   name: {
     reason: 'The name of the file is invalid',
-    fn: R.anyPass([
+    fn: or([
       R.equals('@'),
-      R.allPass([
+      and([
         R.compose(between(2, 100), R.length),
         testRegex(/^[a-z0-9\-]+$/g),
       ])
@@ -51,7 +55,7 @@ const validateDomainData = validate({
   repo: { reason: '', fn: R.T, },
   owner: {
     reason: '`owner` needs username and email properties',
-    fn: R.allPass([
+    fn: and([
       R.is(Object),
       R.complement(R.isEmpty),
       R.where({
@@ -62,13 +66,13 @@ const validateDomainData = validate({
   },
   record: {
     reason: 'Invalid record. CNAME records have to be a host name and A records has to be a list of ips',
-    fn: R.allPass([
+    fn: and([
       R.is(Object),
       R.compose(R.isEmpty, R.flip(R.difference)(VALID_RECORD_TYPES), R.keys),
       R.cond([
-        [R.prop('CNAME'),  validateCnameRecord('CNAME')],
-        [R.prop('A'),      validateARecord('A')],
-        [R.prop('URL'),    R.propSatisfies(R.is(String), 'URL')],
+        [R.has('CNAME'),  validateCnameRecord('CNAME')],
+        [R.has('A'),      validateARecord('A')],
+        [R.has('URL'),    R.propSatisfies(R.is(String), 'URL')],
         [R.T, R.T],
       ]),
     ]),
