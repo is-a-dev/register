@@ -6,7 +6,13 @@ if (!CI) {
   require('dotenv').config({ path: path.resolve(`.env.${ENV}`) });
 }
 
-const { DOMAIN_USER, DOMAIN_API_KEY, DOMAIN_DOMAIN, DOMAIN_API_HOST, DOMAIN_API_PORT } = process.env;
+const {
+  DOMAIN_USER,
+  DOMAIN_API_KEY,
+  DOMAIN_DOMAIN,
+  DOMAIN_API_HOST,
+  DOMAIN_API_PORT,
+} = process.env;
 
 const IS_TEST = ENV === 'test';
 
