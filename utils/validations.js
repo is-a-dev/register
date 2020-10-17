@@ -42,7 +42,7 @@ const validateDomainData = validate({
     reason: 'Invalid record. CNAME records have to be a host name and A records has to be a list of ips',
     fn: and([
       R.is(Object),
-      R.compose(R.isEmpty, R.flip(R.difference)(VALID_RECORD_TYPES), R.keys),
+      R.compose(R.isEmpty, R.difference(R.__, VALID_RECORD_TYPES), R.keys),
       R.cond([
         [R.has('CNAME'),  validateCnameRecord('CNAME')],
         [R.has('A'),      validateARecord('A')],
