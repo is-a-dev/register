@@ -1,7 +1,7 @@
 const R = require('ramda');
 const { cpanel } = require('./lib/cpanel');
-const { DOMAIN_DOMAIN, IS_TEST } = require('./constants');
-const { log, print, lazyTask, batchLazyTasks } = require('./helpers');
+const { DOMAIN_DOMAIN } = require('./constants');
+const { then, log, print, lazyTask, batchLazyTasks } = require('./helpers');
 
 const BATCH_SIZE = 1;
 
@@ -64,8 +64,8 @@ const executeBatch = (batches) => batches.reduce((promise, batch, index) => {
 }, Promise.resolve());
 
 const getDomainService = ({ cpanel }) => {
-  const fetchZoneRecords = () => cpanel.zone.fetch().then(R.map(zoneToRecord));
-  const fetchRedirections = () => cpanel.redirection.fetch().then(R.map(redirectionToRecord));
+  const fetchZoneRecords = R.compose(then(R.map(zoneToRecord)), cpanel.zone.fetch);
+  const fetchRedirections = R.compose(then(R.map(redirectionToRecord)), cpanel.redirection.fetch);
 
   const addZoneRecord = lazyTask(R.compose(
     cpanel.zone.add,
