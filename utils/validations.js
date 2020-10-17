@@ -16,7 +16,7 @@ const validateARecord = key => and([
 
 const validateDomainData = validate({
   name: {
-    reason: 'The name of the file is invalid',
+    reason: 'The name of the file is invalid. It must be lowercased, alphanumeric and more than 2 characters long',
     fn: or([
       R.equals('@'),
       and([
@@ -28,7 +28,7 @@ const validateDomainData = validate({
   description: { reason: '', fn: R.T, },
   repo: { reason: '', fn: R.T, },
   owner: {
-    reason: '`owner` needs username and email properties',
+    reason: '`owner` needs valid username and email properties',
     fn: and([
       R.is(Object),
       R.complement(R.isEmpty),
