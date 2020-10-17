@@ -1,17 +1,19 @@
 const R = require('ramda');
 const { VALID_RECORD_TYPES } = require('./constants');
 const { or, and, validate, between, testRegex } = require('./helpers');
+const withLengthGte = n => R.compose(R.gte(R.__, n), R.length);
+const withLengthEq = n => R.compose(R.equals(n), R.length);
 
 const validateCnameRecord = key => and([
   R.propSatisfies(R.is(String), key),
-  R.compose(R.equals(1), R.length, R.reject(R.equals('URL')), R.keys),
-  R.propSatisfies(R.compose(R.gte(R.__, 3), R.length), key),
+  R.compose(withLengthEq(1), R.reject(R.equals('URL')), R.keys),
+  R.propSatisfies(withLengthGte(3), key),
   R.propSatisfies(R.complement(testRegex(/^https?:\/\//ig)), key),
 ]);
 
 const validateARecord = key => and([
-  R.compose(R.equals(1), R.length, R.keys),
-  R.propSatisfies(R.compose(R.gte(R.__, 1), R.length), key),
+  R.compose(withLengthEq(1), R.keys),
+  R.propSatisfies(withLengthGte(1), key),
 ]);
 
 const validateDomainData = validate({
@@ -33,7 +35,7 @@ const validateDomainData = validate({
       R.is(Object),
       R.complement(R.isEmpty),
       R.where({
-        username: R.is(String),
+        username: and([ R.is(String), withLengthGte(1) ]),
         email: R.is(String),
       }),
     ]),
