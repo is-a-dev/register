@@ -2,8 +2,12 @@
   "name": "is-a-dev-core",
   "version": "1.0.0",
   "description": "Register *.is-a.dev domains for free",
+  "engines": {
+    "node": ">=11.14.0"
+  },
   "scripts": {
     "test": "ENV=test jest",
+    "lint": "eslint utils scripts",
     "publish-records": "node ./scripts/register-domains.js"
   },
   "repository": {
@@ -19,6 +23,11 @@
     "dotenv": "^8.2.0",
     "jest": "^26.4.2",
     "node-fetch": "^2.6.1",
+    "qs": "^6.9.4",
     "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-plugin-node": "^11.1.0"
   }
 }

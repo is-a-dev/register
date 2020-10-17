@@ -20,7 +20,7 @@ const recordToZone = ({ name, type, address, id }) => ({
   ...(type === 'CNAME' ? { cname: address } : {}),
 });
 
-const cleanName = name => `${name}`.replace(new RegExp(`\.${DOMAIN_DOMAIN}\.?$`), '').toLowerCase();
+const cleanName = name => `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
 
 const zoneToRecord = ({ name, type, cname, address, record, line: id }) => ({
   id,
