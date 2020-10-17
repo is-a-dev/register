@@ -1,4 +1,4 @@
-const { getDomains } = require('../utils/domain');
+const { getDomains } = require('../utils/get-domain');
 
 describe('getDomains', () => {
   it('should resolve with the list of domains', async () => {
