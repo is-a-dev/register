@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: install
+          cmd: install --ignore-engines
       - name: Running tests
         uses: borales/actions-yarn@v2.0.0
         with:
