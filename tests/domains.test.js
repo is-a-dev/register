@@ -1,6 +1,7 @@
 const R = require('ramda');
 const fs = require('fs');
-const { getDomains, validateDomainData } = require('../utils/domain');
+const { getDomains } = require('../utils/get-domain');
+const { validateDomainData } = require('../utils/validations');
 const { DOMAINS_PATH } = require('../utils/constants');
 
 describe('Domains', () => {
