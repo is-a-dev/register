@@ -12,7 +12,7 @@ jobs:
       - name: Installing dependencies
         uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: install
+          cmd: install --ignore-engines
       - name: Linting
         uses: borales/actions-yarn@v2.0.0
         with:
