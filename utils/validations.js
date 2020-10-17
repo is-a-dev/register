@@ -1,8 +1,6 @@
 const R = require('ramda');
 const { VALID_RECORD_TYPES } = require('./constants');
-const { or, and, validate, between, testRegex } = require('./helpers');
-const withLengthGte = n => R.compose(R.gte(R.__, n), R.length);
-const withLengthEq = n => R.compose(R.equals(n), R.length);
+const { or, and, validate, between, testRegex, withLengthEq, withLengthGte } = require('./helpers');
 
 const validateCnameRecord = key => and([
   R.propSatisfies(R.is(String), key),

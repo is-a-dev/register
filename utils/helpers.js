@@ -8,7 +8,9 @@ const between = (min, max) => num => num >= min && num <= max;
 const testRegex = regex => str => !!(str && str.match(regex));
 
 const validate = pattern => data => R.compose(
-  invalidPairs => invalidPairs.length ? { errors: invalidPairs, valid: false } : { errors: [], valid: true },
+  invalidPairs => invalidPairs.length
+    ? { errors: invalidPairs, valid: false }
+    : { errors: [], valid: true },
   R.filter(([key, { fn }]) => fn ? !fn(data[key]) : false),
   R.toPairs,
 )(pattern);
@@ -30,5 +32,21 @@ const batchLazyTasks = count => tasks => tasks.reduce((batches, task) => {
   return [...full, [...last, task]];
 }, []);
 
-module.exports = { or, and, validate, between, testRegex, log, print, then, lazyTask, batchLazyTasks };
+const withLengthGte = n => R.compose(R.gte(R.__, n), R.length);
+const withLengthEq = n => R.compose(R.equals(n), R.length);
+
+module.exports = {
+  or,
+  and,
+  validate,
+  between,
+  testRegex,
+  log,
+  print,
+  then,
+  lazyTask,
+  batchLazyTasks,
+  withLengthEq,
+  withLengthGte,
+};
 
