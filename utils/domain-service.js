@@ -1,8 +1,9 @@
 const R = require('ramda');
 const { cpanel } = require('./lib/cpanel');
-const { DOMAIN_DOMAIN, IS_TEST } = require('./constants');
+const { DOMAIN_DOMAIN } = require('./constants');
+const { then, log, print, lazyTask, batchLazyTasks } = require('./helpers');
 
-const log = IS_TEST ? () => {} : console.log;
+const BATCH_SIZE = 1;
 
 const recordToRedirection = ({ name, address }) => ({
   domain: `${name}.${DOMAIN_DOMAIN}`,
@@ -19,7 +20,7 @@ const recordToZone = ({ name, type, address, id }) => ({
   ...(type === 'CNAME' ? { cname: address } : {}),
 });
 
-const cleanName = name => `${name}`.replace(new RegExp(`\.${DOMAIN_DOMAIN}\.?$`), '').toLowerCase();
+const cleanName = name => `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
 
 const zoneToRecord = ({ name, type, cname, address, record, line: id }) => ({
   id,
@@ -46,20 +47,6 @@ const diffRecords = (oldRecords, newRecords) => {
   return { add, remove };
 };
 
-const print = fn => x => log(fn(x)) || x;
-
-const lazyTask = fn => data => () => fn(data);
-
-const batchLazyTasks = count => tasks => tasks.reduce((batches, task) => {
-  if (batches.length === 0) return [[task]];
-
-  const full = R.init(batches);
-  const last = R.last(batches);
-
-  if (last.length >= count) return [...batches, [task]];
-  return [...full, [...last, task]];
-}, []);
-
 const executeBatch = (batches) => batches.reduce((promise, batch, index) => {
   return promise.then(async () => {
     log('>>> Running batch number:', index + 1, `(size: ${batch.length})`);
@@ -77,10 +64,8 @@ const executeBatch = (batches) => batches.reduce((promise, batch, index) => {
 }, Promise.resolve());
 
 const getDomainService = ({ cpanel }) => {
-  let hostList = [];
-
-  const fetchZoneRecords = () => cpanel.zone.fetch().then(R.map(zoneToRecord));
-  const fetchRedirections = () => cpanel.redirection.fetch().then(R.map(redirectionToRecord));
+  const fetchZoneRecords = R.compose(then(R.map(zoneToRecord)), cpanel.zone.fetch);
+  const fetchRedirections = R.compose(then(R.map(redirectionToRecord)), cpanel.redirection.fetch);
 
   const addZoneRecord = lazyTask(R.compose(
     cpanel.zone.add,
@@ -105,19 +90,11 @@ const getDomainService = ({ cpanel }) => {
     print(({ name }) => `Deleting redirection for ${name}`),
   ));
 
-  const getHosts = async () => {
-    if (hostList.length) return hostList;
-
-    const list = await Promise.all([fetchZoneRecords(), fetchRedirections()]).then(R.flatten);
-
-    hostList = list;
-    return list;
-  };
-
-  const BATCH_SIZE = 1;
+  const getHosts = () =>
+    Promise.all([fetchZoneRecords(), fetchRedirections()]).then(R.flatten);
 
   const addRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.filter(Boolean), R.map(R.cond([
-    [ R.propEq('name', 'www'),  R.always(null) ],
+    [ R.propEq('name', 'www'),  R.always(null) ], // Ignore www
     [ R.propEq('type', 'URL'),  addRedirection ],
     [ R.T,                      addZoneRecord ],
   ])));
