@@ -1,0 +1,11 @@
+{
+  "description": "superjedi",
+  "repo": "https://github.com/super-jedi/super-jedi.github.io",
+  "owner": {
+    "username": "super-jedi",
+    "email": "harikrishnan.ps@hotmail.com"
+  },
+  "record": {
+    "CNAME": "super-jedi.github.io"
+  }
+}

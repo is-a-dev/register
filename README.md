@@ -19,17 +19,12 @@ Note: This service is currently in **beta** so expect some delays in PR merge an
 
 
 ## Donations
-This project is a free service for developers and will stay that way.
+This project is a free and open source service for developers and will stay that way.
 
-Donations will be greatly appreciated!
+Please consider donating to help me keep this running forever!
 
 <a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="119"></a>
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay recurring donation button" /></a>
-
-
-
-## Report abuse
-If you think someone is abusing a domain you can report it by creating an issue with the label `report-abuse`.
 
 
 

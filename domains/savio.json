@@ -1,4 +1,4 @@
- {
+{
   "description": "Savio Martin is a Dev",
   "repo": "https://github.com/saviomartin/register",
   "owner": {
@@ -6,7 +6,6 @@
     "email": "saviomartin2020@gmail.com"
   },
   "record": {
-    "CNAME": "saviomartin.github.io",
-    "URL": "https://savio.is-a.dev"
+    "CNAME": "saviomartin.github.io"
   }
 }

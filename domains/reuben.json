@@ -1,0 +1,11 @@
+{
+  "description": "Personal Page",
+  "repo": "https://github.com/reuben-x/reuben-x.github.io",
+  "owner": {
+    "username": "reuben-x",
+    "email": "reubenthomaspeter@gmail.com"
+  },
+  "record": {
+    "CNAME": "reuben-x.github.io"
+  }
+}

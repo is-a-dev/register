@@ -1,4 +1,3 @@
-
 {
   "description": "Chris' Site",
   "repo": "https://github.com/Sp4nd3x/",
@@ -7,7 +6,6 @@
     "email": "chrisisadev@gmail.com"
   },
   "record": {
-    "CNAME": "sp4nd3x.github.io",
-    "URL": "https://chris.is-a.dev"
+    "CNAME": "sp4nd3x.github.io"
   }
 }
