@@ -1,0 +1,11 @@
+{
+  "description": "devRealm website",
+  "repo": "https://github.com/devrealm",
+  "owner": {
+    "username": "gvagenas",
+    "email": "gvagenas@gmail.com"
+  },
+  "record": {
+    "CNAME": "devrealm.org"
+  }
+}
