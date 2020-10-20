@@ -1,13 +1,29 @@
-# Documentation
-
-## How to register
+# How to register
 * First you need to create a pull request with your `domains/my-domain.json` file
 * This PR will be reviewed
 * The changes will take effect soon after the PR gets merged
 * And that's it
 
+### Simple cname record
+* A github pages json file will look something like this -
+```json
+{
+  "description": "Add some description",
+  "repo": "https://github.com/github-username",
+  "owner": {
+    "username": "github-username",
+    "email": "any@email"
+  },
+  "record": {
+    "CNAME": "the-domain-you-own.com"
+  }
+}
+```
+* After the pull request is merged, configure your server (apache, nginx, whatever) to work with `subdomain.is-a.dev`
+
+
 ### For github pages users
-* A github pages json file (with cname record and https redirection) will look something like this -
+* A github pages json file will look something like this -
 ```json
 {
   "description": "Add some description",
@@ -26,13 +42,15 @@
 
 
 
-## Domains json file
+# Domains json file
 The way you register your own domain name is through a pull request.
 To register `my-domain.is-a.dev`, you need to create a `domains/my-domain.json` file
 
+### Filename
 The file name must pass the following criteria -
-* Must be alpha numeric with dashes as seperators
+* Must be alpha-numeric in lowercase with dashes as seperators
 * Must be more than 2 characters long
+* Must have a `.json` file extension
 
 
 The file needs to have the following fields -
@@ -51,6 +69,18 @@ In the owner object, the fields `username` and `email` are required. You can how
 }
 ```
 
+If you don't wish to share your email address here, please share your twitter or any other social media account.
+```json
+{
+  "owner": {
+    "username": "github-username",
+    "email": "",
+    "twitter": "twitter-handle"
+  },
+}
+```
+
+
 ### description
 Describe your domain name and your usage. This is purely for documentation purpose and is optional.
 
@@ -67,6 +97,7 @@ Currently, only `CNAME`, `A`, `URL` record types are supported.
 Here's a few different use cases for the given record types -
 
 * **CNAME**
+CNAME must be a host name (Eg - `something.tld`)
 ```json
 {
   "record": {
@@ -76,6 +107,7 @@ Here's a few different use cases for the given record types -
 ```
 
 * **A record**
+A record must be a list of ips
 ```json
 {
   "record": {
