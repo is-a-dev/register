@@ -1,0 +1,11 @@
+{
+  "description": "Beno's personal developer website",
+  "repo": "https://github.com/benosambinu/benosambinu",
+  "owner": {
+    "username": "benosambinu",
+    "email": "benosbs@gmail.com"
+  },
+  "record": {
+    "CNAME": "github-benosambinu.github.io"
+  }
+}
