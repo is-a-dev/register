@@ -20,7 +20,7 @@ If you're having trouble setting up your domain, [create an issue](https://githu
 
 
 ## Love/Hate the service?
-**Love it?** Leave it a **star**! Also consider **[donating](https://github.com/is-a-dev/register#donations)** so that I can keep this service running forever.
+**Love it?** Leave it a **star**! Also consider **[donating](https://www.buymeacoffee.com/phenax)** so that I can keep this service running forever.
 
 **Hate it?** Please leave your feedback by [creating an issue](https://github.com/is-a-dev/register/issues/new/choose). I'd really like to keep improving this service for developers.
 `;
