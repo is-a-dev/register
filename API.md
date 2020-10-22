@@ -50,6 +50,7 @@ To register `my-domain.is-a.dev`, you need to create a `domains/my-domain.json` 
 The file name must pass the following criteria -
 * Must be alpha-numeric in lowercase with dashes as seperators
 * Must be more than 2 characters long
+* Must have a `.json` file extension
 
 
 The file needs to have the following fields -

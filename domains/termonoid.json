@@ -1,0 +1,12 @@
+{
+  "description": "my nickname, for using with github pages",
+  "repo": "https://github.com/termonoid/termonoid.github.io",
+  "owner": {
+    "username": "Termonoid",
+    "email": "termonoid@cumallover.me",
+    "telegram": "termonoid"
+  },
+  "record": {
+    "CNAME": "termonoid.github.io"
+  }
+}
