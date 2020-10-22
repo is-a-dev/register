@@ -1,0 +1,10 @@
+{
+  "description": "I like computers",
+  "repo": "https://github.com/rohithill/rohithill.github.io",
+  "owner": {
+    "username": "rohithill"
+  },
+  "record": {
+    "CNAME": "rohithill.github.io"
+  }
+}
