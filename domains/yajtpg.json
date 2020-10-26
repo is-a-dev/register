@@ -1,14 +1,16 @@
 {
-  "description": "YajTPG's website",
-  "repo": "https://github.com/YajTPG",
-  "owner": {
-    "username": "YajTPG",
-    "email": "yajtpg@gmail.com"
-  },
-  "record": {
-    "CNAME": "ns101.cloudns.net",
-    "CNAME": "ns102.cloudns.net",
-    "CNAME": "ns103.cloudns.net",
-    "CNAME": "ns104.cloudns.net"
-  }
+   "description":"YajTPG's website",
+   "repo":"https://github.com/YajTPG",
+   "owner":{
+      "username":"YajTPG",
+      "email":"yajtpg@gmail.com"
+   },
+   "record":{
+      "CNAME":[
+         "ns101.cloudns.net",
+         "ns102.cloudns.net",
+         "ns103.cloudns.net",
+         "ns104.cloudns.net"
+      ]
+   }
 }
