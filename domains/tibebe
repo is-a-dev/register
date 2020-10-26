@@ -1,0 +1,10 @@
+{
+  "description": "Tibebe is a dev",
+  "repo": "https://github.com/TibebeJS/tibebejs.github.io",
+  "owner": {
+    "username": "TibebeJs"
+  },
+  "record": {
+    "CNAME": "https://tibebejs.github.io/"
+  }
+}
