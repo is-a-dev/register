@@ -1,0 +1,11 @@
+{
+  "description": "Dennis is a Dev",
+  "repo": "https://github.com/dvandervlag/dvandervlag.github.io",
+  "owner": {
+    "username": "dvandervlag",
+    "email": "dvandervlag@gmail.com"
+  },
+  "record": {
+    "CNAME": "dvandervlag.github.io"
+  }
+}

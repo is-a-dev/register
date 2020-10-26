@@ -1,0 +1,11 @@
+{
+  "description": "Abdul's personal developer website",
+  "repo": "https://github.com/ariskycode/ariskycode.github.io",
+  "owner": {
+    "username": "ariskycode",
+    "email": "arirfanshaikh23@gmail.com"
+  },
+  "record": {
+    "CNAME": "ariskycode.github.io"
+  }
+}

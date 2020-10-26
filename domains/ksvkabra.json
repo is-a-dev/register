@@ -1,0 +1,10 @@
+{
+  "description": "Keshav Kabra's website",
+  "owner": {
+    "username": "ksvkabra",
+    "email": "ksvkabra@gmail.com"
+  },
+  "record": {
+    "CNAME": "ksvkabra.github.io"
+  }
+}

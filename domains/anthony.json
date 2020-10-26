@@ -5,7 +5,6 @@
     "email": "admin@thehubble.com.au"
   },
   "record": {
-    "CNAME": "brisbaneweb.dev",
-    "URL": "https://anthony.is-a.dev"
+    "CNAME": "brisbaneweb.dev"
   }
 }
