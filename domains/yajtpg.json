@@ -1,16 +1,11 @@
 {
    "description":"YajTPG's website",
-   "repo":"https://github.com/YajTPG",
+   "repo":"https://github.com/YajTPG/yajtpg.github.io",
    "owner":{
       "username":"YajTPG",
       "email":"yajtpg@gmail.com"
    },
    "record":{
-      "A":[
-         "85.159.233.158",
-         "108.59.1.30",
-         "217.182.183.225",
-         "185.206.180.169"
-      ]
+      "CNAME": "yajtpg.github.io"
    }
 }
