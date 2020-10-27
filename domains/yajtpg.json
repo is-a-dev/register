@@ -6,9 +6,11 @@
       "email":"yajtpg@gmail.com"
    },
    "record":{
-      "CNAME":"ns101.cloudns.net",
-      "CNAME":"ns102.cloudns.net",
-      "CNAME":"ns103.cloudns.net",
-      "CNAME":"ns104.cloudns.net"
+      "A":[
+         "85.159.233.158",
+         "108.59.1.30",
+         "217.182.183.225",
+         "185.206.180.169"
+      ]
    }
 }
