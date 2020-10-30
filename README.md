@@ -4,8 +4,6 @@
 
 is-a-dev is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
 
-Note: This service is currently in **beta** so expect some delays in PR merge and report any issues you encounter so that the service can be improved.
-
 
 
 ## How do I register?
