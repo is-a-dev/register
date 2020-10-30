@@ -1,10 +1,10 @@
 {
+  "description": "Dan's Blog and Portfolio",
+  "repo": "https://github.com/DanField12/DanField12.github.io.git",
   "owner": {
     "username": "DanField12",
     "email": "dan.field643@gmail.com"
   },
-  "description": "Dan's Blog and Portfolio",
-  "repository": "https://github.com/DanField12/DanField12.github.io.git",
   "record": {
     "CNAME": "DanField12.github.io"
   }
