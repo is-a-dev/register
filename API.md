@@ -23,7 +23,8 @@
 
 
 ### For github pages users
-* A github pages json file will look something like this -
+* You can take a look at the [github pages guide](https://guides.github.com/features/pages/) if you need help with setting up a website with github pages.
+* Your json file will look something like this -
 ```json
 {
   "description": "Add some description",
