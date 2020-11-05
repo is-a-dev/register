@@ -1,0 +1,12 @@
+
+{
+  "description": "Abhishek's dev website",
+  "repo": "https://github.com/abhishekbhagwat",
+  "owner": {
+    "username": "abhishekbhagwat",
+    "email": "abhishek.bhagwat1999@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://abhishekbhagwat.com/"
+  }
+}
