@@ -17,7 +17,7 @@ const recordToZone = ({ name, type, address, id }) => ({
   name,
   type,
   address,
-  ...(type === 'CNAME' ? { cname: address } : {}),
+  ...(type === 'CNAME' ? { cname: address } : (type === 'TXT' ? { txtdata: address } : {})),
 });
 
 const cleanName = name => name === DOMAIN_DOMAIN ? '@' : `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
