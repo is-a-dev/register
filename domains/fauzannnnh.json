@@ -1,0 +1,11 @@
+{
+  "description": "My portfolio website using .is-a.dev subdomain",
+  "repo": "https://github.com/Fauzannnnh/website",
+  "owner": {
+    "username": "Fauzannnnh",
+    "email": "fauzan@eenthlh.xyz"
+  },
+  "record": {
+    "CNAME": "hydrophobic-swan-98i2px9dedxtgzly3sfft9ot.herokudns.com"
+  }
+}
