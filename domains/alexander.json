@@ -6,7 +6,6 @@
     "email": "alexander@alexander.dk"
   },
   "record": {
-    "CNAME": "alexander.dk",
-    "URL": "https://alexander.is-a.dev"
+    "CNAME": "alexander.dk"
   }
 }

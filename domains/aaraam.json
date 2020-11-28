@@ -1,0 +1,11 @@
+{
+  "description": "This website is a link to my personal developer portfolio.",
+  "repo": "https://github.com/aaraam/aaraam.github.io",
+  "owner": {
+    "username": "aaraam",
+    "email": "aaraam.goblin@gmail.com"
+  },
+  "record": {
+    "CNAME": "aaraam.github.io"
+  }
+}

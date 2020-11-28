@@ -6,7 +6,6 @@
     "email": "admin@yukselbeyti.com"
   },
   "record": {
-    "CNAME": "yuks.github.io",
-    "URL": "https://yuksel.is-a.dev"
+    "CNAME": "yuks.github.io"
   }
 }
