@@ -1,0 +1,11 @@
+{
+  "description": "nagln's personal website",
+  "repo": "https://github.com/laxminagln/laxminagln.github.io",
+  "owner": {
+    "username": "laxminagln",
+    "email": "laxminagln@gmail.com"
+  },
+  "record": {
+    "CNAME": "www.laxminagln.me"
+  }
+}

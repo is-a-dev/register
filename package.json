@@ -4,14 +4,15 @@
   "description": "Register *.is-a.dev domains for free",
   "scripts": {
     "test": "ENV=test jest",
+    "lint": "eslint utils scripts domains --ext .json,.js",
     "publish-records": "node ./scripts/register-domains.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/is-a.dev/register-domain"
+    "url": "https://github.com/is-a-dev/register"
   },
   "keywords": [
-    "__"
+    "subdomain"
   ],
   "author": "Akshay Nair <phenax5@gmail.com>",
   "license": "GPL-3.0",
@@ -19,6 +20,12 @@
     "dotenv": "^8.2.0",
     "jest": "^26.4.2",
     "node-fetch": "^2.6.1",
+    "qs": "^6.9.4",
     "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-node": "^11.1.0"
   }
 }

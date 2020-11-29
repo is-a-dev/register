@@ -1,0 +1,11 @@
+{
+  "description": "My very own is a dev domain for github pages",
+  "repo": "https://github.com/kiranhart/kiranhart.github.io",
+  "owner": {
+    "username": "kiranhart",
+    "email": "kiran.hart@live.com"
+  },
+  "record": {
+    "CNAME": "kiranhart.github.io"
+  }
+}
