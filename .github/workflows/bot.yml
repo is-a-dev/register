@@ -20,4 +20,5 @@ jobs:
             const { hasLabel } = require(`${process.env.GITHUB_WORKSPACE}/scripts/action-utils.js`);
             const { instructions } = require(`${process.env.GITHUB_WORKSPACE}/scripts/reply.js`);
             if (hasLabel(context, 'domain'))
-              await instructions(context, github);
+              console.log('Domain');
+            await instructions(context, github);
