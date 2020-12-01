@@ -1,11 +1,9 @@
 {
-	"description": "description",
-	"repo": "https://github.com/HerrBlauzahn/justus.is-a.dev",
 	"owner": {
 		"username": "HerrBlauzahn",
 		"email": "justus.is-a.dev@herrblauzahn.de"
 	},
 	"record": {
-	"CNAME": "herrblauzahn.github.io"
+		"CNAME": "herrblauzahn.github.io"
 	}
 }
