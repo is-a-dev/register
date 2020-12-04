@@ -1,0 +1,11 @@
+{
+  "description": "cool stuff",
+  "repo": "https://github.com/ticklerick/ticklerick.github.io",
+  "owner": {
+    "username": "ticklerick",
+    "email": "pickle@anonemail.net"
+  },
+  "record": {
+    "CNAME": "ticklerick.github.io"
+  }
+}

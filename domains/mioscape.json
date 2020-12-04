@@ -1,0 +1,11 @@
+{
+  "description": "This website is a link to my personal blog.",
+  "repo": "https://github.com/mioscape/mioscape.github.io",
+  "owner": {
+    "username": "mioscape",
+    "email": "mioscape@gmail.com"
+  },
+  "record": {
+    "CNAME": "mioscape.github.io"
+  }
+}

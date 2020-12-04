@@ -1,7 +1,5 @@
-# https://github.com/actions/labeler
-
 name: Checks
-on: [pull_request_target]
+on: [pull_request]
 
 jobs:
   validation:
@@ -14,15 +12,15 @@ jobs:
       - name: Installing dependencies
         uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: install
+          cmd: install --ignore-engines
       - name: Running tests
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: test
-  label:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Labelling pull request
-        uses: actions/labeler@main
-        with:
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+  #label:
+    #runs-on: ubuntu-latest
+    #steps:
+      #- name: Labelling pull request
+        #uses: actions/labeler@main
+        #with:
+          #repo-token: "${{ secrets.GITHUB_TOKEN }}"
