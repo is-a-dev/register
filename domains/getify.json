@@ -4,8 +4,6 @@
     "email": "domains@dontsend.me"
   },
   "record": {
-    "A": [
-      "50.116.28.162"
-    ]
+    "URL": "https://me.getify.com"
   }
 }

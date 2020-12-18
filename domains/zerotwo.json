@@ -1,0 +1,11 @@
+{
+  "description": "ZeroTwo's Website",
+  "repo": "https://github.com/ZeroTwoDev",
+  "owner": {
+    "username": "ZeroTwoDev",
+    "email": "zerotwo@zerotwo.bot"
+  },
+  "record": {
+    "CNAME": "zerotwodev.github.io"
+  }
+}
