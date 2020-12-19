@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "HerrBlauzahn",
-    "email": "justus.is-a.dev@herrblauzahn.de"
-  },
-  "record": {
-    "CNAME": "herrblauzahn.github.io"
-  }
+	"owner": {
+		"username": "Justus-D",
+		"email": "justus.is-a.dev@herrblauzahn.de"
+	},
+	"record": {
+		"CNAME": "justus-d.github.io"
+	}
 }
