@@ -1,11 +1,11 @@
 {
-    "description": "The Interstellar Twilight",
-    "repo": "https://gitlab.com/avinal/avinal.gitlab.io",
-    "owner": {
-        "username": "avinal",
-        "email": "185067@nith.ac.in"
-    },
-    "record": {
-        "CNAME": "avinal.gitlab.io"
-    }
+  "description": "The Interstellar Twilight",
+  "repo": "https://github.com/avinal/avinal.github.io",
+  "owner": {
+    "username": "avinal",
+    "email": "185067@nith.ac.in"
+  },
+  "record": {
+    "CNAME": "avinal.github.io"
+  }
 }
