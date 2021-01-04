@@ -1,7 +1,11 @@
 {
-    "owner": { "username": "thetayloredman", "email": "", "telegram": "BadBoyHaloCat" },
-    "description": "Personal website",
-    "record": {
-        "CNAME": "badboyhalocat.tk"
-    }
+  "owner": {
+    "username": "thetayloredman",
+    "email": "",
+    "telegram": "BadBoyHaloCat"
+  },
+  "description": "Personal website",
+  "record": {
+    "CNAME": "badboyhalocat.tk"
+  }
 }
