@@ -1,12 +1,14 @@
 {
-  "description": "my nickname, for using with github pages",
-  "repo": "https://github.com/termonoid/termonoid.github.io",
+  "description": "Domain for personal server",
+  "repo": "https://github.com/Termonoid/",
   "owner": {
     "username": "Termonoid",
     "email": "termonoid@cumallover.me",
     "telegram": "termonoid"
   },
   "record": {
-    "CNAME": "termonoid.github.io"
+    "A": [
+    	"51.75.248.116"
+    ]
   }
 }
