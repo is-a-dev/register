@@ -1,3 +1,4 @@
+
 {
   "description": "bashous website and profolio",
   "repo": "https://github.com/bashoudev/register",
@@ -5,8 +6,7 @@
     "username": "bashoudev",
     "email": "zionthedev@gmail.com"
   },
-{
   "record": {
-    "CNAME": "bashoudev.ga"
+    "CNAME": "https://bashoudev.ga"
   }
 }
