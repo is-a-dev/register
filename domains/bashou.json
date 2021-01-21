@@ -1,11 +1,8 @@
-
 {
-  "description": "bashous website and profolio",
-  "repo": "https://github.com/bashoudev/register",
   "owner": {
     "username": "bashoudev",
-    "email": "zionthedev@gmail.com"
-    "twitter": "bashoudev"
+    "email": "zionthedev@gmail.com",
+    "instagram": "bashoudev"
   },
   "record": {
     "CNAME": "bashoudev.ga"
