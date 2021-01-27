@@ -1,0 +1,10 @@
+{
+  "description": "Scientific Guy's Personal Website",
+  "owner": {
+    "username": "scientific-guy",
+    "email": "scientificguy007@gmail.com"
+  },
+  "record": {
+    "CNAME": "portfolio.science.repl.co"
+  }
+}
