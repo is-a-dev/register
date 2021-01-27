@@ -1,0 +1,11 @@
+{
+  "description": "Snowflake's personal developer website",
+  "repo": "https://github.com/snowflake107",
+  "owner": {
+    "username": "snowflake107",
+    "email": "devsnowflake107@gmail.com"
+  },
+  "record": {
+    "CNAME": "itzsnowflakex.netlify.app"
+  }
+}
