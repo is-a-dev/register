@@ -6,6 +6,6 @@
   },
   "description": "Personal website",
   "record": {
-    "CNAME": "badboyhalocat.tk.cdn.cloudflare.net"
+    "A": ["167.172.157.69"]
   }
 }
