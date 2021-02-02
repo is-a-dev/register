@@ -1,0 +1,11 @@
+{
+  "description": "This website is a link to my personal developer portfolio.",
+  "repo": "https://github.com/SquarePear/jeffreyharmon.me",
+  "owner": {
+    "username": "SquarePear",
+    "email": "16364318+SquarePear@users.noreply.github.com"
+  },
+  "record": {
+    "CNAME": "jeffreyharmonme.netlify.app"
+  }
+}
