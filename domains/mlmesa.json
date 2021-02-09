@@ -3,5 +3,9 @@
   "owner": {
     "username": "mlmesa",
     "email": "mlmesa@protonmail.com"
+  },
+  "record":{
+     "CNAME" : mlmesa2.github.io/test_page/
   }
+   
 }
