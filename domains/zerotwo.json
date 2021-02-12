@@ -1,0 +1,11 @@
+{
+  "description": "The site for ZeroTwo's docs.",
+  "repo": "https://github.com/ZeroTwoDev",
+  "owner": {
+    "username": "ZeroTwoDev",
+    "email": "halil_ismail@yahoo.com"
+  },
+  "record": {
+    "CNAME": "hosting.gitbook.io"
+  }
+}

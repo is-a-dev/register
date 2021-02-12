@@ -2,14 +2,13 @@
 
 <br />
 
-is-a-dev is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
-
+**is-a-dev** is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
 
 
 ## How do I register?
 * Fork this project
-* Add a `your-domain-name.json` new file in `domains/` directory to register `your-domain-name.is-a.dev`
-* [Read the docs for information about the json file](./API.md)
+* Add a new `domains/your-domain-name.json` file directory to register `your-domain-name.is-a.dev`
+* [Read the docs](./docs)
 * The PR will be reviewed and merged
 * After merging, the changes will take effect within a day
 * That's it! Done! Now go show off your cool `.is-a.dev` domain
