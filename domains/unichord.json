@@ -1,0 +1,11 @@
+{
+  "description": "Unichord Apps website",
+  "repo": "https://github.com/unichord-apps/unichord-apps.github.io",
+  "owner": {
+    "username": "unichord-apps",
+    "email": "unichord@pm.me"
+  },
+  "record": {
+    "CNAME": "unichord-apps.github.io"
+  }
+}
