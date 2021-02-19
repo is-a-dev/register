@@ -1,0 +1,12 @@
+{
+  "description": "A website to showcase how .is-a.dev works",
+  "repo": "https://github.com/SoulNinja-dev/Website-is-a.dev",
+  "owner": {
+    "username": "SoulNinja-dev",
+    "email": "soulninja@soulninja.co",
+    "twitter": "Aadhithyan_17"
+  },
+  "record": {
+    "CNAME": "SoulNinja-dev.github.io"
+  }
+}
