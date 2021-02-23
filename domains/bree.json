@@ -1,0 +1,11 @@
+{
+  "description": "Bree is a Dev",
+  "repo": "https://github.com/breekoy/breekoy.github.io",
+  "owner": {
+    "username": "breekoy",
+    "email": "mcwall.breekoy@gmail.com"
+  },
+  "record": {
+    "CNAME": "breekoy.github.io"
+  }
+}

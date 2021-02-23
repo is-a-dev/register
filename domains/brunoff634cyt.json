@@ -1,0 +1,11 @@
+{
+  "description": "My github website",
+  "repo": "https://github.com/brunoff634cyt/brunoff634cyt.github.io",
+  "owner": {
+    "username": "brunoff634cyt",
+    "email": "brunoff634cyt@gmail.com"
+  },
+  "record": {
+    "CNAME": "brunoff634cyt.github.io"
+  }
+}

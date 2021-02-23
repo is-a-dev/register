@@ -1,0 +1,11 @@
+{
+  "description": "references for my npm packages",
+  "repo": "https://github.com/teamjoelee",
+  "owner": {
+    "username": "teamjoelee",
+    "email": "tojoeleeofficial@gmail.com"
+  },
+  "record": {
+    "CNAME": "hosting.gitbook.io"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Nishant's website and blog",
+  "repo": "https://github.com/nishch/nishch.github.io",
+  "owner": {
+    "username": "nishch",
+    "email": "nishantchvedi@gmail.com"
+  },
+  "record": {
+    "CNAME": "twistedsoft.com"
+  }
+}

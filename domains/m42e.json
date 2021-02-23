@@ -1,0 +1,11 @@
+{
+  "description": "m42e Homepage",
+  "repo": "https://github.com/m42e",
+  "owner": {
+    "username": "m42e",
+    "email": "matthias@bilger.info"
+  },
+  "record": {
+    "CNAME": "bilger.info"
+  }
+}

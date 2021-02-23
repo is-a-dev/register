@@ -1,0 +1,11 @@
+{
+  "description": "Susnata's is.a.dev domain!",
+  "repo": "https://github.com/proghead00/proghead00.github.io",
+  "owner": {
+    "username": "proghead00",
+    "email": "susnata00@gmail.com"
+  },
+  "record": {
+    "CNAME": "proghead00.github.io"
+  }
+}

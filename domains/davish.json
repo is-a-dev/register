@@ -1,0 +1,11 @@
+{
+  "description": "Davish's Wesbite",
+  "repo": "https://github.com/akchy/akchy.github.io",
+  "owner": {
+    "username": "akchy",
+    "email": "akarshashok12@gmail.com"
+  },
+  "record": {
+    "CNAME": "akchy.github.io"
+  }
+}

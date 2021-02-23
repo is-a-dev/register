@@ -5,7 +5,6 @@
     "email": "gilad@eventov.com"
   },
   "record": {
-    "CNAME": "gilad.ninja",
-    "URL": "https://gilad.is-a.dev"
+    "CNAME": "gilad.ninja"
   }
 }

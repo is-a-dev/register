@@ -1,0 +1,12 @@
+{
+  "description": "A personal website",
+  "repo": "https://github.com/HeroGamers/HeroGamers",
+  "owner": {
+    "username": "HeroGamers",
+    "email": "hero@herogamers.xyz",
+    "twitter": "ItsHeroGamers"
+  },
+  "record": {
+    "CNAME": "herogamers.github.io"
+  }
+}
