@@ -1,11 +1,12 @@
 {
   "description": "The root domain for is-a.dev website",
-  "repo": "https://github.com/is-a-dev/is-a-dev.github.io",
+  "repo": "https://is-a-dev.github.io/is-a-dev.github.io",
   "owner": {
     "username": "phenax",
     "email": "phenax5@gmail.com"
   },
   "record": {
-    "URL": "http://www.is-a.dev"
+    "CNAME": "www.is-a.dev"
+    "URL": "https://www.is-a.dev"
   }
 }
