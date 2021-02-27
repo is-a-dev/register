@@ -71,7 +71,7 @@ Here's a few different use cases for the given record types -
 ```json
 {
   "record": {
-    "CNAME": "username.github.io"
+    "CNAME": "github-username.github.io"
   }
 }
 ```
