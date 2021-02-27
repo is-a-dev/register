@@ -1,12 +1,12 @@
 {
-    "description": "Sergii Shyran - WebDev, Arch",
-    "repo": "https://github.com/sshyran/shyran.github.io",
+    "description": "Sergio Shyran, IC & SA",
+    "repo": "https://github.com/sshyran/",
     "owner": {
         "username": "sshyran",
-        "email": "s.shyran@gmail.com"
+        "email": "service@shyran.pp.ua"
     },
     "record": {
-      "CNAME": "shyran.github.io",
-      "URL": "https://shyran.is-a.dev"
+      "CNAME": "www.shyran.is-a.dev",
+      "URL": "https://www.shyran.is-a.dev"
     }
   }
