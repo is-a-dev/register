@@ -11,20 +11,21 @@
 ```json
 {
   "description": "Add some description",
-  "repo": "https://github.com/github-username/github-username.github.io",
+  "repo": "https://github-username.github.io/github-pages-enabled-repo-that-[your-domain.is-a.dev]-points-to",
   "owner": {
     "username": "github-username",
     "email": "any@email"
   },
   "record": {
     "CNAME": "github-username.github.io"
+      "URL": "www.your-domain.is-a.dev"
   }
 }
 ```
-* After the pull request is merged, you will see a 404 error on `your-domain.is-a.dev`. To fix this go to your github page repo's `Settings > Github pages > Custom domain` and add `your-domain.is-a.dev` in the given field
-* Check the `Enforce HTTPS` checkbox below the custom domain input
-
-
+* After the pull request is merged, you will see a 404 error on `your-domain.is-a.dev`. To fix this go to your github page repo's `Settings > Github pages > Custom domain` and add `https://www.your-domain.is-a.dev` in the given field.
+* Check the `Enforce HTTPS` checkbox below the custom domain field.
+* For all pages resolve faster, change your github-pages-enabled repo branch name from 'main' to 'www.your-domain.is-a.dev', and set it as root in GitHub Pages settings.
+* If no CNAME - then is-a.dev NS won't resolve your repo, and page will give 404.
 
 ## Domains json file
 The way you register your own domain name is through a pull request.
