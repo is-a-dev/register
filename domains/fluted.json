@@ -1,0 +1,11 @@
+{
+  "description": "fluted.is-a-dev",
+  "repo": "https://github.com/fluteds/fluteds.github.io",
+  "owner": {
+    "username": "fluteds",
+    "twitter": "fluted_"
+  },
+  "record": {
+    "CNAME": "fluted.xyz"
+  }
+}
