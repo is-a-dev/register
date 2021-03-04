@@ -1,0 +1,12 @@
+{
+  "description": "A personal is a dev site.",
+  "repo": "",
+  "owner": {
+    "username": "jetus",
+    "email": "officialjetus@gmail.com",
+    "twitter": "itzjetus"
+  },
+  "record": {
+    "CNAME": "https://github.com/dev-jetus/dev-jetus.github.io"
+  }
+}
