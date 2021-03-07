@@ -1,11 +1,11 @@
 {
   "description": "Tanish2002's Website",
-  "repo": "https://gitlab.com/Tanish2002/tanish2002.gitlab.io",
+  "repo": "https://github.com/Tanish2002",
   "owner": {
     "username": "Tanish2002",
     "email": "tanishkhare@gmail.com"
   },
   "record": {
-    "CNAME": "tanish2002.gitlab.io"
+    "URL": "https://tanish2002.gitlab.io"
   }
 }
