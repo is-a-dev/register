@@ -1,0 +1,11 @@
+{
+  "description": "Documentation pages for Samuel apps.",
+  "repo": "https://github.com/SISBEST/sisbest.github.io",
+  "owner": {
+    "username": "SISBEST",
+    "email": "samuel@samuelsharp.com"
+  },
+  "record": {
+    "CNAME": "sisbest.github.io"
+  }
+}

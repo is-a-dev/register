@@ -6,7 +6,7 @@ const { then, log, print, lazyTask, batchLazyTasks } = require('./helpers');
 const BATCH_SIZE = 1;
 
 const recordToRedirection = ({ name, address }) => ({
-  domain: `${name}.${DOMAIN_DOMAIN}`,
+  domain: name === '@' ? DOMAIN_DOMAIN : `${name}.${DOMAIN_DOMAIN}`,
   redirect: address,
   type: 'permanent',
   redirect_wildcard: 1,
@@ -18,9 +18,10 @@ const recordToZone = ({ name, type, address, id }) => ({
   type,
   address,
   ...(type === 'CNAME' ? { cname: address } : {}),
+  ...(type === 'TXT' ? { txtdata: address } : {}),
 });
 
-const cleanName = name => `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
+const cleanName = name => name === DOMAIN_DOMAIN ? '@' : `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
 
 const zoneToRecord = ({ name, type, cname, address, record, line: id }) => ({
   id,
@@ -42,7 +43,7 @@ const diffRecords = (oldRecords, newRecords) => {
 
   const remove = R.differenceWith(isMatchingRecord, oldRecords, newRecords);
   const add = R.differenceWith(isMatchingRecord, newRecords, oldRecords)
-    .filter(r => !['www', '@'].includes(r.name));
+    .filter(r => !['www'].includes(r.name));
 
   return { add, remove };
 };
@@ -114,7 +115,7 @@ const getDomainService = ({ cpanel }) => {
     return { added: add.length, removed: remove.length };
   };
 
-  return { getHosts, updateHosts };
+  return { getHosts, addZoneRecord, removeZoneRecord, updateHosts };
 };
 
 const domainService = getDomainService({ cpanel });
