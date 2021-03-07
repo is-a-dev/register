@@ -1,11 +1,11 @@
 {
-  "description": "ATZU's website",
+  "description": "Atzu's Personal Website",
   "repo": "https://github.com/z3ro0k",
   "owner": {
-    "username": "z3ro0k",
-    "email": "zerok636@gmail.com"
+    "username": "Atzu",
+    "email": "atzu@nextgenteam.tech"
   },
   "record": {
-    "CNAME": "atzu.xyz"
+    "URL": "https://atzu.studio"
   }
 }
