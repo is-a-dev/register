@@ -1,0 +1,11 @@
+{
+  "description": "SahalDev",
+  "repo": "https://github.com/SahalDev/sahaldev.github.io",
+  "owner": {
+    "username": "SahalDev",
+    "email": "sahal@pixdev.gq"
+  },
+  "record": {
+    "CNAME": "SahalDev.github.io"
+  }
+}
