@@ -1,0 +1,11 @@
+{
+  "description": "My Github pages portfolio",
+  "repo": "https://github.com/iClaudette/claudette.github.io/tree/main",
+  "owner": {
+    "username": "iClaudette",
+    "email": "claudette@voiddevs.org"
+  },
+  "record": {
+    "CNAME": "claudette.github.io"
+  }
+}
