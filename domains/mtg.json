@@ -1,12 +1,13 @@
 {
   "description": "MTGSquad's Website, A Place Where He Jots Down Dumb Stuff",
-  "repo": "https://github.com/mtgsquad/mtgsquad.github.io",
+  "repo": "https://github.com/mtgsquad",
   "owner": {
     "username": "mtgsquad",
     "email": "mtgsquad.dev@protonmail.com",
     "twitter": "mtgsquad_dev"
   },
   "record": {
-    "CNAME": "mtgsquad.github.io"
+    // im hosting a blog on hashnode, so imma stop using github pages and instead i'll point this to hashnode.network.
+    "CNAME": "hashnode.network"
   }
 }
