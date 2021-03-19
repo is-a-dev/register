@@ -4,6 +4,6 @@
     "email": "anthromadayt@gmail.com"
   },
   "record": {
-    "CNAME: "185.208.169.80:8215"
+    "A: ["185.208.169.80:8215"]
   }
 }
