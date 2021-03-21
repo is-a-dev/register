@@ -7,7 +7,6 @@
     "twitter": "mtgsquad_dev"
   },
   "record": {
-    // im hosting a blog on hashnode, so imma stop using github pages and instead i'll point this to hashnode.network.
     "CNAME": "hashnode.network"
   }
 }
