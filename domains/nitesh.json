@@ -1,0 +1,11 @@
+{
+  "description": "My Website",
+  "repo": "https://github.com/Niteshballa",
+  "owner": {
+    "username": "Niteshballa",
+    "email": "Nithesh.mom@gmail.com"
+  },
+  "record": {
+    "CNAME": "niteshballa.github.io"
+  }
+}
