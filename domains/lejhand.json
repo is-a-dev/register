@@ -1,0 +1,11 @@
+{
+  "description": "A static site for Lejhand Portfolio",
+  "repo": "https://github.com/LejhandGamingYT",
+  "owner": {
+    "username": "Lejhand",
+    "email": "dhruvbhanushali5621@gmail.com"
+  },
+  "record": {
+    "CNAME": "lejhandgamingyt.github.io"
+  }
+}
