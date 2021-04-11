@@ -1,0 +1,11 @@
+{
+  "description": "kardespro' personal developer website",
+  "repo": "https://github.com/kardespro/kardespro.github.io",
+  "owner": {
+    "username": "kardespro",
+    "email": "info@kardespro.cf"
+  },
+  "record": {
+    "CNAME": "kardespro.cf"
+  }
+}
