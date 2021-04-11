@@ -1,0 +1,11 @@
+{
+  "description": "zplusfour's personal developer website",
+  "repo": "https://github.com/zplusfour",
+  "owner": {
+    "username": "zplusfour",
+    "email": "zgjoniur@gmail.com"
+  },
+  "record": {
+    "CNAME": "zplusfour.repl.co"
+  }
+}
