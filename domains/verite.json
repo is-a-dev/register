@@ -1,0 +1,11 @@
+{
+    "description": "My online presence as a developer",
+    "owner": {
+        "username": "makuzaverite",
+        "email": "mugaboverite@gmail.com",
+        "twitter": "makuza_mugabo_v"
+    },
+    "record": {
+        "CNAME": "makuzaverite.github.io"
+    }
+}
