@@ -5,10 +5,12 @@ let
   nixPackages = with pkgs; [
     nodejs-15_x
     yarn
-    dnsutils
-    certbot
+    docker-compose
+    #dnsutils
+    #certbot
   ];
-in pkgs.stdenv.mkDerivation {
+in
+pkgs.stdenv.mkDerivation {
   name = "env";
   buildInputs = nixPackages;
 }
