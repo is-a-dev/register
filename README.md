@@ -29,3 +29,6 @@ Please consider donating to help me keep this running forever!
 
 ## License
 This project is under the [GPL-3.0](./LICENSE) license.
+
+## Team
+This Is Owned By [Phenax](https://akshay.is-a.dev), And Managed By [MTGSquad](https://mtg.is-a.dev)
