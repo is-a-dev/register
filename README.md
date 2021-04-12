@@ -29,3 +29,6 @@ Please consider donating to help me keep this running forever!
 
 ## License
 This project is under the [GPL-3.0](./LICENSE) license.
+
+
+[Uptime status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw)
