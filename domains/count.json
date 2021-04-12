@@ -1,0 +1,13 @@
+  
+{
+  "description": "Well, this is my github sub-domain for my future page",
+  "repo": "https://github.com/countontheworld/countontheworld.github.io",
+  "owner": {
+    "username": "countontheworld",
+    "email": "count@fbi.ac,
+    "twitter": "ihavenonelel"
+  },
+  "record": {
+    "CNAME": "countontheworld.github.io"
+  }
+}
