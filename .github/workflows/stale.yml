@@ -1,6 +1,8 @@
-name: Mark stale issues and pull requests
+name: StaleBOT
 
 on:
+  workflow_dispatch:
+    name: 'Force cleanup'
   schedule:
   - cron: "30 14 * * *"
 
