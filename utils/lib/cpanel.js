@@ -64,6 +64,9 @@ const CpanelClient = (options) => {
       //     -> {}
       remove: uapi('Mime', 'delete_redirect'),
     },
+    file: {
+      write: uapi('Fileman', 'save_file_content', { from_charset: 'UTF-8', to_charset: 'UTF-8', fallback: 1 }),
+    },
   };
 };
 

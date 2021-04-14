@@ -18,6 +18,7 @@ const recordToZone = ({ name, type, address, id }) => ({
   type,
   address,
   ...(type === 'CNAME' ? { cname: address } : {}),
+  ...(type === 'TXT' ? { txtdata: address } : {}),
 });
 
 const cleanName = name => name === DOMAIN_DOMAIN ? '@' : `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
@@ -114,7 +115,7 @@ const getDomainService = ({ cpanel }) => {
     return { added: add.length, removed: remove.length };
   };
 
-  return { getHosts, updateHosts };
+  return { getHosts, addZoneRecord, removeZoneRecord, updateHosts };
 };
 
 const domainService = getDomainService({ cpanel });
