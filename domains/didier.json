@@ -1,12 +1,11 @@
 
 {
-  "description": "Hello there I am Didier Munezero",
-  "repo": "https://github.com/didiermunezero",
+  "repo": "https://github.com/didiermunezero/didierm",
   "owner": {
     "username": "didiermunezero",
-    "email": "didiermunezer38@gmail.com"
+    "email": "didiermunezer38@gmail.com",
   },
   "record": {
-    "CNAME": "didiermunezero.github.io"
+    "URL": "https://didierm.vercel.app"
   }
 }
