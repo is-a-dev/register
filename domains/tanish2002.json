@@ -1,11 +1,11 @@
 {
   "description": "Tanish2002's Website",
-  "repo": "https://github.com/Tanish2002",
+  "repo": "https://github.com/Tanish2002/Tanish2002.github.io",
   "owner": {
     "username": "Tanish2002",
     "email": "tanishkhare@gmail.com"
   },
   "record": {
-    "TXT": "_gitlab-pages-verification-code.tanish2002.is-a.dev TXT gitlab-pages-verification-code=4b7c64007909605e746fe103851be237"
+    "CNAME": "github-username.github.io"
   }
 }
