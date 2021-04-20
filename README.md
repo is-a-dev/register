@@ -27,15 +27,18 @@ Please consider donating to help me keep this running forever!
 
 
 
-## License
-This project is under the [GPL-3.0](./LICENSE) license.
-
-
 ## Similar services
 You should also checkout -
 * [js.org](https://github.com/js-org/js.org/tree/master)
 * [thedev.id](https://github.com/fransallen/thedev.id)
 
 
+
 ## Uptime
 You can check the uptime of the service via [our status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw)
+
+
+
+
+## License
+This project is under the [GPL-3.0](./LICENSE) license.
