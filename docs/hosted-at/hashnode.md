@@ -24,4 +24,4 @@ In this guide, you will learn how to accomplish this.
 ```
 
 Once Done, your hashnode blog is setup to use your subdomin, all you have to do is wait sometime for the DNS to propogate. These changes could take from 1 hour to around 48 hours, so please be patient, It'll most likely be ready within a hour.
-Enjoy Your Hashnode Blog, With Your Sweet `.is-a.dev` Subdomain!
+Enjoy Your Hashnode Blog, With Your Sweet `.is-a.dev` Subdomain! **If You Need More Help:** please read this support article on hashnode support: https://support.hashnode.com/docs/mapping-domain/, this should help you more, if you need more help related to [Hashnode](https://hashnode.com), then please visit the [Hashnode Support Center](https://support.hashnode.com/). Remeber, is-a.dev has no links with hashnode, so please do not create issues on our github, saying that your hashnode blog is having issues, we simply will not respond to them.
