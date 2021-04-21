@@ -1,6 +1,6 @@
-When you create your Hashnode blog, hashnode provides a free **yourdomain.hashnode.dev** subdomain for you. However, you can set up your own **yourdomain.tld** domain or **blog.yourdomain.tld** subdomain to your Hashnode blog.
+When you create your Hashnode blog, hashnode provides a free **yourdomain.hashnode.dev** subdomain for you. However, you can set up your own **.is-a.dev** subdomain.
 
-In this guide, you will learn how to accomplish this alongside some additional specific guides for different domain DNS providers.
+In this guide, you will learn how to accomplish this.
 
 ---
 
