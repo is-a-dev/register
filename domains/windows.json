@@ -1,0 +1,13 @@
+{
+  "description": "my website uwu",
+  "repo": "https://github.com/windowscmd",
+  "owner": {
+    "username": "windowscmd",
+    "email": "me@astriddev.me"
+  },
+  "record": {
+    "record": {
+      "CNAME": "astridw.netlify.app"
+    }
+  }
+}
