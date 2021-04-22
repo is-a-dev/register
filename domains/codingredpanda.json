@@ -1,1 +1,11 @@
-
+{
+  "description": "CodingRedpanda's home...",
+  "repo": "https://github.com/CodingRedpanda/home.codingredpanda.io",
+  "owner": {
+    "username": "CodingRedpanda",
+    "email": "é@é.é"
+  },
+  "record": {
+    "CNAME": "cmd410.github.io"
+  }
+}
