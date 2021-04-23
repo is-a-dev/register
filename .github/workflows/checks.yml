@@ -2,6 +2,17 @@ name: Checks
 on: [pull_request]
 
 jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: NodeJS build
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
+    - run: npm ci
+    - run: npm run build --if-present
   validation:
     runs-on: ubuntu-latest
     steps:
