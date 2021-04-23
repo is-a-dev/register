@@ -10,7 +10,7 @@ jobs:
     - name: NodeJS build
       uses: actions/setup-node@v1
       with:
-        node-version: 14.x
+        node-version: 15.x
     - run: npm ci
     - run: npm run build --if-present
   validation:
