@@ -6,6 +6,7 @@
     "email": "ahmadeyamin@gmail.com"
   },
   "record": {
-    "CNAME": "ahmadeyamin.github.io"
+    "CNAME": "ahmadeyamin.github.io",
+    "TXT": "google-site-verification=I8tY35CoSN7YltvlCbW-yp0BqHkb1DPu6gOrgnFlMVU"
   }
 }
