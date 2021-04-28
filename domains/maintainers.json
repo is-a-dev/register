@@ -1,0 +1,10 @@
+{
+  "description": "The Docs For The Is-A.Dev Website!",
+  "owner": {
+    "username": "is-a.dev",
+    "email": ""
+  },
+  "record": {
+    "CNAME": "hosting.gitbook.io"
+  }
+}
