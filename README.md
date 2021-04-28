@@ -4,6 +4,8 @@
 
 **is-a-dev** is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
 
+> **[Looking for maintainers](https://github.com/is-a-dev/register/discussions/667)**
+
 
 ## How do I register?
 * Fork this project
@@ -22,6 +24,19 @@ Please consider donating to help me keep this running forever!
 
 <a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="119"></a>
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay recurring donation button" /></a>
+
+
+
+## Similar services
+You should also checkout -
+* [js.org](https://github.com/js-org/js.org/tree/master)
+* [thedev.id](https://github.com/fransallen/thedev.id)
+
+
+
+## Uptime
+You can check the uptime of the service via [our status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw)
+
 
 
 
