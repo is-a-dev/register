@@ -2,17 +2,6 @@ name: Checks
 on: [pull_request]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: NodeJS build
-      uses: actions/setup-node@v1
-      with:
-        node-version: 15.x
-    - run: npm ci
-    - run: npm run build --if-present
   validation:
     runs-on: ubuntu-latest
     steps:
@@ -20,11 +9,15 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
-      - name: Installing dependencies
+      - name: Setup node v15
+        uses: actions/setup-node@v1
+        with:
+          node-version: '15'
+      - name: Install dependencies
         uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: install --ignore-engines
-      - name: Running tests
+          cmd: install --ignore-engines --frozen-lockfile
+      - name: Run tests
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: test
