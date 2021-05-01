@@ -1,7 +1,9 @@
 name: Label
-on:
-  schedule:
-    - cron: "0 * * * *"
+on: [ pull_request_target ]
+
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
   label:
