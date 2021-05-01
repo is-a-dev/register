@@ -1,15 +1,16 @@
-name: Label
-on: [ pull_request_target ]
-
-permissions:
-  contents: read
-  pull-requests: write
+on: pull_request
 
 jobs:
-  label:
+  apply-label:
     runs-on: ubuntu-latest
     steps:
-      - name: Labelling pull request
-        uses: actions/labeler@main
+      - uses: actions/github-script@v4
         with:
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            github.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['Triage']
+            })
