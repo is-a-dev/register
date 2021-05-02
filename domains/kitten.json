@@ -1,0 +1,11 @@
+{
+  "description": "a cool website",
+  "repo": "https://github.com/KittensAreDaBest/is-a-dev",
+  "owner": {
+    "username": "KittensAreDaBest",
+    "email": "is-a-dev@mythicalkitten.com"
+  },
+  "record": {
+    "CNAME": "srv02.mythicalkitten.com"
+  }
+}
