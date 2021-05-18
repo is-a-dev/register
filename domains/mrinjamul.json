@@ -1,0 +1,11 @@
+
+{
+  "description": "Personal Website",
+  "owner": {
+    "username": "mrinjamul",
+    "email": "injamulmohammadmollah@gmail.com"
+  },
+  "record": {
+    "CNAME": "mrinjamul.gitlab.io"
+  }
+}
