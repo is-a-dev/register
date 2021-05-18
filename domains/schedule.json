@@ -1,11 +1,11 @@
 
 {
-  "description": "College Schedule Website",
+  "description": "Personal Website",
   "owner": {
     "username": "mrinjamul",
     "email": "injamulmohammadmollah@gmail.com"
   },
   "record": {
-    "CNAME": "mrinjamul.gitlab.io/myschedule/"
+    "CNAME": "mrinjamul.gitlab.io"
   }
 }
