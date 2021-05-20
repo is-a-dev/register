@@ -31,6 +31,7 @@ describe('validateDomainData', () => {
     { ...defaultDomain, owner: { email: 'hwelo' }, },
     { ...defaultDomain, record: { CNAME: 'http://foobar.com' } },
     { ...defaultDomain, record: { CNAME: 'https://foobar.com' } },
+    { ...defaultDomain, record: { URL: 'foobar.com' } },
   ];
 
   const validCases = [
@@ -44,6 +45,8 @@ describe('validateDomainData', () => {
       description: getstroflen(99),
     },
     { ...defaultDomain, record: { CNAME: 'aa.sd', URL: '121,3213' } },
+    { ...defaultDomain, record: { URL: 'https://foobar.com' } },
+    { ...defaultDomain, record: { URL: 'http://foobar.com/foobar/' } },
   ];
 
   it('should return false for invalid data', () => {
