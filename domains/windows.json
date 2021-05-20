@@ -5,7 +5,7 @@
     "username": "windowscmd",
     "email": "me@astriddev.me"
   },
-    "record": {
-      "CNAME": "astridw.netlify.app"
-    }
+  "record": {
+    "CNAME": "astridw.netlify.app"
+  }
 }
