@@ -12,6 +12,7 @@ describe('Domains', () => {
 
   it('should be valid', (done) => {
     getDomains()
+      .then(R.reject(R.propEq('name', '_psl')))
       .then(R.map(data => {
         const { errors } = validateDomainData(data);
         if (errors.length) {

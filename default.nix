@@ -6,7 +6,7 @@ let
     nodejs-15_x
     yarn
     docker-compose
-    #dnsutils
+    dnsutils
     #certbot
   ];
 in
