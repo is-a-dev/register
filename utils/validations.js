@@ -2,11 +2,13 @@ const R = require('ramda');
 const { VALID_RECORD_TYPES } = require('./constants');
 const { or, and, validate, between, testRegex, withLengthEq, withLengthGte } = require('./helpers');
 
+const isValidURL = testRegex(/^https?:\/\//ig);
+
 const validateCnameRecord = key => and([
   R.propSatisfies(R.is(String), key),
   R.compose(withLengthEq(1), R.reject(R.equals('URL')), R.keys),
   R.propSatisfies(withLengthGte(3), key),
-  R.propSatisfies(R.complement(testRegex(/^https?:\/\//ig)), key),
+  R.propSatisfies(R.complement(isValidURL), key),
 ]);
 
 const validateARecord = key => and([
@@ -46,7 +48,7 @@ const validateDomainData = validate({
       R.cond([
         [R.has('CNAME'),  validateCnameRecord('CNAME')],
         [R.has('A'),      validateARecord('A')],
-        [R.has('URL'),    R.propSatisfies(R.is(String), 'URL')],
+        [R.has('URL'),    R.propSatisfies(isValidURL, 'URL')],
         [R.T, R.T],
       ]),
     ]),
