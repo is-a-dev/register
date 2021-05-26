@@ -1,12 +1,11 @@
 {
   "description": "Fonts!",
-  "repo": "*coming soon*",
+  "repo": "https://github.com/TheBotlyNoob/fonts",
   "owner": {
-    "username": "TheBotlyNoob / MTGSquad",
-    "email": "",
-    "discord": "TheBotlyNoobYT#0064 / MTGSquad#6149"
+    "username": "TheBotlyNoob",
+    "email": "thebotlynoob@gmail.com"
   },
   "record": {
-    "CNAME": "*coming soon*"
+    "CNAME": "fonts-626o.pages.dev"
   }
 }
