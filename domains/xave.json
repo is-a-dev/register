@@ -1,11 +1,11 @@
 {
   "description": "xa's site",
-  "repo": "https://github.com/grilledwindow/site",
+  "repo": "https://github.com/grilledwindow/grilledwindw.github.io",
   "owner": {
     "username": "grilledwindow",
     "email": "xaveang@gmail.com"
   },
   "record": {
-    "CNAME": "xav.netlify.app"
+    "CNAME": "grilledwindow.github.io"
   }
 }
