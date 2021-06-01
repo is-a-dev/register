@@ -1,0 +1,11 @@
+{
+  "description": "An average developer's blog",
+  "repo": "https://github.com/AverageHelper/AverageHelper.github.io",
+  "owner": {
+    "username": "AverageHelper",
+    "twitter": "avghelper"
+  },
+  "record": {
+    "CNAME": "averagehelper.github.io"
+  }
+}
