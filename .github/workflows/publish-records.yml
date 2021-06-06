@@ -8,7 +8,7 @@ on:
 
 jobs:
   publish:
-    if: github.repository == 'is-a-dev/register’
+    if: github.repository == 'is-a-dev/register'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
