@@ -1,0 +1,11 @@
+{
+  "description": "Add some description",
+  "repo": "https://github.com/ToasterUsesGitHub",
+  "owner": {
+    "username": "ToasterUsesGitHub",
+    "email": "alex@alexzhang.xyz"
+  },
+  "record": {
+    "CNAME": "alexzhang.xyz"
+  }
+}
