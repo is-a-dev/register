@@ -30,7 +30,6 @@ If you don't wish to share your email address here, please share your twitter or
 {
   "owner": {
     "username": "github-username",
-    "email": "",
     "twitter": "twitter-handle"
   },
 }
