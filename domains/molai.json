@@ -1,11 +1,12 @@
 {
-  "description": "This website is a link to my personal developer portfolio.",
-  "repo": "https://github.com/mtgsquad/mahir-molai",
+  "description": "MTGSquad's Website, A Place Where He Jots Down Dumb Stuff",
+  "repo": "https://github.com/mtgsquad",
   "owner": {
     "username": "mtgsquad",
-    "email": "mtgissmart@gmail.com"
+    "email": "mahir@molai.dev",
+    "twitter": "DevMolai"
   },
   "record": {
-    "CNAME": "mahir-molai.pages.dev"
+    "URL": "https://molai.dev"
   }
 }
