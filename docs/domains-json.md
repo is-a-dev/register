@@ -15,7 +15,7 @@ The file needs to have the following fields -
 You need to specify some information about yourself here.
 This is so that you can be contacted if required.
 
-In the owner object, the fields `username` and `email` are required. You can however add more information in this object if you need.
+In the owner object, the field `username` is required. You can however add more information in this object if you need.
 ```json
 {
   "owner": {
