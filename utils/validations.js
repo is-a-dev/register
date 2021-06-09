@@ -36,7 +36,6 @@ const validateDomainData = validate({
       R.complement(R.isEmpty),
       R.where({
         username: and([ R.is(String), withLengthGte(1) ]),
-        email: R.is(String),
       }),
     ]),
   },
