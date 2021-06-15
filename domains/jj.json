@@ -6,6 +6,19 @@
     "email": "TheBotlyNoob@gmail.com"
   },
   "record": {
-    "URL": "https://j-j.vercel.app"
+    "URL": "https://j-j.vercel.app",
+    "MX": [
+      { 
+        "priority": 10, 
+        "value": "mx1.improvmx.com." 
+      },
+      {
+        "priority": 20,
+        "value": "mx2.improvmx.com."
+      }
+    ],
+    "TXT" [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
   }
 }
