@@ -1,0 +1,11 @@
+{
+  "description": "Redirection service (URL shortener)",
+  "repo": "https://github.com/lucatolton",
+  "owner": {
+    "username": "lucatolton",
+    "email": "lucaiscool@onmail.com"
+  },
+  "record": {
+    "CNAME": "cname.short.io"
+  }
+}
