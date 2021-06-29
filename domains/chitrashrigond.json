@@ -1,11 +1,11 @@
 {
   "description": "My portfolio",
-  "repo": "https://github.com/ChitrashriGond/ChitrashriGond.github.io",
+  "repo": "https://github.com/chitrashrigond/chitrashrigond.github.io",
   "owner": {
-    "username": "ChitrashriGond",
+    "username": "chitrashrigond",
     "email": "chaitragond@gmail.com"
   },
   "record": {
-    "CNAME": "ChitrashriGond.github.io"
+    "CNAME": "chitrashrigond.github.io"
   }
 }
