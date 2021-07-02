@@ -1,1 +1,11 @@
-
+{
+  "description": "Rekto Website",
+  "repo": "https://github.com/rekto-dev",
+  "owner": {
+    "username": "rekto",
+    "email": "rekto.personal@outlook.com"
+  },
+  "record": {
+    "CNAME": ""
+  }
+}
