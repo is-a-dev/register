@@ -1,7 +1,10 @@
 {
-    description:"discord service for bots free",
-    owner:{ "sksks#2302", "sksksdev@my.com" }
-    records:{
-    CNAME: "dns.techhost.live"
-    }
+  "description": "discord service for bots free",
+  "owner": {
+    "username": "Ihzy-Dev",
+    "email": "sksksdev@my.com"
+  },
+  "records": {
+    "CNAME": "dns.techhost.live"
+  }
 }
