@@ -1,0 +1,12 @@
+{
+  "description": "Official website for my discord bot.",
+  "repo": "https://github.com/itsbravestone",
+  "owner": {
+    "username": "itsbravestone",
+    "email": "imbravestone@zarena.ga",
+    "twitter": "imbravestone"
+  },
+  "record": {
+  "CNAME": "zarena.ga"
+  }
+}
