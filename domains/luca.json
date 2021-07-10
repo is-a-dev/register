@@ -6,6 +6,6 @@
     "email": "lucaiscool@onmail.com"
   },
   "record": {
-    "CNAME": "cname.short.io"
+    "A": [ "46.248.190.217" ]
   }
 }
