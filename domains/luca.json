@@ -6,6 +6,6 @@
     "email": "lucaiscool@onmail.com"
   },
   "record": {
-    "A": "46.248.190.217"
+    "A": [ "46.248.190.217" ]
   }
 }
