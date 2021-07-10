@@ -1,0 +1,11 @@
+{
+  "description": "LightClient' ",
+  "repo": "https://evazevolt.github.io/LightClient",
+  "owner": {
+    "username": "Voltage",
+    "email": "Voltagenesis@outlook.com"
+  },
+  "record": {
+    "CNAME": "github.io/LightClient/"
+  }
+}
