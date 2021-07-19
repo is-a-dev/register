@@ -1,0 +1,12 @@
+{
+  "description": "My personal website",
+  "repo": "hhttps://github.com/johan-perso/johan-perso.github.io",
+  "owner": {
+    "username": "johan-perso",
+    "twitter": "Johan_Stickman",
+	  "discord": "Johan#8021"
+  },
+  "record": {
+    "CNAME": "johan-perso.github.io"
+  }
+}
