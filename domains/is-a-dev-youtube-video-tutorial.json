@@ -1,0 +1,12 @@
+{
+  "description": "The youtube tutorial for is-a.dev website",
+  "repo": "https://github.com/is-a-dev/is-a-dev.github.io",
+  "owner": {
+    "username": "phenax",
+    "email": "phenax5@gmail.com",
+    "twitter": "phenax5"
+  },
+  "record": {
+    "CNAME": "usr.github.io"
+  }
+}
