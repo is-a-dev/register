@@ -1,12 +1,12 @@
 {
-  "description": "My personal website",
-  "repo": "https://github.com/Elie404/el2zay-site",
+  "description": "Bienvenue sur le site de el2zay ici vous pourrez trouver des informations sur moi ainsi que mes projets.",
+  "repo": "https://github.com/el2zay/el2zay.github.io",
   "owner": {
     "username": "el2zay",
     "email": "el2zay.contact@gmail.com",
-    "twitter": "ubuntulebest",
+    "twitter": "el2zay",
     "discord": "el2zay#1234"
   },
   "record": {
-    "CNAME": "https://elie404.github.io/el2zay-site/"
+    "CNAME": "el2zay.github.io"
   }
