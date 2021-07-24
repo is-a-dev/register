@@ -1,0 +1,12 @@
+{
+  "description": "My personal website",
+  "repo": "https://github.com/Elie404/el2zay-site",
+  "owner": {
+    "username": "el2zay",
+    "email": "el2zay.contact@gmail.com",
+    "twitter": "ubuntulebest",
+    "discord": "el2zay#1234"
+  },
+  "record": {
+    "CNAME": "https://elie404.github.io/el2zay-site/"
+  }
