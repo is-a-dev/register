@@ -1,11 +1,13 @@
 {
-  "description": "my site",
+  "description": "my website",
   "repo": "https://github.com/Bedrock16",
   "owner": {
-    "username": "Bedrock16",
+    "username": "atharv",
     "email": "youbed61@gmail.com"
   },
   "record": {
-    "CNAME": "fd6a0116-b987-4fa3-9d9a-f47ca0f69892.repl.co"
+    "A": [
+      "34.120.194.28"
+    ]
   }
 }
