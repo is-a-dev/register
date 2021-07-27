@@ -1,0 +1,12 @@
+{
+  "description": "Carmelo Velardo",
+  "repo": "https://github.com/2dvisio/2dvisio.github.io",
+  "owner": {
+    "username": "2dvisio",
+    "email": "[name.lastname]@gmail.com",
+    "twitter": "2dvisio"
+  },
+  "record": {
+    "CNAME": "2dvisio.github.io"
+  }
+}
