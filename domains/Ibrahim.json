@@ -6,7 +6,6 @@
     "email": "ibrahimimran@northsixty.com"
   },
   "record": {
-    "A": "51.81.81.65"
-    "TXT": "static-site-verification=39ef1d198684ad37a3f962fb0a422aeb"
+    "CNAME": "ibrahimdevx.github.io"
   }
 }
