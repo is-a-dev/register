@@ -1,10 +1,11 @@
 {
-  "description": "Scientific Guy's Personal Website",
+  "description": "A personal website to display my projects and details about me.",
+  "repo": "https://github.com/scientific-guy/portfolio",
   "owner": {
     "username": "scientific-guy",
     "email": "scientificguy007@gmail.com"
   },
   "record": {
-    "CNAME": "ea51eeba-d079-40fb-adb9-fba6b71858a8.repl.co"
+    "CNAME": "scientific-guy.github.io"
   }
 }
