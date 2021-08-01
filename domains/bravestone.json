@@ -1,5 +1,5 @@
 {
-  "description": "Official website for my discord bot.",
+  "description": "My Personal website.",
   "repo": "https://github.com/itsbravestone",
   "owner": {
     "username": "itsbravestone",
@@ -7,6 +7,6 @@
     "twitter": "imbravestone"
   },
   "record": {
-  "CNAME": "zarena.ga"
+  "URL": "https://imbravestone.ga"
   }
 }
