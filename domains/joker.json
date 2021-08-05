@@ -1,5 +1,5 @@
 {
-    "description": "Personal website of joker",
+    "description": "Personal portfolio website of joker",
     "repo": "https://github.com/JoKeRxTD",
     "owner": {
       "username": "JoKeRxTD",
@@ -7,6 +7,8 @@
       "twitter": "https://twitter.com/JoKeRxHD"
     },
     "record": {
-      "URL": "https://mythbot.org/"
+      "A": [
+        "178.239.172.43"
+      ]
     }
   }
