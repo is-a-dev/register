@@ -7,8 +7,9 @@
       "twitter": "https://twitter.com/JoKeRxHD"
     },
     "record": {
-      "A": [
-        "178.239.172.43"
+      "CNAME": [
+        "ns1.gtxgaming.co.uk",
+        "ns2.gtxgaming.co.uk"
       ]
     }
   }
