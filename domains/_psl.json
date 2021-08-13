@@ -1,0 +1,11 @@
+{
+  "description": "PSL validation record for is-a.dev",
+  "repo": "https://github.com/is-a-dev/is-a-dev.github.io",
+  "owner": {
+    "username": "phenax",
+    "email": "phenax5@gmail.com"
+  },
+  "record": {
+    "TXT": "https://github.com/publicsuffix/list/pull/1327"
+  }
+}

@@ -3,7 +3,8 @@ const { VALID_RECORD_TYPES, TTL, ENV } = require('../utils/constants');
 const { domainService: dc } = require('../utils/domain-service');
 const { getDomains: gd } = require('../utils/get-domain');
 
-const getRecords = R.compose(R.toPairs, R.pick(VALID_RECORD_TYPES));
+// Allow TXT records while publishing (for pcl validation)
+const getRecords = R.compose(R.toPairs, R.pick(VALID_RECORD_TYPES.concat(['TXT'])));
 
 const toHostList = R.chain(data => {
   const rs = getRecords(data.record);

@@ -1,0 +1,11 @@
+{
+  "description": "Redirection service (URL shortener)",
+  "repo": "https://github.com/lucatolton",
+  "owner": {
+    "username": "lucatolton",
+    "email": "hi@lucatolton.me"
+  },
+  "record": {
+    "A": [ "51.161.134.46" ]
+  }
+}

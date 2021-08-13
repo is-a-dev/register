@@ -1,0 +1,11 @@
+{
+  "description": "hi there",
+  "repo": "https://github.com/theiocoder.github.io",
+  "owner": {
+    "username": "theiocoder",
+    "email": "gavinjstacey@gmail.com"
+  },
+  "record": {
+    "CNAME": "theiocoder.github.io"
+  }
+}

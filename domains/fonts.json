@@ -1,0 +1,12 @@
+{
+  "description": "Fonts for is-a.dev",
+  "repo": "https://github.com/mtgsquad/is-a-dev-fonts",
+  "owner": {
+    "username": "mtgsquad",
+    "email": "mtgsquad.dev@protonmail.com",
+    "twitter": "mtgsquad_dev"
+  },
+  "record": {
+    "CNAME": "is-a-dev-fonts.pages.dev"
+  }
+}

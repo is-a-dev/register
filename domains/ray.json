@@ -1,11 +1,11 @@
 {
   "description": "RayhanADev's Website!",
-  "repo": "https://github.com/rayhanadev/site",
+  "repo": "https://github.com/rayhanadev/my-website",
   "owner": {
     "username": "rayhanadev",
-    "email": "rayhan.arayilakath@wa-students.org"
+    "email": "rayhanadev@protonmail.com"
   },
   "record": {
-    "URL": "https://its.rayhanadev.repl.co/"
+    "URL": "http://rayhanadev.vercel.app"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "description": "Bienvenue sur le site de el2zay ici vous pourrez trouver des informations sur moi ainsi que mes projets.",
+  "repo": "https://github.com/el2zay/el2zay.github.io",
+  "owner": {
+    "username": "el2zay",
+    "email": "el2zay.contact@gmail.com",
+    "twitter": "el2zay",
+    "discord": "el2zay#1234"
+  },
+  "record": {
+    "CNAME": "el2zay.github.io"
+  }
+}
