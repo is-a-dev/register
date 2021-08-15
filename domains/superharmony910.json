@@ -2,7 +2,8 @@
   "description": "SuperHarmony910's personal developer website",
   "repo": "https://github.com/SuperHarmony910/SuperHarmony910.github.io",
   "owner": {
-    "username": "SuperHarmony910"
+    "username": "SuperHarmony910",
+    "email": "superharmony910@gmail.com"
   },
   "record": {
     "CNAME": "superharmony910.github.io"
