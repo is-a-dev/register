@@ -1,0 +1,11 @@
+{
+  "description": "A personal website to display my projects and details about me.",
+  "repo": "https://github.com/scientific-dev/portfolio",
+  "owner": {
+    "username": "scientific-dev",
+    "twitter": "ScientificDev"
+  },
+  "record": {
+    "CNAME": "scientific-dev.github.io"
+  }
+}
