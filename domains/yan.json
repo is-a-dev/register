@@ -1,0 +1,12 @@
+{
+  "description": "yan's site",
+  "repo": "https://github.com/github-username/yanNotDev.github.io",
+  "owner": {
+    "username": "yanNotDev",
+    "email": "aayantde@hotmail.com",
+    "twitter": "AayanTDE"
+  },
+  "record": {
+    "CNAME": "yanNotDev.github.io"
+  }
+}
