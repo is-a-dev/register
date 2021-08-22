@@ -1,7 +1,8 @@
 {
     "description": "Personal Website",
     "owner": {
-        "username":"mrasif"
+        "username":"mrasif",
+        "email": "admin@mrasif.in"
     },
     "record": {
         "CNAME":"mrasif.github.io"
