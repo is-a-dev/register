@@ -1,6 +1,6 @@
 {
     "description": "Personal portfolio website of joker",
-    "repo": "https://github.com/JoKeRxTD",
+    "repo": "https://github.com/JoKeRxTD/joker.is.a.dev",
     "owner": {
       "username": "JoKeRxTD",
       "email": "joker@mythbot.org",
@@ -8,8 +8,7 @@
     },
     "record": {
       "CNAME": [
-        "ns1.gtxgaming.co.uk",
-        "ns2.gtxgaming.co.uk"
+        "https://jokerxtd.github.io/joker.is.a.dev/"
       ]
     }
   }
