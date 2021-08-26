@@ -1,11 +1,11 @@
 {
-  "description": "My cool dev",
-  "repo": "https://github.com/jacob13400/jacob13400.github.io",
+  "description": "website for a friend as this domain isnr being used",
+  "repo": "https://github.com/ibrahimdevx/"
   "owner": {
-    "username": "jacob13400",
-    "email": "jacob13400@gmail.com"
+    "username": "ibrahimdevx",
+    "email": "ibrahim@flashhost.uk"
   },
   "record": {
-    "CNAME": "jacob13400.github.io"
+    "CNAME": "ibrahimdevx.github.io"
   }
 }
