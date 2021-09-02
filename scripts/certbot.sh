@@ -32,16 +32,28 @@ update_record() {
   echo "
     const { domainService } = require('./utils/domain-service');
     const { ENV, DOMAIN_DOMAIN } = require('./utils/constants');
-    const record = {
-      name: '$name',
-      type: '$type',
-      address: '$address',
-      ttl: $ttl,
-    };
-    console.log('Uploading $name to', DOMAIN_DOMAIN, '(', ENV, ')...');
-    domainService.$method(record)()
-      .then(d => console.log(d.cpanelresult ? d.cpanelresult.data : d))
-      .catch(console.error);
+    const method = '$method';
+    const name = '$name';
+    const type = '$type';
+
+    const record = { name, type, address: '$address', ttl: $ttl };
+
+    async function main() {
+      if (method === 'removeZoneRecord') {
+        const data = await domainService.get({ customonly: 0, name: '$name.is-a.dev.', type });
+        if (data.length > 0) {
+          record.id = data[0].line;
+        } else {
+          throw new Error('Unable to find record');
+        }
+      }
+
+      console.log('Uploading $name to', DOMAIN_DOMAIN, '(', ENV, ')...');
+      const data = await domainService[method](record)();
+      console.log(data.cpanelresult ? data.cpanelresult.data : data);
+    }
+
+    main().catch(console.error);
   " | node -
 }
 
