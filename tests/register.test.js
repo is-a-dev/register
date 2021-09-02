@@ -14,6 +14,10 @@ const getCpanel = ({ zone, addZone, removeZone, redir, addRedir, removeRedir } =
     add: (rec) => addRedir(rec),
     remove: (rec) => removeRedir(rec),
   },
+  email: {
+    add: (rec) => addEmail(rec),
+    remove: (rec) => removeEmail(rec),
+  },
 });
 
 describe('toHostList', () => {
@@ -43,15 +47,19 @@ describe('registerDomains', () => {
   const removeZone = jest.fn(async () => ({}));
   const addRedir = jest.fn(async () => ({}));
   const removeRedir = jest.fn(async () => ({}));
+  const addEmail = jest.fn(async () => ({}));
+  const removeEmail = jest.fn(async () => ({}));
 
   const mockDS = ({ zones, redirections }) => getDomainService({
     cpanel: getCpanel({
       zone: async () => zones,
       redir: async () => redirections,
       addZone,
+      addEmail,
       addRedir,
       removeZone,
       removeRedir,
+      removeEmail,
     })
   });
 
@@ -60,6 +68,8 @@ describe('registerDomains', () => {
     removeZone.mockClear();
     addRedir.mockClear();
     removeRedir.mockClear();
+    addEmail.mockClear();
+    removeEmail.mockClear();
   });
 
   it('should register the new set of hosts generated from domains list', async () => {
