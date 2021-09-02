@@ -21,12 +21,12 @@ const DOMAINS_PATH = require('path').resolve('domains');
 module.exports = {
   ENV,
   IS_TEST,
-  VALID_RECORD_TYPES: ['CNAME', 'A', 'URL'],
+  VALID_RECORD_TYPES: ['CNAME', 'A', 'URL', 'MX'],
   DOMAIN_DOMAIN: DOMAIN_DOMAIN || 'booboo.xyz',
   DOMAIN_USER: IS_TEST ? 'testuser' : DOMAIN_USER,
   DOMAIN_API_KEY: IS_TEST ? 'testkey' : DOMAIN_API_KEY,
   DOMAIN_API_HOST: IS_TEST ? 'example.com' : DOMAIN_API_HOST,
   DOMAIN_API_PORT: IS_TEST ? 6969 : DOMAIN_API_PORT,
   DOMAINS_PATH,
-  TTL: 5*60*60,
+  TTL: 5 * 60 * 60,
 };

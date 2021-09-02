@@ -1,4 +1,4 @@
-const { validateDomainData } = require('../utils/validations');
+const { validateDomainData, isValidDomain } = require('../utils/validations');
 
 const defaultDomain = {
   name: 'aaa',
@@ -12,6 +12,25 @@ const defaultDomain = {
 };
 
 const getstroflen = len => Array(len).fill('a').join('');
+
+describe('isValidMX', () => {
+  it('should be valid mx record', () => {
+    const cases = [
+      { mx: 'foobar.com', result: true },
+      { mx: 'as.as', result: true },
+      { mx: 'ASPMX.L.GOOGLE.COM', result: true },
+      { mx: 'ALT4.ASPMX.L.GOOGLE.COM', result: true },
+      { mx: 'hello', result: false },
+      { mx: 'helalsds-asd5sjdsd.com', result: true },
+      { mx: 'helalsds?asd5sjdsd.com', result: false },
+      { mx: 'helalsds_asd5sjdsd.com', result: false },
+    ];
+
+    cases.forEach(({ mx, result }) => {
+      expect(isValidDomain(mx)).toBe(result);
+    });
+  });
+});
 
 describe('validateDomainData', () => {
   const invalidCases = [
@@ -32,6 +51,7 @@ describe('validateDomainData', () => {
     { ...defaultDomain, record: { CNAME: 'http://foobar.com' } },
     { ...defaultDomain, record: { CNAME: 'https://foobar.com' } },
     { ...defaultDomain, record: { URL: 'foobar.com' } },
+    { ...defaultDomain, record: { CNAME: 'foobar.com', A: ['11.22.22.33'] } },
   ];
 
   const validCases = [
@@ -44,9 +64,10 @@ describe('validateDomainData', () => {
       ...defaultDomain,
       description: getstroflen(99),
     },
-    { ...defaultDomain, record: { CNAME: 'aa.sd', URL: '121,3213' } },
+    { ...defaultDomain, record: { CNAME: 'aa.sd' } },
     { ...defaultDomain, record: { URL: 'https://foobar.com' } },
     { ...defaultDomain, record: { URL: 'http://foobar.com/foobar/' } },
+    { ...defaultDomain, record: { CNAME: 'foobar.com', MX: ['ALT4.ASPMX.L.GOOGLE.COM'] } },
   ];
 
   it('should return false for invalid data', () => {
@@ -60,7 +81,7 @@ describe('validateDomainData', () => {
   it('should return true if the name is valid', () => {
     validCases.forEach(data => {
       const { valid, errors } = validateDomainData(data);
-      if (!valid) console.log(errors);
+      if (!valid) console.log(JSON.stringify(errors, null, 2));
       expect(valid).toBe(true);
       expect(errors).toEqual([]);
     });
