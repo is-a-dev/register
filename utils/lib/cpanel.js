@@ -4,7 +4,6 @@ const qs = require('qs');
 const { DOMAIN_API_HOST, DOMAIN_API_PORT, DOMAIN_USER, DOMAIN_API_KEY, DOMAIN_DOMAIN } = require('../constants');
 
 const CpanelClient = (options) => {
-  // TODO: Make defaultQuery functional
   const api = ({ basePath = '', action = '' }) => (module, func, defaultQuery = {}) => (q = {}) => {
     const query = {
       ...defaultQuery,

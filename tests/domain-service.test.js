@@ -1,6 +1,6 @@
 const R = require('ramda');
 const { getDomainService, diffRecords } = require('../utils/domain-service');
-const {DOMAIN_DOMAIN} = require('../utils/constants');
+const { DOMAIN_DOMAIN } = require('../utils/constants');
 
 const getCpanel = ({ zone, addZone, removeZone, redir, addRedir, removeRedir } = {}) => ({
   zone: {
@@ -115,16 +115,18 @@ describe('Domain service', () => {
   const addRedir = jest.fn(async () => ({}));
   const removeRedir = jest.fn(async () => ({}));
 
-  const mockDS = ({ zones, redirections }) => getDomainService({ cpanel: getCpanel({
-    zone: async () => zones,
-    redir: async () => redirections,
-    addZone,
-    addRedir,
-    removeZone,
-    removeRedir,
-  }) });
+  const mockDS = ({ zones, redirections }) => getDomainService({
+    cpanel: getCpanel({
+      zone: async () => zones,
+      redir: async () => redirections,
+      addZone,
+      addRedir,
+      removeZone,
+      removeRedir,
+    })
+  });
 
-  const getRecordCalls = recfn => recfn.mock.calls.map(R.head).map(R.pick(['name', 'type', 'address', 'redirect', 'domain', 'line']));
+  const getRecordCalls = recfn => recfn.mock.calls.map(R.head).map(R.pick(['name', 'type', 'address', 'redirect', 'domain', 'line', 'priority']));
 
   beforeEach(() => {
     addZone.mockClear();
@@ -187,11 +189,13 @@ describe('Domain service', () => {
         { name: 'a', type: 'CNAME', address: 'boo' },
         { name: 'b', type: 'CNAME', address: 'goo' },
         { name: 'c', type: 'A', address: '12.131321.213' },
+        { name: 'c', type: 'MX', address: 'foobar.com', priority: 2 },
       ]);
 
-      expect(addZone).toBeCalledTimes(1);
+      expect(addZone).toBeCalledTimes(2);
       expect(getRecordCalls(addZone)).toEqual([
         { name: 'c', type: 'A', address: '12.131321.213' },
+        { name: 'c', type: 'MX', address: 'foobar.com', priority: 2 },
       ]);
       expect(removeZone).toBeCalledTimes(0);
     });

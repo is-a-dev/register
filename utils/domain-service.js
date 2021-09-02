@@ -12,11 +12,12 @@ const recordToRedirection = ({ name, address }) => ({
   redirect_wildcard: 1,
   redirect_www: 1,
 });
-const recordToZone = ({ name, type, address, id }) => ({
+const recordToZone = ({ name, type, address, id, priority }) => ({
   line: id,
   name,
   type,
   address,
+  ...(type === 'MX' ? { priority } : {}),
   ...(type === 'CNAME' ? { cname: address } : {}),
   ...(type === 'TXT' ? { txtdata: address } : {}),
 });
