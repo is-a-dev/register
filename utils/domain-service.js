@@ -24,11 +24,12 @@ const recordToZone = ({ name, type, address, id, priority }) => ({
 
 const cleanName = name => name === DOMAIN_DOMAIN ? '@' : `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
 
-const zoneToRecord = ({ name, type, cname, address, record, line: id }) => ({
+const zoneToRecord = ({ name, type, cname, address, priority, preference, exchange, record, line: id }) => ({
   id,
   name: cleanName(name),
   type: `${type}`,
-  address: `${cname || address || record}`.replace(/\.$/g, '').toLowerCase(),
+  address: `${exchange || cname || address || record}`.replace(/\.$/g, '').toLowerCase(),
+  priority: priority || preference,
 });
 const redirectionToRecord = ({ domain, destination }) => ({
   id: domain,
@@ -36,6 +37,12 @@ const redirectionToRecord = ({ domain, destination }) => ({
   type: 'URL',
   address: `${destination}`.replace(/\/$/g, ''),
 });
+
+const recordToEmailMx = ({ name, address, priority }) => ({
+  domain: `${name}.is-a.dev`,
+  exchanger: address,
+  priority,
+})
 
 const getHostKey = host => `${host.name}##${host.type}##${host.address}`;
 
@@ -70,13 +77,18 @@ const getDomainService = ({ cpanel }) => {
   const fetchRedirections = R.compose(then(R.map(redirectionToRecord)), cpanel.redirection.fetch);
 
   const addZoneRecord = lazyTask(R.compose(
-    cpanel.zone.add,
+    R.ifElse(R.propEq('type', 'MX'),
+      R.compose(cpanel.email.add, recordToEmailMx),
+      cpanel.zone.add
+    ),
     recordToZone,
     print(({ name }) => `Adding zone for ${name}...`),
   ));
   const removeZoneRecord = lazyTask(R.compose(
-    cpanel.zone.remove,
-    R.pick(['line']),
+    R.ifElse(R.propEq('type', 'MX'),
+      R.compose(cpanel.email.remove, recordToEmailMx),
+      R.compose(cpanel.zone.remove, R.pick(['line']))
+    ),
     recordToZone,
     print(({ name }) => `Deleting zone for ${name}...`),
   ));
