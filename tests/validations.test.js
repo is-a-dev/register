@@ -1,4 +1,5 @@
 const { validateDomainData, isValidDomain } = require('../utils/validations');
+const INVALID_NAMES = require('../utils/invalid-domains.json');
 
 const defaultDomain = {
   name: 'aaa',
@@ -52,6 +53,7 @@ describe('validateDomainData', () => {
     { ...defaultDomain, record: { CNAME: 'https://foobar.com' } },
     { ...defaultDomain, record: { URL: 'foobar.com' } },
     { ...defaultDomain, record: { CNAME: 'foobar.com', A: ['11.22.22.33'] } },
+    ...INVALID_NAMES.map(name => ({ ...defaultDomain, name })).slice(0, 1),
   ];
 
   const validCases = [

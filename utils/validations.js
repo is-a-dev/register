@@ -1,6 +1,7 @@
 const R = require('ramda');
 const { VALID_RECORD_TYPES } = require('./constants');
 const { or, and, validate, between, testRegex, withLengthEq, withLengthGte } = require('./helpers');
+const INVALID_NAMES = require('./invalid-domains.json');
 
 const isValidURL = testRegex(/^https?:\/\//ig);
 
@@ -41,6 +42,7 @@ const validateDomainData = validate({
       and([
         R.compose(between(2, 100), R.length),
         testRegex(/^[a-z0-9-]+$/g),
+        R.complement(R.includes(R.__, INVALID_NAMES)),
       ])
     ]),
   },
