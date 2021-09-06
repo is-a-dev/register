@@ -3,35 +3,32 @@ const { VALID_RECORD_TYPES } = require('./constants');
 const { or, and, validate, between, testRegex, withLengthEq, withLengthGte } = require('./helpers');
 const INVALID_NAMES = require('./invalid-domains.json');
 
-const isValidURL = testRegex(/^https?:\/\//ig);
+const isValidURL = and([R.is(String), testRegex(/^https?:\/\//ig)]);
 
-const isValidDomain = testRegex(/^(([a-z0-9\-]+)\.)+[a-z]+$/ig)
-
-// TODO: Add priority to records
+const isValidDomain = and([R.is(String), testRegex(/^(([a-z0-9\-]+)\.)+[a-z]+$/ig)]);
 
 const allowMXRecord = R.compose(
   R.ifElse(R.includes('MX'), withLengthEq(2), withLengthEq(1)),
   R.keys,
 );
 
-const validateCnameRecord = key => and([
-  R.propSatisfies(R.is(String), key),
-  allowMXRecord,
-  R.propSatisfies(withLengthGte(4), key),
-  R.propSatisfies(isValidDomain, key),
-  //R.propSatisfies(R.complement(isValidURL), key),
+const validateCnameRecord = type => and([
+  R.propIs(String, type),
+  R.compose(withLengthEq(1), R.keys), // CNAME cannot be used with any other record
+  R.propSatisfies(withLengthGte(4), type),
+  R.propSatisfies(isValidDomain, type),
 ]);
 
-const validateARecord = key => and([
+const validateARecord = type => and([
+  R.propIs(Array, type),
   allowMXRecord,
-  R.propSatisfies(withLengthGte(1), key),
-  R.propIs(Array, key),
+  R.propSatisfies(withLengthGte(1), type),
 ]);
 
-const validateMXRecord = key => and([
-  R.propSatisfies(withLengthGte(1), key),
-  R.propSatisfies(R.all(isValidDomain), key),
-  R.propIs(Array, key),
+const validateMXRecord = type => and([
+  R.propIs(Array, type),
+  R.propSatisfies(withLengthGte(1), type),
+  R.propSatisfies(R.all(isValidDomain), type),
 ]);
 
 const validateDomainData = validate({
@@ -69,6 +66,7 @@ const validateDomainData = validate({
         [R.has('A'), validateARecord('A')],
         [R.has('URL'), R.propSatisfies(isValidURL, 'URL')],
         [R.has('MX'), validateMXRecord('MX')],
+        [R.has('TXT'), R.propSatisfies(R.is(String), 'TXT')],
         [R.T, R.T],
       ]),
     ]),
