@@ -4,7 +4,7 @@ const { domainService: dc } = require('../utils/domain-service');
 const { getDomains: gd } = require('../utils/get-domain');
 
 // Allow TXT records while publishing (for pcl validation)
-const getRecords = R.compose(R.toPairs, R.pick(VALID_RECORD_TYPES.concat(['TXT'])));
+const getRecords = R.compose(R.toPairs, R.pick(VALID_RECORD_TYPES));
 
 const toHostList = R.chain(data => {
   const rs = getRecords(data.record);
