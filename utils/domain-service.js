@@ -95,13 +95,13 @@ const getDomainService = ({ cpanel }) => {
     Promise.all([fetchZoneRecords(), fetchRedirections()]).then(R.flatten);
 
   const addRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.filter(Boolean), R.map(R.cond([
-    [ R.propEq('name', 'www'),  R.always(null) ], // Ignore www
-    [ R.propEq('type', 'URL'),  addRedirection ],
-    [ R.T,                      addZoneRecord ],
+    [R.propEq('name', 'www'), R.always(null)], // Ignore www
+    [R.propEq('type', 'URL'), addRedirection],
+    [R.T, addZoneRecord],
   ])));
   const removeRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.map(R.cond([
-    [ R.propEq('type', 'URL'),  removeRedirection ],
-    [ R.T,                      removeZoneRecord ],
+    [R.propEq('type', 'URL'), removeRedirection],
+    [R.T, removeZoneRecord],
   ])));
 
   const updateHosts = async hosts => {
@@ -115,7 +115,7 @@ const getDomainService = ({ cpanel }) => {
     return { added: add.length, removed: remove.length };
   };
 
-  return { getHosts, addZoneRecord, removeZoneRecord, updateHosts };
+  return { getHosts, get: cpanel.zone.fetch, addZoneRecord, removeZoneRecord, updateHosts };
 };
 
 const domainService = getDomainService({ cpanel });
