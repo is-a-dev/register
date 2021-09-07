@@ -6,7 +6,10 @@
     "twitter": "hackermondev"
   },
   "record": {
-    "CNAME": "318af994-03f3-4928-9b7b-80839057c74e.repl.co",
+    "A": [
+      "34.120.194.28"
+    ],
+    
     "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
