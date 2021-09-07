@@ -1,0 +1,11 @@
+{
+  "description": "Rekto Website",
+  "repo": "https://github.com/rekto-dev/rekto-dev.github.io",
+  "owner": {
+    "username": "GetRekto",
+    "email": "rekto.personal@outlook.com"
+  },
+  "record": {
+    "CNAME": "rekto-dev.github.io"
+  }
+}
