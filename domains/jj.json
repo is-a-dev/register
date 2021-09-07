@@ -1,0 +1,11 @@
+{
+  "description": "JJ's Website",
+  "repo": "https://github.com/TheBotlyNoob/website",
+  "owner": {
+    "username": "TheBotlyNoob",
+    "email": "TheBotlyNoob@gmail.com"
+  },
+  "record": {
+    "CNAME": "website-production-wygz.up.railway.app"
+  }
+}
