@@ -1,0 +1,10 @@
+{
+  "description": "A website for my friends bot",
+  "owner": {
+    "username": "PublicsUp",
+    "email": "faris@secret.fyi"
+  },
+  "record": {
+    "CNAME": "glitch.edgeapp.net"
+  }
+}
