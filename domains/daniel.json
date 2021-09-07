@@ -6,6 +6,12 @@
     "twitter": "hackermondev"
   },
   "record": {
-    "CNAME": "318af994-03f3-4928-9b7b-80839057c74e.repl.co"
+    "CNAME": "318af994-03f3-4928-9b7b-80839057c74e.repl.co",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
