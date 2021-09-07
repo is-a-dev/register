@@ -1,0 +1,14 @@
+{
+  "description": "Emails For is-a.dev Maintainers",
+  "owner": {
+    "username": "TheBotlyNoob",
+    "email": "TheBotlyNoob@gmail.com"
+  },
+  "record": {
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}
