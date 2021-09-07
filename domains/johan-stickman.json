@@ -1,6 +1,6 @@
 {
   "description": "My personal website",
-  "repo": "hhttps://github.com/johan-perso/johan-perso.github.io",
+  "repo": "",
   "owner": {
     "username": "johan-perso",
     "email": "",
@@ -8,6 +8,6 @@
     "discord": "Johan#8021"
   },
   "record": {
-    "CNAME": "johan-perso.github.io"
+    "URL": "https://johanstickman.com"
   }
 }
