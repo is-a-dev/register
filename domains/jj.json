@@ -6,7 +6,9 @@
     "email": "TheBotlyNoob@gmail.com"
   },
   "record": {
-    "CNAME": "website-production-wygz.up.railway.app",
+     "A": [
+       "35.230.85.45"
+     ],
      "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
