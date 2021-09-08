@@ -7,11 +7,6 @@ const isValidURL = and([R.is(String), testRegex(/^https?:\/\//ig)]);
 
 const isValidDomain = and([R.is(String), testRegex(/^(([a-z0-9\-]+)\.)+[a-z]+$/ig)]);
 
-const allowMXRecord = R.compose(
-  R.ifElse(R.includes('MX'), withLengthEq(2), withLengthEq(1)),
-  R.keys,
-);
-
 const validateCnameRecord = type => and([
   R.propIs(String, type),
   R.compose(withLengthEq(1), R.keys), // CNAME cannot be used with any other record
@@ -21,7 +16,6 @@ const validateCnameRecord = type => and([
 
 const validateARecord = type => and([
   R.propIs(Array, type),
-  allowMXRecord,
   R.propSatisfies(withLengthGte(1), type),
 ]);
 
