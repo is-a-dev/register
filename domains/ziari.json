@@ -1,12 +1,12 @@
 {
   "description": "ziari's website",
-  "repo": "https://github.com/AMIRPARSAZIARI/ziari",
+  "repo": "https://github.com/AMIRPARSAZIARI/AMIRPARSAZIARI.github.io",
   "owner": {
     "username": "AMIRPARSAZIARI",
     "email": "ziariamirparsa@gmail.com",
     "twitter": "ziariamirparsa"
   },
   "record": {
-    "CNAME": "https://amirparsaziari.github.io/ziari/"
+    "CNAME": "https://amirparsaziari.github.io/"
   }
 }
