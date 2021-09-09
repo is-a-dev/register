@@ -4,6 +4,8 @@ const { getDomains } = require('../utils/get-domain');
 const { validateDomainData } = require('../utils/validations');
 const { DOMAINS_PATH } = require('../utils/constants');
 
+const NAME_EXCEPTIONS = ['_psl', '_dmarc'];
+
 describe('Domains', () => {
   it('should all be json', async () => {
     const files = await fs.promises.readdir(DOMAINS_PATH, {});
@@ -12,7 +14,7 @@ describe('Domains', () => {
 
   it('should be valid', (done) => {
     getDomains()
-      .then(R.reject(R.propEq('name', '_psl')))
+      .then(R.reject(R.propSatisfies(R.includes(R.__, NAME_EXCEPTIONS), 'name')))
       .then(R.map(data => {
         const { errors } = validateDomainData(data);
         if (errors.length) {
