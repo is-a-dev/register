@@ -6,8 +6,13 @@
     "email": "TheBotlyNoob@gmail.com"
   },
   "record": {
-    "A": ["35.230.85.45"],
-    "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"],
-    "TXT": "v=spf1 include:zoho.com ~all"
+    "A": [
+      "35.230.85.45"
+    ],
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
+    "TXT": "forward-email=jj@jj.is-a.dev"
   }
 }
