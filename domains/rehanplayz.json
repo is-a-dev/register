@@ -9,8 +9,10 @@
     "A": [
       "81.150.6.98"
     ],
-    "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"],
-    "TXT": "zoho-verification=zb62605985.zmverify.zoho.com",
-    "TXT": "v=spf1 include:zoho.com ~all"    
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"    
   }
 }
