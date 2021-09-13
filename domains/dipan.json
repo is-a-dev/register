@@ -6,6 +6,6 @@
     "email": "dipanroy@mindwebs.org"
   },
   "record": {
-    "A": "115.187.62.14"
+    "A": ["115.187.62.14"]
   }
 }

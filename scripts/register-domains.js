@@ -4,24 +4,25 @@ const { domainService: dc } = require('../utils/domain-service');
 const { getDomains: gd } = require('../utils/get-domain');
 
 // Allow TXT records while publishing (for pcl validation)
-const getRecords = R.compose(R.toPairs, R.pick(VALID_RECORD_TYPES.concat(['TXT'])));
+const getRecords = R.compose(R.toPairs, R.pick(VALID_RECORD_TYPES));
 
 const toHostList = R.chain(data => {
   const rs = getRecords(data.record);
 
   return R.chain(([recordType, urls]) =>
-    (Array.isArray(urls) ? urls : [urls]).map(url => ({
+    (Array.isArray(urls) ? urls : [urls]).map((url, index) => ({
       name: data.name,
       type: recordType,
       address: (recordType === 'CNAME' ? `${url}`.toLowerCase() : `${url}`).replace(/\/$/g, ''),
       ttl: TTL,
+      ...(recordType === 'MX' ? { priority: index + 20 } : {})
     }))
-  , rs);
+    , rs);
 });
 
-const registerDomains = async ({ domainService, getDomains, log = () => {} }) => {
+const registerDomains = async ({ domainService, getDomains, log = () => { } }) => {
   const domains = await getDomains().then(toHostList);
-  
+
   if (domains.length === 0)
     return Promise.reject(new Error('Nothing to register'));
 

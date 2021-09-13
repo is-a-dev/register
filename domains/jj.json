@@ -1,11 +1,13 @@
 {
-  "description": "TheBotlyNoob's development website",
-  "repo": "https://github.com/TheBotlyNoob/TheBotlyNoob.github.io",
+  "description": "JJ's Website",
+  "repo": "https://github.com/TheBotlyNoob/website",
   "owner": {
     "username": "TheBotlyNoob",
     "email": "TheBotlyNoob@gmail.com"
   },
   "record": {
-    "URL": "https://j-j.vercel.app"
+    "A": ["35.230.85.45"],
+    "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"],
+    "TXT": "v=spf1 include:zoho.com ~all"
   }
 }

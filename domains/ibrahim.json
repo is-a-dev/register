@@ -1,0 +1,11 @@
+{
+  "description": "ibrahim's personal developer website.",
+  "repo": "https://github.com/ibrahimdevx",
+  "owner": {
+    "username": "ibrahimdev",
+    "email": "ibrahimimran@northsixty.com"
+  },
+  "record": {
+    "CNAME": "ibrahimdevx.github.io"
+  }
+}
