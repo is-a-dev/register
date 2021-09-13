@@ -6,6 +6,9 @@
     "email": "RehanPlayz321@protonmail.com"
   },
   "record": {
-    "CNAME": "uk01.scarcehost.uk"
+    "A": [
+      "81.150.6.98"
+    ],
+    "TXT": "zoho-verification=zb62605985.zmverify.zoho.com"
   }
 }
