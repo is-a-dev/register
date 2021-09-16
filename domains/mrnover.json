@@ -1,1 +1,12 @@
-
+{
+  "description": "MrNover's Development Website",
+  "repo": "https://github.com/mrnovergithub/mrnoverdevsite.github.io",
+  "owner": {
+    "username": "mrnovergithub",
+    "email": "mrnover@mrnover.com",
+    "twitter": "Mr_Nover"
+  },
+  "record": {
+    "CNAME": "mrnovergithub.github.io"
+  }
+}
