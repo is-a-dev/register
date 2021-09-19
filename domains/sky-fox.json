@@ -1,0 +1,11 @@
+{
+  "description": "register is-a.dev for my site",
+  "repo": "https://github.com/Sky-FoxGAMING/sky-foxgaming.github.io",
+  "owner": {
+    "username": "Sky-FoxGAMING",
+    "email": "jparedesmoure@awakenclient.com"
+  },
+  "record": {
+    "CNAME": "Sky-FoxGAMING.github.io"
+  }
+}
