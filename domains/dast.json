@@ -5,9 +5,7 @@
     "username": "danielsebesta",
     "email": "dany.sebesta@seznam.cz"
   },
-  "record": {    
-   "A": [
-      "194.163.149.155"
-    ]
+  "record": {
+    "A": ["194.163.149.155"]
   }
 }

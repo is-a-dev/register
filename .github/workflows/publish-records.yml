@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-    name: 'Publish records'
+    name: "Publish records"
 
 jobs:
   publish:

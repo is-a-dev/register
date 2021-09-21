@@ -6,7 +6,7 @@ In this guide, you will learn how to accomplish this.
 
 1. Log in to your Hashnode account.
 
-2. Click on your **profile picture** at the bottom-left corner of the page on *desktop* screen or top-right corner on *mobile* screen.
+2. Click on your **profile picture** at the bottom-left corner of the page on _desktop_ screen or top-right corner on _mobile_ screen.
 
 ![Hashnode's Feed](https://cdn.hashnode.com/res/hashnode/image/upload/v1614932849541/cBNDGKXMj.png?auto=compress)
 
@@ -19,6 +19,7 @@ In this guide, you will learn how to accomplish this.
 ![Hashnode's Blog Domain Tab](https://cdn.hashnode.com/res/hashnode/image/upload/v1614937377176/0cwddAywO.png?auto=compress)
 
 5. Go To Your Fork Of The `is-a-dev/register` repo, edit your subdomain's JSON file, make sure you remove any old records, then add this:
+
 ```json
 "CNAME": "hashnode.network"
 ```

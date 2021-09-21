@@ -1,4 +1,3 @@
-
 const getInstructions = () => `
 The changes have been published!! It should reflect in less than 24 hours.
 
@@ -45,6 +44,5 @@ module.exports = {
       issue_number: number,
       body: getInstructions(),
     });
-  }
+  },
 };
-

@@ -1,7 +1,9 @@
 # For other hosting services
 
 ### Domains file
+
 Create a json file inside the `domains` directory (`domains/<subdomain>.json`) with the following contents
+
 ```json
 {
   "description": "Add some description",
@@ -15,8 +17,11 @@ Create a json file inside the `domains` directory (`domains/<subdomain>.json`) w
 ```
 
 ### Record
+
 In your `record` key of the json file, you need to add one of the following -
-* CNAME record
+
+- CNAME record
+
 ```json
 {
   "record": {
@@ -25,19 +30,18 @@ In your `record` key of the json file, you need to add one of the following -
 }
 ```
 
-* A records
+- A records
+
 ```json
 {
   "record": {
-    "A": [
-      "69.69.69.69",
-      "69.69.69.70"
-    ]
+    "A": ["69.69.69.69", "69.69.69.70"]
   }
 }
 ```
 
-* URL redirection
+- URL redirection
+
 ```json
 {
   "record": {
@@ -47,7 +51,7 @@ In your `record` key of the json file, you need to add one of the following -
 ```
 
 ### Configuring your server
+
 After the pull request is merged, **configure your server** (apache, nginx, whatever) to work with `<subdomain>.is-a.dev`. If you are unsure how to configure your server, you can create an issue for support.
 
 You should also, include `<subdomain>.is-a.dev` in your **ssl certificate** to get rid of certificate errors
-
