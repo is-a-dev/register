@@ -6,9 +6,7 @@
     "email": "RehanPlayz321@protonmail.com"
   },
   "record": {
-    "A": [
-      "159.89.255.51"
-    ],
-    "TXT": "6ZzT79WA"    
+    "CNAME": "dns.tixte.com",
+    "TXT": "6ZzT79WA"
   }
 }
