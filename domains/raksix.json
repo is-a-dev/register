@@ -6,6 +6,8 @@
     "email": "raksixoffical@gmail.com"
   },
   "record": {
-    "CNAME": "protected-pumpkin-ic8p7okaxzxl67htg0pmv95w.herokudns.com"
+    "A": [
+      "138.68.111.28"
+    ]
   }
 }
