@@ -4,6 +4,6 @@
     "email": "admin@sapinc.ga"
   },
   "record": {
-    "CNAME": ["slddev.github.io."]
+    "CNAME": "slddev.github.io"
   }
 }
