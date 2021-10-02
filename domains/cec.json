@@ -1,0 +1,11 @@
+{
+  "description": "a url redirector",
+  "repo": "https://github.com/w3cy/w3cy",
+  "owner": {
+    "username": "w3cy",
+    "email": "keyv.cec@outlook.com"
+  },
+  "record": {
+    "CNAME": "84ca4d88-b9b4-449b-ad1b-62743f1d6192.id.repl.co"
+  }
+}
