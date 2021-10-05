@@ -1,0 +1,12 @@
+{
+  "description": "My wiggly site!",
+  "repo": "https://github.com/Artsui/wigglydev",
+  "owner": {
+    "username": "Artsui",
+    "email": "dedica0123@gmail.com",
+    "twitter": "CornetWiggly"
+  },
+  "record": {
+    "CNAME": "artsui.github.io"
+  }
+}

@@ -89,6 +89,7 @@ reset_acme() {
   update_record remove A 'www' "68.65.123.44";
   sleep 1;
   update_record add CNAME 'www' "is-a-dev.github.io";
+  update_record remove TXT '_acme-challenge' '';
 }
 
 case "$1" in
@@ -109,6 +110,7 @@ esac
 # Run ./scripts/certbot.sh acme_txt "<key>"
 # Run ./scripts/certbot.sh acme_file "<key>" "<value>"
 # Run ./scripts/certbot.sh config_www
-# Upload cert.pem and privkey.pem contents to SSL > Manage SSL Sites
+# cp -r /tmp/is-a-dev-whatever /tmp/is-a-dev-cert (not sure if needed but the directory disappeared once)
+# Upload cert.pem and privkey.pem (from config/live/is-a.dev/) contents to SSL > Manage SSL Sites
 # Run ./scripts/certbot.sh reset
 
