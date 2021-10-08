@@ -1,11 +1,11 @@
 {
-  "description": "Qnos`s profile",
+  "description": "Qnos`s site",
   "repo": "https://github.com/Qnos41/qnos.git",
   "owner": {
     "username": "Qnos",
     "email": "qnos237@gmail.com"
   },
   "record": {
-    "URL": "https://qnos41.github.io/qnos/"
+    "CNAME": "qnos41.github.io/qnos/"
   }
 }
