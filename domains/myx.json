@@ -1,0 +1,12 @@
+{
+  "description": "Myx's portfolio.",
+  "repo": "https://github.com/notmyx/notmyx.github.io",
+  "owner": {
+    "username": "notmyx",
+    "email": "darkmyxx@gmail.com",
+    "twitter": "@omgmyx"
+  },
+  "record": {
+    "CNAME": "notmyx.github.io"
+  }
+}
