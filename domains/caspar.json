@@ -1,9 +1,11 @@
 {
-  "description": "casparzzz123, Developer, Java, Html and Python",
+  "description": "casparzzz123, Java, Html And Python Developer",
+  "repo": "https://github.com/LordKacem",
   "owner": {
     "username": "casparzzz123",
+    "email": "casparzzz123@computer4u.com"
   },
   "record": {
-    "URL": "https://letspoop.ga"
+   "CNAME": "letspoop.ga"
   }
 }
