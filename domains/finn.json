@@ -5,6 +5,6 @@
     "email": "isadev_github@mfinn.de"
   },
   "record": {
-    "CNAME": "mfinn.de"
+    "A": ["94.176.233.129"]
   }
 }
