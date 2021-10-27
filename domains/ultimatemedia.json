@@ -1,0 +1,16 @@
+{
+  "description": "The Ultimate Media official website",
+  "repo": "https://github.com/ultimatemediaorg/ultimatemediaorg.github.io",
+  "owner": {
+    "username": "ultimatemediaorg",
+    "email": "coreyw.ultimatemedia@gmail.com"
+  },
+  "record": {
+    "CNAME": "ultimatemediaorg.github.io",
+    "MX": [
+      "mx1.improvmx.com.",
+      "mx2.improvmx.com."
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}
