@@ -1,0 +1,12 @@
+{
+  "description": "Anondev's CDN subdomain",
+  "repo": "https://github.com/anondev-sudo/anondev-sudo",
+  "owner": {
+    "username": "anondev-sudo",
+    "email": "contact@anonym-dev.tk"
+  },
+  "record": {
+      "CNAME": "dns.tixte.com",
+      "TXT": "_tixte-challenge	6ZzT79WA"
+  }
+}
