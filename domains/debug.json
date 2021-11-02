@@ -1,10 +1,12 @@
 {
+    "description": "A website for Debug.Log",
+    
     "owner":{
         "username": "Debug",
-        "twiter": "@extremepro999"
-    },
+        "email": "DebugDotLog@pm.me"
 
+    },
     "record": {
         "CNAME": "extremepro999.github.io"
-      }
+    }
 }
