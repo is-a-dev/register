@@ -1,0 +1,11 @@
+{
+  "description": "My site for socials and more",
+  "repo": "https://github.com/dzired/website",
+  "owner": {
+    "username": "dzired",
+    "email": "mehf@protonmail.com"
+  },
+  "record": {
+    "CNAME": "mehf.club"
+  }
+}
