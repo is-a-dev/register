@@ -1,0 +1,11 @@
+{
+  "description": "YieldRay's blog",
+  "repo": "https://github.com/YieldRay",
+  "owner": {
+    "username": "YieldRay",
+    "email": "yieldray@outlook.com"
+  },
+  "record": {
+    "CNAME": "miku.netlify.app"
+  }
+}
