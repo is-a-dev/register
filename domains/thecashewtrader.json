@@ -8,9 +8,7 @@
     "xmpp": "thecashewtrader@01337.io"
   },
   "record": {
-    "A": [
-      "35.185.44.232"
-    ],
+    "A": ["35.185.44.232"],
     "TXT": "_gitlab-pages-verification-code.thecashewtrader.is-a.dev TXT gitlab-pages-verification-code=56767e24e22f6b5d40d71be1eca3b908"
   }
 }

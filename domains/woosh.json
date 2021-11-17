@@ -6,8 +6,6 @@
     "email": "me@letmewoosh.xyz"
   },
   "record": {
-    "MX": [
-      "mail.letmewoosh.me"
-    ]
+    "MX": ["mail.letmewoosh.me"]
   }
 }
