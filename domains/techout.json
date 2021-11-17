@@ -3,9 +3,9 @@
   "repo": "https://github.com/Techout592",
   "owner": {
     "username": "Techout592",
-    "email": "techout592@protonmail.com"
+    "email": "root@techout.tech"
   },
   "record": {
-    "CNAME": "proxy.techout.tech"
+    "CNAME": "dns.techout.tech"
   }
 }
