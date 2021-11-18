@@ -1,0 +1,11 @@
+{
+  "description": "My repository",
+  "repo": "https://github.com/ItzSamirr/ItzSamirr.github.io",
+  "owner": {
+    "username": "ItzSamirr",
+    "email": "plumino3124@gmail.com",
+  },
+  "record": {
+    "CNAME": "ItzSamirr.github.io"
+  }
+}
