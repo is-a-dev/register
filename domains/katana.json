@@ -1,0 +1,12 @@
+{
+  "description": "Katana's portfolio website",
+  "repo": "https://github.com/saivron",
+  "owner": {
+    "username": "saivron",
+    "email": "count@fbi.ac"
+  },
+
+  "record": {
+    "CNAME": "https://saivron.github.io"
+  }
+}
