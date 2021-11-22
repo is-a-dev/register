@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "github-username",
+    "email": "any@email"
+  },
+   "record": {
+    "CNAME": "frazix.github.io"
+  }
+}
