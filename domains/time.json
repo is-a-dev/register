@@ -1,1 +1,11 @@
-
+{
+  "description": "time",
+  "repo": "https://github.com/t6c",
+  "owner": {
+    "username": "t6c",
+    "email": "time@terrorist.lol"
+  },
+  "record": {
+    "CNAME": "t6c.github.io"
+  }
+}
