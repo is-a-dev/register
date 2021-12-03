@@ -1,0 +1,11 @@
+{
+  "description": "Zephyr's website to host mostly useless projects",
+  "repo": "https://github.com/zephyr1112/zephyr1112.github.io",
+  "owner": {
+    "username": "zephyr1112",
+    "email": "zephyr1112@protonmail.com",
+  },
+  "record": {
+    "CNAME": "zephyr1112.github.io"
+  }
+}
