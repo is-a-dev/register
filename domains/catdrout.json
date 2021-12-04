@@ -1,0 +1,11 @@
+{
+  "description": "catdrouts personal developer website",
+  "repo": "https://github.com/thatcatdrout/portfolio",
+  "owner": {
+    "username": "thatcatdrout",
+    "email": "thatcatdrout@protonmail.ch"
+  },
+  "record": {
+    "CNAME": "thatcatdrout.netlify.app"
+  }
+}
