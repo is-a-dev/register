@@ -1,0 +1,12 @@
+{
+    "description": "Uki's personal portfolio",
+    "repo": "https://github.com/marzukiberg/uki.my.id",
+    "owner": {
+      "username": "marzukiberg",
+      "email": "marzukiberg@gmail.com"
+    },
+    "record": {
+        "CNAME": "uki.vercel.app"
+    }
+  }
+  
