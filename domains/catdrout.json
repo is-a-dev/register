@@ -1,11 +1,11 @@
 {
-  "description": "catdrouts personal developer website",
+  "description": "catdrouts personal web developer website",
   "repo": "https://github.com/thatcatdrout/portfolio",
   "owner": {
     "username": "thatcatdrout",
     "email": "thatcatdrout@protonmail.ch"
   },
   "record": {
-    "CNAME": "https://thatcatdrout.stormkit.dev/"
+    "CNAME": "thatcatdrout.stormkit.dev"
   }
 }
