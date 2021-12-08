@@ -1,0 +1,18 @@
+{
+  "description": "A cool website",
+  "repo": "https://github.com/DeXoHigh/DeXoHigh",
+  "owner": {
+    "username": "DeXoHigh",
+    "email": "dexo1337@pm.me"
+  },
+  "record": {
+    "A": [
+      "198.251.81.131"
+    ],
+    "MX": [
+      "ns1.crystalcloud.xyz",
+      "ns2.crystalcloud.xyz"
+    ],
+    "TXT": "v=spf1 a mx ip4:198.251.81.131 ~all"    
+  }
+}
