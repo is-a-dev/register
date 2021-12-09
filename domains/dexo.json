@@ -6,12 +6,12 @@
     "email": "dexo1337@pm.me"
   },
   "record": {
-    "A": [
-      "198.251.81.131"
+    "CNAME": [
+      "dexohigh.github.io"
     ],
     "MX": [
-      "ns1.crystalcloud.xyz",
-      "ns2.crystalcloud.xyz"
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
     ],
     "TXT": "v=spf1 a mx ip4:198.251.81.131 ~all"    
   }
