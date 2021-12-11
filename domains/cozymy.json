@@ -1,7 +1,10 @@
 {
+  "repo": "https://github.com/cozymy/cozymy.github.io",
   "owner": {
     "username": "cozymy",
-    "email": "",
-    "twitter": "kunalkundrra"
+    "email": "kunalkundrra@gmail.com"
+  },
+  "record": {
+    "CNAME": "cozymy.github.io"
   }
 }
