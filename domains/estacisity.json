@@ -1,1 +1,11 @@
-
+{
+  "description": "A personal portfolio site for my projects",
+  "repo": "https://github.com/Dxjq/personal-site",
+  "owner": {
+    "username": "Dxjq",
+    "email": "dxjq.smurf@gmail.com",
+  },
+  "record": {
+    "CNAME": "https://dxjq.github.io/personal-site/"
+  }
+}
