@@ -1,0 +1,9 @@
+{
+  "description": "procodingmaroc project website",
+  "owner": {
+    "username": "procodingmaroc",
+    "email": "procodingmaroc@gmail.com"
+  },"record": {
+    "CNAME": "proc.onrender.com"
+  }
+}
