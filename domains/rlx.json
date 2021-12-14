@@ -7,6 +7,7 @@
     "twitter": "RLXOP99"
   },
   "record": {
-    "CNAME": "rlx-op.github.io"
+    "CNAME": "rlx-op.github.io",
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
   }
 }
