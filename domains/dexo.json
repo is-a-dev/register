@@ -1,5 +1,5 @@
 {
-  "description": "A cool website",
+  "description": "hi, this is for my website",
   "repo": "https://github.com/DeXoHigh/DeXoHigh",
   "owner": {
     "username": "DeXoHigh",
@@ -7,7 +7,7 @@
   },
   "record": {
     "CNAME": [
-      "dexohigh.github.io"
+      "dexo.store"
     ],
     "MX": [
       "mx1.improvmx.com",
