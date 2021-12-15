@@ -1,25 +1,15 @@
 {
 
   "description": "About Rlx",
-
   "repo": "https://github.com/RLX-OP/website",
 
   "owner": {
-
     "username": "RLX-OP",
-
-    "email": "any@email"
-
-
-
+    "email": "jhoonytales@gmail.com"
   },
 
   "record": {
-
-    "CNAME": "rlx-op.github.io",
-
-    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
-
+    "CNAME": "rlx-op.github.io"
   }
 
 }
