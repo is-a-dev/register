@@ -1,0 +1,13 @@
+{
+  "description": "Add some description",
+  "repo": "https://github.com/github-username",
+  "owner": {
+    "username": "github-username",
+    "email": "any@email"
+  },
+  "record": {
+    "URL": {
+      "https://porfolio.zeskdev.xyz"
+    }
+  }
+}
