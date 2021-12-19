@@ -1,0 +1,11 @@
+{
+  "description": "Galaxies website",
+  "repo": "https://github.com/kaimodiss/register",
+  "owner": {
+    "username": "Galaxy",
+    "email": "astasleader@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://galaxyweb-v2.kaimodiss.repl.co"
+  }
+}
