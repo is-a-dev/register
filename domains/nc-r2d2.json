@@ -5,6 +5,6 @@
     "email": "aereg@ya.ru"
   },
   "record": {
-    "CNAME": "r2d2.is-a.dev"
+    "A": ["46.32.81.244"]
   }
 }
