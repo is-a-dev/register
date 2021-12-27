@@ -1,0 +1,11 @@
+{
+  "description": "A ubuntu themed personal website.",
+  "repo": "https://github.com/thatcatdrout/linuxspectral",
+  "owner": {
+    "username": "thatcatdrout",
+    "email": "catdrout@duck.com"
+  },
+  "record": {
+    "CNAME": "linuxspectral-production.up.railway.app"
+  }
+}
