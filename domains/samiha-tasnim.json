@@ -1,0 +1,13 @@
+{
+  "description": "Samiha Tasnims personal website.",
+  "repo": "https://github.com/samihaTasnim/website",
+  "owner": {
+    "username": "samihaTasnim",
+    "email": "samxtasnim@gmail.com",
+    "discord": "samm#6276",
+    "twitter": "@SamihaTasnimm"
+  },
+  "record": {
+    "CNAME": "website-production-8e6d.up.railway.app"
+  }
+}
