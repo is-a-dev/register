@@ -1,0 +1,11 @@
+{
+    "description": "Jack's Personal Site",
+    "repo": "https://github.com/zencat3/zencat3.github.io",
+    "owner": {
+      "username": "zencat3",
+      "email": "jzck@riseup.net"
+    },
+    "record": {
+      "CNAME": "zencat3.github.io"
+    }
+  }
