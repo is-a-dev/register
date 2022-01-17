@@ -45,7 +45,7 @@ const recordToEmailMx = ({ name, address, priority }) => ({
 })
 
 const getHostKey = host =>
-  `${host.name?.toLowerCase()}##${host.type.toLowerCase()}##${host.address?.toLowerCase()}`;
+  `${host.name.toLowerCase()}##${host.type.toLowerCase()}##${host.address.toLowerCase()}`;
 
 const diffRecords = (oldRecords, newRecords) => {
   const isMatchingRecord = (a, b) => getHostKey(a) === getHostKey(b);
