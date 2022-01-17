@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  accurics-scan:
+    runs-on: ubuntu-latest
+    name: accurics-scan
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Accurics Scan
+        id: accurics-scan
+        uses: docker://accurics/terrascan-action:latest
+        with:
+          only_warn: true
+          verbose: true
+          webhook_url: https://app.accurics.com/v1/api/terrascan
+          webhook_token: 258dfc1a-8eed-42d7-84e7-02dfb45791dd
