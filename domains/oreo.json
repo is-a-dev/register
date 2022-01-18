@@ -1,0 +1,12 @@
+{
+  "description": "A website for YummyOreo",
+  "repo": "https://github.com/YummyOreo/yummyoreo.github.io",
+  "owner": {
+    "username": "YummyOreo",
+    "email": "bobgim20@gmail.com",
+    "twitter": "YummyOreo3"
+  },
+  "record": {
+    "CNAME": "yummyoreo.github.io"
+  }
+}
