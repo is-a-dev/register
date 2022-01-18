@@ -2,7 +2,8 @@
   "description": "Portfolio/Personal landing page",
   "repo": "https://github.com/boredcodebyk/boredcodebyk.github.io",
   "owner": {
-    "username": "boredcodebyk"
+    "username": "boredcodebyk",
+    "email": ""
   },
   "record": {
     "CNAME": "boredcodebyk.github.io"
