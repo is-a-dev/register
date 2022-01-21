@@ -5,5 +5,9 @@
     "username": "hexed",
     "email": "me@proximity.sh"
   },
-  "record": {"A": "144.172.67.6"}
+  "record": {
+    "A": [
+      "144.172.67.6"
+    ]
+  }
 }
