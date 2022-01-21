@@ -1,0 +1,11 @@
+{
+  "description": "tesla's personal website",
+  "repo": "https://github.com/hapi-dev",
+  "owner": {
+    "username": "tesla",
+    "email": "stream.hapi@gmail.com"
+  },
+  "record": {
+    "CNAME": "arindev.tech"
+  }
+}
