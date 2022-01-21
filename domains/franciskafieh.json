@@ -1,0 +1,11 @@
+{
+  "description": "Francis Kafieh's Personal Blog",
+  "repo": "https://github.com/franciskafieh/franciskafieh.github.io",
+  "owner": {
+    "username": "franciskafieh",
+    "email": "kafieh.francis@gmail.com"
+  },
+  "record": {
+    "CNAME": "franciskafieh.github.io"
+  }
+}
