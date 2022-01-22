@@ -16,6 +16,6 @@
     ],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
     
-  },
+  }
   
 }
