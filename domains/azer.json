@@ -2,9 +2,8 @@
   "description": "Personal page of Azer Sadykhzadeh",
   "owner": {
     "username": "sadykhzadeh",
-    "email": ""
   },
   "record": {
-    "URL": "https://sadykhzadeh.github.io/site"
+    "CNAME": "sadykhzadeh.github.io"
   }
 }
