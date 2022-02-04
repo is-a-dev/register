@@ -1,0 +1,18 @@
+{
+  "description": "Add some description",
+  "repo": "https://github.com/powrhouseofthecell",
+  "owner": {
+    "username": "powrhouseofthecell",
+    "email": "theshahzuhaib96@gmail.com"
+  },
+  "record": {
+   "CNAME": "zuhaib.live",
+   "URL": "https://zuhaib.live",
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ]
+  }
+}
