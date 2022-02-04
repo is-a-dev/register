@@ -1,1 +1,10 @@
-{}
+{
+  "description": "An additional domain apart from lunah.gq",
+  "owner": {
+    "username": "piotr25691",
+    "email": "lunah@lunahdev.ml"
+  },
+  "record": {
+    "A": ["5.161.46.209"]
+  }
+}
