@@ -1,10 +1,11 @@
 {
-  "description": "An additional domain apart from lunah.gq",
+  "description": "VPS hosted domain",
+  "repo": "https://github.com/piotr25691/piotr25691",
   "owner": {
     "username": "piotr25691",
     "email": "lunah@lunahdev.ml"
   },
   "record": {
-    "A": "5.161.46.209"
+    "A": ["5.161.46.209"]
   }
 }
