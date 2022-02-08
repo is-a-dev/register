@@ -1,10 +1,10 @@
 {
   "description": "Redirecting to my personal website!",
-  "repo": "https://github.com/QwertyBoss-Code/simple-redirect",
+  "repo": "https://github.com/qwertyiscoding/simple-redirect",
   "owner": {
-    "username": "QwertyBoss-Code",
+    "username": "QwertyIsCoding",
     "email": "3kn5nsfkb@relay.firefox.com",
-    "twitter": "qwerty_thinking"
+    "twitter": "qwertyiscoding"
   },
   "record": {
     "CNAME": "qwertyiscoding.github.io"
