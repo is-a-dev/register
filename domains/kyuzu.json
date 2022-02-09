@@ -3,7 +3,8 @@
   "repo": "https://github.com/kyuzu/kyuzu.github.io",
   "owner": {
     "username": "kyuzu",
-    "twitter": "kyuzudev"
+    "twitter": "kyuzudev",
+    "email": ""
   },
   "record": {
     "CNAME": "kyuzu.github.io"
