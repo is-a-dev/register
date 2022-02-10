@@ -1,12 +1,11 @@
 {
   "description": "MaskDuck's personal website!",
-  "repo": "https://github.com/MaskDuck/continental-beauty-msbacdau.github.io",
+  "repo": "https://github.com/aduckuwu/aduckuwu.github.io",
   "owner": {
-    "username": "MaskDuck",
-    "email": "edogawaconan0405detective@gmail.com",
+    "username": "aduckuwu",
     "discord": "MaskDuck#9999"
   },
   "record": {
-    "URL": "https://maskduck.ninja"
+    "CNAME": "https://maskduck.ninja"
   }
 }
