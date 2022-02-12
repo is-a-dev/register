@@ -1,0 +1,10 @@
+{
+  "description": "Herkura's Portfolio",
+  "repo": "https://github.com/herkura/.me",
+  "owner": {
+    "username": "herkura",
+  },
+  "record": {
+    "CNAME": "herkura.github.io"
+  }
+}
