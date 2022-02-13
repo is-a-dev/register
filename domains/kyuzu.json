@@ -1,12 +1,13 @@
 {
-  "description": "Personal website built with various web technologies",
-  "repo": "https://github.com/kyuzu/kyuzu.github.io",
+  "description": "Personal portfolio built with ReactJS",
+  "repo": "https://github.com/kyuzu/",
   "owner": {
     "username": "kyuzu",
-    "twitter": "kyuzudev",
+    "discord": "Kyuzu#9214",
+    "twitter": "kyuzudev", 
     "email": ""
   },
   "record": {
-    "CNAME": "kyuzu.github.io"
+    "CNAME": "kyuzu.deno.dev"
   }
 }
