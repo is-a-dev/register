@@ -8,6 +8,9 @@
     "email": ""
   },
   "record": {
-    "CNAME": "kyuzu.deno.dev"
+    "CNAME": "kyuzu.deno.dev",
+    "TXT": "deno-com-validation=8ec71685ba9c73e0eaeabaa5",
+    "A": "34.120.54.55",
+    "AAAA": "2600:1901:0:6d85::"
   }
 }
