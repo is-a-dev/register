@@ -1,0 +1,11 @@
+{
+  "description": "Add some description",
+  "repo": "https://github.com/immattdavison",
+  "owner": {
+    "username": "immattdavison",
+    "email": "matt@spectrebot.net"
+  },
+  "record": {
+    "CNAME": "mattdavison.is-a.dev.acme.hartserver.net"
+  }
+}
