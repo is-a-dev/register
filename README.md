@@ -4,6 +4,8 @@
 
 **is-a-dev** is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
 
+[![Discord](https://img.shields.io/discord/830872854677422150?style=for-the-badge)](https://discord.gg/PZCGHz4RhQ)
+
 
 ## How do I register?
 * Fork this project
@@ -25,6 +27,7 @@ Please consider donating to help me keep this running forever!
 
 
 
+
 ## Similar services
 You should also checkout -
 * [js.org](https://github.com/js-org/js.org/tree/master)
@@ -34,6 +37,10 @@ You should also checkout -
 
 
 ## Uptime
+
+![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787472645-ec25e3920c7af893a7c66f19?label=uptime%20-%20dns&style=for-the-badge)
+![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787472617-240f4d61a5439a87becb2cf9?label=uptime%20-%20redirections&style=for-the-badge)
+
 You can check the uptime of the service via [our status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw)
 
 
