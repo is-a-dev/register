@@ -1,0 +1,10 @@
+{
+  "description": "Website for Discord Bot - Chiller",
+  "owner": {
+    "username": "Code19Master",
+    "email": "divikbabbar@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://chiller.netlify.app"
+  }
+}
