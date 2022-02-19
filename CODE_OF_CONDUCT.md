@@ -5,4 +5,4 @@ This is a Code of Conduct for any interactions in this repository. This includes
 * **Don't abuse the service** - This service is intended for developers to get a pretty url for their personal websites.
 
 If you believe a domain that has been registered using this service is an abuse of this service, you can report it by creating an issue.
-The abuse reports will be investigated and the necassary action will be taken!
+The abuse reports will be investigated and the necessary action will be taken!
