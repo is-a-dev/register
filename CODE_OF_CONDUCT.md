@@ -2,7 +2,7 @@
 This is a Code of Conduct for any interactions in this repository. This includes pull requests, issues, etc.
 
 * **Don't be a dick** - It's not that complicated. Just be nice to people.
-* **Don't abuse the service** - This service is intended for developers to get a pretty url for their personal websites.
+* **Don't abuse the service** - This service is intended for developers to get a pretty URL for their personal websites.
 * **No Wrongful Uses Of The Service** - Do not use this site as a way, to promote hacking, cheating, committing fraud, and other illegal activites.
   *(cheating isn't illegal but it is still considered abuse of this service)*
 
