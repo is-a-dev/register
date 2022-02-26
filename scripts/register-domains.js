@@ -17,7 +17,7 @@ const toHostList = R.chain(data => {
       ttl: TTL,
       ...(recordType === 'MX' ? { priority: index + 20 } : {})
     }))
-    , rs);
+  , rs);
 });
 
 const registerDomains = async ({ domainService, getDomains, log = () => { } }) => {

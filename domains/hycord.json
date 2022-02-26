@@ -1,0 +1,12 @@
+{
+  "description": "Hi! I'm Hycord!",
+  "repo": "https://github.com/hycord/hycord.github.io",
+  "owner": {
+    "username": "hycord",
+    "email": "hycord@duck.com",
+    "twitter": "IGNHycord"
+  },
+  "record": {
+    "CNAME": "hycord.github.io"
+  }
+}
