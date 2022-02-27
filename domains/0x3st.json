@@ -1,0 +1,12 @@
+{
+  "description": "Yamaishi's website",
+  "repo": "https://github.com/0x3st/0x3st.github.io",
+  "owner": {
+    "username": "0x3st",
+    "email": "t.yamaishi@qq.com",
+    "twitter": "TenkutiYamaishi"
+  },
+  "record": {
+    "CNAME": "0x3st.github.io"
+  }
+}
