@@ -1,11 +1,11 @@
 {
   "description": "portfolio | nithin",
-  "repo": "https://github.com/ninjaasmoke/portfolio",
+  "repo": "https://github.com/ninjaasmoke/ninjaasmoke.github.io",
   "owner": {
     "username": "ninjaasmoke",
     "email": "nithins674@gmail.com"
   },
   "record": {
-    "CNAME": "ninjaasmoke.vercel.app"
+    "CNAME": "https://ninjaasmoke.github.io/"
   }
 }
