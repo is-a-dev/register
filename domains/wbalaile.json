@@ -6,7 +6,7 @@
     "email": "",
     "twitter": "wilby_mj"
   },
-  "record": [
-    "A": "23.235.223.222"
-  ]
+  "record": {
+    "CNAME": "wbalaile.kiganjani.co.tz"
+  }
 }
