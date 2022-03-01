@@ -1,0 +1,11 @@
+{
+  "description": "Tanılay",
+  "repo": "https://github.com/tanilayagirlar/tanilayagirlar.github.io",
+  "owner": {
+    "username": "tanilay",
+    "email": "tanilay.agirlar@icloud.com"
+  },
+  "record": {
+    "CNAME": "tanilayagirlar.github.io"
+  }
+}
