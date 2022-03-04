@@ -1,6 +1,6 @@
 ![is-a-dev banner](./media/banner.png)
 
-<br />
+<br/>
 
 **is-a-dev** is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
 
