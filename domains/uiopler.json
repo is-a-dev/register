@@ -1,0 +1,11 @@
+{
+  "description": "uiopler's website",
+  "owner": {
+    "username": "uiopler",
+    "email": "uiopler.dev@gmail.com",
+    "twitter": "uiopler_dev"
+  },
+  "record": {
+    "CNAME": "uiopler.netlify.app"
+  }
+}
