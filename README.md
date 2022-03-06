@@ -4,7 +4,7 @@
 
 **is-a-dev** is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
 
-[![Discord](https://img.shields.io/discord/830872854677422150?style=for-the-badge)](https://discord.gg/PZCGHz4RhQ)
+[![Discord](https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2)](https://discord.gg/PZCGHz4RhQ)
 
 
 ## How do I register?
