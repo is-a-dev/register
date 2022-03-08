@@ -1,0 +1,11 @@
+{
+    "repo": "https://github.com/nevenxr/personal-website",
+    "description": "Personal Website",
+    "owner": {
+        "username": "nevenxr",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "nevenxr.github.io/personal-website"
+    }
+}
