@@ -1,0 +1,22 @@
+{
+  "description": "OGGY's Main Website",
+  "github": "https://github.com/nischay876",
+  "owner": {
+    "username": "nischay876",
+    "email": "nischay876@gmail.com",
+    "instagram": "https://www.instagram.com/nischay_02/",
+    "snapchat": "https://snapchat.com/add/nischay_02",
+    "discord": "OGGY#9889"
+  },
+  "record": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com."],
+    "TXT": "google-site-verification=onzMrLYZ1akoO25ORX2CPqQg3TXAt_4SXze93WlXqdg",
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}
