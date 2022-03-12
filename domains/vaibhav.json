@@ -5,6 +5,8 @@
     "discord": "Vaibhav Kashyap#5747"
   },
   "record": {
-    "CNAME":"86ce71af-5826-44a1-9248-da4f2432bda8.id.repl.co"
+    "A": ["35.186.245.55"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
