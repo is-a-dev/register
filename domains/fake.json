@@ -6,6 +6,11 @@
     "email": "fake@fake.is-a.dev"
   },
   "record": {
-    "CNAME": "yeeett.github.io"
+    "A": ["185.199.108.153"],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
