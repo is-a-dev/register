@@ -4,7 +4,7 @@
       "email": "",
       "twitter": "whi_nyaan"
     },
-    "description": "whi_ne's projects' subdomain",
+    "description": "whi_ne's deno subdomain",
     "record": {
       "A": ["34.120.54.55"],
       "TXT": "deno-com-validation=13eb4d26d1f46853451b20c0"
