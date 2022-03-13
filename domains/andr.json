@@ -1,0 +1,11 @@
+{
+  "description": "Domain for my personal blog",
+  "repo": "https://github.com/rbaks/andr.is-a.dev",
+  "owner": {
+    "username": "rbaks",
+    "email": "andri.bakoson@gmail.com"
+  },
+  "record": {
+    "CNAME": "rbaks.github.io/andr.is-a.dev/"
+  }
+}
