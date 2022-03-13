@@ -6,6 +6,6 @@
     "email": "jj@jj.is-a.dev"
   },
   "record": {
-    "A": ["35.230.85.45"]
+    "CNAME": "site-production-be0d.up.railway.app"
   }
 }
