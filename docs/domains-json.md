@@ -103,7 +103,7 @@ MX must be a list of host names
 ```
 
 * **TXT**
-TXT can be any string value
+TXT can be any string value. **You can only have 1 TXT record.**
 ```json
 {
   "record": {
