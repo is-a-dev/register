@@ -1,0 +1,10 @@
+{
+  "description": "Sendgrid DNS Records",
+  "owner": {
+    "username": "TheBotlyNoob",
+    "email": "jj@jj.is-a.dev"
+  },
+  "record": {
+    "CNAME": "sendgrid.net"
+  }
+}
