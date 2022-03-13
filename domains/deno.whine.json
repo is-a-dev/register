@@ -7,6 +7,6 @@
     "description": "whi_ne's deno subdomain",
     "record": {
       "A": ["34.120.54.55"],
-      "TXT": "deno-com-validation=13eb4d26d1f46853451b20c0"
+      "TXT": "deno-com-validation=ee0178763815b97a05c22f1b"
     }
 }
