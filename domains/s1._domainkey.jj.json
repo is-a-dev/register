@@ -1,0 +1,9 @@
+{
+  "description": "Sendgrid DNS Records",
+  "owner": {
+    "username": "TheBotlyNoob",
+    "email": "jj@jj.is-a.dev"
+  },
+  "record": {
+    "CNAME": "s1.domainkey.u25932237.wl238.sendgrid.net"
+  }
