@@ -1,0 +1,11 @@
+{
+  "repo": "https://github.com/Bad-Boy-Codes/cdn",
+  "description": "My email forwarder",
+  "owner": {
+    "username": "bad-boy-codes",
+    "email": "contact@mail.badboy.is-a.dev"
+  },
+  "record": {
+    "CNAME": "6c471084-399d-4a07-94a2-7e5d70375e79.id.repl.co"
+  }
+}
