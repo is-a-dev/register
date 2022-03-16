@@ -1,0 +1,11 @@
+{
+  "description": "Add trug.is-a.dev",
+  "repo": "https://github.com/vietrux/vietruz",
+  "owner": {
+    "username": "vietrux",
+    "email": "leviettrung.social@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
