@@ -1,0 +1,11 @@
+{
+  "description": "Hello",
+  "repo": "https://github.com/vietrux/vietrux.github.io",
+  "owner": {
+    "username": "vietrux",
+    "email": "leviettrung.social@gmail.com"
+  },
+  "record": {
+    "CNAME": "vietrux.github.io"
+  }
+}
