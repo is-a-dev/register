@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="GitHub" src="https://img.shields.io/github/license/is-a-dev/register?color=5c46eb&style=for-the-badge"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/is-a-dev/register?color=5c46eb&style=for-the-badge"><img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/is-a-dev/register?color=5c46eb&style=for-the-badge">
+<img alt="GitHub" src="https://img.shields.io/github/license/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/is-a-dev/register?color=5c46eb&style=for-the-badge">
 </p>
 
 ![is-a-dev banner](./media/banner.png)
