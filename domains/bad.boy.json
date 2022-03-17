@@ -1,11 +1,10 @@
 {
-  "repo": "https://github.com/Bad-Boy-Codes/mail",
-  "description": "My email forwarder",
+  "description": "https://badboy.is-a.dev/ redirector",
   "owner": {
     "username": "bad-boy-codes",
     "email": "contact@mail.badboy.is-a.dev"
   },
   "record": {
-    "URL": "https://badboy.is-a.dev/"
+    "CNAME": "a.redirect.pizza"
   }
 }
