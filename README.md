@@ -2,11 +2,11 @@
    <img alt="GitHub" src="https://img.shields.io/github/license/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/is-a-dev/register?color=5c46eb&style=for-the-badge">
    <br/><br/>
    <img alt="is-a-dev banner" src="/media/banner.png">
-   <br/><br/>
+   <br/></p>
 
    **is-a-dev** is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
-
-   <br/><br/>
+<p align="center">
+   <br/
    <a href="https://discord.gg/PZCGHz4RhQ"><img src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2" alt="Discord"></a>
 </p>
 
