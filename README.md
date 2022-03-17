@@ -1,12 +1,14 @@
 <p align="center">
-<img alt="GitHub" src="https://img.shields.io/github/license/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/is-a-dev/register?color=5c46eb&style=for-the-badge">
-<br/><br/>
+   <img alt="GitHub" src="https://img.shields.io/github/license/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/is-a-dev/register?color=5c46eb&style=for-the-badge">
+   <br/><br/>
+   <img alt="is-a-dev banner" src="/media/banner.png">
+   <br/><br/>
 
-<img alt="is-a-dev banner" src="/media/banner.png">
-<br/><br/>
-**is-a-dev** is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
-<br/><br/>
-<a href="https://discord.gg/PZCGHz4RhQ"><img src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2" alt="Discord"></a></p>
+   **is-a-dev** is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
+
+   <br/><br/>
+   <a href="https://discord.gg/PZCGHz4RhQ"><img src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2" alt="Discord"></a>
+</p>
 
 
 ## How do I register?
@@ -18,16 +20,12 @@
 * That's it! Done! Now go show off your cool `.is-a.dev` domain
 
 
-
 ## Donations
 This project is a free and open source service for developers and will stay that way.
-
 Please consider donating to help me keep this running forever!
 
 <a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="119"></a>
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay recurring donation button" /></a>
-
-
 
 
 ## Similar services
@@ -37,16 +35,13 @@ You should also checkout -
 * [runs-on.tech](https://github.com/aakhilv/runs-on.tech)
 
 
-
 ## Uptime
-
 ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787472645-ec25e3920c7af893a7c66f19?label=uptime%20-%20dns&style=for-the-badge)
 ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787472617-240f4d61a5439a87becb2cf9?label=uptime%20-%20redirections&style=for-the-badge)
 
 You can check the uptime of the service via [our status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw)
 
 
-
-
 ## License
+
 This project is under the [GPL-3.0](./LICENSE) license.
