@@ -3,11 +3,10 @@
 <br/><br/>
 
 <img alt="is-a-dev banner" src="/media/banner.png">
-</p>
-<br/>
+<br/><br/>
 **is-a-dev** is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
-
-<p align="center"> <a href="https://discord.gg/PZCGHz4RhQ"><img src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2" alt="Discord"></a></p>
+<br/><br/>
+<a href="https://discord.gg/PZCGHz4RhQ"><img src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2" alt="Discord"></a></p>
 
 
 ## How do I register?
