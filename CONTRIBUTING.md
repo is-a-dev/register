@@ -12,7 +12,7 @@ You can create an pull request for the following reasons -
 #### Domains
 Changes to domain files will follow the given process -
 * PR will be reviewed and merged to `main` branch.
-* Currently, the publishing of records is done manually. This will be automated soon with releases.
+* The records will be published as soon as the PR is merged.
 * The changes should reflect soon after publishing.
 
 
