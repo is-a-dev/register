@@ -1,0 +1,11 @@
+{
+  "description": "My Portfolio",
+  "repo": "https://github.com/rubiin",
+  "owner": {
+    "username": "rubiin",
+    "email": "roobin.bhandari@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com."
+  }
+}
