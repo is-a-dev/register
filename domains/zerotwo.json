@@ -1,11 +1,11 @@
 {
-  "description": "The site for ZeroTwo's docs.",
-  "repo": "https://github.com/ZeroTwoDev",
+  "description": "landing site for zerotwo, the discord bot.",
+  "repo": "https://github.com/ZeroTwoDiscord/website",
   "owner": {
-    "username": "ZeroTwoDev",
-    "email": "halil_ismail@yahoo.com"
+    "username": "Connor",
+    "email": "[redacted] send me a dm on discord instead."
   },
   "record": {
-    "CNAME": "zerotwodev.github.io"
+    "CNAME": "zerotwodiscord.github.io/website"
   }
 }
