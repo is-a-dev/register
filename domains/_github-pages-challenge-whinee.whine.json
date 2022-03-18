@@ -6,6 +6,6 @@
     },
     "description": "whi_ne's projects' subdomain",
     "record": {
-        "CNAME": "whnya.github.io"
+        "TXT": "bb3791fd1730b8ac812429538c5ace"
     }
 }
