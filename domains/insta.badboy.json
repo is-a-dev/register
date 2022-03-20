@@ -1,11 +1,11 @@
 {
-  "repo": "https://github.com/Bad-Boy-Codes/insta-profile-viewer",
+  "repo": "https://github.com/Bad-Boy-Codes/Instagram-Projects",
   "description": "Instagram profile viewer.",
   "owner": {
     "username": "bad-boy-codes",
     "email": "contact@mail.badboy.is-a.dev"
   },
   "record": {
-    "CNAME": "semant.is-a.dev"
+    "CNAME": "bad-boy-codes.github.io"
   }
 }
