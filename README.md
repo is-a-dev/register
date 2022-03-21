@@ -22,6 +22,8 @@ This project is a free and open source service for developers and will stay that
 
 Please consider donating to help me keep this running forever!
 
+Also, consider starring this repo!
+
 <a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="119"></a>
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay recurring donation button" /></a>
 
