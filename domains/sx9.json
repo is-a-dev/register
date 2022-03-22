@@ -4,9 +4,10 @@
   "owner": { 
     "username": "SX-9", 
     "twitter": "SX_Discord",
-    "email": "sx-91@outlook.com"
+    "email": "sx-91@outlook.com",
+    "note": "Im Trying Some Hosting Providers For My Website So You Might Get A Lot Of Pull Requests From Me"
   },
   "record": { 
-    "CNAME": "sx9-1st-static-website.on.drv.tw" 
+    "CNAME": "sx-9.github.io" 
   }
 }
