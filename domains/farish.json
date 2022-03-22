@@ -1,13 +1,14 @@
 {
-    "description": "Personal portfolio built with ReactJS",
-    "repo": "https://github.com/fxrysh/portfolio",
+    "description": "Email",
+    "repo": "",
     "owner": {
         "username": "fxrysh",
         "discord": "Fxrysh#5947",
         "twitter": "fxryshdev",
-        "email": ""
+        "email": "hello@farish.is-a.dev"
     },
     "record": {
-        "CNAME": "be6f5ccb5df661222f71037d.cname.deno.dev"
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 }
