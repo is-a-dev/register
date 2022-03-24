@@ -1,11 +1,11 @@
 {
   "description": "a cool subdomain",
-  "repo": "https://github.com/LellisV2",
+  "repo": "https://github.com/LellisV2/register",
   "owner": {
     "username": "LellisV2",
-    "email": "me@lellis.xyz"
+    "email": "cloud@lellis.tech"
   },
   "record": {
-    "CNAME": "dev.lellis.ga"
+    "A": ["150.230.126.219"]
   }
 }

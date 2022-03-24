@@ -3,19 +3,10 @@
     "repo": "https://github.com/icancodebeauty/aditya",
     "owner": {
         "username": "icancodebeauty",
-        "email": "ishqaddy@gmail.com"
+        "email": "aditya@mail.aditya.is-a.dev",
+        "twitter": "@CodeWithAadi"
     },
     "record": {
-        "A": [
-            "185.199.108.153",
-            "185.199.109.153",
-            "185.199.110.153",
-            "185.199.111.153"
-        ],
-        "MX": [
-            "mx1.improvmx.com",
-            "mx2.improvmx.com"
-        ],
-        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+        "CNAME": "icancodebeauty.github.io"
     }
 }
