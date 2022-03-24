@@ -1,0 +1,11 @@
+{
+    "description": "Hopefully Thomas Croft's is-a.dev site",
+    "repo": "https://github.com/thomascf/thomascf.github.io",
+    "owner": {
+      "username": "thomascf",
+      "email": "thomas.croft@pm.me"
+    },
+    "record": {
+      "CNAME": "thomascf.github.io"
+    }
+  }
