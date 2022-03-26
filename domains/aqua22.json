@@ -1,0 +1,11 @@
+{
+  "description": "Yes",
+  "repo": "https://github.com/aqua22",
+  "owner": {
+    "username": "aqua22",
+    "email": "hello@aqua22.hu"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
