@@ -1,0 +1,11 @@
+{
+  "description": "clownless personal site",
+  "repo": "https://github.com/clownless/clownless.github.io",
+  "owner": {
+    "username": "clownless",
+    "email": "me@clownless.one"
+  },
+  "record": {
+    "CNAME": "clownless.one"
+  }
+}
