@@ -1,0 +1,12 @@
+{
+  "descripción" : " Sitio web de Specteado " ,
+  "repositorio" : " https://github.com/Specteado/specteado.github.io " ,
+  "propietario" : {
+    "nombre de usuario" : " Specteado " ,
+    "correo electrónico" : " jusefmasabanda10@gmail.com " ,
+    "twitter" : " Specteado1 "
+  },
+  "grabar" : {
+    "CNAME" : " specteado.github.io "
+  }
+}
