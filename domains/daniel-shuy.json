@@ -4,6 +4,8 @@
     "email": "daniel_shuy@hotmail.com"
   },
   "record": {
-    "CNAME": "hashnode.network"
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }
