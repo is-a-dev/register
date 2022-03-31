@@ -6,6 +6,7 @@
     "email": "sx-91@outlook.com",
   },
   "record": { 
-    "CNAME": ["ns1.epizy.com", "ns2.epizy.com"] 
+    "Nameserver1":  "ns1.epizy.com",
+    "Nameserver2":  "ns2.epizy.com",
   }
 }
