@@ -5,6 +5,8 @@
     "email": "foxyss@pm.me"
    },
   "record": {
-    "CNAME": "infinitecode.uk"
+    "A": [
+      "130.61.171.47"
+    ]
   }
 }
