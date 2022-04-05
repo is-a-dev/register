@@ -21,3 +21,18 @@ jobs:
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: test
+
+  run-if-fail:
+    if: ${{ always() && (needs.validation.result=='failure') }}
+    needs: [validation]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v1
+        env:
+          LOGS_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           message: |
+                ❌ Validation HAS FAILED
+                🔍 Inspect the logs: ${{ env.LOGS_URL }}
