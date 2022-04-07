@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Jake",
+    "email": "hi.cybot@gmail.com",
+    "note": "That email address is not my main email, to make it faster reply to me with a message."
+  },
+  "description": "A little description about myself",
+  "record": {
+    "CNAME": "fbc9f713-ef7e-48a4-bb57-cbe8061f6f34.id.repl.co"
+  }
+}
