@@ -1,0 +1,12 @@
+{
+  "description": "Personal website for Atharv",
+  "repo": "https://github.com/realatharv/atharv",
+  "owner": {
+    "username": "realatharv",
+    "email": "atharv.sbiz@gmail.com",
+    "twitter": "realatharv"
+  },
+  "record": {
+    "CNAME": "github-username.github.io"
+  }
+}
