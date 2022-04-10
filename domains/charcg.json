@@ -1,0 +1,12 @@
+{
+  "description": "CharCG's Website",
+  "repo": "https://github.com/charcg/charcg.github.io",
+  "owner": {
+    "username": "CharCG",
+    "email": "charlescong91@gmail.com",
+    "twitter": "charlescong91"
+  },
+  "record": {
+    "CNAME": "charcg.github.io"
+  }
+}
