@@ -21,6 +21,17 @@ jobs:
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: test
+     
+      - name: Comment PR 
+        uses: thollander/actions-comment-pull-request@v1 
+        env: 
+          LOGS_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with: 
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+           message: | 
+                Validation has passed!
+                🔍 Inspect the logs: ${{ env.LOGS_URL }}
+
 
   run-if-fail:
     if: ${{ always() && (needs.validation.result=='failure') }}
