@@ -2,11 +2,11 @@
   "description": "roreef personal website",
   "repo": "https://github.com/reef1447/reef1447.github.io",
   "owner": {
-    "username": "roreef",
+    "username": "reef1447",
     "email": "spray123kira@gmail.com",
     "discord": "ro-reef#8899"
   },
   "record": {
-    "CNAME": "https://reef1447.github.io/"
+    "CNAME": "reef1447.github.io"
   }
 }
