@@ -4,6 +4,6 @@
     "email": "lellis2x@gmail.com"
   },
   "record": {
-    "CNAME": "vmi629745.contaboserver.net"
+    "A": ["144.21.63.181"]
   }
 }

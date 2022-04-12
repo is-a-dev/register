@@ -1,0 +1,22 @@
+{
+    "description": "A Subdomain For Mails!!",
+    "repo": "https://github.com/icancodebeauty/mail",
+    "owner": {
+        "username": "icancodebeauty",
+        "email": "ishqaddy@gmail.com",
+        "twitter": "CodeWithAadi"
+    },
+    "record": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
+}

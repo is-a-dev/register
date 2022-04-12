@@ -8,7 +8,7 @@
 
 
 ## How do I register?
-* Fork this project
+* Fork this repository
 * Add a new `domains/your-domain-name.json` file directory to register `your-domain-name.is-a.dev`
 * [Read the docs](./docs)
 * The PR will be reviewed and merged
@@ -22,6 +22,8 @@ This project is a free and open source service for developers and will stay that
 
 Please consider donating to help me keep this running forever!
 
+Also, consider starring this repo!
+
 <a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="119"></a>
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay recurring donation button" /></a>
 
@@ -30,8 +32,7 @@ Please consider donating to help me keep this running forever!
 
 ## Similar services
 You should also checkout -
-* [js.org](https://github.com/js-org/js.org/tree/master)
-* [thedev.id](https://github.com/fransallen/thedev.id)
+* [js.org](https://github.com/js-org/js.org/tree/master) (**NOTE**: `js.org` is specifically for JS focused project)
 * [runs-on.tech](https://github.com/aakhilv/runs-on.tech)
 
 
