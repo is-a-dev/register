@@ -1,0 +1,10 @@
+{
+  "description": "A website for my bit.ly clone LinkMe",
+  "owner": {
+    "username": "Noma4321",
+    "email": "noma4321business@gmail.com"
+  },
+  "record": {
+    "CNAME": "d6bddc39-8514-4494-9b17-d80409cfcbee.id.repl.co"
+  }
+}
