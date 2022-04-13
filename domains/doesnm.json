@@ -1,9 +1,9 @@
 {
-"owner": {
-"username": "doesnm",
-"email": "me@doesnm.cc"
-},
-"record": {
-"CNAME": "doesnm.github.io"
-}
+  "owner": {
+    "username": "doesnm",
+    "email": "me@doesnm.cc"
+  },
+  "record": {
+    "CNAME": "doesnm.github.io"
+  }
 }
