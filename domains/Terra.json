@@ -1,0 +1,12 @@
+{
+  "description": "Terra is a Discord bot",
+  "repo": "https://github.com/TerraDiscordBot/TerraDiscordBot.github.io",
+  "owner": {
+    "username": "TerraDiscordBot",
+    "email": "youremail@gmail.com",
+    "twitter": "Twitter name"
+  },
+  "record": {
+    "CNAME": "TerraDiscordBot.github.io"
+  }
+}
