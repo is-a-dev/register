@@ -15,7 +15,7 @@
 
 ## Guide
 # How to register
-You can read the [domains.json file api reference]()
+You can read the [json structure](https://github.com/omxpro/register/blob/main/README.md#json-structure)
 
 ## Forking the repo
 * Go to [here](https://github.com/is-a-dev/register/fork) and fork the repo
@@ -28,6 +28,11 @@ You can read the [domains.json file api reference]()
 * Picture: ![image](https://media.discordapp.net/attachments/949604552779390976/965225298167754792/Screenshot_20220417-174957_Brave.jpg)
 
 ## Websites hosted at
+* [1. GitHub Pages]()
+* [2. Hashnode blogs]()
+* [3. Other]()
+
+
 ### 1. GitHub Pages ← This is the recommended way to host your website.
 #### Creating a github pages repo
 You can create a github pages website by creating a repo with the name `<your-github-username>.github.io`.
