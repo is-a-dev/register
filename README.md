@@ -28,9 +28,9 @@ You can read the [json structure](https://github.com/omxpro/register/blob/main/R
 * Picture: ![image](https://media.discordapp.net/attachments/949604552779390976/965225298167754792/Screenshot_20220417-174957_Brave.jpg)
 
 ## Websites hosted at
-* [1. GitHub Pages]()
-* [2. Hashnode blogs]()
-* [3. Other]()
+* [1. GitHub Pages](https://github.com/omxpro/register#1-github-pages--this-is-the-recommended-way-to-host-your-website)
+* [2. Hashnode blogs](https://github.com/omxpro/register#2-for-hashnode-blogs)
+* [3. Other](https://github.com/is-a-dev/register#3-for-other-services)
 
 
 ### 1. GitHub Pages ← This is the recommended way to host your website.
