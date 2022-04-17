@@ -8,14 +8,14 @@
 
 
 ## How do I register?
-* [Read the guide](https://github.com/omxpro/register#how-to-register)
+* [Read the guide](https://github.com/is-a-dev/register#how-to-register)
 * The PR will be reviewed and merged
 * After merging, the changes will take effect within a day
 * That's it! Done! Now go show off your cool `.is-a.dev` domain
 
 ## Guide
 # How to register
-You can read the [json structure](https://github.com/omxpro/register/blob/main/README.md#json-structure)
+You can read the [json structure](https://github.com/is-a-dev/register/blob/main/README.md#json-structure)
 
 ## Forking the repo
 * Go to [here](https://github.com/is-a-dev/register/fork) and fork the repo
@@ -28,8 +28,8 @@ You can read the [json structure](https://github.com/omxpro/register/blob/main/R
 * Picture: ![image](https://media.discordapp.net/attachments/949604552779390976/965225298167754792/Screenshot_20220417-174957_Brave.jpg)
 
 ## Websites hosted at
-* [1. GitHub Pages](https://github.com/omxpro/register#1-github-pages--this-is-the-recommended-way-to-host-your-website)
-* [2. Hashnode blogs](https://github.com/omxpro/register#2-for-hashnode-blogs)
+* [1. GitHub Pages](https://github.com/is-a-dev/register#1-github-pages--this-is-the-recommended-way-to-host-your-website)
+* [2. Hashnode blogs](https://github.com/is-a-dev/register#2-for-hashnode-blogs)
 * [3. Other](https://github.com/is-a-dev/register#3-for-other-services)
 
 
