@@ -38,7 +38,7 @@ You can read the [json structure](https://github.com/omxpro/register/blob/main/R
 You can create a github pages website by creating a repo with the name `<your-github-username>.github.io`.
 For more information about github pages, please read through [their guide](https://guides.github.com/features/pages/).
 
-
+#### [Video Tutorial](https://media.discordapp.net/attachments/949604552779390976/965283941105950730/20220417_204315.mp4)
 #### Domains file
 Create a json file inside the `domains` directory (`domains/<subdomain>.json`) with the following contents
 ```json
