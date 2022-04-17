@@ -258,7 +258,7 @@ TXT can be any string value. **You can only have 1 TXT record.**
 
 
 ## Vercel & Netlify Note
-You will encounter an SSL certificate issue when using Vercel and Netlify. Neither service will work with our domains. It is recommend to use [Github Pages](https://github.com/is-a-dev/register/blob/add-hosting-warning/docs/hosted-at/github-pages.md) or [Railway](https://railway.app/) instead.
+Vercel is no longer officially **supported**.You will encounter an SSL certificate issue when using Vercel and Netlify. Neither service will work with our domains. It is recommend to use [Github Pages](https://github.com/is-a-dev/register/blob/add-hosting-warning/docs/hosted-at/github-pages.md) or [Railway](https://railway.app/) instead.
 
 ## Guidelines for is-a.dev domain
 
