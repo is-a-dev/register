@@ -1,0 +1,12 @@
+{
+  "description": "An easy payment API",
+  "repo": "https://infrapay.github.io/website/",
+  "owner": {
+    "username": "InfraPay",
+    "email": "not_public@np.org",
+    "twitter": "no_twitter"
+  },
+  "record": {
+    "CNAME": "https://infrapay.github.io/"
+  }
+}
