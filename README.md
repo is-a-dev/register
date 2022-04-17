@@ -10,10 +10,146 @@
 ## How do I register?
 * Fork this repository
 * Add a new `domains/your-domain-name.json` file directory to register `your-domain-name.is-a.dev`
-* [Read the docs](./docs)
+* [Read the guide]()
 * The PR will be reviewed and merged
 * After merging, the changes will take effect within a day
 * That's it! Done! Now go show off your cool `.is-a.dev` domain
+
+## Guide
+# How to register
+You can read the [domains.json file api reference]()
+
+## Forking the repo
+* Go to [here](https://github.com/is-a-dev/register/fork) and fork the repo
+* Do your changes
+* Make a pull request using the contribute button.
+* Picture: ![image](https://media.discordapp.net/attachments/949604552779390976/965224826425999400/Screenshot_20220417-174804_Brave.jpg)
+## Want to pull changes?
+* Use the fetch upstream and merge button that is near the contribute button
+
+* Picture: ![image](https://media.discordapp.net/attachments/949604552779390976/965225298167754792/Screenshot_20220417-174957_Brave.jpg)
+
+## Websites hosted at
+### 1. GitHub Pages ← This is the recommended way to host your website.
+#### Creating a github pages repo
+You can create a github pages website by creating a repo with the name `<your-github-username>.github.io`.
+For more information about github pages, please read through [their guide](https://guides.github.com/features/pages/).
+
+
+#### Domains file
+Create a json file inside the `domains` directory (`domains/<subdomain>.json`) with the following contents
+```json
+{
+  "description": "Add some description",
+  "repo": "https://github.com/github-username/github-username.github.io",
+  "owner": {
+    "username": "github-username",
+    "email": "any@email",
+    "twitter": "your-twitter-username"
+  },
+  "record": {
+    "CNAME": "<replace-this-with-your-github-username>.github.io"
+  }
+}
+```
+
+#### Configuring your repo
+* After the pull request is merged, you will see a 404 error on `your-domain.is-a.dev`. To fix this go to your github page repo's `Settings > Github pages > Custom domain` and add `your-domain.is-a.dev` in the given field
+* Check the `Enforce HTTPS` checkbox below the custom domain input
+
+### 2. For hashnode blogs
+When you create your Hashnode blog, hashnode provides a free **yourdomain.hashnode.dev** subdomain for you. However, you can set up your own **.is-a.dev** subdomain.
+
+In this guide, you will learn how to accomplish this.
+
+---
+
+1. Log in to your Hashnode account.
+
+2. Click on your **profile picture** at the bottom-left corner of the page on *desktop* screen or top-right corner on *mobile* screen.
+
+![Hashnode's Feed](https://cdn.hashnode.com/res/hashnode/image/upload/v1614932849541/cBNDGKXMj.png?auto=compress)
+
+3. Click on the **Blog Dashboard** option from the popup modal to access your blog's dashboard.
+
+![Hashnode's Feed](https://cdn.hashnode.com/res/hashnode/image/upload/v1614937218081/InvxVHXDy.png?auto=compress)
+
+4. Navigate to the **DOMAIN** tab and enter your domain without the **www** or **https://** prefix in the text field provided. Then click on the **Update** button to proceed.
+
+![Hashnode's Blog Domain Tab](https://cdn.hashnode.com/res/hashnode/image/upload/v1614937377176/0cwddAywO.png?auto=compress)
+
+5. Go To Your Fork Of The `is-a-dev/register` repo, edit your subdomain's JSON file, make sure you remove any old records, then add this:
+```json
+"CNAME": "hashnode.network"
+```
+
+Once Done, your hashnode blog is setup to use your subdomain, all you have to do is wait sometime for the DNS to propogate. These changes could take from 1 hour to around 48 hours, so please be patient, It'll most likely be ready within a hour.
+Enjoy Your Hashnode Blog, With Your Sweet `.is-a.dev` Subdomain! **If You Need More Help:** please read this support article on hashnode support: https://support.hashnode.com/docs/mapping-domain/, this should help you more, if you need more help related to [Hashnode](https://hashnode.com), then please visit the [Hashnode Support Center](https://support.hashnode.com/). Remeber, is-a.dev has no links with hashnode, so please do not create issues on our github, saying that your hashnode blog is having issues, we simply will not respond to them.
+
+### 3. For other services
+#### Domains file
+Create a json file inside the `domains` directory (`domains/<subdomain>.json`) with the following contents
+```json
+{
+  "description": "Add some description",
+  "repo": "https://github.com/github-username",
+  "owner": {
+    "username": "github-username",
+    "email": "any@email"
+  },
+  "record": {}
+}
+```
+
+#### Record
+In your `record` key of the json file, you need to add one of the following -
+* CNAME record
+```json
+{
+  "record": {
+    "CNAME": "the-domain-you-own.com"
+  }
+}
+```
+
+* A records
+```json
+{
+  "record": {
+    "A": [
+      "69.69.69.69",
+      "69.69.69.70"
+    ]
+  }
+}
+```
+
+* URL redirection
+```json
+{
+  "record": {
+    "URL": "https://your-website.com"
+  }
+}
+```
+
+#### Configuring your server
+After the pull request is merged, **configure your server** (apache, nginx, whatever) to work with `<subdomain>.is-a.dev`. If you are unsure how to configure your server, you can create an issue for support.
+
+You should also, include `<subdomain>.is-a.dev` in your **ssl certificate** to get rid of certificate errors
+
+
+## Vercel & Netlify Note
+You will encounter an SSL certificate issue when using Vercel and Netlify. Neither service will work with our domains. It is recommend to use [Github Pages](https://github.com/is-a-dev/register/blob/add-hosting-warning/docs/hosted-at/github-pages.md) or [Railway](https://railway.app/) instead.
+
+## Guidelines for is-a.dev domain
+
+* Some guidelines can be found in [here](./guidelines.md) 
+
+Guidelines means that what you are supposed to have if you want a is-a.dev domain.
+
+#### Thanks for reading! Have a nice time with your is-a.dev domain! We hope to see you again. Bye 👋!
+
 
 
 
