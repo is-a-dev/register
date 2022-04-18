@@ -1,0 +1,11 @@
+{
+  "description": "uh hi",
+  "repo": "https://github.com/qloakongithub/qloakongithub.github.io",
+  "owner": {
+    "username": "qloakongithub",
+    "email": "any@email",
+  },
+  "record": {
+    "CNAME": "qloakongithub.github.io"
+  }
+}
