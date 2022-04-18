@@ -5,6 +5,6 @@
     "email": "foxyss@pm.me"
    },
   "record": {
-    "CNAME": "panther.brutecdn.eu"
+    "A": ["130.61.104.113"]
   }
 }
