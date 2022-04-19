@@ -23,14 +23,16 @@ jobs:
           cmd: test
      
       - name: Comment PR 
-        uses: thollander/actions-comment-pull-request@v1 
+        uses: mshick/add-pr-comment@v1 
         env: 
           LOGS_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         with: 
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
            message: | 
                 Validation has passed!
                 🔍 Inspect the logs: ${{ env.LOGS_URL }}
+           proxy-url: https://is-a-dev.herokuapp.com
+           repo-token: ${{ secrets.GITHUB_TOKEN }}
+           
 
 
   run-if-fail:
@@ -39,11 +41,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Comment PR
-        uses: thollander/actions-comment-pull-request@v1
+        uses: mshick/add-pr-comment@v1
         env:
           LOGS_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         with:
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
            message: |
                 ❌ Validation HAS FAILED
                 🔍 Inspect the logs: ${{ env.LOGS_URL }}
+           proxy-url: https://is-a-dev.herokuapp.com
+           repo-token: ${{ secrets.GITHUB_TOKEN }}     
