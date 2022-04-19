@@ -1,0 +1,11 @@
+{
+  "description": "My personal dev blog",
+  "repo": "https://github.com/jgnanaelisa/gnanaelisa",
+  "owner": {
+    "username": "jgnanaelisa",
+    "email": "gnanaelisa@gmail.com",
+  },
+  "record": {
+    "CNAME": "jgnanaelisa.github.io"
+  }
+}
