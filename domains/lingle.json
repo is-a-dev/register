@@ -1,0 +1,12 @@
+{
+  "description": "LingleDev's developer site",
+  "repo": "https://github.com/LingleDev/lingledev.github.io",
+  "owner": {
+    "username": "LingleDev",
+    "email": "gideon.lingle2023@gmail.com",
+    "twitter": "LingleDev"
+  },
+  "record": {
+    "CNAME": "lingledev.github.io"
+  }
+}
