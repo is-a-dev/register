@@ -36,8 +36,7 @@ You should also checkout -
 
 
 ## Uptime
-![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787472645-ec25e3920c7af893a7c66f19?label=uptime%20-%20dns&style=for-the-badge)
-![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787472617-240f4d61a5439a87becb2cf9?label=uptime%20-%20redirections&style=for-the-badge)
+![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787472645-ec25e3920c7af893a7c66f19?label=uptime%20-%20dns&style=for-the-badge) ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787472617-240f4d61a5439a87becb2cf9?label=uptime%20-%20redirections&style=for-the-badge)
 
 You can check the uptime of the service via [our status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw)
 
