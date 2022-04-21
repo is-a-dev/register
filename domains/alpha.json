@@ -2,8 +2,9 @@
 "repo": "https://github.com/YouFoundAlpha/youfoundalpha.github.io",
   "owner": {
     "username": "YouFoundAlpha",
-    "email": "youfoundalpha+github@gmail.com",
-    "twitter": "YouFoundAlpha"
+    "email": "",
+    "twitter": "YouFoundAlpha",
+    "discord": "YouFoundAlpha#5372"
   },
   "record": {
     "CNAME": "youfoundalpha.github.io"
