@@ -1,4 +1,6 @@
 {
+  "description": "Mainly just claiming this subdomain. Redirects to my personal website.",
+
   "owner": {
     "username": "WilliamDavidHarrison",
     "email": "",
@@ -7,6 +9,6 @@
   },
   
   "record": {
-    "CNAME": "is-a-dev.redirect.williamharrison.xyz"
+    "URL": "http://is-a-dev.redirect.williamharrison.xyz"
   }
 }
