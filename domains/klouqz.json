@@ -1,0 +1,11 @@
+{
+  "description": "Klouqz Website's",
+  "repo": "https://github.com/klouqzcreative/klouqz.github.io",
+  "owner": {
+    "username": "klouqzcreative",
+    "email": "klouqz@gmail.com"
+  },
+  "record": {
+    "CNAME": "klouqz.github.io"
+  }
+}
