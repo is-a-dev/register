@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "demonitize",
+    "email": "",
+    "twitter": "demonitized_boi"
+  },
+  "description":"Probably will use this to redir to GitHub, because custom domain look cool",
+  "repo":"github.com/demonitize",
+  "record":{
+     "redirect": "github.com/demonitize",
+     "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  }
+}
