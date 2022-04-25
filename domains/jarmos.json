@@ -1,0 +1,11 @@
+{
+  "description": "A personal blog which is hosted on Medium temporarily.",
+  "repo": "https://github.com/Jarmos-san/blog",
+  "owner": {
+    "username": "Jarmos-san",
+    "email": "somraj.mle@gmail.com"
+  },
+  "record": {
+    "CNAME": "jarmos.medium.com"
+  }
+}
