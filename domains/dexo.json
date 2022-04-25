@@ -1,12 +1,15 @@
 {
-  "description": "DeXo's personal website",
-  "repo": "https://github.com/dexohigh",
-  "owner": {
-    "username": "DeXo",
-    "email": "dexo1337@pm.me",
-    "discord": "DeXo#1337"
-  },
-  "record": {
-    "CNAME": "dexodev.cf"
-  }
+    "description": "Ce cauti ma aici?",
+    "owner": {
+        "username": "DeXo",
+        "email": "dexocash@gmail.com"
+    },
+    "record": {
+        "A": "185.141.25.116"
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
 }
