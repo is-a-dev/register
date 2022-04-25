@@ -1,5 +1,5 @@
 {
-  "description": "Mainly just claiming this subdomain. Redirects to my personal website.",
+  "description": "Redirects to my GitHub profile.",
 
   "owner": {
     "username": "WilliamDavidHarrison",
@@ -9,6 +9,6 @@
   },
   
   "record": {
-    "URL": "http://is-a-dev.redirect.williamharrison.xyz"
+    "URL": "https://github.com/WilliamDavidHarrison"
   }
 }
