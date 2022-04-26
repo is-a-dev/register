@@ -9,7 +9,7 @@
   "description":"Probably will use this to redirect to GitHub, because custom domain look cool",
   "repo":"github.com/demonitize",
   "record":{
-     "redirect": "github.com/demonitize",
+     "URL": "github.com/demonitize",
      "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
