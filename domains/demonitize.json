@@ -2,9 +2,10 @@
   "owner": {
     "username": "demonitize",
     "email": "",
-    "twitter": "demonitized_boi"
+    "twitter": "demonitized_boi",
+    "twitch": "demonitized_boi"
   },
-  "description":"Probably will use this to redir to GitHub, because custom domain look cool",
+  "description":"Probably will use this to redirect to GitHub, because custom domain look cool",
   "repo":"github.com/demonitize",
   "record":{
      "redirect": "github.com/demonitize",
