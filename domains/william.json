@@ -1,6 +1,4 @@
 {
-  "description": "Redirects to my GitHub profile.",
-
   "owner": {
     "username": "WilliamDavidHarrison",
     "email": "",
@@ -9,6 +7,8 @@
   },
   
   "record": {
-    "CNAME": "is-a-dev.redirect.williamharrison.xyz"
+    "URL": "http://is-a-dev.redirect.williamharrison.xyz",
+    
+    "TXT": "MS=ms59168314"
   }
 }
