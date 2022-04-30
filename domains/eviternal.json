@@ -5,7 +5,7 @@
     "discord": "Vaibhav Kashyap#5747"
   },
   "record": {
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com", "mx.bump.email", "mx2.bump.email"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
