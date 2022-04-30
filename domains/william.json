@@ -9,6 +9,11 @@
   "record": {
     "URL": "http://is-a-dev.redirect.williamharrison.xyz",
     
-    "TXT": "MS=ms59168314"
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
