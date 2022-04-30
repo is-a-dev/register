@@ -1,0 +1,11 @@
+{
+  "description": "Oha's Link Page",
+  "repo": "https://github.com/Oha_Der_Erste",
+  "owner": {
+    "username": "Oha_Der_Erste",
+    "email": "oha@ohaa.xyz"
+  },
+  "record": {
+    "CNAME": "ohacraft.duckdns.org"
+  }
+}
