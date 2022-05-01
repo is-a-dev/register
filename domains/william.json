@@ -1,4 +1,5 @@
 {
+  "description": "",  
   "repo": "https://github.com/WilliamDavidHarrison/WilliamDavidHarrison.github.io",
 
   "owner": {
@@ -9,7 +10,7 @@
   },
   
   "record": {
-    "CNAME": "williamdavidharrison.github.io",
+    "CNAME": "williamdavidharrison.github.io"
     
     "MX": [
       "mx1.improvmx.com",
