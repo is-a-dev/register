@@ -7,6 +7,10 @@
   },
   
   "record": {
-    "CNAME": "WilliamDavidHarrison.github.io"
+    "CNAME": "WilliamDavidHarrison.github.io",
+    
+    "MX": "william-isa-dev02e.mail.protection.outlook.com",
+    
+    "TXT": "v=spf1 include:spf.protection.outlook.com -all"
   }
 }
