@@ -1,0 +1,20 @@
+{
+  "description": "Ishan Avasthi",
+  "repo": "https://github.com/avasthi-git/avasthi-git.github.io",
+  "owner": {
+    "username": "avasthi-git",
+    "email": "",
+    "twitter": "heyavasthi"
+  },
+  "record": {
+    "URL": "https://avasthi-git.github.io",
+    "TXT": "zoho-verification=zb37665152.zmverify.zoho.in",
+    "MX": [
+      "mx1.zoho.in",
+      "mx2.zoho.in",
+      "mx3.zoho.in"
+    ],
+    "SPF": "v=spf1 include:zoho.in -all"
+  },
+  
+}
