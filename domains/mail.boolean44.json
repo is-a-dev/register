@@ -5,7 +5,7 @@
     "email": "serenitypalmer10@gmail.com"
   },
   "record": {
-    "MX": ["mx1.hanami.run", "mx2.hanami.run"],
-    "TXT": "v=spf1 include:spf.hanami.run include:spf.improvmx.com ~all"
+    "MX": ["mrocky.smtp-in.mailway.app", "	peter.smtp-in.mailway.app"],
+    "TXT": "v=spf1 include:mailway.app ~all"
   }
 }
