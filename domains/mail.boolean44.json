@@ -5,7 +5,7 @@
     "email": "serenitypalmer10@gmail.com"
   },
   "record": {
-    "MX": ["rocky.smtp-in.mailway.app", "	peter.smtp-in.mailway.app"],
+    "MX": ["rocky.smtp-in.mailway.app", "peter.smtp-in.mailway.app"],
     "TXT": "v=spf1 include:mailway.app ~all"
     
   }
