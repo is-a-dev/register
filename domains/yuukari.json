@@ -1,0 +1,12 @@
+{
+    "description": "My dev homepage, which I have publish info about me, pet/commercial projects, etc.",
+    "repo": "https://github.com/Yuukari/yuukari.github.io",
+    "owner": {
+        "username": "Yuukari",
+        "email": "yuukarichan@yandex.com",
+        "telegram": "@iamyuukari"
+    },
+    "record": {
+        "CNAME": "yuukari.github.io"
+    }
+}

@@ -4,7 +4,6 @@ const qs = require('qs');
 const { DOMAIN_API_HOST, DOMAIN_API_PORT, DOMAIN_USER, DOMAIN_API_KEY, DOMAIN_DOMAIN } = require('../constants');
 
 const CpanelClient = (options) => {
-  // TODO: Make defaultQuery functional
   const api = ({ basePath = '', action = '' }) => (module, func, defaultQuery = {}) => (q = {}) => {
     const query = {
       ...defaultQuery,
@@ -36,7 +35,7 @@ const CpanelClient = (options) => {
   return {
     zone: {
       // { customonly, domain }
-      //     -> { cpanelresult: { data[{ class, ttl, name, line, Line, cname, type, record }] } }
+      //     -> [{ class, ttl, name, line, Line, cname, type, record }]
       fetch: R.compose(
         p => p.then(R.pathOr([], ['cpanelresult', 'data'])),
         api2('ZoneEdit', 'fetchzone_records', { customonly: 1, domain: options.domain })
@@ -45,13 +44,14 @@ const CpanelClient = (options) => {
       // { name, type(A|CNAME), cname, address, ttl }
       //     -> {}
       add: api2('ZoneEdit', 'add_zone_record', { domain: options.domain }),
+
       // { line }
       //     -> {}
       remove: api2('ZoneEdit', 'remove_zone_record', { domain: options.domain }),
     },
     redirection: {
       // {}
-      //     -> { domain, destination }
+      //     -> [{ domain, destination }]
       fetch: R.compose(
         p => p.then(R.pathOr([], ['data'])),
         uapi('Mime', 'list_redirects'),
@@ -60,12 +60,22 @@ const CpanelClient = (options) => {
       // { domain, redirect, type(permanent|tmp), redirect_wildcard(0|1), redirect(0|1|2) }
       //     -> {}
       add: uapi('Mime', 'add_redirect'),
+
       // { domain }
       //     -> {}
       remove: uapi('Mime', 'delete_redirect'),
     },
     file: {
       write: uapi('Fileman', 'save_file_content', { from_charset: 'UTF-8', to_charset: 'UTF-8', fallback: 1 }),
+    },
+    email: {
+      // { domain, exchanger, priority }
+      //     -> {}
+      add: uapi('Email', 'add_mx', { alwaysaccept: 'auto' }),
+
+      // { domain, exchanger, priority }
+      //     -> {}
+      remove: uapi('Email', 'delete_mx', { alwaysaccept: 'auto' }),
     },
   };
 };

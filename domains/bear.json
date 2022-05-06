@@ -1,0 +1,11 @@
+{
+  "description": "Bear's Portfolio Website",
+  "repo": "https://github.com/bearts/PortFolio",
+  "owner": {
+    "username": "bearts",
+    "email": "bearjs@protonmail.com"
+  },
+  "record": {
+    "CNAME": "bearts.github.io"
+  }
+}

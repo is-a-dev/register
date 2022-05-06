@@ -1,0 +1,11 @@
+{
+  "description": "Rie's Website",
+  "repo": "https://github.com/meguminsama",
+  "owner": {
+    "username": "MeguminSama",
+    "email": "megumin@megu.dev"
+  },
+  "record": {
+    "CNAME": "cname-dev.megu.dev"
+  }
+}

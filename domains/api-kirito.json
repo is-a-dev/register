@@ -1,0 +1,11 @@
+{
+  "description": "For My API!",
+  "repo": "https://github.com/ThisMe124",
+  "owner": {
+    "username": "ThisMe124",
+    "email": "anonymous.orgn@gmail.com"
+  },
+    "record": {
+    "CNAME": "only-devs-production.up.railway.app"
+  }
+}

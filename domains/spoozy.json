@@ -1,0 +1,11 @@
+{
+  "description": "Spoozy website",
+  "repo": "https://github.com/Spoozy/Spoozy.github.io",
+  "owner": {
+    "username": "Spoozy",
+    "email": "gaspardlebreton@outlook.com"
+  },
+  "record": {
+    "CNAME": "Spoozy.github.io"
+  }
+}

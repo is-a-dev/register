@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "Git-Jaydeep",
+    "email": "anij9825@gmail.com"
+  },
+  "record": {
+    "A": [
+      "185.199.108.153",
+      "185.199.110.153",
+      "185.199.111.153",
+      "185.199.109.153"
+    ],
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCGE+Lwz3CNz5phqvcXE9pxcnC0xIjqXVQyF+5sATF77/0+H0rvcb1rz6C+FM7L4izD2KwLXGPKB7LfSqAhGNoH02xbv8oc9BFECFzcSAmu04JjLWwhIyX2R7f7D+OG9Nvyjpqc4b9dTZUOEjSfK4Ps7pvkDNmKpbsOIL61tf97PwIDAQAB",
+    "MX": [
+      "mx.zoho.in",
+      "mx2.zoho.in",
+      "mx3.zoho.in"
+    ]
+  }
+}

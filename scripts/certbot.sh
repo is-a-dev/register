@@ -32,16 +32,28 @@ update_record() {
   echo "
     const { domainService } = require('./utils/domain-service');
     const { ENV, DOMAIN_DOMAIN } = require('./utils/constants');
-    const record = {
-      name: '$name',
-      type: '$type',
-      address: '$address',
-      ttl: $ttl,
-    };
-    console.log('Uploading $name to', DOMAIN_DOMAIN, '(', ENV, ')...');
-    domainService.$method(record)()
-      .then(d => console.log(d.cpanelresult ? d.cpanelresult.data : d))
-      .catch(console.error);
+    const method = '$method';
+    const name = '$name';
+    const type = '$type';
+
+    const record = { name, type, address: '$address', ttl: $ttl };
+
+    async function main() {
+      if (method === 'removeZoneRecord') {
+        const data = await domainService.get({ customonly: 0, name: '$name.is-a.dev.', type });
+        if (data.length > 0) {
+          record.id = data[0].line;
+        } else {
+          throw new Error('Unable to find record');
+        }
+      }
+
+      console.log('Uploading $name to', DOMAIN_DOMAIN, '(', ENV, ')...');
+      const data = await domainService[method](record)();
+      console.log(data.cpanelresult ? data.cpanelresult.data : data);
+    }
+
+    main().catch(console.error);
   " | node -
 }
 
@@ -77,6 +89,7 @@ reset_acme() {
   update_record remove A 'www' "68.65.123.44";
   sleep 1;
   update_record add CNAME 'www' "is-a-dev.github.io";
+  update_record remove TXT '_acme-challenge' '';
 }
 
 case "$1" in
@@ -97,6 +110,7 @@ esac
 # Run ./scripts/certbot.sh acme_txt "<key>"
 # Run ./scripts/certbot.sh acme_file "<key>" "<value>"
 # Run ./scripts/certbot.sh config_www
-# Upload cert.pem and privkey.pem contents to SSL > Manage SSL Sites
+# cp -r /tmp/is-a-dev-whatever /tmp/is-a-dev-cert (not sure if needed but the directory disappeared once)
+# Upload cert.pem and privkey.pem (from config/live/is-a.dev/) contents to SSL > Manage SSL Sites
 # Run ./scripts/certbot.sh reset
 

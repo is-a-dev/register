@@ -1,0 +1,11 @@
+{
+  "description": "Hashnode Blog",
+  "repo": "https://github.com/ductoanvo",
+  "owner": {
+    "username": "ductoanvo",
+    "email": "toan@duck.com"
+  },
+  "record": {
+    "CNAME": "hashnode.network"
+  }
+}

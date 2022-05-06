@@ -4,6 +4,9 @@ To register `my-domain.is-a.dev`, you need to create a `domains/my-domain.json` 
 
 ### Filename
 The file name must pass the following criteria -
+
+> NOTE: You can use `.` (dots) in your file name (for registering `blog.mysubdomain.is-a.dev`) but each of the following criteria must be valid for all part of your subdomain
+
 * Must be alpha-numeric in lowercase with dashes as seperators
 * Must be more than 2 characters long
 * Must have a `.json` file extension
@@ -21,18 +24,18 @@ In the owner object, the fields `username` and `email` are required. You can how
   "owner": {
     "username": "github-username",
     "email": "any@email"
-  },
+  }
 }
 ```
 
-If you don't wish to share your email address here, please share your twitter or any other social media account.
+If you don't wish to share your email address here, please share your twitter, discord or any other social media account.
 ```json
 {
   "owner": {
     "username": "github-username",
     "email": "",
     "twitter": "twitter-handle"
-  },
+  }
 }
 ```
 
@@ -46,14 +49,14 @@ This is a link to your website repository or your github account. This is purely
 
 
 ### record (required)
-This is where you specify how you want to link to your server/webpage.
+This is where you specify the DNS records you wish to use.
 
-Currently, only `CNAME`, `A`, `URL` record types are supported.
+The supported record types are: `CNAME`, `A`, `URL`, `MX` and `TXT`
 
 Here's a few different use cases for the given record types -
 
 * **CNAME**
-CNAME must be a host name (Eg - `something.tld`)
+CNAME must be a host name (Eg - `something.tld`). CNAME cannot be used in conjunction with any other record types.
 ```json
 {
   "record": {
@@ -86,3 +89,25 @@ A record must be a list of ips
 }
 ```
 
+* **MX**
+MX must be a list of host names
+```json
+{
+  "record": {
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  }
+}
+```
+
+* **TXT**
+TXT can be any string value. **You can only have 1 TXT record.**
+```json
+{
+  "record": {
+    "TXT": "hello world"
+  }
+}
+```

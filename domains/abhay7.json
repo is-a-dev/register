@@ -1,12 +1,17 @@
 {
-  "description": "Abhay's portflio site",
-  "repo": "https://replit.com/@EpicGamer007/EpicGamer007",
+  "description": "Abhay's portfolio site",
+  "repo": "https://github.com/EpicGamer007/portfolio-site",
   "owner": {
     "username": "EpicGamer007",
     "email": "",
     "discord": "EpicGamer007#5702"
   },
   "record": {
-    "CNAME": "26ece53e-5ca7-40d2-a7ad-cc13eb22808d.id.repl.co"
+    "URL": "https://abhay.runs-on.tech",
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
+    "TXT": "forward-email=contact:forwardemail.nwyxt@aleeas.com,from:forwardemail.nwyxt@aleeas.com"
   }
 }

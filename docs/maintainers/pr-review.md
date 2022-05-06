@@ -13,7 +13,7 @@ If the CI is failing, tag the user and comment on the pr.
 ---
 
 ### Contents of the website
-We need to make sure that the contents being hosted via the record being registered is used for malicious purposes.
+We need to make sure that the contents being hosted via the record being registered is not used for malicious purposes.
 To do this, we must try our best to verify the contents of website and if required ask some questions regarding the contents in the PR.
 
 ---

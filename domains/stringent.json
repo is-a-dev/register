@@ -1,0 +1,11 @@
+{
+  "description": "My Blog/Portfolio",
+  "repo": "https://github.com/StringentDev/StringentDev",
+  "owner": {
+    "username": "StringentDev",
+    "email": "stringentdev@hotmail.com"
+  },
+  "record": {
+    "CNAME": "stringentdev-production.up.railway.app"
+  }
+}
