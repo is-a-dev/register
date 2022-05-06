@@ -1,0 +1,16 @@
+{
+  "description": "Yes I am a developer",
+  "repo": "https://github.com/hironichu",
+  "owner": {
+    "username": "hironichu",
+    "email": "hironichu@gmail.com"
+  },
+  "record": {
+    "A": [
+      "34.120.54.55"
+    ],
+    "TXT": [
+      "deno-com-validation=f1b7200ba5f97a80db0aaa12"
+    ]
+  }
+}

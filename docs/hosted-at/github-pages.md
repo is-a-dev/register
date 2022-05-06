@@ -17,7 +17,7 @@ Create a json file inside the `domains` directory (`domains/<subdomain>.json`) w
     "twitter": "your-twitter-username"
   },
   "record": {
-    "CNAME": "github-username.github.io"
+    "CNAME": "<replace-this-with-your-github-username>.github.io"
   }
 }
 ```

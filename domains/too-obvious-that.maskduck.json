@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "MaskDuck",
+    "email": "",
+    "discord": "MaskDuck#1337",
+    "twitter": "MaskDuck1",
+    "reddit": "u/maskduck",
+    "note": "My Discord discriminator sometimes is not 1337 and sometimes I will change it. If you want to find me on Discord, my ID is 716134528409665586."
+  },
+  "record": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Semant's Website",
+  "repo": "https://github.com/bad-boy-codes/bad-boy-codes.github.io",
+  "owner": {
+    "username": "bad-boy-codes",
+    "email": "sonupanda078@gmail.com",
+    "discord": "Bad Boy Plays#9608",
+    "note": "My Discord ID is 445073800850046977."
+  },
+  "record": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "description": "Link to my website",
+  "repo": "https://github.com/samriddha-basu-cloud/CV",
+  "owner": {
+    "username": "samriddha-basu-cloud",
+    "email": "sb2899@srmist.edu.in",
+    "twitter": "https://twitter.com/BasuSamriddha"
+  },
+  "record": {
+    "CNAME": "samriddha-basu-cloud.github.io"
+  }
+}

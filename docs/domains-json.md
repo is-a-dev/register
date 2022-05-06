@@ -4,6 +4,9 @@ To register `my-domain.is-a.dev`, you need to create a `domains/my-domain.json` 
 
 ### Filename
 The file name must pass the following criteria -
+
+> NOTE: You can use `.` (dots) in your file name (for registering `blog.mysubdomain.is-a.dev`) but each of the following criteria must be valid for all part of your subdomain
+
 * Must be alpha-numeric in lowercase with dashes as seperators
 * Must be more than 2 characters long
 * Must have a `.json` file extension
@@ -25,7 +28,7 @@ In the owner object, the fields `username` and `email` are required. You can how
 }
 ```
 
-If you don't wish to share your email address here, please share your twitter or any other social media account.
+If you don't wish to share your email address here, please share your twitter, discord or any other social media account.
 ```json
 {
   "owner": {
@@ -100,7 +103,7 @@ MX must be a list of host names
 ```
 
 * **TXT**
-TXT can be any string value
+TXT can be any string value. **You can only have 1 TXT record.**
 ```json
 {
   "record": {
