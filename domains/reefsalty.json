@@ -1,6 +1,6 @@
 {
   "description": "ReefSalty",
-  "repo": "https://github.com/github-username/github-username.github.io",
+  "repo": "https://github.com/github-username/reefsalty.github.io",
   "owner": {
     "username": "ReefSalty",
     "email": "hi@reefsalty.co.uk",
@@ -8,5 +8,9 @@
   },
   "record": {
     "CNAME": "ReefSalty.github.io"
+    "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
   }
 }
