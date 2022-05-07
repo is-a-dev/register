@@ -1,11 +1,11 @@
 {
-  "description": "Molai",
-  "repo": "https://github.com/",
+  "description": "Official Is A Dev API",
+  "repo": "https://github.com/MaskDuck/is-a-dev-api",
   "owner": {
-    "username": "Mahir",
+    "username": "Mahir & Duck",
     "email": "mahir@molai.dev"
   },
   "record": {
-    "URL": "https://molai.dev"
+    "CNAME": "is-a-dev-api-production.up.railway.app"
   }
 }
