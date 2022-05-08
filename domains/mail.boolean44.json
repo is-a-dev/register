@@ -7,7 +7,7 @@
   "record": {
     "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
     "A": [
-        10.0.0.1 
+        1.9.9.9
     ]
   }
 }
