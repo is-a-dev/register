@@ -7,7 +7,7 @@
       "email": ""
     },
     "record": {
-      "URL": "https://riskymh.github.io"
+      "URL": "https://riskymh.github.io",
+      "MX": ["rocky.smtp-in.mailway.app", "peter.smtp-in.mailway.app"]
     }
-  }
-  
+}
