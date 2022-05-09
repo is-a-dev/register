@@ -1,0 +1,12 @@
+{
+    "description": "API For My Projects!",
+    "repo": "https://github.com/icancodebeauty/api",
+    "owner": {
+        "username": "icancodebeauty",
+        "email": "aditya@mail.aditya.is-a.dev",
+        "twitter": "@CodeWithAadi"
+    },
+    "record": {
+        "CNAME": "icancodebeauty.github.io"
+    }
+}
