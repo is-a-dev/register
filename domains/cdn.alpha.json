@@ -1,0 +1,12 @@
+{
+"repo": "https://github.com/YouFoundAlpha/cdn",
+  "owner": {
+    "username": "YouFoundAlpha",
+    "email": "",
+    "twitter": "YouFoundAlpha",
+    "discord": "YouFoundAlpha#5372"
+  },
+  "record": {
+"CNAME": "https://alpha.is-a.dev/cdn/"
+  }
+}
