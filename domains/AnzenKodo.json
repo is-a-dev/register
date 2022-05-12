@@ -1,0 +1,12 @@
+{
+  "description": "Portfolio website of AnzenKodo",
+  "repo": "https://github.com/AnzenKodo/AnzenKodo",
+  "owner": {
+    "username": "AnzenKodo",
+    "email": "AnzenKodo@altmails.com",
+    "twitter": "AnzenKodo"
+  },
+  "record": {
+    "CNAME": "https://anzenkodo.github.io/AnzenKodo"
+  }
+}
