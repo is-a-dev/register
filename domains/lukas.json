@@ -1,0 +1,11 @@
+{
+  "repo": "https://gitlab.com/LukasDoesDev/lukasdoesdev.gitlab.io",
+  "owner": {
+    "username": "LukasDoesDev",
+    "email": "lukasdoesdev@gmail.com"
+  },
+  "record": {
+    "CNAME": "LukasDoesDev.gitlab.io.",
+    "TXT": "gitlab-pages-verification-code=cb72a54a013d52dba2399a6394370645"
+  }
+}
