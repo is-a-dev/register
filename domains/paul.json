@@ -1,13 +1,11 @@
 {
 	"description": "My Personal Landing Page!",
-	"repo": "https://github.com/KASKUSTTV",
+	"repo": "https://github.com/NotKaskus",
 	"owner": {
-		"username": "KASKUSTTV",
+		"username": "NotKaskus",
 		"email": "kaskus45@protonmail.com"
 	},
 	"record": {
-		"A": [
-			"164.132.74.251"
-		]
+		"CNAME": "notkaskus.github.io"
 	}
 }

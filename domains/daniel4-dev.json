@@ -5,6 +5,8 @@
     "email": "llama552621@gmail.com"
   },
   "record": {
-    "CNAME": "daniel4-scratch.gamejolt.io"
+    "A": [
+      "52.54.56.45"
+    ]
   }
 }
