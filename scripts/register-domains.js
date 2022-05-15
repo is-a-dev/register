@@ -15,25 +15,23 @@ const toHostList = R.chain(data => {
   // URL redirection must contain explicit A record
   // Wildcard A record breaks when used with MX
   // Ref: https://github.com/is-a-dev/register/issues/2365
-  if (data.record.URL) {
+  if (data.record.URL && data.record.MX) {
     data.record.A = [ DOMAIN_HOST_IP ]
   }
 
-  return R.pipe(
-    data.record,
-    getRecords,
-    R.chain(([recordType, values]) => {
-      const valueList = Array.isArray(values) ? values : [values];
+  const records = getRecords(data.record);
 
-      return valueList.map((value, index) => ({
-        name: data.name,
-        type: recordType,
-        address: address(recordType, value),
-        ttl: TTL,
-        ...(recordType === 'MX' ? { priority: index + 20 } : {})
-      }))
-    }),
-  );
+  return R.chain(([recordType, values]) => {
+    const valueList = Array.isArray(values) ? values : [values];
+
+    return valueList.map((value, index) => ({
+      name: data.name,
+      type: recordType,
+      address: address(recordType, value),
+      ttl: TTL,
+      ...(recordType === 'MX' ? { priority: index + 20 } : {})
+    }))
+  }, records)
 });
 
 const registerDomains = async ({ domainService, getDomains, log = () => { } }) => {
