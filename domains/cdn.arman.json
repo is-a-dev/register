@@ -1,0 +1,10 @@
+{
+  "description": "Arman's content delivery network",
+  "owner": {
+    "username": "ItzArman09",
+    "email": "contact@mail.arman.is-a.dev"
+  },
+  "record": {
+    "CNAME": "23f4d8ed-6b28-4e13-a9e9-bd913bbb2040.id.repl.co"
+  }
+}
