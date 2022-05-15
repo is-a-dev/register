@@ -1,29 +1,37 @@
 const R = require('ramda');
-const { VALID_RECORD_TYPES, TTL, ENV } = require('../utils/constants');
+const { VALID_RECORD_TYPES, DOMAIN_HOST_IP, TTL, ENV } = require('../utils/constants');
 const { domainService: dc } = require('../utils/domain-service');
 const { getDomains: gd } = require('../utils/get-domain');
 
-// Allow TXT records while publishing (for pcl validation)
 const getRecords = R.compose(R.toPairs, R.pick(VALID_RECORD_TYPES));
 
-const address = (type, url) => {
-  if ('URL' === type) return `${url}`.replace(/\/$/g, '');
-  if ('TXT' === type) return url;
-  return (type === 'CNAME' ? `${url}`.toLowerCase() : `${url}`).replace(/[/.]$/g, '');
+const address = (type, value) => {
+  if ('URL' === type) return `${value}`.replace(/\/$/g, '');
+  if ('TXT' === type) return value;
+  return (type === 'CNAME' ? `${value}`.toLowerCase() : `${value}`).replace(/[/.]$/g, '');
 };
 
 const toHostList = R.chain(data => {
-  const rs = getRecords(data.record);
+  // URL redirection must contain explicit A record
+  // Wildcard A record breaks when used with MX
+  // Ref: https://github.com/is-a-dev/register/issues/2365
+  if (data.record.URL && data.record.MX) {
+    data.record.A = [ DOMAIN_HOST_IP ]
+  }
 
-  return R.chain(([recordType, urls]) =>
-    (Array.isArray(urls) ? urls : [urls]).map((url, index) => ({
+  const records = getRecords(data.record);
+
+  return R.chain(([recordType, values]) => {
+    const valueList = Array.isArray(values) ? values : [values];
+
+    return valueList.map((value, index) => ({
       name: data.name,
       type: recordType,
-      address: address(recordType, url),
+      address: address(recordType, value),
       ttl: TTL,
       ...(recordType === 'MX' ? { priority: index + 20 } : {})
     }))
-  , rs);
+  }, records)
 });
 
 const registerDomains = async ({ domainService, getDomains, log = () => { } }) => {
