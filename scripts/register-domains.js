@@ -6,6 +6,12 @@ const { getDomains: gd } = require('../utils/get-domain');
 // Allow TXT records while publishing (for pcl validation)
 const getRecords = R.compose(R.toPairs, R.pick(VALID_RECORD_TYPES));
 
+const address = (type, url) => {
+  if ('URL' === type) return `${url}`.replace(/\/$/g, '');
+  if ('TXT' === type) return url;
+  return (type === 'CNAME' ? `${url}`.toLowerCase() : `${url}`).replace(/[/.]$/g, '');
+};
+
 const toHostList = R.chain(data => {
   const rs = getRecords(data.record);
 
@@ -13,7 +19,7 @@ const toHostList = R.chain(data => {
     (Array.isArray(urls) ? urls : [urls]).map((url, index) => ({
       name: data.name,
       type: recordType,
-      address: (recordType === 'CNAME' ? `${url}`.toLowerCase() : `${url}`).replace(/\/$/g, ''),
+      address: address(recordType, url),
       ttl: TTL,
       ...(recordType === 'MX' ? { priority: index + 20 } : {})
     }))
