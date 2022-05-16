@@ -7,6 +7,13 @@
   },
 
   "record": {
-    "URL": "https://williamharrison.dev"
+    "URL": "https://williamharrison.dev",
+    
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
