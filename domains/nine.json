@@ -2,7 +2,9 @@
   "description": "A passionate Back and Front-end Developer 🚀 Having An Experience Of Building Web And Discord Bots With JavaScript / HTML / CSS / Nodejs / Python And Some Other Cool Libraries And Frameworks.",
   "repo": "https://github.com/ninelel",
   "record": {
-    "CNAME": "revproxy-us.bloom.host",
+    "A": [
+      "23.185.16.239"
+    ],
     "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
