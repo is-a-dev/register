@@ -8,6 +8,8 @@
     "email": "sx-91@outlook.com"
   },
   "record": { 
-    "CNAME": "20919506-c6ad-42e9-80a8-a027c160e702.id.repl.co"
+    "A": [ 
+      "164.132.74.251" 
+    ]
   }
 }
