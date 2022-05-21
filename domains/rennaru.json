@@ -1,0 +1,12 @@
+{
+  "description": "My personal website ",
+  "repo": "https://github.com/NotRennaru/NotRennaru.github.io",
+  "owner": {
+    "username": "NotRennaru",
+    "email": "rennaru.fuij@gmail.com",
+    "twitter": "RennaruFuij"
+  },
+  "record": {
+    "CNAME": "NotRennaru.github.io"
+  }
+}
