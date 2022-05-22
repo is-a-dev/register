@@ -1,0 +1,11 @@
+{
+  "description": "idk lol",
+  "repo": "https://github.com/OpenSaned",
+  "owner": {
+    "username": "OpenSaned",
+    "email": "cristonkenneth@gmail.com"
+  },
+  "record": {
+    "CNAME": "opensaned.ml" 
+  }
+}
