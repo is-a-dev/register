@@ -1,1 +1,11 @@
-
+{
+  "description": "The official website of Cooki",
+  "repo": "https://github.com/Cooki-Studios/cooki-studios.github.io",
+  "owner": {
+    "username": "Cooki-Studios",
+    "email": "cookikit@gmail.com",
+  },
+  "record": {
+    "CNAME": "cooki-studios.github.io"
+  }
+}
