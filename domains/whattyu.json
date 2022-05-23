@@ -5,5 +5,7 @@
     "username": "whattyu",
     "email": "dulunatatolga@gmail.com"
   },
-  "record": {}
+  "record": {
+    "CNAME": "whattyu.vercel.app"
+  }
 }
