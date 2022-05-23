@@ -6,6 +6,7 @@
 		"email": "kaskus45@protonmail.com"
 	},
 	"record": {
-		"CNAME": "notkaskus.github.io"
+		"CNAME": "notkaskus.github.io",
+		"TXT": "google-site-verification=YZ8YmTGNOD5SPkGT3Oz90TFKOP1CHNzLdBSxeDSfYVo"
 	}
 }
