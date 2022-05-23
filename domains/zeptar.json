@@ -1,5 +1,6 @@
 {
-  "description": "Protofolio of Zeptar",
+  "description": "Zeptar's Portofolio",
+  "repo": "https://github.com/Zeptar1069/zeptar1069.github.io",
   "owner": {
     "username": "Zeptar1069",
     "email": "terryk.onekorea@gmail.com",
@@ -7,6 +8,6 @@
     "note": "My Discord ID is 893211748767768606"
   },
   "record": {
-    "CNAME": "33bf9973-d930-4997-8245-d6db66f49027.zeptar.repl.co"
+    "CNAME": "zeptar1069.github.io"
   }
 }
