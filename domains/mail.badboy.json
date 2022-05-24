@@ -18,6 +18,7 @@
       "mx1.improvmx.com",
       "mx2.improvmx.com"
     ],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "URL": "https://badboy.is-a.dev/contact"
   }
 }
