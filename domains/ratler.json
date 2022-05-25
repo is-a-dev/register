@@ -1,0 +1,10 @@
+{
+  "description": "ratler is a dev subdomain",
+  "owner": {
+    "username": "ItzArman09",
+    "email": "contact@mail.arman.is-a.dev"
+  },
+  "record": {
+    "A": ["89.106.200.1"]
+  }
+}
