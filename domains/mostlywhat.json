@@ -1,1 +1,10 @@
-
+{
+  "owner": {
+    "username": "MostlyWhat",
+    "discord": "MostlyWhat™#2453"
+  },
+  "description": "MostlyWhat's Website",
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
