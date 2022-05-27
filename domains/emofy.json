@@ -1,0 +1,10 @@
+{
+  "description": "emofy website",
+  "owner": {
+    "username": "abkux",
+    "email": "abku@abku.xyz"
+  },
+  "record": {
+    "CNAME": "abkux.github.io"
+  }
+}
