@@ -1,0 +1,12 @@
+{
+  "description": "",
+  "repo": "https://github.com/mksalada/mksalada.github.io",
+  "owner": {
+    "username": "mksalada",
+    "email": "",
+    "twitter": "tinasalada"
+  },
+  "record": {
+    "CNAME": "mksalada.github.io"
+  }
+}
