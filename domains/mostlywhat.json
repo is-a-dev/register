@@ -1,6 +1,9 @@
 {
+  "description": "MostlyWhat's Personal Website",
+  "repo": "https://github.com/MostlyWhat",
   "owner": {
     "username": "MostlyWhat",
+    "email": "admin@mostlywhat.cf",
     "discord": "MostlyWhat™#2453"
   },
   "description": "MostlyWhat's Website",
