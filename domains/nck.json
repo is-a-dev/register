@@ -1,0 +1,12 @@
+{
+  "description": "nck website",
+  "repo": "https://github.com/nck4/nck4.github.io",
+  "owner": {
+    "username": "nck4",
+    "email": "nick@scanit.gg",
+    "twitter": "ScanitGG"
+  },
+  "record": {
+    "CNAME": "nck4.github.io"
+  }
+}
