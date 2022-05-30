@@ -1,11 +1,11 @@
 {
-  "description": "C10H15N Bot Site",
-  "repo": "https://github.com/catsarecoo/catsarecoo.github.io",
+  "description": "Invites Bot Site",
+  "repo": "https://catsarecoo.github.io/",
   "owner": {
     "username": "catsarecoo",
     "email": "twistedpandora91@gmail.com"
   },
   "record": {
-    "CNAME": "6e744ab9-6761-4262-ae13-19b006c65546.id.repl.co"
+    "CNAME": "catsarecoo.github.io"
   }
 }
