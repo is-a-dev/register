@@ -12,7 +12,7 @@
     "A": ["192.95.42.74"],
     "A": ["15.235.140.225"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
     "TXT": "yandex-verification: 5c26bdc12aad3b52"
   }
 }
