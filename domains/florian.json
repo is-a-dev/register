@@ -1,0 +1,12 @@
+{
+  "description": "Hey! I'm Florian",
+  "repo": "https://github.com/florianheysen/heysen.fr",
+  "owner": {
+    "username": "florianheysen",
+    "email": "",
+    "twitter": "florianheysen"
+  },
+  "record": {
+    "CNAME": "https://personal-nine-eosin.vercel.app/"
+  }
+}
