@@ -1,9 +1,9 @@
 {
   "description": "Personal portfolio written in HTML and JS",
-  "repo": "https://abhint.github.io/",
+  "repo": "https://github.com/abhint/abhint.github.io",
   "owner": {
     "username": "abhint",
-    "email": ""
+    "email": "https://twitter.com/abhint6"
   },
   "record": {
     "CNAME": "abhint.github.io"
