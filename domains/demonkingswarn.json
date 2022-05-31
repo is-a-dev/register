@@ -6,7 +6,6 @@
     "email": "demonkingswarn@protonmail.com"
   },
   "record": {
-    "A": ["3.110.8.133"],
-    //"CNAME": "demonkingswarn.github.io"
+    "A": ["3.110.8.133"]
   }
 }
