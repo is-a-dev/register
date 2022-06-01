@@ -3,10 +3,10 @@
   "repo": "https://github.com/florianheysen/heysen.fr",
   "owner": {
     "username": "florianheysen",
-    "email": "",
+    "email": "florian.heysen@gmail.com",
     "twitter": "florianheysen"
   },
   "record": {
-    "CNAME": "https://personal-nine-eosin.vercel.app/"
+    "CNAME": "heysen.fr"
   }
 }
