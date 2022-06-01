@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "MouseMoosz",
+    "email": "mousemoosz@protonmail.com"
+  },
+  "description": "Documentation website for is-a-dev/register",
+  "repo": "MouseMoosz/is-a-dev-docs",
+  "record" {
+    "CNAME": "mousemoosz.github.io"
+  }
+}
