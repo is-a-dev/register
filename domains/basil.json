@@ -1,0 +1,12 @@
+{
+  "description": "Basils' website",
+  "repo": "https://github.com/LowSpecCorgi/LowSpecCorgi.github.io",
+  "owner": {
+    "username": "LowSpecCorgi",
+    "email": "haroldthesenpai@gmail.com",
+    "twitter": "basilicous"
+  },
+  "record": {
+    "CNAME": "LowSpeCorgi.github.io"
+  }
+}

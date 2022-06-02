@@ -1,0 +1,11 @@
+{
+  "description": "Link to my website site.",
+  "repo": "https://github.com/xHyroM/xHyroM/tree/master/web",
+  "owner": {
+    "username": "xHyroM",
+    "email": "generalkubo@gmail.com"
+  },
+  "record": {
+    "CNAME": "hyro.pages.dev"
+  }
+}

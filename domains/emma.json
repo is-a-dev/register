@@ -1,0 +1,11 @@
+{
+  "description": "Emmaffle's Site - memorable redirect",
+  "repo": "https://github.com/wafflecoffee/waffle.coffee",
+  "owner": {
+    "username": "wafflecoffee",
+    "email": "emma@waffle.coffee"
+  },
+  "record": {
+    "CNAME": "waffle.coffee"
+  }
+}

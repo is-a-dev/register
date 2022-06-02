@@ -1,7 +1,7 @@
 name: Helper
 
 on:
-  pull_request_target:
+  pull_request:
     types:
       - closed
 
@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Comment
-        if: github.event_name == 'pull_request_target' && github.event.action == 'closed' && github.event.pull_request.merged == true
+        if: github.event.action == 'closed' && github.event.pull_request.merged == true
         uses: actions/github-script@v3
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
@@ -20,4 +20,5 @@ jobs:
             const { hasLabel } = require(`${process.env.GITHUB_WORKSPACE}/scripts/action-utils.js`);
             const { instructions } = require(`${process.env.GITHUB_WORKSPACE}/scripts/reply.js`);
             if (hasLabel(context, 'domain'))
-              await instructions(context, github);
+              console.log('Domain');
+            await instructions(context, github);

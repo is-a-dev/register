@@ -1,0 +1,11 @@
+{
+  "description": "Yourfriend's Introduction",
+  "repo": "https://github.com/yourfriend",
+  "owner": {
+    "username": "yourfriend",
+    "email": "friend@yourfriend.lv"
+  },
+  "record": {
+    "CNAME": "yourfriend.lv"
+  }
+}

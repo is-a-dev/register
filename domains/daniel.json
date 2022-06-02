@@ -1,0 +1,15 @@
+{
+  "description": "Hello! My name is Daniel, I am a developer that has been programming since 2018. This website shows some of the things I have created.",
+  "owner": {
+    "username": "hackermondev",
+    "email": "",
+    "twitter": "hackermondev"
+  },
+  "record": {
+    "A": ["34.120.194.28"],
+
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}

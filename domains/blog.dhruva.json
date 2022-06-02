@@ -1,0 +1,11 @@
+
+{
+  "description": "my hashnode blog",
+  "owner": {
+    "username": "carrotfarmer",
+    "email": "dhruvas17068@gmail.com"
+  },
+  "record": {
+    "CNAME": "hashnode.network"
+  }
+}

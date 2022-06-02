@@ -1,0 +1,11 @@
+{
+  "description": "The Slavic Dev Website",
+  "repo": "https://github.com/SlavicMan/slavicman.github.io",
+  "owner": {
+    "username": "SlavicMan",
+    "email": "kizz4114@yahoo.com"
+  },
+  "record": {
+    "CNAME": "slavicman.github.io"
+  }
+}

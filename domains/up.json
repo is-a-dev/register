@@ -1,0 +1,10 @@
+{
+  "description": "The blog of Up Devs.",
+  "owner": {
+    "username": "alputv",
+    "email": "rekortmenstars@gmail.com"
+  },
+  "record": {
+    "CNAME": "up-devs.github.io"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "lsantana486",
+    "email": "lsantana.486@gmail.com"
+  },
+  "description": "Personal domain for portofolio with my name Luis Santana",
+  "repo": "https://github.com/lsantana486/lsantana486",
+  "record": {
+    "CNAME": "lsantana.dev"
+  }
+}

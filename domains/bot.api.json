@@ -1,0 +1,11 @@
+{
+  "description": "Official Is A Dev bot API",
+  "repo": "https://github.com/mtgsquad/is-a-dev-bot",
+  "owner": {
+    "username": "Mahir",
+    "email": "mahir@molai.dev"
+  },
+  "record": {
+    "CNAME": "is-a-dev-bot-production.up.railway.app"
+  }
+}

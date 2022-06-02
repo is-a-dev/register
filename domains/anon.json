@@ -1,0 +1,11 @@
+{
+  "description": "Anondev's personal profile website",
+  "repo": "https://github.com/anondev-sudo/anondev-sudo",
+  "owner": {
+    "username": "anondev-sudo",
+    "email": "contact@anonym-dev.tk"
+  },
+  "record": {
+    "CNAME": "anondev.up.railway.app"
+  }
+}

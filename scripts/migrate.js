@@ -7,7 +7,7 @@ const migrate = ([file, domain]) => [
   file,
   {
     ...domain,
-    record: /\.is-a\.dev$/.test(domain.record.URL || '')
+    record: file !== '@.json' && /\.is-a\.dev$/.test(domain.record.URL || '')
       ? R.dissoc('URL', domain.record)
       : domain.record,
   }

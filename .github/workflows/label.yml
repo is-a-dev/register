@@ -1,0 +1,13 @@
+name: Label
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Labelling pull request
+        uses: actions/labeler@main
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"

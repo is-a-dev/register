@@ -1,0 +1,12 @@
+{
+  "description": "A First Willo`s Website",
+  "repo": "https://github.com/WilloIzCitron/willoizcitron.github.io",
+  "owner": {
+    "username": "WilloIzCitron",
+    "email": "",
+    "twitter": "willoizcitron"
+  },
+  "record": {
+    "CNAME": "willoizcitron.github.io"
+  }
+}

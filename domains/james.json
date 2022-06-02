@@ -1,0 +1,12 @@
+{
+  "description": "jmbdevs repo",
+  "repo": "https://github.com/jmbdevs/jmbdevs.github.io",
+  "owner": {
+    "username": "jmbdevs",
+    "email": "james@jmbdev.net",
+    "twitter": "jmbdevs"
+  },
+  "record": {
+    "CNAME": "jmbdevs.github.io"
+  }
+}

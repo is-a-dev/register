@@ -1,0 +1,10 @@
+{
+  "description": "My cdn",
+  "owner": {
+    "username": "A-cute-blob",
+    "email": "sambitkayal255@gmail.com"
+  },
+  "record": {
+    "CNAME": "5dd47b4e-07c1-43a2-bf6e-05953b263786.repl.co"
+  }
+}

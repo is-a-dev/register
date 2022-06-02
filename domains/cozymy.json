@@ -1,0 +1,12 @@
+{
+  "description": "A personal portfolio site for all my projects.",
+  "repo": "https://github.com/cozymy/cozymy.github.io",
+  "owner": {
+    "username": "cozymy",
+    "email": "kunalkundrra@gmail.com",
+    "twitter": "kunalkundrra"
+  },
+  "record": {
+    "CNAME": "cozymy.github.io"
+  }
+}

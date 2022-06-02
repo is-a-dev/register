@@ -1,0 +1,11 @@
+{
+  "description": "The Frog's Website",
+  "repo": "https://github.com/FrogIsADev",
+  "owner": {
+    "username": "MrNover",
+    "email": "alfie@nytern.com"
+  },
+  "record": {
+    "CNAME": "51780377-151b-4095-b4d5-113b2a9d12e0.id.repl.co"
+  }
+}

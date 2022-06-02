@@ -1,0 +1,12 @@
+{
+  "description": "A description",
+  "repo": "https://github.com/kekda-py/kekda-py.github.io",
+  "owner": {
+    "username": "kekda-py",
+    "email": "yashverma7869@gmail.com",
+    "twitter": "your-twitter-username"
+  },
+  "record": {
+    "CNAME": "kekdais-adev-production.up.railway.app"
+  }
+}

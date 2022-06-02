@@ -1,0 +1,11 @@
+{
+  "description": "an api for my discord bot",
+  "repo": "https://github.com/teamjoelee/me",
+  "owner": {
+    "username": "teamjoelee",
+    "email": "tojoeleeofficial@gmail.com"
+  },
+  "record": {
+    "CNAME": "a91c9e80-8282-444e-adb1-18be6d6ffbc2.repl.co"
+  }
+}

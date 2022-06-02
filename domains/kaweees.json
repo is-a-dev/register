@@ -1,0 +1,11 @@
+{
+  "description": "Kaweees is a Dev",
+  "repo": "https://github.com/Kaweees/is-a-dev",
+  "owner": {
+    "username": "Kaweees",
+    "email": "miguelvillafloran@gmail.com"
+  },
+  "record": {
+    "CNAME": "kaweees.github.io"
+  }
+}

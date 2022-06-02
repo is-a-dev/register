@@ -1,0 +1,17 @@
+{
+  "description": "Portfolio - a simple portfolio website for Omxpro. It's in Beta Stages. Thanks for visiting my Portfolio! I hope to see you again.",
+  "repo": "https://github.com/omxpro/omxpro.github.io",
+  "owner": {
+    "username": "omxpro",
+    "email": "omsenjalia@gmail.com",
+    "twitter": "DaRealOmxpro"
+  },
+  "record": {
+    "A": ["198.27.83.178"],
+    "A": ["192.95.42.74"],
+    "A": ["15.235.140.225"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "TXT": "yandex-verification: 5c26bdc12aad3b52"
+  }
+}

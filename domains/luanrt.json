@@ -1,0 +1,11 @@
+{
+  "description": "The personal website for LuanRT",
+  "repo": "https://github.com/luanrt/luanrt.github.io",
+  "owner": {
+    "username": "luanrt",
+    "email": "luan.lrt4@gmail.com"
+  },
+  "record": {
+    "CNAME": "luanrt.github.io"
+  }
+}
