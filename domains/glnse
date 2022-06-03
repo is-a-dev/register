@@ -1,0 +1,11 @@
+{
+   "description": "Glnse Personal Website",
+   "repo": "https://github.com/glnse/glnse.github.io",
+   "owner": {
+     "username": "glnse",
+     "email": "glency.a.tirao@gmail.com",
+   },
+   "record": {
+     "CNAME": "glnse.github.io"
+   }
+ }
