@@ -10,11 +10,11 @@ Create a json file inside the `domains` directory (`domains/<subdomain>.json`) w
 ```json
 {
   "description": "Add some description",
-  "repo": "https://github.com/github-username/github-username.github.io",
+  "repo": "https://github.com/<your-github-username>/<your-github-username>.github.io",
   "owner": {
-    "username": "github-username",
-    "email": "any@email",
-    "twitter": "your-twitter-username"
+    "username": "<your-github-username>",
+    "email": "<your-email>",
+    "twitter": "<your-twitter-username>"
   },
   "record": {
     "CNAME": "<replace-this-with-your-github-username>.github.io"

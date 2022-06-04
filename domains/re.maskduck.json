@@ -1,9 +1,7 @@
 {
-  "description": "my git repos",
   "owner": {
     "username": "MaskDuck",
-    "email": "maskduckuwu@gmail.com",
-    "discord": "MaskDuck#7325"
+    "email": "maskduckuwu@gmail.com"
   },
   "record": {
     "CNAME": "edge.redirect.pizza"
