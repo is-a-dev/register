@@ -5,7 +5,7 @@
   },
   "description": "Documentation website for is-a-dev/register",
   "repo": "MouseMoosz/is-a-dev-docs",
-  "record" {
+  "records" {
     "CNAME": "mousemoosz.github.io"
   }
 }
