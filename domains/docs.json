@@ -2,8 +2,8 @@
   "description": "Documentation website for is-a-dev/register",
   "repo": "MouseMoosz/is-a-dev-docs",
   "owner": {
-    "username": "MouseMoosz",
-    "email": "mousemoosz@protonmail.com"
+    "username": "@is-a-dev/maintainers",
+    "email": "mahir@molai.dev"
   },
   "record" {
     "CNAME": "mousemoosz.github.io"
