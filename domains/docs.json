@@ -5,7 +5,7 @@
     "username": "@is-a-dev/maintainers",
     "email": "mahir@molai.dev"
   },
-  "record" {
+  "record": {
     "CNAME": "mousemoosz.github.io"
   }
 }
