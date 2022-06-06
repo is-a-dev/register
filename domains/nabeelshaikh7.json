@@ -2,25 +2,15 @@
   "owner": {
     "username": "nabeelshaikh7",
     "email": "nabeelssupra@gmail.com"
-  }
-}
-{
+  },
   "record": {
     "A": [
       "144.24.135.133"
-    ]
-  }
-}
-{
-  "record": {
+    ],
     "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
-    ]
-  }
-}
-{
-  "record": {
+    ],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
