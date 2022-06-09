@@ -1,11 +1,10 @@
 {
   "description": "Coffeebank",
-  "repo": "https://github.com/coffeebank/coffeebank.github.io",
   "owner": {
     "username": "coffeebank",
     "email": "coffeebank-is-a-dev@catdev.anonaddy.com"
   },
   "record": {
-    "CNAME": "coffeebank.github.io"
+    "URL": "https://coffeebank.github.io"
   }
 }
