@@ -1,10 +1,10 @@
 {
   "description": "A description",
-  "repo": "https://github.com/kekda-py/the-repo-is-pr",
+  "repo": "https://github.com/kekda-py/the-repo-is-private",
   "owner": {
-    "username": "kekda-py",
+    "username": "kekda",
     "email": "yashverma7869@gmail.com",
-    "twitter": "your-twitter-username"
+    "twitter": "Yash72274544"
   },
   "record": {
     "CNAME": "port-the-folio.pages.dev"
