@@ -1,11 +1,10 @@
+{
+  "owner": {
+    "username": "WilliamDavidHarrison",
+    "email": "william@williamharrison.dev"
+  },
 
-              {
-                "owner": {
-                  "username": "WilliamDavidHarrison",
-                  "email": "william@williamharrison.dev"
-                },
-                "record": {
-                  "URL": "https://github.com/williamdavidharrison"
-                }
-              }
-            
+  "record": {
+    "URL": "https://github.williamharrison.dev"
+  }
+}
