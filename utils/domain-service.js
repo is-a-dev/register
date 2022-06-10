@@ -22,15 +22,27 @@ const recordToZone = ({ name, type, address, id, priority }) => ({
   ...(type === 'TXT' ? { txtdata: address } : {}),
 });
 
-const cleanName = name => name === DOMAIN_DOMAIN ? '@' : `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
+const cleanName = name =>
+  name === DOMAIN_DOMAIN ? '@' : `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
 
-const zoneToRecord = ({ name, type, cname, address, priority, preference, exchange, record, line: id }) => ({
-  id,
-  name: cleanName(name),
-  type: `${type}`,
-  address: `${exchange || cname || address || record}`.replace(/\.$/g, '').toLowerCase(),
-  priority: priority || preference,
-});
+const zoneToRecord = ({
+  name,
+  type,
+  cname,
+  address,
+  priority,
+  preference,
+  exchange,
+  record,
+  line: id
+}) =>
+  ({
+    id,
+    name: cleanName(name),
+    type: `${type}`,
+    address: `${exchange || cname || address || record}`.replace(/\.$/g, '').toLowerCase(),
+    priority: priority || preference,
+  });
 const redirectionToRecord = ({ domain, destination }) => ({
   id: domain,
   name: cleanName(domain),
@@ -83,7 +95,7 @@ const getDomainService = ({ cpanel }) => {
       cpanel.zone.add
     ),
     recordToZone,
-    print(({ name }) => `Adding zone for ${name}...`),
+    print(r => `Adding zone for ${r.name}: (${r.type} ${r.address})...`),
   ));
   const removeZoneRecord = lazyTask(R.compose(
     R.ifElse(R.propEq('type', 'MX'),
@@ -91,7 +103,7 @@ const getDomainService = ({ cpanel }) => {
       R.compose(cpanel.zone.remove, R.pick(['line']))
     ),
     recordToZone,
-    print(({ name }) => `Deleting zone for ${name}...`),
+    print(r => `Deleting zone for ${r.name}: (${r.type} ${r.address})...`),
   ));
   const addRedirection = lazyTask(R.compose(
     cpanel.redirection.add,
@@ -121,6 +133,7 @@ const getDomainService = ({ cpanel }) => {
   const updateHosts = async hosts => {
     const remoteHostList = await getHosts();
     const { add, remove } = diffRecords(remoteHostList, hosts);
+    console.log(`Adding ${add.length}; Removing ${remove.length}`)
 
     await executeBatch([
       ...removeRecords(remove),
