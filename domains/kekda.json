@@ -1,12 +1,12 @@
 {
   "description": "A description",
-  "repo": "https://github.com/kekda-py/kekda-py.github.io",
+  "repo": "https://github.com/kekda-py/the-repo-is-pr",
   "owner": {
     "username": "kekda-py",
     "email": "yashverma7869@gmail.com",
     "twitter": "your-twitter-username"
   },
   "record": {
-    "CNAME": "kekdais-adev-production.up.railway.app"
+    "CNAME": "port-the-folio.pages.dev"
   }
 }
