@@ -1,0 +1,11 @@
+{
+  "description": "Sam's website",
+  "owner": {
+    "username": "Sam-Jspn",
+    "email": "sam.josephine@outlook.fr",
+    "discord": "R3dL1ghty#2904"
+  },
+  "record": {
+    "CNAME": "sam-jspn.github.io"
+  }
+}
