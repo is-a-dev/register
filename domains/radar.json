@@ -1,0 +1,13 @@
+{
+  "description": "Radar's personal developer website",
+  "repo": "https://github.com/RadarFolf/CaseyK9",
+  "owner": {
+    "username": "CaseyK9",
+    "email": "rocco@caseymediallc.com",
+    "twitter": "RadarFolf",
+    "discord": "Radar#0001"
+  },
+  "record": {
+    "CNAME": "caseymediallc.com"
+  }
+}
