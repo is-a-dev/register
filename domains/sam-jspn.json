@@ -1,11 +1,12 @@
 {
   "description": "Sam's website",
+  "repo":"https://github.com/Samuel-Jspn/lair",
   "owner": {
-    "username": "Sam-Jspn",
+    "username": "Samuel-Jspn",
     "email": "sam.josephine@outlook.fr",
     "discord": "R3dL1ghty#2904"
   },
   "record": {
-    "CNAME": "https://samuel-jspn.github.io/lair/"
+    "CNAME": "samuel-jspn.github.io"
   }
 }
