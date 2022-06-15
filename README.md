@@ -8,8 +8,8 @@
 
 
 ## How do I register?
-* Fork this repository/
-* Add a new `domains/your-domain-name.json` file directory to register `your-domain-name.is-a.dev`/
+* Fork this [repository](https://github.com/is-a-dev/register/fork).
+* Add a new `domains/your-domain-name.json` file directory to register `your-domain-name.is-a.dev`.
 * [Read the docs](https://docs.is-a.dev).
 * The PR will be reviewed and merged.
 * After merging, the changes will take effect within a day!
