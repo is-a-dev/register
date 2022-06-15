@@ -1,0 +1,10 @@
+{
+	"description": "A website for downloading mp3 files from youtube.",
+	"owner": {
+		"username": "noma4321",
+		"email": "contact@mail-noma.is-a.dev"
+	},
+	"record": {
+		"CNAME": "youtubedownloader.noma4321.repl.co"
+	}
+}
