@@ -1,12 +1,11 @@
 {
   "description": "Adrian Capote Quintana Developer CV",
-  "repo": "https://github.com/AdriCQ/AdriCQ.github.io",
+  "repo": "https://github.com/AdriCQ/adricq.github.io",
   "owner": {
     "username": "AdriCQ",
-    "email": "adriancapote95@gmail.com",
-    "twitter": "adricq95"
+    "email": "adriancapote95@gmail.com"
   },
   "record": {
-    "CNAME": "AdriCQ.github.io"
+    "CNAME": "adricq.github.io"
   }
 }
