@@ -1,12 +1,12 @@
 {
-  "description": "Personal site and portfolio.",
-  "repo": "https://github.com/ThingsOfFallen/Website",
+  "description": "GitHub Profile redirect.",
+  "repo": "https://github.com/TheFallenSpirit/TheFallenSpirit",
   "owner": {
     "username": "TheFallenSpirit",
     "email": "thefallenspirit@outlook.com",
     "twitter": "@FallenCodes"
   },
   "record": {
-    "A": ["198.58.110.227"]
+    "URL": "https://github.com/TheFallenSpirit"
   }
 }
