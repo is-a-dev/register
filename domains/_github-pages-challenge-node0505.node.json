@@ -1,0 +1,13 @@
+{
+  "description": "Github challenge",
+  "repo": "https://github.com/node0505/node0505.github.io",
+  "owner": {
+    "username": "node0505",
+    "email": "",
+    "discord": "node#0505"
+  },
+  "record": {
+    "CNAME": "node0505.github.io",
+    "TXT": "5870586744f3e499ca90055d206377"
+  }
+}
