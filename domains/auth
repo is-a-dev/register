@@ -1,0 +1,11 @@
+{
+    "description": "Personal portfolio",
+    "repo": "https://github.com/authorises/authorises.github.io",
+    "owner": {
+        "username": "authorises",
+        "email": "authorises_alt@outlook.com"
+    },
+    "record": {
+        "CNAME": "authorises.github.io"
+    }
+} 
