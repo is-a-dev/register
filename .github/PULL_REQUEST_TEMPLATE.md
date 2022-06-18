@@ -10,3 +10,5 @@ To make our job easier, please spend time to review your application before subm
 - [ ] There's enough information at the `owner` field.
    - You should have your email presented. If you don't want to share email, you can leave email an empty string (`""`) and add any other social such as Discord/Twitter/etc.
  
+ 
+<!--  Feel free to join the discord server for any help to talk to other developers :) - https://discord.gg/PZCGHz4RhQ -->
