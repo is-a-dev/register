@@ -1,0 +1,12 @@
+{
+    "description": "LoganTheDudeRox's custom development website subdomain. (but it's a rickroll lol)",
+    "repo": "https://github.com/LoganLikesToCode/server",
+    "owner": {
+        "username": "LoganLikesToCode",
+        "email": "logantheduderox@gmail.com",
+        "twitter": "LoganTheDudeRox"
+    },
+    "record": {
+        "CNAME": "logan.is-a.dev/server"
+    }
+} 
