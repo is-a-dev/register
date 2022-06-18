@@ -9,6 +9,6 @@ To make our job easier, please spend time to review your application before subm
 - [ ] The CNAME record doesn't contain any slash.
 - [ ] There's enough information at the `owner` field.
    - You should have your email presented. If you don't want to share email, you can leave email an empty string (`""`) and add any other social such as Discord/Twitter/etc.
- 
+- [ ] You've added it under the directory "domains"
  
 <!--  Feel free to join the discord server for any help to talk to other developers :) - https://discord.gg/PZCGHz4RhQ -->
