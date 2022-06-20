@@ -1,0 +1,11 @@
+{
+  "description": "A site. Yeah, it's just a site.",
+  "repo": "https://github.com/plushhh/plushhh.github.io",
+  "owner": {
+    "username": "Plushhh",
+    "email": "inbox.plush@gmail.com"
+  },
+  "record": {
+    "CNAME": "plushhh.github.io"
+  }
+}
