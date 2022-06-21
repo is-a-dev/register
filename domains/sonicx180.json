@@ -1,10 +1,10 @@
 {
-  "repo": "https://github.com/sonicx180/website",
-  "owner": {
-    "username": "sonicx180",
-    "email": "chetanzeogu410@gmail.com"
-  },
-  "record": { 
-    "CNAME": "0146e66a-6183-424c-85bd-b240bea14f14.id.repl.co"
-  }
+    "repo": "https://github.com/sonicx180/website",
+    "owner": {
+        "username": "sonicx180",
+        "email": "chetanzeogu410@gmail.com"
+    },
+    "record": {
+        "CNAME": "0146e66a-6183-424c-85bd-b240bea14f14.id.repl.co"
+    }
 }

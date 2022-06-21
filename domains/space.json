@@ -1,10 +1,10 @@
 {
-  "description": "My site",
-  "owner": {
-    "username": "StalkerMeyr",
-    "email": "andchit223@gmail.com"
-  },
-  "record": {
-    "A": ["148.251.26.247"]
-  }
+    "description": "My site",
+    "owner": {
+        "username": "StalkerMeyr",
+        "email": "andchit223@gmail.com"
+    },
+    "record": {
+        "A": ["148.251.26.247"]
+    }
 }

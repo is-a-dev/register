@@ -1,11 +1,11 @@
 {
-  "description": "Pratyaydeep's Microblog",
-  "repo": "https://github.com/pratyaydeep",
-  "owner": {
-    "username": "pratyaydeep",
-    "email": "pratyaydeep@yahoo.com"
-  },
-  "record": {
-    "URL": "https://pratya.pythonanywhere.com"
-  }
+    "description": "Pratyaydeep's Microblog",
+    "repo": "https://github.com/pratyaydeep",
+    "owner": {
+        "username": "pratyaydeep",
+        "email": "pratyaydeep@yahoo.com"
+    },
+    "record": {
+        "URL": "https://pratya.pythonanywhere.com"
+    }
 }

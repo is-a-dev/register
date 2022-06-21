@@ -1,10 +1,10 @@
 {
-  "description": "Personal Portfolio website",
-  "owner": {
-    "username": "armoredvortex",
-    "email": "rachitpandey@protonmail.com"
-  },
-  "record": {
-    "CNAME": "armoredvortex.github.io"
-  }
+    "description": "Personal Portfolio website",
+    "owner": {
+        "username": "armoredvortex",
+        "email": "rachitpandey@protonmail.com"
+    },
+    "record": {
+        "CNAME": "armoredvortex.github.io"
+    }
 }

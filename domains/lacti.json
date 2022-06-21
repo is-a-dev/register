@@ -1,11 +1,11 @@
 {
-  "description": "Lacti's blog",
-  "repo": "https://github.com/lacti/lacti.github.io",
-  "owner": {
-    "username": "lacti",
-    "email": "lactrious@gmail.com"
-  },
-  "record": {
-    "CNAME": "lacti.github.io"
-  }
+    "description": "Lacti's blog",
+    "repo": "https://github.com/lacti/lacti.github.io",
+    "owner": {
+        "username": "lacti",
+        "email": "lactrious@gmail.com"
+    },
+    "record": {
+        "CNAME": "lacti.github.io"
+    }
 }

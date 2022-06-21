@@ -1,4 +1,3 @@
-
 const getInstructions = () => `
 The changes have been published!! It should reflect in less than 24 hours.
 
@@ -35,16 +34,15 @@ Help me in my mission to keep this service alive forever by donating!
 `;
 
 module.exports = {
-  async instructions(context, github) {
-    const pr = context.payload.issue || context.payload.pull_request;
-    const { number } = pr;
+    async instructions(context, github) {
+        const pr = context.payload.issue || context.payload.pull_request;
+        const { number } = pr;
 
-    await github.issues.createComment({
-      owner: context.repo.owner,
-      repo: context.repo.repo,
-      issue_number: number,
-      body: getInstructions(),
-    });
-  }
+        await github.issues.createComment({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: number,
+            body: getInstructions(),
+        });
+    },
 };
-

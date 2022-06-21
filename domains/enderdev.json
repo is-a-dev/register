@@ -1,12 +1,12 @@
 {
-  "description": "Personal site for EnderDev",
-  "repo": "https://github.com/EnderDev/EnderDev",
-  "owner": {
-    "username": "EnderDev",
-    "email": "kieran@dothq.co",
-    "twitter": "EnderDev_"
-  },
-  "record": {
-    "CNAME": "enderdev.github.io"
-  }
+    "description": "Personal site for EnderDev",
+    "repo": "https://github.com/EnderDev/EnderDev",
+    "owner": {
+        "username": "EnderDev",
+        "email": "kieran@dothq.co",
+        "twitter": "EnderDev_"
+    },
+    "record": {
+        "CNAME": "enderdev.github.io"
+    }
 }

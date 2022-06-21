@@ -1,11 +1,11 @@
 {
-  "description": "Mamun's website",
-  "repo": "https://github.com/mamunhpath",
-  "owner": {
-    "username": "mamunhpath",
-    "email": "mamunhpath@hotmail.com"
-  },
-  "record": {
-    "CNAME": "mamunhpath.github.io"
-  }
+    "description": "Mamun's website",
+    "repo": "https://github.com/mamunhpath",
+    "owner": {
+        "username": "mamunhpath",
+        "email": "mamunhpath@hotmail.com"
+    },
+    "record": {
+        "CNAME": "mamunhpath.github.io"
+    }
 }

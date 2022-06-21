@@ -1,11 +1,11 @@
 {
-  "description": "yCyanxW's Website for Information!",
-  "repo": "https://github.com/yCyanxW/ycyanx.github-io",
-  "owner": {
-    "username": "yCyanxW",
-    "email": "ycyanxandxantham@gmail.com"
-  },
-  "record": {
-    "CNAME": "59a8d912-6eac-4a09-97c0-a319d88b2b50.repl.co"
-  }
+    "description": "yCyanxW's Website for Information!",
+    "repo": "https://github.com/yCyanxW/ycyanx.github-io",
+    "owner": {
+        "username": "yCyanxW",
+        "email": "ycyanxandxantham@gmail.com"
+    },
+    "record": {
+        "CNAME": "59a8d912-6eac-4a09-97c0-a319d88b2b50.repl.co"
+    }
 }

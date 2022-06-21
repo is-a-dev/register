@@ -1,12 +1,12 @@
 {
-  "description": "A cool looking link for my Discord server! (and maybe sort of other stuff in future... If I can think of one...)",
-  "repo": "https://github.com/Hazuki-san",
-  "owner": {
-    "username": "Hazuki-san",
-    "email": "aoba@outlook.co.th",
-    "twitter": "AocchiAoba"
-  },
-  "record": {
-    "URL": "https://discord.gg/nKbATcMqSp"
-  }
+    "description": "A cool looking link for my Discord server! (and maybe sort of other stuff in future... If I can think of one...)",
+    "repo": "https://github.com/Hazuki-san",
+    "owner": {
+        "username": "Hazuki-san",
+        "email": "aoba@outlook.co.th",
+        "twitter": "AocchiAoba"
+    },
+    "record": {
+        "URL": "https://discord.gg/nKbATcMqSp"
+    }
 }

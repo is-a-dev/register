@@ -1,11 +1,11 @@
 {
-  "description": "My Personal Website",
-  "repo": "https://github.com/GiriGummadi",
-  "owner": {
-    "username": "GiriGummadi",
-    "email": "girigummadi5656@gmail.com"
-  },
-  "record": {
-    "CNAME": "girigummadi.github.io"
-  }
+    "description": "My Personal Website",
+    "repo": "https://github.com/GiriGummadi",
+    "owner": {
+        "username": "GiriGummadi",
+        "email": "girigummadi5656@gmail.com"
+    },
+    "record": {
+        "CNAME": "girigummadi.github.io"
+    }
 }

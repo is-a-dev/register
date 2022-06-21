@@ -1,11 +1,11 @@
 {
-  "description": "Tyler McCarthy is a Developer!",
-  "repo": "https://github.com/tmccarthyj",
-  "owner": {
-    "username": "tmccarthyj",
-    "email": "tyler@tjm.dev"
-  },
-  "record": {
-    "CNAME": "tjm.dev"
-  }
+    "description": "Tyler McCarthy is a Developer!",
+    "repo": "https://github.com/tmccarthyj",
+    "owner": {
+        "username": "tmccarthyj",
+        "email": "tyler@tjm.dev"
+    },
+    "record": {
+        "CNAME": "tjm.dev"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "Ben's personal developer website",
-  "repo": "https://github.com/stupergenius",
-  "owner": {
-    "username": "stupergenius",
-    "email": "ben@bensnider.com"
-  },
-  "record": {
-    "CNAME": "ben.is-a.dev.s3-website.us-east-2.amazonaws.com"
-  }
+    "description": "Ben's personal developer website",
+    "repo": "https://github.com/stupergenius",
+    "owner": {
+        "username": "stupergenius",
+        "email": "ben@bensnider.com"
+    },
+    "record": {
+        "CNAME": "ben.is-a.dev.s3-website.us-east-2.amazonaws.com"
+    }
 }

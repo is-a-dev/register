@@ -1,11 +1,11 @@
 {
-  "description": "idk just a domain i guess",
-  "repo": "https://github.com/LetMeWoosh",
-  "owner": {
-    "username": "LetMeWoosh",
-    "email": "me@letmewoosh.xyz"
-  },
-  "record": {
-    "MX": ["mail.letmewoosh.me"]
-  }
+    "description": "idk just a domain i guess",
+    "repo": "https://github.com/LetMeWoosh",
+    "owner": {
+        "username": "LetMeWoosh",
+        "email": "me@letmewoosh.xyz"
+    },
+    "record": {
+        "MX": ["mail.letmewoosh.me"]
+    }
 }

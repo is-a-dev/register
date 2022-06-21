@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "evaldas",
-    "email": "evabur@icloud.com"
-  },
-  "record": {
-    "CNAME": "burlingis.com"
-  }
+    "owner": {
+        "username": "evaldas",
+        "email": "evabur@icloud.com"
+    },
+    "record": {
+        "CNAME": "burlingis.com"
+    }
 }

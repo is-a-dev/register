@@ -1,11 +1,11 @@
 {
-  "description": "an api for my bot",
-  "repo": "https://github.com/w3cy/w3cy",
-  "owner": {
-    "username": "w3cy",
-    "email": "keyv.cec@outlook.com"
-  },
-  "record": {
-    "CNAME": "8b9c08e0-a9c2-4fc1-8e17-aca4fb93ae71.id.repl.co"
-  }
+    "description": "an api for my bot",
+    "repo": "https://github.com/w3cy/w3cy",
+    "owner": {
+        "username": "w3cy",
+        "email": "keyv.cec@outlook.com"
+    },
+    "record": {
+        "CNAME": "8b9c08e0-a9c2-4fc1-8e17-aca4fb93ae71.id.repl.co"
+    }
 }

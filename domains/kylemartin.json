@@ -1,11 +1,11 @@
 {
-  "description": "Kyle Martin",
-  "repo": "https://github.com/js-kyle/js-kyle.github.io",
-  "owner": {
-    "username": "js-kyle",
-    "email": ""
-  },
-  "record": {
-    "CNAME": "js-kyle.github.io"
-  }
+    "description": "Kyle Martin",
+    "repo": "https://github.com/js-kyle/js-kyle.github.io",
+    "owner": {
+        "username": "js-kyle",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "js-kyle.github.io"
+    }
 }

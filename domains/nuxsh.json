@@ -1,12 +1,12 @@
 {
-  "description": "hi, im nuxsh",
-  "repo": "https://github.com/nuxshed/nuxshed.github.io",
-  "owner": {
-    "username": "nuxshed",
-    "email": "nuxshed@gmail.com",
-    "discord": "nuxsh#9338"
-  },
-  "record": {
-    "CNAME": "nuxshed.github.io"
-  }
+    "description": "hi, im nuxsh",
+    "repo": "https://github.com/nuxshed/nuxshed.github.io",
+    "owner": {
+        "username": "nuxshed",
+        "email": "nuxshed@gmail.com",
+        "discord": "nuxsh#9338"
+    },
+    "record": {
+        "CNAME": "nuxshed.github.io"
+    }
 }

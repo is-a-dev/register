@@ -1,11 +1,11 @@
 {
-  "description": "Enterprise ID Website",
-  "repo": "https://github.com/Enterprise-ID",
-  "owner": {
-    "username": "enterpriseid",
-    "email": "enterprise.id13@gmail.com"
-  },
-  "record": {
-    "CNAME": "tokisaki.xyz"
-  }
+    "description": "Enterprise ID Website",
+    "repo": "https://github.com/Enterprise-ID",
+    "owner": {
+        "username": "enterpriseid",
+        "email": "enterprise.id13@gmail.com"
+    },
+    "record": {
+        "CNAME": "tokisaki.xyz"
+    }
 }

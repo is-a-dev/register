@@ -1,10 +1,10 @@
 {
-  "description": "Sooraj Ep's website",
-  "owner": {
-    "username": "epsooraj",
-    "email": "epsooraj4@gmail.com"
-  },
-  "record": {
-    "CNAME": "epsooraj.com"
-  }
+    "description": "Sooraj Ep's website",
+    "owner": {
+        "username": "epsooraj",
+        "email": "epsooraj4@gmail.com"
+    },
+    "record": {
+        "CNAME": "epsooraj.com"
+    }
 }

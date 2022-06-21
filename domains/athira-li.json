@@ -1,11 +1,11 @@
 {
-  "description": "Athira's Web-Dev Home",
-  "repo": "https://github.com/Athira-L-I/Athira-L-I.github.io",
-  "owner": {
-    "username": "Athira-L-I",
-    "email": "athirali4582@gmail.com"
-  },
-  "record": {
-    "CNAME": "Athira-L-I.github.io"
-  }
+    "description": "Athira's Web-Dev Home",
+    "repo": "https://github.com/Athira-L-I/Athira-L-I.github.io",
+    "owner": {
+        "username": "Athira-L-I",
+        "email": "athirali4582@gmail.com"
+    },
+    "record": {
+        "CNAME": "Athira-L-I.github.io"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "avasthi-git",
-    "email": "",
-    "telegram": "avasthie"
-  },
-  
-   "record": {
-    "CNAME": "cname.short.io"
-  }
+    "owner": {
+        "username": "avasthi-git",
+        "email": "",
+        "telegram": "avasthie"
+    },
+
+    "record": {
+        "CNAME": "cname.short.io"
+    }
 }

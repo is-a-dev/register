@@ -1,11 +1,11 @@
 {
-  "description": "My Personal Website.",
-  "repo": "https://github.com/DorianAarno/dorianaarno.github.io",
-  "owner": {
-    "username": "DorianAarno",
-    "email": "aarnodorian56@gmail.com"
-  },
-  "record": {
-    "CNAME": "dorianaarno.github.io"
-  }
+    "description": "My Personal Website.",
+    "repo": "https://github.com/DorianAarno/dorianaarno.github.io",
+    "owner": {
+        "username": "DorianAarno",
+        "email": "aarnodorian56@gmail.com"
+    },
+    "record": {
+        "CNAME": "dorianaarno.github.io"
+    }
 }

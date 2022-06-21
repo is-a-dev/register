@@ -1,11 +1,11 @@
 {
-  "description": "YAY, new place for my Portfolio",
-  "repo": "https://github.com/parshnt",
-  "owner": {
-    "username": "parshnt",
-    "email": "hi.parshant@gmail.com"
-  },
-  "record": {
-    "CNAME": "parshnt.github.io"
-  }
+    "description": "YAY, new place for my Portfolio",
+    "repo": "https://github.com/parshnt",
+    "owner": {
+        "username": "parshnt",
+        "email": "hi.parshant@gmail.com"
+    },
+    "record": {
+        "CNAME": "parshnt.github.io"
+    }
 }

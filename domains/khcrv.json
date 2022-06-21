@@ -1,11 +1,11 @@
 {
-  "description": "KhCrv Portfolio Website",
-  "repo": "https://github.com/KhCrv/khcrv.github.io",
-  "owner": {
-    "username": "KhCrv",
-    "email": "pedusty@hotmail.com"
-  },
-  "record": {
-    "CNAME": "khcrv.github.io"
-  }
+    "description": "KhCrv Portfolio Website",
+    "repo": "https://github.com/KhCrv/khcrv.github.io",
+    "owner": {
+        "username": "KhCrv",
+        "email": "pedusty@hotmail.com"
+    },
+    "record": {
+        "CNAME": "khcrv.github.io"
+    }
 }

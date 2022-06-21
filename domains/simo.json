@@ -1,12 +1,12 @@
 {
-  "description": "A redirect to simo.sh",
-  "repo": "https://github.com/fr3fou",
-  "owner": {
-    "username": "fr3fou",
-    "email": "",
-    "twitter": "fr3fou"
-  },
-  "record": {
-    "URL": "https://simo.sh"
-  }
+    "description": "A redirect to simo.sh",
+    "repo": "https://github.com/fr3fou",
+    "owner": {
+        "username": "fr3fou",
+        "email": "",
+        "twitter": "fr3fou"
+    },
+    "record": {
+        "URL": "https://simo.sh"
+    }
 }

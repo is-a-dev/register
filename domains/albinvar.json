@@ -1,11 +1,11 @@
 {
-  "description": "Albin's Personal Website",
-  "repo": "https://github.com/albinvar/albinvar.github.io",
-  "owner": {
-    "username": "albinvar",
-    "email": "albinvar@pm.me"
-  },
-  "record": {
-    "CNAME": "albinvar.github.io"
-  }
+    "description": "Albin's Personal Website",
+    "repo": "https://github.com/albinvar/albinvar.github.io",
+    "owner": {
+        "username": "albinvar",
+        "email": "albinvar@pm.me"
+    },
+    "record": {
+        "CNAME": "albinvar.github.io"
+    }
 }

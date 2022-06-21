@@ -1,11 +1,11 @@
 {
-  "description": "George Aykara's personal developer website",
-  "repo": "https://github.com/aykarageorge",
-  "owner": {
-    "username": "aykarageorge",
-    "email": "aykarageorge@gmail.com"
-  },
-  "record": {
-    "URL": "https://george.aykara4.com"
-  }
+    "description": "George Aykara's personal developer website",
+    "repo": "https://github.com/aykarageorge",
+    "owner": {
+        "username": "aykarageorge",
+        "email": "aykarageorge@gmail.com"
+    },
+    "record": {
+        "URL": "https://george.aykara4.com"
+    }
 }

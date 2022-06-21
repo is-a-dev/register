@@ -1,11 +1,11 @@
 {
-  "description": "Rwithik's Website",
-  "repo": "https://github.com/rwithik/rwithik.github.io",
-  "owner": {
-    "username": "rwithik",
-    "email": "rwithik@gmail.com"
-  },
-  "record": {
-    "CNAME": "rwithik.github.io"
-  }
+    "description": "Rwithik's Website",
+    "repo": "https://github.com/rwithik/rwithik.github.io",
+    "owner": {
+        "username": "rwithik",
+        "email": "rwithik@gmail.com"
+    },
+    "record": {
+        "CNAME": "rwithik.github.io"
+    }
 }

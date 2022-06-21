@@ -1,10 +1,10 @@
 {
-  "description": "Ashutosh Kumar's Portfolio",
-  "owner": {
-    "username": "Ashutoshcoder",
-    "email": "ashutoshkumardbms@gmail.com"
-  },
-  "record": {
-    "CNAME": "ashutoshkumar.me"
-  }
+    "description": "Ashutosh Kumar's Portfolio",
+    "owner": {
+        "username": "Ashutoshcoder",
+        "email": "ashutoshkumardbms@gmail.com"
+    },
+    "record": {
+        "CNAME": "ashutoshkumar.me"
+    }
 }

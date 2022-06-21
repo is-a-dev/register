@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "TheVeerRana",
-    "email": "hello@veer.codes"
-  },
-  "record": {
-    "CNAME": "veer.codes"
-  }
+    "owner": {
+        "username": "TheVeerRana",
+        "email": "hello@veer.codes"
+    },
+    "record": {
+        "CNAME": "veer.codes"
+    }
 }

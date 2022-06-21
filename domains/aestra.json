@@ -1,11 +1,11 @@
 {
-  "description": "Will save it for future for my portfolio site",
-   "owner": {
-    "username": "aestra",
-    "email": "aestradev@gmail.com",
-    "github": "aestradev"
-  },
-  "record": {
-    "CNAME": "portfolio-production-7e27.up.railway.app"
-  }
+    "description": "Will save it for future for my portfolio site",
+    "owner": {
+        "username": "aestra",
+        "email": "aestradev@gmail.com",
+        "github": "aestradev"
+    },
+    "record": {
+        "CNAME": "portfolio-production-7e27.up.railway.app"
+    }
 }

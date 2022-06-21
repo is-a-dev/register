@@ -1,12 +1,12 @@
 {
-  "description": "Pranav Saxena's Personal Website",
-  "repo": "https://github.com/Pranav-Saxena/Pranav-Saxena.github.io",
-  "owner": {
-    "username": "Pranav-Saxena",
-    "email": "pranavsaxena155@gmail.com",
-    "discord": "PRANAV SAXENA#9327"
-  },
-  "record": {
-    "CNAME": "Pranav-Saxena.github.io"
-  }
+    "description": "Pranav Saxena's Personal Website",
+    "repo": "https://github.com/Pranav-Saxena/Pranav-Saxena.github.io",
+    "owner": {
+        "username": "Pranav-Saxena",
+        "email": "pranavsaxena155@gmail.com",
+        "discord": "PRANAV SAXENA#9327"
+    },
+    "record": {
+        "CNAME": "Pranav-Saxena.github.io"
+    }
 }

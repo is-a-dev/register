@@ -1,12 +1,12 @@
 {
-  "description": "Sadie Brooklyn's website",
-  "repo": "https://github.com/night-lake/night-lake.github.io",
-  "owner": {
-    "username": "night-lake",
-    "email": "sadiebk@fluorine.me",
-    "twitter": "_nightlake"
-  },
-  "record": {
-    "CNAME": "night-lake.github.io"
-  }
+    "description": "Sadie Brooklyn's website",
+    "repo": "https://github.com/night-lake/night-lake.github.io",
+    "owner": {
+        "username": "night-lake",
+        "email": "sadiebk@fluorine.me",
+        "twitter": "_nightlake"
+    },
+    "record": {
+        "CNAME": "night-lake.github.io"
+    }
 }

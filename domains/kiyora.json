@@ -2,11 +2,10 @@
     "description": "using for personal projects",
     "repo": "https://github.com/ItsMyEyes",
     "owner": {
-      "username": "ItsMyEyes",
-      "email": "dev@sipaling.top"
+        "username": "ItsMyEyes",
+        "email": "dev@sipaling.top"
     },
     "record": {
-      "CNAME": "itsmyeyes.github.io"
+        "CNAME": "itsmyeyes.github.io"
     }
-  }
-  
+}

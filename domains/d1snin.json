@@ -1,11 +1,11 @@
 {
-  "description": "d1snin's website",
-  "repo": "https://github.com/d1snin/website",
-  "owner": {
-    "username": "d1snin",
-    "email": "~@d1s.uno"
-  },
-  "record": {
-    "CNAME": "35188086.website-8ek.pages.dev"
-  }
+    "description": "d1snin's website",
+    "repo": "https://github.com/d1snin/website",
+    "owner": {
+        "username": "d1snin",
+        "email": "~@d1s.uno"
+    },
+    "record": {
+        "CNAME": "35188086.website-8ek.pages.dev"
+    }
 }

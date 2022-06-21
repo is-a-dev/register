@@ -1,10 +1,10 @@
 {
-  "description": "Shalom's personal website",
-  "owner": {
-    "username": "shalomscott",
-    "email": "shalomss525@gmail.com"
-  },
-  "record": {
-    "CNAME": "shalom-is-a-dev.netlify.app"
-  }
+    "description": "Shalom's personal website",
+    "owner": {
+        "username": "shalomscott",
+        "email": "shalomss525@gmail.com"
+    },
+    "record": {
+        "CNAME": "shalom-is-a-dev.netlify.app"
+    }
 }

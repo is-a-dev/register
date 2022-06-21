@@ -1,11 +1,11 @@
 {
-  "description": "Ivo Lima Silva's personal website",
-  "repo": "https://github.com/ivolimasilva/ivolimasilva.github.io",
-  "owner": {
-    "username": "ivolimasilva",
-    "email": "ivolimasilva@outlook.com"
-  },
-  "record": {
-    "CNAME": "ivolimasilva.xyz"
-  }
+    "description": "Ivo Lima Silva's personal website",
+    "repo": "https://github.com/ivolimasilva/ivolimasilva.github.io",
+    "owner": {
+        "username": "ivolimasilva",
+        "email": "ivolimasilva@outlook.com"
+    },
+    "record": {
+        "CNAME": "ivolimasilva.xyz"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "Michael's personal developer website",
-  "repo": "https://github.com/mbrav",
-  "owner": {
-    "username": "mbrav",
-    "email": "mbrav@protonmail.com"
-  },
-  "record": {
-    "CNAME": "mbrav.github.io"
-  }
+    "description": "Michael's personal developer website",
+    "repo": "https://github.com/mbrav",
+    "owner": {
+        "username": "mbrav",
+        "email": "mbrav@protonmail.com"
+    },
+    "record": {
+        "CNAME": "mbrav.github.io"
+    }
 }

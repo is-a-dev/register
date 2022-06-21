@@ -1,11 +1,11 @@
 {
-  "description": "Nobio Yep",
-  "repo": "https://github.com/lunax0390/lunax0390.github.io",
-  "owner": {
-    "username": "lunax0390",
-    "email": "moonsec99@gmail.com"
-  },
-  "record": {
-    "CNAME": "lunax0390.github.io"
-  }
+    "description": "Nobio Yep",
+    "repo": "https://github.com/lunax0390/lunax0390.github.io",
+    "owner": {
+        "username": "lunax0390",
+        "email": "moonsec99@gmail.com"
+    },
+    "record": {
+        "CNAME": "lunax0390.github.io"
+    }
 }

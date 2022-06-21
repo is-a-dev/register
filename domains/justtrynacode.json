@@ -1,12 +1,12 @@
 {
-  "description": "Tryna's website",
-  "repo": "https://github.com/JustTrynacodee/JustTrynaCodee.github.io",
-  "owner": {
-    "username": "JustTrynacodee",
-    "email": "",
-    "discord": "JustTrynaCode#0810"
-  },
-  "record": {
-    "CNAME": "JustTrynaCodee.github.io"
-  }
+    "description": "Tryna's website",
+    "repo": "https://github.com/JustTrynacodee/JustTrynaCodee.github.io",
+    "owner": {
+        "username": "JustTrynacodee",
+        "email": "",
+        "discord": "JustTrynaCode#0810"
+    },
+    "record": {
+        "CNAME": "JustTrynaCodee.github.io"
+    }
 }

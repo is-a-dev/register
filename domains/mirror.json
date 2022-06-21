@@ -1,11 +1,11 @@
 {
-  "description": "A simple personal website",
-  "repo": "https://github.com/justamirror",
-  "owner": {
-    "username": "justamirror",
-    "email": "Eren0078@outlook.com"
-  },
-  "record": {
-    "CNAME": "1eeecca8-a190-4548-9fc9-f936dcdda410.id.repl.co"
-  }
+    "description": "A simple personal website",
+    "repo": "https://github.com/justamirror",
+    "owner": {
+        "username": "justamirror",
+        "email": "Eren0078@outlook.com"
+    },
+    "record": {
+        "CNAME": "1eeecca8-a190-4548-9fc9-f936dcdda410.id.repl.co"
+    }
 }

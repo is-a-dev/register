@@ -1,11 +1,11 @@
 {
-  "description": "My Portfolio",
-  "repo": "https://github.com/ruiwenge2/ruiwenge2",
-  "owner": {
-    "username": "ruiwenge2",
-    "email": "ruiwenge2@gmail.com"
-  },
-  "record": {
-    "CNAME": "caa17c8d-acab-4419-8b78-0ad7994a4f62.repl.co"
-  }
+    "description": "My Portfolio",
+    "repo": "https://github.com/ruiwenge2/ruiwenge2",
+    "owner": {
+        "username": "ruiwenge2",
+        "email": "ruiwenge2@gmail.com"
+    },
+    "record": {
+        "CNAME": "caa17c8d-acab-4419-8b78-0ad7994a4f62.repl.co"
+    }
 }

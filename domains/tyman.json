@@ -1,12 +1,12 @@
 {
-  "description": "Tyman's personal developer website",
-  "repo": "https://github.com/TymanWasTaken/tyman.tech",
-  "owner": {
-    "username": "TymanWasTaken",
-    "email": "",
-    "discord": "Tyman#7318"
-  },
-  "record": {
-    "CNAME": "tyman.tech"
-  }
+    "description": "Tyman's personal developer website",
+    "repo": "https://github.com/TymanWasTaken/tyman.tech",
+    "owner": {
+        "username": "TymanWasTaken",
+        "email": "",
+        "discord": "Tyman#7318"
+    },
+    "record": {
+        "CNAME": "tyman.tech"
+    }
 }

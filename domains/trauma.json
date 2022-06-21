@@ -1,12 +1,12 @@
 {
-  "description": "Well, this is my github sub-domain for my future page",
-  "repo": "https://github.com/iitrauma/iitrauma.github.io",
-  "owner": {
-    "username": "iiTrauma",
-    "email": "ignacio@asia.com",
-    "twitter": "q1a67"
-  },
-  "record": {
-    "CNAME": "iitrauma.github.io"
-  }
+    "description": "Well, this is my github sub-domain for my future page",
+    "repo": "https://github.com/iitrauma/iitrauma.github.io",
+    "owner": {
+        "username": "iiTrauma",
+        "email": "ignacio@asia.com",
+        "twitter": "q1a67"
+    },
+    "record": {
+        "CNAME": "iitrauma.github.io"
+    }
 }

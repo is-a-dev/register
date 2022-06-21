@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "Matt-Gleich",
-    "email": "email@mattglei.ch",
-    "twitter": "MattGleich"
-  },
-  "repo": "https://github.com/Matt-Gleich/site-v2",
-  "record": {
-    "URL": "https://mattglei.ch"
-  }
+    "owner": {
+        "username": "Matt-Gleich",
+        "email": "email@mattglei.ch",
+        "twitter": "MattGleich"
+    },
+    "repo": "https://github.com/Matt-Gleich/site-v2",
+    "record": {
+        "URL": "https://mattglei.ch"
+    }
 }
