@@ -6,6 +6,6 @@
     "email": "contact@mail.arman.is-a.dev"
   },
   "record": {
-    "CNAME": "itzarman09.github.io"
+    "A": ["89.106.200.1"]
   }
 }

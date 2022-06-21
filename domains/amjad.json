@@ -1,10 +1,11 @@
 {
+  "repo": "https://github.com/amjad-ah/amjad-ah.github.io",
   "owner": {
     "username": "amjad-ah",
     "email": "amjad_ah_@hotmail.com",
     "tiwtter": "amjad_ah_"
   },
   "record": {
-    "CNAME": "hashnode.network"
+    "CNAME": "amjad-ah.github.io"
   }
 }
