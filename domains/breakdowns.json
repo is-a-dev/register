@@ -1,0 +1,12 @@
+{
+    "description": "My Personal Page",
+    "repo": "https://github.com/breakdowns/website",
+    "owner": {
+        "username": "breakdowns",
+        "email": "breakdowns@linuxmail.org",
+        "telegram": "@hafitzXD"
+    },
+    "record": {
+        "CNAME": "breakdowns.github.io"
+    }
+}
