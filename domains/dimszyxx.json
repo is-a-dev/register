@@ -1,11 +1,11 @@
 {
-  "description": "Personal Blog",
-  "repo": "https://github.com/nobuyaki/nobuyaki.github.io",
+  "description": "Dimszyxx Website",
   "owner": {
     "username": "nobuyaki",
-    "email": "dimas2214sa@gmail.com"
+    "email": "dimas2214sa@gmail.com",
+    "discord": "445073800850046977"
   },
   "record": {
-    "CNAME": "nobuyaki.github.io"
+    "CNAME": "6fe0555b-c207-4d0a-bd14-7ba43c32fcff.id.repl.co"
   }
 }
