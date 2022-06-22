@@ -1,12 +1,12 @@
 {
-  "owner": {
-    "username": "UnderCurve",
-    "email": "",
-    "discord": "UnderCurve#6641"
-  }
-}
-{
-  "record": {
-    "CNAME": "UnderCurve.github.io"
-  }
-}
+    "description": "for my about me page",
+    "repo": "https://github.com/UnderCurve/UnderCurve.github.io",
+    "owner": {
+        "username": "UnderCurve",
+        "email": "",
+        "discord": "UnderCurve#6641"
+    },
+    "record": {
+        "CNAME": "UnderCurve.github.io"
+    }
+} 
