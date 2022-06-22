@@ -1,0 +1,12 @@
+{
+    "description": "personal website",
+    "owner": {
+        "username": "tinasalada",
+        "email": "",
+        "discord": "tinasalada#0247",
+        "twitter": "tinasalada"
+    },
+    "record": {
+        "CNAME": "tinasalada.github.io"
+    }
+}
