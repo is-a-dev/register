@@ -1,0 +1,10 @@
+{
+  "description": "Personal site"
+  "owner": {
+    "username": "SchoolHacker101",
+    "email": "xxhirottvxx@gmail.com"
+  },
+  "record": {
+    "CNAME": ["incognito-20-production-6a1c.up.railway.app"]
+  }
+}
