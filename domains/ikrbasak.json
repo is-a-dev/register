@@ -1,0 +1,12 @@
+{
+    "description": "Personal is-a.dev website",
+    "repo": "https://github.com/ikrbasak/ikrbasak.github.io",
+    "owner": {
+        "username": "ikrbasak",
+        "email": "",
+        "twitter": "ikrbasak"
+    },
+    "record": {
+        "CNAME": "ikrbasak.github.io"
+    }
+} 
