@@ -2,7 +2,9 @@
   "owner": {
     "username": "lightninbolt986",
     "email": "raisinghani.armaan1@gmail.com"
-  },description:"A simple static personal website showcasing my achievements and ambitions.",  "record": {
+  },
+  "description": "A simple static personal website showcasing my achievements and ambitions.",
+  "record": {
     "CNAME": "lightninbolt986.github.io"
   }
 }
