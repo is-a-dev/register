@@ -1,5 +1,7 @@
 To make our job easier, please spend time to review your application before submitting. 
 
+NOTE: Your not *required* to fill in this application. 
+
 <!-- To check a checkbox, replace [] with [x] -->
 #### Add a x between [] if you meet that requirement example `[x]`
 - [ ] You're not using Vercel or Netlify.
