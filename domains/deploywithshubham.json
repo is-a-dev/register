@@ -1,0 +1,11 @@
+{
+    "description": "For Github Public Webpage, is-a.dev is looking more professional domain address.",
+    "repo": "https://github.com/deploywithshubham/deploywithshubham.github.io",
+    "owner": {
+        "username": "deploywithshubham",
+        "email": "contact@stdo.in",
+    },
+    "record": {
+        "CNAME": "deploywithshubham.github.io"
+    }
+} 
