@@ -1,0 +1,12 @@
+{
+    "description": "My Personal Website",
+    "repo": "https://github.com/InfoBlock/Website",
+    "owner": {
+        "username": "InfoBlock",
+        "email": "infoblock.official@gmail.com",
+        "discord": "InfoBlock#4792"
+    },
+    "record": {
+        "CNAME": "infoblock.github.io"
+    }
+} 
