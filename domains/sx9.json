@@ -9,6 +9,10 @@
     "note": "Im Trying Some Hosting Providers For My Website So You Might Get A Lot Of Pull Requests From Me"
   },
   "record": { 
-    "CNAME": "sx-9.github.io" 
+    "CNAME": "sx-9.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com."
+    ]
   }
 }
