@@ -1,0 +1,13 @@
+{
+  "description": "SX's Email",
+  "owner": {
+    "discord": "SX-Spy-Agent",
+    "email": "sx-91@outlook.com"
+  },
+  "records": {
+    "MX" [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  }
+{
