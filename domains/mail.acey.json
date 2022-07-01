@@ -4,9 +4,13 @@
     "email": "aceygoesboom@gmail.com",
     "discord": "AceyGoesBoom#3141"
   },
-  "description": "Personal website stuff ;-;",
+  "description": "Email for personal website",
   "repo": "https://github.com/AceyDoCodes",
   "record": {
-    "CNAME": "acey.up.railway.app"
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
