@@ -1,0 +1,11 @@
+{
+    "description": "Personal blog website",
+    "repo": "https://github.com/st3amroll/st3amroll.github.io",
+    "owner": {
+        "username": "st3amroll",
+        "email": "keter@keemail.me",
+    },
+    "record": {
+        "CNAME": "st3amroll.github.io"
+    }
+} 
