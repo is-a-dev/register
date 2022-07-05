@@ -1,0 +1,11 @@
+{
+  "description": "Vanishcode is A Coder",
+  "owner": {
+    "username": "vanishcode",
+    "email": "vanishcode@outlook.com",
+    "twitter": "vanishcode"
+  },
+  "record": {
+    "CNAME": "vanishcode.com"
+  }
+}
