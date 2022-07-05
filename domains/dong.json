@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/tinys/tinys.github.io",
+    "owner": {
+        "username": "tinys",
+        "email": "tiny0514101@163.com",
+        "twitter": "tinys"
+    },
+    "record": {
+        "CNAME": "tinys.github.io"
+    }
+} 
