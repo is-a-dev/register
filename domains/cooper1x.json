@@ -1,0 +1,11 @@
+{
+  "description": "cooper1x's personal site",
+  "repo": "https://github.com/cooper1x",
+  "owner": {
+    "username": "cooper1x",
+    "email": "cooper1x@foxmail.com"
+  },
+  "record": {
+    "CNAME": "cooper1x.github.io"
+  }
+}
