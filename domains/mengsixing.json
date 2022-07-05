@@ -1,0 +1,11 @@
+{
+  "description": "Sixing's Website",
+  "repo": "https://github.com/mengsixing/mengsixing.github.io",
+  "owner": {
+    "username": "mengsixing",
+    "email": "yinhengliben@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://mengsixing.github.io"
+  }
+}
