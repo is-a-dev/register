@@ -1,0 +1,11 @@
+	{
+    "description": "just for fun",
+    "repo": "https://github.com/wenjoy/wenjoy.github.io",
+    "owner": {
+        "username": "wenjoy",
+        "email": "laojiaodaoniu@gmail.com"
+    },
+    "record": {
+        "CNAME": "wenjoy.github.io"
+    }
+}
