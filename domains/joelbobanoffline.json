@@ -1,10 +1,11 @@
 {
-  "owner": {
-    "username": "JoelBobanOffline",
-    "email": "joelboban2007@gmail.com",
-  },
-  "description": "To use it in my personal portfolio",
-  "record": {
-    "CNAME": "joelbobanoffline.github.io"
-  }
-}
+    "description": "For Portfolio",
+    "repo": "https://github.com/JoelBobanOffline/JoelBobanOffline.github.io",
+    "owner": {
+        "username": "JoelBobanOffline",
+        "email": "joelboban2007@gmail.com"
+    },
+    "record": {
+        "CNAME": "joelbobanoffline.github.io"
+    }
+} 
