@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/hybridvamp/hybridvamp.github.io",
+    "owner": {
+        "username": "hybridvamp",
+        "email": "zainulhibath24@gmail.com",
+        "twitter": "HibathZainul"
+    },
+    "record": {
+        "CNAME": "hybridvamp.github.io"
+    }
+} 
