@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "DaInfLoop",
+    "email": "mail@dainfloop.is-a.dev"
+  },
+  
+  "record": {
+    "NS": [
+          "galileo.aternos.org",
+          "columbus.aternos.org"
+          ]
+  }
+}
