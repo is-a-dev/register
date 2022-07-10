@@ -1,0 +1,12 @@
+{
+    "description": "Personnal website of",
+    "repo": "https://github.com/alexis-elaxis/alexis-elaxis.github.io",
+    "owner": {
+        "username": "alexis-elaxis",
+        "email": "contact@alexiis.fr",
+        "twitter": "un_nalexis"
+    },
+    "record": {
+        "CNAME": "alexis-elaxis.github.io"
+    }
+} 
