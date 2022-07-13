@@ -1,12 +1,12 @@
 {
   "description": "My personal website goes here",
-  "repo": "https://github.com/bimal-inc/myportfolio",
+  "repo": "https://github.com/bimal-inc/bimal-inc.github.io",
   "owner": {
-    "username": "bimal",
+    "username": "bimal-inc",
     "email": "bimalyadavemail7@gmail.com",
     "twitter": "@bimalinc"
   },
   "record": {
-    "CNAME": "bimal-inc.github.io/myportfolio/"
+    "CNAME": "bimal-inc.github.io"
   }
 }
