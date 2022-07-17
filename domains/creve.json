@@ -1,12 +1,11 @@
 {
-  "description": "Creeoolus site bruh",
+  "description": "My site ig",
   "owner": {
-    "username": "creveoolus",
-    "email": "loyal@creve.fun"
+    "username": "Creveoolus",
+    "email": "",
+    "discord": "Creve#0727"
   },
   "record": {
-    "A": [
-      "."
-    ]
+    "CNAME": "shielded-turnip-jvcv0g342r3gnbht5wr9tpio.herokudns.com"
   }
 }
