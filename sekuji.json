@@ -1,0 +1,10 @@
+{
+  "description": "Sekuji's Personal Website",
+  "owner": {
+    "username": "sekuji",
+    "discord": "sekuji#9595"
+  },
+  "record": {
+    "CNAME": "sekuji.github.io"
+  }
+}
