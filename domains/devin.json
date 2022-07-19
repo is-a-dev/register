@@ -4,6 +4,6 @@
     "email": "athuldevin@gmail.com"
   },
   "record": {
-    "A": "140.238.255.16"
+    "A": ["140.238.255.16"]
   }
 }
