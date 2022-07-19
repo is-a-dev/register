@@ -3,9 +3,8 @@
 	"repo": "https://github.com/TianTcl/TianTcl",
 	"owner": {
 		"username": "TianTcl",
-		"email": "",
-		"twitter": "TianTcl"
+		"email": "tclwebguest@gmail.com"
 	}, "record": {
 		"CNAME": "info.TianTcl.net"
-	}, "proxied": false
+	}
 }
