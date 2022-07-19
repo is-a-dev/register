@@ -1,0 +1,11 @@
+{
+	"description": "TianTcl infosite.",
+	"repo": "https://github.com/TianTcl/TianTcl",
+	"owner": {
+		"username": "TianTcl",
+		"email": "",
+		"twitter": "TianTcl"
+	}, "record": {
+		"CNAME": "info.TianTcl.net"
+	}, "proxied": false
+}
