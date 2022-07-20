@@ -1,0 +1,11 @@
+{ 
+  "description": "My portflio website",
+  "repo": "https://github.com/Kuro0911/my-site",
+  "owner": {
+    "username": "Kuro0911",
+    "email": "dhananjaisharma09@gmail.com"
+  },
+  "record": {
+    "CNAME": "dhananjaisharma.netlify.app/"
+  }
+}
