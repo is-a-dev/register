@@ -1,0 +1,13 @@
+{
+  "description": "2b2t Minecraft proxy",
+  
+  "owner": {
+    "username": "hackermondev",
+    "email": "isadev@daniel.is-a.dev",
+    "twitter": "hackermondev"
+  },
+  
+  "record": {
+    "A": ["44.203.172.179"]
+  }
+}
