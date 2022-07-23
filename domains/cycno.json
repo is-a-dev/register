@@ -1,11 +1,12 @@
-
-    {
-      "owner": {
-        "username": "CYCNO",
-        "email": "daniyalchunna2@gmail.com"
-      },
-      "record": {
+{
+    "description": "I Want that domain because it will be very  helpful",
+    "repo": "https://github.com/CYCNO/cycno.github.io",
+    "owner": {
+        "username": "cycno",
+        "email": "daniyalchunna2@gmail.com",
+        "twitter": "<don't have one>"
+    },
+    "record": {
         "CNAME": "cycno.github.io"
-      }
     }
-  
+} 
