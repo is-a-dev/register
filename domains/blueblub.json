@@ -1,0 +1,11 @@
+{
+    "description": "Blub",
+    "repo": "https://github.com/NgVgB/NgVgB.github.io",
+    "owner": {
+        "username": "NgVgB",
+        "email": "dangnguyen101191@gmail.com"
+    },
+    "record": {
+        "CNAME": "blueblub.github.io"
+    }
+} 
