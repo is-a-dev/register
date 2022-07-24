@@ -1,0 +1,25 @@
+name: report-abuse
+description: Use this template to report abusive domains
+title: "[Report abuse]: "
+labels: ["report-abuse"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this abuse report!
+  - type: input
+    id: domain
+    attributes:
+      label: The Domain
+      description: Domain you want to report.
+      placeholder: example-domain
+    validations:
+      required: true
+  - type: textarea
+    id: Reason
+    attributes:
+      label: Reason?
+      description: Explain why you think this domain is being abused?
+      placeholder: adult content
+    validations:
+      required: true
