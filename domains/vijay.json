@@ -1,0 +1,11 @@
+{
+    "description": "Vijay's profile",
+    "repo": "https://github.com/hack-e-d/profile.github.io",
+    "owner": {
+        "username": "hack-e-d",
+        "email": "pvvijayraj1998@gmail.com",
+    },
+    "record": {
+        "CNAME": "hack-e-d.github.io/profile/"
+    }
+} 
