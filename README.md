@@ -6,6 +6,10 @@
 
 <p align="center"> <a href="https://discord.gg/PZCGHz4RhQ"><img src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2" alt="Discord"></a></p>
 
+## BETA service
+Try our new beta service to easily register the subdomain of your choice. Visit: https://open-beta.is-a.dev/
+
+
 
 ## How do I register?
 * [Fork](https://github.com/is-a-dev/register/fork) this repository.
