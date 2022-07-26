@@ -14,7 +14,7 @@ Try our new beta service to easily register the subdomain of your choice. Visit:
 ## How do I register?
 * [Fork](https://github.com/is-a-dev/register/fork) this repository.
 * Add a new `domains/your-domain-name.json` file directory to register `your-domain-name.is-a.dev`.
-* [Read the docs](https://docs.is-a.dev).
+* [Read the docs](https://is-a.dev/docs).
 * The PR will be reviewed and merged.
 * After merging, the changes will take effect within a day!
 * That's it! Done! Now go show off your cool `.is-a.dev` domain!
