@@ -1,11 +1,12 @@
-
-    {
-      "owner": {
+{
+    "description": "My Personal Landing Page!",
+    "repo": "https://github.com/MuhekoNikolas/MuhekoNikolas.github.io",
+    "owner": {
         "username": "MuhekoNikolas",
-        "email": "13nikolusmuheko@gmail.com"
-      },
-      "record": {
-        "URL": "https://nikolus.repl.co/"
-      }
+        "email": "MuhekoNikolas@mail.MuhekoNikolas.is-a.dev",
+        "twitter": "@MuhekoNikolas"
+    },
+    "record": {
+        "CNAME": "muhekonikolas.github.io.github.io"
     }
-  
+}
