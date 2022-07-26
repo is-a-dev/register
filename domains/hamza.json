@@ -1,0 +1,11 @@
+{
+   "description": "Hamza's website",
+  "owner": {
+    "username": "hamza8bit",
+    "email": "hamzabyte@gmail.com"
+  },
+  "record": {
+    "CNAME": "hamza8bit.github.io"
+    
+  }
+}
