@@ -1,1 +1,13 @@
-
+{
+  "description": "Still being made",
+  "repo": "https://github.com/NoodlesDev1/Portfolio",
+  "owner": {
+    "username": "NoodlesDev1",
+    "email": "info@InstantNoodles.is-a.dev",
+    "twitter": "DaRealOmxpro"
+  },
+  "record": {
+    "MX": ["mx1.improvmx.com","mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}
