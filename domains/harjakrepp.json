@@ -3,8 +3,9 @@
         "repo": "https://github.com/harjakrepp/harjakrepp.github.io",
         "owner": {
           "username": "Harjakrepp",
-          "email": "harjacraft@gmail.com",
-          "discord": "harjacraft#2385"
+          "email": "",
+          "discord": "harjacraft#2385",
+          "twitter": "@harjakrepp"
         },
         "record": {
           "CNAME": "harjakrepp.github.io"
