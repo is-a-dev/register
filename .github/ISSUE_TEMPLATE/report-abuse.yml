@@ -20,6 +20,5 @@ body:
     attributes:
       label: Reason?
       description: Explain why you think this domain is being abused?
-      placeholder: adult content
     validations:
       required: true
