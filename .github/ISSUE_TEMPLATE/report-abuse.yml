@@ -12,7 +12,7 @@ body:
     attributes:
       label: The Domain
       description: Domain you want to report.
-      placeholder: example-domain
+      placeholder: example.is-a.dev
     validations:
       required: true
   - type: textarea
