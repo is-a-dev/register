@@ -1,0 +1,11 @@
+{
+    "description": "Anamay's .is-a.dev domain",
+    "repo": "https://github.com/anamaykashiv/anamaykashiv.github.io",
+    "owner": {
+      "username": "anamaykashiv",
+      "email": "kashiv.anamay002@gmail.com"
+    },
+    "record": {
+       "CNAME": "anamaykashiv.github.io"
+    }
+  }
