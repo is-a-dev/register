@@ -7,6 +7,8 @@
         "discord": "isaiah08#6008" 
     },
     "record": {
-        "CNAME": "isaiah08-d.github.io"
+        "CNAME": "isaiah08-d.github.io",
+        "MX": "mx1.improvmx.com",
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 } 
