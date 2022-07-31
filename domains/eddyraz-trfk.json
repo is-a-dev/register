@@ -1,0 +1,12 @@
+{
+  "description": "Traefik Console Demo Subdomain",
+  "repo": "https://github.com/eddyraz",
+  "owner": {
+    "username": "eddyraz",
+    "email": "eddyraz.fl@gmail.com"
+  },
+  "record": {
+        "CNAME": "srv231139-206152.vps.etecsa.cu"
+  }
+  
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Mimic Services",
+  "repo": "https://github.com/mimicdotga",
+  "owner": {
+    "username": "mimicdotga",
+    "email": "hello@mimic.ga"
+  },
+  "record": {
+    "CNAME": "mimicdotga.duckdns.org"
+  }
+}

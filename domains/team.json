@@ -1,0 +1,11 @@
+{
+  "description": "The Maintainer Docs For The Is-A.Dev Website!",
+  "repo": "github.com/is-a-dev/maintainer-docs",
+  "owner": {
+    "username": "@is-a-dev/maintainers",
+    "email": "phenax5@gmail.com"
+  },
+  "record": {
+    "CNAME": "is-a-dev.github.io"
+  }
+}

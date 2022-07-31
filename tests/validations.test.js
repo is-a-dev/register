@@ -55,6 +55,9 @@ describe('validateDomainData', () => {
     { ...defaultDomain, record: { CNAME: 'foobar.com', MX: ['ALT4.ASPMX.L.GOOGLE.COM'] } },
     ...INVALID_NAMES.map(name => ({ ...defaultDomain, name })).slice(0, 1),
     { ...defaultDomain, record: { TXT: ['foobar wow nice!!!'] } },
+    { ...defaultDomain, name: 'a.b' },
+    { ...defaultDomain, name: 'ww2.baa' },
+    { ...defaultDomain, name: 'help.baa' },
   ];
 
   const validCases = [
@@ -73,6 +76,8 @@ describe('validateDomainData', () => {
     { ...defaultDomain, record: { MX: ['ALT4.ASPMX.L.GOOGLE.COM'] } },
     { ...defaultDomain, record: { TXT: 'foobar wow nice!!!' } },
     { ...defaultDomain, record: { A: ['1.1.1.1'], MX: ['mx1.example.com'] } },
+    { ...defaultDomain, name: 'gogo.foo.bar' },
+    { ...defaultDomain, name: 'ww9.baa' },
   ];
 
   it('should return false for invalid data', () => {

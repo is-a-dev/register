@@ -1,0 +1,12 @@
+{
+  "description": "TCA's official portfolio, if you can call it that.",
+  "repo": "https://github.com/NotTCA/devsite",
+  "owner": {
+    "username": "NotTCA",
+    "email": "me@nottca.tk",
+    "twitter": "https://twitter.com/imTCA_"
+  },
+  "record": {
+    "CNAME": "nottca.github.io"
+  }
+}
