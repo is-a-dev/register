@@ -1,0 +1,11 @@
+{
+  "description": "This website is a link to my personal developer portfolio.",
+  "repo": "https://github.com/mosageneral",
+  "owner": {
+    "username": "Mosa",
+    "email": "mosa.hasn.mosa@gmail.com"
+  },
+  "record": {
+    "CNAME": "mosa.github.io"
+  }
+}
