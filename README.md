@@ -6,8 +6,8 @@
 
 <p align="center"> <a href="https://discord.gg/PZCGHz4RhQ"><img src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2" alt="Discord"></a></p>
 
-## BETA service
-Try our new beta service to easily register the subdomain of your choice. Visit: https://open-beta.is-a.dev/
+## Register service
+Try our new service to easily register the subdomain of your choice. Visit: https://register.is-a.dev/
 
 
 
