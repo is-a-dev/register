@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "its-ag",
+    "email": "itsag0024@gmail.com",
+  },
+  "record": {
+    "TXT": "Hello World"
+  }
+}
