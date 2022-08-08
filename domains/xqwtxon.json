@@ -8,6 +8,7 @@
      "keybase": "@xqwtxon"
   },
   "record": {
-     "CNAME": "xqwtxon.ml"
+     "CNAME": "xqwtxon.ml",
+     "TXT": "vc-domain-verify=xqwtxon.is-a.dev,fb53522b131d3107db44"
   }
 }
