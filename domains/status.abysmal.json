@@ -1,0 +1,10 @@
+{
+  "description": "Statuspage",
+  "owner": {
+    "username": "abysmal26",
+    "email": "abysmal@disroot.org"
+  },
+  "record": {
+    "CNAME": "statuspage.betteruptime.com"
+  }
+}
