@@ -6,6 +6,11 @@
       "email": "gabrielmaciel@duck.com"
     },
     "record": {
+      "NS": [
+        "ns1.digitalocean.com.",
+        "ns2.digitalocean.com.",
+        "ns3.digitalocean.com."
+      ],
       "A": [
         "147.182.139.182"
       ]
