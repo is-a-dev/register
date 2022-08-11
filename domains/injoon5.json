@@ -5,8 +5,9 @@
         "email": "injoon5@naver.com"
       },
 
-      "record": {
-        "TXT": "_vercel=vc-domain-verify=injoon5.is-a.dev,f65a5ff63a0db9b008b1"
-      }
+      {
+        "record": {
+            "CNAME": "me.oij.vercel.app/"
+        }
     }
   
