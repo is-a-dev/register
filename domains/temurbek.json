@@ -1,0 +1,21 @@
+{
+  "description": "Front end developer domain name",
+  "repo": "https://github.com/TemurbekRuziyev/TemurbekRuziyev.github.io",
+  "owner": {
+    "username": "TemurbekRuziyev",
+    "email": "bestcoder0521@gmail.com"
+  },
+  "record": {
+    "CNAME": "TemurbekRuziyev.github.io",
+    "A": [
+      "185.203.234.0",
+      "185.203.235.0",
+      "185.203.236.0",
+      "185.203.237.0"
+    ],
+    "URL": "TemurbekRuziyev.github.io",
+    "MX": [
+      "https://temurbek.is-a.dev"
+    ]
+  }
+}
