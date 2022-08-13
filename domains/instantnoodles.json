@@ -8,6 +8,7 @@
   "record": {
     "A": ["172.66.47.94","172.66.44.162"],
     "MX": ["mx1.improvmx.com","mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "CNAME": "instantnoodles-portfolio.pages.dev"
   }
 }
