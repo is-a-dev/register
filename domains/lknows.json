@@ -1,5 +1,7 @@
 
     {
+      "description": "Link for lknow's personal site on GitHub pages",
+      "repo": "https://github.com/lknows/lknows.github.io/",
       "owner": {
         "username": "lknows",
         "email": "easyg53@gmail.com"
@@ -7,7 +9,7 @@
       },
 
       "record": {
-        "URL": "1"
+        "CNAME": "lknows.github.io"
       }
     }
   
