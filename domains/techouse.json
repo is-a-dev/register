@@ -1,0 +1,11 @@
+{
+  "repo": "https://github.com/techouse/techouse.github.io",
+  "owner": {
+    "username": "techouse",
+    "email": "techouse@gmail.com",
+    "twitter": "@nextk2"
+  },
+  "record": {
+    "CNAME": "techouse.github.io"
+  }
+}
