@@ -6,8 +6,7 @@
       "email": "TallerThanShort@duck.com"
    },
    "record": {
-      "CNAME": [
-         "TallerThanShort.github.io"
-      ]
+      "CNAME": "TallerThanShort.github.io"
+
    } 
 }
