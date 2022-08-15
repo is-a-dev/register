@@ -1,12 +1,11 @@
-
-    {
-      "owner": {
+{
+    "description": "Personal site",
+    "repo": "https://github.com/tusharhero/tusharhero.github.io",
+    "owner": {
         "username": "tusharhero",
-        "email": "tusharmaharana44676@gmail.com"
-      },
-
-      "record": {
-        "TXT": "c84447185947a39adfb909ef58b9e4"
-      }
+        "email": "tusharmaharana44676@gmail.com",
+    },
+    "record": {
+        "CNAME": "tusharhero.github.io"
     }
-  
+} 
