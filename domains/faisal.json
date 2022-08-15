@@ -1,12 +1,12 @@
 {
-  "description": "faisal's portfolio website",
-  "repo": "https://github.com/fasih4444/Portfolio-V4",
+  "description": "Faisal Portfolio Website",
+  "repo": "https://github.com/faisal-fida/faisal-fida.github.io",
   "owner": {
-    "username": "fasih4444",
+    "username": "faisal-fida",
     "email": "arainfaisal826@gmail.com",
-    "twitter": "fasih4444"
+    "twitter": "faisalfida_4"
   },
   "record": {
-    "CNAME": "faisal.vercel.app"
+    "CNAME": "faisal-fida.github.io"
   }
 }
