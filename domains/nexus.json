@@ -1,0 +1,11 @@
+{
+  "description": "Nexus.is-a.dev",
+  "repo": "https://github.com/Nexzon/nexzon.github.io",
+  "owner": {
+    "username": "Nexus",
+    "email": "uvraysxc@gmail.com"
+  },
+  "record": {
+    "CNAME": "Nexzon.github.io"
+  }
+}
