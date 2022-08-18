@@ -7,6 +7,7 @@
     "twitter": "DEV_DIBSTER"
   },
   "record": {
-      "A": ["192.95.42.74"]
+      "A": ["192.95.42.74"],
+      "TXT": "zoho-verification=zb87142129.zmverify.zoho.eu"
   }
 }

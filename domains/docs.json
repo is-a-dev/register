@@ -1,0 +1,11 @@
+{
+  "description": "Documentation website for is-a-dev/register",
+  "repo": "is-a-dev/docs",
+  "owner": {
+    "username": "@is-a-dev/maintainers",
+    "email": "mahir@molai.dev"
+  },
+  "record": {
+    "URL": "https://is-a.dev/docs"
+  }
+}

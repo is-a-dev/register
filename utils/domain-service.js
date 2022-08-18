@@ -14,7 +14,7 @@ const recordToRedirection = ({ name, address }) => ({
 });
 const recordToZone = ({ name, type, address, id, priority }) => ({
   line: id,
-  name,
+  name: name === '@' ? `${DOMAIN_DOMAIN}.` : name,
   type,
   address,
   ...(type === 'MX' ? { priority } : {}),
@@ -79,7 +79,7 @@ const executeBatch = (batches) => batches.reduce((promise, batch, index) => {
     const failed = results.filter(x => (x.result || {}).status != 1);
 
     log(`${values.length - failed.length}/${values.length}`);
-    failed.length && log(failed);
+    failed.length && log(JSON.stringify(failed, null, 2));
 
     return null;
   });
