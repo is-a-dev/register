@@ -7,7 +7,7 @@
     "twitter": "DEV_DIBSTER"
   },
   "record": {
-      "A": ["192.95.42.74"],
+      "A": ["192.95.42.66"],
       "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
       "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
