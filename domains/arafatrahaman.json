@@ -6,6 +6,9 @@
       "email": "rarafat883@gmail.com"
     },
     "record": {
-       "CNAME": "arafatrahaman.cyclic.app"
-    }
+       "CNAME":
+        {
+        "Name": "www.arafatrahaman.is-a.dev",
+        "Value": "proud-jeans-hen.cyclic.app"
+}
   }
