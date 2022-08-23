@@ -1,0 +1,10 @@
+{
+	"description": "Domain for my portfolio website",
+  "owner": {
+    "username": "GoodBoyNeon",
+    "discord": "GoodBoyNeon#2424"
+  },
+  "record": {
+    "CNAME": "goodboyneon.github.io"
+  }
+}
