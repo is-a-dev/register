@@ -1,12 +1,13 @@
 
     {
+      "description": "A personal website, for ash.",
+      "repo": "https://github.com/NatBLida68/NatBLida68.github.io",
       "owner": {
         "username": "NatBLida68",
         "email": "aswajith.jithu888@gmail.com"
       },
-
       "record": {
-        "URL": "https://natblida68.github.io"
-      }
+      "CNAME": "natblida68.github.io" 
+    }
     }
   
