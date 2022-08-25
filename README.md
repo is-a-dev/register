@@ -38,6 +38,7 @@ Also, consider starring this repo!
 You should also checkout -
 * [js.org](https://github.com/js-org/js.org/tree/master) (**NOTE**: `js.org` is specifically for JS focused project)
 * [is-a-good.dev](https://github.com/is-a-good-dev/Register)
+* [is-not-a.dev](https://is-not-a.dev)
 * [cluster.ws & wip.la](https://github.com/Olivr/free-domain)
 
 
