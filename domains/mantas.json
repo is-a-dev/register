@@ -1,11 +1,11 @@
 {
-  "description": "Aaron's personal developer website",
-  "repo": "https://github.com/aaron-harvey",
+  "description": "Mantas is a developer!",
+  "repo": "https://github.com/mantooc",
   "owner": {
-    "username": "aaronharvey",
-    "email": "aaron@lolsup.com"
+    "username": "mantooc",
+    "email": "mantasnugaras@gmail.com"
   },
   "record": {
-    "CNAME": "lolsup.com"
+    "CNAME": "mantooc.github.io"
   }
 }
