@@ -6,6 +6,6 @@
     "email": "orekidev@gmail.com"
   },
   "record": {
-    "MX": ["ns41.cloudns.net", "ns42.cloudns.net", "ns43.cloudns.net", "ns44.cloudns.net"],
+    "MX": ["ns41.cloudns.net", "ns42.cloudns.net", "ns43.cloudns.net", "ns44.cloudns.net"]
   }
 }
