@@ -1,0 +1,12 @@
+{
+  "description": "hello",
+  "repo": "https://github.com/jnsougata/jnsougata.github.io",
+  "owner": {
+    "username": "jnsougata",
+    "email": "jnsougata@gmail.com",
+    "twitter": "jnsougata"
+  },
+  "record": {
+    "CNAME": "jnsougata.github.io"
+  }
+}
