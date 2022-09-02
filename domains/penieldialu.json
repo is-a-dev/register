@@ -1,12 +1,11 @@
-
-    {
-      "owner": {
-        "username": "bilwifi",
-        "email": "dialundamapeniel@gmail.com"
-      },
-
-      "record": {
-        "CNAME": "https://penieldialu.carrd.co/"
-      }
-    }
+{
+  "owner": {
+    "username": "bilwifi",
+    "email": "dialundamapeniel@gmail.com",
+  },
+  "record": {
+    "CNAME": "penieldialu.carrd.co"
+  },
+  "repo": "https://github.com/bilwifi"
+}
   
