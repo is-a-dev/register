@@ -1,12 +1,5 @@
 {
-    "description": "Blog e portfolio",
-    "repo": "https://github.com/souzx17/anuraghazra.github.io",
-    "owner": {
-        "username": "souzx17",
-        "email": "souzx17@gmail.com",
-        "twitter": "s0uzx17"
-    },
-    "record": {
-        "CNAME": "souzx17.github.io"
-    }
-} 
+  "record": {
+    "URL": "https://viniciusfolio-one.vercel.app"
+  }
+}
