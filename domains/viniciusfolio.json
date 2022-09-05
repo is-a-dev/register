@@ -6,6 +6,6 @@
     "email": "souzx17@gmail.com"
   },
   "record": {
-    "CNAME": "x17team"
+    "TXT": "_vercel"
   }
 }
