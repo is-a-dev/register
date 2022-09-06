@@ -6,6 +6,10 @@
     "email": "mantasnugaras@gmail.com"
   },
   "record": {
-    "CNAME": "mantooc.github.io"
+    "CNAME": "mantooc.github.io",
+    "MX": [
+      "_github-pages-challenge-mantooc.mantas"
+    ],
+    "TXT": "4365199cc6b5918a987ea7c63655ca"
   }
 }
