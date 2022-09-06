@@ -1,0 +1,11 @@
+{
+    "description": "This is going to be my portfolio",
+    "repo": "https://github.com/WillowMT/mybio",
+    "owner": {
+        "username": "WillowMT",
+        "email": "waiyanmt@yahoo.com",
+    },
+    "record": {
+        "CNAME": "https://willowmt.github.io/mybio/"
+    }
+} 
