@@ -1,0 +1,11 @@
+{
+    "description": "Alphalolw's .is-a.dev domain",
+    "repo": "https://github.com/alphalolw/alphalolw.github.io",
+    "owner": {
+      "username": "alphalolw",
+      "discord": "alpha_CSGO#5372"
+    },
+    "record": {
+       "CNAME": "alphalolw.github.io"
+    }
+  }
