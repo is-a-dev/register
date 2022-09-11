@@ -33,10 +33,16 @@ const validateDomainData = validate({
       and([
         R.is(String),
         R.compose(
-          R.all(and([
-            R.compose(between(2, 100), R.length),
-            testRegex(/^[a-z0-9-]+$/g),
-            R.complement(R.includes(R.__, INVALID_NAMES)),
+          R.all(or([
+            and([
+              testRegex(/^_github-pages-challenge-[a-z0-9-_]+$/i), // Exception for github verification records
+              R.complement(R.includes(R.__, INVALID_NAMES)),
+            ]),
+            and([
+              R.compose(between(2, 100), R.length),
+              testRegex(/^[a-z0-9-]+$/g),
+              R.complement(R.includes(R.__, INVALID_NAMES)),
+            ])
           ])),
           R.split('.'),
         ),
