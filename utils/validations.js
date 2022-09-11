@@ -25,6 +25,8 @@ const validateMXRecord = type => and([
   R.propSatisfies(R.all(isValidDomain), type),
 ]);
 
+const checkRestrictedNames = R.complement(R.includes(R.__, INVALID_NAMES))
+
 const validateDomainData = validate({
   name: {
     reason: 'The name of the file is invalid. It must be lowercased, alphanumeric and each component must be more than 2 characters long',
@@ -36,12 +38,12 @@ const validateDomainData = validate({
           R.all(or([
             and([
               testRegex(/^_github-pages-challenge-[a-z0-9-_]+$/i), // Exception for github verification records
-              R.complement(R.includes(R.__, INVALID_NAMES)),
+              checkRestrictedNames,
             ]),
             and([
               R.compose(between(2, 100), R.length),
               testRegex(/^[a-z0-9-]+$/g),
-              R.complement(R.includes(R.__, INVALID_NAMES)),
+              checkRestrictedNames,
             ])
           ])),
           R.split('.'),
