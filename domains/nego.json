@@ -3,9 +3,9 @@
   "repo": "https://github.com/kardespro/kardespro.github.io",
   "owner": {
     "username": "nego",
-    "email": "devnego@gmail.com"
+    "email": "nego@mail.az"
   },
   "record": {
-    "CNAME": "negodev.tk"
+    "TXT": "vc-domain-verify=nego.is-a.dev,e190fc60d32d52d529c0"
   }
 }
