@@ -58,6 +58,7 @@ describe('validateDomainData', () => {
     { ...defaultDomain, name: 'a.b' },
     { ...defaultDomain, name: 'ww2.baa' },
     { ...defaultDomain, name: 'help.baa' },
+    { ...defaultDomain, name: '_github-pages-challenge-is-a-dev' },
   ];
 
   const validCases = [
@@ -78,6 +79,9 @@ describe('validateDomainData', () => {
     { ...defaultDomain, record: { A: ['1.1.1.1'], MX: ['mx1.example.com'] } },
     { ...defaultDomain, name: 'gogo.foo.bar' },
     { ...defaultDomain, name: 'ww9.baa' },
+    { ...defaultDomain, name: '_github-pages-challenge-phenax.akshay' },
+    { ...defaultDomain, name: '_github-pages-challenge-hello01-ga' },
+    { ...defaultDomain, name: '_github-pages-challenge-hello01_ga' },
   ];
 
   it('should return false for invalid data', () => {
