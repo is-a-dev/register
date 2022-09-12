@@ -1,0 +1,11 @@
+{ 
+   "description": "0xMRTT's personal developer website", 
+   "repo": "https://github.com/0xMRRT/0xMRTT.github.io", 
+   "owner": { 
+     "username": "0xMRTT", 
+     "email": "0xMRTT@ptoton.me" 
+   }, 
+   "record": { 
+     "CNAME": "0xMRTT.github.io" 
+   } 
+ }
