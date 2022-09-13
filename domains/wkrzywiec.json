@@ -1,9 +1,9 @@
 {
-    "description": "My blog and portfolio",
+    "description": "My blog",
     "repo": "https://github.com/wkrzywiec/wkrzywiec.github.io",
     "owner": {
         "username": "wkrzywiec",
-        "email": "wojciechkrzywiec@gmail.com",
+        "email": "",
         "twitter": "wkrzywiec"
     },
     "record": {
