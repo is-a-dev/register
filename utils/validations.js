@@ -37,7 +37,7 @@ const validateDomainData = validate({
         R.compose(
           R.all(or([
             and([
-              testRegex(/^_github-pages-challenge-[a-z0-9-_]+$/i), // Exception for github verification records
+              testRegex(/^_github(-pages)?-challenge-[a-z0-9-_]+$/i), // Exception for github verification records
               checkRestrictedNames,
             ]),
             and([

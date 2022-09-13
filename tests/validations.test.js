@@ -59,6 +59,7 @@ describe('validateDomainData', () => {
     { ...defaultDomain, name: 'ww2.baa' },
     { ...defaultDomain, name: 'help.baa' },
     { ...defaultDomain, name: '_github-pages-challenge-is-a-dev' },
+    { ...defaultDomain, name: '_github-challenge-is-a-dev' },
   ];
 
   const validCases = [
@@ -82,6 +83,9 @@ describe('validateDomainData', () => {
     { ...defaultDomain, name: '_github-pages-challenge-phenax.akshay' },
     { ...defaultDomain, name: '_github-pages-challenge-hello01-ga' },
     { ...defaultDomain, name: '_github-pages-challenge-hello01_ga' },
+    { ...defaultDomain, name: '_github-challenge-phenax.akshay' },
+    { ...defaultDomain, name: '_github-challenge-hello01-ga' },
+    { ...defaultDomain, name: '_github-challenge-hello01_ga' },
   ];
 
   it('should return false for invalid data', () => {
