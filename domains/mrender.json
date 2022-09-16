@@ -1,0 +1,11 @@
+{
+    "description": "redirects to website",
+    "repo": "https://github.com/MrEnder0/MrEnder0.github.io",
+    "owner": {
+        "username": "MrEnder0",
+        "discord": "MrEnder#0001"
+    },
+    "record": {
+        "CNAME": "MrEnder0.github.io"
+    }
+} 
