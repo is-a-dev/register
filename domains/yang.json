@@ -1,0 +1,12 @@
+
+{
+    "description": "one personal blog",
+    "repo": "https://github.com/xuchao996/xuchao996.github.io",
+    "owner": {
+           "username": "xuchao996",
+           "email": "chao.xu996@gmail.com"
+    },
+    "record": {
+        "CNAME": "xuchao996.github.io"
+    }
+} 

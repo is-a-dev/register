@@ -6,14 +6,18 @@
 
 <p align="center"> <a href="https://discord.gg/PZCGHz4RhQ"><img src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2" alt="Discord"></a></p>
 
+## Register service
+Try our new service to easily register the subdomain of your choice. Visit: https://register.is-a.dev/
+
+
 
 ## How do I register?
-* Fork this repository
-* Add a new `domains/your-domain-name.json` file directory to register `your-domain-name.is-a.dev`
-* [Read the docs](./docs)
-* The PR will be reviewed and merged
-* After merging, the changes will take effect within a day
-* That's it! Done! Now go show off your cool `.is-a.dev` domain
+* [Fork](https://github.com/is-a-dev/register/fork) this repository.
+* Add a new `domains/your-domain-name.json` file directory to register `your-domain-name.is-a.dev`.
+* [Read the docs](https://is-a.dev/docs).
+* The PR will be reviewed and merged.
+* After merging, the changes will take effect within a day!
+* That's it! Done! Now go show off your cool `.is-a.dev` domain!
 
 
 
@@ -33,16 +37,18 @@ Also, consider starring this repo!
 ## Similar services
 You should also checkout -
 * [js.org](https://github.com/js-org/js.org/tree/master) (**NOTE**: `js.org` is specifically for JS focused project)
-* [runs-on.tech](https://github.com/aakhilv/runs-on.tech)
+* [is-a-good.dev](https://github.com/is-a-good-dev/Register)
+* [is-not-a.dev](https://is-not-a.dev)
+* [cluster.ws & wip.la](https://github.com/Olivr/free-domain)
 
 
 
 ## Uptime
 
-![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787472645-ec25e3920c7af893a7c66f19?label=uptime%20-%20dns&style=for-the-badge)
-![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787472617-240f4d61a5439a87becb2cf9?label=uptime%20-%20redirections&style=for-the-badge)
+[![Uptime Robot ratio dns(30 days)](https://img.shields.io/uptimerobot/ratio/m787472645-ec25e3920c7af893a7c66f19?label=uptime%20-%20dns&style=for-the-badge)](https://stats.uptimerobot.com/zY4XKIRVzw)
+[![Uptime Robot ratio redirect(30 days)](https://img.shields.io/uptimerobot/ratio/m787472617-240f4d61a5439a87becb2cf9?label=uptime%20-%20redirections&style=for-the-badge)](https://stats.uptimerobot.com/zY4XKIRVzw)
 
-You can check the uptime of the service via [our status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw)
+You can check the uptime of the service via [our status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw).
 
 
 

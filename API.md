@@ -1,1 +1,1 @@
-Moved to [./docs](./docs)
+Moved to [docs](https://is-a.dev/docs)

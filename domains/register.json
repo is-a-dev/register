@@ -1,0 +1,11 @@
+{
+  "description": "The subdomain for the Is-a.Dev Web Registration Dashboard (Incomplete)",
+  "repo": "https://github.com/is-a-dev",
+  "owner": {
+    "username": "@is-a.dev/maintainers",
+    "email": "mahir@molai.dev"
+  },
+  "record": {
+    "CNAME": "register-53h.pages.dev"
+  }
+}
