@@ -8,6 +8,6 @@
   "record": {
     "A": ["74.201.25.77"],
     "MX": ["mail.tnstudios.ca"],
-    "TXT": "v=spf1 a:webmail.tnstudios.ca a:mail.talosbot.xyz ~all"
+    "TXT": "v=spf1 a:webmail.tnstudios.ca a:mail.talosbot.xyz a:mail.tnstudios.ca ~all"
   }
 }
