@@ -1,0 +1,11 @@
+{
+    "description": "Personal website",
+    "repo": "https://github.com/axindev/axindev.github.io",
+    "owner": {
+        "username": "axindev",
+        "discord": "axin!#0001"
+    },
+    "record": {
+        "CNAME": "axindev.github.io"
+    }
+}
