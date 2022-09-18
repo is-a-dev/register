@@ -7,6 +7,10 @@
   },
   "record": {
     "URL": "http://www.is-a.dev",
-    "TXT": "google-site-verification=jxUxBquLRsSLsUNUqYYB3EfN7X_IuVZ5Ff-ZfElMBOQ"
+    "TXT": "google-site-verification=jxUxBquLRsSLsUNUqYYB3EfN7X_IuVZ5Ff-ZfElMBOQ",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
   }
 }
