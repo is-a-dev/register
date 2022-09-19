@@ -1,0 +1,11 @@
+{
+    "description": "for my github pages",
+    "repo": "https://github.com/erdwpe/erdwpe.github.io",
+    "owner": {
+        "username": "erdwpe",
+        "email": "erdwpe@gmail.com"
+    },
+    "record": {
+        "CNAME": "erdwpe.github.io"
+    }
+} 
