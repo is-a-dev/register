@@ -1,0 +1,12 @@
+{
+  "description": "Victor Menezes Personal Website",
+  "repo": "https://github.com/teixeiravictor/my-blog",
+  "owner": {
+    "username": "teixeiravictor",
+    "email": "victormenezes8990@gmail.com"
+  },
+  "record": {
+    "A": ["168.220.95.204"],
+    "AAAA": ["2a09:8280:1::699c"]
+  }
+}
