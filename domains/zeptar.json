@@ -1,12 +1,12 @@
 {
-  "description": "Zeptar's Official Homepage",
-  "repo": "https://github.com/Zeptar1069/zeptar1069.github.io",
+  "description": "Zeptar's Personal Homepage",
+  "repo": "https://github.com/Zeptar1069/zeptar.is-a.dev",
   "owner": {
     "username": "Zeptar1069",
     "email": "terryk.onekorea@gmail.com",
     "discord": "Zeptar#7310"
   },
   "record": {
-    "CNAME": "zeptar-is-a-dev.pages.dev"
+    "CNAME": "3000-zeptar1069-zeptarisadev-cxm5848ajnq.ws-us67.gitpod.io"
   }
 }
