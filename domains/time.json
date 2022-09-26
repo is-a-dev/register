@@ -2,11 +2,12 @@
     {
       "owner": {
         "username": "eastisup",
-        "email": "weeksb@bentonvillek12.org"
+        "email": "hi@eastisup.com"
       },
 
       "record": {
-        "CNAME": "e1c0a366-dc65-4e70-9219-2f7213a8803d.id.repl.co"
+        "CNAME": "e1c0a366-dc65-4e70-9219-2f7213a8803d.id.repl.co",
+        "TXT": "replit-verify=e1c0a366-dc65-4e70-9219-2f7213a8803d"
       }
     }
   
