@@ -1,12 +1,13 @@
-
-    {
-      "owner": {
-        "username": "Sylestic",
-        "email": "sylestic@protonmail.com"
-      },
-
-      "record": {
-        "CNAME": "sylestic.github.io"
-      }
-    }
-  
+{
+   "owner":{
+      "username":"Sylestic",
+      "email":"sylestic@protonmail.com"
+   },
+   "record":{
+      "MX":[
+         "mx1.improvmx.com",
+         "mx2.improvmx.com"
+      ],
+      "CNAME":"sylestic.github.io"
+   }
+}
