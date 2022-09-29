@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
-        "username": "Sany07",
-        "email": "sany.baust@gmail.com"
-      },
-
-      "record": {
-        "TXT": "sany"
-      }
-    }
-  
+{
+   "repo":"https://github.com/sany07/sany07.github.io",
+   "owner":{
+    "username": "Sany07",
+    "email": "sany.baust@gmail.com"
+   },
+   "record":{
+      "CNAME":"sany07.github.io"
+   }
+}
