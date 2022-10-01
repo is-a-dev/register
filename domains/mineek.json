@@ -1,0 +1,12 @@
+{
+    "description": "My personal website",
+    "repo": "https://github.com/mineek/mineek.github.io",
+    "owner": {
+        "username": "mineek",
+        "email": "",
+        "discord": "Mineek#6323"
+    },
+    "record": {
+        "CNAME": "mineek.github.io"
+    }
+}

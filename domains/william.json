@@ -1,12 +1,10 @@
 {
   "owner": {
     "username": "WilliamDavidHarrison",
-    "email": "",
-    "twitter": "WDHarrison09",
-    "discord": "William#0001"
+    "email": "william@williamharrison.dev"
   },
 
   "record": {
-    "URL": "https://williamharrison.dev"
+    "CNAME": "edge.redirect.pizza"
   }
 }

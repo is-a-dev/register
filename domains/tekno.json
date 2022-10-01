@@ -1,5 +1,5 @@
 {
-  "description": "Custom domain for my personal github pages site",
+  "description": "Custom domain for my personal site",
   "repo": "https://github.com/TeknoSenpai/teknosenpai.github.io",
   "owner": {
     "username": "TeknoSenpai",
@@ -7,6 +7,8 @@
     "twitter": "@TeknoSenpai"
   },
   "record": {
-    "CNAME": "teknosenpai.github.io"
+    "A": [
+      "173.212.245.116"
+    ]
   }
 }
