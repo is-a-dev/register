@@ -6,6 +6,6 @@
     "email": "plainrock@seznam.cz"
   },
   "record": {
-    "CNAME": "4f24cfe3-7cf9-422c-8861-31f6e8947588.id.repl.co"
+    "A": ["129.151.254.58"]
   }
 }
