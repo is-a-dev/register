@@ -1,12 +1,12 @@
 
-    {
-      "owner": {
-        "username": "neoryans",
-        "email": "ryansneo@gmail.com"
-      },
-
-      "record": {
-        "URL": "2"
-      }
+{
+    "description": "Haykaody Portfolio Website",
+    "repo": "https://github.com/neoryans/haykaody",
+    "owner": {
+      "username": "neoryans",
+      "email": "ryansneo@gmail.com"
+    },
+    "record": {
+      "CNAME": "neoryans.github.io/haykaody"
     }
-  
+}
