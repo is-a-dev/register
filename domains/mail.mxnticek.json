@@ -6,6 +6,8 @@
     "email": "plainrock@seznam.cz"
   },
   "record": {
-    "A": ["129.151.254.58"]
+    "MX": ["d9025d2074984e72.mx2.emailprofi.seznam.cz",
+           "d9025d2074984e72.mx1.emailprofi.seznam.cz"
+          ]
   }
 }
