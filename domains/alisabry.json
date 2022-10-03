@@ -1,9 +1,10 @@
 {
+"repo": "https://alisabry.netlify.app",
  "owner": {
     "username": "ali-sabry",
     "email": "alisabry.official@gmail.com"
   },
   "record": {
-    "CNAME": "alisabry.netlify.app"
+    "CNAME": "alisabry.is-a.dev"
   }
 }
