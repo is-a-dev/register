@@ -1,0 +1,11 @@
+{
+  "description": "Dano's resume",
+  "repo": "https://github.com/dano-syrus/dano-syrus.github.io",
+  "owner": {
+    "username": "dano-syrus",
+    "email": "danosyrus@tuta.io"
+  },
+  "record": {
+    "CNAME": "dano.is-a.dev"
+  }
+}
