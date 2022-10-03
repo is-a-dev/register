@@ -1,21 +1,11 @@
 {
-
     "description": "My Portfolio",
-
     "repo": "https://github.com/KoshikKumar17/KoshikKumar17.github.io",
-
     "owner": {
-
         "username": "koshikkumar17",
-
         "email": "cw4rriors17@gmail.com"
-
     },
-
     "record": {
-
-        "URL": "https://koshikkumar17.github.io/home"
-
+        "CNAME": "koshikkumar17.github.io"
     }
-
 }
