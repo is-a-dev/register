@@ -1,11 +1,11 @@
 {
-  "description": "The subdomain for the Is-a.Dev Web Registration Dashboard (Incomplete)",
-  "repo": "https://github.com/is-a-dev",
-  "owner": {
-    "username": "@is-a.dev/maintainers",
-    "email": "mahir@molai.dev"
-  },
-  "record": {
-    "CNAME": "register-53h.pages.dev"
-  }
-}
+      "owner": {
+        "username": "is-a-dev-bot",
+        "email": "is-a-dev@win11react.com"
+      },
+
+      "record": {
+        "A": ["204.44.81.53"],
+        "MX": ["box.is-not-a.dev"]
+      }
+    }
