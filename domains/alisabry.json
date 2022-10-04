@@ -1,10 +1,15 @@
-{
-"repo": "https://alisabry.netlify.app",
- "owner": {
-    "username": "ali-sabry",
-    "email": "alisabry.official@gmail.com"
-  },
-  "record": {
-    "CNAME": "alisabry.is-a.dev"
-  }
-}
+
+
+
+    {
+      "owner": {
+        "username": "ali-sabry",
+        "email": "alisabry.official@gmail.com"
+      },
+
+      "record": {
+        "URL": "https://alisabry.is-a.dev"
+      }
+    }
+  
+
