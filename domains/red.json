@@ -1,0 +1,11 @@
+{
+  "description": "yes",
+  "repo": "",
+  "owner": {
+    "username": "StandRed",
+    "email": "hello@standred.dev"
+  },
+  "record": {
+    "CNAME": "standred.dev"
+  }
+}
