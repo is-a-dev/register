@@ -4,10 +4,6 @@
       "email":"sylestic@protonmail.com"
    },
    "record":{
-      "MX":[
-         "mx1.improvmx.com",
-         "mx2.improvmx.com"
-      ],
       "CNAME":"sylestic.github.io"
    }
 }
