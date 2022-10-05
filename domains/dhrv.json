@@ -1,0 +1,11 @@
+{
+    "description": "adding .is-a.dev domain as an alt url for my site.",
+    "repo": "https://github.com/0xdhrv/page",
+    "owner": {
+        "username": "0xdhrv",
+        "email": "intelligentjimmy@gmail.com"
+    },
+    "record": {
+        "CNAME": "card.dhrv.pw"
+    }
+} 
