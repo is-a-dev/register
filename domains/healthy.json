@@ -1,0 +1,11 @@
+{
+  "description": "hosting a bio",
+  "repo": "https://github.com/cx622/cx622.github.io",
+  "owner": {
+    "username": "cx622",
+    "email": "this-email@is-sus.com"
+  },
+  "record": {
+    "CNAME": "cx622.github.io"
+  }
+}
