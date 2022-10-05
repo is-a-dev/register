@@ -1,0 +1,11 @@
+{
+  "description": "my blog",
+  "repo": "",
+  "owner": {
+    "username": "StandRed",
+    "email": "hello@standred.dev"
+  },
+  "record": {
+    "CNAME": "glitch.edgeapp.net"
+  }
+}
