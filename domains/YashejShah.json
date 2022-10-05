@@ -1,12 +1,13 @@
 
     {
+      "description": "A personal portfolio site for myself"
       "owner": {
         "username": "YashejShah",
         "email": "yashej.shah@gmail.com"
       },
 
       "record": {
-        "CNAME": "YashejShah"
+        "CNAME": "YashejShah.github.io"
       }
     }
   
