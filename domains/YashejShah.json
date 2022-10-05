@@ -1,13 +1,11 @@
-
-    {
-      "description": "A personal portfolio site for myself"
-      "owner": {
-        "username": "YashejShah",
-        "email": "yashej.shah@gmail.com"
-      },
-
-      "record": {
-        "CNAME": "YashejShah.github.io"
-      }
-    }
-  
+{
+  "description": "YASHEJSHAH.is-a.dev",
+  "repo": "github.com/YashejShah/yashej.github.io",
+  "owner": {
+    "username": "YashejShah",
+    "email": "yashej.shah@gmail.com"
+  },
+  "record": {
+    "CNAME": "YashejShah.github.io"
+  }
+}
