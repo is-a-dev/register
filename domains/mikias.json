@@ -1,0 +1,12 @@
+{
+    "description": "This will be my portfolio",
+    "repo": "https://github.com/mikiasendale/mikiasendale.github.io",
+    "owner": {
+        "username": "mikiasendale",
+        "email": "mikiasendale91@gmail.com",
+        "twitter": "gedelbebila"
+    },
+    "record": {
+        "CNAME": "mikiasendale.github.io"
+    }
+} 
