@@ -1,6 +1,5 @@
 {
-  "description": "larrystudios.is-a.dev",
-  "repo": "https://github.com/larrystudios/larrystudios.github.io",
+  "description": "Official Website for Larry Studios™",
   "owner": {
     "username": "kornls",
     "email": "larryst.korn@gmail.com"
@@ -9,3 +8,4 @@
     "CNAME": "larrystudios.github.io"
   }
 }
+  
