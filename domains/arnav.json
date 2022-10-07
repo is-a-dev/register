@@ -6,7 +6,8 @@
       },
 
       "record": {
-        "A": ["199.36.158.100"]
+        "CNAME": ["arnav-kr.github.io"],
+        "TXT": ["google-site-verification=BIsHFi7TKijw-rS3fXwzHQBATa3PnN0b1b09c0EsdYA"]
       }
     }
   
