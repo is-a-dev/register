@@ -6,6 +6,10 @@
     "email": "hello@standred.dev"
   },
   "record": {
-    "URL": "https://www.standred.dev"
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ]
+    "TXT": "forward-email=hello@standred.dev"
   }
 }
