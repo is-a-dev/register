@@ -1,12 +1,10 @@
-
     {
-      "owner": {
+     "owner": {
         "username": "ali-sabry",
         "email": "alisabry.official@gmail.com"
       },
 
       "record": {
-        "URL": "https://alisabry.is-a.dev"
-      }
+        "URL": "https://alisabry.netlify.app"
+      } 
     }
-  
