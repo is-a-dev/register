@@ -6,6 +6,7 @@
     "email": "kurtbot60@gmail.com"
   },
   "record": {
-    "CNAME": "nicat-dcw.github.io"
+    "CNAME": "nicat-dcw.xyz",
+    "TXT":"replit-verify=f90d05fc-8184-4258-8da3-5f63c62119c9"
   }
 }
