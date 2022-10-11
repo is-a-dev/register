@@ -1,0 +1,13 @@
+{
+    "description": "JunioKOI blog",
+    "repo": "https://github.com/juniokoi/juniokoi.github.io",
+    "owner": {
+        "username": "juniokoi",
+        "email": "fjuniokoi@gmail.com",
+        "twitter": "juniokoi"
+    },
+    "record": {
+        "CNAME": "juniokoi.github.io"
+    }
+} 
+
