@@ -2,11 +2,14 @@
     {
       "owner": {
         "username": "lewsley-r",
-        "email": "lewsley-r@ulster.ac.uk"
+        "email": "lewsley-r@ulster.ac.uk",
+        "name": "Ronan Lewsley",
+        "role": "junior full stack dev"
+        "github-link": "https://github.com/lewsley-r"
       },
 
       "record": {
-        "CNAME": ["https://lewsley-r.github.io/portfolio-prod"]
+        "CNAME": ["https://lewsley-r.github.io"]
       }
     }
   
