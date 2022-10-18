@@ -1,1 +1,13 @@
 
+{
+    "description": "For showcasing my projects",
+    "repo": "https://github.com/UltimaDual/Register.github.io",
+    "owner": {
+        "username": "UltimaDual",
+        "email": "imat@is-a-dev.ml",
+        "twitter": "iMat-Dev"
+    },
+    "record": {
+        "CNAME": "imat.github.io"
+    }
+} 
