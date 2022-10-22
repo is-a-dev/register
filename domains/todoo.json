@@ -1,0 +1,12 @@
+{
+    "description": "To publish my todo list tool with ur nice subdomain",
+    "repo": "https://iibeboq.github.io/todo/",
+    "owner": {
+        "username": "iibeboq",
+        "email": "hi@beboq.xyz",
+        "twitter": "ce3s"
+    },
+    "record": {
+        "CNAME": "iibeboq.github.io/todo"
+    }
+} 
