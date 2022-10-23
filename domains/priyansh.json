@@ -1,0 +1,11 @@
+    { 
+       "owner": { 
+         "username": "priyansh", 
+         "email": "hello@priyansh.xyz" 
+       }, 
+  
+       "record": { 
+         "CNAME": ["priyanshdotxyz.github.io"] 
+       } 
+     } 
+   
