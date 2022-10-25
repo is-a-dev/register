@@ -7,7 +7,6 @@
     "username": "brucewangyq"
   },
   "record": {
-    "TXT": "vc-domain-verify=bruce.is-a.dev,a33081fa59e0ed06cc4b",
-    "URL": "https://bruce-portfolio-v2.vercel.app"
+    "CNAME": "brucewangyq.github.io"
   }
 }
