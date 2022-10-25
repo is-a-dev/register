@@ -1,0 +1,13 @@
+{
+  "description": "bruce is a dev",
+  "repo": "https://github.com/brucewangyq",
+  "owner": {
+    "email": "brucewangyq@gmail.com",
+    "twitter": "brucewangdev",
+    "username": "brucewangyq"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=bruce.is-a.dev,a33081fa59e0ed06cc4b",
+    "URL": "https://bruce-portfolio-v2.vercel.app"
+  }
+}
