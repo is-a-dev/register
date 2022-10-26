@@ -1,0 +1,11 @@
+{
+  "description": "man is a dev",
+  "repo": "https://github.com/mazko/mazko.github.io",
+  "owner": {
+    "username": "mazko",
+    "email": "mazkooleg@gmail.com"
+  },
+  "record": {
+    "CNAME": "mazko.github.io"
+  }
+}
