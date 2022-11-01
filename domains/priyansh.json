@@ -1,0 +1,15 @@
+{ 
+   "owner": { 
+     "username": "priyanshdotxyz", 
+     "email": "hello@priyansh.xyz" 
+   }, 
+  
+   "target": { 
+     "CNAME": { 
+       "name": "priyansh", 
+       "value": "priyanshdotxyz.github.io" 
+     } 
+   }, 
+  
+   "proxied": false 
+ }
