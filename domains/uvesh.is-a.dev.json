@@ -1,0 +1,12 @@
+{
+    "description": "uvesh's .is-a.dev domain",
+    "owner": {
+      "username": "UveshRajwani",
+      "email": "uveshrajwani786@gmail.com"
+    },
+    "record": {
+       "A": [
+      "167.86.86.55"
+    ]
+    }
+  }
