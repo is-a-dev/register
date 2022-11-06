@@ -1,0 +1,12 @@
+{
+    "description": "a website",
+    "repo": "https://github.com/DarcoZav/Darcoz.github.io",
+    "owner": {
+        "username": "DarcoZav",
+        "email": "zarconxorp@gmail.com",
+        "twitter": "ZarcoZxacy"
+    },
+    "record": {
+        "CNAME": "darcozav.github.io"
+    }
+}
