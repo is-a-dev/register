@@ -6,7 +6,8 @@
       },
 
       "record": {
-        "URL": "pendrajwer.eu"
+        "NS": "dns1.ct8.pl",
+        "NS": "dns2.ct8.pl"
       }
     }
   
