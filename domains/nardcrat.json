@@ -1,0 +1,11 @@
+{
+    "description": "use for the main site for protfolio",
+    "repo": "https://github.com/meetkool/meetkool",
+    "owner": {
+        "username": "meetkool",
+        "email": "doomlol@protonmail.com"
+    },
+    "record": {
+        "CNAME": "meetssh.ml"
+    }
+}

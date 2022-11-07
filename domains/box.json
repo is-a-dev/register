@@ -1,0 +1,12 @@
+
+    {
+      "owner": {
+        "username": "Default-Box",
+        "email": "thedefaultbox@gmail.com"
+      },
+
+      "record": {
+        "CNAME": "my-website-production-1d23.up.railway.app"
+      }
+    }
+  

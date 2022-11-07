@@ -1,0 +1,12 @@
+{
+    "description": "A subdomain for iamcc.github.io",
+    "repo": "https://github.com/iamcc/iamcc.github.io",
+    "owner": {
+        "username": "iamcc",
+        "email": "sic.hcq@gmail.com",
+        "twitter": "arm_cc"
+    },
+    "record": {
+        "CNAME": "iamcc.github.io"
+    }
+} 
