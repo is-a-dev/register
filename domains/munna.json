@@ -1,0 +1,14 @@
+{
+  "description": "Subdomain of is-a.dev for my profile card. I use inifnityFree as hosting if it is necessary to let you know<3",
+  "repo": "https://github.com/olokbd/",
+  "owner": {
+    "username": "olokbd",
+    "discord": "Munna#8652"
+  },
+  "record": {
+      "CNAME": [
+          "ns1.epizy.com",
+          "ns2.epizy.com"
+      ]
+  }
+}
