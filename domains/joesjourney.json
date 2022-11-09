@@ -1,5 +1,12 @@
-{
-  "owner": {
-    "username": "<Joe-is-Coing>",
-    "email": "<stickeman715@gmail.com>"
-  }
+
+    {
+      "owner": {
+        "username": "Joe-is-Coding",
+        "email": "stickeman715@gmail.com"
+      },
+
+      "record": {
+        "CNAME": "joe-is-coding.github.io"
+      }
+    }
+  
