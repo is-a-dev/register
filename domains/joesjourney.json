@@ -6,7 +6,9 @@
       },
 
       "record": {
-        "CNAME": "joe-is-coding.github.io"
+        "CNAME": "joe-is-coding.github.io",
+        "MX": ["mx.mailtie.com"],
+        "TXT": "mailtie=joesjourney500@gmail.com"
       }
     }
   
