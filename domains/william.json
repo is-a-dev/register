@@ -9,6 +9,6 @@
 
     "MX": ["mail.williamharrison.xyz"],
 
-    "TXT": "v=spf1 include:mail.williamharrison.xyz -all"
+    "TXT": "v=spf1 mx a:mail.williamharrison.xyz ~all"
   }
 }
