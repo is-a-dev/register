@@ -1,0 +1,11 @@
+{
+    "description": "Tech Website",
+    "repo": "https://github.com/5MysterySD/5mysterysd.github.io",
+    "owner": {
+      "username": "5MysterySD",
+      "email": "mysterysd.sd@gmail.com"
+    },
+    "record": {
+       "CNAME": "5mysterysd.github.io"
+    }
+}
