@@ -1,0 +1,11 @@
+{
+    "description": "Probir Sarkar's personal website",
+    "repo": "https://github.com/probir-sarkar/probirsarkar.in",
+    "owner": {
+        "username": "probir-sarkar",
+        "email": "probirsarkar855@gmail.com"
+    },
+    "record": {
+        "CNAME": "probir-sarkar.github.io"
+    }
+}
