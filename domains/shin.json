@@ -7,6 +7,8 @@
     "twitter": "tachib_shin"
   },
   "record": {
-    "CNAME": "tachibana-shin.github.io"
+    "CNAME": "tachibana-shin.github.io",
+    "MX": "mx1.improvmx.com",
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
