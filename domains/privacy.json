@@ -5,8 +5,8 @@
         "email": "null"
       },
       "record": {
-        "MX": ["mx.mailtie.com"],
-        "TXT": "mailtie={https://ptsv2.com/t/9i2nf-1668704888/post}"
+        "MX": ["mx1.forwardemail.net"],
+        "TXT": "forward-email=https://enltzyonuh2t.x.pipedream.net"
       }
     }
     
