@@ -2,14 +2,14 @@
     {
       "owner": {
         "username": "is-a-dev-bot",
-        "email": "null"
+        "email": "is-a-dev.technicalservices@beadman-network.com"
       },
       "record": {
         "MX": [
           "mx1.forwardemail.net",
           "mx2.forwardemail.net"
               ],
-        "TXT": "forward-email=https://enltzyonuh2t.x.pipedream.net"
+        "TXT": "forward-email=https://register.is-a.dev/api/privacy"
       }
     }
     
