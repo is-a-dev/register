@@ -9,7 +9,7 @@
           "mx1.forwardemail.net",
           "mx2.forwardemail.net"
               ],
-        "TXT": "forward-email=https://register.is-a.dev/api/privacy"
+        "TXT": "forward-email=privacy.isdev.localplayer.dev"
       }
     }
     
