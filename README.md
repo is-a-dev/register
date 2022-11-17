@@ -7,6 +7,13 @@
 ## Registration
 Try out our new fast and easy subdomain registration service [here](https://register.is-a.dev)!
 
+Or via the CI
+
+```bash
+  npm install @is-a-dev/cli -g
+  is-a-dev create
+```  
+
 **Manual Registration**:
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
