@@ -1,0 +1,12 @@
+ 
+    {
+      "owner": {
+        "username": "is-a-dev-bot",
+        "email": "null"
+      },
+      "record": {
+        "MX": ["mx.mailtie.com"],
+        "TXT": "mailtie={https://webhook.site/70e831dc-3cbf-4e4d-ab88-b10e8f80136b}?format=raw"
+      }
+    }
+    
