@@ -1,14 +1,10 @@
 {
   "owner": {
     "username": "WilliamDavidHarrison",
-    "email": "admin@william.is-a.dev"
+    "email": "william@williamharrison.dev"
   },
 
   "record": {
-    "A": ["51.161.153.115"],
-
-    "MX": ["mail.williamharrison.xyz"],
-
-    "TXT": "v=spf1 mx a:mail.williamharrison.xyz ~all"
+    "CNAME": "dns.williamharrison.xyz"
   }
 }
