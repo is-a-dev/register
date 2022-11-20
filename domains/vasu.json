@@ -1,13 +1,13 @@
 {
   "description": "Vasu's personal developer website",
-  "repo": "https://vasu-xd.github.io/Vasu-xD/", "https://vasuxd.github.io/VasuXD/",
+  "repo": "https://github.com/vasu-xd/VasuXD/",
   "owner": {
-    "username": "Vasu-xD", "VasuXD",
+    "username": "Vasu-xD",
     "email": "mr.v4su@gmail.com"
-    "telegram": "VasuXD","Vasu_xD",
-    "github": "VasuXD","Vasu-xD",
+    "telegram": "VasuXD",
+    "github": "VasuXD"
   },
   "record": {
-    "CNAME": "vasu-xd.github.io", "vasuxd.github.io",
+    "CNAME": "vasu-xd.github.io"
   }
 }
