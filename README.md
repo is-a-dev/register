@@ -27,6 +27,7 @@ Or via the CI
 - [is-not-a.dev](https://is-not-a.dev)
 - [cluster.ws & wip.la](https://github.com/Olivr/free-domain)
 - [js.org](https://github.com/js-org/js.org/tree/master) (*JavaScript projects only*)
+- [is-really.cool](https://is-really.cool)
 
 ## Status
 You can check the uptime of the service via our [status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw).
