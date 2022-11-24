@@ -18,6 +18,7 @@
       "mx1.improvmx.com",
       "mx2.improvmx.com"
     ],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "CNAME": "4baf80cb-7f87-4d2c-8e40-938f4045acfd.id.repl.co"
   }
 }
