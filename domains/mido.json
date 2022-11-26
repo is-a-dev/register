@@ -1,0 +1,12 @@
+{
+  "description": "Mido's website",
+  "owner": {
+    "username": "Mido",
+    "email": "instructr13@gmail.com",
+    "twitter": "instructr13",
+    "discord": "mido13#8577"
+  },
+  "record": {
+    "CNAME": "mido.pages.dev"
+  }
+}
