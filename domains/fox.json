@@ -1,12 +1,12 @@
-
-    {
-      "owner": {
-        "username": "fox-tech0",
-        "email": "red@team-ruben.tk"
-      },
-
-      "record": {
-        "CNAME": "fox-tech0.github.io"
-      }
+{
+    "owner": {
+      "username": "Fox2k17",
+      "email": "",
+      "discord": "Fox2k17#6875",
+      "twitter": "@Fox2k17_"
+    },
+    "description": "Fox2k17 portfolio",
+    "record": {
+      "URL": "https://www.vfox.pl"
     }
-  
+  }
