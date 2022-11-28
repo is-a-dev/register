@@ -1,11 +1,12 @@
- 
-    {
-      "owner": {
-        "username": "redcodesick",
-        "email": "sic@redcodenetwork.ro"
-      },
-      "record": {
-        "URL": "https://www.redcodenetwork.ro"
-      }
-    }
-      
+{
+  "description": "sic's personal developer website",
+  "repo": "https://github.com/redcodesick",
+  "owner": {
+    "username": "redcodesick",
+    "email": "sic@redcodenetwork.ro",
+    "twitter": ""
+  },
+  "record": {
+    "URL": "https://www.redcodenetwork.ro/"
+  }
+}
