@@ -1,0 +1,12 @@
+{
+  "description": "My main site.",
+  "repo": "https://github.com/fullpwn/fullpwn.github.io",
+  "owner": {
+    "username": "fullpwn",
+    "email": "fullpwn@cumallover.me",
+    "twitter": "fullpwn"
+  },
+  "record": {
+    "CNAME": "fullpwn.github.io"
+  }
+}

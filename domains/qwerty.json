@@ -1,0 +1,12 @@
+{
+  "description": "Redirecting to my personal website!",
+  "repo": "https://github.com/qwertyiscoding/simple-redirect",
+  "owner": {
+    "username": "QwertyIsCoding",
+    "email": "3kn5nsfkb@relay.firefox.com",
+    "twitter": "qwertyiscoding"
+  },
+  "record": {
+    "CNAME": "qwertyiscoding.github.io"
+  }
+}

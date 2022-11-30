@@ -1,27 +1,53 @@
 const R = require('ramda');
 const { VALID_RECORD_TYPES } = require('./constants');
 const { or, and, validate, between, testRegex, withLengthEq, withLengthGte } = require('./helpers');
+const INVALID_NAMES = require('./invalid-domains.json');
 
-const validateCnameRecord = key => and([
-  R.propSatisfies(R.is(String), key),
-  R.compose(withLengthEq(1), R.reject(R.equals('URL')), R.keys),
-  R.propSatisfies(withLengthGte(3), key),
-  R.propSatisfies(R.complement(testRegex(/^https?:\/\//ig)), key),
+const isValidURL = and([R.is(String), testRegex(/^https?:\/\//ig)]);
+
+const isValidDomain = and([R.is(String), testRegex(/^(([a-z0-9-]+)\.)+[a-z]+$/ig)]);
+
+const validateCnameRecord = type => and([
+  R.propIs(String, type),
+  R.compose(withLengthEq(1), R.keys), // CNAME cannot be used with any other record
+  R.propSatisfies(withLengthGte(4), type),
+  R.propSatisfies(isValidDomain, type),
 ]);
 
-const validateARecord = key => and([
-  R.compose(withLengthEq(1), R.keys),
-  R.propSatisfies(withLengthGte(1), key),
+const validateARecord = type => and([
+  R.propIs(Array, type),
+  R.propSatisfies(withLengthGte(1), type),
 ]);
+
+const validateMXRecord = type => and([
+  R.propIs(Array, type),
+  R.propSatisfies(withLengthGte(1), type),
+  R.propSatisfies(R.all(isValidDomain), type),
+]);
+
+const checkRestrictedNames = R.complement(R.includes(R.__, INVALID_NAMES))
 
 const validateDomainData = validate({
   name: {
-    reason: 'The name of the file is invalid. It must be lowercased, alphanumeric and more than 2 characters long',
+    reason: 'The name of the file is invalid. It must be lowercased, alphanumeric and each component must be more than 2 characters long',
     fn: or([
       R.equals('@'),
       and([
-        R.compose(between(2, 100), R.length),
-        testRegex(/^[a-z0-9-]+$/g),
+        R.is(String),
+        R.compose(
+          R.all(or([
+            and([
+              testRegex(/^_github(-pages)?-challenge-[a-z0-9-_]+$/i), // Exception for github verification records
+              checkRestrictedNames,
+            ]),
+            and([
+              R.compose(between(2, 100), R.length),
+              testRegex(/^[a-z0-9-]+$/g),
+              checkRestrictedNames,
+            ])
+          ])),
+          R.split('.'),
+        ),
       ])
     ]),
   },
@@ -33,7 +59,7 @@ const validateDomainData = validate({
       R.is(Object),
       R.complement(R.isEmpty),
       R.where({
-        username: and([ R.is(String), withLengthGte(1) ]),
+        username: and([R.is(String), withLengthGte(1)]),
         email: R.is(String),
       }),
     ]),
@@ -44,13 +70,15 @@ const validateDomainData = validate({
       R.is(Object),
       R.compose(R.isEmpty, R.difference(R.__, VALID_RECORD_TYPES), R.keys),
       R.cond([
-        [R.has('CNAME'),  validateCnameRecord('CNAME')],
-        [R.has('A'),      validateARecord('A')],
-        [R.has('URL'),    R.propSatisfies(R.is(String), 'URL')],
+        [R.has('CNAME'), validateCnameRecord('CNAME')],
+        [R.has('A'), validateARecord('A')],
+        [R.has('URL'), R.propSatisfies(isValidURL, 'URL')],
+        [R.has('MX'), validateMXRecord('MX')],
+        [R.has('TXT'), R.propSatisfies(R.is(String), 'TXT')],
         [R.T, R.T],
       ]),
     ]),
   },
 });
 
-module.exports = { validateDomainData };
+module.exports = { validateDomainData, isValidDomain };

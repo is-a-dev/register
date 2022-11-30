@@ -1,0 +1,11 @@
+{
+  "description": "api for my bot",
+  "repo": "https://github.com/brawlie/todo",
+  "owner": {
+    "username": "brawlie",
+    "email": "tojoeleeofficial@gmail.com"
+  },
+  "record": {
+    "CNAME": "ea156b14-963b-49f8-9d6e-f3fff240029c.repl.co"
+  }
+}

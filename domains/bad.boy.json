@@ -1,0 +1,10 @@
+{
+  "description": "https://badboy.is-a.dev/ redirector",
+  "owner": {
+    "username": "bad-boy-codes",
+    "email": "contact@mail.badboy.is-a.dev"
+  },
+  "record": {
+    "CNAME": "edge.redirect.pizza"
+  }
+}

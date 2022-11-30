@@ -1,0 +1,11 @@
+{
+  "description": "Nego personal developer website",
+  "repo": "https://github.com/kardespro/kardespro.github.io",
+  "owner": {
+    "username": "nego",
+    "email": "devnego@gmail.com"
+  },
+  "record": {
+    "CNAME": "negodev.tk"
+  }
+}

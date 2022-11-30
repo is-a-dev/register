@@ -1,0 +1,10 @@
+{
+    "description": "Personal Site",
+    "owner": {
+        "username": "KotonBads",
+        "email": "kotonbads@duck.com"
+    },
+    "record" : {
+        "CNAME": "kotonbads.github.io"
+    }
+}

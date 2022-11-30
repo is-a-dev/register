@@ -1,0 +1,10 @@
+{
+    "description": "Laymoth's Website",
+    "owner": {
+        "username": "laymoth",
+        "email": "pm@laymoth.dev"
+    },
+    "record": {
+        "CNAME": "laymoth.pages.dev"
+    }
+} 

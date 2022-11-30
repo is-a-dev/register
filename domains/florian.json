@@ -1,0 +1,12 @@
+{
+  "description": "Hey! I'm Florian",
+  "repo": "https://github.com/florianheysen/heysen.fr",
+  "owner": {
+    "username": "florianheysen",
+    "email": "florian.heysen@gmail.com",
+    "twitter": "florianheysen"
+  },
+  "record": {
+    "CNAME": "heysen.fr"
+  }
+}

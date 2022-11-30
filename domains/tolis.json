@@ -1,0 +1,10 @@
+{
+  "description": "TolisDev Blog",
+  "owner": {
+    "username": "tolisdev",
+    "email": "tolis@tolis.tech"
+  },
+  "record": {
+    "CNAME": "vienna.ns.govello.net"
+  }
+}

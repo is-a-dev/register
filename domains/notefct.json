@@ -1,0 +1,11 @@
+{
+  "description": "notefct personal developer website",
+  "repo": "https://github.com/notefct/aboutme/",
+  "owner": {
+    "username": "notefct",
+    "email": "edunlima2007@gmail.com"
+  },
+  "record": {
+    "CNAME": "notefct.github.io"
+  }
+}

@@ -5,7 +5,10 @@
   "scripts": {
     "test": "ENV=test jest",
     "lint": "eslint utils scripts domains --ext .json,.js",
-    "publish-records": "node ./scripts/register-domains.js"
+    "publish-records": "node ./scripts/register-domains.js",
+    "dc": "docker-compose -p is-a-dev",
+    "dc:start": "yarn dc up",
+    "dc:shell": "yarn dc run dev /bin/bash"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,11 @@
+{
+  "description": "Well, this is my github sub-domain for my future page",
+  "repo": "https://github.com/0lp/0lp.github.io",
+  "owner": {
+    "username": "0lp",
+    "email": "not.a.nerd0005@gmail.com"
+  },
+  "record": {
+    "CNAME": "0lp.github.io"
+  }
+}

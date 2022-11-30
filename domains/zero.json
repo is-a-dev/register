@@ -1,0 +1,11 @@
+{
+  "description": "My personal developer portfolio.",
+  "repo": "https://github.com/CoderPopCat/coderpopcat.github.io",
+  "owner": {
+    "username": "CoderPopCat",
+    "email": "zerotwo@popcat.xyz"
+  },
+  "record": {
+    "CNAME": "coderpopcat.github.io"
+  }
+}

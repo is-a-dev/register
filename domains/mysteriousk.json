@@ -1,0 +1,11 @@
+{
+  "description": "The official website for Lawliet.Host.",
+  "repo": "https://github.com/NoobDevs69/LawlietHost",
+  "owner": {
+    "username": "MysteriousK69",
+    "email": "mysteriousk@lawliet.host"
+  },
+  "record": {
+    "CNAME": "lawliet.host"
+  }
+}

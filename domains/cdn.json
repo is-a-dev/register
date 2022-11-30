@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "LellisV2",
+    "email": "cloud@lellis.tech",
+    "discord": "Lellis#9405",
+    "note": "I dont look that much on my email, Fast Respons on Discord."
+  },
+  "description": "I will use it for my CDN to be able to access the files",
+  "record": {
+    "A": ["130.162.183.250"]
+  }
+}

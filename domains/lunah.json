@@ -1,0 +1,11 @@
+{
+  "description": "VPS hosted domain",
+  "repo": "https://github.com/piotr25691",
+  "owner": {
+    "username": "piotr25691",
+    "email": "lunah@lunahdev.ml"
+  },
+  "record": {
+    "A": ["62.171.160.186"]
+  }
+}

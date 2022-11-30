@@ -6,6 +6,6 @@
     "email": "raksixoffical@gmail.com"
   },
   "record": {
-    "CNAME": "raksix-blog.tk"
+    "A": ["138.68.111.28"]
   }
 }

@@ -1,0 +1,10 @@
+{
+  "description": "devans cool looking domain that he wants for a portfolio",
+  "owner": {
+    "username": "devanwashere",
+    "email": "devan@devan.cool"
+  },
+  "record": {
+    "CNAME": "devanwashere.github.io"
+  }
+}

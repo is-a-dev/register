@@ -1,0 +1,13 @@
+{
+  "description": "Redirection service (URL shortener)",
+  "repo": "https://github.com/lucatolton",
+  "owner": {
+    "username": "lucatolton",
+    "email": "hi@lucatolton.me"
+  },
+  "record": {
+    "A": ["168.119.228.144"],
+    "MX": ["mail.lucatolton.me"],
+    "TXT": "v=spf1 +a +mx +a:optimistic-wiles.168-119-228-144.plesk.page -all"
+  }
+}

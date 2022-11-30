@@ -1,0 +1,11 @@
+{
+  "description": "Mainly used to upload images to but also for a small home-page.",
+  "repo": "https://github.com/Techout592",
+  "owner": {
+    "username": "Techout592",
+    "email": "root@techout.tech"
+  },
+  "record": {
+    "CNAME": "dns.techout.tech"
+  }
+}

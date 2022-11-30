@@ -1,0 +1,12 @@
+{
+  "description": "Robert Blog",
+  "repo": "https://github.com/robert-ds/robert-ds.github.io",
+  "owner": {
+    "username": "robert-ds",
+    "email": "vasquez.robert.andres@gmail.com",
+    "twitter": "@robertandres14"
+  },
+  "record": {
+    "CNAME": "robert-ds.github.io"
+  }
+}

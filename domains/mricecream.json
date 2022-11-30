@@ -1,0 +1,12 @@
+{
+  "description": "Mr. Icecream's Website",
+  "repo": "https://github.com/mr1cecream/mr1cecream.github.io",
+  "owner": {
+    "username": "mr1cecream",
+    "email": "guy@ochakov.com",
+    "twitter": "@Mr__Icecream"
+  },
+  "record": {
+    "CNAME": "mr1cecream.github.io"
+  }
+}

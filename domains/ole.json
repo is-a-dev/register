@@ -1,0 +1,12 @@
+{
+    "description": "ole.is-a.dev",
+    "repo": "https://github.com/olebohmbach/olebohmbach.github.io",
+    "owner": {
+        "username": "olenohmbach",
+        "email": "ole@ole-is-live.de",
+        "twitter": "OleBohmbach"
+    },
+    "record": {
+        "CNAME": "ole-is-live.de"
+    }
+} 

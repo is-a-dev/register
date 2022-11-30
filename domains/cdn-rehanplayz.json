@@ -1,0 +1,12 @@
+{
+  "description": "A CDN for my files",
+  "repo": "https://github.com/RehanPlayz/RehanPlayz.github.io",
+  "owner": {
+    "username": "RehanPlayz",
+    "email": "RehanPlayz321@protonmail.com"
+  },
+  "record": {
+    "A": ["159.89.255.51"],
+    "TXT": "6ZzT79WA"
+  }
+}

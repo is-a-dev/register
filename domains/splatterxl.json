@@ -1,0 +1,12 @@
+{
+  "description": "Splatterxl's very cool site",
+  "repo": "https://github.com/splatterxl/splatterxl.github.io",
+  "owner": {
+    "username": "splatterxl",
+    "email": "splatterxl@outlook.ie",
+    "twitter": "splatterxlisdum"
+  },
+  "record": {
+    "CNAME": "splatterxl.github.io"
+  }
+}

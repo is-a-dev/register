@@ -1,0 +1,11 @@
+{
+  "repo": "https://github.com/Bad-Boy-Codes/cdn",
+  "description": "My static database",
+  "owner": {
+    "username": "bad-boy-codes",
+    "email": "contact@mail.badboy.is-a.dev"
+  },
+  "record": {
+    "CNAME": "89b424b5-8e2d-4678-93a9-b793cdf6fceb.id.repl.co"
+  }
+}

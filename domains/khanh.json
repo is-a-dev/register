@@ -1,0 +1,11 @@
+{
+  "description": "Khanh's personal developer website",
+  "repo": "https://github.com/canfam",
+  "owner": {
+    "username": "canfam",
+    "email": "khanhpham072007@gmail.com"
+  },
+  "record": {
+    "CNAME": "canfam.github.io"
+  }
+}
