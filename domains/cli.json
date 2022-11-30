@@ -1,10 +1,11 @@
-{
+ 
+    {
       "owner": {
         "username": "is-a-dev-bot",
-        "email": "is-a-dev@win11react.com"
+        "email": "null"
       },
-
       "record": {
-        "A": ["64.190.90.238"]
+        "CNAME": "andrewstech.github.io"
       }
     }
+    

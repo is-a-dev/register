@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "lareithen",
-    "email": "lareithen@gmail.com"
-  },
-  "record": {
-    "URL": "https://lareithen.github.io/"
-  }
+    "description": "larei's personal website.",
+    "repo": "https://github.com/lareithen/lareithen.github.io",
+    "owner": {
+        "username": "lareithen",
+        "email": "lareithen@gmail.com"
+    },
+    "record": {
+        "CNAME": "lareithen.github.io"
+    }
 }
