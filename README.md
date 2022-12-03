@@ -30,10 +30,10 @@ You can check the uptime of the service via our [status dashboard](https://stats
 
 ### Similar Services
 - [is-a-good.dev](https://github.com/is-a-good-dev/register)
-- [thedev.id](https://github.com/thedev-id/thedev.id)
-- [is-not-a.dev](https://is-not-a.dev)
-- [is-really.cool](https://github.com/is-really-cool/register)
+- [thedev.id](https://github.com/fransallen/thedev.id)
+- [is-not-a.dev & localplayer.dev](https://github.com/open-domains/register)
 - [cluster.ws & wip.la](https://github.com/Olivr/free-domain)
+- [is-really.cool](https://github.com/is-really-cool/register)
 - [js.org](https://github.com/js-org/js.org) (*JavaScript projects only*)
 
 ### Donate
