@@ -1,0 +1,13 @@
+{
+  "description": "Subdomain of is-a.dev for my profile card.",
+  "repo": "https://github.com/Scronite/profile/",
+  "owner": {
+    "username": "Scronite",
+    "email": "scronite@gmail.com"
+  },
+  "record": {
+      "A": [
+          "164.132.74.251"
+      ]
+  }
+}
