@@ -1,11 +1,11 @@
- 
+
     {
       "owner": {
         "username": "dcshah2002",
         "email": "shahdarshit2002@gmail.com"
       },
+      "description": "Personal Portfolio Domain",
       "record": {
-        "A": ["8.8.8.8"]
+        "CNAME": "dcshah2002.github.io"
       }
     }
-      
