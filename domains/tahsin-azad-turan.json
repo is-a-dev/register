@@ -1,11 +1,12 @@
- 
-    {
-      "owner": {
-        "username": "TahsinTuran",
-        "email": "1002160019@ois.edu.bd"
-      },
-      "record": {
-        "URL": "123"
-      }
-    }
-      
+
+{
+  "description": "TahsinTuran's personal developer website",
+  "repo": "https://github.com/tahsinturan",
+  "owner": {
+    "username": "tahsinturan",
+    "email": "tahsin.turan2006@gmail.com"
+  },
+  "record": {
+    "CNAME": "tahsinturan.github.io"
+  }
+}
