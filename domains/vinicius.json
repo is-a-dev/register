@@ -3,9 +3,11 @@
   "repo": "https://github.com/vncsmnl",
   "owner": {
     "username": "vncsmnl",
-    "email": "59481808+vncsmnl@users.noreply.github.com"
+    "email": "",
+    "twitter": "vncsmnl",
+    "discord": "vncsmnl#7835"
   },
   "record": {
-    "CNAME": "viniciusmanoel.ml"
+    "CNAME": "vncsmnl.github.io"
   }
 }
