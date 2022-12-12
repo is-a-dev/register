@@ -1,0 +1,11 @@
+ 
+    {
+      "owner": {
+        "username": "Motutein",
+        "email": "motutein@gmail.com"
+      },
+      "record": {
+        "MX": ["\"http://ns1.epizy.com/\"","\"http://ns2.epizy.com/\""]
+      }
+    }
+      
