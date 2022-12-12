@@ -1,11 +1,12 @@
  
     {
+     "repo": "https://github.com/eigengravy/eigengravy.github.io",
       "owner": {
         "username": "eigengravy",
-        "email": "iam.sarangs@gmail.com"
+        "email": "email.sarangs@gmail.com"
       },
       "record": {
-        "CNAME": "https://eigengravy.github.io/"
+        "CNAME": "eigengravy.github.io"
       }
     }
       
