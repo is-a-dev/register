@@ -1,4 +1,5 @@
 {
+  "description": "Shinpi's website",
   "owner": {
     "username": "Shinpi-Tekita",
     "email": "",
@@ -6,6 +7,6 @@
     "discord": "Shinpi#6183"
   },
   "record": {
-    "CNAME": "shinpitekita.repl.co"
+    "CNAME": "b29ec742-99b6-4ff2-990d-58f9aa910bd1.id.repl.co"
   }
 }
