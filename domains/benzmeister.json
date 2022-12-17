@@ -1,0 +1,11 @@
+{
+  "description": "Link to my portfolio site.",
+  "repo": "https://github.com/benzmeister/benzmeister.github.io",
+  "owner": {
+    "username": "benzmeister",
+    "email": "devbenzmeister@gmail.com",
+  },
+  "record": {
+    "CNAME": "benzmeister.github.io"
+  }
+}
