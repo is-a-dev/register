@@ -1,0 +1,11 @@
+{
+    "description": "Malek's .is-a.dev domain",
+    "repo": "https://mkh-bkup.github.io/mkh.github.io/",
+    "owner": {
+      "username": "mkh-bkup",
+      "email": "malek.kh211@gmail.com"
+    },
+    "record": {
+       "CNAME": "mkh-bkup.github.io"
+    }
+  }
