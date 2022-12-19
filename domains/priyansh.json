@@ -4,6 +4,7 @@
     "email": "priy@nsh.is-a.dev"
   },
   "record": {
-    "CNAME": "priyansh.pages.dev"
+    "CNAME": "priyansh.pages.dev",
+     "NS": ["ns41.cloudns.net, ns42.cloudns.net, ns43.cloudns.net, ns44.cloudns.net"]
   }
 }
