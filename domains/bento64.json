@@ -1,11 +1,13 @@
  
     {
+      "description": "I need a great looking (sub)domain for my website",
+      "repo": "https://github.com/bento64/website",
       "owner": {
         "username": "bento64",
         "email": "bento64@disroot.org"
       },
       "record": {
-        "TXT": "vc-domain-verify=bento64.is-a.dev,6cea956d5270840c3091"
+        "CNAME": "bento64.github.io"
       }
     }
     
