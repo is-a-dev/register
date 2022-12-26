@@ -4,6 +4,8 @@
 
 <p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.</p>
 <p align="center"><a href="https://discord.gg/PZCGHz4RhQ"><img src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2" alt="Discord"></a></p>
+
+
 ## Registration
 Try out our new fast and easy subdomain registration service [here](https://register.is-a.dev)!
 
