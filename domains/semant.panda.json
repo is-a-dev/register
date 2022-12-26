@@ -3,8 +3,8 @@
     "username": "SemantCodes",
     "email": "contact@semant.is-a.dev"
   },
-  "description": "redirection to main web.",
+  "description": "Something juicy",
   "record": {
-    "URL": "https://semant.panda.is-a.dev"
+    "CNAME": "semant.cyclic.app"
   }
 }
