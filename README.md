@@ -36,7 +36,6 @@ You can check the uptime of the service via our [status dashboard](https://stats
 - [is-really.cool](https://github.com/is-really-cool/register)
 - [js.org](https://github.com/js-org/js.org) (*JavaScript projects only*)
 
-
 ### Donate
 If you like this project, please consider donating so we can keep this project running forever!
 
