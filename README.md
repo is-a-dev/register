@@ -1,4 +1,4 @@
-![is-a-dev Banner](https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png)
+<p align="center"><img src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png"></p>
 
 <h1 align="center">is-a.dev</h1>
 
@@ -11,8 +11,9 @@ Try out our new fast and easy subdomain registration service [here](https://regi
 Or via the CI
 
 ```bash
-  npm install @is-a-dev/cli -g
-  is-a-dev create
+npm install @is-a-dev/cli -g
+
+is-a-dev create
 ```  
 
 **Manual Registration**:
