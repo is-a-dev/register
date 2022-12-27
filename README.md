@@ -1,9 +1,9 @@
 
 <p align="center">
-   <img src="https://img.shields.io/github/directory-file-count/is-a-dev/register/domains?label=domains&color=5c46eb&style=for-the-badge&type=file"> <img alt="GitHub" src="https://img.shields.io/github/license/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/is-a-dev/register?color=5c46eb&style=for-the-badge">
-   <br/><br/>
    <img alt="is-a-dev banner" src="/media/banner.png">
-   <br/></p>
+   <br/><br/><img src="https://img.shields.io/github/directory-file-count/is-a-dev/register/domains?label=domains&color=5c46eb&style=for-the-badge&type=file"> <img alt="GitHub" src="https://img.shields.io/github/issues/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img src="https://img.shields.io/github/issues-pr/is-a-dev/register?color=5c46eb&style=for-the-badge">
+   <br/><br/>
+</p>
 <h1 align="center">is-a.dev</h1>
 
    **is-a-dev** is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
