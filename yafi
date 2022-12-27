@@ -1,0 +1,12 @@
+{
+  "description": "Yafi's portfolio website and blog",
+  "repo": "https://github.com/yafi-dev/yafi-dev.github.io",
+  "owner": {
+    "username": "yafi-dev",
+    "email": "yafi.mansuri@gmail.com"
+  },
+  "record": {
+    "CNAME": "yafi.github.io"
+  }
+}
+
