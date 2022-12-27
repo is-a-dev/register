@@ -1,18 +1,28 @@
-<p align="center"><img src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png"></p>
+<p align="center">
+   <img alt="is-a-dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png" height="256">
+</p>
+
+<p align="center">
+   <img alt="Domains" src="https://img.shields.io/github/directory-file-count/is-a-dev/register/domains?label=domains&style=for-the-badge">
+   <img alt="Open Pull Requests" src="https://img.shields.io/github/issues-raw/is-a-dev/register?label=issues&style=for-the-badge">
+   <img alt="Open Issues" src="https://img.shields.io/github/issues-pr-raw/is-a-dev/register?label=pull%20requests&style=for-the-badge">
+</p>
 
 <h1 align="center">is-a.dev</h1>
 
-<p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.</p>
-<p align="center"><a href="https://discord.gg/PZCGHz4RhQ"><img src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2" alt="Discord"></a></p>
+<p align="center"><strong>is-a-dev</strong> is a service that allows developers to get a sweet-looking ".is-a.dev" domain for their personal websites.</p>
+
+<p align="center">
+   <a href="https://discord.gg/PZCGHz4RhQ"><img alt="Discord Server" src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2"></a>
+</p>
 
 ## Registration
 Try out our new fast and easy subdomain registration service [here](https://register.is-a.dev)!
 
-Or via the CI
+Or via the CI:
 
 ```bash
 npm install @is-a-dev/cli -g
-
 is-a-dev create
 ```  
 
@@ -25,7 +35,7 @@ is-a-dev create
 - Enjoy your new `.is-a.dev` domain!
 
 ## Status
-You can check the uptime of the service via our [status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw).
+You can check the uptime of our services on our [status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw).
 
 [![Uptime Robot - DNS](https://img.shields.io/uptimerobot/ratio/m787472645-ec25e3920c7af893a7c66f19?label=uptime%20-%20dns&style=for-the-badge)](https://stats.uptimerobot.com/zY4XKIRVzw/787472645)
 [![Uptime Robot - Redirect](https://img.shields.io/uptimerobot/ratio/m787472617-240f4d61a5439a87becb2cf9?label=uptime%20-%20redirections&style=for-the-badge)](https://stats.uptimerobot.com/zY4XKIRVzw/787472617)
