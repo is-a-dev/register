@@ -1,3 +1,4 @@
+
 <p align="center">
    <img src="https://img.shields.io/github/directory-file-count/is-a-dev/register/domains?label=domains&color=5c46eb&style=for-the-badge&type=file"> <img alt="GitHub" src="https://img.shields.io/github/license/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/is-a-dev/register?color=5c46eb&style=for-the-badge"> <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/is-a-dev/register?color=5c46eb&style=for-the-badge">
    <br/><br/>
@@ -19,6 +20,7 @@ Try out our new fast and easy subdomain registration service [here](https://regi
 Or via the CI
 
 ```bash
+
   npm install @is-a-dev/cli -g
   is-a-dev create
 ```  
@@ -38,12 +40,9 @@ You can check the uptime of the service via our [status dashboard](https://stats
 [![Uptime Robot - Redirect](https://img.shields.io/uptimerobot/ratio/m787472617-240f4d61a5439a87becb2cf9?label=uptime%20-%20redirections&style=for-the-badge)](https://stats.uptimerobot.com/zY4XKIRVzw/787472617)
 
 ### Similar Services
-- [is-a-good.dev](https://github.com/is-a-good-dev/register)
-- [thedev.id](https://github.com/thedev-id/thedev.id)
-- [is-not-a.dev](https://is-not-a.dev)
-- [is-really.cool](https://github.com/is-really-cool/register)
-- [cluster.ws & wip.la](https://github.com/Olivr/free-domain)
-- [js.org](https://github.com/js-org/js.org) (*JavaScript projects only*)
+
+If you want to find services similar to is-a.dev, take a look on [free-for.dev](https://free-for.dev/#/?id=domain).
+
 
 ### Donate
 If you like this project, please consider donating so we can keep this project running forever!

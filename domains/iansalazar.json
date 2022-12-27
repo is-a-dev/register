@@ -1,0 +1,11 @@
+{
+  "description": "Ian Salazar's portfolio website",
+  "repo": "https://github.com/dertrockx/freelance-frontend-app",
+  "owner": {
+    "username": "iisalazar",
+    "email": "iansalazar67@gmail.com"
+  },
+  "record": {
+    "CNAME": "freelance-frontend-app-production.up.railway.app"
+  }
+}

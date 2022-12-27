@@ -1,12 +1,10 @@
 {
-  "description": "A description",
-  "repo": "https://github.com/kekda-py/kekda-py.github.io",
   "owner": {
     "username": "kekda-py",
     "email": "yashverma7869@gmail.com",
-    "twitter": "your-twitter-username"
+    "twitter": "Yash72274544"
   },
   "record": {
-    "CNAME": "kekda-py.github.io"
+    "URL": "https://yashverma.me"
   }
 }

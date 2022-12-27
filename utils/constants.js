@@ -12,11 +12,12 @@ const {
   DOMAIN_DOMAIN,
   DOMAIN_API_HOST,
   DOMAIN_API_PORT,
+  DOMAIN_HOST_IP,
 } = process.env;
 
 const IS_TEST = ENV === 'test';
 
-const DOMAINS_PATH = require('path').resolve('domains');
+const DOMAINS_PATH = path.resolve('domains');
 
 module.exports = {
   ENV,
@@ -27,6 +28,7 @@ module.exports = {
   DOMAIN_API_KEY: IS_TEST ? 'testkey' : DOMAIN_API_KEY,
   DOMAIN_API_HOST: IS_TEST ? 'example.com' : DOMAIN_API_HOST,
   DOMAIN_API_PORT: IS_TEST ? 6969 : DOMAIN_API_PORT,
+  DOMAIN_HOST_IP,
   DOMAINS_PATH,
   TTL: 5 * 60 * 60,
 };

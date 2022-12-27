@@ -1,0 +1,12 @@
+{
+  "description": "Blog - a simple blog site/dairy for TerraPlayz! I hope to see you again.",
+  "repo": "https://github.com/terraplayz/blog-cf",
+  "owner": {
+    "username": "terraplayz",
+    "email": "github@om.is-a.dev",
+    "twitter": "DaRealOmxpro"
+  },
+  "record": {
+    "CNAME": "blog-cf-bu7.pages.dev"
+  }
+}

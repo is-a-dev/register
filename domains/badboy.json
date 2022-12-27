@@ -1,13 +1,10 @@
 {
-  "description": "Bad Boy's Website",
+  "description": "Bad Boy/Semant 's Website",
   "owner": {
-    "username": "bad-boy-codes",
-    "email": "sonupanda078@gmail.com",
-    "discord": "445073800850046977",
-    "note": "My Discord ID is 445073800850046977.",
-    "twitter": "BadBoyGoesBrr"
+    "username": "s3mant",
+    "email": "contact@semant.is-a.dev"
   },
   "record": {
-    "CNAME": "d583fe02-d653-4af3-a8fc-1645f6857a8c.id.repl.co"
+    "CNAME": "2755c31d-6389-4f53-8fd7-b83f99037ffd.id.repl.co"
   }
 }

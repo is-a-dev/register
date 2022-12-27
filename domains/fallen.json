@@ -1,5 +1,5 @@
 {
-  "description": "Personal site and portfolio.",
+  "description": "Website Redirect",
   "repo": "https://github.com/ThingsOfFallen/Website",
   "owner": {
     "username": "TheFallenSpirit",
@@ -7,6 +7,6 @@
     "twitter": "@FallenCodes"
   },
   "record": {
-    "A": ["198.58.110.227"]
+    "URL": "https://fallenspirit.dev"
   }
 }

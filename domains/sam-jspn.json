@@ -1,0 +1,12 @@
+{
+  "description": "Sam's website",
+  "repo":"https://github.com/Samuel-Jspn/lair",
+  "owner": {
+    "username": "Samuel-Jspn",
+    "email": "sam.josephine@outlook.fr",
+    "discord": "R3dL1ghty#2904"
+  },
+  "record": {
+    "CNAME": "samuel-jspn.github.io"
+  }
+}

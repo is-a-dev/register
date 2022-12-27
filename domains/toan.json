@@ -1,11 +1,11 @@
 {
-  "description": "Redirect to my website",
+  "description": "Hashnode Blog",
   "repo": "https://github.com/ductoanvo",
   "owner": {
     "username": "ductoanvo",
-    "email": "hey.toan@outlook.com"
+    "email": "toan@duck.com"
   },
   "record": {
-    "URL": "https://ductoan.dev"
+    "CNAME": "hashnode.network"
   }
 }

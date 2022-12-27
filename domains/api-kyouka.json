@@ -1,0 +1,11 @@
+{
+  "description": "APIKEY KYOUKA | SHIORI BOT",
+  "repo": "https://github.com/Yuri-Neko",
+  "owner": {
+    "username": "Yuri-Neko",
+    "email": "apikeykyouka@gmail.com"
+  },
+  "record": {
+    "CNAME": "kyouka-apis.herokuapp.com"
+  }
+}

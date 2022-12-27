@@ -1,0 +1,18 @@
+{
+    "description": "Gabi's webpage",
+    "repo": "https://github.com/gabriel-maciel",
+    "owner": {
+      "username": "gabriel-maciel",
+      "email": "gabrielmaciel@duck.com"
+    },
+    "record": {
+      "A": [
+        "147.182.139.182"
+      ],
+      "MX": [
+        "ns1.digitalocean.com",
+        "ns2.digitalocean.com",
+        "ns3.digitalocean.com"
+       ]
+    }
+  }
