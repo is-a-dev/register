@@ -1,11 +1,13 @@
  
     {
+      "description": Arsdorint
+      "repo": "https://github.com/arsdorintbp2003/arsodrintbp2003.github.io",
       "owner": {
         "username": "nambp2003",
         "email": "e0851451@u.nus.edu"
       },
       "record": {
-        "CNAME": "hashnode.network"
+        "CNAME": "arsdorint.gitHub.io"
       }
     }
       
