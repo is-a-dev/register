@@ -1,11 +1,11 @@
 {
   "description": "An Useless Website",
-  "repo": "https://github.com/SethTheDev/SethTheDev.github.io",
+  "repo": "https://github.com/SethTheDev/seththedev.github.io",
   "owner": {
     "username": "SethTheDev",
-    "email": "mailme@sethestudio.com"
+    "email": "spccmbseth@gmail.com"
   },
   "record": {
-    "CNAME": "SethTheDev.github.io"
+    "CNAME": "seththedev.github.io"
   }
 }
