@@ -1,11 +1,13 @@
  
     {
+	     "repo": "https://github.com/pradeepvarma22/pradeepvarma22.github.io",
       "owner": {
         "username": "pradeepvarma22",
         "email": "pradeepnadimpalli22@gmail.com"
       },
       "record": {
-        "CNAME": "https://pradeepvarma22.github.io"
+        "CNAME": "pradeepvarma22.github.io",
+    	   "URL": "https://pradeepvarma22.is-a.dev"
       }
     }
       
