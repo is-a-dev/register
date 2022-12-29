@@ -1,11 +1,11 @@
 {
     "description": "null1s website domain",
-    "repo": "https://github.com/disCodeDev/disCodeDev.github.io",
+    "repo": "https://github.com/null1s/null1s.github.io",
     "owner": {
-        "username": "disCodeDev",
+        "username": "null1s",
         "email": "null1sdev@gmail.com",
     },
     "record": {
-        "CNAME": "disCodeDev.github.io"
+        "CNAME": "null1s.github.io"
     }
 } 
