@@ -6,7 +6,14 @@
         "email": "crystalnplol@gmail.com",
         "twitter": "@CrystalNPYT"
     },
-    "record": {
-        "CNAME": "crystalbajgai.github.io"
-    }
-} 
+     "record": {
+    "A": [
+      "135.148.226.33"
+    ],
+    "MX": [
+      "ns1.crystalcloud.xyz",
+      "ns2.crystalcloud.xyz"
+    ],
+    "TXT": "v=spf1 a mx ip4:135.148.226.33 ~all"    
+  }
+}
