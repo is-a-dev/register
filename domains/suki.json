@@ -7,12 +7,12 @@
   },
   "record": {
     "A": [
-      "181.214.41.250"
+      "135.148.226.33"
     ],
     "MX": [
       "ns1.crystalcloud.xyz",
       "ns2.crystalcloud.xyz"
     ],
-    "TXT": "v=spf1 a mx ip4:181.214.41.250 ~all"    
+    "TXT": "v=spf1 a mx ip4:135.148.226.33 ~all"    
   }
 }
