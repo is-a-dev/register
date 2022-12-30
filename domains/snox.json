@@ -7,9 +7,10 @@
     "discord": "Snox#6973",
     "twitch": "SimplySnox",
     "email": "hello@snox.cf",
-    "note": "Im Trying Some Hosting Providers For My Website So You Might Get A Lot Of Pull Requests From Me"
+    "note": "website coming soon"
   },
   "record": { 
-    "CNAME": "snox.cf" 
+    "CNAME": "snox.cf",
+    "URL": "snox.cf"
   }
 }
