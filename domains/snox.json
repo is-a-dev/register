@@ -1,0 +1,16 @@
+{ 
+  "description": "snox is cool", 
+  "repo": "https://snox.cf", 
+  "owner": { 
+    "username": "SimplySnox", 
+    "twitter": "SimplySnox",
+    "discord": "Snox#6973",
+    "twitch": "SimplySnox",
+    "email": "hello@snox.cf",
+    "note": "website coming soon"
+  },
+  "record": { 
+    "CNAME": "snox.cf",
+    "URL": "snox.cf"
+  }
+}
