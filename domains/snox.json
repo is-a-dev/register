@@ -1,0 +1,13 @@
+{
+  "description": "snox.cf",
+  "repo": "https://snox.cf/",
+  "owner": {
+    "username": "snox",
+    "email": "hello@snox.cf"
+    "discord": "Snox#6973",
+    "github": "SimplySnox"
+  },
+  "record": {
+    "CNAME": "snox.cf"
+  }
+}
