@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
-        "username": "Cartyoo",
-        "email": "cartyoogaming@gmail.com"
-      },
-      "record": {
-        "TXT": "764f3454ea7e05fdd4c86c06b6a856"
-      }
-    }
-      
+{
+  "owner": {
+    "username": "Cartyoo",
+    "email": "cartyoogaming@gmail.com"
+  }
+  "record": {
+    "TXT": "764f3454ea7e05fdd4c86c06b6a856"
+  }
+}
