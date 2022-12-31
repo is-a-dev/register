@@ -1,0 +1,12 @@
+ 
+    {
+      "owner": {
+        "username": "SX-9",
+        "email": "hello@mail.sx9.is-a.dev",
+        "note": "below is not my ip"
+      },
+      "record": {
+        "A": ["164.132.74.251"]
+      }
+    }
+    
