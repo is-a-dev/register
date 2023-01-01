@@ -2,7 +2,7 @@ name: PR Labeler
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: "*/5 * * * *"
   pull_request:
     types: [opened]
 
