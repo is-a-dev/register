@@ -6,6 +6,6 @@
 - [ ] You're not using Vercel or Netlify.
 - [ ] The CNAME record doesn't contain `https://` or `/`.  <!-- This is not required if you are not using a CNAME record. -->
 - [ ] There is sufficient information at the `owner` field.  <!-- You need to have your email presented at `email` field or you can specify another social platform e.g Discord or Twitter, so we can contact you. -->
-- [ ] The file contains information of your domain is in `domains/` folder and ends with `.json`.
+- [ ] The file is in the `domains` folder and is in the JSON format.
 ## Link to Website
 <!-- Please provide a link to your website below. -->
