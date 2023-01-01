@@ -1,8 +1,8 @@
-name: StaleBOT
+name: Stale
 
 on:
   workflow_dispatch:
-    name: 'Force cleanup'
+    name: "Force cleanup"
   schedule:
   - cron: "30 14 * * *"
 
