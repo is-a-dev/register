@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "15"
-      - name: Install Eependencies
+      - name: Install Dependencies
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: install --ignore-engines --frozen-lockfile
