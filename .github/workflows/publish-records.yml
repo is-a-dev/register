@@ -1,10 +1,10 @@
-name: Publish records
+name: Publish Records
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
-    name: 'Publish records'
+    name: 'Publish Records'
 
 jobs:
   publish:
@@ -15,11 +15,11 @@ jobs:
       - uses: borales/actions-yarn@v2.0.0
         with:
           cmd: install --ignore-engines
-      - name: Running tests
+      - name: Run Tests
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: test
-      - name: Publishing records
+      - name: Publish Records
         env:
           CI: 1
           ENV: production
