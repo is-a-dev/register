@@ -1,37 +1,28 @@
-
 const getInstructions = () => `
-The changes have been published!! It should reflect in less than 24 hours.
+## You're nearly done!
+Just follow the steps below and you can start using your domain!
 
-## Here's what you need to do next
-If your domain points to a server you own, add \`domain-name.is-a.dev\` to your server config. For https, you will have to configure ssl certificate to allow the new subdomain.
+<a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me a Coffee" height="28" width="119"></a> <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay"></a>
 
-### For github pages users,
-* Go to your github page repo (\`user/user.github.io\`)
-* Open up the **settings** tab
-* Scroll down to the **Github pages** section
-* In the **Custom domain** text input, enter the domain you registered (\`domain-name.is-a.dev\`)
-* Check the **Enforce HTTPS** checkbox below the input
-* Give it some time to reflect and you should be good to go
+---
 
+### Server Owners
+If your domain points to a server you own, add your-domain.is-a.dev to your domain configuration. For HTTPS, you will have to configure an SSL certificate to allow the new subdomain to work ([here's why](https://get.dev/#:~:text=The%20.dev%20top%2Dlevel%20domain%20is%20included%20on%20the%20HSTS%20preload%20list%2C%20making%20HTTPS%20required%20on%20all%20connections%20to%20.dev%20websites%20and%20pages%20without%20needing%20individual%20HSTS%20registration%20or%20configuration.%20Security%20is%20built%20in.)).
 
-## Need help with your domain?
-If you are having trouble setting up your domain, [create an issue](https://github.com/is-a-dev/register/issues/new/choose). I will try my best to get back to you asap!
+### GitHub Pages
+- Go to your GitHub repository that you use for your is-a.dev domain
+- Click on the Settings tab
+- Click on the Pages link in the sidebar
+- In the custom domain option, enter the domain you registered.
+- Check the `Enforce HTTPS` checkbox
+- Give your domain some time (~24 hours) for the changes to propagate
+- Enjoy your domain!
 
+---
 
-## Made a mistake in the record?
-Don't worry, you can create a new pull request with the corrections
+**Need help with your domain?** If you are having trouble setting up your domain, please [create an issue](https://github.com/is-a-dev/register/issues/new/choose) and we will try and help you as soon as possible!
 
-
-## Love/Hate the service?
-**Love it?** Leave it a **star**! Also consider donating so that I can keep this service running forever!
-**Hate it?** Please leave your feedback by [creating an issue](https://github.com/is-a-dev/register/issues/new/choose). I would really like to keep improving this service for other users.
-
-
-## Wanna support this project?
-Help me in my mission to keep this service alive forever by donating!
-
-<a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="119"></a> <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay recurring donation button" /></a>
-
+**Made a mistake in the records?** Don't worry, you can create a new pull request with the corrections.
 `;
 
 module.exports = {
@@ -45,6 +36,5 @@ module.exports = {
       issue_number: number,
       body: getInstructions(),
     });
-  }
+  },
 };
-
