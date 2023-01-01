@@ -3,7 +3,7 @@
 
 ## Requirements
 - [ ] You have completed your website. <!-- This is not required if the domain you're registering is for emails. -->
-- [ ] The website is reachable.  <!-- This is not required if you're using this domain for email, etc -->
+- [ ] The website is reachable.  <!-- This is not required if the domain you're registering is for emails. -->
 - [ ] You're not using Vercel or Netlify.
 - [ ] The CNAME record doesn't contain `https://` or `/`.  <!-- This is not required if you are not using a CNAME record. -->
 - [ ] There is sufficient information at the `owner` field.  <!-- You need to have your email presented at `email` field or you can specify another social platform e.g Discord or Twitter, so we can contact you. -->
