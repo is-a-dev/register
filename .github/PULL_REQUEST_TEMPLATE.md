@@ -1,5 +1,5 @@
 <!-- To make our job easier, please spend time to review your application before submitting. -->
-
+<!-- To tick one, place an x between two square brackets e.g. [x] -->
 ## Requirements
 - [ ] You have completed your website. <!-- This is not required if the domain you're registering is for emails. -->
 - [ ] The website is reachable.  <!-- This is not required if you're using this domain for email, etc -->
