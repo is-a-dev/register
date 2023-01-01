@@ -9,15 +9,15 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
-      - name: Setup node v15
+      - name: Setup Node v15
         uses: actions/setup-node@v1
         with:
           node-version: '15'
-      - name: Install dependencies
+      - name: Install Eependencies
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: install --ignore-engines --frozen-lockfile
-      - name: Run tests
+      - name: Run Tests
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: test
