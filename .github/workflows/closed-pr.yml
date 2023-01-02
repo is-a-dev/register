@@ -19,4 +19,4 @@ jobs:
     steps:
       - uses: peter-evans/create-or-update-comment@v2
         with:
-          body-file: ".github/closed-pr/closed-comment.txt"
+          body-file: "../closed-pr/closed-comment.txt"
