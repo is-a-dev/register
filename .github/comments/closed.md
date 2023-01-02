@@ -22,6 +22,6 @@ Your pull request was most likely closed for one of the following reasons:
 - Open a new pull request.
 
 ### Need more support?
-Join our Discord if you need more help and one of our staff members will help you out!
+Join our Discord if you need more help and one of our staff members will help you!
 
 [![Discord Server](https://discord.com/api/guilds/830872854677422150/widget.png?style=banner3)](https://discord.gg/PZCGHz4RhQ)
