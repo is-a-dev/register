@@ -1,11 +1,12 @@
  
     {
+      "repo":"https://github.com/ChaoticChaosTheGreat/chaoticchaosthegreat.github.io"
       "owner": {
         "username": "ChaoticChaosTheGreat",
         "email": "ryan.ryanabraham@gmail.com"
       },
       "record": {
-        "URL": "https://website-production-43ec.up.railway.app"
+        "CNAME": "chaoticchaosthegreat.github.io"
       }
     }
       
