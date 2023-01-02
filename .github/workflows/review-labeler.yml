@@ -1,0 +1,30 @@
+name: Review Labeler
+
+on:
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  approved:
+    if: github.event.review.state == "approved"
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@v4
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+            all: ["changes-requested"]
+
+    changes-requested:
+      if: github.event.review.state != "approved"
+      permissions:
+        contents: read
+        pull-requests: write
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/labeler@v4
+          with:
+            repo-token: "${{ secrets.GITHUB_TOKEN }}"
+            all: ["changes-requested"]
