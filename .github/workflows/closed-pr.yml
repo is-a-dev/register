@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: peter-evans/create-or-update-comment@v2
         with:
+          issue-number: ${{ github.event.pull_request.number }}
           body: |
             ## You're nearly done!
             Just follow the steps below and you can start using your domain!
@@ -44,6 +45,7 @@ jobs:
     steps:
       - uses: peter-evans/create-or-update-comment@v2
         with:
+          issue-number: ${{ github.event.pull_request.number }}
           body: |
             ## Your pull request has been closed
             These are some of the reasons of why your pull request might have been closed:
