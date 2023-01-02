@@ -2,6 +2,7 @@
 <!-- To tick a box, place an `x` between two square brackets e.g. [x] -->
 
 ## Requirements
+Unless explictly specified otherwise, you must pass **ALL** the requirements below. Note that we reserve the rights not to accept any domain at our own discretion.
 - [ ] The file is in the `domains` folder and is in the JSON format.
 - [ ] You have completed your website. <!-- This is not required if the domain you're registering is for emails. -->
 - [ ] The website is reachable.  <!-- This is not required if the domain you're registering is for emails. -->
