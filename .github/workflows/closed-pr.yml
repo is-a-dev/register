@@ -4,3 +4,19 @@ on:
   pull_request_target:
     types:
       - closed
+
+jobs:
+  merged:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/create-or-update-comment@v2
+        with:
+          body-file: ".github/closed-pr/merged-comment.txt"
+  closed:
+    if: github.event.pull_request.merged == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/create-or-update-comment@v2
+        with:
+          body-file: ".github/closed-pr/closed-comment.txt"
