@@ -1,5 +1,6 @@
-name: "Closed PR"
+name: Closed PR
 
 on:
-    pull_request:
-        types: [closed]
+  pull_request_target:
+    types:
+      - closed
