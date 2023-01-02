@@ -1,6 +1,4 @@
-![is-a.dev Banner](https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png)
-
-## Your PR has been closed
+## Your pull request has been closed
 These are some of the reasons of why your pull request might have been closed:
 
 - Inaccessible website
