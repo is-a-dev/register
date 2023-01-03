@@ -1,4 +1,4 @@
-name: Stale
+name: Stale Bot
 
 on:
   workflow_dispatch:
