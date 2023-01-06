@@ -6,9 +6,8 @@
     "discord": "elnexreal#7763"
   },
   "record": {
-    "MX": [
-      "ns1.epizy.com",
-      "ns2.epizy.com"
+    "A": [
+      "185.27.134.57"
     ]
   }
 }
