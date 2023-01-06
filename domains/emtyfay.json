@@ -5,7 +5,7 @@
         "email": "null"
       },
       "record": {
-        "CNAME": "myblog-production.railway.app"
+        "CNAME": "https://myblog-production.up.railway.app/"
       }
     }
     
