@@ -1,0 +1,12 @@
+{
+    "description": "a landing page that'll host all my social links",
+    "repo": "https://github.com/codeyokai/codeyokai.github.io",
+    "owner": {
+        "username": "codeyokai",
+        "email": "psiyokai@gmail.com",
+        "twitter": "psiyokai"
+    },
+    "record": {
+        "CNAME": "codeyokai.github.io"
+    }
+} 
