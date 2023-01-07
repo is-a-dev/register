@@ -1,4 +1,4 @@
-#### Welcome to the process of manually creating a pull request to get a subdomain from is-a.dev!
+## is-a.dev Subdomain Registration
 Please awnser below questions.
 
 #### How do you plan on using your subdomain?
