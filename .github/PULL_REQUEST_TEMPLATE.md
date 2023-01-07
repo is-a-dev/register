@@ -1,7 +1,7 @@
 ## is-a.dev Subdomain Registration
 Please awnser below questions.
 
-#### How do you plan on using your subdomain?
+### How do you plan to use your subdomain?
 
 ### What is the purpose of these records?
 →
