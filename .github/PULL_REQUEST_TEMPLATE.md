@@ -6,7 +6,7 @@ Please awnser below questions.
 ### What is the purpose of these records?
 →
 
-#### Please check the boxes below by adding a `x` in middle of brackets.
+### Requirements
 - [ ] The file is in the `domains` folder and is in the JSON format.
 - [ ] You have completed your website. <!-- This is not required if the domain you're registering is for emails. -->
 - [ ] The website is reachable.  <!-- This is not required if the domain you're registering is for emails. -->
