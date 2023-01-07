@@ -2,7 +2,6 @@
 Please awnser below questions.
 
 #### How do you plan on using your subdomain?
-→
 
 #### What's the purpose of the records you put in.
 →
