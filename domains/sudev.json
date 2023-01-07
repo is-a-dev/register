@@ -1,10 +1,11 @@
 {
-  "repo": "https://github.com/mqry/mqry.github.io",
+  "description": "Microsoft Student Ambassador, student at College of Engineering Trivandrum",
+  "repo": "https://github.com/gamegods3/gamegods3.github.io",
   "owner": {
-    "username": "mqry",
-    "email": "maryjane27refuerzo@gmail.com"
+    "username": "gamegods3",
+    "email": "sudevssuresh@gmail.com"
   },
   "record": {
-    "CNAME": "hashnode.network"
+    "CNAME": "gamegods3.github.io"
   }
 }
