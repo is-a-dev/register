@@ -4,7 +4,6 @@ Please answer the below questions.
 ### How do you plan on using your subdomain?
 
 ### What is the purpose of the specified records?
-→
 
 ### Requirements
 - [ ] The file is in the `domains` folder and is in the JSON format.
