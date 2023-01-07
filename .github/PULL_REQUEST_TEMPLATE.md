@@ -3,7 +3,7 @@ Please answer the below questions.
 
 ### How do you plan on using your subdomain?
 
-### What is the purpose of these records?
+### What is the purpose of the specified records?
 →
 
 ### Requirements
