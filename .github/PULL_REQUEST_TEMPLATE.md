@@ -1,10 +1,4 @@
 ## is-a.dev Subdomain Registration
-Please answer the below questions.
-
-### How do you plan on using your subdomain?
-
-### What is the purpose of the specified records?
-
 ### Requirements
 - [ ] The file is in the `domains` folder and is in the JSON format.
 - [ ] You have completed your website. <!-- This is not required if the domain you're registering is for emails. -->
@@ -16,5 +10,12 @@ Please answer the below questions.
 - Unless explicitly specified otherwise by a **maintainer** or in the requirement description, your domain must pass **ALL** the indicated requirements above.
 
 - Please note that we reserve the rights not to accept any domain at our own discretion.
+Please answer the below questions.
+
+### How do you plan on using your subdomain?
+
+
+### What is the purpose of the specified records?
+
 
 ### Link to your website
