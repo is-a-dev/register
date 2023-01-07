@@ -19,4 +19,3 @@ Please awnser below questions.
 * Please note that we reserve the rights not to accept any domain at our own discretion.
 
 ### Link to your website
-→
