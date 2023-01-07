@@ -15,6 +15,6 @@ Please answer the below questions.
 
 - Unless explicitly specified otherwise by a **maintainer** or in the requirement description, your domain must pass **ALL** the indicated requirements above.
 
-* Please note that we reserve the rights not to accept any domain at our own discretion.
+- Please note that we reserve the rights not to accept any domain at our own discretion.
 
 ### Link to your website
