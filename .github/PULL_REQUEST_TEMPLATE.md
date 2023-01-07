@@ -1,5 +1,5 @@
 ## is-a.dev Subdomain Registration
-Please awnser below questions.
+Please answer below questions.
 
 ### How do you plan to use your subdomain?
 
