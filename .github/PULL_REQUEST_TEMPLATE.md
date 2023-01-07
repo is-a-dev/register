@@ -1,5 +1,6 @@
 ## Requirements
 Unless explicitly specified otherwise by a **maintainer** or in the requirement description, your domain must pass **ALL** the indicated requirements above.
+
 Please note that we reserve the rights not to accept any domain at our own discretion.
 
 - [ ] The file is in the `domains` folder and is in the JSON format.
