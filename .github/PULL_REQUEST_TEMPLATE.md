@@ -1,4 +1,5 @@
 ## is-a.dev Subdomain Registration
+
 ### Requirements
 - [ ] The file is in the `domains` folder and is in the JSON format.
 - [ ] You have completed your website. <!-- This is not required if the domain you're registering is for emails. -->
