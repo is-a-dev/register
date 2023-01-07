@@ -1,6 +1,4 @@
-## is-a.dev Subdomain Registration
-
-### Requirements
+## Requirements
 - [ ] The file is in the `domains` folder and is in the JSON format.
 - [ ] You have completed your website. <!-- This is not required if the domain you're registering is for emails. -->
 - [ ] The website is reachable.  <!-- This is not required if the domain you're registering is for emails. -->
@@ -8,17 +6,16 @@
 - [ ] The CNAME record doesn't contain `https://` or `/`.  <!-- This is not required if you are not using a CNAME record. -->
 - [ ] There is sufficient information at the `owner` field.  <!-- You need to have your email presented at `email` field. If you don't want to provide your email for any reason, you can specify another social platform (e.g. Discord or Twitter) so we can contact you. -->
 
-- Unless explicitly specified otherwise by a **maintainer** or in the requirement description, your domain must pass **ALL** the indicated requirements above.
+###### Unless explicitly specified otherwise by a **maintainer** or in the requirement description, your domain must pass **ALL** the indicated requirements above.
 
-- Please note that we reserve the rights not to accept any domain at our own discretion.
-Please answer the below questions.
+###### Please note that we reserve the rights not to accept any domain at our own discretion.
 
-### How do you plan on using your subdomain?
-
-
-### What is the purpose of the specified records?
+## How do you plan on using your subdomain?
 
 
-### Website Link/Preview
+## What is the purpose of the specified records?
+
+
+## Website Link/Preview
 <!-- Please provide a link or preview of your website below. -->
 
