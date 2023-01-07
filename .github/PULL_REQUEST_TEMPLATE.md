@@ -13,7 +13,7 @@ Please answer the below questions.
 - [ ] The CNAME record doesn't contain `https://` or `/`.  <!-- This is not required if you are not using a CNAME record. -->
 - [ ] There is sufficient information at the `owner` field.  <!-- You need to have your email presented at `email` field. If you don't want to provide your email for any reason, you can specify another social platform (e.g. Discord or Twitter) so we can contact you. -->
 
-* Unless explicitly specified otherwise by a **maintainer** or in the requirement description, your domain must pass **ALL** the indicated requirements above.
+- Unless explicitly specified otherwise by a **maintainer** or in the requirement description, your domain must pass **ALL** the indicated requirements above.
 
 * Please note that we reserve the rights not to accept any domain at our own discretion.
 
