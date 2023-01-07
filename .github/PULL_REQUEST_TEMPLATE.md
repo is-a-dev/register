@@ -3,7 +3,7 @@ Please awnser below questions.
 
 #### How do you plan on using your subdomain?
 
-#### What's the purpose of the records you put in.
+### What is the purpose of these records?
 →
 
 #### Please check the boxes below by adding a `x` in middle of brackets.
