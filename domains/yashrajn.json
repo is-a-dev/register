@@ -5,7 +5,8 @@
         "email": "ynnarke52@gmail.com"
       },
       "record": {
-        "A": ["76.76.21.21"]
+        "A": ["76.76.21.21"],
+        "TXT":"vc-domain-verify=yashrajn.is-a.dev,95db7ec0406d441a1d57"
       }
     }
       
