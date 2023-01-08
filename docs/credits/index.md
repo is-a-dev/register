@@ -4,21 +4,14 @@
 
 # Maintainers
 
-- **MaskDuck**: [GitHub](https://github.com/MaskDuck)
-
-- **William**: [GitHub](https://github.com/WilliamDavidHarrison)
-
 - **Andrew**: [GitHub](https://github.com/andrewstech)
-
-- **Mahir**: [GitHub](https://github.com/mtgsquad)
-
-- **TheBotlyNoob**: [GitHub](https://github.com/TheBotlyNoob)
-
 - **Hackermon**: [GitHub](https://github.com/hackermondev)
+- **Mahir**: [GitHub](https://github.com/mtgsquad)
+- **MaskDuck**: [GitHub](https://github.com/MaskDuck)
+- **TheBotlyNoob**: [GitHub](https://github.com/TheBotlyNoob)
+- **William**: [GitHub](https://github.com/WilliamDavidHarrison)
 
 # Helpers
 
-- **Vaibhav**: [GitHub](https://github.com/VaibhavSys)
-
 - **Om**: [GitHub](https://github.com/TerraPlayz)
-
+- **Vaibhav**: [GitHub](https://github.com/VaibhavSys)
