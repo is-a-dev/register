@@ -1,4 +1,4 @@
-# Setting up GitHub pages with is-a.dev subdomain
+# GitHub Pages
 
 ## Creating a GitHub pages repository
 You can create a GitHub pages website by creating a repository with the name `<github-username>.github.io`. For more information about GitHub pages, please read through [their guide](https://guides.github.com/features/pages).
