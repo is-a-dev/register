@@ -18,7 +18,7 @@
 
 ## Helpers
 
-- **Vaibhav:** [GitHub](https://github.com/VaibhavSys)
+- **Vaibhav**: [GitHub](https://github.com/VaibhavSys)
 
 ### Mods
 - **Omxpro** [GitHub](https://github.com/TerraPlayz)
