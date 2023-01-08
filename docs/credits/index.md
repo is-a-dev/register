@@ -1,6 +1,6 @@
 ### Owner
 
-- **Phenax:** [GitHub](https://github.com/Phenax)
+- **Phenax**: [GitHub](https://github.com/phenax)
 
 ### Maintainers
 - **MaskDuck:** [GitHub](https://github.com/MaskDuck)
