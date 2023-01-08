@@ -1,25 +1,27 @@
 # GitHub Pages
 
-## Creating a GitHub pages repository
-You can create a GitHub pages website by creating a repository with the name `<github-username>.github.io`. For more information about GitHub pages, please read through [their guide](https://guides.github.com/features/pages).
+## 1. Creating a repository
+**If you have already created a repository and setup GitHub Pages, you can skip this step.
 
-## Creating the domain file
-Create a JSON file inside `domains` directory (`domains/<subdomain>.json`) with the following content
+You can create a GitHub Pages website by creating a repository with the name `<github-username>.github.io`. For more information about GitHub Pages, please read through the GitHub Pages [docs](https://guides.github.com/features/pages).
+
+## 2. Register a subdomain
+First, create a JSON file inside `domains` directory (`domains/<subdomain>.json`) with the following content:
+
 ```json 
 {
-    "description": "Describe the use of this subdomain",
+    "description": "A description of your website",
     "repo": "https://github.com/<github-username>/<github-username>.github.io",
     "owner": {
         "username": "<github-username>",
-        "email": "email@address",
-        "twitter": "<twitter-username>"
+        "email": "email@address.tld"
     },
     "record": {
-        "CNAME": "<username>.github.io"
+        "CNAME": "<github-username>.github.io"
     }
 } 
 ```
 
-## Configuring
-- After the pull request is merged, you will see a **404** error on `<your-subdomain>.is-a.dev`. To fix this, go to your GitHub pages repository's **Settings > GitHub pages > Custom domain** and add `<your-subdomain>.is-a.dev` in the given field. _Only do this **after** your pull request is merged._
-- Check the **Enforce HTTPS** checkbox below the custom domain input.
+## 3. Configure your subdomain
+- **After your pull request is merged**, you will see a **404** error on `<subdomain>.is-a.dev`. To fix this, go to your repository and go to: **Settings > GPages > Custom Domain** and add `<subdomain>.is-a.dev` in the given field. __Only do this **after** your pull request is merged.__
+- Check the **Enforce HTTPS** checkbox below the custom domain input, after the SSL certificate has been generated.
