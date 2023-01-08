@@ -2,7 +2,7 @@
 
 - **Phenax:** [GitHub](https://github.com/Phenax)
 
-### Maintiners
+### Maintainers
 - **MaskDuck:** [GitHub](https://github.com/MaskDuck)
 
 - **William:** [GitHub](https://github.com/WilliamDavidHarrison)
