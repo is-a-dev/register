@@ -7,9 +7,10 @@ You can read more about the domains JSON file structure [here](json/index.md)
 
 ## Guides
 
-* [GitHub Pages](github/index.md)
-* [Hasnode Blogs](hasnode/index.md)
-* [Other Services](other/index.md)
+* [GitHub Pages](github/Index.md)
+* [Hashnode Blogs](hashnode/Index.md)
+* [Railway](railway/Index.md)
+* [Other Services](other/Index.md)
 
 ## Vercel and Netlify
 You will encounter an SSL certificate issue when using Vercel and Netlify. Neither service will work with our domains. It is recommended to use [GitHub Pages](https://pages.github.com) or [Railway](https://railway.app) instead.
