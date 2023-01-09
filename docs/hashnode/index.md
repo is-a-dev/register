@@ -1,6 +1,6 @@
 # Hashnode Blog
 
-When you create your hashnode blog, hashnode provides a free `hashnode.dev` subdomain for you. However, you can set up your own `is-a.dev` subdomain, instead.
+When you create your Hashnode blog, hashnode provides a free `hashnode.dev` subdomain for you. However, you can set up your own `is-a.dev` subdomain, instead.
 
 ---
 
