@@ -1,0 +1,11 @@
+{
+  "description": "manu.is-a.dev",
+  "repo": "https://github.com/manuthecoder/personal-website",
+  "owner": {
+    "username": "manuthecoder",
+    "email": "manusvathgurudath@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
