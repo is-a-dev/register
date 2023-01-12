@@ -7,7 +7,7 @@
         "email": "spectra@spectrathefox.xyz"
       },
       "record": {
-        "CNAME": ["spectrathefox.github.io"]
+        "CNAME": ["https://spectrathefox.github.io"]
       }
     }
       
