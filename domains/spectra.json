@@ -1,12 +1,11 @@
-{
-  "description": "Forwards to my website",
-  "repo": "https://github.com/SpectraTheFox/spectrathefox.github.io",
-  "owner": {
-    "username": "SpectraTheFox",
-    "email": "spectra@spectrathefox.xyz"
-    "discord": "SpectraTheFox#0005"
-  },
-  "record": {
-    "URL": "spectrathefox.xyz"
-  }
-}
+{ 
+    {
+      "owner": {
+        "username": "SpectraTheFox",
+        "email": "spectra@spectrathefox.xyz"
+      },
+      "record": {
+        "URL": "https://spectrathefox.xyz"
+      }
+    }
+      
