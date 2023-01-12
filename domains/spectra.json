@@ -1,13 +1,13 @@
  
     {
-      "description": "Spectra - Change The Universe With Code",
-      "repo": "https://github.com/spectrathefox/spectrathefox.github.io",
+      "description": "Spectra - Rewrite The Universe With Code",
       "owner": {
         "username": "SpectraTheFox",
         "email": "spectra@spectrathefox.xyz"
+        "discord": "SpectraTheFox#0005"
       },
       "record": {
-        "CNAME": ["spectrathefox.github.io"]
+        "URL": "spectrathefox.xyz"
       }
     }
       
