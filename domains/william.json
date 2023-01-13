@@ -7,6 +7,8 @@
   "record": {
     "A": ["149.28.74.255"],
 
-    "TXT": "MS=ms59843977"
+    "MX": ["william-isa-dev02e.mail.protection.outlook.com"],
+
+    "TXT": "v=spf1 include:spf.protection.outlook.com -all"
   }
 }
