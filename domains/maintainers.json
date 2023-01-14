@@ -1,0 +1,15 @@
+ 
+    {
+      "owner": {
+        "username": "is-a-dev-bot",
+        "email": "is-a-dev.technicalservices@beadman-network.com"
+      },
+      "record": {
+        "MX": [
+          "mx1.forwardemail.net",
+          "mx2.forwardemail.net"
+              ],
+        "TXT": "forward-email=isdevmail.beadman-network.com"
+      }
+    }
+    
