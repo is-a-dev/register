@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "<github-username>",
+    "email": "<email@address>"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=toxicrecker.is-a.dev,16ae3f342d7244681d93"
+  }
+}
