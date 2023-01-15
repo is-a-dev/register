@@ -1,14 +1,10 @@
 {
   "owner": {
     "username": "WilliamDavidHarrison",
-    "email": "admin@william.is-a.dev"
+    "email": "william@williamharrison.dev"
   },
 
   "record": {
-    "A": ["149.28.74.255"],
-
-    "MX": ["william-isa-dev02e.mail.protection.outlook.com"],
-
-    "TXT": "v=spf1 include:spf.protection.outlook.com -all"
+    "URL": "https://williamharrison.dev"
   }
 }
