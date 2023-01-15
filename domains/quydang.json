@@ -1,13 +1,11 @@
- 
-    {
+{
     "description": "I used for my learning purpose",
     "repo": "https://github.com/quydang04/quydang04.github.io",
-      "owner": {
+    "owner": {
         "username": "quydang04",
         "email": "dangvonguyen169@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "quydang04.github.io"
-      }
     }
-      
+} 
