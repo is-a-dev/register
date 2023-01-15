@@ -110,7 +110,7 @@ esac
 # Run ./scripts/certbot.sh acme_txt "<key>"
 # Run ./scripts/certbot.sh acme_file "<key>" "<value>"
 # Run ./scripts/certbot.sh config_www
-# cp -r /tmp/is-a-dev-whatever /tmp/is-a-dev-cert (not sure if needed but the directory disappeared once)
+# cp -r /tmp/is-a-dev-whatever /opt/app/code/is-a-dev-cert
 # Upload cert.pem and privkey.pem (from config/live/is-a.dev/) contents to SSL > Manage SSL Sites
 # Run ./scripts/certbot.sh reset
 
