@@ -1,0 +1,12 @@
+{
+    "description": "Aakanksha's .is-a.dev domain",
+    "repo": "https://poetry.m1dnightdev.repl.co",
+    "owner": {
+      "username": "m1dnight-ofcl",
+      "email": "m1dnightgmrofficial@gmail.com"
+    },
+    "record": {
+       "CNAME": "5eb3b096-1df2-40f7-aa66-6c2ce0687219.id.repl.co"
+    }
+  }
+// Is there any way to get a sub-subdomain like poetry.m1dnight.is-a.dev? I don't really know if this could be possible but if there is, let me know.
