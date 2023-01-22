@@ -8,15 +8,7 @@
     "discord": "781127625263415326"
   },
   "record": {
-
-    
-
-  "A": ["34.149.204.188"]
-
-
-
-
-,
+    "A": ["34.149.204.188"],
     "TXT": "v=spf1 a mx include:_spf.elasticemail.com ~all"
   }
 }
