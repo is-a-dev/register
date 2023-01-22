@@ -8,12 +8,12 @@
     "discord": "781127625263415326"
   },
   "record": {
-    "A": [
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153",
-      "185.199.108.153"
-    ],
+    "CNAME": "cc997d0e-83bb-487d-bb27-acbc00b59adb.id.repl.co"
+
+
+
+
+,
     "TXT": "v=spf1 a mx include:_spf.elasticemail.com ~all"
   }
 }
