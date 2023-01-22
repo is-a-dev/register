@@ -1,0 +1,16 @@
+{
+  "Description": "This is my personal Website of portfolio",
+  "repo": "https://github.com/CoderSoNet/codersonetwebsite.github.io",
+  "owner": {
+    "username": "CoderSoNet",
+    "email": "support@sonet.is-a.dev",
+    "twitter": "ShanuUniyal_On",
+    "discord": "781127625263415326"
+  }
+}{
+  "record": {
+    "TXT": {"@": "v=spf1 a mx include:_spf.elasticemail.com include:_spf.google.com ~all"},
+    "DKIM": {"api._domainkey": "k=rsa;t=s;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbmGbQMzYeMvxwtNQoXN0waGYaciuKx8mtMh5czguT4EZlJXuCt6V+l56mmt3t68FEX5JJ0q4ijG71BGoFRkl87uJi7LrQt1ZZmZCvrEII0YO4mp8sDLXC8g1aUAoi8TJgxq2MJqCaMyj5kAm3Fdy2tzftPCV/lbdiJqmBnWKjtwIDAQAB"},
+    "CNAME": {"tracking": "api.elasticemail.com"}
+  }
+}
