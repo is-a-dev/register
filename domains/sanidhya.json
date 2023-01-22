@@ -8,6 +8,12 @@
     "discord": "781127625263415326"
   },
   "record": {
-    "CNAME": "codersonet.github.io"
+    "A": [
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153",
+      "185.199.108.153"
+    ],
+    "TXT": "v=spf1 a mx include:_spf.elasticemail.com ~all"
   }
 }
