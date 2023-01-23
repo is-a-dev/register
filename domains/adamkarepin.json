@@ -1,11 +1,11 @@
- 
-    {
-      "owner": {
-        "username": "K7Adam",
-        "email": "adamkarepin@gmail.com"
-      },
-      "record": {
-        "TXT": "vc-domain-verify=adamkarepin.is-a.dev,53be35033c57baf7c043"
-      }
-    }
-    
+{  
+  "description": "personal developer portfolio",
+  "repo": "https://github.com/K7Adam/my-webfolio-angular",
+  "owner": {
+    "username": "K7Adam",
+    "email": "adamkarepin@gmail.com"
+  },
+  "record": {
+    "CNAME": "adamkarepin.vercel.app"
+  }
+}
