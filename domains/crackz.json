@@ -1,10 +1,9 @@
 {
-    "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/<github-username>/<github-username>.github.io",
+    "description": "Redirecting to my socials website.",
+    "repo": "https://github.com/CRACKz-cyber/",
     "owner": {
-        "username": "<github-username>",
-        "email": "email@address",
-        "twitter": "<twitter-username>"
+        "username": "CRACKz-cyber",
+        "email": "thomasknekibus@gmail.com"
     },
     "record": {
         "URL": "http://lassewiedemann.de"
