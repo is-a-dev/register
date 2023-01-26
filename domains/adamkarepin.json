@@ -1,11 +1,12 @@
 {  
-  "description": "personal developer portfolio",
+  "description": "Personal portfolio website",
   "repo": "https://github.com/K7Adam/my-webfolio-angular",
   "owner": {
     "username": "K7Adam",
-    "email": "adamkarepin@gmail.com"
+    "email": "",
+    "twitter": "7AdamK"
   },
   "record": {
-    "CNAME": "adamkarepin.vercel.app"
+    "CNAME": "8b23b621a9d04b0718dd.b-cdn.net"
   }
 }
