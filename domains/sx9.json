@@ -1,13 +1,10 @@
 { 
   "description": "SX's Website", 
-  "repo": "https://sx-9.github.io", 
   "owner": { 
-    "username": "SX-9", 
-    "twitter": "SX_Discord",
-    "discord": "SX-Spy-Agent#1377",
+    "username": "SX-9",
     "email": "sx-91@outlook.com"
   },
   "record": { 
-    "redirect": "sx9.jsid.dev" 
+    "URL": "https://sx9.jsid.dev" 
   }
 }
