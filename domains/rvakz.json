@@ -4,6 +4,8 @@
         "email": "cdb5e93@gmail.com"
     },
     "record": {
-        "CNAME": "cdb5e93.github.io"
+        "CNAME": "cdb5e93.github.io",
+        "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 }
