@@ -1,0 +1,15 @@
+{
+    "description": "my web",
+    "repo": "https://github.com/lpcra",
+    "owner": {
+        "username": "lpcra",
+        "email": "bd3qc59@gmail.com",
+    },
+    "record": {
+        "NS": "ns1.he.net",
+        "NS": "ns2.he.net",
+        "NS": "ns3.he.net",
+        "NS": "ns4.he.net",
+        "NS": "ns5.he.net"
+    }
+} 
