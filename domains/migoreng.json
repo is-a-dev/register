@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "kelabang",
-    "email": "",
-    "twitter": "",
+    "username": "migoreng",
     "discord": "migoreng#1665"
+  },
+  "record": {
+    "CNAME": "hashnode.network",
+    "TXT": "vc-domain-verify=migoreng.is-a.dev,552dcbb8e93c1af01c7a"
   }
 }
