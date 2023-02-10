@@ -2,10 +2,13 @@
 {
   "owner": {
     "username": "devsdocs",
-    "email": "indodatabase45@brccollege.edu.in"
+    "email": "id45.go@gmail.com"
   },
   "record": {
-    "CNAME": "mrcrbrth.my.id"
+    "A": [
+"141.144.205.66",
+"192.9.165.176"
+]
   }
 }
 
