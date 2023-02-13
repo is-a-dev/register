@@ -5,7 +5,11 @@
         "email": "yopremium21@gmail.com"
       },
       "record": {
-        "TXT": "google-site-verification=jfgLu1F8eWye93xVPU99SQt4MpCx6O_Sq8DAYz6hfFA"
+        "CNAME":{
+           "HOST": "4x3r57fqnqw6.abhirockz.is-a.dev."
+           "TARGET": "gv-giluqtollpmpiv.dv.googlehosted.com"
+             }
+        
       }
     }
     
