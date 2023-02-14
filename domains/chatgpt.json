@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/<github-username>/<github-username>.github.io",
+    "owner": {
+        "username": "ahiven",
+        "email": "salander0603@gmail.com",
+        "twitter": "salander0603"
+    },
+    "record": {
+        "CNAME": "<ahiven>.github.io"
+    }
+} 
