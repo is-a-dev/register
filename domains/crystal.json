@@ -8,12 +8,12 @@
     },
      "record": {
     "A": [
-      "135.148.226.33"
+      "212.193.3.66"
     ],
     "MX": [
-      "ns1.crystalcloud.xyz",
-      "ns2.crystalcloud.xyz"
+      "ns5.crystalcloud.xyz",
+      "ns6.crystalcloud.xyz"
     ],
-    "TXT": "v=spf1 a mx ip4:135.148.226.33 ~all"    
+    "TXT": "v=spf1 a mx ip4:212.193.3.66 ~all"    
   }
 }
