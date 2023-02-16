@@ -1,0 +1,11 @@
+{
+    "description": "Zoho mail verification",
+    "owner": {
+        "username": "itsnicecraft",
+        "email": "",
+        "twitter": "itsnicecraft"
+    },
+    "record": {
+        "CNAME": "zmverify.zoho.eu"
+    }
+} 
