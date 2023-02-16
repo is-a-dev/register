@@ -1,0 +1,12 @@
+{
+    "description": "Redirect to my github profile and serve emails",
+    "owner": {
+        "username": "itsnicecraft",
+        "email": "",
+        "twitter": "itsnicecraft"
+    },
+    "record": {
+        "URL": "https://bento.me/itsnicecraft",
+        "MX": ["mx.zoho.eu.", "mx2.zoho.eu.", "mx3.zoho.eu."]
+    }
+} 

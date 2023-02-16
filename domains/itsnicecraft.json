@@ -1,12 +1,12 @@
 {
-    "description": "Redirect to my github profile",
+    "description": "Personal website",
+    "repo": "https://github.com/itsnicecraft/itsnicecraft.github.io",
     "owner": {
         "username": "itsnicecraft",
         "email": "",
         "twitter": "itsnicecraft"
     },
     "record": {
-        "URL": "https://bento.me/itsnicecraft",
-        "MX": ["mx.zoho.eu.", "mx2.zoho.eu.", "mx3.zoho.eu."]
+        "CNAME": "itsnicecraft.github.io"
     }
 } 
