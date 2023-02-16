@@ -7,6 +7,7 @@
         "twitter": "itsnicecraft"
     },
     "record": {
-        "CNAME": "itsnicecraft.github.io"
+        "CNAME": "itsnicecraft.github.io",
+        "TXT": "zoho-verification=zb05631975.zmverify.zoho.eu"
     }
 } 
