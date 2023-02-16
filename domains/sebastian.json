@@ -5,8 +5,6 @@
 		"description": "Just a personal domain for me. I plan to have a website on it, and I might setup email forwarding in the future."
 	},
 	"record": {
-		"A": [
-			"127.0.0.1"
-		]
+		"URL": "https://basanites.xyz"
 	}
 }
