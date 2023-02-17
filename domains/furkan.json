@@ -1,0 +1,10 @@
+{
+    "description": "my static gatsby blog",
+    "owner": {
+        "username": "honeybadger4768",
+        "email": "furkancetinkaya0746@gmail.com"
+    },
+    "record": {
+        "CNAME": "furkancetinkayas-blog.vercel.app"
+    }
+} 
