@@ -1,15 +1,11 @@
 {
-    "description": "Describe the use of this subdomain",
     "owner": {
-        "username": "sketched@disroot.org",
+        "username": "caffein3",
         "email": "sketched@disroot.org",
         "discord": "sketched#1613"
-      "note": "Mail server priority must be the lowest allowed."
     },
     "record": {
-        "MX": [
-      "mail.postale.io"
-    ],
-      "TXT": "v=spf1 mx ~all"
+        "MX": ["mail.postale.io"],
+        "TXT": "v=spf1 mx ~all"
     }
 } 
