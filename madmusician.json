@@ -1,1 +1,15 @@
-Something here
+{
+  "owner": {
+    "username": "<github-username>",
+    "email": "",
+    "twitter": "twitter-handle",
+    "discord": "discord-username-and-discriminator"
+  }
+}
+
+
+{
+  "record": {
+    "CNAME": "<github-username>.github.io"
+  }
+}
