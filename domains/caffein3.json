@@ -1,11 +1,12 @@
 {
-  "owner": {
-    "username": "caffein3",
-    "email": "sketched@disroot.org",
-    "matrix": "@vertex:0wnz.at",
-    "discord": "sketched #1613",
-  },
-  "record": {
-    "CNAME": "caffein3.github.io"
-  }
-}
+    "description": "for my website",
+    "repo": "https://github.com/caffein3/caffein3.github.io",
+    "owner": {
+        "username": "caffein3",
+        "email": "sketched@disroot.org",
+        "discord": "sketched#1613"
+    },
+    "record": {
+        "CNAME": "caffein3.github.io"
+    }
+} 
