@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "ahmedfaroq884",
+    "email": "ahmedfaroq884@gmail.com"
+  }
+  "record": {
+    "CNAME": "colin.ns.cloudflare.com"
+    "CNAME": "elisa.ns.cloudflare.com"
+    "CNAME": "ce19d2bf-a5a6-4dc1-9f70-02ebcdf8ea43.id.repl.co"
+    "TXT": "replit-verify=ce19d2bf-a5a6-4dc1-9f70-02ebcdf8ea43"
+  }
+}
