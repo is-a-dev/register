@@ -4,6 +4,7 @@
         "email": "arpitbatra98@gmail.com"
     },
     "record": {
-        "CNAME": "myportfolio-eb732.web.app"
+        "CNAME": "myportfolio-eb732.web.app",
+        "TXT": "google-site-verification=vx79ItCBRu5uv6KWvCP-ZJWfAFIdErpAoHg6z0DiIkc"
     }
 }
