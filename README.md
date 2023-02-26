@@ -17,12 +17,15 @@
 </p>
 
 ## Registration
-Try out our new fast and easy subdomain registration service [here](https://register.is-a.dev)!
+If you want to quickly register your subdomain, check out our subdomain registration service [here](https://register.is-a.dev)!
 
-Or via the CI:
+Or if you prefer to use your command line:
 
 ```bash
 npm install @is-a-dev/cli -g
+
+is-a-dev login
+
 is-a-dev create
 ```  
 
