@@ -1,0 +1,13 @@
+{
+    "description": "Personal website and blog",
+    "repo": "https://github.com/AlephaNull/AlephaNull.github.io",
+    "owner": {
+        "username": "AlephaNull",
+        "email": "alephanull7@pm.me",
+        "twitter": "<twitter-username>"
+    },
+    "record": {
+        "CNAME": "alephanull.github.io"
+    }
+} 
+
