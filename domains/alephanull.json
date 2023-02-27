@@ -3,11 +3,9 @@
     "repo": "https://github.com/AlephaNull/AlephaNull.github.io",
     "owner": {
         "username": "AlephaNull",
-        "email": "alephanull7@pm.me",
-        "twitter": "<twitter-username>"
+        "email": "alephanull7@pm.me"
     },
     "record": {
         "CNAME": "alephanull.github.io"
     }
-} 
-
+}
