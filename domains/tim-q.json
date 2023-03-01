@@ -1,9 +1,11 @@
 {
+  "description": "My personal portfolio",
   "owner": {
     "username": "Tim Q.",
-    "email": "contact@tim-q.de"
+    "email": "contact@tim-q.de",
+    "discord": "Vatic#0920"
   },
   "record": {
-    "URL": "https://tim-q.de"
+    "CNAME": "tim-q.de"
   }
 }
