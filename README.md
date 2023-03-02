@@ -17,9 +17,15 @@
 </p>
 
 ## Registration
-If you want to quickly register your subdomain, check out our subdomain registration service [here](https://register.is-a.dev)!
+###### Manual registration:
+- [Fork](https://github.com/is-a-dev/register/fork) this repository.
+- Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
+- [Read the documentation](https://is-a.dev/docs).
+- Your pull request will be reviewed and merged. *Make sure to keep an eye on it incase we need you to make any changes!*
+- After the pull request is merged, please allow up to 24 hours for the changes to propagate.
+- Enjoy your new `.is-a.dev` domain!
 
-Or if you prefer to use your command line:
+###### Or if you prefer to use your command line:
 
 ```bash
 npm install @is-a-dev/cli -g
@@ -29,13 +35,7 @@ is-a-dev login
 is-a-dev create
 ```  
 
-**Manual Registration**:
-- [Fork](https://github.com/is-a-dev/register/fork) this repository.
-- Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
-- [Read the documentation](https://is-a.dev/docs).
-- Your pull request will be reviewed and merged. *Make sure to keep an eye on it incase we need you to make any changes!*
-- After the pull request is merged, please allow up to 24 hours for the changes to propagate.
-- Enjoy your new `.is-a.dev` domain!
+
 
 ## Status
 You can check the uptime of our services on our [status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw).
