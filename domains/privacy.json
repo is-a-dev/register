@@ -1,26 +1,16 @@
- 
-    {
-      "owner": {
-        "username": "is-a-dev-bot",
-        "email": "is-a-dev.technicalservices@beadman-network.com"
-      },
-      "record": {
+{
+    "owner": {
+        "username": "@is-a-dev/maintainers",
+        "email": "phenax5@gmail.com"
+    },
+    "record": {
         "A": [
-
-              "185.199.108.153",
-
-              "185.199.109.153",
-
-              "185.199.110.153",
-
-              "185.199.111.153"
-
-             ],
-        "MX": [
-          "mx1.forwardemail.net",
-          "mx2.forwardemail.net"
-              ],
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
         "TXT": "forward-email=privacy.isdev.localplayer.dev"
-      }
     }
-    
+}
