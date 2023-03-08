@@ -3,10 +3,11 @@
   "repo": "https://github.com/Achitu24/adrianchitu",
   "owner": {
     "username": "Achitu24",
-    "email": "adrian.chitu7@gmail.com"
+    "email": "adrian.chitu7@gmail.com",
+    "twitter": "AdrianChitu7"
   },
 
   "record": {
-    "CNAME": "https://achitu24.github.io/"
+    "CNAME": "achitu24.github.io"
   }
 }
