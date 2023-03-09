@@ -1,0 +1,12 @@
+{
+  "description": "ZeroDev's personal developer website",
+  "repo": "https://github.com/TadashiKazuo",
+  "owner": {
+    "username": "TadashiKazuo",
+    "email": "kudo.andrew.2005@gmail.com"
+  },
+  "record": {
+    "CNAME": "andrewnoob.tk",
+    "TXT": "replit-verify=a6a5a5bb-b2f1-4bf1-9818-b59724884e46"
+  }
+}
