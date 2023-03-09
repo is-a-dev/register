@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/gopa-kaul/gopal-kaul.github.io",
+    "owner": {
+        "username": "gopal-kaul",
+        "email": "gopalkaul5@gmail.com",
+        "twitter": "kaulmegops"
+    },
+    "record": {
+        "CNAME": "gopal-kaul.github.io"
+    }
+} 
