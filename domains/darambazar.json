@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Darmaa-YoLo",
         "email": "ndarambazar00@gmail.com"
-      },
-      "record": {
-        "CNAME": "infallible-mahavira-8b9109.netlify.app"
-      }
+    },
+    "record": {
+        "URL": "https://infallible-mahavira-8b9109.netlify.app"
     }
-    
+}
