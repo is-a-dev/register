@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "vincyxiroff",
         "email": "vincyxir@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "vincyxiroff.github.io"
-      }
     }
-    
+}
