@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "uEriic",
         "email": "ueriic0@gmail.com"
-      },
-      "record": {
-        "CNAME": "https://ueriic.github.io/portifolio"
-      }
+    },
+    "record": {
+        "CNAME": "ueriic.github.io"
     }
-    
+}
