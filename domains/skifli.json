@@ -3,7 +3,8 @@
     "repo": "https://github.com/skifli/skifli.github.io",
     "owner": {
         "username": "skifli",
-        "discord": "skifli#8774",
+        "email": "",
+        "discord": "skifli#8774"
     },
     "record": {
         "CNAME": "skifli.github.io"
