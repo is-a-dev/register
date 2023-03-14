@@ -1,0 +1,12 @@
+{
+  "description": "Blog",
+  "repo": "https://crystalbajgai.hashnode.dev/",
+  "owner": {
+    "username": "crystalbajgai",
+    "email": "crystalbajgai@gmail.com"
+  },
+  "record": {
+    "CNAME": "hashnode.network",
+    "TXT": "google-site-verification=y0sjOk3zxcPgc388FPcbfeBfRToQcEj1Mcfg83oEqiw"
+  }
+}
