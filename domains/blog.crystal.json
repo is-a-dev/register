@@ -5,6 +5,7 @@
     "email": "crystalbajgai@gmail.com"
   },
   "record": {
-    "CNAME": "hashnode.network"
+    "CNAME": "hashnode.network",
+    "TXT": "vc-domain-verify=blog.crystal.is-a.dev,aec0109770b20bbba9be"
   }
 }
