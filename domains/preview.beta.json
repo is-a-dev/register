@@ -1,11 +1,9 @@
-
-              {
-                "owner": {
-                  "username": "andrewstech",
-                  "email": "andrew@win11react.com"
-                },
-                "record": {
-                  "CNAME": "is-a-dev-bot.github.io"
-                }
-              }
-            
+{
+    "owner": {
+        "username": "@is-a-dev/maintainers",
+        "email": "phenax5@gmail.com"
+    },
+    "record": {
+        "CNAME": "is-a-dev-bot.github.io"
+    }
+}
