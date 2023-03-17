@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "mrcrazii",
         "email": "62823817+mrcrazii@users.noreply.github.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "mrcrazii.github.io"
-      }
     }
-    
+}
