@@ -1,10 +1,11 @@
 {
-    "description": "hase0278's personal developer website",
+    "description": "hase0278's personal websocket from replit",
     "owner": {
       "username": "hase0278",
       "email": "betterhalf278@gmail.com"
     },
     "record": {
-        "CNAME": "hase0278.epizy.com"
+        "CNAME": "a632d554-658d-478e-9dfa-deaaf87478b8.id.repl.co",
+        "TXT": "replit-verify=a632d554-658d-478e-9dfa-deaaf87478b8"
     }
 }
