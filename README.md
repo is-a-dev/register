@@ -28,6 +28,8 @@
 
 ### CLI Registration
 
+###### Source Code: https://github.com/wdhdev/is-a-dev-cli
+
 Install the CLI:
 
 ```bash
