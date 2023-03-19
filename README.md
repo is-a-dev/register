@@ -16,8 +16,9 @@
    <a href="https://discord.gg/PZCGHz4RhQ"><img alt="Discord Server" src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2"></a>
 </p>
 
-## Registration
-###### Manual registration:
+## Register
+### Manual Registration
+
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
 - [Read the documentation](https://is-a.dev/docs).
@@ -25,17 +26,27 @@
 - After the pull request is merged, please allow up to 24 hours for the changes to propagate.
 - Enjoy your new `.is-a.dev` domain!
 
-###### Or if you prefer to use your command line:
+### CLI Registration
+
+###### Source Code: https://github.com/wdhdev/is-a-dev-cli
+
+Install the CLI:
 
 ```bash
 npm install @is-a-dev/cli -g
-
-is-a-dev login
-
-is-a-dev create
 ```  
 
+Login to the CLI:
 
+```bash
+is-a-dev login
+```
+
+Register a subdomain on the CLI:
+
+```
+is-a-dev register
+```
 
 ## Status
 You can check the uptime of our services on our [status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw).
