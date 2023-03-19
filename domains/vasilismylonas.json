@@ -4,7 +4,7 @@
         "email": "vasilismylonas@protonmail.com"
     },
 
-    "records": {
-        "CNAME": "https://github.com/vasilismylonas/vasilismylonas.github.io"
+    "record": {
+        "CNAME": "vasilismylonas.github.io"
     }
 }
