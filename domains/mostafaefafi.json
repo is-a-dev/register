@@ -6,6 +6,7 @@
     "email": "mostafa.ef@gmail.com"
   },
   "record": {
-    "CNAME": "mostafa-efafi.github.io"
+    "CNAME": "mostafa-efafi.github.io",
+    "TXT": "google-site-verification=NhXCB2kw0mMq4ZY-Qj4rQDoewy0vwQhWno0mfaFOuSk"
   }
 }
