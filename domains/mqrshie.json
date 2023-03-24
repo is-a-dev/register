@@ -1,5 +1,4 @@
 {
-    "description": "",
     "repo": "https://github.com/Mqrshie/isadev",
     "owner": {
         "username": "Mqrshie",
@@ -7,6 +6,6 @@
         "twitter": "Mqrshie"
     },
     "record": {
-        "CNAME": "Mqrshie.github.io/isadev"
+        "CNAME": "Mqrshie.github.io"
     }
 }
