@@ -4,7 +4,7 @@
     "email": "maxguilham@protonmail.com"
   },
   "record": {
-    "CNAME": "00d4ebe1-549c-4de6-80ba-0d2a603d0388.id.repl.co",
+    "A": ["34.149.204.188"],
     "MX": [
         "mx1.improvmx.com",
         "mx2.improvmx.com"
