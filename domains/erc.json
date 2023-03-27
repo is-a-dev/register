@@ -1,0 +1,11 @@
+{
+    "description": "Hashnode Site",
+    "repo": "https://github.com/eric48906",
+    "owner": {
+        "username": "eric48906",
+        "email": "eric48906@gmail.com"
+    },
+    "record": {
+        "CNAME": "hashnode.network"
+    }
+}
