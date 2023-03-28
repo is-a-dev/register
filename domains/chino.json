@@ -1,5 +1,5 @@
 {
-    "description": "My Github Page",
+    "description": "My personal page",
     "repo": "https://github.com/AutumnVN/autumnvn.github.io",
     "owner": {
         "username": "AutumnVN",
@@ -7,6 +7,6 @@
         "twitter": "dvht0"
     },
     "record": {
-        "CNAME": "autumnvn.github.io"
+        "CNAME": "chino.pages.dev"
     }
 } 

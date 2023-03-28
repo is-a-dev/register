@@ -1,0 +1,11 @@
+{
+  "description": "iakzs.is-a.dev",
+  "repo": "https://github.com/iakzs/iakzs.github.io",
+  "owner": {
+    "username": "iakzs",
+    "email": "iakzs@protonmail.com"
+  },
+  "record": {
+    "CNAME": "iakzs.github.io"
+  }
+}
