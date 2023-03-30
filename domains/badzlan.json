@@ -1,9 +1,8 @@
 {
-    "description": "Describe the use of this subdomain",
     "repo": "https://github.com/badzlan/badzlan.github.io",
     "owner": {
         "username": "badzlan",
-        "email": "badzlandhabith05@gmail.com",
+        "email": "badzlandhabith05@gmail.com"
     },
     "record": {
         "CNAME": "badzlan.github.io"
