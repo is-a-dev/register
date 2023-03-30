@@ -1,0 +1,11 @@
+{
+  "description": "Comet's Developer Site",
+  "repo": "https://github.com/OfficialDevComet/officialdevcomet.github.io",
+  "owner": {
+    "username": "CometDev",
+    "email": "vishyyea@gmail.com"
+  },
+  "record": {
+    "CNAME": "officialdevcomet.github.io"
+  }
+}
