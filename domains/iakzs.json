@@ -16,5 +16,11 @@
         "mx1.improvmx.com",
         "mx2.improvmx.com"
     ]
+    {
+  "record": {
+    "TXT": "v=spf1 include:spf.improvmx.com ~allCOPY"
+  }
+}
+
   }
 }
