@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/itshayvune/itshayvune.github.io",
+    "owner": {
+        "username": "itshayvune",
+        "email": "quihongcg79@gmail.com",
+        "twitter": "itshayvune"
+    },
+    "record": {
+        "CNAME": "itshayvune.github.io"
+    }
+} 
