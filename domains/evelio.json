@@ -7,6 +7,11 @@
         "discord": "SrEvelioツ#3906"
     },
     "record": {
-        "CNAME": "srevelio.github.io"
+        "CNAME": "srevelio.github.io",
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
-} 
+}
