@@ -1,11 +1,11 @@
 {
-  "description": "MoPaMo's personal webpage",
-  "repo": "https://github.com/MoPaMo/MoPaMo.github.io",
-  "owner": {
-    "username": "MoPaMo",
-    "email": "spam.mpm1301@web.de"
-  },
-  "record": {
-    "CNAME": "home.mopamo.repl.co"
-  }
+    "description": "MoPaMo's personal webpage",
+    "repo": "https://github.com/MoPaMo/MoPaMo.github.io",
+    "owner": {
+        "username": "MoPaMo",
+        "email": "spam.mpm1301@web.de"
+    },
+    "record": {
+        "CNAME": "home.mopamo.repl.co"
+    }
 }

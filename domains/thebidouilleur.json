@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "QJoly",
         "email": "quentinjoly@thoughtless.eu"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["5.39.75.213"]
-      }
     }
-  
+}

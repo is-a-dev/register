@@ -1,11 +1,11 @@
 {
-  "description": "Amit's website",
-  "repo": "https://github.com/amittkulkarni/amittkulkarni.github.io",
-  "owner": {
-    "username": "amittkulkarni",
-    "email": "amitcoolkarni@outlook.com"
-  },
-  "record": {
-    "CNAME": "amittkulkarni.github.io"
-  }
+    "description": "Amit's website",
+    "repo": "https://github.com/amittkulkarni/amittkulkarni.github.io",
+    "owner": {
+        "username": "amittkulkarni",
+        "email": "amitcoolkarni@outlook.com"
+    },
+    "record": {
+        "CNAME": "amittkulkarni.github.io"
+    }
 }

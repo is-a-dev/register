@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "BigKitten",
-    "email": "",
-    "discord": "MiloCat#8198"
-  },
-  "record": {
-    "CNAME": "MiloCat.repl.co"
-  }
+    "owner": {
+        "username": "BigKitten",
+        "email": "",
+        "discord": "MiloCat#8198"
+    },
+    "record": {
+        "CNAME": "MiloCat.repl.co"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "Hello my name is Markos Dimitsas and I am from Greece.",
-  "repo": "https://github.com/markdimi",
-  "owner": {
-    "username": "markdimi",
-    "email": "markdimitsas@gmail.com"
-  },
-  "record": {
-    "CNAME": "markos.me"
-  }
+    "description": "Hello my name is Markos Dimitsas and I am from Greece.",
+    "repo": "https://github.com/markdimi",
+    "owner": {
+        "username": "markdimi",
+        "email": "markdimitsas@gmail.com"
+    },
+    "record": {
+        "CNAME": "markos.me"
+    }
 }

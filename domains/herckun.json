@@ -1,12 +1,12 @@
 {
-  "owner": {
-    "username": "herckun",
-    "email": "",
-    "twitter": "herckun",
-    "discord": "herckun#2055"
-  },
-  "description" : "Personal portfolio website",
-  "record": {
-    "URL": "https://herckun.xyz"
-  } 
+    "owner": {
+        "username": "herckun",
+        "email": "",
+        "twitter": "herckun",
+        "discord": "herckun#2055"
+    },
+    "description": "Personal portfolio website",
+    "record": {
+        "URL": "https://herckun.xyz"
+    }
 }

@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "gpproton",
         "email": "me@godwin.dev"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "godwin.dev"
-      }
     }
-  
+}

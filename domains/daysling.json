@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "NightSling",
         "email": "pangenisushant20@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "daysling.xyz"
-      }
     }
-  
+}

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "callumjt",
         "email": "cjblack2009@icloud.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "callumjt.github.io"
-      }
     }
-      
+}

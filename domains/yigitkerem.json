@@ -1,13 +1,11 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "yigitkeremoktay",
         "email": "yigitkerem@theskyfallen.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "MX": ["novea.skyfallen.org"],
         "A": ["178.62.63.235"]
-      }
     }
-  
+}

@@ -1,11 +1,11 @@
 {
-  "description": "my npm package",
-  "repo": "https://github.com/teamjoelee/me",
-  "owner": {
-    "username": "teamjoelee",
-    "email": "tojoeleeofficial@gmail.com"
-  },
-  "record": {
-    "CNAME": "7f4243c7-d171-416a-ad3d-19ba04fe36f5.id.repl.co"
-  }
+    "description": "my npm package",
+    "repo": "https://github.com/teamjoelee/me",
+    "owner": {
+        "username": "teamjoelee",
+        "email": "tojoeleeofficial@gmail.com"
+    },
+    "record": {
+        "CNAME": "7f4243c7-d171-416a-ad3d-19ba04fe36f5.id.repl.co"
+    }
 }

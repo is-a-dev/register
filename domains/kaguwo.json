@@ -1,10 +1,10 @@
 {
-  "description": "Kaguwo's Personal Website",
-  "owner": {
-    "username": "kaguwomin",
-    "email": "business@kaguwo.com"
-  },
-  "record": {
-    "CNAME": "kaguwomin.github.io"
-  }
+    "description": "Kaguwo's Personal Website",
+    "owner": {
+        "username": "kaguwomin",
+        "email": "business@kaguwo.com"
+    },
+    "record": {
+        "CNAME": "kaguwomin.github.io"
+    }
 }

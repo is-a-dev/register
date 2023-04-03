@@ -1,11 +1,11 @@
 {
-  "description": "Socials menu in m1dnight's art portfolio",
-  "repo": "https://m1dnight.is-a.dev/art/3D-Menu-Art/index-3Dmenu.html",
-  "owner": {
-    "username": "m1dnight-ofcl",
-    "email": "m1dnightgmrofficial@gmail.com"
-  },
-  "record": {
-    "CNAME": "m1dnight.is-a.dev"
-  }
+    "description": "Socials menu in m1dnight's art portfolio",
+    "repo": "https://m1dnight.is-a.dev/art/3D-Menu-Art/index-3Dmenu.html",
+    "owner": {
+        "username": "m1dnight-ofcl",
+        "email": "m1dnightgmrofficial@gmail.com"
+    },
+    "record": {
+        "CNAME": "m1dnight.is-a.dev"
+    }
 }

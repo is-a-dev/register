@@ -1,11 +1,11 @@
 {
-  "description": "Tony Colston's site",
-  "repo": "https://github.com/tonetheman",
-  "owner": {
-    "username": "tonetheman",
-    "email": "tonetheman@gmail.com"
-  },
-  "record": {
-    "CNAME": "tonycolston.com"
-  }
+    "description": "Tony Colston's site",
+    "repo": "https://github.com/tonetheman",
+    "owner": {
+        "username": "tonetheman",
+        "email": "tonetheman@gmail.com"
+    },
+    "record": {
+        "CNAME": "tonycolston.com"
+    }
 }

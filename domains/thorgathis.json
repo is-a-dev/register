@@ -1,11 +1,11 @@
 {
-  "description": "Thorgathis website",
-  "repo": "https://github.com/Thorgathis/thorgathis.github.io",
-  "owner": {
-    "username": "Thorgathis",
-    "email": "thorgathis.dev@gmail.com"
-  },
-  "record": {
-    "CNAME": "thorgathis.github.io"
-  }
+    "description": "Thorgathis website",
+    "repo": "https://github.com/Thorgathis/thorgathis.github.io",
+    "owner": {
+        "username": "Thorgathis",
+        "email": "thorgathis.dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "thorgathis.github.io"
+    }
 }

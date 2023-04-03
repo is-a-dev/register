@@ -1,11 +1,11 @@
 {
-  "description": "Personal portfolio.",
-  "repo": "https://github.com/ConnorDoesDev/connordoesdev.github.io",
-  "owner": {
-    "username": "ConnorDoesDev",
-    "email": "connor@cstudios.gay"
-  },
-  "record": {
-    "CNAME": "connordoesdev.github.io"
-  }
+    "description": "Personal portfolio.",
+    "repo": "https://github.com/ConnorDoesDev/connordoesdev.github.io",
+    "owner": {
+        "username": "ConnorDoesDev",
+        "email": "connor@cstudios.gay"
+    },
+    "record": {
+        "CNAME": "connordoesdev.github.io"
+    }
 }

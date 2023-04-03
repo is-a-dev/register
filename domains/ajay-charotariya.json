@@ -1,11 +1,11 @@
 {
-  "description": "Ajay charotariya.",
-  "repo": "https://github.com/ajay-charotariya/ajay-charotariya.github.io",
-  "owner": {
-    "username": "ajay-charotariya",
-    "email": ""
-  },
-  "record": {
-    "CNAME": "ajay-charotariya.github.io"
-  }
+    "description": "Ajay charotariya.",
+    "repo": "https://github.com/ajay-charotariya/ajay-charotariya.github.io",
+    "owner": {
+        "username": "ajay-charotariya",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "ajay-charotariya.github.io"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "evilbryan590",
-    "email": "evilbryan590@gmail.com"
-  },
-  "record": {
-    "CNAME": "evilbryan590.github.io"
-  }
+    "owner": {
+        "username": "evilbryan590",
+        "email": "evilbryan590@gmail.com"
+    },
+    "record": {
+        "CNAME": "evilbryan590.github.io"
+    }
 }

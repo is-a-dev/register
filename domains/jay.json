@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "jaygmx",
-    "email": "j.jay@gmx.us"
-  },
-  "record": {
-    "CNAME": "jay.readthedocs.io"
-  }
+    "owner": {
+        "username": "jaygmx",
+        "email": "j.jay@gmx.us"
+    },
+    "record": {
+        "CNAME": "jay.readthedocs.io"
+    }
 }

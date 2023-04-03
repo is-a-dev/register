@@ -2,10 +2,10 @@
     "description": "XUXXI",
     "repo": "https://github.com/XUXXI/xuxxi.github.io",
     "owner": {
-      "username": "methaine",
-      "email": "keter@keemail.me"
+        "username": "methaine",
+        "email": "keter@keemail.me"
     },
     "record": {
-      "CNAME": "xuxxi.github.io"
+        "CNAME": "xuxxi.github.io"
     }
 }

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "madhuryadutta",
         "email": "www.madhuryadutta2016@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "madhuryadutta.github.io"
-      }
     }
-      
+}

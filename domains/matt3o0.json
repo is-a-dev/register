@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "duvbolone",
         "email": "duvbolone@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "duvbolone.github.io"
-      }
     }
-      
+}

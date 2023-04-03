@@ -1,10 +1,10 @@
 {
-  "description": "Infinite's personal portfolio!",
-  "owner": {
-    "username": "InfiniteCode",
-    "email": "infinitecode@infiniteco.de"
-   },
-  "record": {
-    "URL": "https://infiniteco.de"
-  }
+    "description": "Infinite's personal portfolio!",
+    "owner": {
+        "username": "InfiniteCode",
+        "email": "infinitecode@infiniteco.de"
+    },
+    "record": {
+        "URL": "https://infiniteco.de"
+    }
 }

@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "lifeless-muffin",
         "email": "mansoorroeen71@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "lifeless-muffin.github.io"
-      }
     }
-  
+}

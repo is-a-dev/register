@@ -1,10 +1,10 @@
 {
-  "repo": "https://github.com/N0r1uno/n0r1uno.github.io",
-  "owner": {
-    "username": "N0r1uno",
-    "email": "noriunomakusui@gmail.com"
-  },
-  "record": {
-    "CNAME": "n0r1uno.github.io"
-  }
+    "repo": "https://github.com/N0r1uno/n0r1uno.github.io",
+    "owner": {
+        "username": "N0r1uno",
+        "email": "noriunomakusui@gmail.com"
+    },
+    "record": {
+        "CNAME": "n0r1uno.github.io"
+    }
 }

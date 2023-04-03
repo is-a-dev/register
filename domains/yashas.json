@@ -1,11 +1,11 @@
 {
-  "description": "yashas.is-a.dev.",
-  "repo": "https://github.com/yashas9492",
-  "owner": {
-    "username": "Yashas9492",
-    "email": "yashas.codes@gmail.com"
-  },
-  "record": {
-    "CNAME": "yashas9492.github.io"
-  }
+    "description": "yashas.is-a.dev.",
+    "repo": "https://github.com/yashas9492",
+    "owner": {
+        "username": "Yashas9492",
+        "email": "yashas.codes@gmail.com"
+    },
+    "record": {
+        "CNAME": "yashas9492.github.io"
+    }
 }

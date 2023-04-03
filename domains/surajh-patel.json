@@ -1,11 +1,11 @@
 {
-  "description": "surajh-patel Profile.",
-  "repo": "https://github.com/surajh-patel/surajh-patel.github.io",
-  "owner": {
-    "username": "surajh-patel",
-    "email": ""
-  },
-  "record": {
-    "CNAME": "surajh-patel.github.io"
-  }
+    "description": "surajh-patel Profile.",
+    "repo": "https://github.com/surajh-patel/surajh-patel.github.io",
+    "owner": {
+        "username": "surajh-patel",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "surajh-patel.github.io"
+    }
 }

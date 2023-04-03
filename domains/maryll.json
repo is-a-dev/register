@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Maryll-castelino",
         "email": "maryllcastelino@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "maryll-castelino.github.io"
-      }
     }
-  
+}

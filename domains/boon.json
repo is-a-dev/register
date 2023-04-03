@@ -1,11 +1,11 @@
 {
-  "description": "Portfolio site for me.",
-  "owner": {
-    "username": "uwuCaitlin",
-    "email": "",
-    "discord": "boon#6660"
-  },
-  "record": {
-    "URL": "https://boons.pics"
-  }
+    "description": "Portfolio site for me.",
+    "owner": {
+        "username": "uwuCaitlin",
+        "email": "",
+        "discord": "boon#6660"
+    },
+    "record": {
+        "URL": "https://boons.pics"
+    }
 }

@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "WasabiThumb",
         "email": "wasabithumbs@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "wasabicodes.xyz"
-      }
     }
-  
+}

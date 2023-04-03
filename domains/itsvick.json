@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "itsvick",
         "email": "vivek_kasture@techjoomla.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "itsvick.github.io"
-      }
     }
-  
+}

@@ -1,11 +1,11 @@
 {
-  "description": "A unsusually stupid developers programming blog",
-  "repo": "https://github.com/Khhs167/jimms-cave",
-  "owner": {
-    "username": "Khhs167",
-    "email": "khhs1671@gmail.com"
-  },
-  "record": {
-    "URL": "https://jimmys-cave.web.app"
-  }
+    "description": "A unsusually stupid developers programming blog",
+    "repo": "https://github.com/Khhs167/jimms-cave",
+    "owner": {
+        "username": "Khhs167",
+        "email": "khhs1671@gmail.com"
+    },
+    "record": {
+        "URL": "https://jimmys-cave.web.app"
+    }
 }

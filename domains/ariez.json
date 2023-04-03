@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "AriezzYT",
         "email": "ttkeaton@outlook.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "ariezzyt.github.io"
-      }
     }
-  
+}

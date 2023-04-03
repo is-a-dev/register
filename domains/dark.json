@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "BruhDark",
         "email": "darkpxint@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "bruhdarkgithubio-production.up.railway.app"
-      }
     }
-      
+}

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Emtyffx",
         "email": "emtyfay4433@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "myblog-production.up.railway.app"
-      }
     }
-    
+}

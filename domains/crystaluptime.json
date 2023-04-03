@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "CRYSTAL-HQ",
         "email": "info.crystal.hq@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "URL": "https://uptime-kuma.crystaluptime.repl.co"
-      }
     }
-      
+}

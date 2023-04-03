@@ -1,11 +1,11 @@
 {
-  "description": "My Personal Portfolio",
-  "repo": "https://github.com/rednek46/rednek46.github.io",
-  "owner": {
-    "username": "rednek46",
-    "email": "nuzer501@gmail.com"
-  },
-  "record": {
-    "CNAME": "rednek46.github.io"
-  }
+    "description": "My Personal Portfolio",
+    "repo": "https://github.com/rednek46/rednek46.github.io",
+    "owner": {
+        "username": "rednek46",
+        "email": "nuzer501@gmail.com"
+    },
+    "record": {
+        "CNAME": "rednek46.github.io"
+    }
 }

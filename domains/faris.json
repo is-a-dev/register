@@ -1,13 +1,11 @@
 {
-  "repo": "https://github.com/farisjalal",
-  "owner": {
-    "username": "farisjalal",
-    "email": "",
-    "twitter": "faris__jalal"
-  },
-  "record": {
-    "A": [
-      "168.138.104.44"
-    ]
-  }
+    "repo": "https://github.com/farisjalal",
+    "owner": {
+        "username": "farisjalal",
+        "email": "",
+        "twitter": "faris__jalal"
+    },
+    "record": {
+        "A": ["168.138.104.44"]
+    }
 }

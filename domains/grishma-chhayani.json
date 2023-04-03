@@ -1,11 +1,11 @@
 {
-  "description": "Grishma Profile.",
-  "repo": "https://github.com/grishma-chhayani/grishma-chhayani.github.io",
-  "owner": {
-    "username": "grishma-chhayani",
-    "email": ""
-  },
-  "record": {
-    "CNAME": "grishma-chhayani.github.io"
-  }
+    "description": "Grishma Profile.",
+    "repo": "https://github.com/grishma-chhayani/grishma-chhayani.github.io",
+    "owner": {
+        "username": "grishma-chhayani",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "grishma-chhayani.github.io"
+    }
 }

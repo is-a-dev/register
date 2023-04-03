@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "charmingdisorder",
         "email": ""
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "charmingdisorder.github.io"
-      }
     }
-    
+}

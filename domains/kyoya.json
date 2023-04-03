@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "kyoyacchi",
-    "email": "kyoyacchi@protonmail.ch"
-  },
-  "record": {
-    "CNAME": "kyoyacchi.github.io"
-  }
+    "owner": {
+        "username": "kyoyacchi",
+        "email": "kyoyacchi@protonmail.ch"
+    },
+    "record": {
+        "CNAME": "kyoyacchi.github.io"
+    }
 }

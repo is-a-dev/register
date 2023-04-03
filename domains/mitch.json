@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "liao02x",
         "email": "liao02x@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "114032.xyz"
-      }
     }
-    
+}

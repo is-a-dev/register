@@ -1,11 +1,11 @@
 {
-  "description": "My website",
-  "repo": "https://github.com/Unknown-User2/Unknown-User2.github.io",
-  "owner": {
-    "username": "Unknown-User2",
-    "email": "unknown.us3r222@gmail.com"
-  },
-  "record": {
-    "CNAME": "Unknown-User2.github.io"
-  }
+    "description": "My website",
+    "repo": "https://github.com/Unknown-User2/Unknown-User2.github.io",
+    "owner": {
+        "username": "Unknown-User2",
+        "email": "unknown.us3r222@gmail.com"
+    },
+    "record": {
+        "CNAME": "Unknown-User2.github.io"
+    }
 }

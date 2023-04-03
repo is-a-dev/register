@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "SageDotExe",
         "email": "sagerainbow27@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "sagedotexe.github.io"
-      }
     }
-  
+}
