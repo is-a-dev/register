@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "xcatdrout",
         "email": "xcatdrout@proton.me"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "site-bwj.pages.dev"
-      }
     }
-    
+}

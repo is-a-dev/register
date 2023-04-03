@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "squareful",
         "email": "litiantian@ustc.edu"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "blog.maikebuke.com"
-      }
     }
-      
+}

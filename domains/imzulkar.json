@@ -1,9 +1,9 @@
 {
     "owner": {
-      "username": "imzulkar",
-      "email": "gmzulkar@gmail.com"
+        "username": "imzulkar",
+        "email": "gmzulkar@gmail.com"
     },
     "record": {
-      "CNAME": "imzulkar.github.io"
+        "CNAME": "imzulkar.github.io"
     }
-  }
+}

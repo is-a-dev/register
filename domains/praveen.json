@@ -1,11 +1,11 @@
 {
-  "description": "Praveen's personal developer website",
-  "repo": "https://github.com/PraveenPal4232",
-  "owner": {
-    "username": "PraveenPal4232",
-    "email": "praveenpal4232@gmail.com"
-  },
-  "record": {
-    "CNAME": "praveenpal4232.github.io"
-  }
+    "description": "Praveen's personal developer website",
+    "repo": "https://github.com/PraveenPal4232",
+    "owner": {
+        "username": "PraveenPal4232",
+        "email": "praveenpal4232@gmail.com"
+    },
+    "record": {
+        "CNAME": "praveenpal4232.github.io"
+    }
 }

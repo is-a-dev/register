@@ -1,11 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "AsmSafone",
         "email": "asmsafone@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "thawing-halibut-94d4dmuwrzd30esllhx7xjae.herokudns.com"
-      }
     }
+}

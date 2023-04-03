@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "iscosmos",
         "email": "iscosmos@outlook.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "URL": "https://iscosmos.github.io"
-      }
     }
-  
+}

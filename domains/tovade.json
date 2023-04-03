@@ -1,11 +1,11 @@
 {
-  "description": "My personal portfolio",
-  "repo": "https://github.com/tovade",
-  "owner": {
-    "username": "tovade",
-    "email": "support@tovade.ml"
-  },
-  "record": {
-    "CNAME": "tovade.ml"
-  }
+    "description": "My personal portfolio",
+    "repo": "https://github.com/tovade",
+    "owner": {
+        "username": "tovade",
+        "email": "support@tovade.ml"
+    },
+    "record": {
+        "CNAME": "tovade.ml"
+    }
 }

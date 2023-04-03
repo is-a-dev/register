@@ -1,10 +1,9 @@
-
 {
-  "owner": {
-    "username": "WillowMT",
-    "email": "waiyanmt@yahoo.com"
-  },
-  "record": {
-    "URL": "https://waiyanmt.netlify.app"
-  }
+    "owner": {
+        "username": "WillowMT",
+        "email": "waiyanmt@yahoo.com"
+    },
+    "record": {
+        "URL": "https://waiyanmt.netlify.app"
+    }
 }

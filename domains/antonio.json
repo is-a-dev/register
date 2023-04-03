@@ -1,11 +1,11 @@
 {
-  "description": "For my personal landing page",
-  "repo": "https://github.com/YantCaccia/yantcaccia.github.io",
-  "owner": {
-    "username": "YantCaccia",
-    "email": "yantcaccia@gmail.com"
-  },
-  "record": {
-    "CNAME": "yantcaccia.github.io"
-  }
+    "description": "For my personal landing page",
+    "repo": "https://github.com/YantCaccia/yantcaccia.github.io",
+    "owner": {
+        "username": "YantCaccia",
+        "email": "yantcaccia@gmail.com"
+    },
+    "record": {
+        "CNAME": "yantcaccia.github.io"
+    }
 }

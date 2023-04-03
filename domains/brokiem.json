@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "brokiem",
         "email": "milyhqvideo@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "brokiem.github.io"
-      }
     }
-  
+}

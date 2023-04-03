@@ -1,10 +1,10 @@
 {
-  "description": "Bae's personal website",
-  "owner": {
-    "username": "ba-e",
-    "email": "bae.nyom@gmail.com"
-  },
-  "record": {
-    "URL": "https://bae.codes"
-  }
+    "description": "Bae's personal website",
+    "owner": {
+        "username": "ba-e",
+        "email": "bae.nyom@gmail.com"
+    },
+    "record": {
+        "URL": "https://bae.codes"
+    }
 }

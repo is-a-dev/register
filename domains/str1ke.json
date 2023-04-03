@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "RealStr1ke",
         "email": "tmenelas@outlook.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "str1ke.codes"
-      }
     }
-  
+}

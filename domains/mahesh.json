@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "MaheshTheDeveloper",
-    "email": "dhingra3673@gmail.com"
-  },
-  "record": {
-    "CNAME": "MaheshTheDeveloper.github.io"
-  }
+    "owner": {
+        "username": "MaheshTheDeveloper",
+        "email": "dhingra3673@gmail.com"
+    },
+    "record": {
+        "CNAME": "MaheshTheDeveloper.github.io"
+    }
 }

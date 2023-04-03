@@ -1,11 +1,11 @@
 {
-  "description": "jagdish Profile.",
-  "repo": "https://github.com/jagdish-der/jagdish-der.github.io",
-  "owner": {
-    "username": "jagdish-der",
-    "email": ""
-  },
-  "record": {
-    "CNAME": "jagdish-der.github.io"
-  }
+    "description": "jagdish Profile.",
+    "repo": "https://github.com/jagdish-der/jagdish-der.github.io",
+    "owner": {
+        "username": "jagdish-der",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "jagdish-der.github.io"
+    }
 }

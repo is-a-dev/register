@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Nzii3",
         "email": "exeyst@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "nziiecommunity.freeflarum.com"
-      }
     }
-      
+}

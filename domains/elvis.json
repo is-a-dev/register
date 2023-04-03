@@ -1,11 +1,10 @@
 {
     "description": "Elvis's website",
     "owner": {
-      "username": "ElvisUpUp",
-      "email": "elvis4study@gmail.com"
+        "username": "ElvisUpUp",
+        "email": "elvis4study@gmail.com"
     },
     "record": {
-      "URL": "https://github.com/ElvisUpUp"
+        "URL": "https://github.com/ElvisUpUp"
     }
-  }
-  
+}

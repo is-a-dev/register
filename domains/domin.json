@@ -1,12 +1,10 @@
 {
-  "description": "Subdomain of is-a.dev for my profile card. I use DBH as hosting if it is necessary to let you know<3",
-  "owner": {
-    "username": "Domin-MND",
-    "email": "dominproject@gmail.com"
-  },
-  "record": {
-      "A": [
-          "164.132.74.251"
-      ]
-  }
+    "description": "Subdomain of is-a.dev for my profile card. I use DBH as hosting if it is necessary to let you know<3",
+    "owner": {
+        "username": "Domin-MND",
+        "email": "dominproject@gmail.com"
+    },
+    "record": {
+        "A": ["164.132.74.251"]
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "Pranav Sharma's developer-specific blog.",
-  "repo": "https://github.com/psharma04",
-  "owner": {
-    "username": "psharma04",
-    "email": "isadev@psharma.schoolnotes.xyz"
-  },
-  "record": {
-    "CNAME": "servarr.nighthawk.pw"
-  }
+    "description": "Pranav Sharma's developer-specific blog.",
+    "repo": "https://github.com/psharma04",
+    "owner": {
+        "username": "psharma04",
+        "email": "isadev@psharma.schoolnotes.xyz"
+    },
+    "record": {
+        "CNAME": "servarr.nighthawk.pw"
+    }
 }

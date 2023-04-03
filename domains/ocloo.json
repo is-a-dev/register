@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "dev0cloo",
         "email": "etor.ocloo@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "URL": "https://dev0cloo.netlify.app"
-      }
     }
-      
+}

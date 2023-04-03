@@ -1,10 +1,10 @@
 {
-  "description": "Charlz's is-a.dev domain",
-  "owner": {
-    "username": "TofuBoy05",
-    "email": "charlzfelipe02@gmail.com"
-  },
-  "record": {
-    "CNAME": "tofuboy05.github.io"
-  }
+    "description": "Charlz's is-a.dev domain",
+    "owner": {
+        "username": "TofuBoy05",
+        "email": "charlzfelipe02@gmail.com"
+    },
+    "record": {
+        "CNAME": "tofuboy05.github.io"
+    }
 }

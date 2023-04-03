@@ -1,11 +1,11 @@
 {
-  "description": "I am watercat",
-  "repo": "https://github.com/watercatuwu/watercatuwu.github.io",
-  "owner": {
-    "username": "watercatuwu",
-    "email": "watercat0330@gmail.com"
-  },
-  "record": {
-    "CNAME": "watercatuwu.github.io"
-  }
+    "description": "I am watercat",
+    "repo": "https://github.com/watercatuwu/watercatuwu.github.io",
+    "owner": {
+        "username": "watercatuwu",
+        "email": "watercat0330@gmail.com"
+    },
+    "record": {
+        "CNAME": "watercatuwu.github.io"
+    }
 }

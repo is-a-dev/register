@@ -1,10 +1,10 @@
 {
-   "owner": {
-      "username": "qwel-exe",
-      "discord": "qwel.exe#9583",
-      "email": "anirudh012009@gmail.com"
-   },
-   "record": {
-      "CNAME": "qwel-exe.github.io"
-   }
+    "owner": {
+        "username": "qwel-exe",
+        "discord": "qwel.exe#9583",
+        "email": "anirudh012009@gmail.com"
+    },
+    "record": {
+        "CNAME": "qwel-exe.github.io"
+    }
 }

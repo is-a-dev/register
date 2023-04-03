@@ -1,12 +1,12 @@
 {
-  "description": "My small little dev page thingy",
-  "repo": "https://github.com/fiskdk/jayy",
-  "owner": {
-    "username": "fiskdk",
-    "email": "jayyisdev@gmail.com",
-    "twitter": "dont-use-twitter"
-  },
-  "record": {
-    "CNAME": "fiskdk.github.io"
-  }
+    "description": "My small little dev page thingy",
+    "repo": "https://github.com/fiskdk/jayy",
+    "owner": {
+        "username": "fiskdk",
+        "email": "jayyisdev@gmail.com",
+        "twitter": "dont-use-twitter"
+    },
+    "record": {
+        "CNAME": "fiskdk.github.io"
+    }
 }

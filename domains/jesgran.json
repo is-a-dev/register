@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Jesgran",
         "email": "calzdani20@libero.it"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "jesgran.github.io"
-      }
     }
-  
+}

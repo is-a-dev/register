@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "ToasterSticks",
         "email": "matt.zhao.18@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "border.hop.io"
-      }
     }
-  
+}

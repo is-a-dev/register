@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "HSGamer",
         "email": "huynhqtienvtag@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "hsgamer.github.io"
-      }
     }
-  
+}

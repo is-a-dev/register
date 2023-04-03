@@ -1,11 +1,9 @@
-
 {
-  "owner": {
-    "username": "Ihsan-N",
-    "email": "abuihsan341@gmail.com"
-  },
-  "record": {
-    "CNAME": "4a08a93f-e142-4ae8-93f3-6cd7dc6304b7.id.repl.co"
-  }
+    "owner": {
+        "username": "Ihsan-N",
+        "email": "abuihsan341@gmail.com"
+    },
+    "record": {
+        "CNAME": "4a08a93f-e142-4ae8-93f3-6cd7dc6304b7.id.repl.co"
+    }
 }
-  

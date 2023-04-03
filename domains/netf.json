@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "netflexs",
         "email": ""
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "c4f04559-5bd7-49db-ae04-93e53cd8abc2.id.repl.co"
-      }
     }
-    
+}

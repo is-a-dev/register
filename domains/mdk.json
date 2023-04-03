@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "MaskDuck",
         "email": "it-is@too-obvious-that.maskduck.is-a.dev"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "edge.redirect.pizza"
-      }
     }
-      
+}

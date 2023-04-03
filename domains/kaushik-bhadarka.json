@@ -1,11 +1,11 @@
 {
-  "description": "Kaushik Bhadarka.",
-  "repo": "https://github.com/kaushik-bhadarka/kaushik-bhadarka.github.io",
-  "owner": {
-    "username": "kaushik-bhadarka",
-    "email": "kaushik-bhadarka@acquaintsoft.com"
-  },
-  "record": {
-    "CNAME": "kaushik-bhadarka.github.io"
-  }
+    "description": "Kaushik Bhadarka.",
+    "repo": "https://github.com/kaushik-bhadarka/kaushik-bhadarka.github.io",
+    "owner": {
+        "username": "kaushik-bhadarka",
+        "email": "kaushik-bhadarka@acquaintsoft.com"
+    },
+    "record": {
+        "CNAME": "kaushik-bhadarka.github.io"
+    }
 }

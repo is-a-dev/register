@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "UnidentifiedX",
         "email": "sunzizhuo33@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "unidentifiedx.github.io"
-      }
     }
-    
+}

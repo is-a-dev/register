@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "johanoloflindberg",
         "email": "johan@webbab.se"
-      },
+    },
 
-      "record": {
+    "record": {
         "URL": "https://webb.io"
-      }
     }
-  
+}

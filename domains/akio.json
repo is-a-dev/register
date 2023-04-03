@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "YoruAkio",
         "email": ""
-      },
-      "record": {
+    },
+    "record": {
         "TXT": "vc-domain-verify=akio.is-a.dev,c991805a0f4ecf2a1ded"
-      }
     }
-    
+}

@@ -1,10 +1,10 @@
 {
     "repo": "https://github.com/almightynan",
     "owner": {
-      "username": "almightynan",
-      "email": "almightynan@gmail.com"
+        "username": "almightynan",
+        "email": "almightynan@gmail.com"
     },
-    "record":  {
-                "CNAME": "almightynandev-production.up.railway.app"
-	}
+    "record": {
+        "CNAME": "almightynandev-production.up.railway.app"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "My personal Page",
-  "repo": "https://github.com/justinjohnymathew/justinjohnymathew.github.io",
-  "owner": {
-    "username": "justinjohnymathew",
-    "email": "justinjohny.jj@gmail.com"
-  },
-  "record": {
-    "CNAME": "justinjohnymathew.github.io"
-  }
+    "description": "My personal Page",
+    "repo": "https://github.com/justinjohnymathew/justinjohnymathew.github.io",
+    "owner": {
+        "username": "justinjohnymathew",
+        "email": "justinjohny.jj@gmail.com"
+    },
+    "record": {
+        "CNAME": "justinjohnymathew.github.io"
+    }
 }

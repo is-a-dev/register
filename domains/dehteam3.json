@@ -1,12 +1,11 @@
-
 {
-  "description": "Hi, I am Thomas Aka dehteam3, I like coding, playing games",
-  "repo": "https://github.com/dehteam3/dehteam3.github.io",
-  "owner": {
-    "username": "dehteam3",
-    "email": "thomasemad2008@gmail.com"
-  },
-  "record": {
-    "CNAME": "dehteam3.github.io"
-  }
+    "description": "Hi, I am Thomas Aka dehteam3, I like coding, playing games",
+    "repo": "https://github.com/dehteam3/dehteam3.github.io",
+    "owner": {
+        "username": "dehteam3",
+        "email": "thomasemad2008@gmail.com"
+    },
+    "record": {
+        "CNAME": "dehteam3.github.io"
+    }
 }

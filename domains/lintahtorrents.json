@@ -1,11 +1,9 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "meritocrazy",
         "email": "lunatic@tuta.io"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "drives.labor.workers.dev"
-      }
     }
-  
+}
