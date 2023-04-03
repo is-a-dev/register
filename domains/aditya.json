@@ -1,12 +1,12 @@
 {
     "description": "My Personal Landing Page!",
-    "repo": "https://github.com/icancodebeauty/aditya",
+    "repo": "https://github.com/adityaasyadav/aditya",
     "owner": {
-        "username": "icancodebeauty",
-        "email": "aditya@mail.aditya.is-a.dev",
-        "twitter": "@CodeWithAadi"
+        "username": "adityaasyadav",
+        "email": "ishqaddy@gmail.com",
+        "twitter": "adityaasyadav"
     },
     "record": {
-        "CNAME": "icancodebeauty.github.io"
+        "CNAME": "adityaasyadav.github.io"
     }
 }

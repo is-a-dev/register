@@ -1,0 +1,12 @@
+{
+	"description": "Domain for my portfolio website",
+	"repo": "https://github.com/GoodBoyNeon/goodboyneon.github.io",
+  "owner": {
+    "username": "GoodBoyNeon",
+    "discord": "GoodBoyNeon#2424",
+		"email": ""
+  },
+  "record": {
+    "CNAME": "goodboyneon.github.io"
+  }
+}
