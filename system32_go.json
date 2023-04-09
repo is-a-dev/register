@@ -4,6 +4,6 @@
         "email": "fuqiang-gfw@proton.me"
     },
     "record": {
-        "A": "45.130.22.143"
+        "A": ["45.130.22.143"]
     }
 }
