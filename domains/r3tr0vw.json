@@ -1,11 +1,10 @@
 {
     "owner": {
         "username": "r3tr0vw",
-        "discord": "rΞtr0vw#4441",
-        "note": "uhh, for my server in any case im making it public"
+        "email": "",
+        "discord": "rΞtr0vw#4441"
     },
-    "description": "ill prob add more here ¯\\_(ツ)_/¯",
     "record": {
-        "CNAME": "88.127.172.169"
+        "A": ["88.127.172.169"]
     }
 }
