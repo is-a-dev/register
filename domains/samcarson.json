@@ -1,9 +1,11 @@
 {
     "owner": {
         "username": "samcarsonx",
-        "email": "sam@carson.industries"
+        "email": "sam@samcarson.co.uk",
+        "twitter": "samcarsonx"
     },
     "record": {
-        "CNAME": "isadev.samcarson.co.uk"
+        "URL": "https://samcarson.co.uk",
+        "TXT": "working on a separate site for my dev projects"
     }
 }
