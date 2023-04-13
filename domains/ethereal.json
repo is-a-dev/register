@@ -1,11 +1,11 @@
 { 
 	"owner": { 		
-  	"username": "EtherealTheDev", 
+  		"username": "EtherealTheDev", 
 		"email": "", 
 		"twitter": "EtherealTheDev",
 		"discord": "EtherealTheDev#09088"
 	},
 	"record": {	
-		"CNAME": "etherealthedev.repl.co."
+		"CNAME": "etherealthedev.repl.co"
 	} 
 }
