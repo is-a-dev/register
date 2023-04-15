@@ -5,6 +5,6 @@
     },
 
     "record": {
-        "A": ["75.2.60.5"]
+        "CNAME": ["termoji.pages.dev"]
     }
 }
