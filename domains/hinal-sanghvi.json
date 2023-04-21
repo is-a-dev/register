@@ -1,11 +1,11 @@
 {
     "description": "Personal website for now",
-    "repo": "https://github.com/hinal-sanghvi/hinal-sanghvi.github.io.git",
+    "repo": "https://github.com/hinal-sanghvi/hinal-sanghvi.github.io",
     "owner": {
         "username": "hinal-sanghvi",
-        "email": "",
+        "email": ""
     },
     "record": {
-        "URL": "https://hinal-sanghvi.github.io/"
+        "URL": "https://hinal-sanghvi.github.io"
     }
 }
