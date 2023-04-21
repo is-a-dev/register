@@ -6,6 +6,7 @@
         "twitter": "lthon09"
     },
     "record": {
-        "CNAME": "lthon09.onrender.com"
+        "A": "75.2.69.226",
+        "TXT": "deta-verification=8Tw66zjVxLX98LW4pqYwD79jg3nPbDzT"
     }
 }
