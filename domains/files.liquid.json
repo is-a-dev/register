@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "ThinLiquid",
+        "email": "thinliquid@proton.me"
+    },
+    "record": {
+        "CNAME": "dns.tixte.com",
+        "TXT": "_tixte-challenge=6ZzT79WA"
+    }
+}
