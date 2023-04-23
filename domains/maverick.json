@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "description": "maverick.is-a.dev is the domain name for software developed by Russ Jorgensen.",
+    "username": "maverick-isa-dev",
+    "email": "maverick.isa.dev@gmail.com"
+  },
+  "record": {
+    "CNAME": "maverick-isa-dev.github.io"
+  }
+}
