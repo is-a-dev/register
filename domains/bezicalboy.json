@@ -1,9 +1,12 @@
 {
+    "description": "Personal portfolio website",
+    "repo": "https://github.com/bezicalboy/bezicalboy.github.io",
     "owner": {
         "username": "bezicalboy",
-        "email": "mhmdrcow3363@gmail.com"
+        "email": "mhmdrcow3363@gmail.com",
+        "twitter": "bezicalboy"
     },
     "record": {
-        "CNAME": "bezicalboy.github.io"
+        "CNAME": "https://bezicalboy.github.io"
     }
 }
