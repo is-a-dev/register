@@ -6,6 +6,6 @@
         "email": "1825410250@qq.com"
     },
     "record": {
-        "TXT": "vc-domain-verify=hql.is-a.dev,38a0808e1a91fc20325c"
+        "CNAME": "cname.vercel-dns.com"
     }
 }
