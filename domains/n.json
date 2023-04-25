@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "Nim1com",
+        "email": "niklas@wojtkowiak.com"
+    },
+
+    "record": {
+        "CNAME": "nimsite.vercel.app"
+    }
+}
