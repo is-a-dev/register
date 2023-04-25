@@ -1,0 +1,10 @@
+{
+    "description": "DevCortina Personal Projects Website",
+    "owner": {
+        "username": "DevCortina",
+        "email": "devcortina@proton.me"
+    },
+    "record": {
+        "CNAME": "cortinadev.vercel.app"
+    }
+}
