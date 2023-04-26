@@ -7,5 +7,14 @@
     },
     "record": {
         "CNAME": "MosaabGKA.github.io"
+    },
+    "record": {
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ]
+    },
+    "record": {
+        "TXT": "forward-email=mosaabgka@gmail.com"
     }
 }
