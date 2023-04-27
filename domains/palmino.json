@@ -5,6 +5,6 @@
     },
 
     "record": {
-        "A": ["timdis.id"]
+        "CNAME": "timdis.id"
     }
 }
