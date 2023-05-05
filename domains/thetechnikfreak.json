@@ -6,5 +6,6 @@
     },
     "record": {
         "CNAME": "cname.short.io"
+        "TXT": "zoho-verification=zb65892050.zmverify.zoho.eu"
     }
 }
