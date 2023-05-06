@@ -7,6 +7,11 @@
         "twitter": "JayGTypes"
     },
     "record": {
-        "CNAME": "jayggit.github.io"
+        "CNAME": "jayggit.github.io",
+        "MX": [
+          "mx1.improvmx.com",
+          "mx2.improvmx.com"
+        ]
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 }
