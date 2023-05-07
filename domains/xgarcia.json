@@ -1,0 +1,11 @@
+{
+    "description": "Xavier's website",
+    "repo": "https://github.com/xdg6227/website",
+    "owner": {
+        "username": "xdg6227",
+        "email": "xdg6227@gmail.com"
+    },
+    "record": {
+        "CNAME": "xdg6227.github.io"
+    }
+}
