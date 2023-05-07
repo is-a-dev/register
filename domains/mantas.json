@@ -2,10 +2,10 @@
   "description": "Mantas is a developer!",
   "repo": "https://github.com/mantooc",
   "owner": {
-      "username": "mantooc",
-      "email": "mantasnugaras@gmail.com"
+    "username": "mantooc",
+    "email": "mantasnugaras@gmail.com"
   },
   "record": {
-      "CNAME": "mantooc.github.io"
+    "CNAME": "mantooc.github.io"
   }
 }
