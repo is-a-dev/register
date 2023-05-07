@@ -6,6 +6,6 @@
         "email": "mario.yellow.bea@proton.me"
     },
     "record": {
-        "A": "216.24.57.1"
+        "A": ["216.24.57.1"]
     }
 }
