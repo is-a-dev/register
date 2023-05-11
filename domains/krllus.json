@@ -1,0 +1,11 @@
+{
+  "description": "Krllus Page",
+  "repo": "https://github.com/krllus/krllus.github.io",
+  "owner": {
+      "username": "krllus",
+      "email": ""
+  },
+  "record": {
+      "CNAME": "krllus.github.io"
+  }
+}
