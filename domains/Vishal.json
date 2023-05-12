@@ -1,20 +1,11 @@
 {
-
     "description": "This website is a link to my personal developer portfolio.",
-
-    "github-repo": "https://github.com/vishal889/Plotfolio-Website",
-    "HostedRepo" : "https://plotfolio-website.vercel.app/"
-  
-
+    "repo": "https://github.com/vishal889/Plotfolio-Website",
     "owner": {
-        "username": "vishal",
+        "username": "vishal889",
         "email": "vishalrajpurohit416@gmail.com"
     },
-
     "record": {
-        "CNAME": "cname.vercel-dns.com."
-    }
-    "SimpleInfo":{
-    "Info" : "Please use the hosted repo cause it's the repo where the codes are hosted thank you"
+        "URL": "https://plotfolio-website.vercel.app"
     }
 }
