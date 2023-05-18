@@ -5,6 +5,7 @@
         "email": "lmgxenon9066@gmail.com"
     },
     "record": {
-        "CNAME": "a15698ab-02bd-4c70-855f-6128a2fed965.id.repl.co"
+        "CNAME": "a15698ab-02bd-4c70-855f-6128a2fed965.id.repl.co",
+        "TXT": "replit-verify=a15698ab-02bd-4c70-855f-6128a2fed965"
     }
 }
