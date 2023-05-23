@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/jdszekeres/jdszekeres.github.io",
+    "owner": {
+        "username": "jdszekeres",
+        "email": "...@...com",
+        "twitter": "@elonmusk"
+    },
+    "record": {
+        "CNAME": "jdszekeres.github.io"
+    }
+} 
