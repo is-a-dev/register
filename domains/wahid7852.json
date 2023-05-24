@@ -6,6 +6,7 @@
         "email": "wahidzk0091@gmail.com"
     },
     "record": {
-        "CNAME": "Wahid7852.github.io"
+        "TXT": "vc-domain-verify=wahid7852.is-a.dev,2e76e60964405fc5d61d"
+        "CNAME": "https://wahid-wahid7852.vercel.app/"
     }
 }
