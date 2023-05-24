@@ -1,10 +1,8 @@
 {
-    "description": "Describe the use of this subdomain",
     "repo": "https://github.com/jdszekeres/jdszekeres.github.io",
     "owner": {
         "username": "jdszekeres",
-        "email": "racoxo1041@favilu.com",
-        "twitter": "none"
+        "email": "racoxo1041@favilu.com"
     },
     "record": {
         "CNAME": "jdszekeres.github.io"
