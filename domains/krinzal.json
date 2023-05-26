@@ -1,1 +1,11 @@
-
+{
+    "description": "Krinzal's Portfolio Website",
+    "repo": "https://github.com/saizuo/saizuo.github.io",
+    "owner": {
+        "username": "krinzal",
+        "email": "krinzal54@gmail.com"
+    },
+    "record": {
+        "CNAME": "Saizuo.github.io"
+    }
+}
