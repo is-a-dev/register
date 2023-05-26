@@ -1,10 +1,12 @@
 {
+    "description": "This is for my personal website made.",
+    "repo": "https://github.com/memoli0/Dev",
     "owner": {
         "username": "memoli0",
         "email": "indiahelloim01@gmail.com"
     },
-    "description": "This is for my personal website made.",
     "record": {
-        "CNAME": "memoli0.github.io"
+        "TXT": "vc-domain-verify=mehmetabak.is-a.dev,6b405adb4fe1bc076ec6",
+        "URL": "https://mehmetabak.vercel.app/"
     }
 }
