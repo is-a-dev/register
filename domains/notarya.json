@@ -1,1 +1,11 @@
-
+{
+    "description": "NotArya Website",
+    "repo": "https://github.com/NotAryaaa/NotArya",
+    "owner": {
+        "username": "notarya",
+        "email": "abiix.messanger@gmail.com"
+    },
+    "record": {
+        "CNAME": "notarya.rf.gd"
+    }
+}
