@@ -1,1 +1,9 @@
-
+{
+    "owner": {
+        "username": "Daglaroglou",
+        "email": "christos.daglaroglou@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://personal-website.r3fl3x.repl.co"
+    }
+}
