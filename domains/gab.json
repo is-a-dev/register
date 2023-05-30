@@ -5,6 +5,9 @@
         "email": "betterhalf278@gmail.com"
     },
     "record": {
-        "CNAME": "developer-portfolio-2qp.pages.dev"
+        "CNAME": [
+            "developer-portfolio-2qp.pages.dev",
+            "gv-hyyrkmvf6jw75e.dv.googlehosted.com"
+        ]
     }
 }
