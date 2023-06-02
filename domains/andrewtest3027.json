@@ -7,7 +7,7 @@
     
        "record": {
             "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-            "TXT": "forward-email=andrew@pixelsltd.dev",
+            "TXT": "forward-email=andrew@pixelsltd.dev"
 
        }
     }
