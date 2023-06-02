@@ -1,0 +1,14 @@
+{
+        "owner": {
+           "username": "andrewstech",
+           "email": "Andrewbuild48@gmail.com",
+           "note": "This record was created by is-a.dev Discord bot via discord id: 598245488977903688"
+       },
+    
+       "record": {
+            "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+            "TXT": "forward-email=andrew@pixelsltd.dev"
+
+       }
+    }
+    
