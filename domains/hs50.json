@@ -1,0 +1,11 @@
+{
+    "description": "Another way to visit my website.",
+    "repo": "https://github.com/Naibuu/website",
+    "owner": {
+        "username": "Naibuu",
+        "email": "contact@hs50.cc"
+    },
+    "record": {
+        "CNAME": "hs50.cc"
+    }
+}
