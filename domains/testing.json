@@ -1,0 +1,14 @@
+{
+        "owner": {
+           "username": "WilliamDavidHarrison",
+           "email": "87287585+WilliamDavidHarrison@users.noreply.github.com",
+           "note": "This record was created by is-a.dev Discord bot via discord id: 853158265466257448"
+       },
+    
+       "record": {
+            "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+            "TXT": "forward-email=example@example.com"
+
+       }
+    }
+    
