@@ -1,0 +1,14 @@
+{
+        "owner": {
+           "username": "mtgsquad",
+           "email": "75879007+mtgsquad@users.noreply.github.com",
+           "note": "This record was created by is-a.dev Discord bot via discord id: 763767239018938368"
+       },
+    
+       "record": {
+            "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+            "TXT": "forward-email=mahir@molai.dev"
+
+       }
+    }
+    
