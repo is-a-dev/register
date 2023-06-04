@@ -1,15 +1,11 @@
 {
     "owner": {
-      "username": "kapoorsaumitra",
-      "email": "saumitrakapoor24@gmail.com",
-      "twitter": "0xKapoor",
-      "discord": "discord-username-and-discriminator"
+        "username": "kapoorsaumitra",
+        "email": "saumitrakapoor24@gmail.com",
+        "twitter": "0xKapoor"
     },
-    
+
     "record": {
-        "URL": "https://kapoorportfolio.vercel.app/"
+        "URL": "https://kapoorportfolio.vercel.app"
     }
-      
-      
-  }
-  
+}
