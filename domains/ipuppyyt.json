@@ -5,8 +5,14 @@
         "username": "ipuppyyt",
         "email": "dhanush6102002@gmail.com",
         "twitter": "ipuppyyt"
+        "discord": "iPuppyYT#3684"
     },
     "record": {
-        "CNAME": "ipuppyyt.github.io"
+        "CNAME": "ipuppyyt.github.io",
+        "MX": [
+                "mx1.improvmx.com.",
+                "mx2.improvmx.com."
+              ]
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 } 
