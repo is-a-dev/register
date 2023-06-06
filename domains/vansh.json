@@ -1,11 +1,10 @@
 {
-  "owner": {
-    "username": "vansh-goel",
-    "email": "",
-    "twitter": "vanshgoeltwt",
-    "discord": "Vansh#2204"
-  }
+    "owner": {
+        "username": "vansh-goel",
+        "email": "goelvansh2@gmail.com"
+    },
     "record": {
-    "TXT": "hello world"
-  }
+        "CNAME": "vansh-goel.github.io/portfolio/"
+    },
+    "description": "Personal Portfolio"
 }
