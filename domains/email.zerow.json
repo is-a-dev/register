@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "DevZerow",
+        "email": "zerow.pro@protonmail.com"
+    },
+
+    "record": {
+        "MX": ["mail.zerow.is-a.dev"]
+    }
+}
