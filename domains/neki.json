@@ -1,0 +1,10 @@
+{
+    "description": "Pagina de Santiago",
+    "owner": {
+        "username": "PinkLittleKitty",
+        "email": "santyfisela@gmail.com"
+    },
+    "record": {
+        "CNAME": "PinkLittleKitty.github.io"
+    }
+}
