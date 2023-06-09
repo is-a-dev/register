@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "DevZerow",
+        "email": "zerow.pro@protonmail.com"
+    },
+
+    "record": {
+        "TXT": "v=dkim1; p=migfma0gcsqgsib3dqebaquaa4gnadcbiqkbgqdcjg/af7z9z137q+wammo7swvqsegrqtewzqbv9xmtr80i18edp4jpb37ljxlrv2hkfinmqvbs5l8smi80lmz2flm78nmmgw/vnjqytsepjocoisafpanqbqgmtr1kjtexzjtp+kejokhcgan5xabsiatq/m0ybdlvwzl3ztx+qwidaqab;"
+    }
+}
