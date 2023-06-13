@@ -1,0 +1,11 @@
+{
+    "description": "1st.is-a.dev",
+    "repo": "https://github.com/Rahuletto/1st",
+    "owner": {
+        "username": "Rahuletto",
+        "email": "rahulmarban@gmail.com"
+    },
+    "record": {
+        "CNAME": "rahuletto.thedev.id/1st"
+    }
+}
