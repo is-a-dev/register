@@ -1,0 +1,11 @@
+{
+    "description": "My new website",
+    "repo": "https://github.com/panchal-jatin/panchal-jatin.github.io",
+    "owner": {
+        "username": "panchal-jatin",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "panchal-jatin.github.io"
+    }
+}

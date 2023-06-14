@@ -1,0 +1,11 @@
+{
+    "description": "This is a website",
+    "repo": "https://github.com/mukesh-tadpad/mukesh-tadpad.github.io",
+    "owner": {
+        "username": "mukesh-tadpad",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "mukesh-tadpad.github.io"
+    }
+}

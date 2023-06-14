@@ -17,6 +17,7 @@
 </p>
 
 ## Register
+
 ### Manual Registration
 
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
@@ -28,7 +29,7 @@
 
 ### CLI Registration
 
-###### Source Code: https://github.com/wdhdev/is-a-dev-cli
+For issues with the CLI, **DO NOT OPEN AN ISSUE ON THIS REPOSITORY**, instead open an issue [here](https://github.com/wdhdev/is-a-dev-cli/issues/new).
 
 Install the CLI:
 

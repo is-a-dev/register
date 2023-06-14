@@ -1,0 +1,11 @@
+{
+    "description": "Personal Website.",
+    "owner": {
+        "username": "lthon09",
+        "email": "",
+        "twitter": "lthon09"
+    },
+    "record": {
+        "CNAME": "lthon09.onrender.com"
+    }
+}
