@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "appsdevpk",
         "email": "kashid1@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["129.146.191.167"]
-      }
     }
-  
+}

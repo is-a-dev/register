@@ -1,0 +1,12 @@
+{
+    "description": "My personal page",
+    "repo": "https://github.com/AutumnVN/autumnvn.github.io",
+    "owner": {
+        "username": "AutumnVN",
+        "email": "htuan03@gmail.com",
+        "twitter": "dvht0"
+    },
+    "record": {
+        "CNAME": "chino.pages.dev"
+    }
+}

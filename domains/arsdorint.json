@@ -1,11 +1,10 @@
- 
-    {
-      "owner": {
-        "username": "nambp2003",
+{
+    "repo": "https://github.com/arsdorintbp2003/arsdorintbp2003.github.io",
+    "owner": {
+        "username": "arsdorintbp2003",
         "email": "e0851451@u.nus.edu"
-      },
-      "record": {
-        "CNAME": "hashnode.network"
-      }
+    },
+    "record": {
+        "CNAME": "arsdorintbp2003.github.io"
     }
-      
+}

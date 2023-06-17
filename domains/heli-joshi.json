@@ -1,0 +1,11 @@
+{
+    "description": "Heli Profile.",
+    "repo": "https://github.com/heli-joshi/heli-joshi.github.io",
+    "owner": {
+        "username": "heli-joshi",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "heli-joshi.github.io"
+    }
+}

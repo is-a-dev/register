@@ -1,11 +1,11 @@
 {
-  "description": "Agam's Website",
-  "repo": "https://github.com/agam778",
-  "owner": {
-    "username": "agam778",
-    "email": "agam778@zohomail.in"
-  },
-  "record": {
-    "CNAME": "agamsblog.pages.dev"
-  }
+    "description": "Agam's Website",
+    "repo": "https://github.com/agam778",
+    "owner": {
+        "username": "agam778",
+        "email": "agam778@zohomail.in"
+    },
+    "record": {
+        "CNAME": "agamsblog.pages.dev"
+    }
 }

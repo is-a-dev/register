@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "FreehuntX",
-    "email": "",
-    "twitter": "https://twitter.com/freehuntx"
-  },
-  "record": {
-    "URL": "https://freehuntx.github.io/freehunt-webpage"
-  }
+    "owner": {
+        "username": "FreehuntX",
+        "email": "",
+        "twitter": "freehuntx"
+    },
+    "record": {
+        "URL": "https://freehuntx.github.io/freehunt-webpage"
+    }
 }

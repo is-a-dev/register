@@ -1,11 +1,10 @@
 {
-  "description": "My Personal Website",
-  "repo": "",
-  "owner": {
-    "username": "Oreki-Dev",
-    "email": "orekidev@gmail.com"
-  },
-  "record": {
-    "A": ["164.132.74.251", "192.95.42.75"]
-  }
+    "description": "My Personal Website",
+    "owner": {
+        "username": "Oreki-Dev",
+        "email": "orekidev@gmail.com"
+    },
+    "record": {
+        "A": ["164.132.74.251", "192.95.42.75"]
+    }
 }

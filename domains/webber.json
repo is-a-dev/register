@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "webbertakken",
         "email": "webber.nl@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "URL": "https://takken.io"
-      }
     }
-  
+}

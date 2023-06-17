@@ -1,12 +1,12 @@
 {
-  "owner": {
-    "username": "nicholasyoannou",
-    "email": "nicholas@nicholas.dev",
-    "discord": "janeberru#4594",
-    "note": "You can contact me by email or discord, really don't mind :)"
-  },
-  "description": "I'll probably put some project pages on nicholas.is-a.dev. ¯\\_(ツ)_/¯",
-  "record": {
-    "CNAME": "nicholas.dev"
-  }
+    "owner": {
+        "username": "nicholasyoannou",
+        "email": "nicholas@nicholas.dev",
+        "discord": "janeberru#4594",
+        "note": "You can contact me by email or discord, really don't mind :)"
+    },
+    "description": "I'll probably put some project pages on nicholas.is-a.dev. ¯\\_(ツ)_/¯",
+    "record": {
+        "CNAME": "nicholas.dev"
+    }
 }

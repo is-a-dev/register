@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "charlzyx",
         "email": "charlzyx@qq.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["172.21.32.1"]
-      }
     }
-  
+}

@@ -1,12 +1,12 @@
 {
-  "description": "Luihh's website",
-  "repo": "https://github.com/iLui/iLui.github.io",
-  "owner": {
-    "username": "Luihh",
-    "email": "luihhbusiness23@gmail.com",
-    "twitter": "PoweredByLuihh"
-  },
-  "record": {
-    "CNAME": "iLui.github.io"
-  }
+    "description": "Luihh's website",
+    "repo": "https://github.com/iLui/iLui.github.io",
+    "owner": {
+        "username": "Luihh",
+        "email": "luihhbusiness23@gmail.com",
+        "twitter": "PoweredByLuihh"
+    },
+    "record": {
+        "CNAME": "iLui.github.io"
+    }
 }

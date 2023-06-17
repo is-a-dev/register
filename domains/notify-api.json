@@ -1,12 +1,11 @@
+{
+    "owner": {
+       "username": "andrewstech",
+       "email": "Andrewbuild48@gmail.com",
+       "note": "This record was created by is-a.dev Discord bot via discord id: 598245488977903688"
+   },
 
-              {
-                "repo" :"https://github.com/andrewstech/notify-api",
-                "owner": {
-                  "username": "andrewstech",
-                  "email": "andrew@win11react.com"
-                },
-                "record": {
-                  "A": ["204.44.81.53"]
-                }
-              }
-            
+   "record": {
+       "CNAME": "net.beadman-network.com"
+   }
+}

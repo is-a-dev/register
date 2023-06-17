@@ -2,10 +2,10 @@
     "description": "Tong's website",
     "repo": "https://github.com/away0x/away0x",
     "owner": {
-      "username": "tongwu",
-      "email": "away0x@gmail.com"
+        "username": "tongwu",
+        "email": "away0x@gmail.com"
     },
     "record": {
-      "CNAME": "away0x.github.io"
+        "CNAME": "away0x.github.io"
     }
-  }
+}

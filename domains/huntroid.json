@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "hunterz-killer",
         "email": "srimath8@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "A": ["185.199.108.153"]
-      }
     }
-      
+}

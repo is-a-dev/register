@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "jasonappah",
-    "email": "isadev@jasonaa.me",
-    "twitter": "jasonaa_"
-  },
-  "record": {
-    "URL": "https://jasonaa.me/"
-  }
+    "owner": {
+        "username": "jasonappah",
+        "email": "isadev@jasonaa.me",
+        "twitter": "jasonaa_"
+    },
+    "record": {
+        "URL": "https://jasonaa.me"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "Nv2k3's portfolio website",
-  "repo": "https://github.com/nv2k3/nv2k3.github.io",
-  "owner": {
-    "username": "nv2k3",
-    "email": "nagendrar.537@gmail.com"
-  },
-  "record": {
-    "CNAME": "nv2k3.github.io"
-  }
+    "description": "Nv2k3's portfolio website",
+    "repo": "https://github.com/nv2k3/nv2k3.github.io",
+    "owner": {
+        "username": "nv2k3",
+        "email": "nagendrar.537@gmail.com"
+    },
+    "record": {
+        "CNAME": "nv2k3.github.io"
+    }
 }

@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "aripadrian",
         "email": "aripadrian01@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["209.182.237.31"]
-      }
     }
-  
+}

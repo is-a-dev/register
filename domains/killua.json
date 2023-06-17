@@ -1,11 +1,11 @@
 {
-  "description": "Personal Page",
-  "repo": "https://github.com/Killua7362/Killua7362.github.io",
-  "owner": {
-    "username": "Killua7362",
-    "email": "bhat7362@gmail.com"
-  },
-  "record": {
-    "CNAME": "Killua7362.github.io"
-  }
+    "description": "Personal Page",
+    "repo": "https://github.com/Killua7362/Killua7362.github.io",
+    "owner": {
+        "username": "Killua7362",
+        "email": "bhat7362@gmail.com"
+    },
+    "record": {
+        "CNAME": "Killua7362.github.io"
+    }
 }

@@ -1,0 +1,11 @@
+{
+    "description": "My Search Engine (Whoogle)",
+    "repo": "https://github.com/l6174/search",
+    "owner": {
+        "username": "l6174",
+        "email": "l.lawliet6174@gmail.com"
+    },
+    "record": {
+        "CNAME": "8b8a7371-0cc1-4815-affb-f53446c7b444.id.repl.co"
+    }
+}

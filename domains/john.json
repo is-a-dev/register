@@ -1,12 +1,12 @@
 {
-  "description": "John Peterson's personal development page.",
-  "repo": "https://github.com/majesticturtlejp/majesticturtlejp.github.io",
-  "owner": {
-    "username": "majesticturtlejp",
-    "email": "johnp5419@gmail.com",
-    "instagram": "johnp5419"
-  },
-  "record": {
-    "CNAME": "majesticturtlejp.github.io"
-  }
+    "description": "John Peterson's personal development page.",
+    "repo": "https://github.com/majesticturtlejp/majesticturtlejp.github.io",
+    "owner": {
+        "username": "majesticturtlejp",
+        "email": "johnp5419@gmail.com",
+        "instagram": "johnp5419"
+    },
+    "record": {
+        "CNAME": "majesticturtlejp.github.io"
+    }
 }

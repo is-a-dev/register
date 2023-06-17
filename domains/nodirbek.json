@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Piratebay298",
         "email": "piratebay298@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "nodirbek.42web.io"
-      }
     }
-  
+}

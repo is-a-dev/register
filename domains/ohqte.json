@@ -1,0 +1,10 @@
+{
+    "description": "ohqte's portfolio site",
+    "owner": {
+        "username": "ohqte",
+        "email": "ohqte@proton.me"
+    },
+    "record": {
+        "CNAME": "ohqte.pages.dev"
+    }
+}

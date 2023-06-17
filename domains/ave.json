@@ -1,11 +1,11 @@
 {
-  "description": "Personal site for github@ayvacs",
-  "repo": "https://github.com/ayvacs/ayvacs.github.io",
-  "owner": {
-    "username": "ayvacs",
-    "email": "ayvacs@proton.me"
-  },
-  "record": {
-    "CNAME": "ayvacs.github.io"
-  }
+    "description": "Personal site for github@ayvacs",
+    "repo": "https://github.com/ayvacs/ayvacs.github.io",
+    "owner": {
+        "username": "ayvacs",
+        "email": "ayvacs@proton.me"
+    },
+    "record": {
+        "CNAME": "ayvacs.github.io"
+    }
 }

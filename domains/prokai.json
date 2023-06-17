@@ -1,11 +1,11 @@
 {
-  "description": "Prokai's Website",
-  "repo": "https://github.com/pr0k41/pr0k41.github.io",
-  "owner": {
-    "username": "pr0k41",
-    "email": "prokai321@gmail.com"
-  },
-  "record": {
-   "CNAME": "pr0k41.github.io" 
-  }
+    "description": "Iakorp's Website",
+    "repo": "https://github.com/14k0rp/14k0rp.github.io",
+    "owner": {
+        "username": "14k0rp",
+        "email": "iakorp@protonmail.com"
+    },
+    "record": {
+        "CNAME": "14k0rp.github.io"
+    }
 }

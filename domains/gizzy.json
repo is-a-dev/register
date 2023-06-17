@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "NeroGizmoUwU",
         "email": "minecraftcoolglibchannel@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "nero-pi.duckdns.org"
-      }
     }
-  
+}

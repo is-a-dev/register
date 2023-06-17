@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "thanhcong2k7",
         "email": "nhocpeacock@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "kamyzz.carrd.co"
-      }
     }
-      
+}

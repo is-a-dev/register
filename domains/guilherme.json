@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "iiMaxxi",
         "email": "iimaxxiguilham@gmail.com"
-      },
+    },
 
-      "record": {
-        "URL": "https://eu.dzxdev.repl.co/"
-      }
+    "record": {
+        "URL": "https://eu.dzxdev.repl.co"
     }
-  
+}

@@ -1,11 +1,11 @@
 {
-  "description": "Add some description",
-  "repo": "https://github.com/voidx999/trapdevweb",
-  "owner": {
-    "username": "voidx999",
-    "email": "vodlsreal@gmail.com"
-  },
-  "record": {
-    "CNAME": "451189ea-5d97-4b3c-9ff1-874973386ae1.id.repl.co"
-  }
+    "description": "Add some description",
+    "repo": "https://github.com/voidx999/trapdevweb",
+    "owner": {
+        "username": "voidx999",
+        "email": "vodlsreal@gmail.com"
+    },
+    "record": {
+        "CNAME": "451189ea-5d97-4b3c-9ff1-874973386ae1.id.repl.co"
+    }
 }

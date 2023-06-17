@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "CKATEPTb",
         "email": "taksis@ex.ua"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["65.108.238.23"]
-      }
     }
-  
+}

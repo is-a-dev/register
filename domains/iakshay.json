@@ -1,12 +1,12 @@
 {
-  "description": "Hola! This is Akshay's personal website.",
-  "repo": "https://github.com/akshay1018/akshay1018.github.io",
-  "owner": {
-    "username": "Akshay1018",
-    "email": "ak715173@gmail.com",
-    "twitter": "@i_Akshay09"
-  },
-  "record": {
-    "CNAME": "Akshay1018.github.io"
-  }
+    "description": "Hola! This is Akshay's personal website.",
+    "repo": "https://github.com/akshay1018/akshay1018.github.io",
+    "owner": {
+        "username": "Akshay1018",
+        "email": "ak715173@gmail.com",
+        "twitter": "i_Akshay09"
+    },
+    "record": {
+        "CNAME": "Akshay1018.github.io"
+    }
 }

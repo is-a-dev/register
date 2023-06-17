@@ -1,11 +1,11 @@
 {
-  "description": "My Personal Website.",
-  "repo": "https://github.com/DET171/det171.github.io",
-  "owner": {
-    "username": "Canaris",
-    "email": "mrgeek484@gmail.com"
-  },
-  "record": {
-    "CNAME": "canaris.pages.dev"
-  }
+    "description": "My Personal Website.",
+    "repo": "https://github.com/DET171/det171.github.io",
+    "owner": {
+        "username": "Canaris",
+        "email": "mrgeek484@gmail.com"
+    },
+    "record": {
+        "CNAME": "canaris.pages.dev"
+    }
 }

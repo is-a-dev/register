@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "mikrodinet",
         "email": "mikrodinet@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "mikrodinet.github.io"
-      }
     }
-      
+}

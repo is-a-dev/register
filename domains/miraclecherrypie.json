@@ -1,11 +1,11 @@
 {
-  "description": "My personal website goes here",
-  "repo": "https://github.com/MiracleCherryPie/miraclecherrypie.github.io",
-  "owner": {
-    "username": "MiracleCherryPie",
-    "email": "christianpandapotans@gmail.com"
-  },
-  "record": {
-    "CNAME": "miraclecherrypie.github.io"
-  }
+    "description": "My personal website goes here",
+    "repo": "https://github.com/MiracleCherryPie/miraclecherrypie.github.io",
+    "owner": {
+        "username": "MiracleCherryPie",
+        "email": "christianpandapotans@gmail.com"
+    },
+    "record": {
+        "CNAME": "miraclecherrypie.up.railway.app"
+    }
 }

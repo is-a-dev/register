@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "appwrite",
-    "email": "mohamed.haneefa@agiratech.com"
-  },
-  "record": {
-    "URL": "https://www.appwrite-node.com/"
-  }
+    "owner": {
+        "username": "appwrite",
+        "email": "mohamed.haneefa@agiratech.com"
+    },
+    "record": {
+        "URL": "https://www.appwrite-node.com"
+    }
 }

@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "bububa",
         "email": "prof.syd.xu@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "bububa.github.io"
-      }
     }
-  
+}

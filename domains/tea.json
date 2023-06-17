@@ -1,10 +1,10 @@
 {
-"owner": {
-    "username": "TheTeaCup",
-    "email": "",
-    "discord": "Tea Cup#9999"
-  },
-  "record": {
-    "CNAME": "dedicated.theteacup.dev"
-  }
+    "owner": {
+        "username": "TheTeaCup",
+        "email": "",
+        "discord": "Tea Cup#9999"
+    },
+    "record": {
+        "CNAME": "dedicated.theteacup.dev"
+    }
 }

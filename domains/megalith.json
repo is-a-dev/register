@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "MegalithOffical",
         "email": "gekocakaya@gmail.com"
-      },
+    },
 
-      "record": {
-        "URL": "https://profile-megalithoffical.vercel.app/"
-      }
+    "record": {
+        "URL": "https://profile-megalithoffical.vercel.app"
     }
-  
+}

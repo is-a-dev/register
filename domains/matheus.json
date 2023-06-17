@@ -1,11 +1,11 @@
 {
-  "description": "Matheus Costa's personal developer website",
-  "repo": "https://github.com/mthcsta/mthcsta.github.io",
-  "owner": {
-    "username": "mthcsta",
-    "email": "matheuscosta.dev@yahoo.com"
-  },
-  "record": {
-    "CNAME": "mthcsta.github.io"
-  }
+    "description": "Matheus Costa's personal developer website",
+    "repo": "https://github.com/mthcsta/mthcsta.github.io",
+    "owner": {
+        "username": "mthcsta",
+        "email": "matheuscosta.dev@yahoo.com"
+    },
+    "record": {
+        "CNAME": "mthcsta.github.io"
+    }
 }

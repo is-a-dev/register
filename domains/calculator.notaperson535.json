@@ -1,11 +1,11 @@
 {
-  "description": "My modern calculator",
-  "repo": "https://github.com/notAperson535/moderncalculator",
-  "owner": {
-    "username": "notAperson535",
-    "email": "notAperson939@gmail.com"
-  },
-  "record": {
-    "CNAME": "notAperson535.github.io"
-  }
+    "description": "My modern calculator",
+    "repo": "https://github.com/notAperson535/moderncalculator",
+    "owner": {
+        "username": "notAperson535",
+        "email": "notAperson939@gmail.com"
+    },
+    "record": {
+        "CNAME": "notAperson535.github.io"
+    }
 }

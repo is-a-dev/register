@@ -1,10 +1,10 @@
 {
-  "description": "this a link to My Raw Web Github",
-  "owner": {
-    "username": "ThisMe124",
-    "email": "anonymous.orgn@gmail.com"
-  },
-  "record": {
-    "CNAME": "thisme124.github.io"
-  }
+    "description": "this a link to My Raw Web Github",
+    "owner": {
+        "username": "ThisMe124",
+        "email": "anonymous.orgn@gmail.com"
+    },
+    "record": {
+        "CNAME": "thisme124.github.io"
+    }
 }

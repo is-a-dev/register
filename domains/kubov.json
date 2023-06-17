@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Kubov24",
         "email": "jakubcaly93@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["37.187.156.46"]
-      }
     }
-  
+}

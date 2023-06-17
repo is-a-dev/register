@@ -1,11 +1,11 @@
 {
-	"description": "Portfolio site",
-	"repo": "https://github.com/Nero-X/PalletPal-web",
-	"owner": {
-		"username": "SashaJCV",
-		"email": "sashajcv@gmail.com"
-	},
-	"record": {
-		"A": ["116.203.239.117"]
-	}
+    "description": "Portfolio site",
+    "repo": "https://github.com/Nero-X/PalletPal-web",
+    "owner": {
+        "username": "SashaJCV",
+        "email": "sashajcv@gmail.com"
+    },
+    "record": {
+        "A": ["116.203.239.117"]
+    }
 }

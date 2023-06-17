@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "AnilSeervi",
-    "email": "",
-    "twitter": "linASeervi"
-  },
-  "record": {
-    "CNAME": "hashnode.network"
-  }
+    "owner": {
+        "username": "AnilSeervi",
+        "email": "",
+        "twitter": "linASeervi"
+    },
+    "record": {
+        "CNAME": "hashnode.network"
+    }
 }

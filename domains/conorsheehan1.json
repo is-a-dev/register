@@ -1,11 +1,11 @@
 {
-  "description": "ConorSheehan1's personal website and blog",
-  "repo": "https://github.com/ConorSheehan1/ConorSheehan1.github.io",
-  "owner": {
-    "username": "ConorSheehan1",
-    "email": "conor.sheehan.dev@gmail.com"
-  },
-  "record": {
-    "CNAME": "conorsheehan1.github.io"
-  }
+    "description": "ConorSheehan1's personal website and blog",
+    "repo": "https://github.com/ConorSheehan1/ConorSheehan1.github.io",
+    "owner": {
+        "username": "ConorSheehan1",
+        "email": "conor.sheehan.dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "conorsheehan1.github.io"
+    }
 }

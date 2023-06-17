@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "BH00TXD",
         "email": "ghost25112006@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["164.132.74.251"]
-      }
     }
-  
+}

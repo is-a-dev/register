@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "thet3o",
         "email": "thet3o@yahoo.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "MX": ["mx.mailtie.com"]
-      }
     }
-  
+}

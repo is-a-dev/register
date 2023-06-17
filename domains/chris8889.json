@@ -1,11 +1,11 @@
 {
     "description": "testing",
     "owner": {
-      "username": "Chris8889",
-      "email": "chris88892@protonmail.com",
-      "Twitter": "@Chris8889"
+        "username": "Chris8889",
+        "email": "chris88892@protonmail.com",
+        "twitter": "Chris8889"
     },
     "record": {
-      "CNAME": "5d931f3a-d63d-4ccf-b14c-5b566fd0c5f0.id.repl.co"
+        "CNAME": "5d931f3a-d63d-4ccf-b14c-5b566fd0c5f0.id.repl.co"
     }
 }

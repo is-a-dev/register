@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "BruhDark",
-        "email": "fedefunes90@gmail.com"
-      },
-      "record": {
-        "CNAME": "bruhdark.github.io"
-      }
+        "email": "darkpxint@gmail.com"
+    },
+    "record": {
+        "CNAME": "bruhdarkgithubio-production.up.railway.app"
     }
-      
+}
