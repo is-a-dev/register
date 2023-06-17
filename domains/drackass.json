@@ -1,0 +1,11 @@
+{
+    "description": "Drackass personal website",
+    "repo": "https://github.com/Drackass/Drackass.github.io",
+    "owner": {
+        "username": "Drackass",
+        "email": "leny.sauzet@gmail.com"
+    },
+    "record": {
+        "CNAME": "Drackass.github.io"
+    }
+}
