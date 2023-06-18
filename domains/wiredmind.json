@@ -4,6 +4,5 @@
     "email": "admin@tetrazero.com"
   },
   "record": {
-    "A": ["51.91.236.255"],
-    "AAAA": ["2001:41d0:301::29"]
+    "URL": "https://tetrazero.com"
 }
