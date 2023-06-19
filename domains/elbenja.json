@@ -7,6 +7,6 @@
 
     "record": {
         "MX": ["mx1.improvmx.com."]
-        “TXT”: ["v=spf1 include:spf.improvmx.com ~all"]
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
     }
 }
