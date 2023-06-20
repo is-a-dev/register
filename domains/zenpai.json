@@ -1,0 +1,12 @@
+{
+    "description": "zenpai.is-a.dev",
+    "repo": "https://github.com/ZenpaiAng/ZenpaiAng.github.io",
+    "owner": {
+        "username": "ZenpaiAng",
+        "email": "zenpaiang@gmail.com",
+        "discord": "zenpaiang"
+    },
+    "record": {
+        "CNAME": "ZenpaiAng.github.io"
+    }
+}

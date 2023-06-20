@@ -1,0 +1,13 @@
+{
+    "description": "coderpy4.is-a.dev",
+    "repo": "https://github.com/coderpy4/coderpy4.github.io",
+    "owner": {
+        "username": "coderpy4",
+        "email": "coderpy4@proton.me",
+        "twitter": "CoderPY4",
+        "discord": "coderpy4#4771"
+    },
+    "record": {
+        "CNAME": "coderpy4.github.io"
+    }
+}
