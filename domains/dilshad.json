@@ -1,10 +1,12 @@
 {
+    "description": "for portfolio website",
+    "repo": "https://github.com/dilshad0101/portfolio.website",
     "owner": {
         "username": "dilshad0101",
         "email": "dilshadmuhammed0101@gmail.com"
     },
 
     "record": {
-        "A": ["null"]
+        "CNAME": "dilshad0101.github.io"
     }
 }
