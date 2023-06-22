@@ -7,11 +7,6 @@
         "discord": "AsrieltheGoat#9753"
     },
     "record": {
-        "CNAME": "asrielthegoat.github.io",
-        "MX": [
-            "mx1.improvmx.com",
-            "mx2.improvmx.com"
-        ],
-        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+        "CNAME": "asrielthegoat.github.io"
     }
 }
