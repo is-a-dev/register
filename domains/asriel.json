@@ -1,17 +1,17 @@
 {
-	"description": "asriel.is-a.dev",
-	"repo": "https://github.com/asrielthegoat/asrielthegoat.github.io/",
-	"owner": {
-		"username": "AsrieltheGoat",
-		"email": "admin@dreemurrs.eu.org",
-		"discord": "AsrieltheGoat#9753"
-	},
-	"record": {
-		"CNAME": "asrielthegoat.github.io",
-		"MX": [
-			"mx1.improvmx.com",
-			"mx2.improvmx.com"
-		],
-		"TXT": "v=spf1 include:spf.improvmx.com ~all"
-	}
+    "description":"asriel.is-a.dev",
+    "repo":"https://github.com/asrielthegoat/asrielthegoat.github.io/",
+    "owner":{
+        "username":"AsrieltheGoat",
+        "email":"admin@dreemurrs.eu.org",
+        "discord":"AsrieltheGoat#9753"
+    },
+    "record":{
+        "CNAME":"asrielthegoat.github.io",
+        "MX":[
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT":"v=spf1 include:spf.improvmx.com ~all"
+    }
 }
