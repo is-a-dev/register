@@ -11,7 +11,7 @@
         "discord": "ponfertato"
     },
     "record": {
-        "CNAME": "potatopioneers.is-a.dev",
+        "CNAME": "potatopioneers.github.io/potatopioneers.dev",
         "MX": ["mx.yandex.net"],
         "TXT": "v=spf1 include:_spf.yandex.ru ~all"
     }
