@@ -1,11 +1,13 @@
 {
-    "owner": {
-       "username": "oMvhmoud",
-       "email": "omvhmoud@gmail.com",
-       "discord": "927876264826650684"
-    },
-    "repo": "https://github.com/oMvhmoud/oMvhmoud.github.io",
-    "record": {
-        "CNAME": "omvhmoud.github.io"
-    }
+  "owner": {
+    "username": "oMvhmoud",
+    "email": "omvhmoud@gmail.com",
+    "discord": "927876264826650684"
+  },
+  "repo": "https://github.com/oMvhmoud/oMvhmoud.github.io",
+  "record": {
+    "CNAME": "omvhmoud.github.io",
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
+  }
 }
