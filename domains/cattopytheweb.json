@@ -8,6 +8,11 @@
     "repo": "https://github.com/CattopyTheWeb/cattopytheweb.github.io"
   {
   "record": {
-    "CNAME": "cattopytheweb.github.io"
+    "URL": "https://cattopytheweb.github.io"
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+    
   }
 }
