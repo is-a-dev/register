@@ -1,12 +1,11 @@
 {
     "description": "Hi! I'm Hycord!",
-    "repo": "https://github.com/hycord/hycord.github.io",
     "owner": {
         "username": "hycord",
         "email": "hycord@hycordia.com",
         "twitter": "IGNHycord"
     },
     "record": {
-        "CNAME": "ztd9ts6m.up.railway.app"
+        "CNAME": "xbwlnzmg.up.railway.app"
     }
 }
