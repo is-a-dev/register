@@ -1,6 +1,6 @@
 {
-    "description": "PotatoPioneer's website",
-    "repo": "https://github.com/PotatoPioneers/potatopioneers.github.io",
+    "description": "potatoPioneer's website",
+    "repo": "https://github.com/potatoPioneers/potatopioneers.dev",
     "owner": {
         "username": "ponfertato",
         "email": "ponfertato@ya.ru"
@@ -11,7 +11,7 @@
         "discord": "ponfertato"
     },
     "record": {
-        "CNAME": "potatopioneers.github.io",
+        "CNAME": "potatopioneers.is-a.dev",
         "MX": ["mx.yandex.net"],
         "TXT": "v=spf1 include:_spf.yandex.ru ~all"
     }
