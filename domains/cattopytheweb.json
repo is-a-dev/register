@@ -4,16 +4,14 @@
     "email": "",
     "discord": "cattopytheweb404"
   },
-    "description": "My personal website",
-    "repo": "https://github.com/CattopyTheWeb/cattopytheweb.github.io"
-  {
+  "description": "My personal website",
+  "repo": "https://github.com/CattopyTheWeb/cattopytheweb.github.io", 
   "record": {
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
-    "URL": "https://cattopytheweb.github.io"
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "URL": "https://cattopytheweb.github.io",
     "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
     ]
-    
   }
 }
