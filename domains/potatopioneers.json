@@ -6,8 +6,6 @@
         "email": "ponfertato@ya.ru"
     },
     "record": {
-        "CNAME": "potatopioneers.pages.dev",
-        "MX": ["mx.yandex.net"],
-        "TXT": "v=spf1 include:_spf.yandex.ru ~all"
+        "CNAME": "potatopioneers.pages.dev"
     }
 }
