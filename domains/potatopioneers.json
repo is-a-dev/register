@@ -1,0 +1,11 @@
+{
+    "description": "potatoPioneer's Website",
+    "repo": "https://github.com/potatoPioneers/potatopioneers.site",
+    "owner": {
+        "username": "ponfertato",
+        "email": "ponfertato@ya.ru"
+    },
+    "record": {
+        "CNAME": "potatopioneers.pages.dev"
+    }
+}
