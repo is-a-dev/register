@@ -1,9 +1,11 @@
 {
-    "description": "potatoPioneer's website",
+    "description": "potatoPioneer's Website",
     "repo": "https://github.com/potatoPioneers/potatopioneers.site",
     "owner": {
         "username": "ponfertato",
         "email": "ponfertato@ya.ru"
+        "github": "ponfertato"
+        "discord": "ponfertato"
     },
     "record": {
         "CNAME": "potatopioneers.pages.dev"
