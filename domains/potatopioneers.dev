@@ -4,14 +4,9 @@
     "owner": {
         "username": "ponfertato",
         "email": "ponfertato@ya.ru"
-        "github": "ponfertato"
-        "gitlab": "ponfertato"
-        "telegram": "ponfertato"
-        "vk": "ponfertato"
-        "discord": "ponfertato"
     },
     "record": {
-        "CNAME": "potatopioneers.github.io/potatopioneers.site",
+        "CNAME": "potatopioneers.pages.dev",
         "MX": ["mx.yandex.net"],
         "TXT": "v=spf1 include:_spf.yandex.ru ~all"
     }
