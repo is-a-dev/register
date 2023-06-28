@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "description": "My Personal Portfolio Website.",
-    "repo": "https://github.com/clumzyofficial/binaryadarsh",
-    "username": "clumzyofficial",
-    "email": "clumzyofficial@gmail.com",
-    "twitter": "binaryadarsh",
-  }
-}
+    "description": "For my portfolio website made by using HTML + CSS and JS",
+    "repo": "https://github.com/clumzyofficial/clumzyofficial.github.io",
+    "owner": {
+        "username": "clumzyofficial",
+        "email": "clumzyofficial@gmail.com",
+        "twitter": "binaryadarsh"
+    },
+    "record": {
+        "CNAME": "https://clumzyofficial.github.io/binaryadarsh/"
+    }
+} 
