@@ -1,1 +1,10 @@
-
+{
+    "description": "S4IL's Website",
+    "owner": {
+        "username": "Ositosail",
+        "email": "s4il.teacher.scratch@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://s4il.repl.co/"
+    }
+}
