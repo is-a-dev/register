@@ -1,0 +1,11 @@
+{
+    "description": "my website",
+    "repo": "https://github.com/turbomaster95/turbomaster95.github.io",
+    "owner": {
+        "username": "turbomaster95",
+        "email": "devamidhun.3c.kmbvm@gmail.com"
+    },
+    "record": {
+        "CNAME": "turbomaster95.github.io"
+    }
+} 
