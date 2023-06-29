@@ -1,10 +1,8 @@
 {
     "description": "i want to publish my page",
-    "repo": "https://github.com/<github-username>/<github-username>.github.io",
     "owner": {
         "username": "pythonic-guy",
-        "email": "himangshusaikia147@gmail.com",
-        "twitter": "<twitter-username>"
+        "email": "himangshusaikia147@gmail.com"
     },
     "record": {
         "CNAME": "15fd73b0-ed57-4a06-a221-9ce49665aff7.id.repl.co"
