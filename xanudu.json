@@ -1,0 +1,11 @@
+{
+  "description": "portfolio website",
+  "repo": "https://xanudubuster.github.io", 
+  "owner": {
+    "username": "XanuduBuster",
+    "email": "xanubuster@proton.me"
+  },
+  "record": {
+    "CNAME": "xanudubuster.github.io"
+  }
+}
