@@ -5,7 +5,11 @@
   },
   "record": {
     "A": [
-      "52.77.224.107"
+      "52.77.224.107",
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
     ],
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=imzihad@gmail.com"
