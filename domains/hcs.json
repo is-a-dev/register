@@ -5,6 +5,8 @@
     "email": "hcskaiask@gmail.com"
   },
   "record": {
-    "CNAME": "dono-01.danbot.host:1485"
+    "A": [
+      "164.132.74.251"
+    ]
   }
 }
