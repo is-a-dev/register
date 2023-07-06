@@ -5,6 +5,8 @@
     "email": "hcskaiask@gmail.com"
   },
   "record": {
-    "URL": "http://dono-01.danbot.host:1378/hcs"
+    "A": [
+      "164.132.74.251"
+    ]
   }
 }
