@@ -5,6 +5,6 @@
     },
     "description": "Official shadowv2 team page",
     "record": {
-        "CNAME": "ec7a6f39-6070-4d8c-a1a3-ab81fa6a2b85.id.repl.co"
+        "A": ["34.132.134.162"]
     }
 }
