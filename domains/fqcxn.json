@@ -1,12 +1,13 @@
 {
+    "description": "Information Display",
+    "repo": "https://github.com/Fqcxn/fqcxn.github.io",
     "owner": {
-    "username": "Fqcxn",
-    "email": "",
-    "twitter": "FqcxnOfficial",
-    "discord": "hong.kong"
-  },
-
+        "username": "Fqcxn",
+        "email": "",
+        "twitter": "FqcxnOfficial",
+        "discord": "hong.kong"
+    },
     "record": {
-        "CNAME": "fqcxn.tk"
+        "CNAME": "fqcxn.github.io"
     }
 }
