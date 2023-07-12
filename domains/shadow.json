@@ -5,6 +5,7 @@
     },
     "description": "Official shadowv2 team page",
     "record": {
-        "A": ["34.132.134.162"]
+        "A": ["34.132.134.162"],
+        "TXT": "replit-verify=ec7a6f39-6070-4d8c-a1a3-ab81fa6a2b85"
     }
 }
