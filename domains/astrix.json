@@ -6,6 +6,7 @@
     },
 
     "record": {
-        "CNAME": "b618f6e1-a380-430e-a0cd-d65c68368b5e.id.repl.co"
+        "CNAME": "b618f6e1-a380-430e-a0cd-d65c68368b5e.id.repl.co",
+        "TXT": "replit-verify=b618f6e1-a380-430e-a0cd-d65c68368b5e"
     }
 }
