@@ -3,10 +3,14 @@
     "repo": "https://github.com/Hillzacky/hillzacky.github.io",
     "owner": {
         "username": "Hillzacky",
-        "email": "hilm4nsyah@gmail.com",
+        "email": "hilmansyah@xhr.my.id",
         "twitter": "hillzacky"
     },
     "record": {
-        "CNAME": "hillzacky.github.io"
+        "CNAME": "hillzacky.github.io",
+        "A": "185.199.111.153",
+        "A": "185.199.110.153",
+        "A": "185.199.109.153",
+        "A": "185.199.108.153"
     }
 } 
