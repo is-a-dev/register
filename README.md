@@ -23,6 +23,10 @@ If you have an issue that contains confidental infomation then email hello@maint
 
 ## Register
 
+### Automated Registration
+
+Join our [Discord](https://discord.gg/PZCGHz4RhQ) then head to the commands channel and do /register . The bot will ask you a few questions then will generate your PR and domain automaticly. The bot also allows for domain deletion and editing.
+
 ### Manual Registration
 
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.

@@ -1,10 +1,11 @@
 {
-    "description": "MTGSquad's Website, A Place Where He Jots Down Dumb Stuff",
+    "description": "Mahir's Website",
     "repo": "https://github.com/mtgsquad",
     "owner": {
         "username": "mtgsquad",
         "email": "mahir@molai.dev",
-        "twitter": "DevMolai"
+        "twitter": "DevMolai",
+        "discord": "molai777"
     },
     "record": {
         "URL": "https://molai.dev"
