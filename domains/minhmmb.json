@@ -4,6 +4,7 @@
     "email": "mn9173024@gmail.com"
   },
   "record": {
-    "CNAME": "minnb-bit.github.io"
+    "CNAME": "minnb-bit.github.io",
+    "TXT": "https://minnb-bit.github.io"
   }
 }
