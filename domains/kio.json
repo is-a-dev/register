@@ -5,6 +5,6 @@
     },
 
     "record": {
-        "TXT": "vc-domain-verify=kio.is-a.dev,44da5cbfcc3a8f269905"
+        "CNAME": "nakio.pages.dev"
     }
 }
