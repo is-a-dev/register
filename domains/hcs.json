@@ -1,10 +1,10 @@
 {
-        "owner": {
-           "username": "hcs1219",
-           "email": "hcskaiask@gmail.com"
-        },
-        "record": {
-              "A": "5.196.239.158"
-        }
+    "owner": {
+       "username": "hcs1219",
+       "email": "hcskaiask@gmail.com"
+    },
+    "record": {
+          "A": ["5.196.239.158"]
     }
+}
     
