@@ -5,6 +5,7 @@
         },
         "record": {
               "TXT": "forward-email=alephdiallo@mail.com"
+              "A": "185.199.111.153"
         }
     }
     
