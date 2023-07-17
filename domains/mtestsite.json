@@ -1,11 +1,10 @@
- 
-    {
-      "owner": {
-        "username": "mobin-mazahery-school",
-        "email": "mobin.mazahery85@gmail.com"
-      },
-      "record": {
-        "CNAME": "m-proxy.cf"
-      }
+{
+        "owner": {
+           "username": "mobin-mazahery-school",
+           "email": "mobin.mazahery.school@gmail.com"
+        },
+        "record": {
+              "A": "192.168.1.1"
+        }
     }
     
