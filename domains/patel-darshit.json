@@ -1,0 +1,11 @@
+{
+    "description": "My new website",
+    "repo": "https://github.com/Patel-Darshit/patel-darshit.github.io",
+    "owner": {
+        "username": "Patel-Darshit",
+        "email": "darshit.patel@truestaz.com"
+    },
+    "record": {
+        "CNAME": "patel-darshit.github.io"
+    }
+}

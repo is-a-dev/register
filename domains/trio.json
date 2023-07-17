@@ -1,0 +1,10 @@
+{
+    "description": "trio",
+    "owner": {
+        "username": "trio745",
+        "email": "triofran6@gmail.com"
+    },
+    "record": {
+        "MX": ["smtp.internal.xhyrom.dev"]
+    }
+}

@@ -1,11 +1,11 @@
 {
-  "description": "Ella's Portfolio",
-  "repo": "https://github.com/eilla1/ella.is-a.dev-redirect",
-  "owner": {
-    "username": "eilla1",
-    "email": "exu6056@gmail.com"
-  },
-  "record": {
-    "CNAME": "eilla1.github.io"
-  }
+    "description": "Ella's Portfolio",
+    "repo": "https://github.com/eilla1/ella.is-a.dev-redirect",
+    "owner": {
+        "username": "eilla1",
+        "email": "exu6056@gmail.com"
+    },
+    "record": {
+        "CNAME": "eilla1.github.io"
+    }
 }
