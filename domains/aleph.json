@@ -4,8 +4,6 @@
            "email": "alephdiallo@mail.com"
         },
         "record": {
-              "MX": "mx1.forwardemail.net, mx2.forwardemail.net"
-              "A": "185.199.108.153"
               "TXT": "forward-email=alephdiallo@mail.com"
         }
     }
