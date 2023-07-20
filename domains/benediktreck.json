@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "usr577",
-           "email": "benedikt.reck@oesdorf.de"
-        },
-        "record": {
-            "URL": "benediktreck.duckdns.org"
-        }
+    "owner": {
+       "username": "usr577",
+       "email": "benedikt.reck@oesdorf.de"
+    },
+    "record": {
+        "CNAME": "benediktreck.duckdns.org"
     }
-    
+}
