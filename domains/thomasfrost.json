@@ -1,9 +1,9 @@
-    {
-      "owner": {
+{
+    "owner": {
         "username": "frosttho",
         "email": "thomas@ksg-media.de"
-      },
-      "record": {
+    },
+    "record": {
         "A": ["167.71.34.179"]
-      }
     }
+}

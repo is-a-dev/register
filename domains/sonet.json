@@ -1,14 +1,14 @@
 {
-  "description": "This is my personal Website of portfolio",
-  "repo": "https://github.com/CoderSoNet/codersonetwebsite.github.io",
-  "owner": {
-    "username": "CoderSoNet",
-    "email": "support@sonet.is-a.dev",
-    "twitter": "ShanuUniyal_On",
-    "discord": "781127625263415326"
-  },
-  "record": {
-    "A": ["34.149.204.188"],
-    "TXT": "v=spf1 a mx include:_spf.elasticemail.com ~all"
-  }
+    "description": "This is my personal Website of portfolio",
+    "repo": "https://github.com/CoderSoNet/codersonetwebsite.github.io",
+    "owner": {
+        "username": "CoderSoNet",
+        "email": "support@sonet.is-a.dev",
+        "twitter": "ShanuUniyal_On",
+        "discord": "781127625263415326"
+    },
+    "record": {
+        "A": ["34.149.204.188"],
+        "TXT": "v=spf1 a mx include:_spf.elasticemail.com ~all"
+    }
 }

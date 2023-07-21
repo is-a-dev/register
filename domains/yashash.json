@@ -1,11 +1,11 @@
 {
-  "description": "Personal portfolio website",
-  "repo": "https://github.com/yashash1511/yashash1511.github.io",
-  "owner": {
-    "username": "yashash1511",
-    "email": "yashash1511@gmail.com"
-  },
-  "record": {
-    "URL": "https://yashash1511.github.io"
-  }
+    "description": "Personal portfolio website",
+    "repo": "https://github.com/yashash1511/yashash1511.github.io",
+    "owner": {
+        "username": "yashash1511",
+        "email": "yashash1511@gmail.com"
+    },
+    "record": {
+        "URL": "https://yashash1511.github.io"
+    }
 }

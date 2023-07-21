@@ -1,12 +1,11 @@
 {
-  "description": "TCA's official portfolio, if you can call it that.",
-  "repo": "https://github.com/NotTCA/devsite",
-  "owner": {
-    "username": "NotTCA",
-    "email": "me@nottca.tk",
-    "twitter": "https://twitter.com/imTCA_"
-  },
-  "record": {
-    "CNAME": "nottca.github.io"
-  }
+    "description": "TCA's official portfolio, if you can call it that.",
+    "repo": "https://github.com/ToastifyDev/devsite",
+    "owner": {
+        "username": "ToastifyDev",
+        "email": "hey@toastify.tk"
+    },
+    "record": {
+        "URL": "https://toasted.is-a.dev"
+    }
 }

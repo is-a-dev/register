@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "wrdg",
         "email": "wardog@wrdg.dev"
-      },
+    },
 
-      "record": {
+    "record": {
         "URL": "https://wrdg.net"
-      }
     }
-  
+}

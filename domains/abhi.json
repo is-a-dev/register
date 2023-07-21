@@ -1,11 +1,9 @@
-
 {
-  "owner": {
-    "username": "actuallyabhi",
-    "email": "mabhishek7081@zohomail.in"
-  },
-  "record": {
-    "URL": "https://actuallyabhi.netlify.app"
-  }
+    "owner": {
+        "username": "actuallyabhi",
+        "email": "mabhishek7081@zohomail.in"
+    },
+    "record": {
+        "URL": "https://actuallyabhi.netlify.app"
+    }
 }
-  

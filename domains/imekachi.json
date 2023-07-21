@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "imekachi",
         "email": "imekachi@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "hashnode.network"
-      }
     }
-  
+}
