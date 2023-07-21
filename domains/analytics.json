@@ -1,10 +1,11 @@
-{
+
+ {
         "owner": {
-           "username": "daanschenkel",
-           "email": "daan@daanschenkel.nl"
+           "username": "isadev",
+           "email": "hello@maintainers.is-a.dev"
         },
         "record": {
-            "CNAME": "analytics.daanschenkel.nl"
+            "CNAME": "register.is-a.dev"
         }
     }
-    
+       
