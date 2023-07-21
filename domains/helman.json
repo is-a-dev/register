@@ -1,0 +1,10 @@
+{
+    "description": "helman.is-a.dev",
+    "owner": {
+        "username": "helman",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "blog.heldes.com"
+    }
+}
