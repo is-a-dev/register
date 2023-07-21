@@ -1,0 +1,11 @@
+
+ {
+        "owner": {
+           "username": "isadev",
+           "email": "hello@maintainers.is-a.dev"
+        },
+        "record": {
+            "CNAME": "register.is-a.dev"
+        }
+    }
+       
