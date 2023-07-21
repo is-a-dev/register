@@ -6,7 +6,6 @@
         "email": "tyler@tjm.dev"
     },
     "record": {
-        "CNAME": "tjm.dev",
-        "URL": "https://tyler.is-a.dev"
+        "CNAME": "tjm.dev"
     }
 }

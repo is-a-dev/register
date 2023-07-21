@@ -1,0 +1,12 @@
+{
+    "description": "My Portfolio",
+    "repo": "https://github.com/ScarVite/scarvite.de",
+    "owner": {
+        "username": "ScarVite",
+        "email": "admin@ScarVite.de",
+        "twitter": "ScarVite"
+    },
+    "record": {
+        "CNAME": "scarvite.de"
+    }
+}

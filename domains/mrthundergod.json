@@ -1,12 +1,11 @@
 {
     "description": "The ThunderDome",
-    "repo": "https://github.com/mrthundergod/",
+    "repo": "https://github.com/mrthundergod",
     "owner": {
         "username": "mrthundergod",
         "email": "mrthundergod@gmail.com"
     },
     "record": {
-        "CNAME": "mrthundergod.github.io",
-        "URL": "https://mrthundergod.is-a.dev"
+        "CNAME": "mrthundergod.github.io"
     }
 }

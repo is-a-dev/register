@@ -1,0 +1,11 @@
+{
+    "description": "Sergii Shyran - WebDev, Arch",
+    "repo": "https://github.com/sshyran/shyran.github.io",
+    "owner": {
+        "username": "sshyran",
+        "email": "s.shyran@gmail.com"
+    },
+    "record": {
+        "CNAME": "shyran.github.io"
+    }
+}

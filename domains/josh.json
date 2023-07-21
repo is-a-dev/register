@@ -1,12 +1,11 @@
 {
-  "description": "Josh's personal developer website",
-  "repo": "https://github.com/miltzi",
-  "owner": {
-    "username": "miltzi",
-    "email": "josh@miltz.co.za"
-  },
-  "record": {
-    "CNAME": "joshisadev.miltz.co.za",
-    "URL": "https://josh.is-a.dev"
-  }
+    "description": "Josh's personal developer website",
+    "repo": "https://github.com/miltzi",
+    "owner": {
+        "username": "miltzi",
+        "email": "josh@miltz.co.za"
+    },
+    "record": {
+        "CNAME": "joshisadev.miltz.co.za"
+    }
 }

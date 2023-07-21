@@ -6,7 +6,6 @@
         "email": "evancalz@me.com"
     },
     "record": {
-        "CNAME": "ecalzo.github.io",
-        "URL": "https://ecalzo.is-a.dev"
+        "CNAME": "ecalzo.github.io"
     }
 }

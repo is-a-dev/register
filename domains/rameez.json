@@ -1,0 +1,11 @@
+{
+    "description": "Personal website of Rameez",
+    "repo": "https://github.com/rameezrami/rameezrami.github.io",
+    "owner": {
+        "username": "rameezrami",
+        "email": "rameespu@gmail.com"
+    },
+    "record": {
+        "CNAME": "rameezrami.github.io"
+    }
+}

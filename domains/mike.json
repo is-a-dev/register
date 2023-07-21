@@ -2,11 +2,10 @@
     "description": "Mike's portfolio website and blog",
     "repo": "https://github.com/mdrobbins",
     "owner": {
-      "username": "mdrobbins",
-      "email": "mikedrobbins@gmail.com"
+        "username": "mdrobbins",
+        "email": "mikedrobbins@gmail.com"
     },
     "record": {
-      "URL": "https://mikerobbins.me"
+        "URL": "https://mikerobbins.me"
     }
-  }
-  
+}

@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "Koolwiza",
+        "email": "koolwiza@gmail.com"
+    },
+    "description": "Just a cool subdomain to have :)",
+    "repo": "https://www.github.com/Koolwiza",
+    "record": {
+        "CNAME": "koolwiza.github.io"
+    }
+}
