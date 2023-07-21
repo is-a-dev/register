@@ -1,10 +1,10 @@
 {
-        "owner": {
-           "username": "joythejoystick1",
-           "email": "midoayoub778@gmail.com"
-        },
-        "record": {
-              "TXT": "_github-pages-challenge-joythejoystick1.glqch"
-        }
+    "owner": {
+       "username": "joythejoystick1",
+       "email": "midoayoub778@gmail.com"
+    },
+    "record": {
+          "CNAME": "joythejoystick1.github.io"
     }
+}
     
