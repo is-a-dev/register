@@ -6,6 +6,8 @@
         "email": "uxymqfzglvtqno@proton.me"
     },
     "record": {
-        "CNAME": "iamthanhlong.github.io"
-    }
-} 
+    "A": [
+      "103.97.126.28"
+    ]
+  }
+}
