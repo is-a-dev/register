@@ -4,6 +4,6 @@
         "email": "bracoui809@gmail.com"
     },
     "record": {
-            "CNAME": "hosts.is-a.dev"
+            "TXT": "replit-verify=f9fbfdf8-17b8-4bce-be7f-34c1f919bb92"
     }
 }
