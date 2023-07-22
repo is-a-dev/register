@@ -1,11 +1,11 @@
 {
+    "repo": "https://github.com/iamthanhlong/iamthanhlong.github.io",
     "owner": {
         "username": "iamthanhlong",
         "email": "uxymqfzglvtqno@proton.me"
     },
     "record": {
-    "A": [
-      "103.97.126.28"
+        "CNAME": "iamthanhlong.github.io"
     ]
   }
 }
