@@ -4,7 +4,7 @@
            "email": "Hashim.almuqbel@gmail.com"
         },
         "record": {
-            "TXT": "185.176.43.100"
+            "A": ["185.176.43.100"]
         }
     }
     
