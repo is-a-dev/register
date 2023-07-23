@@ -3,7 +3,9 @@
         "username": "codeszsoft",
         "email": "codeszsoftware@gmail.com"
     },
+
+    "repo": "https://github.com/codeszsoft/codeszsoft.github.io"
     "record": {
-            "CNAME": "hosts.is-a.dev"
+            "CNAME": "codeszsoft.github.io"
     }
 }
