@@ -1,9 +1,13 @@
 {
+    "description": "Anondev's personal profile website",
+    "repo": "https://github.com/anondev-sudo/anondev-sudo",
     "owner": {
         "username": "anondev-sudo",
-        "email": "anondev@anonym-dev.tk"
+        "email": "contact@anonym-dev.tk"
     },
     "record": {
-            "MX": "4e7b2afdee66dc77.mx1.emailprofi.seznam.cz"
+        "CNAME": "anondev.up.railway.app",
+         "MX": ["4e7b2afdee66dc77.mx1.emailprofi.seznam.cz", "4e7b2afdee66dc77.mx2.emailprofi.seznam.cz"],
+         "TXT": "v=spf1 include:spf.seznam.cz ~all"
     }
 }
