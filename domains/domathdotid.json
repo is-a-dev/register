@@ -1,10 +1,9 @@
 {
     "owner": {
         "username": "DomathID",
-        "email": "domath69@gmail.com"
+        "email": "bangdompret@gmail.com"
     },
-
     "record": {
-        "CNAME": "domathid.github.io"
+            "TXT": "vc-domain-verify=domathdotid.is-a.dev,d39d81d4bc5042c9a077"
     }
 }
