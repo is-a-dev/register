@@ -4,7 +4,7 @@
            "email": "duyericmmo@gmail.com"
         },
         "record": {
-            "CNAME": "www"
+            "A": ["172.245.139.131"]
         }
     }
     
