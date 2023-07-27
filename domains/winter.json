@@ -4,6 +4,6 @@
         "email": "v1rtualwinter@outlook.com"
     },
     "record": {
-            "CNAME": "hosts.is-a.dev"
+            "A": "45.14.224.83"
     }
 }
