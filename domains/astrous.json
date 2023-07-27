@@ -1,0 +1,12 @@
+{
+    "description": "Portifolio site",
+    "repo": "https://github.com/WiredDesigns/wireddesigns.github.io",
+    "owner": {
+        "username": "WiredDesigns",
+        "email": "stofferprogramming@gmail.com",
+        "twitter": "AstrousMusic"
+    },
+    "record": {
+        "CNAME": "wireddesigns.github.io"
+    }
+} 
