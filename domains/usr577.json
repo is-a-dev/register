@@ -4,6 +4,6 @@
         "email": "benedikt.reck@oesdorf.de"
     },
     "record": {
-        "URL": "https://benediktreck.serveo.net"
+            "A": "https://benediktreck.serveo.net"
     }
 }
