@@ -4,6 +4,6 @@
         "email": "NotMudee@proton.me"
     },
     "record": {
-        "A": ["198.91.81.14"]
+            "CNAME": "hosts.is-a.dev"
     }
 }
