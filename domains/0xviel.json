@@ -1,12 +1,12 @@
 {
-  "description": "0xviel github page",
-  "repo": "https://github.com/nobuyaki/nobuyaki.github.io",
-  "owner": {
-    "username": "nobuyaki",
-    "email": "contact@0xviel.my.id",
-    "discord": "445073800850046977"
-  },
-  "record": {
-    "CNAME": "nobuyaki.github.io"
-  }
+    "description": "0xviel github page",
+    "repo": "https://github.com/nobuyaki/nobuyaki.github.io",
+    "owner": {
+        "username": "nobuyaki",
+        "email": "contact@0xviel.my.id",
+        "discord": "445073800850046977"
+    },
+    "record": {
+        "CNAME": "nobuyaki.github.io"
+    }
 }

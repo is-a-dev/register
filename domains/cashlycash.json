@@ -1,11 +1,11 @@
 {
-  "description": "Cashly_Cash's personal website",
-  "repo": "https://replit.com/@SH1FT3R/web#main.py",
-  "owner": {
-    "username": "CashlyCash",
-    "email": "arnav000777gupta@gmail.com"
-  },
-  "record": {
-    "CNAME": "187964e1-d104-4c57-a319-a0d664215bf8.id.repl.co"
-  }
+    "description": "Cashly_Cash's personal website",
+    "repo": "https://replit.com/@SH1FT3R/web#main.py",
+    "owner": {
+        "username": "CashlyCash",
+        "email": "arnav000777gupta@gmail.com"
+    },
+    "record": {
+        "CNAME": "187964e1-d104-4c57-a319-a0d664215bf8.id.repl.co"
+    }
 }

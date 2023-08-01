@@ -1,9 +1,11 @@
-    {
-       "owner": {
-         "username": "Xcode13developer",
-         "email": "thedev132@gmail.com"
-       },
-       "record": {
-         "A": ["192.9.128.241"]
-       }
-     }
+{
+    "owner": {
+        "username": "thedev132",
+        "email": "thedev132@gmail.com"
+    },
+    "record": {
+        "A": ["138.2.237.127"],
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
+}

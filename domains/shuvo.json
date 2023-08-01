@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "description": "Personal portfolio",
+    "owner": {
         "username": "devshahoriar",
-        "email": "shahoriar.dev@gmail.com"
-      },
-
-      "record": {
-        "A": ["1111111"]
-      }
+        "email": "shuvo1556@gmail.com"
+    },
+    "record": {
+        "MX": ["dns1.alwaysdata.com", "dns2.alwaysdata.com"]
     }
-  
+}

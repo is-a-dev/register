@@ -1,10 +1,10 @@
 {
-  "description": "R2D2 website",
-  "owner": {
-    "username": "hogakesan",
-    "email": "aereg@ya.ru"
-  },
-  "record": {
-    "A": ["46.32.81.244"]
-  }
+    "description": "R2D2 website",
+    "owner": {
+        "username": "hogakesan",
+        "email": "aereg@ya.ru"
+    },
+    "record": {
+        "A": ["46.32.83.106"]
+    }
 }
