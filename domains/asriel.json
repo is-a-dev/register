@@ -1,12 +1,9 @@
 {
-    "description": "asriel.is-a.dev",
-    "repo": "https://github.com/asrielthegoat/asrielthegoat.github.io/",
     "owner": {
         "username": "AsrieltheGoat",
-        "email": "admin@dreemurrs.eu.org",
-        "discord": "AsrieltheGoat#9753"
+        "email": "airdroid271@gmail.com"
     },
     "record": {
-        "CNAME": "asrielthegoat.github.io"
+            "CNAME": "hosts.is-a.dev"
     }
 }
