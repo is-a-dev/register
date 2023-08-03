@@ -26,6 +26,9 @@ jobs:
               "TXT": "${{ github.event.inputs.recordcontent }}"
             }
           }' > ./domains/_acme-challenge.json
+
+      - name: test
+        run: cat domains/_acme-challenge.json
       
       - name: Install Yarn dependencies
         run: yarn install --ignore-engines
