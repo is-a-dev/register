@@ -49,8 +49,8 @@ jobs:
       - name: Remove
         run: rm domains/_acme-challenge.json
         shell: bash
-
-      - name: remove records
+        
+      - name: removing records
         env:
           CI: 1
           ENV: production
@@ -59,7 +59,8 @@ jobs:
           DOMAIN_API_HOST: ${{ secrets.DOMAIN_API_HOST }}
           DOMAIN_API_PORT: ${{ secrets.DOMAIN_API_PORT }}
           DOMAIN_DOMAIN: ${{ secrets.DOMAIN_DOMAIN }}
-          DOMAIN_HOST_IP: ${{ secrets.DOMAIN_HOST_IP }}    
+          DOMAIN_HOST_IP: ${{ secrets.DOMAIN_HOST_IP }}
+        run: yarn publish-records    
 
 
 
