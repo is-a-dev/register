@@ -10,7 +10,6 @@ on:
 
 jobs:
   publish:
-    if: github.repository == 'is-a-dev/register'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
