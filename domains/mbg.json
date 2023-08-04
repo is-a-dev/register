@@ -4,6 +4,6 @@
         "email": "MBGx1337@gmail.com"
     },
     "record": {
-            "A": ["3.120.250.108"]
+            "TXT": "vc-domain-verify=mbg.is-a.dev,1e9db212351e844e5236"
     }
 }
