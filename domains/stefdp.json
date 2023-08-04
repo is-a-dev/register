@@ -1,12 +1,9 @@
 {
-    "description": "Domain for my personal website",
-    "repo": "https://github.com/Stef-00012/stef-00012.github.io",
     "owner": {
         "username": "Stef-00012",
-        "email": "stefano.delprete.08@gmail.com",
-        "twitter": "Stef_Del_Prete"
+        "email": "stefano.delprete.08@gmail.com"
     },
     "record": {
-        "CNAME": "stef-00012.github.io"
+            "TXT": "27c2dc9cd3e8a0a37947e82ab6f637"
     }
-} 
+}
