@@ -1,7 +1,8 @@
 {
     "owner": {
         "username": "skifli",
-        "email": "skifli@proton.me"
+        "email": "",
+        "discord": "skifli",
     },
     "record": {
             "CNAME": "https://skifli.github.io"
