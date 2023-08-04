@@ -5,10 +5,12 @@
         "discord": "oxmc7769"
     },
     "record": {
-            "CNAME": "oxmc.github.io",
-            "TXT": {
-                "Name": "_github-pages-challenge-oxmc.oxmc",
-                "Value": "eb7d97f93f961fd03de6e26db45846"
-            }
+        "CNAME": "oxmc.github.io",
+        "TXT": {
+            "Name": "_github-pages-challenge-oxmc.oxmc",
+            "Value": "eb7d97f93f961fd03de6e26db45846"
+        },
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=oxmc7769.mail@gmail.com"
     }
 }
