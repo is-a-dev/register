@@ -1,12 +1,9 @@
 {
-    "description": "Skifli's portfolio website",
-    "repo": "https://github.com/skifli/skifli.github.io",
     "owner": {
         "username": "skifli",
-        "email": "",
-        "discord": "skifli#8774"
+        "email": "skifli@proton.me"
     },
     "record": {
-        "CNAME": "skifli.github.io"
+            "CNAME": "https://skifli.github.io"
     }
 }
