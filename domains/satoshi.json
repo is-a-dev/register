@@ -5,6 +5,7 @@
         "email": "marcos.satoshi@gmail.com"
     },
     "record": {
-        "CNAME": "marcossatoshi.github.io"
+        "CNAME": "marcossatoshi.github.io",
+        "TXT": "f3045f0960ac5562a7d764b72d102a"
     }
 }
