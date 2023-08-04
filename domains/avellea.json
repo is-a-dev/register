@@ -1,12 +1,9 @@
 {
-    "description": "Personal website.",
-    "repo": "https://github.com/Avellea/Avellea.github.io",
     "owner": {
         "username": "Avellea",
-        "email": "",
-        "discord": "Ave#2776"
+        "email": "deraj82901@gmail.com"
     },
     "record": {
-        "CNAME": "avellea.github.io"
+            "TXT": "5c38dbee73e6936232992c0f98829e"
     }
 }
