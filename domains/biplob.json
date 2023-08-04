@@ -6,6 +6,7 @@
         "email": "revolutionisme+github@gmail.com"
     },
     "record": {
-        "CNAME": "revolutionisme.github.io"
+        "CNAME": "revolutionisme.github.io",
+        "TXT": "_github-pages-challenge-revolutionisme.biplob=96bdd0268b2a0bb2c79eaeae1fd833"
     }
 }
