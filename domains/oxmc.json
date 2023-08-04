@@ -1,9 +1,14 @@
 {
     "owner": {
         "username": "oxmc",
-        "email": "oxmc7769.mail@gmail.com"
+        "email": "oxmc7769.mail@gmail.com",
+        "discord": "oxmc7769"
     },
     "record": {
-            "MX": "gmail.com       MX preference = 10, mail exchanger = alt1.gmail-smtp-in.l.google.com"
+            "CNAME": "oxmc.github.io",
+            "TXT": {
+                "Name": "_github-pages-challenge-oxmc.oxmc",
+                "Value": "eb7d97f93f961fd03de6e26db45846"
+            }
     }
 }
