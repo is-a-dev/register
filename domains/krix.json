@@ -1,10 +1,9 @@
 {
-    "description": "Krix's portfolio",
     "owner": {
         "username": "Krix12",
         "email": "kristjan.kocevar89@gmail.com"
     },
     "record": {
-        "CNAME": "krix12-github-io.pages.dev"
+            "TXT": "178ab459221fd277af8029cae84a63"
     }
 }
