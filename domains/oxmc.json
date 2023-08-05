@@ -7,6 +7,6 @@
     "record": {
         "CNAME": "oxmc.github.io",
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": "_github-pages-challenge-oxmc.oxmc=eb7d97f93f961fd03de6e26db45846 forward-email=oxmc7769.mail@gmail.com"
+        "TXT": "eb7d97f93f961fd03de6e26db45846"
     }
 }
