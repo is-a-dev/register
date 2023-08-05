@@ -1,11 +1,9 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Tech2Logix",
         "email": "rhinovanboxelaere@outlook.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "rhino-vb.be"
-      }
     }
-  
+}
