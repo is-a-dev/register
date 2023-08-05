@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "sohrubh",
         "email": "saurabhyadav5931@gmail.com"
-      },
-      "record": {
-        "CNAME": "sohrubh.github.io"
-      }
+    },
+    "record": {
+            "TXT": "_github-pages-challenge-sohrubh.saurabh"
     }
-      
+}
