@@ -7,6 +7,8 @@
         "twitter": "ChandraSMalla"
     },
     "record": {
-        "CNAME": "sekharmalla.github.io"
+        "CNAME": "sekharmalla.github.io",
+        "TXT": "11ecb44a01a667c78ba76d704d9fc5"
+        
     }
 }
