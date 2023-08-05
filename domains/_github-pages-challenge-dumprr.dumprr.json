@@ -1,10 +1,9 @@
 {
-          "repo": "https://github.com/dumprr/dumprr.github.io",
     "owner": {
         "username": "dumprr",
         "email": "duhhhmprr@proton.me"
     },
     "record": {
-        "CNAME": "dumprr.github.io"
+        "TXT": "493971f29452bc15b55966259b43a5"
     }
 }
