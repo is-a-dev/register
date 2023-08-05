@@ -1,11 +1,9 @@
 {
     "owner": {
         "username": "oxmc",
-        "email": "oxmc7769.mail@gmail.com",
-        "discord": "oxmc7769"
+        "email": "oxmc7769.mail@gmail.com"
     },
     "record": {
-        "CNAME": "oxmc.github.io",
-        "TXT": "eb7d97f93f961fd03de6e26db45846"
+            "TXT": "eb7d97f93f961fd03de6e26db45846"
     }
 }
