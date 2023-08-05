@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "fuccsoc",
         "email": "me@fuccsoc.com"
-      },
+    },
 
-      "record": {
-        "CNAME": "fuccsoc.com"
-      }
+    "record": {
+        "URL": "https://fuccsoc.com"
     }
-  
+}

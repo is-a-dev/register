@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "soudblox",
-    "email": "nick8x@gmail.com"
-  },
-  "record": {
-    "CNAME": "bloxsite.up.railway.app"
-  }
+    "owner": {
+        "username": "soudblox",
+        "email": "nick8x@gmail.com"
+    },
+    "record": {
+        "CNAME": "soudblox.github.io"
+    }
 }
