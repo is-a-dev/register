@@ -8,8 +8,6 @@
     "discord": "781127625263415326"
   },
   "record": {
-    "A": ["34.149.204.188"],
-    "CNAME": "3303bc99-e9eb-489a-96c3-138398c9dae5.id.repl.co",
-    "TXT": "replit-verify=3303bc99-e9eb-489a-96c3-138398c9dae5"
+    "CNAME": "3303bc99-e9eb-489a-96c3-138398c9dae5.id.repl.co"
   }
 }
