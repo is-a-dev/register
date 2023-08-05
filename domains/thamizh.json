@@ -1,9 +1,12 @@
 {
+    "description": "for my personal website representing that i'm a dev",
+    "repo": "https://github.com/ThisisThamizh/ThisisThamizh.github.io",
     "owner": {
         "username": "ThisisThamizh",
-        "email": "venthank88@gmail.com"
+        "email": "venthank88@gmail.com",
+        "twitter": "k_thamizhventhu"
     },
     "record": {
-            "TXT": "55f7385e475bf5148e262bf6a07289"
+        "CNAME": "ThisisThamizh.github.io"
     }
 }
