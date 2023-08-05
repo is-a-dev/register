@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "minibox24",
-    "email": "minibox724@gmail.com"
-  },
-  "record": {
-    "CNAME": "isadev.minibox.xyz"
-  }
+    "owner": {
+        "username": "minibox24",
+        "email": "minibox724@gmail.com"
+    },
+    "record": {
+        "CNAME": "isadev.minibox.xyz"
+    }
 }

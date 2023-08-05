@@ -1,12 +1,11 @@
 {
-  "description": "Eddyraz Public is-a.dev domain",
-  "repo": "https://github.com/eddyraz",
-  "owner": {
-    "username": "eddyraz",
-    "email": "eddyraz.fl@gmail.com"
-  },
-  "record": {
+    "description": "Eddyraz Public is-a.dev domain",
+    "repo": "https://github.com/eddyraz",
+    "owner": {
+        "username": "eddyraz",
+        "email": "eddyraz.fl@gmail.com"
+    },
+    "record": {
         "CNAME": "srv231139-206152.vps.etecsa.cu"
-  }
-  
+    }
 }

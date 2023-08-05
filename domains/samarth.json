@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Samarth2005",
-    "email": "samarthkulshresth@gmail.com"
-  },
-  "record": {
-    "A": ["76.76.21.21"]
-  }
+    "owner": {
+        "username": "samarthkulshrestha",
+        "email": "samarthkulshrestha@protonmail.com"
+    },
+    "record": {
+        "CNAME": "samarthkulshrestha.github.io"
+    }
 }
