@@ -2,10 +2,10 @@
     "description": "Erik Personal Website",
     "repo": "https://github.com/Erik3010",
     "owner": {
-      "username": "erik3010",
-      "email": "erikhau3010@gmail.com"
+        "username": "erik3010",
+        "email": "erikhau3010@gmail.com"
     },
     "record": {
-      "CNAME": "erik3010.github.io"
+        "CNAME": "erik3010.github.io"
     }
 }

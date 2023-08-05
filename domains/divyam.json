@@ -1,0 +1,11 @@
+{
+    "description": "Divyam's personal website",
+    "repo": "https://github.com/DivyamAhuja/divyamahuja.github.io",
+    "owner": {
+        "username": "DivyamAhuja",
+        "email": "ahujadivyam@gmail.com"
+    },
+    "record": {
+        "CNAME": "divyamahuja.github.io"
+    }
+}

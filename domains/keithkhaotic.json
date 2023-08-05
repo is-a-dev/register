@@ -1,0 +1,12 @@
+{
+    "description": "Keith Khaotic's personal website link",
+    "repo": "https://github.com/KeithKhaotic/KeithKhaotic.github.io",
+    "owner": {
+        "username": "KeithKhaotic",
+        "email": "keithbussyness@gmail.com",
+        "twitter": "redrocker133"
+    },
+    "record": {
+        "CNAME": "keithkhaotic.github.io"
+    }
+}

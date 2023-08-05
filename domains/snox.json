@@ -1,0 +1,12 @@
+{
+    "description": "snox.codes",
+    "repo": "https://snox.codes",
+    "owner": {
+        "username": "SimplySnox",
+        "email": "root@snox.codes",
+        "discord": "snox#0143"
+    },
+    "record": {
+        "CNAME": "snox.codes"
+    }
+}

@@ -1,9 +1,11 @@
 {
+    "description": "tclement0922's personal site",
+    "repo": "https://github.com/tclement0922/tclement0922.github.io",
     "owner": {
         "username": "tclement0922",
-        "email": "thibault.clement09@gmail.com"
+        "email": "dev.tclement0922@gmail.com"
     },
     "record": {
-            "CNAME": "tclement0922.github.io"
+        "CNAME": "tclement0922.github.io"
     }
 }

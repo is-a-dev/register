@@ -1,0 +1,12 @@
+{
+  "description": "Ethan's website",
+  "repo": "https://github.com/not-a-ethan/Portfiolio",
+  "owner": {
+      "username": "not-a-ethan",
+      "email": "",
+      "discord": "not_ethan."
+  },
+  "record": {
+      "CNAME": "not-a-ethan.github.io"
+  }
+}
