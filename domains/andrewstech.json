@@ -1,12 +1,9 @@
 {
-    "description": "My Portfolio",
-    "repo": "https://github.com/andrewstech/andrewstech",
     "owner": {
         "username": "andrewstech",
-        "email": "hello@andrewstech.me",
-        "twitter": "andrewstech1"
+        "email": "andrew@win11react.com"
     },
     "record": {
-        "CNAME": "andrewstech.github.io"
+        "CNAME": "hosts.is-a.dev"
     }
 }
