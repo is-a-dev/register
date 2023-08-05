@@ -1,13 +1,9 @@
 {
-    "description": "Portfolio of Chethan Yadav",
-    "repo": "https://github.com/chethanyadav456/chethanyadav456.github.io",
     "owner": {
         "username": "chethanyadav456",
-        "email": "chethanyadav456@gmail.com",
-        "twitter": "DenRaaz77190",
-        "discord": "raaz6"
+        "email": "rockchethan1111@gmail.com"
     },
     "record": {
-        "CNAME": "chethanyadav456.github.io"
+            "TXT": "9781ed4422557bd427d0eff2c17b99"
     }
-} 
+}
