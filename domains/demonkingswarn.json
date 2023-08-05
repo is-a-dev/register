@@ -6,6 +6,7 @@
         "email": "demonkingswarn@protonmail.com"
     },
     "record": {
-        "CNAME": "demonkingswarn.github.io"
+        "CNAME": "demonkingswarn.github.io",
+        "TXT": "b71ce7f95d7d70404982209447de53"
     }
 }
