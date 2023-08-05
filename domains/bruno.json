@@ -1,10 +1,10 @@
 {
-  "description": "Bruno Henrique Paiva's personal website",
-  "owner": {
-    "username": "brunohpaiva",
-    "email": "me@bruno.codes"
-  },
-  "record": {
-    "URL": "https://bruno.codes"
-  }
+    "description": "Bruno Henrique Paiva's personal website",
+    "owner": {
+        "username": "brunohpaiva",
+        "email": "me@bruno.codes"
+    },
+    "record": {
+        "URL": "https://bruno.codes"
+    }
 }

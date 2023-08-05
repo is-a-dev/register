@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "pupbrained",
         "email": "mars@pupbrained.xyz"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "pupbrained.xyz"
-      }
     }
-      
+}

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ImRaid",
-    "email": "romanplayer76@gmail.com"
-  },
-  "record": {
-    "CNAME": "f8d83b65-6aa3-47dd-952f-95b1a52eadb4.id.repl.co"
-  }
+    "owner": {
+        "username": "ImRaid",
+        "email": "romanplayer76@gmail.com"
+    },
+    "record": {
+        "CNAME": "f8d83b65-6aa3-47dd-952f-95b1a52eadb4.id.repl.co"
+    }
 }
