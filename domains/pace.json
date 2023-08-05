@@ -1,0 +1,11 @@
+{
+    "description": "Place to host all my bio for my spigot plugins",
+    "repo": "https://github.com/Pace1337",
+    "owner": {
+        "username": "Pace1337",
+        "email": "pacex3123@gmail.com"
+    },
+    "record": {
+        "CNAME": "pacedev.tk"
+    }
+}

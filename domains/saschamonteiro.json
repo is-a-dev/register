@@ -1,0 +1,11 @@
+{
+    "description": "Sascha Monteiro's personal dev website",
+    "repo": "https://github.com/saschamonteiro",
+    "owner": {
+        "username": "saschamonteiro",
+        "email": "info@purejs.com"
+    },
+    "record": {
+        "CNAME": "www.purejs.com"
+    }
+}

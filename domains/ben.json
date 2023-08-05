@@ -1,12 +1,10 @@
 {
-    "description": "Ben's personal developer website",
-    "repo": "https://github.com/stupergenius",
     "owner": {
-        "username": "stupergenius",
-        "email": "ben@bensnider.com"
+        "username": "justpiple",
+        "email": "me@benspace.xyz"
     },
+
     "record": {
-        "CNAME": "bensnider.com",
-        "URL": "https://ben.is-a.dev"
+        "CNAME": "justpiple.github.io"
     }
 }

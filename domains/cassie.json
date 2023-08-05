@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "Diordnas",
+        "email": "alessandroeliot@gmail.com"
+    },
+    "description": "Personal site, as well as hosting a few tools",
+    "repo": "https://github.com/diordnas/diordnas.github.io",
+    "record": {
+        "CNAME": "diordnas.github.io"
+    }
+}

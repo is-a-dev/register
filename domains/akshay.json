@@ -1,12 +1,11 @@
 {
-  "description": "Akshay's portfolio website and blog",
-  "repo": "https://github.com/phenax/phenax.github.io",
-  "owner": {
-    "username": "phenax",
-    "email": "phenax5@gmail.com"
-  },
-  "record": {
-    "CNAME": "phenax.github.io",
-    "URL": "https://akshay.is-a.dev"
-  }
+    "description": "Akshay's portfolio website and blog",
+    "repo": "https://github.com/phenax/ediblemonad.dev",
+    "owner": {
+        "username": "phenax",
+        "email": "phenax5@gmail.com"
+    },
+    "record": {
+        "URL": "https://phenax.github.io"
+    }
 }
