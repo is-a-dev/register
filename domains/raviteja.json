@@ -1,12 +1,9 @@
 {
-  "description": "Ravi Teja's portfolio website",
-  "repo": "https://github.com/iraviteja/iraviteja.github.io",
-  "owner": {
-    "username": "iraviteja",
-    "email": "iraviteja77@gmail.com",
-    "twitter": "_iraviteja"
-  },
-  "record": {
-    "CNAME": "iraviteja.github.io"
-  }
+    "owner": {
+        "username": "iraviteja",
+        "email": "iraviteja77@gmail.com"
+    },
+    "record": {
+            "TXT": "6bb854139d8be9a7f37ccb05319b75"
+    }
 }
