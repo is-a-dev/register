@@ -1,11 +1,11 @@
 {
-  "description": "manu.is-a.dev",
-  "repo": "https://github.com/manuthecoder/personal-website",
-  "owner": {
-    "username": "manuthecoder",
-    "email": "manusvathgurudath@gmail.com"
-  },
-  "record": {
-    "CNAME": "personal-website-2nk.pages.dev"
-  }
+    "description": "manu.is-a.dev",
+    "repo": "https://github.com/manuthecoder/personal-website",
+    "owner": {
+        "username": "manuthecoder",
+        "email": "manusvathgurudath@gmail.com"
+    },
+    "record": {
+        "CNAME": "manu-is-a-dev-yqz2.onrender.com"
+    }
 }

@@ -1,0 +1,11 @@
+{
+    "description": "Jenish Profile.",
+    "repo": "https://github.com/shahjenish/shahjenish.github.io",
+    "owner": {
+        "username": "shahjenish",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "shahjenish.github.io"
+    }
+}
