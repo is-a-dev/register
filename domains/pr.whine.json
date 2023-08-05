@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "whinee",
+        "email": "",
+        "twitter": "whi_nyaan"
+    },
+    "description": "whi_ne's projects' subdomain",
+    "record": {
+        "CNAME": "whnya.github.io"
+    }
+}

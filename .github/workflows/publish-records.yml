@@ -11,7 +11,7 @@ jobs:
     if: github.repository == 'is-a-dev/register'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: borales/actions-yarn@v2.0.0
         with:
           cmd: install --ignore-engines
@@ -28,6 +28,7 @@ jobs:
           DOMAIN_API_HOST: ${{ secrets.DOMAIN_API_HOST }}
           DOMAIN_API_PORT: ${{ secrets.DOMAIN_API_PORT }}
           DOMAIN_DOMAIN: ${{ secrets.DOMAIN_DOMAIN }}
+          DOMAIN_HOST_IP: ${{ secrets.DOMAIN_HOST_IP }}
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: publish-records

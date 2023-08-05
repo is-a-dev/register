@@ -1,21 +1,12 @@
 {
     "description": "My Personal Landing Page!",
-    "repo": "https://github.com/icancodebeauty/aditya",
+    "repo": "https://github.com/adityaasyadav/aditya",
     "owner": {
-        "username": "icancodebeauty",
-        "email": "ishqaddy@gmail.com"
+        "username": "adityaasyadav",
+        "email": "ishqaddy@gmail.com",
+        "twitter": "adityaasyadav"
     },
     "record": {
-        "A": [
-            "185.199.108.153",
-            "185.199.109.153",
-            "185.199.110.153",
-            "185.199.111.153"
-        ],
-        "MX": [
-            "mx1.improvmx.com",
-            "mx2.improvmx.com"
-        ],
-        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+        "CNAME": "adityaasyadav.github.io"
     }
 }

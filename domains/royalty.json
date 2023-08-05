@@ -1,11 +1,11 @@
 {
-  "description": "A basic personal website about my projects and me.",
-  "repo": "https://github.com/hisRoyalty/hisroyalty.github.io",
-  "owner": {
-    "username": "hisRoyalty",
-    "email": "hisroyal.baguette@gmail.com"
-  },
-  "record": {
-    "CNAME": "hisRoyalty.github.io"
-  }
+    "description": "A basic personal website about my projects and me.",
+    "repo": "https://github.com/hisRoyalty/hisroyalty.github.io",
+    "owner": {
+        "username": "hisRoyalty",
+        "email": "hisroyal.baguette@gmail.com"
+    },
+    "record": {
+        "CNAME": "hisRoyalty.github.io"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "Arslan's World (links and socials)",
-  "repo": "https://github.com/sandwiching/sandwiching.github.io",
-  "owner": {
-    "username": "sandwiching",
-    "email": "77godlike@bk.ru"
-  },
-  "record": {
-    "CNAME": "sandwiching.github.io"
-  }
+    "description": "Arslan's World (links and socials)",
+    "repo": "https://github.com/sandwiching/sandwiching.github.io",
+    "owner": {
+        "username": "sandwiching",
+        "email": "77godlike@bk.ru"
+    },
+    "record": {
+        "CNAME": "sandwiching.github.io"
+    }
 }

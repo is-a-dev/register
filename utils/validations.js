@@ -5,7 +5,7 @@ const INVALID_NAMES = require('./invalid-domains.json');
 
 const isValidURL = and([R.is(String), testRegex(/^https?:\/\//ig)]);
 
-const isValidDomain = and([R.is(String), testRegex(/^(([a-z0-9\-]+)\.)+[a-z]+$/ig)]);
+const isValidDomain = and([R.is(String), testRegex(/^(([a-z0-9-]+)\.)+[a-z]+$/ig)]);
 
 const validateCnameRecord = type => and([
   R.propIs(String, type),
@@ -25,15 +25,29 @@ const validateMXRecord = type => and([
   R.propSatisfies(R.all(isValidDomain), type),
 ]);
 
+const checkRestrictedNames = R.complement(R.includes(R.__, INVALID_NAMES))
+
 const validateDomainData = validate({
   name: {
-    reason: 'The name of the file is invalid. It must be lowercased, alphanumeric and more than 2 characters long',
+    reason: 'The name of the file is invalid. It must be lowercased, alphanumeric and each component must be more than 2 characters long',
     fn: or([
       R.equals('@'),
       and([
-        R.compose(between(2, 100), R.length),
-        testRegex(/^[a-z0-9-]+$/g),
-        R.complement(R.includes(R.__, INVALID_NAMES)),
+        R.is(String),
+        R.compose(
+          R.all(or([
+            and([
+              testRegex(/^_github(-pages)?-challenge-[a-z0-9-_]+$/i), // Exception for github verification records
+              checkRestrictedNames,
+            ]),
+            and([
+              R.compose(between(2, 100), R.length),
+              testRegex(/^[a-z0-9-]+$/g),
+              checkRestrictedNames,
+            ])
+          ])),
+          R.split('.'),
+        ),
       ])
     ]),
   },
