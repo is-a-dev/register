@@ -1,11 +1,10 @@
 {
-  "owner": {
-    "username": "TalinTheDev",
-    "email": "",
-    "discord": "AlphaMirage#9779"
-  },
-  "description": "Personal portfolio and website",
-  "record": {
-    "CNAME": "jl6yvnz2.up.railway.app"
-  }
-}
+        "owner": {
+           "username": "TalinTheDev",
+           "email": "talinsharma.dev@gmail.com"
+        },
+        "record": {
+              "CNAME": "talinthedev.github.io"
+        }
+    }
+    

@@ -1,11 +1,11 @@
 {
     "description": "NotArya Website",
-    "repo": "https://github.com/NotAryaaa/NotArya",
+    "repo": "https://github.com/NotAryaaa/notaryaaa.github.io",
     "owner": {
         "username": "notaryaaa",
         "email": "abiix.messanger@gmail.com"
     },
     "record": {
-        "CNAME": "notarya.rf.gd"
+        "CNAME": "notarya.github.io"
     }
 }
