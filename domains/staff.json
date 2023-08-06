@@ -1,11 +1,9 @@
-
-              {
-                "owner": {
-                  "username": "mahirmolai27",
-                  "email": "mtgissmart@gmail.com"
-                },
-                "record": {
-                  "CNAME": "is-a-dev-maintainers.pages.dev"
-                }
-              }
-            
+{
+    "owner": {
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
+    },
+    "record": {
+        "CNAME": "is-a-dev-maintainers.pages.dev"
+    }
+}

@@ -1,11 +1,11 @@
 {
-  "description": "Gabriel A. López López",
-  "repo": "https://github.com/glpzzz/glpzzz.github.io",
-  "owner": {
-    "username": "glpzzz",
-    "email": "glpz@daxslab.com"
-  },
-  "record": {
-    "CNAME": "glpzzz.github.io"
-  }
+    "description": "Gabriel A. López López",
+    "repo": "https://github.com/glpzzz/glpzzz.github.io",
+    "owner": {
+        "username": "glpzzz",
+        "email": "glpz@daxslab.com"
+    },
+    "record": {
+        "CNAME": "glpzzz.github.io"
+    }
 }

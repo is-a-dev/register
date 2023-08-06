@@ -1,10 +1,9 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Xcyth",
         "email": "xcyth.dev@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "proxy.kastelapp.com"
-      }
     }
+}

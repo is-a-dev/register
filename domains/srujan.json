@@ -1,11 +1,11 @@
 {
-  "description": "Personal Website",
-  "repo": "https://github.com/bqwerr/",
-  "owner": {
-    "username": "bqwerr",
-    "email": "srujan.t@outlook.com"
-  },
-  "record": {
-    "CNAME": "bqwerr.github.io"
-  }
+    "description": "Personal Website",
+    "repo": "https://github.com/bqwerr",
+    "owner": {
+        "username": "bqwerr",
+        "email": "srujan.t@outlook.com"
+    },
+    "record": {
+        "CNAME": "bqwerr.github.io"
+    }
 }

@@ -1,12 +1,12 @@
 {
-  "description": "Portfolio website for HyperGithubForm",
-  "repo": "https://replit.com/@HyperHacker/HyperHacker",
-  "owner": {
-    "username": "HyperGithubForm",
-    "email": "",
-    "discord": "HyperHacker#3433"
-  },
-  "record": {
-    "CNAME": "988a5d1f-c278-44ca-9b99-34f9995ed9ba.id.repl.co"
-  }
+    "description": "Portfolio website for HyperGithubForm",
+    "repo": "https://replit.com/@HyperHacker/HyperHacker",
+    "owner": {
+        "username": "HyperGithubForm",
+        "email": "",
+        "discord": "HyperHacker#3433"
+    },
+    "record": {
+        "CNAME": "988a5d1f-c278-44ca-9b99-34f9995ed9ba.id.repl.co"
+    }
 }
