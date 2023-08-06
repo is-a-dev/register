@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Pedhot-Dev",
         "email": "wanzgamerz2@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "aguspedhot.000webhostapp.com"
-      }
     }
-    
+}

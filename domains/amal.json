@@ -1,11 +1,11 @@
 {
-  "description": "Amal's personal developer website",
-  "repo": "https://github.com/amalsebs/amalsebs.github.io",
-  "owner": {
-    "username": "amalsebs",
-    "email": "amalsebastian48@gmail.com"
-  },
-  "record": {
-    "CNAME": "amalsebs.github.io"
-  }
+    "description": "Amal's personal developer website",
+    "repo": "https://github.com/amalsebs/amalsebs.github.io",
+    "owner": {
+        "username": "amalsebs",
+        "email": "amalsebastian48@gmail.com"
+    },
+    "record": {
+        "CNAME": "amalsebs.github.io"
+    }
 }

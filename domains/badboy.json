@@ -1,10 +1,10 @@
 {
-  "description": "Bad Boy/Semant 's Website",
-  "owner": {
-    "username": "s3mant",
-    "email": "contact@semant.is-a.dev"
-  },
-  "record": {
-    "CNAME": "2755c31d-6389-4f53-8fd7-b83f99037ffd.id.repl.co"
-  }
+    "description": "Bad Boy/Semant 's Website",
+    "owner": {
+        "username": "s3mant",
+        "email": "contact@semant.is-a.dev"
+    },
+    "record": {
+        "CNAME": "2755c31d-6389-4f53-8fd7-b83f99037ffd.id.repl.co"
+    }
 }

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "whyleonardo",
         "email": "pleasefloyd73@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "URL": "https://nextjs-portfolio-chi-taupe.vercel.app"
-      }
     }
-    
+}

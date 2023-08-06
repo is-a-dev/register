@@ -1,12 +1,11 @@
 {
     "description": "Brandon Hoffman's website",
     "owner": {
-      "username": "branhoff",
-      "email": "",
-      "linkedin": "https://www.linkedin.com/in/branhoff"
-
+        "username": "branhoff",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/branhoff"
     },
     "record": {
-      "CNAME": "branhoff.github.io"
+        "CNAME": "branhoff.github.io"
     }
-  }
+}

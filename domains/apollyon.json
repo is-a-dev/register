@@ -1,11 +1,11 @@
 {
-  "description": "Develop website",
-  "owner": {
-    "username": "apollyon9",
-    "email": "blzzardst0rm@gmail.com",
-    "twitter": "sakurai072"
-  },
-  "record": {
-    "URL": "https://eris9.repl.co"
-  }
+    "description": "Develop website",
+    "owner": {
+        "username": "apollyon9",
+        "email": "blzzardst0rm@gmail.com",
+        "twitter": "sakurai072"
+    },
+    "record": {
+        "URL": "https://eris9.repl.co"
+    }
 }

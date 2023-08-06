@@ -1,10 +1,10 @@
 {
-  "description": "Hi, I'm LMG XENON. I develop Discord bots, user interfaces and web applications.",
-  "owner": {
-    "username": "LMGXENON",
-    "email": "lmgxenon@gmail.com"
-  },
-  "record": {
-    "CNAME": "80a427ae-2192-4b6e-8bbe-da559ccb481a.id.repl.co"
-  }
+    "description": "Hi, I'm LMG XENON. I develop Discord bots, user interfaces and web applications.",
+    "owner": {
+        "username": "LMGXENON",
+        "email": "lmgxenon@gmail.com"
+    },
+    "record": {
+        "CNAME": "2fd4a23b-6608-4be8-b2fc-911cc30b1b87.id.repl.co"
+    }
 }
