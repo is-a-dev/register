@@ -1,12 +1,10 @@
 {
-  "owner": {
-    "username": "Adri11334",
-    "email": "adrien.vermersch@epitech.eu",
-    "discord": "Дdяi1#7501"
-  },
-  "record": {
-    "A": [
-      "116.203.127.206"
-    ]
-  }
+    "owner": {
+        "username": "Adri11334",
+        "email": "adrien.vermersch@epitech.eu",
+        "discord": "Дdяi1#7501"
+    },
+    "record": {
+        "A": ["116.203.127.206"]
+    }
 }

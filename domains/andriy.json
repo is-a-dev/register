@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "andriyandriyan",
         "email": "andriy.andriyan1@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "andriy.pages.dev"
-      }
     }
-    
+}

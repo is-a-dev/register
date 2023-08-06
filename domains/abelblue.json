@@ -2,11 +2,10 @@
     "description": "Abel Mitiku's website",
     "repo": "https://github.com/abel-blue/abelblue.dev",
     "owner": {
-      "username": "abel-blue",
-      "email": "abelmgetnet@gmail.com"
+        "username": "abel-blue",
+        "email": "abelmgetnet@gmail.com"
     },
     "record": {
-      "CNAME": "abel-blue.github.io"
+        "CNAME": "abel-blue.github.io"
     }
-  }
-  
+}
