@@ -1,0 +1,11 @@
+{
+    "description": "Flexicos website",
+    "repo": "https://github.com/7xh/7xh.github.io",
+    "owner": {
+        "username": "7xh",
+        "email": "noterme@protonmail.com"
+    },
+    "record": {
+        "CNAME": "7xh.github.io"
+    }
+}

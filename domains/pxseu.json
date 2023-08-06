@@ -1,11 +1,11 @@
 {
-  "description": "Pxseu's website!",
-  "owner": {
-    "username": "pxseu",
-    "email": "",
-    "twitter": "@pxseu"
-  },
-  "record": {
-    "URL": "https://www.pxseu.com"
-  }
+    "description": "Pxseu's website!",
+    "owner": {
+        "username": "pxseu",
+        "email": "",
+        "twitter": "pxseu"
+    },
+    "record": {
+        "URL": "https://www.pxseu.com"
+    }
 }

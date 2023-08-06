@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "LinkerScript",
-    "email": "min@effobe.com"
-  },
-  "record": {
-    "CNAME": "6498c941-9031-4e57-9fc0-12716fa187f4.repl.co"
-  }
+    "description": "( A redirect link ) Url's Overview",
+    "repo": "https://github.com/leecheeyong/leecheeyong",
+    "owner": {
+        "username": "leecheeyong",
+        "email": "tribejoe.gg@gmail.com"
+    },
+    "record": {
+        "URL": "https://links.is-a.dev"
+    }
 }

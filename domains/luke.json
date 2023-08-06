@@ -1,0 +1,11 @@
+{
+    "description": "New LukeDev's Official Website",
+    "repo": "https://github.com/LukeIsHereToDevelop/New-Website",
+    "owner": {
+        "username": "LukeIsHereToDevelop",
+        "email": "LucaC@dynox.us"
+    },
+    "record": {
+        "CNAME": "lukeisheretodevelop.github.io"
+    }
+}

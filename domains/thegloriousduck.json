@@ -1,0 +1,11 @@
+{
+    "description": "TheGloriousDuck's personal developer website",
+    "repo": "https://github.com/TheGloriousDuck/thegloriousduck.github.io",
+    "owner": {
+        "username": "TheGloriousDuck",
+        "email": "thegloriousduck@protonmail.com"
+    },
+    "record": {
+        "CNAME": "thegloriousduck.github.io"
+    }
+}
