@@ -1,11 +1,11 @@
 {
-  "description": "DrMonocle Website",
-  "repo": "https://github.com/monocledr/monocledr.github.io",
-  "owner": {
-    "username": "monocledr",
-    "email": "contact.drmonocle@gmail.com"
-  },
-  "record": {
-    "CNAME": "monocledr.github.io"
-  }
+    "description": "DrMonocle Website",
+    "repo": "https://github.com/monocledr/monocledr.github.io",
+    "owner": {
+        "username": "monocledr",
+        "email": "contact.drmonocle@gmail.com"
+    },
+    "record": {
+        "CNAME": "monocledr.github.io"
+    }
 }

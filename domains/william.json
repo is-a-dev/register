@@ -1,12 +1,10 @@
 {
-  "owner": {
-    "username": "WilliamDavidHarrison",
-    "email": "",
-    "twitter": "WDHarrison09",
-    "discord": "William#0001"
-  },
+    "owner": {
+        "username": "WilliamDavidHarrison",
+        "email": "william@williamharrison.dev"
+    },
 
-  "record": {
-    "URL": "http://is-a-dev.redirect.williamharrison.xyz"
-  }
+    "record": {
+        "URL": "https://williamharrison.dev"
+    }
 }

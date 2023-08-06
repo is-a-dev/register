@@ -1,0 +1,13 @@
+{
+    "description": "use is-a.dev domain",
+    "repo": "https://github.com/not-coded/not-coded.github.io",
+    "owner": {
+        "username": "not-coded",
+        "email": "",
+        "discord": "Code#9844",
+        "discordUserID": "620662953347121163"
+    },
+    "record": {
+        "CNAME": "not-coded.github.io"
+    }
+}
