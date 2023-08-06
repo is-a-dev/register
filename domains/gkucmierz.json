@@ -1,10 +1,10 @@
 {
-  "description": "gkucmierz's personal blog",
-  "owner": {
-    "username": "gkucmierz",
-    "email": "gkucmierz@gmail.com"
-  },
-  "record": {
-    "URL": "https://dev.to/gkucmierz"
-  }
+    "description": "gkucmierz's personal blog",
+    "owner": {
+        "username": "gkucmierz",
+        "email": "gkucmierz@gmail.com"
+    },
+    "record": {
+        "URL": "https://dev.to/gkucmierz"
+    }
 }

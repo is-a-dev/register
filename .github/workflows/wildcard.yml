@@ -1,0 +1,65 @@
+name: Wildcard temp record
+
+on:
+    workflow_dispatch:
+        inputs:
+            recordcontent:
+                description: "Record Content"
+                required: true
+                default: "warning"
+
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
+
+            - name: Generate JSON file
+              run: |
+                  echo '{
+                    "owner": {
+                      "username": "is-a-dev",
+                      "email": "hello@maintainers.is-a.dev"
+                    },
+                    "record": {
+                      "TXT": "${{ github.event.inputs.recordcontent }}"
+                    }
+                  }' > ./domains/_acme-challenge.json
+
+            - name: test
+              run: cat domains/_acme-challenge.json
+
+            - name: Install Yarn dependencies
+              run: yarn install --ignore-engines
+
+            - name: Publishing records
+              env:
+                  CI: 1
+                  ENV: production
+                  DOMAIN_USER: ${{ secrets.DOMAIN_USER }}
+                  DOMAIN_API_KEY: ${{ secrets.DOMAIN_API_KEY }}
+                  DOMAIN_API_HOST: ${{ secrets.DOMAIN_API_HOST }}
+                  DOMAIN_API_PORT: ${{ secrets.DOMAIN_API_PORT }}
+                  DOMAIN_DOMAIN: ${{ secrets.DOMAIN_DOMAIN }}
+                  DOMAIN_HOST_IP: ${{ secrets.DOMAIN_HOST_IP }}
+              run: yarn publish-records
+            - name: Sleep
+              run: sleep 10m
+              shell: bash
+
+            - name: Remove
+              run: rm domains/_acme-challenge.json
+              shell: bash
+
+            - name: removing records
+              env:
+                  CI: 1
+                  ENV: production
+                  DOMAIN_USER: ${{ secrets.DOMAIN_USER }}
+                  DOMAIN_API_KEY: ${{ secrets.DOMAIN_API_KEY }}
+                  DOMAIN_API_HOST: ${{ secrets.DOMAIN_API_HOST }}
+                  DOMAIN_API_PORT: ${{ secrets.DOMAIN_API_PORT }}
+                  DOMAIN_DOMAIN: ${{ secrets.DOMAIN_DOMAIN }}
+                  DOMAIN_HOST_IP: ${{ secrets.DOMAIN_HOST_IP }}
+              run: yarn publish-records

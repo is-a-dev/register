@@ -1,12 +1,12 @@
 {
-  "owner": {
-    "username": "rahulkarda",
-    "email": "rahulkarda2002@gmail.com",
-    "discord": "rk02#1553",
-    "note": "I'm open to connect with developers for collaborations."
-  },
-  "description": "Landing page of RakaCreativeContent Organization",
-  "record": {
-    "CNAME": "rakacreativecontent.github.io"
-  }
+    "owner": {
+        "username": "rahulkarda",
+        "email": "rahulkarda2002@gmail.com",
+        "discord": "rk02#1553",
+        "note": "I'm open to connect with developers for collaborations."
+    },
+    "description": "Landing page of RakaCreativeContent Organization",
+    "record": {
+        "CNAME": "rakacreativecontent.github.io"
+    }
 }

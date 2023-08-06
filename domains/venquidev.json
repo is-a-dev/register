@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "venquidev",
         "email": "edwinrey5211@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "venquidev.pages.dev"
-      }
     }
-  
+}

@@ -1,11 +1,11 @@
 {
-  "description": "My personal website",
-  "repo": "https://github.com/yolobnb/yolobnb.github.io",
-  "owner": {
-    "username": "yolobnb",
-    "email": "yooloobnb@protonmail.com"
-  },
-  "record": {
-    "CNAME": "yolobnb.github.io"
-  }
+    "description": "My personal website",
+    "repo": "https://github.com/yolobnb/yolobnb.github.io",
+    "owner": {
+        "username": "yolobnb",
+        "email": "yooloobnb@protonmail.com"
+    },
+    "record": {
+        "CNAME": "yolobnb.github.io"
+    }
 }
