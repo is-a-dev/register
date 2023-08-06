@@ -1,11 +1,11 @@
 {
-  "description": "Subdomain for DinoTheDev",
-  "repo": "https://github.com/DinoTheDevOfficial",
-  "owner": {
-    "username": "DinoTheDevOfficial",
-    "email": "dinothedevofficial@gmail.com"
-  },
-  "record": {
-    "CNAME": "dinothedev.repl.co"
-  }
+    "description": "Subdomain for DinoTheDev",
+    "repo": "https://github.com/DinoTheDevOfficial",
+    "owner": {
+        "username": "DinoTheDevOfficial",
+        "email": "dinothedevofficial@gmail.com"
+    },
+    "record": {
+        "CNAME": "dinothedev.repl.co"
+    }
 }

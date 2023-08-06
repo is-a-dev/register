@@ -1,0 +1,12 @@
+{
+    "description": "Personal portfolio written in HTML and JS",
+    "repo": "https://github.com/abhint/abhint.github.io",
+    "owner": {
+        "username": "abhint",
+        "email": "notifyabhijith@gmail.com",
+        "twitter": "abhint6"
+    },
+    "record": {
+        "CNAME": "abhint.github.io"
+    }
+}
