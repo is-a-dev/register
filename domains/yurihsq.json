@@ -1,11 +1,9 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Mai1ii",
         "email": "micomacabali14@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "mai1ii.github.io"
-      }
     }
-  
+}

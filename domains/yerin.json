@@ -1,10 +1,10 @@
 {
-  "repo": "https://github.com/wonderlandpark/yerin-is-a-dev",
-  "owner": {
-    "username": "wonderlandpark",
-    "email": "wonderlandpark@callisto.team"
-  },
-  "record": {
-    "CNAME": "wonderlandpark.github.io"
-  }
+    "repo": "https://github.com/wonderlandpark/yerin-is-a-dev",
+    "owner": {
+        "username": "wonderlandpark",
+        "email": "wonderlandpark@callisto.team"
+    },
+    "record": {
+        "CNAME": "wonderlandpark.github.io"
+    }
 }

@@ -1,13 +1,13 @@
 {
-  "description": "Personal website and portfolio.",
-  "repo": "https://replit.com/@frissyn/frissyn",
-  "owner": {
-    "username": "frissyn",
-    "email": "",
-    "twitter": "frissyn_",
-    "discord": "frissyn#0376"
-  },
-  "record": {
-    "CNAME": "d464aec0-5048-4724-9ac8-b797ee2bf2a7.id.repl.co"
-  }
+    "description": "Personal website and portfolio.",
+    "repo": "https://replit.com/@frissyn/frissyn",
+    "owner": {
+        "username": "frissyn",
+        "email": "",
+        "twitter": "frissyn_",
+        "discord": "frissyn#0376"
+    },
+    "record": {
+        "CNAME": "d464aec0-5048-4724-9ac8-b797ee2bf2a7.id.repl.co"
+    }
 }
