@@ -1,14 +1,10 @@
 {
-    "owner":
-    {
+    "owner": {
         "username": "caodoc",
         "email": "",
         "discord": "caodoc"
     },
-    "description": "Ducca's Hideout. Place of a student who interested in front-end and competitive programming.",
-    "repo": "https://github.com/caodoc/caodoc.github.io",
-    "record":
-    {
+    "record": {
         "TXT": "c3aa36c2b7f2e2bf94a92b760760ca"
     }
 }
