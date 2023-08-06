@@ -4,6 +4,6 @@
         "email": "andrew@win11react.com"
     },
     "record": {
-        "CNAME": "hosts.is-a.dev"
+            "TXT": "v=spf1 include:hosts.is-a.dev ~all"
     }
 }
