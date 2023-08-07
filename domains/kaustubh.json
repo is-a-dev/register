@@ -1,9 +1,12 @@
 {
+    "description": "For my portfolio website made by using HTML + CSS and JS",
+    "repo": "https://github.com/kaustubhkharvi/kaustubhkharvi.github.io",
     "owner": {
         "username": "kaustubhkharvi",
-        "email": "kaustubh_2008@outlook.com"
+        "email": "kaustubh_2008@outlook.com",
+        "twitter": "Kaustubhkharvi"
     },
     "record": {
-            "TXT": "1ac125c3f84f3381a22491edf36bb0"
+        "CNAME": "kaustubhkharvi.github.io"
     }
-}
+} 
