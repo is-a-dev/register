@@ -1,11 +1,10 @@
 {
-  "description": "Gilad's personal developer website",
-  "owner": {
-    "username": "gilade",
-    "email": "gilad@eventov.com"
-  },
-  "record": {
-    "CNAME": "gilad.ninja",
-    "URL": "https://gilad.is-a.dev"
-  }
+    "description": "Gilad's personal developer website",
+    "owner": {
+        "username": "gilade",
+        "email": "gilad@eventov.com"
+    },
+    "record": {
+        "CNAME": "gilad.ninja"
+    }
 }

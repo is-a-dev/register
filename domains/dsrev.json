@@ -1,0 +1,12 @@
+{
+    "description": "dsrev's blog",
+    "repo": "https://github.com/dsrev/dsrev.github.io",
+    "owner": {
+        "username": "dsrev",
+        "email": "dsrev@snopyta.org",
+        "twitter": "IlyaSProkopenko"
+    },
+    "record": {
+        "CNAME": "dsrev.github.io"
+    }
+}

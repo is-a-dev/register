@@ -1,0 +1,11 @@
+{
+    "description": "Demonium's is-a.dev domain",
+    "repo": "https://github.com/thedemonium/demonium.github.io",
+    "owner": {
+        "username": "thedemonium",
+        "email": "tbapbing@gmail.com"
+    },
+    "record": {
+        "CNAME": "komposerv.ru"
+    }
+}

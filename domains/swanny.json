@@ -1,12 +1,11 @@
 {
-  "description": "Swanny is a Dev",
-  "repo": "https://github.com/swanny246/swannyIsADev/",
-  "owner": {
-    "username": "swanny246",
-    "email": "github@andrewswan.net"
-  },
-  "record": {
-    "CNAME": "swannyisadev.andrewswan.net",
-    "URL": "https://swanny.is-a.dev"
-  }
+    "description": "Swanny is a Dev",
+    "repo": "https://github.com/swanny246/swannyIsADev",
+    "owner": {
+        "username": "swanny246",
+        "email": "github@andrewswan.net"
+    },
+    "record": {
+        "CNAME": "swannyisadev.andrewswan.net"
+    }
 }

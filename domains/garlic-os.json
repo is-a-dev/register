@@ -1,12 +1,11 @@
 {
-  "description": "garlicOS®'s is-a.dev domain",
-  "repo": "https://github.com/the-garlic-os/the-garlic-os.github.io",
-  "owner": {
-    "username": "the-garlic-os",
-    "email": "sisdfk@gmail.com"
-  },
-  "record": {
-    "CNAME": "the-garlic-os.github.io",
-    "URL": "https://garlic-os.is-a.dev"
-  }
+    "description": "garlicOS®'s is-a.dev domain",
+    "repo": "https://github.com/garlic-os/garlic-os.github.io",
+    "owner": {
+        "username": "garlic-os",
+        "email": "sisdfk@gmail.com"
+    },
+    "record": {
+        "A": ["78.47.88.228"]
+    }
 }

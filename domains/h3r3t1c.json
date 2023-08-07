@@ -1,12 +1,11 @@
 {
-  "description": "My personal page",
-  "repo": "https://github.com/lfdominguez/lfdominguez.github.io",
-  "owner": {
-    "username": "lfdominguez",
-    "email": "ldominguezvega@gmail.com"
-  },
-  "record": {
-    "CNAME": "lfdominguez.github.io",
-    "URL": "https://h3r3t1c.is-a.dev"
-  }
+    "description": "My personal page",
+    "repo": "https://github.com/lfdominguez/lfdominguez.github.io",
+    "owner": {
+        "username": "lfdominguez",
+        "email": "ldominguezvega@gmail.com"
+    },
+    "record": {
+        "CNAME": "lfdominguez.github.io"
+    }
 }

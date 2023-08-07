@@ -1,11 +1,12 @@
 {
-    "repo": "https://github.com/reed-jones",
+    "repo": "https://github.com/reed-jones/reedjones.com",
+    "description": "Reeds personal developer site",
     "owner": {
         "username": "reed-jones",
-        "email": "reedjones@reedjones.com"
+        "email": "reedjones@reedjones.com",
+        "twitter": "rj0nz"
     },
     "record": {
-        "CNAME": "reedjones.com",
-        "URL": "https://reed.is-a.dev"
+        "URL": "https://www.reedjones.com"
     }
 }

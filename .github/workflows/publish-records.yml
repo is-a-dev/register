@@ -1,26 +1,34 @@
 name: Publish records
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
     name: 'Publish records'
 
 jobs:
   publish:
+    if: github.repository == 'is-a-dev/register'
     runs-on: ubuntu-latest
-    env:
-      CI: 1
-      ENV: production
-      DOMAIN_USER: ${{ secrets.DOMAIN_USER }}
-      DOMAIN_API_KEY: ${{ secrets.DOMAIN_API_KEY }}
-      DOMAIN_API_HOST: ${{ secrets.DOMAIN_API_HOST }}
-      DOMAIN_API_PORT: ${{ secrets.DOMAIN_API_PORT }}
-      DOMAIN_DOMAIN: ${{ secrets.DOMAIN_DOMAIN }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: install
+          cmd: install --ignore-engines
+      - name: Running tests
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: test
       - name: Publishing records
+        env:
+          CI: 1
+          ENV: production
+          DOMAIN_USER: ${{ secrets.DOMAIN_USER }}
+          DOMAIN_API_KEY: ${{ secrets.DOMAIN_API_KEY }}
+          DOMAIN_API_HOST: ${{ secrets.DOMAIN_API_HOST }}
+          DOMAIN_API_PORT: ${{ secrets.DOMAIN_API_PORT }}
+          DOMAIN_DOMAIN: ${{ secrets.DOMAIN_DOMAIN }}
+          DOMAIN_HOST_IP: ${{ secrets.DOMAIN_HOST_IP }}
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: publish-records

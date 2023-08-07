@@ -1,0 +1,11 @@
+{
+    "description": "Echo's personal website",
+    "repo": "https://github.com/echo2477/echo2477.github.io",
+    "owner": {
+        "username": "echo2477",
+        "email": "pku.eko16@gmail.com"
+    },
+    "record": {
+        "CNAME": "echo2477.github.io"
+    }
+}

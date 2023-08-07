@@ -2,12 +2,10 @@
     "description": "Vivek's portfolio website",
     "repo": "https://github.com/VivekKumarNeu/VivekKumarNeu.github.io",
     "owner": {
-      "username": "vivekkumarneu",
-      "email": "vivek-kumar@live.in"
+        "username": "vivekkumarneu",
+        "email": "vivek-kumar@live.in"
     },
     "record": {
-      "CNAME": "VivekKumarNeu.github.io",
-      "URL": "https://vivekkumar.is-a.dev"
+        "CNAME": "VivekKumarNeu.github.io"
     }
-  }
-  
+}

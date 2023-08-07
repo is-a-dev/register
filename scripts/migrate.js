@@ -1,13 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 const R = require('ramda');
-const { DOMAINS_PATH } = require('./utils/constants');
+const { DOMAINS_PATH } = require('../utils/constants');
 
 const migrate = ([file, domain]) => [
   file,
   {
     ...domain,
-    record: /\.github\.io$/.test(domain.record.CNAME || '')
+    record: file !== '@.json' && /\.is-a\.dev$/.test(domain.record.URL || '')
       ? R.dissoc('URL', domain.record)
       : domain.record,
   }

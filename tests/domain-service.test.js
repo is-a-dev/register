@@ -1,17 +1,21 @@
 const R = require('ramda');
 const { getDomainService, diffRecords } = require('../utils/domain-service');
-const {DOMAIN_DOMAIN} = require('../utils/constants');
+const { DOMAIN_DOMAIN } = require('../utils/constants');
 
-const getCpanel = ({ zone, addZone, editZone, redir, addRedir, editRedir } = {}) => ({
+const getCpanel = ({ zone, addZone, removeZone, redir, addRedir, removeRedir, addEmail, removeEmail } = {}) => ({
   zone: {
     fetch: (_) => zone(),
     add: (rec) => addZone(rec),
-    edit: (rec) => editZone(rec),
+    remove: (rec) => removeZone(rec),
   },
   redirection: {
     fetch: (_) => redir(),
     add: (rec) => addRedir(rec),
-    edit: (rec) => editRedir(rec),
+    remove: (rec) => removeRedir(rec),
+  },
+  email: {
+    add: (rec) => addEmail(rec),
+    remove: (rec) => removeEmail(rec),
   },
 });
 
@@ -29,7 +33,7 @@ describe('diffRecords', () => {
 
     const result = diffRecords(oldRecords, newRecords);
     expect(result).toEqual({
-      edit: [],
+      remove: [],
       add: [
         { name: 'boo', type: 'CNAME', address: 'x.com' },
       ],
@@ -48,10 +52,12 @@ describe('diffRecords', () => {
 
     const result = diffRecords(oldRecords, newRecords);
     expect(result).toEqual({
-      edit: [
+      remove: [
+        { name: 'xa', type: 'A', address: '111.1.1212.1' },
+      ],
+      add: [
         { name: 'xa', type: 'A', address: '69.69.69.69' },
       ],
-      add: [],
     });
   });
 
@@ -68,9 +74,40 @@ describe('diffRecords', () => {
 
     const result = diffRecords(oldRecords, newRecords);
     expect(result).toEqual({
-      edit: [],
+      remove: [],
       add: [
         { name: 'xa', type: 'A', address: '69.69.4.20' },
+      ],
+    });
+  });
+
+  it('should diff complex changes', () => {
+    const oldRecords = [
+      { name: 'a', type: 'CNAME', address: 'fck.com.' },
+      { name: 'b', type: 'A', address: '69.69.69.69' },
+      { name: '111', type: 'CNAME', address: 'x' },
+      { name: 'd', type: 'A', address: '69.69.4.20' },
+    ];
+    const newRecords = [
+      { name: '111', type: 'CNAME', address: 'x' },
+      { name: 'd', type: 'CNAME', address: 'duck.com' },
+      { name: 'a', type: 'CNAME', address: 'og.com' },
+      { name: 'b', type: 'A', address: '69.69.69.69' },
+      { name: 'b', type: 'A', address: '69.69.4.20' },
+      { name: 'c', type: 'CNAME', address: 'ccc.cc' },
+    ];
+
+    const result = diffRecords(oldRecords, newRecords);
+    expect(result).toEqual({
+      remove: [
+        { name: 'a', type: 'CNAME', address: 'fck.com.' },
+        { name: 'd', type: 'A', address: '69.69.4.20' },
+      ],
+      add: [
+        { name: 'd', type: 'CNAME', address: 'duck.com' },
+        { name: 'a', type: 'CNAME', address: 'og.com' },
+        { name: 'b', type: 'A', address: '69.69.4.20' },
+        { name: 'c', type: 'CNAME', address: 'ccc.cc' },
       ],
     });
   });
@@ -78,26 +115,36 @@ describe('diffRecords', () => {
 
 describe('Domain service', () => {
   const addZone = jest.fn(async () => ({}));
-  const editZone = jest.fn(async () => ({}));
+  const removeZone = jest.fn(async () => ({}));
   const addRedir = jest.fn(async () => ({}));
-  const editRedir = jest.fn(async () => ({}));
+  const removeRedir = jest.fn(async () => ({}));
+  const addEmail = jest.fn(async () => ({}));
+  const removeEmail = jest.fn(async () => ({}));
 
-  const mockDS = ({ zones, redirections }) => getDomainService({ cpanel: getCpanel({
-    zone: async () => zones,
-    redir: async () => redirections,
-    addZone,
-    addRedir,
-    editZone,
-    editRedir,
-  }) });
+  const mockDS = ({ zones, redirections }) => getDomainService({
+    cpanel: getCpanel({
+      zone: async () => zones,
+      redir: async () => redirections,
+      addZone,
+      addEmail,
+      addRedir,
+      removeZone,
+      removeRedir,
+      removeEmail,
+    })
+  });
 
-  const getRecordCalls = recfn => recfn.mock.calls.map(R.head).map(R.pick(['name', 'type', 'address', 'redirect', 'domain']));
+  const getRecordCalls = recfn => recfn.mock.calls
+    .map(R.head)
+    .map(R.pick(['name', 'type', 'address', 'redirect', 'domain', 'line', 'priority', 'exchanger']));
 
   beforeEach(() => {
     addZone.mockClear();
-    editZone.mockClear();
+    removeZone.mockClear();
     addRedir.mockClear();
-    editRedir.mockClear();
+    removeRedir.mockClear();
+    addEmail.mockClear();
+    removeEmail.mockClear();
   });
 
   describe('getHosts', () => {
@@ -120,8 +167,8 @@ describe('Domain service', () => {
 
     it('should resolve with a redirections', async () => {
       const zones = [
-        { name: 'xx', type: 'CNAME', address: 'fck.com.' },
-        { name: 'xx', type: 'A', address: '111.1.1212.1' },
+        { line: '111', name: 'xx', type: 'CNAME', address: 'fck.com.' },
+        { line: '112', name: 'xx', type: 'A', address: '111.1.1212.1' },
       ];
       const redirections = [
         { domain: 'foo.booboo.xyz', destination: 'https://google.com' },
@@ -133,10 +180,10 @@ describe('Domain service', () => {
       const list = await mockDomainService.getHosts();
 
       expect(list).toEqual([
-        { name: 'xx', type: 'CNAME', address: 'fck.com' },
-        { name: 'xx', type: 'A', address: '111.1.1212.1' },
-        { name: 'foo', type: 'URL', address: 'https://google.com' },
-        { name: 'foo1', type: 'URL', address: 'https://duck.com' },
+        { id: '111', name: 'xx', type: 'CNAME', address: 'fck.com' },
+        { id: '112', name: 'xx', type: 'A', address: '111.1.1212.1' },
+        { id: `foo.${DOMAIN_DOMAIN}`, name: 'foo', type: 'URL', address: 'https://google.com' },
+        { id: `foo1.${DOMAIN_DOMAIN}`, name: 'foo1', type: 'URL', address: 'https://duck.com' },
       ]);
     });
   });
@@ -144,8 +191,8 @@ describe('Domain service', () => {
   describe('updateHosts', () => {
     it('should append new hosts with existing ones and set it', async () => {
       const zones = [
-        { someid: 1, name: 'a', type: 'CNAME', address: 'boo' },
-        { someid: 2, name: 'b', type: 'CNAME', address: 'goo' },
+        { line: 1, name: 'a', type: 'CNAME', address: 'boo' },
+        { line: 2, name: 'b', type: 'CNAME', address: 'goo' },
       ];
       const redirections = [];
 
@@ -154,19 +201,27 @@ describe('Domain service', () => {
         { name: 'a', type: 'CNAME', address: 'boo' },
         { name: 'b', type: 'CNAME', address: 'goo' },
         { name: 'c', type: 'A', address: '12.131321.213' },
+        { name: 'c', type: 'MX', address: 'foobar.com', priority: 2 },
       ]);
 
       expect(addZone).toBeCalledTimes(1);
       expect(getRecordCalls(addZone)).toEqual([
         { name: 'c', type: 'A', address: '12.131321.213' },
       ]);
-      expect(editZone).toBeCalledTimes(0);
+
+      expect(addEmail).toBeCalledTimes(1);
+      expect(getRecordCalls(addEmail)).toEqual([
+        { domain: 'c.is-a.dev', exchanger: 'foobar.com', priority: 2 },
+      ]);
+
+      expect(removeZone).toBeCalledTimes(0);
+      expect(removeEmail).toBeCalledTimes(0);
     });
 
     it('should update matching host and set it', async () => {
       const zones = [
-        { someid: 1, name: 'a', type: 'CNAME', address: 'boo' },
-        { someid: 2, name: 'b', type: 'CNAME', address: 'goo' },
+        { line: 1, name: 'a', type: 'CNAME', address: 'boo' },
+        { line: 2, name: 'b', type: 'CNAME', address: 'goo' },
       ];
       const redirections = [];
 
@@ -176,18 +231,21 @@ describe('Domain service', () => {
         { name: 'b', type: 'CNAME', address: 'googoogaga' },
       ]);
 
-      expect(addZone).toBeCalledTimes(0);
-      expect(editZone).toBeCalledTimes(1);
-      expect(getRecordCalls(editZone)).toEqual([
+      expect(addZone).toBeCalledTimes(1);
+      expect(getRecordCalls(addZone)).toEqual([
         { name: 'b', type: 'CNAME', address: 'googoogaga' },
+      ]);
+      expect(removeZone).toBeCalledTimes(1);
+      expect(getRecordCalls(removeZone)).toEqual([
+        { line: 2 },
       ]);
     });
 
     it('should update matching host and set it', async () => {
       const zones = [
-        { someid: 1, name: 'a', type: 'CNAME', address: 'boo' },
-        { someid: 2, name: 'b', type: 'CNAME', address: 'goo' },
-        { someid: 2, name: 'b', type: 'CNAME', address: 'xaa' },
+        { line: 1, name: 'a', type: 'CNAME', address: 'boo' },
+        { line: 2, name: 'b', type: 'CNAME', address: 'goo' },
+        { line: 3, name: 'b', type: 'CNAME', address: 'xaa' },
       ];
       const redirections = [];
 
@@ -198,20 +256,27 @@ describe('Domain service', () => {
         { name: 'b', type: 'CNAME', address: 'farboo' },
       ]);
 
-      expect(addZone).toBeCalledTimes(0);
-      expect(editZone).toBeCalledTimes(2);
-      expect(getRecordCalls(editZone)).toEqual([
+      expect(addZone).toBeCalledTimes(2);
+      expect(getRecordCalls(addZone)).toEqual([
         { name: 'b', type: 'CNAME', address: 'googoogaga' },
         { name: 'b', type: 'CNAME', address: 'farboo' },
+      ]);
+      expect(removeZone).toBeCalledTimes(2);
+      expect(getRecordCalls(removeZone)).toEqual([
+        { line: 2 },
+        { line: 3 },
       ]);
     });
 
     it('should workout this complex example', async () => {
       const zones = [
-        { someid: 1, name: 'a', type: 'CNAME', address: 'world' },
-        { someid: 2, name: 'b', type: 'A', address: '1' },
-        { someid: 2, name: 'b', type: 'A', address: '2' },
-        { someid: 2, name: 'c', type: 'CNAME', address: 'hello.com' },
+        { line: 1, name: 'a', type: 'CNAME', address: 'world' },
+        { line: 2, name: 'b', type: 'A', address: '1' },
+        { line: 3, name: 'b', type: 'A', address: '2' },
+        { line: 4, name: 'c', type: 'CNAME', address: 'hello.com' },
+        { line: 5, name: 'c', type: 'MX', address: 'mx1.hello.com', priority: 20 },
+        { line: 6, name: 'c', type: 'MX', address: 'mx2.hello.com', priority: 21 },
+        { line: 7, name: 'b', type: 'MX', address: 'foo.bar', priority: 20 },
       ];
       const redirections = [
         { domain: `b.${DOMAIN_DOMAIN}`, destination: 'https://foobar.com' },
@@ -231,25 +296,41 @@ describe('Domain service', () => {
         { name: 'd', type: 'CNAME', address: 'helo.com' },
         { name: 'd', type: 'URL', address: 'https://hhh.com' },
         { name: 'x', type: 'URL', address: 'https://example69.com' },
+        { name: 'c', type: 'MX', address: 'mx2.hello.com', priority: 21 },
+        { name: 'a', type: 'MX', address: 'example.com', priority: 20 },
       ]);
 
-      expect(addZone).toBeCalledTimes(2);
-      expect(editZone).toBeCalledTimes(1);
-      expect(addRedir).toBeCalledTimes(1);
-      expect(editRedir).toBeCalledTimes(2);
+      expect(addZone).toBeCalledTimes(3);
       expect(getRecordCalls(addZone)).toEqual([
-        { name: 'b', type: 'A', address: '3' },
-        { name: 'd', type: 'CNAME', address: 'helo.com' }
-      ]);
-      expect(getRecordCalls(editZone)).toEqual([
         { name: 'a', type: 'CNAME', address: 'boo' },
+        { name: 'b', type: 'A', address: '3' },
+        { name: 'd', type: 'CNAME', address: 'helo.com' },
       ]);
+      expect(removeZone).toBeCalledTimes(1);
+      expect(getRecordCalls(removeZone)).toEqual([
+        { line: 1 },
+      ]);
+
+      expect(addEmail).toBeCalledTimes(1);
+      expect(getRecordCalls(addEmail)).toEqual([
+        { domain: 'a.is-a.dev', exchanger: 'example.com', priority: 20 },
+      ]);
+      expect(removeEmail).toBeCalledTimes(2);
+      expect(getRecordCalls(removeEmail)).toEqual([
+        { domain: 'c.is-a.dev', exchanger: 'mx1.hello.com', priority: 20 },
+        { domain: 'b.is-a.dev', exchanger: 'foo.bar', priority: 20 },
+      ]);
+
+      expect(addRedir).toBeCalledTimes(3);
       expect(getRecordCalls(addRedir)).toEqual([
-        { domain: `d.${DOMAIN_DOMAIN}`, type: 'permanent', redirect: 'https://hhh.com' },
-      ]);
-      expect(getRecordCalls(editRedir)).toEqual([
         { domain: `b.${DOMAIN_DOMAIN}`, type: 'permanent', redirect: 'https://wowow.com' },
+        { domain: `d.${DOMAIN_DOMAIN}`, type: 'permanent', redirect: 'https://hhh.com' },
         { domain: `x.${DOMAIN_DOMAIN}`, type: 'permanent', redirect: 'https://example69.com' },
+      ]);
+      expect(removeRedir).toBeCalledTimes(2);
+      expect(getRecordCalls(removeRedir)).toEqual([
+        { domain: `b.${DOMAIN_DOMAIN}` },
+        { domain: `x.${DOMAIN_DOMAIN}` },
       ]);
     });
   });

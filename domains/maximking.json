@@ -1,0 +1,10 @@
+{
+    "description": "Maxim K Personal Dev Site",
+    "owner": {
+        "username": "MaximKing",
+        "email": "business@maximking.co.uk"
+    },
+    "record": {
+        "CNAME": "maximking.co.uk"
+    }
+}

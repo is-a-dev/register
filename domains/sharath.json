@@ -1,12 +1,11 @@
 {
-  "description": "Social media website project.",
-  "repo": "https://github.com/thesct22",
-  "owner": {
-    "username": "thesct22",
-    "email": "sharathct22@gmail.com"
-  },
-  "record": {
-    "CNAME": "thesct22.github.io",
-    "URL": "http://sharath.is-a.dev"
-  }
+    "description": "Social media website project.",
+    "repo": "https://github.com/thesct22",
+    "owner": {
+        "username": "thesct22",
+        "email": "sharathct22@gmail.com"
+    },
+    "record": {
+        "CNAME": "thesct22.github.io"
+    }
 }

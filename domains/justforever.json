@@ -1,0 +1,11 @@
+{
+    "description": "DevJustForever's personal developer website",
+    "repo": "https://github.com/DevJustForever/devjustforever.github.io",
+    "owner": {
+        "username": "DevJustForever",
+        "email": "mertcelik0541@gmail.com"
+    },
+    "record": {
+        "CNAME": "devjustforever.github.io"
+    }
+}

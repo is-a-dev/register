@@ -1,12 +1,11 @@
 {
-  "description": "Brandons's personal developer website",
-  "repo": "https://github.com/b-hexsoul",
-  "owner": {
-    "username": "b-hexsoul",
-    "email": "brandon.hexsel@gmail.com"
-  },
-  "record": {
-    "CNAME": "b-hexsoul.github.io",
-    "URL": "https://brandon.is-a.dev"
-  }
+    "description": "Brandon Hexsel - Full Stack Engineer",
+    "repo": "https://github.com/b-hexsoul/b-hexsoul.github.io",
+    "owner": {
+        "username": "b-hexsoul",
+        "email": "brandon.hexsel@gmail.com"
+    },
+    "record": {
+        "CNAME": "b-hexsoul.github.io"
+    }
 }

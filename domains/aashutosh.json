@@ -1,11 +1,10 @@
 {
-  "description": "Aashutosh Rathi's Space on Web",
-  "owner": {
-    "username": "aashutoshrathi",
-    "email": "me@aashutosh.dev"
-  },
-  "record": {
-    "CNAME": "aashutosh.dev",
-    "URL": "https://aashutosh.is-a.dev"
-  }
+    "description": "Aashutosh Rathi's Space on Web",
+    "owner": {
+        "username": "aashutoshrathi",
+        "email": "me@aashutosh.dev"
+    },
+    "record": {
+        "CNAME": "aashutosh.dev"
+    }
 }

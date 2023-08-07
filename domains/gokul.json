@@ -1,12 +1,11 @@
 {
-  "description": "Personal Page",
-  "repo": "https://github.com/gkdskp/gkdskp.github.io",
-  "owner": {
-    "username": "gkdskp",
-    "email": "gokuldskp@gmail.com"
-  },
-  "record": {
-    "CNAME": "gkdskp.github.io",
-    "URL": "https://gokul.is-a.dev"
-  }
+    "description": "Personal Page",
+    "repo": "https://github.com/gkdskp/gkdskp.github.io",
+    "owner": {
+        "username": "gkdskp",
+        "email": "gokuldskp@gmail.com"
+    },
+    "record": {
+        "CNAME": "gkdskp.github.io"
+    }
 }

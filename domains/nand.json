@@ -1,11 +1,10 @@
 {
-  "description" : "Nand's web",
-  "owner" : {
-    "username" : "nandkk05",
-    "email" : "nandkk07@gmail.com"
-  },
-  "record" : {
-    "CNAME" : "nandkk05.github.io",
-    "URL" : "https://nand.is-a.dev"
-  }
+    "description": "Nand's web",
+    "owner": {
+        "username": "nandkk05",
+        "email": "nandkk07@gmail.com"
+    },
+    "record": {
+        "CNAME": "nandkk05.github.io"
+    }
 }

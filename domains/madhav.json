@@ -1,11 +1,10 @@
 {
-  "repo": "https://github.com/LaBus3/LaBus3.github.io",
-  "owner": {
-    "username": "LaBus3",
-    "email": "madhav.v.1996@gmail.com"
-  },
-  "record": {
-    "CNAME": "LaBus3.github.io",
-    "URL": "https://madhav.is-a.dev"
-  }
+    "repo": "https://github.com/LaBus3/LaBus3.github.io",
+    "owner": {
+        "username": "LaBus3",
+        "email": "madhav.v.1996@gmail.com"
+    },
+    "record": {
+        "CNAME": "LaBus3.github.io"
+    }
 }

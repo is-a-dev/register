@@ -1,0 +1,11 @@
+{
+    "description": "My portfolio website!",
+    "repo": "https://github.com/BobBrown1/BobBrown1.github.io",
+    "owner": {
+        "username": "BobBrown1",
+        "email": "bob.brown.the.dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "bob-brown.info"
+    }
+}

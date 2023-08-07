@@ -1,13 +1,10 @@
 {
     "description": "Bae's personal website",
-    
     "owner": {
         "username": "ba-e",
         "email": "bae.nyom@gmail.com"
     },
-    
     "record": {
-        "CNAME": "bae.codes",
-        "URL": "https://bae.is-a.dev"
+        "URL": "https://bae.codes"
     }
 }

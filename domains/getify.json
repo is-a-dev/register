@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "getify",
-    "email": "domains@dontsend.me"
-  },
-  "record": {
-    "A": ["50.116.28.162"]
-  }
+    "owner": {
+        "username": "getify",
+        "email": "domains@dontsend.me"
+    },
+    "record": {
+        "URL": "https://me.getify.com"
+    }
 }

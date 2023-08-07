@@ -1,10 +1,10 @@
 {
-  "description": "Piyush's Website",
-  "owner": {
-    "username": "officialpiyush",
-    "email": "bhangalepiyush@gmail.com"
-  },
-  "record": {
-    "URL": "https://piyush.codes"
-  }
+    "description": "Piyush's Website",
+    "owner": {
+        "username": "officialpiyush",
+        "email": "bhangalepiyush@gmail.com"
+    },
+    "record": {
+        "URL": "https://officialpiyush.github.io"
+    }
 }

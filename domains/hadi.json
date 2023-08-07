@@ -1,0 +1,11 @@
+{
+    "description": "Nystrex's Personal Website",
+    "repo": "https://github.com/Nystrex",
+    "owner": {
+        "username": "Nystrex",
+        "email": "hadi@nystrex.com"
+    },
+    "record": {
+        "CNAME": "nystrex.com"
+    }
+}

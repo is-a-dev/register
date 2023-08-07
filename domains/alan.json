@@ -6,7 +6,6 @@
         "email": "alan@schirrel.dev"
     },
     "record": {
-        "CNAME": "schirrel.dev",
-        "URL": "https://alan.is-a.dev"
+        "URL": "https://schirrel.dev"
     }
 }
