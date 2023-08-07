@@ -1,0 +1,11 @@
+{
+    "description": "Glitch's .IS-A.DEV domain",
+    "repo": "https://github.com/glitchish.github.io",
+    "owner": {
+        "username": "glitchish",
+        "email": "gavinjstacey@gmail.com"
+    },
+    "record": {
+        "CNAME": "glitchish.github.io"
+    }
+}

@@ -1,11 +1,11 @@
 {
-  "description": "( A redirect link ) Url's Overview",
-  "repo": "https://github.com/leecheeyong/leecheeyong",
-  "owner": {
-    "username": "leecheeyong",
-    "email": "tribejoe.gg@gmail.com"
-  },
-   "record": {
-    "URL": "https://links.is-a.dev"
-  }
+    "description": "( A redirect link ) Url's Overview",
+    "repo": "https://github.com/leecheeyong/leecheeyong",
+    "owner": {
+        "username": "leecheeyong",
+        "email": "tribejoe.gg@gmail.com"
+    },
+    "record": {
+        "URL": "https://links.is-a.dev"
+    }
 }

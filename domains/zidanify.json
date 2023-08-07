@@ -1,13 +1,12 @@
 {
-  "description": "zidanify's website",
-  "repo": "https://github.com/zidanify/zidanify.github.io",
-  "owner": {
-    "username": "zidanify",
-    "email": "mohzidanhirawan356@gmail.com",
-    "twitter": "Zidanify"
-  },
-  "record": {
-    "CNAME": "zidanify.github.io"
-  }
+    "description": "zidanify's website",
+    "repo": "https://github.com/zidanify/zidanify.github.io",
+    "owner": {
+        "username": "zidanify",
+        "email": "mohzidanhirawan356@gmail.com",
+        "twitter": "Zidanify"
+    },
+    "record": {
+        "CNAME": "zidanify.github.io"
+    }
 }
-

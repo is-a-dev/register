@@ -1,0 +1,12 @@
+{
+    "description": "My Personal Landing Page!",
+    "repo": "https://github.com/adityaasyadav/aditya",
+    "owner": {
+        "username": "adityaasyadav",
+        "email": "ishqaddy@gmail.com",
+        "twitter": "adityaasyadav"
+    },
+    "record": {
+        "CNAME": "adityaasyadav.github.io"
+    }
+}

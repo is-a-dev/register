@@ -1,0 +1,12 @@
+{
+    "description": "floppy's website",
+    "repo": "https://github.com/FloppyCodes/FloppyCodes.github.io",
+    "owner": {
+        "username": "FloppyCodes",
+        "email": "floppydisk2020@outlook.com",
+        "twitter": "FloppyWasTaken"
+    },
+    "record": {
+        "CNAME": "floppycodes.github.io"
+    }
+}

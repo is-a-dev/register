@@ -1,0 +1,12 @@
+{
+    "description": "Configuring a .is-a.dev domain for my friend, laufey.",
+    "repo": "https://github.com/idlidev/laufey-web",
+    "owner": {
+        "username": "idlidev",
+        "email": "idliyout@gmail.com",
+        "twitter": ""
+    },
+    "record": {
+        "CNAME": "idlidev.github.io"
+    }
+}
