@@ -1,0 +1,11 @@
+{
+    "description": "My new website",
+    "repo": "https://github.com/soni-ashish/soni-ashish.github.io",
+    "owner": {
+        "username": "soni-ashish",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "soni-ashish.github.io"
+    }
+}

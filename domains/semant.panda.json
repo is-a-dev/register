@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "s3mant",
-    "email": "contact@semant.is-a.dev"
-  },
-  "description": "Something juicy",
-  "record": {
-    "CNAME": "semant.cyclic.app"
-  }
+    "owner": {
+        "username": "s3mant",
+        "email": "contact@semant.is-a.dev"
+    },
+    "description": "Something juicy",
+    "record": {
+        "CNAME": "semant.cyclic.app"
+    }
 }

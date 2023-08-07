@@ -1,11 +1,11 @@
 {
-  "description": "Portfolio website for me",
-  "repo": "https://github.com/SirMacr0/SirMacr0.github.io",
-  "owner": {
-    "username": "SirMacr0",
-    "email": "tunagunduz03@gmail.com"
-  },
-  "record": {
-    "CNAME": "SirMacr0.github.io"
-  }
+    "description": "Portfolio website for me",
+    "repo": "https://github.com/SirMacr0/SirMacr0.github.io",
+    "owner": {
+        "username": "SirMacr0",
+        "email": "tunagunduz03@gmail.com"
+    },
+    "record": {
+        "CNAME": "SirMacr0.github.io"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "SkyDonald's personal developer website",
-  "repo": "https://github.com/SkyDonald/skydonald.github.io",
-  "owner": {
-    "username": "SkyDonald",
-    "email": "skydonald.dev@gmail.com"
-  },
-  "record": {
-    "CNAME": "skydonald.github.io"
-  }
+    "description": "SkyDonald's personal developer website",
+    "repo": "https://github.com/SkyDonald/skydonald.github.io",
+    "owner": {
+        "username": "SkyDonald",
+        "email": "skydonald.dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "skydonald.github.io"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "FSanchir",
-  "repo": "https://github.com/fsanchir/fsanchir.github.io",
-  "owner": {
-    "username": "fsanchir",
-    "email": "fsanchir@fsip.ml"
-  },
-  "record": {
-    "CNAME": "fsanchir.github.io"
-  }
+    "description": "FSanchir",
+    "repo": "https://github.com/fsanchir/fsanchir.github.io",
+    "owner": {
+        "username": "fsanchir",
+        "email": "fsanchir@fsip.ml"
+    },
+    "record": {
+        "CNAME": "fsanchir.github.io"
+    }
 }

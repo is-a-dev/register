@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "sonphantrung",
         "email": "phantrungson17@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "sonphantrung.github.io"
-      }
     }
-  
+}
