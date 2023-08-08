@@ -1,11 +1,11 @@
 {
-  "description": "A personal portfolio site for my project.",
-  "repo": "https://github.com/AsarySoftware/AxstTweaker",
-  "owner": {
-    "username": "sdxqw",
-    "email": "xntrowdev@gmail.com"
-  },
-  "record": {
-    "CNAME": "sdxqw.github.io"
-  }
+    "description": "A personal portfolio site for my project.",
+    "repo": "https://github.com/AsarySoftware/AxstTweaker",
+    "owner": {
+        "username": "sdxqw",
+        "email": "xntrowdev@gmail.com"
+    },
+    "record": {
+        "CNAME": "sdxqw.github.io"
+    }
 }

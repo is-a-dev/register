@@ -1,0 +1,11 @@
+{
+    "description": "My personal website",
+    "repo": "https://github.com/NgVGB/NgVGB.github.io",
+    "owner": {
+        "username": "NgVGB",
+        "email": "dangnguyen101191@gmail.com"
+    },
+    "record": {
+        "CNAME": "NgVGB.github.io"
+    }
+}

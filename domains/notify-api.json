@@ -1,11 +1,10 @@
+{
+    "owner": {
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
+    },
 
-              {
-                "owner": {
-                  "username": "andrewstech",
-                  "email": "andrew@win11react.com"
-                },
-                "record": {
-                  "A": ["140.238.66.199"]
-                }
-              }
-            
+   "record": {
+       "CNAME": "dns.beadman-network.com"
+   }
+}
