@@ -1,9 +1,11 @@
 {
+    "description": "Portfolio",
+    "repo": "https://github.com/archelaus/archelaus.github.io",
     "owner": {
         "username": "archelaus",
         "email": "aa.18cs02@thdcihet.ac.in"
     },
     "record": {
-            "TXT": "58a91a812285d77c1c035298480109"
+        "CNAME": "archelaus.github.io"
     }
 }
