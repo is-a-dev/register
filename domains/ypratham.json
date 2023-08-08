@@ -1,11 +1,11 @@
 {
-  "description": "Pratham Yadav Portfolio",
-  "repo": "https://github.com/ypratham/portfolio.github.io",
-  "owner": {
-    "username": "ypratahm",
-    "email": "ypratham0014@gmail.com"
-  },
-  "record": {
-    "CNAME": "ypratham.github.io"
-  }
+    "description": "Pratham Yadav Portfolio",
+    "repo": "https://github.com/ypratham/portfolio.github.io",
+    "owner": {
+        "username": "ypratahm",
+        "email": "ypratham0014@gmail.com"
+    },
+    "record": {
+        "CNAME": "ypratham.github.io"
+    }
 }

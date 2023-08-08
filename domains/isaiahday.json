@@ -1,12 +1,12 @@
 {
     "description": "Isaiah08-D's personal website.",
-    "repo": "https://github.com/<github-username>/<github-username>.github.io",
+    "repo": "https://github.com/Isaiah08-D/isaiah08-d.github.io",
     "owner": {
         "username": "Isaiah08-D",
         "email": "isaiahgrisha@gmail.com",
-        "discord": "isaiah08#6008" 
+        "discord": "isaiah08#6008"
     },
     "record": {
         "CNAME": "isaiah08-d.github.io"
     }
-} 
+}

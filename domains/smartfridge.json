@@ -1,11 +1,11 @@
 {
-  "description": "smartfridge personal website",
-  "repo": "https://github.com/smartfridge-alt/smartfridge-alt.github.io",
-  "owner": {
-    "username": "smartfrigde",
-    "email": "smartfrigde@gmail.com"
-  },
-  "record": {
-    "CNAME": "smartfridge-alt.github.io"
-  }
+    "description": "smartfridge personal website",
+    "repo": "https://github.com/smartfridge-alt/smartfridge-alt.github.io",
+    "owner": {
+        "username": "smartfrigde",
+        "email": "smartfrigde@gmail.com"
+    },
+    "record": {
+        "CNAME": "smartfridge-alt.github.io"
+    }
 }
