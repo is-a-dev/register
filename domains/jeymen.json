@@ -5,6 +5,6 @@
         "discord": "Jeymen#5269"
     },
     "record": {
-        "CNAME": "jeymen.github.io"
+        "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"] 
     }
 }
