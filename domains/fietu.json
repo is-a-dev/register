@@ -1,0 +1,11 @@
+{
+    "description": "Fietu Website",
+    "repo": "https://github.com/elfietulais",
+    "owner": {
+        "username": "ElFietulais",
+        "email": "pancongusanos@gmail.com"
+    },
+    "record": {
+        "CNAME": "host.servers.andremor.dev"
+    }
+}

@@ -1,11 +1,11 @@
 {
-  "description": "Cyanic's website (link to cyanic.tk)",
-  "repo": "https://github.com/Cyanic76/Cyanic76",
-  "owner": {
-    "username": "Cyanic76",
-    "email": "git@cyanic.tk"
-  },
-  "record": {
-    "URL": "https://cyanic.tk"
-  }
+    "description": "Cyanic's website (link to cyanic.me)",
+    "repo": "https://codeberg.org/Cyanic76/pages",
+    "owner": {
+        "username": "Cyanic76",
+        "email": "git@cyanic.me"
+    },
+    "record": {
+        "URL": "https://cyanic.me"
+    }
 }
