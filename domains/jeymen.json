@@ -1,10 +1,9 @@
 {
     "owner": {
         "username": "Jeymen",
-        "email": "",
-        "discord": "Jeymen#5269"
+        "email": "jeymen11@proton.me"
     },
     "record": {
-        "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"] 
+            "CNAME": "jeymen.github.io"
     }
 }
