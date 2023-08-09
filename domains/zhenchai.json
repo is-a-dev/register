@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "zhenchai00",
         "email": "zhenchai0000@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "zhenchai00.github.io"
-      }
     }
-      
+}

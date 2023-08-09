@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "bkit9x",
         "email": "bkit9x@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "bkit9x.github.io"
-      }
     }
-  
+}

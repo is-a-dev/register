@@ -1,15 +1,10 @@
 {
-    "description": "Ce cauti ma aici?",
     "owner": {
         "username": "DeXoHigh",
-        "email": "dexocash@gmail.com"
+        "email": "dexo1337@pm.me"
     },
     "record": {
-        "A": ["185.141.25.116"],
-        "MX": [
-            "mx1.improvmx.com",
-            "mx2.improvmx.com"
-        ],
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
         "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 }
