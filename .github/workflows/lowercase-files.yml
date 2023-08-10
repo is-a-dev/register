@@ -1,0 +1,33 @@
+name: Convert filenames to Lowercase
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+    paths:
+      - "domains/**"
+
+jobs:
+  convert_filenames:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Convert Filenames to Lowercase
+        run: |
+          find domains -type f | while read FILE; do
+            NEW_FILE=$(echo "$FILE" | tr '[:upper:]' '[:lower:]')
+            if [ "$FILE" != "$NEW_FILE" ]; then
+              git mv "$FILE" "$NEW_FILE"
+            fi
+          done
+        shell: bash
+
+      - name: Commit Changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git commit -am "Convert filenames to lowercase" || true
+          git push origin HEAD
