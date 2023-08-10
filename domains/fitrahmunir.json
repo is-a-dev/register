@@ -1,11 +1,11 @@
 {
-  "description": "FitrahFM's .is-a.dev domain",
-  "repo": "https://github.com/fitrahfm",
-  "owner": {
-    "username": "fitrahfm",
-    "email": "fitrhmnr+is-a-dev@gmail.com"
-  },
-  "record": {
-    "CNAME": "fitrahmunir.pages.dev"
-  }
+    "description": "FitrahFM's .is-a.dev domain",
+    "repo": "https://github.com/fitrahfm",
+    "owner": {
+        "username": "fitrahfm",
+        "email": "fitrhmnr+is-a-dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "fitrahmunir.pages.dev"
+    }
 }

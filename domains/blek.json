@@ -2,9 +2,9 @@
     "description": "blek is a dev",
     "owner": {
         "username": "b1ek",
-	"email": "me@blek.codes"
+        "email": "me@blek.codes"
     },
     "record": {
-        "A": [ "185.130.226.115" ]
+        "A": ["185.130.226.115"]
     }
 }
