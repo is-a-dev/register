@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ItzNesbroDev",
-    "email": "asnesbeer3@gmail.com"
-  },
-  "record": {
-    "CNAME": "hashnode.network"
-  }
+    "owner": {
+        "username": "ItzNesbroDev",
+        "email": "asnesbeer3@gmail.com"
+    },
+    "record": {
+        "CNAME": "hashnode.network"
+    }
 }
