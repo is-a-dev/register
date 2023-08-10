@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "AMAZINGMAN2",
-           "email": "Hashim.almuqbel@gmail.com"
-        },
-        "record": {
-            "A": ["185.176.43.100"]
-        }
+    "owner": {
+        "username": "AMAZINGMAN2",
+        "email": "Hashim.almuqbel@gmail.com"
+    },
+    "record": {
+        "A": ["185.176.43.100"]
     }
-    
+}
