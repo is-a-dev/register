@@ -1,11 +1,11 @@
 {
-  "description": "Portfolio of projects for DillonB07",
-  "repo": "https://replit.com/@DillonB07/Portfolio", 
-  "owner": {
-    "username": "dbarnes18",
-    "email": "dillonbarnes07@gmail.com"
-  },
-  "record": {
-    "CNAME": "54e62c47-7410-486b-aa0c-87691baac336.repl.co"
-  }
+    "description": "Portfolio of projects for DillonB07",
+    "repo": "https://replit.com/@DillonB07/Portfolio",
+    "owner": {
+        "username": "DillonB07",
+        "email": "dillonb07dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "c935404b-ab88-41be-9736-1c910b14a5ba.id.repl.co"
+    }
 }

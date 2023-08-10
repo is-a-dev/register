@@ -1,12 +1,11 @@
-
 {
-  "description": "Educational Website",
-  "repo": "https://github.com/dumkalpoly/dumkalpoly.github.io",
-  "owner": {
-    "username": "dumkalpoly",
-    "email": "dumkalpoly@yahoo.com"
-  },
-  "record": {
-    "CNAME": "dumkalpoly.github.io"
-  }
+    "description": "Educational Website",
+    "repo": "https://github.com/dumkalpoly/dumkalpoly.github.io",
+    "owner": {
+        "username": "dumkalpoly",
+        "email": "dumkalpoly@yahoo.com"
+    },
+    "record": {
+        "CNAME": "dumkalpoly.github.io"
+    }
 }

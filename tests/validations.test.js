@@ -55,6 +55,11 @@ describe('validateDomainData', () => {
     { ...defaultDomain, record: { CNAME: 'foobar.com', MX: ['ALT4.ASPMX.L.GOOGLE.COM'] } },
     ...INVALID_NAMES.map(name => ({ ...defaultDomain, name })).slice(0, 1),
     { ...defaultDomain, record: { TXT: ['foobar wow nice!!!'] } },
+    { ...defaultDomain, name: 'a.b' },
+    { ...defaultDomain, name: 'ww2.baa' },
+    { ...defaultDomain, name: 'help.baa' },
+    { ...defaultDomain, name: '_github-pages-challenge-is-a-dev' },
+    { ...defaultDomain, name: '_github-challenge-is-a-dev' },
   ];
 
   const validCases = [
@@ -73,6 +78,14 @@ describe('validateDomainData', () => {
     { ...defaultDomain, record: { MX: ['ALT4.ASPMX.L.GOOGLE.COM'] } },
     { ...defaultDomain, record: { TXT: 'foobar wow nice!!!' } },
     { ...defaultDomain, record: { A: ['1.1.1.1'], MX: ['mx1.example.com'] } },
+    { ...defaultDomain, name: 'gogo.foo.bar' },
+    { ...defaultDomain, name: 'ww9.baa' },
+    { ...defaultDomain, name: '_github-pages-challenge-phenax.akshay' },
+    { ...defaultDomain, name: '_github-pages-challenge-hello01-ga' },
+    { ...defaultDomain, name: '_github-pages-challenge-hello01_ga' },
+    { ...defaultDomain, name: '_github-challenge-phenax.akshay' },
+    { ...defaultDomain, name: '_github-challenge-hello01-ga' },
+    { ...defaultDomain, name: '_github-challenge-hello01_ga' },
   ];
 
   it('should return false for invalid data', () => {

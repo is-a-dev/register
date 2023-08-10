@@ -1,12 +1,11 @@
 {
-  "description": "Personal website",
-  "repo": "",
-  "owner": {
-    "username": "lthon09",
-    "email": "",
-    "twitter": "lthon09"
-  },
-  "record": {
-    "CNAME": "a2e619e5-4084-4893-b593-76c3198a277f.repl.co"
-  }
+    "description": "Personal Website.",
+    "owner": {
+        "username": "lthon09",
+        "email": "",
+        "twitter": "lthon09"
+    },
+    "record": {
+        "CNAME": "lthon09.onrender.com"
+    }
 }

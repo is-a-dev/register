@@ -1,11 +1,11 @@
 {
-  "description": "Oofquest's Website!",
-  "repo": "https://github.com/oofquest",
-  "owner": {
-    "username": "oofquest",
-    "email": "oofquest@cub0rd.xyz"
-  },
-  "record": {
-   "CNAME": "9655e52b-5dc4-45ba-8e74-8d942aa9ea33.repl.co"
-  }
+    "description": "Oofquest's Website!",
+    "repo": "https://github.com/oofquest",
+    "owner": {
+        "username": "oofquest",
+        "email": "oofquest@cub0rd.xyz"
+    },
+    "record": {
+        "CNAME": "9655e52b-5dc4-45ba-8e74-8d942aa9ea33.repl.co"
+    }
 }

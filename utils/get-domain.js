@@ -5,12 +5,12 @@ const {DOMAINS_PATH} = require('./constants');
 
 const toDomain = str => path.join(DOMAINS_PATH, str);
 
-const parseDomain = str => {
+const parseDomain = name => str => {
   try {return JSON.parse(str);}
-  catch (e) {throw new Error("Error: Cant parse " + str);}
+  catch (e) {throw new Error(`Error: Cant parse ${name} => ${str}`);}
 };
 
-const toDomainData = R.compose(parseDomain, R.toString, fs.readFileSync, toDomain);
+const toDomainData = name => R.compose(parseDomain(name), R.toString, fs.readFileSync, toDomain)(name);
 
 const getDomains = () =>
   fs.promises.readdir(DOMAINS_PATH, {})

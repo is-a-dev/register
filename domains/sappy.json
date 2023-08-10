@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Slddev",
-    "email": "admin@sapinc.ga"
-  },
-  "record": {
-    "CNAME": "web.virtualnodes.ml"
-  }
+    "owner": {
+        "username": "Slddev",
+        "email": "admin@sapinc.ga"
+    },
+    "record": {
+        "CNAME": "slddev.github.io"
+    }
 }

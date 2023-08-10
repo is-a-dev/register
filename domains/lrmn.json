@@ -1,0 +1,11 @@
+{
+    "description": "lrmn.is-a.dev",
+    "repo": "https://github.com/lrmn7/lrmn7.github.io",
+    "owner": {
+        "username": "lrmn7",
+        "email": "lrmnid@gmail.com"
+    },
+    "record": {
+        "CNAME": "lrmn7.github.io"
+    }
+}

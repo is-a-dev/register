@@ -1,0 +1,11 @@
+{
+    "description": "Ssmidge",
+    "repo": "https://github.com/Ssmidge/register",
+    "owner": {
+        "username": "Ssmidge",
+        "email": "Ssmidgemc@gmail.com"
+    },
+    "record": {
+        "CNAME": "ssmidge.xyz"
+    }
+}
