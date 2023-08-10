@@ -1,0 +1,11 @@
+{
+    "description": "a discord bot website",
+    "repo": "https://github.com/botstudios",
+    "owner": {
+        "username": "BotStudios",
+        "email": "tojoeleeofficial@gmail.com"
+    },
+    "record": {
+        "CNAME": "botstudios.github.io"
+    }
+}

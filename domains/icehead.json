@@ -1,0 +1,11 @@
+{
+    "description": "Domain for my Github Page.",
+    "repo": "https://github.com/Ice-Head/ice-head.github.io",
+    "owner": {
+        "username": "Ice-Head",
+        "email": "heads.ice@protonmail.com"
+    },
+    "record": {
+        "CNAME": "ice-head.github.io"
+    }
+}

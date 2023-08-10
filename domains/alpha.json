@@ -1,0 +1,10 @@
+{
+    "description": "My Website",
+    "owner": {
+        "username": "kvotrcsgo",
+        "email": "sweepalf@gmail.com"
+    },
+    "record": {
+        "CNAME": "youfoundalpha.pages.dev"
+    }
+}

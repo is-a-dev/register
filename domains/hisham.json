@@ -1,11 +1,11 @@
 {
-  "description": "Hisham is a dev",
-  "repo": "https://github.com/hishamalip/hishamalip.github.io",
-  "owner": {
-    "username": "hishamalip",
-    "email": "hishamalip@gmail.com"
-  },
-  "record": {
-    "CNAME": "hishamalip.github.io"
-  }
+    "description": "Hisham is a dev",
+    "repo": "https://github.com/hishamalip/hishamalip.github.io",
+    "owner": {
+        "username": "hishamalip",
+        "email": "hishamalip@gmail.com"
+    },
+    "record": {
+        "CNAME": "hishamalip.github.io"
+    }
 }

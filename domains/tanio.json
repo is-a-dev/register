@@ -1,0 +1,10 @@
+{
+    "description": "Hello World",
+    "owner": {
+        "username": "tanmyid",
+        "email": "tanmyid1337@gmail.com"
+    },
+    "record": {
+        "CNAME": "hashnode.network"
+    }
+}

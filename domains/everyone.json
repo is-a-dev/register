@@ -1,0 +1,12 @@
+{
+    "description": "Image / Video host.",
+    "repo": "https://github.com/tootie112",
+    "owner": {
+        "username": "tootie112",
+        "email": "",
+        "discord": "Io.Netty#3118"
+    },
+    "record": {
+        "CNAME": "api.has-cool.pics"
+    }
+}

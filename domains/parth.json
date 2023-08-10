@@ -2,10 +2,10 @@
     "description": "An awesome new place for my Portfolio !",
     "repo": "https://github.com/parthpanchal123/profile",
     "owner": {
-      "username": "parthpanchal123",
-      "email": "parthpanchal53@gmail.com"
+        "username": "parthpanchal123",
+        "email": "parthpanchal53@gmail.com"
     },
     "record": {
-      "CNAME": "parthpanchal123.github.io"
+        "CNAME": "parthpanchal123.github.io"
     }
 }

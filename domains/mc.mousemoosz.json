@@ -1,0 +1,10 @@
+{
+    "description": "For my Minecraft server",
+    "owner": {
+        "username": "MouseMoosz",
+        "email": "mousemoosz@protonmail.com"
+    },
+    "record": {
+        "CNAME": "ge.terohost.com"
+    }
+}
