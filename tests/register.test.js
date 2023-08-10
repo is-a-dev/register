@@ -14,6 +14,10 @@ const getCpanel = ({ zone, addZone, removeZone, redir, addRedir, removeRedir } =
     add: (rec) => addRedir(rec),
     remove: (rec) => removeRedir(rec),
   },
+  email: {
+    add: (rec) => addEmail(rec),
+    remove: (rec) => removeEmail(rec),
+  },
 });
 
 describe('toHostList', () => {
@@ -22,6 +26,7 @@ describe('toHostList', () => {
       { name: 'akshay', record: { CNAME: 'phenax.github.io' } },
       { name: 'foobar', record: { CNAME: 'v.io' } },
       { name: 'xx', record: { A: ['1.2.3.4', '5.6.3.2', '1.2.31.1'] } },
+      { name: 'xx', record: { CNAME: 'foobar.com', MX: ['as.com', 'f.com'] } },
     ]);
 
     expect(res).toEqual([
@@ -30,6 +35,9 @@ describe('toHostList', () => {
       { name: 'xx', type: 'A', address: '1.2.3.4', ttl: TTL },
       { name: 'xx', type: 'A', address: '5.6.3.2', ttl: TTL },
       { name: 'xx', type: 'A', address: '1.2.31.1', ttl: TTL },
+      { name: 'xx', type: 'CNAME', address: 'foobar.com', ttl: TTL },
+      { name: 'xx', type: 'MX', address: 'as.com', priority: 20, ttl: TTL },
+      { name: 'xx', type: 'MX', address: 'f.com', priority: 21, ttl: TTL },
     ]);
   });
 });
@@ -39,21 +47,29 @@ describe('registerDomains', () => {
   const removeZone = jest.fn(async () => ({}));
   const addRedir = jest.fn(async () => ({}));
   const removeRedir = jest.fn(async () => ({}));
+  const addEmail = jest.fn(async () => ({}));
+  const removeEmail = jest.fn(async () => ({}));
 
-  const mockDS = ({ zones, redirections }) => getDomainService({ cpanel: getCpanel({
-    zone: async () => zones,
-    redir: async () => redirections,
-    addZone,
-    addRedir,
-    removeZone,
-    removeRedir,
-  }) });
+  const mockDS = ({ zones, redirections }) => getDomainService({
+    cpanel: getCpanel({
+      zone: async () => zones,
+      redir: async () => redirections,
+      addZone,
+      addEmail,
+      addRedir,
+      removeZone,
+      removeRedir,
+      removeEmail,
+    })
+  });
 
   beforeEach(() => {
     addZone.mockClear();
     removeZone.mockClear();
     addRedir.mockClear();
     removeRedir.mockClear();
+    addEmail.mockClear();
+    removeEmail.mockClear();
   });
 
   it('should register the new set of hosts generated from domains list', async () => {

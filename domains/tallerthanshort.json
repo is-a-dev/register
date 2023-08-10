@@ -1,0 +1,11 @@
+{
+    "description": "TallerThanShort made site",
+    "repo": "https://github.com/TallerThanShort",
+    "owner": {
+        "username": "TallerThanShort",
+        "email": "TallerThanShort@duck.com"
+    },
+    "record": {
+        "CNAME": "TallerThanShort.github.io"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "description": "T.A.Vignesh's cool website",
+    "owner": {
+        "username": "tavignesh",
+        "email": "vigneshta004@gmail.com"
+    },
+    "record": {
+        "CNAME": "vignesh-is-a-dev.pages.dev"
+    }
+}

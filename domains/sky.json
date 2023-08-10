@@ -1,0 +1,11 @@
+{
+    "description": "Sky's personal website",
+    "repo": "https://github.com/SkyLeite",
+    "owner": {
+        "username": "skyleite",
+        "email": "sky@leite.dev"
+    },
+    "record": {
+        "CNAME": "leite.dev"
+    }
+}

@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "DylanK46",
-    "email": "kainth.dylan@gmail.com"
-  },
-  "record": {
-    "A": [
-      "90.217.214.245"
-    ]
-  }
+    "owner": {
+        "username": "DylanK46",
+        "email": "kainth.dylan@gmail.com"
+    },
+    "record": {
+        "A": ["90.217.214.245"]
+    }
 }

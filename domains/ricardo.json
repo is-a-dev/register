@@ -1,11 +1,11 @@
 {
-  "description": "My personal website",
-  "repo": "https://github.com/RoboticObsession/Website",
-  "owner": {
-    "username": "RoboticObsession",
-    "email": "ricardo@roboticobsession.xyz"
-  },
-  "record": {
-    "URL": "https://roboticobsession.xyz"
-  }
+    "description": "My personal website",
+    "repo": "https://github.com/RicardoGonzf/RicardoGonzf",
+    "owner": {
+        "username": "RicardoGonzf",
+        "email": "ricardo@ricardogonz.es"
+    },
+    "record": {
+        "URL": "https://ricardogonz.es"
+    }
 }

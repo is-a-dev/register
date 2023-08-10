@@ -1,0 +1,10 @@
+{
+    "description": "Ralph Wang's blog",
+    "owner": {
+        "username": "ralph",
+        "email": "asnowwolf@gmail.com"
+    },
+    "record": {
+        "CNAME": "blog.ralph.wang"
+    }
+}

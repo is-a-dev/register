@@ -1,10 +1,10 @@
 {
-  "description": "Shuvam Manna and his Internetoverse",
-  "owner": {
-    "username": "GeekBoySupreme",
-    "email": "shuvam.manna@gmail.com"
-  },
-  "record": {
-    "CNAME": "shuvam.xyz"
-  }
+    "description": "Shuvam Manna and his Internetoverse",
+    "owner": {
+        "username": "GeekBoySupreme",
+        "email": "shuvam.manna@gmail.com"
+    },
+    "record": {
+        "CNAME": "shuvam.xyz"
+    }
 }
