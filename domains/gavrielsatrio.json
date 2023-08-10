@@ -1,0 +1,11 @@
+{
+    "description": "Gavriel Satrio github pages",
+    "repo": "https://github.com/gavrielsatrio/gavrielsatrio.github.io",
+    "owner": {
+        "username": "gavrielsatrio",
+        "email": "gavriel228@gmail.com"
+    },
+    "record": {
+        "CNAME": "gavrielsatrio.github.io"
+    }
+}
