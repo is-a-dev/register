@@ -12,10 +12,11 @@
          ], 
   
          "MX": [
-             "mx1.improvmx.com",
-             "mx2.improvmx.com"
+             "mx.zoho.eu",
+             "mx2.zoho.eu",
+             "mx3.zoho.eu"
          ],
 
-        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+        "TXT": "v=spf1 include:zoho.eu ~all"
     }
 }
