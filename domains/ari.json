@@ -1,11 +1,11 @@
 {
-  "description": "RayhanADev's Website!",
-  "repo": "https://github.com/rayhanadev/Personal-Website",
-  "owner": {
-    "username": "rayhanadev",
-    "email": "rayhanadev@protonmail.com"
-  },
-  "record": {
-    "CNAME": "edge.redirect.pizza"
-  }
+    "description": "RayhanADev's Website!",
+    "repo": "https://github.com/rayhanadev/Personal-Website",
+    "owner": {
+        "username": "rayhanadev",
+        "email": "rayhanadev@protonmail.com"
+    },
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    }
 }

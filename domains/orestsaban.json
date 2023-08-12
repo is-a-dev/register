@@ -1,19 +1,11 @@
 {
-  "description": "My personality web page",
-  "owner": {
-    "username": "OrestSaban",
-    "email": "OrestSaban@OrestSaban.is-a.dev"
-  },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ]
-  }
+    "description": "My personality web page",
+    "owner": {
+        "username": "OrestSaban",
+        "email": "OrestSaban@OrestSaban.is-a.dev"
+    },
+    "record": {
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
+    }
 }
