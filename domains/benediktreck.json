@@ -1,9 +1,9 @@
 {
     "owner": {
-       "username": "usr577",
-       "email": "benedikt.reck@oesdorf.de"
+        "username": "usr577",
+        "email": "benedikt.reck@oesdorf.de"
     },
     "record": {
-        "CNAME": "benediktreck.duckdns.org"
+        "CNAME": "hosts.is-a.dev"
     }
 }

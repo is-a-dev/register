@@ -1,10 +1,11 @@
 {
-        "owner": {
-           "username": "s4ib0t",
-           "email": "hilmansyah.amd.kom@gmail.com"
-        },
-        "record": {
-            "CNAME": "s4ib0t.github.io"
-        }
+    "owner": {
+        "username": "Hillzacky",
+        "email": "Hilm4nsyah@gmail.com",
+        "discord": "830349326785314846"
+    },
+
+    "record": {
+        "MX": ["mx1.forwardemail.net"]
     }
-    
+}
