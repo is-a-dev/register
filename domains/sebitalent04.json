@@ -1,11 +1,9 @@
 {
-    "repo": "https://github.com/SebiTalent04/SebiTalent04.github.io",
     "owner": {
         "username": "SebiTalent04",
-        "email": "",
-        "discord": "Sto#7264"
+        "email": "stoican_sebi@yahoo.com"
     },
     "record": {
-        "CNAME": "SebiTalent04.github.io"
+            "TXT": "8139f556926b84918edeb68fa50b47"
     }
 }
