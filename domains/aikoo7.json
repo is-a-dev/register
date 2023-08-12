@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "aikooo7",
-           "email": "prozinhopro1973@gmail.com"
-        },
-        "record": {
-            "CNAME": "aikooo7.github.io"
-        }
+    "owner": {
+        "username": "aikooo7",
+        "email": "prozinhopro1973@gmail.com"
+    },
+    "record": {
+        "CNAME": "aikooo7.github.io"
     }
-    
+}

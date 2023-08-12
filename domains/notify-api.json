@@ -4,7 +4,7 @@
         "email": "phenax5@gmail.com"
     },
 
-   "record": {
-       "CNAME": "dns.beadman-network.com"
-   }
+    "record": {
+        "CNAME": "dns.beadman-network.com"
+    }
 }
