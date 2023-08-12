@@ -4,6 +4,6 @@
         "email": "hello.and.ios@gmail.com"
     },
     "record": {
-        "TXT": "akuto"
+        "CNAME": "https://akutosait.repl.co"
     }
 }
