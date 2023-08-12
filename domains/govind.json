@@ -1,11 +1,11 @@
 {
-  "description": "Govind's personal developer website",
-  "repo": "https://github.com/govind-shenoy",
-  "owner": {
-    "username": "govind-shenoy",
-    "email": "govindvshenoy@gmail.com"
-  },
-  "record": {
-    "CNAME": "govind-shenoy.github.io"
-  }
+    "description": "Govind's personal developer website",
+    "repo": "https://github.com/govind-shenoy",
+    "owner": {
+        "username": "govind-shenoy",
+        "email": "govindvshenoy@gmail.com"
+    },
+    "record": {
+        "CNAME": "govind-shenoy.github.io"
+    }
 }

@@ -1,0 +1,10 @@
+{
+    "description": "My site",
+    "owner": {
+        "username": "vadimhl",
+        "email": "vadimhl@gmail.com"
+    },
+    "record": {
+        "A": ["130.61.49.110"]
+    }
+}

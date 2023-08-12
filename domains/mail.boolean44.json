@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "boolean44-repos",
+        "email": "serenitypalmer10@gmail.com"
+    },
+    "record": {
+        "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
+        "A": ["10.0.0.1"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
+}

@@ -1,11 +1,11 @@
 {
-  "description": "Fullstack web & mobile dev, quality assurance, automation, reverse engineering, and flexible",
-  "repo": "https://github.com/danhab99/danhab99.github.io",
-  "owner": {
-    "username": "danhab99",
-    "email": "dan.habot@gmail.com"
-  },
-  "record": {
-    "CNAME": "danhab99.github.io"
-  }
+    "description": "Fullstack web & mobile dev, quality assurance, automation, reverse engineering, and flexible",
+    "repo": "https://github.com/danhab99/danhab99.github.io",
+    "owner": {
+        "username": "danhab99",
+        "email": "dan.habot@gmail.com"
+    },
+    "record": {
+        "CNAME": "danhab99.github.io"
+    }
 }
