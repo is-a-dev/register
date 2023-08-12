@@ -1,9 +1,7 @@
 {
-    "description": "An aboutme page for Shept",
-    "repo": "https://github.com/mcshept",
     "owner": {
         "username": "mcshept",
-        "email": "shept@dasshept.tech"
+        "email": "maxiheinrich007@yahoo.com"
     },
     "record": {
         "CNAME": "mcshept.github.io"

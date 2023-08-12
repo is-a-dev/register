@@ -1,16 +1,9 @@
 {
     "owner": {
         "username": "nguoidungkhongdinhdanhh",
-        "email": "azura22@skiff.com",
-        "note": "This record was created by is-a.dev Discord bot via discord id: 892626947430051900"
+        "email": "azura22@skiff.com"
     },
-
     "record": {
-        "A": [
-            "185.199.108.153",
-            "185.199.109.153",
-            "185.199.110.153",
-            "185.199.111.153"
-        ]
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
     }
 }
