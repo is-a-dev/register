@@ -1,12 +1,9 @@
 {
-    "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/joythejoystick1/glqch.github.io",
     "owner": {
         "username": "joythejoystick1",
-        "email": "bridgerbusiness2@gmail.com",
-        "twitter": "<twitter-username>"
+        "email": "midoayoub778@gmail.com"
     },
     "record": {
-        "CNAME": "2af8afea-16e6-4242-a9eb-f251017b0c5a.id.repl.co"
+        "CNAME": "joythejoystick1.github.io"
     }
-} 
+}
