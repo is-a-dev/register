@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "RianNegreiros",
         "email": "riannegreiros@gmail.com"
-      },
-      "record": {
-        "CNAME": "portfolio-production-c1eb.up.railway.app"
-      }
+    },
+    "record": {
+        "CNAME": "blog-client-66ki.onrender.com"
     }
-      
+}

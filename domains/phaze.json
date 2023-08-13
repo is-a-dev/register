@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "phaze-the-dumb",
         "email": "phaze@duck.com"
-      },
-      "record": {
+    },
+    "record": {
         "A": ["132.226.127.70"]
-      }
     }
-    
+}

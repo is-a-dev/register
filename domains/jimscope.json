@@ -1,11 +1,11 @@
 {
-  "description": "/home/jimscope",
-  "repo": "https://github.com/jimscope/jimscope.github.io",
-  "owner": {
-    "username": "jimscope",
-    "email": "jimscope@protonmail.com"
-  },
-  "record": {
-    "CNAME": "hashnode.network"
-  }
+    "description": "/home/jimscope",
+    "repo": "https://github.com/jimscope/jimscope.github.io",
+    "owner": {
+        "username": "jimscope",
+        "email": "jimscope@protonmail.com"
+    },
+    "record": {
+        "CNAME": "hashnode.network"
+    }
 }

@@ -1,12 +1,12 @@
 {
-  "description": "Roger's website to host mostly useless projects",
-  "repo": "https://github.com/rogerpanza/rogerpanza.github.io",
-  "owner": {
-    "username": "rogerpanza",
-    "email": "rogerpanza-ed@protonmail.com",
-    "twitter": "rogerpanza_"
-  },
-  "record": {
-    "CNAME": "rogerpanza.github.io"
-  }
+    "description": "Roger's website to host mostly useless projects",
+    "repo": "https://github.com/rogerpanza/rogerpanza.github.io",
+    "owner": {
+        "username": "rogerpanza",
+        "email": "rogerpanza-ed@protonmail.com",
+        "twitter": "rogerpanza_"
+    },
+    "record": {
+        "CNAME": "rogerpanza.github.io"
+    }
 }

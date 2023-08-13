@@ -1,11 +1,11 @@
 {
-  "description": "My personal portfolio",
-  "owner": {
-    "username": "tim-it-ger",
-    "email": "contact@tim-q.de",
-    "discord": "Vatic#0920"
-  },
-  "record": {
-    "CNAME": "tim-q.de"
-  }
+    "description": "My personal portfolio",
+    "owner": {
+        "username": "tim-it-ger",
+        "email": "contact@tim-q.de",
+        "discord": "Vatic#0920"
+    },
+    "record": {
+        "CNAME": "tim-q.de"
+    }
 }
