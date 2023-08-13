@@ -1,12 +1,12 @@
 {
-  "Dooly": "Dooly is a Dev.",
-  "repo": "https://github.com/entry0917/doolyweb/",
-  "owner": {
-    "username": "entry0917",
-    "email": "seeun0917@naver.com",
-    "twitter": "sense09173"
-  },
-  "record": {
-    "CNAME": "entry0917.github.io"
-  }
+    "Dooly": "Dooly is a Dev.",
+    "repo": "https://github.com/entry0917/doolyweb",
+    "owner": {
+        "username": "entry0917",
+        "email": "seeun0917@naver.com",
+        "twitter": "sense09173"
+    },
+    "record": {
+        "CNAME": "entry0917.github.io"
+    }
 }

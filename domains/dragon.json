@@ -1,11 +1,11 @@
 {
-  "description": "A custom portfolio website for me",
-  "repo": "https://replit.com/@DragonRoyale/personalA",
-  "owner": {
-    "username": "DragonRoyal",
-    "email": "aarav.singhania50@gmail.com"
-  },
-  "record": {
-    "CNAME": "c7054742-05bd-453b-b5fd-d3ed47ee0215.id.repl.co"
-  }
+    "description": "A custom portfolio website for me",
+    "repo": "https://replit.com/@DragonRoyale/personalA",
+    "owner": {
+        "username": "DragonRoyal",
+        "email": "aarav.singhania50@gmail.com"
+    },
+    "record": {
+        "CNAME": "c7054742-05bd-453b-b5fd-d3ed47ee0215.id.repl.co"
+    }
 }
