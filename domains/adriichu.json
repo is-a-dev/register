@@ -1,12 +1,12 @@
 {
     "owner": {
-      "username": "Adriichu",
-      "email": "adriichu@proton.me",
-      "twitter": "Adriichuu",
-      "discord": "Aaron#0069"
+        "username": "Adriichu",
+        "email": "adriichu@proton.me",
+        "twitter": "Adriichuu",
+        "discord": "Aaron#0069"
     },
 
     "record": {
         "CNAME": "aaron-web.pages.dev"
-      }
-  }
+    }
+}

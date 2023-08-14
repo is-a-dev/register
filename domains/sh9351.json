@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "sh9351",
         "email": "perfect2315shlim@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "sh9351.github.io"
-      }
     }
-  
+}

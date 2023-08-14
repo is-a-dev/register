@@ -1,13 +1,13 @@
 {
-  "description": "alexsquibbs.is-a.dev --> alexsquibbs.com",
-  "record": {
-    "URL": "https://alexsquibbs.com"
-  },
-  "repo": "https://github.com/alexsquibbs",
-  "owner": {
-    "discord": "alex squibbs#7777",
-    "email": "alexsquibbs.is-a.dev@alexsquibbs.com",
-    "twitter": "alexsquibbs",
-    "username": "alexsquibbs"
-  }
+    "description": "alexsquibbs.is-a.dev --> alexsquibbs.com",
+    "record": {
+        "URL": "https://alexsquibbs.com"
+    },
+    "repo": "https://github.com/alexsquibbs",
+    "owner": {
+        "discord": "alex squibbs#7777",
+        "email": "alexsquibbs.is-a.dev@alexsquibbs.com",
+        "twitter": "alexsquibbs",
+        "username": "alexsquibbs"
+    }
 }

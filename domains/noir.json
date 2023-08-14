@@ -1,12 +1,12 @@
 {
-  "description": "noir's website",
-  "repo": "https://github.com/noirdevelopment/noirdevelopment.github.io",
-  "owner": {
-    "username": "noirdevelopment",
-    "email": "xyroemail1@gmail.com",
-    "twitter": "zPyrooooo"
-  },
-  "record": {
-    "CNAME": "noirdevelopment.github.io"
-  }
+    "description": "noir's website",
+    "repo": "https://github.com/noirdevelopment/noirdevelopment.github.io",
+    "owner": {
+        "username": "noirdevelopment",
+        "email": "xyroemail1@gmail.com",
+        "twitter": "zPyrooooo"
+    },
+    "record": {
+        "CNAME": "noirdevelopment.github.io"
+    }
 }

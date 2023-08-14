@@ -1,11 +1,11 @@
 {
-  "description": "Micah Lindley is a web developer.",
-  "repo": "https://github.com/micahlt",
-  "owner": {
-    "username": "micahlt",
-    "email": "hi@micahlindley.com"
-  },
-  "record": {
-      "URL": "https://micahlindley.com"
-  }
+    "description": "Micah Lindley is a web developer.",
+    "repo": "https://github.com/micahlt",
+    "owner": {
+        "username": "micahlt",
+        "email": "hi@micahlindley.com"
+    },
+    "record": {
+        "URL": "https://micahlindley.com"
+    }
 }
