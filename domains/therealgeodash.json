@@ -1,11 +1,10 @@
 {
-        "owner": {
-           "username": "TheRealGeoDash2019",
-           "email": "therealgeodash@lhost.dev",
-           "discord": "710268763844640839"
-        },
-        "record": {
-            "CNAME": "lhost.dev"
-        }
+    "owner": {
+        "username": "TheRealGeoDash2019",
+        "email": "therealgeodash@lhost.dev",
+        "discord": "710268763844640839"
+    },
+    "record": {
+        "CNAME": "lhost.dev"
     }
-    
+}
