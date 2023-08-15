@@ -4,6 +4,6 @@
         "email": "techseal14@gmail.com"
     },
     "record": {
-            "MX": "10 mx1.forwardemail.net"
+        "MX": ["mx1.forwardemail.net"]
     }
 }
