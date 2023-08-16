@@ -4,6 +4,6 @@
         "email": "markwilkens102@gmail.com"
     },
     "record": {
-            "CNAME": ""[{"type":"CNAME","value":"rizky.is-a.dev","allowMultiple":false}]""
+            "CNAME": ""[{"type":"CNAME","allowMultiple":false,"value":"Rizky.is-a.dev"}]""
     }
 }
