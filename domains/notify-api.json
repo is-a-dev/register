@@ -1,11 +1,10 @@
 {
     "owner": {
-       "username": "andrewstech",
-       "email": "Andrewbuild48@gmail.com",
-       "note": "This record was created by is-a.dev Discord bot via discord id: 598245488977903688"
-   },
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
+    },
 
-   "record": {
-       "CNAME": "net.beadman-network.com"
-   }
+    "record": {
+        "CNAME": "dns.beadman-network.com"
+    }
 }

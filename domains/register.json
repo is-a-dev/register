@@ -1,11 +1,10 @@
 {
     "owner": {
-       "username": "is-a-dev-bot",
-       "email": "is-a-dev@win11react.com",
-       "discord": "1094272477137481810"
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
     },
 
     "record": {
-        "CNAME": "register-bot.is-a.dev"
+        "URL": "https://manage.is-a.dev"
     }
 }

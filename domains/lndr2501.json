@@ -1,10 +1,10 @@
 {
-	"owner": {
-		"username": "Lndr2501",
-		"email": ""
-	},
-	"repo": "https://github.com/Lndr2501/Lndr2501",
-	"record": {
-		"CNAME": "lndr2501.github.io"
-	}
+    "owner": {
+        "username": "Lndr2501",
+        "email": ""
+    },
+    "repo": "https://github.com/Lndr2501/Lndr2501",
+    "record": {
+        "CNAME": "lndr2501.github.io"
+    }
 }
