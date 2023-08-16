@@ -1,11 +1,11 @@
 {
-  "description": "keyur Profile.",
-  "repo": "https://github.com/keyurnimavat/keyurnimavat.github.io",
-  "owner": {
-    "username": "keyurnimavat",
-    "email": ""
-  },
-  "record": {
-    "CNAME": "keyurnimavat.github.io"
-  }
+    "description": "keyur Profile.",
+    "repo": "https://github.com/keyurnimavat/keyurnimavat.github.io",
+    "owner": {
+        "username": "keyurnimavat",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "keyurnimavat.github.io"
+    }
 }

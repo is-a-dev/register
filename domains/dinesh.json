@@ -1,11 +1,11 @@
 {
-  "description": "Dinesh Kumar's personal developer website",
-  "repo": "https://github.com/dinesh-ysl/dinesh-ysl.github.io",
-  "owner": {
-    "username": "dinesh-ysl",
-    "email": "dseera6@gmail.com"
-  },
-  "record": {
-    "CNAME": "dinesh-ysl.github.io"
-  }
+    "description": "Dinesh Kumar's personal developer website",
+    "repo": "https://github.com/dinesh-ysl/dinesh-ysl.github.io",
+    "owner": {
+        "username": "dinesh-ysl",
+        "email": "dseera6@gmail.com"
+    },
+    "record": {
+        "CNAME": "dinesh-ysl.github.io"
+    }
 }

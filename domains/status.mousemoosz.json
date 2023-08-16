@@ -1,10 +1,10 @@
 {
-  "description": "For statuspage",
-  "owner": {
-    "username": "MouseMoosz",
-    "email": "mousemoosz@protonmail.com"
-  },
-  "record": {
-    "CNAME": "mousemoosz.statuspage.io"
-  }
+    "description": "For statuspage",
+    "owner": {
+        "username": "MouseMoosz",
+        "email": "mousemoosz@protonmail.com"
+    },
+    "record": {
+        "CNAME": "mousemoosz.statuspage.io"
+    }
 }

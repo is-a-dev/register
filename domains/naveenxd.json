@@ -1,11 +1,11 @@
 {
-  "description": "naveenxd.is-a.dev",
-  "repo": "https://github.com/Naveen-X",
-  "owner": {
-    "username": "Naveen-X",
-    "email": "naveen@ourclg.tech"
-  },
-  "record": {
-    "CNAME": "Naveen-X.github.io"
-  }
+    "description": "naveenxd.is-a.dev",
+    "repo": "https://github.com/Naveen-X",
+    "owner": {
+        "username": "Naveen-X",
+        "email": "naveen@ourclg.tech"
+    },
+    "record": {
+        "CNAME": "Naveen-X.github.io"
+    }
 }

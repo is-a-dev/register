@@ -17,8 +17,13 @@
 </p>
 
 ## Register
-### Manual Registration
 
+### Automated Registration
+Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your github account and click the register page in the navbar. Fill out some questions and it will all happen automagically!
+
+Another method is to join our [Discord](https://discord.gg/PZCGHz4RhQ) then head to the commands channel and do /register . The bot will ask you a few questions then will generate your PR and domain automaticly. The bot also allows for domain deletion and editing.
+
+### Manual Registration
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
 - [Read the documentation](https://is-a.dev/docs).
@@ -27,8 +32,7 @@
 - Enjoy your new `.is-a.dev` domain!
 
 ### CLI Registration
-
-###### Source Code: https://github.com/wdhdev/is-a-dev-cli
+For issues with the CLI, **DO NOT OPEN AN ISSUE ON THIS REPOSITORY**, instead open an issue [here](https://github.com/wdhdev/is-a-dev-cli/issues/new).
 
 Install the CLI:
 

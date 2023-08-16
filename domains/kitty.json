@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Stardustxxx",
         "email": "kitty@kittysmh.tech"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["192.95.42.66"]
-      }
     }
-  
+}
