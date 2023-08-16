@@ -1,7 +1,9 @@
 {
+        "description": "A cool website",
+	"repo": "https://github.com/SukiPlayz/hello-world",
         "owner": {
             "username": "SukiPlayz",
-            "email": "suki@suki.is-a.dev"
+            "email": "sukimayoo@outlook.com"
         },
         "record": {
             "A": ["217.174.245.249"],
