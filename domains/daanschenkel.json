@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "daanschenkel",
-           "email": "daan@daanschenkel.nl"
-        },
-        "record": {
-              "CNAME": "hosts.is-a.dev"
-        }
+    "owner": {
+        "username": "daanschenkel",
+        "email": "daan@daanschenkel.nl"
+    },
+    "record": {
+        "URL": "https://daanschenkel.nl"
     }
-    
+}
