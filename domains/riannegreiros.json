@@ -4,6 +4,6 @@
         "email": "riannegreiros@gmail.com"
     },
     "record": {
-            "CNAME": ""[{"type":"CNAME","value":"websitedockerclient.azurewebsites.net","allowMultiple":false}]""
+            "TXT": ""[{"type":"CNAME","allowMultiple":false,"value":"websitedockerclient.azurewebsites.net"},{"type":"TXT","allowMultiple":true,"value":"BDBC6A529016CAC7CFE7713362811EDBEE0FADD2F3089690640B72614128DD8F"}]""
     }
 }
