@@ -1,0 +1,12 @@
+{
+    "description": "Personal homepage",
+    "repo": "https://github.com/tcxone/tcxone.github.io",
+    "owner": {
+        "username": "tcxone",
+        "email": "tcxone@outlook.com",
+        "twitter": "tcxone"
+    },
+    "record": {
+        "CNAME": "tcxone.github.io"
+    }
+}
