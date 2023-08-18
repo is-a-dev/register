@@ -4,6 +4,6 @@
         "email": "egokillerthusky@gmail.com"
     },
     "record": {
-            "TXT": "replit-verify=b7297ef8-036a-4483-a5b3-bbfa441ba7fc"
+            "CNAME": ""[{"type":"CNAME","value":"b7297ef8-036a-4483-a5b3-bbfa441ba7fc.id.repl.co","allowMultiple":false}]""
     }
 }
