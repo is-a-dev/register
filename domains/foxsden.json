@@ -4,6 +4,8 @@
         "email": "techseal14@gmail.com"
     },
     "record": {
-        "MX": ["mx1.forwardemail.net"]
+        "MX": "mx1.forwardemail.net",
+        "CNAME": "foxsdenyt.github.io",
+        "TXT": "forward-email=foxsdenyt@gmail.com"
     }
 }
