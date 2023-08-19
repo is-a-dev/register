@@ -1,11 +1,9 @@
 {
     "owner": {
-       "username": "MuhammadUsmanMithani",
-       "email": "muhammadusmanmithani@gmail.com",
-       "note": "This record was created by is-a.dev Discord bot via discord id: 632157019960377349"
-   },
-
-   "record": {
-       "CNAME": "iammithani-portfolio.pages.dev"
-   }
+        "username": "MuhammadUsmanMithani",
+        "email": "muhammadusmanmithani@gmail.com"
+    },
+    "record": {
+            "TXT": ""[{"type":"CNAME","value":"iammithani-portfolio.pages.dev","allowMultiple":false},{"type":"TXT","allowMultiple":true,"value":"dh=907b5e2d3cfe38ae94e82db53e023a815b3a7063"}]""
+    }
 }
