@@ -1,11 +1,9 @@
 {
-    "description": "Biplob's website",
-    "repo": "https://github.com/revolutionisme/revolutionisme.github.io",
     "owner": {
         "username": "revolutionisme",
-        "email": "revolutionisme+github@gmail.com"
+        "email": "revolutionisme@gmail.com"
     },
     "record": {
-        "CNAME": "revolutionisme.github.io"
+            "TXT": ""[{"type":"CNAME","value":"revolutionisme.github.io","allowMultiple":false},{"type":"TXT","allowMultiple":true,"value":"96bdd0268b2a0bb2c79eaeae1fd833"}]""
     }
 }
