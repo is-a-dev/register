@@ -4,6 +4,6 @@
         "email": "revolutionisme@gmail.com"
     },
     "record": {
-            "TXT": ""[{"type":"CNAME","value":"revolutionisme.github.io","allowMultiple":false},{"type":"TXT","allowMultiple":true,"value":"96bdd0268b2a0bb2c79eaeae1fd833"}]""
+        "CNAME": "revolutionisme.github.io"
     }
 }
