@@ -1,11 +1,9 @@
 {
-        "owner": {
-            "username": "Atr-e",
-            "email": "eatr577@gmail.com"
-        },
-        "record": {
-            "A": ["217.174.245.249"],
-            "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all",
-            "MX": "hosts.is-a.dev"
-        }
+    "owner": {
+        "username": "Atr-e",
+        "email": "eatr577@gmail.com"
+    },
+    "record": {
+            "TXT": ""[{"type":"A","allowMultiple":false,"value":"217.174.245.249"},{"type":"MX","allowMultiple":true,"value":"hosts.is-a.dev"},{"type":"TXT","allowMultiple":true,"value":"v=spf1 a mx ip4:217.174.245.249 ~all"}]""
     }
+}
