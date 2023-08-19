@@ -1,11 +1,11 @@
 {
-  "description": "Alex's personal developer website",
-  "repo": "https://github.com/alexmorrisnz",
-  "owner": {
-    "username": "alexmorrisnz",
-    "email": "alex@navra.nz"
-  },
-  "record": {
-    "CNAME": "alexmorris.nz"
-  }
+    "description": "Alex's personal developer website",
+    "repo": "https://github.com/alexmorrisnz",
+    "owner": {
+        "username": "alexmorrisnz",
+        "email": "alex@navra.nz"
+    },
+    "record": {
+        "CNAME": "alexmorris.nz"
+    }
 }

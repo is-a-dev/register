@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Dadcuy",
-    "email": "dadcuy@gmail.com"
-  },
-  "record": {
-    "CNAME": "dadcuy.github.io"
-  }
+    "owner": {
+        "username": "Dadcuy",
+        "email": "dadcuy@gmail.com"
+    },
+    "record": {
+        "CNAME": "dadcuy.github.io"
+    }
 }

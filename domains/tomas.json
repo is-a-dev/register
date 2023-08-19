@@ -1,10 +1,10 @@
 {
-  "description": "Tomas's personal developer website",
-  "owner": {
-    "username": "Tomas Ukrinas",
-    "email": "tomas@ukrinas.eu"
-  },
-  "record": {
-    "CNAME": "ukrinas.eu"
-  }
+    "description": "Tomas's personal developer website",
+    "owner": {
+        "username": "Tomaas0",
+        "email": "tomas@ukrinas.eu"
+    },
+    "record": {
+        "CNAME": "ukrinas.eu"
+    }
 }

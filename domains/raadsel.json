@@ -1,12 +1,12 @@
 {
-  "description": "Personal website of Raadsel",
-  "repo": "https://replit.com/@Raadsel/Website?v=1",
-  "owner": {
-    "username": "Raadsl",
-    "email": "jorik.loos@gmail.com",
-    "discord": "Raadsel#9398"
-  },
-  "record": {
-    "CNAME": "5895b253-7316-4557-b4fb-f3a24165a4ae.id.repl.co"
-  }
+    "description": "Personal website of Raadsel",
+    "repo": "https://github.com/Raadsl/New-Personal-site",
+    "owner": {
+        "username": "Raadsl",
+        "email": "jorik.loos@gmail.com",
+        "discord": "Raadsel#9398"
+    },
+    "record": {
+        "CNAME": "6925d98d-2d57-403e-8fe7-7d76686df9b4.id.repl.co"
+    }
 }
