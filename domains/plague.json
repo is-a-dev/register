@@ -1,11 +1,12 @@
 {
+    "description": "My souper personal domain.",
+    "repo": "https://github.com/pl4g/pl4g.github.io",
     "owner": {
         "username": "pl4g",
-        "email": "viniciuslucianocardoso@gmail.com"
+        "email": "viniciuslucianocardoso@gmail.com",
+        "discord": "plague🥣#8408"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all",
-        "MX": "hosts.is-a.dev"
+        "CNAME": "pl4g.github.io"
     }
 }
