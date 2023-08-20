@@ -7,9 +7,5 @@
     },
     "record": {
         "CNAME": "protuberant-stands.000webhostapp.com"
-
-        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-
-        "TXT": "forward-email=adam.essakhi16+imat@gmail.com"
     }
 }
