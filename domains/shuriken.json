@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "005sunnysingh",
-        "email": "005sunnysingh@gmail.com"
-    },
-    "record": {
-        "A": ["94.130.165.222"]
+        "owner": {
+            "username": "005sunnysingh",
+            "email": "005sunnysingh@gmail.com"
+        },
+        "record": {
+            "A": ["217.174.245.249"],
+            "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all",
+            "MX": ["hosts.is-a.dev"]
+        }
     }
-}
