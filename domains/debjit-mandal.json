@@ -4,6 +4,6 @@
         "email": "debjitmandal8925@gmail.com"
     },
     "record": {
-        "CNAME": "debjit-mandal.github.io"
+        "TXT": ""[{"type":"CNAME","value":"debjit-mandal.github.io","allowMultiple":false},{"type":"TXT","allowMultiple":true,"value":"google-site-verification=SebNjvwfciUhB8JKojOI-I6erRFfZwRNTAHb5rFitTQ"}]""
     }
 }
