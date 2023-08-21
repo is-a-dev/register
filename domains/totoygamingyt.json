@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "totoygamingyt",
-    "email": "hello@totoygamingyt.com",
-    "twitter": "TotoyGamingYT",
-    "discord": "totoygamingyt"
-  },
-  "record": {
-    "CNAME": "totoygamingyt.pages.dev"
-  }
+    "owner": {
+        "username": "totoygamingyt",
+        "email": "hello@totoygamingyt.com",
+        "twitter": "TotoyGamingYT",
+        "discord": "totoygamingyt"
+    },
+    "record": {
+        "CNAME": "totoygamingyt.pages.dev"
+    }
 }
