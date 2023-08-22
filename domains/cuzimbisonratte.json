@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "CuzImBisonratte",
         "email": "cuzimbisonratte@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "cuzimbisonratte.github.io"
-      }
     }
-  
+}

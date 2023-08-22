@@ -1,12 +1,12 @@
 {
-  "description": "devRealm website",
-  "repo": "https://github.com/devrealm",
-  "owner": {
-    "username": "gvagenas",
-    "email": "",
-    "twitter": "devrealmorg"
-  },
-  "record": {
-    "CNAME": "devrealm.org"
-  }
+    "description": "devRealm website",
+    "repo": "https://github.com/devrealm",
+    "owner": {
+        "username": "gvagenas",
+        "email": "",
+        "twitter": "devrealmorg"
+    },
+    "record": {
+        "CNAME": "devrealm.org"
+    }
 }

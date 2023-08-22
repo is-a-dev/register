@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "hecterbonha",
         "email": "untungsoandryanto@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "hecterbonha.github.io"
-      }
     }
-  
+}

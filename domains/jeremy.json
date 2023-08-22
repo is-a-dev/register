@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "jeremyssocial",
         "email": "nearberlin@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "URL": "http://dev.jeremys.social"
-      }
     }
-  
+}

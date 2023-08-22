@@ -1,11 +1,11 @@
 {
-  "description": "personal website",
-  "repo": "https://github.com/0x656665",
-  "owner": {
-    "username": "0x656665",
-    "email": "efe@tutanota.de"
-  },
-  "record": {
-    "URL": "https://efe.dev"
-  }
+    "description": "personal website",
+    "repo": "https://github.com/0x656665",
+    "owner": {
+        "username": "0x656665",
+        "email": "efe@tutanota.de"
+    },
+    "record": {
+        "URL": "https://efe.dev"
+    }
 }
