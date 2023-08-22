@@ -4,6 +4,6 @@
         "email": "maxiheinrich007@yahoo.com"
     },
     "record": {
-        "CNAME": ""[{"type":"CNAME","value":"mcshept.github.io","allowMultiple":false}]""
+        "MX": "["mx1.improvmx.com."]"
     }
 }
