@@ -1,12 +1,9 @@
 {
-    "description": "Redirect to my website -> notri1.fr",
     "owner": {
         "username": "ri1ongithub",
-        "email": "contact@notri1.fr",
-        "twitter": "ri1ontwitr",
-        "discord": "ri1_#0973"
+        "email": "contact@notri1.fr"
     },
     "record": {
-        "URL": "https://notri1.fr"
+        "CNAME": ""[{"type":"CNAME","allowMultiple":false,"value":"notri1.fr"}]""
     }
 }
