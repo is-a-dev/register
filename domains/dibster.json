@@ -1,14 +1,11 @@
 {
-    "description": "ShareX Server/Protfolio Site. Under @DIBSTERYT on GitHub.",
-    "repo": "https://github.com/DIBSTERYT",
+    "description": "ShareX Server/Protfolio Site.",
     "owner": {
-        "username": "DIBSTERYT",
-        "email": "hello@dibster-is-a.engineer",
+        "username": "DEV-DIBSTER",
+        "email": "dibster@danbot.host",
         "twitter": "DEV_DIBSTER"
     },
     "record": {
-        "A": ["192.95.42.66"],
-        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+        "CNAME": "proxy.dib.localplayer.dev"
     }
 }
