@@ -4,6 +4,6 @@
         "email": "stanasqwe@gmail.com"
     },
     "record": {
-        "CNAME": "atuell.github.io"
+        "CNAME": ""[{"type":"CNAME","value":"atuell.github.io","allowMultiple":false}]""
     }
 }
