@@ -4,6 +4,6 @@
         "email": "contact@notri1.fr"
     },
     "record": {
-        "CNAME": ""[{"type":"CNAME","allowMultiple":false,"value":"notri1.fr"}]""
+        "CNAME": "notri1.fr"
     }
 }
