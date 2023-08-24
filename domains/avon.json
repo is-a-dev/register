@@ -1,10 +1,10 @@
 {
-  "owner":{ 
-    "username": "avonryle",
-    "discord": "avonryle#3155",
-    "email": "avonryle@cloudteam.me"
-  },
-  "record": { 
-    "CNAME": "b496390d-18ef-4629-990f-a6bb296f35d6.id.repl.co" 
-  }
+    "owner": {
+        "username": "avonryle",
+        "discord": "avonryle#3155",
+        "email": "avonryle@cloudteam.me"
+    },
+    "record": {
+        "CNAME": "b496390d-18ef-4629-990f-a6bb296f35d6.id.repl.co"
+    }
 }

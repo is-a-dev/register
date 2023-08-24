@@ -1,12 +1,12 @@
 {
-  "description": "A noxsin's webpage",
-  "repo": "https://github.com/komysh/komysh.github.io",
-  "owner": {
-    "username": "komysh",
-    "email": "arcteac@gmail.com",
-    "telegram": "@mentolbot"
-  },
-  "record": {
-    "CNAME": "komysh.github.io"
-  }
+    "description": "A noxsin's webpage",
+    "repo": "https://github.com/komysh/komysh.github.io",
+    "owner": {
+        "username": "komysh",
+        "email": "arcteac@gmail.com",
+        "telegram": "mentolbot"
+    },
+    "record": {
+        "CNAME": "komysh.github.io"
+    }
 }
