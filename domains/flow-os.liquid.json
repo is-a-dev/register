@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "ThinLiquid",
-        "email": "thinliquid@proton.me"
+        "email": "thnlqd@gmail.com"
     },
     "record": {
-        "CNAME": "fathomless-chickadee-7xj6ixiuhgknzzityvtiq6q4.herokudns.com"
+        "A": ["155.248.212.141"]
     }
 }
