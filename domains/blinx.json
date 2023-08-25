@@ -4,6 +4,8 @@
         "email": "blinxduh@gmail.com"
     },
     "record": {
-        "CNAME": ""[{"type":"TXT","value":"v=spf1 a mx ip4:217.174.245.249 ~all","allowMultiple":true},{"type":"MX","value":"hosts.is-a.dev","allowMultiple":true},{"type":"CNAME","allowMultiple":false,"value":"_discord.blinx.is-a.dev."}]""
+        "A": ["217.174.245.249"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all",
+        "MX": ["hosts.is-a.dev"]
     }
 }
