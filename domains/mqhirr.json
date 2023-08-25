@@ -1,12 +1,12 @@
 {
-  "owner": {
-    "username": "mqhirr",
-    "email": "",
-    "discord": "mqhirr"
-  },
+    "owner": {
+        "username": "mqhirr",
+        "email": "",
+        "discord": "mqhirr"
+    },
 
-  "repo": "https://github.com/mqhirr/webnn_live",
-  "record": {
-    "CNAME": "mqhirr.github.io"
-  }
+    "repo": "https://github.com/mqhirr/webnn_live",
+    "record": {
+        "CNAME": "mqhirr.github.io"
+    }
 }
