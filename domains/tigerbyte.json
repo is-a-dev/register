@@ -1,11 +1,11 @@
 {
-  "description": "Add some description",
-  "repo": "https://github.com/TigerbyteDev",
-  "owner": {
-    "username": "TigerbyteDev",
-    "email": "tigerbytedev@gmail.com"
-  },
-  "record": {
-    "CNAME": "3bfa06b0-89de-424a-a8ff-ec5a3a38f922.repl.co"
-  }
+    "description": "Add some description",
+    "repo": "https://github.com/TigerbyteDev",
+    "owner": {
+        "username": "TigerbyteDev",
+        "email": "tigerbytedev@gmail.com"
+    },
+    "record": {
+        "URL": "https://www.tigerbyte.dev"
+    }
 }

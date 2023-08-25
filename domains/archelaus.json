@@ -1,0 +1,11 @@
+{
+    "description": "Portfolio",
+    "repo": "https://github.com/archelaus/archelaus.github.io",
+    "owner": {
+        "username": "archelaus",
+        "email": "archelaus@skiff.com"
+    },
+    "record": {
+        "CNAME": "archelaus.github.io"
+    }
+}

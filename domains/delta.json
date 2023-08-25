@@ -1,0 +1,12 @@
+{
+    "description": "Delta's personal website using Github Pages",
+    "repo": "https://github.com/protogendelta/protogendelta.github.io",
+    "owner": {
+        "username": "ProtogenDelta",
+        "email": "",
+        "twitter": "TheDeltaProto"
+    },
+    "record": {
+        "CNAME": "protogendelta.github.io"
+    }
+}

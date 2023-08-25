@@ -1,14 +1,10 @@
 {
-  "description": "Mainly just claiming this subdomain. Redirects to my personal website.",
+    "owner": {
+        "username": "WilliamDavidHarrison",
+        "email": "william@williamharrison.dev"
+    },
 
-  "owner": {
-    "username": "WilliamDavidHarrison",
-    "email": "",
-    "twitter": "WDHarrison09",
-    "discord": "William#0001"
-  },
-  
-  "record": {
-    "URL": "http://is-a-dev.redirect.williamharrison.xyz"
-  }
+    "record": {
+        "CNAME": "hosts.is-a.dev"
+    }
 }
