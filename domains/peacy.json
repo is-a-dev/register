@@ -4,6 +4,6 @@
         "email": "kiwibird211@icloud.com"
     },
     "record": {
-        "URL": "https://peacy.carrd.co/"
+        "TXT": ""[{"type":"URL","value":"https://peacy.carrd.co/","allowMultiple":false},{"type":"TXT","allowMultiple":true,"value":"dh=49573fc56f2a69919778375f6512a3701cabdba2"}]""
     }
 }
