@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "duyeric",
-           "email": "duyericmmo@gmail.com"
-        },
-        "record": {
-            "A": ["172.245.139.131"]
-        }
+    "owner": {
+        "username": "duyeric",
+        "email": "duyericmmo@gmail.com"
+    },
+    "record": {
+        "A": ["172.245.139.131"]
     }
-    
+}
