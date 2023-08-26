@@ -3,13 +3,8 @@
     "owner": {
         "username": "Krix12",
         "email": "kristjan.kocevar89@gmail.com"
-      },
+    },
     "record": {
-        "A": ["35.186.245.55"],
-        "MX": [
-            "mx1.improvmx.com",
-            "mx2.improvmx.com"
-        ],
-        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+        "CNAME": "krix12-github-io.pages.dev"
     }
 }

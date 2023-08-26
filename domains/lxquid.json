@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "lxquid",
-    "email": "info@minemix.de"
-  },
-  "record": {
-    "CNAME": "liquiddevelopmentnet.github.io"
-  }
+    "owner": {
+        "username": "lxquid",
+        "email": "info@minemix.de"
+    },
+    "record": {
+        "CNAME": "liquiddevelopmentnet.github.io"
+    }
 }

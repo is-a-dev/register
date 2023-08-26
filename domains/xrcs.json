@@ -1,0 +1,12 @@
+{
+    "description": "xrcs personal website",
+    "repo": "https://github.com/xrcss/xrcss.github.io",
+    "owner": {
+        "username": "xrcss",
+        "discord": "xrcs#0001",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "xrcss.github.io"
+    }
+}

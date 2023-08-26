@@ -1,0 +1,12 @@
+{
+    "description": "This is for nottisa cool stuff",
+    "repo": "https://github.com/nottisa/nottisa.github.io",
+    "owner": {
+        "username": "nottisa",
+        "email": "theonewhohasthisemail@gmail.com",
+        "twitter": "_bob90368"
+    },
+    "record": {
+        "CNAME": "nottisa.github.io"
+    }
+}
