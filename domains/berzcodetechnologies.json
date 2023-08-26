@@ -4,6 +4,6 @@
         "email": "saurabhkirve@gmail.com"
     },
     "record": {
-        "TXT": "vc-domain-verify=berzcodetechnologies.is-a.dev,e09feacd7133e558539a"
+        "A": "154.41.233.131"
     }
 }
