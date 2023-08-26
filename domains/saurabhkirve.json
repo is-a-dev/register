@@ -4,6 +4,6 @@
         "email": "saurabhkirve@gmail.com"
     },
     "record": {
-        "MX": "["mx1.hostinger.in"]"
+        "MX": ["mx1.hostinger.in"]
     }
 }
