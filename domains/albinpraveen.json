@@ -4,6 +4,6 @@
         "email": "albinpraveen135790@gmail.com"
     },
     "record": {
-            "TXT": ""[{"type":"CNAME","value":"albinpraveen.github.io","allowMultiple":false},{"type":"TXT","allowMultiple":true,"value":"815094cd16aed1ad1a2eb8306c390a"}]""
+        "CNAME": "albinpraveen.github.io"
     }
 }
