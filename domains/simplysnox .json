@@ -1,11 +1,10 @@
 {
     "owner": {
         "username": "SimplySnox",
-        "email": "ItsNotSnox@gmail.com"
+        "email": "SimplySnox+isadev@gmail.com",
+        "discord": "@simplysnox"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "TXT": "vc-domain-verify=snox.is-a.dev,08438a388453a58d8a08"
     }
 }
