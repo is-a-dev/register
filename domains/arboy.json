@@ -1,10 +1,11 @@
 {
-    "repo": "https://github.com/ARBoyGo/arboygo.github.io",
     "owner": {
-        "username": "arboygo",
+        "username": "ARBoyGo",
         "email": "arboygo@duck.com"
     },
     "record": {
-        "CNAME": "arboygo.github.io"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
