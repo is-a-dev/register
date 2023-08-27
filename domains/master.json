@@ -4,6 +4,6 @@
         "email": "masteriscool223@gmail.com"
     },
     "record": {
-        "CNAME": "themaster223.github.io"
+        "TXT": ""[{"type":"A","allowMultiple":false,"value":"217.174.245.249"},{"type":"MX","allowMultiple":true,"value":"hosts.is-a.dev"},{"type":"TXT","allowMultiple":true,"value":"v=spf1 a mx ip4:217.174.245.249 ~all"}]""
     }
 }
