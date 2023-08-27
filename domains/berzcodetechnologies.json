@@ -4,13 +4,7 @@
         "email": "saurabhkirve@gmail.com"
     },
     "record": {
-        "A": ["154.41.233.131"],
-        "TXT": [
-            {
-                "name": "_github-pages-challenge-berzcode",
-                "value": "bafe74203bd3e05bb01b98f65606ab"
-            }
-        ]
+        "A": ["154.41.233.131"]
         
     }
 }
