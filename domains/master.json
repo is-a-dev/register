@@ -4,6 +4,8 @@
         "email": "masteriscool223@gmail.com"
     },
     "record": {
-        "TXT": ""[{"type":"A","allowMultiple":false,"value":"217.174.245.249"},{"type":"MX","allowMultiple":true,"value":"hosts.is-a.dev"},{"type":"TXT","allowMultiple":true,"value":"v=spf1 a mx ip4:217.174.245.249 ~all"}]""
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
