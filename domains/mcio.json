@@ -1,11 +1,9 @@
 {
     "owner": {
-       "username": "PHYT90DitYT",
-       "email": "chess049@rsdmo.org",
-       "discord": "798934178783559710"
+        "username": "PHYT90DitYT",
+        "email": "chess049@rsdmo.org"
     },
-
     "record": {
-        "CNAME": "mine-craft.io"
+        "CNAME": ""[{"type":"CNAME","value":"i-think-i.lol","allowMultiple":false}]""
     }
 }
