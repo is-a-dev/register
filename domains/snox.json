@@ -3,10 +3,11 @@
     "repo": "https://snox.codes",
     "owner": {
         "username": "SimplySnox",
-        "email": "root@snox.codes",
-        "discord": "snox#0143"
+        "email": "SimplySnox+isadev@gmail.com",
+        "discord": "simplysnox"
     },
     "record": {
-        "CNAME": "snox.codes"
+        "CNAME": "snox.codes",
+        "TXT": "vc-domain-verify=snox.is-a.dev,08438a388453a58d8a08"
     }
 }
