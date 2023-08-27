@@ -1,11 +1,9 @@
 {
     "owner": {
         "username": "M4ss1ck",
-        "email": "4ndyraul@gmail.com",
-        "twitter": "M4ss1ck"
+        "email": "4ndyraul@gmail.com"
     },
-    "repo": "https://github.com/M4ss1ck/massick-portfolio",
     "record": {
-        "URL": "https://massick.gatsbyjs.io"
+        "URL": "https://massick.netlify.app"
     }
 }
