@@ -4,6 +4,6 @@
         "email": "soldierplayz.tw@gmail.com"
     },
     "record": {
-        "CNAME": "da-1.us.hostns.io"
+        "TXT": ""[{"type":"CNAME","value":"da-1.us.hostns.io","allowMultiple":false},{"type":"MX","allowMultiple":true,"value":"mx1.spamfiltering.io."},{"type":"TXT","allowMultiple":true,"value":"v=spf1 a mx ip4:5.161.121.167 include:relay.mailchannels.net ~all"}]""
     }
 }
