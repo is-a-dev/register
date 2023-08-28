@@ -1,0 +1,11 @@
+{
+    "description": "is-a.dev subdomain for my portfolio",
+    "repo": "https://github.com/rendotpy/portfolio",
+    "owner": {
+        "username": "rendotpy",
+        "email": "arugh3@gmail.com"
+    },
+    "record": {
+        "CNAME": "rendotpy.github.io"
+    }
+}
