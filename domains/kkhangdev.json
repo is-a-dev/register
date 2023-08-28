@@ -4,6 +4,7 @@
         "email": "baokhang4930@gmail.com"
     },
     "record": {
-        "CNAME": "424d9cd6-261a-4da7-9c64-75e35dd38bd7.id.repl.co"
+        "CNAME": "424d9cd6-261a-4da7-9c64-75e35dd38bd7.id.repl.co",
+        "TXT": "replit-verify=424d9cd6-261a-4da7-9c64-75e35dd38bd7"
     }
 }
