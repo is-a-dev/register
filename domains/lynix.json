@@ -4,6 +4,6 @@
         "email": "vncntwbr0207@gmail.com"
     },
     "record": {
-        "URL": ""[{"type":"URL","allowMultiple":false,"value":"https://linktr.ee/lynix27"}]""
+        "TXT": ""[{"type":"URL","value":"https://lynix.me","allowMultiple":false},{"type":"TXT","allowMultiple":true,"value":"did=did:plc:wujn4ouxkfqjnc53s3o42zub"}]""
     }
 }
