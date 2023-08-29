@@ -4,6 +4,6 @@
         "email": "adityakotha2001@gmail.com"
     },
     "record": {
-        "CNAME": "adityakotha2001.github.io"
+        "TXT": ""[{"type":"CNAME","value":"adityakotha2001.github.io","allowMultiple":false},{"type":"TXT","allowMultiple":true,"value":"v=spf1 a mx ip4:217.174.245.249 ~all"}]""
     }
 }
