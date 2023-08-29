@@ -1,0 +1,13 @@
+{
+    "description": "tylermwise.is-a.dev domain",
+    "owner": {
+      "username": "tylermwise",
+      "email": "contact@teamtbm.org"
+    },
+    "record": {
+       "NAMESERVER": "maceio.ns.porkbun.com",
+       "NAMESERVER": "curitiba.ns.porkbun.com",
+       "NAMESERVER": "salvador.ns.porkbun.com",
+       "NAMESERVER": "fortaleza.ns.porkbun.com"
+    }
+  }
