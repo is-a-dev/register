@@ -1,12 +1,9 @@
 {
-    "description": "arda.is-a.dev",
-    "repo": "https://github.com/duzelicem/duzelicem.github.io",
     "owner": {
         "username": "duzelicem",
-        "email": "ardagkc@proton.me",
-        "discord": "arda#0666"
+        "email": "ardagokce0682@gmail.com"
     },
     "record": {
-        "CNAME": "arda.is-best.net"
+        "CNAME": ""[{"type":"CNAME","value":"duzelicem.com","allowMultiple":false}]""
     }
 }
