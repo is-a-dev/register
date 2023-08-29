@@ -4,6 +4,6 @@
         "email": "ardagokce0682@gmail.com"
     },
     "record": {
-        "CNAME": ""[{"type":"CNAME","value":"duzelicem.com","allowMultiple":false}]""
+        "CNAME": ""[{"type":"CNAME","allowMultiple":false,"value":"duzelicem.com"}]""
     }
 }
