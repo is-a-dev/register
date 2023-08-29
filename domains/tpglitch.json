@@ -4,8 +4,6 @@
         "email": "tylerkinney50@gmail.com"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "CNAME": ""[{"type":"CNAME","allowMultiple":false,"value":"88c6a678-ab22-462d-b3ae-67afafe60d92.id.repl.co"}]""
     }
 }
