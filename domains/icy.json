@@ -4,6 +4,6 @@
         "email": "Jazzyvela2009@outlook.com"
     },
     "record": {
-        "TXT": ""[{"type":"CNAME","value":"icyongit.github.io","allowMultiple":false},{"type":"TXT","allowMultiple":true,"value":"_github-pages-challenge-IcyonGit.icy"}]""
+        "TXT": ""[{"type":"TXT","allowMultiple":true,"value":"_github-pages-challenge-IcyonGit.icy"}]""
     }
 }
