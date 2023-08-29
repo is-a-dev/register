@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "AmKinGesteR",
+        "email": "amkingester@gmail.com",
+        "note": "This record was created by is-a.dev Discord bot via discord id: 782517152279429142"
+    },
+
+    "record": {
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=m.hosein.ebi@gmail.com"
+
+    }
+}
