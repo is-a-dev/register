@@ -1,0 +1,12 @@
+{
+    "description": " For my personal website ",
+    "repo": "https://py-yash.github.io",
+    "owner": {
+        "username": "py-yash",
+        "email": "cwyash.rao@gmail.com",
+        "twitter": ""
+    },
+    "record": {
+        "CNAME": "py-yash.github.io"
+    }
+} 
