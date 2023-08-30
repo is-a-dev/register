@@ -1,11 +1,11 @@
 {
-  "repo": "https://github.com/plu5/plu5.github.io",
-  "owner": {
-    "username": "plu5",
-    "email": "ctre@users.sourceforge.net",
-    "twitter": "preminster"
-  },
-  "record": {
-    "CNAME": "plu5.github.io"
-  }
+    "repo": "https://github.com/plu5/plu5.github.io",
+    "owner": {
+        "username": "plu5",
+        "email": "ctre@users.sourceforge.net",
+        "twitter": "preminster"
+    },
+    "record": {
+        "CNAME": "plu5.github.io"
+    }
 }

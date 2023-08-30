@@ -1,12 +1,11 @@
 {
-  "description": "My Portfolio",
-  "repo": "https://github.com/andrewstech/andrewstech",
-  "owner": {
-    "username": "andrewstech",
-    "email": "hello@andrewstech.me",
-    "twitter": "andrewstech1"
-  },
-  "record": {
-    "CNAME": "andrewstech.github.io"
-  }
+    "owner": {
+        "username": "andrewstech",
+        "email": "andrew@win11react.com"
+    },
+    "record": {
+        "A": ["217.174.245.249"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all",
+        "MX": ["hosts.is-a.dev"]
+    }
 }

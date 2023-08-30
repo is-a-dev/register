@@ -1,11 +1,11 @@
 {
-  "description": "pyro's portfolio",
-  "repo": "https://github.com/pyroisgamer.github.io",
-  "owner": {
-    "username": "pyroisgamer",
-    "email": "pyroisgamer@outlook.com"
-  },
-  "record": {
-    "CNAME": "pyroisgamer.github.io"
-  }
+    "description": "pyro's portfolio",
+    "repo": "https://github.com/pyroisgamer.github.io",
+    "owner": {
+        "username": "pyroisgamer",
+        "email": "pyroisgamer@outlook.com"
+    },
+    "record": {
+        "CNAME": "pyroisgamer.github.io"
+    }
 }

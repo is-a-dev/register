@@ -1,5 +1,5 @@
 {
-    "description": "Aayu5h's Portfolio Website",
+    "description": "Aayu5h's Website",
     "repo": "https://github.com/OpAayush/opaayush.github.io",
     "owner": {
         "username": "OpAayush",
@@ -7,6 +7,6 @@
         "discord": "Aayu5h#1737"
     },
     "record": {
-        "CNAME": "opaayush.github.io"
+        "CNAME": "opaayush.pages.dev"
     }
-} 
+}
