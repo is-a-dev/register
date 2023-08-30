@@ -4,6 +4,6 @@
         "email": "hirakoo@proton.me"
     },
     "record": {
-        "CNAME": "website-5xr.pages.dev"
+        "CNAME": ""[{"type":"CNAME","allowMultiple":false,"value":"hirako-is-really-cool.pages.dev"}]""
     }
 }
