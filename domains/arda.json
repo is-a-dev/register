@@ -1,9 +1,12 @@
 {
+    "description": "personal website",
+    "repo": "https://github.com/duzelicem",
     "owner": {
         "username": "duzelicem",
-        "email": "ardagokce0682@gmail.com"
+        "email": "ardagkc@proton.me",
+        "discord": "@dcez"
     },
     "record": {
-        "CNAME": ""[{"type":"CNAME","allowMultiple":false,"value":"duzelicem.com"}]""
+        "CNAME": "duzelicem.com"
     }
 }

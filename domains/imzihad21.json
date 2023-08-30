@@ -4,6 +4,8 @@
         "email": "imzihad@gmail.com"
     },
     "record": {
-        "CNAME": "ec2-52-77-224-107.ap-southeast-1.compute.amazonaws.com"
+        "A": ["52.77.224.107"],
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=imzihad@gmail.com"
     }
 }
