@@ -1,10 +1,10 @@
 {
-  "description": "Discord Bot's Website",
-  "owner": {
-    "username": "brawlie",
-    "email": "tojoeleeofficial@gmail.com"
-  },
-  "record": {
-    "URL": "https://brawley.js.org"
-  }
+    "description": "Discord Bot's Website",
+    "owner": {
+        "username": "brawlie",
+        "email": "tojoeleeofficial@gmail.com"
+    },
+    "record": {
+        "URL": "https://brawley.js.org"
+    }
 }

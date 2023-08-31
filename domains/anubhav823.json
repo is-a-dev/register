@@ -1,10 +1,10 @@
 {
-  "description": "anubhav823' personal developer website",
-  "owner": {
-    "username": "anubhav823",
-    "email": "anubhav823@gmail.com"
-  },
-  "record": {
-    "URL": "https://anubhav823.github.io/wordle"
-  }
+    "description": "anubhav823' personal developer website",
+    "owner": {
+        "username": "anubhav823",
+        "email": "anubhav823@gmail.com"
+    },
+    "record": {
+        "URL": "https://anubhav823.github.io/wordle"
+    }
 }

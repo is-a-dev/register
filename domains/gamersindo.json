@@ -1,10 +1,10 @@
 {
-  "description": "Personal portofolio",
-  "owner": {
-    "username": "gamersindo1223",
-    "email": "mrgamers11223@gmail.com"
-  },
-  "record": {
-    "CNAME": "my-portofolio-ek3.pages.dev"
-  }
+    "description": "Personal portofolio",
+    "owner": {
+        "username": "gamersindo1223",
+        "email": "mrgamers11223@gmail.com"
+    },
+    "record": {
+        "CNAME": "my-portofolio-ek3.pages.dev"
+    }
 }

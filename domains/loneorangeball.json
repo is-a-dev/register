@@ -1,12 +1,12 @@
 {
-  "description": "loneorangeball's website",
-  "owner": {
-    "username": "loneorangeball",
-    "email": "",
-    "twitter": "LoneOrangeBall",
-    "discord": "orangeBall#6183"
-  },
-  "record": {
-    "CNAME": "b29ec742-99b6-4ff2-990d-58f9aa910bd1.id.repl.co"
-  }
+    "description": "loneorangeball's website",
+    "owner": {
+        "username": "loneorangeball",
+        "email": "",
+        "twitter": "LoneOrangeBall",
+        "discord": "orangeBall#6183"
+    },
+    "record": {
+        "CNAME": "b29ec742-99b6-4ff2-990d-58f9aa910bd1.id.repl.co"
+    }
 }

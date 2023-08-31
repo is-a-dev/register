@@ -1,11 +1,11 @@
 {
-  "description": "documentation for bsapi.js",
-  "repo": "https://github.com/botstudios/bsapi.js-docs",
-  "owner": {
-    "username": "leecheeyong",
-    "email": "tojoeleeofficial@gmail.com"
-  },
-  "record": {
-    "CNAME": "botstudios.github.io"
-  }
+    "description": "documentation for bsapi.js",
+    "repo": "https://github.com/botstudios/bsapi.js-docs",
+    "owner": {
+        "username": "leecheeyong",
+        "email": "tojoeleeofficial@gmail.com"
+    },
+    "record": {
+        "CNAME": "botstudios.github.io"
+    }
 }

@@ -1,11 +1,11 @@
 {
-	"description": "About website",
-	"repo": "https://github.com/stardust-kyun/stardust-kyun.github.io",
-	"owner": {
-		"username": "stardust-kyun",
-		"email": "stardust-kyun@proton.me"
-	},
-	"record": {
-		"CNAME": "stardust-kyun.github.io"
-	}
+    "description": "About website",
+    "repo": "https://github.com/stardust-kyun/stardust-kyun.github.io",
+    "owner": {
+        "username": "stardust-kyun",
+        "email": "stardust-kyun@proton.me"
+    },
+    "record": {
+        "CNAME": "stardust-kyun.github.io"
+    }
 }

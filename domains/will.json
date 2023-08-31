@@ -1,11 +1,11 @@
 {
-  "description": "William's site",
-  "repo": "https://websterwh16.github.io/willisadev",
-  "owner": {
-    "username": "websterwh16",
-    "email": "websterwh16@gmail.com"
-  },
-  "record": {
-    "CNAME": "websterwh16.github.io"
-  }
+    "description": "William's site",
+    "repo": "https://websterwh16.github.io/willisadev",
+    "owner": {
+        "username": "websterwh16",
+        "email": "websterwh16@gmail.com"
+    },
+    "record": {
+        "CNAME": "websterwh16.github.io"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "hagen's portfolio",
-  "repo": "https://github.com/MrGriefs/hyena.gay",
-  "owner": {
-    "username": "MrGriefs",
-    "email": "hagen@paw.bot"
-  },
-  "record": {
-    "URL": "https://hyena.gay"
-  }
+    "description": "hagen's portfolio",
+    "repo": "https://github.com/MrGriefs/hyena.gay",
+    "owner": {
+        "username": "MrGriefs",
+        "email": "hagen@paw.bot"
+    },
+    "record": {
+        "URL": "https://hyena.gay"
+    }
 }
