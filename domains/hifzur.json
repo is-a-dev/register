@@ -4,6 +4,6 @@
         "email": "hifzur.syl@gmail.com"
     },
     "record": {
-        "CNAME": ""[{"type":"CNAME","allowMultiple":false,"value":"hifzur.github.io"}]""
+        "A": "["185.199.108.153"]"
     }
 }
