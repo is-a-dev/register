@@ -1,9 +1,9 @@
 {
-        "owner": {
-           "username": "thesct22",
-           "email": "sharathct22@gmail.com"
-        },
-        "record": {
-              "CNAME": "thesct22.github.io"
-        }
+    "owner": {
+        "username": "thesct22",
+        "email": "sharathct22@gmail.com"
+    },
+    "record": {
+        "CNAME": "thesct22.github.io"
+    }
 }

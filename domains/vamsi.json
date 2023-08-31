@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "vamsieth",
-    "email": "svamsi.tech@gmail.com"
-  },
-  "record": {
-    "CNAME": "240d43d7-5eea-4fdd-a568-efa5978f8d80.id.repl.co"
-  }
+    "owner": {
+        "username": "vamsieth",
+        "email": "svamsi.tech@gmail.com"
+    },
+    "record": {
+        "CNAME": "240d43d7-5eea-4fdd-a568-efa5978f8d80.id.repl.co"
+    }
 }
