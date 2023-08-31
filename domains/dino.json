@@ -6,7 +6,6 @@
         "email": "me@vitordino.com"
     },
     "record": {
-        "CNAME": "vitordino.com",
-        "URL": "https://dino.is-a.dev"
+        "CNAME": "vitordino.com"
     }
 }

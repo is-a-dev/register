@@ -1,0 +1,12 @@
+{
+    "description": "A Subdomain For My Blogs!!",
+    "repo": "https://github.com/icancodebeauty/blog",
+    "owner": {
+        "username": "icancodebeauty",
+        "email": "ishqaddy@gmail.com",
+        "twitter": "CodeWithAadi"
+    },
+    "record": {
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
+    }
+}

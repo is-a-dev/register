@@ -1,13 +1,11 @@
-
 {
     "description": "The awesome portfolio site for Chinenye Raphael",
     "repo": "https://github.com/rapixar/rapixar.github.io",
     "owner": {
-      "username": "Rapixar",
-      "email": "cudraphael@gmail.com"
+        "username": "Rapixar",
+        "email": "cudraphael@gmail.com"
     },
     "record": {
-      "CNAME": "rapixar.github.io",
-      "URL": "https://rapixar.is-a.dev"
+        "CNAME": "rapixar.github.io"
     }
-  }
+}

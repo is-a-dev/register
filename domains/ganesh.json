@@ -1,12 +1,11 @@
 {
-  "description": "Ganesh Sekhar's Personal Portfolio",
-  "repo": "https://github.com/iamganeshsekhar/iamganeshsekhar.github.io",
-  "owner": {
-    "username": "iamganeshsekhar",
-    "email": "ganeshsekha6@gmail.com"
-  },
-  "record": {
-    "CNAME": "iamganeshsekhar.github.io",
-    "URL": "https://ganesh.is-a.dev"
-  }
+    "description": "Ganesh Sekhar's Personal Portfolio",
+    "repo": "https://github.com/iamganeshsekhar/iamganeshsekhar.github.io",
+    "owner": {
+        "username": "iamganeshsekhar",
+        "email": "ganeshsekha6@gmail.com"
+    },
+    "record": {
+        "CNAME": "iamganeshsekhar.github.io"
+    }
 }

@@ -1,0 +1,11 @@
+{
+    "description": "Berry's developer website",
+    "owner": {
+        "username": "AhmedBaari",
+        "email": "ahmed4baari@gmail.com",
+        "instagram": "berryciouss"
+    },
+    "record": {
+        "CNAME": "cname.short.io"
+    }
+}

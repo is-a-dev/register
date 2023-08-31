@@ -88,6 +88,33 @@ describe('Cpanel client', () => {
     });
   });
 
+  describe('addzonerecord', () => {
+    it('should make the correct request', async () => {
+      const fetch = mockFetch((url, request) => {
+        expect(url).toBe('https://example.com:2000/json-api/cpanel?domain=a.b&line=500&cpanel_jsonapi_user=boy&cpanel_jsonapi_module=ZoneEdit&cpanel_jsonapi_func=remove_zone_record&cpanel_jsonapi_apiversion=2');
+        expect(request).toEqual({
+          headers: {
+            Authorization: 'cpanel boy:boybyebye',
+          },
+          rejectUnauthorized: false,
+        });
+      });
+
+      const cpanel = CpanelClient({
+        host: 'example.com',
+        port: 2000,
+        username: 'boy',
+        apiKey: 'boybyebye',
+        domain: 'a.b',
+        dependencies: { fetch },
+      });
+
+      await cpanel.zone.remove({
+        line: 500,
+      });
+    });
+  });
+
   describe('fetchredirections', () => {
     it('should make the correct request', async () => {
       const fetch = mockFetch((url, request) => {
@@ -137,6 +164,31 @@ describe('Cpanel client', () => {
         domain: 'googo',
         destination: 'https://oodf.com'
       });
+    });
+  });
+
+  describe('deleteredirection', () => {
+    it('should make the correct request', async () => {
+      const fetch = mockFetch((url, request) => {
+        expect(url).toBe('https://example.com:2000/execute/Mime/delete_redirect?domain=googo&cpanel_jsonapi_user=boy&cpanel_jsonapi_module=Mime&cpanel_jsonapi_func=delete_redirect&cpanel_jsonapi_apiversion=2');
+        expect(request).toEqual({
+          headers: {
+            Authorization: 'cpanel boy:boybyebye',
+          },
+          rejectUnauthorized: false,
+        });
+      });
+
+      const cpanel = CpanelClient({
+        host: 'example.com',
+        port: 2000,
+        username: 'boy',
+        apiKey: 'boybyebye',
+        domain: 'a.b',
+        dependencies: { fetch },
+      });
+
+      await cpanel.redirection.remove({ domain: 'googo' });
     });
   });
 });

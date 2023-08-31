@@ -1,12 +1,11 @@
 {
-  "description": "Arya Vinodan's Website",
-  "repo": "https://github.com/aryavinodan",
-  "owner": {
-    "username": "aryavinodan",
-    "email": "aryavinodan2000@gmail.com"
-  },
-  "record": {
-    "CNAME": "aryavinodan2000.github.io",
-    "URL": "https://arya.is-a.dev"
-  }
+    "description": "Arya Vinodan's Website",
+    "repo": "https://github.com/aryavinodan",
+    "owner": {
+        "username": "aryavinodan",
+        "email": "aryavinodan2000@gmail.com"
+    },
+    "record": {
+        "CNAME": "aryavinodan2000.github.io"
+    }
 }

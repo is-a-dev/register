@@ -1,12 +1,11 @@
 {
-  "description": "My Github pages portfolio",
-  "repo": "https://github.com/YAOfficial/portfolio/tree/gh-pages",
-  "owner": {
-    "username": "YAOfficial",
-    "email": "yahumble1@gmail.com"
-  },
-  "record": {
-    "CNAME": "yaofficial.github.io",
-    "URL": "https://yusuf.is-a.dev"
-  }
+    "description": "My Github pages portfolio",
+    "repo": "https://github.com/YAOfficial/portfolio/tree/gh-pages",
+    "owner": {
+        "username": "YAOfficial",
+        "email": "yahumble1@gmail.com"
+    },
+    "record": {
+        "CNAME": "yaofficial.github.io"
+    }
 }

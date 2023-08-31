@@ -3,16 +3,20 @@ const { toHostList, registerDomains } = require('../scripts/register-domains');
 const { TTL, DOMAIN_DOMAIN } = require('../utils/constants');
 const { getDomainService } = require('../utils/domain-service');
 
-const getCpanel = ({ zone, addZone, editZone, redir, addRedir, editRedir } = {}) => ({
+const getCpanel = ({ zone, addZone, removeZone, redir, addRedir, removeRedir } = {}) => ({
   zone: {
     fetch: (_) => zone(),
     add: (rec) => addZone(rec),
-    edit: (rec) => editZone(rec),
+    remove: (rec) => removeZone(rec),
   },
   redirection: {
     fetch: (_) => redir(),
     add: (rec) => addRedir(rec),
-    edit: (rec) => editRedir(rec),
+    remove: (rec) => removeRedir(rec),
+  },
+  email: {
+    add: (rec) => addEmail(rec),
+    remove: (rec) => removeEmail(rec),
   },
 });
 
@@ -22,6 +26,7 @@ describe('toHostList', () => {
       { name: 'akshay', record: { CNAME: 'phenax.github.io' } },
       { name: 'foobar', record: { CNAME: 'v.io' } },
       { name: 'xx', record: { A: ['1.2.3.4', '5.6.3.2', '1.2.31.1'] } },
+      { name: 'xx', record: { CNAME: 'foobar.com', MX: ['as.com', 'f.com'] } },
     ]);
 
     expect(res).toEqual([
@@ -30,30 +35,41 @@ describe('toHostList', () => {
       { name: 'xx', type: 'A', address: '1.2.3.4', ttl: TTL },
       { name: 'xx', type: 'A', address: '5.6.3.2', ttl: TTL },
       { name: 'xx', type: 'A', address: '1.2.31.1', ttl: TTL },
+      { name: 'xx', type: 'CNAME', address: 'foobar.com', ttl: TTL },
+      { name: 'xx', type: 'MX', address: 'as.com', priority: 20, ttl: TTL },
+      { name: 'xx', type: 'MX', address: 'f.com', priority: 21, ttl: TTL },
     ]);
   });
 });
 
 describe('registerDomains', () => {
   const addZone = jest.fn(async () => ({}));
-  const editZone = jest.fn(async () => ({}));
+  const removeZone = jest.fn(async () => ({}));
   const addRedir = jest.fn(async () => ({}));
-  const editRedir = jest.fn(async () => ({}));
+  const removeRedir = jest.fn(async () => ({}));
+  const addEmail = jest.fn(async () => ({}));
+  const removeEmail = jest.fn(async () => ({}));
 
-  const mockDS = ({ zones, redirections }) => getDomainService({ cpanel: getCpanel({
-    zone: async () => zones,
-    redir: async () => redirections,
-    addZone,
-    addRedir,
-    editZone,
-    editRedir,
-  }) });
+  const mockDS = ({ zones, redirections }) => getDomainService({
+    cpanel: getCpanel({
+      zone: async () => zones,
+      redir: async () => redirections,
+      addZone,
+      addEmail,
+      addRedir,
+      removeZone,
+      removeRedir,
+      removeEmail,
+    })
+  });
 
   beforeEach(() => {
     addZone.mockClear();
-    editZone.mockClear();
+    removeZone.mockClear();
     addRedir.mockClear();
-    editRedir.mockClear();
+    removeRedir.mockClear();
+    addEmail.mockClear();
+    removeEmail.mockClear();
   });
 
   it('should register the new set of hosts generated from domains list', async () => {
@@ -62,9 +78,9 @@ describe('registerDomains', () => {
       { name: 'b', record: { CNAME: 'xaa' } },
     ];
     const remoteHosts = [
-      { someididk: 1, name: 'a', type: 'CNAME', address: 'hello' },
-      { someididk: 2, name: 'b', type: 'CNAME', address: 'goo' },
-      { someididk: 2, name: 'b', type: 'CNAME', address: 'xaa' },
+      { line: 1, name: 'a', type: 'CNAME', address: 'hello' },
+      { line: 2, name: 'b', type: 'CNAME', address: 'goo' },
+      { line: 3, name: 'b', type: 'CNAME', address: 'xaa' },
     ];
     const remoteRedirections = [];
 
@@ -72,9 +88,9 @@ describe('registerDomains', () => {
     await registerDomains({ getDomains: async () => localHosts, domainService });
 
     expect(addZone).toBeCalledTimes(0);
-    expect(editZone).toBeCalledTimes(0);
+    expect(removeZone).toBeCalledTimes(1);
     expect(addRedir).toBeCalledTimes(0);
-    expect(editRedir).toBeCalledTimes(0);
+    expect(removeRedir).toBeCalledTimes(0);
   });
 
   it('should add the new set hosts', async () => {
@@ -84,8 +100,8 @@ describe('registerDomains', () => {
       { name: 'c', record: { CNAME: 'yello', URL: 'https://google.com' } },
     ];
     const remoteHosts = [
-      { someididk: 1, name: 'a', type: 'CNAME', address: 'boo' },
-      { someididk: 2, name: 'b', type: 'CNAME', address: 'xaa' },
+      { line: 1, name: 'a', type: 'CNAME', address: 'boo' },
+      { line: 2, name: 'b', type: 'CNAME', address: 'xaa' },
     ];
     const remoteRedirections = [
       { domain: `b.${DOMAIN_DOMAIN}`, destination: 'x' },
@@ -96,9 +112,9 @@ describe('registerDomains', () => {
     await registerDomains({ getDomains: async () => localHosts, domainService });
 
     expect(addZone).toBeCalledTimes(1);
-    expect(editZone).toBeCalledTimes(0);
-    expect(addRedir).toBeCalledTimes(1);
-    expect(editRedir).toBeCalledTimes(1);
+    expect(removeZone).toBeCalledTimes(0);
+    expect(addRedir).toBeCalledTimes(2);
+    expect(removeRedir).toBeCalledTimes(1);
   });
 });
 

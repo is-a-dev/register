@@ -1,12 +1,11 @@
 {
-  "description": "Martial is a dev",
-  "repo": "https://github.com/MartialSeron/MartialSeron.github.io",
-  "owner": {
-    "username": "MartialSeron",
-    "email": "martial.seron@gmail.com"
-  },
-  "record": {
-    "CNAME": "martialseron.github.io",
-    "URL": "https://martial.is-a.dev"
-  }
+    "description": "Martial is a dev",
+    "repo": "https://github.com/MartialSeron/MartialSeron.github.io",
+    "owner": {
+        "username": "MartialSeron",
+        "email": "martial.seron@gmail.com"
+    },
+    "record": {
+        "CNAME": "martialseron.github.io"
+    }
 }

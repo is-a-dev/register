@@ -1,11 +1,11 @@
 {
-  "description": "Portfolio Website",
-  "repo": "https://github.com/ashleymavericks/Portfolio-Site",
-  "owner": {
-    "username": "ashlyemavericks",
-    "email": "singhanurag024@gmail.com"
-  },
-  "record": {
-    "URL": "https://anuragsingh.dev"
-  }
+    "description": "Portfolio Website",
+    "repo": "https://github.com/ashleymavericks/Portfolio-Site",
+    "owner": {
+        "username": "ashlyemavericks",
+        "email": "singhanurag024@gmail.com"
+    },
+    "record": {
+        "URL": "https://anuragsingh.dev"
+    }
 }

@@ -1,12 +1,11 @@
 {
-  "description": "Alexander's personal website",
-  "repo": "https://github.com/amatzen",
-  "owner": {
-    "username": "amatzen",
-    "email": "alexander@alexander.dk"
-  },
-  "record": {
-    "CNAME": "alexander.dk",
-    "URL": "https://alexander.is-a.dev"
-  }
+    "description": "Alexander's personal website",
+    "repo": "https://github.com/amatzen",
+    "owner": {
+        "username": "amatzen",
+        "email": "alexander@alexander.dk"
+    },
+    "record": {
+        "CNAME": "alexander.dk"
+    }
 }

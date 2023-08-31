@@ -1,11 +1,10 @@
 {
-  "description": "Owain's Website",
-  "owner": {
-    "username": "owjothegreat",
-    "email": "owain.jones74@gmail.com"
-  },
-  "record": {
-    "CNAME": "0wain.xyz",
-    "URL": "https://owain.is-a.dev"
-  }
+    "description": "Owain's Website",
+    "owner": {
+        "username": "owjothegreat",
+        "email": "owain.jones74@gmail.com"
+    },
+    "record": {
+        "CNAME": "0wain.xyz"
+    }
 }

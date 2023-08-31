@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "filipekiss",
-    "email": "filipe@kiss.ink"
-  },
-  "record": {
-    "CNAME": "filipe.kiss.ink",
-    "URL": "https://kiss.is-a.dev"
-  }
+    "owner": {
+        "username": "filipekiss",
+        "email": "filipe@kiss.ink"
+    },
+    "record": {
+        "CNAME": "filipe.kiss.ink"
+    }
 }

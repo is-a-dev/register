@@ -2,11 +2,10 @@
     "description": "The awesome portfolio site for Adrian Grimm",
     "repo": "https://github.com/usmcamgrimm/usmcamgrimm.github.io",
     "owner": {
-      "username": "usmcamgrimm",
-      "email": "usmcamgrimm@gmail.com"
+        "username": "usmcamgrimm",
+        "email": "usmcamgrimm@gmail.com"
     },
     "record": {
-      "CNAME": "usmcamgrimm.github.io",
-      "URL": "https://adrian.is-a.dev"
+        "CNAME": "usmcamgrimm.github.io"
     }
-  }
+}

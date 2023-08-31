@@ -1,13 +1,11 @@
- 
 {
-  "description": "/home/epgeroy",
-  "repo": "https://github.com/epgeroy/epgeroy.github.io",
-  "owner": {
-    "username": "epgeroy",
-    "email": "epgeroy@gmail.com"
-  },
-  "record": {
-    "CNAME": "epgeroy.github.io",
-    "URL": "https://epgeroy.is-a.dev"
-  }
+    "description": "/home/epgeroy",
+    "repo": "https://github.com/epgeroy/epgeroy.github.io",
+    "owner": {
+        "username": "epgeroy",
+        "email": "epgeroy@gmail.com"
+    },
+    "record": {
+        "CNAME": "epgeroy.github.io"
+    }
 }

@@ -1,11 +1,10 @@
 {
-  "description": "Muzammil's Portfolio Website",
-  "owner": {
-    "username": "taqnar",
-    "email": "muzammilthottathil.official@gmail.com"
-  },
-  "record": {
-    "CNAME": "taqnar.github.io",
-    "URL": "https://muzammil.is-a.dev"
-  }
+    "description": "Muzammil's Portfolio Website",
+    "owner": {
+        "username": "taqnar",
+        "email": "muzammilthottathil.official@gmail.com"
+    },
+    "record": {
+        "CNAME": "taqnar.github.io"
+    }
 }

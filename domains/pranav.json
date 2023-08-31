@@ -1,0 +1,11 @@
+{
+    "description": "Pranav's personal website",
+    "repo": "https://github.com/pranavnt/pt5.dev",
+    "owner": {
+        "username": "pranavnt",
+        "email": "pranavnt@outlook.com"
+    },
+    "record": {
+        "CNAME": "pt5.dev"
+    }
+}

@@ -1,12 +1,11 @@
 {
-  "description": "A-Tokyo's website",
-  "repo": "https://github.com/a-tokyo/tokyo",
-  "owner": {
-    "username": "a-tokyo",
-    "email": "ahmed.tokyo1@gmail.com"
-  },
-  "record": {
-    "CNAME": "a-tokyo.github.io",
-    "URL": "https://tokyo.is-a.dev"
-  }
+    "description": "A-Tokyo's website",
+    "repo": "https://github.com/a-tokyo/tokyo",
+    "owner": {
+        "username": "a-tokyo",
+        "email": "ahmed.tokyo1@gmail.com"
+    },
+    "record": {
+        "CNAME": "a-tokyo.github.io"
+    }
 }

@@ -2,11 +2,10 @@
     "description": "F Javier López GitHub profile",
     "repo": "https://github.com/fjavierlh/fjavierlh.github.io",
     "owner": {
-      "username": "fjavierlh",
-      "email": "fjavierlh@gmail.com"
+        "username": "fjavierlh",
+        "email": "fjavierlh@gmail.com"
     },
     "record": {
-      "CNAME": "fjavierlh.github.io",
-      "URL": "https://fjavierlh.is-a.dev"
+        "CNAME": "fjavierlh.github.io"
     }
-  }
+}

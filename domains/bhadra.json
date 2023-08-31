@@ -1,12 +1,11 @@
 {
-  "description": "Personal Website",
-  "repo": "https://github.com/BhadraJayakumarSandhya/BhadraJayakumarSandhya.github.io",
-  "owner": {
-    "username": "BhadraJayakumarSandhya",
-    "email": "tomjerryparu@gmail.com"
-  },
-  "record": {
-    "CNAME": "BhadraJayakumarSandhya.github.io",
-    "URL": "https://bhadra.is-a.dev"
-  }
+    "description": "Personal Website",
+    "repo": "https://github.com/BhadraJayakumarSandhya/BhadraJayakumarSandhya.github.io",
+    "owner": {
+        "username": "BhadraJayakumarSandhya",
+        "email": "tomjerryparu@gmail.com"
+    },
+    "record": {
+        "CNAME": "BhadraJayakumarSandhya.github.io"
+    }
 }

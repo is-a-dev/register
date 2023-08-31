@@ -6,7 +6,6 @@
         "email": "matthias@bilger.info"
     },
     "record": {
-        "CNAME": "bilger.info",
-        "URL": "https://m42e.is-a.dev"
+        "CNAME": "bilger.info"
     }
 }

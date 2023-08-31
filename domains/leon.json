@@ -1,14 +1,10 @@
 {
-  "repo": "https://github.com/LeonskiDev/leonskidev.github.io",
-  "description": "This is my portfolio website, if possible I'll also have bodged.is-a.dev as my blog.",
-
-  "owner": {
-    "username": "LeonskiDev",
-    "email": "bodged@pm.me"
-  },
-
-  "record": {
-    "CNAME": "leonskidev.github.io",
-    "URL": "https://leonskidev.is-a.dev"
-  }
+    "repo": "https://github.com/LeonskiDev/leonskidev",
+    "owner": {
+        "username": "LeonskiDev",
+        "email": "bodged@pm.me"
+    },
+    "record": {
+        "CNAME": "leonskidev.github.io"
+    }
 }

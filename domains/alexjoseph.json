@@ -1,12 +1,11 @@
 {
-  "description": "This is my first githib page",
-  "repo": "https://github.com/alexkjoseph/alexkjoseph.github.io",
-  "owner": {
-    "username": "alexkjoseph",
-    "email": "aj71563@gmail.com"
-  },
-  "record": {
-    "CNAME": "alexkjoseph.github.io",
-    "URL": "https://alexjoseph.is-a.dev"
-  }
+    "description": "This is my first githib page",
+    "repo": "https://github.com/alexkjoseph/alexkjoseph.github.io",
+    "owner": {
+        "username": "alexkjoseph",
+        "email": "aj71563@gmail.com"
+    },
+    "record": {
+        "CNAME": "alexkjoseph.github.io"
+    }
 }

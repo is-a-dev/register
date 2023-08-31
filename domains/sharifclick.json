@@ -1,12 +1,11 @@
 {
-  "description": "personal website",
-  "repo": "https://github.com/SharifClick/sharifclick.github.io",
-  "owner": {
-    "username": "sharifclick",
-    "email": "me.sharifahmed@gmail.com"
-  },
-  "record": {
-    "CNAME": "sharifclick.github.io",
-    "URL": "https://sharifclick.is-a.dev"
-  }
+    "description": "personal website",
+    "repo": "https://github.com/SharifClick/sharifclick.github.io",
+    "owner": {
+        "username": "sharifclick",
+        "email": "me.sharifahmed@gmail.com"
+    },
+    "record": {
+        "CNAME": "sharifclick.github.io"
+    }
 }

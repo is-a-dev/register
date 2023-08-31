@@ -1,12 +1,11 @@
 {
-	"description": "B45i - Home Page",
-	"repo": "https://github.com/B45i/b45i.github.io",
-	"owner": {
-		"username": "B45i",
-		"email": "amalshajan2011@gmail.com"
-	},
-	"record": {
-		"CNAME": "b45i.github.io",
-		"URL": "https://b45i.is-a.dev"
-	}
+    "description": "B45i - Home Page",
+    "repo": "https://github.com/B45i/b45i.github.io",
+    "owner": {
+        "username": "B45i",
+        "email": "amalshajan2011@gmail.com"
+    },
+    "record": {
+        "CNAME": "b45i.github.io"
+    }
 }

@@ -2,12 +2,10 @@
     "description": "The face of Blaine, on the web",
     "repo": "https://github.com/Blakeinstein/Blakeinstein.github.io",
     "owner": {
-      "username": "Blakeinstein",
-      "email": "rishi1998@gmail.com"
+        "username": "Blakeinstein",
+        "email": "rishi1998@gmail.com"
     },
     "record": {
-      "CNAME": "blakeinstein.github.io",
-      "URL": "https://blaine.is-a.dev"
+        "URL": "https://blaine.vip"
     }
-  }
-  
+}

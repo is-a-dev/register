@@ -6,7 +6,6 @@
         "email": "sifulweb@gmail.com"
     },
     "record": {
-      "CNAME": "sifulbd.github.io",
-      "URL": "https://siful.is-a.dev"
+        "CNAME": "sifulbd.github.io"
     }
-  }
+}

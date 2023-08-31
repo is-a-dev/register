@@ -1,12 +1,11 @@
 {
-  "description": "Muchenski's personal developer website",
-  "repo": "https://github.com/HenriqueMuchenski/henriquemuchenski.github.io",
-  "owner": {
-    "username": "HenriqueMuchenski",
-    "email": "hjmuchenski@gmail.com"
-  },
-  "record": {
-    "CNAME": "henriquemuchenski.github.io",
-    "URL": "https://muchenski.is-a.dev"
-  }
+    "description": "Muchenski's personal developer website",
+    "repo": "https://github.com/Muchenski/muchenski.github.io",
+    "owner": {
+        "username": "Muchenski",
+        "email": "muchenski.dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "muchenski.github.io"
+    }
 }

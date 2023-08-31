@@ -1,0 +1,11 @@
+{
+    "description": "My Profile Website",
+    "repo": "https://github.com/minoyahia/personal-website",
+    "owner": {
+        "username": "minoyahia",
+        "email": "notminoyahiahf@gmail.com"
+    },
+    "record": {
+        "CNAME": "personal-website-cyj.pages.dev"
+    }
+}

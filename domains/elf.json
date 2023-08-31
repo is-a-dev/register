@@ -1,0 +1,11 @@
+{
+    "description": "Elflanded's Development Website.",
+    "repo": "https://github.com/Elflanded/website",
+    "owner": {
+        "username": "Elflanded",
+        "email": "elflanded@gmail.com"
+    },
+    "record": {
+        "CNAME": "elflanded.github.io"
+    }
+}
