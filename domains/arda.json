@@ -1,12 +1,12 @@
 {
-    "description": "arda.is-a.dev",
-    "repo": "https://github.com/duzelicem/duzelicem.github.io",
+    "description": "personal website",
+    "repo": "https://github.com/duzelicem",
     "owner": {
         "username": "duzelicem",
         "email": "ardagkc@proton.me",
-        "discord": "arda#0666"
+        "discord": "dcez"
     },
     "record": {
-        "CNAME": "duzelicem.github.io"
+        "CNAME": "duzelicem.com"
     }
 }
