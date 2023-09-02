@@ -4,6 +4,6 @@
         "email": "realuprising2005@gmail.com"
     },
     "record": {
-        "TXT": ""[{"type":"CNAME","value":"lpkeates.github.io","allowMultiple":false},{"type":"TXT","allowMultiple":true,"value":"_github-pages-challenge-lpkeates.lpkeates"}]""
+        "CNAME": "lpkeates.github.io"
     }
 }
