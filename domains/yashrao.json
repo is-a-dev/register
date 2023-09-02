@@ -4,6 +4,6 @@
         "email": "cwyash.rao@gmail.com"
     },
     "record": {
-        "CNAME": "py-yash.github.io"
+        "CNAME": ""[{"type":"CNAME","value":"py-yash.github.io","allowMultiple":false}]""
     }
 }
