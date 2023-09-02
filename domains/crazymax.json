@@ -4,6 +4,6 @@
         "email": "Crazy-Max-2011@yandex.ru"
     },
     "record": {
-        "CNAME": ""[{"type":"CNAME","allowMultiple":false,"value":"https://crazy-max-blog.github.io"}]""
+        "CNAME": "crazy-max-blog.github.io"
     }
 }
