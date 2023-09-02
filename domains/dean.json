@@ -4,6 +4,6 @@
         "email": "dandepan303@gmail.com"
     },
     "record": {
-        "A": "["185.199.108.153 185.199.109.153 185.199.110.153 185.199.111.153"]"
+        "TXT": ""[{"type":"A","value":"185.199.108.153 185.199.109.153 185.199.110.153 185.199.111.153","allowMultiple":false},{"type":"MX","value":"dean.is-a.dev","allowMultiple":true},{"type":"TXT","value":"v=spf1 a mx ip4:217.174.245.249 ~all","allowMultiple":true}]""
     }
 }
