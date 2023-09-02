@@ -1,10 +1,9 @@
 {
-    "description": "My Website",
     "owner": {
-        "username": "kvotrcsgo",
+        "username": "YouFoundAlpha",
         "email": "sweepalf@gmail.com"
     },
     "record": {
-        "CNAME": "youfoundalpha.pages.dev"
+"URL": "http://youfoundalpha.vercel.app"
     }
 }

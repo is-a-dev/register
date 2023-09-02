@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "scott1991",
-           "email": "cakepbm@gmail.com"
-        },
-        "record": {
-            "A": ["128.22.136.213"]
-        }
+    "owner": {
+        "username": "scott1991",
+        "email": "cakepbm@gmail.com"
+    },
+    "record": {
+        "A": ["128.22.136.213"]
     }
-    
+}
