@@ -4,6 +4,6 @@
         "email": "codewithamey@gmail.com"
     },
     "record": {
-        "URL": ""[{"type":"URL","allowMultiple":false,"value":"https://www.amey.me/"}]""
+        "CNAME": ""[{"type":"CNAME","value":"panditamey.github.io","allowMultiple":false}]""
     }
 }
