@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "gpchn",
-        "email": "Gprogrammer@163.com"
+        "email": "gprogrammer@163.com"
     },
     "record": {
-        "TXT": "vc-domain-verify=gpchn.is-a.dev,7e97866e6553f21cedf4"
+        "CNAME": "gpchn.pages.dev"
     }
 }
