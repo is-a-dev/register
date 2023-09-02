@@ -1,10 +1,9 @@
 {
     "owner": {
         "username": "WilliamDavidHarrison",
-        "email": "william@williamharrison.dev"
+        "email": "william@williamdavidharrison.com.au"
     },
-
     "record": {
-        "CNAME": "hosts.is-a.dev"
+        "CNAME": ""[{"type":"CNAME","value":"hosts.is-a.dev","allowMultiple":false}]""
     }
 }
