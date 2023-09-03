@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "tilkidevelopment",
-        "email": "umeyirmuzafferpak@gmail.com"
+        "email": "tilki@tilki.dev"
     },
     "record": {
-        "URL": "https://tilki.dev"
+        "CNAME": "e30710a9-0f92-42e4-a957-e8dafff22844.id.repl.co",
+        "TXT": "replit-verify=e30710a9-0f92-42e4-a957-e8dafff22844"
     }
 }
