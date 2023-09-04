@@ -1,9 +1,12 @@
 {
+    "description": "Miu.is-a.dev",
+    "repo": "https://github.com/Miu-Discord/Miu-Discord.github.io",
     "owner": {
         "username": "lrmn7",
-        "email": "lrmn.dev@gmail.com"
+        "email": "lrmn.dev@gmail.com",
+        "discord": "romanromannya#0"
     },
     "record": {
-        "CNAME": "miu-discord.github.io"
+        "CNAME": "Miu-Discord.github.io"
     }
 }
