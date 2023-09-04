@@ -1,9 +1,12 @@
 {
+    "description": "Lucy.is-a.dev",
+    "repo": "https://github.com/Hai-Lucy/Hai-Lucy.github.io",
     "owner": {
         "username": "lrmn7",
-        "email": "lrmn.dev@gmail.com"
+        "email": "lrmn.dev@gmail.com",
+        "discord": "romanromannya#0"
     },
     "record": {
-        "CNAME": "hai-lucy.github.io"
+        "CNAME": "Hai-Lucy.github.io"
     }
 }
