@@ -1,12 +1,12 @@
 {
-  "description": "Ethan's website",
-  "repo": "https://github.com/0x3st/0x3st.github.io",
-  "owner": {
-      "username": "not-a-ethan",
-      "email": "",
-      "discord": "Ethan#6264"
-  },
-  "record": {
-      "CNAME": "not-a-ethan.github.io"
-  }
+    "owner": {
+        "username": "not-a-ethan",
+        "email": "",
+        "discord": "not_ethan."
+    },
+    "record": {
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all",
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
+    }
 }
