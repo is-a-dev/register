@@ -1,12 +1,11 @@
 {
-    "description": "for my personal website ^_^",
-    "repo": "https://github.com/ppg00/ppg00.github.io",
     "owner": {
         "username": "ppg00",
-        "email": "ppqg00@gmail.com",
-        "twitter": "qqg00"
+        "email": "vx2dsk@gmail.com"
     },
     "record": {
-        "CNAME": "ppg00.github.io"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
-} 
+}
