@@ -4,6 +4,8 @@
         "email": "kiwibird211@icloud.com"
     },
     "record": {
-        "TXT": ""[{"type":"URL","value":"https://peacy.is-a.dev/.well-known/discord","allowMultiple":false},{"type":"TXT","allowMultiple":true,"value":"dh=49573fc56f2a69919778375f6512a3701cabdba2"}]""
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
