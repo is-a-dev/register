@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "pandaninjas",
         "email": "admin@malwarefight.gq"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "pandaninjas.github.io"
-      }
     }
-    
+}

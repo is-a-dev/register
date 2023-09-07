@@ -1,12 +1,12 @@
 {
-  "description": "Andros's personal developer website",
-  "repo": "https://github.com/tanrax",
-  "owner": {
-    "username": "Andros Fenollosa Hurtado",
-    "email": "",
-    "twitter": "@androsfenollosa"
-  },
-  "record": {
-    "URL": "https://programadorwebvalencia.com"
-  }
+    "description": "Andros's personal developer website",
+    "repo": "https://github.com/tanrax",
+    "owner": {
+        "username": "tanrax",
+        "email": "",
+        "twitter": "androsfenollosa"
+    },
+    "record": {
+        "URL": "https://programadorwebvalencia.com"
+    }
 }

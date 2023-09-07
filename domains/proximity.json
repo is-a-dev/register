@@ -1,13 +1,11 @@
 {
-  "description": "Dev Env",
-  "repo": "https://github.com/hexed",
-  "owner": {
-    "username": "hexed",
-    "email": "me@proximity.sh"
-  },
-  "record": {
-    "A": [
-      "144.172.67.6"
-    ]
-  }
+    "description": "Dev Env",
+    "repo": "https://github.com/hexed",
+    "owner": {
+        "username": "hexed",
+        "email": "me@proximity.sh"
+    },
+    "record": {
+        "A": ["144.172.67.6"]
+    }
 }

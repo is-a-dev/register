@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "TheekshanaSL",
         "email": "theekshana@technologist.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "hashnode.network"
-      }
     }
-  
+}

@@ -1,11 +1,11 @@
 {
-  "description": "A simple non-static site for Zhycorp",
-  "repo": "https://github.com/zhycorp",
-  "owner": {
-    "username": "zhycorp",
-    "email": "support@zhycorp.xyz"
-  },
-  "record": {
-    "CNAME": "rd73mzgq7jp59yq0.preview.edgeapp.net"
-  }
+    "description": "A simple non-static site for Zhycorp",
+    "repo": "https://github.com/zhycorp",
+    "owner": {
+        "username": "zhycorp",
+        "email": "support@zhycorp.xyz"
+    },
+    "record": {
+        "CNAME": "rd73mzgq7jp59yq0.preview.edgeapp.net"
+    }
 }

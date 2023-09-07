@@ -1,0 +1,12 @@
+{
+    "description": "Portfolio",
+    "repo": "https://github.com/Dylan-Marsili/dylan-marsili.github.io",
+    "owner": {
+        "username": "Dylan-Marsili",
+        "email": "marsilidylan@gmail.com",
+        "twitter": "dylan_marsili"
+    },
+    "record": {
+        "CNAME": "dylan-marsili.github.io"
+    }
+}

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "FearMyShotz",
         "email": "supremeplayzbs@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "fearmyshotz.github.io"
-      }
     }
-    
+}

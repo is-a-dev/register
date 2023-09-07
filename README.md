@@ -16,23 +16,41 @@
    <a href="https://discord.gg/PZCGHz4RhQ"><img alt="Discord Server" src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2"></a>
 </p>
 
-## Registration
-Try out our new fast and easy subdomain registration service [here](https://register.is-a.dev)!
+## Register
 
-Or via the CI:
+### Automated Registration
+Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your github account and click the register page in the navbar. Fill out some questions and it will all happen automagically!
 
-```bash
-npm install @is-a-dev/cli -g
-is-a-dev create
-```  
+Another method is to join our [Discord](https://discord.gg/PZCGHz4RhQ) then head to the commands channel and do /register . The bot will ask you a few questions then will generate your PR and domain automaticly. The bot also allows for domain deletion and editing.
 
-**Manual Registration**:
+### Manual Registration
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
 - [Read the documentation](https://is-a.dev/docs).
 - Your pull request will be reviewed and merged. *Make sure to keep an eye on it incase we need you to make any changes!*
 - After the pull request is merged, please allow up to 24 hours for the changes to propagate.
 - Enjoy your new `.is-a.dev` domain!
+
+### CLI Registration
+For issues with the CLI, **DO NOT OPEN AN ISSUE ON THIS REPOSITORY**, instead open an issue [here](https://github.com/wdhdev/is-a-dev-cli/issues/new).
+
+Install the CLI:
+
+```bash
+npm install @is-a-dev/cli -g
+```  
+
+Login to the CLI:
+
+```bash
+is-a-dev login
+```
+
+Register a subdomain on the CLI:
+
+```
+is-a-dev register
+```
 
 ## Status
 You can check the uptime of our services on our [status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw).

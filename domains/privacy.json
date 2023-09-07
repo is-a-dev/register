@@ -1,16 +1,11 @@
 {
     "owner": {
-        "username": "@is-a-dev/maintainers",
+        "username": "is-a-dev",
         "email": "phenax5@gmail.com"
     },
     "record": {
-        "A": [
-            "185.199.108.153",
-            "185.199.109.153",
-            "185.199.110.153",
-            "185.199.111.153"
-        ],
+        "URL": "https://team.is-a.dev",
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": "forward-email=privacy.isdev.localplayer.dev"
+        "TXT": "forward-email=isdevmail.beadman-network.com,andrew@win11react.com"
     }
 }

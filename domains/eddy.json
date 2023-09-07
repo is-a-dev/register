@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "331leo",
-    "email": "331leo@kakao.com"
-  },
-  "record": {
-    "CNAME": "dev.is.eddy.leok.kr"
-  }
+    "owner": {
+        "username": "331leo",
+        "email": "331leo@kakao.com"
+    },
+    "record": {
+        "CNAME": "dev.is.eddy.leok.kr"
+    }
 }

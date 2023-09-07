@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
-        "username": "TurquoiseTNT",
+{
+    "owner": {
+        "username": "SebTNT",
         "email": "turquoisetntmultimedia@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "turquoisetnt.github.io"
-      }
     }
-    
+}

@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "AikoNee",
         "email": "shenzie1131@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "aiko.pages.dev"
-      }
     }
-  
+}
