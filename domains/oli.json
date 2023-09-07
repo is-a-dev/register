@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "qyful",
-    "email": "",
-    "twitter": "Qyful",
-    "discord": "Qyful#1800"
-  },
-  "record": {
-    "CNAME": "cb41d586-dc17-4f5d-b336-2c93504644e4.id.repl.co"
-  }
+    "owner": {
+        "username": "qyful",
+        "email": "",
+        "twitter": "Qyful",
+        "discord": "Qyful#1800"
+    },
+    "record": {
+        "CNAME": "cb41d586-dc17-4f5d-b336-2c93504644e4.id.repl.co"
+    }
 }

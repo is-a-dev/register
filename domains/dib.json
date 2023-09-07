@@ -1,12 +1,11 @@
 {
-  "description": "URL Shortener for sites.",
-  "repo": "https://github.com/DIBSTERYT",
-  "owner": {
-    "username": "DIBSTERYT",
-    "email": "contact@dibster.ml",
-    "twitter": "DEV_DIBSTER"
-  },
-  "record": {
-      "A": ["192.95.42.66"]
-  }
+    "description": "URL Shortener for sites.",
+    "owner": {
+        "username": "DEV-DIBSTER",
+        "email": "dibster@danbot.host",
+        "twitter": "DEV_DIBSTER"
+    },
+    "record": {
+        "CNAME": "proxy.dib.localplayer.dev"
+    }
 }

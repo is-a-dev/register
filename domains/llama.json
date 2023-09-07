@@ -1,11 +1,11 @@
 {
-  "description": "LlamaLad7's personal website",
-  "repo": "https://github.com/LlamaLad7/llamalad7.github.io",
-  "owner": {
-    "username": "LlamaLad7",
-    "email": "l3gomindstorms@gmail.com"
-  },
-  "record": {
-    "CNAME": "llamalad7.github.io"
-  }
+    "description": "LlamaLad7's personal website",
+    "repo": "https://github.com/LlamaLad7/llamalad7.github.io",
+    "owner": {
+        "username": "LlamaLad7",
+        "email": "l3gomindstorms@gmail.com"
+    },
+    "record": {
+        "CNAME": "llamalad7.github.io"
+    }
 }

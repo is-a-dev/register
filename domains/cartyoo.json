@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Cartyoo",
-    "email": "cartyoogaming@gmail.com"
-  },
-  "record": {
-    "CNAME": "cartyoo.github.io"
-  }
+    "owner": {
+        "username": "Cartyoo",
+        "email": "cartyoogaming@gmail.com"
+    },
+    "record": {
+        "CNAME": "cartyoo.github.io"
+    }
 }

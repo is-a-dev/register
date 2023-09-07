@@ -1,10 +1,10 @@
 {
-  "description": "The documentation website for Ball discord bot.",
-  "owner": {
-    "username": "MouseMoosz",
-    "email": "mousemoosz@protonmail.com"
-  },
-  "record": {
-    "CNAME": "mousemoosz.github.io"
-  }
+    "description": "The documentation website for Ball discord bot.",
+    "owner": {
+        "username": "MouseMoosz",
+        "email": "mousemoosz@protonmail.com"
+    },
+    "record": {
+        "CNAME": "mousemoosz.github.io"
+    }
 }

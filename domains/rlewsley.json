@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "lewsley-r",
         "email": "lewsley-r@ulster.ac.uk"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "lewsley-r.github.io"
-      }
     }
-  
+}

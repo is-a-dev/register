@@ -1,11 +1,11 @@
 {
-  "description": "Tim's personal website",
-  "repo": "https://github.com/tsull360/tsull360.github.io",
-  "owner": {
-    "username": "tsull360",
-    "email": "tsull360@outlook.com"
-  },
-  "record": {
-    "CNAME": "tsull360.github.io"
-  }
+    "description": "Tim's personal website",
+    "repo": "https://github.com/tsull360/tsull360.github.io",
+    "owner": {
+        "username": "tsull360",
+        "email": "tsull360@outlook.com"
+    },
+    "record": {
+        "CNAME": "tsull360.github.io"
+    }
 }
