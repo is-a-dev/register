@@ -5,9 +5,6 @@
       "email": "contact@teamtbm.org"
     },
     "record": {
-       "NAMESERVER": "maceio.ns.porkbun.com",
-       "NAMESERVER": "curitiba.ns.porkbun.com",
-       "NAMESERVER": "salvador.ns.porkbun.com",
-       "NAMESERVER": "fortaleza.ns.porkbun.com"
+       "CNAME": "tylermwise.github.io"
     }
   }
