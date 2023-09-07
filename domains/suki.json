@@ -1,13 +1,11 @@
 {
-    "description": "A cool website",
-    "repo": "https://github.com/SukiPlayz/hello-world",
     "owner": {
-        "username": "SukiPlayz",
-        "email": "sukimayoo@outlook.com"
-    },
-    "record": {
-        "A": ["212.193.3.66"],
-        "TXT": "v=spf1 a mx ip4:212.193.3.66 ~all",
-        "MX": "panel.crystalcloud.xyz"
+            "username": "SukiPlayz",
+            "email": "sukimayoo@outlook.com"
+        },
+        "record": {
+            "A": ["217.174.245.249"],
+            "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all",
+            "MX": ["hosts.is-a.dev"]
+        }
     }
-}
