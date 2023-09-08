@@ -6,6 +6,6 @@
         "email": "tyagiansh175@gmail.com"
     },
     "record": {
-        "CNAME": "85fea144-dc5a-45d3-84e3-c3400bf93e87.id.repl.co"
+        "A": [4.224.45.32]
     }
 }
