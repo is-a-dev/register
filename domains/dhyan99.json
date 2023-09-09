@@ -1,13 +1,11 @@
-
-    {
-      "repo": "https://github.com/d99-1/d99-1.github.io",
-      "owner": {
+{
+    "repo": "https://github.com/d99-1/dhyan99-portfolio",
+    "owner": {
         "username": "D99-1",
         "email": "dhyantanna@gmail.com"
-      },
+    },
 
-      "record": {
-        "CNAME": "d99-1.github.io"
-      }
+    "record": {
+        "CNAME": "3464245b-2def-4309-ab2b-9474f03ca3f2.id.repl.co"
     }
-  
+}

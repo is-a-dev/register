@@ -1,9 +1,9 @@
 {
-	"owner": {
-		"username": "sa-mustafa",
-		"email": "s.a.mustafa@yandex.com"
-	},
-	"record": {
-		"CNAME": "dev.imagesmith.io"
-	}
+    "owner": {
+        "username": "sa-mustafa",
+        "email": "s.a.mustafa@yandex.com"
+    },
+    "record": {
+        "CNAME": "dev.imagesmith.io"
+    }
 }

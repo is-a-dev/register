@@ -1,12 +1,12 @@
 {
-  "description": "Saizuo's Portfolio Website",
-  "repo": "https://github.com/saizuo/saizuo.github.io",
-  "owner": {
-      "username": "Saizuo",
-      "email": "jhaakash177@gmail.com",
-      "twitter": "SaizyWaizy"
-  },
-  "record": {
-      "CNAME": "Saizuo.github.io"
-  }
+    "description": "Saizuo's Portfolio Website",
+    "repo": "https://github.com/saizuo/saizuo.github.io",
+    "owner": {
+        "username": "Saizuo",
+        "email": "jhaakash177@gmail.com",
+        "twitter": "SaizyWaizy"
+    },
+    "record": {
+        "CNAME": "Saizuo.github.io"
+    }
 }

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "arq091",
         "email": "poonyapat.thane@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "arq091.github.io"
-      }
     }
-      
+}
