@@ -1,0 +1,12 @@
+{
+    "description": "Personal Blog",
+    "repo": "https://github.com/saifrahmn/portfolio",
+    "owner": {
+        "username": "saifrahmn",
+        "email": "saifrahmn78@gmail.com",
+        "twitter": "saif_rahmn"
+    },
+    "record": {
+        "CNAME": "saifrahmn.github.io"
+    }
+}

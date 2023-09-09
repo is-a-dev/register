@@ -1,0 +1,10 @@
+{
+    "description": "MY PP website",
+    "owner": {
+        "username": "Yahya-rabii",
+        "email": "rabiiyahya1@gmail.com"
+    },
+    "record": {
+        "CNAME": "yahya-rabii.github.io"
+    }
+}

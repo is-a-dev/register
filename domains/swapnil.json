@@ -1,12 +1,11 @@
 {
-  "description": "Aspiring tech enthusiast",
-  "repo": "https://github.com/SwapnilChand/SwapnilChand.github.io",
-  "owner": {
-    "username": "SwapnilChand",
-    "email": "swapnilchand51@email",
-    "twitter": "Swapnil43128204"
-  },
-  "record": {
-    "CNAME": "SwapnilChand.github.io"
-  }
+    "description": "Aspiring tech enthusiast",
+    "repo": "https://github.com/SwapnilChand/SwapnilChand.github.io",
+    "owner": {
+        "username": "SwapnilChand",
+        "email": "swapnilchand51@gmail.com"
+    },
+    "record": {
+        "CNAME": "SwapnilChand.github.io"
+    }
 }

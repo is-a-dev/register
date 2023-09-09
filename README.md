@@ -1,42 +1,68 @@
-![is-a-dev banner](./media/banner.png)
+<p align="center">
+   <img alt="is-a-dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
+</p>
 
-<br />
+<p align="center">
+   <img alt="Domains" src="https://img.shields.io/github/directory-file-count/is-a-dev/register/domains?color=5c46eb&label=domains&style=for-the-badge">
+   <img alt="Open Pull Requests" src="https://img.shields.io/github/issues-raw/is-a-dev/register?color=5c46eb&label=issues&style=for-the-badge">
+   <img alt="Open Issues" src="https://img.shields.io/github/issues-pr-raw/is-a-dev/register?color=5c46eb&label=pull%20requests&style=for-the-badge">
+</p>
 
-**is-a-dev** is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
+<h1 align="center">is-a.dev</h1>
 
+<p align="center"><strong>is-a-dev</strong> is a service that allows developers to get a sweet-looking ".is-a.dev" domain for their personal websites.</p>
 
-## How do I register?
-* Fork this project
-* Add a new `domains/your-domain-name.json` file directory to register `your-domain-name.is-a.dev`
-* [Read the docs](./docs)
-* The PR will be reviewed and merged
-* After merging, the changes will take effect within a day
-* That's it! Done! Now go show off your cool `.is-a.dev` domain
+<p align="center">
+   <a href="https://discord.gg/PZCGHz4RhQ"><img alt="Discord Server" src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2"></a>
+</p>
 
+## Register
 
+### Automated Registration
+Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your github account and click the register page in the navbar. Fill out some questions and it will all happen automagically!
 
-## Donations
-This project is a free and open source service for developers and will stay that way.
+Another method is to join our [Discord](https://discord.gg/PZCGHz4RhQ) then head to the commands channel and do /register . The bot will ask you a few questions then will generate your PR and domain automaticly. The bot also allows for domain deletion and editing.
 
-Please consider donating to help me keep this running forever!
+### Manual Registration
+- [Fork](https://github.com/is-a-dev/register/fork) this repository.
+- Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
+- [Read the documentation](https://is-a.dev/docs).
+- Your pull request will be reviewed and merged. *Make sure to keep an eye on it incase we need you to make any changes!*
+- After the pull request is merged, please allow up to 24 hours for the changes to propagate.
+- Enjoy your new `.is-a.dev` domain!
 
-<a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="119"></a>
-<a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay recurring donation button" /></a>
+### CLI Registration
+For issues with the CLI, **DO NOT OPEN AN ISSUE ON THIS REPOSITORY**, instead open an issue [here](https://github.com/wdhdev/is-a-dev-cli/issues/new).
 
+Install the CLI:
 
+```bash
+npm install @is-a-dev/cli -g
+```  
 
-## Similar services
-You should also checkout -
-* [js.org](https://github.com/js-org/js.org/tree/master)
-* [thedev.id](https://github.com/fransallen/thedev.id)
+Login to the CLI:
 
+```bash
+is-a-dev login
+```
 
+Register a subdomain on the CLI:
 
-## Uptime
-You can check the uptime of the service via [our status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw)
+```
+is-a-dev register
+```
 
+## Status
+You can check the uptime of our services on our [status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw).
 
+[![Uptime Robot - DNS](https://img.shields.io/uptimerobot/ratio/m787472645-ec25e3920c7af893a7c66f19?label=uptime%20-%20dns&style=for-the-badge)](https://stats.uptimerobot.com/zY4XKIRVzw/787472645)
+[![Uptime Robot - Redirect](https://img.shields.io/uptimerobot/ratio/m787472617-240f4d61a5439a87becb2cf9?label=uptime%20-%20redirections&style=for-the-badge)](https://stats.uptimerobot.com/zY4XKIRVzw/787472617)
 
+### Similar Services
+If you want to find services similar to is-a.dev, take a look on [free-for.life](https://free-for.life/#/?id=domains).
 
-## License
-This project is under the [GPL-3.0](./LICENSE) license.
+### Donate
+If you like this project, please consider donating so we can keep this project running forever!
+
+<a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me a Coffee" height="28" width="119"></a>
+<a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay"></a>

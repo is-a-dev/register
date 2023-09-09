@@ -1,11 +1,11 @@
 {
-  "description": "LightClient",
-  "repo": "https://github.com/evazevolt/LightClient",
-  "owner": {
-    "username": "Voltage",
-    "email": "Voltagenesis@outlook.com"
-  },
-  "record": {
-    "CNAME": "evazevolt.github.io"
-  }
+    "description": "LightClient",
+    "repo": "https://github.com/EvaZeVolt/GBA-Emulator",
+    "owner": {
+        "username": "Voltage",
+        "email": "Voltagenesis@outlook.com"
+    },
+    "record": {
+        "CNAME": "evazevolt.github.io"
+    }
 }

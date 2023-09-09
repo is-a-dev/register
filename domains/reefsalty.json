@@ -1,0 +1,12 @@
+{
+  "description": "ReefSalty",
+  "repo": "https://github.com/github-username/reefsalty.github.io",
+  "owner": {
+    "username": "ReefSalty",
+    "email": "hi@reefsalty.co.uk",
+    "twitter": "ReefSalty"
+  },
+  "record": {
+    "CNAME": "ReefSalty.github.io"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description":"happyenderman.is-a.dev",
+  "repo": "https://github.com/happyendermangit/happyendermangit.github.io",
+  "owner": {
+    "username": "happyendermangit",
+    "email": ""
+  },
+  "record": {
+        "CNAME": "happyendermangit.github.io"
+    }
+}

@@ -1,11 +1,9 @@
 {
-  "description": "Redirection service (URL shortener)",
-  "repo": "https://github.com/lucatolton",
-  "owner": {
-    "username": "lucatolton",
-    "email": "hi@lucatolton.me"
-  },
-  "record": {
-    "A": [ "51.161.134.46" ]
-  }
+    "owner": {
+        "username": "lucatolton",
+        "email": "luto281@outlook.com"
+    },
+    "record": {
+        "CNAME": "hosts.is-a.dev"
+    }
 }
