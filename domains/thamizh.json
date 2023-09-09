@@ -1,12 +1,11 @@
 {
-    "description": "for my personal website representing that i'm a dev",
-    "repo": "https://github.com/ThisisThamizh/ThisisThamizh.github.io",
     "owner": {
         "username": "ThisisThamizh",
-        "email": "venthank88@gmail.com",
-        "twitter": "k_thamizhventhu"
+        "email": "venthank88@gmail.com"
     },
     "record": {
-        "CNAME": "ThisisThamizh.github.io"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
