@@ -1,11 +1,11 @@
 {
-  "description": "my personal website",
-  "repo": "https://github.com/nocekek",
-  "owner": {
-    "username": "nocekek",
-    "email": "nocekek.heytherebuddy@gmail.com"
-  },
-  "record": {
-    "CNAME": "b8642d5b-1564-4bcd-aa54-03228a9b8d96.id.repl.co"
-  }
+    "description": "my personal website",
+    "repo": "https://github.com/nocekek",
+    "owner": {
+        "username": "nocekek",
+        "email": "nocekek.heytherebuddy@gmail.com"
+    },
+    "record": {
+        "CNAME": "b8642d5b-1564-4bcd-aa54-03228a9b8d96.id.repl.co"
+    }
 }

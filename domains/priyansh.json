@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "priyanshdotxyz",
-    "email": "hello@priyansh.xyz"
-  },
-  "record": {
-    "CNAME": "priyanshdotxyz.github.io"
-  }
+    "owner": {
+        "username": "oyepriyansh",
+        "email": "hi@priyansh.app"
+    },
+    "record": {
+        "CNAME": "priyansh.pages.dev"
+    }
 }

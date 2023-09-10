@@ -1,0 +1,12 @@
+{
+    "description": "My portfolio",
+    "repo": "https://github.com/receipes/receipes.github.io",
+    "owner": {
+        "username": "receipes",
+        "email": "",
+        "discord": "receipes#3705"
+    },
+    "record": {
+        "CNAME": "receipes.github.io"
+    }
+}

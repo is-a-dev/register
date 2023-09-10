@@ -2,11 +2,11 @@
     "description": "Tanu's Website",
     "repo": "https://github.com/desktopdotini/websitev3",
     "owner": {
-      "username": "desktopdotini",
-      "email": "cloneyinnit@gmail.com",
-      "twitter": "tanumakescode"
+        "username": "desktopdotini",
+        "email": "cloneyinnit@gmail.com",
+        "twitter": "tanumakescode"
     },
     "record": {
-      "CNAME": "websitev3.pages.dev"
+        "CNAME": "websitev3.pages.dev"
     }
-  }
+}
