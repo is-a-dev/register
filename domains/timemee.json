@@ -4,8 +4,6 @@
         "email": "tangkeehee2002@gmail.com"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "TXT": "vc-domain-verify=timemee.is-a.dev,f0ccde0675ebc15ec99f"
     }
 }
