@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "yxu6fingers",
-        "email": "null"
-      },
-      "record": {
-        "CNAME": "f2c2d6e2-669d-4138-b71f-183abccb47d8.id.repl.co"
-      }
+        "email": ""
+    },
+    "record": {
+        "CNAME": "yxu6fingers.github.io"
     }
-    
+}

@@ -2,10 +2,10 @@
     "description": "Vishnu's personal website",
     "repo": "https://github.com/vishnu012/vishnu012.github.io",
     "owner": {
-      "username": "vishnu012",
-      "email": "vishnu012@pm.me"
+        "username": "vishnu012",
+        "email": "vishnu012@pm.me"
     },
     "record": {
-      "CNAME": "vishnu012.github.io"
+        "CNAME": "vishnu012.github.io"
     }
 }

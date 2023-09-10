@@ -1,11 +1,11 @@
 {
-  "description": "Shoray's Portfolio Website",
-  "repo": "https://github.com/Shoray2002/Shoray2002.github.io",
-  "owner": {
-    "username": "Shoray2002",
-    "email": "shoryasinghall@gmail.com"
-  },
-  "record": {
-    "CNAME": "shoray2002.github.io"
-  }
+    "description": "Shoray's Portfolio Website",
+    "repo": "https://github.com/Shoray2002/Shoray2002.github.io",
+    "owner": {
+        "username": "Shoray2002",
+        "email": "shoryasinghall@gmail.com"
+    },
+    "record": {
+        "CNAME": "shoray2002.github.io"
+    }
 }

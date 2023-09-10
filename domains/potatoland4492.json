@@ -1,11 +1,11 @@
 {
-  "description": "A personal site for all my projects.",
-  "repo": "https://github.com/potatoland4492/potatoland4492.github.io",
-  "owner": {
-    "username": "potatoland4492",
-    "email": "potatoland4492@gmail.com"
-  },
-  "record": {
-    "CNAME": "potatoland4492.github.io"
-  }
+    "description": "A personal site for all my projects.",
+    "repo": "https://github.com/potatoland4492/potatoland4492.github.io",
+    "owner": {
+        "username": "potatoland4492",
+        "email": "potatoland4492@gmail.com"
+    },
+    "record": {
+        "CNAME": "potatoland4492.github.io"
+    }
 }

@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "Lenicyl",
-    "discord": "HUT#5940",
-    "email": ""
-  },
+    "owner": {
+        "username": "Lenicyl",
+        "discord": "HUT#5940",
+        "email": ""
+    },
     "record": {
-      "CNAME": "lenicyl.github.io"
-  }
+        "CNAME": "lenicyl.github.io"
+    }
 }

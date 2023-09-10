@@ -1,11 +1,11 @@
 {
-  "description": "Rer0's personal developer website",
-  "repo": "https://github.com/u0f/u0f.github.io",
-  "owner": {
-    "username": "u0f",
-    "email": "ice.dev1234@gmail.com"
-  },
-  "record": {
-    "CNAME": "u0f.github.io"
-  }
+    "description": "Rer0's personal developer website",
+    "repo": "https://github.com/u0f/u0f.github.io",
+    "owner": {
+        "username": "u0f",
+        "email": "ice.dev1234@gmail.com"
+    },
+    "record": {
+        "CNAME": "u0f.github.io"
+    }
 }
