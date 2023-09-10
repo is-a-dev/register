@@ -1,5 +1,5 @@
 {
-  "description": "my personal homepage",
+  "description": "subdomain for link redirection",
   "repo": "https://github.com/dedomil",
   "owner": {
     "username": "dedomil",
@@ -8,6 +8,6 @@
     "discord": "dedomil"
   },
   "record": {
-    "CNAME": "dedomil.github.io"
+    "CNAME": "edge.redirect.pizza"
   }
 }
