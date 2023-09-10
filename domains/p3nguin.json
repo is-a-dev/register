@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "p3nguin-kun",
-           "email": "p3nguinkun@proton.me"
-        },
-        "record": {
-            "CNAME": "p3nguin-kun.github.io"
-        }
+    "owner": {
+        "username": "p3nguin-kun",
+        "email": "p3nguinkun@proton.me"
+    },
+    "record": {
+        "CNAME": "p3nguin-kun.github.io"
     }
-    
+}
