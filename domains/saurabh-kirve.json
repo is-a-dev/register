@@ -4,6 +4,6 @@
         "email": "saurabhkirve@gmail.com"
     },
     "record": {
-        "A": "162.159.24.201"
+        "A": ["162.159.24.201"]
     }
 }
