@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "KevinBrogan",
-    "email": "kevin@brogan.ca"
-  },
-  "record": {
-    "CNAME": "brogan.ca"
-  }
+    "owner": {
+        "username": "KevinBrogan",
+        "email": "kevin@brogan.ca"
+    },
+    "record": {
+        "CNAME": "brogan.ca"
+    }
 }

@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Ascript89",
         "email": "smartlinkwfs@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "ascript89.github.io"
-      }
     }
-  
+}

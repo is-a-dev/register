@@ -1,11 +1,11 @@
 {
-  "description": "Makr Davydov is a Developer!",
-  "repo": "https://github.com/markrity",
-  "owner": {
-    "username": "markrity",
-    "email": "markrity@gmail.com"
-  },
-  "record": {
-    "URL": "https://www.linkedin.com/in/davydovmark/"
-  }
+    "description": "Makr Davydov is a Developer!",
+    "repo": "https://github.com/markrity",
+    "owner": {
+        "username": "markrity",
+        "email": "markrity@gmail.com"
+    },
+    "record": {
+        "URL": "https://www.linkedin.com/in/davydovmark"
+    }
 }

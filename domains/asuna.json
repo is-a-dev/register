@@ -1,11 +1,11 @@
 {
-  "description": "Asuna Personal Website",
-  "repo": "https://github.com/ehAsuna/ehAsuna.github.io",
-  "owner": {
-    "username": "ehAsuna",
-    "email": "codeasaurousteam@gmail.com"
-  },
-  "record": {
-    "CNAME": "ehAsuna.github.io"
-  }
+    "description": "Asuna Personal Website",
+    "repo": "https://github.com/ehAsuna/ehAsuna.github.io",
+    "owner": {
+        "username": "ehAsuna",
+        "email": "codeasaurousteam@gmail.com"
+    },
+    "record": {
+        "CNAME": "ehAsuna.github.io"
+    }
 }

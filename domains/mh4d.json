@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "mh4d",
-    "email": "muhamednaous@gmail.com"
-  },
-  "description": "I'll probably put some project pages on mh4d.is-a.dev.",
-  "record": {
-    "CNAME": "940f2633-fe4f-4fd8-89e5-4fbfaa73e8a7.id.repl.co"
-  }
+    "owner": {
+        "username": "mh4d",
+        "email": "muhamednaous@gmail.com"
+    },
+    "description": "I'll probably put some project pages on mh4d.is-a.dev.",
+    "record": {
+        "CNAME": "940f2633-fe4f-4fd8-89e5-4fbfaa73e8a7.id.repl.co"
+    }
 }
