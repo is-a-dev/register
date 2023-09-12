@@ -5,7 +5,10 @@
     },
     "record": {
         "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 include:spf.improvmx.com ~all"
     }
 }
