@@ -1,0 +1,13 @@
+{
+    "description": "V1 of My Portfolio (neon.is-a.dev)",
+    "repo": "https://github.com/GoodBoyNeon/v1",
+    "owner": {
+        "username": "GoodBoyNeon",
+        "discord": "neonthedeveloper",
+        "twitter": "NeonTheNerd",
+        "email": "goodboyneon03@gmail.com"
+    },
+    "record": {
+        "CNAME": "v1.neon.is-a.dev"
+    }
+}
