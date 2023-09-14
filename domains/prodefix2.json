@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "PRODEFIX",
+        "email": "felaloula@hotmail.com",
+        "note": "This record was created by is-a.dev Discord bot via discord id: 538178838421569547"
+    },
+
+    "record": {
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=prodefix.ytb@gmail.com"
+
+    }
+}
