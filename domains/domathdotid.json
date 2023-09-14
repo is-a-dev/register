@@ -1,9 +1,11 @@
 {
     "owner": {
         "username": "DomathID",
-        "email": "bangdompret@gmail.com"
+        "email": "admin@yukinoshita.web.id"
     },
     "record": {
-            "TXT": "vc-domain-verify=domathdotid.is-a.dev,d39d81d4bc5042c9a077"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
