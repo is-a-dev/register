@@ -1,4 +1,5 @@
-name: Checks
+defaults:
+  name: Checks
 on: [pull_request]
 
 jobs:
