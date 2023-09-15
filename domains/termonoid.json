@@ -1,14 +1,12 @@
 {
-  "description": "Domain for personal server",
-  "repo": "https://github.com/Termonoid/",
-  "owner": {
-    "username": "Termonoid",
-    "email": "termonoid@cumallover.me",
-    "telegram": "termonoid"
-  },
-  "record": {
-    "A": [
-      "51.75.248.116"
-    ]
-  }
+    "description": "Domain for personal server",
+    "repo": "https://github.com/Termonoid",
+    "owner": {
+        "username": "Termonoid",
+        "email": "termonoid@cumallover.me",
+        "telegram": "termonoid"
+    },
+    "record": {
+        "A": ["135.181.144.44"]
+    }
 }

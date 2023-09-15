@@ -5,15 +5,19 @@ jobs:
   validation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
-      - name: Installing dependencies
+      - name: Setup node v16
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16'
+      - name: Install dependencies
         uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: install --ignore-engines
-      - name: Running tests
+          cmd: install --ignore-engines --frozen-lockfile
+      - name: Run tests
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: test

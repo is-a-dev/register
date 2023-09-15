@@ -1,0 +1,11 @@
+{
+    "description": "NotArya",
+    "repo": "https://github.com/not-arya/not-arya.github.io",
+    "owner": {
+        "username": "not-arya",
+        "email": "abiix.messanger@gmail.com"
+    },
+    "record": {
+        "CNAME": "not-arya.github.io"
+    }
+}

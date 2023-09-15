@@ -1,0 +1,11 @@
+{
+    "description": "KAI is a Dev",
+    "repo": "https://github.com/blackaimc/blackaimc.github.io",
+    "owner": {
+        "username": "blackaimc",
+        "email": "blackaimc@gmail.com"
+    },
+    "record": {
+        "CNAME": "blackaimc.github.io"
+    }
+}

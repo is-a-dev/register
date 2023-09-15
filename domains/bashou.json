@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "bashoudev",
-    "email": "zionthedev@gmail.com",
-    "twitter": "bashoudev"
-  },
-  "record": {
-    "CNAME": "bashoudev.ga"
-  }
+    "owner": {
+        "username": "bashoudev",
+        "email": "bashou@luduma.ga",
+        "twitter": "bashouuu"
+    },
+    "record": {
+        "URL": "https://bashoudev.ga"
+    }
 }

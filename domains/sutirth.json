@@ -2,10 +2,10 @@
     "description": "sutirth is a Developer!",
     "repo": "https://github.com/ricksr/ricksr.github.io",
     "owner": {
-      "username": "ricksr",
-      "email": "sutirtharej@gmail.com"
+        "username": "ricksr",
+        "email": "sutirtharej@gmail.com"
     },
     "record": {
-      "CNAME": "ricksr.github.io"
+        "CNAME": "ricksr.github.io"
     }
-  }
+}

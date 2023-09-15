@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "qekbd7c6",
+        "email": "qekbd7c6@gmail.com"
+    },
+    "record": {
+        "MX": ["mx1.improvmx.com", "mx1.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
+}

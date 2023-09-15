@@ -1,0 +1,12 @@
+{
+    "description": "Xandrrrr's CDN",
+    "repo": "https://github.com/Xander1233",
+    "owner": {
+        "username": "Xander1233",
+        "email": "",
+        "twitter": "XandrrrrR6"
+    },
+    "record": {
+        "A": ["173.249.30.209"]
+    }
+}

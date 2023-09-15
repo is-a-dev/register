@@ -1,0 +1,11 @@
+{
+    "description": "A redirect to my new domain",
+    "repo": "https://github.com/RehanPlayz/RehanPlayz.github.io",
+    "owner": {
+        "username": "RehanPlayz",
+        "email": "rehanplayz321@protonmail.com"
+    },
+    "record": {
+        "CNAME": "rehanplayz.gq"
+    }
+}
