@@ -1,11 +1,12 @@
 {
     "owner": {
         "username": "intelstellar",
-        "email": "yukikanlinder0705@gmail.com"
+        "email": ""
+        "twitter": "reflecc1tsuki",
+        "discord": "air2china"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "A": ["103.97.126.24"],
+        "TXT": "v=spf1 a mx ip4:103.97.126.18 ~all"
     }
 }
