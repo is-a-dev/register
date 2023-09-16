@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "usr577",
-           "email": "benedikt.reck@oesdorf.de"
-        },
-        "record": {
-              "URL": "http://benediktreck.serveo.net"
-        }
+    "owner": {
+        "username": "usr577",
+        "email": "benedikt.reck@oesdorf.de"
+    },
+    "record": {
+        "CNAME": "hosts.is-a.dev"
     }
-    
+}

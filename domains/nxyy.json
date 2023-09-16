@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "NxyyLOL",
-           "email": "nxyylol@protonmail.com"
-        },
-        "record": {
-            "A": ["158.101.209.213"]
-        }
+    "owner": {
+        "username": "NxyyLOL",
+        "email": "nxyylol@protonmail.com"
+    },
+    "record": {
+        "CNAME": "hosts.is-a.dev"
     }
-    
+}
