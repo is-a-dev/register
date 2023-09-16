@@ -4,6 +4,6 @@
         "email": "stefano.delprete.08@gmail.com"
     },
     "record": {
-        "URL": "http://nl2-4.deploy.sbs:6695/"
+        "CNAME": "nl2-4.deploy.sbs"
     }
 }
