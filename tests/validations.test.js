@@ -1,6 +1,5 @@
 const { validateDomainData, isValidDomain } = require('../utils/validations');
 const INVALID_NAMES = require('../utils/invalid-domains.json');
-const ipRegex = require('ip-regex');
 
 const defaultDomain = {
   name: 'aaa',
