@@ -6,8 +6,8 @@
     "lint": "eslint utils scripts domains --ext .json,.js",
     "publish-records": "bun run -b ./scripts/register-domains.js",
     "dc": "docker-compose -p is-a-dev",
-    "dc:start": "yarn dc up",
-    "dc:shell": "yarn dc run dev /bin/bash"
+    "dc:start": "bun run dc up",
+    "dc:shell": "bun run dc run dev /bin/bash"
   },
   "repository": {
     "type": "git",

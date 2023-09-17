@@ -3,7 +3,6 @@ let
   inherit (nixpkgs) pkgs;
 
   nixPackages = with pkgs; [
-    nodejs-18_x
     yarn
     docker-compose
     dnsutils
