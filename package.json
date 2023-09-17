@@ -21,6 +21,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "is-ip": "^5.0.1",
     "jest": "^26.4.2",
     "node-fetch": "^2.6.1",
     "qs": "^6.9.4",
