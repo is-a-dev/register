@@ -1,4 +1,4 @@
 node_modules/
-*.env.*
+*.env.production
 *.log
 is-a-dev-cert/
