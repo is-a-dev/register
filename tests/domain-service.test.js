@@ -165,7 +165,7 @@ describe('Domain service', () => {
       ]);
     });
 
-    it.skip('should resolve with a redirections', async () => {
+    it('should resolve with a redirections', async () => {
       const zones = [
         { line: '111', name: 'xx', type: 'CNAME', address: 'fck.com.' },
         { line: '112', name: 'xx', type: 'A', address: '111.1.1212.1' },
