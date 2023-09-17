@@ -1,5 +1,6 @@
 const { validateDomainData, isValidDomain } = require('../utils/validations');
 const INVALID_NAMES = require('../utils/invalid-domains.json');
+const ipRegex = require('ip-regex');
 
 const defaultDomain = {
   name: 'aaa',
@@ -60,6 +61,10 @@ describe('validateDomainData', () => {
     { ...defaultDomain, name: 'help.baa' },
     { ...defaultDomain, name: '_github-pages-challenge-is-a-dev' },
     { ...defaultDomain, name: '_github-challenge-is-a-dev' },
+    { ...defaultDomain, record: { AAAA: [] } },
+    { ...defaultDomain, record: { AAAA: ['182.22.222.22', '::1'] } },
+    { ...defaultDomain, record: { AAAA: '182.22.222.22' } },
+    { ...defaultDomain, record: { A: '::1' } },
   ];
 
   const validCases = [
@@ -86,6 +91,8 @@ describe('validateDomainData', () => {
     { ...defaultDomain, name: '_github-challenge-phenax.akshay' },
     { ...defaultDomain, name: '_github-challenge-hello01-ga' },
     { ...defaultDomain, name: '_github-challenge-hello01_ga' },
+    { ...defaultDomain, record: { AAAA: ['::1', '2001:db8:3333:4444:5555:6666:7777:8888'] } },
+    { ...defaultDomain, record: { A: ['122.222.222.222'] } },
   ];
 
   it('should return false for invalid data', () => {

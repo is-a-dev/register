@@ -2,7 +2,7 @@ const R = require('ramda');
 const { VALID_RECORD_TYPES } = require('./constants');
 const { or, and, validate, between, testRegex, withLengthEq, withLengthGte } = require('./helpers');
 const INVALID_NAMES = require('./invalid-domains.json');
-const { isIPv4, isIPv6 } = require('is-ip');
+const { default: ipRegex } = require('ip-regex');
 
 const isValidURL = and([R.is(String), testRegex(/^https?:\/\//ig)]);
 
@@ -18,7 +18,7 @@ const validateCnameRecord = type => and([
 const validateARecord = type => and([
   R.propIs(Array, type),
   R.propSatisfies(withLengthGte(1), type),
-  R.all(isIPv4),
+  R.all(testRegex(ipRegex.v4({ exact: true }))),
 ]);
 
 const validateMXRecord = type => and([
@@ -30,7 +30,7 @@ const validateMXRecord = type => and([
 const validateAAAARecord = R.propSatisfies(and([
   R.is(Array),
   withLengthGte(1),
-  R.all(isIPv6),
+  R.all(testRegex(ipRegex.v6({ exact: true }))),
 ]))
 
 const checkRestrictedNames = R.complement(R.includes(R.__, INVALID_NAMES))
