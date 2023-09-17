@@ -2,7 +2,7 @@ const R = require('ramda');
 const { VALID_RECORD_TYPES } = require('./constants');
 const { or, and, validate, between, testRegex, withLengthEq, withLengthGte } = require('./helpers');
 const INVALID_NAMES = require('./invalid-domains.json');
-const { default: ipRegex } = require('ip-regex');
+const ipRegex = require('ip-regex');
 
 const isValidURL = and([R.is(String), testRegex(/^https?:\/\//ig)]);
 
@@ -82,7 +82,7 @@ const validateDomainData = validate({
         [R.has('A'), validateARecord('A')],
         [R.has('URL'), R.propSatisfies(isValidURL, 'URL')],
         [R.has('MX'), validateMXRecord('MX')],
-        [R.has('TXT'), R.propSatisfies(R.is(String), 'TXT')],
+        [R.has('TXT'), R.propSatisfies(or([ R.is(String), R.is(Array) ]), 'TXT')],
         [R.has('AAAA'), validateAAAARecord('AAAA')],
         [R.T, R.T],
       ]),
