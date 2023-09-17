@@ -7,7 +7,7 @@ let
     yarn
     docker-compose
     dnsutils
-    #certbot
+    bun
   ];
 in
 pkgs.stdenv.mkDerivation {

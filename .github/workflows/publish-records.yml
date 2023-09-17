@@ -22,6 +22,7 @@ jobs:
       - name: Publishing records
         env:
           CI: 1
+          NODE_ENV: production
           ENV: production
           DOMAIN_USER: ${{ secrets.DOMAIN_USER }}
           DOMAIN_API_KEY: ${{ secrets.DOMAIN_API_KEY }}

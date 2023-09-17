@@ -134,6 +134,7 @@ const getDomainService = ({ cpanel }) => {
     const remoteHostList = await getHosts();
     const { add, remove } = diffRecords(remoteHostList, hosts);
     console.log(`Adding ${add.length}; Removing ${remove.length}`)
+    console.log(add, remove);
 
     await executeBatch([
       ...removeRecords(remove),

@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Register *.is-a.dev domains for free",
   "scripts": {
-    "test": "ENV=test jest",
     "lint": "eslint utils scripts domains --ext .json,.js",
-    "publish-records": "node ./scripts/register-domains.js",
+    "publish-records": "bun run -b ./scripts/register-domains.js",
     "dc": "docker-compose -p is-a-dev",
     "dc:start": "yarn dc up",
     "dc:shell": "yarn dc run dev /bin/bash"
@@ -22,7 +21,6 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "jest": "^26.4.2",
-    "node-fetch": "^2.6.1",
     "qs": "^6.9.4",
     "ramda": "^0.27.1"
   },
