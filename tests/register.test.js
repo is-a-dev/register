@@ -3,7 +3,16 @@ const { toHostList, registerDomains } = require('../scripts/register-domains');
 const { TTL, DOMAIN_DOMAIN } = require('../utils/constants');
 const { getDomainService } = require('../utils/domain-service');
 
-const getCpanel = ({ zone, addZone, removeZone, redir, addRedir, removeRedir } = {}) => ({
+const getCpanel = ({
+  zone,
+  addZone,
+  removeZone,
+  redir,
+  addRedir,
+  removeRedir,
+  addEmail,
+  removeEmail
+} = {}) => ({
   zone: {
     fetch: (_) => zone(),
     add: (rec) => addZone(rec),
@@ -95,13 +104,16 @@ describe('registerDomains', () => {
 
   it('should add the new set hosts', async () => {
     const localHosts = [
-      { name: 'a', record: { CNAME: 'boo', URL: 'z' } },
-      { name: 'b', record: { CNAME: 'xaa', URL: 'x' } },
-      { name: 'c', record: { CNAME: 'yello', URL: 'https://google.com' } },
+      { name: 'a', record: { CNAME: 'boo' } },
+      { name: 'b', record: { A: [ '1.1.1.1', '1.1.1.2' ], MX: 'somemx', TXT: 'some txt' } },
+      { name: 'c', record: { URL: 'https://google.com' } },
+      { name: 'd', record: { CNAME: 'foobar' } },
+      { name: 'e', record: { A: [ '2.2.2.2' ], TXT: ['some', 'extra', 'txt'] } }
     ];
     const remoteHosts = [
       { line: 1, name: 'a', type: 'CNAME', address: 'boo' },
-      { line: 2, name: 'b', type: 'CNAME', address: 'xaa' },
+      { line: 2, name: 'b', type: 'MX', address: 'othermx' },
+      { line: 3, name: 'd', type: 'CNAME', address: 'foobaz' },
     ];
     const remoteRedirections = [
       { domain: `b.${DOMAIN_DOMAIN}`, destination: 'x' },
@@ -111,10 +123,30 @@ describe('registerDomains', () => {
     const domainService = mockDS({ zones: remoteHosts, redirections: remoteRedirections });
     await registerDomains({ getDomains: async () => localHosts, domainService });
 
-    expect(addZone).toBeCalledTimes(1);
-    expect(removeZone).toBeCalledTimes(0);
-    expect(addRedir).toBeCalledTimes(2);
-    expect(removeRedir).toBeCalledTimes(1);
+    expect(addZone).toBeCalledTimes(8);
+    expect(addZone).toHaveBeenCalledWith({ name: 'b', type: 'A', address: '1.1.1.2', line: undefined });
+    expect(addZone).toHaveBeenCalledWith({ name: 'd', type: 'CNAME', cname: 'foobar', address: 'foobar', line: undefined });
+    expect(addZone).toHaveBeenCalledWith({ name: 'b', type: 'A', address: '1.1.1.2', line: undefined });
+    expect(addZone).toHaveBeenCalledWith({ name: 'b', type: 'TXT', address: 'some txt', txtdata: 'some txt', line: undefined });
+    expect(addZone).toHaveBeenCalledWith({ name: 'e', type: 'A', address: '2.2.2.2', line: undefined });
+    expect(addZone).toHaveBeenCalledWith({ name: 'e', type: 'TXT', address: 'some', txtdata: 'some', line: undefined });
+    expect(addZone).toHaveBeenCalledWith({ name: 'e', type: 'TXT', address: 'extra', txtdata: 'extra', line: undefined });
+    expect(addZone).toHaveBeenCalledWith({ name: 'e', type: 'TXT', address: 'txt', txtdata: 'txt', line: undefined });
+
+    expect(removeZone).toBeCalledTimes(1);
+    expect(removeZone).toHaveBeenCalledWith({ line: 3 });
+
+    expect(addRedir).toBeCalledTimes(1);
+    expect(addRedir).toHaveBeenCalledWith({
+      domain: 'c.booboo.xyz',
+      redirect: 'https://google.com',
+      redirect_wildcard: 1,
+      redirect_www: 1,
+      type: 'permanent',
+    });
+
+    expect(addEmail).toBeCalledTimes(1);
+    expect(addEmail).toHaveBeenCalledWith({ domain: 'b.is-a.dev', exchanger: 'somemx', priority: 20 });
   });
 });
 
