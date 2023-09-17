@@ -1,3 +1,4 @@
 node_modules/
 *.env.*
 *.log
+is-a-dev-cert/
