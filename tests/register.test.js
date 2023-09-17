@@ -87,10 +87,10 @@ describe('registerDomains', () => {
     const domainService = mockDS({ zones: remoteHosts, redirections: remoteRedirections });
     await registerDomains({ getDomains: async () => localHosts, domainService });
 
-    expect(addZone).toBeCalledTimes(0);
-    expect(removeZone).toBeCalledTimes(1);
-    expect(addRedir).toBeCalledTimes(0);
-    expect(removeRedir).toBeCalledTimes(0);
+    expect(addZone).toHaveBeenCalledTimes(0);
+    expect(removeZone).toHaveBeenCalledTimes(1);
+    expect(addRedir).toHaveBeenCalledTimes(0);
+    expect(removeRedir).toHaveBeenCalledTimes(0);
   });
 
   it('should add the new set hosts', async () => {
@@ -111,10 +111,10 @@ describe('registerDomains', () => {
     const domainService = mockDS({ zones: remoteHosts, redirections: remoteRedirections });
     await registerDomains({ getDomains: async () => localHosts, domainService });
 
-    expect(addZone).toBeCalledTimes(1);
-    expect(removeZone).toBeCalledTimes(0);
-    expect(addRedir).toBeCalledTimes(2);
-    expect(removeRedir).toBeCalledTimes(1);
+    expect(addZone).toHaveBeenCalledTimes(1);
+    expect(removeZone).toHaveBeenCalledTimes(0);
+    expect(addRedir).toHaveBeenCalledTimes(2);
+    expect(removeRedir).toHaveBeenCalledTimes(1);
   });
 });
 
