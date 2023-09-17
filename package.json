@@ -13,15 +13,9 @@
     "type": "git",
     "url": "https://github.com/is-a-dev/register"
   },
-  "keywords": [
-    "subdomain"
-  ],
   "author": "Akshay Nair <phenax5@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "jest": "^26.4.2",
-    "qs": "^6.9.4",
     "ramda": "^0.27.1"
   },
   "devDependencies": {
