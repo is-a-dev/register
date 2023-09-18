@@ -1,7 +1,10 @@
-"owner": {
-    "email": "chiragnahata05@gmail.com"
-},
+{
+    "owner": {
+        "username": "chiragnahata",
+        "email": "chiragnahata05@gmail.com"
+    },
 
-"records": {
-    "A": ["129.213.151.29"]
-},
+    "records": {
+        "A": ["129.213.151.29"]
+    }
+}
