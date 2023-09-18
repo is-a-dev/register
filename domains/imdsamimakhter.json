@@ -1,12 +1,11 @@
 {
-    "description": "Personal space",
-    "repo": "https://github.com/imdsamimakhter/imdsamimakhter.github.io",
     "owner": {
         "username": "imdsamimakhter",
-        "email": "mrsamimmail@gmail.com",
-        "twitter": "imdsamimakhter"
+        "email": "mdsamimakhter2001@gmail.com"
     },
     "record": {
-        "CNAME": "imdsamimakhter.github.io"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
-} 
+}
