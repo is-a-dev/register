@@ -1,11 +1,11 @@
 {
-    "description": "Portfolio/blog of Durlav Kalita",
-    "repo": "https://github.com/durlavkalita/durlavkalita.github.io",
     "owner": {
         "username": "durlavkalita",
         "email": "durlavk98@gmail.com"
     },
     "record": {
-        "CNAME": "durlavkalita.github.io"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
-} 
+}
