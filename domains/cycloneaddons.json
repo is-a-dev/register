@@ -4,6 +4,8 @@
         "email": "cycloneaddon@gmail.com"
     },
     "record": {
-        "CNAME": "7a4c31e0-a7b1-498a-a264-5bda0a7d5c45.id.repl.co"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
