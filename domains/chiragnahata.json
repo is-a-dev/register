@@ -1,10 +1,7 @@
-{
-    "description": "Chirag Nahata Website",
-    "owner": {
-        "username": "chiragnahata",
-        "email": "chiragnahata05@gmail.com"
-    },
-    "record": {
-        "A": "129.213.151.29"
-    }
-}
+"owner": {
+    "email": "chiragnahata05@gmail.com"
+},
+
+"records": {
+    "A": ["129.213.151.29"]
+},
