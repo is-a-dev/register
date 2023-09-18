@@ -18,7 +18,6 @@ generate_certificate() {
     -m 'phenax5@gmail.com' \
     -d '*.is-a.dev,is-a.dev' \
     --agree-tos \
-    --dry-run \
     $(if_dry_run "--dry-run" "");
 
   echo "+-----------------------------------------------+";
@@ -68,10 +67,14 @@ update_acme_txt_record() {
 reset_acme() {
   sleep 1;
   update_record remove TXT '_acme-challenge' '';
+  update_record remove TXT '_acme-challenge' '';
 }
 
+get_acme() { dig +noall +answer _acme-challenge.is-a.dev TXT | awk '{print $5}'; }
+
 case "$1" in
-  check) echo "TXT record:: $(dig +noall +answer _acme-challenge.is-a.dev TXT | awk '{print $5}')" ;;
+  check) echo "TXT record:: $(get_acme)" ;;
+  get-acme) get_acme ;;
   cert) generate_certificate ;;
   acme_txt) update_acme_txt_record "$2" ;;
   reset) reset_acme ;;
