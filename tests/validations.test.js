@@ -54,7 +54,6 @@ describe('validateDomainData', () => {
     { ...defaultDomain, record: { CNAME: 'foobar.com', A: ['11.22.22.33'] } },
     { ...defaultDomain, record: { CNAME: 'foobar.com', MX: ['ALT4.ASPMX.L.GOOGLE.COM'] } },
     ...INVALID_NAMES.map(name => ({ ...defaultDomain, name })).slice(0, 1),
-    { ...defaultDomain, record: { TXT: ['foobar wow nice!!!'] } },
     { ...defaultDomain, name: 'a.b' },
     { ...defaultDomain, name: 'ww2.baa' },
     { ...defaultDomain, name: 'help.baa' },
@@ -86,6 +85,7 @@ describe('validateDomainData', () => {
     { ...defaultDomain, name: '_github-challenge-phenax.akshay' },
     { ...defaultDomain, name: '_github-challenge-hello01-ga' },
     { ...defaultDomain, name: '_github-challenge-hello01_ga' },
+    { ...defaultDomain, record: { TXT: ['foobar wow nice!!!', 'more text'] } },
   ];
 
   it('should return false for invalid data', () => {
