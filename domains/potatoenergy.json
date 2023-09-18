@@ -1,0 +1,11 @@
+{
+    "description": "Potato Energy Team Website",
+    "repo": "https://github.com/potatoenergy/potatoenergy.site",
+    "owner": {
+        "username": "ponfertato",
+        "email": "ponfertato@ya.ru"
+    },
+    "record": {
+        "CNAME": "potatoenergy.pages.dev"
+    }
+}
