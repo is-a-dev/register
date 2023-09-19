@@ -1,10 +1,6 @@
 const path = require('path');
 
-const { ENV = 'test', CI } = process.env;
-
-if (!CI) {
-  require('dotenv').config({ path: path.resolve(`.env.${ENV}`) });
-}
+const { NODE_ENV: ENV = 'test' } = process.env;
 
 const {
   DOMAIN_USER,
