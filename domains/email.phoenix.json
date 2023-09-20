@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "PhoenixOrigin",
+        "email": "amoghnrathi@outlook.com",
+        "note": "This record was created by is-a.dev Discord bot via discord id: 780889323162566697"
+    },
+
+    "record": {
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=phoenixorigin171@gmail.com"
+
+    }
+}
