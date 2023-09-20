@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "turvenuija1",
-           "email": "turvenuija@skidd.xyz"
-        },
-        "record": {
-              "CNAME": "turvenuija1.github.io"
-        }
+    "owner": {
+        "username": "turvenuija1",
+        "email": "turvenuija@skidd.xyz"
+    },
+    "record": {
+        "CNAME": "turvenuija1.github.io"
     }
-    
+}

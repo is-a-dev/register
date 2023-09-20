@@ -1,10 +1,12 @@
 {
+    "description": "for my personal website ^_^",
+    "repo": "https://github.com/ppg00/ppg00.github.io",
     "owner": {
         "username": "ppg00",
-        "email": "vx2dsk@gmail.com"
+        "email": "ppqg00@gmail.com",
+        "twitter": "qqg00"
     },
-
     "record": {
-        "A": ["76.76.21.21"]
+        "CNAME": "ppg00.github.io"
     }
-}
+} 

@@ -5,6 +5,6 @@
     },
 
     "record": {
-        "CNAME": "debajyoti.cf"
+        "A": ["152.67.6.15"]
     }
 }
