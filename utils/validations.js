@@ -74,7 +74,7 @@ const validateDomainData = validate({
         [R.has('A'), validateARecord('A')],
         [R.has('URL'), R.propSatisfies(isValidURL, 'URL')],
         [R.has('MX'), validateMXRecord('MX')],
-        [R.has('TXT'), R.propSatisfies(R.is(String), 'TXT')],
+        [R.has('TXT'), R.propSatisfies(or([ R.is(String), R.is(Array) ]), 'TXT')],
         [R.T, R.T],
       ]),
     ]),
