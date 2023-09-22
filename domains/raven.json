@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "bubby932",
-    "email": "raven@az-raven.com"
-  },
-  "description": "Redirection domain for https://az-raven.com.",
-  "record": {
-    "URL": "https://az-raven.com"
-  }
+    "owner": {
+        "username": "bubby932",
+        "email": "raven@az-raven.com"
+    },
+    "description": "Redirection domain for https://az-raven.com.",
+    "record": {
+        "URL": "https://az-raven.com"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "This is my website",
-  "repo": "https://github.com/g-pratik/g-pratik.github.io",
-  "owner": {
-    "username": "g-pratik",
-    "email": ""
-  },
-  "record": {
-    "CNAME": "g-pratik.github.io"
-  }
+    "description": "This is my website",
+    "repo": "https://github.com/g-pratik/g-pratik.github.io",
+    "owner": {
+        "username": "g-pratik",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "g-pratik.github.io"
+    }
 }

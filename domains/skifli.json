@@ -1,12 +1,12 @@
 {
-    "description": "Skifli's portfolio website",
+    "description": "Portfolio Website",
     "repo": "https://github.com/skifli/skifli.github.io",
     "owner": {
         "username": "skifli",
         "email": "",
-        "discord": "skifli#8774"
+        "discord": "skifli"
     },
     "record": {
-        "CNAME": "skifli.github.io"
+        "CNAME": "skifli.pages.dev"
     }
 }
