@@ -36,6 +36,11 @@ const validateAAAARecord = R.propSatisfies(and([
 
 const checkRestrictedNames = R.complement(R.includes(R.__, INVALID_NAMES))
 
+const extraSupportedNames = [
+  testRegex(/^_github(-pages)?-challenge-[a-z0-9-_]+$/i), // Exception for github verification records
+  R.equals('_discord'),
+]
+
 const validateDomainData = validate({
   name: {
     reason: 'The name of the file is invalid. It must be lowercased, alphanumeric and each component must be more than 2 characters long',
@@ -43,17 +48,15 @@ const validateDomainData = validate({
       R.equals('@'),
       and([
         R.is(String),
+        checkRestrictedNames,
         R.compose(
           R.all(or([
-            and([
-              testRegex(/^_github(-pages)?-challenge-[a-z0-9-_]+$/i), // Exception for github verification records
-              checkRestrictedNames,
-            ]),
             and([
               R.compose(between(2, 100), R.length),
               testRegex(/^[a-z0-9-]+$/g),
               checkRestrictedNames,
-            ])
+            ]),
+            ...extraSupportedNames,
           ])),
           R.split('.'),
         ),
