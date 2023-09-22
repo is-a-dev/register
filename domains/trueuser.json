@@ -4,7 +4,6 @@
       "email": "thisistrueemail@gmail.com"
   },
     "record": {
-      "A": ["35.186.245.55"],
-      "MX": ["hosts.is-a.dev"]
+      "A": ["35.186.245.55"]
   }
 }
