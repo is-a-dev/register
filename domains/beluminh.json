@@ -1,10 +1,10 @@
 {
     "owner": {
-        "username": "istrueuser",
-        "email": "thisistrueemail@gmail.com"
-    },
-"record": {
-"A": ["35.186.245.55"],
-"MX": ["hosts.is-a.dev"],
-}
+      "username": "istrueuser",
+      "email": "thisistrueemail@gmail.com"
+  },
+    "record": {
+      "A": ["35.186.245.55"],
+      "MX": ["hosts.is-a.dev"],
+  }
 }
