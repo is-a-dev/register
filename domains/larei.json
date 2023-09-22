@@ -1,11 +1,11 @@
 {
-    "description": "larei's personal website.",
-    "repo": "https://github.com/lareithen/lareithen.github.io",
+    "description": "larei's cool website.",
+    "repo": "https://github.com/lareii/lareii.github.io",
     "owner": {
-        "username": "lareithen",
+        "username": "lareii",
         "email": "lareithen@gmail.com"
     },
     "record": {
-        "CNAME": "lareithen.github.io"
+        "CNAME": "lareii.github.io"
     }
 }

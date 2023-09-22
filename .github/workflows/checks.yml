@@ -1,5 +1,5 @@
 name: Checks
-on: [pull_request]
+on: [pull_request, workflow_dispatch]
 
 jobs:
   validation:
@@ -9,15 +9,8 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
-      - name: Setup node v15
-        uses: actions/setup-node@v1
+      - uses: oven-sh/setup-bun@v1
         with:
-          node-version: '15'
-      - name: Install dependencies
-        uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install --ignore-engines --frozen-lockfile
-      - name: Run tests
-        uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: test
+          bun-version: 1.0.0
+      - run: bun install
+      - run: bun test
