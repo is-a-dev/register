@@ -1,11 +1,11 @@
 {
-  "description": "Redirecting to my blog",
-  "repo": "https://github.com/julianyaman",
-  "owner": {
-    "username": "julianyaman",
-    "email": "mail@yaman.pro"
-  },
-  "record": {
-    "URL": "https://julianyaman.com/"
-  }
+    "description": "Redirecting to my blog",
+    "repo": "https://github.com/julianyaman",
+    "owner": {
+        "username": "julianyaman",
+        "email": "mail@yaman.pro"
+    },
+    "record": {
+        "URL": "https://julianyaman.com"
+    }
 }

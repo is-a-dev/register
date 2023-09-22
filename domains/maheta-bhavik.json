@@ -1,0 +1,11 @@
+{
+    "description": "My new website",
+    "repo": "https://github.com/maheta-bhavik/maheta-bhavik.github.io",
+    "owner": {
+        "username": "maheta-bhavik",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "maheta-bhavik.github.io"
+    }
+}

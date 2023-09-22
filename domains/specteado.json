@@ -1,11 +1,11 @@
 {
-  "description": "Specteado's portfolio!",
-  "repo": "https://github.com/Specteado/specteado.github.io",
-  "owner": {
-    "username": "Specteado",
-    "email": "jusefmasabanda10@gmail.com"
-  },
-  "record": {
-    "CNAME": "specteado.github.io"
-  }
+    "description": "Specteado's portfolio!",
+    "repo": "https://github.com/Specteado/specteado.github.io",
+    "owner": {
+        "username": "Specteado",
+        "email": "jusefmasabanda10@gmail.com"
+    },
+    "record": {
+        "CNAME": "specteado.github.io"
+    }
 }

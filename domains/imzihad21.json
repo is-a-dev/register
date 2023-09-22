@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "IMZihad21",
+        "email": "imzihad@gmail.com"
+    },
+    "record": {
+        "A": ["52.77.224.107"],
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=imzihad@gmail.com"
+    }
+}

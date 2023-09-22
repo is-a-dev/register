@@ -1,10 +1,10 @@
 {
-  "description": "Anthony's personal developer website",
-  "owner": {
-    "username": "hubsta",
-    "email": "admin@thehubble.com.au"
-  },
-  "record": {
-    "CNAME": "brisbaneweb.dev"
-  }
+    "description": "Anthony's personal developer website",
+    "owner": {
+        "username": "hubsta",
+        "email": "admin@thehubble.com.au"
+    },
+    "record": {
+        "CNAME": "brisbaneweb.dev"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "Aman Bhatt's personal website",
-  "repo": "https://github.com/bhattcodes/bhattcodes.github.io",
-  "owner": {
-    "username": "bhattcodes",
-    "email": "bhatt.codes@gmail.com"
-  },
-  "record": {
-    "CNAME": "bhattcodes.github.io"
-  }
+    "description": "Aman Bhatt's personal website",
+    "repo": "https://github.com/bhattcodes/bhattcodes.github.io",
+    "owner": {
+        "username": "bhattcodes",
+        "email": "bhatt.codes@gmail.com"
+    },
+    "record": {
+        "CNAME": "bhattcodes.github.io"
+    }
 }

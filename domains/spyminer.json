@@ -1,11 +1,11 @@
 {
-  "description": "SpyMiner's website",
-  "repo": "https://github.com/SpyMinerX/SpyMinerX.github.io",
-  "owner": {
-    "username": "SpyMinerX",
-    "email": "spyminer@glacierclient.net"
-  },
-  "record": {
-    "CNAME": "isadev.engelbrecht.pro"
-  }
+    "description": "SpyMiner's website",
+    "repo": "https://github.com/SpyMinerX/SpyMinerX.github.io",
+    "owner": {
+        "username": "SpyMinerX",
+        "email": "spyminer@glacierclient.net"
+    },
+    "record": {
+        "CNAME": "isadev.engelbrecht.pro"
+    }
 }

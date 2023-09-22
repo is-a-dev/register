@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "ImRaid",
-    "email": "itsraidlol@gmail.com",
-    "discord":"! Yuk1ch#7484",
-    "telegram": "@Yuk1ch"
-  },
-  "record": {
-    "CNAME": "d1d16500-13c2-4fc8-a658-87d258da2316.id.repl.co"
-  }
+    "owner": {
+        "username": "ImRaid",
+        "email": "itsraidlol@gmail.com",
+        "discord": "! Yuk1ch#7484",
+        "telegram": "Yuk1ch"
+    },
+    "record": {
+        "CNAME": "d1d16500-13c2-4fc8-a658-87d258da2316.id.repl.co"
+    }
 }

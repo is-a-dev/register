@@ -1,10 +1,11 @@
 {
-  "owner": {
-    "username": "DaInfLoop",
-    "email": "backupharoongames100@gmail.com"
-  },
-  
-  "record": {
-    "CNAME": "ea1ab2ec-071c-45d5-8455-bfdecf9fb1b1.id.repl.co"
-  }
+    "owner": {
+        "username": "DaInfLoop",
+        "email": "backupharoongames100@gmail.com"
+    },
+
+    "record": {
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
 }

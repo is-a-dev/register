@@ -1,10 +1,10 @@
 {
-  "description": "Arman's Api",
-  "owner": {
-    "username": "ItzArman09",
-    "email": "contact@mail.arman.is-a.dev"
-  },
-  "record": {
-    "CNAME": "b25320ee-226d-4531-ad1f-db62e88ac1d4.id.repl.co"
-  }
+    "description": "Arman's Api",
+    "owner": {
+        "username": "ItzArman09",
+        "email": "contact@mail.arman.is-a.dev"
+    },
+    "record": {
+        "CNAME": "b25320ee-226d-4531-ad1f-db62e88ac1d4.id.repl.co"
+    }
 }
