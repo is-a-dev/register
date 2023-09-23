@@ -1,9 +1,10 @@
 {
+    "repo": "https://github.com/Enoughsdv/Enoughsdv.github.io",
     "owner": {
         "username": "Enoughsdv",
         "email": "enoughsdv@gmail.com"
     },
     "record": {
-        "URL": "https://enoughsdv.github.io/"
+        "CNAME": "enoughsdv.github.io"
     }
-}
+} 
