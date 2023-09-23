@@ -1,11 +1,12 @@
+
 {
+    "description": "Personal Portfolio",
+    "repo": "https://github.com/heyjumanji/heyjumanji.github.io",
     "owner": {
         "username": "heyjumanji",
-        "email": "madhuchutiya.unhinge650@silomails.com"
+        "email": "iwillput",
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "CNAME": "heyjumanji.github.io"
     }
 }
