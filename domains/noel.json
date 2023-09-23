@@ -1,0 +1,13 @@
+{
+    "description": "Personal profile page",
+    "repo": "https://github.com/noeljacob/noeljacob.github.io",
+    "owner": {
+        "username": "NoelJacob",
+        "email": "noeljacob91@gmail.com",
+        "twitter": "NoelJacob01",
+        "discord": "Noel Jacob#7465"
+    },
+    "record": {
+        "CNAME": "noeljacob.github.io"
+    }
+}

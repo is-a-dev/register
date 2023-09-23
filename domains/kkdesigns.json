@@ -1,11 +1,11 @@
 {
-  "description": "All of K.K Designs Fitbit® applications",
-  "repo": "https://github.com/KK-Designs/K.K-Designs-Website",
-  "owner": {
-    "username": "KK-Designs",
-    "email": "kkart2007@gmail.com"
-  },
-  "record": {
-    "URL": "https://kk-designs.github.io/K.K-Designs-Website/home/home.html"
-  }
+    "description": "All of K.K Designs Fitbit® applications",
+    "repo": "https://github.com/KK-Designs/K.K-Designs-Website",
+    "owner": {
+        "username": "KK-Designs",
+        "email": "kkart2007@gmail.com"
+    },
+    "record": {
+        "CNAME": "kk-designs.github.io"
+    }
 }

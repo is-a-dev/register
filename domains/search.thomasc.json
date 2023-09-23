@@ -1,0 +1,11 @@
+{
+    "description": "Hopefully Thomas Croft's is-a.dev Whoogle instance",
+    "repo": "https://replit.com/@thomascf/whoogle",
+    "owner": {
+        "username": "thomascf",
+        "email": "thomas.croft@pm.me"
+    },
+    "record": {
+        "CNAME": "7c73f282-d33b-4a1d-b36e-bf6da5155d55.id.repl.co"
+    }
+}

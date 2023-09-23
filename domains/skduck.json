@@ -1,0 +1,15 @@
+{
+    "description": "my em@il forwarder",
+    "owner": {
+        "username": "MaskDuck",
+        "email": "m@skduck.is-a.dev",
+        "discord": "MaskDuck#1337",
+        "twitter": "MaskDuck1",
+        "reddit": "u/maskduck",
+        "note": "My Discord discriminator sometimes is not 1337 and sometimes I will change it. If you want to find me on Discord, my ID is 716134528409665586."
+    },
+    "record": {
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=it-is@too-obvious-that.maskduck.is-a.dev"
+    }
+}

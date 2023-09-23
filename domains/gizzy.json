@@ -1,0 +1,12 @@
+{
+    "description": "gizzy.is-a.dev",
+    "owner": {
+        "username": "NeroGizmoUwU",
+        "email": "nerop455@gmail.com",
+        "discord": "gizzyuwu"
+    },
+    "record": {
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
+}

@@ -1,13 +1,10 @@
 {
-  "description": "My Personal Website",
-  "repo": "",
-  "owner": {
-    "username": "Oreki-Dev",
-    "email": "oreki@oreki.gq"
-  },
-  "record": {
-    "A": ["198.251.81.131"],
-    "MX": ["ns1.crystalcloud.xyz", "ns2.crystalcloud.xyz"],
-    "TXT": "v=spf1 a mx ip4:198.251.81.131 ~all"
-  }
+    "description": "My Personal Website",
+    "owner": {
+        "username": "Oreki-Dev",
+        "email": "orekidev@gmail.com"
+    },
+    "record": {
+        "A": ["164.132.74.251", "192.95.42.75"]
+    }
 }

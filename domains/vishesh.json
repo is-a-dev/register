@@ -1,12 +1,12 @@
 {
-  "description": "My Personal Website",
-  "repo": "https://github.com/VisheshBansal",
-  "owner": {
-    "username": "VisheshBansal",
-    "email": "hi@visheshbansal.ml",
-    "twitter": "VisheshBansal17"
-  },
-  "record": {
-    "URL": "https://visheshbansal.ml/"
-  }
+    "description": "My Personal Website",
+    "repo": "https://github.com/VisheshBansal",
+    "owner": {
+        "username": "VisheshBansal",
+        "email": "hi@visheshbansal.ml",
+        "twitter": "VisheshBansal17"
+    },
+    "record": {
+        "URL": "https://visheshbansal.ml"
+    }
 }

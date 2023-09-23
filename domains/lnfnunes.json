@@ -1,11 +1,11 @@
 {
-  "description": "Little Big Nunes",
-  "repo": "https://github.com/lnfnunes",
-  "owner": {
-    "username": "lnfnunes",
-    "email": "dr1design@gmail.com"
-  },
-  "record": {
-    "URL": "https://lnfnunes.com.br"
-  }
+    "description": "Little Big Nunes",
+    "repo": "https://github.com/lnfnunes",
+    "owner": {
+        "username": "lnfnunes",
+        "email": "dr1design@gmail.com"
+    },
+    "record": {
+        "URL": "https://lnfnunes.com.br"
+    }
 }

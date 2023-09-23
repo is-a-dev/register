@@ -1,10 +1,11 @@
 {
-  "description": "Luna sia's personal website",
-  "owner": {
-    "username": "Luna-devv",
-    "email": "luna@xyna.space"
-  },
-  "record": {
-    "A": ["75.2.60.5"]
-  }
+    "description": "Luna Seemann's personal website",
+    "repo": "https://github.com/Luna-devv/luna-site",
+    "owner": {
+        "username": "Luna-devv",
+        "email": "luna@waya.one"
+    },
+    "record": {
+        "A": ["51.161.24.80"]
+    }
 }

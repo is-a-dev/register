@@ -1,11 +1,13 @@
 {
-  "description": "Fake_Name131's Website",
-  "repo": "https://github.com/YEEETT",
-  "owner": {
-    "username": "Fake_Name131",
-    "email": "fake@fake.is-a.dev"
-  },
-  "record": {
-    "CNAME": "yeeett.github.io"
-  }
+    "description": "Fake_Name131's Website",
+    "repo": "https://github.com/YEEETT",
+    "owner": {
+        "username": "Fake_Name131",
+        "email": "fake@fake.is-a.dev"
+    },
+    "record": {
+        "A": ["185.199.108.153"],
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
 }
