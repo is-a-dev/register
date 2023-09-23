@@ -1,0 +1,26 @@
+name: URL Validation
+on:
+  schedule:
+    - cron: '0 0 * * 1' # At 00:00 on Monday
+  workflow_dispatch:
+
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+        fetch-depth: 0
+    - name: Setup Up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - run: pip install requests
+    - run: python tests/url-validation.py
+    - name: Upload Artifact
+    uses: actions/upload-artifact@v3
+    with:
+      name: URL Validiation Result
+      path: url-validiation-result.json
+      retention-days: 6
