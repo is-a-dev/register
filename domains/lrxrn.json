@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "lrxrn",
         "email": "meesum632@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "lrxrn.github.io"
-      }
     }
-      
+}

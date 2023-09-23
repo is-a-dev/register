@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username":  "@is-a-dev/maintainers",
-    "email": "phenax5@gmail.com"
-  },
-  "record": {
-    "URL": "https://stats.uptimerobot.com/zY4XKIRVzw"
-  }
+    "owner": {
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
+    },
+    "record": {
+        "URL": "https://stats.uptimerobot.com/zY4XKIRVzw"
+    }
 }

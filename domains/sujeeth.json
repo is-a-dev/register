@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "sujeethk",
         "email": "sujeethkv@yahoo.com"
-      },
-      "record": {
+    },
+    "record": {
         "A": ["74.59.143.202"]
-      }
     }
-    
+}

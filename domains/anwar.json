@@ -1,11 +1,11 @@
 {
-  "description": "Anwar's personal website",
-  "repo": "https://github.com/getanwar",
-  "owner": {
-    "username": "getanwar",
-    "email": "say@anwar.im"
-  },
-  "record": {
-    "URL": "https://anwar.im"
-  }
+    "description": "Anwar's personal website",
+    "repo": "https://github.com/getanwar",
+    "owner": {
+        "username": "getanwar",
+        "email": "say@anwar.im"
+    },
+    "record": {
+        "URL": "https://anwar.im"
+    }
 }

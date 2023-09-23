@@ -1,10 +1,10 @@
 {
-  "description": "Minecraft server.",
-  "owner": {
-    "username": "bad-boy-codes",
-    "email": "contact@mail.badboy.is-a.dev"
-  },
-  "record": {
-    "URL": "https://bigpp.ml"
-  }
+    "description": "Minecraft server.",
+    "owner": {
+        "username": "bad-boy-codes",
+        "email": "contact@mail.badboy.is-a.dev"
+    },
+    "record": {
+        "URL": "https://bigpp.ml"
+    }
 }

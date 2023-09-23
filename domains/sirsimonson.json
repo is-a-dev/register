@@ -1,10 +1,10 @@
 {
-  "description": "S!ck S1m0n's Spaßgarten mit Spielwiese und Geräteschuppen",
-  "owner": {
-    "username": "sirsimonson",
-    "email": "srsmnsn@gmail.com"
-  },
-  "record": {
-    "CNAME": "sirsimonson.github.io"
-  }
+    "description": "S!ck S1m0n's Spaßgarten mit Spielwiese und Geräteschuppen",
+    "owner": {
+        "username": "sirsimonson",
+        "email": "srsmnsn@gmail.com"
+    },
+    "record": {
+        "CNAME": "sirsimonson.github.io"
+    }
 }

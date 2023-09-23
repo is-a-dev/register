@@ -1,11 +1,11 @@
 {
-  "description": "personal website at some point, now pointing to a VPS I own",
-  "repo": "https://github.com/iohansson/kldcs",
-  "owner": {
-    "username": "iohansson",
-    "email": "root@helge8.one"
-  },
-  "record": {
-    "CNAME": "helge8.cc"
-  }
+    "description": "personal website at some point, now pointing to a VPS I own",
+    "repo": "https://github.com/iohansson/kldcs",
+    "owner": {
+        "username": "iohansson",
+        "email": "root@helge8.one"
+    },
+    "record": {
+        "CNAME": "helge8.cc"
+    }
 }

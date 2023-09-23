@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "whoismidlaj",
         "email": "midlaj@tuta.io"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "whoismidlaj.github.io"
-      }
     }
-      
+}

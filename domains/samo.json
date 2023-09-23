@@ -1,12 +1,12 @@
 {
-  "description": "im samo :3",
-  "repo": "https://github.com/GodSamomen/GodSamomen.github.io",
-  "owner": {
-    "username": "GodSamomen",
-    "email": "godsamomen@protonmail.com",
-    "twitter": "godsamomen"
-  },
-  "record": {
-    "CNAME": "godsamomen.github.io"
-  }
+    "description": "im samo :3",
+    "repo": "https://github.com/GodSamomen/GodSamomen.github.io",
+    "owner": {
+        "username": "GodSamomen",
+        "email": "godsamomen@protonmail.com",
+        "twitter": "godsamomen"
+    },
+    "record": {
+        "CNAME": "godsamomen.github.io"
+    }
 }

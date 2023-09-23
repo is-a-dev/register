@@ -1,10 +1,10 @@
 {
-   "owner":{
-      "username":"FFJ-20",
-      "email":"",
-      "discord":"FFJ 2.0#6693"
-   },
-   "record":{
-      "CNAME":"ffj-20.github.io"
-   }
+    "owner": {
+        "username": "FFJ-20",
+        "email": "",
+        "discord": "FFJ 2.0#6693"
+    },
+    "record": {
+        "CNAME": "ffj-20.github.io"
+    }
 }

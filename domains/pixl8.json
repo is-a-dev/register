@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "pixl8dev",
         "email": "judah.cs08@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "pixl8dev.github.io"
-      }
     }
-  
+}

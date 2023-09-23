@@ -1,11 +1,11 @@
 {
-  "description": "Roig's website",
-  "repo": "https://github.com/groig",
-  "owner": {
-    "username": "groig",
-    "email": "groig@protonmail.com"
-  },
-  "record": {
-    "A": ["152.206.177.19"]
-  }
+    "description": "Roig's website",
+    "repo": "https://github.com/groig",
+    "owner": {
+        "username": "groig",
+        "email": "groig@protonmail.com"
+    },
+    "record": {
+        "A": ["152.206.177.19"]
+    }
 }

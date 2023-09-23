@@ -1,0 +1,11 @@
+{
+    "description": "ShoreCN Space",
+    "repo": "https://github.com/ShoreCN/ShoreCN.github.io",
+    "owner": {
+        "username": "ShoreCN",
+        "email": "c.shore.cn@gmail.com"
+    },
+    "record": {
+        "CNAME": "shorecn.github.io"
+    }
+}
