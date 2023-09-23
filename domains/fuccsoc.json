@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "fuccsoc",
         "email": "me@fuccsoc.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "URL": "https://fuccsoc.com"
-      }
     }
-  
+}

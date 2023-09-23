@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "varunkumarbilwal",
         "email": "varunkumarbilwal@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "varunkumarbilwal.github.io"
-      }
     }
-  
+}

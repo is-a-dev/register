@@ -1,13 +1,10 @@
 {
-  "description": "A domain for launching my person portfolio on!",
-  "repo": "https://github.com/mattjdavison",
-  "owner": {
-    "username": "mattjdavison",
-    "email": "matt@spectrebot.net"
-  },
-  "record": {
-    "A": [
-      "134.209.176.85"
-    ]
-  }
+    "description": "A domain for launching my person portfolio on!",
+    "owner": {
+        "username": "immattdavison",
+        "email": "hey@matt.lgbt"
+    },
+    "record": {
+        "A": ["209.97.183.92"]
+    }
 }

@@ -1,12 +1,12 @@
 {
-  "description": "Want this domain to host my portfolio.",
-  "repo": "https://github.com/itsdharmik/itsdharmik.github.io",
-  "owner": {
-    "username": "itsdharmik",
-    "email": "dharmikparmar2004@yahoo.com",
-    "twitter": "itsdharmik"
-  },
-  "record": {
-    "CNAME": "itsdharmik.github.io"
-  }
+    "description": "Want this domain to host my portfolio.",
+    "repo": "https://github.com/itsdharmik/itsdharmik.github.io",
+    "owner": {
+        "username": "itsdharmik",
+        "email": "dharmikparmar2004@yahoo.com",
+        "twitter": "itsdharmik"
+    },
+    "record": {
+        "CNAME": "itsdharmik.github.io"
+    }
 }

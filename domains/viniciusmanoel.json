@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "vncsmnl",
         "email": "viniciusmanoel07@hotmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "viniciusmanoel.ml"
-      }
     }
-  
+}

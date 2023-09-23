@@ -1,11 +1,11 @@
 {
-  "description": "Semant Api",
-  "owner": {
-    "username": "semantcodes",
-    "email": "contact@semant.is-a.dev",
-    "discord": "445073800850046977"
-  },
-  "record": {
-    "CNAME": "d583fe02-d653-4af3-a8fc-1645f6857a8c.id.repl.co"
-  }
+    "description": "Semant Api",
+    "owner": {
+        "username": "s3mant",
+        "email": "contact@semant.is-a.dev",
+        "discord": "445073800850046977"
+    },
+    "record": {
+        "CNAME": "d583fe02-d653-4af3-a8fc-1645f6857a8c.id.repl.co"
+    }
 }
