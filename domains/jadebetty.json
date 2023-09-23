@@ -5,6 +5,7 @@
         "discord": "758617912566087681"
     },
     "record": {
+        "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
         "CNAME": "jadebetty.github.io"
     }
 }
