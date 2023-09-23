@@ -1,0 +1,10 @@
+{
+    "description": "SX's Website",
+    "owner": {
+        "username": "SX-9",
+        "email": "sx-91@outlook.com"
+    },
+    "record": {
+        "CNAME": "sx-9.github.io"
+    }
+}

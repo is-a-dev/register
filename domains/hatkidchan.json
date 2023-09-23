@@ -1,13 +1,12 @@
 {
-  "description": "Personal webpage of hkc, as well as some bots webhook url and probably some APIs",
-  "owner": {
-    "username": "hatkidchan",
-    "email": "hatkidchan@gmail.com",
-    "twitter": "hatkidchan"
-  },
-  "record": {
-    "A": [
-      "51.15.69.42"
-    ]
-  }
+    "description": "kc personal website",
+    "owner": {
+        "username": "hatkidchan",
+        "email": "hatkidchan@gmail.com",
+        "twitter": "hatkidchan",
+        "discord": "hkc#0517"
+    },
+    "record": {
+        "A": ["5.181.108.112"]
+    }
 }

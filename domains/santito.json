@@ -1,0 +1,11 @@
+{
+    "description": "Santito's Personal Site",
+    "repo": "https://github.com/DevSantito/devsantito.github.io",
+    "owner": {
+        "username": "DevSantito",
+        "email": "devsantito@gmail.com"
+    },
+    "record": {
+        "CNAME": "devsantito.github.io"
+    }
+}

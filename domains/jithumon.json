@@ -1,0 +1,12 @@
+{
+    "description": "Jithumon's Personal Website",
+    "repo": "https://github.com/jithumon/jithumon.github.com",
+    "owner": {
+        "username": "jithumon",
+        "email": "jithumondev@gmail.com",
+        "twitter": "Jithumatt"
+    },
+    "record": {
+        "CNAME": "jithumon.github.io"
+    }
+}

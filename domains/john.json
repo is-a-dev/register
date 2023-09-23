@@ -2,11 +2,11 @@
     "description": "John Peterson's personal development page.",
     "repo": "https://github.com/majesticturtlejp/majesticturtlejp.github.io",
     "owner": {
-      "username": "majesticturtlejp",
-      "email": "johnp5419@gmail.com",
-      "instagram": "johnp5419"
+        "username": "majesticturtlejp",
+        "email": "johnp5419@gmail.com",
+        "instagram": "johnp5419"
     },
     "record": {
-      "CNAME": "majesticturtlejp.github.io"
+        "CNAME": "majesticturtlejp.github.io"
     }
-  }
+}

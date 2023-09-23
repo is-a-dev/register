@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "dskprt",
+        "email": "",
+        "reddit": "dskprt"
+    },
+    "record": {
+        "A": ["136.243.156.120"],
+        "MX": ["mail.ct8.pl"],
+        "TXT": "v=spf1 mx a include:spf.ct8.pl -all"
+    }
+}

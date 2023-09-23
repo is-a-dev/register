@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Sambhrama754",
-    "email": "sambhramakhushi@hotmail.com"
-  },
-  "record": {
-    "CNAME" : "website-production-d557.up.railway.app"
-  }
+    "owner": {
+        "username": "Sambhrama754",
+        "email": "sambhramakhushi@hotmail.com"
+    },
+    "record": {
+        "CNAME": "website-production-d557.up.railway.app"
+    }
 }

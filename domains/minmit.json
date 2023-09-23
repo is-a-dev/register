@@ -2,8 +2,8 @@
     "description": "My Personal Website",
     "repo": "https://github.com/MinMitCoder",
     "owner": {
-      "username": "MinMitCoder",
-      "email": "minmitgamer@gmail.com"
+        "username": "MinMitCoder",
+        "email": "minmitgamer@gmail.com"
     },
     "record": {
         "CNAME": "minmit.pages.dev"

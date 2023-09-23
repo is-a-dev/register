@@ -1,0 +1,11 @@
+{
+    "description": "Amelia Corp Official Website.",
+    "repo": "https://github.com/aaraam/aaraam.github.io",
+    "owner": {
+        "username": "ameliakiara",
+        "email": "contact@kiara.my.id"
+    },
+    "record": {
+        "CNAME": "lavalink-music-bot-production.up.railway.app"
+    }
+}

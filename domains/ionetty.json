@@ -1,14 +1,12 @@
 {
-  "description": "Minecraft server n such.",
-  "repo": "https://github.com/tootie112",
-  "owner": {
-    "username": "tootie112",
-    "email": "",
-    "discord": "Io.Netty#3118"
-  },
-  "record": {
-    "A": [
-      "65.21.160.210"
-    ]
-  }
+    "description": "Minecraft server n such.",
+    "repo": "https://github.com/tootie112",
+    "owner": {
+        "username": "tootie112",
+        "email": "",
+        "discord": "Io.Netty#3118"
+    },
+    "record": {
+        "A": ["65.21.160.210"]
+    }
 }

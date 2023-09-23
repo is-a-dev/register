@@ -1,11 +1,11 @@
 {
-  "description": "My is-a-dev sub-domain Credentials! :D",
-  "repo": "https://github.com/SealedSaucer",
-  "owner": {
-    "username": "SealedSaucer",
-    "email": "phantom@phantomcodes.ga"
-  },
-  "record": {
-  "URL": "https://phantomcodes.ga"
-  }
+    "description": "My is-a-dev sub-domain Credentials! :D",
+    "repo": "https://github.com/SealedSaucer",
+    "owner": {
+        "username": "SealedSaucer",
+        "email": "sealedsaucer@gmail.com"
+    },
+    "record": {
+        "CNAME": "phantom.pages.dev"
+    }
 }

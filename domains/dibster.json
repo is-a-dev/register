@@ -1,0 +1,11 @@
+{
+    "description": "ShareX Server/Protfolio Site.",
+    "owner": {
+        "username": "DEV-DIBSTER",
+        "email": "dibster@danbot.host",
+        "twitter": "DEV_DIBSTER"
+    },
+    "record": {
+        "CNAME": "proxy.dib.localplayer.dev"
+    }
+}

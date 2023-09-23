@@ -1,0 +1,11 @@
+{
+    "description": "My Personal Developer WebPage",
+    "repo": "https://github.com/moddedstuffguy/moddedstuffguy.github.io",
+    "owner": {
+        "username": "moddedstuffguy",
+        "email": "pruebecitasg2@gmail.com"
+    },
+    "record": {
+        "CNAME": "moddedstuffguy.github.io"
+    }
+}

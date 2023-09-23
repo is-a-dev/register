@@ -1,11 +1,11 @@
 {
-  "description": "My portfolio",
-  "repo": "https://github.com/Dartanman",
-  "owner": {
-    "username": "Dartanman",
-    "email": "dartanmanplaysminecraft@gmail.com"
-  },
-  "record": {
-   "URL": "https://sites.google.com/view/dartanman-portfolio"
-  }
+    "description": "My portfolio",
+    "repo": "https://github.com/Dartanman",
+    "owner": {
+        "username": "Dartanman",
+        "email": "dartanmanplaysminecraft@gmail.com"
+    },
+    "record": {
+        "URL": "https://sites.google.com/view/dartanman-portfolio"
+    }
 }

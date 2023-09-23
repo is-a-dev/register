@@ -1,9 +1,9 @@
 {
- "owner":{
-           "username":"thispsj",
-           "email":"thispsj.mail@gmail.com"
-          },
-  "record":{
-            "CNAME":"gv-5tmrgilyy2ar3j.dv.googlehosted.com"
-            }
+    "owner": {
+        "username": "thispsj",
+        "email": "thispsj.mail@gmail.com"
+    },
+    "record": {
+        "CNAME": "gv-5tmrgilyy2ar3j.dv.googlehosted.com"
+    }
 }

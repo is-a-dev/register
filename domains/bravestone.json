@@ -1,12 +1,12 @@
 {
-  "description": "My Personal website.",
-  "repo": "https://github.com/itsbravestone",
-  "owner": {
-    "username": "itsbravestone",
-    "email": "imbravestone@zarena.ga",
-    "twitter": "imbravestone"
-  },
-  "record": {
-  "URL": "https://imbravestone.ga"
-  }
+    "description": "My Personal website.",
+    "repo": "https://github.com/itsbravestone",
+    "owner": {
+        "username": "itsbravestone",
+        "email": "imbravestone@zarena.ga",
+        "twitter": "imbravestone"
+    },
+    "record": {
+        "URL": "https://imbravestone.ga"
+    }
 }

@@ -1,13 +1,11 @@
 {
-  "description": "my website",
-  "repo": "https://github.com/Bedrock16",
-  "owner": {
-    "username": "atharv",
-    "email": "youbed61@gmail.com"
-  },
-  "record": {
-    "A": [
-      "34.120.194.28"
-    ]
-  }
+    "description": "my website",
+    "repo": "https://github.com/Bedrock16",
+    "owner": {
+        "username": "atharv",
+        "email": "youbed61@gmail.com"
+    },
+    "record": {
+        "A": ["34.120.194.28"]
+    }
 }

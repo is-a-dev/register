@@ -1,0 +1,12 @@
+{
+    "description": "Nisarga",
+    "repo": "https://github.com/nisarga-developer/nisarga-developer.github.io",
+    "owner": {
+        "username": "nisarga-developer",
+        "email": "adhikarynisarga17@gmail.com",
+        "twitter": "adhikarynisarga"
+    },
+    "record": {
+        "CNAME": "nisarga-developer.github.io"
+    }
+}

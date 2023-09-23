@@ -1,0 +1,11 @@
+{
+    "description": "A personal website for me and my organization",
+    "repo": "https://github.com/Kicrops/website",
+    "owner": {
+        "username": "Kicrops",
+        "email": "kicropsdevelopment@gmail.com"
+    },
+    "record": {
+        "CNAME": "d3aeb170-58da-460e-aad2-29a40a7a0d80.id.repl.co"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "description": "This site is a little about me and some info soon",
+    "repo": "https://github.com/Wired-design/Wired-design.github.io",
+    "owner": {
+        "username": "Wired-design",
+        "email": "wireddesign@outlook.com",
+        "twitter": "Wired__Design"
+    },
+    "record": {
+        "CNAME": "wired-design.github.io"
+    }
+}
