@@ -1,9 +1,8 @@
 {
-    "description": "Describe the use of this subdomain",
     "repo": "https://github.com/Miroslavchen/hatynka_0A.github.io",
     "owner": {
         "username": "miroslavchen",
-        "email": "miroslavnezgoduk8@gmail.com",
+        "email": "miroslavnezgoduk8@gmail.com"
     },
     "record": {
         "CNAME": "miroslavchen.github.io"
