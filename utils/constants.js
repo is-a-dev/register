@@ -18,7 +18,7 @@ const DOMAINS_PATH = path.resolve('domains');
 module.exports = {
   ENV,
   IS_TEST,
-  VALID_RECORD_TYPES: ['CNAME', 'A', 'URL', 'MX', 'TXT'],
+  VALID_RECORD_TYPES: ['CNAME', 'A', 'URL', 'MX', 'TXT', 'AAAA'],
   DOMAIN_DOMAIN: DOMAIN_DOMAIN || 'booboo.xyz',
   DOMAIN_USER: IS_TEST ? 'testuser' : DOMAIN_USER,
   DOMAIN_API_KEY: IS_TEST ? 'testkey' : DOMAIN_API_KEY,
