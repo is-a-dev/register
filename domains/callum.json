@@ -1,12 +1,12 @@
 {
-  "description": "My personal site.",
-  "repo": "https://github.com/cxllm/website",
-  "owner": {
-    "username": "cxllm",
-    "email": "hello@cxllm.xyz",
-    "twitter": "CX11M"
-  },
-  "record": {
-    "URL": "https://cxllm.xyz"
-  }
+    "description": "My personal site.",
+    "repo": "https://github.com/cxllm/website",
+    "owner": {
+        "username": "cxllm",
+        "email": "hello@cxllm.xyz",
+        "twitter": "CX11M"
+    },
+    "record": {
+        "URL": "https://cxllm.xyz"
+    }
 }

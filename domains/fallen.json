@@ -1,12 +1,12 @@
 {
-  "description": "Website Redirect",
-  "repo": "https://github.com/ThingsOfFallen/Website",
-  "owner": {
-    "username": "TheFallenSpirit",
-    "email": "thefallenspirit@outlook.com",
-    "twitter": "@FallenCodes"
-  },
-  "record": {
-    "URL": "https://fallenspirit.dev"
-  }
+    "description": "Website Redirect",
+    "repo": "https://github.com/ThingsOfFallen/Website",
+    "owner": {
+        "username": "TheFallenSpirit",
+        "email": "thefallenspirit@outlook.com",
+        "twitter": "FallenCodes"
+    },
+    "record": {
+        "URL": "https://fallenspirit.dev"
+    }
 }

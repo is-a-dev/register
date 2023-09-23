@@ -1,11 +1,11 @@
 {
-  "description": "Sachin's portfolio",
-  "repo": "https://github.com/sachin-in1",
-  "owner": {
-    "username": "sachin-in1",
-    "email": "sachin.here01@gmail.com"
-  },
-  "record": {
-    "CNAME": "sachin-in1.github.io"
-  }
+    "description": "Sachin's portfolio",
+    "repo": "https://github.com/sachin-in1",
+    "owner": {
+        "username": "sachin-in1",
+        "email": "sachin.here01@gmail.com"
+    },
+    "record": {
+        "CNAME": "sachin-in1.github.io"
+    }
 }

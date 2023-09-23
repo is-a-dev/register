@@ -1,11 +1,11 @@
 {
-  "description": "Blog for Erisa A.",
-  "repo": "https://github.com/Erisa",
-  "owner": {
-    "username": "Erisa",
-    "email": "seriel@erisa.moe"
-  },
-  "record": {
-    "CNAME": "dev.cname.erisa.moe"
-  }
+    "description": "Blog for Erisa A.",
+    "repo": "https://github.com/Erisa",
+    "owner": {
+        "username": "Erisa",
+        "email": "seriel@erisa.moe"
+    },
+    "record": {
+        "CNAME": "dev.cname.erisa.moe"
+    }
 }

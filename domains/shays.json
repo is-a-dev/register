@@ -1,0 +1,11 @@
+{
+    "description": "my folio site",
+    "repo": "https://github.com/SHays24/SHays24.github.io",
+    "owner": {
+        "username": "SHays24",
+        "email": "SHays24@student.sacs.nsw.edu.au"
+    },
+    "record": {
+        "CNAME": "shays24.github.io"
+    }
+}
