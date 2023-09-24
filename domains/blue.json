@@ -1,12 +1,12 @@
 {
-    "description": "A newbie Python developer who wants to learn more about web design and Python development.",
-    "repo": "https://github.com/Jimmy-Blue/jimmy-blue.github.io",
+    "description": "Personal site for b1uedev, a.k.a Blue.",
+    "repo": "https://github.com/B1ue-Dev/b1ue-dev.github.io",
     "owner": {
-        "username": "Jimmy-Blue",
+        "username": "B1ue-Dev",
         "email": "ngolong1396@hotmail.com",
-        "twitter": "JimmyBlue00"
+        "twitter": "b1uedev"
     },
     "record": {
-        "CNAME": "jimmy-blue.github.io"
+        "CNAME": "b1ue-dev.github.io"
     }
 }
