@@ -4,6 +4,6 @@
         "email": "neon+domain@saahild.com"
     },
     "record": {
-        "A": "185.250.37.86"
+        "A": ["185.250.37.86"]
     }
 }
