@@ -23,4 +23,4 @@ jobs:
       with:
         name: URL Validiation Result
         path: url-validation-result.json
-        retention-days: 6
+        retention-days: 7
