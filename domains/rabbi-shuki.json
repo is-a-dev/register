@@ -1,11 +1,11 @@
 {
-  "description": "TODO: update readme",
-  "repo": "https://github.com/rabbishuki/rabbishuki.github.io",
-  "owner": {
-    "username": "Rabbi Shuki",
-    "email": "rabbishuki+is-a-dev@gmail.com"
-  },
-  "record": {
-    "CNAME": "rabbishuki.github.io"
-  }
+    "description": "TODO: update readme",
+    "repo": "https://github.com/rabbishuki/rabbishuki.github.io",
+    "owner": {
+        "username": "rabbishuki",
+        "email": "rabbishuki+is-a-dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "rabbishuki.github.io"
+    }
 }

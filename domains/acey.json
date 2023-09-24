@@ -1,12 +1,9 @@
 {
-  "owner": {
-    "username": "AceyDoCodes",
-    "email": "aceygoesboom@gmail.com",
-    "discord": "AceyGoesBoom#3141"
-  },
-  "description": "Personal website stuff ;-;",
-  "repo": "https://github.com/AceyDoCodes",
-  "record": {
-    "URL": "https://acey.is-a-good.dev"
-  }
+    "owner": {
+        "username": "AceyDoCodes",
+        "email": "aceygoesboom@gmail.com"
+    },
+    "record": {
+        "URL": "https://github.com/AceyDoCodes"
+    }
 }

@@ -1,0 +1,12 @@
+{
+    "description": "Tsognyam's Personal Portfolio",
+    "repo": "https://github.com/tsognyam/tsognyam.github.io",
+    "owner": {
+        "username": "tsognyam",
+        "email": "tsognyamt@gmail.com",
+        "twitter": "b_tsognyam"
+    },
+    "record": {
+        "CNAME": "tsognyam.github.io"
+    }
+}

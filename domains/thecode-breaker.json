@@ -1,11 +1,11 @@
 {
-  "description": "Link for Adarsh's personal site on GitHub pages",
-  "repo": "https://github.com/theCode-Breaker/theCode-Breaker.github.io/",
-  "owner": {
-    "username": "theCode-Breaker",
-    "email": "limit6@protonmail.com"
-  },
-  "record": {
-    "CNAME": "thecode-breaker.github.io"
-  }
+    "description": "Link for Adarsh's personal site on GitHub pages",
+    "repo": "https://github.com/theCode-Breaker/theCode-Breaker.github.io",
+    "owner": {
+        "username": "theCode-Breaker",
+        "email": "theCodeBreaker.dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "thecode-breaker.github.io"
+    }
 }

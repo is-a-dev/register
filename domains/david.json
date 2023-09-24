@@ -1,11 +1,11 @@
 {
-  "description": "Student and developer in the United Kingdom.",
-  "repo": "https://github.com/davidjcralph",
-  "record": {
-    "URL": "https://davidjcralph.co.uk"
-  },
-  "owner": {
-    "username": "davidjcralph",
-    "email": "me@davidjcralph.co.uk"
-  }
+    "description": "Student and developer in the United Kingdom.",
+    "repo": "https://github.com/davidjcralph",
+    "record": {
+        "URL": "https://davidjcralph.co.uk"
+    },
+    "owner": {
+        "username": "davidjcralph",
+        "email": "me@davidjcralph.co.uk"
+    }
 }
