@@ -1,11 +1,11 @@
 {
-    "description": "NotArya Website",
-    "repo": "https://github.com/NotAryaaa/notaryaaa.github.io",
     "owner": {
-        "username": "notaryaaa",
-        "email": "abiix.messanger@gmail.com"
+        "username": "not-arya",
+        "email": "abiixmessanger@gmail.com"
     },
     "record": {
-        "CNAME": "notarya.github.io"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
