@@ -4,6 +4,7 @@
         "email": "sufyanmishal@gmail.com"
     },
     "record": {
+        "CNAME": ["sahmed011.github.io"],
         "URL": ["https://sahmed011.github.io/"],
         "TXT" : ["dh=7e7e671a8b44d02fde9ab6f6df7baf94086c96fd"]
     }
