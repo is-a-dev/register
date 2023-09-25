@@ -1,11 +1,11 @@
 {
-  "description": "Roy's portfolio website",
-  "repo": "https://github.com/rcrj/rcrj.github.io",
-  "owner": {
-    "username": "rcrj",
-    "email": "rcrj95@gmail.com"
-  },
-  "record": {
-    "CNAME": "rcrj.github.io"
-  }
+    "description": "Roy's portfolio website",
+    "repo": "https://github.com/rcrj/rcrj.github.io",
+    "owner": {
+        "username": "rcrj",
+        "email": "rcrj95@gmail.com"
+    },
+    "record": {
+        "CNAME": "rcrj.github.io"
+    }
 }
