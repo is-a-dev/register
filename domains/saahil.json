@@ -1,11 +1,9 @@
 {
-  "description": "this is my about me page, - neongamerbot",
-  "owner": {
-    "username": "neongamerbot",
-    "email": "saahilattud@gmail.com",
-    "twitter": ""
-  },
-  "record": {
-    "CNAME": "a58b11f7-e44a-4ebc-811d-22105a51b9b7.repl.co"
-  }
+    "owner": {
+        "username": "NeonGamerBot-QK",
+        "email": "neon+domain@saahild.com"
+    },
+    "record": {
+        "A": ["185.250.37.86"]
+    }
 }

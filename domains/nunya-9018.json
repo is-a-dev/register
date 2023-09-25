@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Nunya-9018",
         "email": "007youdontknowme@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "nunya-9018.up.railway.app"
-      }
     }
-  
+}

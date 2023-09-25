@@ -1,13 +1,13 @@
 {
-  "description": "poked.is-a.dev",
-  "repo": "https://github.com/PokedArmory/PokedArmory.github.io",
-  "owner": {
-    "username": "PokedArmory",
-    "email": "poked.armory@gmail.com",
-    "discord": "Poked_Armory#0001",
-    "twitter": "@PokedWasTaken"
-  },
-  "record": {
-    "CNAME": "PokedArmory.github.io"
-  }
+    "description": "poked.is-a.dev",
+    "repo": "https://github.com/PokedArmory/PokedArmory.github.io",
+    "owner": {
+        "username": "PokedArmory",
+        "email": "poked.armory@gmail.com",
+        "discord": "Poked_Armory#0001",
+        "twitter": "PokedWasTaken"
+    },
+    "record": {
+        "CNAME": "PokedArmory.github.io"
+    }
 }

@@ -1,12 +1,11 @@
 {
-  "description": "Austin's personal developer website",
-  "repo": "https://github.com/austindyoung",
-  "owner": {
-    "username": "austindyoung",
-    "email": "austin@doesweb.dev",
-    "twitter": ""
-  },
-  "record": {
-    "URL": "https://austindyoung.github.io"
-  }
+    "description": "Austin's personal developer website",
+    "repo": "https://github.com/austindyoung",
+    "owner": {
+        "username": "austindyoung",
+        "email": "austin@doesweb.dev"
+    },
+    "record": {
+        "URL": "https://austindyoung.github.io"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "my git repos",
-  "owner": {
-    "username": "MaskDuck",
-    "email": "maskduckuwu@gmail.com",
-    "discord": "MaskDuck#7325"
-  },
-  "record": {
-    "CNAME": "edge.redirect.pizza"
-  }
+    "description": "my git repos",
+    "owner": {
+        "username": "MaskDuck",
+        "email": "maskduckuwu@gmail.com",
+        "discord": "MaskDuck#7325"
+    },
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    }
 }

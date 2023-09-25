@@ -1,12 +1,12 @@
 {
-  "description": "I am a dev ig",
-  "repo": "https://github.com/xelxen.github.io",
-  "owner": {
-    "username": "XelXen",
-    "email": "xelxenfox@gmail.com",
-    "twitter": "your-twitter-username"
-  },
-  "record": {
-    "CNAME": "xelxen.github.io"
-  }
+    "description": "I am a dev ig",
+    "repo": "https://github.com/xelxen.github.io",
+    "owner": {
+        "username": "XelXen",
+        "email": "xelxenfox@gmail.com",
+        "twitter": "your-twitter-username"
+    },
+    "record": {
+        "CNAME": "xelxen.github.io"
+    }
 }
