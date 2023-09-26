@@ -1,13 +1,12 @@
 {
-  "description": "Ethan's website",
-  "repo": "https://github.com/not-a-ethan/Portfiolio",
-  "owner": {
-      "username": "not-a-ethan",
-      "email": "",
-      "discord": "not_ethan."
-  },
-  "record": {
-      "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-      "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  }
+    "owner": {
+        "username": "not-a-ethan",
+        "email": "",
+        "discord": "not_ethan."
+    },
+    "record": {
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all",
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
+    }
 }

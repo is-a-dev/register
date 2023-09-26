@@ -1,8 +1,8 @@
 {
     "owner": {
-      "username": "SreevikramR",
-      "email": "sreevikram.r@gmail.com",
-      "discord": "therealviki"
+        "username": "SreevikramR",
+        "email": "sreevikram.r@gmail.com",
+        "discord": "therealviki"
     },
     "record": {
         "CNAME": "nextjs-production-a65b.up.railway.app"
