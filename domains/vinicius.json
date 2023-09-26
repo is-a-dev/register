@@ -1,11 +1,13 @@
 {
-  "description": "My personal website",
-  "repo": "https://github.com/vncsmnl",
-  "owner": {
-    "username": "vncsmnl",
-    "email": "59481808+vncsmnl@users.noreply.github.com"
-  },
-  "record": {
-    "CNAME": "viniciusmanoel.ml"
-  }
+    "description": "My personal website",
+    "repo": "https://github.com/vncsmnl",
+    "owner": {
+        "username": "vncsmnl",
+        "email": "",
+        "twitter": "vncsmnl",
+        "discord": "vncsmnl#7835"
+    },
+    "record": {
+        "CNAME": "vncsmnl.github.io"
+    }
 }
