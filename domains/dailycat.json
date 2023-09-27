@@ -1,7 +1,10 @@
 {
+    "description": "dailycat.is-a.dev",
+    "repo": "https://github.com/dailycats/dailycats.github.io",
     "owner": {
         "username": "lrmn7",
-        "email": "lrmn.dev@gmail.com"
+        "email": "lrmn.dev@gmail.com",
+        "discord": "romanromannya#0"
     },
     "record": {
         "CNAME": "dailycats.github.io"
