@@ -4,6 +4,8 @@
         "email": "buivanluong0204@gmail.com"
     },
     "record": {
-        "CNAME": "4ff23fe2-1725-47fb-b45b-0d0dcb0b9b02.id.repl.co"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
