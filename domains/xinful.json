@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/xinfull/xinfull.github.io",
+    "owner": {
+        "username": "xinfull",
+        "email": "email@address",
+        "twitter": "<twitter-username>"
+    },
+    "record": {
+        "CNAME": "xinfull.github.io"
+    }
+} 
