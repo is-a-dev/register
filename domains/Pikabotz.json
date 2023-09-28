@@ -1,0 +1,12 @@
+{
+    "description": "Applying for an is-a.dev domain on behalf of my friend so he can use one.",
+     "owner": {
+        "username": "Riders004",
+        "email": "tem.riders@mail.com"
+    },
+    "record": {
+        "SubDomain": "Pikabotz",
+        "NameServer1": "ariadne.ns.cloudflare.com",
+        "NamServer2": "nolan.ns.cloudflare.com"
+    }
+}
