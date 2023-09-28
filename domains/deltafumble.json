@@ -1,0 +1,12 @@
+{
+    "description": "My blog",
+    "repo": "https://github.com/deltafumble/deltafumble.github.io",
+    "owner": {
+        "username": "deltafumble",
+        "email": "deltafumblecontact@skiff.com",
+        "twitter": "deltafumble"
+    },
+    "record": {
+        "CNAME": "deltafumble.github.io"
+    }
+}
