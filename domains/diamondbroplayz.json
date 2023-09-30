@@ -1,0 +1,12 @@
+{
+    "description": "My coding blog",
+    "repo": "https://github.com/wavysblog/wavysblog.github.io",
+    "owner": {
+        "username": "DiamondBroPlayz",
+        "email": "diamondbroplayz@proton.me",
+        "twitter": "logout"
+    },
+    "record": {
+        "CNAME": "wavysblog.github.io"
+    }
+} 
