@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "amarjeetmalpotra",
-    "email": "amarjeetmalpotra@outlook.com"
-  },
-  "record": {
-    "CNAME": "amarjeetmalpotra.github.io"
-  }
+    "owner": {
+        "username": "amalpotra",
+        "email": "amarjeetmalpotra@outlook.com"
+    },
+    "record": {
+        "CNAME": "amalpotra.github.io"
+    }
 }

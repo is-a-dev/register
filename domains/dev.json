@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "gsdev215",
-    "email": "dev1050d2@gmail.com"
-  },
-  "record": {
-    "CNAME": "gsdev215.github.io"
-  }
+    "owner": {
+        "username": "gsdev215",
+        "email": "dev1050d2@gmail.com"
+    },
+    "record": {
+        "CNAME": "gsdev215.github.io"
+    }
 }

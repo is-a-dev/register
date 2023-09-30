@@ -1,12 +1,12 @@
 {
-  "description": "Personal website",
-  "repo": "https://github.com/Foufou-exe/foufou-exe.github.io",
-  "owner": {
-    "username": "Foufou-exe",
-    "email": "thibaut.maurras34@gmail.com",
-    "twitter": "MaurrasT"
-  },
-  "record": {
-    "CNAME": "foufou-exe.github.io"
-  }
+    "description": "Personal website",
+    "repo": "https://github.com/Foufou-exe/foufou-exe.github.io",
+    "owner": {
+        "username": "Foufou-exe",
+        "email": "thibaut.maurras34@gmail.com",
+        "twitter": "MaurrasT"
+    },
+    "record": {
+        "CNAME": "foufou-exe.github.io"
+    }
 }

@@ -2,6 +2,8 @@ const R = require('ramda');
 const { VALID_RECORD_TYPES } = require('./constants');
 const { or, and, validate, between, testRegex, withLengthEq, withLengthGte } = require('./helpers');
 const INVALID_NAMES = require('./invalid-domains.json');
+const ipRegex_ = require('ip-regex');
+const ipRegex = ipRegex_.default ?? ipRegex_;
 
 const isValidURL = and([R.is(String), testRegex(/^https?:\/\//ig)]);
 
@@ -17,6 +19,7 @@ const validateCnameRecord = type => and([
 const validateARecord = type => and([
   R.propIs(Array, type),
   R.propSatisfies(withLengthGte(1), type),
+  R.all(testRegex(ipRegex.v4({ exact: true }))),
 ]);
 
 const validateMXRecord = type => and([
@@ -25,6 +28,19 @@ const validateMXRecord = type => and([
   R.propSatisfies(R.all(isValidDomain), type),
 ]);
 
+const validateAAAARecord = R.propSatisfies(and([
+  R.is(Array),
+  withLengthGte(1),
+  R.all(testRegex(ipRegex.v6({ exact: true }))),
+]))
+
+const checkRestrictedNames = R.complement(R.includes(R.__, INVALID_NAMES))
+
+const extraSupportedNames = [
+  testRegex(/^_github(-pages)?-challenge-[a-z0-9-_]+$/i), // Exception for github verification records
+  R.equals('_discord'),
+]
+
 const validateDomainData = validate({
   name: {
     reason: 'The name of the file is invalid. It must be lowercased, alphanumeric and each component must be more than 2 characters long',
@@ -32,11 +48,15 @@ const validateDomainData = validate({
       R.equals('@'),
       and([
         R.is(String),
+        checkRestrictedNames,
         R.compose(
-          R.all(and([
-            R.compose(between(2, 100), R.length),
-            testRegex(/^[a-z0-9-]+$/g),
-            R.complement(R.includes(R.__, INVALID_NAMES)),
+          R.all(or([
+            and([
+              R.compose(between(2, 100), R.length),
+              testRegex(/^[a-z0-9-]+$/g),
+              checkRestrictedNames,
+            ]),
+            ...extraSupportedNames,
           ])),
           R.split('.'),
         ),
@@ -66,7 +86,8 @@ const validateDomainData = validate({
         [R.has('A'), validateARecord('A')],
         [R.has('URL'), R.propSatisfies(isValidURL, 'URL')],
         [R.has('MX'), validateMXRecord('MX')],
-        [R.has('TXT'), R.propSatisfies(R.is(String), 'TXT')],
+        [R.has('TXT'), R.propSatisfies(or([ R.is(String), R.is(Array) ]), 'TXT')],
+        [R.has('AAAA'), validateAAAARecord('AAAA')],
         [R.T, R.T],
       ]),
     ]),

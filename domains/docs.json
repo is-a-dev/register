@@ -1,11 +1,11 @@
 {
-  "description": "Documentation website for is-a-dev/register",
-  "repo": "MouseMoosz/is-a-dev-docs",
-  "owner": {
-    "username": "@is-a-dev/maintainers",
-    "email": "mahir@molai.dev"
-  },
-  "record": {
-    "CNAME": "mousemoosz.github.io"
-  }
+    "description": "Documentation website for is-a.dev",
+    "repo": "https://github.com/is-a-dev/docs",
+    "owner": {
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
+    },
+    "record": {
+        "URL": "https://www.is-a.dev/docs"
+    }
 }
