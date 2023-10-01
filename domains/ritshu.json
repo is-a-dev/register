@@ -5,6 +5,6 @@
         "email": "ritshu.dev@gmail.com"
     },
     "record": {
-        "CNAME": "ritshu.github.io"
+        "TXT": "vc-domain-verify=ritshu.is-a.dev,ae4ec47ffee0ad8d18db"
     }
 }
