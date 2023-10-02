@@ -1,0 +1,10 @@
+{
+    "description": "Film Flu Web Platform",
+    "repo": "https://github.com/dherediat97/FilmFlu",
+    "owner": {
+        "username": "dherediat97",
+    },
+    "record": {
+        "CNAME": "https://dherediat97.github.io/FilmFlu/"
+    }
+} 
