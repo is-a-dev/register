@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "jlalfonso21",
-           "email": "jlalfonso21@gmail.com"
-        },
-        "record": {
-            "A": ["89.147.111.78"]
-        }
+    "owner": {
+        "username": "jlalfonso21",
+        "email": "jlalfonso21@gmail.com"
+    },
+    "record": {
+        "A": ["89.147.111.78"]
     }
-    
+}
