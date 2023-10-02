@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "IMZihad21",
-    "email": "imzihad@gmail.com"
-  },
-  "record": {
-    "A": ["52.77.224.107"],
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": "forward-email=imzihad@gmail.com"
-  }
+    "owner": {
+        "username": "IMZihad21",
+        "email": "imzihad@gmail.com"
+    },
+    "record": {
+        "CNAME": "ec2-13-250-29-91.ap-southeast-1.compute.amazonaws.com"
+    }
 }

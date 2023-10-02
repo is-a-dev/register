@@ -1,11 +1,11 @@
-{ 
-	"owner": { 		
-  		"username": "EtherealTheDev", 
-		"email": "", 
-		"twitter": "EtherealTheDev",
-		"discord": "Ethereal#0908"
-	},
-	"record": {	
-		"CNAME": "92073eed-80b5-4f2f-b84a-0121b7ec69bb.id.repl.co"
-	} 
+{
+    "owner": {
+        "username": "EtherealTheDev",
+        "email": "",
+        "twitter": "EtherealTheDev",
+        "discord": "Ethereal#0908"
+    },
+    "record": {
+        "CNAME": "92073eed-80b5-4f2f-b84a-0121b7ec69bb.id.repl.co"
+    }
 }
