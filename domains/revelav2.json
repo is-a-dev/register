@@ -1,0 +1,10 @@
+{
+    "description": "revelav2.is-a.dev",
+    "owner": {
+        "username": "DIVISIONSolar",
+        "email": "me@joshsevero.dev"
+    },
+    "record": {
+        "CNAME": "proxy.revela.network"
+    }
+}

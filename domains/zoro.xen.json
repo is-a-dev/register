@@ -1,10 +1,10 @@
 {
-  "description": "Backend API for t.me/roronoa_zoro_robot",
-  "owner": {
-    "username": "xenmods",
-    "email": "ilumomin04@gmail.com"
-  },
-  "record": {
-    "CNAME": "b6c9cd01-6ea5-4c58-b942-4194bdb11578.cname.koyeb.app"
-  }
+    "description": "Backend API for t.me/roronoa_zoro_robot",
+    "owner": {
+        "username": "xenmods",
+        "email": "ilumomin04@gmail.com"
+    },
+    "record": {
+        "CNAME": "b6c9cd01-6ea5-4c58-b942-4194bdb11578.cname.koyeb.app"
+    }
 }

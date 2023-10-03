@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "washedPat",
         "email": "patrick.brophy2@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "patrickbrophy.dev"
-      }
     }
-    
+}

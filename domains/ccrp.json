@@ -1,11 +1,11 @@
 {
-  "description": "CCRP FiveM",
-  "repo": "https://craiccity.ccrp.repl.co", 
-  "owner": {
-    "username": "PatrickDevelopr",
-    "email": "patrickdev21@gmail.com"
-  },
-  "record": {
-    "CNAME": "572ca600-be84-4a76-8cf9-986690eaf03b.id.repl.co"
-  }
+    "description": "CCRP FiveM",
+    "repo": "https://craiccity.ccrp.repl.co",
+    "owner": {
+        "username": "PatrickDevelopr",
+        "email": "patrickdev21@gmail.com"
+    },
+    "record": {
+        "CNAME": "572ca600-be84-4a76-8cf9-986690eaf03b.id.repl.co"
+    }
 }

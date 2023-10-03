@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Xevion",
         "email": "xevion@xevion.dev"
-      },
-      "record": {
+    },
+    "record": {
         "URL": "https://xevion.dev/?utm_source=is-a-dev"
-      }
     }
-      
+}

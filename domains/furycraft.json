@@ -1,13 +1,13 @@
 {
-  "description": "Used as portfolio and to promote my work",
+    "description": "Used as portfolio and to promote my work",
     "repo": "https://github.com/FuryCraft/furycraft.github.io",
-  "owner": {
-    "username": "FuryCraft",
-    "email": "pro.furycraft@outlook.fr",
-    "twitter": "furycraft_",
-    "discord": "Fury_Craft#9831"
-  },
-  "record": {
-    "CNAME": "furycraft.github.io"
-  }
+    "owner": {
+        "username": "FuryCraft",
+        "email": "pro.furycraft@outlook.fr",
+        "twitter": "furycraft_",
+        "discord": "Fury_Craft#9831"
+    },
+    "record": {
+        "CNAME": "furycraft.github.io"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "kiliczsh",
-    "email": "muhammeddkilicc@gmail.com"
-  },
-  "description": "personal site",
-  "repo": "https://github.com/kiliczsh/kiliczsh.github.io",
-  "record": {
-    "CNAME": "kiliczsh.github.io"
-  }
+    "owner": {
+        "username": "kiliczsh",
+        "email": "muhammeddkilicc@gmail.com"
+    },
+    "description": "personal site",
+    "repo": "https://github.com/kiliczsh/kiliczsh.github.io",
+    "record": {
+        "CNAME": "kiliczsh.github.io"
+    }
 }

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "shashankktiwariii",
         "email": "development.shashank@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "A": ["144.24.102.80"]
-      }
     }
-      
+}

@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "DonovanDMC",
-    "email": "admin@furrybot.co",
-    "twitter": "Donovan_DMC",
-    "discord": "Donovan_DMC#3621"
-  },
-  "record": {
-    "URL": "https://furry.cool"
-  }
+    "owner": {
+        "username": "DonovanDMC",
+        "email": "admin@furrybot.co",
+        "twitter": "Donovan_DMC",
+        "discord": "Donovan_DMC#3621"
+    },
+    "record": {
+        "URL": "https://furry.cool"
+    }
 }

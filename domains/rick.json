@@ -1,11 +1,11 @@
 {
-  "description": "a fun website i made",
-  "repo": "https://github.com/rickastleyy/rickastleyy",
-  "owner": {
-    "username": "rickastleyy",
-    "email": "rickrolle.you@outlook.com"
-  },
-  "record": {
-    "CNAME": "50e20db5-db2e-4dc7-9913-9986797944d3.repl.co"
-  }
+    "description": "a fun website i made",
+    "repo": "https://github.com/rickastleyy/rickastleyy",
+    "owner": {
+        "username": "rickastleyy",
+        "email": "rickrolle.you@outlook.com"
+    },
+    "record": {
+        "CNAME": "50e20db5-db2e-4dc7-9913-9986797944d3.repl.co"
+    }
 }

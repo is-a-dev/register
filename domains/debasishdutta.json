@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "debasish-dutta",
         "email": "ddmasterdon@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "debasish-dutta.github.io"
-      }
     }
-    
+}
