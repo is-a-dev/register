@@ -1,0 +1,11 @@
+{
+    "description": "Register-bot",
+    "repo": "https://github.com/andrewstech/is-a-dev-bot",
+    "owner": {
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
+    },
+    "record": {
+        "CNAME": "dns.beadman-network.com"
+    }
+}

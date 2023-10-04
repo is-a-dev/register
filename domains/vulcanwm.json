@@ -1,11 +1,11 @@
 {
-  "description": "My portfolio",
-  "repo": "https://github.com/VulcanWM/VulcanWM",
-  "owner": {
-    "username": "VulcanWM",
-    "email": "vulcanwmemail@gmail.com"
-  },
-  "record": {
-    "CNAME": "e59a0be7-f4eb-4b1a-9b7f-29e2c556a9f8.repl.co"
-  }
+    "description": "My portfolio",
+    "repo": "https://github.com/VulcanWM/VulcanWM",
+    "owner": {
+        "username": "VulcanWM",
+        "email": "vulcanwmemail@gmail.com"
+    },
+    "record": {
+        "URL": "https://vulcanwm.vercel.app"
+    }
 }
