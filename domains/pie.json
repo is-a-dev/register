@@ -1,11 +1,11 @@
 {
+    "description": "pii4's personal website",
+    "repo": "https://github.com/4pii4/4pii4.github.io",
     "owner": {
         "username": "4pii4",
         "email": "naivenevaii@gmail.com"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "CNAME": "4pii4.github.io"
     }
 }
