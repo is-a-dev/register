@@ -1,0 +1,11 @@
+{
+    "description": "www.is-a.dev",
+    "repo": "https://github.com/is-a-dev/is-a-dev.github.io",
+    "owner": {
+        "username": "phenax",
+        "email": "phenax5@gmail.com"
+    },
+    "record": {
+        "CNAME": "is-a-dev.github.io"
+    }
+}
