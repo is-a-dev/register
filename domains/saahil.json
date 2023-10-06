@@ -4,7 +4,6 @@
         "email": "neon+domain@saahild.com"
     },
     "record": {
-        "CNAME": "saahild.com"
-
+        "A": ["185.250.37.86"]
     }
 }
