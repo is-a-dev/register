@@ -4,6 +4,6 @@
         "email": "finnickguo@gmail.com"
     },
     "record": {
-        "CNAME": "150.109.115.77"
+        "A": "150.109.115.77"
     }
 }
