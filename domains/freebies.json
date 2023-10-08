@@ -1,12 +1,11 @@
 {
-  "description": "Free Resources For Your Designs!",
-  "repo": "https://github.com/icancodebeauty/freebies",
-  "owner": {
-    "username": "icancodebeauty",
-    "email": "admin@itsjava.ml",
-    "twitter": ""
-  },
-  "record": {
-    "CNAME": "icancodebeauty.github.io"
-  }
+    "description": "Free Resources For Your Designs!",
+    "repo": "https://github.com/icancodebeauty/freebies",
+    "owner": {
+        "username": "icancodebeauty",
+        "email": "admin@itsjava.ml"
+    },
+    "record": {
+        "CNAME": "icancodebeauty.github.io"
+    }
 }

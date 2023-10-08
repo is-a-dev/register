@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "noahziheng",
         "email": "noahgaocn@outlook.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "noahziheng.github.io"
-      }
     }
-  
+}

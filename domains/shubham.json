@@ -1,0 +1,11 @@
+{
+    "description": "My Portfolio Website",
+    "repo": "https://github.com/noobshubham/Portfolio",
+    "owner": {
+        "username": "noobshubham",
+        "email": "noobshubham65@gmail.com"
+    },
+    "record": {
+        "CNAME": "noobshubham.github.io"
+    }
+}

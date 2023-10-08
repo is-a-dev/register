@@ -1,12 +1,9 @@
 {
-  "owner": {
-    "username": "Vaibhav-Kashyap",
-    "email": "",
-    "discord": "Vaibhav Kashyap#5747"
-  },
-  "record": {
-    "A": ["35.186.245.55"],
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  }
+    "owner": {
+        "username": "VaibhavSys",
+        "email": "vaibhavsys@protonmail.com"
+    },
+    "record": {
+        "URL": "https://www.thevaibhavway.pro/"
+    }
 }

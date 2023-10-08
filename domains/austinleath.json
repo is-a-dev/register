@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "AustinLeath",
         "email": "austinleath18@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["153.33.92.51"]
-      }
     }
-  
+}

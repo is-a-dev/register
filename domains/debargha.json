@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "DebarghaXD",
         "email": "somachattaraj77@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "debargha.pages.dev"
-      }
     }
-  
+}

@@ -1,11 +1,10 @@
 {
-      "owner": {
-        "username": "is-a-dev-bot",
-        "email": "is-a-dev@win11react.com"
-      },
+    "owner": {
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
+    },
 
-      "record": {
-        "A": ["204.44.81.53"],
-        "MX": ["box.is-not-a.dev"]
-      }
+    "record": {
+        "URL": "https://manage.is-a.dev"
     }
+}
