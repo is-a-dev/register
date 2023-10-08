@@ -1,11 +1,11 @@
 {
     "description": "I like code, but code does not like me",
-    "repo": "https://github.com/Jeydin21/jeydin.github.io",
+    "repo": "https://github.com/Jeydin/jeydin.github.io",
     "owner": {
-        "username": "Jeydin21",
+        "username": "Jeydin",
         "email": "JeyPham21@gmail.com"
     },
     "record": {
-        "CNAME": "jeydin21.github.io"
+        "CNAME": "jeydin.github.io"
     }
 }
