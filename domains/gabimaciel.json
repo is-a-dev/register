@@ -7,10 +7,6 @@
     },
     "record": {
         "A": ["147.182.139.182"],
-        "MX": [
-            "ns1.digitalocean.com",
-            "ns2.digitalocean.com",
-            "ns3.digitalocean.com"
-        ]
+        "MX": ["ns1.digitalocean.com", "ns2.digitalocean.com", "ns3.digitalocean.com"]
     }
 }
