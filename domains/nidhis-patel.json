@@ -1,11 +1,11 @@
 {
-  "description": "This is a personal",
-  "repo": "https://github.com/nidhis-patel/nidhis-patel.github.io",
-  "owner": {
-    "username": "nidhis-patel",
-    "email": ""
-  },
-  "record": {
-    "URL": "https://nidhis-patel.github.io"
-  }
+    "description": "This is a personal",
+    "repo": "https://github.com/nidhis-patel/nidhis-patel.github.io",
+    "owner": {
+        "username": "nidhis-patel",
+        "email": ""
+    },
+    "record": {
+        "URL": "https://nidhis-patel.github.io"
+    }
 }
