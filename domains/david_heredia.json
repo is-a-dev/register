@@ -1,11 +1,11 @@
 {
+    "description": "Portofolio PWA",
+    "repo": "https://github.com/dherediat97/Portfolio",
     "owner": {
         "username": "dherediat97",
         "email": "dherediat97@gmail.com"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "URL": "https://dherediat97.github.io/Portfolio"
     }
-}
+} 
