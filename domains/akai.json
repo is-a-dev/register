@@ -5,6 +5,7 @@
         "discord": "Akai#8199"
     },
     "record": {
-        "CNAME": "a36166f1-d559-4be4-a223-5b112018b229.cname.koyeb.app"
+        "A": ["216.24.57.1"],
+        "CNAME": "amazingakai.onrender.com"
     }
 }
