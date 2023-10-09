@@ -6,6 +6,6 @@
         "discord": "xiaoxi_tw#0"
     },
     "record": {
-        "CNAME": "tw-node2.thisalesa.eu.org"
+        "A": ["60.249.193.112"]
     }
 } 
