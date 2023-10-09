@@ -1,12 +1,9 @@
 {
-    "description": "erdem's personal website",
-    "repo": "https://github.com/erdem85/website",
     "owner": {
         "username": "erdem85",
-        "email": "erdm@disroot.org",
-        "twitter": "erdemhso"
+        "email": "erdm@disroot.org"
     },
     "record": {
-        "URL": "https://erdem.js.org"
+            "URL": "https://erdem.lol"
     }
-} 
+}
