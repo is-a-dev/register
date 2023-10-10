@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "magic4me",
-    "email": "magic4me.info@gmail.com"
-  },
-  "record": {
-    "CNAME": "magic4me.github.io"
-  }
+    "owner": {
+        "username": "magic4me",
+        "email": "magic4me.info@gmail.com"
+    },
+    "record": {
+        "CNAME": "magic4me.github.io"
+    }
 }

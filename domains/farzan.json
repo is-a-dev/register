@@ -1,11 +1,11 @@
 {
-  "description": "Farzan F A is a Dev",
-  "repo": "https://github.com/Farzanfa/Farzanfa.github.io",
-  "owner": {
-    "username": "farzanfa",
-    "email": "farzanfa007@gmail.com"
-  },
-  "record": {
-    "CNAME": "Farzanfa.github.io"
-  }
+    "description": "Farzan F A is a Dev",
+    "repo": "https://github.com/Farzanfa/Farzanfa.github.io",
+    "owner": {
+        "username": "farzanfa",
+        "email": "farzanfa007@gmail.com"
+    },
+    "record": {
+        "CNAME": "Farzanfa.github.io"
+    }
 }

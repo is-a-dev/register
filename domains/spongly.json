@@ -1,0 +1,11 @@
+{
+    "description": "Spongly's Personal Site",
+    "repo": "https://github.com/spongly/spongly.github.io",
+    "owner": {
+        "username": "spongly",
+        "email": "mail.spongly@gmail.com"
+    },
+    "record": {
+        "CNAME": "spongly.github.io"
+    }
+}

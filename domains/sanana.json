@@ -1,12 +1,12 @@
 {
-  "description": "sanana the skenana's personal website",
-  "repo": "https://github.com/TheOddGarlic/theoddgarlic.github.io",
-  "owner": {
-    "username": "TheOddGarlic",
-    "email": "umutinanerdogan@pm.me",
-    "discord": "sanana the skenana#4025"
-  },
-  "record": {
-    "CNAME": "theoddgarlic.github.io"
-  }
+    "description": "sanana the skenana's personal website",
+    "repo": "https://github.com/TheOddGarlic/theoddgarlic.github.io",
+    "owner": {
+        "username": "TheOddGarlic",
+        "email": "umutinanerdogan@pm.me",
+        "discord": "sanana the skenana#4025"
+    },
+    "record": {
+        "CNAME": "theoddgarlic.github.io"
+    }
 }

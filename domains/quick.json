@@ -1,12 +1,12 @@
 {
-  "description": "quickdaffy's website",
-  "repo": "https://github.com/quickdaffy/quickdaffy.github.io",
-  "owner": {
-    "username": "quickdaffy",
-    "email": "quickdaffy@gmail.com",
-    "twitter": "quickdaffy"
-  },
-  "record": {
-    "CNAME": "quickdaffy.github.io"
-  }
+    "description": "quickdaffy's website",
+    "repo": "https://github.com/quickdaffy/quickdaffy.github.io",
+    "owner": {
+        "username": "quickdaffy",
+        "email": "quickdaffy@gmail.com",
+        "twitter": "quickdaffy"
+    },
+    "record": {
+        "CNAME": "quickdaffy.github.io"
+    }
 }
