@@ -1,10 +1,10 @@
 {
-	"owner": {
-		"username": "InfinityDevTech",
+    "owner": {
+        "username": "InfinityDevTech",
         "email": "",
-		"discord": "inf5"
-	},
-	"record": {
-		"URL": "https://infdev.netlify.app"
-	}
+        "discord": "inf5"
+    },
+    "record": {
+        "URL": "https://infdev.netlify.app"
+    }
 }

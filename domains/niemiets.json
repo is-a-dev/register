@@ -1,11 +1,11 @@
 {
     "owner": {
-       "username": "Niemiets",
-       "email": "niemiec123123123@gmail.com",
-       "discord": "397074265708691456"
+        "username": "Niemiets",
+        "email": "niemiec123123123@gmail.com"
     },
-
     "record": {
-        "CNAME": "175c065b-9338-44cf-a6ed-4cc521f9ec5c.id.repl.co"
+        "A": ["217.174.245.249"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all",
+        "MX": ["hosts.is-a.dev"]
     }
 }
