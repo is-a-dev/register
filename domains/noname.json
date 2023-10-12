@@ -1,9 +1,0 @@
-{
-    "owner": {
-        "username": "Nonamendev",
-        "email": "ndevnoname@gmail.com"
-    },
-    "record": {
-        "TXT": "dig _github-pages-challenge-username.example.com  nostats  nocomments  nocmd txt"
-    }
-}
