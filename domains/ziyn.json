@@ -4,6 +4,8 @@
         "email": "NotZiyn@gmail.com"
     },
     "record": {
-        "CNAME": "website-ll59.onrender.com"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
