@@ -14,7 +14,7 @@ const recordToRedirection = ({ name, address }) => ({
 });
 const recordToZone = ({ name, type, address, id, priority }) => ({
   line: id,
-  name,
+  name: name === '@' ? `${DOMAIN_DOMAIN}.` : name,
   type,
   address,
   ...(type === 'MX' ? { priority } : {}),
@@ -79,7 +79,7 @@ const executeBatch = (batches) => batches.reduce((promise, batch, index) => {
     const failed = results.filter(x => (x.result || {}).status != 1);
 
     log(`${values.length - failed.length}/${values.length}`);
-    failed.length && log(failed);
+    failed.length && log(JSON.stringify(failed, null, 2));
 
     return null;
   });
@@ -95,7 +95,7 @@ const getDomainService = ({ cpanel }) => {
       cpanel.zone.add
     ),
     recordToZone,
-    print(({ name }) => `Adding zone for ${name}...`),
+    print(r => `Adding zone for ${r.name}: (${r.type} ${r.address})...`),
   ));
   const removeZoneRecord = lazyTask(R.compose(
     R.ifElse(R.propEq('type', 'MX'),
@@ -103,7 +103,7 @@ const getDomainService = ({ cpanel }) => {
       R.compose(cpanel.zone.remove, R.pick(['line']))
     ),
     recordToZone,
-    print(({ name }) => `Deleting zone for ${name}...`),
+    print(r => `Deleting zone for ${r.name}: (${r.type} ${r.address})...`),
   ));
   const addRedirection = lazyTask(R.compose(
     cpanel.redirection.add,

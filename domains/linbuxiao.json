@@ -1,0 +1,11 @@
+{
+    "description": "Lin's Blog",
+    "repo": "https://github.com/linbuxiao/linbuxiao.github.io",
+    "owner": {
+        "username": "linbuxiao",
+        "email": "linbuxiao@gmail.com"
+    },
+    "record": {
+        "CNAME": "linbuxiao.github.io"
+    }
+}

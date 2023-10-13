@@ -1,9 +1,10 @@
 {
-  "owner": {
-    "username": "Shinyzenith",
-    "email": "xelphlinux@gmail.com"
-  },
-  "record": {
-    "CNAME": "shinyzenith.github.io"
-  }
+    "repo": "https://github.com/shinyzenith/website",
+    "owner": {
+        "username": "Shinyzenith",
+        "email": "aakashsensharma@gmail.com"
+    },
+    "record": {
+        "CNAME": "shinyzenith.github.io"
+    }
 }

@@ -1,12 +1,10 @@
 {
-  "owner": {
-    "username": "WilliamDavidHarrison",
-    "email": "",
-    "twitter": "WDHarrison09",
-    "discord": "William#0001"
-  },
+    "owner": {
+        "username": "WilliamDavidHarrison",
+        "email": "william@williamharrison.dev"
+    },
 
-  "record": {
-    "URL": "https://williamharrison.dev"
-  }
+    "record": {
+        "CNAME": "hosts.is-a.dev"
+    }
 }

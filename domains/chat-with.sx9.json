@@ -1,14 +1,9 @@
-{ 
-  "description": "SX's Discord Server", 
-  "repo": "https://sx-9.github.io/sx-discord-redirect", 
-  "owner": { 
-    "username": "SX-9", 
-    "twitter": "SX_Discord", 
-    "discord": "SX-Spy-Agent#1377", 
-    "email": "sx-91@outlook.com", 
-    "note": "Im Trying Some Hosting Providers For My Website So You Might Get A Lot Of Pull Requests From Me" 
-  }, 
-  "record": { 
-    "CNAME": "sx-9.github.io" 
-  }
+{
+    "owner": {
+        "username": "SX-9",
+        "email": "satriakrach@gmail.com"
+    },
+    "record": {
+        "CNAME": "5b57fe59-8f17-4bdf-9ece-d8dde3f9cab0.id.repl.co"
+    }
 }

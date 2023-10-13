@@ -1,12 +1,12 @@
 {
-  "description": "SuperHarmony910's personal developer website",
-  "repo": "https://github.com/SuperHarmony910/SuperHarmony910.github.io",
-  "owner": {
-    "username": "SuperHarmony910",
-    "email": "superharmony910@gmail.com",
-    "twitter": "s_harmony910"
-  },
-  "record": {
-    "CNAME": "superharmony910.github.io"
-  }
+    "description": "SuperHarmony910's personal developer website",
+    "repo": "https://github.com/SuperHarmony910/SuperHarmony910.github.io",
+    "owner": {
+        "username": "SuperHarmony910",
+        "email": "superharmony910@gmail.com",
+        "twitter": "s_harmony910"
+    },
+    "record": {
+        "CNAME": "superharmony910.github.io"
+    }
 }
