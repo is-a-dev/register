@@ -3,7 +3,9 @@
     "repo": "https://github.com/ToastedDev/toastify.tk-v2",
     "owner": {
         "username": "ToastifyDev",
-        "email": "hey@toastify.tk"
+        "email": "hey@toastify.tk",
+        "twitter": "toasteddev",
+        "discord": "plasticaxolotl"
     },
     "record": {
         "CNAME": "toasted.pages.dev"
