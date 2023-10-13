@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "IMZihad21",
-    "email": "mofajjalrasul@gmail.com"
-  },
-  "record": {
-    "CNAME": "ec2-18-141-8-212.ap-southeast-1.compute.amazonaws.com"
-  }
+    "owner": {
+        "username": "IMZihad21",
+        "email": "imzihad@gmail.com"
+    },
+    "record": {
+        "CNAME": "ec2-13-250-29-91.ap-southeast-1.compute.amazonaws.com"
+    }
 }

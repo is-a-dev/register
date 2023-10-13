@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "gengyj16",
         "email": "819514379m@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "a7cce212-0dd4-4961-881e-3bebf2d1ce31.id.repl.co"
-      }
     }
-      
+}

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "DenLes",
         "email": "denislessard91@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "denles.github.io"
-      }
     }
-      
+}
