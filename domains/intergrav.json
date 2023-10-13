@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "intergrav",
         "email": "devinkid1@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "intergrav.github.io"
-      }
     }
-  
+}

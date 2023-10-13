@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "JoshAtticus",
         "email": "osmanicteam@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "joshatticus.github.io"
-      }
     }
-      
+}

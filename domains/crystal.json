@@ -3,17 +3,10 @@
     "repo": "https://github.com/crystalbajgai/crystalbajgai.github.io",
     "owner": {
         "username": "crystalbajgai",
-        "email": "crystalnplol@gmail.com",
-        "twitter": "@Crissy0__0"
+        "email": "crystalbajgai@gmail.com",
+        "twitter": "Crissy0__0"
     },
-     "record": {
-    "A": [
-      "212.193.3.66"
-    ],
-    "MX": [
-      "ns5.crystalcloud.xyz",
-      "ns6.crystalcloud.xyz"
-    ],
-    "TXT": "v=spf1 a mx ip4:212.193.3.66 ~all"    
-  }
+    "record": {
+        "CNAME": "crystalbajgai.github.io"
+    }
 }

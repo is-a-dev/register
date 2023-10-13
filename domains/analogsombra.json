@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "analog-sombra",
         "email": "analogsombra@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "analog-sombra.github.io"
-      }
     }
-    
+}

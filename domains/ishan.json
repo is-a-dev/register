@@ -1,12 +1,12 @@
 {
-  "description": "Ishan Goel's personal website (quackduck@github)",
-  "repo": "https://github.com/quackduck/quackduck.github.io",
-  "owner": {
-    "username": "quackduck",
-    "email": "igoel.mail@gmail.com",
-    "name": "Ishan Goel"
-  },
-  "record": {
-    "CNAME": "quackduck.github.io"
-  }
+    "description": "Ishan Goel's personal website (quackduck@github)",
+    "repo": "https://github.com/quackduck/quackduck.github.io",
+    "owner": {
+        "username": "quackduck",
+        "email": "igoel.mail@gmail.com",
+        "name": "Ishan Goel"
+    },
+    "record": {
+        "CNAME": "quackduck.github.io"
+    }
 }

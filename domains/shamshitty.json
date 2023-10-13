@@ -1,0 +1,14 @@
+{
+    "owner": {
+        "username": "shamshitty",
+        "email": "iaminvisy@gmail.com",
+        "twitter": "shamshitty",
+        "discord": "shamshitty"
+    },
+    "description": "shamshitty is indeed a dev (kinda)",
+    "record": {
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+    }
+}

@@ -1,11 +1,9 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "WadeSlider",
         "email": "alexisarturodh@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "wadeslider.pages.dev"
-      }
     }
-  
+}

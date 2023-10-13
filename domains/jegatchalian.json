@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "trowsjerwin",
         "email": "johnerwingatchalian@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["192.232.223.67"]
-      }
     }
-  
+}

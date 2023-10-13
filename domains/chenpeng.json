@@ -1,13 +1,11 @@
 {
-  "description": "Patrick Chen's develop site",
-  "repo": "https://github.com/ChpShy/ChpShy.github.io.git",
-  "owner": {
-    "username": "chenpeng",
-    "email": "cp786156072@gmail.com",
-    "twitter": "chepy2019",
-    "discord": "Patrick Chen#9900"
-  },
-  "record": {
-    "URL": "https://chpshy.github.io"
-  }
+    "description": "Patrick Chen's develop site",
+    "repo": "https://github.com/PatrickChen928/patrickchen928.github.io",
+    "owner": {
+        "username": "PatrickChen928",
+        "email": "cp786156072@gmail.com"
+    },
+    "record": {
+        "URL": "https://patrickchen928.github.io"
+    }
 }

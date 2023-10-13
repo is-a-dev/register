@@ -1,11 +1,10 @@
 {
-  "description": "Nopply is-a.dev",
-  "owner": {
-    "username": "kornls",
-    "email": "larryst.korn@gmail.com"
-  },
-  "record": {
-    "CNAME": "nopply.carrd.co"
-  }
+    "description": "Nopply is-a.dev",
+    "owner": {
+        "username": "kornls",
+        "email": "larryst.korn@gmail.com"
+    },
+    "record": {
+        "CNAME": "nopply.carrd.co"
+    }
 }
-  
