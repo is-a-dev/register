@@ -4,6 +4,8 @@
         "email": "Jesus71236gaming@gmail.com"
     },
     "record": {
-        "CNAME": "b29ec742-99b6-4ff2-990d-58f9aa910bd1.id.repl.co"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
