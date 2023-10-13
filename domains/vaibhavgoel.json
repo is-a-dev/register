@@ -1,0 +1,12 @@
+{
+    "description": "Personal wEB",
+    "owner": {
+        "username": "<github-username>",
+        "email": "email@address",
+        "twitter": "<twitter-username>"
+    },
+    "record": {
+        "CNAME": "b5db0322-a6ec-4358-a6b4-9df0e6f5bd64.id.repl.co"
+    }
+
+} 
