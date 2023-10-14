@@ -1,9 +1,10 @@
 {
+    "description": "SaiVikramTechy",
     "owner": {
         "username": "SaiVikramTechy",
         "email": "vikramkomma08@gmail.com"
     },
     "record": {
-        "URL": "https://saivikramtechy.github.io"
+        "CNAME": "saivikramtechy.github.io"
     }
 }
