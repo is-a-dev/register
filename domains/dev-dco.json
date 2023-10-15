@@ -1,0 +1,11 @@
+{
+  "description": "/dev/ co-op website.",
+  "repo": "https://dev-dco.github.io", 
+  "owner": {
+    "username": "dev-dco",
+    "email": "dev-coop@murena.io"
+  },
+  "record": {
+    "CNAME": "dev-dco.github.io"
+  }
+}
