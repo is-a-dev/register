@@ -7,7 +7,6 @@
 
 {
   "record": {
-    "CNAME": "_github-pages-challenge-BedrockBandaYT.dgyt.is-a.dev"
-              "c37181de59d8bd05968d834221db3b"
+    "NS": ["ns1.infinityfree.com", "ns2.infinityfree.com"]
   }
 }
