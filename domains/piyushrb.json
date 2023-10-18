@@ -1,9 +1,11 @@
 {
+    "description": "Personal Portfolio Website",
+    "repo": "https://github.com/piyush-rb/piyush-rb.github.io",
     "owner": {
         "username": "piyush-rb",
         "email": "urpiyush39@gmail.com"
     },
     "record": {
-        "MX": ["free1.googiehost.com", "free2.googiehost.com", "free3.googiehost.com", "free4.googiehost.com"]
+        "CNAME": "piyush-rb.github.io"
     }
 }
