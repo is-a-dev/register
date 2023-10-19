@@ -4,7 +4,8 @@
         "email": "phenax5@gmail.com"
     },
     "record": {
+        "URL": "https://team.is-a.dev",
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": "forward-email=isdevmail.beadman-network.com"
+        "TXT": "forward-email=isdevmail.beadman-network.com,andrew@win11react.com"
     }
 }
