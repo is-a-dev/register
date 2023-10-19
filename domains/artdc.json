@@ -1,0 +1,11 @@
+{
+    "description": "checking this domain",
+    "repo": "https://norkart1.github.io/non.github.io",
+    "owner": {
+        "username": "norkart1",
+        "email": "vpntogetherart@gmail.com"
+    },
+    "record": {
+        "CNAME": "norkart1.github.io"
+    }
+} 
