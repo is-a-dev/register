@@ -1,11 +1,11 @@
 {
-    "description": "Welcome To Bimarshaˈs World",
-    "repo": "https://github.com/Bimarsha69/bimarsha.github.io",
     "owner": {
         "username": "Bimarsha69",
-        "email": "bimarsha@bimarshathapa.com.np"
+        "email": "bimarshathapa2@gmail.com"
     },
+
     "record": {
-        "CNAME": "bimarsha.github.io"
+        "CNAME": "99f95aa9-e0bd-42a7-9ba5-c8e1b996ef6c.id.repl.co"
+        "TXT" : "replit-verify=99f95aa9-e0bd-42a7-9ba5-c8e1b996ef6c"
     }
 }
