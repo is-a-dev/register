@@ -1,12 +1,11 @@
 {
-    "description": "For my personal webiste, The Reading Dimension!",
-    "repo": "https://github.com/readandprogress/thereadingdimension",
     "owner": {
         "username": "readandprogress",
-        "email": "readandprogress@duck.com",
-        "discord": "readandprogress"
+        "email": "readandprogress@duck.com"
     },
     "record": {
-        "CNAME": ""
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
