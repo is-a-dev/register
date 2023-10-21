@@ -15,7 +15,7 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         days-before-stale: 30
         days-before-close: 20
-        stale-issue-message: 'This issue has been marked as stale due to inactivity and will be closed. Comment anything on this PR to prevent it'
+        stale-issue-message: 'This issue has been marked as stale due to inactivity and will be closed. Comment anything on this issue to prevent it'
         stale-pr-message: 'This pull request has been marked as stale due to inactivity and will be closed. Comment anything on this PR to prevent it'
         exempt-issue-labels: 'no-stale'
         exempt-pr-labels: 'no-stale'

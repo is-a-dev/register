@@ -1,0 +1,11 @@
+{
+    "description": "Nziie's cdn images",
+    "repo": "https://github.com/Nzii3/website",
+    "owner": {
+        "username": "Nzii3",
+        "email": "exeyst@gmail.com"
+    },
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    }
+}

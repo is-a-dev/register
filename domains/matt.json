@@ -1,11 +1,11 @@
 {
-  "description": "Matt Casey is a Developer!",
-  "repo": "https://github.com/mattcasey",
-  "owner": {
-    "username": "mattcasey",
-    "email": "mattwad@gmail.com"
-  },
-  "record": {
-    "URL": "https://www.linkedin.com/in/mbcasey"
-  }
+    "description": "Matt Casey is a Developer!",
+    "repo": "https://github.com/mattcasey",
+    "owner": {
+        "username": "mattcasey",
+        "email": "mattwad@gmail.com"
+    },
+    "record": {
+        "URL": "https://www.linkedin.com/in/mbcasey"
+    }
 }
