@@ -6,7 +6,13 @@
     },
    "record": {
         "A": ["217.174.245.249"],
-        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": "forward-email=admin:main@mail.stefdp.is-a.dev"
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": [
+            "forward-email=admin:admin.main@mail.stefdp.is-a.dev",
+            "forward-email=/^(?!admin$).*/:main@mail.stefdp.is-a.dev"
+        ]
     }
 }
