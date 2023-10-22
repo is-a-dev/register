@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "duckmob",
-    "email": "coxy.addison@gmail.com"
-  },
-  "record": {
-    "CNAME": "dcd5055c-f746-4223-a171-5f536111d3c5.id.repl.co"
-  }
+    "owner": {
+        "username": "duckmob",
+        "email": "coxy.addison@gmail.com"
+    },
+    "record": {
+        "CNAME": "dcd5055c-f746-4223-a171-5f536111d3c5.id.repl.co"
+    }
 }

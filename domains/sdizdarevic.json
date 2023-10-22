@@ -1,11 +1,11 @@
 {
-  "description": "sdizdarevic.is-a.dev",
-  "repo": "https://github.com/sdizdarevic/sdizdarevic.github.io",
-  "owner": {
-    "username": "sdizdarevic",
-    "email": "saudin.dizdarevic@gmail.com"
-  },
-  "record": {
-    "CNAME": "sdizdarevic.github.io"
-  }
+    "description": "sdizdarevic.is-a.dev",
+    "repo": "https://github.com/sdizdarevic/sdizdarevic.github.io",
+    "owner": {
+        "username": "sdizdarevic",
+        "email": "saudin.dizdarevic@gmail.com"
+    },
+    "record": {
+        "CNAME": "sdizdarevic.github.io"
+    }
 }

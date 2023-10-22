@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Sadman-11",
         "email": "sadmananik8986@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "sadman.misfitsdev.xyz"
-      }
     }
-    
+}

@@ -1,11 +1,11 @@
 {
-  "description": "Meet Portfolio.",
-  "repo": "https://github.com/dudani-meet/dudani-meet.github.io",
-  "owner": {
-    "username": "dudani-meet",
-    "email": ""
-  },
-  "record": {
-    "CNAME": "dudani-meet.github.io"
-  }
+    "description": "Meet Portfolio.",
+    "repo": "https://github.com/dudani-meet/dudani-meet.github.io",
+    "owner": {
+        "username": "dudani-meet",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "dudani-meet.github.io"
+    }
 }

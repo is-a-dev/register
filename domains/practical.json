@@ -1,13 +1,11 @@
- 
-    {
-      "description": "A website to show my portfolio.",
-      "repo": "https://github.com/practicaldev101/practicaldev101.github.io",
-      "owner": {
+{
+    "description": "A website to show my portfolio.",
+    "repo": "https://github.com/practicaldev101/practicaldev101.github.io",
+    "owner": {
         "username": "practicaldev101",
         "email": "carlosospinomonsalve@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "practicaldev101.github.io"
-      }
     }
-      
+}

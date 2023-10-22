@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "ItzAfroBoy",
         "email": "me.caramackid@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "A": ["209.250.230.249"]
-      }
     }
-    
+}

@@ -1,0 +1,11 @@
+{
+    "description": "This is personal website",
+    "repo": "https://github.com/patel-monal/patel-monal.github.io",
+    "owner": {
+        "username": "patel-monal",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "patel-monal.github.io"
+    }
+}

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "XzFrosT",
         "email": "mschodeihsan@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "ihsanhardiansah.me"
-      }
     }
-    
+}

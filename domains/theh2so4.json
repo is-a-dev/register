@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "theh2so4",
         "email": "theh2so4@protonmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["185.27.134.148"]
-      }
     }
-  
+}
