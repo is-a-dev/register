@@ -1,11 +1,9 @@
-
-              {
-                "owner": {
-                  "username": "pixelgeek",
-                  "email": "pixelgeek@intel.com"
-                },
-                "record": {
-                  "CNAME": "pixelgeek.github.io"
-                }
-              }
-            
+{
+    "owner": {
+        "username": "pixelgeek",
+        "email": "pxe.geek+github@gmail.com"
+    },
+    "record": {
+        "CNAME": "pixelgeek.github.io"
+    }
+}

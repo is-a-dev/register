@@ -1,11 +1,11 @@
 {
-  "description": "The portfolio of Adarsh S",
-  "repo": "https://github.com/adarshsuresh07",
-  "owner": {
-    "username": "adarshsuresh07",
-    "email": "adarshsuresh@cet.ac.in"
-  },
-  "record": {
-    "CNAME": "adarshsuresh07.github.io"
-  }
+    "description": "The portfolio of Adarsh S",
+    "repo": "https://github.com/adarshsuresh07",
+    "owner": {
+        "username": "adarshsuresh07",
+        "email": "adarshsuresh@cet.ac.in"
+    },
+    "record": {
+        "CNAME": "adarshsuresh07.github.io"
+    }
 }

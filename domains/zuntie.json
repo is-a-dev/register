@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Zuntie",
         "email": "ZuntieDev@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "zuntie.github.io"
-      }
     }
-    
+}

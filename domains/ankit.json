@@ -1,11 +1,11 @@
 {
-  "description": "Will be using this subdomain for personal portfolio",
-  "repo": "https://github.com/ankitjain-1/ankitjain-1.github.io",
-  "owner": {
-      "username": "ankitjain-1",
-      "email": "akjain6067.aj@gmail.com"
-  },
-  "record": {
-      "CNAME": "ankitjain-1.github.io"
-  }
-} 
+    "description": "Will be using this subdomain for personal portfolio",
+    "repo": "https://github.com/ankitjain-1/ankitjain-1.github.io",
+    "owner": {
+        "username": "ankitjain-1",
+        "email": "akjain6067.aj@gmail.com"
+    },
+    "record": {
+        "CNAME": "ankitjain-1.github.io"
+    }
+}

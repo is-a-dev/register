@@ -1,11 +1,11 @@
 {
-  "repo": "https://github.com/atharvalt/atharvalt.github.io",
-  "owner": {
-    "username": "atharvalt",
-    "email": "atharva.upadhyay1099@gmail.com",
-    "discord": "シAtharva#5374"
-  },
-  "record": {
-    "CNAME": "atharvalt.github.io"
-  }
+    "repo": "https://github.com/atharvaupadhyay/atharvaupadhyay.github.io",
+    "owner": {
+        "username": "atharvaupadhyay",
+        "email": "atharva.upadhyay1099@gmail.com",
+        "discord": "atharvaupadhyay"
+    },
+    "record": {
+        "CNAME": "atharvaupadhyay.github.io"
+    }
 }

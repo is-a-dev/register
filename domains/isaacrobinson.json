@@ -1,0 +1,11 @@
+{
+    "description": "This domain is for my personal website",
+    "repo": "https://github.com/SuperIcecube1/SuperIcecube1.github.io",
+    "owner": {
+        "username": "SuperIcecube1",
+        "email": "supericecube@aol.com"
+    },
+    "record": {
+        "CNAME": "SuperIcecube1.github.io"
+    }
+}

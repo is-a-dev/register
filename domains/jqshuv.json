@@ -1,12 +1,12 @@
 {
-  "description": "Jqshuv's Portfolio Page",
-  "repo": "https://github.com/jqshuv/jqshuv.github.io",
-  "owner": {
-    "username": "jqshuv",
-    "email": "jqshuv@gmail.com",
-    "twitter": "jqshuv"
-  },
-  "record": {
-    "CNAME": "jqshuv.github.io"
-  }
+    "description": "Jqshuv's Portfolio Page",
+    "repo": "https://github.com/jqshuv/jqshuv.github.io",
+    "owner": {
+        "username": "jqshuv",
+        "email": "jqshuv@gmail.com",
+        "twitter": "jqshuv"
+    },
+    "record": {
+        "CNAME": "jqshuv.github.io"
+    }
 }
