@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b66661b-9fc3-485d-aa84-de1d3cbd974d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/domains/frost.json" beforeDir="false" afterPath="$PROJECT_DIR$/domains/frost.json" afterDir="false" />
-    </list>
+    <list default="true" id="4b66661b-9fc3-485d-aa84-de1d3cbd974d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +31,9 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/maciejkrzton/projects/register",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
@@ -44,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697458920265</updated>
-      <workItem from="1697458921394" duration="260000" />
+      <workItem from="1697458921394" duration="1932000" />
     </task>
     <servers />
   </component>
