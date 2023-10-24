@@ -1,0 +1,11 @@
+{
+    "description": "Shady's website",
+    "owner": {
+        "username": "shadyamr",
+        "email": "shadyabbasahmed@gmail.com",
+        "twitter": "shadyamrxv"
+    },
+    "record": {
+        "A": ["80.241.217.2"]
+    }
+} 
