@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "shandralor",
         "email": "tom.teck@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "shandralor.github.io"
-      }
     }
-      
+}

@@ -1,0 +1,11 @@
+{
+    "description": "Personal Website",
+    "repo": "https://github.com/37cut/37cut.github.io",
+    "owner": {
+        "username": "37cut",
+        "email": "cutt37@outlook.com"
+    },
+    "record": {
+        "CNAME": "37cut.github.io"
+    }
+}

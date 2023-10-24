@@ -1,0 +1,11 @@
+{
+    "description": "Arwichok",
+    "repo": "https://github.com/arwichok/arwichok.github.io",
+    "owner": {
+        "username": "arwichok",
+        "email": "arwichok@gmail.com"
+    },
+    "record": {
+        "CNAME": "arwichok.github.io"
+    }
+}
