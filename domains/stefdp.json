@@ -1,6 +1,4 @@
 {
-    "description": "Domain for my personal website",
-    "repo": "https://github.com/Stef-00012/stef-00012.github.io",
     "owner": {
         "username": "Stef-00012",
         "email": "stefano.delprete.08@gmail.com",
@@ -8,7 +6,13 @@
     },
    "record": {
         "A": ["217.174.245.249"],
-        "TXT": "v=spf1 mx a:mailx.is-a.dev ip4:217.174.245.249 ~all",
-        "MX": ["mailx.is-a.dev"]
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": [
+            "forward-email=admin:admin.main@mail.stefdp.is-a.dev",
+            "forward-email=/^(?!admin$).*/:main@mail.stefdp.is-a.dev"
+        ]
     }
 }
