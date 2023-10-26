@@ -1,11 +1,11 @@
 {
+    "description": "Personal Portfolio",
+    "repo": "https://github.com/pranavagrawal321/pranavagrawal321.github.io",
     "owner": {
         "username": "pranavagrawal321",
         "email": "pranavagrawal321@gmail.com"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "CNAME": "pranavagrawal321.github.io"
     }
-}
+} 
