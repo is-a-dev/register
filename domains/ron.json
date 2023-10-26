@@ -5,8 +5,8 @@
     },
     "record": {
         "CNAME": "itsrn.github.io",
-        "MX": "mx1.improvmx.com",
-        "MX": "mx2.improvmx.com",
-        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+        "MX": "mx1.forwardemail.net",
+        "MX": "mx2.forwardemail.net",
+        "TXT": "forward-email=rons.work@proton.me"
     }
 }
