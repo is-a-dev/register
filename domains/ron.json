@@ -1,9 +1,12 @@
 {
     "owner": {
         "username": "itsrn",
-        "email": "shalom@itsron.space"
+        "email": "rons.work@proton.me"
     },
     "record": {
-        "CNAME": "itsrn.github.io"
+        "CNAME": "itsrn.github.io",
+        "MX": "mx1.improvmx.com",
+        "MX": "mx2.improvmx.com",
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 }
