@@ -1,4 +1,4 @@
-name: Wildcard temp record
+name: ACME Challenge Record
 
 on:
     workflow_dispatch:
@@ -27,15 +27,15 @@ jobs:
                     }
                   }' > ./domains/_acme-challenge.json
 
-            - name: test
-              run: cat domains/_acme-challenge.json
+            - run: cat domains/_acme-challenge.json
 
             - uses: oven-sh/setup-bun@v1
               with:
                 bun-version: 1.0.3
+
             - run: bun install
 
-            - name: Publishing records
+            - name: Publish Records
               env:
                   CI: 1
                   NODE_ENV: production
@@ -47,15 +47,16 @@ jobs:
                   DOMAIN_DOMAIN: ${{ secrets.DOMAIN_DOMAIN }}
                   DOMAIN_HOST_IP: ${{ secrets.DOMAIN_HOST_IP }}
               run: bun run publish-records
+
             - name: Sleep
               run: sleep 10m
               shell: bash
 
-            - name: Remove
+            - name: Remove _acme-challenge.json
               run: rm domains/_acme-challenge.json
               shell: bash
 
-            - name: removing records
+            - name: Publish Records
               env:
                   CI: 1
                   NODE_ENV: production
