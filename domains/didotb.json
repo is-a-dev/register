@@ -4,6 +4,7 @@
         "email": "didotb@gmail.com"
     },
     "record": {
-        "TXT": "stub value"
+        "CNAME": "68e4e002-91f5-446f-98a8-9add654ca897.id.repl.co",
+        "TXT": "replit-verify=68e4e002-91f5-446f-98a8-9add654ca897"
     }
 }
