@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "tat2008",
         "email": "tuan.trananh2008@gmail.com"
-      },
+    },
 
-      "record": {
-        "URL": "https://me.tat2008.tk"
-      }
+    "record": {
+        "CNAME": "profile-card-1ug.pages.dev"
     }
-  
+}

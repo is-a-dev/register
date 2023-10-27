@@ -1,12 +1,9 @@
-
 {
-  "owner": {
-    "username": "devsdocs",
-    "email": "id45.go@gmail.com"
-  },
-  "record": {
-    "A": ["141.144.205.66"]
-  }
+    "owner": {
+        "username": "devsdocs",
+        "email": "id45.go@gmail.com"
+    },
+    "record": {
+        "A": ["141.144.205.66"]
+    }
 }
-
-  

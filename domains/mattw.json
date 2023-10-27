@@ -1,13 +1,11 @@
 {
-  "description": "Matt is a Developer!",
-  "repo": "https://github.com/Tweak4141",
-  "owner": {
-    "username": "tweak4141",
-    "email": "ynan243@gmail.com"
-  },
-  "record": {
-    "A": ["74.201.25.77"],
-    "MX": ["mail.tnstudios.ca"],
-    "TXT": "v=spf1 a:webmail.tnstudios.ca a:mail.talosbot.xyz a:mail.tnstudios.ca ~all"
-  }
+    "description": "Matt is a Developer!",
+    "repo": "https://github.com/Tweak4141",
+    "owner": {
+        "username": "tweak4141",
+        "email": "tweak@talosbot.xyz"
+    },
+    "record": {
+        "CNAME": "nginxpm.talosbot.xyz"
+    }
 }

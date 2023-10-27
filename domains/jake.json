@@ -1,0 +1,11 @@
+{
+    "description": "Jake's personal website and blog.",
+    "repo": "https://github.com/j-eo/j-eo.github.io",
+    "owner": {
+        "username": "j-eo",
+        "email": "website-contact.nem2h@silomails.com"
+    },
+    "record": {
+        "CNAME": "jakeanto.pages.dev"
+    }
+}

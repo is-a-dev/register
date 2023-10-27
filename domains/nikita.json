@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "nikitacontreras",
         "email": "elfantoche.tv@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "nikitacontreras.github.io"
-      }
     }
-    
+}

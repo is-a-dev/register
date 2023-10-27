@@ -2,10 +2,10 @@
     "description": "Lucas Zick's website",
     "repo": "https://github.com/LucasZick/lucaszick.github.io",
     "owner": {
-      "username": "lucaszick",
-      "email": "lucasalexandrezick@gmail.com"
+        "username": "lucaszick",
+        "email": "lucasalexandrezick@gmail.com"
     },
     "record": {
-      "CNAME": "lucaszick.github.io"
+        "CNAME": "lucaszick.github.io"
     }
-  }
+}

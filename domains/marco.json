@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "marcomafessolli",
         "email": "marcomafessolli@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "URL": "https://github.com/marcomafessolli"
-      }
     }
-      
+}

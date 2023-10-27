@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "tal7aouy",
         "email": "tal7aouy.dev@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "URL": "https://tal7aouy.netlify.app"
-      }
     }
-      
+}

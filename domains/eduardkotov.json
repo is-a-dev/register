@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "insertsmc228",
         "email": "miron720@ukr.net"
-      },
-      "record": {
+    },
+    "record": {
         "A": ["35.158.255.221"]
-      }
     }
-    
+}

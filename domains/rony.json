@@ -1,16 +1,16 @@
 {
-  "owner": {
-    "username": "ronylee11",
-    "email": "rongyil33@gmail.com"
-  },
-  "description": {
-    "domain": "rony.is-a.dev",
-    "usage": "This is going to be my portfolio"
-  },
-  "repo": {
-    "github": "github.com/ronylee11"
-  },
-  "record": {
-    "CNAME": "ronylee11.github.io"
-  }
+    "owner": {
+        "username": "ronylee11",
+        "email": "rongyil33@gmail.com"
+    },
+    "description": {
+        "domain": "rony.is-a.dev",
+        "usage": "This is going to be my portfolio"
+    },
+    "repo": {
+        "github": "github.com/ronylee11"
+    },
+    "record": {
+        "CNAME": "ronylee11.github.io"
+    }
 }

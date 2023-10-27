@@ -2,9 +2,8 @@
     "description": "Register-bot",
     "repo": "https://github.com/andrewstech/is-a-dev-bot",
     "owner": {
-        "username": "andrewstech",
-        "email": "hello@andrewstech.me",
-        "twitter": "andrewstech1"
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
     },
     "record": {
         "CNAME": "dns.beadman-network.com"
