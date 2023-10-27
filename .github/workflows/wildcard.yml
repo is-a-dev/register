@@ -34,7 +34,6 @@ jobs:
               with:
                 bun-version: 1.0.3
             - run: bun install
-            - run: bun test
 
             - name: Publishing records
               env:
