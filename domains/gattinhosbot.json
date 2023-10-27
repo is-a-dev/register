@@ -1,10 +1,13 @@
 {
     "owner": {
         "username": "Stef-00012",
-        "email": "stefano.delprete.08@gmail.com"
+        "email": "admin@stefdp.is-a.dev",
+        "discord": "694986201739952229"
     },
     "record": {
-        "A": ["217.174.245.249"],
+        "A": [
+            "217.174.245.249"
+        ],
         "MX": [
             "mx1.forwardemail.net",
             "mx2.forwardemail.net"
