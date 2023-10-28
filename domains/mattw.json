@@ -3,11 +3,9 @@
     "repo": "https://github.com/Tweak4141",
     "owner": {
         "username": "tweak4141",
-        "email": "ynan243@gmail.com"
+        "email": "tweak@talosbot.xyz"
     },
     "record": {
-        "A": ["74.201.25.77"],
-        "MX": ["mail.tnstudios.ca"],
-        "TXT": "v=spf1 a:webmail.tnstudios.ca a:mail.talosbot.xyz a:mail.tnstudios.ca ~all"
+        "CNAME": "nginxpm.talosbot.xyz"
     }
 }
