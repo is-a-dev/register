@@ -5,6 +5,8 @@
         "discord": "694986201739952229"
     },
     "record": {
-        "CNAME": "api-stefdp.onrender.com"
+        "A": [
+            "84.46.245.191"
+        ]
     }
 }
