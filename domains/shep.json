@@ -1,12 +1,12 @@
 {
-    "description": "Callum's personal developer website",
+    "description": "TamShep's personal developer website",
     "owner": {
-        "username": "CallumCat",
+        "username": "TamShep",
         "email": "rocco@caseymediallc.com",
-        "twitter": "CallumK_Cat",
-        "discord": "Callum#0003"
+        "twitter": "Tammy_GShepherd",
+        "discord": "sol_999"
     },
     "record": {
-        "A": ["85.209.223.240"]
+        "A": ["192.254.73.156"]
     }
 }

@@ -1,11 +1,11 @@
 {
     "owner": {
-        "username": "ShadowPlayzYT22",
-        "email": "peterwyneg@gmail.com"
+       "username": "DemonGamez",
+       "email": "peterwyneg@gmail.com",
+       "discord": "1038747272701292584"
     },
+
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "CNAME": "DemonGamez.github.io"
     }
 }
