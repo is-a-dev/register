@@ -1,0 +1,12 @@
+{
+    "description": "Subdomain for my github",
+    "repo": "https://github.com/sanikava/sanikava.github.io",
+    "owner": {
+        "username": "sanikava",
+        "email": "sanikava@pm.me",
+        "twitter": "sanikava_india"
+    },
+    "record": {
+        "CNAME": "sanikava.github.io"
+    }
+} 
