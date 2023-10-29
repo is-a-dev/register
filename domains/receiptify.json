@@ -1,11 +1,19 @@
 {
     "owner": {
         "username": "Stef-00012",
-        "email": "stefano.delprete.08@gmail.com"
+        "email": "admin@stefdp.is-a.dev",
+        "discord": "694986201739952229"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "A": [
+            "217.174.245.249"
+        ],
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": [
+            "forward-email=receiptify@mail.stefdp.is-a.dev"
+        ]
     }
 }
