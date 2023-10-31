@@ -7,6 +7,6 @@
         "discord": "AsrieltheGoat#9753"
     },
     "record": {
-        "CNAME": "asrielthegoat.github.io"
+        "A": ["146.56.191.239"]
     }
 }
