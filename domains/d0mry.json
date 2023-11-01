@@ -1,0 +1,11 @@
+{
+    "description": "Personal profile",
+    "repo": "https://github.com/d0mry/d0mry.github.io",
+    "owner": {
+        "username": "d0mry",
+        "email": "tcp@proj.sbs"
+    },
+    "record": {
+        "CNAME": "d0mry.github.io"
+    }
+} 
