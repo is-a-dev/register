@@ -1,0 +1,11 @@
+{
+    "description": "Personal profile",
+    "repo": "https://github.com/d0mry/d0mry.github.io",
+    "owner": {
+        "username": "d0mry",
+        "discord": "4d62"
+    },
+    "record": {
+        "CNAME": "d0mry.github.io"
+    }
+}
