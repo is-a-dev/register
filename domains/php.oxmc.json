@@ -5,8 +5,6 @@
         "discord": "oxmc7769"
     },
     "record": {
-        "CNAME": "oxmc-php.000webhostapp.com",
-        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": "forward-email=contact:oxmc7769.mail@gmail.com"
+        "CNAME": "oxmc-php.000webhostapp.com"
     }
 }
