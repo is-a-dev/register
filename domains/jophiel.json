@@ -5,6 +5,7 @@
     },
 
     "record": {
-        "CNAME": "58c70704-65c7-4baf-b3ac-d930c2a23d49.id.repl.co"
+        "CNAME": "58c70704-65c7-4baf-b3ac-d930c2a23d49.id.repl.co",
+        "TXT": "replit-verify=58c70704-65c7-4baf-b3ac-d930c2a23d49"
     }
 }
