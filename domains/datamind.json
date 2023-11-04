@@ -1,0 +1,12 @@
+{
+    "description": "personal site",
+    "repo": "https://github.com/DatamindDev/DatamindDev.github.io",
+    "owner": {
+        "username": "DatamindDev",
+        "email": "datamindcontact@gmail.com",
+        "twitter": "i dont use"
+    },
+    "record": {
+        "CNAME": "dataminddev.github.io"
+    }
+}

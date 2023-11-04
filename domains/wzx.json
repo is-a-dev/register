@@ -1,0 +1,11 @@
+{
+    "description": "I want to use it as my profile page.",
+    "repo": "https://github.com/website-pages/profile",
+    "owner": {
+        "username": "website-pages",
+        "email": "unpu123456@outlook.com"
+    },
+    "record": {
+        "CNAME": "website-pages.github.io"
+    }
+}

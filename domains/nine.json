@@ -1,17 +1,11 @@
 {
-  "description": "A passionate Back and Front-end Developer 🚀 Having An Experience Of Building Web And Discord Bots With JavaScript / HTML / CSS / Nodejs / Python And Some Other Cool Libraries And Frameworks.",
-  "repo": "https://github.com/ninelel",
-  "record": {
-    "A": [
-      "66.118.232.103"
-    ],
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ]
-  },
-  "owner": {
-    "username": "NineLEL",
-    "email": "notninelel@gmail.com"
-  }
+    "description": "A passionate Back and Front-end Developer 🚀 Having An Experience Of Building Web And Discord Bots With JavaScript / HTML / CSS / Nodejs / Python And Some Other Cool Libraries And Frameworks.",
+    "repo": "https://github.com/ninelel",
+    "record": {
+        "CNAME": "hcceg285.up.railway.app"
+    },
+    "owner": {
+        "username": "NineLEL",
+        "email": "notninelel@gmail.com"
+    }
 }

@@ -1,12 +1,14 @@
 {
-  "description": "Portfolio - a simple portfolio website for Omxpro. It's in Beta Stages. Thanks for visiting my Portfolio! I hope to see you again.",
-  "repo": "https://github.com/omxpro/portfolio-cf",
-  "owner": {
-    "username": "omxpro",
-    "email": "omsenjalia@gmail.com",
-    "twitter": "DaRealOmxpro"
-  },
-  "record": {
-    "CNAME": "portfolio-cf.pages.dev"
-  }
+    "description": "Portfolio - a simple portfolio website for TerraPlayz. It's in Beta Stages. Thanks for visiting my Portfolio! I hope to see you again. This also serves as a mail for my domain",
+    "repo": "https://github.com/TerraPlayz/portfolio-cf",
+    "owner": {
+        "username": "TerraPlayz",
+        "email": "github@om.is-a.dev",
+        "twitter": "DaRealOmxpro"
+    },
+    "record": {
+        "A": ["172.66.44.237", "172.66.47.19"],
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
 }

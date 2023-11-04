@@ -1,11 +1,11 @@
 {
-  "description": "a website for my biotapi",
-  "repo": "https://github.com/brawlie/todo",
-  "owner": {
-    "username": "brawlie",
-    "email": "tojoeleeofficial@gmail.com"
-  },
-  "record": {
-    "CNAME": "aa1b3bae-e49b-4efd-8c55-28719da5f58c.repl.co"
-  }
+    "description": "a website for my biotapi",
+    "repo": "https://github.com/brawlie/todo",
+    "owner": {
+        "username": "brawlie",
+        "email": "tojoeleeofficial@gmail.com"
+    },
+    "record": {
+        "CNAME": "aa1b3bae-e49b-4efd-8c55-28719da5f58c.repl.co"
+    }
 }
