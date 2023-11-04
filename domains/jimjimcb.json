@@ -4,6 +4,6 @@
         "email": "jimjimcbyt@gmail.com"
     },
     "record": {
-        "CNAME": "parkingpage.namecheap.com"
+        "A": ["60.249.193.112"]
     }
 }
