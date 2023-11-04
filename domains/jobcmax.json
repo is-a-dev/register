@@ -1,0 +1,11 @@
+{
+    "description": "jobcmax web",
+    "repo": "https://github.com/jobcmax/jobcmax.github.io",
+    "owner": {
+        "username": "jobcmax",
+        "email": "blueboo265@gmail.com"
+    },
+    "record": {
+        "CNAME": "jobcmax.github.io"
+    }
+}

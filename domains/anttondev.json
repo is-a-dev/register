@@ -1,11 +1,11 @@
 {
-  "description": "Anttondev's portfolio",
-  "repo": "https://github.com/antton-dev/portfolio-challenge",
-  "owner": {
-    "username": "antton-dev",
-    "email": "antton.chevrier@etik.com"
-  },
-  "record": {
-    "CNAME": "antton-dev.github.io"
-  }
+    "description": "Anttondev's portfolio",
+    "repo": "https://github.com/antton-dev/portfolio-challenge",
+    "owner": {
+        "username": "antton-dev",
+        "email": "antton.chevrier@etik.com"
+    },
+    "record": {
+        "CNAME": "antton-dev.github.io"
+    }
 }

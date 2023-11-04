@@ -1,11 +1,11 @@
 {
-  "description": "Nimish's Engineering Diary",
-  "repo": "https://github.com/nimish-gupta/blog",
-  "owner": {
-    "username": "nimish-gupta",
-    "email": "gnimish03@gmail.com"
-  },
-  "record": {
-    "CNAME": "nimish-gupta.dev"
-  }
+    "description": "Nimish's Engineering Diary",
+    "repo": "https://github.com/nimish-gupta/blog",
+    "owner": {
+        "username": "nimish-gupta",
+        "email": "gnimish03@gmail.com"
+    },
+    "record": {
+        "CNAME": "nimish-gupta.dev"
+    }
 }

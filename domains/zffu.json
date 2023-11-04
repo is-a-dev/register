@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Radi0o",
         "email": "radi0o0@outlook.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "zffu.ml"
-      }
     }
-      
+}

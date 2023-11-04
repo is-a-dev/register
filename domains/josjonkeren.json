@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "jonkeren",
         "email": "josjonkeren@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "jonkeren.nl"
-      }
     }
-      
+}

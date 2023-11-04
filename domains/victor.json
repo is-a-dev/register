@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "victoroliveira",
         "email": "victoroliveira.eng@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "victoroliveira.github.io"
-      }
     }
-  
+}
