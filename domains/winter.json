@@ -1,12 +1,12 @@
 {
     "owner": {
         "username": "virtualWinter",
-        "email": "v1rtualWinter@outlook.com"
+        "email": "v1rtualWinter@outlook.com",
         "discord": "@vwinter"
     },
     "record": {
-        "A": ["217.119.143.38"]
+        "A": ["217.119.143.38"],
         "MX": ["winter.is-a.dev"]
-  }
+    }
     
 }
