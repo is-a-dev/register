@@ -4,6 +4,8 @@
         "email": "yu1234u73f.com@gmail.com"
     },
     "record": {
-        "URL": "http://51.68.194.254:3116"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
