@@ -1,0 +1,12 @@
+{
+    "description": "Cetus's Portfolio",
+    "repo": "https://github.com/dev-cetus",
+    "owner": {
+        "username": "Cetus",
+        "email": "dev-cetus@proton.me",
+        "twitter": "dev_cetus"
+    },
+    "record": {
+        "CNAME": "cetus-is-a-dev.pages.dev"
+    }
+}

@@ -1,13 +1,11 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "thanhcong2k7",
         "email": "nhocpeacock@gmail.com",
         "twitter": "NTKam007",
         "discord": "KamyzZ#3790"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "kmdev.carrd.co"
-      }
     }
-      
+}

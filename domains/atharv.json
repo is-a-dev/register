@@ -1,12 +1,12 @@
 {
-  "description": "Personal website for Atharv",
-  "repo": "https://github.com/realatharv/atharv.github.io",
-  "owner": {
-    "username": "realatharv",
-    "email": "atharv.sbiz@gmail.com",
-    "twitter": "realatharv"
-  },
-  "record": {
-    "CNAME": "realatharv.github.io"
-  }
+    "description": "Personal website for Atharv",
+    "repo": "https://github.com/realatharv/atharv.github.io",
+    "owner": {
+        "username": "realatharv",
+        "email": "atharv.sbiz@gmail.com",
+        "twitter": "realatharv"
+    },
+    "record": {
+        "CNAME": "realatharv.github.io"
+    }
 }

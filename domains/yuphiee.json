@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "yuphiedev",
         "email": "mizuto.discord@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "URL": "https://yuphie.vercel.app"
-      }
     }
-      
+}

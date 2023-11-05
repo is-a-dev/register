@@ -1,0 +1,14 @@
+{
+    "owner": {
+        "username": "Stef-00012",
+        "email": "admin@stefdp.is-a.dev",
+        "discord": "694986201739952229"
+    },
+   "record": {
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+       "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
+}

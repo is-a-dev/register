@@ -1,11 +1,11 @@
 {
-	"owner": {
-		"username": "jonOriginal",
-		"email": "jonathan-knox@outlook.com",
-		"discord": "12340#0567"
-	},
-	"record": {
-		"CNAME": "webknox.ddns.net"
-	},
-	"repo": "https://github.com/jonOriginal"
+    "owner": {
+        "username": "jonOriginal",
+        "email": "jonathan-knox@outlook.com",
+        "discord": "12340#0567"
+    },
+    "record": {
+        "CNAME": "webknox.ddns.net"
+    },
+    "repo": "https://github.com/jonOriginal"
 }

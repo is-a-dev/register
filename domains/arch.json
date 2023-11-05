@@ -1,0 +1,13 @@
+{
+    "description": "My personal website on arch.is-a.dev (main files in repo/repository).",
+    "repo": "https://github.com/Arch881010/Arch881010",
+    "owner": {
+        "username": "Arch881010",
+        "email": "c1yd4.arch@inbox.testmail.app",
+        "discord": "arch1010",
+        "discord-id": "410248634593050627"
+    },
+    "record": {
+        "CNAME": "arch881010.github.io"
+    }
+}

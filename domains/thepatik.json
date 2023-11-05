@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "patik123",
         "email": "patik.developer@outlook.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "www.thepatik.com"
-      }
     }
-      
+}

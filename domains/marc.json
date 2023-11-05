@@ -1,11 +1,11 @@
 {
     "description": "Marc Gruita is a Developer!",
-  "repo": "https://github.com/marcgr9",
-  "owner": {
-    "username": "marcgr9",
-    "email": "marc@gruita.ro"
-  },
-  "record": {
-    "URL": "https://gruita.ro"
-  }
+    "repo": "https://github.com/marcgr9",
+    "owner": {
+        "username": "marcgr9",
+        "email": "marc@gruita.ro"
+    },
+    "record": {
+        "URL": "https://gruita.ro"
+    }
 }
