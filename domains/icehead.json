@@ -1,11 +1,11 @@
 {
-    "description": "Domain for my Github Page.",
-    "repo": "https://github.com/Ice-Head/ice-head.github.io",
     "owner": {
         "username": "Ice-Head",
         "email": "heads.ice@protonmail.com"
     },
     "record": {
-        "CNAME": "ice-head.github.io"
+        "A": ["217.174.245.249"],
+        "MX": ["mx1.improvmx.com","mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 }
