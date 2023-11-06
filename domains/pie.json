@@ -1,0 +1,11 @@
+{
+    "description": "pii4's personal website",
+    "repo": "https://github.com/4pii4/4pii4.github.io",
+    "owner": {
+        "username": "4pii4",
+        "email": "naivenevaii@gmail.com"
+    },
+    "record": {
+        "CNAME": "4pii4.github.io"
+    }
+}
