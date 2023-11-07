@@ -1,9 +1,11 @@
 {
+    "description": "Public Portfolio",
+    "repo": "https://github.com/JoaquinDaBest/JoaquinDaBest.github.io",
     "owner": {
         "username": "JoaquinDaBest",
-        "email": "theonlyhehehehaw@gmail.com"
+        "email": "theonlyhehehehaw@gmail.com",
     },
     "record": {
-        "CNAME": "joaquindabest.github.io"
+        "CNAME": "JoaquinDaBest.github.io"
     }
-}
+} 
