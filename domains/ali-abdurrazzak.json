@@ -1,9 +1,12 @@
 {
+    "description": "A subdomain to direct ali's portofolio github pages",
+    "repo": "https://github.com/aliabdurrazzak/aliabdurrazzak.github.io",
     "owner": {
         "username": "aliabdurrazzak",
-        "email": "aliabdurrrazzak@gmail.com"
+        "email": "aliabdurrazzak@gmail.com",
+        "twitter": "@aliabdurrazzak"
     },
     "record": {
-        "URL": "aliabdurrazzak.github.io"
+        "CNAME": "aliabdurrazzak.github.io"
     }
-}
+} 
