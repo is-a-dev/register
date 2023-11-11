@@ -1,0 +1,12 @@
+{
+    "description": "My portfolio website",
+    "repo": "https://github.com/iagobruno/iagobruno.dev",
+    "owner": {
+        "username": "iagobruno",
+        "email": "iagobruno.dev@gmail.com",
+        "twitter": "iagotico"
+    },
+    "record": {
+        "CNAME": "iagobruno.github.io"
+    }
+} 
