@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "ALBINPRAVEEN",
         "email": "albinpraveen135790@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "URL": "https://albinpraveen.vercel.app"
-      }
     }
-      
+}

@@ -1,12 +1,12 @@
 {
-	"description": "Projects by Shivanshu Pathak",
-	"repo": "https://github.com/shivanshu814/kliquestart",
-	"owner": {
-		"username": "Shivanshu Pathak",
-		"email": "shivanshu814pathak@gmail.com",
-		"linkedin": "https://www.linkedin.com/in/shivanshu-pathak-6611b5228"
-	},
-	"record": {
-		"CNAME": "Kliquestart.com"
-	}
+    "description": "Projects by Shivanshu Pathak",
+    "repo": "https://github.com/shivanshu814/kliquestart",
+    "owner": {
+        "username": "shivanshu814",
+        "email": "shivanshu814pathak@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/shivanshu-pathak-6611b5228"
+    },
+    "record": {
+        "CNAME": "Kliquestart.com"
+    }
 }

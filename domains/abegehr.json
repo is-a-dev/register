@@ -1,0 +1,12 @@
+{
+    "description": "Personal webpage",
+    "repo": "https://github.com/abegehr/abegehr.github.io",
+    "owner": {
+        "username": "abegehr",
+        "email": "anton@begehr.me",
+        "twitter": "antonbegehr"
+    },
+    "record": {
+        "CNAME": "abegehr.github.io"
+    }
+}

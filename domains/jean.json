@@ -1,12 +1,12 @@
 {
-  "description": "A website showcasing all of Jean's work",
-  "repo": "https://github.com/EmperorJean/emperorjean.github.io",
-  "owner": {
-    "username": "emperorjean",
-    "email": "",
-    "twitter": "emperorjean_"
-  },
-  "record": {
-    "CNAME": "emperorjean.github.io"
-  }
+    "description": "A website showcasing all of Jean's work",
+    "repo": "https://github.com/EmperorJean/emperorjean.github.io",
+    "owner": {
+        "username": "emperorjean",
+        "email": "",
+        "twitter": "emperorjean_"
+    },
+    "record": {
+        "CNAME": "emperorjean.github.io"
+    }
 }

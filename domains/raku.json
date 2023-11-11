@@ -1,11 +1,11 @@
 {
-  "description": "A Website For My Personal Website",
-  "repo": "https://github.com/Wuffye123",
-  "owner": {
-    "username": "Wuffye123",
-    "email": "rakurakumicro@gmail.com"
-  },
-  "record": {
-    "CNAME": "0836bfc7-938d-4986-aa1f-acc749ae136a.repl.co"
-  }
+    "description": "A Website For My Personal Website",
+    "repo": "https://github.com/Wuffye123",
+    "owner": {
+        "username": "Wuffye123",
+        "email": "rakurakumicro@gmail.com"
+    },
+    "record": {
+        "CNAME": "0836bfc7-938d-4986-aa1f-acc749ae136a.repl.co"
+    }
 }

@@ -1,12 +1,12 @@
 {
-  "description": "MoPaMo's GitHub page",
-  "repo": "https://github.com/MoPaMo/mopamo.github.io",
-  "owner": {
-    "username": "MoPaMo",
-    "email": "mopamo@protonmail.com",
-    "twitter": "MoPaMo_"
-  },
-  "record": {
-    "CNAME": "mopamo.github.io"
-  }
+    "description": "MoPaMo's GitHub page",
+    "repo": "https://github.com/MoPaMo/mopamo.github.io",
+    "owner": {
+        "username": "MoPaMo",
+        "email": "mopamo@protonmail.com",
+        "twitter": "MoPaMo_"
+    },
+    "record": {
+        "CNAME": "mopamo.github.io"
+    }
 }

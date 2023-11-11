@@ -1,10 +1,10 @@
 {
-  "description": "Domain for my old music bot",
-  "owner": {
-    "username": "VlastikYoutubeKo",
-    "email": "plainrock@seznam.cz"
-  },
-  "record": {
-    "A": ["129.151.254.58"]
-  }
+    "description": "Domain for my old music bot",
+    "owner": {
+        "username": "VlastikYoutubeKo",
+        "email": "plainrock@seznam.cz"
+    },
+    "record": {
+        "A": ["129.151.254.58"]
+    }
 }

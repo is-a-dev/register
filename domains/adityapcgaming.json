@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Clyders",
         "email": "adityapcgaming1@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "8a7f7c6e-2287-4f07-a605-5ca7824b3f38.id.repl.co"
-      }
     }
-      
+}

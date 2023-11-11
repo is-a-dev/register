@@ -1,11 +1,11 @@
 {
-  "description": "Bedant Hota's Portfolio",
-  "repo": "https://github.com/bedantH/bedantH.github.io",
-  "owner": {
-    "username": "bedantH",
-    "email": "mohanesh.h2003@gmail.com"
-  },
-  "record": {
-    "CNAME": "bedanth-github-io.pages.dev"
-  }
+    "description": "Bedant Hota's Portfolio",
+    "repo": "https://github.com/bedantH/bedantH.github.io",
+    "owner": {
+        "username": "bedantH",
+        "email": "mohanesh.h2003@gmail.com"
+    },
+    "record": {
+        "CNAME": "bedanth-github-io.pages.dev"
+    }
 }

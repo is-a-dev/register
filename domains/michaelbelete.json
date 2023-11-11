@@ -1,11 +1,11 @@
 {
-  "description": "michael belete portfolio website",
-  "repo": "https://github.com/michaelbelete",
-  "owner": {
-    "username": "michaelbelete",
-    "email": "it.michael.belete@gmail.com"
-  },
-  "record": {
-     "URL": "https://michaelb.iceiy.com"
-  }
+    "description": "michael belete portfolio website",
+    "repo": "https://github.com/michaelbelete",
+    "owner": {
+        "username": "michaelbelete",
+        "email": "it.michael.belete@gmail.com"
+    },
+    "record": {
+        "URL": "https://michaelb.iceiy.com"
+    }
 }

@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Debajyoti1",
         "email": "debajyotidutta.50@gmail.com"
-      },
+    },
 
-      "record": {
-        "CNAME": "debajyoti.cf"
-      }
+    "record": {
+        "A": ["152.67.6.15"]
     }
-  
+}

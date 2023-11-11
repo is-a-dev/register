@@ -1,10 +1,9 @@
-              {
-                "owner": {
-                  "username": "SX-9",
-                  "email": "satriakrach@gmail.com"
-                },
-                "record": {
-                  "CNAME": "5b57fe59-8f17-4bdf-9ece-d8dde3f9cab0.id.repl.co"
-                }
-              }
-
+{
+    "owner": {
+        "username": "SX-9",
+        "email": "satriakrach@gmail.com"
+    },
+    "record": {
+        "CNAME": "5b57fe59-8f17-4bdf-9ece-d8dde3f9cab0.id.repl.co"
+    }
+}

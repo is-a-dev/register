@@ -16,8 +16,19 @@
    <a href="https://discord.gg/PZCGHz4RhQ"><img alt="Discord Server" src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2"></a>
 </p>
 
-## Registration
-###### Manual registration:
+## Issues
+
+If you have any problems then feel free to open a issue on github.
+If you have an issue that contains confidental infomation then email hello@maintainers.is-a.dev any other emails will be ignored.
+
+## Register
+
+### Automated Registration
+Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your github account and click the register page in the navbar. Fill out some questions and it will all happen automagically!
+
+Another method is to join our [Discord](https://discord.gg/PZCGHz4RhQ) then head to the commands channel and do /register . The bot will ask you a few questions then will generate your PR and domain automaticly. The bot also allows for domain deletion and editing.
+
+### Manual Registration
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
 - [Read the documentation](https://is-a.dev/docs).
@@ -25,23 +36,29 @@
 - After the pull request is merged, please allow up to 24 hours for the changes to propagate.
 - Enjoy your new `.is-a.dev` domain!
 
-###### Or if you prefer to use your command line:
+### CLI Registration
+For issues with the CLI, **DO NOT OPEN AN ISSUE ON THIS REPOSITORY**, instead open an issue [here](https://github.com/wdhdev/is-a-dev-cli/issues/new).
+
+Install the CLI:
 
 ```bash
 npm install @is-a-dev/cli -g
-
-is-a-dev login
-
-is-a-dev create
 ```  
 
+Login to the CLI:
 
+```bash
+is-a-dev login
+```
+
+Register a subdomain on the CLI:
+
+```
+is-a-dev register
+```
 
 ## Status
-You can check the uptime of our services on our [status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw).
-
-[![Uptime Robot - DNS](https://img.shields.io/uptimerobot/ratio/m787472645-ec25e3920c7af893a7c66f19?label=uptime%20-%20dns&style=for-the-badge)](https://stats.uptimerobot.com/zY4XKIRVzw/787472645)
-[![Uptime Robot - Redirect](https://img.shields.io/uptimerobot/ratio/m787472617-240f4d61a5439a87becb2cf9?label=uptime%20-%20redirections&style=for-the-badge)](https://stats.uptimerobot.com/zY4XKIRVzw/787472617)
+You can check the uptime of our services on our [status dashboard](https://status.is-a.dev).
 
 ### Similar Services
 If you want to find services similar to is-a.dev, take a look on [free-for.life](https://free-for.life/#/?id=domains).
