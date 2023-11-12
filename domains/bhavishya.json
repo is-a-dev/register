@@ -1,12 +1,11 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "BH00TXD",
         "email": "ghost25112006@gmail.com"
-      },
-
-      "record": {
-        "A": ["164.132.74.251"]
-      }
+    },
+    "record": {
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
-  
+}
