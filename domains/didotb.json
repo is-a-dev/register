@@ -1,9 +1,12 @@
 {
     "owner": {
         "username": "didotb",
-        "email": "didotb@gmail.com"
+        "email": "didotb@gmail.com",
+        "repo": "https://replit.com/@ddotb/reloctk",
+        "description": "Private owned URL Shortener - Using MongoDB, Flask, and SimpleLogin in Replit"
     },
     "record": {
-        "CNAME": "68e4e002-91f5-446f-98a8-9add654ca897.id.repl.co"
+        "A": ["35.186.245.55"],
+        "TXT": "replit-verify=68e4e002-91f5-446f-98a8-9add654ca897"
     }
 }
