@@ -1,11 +1,10 @@
 {
-  "owner": {
-    "username": "Ravost99",
-    "email": "",
-    "discord": "Ravost99#3361"
-  },
-  "description": "Ravost99's Personal website",
-  "record": {
-    "CNAME": "ff6546d8-ce57-4f83-bff1-de3fdf47f30f.id.repl.co"
-  }
+    "owner": {
+        "username": "Ravost99",
+        "email": "Ravost6@outlook.com"
+    },
+    "description": "Ravost99's Personal website",
+    "record": {
+        "CNAME": "910fc002-6c43-4a8f-89d9-e0807e831470.id.repl.co"
+    }
 }

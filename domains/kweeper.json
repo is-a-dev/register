@@ -1,0 +1,10 @@
+{
+    "description": "kweeper.is-a.dev",
+    "owner": {
+        "username": "kweeperdotjs",
+        "email": "kweeper@protonmail.com"
+    },
+    "record": {
+        "CNAME": "kweeperdotjs.pages.dev"
+    }
+}

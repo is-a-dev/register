@@ -1,13 +1,12 @@
 {
-  "description": "Static personal page of hatkidchan (hkc) (thx Mia)",
-  "owner": {
-    "username": "hatkidchan",
-    "email": "hatkidchan@gmail.com",
-    "twitter": "hatkidchan",
-    "discord": "hkc#0517"
-  },
-  "record": {
-    "A": ["216.128.176.102"],
-    "TXT": "aHR0cHM6Ly9oYXRraWRjaGFuLmlzLWEuZGV2L21lb3ctMGUwYWZkOWYtMzdlOC00ODc4LWJmYWYtOGE2MjAyYTI5ODFl"
-  }
+    "description": "kc personal website",
+    "owner": {
+        "username": "hatkidchan",
+        "email": "hatkidchan@gmail.com",
+        "twitter": "hatkidchan",
+        "discord": "hkc#0517"
+    },
+    "record": {
+        "A": ["5.181.108.112"]
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "DarshSood's personal website",
-  "repo": "https://replit.com/@DarshS/introduction-page",
-  "owner": {
-    "username": "DarshSood",
-    "email": "darshsood1@gmail.com"
-  },
-  "record": {
-    "CNAME": "5dcb1e8b-787e-43ce-bd1d-217d51ab09e1.id.repl.co"
-  }
+    "description": "DarshSood's personal website",
+    "repo": "https://replit.com/@DarshS/introduction-page",
+    "owner": {
+        "username": "DarshSood",
+        "email": "darshsood1@gmail.com"
+    },
+    "record": {
+        "CNAME": "5dcb1e8b-787e-43ce-bd1d-217d51ab09e1.id.repl.co"
+    }
 }
