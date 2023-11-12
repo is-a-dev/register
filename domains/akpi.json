@@ -7,6 +7,6 @@
     "record": {
         "A": ["185.199.110.153", "185.199.108.153", "185.199.111.153", "185.199.109.153"],
         "MX": ["mx1.improvmx.com", "feedback-smtp.us-east-1.amazonses.com", "mx2.improvmx.com"],
-        "TXT": ["v=spf1 include:spf.improvmx.com ~all", "zoho-verification=zb89083062.zmverify.zoho.com", "v=spf1 include:amazonses.com ~all", "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDmKWCucfCBImz9pOWBPV5+SO3KNqeQSt6Jusv+3Rbm8BbSv8H0x+E0TEe4JjfNNUmVQ7zNlZFJK4Hlv453aXBNbkk9kzsekW8qm4ZGjeQwMBo2f4V6tkxPFtcYnUfNskc3194C5gH4AusJ4WMbYOe9GNxCRhuok+5tIGciJXxbWQIDAQAB"]
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all", "v=spf1 include:amazonses.com ~all", "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDmKWCucfCBImz9pOWBPV5+SO3KNqeQSt6Jusv+3Rbm8BbSv8H0x+E0TEe4JjfNNUmVQ7zNlZFJK4Hlv453aXBNbkk9kzsekW8qm4ZGjeQwMBo2f4V6tkxPFtcYnUfNskc3194C5gH4AusJ4WMbYOe9GNxCRhuok+5tIGciJXxbWQIDAQAB"]
     }
 }
