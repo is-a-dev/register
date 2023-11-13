@@ -16,6 +16,11 @@
    <a href="https://discord.gg/PZCGHz4RhQ"><img alt="Discord Server" src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2"></a>
 </p>
 
+## Issues
+
+If you have any problems then feel free to open a issue on github.
+If you have an issue that contains confidental infomation then email hello@maintainers.is-a.dev any other emails will be ignored.
+
 ## Register
 
 ### Automated Registration
@@ -53,10 +58,7 @@ is-a-dev register
 ```
 
 ## Status
-You can check the uptime of our services on our [status dashboard](https://stats.uptimerobot.com/zY4XKIRVzw).
-
-[![Uptime Robot - DNS](https://img.shields.io/uptimerobot/ratio/m787472645-ec25e3920c7af893a7c66f19?label=uptime%20-%20dns&style=for-the-badge)](https://stats.uptimerobot.com/zY4XKIRVzw/787472645)
-[![Uptime Robot - Redirect](https://img.shields.io/uptimerobot/ratio/m787472617-240f4d61a5439a87becb2cf9?label=uptime%20-%20redirections&style=for-the-badge)](https://stats.uptimerobot.com/zY4XKIRVzw/787472617)
+You can check the uptime of our services on our [status dashboard](https://status.is-a.dev).
 
 ### Similar Services
 If you want to find services similar to is-a.dev, take a look on [free-for.life](https://free-for.life/#/?id=domains).

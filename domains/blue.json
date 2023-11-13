@@ -1,12 +1,11 @@
 {
-    "description": "Personal site for b1uedev, a.k.a Blue.",
-    "repo": "https://github.com/B1ue-Dev/b1ue-dev.github.io",
     "owner": {
         "username": "B1ue-Dev",
-        "email": "ngolong1396@hotmail.com",
-        "twitter": "b1uedev"
+        "email": "ngolong1396@hotmail.com"
     },
     "record": {
-        "CNAME": "b1ue-dev.github.io"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
