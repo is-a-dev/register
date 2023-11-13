@@ -1,11 +1,9 @@
-
- {
-        "owner": {
-           "username": "isadev",
-           "email": "hello@maintainers.is-a.dev"
-        },
-        "record": {
-            "CNAME": "register.is-a.dev"
-        }
+{
+    "owner": {
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
+    },
+    "record": {
+        "CNAME": "dns.beadman-network.com"
     }
-       
+}

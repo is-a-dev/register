@@ -1,12 +1,10 @@
 {
-    "description": "is-a-dev-raw api",
-    "repo": "https://github.com/andrewstech/is-a-dev-raw-api",
     "owner": {
-        "username": "andrewstech",
-        "email": "hello@andrewstech.me",
-        "twitter": "andrewstech1"
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
     },
+
     "record": {
-        "CNAME": "andrewstech.github.io"
+        "URL": "https://raw-api.is-a.dev"
     }
 }

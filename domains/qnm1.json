@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "questonomemio1",
-           "email": "lorenzomusto.dbz@gmail.com"
-        },
-        "record": {
-            "URL": "https://dev-questonomemio1.pantheonsite.io/"
-        }
+    "owner": {
+        "username": "questonomemio1",
+        "email": "lorenzomusto.dbz@gmail.com"
+    },
+    "record": {
+        "URL": "https://dev-questonomemio1.pantheonsite.io"
     }
-    
+}

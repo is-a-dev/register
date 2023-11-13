@@ -1,11 +1,11 @@
 {
     "description": "My Portfolio",
-    "repo": "https://github.com/JeremyJFN71/JeremyJFN71.github.io",
+    "repo": "https://github.com/amuhajirs/amuhajirs.github.io",
     "owner": {
-        "username": "JeremyJFN71",
+        "username": "amuhajirs",
         "email": "jeremyjeferson71@gmail.com"
     },
     "record": {
-        "CNAME": "JeremyJFN71.github.io"
+        "CNAME": "amuhajirs.github.io"
     }
-} 
+}

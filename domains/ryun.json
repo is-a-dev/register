@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "ryun",
-           "email": "humtech@gmail.com"
-        },
-        "record": {
-            "CNAME": "humboldtweb.com"
-        }
+    "owner": {
+        "username": "ryun",
+        "email": "humtech@gmail.com"
+    },
+    "record": {
+        "CNAME": "humboldtweb.com"
     }
-    
+}
