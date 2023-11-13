@@ -5,7 +5,12 @@
         "username": "heyvikki",
         "email": "singhvikal891@gmail.com"
     },
+
+    > @@ -6,6 +6,6 @@
+         "email": "singhvikal891@gmail.com"
+     },
+
     "record": {
-        "CNAME": "heyvikki.pages.dev"
+        "CNAME": "heyvikki.github.io"
     }
 }
