@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "njfamirm",
-    "email": "njfamirm@gmail.com"
-  },
-  "repo": "https://github.com/njfamirm/njfamirm.ir",
-  "record": {
-    "CNAME": "njfamirm.ir"
-  }
+    "owner": {
+        "username": "njfamirm",
+        "email": "njfamirm@gmail.com"
+    },
+    "repo": "https://github.com/njfamirm/njfamirm.ir",
+    "record": {
+        "CNAME": "njfamirm.ir"
+    }
 }
