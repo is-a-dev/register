@@ -5,6 +5,6 @@
     },
     "record": {
        "CNAME": "serveo.net",
-      "TXT": ["_serveo-authkey.alpha.is-a.dev=SHA256:bdFHNWD246po9Ryu2M7JEpnqZgCNFRygDTUD6pHCP+E"]
+      "TXT": "_serveo-authkey.alpha.is-a.dev=SHA256:bdFHNWD246po9Ryu2M7JEpnqZgCNFRygDTUD6pHCP+E"
     }
 }
