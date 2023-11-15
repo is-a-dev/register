@@ -1,0 +1,12 @@
+{
+    "description": "Website for my projects",
+    "repo": "https://github.com/xenmods/xenmods.github.io",
+    "owner": {
+        "username": "xenmods",
+        "email": "ilumomin04@gmail.com",
+        "twitter": "momin_ilf"
+    },
+    "record": {
+        "CNAME": "xenmods.github.io"
+    }
+}

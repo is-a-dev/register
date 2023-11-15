@@ -1,18 +1,13 @@
 {
-  "description": "JJ's Website",
-  "repo": "https://github.com/TheBotlyNoob/website",
-  "owner": {
-    "username": "TheBotlyNoob",
-    "email": "TheBotlyNoob@gmail.com"
-  },
-  "record": {
-    "A": [
-      "35.230.85.45"
-    ],
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  }
+    "description": "JJ's Website",
+    "repo": "https://github.com/TheBotlyNoob/website",
+    "owner": {
+        "username": "TheBotlyNoob",
+        "email": "TheBotlyNoob@gmail.com"
+    },
+    "record": {
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.111.153", "185.199.110.153"],
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
 }

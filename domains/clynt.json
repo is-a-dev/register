@@ -1,13 +1,11 @@
 {
-  "description": "C-Cloud",
-  "repo": "https://gitlab.com/Clynt707/SharX",
-  "owner": {
-    "username": "Clynt",
-    "email": "clyntcollin@gmail.com"
-  },
-  "record": {
-    "A": [
-        "37.114.32.30"
-    ]
-  }
+    "description": "C-Cloud",
+    "repo": "https://gitlab.com/Clynt707/SharX",
+    "owner": {
+        "username": "Clynt",
+        "email": "clyntcollin@gmail.com"
+    },
+    "record": {
+        "A": ["37.114.32.30"]
+    }
 }

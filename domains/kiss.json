@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "filipekiss",
-    "email": "filipe@kiss.ink"
-  },
-  "record": {
-    "CNAME": "filipe.kiss.ink"
-  }
+    "owner": {
+        "username": "filipekiss",
+        "email": "filipe@kiss.ink"
+    },
+    "record": {
+        "CNAME": "filipe.kiss.ink"
+    }
 }

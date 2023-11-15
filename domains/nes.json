@@ -1,0 +1,12 @@
+{
+    "description": "Link for personal website hosted on github pages",
+    "repo": "https://github.com/undefinedDarkness/undefinedDarkness.github.io",
+    "owner": {
+        "username": "undefinedDarkness",
+        "email": "",
+        "discord": "Dark NES#4901"
+    },
+    "record": {
+        "CNAME": "undefineddarkness.github.io"
+    }
+}

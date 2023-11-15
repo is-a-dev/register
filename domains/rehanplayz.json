@@ -1,18 +1,11 @@
 {
-  "description": "A cool website",
-  "repo": "https://github.com/RehanPlayz/RehanPlayz.github.io",
-  "owner": {
-    "username": "RehanPlayz",
-    "email": "RehanPlayz321@protonmail.com"
-  },
-  "record": {
-    "A": [
-      "198.251.81.131"
-    ],
-    "MX": [
-      "ns1.crystalcloud.xyz",
-      "ns2.crystalcloud.xyz"
-    ],
-    "TXT": "v=spf1 a mx ip4:198.251.81.131 ~all"    
-  }
+    "description": "A redirect to my new domain",
+    "repo": "https://github.com/RehanPlayz/RehanPlayz.github.io",
+    "owner": {
+        "username": "RehanPlayz",
+        "email": "rehanplayz321@protonmail.com"
+    },
+    "record": {
+        "CNAME": "rehanplayz.gq"
+    }
 }

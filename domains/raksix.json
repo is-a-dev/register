@@ -1,13 +1,11 @@
 {
-  "description": "A personel blog website",
-  "repo": "https://github.com/Raksixoffical",
-  "owner": {
-    "username": "Raksix",
-    "email": "raksixoffical@gmail.com"
-  },
-  "record": {
-    "A": [
-      "138.68.111.28"
-    ]
-  }
+    "description": "A personel blog website",
+    "repo": "https://github.com/Raksixoffical",
+    "owner": {
+        "username": "Raksix",
+        "email": "raksixoffical@gmail.com"
+    },
+    "record": {
+        "A": ["138.68.111.28"]
+    }
 }

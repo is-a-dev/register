@@ -1,12 +1,12 @@
 {
-  "description": "Fishycraft's amazing site",
-  "repo": "https://github.com/Fishycraft/fishycraft.github.io",
-  "owner": {
-    "username": "Fishycraft",
-    "email": "fishycraft@yahoo.com",
-    "twitter": "Fishycrafted"
-  },
-  "record": {
-    "CNAME": "fishycraft.github.io"
-  }
+    "description": "Fishycraft's amazing site",
+    "repo": "https://github.com/Fishycraft/fishycraft.github.io",
+    "owner": {
+        "username": "Fishycraft",
+        "email": "fishycraft@yahoo.com",
+        "twitter": "Fishycrafted"
+    },
+    "record": {
+        "CNAME": "fishycraft.github.io"
+    }
 }

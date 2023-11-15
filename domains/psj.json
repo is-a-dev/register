@@ -1,9 +1,9 @@
 {
-  "owner":{
-           "username":"philphirn",
-           "email":"locusapp1@gmail.com"
-           },
-  "record":{
-            "CNAME":"philphirn.github.io"
-            }
+    "owner": {
+        "username": "philphirn",
+        "email": "locusapp1@gmail.com"
+    },
+    "record": {
+        "CNAME": "philphirn.github.io"
+    }
 }

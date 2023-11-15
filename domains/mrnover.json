@@ -1,0 +1,12 @@
+{
+    "description": "MrNover's Website",
+    "repo": "https://github.com/MrNoverGitHub/mrnoverdevsite",
+    "owner": {
+        "username": "mrnovergithub",
+        "email": "mrnover@mrnover.com",
+        "twitter": "Mr_Nover"
+    },
+    "record": {
+        "CNAME": "9800a36a-2d84-483e-a96f-72b8263cc24e.id.repl.co"
+    }
+}

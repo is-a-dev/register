@@ -2,10 +2,10 @@
     "description": "Web Profile of Syofyan Zuhad",
     "repo": "https://github.com/syofyanzuhad/syofyanzuhad.github.io",
     "owner": {
-      "username": "syofyanzuhad",
-      "email": "sofyanzuhad2@gmail.com"
+        "username": "syofyanzuhad",
+        "email": "sofyanzuhad2@gmail.com"
     },
     "record": {
-      "CNAME": "syofyanzuhad.my.id"
+        "CNAME": "syofyanzuhad.my.id"
     }
-  }
+}

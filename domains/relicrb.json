@@ -1,0 +1,11 @@
+{
+    "description": "Relic's Personal Site",
+    "repo": "https://github.com/RelicRB/RelicRB.github.io",
+    "owner": {
+        "username": "RelicRB",
+        "email": "relicrb@gmail.com"
+    },
+    "record": {
+        "CNAME": "RelicRB.github.io"
+    }
+}

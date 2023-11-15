@@ -1,0 +1,10 @@
+{
+    "description": "Link for Coffee's personal site",
+    "owner": {
+        "username": "C0ffeeCode",
+        "email": "c0ffeecode@outlook.com"
+    },
+    "record": {
+        "CNAME": "coffeeco.dev"
+    }
+}

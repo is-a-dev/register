@@ -1,0 +1,11 @@
+{
+    "description": "Matt is a Developer!",
+    "repo": "https://github.com/Tweak4141",
+    "owner": {
+        "username": "tweak4141",
+        "email": "tweak@talosbot.xyz"
+    },
+    "record": {
+        "CNAME": "nginxpm.talosbot.xyz"
+    }
+}

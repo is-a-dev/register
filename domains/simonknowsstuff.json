@@ -1,0 +1,12 @@
+{
+    "description": "simonknowsstuff's website!",
+    "repo": "https://github.com/github-username/github-username.github.io",
+    "owner": {
+        "username": "simonknowsstuff",
+        "email": "simonknowsstuff@gmail.com",
+        "twitter": "simonknowsstuff"
+    },
+    "record": {
+        "CNAME": "simonknowsstuff.github.io"
+    }
+}

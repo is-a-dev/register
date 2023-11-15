@@ -1,0 +1,12 @@
+{
+    "description": "A javascript developer!",
+    "repo": "https://github.com/GodwhiteTaiwan/Docs",
+    "owner": {
+        "username": "GodwhiteTaiwan",
+        "email": "godwhite.yt.channel@gmail.com",
+        "twitter": "GW_GodwhiteTW"
+    },
+    "record": {
+        "CNAME": "godwhitetaiwan.github.io"
+    }
+}
