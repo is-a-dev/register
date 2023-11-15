@@ -5,7 +5,7 @@
         "username": "Johna-123",
         "email": "j-verstraaten@hotmail.com"
     },
-    "records": {
+    "record": {
         "CNAME": "johna.pages.dev"
     }
 }
