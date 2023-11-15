@@ -1,0 +1,11 @@
+{
+    "description": "svg's website",
+    "repo": "https://github.com/svg-rs/svg.github.io",
+    "owner": {
+        "username": "svg-rs",
+        "email": "kimmkayy8@proton.me"
+    },
+    "record": {
+        "CNAME": "svg-rs.github.io"
+    }
+}

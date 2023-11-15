@@ -1,10 +1,10 @@
 {
-  "description": "TolisDev Blog",
-  "owner": {
-    "username": "tolisdev",
-    "email": "tolis@tolis.tech"
-  },
-  "record": {
-    "CNAME": "vienna.ns.govello.net"
-  }
+    "description": "TolisDev Blog",
+    "owner": {
+        "username": "tolisdev",
+        "email": "apostolos@tolisuwu.xyz"
+    },
+    "record": {
+        "A": ["167.235.239.76"]
+    }
 }
