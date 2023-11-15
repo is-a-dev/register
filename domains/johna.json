@@ -5,7 +5,7 @@
         "username": "Johna-123",
         "email": "j-verstraaten@hotmail.com"
     },
-    "record": {
-        "URL": "https://johna.is-a-fullstack.dev"
+    "records": {
+        "CNAME": "johna.pages.dev"
     }
 }
