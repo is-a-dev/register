@@ -1,9 +1,11 @@
 {
+    "description": "I am using this Domain is for my personal portfolio.",
+    "repo": "https://github.com/aniketrajsingh/aniketrajsingh.github.io",
     "owner": {
         "username": "AniketRajSingh",
         "email": "mohitrajingh223@gmail.com"
     },
     "record": {
-        "CNAME": ["aniketrajsingh.github.io"]
+        "CNAME": "aniketrajsingh.github.io"
     }
 }
