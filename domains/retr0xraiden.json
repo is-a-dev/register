@@ -1,9 +1,11 @@
 {
+    "description": "My Portfolio",
+    "repo": "https://github.com/raiden-16f7/raiden-16f7.github.io",
     "owner": {
         "username": "Raiden-16F7",
         "email": "fahad.rizwan07@gmail.com"
     },
     "record": {
-        "URL": "https://raiden-16f7.github.io/Portfolio/"
+        "CNAME": "raiden-16f7.github.io"
     }
-}
+} 
