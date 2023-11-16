@@ -1,9 +1,16 @@
 {
     "owner": {
         "username": "ukrioo",
-        "email": "u8k50850@gmail.com"
+        "email": "u8k50850@gmail.com",
+        "discord": "ukrio",
+        "twitter": "@ukrio"
     },
     "record": {
-        "CNAME": "ukrioo.github.io"
+        "CNAME": "ukrioo.github.io",
+        "TXT": "v=spf1 include:spf.improvmx.com ~all",
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ]
     }
 }
