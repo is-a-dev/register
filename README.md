@@ -16,6 +16,11 @@
    <a href="https://discord.gg/PZCGHz4RhQ"><img alt="Discord Server" src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2"></a>
 </p>
 
+## Issues
+
+If you have any problems then feel free to open a issue on github.
+If you have an issue that contains confidental infomation then email hello@maintainers.is-a.dev any other emails will be ignored.
+
 ## Register
 
 ### Automated Registration
