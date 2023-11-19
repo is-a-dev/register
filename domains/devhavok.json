@@ -1,9 +1,11 @@
 {
+    "description": "My Personal Blog",
+    "repo": "https://github.com/DevHavok/devhavok.github.io",
     "owner": {
         "username": "Shaunfurtado",
         "email": "shaunf1801@gmail.com"
     },
     "record": {
-        "CNAME": "devhavok.bearblog.dev"
+        "CNAME": "devhavok.github.io"
     }
 }
