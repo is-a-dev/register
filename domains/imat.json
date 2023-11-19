@@ -6,8 +6,6 @@
         "email": "adam.essakhi16+github@gmail.com"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "TXT": "v=spf1 mx a:mailx.is-a.dev ip4:217.174.245.249 ~all",
-        "MX": ["mailx.is-a.dev"]
+        "CNAME": "http://sites.bootstrapstudio.io"
     }
 }
