@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "WilliamDavidHarrison",
-    "email": "william@williamharrison.dev"
-  },
+    "owner": {
+        "username": "WilliamDavidHarrison",
+        "email": "william@williamharrison.dev"
+    },
 
-  "record": {
-    "CNAME": "edge.redirect.pizza"
-  }
+    "record": {
+        "CNAME": "wdhdns.com"
+    }
 }

@@ -1,12 +1,11 @@
 {
-  "description": "because im an dev",
-  "repo": "https://github.com/ituir",
-  "owner": {
-    "username": "ituir",
-    "email": "tiuri@server.tiuri.be"
-  },
-  "record": {
-    "A": [
-      "138.201.76.10"
-    ]}
+    "description": "because im an dev",
+    "repo": "https://github.com/ituir",
+    "owner": {
+        "username": "ituir",
+        "email": "tiuri@server.tiuri.be"
+    },
+    "record": {
+        "A": ["212.227.129.140"]
+    }
 }

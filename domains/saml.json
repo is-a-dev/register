@@ -1,22 +1,11 @@
 {
-  "description": "Personal Website",
-  "repo": "https://github.com/SamDev-7/samdev-7.github.io",
-  "owner": {
-    "username": "SamDev-7",
-    "email": "",
-    "discord": "SamDev7#1767"
-  },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  }
+    "description": "Personal Website",
+    "repo": "https://github.com/SamDev-7/website",
+    "owner": {
+        "username": "SamDev-7",
+        "email": "hello@samliu.dev"
+    },
+    "record": {
+        "URL": "https://samliu.dev"
+    }
 }
