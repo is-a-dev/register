@@ -8,6 +8,6 @@
     "discord": "685845264417816611"
   },
   "record": {
-    "CNAME": "yacoreq.github.io"
+    "A": ["136.243.156.120"]
   }
 }
