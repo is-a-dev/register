@@ -11,7 +11,6 @@
         "MX": ["hosts.is-a.dev"],
         "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
         "CNAME": "mlemingcapoo.github.io"
-        "URL": "https://landinghost.mlemingcapoo.repl.co"
         "TXT": "hello catty"
     }
 }
