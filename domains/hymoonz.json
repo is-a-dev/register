@@ -1,0 +1,11 @@
+{
+    "description": "hymoonz.is-a.dev",
+    "repo": "https://github.com/hymoonz/hymoonz.github.io",
+    "owner": {
+        "username": "hymoonz",
+        "email": "bilal190620@gmail.com"
+    },
+    "record": {
+        "CNAME": "hymoonz.github.io"
+    }
+}
