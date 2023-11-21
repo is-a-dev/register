@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "HarisETH",
-        "email": "hariskumar.eth@gmail.com"
-    },
-    "record": {
-        "URL": "https://haris.one"
-    }
+  "description": "My portfolio website.",
+  "owner": {
+    "username": "hariswhdn",
+    "email": "",
+    "twitter": "hariswhdn",
+    "discord": "hariswhdn"
+  },
+  "record": {
+    "CNAME": "uiux.eu.org"
+  }
 }
