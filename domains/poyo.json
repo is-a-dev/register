@@ -1,0 +1,10 @@
+{
+    "description": "I'll use this sub-domain for my portfolio website.",
+    "owner": {
+        "username": "MrDaPoyo",
+        "email": "wiiuforever25@gmail.com"
+    },
+    "record": {
+        "CNAME": "dapoyo.neocities.org"
+    }
+} 
