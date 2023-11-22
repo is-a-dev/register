@@ -4,9 +4,6 @@
         "email": "amolmilton@gmail.com"
     },
     "record": {
-        "NS":"ns1.afraid.org"
-        "NS":"ns2.afraid.org"
-        "NS":"ns3.afraid.org"
-        "NS":"ns4.afraid.org"
+        "CNAME":"amol234545.github.io/my-website"
     }
 }
