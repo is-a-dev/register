@@ -1,11 +1,10 @@
- 
-    {
+{
       "owner": {
         "username": "IamTheDefender",
         "discord": "iamthedefender"
       },
       "record": {
-        "URL": ["portfolio-one-ecru-11.vercel.app"]
+        "URL": "portfolio-one-ecru-11.vercel.app"    
       }
-    }
+}
       
