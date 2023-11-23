@@ -5,12 +5,12 @@
         "email": "wiiuforever25@gmail.com"
     },
     "record": {
-        "URL": "https://dapoyo.neocities.org",
         "TXT": "v=spf1 include:spf.improvmx.com ~all",
         "MX": [
             "mx1.improvmx.com",
             "mx2.improvmx.com"
         ]
+        "CNAME": "mrdapoyo.github.io"
     }
     
 } 
