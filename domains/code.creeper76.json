@@ -5,6 +5,11 @@
         "discord": "777694273319469057"
     },
     "record": {
+        "MX": [
+          "mx1.improvmx.com",
+          "mx2.improvmx.com"
+        ],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all",
         "CNAME": "pnode2.danbot.host:6356"
     }
 }
