@@ -1,0 +1,12 @@
+{
+    "description": "my blog website",
+    "repo": "https://github.com/NotRana/asad-blog",
+    "owner": {
+        "username": "notrana",
+        "email": "notrana1122@outlook.com",
+        "discord": "rana.exe"
+    },
+    "record": {
+        "CNAME": "fab7964c-a982-4b96-854d-25b3f55189aa.id.repl.co"
+    }
+}
