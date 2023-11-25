@@ -1,12 +1,15 @@
 {
-    "description": "Link to my portfolio site.",
-    "repo": "https://github.com/notrana/notrana.github.io",
+    "description": "my custom domain",
+    
     "owner": {
         "username": "notrana",
-        "email": "mail@notrana.tk",
-        "discord": "Rana Asad.py#5925"
+        "email": "notrana1122@outlook.com",
+        "discord": "rana.exe5"
     },
     "record": {
-        "CNAME": "notrana.github.io"
+        "MX": [
+      "mx1.improvmx.com.",
+      "mx2.improvmx.com."
+    ]
     }
 }
