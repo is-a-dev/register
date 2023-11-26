@@ -11,6 +11,6 @@
             "185.199.111.153"
         ],
         "MX": ["mx1.forwardemail.net"],
-        "TXT": ["forward-email=foxsdenyt@gmail.com", "_github-pages-challenge-FoxsDenYT.foxsden=37455d1a9cf706acc4f0cd6ada2ce7"]
+        "TXT": "forward-email=foxsdenyt@gmail.com"
     }
 }
