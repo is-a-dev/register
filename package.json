@@ -21,7 +21,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "jest": "^26.4.2",
+    "jest": "^27.0.0",
     "node-fetch": "^2.6.1",
     "qs": "^6.9.4",
     "ramda": "^0.27.1"
