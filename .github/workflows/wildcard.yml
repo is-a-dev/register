@@ -30,12 +30,15 @@ jobs:
             - name: test
               run: cat domains/_acme-challenge.json
 
-            - name: Install Yarn dependencies
-              run: yarn install --ignore-engines
+            - uses: oven-sh/setup-bun@v1
+              with:
+                bun-version: 1.0.3
+            - run: bun install
 
             - name: Publishing records
               env:
                   CI: 1
+                  NODE_ENV: production
                   ENV: production
                   DOMAIN_USER: ${{ secrets.DOMAIN_USER }}
                   DOMAIN_API_KEY: ${{ secrets.DOMAIN_API_KEY }}
@@ -43,7 +46,7 @@ jobs:
                   DOMAIN_API_PORT: ${{ secrets.DOMAIN_API_PORT }}
                   DOMAIN_DOMAIN: ${{ secrets.DOMAIN_DOMAIN }}
                   DOMAIN_HOST_IP: ${{ secrets.DOMAIN_HOST_IP }}
-              run: yarn publish-records
+              run: bun run publish-records
             - name: Sleep
               run: sleep 10m
               shell: bash
@@ -55,6 +58,7 @@ jobs:
             - name: removing records
               env:
                   CI: 1
+                  NODE_ENV: production
                   ENV: production
                   DOMAIN_USER: ${{ secrets.DOMAIN_USER }}
                   DOMAIN_API_KEY: ${{ secrets.DOMAIN_API_KEY }}
@@ -62,4 +66,4 @@ jobs:
                   DOMAIN_API_PORT: ${{ secrets.DOMAIN_API_PORT }}
                   DOMAIN_DOMAIN: ${{ secrets.DOMAIN_DOMAIN }}
                   DOMAIN_HOST_IP: ${{ secrets.DOMAIN_HOST_IP }}
-              run: yarn publish-records
+              run: bun run publish-records
