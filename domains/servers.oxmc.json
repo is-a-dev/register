@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "oxmc",
+        "email": "oxmc7769.mail@gmail.com",
+        "discord": "oxmc7769"
+    },
+    "record": {
+        "A": [""],
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=contact:oxmc7769.mail@gmail.com"
+    }
+}
