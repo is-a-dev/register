@@ -1,9 +1,13 @@
 {
-    "owner": {
-        "username": "notomne",
-        "email": "charmquark314@proton.me"
-    },
-    "record": {
-        "A": ["54.245.108.240"]
-    }
+	"owner": {
+		"username": "notomne",
+		"email": "charmquark314@proton.me"
+	},
+	"record": {
+		"A": ["44.240.31.54"],
+		"AAAA": [
+			"2600:1f14:1f56:d100::1337",
+			"2600:1f14:1f56:d100::c0de"
+		]
+	}
 }

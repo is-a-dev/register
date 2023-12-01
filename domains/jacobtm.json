@@ -1,12 +1,9 @@
 {
-    "description": "About me.",
-    "repo": "https://github.com/Jacob1Tm",
     "owner": {
         "username": "Jacob1Tm",
-        "email": "",
-        "twitter": "Jacob1_Tm"
+        "email": "j.pawlak.2007@gmail.com"
     },
     "record": {
-        "URL": "https://jacobtm.tk"
+        "CNAME": "jacobtm.me"
     }
 }

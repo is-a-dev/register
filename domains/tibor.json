@@ -1,0 +1,11 @@
+{
+    "description": "Something for my profile page",
+    "repo": "https://github.com/tibor309/tibor309.github.io",
+    "owner": {
+        "username": "tibor309",
+        "email": "haxite@proton.me"
+    },
+    "record": {
+        "CNAME": "tibor309.github.io"
+    }
+}
