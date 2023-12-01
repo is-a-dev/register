@@ -1,7 +1,12 @@
 {
  "owner": {
-        "username": "YouFoundAlpha",
-        "email": "sweepalf@gmail.com"
+    "Username": "YouFoundAlpha",
+    "Email": "alpha@alpha.is-a.dev",
+    "Discord": "661121998830960651",
+    "Twitter": "YouFoundAlpha",
+    "GitHub": "YouFoundAlpha",
+    "GitLab": "YouFoundAlpha",
+    "Mastodon": "@YouFoundAlpha@mastodon.social"
     },
     "record": {
         "URL": "https://alpha.is-a.dev"
