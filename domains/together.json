@@ -4,6 +4,7 @@
         "email": "vpntogetherart@gmail.com"
     },
     "record": {
+        "CNAME": "hashnode.network",
         "TXT": "vc-domain-verify=nork.is-a.dev,39c7184de080fa5f57fb"
     }
 }
