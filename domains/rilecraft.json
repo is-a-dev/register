@@ -1,0 +1,11 @@
+{
+    "description": "Subdomain for my github pages site.",
+    "repo": "https://github.com/rilecraft/rilecraft.github.io",
+    "owner": {
+        "username": "rilecraft",
+        "email": "rilecraft@gmail.com"
+    },
+    "record": {
+        "CNAME": "rilecraft.github.io"
+    }
+} 
