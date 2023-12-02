@@ -10,6 +10,8 @@
             "mx1.forwardemail.net",
             "mx2.forwardemail.net"
         ],
-        "TXT": "forward-email=naffets0@gmail.com"
+        "TXT": [
+            "forward-email=naffets0@gmail.com"
+        ]
     }
 }
