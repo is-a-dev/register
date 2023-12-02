@@ -5,7 +5,6 @@
         "email": "atharva.upadhyay1099@gmail.com"
     },
     "record": {
-        "CNAME": "atharvaupadhyay.github.io",
 	"MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
 	"TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
