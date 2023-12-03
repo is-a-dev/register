@@ -4,6 +4,6 @@
         "email": "gooplancton@outlook.com"
     },
     "record": {
-        "CNAME": "hosts.is-a.dev"
+        "A": ["93.93.117.164"]
     }
 }
