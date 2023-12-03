@@ -13,7 +13,7 @@ jobs:
     - uses: actions/stale@v3
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        days-before-stale: 10
+        days-before-stale: 7
         days-before-close: 14
         stale-issue-message: 'This issue has been marked as stale due to inactivity and will be closed. Comment anything on this issue to prevent it'
         stale-pr-message: 'This pull request has been marked as stale due to inactivity and will be closed. Comment anything on this PR to prevent it'
