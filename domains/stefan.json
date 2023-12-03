@@ -5,6 +5,8 @@
         "discord": "455608238335983617"
     },
     "record": {
-        "CNAME": "dynow.pages.dev"
-      }
+        "URL": "https://dyno.is-a.dev",
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=naffets0@gmail.com"
+    }
 }
