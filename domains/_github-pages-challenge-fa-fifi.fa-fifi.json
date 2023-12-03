@@ -1,10 +1,10 @@
 {
-    "description": "Personal portfolio website",
+    "description": "Github page domain verification",
     "owner": {
         "username": "fa-fifi",
         "email": "fafifi1997@gmail.com"
     },
     "record": {
-        "CNAME": "fa-fifi.github.io"
+        "TXT": "4076c15aac94a89c1a131d252cf368"
     }
 }
