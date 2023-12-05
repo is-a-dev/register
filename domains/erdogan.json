@@ -4,6 +4,6 @@
         "email": "erdogan.sad@windowslive.com"
     },
     "record": {
-        "CNAME": "erdogansad.github.io"
+        "A": ["87.248.157.245"]
     }
 }
