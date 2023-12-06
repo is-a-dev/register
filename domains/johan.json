@@ -1,11 +1,11 @@
 {
-  "description": "Personal website of Johan von Forstner",
-  "repo": "https://github.com/johan12345/johan12345.github.io",
-  "owner": {
-    "username": "johan12345",
-    "email": "johan.forstner@gmail.com"
-  },
-  "record": {
-    "URL": "https://johan.vonforst.net/"
-  }
+    "description": "Personal website of Johan von Forstner",
+    "repo": "https://github.com/johan12345/johan12345.github.io",
+    "owner": {
+        "username": "johan12345",
+        "email": "johan.forstner@gmail.com"
+    },
+    "record": {
+        "URL": "https://johan.vonforst.net"
+    }
 }

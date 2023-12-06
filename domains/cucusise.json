@@ -1,11 +1,9 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Cucusise",
         "email": "cucusise@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "cucusise.github.io"
-      }
     }
-  
+}

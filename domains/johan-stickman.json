@@ -1,13 +1,12 @@
 {
-  "description": "My personal website",
-  "repo": "",
-  "owner": {
-    "username": "johan-perso",
-    "email": "",
-    "twitter": "Johan_Stickman",
-    "discord": "Johan#8021"
-  },
-  "record": {
-    "URL": "https://johanstickman.com"
-  }
+    "description": "My personal website",
+    "owner": {
+        "username": "johan-perso",
+        "email": "johan_stickman@proton.me",
+        "twitter": "Johan_Stickman",
+        "discord": "jsuismoi"
+    },
+    "record": {
+        "URL": "https://johanstick.fr"
+    }
 }

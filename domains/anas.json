@@ -1,0 +1,11 @@
+{
+    "description": "Anasov Github Portfolio",
+    "repo": "https://github.com/ItzAnasov/ItzAnasov.github.io",
+    "owner": {
+        "username": "ItzAnasov",
+        "email": "anasybal@mail.ru"
+    },
+    "record": {
+        "CNAME": "itzanasov.github.io"
+    }
+}

@@ -1,11 +1,11 @@
 {
-  "description": "Hu Kaixiang's Personal Site",
-  "repo": "https://github.com/Maxhu787/g4o2-website",
-  "owner": {
-    "username": "Maxhu787",
-    "email": "maxhu787@gmail.com"
-  },
-  "record": {
-    "CNAME": "maxhu787.github.io"
-  }
+    "description": "Hu Kaixiang's Personal Site",
+    "repo": "https://github.com/Maxhu787/g4o2-website",
+    "owner": {
+        "username": "Maxhu787",
+        "email": "maxhu787@gmail.com"
+    },
+    "record": {
+        "CNAME": "maxhu787.github.io"
+    }
 }

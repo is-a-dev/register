@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Ken Pemberton",
-    "email": "kenpem@gmail.com"
-  },
-  "record": {
-    "CNAME": "grumpyoldfart.org"
-  }
+    "owner": {
+        "username": "kenpem",
+        "email": "kenpem@gmail.com"
+    },
+    "record": {
+        "CNAME": "grumpyoldfart.org"
+    }
 }

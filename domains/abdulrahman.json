@@ -1,11 +1,11 @@
 {
-  "description": "A personal website for my career.",
-  "repo": "https://github.com/abdulrahman1s/my-website",
-  "owner": {
-    "username": "abdulrahman1s",
-    "email": "abdulrahman.8alah@gmail.com"
-  },
-  "record": {
-    "URL": "https://themaestro.site"
-  }
+    "description": "Personal site to showcase my future works.",
+    "repo": "https://github.com/abdulrahman1s/abdulrahman1s.github.io",
+    "owner": {
+        "username": "abdulrahman1s",
+        "email": "mail@abdulrahman.dev"
+    },
+    "record": {
+        "URL": "https://abdulrahman.dev"
+    }
 }

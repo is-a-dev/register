@@ -1,11 +1,11 @@
 {
-  "description": "Hemanth's developer portfolio",
-  "repo": "https://github.com/Hemanthwarrier/hemanth.github.io",
-  "owner": {
-    "username": "Hemanthwarrier",
-    "email": "hemanthwarrier@gmail.com"
-  },
-  "record": {
-    "CNAME": "Hemanthwarrier.github.io"
-  }
+    "description": "Hemanth's developer portfolio",
+    "repo": "https://github.com/Hemanthwarrier/hemanth.github.io",
+    "owner": {
+        "username": "Hemanthwarrier",
+        "email": "hemanthwarrier@gmail.com"
+    },
+    "record": {
+        "CNAME": "Hemanthwarrier.github.io"
+    }
 }

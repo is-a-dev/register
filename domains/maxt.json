@@ -1,11 +1,11 @@
 {
-  "description": "Max's Portfolio/Cool Website",
-  "repo": "https://github.com/MaxTCodes/maxt-is-a.dev",
-  "owner": {
-    "username": "MaxTCodes",
-    "email": "dev@maxt-is-a.dev"
-  },
-  "record": {
-    "URL": "https://maxt-is-a.dev/"
-  }
+    "description": "Max's Portfolio/Cool Website",
+    "repo": "https://github.com/MaxTCodes/maxt-is-a.dev",
+    "owner": {
+        "username": "MaxTCodes",
+        "email": "dev@maxt-is-a.dev"
+    },
+    "record": {
+        "URL": "https://maxt-is-a.dev"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "Daria is a dev",
-  "repo": "https://github.com/dariatrainor/dariatrainor.github.io",
-  "owner": {
-    "username": "dariatrainor",
-    "email": "dariasu@gmail.com"
-  },
-  "record": {
-    "CNAME": "dariatrainor.github.io"
-  }
+    "description": "Daria is a dev",
+    "repo": "https://github.com/dariatrainor/dariatrainor.github.io",
+    "owner": {
+        "username": "dariatrainor",
+        "email": "dariasu@gmail.com"
+    },
+    "record": {
+        "CNAME": "dariatrainor.github.io"
+    }
 }

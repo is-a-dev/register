@@ -1,11 +1,10 @@
 {
     "description": "My personal website",
-    "repo": "https://github.com/abysmal26/website",
     "owner": {
         "username": "abysmal26",
         "email": "abysmal@disroot.org"
     },
     "record": {
-        "CNAME": "abysmal26.github.io"
+        "URL": "https://abysmal.eu.org"
     }
-} 
+}
