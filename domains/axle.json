@@ -1,1 +1,12 @@
-
+{
+    "description": "An api for Axle",
+    "repo": "https://github.com/WalkerOfBacon/walkerofbacon.github.io",
+    "owner": {
+        "username": "WalkerOfBacon",
+        "email": "",
+        "discord": "569596194725167205"
+    },
+    "record": {
+        "CNAME": "walkerofbacon.github.io"
+    }
+} 
