@@ -1,0 +1,12 @@
+{
+    "description": "want to have a subdomain for my personal gihub pages website",
+    "repo": "https://github.com/peme969/peme969.github.io",
+    "owner": {
+        "username": "peme969",
+        "email": "mrcoderpeme@gmail.com",
+        "twitter": "none"
+    },
+    "record": {
+        "CNAME": "peme969.github.io"
+    }
+}
