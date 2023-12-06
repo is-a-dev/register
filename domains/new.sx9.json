@@ -1,7 +1,8 @@
 {
     "owner": {
         "username": "SX-9",
-        "email": "hello@mail.sx9.is-a.dev"
+        "email": "hello@mail.sx9.is-a.dev",
+        "hmm": "ok"
     },
     "record": {
         "CNAME": "sx-9.github.io"
