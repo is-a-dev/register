@@ -1,9 +1,11 @@
 {
     "owner": {
         "username": "Chris8889",
-        "email": "chris88892@protonmail.com"
+        "email": "chris12089@protonmail.com"
     },
     "record": {
-        "CNAME": "hosts.is-a.dev"
+        "CNAME": "hosts.is-a.dev",
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 mx a:mailx.is-a.dev ip4:217.174.245.249 include:spf.improvmx.com ~all"
     }
 }
