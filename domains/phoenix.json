@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "PhoenixOrigin",
+        "email": "phoenixorigin171@gmail.com"
+    },
+    "record": {
+        "A": ["130.162.166.134"],
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=phoenixorigin171@gmail.com"
+    }
+}

@@ -1,12 +1,14 @@
 {
     "description": "My own website",
-    "repo": "https://github.com/ipuppyyt",
     "owner": {
         "username": "ipuppyyt",
         "email": "dhanush6102002@gmail.com",
-        "twitter": "ipuppyyt"
+        "twitter": "ipuppyyt",
+        "discord": "iPuppyYT#3684"
     },
     "record": {
-        "CNAME": "new-main-site.pages.dev"
+        "A": ["185.199.110.153", "185.199.108.153", "185.199.111.153", "185.199.109.153"],
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
-} 
+}
