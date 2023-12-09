@@ -13,7 +13,8 @@
             "mx2.forwardemail.net"
         ],
         "TXT": [
-            "forward-email=admin:admin.main@mail.stefdp.is-a.dev"
+            "forward-email=admin:admin.main@mail.stefdp.is-a.dev",
+            "forward-email=/^(?!admin$).*/:main@mail.stefdp.is-a.dev"
         ]
     }
 }
