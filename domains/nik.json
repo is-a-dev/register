@@ -5,9 +5,6 @@
     "discord": "nikxso#0000"
   },
   "record": {
-    "CNAME": "myweb-266f0.web.app",
-    "A": [
-      "68.65.123.44"
-    ]
+    "CNAME": "myweb-266f0.web.app"
   }
 }
