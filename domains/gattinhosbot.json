@@ -13,8 +13,7 @@
             "mx2.forwardemail.net"
         ],
         "TXT": [
-            "forward-email=support:support.gattinhosbot@mail.stefdp.is-a.dev",
-            "forward-email=/^(?!support\\.gattinhosbot$).*/:gattinhosbot@mail.stefdp.is-a.dev"
+            "forward-email=support:support.gattinhosbot@mail.stefdp.is-a.dev"
         ]
     }
 }
