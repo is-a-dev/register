@@ -5,6 +5,6 @@
     },
 
     "record": {
-        "MX": ["main.dfn6axfpgkelx.amplifyapp.com"]
+        "CNAME": "main.dfn6axfpgkelx.amplifyapp.com"
     }
 }
