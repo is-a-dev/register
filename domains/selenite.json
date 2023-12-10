@@ -4,6 +4,6 @@
         "email": "skysth3limit@pm.me"
     },
     "record": {
-        "CNAME": "selenite.pages.dev"
+        "A": ["5.161.118.69"]
     }
 }
