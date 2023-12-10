@@ -16,12 +16,17 @@
    <a href="https://discord.gg/PZCGHz4RhQ"><img alt="Discord Server" src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2"></a>
 </p>
 
+## Issues
+
+If you have any problems then feel free to open a issue on github.
+If you have an issue that contains confidental infomation then email hello@maintainers.is-a.dev any other emails will be ignored.
+
 ## Register
 
 ### Automated Registration
-Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your github account and click the register page in the navbar. Fill out some questions and it will all happen automagically!
+Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your GitHub account and click the register page in the navbar. Fill out some questions and it will all happen automatically!
 
-Another method is to join our [Discord](https://discord.gg/PZCGHz4RhQ) then head to the commands channel and do /register . The bot will ask you a few questions then will generate your PR and domain automaticly. The bot also allows for domain deletion and editing.
+Another method is to join our [Discord server](https://discord.gg/PZCGHz4RhQ), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
 
 ### Manual Registration
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.

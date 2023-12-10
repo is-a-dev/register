@@ -1,0 +1,11 @@
+{
+    "description": "Xenoxanite portfolio",
+    "repo": "https://github.com/xenoxanite/xenoxanite.github.io",
+    "owner": {
+        "username": "xenoxanite",
+        "email": "xenoxanite@gmail.com"
+    },
+    "record": {
+        "CNAME": "xenoxanite.github.io"
+    }
+}
