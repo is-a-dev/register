@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "didotb",
+        "email": "didotb@gmail.com",
+        "description": "Email record for didotb.is-a.dev"
+    },
+    "record": {
+        "MX": ["feedback-smtp.us-east-1.amazonses.com"],
+        "TXT": "v=spf1 include:amazonses.com ~all"
+    }
+}
