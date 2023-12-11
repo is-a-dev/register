@@ -1,12 +1,12 @@
 {
     "owner": {
-       "username": "is-a-dev",
-       "email": "phenax5@gmail.com"
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
     },
 
     "record": {
         "A": ["51.161.54.164"],
         "MX": ["mail.is-a.dev"],
-        "TXT": "v=spf1 mx a:mail.is-a.dev ~all",
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
