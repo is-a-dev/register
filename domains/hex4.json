@@ -4,6 +4,7 @@
         "email": "nenex54@pm.me"
     },
     "record": {
+        "CNAME": "hexsite.pages.dev",
         "A": ["217.174.245.249"],
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
         "TXT": ["v=spf1 a mx ip4:217.174.245.249 ~all","forward-email=nenex54@pm.me"]
