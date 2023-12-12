@@ -1,0 +1,13 @@
+{
+    "description": "rosset-nocpes.is-a.dev",
+    "repo": "https://github.com/rosset-nocpes/rosset-nocpes.github.io",
+    "owner": {
+        "username": "rosset-nocpes",
+        "email": "rosset.nocpes@skiff.com",
+        "twitter": "CoderPY4",
+        "discord": "rosset.nocpes"
+    },
+    "record": {
+        "CNAME": "rosset-nocpes.github.io"
+    }
+}
