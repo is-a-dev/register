@@ -1,7 +1,11 @@
 {
+    "description": "Personal website with useful links",
+    "repo": "https://github.com/avipars/avipars.github.io",
     "owner": {
         "username": "avipars",
-        "email": "avi.pars@gmail.com"
+        "email": "isdev@aviparshan.com",
+        "twitter": "aviinfinity",
+        
     },
     "record": {
         "CNAME": "avipars.github.io"
