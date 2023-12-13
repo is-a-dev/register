@@ -1,1 +1,12 @@
+{
+  "owner": {
+    "username": "cainmarcus",
+    "email": "marcusgcain@gmail.com"
+  }
+},
 
+{
+  "record": {
+    "CNAME": "pages.cainmarcus.codeberg.page"
+  }
+}
