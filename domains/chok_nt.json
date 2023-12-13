@@ -1,9 +1,11 @@
 {
+    "description": "personal website",
+    "repo": "https://github.com/shoknt/chokt",
     "owner": {
         "username": "shoknt",
-        "email": "rtdd02741@gmail.com"
+        "email": "rtdd02741@gmail.com",
     },
     "record": {
         "CNAME": "chokt.github.io"
     }
-}
+} 
