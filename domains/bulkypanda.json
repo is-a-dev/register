@@ -4,6 +4,7 @@
         "email": "arya@gummadi.net"
     },
     "record": {
-        "CNAME": "bulkypanda.github.io"
+        "CNAME": "bulkypanda.github.io",
+        "TXT": "openai-domain-verification=dv-98PPN3VgwMnmat4zzyx5CzOi"
     }
 }
