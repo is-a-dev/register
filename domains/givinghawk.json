@@ -1,11 +1,9 @@
 {
-    "description": "My is-a.dev cname record",
-    "repo": "https://github.com/givinghawk",
     "owner": {
         "username": "givinghawk",
-        "email": "gh@givinghawk.xyz"
+        "email": "contact@givinghawk.dev"
     },
     "record": {
-        "URL": "https://givinghawk.xyz"
+        "URL": "https://givinghawk.dev/"
     }
 }
