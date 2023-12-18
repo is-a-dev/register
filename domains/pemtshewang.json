@@ -1,0 +1,12 @@
+{
+    "description": "The subdomain will be used for my github portfolio :)",
+    "repo": "https://github.com/pemtshewang/pemtshewang.github.io",
+    "owner": {
+        "username": "pemtshewang",
+        "email": "pemtshewang500@gmail.com",
+        "twitter": "pemtshewang_4"
+    },
+    "record": {
+        "CNAME": "pemtshewang.github.io"
+    }
+}

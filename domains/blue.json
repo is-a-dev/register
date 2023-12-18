@@ -1,12 +1,11 @@
 {
-  "description": "A newbie Python developer who wants to learn more about web design and Python development.",
-  "repo": "https://github.com/Jimmy-Blue/jimmy-blue.github.io",
-  "owner": {
-    "username": "Jimmy-Blue",
-    "email": "ngolong1396@hotmail.com",
-    "twitter": "https://twitter.com/JimmyBlue00"
-  },
-  "record": {
-    "CNAME": "jimmy-blue.github.io"
-  }
+    "owner": {
+        "username": "B1ue-Dev",
+        "email": "ngolong1396@hotmail.com"
+    },
+    "record": {
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+    }
 }

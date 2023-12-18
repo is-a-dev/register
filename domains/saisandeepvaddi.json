@@ -1,10 +1,10 @@
 {
-  "description": "Sai Sandeep Vaddi's website",
-  "owner": {
-    "username": "saisandeepvaddi",
-    "email": "saisandeepvaddi@gmail.com"
-  },
-  "record": {
-    "A": ["104.198.14.52"]
-  }
+    "description": "Sai Sandeep Vaddi's website",
+    "owner": {
+        "username": "saisandeepvaddi",
+        "email": "saisandeepvaddi@gmail.com"
+    },
+    "record": {
+        "A": ["104.198.14.52"]
+    }
 }

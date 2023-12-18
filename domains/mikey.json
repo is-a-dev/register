@@ -1,12 +1,11 @@
 {
-  "description": "A young full-stack developer who loves Python!",
-  "repo": "https://github.com/isigebengu-mikey/isigebengu-mikey.github.io",
-  "owner": {
-    "username": "isigebengu-mikey",
-    "email": "mikey@mikeyo.ml",
-    "twitter": ""
-  },
-  "record": {
-    "CNAME": "isigebengu-mikey.github.io"
-  }
+    "description": "A young full-stack developer who loves Python!",
+    "repo": "https://github.com/isigebengu-mikey/isigebengu-mikey.github.io",
+    "owner": {
+        "username": "isigebengu-mikey",
+        "email": "mikey@mikeyo.ml"
+    },
+    "record": {
+        "CNAME": "isigebengu-mikey.github.io"
+    }
 }

@@ -1,0 +1,12 @@
+{
+    "description": "Javier Zaleta's personal website",
+    "repo": "https://github.com/jzaleta/jzaleta",
+    "owner": {
+        "username": "jzaleta",
+        "email": "",
+        "twitter": "j_cordz"
+    },
+    "record": {
+        "CNAME": "jzaleta.github.io"
+    }
+}

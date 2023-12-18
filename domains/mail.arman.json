@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "arman",
+        "github": "ItzArman09",
+        "email": "contact@mail.arman.is-a.dev"
+    },
+    "repo": "https://github.com/ItzArman09/mail.git",
+    "record": {
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
+}
