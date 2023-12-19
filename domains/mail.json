@@ -1,12 +1,12 @@
 {
-        "owner": {
-           "username": "andrewstech",
-           "email": "andrew@maintainers.is-a.dev",
-           "discord": "598245488977903688"
-        },
-    
-        "record": {
-            "A": ["51.161.54.164"]
-        }
+    "owner": {
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
+    },
+
+    "record": {
+        "A": ["51.161.54.164"],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
-    
+}
