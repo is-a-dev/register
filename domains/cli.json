@@ -1,10 +1,10 @@
 {
     "owner": {
-        "username": "WilliamDavidHarrison",
-        "email": "william@williamharrison.dev"
+        "username": "is-a-dev",
+        "email": "phenax5@gmail.com"
     },
 
     "record": {
-        "CNAME": "wdhdns.com"
+        "URL": "https://npmjs.com/@is-a-dev/cli"
     }
 }

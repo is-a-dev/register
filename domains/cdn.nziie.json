@@ -6,6 +6,6 @@
         "email": "exeyst@gmail.com"
     },
     "record": {
-        "A": ["104.196.232.237"]
+        "CNAME": "edge.redirect.pizza"
     }
 }

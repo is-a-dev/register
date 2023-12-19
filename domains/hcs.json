@@ -1,13 +1,9 @@
 {
-  "description": "Personal Page",
-  "repo": "http://dono-01.danbot.host:1485",
-  "owner": {
-    "username": "hcs1219",
-    "email": "hcskaiask@gmail.com"
-  },
-  "record": {
-    "A": [
-      "164.132.74.251"
-    ]
-  }
+    "owner": {
+        "username": "hcs1219",
+        "email": "hcskaiask@gmail.com"
+    },
+    "record": {
+        "CNAME": "hcs1219.github.io"
+    }
 }

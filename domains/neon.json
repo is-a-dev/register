@@ -3,10 +3,13 @@
     "repo": "https://github.com/GoodBoyNeon/goodboyneon.github.io",
     "owner": {
         "username": "GoodBoyNeon",
-        "discord": "GoodBoyNeon#2424",
-        "email": ""
+        "discord": "neonthedeveloper",
+        "twitter": "NeonTheNerd",
+        "email": "goodboyneon03@gmail.com"
     },
     "record": {
-        "CNAME": "goodboyneon.github.io"
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 }

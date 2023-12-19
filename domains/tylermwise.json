@@ -1,0 +1,10 @@
+{
+    "description": "tylermwise.is-a.dev domain",
+    "owner": {
+      "username": "tylermwise",
+      "email": "contact@teamtbm.org"
+    },
+    "record": {
+       "CNAME": "tylermwise.github.io"
+    }
+  }

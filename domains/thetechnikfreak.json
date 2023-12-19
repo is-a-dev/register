@@ -5,6 +5,7 @@
         "discord": "TheTechnikFreak#3314"
     },
     "record": {
-        "CNAME": "cname.short.io"
+        "A": ["52.21.33.16", "18.184.197.212"],
+        "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"]
     }
 }
