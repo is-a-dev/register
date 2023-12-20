@@ -7,12 +7,6 @@
     "record": {
         "A": [
             "84.46.245.191"
-        ],
-        "MX": [
-            "mail.is-a.dev"
-        ],
-        "TXT": [
-            "v=spf1 mx a:mail.is-a.dev ~all"
         ]
     }
 }
