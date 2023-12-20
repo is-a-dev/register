@@ -2,7 +2,7 @@
     "description": "EnderPoint's mail",
     "owner": {
         "username": "EnderPoint07",
-        "discord": "DotM38#5497",
+        "discord": "DotM38#5497"
     },
     "record": {
             "MX": ["mail.is-a.dev"],
