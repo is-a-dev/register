@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "EdwardTheLegend",
         "email": "edward@edwardtlowe.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "edwardthelegend.github.io"
-      }
     }
-  
+}

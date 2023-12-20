@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "boris1993",
-    "email": "boris1993@live.cn"
-  },
-  "description": "boris1993.is-a.dev",
-  "record": {
-    "CNAME": "boris1993.github.io"
-  }
+    "owner": {
+        "username": "boris1993",
+        "email": "boris1993@live.cn"
+    },
+    "description": "boris1993.is-a.dev",
+    "record": {
+        "CNAME": "boris1993.github.io"
+    }
 }

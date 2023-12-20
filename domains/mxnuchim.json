@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "mxnuchim",
         "email": "manuchimoliver779@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "URL": "https://manuchimoliver.vercel.app"
-      }
     }
-  
+}

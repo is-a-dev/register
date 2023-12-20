@@ -1,12 +1,9 @@
 {
-  "description": "An average developer's blog",
-  "repo": "https://github.com/AverageHelper/AverageHelper.github.io",
-  "owner": {
-    "username": "AverageHelper",
-    "email": "avghelper.5fh6g@simplelogin.co",
-    "twitter": "avghelper"
-  },
-  "record": {
-    "URL": "https://averagehelper.github.io"
-  }
+    "owner": {
+        "username": "AverageHelper",
+        "email": "avghelper.5fh6g@simplelogin.co"
+    },
+    "record": {
+        "URL": "https://average.name"
+    }
 }

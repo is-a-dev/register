@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "hafidu",
         "email": "mochammad.hafidu@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "hafidu.github.io"
-      }
     }
-  
+}

@@ -1,11 +1,11 @@
 {
-  "description": "Personal Portfolio",
-  "repo": "https://github.com/irfanbacker/irfanbacker.github.io",
-  "owner": {
-    "username": "irfanbacker",
-    "email": "irfuvk@gmail.com"
-  },
-  "record": {
-    "CNAME": "irfanbacker.github.io"
-  }
+    "description": "Personal Portfolio",
+    "repo": "https://github.com/irfanbacker/irfanbacker.github.io",
+    "owner": {
+        "username": "irfanbacker",
+        "email": "irfuvk@gmail.com"
+    },
+    "record": {
+        "CNAME": "irfanbacker.github.io"
+    }
 }

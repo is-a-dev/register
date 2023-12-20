@@ -1,11 +1,10 @@
-    {
-      "owner": {
+{
+    "owner": {
         "username": "TYP3D",
         "email": "typedmod2@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "typedonline.github.io"
-      }
     }
-  
+}

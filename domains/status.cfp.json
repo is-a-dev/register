@@ -1,11 +1,11 @@
 {
-	"description": "Cfp Status",
-	"owner": {
-		"username": "cfpwastaken",
-		"email": "",
-		"discord": "cfp#7174"
-	},
-	"record": {
-		"CNAME": "cfp.gotdns.ch"
-	}
+    "description": "Cfp Status",
+    "owner": {
+        "username": "cfpwastaken",
+        "email": "",
+        "discord": "cfp"
+    },
+    "record": {
+        "CNAME": "cfp.gotdns.ch"
+    }
 }

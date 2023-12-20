@@ -1,10 +1,10 @@
 {
-  "description": "Personal page of Serzhan Nasredin",
-  "owner": {
-    "username": "snxx-lppxx",
-    "email": "snxx.lppxx@gmail.com"
-  },
-  "record": {
-    "CNAME": "snxx-lppxx.github.io"
-  }
+    "description": "Personal page of Serzhan Nasredin",
+    "owner": {
+        "username": "snxx-lppxx",
+        "email": "snxx.lppxx@gmail.com"
+    },
+    "record": {
+        "CNAME": "snxx-lppxx.github.io"
+    }
 }

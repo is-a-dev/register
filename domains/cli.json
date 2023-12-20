@@ -1,9 +1,10 @@
 {
     "owner": {
-        "username": "@is-a-dev/maintainers",
+        "username": "is-a-dev",
         "email": "phenax5@gmail.com"
     },
+
     "record": {
-        "CNAME": "andrewstech.github.io"
+        "URL": "https://npmjs.com/@is-a-dev/cli"
     }
 }

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "boomerangBS",
         "email": "boomerang1803@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "8de1bbe8-ffbb-4e58-a688-bb332d498d06.id.repl.co"
-      }
     }
-      
+}

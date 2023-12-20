@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Maia313",
         "email": "medeea@rocketmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "theresonance.com"
-      }
     }
-    
+}

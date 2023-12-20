@@ -1,10 +1,10 @@
 {
-  "description": "Official Website for Larry Studios™",
-  "owner": {
-    "username": "kornls",
-    "email": "larryst.korn@gmail.com"
-  },
-  "record": {
-    "CNAME": "larrystudios.github.io"
-  }
+    "description": "Official Website for Larry Studios™",
+    "owner": {
+        "username": "kornls",
+        "email": "larryst.korn@gmail.com"
+    },
+    "record": {
+        "CNAME": "larrystudios.github.io"
+    }
 }

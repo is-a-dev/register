@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "ImLasiya",
         "email": "senash@darktsysl.onmicrosoft.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "imlasiya.github.io"
-      }
     }
-  
+}

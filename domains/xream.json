@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "xream",
         "email": "xreamxu@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "A": ["150.230.219.72"]
-      }
     }
-  
+}

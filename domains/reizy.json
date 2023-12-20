@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "P0rc0D10",
         "email": "grazioligiuliano52@gmail.com"
-      },
-      "record": {
-        "URL": "https://reizy.eu"
-      }
+    },
+    "record": {
+        "CNAME": "hosts.is-a.dev"
     }
-      
+}

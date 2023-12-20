@@ -1,0 +1,12 @@
+{
+    "description": "Personal Website / Portfolio",
+    "repo": "https://github.com/cabrothers/error404",
+    "owner": {
+        "username": "Cabrothers",
+        "email": "",
+        "discord": "err404code"
+    },
+    "record": {
+        "CNAME": "cabrothers.github.io"
+    }
+}

@@ -1,11 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "kmr-varun",
         "email": "kmr11varun@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "kmr-varun.github.io"
-      }
     }
+}

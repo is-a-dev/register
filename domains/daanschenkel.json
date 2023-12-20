@@ -1,12 +1,9 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "daanschenkel",
         "email": "daan@daanschenkel.nl"
-      },
-
-      "record": {
+    },
+    "record": {
         "URL": "https://daanschenkel.nl"
-      }
     }
-  
+}

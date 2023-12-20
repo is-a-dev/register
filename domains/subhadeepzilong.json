@@ -2,12 +2,11 @@
     "description": "SubhadeepZilong's personal developer website",
     "repo": "https://github.com/SubhadeepZilong/subhadeepzilong.github.io",
     "owner": {
-      "username": "SubhadeepZilong",
-      "email": "subhadeepchakraborty555@gmail.com",
-      "twitter": "subhadeepzilong"
+        "username": "SubhadeepZilong",
+        "email": "subhadeepchakraborty555@gmail.com",
+        "twitter": "subhadeepzilong"
     },
     "record": {
-      "CNAME": "subhadeepzilong.github.io"
+        "CNAME": "subhadeepzilong.github.io"
     }
-  }
-  
+}

@@ -1,11 +1,11 @@
 {
-  "description": "victoneux's personal dev site",
-  "repo": "https://github.com/Victoneux/victoneux.github.io",
-  "owner": {
-    "username": "Victoneux",
-    "email": "victoneux@protonmail.com"
-  },
-  "record": {
-    "CNAME": "victoneux.github.io"
-  }
+    "description": "victoneux's personal dev site",
+    "repo": "https://github.com/Victoneux/victoneux.github.io",
+    "owner": {
+        "username": "Victoneux",
+        "email": "victoneux@protonmail.com"
+    },
+    "record": {
+        "CNAME": "victoneux.github.io"
+    }
 }

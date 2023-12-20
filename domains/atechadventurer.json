@@ -1,11 +1,11 @@
 {
-  "description": "ATechAdventurer's Site",
-  "repo": "https://github.com/ATechAdventurer",
-  "owner": {
-    "username": "ATechAdventurer",
-    "email": "cam.steeleis@gmail.com"
-  },
-  "record": {
-    "URL": "https://github.com/ATechAdventurer"
-  }
+    "description": "ATechAdventurer's Site",
+    "repo": "https://github.com/ATechAdventurer",
+    "owner": {
+        "username": "ATechAdventurer",
+        "email": "cam.steeleis@gmail.com"
+    },
+    "record": {
+        "URL": "https://github.com/ATechAdventurer"
+    }
 }

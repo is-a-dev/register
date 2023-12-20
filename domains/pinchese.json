@@ -1,11 +1,11 @@
 {
-  "description": "a website and portfolio for me and my projects",
-  "repo": "https://github.com/pinchese/pinchese.github.io",
-  "owner": {
-    "username": "pinchese",
-    "email": "pinchese@protonmail.com"
-  },
-  "record": {
-    "CNAME": "pinchese.github.io"
-  }
+    "description": "a website and portfolio for me and my projects",
+    "repo": "https://github.com/pinchese/pinchese.github.io",
+    "owner": {
+        "username": "pinchese",
+        "email": "pinchese@protonmail.com"
+    },
+    "record": {
+        "CNAME": "pinchese.github.io"
+    }
 }

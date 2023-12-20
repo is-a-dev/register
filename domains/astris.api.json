@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "rherlydev",
+        "email": "142740981+rherlydev@users.noreply.github.com",
+        "note": "This record was created by is-a.dev Discord bot via discord id: 948965718794330153"
+    },
+
+    "record": {
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=rherlydev@proton.me"
+
+    }
+}
