@@ -1,12 +1,13 @@
 {
     "owner": {
         "username": "olivi-r",
-        "email": "olivia.r.dev@gmail.com"
+        "email": "olivia.r.dev@gmail.com",
+        "discord": "723626729247342662"
     },
     "record": {
         "A": ["217.174.245.249"],
         "AAAA": ["2a00:da00:1800:83a4::1"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 include:spf.improvmx.com ~all"
     }
 }
