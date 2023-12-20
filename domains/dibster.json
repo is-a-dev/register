@@ -6,6 +6,6 @@
         "twitter": "DEV_DIBSTER"
     },
     "record": {
-        "A": ["192.95.42.66"]
+        "CNAME": "proxy.dib.localplayer.dev"
     }
 }

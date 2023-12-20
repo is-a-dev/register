@@ -1,11 +1,12 @@
 {
-    "description": "Ansh's personal website",
-    "repo": "https://github.com/anshtyagi0",
     "owner": {
-        "username": "anshtyagi0",
-        "email": "tyagiansh175@gmail.com"
+        "username": "ansh04196",
+        "email": "anshchouksey08@gmail.com"
     },
     "record": {
-        "CNAME": "anshtyagi.me"
+        "A": ["217.174.245.249"],
+        "AAAA": ["2a00:da00:1800:83a4::1"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }

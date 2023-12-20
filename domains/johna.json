@@ -6,6 +6,6 @@
         "email": "j-verstraaten@hotmail.com"
     },
     "record": {
-        "A": ["34.120.54.55"]
+        "CNAME": "johna.pages.dev"
     }
-} 
+}

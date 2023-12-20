@@ -1,0 +1,11 @@
+{
+    "description": "efrecon's blog",
+    "repo": "https://github.com/efrecon/efrecon.github.io",
+    "owner": {
+        "username": "efrecon",
+        "email": "efrecon+github@gmail.com"
+    },
+    "record": {
+        "CNAME": "efrecon.github.io"
+    }
+} 

@@ -6,6 +6,8 @@
         "email": "contact@anonym-dev.tk"
     },
     "record": {
-        "CNAME": "anondev.up.railway.app"
+        "A": ["216.24.57.1"],
+        "MX": ["4e7b2afdee66dc77.mx1.emailprofi.seznam.cz", "4e7b2afdee66dc77.mx2.emailprofi.seznam.cz"],
+        "TXT": "v=spf1 include:spf.seznam.cz ~all"
     }
 }
