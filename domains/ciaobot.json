@@ -9,9 +9,8 @@
             "84.46.245.191"
         ],
         "MX": [
-            "mx1.improvmx.com",
-            "mx2.improvmx.com"
+            "mail.is-a.dev"
         ],
-       "TXT": "v=spf1 include:spf.improvmx.com ~all"
+       "TXT": "v=spf1 include:mail.is-a.dev ~all"
     }
 }
