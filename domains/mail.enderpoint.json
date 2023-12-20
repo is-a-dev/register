@@ -2,9 +2,7 @@
     "description": "EnderPoint's mail",
     "owner": {
         "username": "EnderPoint07",
-        "email": "",
         "discord": "DotM38#5497",
-        "instagram": "enderpoint07"
     },
     "record": {
             "MX": ["mail.is-a.dev"],
