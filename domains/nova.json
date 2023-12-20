@@ -1,11 +1,12 @@
 {
-    "description": "nova.is-a.dev",
     "owner": {
-        "username": "LunarN0v4",
-        "email": "zeus@zeusteam.dev",
-        "discord": "lunarn0v4"
+        "username": "sexy-bullet",
+        "email": "e4nbullet@protonmail.com"
     },
     "record": {
-        "A": ["170.39.215.45"]
+        "A": ["217.174.245.249"],
+        "AAAA": ["2a00:da00:1800:83a4::1"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }

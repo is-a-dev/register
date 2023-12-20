@@ -4,6 +4,8 @@
         "email": "vs423502@gmail.com"
     },
     "record": {
-        "URL": "https://github.com/vikramv20/dynamic-homepage"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
