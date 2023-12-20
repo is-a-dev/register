@@ -1,11 +1,11 @@
 {
-	"description": "Takase's personal website",
-	"repo": "https://github.com/takase1121/takase1121.github.io",
-	"owner": {
-		"username": "takase1121",
-		"email": "takase1121@proton.me"
-	},
-	"record": {
-		"CNAME": "takase1121.github.io"
-	}
+    "description": "Takase's personal website",
+    "repo": "https://github.com/takase1121/takase1121.github.io",
+    "owner": {
+        "username": "takase1121",
+        "email": "takase1121@proton.me"
+    },
+    "record": {
+        "CNAME": "takase1121.github.io"
+    }
 }

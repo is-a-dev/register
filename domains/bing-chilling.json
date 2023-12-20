@@ -1,10 +1,10 @@
 {
     "owner": {
-       "username": "TheUnium",
-       "email": "ooooooooooooothereal@gmail.com"
-   },
+        "username": "TheUnium",
+        "email": "ooooooooooooothereal@gmail.com"
+    },
 
-   "record": {
-       "CNAME": "theunium.github.io"
-   }
+    "record": {
+        "CNAME": "theunium.github.io"
+    }
 }
