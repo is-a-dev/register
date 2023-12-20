@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "SHays24",
-        "email": "SHays24@student.sacs.nsw.edu.au"
+        "email": "shays24@student.sacs.nsw.edu.au"
     },
     "record": {
-        "CNAME": "the-meerkats-projects-shays24-90484013ec4c0067187cd3a154c706ad6.gitlab.io"
+        "CNAME": "the-meerkats-projects-shays24-90484013ec4c0067187cd3a154c706ad6.gitlab.io",
+        "TXT": "gitlab-pages-verification-code=00296b7edb3f68b7fc695a2cba328169"
     }
 }
