@@ -1,12 +1,12 @@
 {
-  "description": "docs for my lib, nc-ext-activities",
-  "repo": "https://github.com/MaskDuck/nextcord-ext-activities",
-  "owner": {
-    "username": "MaskDuck",
-    "twitter": "MaskDuck1",
-    "email": ""
-  },
-  "record": {
-    "CNAME": "readthedocs.io"
-  }
+    "description": "docs for my lib, nc-ext-activities",
+    "repo": "https://github.com/MaskDuck/nextcord-ext-activities",
+    "owner": {
+        "username": "MaskDuck",
+        "twitter": "MaskDuck1",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "readthedocs.io"
+    }
 }

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "michioxd",
         "email": "michio.haiyaku@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "michioxd.github.io"
-      }
     }
-      
+}

@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "Spaxly",
+        "email": "ohmrc2545@gmail.com",
+        "discord": "569920282546929694"
+    },
+
+    "record": {
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+
+        "TXT": "forward-email=ohmrc2545@gmail.com"
+    }
+}

@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "Sudo-null7",
         "email": "philippeparr38@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "null.parr.lol"
-      }
     }
-      
+}

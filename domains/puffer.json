@@ -1,12 +1,12 @@
 {
-  "description": "My website!",
-  "repo": "https://github.com/kevinalavik/kevinalavik.github.io",
-  "owner": {
-      "username": "kevinalavik",
-      "email": "kevin.alavik@icloud.com",
-      "twitter": "pufferisadev"
-  },
-  "record": {
-      "CNAME": "kevinalavik.github.io"
-  }
-} 
+    "description": "My website!",
+    "repo": "https://github.com/kevinalavik/kevinalavik.github.io",
+    "owner": {
+        "username": "kevinalavik",
+        "email": "kevin.alavik@icloud.com",
+        "twitter": "pufferisadev"
+    },
+    "record": {
+        "CNAME": "kevinalavik.github.io"
+    }
+}

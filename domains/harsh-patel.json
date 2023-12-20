@@ -1,11 +1,11 @@
 {
-  "description": "Harsh's website",
-  "repo": "https://github.com/harshpat/harshpat.github.io",
-  "owner": {
-    "username": "harshpat",
-    "email": "patel.harsh28@gmail.com"
-  },
-  "record": {
-    "CNAME": "harshpat.github.io"
-  }
+    "description": "Harsh's website",
+    "repo": "https://github.com/harshpat/harshpat.github.io",
+    "owner": {
+        "username": "harshpat",
+        "email": "patel.harsh28@gmail.com"
+    },
+    "record": {
+        "CNAME": "harshpat.github.io"
+    }
 }

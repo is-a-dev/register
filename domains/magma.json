@@ -1,11 +1,11 @@
 {
-  "description": "magma's personal developer profile",
-  "repo": "https://github.com/mgam-is-dreamin",
-  "owner": {
-    "username": "mgam-is-dreamin",
-    "email": "sacred.lunar.dragon@gmail.com"
-  },
-  "record": {
-    "CNAME": "mgam-is-dreamin.github.io"
-  }
+    "description": "magma's personal developer profile",
+    "repo": "https://github.com/mgam-is-dreamin",
+    "owner": {
+        "username": "mgam-is-dreamin",
+        "email": "sacred.lunar.dragon@gmail.com"
+    },
+    "record": {
+        "CNAME": "mgam-is-dreamin.github.io"
+    }
 }

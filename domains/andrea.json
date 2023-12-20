@@ -1,11 +1,11 @@
 {
-  "description": "Personal site",
-  "repo": "https://github.com/andrea-capigiri/",
-  "owner": {
-    "username": "andrea-capigiri",
-    "email": "uadopo+isadev@pm.me"
-  },
-  "record": {
-    "A": ["212.237.38.154"]
-  }
+    "description": "Personal site",
+    "repo": "https://github.com/andrea-capigiri",
+    "owner": {
+        "username": "andrea-capigiri",
+        "email": "uadopo+isadev@pm.me"
+    },
+    "record": {
+        "A": ["212.237.38.154"]
+    }
 }

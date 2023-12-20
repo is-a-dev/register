@@ -1,12 +1,12 @@
 {
-  "description": "bartoszm77.is-a.dev",
-  "repo": "https://github.com/b2rt0szm77/b2rt0szm77.github.io",
-  "owner": {
-    "username": "bartoszm77",
-    "email": "",
-    "discord": "bartoszm77#3458"
-  },
-  "record": {
-    "CNAME": "b2rt0szm77.github.io"
+    "description": "bartoszm77.is-a.dev",
+    "repo": "https://github.com/b2rt0szm77/b2rt0szm77.github.io",
+    "owner": {
+        "username": "bartoszm77",
+        "email": "",
+        "discord": "bartoszm77#3458"
+    },
+    "record": {
+        "CNAME": "b2rt0szm77.github.io"
     }
 }

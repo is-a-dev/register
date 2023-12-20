@@ -1,12 +1,12 @@
 {
-  "description": "Chloe's is-a-dev domain",
-  "repo": "https://github.com/chloeashlyn",
-  "owner": {
-    "username": "chloeashlyn",
-    "email": "",
-    "discord": "chloeashlyn#7272"
-  },
-  "record": {
-    "URL": "https://chloeashlyn.vercel.app"
-  }
+    "description": "Chloe's is-a-dev domain",
+    "repo": "https://github.com/chloeashlyn",
+    "owner": {
+        "username": "chloeashlyn",
+        "email": "",
+        "discord": "chloeashlyn#7272"
+    },
+    "record": {
+        "URL": "https://chloeashlyn.vercel.app"
+    }
 }

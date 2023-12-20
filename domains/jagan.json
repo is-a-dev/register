@@ -1,11 +1,11 @@
 {
-  "description": "My Personal Website.",
-  "repo": "https://github.com/MR-JAGANMOHAN/MR-JAGANMOHAN.github.io",
-  "owner": {
-    "username": "MR-JAGANMOHAN",
-    "email": "jaganpenke124@gmail.com"
-  },
-  "record": {
-    "CNAME": "mr-jaganmohan.github.io"
-  }
+    "description": "My Personal Website.",
+    "repo": "https://github.com/MR-JAGANMOHAN/MR-JAGANMOHAN.github.io",
+    "owner": {
+        "username": "MR-JAGANMOHAN",
+        "email": "jaganpenke124@gmail.com"
+    },
+    "record": {
+        "CNAME": "mr-jaganmohan.github.io"
+    }
 }

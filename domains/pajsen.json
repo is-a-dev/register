@@ -1,11 +1,11 @@
 {
-  "description": "Pajsen's developer website",
-  "repo": "https://github.com/pajsen-media/pajsen-media.github.io",
-  "owner": {
-    "username": "Pajsen9263",
-    "email": "admin@cybercore.gq"
-  },
-  "record": {
-    "CNAME": "pajsen-media.github.io"
-  }
+    "description": "Pajsen's developer website",
+    "repo": "https://github.com/pajsen-media/pajsen-media.github.io",
+    "owner": {
+        "username": "Pajsen9263",
+        "email": "admin@cybercore.gq"
+    },
+    "record": {
+        "CNAME": "pajsen-media.github.io"
+    }
 }

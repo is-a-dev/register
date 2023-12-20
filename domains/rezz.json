@@ -1,11 +1,11 @@
 {
-  "repo": "https://github.com/RezzedUp",
-  "owner": {
-    "username": "RezzedUp",
-    "email": "",
-    "twitter": "RezzedUp"
-  },
-  "record": {
-    "URL": "https://rezzedup.com"
-  }
+    "repo": "https://github.com/RezzedUp",
+    "owner": {
+        "username": "RezzedUp",
+        "email": "",
+        "twitter": "RezzedUp"
+    },
+    "record": {
+        "URL": "https://rezzedup.com"
+    }
 }

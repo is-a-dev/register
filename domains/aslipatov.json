@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "LipatovAlexander",
         "email": "lipatov.work@bk.ru"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "lipatovalexander.github.io"
-      }
     }
-      
+}

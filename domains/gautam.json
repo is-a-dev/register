@@ -1,10 +1,12 @@
 {
-  "owner": {
-    "username": "GautamMKGarg",
-    "email": "",
-    "twitter": "GautamMKGarg"
-  },
-  "record": {
-    "URL": "https://www.fiverr.com/gautammkgarg"
-  }
+    "owner": {
+        "username": "coderGtm",
+        "email": "gautammehta0000@gmail.com"
+    },
+    "record": {
+        "A": ["217.174.245.249"],
+        "AAAA": ["2a00:da00:1800:83a4::1"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+    }
 }

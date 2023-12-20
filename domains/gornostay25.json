@@ -1,17 +1,11 @@
 {
-   "owner":{
-      "username":"gornostay25",
-      "email":"me@gornostay25.is-a.dev"
-   },
-   "record":{
-      "A":[
-         "172.66.46.227",
-         "172.66.45.29"
-      ],
-      "TXT":"v=spf1 include:spf.improvmx.com ~all",
-      "MX":[
-         "mx1.improvmx.com",
-         "mx2.improvmx.com"
-      ]
-   }
+    "owner": {
+        "username": "gornostay25",
+        "email": "me@gornostay25.is-a.dev"
+    },
+    "record": {
+        "A": ["172.66.46.227", "172.66.45.29"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all",
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
+    }
 }

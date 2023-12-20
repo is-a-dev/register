@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "zkimi",
         "email": "timothee.lefebvre@edu.esiee.fr"
-      },
-      "record": {
+    },
+    "record": {
         "URL": "https://timotheelefebvre.fr"
-      }
     }
-      
+}
