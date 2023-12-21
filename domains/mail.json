@@ -6,10 +6,7 @@
 
     "record": {
         "A": ["51.161.54.164"],
-        "MX": ["mx1.forwardemail.net"],
-        "TXT": [
-            "forward-email=andrew@win11react.com",
-            "google-site-verification=pcSxUAiBwhvh9AVBbSSkKZovjsUFZzMgnh3q6XfGe1E"
-        ]
+        "MX": ["mail.is-a.dev"],
+        "TXT": "google-site-verification=pcSxUAiBwhvh9AVBbSSkKZovjsUFZzMgnh3q6XfGe1E"
     }
 }
