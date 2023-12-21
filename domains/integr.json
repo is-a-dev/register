@@ -1,6 +1,6 @@
 {
     "description": "Personal Page",
-    "repo": "https://github.com/Integr-0/Main",
+    "repo": "https://github.com/Integr-0/integr-0.github.io",
     "owner": {
         "username": "Integr-0",
         "email": "erik.reitbauer@outlook.de",
@@ -11,6 +11,6 @@
         "AAAA": ["2a00:da00:1800:83a4::1"],
         "MX": ["hosts.is-a.dev"],
         "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all",
-        "CNAME": "Integr-0.github.io/Main"
+        "CNAME": "integr-0.github.io"
     }
 }
