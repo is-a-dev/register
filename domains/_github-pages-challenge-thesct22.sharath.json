@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "thesct22",
-           "email": "sharathct22@gmail.com"
-        },
-        "record": {
-            "TXT": "1cfa8b70882ea9cdf466e7b40dbe81"
-        }
+    "owner": {
+        "username": "thesct22",
+        "email": "sharathct22@gmail.com"
+    },
+    "record": {
+        "TXT": "1cfa8b70882ea9cdf466e7b40dbe81"
     }
-    
+}

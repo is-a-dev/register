@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "mkshift",
-           "email": "mkshift@tuta.io"
-        },
-        "record": {
-            "CNAME": "mkshift.github.io"
-        }
+    "owner": {
+        "username": "mkshift",
+        "email": "mkshift@tuta.io"
+    },
+    "record": {
+        "CNAME": "mkshift.github.io"
     }
-    
+}

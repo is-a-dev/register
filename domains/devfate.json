@@ -1,10 +1,10 @@
 {
-  "owner":{
-    "username":"blackpandan",
-    "email": "",
-    "twitter": "camzy_l"
-  },
-  "record":{
-    "CNAME":"blackpandan.github.io"
-  }
+    "owner": {
+        "username": "blackpandan",
+        "email": "",
+        "twitter": "camzy_l"
+    },
+    "record": {
+        "CNAME": "blackpandan.github.io"
+    }
 }

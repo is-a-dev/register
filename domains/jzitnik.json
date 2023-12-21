@@ -5,12 +5,7 @@
         "discord": "KLIND#1906"
     },
     "record": {
-        "A": [
-            "216.24.57.1"
-        ],
-        "MX": [
-            "a257fec0e9137cd3.mx2.emailprofi.seznam.cz",
-            "a257fec0e9137cd3.mx1.emailprofi.seznam.cz"
-        ]
+        "A": ["216.24.57.1"],
+        "MX": ["a257fec0e9137cd3.mx2.emailprofi.seznam.cz", "a257fec0e9137cd3.mx1.emailprofi.seznam.cz"]
     }
 }

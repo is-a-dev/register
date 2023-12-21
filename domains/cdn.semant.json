@@ -1,11 +1,10 @@
 {
-    "repo": "https://github.com/SemantCodes/cdn",
     "description": "My static database",
     "owner": {
         "username": "s3mant",
         "email": "contact@semant.is-a.dev"
     },
     "record": {
-        "CNAME": "0b68d425-3b0b-47fc-bd21-66c73ba1cf15.id.repl.co"
+        "CNAME": "web-0wfb.onrender.com"
     }
 }
