@@ -1,0 +1,11 @@
+{
+    "description": "Domain for my personal blog",
+    "repo": "https://github.com/Online13/Online13.github.io",
+    "owner": {
+        "username": "Online13",
+        "email": "Rratiarivelo@gmail.com"
+    },
+    "record": {
+        "CNAME":"online13.github.io"
+    }
+}

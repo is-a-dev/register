@@ -1,11 +1,9 @@
 {
     "owner": {
-        "username": "qyful",
-        "email": "",
-        "twitter": "Qyful",
-        "discord": "Qyful#1800"
+        "username": "hxntaish",
+        "email": "juliettepoisson3@gmail.com"
     },
     "record": {
-        "CNAME": "cb41d586-dc17-4f5d-b336-2c93504644e4.id.repl.co"
+        "A": ["185.171.202.187"]
     }
 }
