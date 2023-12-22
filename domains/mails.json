@@ -6,7 +6,8 @@
         },
     
         "record": {
-            "MX": ["mail.is-a.dev"]
+            "MX": ["mail.is-a.dev"],
+            "A": ["51.161.54.164"]
         }
     }
     
