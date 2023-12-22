@@ -1,0 +1,11 @@
+{
+    "description": "Tejas' personal is-a.dev site",
+    "repo": "https://github.com/tejas-luthra/tejas-luthra.github.io",
+    "owner": {
+        "username": "tejas-luthra",
+        "email": "tejasluthra3008@gmail.com"
+    },
+    "record": {
+        "CNAME": "tejas-luthra.github.io"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "description": "Johan's personal developer website",
+    "repo": "https://github.com/JohanSanSebastian.github.io",
+    "owner": {
+        "username": "JohanSanSebastian",
+        "email": "johansanju06@gmail.com"
+    },
+    "record": {
+        "CNAME": "JohanSanSebastian.github.io"
+    }
+}

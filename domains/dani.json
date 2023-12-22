@@ -1,0 +1,12 @@
+{
+    "description": "Danidev's Website",
+    "repo": "https://github.com/Danidev819/danidev819.github.io",
+    "owner": {
+        "username": "Danidev819",
+        "email": "danidev82@gmail.com",
+        "twitter": "Danidev819"
+    },
+    "record": {
+        "CNAME": "danidev819.github.io"
+    }
+}

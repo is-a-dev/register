@@ -1,0 +1,10 @@
+{
+    "description": "files.dqmn.is-a.dev - this will be my 'cloud' for files",
+    "owner": {
+        "username": "dqmn",
+        "email": "dqmnbackup@gmail.com"
+    },
+    "record": {
+        "CNAME": "dqmnfiles.000webhostapp.com"
+    }
+}

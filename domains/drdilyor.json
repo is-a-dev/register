@@ -1,0 +1,11 @@
+{
+    "description": "Drdilyor's website and (non-existent) blog",
+    "repo": "https://github.com/drdilyor/drdilyor.github.io",
+    "owner": {
+        "username": "drdilyor",
+        "email": "drdilyor@outlook.com"
+    },
+    "record": {
+        "CNAME": "drdilyor.github.io"
+    }
+}

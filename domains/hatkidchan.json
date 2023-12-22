@@ -1,11 +1,12 @@
 {
-  "description": "Subdomain of Hat Kid!",
-  "repo": "https://github.com/hatkidchan/hatkidchan.github.io",
-  "owner": {
-    "username": "hatkidchan",
-    "email": "hatkidchan@gmail.com"
-  },
-  "record": {
-    "CNAME": "hatkidchan.github.io"
-  }
+    "description": "kc personal website",
+    "owner": {
+        "username": "hatkidchan",
+        "email": "hatkidchan@gmail.com",
+        "twitter": "hatkidchan",
+        "discord": "hkc#0517"
+    },
+    "record": {
+        "A": ["5.181.108.112"]
+    }
 }

@@ -1,0 +1,11 @@
+{
+    "description": "My website",
+    "repo": "https://github.com/Hidden-black/hidden-black.github.io",
+    "owner": {
+        "username": "hidden-black",
+        "email": "shashwatrai_28@outlook.com"
+    },
+    "record": {
+        "CNAME": "hidden-black.github.io"
+    }
+}

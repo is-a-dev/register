@@ -1,0 +1,11 @@
+{
+    "description": "Personal Developer Website",
+    "repo": "https://github.com/KejdiKoci/kejdikoci.github.io",
+    "owner": {
+        "username": "KejdiKoci",
+        "email": "kejdikoci.mail@gmail.com"
+    },
+    "record": {
+        "CNAME": "kejdikoci.github.io"
+    }
+}

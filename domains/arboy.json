@@ -1,0 +1,10 @@
+{
+    "repo": "https://github.com/ARBoyGo/arboygo.github.io",
+    "owner": {
+        "username": "ARBoyGo",
+        "email": "arboygo@duck.com"
+    },
+    "record": {
+        "CNAME": "arboygo.github.io"
+    }
+}

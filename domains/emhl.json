@@ -1,0 +1,11 @@
+{
+    "description": "personal page",
+    "repo": "https://github.com/emhl/emhl.github.io",
+    "owner": {
+        "username": "emhl",
+        "email": "stnr.emil@gmail.com"
+    },
+    "record": {
+        "CNAME": "emhl.github.io"
+    }
+}

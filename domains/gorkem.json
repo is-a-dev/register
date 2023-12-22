@@ -1,0 +1,11 @@
+{
+    "description": "Görkem's Website",
+    "repo": "https://github.com/gorkeem/gorkeem.github.io",
+    "owner": {
+        "username": "gorkeem",
+        "email": "gorkemy000@gmail.com"
+    },
+    "record": {
+        "CNAME": "gorkeem.github.io"
+    }
+}

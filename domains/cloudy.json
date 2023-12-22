@@ -1,0 +1,12 @@
+{
+    "description": "Cloudy's Site",
+    "repo": "https://github.com/cloudysleet/cloudysleet.github.io",
+    "owner": {
+        "username": "Cloudysleet",
+        "email": "cloudzareonsky@gmail.com",
+        "twitter": "cloudysleet"
+    },
+    "record": {
+        "CNAME": "cloudysleet.github.io"
+    }
+}

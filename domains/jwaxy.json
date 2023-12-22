@@ -1,0 +1,11 @@
+{
+    "description": "I want to use this for my personal website.",
+    "repo": "https://github.com/jwaxy/jwaxy.github.io",
+    "owner": {
+        "username": "jwaxy",
+        "email": "me@yxawj.aleeas.com"
+    },
+    "record": {
+        "CNAME": "jwaxy.github.io"
+    }
+}
