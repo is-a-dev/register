@@ -5,7 +5,7 @@
     },
     "record": {
         "A": ["130.162.166.134"],
-        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-        "TXT": "forward-email=phoenixorigin171@gmail.com"
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~include:_spf.google.com ~all"
     }
 }
