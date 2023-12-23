@@ -1,0 +1,12 @@
+{
+    "description": "Can Bacco's page",
+    "repo": "https://github.com/gulumbariscan/gulumbariscan.github.io",
+    "owner": {
+        "username": "gulumbariscan",
+        "email": "gulumbariscan@gmail.com",
+        "twitter": "yoscibacco"
+    },
+    "record": {
+        "CNAME": "canbacco"
+    }
+}
