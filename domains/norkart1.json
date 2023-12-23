@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "norkart1",
+        "email": "navasforwork@gmail.com",
+        "website": "norkart.is-a.dev",
+        "I want this email": "norkart@mail.is-a.dev",
+    },
+    "record": {
+        "CNAME": "personal-website-26y.pages.dev",
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+    }
+}
