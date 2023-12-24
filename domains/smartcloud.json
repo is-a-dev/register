@@ -4,6 +4,8 @@
         "email": "smartcoder@linuxmail.org"
     },
     "record": {
-        "CNAME": "raspberrypi.tail8530e.ts.net"
+        "CNAME": "raspberrypi.tail8530e.ts.net",
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
