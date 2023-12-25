@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "Wizqdev",
-        "email": "prajwal2079@gmail.com"
-    },
-    "record": {
-        "A": ["63.141.249.43"]
+        "owner": {
+           "username": "Wizqdev",
+           "email": "prajwal2079@gmail.com",
+           "discord": "778254181303451658"
+        },
+    
+        "record": {
+            "CNAME": "proxy.private.danbot.host"
+        }
     }
-}
+    
