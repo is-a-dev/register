@@ -1,12 +1,12 @@
 {
+    "description": "Personal Page",
+    "repo": "https://github.com/Integr-0/integr-0.github.io",
     "owner": {
         "username": "Integr-0",
-        "email": "erik.reitbauer@outlook.de"
+        "email": "erik.reitbauer@outlook.de",
+        "discord": "integr_"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "AAAA": ["2a00:da00:1800:83a4::1"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "CNAME": "integr-0.github.io"
     }
 }
