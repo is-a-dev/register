@@ -1,9 +1,11 @@
 {
     "owner": {
         "username": "KrazyKleb",
-        "email": "krazyklebyt@gmail.com"
+        "email": "krazykleb@outlook.com"
     },
     "record": {
-        "CNAME": "proxy.private.danbot.host"
+        "A": ["69.197.129.206"],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
