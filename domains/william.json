@@ -5,6 +5,8 @@
     },
 
     "record": {
-        "CNAME": "hosts.is-a.dev"
+        "A": ["51.161.54.161"],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
