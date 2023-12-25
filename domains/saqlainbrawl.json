@@ -4,6 +4,8 @@
         "email": "saqlainbrawl@gmail.com"
     },
     "record": {
-        "CNAME": "fb2fcda5-aed5-45b1-8aa4-31bc49356ffa.id.repl.co"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }

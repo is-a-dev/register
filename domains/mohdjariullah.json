@@ -1,9 +1,14 @@
 {
     "owner": {
-        "username": "mohdjariullah",
-        "email": "mohdjariullah@gmail.com"
+        "username": "Mohdjariullah",
+        "email": "mohdjariullah@gmail.com",
+        "twitter": "mohdjariullah",
+        "discord": "@jariullah"
     },
     "record": {
-        "CNAME": "fdf28412-bb15-46fb-97b5-e4ea905c949b.id.repl.co"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
+

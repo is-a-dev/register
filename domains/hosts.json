@@ -4,6 +4,9 @@
         "email": "phenax5@gmail.com"
     },
     "record": {
-        "CNAME": "dns.beadman-network.com"
+        "A": ["217.174.245.249"],
+        "TXT": "v=spf1 mx a:mailx.is-a.dev ip4:217.174.245.249 ~all",
+        "MX": ["mailx.is-a.dev"],
+        "AAAA": ["2a00:da00:1800:83a4::1"]
     }
 }
