@@ -1,9 +1,12 @@
 {
+    "description": "Personnal Projects, linktree, pics, code examples, notes, and nightmares.",
+    "repo": "https://github.com/ratedarr/ratedarr.github.io",
     "owner": {
         "username": "ratedarr",
-        "email": "hozefakb@gmail.com"
+        "email": "prefer@notto.com",
+        "twitter": ""
     },
     "record": {
         "CNAME": "ratedarr.github.io"
     }
-}
+} 
