@@ -1,0 +1,18 @@
+{
+    "owner": {
+        "username": "Stef-00012",
+        "email": "admin@stefdp.is-a.dev",
+        "discord": "694986201739952229"
+    },
+    "record": {
+        "A": [
+            "84.46.245.191"
+        ],
+        "MX": [
+            "mail.is-a.dev"
+        ],
+        "TXT": [
+            "v=spf1 mx a:mail.is-a.dev ~all"
+        ]
+    }
+}
