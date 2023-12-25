@@ -4,9 +4,7 @@
         "email": "lopcyorasepele@gmail.com"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "AAAA": ["2a00:da00:1800:83a4::1"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "CNAME": "158bc0df-138b-47bd-a6f7-dadbcb56627b.id.repl.co",
+        "TXT": "replit-verify=158bc0df-138b-47bd-a6f7-dadbcb56627b"
     }
 }
