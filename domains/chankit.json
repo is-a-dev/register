@@ -4,6 +4,6 @@
         "email": "chankit@outlook.in"
     },
     "record": {
-        "TXT": "vc-domain-verify=chankit.is-a.dev,d7420a0e3e7289118bff"
+        "CNAME": "chankit.pages.dev"
     }
 }
