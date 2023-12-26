@@ -1,13 +1,12 @@
 {
-  "description": "Neko7sora personal website",
-  "repo": "https://github.com/Neko7sora/Neko7sora.github.io",
-  "owner": {
-    "username": "Neko7sora",
-    "email": "",
-    "twitter": "Neko7sora",
-    "keybase": "neko7sora"
-  },
-  "record": {
-    "CNAME": "neko7sora.github.io"
-  }
+    "description": "Neko7sora personal website",
+    "owner": {
+        "username": "Neko7sora",
+        "email": "",
+        "twitter": "Neko7sora",
+        "keybase": "neko7sora"
+    },
+    "record": {
+        "URL": "https://neko7sora.github.io"
+    }
 }

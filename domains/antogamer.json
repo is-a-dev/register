@@ -1,9 +1,11 @@
 {
     "owner": {
         "username": "AntogamerYT",
-        "email": "antonio.antogamer@gmail.com"
+        "email": "antonio.antogamer@gmail.com",
+        "discord": "thisisanto",
+        "twitter": "ThisIsAnto_"
     },
     "record": {
-        "A": ["213.133.110.62"]
+        "A": ["141.144.196.233"]
     }
 }

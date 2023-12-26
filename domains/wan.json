@@ -1,12 +1,9 @@
 {
-    "description": "For a personal website",
-    "repo": "https://github.com/jrdrwn/jrdrwn.github.io",
     "owner": {
-        "username": "jrdrwn",
-        "email": "jordirwn@gmail.com",
-        "twitter": "_jrdrwan"
+        "username": "wansies",
+        "email": "taio6@duck.com"
     },
     "record": {
-        "CNAME": "jrdrwn.github.io"
+            "CNAME": "wansies.github.io"
     }
-} 
+}

@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "Harry-Ross",
-    "email": "hazross@hotmail.com"
-  },
-  "description": "Personal site/blog",
-  "repository": "https://github.com/Harry-Ross/harry-ross.github.io.git",
-  "record": {
-    "CNAME": "harry-ross.github.io"
-  }
+    "owner": {
+        "username": "Harry-Ross",
+        "email": "hazross@hotmail.com"
+    },
+    "description": "Personal site/blog",
+    "repository": "https://github.com/Harry-Ross/harry-ross.github.io.git",
+    "record": {
+        "CNAME": "harry-ross.github.io"
+    }
 }

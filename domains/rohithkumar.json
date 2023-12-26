@@ -1,11 +1,11 @@
 {
-  "description": "My Personal Website",
-  "repo": "https://github.com/killTheDB",
-  "owner": {
-    "username": "killTheDB",
-    "email": "jayanarohith7@gmail.com"
-  },
-  "record": {
-    "CNAME": "killthedb.github.io"
-  }
+    "description": "My Personal Website",
+    "repo": "https://github.com/killTheDB",
+    "owner": {
+        "username": "killTheDB",
+        "email": "jayanarohith7@gmail.com"
+    },
+    "record": {
+        "CNAME": "killthedb.github.io"
+    }
 }

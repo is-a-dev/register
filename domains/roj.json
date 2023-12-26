@@ -1,11 +1,11 @@
 {
-  "description": "Roj",
-  "owner": {
-    "username": "roj1512",
-    "email": "ez@roj.im",
-    "twitter": "roj1512"
-  },
-  "record": {
-    "URL": "https://roj.im"
-  }
+    "description": "Roj",
+    "owner": {
+        "username": "roj1512",
+        "email": "ez@roj.im",
+        "twitter": "roj1512"
+    },
+    "record": {
+        "URL": "https://roj.im"
+    }
 }

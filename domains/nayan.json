@@ -1,11 +1,11 @@
 {
-  "description": "A personal website, for Nayan Patel.",
-  "repo": "https://github.com/pateln123",
-  "owner": {
-    "username": "pateln123",
-    "email": "hello@nayanpatel.net"
-  },
-  "record": {
-    "URL": "https://nayanpatel.net"
-  }
+    "description": "A personal website, for Nayan Patel.",
+    "repo": "https://github.com/pateln123",
+    "owner": {
+        "username": "pateln123",
+        "email": "hello@nayanpatel.net"
+    },
+    "record": {
+        "URL": "https://nayanpatel.net"
+    }
 }

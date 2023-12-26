@@ -2,10 +2,10 @@
     "description": "slow personal developer website",
     "repo": "https://github.com/slowwdev/slow",
     "owner": {
-      "username": "slowwdev",
-      "email": "slowdev14@gmail.com"
+        "username": "slowwdev",
+        "email": "slowdev14@gmail.com"
     },
     "record": {
-      "CNAME": "slowwdev.github.io"
+        "CNAME": "slowwdev.github.io"
     }
-  }
+}

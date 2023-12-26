@@ -1,12 +1,10 @@
 {
-  "description": "Pirate-Teams server",
-  "owner": {
-    "username": "StalkerMeyr",
-    "email": "andchit223@gmail.com"
-  },
-  "record": {
-    "A": [
-      "185.87.50.120"
-    ]
-  }
-} 
+    "description": "Pirate-Teams server",
+    "owner": {
+        "username": "StalkerMeyr",
+        "email": "andchit223@gmail.com"
+    },
+    "record": {
+        "A": ["185.87.50.120"]
+    }
+}

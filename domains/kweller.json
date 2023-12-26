@@ -1,0 +1,11 @@
+{
+    "description": "kweller.is-a.dev",
+    "repo": "https://github.com/real-kwellercat/real-kwellercat.github.io.git",
+    "owner": {
+        "username": "real-kwellercat",
+        "email": "lucas.rausch.732@k12.friscoisd.org"
+    },
+    "record": {
+        "CNAME": "real-kwellercat.github.io"
+    }
+}

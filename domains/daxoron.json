@@ -1,0 +1,11 @@
+{
+    "description": "daxoron' personal developer website",
+    "repo": "https://github.com/daxoron/daxoron.github.io",
+    "owner": {
+        "username": "daxoron",
+        "email": "daxoron.dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "daxoron.github.io"
+    }
+}
