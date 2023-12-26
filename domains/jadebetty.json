@@ -5,7 +5,7 @@
         "discord": "758617912566087681"
     },
     "record": {
-        "CNAME": "j75w22tf.up.railway.app",
+        "CNAME": "https://jadebetty.github.io",
         "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
         "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
