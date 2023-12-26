@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "norkart",
+    "website": "https://norkart.is-a.dev/",
+    "email": "contact@norkart.is-a.dev",
+    "discord": "captnork"
+  },
+  "record": {
+    "MX": ["mail.is-a.dev"],
+    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+  }
+}
