@@ -1,5 +1,7 @@
 {
     "owner": {
+        "description": "A sub-domain to my main website, email and ftp server and two secondary websites.",
+        "repo": "https://github.com/santydesignscr/register/"
         "username": "santydesignscr",
         "email": "fsantyrodriguez07@gmail.com"
     },
