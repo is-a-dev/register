@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "santydesignscr",
+        "email": "fsantyrodriguez07@gmail.com"
+    },
+    "record": {
+        "A": ["164.152.109.239"],
+        "MX": ["mail.bytewave.is-a.dev"],
+        "TXT": ["v=spf1 a mx ip4:164.152.109.239 -all","brevo-code:d2e2196a9e1990e83646685e1b138798"]
+    }
+}
