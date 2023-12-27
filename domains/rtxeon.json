@@ -4,6 +4,8 @@
         "email": "AdityaSuthar13@outlook.com"
     },
     "record": {
-        "CNAME": "rtxeon-portfolio-isadev.onrender.com"
+        "CNAME": "rtxeon-portfolio-isadev.onrender.com",
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
