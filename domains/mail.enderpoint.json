@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "EnderPoint07",
+        "email": "",
+        "discord": "dotm38"
+    },
+    "record": {
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+    }
+}

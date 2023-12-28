@@ -1,11 +1,11 @@
 {
-    "description": "SpyMiner's website",
-    "repo": "https://github.com/SpyMinerX/SpyMinerX.github.io",
     "owner": {
         "username": "SpyMinerX",
-        "email": "spyminer@glacierclient.net"
+        "email": "vince@engelbrecht.pro"
     },
     "record": {
-        "CNAME": "isadev.engelbrecht.pro"
+        "A": ["217.174.245.249"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }
