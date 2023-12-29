@@ -1,9 +1,11 @@
 {
+    "description": "DiscordBot",
+    "repo": "https://github.com/almaziikdev/almaziikdev.github.io",
     "owner": {
         "username": "AlmaziikDev",
-        "email": "almazgamer228@gmail.com"
+        "email": "almazgamer228@gmail.com",
     },
     "record": {
-        "CNAME": "almaz.github.io"
+        "CNAME": "almaziikdev.github.io"
     }
-}
+} 
