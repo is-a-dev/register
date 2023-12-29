@@ -6,7 +6,7 @@
         },
     
         "record": {
-            "MX": ["kartikey-mittal.github.io"]
+            "CNAME": ["kartikey-mittal.github.io"]
         }
     }
     
