@@ -1,13 +1,13 @@
 {
-  "description": "Likalium's personal website",
-  "repo": "https://github.com/likalium/likalium.github.io",
-  "owner": {
-    "username": "likalium",
-    "email": "",
-    "twitter":  "likalium",
-    "discord": "likalium#2870"
-  },
-  "record" : {
-    "CNAME": "likalium.github.io"
-  }
+    "description": "Likalium's personal website",
+    "repo": "https://github.com/likalium/likalium.github.io",
+    "owner": {
+        "username": "likalium",
+        "email": "",
+        "twitter": "likalium",
+        "discord": "likalium"
+    },
+    "record": {
+        "CNAME": "likalium.github.io"
+    }
 }

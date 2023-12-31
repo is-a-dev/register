@@ -1,9 +1,9 @@
 {
-        "owner": {
-           "username": "Asif404",
-           "email": "asifmohammed4000@gmail.com"
-        },
-        "record": {
-            "CNAME": "asif-bq8.pages.dev"
-        }
+    "owner": {
+        "username": "Asif404",
+        "email": "asifmohammed4000@gmail.com"
+    },
+    "record": {
+        "CNAME": "asif-bq8.pages.dev"
     }
+}

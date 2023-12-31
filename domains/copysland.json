@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "Hillzacky",
-           "email": "Hilm4nsyah@gmail.com"
-        },
-        "record": {
-            "CNAME": "copysland.github.io"
-        }
+    "owner": {
+        "username": "Hillzacky",
+        "email": "Hilm4nsyah@gmail.com"
+    },
+    "record": {
+        "CNAME": "copysland.github.io"
     }
-    
+}

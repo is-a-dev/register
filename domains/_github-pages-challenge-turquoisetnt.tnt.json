@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "TurquoiseTNT",
         "email": "turquoisetntmultimedia@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "TXT": "a70919bec5e292800f53b8bd87da03"
-      }
     }
-    
+}

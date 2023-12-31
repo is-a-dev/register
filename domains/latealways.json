@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "LateAlways",
-        "email": "latealways@fuchsiax.dev"
+        "email": "latealways@i-am-a.fuchsiax.dev"
     },
     "record": {
-        "CNAME": "i-am-a.fuchsiax.dev"
+        "A": ["85.239.250.3"]
     }
 }
