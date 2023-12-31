@@ -1,11 +1,11 @@
 {
-  "description": "Matei Cotocel's Site",
-  "repo": "https://github.com/mcotocel/mcotocel.github.io",
-  "owner": {
-    "username": "mcotocel",
-    "email": "mcotocel@outlook.com"
-  },
-  "record": {
-    "CNAME": "mcotocel.github.io"
-  }
+    "description": "Matei Cotocel's Site",
+    "repo": "https://github.com/mcotocel/mcotocel.github.io",
+    "owner": {
+        "username": "mcotocel",
+        "email": "mcotocel@outlook.com"
+    },
+    "record": {
+        "CNAME": "mcotocel.github.io"
+    }
 }

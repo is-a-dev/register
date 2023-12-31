@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
+{
+    "owner": {
         "username": "NightsFaII",
         "email": "niqhtsfall2@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "CNAME": "nightsfaii.github.io"
-      }
     }
-    
+}

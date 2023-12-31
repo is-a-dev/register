@@ -1,12 +1,12 @@
 {
-  "description": "Smeagol's github pages site, currently a work in progress",
-  "repo": "https://github.com/Smeagol2069/smeagol2069.github.io",
-  "owner": {
-    "username": "Smeagol2069",
-    "email": "",
-    "discord": "Smeagol#2069"
-  },
-  "record": {
-    "CNAME": "smeagol2069.github.io"
-  }
+    "description": "Smeagol's github pages site, currently a work in progress",
+    "repo": "https://github.com/Smeagol2069/smeagol2069.github.io",
+    "owner": {
+        "username": "Smeagol2069",
+        "email": "",
+        "discord": "Smeagol#2069"
+    },
+    "record": {
+        "CNAME": "smeagol2069.github.io"
+    }
 }

@@ -1,12 +1,12 @@
 {
-  "description": "My Personal website and possibly an API",
-  "repo": "https://github.com/MegaDevGuy",
-  "owner": {
-    "username": "MegaDevGuy",
-    "email": "",
-    "twitter": "_Mega_Dev_"
-  },
-  "record": {
-  "CNAME": "flask-production-b336.up.railway.app"
-  }
+    "description": "My Personal website and possibly an API",
+    "repo": "https://github.com/MegaDevGuy",
+    "owner": {
+        "username": "MegaDevGuy",
+        "email": "",
+        "twitter": "_Mega_Dev_"
+    },
+    "record": {
+        "CNAME": "flask-production-b336.up.railway.app"
+    }
 }

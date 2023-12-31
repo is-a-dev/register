@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "S3mant",
-    "email": "contact@semant.is-a.dev"
-   },
-  "record": {
-    "TXT": "137038fe5e46e3f5a6859e5985b8fd"
-  }
+    "owner": {
+        "username": "S3mant",
+        "email": "contact@semant.is-a.dev"
+    },
+    "record": {
+        "TXT": "137038fe5e46e3f5a6859e5985b8fd"
+    }
 }

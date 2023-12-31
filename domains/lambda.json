@@ -1,11 +1,11 @@
 {
-  "description": "Personal Site for Stadial",
-  "repo": "https://github.com/stadial/stadial.github.io",
-  "owner": {
-    "username": "stadial",
-    "email": "kfulain.uphrj@aleeas.com"
-  },
-  "record": {
-    "CNAME": "stadial.github.io"
-  }
+    "description": "Personal Site for Stadial",
+    "repo": "https://github.com/stadial/stadial.github.io",
+    "owner": {
+        "username": "stadial",
+        "email": "kfulain.uphrj@aleeas.com"
+    },
+    "record": {
+        "CNAME": "stadial.github.io"
+    }
 }

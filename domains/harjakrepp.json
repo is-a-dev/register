@@ -1,13 +1,13 @@
 {
-        "description": "My personal portofolio",
-        "repo": "https://github.com/harjakrepp/harjakrepp.github.io",
-        "owner": {
-          "username": "Harjakrepp",
-          "email": "",
-          "discord": "harjacraft#2385",
-          "twitter": "harjakrepp"
-        },
-        "record": {
-          "CNAME": "harjakrepp.github.io"
-        }
+    "description": "My personal portofolio",
+    "repo": "https://github.com/harjakrepp/harjakrepp.github.io",
+    "owner": {
+        "username": "Harjakrepp",
+        "email": "",
+        "discord": "harjacraft#2385",
+        "twitter": "harjakrepp"
+    },
+    "record": {
+        "CNAME": "harjakrepp.github.io"
+    }
 }

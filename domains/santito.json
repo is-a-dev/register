@@ -1,11 +1,11 @@
 {
     "description": "Santito's Personal Site",
-    "repo": "https://github.com/DevSantito/devsantito.github.io",
+    "repo": "https://github.com/San-tito/san-tito.github.io",
     "owner": {
-      "username": "DevSantito",
-      "email": "devsantito@gmail.com"
+        "username": "San-tito",
+        "email": "devsantito@gmail.com"
     },
     "record": {
-      "CNAME": "devsantito.github.io"
+        "CNAME": "san-tito.github.io"
     }
-  }
+}

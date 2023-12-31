@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "Kobe523",
-    "email": "kobeni523@gmail.com",
-    "discord": "TheMagicMushoom#9999"
-  },
-  "record": {
-    "URL": "https://its.themagicmush.repl.co/"
-  }
+    "owner": {
+        "username": "Kobe523",
+        "email": "kobeni523@gmail.com",
+        "discord": "TheMagicMushoom#9999"
+    },
+    "record": {
+        "URL": "https://its.themagicmush.repl.co"
+    }
 }

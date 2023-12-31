@@ -1,12 +1,11 @@
-
-  {
-  "description": "personal website",
-  "repo": "https://github.com/adolar0042/adolar0042.github.io",
-  "owner": {
-    "username": "Adolar0042",
-    "email": "adolar0042@gmail.com"
-  },
-  "record": {
-    "CNAME": "adolar0042.github.io"
-  }
+{
+    "description": "personal website",
+    "repo": "https://github.com/adolar0042/adolar0042.github.io",
+    "owner": {
+        "username": "Adolar0042",
+        "email": "adolar0042@gmail.com"
+    },
+    "record": {
+        "CNAME": "adolar0042.github.io"
+    }
 }

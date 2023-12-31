@@ -1,11 +1,11 @@
 {
-  "description": "Iakorp's Website",
-  "repo": "https://github.com/IAKORP/IAKORP.github.io",
-  "owner": {
-    "username": "IAKORP",
-    "email": "prokaiindo003@gmail.com"
-  },
-  "record": {
-   "CNAME": "IAKORP.github.io" 
-  }
+    "description": "Iakorp's Website",
+    "repo": "https://github.com/IAKORP/IAKORP.github.io",
+    "owner": {
+        "username": "IAKORP",
+        "email": "prokaiindo003@gmail.com"
+    },
+    "record": {
+        "CNAME": "IAKORP.github.io"
+    }
 }

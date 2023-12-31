@@ -1,12 +1,11 @@
 {
-  "description": "frd.is-a.dev.",
-  "repo": "https://github.com/superXdev/portfolio-next",
-  "owner": {
-    "username": "superXdev",
-    "email": "fikrizhanking@gmail.com"
-  },
-  "record": {
-    "TXT": "vc-domain-verify=frd.is-a.dev,e04ccfeb28b2ba8ec702",
-    "URL": "https://fikri.vercel.app"
-  }
+    "description": "frd.is-a.dev.",
+    "repo": "https://github.com/superXdev/portfolio-next",
+    "owner": {
+        "username": "superXdev",
+        "email": "fikrizhanking@gmail.com"
+    },
+    "record": {
+        "URL": "https://fikri.vercel.app"
+    }
 }

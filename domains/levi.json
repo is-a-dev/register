@@ -1,12 +1,12 @@
 {
-  "description": "Leví Arista Resume",
-  "repo": "https://github.com/leviarista/resume",
-  "owner": {
-    "username": "leviarista",
-    "email": "levi.arista@gmail.com",
-    "twitter": "leviarista"
-  },
-  "record": {
-    "URL": "https://leviarista.github.io/resume"
-  }
+    "description": "Leví Arista Resume",
+    "repo": "https://github.com/leviarista/resume",
+    "owner": {
+        "username": "leviarista",
+        "email": "levi.arista@gmail.com",
+        "twitter": "leviarista"
+    },
+    "record": {
+        "URL": "https://leviarista.github.io/resume"
+    }
 }

@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "KrazyKleb",
+        "email": "krazykleb@outlook.com"
+    },
+    "record": {
+        "A": ["69.197.129.206"],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+    }
+}

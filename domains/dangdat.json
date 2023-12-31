@@ -1,11 +1,11 @@
 {
-  "description": "This website is a link to my personal portfolio",
-  "repo": "https://github.com/aurorakid/taotap",
-  "owner": {
-    "username": "aurorakid",
-    "email": "nguyendangdat412@gmail.com"
-  },
-  "record": {
-    "CNAME": "aurorakid.github.io"
-  }
+    "description": "This website is a link to my personal portfolio",
+    "repo": "https://github.com/aurorakid/taotap",
+    "owner": {
+        "username": "aurorakid",
+        "email": "nguyendangdat412@gmail.com"
+    },
+    "record": {
+        "CNAME": "aurorakid.github.io"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "Test description",
-  "repo": "https://Global-Clicks.yutonghan2.repl.co", 
-  "owner": {
-    "username": "yutonghanofficial",
-    "email": "realyutonghan@gmail.com"
-  },
-  "record": {
-    "CNAME": "e5ac2ad9-5903-4c72-9092-7da12688a4c2.id.repl.co"
-  }
+    "description": "Test description",
+    "repo": "https://Global-Clicks.yutonghan2.repl.co",
+    "owner": {
+        "username": "yutonghanofficial",
+        "email": "realyutonghan@gmail.com"
+    },
+    "record": {
+        "CNAME": "e5ac2ad9-5903-4c72-9092-7da12688a4c2.id.repl.co"
+    }
 }
