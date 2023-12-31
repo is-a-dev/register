@@ -4,6 +4,9 @@
         "email": "is-a-dev@win11react.com"
     },
     "record": {
-        "CNAME": "hosts.is-a.dev"
+        "A": [
+            "51.161.54.161",
+            "217.174.245.249"
+        ]
     }
 }
