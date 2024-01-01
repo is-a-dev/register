@@ -1,0 +1,11 @@
+{
+    "description": "Crystal Melting Dot's site",
+    "repo": "https://github.com/cmd410/cmd410.github.io",
+    "owner": {
+        "username": "cmd410",
+        "email": "stresspassing@gmail.com"
+    },
+    "record": {
+        "CNAME": "cmd410.github.io"
+    }
+}

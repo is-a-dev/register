@@ -1,0 +1,11 @@
+{
+    "description": "Joe Banks",
+    "repo": "https://github.com/jb3/jb3.github.io",
+    "owner": {
+        "username": "jb3",
+        "email": "joseph@josephbanks.me"
+    },
+    "record": {
+        "CNAME": "jb3.github.io"
+    }
+}

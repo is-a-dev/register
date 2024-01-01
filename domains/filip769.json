@@ -1,0 +1,11 @@
+{
+    "description": "My personal website",
+    "repo": "https://github.com/filip-769",
+    "owner": {
+        "username": "filip-769",
+        "email": "filipdev769@gmail.com"
+    },
+    "record": {
+        "CNAME": "web-1.hostnow.cz"
+    }
+}

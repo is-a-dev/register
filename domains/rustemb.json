@@ -1,0 +1,11 @@
+{
+    "description": "Rustem B. dev page",
+    "repo": "https://github.com/RustemB/rustemb.github.io",
+    "owner": {
+        "username": "rustemb",
+        "email": "rustemb@systemli.org"
+    },
+    "record": {
+        "CNAME": "rustemb.github.io"
+    }
+}

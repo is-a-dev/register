@@ -1,0 +1,11 @@
+{
+    "description": "My personal website",
+    "repo": "https://github.com/itsnebulalol/nebulayt.xyz",
+    "owner": {
+        "username": "itsnebulalol",
+        "email": "computerman1229@gmail.com"
+    },
+    "record": {
+        "CNAME": "itsnebulalol.github.io"
+    }
+}

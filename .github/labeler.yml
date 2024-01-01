@@ -1,0 +1,6 @@
+domain:
+  - domains/*.json
+
+documentation:
+  - ./*.md
+  - ./**/*.md

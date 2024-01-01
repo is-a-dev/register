@@ -1,0 +1,11 @@
+{
+    "description": "A personal site for all my stuff",
+    "repo": "https://github.com/b1ackshadow/b1ackshadow.github.io",
+    "owner": {
+        "username": "b1ackshadow",
+        "email": "actuallydc@gmail.com"
+    },
+    "record": {
+        "CNAME": "b1ackshadow.github.io"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "description": "My personal portfolio as a programming language designer and developer.",
+    "repo": "https://github.com/thomasvergne/thomasvergne.github.io",
+    "owner": {
+        "username": "thomasvergne",
+        "email": "thomas.vergne.contact@gmail.com",
+        "twitter": "thomasvergne_"
+    },
+    "record": {
+        "CNAME": "thomasvergne.github.io"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "description": "A domain for launching my person portfolio on!",
+    "owner": {
+        "username": "immattdavison",
+        "email": "hey@matt.lgbt"
+    },
+    "record": {
+        "A": ["209.97.183.92"]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "description": "Main domain for file server.",
+    "repo": "https://github.com/realCartar",
+    "owner": {
+        "username": "realCartar",
+        "email": "",
+        "twitter": "cartar0058"
+    },
+    "record": {
+        "A": ["154.53.34.33"]
+    }
+}

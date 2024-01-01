@@ -1,0 +1,11 @@
+{
+    "description": "a website for my api",
+    "repo": "https://github.com/brawlie/api",
+    "owner": {
+        "username": "brawlie",
+        "email": "tojoeleeofficial@gmail.com"
+    },
+    "record": {
+        "CNAME": "7b9fd2b3-d702-4577-bcbf-a1a529ad3f3d.repl.co"
+    }
+}

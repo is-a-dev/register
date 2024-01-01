@@ -1,0 +1,12 @@
+{
+    "description": "The website of Saswat Samal conataining all the links of him.",
+    "repo": "https://github.com/saswatsamal/saswatsamal.github.io",
+    "owner": {
+        "username": "saswatsamal",
+        "email": "samalsaswat0@gmail.com",
+        "twitter": "TweetSaswat"
+    },
+    "record": {
+        "CNAME": "saswatsamal.github.io"
+    }
+}

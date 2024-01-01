@@ -1,0 +1,12 @@
+{
+    "description": "My personal website",
+    "repo": "https://github.com/ghextercortes/ghextercortes.github.io",
+    "owner": {
+        "username": "ghextercortes",
+        "email": "ghextershumies@gmail.com",
+        "twitter": "CortesGhexter"
+    },
+    "record": {
+        "CNAME": "ghextercortes.github.io"
+    }
+}

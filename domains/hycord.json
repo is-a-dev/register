@@ -1,0 +1,11 @@
+{
+    "description": "Hi! I'm Hycord!",
+    "owner": {
+        "username": "hycord",
+        "email": "hycord@hycordia.com",
+        "twitter": "IGNHycord"
+    },
+    "record": {
+        "CNAME": "xbwlnzmg.up.railway.app"
+    }
+}

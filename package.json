@@ -1,0 +1,27 @@
+{
+  "name": "is-a-dev-core",
+  "version": "1.0.0",
+  "description": "Register *.is-a.dev domains for free",
+  "scripts": {
+    "lint": "eslint utils scripts domains --ext .json,.js",
+    "publish-records": "bun run -b ./scripts/register-domains.js",
+    "dc": "docker-compose -p is-a-dev",
+    "dc:start": "bun run dc up",
+    "dc:shell": "bun run dc run dev /bin/bash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/is-a-dev/register"
+  },
+  "author": "Akshay Nair <phenax5@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "ip-regex": "^5.0.0",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}

@@ -1,0 +1,26 @@
+name: Helper
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  instructions:
+    name: instructions
+    runs-on: ubuntu-latest
+    steps:
+       - run: curl https://notify-api.is-a.dev/pr/merged/${{ github.event.pull_request.number }}
+         if: github.event.action == 'closed' && github.event.pull_request.merged == true
+#      - uses: actions/checkout@v2
+#      - name: Comment
+#        if: github.event.action == 'closed' && github.event.pull_request.merged == true
+#        uses: actions/github-script@v3
+#        with:
+#          github-token: ${{secrets.GITHUB_TOKEN}}
+#          script: |
+#            const { hasLabel } = require(`${process.env.GITHUB_WORKSPACE}/scripts/action-utils.js`);
+#            const { instructions } = require(`${process.env.GITHUB_WORKSPACE}/scripts/reply.js`);
+#            if (hasLabel(context, 'domain'))
+#              console.log('Domain');
+#            await instructions(context, github);

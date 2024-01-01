@@ -1,0 +1,12 @@
+{
+    "description": "link for github pages",
+    "repo": "https://github.com/TorchedSammy/torchedsammy.github.io",
+    "owner": {
+        "username": "TorchedSammy",
+        "email": "torchedsammy@gmail.com",
+        "twitter": "TorchedSammy"
+    },
+    "record": {
+        "CNAME": "torchedsammy.github.io"
+    }
+}

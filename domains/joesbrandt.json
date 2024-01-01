@@ -1,0 +1,10 @@
+{
+    "description": "joesbrandt",
+    "owner": {
+        "username": "joesbrandt",
+        "email": "joesbrandt@icloud.com"
+    },
+    "record": {
+        "CNAME": "joesbrandt.github.io"
+    }
+}

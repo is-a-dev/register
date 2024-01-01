@@ -1,0 +1,12 @@
+{
+    "description": "LegendSayantan's Project Wiki Page",
+    "repo": "https://github.com/legendsayantan/legendsayantan.github.io",
+    "owner": {
+        "username": "legendsayantan",
+        "email": "legendsayantanpaul@gmail.com",
+        "twitter": "legendsayantan"
+    },
+    "record": {
+        "CNAME": "legendsayantan.github.io"
+    }
+}
