@@ -1,10 +1,10 @@
 {
     "owner": {
-        "username": "@is-a-dev/maintainers",
+        "username": "is-a-dev",
         "email": "phenax5@gmail.com"
     },
 
     "record": {
-        "CNAME": "isaregister.pages.dev"
+        "URL": "https://manage.is-a.dev"
     }
 }

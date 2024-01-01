@@ -1,11 +1,11 @@
 {
-  "description": "This is a personal website",
-  "repo": "https://github.com/dhaval-kareliya/dhaval-kareliya.github.io",
-  "owner": {
-    "username": "dhaval-kareliya",
-    "email": ""
-  },
-  "record": {
-    "CNAME": "dhaval-kareliya.github.io"
-  }
+    "description": "This is a personal website",
+    "repo": "https://github.com/dhaval-kareliya/dhaval-kareliya.github.io",
+    "owner": {
+        "username": "dhaval-kareliya",
+        "email": ""
+    },
+    "record": {
+        "CNAME": "dhaval-kareliya.github.io"
+    }
 }

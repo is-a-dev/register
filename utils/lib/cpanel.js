@@ -1,6 +1,5 @@
 const R = require('ramda');
-const fetch = require('node-fetch');
-const qs = require('qs');
+const qs = require('querystring');
 const { DOMAIN_API_HOST, DOMAIN_API_PORT, DOMAIN_USER, DOMAIN_API_KEY, DOMAIN_DOMAIN } = require('../constants');
 
 const CpanelClient = (options) => {
