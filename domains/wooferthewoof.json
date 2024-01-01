@@ -1,12 +1,12 @@
 {
     "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/WooferTheWoof/wooferthewoof.github.io",
+    "repo": "https://github.com/WooferTheWoof/website",
     "owner": {
         "username": "WooferTheWoof",
         "email": "ivceball@gmail.com",
         "discord": "wooferthywoof"
     },
     "record": {
-        "CNAME": "WooferTheWoof.github.io"
+        "CNAME": "wooferthewoof.github.io/website"
     }
 } 
