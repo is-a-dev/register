@@ -1,12 +1,11 @@
 {
-        "owner": {
-           "username": "BangMbon",
-           "email": "dci.reborn@gmail.com",
-           "discord": "1018217447540666430"
-        },
-    
-        "record": {
-            "A": ["107.180.41.239"]
-        }
+    "owner": {
+        "username": "BangMbon",
+        "email": "dci.reborn@gmail.com"
+    },
+    "record": {
+        "A": ["217.174.245.249", "51.161.54.161"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
-    
+}
