@@ -1,11 +1,10 @@
 {
-  "description": "Redirect to my website",
-  "repo": "https://github.com/ductoanvo",
-  "owner": {
-    "username": "ductoanvo",
-    "email": "hey.toan@outlook.com"
-  },
-  "record": {
-    "URL": "https://ductoan.dev"
-  }
+    "owner": {
+        "username": "toanducvo",
+        "email": "toan.ducvo@icloud.com"
+    },
+
+    "record": {
+        "CNAME": "hashnode.network"
+    }
 }

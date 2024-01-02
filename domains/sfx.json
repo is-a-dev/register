@@ -1,0 +1,12 @@
+{
+    "description": "A personal website talking about my history",
+    "repo": "https://github.com/iamsfx/iamsfx.github.io",
+    "owner": {
+        "username": "iamsfx",
+        "email": "sfx@fbi.ac",
+        "twitter": "therealsfx"
+    },
+    "record": {
+        "CNAME": "iamsfx.github.io"
+    }
+}

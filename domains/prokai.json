@@ -1,0 +1,11 @@
+{
+    "description": "Iakorp's Website",
+    "repo": "https://github.com/14k0rp/14k0rp.github.io",
+    "owner": {
+        "username": "14k0rp",
+        "email": "iakorp@protonmail.com"
+    },
+    "record": {
+        "CNAME": "14k0rp.github.io"
+    }
+}

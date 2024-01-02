@@ -1,11 +1,11 @@
 {
-  "description": "Gaurav Tewari",
-  "repo": "https://github.com/tewarig/tewarig.github.io",
-  "owner": {
-    "username": "Gaurav",
-    "email": "gauravtewari111@gmail.com"
-  },
-  "record": {
-    "CNAME": "tewarig.github.io"
-  }
+    "description": "Gaurav Tewari",
+    "repo": "https://github.com/tewarig/tewarig.github.io",
+    "owner": {
+        "username": "tewarig",
+        "email": "gauravtewari111@gmail.com"
+    },
+    "record": {
+        "CNAME": "tewarig.github.io"
+    }
 }

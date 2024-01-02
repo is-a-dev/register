@@ -1,10 +1,11 @@
 {
-  "description": "My CDN",
-  "owner": {
-    "username": "JavaScriptpy",
-    "email": "zerotwo.on.discord@gmail.com"
-  },
-  "record": {
-    "CNAME": "4610390a-31b4-45f7-9a4a-4c75e28ecfbd.repl.co"
-  }
+    "owner": {
+        "username": "SpectacledBear",
+        "email": "kyle@spectacledbear.ca"
+    },
+    "record": {
+        "A": ["217.174.245.249", "51.161.54.161"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+    }
 }

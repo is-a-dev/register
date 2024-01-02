@@ -1,0 +1,12 @@
+{
+    "description": "My portfolio website",
+    "repo": "https://github.com/shhresth/Portfolio",
+    "owner": {
+        "username": "shhresth",
+        "email": "shresthgupta106@gmail.com",
+        "twitter": "Shresthology"
+    },
+    "record": {
+        "CNAME": "shhresth.github.io"
+    }
+}

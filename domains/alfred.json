@@ -1,0 +1,11 @@
+{
+    "description": "MkDocs website for alfred-discord-bot",
+    "repo": "https://github.com/AlfredDiscordBot/AlfredDiscordBot.github.io",
+    "owner": {
+        "username": "AlfredDiscordBot",
+        "email": "alvinallen333@gmail.com"
+    },
+    "record": {
+        "CNAME": "AlfredDiscordBot.github.io"
+    }
+}

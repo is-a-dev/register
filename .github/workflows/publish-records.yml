@@ -11,23 +11,21 @@ jobs:
     if: github.repository == 'is-a-dev/register'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: borales/actions-yarn@v2.0.0
+      - uses: actions/checkout@v3
+      - uses: oven-sh/setup-bun@v1
         with:
-          cmd: install --ignore-engines
-      - name: Running tests
-        uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: test
+          bun-version: 1.0.3
+      - run: bun install
+      - run: bun test
       - name: Publishing records
         env:
           CI: 1
+          NODE_ENV: production
           ENV: production
           DOMAIN_USER: ${{ secrets.DOMAIN_USER }}
           DOMAIN_API_KEY: ${{ secrets.DOMAIN_API_KEY }}
           DOMAIN_API_HOST: ${{ secrets.DOMAIN_API_HOST }}
           DOMAIN_API_PORT: ${{ secrets.DOMAIN_API_PORT }}
           DOMAIN_DOMAIN: ${{ secrets.DOMAIN_DOMAIN }}
-        uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: publish-records
+          DOMAIN_HOST_IP: ${{ secrets.DOMAIN_HOST_IP }}
+        run: bun run publish-records

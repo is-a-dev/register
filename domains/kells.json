@@ -1,11 +1,11 @@
 {
-  "description": "Kells is Developer!",
-  "repo": "https://github.com/jwkim101201/jwkim101201.github.io",
-  "owner": {
-    "username": "jwkim101201",
-    "email": "jwkim101201@gmail.com"
-  },
-  "record": {
-    "CNAME": "jwkim101201.github.io"
-  }
+    "description": "Kells is Developer!",
+    "repo": "https://github.com/jwkim101201/jwkim101201.github.io",
+    "owner": {
+        "username": "jwkim101201",
+        "email": "jwkim101201@gmail.com"
+    },
+    "record": {
+        "CNAME": "jwkim101201.github.io"
+    }
 }

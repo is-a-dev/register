@@ -1,11 +1,10 @@
 {
-  "description": "Natasquare's personal website", 
-  "repo": "https://github.com/Natasquare/natasquare.github.io", 
-  "owner":{ 
-    "username": "Natasquare",
-    "email": "natasquarelol@gmail.com"
-  },
-  "record": { 
-    "CNAME": "natasquare.github.io" 
-  }
+    "owner": {
+        "username": "Natasquare",
+        "discord": "696698254770831421",
+        "email": "natasquarelol@gmail.com"
+    },
+    "record": {
+        "CNAME": "natasquare.github.io"
+    }
 }

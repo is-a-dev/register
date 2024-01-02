@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "jeweetzelfWasTaken",
-    "email": "jeweetzelf@rtexbot.com"
-  },
-  "record": {
-    "A": [
-      "164.132.74.251"
-    ]
-  }
+    "owner": {
+        "username": "jeweetzelfWasTaken",
+        "email": "jeweetzelf@rtexbot.com"
+    },
+    "record": {
+        "CNAME": "jeweetzelfwastaken.github.io"
+    }
 }

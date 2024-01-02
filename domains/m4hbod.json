@@ -1,0 +1,13 @@
+{
+    "description": "M4hbod's .is-a.dev domain",
+    "repo": "https://github.com/M4hbod/m4hbod.github.io",
+    "owner": {
+        "username": "M4hbod",
+        "email": "m4hbod@proton.me",
+        "telegram": "M4hbod",
+        "discord": "M4hbod#1615"
+    },
+    "record": {
+        "CNAME": "m4hbod.github.io"
+    }
+}

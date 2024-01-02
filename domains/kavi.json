@@ -1,12 +1,12 @@
 {
-  "description": "Portfolio website",
-  "repo": "https://github.com/dkaviarasu/dkaviarasu.github.io",
-  "owner": {
-    "username": "dkaviarasu",
-    "email": "",
-    "twitter": "kaviarasudm"
-  },
-  "record": {
-    "CNAME": "dkaviarasu.github.io"
-  }
+    "description": "Portfolio website",
+    "repo": "https://github.com/dkaviarasu/dkaviarasu.github.io",
+    "owner": {
+        "username": "dkaviarasu",
+        "email": "",
+        "twitter": "kaviarasudm"
+    },
+    "record": {
+        "CNAME": "dkaviarasu.github.io"
+    }
 }

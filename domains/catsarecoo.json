@@ -1,0 +1,11 @@
+{
+    "description": "Invites Bot Site",
+    "repo": "https://catsarecoo.github.io",
+    "owner": {
+        "username": "catsarecoo",
+        "email": "twistedpandora91@gmail.com"
+    },
+    "record": {
+        "CNAME": "catsarecoo.github.io"
+    }
+}
