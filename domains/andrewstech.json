@@ -4,7 +4,7 @@
         "email": "andrew@win11react.com"
     },
     "record": {
-        "A": ["217.174.245.249"],
+        "A": ["217.174.245.249", "51.161.54.161"],
         "TXT": "v=spf1 mx a:mail.is-a.dev ip4:217.174.245.249 ~all",
         "MX": ["mail.is-a.dev"]
     }
