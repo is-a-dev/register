@@ -5,8 +5,7 @@
         "discord": "723626729247342662"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "AAAA": ["2a00:da00:1800:83a4::1"],
+        "A": ["217.174.245.249", "51.161.54.161"],
         "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
         "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
