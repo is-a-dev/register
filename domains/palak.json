@@ -4,6 +4,6 @@
         "email": "maillegendop@gmail.com"
     },
     "record": {
-        "CNAME": "panel.private.danbot.host"
+        "CNAME": "proxy.private.danbot.host"
     }
 }
