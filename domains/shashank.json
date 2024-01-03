@@ -1,9 +1,12 @@
 {
+    "description": "Shashank's Github Page",
+    "repo": "https://github.com/ss-29/ss-29.github.io",
     "owner": {
-        "username": "shashankktiwariii",
-        "email": "development.shashank@gmail.com"
+        "username": "ss-29",
+        "email": "shekhar2906@outlook.com",
+        "twitter": "shashankxdev"
     },
     "record": {
-        "A": ["144.24.102.80"]
+        "CNAME": "ss-29.github.io"
     }
-}
+} 

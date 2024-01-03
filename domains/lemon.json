@@ -4,6 +4,6 @@
         "email": "lemonl3mn@protonmail.com"
     },
     "record": {
-        "CNAME": "citrus-tree.xyz"
+        "A": ["64.217.148.69"]
     }
 }
