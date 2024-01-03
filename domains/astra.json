@@ -5,7 +5,6 @@
                 "discord": "981225782938579014"
         },
         "record": {
-                "CNAME": "proxy.private.danbot.host",
                 "A": ["69.30.249.53"]
         }
     }
