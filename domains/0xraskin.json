@@ -1,10 +1,12 @@
 {
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/0xRasin/0xraskin.github.io",
     "owner": {
         "username": "0xRaskin",
-        "email": "0xraskin@protonmail.com"
+        "email": "0xraskin@protonmail.com",
+        "twitter": "0xRaskin"
     },
-
     "record": {
-        "A": [""]
+        "CNAME": "0xraskin.github.io"
     }
-}
+} 
