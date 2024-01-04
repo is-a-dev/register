@@ -5,7 +5,7 @@
         "discord": "oxmc7769"
     },
     "record": {
-        "A": ["198.244.164.183:25568"],
+        "A": ["198.244.164.183"],
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
         "TXT": "forward-email=contact:oxmc7769.mail@gmail.com"
     }
