@@ -1,0 +1,11 @@
+{
+    "description": "My website :)",
+    "repo": "https://github.com/ssimondev/ssimondev.github.io",
+    "owner": {
+        "username": "ssimondev",
+        "email": "simi.simecek@seznam.cz"
+    },
+    "record": {
+        "CNAME": "ssimondev.github.io"
+    }
+}

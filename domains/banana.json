@@ -1,11 +1,11 @@
 {
-  "description": "banana's website",
-  "repo": "https://github.com/BANanaD3V/bananadev-ml",
-  "owner": {
-    "username": "BANanaD3V",
-    "email": "banana@bananadev.ml"
-  },
-  "record": {
-    "CNAME": "bananad3v.github.io"
-  }
+    "description": "banana's website",
+    "repo": "https://github.com/BANanaD3V/bananadev-ml",
+    "owner": {
+        "username": "BANanaD3V",
+        "email": "banana@bananadev.ml"
+    },
+    "record": {
+        "CNAME": "bananad3v.github.io"
+    }
 }

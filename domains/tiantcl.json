@@ -1,0 +1,11 @@
+{
+    "description": "TianTcl's profile",
+    "repo": "https://github.com/TianTcl/TianTcl",
+    "owner": {
+        "username": "TianTcl",
+        "email": "tclwebguest@gmail.com"
+    },
+    "record": {
+        "CNAME": "info.tiantcl.net"
+    }
+}

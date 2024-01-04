@@ -1,11 +1,11 @@
 {
-  "description": "Lok's portfolio website",
-  "repo": "https://github.com/lokgubhaju/lokgubhaju.github.io",
-  "owner": {
-    "username": "lokgubhaju",
-    "email": "lok.gubhaju@gmail.com"
-  },
-  "record": {
-    "CNAME": "lokgubhaju.github.io"
-  }
+    "description": "Lok's portfolio website",
+    "repo": "https://github.com/lokgubhaju/lokgubhaju.github.io",
+    "owner": {
+        "username": "lokgubhaju",
+        "email": "lok.gubhaju@gmail.com"
+    },
+    "record": {
+        "CNAME": "lokgubhaju.github.io"
+    }
 }

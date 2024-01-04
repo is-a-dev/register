@@ -1,11 +1,11 @@
 {
-  "description": "Adarsh Vijay's Site for things he doesn't know yet",
-  "repo": "https://github.com/adarsh-av13/adarsh-av13.github.io",
-  "owner": {
-    "username": "adarsh-av13",
-    "email": "dra4474@gmail.com"
-  },
-  "record": {
-    "CNAME": "adarsh-av13.github.io"
-  }
+    "description": "Adarsh Vijay's Site for things he doesn't know yet",
+    "repo": "https://github.com/adarsh-av13/adarsh-av13.github.io",
+    "owner": {
+        "username": "adarsh-av13",
+        "email": "dra4474@gmail.com"
+    },
+    "record": {
+        "CNAME": "adarsh-av13.github.io"
+    }
 }

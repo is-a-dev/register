@@ -1,12 +1,12 @@
 {
-  "description": "Jeferson Brito's Portfolio",
-  "repo": "https://github.com/jeferson-sb/portfolio",
-  "owner": {
-    "username": "jeferson-sb",
-    "email": "",
-    "linkedin": "https://www.linkedin.com/in/jeferson-sb/"
-  },
-  "record": {
-    "URL": "https://www.jefersonsilva.me/"
-  }
+    "description": "Jeferson Brito's Portfolio",
+    "repo": "https://github.com/jeferson-sb/portfolio",
+    "owner": {
+        "username": "jeferson-sb",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/jeferson-sb"
+    },
+    "record": {
+        "URL": "https://www.jefersonsilva.me"
+    }
 }

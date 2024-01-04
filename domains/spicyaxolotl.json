@@ -1,0 +1,12 @@
+{
+    "description": "My personal website",
+    "repo": "https://github.com/Spicy-Axolotl/spicy-axolotl.github.io",
+    "owner": {
+        "username": "Spicy-Axolotl",
+        "email": "",
+        "discord": "Axolotl (mycoolface256)#4736"
+    },
+    "record": {
+        "CNAME": "spicy-axolotl.github.io"
+    }
+}

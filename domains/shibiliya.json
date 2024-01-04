@@ -1,11 +1,11 @@
 {
-  "description": "Shibiliya's personal developer website",
-  "repo": "https://github.com/duaboola",
-  "owner": {
-    "username": "duaboola",
-    "email": "ismailshibiliya@gmail.com"
-  },
-  "record": {
-    "CNAME": "duaboola.github.io"
-  }
+    "description": "Shibiliya's personal developer website",
+    "repo": "https://github.com/duaboola",
+    "owner": {
+        "username": "duaboola",
+        "email": "ismailshibiliya@gmail.com"
+    },
+    "record": {
+        "CNAME": "duaboola.github.io"
+    }
 }

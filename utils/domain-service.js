@@ -14,7 +14,7 @@ const recordToRedirection = ({ name, address }) => ({
 });
 const recordToZone = ({ name, type, address, id, priority }) => ({
   line: id,
-  name,
+  name: name === '@' ? `${DOMAIN_DOMAIN}.` : name,
   type,
   address,
   ...(type === 'MX' ? { priority } : {}),
@@ -22,15 +22,27 @@ const recordToZone = ({ name, type, address, id, priority }) => ({
   ...(type === 'TXT' ? { txtdata: address } : {}),
 });
 
-const cleanName = name => name === DOMAIN_DOMAIN ? '@' : `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
+const cleanName = name =>
+  name === DOMAIN_DOMAIN ? '@' : `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
 
-const zoneToRecord = ({ name, type, cname, address, priority, preference, exchange, record, line: id }) => ({
-  id,
-  name: cleanName(name),
-  type: `${type}`,
-  address: `${exchange || cname || address || record}`.replace(/\.$/g, '').toLowerCase(),
-  priority: priority || preference,
-});
+const zoneToRecord = ({
+  name,
+  type,
+  cname,
+  address,
+  priority,
+  preference,
+  exchange,
+  record,
+  line: id
+}) =>
+  ({
+    id,
+    name: cleanName(name),
+    type: `${type}`,
+    address: `${exchange || cname || address || record}`.replace(/\.$/g, '').toLowerCase(),
+    priority: priority || preference,
+  });
 const redirectionToRecord = ({ domain, destination }) => ({
   id: domain,
   name: cleanName(domain),
@@ -44,7 +56,8 @@ const recordToEmailMx = ({ name, address, priority }) => ({
   priority,
 })
 
-const getHostKey = host => `${host.name}##${host.type}##${host.address}`;
+const getHostKey = host =>
+  `${host.name.toLowerCase()}##${host.type.toLowerCase()}##${host.address.toLowerCase()}`;
 
 const diffRecords = (oldRecords, newRecords) => {
   const isMatchingRecord = (a, b) => getHostKey(a) === getHostKey(b);
@@ -66,7 +79,7 @@ const executeBatch = (batches) => batches.reduce((promise, batch, index) => {
     const failed = results.filter(x => (x.result || {}).status != 1);
 
     log(`${values.length - failed.length}/${values.length}`);
-    failed.length && log(failed);
+    failed.length && log(JSON.stringify(failed, null, 2));
 
     return null;
   });
@@ -82,7 +95,7 @@ const getDomainService = ({ cpanel }) => {
       cpanel.zone.add
     ),
     recordToZone,
-    print(({ name }) => `Adding zone for ${name}...`),
+    print(r => `Adding zone for ${r.name}: (${r.type} ${r.address})...`),
   ));
   const removeZoneRecord = lazyTask(R.compose(
     R.ifElse(R.propEq('type', 'MX'),
@@ -90,7 +103,7 @@ const getDomainService = ({ cpanel }) => {
       R.compose(cpanel.zone.remove, R.pick(['line']))
     ),
     recordToZone,
-    print(({ name }) => `Deleting zone for ${name}...`),
+    print(r => `Deleting zone for ${r.name}: (${r.type} ${r.address})...`),
   ));
   const addRedirection = lazyTask(R.compose(
     cpanel.redirection.add,
@@ -120,6 +133,7 @@ const getDomainService = ({ cpanel }) => {
   const updateHosts = async hosts => {
     const remoteHostList = await getHosts();
     const { add, remove } = diffRecords(remoteHostList, hosts);
+    console.log(`Adding ${add.length}; Removing ${remove.length}`)
 
     await executeBatch([
       ...removeRecords(remove),

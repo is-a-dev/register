@@ -1,0 +1,12 @@
+{
+    "description": "Will be used to show my page showing stuff about me",
+    "repo": "https://github.com/angerminecraftyt/aboutme",
+    "owner": {
+        "username": "AngerminecraftYT",
+        "email": "",
+        "discord": "AngerMinecraftYT#3051"
+    },
+    "record": {
+        "CNAME": "angerminecraftyt.github.io"
+    }
+}

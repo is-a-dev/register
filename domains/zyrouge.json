@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "zyrouge",
-    "email": "",
-    "twitter": "_zyrouge_"
-  },
-  "record": {
-    "CNAME": "05ea616c-76a5-49f2-a7ab-448a31700949.repl.co"
-  }
+    "owner": {
+        "username": "zyrouge",
+        "email": "zyrouge@hotmail.com",
+        "twitter": "_zyrouge_"
+    },
+    "record": {
+        "CNAME": "zyrouge.github.io"
+    }
 }

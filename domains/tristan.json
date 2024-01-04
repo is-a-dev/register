@@ -1,11 +1,11 @@
 {
-  "description": "Tristans personal Website",
-  "repo": "https://github.com/holymarcell",
-  "owner": {
-    "username": "holymarcell",
-    "email": "is-a.dev@holy-mail.de"
-  },
-  "record": {
-    "URL": "https://holy-mail.de"
-  }
+    "description": "Tristans personal Website",
+    "repo": "https://github.com/holymarcell",
+    "owner": {
+        "username": "holymarcell",
+        "email": "is-a.dev@holy-mail.de"
+    },
+    "record": {
+        "URL": "https://holy-mail.de"
+    }
 }
