@@ -4,6 +4,11 @@
         "email": "leow1879@mydusd.org"
     },
     "record": {
-        "CNAME": "elliottleow.me"
+        "A": [
+            "217.174.245.249",
+            "51.161.54.161"
+            ],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
