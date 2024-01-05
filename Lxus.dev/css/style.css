@@ -1,0 +1,62 @@
+:root {
+	--primary-color: #87E882;
+	--secondary-color: #73A9FF;
+	--text-color: #575656;
+	--highlight-color: #A3A3A3;
+	--background-color: #17191A;
+}
+
+* {
+	font-size: 16px;
+	font-family: monospace, 'Courier New', Courier;
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+body {
+	margin: 0;
+	padding: 50px 50px;
+}
+
+#user {
+	color: var(--primary-color);
+	text-shadow: 0 0 5px var(--primary-color)
+}
+
+#command {
+	color: var(--secondary-color);
+	text-shadow: 0 0 5px var(--secondary-color)
+}
+
+#highlight {
+	color: var(--highlight-color);
+	text-shadow: 0 0 5px var(--highlight-color)
+}
+
+#text {
+	color: var(--highlight-color);
+}
+
+span {
+	white-space: pre-wrap;
+}
+
+a {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+
+a:hover {
+	font-weight: normal;
+	text-shadow: 0 0 5px var(--secondary-color)
+}
+
+input {
+	border: none;
+}
+
+input:focus {
+	caret-color: var(--text-color);
+	outline: none;
+	border: none;
+}
