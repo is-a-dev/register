@@ -6,6 +6,7 @@
         "email": "itshunterr@protonmail.com"
     },
     "record": {
-        "A": ["76.76.21.21"]
+        "A": ["76.76.21.21"],
+        "TXT": ["vc-domain-verify=hunter.is-a.dev,6ffe6f6b22513fffd5da"]
     }
 }
