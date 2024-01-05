@@ -1,0 +1,12 @@
+{
+    "description": "github",
+    "repo": "https://github.com/mcplayek/mcplayek.github.io",
+    "owner": {
+        "username": "mcplayek",
+        "email": "iktor.yt@gmail.com",
+        "twitter": "mcplayek"
+    },
+    "record": {
+        "CNAME": "mcplayek.github.io"
+    }
+} 
