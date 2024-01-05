@@ -1,12 +1,14 @@
 {
     "owner": {
-      "username": "SlycIsACatboy",
-      "email": "noahhz942@gmail.com",
-      "discord": "5.s3"
+        "username": "SlycIsACatboy",
+        "email": "noahhz942@gmail.com"
     },
     "record": {
         "A": [
-          "137.184.119.127"
-        ]
-      }  
-  }
+            "217.174.245.249",
+            "51.161.54.161"
+            ],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+    }
+}
