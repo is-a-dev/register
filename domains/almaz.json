@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "AlmaziikDev",
+        "email": "almazgamer228@gmail.com"
+    },
+    "record": {
+        "A": [
+            "109.71.252.37"
+        ],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+    }
+}
