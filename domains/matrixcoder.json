@@ -15,12 +15,12 @@
         "MX": [
           "mx1.improvmx.com",
           "mx2.improvmx.com",
-          "send.matrixcoder.feedback-smtp.us-east-1.amazonses.com"
+          "feedback-smtp.us-east-1.amazonses.com"
         ],
         "TXT": [
          "v=spf1 include:spf.improvmx.com ~all",
-         "send.matrixcoder.v=spf1 include:amazonses.com ~all",
-         "resend._domainkey.matrixcoder.p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSxxfcDUyxpuZEikdKTTNCrGTTziJkcWdOObZo/TlTImbjt7l8cATQHDFowMAgmn97UgyNtEs1Y70eYx6CISv7KEmsOoAiOOMGeaMON5P5TZLn5DNFhfyootB8qy5q1gDCBgmAwlbyFxrV12xN2sEM/Z3LJxZuqs0O7tVPOhh+lwIDAQAB"
+         "v=spf1 include:amazonses.com ~all",
+         "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSxxfcDUyxpuZEikdKTTNCrGTTziJkcWdOObZo/TlTImbjt7l8cATQHDFowMAgmn97UgyNtEs1Y70eYx6CISv7KEmsOoAiOOMGeaMON5P5TZLn5DNFhfyootB8qy5q1gDCBgmAwlbyFxrV12xN2sEM/Z3LJxZuqs0O7tVPOhh+lwIDAQAB"
       ],
     }
 }
