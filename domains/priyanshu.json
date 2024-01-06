@@ -1,10 +1,12 @@
 {
+    "description": "Personal portfolio using nextjs",
+    "repo": "https://github.com/Priyansxu/Priyansxu.github.io",
     "owner": {
         "username": "Priyansxu",
         "email": "cloudypriyanshu@gmail.com",
         "twitter": "priyansxu_gupta"
     },
     "record": {
-        "CNAME": "priyanshu.pages.dev"
+        "CNAME": "Priyansxu.github.io"
     }
 } 
