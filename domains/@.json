@@ -6,6 +6,8 @@
         "email": "phenax5@gmail.com"
     },
     "record": {
-        "URL": "http://www.is-a.dev"
+        "URL": "http://www.is-a.dev",
+        "MX": ["mail.is-a.dev"],
+        "TXT": ["v=spf1 ip4:51.161.54.164 include:mail.is-a.dev ~all"]
     }
 }
