@@ -1,6 +1,6 @@
 const R = require('ramda');
 const { cpanel } = require('./lib/cpanel');
-const { DOMAIN_DOMAIN } = require('./constants');
+const { DOMAIN_DOMAIN, VALID_RECORD_TYPES } = require('./constants');
 const { then, log, print, lazyTask, batchLazyTasks } = require('./helpers');
 
 const BATCH_SIZE = 1;
@@ -23,7 +23,7 @@ const recordToZone = ({ name, type, address, id, priority }) => ({
 });
 
 const cleanName = name =>
-  name === DOMAIN_DOMAIN ? '@' : `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
+  name === DOMAIN_DOMAIN ? '@' : `${name}`.replace(new RegExp(`\\.?${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
 
 const zoneToRecord = ({
   name,
@@ -85,9 +85,21 @@ const executeBatch = (batches) => batches.reduce((promise, batch, index) => {
   });
 }, Promise.resolve());
 
+const isReserved = (domain) =>
+  !domain.name ||
+    domain.name.startsWith('*') ||
+    !VALID_RECORD_TYPES.includes(domain.type)
+
 const getDomainService = ({ cpanel }) => {
-  const fetchZoneRecords = R.compose(then(R.map(zoneToRecord)), cpanel.zone.fetch);
-  const fetchRedirections = R.compose(then(R.map(redirectionToRecord)), cpanel.redirection.fetch);
+  const fetchZoneRecords = R.compose(
+    then(R.filter(R.complement(isReserved))),
+    then(R.map(zoneToRecord)),
+    cpanel.zone.fetch
+  );
+  const fetchRedirections = R.compose(
+    then(R.map(redirectionToRecord)),
+    cpanel.redirection.fetch
+  );
 
   const addZoneRecord = lazyTask(R.compose(
     R.ifElse(R.propEq('type', 'MX'),
@@ -120,15 +132,20 @@ const getDomainService = ({ cpanel }) => {
   const getHosts = () =>
     Promise.all([fetchZoneRecords(), fetchRedirections()]).then(R.flatten);
 
-  const addRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.filter(Boolean), R.map(R.cond([
-    [R.propEq('name', 'www'), R.always(null)], // Ignore www
-    [R.propEq('type', 'URL'), addRedirection],
-    [R.T, addZoneRecord],
-  ])));
-  const removeRecords = R.compose(batchLazyTasks(BATCH_SIZE), R.map(R.cond([
-    [R.propEq('type', 'URL'), removeRedirection],
-    [R.T, removeZoneRecord],
-  ])));
+  const addRecords = R.compose(
+    batchLazyTasks(BATCH_SIZE),
+    R.filter(Boolean),
+    R.map(R.cond([
+      [R.propEq('name', 'www'), R.always(null)], // Ignore www
+      [R.propEq('type', 'URL'), addRedirection],
+      [R.T, addZoneRecord],
+    ])),
+  );
+  const removeRecords = R.compose(
+    batchLazyTasks(BATCH_SIZE),
+    R.map(R.cond([ [ R.propEq('type', 'URL'), removeRedirection ], [ R.T, removeZoneRecord ] ])),
+    R.sort((a, b) => b.id - a.id)
+  );
 
   const updateHosts = async hosts => {
     const remoteHostList = await getHosts();
