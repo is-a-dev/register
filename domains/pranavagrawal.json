@@ -6,6 +6,9 @@
         "email": "pranavagrawal321@gmail.com"
     },
     "record": {
-        "CNAME": "pranavagrawal321.github.io"
+        "A": ["185.199.108.153"],
+        "AAAA": ["2606:50c0:8001::153"],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 } 
