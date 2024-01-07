@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "KrazyKleb",
-        "email": "krazyklebyt@gmail.com"
+        "email": "krazykleb@outlook.com"
     },
     "record": {
-        "CNAME": "proxy.private.danbot.host"
+        "A": ["69.30.249.53"]
     }
 }

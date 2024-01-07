@@ -12,7 +12,7 @@
             "mail.is-a.dev"
         ],
         "TXT": [
-            " v=spf1 mx a:mail.is-a.dev ip4:217.174.245.249 ~all"
+            "v=spf1 mx a:mail.is-a.dev ip4:217.174.245.249 ~all"
         ]
     }
 }

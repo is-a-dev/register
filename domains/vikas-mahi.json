@@ -1,7 +1,7 @@
 {
     "owner": {
-        "username": "GeekySudhir",
-        "email": "sdhrsingh271@gmail.com"
+        "username": "vikas-mahi",
+        "email": "1vikasmahi@gmail.com"
     },
     "record": {
         "A": [
@@ -9,6 +9,6 @@
             "51.161.54.161"
             ],
         "MX": ["mail.is-a.dev"],
-        "TXT": "a608d9751f86d011d10a8d58ca5a93"
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
