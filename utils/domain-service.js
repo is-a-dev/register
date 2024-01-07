@@ -23,7 +23,7 @@ const recordToZone = ({ name, type, address, id, priority }) => ({
 });
 
 const cleanName = name =>
-  name === DOMAIN_DOMAIN ? '@' : `${name}`.replace(new RegExp(`\\.?${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
+  [DOMAIN_DOMAIN, `${DOMAIN_DOMAIN}.`].includes(name) ? '@' : `${name}`.replace(new RegExp(`\\.${DOMAIN_DOMAIN}\\.?$`), '').toLowerCase();
 
 const zoneToRecord = ({
   name,
@@ -63,8 +63,7 @@ const diffRecords = (oldRecords, newRecords) => {
   const isMatchingRecord = (a, b) => getHostKey(a) === getHostKey(b);
 
   const remove = R.differenceWith(isMatchingRecord, oldRecords, newRecords);
-  const add = R.differenceWith(isMatchingRecord, newRecords, oldRecords)
-    .filter(r => !['www'].includes(r.name));
+  const add = R.differenceWith(isMatchingRecord, newRecords, oldRecords);
 
   return { add, remove };
 };
@@ -86,8 +85,7 @@ const executeBatch = (batches) => batches.reduce((promise, batch, index) => {
 }, Promise.resolve());
 
 const isReserved = (domain) =>
-  !domain.name ||
-    domain.name.startsWith('*') ||
+  domain.name.startsWith('*') ||
     !VALID_RECORD_TYPES.includes(domain.type)
 
 const getDomainService = ({ cpanel }) => {
