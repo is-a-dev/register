@@ -4,6 +4,6 @@
         "email": "mj@naous.eu.org"
     },
     "record": {
-        "CNAME": "mjnaous.github.io"
+        "CNAME": ""[{"type":"CNAME","value":"naous.eu.org","allowMultiple":false}]""
     }
 }
