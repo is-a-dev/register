@@ -134,7 +134,7 @@ const getDomainService = ({ cpanel }) => {
     batchLazyTasks(BATCH_SIZE),
     R.filter(Boolean),
     R.map(R.cond([
-      [R.propEq('name', 'www'), R.always(null)], // Ignore www
+      // [R.propEq('name', 'www'), R.always(null)], // Ignore www
       [R.propEq('type', 'URL'), addRedirection],
       [R.T, addZoneRecord],
     ])),
