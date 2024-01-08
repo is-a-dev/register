@@ -7,12 +7,7 @@
     
         "record": {
              "CNAME": "superuser-l.github.io",
-             "TXT": [
-            {
-                "name": "_github-pages-challenge-superuser-l.it",
-                "value": "612be6ed1c46c3f2ae43faf700aa5a"
-            }
-        ]
+            
         }
  }
 
