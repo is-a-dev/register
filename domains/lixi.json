@@ -1,35 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lixi's AI Project</title>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Additional information about the developer
-            const developerInfo = {
-                name: "Lixi",
-                role: "Developer",
-                project: "Working on an exciting AI project."
-            };
+// Additional information about the developer
+const developerInfo = {
+    name: "Lixi",
+    role: "Developer",
+    expertise: ["Web Development", "AI"],
+    project: {
+        name: "AI Wonderland",
+        description: "An immersive AI project exploring the boundaries of technology.",
+        technologies: ["Machine Learning", "Natural Language Processing"]
+    }
+};
 
-            // Displaying the information on the webpage
-            document.getElementById('developer-name').innerText = developerInfo.name;
-            document.getElementById('developer-role').innerText = developerInfo.role;
-            document.getElementById('project-description').innerText = developerInfo.project;
-        });
-    </script>
-</head>
-<body>
-    <header>
-        <h1>Welcome to Lixi's AI Project</h1>
-    </header>
-    <section>
-        <p>Hello, I'm <span id="developer-name"></span>, a <span id="developer-role"></span>.</p>
-        <p><span id="project-description"></span></p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Lixi. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+// Displaying the information
+console.log("Hello, I'm Lixi " + developerInfo.name + ", a " + developerInfo.role + ".");
+console.log("I specialize in " + developerInfo.expertise.join(', ') + ".");
+console.log("Currently, I'm working on the project '" + developerInfo.project.name + "'.");
+console.log("Description: " + developerInfo.project.description);
+console.log("Technologies used: " + developerInfo.project.technologies.join(', '));
