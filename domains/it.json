@@ -6,6 +6,7 @@
         },
     
         "record": {
+             "CNAME": "superuser-l.github.io",
              "TXT": [
             {
                 "name": "_github-pages-challenge-superuser-l.it",
