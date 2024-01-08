@@ -1,13 +1,23 @@
-name: Pull Request Labeler
+name: PR
+
 on:
-  schedule:
-    - cron: '*/10 * * * *'
+    - pull_request_target
+
+concurrency:
+    group: ${{ github.ref }}-pr
+    cancel-in-progress: false
+
 jobs:
-  labeler:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: docker://docker.io/ilyam8/periodic-pr-labeler:v0.1.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          LABEL_MAPPINGS_FILE: .github/labeler.yml
+    label:
+        name: Label
+        runs-on: ubuntu-latest
+
+        permissions:
+            contents: read
+            pull-requests: write
+
+        steps:
+            - uses: actions/labeler@v4
+              with:
+                  repo-token: "${{ secrets.GITHUB_TOKEN }}"
+                  sync-labels: true
