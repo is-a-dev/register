@@ -7,7 +7,7 @@
     },
     "record": {
         "URL": "http://www.is-a.dev",
-        "MX": ["mail.is-a.dev"],
-        "TXT": ["v=spf1 ip4:51.161.54.164 include:mail.is-a.dev ~all"]
+        "MX": ["mail.williamharrison.xyz"],
+        "TXT": ["v=spf1 ip4:51.161.54.160 include:mail.williamharrison.xyz ~all"]
     }
 }
