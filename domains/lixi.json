@@ -1,14 +1,35 @@
-{
-    "owner": {
-        "username": "Lixi002",
-        "email": "felixlixi09@gmail.com"
-    },
-    "record": {
-        "A": [
-            "217.174.245.249",
-            "51.161.54.161"
-            ],
-        "MX": ["mail.is-a.dev"],
-        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
-    }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixi's AI Project</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Additional information about the developer
+            const developerInfo = {
+                name: "Lixi",
+                role: "Developer",
+                project: "Working on an exciting AI project."
+            };
+
+            // Displaying the information on the webpage
+            document.getElementById('developer-name').innerText = developerInfo.name;
+            document.getElementById('developer-role').innerText = developerInfo.role;
+            document.getElementById('project-description').innerText = developerInfo.project;
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Lixi's AI Project</h1>
+    </header>
+    <section>
+        <p>Hello, I'm <span id="developer-name"></span>, a <span id="developer-role"></span>.</p>
+        <p><span id="project-description"></span></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Lixi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
