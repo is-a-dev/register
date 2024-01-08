@@ -1,11 +1,14 @@
 {
-    "description": "Matt Casey is a Developer!",
-    "repo": "https://github.com/mattcasey",
     "owner": {
-        "username": "mattcasey",
-        "email": "mattwad@gmail.com"
+        "username": "SpearDevelopment1",
+        "email": "dev@spear.best"
     },
     "record": {
-        "URL": "https://www.linkedin.com/in/mbcasey"
+        "A": [
+            "217.174.245.249",
+            "51.161.54.161"
+            ],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
