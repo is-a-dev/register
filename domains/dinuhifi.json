@@ -1,14 +1,11 @@
 {
+    "description": "My Portfolio",
+    "repo": "https://github.com/dinuhifi/dinuhifi.github.io",
     "owner": {
         "username": "dinuhifi",
-        "email": "dinesh23110077@snuchennai.edu.in"
+        "email": "dinesh23110077@snuchennai.edu.in",
     },
     "record": {
-        "A": [
-            "217.174.245.249",
-            "51.161.54.161"
-            ],
-        "MX": ["mail.is-a.dev"],
-        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+        "CNAME": "dinuhifi.github.io"
     }
-}
+} 
