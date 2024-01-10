@@ -5,6 +5,6 @@
     },
 
     "record": {
-        "CNAME": "dns.beadman-network.com"
+        "TXT": "c551c059fb167540ec0498d9011556"
     }
 }
