@@ -6,8 +6,6 @@
         "email": "mosaabgka@outlook.com"
     },
     "record": {
-        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
-        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+        "NS": ["ns1.hostry.com", "ns2.hostry.com", "ns3.hostry.com", "ns4.hostry.com"]
     }
 }
