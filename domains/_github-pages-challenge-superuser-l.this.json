@@ -4,6 +4,11 @@
         "email": "kmtechnical2006@gmail.com"
     },
     "record": {
-        "TXT": "a877a72296a97b52bb3913a1fc05da"
+        "A": [
+            "217.174.245.249",
+            "51.161.54.161"
+            ],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
