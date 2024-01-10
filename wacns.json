@@ -1,0 +1,11 @@
+{
+    "description": "This is my website",
+    "repo": "https://github.com/wacns/wacns.github.io",
+    "owner": {
+        "username": "wacns",
+        "email": "abody2013mohd@gmail.com"
+    },
+    "record": {
+        "CNAME": "wacns.github.io"
+    }
+}
