@@ -4,9 +4,8 @@
         "email": "me@fuccsoc.com"
       },
       "record": {
-        "MX": "mx01.mail.icloud.com",
-        "MX": "mx02.mail.icloud.com",
-        "TXT": "apple-domain=6Ilu1Oqr5x44UzLR",
-        "TXT": "v=spf1 include:icloud.com ~all"
+        "MX": [ "mx01.mail.icloud.com", "mx02.mail.icloud.com" ],
+        "TXT": [ "apple-domain=6Ilu1Oqr5x44UzLR", "v=spf1 include:icloud.com ~all" ],
+        "URL": "https://fuccsoc.me"
       }
     }  
