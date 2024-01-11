@@ -1,7 +1,8 @@
+	
 {
     "owner": {
-        "username": "DarindaDraX",
-        "email": "123kishanvish@gmail.com"
+        "username": "Lixi002",
+        "email": "felixlixi09@gmail.com"
     },
     "record": {
         "A": [
@@ -11,4 +12,4 @@
         "MX": ["mail.is-a.dev"],
         "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
-}
+} 
