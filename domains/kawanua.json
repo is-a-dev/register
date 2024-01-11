@@ -1,10 +1,12 @@
 {
-    "owner": {
-        "username": "kawanuaid",
-        "email": "kuntua@kawanua.co"
-    },
+  "repo": "https://github.com/kawanuaid",
+  "owner": {
+    "username": "kawanuaid",
+    "twitter": "kawanua",
+    "email": ""
+  },
 
-    "record": {
-        "CNAME": "kidorid.netlify.app"
-    }
+  "record": {
+    "URL": "https://www.kawanua.id"
+  }
 }
