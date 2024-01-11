@@ -1,11 +1,9 @@
-
     {
       "owner": {
         "username": "fuccsoc",
         "email": "me@fuccsoc.com"
       },
       "record": {
-        "URL": "https://fuccsoc.me",
         "MX": "mx01.mail.icloud.com",
         "MX": "mx02.mail.icloud.com",
         "TXT": "apple-domain=6Ilu1Oqr5x44UzLR",
