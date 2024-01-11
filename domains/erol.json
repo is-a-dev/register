@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "erolj",
-        "email": "eroljoudy@pm.me"
-    },
+  "owner": {
+    "username": "erolj",
+    "email": ""
+  },
 
-    "record": {
-        "CNAME": "eroldev.netlify.app"
-    }
+  "record": {
+    "URL": "https://erol.kawanua.id"
+  }
 }
