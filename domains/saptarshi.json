@@ -1,12 +1,14 @@
 {
-        "owner": {
-           "username": "saptarshihalder",
-           "email": "saptarshihalder69@gmail.com",
-           "discord": "747718545307336797"
-        },
-    
-        "record": {
-            "CNAME": "saptarshihalder.github.io"
-        }
+    "owner": {
+        "username": "saptarshihalder",
+        "email": "saptarshihalder69@gmail.com"
+    },
+    "record": {
+        "A": [
+            "217.174.245.249",
+            "51.161.54.161"
+            ],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
-    
+}
