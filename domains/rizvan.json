@@ -4,6 +4,7 @@
         "email": "rizvankurungattil@gmail.com"
     },
     "record": {
-        "CNAME": "Mrizvank.github.io"
+        "CNAME": "Mrizvank.github.io",
+        "TXT":"google-site-verification=c9OOAgBecSS7ZumhxYol2VeSux5_S4B8_V_k2qxIl1c"
     }
 }
