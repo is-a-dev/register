@@ -4,6 +4,13 @@
         "email": "kmtechnical2006@gmail.com"
     },
     "record": {
-        "TXT": "baf1449796e1170dc35913dbe7d01f"
+        "TXT": "baf1449796e1170dc35913dbe7d01f",
+        "CNAME": "superuser-l.github.io",
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ]
     }
 }
