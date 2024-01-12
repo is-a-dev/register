@@ -1,0 +1,20 @@
+{
+    "owner": {
+        "username": "horn7x",
+        "email": "133672531+horn7x@users.noreply.github.com",
+        "note": "This record was created by is-a.dev Discord bot via discord id: 958443139918598204"
+    },
+
+    "record": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+
+        "TXT": "forward-email=horn7x@gmail.com"
+    }
+}

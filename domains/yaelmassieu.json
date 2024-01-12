@@ -1,11 +1,9 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "bystrokr",
         "email": "jamesisajamessx@gmail.com"
-      },
-      "record": {
+    },
+    "record": {
         "A": ["66.45.229.178"]
-      }
     }
-  
+}

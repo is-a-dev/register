@@ -1,12 +1,12 @@
 {
-  "description": "Bear's Portfolio Website",
-  "repo": "https://github.com/bearts/bearts.github.io",
+    "description": "Bear's Portfolio Website",
+    "repo": "https://github.com/bearts/bearts.github.io",
     "owner": {
         "username": "bearts",
         "email": "anujparihar@yahoo.com",
         "twitter": "anujpflash"
-  },
-  "record": {
-    "CNAME": "bearts.github.io"
-  }
+    },
+    "record": {
+        "CNAME": "bearts.github.io"
+    }
 }

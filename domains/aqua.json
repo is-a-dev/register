@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "AquaQuokka",
         "email": "aquaquokka@outlook.com"
-      },
+    },
 
-      "record": {
-        "URL": "https://aquaquokka.carrd.co"
-      }
+    "record": {
+        "CNAME": "aquaquokka.github.io"
     }
-  
+}

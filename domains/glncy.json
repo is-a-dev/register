@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "glncy",
         "email": "glency.a.tirao@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "glncy.github.io"
-      }
     }
-  
+}

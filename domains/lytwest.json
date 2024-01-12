@@ -1,11 +1,11 @@
 {
-  "description": "My Personal Website uwu :3",
-  "repo": "https://github.com/Lytwest/lytwest.github.io",
-  "owner": {
-    "username": "Lytwest",
-    "email": "lytwest@gmail.com"
-  },
-  "record": {
-    "CNAME": "lytwest.github.io"
-  }
+    "description": "My Personal Website uwu :3",
+    "repo": "https://github.com/Lytwest/lytwest.github.io",
+    "owner": {
+        "username": "Lytwest",
+        "email": "lytwest@gmail.com"
+    },
+    "record": {
+        "CNAME": "lytwest.github.io"
+    }
 }

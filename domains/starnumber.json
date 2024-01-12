@@ -1,9 +1,9 @@
 {
-  "description": "StarNumber's blog",
-  "repo": "https://github.com/starnumber12046",
-  "owner": {
-    "username": "starnumber12046",
-    "email": "starnumber.official12046@gmail.com"
-  },
-  "record": {"CNAME": "hashnode.network"}
+    "description": "StarNumber's blog",
+    "repo": "https://github.com/starnumber12046",
+    "owner": {
+        "username": "starnumber12046",
+        "email": "starnumber.official12046@gmail.com"
+    },
+    "record": { "CNAME": "hashnode.network" }
 }

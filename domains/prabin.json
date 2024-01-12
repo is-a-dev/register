@@ -1,11 +1,11 @@
 {
-  "description": "Personal Web",
-  "repo": "https://github.com/prabincankod/prabincankod.github.io",
-  "owner": {
-    "username": "prabincankod",
-    "email": "prabinsubedi2016@gmail.com"
-  },
-  "record": {
-    "URL":"https://prabin.tech"
-  }
+    "description": "Personal Web",
+    "repo": "https://github.com/prabincankod/prabincankod.github.io",
+    "owner": {
+        "username": "prabincankod",
+        "email": "prabinsubedi2016@gmail.com"
+    },
+    "record": {
+        "URL": "https://prabincankod.me"
+    }
 }

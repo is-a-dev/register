@@ -1,12 +1,10 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "nyelnizy",
         "email": "yhiamdan@gmail.com"
-      },
+    },
 
-      "record": {
+    "record": {
         "CNAME": "nyelnizy.github.io"
-      }
     }
-  
+}

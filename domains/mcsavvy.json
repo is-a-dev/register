@@ -1,10 +1,10 @@
 {
-  "owner":{ 
-    "username": "Mcsavvy",
-    "discord": "savvii#3184",
-    "email": "davemcsavvii@gmail.com"
-  },
-  "record": { 
-    "CNAME": "mcsavvy.github.io" 
-  }
+    "owner": {
+        "username": "Mcsavvy",
+        "discord": "savvii#3184",
+        "email": "davemcsavvii@gmail.com"
+    },
+    "record": {
+        "CNAME": "mcsavvy.github.io"
+    }
 }

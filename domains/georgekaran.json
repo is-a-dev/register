@@ -1,11 +1,11 @@
 {
-  "description": "George Karan - Personal Page",
-  "repo": "https://github.com/georgekaran",
-  "owner": {
-    "username": "georgekaran",
-    "email": "georgekaran12@gmail.com"
-  },
-  "record": {
-    "URL": "https://georgekaran.com"
-  }
+    "description": "George Karan - Personal Page",
+    "repo": "https://github.com/georgekaran",
+    "owner": {
+        "username": "georgekaran",
+        "email": "georgekaran12@gmail.com"
+    },
+    "record": {
+        "URL": "https://georgekaran.com"
+    }
 }

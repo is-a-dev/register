@@ -1,12 +1,14 @@
-
-    {
-      "owner": {
+{
+    "description": "Personal Website",
+    "repo": "https://github.com/Default-Box/website",
+    "owner": {
         "username": "Default-Box",
-        "email": "thedefaultbox@gmail.com"
-      },
+        "email": "",
+        "twitter": "DefaultBox_",
+        "discord": "Default Box#8900"
+    },
 
-      "record": {
-        "CNAME": "my-website-production-1d23.up.railway.app"
-      }
+    "record": {
+        "CNAME": "Default-Box.github.io"
     }
-  
+}

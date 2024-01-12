@@ -1,11 +1,11 @@
 {
-  "description": "Mazen Gohar - DEV",
-  "repo": "https://github.com/MazenGohar",
-  "owner": {
-    "username": "MazenGohar",
-    "email": "mizoiology@gmail.com"
-  },
-  "record": {
-    "CNAME": "mazen-gohar-dev.onrender.com"
-  }
+    "description": "Mazen Gohar - DEV",
+    "repo": "https://github.com/MazenGohar",
+    "owner": {
+        "username": "MazenGohar",
+        "email": "mizoiology@gmail.com"
+    },
+    "record": {
+        "CNAME": "mazen-gohar-dev.onrender.com"
+    }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "A personal website, with biodata.",
-  "repo": "https://github.com/abhigyantrips/abhigyantrips.github.io",
-  "owner": {
-    "username": "abhigyantrips",
-    "email": "abhigyantrips@gmail.com"
-  },
-  "record": {
-    "CNAME": "abhigyantrips.github.io"
-  }
+    "description": "A personal website, with biodata.",
+    "repo": "https://github.com/abhigyantrips/abhigyantrips.github.io",
+    "owner": {
+        "username": "abhigyantrips",
+        "email": "abhigyantrips@gmail.com"
+    },
+    "record": {
+        "CNAME": "abhigyantrips.github.io"
+    }
 }

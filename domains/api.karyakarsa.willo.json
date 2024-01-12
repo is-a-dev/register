@@ -1,12 +1,12 @@
 {
-  "description": "api for karyakarsa",
-  "repo": "https://github.com/WilloIzCitron/karyakarsa-rest-api",
-  "owner": {
-    "username": "WilloIzCitron",
-    "email": "",
-    "twitter": "willoizcitron"
-  },
-  "record": {
-    "CNAME": "karyakarsa-rest-api-production.up.railway.app"
-  }
+    "description": "api for karyakarsa",
+    "repo": "https://github.com/WilloIzCitron/karyakarsa-rest-api",
+    "owner": {
+        "username": "WilloIzCitron",
+        "email": "",
+        "twitter": "willoizcitron"
+    },
+    "record": {
+        "CNAME": "karyakarsa-rest-api-production.up.railway.app"
+    }
 }

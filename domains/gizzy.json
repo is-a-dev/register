@@ -1,12 +1,12 @@
-
-    {
-      "owner": {
-        "username": "NeroGizmoUwU",
-        "email": "minecraftcoolglibchannel@gmail.com"
-      },
-
-      "record": {
-        "CNAME": "nero-pi.duckdns.org"
-      }
+{
+    "description": "gizzy.is-a.dev",
+    "owner": {
+        "username": "GizzyUwU",
+        "email": "nerop455@gmail.com",
+        "discord": "gizzyowo"
+    },
+    "record": {
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=nerop455@gmail.com"
     }
-  
+}
