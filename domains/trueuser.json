@@ -4,6 +4,6 @@
       "email": "thisistrueemail@gmail.com"
   },
     "record": {
-      "CNAME": "proxy.private.danbot.host"
+      "A": ["69.30.249.53"]
   }
 }
