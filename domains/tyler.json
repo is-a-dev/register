@@ -1,11 +1,14 @@
 {
-    "description": "Tyler McCarthy is a Developer!",
-    "repo": "https://github.com/tmccarthyj",
     "owner": {
-        "username": "tmccarthyj",
-        "email": "tyler@tjm.dev"
+        "username": "G2C-DC",
+        "email": "tylercalumacker@gmail.com"
     },
     "record": {
-        "CNAME": "tjm.dev"
+        "A": [
+            "217.174.245.249",
+            "51.161.54.161"
+            ],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }

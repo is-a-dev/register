@@ -1,11 +1,12 @@
 {
-    "description": "Register-bot",
-    "repo": "https://github.com/andrewstech/is-a-dev-bot",
-    "owner": {
-        "username": "is-a-dev",
-        "email": "phenax5@gmail.com"
-    },
-    "record": {
-        "CNAME": "dns.beadman-network.com"
+        "owner": {
+           "username": "is-a-dev",
+           "email": "andrew@maintainers.is-a.dev",
+           "discord": "598245488977903688"
+        },
+    
+        "record": {
+            "A": ["217.174.245.249"]
+        }
     }
-}
+    
