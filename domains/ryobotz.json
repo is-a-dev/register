@@ -4,6 +4,6 @@
         "email": "dgfrosdgfros@gmail.com"
     },
      "record": {
-        "CNAME": "pnode1.danbot.host:5525"
+        "A": "69.30.249.53"
      }
 }
