@@ -4,6 +4,6 @@
         "email": "andreykelbler@outlook.de"
     },
     "record": {
-        "CNAME": "proxy.private.danbot.host"
+        "A": ["69.30.249.53"]
     }
 }
