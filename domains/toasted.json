@@ -1,13 +1,13 @@
 {
     "description": "official website of toastedtoast",
-    "repo": "https://github.com/ToastedDev/toastify.tk-v2",
+    "repo": "https://github.com/ToastedDev/toasted.dev",
     "owner": {
-        "username": "ToastifyDev",
-        "email": "hey@toastify.tk",
+        "username": "ToastedDev",
+        "email": "hey@toasted.dev",
         "twitter": "toasteddev",
-        "discord": "plasticaxolotl"
+        "discord": "nottca"
     },
     "record": {
-        "CNAME": "toasted.pages.dev"
+        "URL": "https://toasted.dev"
     }
 }
