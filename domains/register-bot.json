@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "is-a-dev",
-           "email": "andrew@maintainers.is-a.dev",
-           "discord": "598245488977903688"
-        },
-    
-        "record": {
-            "A": ["217.174.245.249"]
-        }
+    "owner": {
+        "username": "is-a-dev-bot",
+        "email": "is-a-dev@win11react.com"
+    },
+    "record": {
+        "A": ["217.174.245.249"]
     }
-    
+}
