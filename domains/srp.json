@@ -4,6 +4,6 @@
         "email": "shadexdben@gmail.com"
     },
     "record": {
-        "CNAME": "45.151.143.188"
+        "A": ["45.151.143.188"]
     }
 }
