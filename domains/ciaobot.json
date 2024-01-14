@@ -1,16 +1,12 @@
 {
-    "owner": {
-        "username": "Ciao287",
-        "email": "",
-        "discord": "687333016921440317"
-    },
-    "record": {
-        "A": [
-            "84.46.245.191"
-        ],
-        "MX": [
-            "mail.is-a.dev"
-        ],
-       "TXT": "v=spf1 include:mail.is-a.dev ~all"
-    }
+  "owner": {
+    "username": "Ciao287",
+    "email": "",
+    "discord": "687333016921440317"
+  },
+  "record": {
+    "A": ["84.46.245.191"],
+    "MX": ["mail.is-a.dev"],
+    "TXT": "v=spf1 include:mail.is-a.dev ~all"
+  }
 }

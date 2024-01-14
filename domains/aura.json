@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "auravoid",
-        "email": "github@auravoid.dev"
-    },
+  "owner": {
+    "username": "auravoid",
+    "email": "github@auravoid.dev"
+  },
 
-    "record": {
-        "CNAME": "auravoid.github.io"
-    }
+  "record": {
+    "CNAME": "auravoid.github.io"
+  }
 }
