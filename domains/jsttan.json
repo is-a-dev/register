@@ -1,12 +1,14 @@
 {
-        "owner": {
-           "username": "Jst-Tan",
-           "email": "77162018+Jst-Tan@users.noreply.github.com",
-           "discord": "1077450378880233512"
-        },
-    
-        "record": {
-            "CNAME": "jst-tan.github.io"
-        }
+    "owner": {
+        "username": "Jst-Tan",
+        "email": "jestonjst@gmail.com"
+    },
+    "record": {
+        "A": [
+            "217.174.245.249",
+            "51.161.54.161"
+            ],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
-    
+}
