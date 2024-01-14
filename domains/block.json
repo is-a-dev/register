@@ -1,12 +1,10 @@
 {
-        "owner": {
-           "username": "is-a-dev-bot",
-           "email": "is-a-dev@win11react.com",
-           "discord": "598245488977903688"
-        },
-    
-        "record": {
-            "MX": ["mail.is-a.dev"]
-        }
+    "owner": {
+        "username": "CookieTriste",
+        "email": "romain.tocsin@gmail.com"
+    },
+    "record": {
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
-    
+}
