@@ -9,12 +9,10 @@
             "217.174.245.249"
         ],
         "MX": [
-            "mx1.forwardemail.net",
-            "mx2.forwardemail.net"
+            "mail.is-a.dev"
         ],
         "TXT": [
-            "forward-email=admin:admin.main@mail.stefdp.is-a.dev",
-            "forward-email=/^(?!admin$).*/:main@mail.stefdp.is-a.dev"
+            "v=spf1 mx a:mail.is-a.dev ip4:217.174.245.249 ~all"
         ]
     }
 }

@@ -1,11 +1,11 @@
 {
-    "description": "Akas Portfolio",
-    "repo": "https://github.com/akasrai/akasrai.github.io",
     "owner": {
         "username": "akasrai",
         "email": "akasky70@gmail.com"
     },
     "record": {
-        "CNAME": "akasrai.github.io"
+        "A": ["217.174.245.249", "51.161.54.161"],
+        "MX": ["hosts.is-a.dev"],
+        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
     }
 }

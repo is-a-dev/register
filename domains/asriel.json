@@ -3,10 +3,10 @@
     "repo": "https://github.com/asrielthegoat/asrielthegoat.github.io",
     "owner": {
         "username": "AsrieltheGoat",
-        "email": "admin@dreemurrs.eu.org",
-        "discord": "AsrieltheGoat#9753"
+        "email": "ganyu@segs.eu.org",
+        "discord": "AsrieltheGoat"
     },
     "record": {
-        "A": ["146.56.191.239"]
+        "CNAME": "asrielthegoat.github.io"
     }
 }

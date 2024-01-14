@@ -6,14 +6,13 @@
     },
     "record": {
         "A": [
-            "217.174.245.249"
+            "109.71.252.37"
         ],
         "MX": [
-            "mx1.forwardemail.net",
-            "mx2.forwardemail.net"
+            "mail.is-a.dev"
         ],
         "TXT": [
-            "forward-email=support:support.gattinhosbot@mail.stefdp.is-a.dev"
+            "v=spf1 mx a:mail.is-a.dev ~all"
         ]
     }
 }
