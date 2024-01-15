@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "MsmProfessional",
+        "email": "textnow1pak@gmail.com"
+    },
+    "record": {
+        "A": [
+            "76.76.21.21"
+            ],
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+    }
+}
