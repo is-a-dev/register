@@ -1,12 +1,12 @@
 {
     "owner": {
         "username": "Stef-00012",
-        "email": "stefano.delprete.08@gmail.com"
+        "email": "admin@stefdp.is-a.dev"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "AAAA": ["2a00:da00:1800:83a4::1"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "A": [
+            "172.66.47.12",
+            "172.66.44.244"
+        ]
     }
 }
