@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/iksmfu/iksmfu.github.io",
+    "owner": {
+        "username": "iksmfu",
+        "email": "iksmfu@domain.com"
+    },
+    "record": {
+        "CNAME": "iksmfu.github.io"
+    }
+} 
