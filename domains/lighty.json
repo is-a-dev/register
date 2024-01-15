@@ -1,10 +1,11 @@
 {
-    "owner": {
-        "username": "ImLighty",
-        "email": "imlighty@duck.com"
-    },
+  "owner": {
+    "username": "ssynical",
+    "email": "trapizoids543@gmail.com",
+    "discord": "1108616541739700284"
+  },
 
-    "record": {
-        "CNAME": "imlighty.github.io"
-    }
+  "record": {
+    "CNAME": "ssynical.github.io"
+  }
 }

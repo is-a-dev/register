@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "da-kurlzzzzz",
-        "email": "da_kurlzzzzz@mail.ru"
-    },
+  "owner": {
+    "username": "da-kurlzzzzz",
+    "email": "da_kurlzzzzz@mail.ru"
+  },
 
-    "record": {
-        "CNAME": "sergeyzarechnev.is-a-backend.dev"
-    }
+  "record": {
+    "CNAME": "sergeyzarechnev.is-a-backend.dev"
+  }
 }
