@@ -1,9 +1,9 @@
 {
-    "owner": {
-      "username": "istrueuser",
-      "email": "thisistrueemail@gmail.com"
+  "owner": {
+    "username": "istrueuser",
+    "email": "thisistrueemail@gmail.com"
   },
-    "record": {
-      "A": ["69.30.249.53"]
+  "record": {
+    "A": ["69.30.249.53"]
   }
 }

@@ -1,12 +1,11 @@
 {
-        "owner": {
-           "username": "is-a-dev-bot",
-           "email": "is-a-dev@win11react.com",
-           "discord": "598245488977903688"
-        },
-    
-        "record": {
-            "MX": ["mail.is-a.dev"]
-        }
-    }
-    
+  "owner": {
+    "username": "is-a-dev-bot",
+    "email": "is-a-dev@win11react.com",
+    "discord": "598245488977903688"
+  },
+
+  "record": {
+    "MX": ["mail.is-a.dev"]
+  }
+}
