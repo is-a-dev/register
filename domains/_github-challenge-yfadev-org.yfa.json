@@ -1,14 +1,14 @@
 {
-    "owner": {
-        "username": "YouFoundAlpha",
-        "email": "alpha@alpha.is-a.dev",
-        "Discord": "661121998830960651",
-        "Twitter": "YouFoundAlpha",
-        "GitHub": "YouFoundAlpha",
-        "GitLab": "YouFoundAlpha",
-        "Mastodon": "@YouFoundAlpha@mastodon.social"
-    },
-    "record": {
-        "TXT": "3436b41d67"
-    }
+  "owner": {
+    "username": "YouFoundAlpha",
+    "email": "alpha@alpha.is-a.dev",
+    "Discord": "661121998830960651",
+    "Twitter": "YouFoundAlpha",
+    "GitHub": "YouFoundAlpha",
+    "GitLab": "YouFoundAlpha",
+    "Mastodon": "@YouFoundAlpha@mastodon.social"
+  },
+  "record": {
+    "TXT": "3436b41d67"
+  }
 }

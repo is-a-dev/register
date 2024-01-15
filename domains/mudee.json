@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "IMudee",
-        "email": "NotMudee@proton.me"
-    },
-    "record": {
-        "CNAME": "hosts.is-a.dev"
-    }
+  "owner": {
+    "username": "IMudee",
+    "email": "NotMudee@proton.me"
+  },
+  "record": {
+    "CNAME": "hosts.is-a.dev"
+  }
 }
