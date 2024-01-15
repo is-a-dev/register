@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "pjschinske",
-        "email": "pjschinske@gmail.com"
-    },
+  "owner": {
+    "username": "pjschinske",
+    "email": "pjschinske@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "pjschinske.github.io"
-    }
+  "record": {
+    "CNAME": "pjschinske.github.io"
+  }
 }

@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "E8D08F",
-        "email": "the@unpopular.me"
-    },
+  "owner": {
+    "username": "E8D08F",
+    "email": "the@unpopular.me"
+  },
 
-    "record": {
-        "CNAME": "chunghwa.asia"
-    }
+  "record": {
+    "CNAME": "chunghwa.asia"
+  }
 }
