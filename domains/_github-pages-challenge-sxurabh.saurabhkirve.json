@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "berzcode",
-        "email": "saurabhkirve@gmail.com"
-    },
+  "owner": {
+    "username": "berzcode",
+    "email": "saurabhkirve@gmail.com"
+  },
 
-    "record": {
-        "TXT": "e587577c97f73d2047aaf6ec8ff92c"
-    }
+  "record": {
+    "TXT": "e587577c97f73d2047aaf6ec8ff92c"
+  }
 }
