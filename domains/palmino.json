@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "buatkakung",
-        "email": "buatkakung@gmail.com"
-    },
+  "owner": {
+    "username": "buatkakung",
+    "email": "buatkakung@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "timdis.id"
-    }
+  "record": {
+    "CNAME": "timdis.id"
+  }
 }
