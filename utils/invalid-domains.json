@@ -1,7 +1,9 @@
 [
   "_acme-challenge",
+  "_discord",
   "_github-challenge-is-a-dev",
   "_github-pages-challenge-is-a-dev",
+  "example",
   "help",
   "no-reply",
   "noreply",
@@ -9,11 +11,16 @@
   "notifications",
   "support",
   "ww",
-  "ww1",
-  "ww2",
-  "ww3",
-  "ww4",
+  "www0",
+  "www1",
+  "www2",
+  "www3",
+  "www4",
+  "www5",
+  "www6",
+  "www7",
+  "www8",
+  "www9",
   "wwww",
-  "your-domain-name",
-  "_discord"
+  "your-domain-name"
 ]
