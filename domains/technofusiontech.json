@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "TechnoFusionTech",
-        "email": "technofusiontech@techie.com"
-    },
-    "record": {
-        "CNAME": "technofusiontech.github.io"
-    }
+  "owner": {
+    "username": "TechnoFusionTech",
+    "email": "technofusiontech@techie.com"
+  },
+  "record": {
+    "CNAME": "technofusiontech.github.io"
+  }
 }
