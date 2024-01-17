@@ -9,23 +9,37 @@ const isValidURL = and([R.is(String), testRegex(/^https?:\/\//ig)]);
 
 const isValidDomain = and([R.is(String), testRegex(/^(([a-z0-9-]+)\.)+[a-z]+$/ig)]);
 
-const validateCnameRecord = type => and([
+const validateCNAMERecord = type => and([
   R.propIs(String, type),
   R.compose(withLengthEq(1), R.keys), // CNAME cannot be used with any other record
   R.propSatisfies(withLengthGte(4), type),
   R.propSatisfies(isValidDomain, type),
+
+  // Stop if the CNAME ends with netlify.com / netlify.app / vercel.app
+  R.complement(R.any(testRegex(/(netlify|vercel)\.(com|app)$/i))),
 ]);
 
 const validateARecord = type => and([
   R.propIs(Array, type),
   R.propSatisfies(withLengthGte(1), type),
   R.all(testRegex(ipRegex.v4({ exact: true }))),
+
+  // Stop 76.76.21.0/24 IP block from being used (Vercel)
+  R.complement(R.any(testRegex(/^76\.76\.21\./))),
 ]);
 
 const validateMXRecord = type => and([
   R.propIs(Array, type),
   R.propSatisfies(withLengthGte(1), type),
   R.propSatisfies(R.all(isValidDomain), type),
+]);
+
+const validateTXTRecord = type => and([
+  R.propSatisfies(or([ R.is(String), R.is(Array) ]), type),
+  R.propSatisfies(R.all(R.is(String)), type),
+
+  // Stop if the TXT record starts with vc-domain-verify
+  R.complement(R.any(testRegex(/^vc-domain-verify/))),
 ]);
 
 const validateAAAARecord = R.propSatisfies(and([
@@ -78,16 +92,16 @@ const validateDomainData = validate({
     ]),
   },
   record: {
-    reason: 'Invalid record. CNAME records have to be a host name and A records has to be a list of ips',
+    reason: 'Invalid record. CNAME records have to be a host name. A records have to be a list of IPs. TXT records have to be a string or an array of strings. MX records have to be a list of host names. URL records have to be a valid URL. AAAA records have to be a list of IPv6 addresses.',
     fn: and([
       R.is(Object),
       R.compose(R.isEmpty, R.difference(R.__, VALID_RECORD_TYPES), R.keys),
       R.cond([
-        [R.has('CNAME'), validateCnameRecord('CNAME')],
+        [R.has('CNAME'), validateCNAMERecord('CNAME')],
         [R.has('A'), validateARecord('A')],
         [R.has('URL'), R.propSatisfies(isValidURL, 'URL')],
         [R.has('MX'), validateMXRecord('MX')],
-        [R.has('TXT'), R.propSatisfies(or([ R.is(String), R.is(Array) ]), 'TXT')],
+        [R.has('TXT'), validateTXTRecord('TXT')],
         [R.has('AAAA'), validateAAAARecord('AAAA')],
         [R.T, R.T],
       ]),

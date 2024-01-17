@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "wdhdev",
+    "email": "william@williamharrison.dev"
+  },
+
+  "record": {
+    "A": ["76.76.21.21"],
+    "TXT": ["vc-domain-verify=test.is-a.dev,abcdefghijklmnopqrstuvwxyz1234567890"]
+  }
+}
