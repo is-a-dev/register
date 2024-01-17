@@ -1,12 +1,12 @@
 {
-    "owner": {
-        "username": "ss-29",
-        "email": "shekhar2906@outlook.com"
-    },
-    "record": {
-        "A": ["217.174.245.249"],
-        "AAAA": ["2a00:da00:1800:83a4::1"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
-    }
+  "description": "Shashank's Github Page",
+  "repo": "https://github.com/ss-29/ss-29.github.io",
+  "owner": {
+    "username": "ss-29",
+    "email": "shekhar2906@outlook.com",
+    "twitter": "shashankxdev"
+  },
+  "record": {
+    "CNAME": "ss-29.github.io"
+  }
 }
