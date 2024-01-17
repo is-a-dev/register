@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "wdhdev",
+    "email": "william@williamharrison.dev"
+  },
+  "record": {
+    "A": ["1.1.1.1:3000"]
+  }
+}
