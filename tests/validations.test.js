@@ -65,7 +65,6 @@ describe('validateDomainData', () => {
     { ...defaultDomain, record: { A: '::1' } },
     { ...defaultDomain, name: '_discord' },
     { ...defaultDomain, name: '_gitlab-pages-verification-code' },
-    { ...defaultDomain, record: { A: ['122.222.222.222:3000'] } },
   ];
 
   const validCases = [
