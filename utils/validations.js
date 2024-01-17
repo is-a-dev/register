@@ -19,7 +19,7 @@ const validateCnameRecord = type => and([
 const validateARecord = type => and([
   R.propIs(Array, type),
   R.propSatisfies(withLengthGte(1), type),
-  R.all(testRegex(ipRegex.v4({ exact: true }))),
+  R.all(testRegex(ipRegex.v4({ exact: true, includeBoundaries: true }))),
 ]);
 
 const validateMXRecord = type => and([
