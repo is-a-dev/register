@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "RaannaKasturi",
-        "email": "raannakasturi@gmail.com"
-    },
+  "owner": {
+    "username": "RaannaKasturi",
+    "email": "raannakasturi@gmail.com"
+  },
 
-    "record": {
-        "A": ["185.27.134.3"]
-    }
+  "record": {
+    "A": ["185.27.134.3"]
+  }
 }

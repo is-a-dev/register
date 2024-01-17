@@ -1,13 +1,11 @@
 {
-    "owner": {
-        "username": "SlycIsACatboy",
-        "email": "noahhz942@gmail.com"
-    },
-    "record": {
-        "A": [
-            "137.184.119.127"
-            ],
-        "MX": ["mail.is-a.dev"],
-        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
-    }
+  "owner": {
+    "username": "SlycIsACatboy",
+    "email": "noahhz942@gmail.com"
+  },
+  "record": {
+    "A": ["137.184.119.127"],
+    "MX": ["mail.is-a.dev"],
+    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+  }
 }

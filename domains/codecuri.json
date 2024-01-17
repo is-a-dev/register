@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "KaizOffical",
-        "email": "anhkhangphan4@gmail.com"
-    },
+  "owner": {
+    "username": "KaizOffical",
+    "email": "anhkhangphan4@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "codecuri.onrender.com"
-    }
+  "record": {
+    "CNAME": "codecuri.onrender.com"
+  }
 }
