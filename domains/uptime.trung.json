@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "vuthanhtrung2010",
-        "email": "vuthanhtrungsuper@gmail.com"
-    },
-    "record": {
-        "CNAME": "proxy.private.danbot.host"
-    }
+  "owner": {
+    "username": "vuthanhtrung2010",
+    "email": "vuthanhtrungsuper@gmail.com"
+  },
+  "record": {
+    "CNAME": "manage.uptime.trung.is-a.dev"
+  }
 }
