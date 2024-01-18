@@ -1,9 +1,10 @@
 {
     "owner": {
-        "username": "is-a-dev-bot",
+        "username": "andrewstech",
         "email": "is-a-dev@win11react.com"
     },
     "record": {
-        "MX": ["mail.is-a.dev"]
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
