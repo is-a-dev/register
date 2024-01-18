@@ -1,0 +1,12 @@
+{
+    "description": "anbuinfosec",
+    "repo": "https://github.com/anbuinfosec/anbuinfosec.github.io",
+    "owner": {
+        "username": "anbuinfosec",
+        "email": "anbuinfosec@gmail.com",
+        "twitter": "anbuinfosec"
+    },
+    "record": {
+        "CNAME": "anbuinfosec.github.io"
+    }
+} 
