@@ -1,9 +1,12 @@
 {
+    "description": "blockbreaker dev website",
+    "repo": "https://github.com/TheBlockbreaker/theblockbreaker.github.io",
     "owner": {
         "username": "tootypatrooty6",
-        "email": "jmekhi32@gmail.com"
+        "email": "jmekhi32@gmail.com",
+        "twitter": "mcsgrimreaper"
     },
     "record": {
         "CNAME": "theblockbreaker.github.io"
     }
-}
+} 
