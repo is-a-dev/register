@@ -1,12 +1,12 @@
 {
-    "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/<github-username>/<github-username>.github.io",
+    "description": "anbuinfosec",
+    "repo": "https://github.com/anbuinfosec/anbuinfosec.github.io",
     "owner": {
-        "username": "<github-username>",
-        "email": "email@address",
-        "twitter": "<twitter-username>"
+        "username": "anbuinfosec",
+        "email": "anbuinfosec@gmail.com",
+        "twitter": "anbuinfosec"
     },
     "record": {
-        "CNAME": "<username>.github.io"
+        "CNAME": "anbuinfosec.github.io"
     }
 } 
