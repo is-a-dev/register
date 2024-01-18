@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "PassiveLemon",
-        "email": "lemonl3mn@protonmail.com"
-    },
-    "record": {
-        "CNAME": "citrus-tree.xyz"
-    }
+  "owner": {
+    "username": "PassiveLemon",
+    "email": "lemonl3mn@protonmail.com"
+  },
+  "record": {
+    "A": ["64.217.148.69"]
+  }
 }

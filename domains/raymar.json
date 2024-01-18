@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "RaymarMonte",
-        "email": "raymarmontecs@gmail.com"
-    },
+  "owner": {
+    "username": "RaymarMonte",
+    "email": "raymarmontecs@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "raymar-laboratory.surge.sh"
-    }
+  "record": {
+    "CNAME": "raymar-laboratory.surge.sh"
+  }
 }

@@ -1,20 +1,11 @@
 {
-    "description": "Developer portfolio",
-    "repo": "https://github.com/imatx/imatx.github.io",
-    "owner": {
-        "username": "imatx",
-        "email": "adam.essakhi16+github@gmail.com"
-    },
-    "record": {
-        "A": [
-            "185.199.108.153",
-            "185.199.109.153",
-            "185.199.110.153",
-            "185.199.111.153"
-        ],
-
-        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-
-        "TXT": "forward-email=adam.essakhi16+imat@gmail.com"
-    }
+  "description": "Developer portfolio",
+  "repo": "https://github.com/imatx/imatx.github.io",
+  "owner": {
+    "username": "imatx",
+    "email": "adam.essakhi16+github@gmail.com"
+  },
+  "record": {
+    "CNAME": "sites.bootstrapstudio.io"
+  }
 }
