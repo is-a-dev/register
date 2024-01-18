@@ -1,12 +1,12 @@
 {
-    "description": "Small portfolio for myself",
-    "repo": "https://github.com/WilliamAfton-codes/williamafton-codes.github.io",
-    "owner": {
-        "username": "WilliamAfton-codes",
-        "email": "williamafton.codes@gmail.com",
-        "twitter": "manlydalorian"
-    },
-    "record": {
-        "CNAME": "williamafton-codes.github.io"
-    }
-} 
+  "description": "My webpage, made using LiveTerm by Cveinnt",
+  "repo": "https://github.com/aftoncodes/aftoncodes.github.io",
+  "owner": {
+    "username": "aftoncodes",
+    "email": "williamafton.codes@gmail.com",
+    "twitter": "aftoncodes"
+  },
+  "record": {
+    "URL": "https://aftoncodes.vercel.app"
+  }
+}

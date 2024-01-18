@@ -1,12 +1,9 @@
 {
-    "description": "Link to my portfolio site.",
-    "repo": "https://github.com/notrana/notrana.github.io",
-    "owner": {
-        "username": "notrana",
-        "email": "mail@notrana.tk",
-        "discord": "Rana Asad.py#5925"
-    },
-    "record": {
-        "CNAME": "notrana.github.io"
-    }
+  "owner": {
+    "username": "NotRana",
+    "email": "benyameen75@gmail.com"
+  },
+  "record": {
+    "CNAME": "notrana.github.io"
+  }
 }

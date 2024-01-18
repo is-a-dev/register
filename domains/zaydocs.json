@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "KingVibes12",
-        "email": "codemonkeymann@gmail.com"
-    },
-    "record": {
-        "CNAME": "3745535f-7691-4e66-93c8-299810bc9fc3.id.repl.co"
-    }
+  "owner": {
+    "username": "KingVibes12",
+    "email": "codemonkeymann@gmail.com"
+  },
+  "record": {
+    "CNAME": "hosts.is-a.dev"
+  }
 }

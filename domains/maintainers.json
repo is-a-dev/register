@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "is-a-dev",
-        "email": "phenax5@gmail.com"
-    },
-    "record": {
-        "URL": "https://team.is-a.dev",
-        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": "forward-email=isdevmail.beadman-network.com"
-    }
+  "owner": {
+    "username": "is-a-dev",
+    "email": "phenax5@gmail.com"
+  },
+  "record": {
+    "URL": "https://team.is-a.dev",
+    "MX": ["mail.is-a.dev"],
+    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+  }
 }

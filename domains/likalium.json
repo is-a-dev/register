@@ -4,10 +4,10 @@
   "owner": {
     "username": "likalium",
     "email": "",
-    "twitter":  "likalium",
-    "discord": "likalium#2870"
+    "twitter": "likalium",
+    "discord": "likalium"
   },
-  "record" : {
+  "record": {
     "CNAME": "likalium.github.io"
   }
 }

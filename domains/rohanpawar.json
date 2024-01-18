@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "r04nx",
-        "email": "rohanprakashpawar2005@gmail.com"
-    },
+  "owner": {
+    "username": "r04nx",
+    "email": "rohanprakashpawar2005@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "r04nx.github.io"
-    }
+  "record": {
+    "CNAME": "r04nx.github.io"
+  }
 }

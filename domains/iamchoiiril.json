@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Cfhoiril",
-        "email": "iamchoirilfk@gmail.com"
-    },
-    "record": {
-            "URL": "https://cfhoiril.github.io/Who-is-Choiril/"
-    }
+  "owner": {
+    "username": "Cfhoiril",
+    "email": "iamchoirilfk@gmail.com"
+  },
+  "record": {
+    "CNAME": "cfhoiril.github.io"
+  }
 }

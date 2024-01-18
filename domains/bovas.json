@@ -1,10 +1,10 @@
 {
-    "owner": {
-       "username": "bovas",
-       "email": "bovaskjacobb2009@gmail.com"
-   },
+  "owner": {
+    "username": "bovas",
+    "email": "bovaskjacobb2009@gmail.com"
+  },
 
-   "record": {
-       "URL": "https://dev.bovas.repl.co"
-   }
+  "record": {
+    "URL": "https://dev.bovas.repl.co"
+  }
 }
