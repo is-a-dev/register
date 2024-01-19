@@ -4,6 +4,8 @@
         "email": "akshau72p@gmail.com"
     },
     "record": {
-        "CNAME": "mrakshayas.github.io"
+        "CNAME": "mrakshayas.github.io",
+        "A":"185.199.108.153"
+
     }
 }
