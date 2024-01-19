@@ -1,11 +1,10 @@
 {
+   "repo" :"https://mrakshayas.github.io/portfolio/",
     "owner": {
         "username": "MrAkshayAS",
         "email": "akshau72p@gmail.com"
     },
     "record": {
-        "CNAME": "mrakshayas.github.io",
-        "A":["185.199.108.153"]
-
+        "CNAME": "mrakshayas.github.io"
     }
 }
