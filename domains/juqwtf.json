@@ -6,6 +6,8 @@
     "record": {
         "A": ["143.47.231.8"],
         "MX": ["mail.is-a.dev"],
-        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all",
+        "TXT": "FZo9g0GqRYR-fhmWc1QzbycfV5UZIE4bwh42BI81NDQ",
+        "TXT": "V1N8tuJvEcUtltxMXLRvP0U1_jaAgsSJJ89MgyxpWUk"
     }
 }
