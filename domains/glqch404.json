@@ -1,0 +1,12 @@
+{
+    "description": "Subdomain to put my portfolio website online",
+    "repo": "https://github.com/Glqch404/Glqch404.github.io",
+    "owner": {
+        "username": "Glqch404",
+        "email": "midoayoub447@gmail.com",
+        "twitter": "glqch"
+    },
+    "record": {
+        "CNAME": "glqch404.github.io"
+    }
+}
