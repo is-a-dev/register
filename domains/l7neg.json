@@ -1,12 +1,12 @@
 {
-    "owner": {
-        "username": "l7neg",
-        "email": "mahmodealking467@gmail.com",
-        "repo": "https://replit.com/@L7NEG/L7NEG",
-        "description": "Main Bio Page And All Its Useful Tools"
-    },
-    "record": {
-        "A": ["34.111.254.92"],
-        "TXT": "replit-verify=23cc92c5-cdc9-47bf-9e4f-e692a2ab2097"
-    }
+  "owner": {
+    "username": "l7neg",
+    "email": "mahmodealking467@gmail.com",
+    "repo": "https://replit.com/@L7NEG/L7NEG",
+    "description": "Main Bio Page And All Its Useful Tools"
+  },
+  "record": {
+    "A": ["34.111.254.92"],
+    "TXT": "replit-verify=23cc92c5-cdc9-47bf-9e4f-e692a2ab2097"
+  }
 }
