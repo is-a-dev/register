@@ -1,9 +1,9 @@
-    {
-      "owner": {
-        "username": "Nzii3",
-        "email": "exeyst@gmail.com"
-      },
-      "record": {
-        "CNAME": "cname.short.io"
-      }
-    }
+{
+  "owner": {
+    "username": "Nzii3",
+    "email": "exeyst@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.short.io"
+  }
+}

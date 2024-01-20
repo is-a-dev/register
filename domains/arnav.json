@@ -1,12 +1,10 @@
+{
+  "owner": {
+    "username": "arnav-kr",
+    "email": "arnav-kumar@outlook.com"
+  },
 
-    {
-      "owner": {
-        "username": "arnav-kr",
-        "email": "arnav-kumar@outlook.com"
-      },
-
-      "record": {
-        "CNAME": "arnav-kr.github.io"
-      }
-    }
-  
+  "record": {
+    "CNAME": "arnav-kr.github.io"
+  }
+}

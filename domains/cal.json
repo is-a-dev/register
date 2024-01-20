@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
-        "username": "Recal",
-        "email": "recalibratedgh@gmail.com"
-      },
-      "record": {
-        "URL": "https://github.com/recal"
-      }
-    }
-      
+{
+  "owner": {
+    "username": "Recal",
+    "email": "recalibratedgh@gmail.com"
+  },
+  "record": {
+    "URL": "https://github.com/recal"
+  }
+}

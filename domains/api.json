@@ -1,11 +1,10 @@
 {
-  "description": "Official is-a.dev API",
-  "repo": "https://github.com/MaskDuck/is-a-dev-api",
   "owner": {
-    "username": "mtgsquad & MaskDuck",
-    "email": "mahir@molai.dev"
+    "username": "wdhdev",
+    "email": "william@williamharrison.dev"
   },
+
   "record": {
-    "CNAME": "is-a-dev-api-production.up.railway.app"
+    "CNAME": "wdhdns.com"
   }
 }
