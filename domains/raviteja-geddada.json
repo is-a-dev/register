@@ -1,14 +1,16 @@
 {
-    "owner": {
-        "username": "Raviteja77",
-        "email": "geddadaraviteja612@gmail.com"
-    },
-    "record": {
-        "A": [
-            "217.174.245.249",
-            "51.161.54.161"
-            ],
-        "MX": ["mail.is-a.dev"],
-        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
-    }
+  "owner": {
+    "username": "Raviteja77",
+    "email": "geddadaraviteja612@gmail.com"
+  },
+  "record": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": ["mail.is-a.dev"],
+    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+  }
 }
