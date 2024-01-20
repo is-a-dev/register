@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "is-a-dev",
-        "email": "phenax5@gmail.com"
-    },
+  "owner": {
+    "username": "is-a-dev",
+    "email": "phenax5@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "wdhdev.github.io"
-    }
+  "record": {
+    "CNAME": "is-a-dev.github.io"
+  }
 }

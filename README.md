@@ -17,9 +17,9 @@
 </p>
 
 ## Issues
+If you have any problems, feel free to [open a issue](https://github.com/is-a-dev/register/issues/new/choose).
 
-If you have any problems then feel free to open a issue on github.
-If you have an issue that contains confidental infomation then email hello@maintainers.is-a.dev any other emails will be ignored.
+If you have an issue that contains confidental infomation, send an email to security@maintainers.is-a.dev.
 
 ## Register
 
@@ -31,13 +31,13 @@ Another method is to join our [Discord server](https://discord.gg/PZCGHz4RhQ), h
 ### Manual Registration
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
-- [Read the documentation](https://is-a.dev/docs).
+- [Read the documentation](https://www.is-a.dev/docs).
 - Your pull request will be reviewed and merged. *Make sure to keep an eye on it incase we need you to make any changes!*
 - After the pull request is merged, please allow up to 24 hours for the changes to propagate.
 - Enjoy your new `.is-a.dev` domain!
 
 ### CLI Registration
-For issues with the CLI, **DO NOT OPEN AN ISSUE ON THIS REPOSITORY**, instead open an issue [here](https://github.com/wdhdev/is-a-dev-cli/issues/new).
+For issues with the CLI, do **not** open an issue on this repository, instead open an issue on the [is-a-dev/cli](https://github.com/is-a-dev/cli/issues/new) repository.
 
 Install the CLI:
 
@@ -58,13 +58,13 @@ is-a-dev register
 ```
 
 ## Status
-You can check the uptime of our services on our [status dashboard](https://status.is-a.dev).
-
-### Similar Services
-If you want to find services similar to is-a.dev, take a look on [free-for.life](https://free-for.life/#/?id=domains).
+You can check the uptime of our services on our [status dashboard](https://is-a-dev.wdh.gg).
 
 ### Donate
 If you like this project, please consider donating so we can keep this project running forever!
 
 <a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me a Coffee" height="28" width="119"></a>
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay"></a>
+
+### Similar Services
+If you want to find services similar to is-a.dev, take a look on [free-for.life](https://free-for.life/#/?id=domains).

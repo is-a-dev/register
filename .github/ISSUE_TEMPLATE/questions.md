@@ -6,5 +6,4 @@ labels: question
 
 ---
 
-You can elaborate here
-
+### Your question
