@@ -40,6 +40,7 @@ const extraSupportedNames = [
   testRegex(/^_github(-pages)?-challenge-[a-z0-9-_]+$/i), // Exception for github verification records
   R.equals('_discord'),
   R.equals('_gitlab-pages-verification-code'),
+  R.equals('_acme-challenge'),
 ]
 
 const validateDomainData = validate({
