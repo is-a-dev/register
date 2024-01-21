@@ -1,5 +1,5 @@
 {
- "owner": {
+  "owner": {
     "username": "YouFoundAlpha",
     "email": "alpha@alpha.is-a.dev",
     "Discord": "661121998830960651",
@@ -7,8 +7,8 @@
     "GitHub": "YouFoundAlpha",
     "GitLab": "YouFoundAlpha",
     "Mastodon": "@YouFoundAlpha@mastodon.social"
-    },
-    "record": {
-        "URL": "https://alpha.is-a.dev"
-    }
+  },
+  "record": {
+    "URL": "https://alpha.is-a.dev"
+  }
 }

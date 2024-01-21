@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "jc-discdev",
-        "email": "jjsuscc@gmail.com"
-    },
-    "record": {
-        "CNAME": "darkdev.es"
-    }
+  "owner": {
+    "username": "jc-discdev",
+    "email": "jjsuscc@gmail.com"
+  },
+  "record": {
+    "CNAME": "darkdev.es"
+  }
 }

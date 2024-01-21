@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "is-a-dev",
-        "email": "phenax5@gmail.com"
-    },
+  "owner": {
+    "username": "is-a-dev",
+    "email": "phenax5@gmail.com"
+  },
 
-    "record": {
-        "TXT": "22bbab4068a6c51de6df06aac442d5"
-    }
+  "record": {
+    "TXT": "22bbab4068a6c51de6df06aac442d5"
+  }
 }
