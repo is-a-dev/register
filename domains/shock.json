@@ -4,11 +4,6 @@
         "email": "apipherng@gmail.com"
     },
     "record": {
-        "A": [
-            "217.174.245.249",
-            "51.161.54.161"
-            ],
-        "MX": ["mail.is-a.dev"],
-        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+        "A": ["69.30.249.53"]
     }
 }

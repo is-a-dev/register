@@ -1,13 +1,11 @@
 {
-    "owner": {
-        "username": "eCodeVoyager",
-        "email": "mu23172@gmail.com"
-    },
-    "record": {
-        "A": [
-            "8.219.148.143"
-            ],
-        "MX": ["mail.is-a.dev"],
-        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
-    }
+  "owner": {
+    "username": "eCodeVoyager",
+    "email": "mu23172@gmail.com"
+  },
+  "record": {
+    "A": ["8.219.148.143"],
+    "MX": ["mail.is-a.dev"],
+    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+  }
 }

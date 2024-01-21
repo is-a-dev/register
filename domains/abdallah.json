@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "abdallahmehiz",
-        "email": "abdallah.mehiz@univ-bba.dz"
-    },
+  "owner": {
+    "username": "abdallahmehiz",
+    "email": "abdallah.mehiz@univ-bba.dz"
+  },
 
-    "record": {
-        "CNAME": "abdallah.mehiz.xyz"
-    }
+  "record": {
+    "CNAME": "abdallah.mehiz.xyz"
+  }
 }

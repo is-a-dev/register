@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "Manav011",
-        "email": "manav.12110503@lpu.in"
-    },
-    "record": {
-        "A": ["217.174.245.249", "51.161.54.161"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
-    }
+  "owner": {
+    "username": "Manav011",
+    "email": "manavbafna87+Github@gmail.com"
+  },
+  "record": {
+    "A": ["109.71.252.37"],
+    "MX": ["mail.is-a.dev"],
+    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+  }
 }
