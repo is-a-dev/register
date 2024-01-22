@@ -65,6 +65,7 @@ describe('validateDomainData', () => {
     { ...defaultDomain, record: { A: '::1' } },
     { ...defaultDomain, name: '_discord' },
     { ...defaultDomain, name: '_gitlab-pages-verification-code' },
+    { ...defaultDomain, name: '_acme-challenge' },
   ];
 
   const validCases = [
@@ -96,6 +97,7 @@ describe('validateDomainData', () => {
     { ...defaultDomain, record: { A: ['122.222.222.222'] } },
     { ...defaultDomain, name: '_discord.subdomain' },
     { ...defaultDomain, name: '_gitlab-pages-verification-code.subdomain' },
+    { ...defaultDomain, name: '_acme-challenge.subdomain' },
   ];
 
   it('should return false for invalid data', () => {
