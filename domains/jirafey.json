@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "jirafey",
-        "email": "jirafey@tuta.io"
-    },
-    "record": {
-        "CNAME": "jirafey.github.io"
-    }
+  "owner": {
+    "username": "jirafey",
+    "email": "jirafey@tuta.io"
+  },
+  "record": {
+    "CNAME": "jirafey.github.io"
+  }
 }

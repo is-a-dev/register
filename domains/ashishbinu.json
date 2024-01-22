@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "ashishbinu",
-        "email": "ashishbinu90@gmail.com"
-    },
+  "owner": {
+    "username": "ashishbinu",
+    "email": "ashishbinu90@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "ashishbinu.surge.sh"
-    }
+  "record": {
+    "CNAME": "ashishbinu.surge.sh"
+  }
 }

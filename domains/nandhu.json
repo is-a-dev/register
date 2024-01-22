@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "nandhu-44",
-        "email": "nandhu90040@gmail.com"
-    },
+  "owner": {
+    "username": "nandhu-44",
+    "email": "nandhu90040@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "nandhu.deno.dev"
-    }
+  "record": {
+    "CNAME": "nandhu.deno.dev"
+  }
 }
