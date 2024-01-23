@@ -4,6 +4,7 @@
         "email": "simer@f1.mk.ua"
     },
     "record": {
-        "A": ["78.46.77.92"]
+        "A": ["78.46.77.92"],
+        "MX": ["mx.comp.in.ua"]
     }
 }
