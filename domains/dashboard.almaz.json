@@ -6,7 +6,7 @@
         },
     
         "record": {
-            "CNAME": "dashboard.almaz.github.io"
+            "A": ["109.71.252.37"]
         }
     }
     
