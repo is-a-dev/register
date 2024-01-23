@@ -1,12 +1,9 @@
 {
     "owner": {
-        "username": "ho2",
-        "email": "hussainaltahoo944@gmail.com",
-        "repo": "https://ho2.vercel.app/",
-        "description": "ho2 project"
+        "username": "hussain22g",
+        "email": "hussainaltahoo944@gmail.com"
     },
     "record": {
-        
-        "TXT": "vc-domain-verify=ho2.is-a.dev,e925e90a6f992a727337"
-}
+        "CNAME": "ho2.pages.dev"
+    }
 }
