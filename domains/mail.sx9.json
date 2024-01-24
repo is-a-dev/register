@@ -6,8 +6,8 @@
     "email": "sx-91@outlook.com",
     "username": "SX-9"
   },
-  "record": { 
-    "MX": [ "mx1.improvmx.com", "mx2.improvmx.com" ], 
-    "TXT": "v=spf1 include:spf.improvmx.com ~all" 
+  "record": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

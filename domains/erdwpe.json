@@ -1,0 +1,12 @@
+{
+  "description": "erdwpe website",
+  "repo": "https://github.com/erdwpe/erdwpe.github.io",
+  "owner": {
+    "username": "erdwpe",
+    "email": "erdwpe@gmail.com",
+    "twitter": "erlanggadwip6"
+  },
+  "record": {
+    "CNAME": "erdwpe.github.io"
+  }
+}

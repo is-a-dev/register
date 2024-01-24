@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "D3oxy",
-    "email": "deoxy@deoxy.tech"
+    "username": "d3oxy",
+    "email": "deoxy@deoxy.dev",
+    "discord": "DEOXY#1038",
+    "twitter": "d3oxyxd"
   },
   "record": {
-    "CNAME": "new.deoxy.tech"
+    "URL": "https://deoxy.dev"
   }
 }
