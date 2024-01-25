@@ -10,6 +10,6 @@
     "record": {
         "URL": "boldbydesign.is-a.dev",
         "MX": ["boldbydesign.is-a.dev", "-0"],
-        "TXT": "v=spf1 include:spf.boldbydesign.is-a.dev ~all"
+        "TXT": "mutantmail-verify=8fce2e74db8a4039958fab092dddd25fa87db148"
     }
 }
