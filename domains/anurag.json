@@ -1,11 +1,9 @@
 {
     "owner": {
-        "username": "anurag-bit",
-        "email": "singh.ask@outlook.com"
+        "username": "anuragjawalkar",
+        "email": "anurag24jawalkar@gmail.com"
     },
     "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "CNAME": "anuragjawalkar.github.io"
     }
 }
