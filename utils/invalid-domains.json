@@ -1,8 +1,10 @@
 [
   "_acme-challenge",
+  "_dmarc",
   "_github-challenge-is-a-dev",
   "_github-pages-challenge-is-a-dev",
   "_gitlab-pages-verification-code",
+  "dkim._domainkey",
   "help",
   "no-reply",
   "noreply",

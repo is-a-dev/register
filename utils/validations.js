@@ -41,6 +41,8 @@ const extraSupportedNames = [
   R.equals('_discord'),
   R.equals('_gitlab-pages-verification-code'),
   R.equals('_acme-challenge'),
+  R.equals('_dmarc'),
+  R.equals('dkim._domainkey'),
 ]
 
 const validateDomainData = validate({
