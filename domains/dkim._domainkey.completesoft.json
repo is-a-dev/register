@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "simersim",
+        "email": "simer@f1.mk.ua"
+    },
+    "record": {
+        "TXT": "v=dkim1;k=rsa;t=s;s=email;p=miibijanbgkqhkig9w0baqefaaocaq8amiibcgkcaqea2ih8l1lnmyjiju1slpfx5p7em1wh7gujnsy7u4irlsynsfomifoldrejtqroumm5tb091mdglifkisllafmk55xxcl/ jxg2huddx4xdrsoz6kuu5utuh1k 4cydz9/eykpjwes4z u2f3lzu3swrlrv2rgk2j/ nggu6euto3xa8ilbrx0ywcyblpg2lcf3sqrglwnjbcfpf5fgs2nhfugl0cvwdslbtmpb3jbwwep9scxbq3uwo2a8hj9qimlc26fcosimc6a/zack6xdseh/irn  kf3edram63aosi3yedpff yhctx3vzog7r46yu zrzzczwlkmkby/t2amqidaqab"
+    }
+}
