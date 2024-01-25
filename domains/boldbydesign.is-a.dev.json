@@ -1,10 +1,15 @@
 {
     "owner": {
         "username": "Boldbydesign",
-        "email": "jeremiah.helfer@protonmail.com"
+        "email": "jeremiah.helfer@protonmail.com",
+        "wakatime": "https://wakatime.com/@Boldbydesign"
+        "discord": "boldbydesign",
+        "repo": "https://hithub.com/boldbydesign/boldbydesign"
     },
 
     "record": {
-        "MX": ["-0"]
+        "URL": "boldbydesign.is-a.dev",
+        "MX": ["boldbydesign.is-a.dev", "-0"],
+        "TXT": "v=spf1 include:spf.boldbydesign.is-a.dev ~all"
     }
 }
