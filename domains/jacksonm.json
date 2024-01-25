@@ -4,6 +4,7 @@
         "email": "jrm9918@gmail.com"
     },
     "record": {
+        "CNAME": "jacksonm.github.io",
         "A": [
             "217.174.245.249",
             "51.161.54.161"
