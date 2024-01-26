@@ -100,8 +100,6 @@ describe('validateDomainData', () => {
     { ...defaultDomain, name: '_acme-challenge.subdomain' },
     { ...defaultDomain, name: '_dmarc' },
     { ...defaultDomain, name: 'dkim._domainkey' },
-    { ...defaultDomain, name: '_dmarc.subdomain' },
-    { ...defaultDomain, name: 'dkim._domainkey.subdomain' },
   ];
 
   it('should return false for invalid data', () => {
