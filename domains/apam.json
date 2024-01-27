@@ -1,0 +1,10 @@
+{
+    "domain": "is-a.dev",
+    "subdomain": "apam",
+    "owner": {
+      "email": "xenpei11@gmail.com"
+    },
+    "records": {
+      "CNAME": "iamxani.github.io"
+    }
+  }
