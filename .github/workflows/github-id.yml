@@ -2,6 +2,7 @@ name: GitHub ID
 
 on:
     pull_request_target:
+    pull_request:
 
 jobs:
     update:
