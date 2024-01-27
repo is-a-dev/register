@@ -18,7 +18,6 @@ jobs:
                   repository: ${{ github.event.pull_request.head.repo.full_name }}
                   ref: ${{ github.head_ref }}
 
-
             - name: Get changed files
               id: files
               uses: jitterbit/get-changed-files@v1
