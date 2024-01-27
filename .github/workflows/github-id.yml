@@ -1,7 +1,9 @@
 name: GitHub ID
 
 on:
-    push
+    push:
+        paths:
+            - "domains/*.json"
 
 jobs:
     update:
