@@ -36,4 +36,3 @@ jobs:
                   commit_user_email: "actions@github.com"
                   commit_message: "chore: add github user id"
                   skip_checkout: true
-
