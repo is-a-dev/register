@@ -1,7 +1,8 @@
 {
   "owner": {
     "username": "wdhdev",
-    "email": "william@williamharrison.dev"
+    "email": "william@williamharrison.dev",
+    "github_id": 87287585
   },
   "record": {
     "CNAME": "wdhdns.com"
