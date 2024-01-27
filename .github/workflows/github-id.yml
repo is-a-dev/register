@@ -1,0 +1,38 @@
+name: GitHub ID
+
+on:
+    push:
+        paths:
+            - "domains/*.json"
+
+jobs:
+    update:
+        name: Update
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  repository: ${{ github.event.pull_request.head.repo.full_name }}
+                  ref: ${{ github.head_ref }}
+
+            - name: Get changed files
+              id: files
+              uses: jitterbit/get-changed-files@v1
+              with:
+                  format: "space-delimited"
+
+            - name: Run script
+              uses: is-a-dev/github-id-script@v1.0.0
+              with:
+                  files: ${{ steps.files.outputs.all }}
+
+            - name: Commit
+              uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                  commit_user_name: "GitHub Actions"
+                  commit_user_email: "actions@github.com"
+                  commit_message: "chore: add github user id"
+                  skip_checkout: true
