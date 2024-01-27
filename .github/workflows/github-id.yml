@@ -14,7 +14,8 @@ jobs:
               with:
                   fetch-depth: 0
 
-            - id: Get changed files
+            - name: Get changed files
+              id: files
               uses: jitterbit/get-changed-files@v1
               with:
                   format: "space-delimited"
