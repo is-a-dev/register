@@ -5,6 +5,7 @@
   },
 
   "record": {
-    "CNAME": "wdhdns.com"
+    "CNAME": "wdhdns.com",
+    "TXT": "what the fu k have you done"
   }
 }
