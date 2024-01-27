@@ -25,9 +25,10 @@ jobs:
                   format: "space-delimited"
 
             - name: Run script
-              uses: is-a-dev/github-id-script@v1.0.1
+              uses: is-a-dev/github-id-script@v1.0.2
               with:
                   files: ${{ steps.files.outputs.all }}
+                  token: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Commit
               uses: stefanzweifel/git-auto-commit-action@v4
