@@ -21,7 +21,7 @@ jobs:
                   format: "space-delimited"
 
             - name: Run script
-              uses: is-a-dev/github-id-script@v1
+              uses: is-a-dev/github-id-script@latest
               with:
                   files: ${{ steps.files.outputs.all }}
 
