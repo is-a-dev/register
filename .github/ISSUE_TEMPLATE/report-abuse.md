@@ -6,8 +6,10 @@ labels: report-abuse
 
 ---
 
-Domain you want to report: 
+### Domain
 
 ### Reason
-Explain why you think this domain is being abused
+<!-- Explain why you think this domain is being abused -->
 
+### Proof
+<!-- Proof of the domain being abused -->
