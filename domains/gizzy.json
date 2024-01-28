@@ -1,5 +1,6 @@
 {
   "description": "gizzy.is-a.dev",
+  "repo": "https://github.com/GizzyUwU/gizzyuwu.github.io",
   "owner": {
     "username": "GizzyUwU",
     "email": "nerop455@gmail.com",
@@ -7,6 +8,7 @@
   },
   "record": {
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": "forward-email=nerop455@gmail.com"
+    "TXT": "forward-email=nerop455@gmail.com",
+    "CNAME": "gizzyuwu.github.io"
   }
 }
