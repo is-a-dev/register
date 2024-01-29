@@ -4,6 +4,8 @@
     "email": "sukimayoo@outlook.com"
   },
   "record": {
-    "CNAME": "portfolio-b8o.pages.dev"
+    "CNAME": "portfolio-b8o.pages.dev",
+    "MX": ["mail.is-a.dev"],
+    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
   }
 }
