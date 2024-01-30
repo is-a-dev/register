@@ -1,11 +1,10 @@
 {
-    "description": "A passionate Back and Front-end Developer 🚀 Having An Experience Of Building Web And Discord Bots With JavaScript / HTML / CSS / Nodejs / Python And Some Other Cool Libraries And Frameworks.",
-    "repo": "https://github.com/ninelel",
-    "record": {
-        "CNAME": "hcceg285.up.railway.app"
-    },
-    "owner": {
-        "username": "NineLEL",
-        "email": "notninelel@gmail.com"
-    }
+  "owner": {
+    "username": "NineLEL",
+    "email": "notninelel@gmail.com"
+  },
+  "record": {
+    "A": ["76.223.55.44"],
+    "TXT": "deta-verification=DyZWThRbwVx1vudpA5oB8DEekn58LG75"
+  }
 }

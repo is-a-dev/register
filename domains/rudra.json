@@ -5,10 +5,8 @@
     "discord": "</Rudransh Joshi>#2022"
   },
   "description": "Domain for my personal portfolio written w/ Django & TailwindCSS",
-  "repo": "https://github.com/FireHead90544/rudra-django/",
+  "repo": "https://github.com/FireHead90544/rudra-django",
   "record": {
-    "A": [
-      "20.219.132.8"
-    ]
+    "A": ["20.219.132.8"]
   }
 }
