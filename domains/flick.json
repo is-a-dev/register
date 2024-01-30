@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "flickpmt",
+        "email": "flickmodded@gmail.com"
+    },
+    "record": {
+        "TXT": ""v=spf1 a mx ip4:136.243.9.88 ip4:136.243.9.95 ~all""
+    }
+}
