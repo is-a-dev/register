@@ -11,6 +11,9 @@
         "TXT": [
             "apple-domain=MoEJzvyzzLKIBX7R",
             "v=spf1 include:icloud.com ~all"
+        ],
+        "CNAME": [
+            "sig1.dkim.magdi.is-a.dev.at.icloudmailadmin.com"
         ]
     }
 }
