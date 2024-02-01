@@ -13,6 +13,7 @@
             "v=spf1 include:icloud.com ~all"
         ],
         "CNAME": [
+            "coeur85.github.io",
             "sig1.dkim.magdi.is-a.dev.at.icloudmailadmin.com"
         ]
     }
