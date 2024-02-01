@@ -4,6 +4,13 @@
         "email": "ahmed.magdi@msn.com"
     },
     "record": {
-        "MX": ["mx01.mail.icloud.com"]
+        "MX": [
+            "mx01.mail.icloud.com",
+            "mx02.mail.icloud.com"
+        ],
+        "TXT": [
+            "apple-domain=MoEJzvyzzLKIBX7R",
+            "v=spf1 include:icloud.com ~all"
+        ]
     }
 }
