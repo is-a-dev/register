@@ -4,6 +4,6 @@
         "email": "123kishanvish@gmail.com"
     },
     "record": {
-        "CNAME": "m1kuwu.github.io"
+        "A": ["69.30.249.53"]
     }
 }
