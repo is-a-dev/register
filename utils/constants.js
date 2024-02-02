@@ -1,10 +1,6 @@
 const path = require('path');
 
-const { ENV = 'test', CI } = process.env;
-
-if (!CI) {
-  require('dotenv').config({ path: path.resolve(`.env.${ENV}`) });
-}
+const { NODE_ENV: ENV = 'test' } = process.env;
 
 const {
   DOMAIN_USER,
@@ -22,7 +18,7 @@ const DOMAINS_PATH = path.resolve('domains');
 module.exports = {
   ENV,
   IS_TEST,
-  VALID_RECORD_TYPES: ['CNAME', 'A', 'URL', 'MX', 'TXT'],
+  VALID_RECORD_TYPES: ['CNAME', 'A', 'URL', 'MX', 'TXT', 'AAAA'],
   DOMAIN_DOMAIN: DOMAIN_DOMAIN || 'booboo.xyz',
   DOMAIN_USER: IS_TEST ? 'testuser' : DOMAIN_USER,
   DOMAIN_API_KEY: IS_TEST ? 'testkey' : DOMAIN_API_KEY,

@@ -1,12 +1,10 @@
+{
+  "owner": {
+    "username": "QueirozT",
+    "email": "tiagoqueirozgoncalves100@gmail.com"
+  },
 
-    {
-      "owner": {
-        "username": "QueirozT",
-        "email": "tiagoqueirozgoncalves100@gmail.com"
-      },
-
-      "record": {
-        "A": ["144.22.180.97"]
-      }
-    }
-  
+  "record": {
+    "A": ["144.22.180.97"]
+  }
+}
