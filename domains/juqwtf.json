@@ -4,7 +4,7 @@
         "email": "pochtaproverka01@gmail.com"
     },
     "record": {
-        "A": ["143.47.231.8"],
+        "A": ["193.233.252.12"],
         "MX": ["mail.is-a.dev"],
         "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
