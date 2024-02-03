@@ -11,8 +11,8 @@
 | Mahir | [@mtgsquad](https://github.com/mtgsquad) | Maintainer |
 | Satria | [@SX-9](https://github.com/SX-9) | Maintainer |
 | Vaibhav | [@VaibhavSys](https://github.com/VaibhavSys) | Maintainer |
+| CuteDog5695 | [@CuteDog5695](https://github.com/CuteDog5695) | Maintainer |
 ||
-| CuteDog5695 | [@CuteDog5695](https://github.com/CuteDog5695) | Helper |
 | Om | [@TerraPlayz](https://github.com/TerraPlayz) | Helper |
 | Phoenix | [@PhoenixOrigin](https://github.com/PhoenixOrigin) | Helper |
 | Stef | [@Stef-00012](https://github.com/Stef-00012) | Helper |
