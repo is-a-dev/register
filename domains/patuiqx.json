@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "GyShinA",
-        "email": "MonicaGyoShin@gmail.com"
-    },
+  "owner": {
+    "username": "GyShinA",
+    "email": "MonicaGyoShin@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "gyshina.github.io"
-    }
+  "record": {
+    "CNAME": "gyshina.github.io"
+  }
 }
