@@ -13,7 +13,7 @@
 <p align="center"><strong>is-a-dev</strong> is a service that allows developers to get a sweet-looking ".is-a.dev" domain for their personal websites.</p>
 
 <p align="center">
-   <a href="https://discord.gg/PZCGHz4RhQ"><img alt="Discord Server" src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2"></a>
+   <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2"></a>
 </p>
 
 ## Issues
@@ -67,4 +67,4 @@ If you like this project, please consider donating so we can keep this project r
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay"></a>
 
 ### Similar Services
-If you want to find services similar to is-a.dev, take a look on [free-for.life](https://free-for.life/#/?id=domains).
+If you want to find services similar to is-a.dev, take a look on [Free For Life](https://github.com/wdhdev/free-for-life#domains).
