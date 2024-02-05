@@ -4,6 +4,6 @@
         "email": "ajay.ramnath8812@gmail.com"
     },
     "record": {
-        "CNAME": "cdn-vornexx.pages.dev"
+        "A": ["69.30.249.53"]
     }
 }
