@@ -1,1 +1,11 @@
-
+{
+  "description": "Kushal Shah",
+  "repo": "https://github.com/kushalshah0",
+  "owner": {
+    "username": "kushalshah0",
+    "email": "code@kushalshah.com.np"
+  },
+  "record": {
+    "CNAME": "portfolio.kushalshah.com.np"
+  }
+}
