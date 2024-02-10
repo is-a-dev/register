@@ -4,6 +4,6 @@
         "email": "fatihbgr@duck.com"
     },
     "record": {
-        "TXT": "vc-domain-verify=queaxtra.is-a.dev,99c8c889ab11cf641590"
+        "CNAME": "queaxtra-me.pages.dev"
     }
 }
