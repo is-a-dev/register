@@ -1,12 +1,11 @@
 {
-        "owner": {
-           "username": "xAbdoAT",
-           "email": "ABDO199877@gmail.com",
-           "discord": "943662778433032242"
-        },
-    
-        "record": {
-            "CNAME": "xabdoat.github.io"
-        }
-    }
-    
+  "owner": {
+    "username": "xAbdoAT",
+    "email": "ABDO199877@gmail.com",
+    "discord": "943662778433032242"
+  },
+
+  "record": {
+    "CNAME": "xabdoat.github.io"
+  }
+}
