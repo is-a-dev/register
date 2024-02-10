@@ -1,9 +1,11 @@
 {
+    "description": "For Duzo's website",
+    "repo": "https://github.com/Duzos/duzos.github.io",
     "owner": {
         "username": "Duzos",
-        "email": "james.hall01@outlook.com"
+        "email": "73184526+Duzos@users.noreply.github.com"
     },
     "record": {
-        "URL": "https://duzos.github.io/"
+        "CNAME": "duzos.github.io"
     }
-}
+} 
