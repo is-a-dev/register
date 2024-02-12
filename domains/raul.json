@@ -1,12 +1,12 @@
 {
-        "owner": {
-           "username": "ctrlraul",
-           "email": "47065615+ctrlraul@users.noreply.github.com",
-           "discord": "308244512185253899"
-        },
-    
-        "record": {
-            "URL": "https://nort.vercel.app/"
-        }
+    "description": "Personal Website",
+    "repo": "https://github.com/ctrlraul/8-bits-fire.github.io",
+    "owner": {
+        "username": "ctrlraul",
+        "email": "email@address",
+        "twitter": "@CtrlRaul"
+    },
+    "record": {
+        "CNAME": "ctrlraul.github.io"
     }
-    
+}
