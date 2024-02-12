@@ -1,12 +1,12 @@
 {
-  "description": "ProgrammerXD",
+  "description": "ProgrammerXD | Portfolio",
   "repo": "https://github.com/realpxd/realpxd.github.io",
   "owner": {
     "username": "realpxd",
-    "email": "contact@pxdcloud.in",
-    "twitter": "PXD_Officials"
+    "email": "thisispxd@gmail.com",
+    "twitter": "dotpxd"
   },
   "record": {
-    "CNAME": "realpxd.github.io"
+    "URL": "https://programmerxd.vercel.app"
   }
 }
