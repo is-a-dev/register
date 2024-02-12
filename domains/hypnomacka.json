@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "hypnomacka",
-        "email": "hypnomacka@gmail.com"
-    },
+  "owner": {
+    "username": "hypnomacka",
+    "email": "hypnomacka@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "hypnomacka.github.io"
-    }
+  "record": {
+    "CNAME": "hypnomacka.github.io"
+  }
 }

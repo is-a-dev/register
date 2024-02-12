@@ -1,9 +1,9 @@
 {
-    "owner": {
-      "username": "istrueuser",
-      "email": "thisistrueemail@gmail.com"
+  "owner": {
+    "username": "istrueuser",
+    "email": "thisistrueemail@gmail.com"
   },
-    "record": {
-      "CNAME": "proxy.private.danbot.host"
+  "record": {
+    "A": ["69.30.249.53"]
   }
 }
