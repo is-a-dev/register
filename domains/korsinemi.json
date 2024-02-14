@@ -1,9 +1,11 @@
 {
     "owner": {
         "username": "Korsinemi",
-        "email": "furrycality@gmail.com"
+        "email": "",
+        "twitter": "@Korsinemi"
     },
     "record": {
-        "TXT": "dh=288b69b6df6598410e14652112ee7609f689c8fb"
+        "TXT": ["_discord.korsinemi.is-a.dev", "dh=288b69b6df6598410e14652112ee7609f689c8fb"],
+        "CNAME": "https://6037589c-7a5c-4d3e-8f82-f513f1d16d80-00-3n9c5czu6xu97.kirk.replit.dev/"
     }
 }
