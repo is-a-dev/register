@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "ayaanhaider-dev",
-        "email": "ayaanhaider.dev@gmail.com"
-    },
+  "owner": {
+    "username": "ayaanhaider-dev",
+    "email": "ayaanhaider.dev@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "ayaanhaider-dev.web.app"
-    }
+  "record": {
+    "CNAME": "ayaanhaider-dev.web.app"
+  }
 }
