@@ -6,15 +6,16 @@
     },
     "record": {
         "A": [
-            "217.174.245.249"
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
         ],
         "MX": [
-            "mx1.forwardemail.net",
-            "mx2.forwardemail.net"
+            "mail.is-a.dev"
         ],
         "TXT": [
-            "forward-email=admin:admin.main@mail.stefdp.is-a.dev",
-            "forward-email=/^(?!admin$).*/:main@mail.stefdp.is-a.dev"
+            "v=spf1 mx a:mail.is-a.dev ip4:217.174.245.249 ~all"
         ]
     }
 }
