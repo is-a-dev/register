@@ -1,6 +1,5 @@
 const R = require('ramda');
-const fetch = require('node-fetch');
-const qs = require('qs');
+const qs = require('querystring');
 const { DOMAIN_API_HOST, DOMAIN_API_PORT, DOMAIN_USER, DOMAIN_API_KEY, DOMAIN_DOMAIN } = require('../constants');
 
 const CpanelClient = (options) => {
@@ -38,7 +37,7 @@ const CpanelClient = (options) => {
       //     -> [{ class, ttl, name, line, Line, cname, type, record }]
       fetch: R.compose(
         p => p.then(R.pathOr([], ['cpanelresult', 'data'])),
-        api2('ZoneEdit', 'fetchzone_records', { customonly: 1, domain: options.domain })
+        api2('ZoneEdit', 'fetchzone_records', { customonly: 0, domain: options.domain })
       ),
 
       // { name, type(A|CNAME), cname, address, ttl }
