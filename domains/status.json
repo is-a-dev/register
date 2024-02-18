@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "wdhdev",
-        "email": "william@williamharrison.dev"
-    },
-    "record": {
-        "CNAME": "wdhdns.com"
-    }
+  "owner": {
+    "username": "is-a-dev",
+    "email": ""
+  },
+  "record": {
+    "CNAME": "wdhdns.com"
+  }
 }
