@@ -1,0 +1,11 @@
+{
+  "description": "Applying for an is-a.dev domain on behalf of my friend so he can use one.",
+  "repo": "https://github.com/eabdalmufid/eabdalmufid.github.io",
+  "owner": {
+    "username": "eabdalmufid",
+    "email": "eabdalmufid@gmail.com"
+  },
+  "record": {
+    "CNAME": "eabdalmufid.github.io"
+  }
+}
