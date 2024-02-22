@@ -1,12 +1,9 @@
-
-    {
-      "owner": {
+{
+    "owner": {
         "username": "DasSharkk",
-        "email": "affenheld@gmx.de"
-      },
-
-      "record": {
-        "URL": "https://dasshark.me"
-      }
+        "email": "dassharkk@proton.me"
+    },
+    "record": {
+        "CNAME": "dasshark.dasshept.de"
     }
-  
+}

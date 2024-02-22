@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "norkart1",
+    "email": "navasforwork@gmail.com",
+    "discord": "captnork"
+  },
+  "record": {
+    "MX": ["mail.is-a.dev"],
+    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+  }
+}

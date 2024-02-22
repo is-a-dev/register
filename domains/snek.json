@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
-        "username": "sn3kdev",
-        "email": "snektg@gmail.com"
-      },
-      "record": {
-        "URL": "https://odnako_zmeyka.t.me"
-      }
-    }
-      
+{
+  "owner": {
+    "username": "sn3kdev",
+    "email": "snektg@gmail.com"
+  },
+  "record": {
+    "URL": "https://odnako_zmeyka.t.me"
+  }
+}
