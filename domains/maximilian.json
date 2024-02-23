@@ -1,10 +1,7 @@
 {
-    "description": "Portfolio for myself",
-    "repo": "https://github.com/MaximilianHeinrich/MaximilianHeinrich.github.io",
     "owner": {
         "username": "MaximilianHeinrich",
-        "email": "maxhei.21@gmail.com",
-        "twitter": "Shept1337"
+        "email": "maxhei.21@gmail.com"
     },
     "record": {
         "A": [
@@ -19,4 +16,4 @@
         ],
         "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
-} 
+}
