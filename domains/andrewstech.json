@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "andrewstech",
-        "email": "andrew@win11react.com"
+        "email": "is-a-dev@win11react.com"
     },
     "record": {
-        "CNAME": "hosts.is-a.dev"
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
