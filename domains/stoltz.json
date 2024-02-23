@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "stoltz-dev",
-        "email": "rafaelbraun5@hotmail.com"
-    },
-    "record": {
-        "URL": "https://stoltz-dev.github.io"
-    }
+  "owner": {
+    "username": "stoltz-dev",
+    "email": "rafaelbraun5@hotmail.com"
+  },
+  "repo": "https://github.com/stoltz-dev/stoltz-dev.github.io",
+  "record": {
+    "CNAME": "stoltz-dev.github.io"
+  }
 }
