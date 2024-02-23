@@ -1,9 +1,11 @@
 {
+    "description": "Passadís Submarí",
+    "repo": "https://github.com/Cucusise/passadissummari",
     "owner": {
         "username": "Cucusise",
         "email": "cucusise@gmail.com"
     },
     "record": {
-        "URL": "https://cucusise.github.io/passadissummari/"
+        "CNAME": "cucusise.github.io"
     }
 }
