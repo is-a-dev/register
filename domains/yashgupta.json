@@ -1,9 +1,10 @@
 {
-  "owner": {
-    "username": "yashhh999",
-    "email": "gupta25yash@gmail.com"
-  },
-  "record": {
-    "CNAME": "yashhh999.github.io"
-  }
-}
+    "owner": {
+        "username": "yashhh999",
+        "email": "gupta25yash@gmail.com",
+        "twitter": "YashGupta01_"
+    },
+    "record": {
+        "CNAME": "YashGupta99/portfolio.id.repl.co"
+    }
+} 
