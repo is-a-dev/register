@@ -1,0 +1,12 @@
+{
+    "description": "For Development Purpose",
+    "repo": "https://github.com/soorajtech/soorajtech.github.io",
+    "owner": {
+        "username": "soorajtech",
+        "email": "soorajskumar004@gmail.com",
+        "twitter": "<twitter-username>"
+    },
+    "record": {
+        "CNAME": "soorajtech.github.io"
+    }
+} 
