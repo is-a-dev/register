@@ -15,7 +15,7 @@ const toHostList = R.chain(data => {
   // URL redirection must contain explicit A record
   // Wildcard A record breaks when used with MX
   // Ref: https://github.com/is-a-dev/register/issues/2365
-  if (data.record.URL && data.record.MX) {
+  if ((data.record.URL && data.record.MX) || data.name === '@') {
     data.record.A = [ DOMAIN_HOST_IP ]
   }
 

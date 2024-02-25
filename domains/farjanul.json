@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "farjanul",
-        "email": "farjanul10@gmail.com"
-    },
+  "owner": {
+    "username": "farjanul",
+    "email": "farjanul10@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "farjanul.github.io"
-    }
+  "record": {
+    "CNAME": "farjanul.github.io"
+  }
 }
