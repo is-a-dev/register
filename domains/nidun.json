@@ -1,9 +1,12 @@
 {
+    "description": "please accept my domain",
+    "repo": "https://github.com/nldun/nidun.github.io",
     "owner": {
         "username": "nldun",
-        "email": "rezkyto@gmail.com"
+        "email": "rezkyto@gmail.com",
+        "twitter": "@sinidun"
     },
     "record": {
-        "URL": "https://nldun.github.io/nidun/"
+        "CNAME": "nidun.github.io"
     }
-}
+} 
