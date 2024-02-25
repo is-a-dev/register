@@ -1,0 +1,11 @@
+{
+  "description": "Awiteb personal blog",
+  "repo": "https://github.com/TheAwiteb/TheAwiteb.github.io",
+  "owner": {
+    "username": "Awiteb",
+    "email": "Awiteb@pm.me"
+  },
+  "record": {
+    "CNAME": "TheAwiteb.github.io"
+  }
+}
