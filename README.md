@@ -13,7 +13,7 @@
 <p align="center"><strong>is-a-dev</strong> is a service that allows developers to get a sweet-looking ".is-a.dev" domain for their personal websites.</p>
 
 <p align="center">
-   <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://discord.com/api/guilds/830872854677422150/widget.png?style=banner2"></a>
+   <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
 </p>
 
 ## Issues
