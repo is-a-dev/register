@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "LateAlways",
-        "email": "latealways@i-am-a.fuchsiax.dev"
-    },
-    "record": {
-        "A": ["85.239.250.3"]
-    }
+  "owner": {
+    "username": "LateAlways",
+    "email": "latealways@i-am-a.fuchsiax.dev"
+  },
+  "record": {
+    "A": ["85.239.250.3"]
+  }
 }
