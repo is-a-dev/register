@@ -1,11 +1,13 @@
 {
-    "owner": {
-        "username": "CuteDog5695",
-        "email": "cutedog5695@gmail.com",
-        "discord": "cutedog5695",
-        "twitter": "cutedog5695"
-    },
-    "record": {
-        "CNAME": "cutedog5695.pages.dev"
-    }
+  "owner": {
+    "username": "CuteDog5695",
+    "email": "cutedog5695@gmail.com",
+    "discord": "cutedog5695",
+    "twitter": "cutedog5695"
+  },
+  "record": {
+   "URL": "https://cutedog5695.me",
+    "MX": ["mail.is-a.dev"],
+    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+  }
 }
