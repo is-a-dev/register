@@ -7,6 +7,8 @@
     "discord": "name_yug"
   },
   "record": {
-    "CNAME": "YUG38.github.io"
+    "CNAME": "YUG38.github.io",
+    "_comment": "Bottom is for discord",
+    "TXT": "dh=badfe36f0b79aa7956c0deb3b1167f590fe3dc9e"
   }
 }
