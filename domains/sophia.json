@@ -1,0 +1,10 @@
+{
+  "description": "Portfolio",
+  "repo": "https://github.com/suuf/suuf.github.io",
+  "owner": {
+    "username": "suuf"
+  },
+  "record": {
+    "CNAME": "suuf.github.io"
+  }
+}
