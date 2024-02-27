@@ -2,7 +2,8 @@
   "description": "Portfolio",
   "repo": "https://github.com/suuf/suuf.github.io",
   "owner": {
-    "username": "suuf"
+    "username": "suuf",
+    "email": "sophia37761@gmail.com"
   },
   "record": {
     "CNAME": "suuf.github.io"
