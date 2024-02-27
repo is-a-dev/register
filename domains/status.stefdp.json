@@ -5,6 +5,8 @@
     "discord": "694986201739952229"
   },
   "record": {
-    "CNAME": "uptime.stefdp.is-a.dev"
+    "A": [
+      "37.114.37.132"
+    ]
   }
 }
