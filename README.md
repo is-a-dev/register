@@ -23,11 +23,6 @@ If you have an issue that contains confidental infomation, send an email to secu
 
 ## Register
 
-### Automated Registration
-Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your GitHub account and click the register page in the navbar. Fill out some questions and it will all happen automatically!
-
-Another method is to join our [Discord server](https://discord.gg/PZCGHz4RhQ), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
-
 ### Manual Registration
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
@@ -36,26 +31,12 @@ Another method is to join our [Discord server](https://discord.gg/PZCGHz4RhQ), h
 - After the pull request is merged, please allow up to 24 hours for the changes to propagate.
 - Enjoy your new `.is-a.dev` domain!
 
-### CLI Registration
-For issues with the CLI, do **not** open an issue on this repository, instead open an issue on the [is-a-dev/cli](https://github.com/is-a-dev/cli/issues/new) repository.
+### Automated Registration
+#### *When using the manage site, please ensure your records are valid. Please do NOT "test" out the manage site and create invalid PRs, it wastes maintainers' time.*
 
-Install the CLI:
+Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your GitHub account and click the register page in the navbar. Fill out some questions and it will all happen automatically!
 
-```bash
-npm install @is-a-dev/cli -g
-```  
-
-Login to the CLI:
-
-```bash
-is-a-dev login
-```
-
-Register a subdomain on the CLI:
-
-```
-is-a-dev register
-```
+Another method is to join our [Discord server](https://discord.gg/PZCGHz4RhQ), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
 
 ## Status
 You can check the uptime of our services on our [status dashboard](https://is-a-dev.wdh.gg).
