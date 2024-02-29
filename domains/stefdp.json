@@ -1,14 +1,21 @@
 {
-    "description": "Domain for my personal website",
-    "repo": "https://github.com/Stef-00012/stef-00012.github.io",
     "owner": {
         "username": "Stef-00012",
-        "email": "stefano.delprete.08@gmail.com",
-        "twitter": "Stef_Del_Prete"
+        "email": "admin@stefdp.is-a.dev",
+        "discord": "694986201739952229"
     },
-   "record": {
-        "A": ["217.174.245.249"],
-        "TXT": "v=spf1 mx a:mailx.is-a.dev ip4:217.174.245.249 ~all",
-        "MX": ["mailx.is-a.dev"]
+    "record": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "MX": [
+            "mail.is-a.dev"
+        ],
+        "TXT": [
+            "v=spf1 mx a:mail.is-a.dev ip4:217.174.245.249 ~all"
+        ]
     }
 }
