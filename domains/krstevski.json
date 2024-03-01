@@ -1,9 +1,11 @@
 {
+    "description": "GitHub Pages site for krstevski.is-a.dev",
+    "repo": "https://github.com/l3069/l3069.github.io",
     "owner": {
         "username": "l3069",
         "email": "krstevski.leonid2018@gmail.com"
     },
     "record": {
-        "CNAME": "krstevski.github.io"
+        "CNAME": "l3069.github.io"
     }
 }
