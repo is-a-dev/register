@@ -1,0 +1,10 @@
+{
+  "description": "My static database",
+  "owner": {
+    "username": "s3mant",
+    "email": "contact@semant.is-a.dev"
+  },
+  "record": {
+    "CNAME": "web-0wfb.onrender.com"
+  }
+}
