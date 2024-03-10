@@ -4,6 +4,6 @@
         "email": "ceo@mafut.win"
     },
     "record": {
-        "CNAME": "cname.vercel-dns.com"
+        "A": "178.128.96.69"
     }
 }
