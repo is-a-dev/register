@@ -12,9 +12,10 @@
             "185.199.111.153"
         ],
         "MX": [
-          "mail.stefdp.is-a.dev"
+            "mail.stefdp.is-a.dev"
         ],
-        "TXT": "v=spf1 mx ~all"
-      }
+        "TXT": [
+            "v=spf1 mx ~all"
+        ]
     }
 }
