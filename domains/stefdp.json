@@ -12,10 +12,9 @@
             "185.199.111.153"
         ],
         "MX": [
-            "mail.is-a.dev"
+          "mail.stefdp.is-a.dev"
         ],
-        "TXT": [
-            "v=spf1 mx a:mail.is-a.dev ip4:217.174.245.249 ~all"
-        ]
+        "TXT": "v=spf1 mx ~all"
+      }
     }
 }
