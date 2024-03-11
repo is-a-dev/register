@@ -6,6 +6,6 @@
         "discord": "7un4r"
     },
     "record": {
-        "CNAME": ["webmail.zeusteam.dev"]
+        "CNAME": "webmail.zeusteam.dev"
     }
 }
