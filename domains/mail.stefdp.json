@@ -2,8 +2,7 @@
   "owner": {
     "username": "Stef-00012",
     "email": "admin@stefdp.is-a.dev",
-    "discord": "694986201739952229",
-    "github_id": 81536172
+    "discord": "694986201739952229"
   },
   "record": {
     "A": [
@@ -12,8 +11,6 @@
     "MX": [
       "mail.stefdp.is-a.dev"
     ],
-    "TXT": [
-      "v=spf1 mx ~all"
-    ]
+    "TXT": "v=spf1 mx ~all"
   }
 }
