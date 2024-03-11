@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "NeonGamerBot-QK",
-        "email": "neon+domain@saahild.com"
-    },
-    "record": {
-        "CNAME": "saahild.com"
-
-    }
+  "owner": {
+    "username": "NeonGamerBot-QK",
+    "email": "neon+domain@saahild.com"
+  },
+  "record": {
+    "A": ["185.250.37.86"]
+  }
 }
