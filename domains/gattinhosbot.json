@@ -7,13 +7,13 @@
   },
   "record": {
     "A": [
-      "37.114.37.132"
+      "194.60.201.37"
     ],
     "MX": [
-      "mail.is-a.dev"
+      "mail.stefdp.is-a.dev"
     ],
     "TXT": [
-      "v=spf1 mx a:mail.is-a.dev ~all"
+      "v=spf1 mx ~all"
     ]
   }
 }
