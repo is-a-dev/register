@@ -6,14 +6,6 @@
     "github_id": 81536172
   },
   "record": {
-    "A": [
-      "194.60.201.37"
-    ],
-    "MX": [
-      "mail.stefdp.is-a.dev"
-    ],
-    "TXT": [
-      "v=spf1 mx ~all"
-    ]
+    "CNAME": "proxy.stefdp.is-a.dev"
   }
 }
