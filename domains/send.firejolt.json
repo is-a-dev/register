@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "YouFoundAlpha",
+    "email": "YouFoundAlpha@alpha.is-a.dev",
+    "Discord": "661121998830960651",
+    "GitHub": "YouFoundAlpha",
+    "GitLab": "YouFoundAlpha",
+    "Mastodon": "@YouFoundAlpha@mastodon.social"
+  },
+  "record": {
+    "MX":"feedback-smtp.us-east-1.amazonses.com",
+"TXT": "v=spf1 include:amazonses.com ~all"
+  }
+}
