@@ -8,6 +8,7 @@
         "discord": "valowolf"
     },
     "record": {
-        "CNAME": "valowolf.github.io"
+        "CNAME": "valowolf.github.io",
+        "TXT": "did=did:plc:qgp4s2w27woji4x7jbpbzcvd"
     }
 } 
