@@ -4,8 +4,6 @@
     "email": ""
   },
   "record": {
-    "URL": "https://team.is-a.dev",
-    "MX": ["mail.is-a.dev"],
-    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+    "URL": "https://team.is-a.dev"
   }
 }
