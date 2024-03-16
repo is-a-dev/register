@@ -1,9 +1,13 @@
 {
-    "owner": {
-        "username": "HafiTheCat",
-        "email": "f2hafner@edu.aau.at"
-    },
-    "record": {
-        "CNAME": "hafi_the_cat.github.io"
-    }
+	"owner": {
+		"username": "HafiTheCat",
+		"email": "",
+		"twitter": "",
+		"discord": "hafi_the_cat"
+	},
+	"description": "Website about about me",
+	"repo": "https://github.com/HafiTheCat",
+	"record": {
+		"CNAME": "hafi_the_cat.github.io"
+	}
 }
