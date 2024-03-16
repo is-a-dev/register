@@ -4,6 +4,7 @@
         "email": "hamdankalliyil@gmail.com"
     },
     "record": {
-        "CNAME": "21z.github.io"
+        "CNAME": "21z.github.io",
+        "TXT": ["_discord.21z.is-a.dev", "dh=cad8d14a40cc3daa14436ff5e874e4c02ce2e1ae"]
     }
 }
