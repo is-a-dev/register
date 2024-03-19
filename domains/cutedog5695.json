@@ -6,8 +6,6 @@
     "twitter": "cutedog5695"
   },
   "record": {
-   "URL": "https://cutedog5695.me",
-    "MX": ["mail.is-a.dev"],
-    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+   "URL": "https://cutedog5695.me"
   }
 }
