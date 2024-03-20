@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "tommi",
+    "email": "surfing@tommi.space",
+    "GitHub": "xplosionmind",
+    "GitLab": "xplosionmind",
+    "Mastodon": "@tommi@pan.rent"
+  },
+	"repo": "https://codeberg.org/tommi/tommi.space",
+	"description": "The virtual representation of Tommi’s mind",
+  "record": {
+    "URL": "https://tommi.space",
+    "CNAME": ["tommi.space"]
+  }
+}
