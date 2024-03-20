@@ -4,6 +4,6 @@
         "email": "tommy.camp@ccsstudent.org"
     },
     "record": {
-        "CNAME": "https://pf-rouge.vercel.app/"]
+        "CNAME": ["https://pf-rouge.vercel.app/"]
     }
 }
