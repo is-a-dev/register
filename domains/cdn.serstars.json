@@ -1,9 +1,11 @@
 {
+    "repo": "https://github.com/SerStars/cdn",
     "owner": {
         "username": "SerStars",
-        "email": "sdfs9912@gmail.com"
+        "email": "",
+        "twitter": "SerStars_lol"
     },
     "record": {
-        "CNAME": "http://serstars.is-a.dev/cdn/"
+        "CNAME": "serstars.github.io/cdn"
     }
-}
+} 
