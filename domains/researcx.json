@@ -7,6 +7,6 @@
     "record": {
         "A": ["129.151.206.225"],
         "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
-        "TXT": ["v=spf1 include:zoho.eu ~all"]
+        "TXT": ["v=spf1 include:zoho.eu ~all", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtfBtZj+dWsyfMvtU2crQLHr9Cwzq3VLIeA8CJ4FomRejvBwO1lJ4W0/O+SyDAfrlUxVC75/i6WWJXgYv69PduuvLng/zF//zEGqh6XmI5EXjjyTNKodP7kRVo6+ncfENfxVXwVUYpkCWqvmHny2LaRzss9TJ6Qq1K1MmfQRqvrwIDAQAB"]
     }
 }
