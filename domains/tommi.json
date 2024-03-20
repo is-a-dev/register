@@ -10,6 +10,6 @@
 	"description": "The virtual representation of Tommi’s mind",
   "record": {
     "URL": "https://tommi.space",
-    "CNAME": ["tommi.space"]
+    "CNAME": "tommi.space"
   }
 }
