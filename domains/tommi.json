@@ -9,7 +9,6 @@
 	"repo": "https://codeberg.org/tommi/tommi.space",
 	"description": "The virtual representation of Tommi’s mind",
   "record": {
-    "URL": "https://tommi.space",
-    "CNAME": "tommi.space"
+    "URL": "https://tommi.space"
   }
 }
