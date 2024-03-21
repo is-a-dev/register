@@ -1,0 +1,12 @@
+{
+  "description": "CutYourURL is a free URL Shortener!",
+  "repo": "https://github.com/ashishagarwal203/CutYourURL",
+  "owner": {
+    "username": "ashishagarwal2023",
+    "twitter": "",
+    "email": "code.with.aasheesh@gmail.com"
+  },
+  "record": {
+    "CNAME": "ashishagarwal.is-a.dev/cutyoururl"
+  }
+}
