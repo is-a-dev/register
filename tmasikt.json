@@ -1,6 +1,5 @@
 {
-    "description": "tmasik.t's bio",
-    "repo": "https://github.com/tmasikt/tmasikt.github.io",
+    "description": "tmasik.t's server linked",
     "owner": {
         "username": "tmasikt",
         "email": "tmasik.t.210@gmail.com",
@@ -8,6 +7,8 @@
         "telegram": "@tmasikt"
     },
     "record": {
-        "CNAME": "tmasikt.github.io"
+        "A": [
+            "194.190.169.59"
+        ]
     }
 } 
