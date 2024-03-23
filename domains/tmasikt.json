@@ -9,6 +9,8 @@
   "record": {
     "A": [
       "194.190.169.59"
-    ]
+    ],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
