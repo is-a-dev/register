@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "suryaaprakassh",
-        "email": "surya0prakash@proton.me"
-    },
+  "owner": {
+    "username": "suryaaprakassh",
+    "email": "surya0prakash@proton.me"
+  },
 
-    "record": {
-        "CNAME": "suryaaprakassh.github.io"
-    }
+  "record": {
+    "CNAME": "suryaaprakassh.github.io"
+  }
 }
