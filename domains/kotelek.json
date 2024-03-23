@@ -1,10 +1,9 @@
 {
     "owner": {
         "username": "xKotelek",
-        "email": "kontakt@kotelek.tk"
+        "email": "contact@kotelek.dev"
     },
-
     "record": {
-        "CNAME": "kotelek.tk"
+        "CNAME": "kotelek.dev"
     }
 }

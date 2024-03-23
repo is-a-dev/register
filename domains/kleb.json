@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "KrazyKleb",
-        "email": "krazykleb@outlook.com"
-    },
-    "record": {
-        "A": ["143.47.249.115"],
-        "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."]
-    }
+  "owner": {
+    "username": "KrazyKleb",
+    "email": "krazykleb@outlook.com"
+  },
+  "record": {
+    "A": ["69.30.249.53"]
+  }
 }
