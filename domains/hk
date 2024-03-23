@@ -4,6 +4,6 @@
         "email": "medlexopm@gmail.com"
     },
     "record": {
-        "CNAME": "sga.domcloud.id"
+        "A": "185.27.134.137"
     }
 }
