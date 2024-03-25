@@ -16,6 +16,7 @@
   "author": "Akshay Nair <phenax5@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {
+    "ip-regex": "^5.0.0",
     "ramda": "^0.27.1"
   },
   "devDependencies": {
