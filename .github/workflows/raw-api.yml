@@ -40,7 +40,7 @@ jobs:
                   source-directory: "raw-api"
                   destination-github-username: is-a-dev
                   destination-repository-name: raw-api
-                  user-email: is-a-dev@win11react.com
+                  user-email: 106927495+is-a-dev-bot@users.noreply.github.com
                   user-name: is-a-dev-bot
                   commit-message: "Update Data via is-a-dev/register"
               env:
