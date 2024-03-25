@@ -1,0 +1,59 @@
+
+{
+  "Butiran_Peribadi": {
+    "Nama_Penuh": "MUHAMMAD ARIFF BIN HAZMI",
+    "Jantina": "Male",
+    "Tarikh_Lahir": "18/07/2003",
+    "Status_Perkahwinan": "Single",
+    "Kewarganegaraan": "Malaysian",
+    "Perlukah_Permit_Kerja": "Tidak, saya tidak perlukan",
+    "Alamat_Terkini": "K26, Jalan Sarawak, Pangkalan Udara Subang, Shah Alam, Selangor, 40000, Malaysia",
+    "Nombor_Telefon": "60147218016",
+    "Alamat_Emel": "muhdariffhazmi@gmail.com"
+  },
+  "Pengalaman_Kerja": [
+    {
+      "Pengalaman_Kerja_1": "Call Centre Executive - Asia IOT Solutions Sdn Bhd",
+      "Tarikh": "Mar 2024 - Sekarang"
+    },
+    {
+      "Pengalaman_Kerja_2": "Crew - Nando's Malaysia",
+      "Tarikh": "Dec 2023 - Feb 2024",
+      "Deskripsi": "Customer services, Cashier, Restaurant crew"
+    },
+    {
+      "Pengalaman_Kerja_3": "Software Programmer - AQ Wise Sdn bhd",
+      "Tarikh": "Sep 2023 - Feb 2024",
+      "Deskripsi": "Software programmer, Project developer"
+    },
+    {
+      "Pengalaman_Kerja_4": "Kitchen Crew - Pizza San Francisco",
+      "Tarikh": "Aug 2021 - Sep 2021",
+      "Deskripsi": "Membantu chef di dapur"
+    }
+  ],
+  "Pendidikan": [
+    {
+      "Education_1": "Diploma - UITM ARAU",
+      "Tarikh": "Jan 2021 - Mar 2024"
+    },
+    {
+      "Education_2": "Sekolah Menengah - SMK SHAH ALAM",
+      "Tarikh": "Jan 2016 - May 2020"
+    }
+  ],
+  "Kemahiran_&_Bahasa": {
+    "Bahasa": {
+      "English": "Baik",
+      "Malaysia": "Baik"
+    },
+    "Kemahiran": ["Kemahiran berkomunikasi", "proficient in MS Office"]
+  },
+  "Bidang_Kerja_Pilihan": {
+    "Jawatan_Yang_Diingini": "Computer Programmer",
+    "Jenis_Pekerjaan_Yang_Diingini": "Sepenuh Masa",
+    "Lokasi_Kerja_Yang_Diingini": "Shah Alam, Selangor, Malaysia",
+    "Gaji_yang_dijangkakan": "MYR 1800",
+    "Berapa_segera_anda_boleh_mula_bekerja?": "Segera"
+  }
+}
