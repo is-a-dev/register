@@ -1,11 +1,11 @@
 {
   "description": "portfolio website",
-  "repo": "https://github.com/dev7amim/dev7amim.github.io",
+  "repo": "https://github.com/mdtamimcpp/mdtamimcpp.github.io",
   "owner": {
-    "username": "dev7amim",
+    "username": "mdtamimcpp",
     "email": "dev7amim@yahoo.com"
   },
   "record": {
-    "CNAME": "dev7amim.github.io"
+    "CNAME": "mdtamimcpp.github.io"
   }
 }
