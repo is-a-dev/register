@@ -1,0 +1,12 @@
+{
+  "description": "Sezriati Website",
+  "repo": "https://github.com/Sezriati",
+  "owner": {
+    "username": "Sezriati",
+    "email": "mertsezer.dev@gmail.com",
+    "twitter": "mertsezernet"
+  },
+  "record": {
+    "CNAME": "https://github.com/Sezriati"
+  }
+}
