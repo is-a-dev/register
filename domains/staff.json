@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "@is-a-dev/maintainers",
-        "email": "phenax5@gmail.com"
-    },
-    "record": {
-        "CNAME": "is-a-dev-maintainers.pages.dev"
-    }
+  "owner": {
+    "username": "is-a-dev",
+    "email": ""
+  },
+  "record": {
+    "CNAME": "is-a-dev-maintainers.pages.dev"
+  }
 }

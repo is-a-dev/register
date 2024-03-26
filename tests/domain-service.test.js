@@ -204,18 +204,18 @@ describe('Domain service', () => {
         { name: 'c', type: 'MX', address: 'foobar.com', priority: 2 },
       ]);
 
-      expect(addZone).toBeCalledTimes(1);
+      expect(addZone).toHaveBeenCalledTimes(1);
       expect(getRecordCalls(addZone)).toEqual([
         { name: 'c', type: 'A', address: '12.131321.213' },
       ]);
 
-      expect(addEmail).toBeCalledTimes(1);
+      expect(addEmail).toHaveBeenCalledTimes(1);
       expect(getRecordCalls(addEmail)).toEqual([
         { domain: 'c.is-a.dev', exchanger: 'foobar.com', priority: 2 },
       ]);
 
-      expect(removeZone).toBeCalledTimes(0);
-      expect(removeEmail).toBeCalledTimes(0);
+      expect(removeZone).toHaveBeenCalledTimes(0);
+      expect(removeEmail).toHaveBeenCalledTimes(0);
     });
 
     it('should update matching host and set it', async () => {
@@ -231,11 +231,11 @@ describe('Domain service', () => {
         { name: 'b', type: 'CNAME', address: 'googoogaga' },
       ]);
 
-      expect(addZone).toBeCalledTimes(1);
+      expect(addZone).toHaveBeenCalledTimes(1);
       expect(getRecordCalls(addZone)).toEqual([
         { name: 'b', type: 'CNAME', address: 'googoogaga' },
       ]);
-      expect(removeZone).toBeCalledTimes(1);
+      expect(removeZone).toHaveBeenCalledTimes(1);
       expect(getRecordCalls(removeZone)).toEqual([
         { line: 2 },
       ]);
@@ -256,15 +256,15 @@ describe('Domain service', () => {
         { name: 'b', type: 'CNAME', address: 'farboo' },
       ]);
 
-      expect(addZone).toBeCalledTimes(2);
+      expect(addZone).toHaveBeenCalledTimes(2);
       expect(getRecordCalls(addZone)).toEqual([
         { name: 'b', type: 'CNAME', address: 'googoogaga' },
         { name: 'b', type: 'CNAME', address: 'farboo' },
       ]);
-      expect(removeZone).toBeCalledTimes(2);
+      expect(removeZone).toHaveBeenCalledTimes(2);
       expect(getRecordCalls(removeZone)).toEqual([
-        { line: 2 },
         { line: 3 },
+        { line: 2 },
       ]);
     });
 
@@ -277,6 +277,9 @@ describe('Domain service', () => {
         { line: 5, name: 'c', type: 'MX', address: 'mx1.hello.com', priority: 20 },
         { line: 6, name: 'c', type: 'MX', address: 'mx2.hello.com', priority: 21 },
         { line: 7, name: 'b', type: 'MX', address: 'foo.bar', priority: 20 },
+        { line: 101, name: 'x', type: 'A', address: '1' },
+        { line: 99, name: 'y', type: 'A', address: '2' },
+        { line: 100, name: 'z', type: 'A', address: '3' },
       ];
       const redirections = [
         { domain: `b.${DOMAIN_DOMAIN}`, destination: 'https://foobar.com' },
@@ -300,34 +303,37 @@ describe('Domain service', () => {
         { name: 'a', type: 'MX', address: 'example.com', priority: 20 },
       ]);
 
-      expect(addZone).toBeCalledTimes(3);
+      expect(addZone).toHaveBeenCalledTimes(3);
       expect(getRecordCalls(addZone)).toEqual([
         { name: 'a', type: 'CNAME', address: 'boo' },
         { name: 'b', type: 'A', address: '3' },
         { name: 'd', type: 'CNAME', address: 'helo.com' },
       ]);
-      expect(removeZone).toBeCalledTimes(1);
+      expect(removeZone).toHaveBeenCalledTimes(4);
       expect(getRecordCalls(removeZone)).toEqual([
+        { line: 101 },
+        { line: 100 },
+        { line: 99 },
         { line: 1 },
       ]);
 
-      expect(addEmail).toBeCalledTimes(1);
+      expect(addEmail).toHaveBeenCalledTimes(1);
       expect(getRecordCalls(addEmail)).toEqual([
         { domain: 'a.is-a.dev', exchanger: 'example.com', priority: 20 },
       ]);
-      expect(removeEmail).toBeCalledTimes(2);
+      expect(removeEmail).toHaveBeenCalledTimes(2);
       expect(getRecordCalls(removeEmail)).toEqual([
-        { domain: 'c.is-a.dev', exchanger: 'mx1.hello.com', priority: 20 },
         { domain: 'b.is-a.dev', exchanger: 'foo.bar', priority: 20 },
+        { domain: 'c.is-a.dev', exchanger: 'mx1.hello.com', priority: 20 },
       ]);
 
-      expect(addRedir).toBeCalledTimes(3);
+      expect(addRedir).toHaveBeenCalledTimes(3);
       expect(getRecordCalls(addRedir)).toEqual([
         { domain: `b.${DOMAIN_DOMAIN}`, type: 'permanent', redirect: 'https://wowow.com' },
         { domain: `d.${DOMAIN_DOMAIN}`, type: 'permanent', redirect: 'https://hhh.com' },
         { domain: `x.${DOMAIN_DOMAIN}`, type: 'permanent', redirect: 'https://example69.com' },
       ]);
-      expect(removeRedir).toBeCalledTimes(2);
+      expect(removeRedir).toHaveBeenCalledTimes(2);
       expect(getRecordCalls(removeRedir)).toEqual([
         { domain: `b.${DOMAIN_DOMAIN}` },
         { domain: `x.${DOMAIN_DOMAIN}` },
