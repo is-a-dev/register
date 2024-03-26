@@ -1,0 +1,47 @@
+name: Raw API
+
+on:
+    push:
+        branches: [main]
+        paths:
+            - "domains/*"
+            - ".github/workflows/raw-api.yml"
+
+    workflow_dispatch:
+
+concurrency:
+    group: ${{ github.ref }}-raw-api
+    cancel-in-progress: true
+
+jobs:
+    update:
+        name: Update
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: actions/checkout@v4
+              with:
+                  repository: is-a-dev/raw-api
+                  path: raw-api
+                  token: ${{ secrets.BOT }}
+
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 20.x
+
+            - name: Update Data
+              run: node raw-api/scripts/update.js
+
+            - name: Commit
+              uses: cpina/github-action-push-to-another-repository@main
+              with:
+                  source-directory: "raw-api"
+                  destination-github-username: is-a-dev
+                  destination-repository-name: raw-api
+                  user-email: 106927495+is-a-dev-bot@users.noreply.github.com
+                  user-name: is-a-dev-bot
+                  commit-message: "Update Data via is-a-dev/register"
+              env:
+                  API_TOKEN_GITHUB: ${{ secrets.BOT }}
