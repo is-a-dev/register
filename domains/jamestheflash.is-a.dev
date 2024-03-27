@@ -1,0 +1,12 @@
+{
+    "description": "Upload my bot",
+    "repo": "https://github.com/<github-username>/<github-username>.github.io",
+    "owner": {
+        "username": "JamesTheFlash22",
+        "email": "davidebu43@gmail.com",
+        "twitter": "no"
+    },
+    "record": {
+        "CNAME": "<username>.github.io"
+    }
+} 
