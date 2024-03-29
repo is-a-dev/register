@@ -5,6 +5,6 @@
     },
     "record": {
         "A": ["69.30.249.53"],
-        "MX": ["mail.is-a.dev"]
+        "CNAME": ["proxy.private.danbot.host"]
     }
 }
