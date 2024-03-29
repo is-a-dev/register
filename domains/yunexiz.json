@@ -6,7 +6,7 @@
     "record": {
     "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"], 
     "AAAA": ["2606:50c0:8000::153","2606:50c0:8001::153","2606:50c0:8002::153","2606:50c0:8003::153"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all", "_github-pages-challenge-Yunexiz.yunexiz.is-a.dev 273b8f26fd1aacf2cd47be00178179"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
     }
 }
