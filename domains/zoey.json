@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Zoey2936",
-        "email": "zoey@z0ey.de"
-    },
-    "record": {
-        "CNAME": "ip.z0ey.de"
-    }
+  "owner": {
+    "username": "Zoey2936",
+    "email": "zoey@z0ey.de"
+  },
+  "record": {
+    "CNAME": "ip.z0ey.de"
+  }
 }

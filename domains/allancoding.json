@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "allancoding",
-        "email": "allancoding.dev@gmail.com",
-        "twitter": "allancoding",
-        "discord": "allancoding"
-    },
-    "record": {
-        "CNAME": "allancoding.github.io"
-    }
+  "owner": {
+    "username": "allancoding",
+    "email": "allancoding.dev@gmail.com",
+    "twitter": "allancoding",
+    "discord": "allancoding"
+  },
+  "record": {
+    "CNAME": "allancoding.github.io"
+  }
 }
