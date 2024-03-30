@@ -1,11 +1,12 @@
 {
-    "owner": {
-        "username": "legendsayantan",
-        "email": "legendsayantanpaul@gmail.com"
-    },
-    "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
-    }
+  "description": "Sayantan's portfolio and project wikis",
+  "repo": "https://github.com/legendsayantan/legendsayantan.github.io",
+  "owner": {
+    "username": "legendsayantan",
+    "email": "legendsayantan@gmail.com",
+    "twitter": "legendsayantan"
+  },
+  "record": {
+    "CNAME": "legendsayantan.github.io"
+  }
 }
