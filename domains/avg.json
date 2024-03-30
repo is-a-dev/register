@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "AverageHelper",
-        "email": "avghelper.5fh6g@simplelogin.co"
-    },
-    "record": {
-        "URL": "https://average.name"
-    }
+  "owner": {
+    "username": "AverageHelper",
+    "email": "",
+    "mastodon": "@avghelper@average.name"
+  },
+  "record": {
+    "URL": "https://average.name"
+  }
 }
