@@ -4,9 +4,6 @@
         "email": "jadfoq@getgoogleoff.me"
     },
     "record": {
-    "MX": [
-      "dns1.alwaysdata.com",
-      "dns2.alwaysdata.com"
-    ]
+    "A": "185.31.40.24"
   }
 }
