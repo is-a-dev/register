@@ -5,6 +5,8 @@
         "discord": "775012312876711936"
     },
     "record": {
-        "URL": "http://sysbot.rf.gd"
+        "URL": "https://timevoice.onrender.com"
+        "MX": ["mail.is-a.dev"],
+        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
     }
 }
