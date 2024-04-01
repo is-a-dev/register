@@ -4,6 +4,8 @@
         "email": "jadfoq@getgoogleoff.me"
     },
     "record": {
-    "A": "185.31.40.24"
+    "AAAA": [
+      "2a00:b6e0:1:20:15::1"
+    ]
   }
 }
