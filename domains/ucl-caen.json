@@ -1,0 +1,10 @@
+{
+  "description": "website in development for a non-profit organization",
+  "owner": {
+    "username": "GildasTessier",
+    "email": "gildas.tessier@gmail.com"
+  },
+  "record": {
+    "CNAME": "gildas-tessier.fr/ucl"
+  }
+}
