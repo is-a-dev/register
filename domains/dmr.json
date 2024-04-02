@@ -5,6 +5,7 @@
     "email": "demisrosseti@gmail.com"
   },
   "record": {
-    "URL": "https://040ff340db5c97c3ab74202ea081dd80.serveo.net"
+    "CNAME": "serveo.net",
+    "TXT": "_serveo-authkey.dmr.is-a.dev = SHA256:NNtEqPDbbjta0QOIzWSZojll/Ntrw3S+BGAvWp4+E8o"
   }
 }
