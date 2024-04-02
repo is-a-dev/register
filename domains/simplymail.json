@@ -6,6 +6,6 @@
 },
   "record": {
     "CNAME": ["skiff1.fzcrbshw6i0izhr.dkim.skiff.com", "skiff2.fzcrbshw6i0izhr.dkim.skiff.com"],
-    "TXT": ["v=spf1 include:fzcrbshw6i0izhr.spf.skiff.com -all", "v=DMARC1; p=reject; pct=100; adkim=s; aspf=s"],
+    "TXT": ["v=spf1 include:fzcrbshw6i0izhr.spf.skiff.com -all", "v=DMARC1; p=reject; pct=100; adkim=s; aspf=s", "dh=2df9c4779dda772dd94dbf6fc879ecb4cb9ade96"],
     "MX": "inbound-smtp.skiff.com"
   }
