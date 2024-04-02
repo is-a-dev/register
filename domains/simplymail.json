@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "simply-leon",
+    "email": "saishashaz@gmail.com"
+  }
+},
+  "record": {
+    "CNAME": ["skiff1.fzcrbshw6i0izhr.dkim.skiff.com", "skiff2.fzcrbshw6i0izhr.dkim.skiff.com"],
+    "TXT": ["v=spf1 include:fzcrbshw6i0izhr.spf.skiff.com -all", "v=DMARC1; p=reject; pct=100; adkim=s; aspf=s"],
+    "MX": "inbound-smtp.skiff.com"
+    ]
+  }
+}
