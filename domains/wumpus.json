@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/wumpus2000/Wumpus2000.github.io",
+    "owner": {
+        "username": "Wumpus2000",
+        "email": "wumpusing@gmail.com",
+        "twitter": "WumpusFanClub"
+    },
+    "record": {
+        "CNAME": "Wumpus2000.github.io"
+    }
+} 
