@@ -4,6 +4,6 @@
         "email": "liztochekcode@gmail.com"
     },
     "record": {
-        "MX": ["vc-domain-verify=wyurtrft.is-a.dev","ff0702fc3a18409bd380"]
+        "TXT": ["vc-domain-verify=wyurtrft.is-a.dev,ff0702fc3a18409bd380"]
     }
 }
