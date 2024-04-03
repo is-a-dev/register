@@ -67,6 +67,10 @@ describe('validateDomainData', () => {
     { ...defaultDomain, name: '_gitlab-pages-verification-code' },
     { ...defaultDomain, name: '_acme-challenge' },
     { ...defaultDomain, name: '_dmarc' },
+    { ...defaultDomain, record: { TXT: 'google-site-verification' },
+    { ...defaultDomain, record: { TXT: 'keybase-site-verification' },
+    { ...defaultDomain, record: { TXT: 'MS' },
+    { ...defaultDomain, record: { CNAME: 'verify.bing.com' }
   ];
 
   const validCases = [
