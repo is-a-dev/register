@@ -1,0 +1,11 @@
+{
+  "description": "Portfolio website for Wumpus",
+  "repo": "https://github.com/wumpus2000/wumpus2000.github.io",
+  "owner": {
+    "username": "wumpus2000",
+    "email": "wumpusing@gmail.com"
+  },
+  "record": {
+    "CNAME": "wumpus2000.github.io"
+  }
+}
