@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "superhize",
-        "email": "super@hize.be"
+        "email": "super@hize.be",
+        "discord": "hize"
     },
     "record": {
-        "A": ["5.75.137.18"]
+        "CNAME": "dev.hize.be"
     }
 }
