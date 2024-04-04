@@ -4,6 +4,6 @@
         "email": "gmr828@null.net"
     },
     "record": {
-        "CNAME": "discdefenderbfbffb.000webhostapp.com"
+        "A": ["69.30.249.53"]
     }
 }

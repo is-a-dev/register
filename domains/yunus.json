@@ -1,9 +1,11 @@
 {
     "owner": {
-        "username": "Nonam4lol",
-        "email": "literallynoname13@gmail.com"
+        "username": "Yunexiz",
+        "email": "yunexiz@aol.com"
     },
     "record": {
-        "A": ["69.30.249.53"]
+        "URL": "https://yunexiz.is-a.dev", 
+        "TXT": ["forward-email=yunexiz@aol.com"],
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"]
     }
 }
