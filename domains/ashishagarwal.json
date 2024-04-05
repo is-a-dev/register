@@ -4,6 +4,19 @@
         "email": "code.with.aasheesh@gmail.com"
     },
     "record": {
-        "CNAME": "ashishagarwal2023.github.io"
+        "CNAME": "ashishagarwal2023.github.io",
+         "A": [
+      "185.199.109.153",
+      "185.199.111.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
     }
 }
