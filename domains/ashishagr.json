@@ -1,14 +1,12 @@
 {
-  "owner": {
-    "username": "ssynical",
-    "email": "trapizoids543@gmail.com",
-    "discord": "1108616541739700284"
-  },
-
-  "record": {
-    "A": [
-      "185.199.108.153",
+    "owner": {
+        "username": "ashishagarwal2023",
+        "email": "code.with.aasheesh@gmail.com"
+    },
+    "record": {
+         "A": [
       "185.199.109.153",
+      "185.199.111.153",
       "185.199.110.153",
       "185.199.111.153"
     ],
@@ -19,5 +17,5 @@
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all"
     ]
-  }
+    }
 }
