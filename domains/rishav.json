@@ -1,0 +1,11 @@
+{
+    "description": "portfolio domain",
+    "repo": "https://github.com/r15hav/r15hav.github.io",
+    "owner": {
+        "username": "r15hav",
+        "email": "r15hav@gmail.com",
+    },
+    "record": {
+        "CNAME": "r15hav.github.io"
+    }
+} 
