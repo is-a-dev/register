@@ -1,0 +1,12 @@
+{
+  "description": "mrvasil's domain",
+  "owner": {
+    "username": "mrvasil",
+    "email": "adminich@urrr.ru"
+  },
+  "record": {
+    "A": [
+      "90.156.216.174"
+    ]
+  }
+}
