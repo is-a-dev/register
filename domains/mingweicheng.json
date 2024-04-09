@@ -1,0 +1,11 @@
+{
+  "description": "A tech blog to share my programming learning experience",
+  "repo": "https://github.com/weifish0",
+  "owner": {
+    "username": "weifish0",
+    "email": "admin@braveflamingdog.com"
+  },
+  "record": {
+    "CNAME": "weifish0.github.io"
+  }
+}
