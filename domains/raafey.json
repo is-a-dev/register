@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "RaafeyRaza",
+    "email": "raafeyraza1@gmail.com"
+  },
+  "record": {
+    "CNAME": "raafey.great-site.net",
+    "B856FCC7F83EB824EC2E246C30C588F2.raafey.is-a.dev": {
+      "Point To": "FB3CF6167F829DE56520DF203327CFE8.44DDE72F5D35404C991D9BC73024BBEE.42950cf2db7226b.comodoca.com",
+      "TTL": 3600
+    }
+  }
+}
