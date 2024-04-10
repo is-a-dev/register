@@ -1,12 +1,13 @@
-{
-        "owner": {
-           "username": "RAYXSTUDIOZGAMES",
-           "email": "KGOLD3796@GMAIL.COM",
-           "discord": "1130109258017550357"
-        },
-    
-        "record": {
-            "CNAME": "syedrayangames.github.io"
-        }
-    }
-    
+
+}
+  "description": "portfolio website",
+  "repo": "https://syedrayangames.github.io/portfolio",
+  "owner": {
+    "username": "syedrayangames",
+    "email": "syedyaseeralirayan5@gmail.com"
+  },
+  "record": {
+    "CNAME": "syedrayangames.github.io"
+  }
+}
+
