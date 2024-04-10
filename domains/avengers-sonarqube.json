@@ -4,6 +4,7 @@
         "email": "hugh.hoang@gmail.com"
     },
     "record": {
-        "CNAME": "sonaqube.jollyocean-513cc86d.australiaeast.azurecontainerapps.io"
+        "CNAME": "sonaqube.jollyocean-513cc86d.australiaeast.azurecontainerapps.io",
+        "TXT": "2ADF2B3BF4F2D427644C6A908F1607F17C2A1AAE36C1A5E86A6FDFD7B56B2149"
     }
 }
