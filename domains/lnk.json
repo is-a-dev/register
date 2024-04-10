@@ -6,7 +6,7 @@
         },
     
         "record": {
-            "CNAME": "cname.short.io"
+            "A": "104.21.85.194"
         }
     }
     
