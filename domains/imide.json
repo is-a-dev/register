@@ -5,12 +5,6 @@
         "discord":  "555915168932954112"
     },
     "record": {
-        "CNAME": "imide-is-a-dev.pages.dev",
-        "TXT": "dh=5bac029dd3873cf20dba45eaec03433d5afe5608",
-        "MX": [
-            "mx1.improvmx.com",
-            "mx2.improvmx.com"
-        ],
-        "TXT": "v=spf1 include:spf.improvmx.com ~all",
+        "CNAME": "imide-is-a-dev.pages.dev"
     }
 }
