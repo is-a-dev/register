@@ -1,0 +1,11 @@
+{
+    "description": "_deta.textodeejemplo is a subdomain for verification of Deta's domain ownership system",
+    "owner": {
+      "username": "VSeryi",
+      "email": "texto-ejemplo@googlegroups.com"
+    },
+    "record": {
+      "TXT": ["deta-verification=LV4jJisQSEzPaZHstD54ZYy44De5Nw9Z"]
+    }
+  }
+  
