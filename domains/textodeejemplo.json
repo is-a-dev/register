@@ -1,0 +1,11 @@
+{
+    "description": "textodeejemplo is a subdomain for a webpage of a friends group that want to make some apps",
+    "owner": {
+      "username": "VSeryi",
+      "email": "texto-ejemplo@googlegroups.com"
+    },
+    "record": {
+      "A": ["76.223.55.44"]
+    }
+  }
+  
