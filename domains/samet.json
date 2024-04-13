@@ -9,6 +9,6 @@
   },
   
   "record": {
-    "CNAME": "sa-met.github.io"
+    "TXT": "vc-domain-verify=samet.is-a.dev,4a6ca7dbd0f91dd2bc9b"
   }
 }
