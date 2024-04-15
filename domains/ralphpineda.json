@@ -1,11 +1,11 @@
 {
     "description" :"personal portfolio",
-    "repo":"https://github.com/rpineda26/Portfolio"
+    "repo":"https://github.com/rpineda26/rpineda26.github.io"
     "owner": {
         "username": "rpineda26",
         "email": "rp.pineda26@gmail.com"
     },
     "record": {
-        "CNAME": "Portfolio"
+        "CNAME": "rpineda26.github.io"
     }
 }
