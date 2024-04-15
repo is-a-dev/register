@@ -6,7 +6,7 @@
         "email": "tooast@duck.com"
     },
     "record": {
-        "CNAME": "lightly-toasted.github.io".
+        "CNAME": "lightly-toasted.github.io",
         "MX": [
           "mx1.improvmx.com",
           "mx2.improvmx.com"
