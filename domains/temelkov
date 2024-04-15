@@ -1,0 +1,11 @@
+{
+  "description": "Stanislav Temelkov Professional Portfolio",
+  "repo": "https://github.com/Temelkov/TEMELKOV.IS-A.DEV",
+  "owner": {
+    "username": "temelkov",
+    "email": "stanislav.temelkov@hotmail.com"
+  },
+  "record": {
+    "CNAME": "temelkov-tk-2022.vercel.app"
+  }
+}
