@@ -1,7 +1,9 @@
 {
+    "description": "Website and portfolio",
+    "repo": "https://github.com/zz-kong/zz-kong.github.io",
     "owner": {
         "username": "zz-kong",
-        "email": "kongzz@skiff.com"
+        "email": "kzz0125@hotmail.com"
     },
     "record": {
         "CNAME": "zz-kong.github.io"
