@@ -1,14 +1,14 @@
 {
     "description": "Static page, displaying the links to my socials",
-    "repo": "https://github.com/ValoWolf/ValoWolf.github.io",
+    "repo": "https://github.com/valo-io/valo-io.github.io",
     "owner": {
-        "username": "ValoWolf",
+        "username": "valo-io",
         "email": "starfleet.valowolf@gmail.com",
-        "twitter": "ValoWolf",
-        "discord": "valowolf"
+        "twitter": "Valo_iO",
+        "discord": "valo_io"
     },
     "record": {
-        "CNAME": "valowolf.github.io",
+        "CNAME": "valo-io.github.io",
         "TXT": "did=did:plc:qgp4s2w27woji4x7jbpbzcvd"
     }
 } 
