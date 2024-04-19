@@ -1,11 +1,12 @@
 {
-  "description": "Personal website",
-  "repo": "https://github.com/kevinle108/kevinle108.github.io",
-  "owner": {
-    "username": "kevinle108",
-    "email": "kevinle108@gmail.com"
-  },
-  "record": {
-    "CNAME": "kevinle108.github.io"
-  }
-}
+    "description": "Development and projects portfolio",
+    "repo": "https://github.com/<github-username>/<github-username>.github.io",
+    "owner": {
+        "username": "S4rmat",
+        "email": "guadolil@proton.me",
+        "twitter": "S4rmat_Kn"
+    },
+    "record": {
+        "CNAME": "S4rmat.github.io"
+    }
+} 
