@@ -8,7 +8,6 @@
         "discord": "valo_io"
     },
     "record": {
-        "CNAME": "valo-io.github.io",
-        "TXT": "did=did:plc:qgp4s2w27woji4x7jbpbzcvd"
+        "CNAME": "valo-io.github.io"
     }
 } 
