@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "ConnorDoesDev",
+    "email": "c0nnor@airmail.cc",
+    "note": "Mail for connor.is-a.dev which is also owned by me :100:"
+  },
+
+  "record": {
+    "MX": ["mx01.mail.icloud.com.", "mx02.mail.icloud.com."],
+    "TXT": ["apple-domain=DdVQ1V1459tjhsRR", "v=spf1 include:icloud.com ~all"]
+    "CNAME": "sig1.dkim.connor.is-a.dev.at.icloudmailadmin.com."
+  }
+}
