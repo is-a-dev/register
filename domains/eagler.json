@@ -1,0 +1,11 @@
+{
+  "description": "Wanted a shorter domain to host a minecraft server on. There is no repo.",
+  "repo": "https://guthib.com",
+  "owner": {
+    "username": "stpv221",
+    "email": "oswaldfink12@gmail.com"
+  },
+  "record": {
+    "CNAME": "remarkably-active-mammoth.ngrok-free.app"
+  }
+}
