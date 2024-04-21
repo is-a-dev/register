@@ -2,11 +2,11 @@
         "owner": {
            "username": "Vibred",
            "email": "vibred@pm.me",
-           "discord": "1169947990551699568"
         },
     
         "record": {
-            "TXT": "verification-code-site-app_lark=c94xuulzjilzjmjbfepl"
+            "TXT": [ "verification-code-site-app_lark=c94xuulzjilzjmjbfepl","v=spf1 +include:spf.onlarksuite.com -all"],
+             "MX" : ["mx1.larksuite.com","mx1.larksuite.com","mx1.larksuite.com"]
         }
     }
     
