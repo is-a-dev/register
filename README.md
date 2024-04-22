@@ -8,44 +8,44 @@
    <img alt="Open Issues" src="https://img.shields.io/github/issues-pr-raw/is-a-dev/register?color=5c46eb&label=pull%20requests&style=for-the-badge">
 </p>
 
-<h1 align="center">is-a.dev</h1>
+<h1 align="center">Get Your .is-a.dev Domain Today!</h1>
 
-<p align="center"><strong>is-a-dev</strong> is a service that allows developers to get a sweet-looking ".is-a.dev" domain for their personal websites.</p>
+<p align="center"><strong>is-a-dev</strong> offers developers a chance to elevate their personal websites with stylish ".is-a.dev" domains.</p>
 
 <p align="center">
-   <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
+   <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Join Discord" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
 </p>
 
-## Issues
-If you have any problems, feel free to [open a issue](https://github.com/is-a-dev/register/issues/new/choose).
+## Encountered an Issue?
+Feel free to [open an issue](https://github.com/is-a-dev/register/issues/new/choose) if you face any challenges.
 
-If you have an issue that contains confidental infomation, send an email to security@maintainers.is-a.dev.
+For concerns involving confidential information, reach out via email to security@maintainers.is-a.dev.
 
-## Register
+## How to Register
 
 ### Manual Registration
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
-- Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
-- [Read the documentation](https://www.is-a.dev/docs).
-- Your pull request will be reviewed and merged. *Make sure to keep an eye on it incase we need you to make any changes!*
-- After the pull request is merged, please allow up to 24 hours for the changes to propagate.
+- Add a new file named `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
+- Refer to the [documentation](https://www.is-a.dev/docs) for guidance.
+- Your pull request will undergo review and merge. *Keep an eye on it for potential changes!*
+- Allow up to 24 hours for changes to propagate after the merge.
 - Enjoy your new `.is-a.dev` domain!
 
 ### Automated Registration
-#### *When using the manage site, please ensure your records are valid. Please do NOT "test" out the manage site and create invalid PRs, it wastes maintainers' time.*
+#### *Please ensure your records are valid when using the manage site. Avoid creating invalid PRs, as it consumes maintainers' time, vercel and netlify arent supported for now (soon will be) *
 
-Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your GitHub account and click the register page in the navbar. Fill out some questions and it will all happen automatically!
+Easiest method: Utilize the [manage website](https://manage.is-a.dev), sign in with GitHub, and navigate to the register page in the navbar. Answer some questions, and everything will proceed automatically!
 
-Another method is to join our [Discord server](https://discord.gg/PZCGHz4RhQ), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
+Alternatively, join our [Discord server](https://discord.gg/PZCGHz4RhQ), visit the commands channel, and execute `/register`. The bot will prompt you with questions and generate your PR and domain automatically. It also supports domain deletion and editing.
 
-## Status
-You can check the uptime of our services on our [status dashboard](https://is-a-dev.wdh.gg).
+## Current Status
+Check the uptime of our services via our [status dashboard](https://is-a-dev.wdh.gg).
 
-### Donate
-If you like this project, please consider donating so we can keep this project running forever!
+### Support Us
+If you appreciate this project, kindly consider donating to sustain its operation.
 
 <a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me a Coffee" height="28" width="119"></a>
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay"></a>
 
-### Similar Services
-If you want to find services similar to is-a.dev, take a look on [Free For Life](https://github.com/wdhdev/free-for-life#domains).
+### Explore Similar Services
+Discover services akin to is-a.dev on [Free For Life](https://github.com/wdhdev/free-for-life#domains).
