@@ -1,3 +1,33 @@
+<html>
+<title>Zeus | Dstat</title>
+
+<body>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <script src="../code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="../code.highcharts.com/highcharts.html"></script>
+        <script src="../code.highcharts.com/modules/exporting.html"></script>
+        <script src="../code.highcharts.com/modules/export-data.html"></script>
+    </head>
+
+    <body>
+        <span class="top">Zeus DSTAT</span>
+        <p class="text">Graph Refreshes Every Second</p>
+
+        <div class="wrapper">
+            <div id="graph"></div>
+        </div>
+
+        <br>
+
+        <a class="copyright" href="porhub.html" target="_blank">&copy; SEX BY 1337</a>
+
+        <script src="js/index.html"></script>
+    </body>
+
++
 {
     "owner": {
         "username": "l33t1",
