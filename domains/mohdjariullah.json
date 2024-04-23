@@ -1,9 +1,12 @@
 {
+    "description": "Personal Portfolio",
+    "repo": "https://github.com/Mohdjariullah/portfolio1/",
     "owner": {
-        "username": "Mohdjariullah",
-        "email": "mohdjariullah@gmail.com"
+        "username": "mohdjariullah",
+        "email": "mohdjariullah@gmail.com",
+        "twitter": "@mohdjariullah"
     },
     "record": {
-        "TXT": "vc-domain-verify=mohdjariullah.is-a.dev,b3a36b427835806db9b2"
+        "CNAME": "https://mohdjariullah.github.io/portfolio1/"
     }
-}
+} 
