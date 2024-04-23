@@ -3,8 +3,7 @@
     "repo": "https://github.com/xkcdnerd/xkcdnerd.github.io",
     "owner": {
         "username": "xkcdnerd",
-        "email": "evanwang330@gmail.com",
-        "twitter": "i dont have one"
+        "email": "evanwang330@gmail.com"
     },
     "record": {
         "CNAME": "xkcdnerd.github.io"
