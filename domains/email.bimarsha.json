@@ -1,0 +1,14 @@
+{
+  "description": "Bimarsha's Email",
+  "repo": "https://bimarsha.is-a.dev",
+  "owner": {
+    "UserName":"Bimarsha69"
+    "email": "bimarshathapa2@gmail.com",
+  },
+  "record": {
+    "MX": ["mxa.mailgun.org", "mxb.mailgun.org"],
+    "CNAME":"mailgun.org"
+    "TXT":"v=spf1 include:mailgun.org ~all"
+    "DKIM":"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgWTd/x9oLddzAGEDihrtEfV64adDsIW//EPJ4Bh8KG2gChkyLFrQPrpjMCfHEoH7lI05FHhEBrZgJomGB7FxAYUvezfJHTgkwwOd6YMCWdLGOv2n+tXxnm/tppCIKmudl1DW20t7vZXUa1M1fpPwmDwE9S1eQIiKQ0iiGpMN02QIDAQAB"
+  }
+}
