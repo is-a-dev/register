@@ -66,6 +66,8 @@ describe('validateDomainData', () => {
     { ...defaultDomain, name: '_discord' },
     { ...defaultDomain, name: '_gitlab-pages-verification-code' },
     { ...defaultDomain, name: '_acme-challenge' },
+    { ...defaultDomain, name: '_dmarc' },
+    { ...defaultDomain, name: '_gh-is-a-dev' },
   ];
 
   const validCases = [
@@ -98,6 +100,10 @@ describe('validateDomainData', () => {
     { ...defaultDomain, name: '_discord.subdomain' },
     { ...defaultDomain, name: '_gitlab-pages-verification-code.subdomain' },
     { ...defaultDomain, name: '_acme-challenge.subdomain' },
+    { ...defaultDomain, name: '_dmarc.subdomain' },
+    { ...defaultDomain, name: '_gh-phenax.akshay' },
+    { ...defaultDomain, name: '_gh-hello01-ga' },
+    { ...defaultDomain, name: '_gh-hello01_ga' },
   ];
 
   it('should return false for invalid data', () => {
