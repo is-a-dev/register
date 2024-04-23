@@ -1,0 +1,11 @@
+{
+  "description": "lbni website",
+  "repo": "https://github.com/mrlabani/lbni.github.io",
+  "owner": {
+    "username": "mrlabani",
+    "email": "abcdefgh96684@gmail.com"
+  },
+  "record": {
+    "CNAME": "lbni.github.io"
+  }
+}
