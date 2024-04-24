@@ -14,3 +14,28 @@ jobs:
           bun-version: latest
       - run: bun install
       - run: bun test
+        continue-on-error: true
+      - name: Check if validation failed
+        run: |
+          if [ $? -ne 0 ]; then
+            echo "::set-output name=validation_failed::true"
+          else
+            echo "::set-output name=validation_failed::false"
+          fi
+        id: check_validation
+      - name: Close pull request if validation failed
+        if: steps.check_validation.outputs.validation_failed == 'true'
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{"state":"closed"}' \
+            "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}"
+      - name: Comment on closed pull request
+        if: steps.check_validation.outputs.validation_failed == 'true'
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{"body": "Due to high amounts of pull requests and not enough resources to review all, we are automatically closing pull requests that fail checks. Please read the [documentation](https://www.is-a.dev/docs) to ensure your file format is correct. If you still are encountering issues, please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) and open a help thread."}' \
+            "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"
