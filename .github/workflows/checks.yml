@@ -5,6 +5,8 @@ on: [pull_request, workflow_dispatch]
 jobs:
   validation:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
         with:
