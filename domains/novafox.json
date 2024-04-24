@@ -4,7 +4,7 @@
         "email": "foxsdenyt@gmail.com"
     },
     "record": {
-        "ALIAS": "foxsdenyt-github-io.onrender.com",
+        "A":"216.24.57.1",
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
         "TXT": "forward-email=foxsdenyt@gmail.com"
     }
