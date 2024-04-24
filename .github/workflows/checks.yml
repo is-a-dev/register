@@ -1,4 +1,5 @@
 name: Checks
+
 on: [pull_request, workflow_dispatch]
 
 jobs:
@@ -13,4 +14,7 @@ jobs:
         with:
           bun-version: latest
       - run: bun install
-      - run: bun test
+      - name: Run tests
+        run: bun test || (echo 'Tests failed, closing pull request.' && gh pr close https://github.com/${{ github.repository }}/pull/${{ github.event.number }} --comment "Due to high amounts of pull requests and not enough resources to review all, we are automatically closing pull requests that fail checks. Please read the documention (https://www.is-a.dev/docs) to ensure your file format is correct. If you still are encountering issues, please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) and open a help thread." && exit 1)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
