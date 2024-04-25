@@ -1,11 +1,9 @@
 {
-  "description": "Andrew Nguyen's portfolio",
-  "repo": "https://github.com/andrewnt219/andrewnt219.github.io",
-  "owner": {
-    "username": "andrewnt219",
-    "email": "hey@andrewnt.dev"
-  },
-  "record": {
-    "CNAME": "andrewnt219.github.io"
-  }
+    "owner": {
+        "username": "andrewstech",
+        "email": "andrew@win11react.com"
+    },
+    "record": {
+        "A": ["217.174.245.249"]
+    }
 }

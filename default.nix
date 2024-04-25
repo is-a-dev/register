@@ -3,11 +3,10 @@ let
   inherit (nixpkgs) pkgs;
 
   nixPackages = with pkgs; [
-    nodejs-16_x
     yarn
     docker-compose
     dnsutils
-    #certbot
+    bun
   ];
 in
 pkgs.stdenv.mkDerivation {

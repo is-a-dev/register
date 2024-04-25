@@ -1,12 +1,10 @@
 {
-  "description": "An average developer's blog",
-  "repo": "https://github.com/AverageHelper/AverageHelper.github.io",
   "owner": {
     "username": "AverageHelper",
-    "email": "avghelper.5fh6g@simplelogin.co",
-    "twitter": "avghelper"
+    "email": "",
+    "mastodon": "@avghelper@average.name"
   },
   "record": {
-    "URL": "https://averagehelper.github.io"
+    "URL": "https://average.name"
   }
 }
