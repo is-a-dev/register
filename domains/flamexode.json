@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "WovenCoast",
-        "email": "wovencoast14782@techie.com"
-    },
+  "owner": {
+    "username": "WovenCoast",
+    "email": "wovencoast14782@techie.com"
+  },
 
-    "record": {
-        "CNAME": "wovencoast.github.io"
-    }
+  "record": {
+    "CNAME": "wovencoast.github.io"
+  }
 }

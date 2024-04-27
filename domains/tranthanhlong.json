@@ -1,11 +1,11 @@
 {
-    "description": "My personal webpage",
-    "repo": "https://github.com/iamthanhlong/iamthanhlong.github.io",
-    "owner": {
-        "username": "iamthanhlong",
-        "email": "uxymqfzglvtqno@proton.me"
-    },
-    "record": {
-        "CNAME": "iamthanhlong.github.io"
-    }
+  "description": "My personal webpage",
+  "repo": "https://github.com/iamthanhlong/iamthanhlong.github.io",
+  "owner": {
+    "username": "iamthanhlong",
+    "email": "uxymqfzglvtqno@proton.me"
+  },
+  "record": {
+    "CNAME": "iamthanhlong.github.io"
+  }
 }
