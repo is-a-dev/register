@@ -1,9 +1,14 @@
 {
-    "owner": {
-        "username": "Zyminotfound",
-        "email": "notzymi0@gmail.com"
-    },
-    "record": {
-        "CNAME": "zymi.github.io"
-    }
+  "owner": {
+    "username": "Zyminotfound",
+    "email": "notzymi0@gmail.com"
+  },
+  "record": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.111.153",
+      "185.199.110.153"
+    ]
+  }
 }
