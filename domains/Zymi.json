@@ -1,12 +1,11 @@
 {
     "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/<github-username>/<github-username>.github.io",
+    "repo": "https://github.com/Zyminotfound/Zyminotfound.github.io",
     "owner": {
         "username": "Zyminotfound",
         "email": "notzymi0@gmail.com",
-        "twitter": "<twitter-username>"
     },
     "record": {
-        "CNAME": "<username>.github.io"
+        "CNAME": "Zymi.github.io"
     }
 } 
