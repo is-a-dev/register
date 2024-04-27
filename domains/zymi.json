@@ -1,10 +1,9 @@
 {
-    "description": "Describe the use of this subdomain",
     "owner": {
         "username": "Zyminotfound",
         "email": "notzymi0@gmail.com"
     },
     "record": {
-        "CNAME": "https://zyminotfound.github.io/zymi.github.io/"
+        "CNAME": "https://zyminotfound.github.io/zymi.github.io"
     }
 } 
