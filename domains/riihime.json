@@ -4,6 +4,12 @@
         "email": "miuly1459@gmail.com"
     },
     "record": {
-        "CNAME": "riihime.github.io"
+        "CNAME":
+        [
+            "riihime.github.io",
+            "riihime.is-a.dev.e19495872d45cfe6.dcv.cloudflare.com.",
+            "riihime.is-a.dev."
+        ],
+        "A": ["172.66.0.70"]
     }
 }
