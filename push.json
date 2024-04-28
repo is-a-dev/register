@@ -5,6 +5,7 @@
   },
 
   "record": {
-    "CNAME": "https://pushingcc.github.io/"
+    "CNAME": "pushing.pages.dev"
+    "TXT": "dh=63d8f2f88286c81885273cdf5f07364b15884ff6"
   }
 }
