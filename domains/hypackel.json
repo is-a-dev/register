@@ -1,1 +1,12 @@
-
+{
+    "description": "My Site",
+    "repo": "https://github.com/hypackel/hypackel.github.io",
+    "owner": {
+        "username": "hypackel",
+        "email": "contact@hypackel.com",
+        "twitter": "hypackel"
+    },
+    "record": {
+        "CNAME": "hypackel.github.io"
+    }
+} 
