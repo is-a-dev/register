@@ -1,0 +1,12 @@
+{
+    "description": "The famous JamosDev of aggydaggy fame",
+    "repo": "https://github.com/jamosdev/jamosdev.github.io",
+    "owner": {
+        "username": "jamosdev",
+        "email": "jamosdev@protonmail.com",
+        "twitter": "jamosdev"
+    },
+    "record": {
+        "CNAME": "jamosdev.github.io"
+    }
+} 
