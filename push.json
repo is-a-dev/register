@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "pushingcc",
+    "email": "pushing@mailfence.com"
+  },
+
+  "record": {
+    "CNAME": "https://pushingcc.github.io/"
+  }
+}
