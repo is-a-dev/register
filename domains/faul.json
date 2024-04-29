@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/KhongPhaiHoangQuangHuy/FaulWeb.git",
+    "owner": {
+        "username": "KhongPhaiHoangQuangHuy",
+        "email": "khongphaihoangquanghuy@gmail.com",
+        "twitter": "FaulVerlierer"
+    },
+    "record": {
+        "CNAME": "https://khongphaihoangquanghuy.github.io/FaulWeb/"
+    }
+} 
