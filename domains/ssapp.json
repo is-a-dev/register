@@ -4,6 +4,6 @@
         "email": "v.naydenov@icloud.com"
     },
     "record": {
-        "CNAME": "tarkov-time.com"
+        "A": "95.87.240.129"
     }
 }
