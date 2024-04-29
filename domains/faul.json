@@ -1,0 +1,15 @@
+{
+    "description": "faulweb",
+    "repo": "https://github.com/KhongPhaiHoangQuangHuy/FaulWeb.github.io",
+    "owner": {
+        "username": "KhongPhaiHoangQuangHuy",
+        "email": "khongphaihoangquanghuy@gmail.com",
+        "twitter": "faul"
+    },
+    "record": {
+        "A": "185.199.108.153",
+        "A": "185.199.109.153",
+        "A": "185.199.110.153",
+        "A": "185.199.111.153"
+    }
+} 
