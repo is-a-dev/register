@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/gvojj/gvojj.github.io",
+    "owner": {
+        "username": "gvojj",
+        "email": "amlhmedd@gmail.com",
+        "twitter": "ppg0o"
+    },
+    "record": {
+        "CNAME": "gvojj.github.io"
+    }
+} 
