@@ -1,0 +1,11 @@
+{
+    "description": "Personal website to host bio info and other things",
+    "repo": "https://github.com/fluid-developer/fluid-developer.github.io",
+    "owner": {
+        "username": "fluid-developer",
+        "email": "ne0xch4r4@gmail.com"
+    },
+    "record": {
+        "CNAME": "fluid-developer.github.io"
+    }
+} 

@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "sezersinanoglu",
-        "email": "sezersinanoglu@gmail.com"
-    },
+  "owner": {
+    "username": "sezersinanoglu",
+    "email": "sezersinanoglu@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "sezersinanoglu.github.io"
-    }
+  "record": {
+    "CNAME": "sezersinanoglu.github.io"
+  }
 }

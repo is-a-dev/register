@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Nzii3",
-        "email": "exeyst@gmail.com"
-    },
-    "record": {
-        "CNAME": "web-1.hostnow.cz"
-    }
+  "owner": {
+    "username": "Nzii3",
+    "email": "exeyst@gmail.com"
+  },
+  "record": {
+    "CNAME": "edge.redirect.pizza"
+  }
 }
