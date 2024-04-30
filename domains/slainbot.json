@@ -4,6 +4,6 @@
         "email": "khongphaihoangquanghuy@gmail.com"
     },
     "record": {
-        "CNAME": "us.pylex.me:8778"
+        "A": "45.8.22.11"
     }
 }
