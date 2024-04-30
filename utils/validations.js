@@ -41,6 +41,8 @@ const extraSupportedNames = [
   R.equals('_discord'),
   R.equals('_gitlab-pages-verification-code'),
   R.equals('_acme-challenge'),
+  R.equals('_dmarc'),
+  testRegex(/^_gh-[a-z0-9-_]+$/i), // Exception for the new github org verification records
 ]
 
 const validateDomainData = validate({
