@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "lbr77",
-        "email": "me@nvme0n1p.dev"
-    },
+  "owner": {
+    "username": "lbr77",
+    "email": "me@nvme0n1p.dev"
+  },
 
-    "record": {
-        "CNAME": "homepagen.pages.dev"
-    }
+  "record": {
+    "CNAME": "homepagen.pages.dev"
+  }
 }

@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "saammaaeel",
-        "email": "codenamesamael@gmail.com",
-        "twitter": "codenamesamael"
-    },
-    "record": {
-        "CNAME": "saammaaeel.github.io"
-    }
+  "owner": {
+    "username": "saammaaeel",
+    "email": "codenamesamael@gmail.com",
+    "twitter": "codenamesamael"
+  },
+  "record": {
+    "CNAME": "saammaaeel.github.io"
+  }
 }

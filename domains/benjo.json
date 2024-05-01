@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "Golgrax",
-        "email": "",
-        "twitter": "BughawBenjo"
-    },
-    "record": {
-        "CNAME": "benjo.pages.dev"
-    }
+  "owner": {
+    "username": "Golgrax",
+    "email": "",
+    "twitter": "BughawBenjo"
+  },
+  "record": {
+    "CNAME": "benjo.pages.dev"
+  }
 }

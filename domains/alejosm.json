@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "ralexale",
-        "email": "ralexale@gmail.com"
-    },
+  "owner": {
+    "username": "ralexale",
+    "email": "ralexale@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "ralexale.github.io"
-    }
+  "record": {
+    "CNAME": "ralexale.github.io"
+  }
 }
