@@ -4,6 +4,6 @@
         "email": "khongphaihoangquanghuy@gmail.com"
     },
     "record": {
-        "A": "45.8.22.11"
+        "A": ["45.8.22.11"]
     }
 }
