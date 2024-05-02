@@ -1,0 +1,10 @@
+{
+    "description": "Domain For My Project On School",
+    "owner": {
+        "username": "scfanime",
+        "email": "scf.anime@proton.me"
+    },
+    "record": {
+        "CNAME": "scfanime.web.app"
+    }
+} 
