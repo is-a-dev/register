@@ -4,6 +4,6 @@
         "email": "thomas.andrei.lazar@gmail.com "
     },
     "record": {
-        "CNAME": "gitlab-thomasprojects.dev"
+        "A": ["79.114.119.119"]
     }
 } 
