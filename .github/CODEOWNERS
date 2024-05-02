@@ -1,4 +1,7 @@
 * @phenax
 
-domains/ @is-a-dev/maintainers
+/.github/ @wdhdev
+/.github/CODEOWNERS @phenax
+
+/domains/ @is-a-dev/maintainers
 *.md @is-a-dev/maintainers
