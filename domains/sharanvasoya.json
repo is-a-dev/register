@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Vasoyasharan",
-        "email": "sharanvasoya@gmail.com"
-    },
-    "record": {
-        "URL": "https://vasoyasharan.github.io/MyPortfolio/"
-    }
+  "description": "Sharan's website",
+  "repo": "https://github.com/Vasoyasharan/MyPortfolio",
+  "owner": {
+    "username": "Vasoyasharan",
+    "email": "sharanvasoya@gmail.com"
+  },
+  "record": {
+    "CNAME": "vasoyasharan.github.io"
+  }
 }
