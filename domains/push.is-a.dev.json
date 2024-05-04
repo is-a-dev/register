@@ -1,0 +1,12 @@
+{
+    "description": "Personal Page / File storage",
+    "repo": "https://github.com/<pushingcc>/<pushingcc>.github.io",
+    "owner": {
+        "username": "<pushingcc>",
+        "email": "pushing@mailfence.com",
+        "twitter": "<N/A>"
+    },
+    "record": {
+        "CNAME": "<pushingcc>.github.io"
+    }
+} 
