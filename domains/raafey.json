@@ -1,9 +1,10 @@
 {
-  "owner": {
-    "username": "RaafeyRaza",
-    "email": "raafeyraza1@gmail.com"
-  },
-  "record": {
-    "CNAME": "ffcvyw2y.infinityfree.com"
-  }
-}
+        "owner": {
+           "username": "RaafeyRaza",
+           "email": "raafeyraza1@gmail.com"
+        },
+    
+        "record": {
+            "A": ["69.30.249.53"]
+        }
+    }
