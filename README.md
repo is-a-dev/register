@@ -32,9 +32,11 @@ If you have an issue that contains confidental infomation, send an email to secu
 - Enjoy your new `.is-a.dev` domain!
 
 ### Automated Registration
-#### *When using the manage site, please ensure your records are valid. Please do NOT "test" out the manage site and create invalid PRs, it wastes maintainers' time.*
+~~#### *When using the manage site, please ensure your records are valid. Please do NOT "test" out the manage site and create invalid PRs, it wastes maintainers' time.*~~
 
-Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your GitHub account and click the register page in the navbar. Fill out some questions and it will all happen automatically!
+~~Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your GitHub account and click the register page in the navbar. Fill out some questions and it will all happen automatically!~~
+
+#### The manage website has been discontinued. See other sections of this file for alternative register methods.
 
 Another method is to join our [Discord server](https://discord.gg/PZCGHz4RhQ), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
 
