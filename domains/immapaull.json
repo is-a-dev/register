@@ -1,0 +1,12 @@
+{
+  "description": "my personal homepage",
+  "repo": "https://github.com/immapaull/immapaull.github.io",
+  "owner": {
+    "username": "immapaull",
+    "email": "devop2024@gmail.com",
+    "twitter": "immapaull"
+  },
+  "record": {
+    "CNAME": "immapaull.github.io"
+  }
+}
