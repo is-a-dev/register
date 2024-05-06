@@ -5,5 +5,9 @@
     },
     "record": {
         "CNAME": "a.namkun.workers.dev"
+        "MX": [
+                 "benedict.ns.cloudflare.com",
+                 "nola.ns.cloudflare.com"
+               ],
     }
 }
