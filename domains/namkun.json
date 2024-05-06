@@ -4,6 +4,11 @@
         "email": "namdev1402@gmail.com"
     },
     "record": {
-        "CNAME": "namkun.pages.dev"
+        "CNAME": "namkun.pages.dev",
+        "MX": [
+                 "mx1.forwardemail.net",
+                 "mx2.forwardemail.net"
+               ],
+        "TXT":"forward-email=namdev1402@gmail.com"
     }
 }
