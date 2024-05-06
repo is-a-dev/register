@@ -4,7 +4,6 @@
     "email": "namdev1402@gmail.com"
   },
   "record": {
-    "CNAME": "a.namkun.workers.dev",
     "MX": ["benedict.ns.cloudflare.com", "nola.ns.cloudflare.com"]
   }
 }
