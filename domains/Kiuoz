@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/Kiuoz/Kiuoz.github.io",
+    "owner": {
+        "username": "Kiuoz",
+        "email": "tronen.help@gmail.com",
+        "twitter": "Kiouzx"
+    },
+    "record": {
+        "CNAME": Kiuox.github.io"
+    }
+} 
