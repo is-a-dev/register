@@ -7,6 +7,6 @@
 | Daniel | [@hackermondev](https://github.com/hackermondev) | Maintainer |
 | DIBSTER | [@DEV-DIBSTER](https://github.com/DEV-DIBSTER) | Maintainer |
 | MaskDuck | [@MaskDuck](https://github.com/MaskDuck) | Maintainer |
-| Om | [@TerraPlayz](https://github.com/TerraPlayz) | Maintainer |
+| Om | [@omsenjalia](https://github.com/omsenjalia) | Maintainer |
 | Stef | [@Stef-00012](https://github.com/Stef-00012) | Maintainer |
 | orangc | [@orxngc](https://github.com/orxngc) | Trial Maintainer |
