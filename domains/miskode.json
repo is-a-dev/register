@@ -5,6 +5,7 @@
     },
 
     "record": {
-        "CNAME": "miskode.github.io"
+        "CNAME": "miskode.github.io",
+        "TXT": "e03000495c20c26b2f53651111d57d"
     }
 }
