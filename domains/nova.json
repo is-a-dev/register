@@ -6,7 +6,6 @@
         "discord": "novad3v"
     },
     "record": {
-        "CNAME": "zeusteam.dev",
-        "MX": "mail.zeusteam.dev"
+        "CNAME": "zeusteam.dev"
     }
 }
