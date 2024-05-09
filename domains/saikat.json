@@ -1,0 +1,12 @@
+{
+    "description": "Bio Link",
+    "repo": "https://github.com/saikatislamhadis/saikatislamhadis.github.io",
+    "owner": {
+        "username": "saikatislamhadis",
+        "email": "saikatislamhadis@gmail.com",
+        "twitter": "<twitter-username>"
+    },
+    "record": {
+        "CNAME": "saikatislamhadis.github.io"
+    }
+}
