@@ -1,9 +1,10 @@
 * @phenax
 
 /.github/ @wdhdev
-/.github/CODEOWNERS @phenax
+/.github/CODEOWNERS @phenax @wdhdev
 
 /domains/ @is-a-dev/maintainers
-*.md @is-a-dev/maintainers
+/domains/ @is-a-dev/trial-maintainers
 
+*.md @is-a-dev/maintainers
 /MAINTAINERS.md @wdhdev
