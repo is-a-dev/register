@@ -6,7 +6,7 @@
         },
     
         "record": {
-            "TXT": "vc-domain-verify=cibucristi.is-a.dev,6d7812c190dbf7b6f851"
+            "CNAME": "cibucristi-dev.pages.dev"
         }
     }
     
