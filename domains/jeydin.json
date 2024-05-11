@@ -1,10 +1,9 @@
 {
-  "description": "I play a game called Genshin Impact",
+  "description": "I like code, but code does not like me",
   "repo": "https://github.com/Jeydin/jeydin.github.io",
   "owner": {
     "username": "Jeydin",
-    "email": "JeyPham21@gmail.com",
-    "twitter": "Jeydin21"
+    "email": "JeyPham21@gmail.com"
   },
   "record": {
     "CNAME": "jeydin.github.io"

@@ -1,15 +1,23 @@
 [
+  "_acme-challenge",
+  "_discord",
+  "_dmarc",
+  "_gh-is-a-dev",
+  "_github-challenge-is-a-dev",
+  "_github-pages-challenge-is-a-dev",
+  "_gitlab-pages-verification-code",
+  "con",
   "help",
-  "support",
   "no-reply",
   "noreply",
-  "notifications",
   "notification",
-  "_acme-challenge",
-  "wwww",
+  "notifications",
+  "support",
   "ww",
   "ww1",
   "ww2",
   "ww3",
-  "ww4"
+  "ww4",
+  "wwww",
+  "your-domain-name"
 ]
