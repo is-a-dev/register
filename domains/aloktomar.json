@@ -1,52 +1,11 @@
 {
-  "owner": {
-    "username": "<aloktomar-dev>",
-    "email": "<aloktomar.dev@gmail.com>"
-  }
-}
-{
-  "record": {
-    "CNAME": "<aloktomar-dev>.github.io"
-  }
-}
-{
-  "record": {
-    "A": [
-      "192.0.2.1",
-      "198.51.100.1",
-      "203.0.113.1"
-    ]
-  }
-}
-{
-  "record": {
-    "AAAA": [
-      "2001:0db8:85a3:0000:0000:8a2e:0370:7334",
-      "2001:0db8:85a3:0000:0000:8a2e:0370:7335",
-      "2001:0db8:85a3:0000:0000:8a2e:0370:7336"
-    ]
-  }
-}
-{
-  "record": {
-    "URL": "https://my-other-website.com"
-  }
-}
-{
-  "record": {
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ]
-  }
-}
-{
-  "record": {
-    "TXT": "Hello World!"
-  }
-}
-{
-  "record": {
-    "TXT": ["Hello", "World!"]
-  }
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/<aloktomar-dev>/<aloktomar-dev>.github.io",
+    "owner": {
+        "username": "<aloktomar-dev>",
+        "email": "aloktomar.dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "<aloktomar-dev>.github.io"
+    }
 }
