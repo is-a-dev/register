@@ -9,4 +9,4 @@
 | MaskDuck | [@MaskDuck](https://github.com/MaskDuck) | Maintainer |
 | Om | [@omsenjalia](https://github.com/omsenjalia) | Maintainer |
 | Stef | [@Stef-00012](https://github.com/Stef-00012) | Maintainer |
-| orangc | [@orxngc](https://github.com/orxngc) | Trial Maintainer |
+| orangc | [@orxngc](https://github.com/orxngc) | Maintainer |
