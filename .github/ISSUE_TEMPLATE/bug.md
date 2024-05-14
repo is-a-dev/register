@@ -6,9 +6,8 @@ labels: bug
 
 ---
 
+### Your subdomain
+
 ### Expected outcome
 
-
 ### Observed outcome
-
-
