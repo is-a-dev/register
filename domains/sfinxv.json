@@ -1,12 +1,12 @@
 {
-  "owner": {
-    "username": "sfinxv",
-    "email": "",
-    "discord": "sfinxv"
-  },
+	"owner": {
+		"username": "sfinxv",
+		"email": "",
+		"discord": "sfinxv"
+	},
 
-  "repo": "https://github.com/SFINXVC/sfinxvc.github.io",
-  "record": {
-    "CNAME": "sfinxvc.github.io"
-  }
+	"repo": "https://github.com/SFINXVC/sfinxvc.github.io",
+	"record": {
+		"CNAME": "sfinxvc.github.io"
+	}
 }

@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "is-a-dev",
-    "email": ""
-  },
+	"owner": {
+		"username": "is-a-dev",
+		"email": ""
+	},
 
-  "record": {
-    "CNAME": "is-a-dev.github.io"
-  }
+	"record": {
+		"CNAME": "is-a-dev.github.io"
+	}
 }

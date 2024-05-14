@@ -1,8 +1,8 @@
-version: '3'
+version: "3"
 services:
-  dev:
-    build: 
-      context: .
-      dockerfile: ./Dockerfile
-    volumes:
-      - ./:/opt/app/code
+    dev:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        volumes:
+            - ./:/opt/app/code

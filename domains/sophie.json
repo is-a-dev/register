@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "awne8886",
-    "email": "sophie@awne.xyz"
-  },
-  "record": {
-    "CNAME": "sophie-github-io.pages.dev"
-  }
+	"owner": {
+		"username": "awne8886",
+		"email": "sophie@awne.xyz"
+	},
+	"record": {
+		"CNAME": "sophie-github-io.pages.dev"
+	}
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "raofin",
-    "email": "contact@rawfin.net"
-  },
-  "record": {
-    "CNAME": "rawfin.pages.dev"
-  }
+	"owner": {
+		"username": "raofin",
+		"email": "contact@rawfin.net"
+	},
+	"record": {
+		"CNAME": "rawfin.pages.dev"
+	}
 }

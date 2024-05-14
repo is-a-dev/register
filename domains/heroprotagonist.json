@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "carafelix",
-    "email": "heroprotagonist32@gmail.com"
-  },
-  "record": {
-    "CNAME": "carafelix.github.io"
-  }
+	"owner": {
+		"username": "carafelix",
+		"email": "heroprotagonist32@gmail.com"
+	},
+	"record": {
+		"CNAME": "carafelix.github.io"
+	}
 }
