@@ -6,14 +6,10 @@
     },
     "record": {
         "A": [
-            "217.174.245.249"
-        ],
-        "MX": [
-            "mx1.forwardemail.net",
-            "mx2.forwardemail.net"
-        ],
-        "TXT": [
-            "forward-email=receiptify@mail.stefdp.is-a.dev"
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
         ]
     }
 }

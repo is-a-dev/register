@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "Y-AmilaNirmal",
-        "email": "yamilanirmal@gmail.com"
-    },
+  "owner": {
+    "username": "Y-AmilaNirmal",
+    "email": "yamilanirmal@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "y-amilanirmal.github.io"
-    }
+  "record": {
+    "CNAME": "y-amilanirmal.github.io"
+  }
 }

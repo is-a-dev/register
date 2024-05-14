@@ -263,8 +263,8 @@ describe('Domain service', () => {
       ]);
       expect(removeZone).toHaveBeenCalledTimes(2);
       expect(getRecordCalls(removeZone)).toEqual([
-        { line: 2 },
         { line: 3 },
+        { line: 2 },
       ]);
     });
 
@@ -277,6 +277,9 @@ describe('Domain service', () => {
         { line: 5, name: 'c', type: 'MX', address: 'mx1.hello.com', priority: 20 },
         { line: 6, name: 'c', type: 'MX', address: 'mx2.hello.com', priority: 21 },
         { line: 7, name: 'b', type: 'MX', address: 'foo.bar', priority: 20 },
+        { line: 101, name: 'x', type: 'A', address: '1' },
+        { line: 99, name: 'y', type: 'A', address: '2' },
+        { line: 100, name: 'z', type: 'A', address: '3' },
       ];
       const redirections = [
         { domain: `b.${DOMAIN_DOMAIN}`, destination: 'https://foobar.com' },
@@ -306,8 +309,11 @@ describe('Domain service', () => {
         { name: 'b', type: 'A', address: '3' },
         { name: 'd', type: 'CNAME', address: 'helo.com' },
       ]);
-      expect(removeZone).toHaveBeenCalledTimes(1);
+      expect(removeZone).toHaveBeenCalledTimes(4);
       expect(getRecordCalls(removeZone)).toEqual([
+        { line: 101 },
+        { line: 100 },
+        { line: 99 },
         { line: 1 },
       ]);
 
@@ -317,8 +323,8 @@ describe('Domain service', () => {
       ]);
       expect(removeEmail).toHaveBeenCalledTimes(2);
       expect(getRecordCalls(removeEmail)).toEqual([
-        { domain: 'c.is-a.dev', exchanger: 'mx1.hello.com', priority: 20 },
         { domain: 'b.is-a.dev', exchanger: 'foo.bar', priority: 20 },
+        { domain: 'c.is-a.dev', exchanger: 'mx1.hello.com', priority: 20 },
       ]);
 
       expect(addRedir).toHaveBeenCalledTimes(3);
