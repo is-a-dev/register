@@ -1,0 +1,19 @@
+name: 'File Formatting with Prettier'
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '00 8 * * *'
+
+jobs:
+  format:
+    if: github.repository == 'is-a-dev/register'
+    runs-on: ubuntu-latest
+    permissions: [read-all, write-all]
+    steps:
+      run: npx prettier domains/* --check
+      if github.working-directory == 'domains/':
+        run: npx prettier domains/* --write
+    
