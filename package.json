@@ -22,6 +22,7 @@
   "devDependencies": {
     "eslint": "^7.11.0",
     "eslint-plugin-json": "^2.1.2",
-    "eslint-plugin-node": "^11.1.0"
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "3.2.5"
   }
 }

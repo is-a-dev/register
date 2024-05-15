@@ -1,0 +1,28 @@
+# All files/folders to be ignored by Prettier
+
+# Ignore all markdown files as these are broken by formatting (working on a fix for this)
+*.md
+
+# I have included everything in this document, just comment files & directories
+# you wish to have formatted - remove the hash from the line you wish to un-ingore
+
+#.github/
+#domains/
+#mesia/
+#node_modules/
+#scripts/
+#tests/
+#utils/
+
+#.env.example
+#.envrc
+#.eslintrc.json
+#.gitignore
+#.prettierrc
+#bun.lockb
+#default.nix
+#docker-compose.yml
+#Dockerfile
+#LICENSE
+#package-lock.json
+#package.json
