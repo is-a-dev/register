@@ -54,7 +54,3 @@ If you like this project, please consider donating so we can keep this project r
 
 If you want to find services similar to is-a.dev, take a look on [Free For Life](https://github.com/wdhdev/free-for-life#domains).
 
-### Formatting
-
-Formatting was added to this repo by @TobezDev.<br>
-To execute formatting, use: `npx prettier <> --write` where <> is replaced with the directory you wish to format. Use a period to format the entire current directory.
