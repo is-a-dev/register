@@ -11,8 +11,19 @@ jobs:
   format:
     if: github.repository == 'is-a-dev/register'
     runs-on: ubuntu-latest
-    permissions: [read-all, write-all]
+    permissions: [read-all, write: contents]
     steps:
       run: npx prettier domains/* --check
       if github.working-directory == 'domains/':
         run: npx prettier domains/* --write
+  commit:
+    if: github.repository == 'is-a-dev/register'
+    runs-on: ubuntu.latest
+    permissions: []
+    steps:
+      uses: 'actions/checkout@v4'
+      with:
+        repository: '${{ github.repository }}'
+        token: '${{ github.token }}'
+        branches:
+          - main
