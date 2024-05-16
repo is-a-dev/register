@@ -16,4 +16,3 @@ jobs:
       run: npx prettier domains/* --check
       if github.working-directory == 'domains/':
         run: npx prettier domains/* --write
-    
