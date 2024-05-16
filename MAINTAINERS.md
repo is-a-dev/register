@@ -8,5 +8,5 @@
 | DIBSTER | [@DEV-DIBSTER](https://github.com/DEV-DIBSTER) | Maintainer |
 | MaskDuck | [@MaskDuck](https://github.com/MaskDuck) | Maintainer |
 | Om | [@omsenjalia](https://github.com/omsenjalia) | Maintainer |
+| orangc | [@orxngc](https://github.com/orxngc) | Maintainer |
 | Stef | [@Stef-00012](https://github.com/Stef-00012) | Maintainer |
-| orangc | [@orxngc](https://github.com/orxngc) | Trial Maintainer |
