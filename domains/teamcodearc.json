@@ -3,33 +3,13 @@
     "username": "chiragnahata",
     "email": "chiragnahata05@gmail.com"
   },
-  "records": {
-    "A": [
-      {
-        "name": "@",
-        "value": "129.213.151.29"
-      }
-    ],
-    "MX": [
-      {
-        "name": "@",
-        "priority": 10,
-        "value": "mail.teamcodearc.is-a.dev."
-      }
-    ],
+  "record": {
+    "A": ["129.213.151.29"],
+    "MX": ["10 mail.teamcodearc.is-a.dev."],
     "TXT": [
-      {
-        "name": "teamcodearc",
-        "value": "brevo-code:d371c7ec5dac2629344c8956e396e7dd"
-      },
-      {
-        "name": "mail._domainkey.teamcodearc",
-        "value": "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB"
-      },
-      {
-        "name": "_dmarc.teamcodearc",
-        "value": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
-      }
+      "teamcodearc brevo-code:d371c7ec5dac2629344c8956e396e7dd",
+      "mail._domainkey.teamcodearc k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB",
+      "_dmarc.teamcodearc v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
     ]
   }
 }
