@@ -5,7 +5,7 @@
   },
   "record": {
     "A": ["129.213.151.29"],
-    "MX": ["10 mail.teamcodearc.is-a.dev."],
+    "MX": ["mail.teamcodearc.is-a.dev"],
     "TXT": [
       "teamcodearc brevo-code:d371c7ec5dac2629344c8956e396e7dd",
       "mail._domainkey.teamcodearc k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB",
