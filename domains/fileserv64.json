@@ -1,0 +1,11 @@
+{
+    "description": "URl to base 64 generator",
+    "repo": "https://github.com/mrsamimdraft/fileserv64",
+    "owner": {
+        "username": "mrsamimdraft",
+        "email": "mrsamimmail@gmail.com",
+    },
+    "record": {
+        "CNAME": "mrsamimdraft.github.io/fileserv64"
+    }
+} 
