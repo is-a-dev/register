@@ -1,0 +1,10 @@
+{
+    "description": "Gain deeper insights into your favourite open-source repositories. Explore star trends showing daily stars and go beyond the 40k-star limit.",
+    "repo": "https://github.com/emanuelef/emanuelef.github.io",
+    "owner": {
+        "username": "emanuelef"
+    },
+    "record": {
+        "CNAME": "emanuelef.github.io"
+    }
+}
