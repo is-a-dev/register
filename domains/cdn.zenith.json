@@ -1,0 +1,10 @@
+{
+    "description": "Zenith's CDN images subdomain",
+    "owner": {
+        "username": "ZenithGuy1",
+        "email": "matheusbarcelosas@gmail.com"
+    },
+    "record": {
+        "TXT": "By Zenith"
+    }
+}

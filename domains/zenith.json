@@ -1,0 +1,10 @@
+{
+    "description": "Zenith's main domain",
+    "owner": {
+        "username": "ZenithGuy1",
+        "email": "matheusbarcelosas@gmail.com"
+    },
+    "record": {
+        "TXT": "By Zenith"
+    }
+}
