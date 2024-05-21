@@ -4,6 +4,15 @@
         "email": "imrasel597@gmail.com"
     },
     "record": {
-        "CNAME": "rasel.pages.dev"
+        "CNAME": "rasel.pages.dev",
+    "MX": [
+      "mx.zoho.com",
+      "mx2.zoho.com",
+      "mx3.zoho.com"
+    ],
+    "TXT": [
+     "zoho-verification=zb51290256.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all"
+    ]
     }
 }
