@@ -1,29 +1,42 @@
-name: 'File Formatting with Prettier'
+name: Formatting with Prettier
 
 on:
   push:
     branches:
-      - main
-  schedule:
-    - cron: '0 0 * * *'
+      - '**'
+# un-comment to add this feature to prs too
+#  pull_request:
+#    branches:
+#      - '**'
 
 jobs:
   format:
-    if: github.repository == 'is-a-dev/register'
     runs-on: ubuntu-latest
-    permissions: [read-all, write: contents]
+
     steps:
-      run: npx prettier domains/* --check
-      if github.working-directory == 'domains/':
-        run: npx prettier domains/* --write
-  commit:
-    if: github.repository == 'is-a-dev/register'
-    runs-on: ubuntu.latest
-    permissions: []
-    steps:
-      uses: 'actions/checkout@v4'
+    - name: Checkout from repo
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
       with:
-        repository: '${{ github.repository }}'
-        token: '${{ github.token }}'
-        branches:
-          - main
+        node-version: '14'
+
+    - name: Install dependencies for npm
+      run: npm install
+
+    - name: Run formatter
+      run: npx prettier --write ./domains/
+
+    - name: Check for changes from prettier
+      id: git_diff
+      run: git diff --exit-code || echo "Formatting changes detected."
+
+    - name: Commit & push changes if changes are made
+      if: steps.git_diff.outcome == 'failure'
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add .
+        git commit -m "Format code with Prettier"
+        git push
