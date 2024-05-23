@@ -1,9 +1,0 @@
-{
-    "owner": {
-        "username": "Vibred",
-        "email": "vibred@pm.me"
-    },
-    "record": {
-        "NS": ["cora.ns.cloudflare.com", "jonah.ns.cloudflare.com"]
-    }
-}
