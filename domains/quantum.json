@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "RabbitFored",
+    "email": "quantum@theostrich.eu.org"
+  },
+
+  "record": {
+    "CNAME": "quantum.theostrich.eu.org",
+    "MX": [
+      "mx.theostrich.eu.org",
+    ]
+  }
+}
