@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/TotoCodeFR/TotoCodeFR.github.io",
+    "owner": {
+        "username": "TotoCodeFR",
+        "email": "totocodefr@duck.com",
+        "twitter": "TotoCodeFR"
+    },
+    "record": {
+        "CNAME": "TotoCodeFR.github.io"
+    }
+} 
