@@ -1,0 +1,11 @@
+{
+  "description": "Anime streaming site",
+  "owner": {
+    "username": "s3mant",
+    "email": "contact@semant.is-a.dev",
+    "discord": "445073800850046977"
+  },
+  "record": {
+    "CNAME": "anime-semant.pages.dev"
+  }
+}
