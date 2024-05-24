@@ -4,6 +4,14 @@
     "email": "sekharmalla.vfx@gmail.com"
   },
   "record": {
-    "CNAME": "sekharmalla.github.io"
+    "CNAME": "sekharmalla.github.io",
+    "MX": [
+      "mx01.mail.icloud.com",
+      "mx02.mail.icloud.com"
+    ],
+    "TXT": [
+      "apple-domain=DEcTrVn1s4N93xAn",
+      "v=spf1 include:icloud.com ~all"
+    ]
   }
 }
