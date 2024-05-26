@@ -31,6 +31,7 @@ jobs:
     - name: Check for changes from prettier
       id: git_diff
       run: git diff --exit-code || echo "Formatting changes detected."
+      continue-if-error: true
 
     - name: Commit & push changes if changes are made
       if: steps.git_diff.outcome == 'failure'
