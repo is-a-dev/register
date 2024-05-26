@@ -1,0 +1,11 @@
+{
+    "description": "Hosting For Info Website",
+    "repo": "https://github.com/scpfabyssal/scpfabyssal.github.io",
+    "owner": {
+        "username": "scpfabyssal",
+        "email": "ilikecats3245@gmail.com",
+        "twitter": "mikemchire"
+    },
+    "record": {
+        "CNAME": "scpfabyssal.github.io/"
+    }
