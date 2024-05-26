@@ -1,0 +1,12 @@
+{
+  "description": "Mail For My Website",
+  "owner": {
+    "username": "senaditya",
+    "email": "aditya.sen1hl@gmail.com"
+  },
+  "record": {
+    "MX": ["mx.bump.email", "mx2.bump.email"],
+
+    "TXT": "v=spf1 include:_spf.bump.email ~all"
+  }
+}
