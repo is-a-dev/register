@@ -1,12 +1,9 @@
 {
-    "description": "Main Website Of Our Company",
     "owner": {
         "username": "Founderfie",
         "email": "director@founderfie.in"
     },
     "record": {
-        "CNAME": "edge.redirect.pizza"
-        
+        "TXT": "dh=d0051682cdad6866306cdb315ae5abff7e314dcc"
     }
-    
-}  
+} 
