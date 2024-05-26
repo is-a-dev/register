@@ -5,8 +5,8 @@
     "email": "aditya.sen1hl@gmail.com"
   },
   "record": {
-    "MX": ["mx.bump.email", "mx2.bump.email"],
+    "MX": ["mx1.improvmx.com.", "mx2.improvmx.com."],
 
-    "TXT": "v=spf1 include:_spf.bump.email ~all"
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
