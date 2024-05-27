@@ -4,7 +4,7 @@
         "email": "yunexiz@aol.com"
     },
     "record": {
-        "A": ["109.71.252.37"], 
+        "URL": "https://yunexiz.is-a.dev", 
         "TXT": ["forward-email=yunexiz@aol.com"],
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"]
     }

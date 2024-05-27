@@ -1,0 +1,16 @@
+{
+    "owner": {
+        "username": "getSono",
+        "email": "sono.arbeit@gmail.com"
+    },
+    "record": {
+        "MX": [
+            "mx01.mail.icloud.com",
+            "mx02.mail.icloud.com"
+        ],
+        "TXT": [
+            "apple-domain=PMmXaZI06t5XN6Dv",
+            "v=spf1 include:icloud.com ~all"
+        ]
+    }
+}
