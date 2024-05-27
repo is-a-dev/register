@@ -1,12 +1,12 @@
 {
-    "description": "personal web page",
-    "repo": "https://nithinbiju007.github.io/NithinBiju/",
+    "description": "Personal Web Page",
+    "repo": "https://nithinbiju007.github.io/nithinbiju007.github.io",
     "owner": {
         "username": "nithinbiju007",
         "email": "nithinbijubiss@gmail.com",
         
     },
     "record": {
-        "CNAME": "https://nithinbiju007.github.io/NithinBiju/"
+        "CNAME": "nithinbiju007.github.io"
     }
 }
