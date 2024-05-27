@@ -4,7 +4,7 @@
         "email": "srijan.guchhait@gmail.com"
     },
     "record": {
-        "CNAME": "olof.ns.cloudflare.com"
-	"CNAME": "wally.ns.cloudflare.com"
+        "NS":"olof.ns.cloudflare.com"
+	"NS":"wally.ns.cloudflare.com"
     }
 }
