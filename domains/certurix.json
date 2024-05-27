@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Certurix",
-        "email": "certurix@outlook.fr"
-    },
-    "record": {
-        "CNAME": "certurix.github.io"
-    }
+  "owner": {
+    "username": "Certurix",
+    "email": "certurix@outlook.fr"
+  },
+  "record": {
+    "CNAME": "certurix.github.io"
+  }
 }
