@@ -6,7 +6,6 @@
         },
     
         "record": {
-            "TXT": "vc-domain-verify=maine.is-a.dev,8d16f8af14c09f846ccf",
             "CNAME": "codemaine.github.io"
         }
     }
