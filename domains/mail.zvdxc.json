@@ -2,7 +2,7 @@
   "description": "A sub-subdomain for use with a mail-forwarder, because the main subdomain zvdxc.is-a.dev has a CNAME and doesnt work",
   "owner": {
         "username": "zvdxc",
-        "email": "zvdxc11@gmail.com",
+        "email": "zvdxc11@gmail.com"
     },
   "record": {
     "MX": [
