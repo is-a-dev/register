@@ -6,6 +6,7 @@ Unless explicitly specified otherwise by a **maintainer** or in the requirement 
 Please note that we reserve the rights not to accept any domain at our own discretion.
 
 - [ ] The file is in the `domains` folder and is in the JSON format.
+- [ ] The file's name is all lowercased and alphanumeric. <!-- Your file's name is yourname.json, not YourName.json or your_name.json. -->
 - [ ] You have completed your website. <!-- This is not required if the domain you're registering is for emails. -->
 - [ ] The website is reachable.  <!-- This is not required if the domain you're registering is for emails. -->
 - [ ] You're not using Vercel or Netlify.  <!-- This is not required if you're using an URL record. -->
