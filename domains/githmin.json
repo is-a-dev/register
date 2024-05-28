@@ -1,0 +1,11 @@
+{
+  "description": "A domain for myself",
+  "repo": "https://github.com/githmin",
+  "owner": {
+    "username": "githmin",
+    "email": "githmin21@gmail.com"
+  },
+  "record": {
+    "A": ["144.24.133.138"]
+  }
+}
