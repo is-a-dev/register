@@ -4,6 +4,7 @@
         "email": "srijan.guchhait@gmail.com"
     },
     "record": {
-        "CNAME":"qwertystars.000.pe"
+        "NS":"olof.ns.cloudflare.com"
+        "NS":"wally.ns.cloudflare.com"
     }
 }
