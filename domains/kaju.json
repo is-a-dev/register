@@ -1,0 +1,11 @@
+{
+	"owner": {
+		"username": "tanishq-singh-2407",
+		"email": "hi@tanishqsingh.com"
+	},
+	"record": {
+		"MX": ["mx.mailtie.com"],
+		"TXT": "mailtie={https://denomail.deno.dev}",
+        "URL": "https://tempmail.tanishqsingh.com/"
+	}
+}
