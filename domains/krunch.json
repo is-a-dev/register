@@ -7,7 +7,7 @@
         "discord": "krunchiekrunch._."
     },
     "record": {
-        "CNAME": "krunch-is-a-dev.pages.dev"
+        "CNAME": "krunch.pages.dev"
         "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
         "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
