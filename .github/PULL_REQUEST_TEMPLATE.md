@@ -14,4 +14,4 @@ Please note that we reserve the rights not to accept any domain at our own discr
 - [ ] There is sufficient information at the `owner` field.  <!-- You need to have your email presented at `email` field. If you don't want to provide your email for any reason, you can specify another social platform (e.g. Twitter) so we can contact you. -->
 
 ## Website Link/Preview
-<!-- Please provide a link or preview of your website below. -->
+<!-- Please provide a link or preview of your website below. If you can't make the website visible, then an image of the website is also fine!-->
