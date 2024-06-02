@@ -6,7 +6,7 @@
         },
     
         "record": {
-            "A": ["68.65.123.44"]
+            "CNAME": ["https://siddhant-rai.web.app/"]
         }
     }
     
