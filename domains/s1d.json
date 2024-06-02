@@ -6,7 +6,7 @@
         },
     
         "record": {
-            "CNAME": ["siddhant-rai.web.app"]
+            "CNAME": "siddhant-rai.web.app"
         }
     }
     
