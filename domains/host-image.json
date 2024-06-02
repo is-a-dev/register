@@ -6,7 +6,7 @@
         },
     
         "record": {
-            "CNAME": "https://host-image.pages.dev"
+            "CNAME": "host-image.pages.dev"
         }
     }
     
