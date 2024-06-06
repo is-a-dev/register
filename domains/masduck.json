@@ -1,5 +1,10 @@
-{"owner": {
-    "username": "Maskduck","email": "",
-  "discord": "maskduck"
-  },
-  "record": {"CNAME": "maskduck.netlify.app"}}
+{
+    "owner": {
+        "username": "Maskduck",
+        "email": "",
+        "discord": "maskduck"
+    },
+    "record": {
+        "CNAME": "maskduck.netlify.app"
+    }
+}
