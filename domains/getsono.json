@@ -6,7 +6,8 @@
         },
     
         "record": {
-            "CNAME": "getsono.github.io"
+            "CNAME": "getsono.github.io",
+            "TXT": "google-site-verification=MFPLEonkdLiPBmou5SY2mk4qJQ2HC3jZC9cQ8poP3_o"
         }
     }
     
