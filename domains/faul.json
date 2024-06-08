@@ -1,0 +1,12 @@
+{
+    "description": "custom domain page github",
+    "repo": "https://github.com/KhongPhaiHoangQuangHuy/KhongPhaiHoangQuangHuy.github.io",
+    "owner": {
+        "username": "KhongPhaiHoangQuangHuy",
+        "email": "KhongPhaiHoangQuangHuy@gmail.com",
+        "twitter": "KhongPhaiHoangQuangHuy"
+    },
+    "record": {
+        "CNAME": "KhongPhaiHoangQuangHuy.github.io"
+    }
+} 

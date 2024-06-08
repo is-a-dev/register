@@ -1,5 +1,5 @@
 <p align="center">
-   <img alt="is-a-dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
+   <img alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
 </p>
 
 <p align="center">
@@ -22,7 +22,6 @@ If you have any problems, feel free to [open a issue](https://github.com/is-a-de
 If you have an issue that contains confidental infomation, send an email to security@maintainers.is-a.dev.
 
 ## Register
-
 ### Manual Registration
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
@@ -32,11 +31,10 @@ If you have an issue that contains confidental infomation, send an email to secu
 - Enjoy your new `.is-a.dev` domain!
 
 ### Automated Registration
-#### *When using the manage site, please ensure your records are valid. Please do NOT "test" out the manage site and create invalid PRs, it wastes maintainers' time.*
+> [!WARNING]
+> **When using automated registration, please ensure your records are valid. Please do NOT "test" out the system and create invalid PRs, it wastes maintainers' time.**
 
-Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your GitHub account and click the register page in the navbar. Fill out some questions and it will all happen automatically!
-
-Another method is to join our [Discord server](https://discord.gg/PZCGHz4RhQ), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
+Join our [Discord server](https://discord.gg/is-a-dev-830872854677422150), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
 
 ## Status
 You can check the uptime of our services on our [status dashboard](https://is-a-dev.wdh.gg).
