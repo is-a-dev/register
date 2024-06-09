@@ -1,11 +1,9 @@
 {
-  "description": "RayhanADev's Website!",
-  "repo": "https://github.com/rayhanadev/my-website",
-  "owner": {
-    "username": "rayhanadev",
-    "email": "rayhanadev@protonmail.com"
-  },
-  "record": {
-    "URL": "http://rayhanadev.vercel.app"
-  }
+    "owner": {
+        "username": "RayDev07",
+        "email": "jatingujjar.alive@gmail.com"
+    },
+    "record": {
+        "CNAME": "raydev07.github.io"
+    }
 }

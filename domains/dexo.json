@@ -1,12 +1,10 @@
 {
-  "description": "DeXo's personal website",
-  "repo": "https://github.com/dexohigh",
   "owner": {
-    "username": "DeXo",
-    "email": "dexo1337@pm.me",
-    "discord": "DeXo#1337"
+    "username": "DeXoHigh",
+    "email": "dexo1337@pm.me"
   },
   "record": {
-    "CNAME": "dexodev.cf"
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

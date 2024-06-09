@@ -1,0 +1,11 @@
+{
+  "description": "My personal developer website",
+  "repo": "https://github.com/Clay990/suraj",
+  "owner": {
+    "username": "Clay990",
+    "email": "asuraj991m@gmail.com"
+  },
+  "record": {
+    "CNAME": "clay990.github.io"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Ultraviolet proxy",
+  "repo": "https://github.com/notAperson535/Ultraviolet-Static",
+  "owner": {
+    "username": "notAperson535",
+    "email": "notAperson939@gmail.com"
+  },
+  "record": {
+    "CNAME": "notAperson535.github.io"
+  }
+}
