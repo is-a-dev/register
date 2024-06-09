@@ -1,12 +1,11 @@
 {
-      "owner": {
-        "username": "xzonix",
-        "email": "imahalojigi@gmail.com"
-      },
-      "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ]
+  "description": "subdomain for mails",
+  "owner": {
+    "username": "xzonix",
+    "email": "imahalojigi@gmail.com"
+  },
+  "record": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
