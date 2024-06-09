@@ -4,7 +4,6 @@
         "email": "apipherng@gmail.com"
     },
     "record": {
-        "A": ["69.30.249.53"],
-        "MX": ["mail.is-a.dev"]
+        "CNAME": "shockbshdhhdjdjndjd.onrender.com"
     }
 }
