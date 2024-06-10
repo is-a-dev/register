@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "meenbeese",
-        "email": "meenbeese@tutanota.com"
-    },
-    "record": {
-        "CNAME": "meenbeese.github.io"
-    }
+  "owner": {
+    "username": "meenbeese",
+    "email": "meenbeese@tutanota.com"
+  },
+  "record": {
+    "CNAME": "meenbeese.github.io"
+  }
 }
