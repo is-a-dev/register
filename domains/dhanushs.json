@@ -1,0 +1,12 @@
+{
+  "description": "My own website",
+  "owner": {
+    "username": "ipuppyyt",
+    "email": "dhanush6102002@gmail.com",
+    "twitter": "ipuppyyt",
+    "discord": "ipuppyyt"
+  },
+  "record": {
+    "CNAME": "portfolio-bo4.pages.dev"
+  }
+}
