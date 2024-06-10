@@ -1,9 +1,10 @@
 {
+  "description": "OpenAI verification.",
   "owner": {
     "username": "vuthanhtrung2010",
     "email": "vuthanhtrungsuper@gmail.com"
   },
   "record": {
-    "A": ["74.208.39.12"]
+    "TXT": "openai-domain-verification=dv-6iy0Dvx8dBJhynwe04c3t6GG"
   }
 }
