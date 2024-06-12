@@ -1,8 +1,8 @@
 {
-  "description": "My Email Forwarding Domain.",
+  "description": "subdomain for mails",
   "owner": {
-    "username": "l6174",
-    "email": "l.lawliet6174@gmail.com"
+    "username": "xzonix",
+    "email": "imahalojigi@gmail.com"
   },
   "record": {
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
