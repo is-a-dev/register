@@ -1,8 +1,10 @@
 {
-  "description": "subdomain for mails",
+  "description": "Fran's email",
+  "repo": "https://fran.is-a.dev",
   "owner": {
-    "username": "xzonix",
-    "email": "imahalojigi@gmail.com"
+    "discord": "xzonix",
+    "email": "xz1@dr.com",
+    "username": "xzonix"
   },
   "record": {
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
