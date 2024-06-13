@@ -1,12 +1,14 @@
 {
-        "owner": {
-           "username": "xzonix",
-           "email": "imahalojigi@gmail.com",
-           "discord": "849400684097175623"
-        },
-    
-        "record": {
-            "CNAME": "xzonix.github.io"
-        }
-    }
-    
+  "owner": {
+    "username": "<xzonix>",
+    "email": "<xz1@dr.com>"
+  }
+  "record": {
+    "A": [
+      "185.199.108.153",
+      "185.199.110.153",
+      "185.199.109.153",
+      "185.199.111.153"
+    ]
+  }
+}
