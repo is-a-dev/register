@@ -1,1 +1,11 @@
-
+{
+  "description": "Portfolio myself",
+  "repo": "https://github.com/kiensamson0000",
+  "owner": {
+    "username": "kiensamson0000",
+    "email": "kienkh99@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://kiensamson0000.github.io"
+  }
+}
