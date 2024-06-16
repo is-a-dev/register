@@ -1,0 +1,12 @@
+{
+    "description": "A place to host my game downloads.",
+    "repo": "https://github.com/tellmehey/website",
+    "owner": {
+        "username": "tellmehey",
+        "email": "doggyroblox2@gmail.com",
+        "discord": "hexa211"
+    },
+    "record": {
+        "CNAME": "tellmehey.github.io"
+    }
+} 
