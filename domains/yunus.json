@@ -4,8 +4,6 @@
         "email": "yunexiz@aol.com"
     },
     "record": {
-        "URL": "https://yunexiz.is-a.dev", 
-        "TXT": ["forward-email=yunexiz@aol.com"],
-        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"]
+        "CNAME": "yunexiz.pages.dev"
     }
 }
