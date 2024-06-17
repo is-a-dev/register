@@ -1,11 +1,10 @@
 {
-"description": "(optional) your domain description here",
-"repo": "(optional) your website's source code",
-"owner": {
-"username": "iksmfua"
-"email": "realiksm@gmail.com"
-｝，
-"record": {
-"record-type": "value"
-｝
-}
+    "owner": {
+        "username": "<iksmfua>",
+        "email": "<realiksm@gmail.com>",
+        "twitter": "<WaleedthemodYT>"
+    },
+    "record": {
+        "CNAME": "<siteid>.id.repl.co"
+    }
+} 
