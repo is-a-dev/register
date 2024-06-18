@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Zeranamu",
-        "email": "zeranamu@gmail.com"
-    },
-    "record": {
-        "CNAME": "zeranamu.github.io"
-    }
+  "owner": {
+    "username": "Zeranamu",
+    "email": "zeranamu@gmail.com"
+  },
+  "record": {
+    "CNAME": "zeranamu.github.io"
+  }
 }

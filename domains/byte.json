@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "ishan-school",
-        "email": "ishan.13406@lahartara.sunbeamschools.com"
-    },
+  "owner": {
+    "username": "ishan-school",
+    "email": "ishan.13406@lahartara.sunbeamschools.com"
+  },
 
-    "record": {
-        "A": ["69.30.249.53"]
-    }
+  "record": {
+    "A": ["69.30.249.53"]
+  }
 }
