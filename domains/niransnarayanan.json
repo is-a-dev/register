@@ -2,9 +2,9 @@
     "description": "Personal website",
     "owner": {
         "username": "nirans2002",
-        "email": "nirans2002@gmail.com",
+        "email": "nirans2002@gmail.com"
     },
     "record": {
-        "CNAME": "https://niransnarayanan-web.web.app"
+        "CNAME": "niransnarayanan-web.web.app"
     }
 } 
