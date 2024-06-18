@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/shailesh43/portfolio-website",
+    "owner": {
+        "username": "shailesh43",
+        "email": "satheshailesh43@gmail.com",
+        "twitter": "shai13sh"
+    },
+    "record": {
+        "CNAME": "shailesh43.github.io"
+    }
+} 
