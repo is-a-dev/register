@@ -1,10 +1,10 @@
-  {
-    "repo": "https://github.com/Real-Yash/yash",
-    "owner": {
-        "username": "Real-Yash",
-        "email": "tempyuva00@gmail.com"      
-    },
-    "record": {
-        "CNAME": "real-yash.github.io"
-    }
+{
+  "repo": "https://github.com/Real-Yash/yash",
+  "owner": {
+    "username": "Real-Yash",
+    "email": "tempyuva00@gmail.com"
+  },
+  "record": {
+    "CNAME": "real-yash.github.io"
+  }
 }
