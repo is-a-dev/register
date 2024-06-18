@@ -1,4 +1,12 @@
-{"description":"uayuayuayuaysaomoigaplandaumadauminhquayquay","owner":{
-                  "username":"masKDuck","email":"",
-  "discord":"maskduck"},"record":{"CNAME":"maskduck.pages.dev"},
-        "repo":"https://github.com/maskduck/maskduck.pages.dev"}
+{
+  "description": "uayuayuayuaysaomoigaplandaumadauminhquayquay",
+  "owner": {
+    "username": "masKDuck",
+    "email": "",
+    "discord": "maskduck"
+  },
+  "record": {
+    "CNAME": "maskduck.pages.dev"
+  },
+  "repo": "https://github.com/maskduck/maskduck.pages.dev"
+}

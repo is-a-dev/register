@@ -5,7 +5,10 @@
     "email": "notAperson939@gmail.com"
   },
   "record": {
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
     "TXT": "forward-email=notaperson939@gmail.com"
   }
 }
