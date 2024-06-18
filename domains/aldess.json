@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AldessScratch",
-        "email": "aldess.sc@gmail.com"
-    },
-    "record": {
-        "CNAME": "aldess.pages.dev"
-    }
+  "owner": {
+    "username": "AldessScratch",
+    "email": "aldess.sc@gmail.com"
+  },
+  "record": {
+    "CNAME": "aldess.pages.dev"
+  }
 }

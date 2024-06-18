@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "thaddeuskkr",
-        "email": "thaddeuskkr@gmail.com"
-    },
-    "record": {
-        "CNAME": "tkkr.tplinkdns.com"
-    }
+  "owner": {
+    "username": "thaddeuskkr",
+    "email": "thaddeuskkr@gmail.com"
+  },
+  "record": {
+    "CNAME": "tkkr.tplinkdns.com"
+  }
 }
