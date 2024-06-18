@@ -4,7 +4,12 @@
     "email": "serenitypalmer10@gmail.com"
   },
   "record": {
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": ["forward-email=palmerowen100@gmail.com"]
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
+    "TXT": [
+      "forward-email=palmerowen100@gmail.com"
+    ]
   }
 }

@@ -4,7 +4,10 @@
     "email": "youssefessamasu@gmail.com"
   },
   "record": {
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
     "TXT": [
       "forward-email=youssefessamasu@gmail.com",
       "v=spf1 a include:spf.forwardemail.net include:_spf.google.com -all"
