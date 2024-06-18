@@ -5,6 +5,8 @@
     "email": "",
     "discord": "maskduck"
   },
-  "record": { "CNAME": "maskduck.pages.dev" },
+  "record": {
+    "CNAME": "maskduck.pages.dev"
+  },
   "repo": "https://github.com/maskduck/maskduck.pages.dev"
 }
