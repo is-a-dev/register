@@ -1,0 +1,234 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+::selection {
+  background: rgb(41, 46, 59);
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background-color: #070a1f;
+  color: #fafafa;
+  font-size: 16px;
+  line-height: 1.5;
+  /* cursor: none; */
+}
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  transition: color 0.25s ease;
+}
+p {
+  margin: 0;
+}
+.container {
+  position: relative;
+  margin: 20px auto;
+  padding: 20px;
+  /* width: 500px; */
+  display: flex;
+  align-items: flex-start;
+}
+.container .tabs {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: max-content;
+}
+.container .tabs .tab {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 0;
+  transition: all 0.25s ease;
+  border-left: 2px solid #5f6368;
+  color: #5f6368;
+  cursor: none;
+}
+.container .tabs .tab:hover {
+  color: #fff;
+}
+.container .tabs .tab.active {
+  color: rgb(144, 255, 242);
+}
+.container .tabs .tab.tab-1.active ~ .highlighter {
+  transform: translateY(0px);
+}
+.container .tabs .tab.tab-2.active ~ .highlighter {
+  transform: translateY(40px);
+}
+.container .tabs .tab.tab-3.active ~ .highlighter {
+  transform: translateY(80px);
+}
+.container .tabs .highlighter {
+  display: block;
+  background: #fff;
+  width: 2px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(0);
+  transition: transform 0.2s ease;
+  transition-delay: 0.1s;
+  z-index: 10;
+}
+.container .tabs a:first-of-type {
+  border-top-left-radius: 2px;
+}
+.container .tabs a:last-of-type {
+  border-top-right-radius: 2px;
+}
+.container .content {
+  position: relative;
+  padding: 0 20px;
+}
+.container .content__section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 0s ease;
+}
+.container .content__section.visible {
+  position: relative;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+}
+
+/* !!!! */
+.h1shailesh {
+  margin-top: -30px;
+  color:rgb(144, 255, 242);
+}
+.maincontainer {
+  display: inline-block;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 40px;
+}
+.text-cornsilk {
+  color: cornsilk;
+  font-weight: 800;
+
+}
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.makeflex {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+/*   *
+.typographytext {
+
+} */
+
+
+
+
+/* Circle Cursor */
+body {
+  cursor: none;
+}
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+}
+.cursor-outline {
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+}
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+.logos {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.socials {
+  display: inline-block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 60%;
+  background-color: #070a1f;
+  color: white;
+  /* text-align: center; */
+  justify-content: space-between;
+  padding: 10px 0 ;
+  font-size: 14px;
+  margin-left: 700px;
+  margin-bottom: 18px;
+  cursor: none;
+}
+
+.right {
+position: static;
+}
+
+.footer img {
+height: 30px; /* Adjust based on desired size */
+width: auto;
+vertical-align: middle;
+transition: transform 0.7s, box-shadow 0.7s;
+}
+
+.socials ion-icon {
+margin: 8px;
+cursor: none;
+}
+
+.socials ion-icon:hover {
+transform: scale(1.2); /* Zoom effect */
+box-shadow: 0 0 15px 5px #070a1f; /* Glowing effect */
+cursor: none;
+
+}
+footer {
+cursor: none;
+}
+.socials a{
+cursor: none;
+}
+footer p {
+margin-left: 160px;
+margin-bottom: 38px;
+position: fixed;
+left: 0;
+bottom: 0;
+}
