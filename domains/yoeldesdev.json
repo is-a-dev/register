@@ -1,0 +1,10 @@
+ "description": "yoeldesdev web",
+    "repo": "https://github.com/yoeldesdev/yoeldesdev.github.io>",
+    "owner": {
+        "username": "yoeldesdev",
+        "email": "yoeldesdev@gmail.com",
+    },
+    "record": {
+        "CNAME": "yoeldesdev.github.io"
+    }
+} 
