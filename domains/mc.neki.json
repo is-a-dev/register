@@ -4,8 +4,6 @@
     "email": "santyfisela@neki.is-a.dev"
   },
   "record": {
-    "A": [
-      "128.254.225.78"
-    ]
+    "A": ["128.254.225.78"]
   }
 }
