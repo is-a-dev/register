@@ -1,0 +1,10 @@
+{
+  "description": "Domain for the stuff that i host on my pc",
+  "owner": {
+    "username": "WlodekM",
+    "email": "wlodekm.work@gmail.com"
+  },
+  "record": {
+    "A": ["159.224.173.169"]
+  }
+}

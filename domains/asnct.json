@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "asnct",
-        "email": "asnct.email@gmail.com"
-    },
-    "record": {
-        "A": ["5.42.94.94"]
-    }
+  "owner": {
+    "username": "asnct",
+    "email": "asnct.email@gmail.com"
+  },
+  "record": {
+    "A": ["5.42.94.94"]
+  }
 }

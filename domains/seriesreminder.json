@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Series-Reminder",
-        "email": "eric@seriesreminder.com"
-    },
-    "record": {
-        "URL": "https://seriesreminder.com"
-    }
+  "owner": {
+    "username": "Series-Reminder",
+    "email": "eric@seriesreminder.com"
+  },
+  "record": {
+    "URL": "https://seriesreminder.com"
+  }
 }
