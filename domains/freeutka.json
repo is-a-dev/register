@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "freeutka",
+    "email": "desingfreeutka@gmail.com"
+  },
+  "record": {
+    "CNAME": "freeutka-cmd.github.io"
+  }
+}
