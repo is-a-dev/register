@@ -6,7 +6,6 @@ labels: support
 
 ---
 
-Your domain name:
+### Your subdomain
 
-Explain any issues you are facing
-
+### The issue
