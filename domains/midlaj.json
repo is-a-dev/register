@@ -4,7 +4,6 @@
     "email": "midlaj@tuta.io"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": ["_vercel", "vc-domain-verify=midlaj.is-a.dev,241ff5d3a4a7e0403ed6"]
+    "CNAME": "nuxtfolio.pages.dev"
   }
 }
