@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "shockbs",
-        "email": "apipherng@gmail.com"
-    },
-    "record": {
-        "A": ["69.30.249.53"],
-        "MX": ["mail.is-a.dev"]
-    }
+  "owner": {
+    "username": "shockbs",
+    "email": "apipherng@gmail.com"
+  },
+  "record": {
+    "CNAME": "shockbshdhhdjdjndjd.onrender.com"
+  }
 }

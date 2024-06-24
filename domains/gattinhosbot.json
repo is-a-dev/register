@@ -6,14 +6,8 @@
     "github_id": 81536172
   },
   "record": {
-    "A": [
-      "45.137.70.68"
-    ],
-    "MX": [
-      "mail.is-a.dev"
-    ],
-    "TXT": [
-      "v=spf1 mx a:mail.is-a.dev ~all"
-    ]
+    "A": ["194.60.201.37"],
+    "MX": ["mail.stefdp.lol"],
+    "TXT": ["v=spf1 mx ~all"]
   }
 }

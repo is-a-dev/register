@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "itsdust0n",
-        "email": "contact@dust0n.ru"
-    },
+  "owner": {
+    "username": "itsdust0n",
+    "email": "contact@dust0n.ru"
+  },
 
-    "record": {
-        "A": ["89.208.104.177"]
-    }
+  "record": {
+    "A": ["89.208.104.177"]
+  }
 }

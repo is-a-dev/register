@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "DasSharkk",
-        "email": "dassharkk@proton.me"
-    },
-    "record": {
-        "CNAME": "dasshark.dasshept.de"
-    }
+  "owner": {
+    "username": "DasSharkk",
+    "email": "mail@julius.software"
+  },
+  "record": {
+    "CNAME": "julius.software"
+  }
 }

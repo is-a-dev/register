@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "lzif",
-        "email": "people@lukiznr.my.id"
-    },
-    "record": {
-        "URL": "https://luki.my.id"
-    }
+  "description": "Used for blogging",
+  "repo": "https://github.com/lzif/lzif.github.io",
+  "owner": {
+    "username": "lzif",
+    "email": "lukyfriendly@gmail.com"
+  },
+  "record": {
+    "CNAME": "lzif.github.io"
+  }
 }
