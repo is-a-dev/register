@@ -1,13 +1,12 @@
 {
-  "description": "MaskDuck's personal website!",
-  "repo": "https://github.com/maskducks/maskducks.github.io",
+  "description": "uayuayuayuaysaomoigaplandaumadauminhquayquay",
   "owner": {
-    "username": "MaskDuck",
-    "email": "maskduckuwu@gmail.com",
-    "discord": "maskduck",
-    "note": "My Discord discriminator sometimes is not 1337 and sometimes I will change it. If you want to find me on Discord, my ID is 716134528409665586."
+    "username": "masKDuck",
+    "email": "",
+    "discord": "maskduck"
   },
   "record": {
-    "CNAME": "maskduck.github.io"
-  }
+    "CNAME": "maskduck.pages.dev"
+  },
+  "repo": "https://github.com/maskduck/maskduck.pages.dev"
 }
