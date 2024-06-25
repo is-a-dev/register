@@ -4,6 +4,8 @@
     "email": "imethlol1234@gmail.com"
   },
   "record": {
-    "CNAME": "edge.redirect.pizza"
+    "A": [
+      "69.197.135.202"
+    ]  
   }
 }
