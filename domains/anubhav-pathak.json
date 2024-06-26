@@ -6,7 +6,13 @@
       "email": "anubhavpathak99@gmail.com"
     },
     "record": {
-      "CNAME": "anubhav-pathak.github.io",
+      "CNAME": "Anubhav-Pathak.github.io",
+      "A": [
+          "185.199.110.153",
+          "185.199.111.153",
+          "185.199.108.153",
+          "185.199.109.153"
+      ],  
       "TXT": "af5fdf5f2c55b83aade6d80e125efd"
     }
   }
