@@ -1,9 +1,10 @@
 {
+  "description": "Redirect to my telegram channel",
   "owner": {
     "username": "asnct",
-    "email": "asnct.email@gmail.com"
+    "email": "asnct@proton.me"
   },
   "record": {
-    "A": ["5.42.94.94"]
+    "URL": "https://asnct_bio.t.me"
   }
 }
