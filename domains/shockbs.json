@@ -5,6 +5,7 @@
   },
   "record": {
     "CNAME": "shockbshdhhdjdjndjd.onrender.com",
-    "MX": ["mxa.mailgun.org","mxb.mailgun.org"]
+    "MX": ["mxa.mailgun.org","mxb.mailgun.org"],
+    "TXT": "v=spf1 include:mailgun.org ~all"
   }
 }
