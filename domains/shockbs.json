@@ -4,7 +4,7 @@
     "email": "apipherng@gmail.com"
   },
   "record": {
-    "CNAME": "shockbshdhhdjdjndjd.onrender.com",
+    "A": "216.24.57.1",
     "MX": ["mxa.mailgun.org","mxb.mailgun.org"],
     "TXT": "v=spf1 include:mailgun.org ~all"
   }
