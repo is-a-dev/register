@@ -4,8 +4,6 @@
     "email": "apipherng@gmail.com"
   },
   "record": {
-    "A": ["216.24.57.1"],
-    "MX": ["mxa.mailgun.org","mxb.mailgun.org"],
-    "TXT": "v=spf1 include:mailgun.org ~all"
+    "A": ["216.24.57.1"]
   }
 }
