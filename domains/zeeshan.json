@@ -7,6 +7,11 @@
         
     },
     "record": {
-        "CNAME": "m-zeeshan42.github.io"
+        "CNAME": "m-zeeshan42.github.io",
+        "MX": [
+          "mx1.improvmx.com",
+          "mx2.improvmx.com"
+        ],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 }
