@@ -1,0 +1,14 @@
+{
+  "description": "zeeshan's email",
+  "repo": "https://zeeshan.is-a.dev",
+  "owner": {
+    "email": "zeeshanashraf424@gmail.com"
+  },
+  "record": {
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}
