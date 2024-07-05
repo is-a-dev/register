@@ -1,0 +1,11 @@
+{
+  "description": "Documentation for is-a-dev",
+  "repo": "https://github.com/aftermath9",
+  "owner": {
+    "username": "aftermath9",
+    "email": "amrmafalani@yahoo.com"
+  },
+    "record": {
+    "TXT": "Hello World!"
+  }
+}
