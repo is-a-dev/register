@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "username": "lean-cc",
-    "email": "leancc3020@gmail.com"
-  },
-  "record": {
-    "CNAME": "cv-ep1.pages.dev"
-  }
-}
+    "description": "Personal website.",
+    "repo": "https://github.com/lean-cc/Personal-site",
+    "owner": {
+        "username": "lean-cc",
+        "email": "leancc3020@gmail.com"
+    },
+    "record": {
+        "CNAME": "lean-cc.github.io/Personal-site",
+        "TXT": "3c11059b471a5b5163437912c020df"
+    }
+} 
