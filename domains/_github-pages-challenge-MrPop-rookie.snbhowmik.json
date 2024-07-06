@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/MrPop-rookie/MrPop-rookie.github.io",
+  "owner": {
+    "username": "MrPop-rookie",
+    "email": "snbhowmikac@gmail.com",
+    "linkedin": "https://linkedin.com/in/snbhowmik"
+  }
+  "record": {
+    "CNAME": "MrPop-rookie.github.io",
+    "TXT": "9a4944b6a34448f1edc9f4079db605"
+    "MX": [
+      "mx.zoho.in",
+      "mx2.zoho.in",
+      "mx3.zoho.in"
+    ]
+    "TXT": "v=spf1 include:zoho.in ~all"
+  }
+}
