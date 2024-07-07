@@ -1,12 +1,11 @@
 {
-        "owner": {
-           "username": "cuxdii",
-           "email": "vihar2408+2@gmail.com",
-           "discord": "1156381555875385484"
-        },
-    
-        "record": {
-            "CNAME": "cuxdii.github.io"
-        }
+    "owner": {
+       "username": "cuxdii",
+       "email": "vihar2408@gmail.com",
+       "discord": "1156381555875385484"
+    },
+
+    "record": {
+        "CNAME": "cuxdi.pages.dev"
     }
-    
+}
