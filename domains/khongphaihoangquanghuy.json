@@ -1,12 +1,12 @@
 {
     "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/KhongPhaiHoangQuangHuy/my-link-tree",
+    "repo": "https://github.com/KhongPhaiHoangQuangHuy/my-link-tree.git",
     "owner": {
         "username": "KhongPhaiHoangQuangHuy",
         "email": "khongphaihoangquanghuy@gmail.com",
         "twitter": "khongphaihuy99"
     },
     "record": {
-        "CNAME": "khongphaihoangquanghuy.github.io"
+        "CNAME": "KhongPhaiHoangQuangHuy.github.io"
     }
-}
+} 
