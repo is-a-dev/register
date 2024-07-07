@@ -1,0 +1,11 @@
+{
+    "description": "Personal website.",
+    "repo": "https://github.com/lean-cc/Personal-site",
+    "owner": {
+        "username": "lean-cc",
+        "email": "leancc3020@gmail.com"
+    },
+    "record": {
+        "CNAME": "lean-cc.github.io"
+    }
+} 
