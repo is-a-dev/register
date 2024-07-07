@@ -1,0 +1,10 @@
+{
+    "description": "My portfolio website",
+    "owner": {
+        "username": "gorciu-official",
+        "email": "gorciuyt@gmail.com",
+    },
+    "record": {
+        "CNAME": "gorciu-official.github.io"
+    }
+} 
