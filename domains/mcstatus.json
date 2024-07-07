@@ -6,6 +6,7 @@
   },
 
   "record": {
-    "CNAME": "mcstatus-is-a-dev.onrender.com"
+    "A": "216.24.57.1",
+    "TXT": "google-site-verification=nDh74FzhzmLwzfX4wZWHjZOjNXmTCKyuw89TGKOIfkE"
   }
 }
