@@ -5,6 +5,11 @@
     "email": "itsarchit@keemail.me"
   },
   "record": {
-    "CNAME": "saxophone-guy.github.io"
+    "CNAME": "saxophone-guy.github.io",
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
+    "TXT": "forward-email=itsarchit@keemail.me"
   }
 }
