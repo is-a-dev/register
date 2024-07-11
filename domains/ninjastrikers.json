@@ -1,0 +1,12 @@
+{
+    "description": "for an own site",
+    "repo": "https://github.com/ninjastrikers/ninjastrikers.github.io",
+    "owner": {
+        "username": "ninjastrikers",
+        "email": "leonhart@ninjastrikers.net",
+        "twitter": "ninjastrikers"
+    },
+    "record": {
+        "CNAME": "ninjastrikers.github.io"
+    }
+} 
