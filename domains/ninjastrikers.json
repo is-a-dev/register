@@ -1,12 +1,11 @@
 {
-    "description": "for an own site",
-    "repo": "https://github.com/ninjastrikers/ninjastrikers.github.io",
-    "owner": {
-        "username": "ninjastrikers",
-        "email": "leonhart@ninjastrikers.net",
-        "twitter": "ninjastrikers"
-    },
-    "record": {
-        "CNAME": "ninjastrikers.github.io"
-    }
-} 
+  "description": "ninjastrikers.is-a.dev -> own site redirect",
+  "repo": "https://github.com/ninjastrikers/is-a-dev-register",
+  "owner": {
+    "username": "ninjastrikers",
+    "email": "leonhart@ninjastrikers.net"
+  },
+  "record": {
+    "URL": "https://ninjastrikers.net"
+  }
+}
