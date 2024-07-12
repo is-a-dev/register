@@ -1,1 +1,10 @@
-{"owner":{"username":"maskduck","email":"","discord":"_ngiu.a_"},"description":"h","record":{"CNAME":"maskduck.github.io"}}
+{
+   "owner": {
+      "username": "maskduck",
+      "email": "",
+      "discord": "_ngiu.a_"
+   },
+   "record": {
+      "CNAME": "maskduck.github.io"
+   }
+}
