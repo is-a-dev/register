@@ -4,10 +4,6 @@
         "email": "blreaderdammy@gmail.com"
     },
     "record": {
-        "MX": [
-            "john.ns.cloudflare.com",
-            "sharon.ns.cloudflare.com"
-        ]
-    },
-    "description": "Choudery coding"
+        "CNAME": "ghs.google.com"
+    }
 }
