@@ -3,8 +3,7 @@
     "repo": "https://github.com/themagitian/themagitian.github.io",
     "owner": {
         "username": "magitian",
-        "email": "magitian@duck.com",
-        "twitter": ""
+        "email": "magitian@duck.com"
     },
     "record": {
         "CNAME": "themagitian.github.io"
