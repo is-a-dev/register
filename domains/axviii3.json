@@ -1,8 +1,8 @@
 {
   "owner": {
     "username": "AXVIII3",
-    "email": "",
-    "discord": "axviii3"
+    "discord": "axviii3",
+    "email": ""
   },
   "record": {
     "A": [
@@ -10,6 +10,7 @@
       "185.199.109.153",
       "185.199.110.153",
       "185.199.111.153"
-    ]
+    ],
+    "TXT": "b5ddb9e8._improvmx=b5ddb9e810a94421817eec6f5d1250b9"
   }
 }
