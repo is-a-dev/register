@@ -9,7 +9,7 @@ RUN apt-get -y update
 RUN apt-get install -y nodejs npm curl wget dnsutils certbot --fix-missing
 RUN apt-get install -y unzip
 
-# Run a back command
+# Run a bash command
 RUN bash -c "curl -fsSL https://bun.sh/install | bash -s 'bun-v1.0.15'"
 
 RUN ~/.bun/bin/bun -v
