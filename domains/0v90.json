@@ -1,14 +1,22 @@
 {
+    "description": "Personal Portfolio Website",
+    "repo": "https://github.com/0v90/0v90.github.io",
     "owner": {
         "username": "0v90",
-        "email": "",
-        "Discord": "0v90"
+        "discord": "651519394673065989",
+        "email": ""
+        
     },
-    "record": {
-        "A": [
-            "35.200.171.190",
-            "35.240.84.96",
-            "34.132.146.171"
-        ]
+    
+        "record": {
+          "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.110.153"
+          ]
     }
-}
+ }
+        
+        
+    
