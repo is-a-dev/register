@@ -1,11 +1,12 @@
 {
-  "description": "Just learning to be a software developer",
-  "repo": "https://github.com/okan12300",
-  "owner": {
-    "username": "okan12300",
-    "email": "okanakd89@outlook.com"
-  },
-  "record": {
-    "URL": "https://okan12300.notion.site/Okan-Akdemir-3a0f4d51dd6f4213985e9eb22c2554c9"
-  }
-}
+    "description": "Just trying to be a Software Developer",
+    "repo": "https://github.com/okan12300/okan12300.github.io",
+    "owner": {
+        "username": "okan12300",
+        "email": "okanakd89@outlook.com",
+        "twitter": "okanakd12"
+    },
+    "record": {
+        "CNAME": "okan12300.github.io"
+    }
+} 
