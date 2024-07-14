@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "c1rcle-xy",
+        "email": "c1rcle-xy@outlook.com"
+    },
+    "record": {
+        "NS": "dilbert.ns.cloudflare.com"
+        "NS": "fay.ns.cloudflare.com"
+    }
