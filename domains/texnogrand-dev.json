@@ -4,6 +4,6 @@
         "email": "muhammadyusuf.kurbonov2002@gmail.com"
     },
     "record": {
-        "A": "213.199.33.74"
+        "A": ["213.199.33.74"]
     }
 } 
