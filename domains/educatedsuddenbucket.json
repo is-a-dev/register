@@ -8,7 +8,10 @@
       "mx1.improvmx.com",
       "mx2.improvmx.com"
     ],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all",
+      "google-site-verification=hS8B2hSz-rNk6gLRnwaZjxuJE9rCLU_25X65JsLEczE"
+    ],
     "A": [
       "185.199.108.153",
       "185.199.109.153",
