@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "momu54",
-        "email": "MoMuAlt@outlook.jp"
-    },
+  "owner": {
+    "username": "momu54",
+    "email": "MoMuAlt@outlook.jp"
+  },
 
-    "record": {
-        "CNAME": "momu54.github.io"
-    }
+  "record": {
+    "CNAME": "momu54.github.io"
+  }
 }
