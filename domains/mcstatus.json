@@ -1,11 +1,15 @@
 {
   "owner": {
     "username": "EducatedSuddenBucket",
-    "email": "",
+    "email": "educatedsuddenbucket@gmail.com",
     "discord": "1167825360151380032"
   },
-
   "record": {
-    "CNAME": "mcstatus-is-a-dev.onrender.com"
+    "A": [
+      "216.24.57.1"
+    ],
+    "TXT": [
+      "google-site-verification=nDh74FzhzmLwzfX4wZWHjZOjNXmTCKyuw89TGKOIfkE"
+    ]
   }
 }
