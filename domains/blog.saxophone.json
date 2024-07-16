@@ -5,6 +5,8 @@
     "email": "itsarchit@keemail.me"
   },
   "record": {
-    "CNAME": "na-west1.surge.sh"
+    "A": [
+      "45.55.110.124"
+    ]
   }
 }
