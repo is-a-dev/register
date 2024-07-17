@@ -1,1 +1,16 @@
-38middle.is-a.dev
+{
+  "description": "Documentation for is-a-dev",
+  "owner": {
+    "username": "SoftOSDev",
+    "email": "3093634343"
+  },
+  "record": {
+    "CNAME": "softosdev.github.io",
+    "A": [
+      "185.199.111.153",
+      "185.199.110.153",
+      "185.199.109.153",
+      "185.199.108.153"
+    ]
+  }
+}
