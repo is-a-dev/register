@@ -6,6 +6,6 @@
   },
 
   "record": {
-    "CNAME": "ALVINTAN159.github.io"
+    "A": ["185.176.43.106"]
   }
 }

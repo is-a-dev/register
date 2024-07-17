@@ -1,12 +1,12 @@
 {
-    "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/KhongPhaiHoangQuangHuy/my-link-tree",
-    "owner": {
-        "username": "KhongPhaiHoangQuangHuy",
-        "email": "khongphaihoangquanghuy@gmail.com",
-        "twitter": "khongphaihuy99"
-    },
-    "record": {
-        "CNAME": "khongphaihoangquanghuy.github.io"
+        "owner": {
+           "username": "KhongPhaiHoangQuangHuy",
+           "email": "khongphaihoangquanghuy@gmail.com",
+           "discord": "181064730075463680"
+        },
+    
+        "record": {
+            "CNAME": "khongphaihoangquanghuy.github.io"
+        }
     }
-}
+    
