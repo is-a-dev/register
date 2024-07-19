@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "onlive1337",
-        "email": "tabdulov2006@gmail.com"
-    },
-    "record": {
-        "CNAME": "onlive1337.github.io"
-    }
+  "owner": {
+    "username": "onlive1337",
+    "email": "",
+    "discord": "onlive"
+  },
+  "record": {
+    "CNAME": "onlive1337.github.io"
+  }
 }

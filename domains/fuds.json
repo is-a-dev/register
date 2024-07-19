@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "GeekSupport",
-        "email": "geek@laguaz.eu.org"
-    },
-    "record": {
-        "CNAME": "fuds.pages.dev"
-    }
+  "owner": {
+    "username": "GeekSupport",
+    "email": "geek@laguaz.eu.org"
+  },
+  "record": {
+    "CNAME": "fuds.pages.dev"
+  }
 }

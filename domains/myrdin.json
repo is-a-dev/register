@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Myrdincx",
-        "email": "myrdincx@gmail.com"
-    },
-    "record": {
-        "CNAME": "myrdincx.github.io"
-    }
+  "owner": {
+    "username": "Myrdincx",
+    "email": "myrdincx@gmail.com"
+  },
+  "record": {
+    "CNAME": "myrdincx.github.io"
+  }
 }

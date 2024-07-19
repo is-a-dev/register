@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Ayinaki",
-        "email": "ayinakidev@gmail.com"
-    },
-    "record": {
-        "CNAME": "ayinaki.github.io"
-    }
+  "owner": {
+    "username": "Ayinaki",
+    "email": "ayinakidev@gmail.com"
+  },
+  "record": {
+    "CNAME": "ayinaki.github.io"
+  }
 }
