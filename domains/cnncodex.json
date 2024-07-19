@@ -1,0 +1,10 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/cnncodex/register",
+    "owner": {
+        "username": "cnncodex"
+    },
+    "record": {
+        "CNAME": "cnncodex.github.io"
+    }
+} 
