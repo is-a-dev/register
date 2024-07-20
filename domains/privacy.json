@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "andrewstech",
-           "email": "",
-           "discord": "598245488977903688"
-        },
-    
-        "record": {
-            "A": ["217.174.245.249"]
-        }
+    "owner": {
+       "username": "is-a-dev",
+       "email": ""
+    },
+    "record": {
+        "URL": "https://owl.is-a.dev"
     }
-    
+}
