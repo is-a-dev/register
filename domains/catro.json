@@ -1,0 +1,12 @@
+{
+    "description": "My personal website :)",
+    "repo": "https://github.com/catrophie/catro.is-a.dev",
+    "owner": {
+        "username": "catrophie",
+        "email": "ycat.chayan@gmail.com",
+        "discord": "catrophie"
+    },
+    "record": {
+        "CNAME": "catrophie.github.io"
+    }
+} 
