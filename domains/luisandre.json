@@ -4,6 +4,9 @@
     "email": "luis073094@gmail.com"
   },
   "record": {
-    "CNAME": "portafolioluisandre.azurewebsites.net"
+    "URL": "https://portafolioluisandre.azurewebsites.net",
+    "A": [
+      "20.206.176.7"
+    ]
   }
 }
