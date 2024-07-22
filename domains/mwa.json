@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "Totallynotmwa",
-    "email": "totallynot@mwa.lol"
+    "email": "",
+    "discord": "totallynotmwa"
   },
   "record": {
-    "URL": "https://mwa.lol"
+    "CNAME": "totallynotmwa.github.io"
   }
 }
