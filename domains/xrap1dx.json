@@ -12,6 +12,10 @@
         "MX": [
             "mx1.improvmx.com",
             "mx2.improvmx.com"
+        ],
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com ~all",
+            "Dh=5552cf7dcf2fec81360ac9ee4af0b0a674f1cd33"
         ]
     }
 }
