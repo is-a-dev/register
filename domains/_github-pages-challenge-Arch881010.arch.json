@@ -1,13 +1,17 @@
 {
   "description": "My personal website on arch.is-a.dev (main files in repo/repository)[Github Challenge].",
   "repo": "https://github.com/Arch881010/Arch881010",
-  "owner": {
+  "owner": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJfaWQiOiIxMTE3ODkzMTAiLCJ1c2VybmFtZSI6IkFyY2g4ODEwMTAiLCJlbWFpbCI6ImFyY2gxMDEwQGljbG91ZC5jb20ifSwiZXhwaXJlc0luIjoiOTk5OXkiLCJpYXQiOjE3MjE4NzIxNzB9.UIfmbJXRHNXMi1l3P5hYx6d4IdunEjxUiXDU_XwZHJc",
+  "note": "This is the ID from owl (https://owl.is-a.dev/id/111789310/Arch881010)",
+  "old-owner": {
     "username": "Arch881010",
-    "email": "c1yd4.arch@inbox.testmail.app",
+    "email": "arch@arch1010.dev",
     "discord": "arch1010",
-    "discord-id": "410248634593050627"
+    "discord-id": "410248634593050627",
+    "note": "OLD Owner details, leaving email the same to further find phishing domain endings. (!! See arch.json)"
   },
   "record": {
+    "CNAME": "arch881010.github.io", 
     "TXT": "f7ef0429540150e9e2d26e968dc4de"
   }
 }
