@@ -1,4 +1,5 @@
 {
+        "site": "https://ticketsx.netlify.app/",
         "owner": {
            "username": "blaze-099",
            "email": "",
@@ -6,7 +7,9 @@
         },
     
         "record": {
-            "CNAME": "blaze.ticketkit.is-a.dev"
-        }
+                "A": [
+                    "75.2.60.5",
+                ]
     }
+}
     
