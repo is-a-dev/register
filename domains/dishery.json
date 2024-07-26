@@ -8,5 +8,44 @@
         "record": {
             "TXT": "protonmail-verification=4673bc02c41c5ac6445e15835074759576e78e3d"
         }
+          
+        {
+            "record": {
+              "MX": [
+                "mail.protonmail.ch",
+                "mailsec.protonmail.ch"
+              ]
+            }
+          }
+        
+          {
+            "record": {
+              "TXT": "v=spf1 include:_spf.protonmail.ch ~all"
+            }
+          }
+
+          {
+            "record": {
+              "CNAME": "protonmail.domainkey.dbxtlrxqglgletgpn26dwbm2o5iti544vaak67qjuytc2bhjhvr4a.domains.proton.ch."
+            }
+          }
+
+          {
+            "record": {
+              "CNAME": "protonmail2.domainkey.dbxtlrxqglgletgpn26dwbm2o5iti544vaak67qjuytc2bhjhvr4a.domains.proton.ch."
+            }
+          }
+
+          {
+            "record": {
+              "CNAME": "protonmail3.domainkey.dbxtlrxqglgletgpn26dwbm2o5iti544vaak67qjuytc2bhjhvr4a.domains.proton.ch."
+            }
+          }
+
+          {
+            "record": {
+              "TXT": "v=DMARC1; p=quarantine"
+            }
+          }
     }
     
