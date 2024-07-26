@@ -1,13 +1,11 @@
 {
-        "site": "https://ticketsx.netlify.app/",
         "owner": {
            "username": "blaze-099",
            "email": "",
            "discord": "1186691290759434350"
         },
-    
         "record": {
-                "CNAME": ["https://ticketsx.netlify.app/"]
+                "CNAME": "ticketsx.netlify.app"
     }
 }
     
