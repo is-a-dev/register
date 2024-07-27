@@ -5,8 +5,6 @@
     "email": ""
   },
   "record": {
-    "CNAME": [
-      "yunexiz.github.io"
-    ],
+    "CNAME": "yunexiz.github.io"
   }
 }
