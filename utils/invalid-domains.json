@@ -1,7 +1,13 @@
 [
   "_acme-challenge",
+  "_discord",
+  "_dmarc",
+  "_domainkey",
+  "_gh-is-a-dev",
   "_github-challenge-is-a-dev",
   "_github-pages-challenge-is-a-dev",
+  "_gitlab-pages-verification-code",
+  "con",
   "help",
   "no-reply",
   "noreply",
@@ -14,6 +20,5 @@
   "ww3",
   "ww4",
   "wwww",
-  "your-domain-name",
-  "_discord"
+  "your-domain-name"
 ]

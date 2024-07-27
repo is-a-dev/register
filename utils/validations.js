@@ -39,6 +39,11 @@ const checkRestrictedNames = R.complement(R.includes(R.__, INVALID_NAMES))
 const extraSupportedNames = [
   testRegex(/^_github(-pages)?-challenge-[a-z0-9-_]+$/i), // Exception for github verification records
   R.equals('_discord'),
+  R.equals('_gitlab-pages-verification-code'),
+  R.equals('_acme-challenge'),
+  R.equals('_dmarc'),
+  R.equals('_domainkey'),
+  testRegex(/^_gh-[a-z0-9-_]+$/i), // Exception for the new github org verification records
 ]
 
 const validateDomainData = validate({

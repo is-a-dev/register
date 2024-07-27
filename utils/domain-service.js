@@ -59,6 +59,9 @@ const recordToEmailMx = ({ name, address, priority }) => ({
 const getHostKey = host =>
   `${host.name.toLowerCase()}##${host.type.toLowerCase()}##${host.address.toLowerCase()}`;
 
+const isReserved = (domain) =>
+  domain.name.startsWith('*') || !VALID_RECORD_TYPES.includes(domain.type)
+
 const diffRecords = (oldRecords, newRecords) => {
   const isMatchingRecord = (a, b) => getHostKey(a) === getHostKey(b);
 
@@ -84,13 +87,9 @@ const executeBatch = (batches) => batches.reduce((promise, batch, index) => {
   });
 }, Promise.resolve());
 
-const isReserved = (domain) =>
-  domain.name.startsWith('*') ||
-    !VALID_RECORD_TYPES.includes(domain.type)
-
 const getDomainService = ({ cpanel }) => {
   const fetchZoneRecords = R.compose(
-    then(R.filter(R.complement(isReserved))),
+    then(R.reject(isReserved)),
     then(R.map(zoneToRecord)),
     cpanel.zone.fetch
   );
@@ -134,7 +133,6 @@ const getDomainService = ({ cpanel }) => {
     batchLazyTasks(BATCH_SIZE),
     R.filter(Boolean),
     R.map(R.cond([
-      // [R.propEq('name', 'www'), R.always(null)], // Ignore www
       [R.propEq('type', 'URL'), addRedirection],
       [R.T, addZoneRecord],
     ])),
