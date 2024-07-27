@@ -1,11 +1,11 @@
 {
-  "description": "Joshua's Website",
-  "repo": "https://github.com/joshua-noakes1",
   "owner": {
-    "username": "joshua-noakes1",
-    "email": "joshua.noakes1@icloud.com"
+    "username": "Dwigoric",
+    "email": "",
+    "discord": "295391820744228867"
   },
+
   "record": {
-    "CNAME": "prx1.oci.cocogoat.xyz"
+    "CNAME": "dwigoric.pages.dev"
   }
 }
