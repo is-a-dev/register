@@ -6,6 +6,9 @@
     "email": "lk.qq@ya.ru"
   },
   "record": {
-    "CNAME": "juststudio7.github.io"
+    "CNAME": "juststudio7.github.io",
+    "MX": [
+      "mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"
+    ]
   }
 }
