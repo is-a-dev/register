@@ -136,7 +136,7 @@ describe("registerDomains", () => {
         expect(addZone).toHaveBeenCalledTimes(8);
         expect(addZone.mock.calls).toEqual([
             [{ name: "b", type: "A", address: "1.1.1.1", line: undefined }],
-            [{ name: "b", type: "A", address: "1.1.1.2", line: undefined }],
+            [{ name: "b", type: "A", address: "1.0.0.1", line: undefined }],
             [
                 {
                     name: "b",
@@ -192,7 +192,7 @@ describe("registerDomains", () => {
         expect(addRedir.mock.calls).toEqual([
             [
                 {
-                    domain: "c.booboo.xyz",
+                    domain: "c.example.com",
                     redirect: "https://google.com",
                     redirect_wildcard: 1,
                     redirect_www: 1,

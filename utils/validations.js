@@ -49,7 +49,7 @@ const extraSupportedNames = [
 
 const validateDomainData = validate({
     name: {
-        reason: "The name of the file is invalid. It must be lowercased, alphanumeric and each component must be between 1-63 characters lon.",
+        reason: "The name of the file is invalid. It must be lowercased, alphanumeric and each component must be between 1-100 characters long.",
         fn: or([
             R.equals("@"),
             and([
@@ -59,7 +59,7 @@ const validateDomainData = validate({
                     R.all(
                         or([
                             and([
-                                R.compose(between(1, 63), R.length),
+                                R.compose(between(1, 100), R.length),
                                 testRegex(/^[a-z0-9-]+$/g),
                                 checkRestrictedNames,
                             ]),

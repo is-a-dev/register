@@ -67,7 +67,7 @@ describe("Cpanel client", () => {
         it("should make the correct request", async () => {
             const fetch = mockFetch((url, request) => {
                 expect(url).toBe(
-                    "https://example.com:3000/json-api/cpanel?domain=example.org&name=example.zone&type=CNAME&cname=beey&ttl=2020&cpanel_jsonapi_user=username&cpanel_jsonapi_module=ZoneEdit&cpanel_jsonapi_func=add_zone_record&cpanel_jsonapi_apiversion=2",
+                    "https://example.com:3000/json-api/cpanel?domain=example.org&name=test&type=CNAME&cname=example.com&ttl=3600&cpanel_jsonapi_user=username&cpanel_jsonapi_module=ZoneEdit&cpanel_jsonapi_func=add_zone_record&cpanel_jsonapi_apiversion=2",
                 );
                 expect(request).toEqual({
                     headers: {
@@ -87,11 +87,11 @@ describe("Cpanel client", () => {
             });
 
             await cpanel.zone.add({
-                name: "example.zone",
+                name: "test",
                 type: "username",
                 cname: "example.com",
                 type: "CNAME",
-                ttl: 2020,
+                ttl: 3600,
             });
         });
     });

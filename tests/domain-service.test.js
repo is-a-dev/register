@@ -185,8 +185,8 @@ describe("Domain service", () => {
                 { line: "112", name: "xx", type: "A", address: "111.1.1212.1" },
             ];
             const redirections = [
-                { domain: "foo.booboo.xyz", destination: "https://google.com" },
-                { domain: "foo1.booboo.xyz", destination: "https://duck.com" },
+                { domain: "foo.example.com", destination: "https://google.com" },
+                { domain: "foo1.example.com", destination: "https://duck.com" },
             ];
             const zone = async () => zones;
             const redir = async () => redirections;
