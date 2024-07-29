@@ -1,12 +1,12 @@
 {
-        "owner": {
-           "username": "AnshalPlayz",
-           "email": "",
-           "discord": "1095667817417818142"
-        },
-    
-        "record": {
-            "CNAME": "anshalplayz.github.io"
-        }
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/AnshalPlayz/project",
+    "owner": {
+        "username": "AnshalPlayz",
+        "email": "<email@address>",
+        "twitter": "<twitter-username>"
+    },
+    "record": {
+        "CNAME": "anshalplayz.github.io"
     }
-    
+} 
