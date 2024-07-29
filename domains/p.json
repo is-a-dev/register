@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "PogMaster9001",
-           "email": "",
-           "discord": "1190052608346435597"
-        },
-    
-        "record": {
-            "CNAME": "projectdevs.net"
-        }
-    }
-    
+  "owner": {
+    "username": "Priyansxu",
+    "email": "cloudypriyanshu@gmail.com"
+  },
+  "record": {
+    "CNAME": "pusxoo.onrender.com"
+  }
+}
