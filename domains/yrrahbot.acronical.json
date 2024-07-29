@@ -4,6 +4,6 @@
     "email": "acronicalbusiness@gmail.com"
   },
   "record": {
-    "CNAME": "9595.site.bot-hosting.net"
+    "A": ["209.38.167.110"]
   }
 }
