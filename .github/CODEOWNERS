@@ -4,4 +4,3 @@
 /domains/ @is-a-dev/maintainers @is-a-dev/trial-maintainers
 
 *.md @is-a-dev/maintainers
-/MAINTAINERS.md @wdhdev
