@@ -73,7 +73,6 @@ describe("validateDomainData", () => {
             0,
             1,
         ),
-        { ...defaultDomain, name: "a.b" },
         { ...defaultDomain, name: "ww2.baa" },
         { ...defaultDomain, name: "help.baa" },
         { ...defaultDomain, name: "_github-pages-challenge-is-a-dev" },
@@ -142,6 +141,7 @@ describe("validateDomainData", () => {
         { ...defaultDomain, name: "_gh-hello01_ga" },
         { ...defaultDomain, name: "_domainkey.subdomain" },
         { ...defaultDomain, name: "mx._domainkey.subdomain" },
+        { ...defaultDomain, name: "a.b" },
     ];
 
     it("should return false for invalid data", () => {
