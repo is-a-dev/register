@@ -23,12 +23,12 @@ If you would like to remove your email, remove it from your JSON file and provid
 
 Leave the email field there, but just blank. Then add a separate contact method to your file.
 
-Please see more information here: https://github.com/is-a-dev/register/issues/14802
+Please see more information in issue https://github.com/is-a-dev/register/issues/14802.
 
 ## Issues
 If you have any problems, feel free to [open a issue](https://github.com/is-a-dev/register/issues/new/choose).
 
-If you have an issue that contains confidental infomation, send an email to security@maintainers.is-a.dev.
+If you have an issue that contains confidental infomation, send an email to security@m.is-a.dev.
 
 ## Register
 ### Manual Registration

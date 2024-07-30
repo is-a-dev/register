@@ -1,9 +1,9 @@
 {
-  "description": "www.is-a.dev",
+  "description": "The is-a.dev website",
   "repo": "https://github.com/is-a-dev/is-a-dev.github.io",
   "owner": {
-    "username": "phenax",
-    "email": "phenax5@gmail.com"
+    "username": "wdhdev",
+    "email": ""
   },
   "record": {
     "CNAME": "is-a-dev.github.io"
