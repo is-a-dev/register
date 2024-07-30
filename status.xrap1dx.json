@@ -6,8 +6,6 @@
     "email": "sirrapid155@gmail.com"
   },
   "record": {
-    "CNAME": {
-      "status": "statuspage.betteruptime.com"
-    }
+    "CNAME": "statuspage.betteruptime.com"
   }
 }
