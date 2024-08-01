@@ -1,0 +1,11 @@
+{
+    "description": "Domain name for my personal portfolio website",
+    "repo": "https://github.com/SlyBouhafs/sly.github.io",
+    "owner": {
+        "username": "SlyBouhafs",
+        "email": "khmedj+github@gmail.com",
+    },
+    "record": {
+        "CNAME": "sly.github.io"
+    }
+} 
