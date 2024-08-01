@@ -34,11 +34,11 @@ If you have an issue that contains confidental infomation, send an email to secu
 ### Manual Registration
 > If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
 
-- [Fork](https://github.com/is-a-dev/register/fork) this repository.
-- Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
-- [Read the documentation](https://www.is-a.dev/docs).
+- [Fork](https://github.com/is-a-dev/register/fork) and star this repository
+- Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`
+- [Read the documentation](https://www.is-a.dev/docs)
 - Your pull request will be reviewed and merged. *Make sure to keep an eye on it incase we need you to make any changes!*
-- After the pull request is merged, please allow up to 24 hours for the changes to propagate.
+- After the pull request is merged, please allow up to 24 hours for the changes to propagate
 - Enjoy your new `.is-a.dev` domain!
 
 ### Automated Registration
