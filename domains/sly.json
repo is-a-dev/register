@@ -6,6 +6,10 @@
         "email": "khmedj+github@gmail.com"
     },
     "record": {
-        "CNAME": "slybouhafs.github.io"
+        "CNAME": "slybouhafs.github.io",
+        "MX": [
+              "mx1.improvmx.com",
+              "mx2.improvmx.com"
+            ]
     }
 } 
