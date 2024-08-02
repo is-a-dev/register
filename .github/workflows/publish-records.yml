@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-    name: 'Publish records'
 
 jobs:
   publish:
@@ -14,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v1
         with:
-          bun-version: 1.0.26
+          bun-version: latest
       - run: bun install
       - run: bun test
       - name: Publishing records

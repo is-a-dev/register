@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "denboy0123",
-        "email": "pochtaproverka01@gmail.com"
-    },
-    "record": {
-        "A": ["193.233.252.12"],
-        "MX": ["mail.is-a.dev"],
-        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
-    }
+  "description": "juqwtf site",
+  "repo": "https://github.com/denboy0123/juq.github.io",
+  "owner": {
+    "username": "denboy0123",
+    "email": "pochtaproverka01@gmail.com"
+  },
+  "record": {
+    "CNAME": "denboy0123.github.io"
+  }
 }

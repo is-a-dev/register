@@ -5,6 +5,9 @@
   },
 
   "record": {
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
   }
 }

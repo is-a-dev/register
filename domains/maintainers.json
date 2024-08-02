@@ -1,11 +1,10 @@
 {
   "owner": {
-    "username": "is-a-dev",
-    "email": ""
+      "username": "is-a-dev",
+      "email": ""
   },
   "record": {
-    "URL": "https://team.is-a.dev",
-    "MX": ["mail.is-a.dev"],
-    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+      "MX": ["mail.wdh.gg"],
+      "TXT": "v=spf1 include:_spf.wdh.gg ~all"
   }
 }

@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "is-a-dev",
+        "email": ""
+    },
+    "record": {
+        "TXT": "v=DMARC1; p=reject; rua=mailto:dmarc@wdh.gg"
+    }
+}

@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "LateAlways",
-    "email": "latealways@i-am-a.fuchsiax.dev"
+    "email": "latealways.official@gmail.com"
   },
   "record": {
-    "A": ["85.239.250.3"]
+    "CNAME": "latealways.github.io"
   }
 }

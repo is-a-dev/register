@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "GavinGoGaming",
-        "email": "gavingogaming@gmail.com"
-    },
+  "owner": {
+    "username": "GavinGoGaming",
+    "email": "gavingogaming@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "gavingogaming.github.io"
-    }
+  "record": {
+    "CNAME": "gavingogaming.github.io"
+  }
 }
