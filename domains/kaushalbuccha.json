@@ -1,9 +1,14 @@
 {
+    "description": "Devloper Portfolio",
+    "repo": "https://github.com/kaushalbuccha/Portfolio",
     "owner": {
         "username": "kaushalbuccha",
-        "email": "kaushaljain741@gmail.com"
+        "email": "kaushaljain741@gmail.com",
+        "twitter": "kaushalbuccha"
     },
     "record": {
-        "TXT": "30a8597465898"
+        "A": [
+            "75.2.60.5"
+        ]
     }
 }
