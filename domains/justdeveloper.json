@@ -13,6 +13,9 @@
           "185.199.110.153",
           "185.199.111.153"
         ],
-        "TXT": "google-site-verification=qBaFslC7xe6gcHiolYEJ32HjpJVk-ZOMbRpu_1zkm_s"
+        "TXT": [
+            "google-site-verification=qBaFslC7xe6gcHiolYEJ32HjpJVk-ZOMbRpu_1zkm_s",
+            "yandex-verification: 10cec93159ddc69f"
+        ]
     }
 } 
