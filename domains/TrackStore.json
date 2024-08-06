@@ -1,9 +1,9 @@
 {
-  "description": "TrackStore will be website where people can share and find Hill Climb Racing 2 custom tracks. It is not ready yet, but is actively under development. For more info, see https://github.com/TrackStore#README",
+  "description": "TrackStore will be website where people can share and find Hill Climb Racing 2 custom tracks. It is not ready yet, but is actively under development. The email I used is a Proton Mail 'hide my email alias'. For more info on TrackStore, see https://github.com/TrackStore#README",
   "repo": "https://github.com/TrackStore/TrackStore.github.io",
   "owner": {
     "username": "TrackStore",
-    "email": ""
+    "email": "imaginary_macaw058@simplelogin.com"
   },
   "record": {
     "CNAME": "TrackStore.github.io"
