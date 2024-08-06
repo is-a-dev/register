@@ -1,10 +1,13 @@
 {
-    "owner": {
+   "description": "Personal website",
+        "owner": {
         "username": "kaizenji",
         "email": "baratumal6788@gmail.com",
-"discord": "1203570918023110658"
+        "discord": "1203570918023110658"
     },
     "record": {
-        "URL": "https://jayceeqti.netlify.app/"
-    }
+       "A": [
+         "75.2.60.5"
+       ]
+   }
 }
