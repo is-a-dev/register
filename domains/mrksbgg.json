@@ -6,6 +6,9 @@
   },
 
   "record": {
+    "MX": [
+      "emx.mail.ru"
+    ],
     "CNAME": "mrksbgg.github.io"
   }
 }
