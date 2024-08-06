@@ -9,6 +9,7 @@
     "MX": [
       "emx.mail.ru"
     ],
-    "CNAME": "mrksbgg.github.io"
+    "CNAME": "mrksbgg.github.io",
+    "TXT": "v=spf1 redirect=_spf.mail.ru"
   }
 }
