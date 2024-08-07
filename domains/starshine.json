@@ -7,6 +7,6 @@
         },
     
         "record": {
-            "CNAME": "tkkr.tplinkdns.com"
+            "A": ["138.2.70.1"]
         }
 }
