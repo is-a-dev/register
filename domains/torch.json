@@ -1,0 +1,11 @@
+{
+    "description": "Torch's personal homepage",
+    "repo": "https://github.com/mytorch/mytorch.github.io",
+    "owner": {
+        "username": "mytorch",
+        "email": "mytorch@proton.me"
+  },
+    "record": {
+        "CNAME": "mytorch.github.io"
+    }
+} 
