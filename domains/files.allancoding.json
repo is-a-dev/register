@@ -8,6 +8,8 @@
     "discord": "allancoding"
   },
   "record": {
-    "CNAME": "allancoding.github.io"
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }
