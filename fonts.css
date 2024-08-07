@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Meyrin';
+    src: url('https://cdn.jsdelivr.net/gh/optional-is/Meyrin@master/formats/Meyrin.eot'); /* IE9 Compatibility Mode */
+    src: url('https://cdn.jsdelivr.net/gh/optional-is/Meyrin@master/formats/Meyrin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('https://cdn.jsdelivr.net/gh/optional-is/Meyrin@master/formats/Meyrin.woff') format('woff'), /* Modern Browsers */
+        url('https://cdn.jsdelivr.net/gh/optional-is/Meyrin@master/formats/Meyrin.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('https://cdn.jsdelivr.net/gh/optional-is/Meyrin@master/formats/Meyrin.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'JetBrains Mono'; /* Variable font */
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@8c3ccf768d899b989a8843ae6bfaad3177c82303/fonts/variable/JetBrainsMono%5Bwght%5D.woff2') format('woff2');
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@8c3ccf768d899b989a8843ae6bfaad3177c82303/fonts/variable/JetBrainsMono%5Bwght%5D.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JetBrains Mono'; /* Variable font */
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@8c3ccf768d899b989a8843ae6bfaad3177c82303/fonts/variable/JetBrainsMono-Italic%5Bwght%5D.woff2') format('woff2');
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@8c3ccf768d899b989a8843ae6bfaad3177c82303/fonts/variable/JetBrainsMono-Italic%5Bwght%5D.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'FixedSysExcelsior';
+    src: url('https://github.com/kika/fixedsys/releases/download/v3.02.9/FSEX302.ttf') format('truetype');
+}
+@font-face {
+  font-family: InterVariable;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('https://rsms.me/inter/font-files/InterVariable.woff2?v=4.0') format('woff2');
+}
+@font-face {
+  font-family: InterVariable;
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('https://rsms.me/inter/font-files/InterVariable-Italic.woff2?v=4.0') format('woff2');
+}
