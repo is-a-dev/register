@@ -18,7 +18,7 @@
               "mx2.zoho.eu",
               "mx3.zoho.eu"
             ],
-            "TXT": ["v=spf1 include:zohomail.eu include:spf.improvmx.com ~all", "zoho-verification=zb43869934.zmverify.zoho.eu"]
+            "TXT": ["v=spf1 include:zohomail.eu ~all", "zoho-verification=zb43869934.zmverify.zoho.eu"]
         }
     }
     
