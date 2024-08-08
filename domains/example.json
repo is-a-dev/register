@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/SkyExploreWasTaken/SkyExploreWasTaken.github.io",
+    "owner": {
+        "username": "SkyExploreWasTaken",
+        "email": "skyexplorewastaken@gmail.com",
+        "twitter": "SkyExploreWT"
+    },
+    "record": {
+        "CNAME": "skyexplorewastaken.github.io"
+    }
+}
