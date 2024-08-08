@@ -5,7 +5,12 @@
     "username": "xrap1dx",
     "email": "sirrapid155@gmail.com"
   },
-  "record": {
-    "CNAME": "customers.sellix.io"
+  "records": {
+    "CNAME": [
+      "alpylap3pn7jpsy756jgrk2jgxxqwjyf._domainkey.shop.cloud.is-a.dev",
+      "uxm5yjko7ifyiiaixkxwsp7cgwvswssr._domainkey.shop.cloud.is-a.dev",
+      "zwher25hsgplpt7py3aro5fdz4demmwi._domainkey.shop.cloud.is-a.dev"
+    ],
+    "TXT": "_amazonses.shop.cloud.is-a.dev"
   }
 }
