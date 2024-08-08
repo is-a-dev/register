@@ -1,12 +1,14 @@
 {
-    "owner": {
-        "username": "Stef-00012",
-        "email": "admin@stefdp.is-a.dev"
-    },
-    "record": {
-        "A": [
-            "172.66.47.12",
-            "172.66.44.244"
-        ]
-    }
+  "owner": {
+    "username": "Stef-00012",
+    "email": "admin@stefdp.is-a.dev"
+  },
+  "record": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ]
+  }
 }

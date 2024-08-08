@@ -1,0 +1,14 @@
+{
+  "description": "A sub-subdomain for use with a mail-forwarder, because the main subdomain zvdxc.is-a.dev has a CNAME and doesnt work",
+  "owner": {
+    "username": "zvdxc",
+    "email": "zvdxc11@gmail.com"
+  },
+  "record": {
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "description": "Jay's website and portfolio.",
+  "repo": "https://github.com/pinkyplant/pinkyplant.github.io",
+  "owner": {
+    "username": "pinkyplant",
+    "email": "pinkyplantz@proton.me",
+    "twitter": "pinkyplant"
+  },
+  "record": {
+    "CNAME": "pinkyplant.github.io"
+  }
+}
