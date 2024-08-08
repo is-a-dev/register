@@ -7,7 +7,6 @@
         },
     
         "record": {
-            "CNAME": "skyexplorewastaken.github.io"
             "MX": [
               "mx1.improvmx.com",
               "mx2.improvmx.com"
