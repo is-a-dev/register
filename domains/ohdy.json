@@ -4,7 +4,10 @@
     "email": "ohdy518@gmail.com"
   },
   "record": {
-    "CNAME": "ohdy518.pages.dev",
+    "A": [
+      "172.66.47.126", 
+      "172.66.44.130"
+    ],
     "MX": [
       "mx1.forwardemail.net", 
       "mx2.forwardemail.net"
