@@ -18,7 +18,7 @@
               "mx2.zoho.eu",
               "mx3.zoho.eu"
             ],
-            "TXT": ["v=spf1 include:zohomail.eu ~all", "zoho-verification=zb43869934.zmverify.zoho.eu"]
+            "TXT": ["v=spf1 include:zohomail.eu ~all", "zoho-verification=zb43869934.zmverify.zoho.eu", "brevo-code:0e53ea2664935c5af6e3cb80796ac106"]
         }
     }
     
