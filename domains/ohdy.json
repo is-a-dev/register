@@ -4,6 +4,11 @@
     "email": "ohdy518@gmail.com"
   },
   "record": {
-    "CNAME": "ohdy518.pages.dev"
+    "CNAME": "ohdy518.pages.dev",
+    "MX": [
+      "mx1.forwardemail.net", 
+      "mx2.forwardemail.net"
+    ], 
+    "TXT": "forward-email=ohdy518@gmail.com"
   }
 }
