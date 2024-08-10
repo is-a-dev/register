@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio Website",
-  "domain": "abaan.is-a.dev",
-  "subdomain": "abaan",
-  "owner": {
-    "email": "Abaan@metfabproducts.com"
-  },
-  "record": {
-    "CNAME": "abaan5467.github.io/AbaanReshi/"
-  }
+    "owner": {
+        "username": "Abaan5467",
+        "email": "abaan@metfabproducts.com"
+    },
+    "record": {
+        "CNAME": "Abaan5467.github.io"
+    }
 }
