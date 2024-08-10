@@ -1,12 +1,9 @@
-
-    {
-      "owner": {
-        "username": "DasSharkk",
-        "email": "affenheld@gmx.de"
-      },
-
-      "record": {
-        "URL": "https://dasshark.me"
-      }
-    }
-  
+{
+  "owner": {
+    "username": "DasSharkk",
+    "email": "mail@julius.software"
+  },
+  "record": {
+    "CNAME": "julius.software"
+  }
+}
