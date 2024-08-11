@@ -5,6 +5,6 @@
     },
     "record": {
         "CNAME": "bbbsjsijb8hsbsnakkshdbfdnds.onrender.com",
-        "TXT": "google-site-verification=_jeA-smhWGY4Z7RtFIPZiQtRhDDKOOaVrPZaKqJZeuQ"
+        "TXT": ["google-site-verification=_jeA-smhWGY4Z7RtFIPZiQtRhDDKOOaVrPZaKqJZeuQ"]
     }
 }
