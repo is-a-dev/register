@@ -1,13 +1,9 @@
 {
-   "description": "Personal website",
-        "owner": {
-        "username": "kaizenji",
-        "email": "baratumal6788@gmail.com",
-        "discord": "1203570918023110658"
+    "owner": {
+        "username": "Kaizenji",
+        "email": "baratumal6788@gmail.com"
     },
     "record": {
-       "A": [
-         "75.2.60.5"
-       ]
-   }
-}
+        "CNAME": "jayceeqti-web.pages.dev"
+    }
+  }
