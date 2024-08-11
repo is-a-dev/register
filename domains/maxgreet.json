@@ -1,9 +1,15 @@
 {
-  "owner": {
-    "username": "emmu2008",
-    "email": "aneenababu17901@gmail.com"
-  },
-  "record": {
-    "CNAME": "emmu123.github.io"
-  }
-}
+    "description": "Discord bot features.",
+    "repo": "https://emmu123.github.io/Max-Greet/",
+        "owner": {
+           "username": "emmu123",
+           "email": "aneenababu71901@gmail.com",
+           "discord": "863271170228486187",
+           "repo": "https://emmu123.github.io/Max-Greet/"
+        },
+    
+        "record": {
+            "CNAME": "emmu123.github.io"
+        }
+    }
+    
