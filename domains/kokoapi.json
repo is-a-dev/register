@@ -7,6 +7,6 @@
         },
 
         "record": {
-            "CNAME": "kokoapi.pages.dev"
+            "A": ["37.114.46.39"]
         }
     }
