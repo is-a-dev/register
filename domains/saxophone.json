@@ -5,8 +5,6 @@
     "email": "itsarchit@keemail.me"
   },
   "record": {
-    "CNAME": [
-      "reverse-proxy-zyvz.onrender.com"
-    ]
+    "CNAME": "reverse-proxy-zyvz.onrender.com"
   }
 }
