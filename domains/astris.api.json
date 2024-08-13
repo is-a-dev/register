@@ -6,7 +6,10 @@
   },
 
   "record": {
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
     "TXT": "forward-email=rherlydev@proton.me"
   }
 }

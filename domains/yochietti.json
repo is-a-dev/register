@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "yochie",
-        "email": "yoann.ochietti@gmail.com"
-    },
-    "record": {
-        "CNAME": "yochie.github.io"
-    }
+  "owner": {
+    "username": "yochie",
+    "email": "yoann.ochietti@gmail.com"
+  },
+  "record": {
+    "URL": "https://yochie.github.io"
+  }
 }
