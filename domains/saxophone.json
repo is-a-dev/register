@@ -5,13 +5,8 @@
     "email": "itsarchit@keemail.me"
   },
   "record": {
-    "A": [
-      "27.5.57.213"
-    ],
-    "MX": [
-      "mx1.forwardemail.net",
-      "mx2.forwardemail.net"
-    ],
-    "TXT": "forward-email=itsarchit@keemail.me"
+    "CNAME": [
+      "reverse-proxy-zyvz.onrender.com"
+    ]
   }
 }
