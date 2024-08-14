@@ -1,0 +1,11 @@
+{
+  "description": "netlify wants a www. subsubdomain",
+  "repo": "https://github.com/fakename131",
+  "owner": {
+    "username": "fakename131",
+    "email": "fake@fake.is-a.dev"
+  },
+  "record": {
+    "A": ["75.2.60.5"]
+  }
+}
