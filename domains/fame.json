@@ -1,7 +1,18 @@
 {
     "description": "Redirection to the games side of my site.",
     "Current site i want it to redirect to": "https://cutefame.net/games",
+    "Cloudflare Pages/Is-a-dev verification": "https://isadev.cutefame.net/"
+    # Still coming online/Hosted from cloudflare pages.
     "owner": {
         "username": "TheRealFame",
         "email": "email@cutefame.net",
         "twitter": "The_RealFame"
+  },
+  "record": {
+    "MX": [
+      "arya.ns.cloudflare.com",
+      "kip.ns.cloudflare.com"
+    ],
+    "TXT": "v=spf1 include:_spf.mx.cloudflare.net ~all"
+  }
+}
