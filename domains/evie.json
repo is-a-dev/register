@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Socketlike",
-        "email": "evelynxii.xt@gmail.com"
-    },
-    "record": {
-        "CNAME": "socketlike.github.io"
-    }
+  "owner": {
+    "username": "Socketlike",
+    "discordId": "285329659023851520",
+    "discord": "encyclopedic",
+    "email": ""
+  },
+  "record": {
+    "CNAME": "socketlike.github.io"
+  }
 }
