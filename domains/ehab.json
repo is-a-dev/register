@@ -4,9 +4,6 @@
         "email": "mansehab990@gmail.com"
     },
     "record": {
-        "MX": [
-            "dns1.serv00.com",
-            "dns2.serv00.com"
-        ]
+        "CNAME": "ehabmansour1.github.io"
     }
 }
