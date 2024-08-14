@@ -4,7 +4,9 @@
         "email": "mansehab990@gmail.com"
     },
     "record": {
-        "MX": [
+        "CNAME": "ehabmansour.serv00.net",
+        "A": ["128.204.223.115"],
+        "NS": [
             "dns1.serv00.com",
             "dns2.serv00.com"
         ]
