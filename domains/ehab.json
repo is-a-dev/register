@@ -4,6 +4,7 @@
         "email": "mansehab990@gmail.com"
     },
     "record": {
+        "CNAME": "ehab.is-a.dev"
         "A": "128.204.223.115",
         "MX": "mail9.serv00.com",
         "NS": [
