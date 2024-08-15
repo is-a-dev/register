@@ -6,7 +6,7 @@
         "email": "khmedj+github@gmail.com"
     },
     "record": {
-        "A": "164.92.183.234",
+        "A": ["164.92.183.234"],
         "MX": [
               "mx1.improvmx.com",
               "mx2.improvmx.com"
