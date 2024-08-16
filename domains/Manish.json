@@ -1,0 +1,10 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "manish",
+  "owner": {
+    "email": "manish.rebel14@gmail.com"
+  },
+  "record": {
+    "CNAME": "m-manish03.github.io"
+  }
+}
