@@ -1,9 +1,9 @@
-{
-  "owner": {
-    "username": "shivasharanappaBiradar",
-    "email": "youcanbethemaster@gmail.com"
-  },
-  "record": {
-    "CNAME": "railway-production-5fc6.up.railway.app"
-  }
-}
+"description": "Describe the use of this subdomain",
+    "repo": "https://shivasharanappabiradar2645.github.io/shivasharanappaBiradar2645/",
+    "owner": {
+        "username": "ShivasharanappaBiradar",
+        "email": "youcanbethemaster@gmail.com",
+    },
+    "record": {
+        "CNAME": "https://shivasharanappabiradar2645.github.io"
+    }
