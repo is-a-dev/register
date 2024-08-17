@@ -1,11 +1,11 @@
 {
-  "description": "A fun meme site :0 (as of entering of this domain, it hasn't been published yet).",
+  "description": "A world of doors",
   "owner": {
-    "username": "theNeighbourNextDoor",
-    "email": "theNeighbourNextDoor@ukrio.is-a.dev"
+    "username": "ukrioo",
+    "email": "door@ukrio.is-a.dev"
   },
   "record": {
-    "URL": "https://theneighbournextdoor.github.io/",
+    "CNAME": "ukrioo.github.io",
     "MX": [
       "mx1.forwardemail.net",
       "mx2.forwardemail.net"
