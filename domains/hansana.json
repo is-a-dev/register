@@ -1,12 +1,16 @@
 {
-    "description": "Hansana's Portfolio",
+    "description": "Hansana's Portfolio with a custom email",
     "repo": "https://github.com/hansanaD/hansanad.github.io",
     "owner": {
         "username": "hansanaD",
-        "email": "josephandrew1@logicstreak.com",
-        "twitter": ""
+        "email": "josephandrew1@logicstreak.com"
     },
     "record": {
-        "CNAME": "hansanad.github.io"
+        "CNAME": "hansanad.github.io",
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
-} 
+}
