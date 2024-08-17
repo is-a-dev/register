@@ -5,11 +5,6 @@
     "email": "door@ukrio.is-a.dev"
   },
   "record": {
-    "CNAME": "ukrioo.github.io",
-    "MX": [
-      "mx1.forwardemail.net",
-      "mx2.forwardemail.net"
-    ],
-    "TXT": "forward-email=u8k50850@gmail.com"
+    "CNAME": "ukrioo.github.io"
   }
 }
