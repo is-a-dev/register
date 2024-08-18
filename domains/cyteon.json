@@ -7,11 +7,8 @@
         },
     
         "record": {
-            "TXT": "zoho-verification=zb91651102.zmverify.zoho.eu",
-            "MX": "mx.zoho.eu",
-            "MX": "mx2.zoho.eu",
-            "MX": "mx3.zoho.eu",
-            "TXT": "v=spf1 include:zohomail.eu ~all"
+            "TXT": ["zoho-verification=zb91651102.zmverify.zoho.eu", "v=spf1 include:zohomail.eu ~all"],
+            "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"]        
         }
     }
     
