@@ -8,12 +8,12 @@
 
         "record": {
             "MX": [
-              "mx1.simplelogin.co",
-              "mx2.simplelogin.co"
+              "mx.zoho.eu",
+              "mx2.zoho.eu",
+              "mx3.zoho.eu"
             ],
             "TXT": [
-              "sl-verification=vvptlplndqecgxougswjuzbkdcvsnt",
-              "v=spf1 include:simplelogin.co ~all"
+              "v=spf1 include:zohomail.eu ~all"
             ],
             "A": [
               "185.199.108.153",
