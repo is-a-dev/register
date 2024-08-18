@@ -7,8 +7,7 @@
         },
     
         "record": {
-            "TXT": ["zoho-verification=zb91651102.zmverify.zoho.eu", "v=spf1 include:zohomail.eu ~all"],
-            "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"]        
+            "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCs7X4KSEMP6dXlPwSETCh/il7XAIUiR7qIxgInLFC7+IFYIywbvhZ6eB12CfMc2BRQLYz63Zfkia9O7wbSe0q8A9kfxA9wLT6oaErohOYqqJizVHHyH/BmswsL3z7oYA06OzUeTY9rFXbetoTcoeXl2iSGHgmLIZpFK4mXzbJneQIDAQAB"
         }
     }
     
