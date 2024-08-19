@@ -7,7 +7,7 @@
         },
     
         "record": {
-            "CNAME": "itzwebster.xyz"
+            "A": "103.195.103.116"
         }
     }
     
