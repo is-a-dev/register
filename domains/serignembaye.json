@@ -1,10 +1,9 @@
 {
     "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/<github-username>/<github-repository>",
     "owner": {
-        "username": "<Serigne-Mbaye>",
-        "email": "<serigne.mby@gmail.com>",
-        "twitter": "<djieggo>"
+        "username": "Serigne-Mbaye",
+        "email": "serigne.mby@gmail.com",
+        "twitter": "djieggo"
     },
     "record": {
         "A": [
