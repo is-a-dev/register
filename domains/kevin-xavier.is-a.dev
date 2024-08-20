@@ -1,0 +1,10 @@
+{
+  "subdomain": "kevin-xavier",
+  "owner": {
+    "email": "iamkevinxavi@gmail.com",
+    "github": "keviiixaviiii"
+  },
+  "records": {
+    "CNAME": "keviiixaviiii.github.io"
+  }
+}
