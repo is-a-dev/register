@@ -7,6 +7,6 @@
         },
 
         "record": {
-            "CNAME": ["quitaxd.online"]
+            "CNAME": "quitaxd.online"
         }
     }
