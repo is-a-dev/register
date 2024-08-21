@@ -1,11 +1,11 @@
 {
-  "description": "arush.is-a.dev",
+  "description": "arush.is-a.dev: website for my portoflio",
   "repo": "https://github.com/ArushYadlapati/website",
   "owner": {
     "username": "ArushYadlapati",
     "email": "hello@arush.me"
   },
   "record": {
-    "CNAME": "https://arushyadlapati.github.io/website"
+    "CNAME": "arushyadlapati.github.io"
   }
 }
