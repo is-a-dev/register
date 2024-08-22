@@ -9,6 +9,10 @@
         "record": {
             "A": ["103.97.126.29"],
             "TXT": ["zoho-verification=zb23469214.zmverify.zoho.com"]
+            "TXT": ["v=spf1 include:zohomail.com ~all"]
+            "MX": ["10 mx.zoho.com"]
+            "MX": ["20 mx2.zoho.com"]
+            "MX": ["30 mx3.zoho.com"]
         }
     }
     
