@@ -1,10 +1,10 @@
 {
-  "subdomain": "kevin-xavier",
+  "subdomain": "kevin-xavier.is-a.dev",
   "owner": {
     "email": "iamkevinxavi@gmail.com",
     "github": "keviiixaviiii"
   },
   "records": {
-    "CNAME": "keviiixaviiii.github.io"
+    "CNAME": "https://keviiixaviiii.github.io/My-Portfolio/"
   }
 }
