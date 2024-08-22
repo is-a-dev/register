@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "YoruAkio",
-        "email": "yoruakio@proton.me"
-    },
-    "record": {
-        "CNAME": "vo-kio.pages.dev"
-    }
+  "owner": {
+    "username": "YoruAkio",
+    "email": "yoruakio@proton.me"
+  },
+  "record": {
+    "CNAME": "vo-kio.pages.dev"
+  }
 }
