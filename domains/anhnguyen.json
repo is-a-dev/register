@@ -12,9 +12,9 @@
             "v=spf1 include:zohomail.com ~all"
         ],
         "MX": [
-            "10 mx.zoho.com",
-            "20 mx2.zoho.com",
-            "30 mx3.zoho.com"
+            "mx.zoho.com",
+            "mx2.zoho.com",
+            "mx3.zoho.com"
         ]
     }
 }
