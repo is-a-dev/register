@@ -4,6 +4,6 @@
         "email": "bezeski@email.com"
     },
     "record": {
-        "RECORDTYPE": "exophs.github.io"
+        "CNAME": "exophs.github.io"
     }
 }
