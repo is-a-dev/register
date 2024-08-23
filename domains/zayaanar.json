@@ -7,9 +7,7 @@
         },
     
         "record": {
-            "CNAME": ["userandaname.github.io"],
-            "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"],
-            "TXT": ["v=spf1 include:zohomail.com ~all"]
+            "CNAME": "userandaname.github.io"
         }
     }
     
