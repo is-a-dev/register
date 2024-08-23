@@ -1,9 +1,13 @@
 {
+    "description": "For my portfolio",
+    "repo": "https://github.com/t1devzeus/register",
     "owner": {
-        "username": "ZEUS",
-        "email": "dev.caspian.hayashi@gmail.com"
+        "username": "t1devzeus",
+        "discord": "944959943310737408"
     },
     "record": {
-        "TXT": "discord-verification-string"
+        "A": [
+            "75.2.60.5"
+        ]
     }
-} 
+}
