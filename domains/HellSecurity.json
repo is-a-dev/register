@@ -1,0 +1,10 @@
+{
+  "subdomain": "yourname", 
+  "owner": {
+    "email": "siuuanai4@gmail.com"
+  },
+  "records": {
+    "A": ["79.228.170.201"]
+  },
+  "proxied": false
+}
