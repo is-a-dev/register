@@ -1,0 +1,10 @@
+{
+  "description": "Ven Domain",
+  "repo": "https://github.com/jayzrc/Vencordy",
+  "owner": {
+    "username": "jayzrc",
+  },
+  "record": {
+    "A": "217.182.75.40"
+  }
+}
