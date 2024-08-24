@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kageurufu",
-        "email": "franklyn@tackitt.net"
-    },
-    "record": {
-        "CNAME": "is-a-dev.frank.af"
-    }
+  "owner": {
+    "username": "kageurufu",
+    "email": "franklyn@tackitt.net"
+  },
+  "record": {
+    "CNAME": "is-a-dev.frank.af"
+  }
 }

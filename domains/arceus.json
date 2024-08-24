@@ -1,12 +1,11 @@
 {
-        "owner": {
-           "username": "blurwind",
-           "email": "",
-           "discord": "1055478076013817936"
-        },
-    
-        "record": {
-            "CNAME": "blurwind.github.io"
-        }
-    }
-    
+  "owner": {
+    "username": "0x2b67",
+    "email": "",
+    "discord": "1055478076013817936"
+  },
+
+  "record": {
+    "CNAME": "0x2b67.github.io"
+  }
+}
