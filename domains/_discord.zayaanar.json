@@ -7,7 +7,6 @@
         },
     
         "record": {
-            "CNAME": "userandaname.github.io"
+          "TXT": "dh=b4e0c21a832a290e9c3d6d073a1c70ed8b9a344e"
         }
-    }
-    
+  }
