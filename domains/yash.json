@@ -6,6 +6,7 @@
     "email": "connect@real-yash.is-a.dev"
   },
   "record": {
-    "CNAME": "real-yash.github.io"
+    "CNAME": "real-yash.github.io",
+    "TXT": "MS=ms60978864"
   }
 }
