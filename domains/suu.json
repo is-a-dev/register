@@ -1,0 +1,13 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/<github-username>/<github-repository>",
+    "owner": {
+        "username": "OKBOTS",
+        "email": "okbots1+2@gmail.com"
+    },
+    "record": {
+        "CNAME": [
+            "minolink.onrender.com"
+        ]
+    }
+}
