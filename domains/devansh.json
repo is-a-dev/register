@@ -8,6 +8,10 @@
     },
     "record": {
         "CNAME": "devanshyadav2010.github.io",
-        "TXT": "dh=d14eedf95cd289bfd460f05eff5cca7a8a28d7f0"
+        "TXT": "dh=d14eedf95cd289bfd460f05eff5cca7a8a28d7f0",
+        "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
     }
 }
