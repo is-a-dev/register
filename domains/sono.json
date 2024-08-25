@@ -11,7 +11,6 @@
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all",
       "google-site-verification=F90R7qQ2_fVCwUljDPq9iPlyzzKs7-4XovZLDeNAvns"
-    ],
-    "URL": "https://getsono.is-a.dev"
+    ]
   }
 }
