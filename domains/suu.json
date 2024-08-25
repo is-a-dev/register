@@ -6,8 +6,6 @@
         "email": "okbots1+2@gmail.com"
     },
     "record": {
-        "CNAME": [
-            "minolink.onrender.com"
-        ]
+        "CNAME": "minolink.onrender.com"
     }
 }
