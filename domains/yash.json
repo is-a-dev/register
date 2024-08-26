@@ -3,7 +3,7 @@
   "repo": "https://github.com/real-yash/website",
   "owner": {
     "username": "real-yash",
-    "email": "tempyuva00@gmail.com"
+    "email": "connect@real-yash.is-a.dev"
   },
   "record": {
         "A": [
@@ -12,6 +12,7 @@
             "185.199.108.153",
             "185.199.110.153"
         ],
+    "MX": ["yash-isa-dev01i.mail.protection.outlook.com"],
     "TXT": "MS=ms60978864"
   }
 }
