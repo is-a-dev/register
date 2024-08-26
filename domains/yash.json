@@ -3,9 +3,15 @@
   "repo": "https://github.com/real-yash/website",
   "owner": {
     "username": "real-yash",
-    "email": "connect@real-yash.is-a.dev"
+    "email": "tempyuva00@gmail.com"
   },
   "record": {
-    "CNAME": "real-yash.github.io"
+        "A": [
+            "185.199.111.153",
+            "185.199.109.153",
+            "185.199.108.153",
+            "185.199.110.153"
+        ],
+    "TXT": "MS=ms60978864"
   }
 }
