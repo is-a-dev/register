@@ -4,7 +4,7 @@
         "email": ""
     },
     "record": {
-        "MX": ["mail.wdh.gg"],
-        "TXT": "v=spf1 include:_spf.wdh.gg ~all"
+        "MX": ["mail.hrsn.net"],
+        "TXT": "v=spf1 include:_spf.hrsn.net ~all"
     }
 }
