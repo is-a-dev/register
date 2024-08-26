@@ -1,5 +1,5 @@
 {
-    "description": "portfolio",
+    "description": "mail forwarding",
     "repo": "https://github.com/devanshyadav2010/register",
     "owner": {
         "username": "devanshyadav2010",
@@ -7,6 +7,9 @@
         "twitter": "devanshyadav"
     },
     "record": {
-        "CNAME": "devanshyadav2010.github.io"
+        "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+        ]
     }
     }
