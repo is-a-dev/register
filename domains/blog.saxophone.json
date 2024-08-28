@@ -1,10 +1,12 @@
 {
-  "description": "subdomain for my blog",
-  "owner": {
-    "username": "saxophone-guy",
-    "email": "itsarchit@keemail.me"
-  },
-  "record": {
-    "CNAME": "my-blog-8il5.onrender.com"
-  }
+    "description": "subdomain for my blog",
+    "owner": {
+        "username": "saxophone-guy",
+        "email": "itsarchit@keemail.me"
+    },
+    "record": {
+        "A": [
+            "216.24.57.1"
+        ]
+    }
 }

@@ -1,12 +1,10 @@
 {
-        "owner": {
-           "username": "PogMaster9001",
-           "email": "",
-           "discord": "1190052608346435597"
-        },
-    
-        "record": {
-            "CNAME": "projectdevs.net"
-        }
-    }
-    
+  "description": "1.is-a.dev",
+  "owner": {
+    "username": "i-am-is-a-dev",
+    "email": "lx737456@gmail.com"
+  },
+  "record": {
+    "A": ["89.106.200.1"]
+  }
+}
