@@ -6,8 +6,6 @@
         "email": "leo@scherr.xyz"
     },
     "record": {
-        "cname": [
-            "/play.onthepixel.net"
-        ]
+        "CNAME": "play.onthepixel.net"
     }
 }
