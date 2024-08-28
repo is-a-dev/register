@@ -1,0 +1,12 @@
+{
+    "description": "personal portfolio",
+    "repo": "https://github.com/thuan/thuan.github.io",
+    "owner": {
+        "username": "thuan",
+        "email": "thuansaraiva@gmail.com",
+        "twitter": "thuanabuco"
+    },
+    "record": {
+        "CNAME": "thuan.github.io"
+    }
+}
