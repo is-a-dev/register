@@ -1,9 +1,12 @@
 {
-    "owner": {
-      "username": "Bananalolok",
-      "email": "imethlol1234@gmail.com"
-    },
-    "record": {
-        "CNAME": "edge.redirect.pizza"
-      }    
+  "owner": {
+    "username": "Bananalolok",
+    "discord": "banana_lol_7678",
+    "email": ""
+  },
+  "record": {
+    "A": [
+      "69.197.135.205"
+    ]  
   }
+}

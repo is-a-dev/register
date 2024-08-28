@@ -1,12 +1,12 @@
 {
   "description": "Nisarga",
-  "repo": "https://github.com/nisarga-developer/nisarga-developer.github.io",
+  "repo": "https://github.com/ni5arga/ni5arga.github.io",
   "owner": {
-    "username": "nisarga-developer",
+    "username": "ni5arga",
     "email": "adhikarynisarga17@gmail.com",
-    "twitter": "adhikarynisarga"
+    "twitter": "ni5arga"
   },
   "record": {
-    "CNAME": "nisarga-developer.github.io"
+    "CNAME": "ni5arga.github.io"
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Yourz",
-        "email": "crazilou@vip.qq.com"
-    },
-    "record": {
-        "CNAME": "yourz.github.io"
-    }
+  "owner": {
+    "username": "Yourz",
+    "email": "crazilou@vip.qq.com"
+  },
+  "record": {
+    "CNAME": "yourz.github.io"
+  }
 }
