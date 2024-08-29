@@ -1,11 +1,11 @@
 {
   "description": "My Website Portfolio and other stuff",
-  "repo": "https://github.com/Rage65/website",
+  "repo": "https://github.com/Rage65/rage65.github.io",
   "owner": {
     "username": "Rage65",
     "email": "123thetechguy@gmail.com"
   },
   "record": {
-    "CNAME": "webserver.tail65f58.ts.net"
+    "CNAME": "https://rage65.github.io/"
   }
 }
