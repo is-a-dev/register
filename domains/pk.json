@@ -1,12 +1,19 @@
 {
-        "owner": {
-           "username": "pknagal",
-           "email": "",
-           
-        },
-    
-        "record": {
-            "CNAME": "pk.is-a.dev"
-        }
-    }
-    
+    "description": "Project Description",
+    "domain": "pk.is-a.dev",
+    "subdomain": "nagalji.github.io",
+
+    "owner": {
+        "repo": "https://github.com/nagalji/.is-a.dev",
+        "email": ""
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "pk.is-a.dev",
+        
+    },
+
+    "proxied": false
+}
