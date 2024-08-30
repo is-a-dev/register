@@ -1,12 +1,11 @@
 {
-        "owner": {
-           "username": "o-lumix",
-           "email": "lumixofficiel@gmail.com",
-           "discord": "828313756827516949"
-        },
-    
-        "record": {
-            "CNAME": "o-lumix.github.io"
-        }
-    }
-    
+  "owner": {
+    "username": "o-lumix",
+    "email": "bylumixxx@gmail.com",
+    "discord": "828313756827516949"
+  },
+
+  "record": {
+    "CNAME": "lumix-cmq.pages.dev"
+  }
+}

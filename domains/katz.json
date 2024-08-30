@@ -1,9 +1,12 @@
 {
-    "owner": {
-      "username": "Bananalolok",
-      "email": "imethlol1234@gmail.com"
-    },
-    "record": {
-        "CNAME": "api-bananalolok-5313a609.koyeb.app"
-      }    
+  "owner": {
+    "username": "Bananalolok",
+    "discord": "banana_lol_7678",
+    "email": ""
+  },
+  "record": {
+    "A": [
+      "69.197.135.205"
+    ]  
   }
+}

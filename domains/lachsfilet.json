@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "Lachsfilet",
-        "email": "fberger10@gmx.de"
-    },
+  "owner": {
+    "username": "Lachsfilet",
+    "email": "fberger10@gmx.de"
+  },
 
-    "record": {
-        "CNAME": "lachsfilet.github.io"
-    }
+  "record": {
+    "CNAME": "lachsfilet.github.io"
+  }
 }

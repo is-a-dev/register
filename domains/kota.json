@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sharkota",
-        "email": "nappythebappy@gmail.com"
-    },
-    "record": {
-        "CNAME": "sharkota.github.io"
-    }
+  "owner": {
+    "username": "sharkota",
+    "email": "nappythebappy@gmail.com"
+  },
+  "record": {
+    "CNAME": "sharkota.github.io"
+  }
 }

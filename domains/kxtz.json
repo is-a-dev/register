@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kxtzownsu",
-        "email": "kxtzownsu@gmail.com"
-    },
-    "record": {
-        "CNAME": "kxtz.dev"
-    }
+  "owner": {
+    "username": "kxtzownsu",
+    "email": "kxtzownsu@gmail.com"
+  },
+  "record": {
+    "CNAME": "kxtz.dev"
+  }
 }
