@@ -59,6 +59,7 @@ const extraSupportedNames = [
     R.equals("_acme-challenge"),
     R.equals("_dmarc"),
     R.equals("_domainkey"),
+    R.equals("_improvmx"),
     testRegex(/^_gh-[a-z0-9-_]+$/i),
 ];
 

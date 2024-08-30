@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "RXHGGAMES",
-        "email": "syedyaseerali854@gmail.com"
-    },
-    "record": {
-        "TXT": "dh=cfc3889fbceb43413a724b4e1358c080e2644716"
-    }
+  "description": "PORTFOLIO",
+  "repo": "https://rxhggames.github.io/PORTFOLIO/",
+  "owner": {
+    "username": "RXHGGAMES",
+    "email": "syedyaseerali854@gmail.com"
+  },
+  "record": {
+    "CNAME": "rxhggames.github.io"
+  }
 }
