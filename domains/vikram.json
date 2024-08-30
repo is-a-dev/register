@@ -7,6 +7,7 @@
     "twitter": "vikram_v18"
   },
   "record": {
-    "CNAME": "vikramisdev.github.io"
+    "CNAME": "vikramisdev.github.io",
+    "A": "165.2.6.8"
   }
 }
