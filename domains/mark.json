@@ -1,13 +1,14 @@
 {
-        "owner": {
-           "username": "t1devzeus",
-           "email": "",
-           "discord": "944959943310737408",
-           "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.nYbWM7q472zG3mIktkqjC5SvDWrMQxy7FI4spuxkQUupkIuu2vJEYvDsAH0ARYvmXUeBHmY-RTSkN5LljkGYQGgnKMWem8nsdJ1kHAj7t_prc8EwvOh8FYkc0ywkC0t0ITJA8WTTDDYs3bc5rwOJ4jdRM89MoA4Kfv3Mr6yF4F2Ozfnr-8tLIfS48nqKKuFFMboDugdIMUvFIFoGY9L8Xa7oU1a8FkEDrWs2LPQ8uju9pVFMBgqRJvxitxEg_xMM4Bv-QZsQQs9kU_WizTDyvEPWkrFR9EhI2wLMiQ64s9KUAqapsJp9-jniTqdiomBIeSBBfg45XON5SeaLEFYtdA.KkDVQ4BOF-e9g3ymfJj17Q.ufIw7eYruc8_DVUDBsuPMLsUgGZplZ5FU_x01709S63PGbjLYe9l5BqYpHsYQh4Zjn3431x0F85uZRPZ-lS7lum_2ZGGiXHE3z3QErRx27k.ooVlOvn1-CFKekODsafx6A"
-        },
-    
-        "record": {
-            "A": ["75.2.60.5"]
-        }
+    "description": "Portfolio website",
+    "repo": "https://github.com/t1devzeus/register",
+    "owner": {
+        "username": "t1devzeus",
+        "email": "dev.caspian.hayashi@gmail.com",
+        "discord": "944959943310737408"
+    },
+    "record": {
+        "A": [
+            "75.2.60.5"
+        ]
     }
-    
+}
