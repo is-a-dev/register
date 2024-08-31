@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "rekcah-pavi",
-        "email": "paviththanravi@gmail.com"
-    },
+  "owner": {
+    "username": "rekcah-pavi",
+    "email": "paviththanravi@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "rekcah-pavi.github.io"
-    }
+  "record": {
+    "CNAME": "rekcah-pavi.github.io"
+  }
 }

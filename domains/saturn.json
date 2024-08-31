@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "NotRana",
-        "email": "benyameen75@gmail.com"
-    },
-    "record": {
-        "CNAME": "fab7964c-a982-4b96-854d-25b3f55189aa.id.repl.co"
-    }
+  "description": "Oficial website for saturn project.",
+  "repo": "https://github.com/neopromic/saturn",
+  "owner": {
+    "username": "neopromic",
+    "email": "cusaowesley1@gmail.com"
+  },
+  "record": {
+    "URL": "https://saturn-project.vercel.app/"
+  }
 }
