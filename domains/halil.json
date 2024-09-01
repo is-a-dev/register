@@ -6,6 +6,8 @@
     "email": "halil@pissmail.com"
   },
   "record": {
-    "CNAME": "halil-dll.github.io"
+    "A": [
+      "173.249.45.163"
+    ]
   }
 }
