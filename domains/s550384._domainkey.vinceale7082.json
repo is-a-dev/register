@@ -7,7 +7,6 @@
         },
     
         "record": {
-            "A": ["37.179.61.76"]
+          "CNAME": "dkim.smtp2go.net"
         }
     }
-    
