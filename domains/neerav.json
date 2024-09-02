@@ -7,7 +7,8 @@
         },
     
         "record": {
-            "TXT": "vc-domain-verify=neerav.is-a.dev,c15e13a6aa8319e806ec"
+            "CNAME": "apex-loadbalancer.netlify.com",
+            "A": "75.2.60.5"
         }
     }
     
