@@ -1,9 +1,11 @@
 {
+  "repo" : "https://github.com/MinhPhan1203/Blog"
   "owner": {
     "username": "MinhPhan1203",
     "email": "phan48788@gmail.com"
   },
   "record": {
-    "URL": "https://minhphan.tech"
+    "CNAME" : "https://minhphan1203.github.io/Blog/"
+    "TXT" : "dh=78c7c89ac00d07ec34dd5e1d68289a3a877353dd"
   }
 }
