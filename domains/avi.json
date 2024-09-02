@@ -4,7 +4,8 @@
     "email": "isdev@aviparshan.com"
   },
   "record": {
-    "CNAME": "avipars.github.io"
+    "CNAME": "avipars.github.io",
+    "TXT": "google-site-verification=be8fp_oYm2sMCkTEKyht9uWRwXs3i94zXsDDV6L4RRs"
   },
   "description": "Personal website with useful links",
   "repo": "https://github.com/avipars/avipars.github.io"
