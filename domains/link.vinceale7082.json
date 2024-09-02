@@ -7,7 +7,6 @@
         },
     
         "record": {
-            "A": ["37.183.129.150"]
+          "CNAME": "track.smtp2go.net"
         }
     }
-    
