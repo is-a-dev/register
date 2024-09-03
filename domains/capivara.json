@@ -1,9 +1,14 @@
 {
-  "owner": {
-    "username": "gabrielasants",
-    "email": "gabrielasantos030@gmail.com"
-  },
-  "record": {
-    "CNAME": "gabrielasants.github.io"
-  }
+    "description": "Netlify use",
+    "repo": "https://github.com/gabrielasants/capivara.is-a.dev",
+    "owner": {
+        "username": "gabrielasants",
+        "email": "drwcaryz@gmail.com",
+        "twitter": "kisswithsadness"
+    },
+    "record": {
+        "A": [
+            "75.2.60.5"
+        ]
+    }
 }
