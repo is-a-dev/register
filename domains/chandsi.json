@@ -7,7 +7,9 @@
         },
     
         "record": {
-            "TXT": "zoho-verification=zb40348561.zmverify.zoho.in"
+          "TXT": ["zoho-verification=zb40348561.zmverify.zoho.in",
+            "v=spf1 include:zoho.in ~all"],
+          "MX": ["mx.zoho.in","mx2.zoho.in","mx3.zoho.in"]
         }
     }
     
