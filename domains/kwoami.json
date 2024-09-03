@@ -1,0 +1,13 @@
+{
+    "description": "kwoami.netlify.app",
+    "repo": "https://github.com/kwoami/register/",
+    "owner": {
+        "username": "kwoami",
+        "email": "khoaquach2010@gmail.com",
+    },
+    "record": {
+        "A": [
+            "75.2.60.5"
+        ]
+    }
+}
