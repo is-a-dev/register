@@ -1,0 +1,10 @@
+{
+  "description": "mailersend return path",
+  "owner": {
+    "username": "satindar31",
+    "email": "satindar31@tutanota.com"
+  },
+  "record": {
+    "CNAME": "mailersend.net"
+  }
+}
