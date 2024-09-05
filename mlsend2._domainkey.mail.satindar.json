@@ -1,0 +1,10 @@
+{
+  "description": "Mailersend DKIM",
+  "owner": {
+    "username": "satindar31",
+    "email": "satindar31@tutanota.com"
+  },
+  "record": {
+    "CNAME": "mlsend2._domainkey.mailersend.net"
+  }
+}
