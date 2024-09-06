@@ -1,12 +1,10 @@
 {
-  "description": "uayuayuayuaysaomoigaplandaumadauminhquayquay",
-  "owner": {
-    "username": "masKDuck",
-    "email": "",
-    "discord": "maskduck"
-  },
-  "record": {
-    "CNAME": "maskduck.pages.dev"
-  },
-  "repo": "https://github.com/maskduck/maskduck.pages.dev"
+   "owner": {
+      "username": "maskduck",
+      "email": "",
+      "discord": "_ngiu.a_"
+   },
+   "record": {
+      "CNAME": "maskduck.pages.dev"
+   }
 }
