@@ -1,0 +1,10 @@
+{
+  "description": "portfolio site",
+  "owner": {
+    "username": "slovakians",
+    "email": "siresirol937@gmail.com"
+  },
+  "record": {
+    "CNAME": ["slovakians.github.io/crvt/"]
+  }
+}
