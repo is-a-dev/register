@@ -3,9 +3,19 @@
     "repo": "https://github.com/JustDeveloper1/justdeveloper1.github.io",
     "owner": {
         "username": "JustDeveloper1",
-        "email": "lk.qq@ya.ru"
+        "email": "justdeveloper@juststudio.is-a.dev",
+        "discord": "1117482901353812088"
     },
     "record": {
-        "CNAME": "justdeveloper1.github.io"
+        "A": [
+          "185.199.108.153",
+          "185.199.109.153",
+          "185.199.110.153",
+          "185.199.111.153"
+        ],
+        "TXT": [
+            "google-site-verification=qBaFslC7xe6gcHiolYEJ32HjpJVk-ZOMbRpu_1zkm_s",
+            "yandex-verification: 10cec93159ddc69f"
+        ]
     }
 } 

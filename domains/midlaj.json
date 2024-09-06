@@ -4,6 +4,8 @@
     "email": "midlaj@tuta.io"
   },
   "record": {
-    "CNAME": "nuxtfolio.pages.dev"
+    "A": [
+      "107.173.201.166"
+    ]
   }
 }
