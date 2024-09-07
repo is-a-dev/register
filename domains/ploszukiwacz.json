@@ -1,0 +1,11 @@
+{
+  "description": "Personal Website for PlOszukiwacz",
+  "repo": "https://github.com/PlOszukiwaczDEV/ploszukiwaczdev.github.io",
+  "owner": {
+    "username": "PlOszukiwaczDEV",
+    "email": "ploszukiwacz1@gmail.com"
+  },
+  "record": {
+    "CNAME": "ploszukiwaczdev.github.io"
+  }
+}
