@@ -1,0 +1,10 @@
+{
+  "domain": "zayneed.is-a.dev",
+  "subdomain": "zayneed",
+  "owner": {
+    "email": "zayneed@zayneed.cloud"
+  },
+  "records": {
+    "CNAME": "zayneed.cloud"
+  }
+}
