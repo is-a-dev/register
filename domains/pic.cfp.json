@@ -1,10 +1,11 @@
 {
+  "description": "Private Immich server",
   "owner": {
     "username": "cfpwastaken",
     "email": "",
-    "discord": "cfp"
+    "discord": "cfp (318394797822050315)"
   },
   "record": {
-    "CNAME": "cfp.gotdns.ch"
+    "CNAME": "dyn.picoscratch.de"
   }
 }
