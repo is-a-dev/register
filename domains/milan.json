@@ -1,10 +1,10 @@
 {
   "description": "Milan's personal website and blog",
-  "repo": "https://github.com/MilanAryal/milanaryal.github.io",
+  "repo": "https://github.com/milanaryal/milanaryal.github.io",
   "owner": {
-    "username": "MilanAryal",
+    "username": "milanaryal",
     "email": "",
-    "twitter": "MilanAryal"
+    "mastodon": "@milanaryal@mastodon.social"
   },
   "record": {
     "URL": "https://milanaryal.com.np"

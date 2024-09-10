@@ -22,6 +22,9 @@
             "mx1.forwardemail.net",
             "mx2.forwardemail.net"
         ],
-        "TXT": "forward-email=harshnj@proton.me"
+        "TXT": [
+            "forward-email=harshnj@proton.me",
+            "google-site-verification=Eu4i8iW1vck-KlTEnzPMfyc2WI1sgbYrNeATHJiyds0"
+        ]
     }
 }
