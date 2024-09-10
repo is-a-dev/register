@@ -19,5 +19,5 @@
         "TXT": [
             "v=spf1 include:zohomail.in ~all"
     
-    }
+        ]
 }
