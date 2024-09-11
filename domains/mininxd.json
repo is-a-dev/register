@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "mininxd",
+    "email": "noreply@mininxd.my.id"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+"_vercel",
+"vc-domain-verify=mininxd.is-a.dev,4e51ef41a4f627aaacff"
+]}
+}
