@@ -1,0 +1,11 @@
+{
+  "description": "A wiki designed so people never forget about elaruu",
+  "repo": "https://github.com/elaruu/elaruu.github.io",
+  "owner": {
+    "username": "jamied132 and elaruu",
+    "email": "jamied132.email@gmail.com"
+  },
+  "record": {
+    "CNAME": "elaruu.github.io"
+  }
+}

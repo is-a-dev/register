@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "PythonSmall-Q",
-        "email": "seanoj_noreply@yeah.net"
-    },
-    "record": {
-        "CNAME": "xmoj-script.pages.dev"
-    }
+  "owner": {
+    "username": "PythonSmall-Q",
+    "email": "seanoj_noreply@yeah.net"
+  },
+  "record": {
+    "CNAME": "xmoj-script.pages.dev"
+  }
 }
