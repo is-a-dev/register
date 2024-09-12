@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "LegendOP1041",
-           "email": "maillegendop@gmail.com",
-           "discord": "1056531806763102218"
-        },
-    
-        "record": {
-            "CNAME": "proxy.private.danbot.host"
-        }
-    }
-    
+  "owner": {
+    "username": "akshatgurnani",
+    "email": "Akshatgurnani@outlook.com"
+  },
+  "record": {
+    "URL": "https://www.github.com/akshatgurnani"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "description": "xYugen's Portfolio",
+    "repo": "https://github.com/xyugen/portfolio",
+    "owner": {
+        "username": "xyugen",
+        "email": "alex.arias.jorym@gmail.com"
+    },
+    "record": {
+        "A": ["75.2.60.5"],
+        "MX": "feedback-smtp.us-east-1.amazonses.com",
+        "TXT": [
+            "v=spf1 include:amazonses.com ~all",
+            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDl3uimKrfDsLkGKkuwIhxEi23dmRf1GTyrcfpzF/iSfGrMp5xbDo3+lqN4R3Dx48orvlGbtNxQevx4NPIHU+BAIfRyRkMDzP9X+elTMFkHqHtly5OswQJd0Jciax8WqPoTfLo7+cjDyY0lejoqadUK0gxRe5b5HOLGNUBOCgmCNQIDAQAB"
+        ]
+    }
+}

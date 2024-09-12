@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "itsrn",
-        "email": "shalom@itsron.space"
-    },
-    "record": {
-        "CNAME": "itsrn.github.io"
-    }
+  "owner": {
+    "username": "itsrn",
+    "email": "shalom@itsron.space"
+  },
+  "record": {
+    "CNAME": "itsrn.github.io"
+  }
 }

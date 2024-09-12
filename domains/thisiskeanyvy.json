@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "thisiskeanyvy",
-        "email": "notifkeanyvy@gmail.com"
-    },
+  "owner": {
+    "username": "thisiskeanyvy",
+    "email": "notifkeanyvy@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "thisiskeanyvy.pages.dev"
-    }
+  "record": {
+    "CNAME": "thisiskeanyvy.pages.dev"
+  }
 }

@@ -1,11 +1,9 @@
 {
-    "owner": {
-            "username": "SukiPlayz",
-            "email": "sukimayoo@outlook.com"
-        },
-        "record": {
-            "A": ["217.174.245.249"],
-            "TXT": "v=spf1 a mx include:mail.is-a.dev ~all",
-            "MX": ["mail.is-a.dev"]
-        }
-    }
+  "owner": {
+    "username": "SukiPlayz",
+    "email": "sukimayoo@outlook.com"
+  },
+  "record": {
+    "CNAME": "portfolio-b8o.pages.dev"
+  }
+}

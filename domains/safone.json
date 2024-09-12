@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "AsmSafone",
-        "email": "asmsafone@gmail.com"
-    },
+  "owner": {
+    "username": "AsmSafone",
+    "email": "asmsafone@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "safone.pages.dev"
-    }
+  "record": {
+    "CNAME": "safone.pages.dev"
+  }
 }
