@@ -40,8 +40,8 @@ jobs:
                   source-directory: "raw-api"
                   destination-github-username: is-a-dev
                   destination-repository-name: raw-api
-                  user-email: 106927495+is-a-dev-bot@users.noreply.github.com
-                  user-name: is-a-dev-bot
+                  user-email: actions@github.com
+                  user-name: "GitHub Actions"
                   commit-message: "Update Data via is-a-dev/register"
               env:
                   API_TOKEN_GITHUB: ${{ secrets.BOT }}
