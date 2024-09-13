@@ -42,6 +42,5 @@ jobs:
                   destination-repository-name: raw-api
                   user-email: actions@github.com
                   user-name: "GitHub Actions"
-                  commit-message: "Update Data via is-a-dev/register"
               env:
                   API_TOKEN_GITHUB: ${{ secrets.BOT }}
