@@ -1,0 +1,12 @@
+{
+    "description": "Personal website to be used as a biography/introduction",
+    "repo": "https://github.com/Alechuu/alechuu.github.io",
+    "owner": {
+        "username": "Alechuu",
+        "email": "alechu.dev@icloud.com",
+        "twitter": ""
+    },
+    "record": {
+        "CNAME": "alechuu.github.io"
+    }
+} 
