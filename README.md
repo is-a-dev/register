@@ -57,4 +57,4 @@ If you like this project, please consider donating so we can keep this project r
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay"></a>
 
 ### Similar Services
-If you want to find services similar to is-a.dev, take a look on [Free For Life](https://github.com/wdhdev/free-for-life#domains).
+If you want to find services similar to is-a.dev, take a look at [Free For Life](https://github.com/wdhdev/free-for-life#domains).
