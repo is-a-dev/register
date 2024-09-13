@@ -1,0 +1,12 @@
+{
+  "description": "Hoppe is a personal domain for Hoppe.",
+  "owner": {
+    "username": "tilakkap",
+    "email": "webhoppe@web.de"
+  },
+  "record": {
+    "A": [
+      "88.222.245.200"
+    ]
+  }
+}
