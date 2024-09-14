@@ -1,8 +1,8 @@
 {
-    "description": "Hansana's Portfolio with a custom email",
-    "repo": "https://github.com/hansanaD/hansanad.github.io",
+    "description": "Hansana's Portfolio",
+    "repo": "https://github.com/DevHanza/hansana.is-a.dev",
     "owner": {
-        "username": "hansanaD",
+        "username": "DevHanza",
         "email": "josephandrew1@logicstreak.com"
     },
     "record": {
@@ -16,6 +16,9 @@
             "mx1.improvmx.com",
             "mx2.improvmx.com"
         ],
-        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com ~all",
+            "google-site-verification=lZt0feu9wVw9QCyB_j0ylLB2JcMaW33ZMQ6T-rEaV_k"
+        ]
     }
 }
