@@ -13,6 +13,6 @@
     ],
     "TXT": [
       "v=spf1 include:spf.improvemx.com ~all"
-    ],
+    ]
   }
 }
