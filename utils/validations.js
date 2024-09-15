@@ -17,7 +17,7 @@ const isValidURL = and([R.is(String), testRegex(/^https?:\/\//gi)]);
 
 const isValidDomain = and([
     R.is(String),
-    testRegex(/^(([a-z0-9-]+)\.)+[a-z]+$/gi),
+    testRegex(/^(([a-z0-9-_]+)\.)*(([a-z0-9-]+)\.)+[a-z]+$/gi),
 ]);
 
 const validateCnameRecord = (type) =>
@@ -60,6 +60,7 @@ const extraSupportedNames = [
     R.equals("_dmarc"),
     R.equals("_domainkey"),
     R.equals("_improvmx"),
+    R.equals("_vercel"),
     testRegex(/^_gh-[a-z0-9-_]+$/i),
 ];
 

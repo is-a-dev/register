@@ -9,7 +9,6 @@ Please note that we reserve the rights not to accept any domain at our own discr
 - [ ] The file's name is all lowercased and alphanumeric. <!-- Your file's name is yourname.json, not YourName.json or your_name.json. -->
 - [ ] You have completed your website. <!-- This is not required if the domain you're registering is for emails. -->
 - [ ] The website is reachable.  <!-- This is not required if the domain you're registering is for emails. -->
-- [ ] You're not using Vercel.  <!-- This is not required if you're using an URL record. -->
 - [ ] The CNAME record doesn't contain `https://` or `/`.  <!-- This is not required if you are not using a CNAME record. -->
 - [ ] There is sufficient information at the `owner` field.  <!-- You need to have your email presented at `email` field. If you don't want to provide your email for any reason, you can specify another social platform (e.g. Twitter) so we can contact you. -->
 
