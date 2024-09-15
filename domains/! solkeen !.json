@@ -1,0 +1,11 @@
+{
+  "description": "! solkeen !",
+  "repo": "https://github.com/solkeen",
+  "owner": {
+    "username": "Solkeen",
+    "email": "nakao95911@gmail.com"
+  },
+  "record": {
+    "CNAME": "nakao.vercel.app"
+  }
+}
