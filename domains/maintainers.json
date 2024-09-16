@@ -1,10 +1,10 @@
 {
-  "owner": {
-      "username": "is-a-dev",
-      "email": ""
-  },
-  "record": {
-      "MX": ["mail.wdh.gg"],
-      "TXT": "v=spf1 include:_spf.wdh.gg ~all"
-  }
+    "owner": {
+        "username": "is-a-dev",
+        "email": ""
+    },
+    "record": {
+        "MX": ["mail.hrsn.net"],
+        "TXT": "v=spf1 include:_spf.hrsn.net ~all"
+    }
 }
