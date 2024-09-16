@@ -1,1 +1,10 @@
-
+{
+  "description": "Documentation for ptdung",
+  "owner": {
+    "username": "phantatdung233",
+    "email": "phantatdung233@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://ptdung.site"
+  }
+}
