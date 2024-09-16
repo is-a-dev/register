@@ -6,6 +6,13 @@
     "email": "davidebu43@gmail.com"
   },
   "record": {
-    "TXT": "zoho-verification=zb32026957.zmverify.zoho.eu"
+    "TXT": [
+      "zoho-verification=zb32026957.zmverify.zoho.eu"
+    ],
+    "MX": [
+      "mx3.zoho.eu",
+      "mx2.zoho.eu",
+      "mx.zoho.eu"
+    ]
   }
 }
