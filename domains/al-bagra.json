@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "UtsaVy",
-        "email": "utsavk681@gmail.com"
-    },
+  "owner": {
+    "username": "UtsaVy",
+    "email": "utsavk681@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "utsav.github.io"
-    }
+  "record": {
+    "CNAME": "utsav.github.io"
+  }
 }

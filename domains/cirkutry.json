@@ -1,0 +1,12 @@
+{
+    "description": "Personal site",
+    "repo": "https://github.com/Cirkutry/site",
+    "owner": {
+        "username": "Cirkutry",
+        "email": "",
+        "discord": "kre0lidge"
+    },
+    "record": {
+        "CNAME": "cirkutry.github.io"
+    }
+}
