@@ -7,7 +7,7 @@
         },
     
         "record": {
-            "TXT": "vc-domain-verify=yuko.is-a.dev,69ddf764dd9d6db9011e"
+            "A": ["76.76.21.21"]
         }
     }
     
