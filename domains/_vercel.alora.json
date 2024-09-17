@@ -5,7 +5,9 @@
     "discord": "1236292707371057216"
   },
   "record": {
-    "TXT": "vc-domain-verify=drive.alora.is-a.dev,395400702612ae6db6a8"
-    "TXT": "vc-domain-verify=profile.alora.is-a.dev,71bd18cc5db61dc75f91"
+    "TXT": [
+      "vc-domain-verify=drive.alora.is-a.dev,395400702612ae6db6a8",
+      "vc-domain-verify=profile.alora.is-a.dev,71bd18cc5db61dc75f91"
+    ]
   }
 }
