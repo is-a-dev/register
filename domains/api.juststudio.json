@@ -1,6 +1,5 @@
 {
-  "description": "JustStudio.",
-  "repo": "https://github.com/JustStudio7/API",
+  "description": "JustStudio.API",
   "owner": {
     "username": "JustStudio7",
     "email": "support@juststudio.is-a.dev",
@@ -8,10 +7,10 @@
   },
   "record": {
     "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
+      "34.120.54.55"
+    ],
+    "AAAA": [
+      "2600:1901:0:6d85::"
     ]
   }
 }
