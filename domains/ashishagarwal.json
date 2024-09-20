@@ -5,6 +5,7 @@
   },
 
   "record": {
-    "CNAME": "ashishagarwal.netlify.app"
+    "CNAME": "ashishagarwal.netlify.app",
+    "TXT": "openai-domain-verification=dv-ItcmdpVl0PitRVzKuExxitjq" 
   }
 }
