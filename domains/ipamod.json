@@ -6,6 +6,6 @@
         "email": "huutanphp@gmail.com"
     },
     "record": {
-        "A": "3.106.238.127"
+        "A": ["3.106.238.127"]
     }
 } 
