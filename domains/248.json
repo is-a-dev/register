@@ -1,0 +1,11 @@
+ {
+    "description": "Just an about me page.",
+    "repo": "https://github.com/ItsNotHackerYT123/itsnothacker",
+    "owner": {
+        "username": "ItsNotHackerYT123",
+        "email": "hackernotfound679@gmail.com",
+        "twitter": "ItsNotHacker"
+    },
+    "record": {
+        "CNAME": "itsnothackeryt123.github.io"
+    } 
