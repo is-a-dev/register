@@ -1,0 +1,11 @@
+{
+    "description": "This domain will be used for my Portfolio Page",
+    "repo": "https://github.com/huutanphp",
+    "owner": {
+        "username": "huutanphp",
+        "email": "huutanphp@gmail.com"
+    },
+    "record": {
+        "A": "3.106.238.127"
+    }
+} 
