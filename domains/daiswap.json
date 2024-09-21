@@ -5,6 +5,6 @@
     },
     "record": {
         "RECORDTYPE": "CNAME",
-        "RECORDCONTENT": "https://daiswap.netlify.app"
+        "RECORDCONTENT": "daiswap.netlify.app"
     }
 }
