@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "Dwigoric",
-        "email": "dwigoric@pm.me"
-    },
-    "record": {
-        "CNAME": "dwigoric.pages.dev"
-    }
+  "owner": {
+    "username": "Dwigoric",
+    "email": "",
+    "discord": "295391820744228867"
+  },
+  "record": {
+    "CNAME": "dwigoric.pages.dev"
+  }
 }

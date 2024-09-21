@@ -3,9 +3,21 @@
   "repo": "https://github.com/l6174/l6174.github.io",
   "owner": {
     "username": "l6174",
-    "email": "l.lawliet6174@gmail.com"
+    "email": "l6174@proton.me"
   },
   "record": {
-    "CNAME": "l6174.github.io"
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
   }
 }
