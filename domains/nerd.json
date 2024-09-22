@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "n3rd3x3",
-        "email": "me@n3rd3x3.xyz"
-    },
-    "record": {
-        "URL": "https://n3rd3x3.xyz"
-    }
+  "description": "website",
+  "repo": "https://github.com/xkcdnerd/xkcdnerd.github.io",
+  "owner": {
+    "username": "xkcdnerd",
+    "email": "evanwang330@gmail.com"
+  },
+  "record": {
+    "CNAME": "xkcdnerd.github.io"
+  }
 }

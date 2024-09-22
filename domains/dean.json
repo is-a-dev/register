@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/dandepan303/blog",
+    "owner": {
+        "username": "dandepan303",
+        "email": "dandepan303@gmail.com",
+        "twitter": "N/A"
+    },
+    "record": {
+        "CNAME": "dandepan303.github.io"
+    }
+} 

@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "Deltara3",
-        "email": "boided420@gmail.com"
-    },
+  "owner": {
+    "username": "Deltara3",
+    "email": "boided420@gmail.com"
+  },
 
-    "record": {
-        "CNAME": "deltara3.github.io"
-    }
+  "record": {
+    "CNAME": "deltara3.github.io"
+  }
 }

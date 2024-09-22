@@ -1,0 +1,12 @@
+{
+  "description": "Subdomain for personal use to present myself",
+  "repo": "https://github.com/Pashigin/register",
+  "owner": {
+    "username": "pashigin",
+    "email": "",
+    "telegram": "@pashigin"
+  },
+  "record": {
+    "A": ["75.2.60.5"]
+  }
+}
