@@ -48,7 +48,7 @@ If you have an issue that contains confidental infomation, send an email to secu
 Join our [Discord server](https://discord.gg/is-a-dev-830872854677422150), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
 
 ## Status
-You can check the uptime of our services on our [status dashboard](https://is-a-dev.wdh.gg).
+You can check the uptime of our services on our [status dashboard](https://is-a-dev.hrsn.net).
 
 ### Donate
 If you like this project, please consider donating so we can keep this project running forever!
@@ -57,4 +57,4 @@ If you like this project, please consider donating so we can keep this project r
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay"></a>
 
 ### Similar Services
-If you want to find services similar to is-a.dev, take a look on [Free For Life](https://github.com/wdhdev/free-for-life#domains).
+If you want to find services similar to is-a.dev, take a look at [Free For Life](https://github.com/wdhdev/free-for-life#domains).
