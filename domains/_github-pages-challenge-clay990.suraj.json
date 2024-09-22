@@ -1,5 +1,5 @@
 {
-  "description": "website correctly running suraj.is-a.dev",
+  "description": "Website correctly running suraj.is-a.dev",
   "repo": "https://github.com/Clay990/portfolio",
   "owner": {
     "username": "Clay990",
@@ -7,35 +7,11 @@
   },
   "record": {
     "MX": [
-      {
-        "host": "suraj",
-        "value": "mx.zoho.in",
-        "priority": 10
-      },
-      {
-        "host": "suraj",
-        "value": "mx2.zoho.in",
-        "priority": 20
-      },
-      {
-        "host": "suraj",
-        "value": "mx3.zoho.in",
-        "priority": 50
-      }
-    ],
-    "SPF": {
-      "type": "TXT",
-      "host": "suraj",
-      "value": "v=spf1 include:zohomail.in ~all"
-    },
-    "DKIM": {
-      "type": "TXT",
-      "host": "zmail._domainkey.suraj",
-      "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCynLFWf+Or8UXFbj0VF2TV8uwsfgeB8CsNFlW+vh/QxO4D2QGWQsO78Z1zeLA99CvWHMcz028dJoBDWkRiQLjIuagw/HvGnZ6b33eatfB7c9ekMV8pOH4nkCwIlZOgaraQ99ujKVhkbQHjThzSy6XaeqRJydJoLRKJOQUa/fW32QIDAQAB"
-    },
-    "TXT": {
-      "host": "suraj",
-      "value": "dee6e1fa6a0e02df5af4edb0e40ac4"
+      "mx.zoho.in",
+      "mx2.zoho.in",
+      "mx3.zoho.in"
+    ]
+    "TXT": ["v=spf1 include:zohomail.in ~all", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCynLFWf+Or8UXFbj0VF2TV8uwsfgeB8CsNFlW+vh/QxO4D2QGWQsO78Z1zeLA99CvWHMcz028dJoBDWkRiQLjIuagw/HvGnZ6b33eatfB7c9ekMV8pOH4nkCwIlZOgaraQ99ujKVhkbQHjThzSy6XaeqRJydJoLRKJOQUa/fW32QIDAQAB!", "dee6e1fa6a0e02df5af4edb0e40ac4"]
     }
   }
 }
