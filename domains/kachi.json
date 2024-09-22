@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "joshex150",
+        "email": "joshex150@gmail.com"
+    },
+    "record": {
+        "CNAME": "josh-folio.web.app",
+        "A": ["68.65.123.44"]
+    }
+}
