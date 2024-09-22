@@ -1,0 +1,14 @@
+{
+    "description": "Clean looking domain name for my portfolio website",
+    "repo": "https://github.com/VirtualSquares/portfolio",
+    "owner": {
+        "username": "VirtualSquares",
+        "email": "shravanparadigm@gmail.com",
+        "discord": "cannonboys"
+    },
+    "record": {
+        "A": [
+            "75.2.60.5"
+        ]
+    }
+}
