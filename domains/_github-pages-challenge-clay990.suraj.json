@@ -1,10 +1,11 @@
 {
+  "description": "website correctly running suraj.is-a.dev",
+  "repo": "https://github.com/Clay990/portfolio",
   "owner": {
     "username": "Clay990",
     "email": "asuraj991m@gmail.com"
   },
   "record": {
-    "TXT": "dee6e1fa6a0e02df5af4edb0e40ac4"
     "MX": [
       {
         "host": "suraj",
