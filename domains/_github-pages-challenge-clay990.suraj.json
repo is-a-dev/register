@@ -12,4 +12,3 @@
     "TXT": ["v=spf1 include:zohomail.in ~all", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCynLFWf+Or8UXFbj0VF2TV8uwsfgeB8CsNFlW+vh/QxO4D2QGWQsO78Z1zeLA99CvWHMcz028dJoBDWkRiQLjIuagw/HvGnZ6b33eatfB7c9ekMV8pOH4nkCwIlZOgaraQ99ujKVhkbQHjThzSy6XaeqRJydJoLRKJOQUa/fW32QIDAQAB!", "dee6e1fa6a0e02df5af4edb0e40ac4"]
     }
   }
-}
