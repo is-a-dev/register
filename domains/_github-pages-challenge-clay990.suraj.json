@@ -7,16 +7,8 @@
   "MX": ["mx.zoho.in","mx2.zoho.in","mx3.zoho.in"],
   "TXT": [
     {
-      "name": "@",
-      "value": "v=spf1 include:zoho.com ~all"
-    },
-    {
-      "name": "DKIM",
+      "name": "zmail._domainkey",
       "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCynLFWf+Or8UXFbj0VF2TV8uwsfgeB8CsNFlW+vh/QxO4D2QGWQsO78Z1zeLA99CvWHMcz028dJoBDWkRiQLjIuagw/HvGnZ6b33eatfB7c9ekMV8pOH4nkCwIlZOgaraQ99ujKVhkbQHjThzSy6XaeqRJydJoLRKJOQUa/fW32QIDAQAB"
-    },
-    {
-      "name": "@",
-      "value": "dee6e1fa6a0e02df5af4edb0e40ac4"
     }
   ]
 }
