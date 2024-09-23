@@ -4,11 +4,7 @@
     "email": "asuraj991m@gmail.com"
   },
   "record": {
-  "MX": [
-    "mx.zoho.in",
-    "mx2.zoho.in",
-    "mx3.zoho.in"
-  ],
+  "MX": ["mx.zoho.in","mx2.zoho.in","mx3.zoho.in"],
   "TXT": [
     {
       "name": "@",
