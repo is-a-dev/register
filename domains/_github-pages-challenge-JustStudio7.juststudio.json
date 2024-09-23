@@ -1,11 +1,13 @@
 {
-  "description": "Short link to juststudio.is-a.dev",
+  "description": "JustStudio.",
   "owner": {
     "username": "JustDeveloper1",
     "email": "support@juststudio.is-a.dev",
     "discord": "1117482901353812088"
   },
   "record": {
-    "A": ["89.106.200.1"]
+    "TXT": [
+      "9f7414e9ff060a1d5721a914dd48e3"
+    ]
   }
 }

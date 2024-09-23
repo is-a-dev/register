@@ -4,8 +4,7 @@
     "email": "mystixmew@gmail.com",
     "discord": "1050531216589332581"
   },
-
   "record": {
-    "CNAME": "edge.redirect.pizza"
+    "TXT": "dh=a15b4e8395d7033db9d69d9961dd8c15194a4cbe"
   }
 }

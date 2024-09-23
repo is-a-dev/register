@@ -1,11 +1,11 @@
 {
-  "description": "Short link to juststudio.is-a.dev",
+  "description": "JustStudio.API",
   "owner": {
     "username": "JustDeveloper1",
     "email": "support@juststudio.is-a.dev",
     "discord": "1117482901353812088"
   },
   "record": {
-    "A": ["89.106.200.1"]
+    "CNAME": "ec675496b91489e24d221965._acme.deno.dev"
   }
 }
