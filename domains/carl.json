@@ -1,13 +1,12 @@
 {
-        "owner": {
-           "username": "drichardcarl",
-           "email": "",
-           "discord": "355219910017810473",
-           "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.c7N6MxjXTZENy08srgl-PDV-GuqNckghd3YJLjldUAAo80DJfLb2_CNzX14C7K04yjU5atIrQwd3hMLE8fhr5zwqz0hZGKq8AMqYW0fVlKxXXf2Gl9pX3YkF-BoZs9FU3zZc5Fk85wpSLJU5FRx1p4cVab819_gaREhOKHGFVrMq-WQsyqxFzVGvcDadXgyAYgIT6p1ajNi5dB2Xs_Ep9beNEKlxSvzx-DRdv_cCwyNZ_cARYIQWXaTt2h1wPPubcHmmZwomjqk9pMNj_wa5S94OSQegOM8Y85LlS1XQSdNg65nLRhszZmJPAqYv2bcKsoNeGINTiRbW4IsIwRlZDg.zwNWRe_zwSYGwyaZd8wZuQ.BKje0WZPqcRTjq4ruCEp4E1lTJQQcPikzLPbZRPIKs-La8elO4P3io9GTZ8ULiF09-x9-NwBsyy2RaRLkKNBlRmjOzeME2O00aJFcoc88a0.BmVKm-Hy66ImwjsWOh5ALw"
-        },
-    
-        "record": {
-            "A": "62.169.21.91"
-        }
-    }
-    
+  "owner": {
+    "username": "drichardcarl",
+    "email": "",
+    "discord": "355219910017810473",
+    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.c7N6MxjXTZENy08srgl-PDV-GuqNckghd3YJLjldUAAo80DJfLb2_CNzX14C7K04yjU5atIrQwd3hMLE8fhr5zwqz0hZGKq8AMqYW0fVlKxXXf2Gl9pX3YkF-BoZs9FU3zZc5Fk85wpSLJU5FRx1p4cVab819_gaREhOKHGFVrMq-WQsyqxFzVGvcDadXgyAYgIT6p1ajNi5dB2Xs_Ep9beNEKlxSvzx-DRdv_cCwyNZ_cARYIQWXaTt2h1wPPubcHmmZwomjqk9pMNj_wa5S94OSQegOM8Y85LlS1XQSdNg65nLRhszZmJPAqYv2bcKsoNeGINTiRbW4IsIwRlZDg.zwNWRe_zwSYGwyaZd8wZuQ.BKje0WZPqcRTjq4ruCEp4E1lTJQQcPikzLPbZRPIKs-La8elO4P3io9GTZ8ULiF09-x9-NwBsyy2RaRLkKNBlRmjOzeME2O00aJFcoc88a0.BmVKm-Hy66ImwjsWOh5ALw"
+  },
+
+  "record": {
+    "A": ["62.169.21.91"]
+  }
+}
