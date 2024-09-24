@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Clay990",
+    "email": "official@suraj.is-a.dev"
+  },
+  "record": {
+  "TXT": [ 
+    "v=spf1 include:zoho.com ~all"
+  ]
+}
+}
