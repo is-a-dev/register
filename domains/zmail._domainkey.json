@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Clay990",
+    "email": "asuraj991m@gmail.com"
+  },
+  "record": {
+  "TXT": [ 
+    "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCynLFWf+Or8UXFbj0VF2TV8uwsfgeB8CsNFlW+vh/QxO4D2QGWQsO78Z1zeLA99CvWHMcz028dJoBDWkRiQLjIuagw/HvGnZ6b33eatfB7c9ekMV8pOH4nkCwIlZOgaraQ99ujKVhkbQHjThzSy6XaeqRJydJoLRKJOQUa/fW32QIDAQAB"
+  ]
+}
+}
