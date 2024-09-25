@@ -6,10 +6,14 @@ function getDomainsList(filesPath) {
   var files = glob.apply(null, [filesPath, true, '.json']);
 
   for (var i = 0; i < files.length; i++) {
-    var basename = files[i].split('/').reverse()[0];
-    var name = basename.split('.')[0];
-
-    result.push({ name: name, data: require(files[i]) });
+    try {
+      var basename = files[i].split('/').reverse()[0];
+      var name = basename.split('.')[0];
+      
+      result.push({ name: name, data: require(files[i]) });
+    } catch (error) {
+      console.error(`Error reading file ${files[i]}: ${error.message}`);
+    }
   }
 
   return result;
@@ -77,6 +81,21 @@ for (var idx in domains) {
     } else {
       commit[domains[idx].name].push(
         TXT('', domainData.record.TXT)
+      );
+    }
+  }
+
+  // Handle NS records
+  if (domainData.record.NS) {
+    if (Array.isArray(domainData.record.NS)) {
+      for (var ns in domainData.record.NS) {
+        commit[domains[idx].name].push(
+          NS('', domainData.record.NS[ns] + ".")
+        );
+      }
+    } else {
+      commit[domains[idx].name].push(
+        NS('', domainData.record.NS + ".")
       );
     }
   }
