@@ -90,7 +90,7 @@ for (var idx in domains) {
     if (Array.isArray(domainData.record.NS)) {
       for (var ns in domainData.record.NS) {
         commit[domains[idx].name].push(
-          NS('', domainData.record.NS[ns] + ".")
+          NS('', `${domainData.record.NS}.`)
         );
       }
     } else {
