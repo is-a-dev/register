@@ -50,7 +50,7 @@ for (var idx in domains) {
   // Handle CNAME records
   if (domainData.record.CNAME) {
     commit[domains[idx].name].push(
-      CNAME('', domainData.record.CNAME + ".")
+      CNAME('', `${domainData.record.CNAME}.`)
     );
   }
 
