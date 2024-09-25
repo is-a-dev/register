@@ -1,0 +1,39 @@
+name: Publish
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "domains/**"
+      - ".github/workflows/publish.yml"
+      - "dnsconfig.js"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.ref }}-publish
+  cancel-in-progress: false
+
+jobs:
+  dns:
+    name: DNS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create PowerDNS credentials file
+        run: |
+          echo '{"powerdns": {"TYPE": "POWERDNS", "apiKey": "$PDNS_API_KEY", "apiUrl": "$PDNS_API_URL", "serverName": "$PDNS_serverName"}}' > ./creds.json
+
+      - name: Install DNSControl
+        uses: gacts/install-dnscontrol@v1
+        with:
+          version: 3.31.4
+
+      - name: Publish DNS Records
+        run: dnscontrol push
+        env:
+          PDNS_API_KEY: ${{ secrets.PDNS_API_KEY }}
+          PDNS_API_URL: ${{ secrets.PDNS_API_URL }}
+          PDNS_serverName: ${{ secrets.PDN_serverName }}
