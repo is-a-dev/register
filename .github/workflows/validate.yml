@@ -26,7 +26,7 @@ jobs:
             - name: Check
               uses: koenrh/dnscontrol-action@v3
               with:
-                  args: check
+                  args: check --debug
                   config_file: "dnsconfig.js"
 
     json:
