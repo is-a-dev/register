@@ -9,12 +9,10 @@ function getDomainsList(filesPath) {
     try {
       var basename = files[i].split('/').reverse()[0];
       var name = basename.split('.')[0];
-
-      console.log(name, basename)
       
       result.push({ name: name, data: require(files[i]) });
     } catch (error) {
-      console.error(`Error reading file ${files[i]}: ${error.message}`);
+      console.log(`Error reading file ${files[i]}: ${error.message}`);
     }
   }
 
@@ -56,18 +54,26 @@ for (var idx in domains) {
     );
   }
 
-  // Handle URL records (for redirects)
-  if (domainData.record.URL) {
-    commit[domains[idx].name].push(
-      URL('', domainData.record.URL)
-    );
-  }
-
   // Handle MX records
   if (domainData.record.MX) {
     for (var mx in domainData.record.MX) {
       commit[domains[idx].name].push(
         MX('', 10, `${domainData.record.MX[mx]}.`) // Default priority is set to 10
+      );
+    }
+  }
+
+  // Handle NS records
+  if (domainData.record.NS) {
+    if (Array.isArray(domainData.record.NS)) {
+      for (var ns in domainData.record.NS) {
+        commit[domains[idx].name].push(
+          NS('', `${domainData.record.NS}.`)
+        );
+      }
+    } else {
+      commit[domains[idx].name].push(
+        NS('', `${domainData.record.NS}.`)
       );
     }
   }
@@ -87,19 +93,11 @@ for (var idx in domains) {
     }
   }
 
-  // Handle NS records
-  if (domainData.record.NS) {
-    if (Array.isArray(domainData.record.NS)) {
-      for (var ns in domainData.record.NS) {
-        commit[domains[idx].name].push(
-          NS('', `${domainData.record.NS}.`)
-        );
-      }
-    } else {
-      commit[domains[idx].name].push(
-        NS('', `${domainData.record.NS}.`)
-      );
-    }
+  // Handle URL records (for redirects)
+  if (domainData.record.URL) {
+    commit[domains[idx].name].push(
+      A('', IP('1.1.1.1') // URL records are not actual records
+    );
   }
 }
 
