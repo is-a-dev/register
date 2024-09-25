@@ -1,9 +1,11 @@
+const glob = require("glob"); // Assuming you are using glob from Node.js
+
 var regNone = NewRegistrar("none");
 var providerPdns = DnsProvider(NewDnsProvider("powerdns"));
 
 function getDomainsList(filesPath) {
     var result = [];
-    var files = glob.apply(null, [filesPath, true, ".json"]);
+    var files = glob.sync(filesPath); // Use glob.sync for simplicity
 
     for (var i = 0; i < files.length; i++) {
         try {
@@ -31,17 +33,15 @@ for (var idx in domains) {
 
     // Handle A records
     if (domainData.record.A) {
-        for (var a in domainData.record.A) {
-            commit[domains[idx].name].push(
-                A("", IP(domainData.record.A[a])) // Assuming root domain for 'subdomain'
-            );
+        for (let a of domainData.record.A) {
+            commit[domains[idx].name].push(A("", IP(a)));
         }
     }
 
     // Handle AAAA records
     if (domainData.record.AAAA) {
-        for (var aaaa in domainData.record.AAAA) {
-            commit[domains[idx].name].push(AAAA("", domainData.record.AAAA[aaaa]));
+        for (let aaaa of domainData.record.AAAA) {
+            commit[domains[idx].name].push(AAAA("", aaaa));
         }
     }
 
@@ -52,18 +52,16 @@ for (var idx in domains) {
 
     // Handle MX records
     if (domainData.record.MX) {
-        for (var mx in domainData.record.MX) {
-            commit[domains[idx].name].push(
-                MX("", 10, `${domainData.record.MX[mx]}.`) // Default priority is set to 10
-            );
+        for (let mx of domainData.record.MX) {
+            commit[domains[idx].name].push(MX("", 10, `${mx}.`)); // Default priority is set to 10
         }
     }
 
     // Handle NS records
     if (domainData.record.NS) {
         if (Array.isArray(domainData.record.NS)) {
-            for (var ns in domainData.record.NS) {
-                commit[domains[idx].name].push(NS("", `${domainData.record.NS}.`));
+            for (let ns of domainData.record.NS) {
+                commit[domains[idx].name].push(NS("", `${ns}.`));
             }
         } else {
             commit[domains[idx].name].push(NS("", `${domainData.record.NS}.`));
@@ -73,8 +71,8 @@ for (var idx in domains) {
     // Handle TXT records
     if (domainData.record.TXT) {
         if (Array.isArray(domainData.record.TXT)) {
-            for (var txt in domainData.record.TXT) {
-                commit[domains[idx].name].push(TXT("", domainData.record.TXT[txt]));
+            for (let txt of domainData.record.TXT) {
+                commit[domains[idx].name].push(TXT("", txt));
             }
         } else {
             commit[domains[idx].name].push(TXT("", domainData.record.TXT));
