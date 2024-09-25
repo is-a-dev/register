@@ -95,7 +95,7 @@ for (var idx in domains) {
       }
     } else {
       commit[domains[idx].name].push(
-        NS('', domainData.record.NS + ".")
+        NS('', `${domainData.record.NS}.`)
       );
     }
   }
