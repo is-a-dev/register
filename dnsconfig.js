@@ -65,7 +65,7 @@ for (var idx in domains) {
   if (domainData.record.MX) {
     for (var mx in domainData.record.MX) {
       commit[domains[idx].name].push(
-        MX('', 10, domainData.record.MX[mx] + ".") // Default priority is set to 10
+        MX('', 10, `${domainData.record.MX[mx]}.`) // Default priority is set to 10
       );
     }
   }
