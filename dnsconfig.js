@@ -1,5 +1,3 @@
-const glob = require("glob"); // Assuming you are using glob from Node.js
-
 var regNone = NewRegistrar("none");
 var providerPdns = DnsProvider(NewDnsProvider("powerdns"));
 
