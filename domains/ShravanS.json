@@ -1,0 +1,12 @@
+{
+    "description": "Clean looking domain for my personal website",
+    "repo": "https://github.com/VirtualSquares/VirtualSquares.github.io",
+    "owner": {
+        "username": "VirtualSquares",
+        "email": "shravanparadigm@gmail.com",
+        "discord": "cannonboys"
+    },
+    "record": {
+        "CNAME": "VirtualSquares.github.io"
+    }
+} 
