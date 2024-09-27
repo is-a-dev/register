@@ -13,7 +13,7 @@
 <p align="center"><strong>is-a-dev</strong> is a service that allows developers to get a sweet-looking ".is-a.dev" domain for their personal websites.</p>
 
 <p align="center">
-   <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
+   <a href="https://discord.gg/is-a-dev"><img alt="Discord Server" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
 </p>
 
 ## Phishing emails alert
@@ -45,7 +45,7 @@ If you have an issue that contains confidental infomation, send an email to secu
 > [!WARNING]
 > **When using automated registration, please ensure your records are valid. Please do NOT "test" out the system and create invalid PRs, it wastes maintainers' time.**
 
-Join our [Discord server](https://discord.gg/is-a-dev-830872854677422150), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
+Join our [Discord server](https://discord.gg/is-a-dev), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
 
 ## Status
 You can check the uptime of our services on our [status dashboard](https://is-a-dev.hrsn.net).
