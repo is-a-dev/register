@@ -1,12 +1,12 @@
 {
-    "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/<github-username>/<github-repository>",
+    "description": "Will serve as a dev website",
+    "repo": "https://github.com/RendyM76/RendyM76",
     "owner": {
-        "username": "<github-username>",
-        "email": "<email@address>",
-        "twitter": "<twitter-username>"
+        "username": "@RendyM76",
+        "email": "rendaniman@outlook.com",
+        "twitter": "@WizzyCanny"
     },
     "record": {
-        "CNAME": "<github-username>.github.io"
+        "CNAME": "rendym76.github.io"
     }
 } 
