@@ -1,1 +1,12 @@
-
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/<github-username>/<github-repository>",
+    "owner": {
+        "username": "<github-username>",
+        "email": "<email@address>",
+        "twitter": "<twitter-username>"
+    },
+    "record": {
+        "CNAME": "<github-username>.github.io"
+    }
+} 
