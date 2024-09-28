@@ -1,0 +1,12 @@
+{
+    "description": "My portfolio website",
+    "repo": "https://github.com/abhishekpythons/online-cv",
+    "owner": {
+        "username": "abhishekpythons",
+        "email": "abhishekpythons@gmail.com",
+        "twitter": "abhishekpythons"
+    },
+    "record": {
+        "CNAME": "abhishekpythons.github.io/online-cv"
+    }
+}
