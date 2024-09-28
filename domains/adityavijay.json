@@ -4,6 +4,10 @@
         "email": "adityavijay2103@gmail.com"
     },
     "record": {
-        "CNAME": "resume-qt2q.onrender.com"
+        "URL Forward": {
+            "source": "@",
+            "destination": "https://bento.me/adityavijay21",
+            "type": "301 (Permanent Redirect)"
+        }
     }
 }
