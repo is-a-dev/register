@@ -1,9 +1,11 @@
 {
+  "description": "A personal website, for me.",
+  "repo": "https://github.com/oopshnik/oopshnik.github.io",
   "owner": {
-    "email": "your-email@example.com"
+    "username": "oopshnik",
+    "email": ""
   },
-  "records": {
+  "record": {
     "CNAME": "oopshnik.github.io"
-  },
-  "proxied": false
+  }
 }
