@@ -1,0 +1,11 @@
+{
+  "description": "Documentation for is-a-dev",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "delta-omega",
+    "email": "zxroff@proton.me"
+  },
+  "record": {
+    "CNAME": "https://api-delta-omega.bot.nu/"
+  }
+}
