@@ -1,11 +1,9 @@
 {
-  "description": "Documentation for is-a-dev",
-  "repo": "https://github.com/is-a-dev/docs",
   "owner": {
-    "username": "delta-omega",
+    "username": "seiko",
     "email": "zxroff@proton.me"
   },
   "record": {
-    "CNAME": "https://api-delta-omega.bot.nu/"
+    "URL": "https://delta-omega.rf.gd/"
   }
 }
