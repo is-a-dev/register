@@ -1,9 +1,12 @@
 {
   "owner": {
     "username": "vollowx",
-    "email": "muffinslog@proton.me"
+    "email": "vollowx@proton.me"
   },
   "record": {
-    "CNAME": "vollowx.github.io"
+    "MX": [
+      "dion.ns.cloudflare.com",
+      "treasure.ns.cloudflare.com"
+    ]
   }
 }
