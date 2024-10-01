@@ -1,0 +1,11 @@
+{
+    "description": "I want to use this domain as my personal web portfolio.",
+    "repo": "https://github.com/lrferreiro",
+    "owner": {
+        "username": "lrferreiro",
+        "email": "lrferreiro910208@gmail.com"
+    },
+    "record": {
+        "CNAME": "lrferreiro.github.io"
+    }
+}
