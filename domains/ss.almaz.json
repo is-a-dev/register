@@ -1,12 +1,9 @@
 {
   "owner": {
     "username": "AlmaziikDev",
-    "email": "admin@almaz.is-a.dev",
-    "github_id": 132609906
+    "email": "admin@almaz.is-a.dev"
   },
   "record": {
-    "A": [
-      "45.11.229.211"
-    ]
+    "CNAME": "proxy.weissx.net"
   }
 }
