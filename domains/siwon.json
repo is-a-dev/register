@@ -1,9 +1,11 @@
 {
+  "description": "My own introduce page",
+  "repo": "https://github.com/siwonpada/siwonpada",
   "owner": {
     "username": "siwonpada",
     "email": "psw041115@gmail.com"
   },
   "record": {
-    "A": ["43.201.138.247"]
+    "CNAME": "siwonpada.github.io"
   }
 }
