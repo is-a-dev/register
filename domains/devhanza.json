@@ -1,11 +1,9 @@
 {
-  "description": "DevHanza Website",
-  "repo": "https://github.com/DevHanza/hansana.is-a.dev",
   "owner": {
-    "username": "devhanza",
+    "username": "DevHanza",
     "email": "josephandrew1@logicstreak.com"
   },
   "record": {
-    "URL": "hansana.is-a.dev"
+    "URL": "https://hansana.is-a.dev/"
   }
 }
