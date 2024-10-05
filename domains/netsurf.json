@@ -1,0 +1,12 @@
+{
+  "description": "A Nodejs proxy built for circumventing information or internet censorship.",
+  "repo": "https://github.com/epic-person-on/unblocker",
+  "owner": {
+    "username": "epic-person-on",
+    "email": "",
+    "discord": "1061741010109071491"
+  },
+  "record": {
+    "CNAME": "http://ec2-54-91-6-195.compute-1.amazonaws.com/"
+  }
+}
