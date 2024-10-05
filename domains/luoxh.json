@@ -1,13 +1,12 @@
 {
-        "owner": {
-           "username": "Melishy",
-           "email": "",
-           "discord": "1053012080812359750",
-           "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.B3hAKGwYwN12MhWyWlMcowtjr_w6FqpinnuTuIXKqUvuTL3ToA17Iy6qIZ6fojNxUsuhtz7fxnE8WkhLsPsVZ08_td5fFMJPThpP4fyqLyFppKjxNnPb4cLSvTec2kFSeyI8FWihG8kfinPeYwps3_rWMUhxQm1lQ-4iBGQ318nthuYs9xVvMsEJH2ftIriSzfA7N4bFJRhJTukB3ssjEH4HEsKDUuuk-TzSJcsSfTLfhWNfqZpIDo-4usv3ZnsWnddXr--nFyUGzRPbuyG_pYb49HJVu2hFGpwFN4AFyPQTX9O70SfRF7r3phm9OFLbvOL5l62Mq-JtBh8hTMKGVw.2jTYnYz8EtdK821s5QzTYQ.BfnuxMM5WPKEQnIYK7-1_p90M8we9BSqSo5hvA7TThM7YIgx-gsfsiOjz--ckrx6H5Ky1vDqXtWhyjDi5wCPti24czng0HpZVZvtHzqMphs.SoyzJiB6WaULLrIMI-Akyg"
-        },
-    
-        "record": {
-            "CNAME": "_github-pages-challenge-melishy.luoxh"
-        }
+    "description": "🌸 This is nicer with it's own site of discord app named Luo Xiaohei",
+    "repo": "https://github.com/lxhapp/lxhapp.github.io",
+    "owner": {
+        "username": "Melishy",
+        "email": "nazariktymkiv67@gmail.com",
+        "twitter": "themelishy"
+    },
+    "record": {
+        "CNAME": "lxhapp.github.io"
     }
-    
+} 
