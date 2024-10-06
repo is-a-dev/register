@@ -1,12 +1,9 @@
 {
-    "description": "so this is about showing my projects and gonna add more stuff soon!",
-    "repo": "https://github.com/QuantumMapleQC/quantumapleqc.github.io",
-    "owner": {
-        "username": "QuantumMapleQC",
-        "email": "thefattestmod@gmail.com",
-        "Discord": "quantummapleqc"
-    },
-    "record": {
-        "CNAME": "https://quantummapleqc.github.io/quantumapleqc.github.io/"
-    }
-} 
+  "owner": {
+    "username": "quantummapleqc",
+    "email": "thefattestmod@gmail.com"
+  },
+  "record": {
+    "CNAME": "quantummapleqc.github.io"
+  }
+}
