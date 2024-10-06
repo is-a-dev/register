@@ -5,6 +5,6 @@
   },
 
   "record": {
-    "CNAME": "cname.dub.co"
+    "TXT": "vc-domain-verify=w.is-a.dev,c96785bdf579f8c7140e"
   }
 }
