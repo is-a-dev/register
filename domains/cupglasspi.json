@@ -1,0 +1,14 @@
+{
+    "description": "t a i l s c a l e tunnel for my pi, not always active tho",
+    "repo": "",
+    "owner": {
+        "username": "cupglassdev",
+        "email": "",
+        "twitter": "cupglassdev",
+        "lahelu": "https://lahelu.com/user/cupglassdev",
+        "discord": "cupglassdev"
+    },
+    "record": {
+        "CNAME": "pi.neko-velociraptor.ts.net"
+    }
+}

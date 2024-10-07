@@ -87,6 +87,8 @@ describe("validateDomainData", () => {
         { ...defaultDomain, name: "_dmarc" },
         { ...defaultDomain, name: "_gh-is-a-dev" },
         { ...defaultDomain, name: "_domainkey" },
+        { ...defaultDomain, name: "_improvmx" },
+        { ...defaultDomain, name: "_vercel" },
     ];
 
     const validCases = [
@@ -141,6 +143,8 @@ describe("validateDomainData", () => {
         { ...defaultDomain, name: "_gh-hello01_ga" },
         { ...defaultDomain, name: "_domainkey.subdomain" },
         { ...defaultDomain, name: "mx._domainkey.subdomain" },
+        { ...defaultDomain, name: '_improvmx.subdomain' },
+        { ...defaultDomain, name: '_vercel.subdomain' },
         { ...defaultDomain, name: "a.b" },
     ];
 
