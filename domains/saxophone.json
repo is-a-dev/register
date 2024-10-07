@@ -1,13 +1,12 @@
 {
-    "description": "my website's ipfs stuff. (basically web3 -> web2 connection)",
+    "description": "my website's ipfs stuff. (basically web3 -> web2 connection). i used an nginx proxy hosted on render in order to proxy my website!",
     "owner": {
         "username": "saxophone-guy",
         "email": "itsarchit@keemail.me"
     },
     "record": {
         "A": [
-            "104.18.24.34",
-            "104.18.25.34"
+            "216.24.57.1"
         ],
         "MX": [
             "mx1.forwardemail.net",
