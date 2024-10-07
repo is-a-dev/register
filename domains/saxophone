@@ -1,0 +1,18 @@
+{
+    "description": "my website's ipfs stuff. (basically web3 -> web2 connection)",
+    "owner": {
+        "username": "saxophone-guy",
+        "email": "itsarchit@keemail.me"
+    },
+    "record": {
+        "A": [
+            "104.18.24.34",
+            "104.18.25.34"
+        ],
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": "forward-email=itsarchit@keemail.me"
+    }
+}
