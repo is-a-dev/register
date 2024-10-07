@@ -1,0 +1,10 @@
+{
+    "description": "my website's ipfs stuff. (basically web3 -> web2 connection)",
+    "owner": {
+        "username": "saxophone-guy",
+        "email": "itsarchit@keemail.me"
+    },
+    "record": {
+        "TXT": "dnslink=/ipns/k51qzi5uqu5dk6ipnpcrhit2aii6c8q00d53lrswd0702q67c6dap9g1z8lewm"
+    }
+}
