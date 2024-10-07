@@ -1,0 +1,11 @@
+{
+    "description": "This subdomain points to my Netlify site",
+    "repo": "https://github.com/keviiixaviiii/My-Portfolio",
+    "owner": {
+        "username": "keviiixaviiii",
+        "email": "iamkevinxavi@gmail.com"
+    },
+    "record": {
+    "CNAME": "myreactandcssportfolio.netlify.app"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "description": "Uptime website for my stuff, gonna use hetrixtools for now, might change to something else later",
+    "repo": "N/A",
+    "owner": {
+        "username": "YUG38",
+        "email": "4yugpatel123@gmail.com",
+        "discord": "name_yug"
+    },
+    "record": {
+        "CNAME": "reports.hetrixtools.com"
+    }
+}

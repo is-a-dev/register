@@ -1,0 +1,12 @@
+{
+    "description": "Links to the github page which displays a README file",
+    "repo": "https://github.com/EasyNebula/EasyNebula",
+    "owner": {
+        "username": "EasyNebula",
+        "email": "geographicalfacts16@gmail.com",
+        "twitter": "@easynebula"
+    },
+    "record": {
+        "CNAME": "easynebula.github.io"
+    }
+} 
