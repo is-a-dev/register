@@ -1,0 +1,14 @@
+{
+  "description": "Troytech",
+  "repo": "https://github.com/Tmoneytroyt/register",
+  "owner": {
+    "username": "tmoneytroyt",
+    "email": "troysmithson12@icloud.com"
+  },
+  "record": {
+    "MX": [
+      "keira.ns.cloudflare.com",
+      "todd.ns.cloudflare.com"
+    ]
+  }
+}
