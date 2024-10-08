@@ -32,7 +32,7 @@ If you have an issue that contains confidental infomation, send an email to secu
 
 ## Register
 ### Manual Registration
-> If you want a more visual guide, check out [this blog post](https://w.is-a.dev/2u58kTT).
+> If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
 
 - [Fork](https://github.com/is-a-dev/register/fork) and star this repository
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`
