@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "orxngc",
+    "discord": "orangc",
     "email": "orangc@proton.me"
   },
   "record": {
-    "URL": "https://orangc.is-a.dev"
+    "CNAME": "edge.redirect.pizza"
   }
 }

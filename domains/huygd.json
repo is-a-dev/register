@@ -1,0 +1,13 @@
+{
+  "description": "My first domain to learn",
+  "repo": "https://github.com/huygmdvn/register",
+  "owner": {
+    "username": "huygmdvn",
+    "email": "huynhquochuytkna@gmail.com"
+  },
+  "record": {
+    "A": [
+      "103.77.240.59"
+    ]
+  }
+}

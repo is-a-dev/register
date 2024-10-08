@@ -1,0 +1,10 @@
+{
+  "description": "Personal Portfolio",
+  "owner": {
+    "username": "mxritzdev",
+    "email": "contact@mxritz.dev"
+  },
+  "record": {
+    "CNAME": "proxy.host.bytes.wtf"
+  }
+}
