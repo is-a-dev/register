@@ -7,7 +7,7 @@
         },
     
         "record": {
-            "A": ["76.76.21.21"]
+            "TXT": "vc-domain-verify=windowsed.is-a.dev,e5344d1f26e8286585de"
         }
     }
     
