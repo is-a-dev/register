@@ -7,7 +7,7 @@
         },
     
         "record": {
-            "CNAME": "notrabug.vercel.app"
+            "TXT": "vc-domain-verify=rabug.is-a.dev,4ba0ae912b528f63a9a7"
         }
     }
     
