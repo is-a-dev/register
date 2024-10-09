@@ -1,0 +1,13 @@
+{
+  "description": "The aaPanel login domain :3",
+  "repo": "https://github.com/huygmdvn/register",
+  "owner": {
+    "username": "huygmdvn",
+    "email": "huynhquochuytkna@gmail.com"
+  },
+  "record": {
+    "AAAA": [
+      "2a06:de00:701:1000:a000::f"
+    ]
+  }
+}
