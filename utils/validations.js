@@ -61,6 +61,7 @@ const extraSupportedNames = [
     R.equals("_domainkey"),
     R.equals("_improvmx"),
     R.equals("_vercel"),
+    R.equals("_dnslink"),
     testRegex(/^_gh-[a-z0-9-_]+$/i),
 ];
 
