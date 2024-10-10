@@ -9,9 +9,9 @@
         "record": {
             "TXT": ["zoho-verification=zb09491787.zmverify.zoho.in", "_github-pages-challenge-crazo7924.crazo7924.is-a.dev=09f923d8e93c7000208a6202541915"]
             "MX": [
-                "mx.zoho.in",
-                "mx2.zoho.in",
-                "mx3.zoho.in"
+                "crazo7924=mx.zoho.in",
+                "crazo7924=mx2.zoho.in",
+                "crazo7924=mx3.zoho.in"
             ]  
         }
     }
