@@ -8,6 +8,6 @@
         "discord": "cupglassdev"
     },
     "record": {
-        "TXT": ["vc-domain-verify=rpinix.cupglass.is-a.dev,0b8b2c5753fc7cbe4b83"]
+        "TXT": "vc-domain-verify=rpinix.cupglass.is-a.dev,0b8b2c5753fc7cbe4b83"
     }
 } 
