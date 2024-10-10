@@ -1,1 +1,12 @@
-
+{
+    "description": "For a game website",
+    "repo": "https://github.com/CODEJACKS/DBYSAGAMES",
+    "owner": {
+        "username": "CODEJACKS",
+        "email": "1019628@rochesterschools.org",
+        "twitter": "EliteGamerCJ"
+    },
+    "record": {
+        "CNAME": "codejacks.github.io"
+    }
+} 
