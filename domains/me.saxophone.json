@@ -1,5 +1,5 @@
 {
-    "description": "my website's ipfs stuff. (basically web3 -> web2 connection). using dweb.link + a reverse proxy!!",
+    "description": "my website's ipfs stuff. (basically web3 -> web2 connection). using cloudflare-ipfs + dnslink!",
     "owner": {
         "username": "saxophone-guy",
         "email": "itsarchit@keemail.me"
