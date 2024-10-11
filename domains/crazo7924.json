@@ -7,9 +7,8 @@
         },
     
         "record": {
-            "CNAME": "hashnode.network",
             "TXT": [
-                    "zoho-verification=zb09491787.zmverify.zoho.in"
+                "zoho-verification=zb09491787.zmverify.zoho.in"
             ],
             "MX": [
                 "mx.zoho.in",
