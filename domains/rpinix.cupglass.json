@@ -1,0 +1,13 @@
+{
+    "description": "just a simple website for my rpi",
+    "repo": "https://github.com/cupglassdev/rpi-nix-web",
+    "owner": {
+        "username": "cupglassdev",
+        "email": "", "twitter":"https://x.com/cupglassdev",
+"lahelu":"https://lahelu.com/user/cupglassdev",
+        "discord": "cupglassdev"
+    },
+    "record": {
+        "A": ["76.76.21.21"]
+    }
+} 
