@@ -1,13 +1,10 @@
 {
-        "owner": {
-           "username": "alvinsjoy",
-           "email": "",
-           "discord": "825382504353234954",
-           "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.mSyeasKeLF967H_3kL70zkRNAb1U_8qce5osfImfx_g0JmW1NjV-7QZqWl-21lTgTOArvUSecDUev-0s69N9b7eF93UdC5E7F_JwpUjgSlrvZgYFhJdt2uluvjUxSfwQ3R6gtqWa_JjpDE7Qfz7xd4-zjzUsaTu9ZyWBp8GjsxySDiS2ARL4atRV3ln_F0dhatC_zOEePqi6RYVM-KaoFQEu917SBiEVtRRnVjwVY4rJCvgWOHrDN6GTcXCukY7xy5_a1k4mT7Gq9vm5dgZtogiON6j1gfApmdDiDzowoijO2cYqZJKHke3k8IvpCECQz5mtsPtk6ORXS8N8eM_IaA.Ij5H7KUQ811TEgUgSCyA0A.X6IlwhRDrwLQH3ZUIbtjUahqvTLUjGlgqA08Daco3021WBqKEmaOLMIEoIzHPvS7cyaTY1gH6fstZt1zyelZjDqLHrUNxpX02qcjvOv_KsM.WdgSbgzT002CX12BxsJr9w"
-        },
-    
-        "record": {
-            "TXT": "vc-domain-verify=alvin.is-a.dev,12830fd6b03d0f0b523c"
-        }
-    }
-    
+  "owner": {
+    "username": "alvinsjoy",
+    "email": "",
+    "discord": "825382504353234954"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+  }
+}
