@@ -1,13 +1,11 @@
 {
-        "owner": {
-           "username": "itsFatlum",
-           "email": "",
-           "discord": "563697359423406082",
-           "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.eMf4IlWexPe6hFp4hgcIjsQF7LlJVjZCor8HknXn87-_2J7ttauRifc5MzAdue3I7V8PgfBjusMWI63By5ZVL_QhWMwXdFpw8vOR3KB46SIwJ1VBZ_0fzme4_yK9Rn0WHYMkPgFTdQm7bKhiM_euYvD7xkVDCGcO46mghx69NYYMlz6WsuYV5gfDih0LKl_mxkQtpgL0NnBoTuy0_cGmLn2atwZmagQRrduf91LmkA0SMOc9OXlKJG6-aIAxz0J2jn3BsG9fV-fuBhn_ToMTzNkuqRB8Ikxwn4HbtrCLHbBt2XcSBLGXzvPwmCO_RBhghvT9jGF7D8RCJQvLrtfIWg.VZI0dxxVJpzoA988Se1djw.2plxMGn9juRIF9E9wn235jyEw7ykma_ifBnpiiWJLOTp36IIr0lYcb70zBc4kFEORDI5Phedd94c2XIXCnlnM-Z86Xa-pB-kV8iXv4oGMuJkXSNDwZlpCFnSKxZZnPYK.41WLVG_yeCWpPBlaSV_DIw"
-        },
-    
-        "record": {
-            "CNAME": "itsfatlum.github.io"
-        }
+    "owner": {
+        "username": "itsFatlum",
+        "email": "",
+        "discord": "563697359423406082",
+        "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.eMf4IlWexPe6hFp4hgcIjsQF7LlJVjZCor8HknXn87-_2J7ttauRifc5MzAdue3I7V8PgfBjusMWI63By5ZVL_QhWMwXdFpw8vOR3KB46SIwJ1VBZ_0fzme4_yK9Rn0WHYMkPgFTdQm7bKhiM_euYvD7xkVDCGcO46mghx69NYYMlz6WsuYV5gfDih0LKl_mxkQtpgL0NnBoTuy0_cGmLn2atwZmagQRrduf91LmkA0SMOc9OXlKJG6-aIAxz0J2jn3BsG9fV-fuBhn_ToMTzNkuqRB8Ikxwn4HbtrCLHbBt2XcSBLGXzvPwmCO_RBhghvT9jGF7D8RCJQvLrtfIWg.VZI0dxxVJpzoA988Se1djw.2plxMGn9juRIF9E9wn235jyEw7ykma_ifBnpiiWJLOTp36IIr0lYcb70zBc4kFEORDI5Phedd94c2XIXCnlnM-Z86Xa-pB-kV8iXv4oGMuJkXSNDwZlpCFnSKxZZnPYK.41WLVG_yeCWpPBlaSV_DIw"
+    },
+    "record": {
+        "CNAME": "itsfatlum.github.io"
     }
-    
+}
