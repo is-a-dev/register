@@ -1,0 +1,12 @@
+{
+    "description": "Domain for projects page",
+    "repo": "https://github.com/JVDesignBavaria/jvdesignbavaria.github.io",
+    "owner": {
+        "username": "JVDesignBavaria",
+        "email": "",
+        "twitter": "JVDesignBavaria"
+    },
+    "record": {
+        "CNAME": "jvdesignbavaria.github.io"
+    }
+} 

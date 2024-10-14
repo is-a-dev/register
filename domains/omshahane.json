@@ -1,0 +1,11 @@
+{
+  "description": "Om Shahanee' personal developer website",
+  "repo": "https://github.com/shahane806/shahane806.github.io",
+  "owner": {
+    "username": "shahane806",
+    "email": "om.p.shahane@gmail.com"
+  },
+  "record": {
+    "CNAME": "shahaneom-portfolio.vercel.app"
+  }
+}
