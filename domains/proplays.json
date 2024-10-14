@@ -1,1 +1,10 @@
-
+{
+        "owner": {
+           "username": "ProPlays2312",
+           "email": "proplays2312@hotmail.com"
+        },
+  "record": {
+    "NS": "amit.ns.cloudflare.com",
+    "NS": "lola.ns.cloudflare.com"
+  }
+}
