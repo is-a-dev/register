@@ -1,16 +1,9 @@
 {
-  "description": "Foxie's Homepage by arman",
-  "repo": "https://github.com/ItzArman09/foxie.js",
   "owner": {
     "username": "ItzArman09",
-    "email": "contact@mail.arman.is-a.dev"
+    "email": "itz.armxn@outlook.com"
   },
   "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ]
+    "A": ["45.140.142.112"]
   }
 }

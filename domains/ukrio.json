@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "ukriu",
+    "email": "isadev@ukriu.com",
+    "discord": "ukriu"
+  },
+  "record": {
+    "URL": "https://ukriu.github.io",
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  }
+}

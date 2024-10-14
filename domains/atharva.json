@@ -1,11 +1,14 @@
 {
-  "repo": "https://github.com/atharvalt/atharvalt.github.io",
+  "repo": "https://github.com/atharvaupadhyay/atharvaupadhyay.github.io",
   "owner": {
-    "username": "atharvalt",
-    "email": "atharva.upadhyay1099@gmail.com",
-    "discord": "シAtharva#5374"
+    "username": "atharvaupadhyay",
+    "email": "atharva.upadhyay1099@gmail.com"
   },
   "record": {
-    "CNAME": "atharvalt.github.io"
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "psicmi",
-        "email": "hello@psicmi.party"
-    },
-    "record": {
-        "CNAME": "psicmi.win"
-    }
-} 
+  "owner": {
+    "username": "psicmi",
+    "email": "hello@psicmi.party"
+  },
+  "record": {
+    "CNAME": "psicmi.win"
+  }
+}

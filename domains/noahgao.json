@@ -1,12 +1,11 @@
+{
+  "owner": {
+    "username": "noahziheng",
+    "email": "ziheng1719@163.com",
+    "discord": "900791393931362374"
+  },
 
-    {
-      "owner": {
-        "username": "noahziheng",
-        "email": "noahgaocn@outlook.com"
-      },
-
-      "record": {
-        "CNAME": "noahziheng.github.io"
-      }
-    }
-  
+  "record": {
+    "CNAME": "noahziheng.github.io"
+  }
+}

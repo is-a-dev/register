@@ -1,11 +1,9 @@
- 
-    {
-      "owner": {
-        "username": "TurquoiseTNT",
-        "email": "turquoisetntmultimedia@gmail.com"
-      },
-      "record": {
-        "CNAME": "turquoisetntgithubio-production-790d.up.railway.app"
-      }
-    }
-    
+{
+  "owner": {
+    "username": "SebTNT",
+    "email": "turquoisetntmultimedia@gmail.com"
+  },
+  "record": {
+    "CNAME": "turquoisetnt.github.io"
+  }
+}

@@ -1,11 +1,11 @@
- 
-    {
-      "owner": {
-        "username": "Radi0o",
-        "email": "radi0o0@outlook.com"
-      },
-      "record": {
-        "CNAME": "zffu.ml"
-      }
-    }
-      
+{
+  "description": "zffu.is-a.dev",
+  "owner": {
+    "username": "Zffu",
+    "email": "zffumc@gmail.com",
+    "discord": "Zffu"
+  },
+  "record": {
+    "CNAME": "zffu.github.io"
+  }
+}

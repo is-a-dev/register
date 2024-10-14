@@ -4,6 +4,6 @@
     "email": "sukimayoo@outlook.com"
   },
   "record": {
-    "CNAME": "cb594ad8-2514-45d4-94a7-538476039dec.id.repl.co"
+    "A": ["69.197.135.204"]
   }
 }
