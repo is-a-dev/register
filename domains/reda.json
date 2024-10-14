@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "redaAssemghor",
-        "email": "assemghor.reda@gmail.com"
-    },
-    "record": {
-        "CNAME": "portfolio-mocha-eta-22.vercel.app"
-    }
+  "owner": {
+    "username": "redaAssemghor",
+    "email": "",
+    "discord": "r3dapt"
+  },
+  "record": {
+    "CNAME": "portfolio-mocha-eta-22.vercel.app"
+  }
 }
