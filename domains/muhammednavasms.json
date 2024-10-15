@@ -7,7 +7,7 @@
         },
     
         "record": {
-            "TXT": "vc-domain-verify=muhammednavasms.is-a.dev,d84bd41906d20542760c"
+            "CNAME": "muhammednavasms.vercel.app"
         }
     }
     
