@@ -1,1 +1,13 @@
-
+{
+  "description": "a cool site lol",
+  "repo": "https://github.com/TenCommands/tencommands.github.io",
+  "owner": {
+    "username": "TenCommands",
+    "email": "",
+    "discord": "tencommands",
+    "discordID": "493934182314147851"
+  },
+  "record": {
+    "CNAME": "tencommands.github.io"
+  }
+}
