@@ -117,7 +117,7 @@ for (var idx in domains) {
   // Handle URL records (redirect)
   if (domainData.record.URL) {
     commit[domainData.record.domain].push(
-      CNAME(domainData.subdomain, "redirect.is-a.dev.", proxyState)
+      CNAME(domainData.subdomain, "redirect.is-a.dev.", proxy.on)
     );
   }
 }
