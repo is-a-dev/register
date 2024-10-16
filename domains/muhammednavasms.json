@@ -1,13 +1,11 @@
 {
-        "owner": {
-           "username": "norkart1",
-           "email": "",
-           "discord": "1091300260946649189",
-           "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.fk_lYQt6PgasjualaKABu9eLWe8glsQoo26nRdIBsioY39CtrbS-dqXAUY6h2RMrWwRChrIWhOsgrX108-bkQGM_u2GVb6ygn1yILWsIieQGNhJckReinAwfZYJUBNhhB2x44X9B8iirTgIjFSJaOrWC9mNodlL7lz83UCs5bh5L0Bv7hsN4FpSGTsPt5G8RLO5zUKVkU8tVmLeAbjfLRh854HEIukEgmKMnh-qYQ1Asey-suQJM3FiotZKBIealQGyDzgzhLoRmW36SD2qXOl_4uok25kcNt-9LwT9VTFSC_TT-raoWLQBtgBIk-i0N0rDmfBB40rqt5y3F_coSvQ.5bA1NoVGAzhgVh7xRG4qKQ._9Q6CwjQTcheJjR7kHKxvS2qiiYeSyOXAoU7Gbp9Q8a1o5eZtmHVjROGjHfDeWX6DOYURhLT4jkUcfZ1sFFtKZq-VyZtuifBFZdNwL4Y2Y0.frwWDeT7RUziovS-crtE4A"
-        },
-    
-        "record": {
-            "CNAME": "muhammednavasms.vercel.app"
-        }
+    "owner": {
+        "username": "norkart1",
+        "email": "",
+        "discord": "1091300260946649189",
+        "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.fk_lYQt6PgasjualaKABu9eLWe8glsQoo26nRdIBsioY39CtrbS-dqXAUY6h2RMrWwRChrIWhOsgrX108-bkQGM_u2GVb6ygn1yILWsIieQGNhJckReinAwfZYJUBNhhB2x44X9B8iirTgIjFSJaOrWC9mNodlL7lz83UCs5bh5L0Bv7hsN4FpSGTsPt5G8RLO5zUKVkU8tVmLeAbjfLRh854HEIukEgmKMnh-qYQ1Asey-suQJM3FiotZKBIealQGyDzgzhLoRmW36SD2qXOl_4uok25kcNt-9LwT9VTFSC_TT-raoWLQBtgBIk-i0N0rDmfBB40rqt5y3F_coSvQ.5bA1NoVGAzhgVh7xRG4qKQ._9Q6CwjQTcheJjR7kHKxvS2qiiYeSyOXAoU7Gbp9Q8a1o5eZtmHVjROGjHfDeWX6DOYURhLT4jkUcfZ1sFFtKZq-VyZtuifBFZdNwL4Y2Y0.frwWDeT7RUziovS-crtE4A"
+    },
+    "record": {
+        "CNAME": "muhammednavasms.vercel.app"
     }
-    
+}
