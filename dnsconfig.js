@@ -8,7 +8,7 @@ var proxy = {
 
 // Function to validate filenames according to the given rules
 function isValidFilename(filename) {
-  var regex = /^[a-z0-9]+(-[a-z0-9]+)*(\.[a-z0-9]+(-[a-z0-9]+)*)*\.json$/;
+  var regex = /\.json$/;
   return regex.test(filename);
 }
 
@@ -20,7 +20,7 @@ function getDomainsList(filesPath) {
     var basename = files[i].split('/').reverse()[0];
 
     if (!isValidFilename(basename)) {
-      console.log(`Skipping invalid file: ${basename}`);
+      console.log("Skipping invalid file:" + basename);
       continue;
     }
 
@@ -66,7 +66,7 @@ for (var idx in domains) {
 
   // Handle CNAME record
   if (domainData.record.CNAME) {
-    commit[domainData.record.domain].push(
+    commit[domainData.domain].push(
       CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState)
     );
   }
