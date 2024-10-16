@@ -66,9 +66,14 @@ for (var idx in domains) {
 
   // Handle CNAME record
   if (domainData.record.CNAME) {
-    commit[domainData.domain].push(
-      CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState)
-    );
+    if (domainData.subdomain && domainData.record.CNAME) {
+      var cnameTarget = domainData.record.CNAME.endsWith(".") ? domainData.record.CNAME : domainData.record.CNAME + ".";
+      commit[domainData.record.domain].push(
+        CNAME(domainData.subdomain, cnameTarget, proxyState)
+      );
+    } else {
+      console.log("Invalid CNAME record for domain: " + domainData.record.domain);
+    }
   }
 
   // Handle MX records
@@ -117,7 +122,7 @@ for (var idx in domains) {
   // Handle URL records (redirect)
   if (domainData.record.URL) {
     commit[domainData.record.domain].push(
-      CNAME(domainData.subdomain, "redirect.is-a.dev.", proxy.on)
+      CNAME(domainData.subdomain, "redirect.is-a.dev.", proxyState)
     );
   }
 }
