@@ -72,6 +72,12 @@ for (var idx in domains) {
     );
   }
 
+  if (domainData.record.URL) {
+    commit[domainName].push(
+      CNAME(subdomainName, "redirect.is-a.dev.", proxyState)
+    );
+  }
+
   // Handle MX records
   if (domainData.record.MX) {
     for (var mx in domainData.record.MX) {
