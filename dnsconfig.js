@@ -24,8 +24,8 @@ var domains = getDomainsList('./domains');
 var commit = {};
 
 for (var idx in domains) {
+  var domainName = "is-a.dev";
   var subdomainName = domains[idx].name;
-  var domainName = subdomainName + ".is-a.dev";
   var domainData = domains[idx].data;
   var proxyState = proxy.on; // enabled by default
 
@@ -102,9 +102,15 @@ for (var idx in domains) {
 
   // Handle TXT records
   if (domainData.record.TXT) {
-    for (var txt in domainData.record.TXT) {
+    if (Array.isArray(domainData.record.TXT)) {
+      for (var txt in domainData.record.TXT) {
+        commit[domainName].push(
+          TXT(subdomainName, domainData.record.TXT[txt])
+        );
+      }
+    } else {
       commit[domainName].push(
-        TXT(subdomainName, domainData.record.TXT[txt])
+        TXT(subdomainName, domainData.record.TXT)
       );
     }
   }
