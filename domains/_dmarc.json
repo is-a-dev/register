@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "is-a-dev",
+    "email": ""
+  },
+  "record": {
+    "TXT": "v=DMARC1; p=reject; rua=mailto:b24ae2ebb6744451bec500b161916c03@dmarc-reports.cloudflare.net"
+  }
+}
