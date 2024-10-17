@@ -28,13 +28,8 @@ for (var idx in domains) {
     var domainData = domains[idx].data;
     var proxyState = proxy.on; // enabled by default
 
-    if (!commit[domainName]) {
-        commit[domainName] = [];
-    }
-
-    if (domainData.proxied === false) {
-        proxyState = proxy.off;
-    }
+    if (!commit[domainName]) commit[domainName] = [];
+    if (!domainData.proxied) proxyState = proxy.off;
 
     // Handle A records
     if (domainData.record.A) {
