@@ -1,0 +1,11 @@
+{
+  "description": "Domain for my personal projects",
+  "owner": {
+    "username": "proplays2312",
+    "email": "proplays2312@hotmail.com"
+  },
+  "record": {
+    "NS": "amit.ns.cloudflare.com",
+    "NS": "lola.ns.cloudflare.com"
+  }
+}
