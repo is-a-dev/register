@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "is-a-dev",
+    "email": ""
+  },
+  "record": {
+    "TXT": "v=txtv0;type=host;to=https://is-a.dev"
+  }
+}
