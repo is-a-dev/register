@@ -33,15 +33,6 @@ Thank you for your co-operation.
    <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
 </p>
 
-## Phishing emails alert
-**We have been notified of scammers using emails in this repository to send phishing emails. Do NOT click any links in suspicious emails.**
-
-If you would like to remove your email, remove it from your JSON file and provide a separate contact method (preferably Discord).
-
-Leave the email field there, but just blank. Then add a separate contact method to your file.
-
-Please see more information in issue https://github.com/is-a-dev/register/issues/14802.
-
 ## Issues
 If you have any problems, feel free to [open a issue](https://github.com/is-a-dev/register/issues/new/choose).
 
