@@ -4,12 +4,6 @@ var providerCf = DnsProvider(NewDnsProvider("cloudflare"));
 var proxy = {
   on: { "cloudflare_proxy": "on" },
   off: { "cloudflare_proxy": "off" }
-};
-
-// Function to validate filenames according to the given rules
-function isValidFilename(filename) {
-  var regex = /\.json$/;
-  return regex.test(filename);
 }
 
 function getDomainsList(filesPath) {
@@ -18,13 +12,8 @@ function getDomainsList(filesPath) {
 
   for (var i = 0; i < files.length; i++) {
     var basename = files[i].split('/').reverse()[0];
-
-    if (!isValidFilename(basename)) {
-      console.log("Skipping invalid file:" + basename);
-      continue;
-    }
-
     var name = basename.split('.')[0];
+
     result.push({ name: name, data: require(files[i]) });
   }
 
@@ -35,21 +24,22 @@ var domains = getDomainsList('./domains');
 var commit = {};
 
 for (var idx in domains) {
+  var domainName = domains[idx].name;
   var domainData = domains[idx].data;
-  var proxyState = proxy.off; // disabled by default
+  var proxyState = proxy.on; // enabled by default
 
-  if (!commit[domainData.record.domain]) {
-    commit[domainData.record.domain] = [];
+  if (!commit[domainName]) {
+    commit[domainName] = [];
   }
 
-  if (domainData.record.proxied === false) {
+  if (domainData.proxied === false) {
     proxyState = proxy.off;
   }
 
   // Handle A records
   if (domainData.record.A) {
     for (var a in domainData.record.A) {
-      commit[domainData.record.domain].push(
+      commit[domainName].push(
         A(domainData.subdomain, IP(domainData.record.A[a]), proxyState)
       );
     }
@@ -58,28 +48,33 @@ for (var idx in domains) {
   // Handle AAAA records
   if (domainData.record.AAAA) {
     for (var aaaa in domainData.record.AAAA) {
-      commit[domainData.record.domain].push(
+      commit[domainName].push(
         AAAA(domainData.subdomain, domainData.record.AAAA[aaaa], proxyState)
       );
     }
   }
 
-  // Handle CNAME record
-  if (domainData.record.CNAME) {
-    if (domainData.subdomain && domainData.record.CNAME) {
-      var cnameTarget = domainData.record.CNAME.endsWith(".") ? domainData.record.CNAME : domainData.record.CNAME + ".";
-      commit[domainData.record.domain].push(
-        CNAME(domainData.subdomain, cnameTarget, proxyState)
+  // Handle CAA records
+  if (domainData.record.CAA) {
+    for (var caa in domainData.record.CAA) {
+      var caaRecord = domainData.record.CAA[caa];
+      commit[domainName].push(
+        CAA(domainData.subdomain, caaRecord.flags, caaRecord.tag, caaRecord.value)
       );
-    } else {
-      console.log("Invalid CNAME record for domain: " + domainData.record.domain);
     }
+  }
+
+  // Handle CNAME records
+  if (domainData.record.CNAME) {
+    commit[domainName].push(
+      CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState)
+    );
   }
 
   // Handle MX records
   if (domainData.record.MX) {
     for (var mx in domainData.record.MX) {
-      commit[domainData.record.domain].push(
+      commit[domainName].push(
         MX(domainData.subdomain, 10, domainData.record.MX[mx] + ".")
       );
     }
@@ -88,7 +83,7 @@ for (var idx in domains) {
   // Handle NS records
   if (domainData.record.NS) {
     for (var ns in domainData.record.NS) {
-      commit[domainData.domain].push(
+      commit[domainName].push(
         NS(domainData.subdomain, domainData.record.NS[ns] + ".")
       );
     }
@@ -98,7 +93,7 @@ for (var idx in domains) {
   if (domainData.record.SRV) {
     for (var srv in domainData.record.SRV) {
       var srvRecord = domainData.record.SRV[srv];
-      commit[domainData.domain].push(
+      commit[domainName].push(
         SRV(domainData.subdomain, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
       );
     }
@@ -106,24 +101,11 @@ for (var idx in domains) {
 
   // Handle TXT records
   if (domainData.record.TXT) {
-    if (Array.isArray(domainData.record.TXT)) {
-      for (var txt in domainData.record.TXT) {
-        commit[domainData.record.domain].push(
-          TXT(domainData.subdomain, domainData.record.TXT[txt])
-        );
-      }
-    } else {
-      commit[domainData.record.domain].push(
-        TXT(domainData.subdomain, domainData.record.TXT)
+    for (var txt in domainData.record.TXT) {
+      commit[domainName].push(
+        TXT(domainData.subdomain, domainData.record.TXT[txt])
       );
     }
-  }
-
-  // Handle URL records (redirect)
-  if (domainData.record.URL) {
-    commit[domainData.record.domain].push(
-      CNAME(domainData.subdomain, "redirect.is-a.dev.", proxyState)
-    );
   }
 }
 
