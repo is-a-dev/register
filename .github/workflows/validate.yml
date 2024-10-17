@@ -6,7 +6,7 @@ on:
     push:
         branches: [main]
         paths:
-            - "domains/**"
+            - "domains/*"
             - ".github/workflows/validation.yml"
             - "dnsconfig.js"
 
@@ -24,10 +24,9 @@ jobs:
             - uses: actions/checkout@v4
 
             - name: Check
-              uses: koenrh/dnscontrol-action@v3
+              uses: is-a-dev/dnscontrol-action@main
               with:
                   args: check
-                  config_file: "dnsconfig.js"
 
     json:
         name: JSON
