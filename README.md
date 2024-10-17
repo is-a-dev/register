@@ -1,3 +1,20 @@
+# Migration Downtime
+Dear users,
+
+We are currently in the process of migrating our DNS services to Cloudflare, during this time there will be downtime for the entire is-a.dev domain as we migrate the zone file across. We understand your frustration with this, and we are working as fast as possible to get it migrated.
+
+**Do not expect any DNS records for any subdomain to resolve during this time.**
+
+No new pull requests will be merged either during the migration.
+
+Thank you for your co-operation.
+
+\- The is-a.dev Team
+
+*For any enquiries, please email william@williamharrison.dev or join the [Discord server](https://discord.gg/is-a-dev-830872854677422150) and ping or DM `@williamharrison`.*
+
+---
+
 <p align="center">
    <img alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
 </p>
@@ -15,15 +32,6 @@
 <p align="center">
    <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
 </p>
-
-## Phishing emails alert
-**We have been notified of scammers using emails in this repository to send phishing emails. Do NOT click any links in suspicious emails.**
-
-If you would like to remove your email, remove it from your JSON file and provide a separate contact method (preferably Discord).
-
-Leave the email field there, but just blank. Then add a separate contact method to your file.
-
-Please see more information in issue https://github.com/is-a-dev/register/issues/14802.
 
 ## Issues
 If you have any problems, feel free to [open a issue](https://github.com/is-a-dev/register/issues/new/choose).
@@ -46,9 +54,6 @@ If you have an issue that contains confidental infomation, send an email to secu
 > **When using automated registration, please ensure your records are valid. Please do NOT "test" out the system and create invalid PRs, it wastes maintainers' time.**
 
 Join our [Discord server](https://discord.gg/is-a-dev-830872854677422150), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
-
-## Status
-You can check the uptime of our services on our [status dashboard](https://is-a-dev.hrsn.dev).
 
 ### Donate
 If you like this project, please consider donating so we can keep this project running forever!
