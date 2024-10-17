@@ -21,7 +21,8 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
+            - name: Generate creds.json
+              run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
 
             - name: Publish
               uses: is-a-dev/dnscontrol-action@main
@@ -29,4 +30,3 @@ jobs:
                   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               with:
                   args: push
-                  config_file: "dnsconfig.js"
