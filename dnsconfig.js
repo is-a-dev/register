@@ -71,12 +71,6 @@ for (var idx in domains) {
     );
   }
 
-  if (domainData.record.URL) {
-    commit[domainName].push(
-      CNAME(subdomainName, "redirect.is-a.dev.", proxyState)
-    );
-  }
-
   // Handle MX records
   if (domainData.record.MX) {
     for (var mx in domainData.record.MX) {
@@ -118,6 +112,14 @@ for (var idx in domains) {
         TXT(subdomainName, domainData.record.TXT)
       );
     }
+  }
+
+  // Handle URL records
+  // Note: URL records are not actual DNS records, we have a server configured to support them instead.
+  if (domainData.record.URL) {
+    commit[domainName].push(
+      A(subdomainName, "192.0.2.1", proxy.on)
+    );
   }
 }
 
