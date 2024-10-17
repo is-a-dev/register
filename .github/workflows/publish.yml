@@ -4,7 +4,7 @@ on:
     push:
         branches: [main]
         paths:
-            - "domains/**"
+            - "domains/*"
             - ".github/workflows/publish.yml"
             - "dnsconfig.js"
 
@@ -21,12 +21,12 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
+            - name: Generate creds.json
+              run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
 
             - name: Publish
-              uses: koenrh/dnscontrol-action@v3
+              uses: is-a-dev/dnscontrol-action@main
               env:
                   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               with:
                   args: push
-                  config_file: "dnsconfig.js"

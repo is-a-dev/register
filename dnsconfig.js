@@ -113,8 +113,8 @@ for (var idx in domains) {
     // Note: URL records are not actual DNS records, we have a server configured to support them instead.
     if (domainData.record.URL) {
         commit[domainName].push(
-            A(subdomainName, "45.85.238.5", proxy.on)
-            TXT("_redirect" + subdomainName, "v=txtv0;type=host;to=" + domainData.record.URL)
+            A(subdomainName, "45.85.238.5", proxy.on),
+            TXT("_redirect." + subdomainName, "v=txtv0;type=host;to=" + domainData.record.URL)
         );
     }
 }
