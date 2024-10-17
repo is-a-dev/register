@@ -36,7 +36,7 @@ Thank you for your co-operation.
 ## Issues
 If you have any problems, feel free to [open a issue](https://github.com/is-a-dev/register/issues/new/choose).
 
-If you have an issue that contains confidental infomation, send an email to security@m.is-a.dev.
+If you have an issue that contains confidental infomation, send an email to security@is-a.dev.
 
 ## Register
 ### Manual Registration
@@ -44,7 +44,7 @@ If you have an issue that contains confidental infomation, send an email to secu
 
 - [Fork](https://github.com/is-a-dev/register/fork) and star this repository
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`
-- [Read the documentation](https://www.is-a.dev/docs)
+- [Read the documentation](https://is-a.dev/docs)
 - Your pull request will be reviewed and merged. *Make sure to keep an eye on it incase we need you to make any changes!*
 - After the pull request is merged, please allow up to 24 hours for the changes to propagate
 - Enjoy your new `.is-a.dev` domain!

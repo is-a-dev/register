@@ -1,0 +1,43 @@
+name: Validation
+
+on:
+    pull_request:
+
+    push:
+        branches: [main]
+        paths:
+            - "domains/**"
+            - ".github/workflows/validation.yml"
+            - "dnsconfig.js"
+
+    workflow_dispatch:
+
+concurrency:
+    group: ${{ github.ref }}-validation
+    cancel-in-progress: true
+
+jobs:
+    dns:
+        name: DNS
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Check
+              uses: koenrh/dnscontrol-action@v3
+              with:
+                  args: check
+                  config_file: "dnsconfig.js"
+
+    json:
+        name: JSON
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: JSON Syntax Check
+              uses: limitusus/json-syntax-check@v2
+              with:
+                  pattern: "\\.json$"
+              env:
+                  BASE: "domains/"
