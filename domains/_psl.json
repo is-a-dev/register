@@ -1,8 +1,8 @@
 {
-  "description": "PSL validation record for is-a.dev",
+  "description": "PSL validation record",
   "owner": {
     "username": "is-a-dev",
-    "email": "phenax5@gmail.com"
+    "email": ""
   },
   "record": {
     "TXT": "https://github.com/publicsuffix/list/pull/1949"
