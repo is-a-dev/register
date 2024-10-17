@@ -1,20 +1,3 @@
-# Migration Downtime
-Dear users,
-
-We are currently in the process of migrating our DNS services to Cloudflare, during this time there will be downtime for the entire is-a.dev domain as we migrate the zone file across. We understand your frustration with this, and we are working as fast as possible to get it migrated.
-
-**Do not expect any DNS records for any subdomain to resolve during this time.**
-
-No new pull requests will be merged either during the migration.
-
-Thank you for your co-operation.
-
-\- The is-a.dev Team
-
-*For any enquiries, please email william@williamharrison.dev or join the [Discord server](https://discord.gg/is-a-dev-830872854677422150) and ping or DM `@williamharrison`.*
-
----
-
 <p align="center">
    <img alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
 </p>
