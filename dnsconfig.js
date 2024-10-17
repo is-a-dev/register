@@ -24,8 +24,8 @@ var domains = getDomainsList('./domains');
 var commit = {};
 
 for (var idx in domains) {
-  var domainName = "is-a.dev";
   var subdomainName = domains[idx].name;
+  var domainName = subdomainName + ".is-a.dev";
   var domainData = domains[idx].data;
   var proxyState = proxy.on; // enabled by default
 
