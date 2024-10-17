@@ -4,6 +4,7 @@
     "email": ""
   },
   "record": {
-    "URL": "https://is-a.dev"
-  }
+    "A": ["45.85.238.5"]
+  },
+  "proxied": true
 }
