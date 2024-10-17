@@ -114,7 +114,7 @@ for (var idx in domains) {
     if (domainData.record.URL) {
         commit[domainName].push(
             A(subdomainName, "45.85.238.5", proxy.on),
-            TXT("_redirect" + subdomainName, "v=txtv0;type=host;to=" + domainData.record.URL)
+            TXT("_redirect." + subdomainName, "v=txtv0;type=host;to=" + domainData.record.URL)
         );
     }
 }
