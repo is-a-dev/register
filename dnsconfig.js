@@ -11,7 +11,7 @@ function getDomainsList(filesPath) {
     var files = glob.apply(null, [filesPath, true, '.json']);
 
     for (var i = 0; i < files.length; i++) {
-        var name = files[i].split('/').pop();
+        var name = files[i].split('/').pop().replace(/\.json$/, '');
 
         result.push({ name: name, data: require(files[i]) });
     }
