@@ -49,5 +49,11 @@ If you like this project, please consider donating so we can keep this project r
 <a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me a Coffee" height="28" width="119"></a>
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay"></a>
 
+### Sponsors
+
+<a href="https://www.cloudflare.com/lp/project-alexandria/">
+   <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="128">
+</a>
+
 ### Similar Services
 If you want to find services similar to is-a.dev, take a look at [Free For Life](https://github.com/wdhdev/free-for-life#domains).
