@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "wdhdev",
+    "email": "william@is-a.dev"
+  },
+
+  "record": {
+    "NS": ["chuck.ns.cloudflare.com", "walk.ns.cloudflare.com"]
+  }
+}
