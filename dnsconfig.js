@@ -24,7 +24,8 @@ var domains = getDomainsList('./domains');
 var commit = {};
 
 for (var idx in domains) {
-  var domainName = domains[idx].name;
+  var domainName = "is-a.dev";
+  var subdomainName = domains[idx].name;
   var domainData = domains[idx].data;
   var proxyState = proxy.on; // enabled by default
 
@@ -40,7 +41,7 @@ for (var idx in domains) {
   if (domainData.record.A) {
     for (var a in domainData.record.A) {
       commit[domainName].push(
-        A(domainData.subdomain, IP(domainData.record.A[a]), proxyState)
+        A(subdomainName, IP(domainData.record.A[a]), proxyState)
       );
     }
   }
@@ -49,7 +50,7 @@ for (var idx in domains) {
   if (domainData.record.AAAA) {
     for (var aaaa in domainData.record.AAAA) {
       commit[domainName].push(
-        AAAA(domainData.subdomain, domainData.record.AAAA[aaaa], proxyState)
+        AAAA(subdomainName, domainData.record.AAAA[aaaa], proxyState)
       );
     }
   }
@@ -59,7 +60,7 @@ for (var idx in domains) {
     for (var caa in domainData.record.CAA) {
       var caaRecord = domainData.record.CAA[caa];
       commit[domainName].push(
-        CAA(domainData.subdomain, caaRecord.flags, caaRecord.tag, caaRecord.value)
+        CAA(subdomainName, caaRecord.flags, caaRecord.tag, caaRecord.value)
       );
     }
   }
@@ -67,7 +68,7 @@ for (var idx in domains) {
   // Handle CNAME records
   if (domainData.record.CNAME) {
     commit[domainName].push(
-      CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState)
+      CNAME(subdomainName, domainData.record.CNAME + ".", proxyState)
     );
   }
 
@@ -75,7 +76,7 @@ for (var idx in domains) {
   if (domainData.record.MX) {
     for (var mx in domainData.record.MX) {
       commit[domainName].push(
-        MX(domainData.subdomain, 10, domainData.record.MX[mx] + ".")
+        MX(subdomainName, 10, domainData.record.MX[mx] + ".")
       );
     }
   }
@@ -84,7 +85,7 @@ for (var idx in domains) {
   if (domainData.record.NS) {
     for (var ns in domainData.record.NS) {
       commit[domainName].push(
-        NS(domainData.subdomain, domainData.record.NS[ns] + ".")
+        NS(subdomainName, domainData.record.NS[ns] + ".")
       );
     }
   }
@@ -94,7 +95,7 @@ for (var idx in domains) {
     for (var srv in domainData.record.SRV) {
       var srvRecord = domainData.record.SRV[srv];
       commit[domainName].push(
-        SRV(domainData.subdomain, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
+        SRV(subdomainName, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
       );
     }
   }
@@ -103,7 +104,7 @@ for (var idx in domains) {
   if (domainData.record.TXT) {
     for (var txt in domainData.record.TXT) {
       commit[domainName].push(
-        TXT(domainData.subdomain, domainData.record.TXT[txt])
+        TXT(subdomainName, domainData.record.TXT[txt])
       );
     }
   }
