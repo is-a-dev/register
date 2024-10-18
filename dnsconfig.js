@@ -87,7 +87,7 @@ for (var idx in domains) {
     // Handle URL records
     if (domainData.record.URL) {
         commit.push(
-            A(subdomainName, "45.85.238.5", proxy.on),
+            A(subdomainName, "45.85.238.5", { cloudflare_proxy: "on" }),
             TXT("_redirect." + subdomainName, "v=txtv0;type=host;to=" + domainData.record.URL)
         );
     }
