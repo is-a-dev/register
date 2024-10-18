@@ -5,6 +5,6 @@
       "discord": "_ngiu.a_"
    },
    "record": {
-      "CNAME": "maskduck.github.io"
+      "NS":["ada.ns.cloudflare.com", "albert.ns.cloudflare.com"]
    }
 }
