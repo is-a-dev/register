@@ -98,11 +98,13 @@ for (var idx in domains) {
     }
 
     // Exceptions
-    // @.is-a.dev
+    // is-a.dev
     commit.push(IGNORE("@", "MX"));
     commit.push(IGNORE("@", "TXT"));
     // _acme-challenge.is-a.dev
     commit.push(IGNORE("_acme-challenge", "TXT"));
+    // _dmarc.is-a.dev
+    commit.push(IGNORE("_dmarc", "TXT"));
     // ns1.is-a.dev
     commit.push(IGNORE("ns1", "A"));
     commit.push(IGNORE("ns1", "AAAA"));
