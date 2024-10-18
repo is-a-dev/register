@@ -2,10 +2,19 @@
     "description": "Aswin Mahesh Website",
     "repo": "https://github.com/aswinmahesh",
     "owner": {
-        "username": "aswinmahesh",
-        "email": "aswinmahesh.com+dns@gmail.com"
+      "username": "aswinmahesh",
+      "email": "aswinmahesh.com+dns@gmail.com"
     },
     "record": {
-        "CNAME": "aswinmahesh.netlify.app"
+      "A": [
+            "75.2.60.5"
+        ],
+
+    "MX": [
+        "mx1.improvmx.com",
+        "mx2.improvmx.com"
+      ],
+
+      "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 }
