@@ -27,6 +27,13 @@ If you have any problems, feel free to [open a issue](https://github.com/is-a-de
 If you have an issue that contains confidental infomation, send an email to security@is-a.dev.
 
 ## Register
+### NS records
+When applying for NS records, please consider if you *actually* need them. Please provide a detailed reason (with evidence) of why you require NS records.
+
+9 times out of 10, you do not actually need NS records, and merely want them. We already support a wide range of records, so it is extremely unlikely you will actually require them.
+
+Pull requests adding NS records without reasoning will be closed instantly.
+
 ### Manual Registration
 > If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
 
