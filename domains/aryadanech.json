@@ -1,11 +1,11 @@
 {
-    "description": "Arya Danech's Personal Portfolio Website",
+    "description": "Hi There! I'm Arya. I am a Full Stack Web Developer from Nashik",
     "repo": "https://github.com/aryad14",
     "owner": {
         "username": "aryad14",
         "email": "aryadanech9@gmail.com"
     },
     "record": {
-        "CNAME": "djtx0nl5.up.railway.app"
+        "CNAME": "aryadanech.netlify.app"
     }
 }

@@ -1,12 +1,13 @@
 {
-    "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/dandepan303/blog",
+    "description": "Personal blog and porfolio",
+    "repo": "https://github.com/dandepan303/frosti",
     "owner": {
         "username": "dandepan303",
-        "email": "dandepan303@gmail.com",
-        "twitter": "N/A"
+        "email": "dandepan303@gmail.com"
     },
     "record": {
-        "CNAME": "dandepan303.github.io"
+        "A": [
+            "75.2.60.5"
+        ]
     }
-} 
+}
