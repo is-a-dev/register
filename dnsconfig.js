@@ -96,6 +96,22 @@ for (var idx in domains) {
             TXT("_redirect." + subdomainName, "v=txtv0;type=host;to=" + domainData.record.URL)
         );
     }
+
+    // Exceptions
+    // _acme-challenge.is-a.dev
+    commit.push(IGNORE("_acme-challenge", "TXT"));
+    // ns1.is-a.dev
+    commit.push(IGNORE("ns1", "A"));
+    commit.push(IGNORE("ns1", "AAAA"));
+    // ns2.is-a.dev
+    commit.push(IGNORE("ns2", "A"));
+    commit.push(IGNORE("ns2", "AAAA"));
+    // ns3.is-a.dev
+    commit.push(IGNORE("ns3", "A"));
+    commit.push(IGNORE("ns3", "AAAA"));
+    // ns4.is-a.dev
+    commit.push(IGNORE("ns4", "A"));
+    commit.push(IGNORE("ns4", "AAAA"));
 }
 
 // Commit all DNS records
