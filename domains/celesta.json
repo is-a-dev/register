@@ -6,7 +6,7 @@
     "discord": "notveryc00l."
   },
   "record": {
-    "A": "87.13.246.22"
-    "MX": "mail.celesta.is-a.dev"
+    "A": "37.101.98.55"
+    "TXT": "v=spf1 a ~all"
   }
 }
