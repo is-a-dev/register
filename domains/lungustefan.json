@@ -7,8 +7,7 @@
         },
     
         "record": {
-            "NS1": "teagan.ns.cloudflare.com",
-            "NS2": "yevgen.ns.cloudflare.com"
+            "NS": ["teagan.ns.cloudflare.com", "yevgen.ns.cloudflare.com"]
         }
     }
     
