@@ -52,8 +52,13 @@ for (var idx in domains) {
     }
 
     // Handle CNAME records
-    if (domainData.record.CNAME) {
+    if (domainData.record.CNAME && subdomainName !== "@") {
         commit.push(CNAME(subdomainName, domainData.record.CNAME + ".", proxyState));
+    }
+
+    // CNAME on root
+    if (subdomainName === "@" && domainData.record.CNAME) {
+        commit.push(ALIAS(subdomainName, domainData.record.CNAME + ".", proxyState));
     }
 
     // Handle MX records
