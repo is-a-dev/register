@@ -77,7 +77,7 @@ for (var idx in domains) {
     if (domainData.record.TXT) {
         if (Array.isArray(domainData.record.TXT)) {
             for (var txt in domainData.record.TXT) {
-                commit.push(TXT(subdomainName, domainData.record.TXT[txt]));
+                commit.push(TXT(subdomainName, '"' + domainData.record.TXT[txt]) + '"');
             }
         } else {
             commit.push(TXT(subdomainName, domainData.record.TXT));
@@ -87,7 +87,7 @@ for (var idx in domains) {
     // Handle URL records
     if (domainData.record.URL) {
         commit.push(
-            A(subdomainName, "45.85.238.5", { cloudflare_proxy: "on" }),
+            A(subdomainName, "45.85.238.5", { cloudflare_proxy: "off" }),
             TXT("_redirect." + subdomainName, "v=txtv0;type=host;to=" + domainData.record.URL)
         );
     }
@@ -96,6 +96,8 @@ for (var idx in domains) {
     // is-a.dev
     commit.push(IGNORE("@", "MX"));
     commit.push(IGNORE("@", "TXT"));
+    // *.is-a.dev
+    commit.push(IGNORE("\\*"));
     // _acme-challenge.is-a.dev
     commit.push(IGNORE("_acme-challenge", "TXT"));
     // _dmarc.is-a.dev
