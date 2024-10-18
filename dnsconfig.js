@@ -1,11 +1,3 @@
-var regNone = NewRegistrar("none");
-var providerCf = DnsProvider(NewDnsProvider("cloudflare"));
-
-var proxy = {
-    off: { cloudflare_proxy: "off" },
-    on: { cloudflare_proxy: "on" }
-}
-
 function getDomainsList(filesPath) {
     var result = [];
     var files = glob.apply(null, [filesPath, true, ".json"]);
@@ -25,9 +17,7 @@ var commit = [];
 for (var idx in domains) {
     var subdomainName = domains[idx].name;
     var domainData = domains[idx].data;
-    var proxyState = proxy.off; // disabled by default
-
-    if (domainData.proxied) proxyState = proxy.on;
+    var proxyState = domainData.proxied ? { cloudflare_proxy: "on" } : { cloudflare_proxy: "off" };
 
     // Handle A records
     if (domainData.record.A) {
@@ -125,4 +115,4 @@ for (var idx in domains) {
 }
 
 // Commit all DNS records
-D("is-a.dev", regNone, providerCf, commit);
+D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare")), commit);
