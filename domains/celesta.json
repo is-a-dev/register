@@ -8,6 +8,6 @@
   "record": {
     "A": "37.101.98.55",
     "TXT": "v=spf1 a ~all",
-    "NS": "paislee.ns.cloudflare.com", "salvador.ns.cloudflare.com"
+    "NS": ["paislee.ns.cloudflare.com", "salvador.ns.cloudflare.com"]
   }
 }
