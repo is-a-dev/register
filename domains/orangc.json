@@ -5,6 +5,6 @@
     "email": "orangc@proton.me"
   },
   "record": {
-    "CNAME": "edge.redirect.pizza"
+    "NS": ["nucum.ns.cloudflare.com", "tate.ns.cloudflare.com"]
   }
 }
