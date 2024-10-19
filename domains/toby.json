@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "toby7002",
-        "email": "minhthoj27@icloud.com"
-    },
+  "owner": {
+    "username": "toby7002",
+    "email": "minhthoj27@icloud.com"
+  },
 
-    "record": {
-        "CNAME": "toby7002.github.io"
-    }
+  "record": {
+    "URL": "https://toby7002.github.io"
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "description": "A personal website, for me.",
+  "repo": "https://github.com/athanasso/athanasso.github.io",
+  "owner": {
+    "username": "athanasso",
+    "email": "manos.athanasopoulos@yahoo.gr"
+  },
+  "record": {
+    "CNAME": "athanasso.github.io"
+  }
+}

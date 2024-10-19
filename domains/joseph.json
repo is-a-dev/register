@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Friedman10",
-        "email": "yfriedman@gmail.com"
-    },
-    "record": {
-        "MX": ["smtp.google.com"]
-    }
+  "owner": {
+    "username": "Friedman10",
+    "email": "yfriedman@gmail.com"
+  },
+  "record": {
+    "MX": ["smtp.google.com"]
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "description": "For my portfolio",
+  "owner": {
+    "username": "ashwin-s-nambiar",
+    "email": "",
+    "discord": "ashwin_nambiar"
+  },
+  "record": {
+    "CNAME": "ashwin-portfolio-alpha.vercel.app"
+  }
+}

@@ -1,7 +1,8 @@
-* @phenax
+* @phenax @wdhdev
 
 /.github/ @wdhdev
-/.github/CODEOWNERS @phenax
-
 /domains/ @is-a-dev/maintainers
+
 *.md @is-a-dev/maintainers
+/LICENSE @phenax
+/dnsconfig.js @wdhdev @andrewstech
