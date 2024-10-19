@@ -6,8 +6,6 @@
     "discord": "notveryc00l."
   },
   "record": {
-    "A": "37.101.98.55",
-    "TXT": "v=spf1 a ~all",
     "NS": ["ns1.dynu.com", "ns11.dynu.com", "ns8.dynu.com"]
   }
 }
