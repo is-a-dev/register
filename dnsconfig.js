@@ -95,6 +95,8 @@ for (var subdomain in domains) {
 }
 
 // Exceptions
+// *
+commit.push(IGNORE("*", "DS", "*"));
 // is-a.dev
 commit.push(IGNORE("@", "MX"));
 commit.push(IGNORE("@", "TXT"));
@@ -117,8 +119,8 @@ commit.push(IGNORE("ns3", "AAAA"));
 commit.push(IGNORE("ns4", "A"));
 commit.push(IGNORE("ns4", "AAAA"));
 // test.is-a.dev
-commit.push(IGNORE("test.is-a.dev"));
-commit.push(IGNORE("**.test.is-a.dev"));
+commit.push(IGNORE("test"));
+commit.push(IGNORE("**.test"));
 
 // Commit all DNS records
 D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare", { "manage_single_redirects": true })), commit);
