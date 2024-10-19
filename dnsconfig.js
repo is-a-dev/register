@@ -95,15 +95,27 @@ for (var subdomain in domains) {
 }
 
 // Exceptions
+// *
+commit.push(IGNORE("*", "DS", "*"));
 // is-a.dev
 commit.push(IGNORE("@", "MX"));
 commit.push(IGNORE("@", "TXT"));
 // *.is-a.dev
 commit.push(IGNORE("\\*"));
+// *._domainkey.is-a.dev
+commit.push(IGNORE("*._domainkey", "TXT"));
 // _acme-challenge.is-a.dev
 commit.push(IGNORE("_acme-challenge", "TXT"));
+// _autodiscover._tcp.is-a.dev
+commit.push(IGNORE("_autodiscover._tcp", "SRV"));
 // _dmarc.is-a.dev
 commit.push(IGNORE("_dmarc", "TXT"));
+// _psl.is-a.dev
+commit.push(IGNORE("_psl", "TXT"));
+// autoconfig.is-a.dev
+commit.push(IGNORE("autoconfig", "CNAME"));
+// autodiscover.is-a.dev
+commit.push(IGNORE("autodiscover", "CNAME"));
 // ns1.is-a.dev
 commit.push(IGNORE("ns1", "A"));
 commit.push(IGNORE("ns1", "AAAA"));
@@ -117,8 +129,8 @@ commit.push(IGNORE("ns3", "AAAA"));
 commit.push(IGNORE("ns4", "A"));
 commit.push(IGNORE("ns4", "AAAA"));
 // test.is-a.dev
-commit.push(IGNORE("test.is-a.dev"));
-commit.push(IGNORE("**.test.is-a.dev"));
+commit.push(IGNORE("test"));
+commit.push(IGNORE("**.test"));
 
 // Commit all DNS records
 D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare", { "manage_single_redirects": true })), commit);
