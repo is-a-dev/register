@@ -88,17 +88,11 @@ for (var subdomain in domains) {
     // Handle URL records
     if (domainData.record.URL) {
         commit.push(
-            A(subdomainName, "45.85.238.5", { cloudflare_proxy: "on" }),
-            TXT("_redirect." + subdomainName, "v=txtv0;type=host;to=" + domainData.record.URL)
+            A(subdomainName, "192.0.2.1", { cloudflare_proxy: "on" }),
+            // CF_SINGLE_REDIRECT(fullSubdomain, 302, 'http.host eq "' + fullSubdomain + '"', 'concat("' + domainData.record.URL + '", "")')
         )
     }
 }
-
-// Test
-commit.push(
-    A("test", "192.0.2.1", { cloudflare_proxy: "on" }),
-    CF_SINGLE_REDIRECT("test.is-a.dev", 302, 'http.host eq "test.is-a.dev"', 'concat("https://google.com", "")')
-)
 
 // Exceptions
 // is-a.dev
