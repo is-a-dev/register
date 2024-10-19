@@ -97,7 +97,7 @@ for (var subdomain in domains) {
 // Test
 commit.push(
     A("test", "192.0.2.1", { cloudflare_proxy: "on" }),
-    CF_SINGLE_REDIRECT("test.is-a.dev", 302, 'http.host eq "test.is-a.dev"', "https://google.com")
+    CF_SINGLE_REDIRECT("test.is-a.dev", 302, 'http.host eq "test.is-a.dev"', 'concat("https://google.com", "")')
 )
 
 // Exceptions
