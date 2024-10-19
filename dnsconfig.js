@@ -116,6 +116,9 @@ commit.push(IGNORE("ns3", "AAAA"));
 // ns4.is-a.dev
 commit.push(IGNORE("ns4", "A"));
 commit.push(IGNORE("ns4", "AAAA"));
+// test.is-a.dev
+commit.push(IGNORE("test.is-a.dev"));
+commit.push(IGNORE("**.test.is-a.dev"));
 
 // Commit all DNS records
 D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare", { "manage_single_redirects": true })), commit);
