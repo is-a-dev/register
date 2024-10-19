@@ -1,0 +1,13 @@
+{
+    "owner": {
+      "username": "Sife-Cleak",
+      "email": "sifed@qq.com"
+    },
+  
+    "record": {
+        "NS": [
+            "colette.ns.cloudflare.com", 
+            "rustam.ns.cloudflare.com"
+        ]
+    }
+  }
