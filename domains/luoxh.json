@@ -3,10 +3,15 @@
     "repo": "https://github.com/lxhapp/lxhapp.github.io",
     "owner": {
         "username": "Melishy",
-        "email": "nazariktymkiv67@gmail.com",
+        "email": "themelishy@outlook.com",
         "twitter": "themelishy"
     },
     "record": {
-        "CNAME": "lxhapp.github.io"
+        "CNAME": "lxhapp.github.io",
+        "CNAME": "frontend-api.clerk.services",
+        "CNAME": "accounts.clerk.services",
+        "CNAME": "dkim1.1bvxyjcfmid8.clerk.services",
+        "CNAME": "dkim2.1bvxyjcfmid8.clerk.services",
+        "CNAME": "mail.1bvxyjcfmid8.clerk.services"
     }
 } 
