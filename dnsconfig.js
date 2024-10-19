@@ -88,7 +88,7 @@ for (var subdomain in domains) {
     // Handle URL records
     if (domainData.record.URL) {
         commit.push(
-            A(subdomainName, "192.0.2.1", { cloudflare_proxy: "on" }),
+            A(subdomainName, "192.0.2.1", { cloudflare_proxy: "on" })
             // CF_SINGLE_REDIRECT(fullSubdomain, 302, 'http.host eq "' + fullSubdomain + '"', 'concat("' + domainData.record.URL + '", "")')
         )
     }
