@@ -7,6 +7,6 @@
         },
     
         "record": {
-            "TXT": "I'm using this domain for github"
+            "CNAME": "mrdev88.github.io"
         }
     }
