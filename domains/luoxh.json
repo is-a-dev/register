@@ -13,7 +13,7 @@
         "CNAME": "accounts.clerk.services",
         "CNAME": "dkim1.1bvxyjcfmid8.clerk.services",
         "CNAME": "dkim2.1bvxyjcfmid8.clerk.services",
-        "CNAME": "mail.1bvxyjcfmid8.clerk.services"
+        "CNAME": "mail.1bvxyjcfmid8.clerk.services",
         "TXT": "b4e82a26a6",
         "TXT": "6799a1874e202ba88df7cb8f8aaf79",
         "TXT": "dh=c1bf9a76b29db2376a8b33d77585e8a13cca9523"
