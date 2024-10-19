@@ -96,7 +96,7 @@ for (var subdomain in domains) {
 
 // Exceptions
 // *
-commit.push(IGNORE("*", "DS", "*");
+commit.push(IGNORE("*", "DS", "*"));
 // is-a.dev
 commit.push(IGNORE("@", "MX"));
 commit.push(IGNORE("@", "TXT"));
