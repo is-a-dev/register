@@ -1,11 +1,12 @@
 {
-  "description": "Documentation for is-a-dev",
-  "repo": "https://github.com/aftermath9",
-  "owner": {
-    "username": "aftermath9",
-    "email": "amrmafalani@yahoo.com"
-  },
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/AfterMath9/aftermath9.github.io",
+    "owner": {
+        "username": "AfterMath9",
+        "email": "amrmafalani@yahoo.com",
+        "twitter": "iBadDroid"
+    },
     "record": {
-    "TXT": "Hello World!"
-  }
+        "CNAME": "aftermath9.github.io"
+    }
 }
