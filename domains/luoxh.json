@@ -1,12 +1,17 @@
 {
-    "description": "🌸 This is nicer with it's own site of discord app named Luo Xiaohei",
-    "repo": "https://github.com/lxhapp/lxhapp.github.io",
-    "owner": {
-        "username": "Melishy",
-        "email": "nazariktymkiv67@gmail.com",
-        "twitter": "themelishy"
-    },
-    "record": {
-        "CNAME": "lxhapp.github.io"
-    }
-} 
+  "description": "🌸 This is nicer with it's own site of discord app named Luo Xiaohei",
+  "repo": "https://github.com/lxhapp/lxhapp.github.io",
+  "owner": {
+    "username": "Melishy",
+    "email": "themelishy@outlook.com",
+    "twitter": "themelishy",
+    "discord": "1053012080812359750"
+  },
+  "record": {
+    "CNAME": "lxhapp.github.io",
+    "TXT": [
+      "b4e82a26a6",
+      "dh=c1bf9a76b29db2376a8b33d77585e8a13cca9523"
+    ]
+  }
+}
