@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/abiapp789/abiapp789.github.io",
+    "owner": {
+        "username": "abiapp789",
+        "email": "abiapp2024@gmail.com",
+    },
+    "record": {
+        "CNAME": "abiapp789.github.io"
+    }
+} 
