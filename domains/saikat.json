@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "mirzasaikatahmmed",
-        "email": "contact@saikat.com.bd"
-    },
-
-    "record": {
-        "CNAME": "saikat.com.bd"
-    }
+  "owner": {
+    "username": "saikatislamhadis",
+    "email": "saikatislamhadis@gmail.com"
+  },
+  "record": {
+    "CNAME": "saikatislam.pages.dev"
+  }
 }

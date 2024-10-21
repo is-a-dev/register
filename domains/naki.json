@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "YoruAkio",
-        "email": "yoruakio@proton.me"
-    },
+  "owner": {
+    "username": "YoruAkio",
+    "email": "yoruakio@proton.me"
+  },
 
-    "record": {
-        "CNAME": "nakio.pages.dev"
-    }
+  "record": {
+    "CNAME": "nakio.pages.dev"
+  }
 }
