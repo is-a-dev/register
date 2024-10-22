@@ -4,6 +4,8 @@
 		"email": "sono.arbeit@gmail.com"
 	},
 	"record": {
-		"CNAME": "574ccc29-f29c-444a-a610-97eeb4ad17c0.shield.neoprotect.ovh"
+		"A": [
+			"45.92.217.48"
+		]
 	}
 }
