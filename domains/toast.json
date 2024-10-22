@@ -1,0 +1,11 @@
+{
+  "description": "toast's toast",
+  "repo": "https://github.com/lightly-toasted/lightly-toasted.github.io",
+  "owner": {
+    "username": "lightly-toasted",
+    "email": "tooast@duck.com"
+  },
+  "record": {
+    "CNAME": "lightly-toasted.github.io"
+  }
+}
