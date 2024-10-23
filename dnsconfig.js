@@ -52,6 +52,11 @@ for (var subdomain in domains) {
         }
     }
 
+    // Handle DS records
+    if (domainData.record.DS) {
+        commit.push(DS(subdomainName, domainData.record.DS.key_tag, domainData.record.DS.algorithm, domainData.record.DS.digest_type, domainData.record.DS.digest));
+    }
+
     // Handle MX records
     if (domainData.record.MX) {
         for (var mx in domainData.record.MX) {
