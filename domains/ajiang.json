@@ -4,11 +4,9 @@
         "email": "longwanglaomu@gmail.com"
     },
     "record": {
-        "NX": {
-            "name": "fuus",
-            "value": "daisy.ns.cloudflare.com."
-            "name": "fuus",
-            "value": "robert.ns.cloudflare.com."
+        "cname": {
+            "name": "CNAME",
+            "value": "a.cloudflare.182682.xyz."
         }
     }
 }
