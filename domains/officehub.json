@@ -1,0 +1,13 @@
+{
+  "description": "Office Hub App ",
+  "owner": {
+    "username": "demindev",
+    "email": "dung.nv.dev@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "linda.ns.cloudflare.com",
+      "lochlan.ns.cloudflare.com"
+    ]
+  }
+}
