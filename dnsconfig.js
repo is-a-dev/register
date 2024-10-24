@@ -14,9 +14,10 @@ function getDomainsList(filesPath) {
 var domains = getDomainsList("./domains");
 var commit = [];
 
-for (var idx in domains) {
-    var subdomainName = domains[idx].name;
-    var domainData = domains[idx].data;
+for (var subdomain in domains) {
+    var subdomainName = domains[subdomain].name;
+    var fullSubdomain = subdomainName + ".is-a.dev";
+    var domainData = domains[subdomain].data;
     var proxyState = domainData.proxied ? { cloudflare_proxy: "on" } : { cloudflare_proxy: "off" };
 
     // Handle A records
@@ -49,6 +50,11 @@ for (var idx in domains) {
         } else {
             commit.push(CNAME(subdomainName, domainData.record.CNAME + ".", proxyState));
         }
+    }
+
+    // Handle DS records
+    if (domainData.record.DS) {
+        commit.push(DS(subdomainName, domainData.record.DS.key_tag, domainData.record.DS.algorithm, domainData.record.DS.digest_type, domainData.record.DS.digest));
     }
 
     // Handle MX records
@@ -86,35 +92,17 @@ for (var idx in domains) {
 
     // Handle URL records
     if (domainData.record.URL) {
-        commit.push(
-            A(subdomainName, "45.85.238.5", { cloudflare_proxy: "on" }),
-            TXT("_redirect." + subdomainName, "v=txtv0;type=host;to=" + domainData.record.URL)
-        );
+        commit.push(A(subdomainName, "192.0.2.1", { cloudflare_proxy: "on" }));
     }
-
-    // Exceptions
-    // is-a.dev
-    commit.push(IGNORE("@", "MX"));
-    commit.push(IGNORE("@", "TXT"));
-    // *.is-a.dev
-    commit.push(IGNORE("\\*"));
-    // _acme-challenge.is-a.dev
-    commit.push(IGNORE("_acme-challenge", "TXT"));
-    // _dmarc.is-a.dev
-    commit.push(IGNORE("_dmarc", "TXT"));
-    // ns1.is-a.dev
-    commit.push(IGNORE("ns1", "A"));
-    commit.push(IGNORE("ns1", "AAAA"));
-    // ns2.is-a.dev
-    commit.push(IGNORE("ns2", "A"));
-    commit.push(IGNORE("ns2", "AAAA"));
-    // ns3.is-a.dev
-    commit.push(IGNORE("ns3", "A"));
-    commit.push(IGNORE("ns3", "AAAA"));
-    // ns4.is-a.dev
-    commit.push(IGNORE("ns4", "A"));
-    commit.push(IGNORE("ns4", "AAAA"));
 }
 
+// Exceptions
+commit.push(IGNORE("@", "MX,TXT"));
+commit.push(IGNORE("\\*"));
+commit.push(IGNORE("_acme-challenge", "TXT"));
+commit.push(IGNORE("_dmarc", "TXT"));
+commit.push(IGNORE("_psl", "TXT"));
+commit.push(IGNORE("ns[1-5]", "A,AAAA"));
+
 // Commit all DNS records
-D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare")), commit);
+D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare", { "manage_single_redirects": true })), commit);

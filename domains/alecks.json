@@ -6,7 +6,8 @@
         },
     
         "record": {
-            "CNAME": "mmsehn6m.up.railway.app"
-        }
+            "CNAME": "evergarden.alecks.cloud"
+        },
+        
+        "proxied": true
     }
-    
