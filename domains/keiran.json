@@ -1,11 +1,12 @@
 {
-  "description": "Personal Bio",
-  "repo": "https://github.com/is-a-dev/docs",
+  "description": "Mirror domain for my website",
+  "repo": "https://github.com/KeiranScript/keiran.cc",
   "owner": {
-    "username": "keiranscript",
+    "username": "KeiranScript",
     "email": "keiran0@proton.me"
   },
   "record": {
-    "URL": "https://e-z.bio/kc"
-  }
+    "A": ["86.137.192.144"]
+  },
+  "proxied": true
 }
