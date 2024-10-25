@@ -22,7 +22,7 @@
 [![Publish](https://github.com/is-a-dev/register/actions/workflows/publish.yml/badge.svg)](https://github.com/is-a-dev/register/actions/workflows/publish.yml)
 
 ## Issues
-If you have any problems, feel free to [open a issue](https://github.com/is-a-dev/register/issues/new/choose).
+If you have any problems, feel free to [open an issue](https://github.com/is-a-dev/register/issues/new/choose).
 
 If you have an issue that contains confidental infomation, send an email to security@is-a.dev.
 
@@ -57,10 +57,11 @@ If you like this project, please consider donating so we can keep this project r
 <a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay"></a>
 
 ### Sponsors
-
+<div align="center">
 <a href="https://www.cloudflare.com/lp/project-alexandria/">
    <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="128">
 </a>
+</div>
 
 ### Similar Services
 If you want to find services similar to is-a.dev, take a look at [Free For Life](https://github.com/wdhdev/free-for-life#domains).
