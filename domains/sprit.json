@@ -1,0 +1,11 @@
+{
+  "description": "Codedspeit's personal note site",
+  "repo": "https://github.com/codedsprit/spritnote",
+  "owner": {
+    "username": "codedsprit",
+    "email": "roshan0x01@gmail.com"
+  },
+  "record": {
+    "CNAME": "codedsprit.github.io/spritnote"
+  }
+}
