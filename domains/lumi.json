@@ -7,5 +7,6 @@
     },
     "record": {
         "CNAME": "lumidevelopment.github.io"
+        "TXT": "vc-domain-verify=lumi.is-a.dev,38de86570893517719b8"
     }
 }
