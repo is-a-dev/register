@@ -1,11 +1,10 @@
 {
-  "description": "A personal website, for me.",
-  "repo": "https://github.com/athanasso/athanasso.github.io",
   "owner": {
     "username": "athanasso",
-    "email": "manos.athanasopoulos@yahoo.gr"
+    "email": "manos.athanasopoulos@yahoo.gr",
+    "discord": "187183823354724352"
   },
   "record": {
-    "CNAME": "athanasso.github.io"
+    "CNAME": "next-portfolio-eight-kohl.vercel.app"
   }
 }
