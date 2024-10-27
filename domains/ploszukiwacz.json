@@ -6,6 +6,8 @@
     "email": "ploszukiwacz1@gmail.com"
   },
   "record": {
-    "CNAME": "ploszukiwaczdev.github.io"
+    "CNAME": "ploszukiwaczdev.github.io",
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": "forward-email=ploszukiwacz1@proton.me"
   }
 }
