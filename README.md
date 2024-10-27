@@ -22,7 +22,7 @@
 [![Publish](https://github.com/is-a-dev/register/actions/workflows/publish.yml/badge.svg)](https://github.com/is-a-dev/register/actions/workflows/publish.yml)
 
 ## Issues
-If you have any problems, feel free to [open a issue](https://github.com/is-a-dev/register/issues/new/choose).
+If you have any problems, feel free to [open an issue](https://github.com/is-a-dev/register/issues/new/choose).
 
 If you have an issue that contains confidental infomation, send an email to security@is-a.dev.
 

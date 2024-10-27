@@ -15,5 +15,5 @@
             "v=spf1 include:zohomail.eu ~all"
         ]
     },
-    "proxied": true
+    "proxied": false
 }
