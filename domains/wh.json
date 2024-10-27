@@ -5,6 +5,6 @@
   },
 
   "record": {
-    "NS": ["ns1.hrsn.dev", "ns2.hrsn.dev", "ns3.hrsn.dev", "ns4.hrsn.dev", "ns5.hrsn.dev"]
+    "NS": ["chuck.ns.cloudflare.com", "walk.ns.cloudflare.com"]
   }
 }
