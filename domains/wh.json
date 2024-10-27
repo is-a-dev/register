@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "wdhdev",
+    "email": "william@is-a.dev"
+  },
+
+  "record": {
+    "NS": ["ns1.hrsn.dev", "ns2.hrsn.dev", "ns3.hrsn.dev", "ns4.hrsn.dev", "ns5.hrsn.dev"]
+  }
+}
