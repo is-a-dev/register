@@ -1,11 +1,10 @@
 {
-  "description": "For my personal website, The Reading Dimension. ^_^",
-  "repo": "https://github.com/readandprogress/thereadingdimension",
+  "description": "For my personal blog. ʕ·ᴥ·ʔ",
+  "repo": "https://github.com/readandprogress/reading.is-a.dev",
   "owner": {
     "username": "readandprogress",
     "email": "readandprogress@duck.com",
-    "discord": "readandprogress",
-    "cohost": "readandprogress"
+    "discord": "readandprogress"
   },
   "record": {
     "CNAME": "thereadingdimension.pages.dev"
