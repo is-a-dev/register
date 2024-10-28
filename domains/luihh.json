@@ -1,12 +1,10 @@
 {
-  "description": "Luihh's website",
-  "repo": "https://github.com/iLui/iLui.github.io",
   "owner": {
-    "username": "Luihh",
-    "email": "luihhbusiness23@gmail.com",
-    "twitter": "PoweredByLuihh"
+    "username": "luihh",
+    "email": "luihh@proton.me",
+    "discord": "481268875586174986"
   },
   "record": {
-    "CNAME": "iLui.github.io"
+    "CNAME": "extreme-demons-spreadsheet.vercel.app"
   }
 }

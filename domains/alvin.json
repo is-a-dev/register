@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "alvinsjoy",
+    "email": "",
+    "discord": "825382504353234954"
+  },
+  "record": {
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "A": ["76.76.21.21"],
+    "TXT": [
+      "google-site-verification=OFAPUslqNNZEkB5-UDAC1K1QjXCwDW_e3flhEchoobM",
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
+}
