@@ -6,9 +6,8 @@
     "email": "troysmithson12@icloud.com"
   },
   "record": {
-    "MX": [
-      "keira.ns.cloudflare.com",
-      "todd.ns.cloudflare.com"
+    "A": [
+      "75.2.60.5"
     ]
   }
 }
