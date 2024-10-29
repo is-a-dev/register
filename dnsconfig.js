@@ -92,7 +92,7 @@ for (var subdomain in domains) {
 
     // Handle URL records
     if (domainData.record.URL) {
-        commit.push(A(subdomainName, "192.0.2.1", { cloudflare_proxy: "on" }));
+        // Temporarily disabled
     }
 }
 
@@ -109,4 +109,4 @@ commit.push(IGNORE("autodiscover", "CNAME"));
 commit.push(IGNORE("ns[1-5]", "A,AAAA"));
 
 // Commit all DNS records
-D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare", { "manage_single_redirects": true })), commit);
+D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare")), commit);
