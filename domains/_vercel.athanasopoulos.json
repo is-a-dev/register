@@ -5,6 +5,7 @@
     "discord": "187183823354724352"
   },
   "record": {
-    "TXT": "vc-domain-verify=athanasopoulos.is-a.dev,56d11a7196dfe6d19e95"
+    "TXT": "vc-domain-verify=athanasopoulos.is-a.dev,56d11a7196dfe6d19e95",
+    "A": ["76.76.21.21"]
   }
 }
