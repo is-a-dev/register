@@ -1,0 +1,17 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/Joaco619",
+    "owner": {
+        "username": "Joaco619",
+        "email": ""
+    },
+    "record": {
+        "A": [
+           "69.197.135.202",
+"69.197.135.203",
+"69.197.135.204",
+"69.197.135.205", 
+"69.30.249.53"
+        ]
+    }
+}
