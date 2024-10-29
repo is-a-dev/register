@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/HauBaka/haubaka.github.io",
+    "owner": {
+        "username": "haubaka",
+        "email": "tuquynh7381@gmail.com",
+    },
+    "record": {
+        "CNAME": "haubaka.github.io"
+    }
+} 
