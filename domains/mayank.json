@@ -4,6 +4,6 @@
     "email": "mayankreal657@gmail.com"
   },
   "record": {
-    "CNAME": "mayankservers.github.io"
+    "NS": ["roman.ns.cloudflare.com", "tani.ns.cloudflare.com"]
   }
 }
