@@ -92,7 +92,7 @@ for (var subdomain in domains) {
 
     // Handle URL records
     if (domainData.record.URL) {
-        commit.push(A(subdomainName, "192.0.2.1", { cloudflare_proxy: "on" }));
+        // Temporarily disabled
     }
 }
 
