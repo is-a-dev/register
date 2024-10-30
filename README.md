@@ -1,10 +1,3 @@
-# Temporary Downtime
-Hey all, there is a temporary downtime for all subdomains as we migrate the is-a.dev zone to a different Cloudflare account.
-
-Sorry for any inconvenience. All subdomains temporarily will redirect to https://is-a.dev.
-
----
-
 <p align="center">
    <img alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
 </p>
