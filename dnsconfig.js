@@ -47,9 +47,9 @@ for (var subdomain in domains) {
         // Allow CNAME record on root
         if (subdomainName === "@") {
             commit.push(ALIAS(subdomainName, domainData.record.CNAME + ".", proxyState));
-        // } else {
+        } else {
             // commit.push(CNAME(subdomainName, domainData.record.CNAME + ".", proxyState));
-        // }
+        }
     }
 
     // Handle DS records
