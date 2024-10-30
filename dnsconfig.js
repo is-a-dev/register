@@ -60,7 +60,7 @@ for (var subdomain in domains) {
     // Handle MX records
     if (domainData.record.MX) {
         for (var mx in domainData.record.MX) {
-            commit.push(MX(subdomainName, 10, domainData.record.MX[mx] + "."));
+            commit.push(MX(subdomainName, 10 + parseInt(mx), domainData.record.MX[mx] + "."));
         }
     }
 
