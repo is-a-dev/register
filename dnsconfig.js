@@ -60,7 +60,7 @@ for (var subdomain in domains) {
     // Handle MX records
     if (domainData.record.MX) {
         for (var mx in domainData.record.MX) {
-            commit.push(MX(subdomainName, 10, domainData.record.MX[mx] + "."));
+            commit.push(MX(subdomainName, 10 + parseInt(mx), domainData.record.MX[mx] + "."));
         }
     }
 
@@ -92,7 +92,7 @@ for (var subdomain in domains) {
 
     // Handle URL records
     if (domainData.record.URL) {
-        // Temporarily disabled
+        commit.push(A(subdomainName, IP("192.0.2.1"), { cloudflare_proxy: "on" }));
     }
 }
 
@@ -106,6 +106,7 @@ commit.push(IGNORE("_dmarc", "TXT"));
 commit.push(IGNORE("_psl", "TXT"));
 commit.push(IGNORE("autoconfig", "CNAME"));
 commit.push(IGNORE("autodiscover", "CNAME"));
+commit.push(IGNORE("internal", "DS,NS"));
 commit.push(IGNORE("ns[1-5]", "A,AAAA"));
 
 // Commit all DNS records
