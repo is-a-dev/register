@@ -1,1 +1,11 @@
+{
+  "subdomain": "thesc",
+  "domain": "is-a.dev",
+  "owner": {
+    "email": "playnav.yt@gmail.com"
+  },
+  "records": {
+    "A": ["185.27.134.155"]
+  }
+}
 
