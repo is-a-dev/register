@@ -1,0 +1,11 @@
+{
+  "description": "Subdomain for the api of my website",
+  "owner": {
+    "username": "JamieD132",
+    "email": "jamied132.email@gmail.com",
+    "darflen.com": "JamieD132"
+  },
+  "record": {
+    "NS": ["", ""]
+  }
+}
