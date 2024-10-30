@@ -80,15 +80,15 @@ for (var subdomain in domains) {
     // }
 
     // Handle TXT records
-    if (domainData.record.TXT) {
-        if (Array.isArray(domainData.record.TXT)) {
-            for (var txt in domainData.record.TXT) {
-                commit.push(TXT(subdomainName, domainData.record.TXT[txt]));
-            }
-        } else {
-            commit.push(TXT(subdomainName, domainData.record.TXT));
-        }
-    }
+    // if (domainData.record.TXT) {
+    //     if (Array.isArray(domainData.record.TXT)) {
+    //         for (var txt in domainData.record.TXT) {
+    //             commit.push(TXT(subdomainName, domainData.record.TXT[txt]));
+    //         }
+    //     } else {
+    //         commit.push(TXT(subdomainName, domainData.record.TXT));
+    //     }
+    // }
 
     // Handle URL records
     if (domainData.record.URL) {
