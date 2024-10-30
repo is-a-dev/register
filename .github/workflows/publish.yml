@@ -30,3 +30,8 @@ jobs:
                   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               with:
                   args: push
+
+            - name: Trigger URL Webhook
+              env:
+                  WEBHOOK_URL: ${{ secrets.URL_WEBHOOK }}
+              run: curl -X GET "$WEBHOOK_URL"
