@@ -6,6 +6,19 @@
     "notes": "I never look at my emails, but I check on twitter alot, so if you need to contact, lmk your from is-a.dev"
   },
   "record": {
-    "TXT": "zoho-verification=zb26727871.zmverify.zoho.com"
+    "TXT": [
+      "zoho-verification=zb26727871.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all",
+      {
+        "host": "zmail._domainkey.mail.gs",
+        "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIBTe8Y/UeDzWD6h6UcnIbE9+hQrVo1V/s4tBlINTsI0uLLqGrdOMjnkXAXljqm5HBx5L+qNOw5s7d+LLUMtUKLY01nttqhaiPsP1KdzJdoCwQR38VwzVDMIHyNVKxd4YY99MIkVCoR7KoWds6pLvYKYOB+EGucZJWs8VjWrK8UQIDAQAB",
+      },
+    ],
+    "MX": [
+      "mx.zoho.com",
+      "mx2.zoho.com",
+      "mx3.zoho.com",
+    ],
+    "notes": "Im unsure if this is how i should set this up, so i apologize, the second txt is a SPF, and the third one is a DKIM, however the third one is said to need to be pointed at zmail._domainkey.mail.gs with a TXT value of v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIBTe8Y/UeDzWD6h6UcnIbE9+hQrVo1V/s4tBlINTsI0uLLqGrdOMjnkXAXljqm5HBx5L+qNOw5s7d+LLUMtUKLY01nttqhaiPsP1KdzJdoCwQR38VwzVDMIHyNVKxd4YY99MIkVCoR7KoWds6pLvYKYOB+EGucZJWs8VjWrK8UQIDAQAB, i have also forwarded an email containing all the info to security@is-a.dev",
   }
 }
