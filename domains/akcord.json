@@ -3,9 +3,10 @@
   "repo": "https://github.com/AKCord/akcord.github.io",
   "owner": {
     "username": "AKCord",
-    "email": "shrestha.aeniv@gmail.com"
+    "email": "shrestha.aeniv@gmail.com",
+    "discord": "AKCord"
   },
   "record": {
-    "CNAME": "akcord.github.io"
+    "A": ["75.2.60.5"]
   }
 }

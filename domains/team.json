@@ -3,9 +3,9 @@
   "repo": "github.com/is-a-dev/maintainer-docs",
   "owner": {
     "username": "is-a-dev",
-    "email": ""
+    "email": "admin@is-a.dev"
   },
   "record": {
-    "CNAME": "is-a-dev.github.io"
+    "CNAME": "is-a.dev"
   }
 }

@@ -5,13 +5,7 @@
   },
   "record": {
     "A": ["207.127.95.80"],
-    "MX": [
-      "mx.zoho.eu",
-      "mx2.zoho.eu",
-      "mx3.zoho.eu"
-    ],
-    "TXT": [
-      "v=spf1 include:zoho.eu ~all"
-    ]
+    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
+    "TXT": ["v=spf1 include:zoho.eu ~all"]
   }
 }
