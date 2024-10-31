@@ -6,12 +6,12 @@
     "email": "connect@real-yash.is-a.dev"
   },
   "record": {
-        "A": [
-            "185.199.111.153",
-            "185.199.109.153",
-            "185.199.108.153",
-            "185.199.110.153"
-        ],
+    "A": [
+      "185.199.111.153",
+      "185.199.109.153",
+      "185.199.108.153",
+      "185.199.110.153"
+    ],
     "MX": ["yash-isa-dev01i.mail.protection.outlook.com"],
     "TXT": "v=spf1 include:spf.protection.outlook.com -all"
   }
