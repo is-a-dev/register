@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "joaopaulodotbs",
-        "email": "joaopaulodotbs@outlook.com"
-    },
-    "record": {
-        "CNAME": "joaopaulo.pages.dev"
-    }
+  "owner": {
+    "username": "joaopaulodotbs",
+    "email": "joaopaulodotbs@outlook.com"
+  },
+  "record": {
+    "CNAME": "joaopaulo.pages.dev"
+  }
 }
