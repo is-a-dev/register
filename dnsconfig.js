@@ -94,6 +94,11 @@ for (var subdomain in domains) {
     if (domainData.record.URL) {
         commit.push(A(subdomainName, IP("192.0.2.1"), { cloudflare_proxy: "on" }));
     }
+
+    // Handle reserved domains
+    if (domainData.reserved) {
+        commit.push(TXT(subdomainName, "RESERVED"));
+    }
 }
 
 // Exceptions
