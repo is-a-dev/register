@@ -96,7 +96,7 @@ for (var subdomain in domains) {
     }
 
     // Handle reserved domains
-    if (domainData?.reserved) {
+    if (domainData.reserved) {
         commit.push(TXT(subdomainName, "RESERVED"));
     }
 }
