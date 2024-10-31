@@ -1,12 +1,10 @@
+{
+  "owner": {
+    "username": "weeebdev",
+    "email": "mr.adil777@gmail.com"
+  },
 
-    {
-      "owner": {
-        "username": "weeebdev",
-        "email": "mr.adil777@gmail.com"
-      },
-
-      "record": {
-        "CNAME": "weeebdev.github.io"
-      }
-    }
-  
+  "record": {
+    "CNAME": "weeebdev.github.io"
+  }
+}

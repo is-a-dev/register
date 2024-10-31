@@ -1,13 +1,12 @@
 {
-    "description": "Personal website for me",
-    "repo": "https://github.com/oopshnik/oopshnik.github.io",
-    "owner": {
-      "username": "oopshnik",
-      "email": "",
-      "discord": "1186159079178108982"
-    },
-    "record": {
-      "CNAME": "oopshnik.github.io"
-    }
-
+  "description": "Personal website for me",
+  "repo": "https://github.com/oopshnik/oopshnik.github.io",
+  "owner": {
+    "username": "oopshnik",
+    "email": "",
+    "discord": "1186159079178108982"
+  },
+  "record": {
+    "CNAME": "oopshnik.github.io"
+  }
 }

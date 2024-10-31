@@ -1,10 +1,10 @@
 {
-	"owner": {
-		"username": "bomba.cat",
-		"email": "bledion.morina@hotmail.com"
-	},
+  "owner": {
+    "username": "bomba.cat",
+    "email": "bledion.morina@hotmail.com"
+  },
 
-	"record": {
-		"CNAME": "bomba-cat.github.io"
-	}
+  "record": {
+    "CNAME": "bomba-cat.github.io"
+  }
 }
