@@ -18,10 +18,7 @@
       "2606:50c0:8002::153",
       "2606:50c0:8003::153"
     ],
-    "MX": [
-      "mx1.forwardemail.net",
-      "mx2.forwardemail.net"
-    ],
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=nerop455@gmail.com"
   }
 }

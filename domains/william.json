@@ -3,8 +3,13 @@
     "username": "wdhdev",
     "email": "william@is-a.dev"
   },
-
   "record": {
-    "NS": ["bingo.ns.cloudflare.com", "matias.ns.cloudflare.com"]
+    "NS": [
+      "ns1.hrsn.net",
+      "ns2.hrsn.net",
+      "ns3.hrsn.net",
+      "ns4.hrsn.net",
+      "ns5.hrsn.net"
+    ]
   }
 }

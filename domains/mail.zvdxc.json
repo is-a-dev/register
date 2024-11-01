@@ -5,11 +5,7 @@
     "email": "zvdxc11@gmail.com"
   },
   "record": {
-    "MX": [
-      "mx.zoho.eu",
-      "mx2.zoho.eu",
-      "mx3.zoho.eu"
-    ],
+    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
     "TXT": [
       "zoho-verification=zb90341973.zmverify.zoho.eu",
       "v=spf1 include:zohomail.eu ~all"

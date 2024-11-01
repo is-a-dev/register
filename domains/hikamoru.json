@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AmoreForever",
-        "email": "me.thefarkhodov@gmail.com"
-    },
-    "record": {
-        "CNAME": "hikamoru.pages.dev"
-    }
+  "owner": {
+    "username": "AmoreForever",
+    "email": "me.thefarkhodov@gmail.com"
+  },
+  "record": {
+    "CNAME": "hikamoru.pages.dev"
+  }
 }
