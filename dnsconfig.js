@@ -65,7 +65,7 @@ for (var subdomain in domains) {
     }
 
     // Handle NS records
-    if (domainData.record.NS && subdomainName !== "@") {
+    if (domainData.record.NS) {
         for (var ns in domainData.record.NS) {
             commit.push(NS(subdomainName, domainData.record.NS[ns] + "."));
         }
@@ -112,4 +112,4 @@ commit.push(IGNORE("autodiscover", "CNAME"));
 commit.push(IGNORE("dkim._domainkey", "TXT"));
 
 // Commit all DNS records
-D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare")), commit);
+D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare")), DISABLE_IGNORE_SAFETY_CHECK(), commit);
