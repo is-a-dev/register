@@ -7,6 +7,6 @@
     "email": "haftthedev@gmail.com"
   },
   "record": {
-    "A": "38.22.104.156"
+    "A": ["38.22.104.156"]
   }
 }
