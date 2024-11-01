@@ -146,7 +146,7 @@ for (var subdomain in domains) {
 }
 
 var options = {
-    no_ns: true
+    no_ns: 'true'
 };
 
 var ignored = [
