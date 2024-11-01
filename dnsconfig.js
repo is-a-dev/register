@@ -117,8 +117,5 @@ D(
     "is-a.dev",
     NewRegistrar("none"),
     DnsProvider(NewDnsProvider("cloudflare"), 0),
-    NAMESERVER("gold.foundationdns.com."),
-    NAMESERVER("gold.foundationdns.net."),
-    NAMESERVER("gold.foundationdns.org."),
     commit
 );
