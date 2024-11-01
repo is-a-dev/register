@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "quiww"
+        "username": "quiww",
+	"mastodon": "qui@bsd.cafe"
     },
     "record": {
         "CNAME": "quiww.github.io"
