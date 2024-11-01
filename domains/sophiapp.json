@@ -4,6 +4,6 @@
     "email": "apposophy@gmail.com"
   },
   "record": {
-    "RECORDTYPE": "CNAME"
+    "CNAME": "oauth-ssr.vercel.app"
   }
 }
