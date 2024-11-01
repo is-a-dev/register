@@ -5,5 +5,6 @@
   },
   "record": {
     "CNAME": "joe50097.netlify.app"
-  }
+  },
+  "proxied":false
 }

@@ -5,4 +5,4 @@
 
 *.md @is-a-dev/maintainers
 /LICENSE @phenax
-/dnsconfig.js @wdhdev @andrewstech
+/dnsconfig.js @wdhdev
