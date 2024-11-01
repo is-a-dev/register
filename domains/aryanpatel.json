@@ -7,7 +7,7 @@
         },
     
         "record": {
-            "CNAME": "cname.vercel-dns.com."
+            "CNAME": "cname.vercel-dns.com"
         }
     }
     
