@@ -5,12 +5,6 @@
     "github_id": 85183285
   },
   "record": {
-    "A": [
-      "130.162.166.134"
-    ],
-    "MX": [
-      "mail.is-a.dev"
-    ],
-    "TXT": "v=spf1 mx a:mail.is-a.dev ~include:_spf.google.com ~all"
+    "A": ["130.162.166.134"]
   }
 }

@@ -1,0 +1,12 @@
+{
+  "description": "This subdomain is for my personal portfolio website.",
+  "repo": "https://github.com/baokhang4930/baokhang4930.github.io",
+  "owner": {
+    "username": "baokhang4930",
+    "email": "baokhang4930@gmail.com",
+    "twitter": "undefiined__"
+  },
+  "record": {
+    "NS": ["elijah.ns.cloudflare.com", "jo.ns.cloudflare.com"]
+  }
+}

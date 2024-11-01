@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "artaabedi",
+    "email": "arta@mailfence.com",
+    "discord": "884500561158869032",
+    "twitter": "artaabedi"
+  },
+  "record": {
+    "URL": "https://artaabedi.com",
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+  }
+}

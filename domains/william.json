@@ -1,10 +1,15 @@
 {
   "owner": {
     "username": "wdhdev",
-    "email": "william@williamharrison.dev"
+    "email": "william@is-a.dev"
   },
-
   "record": {
-    "CNAME": "wdhdns.com"
+    "NS": [
+      "ns1.hrsn.net",
+      "ns2.hrsn.net",
+      "ns3.hrsn.net",
+      "ns4.hrsn.net",
+      "ns5.hrsn.net"
+    ]
   }
 }

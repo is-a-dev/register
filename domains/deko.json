@@ -1,11 +1,9 @@
 {
   "owner": {
-    "username": "ukrioo",
-    "email": "u8k50850@gmail.com"
+    "username": "ukriu",
+    "email": "isadev@ukriu.com"
   },
   "record": {
-    "URL": "https://ukrioo.github.io",
-    "MX": ["mail.is-a.dev"],
-    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+    "URL": "https://ukriu.com"
   }
 }

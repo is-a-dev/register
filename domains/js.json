@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "ukrioo",
-        "email": "u8k50850@gmail.com"
-    },
-    "record": {
-        "URL": "https://ukrioo.github.io/",
-        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": "forward-email=u8k50850@gmail.com"
-    }
+  "description": "7.is.a.dev why not",
+  "owner": {
+    "username": "JustDeveloper1",
+    "email": "justdeveloper@juststudio.is-a.dev",
+    "discord": "1117482901353812088"
+  },
+  "record": {
+    "A": ["89.106.200.1"]
+  }
 }

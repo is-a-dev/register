@@ -1,17 +1,10 @@
 {
-    "owner": {
-        "username": "KennySB-dev",
-        "email": "kennybugeja@gmail.com",
-        "discord": "kenny.sb"
-    },
-    "record": {
-        "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
-        "MX": ["mail.is-a.dev"],
-        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
-    }
+  "owner": {
+    "username": "KennySB-dev",
+    "email": "kennybugeja@gmail.com",
+    "discord": "kenny.sb"
+  },
+  "record": {
+    "URL": "https://kennysb.xyz"
+  }
 }

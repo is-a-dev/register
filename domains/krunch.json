@@ -1,0 +1,11 @@
+{
+  "description": "Profile Page",
+  "repo": "https://github.com/RadioactivePotato/krunch-is-a-dev",
+  "owner": {
+    "username": "RadioactivePotato",
+    "discord": "krunchiekrunch._."
+  },
+  "record": {
+    "CNAME": "krunch.pages.dev"
+  }
+}
