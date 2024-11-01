@@ -102,7 +102,7 @@ for (var subdomain in domains) {
 }
 
 // Exceptions
-commit.push(IGNORE("@", "MX,TXT"));
+commit.push(IGNORE("@", "MX,NS,TXT"));
 commit.push(IGNORE("\\*"));
 commit.push(IGNORE("_acme-challenge", "TXT"));
 commit.push(IGNORE("_autodiscover._tcp", "SRV"));
