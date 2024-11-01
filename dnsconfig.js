@@ -101,11 +101,6 @@ for (var subdomain in domains) {
     }
 }
 
-var defaults = DEFAULTS(
-    CF_PROXY_DEFAULT_OFF,
-    DefaultTTL("1h")
-);
-
 var ignored = [
     IGNORE("@", "MX,TXT"),
     IGNORE("\\*"),
@@ -117,4 +112,4 @@ var ignored = [
     IGNORE("dkim._domainkey", "TXT")
 ]
 
-D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare"), 0), defaults, ignored, records);
+D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare"), 0), ignored, records);
