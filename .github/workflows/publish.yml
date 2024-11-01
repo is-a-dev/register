@@ -22,7 +22,7 @@ jobs:
             - uses: actions/checkout@v4
 
             - name: Generate creds.json
-              run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"},"no_ns":"true"}' > ./creds.json
+              run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
 
             - name: Publish
               uses: is-a-dev/dnscontrol-action@main
