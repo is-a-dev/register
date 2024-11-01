@@ -113,9 +113,4 @@ commit.push(IGNORE("dkim._domainkey", "TXT"));
 commit.push(IGNORE("ns[1-5]", "A,AAAA"));
 
 // Commit all DNS records
-D(
-    "is-a.dev",
-    NewRegistrar("none"),
-    DnsProvider(NewDnsProvider("cloudflare"), 0),
-    commit
-);
+D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare"), 0), commit);
