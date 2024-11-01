@@ -65,7 +65,7 @@ for (var subdomain in domains) {
     }
 
     // Handle NS records
-    if (domainData.record.NS) {
+    if (domainData.record.NS && subdomainName !== "@") {
         for (var ns in domainData.record.NS) {
             commit.push(NS(subdomainName, domainData.record.NS[ns] + "."));
         }
