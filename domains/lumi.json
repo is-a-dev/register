@@ -1,11 +1,9 @@
 {
-    "owner": {
-        "username": "itsFatlum",
-        "email": "",
-        "discord": "563697359423406082",
-        "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.rYJfVY9ddcNfUcpiA_o2o6afOGU-_sax-Oa1vg0zHVqWukEa9JJAEa-CF6Z6zpQTsrzS1fHeu17ddrDN2fvYf9d4K6-JpqrPBKX8RuPRhusLm4sdrrsDgyBcPQINzvVBdYya68DmkLQxf6lKAncjmRbLKkvkku32sakJlnSUbYJgstWMEBLtXe0hyroNt6_TkuNv9QiRECuhnmlo2_lC2P2EIh5ZtfvdNjfuS1N3uZc2nZpTmWclSQd3NVVe7IrZ7XfRocJFBKP19MIV9_qPxL6IKUH3gacnEqiFeTK2jirFv9dqvw6U_svwWqLeIv4Wc-p_I_GgIPUetDbOP4x0dQ.JRHm9e3Qt7KlgJhhL2pcng.s69nUmVqp_xNW7Bqr8g8ok3LPknauV7vy60oagYQgOEdZIdySA8znFtCp9YH7U7z2Bqr6n_suwYNkbgfgnniCPOo3b5P63Hxh9UQJe5wwkJpqqn2bAmS1rR1yAj4jnkv.89_IC0fL8YWZck7DqeF6zA"
-    },
-    "record": {
-        "CNAME": "lumidevelopment.github.io"
-    }
+  "owner": {
+    "username": "itsFatlum",
+    "discord": "563697359423406082"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+  }
 }
