@@ -1,5 +1,5 @@
 {
-    "description": "Uptime website for my stuff, gonna use hetrixtools for now, might change to something else later",
+    "description": "Personal website!",
     "repo": "N/A",
     "owner": {
         "username": "YUG38",
@@ -7,6 +7,6 @@
         "discord": "name_yug"
     },
     "record": {
-        "CNAME": "reports.hetrixtools.com"
+        "CNAME": "name-yug.pages.dev"
     }
 }

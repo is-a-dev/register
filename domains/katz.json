@@ -5,9 +5,6 @@
     "email": ""
   },
   "record": {
-    "NS": [
-      "audrey.ns.cloudflare.com",
-      "hank.ns.cloudflare.com"
-    ]
+    "NS": ["audrey.ns.cloudflare.com", "hank.ns.cloudflare.com"]
   }
 }

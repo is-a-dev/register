@@ -3,8 +3,10 @@
     "username": "wdhdev",
     "email": "william@is-a.dev"
   },
-
   "record": {
-    "NS": ["chuck.ns.cloudflare.com", "walk.ns.cloudflare.com"]
+    "NS": [
+      "bingo.ns.cloudflare.com",
+      "matias.ns.cloudflare.com"
+    ]
   }
 }

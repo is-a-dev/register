@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "is-a-dev",
+    "email": "admin@is-a.dev"
+  },
+  "record": {
+    "NS": [
+      "blue.foundationdns.com",
+      "blue.foundationdns.net",
+      "blue.foundationdns.org"
+    ]
+  }
+}
