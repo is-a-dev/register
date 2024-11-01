@@ -1,13 +1,10 @@
 {
-        "owner": {
-           "username": "MaskDuck",
-           "email": "",
-           "discord": "716134528409665586",
-           "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.FCODcvMVh-iHQ04kj7Eff1SC1Gh-ycagZxRqb-Y0X8tJwM8YnSqscZVkyRbW36X8X_EycjD5DLhkuW1dlk_wNaRGXrROY2_sdUxL71rW6cjc6OUqYdGaBrkqHfQ_R-a0vUWHyNQTDd266RV2RfYTdT71siAeMMFVgC1S7K7bEVlo5n2yYZLJg0-BkSevG4tDLyndsB4rPzeJTm-8EKIk62A-9Xfla0zbxQpY8x7gAc9ukpCH5fkITPcbGAMSitGXEtd7bMzErBdP-97X-c9hFF_B2ot2U8J-W_Rp9z8xk-vCKrGGEG76rqXyY1tSN68iUyL8at5p0-vGliTuALLNsA.zQD4sI7edMLRBD_ii-KXDA.Y689CjD1NbsRoyYnoiO9Arg5sHrlQ1SxpXExtf8Gn1VRmK86FuKRYTBvwSc_qIz7LqL90lEuEcNwUAWQHXx6aKIw90X_WYDLagM8nsugxBo.dO8s5XxLzH0gsfWJtnKNmg"
-        },
-    
-        "record": {
-            "CNAME": "maskduck.pages.dev"
-        }
-    }
-    
+  "owner": {
+    "username": "MaskDuck",
+    "discord": "716134528409665586",
+    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.FCODcvMVh-iHQ04kj7Eff1SC1Gh-ycagZxRqb-Y0X8tJwM8YnSqscZVkyRbW36X8X_EycjD5DLhkuW1dlk_wNaRGXrROY2_sdUxL71rW6cjc6OUqYdGaBrkqHfQ_R-a0vUWHyNQTDd266RV2RfYTdT71siAeMMFVgC1S7K7bEVlo5n2yYZLJg0-BkSevG4tDLyndsB4rPzeJTm-8EKIk62A-9Xfla0zbxQpY8x7gAc9ukpCH5fkITPcbGAMSitGXEtd7bMzErBdP-97X-c9hFF_B2ot2U8J-W_Rp9z8xk-vCKrGGEG76rqXyY1tSN68iUyL8at5p0-vGliTuALLNsA.zQD4sI7edMLRBD_ii-KXDA.Y689CjD1NbsRoyYnoiO9Arg5sHrlQ1SxpXExtf8Gn1VRmK86FuKRYTBvwSc_qIz7LqL90lEuEcNwUAWQHXx6aKIw90X_WYDLagM8nsugxBo.dO8s5XxLzH0gsfWJtnKNmg"
+  },
+  "record": {
+    "CNAME": "maskduck.pages.dev"
+  }
+}

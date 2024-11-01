@@ -2,12 +2,9 @@
   "description": "VPS",
   "owner": {
     "username": "QuinceTart10",
-    "email": "",
     "discord": "862644161156218891"
   },
   "record": {
-    "A": [
-      "64.226.124.11"
-    ]
+    "A": ["64.226.124.11"]
   }
 }

@@ -22,7 +22,7 @@ jobs:
             - uses: actions/checkout@v4
 
             - name: Generate creds.json
-              run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
+              run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"},"no_ns":"true"}' > ./creds.json
 
             - name: Publish
               uses: is-a-dev/dnscontrol-action@main
@@ -30,3 +30,8 @@ jobs:
                   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               with:
                   args: push
+
+            - name: Trigger URL Webhook
+              env:
+                  WEBHOOK_URL: ${{ secrets.URL_WEBHOOK }}
+              run: curl -X GET "$WEBHOOK_URL"
