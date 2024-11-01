@@ -4,6 +4,8 @@
     "email": "pasanflo@protonmail.com"
   },
   "record": {
-    "CNAME": "6707a4aff63b5b00090c41ea--pasanflo.netlify.app/"
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }
