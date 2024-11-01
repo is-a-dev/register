@@ -112,4 +112,4 @@ var ignored = [
     IGNORE("dkim._domainkey", "TXT")
 ]
 
-D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare"), 0), ignored, records);
+D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare"), 0, { no_ns: true }), ignored, records);
