@@ -31,7 +31,7 @@ for (var subdomain in domains) {
     if (domainData.record.A) {
         for (var a in domainData.record.A) {
             records.push(
-                A(subdomainName, IP(domainData.record.A[a]), proxyState),
+                A(subdomainName, IP(domainData.record.A[a]), proxyState)
             );
         }
     }
@@ -40,7 +40,7 @@ for (var subdomain in domains) {
     if (domainData.record.AAAA) {
         for (var aaaa in domainData.record.AAAA) {
             records.push(
-                AAAA(subdomainName, domainData.record.AAAA[aaaa], proxyState),
+                AAAA(subdomainName, domainData.record.AAAA[aaaa], proxyState)
             );
         }
     }
@@ -54,8 +54,8 @@ for (var subdomain in domains) {
                     subdomainName,
                     caaRecord.flags,
                     caaRecord.tag,
-                    caaRecord.value,
-                ),
+                    caaRecord.value
+                )
             );
         }
     }
@@ -65,11 +65,11 @@ for (var subdomain in domains) {
         // Allow CNAME record on root
         if (subdomainName === "@") {
             records.push(
-                ALIAS(subdomainName, domainData.record.CNAME + ".", proxyState),
+                ALIAS(subdomainName, domainData.record.CNAME + ".", proxyState)
             );
         } else {
             records.push(
-                CNAME(subdomainName, domainData.record.CNAME + ".", proxyState),
+                CNAME(subdomainName, domainData.record.CNAME + ".", proxyState)
             );
         }
     }
@@ -82,8 +82,8 @@ for (var subdomain in domains) {
                 domainData.record.DS.key_tag,
                 domainData.record.DS.algorithm,
                 domainData.record.DS.digest_type,
-                domainData.record.DS.digest,
-            ),
+                domainData.record.DS.digest
+            )
         );
     }
 
@@ -94,8 +94,8 @@ for (var subdomain in domains) {
                 MX(
                     subdomainName,
                     10 + parseInt(mx),
-                    domainData.record.MX[mx] + ".",
-                ),
+                    domainData.record.MX[mx] + "."
+                )
             );
         }
     }
@@ -117,8 +117,8 @@ for (var subdomain in domains) {
                     srvRecord.priority,
                     srvRecord.weight,
                     srvRecord.port,
-                    srvRecord.target + ".",
-                ),
+                    srvRecord.target + "."
+                )
             );
         }
     }
@@ -146,7 +146,7 @@ for (var subdomain in domains) {
 }
 
 var options = {
-    no_ns: true,
+    no_ns: true
 };
 
 var ignored = [
@@ -157,7 +157,7 @@ var ignored = [
     IGNORE("_dmarc", "TXT"),
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
-    IGNORE("dkim._domainkey", "TXT"),
+    IGNORE("dkim._domainkey", "TXT")
 ];
 
 D(domainName, registrar, dnsProvider, options, ignored, records);
