@@ -110,7 +110,7 @@ commit.push(IGNORE("_dmarc", "TXT"));
 commit.push(IGNORE("autoconfig", "CNAME"));
 commit.push(IGNORE("autodiscover", "CNAME"));
 commit.push(IGNORE("dkim._domainkey", "TXT"));
-commit.psuh(IGNORE("ns[1-5]", "A,AAAA"));
+commit.push(IGNORE("ns[1-5]", "A,AAAA"));
 
 // Commit all DNS records
 D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare")), commit);
