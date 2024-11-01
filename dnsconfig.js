@@ -104,14 +104,12 @@ for (var subdomain in domains) {
 // Exceptions
 commit.push(IGNORE("@", "MX,TXT"));
 commit.push(IGNORE("\\*"));
-commit.push(IGNORE("*._domainkey", "TXT"));
 commit.push(IGNORE("_acme-challenge", "TXT"));
 commit.push(IGNORE("_autodiscover._tcp", "SRV"));
 commit.push(IGNORE("_dmarc", "TXT"));
-commit.push(IGNORE("_psl", "TXT"));
 commit.push(IGNORE("autoconfig", "CNAME"));
 commit.push(IGNORE("autodiscover", "CNAME"));
-commit.push(IGNORE("ns[1-5]", "A,AAAA"));
+commit.push(IGNORE("dkim._domainkey", "TXT"));
 
 // Commit all DNS records
 D("is-a.dev", NewRegistrar("none"), DnsProvider(NewDnsProvider("cloudflare")), commit);
