@@ -111,7 +111,6 @@ commit.push(IGNORE("_dmarc", "TXT"));
 commit.push(IGNORE("_psl", "TXT"));
 commit.push(IGNORE("autoconfig", "CNAME"));
 commit.push(IGNORE("autodiscover", "CNAME"));
-commit.push(IGNORE("internal", "DS,NS"));
 commit.push(IGNORE("ns[1-5]", "A,AAAA"));
 
 // Commit all DNS records
