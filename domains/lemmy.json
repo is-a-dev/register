@@ -1,0 +1,8 @@
+{
+  "description": "Registration blocked due to consistent DDoS attacks against the domain.",
+  "owner": {
+    "username": "is-a-dev",
+    "email": "security@is-a.dev"
+  },
+  "record": {}
+}
