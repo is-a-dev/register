@@ -4,5 +4,8 @@
     "username": "is-a-dev",
     "email": "security@is-a.dev"
   },
-  "record": {}
+  "record": {
+    "A": ["192.0.2.1"]
+  },
+  "proxied": true
 }
