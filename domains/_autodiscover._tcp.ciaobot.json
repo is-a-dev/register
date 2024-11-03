@@ -4,6 +4,11 @@
     "discord": "687333016921440317"
   },
   "record": {
-    "SRV": "mail.ciaohost.tech 443"
+    "SRV": [
+      {
+        "target": "mail.ciaohost.tech 443",
+        "port": 443
+      }
+    ]
   }
 }
