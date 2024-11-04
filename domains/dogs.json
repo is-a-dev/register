@@ -6,5 +6,6 @@
   },
   "record": {
     "CNAME": "dog-images.pages.dev"
-  }
+  },
+  "proxied": true
 }
