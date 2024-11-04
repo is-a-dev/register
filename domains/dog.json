@@ -6,5 +6,6 @@
   },
   "record": {
     "CNAME": "yunexiz.github.io"
-  }
+  },
+  "proxied": true
 }
