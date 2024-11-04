@@ -6,5 +6,6 @@
   },
   "record": {
     "CNAME": "cat-images.pages.dev"
-  }
+  },
+  "proxied": true
 }
