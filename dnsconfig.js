@@ -147,7 +147,7 @@ for (var subdomain in domains) {
 }
 
 var options = {
-    no_ns: 'true'
+    no_ns: "true"
 };
 
 var ignored = [
@@ -158,9 +158,10 @@ var ignored = [
     IGNORE("_dmarc", "TXT"),
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
-    IGNORE("dkim._domainkey", "TXT"),
-    IGNORE("internal"),
-    IGNORE("**.internal")
+    IGNORE("dkim._domainkey", "TXT")
 ];
 
-D(domainName, registrar, dnsProvider, options, ignored, records);
+// Push TXT record of when the zone was last updated
+records.push(TXT("_zone-updated", Date.now().toString()));
+
+D(domainName, registrar, dnsProvider, options, ignored, records));
