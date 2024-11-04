@@ -6,5 +6,6 @@
   },
   "record": {
     "CNAME": "ai-y.onrender.com"
-  }
+  },
+  "proxied": true
 }
