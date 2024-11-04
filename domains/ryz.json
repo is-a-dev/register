@@ -7,5 +7,5 @@
     },
     "record": {
         "NS": ["betty.ns.cloudflare.com", "cody.ns.cloudflare.com"]
-    },
+    }
 }
