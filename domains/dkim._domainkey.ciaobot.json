@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Ciao287",
+    "discord": "687333016921440317"
+  },
+  "record": {
+    "TXT": "v=DKIM1;k=rsa;t=s;s=email;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwbNDcpNQR0T591UH23v8yi6SKmOV4uddxKFNUDcX1NmB/Q4evuJEGDY8qmwB9eFuZCoBAOKjAoU+vB+WH7mdj6F73zshPB3mEtISHR2Fbo2zONf3VXmO5NE5/jKcN1bmzDGEBj+gUzOTrnAGDcj65UCtKWx0F1rOboRTzCId2rCTPc9nBnOSpVsYNlhlebeDbxapzZ1wBQcCzQGangYisKjSM6IM4ztSrONkVluCdPIl6AkiUUvN6PnDKc8LBkFMHnpDfbFUQIufURxoqEfP4xYT5cZNOT/3RbrI5rjR2kdeIufsO+QlQ5XXRv/QETJgtOKTeCzPmc243KGlx9NsiQIDAQAB"
+  }
+}
