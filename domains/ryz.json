@@ -6,6 +6,6 @@
         "discord": "4ryz"
     },
     "record": {
-        "NS": ["betty.ns.cloudflare.com", "cody.ns.cloudflare.com"],
+        "NS": ["betty.ns.cloudflare.com", "cody.ns.cloudflare.com"]
     },
 }
