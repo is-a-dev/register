@@ -6,5 +6,6 @@
   },
   "record": {
     "CNAME": "ai-y-main.pages.dev"
-  }
+  },
+  "proxied": true
 }
