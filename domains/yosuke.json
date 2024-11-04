@@ -6,5 +6,6 @@
   },
   "record": {
     "CNAME": "yunexiz.pages.dev"
-  }
+  },
+  "proxied": true
 }
