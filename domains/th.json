@@ -4,12 +4,9 @@
         "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.YlZOsSzd1Fj8XNMuz6LjsFl4Rte0ZkDJfIkYz_dUC4Xd01MhYUO57sI_upYgxWRH8w_T-lO3fThKPm07rxDuVUIxEIYaGE-Dy5bDc0JP9g9M-dF3IQkFhbiPwGq1yFFWUUyCmVliuSDbviuqEhoOK2dpXOeTxEa__nKMzTCD8DQ_J76YEQq15t7SeYvIiEDEvKobP5SChcV2kBVhJkcjj2YNF1VAniIzZlJnL0YTXTS-ySwMKbG7J_tjHP0kyzgpvoJNPYy9Tuf7AJ7ELAJt_691gwWMQlCP3RLjjPUjRbqfBmDcvM0wCnqP0UQfU0JOsM4J7iJn4Gg35GnDC86Kbg.W71tgbQktxUdFwx7LDZKMA.4ahXvgncKQt2J7CYsXTljM6i9SZM5BfbPLCboaorTxwX_W8IsLntHevTFfvbE-lZVse1xH5MOaO_mUMshwwS8IBnWa-4oYnC8J1rQ2IFzUo.RbrrO88xGNvF4iOecVIFJA"
     },
     "record": {
-        "MX": [
-            "mx1.improvmx.com.",
-            "mx2.improvmx.com."
-        ],
-        "TXT": [
-            "v=spf1 include:spf.improvmx.com ~all"
+        "NS": [
+            "dilbert.ns.cloudflare.com",
+            "fish.ns.cloudflare.com"
         ]
     }
 }
