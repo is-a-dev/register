@@ -16,10 +16,6 @@
       "mx2.zoho.in", 
       "mx3.zoho.in"
     ],
-    "TXT": "v=spf1 include:zoho.in ~all",
-    "NS": [
-      "chris.ns.cloudflare.com", 
-      "kimora.ns.cloudflare.com"
-    ]
+    "TXT": "v=spf1 include:zoho.in ~all"
   }
 }
