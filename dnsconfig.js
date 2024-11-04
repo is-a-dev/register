@@ -157,9 +157,9 @@ var ignored = [
     IGNORE("_dmarc", "TXT"),
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
-    IGNORE("dkim._domainkey", "TXT")
+    IGNORE("dkim._domainkey", "TXT"),
     IGNORE("internal"),
-    IGNORE("**.internal"),
+    IGNORE("**.internal")
 ];
 
 D(domainName, registrar, dnsProvider, options, ignored, records);
