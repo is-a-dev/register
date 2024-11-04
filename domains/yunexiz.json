@@ -22,5 +22,6 @@
       "google-site-verification=JaMCz_HK22wQhiZbF-51XTXAzEEt3qBYCMo2g_86BWo"
     ],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
-  }
+  },
+  "proxied": true
 }
