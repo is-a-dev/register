@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "SrLebel",
+    "username": "srlbel",
     "email": "dev.juansimancas@proton.me"
   },
   "record": {
-    "URL": "https://srlebel.netlify.app/"
+    "A": ["72.2.60.5"]
   }
 }
