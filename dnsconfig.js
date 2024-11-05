@@ -137,6 +137,7 @@ for (var subdomain in domains) {
     // Handle URL records
     if (domainData.record.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
+        records.push(TXT("_redirect." + subdomainName, domainData.record.URL));
     }
 
     // Handle reserved domains
@@ -146,7 +147,7 @@ for (var subdomain in domains) {
 }
 
 var options = {
-    no_ns: 'true'
+    no_ns: "true"
 };
 
 var ignored = [
@@ -159,5 +160,8 @@ var ignored = [
     IGNORE("autodiscover", "CNAME"),
     IGNORE("dkim._domainkey", "TXT")
 ];
+
+// Push TXT record of when the zone was last updated
+records.push(TXT("_zone-updated", Date.now().toString()));
 
 D(domainName, registrar, dnsProvider, options, ignored, records);
