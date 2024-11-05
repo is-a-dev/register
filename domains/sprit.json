@@ -1,0 +1,10 @@
+{
+  "description": "Codedspeit's test homepage ",
+  "owner": {
+    "username": "codedsprit",
+    "email": "roshan0x01@gmail.com"
+  },
+  "record": {
+    "CNAME": "codedsprit.netlify.app"
+  }
+}

@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "yigitdevv0",
-        "email": "yigitkabak05@hotmail.com"
-    },
-    "record": {
-        "CNAME": "yigit.xairys.com"
-    }
+  "description": "My Portfolio",
+  "repo": "https://github.com/yigitdev05/yigitdev05.github.io",
+  "owner": {
+    "username": "yigitdev05",
+    "email": "yigitkabak@proton.me",
+    "discord": "yigit.dev"
+  },
+  "record": {
+    "CNAME": "yigitdev05.github.io"
+  }
 }

@@ -1,10 +1,12 @@
 {
   "owner": {
     "username": "wdhdev",
-    "email": "william@williamharrison.dev"
+    "email": "william@is-a.dev"
   },
-
   "record": {
-    "CNAME": "edge.redirect.pizza"
+    "NS": [
+      "bingo.ns.cloudflare.com",
+      "matias.ns.cloudflare.com"
+    ]
   }
 }
