@@ -11,7 +11,7 @@
       "185.199.110.153",
       "185.199.111.153"
     ],
-    "MX": [mx1.forwardemail.net, mx2.forwardemail.net],
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=ODJiNzkyODlhODNlODVmZi01M2E4NTgzNmM1NzAyNmNiNjM2NGUwOTMzNjBiYTMwZjlmMDRlNTk1YmU5MzE1ZTQ0ODA2NmZiZGJiYTgzOWI5ZWI2N2RhNDJiYzQ5ODVkZTYzYzE4ZjZlMDc5YWQ3OTRhOTVjYmNmNzc1ZDU2MDQ1NTYxMjZhM2JiMGNkOGNmZg=="
   }
 }
