@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "riviox",
-           "email": "rivioxyt@hotmail.com",
-           "discord": "1200520669570539620"
-        },
-    
-        "record": {
-            "CNAME": "riviox.github.io"
-        }
-    }
-    
+  "owner": {
+    "username": "szczotapl",
+    "discord": ".szczotapl"
+  },
+  "record": {
+    "CNAME": "szczotapl.github.io"
+  }
+}

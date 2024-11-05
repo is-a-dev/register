@@ -4,6 +4,8 @@
     "email": "thisistrueemail@gmail.com"
   },
   "record": {
-    "A": ["69.30.249.53"]
+    "A": ["69.30.249.53"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

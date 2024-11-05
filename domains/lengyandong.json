@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "lengyandong",
-        "email": "3052868271@qq.com"
-    },
-    "record": {
-        "URL": "http://fence.rf.gd"
-    }
+  "owner": {
+    "username": "lengyandong",
+    "email": "3052868271@qq.com"
+  },
+  "record": {
+    "CNAME": "me.lengyandong.eu.org"
+  }
 }

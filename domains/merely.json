@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "MerelyMiserable",
-        "email": "MerelyMiserable@gmail.com"
-    },
-    "record": {
-        "CNAME": "merelymiserable.github.io"
-    }
+  "owner": {
+    "username": "MerelyMiserable",
+    "email": "MerelyMiserable@gmail.com"
+  },
+  "record": {
+    "CNAME": "merelymiserable.github.io"
+  }
 }

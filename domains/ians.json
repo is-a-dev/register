@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ianskids",
-        "email": "theians@yahoo.com"
-    },
-    "record": {
-        "CNAME": "dev.ians.my.id"
-    }
+  "owner": {
+    "username": "ianskids",
+    "email": "theians@yahoo.com"
+  },
+  "record": {
+    "CNAME": "dev.ians.my.id"
+  }
 }

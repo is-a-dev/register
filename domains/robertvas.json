@@ -1,0 +1,11 @@
+{
+  "description": "Documentation for is-a-dev",
+  "owner": {
+    "username": "robertvas",
+    "email": "robtechtester@gmail.com"
+  },
+  "record": {
+    "CNAME": "robertvas.serv00.net"
+  },
+  "proxied": false
+}

@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "alvinsjoy",
+    "discord": "825382504353234954"
+  },
+  "record": {
+    "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"],
+    "A": ["76.76.21.21"],
+    "TXT": [
+      "google-site-verification=OFAPUslqNNZEkB5-UDAC1K1QjXCwDW_e3flhEchoobM",
+      "v=spf1 include:zohomail.in ~all",
+      "zoho-verification=zb86503883.zmverify.zoho.in"
+    ]
+  }
+}
