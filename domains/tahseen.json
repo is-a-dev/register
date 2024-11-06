@@ -4,6 +4,7 @@
     "email": "itxtahseen@gmail.com"
   },
   "record": {
-    "CNAME": "syedtahseen.netlify.app"
+    "A": [
+      "72.2.60.5"
   }
 }
