@@ -7,6 +7,6 @@
   "record": {
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=itsarchit@keemail.me",
-    "CNAME": "site-s3u3.onrender.com"
+    "A": "216.24.57.1"
   }
 }
