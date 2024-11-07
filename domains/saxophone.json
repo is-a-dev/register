@@ -7,6 +7,6 @@
   "record": {
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=itsarchit@keemail.me",
-    "A": "216.24.57.1"
+    "A": [ "216.24.57.1" ]
   }
 }
