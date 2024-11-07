@@ -3,10 +3,12 @@
   "repo": "https://github.com/lxhapp/lxhapp.github.io",
   "owner": {
     "username": "Melishy",
-    "email": "nazariktymkiv67@gmail.com",
-    "twitter": "themelishy"
+    "email": "themelishy@outlook.com",
+    "twitter": "themelishy",
+    "discord": "1053012080812359750"
   },
   "record": {
-    "CNAME": "lxhapp.github.io"
+    "CNAME": "lxhapp.github.io",
+    "TXT": ["ee11635df3"]
   }
 }
