@@ -1,7 +1,7 @@
 {
     "owner": {
         "username": "thehcj",
-        "bluesky": "did:plc:5f2c6awh4ffekm7srmi4d6zg",
+        "bluesky": "did:plc:5f2c6awh4ffekm7srmi4d6zg"
     },
     "record": {
         "CNAME": "thehcj.github.io"
