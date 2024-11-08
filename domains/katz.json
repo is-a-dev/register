@@ -1,13 +1,9 @@
 {
   "owner": {
     "username": "Bananalolok",
-    "discord": "banana_lol_7678",
-    "email": ""
+    "discord": "banana_lol_7678"
   },
   "record": {
-    "NS": [
-      "audrey.ns.cloudflare.com",
-      "hank.ns.cloudflare.com"
-    ]
+    "NS": ["audrey.ns.cloudflare.com", "hank.ns.cloudflare.com"]
   }
 }

@@ -4,8 +4,6 @@
     "email": "jamied132.email@gmail.com"
   },
   "record": {
-    "MX": [
-      "mail.hmailserver.com"
-    ]
+    "MX": ["mail.hmailserver.com"]
   }
 }
