@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "is-a-dev"
+  },
+  "record": {
+    "NS": [
+      "bingo.ns.cloudflare.com",
+      "matias.ns.cloudflare.com"
+    ]
+  }
+}
