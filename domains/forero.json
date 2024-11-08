@@ -4,6 +4,6 @@
     "email": "forero@disroot.org"
   },
   "record": {
-    "CNAME": "forero.eu.org"
+    "A": ["20.47.86.75"]
   }
 }
