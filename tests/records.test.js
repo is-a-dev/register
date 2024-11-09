@@ -16,7 +16,6 @@ const ipv6Regex =
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
 
-// Validate the record object key names
 t("All files should have valid record types", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
@@ -50,7 +49,6 @@ t("All files should have valid record types", (t) => {
     });
 });
 
-// Ensure there are no duplicate keys in the record object
 t("All files should not have duplicate record keys", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
@@ -62,7 +60,6 @@ t("All files should not have duplicate record keys", (t) => {
     });
 });
 
-// Validate the values of the record object's keys
 t("All files should have valid record values", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
@@ -81,6 +78,7 @@ t("All files should have valid record values", (t) => {
                     );
                 });
 
+                // A records must be a valid IPv4 address
                 if (key === "A") {
                     value.forEach((record) => {
                         t.regex(
@@ -100,6 +98,7 @@ t("All files should have valid record values", (t) => {
                     });
                 }
 
+                // AAAA records must be a valid IPv6 address
                 if (key === "AAAA") {
                     value.forEach((record) => {
                         t.regex(
@@ -119,6 +118,7 @@ t("All files should have valid record values", (t) => {
                     });
                 }
 
+                // MX and NS records must be a valid hostname
                 if (["MX", "NS"].includes(key)) {
                     value.forEach((record) => {
                         t.regex(
@@ -139,6 +139,7 @@ t("All files should have valid record values", (t) => {
                     `${file}: Record value should be a string for ${key}`
                 );
 
+                // CNAME records must be a valid hostname
                 if (key === "CNAME") {
                     t.regex(
                         value,
@@ -147,6 +148,7 @@ t("All files should have valid record values", (t) => {
                     );
                 }
 
+                // URL records must be a valid URL
                 if (key === "URL") {
                     try {
                         new URL(value);
@@ -171,6 +173,7 @@ t("All files should have valid record values", (t) => {
 
                 if (key === "CAA") {
                     value.forEach((record) => {
+                        // flags must be a number
                         t.true(
                             typeof record.flags === "number",
                             `${file}: CAA record value should have a number for flags at index ${value.indexOf(
@@ -178,6 +181,7 @@ t("All files should have valid record values", (t) => {
                             )}`
                         );
 
+                        // tag and value must be strings
                         t.true(
                             typeof record.tag === "string",
                             `${file}: CAA record value should have a string for tag at index ${value.indexOf(
@@ -196,6 +200,7 @@ t("All files should have valid record values", (t) => {
 
                 if (key === "DS") {
                     value.forEach((record) => {
+                        // key_tag, algorithm, and digest_type must be numbers
                         t.true(
                             typeof record.key_tag === "number",
                             `${file}: DS record value should have a number for key_tag at index ${value.indexOf(
@@ -217,6 +222,7 @@ t("All files should have valid record values", (t) => {
                             )}`
                         );
 
+                        // digest must be a string
                         t.true(
                             typeof record.digest === "string",
                             `${file}: DS record value should have a string for digest at index ${value.indexOf(
@@ -228,6 +234,7 @@ t("All files should have valid record values", (t) => {
 
                 if (key === "SRV") {
                     value.forEach((record) => {
+                        // priority, weight, and port must be numbers
                         t.true(
                             typeof record.priority === "number",
                             `${file}: SRV record value should have a number for priority at index ${value.indexOf(
@@ -249,6 +256,7 @@ t("All files should have valid record values", (t) => {
                             )}`
                         );
 
+                        // target must be a string
                         t.true(
                             typeof record.target === "string",
                             `${file}: SRV record value should have a string for target at index ${value.indexOf(
@@ -256,6 +264,7 @@ t("All files should have valid record values", (t) => {
                             )}`
                         );
 
+                        // target must be a valid hostname
                         t.regex(
                             value.target,
                             hostnameRegex,
