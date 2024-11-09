@@ -127,22 +127,22 @@ for (var subdomain in domains) {
     if (domainData.record.TXT) {
         if (Array.isArray(domainData.record.TXT)) {
             for (var txt in domainData.record.TXT) {
-                records.push(TXT(subdomainName, domainData.record.TXT[txt]));
+                records.push(TXT(subdomainName, "\"" + domainData.record.TXT[txt] + "\""));
             }
         } else {
-            records.push(TXT(subdomainName, domainData.record.TXT));
+            records.push(TXT(subdomainName, "\"" + domainData.record.TXT + "\""));
         }
     }
 
     // Handle URL records
     if (domainData.record.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
-        records.push(TXT("_redirect." + subdomainName, domainData.record.URL));
+        records.push(TXT("_redirect." + subdomainName, "\"" + domainData.record.URL "\""));
     }
 
     // Handle reserved domains
     if (domainData.reserved) {
-        records.push(TXT(subdomainName, "RESERVED"));
+        records.push(TXT(subdomainName, "\"" + "RESERVED" + "\""));
     }
 }
 
