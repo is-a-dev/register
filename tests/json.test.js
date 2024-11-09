@@ -4,25 +4,24 @@ const path = require("path");
 
 const requiredFields = {
     owner: "object",
-    record: "object",
+    record: "object"
 };
 
 const optionalFields = {
     proxied: "boolean",
-    reserved: "boolean",
+    reserved: "boolean"
 };
 
 const requiredOwnerFields = {
-    username: "string",
+    username: "string"
 };
 
 const optionalOwnerFields = {
-    email: "string",
+    email: "string"
 };
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-const hostnameRegex =
-    /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
+const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
@@ -30,11 +29,7 @@ const files = fs.readdirSync(domainsPath);
 const validateRequiredFields = (t, obj, requiredFields, file) => {
     Object.keys(requiredFields).forEach((key) => {
         t.true(obj.hasOwnProperty(key), `${file}: Missing required field: ${key}`);
-        t.is(
-            typeof obj[key],
-            requiredFields[key],
-            `${file}: Field ${key} should be of type ${requiredFields[key]}`
-        );
+        t.is(typeof obj[key], requiredFields[key], `${file}: Field ${key} should be of type ${requiredFields[key]}`);
     });
 };
 
@@ -94,11 +89,7 @@ t("All files should have valid optional fields", (t) => {
         validateOptionalFields(t, data.owner, optionalOwnerFields, file);
 
         if (data.owner.email) {
-            t.regex(
-                data.owner.email,
-                emailRegex,
-                `${file}: Owner email should be a valid email address`
-            );
+            t.regex(data.owner.email, emailRegex, `${file}: Owner email should be a valid email address`);
         }
     });
 });
