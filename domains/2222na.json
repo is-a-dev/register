@@ -1,6 +1,9 @@
 {
-    "owner": {
-        "username": "2222Na"
-        "discord": "t62648270@gmail.com"
-    }
+  "owner": {
+    "username": "2222Na",
+    "email": "t62648270@gmail.com"
+  },
+  "record": {
+    "CNAME": "89.110.65.214:6999"
+  }
 }
