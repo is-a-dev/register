@@ -5,6 +5,6 @@
     "discord": "1015889214904205362"
   },
   "record": {
-    "TXT": "vc-domain-verify=static.is-a.dev,5a04f464dc0250da85f7"
+    "TXT": ["vc-domain-verify=static.is-a.dev,5a04f464dc0250da85f7", "vc-domain-verify=*.static.is-a.dev,64e9b4fb23cbdd5e6f55"]
   }
 }
