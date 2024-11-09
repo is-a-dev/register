@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ziyndev",
-        "email": "is-a-dev@ziyn.us.kg"
-    },
-    "record": {
-        "CNAME": "ziyn.pages.dev"
-    }
+  "owner": {
+    "username": "ziyndev",
+    "email": "is-a-dev@ziyn.us.kg"
+  },
+  "record": {
+    "CNAME": "ziyn.pages.dev"
+  }
 }
