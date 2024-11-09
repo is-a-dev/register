@@ -7,7 +7,9 @@ on:
         branches: [main]
         paths:
             - "domains/*"
-            - ".github/workflows/validation.yml"
+            - "tests/*"
+            - "utils/*"
+            - ".github/workflows/validate.yml"
             - "dnsconfig.js"
 
     workflow_dispatch:
@@ -28,15 +30,12 @@ jobs:
               with:
                   args: check
 
-    json:
-        name: JSON
+    tests:
+        name: Tests
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
 
-            - name: JSON Syntax Check
-              uses: limitusus/json-syntax-check@v2
-              with:
-                  pattern: "\\.json$"
-              env:
-                  BASE: "domains/"
+            - run: npm install
+
+            - run: npm test
