@@ -5,14 +5,6 @@
     "notes": "I rarely go on my emails. If I do its because I needed a verification code."
   },
 "record": {
-    "TXT": [
-      "zoho-verification=zb51857919.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
-    ],
-    "MX": [
-      "mx.zoho.com",
-      "mx2.zoho.com",
-      "mx3.zoho.com"
-    ]
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCJ+VFtI0MbKtqwscVOmrqxUWdUDP0e1sMefD/t/AW5YhlGZVkMWGtJ8f/AMx3wIdZXZbvxORpwip1V6wTC45+NbuIToOArp+S4Su9Z0uKF5IyC/3y07XchKFePXpp0gCAjMuLby+gOGlaXp61Uxfcnt1ZyUR7hydVppAwXSoYrrwIDAQAB"
   }
 }
