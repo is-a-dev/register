@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "sctech-tr"
+  },
+  "record": {
+    "NS": [
+      "kyrie.ns.cloudflare.com",
+      "susan.ns.cloudflare.com"
+    ]
+  }
+}
