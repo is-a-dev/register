@@ -1,0 +1,21 @@
+{
+  "description": "Sandbox environment for is-a.dev",
+  "owner": {
+    "username": "is-a-dev"
+  },
+  "record": {
+    "NS": [
+      "blue.foundationdns.com",
+      "blue.foundationdns.net",
+      "blue.foundationdns.org"
+    ],
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "023DD50C657C5F2471728B76127008F244CFB45F32AA0CE1978C0182D363EF12"
+      }
+    ]
+  }
+}

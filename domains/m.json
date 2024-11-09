@@ -3,8 +3,6 @@
     "username": "is-a-dev",
     "email": "admin@is-a.dev"
   },
-  "record": {
-    "CNAME": "p2pb.dev"
-  },
-  "proxied": true
+  "record": {},
+  "reserved": true
 }
