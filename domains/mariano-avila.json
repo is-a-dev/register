@@ -7,14 +7,7 @@
     "twitter": "@MarianoAvilaC"
   },
   "record": {
-    "CNAME": "dxravage.github.io"
+    "CNAME": "dxravage.github.io",
+    "TXT": ["e031aab00236717bbfed9ce76797c6"]
   }
-}
-{
-    "owner": {
-        "username": "github-username"
-    },
-    "record": {
-        "TXT": ["e031aab00236717bbfed9ce76797c6"]
-    }
 }
