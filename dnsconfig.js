@@ -127,22 +127,22 @@ for (var subdomain in domains) {
     if (domainData.record.TXT) {
         if (Array.isArray(domainData.record.TXT)) {
             for (var txt in domainData.record.TXT) {
-                records.push(TXT(subdomainName, domainData.record.TXT[txt]));
+                records.push(TXT(subdomainName, "\"" + domainData.record.TXT[txt] + "\""));
             }
         } else {
-            records.push(TXT(subdomainName, domainData.record.TXT));
+            records.push(TXT(subdomainName, "\"" + domainData.record.TXT + "\""));
         }
     }
 
     // Handle URL records
     if (domainData.record.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
-        records.push(TXT("_redirect." + subdomainName, domainData.record.URL));
+        records.push(TXT("_redirect." + subdomainName, "\"" + domainData.record.URL + "\""));
     }
 
     // Handle reserved domains
     if (domainData.reserved) {
-        records.push(TXT(subdomainName, "RESERVED"));
+        records.push(TXT(subdomainName, "\"" + "RESERVED" + "\""));
     }
 }
 
@@ -158,10 +158,11 @@ var ignored = [
     IGNORE("_dmarc", "TXT"),
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
-    IGNORE("dkim._domainkey", "TXT")
+    IGNORE("dkim._domainkey", "TXT"),
+    IGNORE("test[1-9]")
 ];
 
 // Push TXT record of when the zone was last updated
-records.push(TXT("_zone-updated", Date.now().toString()));
+records.push(TXT("_zone-updated", "\"" + Date.now().toString() + "\""));
 
 D(domainName, registrar, dnsProvider, options, ignored, records);
