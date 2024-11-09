@@ -50,18 +50,17 @@ const validateOptionalFields = (t, obj, optionalFields, file) => {
     });
 };
 
-// Ensure all files are valid JSON
 t("All files should be valid JSON", (t) => {
     files.forEach((file) => {
         t.notThrows(() => fs.readJsonSync(path.join(domainsPath, file)), `${file}: Invalid JSON file`);
     });
 });
 
-// Ensure all files have the required fields
 t("All files should have valid file names", (t) => {
     files.forEach((file) => {
         t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
         t.false(file.includes(".is-a.dev"), `${file}: File name should not contain .is-a.dev`);
+        t.true(file === file.toLowerCase(), `${file}: File name should be lowercase`);
 
         // Ignore root domain
         if (file !== "@.json") {
@@ -74,7 +73,6 @@ t("All files should have valid file names", (t) => {
     });
 });
 
-// Ensure all files have the required fields
 t("All files should have the required fields", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
@@ -88,7 +86,6 @@ t("All files should have the required fields", (t) => {
     });
 });
 
-// Validate the optional fields
 t("All files should have valid optional fields", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));

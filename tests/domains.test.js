@@ -5,7 +5,6 @@ const path = require("path");
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
 
-// Nested subdomains should not exist if the parent subdomain does not exist
 t("Nested subdomains should not exist without a parent subdomain", (t) => {
     files.forEach((file) => {
         const subdomain = file.replace(".json", "");
@@ -23,7 +22,6 @@ t("Nested subdomains should not exist without a parent subdomain", (t) => {
     t.pass();
 });
 
-// Nested subdomains should not exist if the parent subdomain has NS records
 t("Nested subdomains should not exist if the parent subdomain has NS records", (t) => {
     files.forEach((file) => {
         const subdomain = file.replace(".json", "");
