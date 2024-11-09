@@ -162,6 +162,6 @@ var ignored = [
 ];
 
 // Push TXT record of when the zone was last updated
-records.push(TXT("_zone-updated", Date.now().toString()));
+records.push(TXT("_zone-updated", "\"" + Date.now().toString() + "\""));
 
 D(domainName, registrar, dnsProvider, options, ignored, records);
