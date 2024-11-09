@@ -1,12 +1,11 @@
 {
-  "description": "For Zoho Mail and personal website",
+  "description": "For personal website",
   "owner": {
-    "username": "",
+    "username": "creepycat",
     "email": "syed.sakibul.islam2008@gmail.com",
     "facebook": "https://www.facebook.com/creepycat.py/"
   },
   "record": {
     "CNAME":"creepycat.pythonanywhere.com"
-    "TXT": "zoho-verification=zb99586085.zmverify.zoho.com"
   }
 }
