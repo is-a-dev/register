@@ -2,18 +2,21 @@ module.exports.expandIPv6 = function (ip) {
     // Split into segments by ":"
     let segments = ip.split(":");
 
-    // Count empty segments due to "::" shorthand
+    // Count the number of segments that are empty due to "::" shorthand
     const emptyIndex = segments.indexOf("");
     if (emptyIndex !== -1) {
-        // Calculate how many "0000" are missing
-        const missingSegments = 7 - segments.filter((seg) => seg).length;
-        segments.splice(emptyIndex, 1, ...Array(missingSegments + 1).fill("0000"));
+        // Calculate how many "0000" segments are missing
+        const nonEmptySegments = segments.filter((seg) => seg !== "");
+        const missingSegments = 8 - nonEmptySegments.length;
+        
+        // Insert the missing "0000" segments into the position of the empty segment
+        segments = [...nonEmptySegments.slice(0, emptyIndex), ...Array(missingSegments).fill("0000"), ...nonEmptySegments.slice(emptyIndex)];
     }
 
     // Expand each segment to 4 characters, padding with leading zeros
     const expandedSegments = segments.map((segment) => segment.padStart(4, "0"));
 
-    // Join segments back together
+    // Join the segments back together
     return expandedSegments.join(":");
 };
 
