@@ -8,7 +8,8 @@
     "A": ["103.97.126.29"],
     "TXT": [
       "zoho-verification=zb23469214.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
+      "v=spf1 include:zohomail.com ~all",
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCApSTM+FQy6FXQyDBylpMcdERY7CLDFwkPqqbIIPWtuoSc3/Swva9TTe6vuLYK1BYLVHPqrYa7qamNj4qcEuBVU3CWKc+3ELzcGAnr5tgC/b6wiu9Ede395Tm7w8QdWmcnDtybo/1IZ4cHDA5EisdTNJRt73VTeWndCvRhKZ+G8wIDAQAB"
     ],
     "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
   }
