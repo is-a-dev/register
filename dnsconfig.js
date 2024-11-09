@@ -23,7 +23,6 @@ var records = [];
 
 for (var subdomain in domains) {
     var subdomainName = domains[subdomain].name;
-    var fullSubdomain = subdomainName + "." + domainName;
     var domainData = domains[subdomain].data;
     var proxyState = domainData.proxied ? CF_PROXY_ON : CF_PROXY_OFF;
 
