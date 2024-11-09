@@ -4,25 +4,24 @@ const path = require("path");
 
 const requiredFields = {
     owner: "object",
-    record: "object",
+    record: "object"
 };
 
 const optionalFields = {
     proxied: "boolean",
-    reserved: "boolean",
+    reserved: "boolean"
 };
 
 const requiredOwnerFields = {
-    username: "string",
+    username: "string"
 };
 
 const optionalOwnerFields = {
-    email: "string",
+    email: "string"
 };
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-const hostnameRegex =
-    /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
+const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
@@ -30,11 +29,7 @@ const files = fs.readdirSync(domainsPath);
 const validateRequiredFields = (t, obj, requiredFields, file) => {
     Object.keys(requiredFields).forEach((key) => {
         t.true(obj.hasOwnProperty(key), `${file}: Missing required field: ${key}`);
-        t.is(
-            typeof obj[key],
-            requiredFields[key],
-            `${file}: Field ${key} should be of type ${requiredFields[key]}`
-        );
+        t.is(typeof obj[key], requiredFields[key], `${file}: Field ${key} should be of type ${requiredFields[key]}`);
     });
 };
 
@@ -50,18 +45,17 @@ const validateOptionalFields = (t, obj, optionalFields, file) => {
     });
 };
 
-// Ensure all files are valid JSON
 t("All files should be valid JSON", (t) => {
     files.forEach((file) => {
         t.notThrows(() => fs.readJsonSync(path.join(domainsPath, file)), `${file}: Invalid JSON file`);
     });
 });
 
-// Ensure all files have the required fields
 t("All files should have valid file names", (t) => {
     files.forEach((file) => {
         t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
         t.false(file.includes(".is-a.dev"), `${file}: File name should not contain .is-a.dev`);
+        t.true(file === file.toLowerCase(), `${file}: File name should be lowercase`);
 
         // Ignore root domain
         if (file !== "@.json") {
@@ -74,7 +68,6 @@ t("All files should have valid file names", (t) => {
     });
 });
 
-// Ensure all files have the required fields
 t("All files should have the required fields", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
@@ -88,7 +81,6 @@ t("All files should have the required fields", (t) => {
     });
 });
 
-// Validate the optional fields
 t("All files should have valid optional fields", (t) => {
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
@@ -97,11 +89,7 @@ t("All files should have valid optional fields", (t) => {
         validateOptionalFields(t, data.owner, optionalOwnerFields, file);
 
         if (data.owner.email) {
-            t.regex(
-                data.owner.email,
-                emailRegex,
-                `${file}: Owner email should be a valid email address`
-            );
+            t.regex(data.owner.email, emailRegex, `${file}: Owner email should be a valid email address`);
         }
     });
 });
