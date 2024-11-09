@@ -3,7 +3,8 @@
   "owner": {
     "email": "yashkulkarni2008@gmail.com",
     "github": "0day-Yash"
-  },  "record": {
+  },
+  "record": {
     "MX": [
       { "value": "mx.zoho.com", "priority": 10 },
       { "value": "mx2.zoho.com", "priority": 20 },
@@ -11,8 +12,8 @@
     ],
     "TXT": [
       { "name": "@", "value": "v=spf1 include:zoho.com ~all" },
-      { "name": "zoho-verification", "value": "zoho-verification-code" },
+      { "name": "zoho-verification", "value": "zoho-verification-code" }
     ]
   },
-  "proxied": true //for cloudflare
+  "proxied": true
 }
