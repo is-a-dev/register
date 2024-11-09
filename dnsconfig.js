@@ -23,7 +23,6 @@ var records = [];
 
 for (var subdomain in domains) {
     var subdomainName = domains[subdomain].name;
-    var fullSubdomain = subdomainName + "." + domainName;
     var domainData = domains[subdomain].data;
     var proxyState = domainData.proxied ? CF_PROXY_ON : CF_PROXY_OFF;
 
@@ -76,15 +75,18 @@ for (var subdomain in domains) {
 
     // Handle DS records
     if (domainData.record.DS) {
-        records.push(
-            DS(
-                subdomainName,
-                domainData.record.DS.key_tag,
-                domainData.record.DS.algorithm,
-                domainData.record.DS.digest_type,
-                domainData.record.DS.digest
-            )
-        );
+        for (var ds in domainData.record.DS) {
+            var dsRecord = domainData.record.DS[ds];
+            records.push(
+                DS(
+                    subdomainName,
+                    dsRecord.key_tag,
+                    dsRecord.algorithm,
+                    dsRecord.digest_type,
+                    dsRecord.digest
+                )
+            );
+        }
     }
 
     // Handle MX records
@@ -152,14 +154,12 @@ var options = {
 
 var ignored = [
     IGNORE("@", "MX,TXT"),
-    IGNORE("\\*"),
     IGNORE("_acme-challenge", "TXT"),
     IGNORE("_autodiscover._tcp", "SRV"),
     IGNORE("_dmarc", "TXT"),
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
-    IGNORE("dkim._domainkey", "TXT"),
-    IGNORE("test[1-9]")
+    IGNORE("dkim._domainkey", "TXT")
 ];
 
 // Push TXT record of when the zone was last updated
