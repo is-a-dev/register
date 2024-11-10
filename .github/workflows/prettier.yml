@@ -5,6 +5,7 @@ on:
         branches: [main]
         paths:
             - "domains/*"
+            - ".github/workflows/prettier.yml"
 
 jobs:
     format:
