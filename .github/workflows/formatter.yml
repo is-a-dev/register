@@ -1,0 +1,22 @@
+name: Formatter
+on:
+  push:
+    branches:
+      - main
+jobs:
+  format:
+    name: "Format"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+      - name: Run prettier
+        # Use -y, like npm install -y
+        run: npx -y prettier ./domains -w --tab-width 2 --print-width 120
+      - name: Commit
+        run: |
+          git config --global user.name 'is-a.dev'
+          git config --global user.email 'actions@github.com'
+          git commit -am "Format domains"
+          git push
