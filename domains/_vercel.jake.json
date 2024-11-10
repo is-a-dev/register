@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "xzrci"
+    "username": "xzrci",
+    "email": "xzrci@mail.ru"
   },
   "record": {
     "TXT": ["vc-domain-verify=jake.is-a.dev,1075ab07de85fa87e8cd"]
