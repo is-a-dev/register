@@ -2,8 +2,7 @@
   "description": "My new website",
   "repo": "https://github.com/savan-makawana/savan-makawana.github.io",
   "owner": {
-    "username": "savan-makawana",
-    "email": ""
+    "username": "savan-makawana"
   },
   "record": {
     "CNAME": "savan-makawana.github.io"
