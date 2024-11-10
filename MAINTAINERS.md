@@ -7,5 +7,5 @@
 | Daniel | [@hackermondev](https://github.com/hackermondev) | Maintainer |
 | DIBSTER | [@DEV-DIBSTER](https://github.com/DEV-DIBSTER) | Maintainer |
 | Om | [@omsenjalia](https://github.com/omsenjalia) | Maintainer |
-| orangc | [@orxngc](https://github.com/orxngc) | Maintainer |
+| orangc | [@orangci](https://github.com/orangci) | Maintainer |
 | Stef | [@Stef-00012](https://github.com/Stef-00012) | Maintainer |

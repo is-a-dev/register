@@ -1,15 +1,12 @@
 {
-    "description": "my website's ipfs stuff + email forwarding. (basically web3 -> web2 connection). using dweb.link!!",
-    "owner": {
-        "username": "saxophone-guy",
-        "email": "itsarchit@keemail.me"
-    },
-    "record": {
-        "MX": [
-            "mx1.forwardemail.net",
-            "mx2.forwardemail.net"
-        ],
-        "TXT": "forward-email=itsarchit@keemail.me",
-        "URL": "https://me.saxophone.is-a.dev/"
-    }
+  "description": "my website",
+  "owner": {
+    "username": "saxophone-guy",
+    "email": "itsarchit@keemail.me"
+  },
+  "record": {
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": "forward-email=itsarchit@keemail.me",
+    "A": ["216.24.57.1"]
+  }
 }

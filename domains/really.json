@@ -4,6 +4,6 @@
     "email": "isadev@ukriu.com"
   },
   "record": {
-    "NS": ["love.ns.cloudflare.com", "pete.ns.cloudflare.com"]
+    "CNAME": "ukriu.pages.dev"
   }
 }
