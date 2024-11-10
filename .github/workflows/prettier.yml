@@ -1,45 +1,33 @@
-name: Raw API
+name: Prettier
 
 on:
     push:
         branches: [main]
         paths:
             - "domains/*"
-            - ".github/workflows/raw-api.yml"
-
-    workflow_dispatch:
-
-concurrency:
-    group: ${{ github.ref }}-raw-api
-    cancel-in-progress: true
+            - ".github/workflows/prettier.yml"
 
 jobs:
-    update:
-        name: Update
+    format:
+        name: Format
         runs-on: ubuntu-latest
 
         steps:
             - uses: actions/checkout@v4
 
-            - uses: actions/checkout@v4
-              with:
-                  repository: is-a-dev/raw-api
-                  path: raw-api
-                  token: ${{ secrets.BOT }}
-
             - uses: actions/setup-node@v4
               with:
                   node-version: 20.x
 
-            - name: Update Data
-              run: node raw-api/scripts/update.js
+            - name: Run Prettier
+              run: npx -y prettier ./domains -w --tab-width 2 --print-width 120
 
             - name: Commit
               uses: cpina/github-action-push-to-another-repository@main
               with:
-                  source-directory: "raw-api"
+                  source-directory: "register"
                   destination-github-username: is-a-dev
-                  destination-repository-name: raw-api
+                  destination-repository-name: register
                   user-email: "actions@github.com"
                   user-name: "GitHub Actions"
               env:
