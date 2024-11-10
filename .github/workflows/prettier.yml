@@ -25,7 +25,7 @@ jobs:
                   source-directory: "register"
                   destination-github-username: is-a-dev
                   destination-repository-name: register
-                  user-email: actions@github.com
+                  user-email: "actions@github.com"
                   user-name: "GitHub Actions"
               env:
                   API_TOKEN_GITHUB: ${{ secrets.BOT }}
