@@ -4,6 +4,7 @@
     "email": "7sz8jlw6h@mozmail.co"
   },
   "record": {
-    "CNAME": "hashnode.network"
+    "CNAME": "hashnode.network",
+    "TXT": "vc-domain-verify=masseo.is-a.dev,5fbbf556474fa29da3b7"
   }
 }
