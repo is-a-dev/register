@@ -20,8 +20,12 @@ jobs:
               run: npx -y prettier ./domains -w --tab-width 2 --print-width 120
 
             - name: Commit
-              run: |
-                  git config --global user.email "actions@github.com"
-                  git config --global user.name "GitHub Actions"
-                  git commit -am "Format domains"
-                  git push
+              uses: cpina/github-action-push-to-another-repository@main
+              with:
+                  source-directory: "register"
+                  destination-github-username: is-a-dev
+                  destination-repository-name: register
+                  user-email: actions@github.com
+                  user-name: "GitHub Actions"
+              env:
+                  API_TOKEN_GITHUB: ${{ secrets.BOT }}
