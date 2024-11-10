@@ -25,11 +25,8 @@ jobs:
             - name: Create branch
               run: |
                   BRANCH_NAME="prettier-$(date +%s)"
-                  echo "Generated branch name: $BRANCH_NAME"
-                  if [ -z "$BRANCH_NAME" ]; then
-                      echo "Error: Branch name is empty."
-                      exit 1
-                  fi
+                  echo "Generated branch: $BRANCH_NAME"
+                  echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
                   git checkout -b "$BRANCH_NAME"
 
             - name: Commit
