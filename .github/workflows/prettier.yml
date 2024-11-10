@@ -47,6 +47,7 @@ jobs:
               uses: peter-evans/create-pull-request@v7
               with:
                   token: ${{ secrets.BOT }}
+                  author: is-a-dev-bot <bot@is-a.dev>
                   branch: "$BRANCH_NAME"
                   base: main
                   title: "$BRANCH_NAME"
