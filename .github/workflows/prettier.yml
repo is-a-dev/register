@@ -17,8 +17,10 @@ jobs:
               with:
                   node-version: 20.x
 
+            - run: ls
+
             - name: Run Prettier
-              run: npx -y prettier ./domains -w --tab-width 2 --print-width 120
+              run: npx -y prettier domains/*.json -w --tab-width 2 --print-width 120
 
             - name: Commit
               uses: cpina/github-action-push-to-another-repository@main
