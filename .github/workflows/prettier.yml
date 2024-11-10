@@ -53,7 +53,7 @@ jobs:
                   body: "Generated from https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}."
 
             - name: Merge pull request
-              if: steps.create_pr.outputs.pull-request-operation == "created"
+              if: steps.create_pr.outputs.pull-request-operation == 'created'
               uses: peter-evans/enable-pull-request-automerge@v3
               with:
                   token: ${{ secrets.BOT }}
