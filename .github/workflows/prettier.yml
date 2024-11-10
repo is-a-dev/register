@@ -22,25 +22,30 @@ jobs:
             - name: Run Prettier
               run: npx -y prettier ./domains -w --tab-width 2 --print-width 120
 
-            - name: Create and switch to new branch
+            - name: Create branch
               run: |
                   BRANCH_NAME="prettier-$(date +%s)"
+                  echo "Generated branch name: $BRANCH_NAME"
+                  if [ -z "$BRANCH_NAME" ]; then
+                      echo "Error: Branch name is empty."
+                      exit 1
+                  fi
                   git checkout -b "$BRANCH_NAME"
 
-            - name: Commit changes
+            - name: Commit
               run: |
                   git config --local user.email "bot@is-a.dev"
                   git config --local user.name "is-a-dev-bot"
                   git add .
-                  git commit -m "chore: apply Prettier formatting"
+                  git commit -m "chore: apply formatting"
 
-            - name: Push changes to new branch
+            - name: Push
               env:
                   API_TOKEN_GITHUB: ${{ secrets.BOT }}
               run: |
                   git push -u origin "$BRANCH_NAME"
 
-            - name: Create Pull Request
+            - name: Create pull request
               id: create_pr
               uses: peter-evans/create-pull-request@v5
               with:
