@@ -2,11 +2,8 @@ const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
 
-const requiredRecordsToProxy = [
-    "A",
-    "AAAA",
-    "CNAME"
-];
+const requiredRecordsToProxy = ["A", "AAAA", "CNAME"];
+// URL records are not listed here because they are proxied by default, so they don't need the proxied flag
 
 function validateProxiedRecords(t, data, file) {
     if (data.proxied) {
@@ -14,7 +11,7 @@ function validateProxiedRecords(t, data, file) {
 
         t.true(hasProxiedRecord, `${file}: Proxied is true but there are no records that can be proxied`);
     }
-};
+}
 
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
@@ -24,5 +21,5 @@ t("Domains with proxy enabled should have have at least one record that can be p
         const domain = fs.readJsonSync(path.join(domainsPath, file));
 
         validateProxiedRecords(t, domain, file);
-    })
+    });
 });

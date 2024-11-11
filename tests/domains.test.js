@@ -12,10 +12,7 @@ t("Nested subdomains should not exist without a parent subdomain", (t) => {
         if (subdomain.split(".").length > 1) {
             const parentSubdomain = subdomain.split(".").pop();
 
-            t.true(
-                files.includes(`${parentSubdomain}.json`),
-                `${file}: Parent subdomain does not exist`
-            );
+            t.true(files.includes(`${parentSubdomain}.json`), `${file}: Parent subdomain does not exist`);
         }
     });
 
