@@ -2,8 +2,6 @@ const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
 
-const { expandIPv6, isPublicIPv4, isPublicIPv6 } = require("../utils/functions");
-
 const validRecordTypes = ["A", "AAAA", "CAA", "CNAME", "DS", "MX", "NS", "SRV", "TXT", "URL"];
 
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
