@@ -4,6 +4,6 @@
         "email": "elorahubph@gmail.com"
     },
     "record": {
-        "A": "162.159.205.11"
+        "CNAME": "apex-loadbalancer.netlify.com"
     }
 }
