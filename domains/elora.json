@@ -4,7 +4,6 @@
         "email": "elorahubph@gmail.com"
     },
     "record": {
-        "A": "162.159.205.11",
-        "TXT": "_spf.mx.cloudflare.net"
+        "A": "162.159.205.11"
     }
 }
