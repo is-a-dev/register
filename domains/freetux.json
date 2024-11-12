@@ -1,1 +1,9 @@
-
+{
+    "owner": {
+        "username": "herotux",
+        "email": "thefreetux@gmail.com"
+    },
+    "record": {
+      "A": ["116.202.215.237"]
+    }
+}
