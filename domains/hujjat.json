@@ -4,6 +4,6 @@
         "email": "hujjatx@yahoo.com"
     },
     "record": {
-        "RECORDTYPE": "CNAME"
+        "TXT": "vc-domain-verify=hujjat.is-a.dev,73fd6f83a3b034bfc044"
     }
 }
