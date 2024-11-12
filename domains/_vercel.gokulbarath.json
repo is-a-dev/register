@@ -4,6 +4,6 @@
     "email": "gokul00060@gmail.com"
   },
   "record": {
-    "CNAME": "portfolio-gokul6350s-projects.vercel.app"
+    "TXT": ["vc-domain-verify=gokulbarath.is-a.dev,b6d252e3dde12b69cc05"]
   }
 }
