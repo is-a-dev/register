@@ -1,17 +1,16 @@
 {
-    "description": "Site of Arijit",
+  "description": "Site of Arijit",
 
-    "repo": "https://github.com/ArijitTheDev/arijitthedev.github.io",
+  "repo": "https://github.com/ArijitTheDev/arijitthedev.github.io",
 
-    "owner": {
-        "username": "ArijitTheDev",
+  "owner": {
+    "username": "ArijitTheDev",
 
-        "email": "itsarijitdebnath@gmail.com",
+    "email": "itsarijitdebnath@gmail.com",
 
-        "twitter": "NotArijit"
-    },
-
-    "record": {
-        "CNAME": "arijitthedev.github.io"
-    }
+    "twitter": "NotArijit"
+  },
+  "record": {
+    "CNAME": "arijitthedev.github.io"
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "ukriu",
+    "email": "isadev@ukriu.com"
+  },
+  "record": {
+    "URL": "https://ukriu.com/",
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": "forward-email=forwardemailnet@ukriu.com"
+  }
+}
