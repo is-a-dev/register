@@ -1,0 +1,11 @@
+{
+  "domain": "spike",
+  "subdomain": "is-a.dev",
+  "owner": {
+    "username": "kysage1",
+    "email": "spikeinc3@gmail.com"
+  },
+  "record": {
+    "A": ["185.240.51.199"]
+  }
+}
