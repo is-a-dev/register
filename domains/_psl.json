@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "is-a-dev",
+    "email": "admin@is-a.dev"
+  },
+  "record": {
+    "TXT": ["https://github.com/publicsuffix/list/pull/2225"]
+  }
+}

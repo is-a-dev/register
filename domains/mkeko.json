@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "Mkeko",
-      "email": "",
-      "discord": "1212043905059790881"
-    },
-    "record": {
-      "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "Mkeko",
+    "discord": "1212043905059790881"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
   }
+}

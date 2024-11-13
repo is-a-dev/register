@@ -1,5 +1,5 @@
 {
-    "description": "Testing my server",
+    "description": "Testing for my server",
     "repo": "https://github.com/prabhu797/samplelogin.git",
     "owner": {
         "username": "prabhu797",
@@ -7,7 +7,7 @@
     },
     "record": {
         "A": [
-            "206.1.60.99"
+            "206.1.58.146"
         ]
     }
 }
