@@ -129,10 +129,10 @@ for (var subdomain in domains) {
     if (domainData.record.TXT) {
         if (Array.isArray(domainData.record.TXT)) {
             for (var txt in domainData.record.TXT) {
-                records.push(TXT(subdomainName, "\"" + domainData.record.TXT[txt] + "\""));
+                records.push(TXT(subdomainName, domainData.record.TXT[txt].length =< 255 ? "\"" + domainData.record.TXT[txt] + "\"" : domainData.record.TXT[txt]));
             }
         } else {
-            records.push(TXT(subdomainName, "\"" + domainData.record.TXT + "\""));
+            records.push(TXT(subdomainName, domainData.record.TXT.length =< 255 ? "\"" + domainData.record.TXT + "\"" : domainData.record.TXT));
         }
     }
 
