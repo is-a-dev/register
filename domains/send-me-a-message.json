@@ -1,0 +1,11 @@
+{
+  "description": "A platform where people can send me message anonymously",
+  "repo": "https://github.com/divyanshudhruv/send-me-a-message",
+  "owner": {
+    "username": "divyanshudhruv",
+    "email": "divyanshudhruv24@gmail.com"
+  },
+  "record": {
+    "CNAME": "divyanshudhruv.is-a.dev/send-me-a-message"
+  }
+}
