@@ -2,8 +2,7 @@
   "description": "Limbani tejal Profile.",
   "repo": "https://github.com/limbanitejal/limbanitejal.github.io",
   "owner": {
-    "username": "limbanitejal",
-    "email": ""
+    "username": "limbanitejal"
   },
   "record": {
     "CNAME": "limbanitejal.github.io"

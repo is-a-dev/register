@@ -4,12 +4,7 @@
     "email": "quyendongho238@Gmail.com"
   },
   "record": {
-    "MX": [
-      "mx1.forwardemail.net",
-      "mx2.forwardemail.net"
-    ],
-    "TXT": [
-      "forward-email=quyendongho238@gmail.com"
-    ]
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": ["forward-email=quyendongho238@gmail.com"]
   }
 }

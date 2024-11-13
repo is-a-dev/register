@@ -1,0 +1,11 @@
+{
+  "description": "Testing for my server",
+  "repo": "https://github.com/prabhu797/samplelogin.git",
+  "owner": {
+    "username": "prabhu797",
+    "email": "prabhudesai797@gmail.com"
+  },
+  "record": {
+    "A": ["206.1.53.95"]
+  }
+}
