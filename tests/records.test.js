@@ -138,7 +138,10 @@ t("All files should have valid record values", (t) => {
                 t.true(Array.isArray(value), `${file}: Record value should be an array for ${key}`);
 
                 value.forEach((record) => {
-                    t.true(typeof record === "string", `${file}: Record value should be a string for ${key}`);
+                    t.true(
+                        typeof record === "string",
+                        `${file}: Record value should be a string for ${key} at index ${value.indexOf(record)}`
+                    );
                 });
 
                 // A: string[]
@@ -201,6 +204,10 @@ t("All files should have valid record values", (t) => {
 
                 if (key === "CNAME") {
                     t.regex(value, hostnameRegex, `${file}: Record value should be a valid hostname for ${key}`);
+                    t.false(
+                        value === file.replace(/\.json$/, "") + ".is-a.dev",
+                        `${file}: Record value should not reference itself for ${key}`
+                    );
                 }
 
                 if (key === "URL") {
