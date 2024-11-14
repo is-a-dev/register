@@ -220,6 +220,26 @@ t("All files should have valid record values", (t) => {
 
                 if (key === "URL") {
                     t.notThrows(() => new URL(value), `${file}: Record value should be a valid URL for ${key}`);
+
+                    if(file === "@.json") {
+                        t.false(
+                            value === "http://is-a.dev",
+                            `${file}: Record value should not reference itself for ${key}`
+                        );
+                        t.false(
+                            value === "https://is-a.dev",
+                            `${file}: Record value should not reference itself for ${key}`
+                        );
+                    } else {
+                        t.false(
+                            value === "http://" + file.replace(/\.json$/, "") + ".is-a.dev",
+                            `${file}: Record value should not reference itself for ${key}`
+                        );
+                        t.false(
+                            value === "https://" + file.replace(/\.json$/, "") + ".is-a.dev",
+                            `${file}: Record value should not reference itself for ${key}`
+                        );
+                    }
                 }
             }
 
