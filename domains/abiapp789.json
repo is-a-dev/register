@@ -5,6 +5,9 @@
     "email": "abiapp2024@gmail.com"
   },
   "record": {
-    "CNAME": "trytodownloadme.rf.gd"
+    "A": [
+            "185.27.134.216"
+        ]
+    
   }
 }
