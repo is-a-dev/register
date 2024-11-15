@@ -14,8 +14,6 @@
 
 <p align="center"><strong>is-a-dev</strong> is a service that allows developers to get a sweet-looking ".is-a.dev" domain for their personal websites.</p>
 
-[![Publish](https://github.com/is-a-dev/register/actions/workflows/publish.yml/badge.svg)](https://github.com/is-a-dev/register/actions/workflows/publish.yml)
-
 ## Announcements & Status Updates
 Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for announcements, updates & upgrades, and downtimes regarding the service.
 Not all of these will be posted on GitHub, however they will always be posted in our Discord server.
