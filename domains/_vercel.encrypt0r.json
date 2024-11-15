@@ -1,0 +1,10 @@
+{
+  "description": "main domain",
+  "owner": {
+    "username": "encrypt0r",
+    "email": "encrypt0r-x@protonmail.com"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=encrypt0r.is-a.dev,f47040364c214916403b"
+  }
+}
