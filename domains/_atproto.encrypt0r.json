@@ -1,0 +1,10 @@
+{
+  "description": "bsky domain handle",
+  "owner": {
+    "username": "encrypt0r",
+    "email": "encrypt0r-x@protonmail.com"
+  },
+  "record": {
+    "TXT": "did=did:plc:xgzhu5uzyhtecp2sut2qegkn"
+  }
+}
