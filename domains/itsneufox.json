@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "itsneufox",
-        "email": "ajuda@tntsamp.com"
-    },
-    "record": {
-        "CNAME": "itsneufox.github.io"
-    }
+  "owner": {
+    "username": "itsneufox",
+    "email": "ajuda@tntsamp.com"
+  },
+  "record": {
+    "CNAME": "itsneufox.github.io"
+  }
 }

@@ -1,13 +1,9 @@
-{                                                                                                    "owner":    { "username":"mAskDucK",
-
-
-
-
-                                                              "email": "",
-                  "discord":                                                                         "maskduck"
-
-},
-
-"record":                         { 
-                                                            "CNAME":                         "maskduck.pages.dev"
-                      }}
+{
+  "owner": {
+    "username": "mAskDucK",
+    "discord": "maskduck"
+  },
+  "record": {
+    "CNAME": "maskduck.pages.dev"
+  }
+}
