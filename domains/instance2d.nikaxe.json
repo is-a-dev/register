@@ -1,0 +1,11 @@
+{
+  "description": "Website that hosts my framework, Instance2d",
+  "repo": "https://github.com/Nikaxe-dev/instance2d",
+  "owner": {
+    "username": "Nikaxe-dev",
+    "email": "iamnikaxing@gmail.com"
+  },
+  "record": {
+    "CNAME": "Nikaxe-dev.github.io"
+  }
+}
