@@ -1,0 +1,12 @@
+{
+    "description": "Cloud operating system",
+    "repo": "https://github.com/qloha/Sora-OS",
+    "owner": {
+        "username": "qloha",
+        "email": "",
+        "youtube": "https://youtube.com/@qloha"
+    },
+    "record": {
+        "CNAME": "sora-os.up.railway.app"
+    }
+}
