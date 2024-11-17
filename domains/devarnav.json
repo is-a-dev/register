@@ -11,11 +11,9 @@
       "185.199.110.153",
       "185.199.109.153"
     ],
-    "MX": [
-      "mx.zoho.in", 
-      "mx2.zoho.in", 
-      "mx3.zoho.in"
-    ],
-    "TXT": "v=spf1 include:zoho.in ~all"
+     "NS": [
+      "chris.ns.cloudflare.com", 
+      "kimora.ns.cloudflare.com"
+    ]
   }
 }
