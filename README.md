@@ -37,6 +37,13 @@ When applying for NS records, please consider if you *actually* need them. Pleas
 
 For any questions regarding NS records, feel free to email support@is-a.dev.
 
+> [!NOTE]
+> You can skip these requirements by supporting the service with the small amount of $2: https://donate.stripe.com/00gg017NQ6PV3L2cMM
+>
+> All donations go towards supporting the service's running costs.
+>
+> If you decide to donate, please email william@is-a.dev with your payment confirmation and your pull request link to receive your NS records.
+
 ## Manual Registration
 > If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
 
