@@ -1,16 +1,11 @@
 {
   "description": "Okinea Dev website",
-  "repo": "https://github.com/okineadev",
+  "repo": "https://github.com/okineadev-website",
   "owner": {
     "username": "okineadev",
-    "email": "81070564+okineadev@users.noreply.github.com"
+    "telegram": "@stadius_lucioni"
   },
   "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ]
+    "URL": "https://okinea.dev"
   }
 }
