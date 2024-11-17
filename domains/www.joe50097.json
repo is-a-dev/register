@@ -4,7 +4,6 @@
     "email": "zcell9500@gmail.com"
   },
   "record": {
-    "CNAME": "joe50097.netlify.app"
-  },
-  "proxied": false
+    "A": "75.2.60.5"
+  }
 }
