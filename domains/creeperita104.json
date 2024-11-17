@@ -3,5 +3,7 @@
     "username": "creeperita09",
     "email": "creeperita.09@gmail.com"
   },
-  "NS":["kyrie.ns.cloudflare.com","vida.ns.cloudflare.com"]
+  "record": {
+    "NS":["kyrie.ns.cloudflare.com","vida.ns.cloudflare.com"]
+   }
 }
