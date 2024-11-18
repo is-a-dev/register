@@ -1,4 +1,5 @@
 {
+
   "description": "Personal Website for PlOszukiwacz",
   "repo": "https://github.com/PlOszukiwaczDEV/ploszukiwaczdev.github.io",
   "owner": {
@@ -7,10 +8,6 @@
   },
   "record": {
     "A": [
-      "185.199.108.153",
-      "185.199.111.153",
-      "185.199.109.153",
-      "185.199.110.153",
       "45.131.64.15"
     ],
     "MX": [
@@ -19,6 +16,10 @@
     ],
     "TXT": [
      "v=spf1 include:spf.improvmx.com ~all"
+    ],
+    "NS": [
+      "jake.ns.cloudflare.com",
+      "stephane.ns.cloudflare.com"
     ]
   }
 }
