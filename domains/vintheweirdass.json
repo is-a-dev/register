@@ -1,0 +1,13 @@
+{
+  "description": "My base website. Very epik tbh 💥💥",
+  "repo": "https://github.com/vintheweirdass/vintheweirdass.github.io",
+  "owner": {
+    "username": "vintheweirdass",
+    "twitter": "vintheweirdass",
+    "discord": "vintheweirdass",
+    "lahelu": "https://lahelu.com/user/cupglassdev"
+  },
+  "record": {
+    "NS": ["christina.ns.cloudflare.com", "mustafa.ns.cloudflare.com"]
+  }
+}
