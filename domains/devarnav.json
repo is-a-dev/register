@@ -11,6 +11,6 @@
       "185.199.109.153"
     ],
     "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"],
-    "TXT": "v=spf1 include:zoho.in ~all"
+    "TXT": "zoho-verification=zb39750828.zmverify.zoho.in"
   }
 }

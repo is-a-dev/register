@@ -21,7 +21,7 @@ Not all of these will be posted on GitHub, however they will always be posted in
 <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
 
 # Register
-### NS records
+### NS Records
 When applying for NS records, please consider if you *actually* need them. Please provide a detailed reason (with evidence) of why you require NS records.
 
 9 times out of 10, you do not actually need NS records, and merely want them. We already support a wide range of records, so it is extremely unlikely you will actually require them.
