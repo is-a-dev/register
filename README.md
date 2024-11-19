@@ -21,7 +21,7 @@ Not all of these will be posted on GitHub, however they will always be posted in
 <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
 
 # Register
-### NS records
+### NS Records
 When applying for NS records, please consider if you *actually* need them. Please provide a detailed reason (with evidence) of why you require NS records.
 
 9 times out of 10, you do not actually need NS records, and merely want them. We already support a wide range of records, so it is extremely unlikely you will actually require them.
@@ -38,7 +38,7 @@ When applying for NS records, please consider if you *actually* need them. Pleas
 For any questions regarding NS records, feel free to email support@is-a.dev.
 
 > [!NOTE]
-> You can skip these requirements by supporting the service with the small amount of $2: https://donate.stripe.com/00gg017NQ6PV3L2cMM
+> You can skip these requirements by [supporting the service](https://wdh.gg/pvNCdvs) with a small amount of $2.
 >
 > All donations go towards supporting the service's running costs.
 >
