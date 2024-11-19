@@ -38,7 +38,7 @@ When applying for NS records, please consider if you *actually* need them. Pleas
 For any questions regarding NS records, feel free to email support@is-a.dev.
 
 > [!NOTE]
-> You can skip these requirements by supporting the service with the small amount of $2: https://donate.stripe.com/00gg017NQ6PV3L2cMM
+> You can skip these requirements by [supporting the service](https://wdh.gg/pvNCdvs) with a small amount of $2.
 >
 > All donations go towards supporting the service's running costs.
 >
