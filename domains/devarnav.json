@@ -4,9 +4,13 @@
     "email": "playnav.yt@gmail.com"
   },
   "record": {
-     "NS": [
-      "chris.ns.cloudflare.com", 
-      "kimora.ns.cloudflare.com"
-    ]
+    "A": [
+      "185.199.111.153",
+      "185.199.108.153",
+      "185.199.110.153",
+      "185.199.109.153"
+    ],
+    "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"],
+    "TXT": "zoho-verification=zb39750828.zmverify.zoho.in"
   }
 }
