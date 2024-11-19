@@ -5,6 +5,6 @@
     "email": "encrypt0r-x@protonmail.com"
   },
   "record": {
-    "TXT": "just_for_reservation"
+    "A": ['103.16.117.216']
   }
 }
