@@ -1,11 +1,12 @@
 {
-  "description": "Domain name for Sora OS",
-  "repo": "https://github.com/qloha/Sora-OS",
+  "description": "Portfolio",
+  "repo": "https://github.com/qloha/qloha.github.io",
   "owner": {
-    "username": "qloha",
-    "discord": "qloha"
+      "username": "qloha",
+      "youtube": "https://youtube.com/@qloha",
+      "email": "sirfigaloha@gmail.com"
   },
   "record": {
-    "CNAME": "39zrzhpn.up.railway.app"
+      "CNAME": "qloha.github.io"
   }
 }
