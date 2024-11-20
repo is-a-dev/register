@@ -10,7 +10,15 @@
       "185.199.110.153",
       "185.199.109.153"
     ],
-    "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"],
-    "TXT": "zoho-verification=zb39750828.zmverify.zoho.in"
+    "MX": [
+      "mx.zoho.in",
+      "mx2.zoho.in",
+      "mx3.zoho.in"
+    ],
+    "TXT": [
+      "zoho-verification=zb39750828.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all",
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCAAt9K76gV9P+mjbTr6sc2SyJs1lokKVvJMgkzPMYwzJl4oXqZmecc7qvjppmbxPqU45oB8AShe0n1flJRJnguozZlrRuvh3C9qlHASb5iKmS6bVGtHVWhNYnmNxyaQhAgdKwYBpfORrzdepS1S+036c1f7moJ+MQOzHQOePQR7wIDAQAB"
+    ]
   }
 }
