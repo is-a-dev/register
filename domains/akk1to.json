@@ -7,7 +7,11 @@
     "discord": "727497287777124414"
   },
   "record": {
-    "CNAME": "akk1to.github.io",
+    "A":[
+      "185.199.108.153",
+      "185.199.111.153",
+      "185.199.110.153"
+    ],
     "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
