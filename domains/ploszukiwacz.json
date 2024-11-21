@@ -7,9 +7,7 @@
     "email": "ploszukiwacz1@gmail.com"
   },
   "record": {
-    "A": [
-     172.66.47.187
-    ],
+    "A": "172.66.47.187",
     "MX": [
      "mx1.improvmx.com",
      "mx2.improvmx.com"
