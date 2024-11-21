@@ -7,9 +7,7 @@
     "email": "ploszukiwacz1@gmail.com"
   },
   "record": {
-    "A": [
-      "45.131.64.15"
-    ],
+    "CNAME": "website-4ej.pages.dev",
     "MX": [
      "mx1.improvmx.com",
      "mx2.improvmx.com"
