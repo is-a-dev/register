@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "Tak",
-    "email": "tak@tak.io.vn"
-  },
-  "proxied": true,
-  "record": {
-    "CNAME": "tak-gamingyt.github.io"
-  }
+    "owner": {
+        "username": "tak",
+        "email": "tak@tak.io.vn"
+    },
+    "record": {
+        "CNAME": "tak-gamingyt.github.io"
+    },
+    "proxied": true
 }
