@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "Tak",
+    "email": "tak@tak.io.vn"
+  },
+  "proxied": true,
+  "record": {
+    "CNAME": "tak-gamingyt.github.io"
+  }
+}
