@@ -1,20 +1,20 @@
 {
-  "owner": {
-    "username": "ArnavBarway",
-    "email": "playnav.yt@gmail.com"
-  },
-  "record": {
-    "A": [
-      "185.199.111.153",
-      "185.199.108.153",
-      "185.199.110.153",
-      "185.199.109.153"
-    ],
-    "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"],
-    "TXT": [
-      "zoho-verification=zb39750828.zmverify.zoho.in",
-      "v=spf1 include:zoho.in ~all",
-      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCAAt9K76gVP+mjIb76sc2SyJs1lokKVvJMkgzPMYWzJl4oXqZmecc7qvjppmbxPqU45oB8AShe0n1fIJRjuozrZRuvh3C9qIHAB5iKmS6bV6tHVWNhNymNxyaQhAgdKwYBpfORrzd9S1S+036c1f7moJ+MQOzHQOePQR7wIDAQAB"
-    ]
-  }
+    "owner": {
+        "username": "ArnavBarway",
+        "email": "playnav.yt@gmail.com"
+    },
+    "record": {
+        "A": [
+            "185.199.111.153",
+            "185.199.108.153",
+            "185.199.110.153",
+            "185.199.109.153"
+        ],
+        "MX": [
+            "mx1.improvmc.com"
+        ],
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com ~all"
+        ]
+    }
 }
