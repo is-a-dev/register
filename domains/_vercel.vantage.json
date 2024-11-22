@@ -7,7 +7,7 @@
         },
     
         "record": {
-            "TXT": "https://valorant-overlay-phi.vercel.app/"
+            "TXT": ["vc-domain-verify=vantage.is-a.dev,880ae7aaeb22f3419bd0"]
         }
     }
     
