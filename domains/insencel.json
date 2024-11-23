@@ -5,8 +5,6 @@
   },
   "description": "A domain for hosting a typo3 account to test things with and build test-websites",
   "record": {
-    "A": [
-      "164.68.124.156"
-    ]
+    "A": ["164.68.124.156"]
   }
 }

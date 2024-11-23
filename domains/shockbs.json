@@ -1,11 +1,12 @@
 {
   "owner": {
     "username": "shockbs",
-    "email": "apipherng@gmail.com"
+    "discord": "880084860327313459"
   },
   "record": {
-    "A": ["216.24.57.1"],
-    "MX": ["mx1.improvmx.com","mx2.improvmx.com."],
+    "A": ["76.76.21.21"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  }
+  },
+  "proxied": true
 }
