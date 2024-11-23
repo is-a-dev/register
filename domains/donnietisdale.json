@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "donnietisdale",
+        "email": "donnie@donnietisdale.com"
+    },
+    "record": {
+        "TXT": "v=spf1 include:_spf-us.ionos.com ~all"
+    }
+}
