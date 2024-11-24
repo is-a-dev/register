@@ -3,7 +3,8 @@
     "subdomain": "bxqrn",
     "owner": {
         "repo": "https://github.com/bxqrn/bxqrn.github.io",
-        "email": "flqmze@gmail.com"
+        "email": "flqmze@gmail.com",
+        "username": "bxqrn"
     },
     "record": {
         "CNAME": "bxqrn.github.io"
