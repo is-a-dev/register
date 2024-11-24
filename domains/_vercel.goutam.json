@@ -3,7 +3,6 @@
     "username": "MatrixCoder0101"
   },
   "record": {
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["vc-domain-verify=goutam.is-a.dev,cde668462cf6a679633f", "v=spf1 include:spf.improvmx.com ~all"]
+    "TXT": ["vc-domain-verify=goutam.is-a.dev,cde668462cf6a679633f", "did=did:plc:i4uacqp4xelkguhl76usqsao"]
   }
 }
