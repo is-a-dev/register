@@ -4,6 +4,6 @@
     "email": "admin@is-a.dev"
   },
   "record": {
-    "CNAME": "is-a.dev"
+    "NS": ["bingo.ns.cloudflare.com", "matias.ns.cloudflare.com"]
   }
 }
