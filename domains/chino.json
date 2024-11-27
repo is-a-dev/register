@@ -1,6 +1,6 @@
 {
   "description": "My website",
-  "repo": "https://github.com/AutumnVN/autumnvn.github.io",
+  "repo": "https://github.com/AutumnVN/chino.pages.dev",
   "owner": {
     "username": "AutumnVN",
     "email": "autumnvnchino@gmail.com",
@@ -8,6 +8,6 @@
     "discord": "autumnvn"
   },
   "record": {
-    "CNAME": "chino.pages.dev"
+    "NS": ["lina.ns.cloudflare.com", "miles.ns.cloudflare.com"]
   }
 }

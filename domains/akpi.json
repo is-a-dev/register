@@ -1,7 +1,6 @@
 {
   "owner": {
     "username": "akpi816218",
-    "email": "",
     "discord": "equus_quagga"
   },
   "record": {
@@ -11,12 +10,7 @@
       "185.199.111.153",
       "185.199.109.153"
     ],
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
-    "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
-    ]
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   }
 }

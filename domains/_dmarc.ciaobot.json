@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Ciao287",
+    "discord": "687333016921440317"
+  },
+  "record": {
+    "TXT": "v=DMARC1; p=none; rua=mailto:dmarc.report@ciaobot.is-a.dev; ruf=mailto:dmarc.report@ciaobot.is-a.dev; fo=0; adkim=r; aspf=r; pct=100; ri=86400; sp=none"
+  }
+}

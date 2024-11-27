@@ -1,12 +1,11 @@
 {
-    "description": "My website for my projects",
-    "repo": "https://github.com/FormunaGit/FormunaGit.github.io",
-    "owner": {
-        "username": "FormunaGit",
-        "email": "",
-        "discord": "754657845563097108"
-    },
-    "record": {
-        "CNAME": "formunagit.github.io"
-    }
-} 
+  "description": "My website for my projects",
+  "repo": "https://github.com/FormunaGit/formunagit.github.io",
+  "owner": {
+    "username": "FormunaGit",
+    "discord": "754657845563097108"
+  },
+  "record": {
+    "CNAME": "formunagit.github.io"
+  }
+}
