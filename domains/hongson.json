@@ -6,7 +6,7 @@
         },
     
         "record": {
-            "NS": ["ns1.infinityfree.com", "ns2.infinityfree.com"]
+            "NS": ["ariella.ns.cloudflare.com", "garrett.ns.cloudflare.com"]
         }
     }
     
