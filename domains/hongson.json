@@ -6,7 +6,7 @@
         },
     
         "record": {
-            "CNAME": "ariella.ns.cloudflare.com"
+            "NS": ["ns1.infinityfree.com", "ns2.infinityfree.com"]
         }
     }
     
