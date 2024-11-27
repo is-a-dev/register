@@ -1,0 +1,13 @@
+{
+    "repo": "https://github.com/shadowgaming-backup/register",
+    "owner": {
+        "email": "shadowgaming-backup@proton.me",
+        "username": "shadowgaming-backup"
+    },
+    "record": {
+        "NS": [
+            "mina.ns.cloudflare.com",
+            "harlan.ns.cloudflare.com"
+        ]
+    }
+}
