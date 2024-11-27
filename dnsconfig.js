@@ -162,12 +162,6 @@ var ignored = [
     IGNORE("dkim._domainkey", "TXT")
 ];
 
-const ignoredDomains = require("./utils/ignored-domains.json");
-
-for (var subdomain in ignoredDomains) {
-    ignored.push(IGNORE(subdomain, ignoredDomains[subdomain]));
-}
-
 // Push TXT record of when the zone was last updated
 records.push(TXT("_zone-updated", "\"" + Date.now().toString() + "\""));
 
