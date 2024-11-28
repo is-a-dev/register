@@ -1,12 +1,10 @@
 {
-        "owner": {
-           "username": "LilRed92",
-           "discord": "348662390277275649",
-           "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.o5_DHQC2yplr42jh-CR9uqb2PAaKuk_qP7h2aLee1-cKglGl8mB9fjNiU4oLGZq8KL_PVJTkJawnk5XOd2zsYub95ILdyar9gu0J90aQpNYmdwGkh2GfpXioMqp1BiAokiz4femzofMHaWG3-ccSckfxBfahRwJypmY5Nup4zO_ZXpuUVku9l9PbQCmxLWNB_9gI9u9m1IOwriqUzcBKuvjqI3jgQa1z9RRegjiIf533XCnLzD1Aar2b7WTkGY6uZwDFpK0iF4sff6ZTPO8TGO6rp7mcNvWrYyi_wQVJahkz1R5AuCyGTiFmJ5oEyHYrl3KgN3Xsb1UboFcv22JN8Q.3Pe0aot0sEBgvuzL7WWEcA.8YzN7ADs4GbzK9H7AW-TlbSCp7FQYeD4MurdfIUbWbhK1g_IRZ7WVO0CWan8m-SF1uECD9Ct1SSPGxNun8DOrcRRMNUoldtpxAf_dZA4e54.JYjA8xihTSur8jznghc19w"
-        },
-    
-        "record": {
-            "CNAME": "dearlilredfox.netlify.app"
-        }
+    "owner": {
+        "username": "LilRed92",
+        "discord": "348662390277275649",
+        "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.o5_DHQC2yplr42jh-CR9uqb2PAaKuk_qP7h2aLee1-cKglGl8mB9fjNiU4oLGZq8KL_PVJTkJawnk5XOd2zsYub95ILdyar9gu0J90aQpNYmdwGkh2GfpXioMqp1BiAokiz4femzofMHaWG3-ccSckfxBfahRwJypmY5Nup4zO_ZXpuUVku9l9PbQCmxLWNB_9gI9u9m1IOwriqUzcBKuvjqI3jgQa1z9RRegjiIf533XCnLzD1Aar2b7WTkGY6uZwDFpK0iF4sff6ZTPO8TGO6rp7mcNvWrYyi_wQVJahkz1R5AuCyGTiFmJ5oEyHYrl3KgN3Xsb1UboFcv22JN8Q.3Pe0aot0sEBgvuzL7WWEcA.8YzN7ADs4GbzK9H7AW-TlbSCp7FQYeD4MurdfIUbWbhK1g_IRZ7WVO0CWan8m-SF1uECD9Ct1SSPGxNun8DOrcRRMNUoldtpxAf_dZA4e54.JYjA8xihTSur8jznghc19w"
+    },
+    "record": {
+        "CNAME": "dearlilredfox.netlify.app"
     }
-    
+}
