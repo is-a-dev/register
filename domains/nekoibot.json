@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "DomathID",
-        "email": "domath69@gmail.com"
-    },
-
-    "record": {
-        "CNAME": "DomathID.github.io"
-    }
+  "owner": {
+    "username": "DomathID",
+    "email": "domath69@gmail.com"
+  },
+  "record": {
+    "CNAME": "domathid.github.io"
+  }
 }
