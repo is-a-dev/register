@@ -5,7 +5,6 @@
         "discord": "699318362848886864"
     },
     "record": {
-        "NS": "ns1.milosantos.com",
-        "NS": "ns2.milosantos.com"
+        "NS": ["ns1.milosantos.com", "ns2.milosantos.com"]
     }
 }
