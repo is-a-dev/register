@@ -1,11 +1,10 @@
 {
-    "description": "URL Shortener for sites.",
-    "owner": {
-        "username": "DEV-DIBSTER",
-        "email": "dibster@danbot.host",
-        "twitter": "DEV_DIBSTER"
-    },
-    "record": {
-        "CNAME": "proxy.dib.localplayer.dev"
-    }
+  "description": "[MAINTANER] DEV-DIBSTER Site",
+  "owner": {
+    "username": "DEV-DIBSTER",
+    "email": "dibster+is-a-dev@danbot.host"
+  },
+  "record": {
+    "NS": ["scott.ns.cloudflare.com", "tessa.ns.cloudflare.com"]
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "SkyExploreWasTaken",
+    "discord": "1049263707177353247"
+  },
+  "record": {
+    "A": ["82.67.68.228"],
+    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
+    "TXT": ["v=spf1 include:zohomail.eu ~all"]
+  },
+  "proxied": false
+}

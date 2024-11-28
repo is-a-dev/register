@@ -1,14 +1,11 @@
 {
-    "owner": {
-        "username": "dandepan303",
-        "email": "dandepan303@gmail.com"
-    },
-    "record": {
-        "A": [
-        	"185.199.108.153",
-        	"185.199.109.153",
-        	"185.199.110.153",
-        	"185.199.111.153"
-        ]
-    }
+  "description": "Personal blog and porfolio",
+  "repo": "https://github.com/dandepan303/frosti",
+  "owner": {
+    "username": "dandepan303",
+    "email": "dandepan303@gmail.com"
+  },
+  "record": {
+    "A": ["75.2.60.5"]
+  }
 }

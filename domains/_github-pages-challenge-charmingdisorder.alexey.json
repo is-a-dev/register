@@ -1,10 +1,8 @@
 {
-    "owner": {
-        "username": "charmingdisorder",
-        "email": "null"
-    },
-
-    "record": {
-        "TXT": "8045a0394db9ecae4e8f4a76f5c17c"
-    }
+  "owner": {
+    "username": "charmingdisorder"
+  },
+  "record": {
+    "TXT": "8045a0394db9ecae4e8f4a76f5c17c"
+  }
 }
