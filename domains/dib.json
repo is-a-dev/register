@@ -1,12 +1,10 @@
 {
-  "description": "URL Shortener for sites.",
-  "repo": "https://github.com/DIBSTERYT",
+  "description": "[MAINTANER] DEV-DIBSTER Site",
   "owner": {
-    "username": "DIBSTERYT",
-    "email": "contact@dibster.ml",
-    "twitter": "DEV_DIBSTER"
+    "username": "DEV-DIBSTER",
+    "email": "dibster+is-a-dev@danbot.host"
   },
   "record": {
-      "A": ["192.95.42.66"]
+    "NS": ["scott.ns.cloudflare.com", "tessa.ns.cloudflare.com"]
   }
 }

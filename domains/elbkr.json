@@ -1,11 +1,10 @@
-
-    {
-      "owner": {
-        "username": "elbkr",
-        "email": "zaakoukiayman@gmail.com",
-        "twitter": "elbkrrr"
-      },
-      "record": {
-        "CNAME": "elbkr.github.io"
-      }
-    }
+{
+  "owner": {
+    "username": "elbkr",
+    "email": "zaakoukiayman@gmail.com",
+    "twitter": "elbkrrr"
+  },
+  "record": {
+    "CNAME": "elbkr.github.io"
+  }
+}

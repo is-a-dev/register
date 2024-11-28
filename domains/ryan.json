@@ -1,11 +1,11 @@
 {
-  "description": "is-a.dev domain",
-  "repo": "https://github.com/ryan0204",
+  "description": "Dev Portfolio",
   "owner": {
-    "username": "Ryan0204",
-    "email": "ryan@ssrv.xyz"
+    "email": "edev9022@gmail.com",
+    "username": "epic-person-on",
+    "discord": "epic.person"
   },
   "record": {
-    "URL": "https://ssrv.xyz"
+    "CNAME": "ec2-3-12-165-61.us-east-2.compute.amazonaws.com"
   }
 }

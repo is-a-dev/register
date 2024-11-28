@@ -1,0 +1,13 @@
+{
+  "description": "This subdomain points to my portfolio website.",
+  "owner": {
+    "username": "miguelaram2016",
+    "email": "miguelaram2016@utexas.edu",
+    "twitter": "miguelcodes7",
+    "discord": "747499334383304755",
+    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.sh5h8IcwANNjL4Cu_olrTjTuGNiBnihpvp8tYD3PQoJ0Qo8zJwh2wh93m0mxtB0JUmQyLHgMhqwNkRTfDkbQtIiMsJTMBpfwuekG-rohCXC3Bz1X674p58mTiI9BL1mYZjy4n3iNUltRrpEDIY_tQ91-deuB0vZmhFP7Ih-PU18_a7SFhrMTCGFnEpy5ioRBb_7-XaevqZU0ObJ9TXnuX5ZrcUs8dOKdPXQkUvh1T3X4ENkNkqxEX9SrC21ZUPsu0eBsinx8OWhVACBF-v6WsNErv4dYlxvlUF0s6i6H4ies_u47cXuD_ytOZVF19KRHv0mtC4Zq9FxKqvxQNpS2yA.ATDrqWU61Q7pAeI0iOYG3Q.WUBkDKZeYnntdHyh4t_qL56ZUvo4xiK6dF_DvM8i0aVxoooMhunELz8oFORqt_1lt3IMLw_aAWwzmBl4LtPa-frLObpHRe3QHeAhAb919XU.uvFZv2MiYxP-UoMM0DhLSA"
+  },
+  "record": {
+    "A": ["75.2.60.5"]
+  }
+}

@@ -1,11 +1,12 @@
 {
-"description": "NiceSapien's portfolio website",
+  "description": "idk mane why did u delete it \n my portfolio website btw",
+  "repo": "nicesapien.netlify.app",
   "owner": {
-    "username": "NiceSapien",
-    "email": "nicesapien@gmail.com",
-    "discord": "NiceSapien#2356"
+    "username": "nicesapien",
+    "email": "nicesapien@duck.com",
+    "twitter": "nicesapien"
   },
   "record": {
-    "CNAME": "nicesapien.gatsbyjs.io"
+    "CNAME": "portfolio-6dp.pages.dev"
   }
 }

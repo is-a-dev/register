@@ -1,0 +1,10 @@
+{
+  "description": "Mail de Santiago",
+  "owner": {
+    "username": "PinkLittleKitty",
+    "email": "santyfisela@gmail.com"
+  },
+  "record": {
+    "TXT": "zoho-verification=zb84078345.zmverify.zoho.com"
+  }
+}

@@ -1,11 +1,9 @@
-
-    {
-      "owner": {
-        "username": "kaweendras",
-        "email": "salitha.wijerathna@gmail.com"
-      },
-
-      "record": {
-        "CNAME": "kaweendras.github.io"
-      }
-    }
+{
+  "owner": {
+    "username": "kaweendras",
+    "email": "salitha.wijerathna@gmail.com"
+  },
+  "record": {
+    "CNAME": "kaweendras.github.io"
+  }
+}

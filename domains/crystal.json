@@ -1,19 +1,12 @@
 {
-    "description": "For hosting my portfolio",
-    "repo": "https://github.com/crystalbajgai/crystalbajgai.github.io",
-    "owner": {
-        "username": "crystalbajgai",
-        "email": "crystalnplol@gmail.com",
-        "twitter": "@Crissy0__0"
-    },
-     "record": {
-    "A": [
-      "135.148.226.33"
-    ],
-    "MX": [
-      "ns1.crystalcloud.xyz",
-      "ns2.crystalcloud.xyz"
-    ],
-    "TXT": "v=spf1 a mx ip4:135.148.226.33 ~all"    
+  "description": "For hosting my portfolio",
+  "repo": "https://github.com/crystalbajgai/crystalbajgai.github.io",
+  "owner": {
+    "username": "crystalbajgai",
+    "email": "crystalbajgai@gmail.com",
+    "twitter": "Crissy0__0"
+  },
+  "record": {
+    "CNAME": "crystalbajgai.github.io"
   }
 }

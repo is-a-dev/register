@@ -1,0 +1,11 @@
+{
+  "description": "Personal website",
+  "repo": "https://github.com/Rubinskiy/rubinskiy.github.io",
+  "owner": {
+    "username": "Rubinskiy",
+    "discord": "rubinskiy#5258"
+  },
+  "record": {
+    "CNAME": "rubinskiy.github.io"
+  }
+}

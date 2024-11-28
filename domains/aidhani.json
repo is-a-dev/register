@@ -1,12 +1,9 @@
-
-    {
-      "owner": {
-        "username": "AidhaniDev",
-        "email": "aidhanidev@gmail.com"
-      },
-
-      "record": {
-        "URL": "https://sites.google.com/view/aidhanidev/home"
-      }
-    }
-  
+{
+  "owner": {
+    "username": "AidhaniDev",
+    "email": "aidhanidev@gmail.com"
+  },
+  "record": {
+    "URL": "https://sites.google.com/view/aidhanidev/home"
+  }
+}

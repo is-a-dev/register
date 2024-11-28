@@ -1,0 +1,10 @@
+{
+  "description": "Personal website",
+  "owner": {
+    "username": "drormaman",
+    "twitter": "drormaman"
+  },
+  "record": {
+    "CNAME": "drormaman.github.io"
+  }
+}

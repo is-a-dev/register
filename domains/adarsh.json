@@ -1,11 +1,9 @@
 {
-  "description": "Adarsh's personal developer website",
-  "repo": "https://github.com/Adarsh1999/adarsh-portfolio.github.io",
   "owner": {
-    "username": "Adarsh1999",
-    "email": "adarshguptamaurya@gmail.com"
+    "username": "clumzyofficial",
+    "email": "adarshshukla0344@gmail.com"
   },
   "record": {
-    "CNAME": "adarsh-portfolio.github.io"
+    "CNAME": "clumzyofficial.github.io"
   }
 }

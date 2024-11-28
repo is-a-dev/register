@@ -2,10 +2,9 @@
   "description": "Imran Profile.",
   "repo": "https://github.com/pathan-imran/pathan-imran.github.io",
   "owner": {
-    "username": "pathan-imran",
-    "email": ""
+    "username": "pathan-imran"
   },
   "record": {
     "CNAME": "pathan-imran.github.io"
   }
-} 
+}

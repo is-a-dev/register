@@ -1,0 +1,10 @@
+{
+  "description": "My new website",
+  "repo": "https://github.com/pratike-patel/pratike-patel.github.io",
+  "owner": {
+    "username": "pratike-patel"
+  },
+  "record": {
+    "CNAME": "pratike-patel.github.io"
+  }
+}

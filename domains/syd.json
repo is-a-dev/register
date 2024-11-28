@@ -1,12 +1,9 @@
-
-    {
-      "owner": {
-        "username": "bububa",
-        "email": "prof.syd.xu@gmail.com"
-      },
-
-      "record": {
-        "CNAME": "bububa.github.io"
-      }
-    }
-  
+{
+  "owner": {
+    "username": "bububa",
+    "email": "prof.syd.xu@gmail.com"
+  },
+  "record": {
+    "CNAME": "bububa.github.io"
+  }
+}

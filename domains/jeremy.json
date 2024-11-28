@@ -1,12 +1,9 @@
-
-    {
-      "owner": {
-        "username": "MyNameJeremy",
-        "email": "original.jeremy.grotjahn@gmail.com"
-      },
-
-      "record": {
-        "URL": "http://dev.jeremys.social"
-      }
-    }
-  
+{
+  "owner": {
+    "username": "jeremyssocial",
+    "email": "nearberlin@gmail.com"
+  },
+  "record": {
+    "URL": "http://dev.jeremys.social"
+  }
+}
