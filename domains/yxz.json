@@ -8,6 +8,9 @@
     "record": {
         "MX": [
             "tourmaline.uksouth.cloudapp.azure.com"
+        ],
+        "A": [
+            "4.234.99.151"
         ]
     }
 }
