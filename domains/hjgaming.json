@@ -1,0 +1,11 @@
+{
+  "description": "discord connected domain",
+  "repo": "https://github.com/Hjgaming/register-1",
+  "owner": {
+    "username": "hjgaming",
+    "email": "jariwalaharshal80@gmail.com"
+  },
+  "record": {
+    "TXT": ["dh=234fc226b4f9dab9135d3a91e77d623924640e81"]
+  }
+}
