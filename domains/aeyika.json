@@ -1,1 +1,14 @@
-
+{
+  "description"{
+    "description": "Domain for my portfolio website"
+  }
+  
+  "owner": {
+    "username": "aeyika",
+    "email": "aeyikastech@gmail.com",
+    "discord": "aeyika"
+  },
+  "record": {
+    "TXT": "_vercel.aeyika.is-a.dev"
+  }
+}
