@@ -4,6 +4,9 @@
     "email": "daimdev6@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=devdaim.is-a.dev,5117897c35684241a6cc"
+    "TXT": [
+      "vc-domain-verify=devdaim.is-a.dev,5117897c35684241a6cc",
+      "vc-domain-verify=www.devdaim.is-a.dev,a82cc1ab969d1df162d4"
+    ]
   }
 }
