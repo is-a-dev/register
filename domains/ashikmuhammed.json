@@ -6,5 +6,6 @@
   },
   "record": {
     "CNAME": "professorsergiomarquina.github.io"
+    "proxied": true
   }
 }
