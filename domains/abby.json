@@ -6,8 +6,8 @@
     },
     "record": {
         "NS": [
-            "ns1.milosantos.com",
-            "ns2.milosantos.com"
+            "kristin.ns.cloudflare.com",
+            "uriah.ns.cloudflare.com"
         ]
     }
 }
