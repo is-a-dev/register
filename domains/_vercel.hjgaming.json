@@ -1,11 +1,13 @@
 {
-  "description": "discord connected domain",
-  "repo": "https://github.com/Hjgaming/register-1",
-  "owner": {
-    "username": "hjgaming",
-    "email": "jariwalaharshal80@gmail.com"
-  },
-  "record": {
-    "TXT": ["vc-domain-verify=hjgaming.is-a.dev,b1a85aa1f9f16d27c005"]
-  }
+    "description": "discord connected domain",
+    "repo": "https://github.com/Hjgaming/register-1",
+    "owner": {
+        "username": "hjgaming",
+        "email": "jariwalaharshal80@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "vc-domain-verify=hjgaming.is-a.dev,b1a85aa1f9f16d27c005"
+        ]
+    }
 }
