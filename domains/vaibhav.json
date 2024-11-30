@@ -4,6 +4,6 @@
     "email": "vaibhavsys@protonmail.com"
   },
   "record": {
-    "URL": "https://www.thevaibhavway.pro/"
+    "NS": ["daphne.ns.cloudflare.com", "venkat.ns.cloudflare.com"]
   }
 }

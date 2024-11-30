@@ -1,0 +1,16 @@
+{
+    "repo": "https://github.com/yz9551/blog",
+    "owner": {
+        "username": "yz9551",
+        "email": "",
+        "discord": "yz9551"
+    },
+    "record": {
+        "MX": [
+            "tourmaline.uksouth.cloudapp.azure.com"
+        ],
+        "A": [
+            "4.234.99.151"
+        ]
+    }
+}

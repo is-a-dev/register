@@ -1,11 +1,12 @@
 {
+  "description": "My Website",
+  "repo": "https://github.com/itzsouravkumar/itzsouravkumar.github.io",
   "owner": {
-    "username": "LegendOP1041",
-    "email": "maillegendop@gmail.com",
-    "discord": "1056531806763102218"
+    "username": "itzsouravkumar",
+    "discord": "quipxninja",
+    "email": "oyesourav05012006@gmail.com"
   },
-
   "record": {
-    "A": ["69.30.249.53"]
+    "CNAME": "itzsouravkumar.github.io"
   }
 }
