@@ -4,6 +4,6 @@
         "email": "jojocraftde@proton.me"
     },
     "record": {
-        "A": "91.200.103.154"
+        "A": ["91.200.103.154"]
     }
 }
