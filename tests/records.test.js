@@ -95,8 +95,8 @@ t("All files should have valid record types", (t) => {
             t.true(validRecordTypes.includes(key), `${file}: Invalid record type: ${key}`);
         });
 
-        // CNAME records cannot be combined with any other record type
-        if (recordKeys.includes("CNAME")) {
+        // CNAME records cannot be combined with any other record type unless it is proxied
+        if (recordKeys.includes("CNAME") && !data.proxied) {
             t.is(recordKeys.length, Number(1), `${file}: CNAME records cannot be combined with other records`);
         }
 
