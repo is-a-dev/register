@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "meewmeew",
+        "email": "mauminh.nguyen@gmail.com"
+    },
+    "record": {
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": {
+            "_vercel": "vc-domain-verify=mew.is-a.dev,62dafeb5c7466ef6af96"
+        }
+    }
+}
