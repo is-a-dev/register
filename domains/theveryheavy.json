@@ -8,23 +8,10 @@
         "record": {
             "CNAME": "theveryheavy.github.io",
             "MX": [
-            {
-                "hostname": "theveryheavy.is-a.dev.",
-                "priority": 10,
-                "value": "mx1.improvmx.com."
-            },
-            {
-                "hostname": "theveryheavy.is-a.dev.",
-                "priority": 20,
-                "value": "mx2.improvmx.com."
-            }
+              "mx1.improvmx.com",
+              "mx2.improvmx.com"
             ],
-            "TXT": [
-            {
-                "hostname": "theveryheavy.is-a.dev.",
-                "value": "v=spf1 include:spf.improvmx.com ~all"
-            }
-            ]
+            "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
         }
     }
     
