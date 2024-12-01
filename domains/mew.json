@@ -4,6 +4,9 @@
         "email": "mauminh.nguyen@gmail.com"
     },
     "record": {
-        "CNAME": "cname.vercel-dns.com"
+        "NS": [
+            "bart.ns.cloudflare.com",
+            "karina.ns.cloudflare.com"
+        ]
     }
 }
