@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "nxrmqlly"
+    "username": "nxrmqlly",
+    "email": "ritam@duck.com"
   },
   "record": {
     "CNAME": "ritams-website.vercel.app"
