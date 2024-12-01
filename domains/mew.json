@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "meewmeew",
+        "email": "mauminh.nguyen@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "bart.ns.cloudflare.com",
+            "karina.ns.cloudflare.com"
+        ]
+    }
+}
