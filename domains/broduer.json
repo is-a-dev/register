@@ -1,11 +1,11 @@
 {
-  "description": "broduer.is-a.dev",
-  "owner": {
-    "username": "broduer",
-    "email": "broduer@aogamers.net",
-    "discord": "broduer#0"
-  },
-  "record": {
-    "CNAME": "broduer.github.io"
-  }
+    "description": "broduer.is-a.dev",
+    "owner": {
+        "username": "broduer",
+        "email": "broduer@aogamers.net",
+        "discord": "broduer#0"
+    },
+    "record": {
+        "CNAME": "broduer.github.io"
+    }
 }
