@@ -1,12 +1,17 @@
 {
         "owner": {
            "username": "Julianwe17",
-           "email": "julian.in.hbr@gmail.com",
+           "email": "info@julianwe17.tech",
            "discord": "1055740356764901437"
         },
     
         "record": {
-            "CNAME": "julianwe17.github.io"    
+            "CNAME": "julianwe17.github.io",
+            "MX": [
+            "mx1.improvmx.com.",
+            "mx2.improvmx.com." ],
+            "TXT": "v=spf1 include:spf.improvmx.com ~all"    
+                
         }
     }
     
