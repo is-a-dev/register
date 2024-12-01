@@ -1,0 +1,8 @@
+{
+    "subdomain": "shuhaab",
+    "domain": "is-a.dev",
+    "records": {
+      "TXT": ["vc-domain-verify=shuhaab.is-a.dev,4f90144524ddbcf1a09b"]
+    }
+  }
+  
