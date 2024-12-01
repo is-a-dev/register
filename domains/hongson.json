@@ -1,0 +1,11 @@
+{
+  "description": "This subdomain is for my personal portfolio website.",
+  "repo": "https://github.com/hongson209/hongson209.github.io",
+  "owner": {
+    "username": "hongson209",
+    "email": "4h3svn@gmail.com",
+  },
+  "record": {
+    "NS": ["ariella.ns.cloudflare.com", "garrett.ns.cloudflare.com"]
+  }
+}
