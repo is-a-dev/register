@@ -1,7 +1,10 @@
 {
+    "description": "Personal Portfolio Webapp",
+    "repo": "https://github.com/7devquyet/7devquyet.github.io",
     "owner": {
         "username": "7devquyet",
-        "email": "ducquyetthaibinh@gmail.com"
+        "email": "ducquyetthaibinh@gmail.com",
+        "twitter": "7devquyet",
     },
     "record": {
         "CNAME": "7devquyet.github.io"
