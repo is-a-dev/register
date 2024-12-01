@@ -8,6 +8,9 @@
     "record": {
         "MX": [
             "tourmaline.uksouth.cloudapp.azure.com"
+        ],
+        "TXT": [
+            "v=spf1 mx -all"
         ]
     }
 }
