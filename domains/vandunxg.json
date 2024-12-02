@@ -1,0 +1,10 @@
+{
+  "description": "This subdomain is for my personal portfolio website.",
+  "owner": {
+    "username": "vandunxg",
+    "email": "nguyenvandung.official@gmail.com",
+  },
+  "record": {
+    "NS": ["carl.ns.cloudflare.com", "adel.ns.cloudflare.com"]
+  }
+}
