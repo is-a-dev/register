@@ -4,6 +4,6 @@
         "email": "dvqh9591@gmail.com"
     },
     "record": {
-        "RECORDTYPE": "CNAME"
+        "TXT": ["667494e9b3478e8b62e9e1b175e23a"]
     }
 }
