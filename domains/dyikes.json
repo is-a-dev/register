@@ -4,6 +4,6 @@
         "email": "f@power.slmail.me"
     },
     "record": {
-        "A": "dyikes.synology.me"
+        "CNAME": "z.dyikes.cloudns.be"
     }
 }
