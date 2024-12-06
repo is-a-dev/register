@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "hongson209"
-    },
-    "record": {
-        "TXT": ["7ca67fb706f4255dc901ce403dcf14"]
-    }
+  "description": "hongson209's personal website",
+  "owner": {
+    "username": "hongson209",
+    "email": "4h3svn@gmail.com",
+  },
+  "record": {
+    "CNAME": "hongson209.github.io"
+  }
 }
