@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "orxngc",
-    "discord": "orangc",
-    "email": "orangc@proton.me"
+    "username": "orangci",
+    "discord": "orangc"
   },
   "record": {
-    "CNAME": "edge.redirect.pizza"
+    "NS": ["nucum.ns.cloudflare.com", "tate.ns.cloudflare.com"]
   }
 }
