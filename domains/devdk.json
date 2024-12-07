@@ -1,11 +1,10 @@
 {
-    "description": "Personal page of DevDK",
-    "owner": {
-        "username": "DeveloperDmitryKolyadin",
-        "email": "",
-        "twitter": "_DevDK"
-    },
-    "record": {
-        "CNAME": "DeveloperDmitryKolyadin.github.io"
-    }
+  "description": "Personal page of DevDK",
+  "owner": {
+    "username": "DeveloperDmitryKolyadin",
+    "twitter": "_DevDK"
+  },
+  "record": {
+    "CNAME": "developerdmitrykolyadin.github.io"
+  }
 }

@@ -1,10 +1,10 @@
 {
-    "repo": "https://github.com/marcossatoshi/marcossatoshi.github.io",
-    "owner": {
-        "username": "marcossatoshi",
-        "email": "marcos.satoshi@gmail.com"
-    },
-    "record": {
-        "CNAME": "marcossatoshi.github.io"
-    }
+  "repo": "https://github.com/marcossatoshi/marcossatoshi.github.io",
+  "owner": {
+    "username": "marcossatoshi",
+    "email": "marcos.satoshi@gmail.com"
+  },
+  "record": {
+    "CNAME": "marcossatoshi.github.io"
+  }
 }

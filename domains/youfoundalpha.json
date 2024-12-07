@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "YouFoundAlpha",
+    "discord": "661121998830960651",
+    "gitlab": "YouFoundAlpha",
+    "mastodon": "@YouFoundAlpha@mastodon.social"
+  },
+  "record": {
+    "URL": "https://github.com/YouFoundAlpha",
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all",
+      "$argon2id$v=19$m=64,t=512,p=2$LQgtmaW74soANOQER5HbUw$AsMbVQTJEn5K3tM8hb2dsQ"
+    ]
+  }
+}

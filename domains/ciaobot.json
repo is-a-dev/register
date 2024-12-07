@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "Ciao287",
+    "discord": "687333016921440317"
+  },
+  "record": {
+    "A": ["144.91.115.195"],
+    "MX": ["mail.ciaohost.tech"],
+    "TXT": [
+      "v=spf1 mx a -all",
+      "google-site-verification=ESHkpD4wk4-a2cqONn73cRaELmis2IzdBRB3Fw-t1Dw"
+    ]
+  }
+}

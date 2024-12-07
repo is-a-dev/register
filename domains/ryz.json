@@ -1,0 +1,11 @@
+{
+  "description": "This subdomain is for my personal projects and mail forwarding.",
+  "owner": {
+    "username": "0ryz",
+    "email": "j6qt9x5sj@mozmail.com",
+    "discord": "4ryz"
+  },
+  "record": {
+    "NS": ["betty.ns.cloudflare.com", "cody.ns.cloudflare.com"]
+  }
+}
