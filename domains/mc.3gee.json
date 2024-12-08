@@ -4,6 +4,6 @@
         "email": "egemacun@gmail.com"
     },
     "record": {
-        "CNAME": ["grown-gopher-mildly.ngrok-free.app"]
+        "CNAME": "grown-gopher-mildly.ngrok-free.app"
     }
 }
