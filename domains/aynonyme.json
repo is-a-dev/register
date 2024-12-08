@@ -6,6 +6,6 @@
     "email": "aynonyme@proton.me"
   },
   "record": {
-    "CNAME": "ayn0nyme.github.io"
+    "A": ["93.95.117.183"]
   }
 }
