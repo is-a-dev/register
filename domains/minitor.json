@@ -1,0 +1,11 @@
+{
+    "description": "Self hosted service",
+    "repo": "https://github.com/MinitorMHS/register",
+    "owner": {
+        "username": "minitormhs",
+        "email": "me@minitor.eu.org"
+    },
+    "record": {
+        "CNAME": "cf-repl.pages.dev"
+    }
+}
