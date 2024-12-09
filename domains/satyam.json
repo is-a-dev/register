@@ -1,0 +1,17 @@
+{
+  "repo": "https://github.com/skylinemusiccds/register",
+
+  "owner": {
+    "username": "skylinemusiccds",
+    "email": "gamingsatyam21@gmail.com"
+  },
+
+  "target": {
+    "record-type": {
+      "name": "CNAME",
+      "value": "cname.vercel-dns.com"
+    }
+  },
+
+  "proxied": false
+}
