@@ -12,8 +12,6 @@ on:
             - ".github/workflows/validation.yml"
             - "dnsconfig.js"
 
-    workflow_dispatch:
-
 concurrency:
     group: ${{ github.ref }}-validation
     cancel-in-progress: true
@@ -21,7 +19,7 @@ concurrency:
 jobs:
     dns:
         name: DNS
-        if: github.event.head_commit.message != '' && github.event.head_commit.message != null && !contains(github.event.head_commit.message, '[skip-ci]')
+        if: !contains(github.event.head_commit.message, '[skip-ci]')
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
@@ -33,7 +31,7 @@ jobs:
 
     tests:
         name: Tests
-        if: github.event.head_commit.message != '' && github.event.head_commit.message != null && !contains(github.event.head_commit.message, '[skip-ci]')
+        if: !contains(github.event.head_commit.message, '[skip-ci]')
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
