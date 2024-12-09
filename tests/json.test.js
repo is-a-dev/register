@@ -93,3 +93,14 @@ t("All files should have valid optional fields", (t) => {
         }
     });
 });
+
+const ignoredJSONFiles = [
+    "package-lock.json",
+    "package.json"
+]
+
+t("JSON files should not be in the root directory", (t) => {
+    const files = fs.readdirSync(path.resolve()).filter((file) => file.endsWith(".json") && !ignoredJSONFiles.includes(file));;
+
+    t.is(files.length, 0, "JSON files should not be in the root directory");
+});
