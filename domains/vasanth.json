@@ -1,0 +1,13 @@
+{
+  "description": "Vasanth personal Blog",
+  "repo": "https://github.com/itsparser",
+  "owner": {
+    "username": "itsparser",
+    "email": "itsparser@gmail.com",
+    "twitter": "itsparser",
+    "discord": "itsparser"
+  },
+  "record": {
+    "CNAME": "vasanth.tech"
+  }
+}
