@@ -1,0 +1,12 @@
+{
+  "description": "A website for my project",
+  "repo": "https://github.com/M-logique/Proxies",
+  "owner": {
+    "username": "M-logique",
+    "email": "logique@duck.com"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+  },
+  "proxied": true
+}
