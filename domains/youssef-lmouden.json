@@ -1,10 +1,8 @@
 {
-  "domain": "youssef-lmouden.is-a.dev",
-  "owner": {
-    "email": "youssef.pro.coding@gmail.com",
-    "github": "YoussefDevPro"
-  },
-  "record": {
-    "CNAME": "YoussefDevPro.github.io"
-  }
-}
+    "owner": {
+        "username": "YoussefDevPro"
+    },
+    "record": {
+        "CNAME": "YoussefDevPro.github.io"
+    }
+} 
