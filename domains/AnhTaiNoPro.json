@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "your-github-username",
+        "email": "your@email.address"
+    },
+    "record": {
+        "RECORDTYPE": "RECORDCONTENT"
+    }
+}
