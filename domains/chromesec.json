@@ -1,0 +1,12 @@
+{
+    "description": "Website for ChromeSEC a guide for admins to secure their chromeOS devices",
+    "repo": "https://github.com/CaenJones/caenjones.github.io",
+    "owner": {
+        "username": "CaenJones",
+        "email": "cj@caenjones.com",
+        "twitter": ""
+    },
+    "record": {
+        "CNAME": "caenjones.github.io/ChromeSEC"
+    }
+} 
