@@ -1,9 +1,9 @@
 {
     "owner": {
-        "username": "sabbir",
+        "username": "s8rr",
         "email": "sabbir.apbn.edu@gmail.com"
     },
   "record": {
-    "TXT": ["vc-domain-verify=sabbir.is-a.dev,3ea939aeb88a70a692f5"]
+    "CNAME": "sabbirweb.vercel.app"
   }
 }
