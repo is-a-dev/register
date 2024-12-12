@@ -1,0 +1,41 @@
+name: Validation
+
+on:
+    pull_request:
+
+    push:
+        branches: [main]
+        paths:
+            - "domains/*"
+            - "tests/*"
+            - "utils/*"
+            - ".github/workflows/validation.yml"
+            - "dnsconfig.js"
+
+    workflow_dispatch:
+
+concurrency:
+    group: ${{ github.ref }}-validation
+    cancel-in-progress: true
+
+jobs:
+    dns:
+        name: DNS
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Check
+              uses: is-a-dev/dnscontrol-action@main
+              with:
+                  args: check
+
+    tests:
+        name: Tests
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - run: npm install
+
+            - run: npm test

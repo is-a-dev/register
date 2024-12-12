@@ -1,31 +1,77 @@
-const R = require('ramda');
-const fs = require('fs');
-const { getDomains } = require('../utils/get-domain');
-const { validateDomainData } = require('../utils/validations');
-const { DOMAINS_PATH } = require('../utils/constants');
+const t = require("ava");
+const fs = require("fs-extra");
+const path = require("path");
 
-describe('Domains', () => {
-  it('should all be json', async () => {
-    const files = await fs.promises.readdir(DOMAINS_PATH, {});
-    expect(files.filter(f => !/\.json$/g.test(f)).length).toBe(0);
-  });
+const domainsPath = path.resolve("domains");
+const files = fs.readdirSync(domainsPath);
 
-  it('should be valid', (done) => {
-    getDomains()
-      .then(R.reject(R.propEq('name', '_psl')))
-      .then(R.map(data => {
-        const { errors } = validateDomainData(data);
-        if (errors.length) {
-          const message = errors
-            .map(([key, { reason }]) => `[${data.name}.${key}]: ${reason}`)
-            .join('\n');
-          return `\nValidation errors in ${data.name}.json: \n${message}`;
+function getParentSubdomain(subdomain) {
+    const parts = subdomain.split(".");
+    
+    if (parts.length <= 1) return null; // No parent for top-level subdomains
+    
+    // Attempt to find the parent subdomain by removing the last part
+    for (let i = parts.length - 1; i > 0; i--) {
+        const potentialParent = parts.slice(i - 1).join(".");
+        if (files.includes(`${potentialParent}.json`)) {
+            return potentialParent; // Return the parent subdomain if it exists
         }
-        return '';
-      }))
-      .then(R.filter(R.complement(R.isEmpty)))
-      .then(messages => messages.length ? done(messages.join('\n')) : done())
-      .catch(done);
-  });
+    }
+    
+    return null; // Return null if no valid parent is found
+}
+
+
+function getDomainData(subdomain) {
+    try {
+        return fs.readJsonSync(path.join(domainsPath, `${subdomain}.json`));
+    } catch (error) {
+        throw new Error(`Failed to read JSON for ${subdomain}: ${error.message}`);
+    }
+}
+
+t("Nested subdomains should not exist without a parent subdomain", (t) => {
+    for (const file of files) {
+        const subdomain = file.replace(/\.json$/, "");
+
+        if (subdomain.split(".").length > 1) {
+            const parentSubdomain = getParentSubdomain(subdomain);
+            t.true(files.includes(`${parentSubdomain}.json`), `${file}: Parent subdomain does not exist`);
+        }
+    }
+
+    t.pass();
 });
 
+t("Nested subdomains should not exist if the parent subdomain has NS records", (t) => {
+    for (const file of files) {
+        const subdomain = file.replace(/\.json$/, "");
+
+        if (subdomain.split(".").length > 1) {
+            const parentSubdomain = getParentSubdomain(subdomain);
+            const parentDomain = getDomainData(parentSubdomain);
+
+            t.true(!parentDomain.record.NS, `${file}: Parent subdomain has NS records`);
+        }
+    }
+
+    t.pass();
+});
+
+t("Nested subdomains should be owned by the parent subdomain's owner", (t) => {
+    for (const file of files) {
+        const subdomain = file.replace(/\.json$/, "");
+
+        if (subdomain.split(".").length > 1) {
+            const data = getDomainData(subdomain);
+
+            const parentSubdomain = getParentSubdomain(subdomain);
+            const parentDomain = getDomainData(parentSubdomain);
+
+            t.true(
+                data.owner.username.toLowerCase() === parentDomain.owner.username.toLowerCase(),
+                `${file}: Owner does not match the parent subdomain`
+            );
+        }
+    }
+});

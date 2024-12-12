@@ -1,0 +1,11 @@
+{
+  "description": "Aswin Mahesh Website",
+  "repo": "https://github.com/aswinmahesh",
+  "owner": {
+    "username": "aswinmahesh",
+    "email": "aswinmahesh.com+dns@gmail.com"
+  },
+  "record": {
+    "A": ["75.2.60.5"]
+  }
+}

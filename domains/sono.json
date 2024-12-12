@@ -1,12 +1,12 @@
 {
-        "owner": {
-           "username": "getSono",
-           "email": "julianwolf2013@outlook.de",
-           "discord": "1222250424309121145"
-        },
-    
-        "record": {
-            "CNAME": "getsono.github.io"
-        }
+    "owner": {
+        "username": "getSono",
+        "email": "sono.arbeit@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "jasmine.ns.cloudflare.com",
+            "trace.ns.cloudflare.com"
+        ]
     }
-    
+}

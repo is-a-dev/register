@@ -1,0 +1,12 @@
+{
+  "description": "My personal website and blog",
+  "repo": "https://github.com/CaenJones/caenjones.github.io",
+  "owner": {
+    "username": "CaenJones",
+    "email": "cj@caenjones.com",
+    "twitter": ""
+  },
+  "record": {
+    "CNAME": "caenjones.github.io"
+  }
+}
