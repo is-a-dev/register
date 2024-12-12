@@ -1,0 +1,10 @@
+{
+  "description": "Portfolio for TerraEgg",
+  "owner": {
+    "username": "TerraEgg",
+    "email": "albumanyt@gmail.com"
+  },
+  "record": {
+    "CNAME": "ns1.byet.org"
+  }
+}
