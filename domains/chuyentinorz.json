@@ -1,0 +1,11 @@
+{
+    "description": "This is the landing pages of Chuyen Tin organisation, a group of developers",
+    "owner": {
+        "username": "kodomotachi",
+        "discord": "705345233407443006"
+    },
+    "record": {
+        "A" : "64.29.17.1",
+        "TXT": "vc-domain-verify=chuyentinorz.is-a.dev,46d8c5be943cf4eb7cd2"
+    }
+}
