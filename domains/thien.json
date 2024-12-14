@@ -1,0 +1,11 @@
+{
+    "description": "thien.is-a.dev",
+    "repo": "https://github.com/truongvithien/truongvithien.github.io",
+    "owner": {
+        "username": "truongvithien",
+        "email": "thientv.dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "truongvithien.github.io"
+    }
+}
