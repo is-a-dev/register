@@ -4,15 +4,6 @@
         "email": "egemacun@gmail.com"
     },
     "record": {
-        "SRV": [
-            {
-                "name": "_minecraft._tcp",
-                "priority": 0,
-                "weight": 5,
-                "port": 32279,
-                "target": "gold.magmanode.com"
-            }
-        ],
         "CNAME": "gold.magmanode.com"
     }
 }
