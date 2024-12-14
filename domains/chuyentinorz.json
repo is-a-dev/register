@@ -5,7 +5,7 @@
         "discord": "705345233407443006"
     },
     "record": {
-        "A" : "64.29.17.1",
+        "CNAME": "chuyentinorz-landing.vercel.app",
         "TXT": "vc-domain-verify=chuyentinorz.is-a.dev,46d8c5be943cf4eb7cd2"
     }
 }
