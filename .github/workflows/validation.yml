@@ -9,7 +9,7 @@ on:
             - "domains/*"
             - "tests/*"
             - "utils/*"
-            - ".github/workflows/validate.yml"
+            - ".github/workflows/validation.yml"
             - "dnsconfig.js"
 
     workflow_dispatch:
@@ -21,7 +21,6 @@ concurrency:
 jobs:
     dns:
         name: DNS
-        if: "!contains(github.event.head_commit.message, '[skip-ci]')"
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
@@ -33,7 +32,6 @@ jobs:
 
     tests:
         name: Tests
-        if: "!contains(github.event.head_commit.message, '[skip-ci]')"
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
