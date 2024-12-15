@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "itsrishub",
-        "email": "itsrishub@gmail.com"
-    },
-    "record": {
-        "URL": "https://rishub.cc"
-    }
+  "owner": {
+    "username": "itsrishub",
+    "email": "itsrishub@gmail.com"
+  },
+  "record": {
+    "CNAME": "hashnode.network"
+  }
 }

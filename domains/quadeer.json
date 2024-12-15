@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "maquadeer",
-        "email": "mdquadeer2003@gmail.com"
-    },
-    "record": {
-        "CNAME": "quadeer.pages.dev"
-    }
-} 
+  "owner": {
+    "username": "maquadeer",
+    "email": "mdquadeer2003@gmail.com"
+  },
+  "record": {
+    "CNAME": "quadeer.pages.dev"
+  }
+}

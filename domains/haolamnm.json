@@ -1,0 +1,10 @@
+{
+    "description": "Portfolio redirect for haolamnm",
+    "owner": {
+        "username": "haolamnm",
+        "email": "haolamnm.work@gmail.com"
+    },
+    "record": {
+        "CNAME": "haolamnm.github.io"
+    }
+}

@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "miskode",
-        "email": "miskonx97@gmail.com"
-    },
-
-    "record": {
-        "CNAME": "miskode.github.io"
-    }
+  "owner": {
+    "username": "miskode",
+    "email": "miskonx97@gmail.com"
+  },
+  "record": {
+    "CNAME": "miskode.github.io"
+  }
 }

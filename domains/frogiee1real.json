@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "FrogiesArcade",
-        "email": "frogiesarcade@gmail.com"
-    },
-    "record": {
-        "CNAME": "extramathequations.web.app"
-    }
+  "owner": {
+    "username": "FrogiesArcade",
+    "email": "frogiesarcade@gmail.com"
+  },
+  "record": {
+    "CNAME": "extramathequations.web.app"
+  }
 }
