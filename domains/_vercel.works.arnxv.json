@@ -3,9 +3,7 @@
     "username": "ArnavBarway",
     "email": "arnav@sagaraga.com"
   },
-  "record": [
-    {
+  "record": {
       "TXT": "vc-domain-verify=works.arnxv.is-a.dev,f8b0553cc89bfe7097fa"
-    }
-  ]
+   }
 }
