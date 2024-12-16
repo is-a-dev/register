@@ -4,8 +4,6 @@
         "email": "arnav@sagaraga.com"
     },
     "record": {
-        "CNAME": [
-            "cname.vercel-dns.com"
-        ]
+        "CNAME": "cname.vercel-dns.com"
     }
 }
