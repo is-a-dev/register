@@ -1,1 +1,10 @@
 
+{
+  "description": "Mehdi is a dev",
+  "owner": {
+    "username": "Mehdi-GR-Dev",
+  },
+  "record": {
+    "CNAME": "https://portfolio-seven-gold-50.vercel.app/"
+  }
+}
