@@ -4,6 +4,7 @@
         "email": "anonymou3489@gmail.com"
     },
     "record": {
-        "CNAME": "239581.site.bot-hosting.net"
+        "CNAME": "239581.site.bot-hosting.net",
+        "TXT": ["bh-server=239581"]
     }
 }
