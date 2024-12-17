@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "coomkie",
+        "email": "coomkieyb@gmail.com"
+    },
+    "record": {
+       "RECORDTYPE": "CNAME",
+        "RECORDCONTENT": ".github.io"
+    }
+}
