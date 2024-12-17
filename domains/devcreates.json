@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Lezetho",
+    "email": "root@lezetho.co.uk"
+  },
+  "record": {
+    "NS": ["keenan.ns.cloudflare.com","kristin.ns.cloudflare.com"]
+  }
+}
