@@ -1,10 +1,12 @@
 {
   "owner": {
     "username": "Delta-0mega",
-    "email": "zxroff@proton.me",
-    "discord": "1279377552561147964"
+    "email": "seikoo.dev@gmail.com",
+    "discord": "1293641904860172389"
   },
   "record": {
-    "CNAME": "seiko-7oa.pages.dev"
+    "A": ["172.66.44.203", "172.66.47.53"],
+    "MX" : ["mx1.improvmx.com","mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   }
 }
