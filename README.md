@@ -14,30 +14,32 @@
 
 <p align="center"><strong>is-a-dev</strong> is a service that allows developers to get a sweet-looking ".is-a.dev" domain for their personal websites.</p>
 
-[![Publish](https://github.com/is-a-dev/register/actions/workflows/publish.yml/badge.svg)](https://github.com/is-a-dev/register/actions/workflows/publish.yml)
-
 ## Announcements & Status Updates
 Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for announcements, updates & upgrades, and downtimes regarding the service.
 Not all of these will be posted on GitHub, however they will always be posted in our Discord server.
 
-<a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
+<a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.wdh.app/is-a-dev-830872854677422150"></a>
 
 # Register
-### NS records
-When applying for NS records, please consider if you *actually* need them. Please provide a detailed reason (with evidence) of why you require NS records.
-
-9 times out of 10, you do not actually need NS records, and merely want them. We already support a wide range of records, so it is extremely unlikely you will actually require them.
+### NS Records
+When applying for NS records, please consider if you *actually* need them.
+In your PR, please provide *extensive* reasoning, with evidence/examples, of why you need NS records.
+You can see a good example of this [here](https://github.com/is-a-dev/register/pull/17592).
 
 ***Pull requests adding NS records without valid reasoning will be closed.***
 
 **Instant Denials**:
 - I don't want to create a pull request everytime I want to update my DNS records.
-  - Over 3,000 people have to, you can too.
-- I want to use Cloudflare's proxy for DDoS protection.
-   - Simply add `"proxied": true` to your file, to enable Cloudflare's Enterprise-level DDoS protection for your subdomain.
-   - Note: We *may* allow certain users to register NS records if it would expose their home IP.
+  - Over 3,000 people have to create PRs for updating their records, you can too.
+- It is easier to manage DNS records on *(insert DNS provider name)*.
+   - It isn't too difficult to open a pull request to update your DNS records. We aim for PRs to be merged with-in 24 hours.
+- I want to use DDoS protection.
+   - You can simply add `"proxied": true` to your file, to enable Cloudflare's Enterprise-level DDoS protection for your subdomain.
 
-For any questions regarding NS records, feel free to email support@is-a.dev.
+> [!NOTE]
+> You can skip these requirements by [supporting the service](https://wdh.gg/pvNCdvs) with a small amount of $2.
+>
+> If you decide to donate, please email william@is-a.dev with your payment confirmation and your pull request link to receive your NS records.
 
 ## Manual Registration
 > If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
