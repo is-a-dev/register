@@ -5,6 +5,5 @@
   },
   "record": {
     "NS": ["bethany.ns.cloudflare.com", "miles.ns.cloudflare.com"]
-  },
-  "proxied": true
+  }
 }
