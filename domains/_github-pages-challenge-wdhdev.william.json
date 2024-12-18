@@ -4,7 +4,6 @@
     "email": "william@is-a.dev"
   },
   "record": {
-    "CNAME": "hrsn.dev"
-  },
-  "proxied": true
+    "TXT": "6b3a5de4756e5840afc94698b74712"
+  }
 }
