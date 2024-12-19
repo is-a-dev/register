@@ -1,6 +1,8 @@
 [
     "api",
     "dns",
+    "doc",
+    "documentation",
     "email",
     "example",
     "m",
@@ -16,8 +18,10 @@
     "ns[1-9]",
     "redirect",
     "registry",
+    "security",
     "url",
     "whois",
     "www[1-9]",
-    "wwww"
+    "wwww",
+    "your-domain-name"
 ]

@@ -48,7 +48,7 @@ function expandReservedDomains() {
 
                 expandedList.splice(expandedList.indexOf(item), 1);
             } else {
-                throw new Error(`[reserved-domains.json] Invalid range [${start}-${end}] in "${item}"`);
+                throw new Error(`[util/reserved-domains.json] Invalid range [${start}-${end}] in "${item}"`);
             }
         }
     }
