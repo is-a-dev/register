@@ -1,0 +1,11 @@
+{
+    "description": "An 11ty blog template with Material Design, PWA and minified files that simply works.",
+    "repo": "https://github.com/LIGMATV/11ty-gmx",
+    "owner": {
+        "username": "LIGMATV",
+        "email": "ligmatv.id@gmail.com"
+    },
+    "record": {
+        "CNAME": "ligmatv.github.io"
+    }
+} 
