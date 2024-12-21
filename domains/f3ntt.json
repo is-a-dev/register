@@ -1,12 +1,12 @@
 {
-    "description": "project page/ portfolio",
-    "repo": "https://github.com/2nvrs/f3ntt",
-    "owner": {
-        "username": "2nvrs",
-        "email": "cnvrscnvrscnvrs@gmail.com",
-        "twitter": "projcnvrs"
-    },
-    "record": {
-        "CNAME": "f3ntt.vercel.app"
-    }
-} 
+  "description": "portfolio",
+  "repo": "https://github.com/2nvrs/portfolio",
+  "owner": {
+    "username": "2nvrs",
+    "email": "cnvrscnvrscnvrs@gmail.com",
+    "twitter": "projcnvrs"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=f3ntt.is-a.dev,dc540a58beec30597866"
+  }
+}
