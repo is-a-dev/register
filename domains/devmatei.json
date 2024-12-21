@@ -7,8 +7,32 @@
         "A": [
             "75.2.60.5"
         ],
+        "MX": [
+            {
+                "host": "devmatei",
+                "value": "mx.zoho.eu",
+                "priority": 10
+            },
+            {
+                "host": "devmatei",
+                "value": "mx2.zoho.eu",
+                "priority": 20
+            },
+            {
+                "host": "devmatei",
+                "value": "mx3.zoho.eu",
+                "priority": 50
+            }
+        ],
         "TXT": [
-            "zoho-verification=zb05930386.zmverify.zoho.eu"
+            {
+                "host": "devmatei",
+                "value": "v=spf1 include:zoho.eu ~all"
+            },
+            {
+                "host": "zmail._domainkey.devmatei",
+                "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIOzUFPBEQXJA2Rh16fCXNC8YASZtoVbievhK2Wwof2/nd+TGcMiLhr9BT9Iiq7pc0zOlzA5fsCYzxXRpBQqiPvXQT/gYvWaVWIJaDSiQHuiz4mA8s8PEPX/iovSZWy4cCge9Gd1WKkFJLPHqVrFnOeVCPl8xFvcKU4z4uQIDAQAB"
+            }
         ]
     }
 }
