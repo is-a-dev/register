@@ -8,20 +8,10 @@
             "75.2.60.5"
         ],
         "MX": [
-            {
-                "host": "devmatei",
-                "value": "mx.zoho.eu",
-                "priority": 10
-            },
-            {
-                "host": "devmatei",
-                "value": "mx2.zoho.eu",
-                "priority": 20
-            },
-            {
-                "host": "devmatei",
-                "value": "mx3.zoho.eu",
-                "priority": 50
+            "mx.zaho.eu",
+            "mx2.zaho.eu",
+            "mx3.zaho.eu"
+            
             }
         ],
         "TXT": [
