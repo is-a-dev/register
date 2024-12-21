@@ -1,10 +1,14 @@
 {
     "owner": {
-        "username": "DevMatei"
+        "username": "DevMatei",
+        "email": "matei.thoma@gmail.com"
     },
     "record": {
         "A": [
             "75.2.60.5"
+        ],
+        "TXT": [
+            "zoho-verification=zb05930386.zmverify.zoho.eu"
         ]
     }
 }
