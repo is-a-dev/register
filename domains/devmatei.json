@@ -11,8 +11,6 @@
             "mx.zaho.eu",
             "mx2.zaho.eu",
             "mx3.zaho.eu"
-            
-            }
         ],
         "TXT": [
             "v=spf1 include:zoho.eu ~all",
