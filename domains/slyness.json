@@ -1,0 +1,14 @@
+{
+    "owner": {
+        "description": "Personal Website for Slyness",
+        "username": "slyness6",
+        "email": "slynesss@proton.me"
+        "discord": "lbt6"
+    },
+    "record": {
+    "NS": [
+	"jake.ns.cloudflare.com",
+	"stephane.ns.cloudflare.com"
+    ]
+  }
+}
