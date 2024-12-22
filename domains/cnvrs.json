@@ -1,12 +1,8 @@
 {
-  "description": "project page",
-  "repo": "https://github.com/2nvrs/website",
   "owner": {
-    "username": "2nvrs",
-    "email": "cnvrscnvrscnvrs@gmail.com",
-    "twitter": "projcnvrs"
+    "username": "2nvrs"
   },
   "record": {
-    "CNAME": "cnvrsbrowser.vercel.app"
+    "A": ["76.76.21.21"]
   }
 }
