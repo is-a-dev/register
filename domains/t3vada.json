@@ -3,7 +3,6 @@
     "username": "wythh24"
   },
   "record": {
-    "CNAME": "devada.vercel.app",
-    "TXT": ["google-site-verification=PGU03un4k5892v3xMTy8Tnz10tmSGTMJQ4V2ZNv65qQ"]
+    "CNAME": "devada.vercel.app"
   }
 }
