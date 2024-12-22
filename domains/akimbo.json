@@ -1,0 +1,14 @@
+{
+  "description": "Porfolio website for Akimbo,and Pixel Peak Studio",
+  "repo": "https://github.com/aksh120",
+  "owner": {
+    "username": "aksh120",
+    "email": "projects.akimbo@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "casey.ns.cloudflare.com",
+      "rosalie.ns.cloudflare.com"
+    ]
+  }
+}
