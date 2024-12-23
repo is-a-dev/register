@@ -8,7 +8,7 @@ on:
         paths:
             - "domains/*"
             - "tests/*"
-            - "utils/*"
+            - "util/*"
             - ".github/workflows/validation.yml"
             - "dnsconfig.js"
 
