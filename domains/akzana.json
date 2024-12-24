@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "akzana",
-        "email": "akzanaklepsch@outlook.com"
-    },
-    "record": {
-        "RECORDTYPE": "AAAA"
-    }
+  "description": "Portfolio Site for Akzana. I want to host small projects on Akzana.Is-A.Dev to showcase my software engineering skills.",
+  "repo": "https://github.com/akzana/akzana.github.io",
+  "owner": {
+    "username": "akzana",
+    "email": "akzanaklepsch@outlook.com"
+  },
+  "record": {
+    "URL": "https://akzana.github.io"
+  }
 }
