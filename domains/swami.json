@@ -6,6 +6,9 @@
       "email": "adityaedu22@gmail.com"
     },
   "record": {
-          "CNAME": "adityasworld.vercel.app"
+          "CNAME": "adityasworld.vercel.app",
+          "TXT": {
+            "_vercel": "vc-domain-verify=swami.is-a.dev,ebd6de23b5512663a728"
+          }
       }
   } 
