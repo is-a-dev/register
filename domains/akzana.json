@@ -6,6 +6,7 @@
     "email": "akzanaklepsch@outlook.com"
   },
   "record": {
-    "CNAME": "https://akzana.github.io"
+    "CNAME": "https://akzana.github.io",
+    "TXT": "dh=2af8afafb60c69053436cf1df432f8ae6cdbbde0"
   }
 }
