@@ -7,6 +7,6 @@
   },
   "record": {
     "CNAME": "https://akzana.github.io",
-    "TXT": "dh=2af8afafb60c69053436cf1df432f8ae6cdbbde0"
+    "TXT": ["a9e7df1f4744431d00299a1ca92510"]
   }
 }
