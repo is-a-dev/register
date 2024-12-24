@@ -153,7 +153,8 @@ var ignored = [
     IGNORE("_dmarc", "TXT"),
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
-    IGNORE("dkim._domainkey", "TXT")
+    IGNORE("dkim._domainkey", "TXT"),
+    IGNORE("ns[1-4]", "A,AAAA"),
 ];
 
 // Push TXT record of when the zone was last updated
