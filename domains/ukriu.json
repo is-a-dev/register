@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "ukriu",
-    "email": "isadev@ukriu.com"
-  },
-  "record": {
-    "NS": ["love.ns.cloudflare.com", "pete.ns.cloudflare.com"]
-  }
-}
