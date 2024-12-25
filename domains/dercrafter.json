@@ -1,0 +1,11 @@
+{
+  "description": "personal website for dercrafter.is-a.dev",
+  "repo": "https://github.com/dercrafter-168",
+  "owner": {
+    "username": "dercrafter-168",
+    "email": "mike@der-crafter.de"
+  },
+  "record": {
+    "CNAME": "dercrafter-168.github.io"
+  }
+}

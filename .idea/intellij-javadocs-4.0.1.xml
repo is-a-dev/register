@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaDocConfiguration">
+    <GENERAL>
+      <MODE>UPDATE</MODE>
+      <OVERRIDDEN_METHODS>false</OVERRIDDEN_METHODS>
+      <SPLITTED_CLASS_NAME>true</SPLITTED_CLASS_NAME>
+      <LEVELS>
+        <LEVEL>METHOD</LEVEL>
+        <LEVEL>FIELD</LEVEL>
+        <LEVEL>TYPE</LEVEL>
+      </LEVELS>
+      <VISIBILITIES>
+        <VISIBILITY>DEFAULT</VISIBILITY>
+        <VISIBILITY>PUBLIC</VISIBILITY>
+        <VISIBILITY>PROTECTED</VISIBILITY>
+      </VISIBILITIES>
+    </GENERAL>
+    <TEMPLATES>
+      <CLASSES>
+        <CLASS>
+          <KEY>^.*(public|protected|private)*.+interface\s+\w+.*</KEY>
+          <VALUE>/**\n
+ * The interface ${name}.\n
+&lt;#if element.typeParameters?has_content&gt;        * \n
+&lt;/#if&gt;
+&lt;#list element.typeParameters as typeParameter&gt;
+        * @param &lt;${typeParameter.name}&gt; the type parameter\n
+&lt;/#list&gt;
+ */</VALUE>
+        </CLASS>
+        <CLASS>
+          <KEY>^.*(public|protected|private)*.+enum\s+\w+.*</KEY>
+          <VALUE>/**\n
+ * The enum ${name}.\n
+ */</VALUE>
+        </CLASS>
+        <CLASS>
+          <KEY>^.*(public|protected|private)*.+class\s+\w+.*</KEY>
+          <VALUE>/**\n
+ * The type ${name}.\n
+&lt;#if element.typeParameters?has_content&gt;        * \n
+&lt;/#if&gt;
+&lt;#list element.typeParameters as typeParameter&gt;
+        * @param &lt;${typeParameter.name}&gt; the type parameter\n
+&lt;/#list&gt;
+ */</VALUE>
+        </CLASS>
+        <CLASS>
+          <KEY>.+</KEY>
+          <VALUE>/**\n
+ * The type ${name}.\n
+ */</VALUE>
+        </CLASS>
+      </CLASSES>
+      <CONSTRUCTORS>
+        <CONSTRUCTOR>
+          <KEY>.+</KEY>
+          <VALUE>/**\n
+ * Instantiates a new ${name}.\n
+&lt;#if element.parameterList.parameters?has_content&gt;
+         *\n
+&lt;/#if&gt;
+&lt;#list element.parameterList.parameters as parameter&gt;
+         * @param ${parameter.name} the ${paramNames[parameter.name]}\n
+&lt;/#list&gt;
+&lt;#if element.throwsList.referenceElements?has_content&gt;
+         *\n
+&lt;/#if&gt;
+&lt;#list element.throwsList.referenceElements as exception&gt;
+         * @throws ${exception.referenceName} the ${exceptionNames[exception.referenceName]}\n
+&lt;/#list&gt;
+ */</VALUE>
+        </CONSTRUCTOR>
+      </CONSTRUCTORS>
+      <METHODS>
+        <METHOD>
+          <KEY>^.*(public|protected|private)*\s*.*(\w(\s*&lt;.+&gt;)*)+\s+get\w+\s*\(.*\).+</KEY>
+          <VALUE>/**\n
+ * Gets ${partName}.\n
+&lt;#if element.typeParameters?has_content&gt;         * \n
+&lt;/#if&gt;
+&lt;#list element.typeParameters as typeParameter&gt;
+         * @param &lt;${typeParameter.name}&gt; the type parameter\n
+&lt;/#list&gt;
+&lt;#if element.parameterList.parameters?has_content&gt;
+         *\n
+&lt;/#if&gt;
+&lt;#list element.parameterList.parameters as parameter&gt;
+         * @param ${parameter.name} the ${paramNames[parameter.name]}\n
+&lt;/#list&gt;
+&lt;#if isNotVoid&gt;
+         *\n
+         * @return the ${partName}\n
+&lt;/#if&gt;
+&lt;#if element.throwsList.referenceElements?has_content&gt;
+         *\n
+&lt;/#if&gt;
+&lt;#list element.throwsList.referenceElements as exception&gt;
+         * @throws ${exception.referenceName} the ${exceptionNames[exception.referenceName]}\n
+&lt;/#list&gt;
+ */</VALUE>
+        </METHOD>
+        <METHOD>
+          <KEY>^.*(public|protected|private)*\s*.*(void|\w(\s*&lt;.+&gt;)*)+\s+set\w+\s*\(.*\).+</KEY>
+          <VALUE>/**\n
+ * Sets ${partName}.\n
+&lt;#if element.typeParameters?has_content&gt;         * \n
+&lt;/#if&gt;
+&lt;#list element.typeParameters as typeParameter&gt;
+         * @param &lt;${typeParameter.name}&gt; the type parameter\n
+&lt;/#list&gt;
+&lt;#if element.parameterList.parameters?has_content&gt;
+         *\n
+&lt;/#if&gt;
+&lt;#list element.parameterList.parameters as parameter&gt;
+         * @param ${parameter.name} the ${paramNames[parameter.name]}\n
+&lt;/#list&gt;
+&lt;#if isNotVoid&gt;
+         *\n
+         * @return the ${partName}\n
+&lt;/#if&gt;
+&lt;#if element.throwsList.referenceElements?has_content&gt;
+         *\n
+&lt;/#if&gt;
+&lt;#list element.throwsList.referenceElements as exception&gt;
+         * @throws ${exception.referenceName} the ${exceptionNames[exception.referenceName]}\n
+&lt;/#list&gt;
+ */</VALUE>
+        </METHOD>
+        <METHOD>
+          <KEY>^.*((public\s+static)|(static\s+public))\s+void\s+main\s*\(\s*String\s*(\[\s*\]|\.\.\.)\s+\w+\s*\).+</KEY>
+          <VALUE>/**\n
+ * The entry point of application.\n
+
+     &lt;#if element.parameterList.parameters?has_content&gt;
+         *\n
+&lt;/#if&gt;
+     * @param ${element.parameterList.parameters[0].name} the input arguments\n
+&lt;#if element.throwsList.referenceElements?has_content&gt;
+         *\n
+&lt;/#if&gt;
+&lt;#list element.throwsList.referenceElements as exception&gt;
+         * @throws ${exception.referenceName} the ${exceptionNames[exception.referenceName]}\n
+&lt;/#list&gt;
+ */</VALUE>
+        </METHOD>
+        <METHOD>
+          <KEY>.+</KEY>
+          <VALUE>/**\n
+ * ${name}&lt;#if isNotVoid&gt; ${return}&lt;/#if&gt;.\n
+&lt;#if element.typeParameters?has_content&gt;         * \n
+&lt;/#if&gt;
+&lt;#list element.typeParameters as typeParameter&gt;
+         * @param &lt;${typeParameter.name}&gt; the type parameter\n
+&lt;/#list&gt;
+&lt;#if element.parameterList.parameters?has_content&gt;
+         *\n
+&lt;/#if&gt;
+&lt;#list element.parameterList.parameters as parameter&gt;
+         * @param ${parameter.name} the ${paramNames[parameter.name]}\n
+&lt;/#list&gt;
+&lt;#if isNotVoid&gt;
+         *\n
+         * @return the ${return}\n
+&lt;/#if&gt;
+&lt;#if element.throwsList.referenceElements?has_content&gt;
+         *\n
+&lt;/#if&gt;
+&lt;#list element.throwsList.referenceElements as exception&gt;
+         * @throws ${exception.referenceName} the ${exceptionNames[exception.referenceName]}\n
+&lt;/#list&gt;
+ */</VALUE>
+        </METHOD>
+      </METHODS>
+      <FIELDS>
+        <FIELD>
+          <KEY>^.*(public|protected|private)*.+static.*(\w\s\w)+.+</KEY>
+          <VALUE>/**\n
+ * The constant ${element.getName()}.\n
+ */</VALUE>
+        </FIELD>
+        <FIELD>
+          <KEY>^.*(public|protected|private)*.*(\w\s\w)+.+</KEY>
+          <VALUE>/**\n
+    &lt;#if element.parent.isInterface()&gt;
+        * The constant ${element.getName()}.\n
+&lt;#else&gt;
+        * The ${name}.\n
+&lt;/#if&gt; */</VALUE>
+        </FIELD>
+        <FIELD>
+          <KEY>.+</KEY>
+          <VALUE>/**\n
+    &lt;#if element.parent.isEnum()&gt;
+        *${name} ${typeName}.\n
+&lt;#else&gt;
+        * The ${name}.\n
+&lt;/#if&gt;*/</VALUE>
+        </FIELD>
+      </FIELDS>
+    </TEMPLATES>
+  </component>
+</project>
