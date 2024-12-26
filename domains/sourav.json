@@ -1,21 +1,12 @@
 {
   "description": "My Website",
-  "repo": "https://itzsouravkumar.github.io/mywebsite/",
+  "repo": "https://github.com/itzsouravkumar/itzsouravkumar.github.io",
   "owner": {
     "username": "itzsouravkumar",
-    "discord": "itz_sour4v",
+    "email": "",
+    "discord": "itz_sour4v"
   },
-{
-    "$schema": "../schemas/domain.schema.json",
-    "domain": "sourav.is-a.dev",
-    "subdomain": "sourav",
-    "owner": {
-      "repo": "https://github.com/itzsouravkumar/mywebsite.git",
-      "email": "oyesourav05012006@gmail.com"
-    },
-    "record": {
-      "CNAME": "itzsouravkumar.github.io"
-    },
-    "proxy": false
+  "record": {
+    "CNAME": "itzsouravkumar.github.io"
   }
-  
+}
