@@ -1,13 +1,13 @@
 {
     "description": "Documentation website for is-a.dev",
-    "repo": "https://github.com/is-a-dev/docs",
+    "repo": "https://github.com/Aldar0809/school.github.io",
     "owner": {
         "username": "Aldar0809",
         "email": "aldar_san2009@mail.ru"
     },
     "record": {
-        "A": [
-            "185.197.74.104"
+        "CNAME": [
+            "https://aldar0809.github.io/school.github.io/"
         ]
     }
 }
