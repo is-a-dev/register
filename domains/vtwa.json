@@ -1,5 +1,5 @@
 {
-  "description": "redirect. js that",
+  "description": "My base website. Very epik tbh 💥💥",
   "repo": "https://github.com/vintheweirdass/vintheweirdass.github.io",
   "owner": {
     "username": "vintheweirdass",
@@ -7,6 +7,6 @@
     "discord": "vintheweirdass"
   },
   "record": {
-    "URL": "https://vtwa.is-a.dev"
+    "NS": ["christina.ns.cloudflare.com", "mustafa.ns.cloudflare.com"]
   }
 }
