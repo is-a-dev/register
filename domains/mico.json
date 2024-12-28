@@ -3,6 +3,9 @@
     "username": "micoms"
   },
   "record": {
-    "CNAME": "micoo.vercel.app"
+     "NS": [
+        "dante.ns.cloudflare.com",
+        "leah.ns.cloudflare.com"
+    ]
   }
 }
