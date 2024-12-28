@@ -22,24 +22,18 @@ Not all of these will be posted on GitHub, however they will always be posted in
 
 # Register
 ### NS Records
-When applying for NS records, please consider if you *actually* need them.
-In your PR, please provide *extensive* reasoning, with evidence/examples, of why you need NS records.
-You can see a good example of this [here](https://github.com/is-a-dev/register/pull/17592).
+When applying for NS records, please be aware we already support a [wide range of DNS records](https://is-a.dev/docs/faq/#which-records-are-supported), so you may not need them. 
 
-***Pull requests adding NS records without valid reasoning will be closed.***
+In your PR, please provide sufficient reasoning of why you need NS records, to help us mitigate potential abuse. It is helpful to refer to the [FAQ](https://is-a.dev/docs/faq/#who-can-use-ns-records) to see if you will likely be approved for NS records or not. You can see a good example of a request for NS records [here](https://github.com/is-a-dev/register/pull/17592).
 
-**Instant Denials**:
-- I don't want to create a pull request everytime I want to update my DNS records.
-  - Over 3,000 people have to create PRs for updating their records, you can too.
-- It is easier to manage DNS records on *(insert DNS provider name)*.
-   - It isn't too difficult to open a pull request to update your DNS records. We aim for PRs to be merged with-in 24 hours.
-- I want to use DDoS protection.
-   - You can simply add `"proxied": true` to your file, to enable Cloudflare's Enterprise-level DDoS protection for your subdomain.
+***Pull requests adding NS records without sufficient reasoning will be closed.***
+
+> Also see: [Why are you so strict with NS records?](https://is-a.dev/docs/faq/#why-are-you-so-strict-with-ns-records)
 
 > [!NOTE]
-> You can skip these requirements by [supporting the service](https://wdh.gg/pvNCdvs) with a small amount of $2. If you prefer to use GitHub Sponsors, you can sponsor [@wdhdev](https://github.com/sponsors/wdhdev) instead.
+> You may bypass these requirements by [donating](https://wdh.gg/pvNCdvs) a small amount of $2 (you can also donate via [GitHub Sponsors](https://wdh.gg/sponsor)).
 >
-> If you decide to donate, please email william@is-a.dev with your payment confirmation and your pull request link to receive your NS records.
+> If you decide to donate, please email william@is-a.dev (or send a message on Discord to `@williamharrison`) with your payment confirmation and your pull request link to have your PR approved.
 
 ## Manual Registration
 > If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
@@ -54,10 +48,8 @@ You can see a good example of this [here](https://github.com/is-a-dev/register/p
 ## Automated Registration
 ***Returning soon.*** Join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for updates.
 
-# Issues
-If you have any problems, feel free to [open an issue](https://github.com/is-a-dev/register/issues/new/choose).
-
-If you have an issue that contains confidental infomation, send an email to security@is-a.dev.
+## Report Abuse
+If you find any subdomains being abused, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with the relevant evidence.
 
 ---
 
