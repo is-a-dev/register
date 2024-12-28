@@ -37,7 +37,7 @@ You can see a good example of this [here](https://github.com/is-a-dev/register/p
    - You can simply add `"proxied": true` to your file, to enable Cloudflare's Enterprise-level DDoS protection for your subdomain.
 
 > [!NOTE]
-> You can skip these requirements by [supporting the service](https://wdh.gg/pvNCdvs) with a small amount of $2.
+> You can skip these requirements by [supporting the service](https://wdh.gg/pvNCdvs) with a small amount of $2. If you prefer to use GitHub Sponsors, you can sponsor [@wdhdev](https://github.com/sponsors/wdhdev) instead.
 >
 > If you decide to donate, please email william@is-a.dev with your payment confirmation and your pull request link to receive your NS records.
 
