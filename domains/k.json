@@ -4,6 +4,6 @@
     "discord": "716134528409665586"
   },
   "record": {
-    "CNAME": "maskduck.pages.dev"
+    "NS": ["ada.ns.cloudflare.com", "albert.ns.cloudflare.com"]
   }
 }
