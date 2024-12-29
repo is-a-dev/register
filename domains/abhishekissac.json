@@ -1,0 +1,11 @@
+{
+  "domain": "abhishekissac.is-a.dev",
+  "subdomain": "abhishekissac",
+  "owner": {
+    "email": "abhishekissac0@gmail.com"
+  },
+  "record": {
+    "CNAME": "abhishek-issac.github.io"
+  },
+  "proxied": false
+}
