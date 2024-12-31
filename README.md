@@ -42,16 +42,16 @@ In your PR, please provide sufficient reasoning of why you need NS records, to h
 > Also see: [Why are you so strict with NS records?](https://is-a.dev/docs/faq/#why-are-you-so-strict-with-ns-records)
 
 > [!NOTE]
-> You may bypass these requirements by [donating](https://wdh.gg/pvNCdvs) a small amount of $2 (you can also donate via [GitHub Sponsors](https://wdh.gg/sponsor)).
+> You may bypass these requirements by [donating](https://wdh.gg/pvNCdvs) a small amount of $2 (you can also donate via [GitHub Sponsors](https://wdh.gg/sponsor)). You also get a special role in our [Discord server](https://discord.gg/is-a-dev-830872854677422150)!
 >
-> If you decide to donate, please email william@is-a.dev (or send a message on Discord to `@williamharrison`) with your payment confirmation and your pull request link to have your PR approved.
+> If you decide to donate, please email william@is-a.dev (or DM `@williamharrison` on Discord) with your payment receipt and your pull request link.
 
 ## Report Abuse
 If you find any subdomains being abused, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with the relevant evidence.
 
 ---
 
-We are proud to announce that we are fully supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) sponsorship program. We would not be able to operate without their help! 💖
+We are proud to announce that we are supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) sponsorship program. We would not be able to operate without their help! 💖
 
 <a href="https://www.cloudflare.com">
    <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="96">
