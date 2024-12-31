@@ -4,6 +4,6 @@
         "email": "ramanand@myyahoo.com"
     },
     "record": {
-        "TXT": "c3b5352a8f161a88f0ad9ee64330e9"
+        "NS": ["aron.ns.cloudflare.com", "decker.ns.cloudflare.com"]
     }
 }
