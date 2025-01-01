@@ -6,6 +6,6 @@
     "email": "me@yxawj.aleeas.com"
   },
   "record": {
-    "CNAME": "jwaxy.github.io"
+    "NS": ["isabel.ns.cloudflare.com", "kolton.ns.cloudflare.com"]
   }
 }
