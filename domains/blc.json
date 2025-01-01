@@ -6,5 +6,26 @@
   },
   "record": {
     "CNAME": "blcpage.github.io"
+    
   }
+  {
+  "record": {
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  }
+  {
+  "record": {
+    "NS": [
+      "ns1.infinityfree.com",
+      "ns2.infinityfree.com"
+    ]
+{
+  "record": {
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+  }
+}
+}
+  
 }
