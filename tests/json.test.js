@@ -8,8 +8,7 @@ const requiredFields = {
 };
 
 const optionalFields = {
-    proxied: "boolean",
-    reserved: "boolean"
+    proxied: "boolean"
 };
 
 const requiredOwnerFields = {
@@ -79,10 +78,8 @@ t("All files should have the required fields", (t) => {
         // Validate owner object fields
         validateRequiredFields(t, data.owner, requiredOwnerFields, file);
 
-        // Ensure 'record' field is not empty unless reserved
-        if (!data.reserved) {
-            t.true(Object.keys(data.record).length > 0, `${file}: No record types found`);
-        }
+        // Ensure 'record' field is not empty
+        t.true(Object.keys(data.record).length > 0, `${file}: Missing DNS records`);
     });
 });
 
