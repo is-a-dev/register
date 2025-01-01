@@ -1,0 +1,11 @@
+{
+    "description": "LIGMATV's URL Manager (aka 2)",
+    "repo": "https://github.com/LIGMATV/links",
+    "owner": {
+        "username": "LIGMATV",
+        "email": "ligmatv.id@gmail.com"
+    },
+    "record": {
+        "CNAME": "ligmatv.github.io"
+    }
+} 
