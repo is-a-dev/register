@@ -1,11 +1,10 @@
 {
+  "owner": {
+    "username": "0xacrhit",
+    "mail": "0xarchit@proton.me"
+  },
   "record": {
-    "NS": [
-      "brenna.ns.cloudflare.com",
-      "cartman.ns.cloudflare.com",
-    ]
-    "CNAME": [
-      "0xarchit.pages.dev"
-    ]
+    "NS": "cartman.ns.cloudflare.com", "cartman.ns.cloudflare.com",
+    "CNAME": "0xarchit.pages.dev"
   }
 }
