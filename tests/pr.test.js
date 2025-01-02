@@ -21,10 +21,9 @@ async function getFileContent(basePath, fileName) {
 }
 
 t("Modified JSON files must be owned by the PR author", async (t) => {
-    if (EVENT !== "pull_request") {
-        t.pass();
-        return;
-    }
+    if (EVENT !== "pull_request") return t.pass();
+
+    console.log("Modified files", MODIFIED_FILES);
 
     await Promise.all(
         MODIFIED_FILES.map(async (file) => {
@@ -50,12 +49,9 @@ t("Modified JSON files must be owned by the PR author", async (t) => {
 t("New JSON files must be owned by the PR author", async (t) => {
     if (EVENT !== "pull_request") return t.pass();
 
-    const domainsFiles = await fs.readdir(domainsPath);
     const headDomainsFiles = await fs.readdir(headDomainsPath);
 
-    const newFiles = domainsFiles.filter(
-        (file) => !headDomainsFiles.includes(file.substring(file.lastIndexOf("/") + 1))
-    );
+    const newFiles = MODIFIED_FILES.filter((file) => !headDomainsFiles.includes(file));
 
     console.log("New files", newFiles);
 
