@@ -59,7 +59,7 @@ t("New JSON files must be owned by the PR author", async (t) => {
         if (!domain) return t.fail(`${file}: Unable to read domain data`);
 
         t.true(
-            domain.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
+            domain.owner.username.toLowerCase() === PR_AUTHOR.toLowerCase() || admins.includes(PR_AUTHOR),
             `${file}: Domain owner is ${domain.owner.username} but ${PR_AUTHOR} is the PR author`
         );
     });
