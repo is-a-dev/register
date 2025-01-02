@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const PR_AUTHOR = process.env.PR_AUTHOR;
-const MODIFIED_FILES = (process.env.MODIFIED_FILES || "").split(" ");
+const MODIFIED_FILES = (process.env.MODIFIED_FILES || "").split(" ").map(file => file.replace(/^domains\//, ""));
 const EVENT = process.env.EVENT;
 const RUN_ID = process.env.RUN_ID;
 
@@ -23,13 +23,10 @@ async function getFileContent(basePath, fileName) {
 t("Modified JSON files must be owned by the PR author", async (t) => {
     if (EVENT !== "pull_request") return t.pass();
 
-    console.log("Modified files", MODIFIED_FILES);
-
     await Promise.all(
         MODIFIED_FILES.map(async (file) => {
-            const fileName = file.substring(file.lastIndexOf("/") + 1);
-            const modifiedDomain = await getFileContent(domainsPath, fileName);
-            const currentDomain = (await getFileContent(headDomainsPath, fileName)) || modifiedDomain;
+            const modifiedDomain = await getFileContent(domainsPath, file);
+            const currentDomain = (await getFileContent(headDomainsPath, file)) || modifiedDomain;
 
             if (!modifiedDomain || !currentDomain) {
                 t.fail(`${file}: Unable to read domain data`);
@@ -51,14 +48,13 @@ t("New JSON files must be owned by the PR author", async (t) => {
 
     const headDomainsFiles = fs.readdirSync(headDomainsPath);
     
-    // get list of all files that are in the base dir but not in the head dir
     const newFiles = headDomainsFiles.filter((file) => !fs.existsSync(path.join(domainsPath, file)));
 
     console.log("New files", newFiles);
 
     await Promise.all(
         newFiles.map(async (file) => {
-            const domain = await getFileContent(domainsPath, file.substring(file.lastIndexOf("/") + 1));
+            const domain = await getFileContent(domainsPath, file);
 
             if (!domain) {
                 t.fail(`${file}: Unable to read domain data`);
