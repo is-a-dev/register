@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const PR_AUTHOR = process.env.PR_AUTHOR;
-const MODIFIED_FILES = (process.env.MODIFIED_FILES || "").split(" ").map(file => file.replace(/^domains\//, ""));
+const MODIFIED_FILES = (process.env.MODIFIED_FILES || "").split(" ").map((file) => file.replace(/^domains\//, ""));
 const EVENT = process.env.EVENT;
 const RUN_ID = process.env.RUN_ID;
 
@@ -47,8 +47,10 @@ t("New JSON files must be owned by the PR author", async (t) => {
     if (EVENT !== "pull_request") return t.pass();
 
     const headDomainsFiles = fs.readdirSync(headDomainsPath);
-    
+
     const newFiles = domainsPath.filter((file) => !fs.existsSync(path.join(headDomainsFiles, file)));
+
+    console.log(newFiles);
 
     await Promise.all(
         newFiles.map(async (file) => {
