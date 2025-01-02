@@ -3,51 +3,74 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const PR_AUTHOR = process.env.PR_AUTHOR;
-const MODIFIED_FILES = process.env.MODIFIED_FILES.split(" ");
+const MODIFIED_FILES = (process.env.MODIFIED_FILES || "").split(" ");
+const EVENT = process.env.EVENT;
+const RUN_ID = process.env.RUN_ID;
 
 const domainsPath = path.resolve("domains");
-const headDomainsPath = path.resolve(`register-${process.env.RUN_ID}/domains`);
+const headDomainsPath = path.resolve(`register-${RUN_ID}/domains`);
 
 const admins = require("../util/administrators.json");
 
-t("Modified JSON files must be owned by the PR author", (t) => {
-    if(process.env.EVENT !== "pull_request") {
+async function getFileContent(basePath, fileName) {
+    try {
+        return await fs.readJson(path.join(basePath, fileName));
+    } catch (err) {
+        return null;
+    }
+}
+
+t("Modified JSON files must be owned by the PR author", async (t) => {
+    if (EVENT !== "pull_request") {
         t.pass();
         return;
     }
 
-    MODIFIED_FILES.forEach((file) => {
-        const modifiedDomain = fs.readJsonSync(path.join(domainsPath, file.substring(file.lastIndexOf("/") + 1)));
-        let currentDomain = null;
+    await Promise.all(
+        MODIFIED_FILES.map(async (file) => {
+            const fileName = file.substring(file.lastIndexOf("/") + 1);
+            const modifiedDomain = await getFileContent(domainsPath, fileName);
+            const currentDomain = (await getFileContent(headDomainsPath, fileName)) || modifiedDomain;
 
-        try {
-            currentDomain = fs.readJsonSync(path.join(headDomainsPath, file.substring(file.lastIndexOf("/") + 1)));
-        } catch {
-            currentDomain = modifiedDomain;
-        }
+            if (!modifiedDomain || !currentDomain) {
+                t.fail(`${file}: Unable to read domain data`);
+                return;
+            }
 
-        t.true(
-            currentDomain.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
-            `${file}: Domain owner is ${domain.owner.username} but ${PR_AUTHOR} is the PR author`
-        );
-    });
+            t.true(
+                currentDomain.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
+                `${file}: Domain owner is ${currentDomain.owner.username} but ${PR_AUTHOR} is the PR author`
+            );
+        })
+    );
 });
 
-
-t("New JSON files must be owned by the PR author", (t) => {
-    if(process.env.EVENT !== "pull_request") {
+t("New JSON files must be owned by the PR author", async (t) => {
+    if (EVENT !== "pull_request") {
         t.pass();
         return;
     }
 
-    const newFiles = fs.readdirSync(domainsPath).filter((file) => !fs.readdirSync(headDomainsPath).includes(file.substring(file.lastIndexOf("/") + 1)));
+    const domainsFiles = await fs.readdir(domainsPath);
+    const headDomainsFiles = await fs.readdir(headDomainsPath).catch(() => []);
 
-    newFiles.forEach((file) => {
-        const domain = fs.readJsonSync(path.join(domainsPath, file.substring(file.lastIndexOf("/") + 1)));
+    const newFiles = domainsFiles.filter(
+        (file) => !headDomainsFiles.includes(file.substring(file.lastIndexOf("/") + 1))
+    );
 
-        t.true(
-            domain.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
-            `${file}: Domain owner is ${domain.owner.username} but ${PR_AUTHOR} is the PR author`
-        );
-    });
-})
+    await Promise.all(
+        newFiles.map(async (file) => {
+            const domain = await getFileContent(domainsPath, file);
+
+            if (!domain) {
+                t.fail(`${file}: Unable to read domain data`);
+                return;
+            }
+
+            t.true(
+                domain.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
+                `${file}: Domain owner is ${domain.owner.username} but ${PR_AUTHOR} is the PR author`
+            );
+        })
+    );
+});
