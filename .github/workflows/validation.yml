@@ -41,7 +41,9 @@ jobs:
             - name: Get modified files
               if: github.event_name == 'pull_request'
               id: files
-              run: echo "changed_files=$(git diff --name-only -r HEAD^1 HEAD | xargs)" >> $GITHUB_OUTPUT
+              run: |
+                  echo "changed_files=$(git diff --name-only -r HEAD^1 HEAD | xargs)" >> $GITHUB_OUTPUT
+                  echo $changed_files
 
             - run: npm test
               env:
