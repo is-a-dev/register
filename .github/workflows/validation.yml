@@ -35,18 +35,11 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
-              with:
-                  path: ${{ github.run_id }}
 
             - uses: actions/checkout@v4
               with:
                   repository: is-a-dev/register
-                  path: ../register
-
-            - run: |
-                ls
-                ls ../
-                ls ../
+                  path: register-${{ github.run_id }}
 
             - run: npm install
 
@@ -57,9 +50,8 @@ jobs:
               with:
                   files: domains/*.json
 
-            - run: cd ..
-
-            - run: npx ava register/tests/*.test.js
+            - name: Run tests
+              run: npx ava tests/*.test.js
               env:
                   EVENT: ${{ github.event_name }}
                   RUN_ID: ${{ github.run_id }}
