@@ -36,6 +36,15 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
+            - name: Get Modified JSON Files
+              id: modified_files
+              run: |
+                  MODIFIED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^domains/.*\.json$' | sed 's|.*/||' | tr '\n' ',' | sed 's|,$||')
+                  echo "MODIFIED_FILES=${MODIFIED_FILES}" >> $GITHUB_ENV
+
             - run: npm install
 
             - run: npm test
+              env:
+                  PULL_REQUEST: ${{ github.event.pull_request.number || false }} # false if not a PR
+                  MODIFIED_FILES: ${{ env.MODIFIED_FILES }}
