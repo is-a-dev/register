@@ -50,12 +50,9 @@ t("New JSON files must be owned by the PR author", async (t) => {
     if (EVENT !== "pull_request") return t.pass();
 
     const headDomainsFiles = fs.readdirSync(headDomainsPath);
-
-    console.log("Head files", headDomainsFiles.filter((file) => MODIFIED_FILES.includes(`domains/${file}`)));
-
-    console.log("Modified files", MODIFIED_FILES.map((file) => file.substring(file.lastIndexOf("/") + 1)));
-
-    const newFiles = MODIFIED_FILES.map((file) => !headDomainsFiles.includes(file.substring(file.lastIndexOf("/") + 1)));
+    
+    // get list of all files that are in the base dir but not in the head dir
+    const newFiles = headDomainsFiles.filter((file) => !fs.existsSync(path.join(domainsPath, file)));
 
     console.log("New files", newFiles);
 
