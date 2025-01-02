@@ -9,8 +9,8 @@ for (let i = 0; i < MODIFIED_FILES.length; i++) {
     MODIFIED_FILES[i] = MODIFIED_FILES[i].substring(MODIFIED_FILES[i].lastIndexOf("/") + 1);
 }
 
-const domainsPath = path.resolve("domains");
-const headDomainsPath = path.resolve("../register/domains");
+const domainsPath = path.resolve(`${process.env.RUN_ID}/domains`);
+const headDomainsPath = path.resolve("register/domains");
 
 const admins = require("../util/administrators.json");
 
