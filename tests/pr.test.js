@@ -51,13 +51,13 @@ t("New JSON files must be owned by the PR author", async (t) => {
 
     const headDomainsFiles = await fs.readdir(headDomainsPath);
 
-    const newFiles = MODIFIED_FILES.filter((file) => !headDomainsFiles.includes(file));
+    const newFiles = MODIFIED_FILES.filter((file) => !headDomainsFiles.includes(file.substring(file.lastIndexOf("/") + 1)));
 
     console.log("New files", newFiles);
 
     await Promise.all(
         newFiles.map(async (file) => {
-            const domain = await getFileContent(domainsPath, file);
+            const domain = await getFileContent(domainsPath, file.substring(file.lastIndexOf("/") + 1));
 
             if (!domain) {
                 t.fail(`${file}: Unable to read domain data`);
