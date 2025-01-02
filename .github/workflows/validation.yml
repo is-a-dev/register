@@ -41,6 +41,9 @@ jobs:
                   repository: is-a-dev/register
                   path: register-${{ github.run_id }}
 
+            - run: ls domain -1 | wc -l
+            - run: ls register-${{ github.run_id }}/domains -1 | wc -l
+
             - run: npm install
 
             - name: Get all modified domain JSON files
