@@ -51,11 +51,11 @@ t("New JSON files must be owned by the PR author", async (t) => {
 
     const headDomainsFiles = fs.readdirSync(headDomainsPath);
 
-    console.log("Head files", headDomainsFiles.filter((file) => MODIFIED_FILES.includes(file.substring(file.lastIndexOf("/") + 1))));
+    console.log("Head files", headDomainsFiles.filter((file) => MODIFIED_FILES.includes(`domains/${file}`)));
 
     console.log("Modified files", MODIFIED_FILES.map((file) => file.substring(file.lastIndexOf("/") + 1)));
 
-    const newFiles = MODIFIED_FILES.filter((file) => !headDomainsFiles.includes(file.substring(file.lastIndexOf("/") + 1)));
+    const newFiles = MODIFIED_FILES.map((file) => !headDomainsFiles.includes(file.substring(file.lastIndexOf("/") + 1)));
 
     console.log("New files", newFiles);
 
