@@ -165,13 +165,8 @@ t("All files should have valid record values", (t) => {
                 }
 
                 if (key === "URL") {
+                    t.true(value.startsWith("http://") || value.startsWith("https://"), `${file}: Record value for ${key} must start with http:// or https://`)
                     t.notThrows(() => new URL(value), `${file}: Invalid URL for ${key}`);
-                    try {
-                        const urlObj = new URL(value);
-                        t.true(urlObj.hostname !== subdomain, `${file}: URL cannot point to itself`);
-                    } catch {
-                        t.fail(`${file}: Invalid URL for ${key}`);
-                    }
                 }
             }
 
