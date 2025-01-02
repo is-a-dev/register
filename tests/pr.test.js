@@ -3,11 +3,11 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const PR_AUTHOR = process.env.PR_AUTHOR.toLowerCase();
-const MODIFIED_FILES = (process.env.MODIFIED_FILES || "").split(" ").map((file) => file.replace(/^domains\//, ""));
+const MODIFIED_DOMAIN_FILES = (process.env.MODIFIED_FILES || "").split(" ").map((file) => file.replace(/^domains\//, ""));
 const EVENT = process.env.EVENT;
 const RUN_ID = process.env.RUN_ID;
 
-console.log(process.env.MODIFIED_FILES, MODIFIED_FILES || "")
+console.log(process.env.MODIFIED_FILES.length)
 
 const domainsPath = path.resolve("domains");
 const headDomainsPath = path.resolve(`register-${RUN_ID}/domains`);
@@ -25,7 +25,7 @@ async function getJSONContent(basePath, fileName) {
 t("Modified JSON files must be owned by the PR author", async (t) => {
     if (EVENT !== "pull_request") return t.pass();
 
-    const checks = MODIFIED_FILES.map(async (file) => {
+    const checks = MODIFIED_DOMAIN_FILES.map(async (file) => {
         const [modifiedDomain, currentDomain] = await Promise.all([
             getJSONContent(domainsPath, file),
             getJSONContent(headDomainsPath, file)
