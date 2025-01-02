@@ -43,8 +43,10 @@ jobs:
                   repository: is-a-dev/register
                   path: ../register
 
-            - run: ls
-            - run: ls ../
+            - run: |
+                ls
+                ls ../
+                ls ../
 
             - run: npm install
 
