@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Hash-Cracker"
-        "email": "tspamiitesh@gmail.com"
-    },
-    "record": {
-        "CNAME": "Hash-Cracker.github.io"
-    }
-} 
+  "description": "A portfolio website",
+  "repo": "https://github.com/hash-cracker/hash-cracker.github.io",
+  "owner": {
+    "username": "hash-cracker",
+    "email": "tspamiitesh@gmail.com",
+  },
+  "record": {
+    "CNAME": "hash-cracker.github.io"
+  }
+}
