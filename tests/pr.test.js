@@ -12,10 +12,10 @@ const headDomainsPath = path.resolve(`register-${RUN_ID}/domains`);
 
 const admins = require("../util/administrators.json");
 
-async function getFileContent(basePath, fileName) {
+async function getJSONContent(basePath, fileName) {
     try {
         return await fs.readJson(path.join(basePath, fileName));
-    } catch (err) {
+    } catch {
         return null;
     }
 }
@@ -23,50 +23,47 @@ async function getFileContent(basePath, fileName) {
 t("Modified JSON files must be owned by the PR author", async (t) => {
     if (EVENT !== "pull_request") return t.pass();
 
-    await Promise.all(
-        MODIFIED_FILES.map(async (file) => {
-            const modifiedDomain = await getFileContent(domainsPath, file);
-            const currentDomain = (await getFileContent(headDomainsPath, file)) || modifiedDomain;
+    const checks = MODIFIED_FILES.map(async (file) => {
+        const [modifiedDomain, currentDomain] = await Promise.all([
+            getJSONContent(domainsPath, file),
+            getJSONContent(headDomainsPath, file)
+        ]);
 
-            if (!modifiedDomain || !currentDomain) {
-                t.fail(`${file}: Unable to read domain data`);
-                return;
-            }
+        const domainToCheck = currentDomain || modifiedDomain;
 
-            t.true(
-                currentDomain.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
-                `${file}: Domain owner is ${currentDomain.owner.username} but ${PR_AUTHOR} is the PR author`
-            );
-        })
-    );
+        if (!modifiedDomain || !domainToCheck) {
+            t.fail(`${file}: Unable to read domain data`);
+            return;
+        }
 
+        t.true(
+            domainToCheck.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
+            `${file}: Domain owner is ${domainToCheck.owner.username} but ${PR_AUTHOR} is the PR author`
+        );
+    });
+
+    await Promise.all(checks);
     t.pass();
 });
 
 t("New JSON files must be owned by the PR author", async (t) => {
     if (EVENT !== "pull_request") return t.pass();
 
-    const headDomainsFiles = fs.readdirSync(headDomainsPath);
+    const [newFiles, currentFiles] = await Promise.all([fs.readdir(domainsPath), fs.readdir(headDomainsPath)]);
 
-    const newFiles = domainsPath.filter((file) => !fs.existsSync(path.join(headDomainsFiles, file)));
+    const newDomainFiles = newFiles.filter((file) => !currentFiles.includes(file));
 
-    console.log(newFiles);
+    const checks = newDomainFiles.map(async (file) => {
+        const domain = await getJSONContent(domainsPath, file);
 
-    await Promise.all(
-        newFiles.map(async (file) => {
-            const domain = await getFileContent(domainsPath, file);
+        if (!domain) return t.fail(`${file}: Unable to read domain data`);
 
-            if (!domain) {
-                t.fail(`${file}: Unable to read domain data`);
-                return;
-            }
+        t.true(
+            domain.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
+            `${file}: Domain owner is ${domain.owner.username} but ${PR_AUTHOR} is the PR author`
+        );
+    });
 
-            t.true(
-                domain.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
-                `${file}: Domain owner is ${domain.owner.username} but ${PR_AUTHOR} is the PR author`
-            );
-        })
-    );
-
+    await Promise.all(checks);
     t.pass();
 });
