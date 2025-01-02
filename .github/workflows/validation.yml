@@ -43,7 +43,7 @@ jobs:
                   repository: is-a-dev/register
                   path: ../register
 
-            - run: cd ${{ github.run_id }}
+            - run: ls
 
             - run: npm install
 
