@@ -7,7 +7,7 @@ const MODIFIED_FILES = (process.env.MODIFIED_FILES || "").split(" ").map((file) 
 const EVENT = process.env.EVENT;
 const RUN_ID = process.env.RUN_ID;
 
-console.log(MODIFIED_FILES)
+console.log(process.env.MODIFIED_FILES, MODIFIED_FILES)
 
 const domainsPath = path.resolve("domains");
 const headDomainsPath = path.resolve(`register-${RUN_ID}/domains`);
