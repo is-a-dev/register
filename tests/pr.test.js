@@ -48,9 +48,7 @@ t("New JSON files must be owned by the PR author", async (t) => {
 
     const headDomainsFiles = fs.readdirSync(headDomainsPath);
     
-    const newFiles = headDomainsFiles.filter((file) => !fs.existsSync(path.join(domainsPath, file)));
-
-    console.log("New files", newFiles);
+    const newFiles = domainsPath.filter((file) => !fs.existsSync(path.join(headDomainsFiles, file)));
 
     await Promise.all(
         newFiles.map(async (file) => {
