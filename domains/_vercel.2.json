@@ -5,6 +5,6 @@
         "email": "ligmatv.id@gmail.com"
     },
     "record": {
-        "CNAME": "ligmatv-links.vercel.app"
+        "TXT": ["vc-domain-verify=2.is-a.dev,ea014a1b9a6ec8986aa0"]
     }
 } 
