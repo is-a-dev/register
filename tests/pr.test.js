@@ -10,7 +10,7 @@ const RUN_ID = process.env.RUN_ID;
 const domainsPath = path.resolve("domains");
 const headDomainsPath = path.resolve(`register-${RUN_ID}/domains`);
 
-const admins = require("../util/administrators.json");
+const admins = require("../util/administrators.json").map(admin => admin.toLowerCase());
 
 async function getJSONContent(basePath, fileName) {
     try {
