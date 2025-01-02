@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const PR_AUTHOR = process.env.PR_AUTHOR;
-const MODIFIED_FILES = process.env.MODIFIED_FILES.split(",");
+const MODIFIED_FILES = process.env.MODIFIED_FILES.split("\n");
 
 const domainsPath = path.resolve("domains");
 
