@@ -49,7 +49,9 @@ t("Modified JSON files must be owned by the PR author", async (t) => {
 t("New JSON files must be owned by the PR author", async (t) => {
     if (EVENT !== "pull_request") return t.pass();
 
-    const headDomainsFiles = await fs.readdir(headDomainsPath);
+    const headDomainsFiles = fs.readdirSync(headDomainsPath);
+
+    console.log("Head files", headDomainsFiles);
 
     const newFiles = MODIFIED_FILES.filter((file) => !headDomainsFiles.includes(file.substring(file.lastIndexOf("/") + 1)));
 
