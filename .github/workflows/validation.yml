@@ -36,10 +36,8 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - run: git clone https://github.com/is-a-dev/register.git register-${{ github.run_id }}
-
-            - run: ls domains -1 | wc -l
-            - run: ls register-${{ github.run_id }}/domains -1 | wc -l
+            - name: Clone is-a-dev/register
+              run: git clone https://github.com/is-a-dev/register.git register-${{ github.run_id }}
 
             - run: npm install
 
