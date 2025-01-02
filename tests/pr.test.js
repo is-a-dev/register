@@ -2,7 +2,7 @@ const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
 
-const PR_AUTHOR = process.env.PR_AUTHOR;
+const PR_AUTHOR = process.env.PR_AUTHOR.toLowerCase();
 const MODIFIED_FILES = (process.env.MODIFIED_FILES || "").split(" ").map((file) => file.replace(/^domains\//, ""));
 const EVENT = process.env.EVENT;
 const RUN_ID = process.env.RUN_ID;
