@@ -35,6 +35,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
+              with:
+                  path: ${{ github.run_id }}
+
+            - uses: actions/checkout@v4
+              with:
+                  repository: is-a-dev/register
+                  path: register
 
             - run: npm install
 
@@ -44,15 +51,6 @@ jobs:
               uses: tj-actions/changed-files@v45
               with:
                   files: domains/*.json
-
-            - name: testing
-              run: |
-                ls
-                ls ../
-                echo ${{ steps.changed-files.outputs.all_changed_files }}
-                for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-                    cat $file
-                done
 
             - run: npm test
               env:
