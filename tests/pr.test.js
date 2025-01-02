@@ -17,11 +17,11 @@ t("Modified JSON files must be owned by the PR author", (t) => {
     }
 
     MODIFIED_FILES.forEach((file) => {
-        const modifiedDomain = fs.readJsonSync(path.join(domainsPath, file.substring(MODIFIED_FILES[i].lastIndexOf("/") + 1)));
+        const modifiedDomain = fs.readJsonSync(path.join(domainsPath, file.substring(file.lastIndexOf("/") + 1)));
         let currentDomain = null;
 
         try {
-            currentDomain = fs.readJsonSync(path.join(headDomainsPath, file.substring(MODIFIED_FILES[i].lastIndexOf("/") + 1)));
+            currentDomain = fs.readJsonSync(path.join(headDomainsPath, file.substring(file.lastIndexOf("/") + 1)));
         } catch {
             currentDomain = modifiedDomain;
         }
@@ -40,10 +40,10 @@ t("New JSON files must be owned by the PR author", (t) => {
         return;
     }
 
-    const newFiles = fs.readdirSync(domainsPath).filter((file) => !fs.readdirSync(headDomainsPath).includes(file.substring(MODIFIED_FILES[i].lastIndexOf("/") + 1)));
+    const newFiles = fs.readdirSync(domainsPath).filter((file) => !fs.readdirSync(headDomainsPath).includes(file.substring(file.lastIndexOf("/") + 1)));
 
     newFiles.forEach((file) => {
-        const domain = fs.readJsonSync(path.join(domainsPath, file.substring(MODIFIED_FILES[i].lastIndexOf("/") + 1)));
+        const domain = fs.readJsonSync(path.join(domainsPath, file.substring(file.lastIndexOf("/") + 1)));
 
         t.true(
             domain.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
