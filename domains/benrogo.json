@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "BenDaBuilder",
+    "discord": "Ben_Da_Builder",
+    "email": "brogodev@gmail.com"
+  },
+  "record": {
+    "NS": ["eve.ns.cloudflare.com", "john.ns.cloudflare.com"]
+  }
+}
