@@ -39,14 +39,21 @@ jobs:
             - run: npm install
 
             - name: Get modified files
-              if: github.event_name == 'pull_request'
+              
               id: files
               run: |
                   echo "changed_files=$(git diff --name-only HEAD~1 HEAD | xargs)" >> $GITHUB_OUTPUT
                   echo $changed_files
 
+            - name: Get all modified domain JSON files
+              if: github.event_name == 'pull_request'
+              id: changed-files
+              uses: tj-actions/changed-files@v45
+              with:
+                  files: domains/*.json
+
             - run: npm test
               env:
                   EVENT: ${{ github.event_name }}
                   PR_AUTHOR: ${{ github.event.pull_request.user.login }}
-                  MODIFIED_FILES: ${{ steps.files.outputs.changed_files || '' }}
+                  MODIFIED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
