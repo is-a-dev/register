@@ -16,6 +16,7 @@ t("Modified JSON files must be owned by the PR author", (t) => {
     }
 
     MODIFIED_FILES.forEach((file) => {
+        console.log(file)
         const domain = fs.readJsonSync(path.join(domainsPath, file));
 
         t.true(
