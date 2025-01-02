@@ -41,11 +41,10 @@ jobs:
             - name: Get modified files
               if: github.event_name == 'pull_request'
               id: files
-              run: |
-                    echo "::set-output name=files::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})"
+              run: echo "changed_files=$(git diff --name-only -r HEAD^1 HEAD | xargs)" >> $GITHUB_OUTPUT
 
             - run: npm test
               env:
                   EVENT: ${{ github.event_name }}
                   PR_AUTHOR: ${{ github.event.pull_request.user.login }}
-                  MODIFIED_FILES: ${{ steps.files.outputs.files || '' }}
+                  MODIFIED_FILES: ${{ steps.files.outputs.changed_files || '' }}
