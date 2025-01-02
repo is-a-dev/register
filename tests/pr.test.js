@@ -53,8 +53,6 @@ t("New JSON files must be owned by the PR author", async (t) => {
 
     const newDomainFiles = newFiles.filter((file) => !currentFiles.includes(file));
 
-    console.log(newDomainFiles);
-
     const checks = newDomainFiles.map(async (file) => {
         const domain = await getJSONContent(domainsPath, file);
 
