@@ -45,6 +45,15 @@ jobs:
               with:
                   files: domains/*.json
 
+            - name: testing
+              run: |
+                ls
+                ls ../
+                echo ${{ steps.changed-files.outputs.all_changed_files }}
+                for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+                    cat $file
+                done
+
             - run: npm test
               env:
                   EVENT: ${{ github.event_name }}
