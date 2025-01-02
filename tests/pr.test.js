@@ -43,20 +43,21 @@ t("Modified JSON files must be owned by the PR author", async (t) => {
             );
         })
     );
+
+    t.pass();
 });
 
 t("New JSON files must be owned by the PR author", async (t) => {
-    if (EVENT !== "pull_request") {
-        t.pass();
-        return;
-    }
+    if (EVENT !== "pull_request") return t.pass();
 
     const domainsFiles = await fs.readdir(domainsPath);
-    const headDomainsFiles = await fs.readdir(headDomainsPath).catch(() => []);
+    const headDomainsFiles = await fs.readdir(headDomainsPath);
 
     const newFiles = domainsFiles.filter(
         (file) => !headDomainsFiles.includes(file.substring(file.lastIndexOf("/") + 1))
     );
+
+    console.log("New files", newFiles);
 
     await Promise.all(
         newFiles.map(async (file) => {
@@ -73,4 +74,6 @@ t("New JSON files must be owned by the PR author", async (t) => {
             );
         })
     );
+
+    t.pass();
 });
