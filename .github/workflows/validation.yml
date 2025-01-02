@@ -41,7 +41,9 @@ jobs:
             - uses: actions/checkout@v4
               with:
                   repository: is-a-dev/register
-                  path: register
+                  path: ../register
+
+            - run: cd ${{ github.run_id }}
 
             - run: npm install
 
