@@ -37,8 +37,8 @@ t("Modified JSON files must be owned by the PR author", async (t) => {
         }
 
         t.true(
-            domainToCheck.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
-            `${file}: Domain owner is ${domainToCheck.owner.username} but ${PR_AUTHOR} is the PR author`
+            domainToCheck.owner.username.toLowerCase() === PR_AUTHOR || admins.includes(PR_AUTHOR),
+            `${file}: Domain owner is ${domainToCheck.owner.username.toLowerCase()} but ${PR_AUTHOR} is the PR author`
         );
     });
 
@@ -59,8 +59,8 @@ t("New JSON files must be owned by the PR author", async (t) => {
         if (!domain) return t.fail(`${file}: Unable to read domain data`);
 
         t.true(
-            domain.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
-            `${file}: Domain owner is ${domain.owner.username} but ${PR_AUTHOR} is the PR author`
+            domain.owner.username.toLowerCase() === PR_AUTHOR || admins.includes(PR_AUTHOR),
+            `${file}: Domain owner is ${domain.owner.username.toLowerCase()} but ${PR_AUTHOR} is the PR author`
         );
     });
 
