@@ -24,13 +24,13 @@ Not all of these will be posted on GitHub, however they will always be posted in
 ## How to Register
 > If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
 
-- [Fork](https://github.com/is-a-dev/register/fork) and star this repository
+- [Fork](https://github.com/is-a-dev/register/fork) this repository
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`
 - [Read the documentation](https://is-a.dev/docs)
    - If you are applying for NS records please read [this](#ns-records).
 - Your pull request will be reviewed and merged. *Make sure to keep an eye on it incase we need you to make any changes!*
 - After the pull request is merged, please allow up to 24 hours for the changes to propagate
-- Enjoy your new `.is-a.dev` domain!
+- Enjoy your new `.is-a.dev` domain! Please consider leaving us a star ⭐️ to help support us!
 
 ### NS Records
 When applying for NS records, please be aware we already support a [wide range of DNS records](https://is-a.dev/docs/faq/#which-records-are-supported), so you may not need them. 
