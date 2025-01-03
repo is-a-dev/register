@@ -36,22 +36,7 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - name: Clone is-a-dev/register
-              run: git clone https://github.com/is-a-dev/register.git register-${{ github.run_id }}
-
             - run: npm install
-
-            - name: Get all modified domain JSON files
-              if: github.event_name == 'pull_request'
-              id: changed-files
-              uses: tj-actions/changed-files@v45
-              with:
-                  files: domains/*.json
 
             - name: Run tests
               run: npx ava tests/*.test.js
-              env:
-                  EVENT: ${{ github.event_name }}
-                  RUN_ID: ${{ github.run_id }}
-                  PR_AUTHOR: ${{ github.event.pull_request.user.login }}
-                  MODIFIED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
