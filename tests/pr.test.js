@@ -2,15 +2,17 @@ const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
 
-const PR_AUTHOR = process.env.PR_AUTHOR;
-const MODIFIED_FILES = (process.env.MODIFIED_FILES || "").split(" ").map((file) => file.replace(/^domains\//, ""));
+const PR_AUTHOR = process.env.PR_AUTHOR.toLowerCase();
+const MODIFIED_DOMAIN_FILES = (process.env.MODIFIED_FILES || "").length > 0
+    ? (process.env.MODIFIED_FILES || "").split(" ").map((file) => file.replace(/^domains\//, ""))
+    : null;
 const EVENT = process.env.EVENT;
 const RUN_ID = process.env.RUN_ID;
 
 const domainsPath = path.resolve("domains");
 const headDomainsPath = path.resolve(`register-${RUN_ID}/domains`);
 
-const admins = require("../util/administrators.json");
+const admins = require("../util/administrators.json").map(admin => admin.toLowerCase());
 
 async function getJSONContent(basePath, fileName) {
     try {
@@ -22,8 +24,9 @@ async function getJSONContent(basePath, fileName) {
 
 t("Modified JSON files must be owned by the PR author", async (t) => {
     if (EVENT !== "pull_request") return t.pass();
+    if (!MODIFIED_DOMAIN_FILES) return t.pass();
 
-    const checks = MODIFIED_FILES.map(async (file) => {
+    const checks = MODIFIED_DOMAIN_FILES.map(async (file) => {
         const [modifiedDomain, currentDomain] = await Promise.all([
             getJSONContent(domainsPath, file),
             getJSONContent(headDomainsPath, file)
@@ -37,8 +40,8 @@ t("Modified JSON files must be owned by the PR author", async (t) => {
         }
 
         t.true(
-            domainToCheck.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
-            `${file}: Domain owner is ${domainToCheck.owner.username} but ${PR_AUTHOR} is the PR author`
+            domainToCheck.owner.username.toLowerCase() === PR_AUTHOR || admins.includes(PR_AUTHOR),
+            `${file}: Domain owner is ${domainToCheck.owner.username.toLowerCase()} but ${PR_AUTHOR} is the PR author`
         );
     });
 
@@ -48,6 +51,7 @@ t("Modified JSON files must be owned by the PR author", async (t) => {
 
 t("New JSON files must be owned by the PR author", async (t) => {
     if (EVENT !== "pull_request") return t.pass();
+    if (!MODIFIED_DOMAIN_FILES) return t.pass();
 
     const [newFiles, currentFiles] = await Promise.all([fs.readdir(domainsPath), fs.readdir(headDomainsPath)]);
 
@@ -59,8 +63,8 @@ t("New JSON files must be owned by the PR author", async (t) => {
         if (!domain) return t.fail(`${file}: Unable to read domain data`);
 
         t.true(
-            domain.owner.username === PR_AUTHOR || admins.includes(PR_AUTHOR),
-            `${file}: Domain owner is ${domain.owner.username} but ${PR_AUTHOR} is the PR author`
+            domain.owner.username.toLowerCase() === PR_AUTHOR || admins.includes(PR_AUTHOR),
+            `${file}: Domain owner is ${domain.owner.username.toLowerCase()} but ${PR_AUTHOR} is the PR author`
         );
     });
 
