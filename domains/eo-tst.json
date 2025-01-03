@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "eo-tst",
+        "email": "153153722+eo-tst@users.noreply.github.com"
+    },
+    "record": {
+        "RECORDTYPE": "CNAME",
+        "RECORDCONTENT": "eo-tst.github.io"
+    }
+}
