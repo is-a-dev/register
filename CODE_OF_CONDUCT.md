@@ -14,7 +14,7 @@ The abuse reports will be investigated and the necessary action will be taken.
 - Online stores/shopping websites
 - Gambling websites
 - Game cheat sites
-- CDNs distributing potentially malicious content (APKs, executables)
+- CDNs distributing potentially malicious content (e.g. APKs, executables)
 - 'Unblocked' gaming websites
 - Alternate URLs for commonly blocked websites (e.g. gambling/casino websites)
 - Websites containing 18+ content
@@ -28,3 +28,4 @@ The abuse reports will be investigated and the necessary action will be taken.
 - Online services for identity theft or forgery
 - Platforms promoting self-harm or violence
 - Illegal drug marketplaces
+- Proxy sites (e.g. embedding other websites)
