@@ -1,0 +1,10 @@
+{
+    "description": "Personal Website",
+    "owner": {
+      "username": "aruntechpro",
+      "email": "arunkumarakr03@gmail.com"
+    },
+    "record": {
+      "CNAME": "aruntechpro.github.io"
+    }
+}

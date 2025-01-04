@@ -1,11 +1,11 @@
 {
   "description": "Semant Api",
   "owner": {
-    "username": "s3mant",
+    "username": "ihacksemant",
     "email": "contact@semant.is-a.dev",
     "discord": "445073800850046977"
   },
   "record": {
-    "A": ["69.30.249.53"]
+    "A": ["69.197.135.205"]
   }
 }
