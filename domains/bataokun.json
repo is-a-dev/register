@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "bataokun",
+    "email": "w50sme8rc@mozmail.com"
+  },
+  "record": {
+    "NS": ["ace.ns.cloudflare.com", "teresa.ns.cloudflare.com"]
+  }
+}
