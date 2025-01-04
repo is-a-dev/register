@@ -1,9 +1,19 @@
 {
-  "owner": {
-    "username": "NineLEL",
-    "email": "notninelel@gmail.com"
-  },
-  "record": {
-    "A": ["76.76.21.21"]
-  }
+    "owner": {
+        "username": "NineLEL",
+        "email": "notninelel@gmail.com"
+    },
+    "record": {
+        "A": [
+            "76.76.21.21"
+        ],
+        "MX": [
+            "mx.zoho.eu",
+            "mx2.zoho.eu",
+            "mx3.zoho.eu"
+        ],
+        "TXT": [
+            "zoho-verification=zb97979784.zmverify.zoho.com"
+        ]
+    }
 }
