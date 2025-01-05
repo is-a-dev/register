@@ -7,6 +7,6 @@
     "twitter": "Jonee1155"
   },
   "record": {
-    "CNAME": "jhonneg.github.io"
+    "A": ["75.2.60.5"]
   }
 }

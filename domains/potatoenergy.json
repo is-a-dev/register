@@ -1,0 +1,11 @@
+{
+  "description": "Potato Energy Team Website Proxy",
+  "owner": {
+    "username": "ponfertato",
+    "email": "ponfertato@potatoenergy.ru",
+    "discord": "ponfertato"
+  },
+  "record": {
+    "CNAME": "potatoenergy.ru"
+  }
+}

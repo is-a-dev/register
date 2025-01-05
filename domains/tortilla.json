@@ -1,0 +1,11 @@
+{
+    "description": "tortilla.is-a.dev",
+    "owner": {
+        "username": "Colbster937",
+        "email": "colbster937@colbster937.dev"
+    },
+    "record": {
+        "CNAME": "dns.tortillagames.org"
+    },
+    "proxied": true
+}

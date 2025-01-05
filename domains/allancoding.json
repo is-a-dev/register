@@ -1,4 +1,6 @@
 {
+  "description": "My main website",
+  "repo": "https://github.com/allancoding/allancoding.is-a.dev",
   "owner": {
     "username": "allancoding",
     "email": "allancoding.dev@gmail.com",
@@ -6,6 +8,8 @@
     "discord": "allancoding"
   },
   "record": {
-    "CNAME": "allancoding.github.io"
+    "A": ["75.2.60.5"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com include:_spf.google.com ~all"
   }
 }
