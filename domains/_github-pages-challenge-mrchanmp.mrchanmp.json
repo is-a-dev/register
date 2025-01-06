@@ -1,12 +1,9 @@
 {
     "owner": {
-        "username": "drcklynn",
+        "username": "mrchanmp",
         "email": "mrchanmp@yandex.com"
     },
     "record": {
         "TXT": "6256e433e820aba0f4b0f6ffed4b53"
-    },
-    "record": {
-        "CNAME": "mrchanmp.github.io"
     }
 }
