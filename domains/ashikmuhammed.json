@@ -1,11 +1,11 @@
 {
-    "repo": "https://github.com/professorSergioMarquina/professorSergioMarquina.github.io",
+    "repo": "https://github.com/professorSergioMarquina/",
     "owner": {
         "username": "professorSergioMarquina",
         "email": "mrjinnoftg@gmail.com"
     },
     "record": {
-        "CNAME": "professorsergiomarquina.github.io"
+        "CNAME": "https://professor-sergio-marquina-github-io.vercel.app/"
     },
     "proxied": true
 }
