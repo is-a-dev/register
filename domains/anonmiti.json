@@ -1,0 +1,11 @@
+{
+  "domain": "anonmiti",
+  "subdomain": "www",
+  "owner": {
+    "email": "anonmitiofficial@gmail.com",
+    "github": "anonmiti"
+  },
+  "record": {
+    "CNAME": "anonmiti.github.io"
+  }
+}
