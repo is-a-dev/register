@@ -1,9 +1,7 @@
 {
-    "$schema": "../schemas/domain.schema.json",
-    "domain": "is-a.dev",
-    "subdomain": "xvannn07",
     "owner": {
-        "email": "xvannn07@example.com"
+        "email": "xvannn07@example.com",
+        "username": "Xvannn07"
     },
     "record": {
         "CNAME": "xvannn.xyz"
