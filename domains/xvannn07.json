@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "email": "xvannn07@example.com",
+        "username": "Xvannn07"
+    },
+    "record": {
+        "CNAME": "xvannn.xyz"
+    },
+    "proxy": false
+}
