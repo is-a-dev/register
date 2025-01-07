@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "Skullfiredevil",
-        "email": "jotipinto@gmail.com"
-    },
-
-    "record": {
-        "CNAME": "skullfiredevil.github.io"
-    }
+  "owner": {
+    "username": "Skullfiredevil",
+    "email": "jotipinto@gmail.com"
+  },
+  "record": {
+    "CNAME": "skullfiredevil.github.io"
+  }
 }

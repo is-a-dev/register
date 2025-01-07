@@ -1,11 +1,10 @@
 {
-    "description": "sidd is a dev (duh?)",
-    "repo": "https://github.com/uh-Sid/sidd.is-a.dev",
+    "repo": "https://github.com/sidx04/sidx04.github.io",
     "owner": {
-        "username": "uh-Sid",
-        "email": "sdmdevelopment3@gmail.com"
+        "username": "sidx04",
+        "email": "siddpal04@gmail.com"
     },
     "record": {
-        "CNAME": "4dffaf9f-274e-457e-a081-b23e4d20e170.id.repl.co"
+        "CNAME": "sidx04.github.io"
     }
 }

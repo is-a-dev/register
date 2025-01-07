@@ -1,11 +1,10 @@
 {
-    "owner": {
-        "username": "saumonarcenciel",
-        "email": "viala38000@gmail.com"
-    },
-    "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
-    }
+  "owner": {
+    "username": "saumonarcenciel",
+    "email": "saumon@duck.com",
+    "discord": "823623660743950416"
+  },
+  "record": {
+    "A": ["109.234.166.168"]
+  }
 }

@@ -1,11 +1,11 @@
 {
-    "description": "projects",
-    "repo": "https://github.com/glomdom/glomdom.github.io",
-    "owner": {
-        "username": "glomdom",
-        "email": "22115@uktc-bg.com"
-    },
-    "record": {
-        "CNAME": "glomdom.github.io"
-    }
+  "description": "projects",
+  "repo": "https://github.com/glomdom/glomdom.github.io",
+  "owner": {
+    "username": "glomdom",
+    "email": "22115@uktc-bg.com"
+  },
+  "record": {
+    "CNAME": "glomdom.github.io"
+  }
 }

@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "orangci",
+    "discord": "orangc"
+  },
+  "record": {
+    "NS": ["nucum.ns.cloudflare.com", "tate.ns.cloudflare.com"]
+  }
+}

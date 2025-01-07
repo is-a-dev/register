@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mihrpsah",
-        "email": "smihirp1@gmail.com"
-    },
-    "record": {
-        "CNAME": "mihrpsah.github.io"
-    }
+  "owner": {
+    "username": "mihrpsah",
+    "email": "smihirp1@gmail.com"
+  },
+  "record": {
+    "CNAME": "mihrpsah.github.io"
+  }
 }

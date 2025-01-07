@@ -1,12 +1,11 @@
 {
-    "description": "My personal site",
-    "repo": "https://github.com/FayasNoushad/fayasnoushad.github.io",
-    "owner": {
-        "username": "FayasNoushad",
-        "email": "",
-        "twitter": "FayasNoushad"
-    },
-    "record": {
-        "CNAME": "FayasNoushad.github.io"
-    }
+  "description": "My personal site",
+  "repo": "https://github.com/FayasNoushad/fayasnoushad.github.io",
+  "owner": {
+    "username": "FayasNoushad",
+    "twitter": "FayasNoushad"
+  },
+  "record": {
+    "CNAME": "fayasnoushad.github.io"
+  }
 }
