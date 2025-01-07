@@ -4,7 +4,8 @@
         "email": "tak@tak.io.vn"
     },
     "record": {
-        "NS": ["grace.ns.cloudflare.com","martin.ns.cloudflare.com"]
+        "NS": ["lilith.ns.cloudflare.com","tony.ns.cloudflare.com"],
+        "CNAME": "tak-gamingyt.github.com"
     },
     "proxied": true
 }
