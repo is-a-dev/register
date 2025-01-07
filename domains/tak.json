@@ -4,8 +4,7 @@
         "email": "tak@tak.io.vn"
     },
     "record": {
-        "NS": "grace.ns.cloudflare.com",
-        "NS": "martin.ns.cloudflare.com"
+        "NS": ["grace.ns.cloudflare.com","martin.ns.cloudflare.com"]
     },
     "proxied": true
 }
