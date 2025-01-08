@@ -1,0 +1,11 @@
+{
+  "description": "Random PDF's website",
+  "repo": "https://github.com/codevodka/Random-PDF",
+  "owner": {
+    "username": "codevodka",
+    "email": "bitcoinkid.cf"
+  },
+  "record": {
+    "CNAME": "codevodka.github.io/Random-PDF/"
+  }
+}
