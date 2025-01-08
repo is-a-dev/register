@@ -15,6 +15,10 @@
         ],
         "MX": [
             "mx.zoho.com"
+        ],
+        "NS": [
+            "aleena.ns.cloudflare.com",
+            "plato.ns.cloudflare.com"
         ]
     }
 }
