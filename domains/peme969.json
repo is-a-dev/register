@@ -14,18 +14,9 @@
             "zoho-verification=zb48050675.zmverify.zoho.com"
         ],
         "MX": [
-            {
-                "priority": 10,
-                "server": "mx.zoho.com"
-            },
-            {
-                "priority": 20,
-                "server": "mx2.zoho.com"
-            },
-            {
-                "priority": 50,
-                "server": "mx3.zoho.com"
-            }
+            "10 mx.zoho.com",
+            "20 mx2.zoho.com",
+            "50 mx3.zoho.com"
         ]
     }
 }
