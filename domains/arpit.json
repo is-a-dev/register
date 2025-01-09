@@ -1,0 +1,11 @@
+{
+  "description": "Personal website",
+  "repo": "https://github.com/thebedroomprogrammer/thebedroomprogrammer.github.io",
+  "owner": {
+    "username": "thebedroomprogrammer",
+    "email": "arpit1294@gmail.com"
+  },
+  "record": {
+    "CNAME": "thebedroomprogrammer.github.io"
+  }
+}
