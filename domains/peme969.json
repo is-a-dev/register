@@ -11,7 +11,7 @@
             "185.199.111.153"
         ],
         "CNAME": [
-            "dkim01._domainkey.simplelogin.co",
+            "dkim._domainkey.simplelogin.co",
             "dkim02._domainkey.simplelogin.co",
             "dkim03._domainkey.simplelogin.co"
     	],
