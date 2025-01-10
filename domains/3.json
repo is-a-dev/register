@@ -4,9 +4,6 @@
     "email": "admin@coderrrrr.site"
   },
   "record": {
-    "NS": [
-      "aria.ns.cloudflare.com",
-      "leonard.ns.cloudflare.com"
-    ]
+    "A": "207.174.61.1"
   }
 }
