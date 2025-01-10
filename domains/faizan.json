@@ -1,0 +1,10 @@
+{
+  "domain": "faizan.is-a.dev",
+  "subdomain": "faizan",
+  "owner": {
+    "email": "faizan.qureshi@upstrapp.com"
+  },
+  "records": {
+    "A": ["https://upstrapp.com/"]
+  }
+}
