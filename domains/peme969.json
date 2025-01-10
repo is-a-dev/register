@@ -10,11 +10,6 @@
             "185.199.110.153", 
             "185.199.111.153"
         ],
-        "CNAME": [
-            "dkim._domainkey.simplelogin.co",
-            "dkim02._domainkey.simplelogin.co",
-            "dkim03._domainkey.simplelogin.co"
-    	],
         "TXT":[
             "sl-verification=dbpgreeqailirhyinpatpewbtegyca",
             "v=spf1 include:simplelogin.co ~all",
