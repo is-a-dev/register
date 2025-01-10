@@ -4,7 +4,6 @@
     "email": "william@is-a.dev"
   },
   "record": {
-    "CNAME": "hrsn.dev"
-  },
-  "proxied": true
+    "URL": "https://github.com/wdhdev"
+  }
 }
