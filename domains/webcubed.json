@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "webcubed",
-        "email": "lainathannlaiv2@gmail.com"
-    },
-    "record": {
-        "CNAME": "webcubed.github.io"
-    }
-} 
+  "owner": {
+    "username": "webcubed",
+    "email": "lainathannlaiv2@gmail.com"
+  },
+  "record": {
+    "CNAME": "webcubed.github.io"
+  }
+}

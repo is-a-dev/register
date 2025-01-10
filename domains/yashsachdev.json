@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "yashsachdev",
-        "email": "yashsachdev5677@gmail.com"
-    },
-    "record": {
-        "CNAME": "yashsachdevblog.azureedge.net"
-    }
+  "owner": {
+    "username": "yashsachdev",
+    "email": "yashsachdev5677@gmail.com"
+  },
+  "record": {
+    "CNAME": "yashsachdevblog.azureedge.net"
+  }
 }

@@ -1,4 +1,6 @@
 [
+    "_atproto",
+    "_vercel",
     "account",
     "accounts",
     "admin",
@@ -55,10 +57,10 @@
     "maintainer",
     "maintainers",
     "marketing",
+    "media",
     "mobile",
     "net",
     "news",
-    "nic",
     "noc",
     "notification",
     "notifications",
