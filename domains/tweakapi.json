@@ -1,12 +1,12 @@
 {
-  "description": "An api server",
+  "description": "A api server",
   "repo": "https://github.com/HaiYTB/register",
   "owner": {
     "username": "HaiYTB",
     "email": "haiwt2xbox@gmail.com"
   },
   "record": {
-    "CNAME": "sv.kdhcloud.shop"
+    "CNAME": "vn1.fortunacloud.net"
   },
   "proxied": true
 }
