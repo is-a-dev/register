@@ -5,6 +5,6 @@
         "discord": "370012050316984321"
     },
     "record": {
-        "CNAME": "vyductan.vercel.app"
+        "A": ["76.76.21.21"]
     }
 }
