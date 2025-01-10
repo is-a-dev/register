@@ -1,0 +1,11 @@
+{
+	"description": "my personal web page",
+	"repo": "https://kamilodev.github.io/kamilodev/",
+	"owner": {
+		"username": "kamilodev",
+		"email": "kamilo@kamilodev.dev"
+	},
+	"record": {
+		"CNAME": "kamilodev.github.io"
+	}
+}
