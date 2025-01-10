@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Base-Swag",
-        "email": "officialnamefier@gmail.com"
-    },
-    "record": {
-        "CNAME": "base-swag.github.io"
-    }
+  "owner": {
+    "username": "Base-Swag",
+    "email": "officialnamefier@gmail.com"
+  },
+  "record": {
+    "CNAME": "base-swag.github.io"
+  }
 }
