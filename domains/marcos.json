@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/mtoranzo",
+    "owner": {
+        "username": "mtoranzo",
+        "email": "mtoranzo@gmail.com"
+    },
+    "record": {
+        "TXT": "345c2e905e6bb6fd03343af2a4eb2e"
+    }
+}
