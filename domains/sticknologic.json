@@ -6,6 +6,12 @@
     "email": "jobeth.llame@gmail.com"
   },
   "record": {
+    "A":[
+      "65.19.154.90"
+    ],
+    "AAAA":[
+      "2001:470:1:1ee::1002"
+    ],
     "NS": [
       "ns1.heliohost.org",
       "ns2.heliohost.org"
