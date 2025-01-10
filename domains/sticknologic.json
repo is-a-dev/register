@@ -1,0 +1,14 @@
+{
+  "description": "Simple Portfolio and Blog Website",
+  "repo": "https://github.com/sticknologic",
+  "owner": {
+    "username": "sticknologic",
+    "email": "jobeth.llame@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "ns1.heliohost.org",
+      "ns2.heliohost.org"
+    ]
+  }
+}
