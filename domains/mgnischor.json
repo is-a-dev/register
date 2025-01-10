@@ -1,0 +1,12 @@
+{
+  "description": "Portfolio",
+  "repo": "https://github.com/mgnischor/mgnischor.github.io",
+  "owner": {
+    "username": "mgnischor",
+    "email": "miguel@nischor.com.br"
+  },
+  "record": {
+    "TXT": "dh=5c653213560f1113f089d83e3ce8344d64ffb2a9",
+    "CNAME": "mgnischor.github.io"
+  }
+}
