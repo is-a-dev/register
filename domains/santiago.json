@@ -1,0 +1,11 @@
+{
+  "description": "Santiago Lobos",
+  "repo": "https://github.com/slobos",
+  "owner": {
+    "username": "slobos",
+    "email": "slobos@gmail.com"
+  },
+  "record": {
+    "CNAME": "lobos.work"
+  }
+}
