@@ -1,0 +1,11 @@
+{
+    "description": "For hosting my web services",
+    "repo": "https://github.com/manugeni/manugeni.github.io",
+    "owner": {
+        "username": "manugeni",
+        "email": "rendaniman@outlook.com"
+    },
+    "record": {
+        "CNAME": "manugeni.github.io"
+    }
+}
