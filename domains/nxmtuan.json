@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "tuannguyen2002",
-        "email": "nxmtuan.2002@gmail.com"
-    },
-    "record": {
-        "RECORDTYPE": "RECORDCONTENT"
-    }
+"description": "nxmt-profile.dev",
+"owner": {
+"username": "tuannguyen2002",
+"email": "coixaygio107@gmail.com",
+"discord": "@nightfury06749"
+},
+"record": {
+"CNAME": "https://profile-sigma-wine.vercel.app"
+}
 }
