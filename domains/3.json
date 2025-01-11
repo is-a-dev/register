@@ -4,6 +4,6 @@
     "email": "admin@coderrrrr.site"
   },
   "record": {
-    "A": "207.174.61.1"
+    "A": ["207.174.61.1"]
   }
 }
