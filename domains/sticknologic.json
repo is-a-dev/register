@@ -3,7 +3,9 @@
   "repo": "https://github.com/sticknologic",
   "owner": {
     "username": "sticknologic",
-    "email": "jobeth.llame@gmail.com"
+    "x": "https://x.com/sticknologic",
+    "facebook":"https://www.facebook.com/STICKnoLOGIC",
+    "bsky":"https://bsky.app/profile/sticknologic.bsky.social"
   },
   "record": {
     "NS": [
