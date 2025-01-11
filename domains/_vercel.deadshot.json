@@ -7,6 +7,6 @@
         "discord": "416952474587496449"
     },
     "record": {
-        "CNAME": "deadshotdev.vercel.app"
+        "TXT": "vc-domain-verify=deadshot.is-a.dev,5bc34658e6351c74153c"
     }
 }
