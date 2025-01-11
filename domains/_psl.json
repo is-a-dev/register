@@ -4,6 +4,6 @@
     "email": "admin@is-a.dev"
   },
   "record": {
-    "TXT": ["https://github.com/publicsuffix/list/pull/2225"]
+    "TXT": "https://github.com/publicsuffix/list/pull/2225"
   }
 }
