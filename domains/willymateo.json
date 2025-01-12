@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "willymateo",
-        "email": "matheoowilly@gmail.com"
+        "email": "matheoowilly@gmail.com",
+        "discord": "willycocolon"
     },
     "record": {
-        "RECORDTYPE": "RECORDCONTENT"
+         "CNAME": "willymateo.vercel.app"
     }
 }
