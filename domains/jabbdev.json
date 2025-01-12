@@ -4,6 +4,6 @@
         "email": "jabbsontouch@gmail.com"
     },
     "record": {
-        "RECORDTYPE": "AAAA"
+        "CNAME": "https://react-frontend-production-0024.up.railway.app/"
     }
 }
