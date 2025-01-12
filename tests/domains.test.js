@@ -127,3 +127,17 @@ t("Reserved domains file should be valid", (t) => {
 
     t.pass();
 });
+
+const exceptedDomains = require("../util/excepted-domains.json");
+
+t("Subdomains on the root should not start with an underscore", (t) => {
+    for (const file of files) {
+        const subdomain = file.replace(/\.json$/, "");
+        
+        if (subdomain.split(".").length === 1 && !exceptedDomains.includes(subdomain)) {
+            t.true(subdomain[0] !== "_", `${file}: Root subdomains should not start with an underscore`);
+        }
+    }
+
+    t.pass();
+})

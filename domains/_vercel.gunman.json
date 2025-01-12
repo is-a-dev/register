@@ -1,12 +1,10 @@
 {
-    "owner": {
+  "owner": {
     "username": "MukuJhansi",
     "email": "mukundagrawal800@gmail.com",
     "discord": "1115658967012626542"
-    },
-    "record": {
-        "TXT": [
-            "vc-domain-verify=gunman.is-a.dev,a31e97770fb8c89e3b57"
-        ]
-    }
+  },
+  "record": {
+    "TXT": ["vc-domain-verify=gunman.is-a.dev,a31e97770fb8c89e3b57"]
+  }
 }
