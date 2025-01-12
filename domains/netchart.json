@@ -1,0 +1,11 @@
+{
+  "description": "netchart.is-a.dev",
+  "repo": "https://github.com/netchart/is-a-dev",
+  "owner": {
+    "username": "netchart",
+    "email": "netchart@gmail.com"
+  },
+  "record": {
+    "CNAME": "netchart.github.io"
+  }
+}
