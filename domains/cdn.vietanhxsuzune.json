@@ -1,0 +1,12 @@
+{
+    "description": "Stream your favorite anime series and movies in high quality. Fast, secure, and user-friendly anime watching experience (CDN)",
+    "repo": "https://github.com/vietanhxsuzune/vietanhxsuzune.github.io",
+    "owner": {
+        "username": "vietanhxsuzune",
+        "email": "vietanhxsuzune@gmail.com"
+    },
+    "record": {
+        "CNAME": "vietanhxsuzune.github.io",
+        "TXT": "dd17a15ea9ab8f4b7c6dab8e128289"
+    }
+}
