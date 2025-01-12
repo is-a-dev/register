@@ -1,0 +1,11 @@
+{
+  "description": "My website for is-a.dev",
+  "repo": "https://github.com/onielgzlez/gateways",
+  "owner": {
+    "username": "onielgzlez",
+    "email": "oniel.gzlez@gmail.com"
+  },
+  "record": {
+    "CNAME": "onisoft.is-a.dev"
+  }
+}
