@@ -1,0 +1,17 @@
+{
+    "owner": {
+        "username": "krhac-h",
+        "email": "hrvoje.krhach@gmail.com"
+    },
+    "record": {
+        "URL": "https://hrvojekrhac.from.hr",
+        "A": [
+            "104.21.48.1"
+        ],
+        "MX": [
+            "route1.mx.cloudflare.net",
+            "route1.mx.cloudflare.net"
+        ],
+        "TXT": "v=spf1 include:_spf.mx.cloudflare.net ~all"
+    }
+}
