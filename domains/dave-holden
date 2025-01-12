@@ -1,0 +1,11 @@
+{
+  "description": "Dave Holden's Website!",
+  "repo": "https://github.com/dave-holden/dave-holden.github.io",
+  "owner": {
+    "username": "dave-holden",
+    "email": "holden.dave@gmail.com"
+  },
+  "record": {
+    "CNAME": "dave-holden.github.io"
+  }
+}
