@@ -1,0 +1,12 @@
+{
+  "description": "Resume",
+  "repo": "https://github.com/aakifnehal/resume",
+  "owner": {
+    "username": "aakifnehal",
+    "email": "aakifnehal@gmail.com",
+    "twitter": "AakifNehal"
+  },
+  "record": {
+    "CNAME": "aakifnehal.github.io/resume/"
+  }
+}
