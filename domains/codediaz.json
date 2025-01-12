@@ -1,0 +1,11 @@
+{
+    "description": "Codediaz Portfolio",
+    "repo": "https://github.com/codediaz/Portfolio",
+    "owner": {
+        "username": "codediaz",
+        "email": "codediaz@outlook.es"
+    },
+    "record": {
+        "CNAME": "codediaz.github.io"
+    }
+}
