@@ -1,14 +1,11 @@
 {
+  "owner": {
+    "username": "3geETR",
 
-    "owner": {
+    "email": "egemacun@gmail.com"
+  },
 
-        "username": "3geETR",
-
-        "email": "egemacun@gmail.com"
-
-    },
-
-   "record": {
+  "record": {
     "SRV": [
       {
         "priority": 0,

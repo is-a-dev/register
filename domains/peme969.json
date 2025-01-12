@@ -4,7 +4,18 @@
         "email": "mrcoderpeme@gmail.com"
     },
     "record": {
-        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
-        "TXT":["sl-verification=dbpgreeqailirhyinpatpewbtegyca"]
+        "A": [
+            "185.199.108.153", 
+            "185.199.109.153", 
+            "185.199.110.153", 
+            "185.199.111.153"
+        ],
+        "TXT":[
+            "forward-email=MzY4NGZhMjBlZjg4YjBhOC1lZjllYjNhOWE3YzFiNzE0ZWU5OGYwOTdmN2E0YTUzMWFmYjk5M2NhNTA1NGRjZTQ2ZmZlNjA4NWY3ODMyNzNh"
+        ],
+        "MX":[
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ]
     }
 }

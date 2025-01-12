@@ -1,4 +1,6 @@
 [
+    "_atproto",
+    "_vercel",
     "account",
     "accounts",
     "admin",
@@ -86,6 +88,7 @@
     "root",
     "sales",
     "schedule",
+    "secure",
     "security",
     "service",
     "services",
