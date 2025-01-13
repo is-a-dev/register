@@ -4,8 +4,7 @@
     "email": "pentsec.2@protonmail.com"
   },
   "record": {
-    "CNAME": "pentsec.github.io",
-    "URL": "https://jeff.is-a.dev"
+    "CNAME": "pentsec.github.io"
   },
   "redirect_config": {
     "custom_paths": {
@@ -19,5 +18,6 @@
       
     },
     "redirect_paths": true
-  }
+  },
+  "proxied": true
 }
