@@ -1,0 +1,11 @@
+{
+  "description": "Jorge's Web",
+  "owner": {
+    "username": "jorge-lopz",
+    "email": "jlpenero2005@gmail.com"
+  },
+  "record": {
+    "CNAME": "jorge-lopz.vercel.app"
+  },
+  "proxied": true
+}
