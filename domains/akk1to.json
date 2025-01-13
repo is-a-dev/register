@@ -17,5 +17,19 @@
       "mx2.improvmx.com"
     ],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/akk1to",
+      "/facebook": "https://facebook.com/hito.akk1to",
+      "/discord": "https://discord.com/users/727497287777124414",
+      "/mailtome": "mailto:contact@akk1to.is-a.dev",
+      "/spotify": "https://open.spotify.com/user/31ki3izwarkotf2krqm2cepjadka",
+      "/linkedin": "https://linkedin.com/in/akk1to",
+      "/chuyentinorz": "https://chuyentinorz.is-a.dev",
+      "/pin": "https://pinterest.com/akk1to",
+      "/codeforces": "https://codeforces.com/profile/akk1to.dev"
+    },
+    "redirect_paths": true,
   }
 }
