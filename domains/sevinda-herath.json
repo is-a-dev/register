@@ -13,7 +13,7 @@
     "custom_paths": {
       "/github": "https://github.com/Sevinda-Herath/",
       "/linkedin": "https://www.linkedin.com/in/sevindaherath/",
-      "youtube": "https://www.youtube.com/channel/UCz3Xgf25_heOC86kxdqunkA"
+      "/youtube": "https://www.youtube.com/channel/UCz3Xgf25_heOC86kxdqunkA"
     },
     "redirect_paths": true
   }
