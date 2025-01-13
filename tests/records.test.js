@@ -83,7 +83,6 @@ t("All files should have valid record types", (t) => {
             t.true(validateRecordType(key), `${file}: Invalid record type: ${key}`);
         });
 
-        // Specific record rules for CNAME, NS, and DS
         if (recordKeys.includes("CNAME") && !data.proxied) {
             t.is(recordKeys.length, 1, `${file}: CNAME records cannot be combined with other records unless proxied`);
         }
@@ -98,7 +97,13 @@ t("All files should have valid record types", (t) => {
         if (recordKeys.includes("DS")) {
             t.true(recordKeys.includes("NS"), `${file}: DS records must be combined with NS records`);
         }
+
+        if (recordKeys.includes("URL") {
+            t.true(!recordKeys.includes("A") && !recordKeys.includes("AAAA") && !recordKeys.includes("CNAME"), `${file}: URL records cannot be combined with A, AAAA, or CNAME records`);
+        }
     });
+
+    t.pass();
 });
 
 t("All files should not have duplicate record keys", (t) => {
