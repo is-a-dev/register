@@ -32,8 +32,6 @@ t("Users are limited to one single character subdomain", (t) => {
     });
 
     const duplicates = results.filter((result) => results.filter((r) => r.owner === result.owner).length > 1);
-
-    // Combine duplicates into multiple strings, only one per user, with list of their domains
     const output = duplicates.reduce((acc, curr) => {
         if (!acc[curr.owner]) {
             acc[curr.owner] = [];
