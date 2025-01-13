@@ -186,10 +186,10 @@ function validateRecordValues(t, data, file) {
                 data.record.URL !== customRedirectURL,
                 `${urlMessage} should be different from the URL record at index ${idx}`
             );
-            // t.true(
-            //     customRedirectURL.startsWith("http://") || customRedirectURL.startsWith("https://"),
-            //     `${urlMessage} must start with http:// or https:// at index ${idx}`
-            // );
+            t.true(
+                customRedirectURL.startsWith("http://") || customRedirectURL.startsWith("https://"),
+                `${urlMessage} must start with http:// or https:// at index ${idx}`
+            );
             t.notThrows(() => new URL(customRedirectURL), `${urlMessage} contains an invalid URL at index ${idx}`);
 
             // Check for self-referencing redirects
