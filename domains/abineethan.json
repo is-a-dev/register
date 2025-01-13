@@ -6,6 +6,15 @@
         "email": "abineethan22@gmail.com"
     },
     "record": {
-        "CNAME": "abineethan.github.io"
+        "TXT": [
+            "422379248b32204060e8ac84ac2ddb",
+            "v=spf1 include:zohomail.com ~all",
+            "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCaOukqcLfMkTU17sMd077C/7GJcxlJd1JanLSyzq6wyXoC7yodUX7MGd9pPTnkdlWY2cSvXP2p2UDS46HkmzX9MMZBB5EoXm1YvS0o4SYG5FECbmtWIzoAJRLiv2DbmMr4TcJ3aUfQ9soEKOe0q8+m3qSmv79GsiIlVoG1HBkgtwIDAQAB"
+        ],
+        "MX": [
+            "mx.zoho.com",
+            "mx2.zoho.com",
+            "mx3.zoho.com"
+        ]
     }
 }
