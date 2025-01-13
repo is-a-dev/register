@@ -1,11 +1,18 @@
 {
-    "description": "This subdomain hosts my personal portfolio website.",
-    "repo": "https://github.com/abineethan/abineethan.github.io",
-    "owner": {
-        "username": "abineethan",
-        "email": "abineethan22@gmail.com"
+  "description": "This subdomain hosts my personal portfolio website.",
+  "repo": "https://github.com/abineethan/abineethan.github.io",
+  "owner": {
+    "username": "abineethan",
+    "email": "abineethan22@gmail.com"
+  },
+  "dns_records": {
+    "TXT": {
+      "name": "@",
+      "value": "zoho-verification=zb08421610.zmverify.zoho.com"
     },
-    "record": {
-        "CNAME": "abineethan.github.io"
+    "CNAME": {
+      "name": "www",
+      "value": "abineethan.github.io"
     }
+  }
 }
