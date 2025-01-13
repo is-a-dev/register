@@ -4,7 +4,12 @@
     "email": "william@is-a.dev"
   },
   "record": {
-    "CNAME": "hrsn.dev"
+    "URL": "https://wharrison.com.au"
   },
-  "proxied": true
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/wdhdev"
+    },
+    "redirect_paths": true
+  }
 }
