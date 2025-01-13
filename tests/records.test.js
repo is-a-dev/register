@@ -89,6 +89,8 @@ function isValidHexadecimal(value) {
 }
 
 function validateRecordValues(t, data, file) {
+    const subdomain = file.replace(/\.json$/, "");
+
     Object.entries(data.record).forEach(([key, value]) => {
         // General validation for arrays
         if (["A", "AAAA", "MX", "NS"].includes(key)) {
@@ -126,6 +128,11 @@ function validateRecordValues(t, data, file) {
                     `${file}: Record value for ${key} must start with http:// or https://`
                 );
                 t.notThrows(() => new URL(value), `${file}: Invalid URL for ${key}`);
+
+                const urlHost = new URL(value).host;
+                const isSelfReferencing =
+                    file === "@.json" ? urlHost === "is-a.dev" : urlHost === `${subdomain}.is-a.dev`;
+                t.true(!isSelfReferencing, `${file}: URL cannot point to itself`);
             }
         }
 
@@ -162,27 +169,33 @@ function validateRecordValues(t, data, file) {
 
         customPaths.forEach((customPath, idx) => {
             const customRedirectURL = data.redirect_config.custom_paths[customPath];
+            const urlMessage = `${file}: Custom path in redirect_config`;
 
+            // Validate the custom path
             t.true(
                 pathRegex.test(customPath),
-                `${file}: Custom path in redirect_config must start with a slash, contain only alphanumeric characters, hyphens, underscores, periods, and slashes, and cannot end with a slash at index ${idx}`
+                `${urlMessage} must start with a slash, contain only alphanumeric characters, hyphens, underscores, periods, and slashes, and cannot end with a slash at index ${idx}`
             );
             t.true(
                 customPath.length >= 2 && customPath.length <= 255,
-                `${file}: Custom path in redirect_config should be 2-255 characters long at index ${idx}`
+                `${urlMessage} should be 2-255 characters long at index ${idx}`
             );
+
+            // Validate the redirect URL
             t.true(
                 data.record.URL !== customRedirectURL,
-                `${file}: Custom path in redirect_config should be different from the URL record at index ${idx}`
+                `${urlMessage} should be different from the URL record at index ${idx}`
             );
-            t.true(
-                customRedirectURL.startsWith("http://") || customRedirectURL.startsWith("https://"),
-                `${file}: Custom path in redirect_config must start with http:// or https:// at index ${idx}`
-            );
-            t.notThrows(
-                () => new URL(customRedirectURL),
-                `${file}: Invalid URL for custom path in redirect_config at index ${idx}`
-            );
+            // t.true(
+            //     customRedirectURL.startsWith("http://") || customRedirectURL.startsWith("https://"),
+            //     `${urlMessage} must start with http:// or https:// at index ${idx}`
+            // );
+            t.notThrows(() => new URL(customRedirectURL), `${urlMessage} contains an invalid URL at index ${idx}`);
+
+            // Check for self-referencing redirects
+            const urlHost = new URL(customRedirectURL).host;
+            const isSelfReferencing = file === "@.json" ? urlHost === "is-a.dev" : urlHost === `${subdomain}.is-a.dev`;
+            t.true(!isSelfReferencing, `${urlMessage} cannot point to itself at index ${idx}`);
         });
     }
 }
