@@ -6,6 +6,9 @@
         "email": "abineethan22@gmail.com"
     },
     "record": {
+        "TXT": [
+            "zoho-verification=zb08421610.zmverify.zoho.com"
+        ],
         "CNAME": "abineethan.github.io"
     }
 }
