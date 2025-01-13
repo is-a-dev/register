@@ -5,7 +5,7 @@ const path = require("path");
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath).filter((file) => file.endsWith(".json"));
 
-const bypassedUsernames = require("../util/bypassed-usernames.json").map((username) => username.toLowerCase());
+const bypassedUsernames = require("../util/bypassed.json").map((username) => username.toLowerCase());
 
 function getDomainData(subdomain) {
     try {

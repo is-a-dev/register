@@ -30,8 +30,8 @@ const optionalRedirectConfigFields = {
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 
-const exceptedDomains = require("../util/excepted-domains.json");
-const reservedDomains = require("../util/reserved-domains.json");
+const exceptedDomains = require("../util/excepted.json");
+const reservedDomains = require("../util/reserved.json");
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
 
@@ -52,7 +52,7 @@ function expandReservedDomains(reserved) {
                 }
                 expandedList.splice(expandedList.indexOf(item), 1);
             } else {
-                throw new Error(`[util/reserved-domains.json] Invalid range [${start}-${end}] in "${item}"`);
+                throw new Error(`[util/reserved.json] Invalid range [${start}-${end}] in "${item}"`);
             }
         }
     });
