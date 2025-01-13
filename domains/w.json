@@ -5,5 +5,8 @@
   },
   "record": {
     "URL": "https://william.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }
