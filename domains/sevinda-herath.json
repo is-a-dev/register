@@ -4,7 +4,8 @@
     "email": "sevindaherath@gmail.com"
   },
   "record": {
-    "CNAME": "sevinda-herath.github.io"
+    "CNAME": "sevinda-herath.github.io",
+    "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
   },
   "proxied": true
 }
