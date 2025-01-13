@@ -89,10 +89,8 @@ function isValidHexadecimal(value) {
 }
 
 function validateRecordValues(t, data, file) {
-    Object.keys(data.record).forEach((key) => {
-        const value = data.record[key];
-
-        // Validate A, AAAA, MX, NS records: Array of strings
+    Object.entries(data.record).forEach(([key, value]) => {
+        // General validation for arrays
         if (["A", "AAAA", "MX", "NS"].includes(key)) {
             t.true(Array.isArray(value), `${file}: Record value for ${key} should be an array`);
             value.forEach((record, idx) => {
@@ -101,30 +99,28 @@ function validateRecordValues(t, data, file) {
                     `${file}: Record value for ${key} should be a string at index ${idx}`
                 );
                 if (key === "A") {
-                    t.regex(record, ipv4Regex, `${file}: Invalid IPv4 address for ${key} at index ${idx}`);
+                    t.true(ipv4Regex.test(record), `${file}: Invalid IPv4 address for ${key} at index ${idx}`);
                     t.true(
-                        validateIPv4(record, data.proxied, file, idx),
+                        validateIPv4(record, data.proxied),
                         `${file}: Invalid IPv4 address for ${key} at index ${idx}`
                     );
-                }
-                if (key === "AAAA") {
-                    t.regex(expandIPv6(record), ipv6Regex, `${file}: Invalid IPv6 address for ${key} at index ${idx}`);
-                    t.true(validateIPv6(record), `${file}: Invalid IPv6 address for ${key} at index ${idx}`);
-                }
-                if (["MX", "NS"].includes(key)) {
+                } else if (key === "AAAA") {
+                    const expandedIPv6 = expandIPv6(record);
+                    t.true(ipv6Regex.test(expandedIPv6), `${file}: Invalid IPv6 address for ${key} at index ${idx}`);
+                    t.true(validateIPv6(expandedIPv6), `${file}: Invalid IPv6 address for ${key} at index ${idx}`);
+                } else if (["MX", "NS"].includes(key)) {
                     t.true(isValidHostname(record), `${file}: Invalid hostname for ${key} at index ${idx}`);
                 }
             });
         }
 
-        // Validate CNAME and URL records: Single string
+        // CNAME and URL validations
         if (["CNAME", "URL"].includes(key)) {
             t.true(typeof value === "string", `${file}: Record value for ${key} should be a string`);
             if (key === "CNAME") {
                 t.true(isValidHostname(value), `${file}: Invalid hostname for ${key}`);
                 t.true(value !== file, `${file}: CNAME cannot point to itself`);
-            }
-            if (key === "URL") {
+            } else if (key === "URL") {
                 t.true(
                     value.startsWith("http://") || value.startsWith("https://"),
                     `${file}: Record value for ${key} must start with http:// or https://`
@@ -133,7 +129,7 @@ function validateRecordValues(t, data, file) {
             }
         }
 
-        // Validate CAA, DS, SRV records: Array of objects
+        // CAA, DS, SRV validations
         if (["CAA", "DS", "SRV"].includes(key)) {
             t.true(Array.isArray(value), `${file}: Record value for ${key} should be an array`);
             value.forEach((record, idx) => {
@@ -151,17 +147,44 @@ function validateRecordValues(t, data, file) {
             });
         }
 
-        // TXT: Single string or array of strings
+        // TXT validation
         if (key === "TXT") {
-            if (Array.isArray(value)) {
-                value.forEach((record, idx) => {
-                    t.true(typeof record === "string", `${file}: TXT record value should be a string at index ${idx}`);
-                });
-            } else {
-                t.true(typeof value === "string", `${file}: TXT record value should be a string`);
-            }
+            const values = Array.isArray(value) ? value : [value];
+            values.forEach((record, idx) => {
+                t.true(typeof record === "string", `${file}: TXT record value should be a string at index ${idx}`);
+            });
         }
     });
+
+    if (data.redirect_config) {
+        const customPaths = Object.keys(data.redirect_config.custom_paths || {});
+        const pathRegex = /^\/[a-zA-Z0-9\-_\.\/]+(?<!\/)$/;
+
+        customPaths.forEach((customPath, idx) => {
+            const customRedirectURL = data.redirect_config.custom_paths[customPath];
+
+            t.true(
+                pathRegex.test(customPath),
+                `${file}: Custom path in redirect_config must start with a slash, contain only alphanumeric characters, hyphens, underscores, periods, and slashes, and cannot end with a slash at index ${idx}`
+            );
+            t.true(
+                customPath.length >= 2 && customPath.length <= 255,
+                `${file}: Custom path in redirect_config should be 2-255 characters long at index ${idx}`
+            );
+            t.true(
+                data.record.URL !== customRedirectURL,
+                `${file}: Custom path in redirect_config should be different from the URL record at index ${idx}`
+            );
+            t.true(
+                customRedirectURL.startsWith("http://") || customRedirectURL.startsWith("https://"),
+                `${file}: Custom path in redirect_config must start with http:// or https:// at index ${idx}`
+            );
+            t.notThrows(
+                () => new URL(customRedirectURL),
+                `${file}: Invalid URL for custom path in redirect_config at index ${idx}`
+            );
+        });
+    }
 }
 
 t("All files should have valid record types", (t) => {
