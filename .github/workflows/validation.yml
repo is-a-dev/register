@@ -8,8 +8,8 @@ on:
         paths:
             - "domains/*"
             - "tests/*"
-            - "utils/*"
-            - ".github/workflows/validate.yml"
+            - "util/*"
+            - ".github/workflows/validation.yml"
             - "dnsconfig.js"
 
     workflow_dispatch:
@@ -19,25 +19,22 @@ concurrency:
     cancel-in-progress: true
 
 jobs:
-    dns:
-        name: DNS
-        if: "!contains(github.event.head_commit.message, '[skip-ci]')"
+    dnscontrol:
+        name: DNSControl
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
 
-            - name: Check
-              uses: is-a-dev/dnscontrol-action@main
+            - uses: is-a-dev/dnscontrol-action@main
               with:
                   args: check
 
     tests:
         name: Tests
-        if: "!contains(github.event.head_commit.message, '[skip-ci]')"
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
 
             - run: npm install
 
-            - run: npm test
+            - run: npx ava tests/*.test.js

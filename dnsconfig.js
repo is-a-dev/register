@@ -51,7 +51,6 @@ for (var subdomain in domains) {
             records.push(
                 CAA(
                     subdomainName,
-                    caaRecord.flags,
                     caaRecord.tag,
                     caaRecord.value
                 )
@@ -139,12 +138,6 @@ for (var subdomain in domains) {
     // Handle URL records
     if (domainData.record.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
-        records.push(TXT("_redirect." + subdomainName, "\"" + domainData.record.URL + "\""));
-    }
-
-    // Handle reserved domains
-    if (domainData.reserved) {
-        records.push(TXT(subdomainName, "\"" + "RESERVED" + "\""));
     }
 }
 
@@ -159,7 +152,8 @@ var ignored = [
     IGNORE("_dmarc", "TXT"),
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
-    IGNORE("dkim._domainkey", "TXT")
+    IGNORE("dkim._domainkey", "TXT"),
+    IGNORE("ns[1-4]", "A,AAAA"),
 ];
 
 // Push TXT record of when the zone was last updated

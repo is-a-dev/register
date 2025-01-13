@@ -4,14 +4,12 @@
     "email": "william@is-a.dev"
   },
   "record": {
-    "NS": ["bingo.ns.cloudflare.com", "matias.ns.cloudflare.com"],
-    "DS": [
-      {
-        "key_tag": 2371,
-        "algorithm": 13,
-        "digest_type": 2,
-        "digest": "CC332225EB1A226C72D83767ACC3834FE20C129CBD8B1A74FBDCBAD36624B2E0"
-      }
-    ]
+    "URL": "https://wharrison.com.au"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/wdhdev"
+    },
+    "redirect_paths": true
   }
 }
