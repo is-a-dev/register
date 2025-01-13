@@ -1,0 +1,12 @@
+{
+    "description": "My personal website",
+    "repo": "https://github.com/cgmuros",
+    "owner": {
+      "username": "cgmuros",
+      "email": "cgmuros@gmail.com"
+    },
+    "record": {
+      "CNAME": "cgmuros.github.io"
+    },
+    "proxied": true
+  }
