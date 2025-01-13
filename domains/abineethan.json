@@ -5,7 +5,15 @@
         "username": "abineethan",
         "email": "abineethan22@gmail.com"
     },
-    "record": {
-        "CNAME": "abineethan.github.io"
-    }
+    "record": [
+        {
+            "type": "CNAME",
+            "name": "abineethan.github.io"
+        },
+        {
+            "type": "TXT",
+            "name": "abineethan",
+            "value": "zoho-verification=zb08421610.zmverify.zoho.com"
+        }
+    ]
 }
