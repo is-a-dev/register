@@ -98,7 +98,7 @@ t("All files should have valid record types", (t) => {
             t.true(recordKeys.includes("NS"), `${file}: DS records must be combined with NS records`);
         }
 
-        if (recordKeys.includes("URL") {
+        if (recordKeys.includes("URL")) {
             t.true(!recordKeys.includes("A") && !recordKeys.includes("AAAA") && !recordKeys.includes("CNAME"), `${file}: URL records cannot be combined with A, AAAA, or CNAME records`);
         }
     });
