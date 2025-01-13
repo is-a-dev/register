@@ -4,6 +4,6 @@
     "email": "zcell9500@gmail.com"
   },
   "record": {
-    "CNAME": "fungaming-discord-server.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
