@@ -3,9 +3,9 @@
   "owner": {
     "username": "jorge-lopz",
     "email": "jlpenero2005@gmail.com"
+    "discord": "insert-discord-user-ID-here"
   },
   "record": {
     "CNAME": "jorge-lopz.vercel.app"
-  },
-  "proxied": true
+  }
 }
