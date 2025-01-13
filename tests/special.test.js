@@ -26,8 +26,8 @@ t("Users are limited to one single character subdomain", (t) => {
         if (subdomain.length === 1 && !bypassedUsernames.includes(data.owner.username.toLowerCase())) {
             results.push({
                 subdomain,
-                owner: data.owner.username.toLowerCase(),
-            })
+                owner: data.owner.username.toLowerCase()
+            });
         }
     });
 
@@ -41,7 +41,13 @@ t("Users are limited to one single character subdomain", (t) => {
         return acc;
     }, {});
 
-    t.is(duplicates.length, 0, Object.keys(output).map((owner) => `${owner} - ${output[owner].join(", ")}`).join("\n"));
+    t.is(
+        duplicates.length,
+        0,
+        Object.keys(output)
+            .map((owner) => `${owner} - ${output[owner].join(", ")}`)
+            .join("\n")
+    );
 
     t.pass();
-})
+});
