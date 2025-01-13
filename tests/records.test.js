@@ -275,13 +275,3 @@ t("All files should have valid record types", (t) => {
 
     t.pass();
 });
-
-t("All files should not have duplicate record keys", (t) => {
-    files.forEach((file) => {
-        const data = getDomainData(file);
-        const recordKeys = Object.keys(data.record);
-        const uniqueRecordKeys = new Set(recordKeys);
-
-        t.is(recordKeys.length, uniqueRecordKeys.size, `${file}: Duplicate record keys found`);
-    });
-});
