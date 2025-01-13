@@ -51,7 +51,6 @@ for (var subdomain in domains) {
             records.push(
                 CAA(
                     subdomainName,
-                    caaRecord.flags,
                     caaRecord.tag,
                     caaRecord.value
                 )
@@ -139,14 +138,6 @@ for (var subdomain in domains) {
     // Handle URL records
     if (domainData.record.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
-    }
-
-    // Handle Email Forwarding
-    if (domainData.email_forwarding) {
-        records.push(MX(subdomainName, 34, "route1.mx.cloudflare.net."));
-        records.push(MX(subdomainName, 62, "route2.mx.cloudflare.net."));
-        records.push(MX(subdomainName, 36, "route3.mx.cloudflare.net."));
-        records.push(TXT(subdomainName, "\"" + "v=spf1 include:_spf.mx.cloudflare.net ~all" + "\""));
     }
 }
 
