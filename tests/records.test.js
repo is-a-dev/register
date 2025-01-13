@@ -95,11 +95,13 @@ function validateRecordValues(t, data, file) {
         // General validation for arrays
         if (["A", "AAAA", "MX", "NS"].includes(key)) {
             t.true(Array.isArray(value), `${file}: Record value for ${key} should be an array`);
+
             value.forEach((record, idx) => {
                 t.true(
                     typeof record === "string",
                     `${file}: Record value for ${key} should be a string at index ${idx}`
                 );
+
                 if (key === "A") {
                     t.true(ipv4Regex.test(record), `${file}: Invalid IPv4 address for ${key} at index ${idx}`);
                     t.true(
@@ -119,6 +121,7 @@ function validateRecordValues(t, data, file) {
         // CNAME and URL validations
         if (["CNAME", "URL"].includes(key)) {
             t.true(typeof value === "string", `${file}: Record value for ${key} should be a string`);
+
             if (key === "CNAME") {
                 t.true(isValidHostname(value), `${file}: Invalid hostname for ${key}`);
                 t.true(value !== file, `${file}: CNAME cannot point to itself`);
@@ -132,6 +135,7 @@ function validateRecordValues(t, data, file) {
                 const urlHost = new URL(value).host;
                 const isSelfReferencing =
                     file === "@.json" ? urlHost === "is-a.dev" : urlHost === `${subdomain}.is-a.dev`;
+
                 t.true(!isSelfReferencing, `${file}: URL cannot point to itself`);
             }
         }
@@ -139,17 +143,51 @@ function validateRecordValues(t, data, file) {
         // CAA, DS, SRV validations
         if (["CAA", "DS", "SRV"].includes(key)) {
             t.true(Array.isArray(value), `${file}: Record value for ${key} should be an array`);
+
             value.forEach((record, idx) => {
                 t.true(
                     typeof record === "object",
                     `${file}: Record value for ${key} should be an object at index ${idx}`
                 );
-                if (key === "DS") {
+
+                if (key === "CAA") {
+                    t.true(
+                        ["issue", "issuewild", "iodef"].includes(record.tag),
+                        `${file}: Invalid tag for CAA at index ${idx}`
+                    );
+                    t.true(typeof record.value === "string", `${file}: Invalid value for CAA at index ${idx}`);
+                    t.true(
+                        isValidHostname(record.value) || record.value === ";",
+                        `${file}: Value must be a hostname or semicolon for CAA at index ${idx}`
+                    );
+                } else if (key === "DS") {
                     t.true(
                         Number.isInteger(record.key_tag) && record.key_tag >= 0 && record.key_tag <= 65535,
                         `${file}: Invalid key_tag for DS at index ${idx}`
                     );
+                    t.true(
+                        Number.isInteger(record.algorithm) && record.algorithm >= 0 && record.algorithm <= 255,
+                        `${file}: Invalid algorithm for DS at index ${idx}`
+                    );
+                    t.true(
+                        Number.isInteger(record.digest_type) && record.digest_type >= 0 && record.digest_type <= 255,
+                        `${file}: Invalid digest_type for DS at index ${idx}`
+                    );
                     t.true(isValidHexadecimal(record.digest), `${file}: Invalid digest for DS at index ${idx}`);
+                } else if (key === "SRV") {
+                    t.true(
+                        Number.isInteger(record.priority) && record.priority >= 0 && record.priority <= 65535,
+                        `${file}: Invalid priority for SRV at index ${idx}`
+                    );
+                    t.true(
+                        Number.isInteger(record.weight) && record.weight >= 0 && record.weight <= 65535,
+                        `${file}: Invalid weight for SRV at index ${idx}`
+                    );
+                    t.true(
+                        Number.isInteger(record.port) && record.port >= 0 && record.port <= 65535,
+                        `${file}: Invalid port for SRV at index ${idx}`
+                    );
+                    t.true(isValidHostname(record.target), `${file}: Invalid target for SRV at index ${idx}`);
                 }
             });
         }
@@ -236,14 +274,4 @@ t("All files should have valid record types", (t) => {
     });
 
     t.pass();
-});
-
-t("All files should not have duplicate record keys", (t) => {
-    files.forEach((file) => {
-        const data = getDomainData(file);
-        const recordKeys = Object.keys(data.record);
-        const uniqueRecordKeys = new Set(recordKeys);
-
-        t.is(recordKeys.length, uniqueRecordKeys.size, `${file}: Duplicate record keys found`);
-    });
 });
