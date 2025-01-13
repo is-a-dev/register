@@ -4,7 +4,18 @@
     "email": "sevindaherath@gmail.com"
   },
   "record": {
-    "CNAME": "sevinda-herath.github.io"
+    "CNAME": "sevinda-herath.github.io",
+    "MX": ["mx.zoho.com", "mx2.zoho.com","mx3.zoho.com"],
+    "TXT": [
+      {
+        "name": "sevinda-herath",
+        "value": "v=spf1 include:zohomail.com ~all"
+      },
+      {
+        "name": "zmail._domainkey.sevinda-herath",
+        "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9J2U4yhTAMYZ7XzisF+dStyKIVOeuPekb9XnUdnXnxiGvuU+rpZ/jOuByOeeK0HuSyUW21szbuycV/xFi9KZsTehj4eR9tJc/S7Kl65k/e4Cv5ixs1E/b01jxKEj6Iu0NB2gskzNrWwrUJLLfKQY420Vg1H6s+qOE0BNabHXMlwIDAQAB"
+      }
+    ]
   },
   "proxied": true
 }
