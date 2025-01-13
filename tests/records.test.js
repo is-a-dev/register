@@ -45,7 +45,7 @@ function expandIPv6(ip) {
     return segments.map((segment) => segment.padStart(4, "0")).join(":");
 }
 
-function validateIPv4(ip, proxied, file) {
+function validateIPv4(ip, proxied) {
     const parts = ip.split(".").map(Number);
 
     if (parts.length !== 4 || parts.some((part) => isNaN(part) || part < 0 || part > 255)) return false;
@@ -191,6 +191,9 @@ t("All files should have valid record types", (t) => {
                 !recordKeys.includes("A") && !recordKeys.includes("AAAA") && !recordKeys.includes("CNAME"),
                 `${file}: URL records cannot be combined with A, AAAA, or CNAME records`
             );
+        }
+        if (data.redirect_config) {
+            t.true(recordKeys.includes("URL"), `${file}: Redirect config must be combined with a URL record`);
         }
 
         validateRecordValues(t, data, file);
