@@ -1,10 +1,10 @@
 {
   "description": "Website for Gianncarlo",
   "owner": {
-    "username": "CarloGiannattasio",
+    "username": "carlogiannattasio",
     "email": "gianncarloG@gmail.com"
   },
   "record": {
-    "CNAME": "CarloGiannattasio.github.io"
+    "CNAME": "carlogiannattasio.github.io"
   }
 }
