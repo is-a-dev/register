@@ -7,6 +7,6 @@
     "A": ["172.66.47.44", "172.66.44.212"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all",
-    "CNAME": "jumanji.vercel.app"
+    "A": ["76.76.21.21"]
   }
 }
