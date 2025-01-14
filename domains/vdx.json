@@ -1,0 +1,11 @@
+{
+    "description": "VDX.VN",
+    "repo": "https://github.com/vdx-vn",
+    "owner": {
+        "username": "vdx-bot",
+        "email": "truong@vdx.vn"
+    },
+    "record": {
+        "CNAME": "vdx.vn"
+    }
+}
