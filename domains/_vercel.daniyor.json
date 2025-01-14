@@ -1,10 +1,10 @@
 {
   "owner": {
     "username": "Daniyor2020",
-    "email": "dani.bolta87@gmail.com",
-    "discord": "1328037101639303252"
+    "email": "dani.bolta87@gmail.com"
   },
   "record": {
-    "TXT": ["vc-domain-verify=daniyor.is-a.dev,31702d316d8a4351ae9d"]
+    "TXT": "vc-domain-verify=daniyor.is-a.dev,31702d316d8a4351ae9d"
   }
 }
+
