@@ -6,6 +6,7 @@
         "email": "abineethan22@gmail.com"
     },
     "record": {
-        "CNAME": "abineethan.github.io"
+        "TXT": ["c3b2dace39a37b69a81ca5d46f7c70","v=spf1 include:zohomail.com ~all"]
+        "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
     }
 }
