@@ -3,5 +3,9 @@
   "dns": {
     "A": ["109.172.234.188"]
   },
-  "proxied": false
+  "owner": {
+    "username": "lukavache",
+    "email": "lukavacheishvili@gmail.com"
+  },
+  "proxied": true
 }
