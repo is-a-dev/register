@@ -1,11 +1,10 @@
 {
-  "owner": {
-    "username": "Daniyor2020",
-    "email": "dani.bolta87@gmail.com",
-    "discord": "1328037101639303252"
-  },
-  "record": {
-    "CNAME": "devdan-six.vercel.app"
-  }
+    "owner": {
+        "username": "Daniyor2020",
+        "email": "dani.bolta87@gmail.com",
+         "discord": "1328037101639303252"
+    },
+    "record": {
+        "A": ["76.76.21.21"]
+    }
 }
-
