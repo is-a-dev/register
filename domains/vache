@@ -1,6 +1,6 @@
 {
   "domain": "vache.is-a.dev",
-  "dns": {
+  "record": {
     "A": ["109.172.234.188"]
   },
   "owner": {
