@@ -1,0 +1,7 @@
+{
+  "domain": "vache.is-a.dev",
+  "dns": {
+    "A": ["109.172.234.188"]
+  },
+  "proxied": false
+}
