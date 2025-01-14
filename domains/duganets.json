@@ -1,0 +1,11 @@
+{
+    "description": "Initial test ",
+    "repo": "https://github.com/duganets/coolstorybot",
+    "owner": {
+        "username": "duganets",
+        "email": "duganets@gmail.com"
+    },
+    "record": {
+        "CNAME": "duganets.github.io"
+    }
+}
