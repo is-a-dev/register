@@ -1,0 +1,11 @@
+{
+  "description": "TheoRosero .is-a.dev domain",
+  "repo": "https://github.com/imtheo",
+  "owner": {
+    "username": "imtheo",
+    "email": "theomrosero@gmail.com"
+  },
+  "record": {
+    "CNAME": "imtheo.github.io"
+  }
+}
