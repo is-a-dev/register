@@ -2,5 +2,7 @@
   "owner": {
     "username": "gangov"
   },
-  "record": {}
+  "record": {
+    "A": ["46.10.52.216"]
+  }
 }
