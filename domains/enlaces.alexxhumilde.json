@@ -4,6 +4,7 @@
     "email": "alexxcrack3@gmail.com"
   },
   "record": {
-    "CNAME": "enlaces-alexxhumilde.netlify.app"
+    "CNAME": "enlaces-alexxhumilde.netlify.app",
+    "TXT": ["openai-domain-verification=dv-wtFNR52Byto21xyz9VOBwAcF"]
   }
 }
