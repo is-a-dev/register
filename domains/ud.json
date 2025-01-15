@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "umanga907",
-        "email": "umanga.907@gmail.com"
+        "email": "umanga.907@gmail.com",
+        "discord": "ud907"
     },
     "record": {
-        "CNAME": ["arya.ns.cloudflare.com", "clark.ns.cloudflare.com"]
+        "CNAME": "umanga-portfolio.vercel.app"
     }
 }
