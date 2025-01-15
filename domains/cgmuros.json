@@ -6,7 +6,7 @@
       "email": "cgmuros@gmail.com"
     },
     "record": {
-      "CNAME": "cgmuros.github.io"
+      "CNAME": "https://my-website-reflex.vercel.app/"
     },
     "proxied": true
   }
