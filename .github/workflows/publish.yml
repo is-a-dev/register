@@ -21,10 +21,15 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
+            - name: Run tests
+              run: |
+                  npm install
+                  npx ava tests/*.test.js
+
             - name: Generate creds.json
               run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
 
-            - name: Publish
+            - name: Push DNS records
               uses: is-a-dev/dnscontrol-action@main
               env:
                   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
