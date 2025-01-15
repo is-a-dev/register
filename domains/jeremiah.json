@@ -1,18 +1,11 @@
 {
-  "subdomain": "jeremiah",
-  "domain": "is-a.domain",
-  "type": "verification",
-  "status": "active",
-  "created_at": "2025-01-11T00:00:00Z",
-  "updated_at": "2025-01-11T00:00:00Z",
-  "records": [
-    {
-      "record_type": "A",
-      "value": "174.138.190.59 "
-    },
-    {
-      "record_type": "CNAME",
-      "value": "jeremiah.is-a.domain."
-    }
-  ]
+  "owner": {
+    "username": "1tsJeremiah",
+    "email": "jmatdesigns@gmail.com"
+  },
+  "record": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+  }
 }
+
