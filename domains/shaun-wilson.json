@@ -1,0 +1,11 @@
+{
+  "subdomain": "shaun-wilson",
+  "owner": {
+    "email": "shaun.w.wilson@outlook.com",
+    "github": "swilson88"
+  },
+  "record": {
+    "CNAME": "swilson88.github.io"
+  },
+  "proxied": false
+}
