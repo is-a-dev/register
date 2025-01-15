@@ -1,0 +1,10 @@
+{
+    "description": "A software development blog",
+    "owner": {
+        "username": "alexravenna",
+        "email": "alex.n.ravenna@gmail.com"
+    },
+    "record": {
+        "CNAME": "hashnode.network"
+    }
+}
