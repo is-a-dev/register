@@ -5,5 +5,10 @@
   },
   "record": {
     "URL": "https://wdh.gg/M0ttgkD"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/ns": "https://wdh.gg/pvNCdvs"
+    }
   }
 }
