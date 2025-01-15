@@ -1,8 +1,11 @@
 {
+  "description": "Personal Website for PlOszukiwacz",
+  "repo": "https://github.com/PlOszukiwaczDEV/website_new",
   "owner": {
-    "username": "PlOszukiwaczDEV"
+    "username": "PlOszukiwaczDEV",
+    "email": "ploszukiwacz1@gmail.com"
   },
   "record": {
-    "CNAME": "website-4ej.pages.dev"
+    "NS": ["jake.ns.cloudflare.com", "stephane.ns.cloudflare.com"]
   }
 }
