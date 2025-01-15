@@ -3,9 +3,9 @@
   "repo": "https://github.com/l6174/l6174.github.io",
   "owner": {
     "username": "l6174",
-    "email": "l.lawliet6174@gmail.com"
+    "email": "l6174@proton.me"
   },
   "record": {
-    "CNAME": "l6174.github.io"
+    "NS": ["armfazh.ns.cloudflare.com", "stella.ns.cloudflare.com"]
   }
 }

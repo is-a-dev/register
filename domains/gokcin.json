@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "gokcinosman",
-        "email": "osmangokcinn@gmail.com"
-    },
-    "record": {
-        "CNAME": "gokcinosman.github.io"
-    }
+  "owner": {
+    "username": "gokcinosman",
+    "email": "osmangokcinn@gmail.com"
+  },
+  "record": {
+    "CNAME": "gokcinosman.github.io"
+  }
 }

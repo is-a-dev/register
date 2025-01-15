@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "raselshikdar",
-        "email": "imrasel597@gmail.com"
-    },
-    "record": {
-        "CNAME": "rasel.pages.dev"
-    }
+  "owner": {
+    "username": "raselshikdar",
+    "email": "imrasel597@gmail.com"
+  },
+  "record": {
+    "CNAME": "rasel.pages.dev"
+  }
 }

@@ -1,0 +1,10 @@
+{
+  "description": "Main Website Of Our Company",
+  "owner": {
+    "username": "Founderfie",
+    "email": "director@founderfie.in"
+  },
+  "record": {
+    "CNAME": "edge.redirect.pizza"
+  }
+}
