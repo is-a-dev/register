@@ -6,6 +6,6 @@
         "email": "indiagauravkumar@gmail.com"
     },
     "record": {
-        "CNAME": "gaurav-self.vercel.app"
+        "TXT":["vc-domain-verify=gg.is-a.dev,c8ec34c65d82f4cb2317"] 
     }
 }
