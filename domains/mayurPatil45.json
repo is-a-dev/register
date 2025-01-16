@@ -1,0 +1,11 @@
+{
+  "description": "Mayur's .is-a.dev domain",
+  "repo": "https://github.com/mayurPatil45/Portfolio",
+  "owner": {
+    "username": "mayurPatil45",
+    "email": "patilmayur.2745@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://mayurpatil-portfolio.vercel.app"
+  }
+}
