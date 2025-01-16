@@ -1,0 +1,10 @@
+{
+  "description": "Ibrahim's Blog",
+  "owner": {
+    "username": "ibrahimshadev",
+    "email": "ibrahimshadev@gmail.com"
+  },
+  "record": {
+    "TXT": "Hello World!"
+  }
+}
