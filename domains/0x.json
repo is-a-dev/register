@@ -6,4 +6,5 @@
   "record": {
     "CNAME": "kelmedev.github.io"
   }
+  "proxied": true
 }
