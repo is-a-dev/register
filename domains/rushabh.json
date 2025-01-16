@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "rushabhcodes",
-    "email": "rushabhpatil.dev@gmail.com"
+    "email": "rushabhpatil.dev@gmail.com",
+    "discord": "_rushabh"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com."
+    "CNAME": "rushabhpatil.vercel.app"
   }
 }
