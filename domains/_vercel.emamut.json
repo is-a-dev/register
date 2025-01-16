@@ -6,6 +6,6 @@
     "email": "fabervergara@gmail.ocm"
   },
   "record": {
-    "CNAME": "emamut.vercel.app"
+    "TXT": "vc-domain-verify=emamut.is-a.dev,6d0c1b166d1fd1347e84"
   }
 }
