@@ -1,0 +1,10 @@
+{
+    "description": "A personal website",
+    "repo": "https://github.com/bittere/bittere.github.io",
+    "owner": {
+        "username": "bittere",
+    },
+    "record": {
+        "CNAME": "bittere.github.io"
+    }
+}
