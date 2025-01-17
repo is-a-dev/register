@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "DevNoxe",
-        "email": "vicktorelektrayt@gmail.com"
+        "email": "tu-correo@ejemplo.com"
     },
     "record": {
-        "RECORDTYPE": "RECORDCONTENT"
+        "CNAME": "DevNoxe.github.io"
     }
 }
