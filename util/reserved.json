@@ -47,6 +47,8 @@
     "hostmaster",
     "info",
     "infos",
+    "int",
+    "internal",
     "login",
     "logout",
     "lpt[1-9]",
