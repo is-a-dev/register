@@ -1,0 +1,21 @@
+{
+  "owner": {
+    "username": "PentSec",
+    "email": "pentsec.2@protonmail.com"
+  },
+  "record": {
+    "CNAME": "pentsec.github.io"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/gh": "https://github.com/PentSec",
+      "/dc": "https://discord.com/users/284896471210393600",
+      "/x": "https://x.com/__J3ff_",
+      "/bsky": "https://sitoz.bsky.social",
+      "/tw": "https://twitch.tv/Sitoz1",
+      "/kick": "https://kick.com/Sitoz1",
+      "/ig": "https://www.instagram.com/jeffreysfuenmayor_"
+    }
+  },
+  "proxied": true
+}

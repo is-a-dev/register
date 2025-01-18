@@ -2,8 +2,7 @@
   "description": "This is my website",
   "repo": "https://github.com/ansari-atharnadim/ansari-atharnadim.github.io",
   "owner": {
-    "username": "ansari-atharnadim",
-    "email": ""
+    "username": "ansari-atharnadim"
   },
   "record": {
     "CNAME": "ansari-atharnadim.github.io"

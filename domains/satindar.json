@@ -7,6 +7,6 @@
     "twitter": "satindar31"
   },
   "record": {
-    "CNAME": "satindar31.github.io"
+    "NS": ["brodie.ns.cloudflare.com", "jamie.ns.cloudflare.com"]
   }
 }
