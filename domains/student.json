@@ -1,7 +1,9 @@
 {
-    "description": "My api student",
-    "record": {
+  "owner": {
+      "username": "Matichelo",
+      "discord": "matichelo"
+  },
+  "record": {
       "CNAME": "k4obgxs2.up.railway.app"
-    }
   }
-  
+}
