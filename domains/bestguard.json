@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "bestguards",
+    "email": "bestguards@proton.me"
+  },
+  "record": {
+    "NS": [
+      "ns54.tr.dnsowner.com",
+      "ns55.tr.dnsowner.com"
+    ]
+  }
+}
