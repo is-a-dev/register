@@ -1,12 +1,12 @@
 {
   "description": "My personal website and blog",
-  "repo": "https://github.com/CaenJones/caenjones.github.io",
+  "repo": "https://github.com/vcc3v/vcc3v.github.io",
   "owner": {
-    "username": "CaenJones",
+    "username": "vcc3v",
     "email": "cj@caenjones.com",
     "twitter": ""
   },
   "record": {
-    "CNAME": "caenjones.github.io"
+    "CNAME": "vcc3v.github.io"
   }
 }
