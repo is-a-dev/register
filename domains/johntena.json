@@ -1,0 +1,11 @@
+{
+  "description": "Subdomain website for is-a.dev",
+  "repo": "https://github.com/johnTena/hackerportfolio",
+  "owner": {
+    "username": "johnTena",
+    "email": "secnetwork.mx13@gmail.com"
+  },
+  "record": {
+    "CNAME": "hackerportfolio"
+  }
+}
