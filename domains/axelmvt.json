@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "axelmvt",
+    "email": "axel@mvt.com.ar"
+  },
+  "record": {
+    "CNAME": "axelmvt.github.io"
+  },
+  "proxy": true
+}
