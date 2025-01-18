@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "jonatandb",
-    "email": "jonatandb@gmail.com"
-  },
-  "description": "This is for my personal website.",
-  "record": {
-    "CNAME": "jonatandb.github.io"
-  }
+    "description": "This is for my personal website.",
+    "owner": {
+        "username": "jonatandb",
+        "email": "jonatandb@gmail.com"
+    },
+    "record": {
+        "CNAME": "jonatandb.github.io"
+    }
 }
