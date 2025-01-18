@@ -4,7 +4,6 @@
       "email": "ferndani2718@gmail.com"
   },
   "record": {
-      "RECORDTYPE": "CNAME",
-      "RECORDCONTENT": "fdaniel13s.github.io"
+      "CNAME": "fdaniel13s.github.io"
   }
 }
