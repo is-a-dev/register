@@ -1,0 +1,13 @@
+{
+  "description": "Sitio personal utilizando is-a.dev",
+  "repo": "https://github.com/Capinavi/dominio-is-a.dev",
+  "owner": {
+    "username": "Capinavi",
+    "email": "daniexitoso1@gmail.com"
+  },
+  "record": {
+    "A": ["86.38.205.54"],
+    "AAAA": ["2a02:4780:10:7c49::1"]
+  },
+  "proxied": true
+}
