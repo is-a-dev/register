@@ -1,10 +1,9 @@
 {
     "owner": {
         "username": "TukozakiT",
-        "email": "thiagotukozaki@is-a.dev"
+        "email": "contato.thiagoeiji@gmail.com"
     },
     "record": {
-        "RECORDTYPE": "RECORDCONTENT"
+        "CNAME": "https://thiagotukozaki.vercel.app/"
     }
-  }
 }
