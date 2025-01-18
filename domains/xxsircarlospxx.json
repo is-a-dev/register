@@ -1,0 +1,15 @@
+{
+    "description": "My personal website",
+    "repo": "https://github.com/xXSirCarlosPXx/xXSirCarlosPXx.github.io",
+    "owner": {
+        "username": "xXSirCarlosPXx",
+        "email": "xXSirCarlosPXx@protonmail.com"
+    },
+    "record": {
+        "CNAME": "xxsircarlospxx.github.io",
+        "TXT": [
+          "fbe5ba4db48703340baa242d5b8f39", 
+          "dh=b7fb15b1678dad6022157596077add05f4e72a6a"
+        ]
+    }
+}
