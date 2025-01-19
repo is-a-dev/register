@@ -1,0 +1,11 @@
+{
+  "domain": "vache.is-a.dev",
+  "record": {
+    "A": ["109.172.234.188"]
+  },
+  "owner": {
+    "username": "lukavache",
+    "email": "lukavacheishvili@gmail.com"
+  },
+  "proxied": true
+}
