@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const domainsPath = path.resolve("domains");
-const files = fs.readdirSync(domainsPath);
+const files = fs.readdirSync(domainsPath).filter((file) => file.endsWith(".json"));
 
 const domainCache = {};
 

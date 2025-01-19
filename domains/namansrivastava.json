@@ -1,11 +1,10 @@
 {
-  "description": "Naman's personal developer website",
-  "repo": "https://github.com/naman-0804/Portfolio-Naman",
-  "owner": {
-    "username": "naman-0804",
-    "email": "namansrivastava1608@gmail.com"
-  },
-  "record": {
-    "CNAME": "naman08portfolio.vercel.app"
-  }
+    "owner": {
+        "username": "naman-0804",
+        "email": "namansrivastava1608@gmail.com",
+        "discord": "naman_1101"
+    },
+    "record": {
+        "CNAME": "naman08portfolio.vercel.app"
+    }
 }

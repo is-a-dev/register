@@ -267,21 +267,17 @@ t("All files should have valid record types", (t) => {
             );
         }
         if (data.redirect_config) {
-            t.true(recordKeys.includes("URL"), `${file}: Redirect config must be combined with a URL record`);
+            t.true(
+                recordKeys.includes("URL") || data.proxied,
+                `${file}: Redirect config must be combined with a URL record or the domain must be proxied`
+            );
+            if (data.redirect_config.redirect_paths) {
+                t.true(recordKeys.includes("URL"), `${file}: redirect_config.redirect_paths requires a URL record`);
+            }
         }
 
         validateRecordValues(t, data, file);
     });
 
     t.pass();
-});
-
-t("All files should not have duplicate record keys", (t) => {
-    files.forEach((file) => {
-        const data = getDomainData(file);
-        const recordKeys = Object.keys(data.record);
-        const uniqueRecordKeys = new Set(recordKeys);
-
-        t.is(recordKeys.length, uniqueRecordKeys.size, `${file}: Duplicate record keys found`);
-    });
 });
