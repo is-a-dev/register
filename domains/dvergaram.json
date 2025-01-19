@@ -1,0 +1,11 @@
+{
+  "description": "Publishing college related things.",
+  "repo": "https://github.com/DVergaraM/dvergaram.github.io",
+  "owner": {
+    "username": "DVergaraM",
+    "email": "vergaramartinezdaniel@gmail.com@gmail.com",
+  },
+  "record": {
+    "CNAME": "dvergaram.github.io"
+  }
+}
