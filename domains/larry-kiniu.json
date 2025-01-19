@@ -1,0 +1,11 @@
+{
+    "description": "Personal blog",
+    "repo": "https://github.com/LarryKiniu/larrykiniu.github.io",
+    "owner": {
+        "username": "LarryKiniu",
+        "email": "ngethelawrence@gmail.com"
+    },
+    "record": {
+        "CNAME": "larrykiniu.github.io"
+    }
+}
