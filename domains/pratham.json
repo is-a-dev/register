@@ -1,0 +1,12 @@
+{
+    "description": "I want this domain for my portfolio projects.",
+    "repo": "https://github.com/ThePratham28/ThePratham28.github.io",
+    "owner": {
+        "username": "ThePratham28",
+        "email": "prathamchopde31@gmail.com"
+    },
+    "record": {
+        "CNAME": "ThePratham28.github.io",
+        "A": ["75.2.60.5", "216.24.57.1", "76.76.21.21"]
+    }
+}
