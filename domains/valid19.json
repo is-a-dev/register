@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "bruh-person",
+    "email": "sonti4@outlook.com"
+  },
+  "record": {
+    "CAA": [
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "letsencrypt.org"
+      }
+    ]
+  },
+  "record": {
+    "TXT": "ym03ekNarMWcbwle73Fr5WQcODLWqZKmCKVnsExdBws"
+  },
+  "proxied": true
+}
