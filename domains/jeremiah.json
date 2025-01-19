@@ -1,11 +1,16 @@
 {
-  "owner": {
-    "username": "1tsJeremiah",
-    "email": "jmatdesigns@gmail.com"
-  },
+  "domain": "jeremiah",
   "record": {
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    "A": ["174.138.190.59"],
+    "MX": [
+      {
+        "preference": 10,
+        "exchange": "mx1.improvmx.com"
+      },
+      {
+        "preference": 20,
+        "exchange": "mx2.improvmx.com"
+      }
+    ]
   }
 }
-
