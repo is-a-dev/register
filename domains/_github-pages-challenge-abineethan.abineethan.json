@@ -6,6 +6,6 @@
         "email": "abineethan22@gmail.com"
     },
     "record": {
-        "CNAME": "abineethan.github.io"
+        "TXT": ["c3b2dace39a37b69a81ca5d46f7c70"]
     }
 }
