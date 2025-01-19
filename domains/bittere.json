@@ -1,0 +1,11 @@
+{
+    "description": "A personal website",
+    "repo": "https://github.com/bittere/bittere.github.io",
+    "owner": {
+        "username": "bittere",
+        "email": "bittere.stopping396@silomails.com"
+    },
+    "record": {
+        "CNAME": "bittere.github.io"
+    }
+}
