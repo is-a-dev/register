@@ -1,12 +1,14 @@
 {
-    "description": "My personal website",
-    "repo": "https://github.com/cgmuros",
-    "owner": {
-      "username": "cgmuros",
-      "email": "cgmuros@gmail.com"
-    },
-    "record": {
-      "URL": "https://my-website-reflex.vercel.app/"
-    },
-    "proxied": true
-  }
+  "description": "My personal website",
+  "repo": "https://github.com/cgmuros",
+  "owner": {
+    "username": "cgmuros",
+    "email": "cgmuros@gmail.com"
+  },
+  "record": {
+    "type": "CNAME",
+    "name": "cgmuros",
+    "content": "my-website-reflex.vercel.app"
+  },
+  "proxied": false
+}
