@@ -11,9 +11,9 @@
         "value": "letsencrypt.org"
       }
     ]
-  },
-  "record": {
-    "TXT": "ym03ekNarMWcbwle73Fr5WQcODLWqZKmCKVnsExdBws"
+    "A" : [
+      "147.185.221.24"
+    ]
   },
   "proxied": true
 }
