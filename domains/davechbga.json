@@ -4,6 +4,6 @@
         "email": "davechbga@gmail.com"
     },
     "record": {
-        "CNAME": "davechbga.vercel.app"
+        "TXT": "_vercel.davechbga.is-a.dev"
     }
 }
