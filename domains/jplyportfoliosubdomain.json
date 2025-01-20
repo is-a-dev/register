@@ -1,0 +1,11 @@
+{
+  "description": "Personal portfolio",
+  "repo": "https://github.com/JPLY-XYZ/PORTFOLIO",
+  "owner": {
+      "username": "JPLY-XYZ",
+      "email": "jply.xyz@gmail.com"
+  },
+  "record": {
+      "CNAME": "JPLY-XYZ"
+  }
+}
