@@ -1,0 +1,11 @@
+{
+    "description": "online chatgpt model",
+    "repo": "https://github.com/xr-coder/duck-gui",
+    "owner": {
+        "username": "xr-coder",
+        "email": "matthew.murdock.tg@gmail.com"
+    },
+    "record": {
+        "CNAME": "lunagpt.netlify.app"
+    }
+}
