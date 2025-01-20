@@ -1,0 +1,10 @@
+{
+    "subdomain": "esteuryn",
+    "owner": {
+      "email": "esteuryn2018@gmail.com"
+    },
+    "record": {
+      "CNAME": "receta-pull.vercel.app"
+    },
+    "proxied": false
+  }
