@@ -4,7 +4,7 @@
     "email": "hola@alekitopi.es"
   },
   "record": {
-    "url": "https://alekitopi.es",
-    "mx": [ "mail.alekitopi.es" ]
+    "URL": "https://alekitopi.es",
+    "MX": [ "mail.alekitopi.es" ]
   }
 }
