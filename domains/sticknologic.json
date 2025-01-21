@@ -12,5 +12,19 @@
       "ns1.heliohost.org",
       "ns2.heliohost.org"
     ]
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/sticknologic",
+      "/discord-server": "https://discord.gg/2pF332SeAq",
+      "/discord-profile": "https://discord.com/users/789710667417387058",
+      "/x": "https://x.com/sticknologic",
+      "/bsky": "https://bsky.app/profile/sticknologic.bsky.social",
+      "/itch": "https://sticknologic.itch.io/",
+      "/facebook": "https://facebook.com/sticknologic",
+      "/youtube": "https://www.youtube.com/@sticknologic",
+      "/linkedin": "https://www.linkedin.com/in/sticknologic/"
+    },
+    "redirect_paths": true
   }
 }
