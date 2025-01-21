@@ -1,0 +1,10 @@
+{
+  "description": "Portfolio de SESASAN - Desarrollador y programador full stack",
+  "owner": {
+    "username": "SESASAN",
+    "email": "sebastian.perezaraujo@outlook.com"
+  },
+  "record": {
+    "CNAME": "sesasan.netlify.app"
+  }
+}
