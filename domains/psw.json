@@ -1,0 +1,11 @@
+{
+    "description": "My netlify site",
+    "repo": "https://github.com/psw01/secret",
+    "owner": {
+        "username": "psw01",
+        "email": "in4oijga@psw.anonaddy.com"
+    },
+    "record": {
+        "A": ["75.2.60.5"]
+    }
+}
