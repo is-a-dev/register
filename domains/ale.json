@@ -1,10 +1,12 @@
 {
-  "owner": {
-    "username": "alekitopi",
-    "email": "hola@alekitopi.es"
-  },
-  "record": {
-    "URL": "https://alekitopi.es",
-    "MX": [ "mail.alekitopi.es" ]
-  }
+    "owner": {
+        "username": "alekitopi",
+        "email": "hola@alekitopi.es"
+    },
+    "record": {
+        "URL": "https://alekitopi.es",
+        "MX": [
+            "mail.alekitopi.es"
+        ]
+    }
 }
