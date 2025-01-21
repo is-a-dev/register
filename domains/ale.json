@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "alekitopi",
+    "email": "hola@alekitopi.es"
+  },
+  "record": {
+    "CNAME": "projects.alekitopi.es"
+  },
+  "proxied": true
+}
