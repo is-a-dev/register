@@ -4,7 +4,8 @@
     "email": "hola@alekitopi.es"
   },
   "record": {
-    "CNAME": "projects.alekitopi.es"
+    "url": "https://alekitopi.es",
+    "mx": [ "mail.alekitopi.es" ]
   },
   "proxied": true
 }
