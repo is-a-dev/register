@@ -1,0 +1,11 @@
+{
+    "description": "The portfolio site of Gülşah Düzgün",
+    "repo": "https://github.com/GulsahDuzgun/Portfolio",
+    "owner": {
+        "username": "GulsahDuzgun",
+        "email": "duzgun.gulsah27@gmail.com"
+    },
+    "record": {
+        "CNAME": "gulsah.netlify.app"
+    }
+}
