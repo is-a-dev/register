@@ -1,0 +1,11 @@
+{
+    "description": "rexiamu blog",
+    "repo": "https://github.com/rexiamu/rexiamu.github.io",
+    "owner": {
+        "username": "rexiamu",
+        "email": "rexiamu@gmail.com"
+    },
+    "record": {
+        "CNAME": "rexiamu.github.io"
+    }
+}
