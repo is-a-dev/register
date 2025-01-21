@@ -1,0 +1,11 @@
+{
+  "description": "Page to test web development",
+  "repo": "https://github.com/Flamiichan/rensis-webpage",
+  "owner": {
+    "username": "Flamiichan",
+    "email": "wilderccb@outlook.es"
+  },
+  "record": {
+    "CNAME": "flamiichan.github.io"
+  }
+}
