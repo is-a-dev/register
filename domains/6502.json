@@ -1,11 +1,11 @@
 {
-  "description": "Portfolio website for 6502",
-  "repo": "https://github.com/nobody5050/nobody5050.github.io",
-  "owner": {
-    "username": "Nobody5050",
-    "email": "levibelland@gmail.com"
-  },
-  "record": {
-    "CNAME": "nobody5050.github.io"
-  }
+    "description": "Portfolio website for 6502",
+    "repo": "https://github.com/nobody5050/nobody5050.github.io",
+    "owner": {
+        "username": "Nobody5050",
+        "email": "levibelland@gmail.com"
+    },
+    "record": {
+        "CNAME": "nobody5050.github.io"
+    }
 }
