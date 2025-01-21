@@ -1,0 +1,11 @@
+{
+  "description": "Timothy's Personal Website",
+  "repo": "https://github.com/tabrownies/tabrownies.github.io",
+  "owner": {
+    "username": "tabrownies",
+    "email": "tabrownies@gmail.com"
+  },
+  "record": {
+    "CNAME": "tabrownies.github.io"
+  }
+}
