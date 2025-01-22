@@ -1,11 +1,11 @@
 {
-  "description": "My Portfolio Website",
-  "repo": "https://github.com/mohd-baquir-qureshi/mohd-baquir-qureshi.github.io",
-  "owner": {
-    "username": "mohd-baquir-qureshi",
-    "email": "dumboo0798@gmail.com"
-  },
-  "record": {
-    "CNAME": "mohd-baquir-qureshi.github.io"
-  }
+    "description": "My Portfolio Website",
+    "repo": "https://github.com/mohd-baquir-qureshi/mohd-baquir-qureshi.github.io",
+    "owner": {
+        "username": "mohd-baquir-qureshi",
+        "email": "dumboo0798@gmail.com"
+    },
+    "record": {
+        "CNAME": "mohd-baquir-qureshi.github.io"
+    }
 }
