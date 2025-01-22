@@ -5,6 +5,6 @@
         "discord": "dfordp"
     },
     "record": {
-        "CNAME": "dilpreetgrover.vercel.app"
+        "TXT": "vc-domain-verify=dilpreetgrover.is-a.dev,a46f6b3fc877e4d2cbcc"
     }
 }
