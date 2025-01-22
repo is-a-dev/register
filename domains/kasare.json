@@ -1,0 +1,11 @@
+{
+    "description": "Personal Portfolio",
+    "repo": "https://github.com/blowmuffin/portfolio",
+    "owner": {
+        "username": "blowmuffin",
+        "email": "kasareayush2004@gmail.com"
+    },
+    "record": {
+        "CNAME": "blowmuffin.github.io"
+    }
+}
