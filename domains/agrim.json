@@ -1,10 +1,10 @@
 {
-  "repo": "https://github.com/Agrim-Bansal/Agrim-Bansal.github.io",
-  "owner": {
-    "username": "Agrim-Bansal",
-    "email": "agrimx2@gmail.com"
-  },
-  "record": {
-    "CNAME": "agrim-bansal.github.io"
-  }
+    "repo": "https://github.com/Agrim-Bansal/Agrim-Bansal.github.io",
+    "owner": {
+        "username": "Agrim-Bansal",
+        "email": "agrimx2@gmail.com"
+    },
+    "record": {
+        "CNAME": "agrim-bansal.github.io"
+    }
 }
