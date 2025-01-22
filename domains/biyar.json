@@ -1,0 +1,11 @@
+{
+    "description": "Biyar's personal developer website",
+    "repo": "https://github.com/BiyarHussein/BiyarHussein.github.io",
+    "owner": {
+        "username": "BiyarHussein",
+        "email": "biyar.csi2223172@spu.edu.iq"
+    },
+    "record": {
+        "CNAME": "BiyarHussein.dev"
+    }
+}
