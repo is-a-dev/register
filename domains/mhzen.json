@@ -1,11 +1,10 @@
 {
   "description": "Personal site",
-  "repo": "https://github.com/warofzen/warofzen.github.io",
   "owner": {
-    "username": "warofzen",
-    "email": "warofzen1@proton.me"
+    "username": "mhzen",
+    "email": "mhzen@proton.me"
   },
   "record": {
-    "CNAME": "warofzen.github.io"
+    "CNAME": "mhzen.pages.dev"
   }
 }
