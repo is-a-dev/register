@@ -267,7 +267,13 @@ t("All files should have valid record types", (t) => {
             );
         }
         if (data.redirect_config) {
-            t.true(recordKeys.includes("URL"), `${file}: Redirect config must be combined with a URL record`);
+            t.true(
+                recordKeys.includes("URL") || data.proxied,
+                `${file}: Redirect config must be combined with a URL record or the domain must be proxied`
+            );
+            if (data.redirect_config.redirect_paths) {
+                t.true(recordKeys.includes("URL"), `${file}: redirect_config.redirect_paths requires a URL record`);
+            }
         }
 
         validateRecordValues(t, data, file);
