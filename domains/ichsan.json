@@ -1,0 +1,11 @@
+{
+    "description": "Ichsan portfolio website and blog.",
+    "repo": "https://github.com/ichsanputr/tap-counter",
+    "owner": {
+        "username": "ichsan",
+        "email": "ichsanfadhil67@gmail.com",
+    },
+    "record": {
+        "CNAME": "ichsanputr.github.io"
+    }
+}
