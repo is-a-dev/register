@@ -14,7 +14,7 @@
   },
     "redirect_config": {
     "custom_paths": {
-      "/github": "https://github.com/devmatei"
+      "/github": "https://github.com/devmatei",
       "/hating": "https://hate.is-a.dev"
      },
     },
