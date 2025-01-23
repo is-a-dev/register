@@ -1,12 +1,12 @@
 {
-  "description": "A personal portfolio site for all my projects and commissions.",
-  "repo": "https://github.com/aakhilv/portfolio",
-  "owner": {
-    "username": "aakhilv",
-    "email": "bluninja165@gmail.com",
-    "twitter": "corruptblu"
-  },
-  "record": {
-    "CNAME": "aakhilv.github.io"
-  }
+    "description": "A personal portfolio site for all my projects and commissions.",
+    "repo": "https://github.com/aakhilv/portfolio",
+    "owner": {
+        "username": "aakhilv",
+        "email": "bluninja165@gmail.com",
+        "twitter": "corruptblu"
+    },
+    "record": {
+        "CNAME": "aakhilv.github.io"
+    }
 }
