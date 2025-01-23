@@ -19,14 +19,13 @@ concurrency:
     cancel-in-progress: true
 
 jobs:
-    dns:
-        name: DNS
+    dnscontrol:
+        name: DNSControl
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
 
-            - name: Check
-              uses: is-a-dev/dnscontrol-action@main
+            - uses: is-a-dev/dnscontrol-action@main
               with:
                   args: check
 
@@ -38,5 +37,4 @@ jobs:
 
             - run: npm install
 
-            - name: Run tests
-              run: npx ava tests/*.test.js
+            - run: npx ava tests/*.test.js
