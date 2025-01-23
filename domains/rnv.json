@@ -4,7 +4,9 @@
     "email": "arnavp651@gmail.com"
   },
   "record": {
-    "NS": ["albert.ns.cloudflare.com", "aurora.ns.cloudflare.com"]
-  }  
-    "proxied": false
+    "NS": [
+      "albert.ns.cloudflare.com",
+      "aurora.ns.cloudflare.com"
+    ]
+  }
 }
