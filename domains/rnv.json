@@ -1,9 +1,12 @@
 {
   "owner": {
     "username": "ZeroDeaths379",
-    "email": "arnavp651@gmail.com"
+    "email": "rnv@pissmail.com"
   },
   "record": {
-    "CNAME": "zerodeaths379-github-io.pages.dev"
+    "NS": [
+      "albert.ns.cloudflare.com",
+      "aurora.ns.cloudflare.com"
+    ]
   }
 }
