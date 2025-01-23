@@ -1,0 +1,11 @@
+{
+    "description": "Personal Portfolio",
+    "repo": "https://github.com/karishmapal1104/portfolio",
+    "owner": {
+        "username": "github-username",
+        "email": "karishmapal1104@gmail.com"
+    },
+    "record": {
+        "CNAME": "karishmapal1104.github.io"
+    }
+}
