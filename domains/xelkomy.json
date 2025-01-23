@@ -1,12 +1,11 @@
 {
     "repo": "https://github.com/xElkomy/xElkomy.github.io",
     "owner": {
-      "username": "xElkomy",
-      "email": "khaled.mohamed@xelkomy.com",
-      "discord": "khaledkarimeldin"
+        "username": "xElkomy",
+        "email": "khaled.mohamed@xelkomy.com",
+        "discord": "khaledkarimeldin"
     },
     "record": {
-      "URL": "blog.xelkomy.com"
+        "URL": "https://blog.xelkomy.com"
     }
-  }
-  
+}
