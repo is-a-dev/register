@@ -1,9 +1,11 @@
 {
     "owner": {
         "username": "uukelele",
+        "email":"robustrobot11@gmail.com",
         "discord": "robustrobot11"
     },
     "record": {
         "CNAME": "uukelele.ddns.net"
     }
+    "proxied":true
 }
