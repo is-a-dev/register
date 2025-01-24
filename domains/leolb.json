@@ -1,0 +1,12 @@
+{
+  "description": "Site personnel de Léo",
+  "repo": "https://github.com/leo-lb29/register",
+  "owner": {
+    "username": "leo-lb29",
+    "email": "postyourbot@gmail.com",
+    "discord": "leo.lb"
+  },
+  "record": {
+    "CNAME": "leo.dev.project-maker.fr"
+  }
+}
