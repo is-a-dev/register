@@ -5,5 +5,10 @@
   },
   "record": {
     "CNAME": "gameroman.pages.dev"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/discord": "https://discord.gg/kSMDhsSr6c"
+    }
   }
 }
