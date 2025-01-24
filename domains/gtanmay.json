@@ -1,0 +1,11 @@
+{
+  "description": "Tanmay's personal website",
+  "repo": "https://github.com/Tanmay0215/pokeapi",
+  "owner": {
+    "username": "Tanmay0215",
+    "email": "tanmaygupta.0215@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://pokeapi-eight-phi.vercel.app/"
+  }
+}
