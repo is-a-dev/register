@@ -1,0 +1,12 @@
+{
+  "description": "is-a.dev domain",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "is-a-dev",
+    "email": "[email protected]"
+  },
+  "record": {
+    "CNAME": "is-a-dev-docs.pages.dev"
+  },
+  "proxied": true
+}
