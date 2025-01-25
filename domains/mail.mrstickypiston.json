@@ -6,6 +6,7 @@
   },
 
   "record": {
-    "TXT": "v=spf1 include:_spf.mailersend.net ~all"
+    "TXT": "zoho-verification=zb27779902.zmverify.zoho.eu",
+    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"]
   }
 }

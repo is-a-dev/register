@@ -4,6 +4,6 @@
         "email": "nryadav7412@gmail.com"
     },
     "record": {
-        "CNAME": "xr-coder.github.io"
+        "NS": ["anahi.ns.cloudflare.com" , "darl.ns.cloudflare.com"]
     }
 }
