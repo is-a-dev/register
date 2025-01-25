@@ -1,0 +1,10 @@
+{
+    "description": "Personal site",
+    "repo": "https://github.com/zeerafle/zeerafle.github.io",
+    "owner": {
+        "username": "zeerafle",
+    },
+    "record": {
+        "CNAME": "zeerafle.github.io"
+    }
+}
