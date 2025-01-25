@@ -1,12 +1,11 @@
 {
   "description": "is-a.dev domain",
-  "repo": "https://github.com/is-a-dev/docs",
+  "repo": "https://github.com/jigmedradrel/register",
   "owner": {
-    "username": "is-a-dev",
-    "email": "[email protected]"
+    "username": "jigmedradrel",
+    "email": "jigmedradrel@gmail.com"
   },
   "record": {
-    "CNAME": "is-a-dev-docs.pages.dev"
-  },
-  "proxied": true
+    "URL": "https://jigme-portfolio.netlify.app"
+  }
 }
