@@ -1,0 +1,11 @@
+{
+    "description": "Project's Vault",
+    "repo": "https://github.com/rajputshashank003/Projects-Vault",
+    "owner": {
+        "username": "rajputshashank003",
+        "email": "hariomshashank@gmail.com"
+    },
+    "record": {
+        "CNAME": "projectsvault.vercel.app"
+    }
+}
