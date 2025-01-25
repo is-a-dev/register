@@ -1,0 +1,12 @@
+{
+  "description": "Documentation site for the socordia programming language",
+  "repo": "https://github.com/Socordia-Org/Socordia",
+  "owner": {
+    "username": "furesoft",
+    "email": "chris.anders@outlook.de"
+  },
+  "record": {
+    "URL": "https://furesoft.gitbook.io/socordia"
+  },
+  "proxied": false
+}

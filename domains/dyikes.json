@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "dyikes",
-        "email": "f@power.slmail.me"
-    },
-    "record": {
-        "CNAME": "dyikes.duckdns.org"
-    }
+  "owner": {
+    "username": "dyikes",
+    "email": "f@power.slmail.me"
+  },
+  "record": {
+    "CNAME": "dyikes.duckdns.org"
+  }
 }

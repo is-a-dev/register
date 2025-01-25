@@ -1,10 +1,8 @@
 {
-    "owner": {
-      "username": "aadltya"
-    },
-    "record": {
-      "TXT": [
-        "vc-domain-verify=swami.is-a.dev,ebd6de23b5512663a728"
-        ]
-    }
+  "owner": {
+    "username": "aadltya"
+  },
+  "record": {
+    "TXT": ["vc-domain-verify=swami.is-a.dev,ebd6de23b5512663a728"]
+  }
 }

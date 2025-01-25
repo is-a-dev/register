@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "dot-tsu",
-        "email": "lucanahtsu@gmail.com"
-    },
-    "record": {
-        "CNAME": "dot-tsu.github.io"
-    }
+  "owner": {
+    "username": "dot-tsu",
+    "email": "lucanahtsu@gmail.com"
+  },
+  "record": {
+    "CNAME": "dot-tsu.github.io"
+  }
 }

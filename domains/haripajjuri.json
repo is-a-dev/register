@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "haripajjuri",
-        "email": "haripajjuri@gmail.com"
-    },
-    "record": {
-        "CNAME": "haripajjuri.vercel.app"
-    }
+  "owner": {
+    "username": "haripajjuri",
+    "email": "haripajjuri@gmail.com"
+  },
+  "record": {
+    "CNAME": "haripajjuri.vercel.app"
+  }
 }

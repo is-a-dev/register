@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "glmacedo",
-        "email": "glmacedo@glmacedo.com"
-    },
-    "record": {
-        "NS": [
-            "dimitris.ns.cloudflare.com",
-            "kristin.ns.cloudflare.com"
-        ]
-    }
+  "owner": {
+    "username": "glmacedo",
+    "email": "glmacedo@glmacedo.com"
+  },
+  "record": {
+    "NS": ["dimitris.ns.cloudflare.com", "kristin.ns.cloudflare.com"]
+  }
 }

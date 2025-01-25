@@ -1,12 +1,10 @@
 {
-    "owner": {
-        "username": "noahprm",
-        "email": "contact.noahprm@gmail.com",
-        "discord": "949273553168121856"
-    },
-    "record": {
-        "A": [
-            "217.145.72.79"
-        ]
-    }
+  "owner": {
+    "username": "noahprm",
+    "email": "contact.noahprm@gmail.com",
+    "discord": "949273553168121856"
+  },
+  "record": {
+    "A": ["217.145.72.79"]
+  }
 }

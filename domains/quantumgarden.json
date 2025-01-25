@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AlejandroGomezFrieiro",
-        "email": "alejandrogomezfrieiro@gmail.com"
-    },
-    "record": {
-        "CNAME": "alejandrogomezfrieiro.github.io"
-    }
+  "owner": {
+    "username": "AlejandroGomezFrieiro",
+    "email": "alejandrogomezfrieiro@gmail.com"
+  },
+  "record": {
+    "CNAME": "alejandrogomezfrieiro.github.io"
+  }
 }
