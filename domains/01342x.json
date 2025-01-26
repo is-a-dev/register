@@ -1,12 +1,11 @@
 {
   "description": "Domain for is-a.dev",
-  #"repo": "https://github.com/is-a-dev/docs",
   "owner": {
     "username": "flexyneat",
     "email": "flexyneat@yahoo.co.uk"
   },
   "record": {
-    "CNAME": "dev.thearach.net"
+    "CNAME": "code.thearach.net"
   },
 
   "proxied": true
