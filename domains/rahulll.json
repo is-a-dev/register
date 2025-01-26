@@ -1,0 +1,12 @@
+{
+  "description": "Personal website hosted on GitHub Pages(portfolio website)",
+  "repo": "https://github.com/rahulchaudhari06/rahulll",
+  "owner": {
+    "username": "rahulchaudhari06", 
+    "email": "rahulgc545@gmail.com" 
+  },
+  "record": {
+    "CNAME": "rahulchaudhari06.github.io"
+  },
+  "proxied": false 
+}
