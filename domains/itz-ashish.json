@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/Ashishkumar448/portfolio",
+    "owner": {
+        "username": "Ashishkumar448",
+        "email": "ashishkumarjena1437@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://ashishkumar448.github.io/portfolio/"
+    }
+}
