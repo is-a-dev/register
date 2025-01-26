@@ -1,6 +1,3 @@
-{
-  "$schema": "../schemas/domain.schema.json",
-  "subdomain": "anshkabra",
   "owner": {
     "email": "anshkabra.india@gmail.com",
     "discord": "anshkabra2012"
