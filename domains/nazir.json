@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/AhmedNazir/ahmednazir.github.io",
+    "owner": {
+        "username": "AhmedNazir",
+        "email": "ahmednazir333@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://ahmednazir.github.io/"
+    }
+}
