@@ -3,6 +3,7 @@
         "username": "stormaref",
         "email": "storm.aref@gmail.com"
     },
-    "record": "stormaref.github.io"
+    "record": {
+        "CNAME": "stormaref.github.io"
     }
 }
