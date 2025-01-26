@@ -1,0 +1,11 @@
+{
+  "description": "My portfolio website",
+  "repo": "https://github.com/sunilgawai/developer-portfolio",
+  "owner": {
+    "username": "sunilgawai",
+    "email": "sunilgawai7397@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://developer-portfolio-i6zl.vercel.app"
+  }
+}
