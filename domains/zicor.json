@@ -1,0 +1,12 @@
+{
+	"description": "chat app",
+	"owner": {
+	  "username": "ZicorXXIX",
+	  "email": "manoj19.sinnur@gmail.com",
+    "discord":".zicor"
+	},
+	"record": {
+	  "CNAME": "https://jolt-sepia.vercel.app/"
+	}
+	
+  }
