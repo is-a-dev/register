@@ -1,0 +1,28 @@
+{
+  "description": "My personal website",
+  "repo": "https://github.com/pratiksh404",
+  "owner": {
+    "username": "pratiksh404",
+    "email": "[email protected]"
+  },
+  "record": {
+    "CNAME": "pratikshrestha404.com.np",
+    "A": ["190.92.174.35"],
+    "URL": "https://pratikshrestha404.com.np/",
+    "MX": [
+      "ASPMX.L.GOOGLE.COM",
+      "ASPMX1.L.GOOGLE.COM"
+      "ASPMX2.L.GOOGLE.COM"
+      "ASPMX3.L.GOOGLE.COM"
+      "ASPMX4.L.GOOGLE.COM"
+    ],
+    "TXT": "v=spf1 +a +mx +ip4:190.92.174.35 include:spf.mysecurecloudhost.com ~all",
+    "NS": [
+      "ns1.nestnepal.com",
+      "ns2.nestnepal.com",
+      "ns3.nestnepal.com",
+      "ns4.nestnepal.com"
+    ]
+  },
+  "proxied": true
+}
