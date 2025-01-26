@@ -6,6 +6,7 @@
         "email": "ahmednazir333@gmail.com"
     },
     "record": {
-        "CNAME": "https://ahmednazir.github.io/"
+        "CNAME": "https://ahmednazir.github.io/",
+        "TXT": "e329fb367d1eb6fbda1207f6dfc712"
     }
 }
