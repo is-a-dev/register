@@ -1,0 +1,11 @@
+{
+    "description": "Personal Portfolio",
+    "repo": "https://github.com/joshruds/josh",
+    "owner": {
+        "username": "joshruds",
+        "email": "joshua.ruddick@icloud.com"
+    },
+    "record": {
+        "CNAME": "joshruds.github.io"
+    }
+}
