@@ -1,0 +1,11 @@
+{
+    "description": "I will use the domain for a personal project (SaaS to manage and bill bars and restaurants) with multi-tenant architecture",
+    "repo": "https://github.com/y3sidDeve/posbar",
+    "owner": {
+        "username": "y3sidDeve",
+        "email": "ybernal317@gmail.com"
+    },
+    "record": {
+        "A": ["216.24.60.0/24"]
+    }
+}
