@@ -1,0 +1,12 @@
+{
+    "description": "Amardeep Lakshkar Portfolio",
+    "repo": "https://github.com/amardeeplakshkar/portfolio",
+    "owner": {
+      "username": "amardeeplakshkar",
+      "email": "amardeep.devs@gmail.com",
+      "discord": ""
+    },
+    "record": {
+        "CNAME": "amardeep-portfolio.vercel.app"
+    }
+}
