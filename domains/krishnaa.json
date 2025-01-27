@@ -4,7 +4,9 @@
     "email": "rpkc2003@gmail.com"
   },
   "record": {
-    "CNAME": "krishnarathore.netlify.app"
+    "A": [
+      "76.76.21.21"
+    ]
   },
-  "description": "Krishna Rathore's personal website with web scraping tools and utilities"
+  "description": "Krishna Rathore's personal website"
 }
