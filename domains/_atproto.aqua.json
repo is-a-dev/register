@@ -2,9 +2,9 @@
   "description": "domain verification for bluesky",
   "owner": {
     "username": "AquaQuokka",
-    "bluesky": "did:plc:vnxi3y6a33lh3jtnvih4tpsg"
+    "email": "aquaquokka@outlook.com"
   },
   "record": {
-    "TXT": "did:plc:vnxi3y6a33lh3jtnvih4tpsg"
+    "TXT": "did=did:plc:vnxi3y6a33lh3jtnvih4tpsg"
   }
 }
