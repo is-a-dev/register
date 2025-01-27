@@ -5,6 +5,6 @@
     "email": "aaqifshafi@gmail.com"
   },
   "record": {
-    "TXT": "vc-domain-verify=aaqif.is-a.dev,77eef1ecff0a4bec5f86"
+    "TXT": ["vc-domain-verify=aaqif.is-a.dev,77eef1ecff0a4bec5f86"]
   }
 }
