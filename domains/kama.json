@@ -1,0 +1,11 @@
+{
+  "description": "This subdomain is a portfolio",
+  "repo": "https://github.com/kama93i/portfolio",
+  "owner": {
+    "username": "kama93i",
+    "email": "borrastovarnil@gmail.com"
+  },
+  "record": {
+    "CNAME": "kama93i.github.io"
+  }
+}
