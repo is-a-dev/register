@@ -3,9 +3,9 @@
     "repo": "https://github.com/jeusbausa/jeusbausa.github.io",
     "owner": {
         "username": "jeusbausa",
-        "email": "jeusdbausa@gmail.com"
+        "email": "[email protected]"
     },
     "record": {
-        "CNAME": "jeusbausa.github.io"
+        "TXT": "42af5c69b60051f46e6b84c0688f11"
     }
 }
