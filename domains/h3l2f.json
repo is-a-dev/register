@@ -1,0 +1,12 @@
+{
+  "description": "Want a temp domain for h3l2f.site",
+  "repo": "https://github.com/h3l2f/h3l2f.github.io",
+  "owner": {
+    "username": "h3l2f",
+    "email": "trmhoang2001@gmail.com"
+  },
+  "record": {
+    "NS": "george.ns.cloudflare.com",
+    "NS", "isla.ns.cloudflare.com"
+  }
+}
