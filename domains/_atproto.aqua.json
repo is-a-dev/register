@@ -1,0 +1,10 @@
+{
+  "description": "domain verification for bluesky",
+  "owner": {
+    "username": "AquaQuokka",
+    "bluesky": "did:plc:vnxi3y6a33lh3jtnvih4tpsg"
+  },
+  "record": {
+    "TXT": "did:plc:vnxi3y6a33lh3jtnvih4tpsg"
+  }
+}
