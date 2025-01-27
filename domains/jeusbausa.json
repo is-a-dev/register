@@ -1,0 +1,11 @@
+{
+    "description": "Github page personal portfolio",
+    "repo": "https://github.com/jeusbausa/jeusbausa.github.io",
+    "owner": {
+        "username": "jeusbausa",
+        "email": "jeusdbausa@gmail.com"
+    },
+    "record": {
+        "CNAME": "jeusbausa.github.io"
+    }
+}
