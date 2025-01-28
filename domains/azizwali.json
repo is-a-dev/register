@@ -1,0 +1,11 @@
+{
+    "description": "Skyes Crawford Personal Website",
+    "repo": "https://github.com/skyescrawford/porto",
+    "owner": {
+      "username": "skyescrawford",
+      "email": "aziz_inc@apps.ipb.ac.id"
+    },
+    "record": {
+      "CNAME": "skyescrawford.github.io/porto"
+    }
+}
