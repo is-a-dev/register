@@ -1,11 +1,10 @@
 {
-    "description": "Personal Made Link Tree Styles Website",
-    "repo": "https://github.com/Rapter001/register",
     "owner": {
         "username": "Rapter001",
         "email": "rapter001yt@gmail.com"
     },
     "record": {
-        "A": ["69.197.135.202"]
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
     }
 }
