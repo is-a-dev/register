@@ -1,0 +1,11 @@
+{
+    "description": "Javi's dev website",
+    "repo": "https://github.com/itsjavi/itsjavi.github.io",
+    "owner": {
+        "username": "itsjavi",
+        "email": "[email protected]"
+    },
+    "record": {
+        "CNAME": "itsjavi.github.io"
+    }
+}
