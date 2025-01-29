@@ -1,13 +1,12 @@
 {
     "description": "portfolio page",
     "repo": "https://github.com/jiten398/portfolio-latest",
+    "preview": "https://portfolio-latest2.onrender.com/",
     "owner": {
         "username": "jiten398",
         "email": "jitendrasaraf65@gmail.com"
     },
     "record": {
-        "A": ["216.24.57.1"], // i want to manage this domain using my cloudflare account if possible please add ns otherwise just point this domain to my portfolio hosted in render thanks
-        "ns1": "pedro.ns.cloudflare.com",
-        "ns2": "brenna.ns.cloudflare.com"
+        "A": ["216.24.57.1"],
     }
 }
