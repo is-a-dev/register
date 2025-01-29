@@ -4,6 +4,12 @@
     "email": "william@is-a.dev"
   },
   "record": {
-    "URL": "https://github.com/wdhdev"
+    "URL": "https://wharrison.com.au"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/wdhdev"
+    },
+    "redirect_paths": true
   }
 }
