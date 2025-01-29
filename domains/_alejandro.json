@@ -1,0 +1,11 @@
+{
+  "description": "Describe the use of this subdomain",
+  "repo": "https://github.com/AlejandroMontoyaT/Juego-secreto",
+  "owner": {
+    "username": "AlejandroMontoyaT",
+    "email": "[]"
+  },
+  "record": {
+    "CNAME": "AlejandroMontoyaT.github.io"
+  }
+}
