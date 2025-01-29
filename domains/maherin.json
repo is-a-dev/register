@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/MaherinShaikh/Personal-Portfolio",
+    "owner": {
+        "username": "MaherinShaikh",
+        "email": "maherin2114@gmail.com"
+    },
+    "record": {
+        "CNAME": "MaherinShaikh.github.io"
+    }
+}
