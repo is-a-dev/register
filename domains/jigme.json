@@ -1,0 +1,11 @@
+{
+  "description": "is-a.dev domain",
+  "repo": "https://github.com/jigmedradrel/register",
+  "owner": {
+    "username": "jigmedradrel",
+    "email": "jigmedradrel@gmail.com"
+  },
+  "record": {
+    "URL": "https://jigme-portfolio.netlify.app"
+  }
+}
