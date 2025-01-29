@@ -1,11 +1,11 @@
 {
     "description": "Akshit's Personal Website",
-    "repo": "https://github.com/4kshi7/yzy-discography",
+    "repo": "github.com/4kshi7/akshit2k",
     "owner": {
         "username": "4kshi7",
         "email": "akshitgaur2003@gmail.com"
     },
     "record": {
-        "CNAME": "https://yzy-2k.vercel.app/"
+        "CNAME": "akshit2k.vercel.app/"
     }
 }
