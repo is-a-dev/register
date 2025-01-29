@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "anay-208",
-    "email": "admin@anayparaswani.me"
-  },
-
-  "record": {
-    "URL": "https://anayparaswani.me/"
-  }
+    "owner": {
+        "username": "anay-208",
+        "email": "me@anayparaswani.dev",
+        "discord": "anay_208"
+    },
+    "record": {
+        "URL": "https://anayparaswani.dev/"
+    }
 }

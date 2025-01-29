@@ -7,11 +7,8 @@
     "twitter": "lordlinux69"
   },
   "record": {
-    "A": ["45.90.12.31"],
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
+    "A": ["45.90.12.31", "37.114.46.37"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

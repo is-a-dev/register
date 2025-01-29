@@ -1,14 +1,11 @@
 {
+  "description": "Redirects to a random .is-a.dev site",
+  "repo": "https://github.com/gusruben/random-is-a-dev",
   "owner": {
-    "username": "EducatedSuddenBucket",
-    "email": "educatedsuddenbucket@gmail.com"
+    "username": "gusruben",
+    "email": "gusruben@protonmail.com"
   },
   "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ]
+    "A": ["173.255.236.153"]
   }
 }

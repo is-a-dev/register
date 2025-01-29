@@ -1,0 +1,12 @@
+{
+  "description": "Steake",
+  "repo": "https://github.com/Steake/about/",
+  "owner": {
+    "username": "steake",
+    "email": "ollie.steake@gmail.com",
+    "twitter": "officialELTCOIN"
+  },
+  "record": {
+    "CNAME": "steake.github.io"
+  }
+}

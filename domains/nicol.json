@@ -2,11 +2,9 @@
   "description": "Lina website",
   "repo": "https://github.com/Linadevv/Linadevv.github.io",
   "owner": {
-    "username": "Linadevv",
-    "email": "any@email",
-    "twitter": "Lina"
+    "username": "Linadevv"
   },
   "record": {
-    "CNAME": "Linadevv.github.io"
+    "CNAME": "linadevv.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-        "owner": {
-           "username": "Smalorek",
-           "email": "",
-           "discord": "286178186645995522"
-        },
-    
-        "record": {
-            "CNAME": "smalorek.github.io"
-        }
-    }
+  "owner": {
+    "username": "Smalorek",
+    "discord": "286178186645995522"
+  },
+  "record": {
+    "CNAME": "smalorek.github.io"
+  }
+}

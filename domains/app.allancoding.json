@@ -1,15 +1,14 @@
 {
     "description": "My app website for diffrent services",
     "owner": {
-      "username": "allancoding",
-      "email": "allancoding.dev@gmail.com",
-      "twitter": "allancoding",
-      "discord": "allancoding"
+        "username": "allancoding",
+        "email": "allancoding.dev@gmail.com",
+        "twitter": "allancoding",
+        "discord": "allancoding"
     },
     "record": {
-      "A": [
+        "A": [
             "206.188.218.143"
         ]
     }
-  }
-  
+}

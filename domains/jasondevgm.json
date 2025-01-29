@@ -1,0 +1,11 @@
+{
+  "description": "Personal Portfolio Website",
+  "repo": "https://github.com/jasondevgm/jasondevgm.github.io.git",
+  "owner": {
+      "username": "jasondevgm",
+      "email": "jasondevgm@gmail.com"
+    },
+  "record": {
+    "CNAME": "jasondevgm.github.io"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "description": "[MAINTANER] DEV-DIBSTER Site",
+  "owner": {
+    "username": "DEV-DIBSTER",
+    "email": "dibster+is-a-dev@danbot.host"
+  },
+  "record": {
+    "NS": ["eugene.ns.cloudflare.com", "teresa.ns.cloudflare.com"]
+  }
+}

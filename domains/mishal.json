@@ -1,11 +1,11 @@
 {
-  "repo": "https://github.com/mishalhossin/mishalhossin.github.io",
+  "repo": "https://github.com/mishl-dev/mishl-dev.github.io",
   "owner": {
-    "username": "mishalhossin",
-    "email": "mishalhossin20@gmail.com",
-    "discord": "Mishal#1916"
+    "username": "mishl-dev",
+    "email": "meow@mishl.dev",
+    "discord": "m.shl"
   },
   "record": {
-    "CNAME": "mishalhossin.github.io"
+    "CNAME": "mishl-dev.github.io"
   }
 }

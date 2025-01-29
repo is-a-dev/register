@@ -2,7 +2,6 @@
   "description": "Email alias",
   "owner": {
     "username": "QuinceTart10",
-    "email": "",
     "discord": "862644161156218891"
   },
   "record": {
@@ -10,6 +9,7 @@
       "6a43ddd802fc27e4.mx1.emailprofi.seznam.cz",
       "6a43ddd802fc27e4.mx2.emailprofi.seznam.cz"
     ],
-    "TXT": "v=spf1 include:spf.seznam.cz ~all"
+    "TXT": "v=spf1 include:spf.seznam.cz ~all",
+    "URL": "https://quincetart10.is-a.dev"
   }
 }

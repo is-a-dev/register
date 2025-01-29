@@ -1,0 +1,10 @@
+{
+  "description": "Personal site",
+  "owner": {
+    "username": "mhzen",
+    "email": "mhzen@proton.me"
+  },
+  "record": {
+    "CNAME": "mhzen.pages.dev"
+  }
+}

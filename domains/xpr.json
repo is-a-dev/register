@@ -1,0 +1,12 @@
+{
+  "description": "xprsh site",
+  "repo": "https://codeberg.org/xpr/pages",
+  "owner": {
+    "username": "xpr",
+    "email": "xpr@atl.tools",
+    "discord": "xprsh"
+  },
+  "record": {
+    "CNAME": "xpr.codeberg.page"
+  }
+}

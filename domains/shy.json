@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "ImShyMike",
-           "email": "",
-           "discord": "582648583635992622"
-        },
-    
-        "record": {
-            "CNAME": "edge.redirect.pizza"
-        }
-    }
-    
+  "owner": {
+    "username": "ImShyMike",
+    "discord": "582648583635992622"
+  },
+  "record": {
+    "CNAME": "edge.redirect.pizza"
+  }
+}
