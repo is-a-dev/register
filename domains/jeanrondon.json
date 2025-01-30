@@ -7,6 +7,6 @@
         "twitter": "r4yb4"
     },
     "record": {
-        "CNAME": "jeandv.vercel.app"
+        "TXT": "vc-domain-verify=jeanrondon.is-a.dev,2f15e077bf780283f5af"
     }
 }
