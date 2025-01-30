@@ -8,6 +8,6 @@
         "discord": "830872854677422150"
     },
     "record": {
-      "CNAME": "vinux.in"
+      "TXT": ["vc-domain-verify=vinay.is-a.dev,fbe9cb0c6fd1fdf4c943"]
     }
 }
