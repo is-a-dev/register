@@ -1,0 +1,11 @@
+{
+    "subdomain": "abdullah-al-mridul",
+    "owner": {
+        "username": "abdullah-al-mridul",
+        "email": "rim89987@gmail.com"
+    },
+    "records": {
+        "CNAME": "abdullah-al-mridul-dev.vercel.app"
+    },
+    "proxied": false
+}
