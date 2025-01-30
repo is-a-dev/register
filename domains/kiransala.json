@@ -1,4 +1,3 @@
-
 {
   "description": "My personal portfolio site",
   "owner": {
@@ -6,6 +5,9 @@
     "email": "kiransala.dev@gmail.com"
   },
   "record": {
-      "CNAME": "kiransala.netlify.app"
+    "CNAME": "kiransala.netlify.app",
+    "TXT": [
+      "google-site-verification=0FD7O7ex5REseDCXY6ITspf12vcgKjMABP8MALsE1E4"
+    ]
   }
 }
