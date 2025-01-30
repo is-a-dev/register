@@ -2,10 +2,11 @@
     "description": "Describe the use of this subdomain",
     "repo": "https://github.com/github-username/github-repository",
     "owner": {
-        "username": "nell4438",
+        "username": "_github-pages-challenge-nell4438",
         "email": "nellpunzalan@gmail.com"
     },
     "record": {
-        "CNAME": "nell4438.github.io"
+        "CNAME": "nell4438.github.io",
+        "TXT": "c4b44a10450d781b3c16da953f0bc4"
     }
 }
