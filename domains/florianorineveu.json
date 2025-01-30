@@ -1,0 +1,10 @@
+{
+  "description": "French PHP/Symfony developer",
+  "owner": {
+    "username": "florianorineveu",
+    "email": "hello@fnev.eu"
+  },
+  "record": {
+    "CNAME": "fnev.eu"
+  }
+}
