@@ -1,12 +1,10 @@
 {
-  "desription": "Code Along Selva",
-  "repo": "",
-  "owner": {
-      "username": "selva",
+    "owner": {
+      "username": "selvasankar",
       "email": "selvasankar.p@gmail.com"
     },
     "record": {
-      "URL": "https://codealongselva.com"
+      "CNAME": "https://selvasankar.github.io./"
     }
   }
   
