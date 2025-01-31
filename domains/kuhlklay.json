@@ -1,0 +1,12 @@
+{
+  "description": "Kuhlys Dev Site",
+  "repo": "https://github.com/kuhlklay/",
+  "owner": {
+    "username": "kuhlklay",
+    "email": "kuhlklay@gmail.com"
+  },
+  "record": {
+    "CNAME": "kuhlklay.github.io"
+  },
+  "proxied": true
+}
