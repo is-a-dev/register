@@ -4,6 +4,9 @@
     "discord": "poldek333"
   },
   "record": {
-    "CNAME": "poldek.pages.dev"
+    "NS": [
+      "amber.ns.cloudflare.com",
+      "konnor.ns.cloudflare.com"
+    ]
   }
 }
