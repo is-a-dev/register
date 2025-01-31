@@ -1,0 +1,16 @@
+{
+  "description": "better domain for a portfolio website and email",
+  "repo": "https://github.com/alastrantia/alastrantia.github.io",
+  "owner": {
+    "username": "alastrantia",
+    "email": "niklasnoneedtoknow@gmail.com"
+  },
+  "record": {
+    "CNAME": "alastrantia.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  },
+  "proxied": true
+}
