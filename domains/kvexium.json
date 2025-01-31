@@ -1,0 +1,12 @@
+{
+  "description": "Documentation website for Kvexium",
+  "repo": "https://github.com/kvexium/kvexium.github.io",
+  "owner": {
+    "username": "kvexium",
+    "email": "kvexium@gmail.com"
+  },
+  "record": {
+    "CNAME": "is-a-dev-docs.pages.dev"
+  },
+  "proxied": true
+}
