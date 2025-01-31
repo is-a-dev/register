@@ -4,6 +4,6 @@
     "discord": "757475933170040893"
   },
   "record": {
-    "CNAME": "ryanthedev.vercel.app"
+    "A": ["76.76.21.21"]
   }
 }
