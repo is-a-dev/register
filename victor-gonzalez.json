@@ -1,0 +1,12 @@
+{
+  "description": "Applying for an is-a.dev domain for Personal Portfolio",
+  "owner": {
+    "username": "creativo369",
+    "email": "xcreativox@gmail.com"
+  },
+  "record": {
+    "type": "A",
+    "A": ["66.228.50.120"],
+    "URL": "https://dev.victor-gonzalez.pro"
+  }
+}
