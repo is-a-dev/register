@@ -4,6 +4,9 @@
     "email": "7sz8jlw6h@mozmail.co"
   },
   "record": {
-    "CNAME": "hashnode.network"
+    "NS": [
+      "vita.ns.cloudflare.com",
+      "anderson.ns.cloudflare.com"
+    ]
   }
 }
