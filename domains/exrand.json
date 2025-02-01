@@ -4,6 +4,6 @@
         "email": "totallynota903@gmail.com"
     },
     "record": {
-        "A": "128.204.218.63"
+        "A": ["128.204.218.63"]
     }
 }
