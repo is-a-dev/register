@@ -4,9 +4,7 @@
     "email": "codesft@proton.me"
   },
   "record": {
-    "CNAME": "codesoftgit.github.io",
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    "CNAME": "codesoftgit.github.io"
   },
   "proxied": true
 }
