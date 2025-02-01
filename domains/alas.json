@@ -6,10 +6,10 @@
     "email": "niklasnoneedtoknow@gmail.com"
   },
   "record": {
-    "CNAME": "alastrantia.github.io",
+    "URL": "alastrantia.github.io",
     "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
+        "mx1.improvmx.com",
+        "mx2.improvmx.com"
     ]
   },
   "proxied": true
