@@ -5,6 +5,7 @@
         "discord": "1083854941287878726"
     },
     "record": {
+        "CNAME": "codervai.vercel.app"
         "TXT": "vc-domain-verify=nazmul.is-a.dev,741b4962f2334f48af82"
     }
 }
