@@ -6,7 +6,11 @@
   },
 
   "record": {
-    "TXT": "zoho-verification=zb27779902.zmverify.zoho.eu",
+    "TXT": [
+      "zoho-verification=zb27779902.zmverify.zoho.eu",
+      "v=spf1 include:zoho.com ~all",
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCOYU2xPqinzQEz5H9y5mBsE8Q7teQZepZZinzC20TpZPF32n9P2f+oWCCRCrTGxAoG5lnDAIVB6YaQO5qtH44b0IJtdtuLFZUeuOI1YXBV+/mbKcf2tYtFSsmcnPqEYHV7cZ0RSNdAmi3EfRuwqZHc/Uee7xvXUZ5KwU3UcbWr1wIDAQAB"
+    ],
     "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"]
   }
 }
