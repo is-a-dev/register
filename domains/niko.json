@@ -1,0 +1,11 @@
+{
+  "description": "Website for my profile",
+  "repo": "https://github.com/C-PLUS-PLUSandPYTHON/niko-schnupp.netlify.app_WebSite",
+  "owner": {
+    "username": "C-PLUS-PLUSandPYTHON",
+    "email": "niko.schnupp@web.de"
+  },
+  "record": {
+    "CNAME": "niko-schnupp.netlify.app"
+  }
+}
