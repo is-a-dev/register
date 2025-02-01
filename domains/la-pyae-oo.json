@@ -1,0 +1,12 @@
+{
+    "description": "For my static portfolio website",
+    "repo": "https://github.com/LaPyaeOo",
+    "owner": {
+        "username": "LaPyaeOo",
+        "email": "lapyaeootharthar@gmail.com"
+    },
+    "record": {
+        "CNAME": "lapyaeoo.github.io"
+    },
+    "proxied": true
+}
