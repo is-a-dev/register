@@ -1,0 +1,11 @@
+{
+    "description": "BeLeap Personal Blog",
+    "repo": "https://github.com/BeLeap/blog",
+    "owner": {
+        "username": "BeLeap",
+        "email": "beleap@beleap.dev"
+    },
+    "record": {
+        "CNAME": "beleap.dev"
+    }
+}
