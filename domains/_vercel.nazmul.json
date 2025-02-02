@@ -1,11 +1,14 @@
 {
+    "description": "Personal portfolio website",
+    "repo": "https://github.com/seraprogrammer/portfolio",
     "owner": {
         "username": "seraprogrammer",
         "email": "programmernazmul1@gmail.com",
         "discord": "1083854941287878726"
     },
     "record": {
-        "CNAME": "codervai.vercel.app"
-        "TXT": "vc-domain-verify=nazmul.is-a.dev,741b4962f2334f48af82"
-    }
+        "CNAME": "codervai.vercel.app",
+        "TXT": ["vc-domain-verify=nazmul.is-a.dev,741b4962f2334f48af82"]
+    },
+    "proxied": true
 }
