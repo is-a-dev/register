@@ -1,0 +1,12 @@
+{
+  "description": "Backend services",
+  "repo": "https://github.com/koushikromel/kosuhikromel.github.io",
+  "owner": {
+    "username": "koushikromel",
+    "email": "koushikromel@gmail.com"
+  },
+  "record": {
+    "CNAME": "koushikromel.github.io"
+  },
+  "proxied": true
+}
