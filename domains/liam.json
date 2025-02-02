@@ -8,7 +8,6 @@
             "mx1.improvmx.com",
             "mx2.improvmx.com"
         ],
-        "TXT": "forward-email=ZDEyZjU2Y2Y4YzczZWJmNS0yMTdkYmFhNjczYTUzOTE2ZDkxYzJhMTY4YTM4ZmU1NTIzMDM4ZDNiOGMxZmRkNzM2NDNjMmEyMzRkY2Y1MGZh"
-    },
-    "proxied": true
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
 }
