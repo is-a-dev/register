@@ -3,7 +3,12 @@
         "username": "liamatienza"
     },
     "record": {
-        "CNAME": "liamatienza.github.io"
+        "CNAME": "liamatienza.github.io",
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT": "forward-email=ZDEyZjU2Y2Y4YzczZWJmNS0yMTdkYmFhNjczYTUzOTE2ZDkxYzJhMTY4YTM4ZmU1NTIzMDM4ZDNiOGMxZmRkNzM2NDNjMmEyMzRkY2Y1MGZh"
     },
     "proxied": true
 }
