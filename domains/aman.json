@@ -1,0 +1,12 @@
+{
+  "name": "Aman",
+  "domain": "aman.is-a.dev",
+  "subdomain": "aman",
+  "owner": {
+    "username": "amang9446"
+    "email": "dev.aman7571@gmail.com"
+  },
+  "records": {
+    "CNAME": "dev-aman.vercel.app"
+  }
+}
