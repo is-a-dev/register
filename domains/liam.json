@@ -4,7 +4,6 @@
         "owner": "liamdev@duck.com"
     },
     "record": {
-        "CNAME": "liamatienza.github.io",
         "MX": [
             "mx1.improvmx.com",
             "mx2.improvmx.com"
