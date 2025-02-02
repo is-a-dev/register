@@ -6,7 +6,7 @@
     "email": "haiwt2xbox@gmail.com"
   },
   "record": {
-    "A": "103.228.74.49"
+    "A": ["103.228.74.49"]
   },
   "proxied": true
 }
