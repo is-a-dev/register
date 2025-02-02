@@ -6,7 +6,7 @@
   "record": {
     "CNAME": "cname.vercel-dns.com",
     "TXT": {
-      "_vercel": "vc-domain-verify=pilotseye.is-a.dev,4b9b047c169b50ff424b"
+      "_vercel.pilotseye": "vc-domain-verify=pilotseye.is-a.dev,4b9b047c169b50ff424b"
     }
   },
   "description": "PilotsEYE Studio 会计系统 - PilotsEYE Studio 的基于 Web 的会计系统"
