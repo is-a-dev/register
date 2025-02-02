@@ -5,5 +5,8 @@
     "owner": {
         "username": "Euskindar",
         "email": "julenjph@hotmail.com"
-    }
+    },
+  "record": {
+    "CNAME": "euskindar.github.io"
+  }
 }
