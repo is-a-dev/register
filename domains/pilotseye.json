@@ -4,7 +4,13 @@
     "email": "1261546255@qq.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=pilotseye.is-a.dev,4b9b047c169b50ff424b"
+      }
+    ]
   },
   "description": "PilotsEYE Studio Accounting System - A web-based accounting system for PilotsEYE Studio"
 }
