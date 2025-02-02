@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "liamatienza"
+        "username": "liamatienza",
+        "owner": "liamdev@duck.com"
     },
     "record": {
         "CNAME": "liamatienza.github.io",
