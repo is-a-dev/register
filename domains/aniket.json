@@ -1,10 +1,11 @@
 {
-    "description": "Personal Portfolio",
+    "description": "Domain that redirects to my personal portfolio",
+    "repo": "https://github.com/anikxt",
     "owner": {
         "username": "anikxt",
         "email": "aniket15304@gmail.com"
     },
     "record": {
-        "CNAME": "aniket.codes"
+        "URL": "https://aniket.codes"
     }
 }
