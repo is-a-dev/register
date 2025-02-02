@@ -1,0 +1,11 @@
+{
+    "description": "Harsh Dev Site",
+    "repo": "https://github.com/daiyaharsh90/",
+    "owner": {
+        "username": "daiyaharsh90",
+        "email": "hd@harsh.com"
+    },
+    "record": {
+        "CNAME": "daiyaharsh90.github.io"
+    }
+}
