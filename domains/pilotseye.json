@@ -4,8 +4,8 @@
     "email": "1261546255@qq.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com",
-    "proxied": true
+    "CNAME": "cname.vercel-dns.com"
   },
+  "proxy": true,
   "description": "PilotsEYE Studio 会计系统 - PilotsEYE Studio 的基于 Web 的会计系统"
 }
