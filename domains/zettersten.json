@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/zettersten/zettersten.com",
+    "owner": {
+        "username": "zettersten",
+        "email": "erik@zettersten.com"
+    },
+    "record": {
+        "CNAME": "erik5388.github.io"
+    }
+}
