@@ -1,4 +1,8 @@
 {
+  "owner": {
+    "username": "Raed",
+    "email": "contact@raed.email"
+  },
   "record": {
     "CNAME": "raed.dev"
   }
