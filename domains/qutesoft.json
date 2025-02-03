@@ -1,0 +1,11 @@
+{
+  "description": "QuteSoft website",
+  "owner": {
+    "username": "guolinux",
+    "email": "guolii2002@hotmail.com"
+  },
+  "record": {
+    "CNAME": "qutesoft.pages.dev"
+  },
+  "proxied": true
+}
