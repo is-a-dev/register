@@ -1,0 +1,10 @@
+{
+  "your-subdomain": {
+    "owner": {
+      "username": "helloromero"
+    },
+    "records": {
+      "CNAME": "helloromero.co.uk"
+    }
+  }
+}
