@@ -1,0 +1,12 @@
+{
+  "description": "Documentation website for is-a.dev",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "ryanmosz",
+    "email": "ryan.moszynski@gmail.com"
+  },
+  "record": {
+    "CNAME": "ryanmosz.github.io"
+  },
+  "proxied": true
+}
