@@ -1,0 +1,11 @@
+{
+  "description": "Documentation website for is-a.dev",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "jogecodes"
+  }
+  "record": {
+    "CNAME": "jogecodes.github.io"
+  },
+  "proxied": true
+}
