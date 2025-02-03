@@ -1,0 +1,10 @@
+{
+    "description": "parthg.is-a.dev",
+    "owner": {
+        "username": "qurius",
+        "email": "parth@bix42.com"
+    },
+    "record": {
+        "CNAME": "bix42.com"
+    }
+}
