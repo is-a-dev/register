@@ -1,0 +1,11 @@
+{
+    "description": "My portfolio",
+    "owner": {
+        "username": "daig",
+        "email": "david.echo.fox@gmail.com"
+    },
+    "record": {
+        "CNAME": "daig.github.io",
+        "TXT": "3f50047aab39bc5b7b996232d4c541"
+    }
+}
