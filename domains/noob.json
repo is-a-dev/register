@@ -1,0 +1,12 @@
+{
+    "description": "My personal portfolio site, made in nextjs",
+    "repo": "https://github.com/is-a-dev/docs",
+    "owner": {
+      "username": "IMXNOOBX",
+      "email": "me@noob.bio"
+    },
+    "record": {
+      "CNAME": "noob.bio"
+    },
+    "proxied": false
+  }
