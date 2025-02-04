@@ -1,0 +1,11 @@
+{
+  "description": "Personal website of Faizuddin",
+  "owner": {
+    "username": "thehyphen",
+    "email": "[email protected]"
+  },
+  "record": {
+    "CNAME": "faizudd.in"
+  },
+  "proxied": true
+}
