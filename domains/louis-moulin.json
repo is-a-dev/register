@@ -1,0 +1,12 @@
+{
+    "description": "Redirection to my portofolio",
+    "repo": "https://github.com/moulin-louis/",
+    "owner": {
+        "username": "moulin-louis",
+        "email": "[email protected]"
+    },
+    "record": {
+        "CNAME": "louis-portfolio.tech"
+    },
+    "proxied": true
+}
