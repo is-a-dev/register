@@ -1,1 +1,10 @@
-{}
+{
+  "description": "Marco Castignoli",
+  "owner": {
+    "username": "marcocastignoli",
+    "email": "marco@castignoli.it"
+  },
+  "record": {
+    "CNAME": "marcocastignoli.github.io"
+  }
+}
