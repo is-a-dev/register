@@ -2,9 +2,10 @@
     "description": "my personal homepage",
     "repo": "https://github.com/LinkLeong",
     "owner": {
-        "username": "linkliang",
+        "username": "LinkLeong",
         "email": "a624669980@163.com"
     },
     "record": {
+        "CNAME": "LinkLeong.github.io"
     }
 }
