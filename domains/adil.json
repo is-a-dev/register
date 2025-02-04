@@ -1,7 +1,10 @@
 {
-    "owner": {
-        "username": "adil-uddin"
-    },
+    "description": "Adil Mohammed's Home Page",
+     "repo": "https://github.com/adil-uddin",
+     "owner": {
+         "username": "adil-uddin",
+         "email": "adilaryan786@gmail.com"
+     },
     "record": {
         "CNAME": "adil-uddin.github.io"
     }
