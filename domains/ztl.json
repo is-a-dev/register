@@ -1,9 +1,11 @@
 {
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/zthanhluan/threejsdemo",
     "owner": {
-        "username": "ztl",
-        "email": "ztl.is.a.dev@gmail.com"
+        "username": "zthanhluan",
+        "email": "vuthanhluandt02@gmail.com"
     },
     "record": {
-        "CNAME": "ztl.github.io"
+        "A": ["75.2.60.5"]
     }
 }
