@@ -1,0 +1,11 @@
+{
+    "description": "Give a profesional domain to my portfolio",
+    "repo": "https://github.com/fergone03/Portfolio-Desarrollador-Web",
+    "owner": {
+        "username": "fergone03",
+        "email": "fergonesteban03@gmail.com"
+    },
+    "record": {
+        "CNAME": "devsteban-portfolio.netlify.app"
+    }
+}
