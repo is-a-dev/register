@@ -1,6 +1,9 @@
 {
   "description": "benji.is-a.dev",
   "owner": {
-    "username": "bbbenji",
-  }
+    "username": "bbbenji"
+  },
+  "record": {
+    "CNAME": "bbbenji.github.io"
+    }
 }
