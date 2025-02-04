@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "JuSfrei",
+    "email": "me@jusfrei.dev"
+  },
+  "record": {
+    "MX": ["in1-smtp.messagingengine.com", "in2-smtp.messagingengine.com"],
+    "TXT": "v=spf1 include:spf.messagingengine.com ?all"
+  }
+}
