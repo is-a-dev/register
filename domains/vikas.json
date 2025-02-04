@@ -1,7 +1,9 @@
 {
     "owner": {
-        "username": "kvikas063"
+        "username": "kvikas063",
+        "email": "vikas_063@hotmail.com"
     },
+    "description": "portofolio website.",
     "record": {
       "CNAME": "kvikas063.github.io"
     }
