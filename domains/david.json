@@ -1,1 +1,10 @@
 
+{
+    "owner": {
+        "username": "david-valdivia",
+        "email": "dev@dvaldivia.com",
+    },
+    "record": {
+        "CNAME": "dvaldivia.com"
+    }
+}
