@@ -1,0 +1,11 @@
+{
+    "description": "BuzzBox-Real Time Chat Application using socket.io",
+    "repo":"https://github.com/Phani2425/BuzzBox",
+    "owner":{
+        "username":"Phani2425",
+        "email":"mohantyphanibhusan@gmail.com"
+    },
+    "record":{
+        "URL":"https://buzz-box-psi.vercel.app/"
+    }
+}
