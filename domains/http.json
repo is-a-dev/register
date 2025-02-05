@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "tweet-machine",
+        "email": "tweetmachine@icloud.com"
+    },
+    "record": {
+        "CNAME": "tweet-machine.github.io"
+    }
+}
