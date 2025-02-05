@@ -3,6 +3,7 @@
     "username": "Houloude9IOfficial"
   },
   "record": {
-    "CNAME": "houloude9.pages.dev"
+    "CNAME": "houloude9.pages.dev",
+    "TXT": "openai-domain-verification=dv-eF8KuXcnsmnByl13xBPoD19b"
   }
 }
