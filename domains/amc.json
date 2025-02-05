@@ -1,6 +1,10 @@
 {
+    "description": "It is a portfolio",
+    "repo": "https://github.com/AdrianMartinCano/portfolio/",
+    
     "owner": {
-        "username": "AdrianMartinCano"
+        "username": "AdrianMartinCano",
+        "email": "[amc.1994.mca@gmail.com]"
     },
     "record": {
         "CNAME": "AdrianMartinCano.github.io"
