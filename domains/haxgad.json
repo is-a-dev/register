@@ -1,0 +1,11 @@
+{
+  "description": "Harsh's Website",
+  "repo": "https://github.com/haxgad/harshgadodia.github.io",
+  "owner": {
+    "username": "haxgad",
+    "email": "gadodia.harsh@gmail.com"
+  },
+  "record": {
+    "CNAME": "haxgad.github.io"
+  }
+}
