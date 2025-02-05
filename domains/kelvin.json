@@ -6,5 +6,6 @@
     },
     "record": {
         "CNAME": "kevhi.netlify.app"
-    }
+    },
+    "proxied":false
 }
