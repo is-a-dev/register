@@ -1,0 +1,10 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "gaurabh",
+  "owner": {
+    "email": "gaurabhchakraborty007@gmail.com"
+  },
+  "records": {
+    "A": ["shopforfit.com"]
+  }
+}
