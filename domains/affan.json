@@ -4,6 +4,7 @@
     "email": "affanorakzai19@gmail.com"
   },
   "record": {
-    "CNAME": "affanorakzai.us.kg"
+    "NS": "piper.ns.cloudflare.com"
+    "NS": "ridge.ns.cloudflare.com" 
   }
 }
