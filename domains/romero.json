@@ -1,7 +1,8 @@
 {
-  "your-subdomain": {
+  "owner": {
     "owner": {
-      "username": "helloromero"
+      "username": "helloromero",
+      "email": "hello@helloromero.co.uk"
     },
     "records": {
       "CNAME": "helloromero.co.uk"
