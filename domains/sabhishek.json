@@ -1,0 +1,11 @@
+{
+    "description": "Saurabh Github",
+    "repo": "https://github.com/sabhishek/saurabh",
+    "owner": {
+        "username": "sabhishek",
+        "email": "admin@sabhishek.com"
+    },
+    "record": {
+        "CNAME": "sabhishek.github.io"
+    }
+}
