@@ -4,6 +4,7 @@
     "email": "lainathannlaiv2@gmail.com"
   },
   "record": {
-    "CNAME": "webcubed.github.io"
-  }
+    "CNAME": "webcubed.pages.dev"
+  },
+  "proxied": true
 }
