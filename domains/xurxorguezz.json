@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/xurxorguezz/xurxorguezz.github.io",
+    "owner": {
+        "username": "xurxorguezz",
+        "email": "xurxorguezz@gmail.com"
+    },
+    "record": {
+        "CNAME": "xurxorguezz.github.io"
+    }
+}
