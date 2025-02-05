@@ -1,0 +1,10 @@
+{
+    "description": "Dev Site",
+    "owner": {
+        "username": "kelvinelove",
+        "email": "kevypolu@yahoo.com"
+    },
+    "record": {
+        "CNAME": "kevhi.netlify.app"
+    }
+}
