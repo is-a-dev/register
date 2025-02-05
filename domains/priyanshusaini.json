@@ -1,12 +1,10 @@
 {
     "owner": {
       "username": "priyanshusaini105",
-      "email": "isadev.0e7rj@slmail.me"
+      "email": "priyanshusaininew@gmail.com"
     },
-    "repo": "https://priyanshusaini.co",
-    "description": "Test domain for this really cool service",
     "record": {
-      "URL": "https://priyanshusaini.co"
+      "CNAME": "https://priyanshusaini.co"
     }
   }
   
