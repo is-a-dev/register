@@ -1,0 +1,11 @@
+{
+    "description": "YOUR DESCRIPTION GOES HERE",
+    "repo": "YOUR GITHUB REPO",
+    "owner": {
+        "username": "GITHUB USERNAME",
+        "email": "YOUR EMAIL"
+    },
+    "record": {
+        "CNAME": "youruser.github.io"
+    }
+}
