@@ -5,7 +5,6 @@
         "email": "mrbillionbucks@gmail.com"
     },
     "record": {
-        "A": ["127.0.0.1"]
         "CNAME": "billionbucks.github.io"
     }
 }
