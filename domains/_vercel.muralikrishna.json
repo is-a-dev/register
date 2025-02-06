@@ -4,6 +4,9 @@
         "email": "mmallela9@gmail.com"
     },
     "record": {
-        "TXT": "vc-domain-verify=muralikrishna.is-a.dev,aa4acc43d9653d1ae68d"
+        "TXT": [
+            "vc-domain-verify=muralikrishna.is-a.dev,aa4acc43d9653d1ae68d",
+            "google-site-verification=esxdL_s6QhMtgn6RmvmNK4YxmTSg7AnyTiaum7UmUFg"
+        ]
     }
 }
