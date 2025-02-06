@@ -1,12 +1,11 @@
 {
+  "description": "Personal Portfolio",
+  "repo": "https://github.com/KunalBishwal/Portfolio_IDE",
   "owner": {
-    "username": "KunalBishwal",
-    "email": "kunalbishwal2004@gmail.com",
-    "intagram": "",
-    "discord": "KunXNin#8506"
+      "username": "KunalBishwal",
+      "email": "kunalbishwal2004@gmail.com"
   },
-  "description": "I'll probably put some project pages on codexkun.is-a.dev.",
   "record": {
-    "CNAME": "KunalBishwal.github.io"
+      "CNAME": "https://portfolio-ide-zeta.vercel.app/"
   }
 }
