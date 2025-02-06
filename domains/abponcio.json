@@ -1,0 +1,11 @@
+{
+  "description": "Personal Portfolio",
+  "repo": "https://github.com/abponcio/abponcio.github.io.git",
+  "owner": {
+      "username": "abponcio",
+      "email": "abponcio@yahoo.com"
+  },
+  "record": {
+      "CNAME": "abponcio.github.io"
+  }
+}
