@@ -1,0 +1,11 @@
+{
+    "description": "subdomain for my bio page",
+    "repo": "https://https://github.com/7XDev/BioPage/",
+    "owner": {
+        "username": "7XDev",
+        "email": "mcfanboy@duck.com"
+    },
+    "record": {
+        "CNAME": "7XDev.github.io"
+    }
+}
