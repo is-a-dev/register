@@ -1,0 +1,12 @@
+{
+    "description": "Personal Portfolio Website of Tanveer Husyn",
+    "repo": "https://github.com/Tanveerhusyn/new_portfolio",
+    "owner": {
+        "username": "tanveerhusyn",
+        "email": "tanveerhussain465@gmail.com"
+    },
+    "record": {
+        "CNAME": "portfolio-tanveer.netlify.app"
+
+    }
+}

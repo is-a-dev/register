@@ -1,11 +1,12 @@
 {
-    "description": "Personal Made Link Tree Styles Website",
-    "repo": "https://github.com/Rapter001/register",
-    "owner": {
-        "username": "Rapter001",
-        "email": "rapter001yt@gmail.com"
-    },
-    "record": {
-        "A": ["69.197.135.202"]
-    }
+  "owner": {
+    "username": "Rapter001",
+    "email": "rapter001yt@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "martha.ns.cloudflare.com",
+      "quinton.ns.cloudflare.com"
+    ]
+  }
 }
