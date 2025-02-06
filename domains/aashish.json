@@ -1,0 +1,11 @@
+{
+    "description": "Hosting my personal portfolio.",
+    "repo": "https://github.com/rai-aashish/aashish-rai",
+    "owner": {
+        "username": "rai-aashish",
+        "email": "2aashishrai@gmail.com"
+    },
+    "record": {
+       "CNAME": "cname.vercel-dns.com"
+    }
+}
