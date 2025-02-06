@@ -1,0 +1,12 @@
+{
+  "description": "Register",
+  "repo": "https://github.com/Alamgir-Office/register/",
+  "owner": {
+    "username": "Alamgir-Office",
+    "email": "alamgir.main.office@gmail.com"
+  },
+  "record": {
+    "CNAME": "alamgir-office.github.io"
+  },
+  "proxied": true
+}
