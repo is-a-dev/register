@@ -1,0 +1,16 @@
+{
+  "description": "better domain for a portfolio website and email",
+  "repo": "https://github.com/lightbulb-games/lightbulb-games.github.io",
+  "owner": {
+    "username": "Lightbulb-Games",
+    "email": "joshmanjarrez13@gmail.com"
+  },
+  "record": {
+    "URL": "https://lightbulb-games.github.io/",
+    "MX": [
+        "mx1.improvmx.com",
+        "mx2.improvmx.com"
+    ]
+  }
+}
+
