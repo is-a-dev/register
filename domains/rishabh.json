@@ -1,0 +1,11 @@
+{
+    "description": "Is a dev subdomain for rishabh",
+    "repo": "https://github.com/rishabhc/rishabhc.github.io",
+    "owner": {
+        "username": "rishabhc",
+        "email": "me@rishabh.ch"
+    },
+    "record": {
+        "CNAME": "rishabhc.github.io"
+    }
+}
