@@ -1,0 +1,12 @@
+{
+  "description": "My website",
+  "repo": "https://github.com/saulmrto/saulmrto.github.io",
+  "owner": {
+    "username": "saulmrto",
+    "email": "saulmrto@gmail.com"
+  },
+  "record": {
+    "CNAME": "saulmrto.github.io"
+  },
+  "proxied": true
+}
