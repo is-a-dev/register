@@ -1,0 +1,11 @@
+{
+    "description": "My personal website",
+    "repo": "https://github.com/hariomop12/My-Webiste.git",
+    "owner": {
+        "username": "hariomop12",
+        "email": "hariomvirkhare02@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://hariomop12.github.io/My-Webiste/"
+    }
+}
