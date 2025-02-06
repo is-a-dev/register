@@ -1,0 +1,11 @@
+{
+    "description": "Dev page",
+    "repo": "https://github.com/onnijulkunen/onnijulkunen.github.io",
+    "owner": {
+        "username": "onnijulkunen",
+        "email": "julkuneno@gmail.com"
+    },
+    "record": {
+        "CNAME": "onnijulkunen.github.io"
+    }
+}
