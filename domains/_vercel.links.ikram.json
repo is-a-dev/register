@@ -5,7 +5,6 @@
     "discord": "634603202784002050"
   },
   "record": {
-    "A": ["76.76.21.21"]
-  },
-  "proxied": true
+    "TXT": "vc-domain-verify=links.ikram.is-a.dev,706c366017aed069745e"
+  }
 }
