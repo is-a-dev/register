@@ -5,7 +5,6 @@
     "email": "ducanhng.dev@gmail.com"
   },
   "record": {
-    "CNAME": "ducanhitz.github.io",
     "NS": [
             "evelyn.ns.cloudflare.com",
             "zahir.ns.cloudflare.com"
