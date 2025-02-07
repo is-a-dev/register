@@ -1,10 +1,11 @@
 {
+    "description": "Portfolio website.",
+    "repo": "https://github.com/cantcode023/bd.is-a.dev",
     "owner": {
         "username": "CantCode023",
-        "email": "cantcode023@gmail.com",
-        "discord": "bd8344"
+        "email": "cantcode023@gmail.com"
     },
     "record": {
-        "CNAME": "https://cantcode023.github.io/bd.is-a.dev/"
+        "CNAME": "cantcode023.github.io"
     }
 }
