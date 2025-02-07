@@ -2,7 +2,7 @@
   "description": "discord verification for me",
   "owner": {
     "username": "vemas23",
-    "email": "[email protected]"
+    "matrix": "@vemas:matrix.org"
   },
   "record": {
     "TXT": "dh=6ad012bd6d4129099a8921e37b185397b1c511d3"
