@@ -1,0 +1,11 @@
+{
+  "description": "my hashnode blog",
+  "owner": {
+    "username": "vemas23",
+    "email": "[email protected]"
+  },
+  "record": {
+    "CNAME": "hashnode.network"
+  },
+  "proxied": false
+}
