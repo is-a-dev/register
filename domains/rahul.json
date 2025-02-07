@@ -1,1 +1,11 @@
-
+{
+    "description": "A real-time code-sharing platform that allows developers to collaborate, edit, and share code snippets instantly. This project enables seamless coding collaboration with syntax highlighting, multi-user editing, and an intuitive interface.",
+    "repo": "https://github.com/iRahulVerma/codemirror.git",
+    "owner": {
+        "username": "iRahulVerma",
+        "email": "somnathrx@gmail.com"
+    },
+    "record": {
+        "CNAME": "github-username.github.io"
+    }
+}
