@@ -1,0 +1,11 @@
+{
+  "description": "hashnode verification",
+  "owner": {
+    "username": "vemas23",
+    "email": "[email protected]"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=vem4s.is-a.dev,3b25fb3a139f5c2544ac",
+  },
+  "proxied": false
+}
