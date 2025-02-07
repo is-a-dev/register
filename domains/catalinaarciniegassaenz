@@ -1,0 +1,10 @@
+{
+  "domain": "catalinaarciniegassaenz.is-a.dev",
+  "owner": {
+    "email": "catalinaarciniegassaenz@gmail.com"
+  },
+  "records": {
+    "CNAME": "cascodenotch.github.io/idportafolio"
+  },
+  "proxied": false
+}
