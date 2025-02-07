@@ -1,0 +1,11 @@
+{
+    "description": "Personal portfolio site for Agustin Gonzatto",
+    "owner": {
+        "username": "agustin-gonzatto",
+        "email": "gonzattoagustin1@gmail.com"
+    },
+    "record": {
+        "CNAME": "agustin-gonzatto.github.io"
+    },
+    "proxied": false
+}
