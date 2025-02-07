@@ -2,7 +2,7 @@
   "description": "my hashnode blog",
   "owner": {
     "username": "vemas23",
-    "email": "[email protected]"
+    "matrix": "@vemas:matrix.org"
   },
   "record": {
     "CNAME": "hashnode.network"
