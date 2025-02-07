@@ -1,0 +1,11 @@
+{
+    "description": "Personal website for Barış Deniz Sağlam",
+    "repo": "https://github.com/bdsaglam/bdsaglam.github.io",
+    "owner": {
+        "username": "bdsaglam",
+        "email": "bdsaglam@gmail.com"
+    },
+    "record": {
+        "CNAME": "bdsaglam.github.io"
+    }
+}
