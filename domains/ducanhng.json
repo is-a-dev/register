@@ -1,9 +1,14 @@
 {
+  "description": "Personal Website for my project (sadly with dynamic IPv4, which is why I need Cloudflare Nameservers).",
   "owner": {
     "username": "ducanhitz",
     "email": "ducanhng.dev@gmail.com"
   },
   "record": {
-    "CNAME": "ducanhitz.github.io"
+    "CNAME": "ducanhitz.github.io",
+    "NS": [
+            "evelyn.ns.cloudflare.com",
+            "zahir.ns.cloudflare.com"
+        ]
   }
 }
