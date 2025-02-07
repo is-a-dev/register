@@ -1,0 +1,11 @@
+{
+    "description": "Personal Site",
+    "repo": "https://github.com/omar-shahid/me",
+    "owner": {
+        "username": "github-username",
+        "email": "[email protected]"
+    },
+    "record": {
+        "CNAME": "omar-shahid.github.io"
+    }
+}
