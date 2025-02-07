@@ -1,0 +1,12 @@
+{
+    "description": "Portfolio website for Samuel França",
+    "repo": "https://github.com/samuelhgf/register",
+    "owner": {
+        "username": "samuelhgf",
+        "email": "samuel@samuelfranca.com.br"
+    },
+    "record": {
+        "CNAME": "samuelfranca.com.br"
+    },
+    "proxied": false
+}
