@@ -1,0 +1,11 @@
+{
+    "description": "yhkz.is-a.dev",
+    "repo": "https://github.com/yhkz/yhkz.github.io",
+    "owner": {
+        "username": "yhkz",
+        "email": "yhkz@yhkz.us.kg"
+    },
+    "record": {
+        "CNAME": "yhkz.github.io"
+    }
+}
