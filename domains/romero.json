@@ -3,7 +3,7 @@
       "username": "helloromero",
       "email": "hello@helloromero.co.uk"
     },
-    "records": {
+    "record": {
       "CNAME": "helloromero.co.uk"
     }
 }
