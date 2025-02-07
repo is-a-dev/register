@@ -1,5 +1,4 @@
 {
-    "description": "My personal homepage!",
     "repo": "https://github.com/verygafanhot",
     "owner": {
         "username": "Verygafanhot",
@@ -8,6 +7,11 @@
         "discord": "Verygafanhot"
     },
     "record": {
-        "CNAME": "verygafanhot.github.io"
+        "CNAME": "verygafanhot.github.io",
+        "MX": [
+          "mx1.improvmx.com",
+          "mx2.improvmx.com"
+        ],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 }
