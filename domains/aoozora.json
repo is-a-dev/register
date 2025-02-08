@@ -4,6 +4,10 @@
         "email": "akuummuu@gmail.com"
     },
     "record": {
+        "NS": [
+            "jason.ns.cloudflare.com",
+            "leah.ns.cloudflare.com"
+        ],
         "A": [
           "143.47.59.128"
         ]
