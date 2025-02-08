@@ -1,0 +1,10 @@
+{
+  "subdomain": "majd-s",
+  "owner": {
+    "email": "majdmsalameh99@gmail.com",
+    "github": "majdms99"
+  },
+  "records": {
+    "CNAME": "majd-ms.netlify.app"
+  }
+}
