@@ -1,0 +1,11 @@
+{
+    "description": "Use to show a personal portfolio",
+    "repo": "https://github.com/JesusVala/JesusValadez.github.io.git" ,
+    "owner": {
+        "username": "JesusVala",
+        "email": "jesusvaladezf@outlook.com"
+    },
+    "record": {
+        "CNAME": "jesusvaladez.github.io"
+    }
+}
