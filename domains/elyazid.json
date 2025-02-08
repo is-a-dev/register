@@ -6,7 +6,6 @@
     "email": "elyazid.assouli@gmail.com"
   },
   "record": {
-    "RECORDTYPE": "CNAME",
-    "RECORDCONTENT": "mrelyazid.github.io"
+    "CNAME": "mrelyazid.github.io"
   }
 }
