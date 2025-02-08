@@ -1,0 +1,11 @@
+{
+  "description": "An invetsment tracking website",
+  "repo": "https://github.com/CHlNlTO/intervestment.git",
+  "owner": {
+    "username": "CHlNlTO",
+    "email": "clark.wayne023@gmail.com"
+  },
+  "record": {
+    "CNAME": "intervestment.vercel.app"
+  }
+}

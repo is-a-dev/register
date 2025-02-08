@@ -1,0 +1,11 @@
+{
+  "description": "A web services website",
+  "repo": "https://github.com/CHlNlTO/algotrimo.git",
+  "owner": {
+    "username": "CHlNlTO",
+    "email": "clark.wayne023@gmail.com"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=algotrimo.is-a.dev,1aa415cca8eb68adc48c"
+  }
+}
