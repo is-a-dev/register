@@ -1,0 +1,12 @@
+{
+  "description": "izumie.is-a.dev subdomain",
+  "repo": "https://github.com/LexisMate/register",
+  "owner": {
+    "username": "LexisMate",
+    "email": "izumieprivateltd@gmail.com"
+  },
+  "record": {
+    "CNAME": "mr-izumie.vercel.app"
+  },
+  "proxied": true
+}
