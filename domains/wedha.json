@@ -1,0 +1,11 @@
+{
+    "description": "Personal website",
+    "repo": "https://github.com/carakawedhatama/wedha",
+    "owner": {
+      "username": "carakawedhatama",
+      "email": "carakawedhatama@gmail.com"
+    },
+    "record": {
+      "CNAME": "carakawedhatama.github.io/wedha"
+    }
+}
