@@ -1,0 +1,10 @@
+{
+    "description": "Personal website for vdoninja.",
+    "owner": {
+        "username": "1MayoBrahim",
+        "email": "mayobrahim@hotmail.com"
+    },
+    "record": {
+        "CNAME": "1MayoBrahim.github.io"
+    }
+}
