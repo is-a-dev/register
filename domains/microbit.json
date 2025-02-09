@@ -1,0 +1,10 @@
+{
+  "description": "The official Microbit OS website.",
+  "owner": {
+    "username": "xarcraft-dev",
+    "email": "batu.erinckan1@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://microbit.tiiny.site"
+  }
+}
