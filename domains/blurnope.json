@@ -1,11 +1,11 @@
 {
-  "repo": "https://github.com/blurnope/blurnope.github.io",
-  "owner": {
-    "username": "blurnope",
-    "email": "cynosuregone@gmail.com",
-    "discord": "blurnope.#2655"
-  },
-  "record": {
-    "CNAME": "blurnope.github.io"
-  }
+    "repo": "https://github.com/blurnope/blurnope.github.io",
+    "owner": {
+        "username": "blurnope",
+        "email": "cynosuregone@gmail.com",
+        "discord": "blurnope.#2655"
+    },
+    "record": {
+        "CNAME": "blurnope.github.io"
+    }
 }

@@ -1,7 +1,7 @@
 {
     "owner": {
         "username": "peme969",
-        "email": "mrcoderpeme@gmail.com"
+        "email": "me@peme969.dev"
     },
     "record": {
         "A": [
@@ -11,7 +11,7 @@
             "185.199.111.153"
         ],
         "TXT":[
-            "forward-email=NjNhNjJlMjMzOGJhMWUxNy1hOTk2MzljYmY0ZDczZWViZDY2NTljZmUwMDc4OTM5MmQ3YmVjN2RmYWEyMjFlN2VhODAxZWUwOWI5ODhhNDY2"
+            "forward-email=hello:me@peme969.dev, bot:bot@peme969.dev"
         ],
         "MX":[
             "mx1.forwardemail.net",

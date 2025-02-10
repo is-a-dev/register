@@ -1,11 +1,11 @@
 {
-  "description": "ArtieFuzzz's personal website",
-  "repo": "https://github.com/ArtieFuzzz/artiefuzzz.github.io",
-  "owner": {
-    "username": "ArtieFuzzz",
-    "email": "jardenz.den@gmail.com"
-  },
-  "record": {
-    "CNAME": "artiefuzzz.github.io"
-  }
+    "description": "ArtieFuzzz's personal website",
+    "repo": "https://github.com/ArtieFuzzz/artiefuzzz.github.io",
+    "owner": {
+        "username": "ArtieFuzzz",
+        "email": "jardenz.den@gmail.com"
+    },
+    "record": {
+        "CNAME": "artiefuzzz.github.io"
+    }
 }

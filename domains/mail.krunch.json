@@ -1,8 +1,8 @@
 {
-  "description": "ImprovMX Email",
+  "description": "ImprovMX Mail Forwarding",
   "owner": {
     "username": "RadioactivePotato",
-    "discord": "krunchiekrunch._."
+    "discord": "1166013268008120340"
   },
   "record": {
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
