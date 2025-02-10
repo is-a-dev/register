@@ -1,10 +1,13 @@
 {
-    "owner": {
-        "username": "silviosotelo",
-        "email": "silvio.sotelo@hotmail.com",
-        "discord": "422466310333530112"
-    },
-    "record": {
-        "CNAME": "silviosotelo.github.io"
-    }
+  "description": "Silvio Sotelo website",
+  "repo": "https://silviosotelo.github.io/portfolio/",
+  "owner": {
+    "username": "silviosotelo",
+    "email": "silvio.sotelo@hotmail.com",
+    "discord": "422466310333530112"
+  },
+  "record": {
+    "TXT": "1892252fb650d7f04234579b19fb76"
+  },
+  "proxied": true
 }
