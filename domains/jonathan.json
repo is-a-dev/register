@@ -1,11 +1,11 @@
 {
-  "description": "Portfolio website.",
-  "repo": "https://github.com/jonasfroeller/jonasfroeller",
+  "description": "Jonathan Geva's personal domain",
   "owner": {
-    "username": "JonathanB500",
-    "email": "jonathanbuitrago505@gmail.com"
+    "username": "jonathan-geva",
+    "email": "jonathangeva@gmail.com"
   },
   "record": {
-    "CNAME": "jonathanbuitragoroncancio.web.app"
-  }
+    "CNAME": "jonathangeva.ch"
+  },
+  "proxied": false
 }
