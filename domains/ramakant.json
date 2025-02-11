@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ramakantbot",
-        "email": "ramakantbot@duck.com"
-    },
-    "record": {
-        "CNAME": "ramakantbot.github.io"
-    }
+  "owner": {
+    "username": "ramakantbot",
+    "email": "ramakantbot@duck.com"
+  },
+  "record": {
+    "CNAME": "ramakantbot.github.io"
+  }
 }

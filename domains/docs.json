@@ -6,6 +6,7 @@
     "email": "admin@is-a.dev"
   },
   "record": {
-    "URL": "https://is-a.dev/docs"
-  }
+    "CNAME": "is-a-dev-docs.pages.dev"
+  },
+  "proxied": true
 }

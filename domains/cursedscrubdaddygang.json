@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "repo": "https://github.com/QuantumMapleQC/quantummapleqc.github.io",
-        "username": "quantummapleqc",
-        "discord": "herricksom"
-    },
-    "record": {
-        "CNAME": "quantummapleqc.github.io"
-    }
-} 
+  "owner": {
+    "repo": "https://github.com/QuantumMapleQC/quantummapleqc.github.io",
+    "username": "quantummapleqc",
+    "discord": "herricksom"
+  },
+  "record": {
+    "CNAME": "quantummapleqc.github.io"
+  }
+}

@@ -4,24 +4,12 @@
     "email": "william@is-a.dev"
   },
   "record": {
-    "NS": [
-      "ns1.william.net.au",
-      "ns0045.secondary.cloudflare.com",
-      "ns0199.secondary.cloudflare.com"
-    ],
-    "DS": [
-      {
-        "key_tag": 18485,
-        "algorithm": 8,
-        "digest_type": 2,
-        "digest": "ABFE96B99A05BD94A867C9A10820DF8DCBD5F8B6033C989B547CA06BA1052943"
-      },
-      {
-        "key_tag": 18485,
-        "algorithm": 8,
-        "digest_type": 4,
-        "digest": "8B50C488B31136F19AAE237B093EAD6CE8180EF4CFEA3A74E4C0D6FF7837AA3527C54CEA00F0283C7174C5DC30A9F6D8"
-      }
-    ]
+    "URL": "https://wharrison.com.au"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/wdhdev"
+    },
+    "redirect_paths": true
   }
 }

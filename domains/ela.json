@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "DXRdev"
-    },
-    "record": {
-        "CNAME": "dxrdev.github.io"
-    }
-} 
+  "owner": {
+    "username": "DXRdev"
+  },
+  "record": {
+    "CNAME": "dxrdev.github.io"
+  }
+}
