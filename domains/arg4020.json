@@ -1,0 +1,12 @@
+{
+  "description": "this domain is to access my nextcloudpi instance of my raspberry pi from anywhere ",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "Gamer-20A",
+    "email": "arirajd@gmail.com"
+  },
+  "record": {
+    "AAAA": "2405:201:c021:2c:753f:e415:9e84:7d19"
+  },
+  "proxied": false
+}
