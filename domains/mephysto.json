@@ -1,0 +1,10 @@
+{
+  "description": "Maurice' website",
+  "owner": {
+    "username": "mephysto",
+    "email": "maurice.melchers@gmail.com"
+  },
+  "record": {
+    "CNAME": "mephysto.io"
+  }
+}
