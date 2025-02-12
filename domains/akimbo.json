@@ -6,7 +6,7 @@
     "email": "main.akimbo@gmail.com"
   },
   "record": {
-    "cname": "nextjs-portfolio-akimbo.vercel.app"
+    "CNAME": "nextjs-portfolio-akimbo.vercel.app"
   },
   "proxied": true
 }
