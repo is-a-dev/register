@@ -6,7 +6,7 @@
     "email": "main.akimbo@gmail.com"
   },
   "record": {
-    "TXT": "vc-domain-verify=akimbo.is-a.dev,0d82109cc0dce63a4cc6"
+    "cname": "nextjs-portfolio-akimbo.vercel.app"
   },
   "proxied": true
 }
