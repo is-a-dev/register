@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/UmarSidiki/me",
+    "owner": {
+        "username": "umarsidiki",
+        "email": "siddiquiumar0007@gmail.com"
+    },
+    "record": {
+        "CNAME": "umarsidiki.github.io"
+    }
+}

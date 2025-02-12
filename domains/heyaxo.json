@@ -1,0 +1,13 @@
+{
+    "description": "My personal homepage!",
+    "repo": "https://github.com/verygafanhot",
+    "owner": {
+        "username": "Verygafanhot",
+        "email": "verygafanhot@gmail.com",
+        "twitter": "verygafanhot",
+        "discord": "Verygafanhot"
+    },
+    "record": {
+        "CNAME": "verygafanhot.github.io"
+    }
+}
