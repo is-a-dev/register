@@ -1,0 +1,11 @@
+{
+    "description": "Jason Wohlgemuth's resume",
+    "repo": "https://github.com/jhwohlgemuth/resume",
+    "owner": {
+        "username": "jhwohlgemuth",
+        "twitter": "jhwohlgemuth"
+    },
+    "record": {
+        "CNAME": "jhwohlgemuth.github.io"
+    }
+}
