@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "ronnieaban"
+        "username": "ronnieaban",
+        "email": "ronnieaban@gmail.com"
     },
     "record": {
-        "RECORDTYPE": "ronnieaban.pages.dev"
+        "CNAME": "ronnieaban.pages.dev"
     }
 }
