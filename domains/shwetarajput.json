@@ -1,0 +1,9 @@
+{
+  "domain": "shwetarajput.is-a.dev",
+  "owner": {
+    "username": "shwetarajputsk"
+  },
+  "records": {
+    "CNAME": "shwetarajput.netlify.app"
+  }
+}
