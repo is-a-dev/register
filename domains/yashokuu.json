@@ -1,0 +1,12 @@
+{
+  "description": "Protofolio of 'Yashokuu'",
+  "repo": "https://github.com/yashokuu/portfolio",
+  "owner": {
+    "username": "yashokuu",
+    "email": "yas.studios.en@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://yashokuu.github.io/portfolio/"
+  },
+  "proxied": true
+}
