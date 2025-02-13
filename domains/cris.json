@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "UnrecoverableFault",
-        "email": "carendell@me.com"
-    },
-    "record": {
-        "CNAME": "website-f1q.pages.dev"
-    }
+  "owner": {
+    "username": "UnrecoverableFault",
+    "email": "carendell@me.com"
+  },
+  "record": {
+    "CNAME": "website-f1q.pages.dev"
+  }
 }
