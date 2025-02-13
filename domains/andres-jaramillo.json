@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "andresfer1799",
-        "email": "andresfer1799@gmail.com",
-        "discord": ""
-    },
-    "record": {
-        "CNAME": "mi-portafolio-wine.vercel.app"
-    }
+  "owner": {
+    "username": "andresfer1799",
+    "email": "andresfer1799@gmail.com"
+  },
+  "record": {
+    "CNAME": "mi-portafolio-wine.vercel.app"
+  }
 }
