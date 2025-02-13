@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "zwelhtetyan",
-        "email": "zwelhtetyandev@gmail.com"
-    },
-    "record": {
-        "CNAME": "zwel.pages.dev"
-    }
+  "owner": {
+    "username": "zwelhtetyan",
+    "email": "zwelhtetyandev@gmail.com"
+  },
+  "record": {
+    "CNAME": "zwel.pages.dev"
+  }
 }

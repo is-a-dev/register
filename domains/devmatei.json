@@ -12,13 +12,11 @@
       "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIOzUFPBEQXJA2Rh16fCXNC8YASZtoVbievhK2Wwof2/nd+TGcMiLhr9BT9Iiq7pc0zOlzA5fsCYzxXRpBQqiPvXQT/gYvWaVWIJaDSiQHuiz4mA8s8PEPX/iovSZWy4cCge9Gd1WKkFJLPHqVrFnOeVCPl8xFvcKU4z4uQIDAQAB"
     ]
   },
-    "redirect_config": {
+  "redirect_config": {
     "custom_paths": {
       "/github": "https://github.com/devmatei",
       "/hating": "https://hate.is-a.dev"
-     }
-    },
-      
+    }
+  },
   "proxied": true
-
 }
