@@ -1,11 +1,11 @@
 {
-    "description": "Portfolio",
-    "repo": "https://github.com/harsh-writes-code/harsh-writes-code.github.io",
-    "owner": {
-        "username": "harsh-writes-code",
-        "email": "happydhimanbarara@gmail.com"
-    },
-    "record": {
-        "CNAME": "harsh-writes-code.github.io"
-    }
+  "description": "Portfolio",
+  "repo": "https://github.com/harsh-writes-code/harsh-writes-code.github.io",
+  "owner": {
+    "username": "harsh-writes-code",
+    "email": "happydhimanbarara@gmail.com"
+  },
+  "record": {
+    "CNAME": "harsh-writes-code.github.io"
+  }
 }

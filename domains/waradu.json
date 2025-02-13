@@ -1,10 +1,10 @@
 {
   "owner": {
-      "username": "waradu",
-      "email": "me@waradu.dev",
-      "discord": "waradu"
+    "username": "waradu",
+    "email": "me@waradu.dev",
+    "discord": "waradu"
   },
   "record": {
-      "CNAME": "portfolio-dee.pages.dev"
+    "CNAME": "portfolio-dee.pages.dev"
   }
 }
