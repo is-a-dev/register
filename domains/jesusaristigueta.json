@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "jesusaristigueta",
-        "email": "jesusaristigueta@gmail.com"
-    },
-    "record": {
-        "CNAME": "jesusaristigueta.pages.dev"
-    }
+  "owner": {
+    "username": "jesusaristigueta",
+    "email": "jesusaristigueta@gmail.com"
+  },
+  "record": {
+    "CNAME": "jesusaristigueta.pages.dev"
+  }
 }
