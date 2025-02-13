@@ -8,7 +8,7 @@
   },
   "record": {
     "URL": "https://vtwa.is-a.dev",
-    "TXT": ["zoho-verification=zb23163854.zmverify.zoho.com"],
+    "TXT": ["zoho-verification=zb23163854.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
     "MX": ["mx.zoho.com"]
   }
 }
