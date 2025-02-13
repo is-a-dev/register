@@ -4,6 +4,6 @@
         "email": "bk1030798@gmail.com"
     },
     "record": {
-        "CNAME": "statuspage.freshping.io"
+        "TXT": ["hpro7lm3n3raqogwyrdoccrrn8pvmh-c-jcnwlbsgx4"]
     }
 }
