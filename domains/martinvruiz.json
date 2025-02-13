@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "martinvruiz",
-        "email": "martinvruiz10@gmail.com",
-        "discord": "martinvruiz10"
-    },
-    "record": {
-        "CNAME": "portfoliomvr.vercel.app"
-    }
+  "owner": {
+    "username": "martinvruiz",
+    "email": "martinvruiz10@gmail.com",
+    "discord": "martinvruiz10"
+  },
+  "record": {
+    "CNAME": "portfoliomvr.vercel.app"
+  }
 }
