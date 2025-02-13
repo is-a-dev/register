@@ -1,10 +1,10 @@
 {
-    "description": "Anamay's .is-a.dev domain",
-    "owner": {
-        "username": "anamaykashiv",
-        "email": "kashiv.anamay002@gmail.com"
-    },
-    "record": {
-        "CNAME": "anamay.eu.org"
-    }
+  "description": "Anamay's .is-a.dev domain",
+  "owner": {
+    "username": "anamaykashiv",
+    "email": "kashiv.anamay002@gmail.com"
+  },
+  "record": {
+    "CNAME": "anamay.eu.org"
+  }
 }
