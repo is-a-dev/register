@@ -5,7 +5,8 @@
     "email": "hellokhangtran03@gmail.com"
   },
   "record": {
-    "CNAME": "hellokhangtran.vercel.app"
+    "CNAME": "hellokhangtran.vercel.app",
+    "TXT": ["vc-domain-verify=hellokhangtran.is-a.dev,c6412bc4cdbfa93fe3a1"]
   },
   "proxied": false
 }
