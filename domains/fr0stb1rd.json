@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "herobryne0",
-        "email": "fr0stb1rd@proton.me"
-    },
-    "record": {
-        "CNAME": "fr0stb1rd.pages.dev"
-    }
+  "owner": {
+    "username": "herobryne0",
+    "email": "fr0stb1rd@proton.me"
+  },
+  "record": {
+    "CNAME": "fr0stb1rd.pages.dev"
+  }
 }
