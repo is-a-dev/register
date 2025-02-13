@@ -2,7 +2,8 @@
     "owner": {
         "username": "Dhruvkoshta",
         "email": "dhruvkoshta@gmail.com",
-        "repo" : "https://github.com/Dhruvkoshta/Dhruvkoshta.github.io"
+        "repo" : "https://github.com/Dhruvkoshta/Dhruvkoshta.github.io",
+        "description":"portfolio site"
     },
     "record": {
         "CNAME": "dhruvkoshta.github.io"
