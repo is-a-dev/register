@@ -215,8 +215,8 @@ function validateRecordValues(t, data, file) {
                 `${urlMessage} must start with a slash, contain only alphanumeric characters, hyphens, underscores, periods, and slashes, and cannot end with a slash at index ${idx}`
             );
             t.true(
-                customPath.length >= 1 && customPath.length <= 255,
-                `${urlMessage} should be 1-255 characters long at index ${idx}`
+                customPath.length >= 2 && customPath.length <= 255,
+                `${urlMessage} should be 2-255 characters long at index ${idx}`
             );
 
             // Validate the redirect URL
@@ -265,6 +265,15 @@ t("All files should have valid record types", (t) => {
                 !recordKeys.includes("A") && !recordKeys.includes("AAAA") && !recordKeys.includes("CNAME"),
                 `${file}: URL records cannot be combined with A, AAAA, or CNAME records`
             );
+        }
+        if (data.redirect_config) {
+            t.true(
+                recordKeys.includes("URL") || data.proxied,
+                `${file}: Redirect config must be combined with a URL record or the domain must be proxied`
+            );
+            if (data.redirect_config.redirect_paths) {
+                t.true(recordKeys.includes("URL"), `${file}: redirect_config.redirect_paths requires a URL record`);
+            }
         }
 
         validateRecordValues(t, data, file);
