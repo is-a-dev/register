@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "michaelmuthomi",
-        "email": "",
-        "discord": "michaelgikunda"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=muthomi.is-a.dev,9e31bd88e28832c37f97"
-    }
+  "owner": {
+    "username": "michaelmuthomi",
+    "discord": "michaelgikunda"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=muthomi.is-a.dev,9e31bd88e28832c37f97"
+  }
 }

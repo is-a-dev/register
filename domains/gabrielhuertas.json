@@ -1,9 +1,9 @@
 {
-	"owner": {
-		"username": "GuDex-Dev",
-		"email": "gabriel.huertas.3012@gmail.com"
-	},
-	"record": {
-		"CNAME": "gudex-dev.github.io"
-	}
+  "owner": {
+    "username": "GuDex-Dev",
+    "email": "gabriel.huertas.3012@gmail.com"
+  },
+  "record": {
+    "CNAME": "gudex-dev.github.io"
+  }
 }
