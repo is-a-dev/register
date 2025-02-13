@@ -1,12 +1,11 @@
 {
-  "description": "pesonel website",
+  "description": "personel-website",
   "repo": "https://github.com/Sepultrex/sepultrex.github.io",
   "owner": {
-    "username": "sepultrex",
-    "email": "sepultrex@gmail.com"
+      "username": "sepultrex",
+      "email": "sepultrex@gmail.com"
   },
   "record": {
-    "CNAME": "sepultrex.github.io"
-  },
-  "proxied": true
+      "CNAME": "sepultrex.github.io"
+  }
 }
