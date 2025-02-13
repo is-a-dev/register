@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "PhongLi",
-        "email": "longpt1109@gmail.com",
-        "discord": "_younglin"
-    },
-    "record": {
-        "CNAME": "phonglidev.vercel.app"
-    }
+  "owner": {
+    "username": "PhongLi",
+    "email": "longpt1109@gmail.com",
+    "discord": "_younglin"
+  },
+  "record": {
+    "CNAME": "phonglidev.vercel.app"
+  }
 }

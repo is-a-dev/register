@@ -1,14 +1,11 @@
 {
-    "description": "Personal Portfolio Website",
-    "repo": "https://github.com/ifayala",
-    "owner": {
-        "username": "ifayala",
-        "email": "ivo@dailabs.io",
-        "discord": "lt_smash666"
-    },
-    "record": {
-        "A": [
-            "34.16.212.81"
-        ]
-    }
+  "description": "Personal Portfolio Website",
+  "owner": {
+    "username": "ifayala",
+    "email": "ivo@dailabs.io",
+    "discord": "lt_smash666"
+  },
+  "record": {
+    "A": ["34.16.212.81"]
+  }
 }
