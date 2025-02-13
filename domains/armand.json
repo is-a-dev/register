@@ -1,11 +1,10 @@
 {
-    "description": "Armand Jordaan's Website",
-    "repo": "https://github.com/armandjordaan",
-    "owner": {
-        "username": "armandjordaan",
-        "email": "armand.jordaan@gmail.com"
-    },
-    "record": {
-        "CNAME": "armandjordaan.github.io"
-    }
+  "description": "Armand Jordaan's Website",
+  "owner": {
+    "username": "armandjordaan",
+    "email": "armand.jordaan@gmail.com"
+  },
+  "record": {
+    "CNAME": "armandjordaan.github.io"
+  }
 }

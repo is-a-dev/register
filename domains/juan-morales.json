@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "Juanmorales1810",
-        "email": "juan.exequiel.morales@gmail.com",
-        "discord": "746910653343596574"
-    },
-    "record": {
-        "CNAME": "juan-morales.vercel.app"
-    }
+  "owner": {
+    "username": "Juanmorales1810",
+    "email": "juan.exequiel.morales@gmail.com",
+    "discord": "746910653343596574"
+  },
+  "record": {
+    "CNAME": "juan-morales.vercel.app"
+  }
 }

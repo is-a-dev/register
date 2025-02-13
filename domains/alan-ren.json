@@ -1,11 +1,10 @@
 {
-    "description": "Alan Ren's Developer Website",
-    "repo": "https://github.com/alanvww",
-    "owner": {
-        "username": "alanvww",
-        "email": "hello@me.alan.ooo"
-    },
-    "record": {
-        "URL": "https://alan.ooo"
-    }
+  "description": "Alan Ren's Developer Website",
+  "owner": {
+    "username": "alanvww",
+    "email": "hello@me.alan.ooo"
+  },
+  "record": {
+    "URL": "https://alan.ooo"
+  }
 }
