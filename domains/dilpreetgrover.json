@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "dfordp",
-        "email": "dilpreetgrover2@gmail.com",
-        "discord": "dfordp"
-    },
-    "record": {
-        "CNAME": "dilpreetgrover.vercel.app"
-    }
+  "owner": {
+    "username": "dfordp",
+    "email": "dilpreetgrover2@gmail.com",
+    "discord": "dfordp"
+  },
+  "record": {
+    "CNAME": "dilpreetgrover.vercel.app"
+  }
 }
