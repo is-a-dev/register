@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "axioris",
-        "email": "dane.foster.collins@gmail.com"
-    },
-    "record": {
-        "CNAME": "axioris.github.io"
-    }
+  "owner": {
+    "username": "axioris",
+    "email": "dane.foster.collins@gmail.com"
+  },
+  "record": {
+    "CNAME": "axioris.github.io"
+  }
 }
