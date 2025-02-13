@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "lunas-private-dungeon",
-        "email": "luna.tsx@proton.me",
-        "discord": "507625218467168257"
-    },
-    "record": {
-        "CNAME": "alisa-win95.vercel.app"
-    }
+  "owner": {
+    "username": "lunas-private-dungeon",
+    "email": "luna.tsx@proton.me",
+    "discord": "507625218467168257"
+  },
+  "record": {
+    "CNAME": "alisa-win95.vercel.app"
+  }
 }
