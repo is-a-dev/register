@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "NatanKonig",
-        "email": "natan.camargo8@gmail.com"
-    },
-    "record": {
-        "A": ["144.22.137.5"]
-    }
+  "owner": {
+    "username": "NatanKonig",
+    "email": "natan.camargo8@gmail.com"
+  },
+  "record": {
+    "A": ["144.22.137.5"]
+  }
 }
