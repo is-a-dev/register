@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "davechbga"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=davechbga.is-a.dev,54fb1a1b8fbc8affd8f7"
-    }
+  "owner": {
+    "username": "davechbga"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=davechbga.is-a.dev,54fb1a1b8fbc8affd8f7"
+  }
 }
