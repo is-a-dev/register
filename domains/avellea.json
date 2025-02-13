@@ -1,11 +1,11 @@
 {
-    "description": "Personal website.",
-    "repo": "https://github.com/Avellea/Avellea.github.io",
-    "owner": {
-        "username": "Avellea",
-        "discord": "Ave#2776"
-    },
-    "record": {
-        "CNAME": "avellea.github.io"
-    }
+  "description": "Personal website.",
+  "repo": "https://github.com/Avellea/Avellea.github.io",
+  "owner": {
+    "username": "Avellea",
+    "discord": "Ave#2776"
+  },
+  "record": {
+    "CNAME": "avellea.github.io"
+  }
 }
