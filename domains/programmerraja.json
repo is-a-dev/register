@@ -1,0 +1,11 @@
+{
+  "description": "programmerraja is.a.dev domain!",
+  "repo": "https://github.com/programmerraja/programmerraja.github.io",
+  "owner": {
+    "username": "programmerraja",
+    "email": "boooathis123@gmail.com"
+  },
+  "record": {
+    "CNAME": "programmerraja.github.io"
+  }
+}

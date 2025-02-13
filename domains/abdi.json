@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "abdiopp",
-      "email": "ginnieabdullah007@gmail.com"
-    },
-    "record": {
-      "CNAME": "abdi-portfolio.web.app"
-    }
+  "owner": {
+    "username": "abdiopp",
+    "email": "ginnieabdullah007@gmail.com"
+  },
+  "record": {
+    "CNAME": "abdi-portfolio.web.app"
   }
-  
+}

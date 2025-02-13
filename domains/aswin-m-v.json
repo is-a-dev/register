@@ -1,4 +1,3 @@
-
 {
   "description": "Personal website me , Aswin M V",
   "repo": "https://github.com/AswinArsha/mypersonalwebsite.git",
@@ -8,5 +7,5 @@
   },
   "record": {
     "CNAME": "tubular-kangaroo-60ad83.netlify.app"
-      }
+  }
 }
