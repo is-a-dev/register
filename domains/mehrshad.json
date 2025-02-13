@@ -1,4 +1,5 @@
- "description": "Overview And Introduction of Owner's Open Source Projects",
+{
+    "description": "Overview And Introduction of Owner's Open Source Projects",
     "repo": "https://github.com/SaintScraTchY/SaintScraTchY.github.io",
     "owner": {
         "username": "SaintScraTchY",
@@ -7,3 +8,4 @@
     "record": {
         "CNAME": "saintscratchy.github.io"
     }
+}
