@@ -1,11 +1,10 @@
 {
-    "description": "My personal info",
-    "repo": "https://github.com/xmars4",
-    "owner": {
-        "username": "xmars4",
-        "email": "xtruongptit@gmail.com"
-    },
-    "record": {
-        "CNAME": "xmars4.github.io"
-    }
+  "description": "My personal info",
+  "owner": {
+    "username": "xmars4",
+    "email": "xtruongptit@gmail.com"
+  },
+  "record": {
+    "CNAME": "xmars4.github.io"
+  }
 }
