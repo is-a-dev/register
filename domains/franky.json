@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "senseikoder",
-        "email": "molina.frank@gmail.com"
-    },
-    "record": {
-        "CNAME": "efrank.xyz"
-    }
+  "owner": {
+    "username": "senseikoder",
+    "email": "molina.frank@gmail.com"
+  },
+  "record": {
+    "CNAME": "efrank.xyz"
+  }
 }
