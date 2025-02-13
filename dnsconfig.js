@@ -103,6 +103,11 @@ for (var subdomain in domains) {
     if (domainData.record.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
     }
+
+    // Handle redirects
+    if (domainData.redirect_config && !domainData.record.A && !domainData.record.AAAA && !domainData.record.CNAME) {
+        records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
+    }
 }
 
 var options = {

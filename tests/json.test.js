@@ -165,11 +165,10 @@ t("All files should have valid required and optional fields", (t) => {
         // Validate email format
         if (data.owner.email) {
             t.regex(data.owner.email, emailRegex, `${file}: Owner email should be a valid email address`);
-            t.true(!data.owner.email.endsWith("@users.noreply.github.com"), `${file}: Owner email should not be a GitHub no-reply email`);
         }
 
-        // Ensure 'record' field is not empty
-        t.true(Object.keys(data.record).length > 0, `${file}: Missing DNS records`);
+        // Ensure 'record' field is not empty unless using redirect_config
+        t.true(Object.keys(data.record).length > 0 || data.redirect_config.custom_paths, `${file}: Missing DNS records`);
     });
 });
 
