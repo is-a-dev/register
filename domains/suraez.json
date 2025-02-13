@@ -1,12 +1,11 @@
 {
-    "description": "My Portfolio Website",
-    "repo": "https://github.com/Suraez/portfolio-2080",
-    "owner": {
-      "username": "suraez",
-      "email": "oberais50@gmail.com"
-    },
-    "record": {
-      "URL": "https://www.sko.com.np/"
-    }
+  "description": "My Portfolio Website",
+  "repo": "https://github.com/Suraez/portfolio-2080",
+  "owner": {
+    "username": "suraez",
+    "email": "oberais50@gmail.com"
+  },
+  "record": {
+    "URL": "https://www.sko.com.np/"
   }
-  
+}

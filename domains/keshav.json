@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "keshav-writes-code",
-        "email": "dhimankeshav201@gmail.com"
-    },
-    "record": {
-        "CNAME": "keshav-writes-code.github.io"
-    }
+  "owner": {
+    "username": "keshav-writes-code",
+    "email": "dhimankeshav201@gmail.com"
+  },
+  "record": {
+    "CNAME": "keshav-writes-code.github.io"
+  }
 }

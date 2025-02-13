@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "saert3311",
-        "email": "jose.duarte@trinum.xyz"
-    },
-    "record": {
-        "CNAME": "trinum.xyz"
-    }
+  "owner": {
+    "username": "saert3311",
+    "email": "jose.duarte@trinum.xyz"
+  },
+  "record": {
+    "CNAME": "trinum.xyz"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "lawrenceee04",
-        "email": "lawrencelg04@gmail.com"
-    },
-    "record": {
-        "CNAME": "lawrenceee04.github.io"
-    }
+  "owner": {
+    "username": "lawrenceee04",
+    "email": "lawrencelg04@gmail.com"
+  },
+  "record": {
+    "CNAME": "lawrenceee04.netlify.app"
+  }
 }
