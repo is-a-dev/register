@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "yoan-gilliand",
-        "email": "yoangilliand@gmail.com"
-    },
-    "record": {
-        "CNAME": "yoan-gilliand.vercel.app"
-    }
+  "owner": {
+    "username": "yoan-gilliand",
+    "email": "yoangilliand@gmail.com"
+  },
+  "record": {
+    "CNAME": "yoan-gilliand.vercel.app"
+  }
 }
