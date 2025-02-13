@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "hugorplobo",
-        "email": "hugorplobo@gmail.com"
-    },
-    "record": {
-        "CNAME": "hugorplobo.github.io"
-    }
+  "owner": {
+    "username": "hugorplobo",
+    "email": "hugorplobo@gmail.com"
+  },
+  "record": {
+    "CNAME": "hugorplobo.github.io"
+  }
 }
