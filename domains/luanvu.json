@@ -6,7 +6,8 @@
     "email": "dientu078@gmail.com"
   },
   "record": {
-    "CNAME": "luanvu.betaenglish.com.vn"
+    "A": "46.17.172.206"
   },
+  
   "proxied": false
 }
