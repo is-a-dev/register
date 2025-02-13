@@ -1,10 +1,10 @@
 {
-    "description": "Subdomain woohoo",
-    "owner": {
-        "username": "Nikityyy",
-        "email": "bergernikita1807@gmail.com"
-    },
-    "record": {
-        "CNAME": "nikityyy.github.io"
-    }
+  "description": "Subdomain woohoo",
+  "owner": {
+    "username": "Nikityyy",
+    "email": "bergernikita1807@gmail.com"
+  },
+  "record": {
+    "CNAME": "nikityyy.github.io"
+  }
 }
