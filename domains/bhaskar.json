@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "bhaskarrijal",
-        "email": "mail@bhaskarrijal.me"
-    },
-    "record": {
-        "CNAME": "site-52r.pages.dev"
-    }
+  "owner": {
+    "username": "bhaskarrijal",
+    "email": "mail@bhaskarrijal.me"
+  },
+  "record": {
+    "CNAME": "site-52r.pages.dev"
+  }
 }
