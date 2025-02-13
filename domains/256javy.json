@@ -1,10 +1,10 @@
 {
-    "repo": "https://github.com/256javy/256javy.github.io",
-    "owner": {
-        "username": "256javy",
-        "email": "256javiervillalba@gmail.com"
-    },
-    "record": {
-        "CNAME": "256javy.github.io"
-    }
+  "repo": "https://github.com/256javy/256javy.github.io",
+  "owner": {
+    "username": "256javy",
+    "email": "256javiervillalba@gmail.com"
+  },
+  "record": {
+    "CNAME": "256javy.github.io"
+  }
 }
