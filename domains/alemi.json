@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "alemiherbert",
-        "email": "alemiherbert@gmail.com"
-    },
-    "record": {
-        "CNAME": "alemiherbert.github.io"
-    }
+  "owner": {
+    "username": "alemiherbert",
+    "email": "alemiherbert@gmail.com"
+  },
+  "record": {
+    "CNAME": "alemiherbert.github.io"
+  }
 }

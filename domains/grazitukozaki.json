@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "GrazielyTukozaki",
-        "email": "grazitukozaki@gmail.com"
-    },
-    "record": {
+  "owner": {
+    "username": "GrazielyTukozaki",
+    "email": "grazitukozaki@gmail.com"
+  },
+  "record": {
     "CNAME": "grazi-tukozaki-dev.vercel.app"
   }
 }
-
