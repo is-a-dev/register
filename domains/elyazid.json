@@ -1,0 +1,11 @@
+{
+  "description": "Personal website",
+  "repo": "https://github.com/MrElyazid/MrElyazid.github.io",
+  "owner": {
+    "username": "MrElyazid",
+    "email": "elyazid.assouli@gmail.com"
+  },
+  "record": {
+    "CNAME": "mrelyazid.github.io"
+  }
+}
