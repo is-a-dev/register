@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "michaelmuthomi",
-        "email": "",
-        "discord": "michaelgikunda"
-    },
-    "record": {
-        "CNAME": "michael-portfolio-green.vercel.app"
-    }
+  "owner": {
+    "username": "michaelmuthomi",
+    "discord": "michaelgikunda"
+  },
+  "record": {
+    "CNAME": "michael-portfolio-green.vercel.app"
+  }
 }

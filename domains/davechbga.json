@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "davechbga"
-    },
-    "record": {
-        "CNAME": "davechbga.vercel.app"
-    }
+  "owner": {
+    "username": "davechbga"
+  },
+  "record": {
+    "CNAME": "davechbga.vercel.app"
+  }
 }
