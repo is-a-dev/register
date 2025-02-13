@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "isturiz",
-        "email": ""
-    },
-    "record": {
-        "CNAME": "isturiz.vercel.app"
-    }
+  "owner": {
+    "username": "isturiz"
+  },
+  "record": {
+    "CNAME": "isturiz.vercel.app"
+  }
 }

@@ -1,11 +1,10 @@
 {
-    "description": "Pool full of Diamonds",
-    "repo": "https://github.com/SatyamIsSatyam",
-    "owner": {
-        "username": "SatyamIsSatyam",
-        "email": "realsatyam02@gmail.com"
-    },
-    "record": {
-        "CNAME": "satyamissatyam.github.io"
-    }
+  "description": "Pool full of Diamonds",
+  "owner": {
+    "username": "SatyamIsSatyam",
+    "email": "realsatyam02@gmail.com"
+  },
+  "record": {
+    "CNAME": "satyamissatyam.github.io"
+  }
 }
