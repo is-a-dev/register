@@ -1,6 +1,8 @@
 {
     "owner": {
-        "username": "Dhruvkoshta"
+        "username": "Dhruvkoshta",
+        "email": "dhruvkoshta@gmail.com",
+        "repo" : "https://github.com/Dhruvkoshta/Dhruvkoshta.github.io"
     },
     "record": {
         "CNAME": "dhruvkoshta.github.io"
