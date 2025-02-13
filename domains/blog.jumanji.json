@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "heyjumanji"
-    },
-    "record": {
-        "CNAME": "jumanjiblogs.vercel.app"
-    }
+  "owner": {
+    "username": "heyjumanji"
+  },
+  "record": {
+    "CNAME": "jumanjiblogs.vercel.app"
+  }
 }
