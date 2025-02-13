@@ -1,11 +1,11 @@
 {
-    "description": "Personal website",
-    "repo": "https://github.com/MarsCapone/marscapone.github.io",
-    "owner": {
-        "username": "MarsCapone",
-        "email": "samson@danziger.uk"
-    },
-    "record": {
-        "CNAME": "marscapone.github.io"
-    }
+  "description": "Personal website",
+  "repo": "https://github.com/MarsCapone/marscapone.github.io",
+  "owner": {
+    "username": "MarsCapone",
+    "email": "samson@danziger.uk"
+  },
+  "record": {
+    "CNAME": "marscapone.github.io"
+  }
 }
