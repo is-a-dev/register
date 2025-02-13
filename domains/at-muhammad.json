@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "xgovernor",
-        "email": "abutahermuhammad@outlook.com",
-        "description": "Portfolio website of Abu Taher Muhammad"
-    },
-    "record": {
-        "CNAME": "at-mah.vercel.app"
-    }
+  "owner": {
+    "username": "xgovernor",
+    "email": "abutahermuhammad@outlook.com",
+    "description": "Portfolio website of Abu Taher Muhammad"
+  },
+  "record": {
+    "CNAME": "at-mah.vercel.app"
+  }
 }
