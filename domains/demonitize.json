@@ -6,7 +6,6 @@
     "discord": "demonitize"
   },
   "description": "Probably will use this to redirect to GitHub, because custom domain look cool",
-  "repo": "https://github.com/demonitize",
   "record": {
     "URL": "https://github.com/demonitize",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
