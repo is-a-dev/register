@@ -1,4 +1,8 @@
 [
+    "_acme-challenge.www",
+    "_atproto.www",
+    "_discord.www",
+    "_vercel.www",
     "account",
     "accounts",
     "admin",
