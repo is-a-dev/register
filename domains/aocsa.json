@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "aocsa",
-        "email": "alexander.ocsa@gmail.com"
-    },
-    "record": {
-        "CNAME": "aocsa.github.io"
-    }
+  "owner": {
+    "username": "aocsa",
+    "email": "alexander.ocsa@gmail.com"
+  },
+  "record": {
+    "CNAME": "aocsa.github.io"
+  }
 }

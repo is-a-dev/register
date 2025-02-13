@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "shari003",
-        "email": "shri.harii@hotmail.com",
-        "discord": "744620219976253481"
-    },
-    "record": {
-        "CNAME": "shriharidev.vercel.app"
-    }
+  "owner": {
+    "username": "shari003",
+    "email": "shri.harii@hotmail.com",
+    "discord": "744620219976253481"
+  },
+  "record": {
+    "CNAME": "shriharidev.vercel.app"
+  }
 }
