@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "jpsantistebanq",
-        "email": "jpsantq@gmail.com"
-    },
-    "record": {
-        "CNAME": "jpsantistebanq.github.io"
-    }
+  "owner": {
+    "username": "jpsantistebanq",
+    "email": "jpsantq@gmail.com"
+  },
+  "record": {
+    "CNAME": "jpsantistebanq.github.io"
+  }
 }

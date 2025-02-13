@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "amitbartfeld",
-        "email": "amitbartfeld@gmail.com"
-    },
-    "record": {
-        "CNAME": "amithost.com"
-    }
+  "owner": {
+    "username": "amitbartfeld",
+    "email": "amitbartfeld@gmail.com"
+  },
+  "record": {
+    "CNAME": "amithost.com"
+  }
 }
