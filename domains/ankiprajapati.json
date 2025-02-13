@@ -1,10 +1,10 @@
 {
-    "description": "ankit Prajapati.",
-    "repo": "https://github.com/ankiprajapati/ankiprajapati.github.io",
-    "owner": {
-        "username": "ankiprajapati"
-    },
-    "record": {
-        "CNAME": "ankiprajapati.github.io"
-    }
+  "description": "ankit Prajapati.",
+  "repo": "https://github.com/ankiprajapati/ankiprajapati.github.io",
+  "owner": {
+    "username": "ankiprajapati"
+  },
+  "record": {
+    "CNAME": "ankiprajapati.github.io"
+  }
 }

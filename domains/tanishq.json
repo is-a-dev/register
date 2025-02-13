@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tanishqmanuja",
-        "email": "tanishqmanuja@gmail.com"
-    },
-    "record": {
-        "CNAME": "tqman.pages.dev"
-    }
+  "owner": {
+    "username": "tanishqmanuja",
+    "email": "tanishqmanuja@gmail.com"
+  },
+  "record": {
+    "CNAME": "tqman.pages.dev"
+  }
 }
