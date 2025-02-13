@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "heropj",
-      "email": "pranjalpandey1022003@gmail.com"
-    },
-    "record": {
-      "URL": "https://heroportfolio-two.vercel.app/portfolio"
-    }
+  "owner": {
+    "username": "heropj",
+    "email": "pranjalpandey1022003@gmail.com"
+  },
+  "record": {
+    "URL": "https://heroportfolio-two.vercel.app/portfolio"
   }
-  
+}
