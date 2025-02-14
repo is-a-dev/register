@@ -1,10 +1,5 @@
 {
-    "owner": {
-        "username": "Saifkhanz",
-        "email": "saif137.khan@gmail.com",
-        "discord": ""
-    },
     "record": {
-        "CNAME": "https://saif-two.vercel.app/"
+        "CNAME": "saif-two.vercel.app"
     }
 }
