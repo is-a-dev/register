@@ -1,0 +1,12 @@
+{
+  "description": "Documentation website of vulnerability in ChromeOS",
+  "repo": "https://github.com/jOaawd/imperfect-secure",
+  "owner": {
+    "username": "jOaawd",
+    "email": "fmodeteam@gmail.com"
+  },
+  "record": {
+    "CNAME": "imperfect.onrender.com"
+  },
+  "proxied": false
+}
