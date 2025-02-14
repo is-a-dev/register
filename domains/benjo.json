@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Golgrax",
-        "twitter": "BughawBenjo"
-    },
-    "record": {
-        "CNAME": "benjo.pages.dev"
-    }
+  "owner": {
+    "username": "Golgrax",
+    "twitter": "BughawBenjo"
+  },
+  "record": {
+    "CNAME": "benjo.pages.dev"
+  }
 }
