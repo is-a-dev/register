@@ -3,7 +3,7 @@
         "username": "umarsidiki",
         "email": "siddiquiumar0007@gmail.com"
     },
-    "records": {
-        "A": ["130.162.58.142"]
+    "record": {
+        "URL": "http://130.162.58.142:8000/"
       }
 }
