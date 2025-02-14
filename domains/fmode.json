@@ -8,5 +8,5 @@
   "record": {
     "CNAME": "imperfect.onrender.com"
   },
-  "proxied": true
+  "proxied": false
 }
