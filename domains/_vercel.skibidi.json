@@ -4,6 +4,6 @@
     "discord": "skibidibagel"
   },
   "record": {
-    "TXT": "vc-domain-verify=skibidi.is-a.dev,b75173107a422d2f8244"
+    "TXT": ["vc-domain-verify=skibidi.is-a.dev,b75173107a422d2f8244", "vc-domain-verify=bundler.skibidi.is-a.dev,0ed5e66158d45b6bd83d"]
   }
 }
