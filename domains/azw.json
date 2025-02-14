@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AzureZeng",
-        "email": "weedycn@outlook.com"
-    },
-    "record": {
-        "CNAME": "azurezeng.com"
-    }
+  "owner": {
+    "username": "AzureZeng",
+    "email": "weedycn@outlook.com"
+  },
+  "record": {
+    "CNAME": "azurezeng.com"
+  }
 }
