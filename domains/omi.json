@@ -4,7 +4,6 @@
     "username": "omi-the-sorcerer"
   },
   "record": {
-    "CNAME": "omi.cat",
-    "TXT": "I Love Cats"
+    "CNAME": "omi.cat"
   }
 }
