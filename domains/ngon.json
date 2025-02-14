@@ -1,0 +1,11 @@
+{
+    "description": "For hosting a games, N-Gon by Landgreen, as my school has blocked it.",
+    "repo": "https://github.com/MoltenWolf85/n-gon",
+    "owner": {
+        "username": "MoltenWolf85",
+        "email": "parkerlkleinman@gmail.com"
+    },
+    "record": {
+        "CNAME": "MoltenWolf850"
+    }
+}
