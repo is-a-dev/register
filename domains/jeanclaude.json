@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "jeanclaudegeagea",
+        "email": "jeanclaude.geagea@gmail.com"
+    },
+    "record": {
+        "type": "CNAME",
+        "name": "is-a",
+        "value": "jeanclaude-omega.vercel.app"
+    }
+}
