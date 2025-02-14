@@ -2,8 +2,7 @@
   "description": "Github Pages serving as an online resume site for gewaleelek",
   "repo": "https://github.com/gewaleelek/gewaleelek.github.io",
   "owner": {
-    "username": "gewaleelek",
-    "email": "165679471+gewaleelek@users.noreply.github.com"
+    "username": "gewaleelek"
   },
   "record": {
     "CNAME": "gewaleelek.github.io"
