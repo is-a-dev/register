@@ -11,7 +11,8 @@
     ],
     "TXT": [
       "v=spf1 include:_spf.mx.cloudflare.net include:spf.improvmx.com ~all",
-      "dh=92c9945830f32cb180df547af9f491ff1a4c75a9"
+      "dh=92c9945830f32cb180df547af9f491ff1a4c75a9",
+      "google-site-verification=siT0966V4oDzv8eaTUk2ISSZY5Ox6BU2eM28sg2fUFo"
     ]
   }
 }
