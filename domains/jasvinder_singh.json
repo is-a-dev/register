@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "singhJasvinder101"
+        "username": "singhJasvinder101",
+        "email": "jasvindersingh3593@gmail.com",
     },
     "record": {
-        "RECORDTYPE": "CNAME"
+        "CNAME": "jasvinder-portfolio.netlify.app"
     }
 }
