@@ -4,6 +4,6 @@
         "email": "layhoutworkmail@gmail.com"
     },
     "record": {
-        "CNAME": "https://chea-layhout.vercel.app/"
+        "A": ["76.76.21.21"]
     }
 }
