@@ -1,0 +1,10 @@
+{
+  "domain": "arhanansari.is-a.dev",
+  "owner": {
+    "username": "ArhanAnsari",
+    "email": "arhanansari2009@gmail.com"
+  },
+  "records": {
+    "CNAME": "arhanansari.vercel.app"
+  }
+}
