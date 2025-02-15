@@ -1,6 +1,8 @@
 {
+    "description": "The blog of Hao Hoang"
     "owner": {
-        "username": "vanhaohoang"
+        "username": "vanhaohoang",
+        "email": "hoangvanhao99.01@gmail.com",
     },
     "record": {
         "CNAME": "vanhaohoang.github.io"
