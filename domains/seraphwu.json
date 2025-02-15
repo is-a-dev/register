@@ -1,0 +1,11 @@
+{
+    "description": "seraphwu's dev or lesson",
+    "repo": "https://github.com/seraphwu/seraphwu.github.io",
+    "owner": {
+        "username": "seraphwu",
+        "email": "seraphwu@gmail.com"
+    },
+    "record": {
+        "CNAME": "seraphwu.github.io"
+    }
+}
