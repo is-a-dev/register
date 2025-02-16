@@ -1,11 +1,12 @@
 {
   "description": "Profile Page",
-  "repo": "https://github.com/RadioactivePotato/krunch-is-a-dev",
+  "repo": "https://github.com/RadioactivePotato/site",
   "owner": {
     "username": "RadioactivePotato",
     "discord": "1166013268008120340"
   },
   "record": {
-    "CNAME": "krunch.pages.dev"
+    "CNAME": "krunch.hackclub.app"
+    "TXT": "domain-verification=krunch"
   }
 }
