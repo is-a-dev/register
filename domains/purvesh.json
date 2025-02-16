@@ -3,8 +3,8 @@
     "username": "thepurveshpanchal",
     "email": "furyxthor@gmail.com"
   },
-  "description": "This request is for the creation of an NS record for my subdomain, purvesh.is-a.dev. This subdomain uses Cloudflare DNS to manage its DNS records securely and efficiently, eliminating the need for future PRs to update DNS records, so I won't be bugging the is-a.dev team for more records each time, you happy, me happy :)",
-  "repo": "https://github.com/thepurveshpanchal.me",
+  "description": "This request is for the creation of an NS record for my subdomain for my portfolio website, purvesh.is-a.dev. This subdomain will be using Cloudflare DNS to manage its DNS records securely and efficiently, eliminating the need for future PRs to update DNS records, so I won't be bugging the is-a.dev team for more records each time, you happy, me happy :)",
+  "repo": "https://github.com/thepurveshpanchal/thepurveshpanchal.me",
   "record": {
     "type": "NS",
     "name": "purvesh.is-a.dev",
