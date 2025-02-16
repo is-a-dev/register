@@ -1,11 +1,11 @@
 {
-    "subdomain": "tstark",
-    "owner": {
-        "username": "t-starks",
-        "email": "sr.shelby.lp@gmail.com"
-    },
-    "record": {
-        "CNAME": "t-stark.netlify.app"
-    },
-    "proxied": false
+  "subdomain": "tstark",
+  "owner": {
+    "username": "t-starks",
+    "email": "sr.shelby.lp@gmail.com"
+  },
+  "record": {
+    "CNAME": "t-stark.netlify.app"
+  },
+  "proxied": false
 }
