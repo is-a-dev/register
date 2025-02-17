@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "marco-souza",
-        "email": "marco@tremtec.com"
-    },
-    "record": {
-        "CNAME": "marco-pages-dev.pages.dev"
-    }
+  "owner": {
+    "username": "marco-souza",
+    "email": "marco@tremtec.com"
+  },
+  "record": {
+    "CNAME": "marco-pages-dev.pages.dev"
+  }
 }
