@@ -1,0 +1,12 @@
+{
+  "description": "Personal webpage o Mateusz Krawczyk",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "matrix0123456789",
+    "email": "mateusz.krawczyk@green-code.studio"
+  },
+  "record": {
+    "CNAME": "server.green-code.studio"
+  },
+  "proxied": true
+}
