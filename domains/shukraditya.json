@@ -1,0 +1,11 @@
+{
+    "description": "Personal Blog and portfolio",
+    "repo": "https://github.com/shukraditya/shukraditya",
+    "owner": {
+        "username": "shukraditya",
+        "email": "shukra12bose@gmail.com"
+    },
+    "record": {
+        "CNAME": "shukraditya.github.io"
+    }
+}

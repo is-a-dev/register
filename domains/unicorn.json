@@ -1,0 +1,11 @@
+{
+  "description": "Domain for dynamic DNS updates and Cloudflare Tunnel setup for demo purposes.",
+  "owner": {
+    "username": "bnfone",
+    "email": "is-a-dev-registration.zbden@simplelogin.com"
+  },
+  "record": {
+    "NS": ["adelaide.ns.cloudflare.com", "arnold.ns.cloudflare.com"]
+  },
+  "proxied": false
+}
