@@ -1,0 +1,11 @@
+{
+  "description": "Personal website for the use of gokay",
+  "repo": "https://github.com/gokay05/gokay05.github.io",
+  "owner": {
+    "username": "gokay05",
+    "email": "gyamankurt@gmail.com"
+  },
+  "record": {
+    "CNAME": "gokay05.github.io"
+  }
+}

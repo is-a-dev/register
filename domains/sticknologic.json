@@ -1,0 +1,12 @@
+{
+  "description": "Simple Portfolio and Blog Website",
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "record": {
+    "NS": ["ns1.heliohost.org", "ns2.heliohost.org"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Developer portfolio",
+  "owner": {
+    "username": "mtoranzo",
+    "email": "mtoranzo@gmail.com"
+  },
+  "record": {
+    "CNAME": "mtoranzo.github.io"
+  }
+}

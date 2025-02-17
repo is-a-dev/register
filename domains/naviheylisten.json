@@ -1,0 +1,11 @@
+{
+  "description": "Domain used for the backend of my blog",
+  "owner": {
+    "username": "HeyListenNavi",
+    "email": "heylistennavi@proton.me",
+    "discord": "naviheylisten"
+  },
+  "record": {
+    "NS": ["gloria.ns.cloudflare.com", "mustafa.ns.cloudflare.com"]
+  }
+}

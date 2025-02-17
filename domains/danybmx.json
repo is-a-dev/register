@@ -1,0 +1,10 @@
+{
+  "description": "danybmx's blog and portfolio",
+  "owner": {
+    "username": "danybmx",
+    "email": "daniel@dpstudios.es"
+  },
+  "record": {
+    "CNAME": "is-a-dev.dpstudios.es"
+  }
+}
