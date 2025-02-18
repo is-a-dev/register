@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "atom-tr",
+        "email": "thai.tr@hotmail.com",
+        "discord": "423327141921423361"
+    },
+    "record": {
+        "NS": [ "adele.ns.cloudflare.com", "bob.ns.cloudflare.com" ]
+    }
+}
