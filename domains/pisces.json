@@ -1,8 +1,12 @@
 {
+    "description": "Pisces's redirection to the main website in pure Vietnamese",
+    "repo": "https://github.com/songnguxyz/songngu.xyz",
     "owner": {
-        "username": "songnguxyz"
+        "username": "songnguxyz",
+        "email": "admin@songngu.xyz",
+        "twitter": "@songngu.xyz"
     },
     "record": {
-        "CNAME": "songngu.xyz"
+        "URL": "https://songngu.xyz"
     }
 }
