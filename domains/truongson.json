@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "sonpnts",
+      "email":"sonpnts@gmail.com"
+    },
+    "record": {
+    "NS": ["dolly.ns.cloudflare.com", "felipe.ns.cloudflare.com"]
+  }
+}
