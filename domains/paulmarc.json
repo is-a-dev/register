@@ -6,7 +6,7 @@
     "email": "develop@paulmarc.org"
   },
   "record": {
-    "CNAME": "dev.paulmarc.org"
+    "URL": "https://github.com/paulmarc"
   },
   "proxied": false
 }
