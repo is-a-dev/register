@@ -1,0 +1,10 @@
+{
+  "description": "Personal site for James Wiseman",
+  "owner": {
+    "username": "jamesrobertwiseman",
+  },
+  "record": {
+    "CNAME": "jameswiseman.me"
+  },
+  "proxied": true
+}
