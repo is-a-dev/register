@@ -1,0 +1,10 @@
+{
+  "domain": "tuandat.is-a.dev",
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "tuandat",
+      "value": "Kuro-z04.github.io"
+    }
+  ]
+}
