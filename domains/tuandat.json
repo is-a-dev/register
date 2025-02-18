@@ -1,0 +1,11 @@
+{
+  "domain": "tuandat.is-a.dev",
+  "subdomain": "tuandat",
+  "owner": {
+    "repo": "https://github.com/Kuro-z04/TuanDat.github.io",
+    "email": "hoangdatlnbp@gmail.com"
+  },
+  "records": {
+    "CNAME": "tuandat.netlify.app"
+  }
+}
