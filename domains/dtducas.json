@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "dtducasdev",
+    "email": "dtducas@is-a.dev"
+  },
+  "record": {
+    "URL": "https://github.com/DTDucas"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/DTDucas"
+    },
+    "redirect_paths": true
+  }
+}
