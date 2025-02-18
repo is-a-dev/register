@@ -1,0 +1,11 @@
+{
+    "description": "Simple portfolio website",
+    "repo": "https://github.com/lyaxsh/lyaxsh.github.io",
+    "owner": {
+        "username": "lyaxsh",
+        "email": "[email protected]"
+    },
+    "record": {
+        "CNAME": "lyaxsh.github.io"
+    }
+}
