@@ -4,6 +4,11 @@
         "email": "anveshraman.ae@gmail.com"
     },
     "record": {
-        "CNAME": "sa-army.github.io"
+        "TXT": [
+            {
+                "name": "anveshraman",
+                "value": "zoho-verification=zb06584846.zmverify.zoho.in"
+            }
+        ]
     }
 }
