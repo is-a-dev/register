@@ -1,0 +1,11 @@
+{
+  "description": "Personal Website",
+  "repo": "https://github.com/danhloc112/danhloc112.github.io",
+  "owner": {
+    "username": "danhloc112",
+    "email": "danhloc112@gmail.com"
+  },
+  "record": {
+    "CNAME": "danhloc112.github.io"
+  }
+}
