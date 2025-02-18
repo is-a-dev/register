@@ -3,6 +3,7 @@
         "username": "nabinkatwal7"
     },
     "record": {
-        "RECORDTYPE": "A"
+        "CNAME": "https://portfolio-v3-six-iota.vercel.app/",
+        "A": "76.76.21.21"
     }
 }
