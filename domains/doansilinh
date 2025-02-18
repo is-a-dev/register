@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/doansilinh/doansilinh.github.io",
+    "owner": {
+        "username": "doansilinh",
+        "email": "linhluonleo04@gmail.com"
+    },
+    "record": {
+        "CNAME": "doansilinh.github.io"
+    }
+}
