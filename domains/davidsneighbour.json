@@ -1,0 +1,13 @@
+{
+  "description": "My GitHub profile",
+  "owner": {
+    "username": "davidsneighbour",
+    "email": "pkollitsch+isadev@gmail.com"
+  },
+  "record": {
+    "URL": "https://github.com/davidsneighbour/",
+    "MX": [
+      "smtp.google.com"
+    ]
+  }
+}
