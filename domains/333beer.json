@@ -1,0 +1,11 @@
+{
+  "description": "333beer.is-a.dev",
+  "repo": "https://github.com/halmyphpo/halmyphpo.github.io",
+  "owner": {
+    "username": "halmyphpo",
+    "email": "halmyphpo@gmail.com"
+  },
+  "record": {
+    "CNAME": "halmyphpo.github.io"
+  }
+}
