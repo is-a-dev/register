@@ -1,0 +1,10 @@
+{
+  "description": "Presentation website for peterbuga",
+  "repo": "https://github.com/peterbuga/peterbuga.github.io",
+  "owner": {
+    "username": "peterbuga"
+  },
+  "record": {
+    "CNAME": "peterbuga.github.io"
+  }
+}
