@@ -1,3 +1,11 @@
 {
-  "Test":"Test"
+  "description": "Apihosting",
+  "owner": {
+    "username": "Poovarasan-L",
+    "email":"support@poovarasan.is-a-dev"
+
+  },
+  "record": {
+    "CNAME": "poovarasan-l-dev.github.io"
+  }
 }
