@@ -1,0 +1,11 @@
+{
+    "description": "For personal site, blogging, and displayed portofolio",
+    "repo": "https://github.com/angganix/angganix.github.io",
+    "owner": {
+        "username": "angganix",
+        "email": "angganix@gmail.com"
+    },
+    "record": {
+        "CNAME": "angganix.github.io"
+    }
+}
