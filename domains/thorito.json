@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "thorito",
+    "email": "victor.villar.misa@gmail.com"
+  },
+  "record": {
+    "CNAME": "thorito.github.io"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/thorito"
+    },
+    "redirect_paths": true
+  }
+}
