@@ -1,0 +1,10 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "domain": "dngvieth_23.is-a.dev",
+  "owner": {
+    "email": "dangvietthaiclass@gmail.com"
+  },
+  "record": {
+    "CNAME": "dngvieth_23.github.io"
+  }
+}
