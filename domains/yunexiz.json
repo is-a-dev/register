@@ -1,8 +1,7 @@
 {
   "owner": {
     "username": "yunexiz",
-    "discord": "1040303561847881729",
-    "email": ""
+    "discord": "1040303561847881729"
   },
   "record": {
     "A": [
@@ -21,9 +20,6 @@
       "v=spf1 include:spf.improvmx.com ~all",
       "google-site-verification=JaMCz_HK22wQhiZbF-51XTXAzEEt3qBYCMo2g_86BWo"
     ],
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ]
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
   }
 }

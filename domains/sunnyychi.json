@@ -1,0 +1,11 @@
+{
+  "description": "A personal portfolio website",
+  "repo": "https://github.com/sunnyychi/Website",
+  "owner": {
+    "username": "sunnyychi",
+    "email": "sunnyychi@lona-development.org"
+  },
+  "record": {
+    "CNAME": "sunnyychi.github.io"
+  }
+}

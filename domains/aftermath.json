@@ -1,0 +1,12 @@
+{
+  "description": "Describe the use of this subdomain",
+  "repo": "https://github.com/AfterMath9/aftermath9.github.io",
+  "owner": {
+    "username": "AfterMath9",
+    "email": "amrmafalani@yahoo.com",
+    "twitter": "iBadDroid"
+  },
+  "record": {
+    "CNAME": "aftermath9.github.io"
+  }
+}

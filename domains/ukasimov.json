@@ -6,6 +6,6 @@
   },
   "description": "Uktambek Kasimov Portfolio",
   "record": {
-    "CNAME": "ukasimov.uz"
+    "A": ["89.232.184.198"]
   }
 }

@@ -4,6 +4,6 @@
     "email": "yashasviallen@gmail.com"
   },
   "record": {
-    "CNAME": "yashasviallen.dynv6.net"
+    "NS": ["bethany.ns.cloudflare.com", "miles.ns.cloudflare.com"]
   }
 }

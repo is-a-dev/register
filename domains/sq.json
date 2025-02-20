@@ -2,9 +2,7 @@
   "description": "sqec's website",
   "owner": {
     "username": "SquareScreamYT",
-    "repo": "https://github.com/SquareScreamYT",
-    "discord": "918475812884344852",
-    "email": ""
+    "discord": "918475812884344852"
   },
   "record": {
     "CNAME": "squarescreamyt.github.io"

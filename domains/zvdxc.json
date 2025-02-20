@@ -4,6 +4,6 @@
     "email": "zvdxc11@gmail.com"
   },
   "record": {
-    "CNAME": "mysite-e7j.pages.dev"
+    "NS": ["armfazh.ns.cloudflare.com", "stella.ns.cloudflare.com"]
   }
 }

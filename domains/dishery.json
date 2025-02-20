@@ -1,7 +1,6 @@
 {
   "owner": {
     "username": "legofanlovessayori",
-    "email": "",
     "discord": "805708874178625546"
   },
   "record": {
@@ -10,9 +9,6 @@
       "v=spf1 include:_spf.protonmail.ch ~all",
       "v=DMARC1; p=quarantine"
     ],
-    "MX": [
-      "mail.protonmail.ch",
-      "mailsec.protonmail.ch"
-    ]
+    "MX": ["mail.protonmail.ch", "mailsec.protonmail.ch"]
   }
 }
