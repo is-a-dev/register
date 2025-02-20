@@ -4,7 +4,7 @@
       "email": "spam+isadev@col1n.fr"
     },
     "record": {
-      "URL": "https://is-a-dev.redirect.col1n.fr",
+      "CNAME": "proxy.col1n.fr",
       "MX": "mx.col1n.fr"
     }
   }
