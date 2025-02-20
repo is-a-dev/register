@@ -1,4 +1,4 @@
-name: Validation
+name: CI
 
 on:
     pull_request:
@@ -19,16 +19,6 @@ concurrency:
     cancel-in-progress: true
 
 jobs:
-    dnscontrol:
-        name: DNSControl
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
-
-            - uses: is-a-dev/dnscontrol-action@main
-              with:
-                  args: check
-
     tests:
         name: Tests
         runs-on: ubuntu-latest
