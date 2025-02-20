@@ -1,1 +1,9 @@
-
+{
+    "owner": {
+        "username": "scrpti",
+        "email": "pedroscarpati@icloud.com"
+    },
+    "record": {
+        "CNAME": "https://scrpt-dev.vercel.app/"
+    }
+}
