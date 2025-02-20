@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "tpx._.",
+    "email": "topexaranda06@gmail.com",
+  },
+  "record": {
+    "CNAME": "tpx.web.app",
+    "NS": ["archer.ns.cloudflare.com", "serenity.ns.cloudflare.com"],
+  }
+}
