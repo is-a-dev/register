@@ -1,5 +1,6 @@
 {
   "description": "Personal Portfolio",
+  "repo": "https://github.com/thorito/thorito",
   "owner": {
     "username": "thorito",
     "email": "victor.villar.misa@gmail.com",
@@ -8,7 +9,6 @@
     "x": "@villar_misa"
   },
   "record": {
-    "CNAME": "thorito.github.io",
-    "URL": "https://victorvillarmisa.blogspot.com"
+    "CNAME": "thorito.github.io"
   }
 }
