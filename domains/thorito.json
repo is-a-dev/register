@@ -1,15 +1,14 @@
 {
+  "description": "Personal Portfolio",
   "owner": {
     "username": "thorito",
-    "email": "victor.villar.misa@gmail.com"
+    "email": "victor.villar.misa@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/victor-villar-misa",
+    "discord": "thorito_p",
+    "x": "@villar_misa"
   },
   "record": {
-    "CNAME": "thorito.github.io"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/thorito"
-    },
-    "redirect_paths": true
+    "CNAME": "thorito.github.io",
+    "URL": "https://victorvillarmisa.blogspot.com"
   }
 }
