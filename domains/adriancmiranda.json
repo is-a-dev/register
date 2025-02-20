@@ -8,7 +8,8 @@
   },
   "redirect_config": {
     "custom_paths": {
-      "/github": "https://github.com/adriancmiranda"
+      "/github": "https://github.com/adriancmiranda",
+      "/linkedin": "https://www.linkedin.com/in/adriancmiranda"
     },
     "redirect_paths": true
   }
