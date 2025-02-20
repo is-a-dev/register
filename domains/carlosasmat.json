@@ -1,0 +1,10 @@
+{
+  "domain": "carlosasmat.is-a.dev",
+  "owner": {
+    "email": "carlos.vega.asmat@gmail.com",
+    "github": "temeriamos"
+  },
+  "record": {
+    "CNAME": "https://temeriamos.github.io/Actividad_MKDocs_Pandoc/"
+  }
+}
