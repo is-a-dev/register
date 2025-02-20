@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "adriancmiranda",
+    "email": "ad@is-a.dev"
+  },
+  "record": {
+    "URL": "https://adrian-miranda.vercel.app"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/adriancmiranda"
+    },
+    "redirect_paths": true
+  }
+}
