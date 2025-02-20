@@ -1,1 +1,11 @@
-
+{
+    "description": "Personal Developer Domain",
+    "repo": "https://github.com/smacrico/smacrico.github.io",
+    "owner": {
+        "username": "github-smacrico",
+        "email": "[email protected]"
+    },
+    "record": {
+        "CNAME": "https://smacrico.github.io/"
+    }
+}
