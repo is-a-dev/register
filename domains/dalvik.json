@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "dalvik31"
+        "username": "dalvik31",
+    "email": "eeph31@gmail.com"
     },
     "record": {
-        "RECORDTYPE": "RECORDCONTENT"
+        "CNAME": "dalvik31.github.io"
     }
 }
