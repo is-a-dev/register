@@ -1,7 +1,8 @@
 {
   "description": "I'm a dev.",
   "owner": {
-    "username": "galabra"
+    "username": "galabra",
+    "email": "galabra.dev@gmail.com"
   },
   "record": {
     "CNAME": "https://github.com/galabra"
