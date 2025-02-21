@@ -1,0 +1,11 @@
+{
+  "description": "xibhi.is-a.dev",
+  "repo": "https://github.com/xibhi/is-a.dev",
+  "owner": {
+      "username": "xibhi",
+      "email": "[xibhi.7z@gmail.com]"
+  },
+  "record": {
+      "CNAME": "xibhi.github.io"
+  }
+}
