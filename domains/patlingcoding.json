@@ -1,0 +1,17 @@
+{
+  "repo": "https://gitlab.com/thanpuia7/thanpuia.git",
+
+  "owner": {
+    "username": "thanpuia7",
+    "email": "thanpuia7@gmail.com"
+  },
+
+  "target": {
+    "A": {
+      "name": "patlingcoding", 
+      "value": ["128.199.17.140"]
+    }
+  },
+
+  "proxied": false
+}
