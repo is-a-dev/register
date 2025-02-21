@@ -1,0 +1,10 @@
+{
+  "description": "my personal site where i do random stuff i guess",
+  "owner": {
+    "username": "saxophone-dev",
+    "email": "itsarchit@keemail.me"
+  },
+  "record": {
+    "CNAME": "apex-loadbalancer.netlify.com"
+  }
+}
