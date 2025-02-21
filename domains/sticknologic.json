@@ -1,16 +1,12 @@
 {
   "description": "Simple Portfolio and Blog Website",
-  "repo": "https://github.com/sticknologic",
   "owner": {
     "username": "sticknologic",
     "x": "STICKnoLOGIC",
-    "facebook":"STICKnoLOGIC",
-    "bsky":"STICKnoLOGIC"
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
   },
   "record": {
-    "NS": [
-      "ns1.heliohost.org",
-      "ns2.heliohost.org"
-    ]
+    "NS": ["ns1.heliohost.org", "ns2.heliohost.org"]
   }
 }

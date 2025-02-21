@@ -1,11 +1,10 @@
 {
-    "description": "Developer portfolio",
-    "repo": "https://github.com/mtoranzo",
-    "owner": {
-        "username": "mtoranzo",
-        "email": "mtoranzo@gmail.com"
-    },
-    "record": {
-        "CNAME": "mtoranzo.github.io"
-    }
+  "description": "Developer portfolio",
+  "owner": {
+    "username": "mtoranzo",
+    "email": "mtoranzo@gmail.com"
+  },
+  "record": {
+    "CNAME": "mtoranzo.github.io"
+  }
 }
