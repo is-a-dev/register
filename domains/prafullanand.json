@@ -5,6 +5,7 @@
     },
     "record": {
       "CNAME": "prafull-anand.vercel.app"
-    }
+    },
+    "proxied": true
   }
   
