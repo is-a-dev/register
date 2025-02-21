@@ -1,0 +1,12 @@
+{
+  "description": "Personal GitHub",
+  "repo": "https://github.com/bauchdj",
+  "owner": {
+    "username": "is-a-dev",
+    "email": "involved.worm.wqdi@mask.me"
+  },
+  "record": {
+    "CNAME": "https://github.com/bauchdj"
+  },
+  "proxied": true
+}
