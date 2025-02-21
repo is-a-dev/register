@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "sebdev",
+    "email": "seb@sebdev.io"
+  },
+  "record": {
+    "CNAME": "blog.sebdev.io"
+  }
+}
