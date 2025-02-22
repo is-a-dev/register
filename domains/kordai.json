@@ -1,0 +1,15 @@
+{
+  "description": "A Domain For My Project ",
+  "domain": "kordai",
+  "owner": {
+    "username": "M3264",
+    "email": "miracle32669@outlook.com"
+  },
+  "record": {
+    "NS": [
+      "kami.ns.cloudflare.com",
+      "kareem.ns.cloudflare.com"
+    ]
+  },
+  "proxied": false
+}
