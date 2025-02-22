@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "rahulgurujala"
+    },
+    "record": {
+        "MX": ["mx1.hostinger.com", "mx2.hostinger.com"],
+        "A": ["82.180.142.139"],
+        "TXT": ["v=spf1 include:_spf.mail.hostinger.com ~all"]
+    }
+}
