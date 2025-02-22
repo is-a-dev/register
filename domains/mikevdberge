@@ -1,0 +1,10 @@
+{
+  "description": "Mike van den Berge's website and blog",
+  "owner": {
+    "username": "mikevdberge",
+    "email": "mike.van.den.berge@gmail.com"
+  },
+  "record": {
+    "CNAME": "mikevdberge.github.io/"
+  }
+}
