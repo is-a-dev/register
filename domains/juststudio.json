@@ -30,5 +30,6 @@
       "/accounts/": "https://juststudio.is-a.dev/account/"
     },
     "redirect_paths": true
-  }
+  },
+  "proxied": true
 }
