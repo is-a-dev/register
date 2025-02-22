@@ -1,0 +1,10 @@
+{
+  "description": "Personal Bookmarks Application",
+  "owner": {
+    "username": "migsilva89",
+    "email": "migdrum@gmail.com"
+  },
+  "record": {
+    "CNAME": "bookmarks-app-alpha-drab.vercel.app"
+  }
+} 
