@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "blacsheep",
-        "email": "lanzou1.0@gmail.com"
-    },
-    "record": {
-        "CNAME": "blacsheep-github-io.pages.dev"
-    }
+  "owner": {
+    "username": "blacsheep",
+    "email": "lanzou1.0@gmail.com"
+  },
+  "record": {
+    "CNAME": "blacsheep-github-io.pages.dev"
+  }
 }

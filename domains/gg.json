@@ -1,11 +1,11 @@
-{  
-    "description": "Portfolio",
-    "repo": "https://github.com/i-m-Gaurav/Portfolio.git",
-    "owner": {
-        "username": "i-m-Gaurav",
-        "email": "indiagauravkumar@gmail.com"
-    },
-    "record": {
-        "CNAME": "gaurav-self.vercel.app"
-    }
+{
+  "description": "Portfolio",
+  "repo": "https://github.com/i-m-Gaurav/Portfolio.git",
+  "owner": {
+    "username": "i-m-Gaurav",
+    "email": "indiagauravkumar@gmail.com"
+  },
+  "record": {
+    "CNAME": "gaurav-self.vercel.app"
+  }
 }

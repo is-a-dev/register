@@ -1,0 +1,11 @@
+{
+  "description": "Personal Portfolio",
+  "repo": "https://github.com/cesardarizaleta/cesarfolio",
+  "owner": {
+    "username": "cesardarizaleta",
+    "email": "cesardarizaleta@gmail.com"
+  },
+  "record": {
+    "CNAME": "cesarfolio.vercel.app"
+  }
+}

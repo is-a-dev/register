@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "CodeBuddySLTNS",
-        "email": "renz2arjhay@gmail.com"
-    },
-    "record": {
-        "CNAME": "renzcole.vercel.app"
-    }
+  "owner": {
+    "username": "CodeBuddySLTNS",
+    "email": "renz2arjhay@gmail.com"
+  },
+  "record": {
+    "CNAME": "renzcole.vercel.app"
+  }
 }
