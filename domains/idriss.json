@@ -4,6 +4,6 @@
         "email": "drisspennywise@gmail.com"
     },
     "record": {
-        "CNAME": "idriss.douiri.org"
+        "A": ["76.76.21.21"]
     }
 }
