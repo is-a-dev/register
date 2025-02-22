@@ -168,6 +168,12 @@ function validateRecordValues(t, data, file) {
                     value.startsWith("http://") || value.startsWith("https://"),
                     `${file}: CNAME record cannot be a URL`,
                 );
+
+                t.false(
+                    value.includes("/"),
+                    `${file}: CNAME record cannot contain url paths`,
+                );
+
                 t.true(value !== file, `${file}: CNAME cannot point to itself`);
             } else if (key === "URL") {
                 t.true(
