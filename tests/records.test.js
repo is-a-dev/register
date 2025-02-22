@@ -164,6 +164,10 @@ function validateRecordValues(t, data, file) {
                     isValidHostname(value),
                     `${file}: Invalid hostname for ${key}`,
                 );
+                t.false(
+                    value.startsWith("http://") || value.startsWith("https://"),
+                    `${file}: CNAME record cannot be a URL`,
+                );
                 t.true(value !== file, `${file}: CNAME cannot point to itself`);
             } else if (key === "URL") {
                 t.true(
