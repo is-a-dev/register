@@ -1,11 +1,9 @@
 {
-  "subdomain": "wasim",
-  "owner": {
-    "email": "wasimbaig000@gmail.com"
-  },
-  "records": {
-    "CNAME": "wasimb.vercel.app"
-    "TXT": "_vercel=vc-domain-verify=wasim.is-a.dev,6b4abdaf07b7f6517075"
-  },
-  "proxied": false
+    "owner": {
+        "username": "simbaig",
+        "email": "wasimbaig000@gmail.com"
+    },
+    "record": {
+        "CNAME": "wasimb.vercel.app"
+    }
 }
