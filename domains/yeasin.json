@@ -6,5 +6,6 @@
     },
     "record": {
         "CNAME": "yeasiin.github.io/website"
-    }
+    },
+    "proxied": true
 }
