@@ -1,0 +1,20 @@
+{
+  "description": "Link in bio for Lver.",
+  "repo": "https://github.com/lverx/lver-Link-in-Bio",
+  "owner": {
+    "username": "lverx",
+  },
+  "record": {
+    "CNAME": "lverz.glitch.me"
+  },
+  "proxied": true
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/lverx",
+      "/biz": "https://github.com/lverz",
+      "/contact": "https://contact-lver.pages.dev/",
+      "/site": "https://lver.link"
+    },
+    "redirect_paths": true
+}
