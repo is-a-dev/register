@@ -1,8 +1,15 @@
 {
-    "owner": {
-        "username": "devmdeniz"
-    },
-    "record": {
-        "RECORDTYPE": "NS"
-    }
+  "description": "My Personal Website",
+  "repo": "https://github.com/devmdeniz/register",
+  "owner": {
+    "username": "devmdeniz",
+    "email": "deniz@dikholding.com"
+  },
+  "record": {
+     "NS": [
+      "jason.ns.cloudflare.com",
+      "zelda.ns.cloudflare.com"
+     ]
+  },
+  "proxied": false
 }
