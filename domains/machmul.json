@@ -1,0 +1,18 @@
+{
+  "description": "Personal site for Machmul Pratama",
+  "owner": {
+    "username": "MahmulP",
+    "email": "hello@mahmulp.my.id"
+  },
+  "record": {
+    "A": ["202.10.43.52"],
+    "NS": [
+      "ns1.rumahweb.com",
+      "ns2.rumahweb.com",
+      "ns3.rumahweb.net",
+      "ns4.rumahweb.net"
+    ],
+    "CNAME": "mahmulp.my.id"
+  },
+  "proxied": true
+}
