@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "JerBlox",
+    "username": "i-Jer",
     "email": "chen.fuyuan07@gmail.com"
   },
   "record": {
-    "CNAME": "cbx3ryr6.up.railway.app"
+    "CNAME": "cbx3ryr6.up.railway.app",
+    "MX": ["mail.jer.is-a.dev"]
   }
 }
