@@ -8,7 +8,6 @@
     "CNAME": "lverz.glitch.me"
   },
   "proxied": true
-  },
   "redirect_config": {
     "custom_paths": {
       "/github": "https://github.com/lverx",
