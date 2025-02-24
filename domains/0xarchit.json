@@ -3,8 +3,8 @@
     "username": "0xacrhit",
     "mail": "0xarchit@proton.me"
   },
-  "record": {
-    "TXT name": "0xarchit"
-    "TXT value": "zoho-verification=zb94087787.zmverify.zoho.in"
-  }
+  "TXT": [
+    "0xarchit",
+    "zoho-verification=zb94087787.zmverify.zoho.in"
+  ]
 }
