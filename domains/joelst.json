@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "joestr",
+    "email": "joelstrasser1@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "ns1-03.azure-dns.com",
+      "ns2-03.azure-dns.net",
+      "ns3-03.azure-dns.org",
+      "ns4-03.azure-dns.info"
+    ]
+  }
+}
