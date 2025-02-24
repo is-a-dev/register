@@ -4,7 +4,6 @@
     "email": "br0k3r@protonmail.com"
   },
   "record": {
-    "CNAME": "viernes.surge.sh",
     "NS": [
       "na-west1.surge.sh"
     ]
