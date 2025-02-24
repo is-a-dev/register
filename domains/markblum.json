@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mblumdumes",
-        "email": "mark@el-blum.de"
-    },
-    "record": {
-        "CNAME": "el-blum.selfhost.co"
-    }
+  "owner": {
+    "username": "mblumdumes",
+    "email": "mark@el-blum.de"
+  },
+  "record": {
+    "CNAME": "dyndns.el-blum.de"
+  }
 }

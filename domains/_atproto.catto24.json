@@ -1,0 +1,10 @@
+{
+  "description": "domain verification for bluesky",
+  "owner": {
+    "username": "catto24",
+    "email": "catto24@proton.me"
+  },
+  "record": {
+    "TXT": "did=did:plc:whzff4s3db6taso3s43ylrou"
+  }
+}

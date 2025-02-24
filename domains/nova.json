@@ -1,11 +1,11 @@
 {
-    "description": "nova.is-a.dev",
-    "owner": {
-        "username": "LunarN0v4",
-        "email": "zeus@zeusteam.dev",
-        "discord": "7un4r"
-    },
-    "record": {
-        "CNAME": "webmail.zeusteam.dev"
-    }
+  "description": "nova.is-a.dev",
+  "owner": {
+    "username": "LunarN0v4",
+    "email": "nova@zeusteam.dev",
+    "discord": "7un4r"
+  },
+  "record": {
+    "A": ["130.51.94.101"]
+  }
 }

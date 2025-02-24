@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "JavaProgswing",
-        "email": "yashasviallen@gmail.com"
-    },
-    "record": {
-        "CNAME": "yashasviallen.dynv6.net"
-    }
+  "owner": {
+    "username": "JavaProgswing",
+    "email": "yashasviallen@gmail.com"
+  },
+  "record": {
+    "NS": ["bethany.ns.cloudflare.com", "miles.ns.cloudflare.com"]
+  }
 }

@@ -1,13 +1,11 @@
 {
   "owner": {
     "username": "YouFoundAlpha",
-    "email": "YouFoundAlpha@alpha.is-a.dev",
-    "Discord": "661121998830960651",
-    "GitHub": "YouFoundAlpha",
-    "GitLab": "YouFoundAlpha",
-    "Mastodon": "@YouFoundAlpha@mastodon.social"
+    "discord": "661121998830960651",
+    "gitlab": "YouFoundAlpha",
+    "mastodon": "@YouFoundAlpha@mastodon.social"
   },
   "record": {
-    "CNAME": "edge.redirect.pizza"
+    "URL": "https://github.com/YouFoundAlpha"
   }
 }

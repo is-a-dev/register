@@ -2,8 +2,7 @@
   "description": "My dev website",
   "repo": "https://github.com/patel-jatin/patel-jatin.github.io",
   "owner": {
-    "username": "patel-jatin",
-    "email": ""
+    "username": "patel-jatin"
   },
   "record": {
     "CNAME": "patel-jatin.github.io"

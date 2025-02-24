@@ -4,6 +4,6 @@
     "email": "midlaj@tuta.io"
   },
   "record": {
-    "CNAME": "whoismidlaj.github.io"
+    "A": ["107.173.201.166"]
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "zuygui",
-        "email": "maxime@halbitte.fr"
-    },
-    "record": {
-        "CNAME": "zuygui.github.io"
-    }
+  "owner": {
+    "username": "zuygui",
+    "email": "maxime@halbitte.fr"
+  },
+  "record": {
+    "CNAME": "zuygui.github.io"
+  }
 }

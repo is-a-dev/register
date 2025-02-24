@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "xAbdoATx",
-        "email": "xabdoat@gmail.com"
-    },
-    "record": {
-        "CNAME": "xabdoatx.github.io"
-    }
+  "description": "Abdo AT Main Web Page",
+  "repo": "https://github.com/xAbdoAT/xabdoat.github.io",
+  "owner": {
+    "username": "xAbdoAT",
+    "email": "xabdoat@gmail.com",
+    "twitter": "xAbdoAT"
+  },
+  "record": {
+    "CNAME": "xabdoat.github.io"
+  }
 }

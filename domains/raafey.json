@@ -1,10 +1,9 @@
 {
-        "owner": {
-           "username": "RaafeyRaza",
-           "email": "raafeyraza1@gmail.com"
-        },
-    
-        "record": {
-            "A": ["69.30.249.53"]
-        }
-    }
+  "owner": {
+    "username": "RaafeyRaza",
+    "email": "raafeyraza1@gmail.com"
+  },
+  "record": {
+    "CNAME": "v0-personal-portfolio-tf.vercel.app"
+  }
+}

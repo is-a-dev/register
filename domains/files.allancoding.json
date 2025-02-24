@@ -1,4 +1,6 @@
 {
+  "description": "My files website",
+  "repo": "https://github.com/allancoding/files.allancoding.is-a.dev",
   "owner": {
     "username": "allancoding",
     "email": "allancoding.dev@gmail.com",
@@ -6,6 +8,6 @@
     "discord": "allancoding"
   },
   "record": {
-    "CNAME": "allancoding.github.io"
+    "A": ["75.2.60.5"]
   }
 }

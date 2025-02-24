@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "MinhPhan1203",
-        "email": "phan48788@gmail.com"
-    },
-    "record": {
-        "URL": "https://minhphan.tech"
-    }
+  "owner": {
+    "username": "MinhPhan1203",
+    "email": "phan48788@gmail.com"
+  },
+  "record": {
+    "A": ["75.2.60.5"]
+  }
 }

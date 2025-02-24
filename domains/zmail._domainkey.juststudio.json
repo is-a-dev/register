@@ -1,0 +1,11 @@
+{
+  "description": "zoho mail for juststudio.is-a.dev domain",
+  "owner": {
+    "username": "JustDeveloper1",
+    "email": "support@juststudio.is-a.dev",
+    "discord": "1117482901353812088"
+  },
+  "record": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjezgYOcTrOFw6uITe2KXiQ7MTEzCI76YKzGNPCeN7ttYlbZ/+KRg+iNPNcinf96ClHDhw7fooDSkmTnsCwXdK29gidrXFljATKEB3bilriDYTdtesd+kCHVS5XqUWHKfAdhFZpQcV97DwX1mzTb17JOi8R9HJ8KqJ00/+eir+EQIDAQAB"
+  }
+}
