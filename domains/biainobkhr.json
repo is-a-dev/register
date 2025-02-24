@@ -3,7 +3,6 @@
         "username": "ased9473"
     },
     "record": {
-        "NS": "ns1.gcorelabs.net"
-        "NS": "ns2.gcdn.services"
+        "NS": ["ns1.gcorelabs.net","ns2.gcdn.services"]
     }
 }
