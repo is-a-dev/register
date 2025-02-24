@@ -1,0 +1,10 @@
+{
+  "domain": "saeedxo.is-a.dev",
+  "owner": {
+    "email": "yeah.its.saeed@gmail.com"
+  },
+  "records": {
+    "CNAME": "saeedxo.vercel.app"
+  }
+}
+
