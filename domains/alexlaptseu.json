@@ -1,0 +1,11 @@
+{
+    "description": "Github portofolio",
+    "repo": "https://github.com/alaptseu/github-repository",
+    "owner": {
+        "username": "alaptseu",
+        "email": "aliaksadr.laptseu@gmail.com"
+    },
+    "record": {
+        "CNAME": "alaptseu.github.io"
+    }
+}
