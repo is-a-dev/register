@@ -1,0 +1,11 @@
+{
+  "description": "Domain for personal web pages",
+  "owner": {
+    "username": "vikipranata",
+    "email": "helovikipranata@gmail.com"
+  },
+  "record": {
+    "CNAME": "vikipranata.github.io"
+  },
+  "proxied": true
+}
