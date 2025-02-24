@@ -4,7 +4,7 @@
     "mail": "0xarchit@proton.me"
   },
   "record": {
-    "NS": "cartman.ns.cloudflare.com", "cartman.ns.cloudflare.com",
-    "CNAME": "0xarchit.pages.dev"
+    "TXT name": "0xarchit"
+    "TXT value": "zoho-verification=zb94087787.zmverify.zoho.in"
   }
 }
