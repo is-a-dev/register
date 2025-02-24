@@ -13,10 +13,15 @@
       "185.199.110.153",
       "185.199.111.153"
     ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
     "TXT": [
       "google-site-verification=qBaFslC7xe6gcHiolYEJ32HjpJVk-ZOMbRpu_1zkm_s",
       "yandex-verification: 10cec93159ddc69f",
-      "yandex-verification: a31dc9b638bff027"
+      "yandex-verification: a31dc9b638bff027",
+      "v=spf1 include:spf.improvmx.com ~all"
     ]
   }
 }
