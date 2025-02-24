@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "tuannguyen2002",
-        "email": "",
-        "discord": "minhtuan9039"
-    },
-    "record": {
-        "CNAME": "profile-sigma-wine.vercel.app"
-    }
+  "owner": {
+    "username": "tuannguyen2002",
+    "discord": "minhtuan9039"
+  },
+  "record": {
+    "CNAME": "profile-sigma-wine.vercel.app"
+  }
 }

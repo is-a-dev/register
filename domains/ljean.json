@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "Granpiecito",
-        "email": "jeanpierresperrymanaleman@gmail.com",
-        "discord": "294318911791562752"
-    },
-    "record": {
-        "CNAME": "portfolio-astro-fawn-ten.vercel.app"
-    }
+  "owner": {
+    "username": "Granpiecito",
+    "email": "jeanpierresperrymanaleman@gmail.com",
+    "discord": "294318911791562752"
+  },
+  "record": {
+    "CNAME": "portfolio-astro-fawn-ten.vercel.app"
+  }
 }

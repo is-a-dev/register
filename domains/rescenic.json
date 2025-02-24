@@ -1,9 +1,9 @@
 {
   "owner": {
-      "username": "rescenic",
-      "email": "admin@rescenic.my.id"
+    "username": "rescenic",
+    "email": "admin@rescenic.my.id"
   },
   "record": {
-      "CNAME": "rescenic.github.io"
+    "CNAME": "rescenic.github.io"
   }
 }

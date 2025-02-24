@@ -1,0 +1,10 @@
+{
+  "description": "Blog",
+  "owner": {
+    "username": "meyer-pidiache",
+    "email": "pidiache@duck.com"
+  },
+  "record": {
+    "CNAME": "meyer-pidiache.github.io"
+  }
+}
