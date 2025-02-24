@@ -5,6 +5,7 @@
     "twitter": "vornexx_"
   },
   "record": {
-    "CNAME": "vornexx.pages.dev"
+    "CNAME": "vornexx.pages.dev",
+    "TXT": "did=did:plc:qovnfmmwg2v6daiwawqdgwte"
   }
 }
