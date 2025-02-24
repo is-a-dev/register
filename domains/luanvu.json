@@ -5,9 +5,14 @@
     "username": "zthanhluan",
     "email": "dientu078@gmail.com"
   },
-  "record": {
-    "A": ["46.17.172.206"]
+  "records": {
+      "CNAME": "luanvu.betaenglish.com.vn",
+      "TXT": [
+      {
+        "name": "_luanvu",
+        "value": "luanvu.is-a.dev=3452643218"
+      }
+    ]
   },
-  
   "proxied": false
 }
