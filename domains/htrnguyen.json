@@ -2,10 +2,10 @@
   "github": "htrnguyen",
   "vercel": "astro-portfolio-nu-seven",
   "owner": {
-    "email": "hatrongnguyen04@gmail.com"
+    "email": "youremail@example.com"
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
   },
-  "proxied": true
+  "proxied": false
 }
