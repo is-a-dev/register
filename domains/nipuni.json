@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "nipunigamage"
+        "username": "nipunigamage",
+        "email": "nipunikanishka255@gmail.com"
     },
     "record": {
-        "CNAME": "https://nipuni.pages.dev"
+        "CNAME": "nipuni.pages.dev"
     }
 }
