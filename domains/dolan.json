@@ -1,1 +1,11 @@
-
+{
+  "owner": {
+    "username": "fludem",
+    "email": "dylan@onyxleeds.co.uk",
+    "discord": "fludemdylan"
+  },
+  "record": {
+   "URL": "https://clockingsystems.evotime.com"
+  },
+  "proxied": true
+}
