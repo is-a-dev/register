@@ -1,0 +1,9 @@
+{
+  "description": "Domain that redirects to my personal portfolio",
+  "owner": {
+    "username": "n3m"
+  },
+  "record": {
+    "URL": "https://n3m.me"
+  }
+}

@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "StefanoMantero",
-    	"email": "eldrazichiodo@gmail.com"	
-    },
-    "description": "Fun project for santa",
-    "record": {
-        "CNAME": "seal-app-up9wg.ondigitalocean.app"
-    }
+  "owner": {
+    "username": "StefanoMantero",
+    "email": "eldrazichiodo@gmail.com"
+  },
+  "description": "Fun project for santa",
+  "record": {
+    "CNAME": "seal-app-up9wg.ondigitalocean.app"
+  }
 }

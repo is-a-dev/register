@@ -7,6 +7,6 @@
     "bsky": "did:plc:wcx4c3osbuzrwmxkqdfqygwv"
   },
   "record": {
-    "NS": ["kallie.ns.cloudflare.com","tadeo.ns.cloudflare.com"]
+    "NS": ["kallie.ns.cloudflare.com", "tadeo.ns.cloudflare.com"]
   }
 }

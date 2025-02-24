@@ -6,9 +6,6 @@
     "email": "is-a-dev-registration.zbden@simplelogin.com"
   },
   "record": {
-    "NS": [
-      "desiree.ns.cloudflare.com",
-      "mcgrory.ns.cloudflare.com"
-    ]
+    "NS": ["desiree.ns.cloudflare.com", "mcgrory.ns.cloudflare.com"]
   }
 }
