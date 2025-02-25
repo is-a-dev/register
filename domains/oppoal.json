@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "oppoa1"
+    },
+    "records": [
+        {
+            "NS": "clay.ns.cloudflare.com"
+        },
+        {
+            "NS": "fay.ns.cloudflare.com"
+        }
+    ]
+}
