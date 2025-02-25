@@ -1,0 +1,11 @@
+{
+    "domain":"codexprt.is-a.dev",
+    "subdomain":"codexprt",
+    "owner":{
+        "email":"yourwebcoderr@gmail.com"
+    },
+    "record":{
+        "CNAME":"codecurio.github.io"
+    },
+    "proxied":false
+}
