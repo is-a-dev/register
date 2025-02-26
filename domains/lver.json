@@ -2,29 +2,27 @@
   "repo": "https://github.com/lverx",
   "owner": {
     "username": "lverx",
-    "email": "hydrosexuallol@gmail.com"
+    "email": "hydrosexuallol@gmail.com",
     "sms": "(616) 256-0214 [business]"
   },
   "record": {
     "MX": [
       "ASPMX.L.GOOGLE.COM",
       "ALT1.ASPMX.L.GOOGLE.COM"
-      ]
-    },
-  "CNAME": "lverz.glitch.me"
-    },
+    ]
+  },
+  "CNAME": "lverz.glitch.me",
   "URL": "https://lverz.glitch.me/"
-    },
+},
+"redirect_config": {
+  "custom_paths": {
+    "/github": "https://github.com/lverx",
+    "/biz": "https://github.com/lverz",
+    "/contact": "https://contact-lver.pages.dev/",
+    "/site": "https://lver.link",
+    "/sms": "sms:16162560214"
   },
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/lverx",
-      "/biz": "https://github.com/lverz",
-      "/contact": "https://contact-lver.pages.dev/",
-      "/site": "https://lver.link"
-      "/sms": "sms:16162560214"
-    },
-    "redirect_paths": true
-  },
-  "proxied": true
+  "redirect_paths": true
+},
+"proxied": true
 }
