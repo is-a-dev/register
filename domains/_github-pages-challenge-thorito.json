@@ -1,10 +1,7 @@
 {
-  "description": "Personal Portfolio Website",
-  "repo": "https://github.com/thorito/thorito.github.io",
   "owner": {
     "username": "thorito",
-    "email": "victor.villar.misa@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/victor-villar-misa"
+    "email": "victor.villar.misa@gmail.com"
   },
   "record": {
     "TXT": "900d61c3e5e63880bf2f15832064bc"
