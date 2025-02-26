@@ -3,6 +3,7 @@
   "owner": {
     "username": "lverx",
     "email": "hydrosexuallol@gmail.com"
+    "sms": "(616) 256-0214 [business]"
   },
   "record": {
     "MX": [
@@ -17,6 +18,7 @@
       "/biz": "https://github.com/lverz",
       "/contact": "https://contact-lver.pages.dev/",
       "/site": "https://lver.link"
+      "/sms": "sms:16162560214"
     },
     "redirect_paths": true
   },
