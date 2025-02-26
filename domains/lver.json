@@ -1,19 +1,16 @@
 {
-  "description": "Link in bio for Lver.",
-  "repo": "https://github.com/lverx/lver-Link-in-Bio",
+  "repo": "https://github.com/lverx",
   "owner": {
     "username": "lverx",
     "email": "hydrosexuallol@gmail.com"
   },
   "record": {
-    "URL": "https://lverz.glitch.me"
     "MX": [
       "ASPMX.L.GOOGLE.COM",
       "ALT1.ASPMX.L.GOOGLE.COM"
       ]
     },
   },
-  "proxied": true,
   "redirect_config": {
     "custom_paths": {
       "/github": "https://github.com/lverx",
@@ -22,5 +19,6 @@
       "/site": "https://lver.link"
     },
     "redirect_paths": true
-  }
+  },
+  "proxied": true
 }
