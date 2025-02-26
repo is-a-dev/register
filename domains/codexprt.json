@@ -1,8 +1,9 @@
 {
     "domain":"codexprt.is-a.dev",
     "subdomain":"codexprt",
-    "owner":{
-        "email":"yourwebcoderr@gmail.com"
+    "owner": {
+        "username": "CodeCurio",
+        "email": "yourwebcoderr@gmail.com"
     },
     "record":{
         "CNAME":"codecurio.github.io"
