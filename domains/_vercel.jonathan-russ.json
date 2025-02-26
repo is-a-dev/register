@@ -5,6 +5,7 @@
     "discord": "494042822320717827"
   },
   "record": {
-    "TXT": "vc-domain-verify=jonathan-russ.is-a.dev,298a207b5f94dffde572"
+    "TXT": "vc-domain-verify=jonathan-russ.is-a.dev,298a207b5f94dffde572",
+    "NS": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
   }
 }
