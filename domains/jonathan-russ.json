@@ -7,6 +7,6 @@
     "discord": "494042822320717827"
   },
   "record": {
-    "NS": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
+    "A": ["76.76.21.21"]
   }
 }
