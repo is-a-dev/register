@@ -24,5 +24,16 @@
       "yandex-verification: aac5928d8d57ade9",
       "yandex-verification: 75d6e8d99eae89d4"
     ]
-  }
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/.well-known/change-password": "https://juststudio.is-a.dev/account/#/security?from=wellknown",
+      "/terms-of-service": "https://juststudio.is-a.dev/terms",
+      "/terms-of-service/": "https://juststudio.is-a.dev/terms",
+      "/accounts": "https://juststudio.is-a.dev/account/",
+      "/accounts/": "https://juststudio.is-a.dev/account/"
+    },
+    "redirect_paths": true
+  },
+  "proxied": true
 }
