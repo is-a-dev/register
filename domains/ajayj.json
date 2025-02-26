@@ -1,11 +1,9 @@
 {
-  "domain": "ajayj.is-a.dev",
-  "subdomain": "ajayj",
   "owner": {
-    "email": "ajay260505@gmail.com",
-    "github": "AJAY260505"
+    "username": "AJAY260505",
+    "email": "ajay260505@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "ajayjaisankar.netlify.app"
   }
 }
