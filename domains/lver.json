@@ -6,7 +6,12 @@
     "email": "hydrosexuallol@gmail.com"
   },
   "record": {
-    "CNAME": "lverz.glitch.me"
+    "URL": "https://lverz.glitch.me"
+    "MX": [
+      "ASPMX.L.GOOGLE.COM",
+      "ALT1.ASPMX.L.GOOGLE.COM"
+      ]
+    },
   },
   "proxied": true,
   "redirect_config": {
