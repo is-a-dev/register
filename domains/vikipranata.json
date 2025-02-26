@@ -5,7 +5,9 @@
     "email": "helovikipranata@gmail.com"
   },
   "record": {
-    "CNAME": "vikipranata.github.io"
+    "CNAME": "vikipranata.github.io",
+    "TXT": "google-site-verification=P0NDXXGrIMQIApUCl70HKX0nLphXZtzeW2B4qckwuLE"
+  }
   },
   "proxied": true
 }
