@@ -4,6 +4,6 @@
         "email": "divyanshudhruv24@gmail.com"
     },
     "record": {
-        "CNAME": "divyanshudhruv.vercel.app"
+        "TXT": ["vc-domain-verify=divyanshudhruv.is-a.dev,3736859f922a85d87e46"]
     }
 }
