@@ -3,7 +3,7 @@
     "username": "joshhargreaves",
     "email": "me@joshhargreaves.co.uk"
   },
-  "CNAME": {
-    "URL": "http://joshhargreaves.co.uk"
-  }
+    "record": {
+        "CNAME": "http://joshhargreaves.co.uk"
+    }
 }
