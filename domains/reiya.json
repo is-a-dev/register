@@ -1,0 +1,12 @@
+{
+  "domain": "reiya.is-a.dev",
+  "subdomain": "reiya",
+  "owner": {
+    "username": "atlayer3"
+    "discord": "atlayer3"
+  },
+  "record": {
+    "CNAME": "atlayer3.net",
+    "TXT": "dh=4daf7f999b56b7662a4cbcbec15c4ddc23692020"
+  }
+}
