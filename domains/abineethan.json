@@ -1,0 +1,11 @@
+{
+  "description": "This subdomain hosts my personal portfolio website.",
+  "repo": "https://github.com/abineethan/abineethan.github.io",
+  "owner": {
+    "username": "abineethan",
+    "email": "abineethan22@gmail.com"
+  },
+  "record": {
+    "CNAME": "abineethan.github.io"
+  }
+}

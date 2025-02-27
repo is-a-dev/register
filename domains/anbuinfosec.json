@@ -1,10 +1,6 @@
 {
-  "description": "Portfolio for anbuinfosec..",
-  "repo": "https://github.com/anbuinfosec/anbuinfosec.github.io",
   "owner": {
-    "username": "anbuinfosec",
-    "email": "anbuinfosec@gmail.com",
-    "twitter": ""
+    "username": "anbuinfosec"
   },
   "record": {
     "CNAME": "anbuinfosec.github.io"

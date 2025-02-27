@@ -2,24 +2,52 @@ const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
 
-const requiredRecordsToProxy = ["A", "AAAA", "CNAME"];
-// URL records are not listed here because they are proxied by default, so they don't need the proxied flag
+const requiredRecordsToProxy = new Set(["A", "AAAA", "CNAME"]);
+
+const domainCache = {};
+
+function getDomainData(file) {
+    if (domainCache[file]) {
+        return domainCache[file];
+    }
+
+    try {
+        const data = fs.readJsonSync(path.join(domainsPath, file));
+        domainCache[file] = data;
+        return data;
+    } catch (error) {
+        throw new Error(`Failed to read JSON for ${file}: ${error.message}`);
+    }
+}
 
 function validateProxiedRecords(t, data, file) {
-    if (data.proxied) {
-        const hasProxiedRecord = Object.keys(data.record).some((key) => requiredRecordsToProxy.includes(key));
+    // Convert the Set to an array for message display (moved outside the loop to optimize performance)
+    const recordTypes = Array.from(requiredRecordsToProxy).join(", ");
 
-        t.true(hasProxiedRecord, `${file}: Proxied is true but there are no records that can be proxied`);
+    if (data.proxied) {
+        const hasProxiedRecord = Object.keys(data.record).some((key) =>
+            requiredRecordsToProxy.has(key),
+        );
+
+        t.true(
+            hasProxiedRecord,
+            `${file}: Proxied is true but there are no records that can be proxied (${recordTypes} expected)`,
+        );
     }
 }
 
 const domainsPath = path.resolve("domains");
-const files = fs.readdirSync(domainsPath);
+const files = fs
+    .readdirSync(domainsPath)
+    .filter((file) => file.endsWith(".json"));
 
-t("Domains with proxy enabled should have have at least one record that can be proxied", (t) => {
-    files.forEach((file) => {
-        const domain = fs.readJsonSync(path.join(domainsPath, file));
+t(
+    "Domains with proxy enabled must have at least one proxy-able record",
+    (t) => {
+        files.forEach((file) => {
+            const domain = getDomainData(file);
 
-        validateProxiedRecords(t, domain, file);
-    });
-});
+            validateProxiedRecords(t, domain, file);
+        });
+    },
+);
