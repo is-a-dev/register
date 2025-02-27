@@ -3,7 +3,7 @@
   "repo": "https://github.com/777Vincent/Ben-Proxy",
   "owner": {
     "username": "777Vincent",
-    "email": "[email protected]"
+    "email": "alexaustin0630@gmail.com"
   },
   "record": {
     "CNAME": "ben-eats-rocks.koyeb.app"
@@ -15,5 +15,5 @@
     },
     "redirect_paths": true
   },
-  "proxied": false,
+  "proxied": true,
 }
