@@ -1,0 +1,11 @@
+{
+  "domain": "rahul",
+  "owner": {
+    "email": "pawarrahul1005@gmail.com",
+    "github": "pawarrahul1005"
+  },
+  "records": {
+    "CNAME": "pawarrahul.github.io"
+  },
+  "proxied": false
+}
