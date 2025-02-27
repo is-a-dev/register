@@ -1,0 +1,13 @@
+{
+  "description": "ClipGen AI is a YouTube Video AI Agent which is build during Sonny Sangha's Challenge.",
+  "repo": "https://github.com/ArhanAnsari/clipgen-ai",
+    "owner": {
+        "username": "ArhanAnsari",
+        "email": "arhanansari2009@gmail.com",
+        "x": "https://x.com/codewitharhan",
+        "discord": "@codewitharhan"
+    },
+    "record": {
+        "CNAME": "arhans-clipgen-ai.vercel.app"
+    }
+}
