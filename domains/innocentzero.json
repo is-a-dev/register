@@ -2,8 +2,8 @@
   "description": "personal blog - innocentzero",
   "repo": "https://codeberg.org/innocent_zero/pages",
   "owner": {
-    "username": "innocent_zero",
-    "email": "isfarulhaque@proton.me",
+    "username": "InnocentZero",
+    "email": "isfarulhaque@proton.me"
   },
   "record": {
     "CNAME": "innocent_zero.codeberg.page"
