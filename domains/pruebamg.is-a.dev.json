@@ -1,0 +1,19 @@
+{
+  "domain": "pruebamg.is-a.dev",
+  "owner": {
+    "email": "benjamin.rodriguezmat@gmail.com"
+  },
+  "records": {
+    "MX": [
+      "mxa.mailgun.org",
+      "mxb.mailgun.org"
+    ],
+    "TXT": [
+      "v=spf1 include:mailgun.org ~all",
+      "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEAkgOp9awc6DNHKBmDfUI+dI2MweQm0pkMBEr153WDy4fHwgHd8k/qQ9ggn76dZWDTTRAkT79ggx5bJ+OTC+5TCFk2FOjgg7r34mJN+PZaogw8YL3bUa0hsNNJELrgRqmxp2xhOarJQzlUqKFNjnzwtGa6PQBQ9X4HJYSAiJ2QwIDAQAB"
+    ],
+    "CNAME": {
+      "email": "mailgun.org"
+    }
+  }
+}
