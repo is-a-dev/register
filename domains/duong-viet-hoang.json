@@ -1,0 +1,10 @@
+{
+  "description": "My personal developer portfolio.",
+  "owner": {
+    "username": "bocanhcam",
+    "email": "hora.alien@gmail.com"
+  },
+  "record": {
+    "CNAME": "bocanhcam.github.io"
+  }
+}

@@ -1,11 +1,11 @@
 {
-    "description": "My Portfolio Site",
-    "repo": "https://github.com/soymadip/soymadip.github.io",
-    "owner": {
-        "username": "soymadip",
-        "email": "soumadip@zohomail.in"
-    },
-    "record": {
-        "CNAME": "soymadip.github.io"
-    }
+  "description": "My Portfolio Site",
+  "repo": "https://github.com/soymadip/soymadip.github.io",
+  "owner": {
+    "username": "soymadip",
+    "email": "soumadip@zohomail.in"
+  },
+  "record": {
+    "CNAME": "soymadip.github.io"
+  }
 }

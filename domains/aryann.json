@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "aryanm830",
-        "email": "aryanm830@proton.me",
-        "discord": "riftfiree"
-    },
-    "record": {
-        "CNAME": "portxd.vercel.app"
-    }
+  "owner": {
+    "username": "aryanm830",
+    "email": "aryanm830@proton.me",
+    "discord": "riftfiree"
+  },
+  "record": {
+    "CNAME": "portxd.vercel.app"
+  }
 }

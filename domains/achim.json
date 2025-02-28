@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nohli",
-        "twitter": "joachi_"
-    },
-    "record": {
-        "CNAME": "achim.io"
-    }
+  "owner": {
+    "username": "nohli",
+    "twitter": "joachi_"
+  },
+  "record": {
+    "CNAME": "achim.io"
+  }
 }

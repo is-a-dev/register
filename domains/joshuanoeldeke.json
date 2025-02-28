@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "joshuanoeldeke",
-        "email": "joshua.noeldeke@me.com"
-    },
-    "record": {
-        "NS": ["adrian.ns.cloudflare.com","keaton.ns.cloudflare.com"]
-    }
+  "owner": {
+    "username": "joshuanoeldeke",
+    "email": "joshua.noeldeke@me.com"
+  },
+  "record": {
+    "NS": ["adrian.ns.cloudflare.com", "keaton.ns.cloudflare.com"]
+  }
 }

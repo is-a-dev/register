@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "bananaking6",
+    "email": "",
     "discord": "skibidibagel"
   },
   "record": {
-    "CNAME": "bananaking6.github.io"
+    "CNAME": "skibidi-3.vercel.app"
   }
 }

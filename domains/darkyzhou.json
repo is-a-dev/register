@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "darkyzhou",
-        "email": "me@zqy.io"
-    },
-    "record": {
-        "CNAME": "darkyzhou.net"
-    }
+  "owner": {
+    "username": "darkyzhou",
+    "email": "me@zqy.io"
+  },
+  "record": {
+    "CNAME": "darkyzhou.net"
+  }
 }
