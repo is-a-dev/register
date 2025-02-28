@@ -5,5 +5,9 @@
   },
   "record": {
     "A": ["207.180.248.6"]
+    "NS": [
+      "maleah.ns.cloudflare.com",
+      "alexis.ns.cloudflare.com"
+    ]
   }
 }
