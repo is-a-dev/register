@@ -1,0 +1,11 @@
+{
+  "description": "This is for my personal website (portofolio)",
+  "repo": "https://github.com/andev404/portofolio",
+  "owner": {
+    "username": "AnDev404",
+    "email": "muhantara08@gmail.com"
+  },
+  "record": {
+    "CNAME": "andev404.github.io"
+  }
+}
