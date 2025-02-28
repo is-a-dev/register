@@ -1,10 +1,10 @@
 {
-    "description": "Isira Adithya's Personal Website",
-    "owner": {
-        "username": "isira-adithya",
-        "email": "me@isiraadithya.com"
-    },
-    "record": {
-        "URL": "https://isiraadithya.com"
-    }
+  "description": "Isira Adithya's Personal Website",
+  "owner": {
+    "username": "isira-adithya",
+    "email": "me@isiraadithya.com"
+  },
+  "record": {
+    "URL": "https://isiraadithya.com"
+  }
 }

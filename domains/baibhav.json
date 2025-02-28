@@ -1,10 +1,10 @@
 {
- "description": "For personal portfolio",
- "owner": {
-     "username": "Baibhavos",
-     "email": "baibhavkumar303@gmail.com"
-     },
- "record": {
-     "CNAME": "new-portfolio-weld-sigma.vercel.app"
-     }
- }
+  "description": "For personal portfolio",
+  "owner": {
+    "username": "Baibhavos",
+    "email": "baibhavkumar303@gmail.com"
+  },
+  "record": {
+    "CNAME": "new-portfolio-weld-sigma.vercel.app"
+  }
+}

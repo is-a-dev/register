@@ -1,0 +1,10 @@
+{
+  "description": "agilani.is-a.dev",
+  "owner": {
+    "username": "agilani",
+    "email": "me@agilani.me"
+  },
+  "record": {
+    "CNAME": "www.agilani.me"
+  }
+}

@@ -1,11 +1,11 @@
 {
-    "description": "Personal website",
-    "repo": "https://github.com/wildchamo/Jose-Luis-Bedoya",
-    "owner": {
-        "username": "wildchamo",
-        "email": "wildchamo@gmail.com"
-    },
-    "record": {
-        "CNAME": "wildchamo.github.io"
-    }
+  "description": "Personal website",
+  "repo": "https://github.com/wildchamo/Jose-Luis-Bedoya",
+  "owner": {
+    "username": "wildchamo",
+    "email": "wildchamo@gmail.com"
+  },
+  "record": {
+    "CNAME": "wildchamo.github.io"
+  }
 }

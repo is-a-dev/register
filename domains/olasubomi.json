@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "firstaxel",
-        "email": "olasubomiolubisi@geeg.space",
-        "discord": "1209136236607049758"
-    },
-    "record": {
-        "CNAME": "twinkle-portfolio-wine.vercel.app"
-    }
+  "owner": {
+    "username": "firstaxel",
+    "email": "olasubomiolubisi@geeg.space",
+    "discord": "1209136236607049758"
+  },
+  "record": {
+    "CNAME": "twinkle-portfolio-wine.vercel.app"
+  }
 }

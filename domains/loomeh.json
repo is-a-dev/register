@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "loomeh",
+    "bluesky": "loomeh.bsky.social"
+  },
+  "record": {
+    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
+    "A": ["76.76.21.21"],
+    "TXT": [
+      "v=spf1 include:zohomail.eu ~all",
+      "zoho-verification=zb06679817.zmverify.zoho.eu"
+    ]
+  }
+}

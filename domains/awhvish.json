@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "awhvish",
-      "email": "high.avis.lowha@gmail.com"
-    },
-    "record": {
-      "CNAME": "awhvish.vercel.app"
-    }
+  "owner": {
+    "username": "awhvish",
+    "email": "high.avis.lowha@gmail.com"
+  },
+  "record": {
+    "CNAME": "awhvish.vercel.app"
   }
-  
+}
