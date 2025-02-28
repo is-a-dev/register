@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "khanhngn-dev",
-        "email": "khanhngn.dev@gmail.com",
-        "discord": "jerry.ng"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=khanhngn.is-a.dev,22d6c072955bf792ff60"
-    }
+  "owner": {
+    "username": "khanhngn-dev",
+    "email": "khanhngn.dev@gmail.com",
+    "discord": "jerry.ng"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=khanhngn.is-a.dev,22d6c072955bf792ff60"
+  }
 }

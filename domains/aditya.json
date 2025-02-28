@@ -1,13 +1,12 @@
 {
-    "description": "my personal homepage",
-    "repo": "https://github.com/dedomil",
-    "owner": {
-        "username": "dedomil",
-        "email": "ishqaddy@gmail.com",
-        "twitter": "aadixl",
-        "discord": "dedomil"
-    },
-    "record": {
-        "CNAME": "dedomil.github.io"
-    }
+  "description": "my personal homepage",
+  "owner": {
+    "username": "dedomil",
+    "email": "ishqaddy@gmail.com",
+    "twitter": "aadixl",
+    "discord": "dedomil"
+  },
+  "record": {
+    "CNAME": "dedomil.github.io"
+  }
 }

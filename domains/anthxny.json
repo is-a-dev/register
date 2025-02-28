@@ -1,11 +1,11 @@
 {
-    "description": "My perosnal portfolio",
-    "repo": "https://github.com/anthonycursewl/brd-portfolio",
-    "owner": {
-        "username": "anthonycursewl",
-        "email": "zerpaathony.wx@breadriuss.com"
-    },
-    "record": {
-        "CNAME": "anthportafolio.netlify.app"
-    }
+  "description": "My perosnal portfolio",
+  "repo": "https://github.com/anthonycursewl/brd-portfolio",
+  "owner": {
+    "username": "anthonycursewl",
+    "email": "zerpaathony.wx@breadriuss.com"
+  },
+  "record": {
+    "CNAME": "anthportafolio.netlify.app"
+  }
 }

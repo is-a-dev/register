@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AliMD",
-        "email": "ali@mihandoost.com"
-    },
-    "record": {
-        "CNAME": "alimd.github.io"
-    }
+  "owner": {
+    "username": "AliMD",
+    "email": "ali@mihandoost.com"
+  },
+  "record": {
+    "CNAME": "alimd.github.io"
+  }
 }
