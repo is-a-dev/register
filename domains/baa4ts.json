@@ -1,0 +1,20 @@
+{
+    "owner": {
+        "username": "baa4ts",
+        "email": "baa4tsdev@gmail.com"
+    },
+    "target": {
+        "CNAME": {
+            "name": "baa4ts",
+            "value": "cname.vercel-dns.com"
+        },
+        "TXT": {
+            "name": "_vercel",
+            "value": "vc-domain-verify=baa4ts.is-a.dev,f790b72d8acef8c39980"
+        }
+    },
+    "record": {
+        "TXT": "vc-domain-verify=baa4ts.is-a.dev,f790b72d8acef8c39980"
+    },
+    "proxied": "false"
+}
