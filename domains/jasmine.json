@@ -1,1 +1,11 @@
-
+{
+    "description": "Personal bio site for me :)",
+    "repo": "https://github.com/Jasminestrone/register/",
+    "owner": {
+        "username": "Jasminestrone",
+        "email": "[email protected]"
+    },
+    "record": {
+        "A": ["75.2.60.5"]
+    }
+}
