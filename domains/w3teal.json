@@ -1,20 +1,10 @@
 {
-    "description": "Used for my W3Teal's blog website, also Keyoxide verification and ImprovMX.",
+    "description": "Used for my W3Teal's blog website.",
     "repo": "https://github.com/w3teal/w3teal.github.io",
     "owner": {
         "username": "w3teal",
         "email": "w3teal@gmail.com"
     },
     "record": {
-        "CNAME": "w3teal.github.io",
-        "TXT": [
-            "aspe:keyoxide.org:YM7J2J5UIVYRWSHRSOTYFYJ2HQ",
-            "v=spf1 include:spf.improvmx.com ~all"
-        ],
-        "MX": [
-            "mx1.improvmx.com",
-            "mx2.improvmx.com"
-        ]
-    },
-    "proxied": true
+        "CNAME": "w3teal.github.io"
 }
