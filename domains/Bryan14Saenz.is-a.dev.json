@@ -1,8 +1,8 @@
 {
   "domain": "is-a.dev",
-  "subdomain": "Bryan14Saenz", 
+  "subdomain": "bryan14baenz", 
   "owner": {
-    "email": "14BryanSaenz@gmail.com"
+    "email": "14bryansaenz@gmail.com"
   },
   "records": {
     "CNAME": "https://portafoliob14s.netlify.app/"
