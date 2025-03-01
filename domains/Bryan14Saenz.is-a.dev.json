@@ -1,0 +1,10 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "Bryan14Saenz", 
+  "owner": {
+    "email": "14BryanSaenz@gmail.com"
+  },
+  "records": {
+    "CNAME": "https://portafoliob14s.netlify.app/"
+  }
+}
