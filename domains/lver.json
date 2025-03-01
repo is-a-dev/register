@@ -6,9 +6,7 @@
     "sms": "(616) 256-0214 [business]" 
   }, 
   "record": { 
-    "CNAME": { 
-      "name": "www", 
-      "value": "lverz.glitch.me" 
+    "CNAME": "lverz.glitch.me" 
     } 
   }, 
   "redirect_config": { 
