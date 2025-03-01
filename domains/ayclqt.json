@@ -1,0 +1,10 @@
+{
+  "description": "Domain for studying and researching",
+  "owner": {
+    "username": "ayclqt",
+    "email": "quangtri.lam.9@gmail.com"
+  },
+  "record": {
+    "NS": ["trevor.ns.cloudflare.com", "ziggy.ns.cloudflare.com"]
+  }
+}
