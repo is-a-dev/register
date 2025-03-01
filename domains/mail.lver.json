@@ -1,0 +1,15 @@
+{ 
+  "repo": "https://github.com/lverx", 
+  "owner": { 
+    "username": "lverx", 
+    "email": "profoundlvr@gmail.com", 
+    "sms": "(616) 256-0214 [business]" 
+  }, 
+  "record": {
+    "MX": [ 
+      "mx1.improvmx.com", 
+      "mx2.improvmx.com" 
+    ] 
+  }, 
+  "proxied": true 
+}
