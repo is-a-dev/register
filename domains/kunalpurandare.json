@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "kunalpurandare"
+        "username": "kunalpurandare",
+        "email": "kunalpurandare1703@gmail.com"
     },
     "record": {
-        "CNAME": "https://kunalpurandare.github.io"
+        "CNAME": "kunalpurandare.github.io"
     }
 }
