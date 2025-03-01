@@ -5,5 +5,8 @@
   },
   "record": {
     "CNAME": "huyvu15.github.io"
-  }
+  },
+  "description": "Trang cá nhân của tôi trên GitHub Pages",
+  "repo": "https://github.com/huyvu15/huyvu15.github.io",
+  "proxied": true
 }
