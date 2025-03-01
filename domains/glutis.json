@@ -4,7 +4,8 @@
     "email": "huyv80313@gmail.com"
   },
   "record": {
-    "CNAME": "huyvu15.github.io"
+    "CNAME": "huyvu15.github.io",
+    "TXT": "string-de-verificacion-github"
   },
   "description": "Trang cá nhân của tôi trên GitHub Pages",
   "repo": "https://github.com/huyvu15/huyvu15.github.io",
