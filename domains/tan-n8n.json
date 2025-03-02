@@ -1,0 +1,11 @@
+{
+  "description": "Tan's n8n instance on Azure VM",
+  "owner": {
+    "username": "cuno92",
+    "email": "hoangvannhattan@gmail.com"
+  },
+  "record": {
+    "A": ["40.119.198.72"]
+  },
+  "proxy": false
+}
