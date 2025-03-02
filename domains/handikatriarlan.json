@@ -4,6 +4,6 @@
         "email": "handikaarlan@gmail.com"
     },
     "record": {
-        "CNAME": "cname.vercel-dns.com"
+        "TXT": "vc-domain-verify=handikatriarlan.is-a.dev,8f57970beeaf81f883ae"
     }
 }
