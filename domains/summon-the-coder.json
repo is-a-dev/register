@@ -1,10 +1,10 @@
 {   "description": "Site about me",
-    "repo": "https://github.com/banana6boom/about-me",
+    "repo": "https://github.com/banana6boom/banana6boom.github.io",
     "owner": {
         "username": "banana6boom",
         "email": "themadhouse@mail.ru"
     },
     "record": {
-        "CNAME": "https://banana6boom.github.io/about-me/"
+        "CNAME": "banana6boom.github.io"
     }
 }
