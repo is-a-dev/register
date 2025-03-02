@@ -1,0 +1,11 @@
+{
+  "description": "Phân tích hình ảnh bằng AI GEMINI"
+  "owner": {
+    "username": "ngocphuong209",
+    "email": "ngocphuongexacute@gmail.com"
+  },
+  "record": {
+    "CNAME": "deeplook-image-ai.vercel.app"
+  },
+  "proxied": true
+}
