@@ -1,0 +1,17 @@
+{ 
+  "github": "https://github.com/lverx", 
+  "owner": { 
+    "username": "lverx", 
+    "email": "profoundlvr@gmail.com", 
+    "sms": "(616) 256-0214 [business]" 
+  }, 
+  "record": { 
+    "URL": "https://linktr.ee/lverboy" 
+  }, 
+  "redirect_config": { 
+    "custom_paths": { 
+      "/home": "https://lver.is-a.dev/" 
+    }, 
+    "redirect_paths": true 
+  }, 
+}
