@@ -10,8 +10,14 @@
       "mx3.zoho.in"
     ],
     "TXT": [
-      "v=spf1 include:zohomail.in ~all",
-      "zoho-verification=zb94087787.zmverify.zoho.in",
+      {
+        "host": "@",
+        "value": "v=spf1 include:zohomail.in ~all"
+      },
+      {
+        "host": "@",
+        "value": "zoho-verification=zb94087787.zmverify.zoho.in"
+      },
       {
         "host": "zmail._domainkey.0xarchit",
         "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIIsclFhtL6ruTL5EClsNzTNxFf7jJBCyWJl+7VW9EXPt+x09GBVsYiaMEcLvNve0PGmuZKKVGv1H19OeJbZOAFg+kd4W7kgW9Bpw2oVklstLNZGPThu1Uv+UXgjpMIOQSwhzuWGo9yFn1k91eLkzqt2NvhMqmGVVqT9OibGwwowIDAQAB"
