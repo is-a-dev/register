@@ -12,10 +12,8 @@
       "/github": "https://github.com/lverx", 
       "/biz": "https://github.com/lverz", 
       "/contact": "https://contact-lver.pages.dev/", 
-      "/site": "https://lver.link", 
-      "/sms": "sms:16162560214" 
+      "/site": "https://lver.link"
     }, 
     "redirect_paths": true 
   }, 
-  "proxied": true 
 } 
