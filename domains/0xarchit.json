@@ -15,12 +15,6 @@
       "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIIsclFhtL6ruTL5EClsNzTNxFf7jJBCyWJl+7VW9EXPt+x09GBVsYiaMEcLvNve0PGmuZKKVGv1H19OeJbZOAFg+kd4W7kgW9Bpw2oVklstLNZGPThu1Uv+UXgjpMIOQSwhzuWGo9yFn1k91eLkzqt2NvhMqmGVVqT9OibGwwowIDAQAB"
     ],
     "CNAME": "0xarchit.pages.dev",
-    "IMAP": {
-      "incomingServer": "imap.zoho.in",
-      "port": 993,
-      "requireSSL": true,
-      "username": "mail@0xarchit.is-a.dev"
-    }
   },
   "proxied": true
 }
