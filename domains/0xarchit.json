@@ -14,6 +14,7 @@
       "zoho-verification=zb94087787.zmverify.zoho.in",
       "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIIsclFhtL6ruTL5EClsNzTNxFf7jJBCyWJl+7VW9EXPt+x09GBVsYiaMEcLvNve0PGmuZKKVGv1H19OeJbZOAFg+kd4W7kgW9Bpw2oVklstLNZGPThu1Uv+UXgjpMIOQSwhzuWGo9yFn1k91eLkzqt2NvhMqmGVVqT9OibGwwowIDAQAB"
     ],
-    "URL": "https://0xarchit.pages.dev"
-  }
+    "CNAME": "0xarchit.pages.dev"
+  },
+  "proxied": true
 }
