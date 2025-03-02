@@ -1,0 +1,11 @@
+{
+  "description": "Trang chủ các công cụ trực tuyến hữu ích"
+  "owner": {
+    "username": "tanbaycu",
+    "email": "tanbaycu@gmail.com"
+  },
+  "record": {
+    "CNAME": "tanbaycu-first.vercel.app"
+  },
+  "proxied": false
+}
