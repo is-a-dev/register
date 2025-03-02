@@ -17,6 +17,5 @@
       "/contact": "https://contact-lver.pages.dev"
     }, 
     "redirect_paths": true 
-  }, 
-  "proxied": true 
+  }
 } 
