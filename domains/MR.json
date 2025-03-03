@@ -1,0 +1,11 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/MR-0312/MR.github.io.git",
+    "owner": {
+        "username": "MR-0312",
+        "email": "[22aiml042@charusat.edu.in protected]"
+    },
+    "record": {
+        "CNAME": "MR.github.io"
+    }
+}
