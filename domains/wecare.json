@@ -1,0 +1,15 @@
+{
+  "description": "A Domain For aapanel",
+  "domain": "wecare",
+  "owner": {
+    "username": "fqdata123",
+    "email": "youdangmomo@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "karl.ns.cloudflare.com",
+      "norah.ns.cloudflare.com"
+    ]
+  },
+  "proxied": false
+}
