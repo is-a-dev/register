@@ -5,6 +5,7 @@
     "username": "totalolage",
     "email": "filip@kalny.net"
   },
+  "proxied": true,
   "record": {
     "CNAME": "vps1.kalny.net",
     "CAA": [
