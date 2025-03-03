@@ -32,9 +32,9 @@
       "/user-agreement": "https://js.is-a.dev/terms",
       "/rules-for-players": "https://js.is-a.dev/rules",
       "/accounts": "https://js.is-a.dev/account/",
-      "/r?discord": "https://discord.gg/aHXxS6VvcC",
-      "/r?roblox": "https://www.roblox.com/groups/11641563/JustStudio#!/about",
-      "/r?github": "https://github.com/JustStudio7"
+      "/r/discord": "https://discord.gg/aHXxS6VvcC",
+      "/r/roblox": "https://www.roblox.com/groups/11641563/JustStudio#!/about",
+      "/r/github": "https://github.com/JustStudio7"
     }
   },
   "proxied": true
