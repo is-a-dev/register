@@ -7,14 +7,5 @@
   },
   "record": {
     "URL": "https://juststudio.is-a.dev/"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/encoder": "https://encoder.js.is-a.dev/",
-      "/encoder@latest": "https://encoder.js.is-a.dev/encoder.js@1.0.1.js",
-      "/encoder@1.0.0": "https://encoder.js.is-a.dev/encoder.js@1.0.0.js",
-      "/encoder@1.0.1": "https://encoder.js.is-a.dev/encoder.js@1.0.1.js"
-    },
-    "redirect_paths": true
   }
 }
