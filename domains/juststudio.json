@@ -27,11 +27,11 @@
   },
   "redirect_config": {
     "custom_paths": {
-      "/.well-known/change-password": "https://juststudio.is-a.dev/account/#/security?from=wellknown",
-      "/terms-of-service": "https://juststudio.is-a.dev/terms",
-      "/terms-of-service/": "https://juststudio.is-a.dev/terms",
-      "/accounts": "https://juststudio.is-a.dev/account/",
-      "/accounts/": "https://juststudio.is-a.dev/account/"
+      "/.well-known/change-password": "https://js.is-a.dev/.well-known/change-password",
+      "/terms-of-service": "https://js.is-a.dev/terms",
+      "/user-agreement": "https://js.is-a.dev/terms",
+      "/rules-for-players": "https://js.is-a.dev/rules",
+      "/accounts": "https://js.is-a.dev/account/"
     }
   },
   "proxied": true
