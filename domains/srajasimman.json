@@ -1,0 +1,11 @@
+{
+    "description": "srajasimman subdomain",
+    "repo": "https://github.com/srajasimman/srajasimman.github.io",
+    "owner": {
+      "username": "srajasimman",
+      "email": "srajasimman@gmail.com"
+    },
+    "record": {
+      "CNAME": "srajasimman.github.io"
+    }
+  }
