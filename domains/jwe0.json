@@ -1,0 +1,9 @@
+{
+  "description": "Forwarding",
+  "owner": {
+    "email": "900qxecf7@mozmail.com"
+  },
+  "record": {
+    "NS": ["betty.ns.cloudflare.com", "cody.ns.cloudflare.com"]
+  }
+}
