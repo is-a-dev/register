@@ -1,0 +1,11 @@
+{
+    "description": "Web developer portfolio",
+    "repo": "https://github.com/draganl/dragan-leskovar.io",
+    "owner": {
+        "username": "draganle",
+        "email": "[drleskov@inet.hr]"
+    },
+    "record": {
+        "CNAME": "draganl.github.io/dragan-leskovar.io"
+    }
+}
