@@ -10,14 +10,10 @@
   },
   "redirect_config": {
     "custom_paths": {
-      "/.well-known/change-password": "https://juststudio.is-a.dev/account/#/security?from=wellknown",
-      "/terms-of-service": "https://juststudio.is-a.dev/terms",
-      "/terms": "https://juststudio.is-a.dev/terms",
-      "/user-agreement": "https://juststudio.is-a.dev/terms",
-      "/rules-for-players": "https://juststudio.is-a.dev/rules",
-      "/rules": "https://juststudio.is-a.dev/rules",
-      "/accounts": "https://juststudio.is-a.dev/account/",
-      "/account": "https://juststudio.is-a.dev/account/",
+      "/00": "https://juststudio.is-a.dev/account/#/security?from=wellknown",
+      "/01": "https://juststudio.is-a.dev/terms",
+      "/02": "https://juststudio.is-a.dev/rules",
+      "/03": "https://juststudio.is-a.dev/account/",
       "/encoder": "https://encoder.js.is-a.dev/",
       "/encoder/latest": "https://encoder.js.is-a.dev/encoder.js@1.0.1.js",
       "/encoder/1.0.0": "https://encoder.js.is-a.dev/encoder.js@1.0.0.js",
