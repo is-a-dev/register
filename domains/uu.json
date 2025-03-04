@@ -1,0 +1,11 @@
+{
+    "description": "This subdomain is for my current new url shortner project, that has been deployed on cloud but the url is nor short. That's why I want a new short domain for the website.",
+    "repo": "https://github.com/arpitgoswami/url-shortner",
+    "owner": {
+        "username": "arpitgoswami",
+        "email": "syiedelta@gmail.com"
+    },
+    "record": {
+        "CNAME": ["stake-mines-faucet.onrender.com"]
+    }
+}
