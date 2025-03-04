@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "jwtoler",
+    "email": "jwtoler@gmail.com"
+  },
+  "record": {
+    "NS": ["amanda.ns.cloudflare.com","dane.ns.cloudflare.com"]
+  }
+}
