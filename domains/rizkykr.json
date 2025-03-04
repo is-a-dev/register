@@ -7,5 +7,5 @@
   "record": {
     "CNAME": "sub-is-dev.rizkykr.com"
   },
-  "proxied": true
+  "proxied": false
 }
