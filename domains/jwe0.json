@@ -1,9 +1,10 @@
 {
   "description": "Forwarding",
   "owner": {
-    "email": "900qxecf7@mozmail.com"
+    "email": "900qxecf7@mozmail.com",
+    "username" : "jwe0"
   },
   "record": {
-    "NS": ["betty.ns.cloudflare.com", "cody.ns.cloudflare.com"]
+    "CNAME" : "jwe0.xyz"
   }
 }
