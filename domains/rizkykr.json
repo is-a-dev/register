@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "rizkykr",
+    "email": "me@rizkykr.com"
+  },
+  "description": "Personal Website for Personal Branding",
+  "record": {
+    "CNAME": "sub-is-dev.rizkykr.com"
+  },
+  "proxied": true
+}
