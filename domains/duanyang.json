@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "Mrliduanyang",
+        "email": "duanyangchn@gmail.com"
+    },
+    "target": {
+        "CNAME": {
+            "name": "duanyang",
+            "value": "duanyang.cool"
+        }
+    },
+    "proxied": false
+}
