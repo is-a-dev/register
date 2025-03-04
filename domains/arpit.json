@@ -1,0 +1,11 @@
+{
+    "description": "This subdomain would be used for my portfolio website for showcasing my projects.",
+    "repo": "https://github.com/arpitgoswami/portfolio/tree/v1.2",
+    "owner": {
+        "username": "arpitgoswami",
+        "email": "syiedelta@gmail.com"
+    },
+    "record": {
+        "TXT": "vc-domain-verify=uu.is-a.dev,f110efcbb4f59f455e9b"
+    }
+}
