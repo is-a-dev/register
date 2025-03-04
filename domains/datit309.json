@@ -6,7 +6,10 @@
     "email": "datit309@gmail.com"
   },
   "record": {
-    "CNAME": "datit309.github.io"
+    "URL": "https://datit309.github.io",
+    "record": {
+      "TXT": "google-site-verification=2F7H5wS3Sly_6DKcp2IIlsDI3z3PWGfqv81YFGbMRKY"
+    }
   },
   "proxied": true
 }
