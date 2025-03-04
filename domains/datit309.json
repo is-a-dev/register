@@ -1,0 +1,12 @@
+{
+  "description": "Documentation website for is-a.dev",
+  "repo": "https://github.com/datit309309/register",
+  "owner": {
+    "username": "datit309",
+    "email": "datit309@gmail.com"
+  },
+  "record": {
+    "CNAME": "datit309.github.io"
+  },
+  "proxied": true
+}
