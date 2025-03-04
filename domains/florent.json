@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/flobsx",
+  "owner": {
+    "username": "florent",
+    "email": "flo@bsx.pm"
+  },
+  "record": {
+    "CNAME": "flobsx.github.io"
+  },
+  "proxied": true,
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/flobsx",
+      "/linkedin": "https://www.linkedin.com/in/florent-bissiriex/"
+    },
+    "redirect_paths": true
+  }
+}
