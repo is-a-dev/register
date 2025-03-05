@@ -5,7 +5,7 @@
   },
   "description": "Personal Website for Personal Branding",
   "record": {
-    "CNAME": "sub-is-dev.rizkykr.com"
+    "CNAME": "rizkykr-is-a-dev.rizkykr.workers.dev"
   },
-  "proxied": false
+  "proxied": true
 }
