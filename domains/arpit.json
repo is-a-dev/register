@@ -5,7 +5,7 @@
         "username": "arpitgoswami",
         "email": "syiedelta@gmail.com"
     },
-    "record": {
-        "TXT": "vc-domain-verify=uu.is-a.dev,f110efcbb4f59f455e9b"
+    "_vercel": {
+    "TXT": "vc-domain-verify=uu.is-a.dev,f110efcbb4f59f455e9b"
     }
 }
