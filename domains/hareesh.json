@@ -4,6 +4,7 @@
         "email": "hareeshbhittam@gmail.com"
     },
     "record": {
-        "URL": "https://me-hazel-delta.vercel.app"
+        "URL": "https://me-hazel-delta.vercel.app",
+        "CNAME": "me-hazel-delta.vercel.app"
     }
 }
