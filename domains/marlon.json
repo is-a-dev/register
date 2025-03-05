@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "MarlonDevs", // Nuestro usuario de Github
-        "email": "marlonmogollon13@gmail.com", // Tu email
-    },
-    "record": {
-        "CNAME": "marlondevs.github.io" // URL a la cual aputa tu web
-    }
+   "owner": {
+       "username": "MarlonDevs",
+       "email": "marlonmogollon13@gmail.com",
+   },
+   "record": {
+       "CNAME": "marlondevs.github.io"
+   }
 }
