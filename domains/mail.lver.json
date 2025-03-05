@@ -6,5 +6,10 @@
   }, 
   "record": {
     "TXT": "zoho-verification=zb43169475.zmverify.zoho.com"
-  }
+  },
+  "MX": [
+    "mx.zoho.com",
+    "mx2.zoho.com",
+    "mx3.zoho.com"
+  ]
 }
