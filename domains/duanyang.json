@@ -1,10 +1,10 @@
 {
-	"owner": {
-		"username": "Mrliduanyang",
-		"email": "duanyangchn@gmail.com"
-	},
-	"record": {
-		"CNAME": "duanyang.cool"
-	},
-	"proxied": false
+    "owner": {
+        "username": "Mrliduanyang",
+        "email": "duanyangchn@gmail.com"
+    },
+    "record": {
+        "CNAME": "duanyang.cool"
+    },
+    "proxied": false
 }
