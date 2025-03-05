@@ -1,0 +1,11 @@
+{
+  "description": "fmbetancourt Development Test Site",
+  "repo": "https://github.com/soyfmbetancourt/soyfmbetancourt.github.io",
+  "owner": {
+    "username": "soyfmbetancourt",
+    "email": "soyfmbetancourt@gmail.com"
+  },
+  "record": {
+    "CNAME": "soyfmbetancourt.github.io"
+  }
+}
