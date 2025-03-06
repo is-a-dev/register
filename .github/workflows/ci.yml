@@ -42,7 +42,7 @@ jobs:
             - name: Get changed files
               if: github.event_name == 'pull_request'
               run: |
-                  FILES=$(gh api --jq '[.files[].filename]' /repos/{owner}/{repo}/pulls/${{ github.event.number }}/files)
+                  FILES=$(gh api --jq '[.[] | .filename]' /repos/{owner}/{repo}/pulls/${{ github.event.number }}/files)
                   echo "CHANGED_FILES=$FILES" >> $GITHUB_ENV
               env:
                   GH_TOKEN: ${{ github.token }}
