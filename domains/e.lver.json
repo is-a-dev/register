@@ -1,9 +1,9 @@
-{ 
-  "repo": "https://github.com/lverx", 
-  "owner": { 
-    "username": "lverx", 
+{
+  "repo": "https://github.com/lverx",
+  "owner": {
+    "username": "lverx",
     "email": "profoundlvr@gmail.com"
-  }, 
+  },
   "record": {
     "TXT": [
       "hosted-email-verify=qrzhubjn",
@@ -21,10 +21,31 @@
       "autoconfig.migadu.com."
     ],
     "SRV": [
-      "autodiscover.migadu.com",
-      "smtp.migadu.com",
-      "imap.migadu.com",
-      "pop.migadu.com"
+      {
+        "priority": 0,
+        "weight": 1,
+        "port": 403,
+        "target": "autodiscover.migadu.com"
+      },
+      {
+        "priority": 0,
+        "weight": 1,
+        "port": 465,
+        "target": "smtp.migadu.com"
+      },
+      {
+        "priority": 0,
+        "weight": 1,
+        "port": 993,
+        "target": "imap.migadu.com"
+      },
+      {
+        "priority": 0,
+        "weight": 1,
+        "port": 995,
+        "target": "imap.migadu.com"
+      }
     ]
-  }
+  },
+  "proxied": true
 }
