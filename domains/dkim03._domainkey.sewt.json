@@ -4,6 +4,6 @@
     "discord": "1049263707177353247"
   },
   "record": {
-    "CNAME": ["dkim03._domainkey.simplelogin.co"]
+    "CNAME": "dkim03._domainkey.simplelogin.co"
   }
 }
