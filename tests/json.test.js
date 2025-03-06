@@ -119,7 +119,7 @@ async function validateFileName(t, file) {
     }
 }
 
-async function processFile(file) {
+async function processFile(file, t) {
     const filePath = path.join(domainsPath, file);
     const data = await fs.readJson(filePath);
 
@@ -171,7 +171,7 @@ t("All files should have valid file names", async (t) => {
 });
 
 t("All files should have valid required and optional fields", async (t) => {
-    await Promise.all(files.map((file) => processFile(file)));
+    await Promise.all(files.map((file) => processFile(file, t)));
 });
 
 t("Reserved domains file should be valid", (t) => {
