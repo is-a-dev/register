@@ -1,0 +1,9 @@
+{
+  "domain": "damilare.is-a.dev",
+  "owner": {
+    "username": "Peculiars"
+  },
+  "records": {
+    "CNAME": "peculiars.github.io"
+  }
+}
