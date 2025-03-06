@@ -3,9 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const domainsPath = path.resolve("domains");
-const files = fs
-    .readdirSync(domainsPath)
-    .filter((file) => file.endsWith(".json"));
+const files = fs.readdirSync(domainsPath).filter((file) => file.endsWith(".json"));
 
 const domainCache = {};
 
@@ -15,15 +13,11 @@ function getDomainData(subdomain) {
     }
 
     try {
-        const data = fs.readJsonSync(
-            path.join(domainsPath, `${subdomain}.json`),
-        );
+        const data = fs.readJsonSync(path.join(domainsPath, `${subdomain}.json`));
         domainCache[subdomain] = data; // Cache the domain data
         return data;
     } catch (error) {
-        throw new Error(
-            `Failed to read JSON for ${subdomain}: ${error.message}`,
-        );
+        throw new Error(`Failed to read JSON for ${subdomain}: ${error.message}`);
     }
 }
 
@@ -52,30 +46,24 @@ t("Nested subdomains should not exist without a parent subdomain", (t) => {
             const parentSubdomain = getParentSubdomain(subdomain);
             t.true(
                 parentSubdomain && files.includes(`${parentSubdomain}.json`),
-                `${file}: Parent subdomain does not exist`,
+                `${file}: Parent subdomain does not exist`
             );
         }
     });
 });
 
-t(
-    "Nested subdomains should not exist if the parent subdomain has NS records",
-    (t) => {
-        files.forEach((file) => {
-            const subdomain = file.replace(/\.json$/, "");
+t("Nested subdomains should not exist if the parent subdomain has NS records", (t) => {
+    files.forEach((file) => {
+        const subdomain = file.replace(/\.json$/, "");
 
-            if (subdomain.split(".").length > 1) {
-                const parentSubdomain = getParentSubdomain(subdomain);
-                const parentDomain = getDomainData(parentSubdomain);
+        if (subdomain.split(".").length > 1) {
+            const parentSubdomain = getParentSubdomain(subdomain);
+            const parentDomain = getDomainData(parentSubdomain);
 
-                t.true(
-                    !parentDomain.record.NS,
-                    `${file}: Parent subdomain has NS records`,
-                );
-            }
-        });
-    },
-);
+            t.true(!parentDomain.record.NS, `${file}: Parent subdomain has NS records`);
+        }
+    });
+});
 
 t("Nested subdomains should be owned by the parent subdomain's owner", (t) => {
     files.forEach((file) => {
@@ -87,9 +75,8 @@ t("Nested subdomains should be owned by the parent subdomain's owner", (t) => {
             const parentDomain = getDomainData(parentSubdomain);
 
             t.true(
-                data.owner.username.toLowerCase() ===
-                    parentDomain.owner.username.toLowerCase(),
-                `${file}: Owner does not match the parent subdomain`,
+                data.owner.username.toLowerCase() === parentDomain.owner.username.toLowerCase(),
+                `${file}: Owner does not match the parent subdomain`
             );
         }
     });
@@ -103,31 +90,15 @@ t("Subdomains containing an underscore can only have specific records", (t) => {
             const data = getDomainData(subdomain);
             const recordKeys = Object.keys(data.record);
 
-            if (
-                subdomain.startsWith("_acme-challenge.") ||
-                subdomain.includes("._domainkey.")
-            ) {
+            if (subdomain.startsWith("_acme-challenge.") || subdomain.includes("._domainkey.")) {
                 t.true(
-                    recordKeys.every((key) =>
-                        new Set(["TXT", "CNAME"]).has(key),
-                    ),
-                    `${file}: This type of subdomain can only have TXT or CNAME records`,
+                    recordKeys.every((key) => new Set(["TXT", "CNAME"]).has(key)),
+                    `${file}: This type of subdomain can only have TXT or CNAME records`
                 );
-            } else if (
-                subdomain.includes("._tcp.") ||
-                subdomain.includes("._udp.")
-            ) {
-                t.deepEqual(
-                    recordKeys,
-                    ["SRV"],
-                    `${file}: This type of subdomain can only have SRV records`,
-                );
+            } else if (subdomain.includes("._tcp.") || subdomain.includes("._udp.")) {
+                t.deepEqual(recordKeys, ["SRV"], `${file}: This type of subdomain can only have SRV records`);
             } else {
-                t.deepEqual(
-                    recordKeys,
-                    ["TXT"],
-                    `${file}: Subdomains with underscores can only have TXT records`,
-                );
+                t.deepEqual(recordKeys, ["TXT"], `${file}: Subdomains with underscores can only have TXT records`);
             }
         }
     });
