@@ -9,17 +9,17 @@
       "hosted-email-verify=qrzhubjn",
       "v=spf1 include:spf.migadu.com -all",
       "v=DMARC1; p=quarantine;"
-    ]
+    ],
     "MX": [
       "aspmx1.migadu.com",
       "aspmx2.migadu.com"
-    ]
+    ],
     "CNAME": [
       "key1.e.lver.is-a.dev._domainkey.migadu.com.",
       "key2.e.lver.is-a.dev._domainkey.migadu.com.",
       "key3.e.lver.is-a.dev._domainkey.migadu.com.",
       "autoconfig.migadu.com."
-    ]
+    ],
     "SRV": [
       "autodiscover.migadu.com",
       "smtp.migadu.com",
