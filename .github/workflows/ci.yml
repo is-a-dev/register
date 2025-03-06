@@ -37,7 +37,7 @@ jobs:
             - name: Get PR labels
               if: github.event_name == 'pull_request'
               run: |
-                  LABELS=$(jq -c '[.pull_request.labels[].name]' <<< '${{ toJson(github.event) }}')
+                  LABELS=$(gh api --jq '[.labels[].name]' /repos/{owner}/{repo}/pulls/${{ github.event.number }})
                   echo "PR_LABELS=$LABELS" >> $GITHUB_ENV
 
             - name: Get changed files
