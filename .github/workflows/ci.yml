@@ -24,6 +24,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
+              with:
+                  ref: ${{ github.event.pull_request.head.sha }}
+                  fetch-depth: 0
 
             - run: npm install
 
@@ -34,16 +37,22 @@ jobs:
             - name: Get PR labels
               if: github.event_name == 'pull_request'
               run: |
-                  LABELS=$(jq -c '[.pull_request.labels[].name]' <<< '${{ toJson(github.event) }}')
+                  LABELS=$(gh api --jq '[.labels[].name]' /repos/{owner}/{repo}/pulls/${{ github.event.number }})
                   echo "PR_LABELS=$LABELS" >> $GITHUB_ENV
+              env:
+                  GH_TOKEN: ${{ github.token }}
 
             - name: Get changed files
               if: github.event_name == 'pull_request'
-              run: |
-                  CHANGED_FILES=$(gh pr view ${{ github.event.pull_request.number }} --json files -q '.files[].path' | jq -c .)
-                  echo "CHANGED_FILES=$CHANGED_FILES" >> $GITHUB_ENV
-              env:
-                  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              uses: actions/github-script@v6
+              with:
+                  script: |
+                      const { execSync } = require("child_process");
+                      const files = execSync(`git diff --name-only HEAD HEAD~${context.payload.pull_request.commits}`)
+                          .toString()
+                          .split("\n")
+                          .filter(Boolean);
+                      core.exportVariable("CHANGED_FILES", JSON.stringify(files));
 
             - name: Run tests
-              run: npx ava tests/*.test.js
+              run: npx ava tests/*.test.js --timeout=30s
