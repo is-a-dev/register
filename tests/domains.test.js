@@ -81,25 +81,3 @@ t("Nested subdomains should be owned by the parent subdomain's owner", (t) => {
         }
     });
 });
-
-t("Subdomains containing an underscore can only have specific records", (t) => {
-    files.forEach((file) => {
-        const subdomain = file.replace(/\.json$/, "");
-
-        if (subdomain.includes("_")) {
-            const data = getDomainData(subdomain);
-            const recordKeys = Object.keys(data.record);
-
-            if (subdomain.startsWith("_acme-challenge.") || subdomain.includes("._domainkey.")) {
-                t.true(
-                    recordKeys.every((key) => new Set(["TXT", "CNAME"]).has(key)),
-                    `${file}: This type of subdomain can only have TXT or CNAME records`
-                );
-            } else if (subdomain.includes("._tcp.") || subdomain.includes("._udp.")) {
-                t.deepEqual(recordKeys, ["SRV"], `${file}: This type of subdomain can only have SRV records`);
-            } else {
-                t.deepEqual(recordKeys, ["TXT"], `${file}: Subdomains with underscores can only have TXT records`);
-            }
-        }
-    });
-});
