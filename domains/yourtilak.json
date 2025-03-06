@@ -1,11 +1,11 @@
 {
-  "description": "YourTilak.is-a.dev",
-  "repo": "https://github.com/YourTilak/YourTilak.github.io",
+  "description": "SageofLuke.is-a.dev",
+  "repo": "https://github.com/sageofluke/sageofluke.github.io",
   "owner": {
-    "username": "YourTilak",
+    "username": "SageOfLuke",
     "email": "rj05tilak@gmail.com"
   },
   "record": {
-    "CNAME": "yourtilak.github.io"
+    "CNAME": "sageofluke.github.io"
   }
 }
