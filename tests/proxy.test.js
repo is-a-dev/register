@@ -25,29 +25,22 @@ function validateProxiedRecords(t, data, file) {
     const recordTypes = Array.from(requiredRecordsToProxy).join(", ");
 
     if (data.proxied) {
-        const hasProxiedRecord = Object.keys(data.record).some((key) =>
-            requiredRecordsToProxy.has(key),
-        );
+        const hasProxiedRecord = Object.keys(data.record).some((key) => requiredRecordsToProxy.has(key));
 
         t.true(
             hasProxiedRecord,
-            `${file}: Proxied is true but there are no records that can be proxied (${recordTypes} expected)`,
+            `${file}: Proxied is true but there are no records that can be proxied (${recordTypes} expected)`
         );
     }
 }
 
 const domainsPath = path.resolve("domains");
-const files = fs
-    .readdirSync(domainsPath)
-    .filter((file) => file.endsWith(".json"));
+const files = fs.readdirSync(domainsPath).filter((file) => file.endsWith(".json"));
 
-t(
-    "Domains with proxy enabled must have at least one proxy-able record",
-    (t) => {
-        files.forEach((file) => {
-            const domain = getDomainData(file);
+t("Domains with proxy enabled must have at least one proxy-able record", (t) => {
+    files.forEach((file) => {
+        const domain = getDomainData(file);
 
-            validateProxiedRecords(t, domain, file);
-        });
-    },
-);
+        validateProxiedRecords(t, domain, file);
+    });
+});
