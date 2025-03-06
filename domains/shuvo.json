@@ -5,9 +5,6 @@
     "email": "shuvo1556@gmail.com"
   },
   "record": {
-    "MX": [
-      "dns1.alwaysdata.com",
-      "dns2.alwaysdata.com"
-    ]
+    "MX": ["dns1.alwaysdata.com", "dns2.alwaysdata.com"]
   }
 }

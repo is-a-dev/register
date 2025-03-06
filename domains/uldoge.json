@@ -1,0 +1,10 @@
+{
+  "description": "This is a proxy that allows you to search things without being tracked",
+  "owner": {
+    "username": "Kawrrq",
+    "email": "kawrrq@gmail.com"
+  },
+  "record": {
+    "A": ["104.243.38.142"]
+  }
+}

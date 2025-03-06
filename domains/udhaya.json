@@ -1,11 +1,10 @@
 {
-  "description": "Just My personal portfolio page hosted in vercel",
-  "repo": "https://github.com/xAceDuke/ProjectAlpha",
+  "description": "Main Page",
   "owner": {
-    "username": "xAceDuke",
+    "username": "xaceduke",
     "email": "kinghtth0@gmail.com"
   },
   "record": {
-    "CNAME": "projectalpha-xtgt.vercel.app"
+    "A": ["76.76.21.21"]
   }
 }

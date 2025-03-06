@@ -5,8 +5,6 @@
     "email": "kinghtth0@gmail.com"
   },
   "record": {
-    "TXT": [
-      "vc-domain-verify=udhaya.is-a.dev,accd4809ddad58ac55a4"
-    ]
+    "TXT": ["vc-domain-verify=udhaya.is-a.dev,accd4809ddad58ac55a4"]
   }
 }

@@ -1,0 +1,11 @@
+{
+  "description": "My personal website and blog",
+  "repo": "https://github.com/vcc3v/vcc3v.github.io",
+  "owner": {
+    "username": "vcc3v",
+    "email": "cj@caenjones.com"
+  },
+  "record": {
+    "CNAME": "vcc3v.github.io"
+  }
+}

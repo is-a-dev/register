@@ -6,6 +6,6 @@
     "email": "ploszukiwacz1@gmail.com"
   },
   "record": {
-    "CNAME": "ploszukiwaczdev.github.io"
+    "NS": ["jake.ns.cloudflare.com", "stephane.ns.cloudflare.com"]
   }
 }

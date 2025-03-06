@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "davad00",
-           "email": "",
-           "discord": "1201678865093894234"
-        },
-    
-        "record": {
-            "CNAME": "dave-lezt.onrender.com"
-        }
-    }
-    
+  "owner": {
+    "username": "davad00",
+    "discord": "1201678865093894234"
+  },
+  "record": {
+    "CNAME": "dave-lezt.onrender.com"
+  }
+}

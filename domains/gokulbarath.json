@@ -1,12 +1,9 @@
 {
-  "description": "my personal website ",
-  "repo": "https://github.com/gokul6350/gokul6350.github.io",
   "owner": {
     "username": "gokul6350",
-    "email": "gokul00060@gmail.com",
-    "twitter": "gokul00060"
+    "email": "gokul00060@gmail.com"
   },
   "record": {
-    "CNAME": "gokul6350.github.io"
+    "CNAME": "portfolio-gokul6350s-projects.vercel.app"
   }
 }

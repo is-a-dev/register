@@ -1,0 +1,10 @@
+{
+  "description": "My personal portfolio site",
+  "owner": {
+    "username": "Kiransala",
+    "email": "kiransala.dev@gmail.com"
+  },
+  "record": {
+    "CNAME": "kiransala.netlify.app"
+  }
+}
