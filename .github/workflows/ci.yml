@@ -39,6 +39,8 @@ jobs:
               run: |
                   LABELS=$(gh api --jq '[.labels[].name]' /repos/{owner}/{repo}/pulls/${{ github.event.number }})
                   echo "PR_LABELS=$LABELS" >> $GITHUB_ENV
+              env:
+                  GH_TOKEN: ${{ github.token }}
 
             - name: Get changed files
               if: github.event_name == 'pull_request'
