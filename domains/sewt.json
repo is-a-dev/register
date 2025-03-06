@@ -8,7 +8,7 @@
     "AAAA": ["2a01:4f9:3081:399c::4"],
     "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
     "TXT": [
-      "v=spf1 include:zohomail.eu ~all",
+      "sl-verification=sibwuwbmtopnrrdmfxvdabidjzvcow",
       "domain-verification=skyexplorewastaken"
     ]
   },
