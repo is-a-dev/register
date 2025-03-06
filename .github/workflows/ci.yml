@@ -9,13 +9,13 @@ on:
             - "domains/*"
             - "tests/*"
             - "util/*"
-            - ".github/workflows/validation.yml"
+            - ".github/workflows/ci.yml"
             - "dnsconfig.js"
 
     workflow_dispatch:
 
 concurrency:
-    group: ${{ github.ref }}-validation
+    group: ${{ github.ref }}-ci
     cancel-in-progress: true
 
 jobs:
@@ -27,4 +27,17 @@ jobs:
 
             - run: npm install
 
-            - run: npx ava tests/*.test.js
+            - name: Get PR author
+              if: github.event_name == 'pull_request'
+              run: echo "PR_AUTHOR=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
+
+            - name: Get changed files
+              if: github.event_name == 'pull_request'
+              run: |
+                  CHANGED_FILES=$(gh pr view ${{ github.event.pull_request.number }} --json files -q '.files[].path' | jq -c .)
+                  echo "CHANGED_FILES=$CHANGED_FILES" >> $GITHUB_ENV
+              env:
+                  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Run tests
+              run: npx ava tests/*.test.js
