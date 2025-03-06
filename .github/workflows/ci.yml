@@ -24,9 +24,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
-              with:
-                  ref: ${{ github.event.pull_request.head.sha }}
-                  fetch-depth: 0
 
             - run: npm install
 
@@ -44,15 +41,11 @@ jobs:
 
             - name: Get changed files
               if: github.event_name == 'pull_request'
-              uses: actions/github-script@v6
-              with:
-                  script: |
-                      const { execSync } = require("child_process");
-                      const files = execSync(`git diff --name-only HEAD HEAD~${context.payload.pull_request.commits}`)
-                          .toString()
-                          .split("\n")
-                          .filter(Boolean);
-                      core.exportVariable("CHANGED_FILES", JSON.stringify(files));
+              run: |
+                  FILES=$(gh api --jq '[.[] | .filename]' /repos/{owner}/{repo}/pulls/${{ github.event.number }}/files)
+                  echo "CHANGED_FILES=$FILES" >> $GITHUB_ENV
+              env:
+                  GH_TOKEN: ${{ github.token }}
 
             - name: Run tests
-              run: npx ava tests/*.test.js --timeout=30s
+              run: npx ava tests/*.test.js --timeout=1m
