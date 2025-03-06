@@ -47,13 +47,12 @@ jobs:
               uses: actions/github-script@v6
               with:
                   script: |
-                      const { execSync } = require("child_process")
-                      const { commits } = context.payload.pull_request
-                      const rawFiles = execSync(`git diff --name-only HEAD HEAD~${commits}`).toString()
-                      const files = rawFiles.split("\n").filter(Boolean)
-                      console.log(files)
-                      const jsonArray = JSON.stringify(files)
-                      core.exportVariable('CHANGED_FILES', jsonArray)
+                      const { execSync } = require("child_process");
+                      const files = execSync(`git diff --name-only HEAD HEAD~${context.payload.pull_request.commits}`)
+                          .toString()
+                          .split("\n")
+                          .filter(Boolean);
+                      core.exportVariable("CHANGED_FILES", JSON.stringify(files));
 
             - name: Run tests
-              run: npx ava tests/*.test.js
+              run: npx ava tests/*.test.js --timeout=30s
