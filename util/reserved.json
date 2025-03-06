@@ -67,6 +67,8 @@
     "helper[1-99]",
     "helpers",
     "hostmaster",
+    "http",
+    "https",
     "info",
     "infos",
     "int",
