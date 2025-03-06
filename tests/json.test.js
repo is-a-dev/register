@@ -36,33 +36,6 @@ const reservedDomains = require("../util/reserved.json");
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
 
-function expandReservedDomains(reserved) {
-    const expandedList = [...reserved];
-
-    reserved.forEach((item) => {
-        const rangeMatch = item.match(/\[(\d+)-(\d+)\]/);
-
-        if (rangeMatch) {
-            const prefix = item.split("[")[0];
-            const start = parseInt(rangeMatch[1], 10);
-            const end = parseInt(rangeMatch[2], 10);
-
-            if (start < end) {
-                for (let i = start; i <= end; i++) {
-                    expandedList.push(prefix + i);
-                }
-                expandedList.splice(expandedList.indexOf(item), 1);
-            } else {
-                throw new Error(`[util/reserved.json] Invalid range [${start}-${end}] in "${item}"`);
-            }
-        }
-    });
-
-    return expandedList;
-}
-
-const expandedReservedDomains = expandReservedDomains(reservedDomains);
-
 function findDuplicateKeys(jsonString) {
     const keyPattern = /"([^"]+)"(?=\s*:)/g;
     const keys = [];
@@ -105,9 +78,9 @@ async function validateFileName(t, file) {
             hostnameRegex,
             `${file}: FQDN must be 1-253 characters, use letters, numbers, dots, or hyphens, and not start or end with a hyphen.`
         );
-        t.false(expandedReservedDomains.includes(subdomain), `${file}: Subdomain name is reserved`);
+        t.false(reservedDomains.includes(subdomain), `${file}: Subdomain name is reserved`);
         t.true(
-            !expandedReservedDomains.some((reserved) => subdomain.endsWith(`.${reserved}`)),
+            !reservedDomains.some((reserved) => subdomain.endsWith(`.${reserved}`)),
             `${file}: Subdomain name is reserved`
         );
 
@@ -172,18 +145,4 @@ t("All files should have valid file names", async (t) => {
 
 t("All files should have valid required and optional fields", async (t) => {
     await Promise.all(files.map((file) => processFile(file, t)));
-});
-
-t("Reserved domains file should be valid", (t) => {
-    const subdomainRegex = /^_?[a-zA-Z0-9]+([-\.][a-zA-Z0-9]+)*(\[\d+-\d+\])?$/;
-
-    expandedReservedDomains.forEach((item, index) => {
-        t.regex(
-            item,
-            subdomainRegex,
-            `[util/reserved-domains.json] Invalid subdomain name "${item}" at index ${index}`
-        );
-    });
-
-    t.pass();
 });
