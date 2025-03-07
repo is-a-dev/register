@@ -1,0 +1,10 @@
+{
+  "description": "Personal website for JrHimself.",
+  "owner": {
+    "username": "hongjr03",
+    "email": "me@jrhim.com"
+  },
+  "record": {
+    "CNAME": "hongjr03-github-io.vercel.app"
+  }
+}

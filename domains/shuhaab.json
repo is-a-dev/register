@@ -1,9 +1,8 @@
 {
-    "owner": {
-      "username": "Shuhaab-coder"
-    },
-    "record": {
-      "CNAME": "shuhaab.vercel.app"
-    }
+  "owner": {
+    "username": "Shuhaab-coder"
+  },
+  "record": {
+    "CNAME": "shuhaab.vercel.app"
   }
-
+}

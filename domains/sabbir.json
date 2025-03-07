@@ -4,6 +4,6 @@
     "email": "sabbir.apbn.edu@gmail.com"
   },
   "record": {
-    "CNAME": "sabbir1.pages.dev"
+    "NS": ["clarissa.ns.cloudflare.com", "harley.ns.cloudflare.com"]
   }
 }

@@ -1,12 +1,12 @@
 {
-  "description": "Roger's website to host mostly useless projects",
-  "repo": "https://github.com/rogerpanza/rogerpanza.github.io",
+  "description": "Documentation website for is-a.dev",
+  "repo": "https://github.com/rogerHuntGauntlet/registerisadev",
   "owner": {
-    "username": "rogerpanza",
-    "email": "rogerpanza-ed@protonmail.com",
-    "twitter": "rogerpanza_"
+    "username": "rogerHuntGauntlet",
+    "email": "regorhunt02052@gmail.com",
+    "discord": "roger_jgs404040"
   },
   "record": {
-    "CNAME": "rogerpanza.github.io"
+    "CNAME": "rogerbhuntiii.vercel.app"
   }
 }

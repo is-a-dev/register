@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "MeHiGalatHu",
-        "email": "jabpadhekaindiatabhitoiitjayga@gmail.com"
-
-    },
-    "record": {
-        "CNAME": "astra-api.glitch.me"
-    }
-} 
+  "owner": {
+    "username": "MeHiGalatHu",
+    "email": "jabpadhekaindiatabhitoiitjayga@gmail.com"
+  },
+  "record": {
+    "CNAME": "astra-api.glitch.me"
+  }
+}

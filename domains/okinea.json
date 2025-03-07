@@ -1,9 +1,9 @@
 {
   "description": "Okinea Dev website",
-  "repo": "https://github.com/okineadev-website",
   "owner": {
     "username": "okineadev",
-    "telegram": "@stadius_lucioni",
+    "telegram": "https://telegram.okinea.dev",
+    "email": "hi@okinea.dev",
     "discord": "okineadev"
   },
   "record": {

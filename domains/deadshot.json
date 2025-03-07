@@ -1,12 +1,12 @@
 {
-  "description": "Updated Website 2023 Edition Haha",
-  "repo": "https://github.com/deadshotofficial/deadshotofficial.github.io",
+  "description": "A simple portfolio template made by me.",
+  "repo": "https://github.com/deadshotofficial/minimal-portfolio",
   "owner": {
     "username": "deadshotofficial",
     "email": "deadshot3r@pm.me",
-    "twitter": "deadshot3r"
+    "discord": "416952474587496449"
   },
   "record": {
-    "CNAME": "deadshotofficial.github.io"
+    "CNAME": "deadshotdev.vercel.app"
   }
 }
