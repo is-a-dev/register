@@ -8,7 +8,6 @@
     "TXT": [
       "hosted-email-verify=qrzhubjn",
       "v=spf1 include:spf.migadu.com -all",
-      "v=DMARC1; p=quarantine;"
     ],
     "MX": [
       "aspmx1.migadu.com",
