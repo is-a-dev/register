@@ -14,38 +14,6 @@
       "aspmx1.migadu.com",
       "aspmx2.migadu.com"
     ],
-    "CNAME": [
-      "key1.e.lver.is-a.dev._domainkey.migadu.com.",
-      "key2.e.lver.is-a.dev._domainkey.migadu.com.",
-      "key3.e.lver.is-a.dev._domainkey.migadu.com.",
-      "autoconfig.migadu.com."
-    ],
-    "SRV": [
-      {
-        "priority": 0,
-        "weight": 1,
-        "port": 403,
-        "target": "autodiscover.migadu.com"
-      },
-      {
-        "priority": 0,
-        "weight": 1,
-        "port": 465,
-        "target": "smtp.migadu.com"
-      },
-      {
-        "priority": 0,
-        "weight": 1,
-        "port": 993,
-        "target": "imap.migadu.com"
-      },
-      {
-        "priority": 0,
-        "weight": 1,
-        "port": 995,
-        "target": "imap.migadu.com"
-      }
-    ]
-  },
+  }
   "proxied": true
 }
