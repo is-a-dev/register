@@ -1,0 +1,17 @@
+{
+  "repo": "https://github.com/lverx",
+  "owner": {
+    "username": "lverx",
+    "email": "profoundlvr@gmail.com"
+  },
+  "record": {
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 1,
+        "port": 995,
+        "destination": "pop.migadu.com"
+      }
+    ]
+  },
+}
