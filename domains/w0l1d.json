@@ -1,0 +1,13 @@
+{
+  "description": "Personal Software engineer portfolio",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "w0l1d",
+    "email": "w0l1d.dev@gmail.com",
+    "linkedin":"linkedin.com/in/w0l1d"
+  },
+  "record": {
+    "CNAME": "www.w0l1d.me"
+  },
+  "proxied": true
+}
