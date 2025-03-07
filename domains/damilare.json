@@ -1,10 +1,9 @@
 {
-  "domain": "damilare.is-a.dev",
   "owner": {
     "username": "Peculiars",
     "email": "olaitandamilare230@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "peculiars.github.io"
   }
 }
