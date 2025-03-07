@@ -1,5 +1,5 @@
 {
-  "description": "This subdomain is a redirection to my personal portfolio",
+  "description": "This subdomain is a redirection to my personal portfolio.",
   "repo": "https://github.com/bhushankhopkarr/bhushankhopkarr.github.io",
   "owner": {
     "username": "bhushankhopkarr",
@@ -7,6 +7,6 @@
     "twitter": "bhushankhopkrr"
   },
   "record": {
-    "CNAME": "bhushankhopkarr.github.io"
+    "CNAME": "bhushankhopkrr.vercel.app"
   }
 }

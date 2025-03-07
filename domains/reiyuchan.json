@@ -1,0 +1,11 @@
+{
+  "description": "reiyuchan personal website",
+  "repo": "https://github.com/reiyuchan/reiyuchan.github.io",
+  "owner": {
+    "username": "reiyuchan",
+    "email": "iwakura.rei.tk@gmail.com"
+  },
+  "record": {
+    "CNAME": "reiyuchan.github.io"
+  }
+}

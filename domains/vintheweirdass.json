@@ -1,13 +1,17 @@
 {
-  "description": "My base website. Very epik tbh 💥💥",
+  "description": "redirect. js that",
   "repo": "https://github.com/vintheweirdass/vintheweirdass.github.io",
   "owner": {
     "username": "vintheweirdass",
     "twitter": "vintheweirdass",
-    "discord": "vintheweirdass",
-    "lahelu": "https://lahelu.com/user/cupglassdev"
+    "discord": "vintheweirdass"
   },
   "record": {
-    "NS": ["christina.ns.cloudflare.com", "mustafa.ns.cloudflare.com"]
+    "URL": "https://vtwa.is-a.dev",
+    "TXT": [
+      "zoho-verification=zb23163854.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all"
+    ],
+    "MX": ["mx.zoho.com"]
   }
 }
