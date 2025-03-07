@@ -1,0 +1,11 @@
+{
+    "description": "Blog for my personal stuff and things I like",
+    "repo": "https://github.com/nvcoden/nvcoden.github.io",
+    "owner": {
+      "username": "nvcoden",
+      "email": "navneeths55555@gmail.com"
+    },
+    "record": {
+      "CNAME": "nvcoden.github.io"
+    }
+  }
