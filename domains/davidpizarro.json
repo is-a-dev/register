@@ -1,0 +1,11 @@
+{
+    "description": "Use the domain for my porfolio",
+    "repo": "https://github.com/DavidPPizarro/davidppizarro.github.io",
+    "owner": {
+        "username": "DavidPPizarro",
+        "email": "paulpizarro151@gmail.com"
+    },
+    "record": {
+        "CNAME": "davidppizarro.github.io"
+    }
+}
