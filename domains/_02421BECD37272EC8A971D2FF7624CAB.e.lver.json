@@ -1,0 +1,12 @@
+{
+  "description": "ZeroSSL Domain Verification",
+  "repo": "https://github.com/lverx/register/main/domains/_02421BECD37272EC8A971D2FF7624CAB.e.lver.json",
+  "owner": {
+    "username": "lverx",
+    "email": "sky@mail.e.lver.is-a.dev"
+  },
+  "record": {
+    "CNAME": "00F8ACBB585DE7001E5413288A2D9655.8AB30C5E0E1E326D7AEE1D03876B0E89.60e070545b0298b.comodoca.com"
+  },
+  "proxied": true
+}

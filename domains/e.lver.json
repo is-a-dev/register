@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/lverx",
+  "owner": {
+    "username": "lverx",
+    "email": "profoundlvr@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "hosted-email-verify=qrzhubjn",
+      "v=spf1 include:spf.migadu.com -all",
+    ],
+    "MX": [
+      "aspmx1.migadu.com",
+      "aspmx2.migadu.com"
+    ],
+  }
+  "proxied": false
+}
