@@ -1,0 +1,11 @@
+{
+  "description": "Personal website for Khang Tran",
+  "owner": {
+    "username": "KN2222",
+    "email": "hellokhangtran03@gmail.com"
+  },
+  "record": {
+    "CNAME": "hellokhangtran.vercel.app"
+  },
+  "proxied": false
+}

@@ -136,7 +136,7 @@ function validateRecordValues(t, data, file) {
                 const isSelfReferencing =
                     file === "@.json" ? urlHost === "is-a.dev" : urlHost === `${subdomain}.is-a.dev`;
 
-                t.true(!isSelfReferencing, `${file}: URL cannot point to itself`);
+                t.false(isSelfReferencing, `${file}: URL cannot point to itself`);
             }
         }
 
@@ -233,7 +233,7 @@ function validateRecordValues(t, data, file) {
             // Check for self-referencing redirects
             const urlHost = new URL(customRedirectURL).host;
             const isSelfReferencing = file === "@.json" ? urlHost === "is-a.dev" : urlHost === `${subdomain}.is-a.dev`;
-            t.true(!isSelfReferencing, `${urlMessage} cannot point to itself at index ${idx}`);
+            t.false(isSelfReferencing, `${urlMessage} cannot point to itself at index ${idx}`);
         });
     }
 }

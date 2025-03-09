@@ -5,8 +5,6 @@ const path = require("path");
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath).filter((file) => file.endsWith(".json"));
 
-const bypassedUsernames = require("../util/bypassed.json").map((username) => username.toLowerCase());
-
 function getDomainData(subdomain) {
     try {
         const data = fs.readJsonSync(path.join(domainsPath, `${subdomain}.json`));
@@ -23,7 +21,7 @@ t("Users are limited to one single character subdomain", (t) => {
         const subdomain = file.replace(/\.json$/, "");
         const data = getDomainData(subdomain);
 
-        if (subdomain.length === 1 && !bypassedUsernames.includes(data.owner.username.toLowerCase())) {
+        if (subdomain.length === 1 && data.owner.username.toLowerCase() !== "is-a-dev") {
             results.push({
                 subdomain,
                 owner: data.owner.username.toLowerCase()

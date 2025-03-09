@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "ReBlast",
-        "discord": "poxuizm"
-    },
-    "description": "Personal website with links to my social medias, will probably add portfolio",
-    "record": {
-        "CNAME": "reblast.github.io"
-    }
+  "owner": {
+    "username": "ReBlast",
+    "discord": "poxuizm"
+  },
+  "description": "Personal website with links to my social medias, will probably add portfolio",
+  "record": {
+    "CNAME": "reblast.github.io"
+  }
 }

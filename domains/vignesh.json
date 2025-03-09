@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "Vignesh025"
-    },
-    "record": {
-        "CNAME": "vignesh025.github.io"
-    }
+  "owner": {
+    "username": "Vignesh025",
+    "email": "vigneshjayakumar9221@gmail.com",
+    "discord": "vignesh025"
+  },
+  "record": {
+    "CNAME": "vigneshportfolio1.vercel.app"
+  }
 }
