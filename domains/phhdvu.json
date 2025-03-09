@@ -1,0 +1,11 @@
+{
+    "description": "Use the domain for my happy new year website",
+    "repo": "https://github.com/phhdvu/phhdvu.github.io",
+    "owner": {
+        "username": "phhdvu",
+        "email": "phhdvu@gmail.com"
+    },
+    "record": {
+        "CNAME": "phhdvu.github.io"
+    }
+}
