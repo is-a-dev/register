@@ -2,7 +2,7 @@ const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
 
-const validRecordTypes = new Set(["A", "AAAA", "CAA", "CNAME", "DS", "MX", "NS", "SRV", "TXT", "URL"]);
+const validRecordTypes = new Set(["A", "AAAA", "CAA", "CNAME", "DS", "MX", "NS", "SRV", "TLSA", "TXT", "URL"]);
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 const ipv4Regex = /^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])(\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])){3}$/;
 const ipv6Regex =
@@ -98,8 +98,8 @@ function validateRecordValues(t, data, file) {
 
             value.forEach((record, idx) => {
                 t.true(
-                    typeof record === "string",
-                    `${file}: Record value for ${key} should be a string at index ${idx}`
+                    typeof record === "string" || typeof record === "object",
+                    `${file}: Record value for ${key} should be a string or an object at index ${idx}`
                 );
 
                 if (key === "A") {
@@ -112,7 +112,22 @@ function validateRecordValues(t, data, file) {
                     const expandedIPv6 = expandIPv6(record);
                     t.true(ipv6Regex.test(expandedIPv6), `${file}: Invalid IPv6 address for ${key} at index ${idx}`);
                     t.true(validateIPv6(expandedIPv6), `${file}: Invalid IPv6 address for ${key} at index ${idx}`);
-                } else if (["MX", "NS"].includes(key)) {
+                } else if (key === "MX") {
+                    t.true(
+                        typeof record === "object" || typeof record === "string",
+                        `${file}: Record value for ${key} should be an object or a string at index ${idx}`
+                    );
+
+                    if (typeof record === "string") {
+                        t.true(isValidHostname(record), `${file}: Invalid hostname for ${key} at index ${idx}`);
+                    } else {
+                        t.true(isValidHostname(record.server), `${file}: Invalid server for MX at index ${idx}`);
+                        t.true(
+                            Number.isInteger(record.priority) && record.priority >= 0 && record.priority <= 65535,
+                            `${file}: Invalid priority for MX at index ${idx}`
+                        );
+                    }
+                } else if (key === "NS") {
                     t.true(isValidHostname(record), `${file}: Invalid hostname for ${key} at index ${idx}`);
                 }
             });
@@ -140,8 +155,8 @@ function validateRecordValues(t, data, file) {
             }
         }
 
-        // CAA, DS, SRV validations
-        if (["CAA", "DS", "SRV"].includes(key)) {
+        // CAA, DS, SRV, TLSA validations
+        if (["CAA", "DS", "SRV", "TLSA"].includes(key)) {
             t.true(Array.isArray(value), `${file}: Record value for ${key} should be an array`);
 
             value.forEach((record, idx) => {
@@ -188,6 +203,20 @@ function validateRecordValues(t, data, file) {
                         `${file}: Invalid port for SRV at index ${idx}`
                     );
                     t.true(isValidHostname(record.target), `${file}: Invalid target for SRV at index ${idx}`);
+                } else if (key === "TLSA") {
+                    t.true(
+                        Number.isInteger(record.usage) && record.usage >= 0 && record.usage <= 255,
+                        `${file}: Invalid usage for TLSA at index ${idx}`
+                    );
+                    t.true(
+                        Number.isInteger(record.selector) && record.selector >= 0 && record.selector <= 255,
+                        `${file}: Invalid selector for TLSA at index ${idx}`
+                    );
+                    t.true(
+                        Number.isInteger(record.matchingType) && record.matchingType >= 0 && record.matchingType <= 255,
+                        `${file}: Invalid matchingType for TLSA at index ${idx}`
+                    );
+                    t.true(isValidHexadecimal(record.certificate), `${file}: Invalid certificate for TLSA at index ${idx}`);
                 }
             });
         }
