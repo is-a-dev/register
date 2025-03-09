@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "username": "rudwolf",
-    "email": "rudwolf@gmail.com"
-  },
-  "record": {
-    "CNAME": "rudwolf.github.io"
-  }
+    "description": "Rodolfo Rodrigues developer page",
+    "repo": "https://github.com/rudwolf/rudwolf.github.io",
+    "owner": {
+        "username": "rudwolf",
+        "email": "rudwolf@gmail.com"
+    },
+    "record": {
+        "CNAME": "rudwolf.github.io"
+        "TXT": "549d8e2eaf3753b07362c99c2eb240"
+    }
 }
