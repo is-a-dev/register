@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "userkva"
+  },
+  "record": {
+    "TXT": [
+      "protonmail-verification=a2add594d4897ca0fc98ea9befb2c63a997220e8",
+      "v=spf1 include:_spf.protonmail.ch ~all",
+      "v=DMARC1; p=quarantine"
+    ],
+    "MX": ["mail.protonmail.ch", "mailsec.protonmail.ch"]
+  }
+}
