@@ -1,0 +1,12 @@
+{
+  "description": "a personal website",
+  "repo": "https://github.com/diepnt90/register",
+  "owner": {
+    "username": "diepnt90",
+    "email": "[diep90.nt@gmail.com]"
+  },
+  "record": {
+    "CNAME": "daulac.duckdns.org"
+  },
+  "proxied": true
+}
