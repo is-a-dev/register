@@ -70,11 +70,11 @@ for (var subdomain in domains) {
             var mxRecord = domainData.record.MX[mx];
 
             if (typeof mxRecord === "string") {
-                commit[domain].records.push(
+                records.push(
                     MX(subdomainName, 10 + parseInt(mx), domainData.record.MX[mx] + ".")
                 );
             } else {
-                commit[domain].records.push(
+                records.push(
                     MX(
                         subdomainName,
                         parseInt(mxRecord.priority) || 10 + parseInt(mx),
