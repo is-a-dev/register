@@ -1,18 +1,19 @@
 {
-  "description": "trongsanght.is-a.dev",
-  "repo": "https://github.com/is-a-dev/docs",
-  "owner": {
-    "username": "trongsanght",
-    "email": "trongsanght@gmail.com"
-  },
-  "record": {
-    "URL": "https://github.com/trongsanght"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/trongsanght",
-		"/fb": "https://facebook.com/trongsanght",
-		"/linkedin": "https://www.linkedin.com/in/trongsanght/"
+    "description": "trongsanght.is-a.dev",
+    "repo": "https://github.com/is-a-dev/docs",
+    "owner": {
+        "username": "trongsanght",
+        "email": "trongsanght@gmail.com"
     },
-    "redirect_paths": true
+    "record": {
+        "URL": "https://github.com/trongsanght"
+    },
+    "redirect_config": {
+        "custom_paths": {
+            "/github": "https://github.com/trongsanght",
+            "/fb": "https://facebook.com/trongsanght",
+            "/linkedin": "https://www.linkedin.com/in/trongsanght/"
+        },
+        "redirect_paths": true
+    }
 }
