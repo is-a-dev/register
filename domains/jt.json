@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "cloudcap10",
-        "email": "jttalasan@live.com"
-    },
-    "record": {
-        "NS": ["ivan.ns.cloudflare.com", "tara.ns.cloudflare.comm"]
-    }
+  "owner": {
+    "username": "cloudcap10",
+    "email": "jttalasan@live.com"
+  },
+  "record": {
+    "NS": ["ivan.ns.cloudflare.com", "tara.ns.cloudflare.com"]
+  }
 }

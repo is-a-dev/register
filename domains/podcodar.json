@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "marco-souza",
-        "email": "marco@podcodar.org"
-    },
-    "record": {
-        "CNAME": "podcodar.pages.dev"
-    }
+  "owner": {
+    "username": "marco-souza",
+    "email": "marco@podcodar.org"
+  },
+  "record": {
+    "CNAME": "podcodar.pages.dev"
+  }
 }

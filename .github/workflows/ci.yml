@@ -1,0 +1,51 @@
+name: CI
+
+on:
+    pull_request:
+
+    push:
+        branches: [main]
+        paths:
+            - "domains/*"
+            - "tests/*"
+            - "util/*"
+            - ".github/workflows/ci.yml"
+            - "dnsconfig.js"
+
+    workflow_dispatch:
+
+concurrency:
+    group: ${{ github.ref }}-ci
+    cancel-in-progress: true
+
+jobs:
+    tests:
+        name: Tests
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - run: npm install
+
+            - name: Get PR author
+              if: github.event_name == 'pull_request'
+              run: echo "PR_AUTHOR=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
+
+            - name: Get PR labels
+              if: github.event_name == 'pull_request'
+              run: |
+                  LABELS=$(gh api --jq '[.labels[].name]' /repos/{owner}/{repo}/pulls/${{ github.event.number }})
+                  echo "PR_LABELS=$LABELS" >> $GITHUB_ENV
+              env:
+                  GH_TOKEN: ${{ github.token }}
+
+            - name: Get changed files
+              if: github.event_name == 'pull_request'
+              run: |
+                  FILES=$(gh api --jq '[.[] | .filename]' /repos/{owner}/{repo}/pulls/${{ github.event.number }}/files)
+                  echo "CHANGED_FILES=$FILES" >> $GITHUB_ENV
+              env:
+                  GH_TOKEN: ${{ github.token }}
+
+            - name: Run tests
+              run: npx ava tests/*.test.js --timeout=1m

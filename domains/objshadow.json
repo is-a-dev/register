@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ShadowObj",
-        "email": "shadowobject@protonmail.com"
-    },
-    "record": {
-        "CNAME": "objshadow.pages.dev"
-    }
+  "owner": {
+    "username": "ShadowObj",
+    "email": "shadowobject@protonmail.com"
+  },
+  "record": {
+    "CNAME": "objshadow.pages.dev"
+  }
 }

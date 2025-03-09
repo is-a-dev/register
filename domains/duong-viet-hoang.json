@@ -1,11 +1,10 @@
 {
-    "description": "My personal developer portfolio.",
-    "repo": "https://github.com/bocanhcam",
-    "owner": {
-      "username": "bocanhcam",
-      "email": "hora.alien@gmail.com"
-    },
-    "record": {
-      "CNAME": "bocanhcam.github.io"
-    }
+  "description": "My personal developer portfolio.",
+  "owner": {
+    "username": "bocanhcam",
+    "email": "hora.alien@gmail.com"
+  },
+  "record": {
+    "CNAME": "bocanhcam.github.io"
+  }
 }

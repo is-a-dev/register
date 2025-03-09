@@ -1,0 +1,11 @@
+{
+  "description": "Personal blog of Tomas Cornelles, Frontend developer",
+  "repo": "https://github.com/tomascornelles/tomascornelles",
+  "owner": {
+    "username": "tomascornelles",
+    "email": "tomascornelles@gmail.com"
+  },
+  "record": {
+    "CNAME": "tomascornelles.github.io"
+  }
+}

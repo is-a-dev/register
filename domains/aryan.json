@@ -1,13 +1,13 @@
 {
-"description": "Portfolio Website",
-"repo": "https://github.com/aryanpatel142006/personalWebsite",
-    "owner": {
-        "username": "aryanpatel142006",
-        "email": "aryanpatel142006@gmail.com",
-        "discord": "aryanpatel142006"
-    },
-    "record": {
-        "A": ["76.76.21.21"]
-    },
- "proxied": true
+  "description": "Portfolio Website",
+  "repo": "https://github.com/aryanpatel142006/personalWebsite",
+  "owner": {
+    "username": "aryanpatel142006",
+    "email": "aryanpatel142006@gmail.com",
+    "discord": "aryanpatel142006"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+  },
+  "proxied": true
 }
