@@ -69,19 +69,19 @@ for (var subdomain in domains) {
         for (var mx in domainData.record.MX) {
             var mxRecord = domainData.record.MX[mx];
 
-if (typeof mxRecord === "string") {
-	commit[domain].records.push(
-		MX(subdomainName, 10 + parseInt(mx), domainData.record.MX[mx] + ".")
-	);
-} else {
-	commit[domain].records.push(
-		MX(
-			subdomainName,
-			parseInt(mxRecord.priority) || 10 + parseInt(mx),
-			mxRecord.server + "."
-		)
-	);
-}
+            if (typeof mxRecord === "string") {
+                commit[domain].records.push(
+                    MX(subdomainName, 10 + parseInt(mx), domainData.record.MX[mx] + ".")
+                );
+            } else {
+                commit[domain].records.push(
+                    MX(
+                        subdomainName,
+                        parseInt(mxRecord.priority) || 10 + parseInt(mx),
+                        mxRecord.server + "."
+                    )
+                );
+            }
         }
     }
 
