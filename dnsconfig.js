@@ -67,7 +67,21 @@ for (var subdomain in domains) {
     // Handle MX records
     if (domainData.record.MX) {
         for (var mx in domainData.record.MX) {
-            records.push(MX(subdomainName, 10 + parseInt(mx), domainData.record.MX[mx] + "."));
+            var mxRecord = domainData.record.MX[mx];
+
+if (typeof mxRecord === "string") {
+	commit[domain].records.push(
+		MX(subdomainName, 10 + parseInt(mx), domainData.record.MX[mx] + ".")
+	);
+} else {
+	commit[domain].records.push(
+		MX(
+			subdomainName,
+			parseInt(mxRecord.priority) || 10 + parseInt(mx),
+			mxRecord.server + "."
+		)
+	);
+}
         }
     }
 
@@ -87,6 +101,23 @@ for (var subdomain in domains) {
             );
         }
     }
+
+    // Handle TLSA records
+    if (domainData.record.TLSA) {
+		for (var tlsa in domainData.record.TLSA) {
+			var tlsaRecord = domainData.record.TLSA[tlsa];
+
+			commit[domain].records.push(
+				TLSA(
+					subdomainName,
+					tlsaRecord.usage,
+					tlsaRecord.selector,
+					tlsaRecord.matchingType,
+					tlsaRecord.certificate
+				)
+			);
+		}
+	}
 
     // Handle TXT records
     if (domainData.record.TXT) {
