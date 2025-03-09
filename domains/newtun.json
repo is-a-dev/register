@@ -5,5 +5,11 @@
     },
     "record": {
         "CNAME": "portfolio-nine-cyan-53.vercel.app"
+    },
+    "redirect_config": {
+        "custom_paths": {
+            "/github": "https://github.com/VinhTin-AQUA"
+        },
+        "redirect_paths": true
     }
 }
