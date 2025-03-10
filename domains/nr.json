@@ -1,0 +1,12 @@
+{
+  "description": "Website from a student using is-a.dev",
+  "repo": "https://github.com/Azzedine33/nr",
+  "owner": {
+    "username": "Azzedine33",
+    "email": "hoche.syncro@gmail.com"
+  },
+  "record": {
+    "CNAME": "appsdev.alwaysdata.net"
+  },
+  "proxied": true
+}
