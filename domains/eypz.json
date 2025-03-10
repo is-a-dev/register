@@ -1,0 +1,9 @@
+{
+  "domain": "eypz.is-a.dev",
+  "owner": {
+    "username": "sataniceypz"
+  },
+  "records": {
+    "CNAME": "api-eypz-7txp.onrender.com"
+  }
+}
