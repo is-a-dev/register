@@ -1,0 +1,11 @@
+{
+    "description": "A social page",
+    "repo": "https://github.com/FoxyIsCoding/web",
+    "owner": {
+        "username": "FoxyIsCoding",
+        "email": "matej.bielik@proton.me"
+    },
+    "record": {
+        "CNAME": "foxyiscoding.github.io"
+    }
+}
