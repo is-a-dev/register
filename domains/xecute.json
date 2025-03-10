@@ -1,0 +1,11 @@
+{
+    "description": "My Org. Web Page",
+    "repo": "https://github.com/Xecutegg/xecutegg.github.io",
+    "owner": {
+        "username": "Xecutegg",
+        "email": "soumogoswami2003@gmaill.com"
+    },
+    "record": {
+        "CNAME": "xecutegg.github.io"
+    }
+}
