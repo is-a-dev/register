@@ -1,0 +1,11 @@
+{
+  "description": "ANW's (Subhrajit Sain) Personal Site",
+  "owner": {
+    "username": "SubhrajitSain",
+    "email": "subhrajitsain34@gmail.com"
+  },
+  "record": {
+    "CNAME": "subhrajitsain.pythonanywhere.com"
+  },
+  "proxied": false
+}
