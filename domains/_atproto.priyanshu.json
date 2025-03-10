@@ -4,6 +4,6 @@
     "email": "priyansxu@yahoo.com"
   },
   "record": {
-    "CNAME": "edge.redirect.pizza"
+    "TXT": "did=did:plc:psimj7hgshwoets2jvd6caib"
   }
 }
