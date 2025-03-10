@@ -1,0 +1,12 @@
+{
+    "description": "Website for QuyNT",
+    "owner": {
+      "username": "quyntit51vn"
+      "email": "quy.nt.it.51vn@gmail.com"
+    },
+    "record": {
+        "CNAME": "connectify-call-friends.vercel.app"
+    },
+    "proxied": true
+  }
+  
