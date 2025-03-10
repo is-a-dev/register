@@ -1,0 +1,11 @@
+{
+    "description": "huynguyen.is-a.dev: This is my personal website",
+    "repo": "https://github.com/huyntp1103/huyntp1103.github.io",
+    "owner": {
+        "username": "huyntp1103",
+        "email": "huyntp1103@gmail.com"
+    },
+    "record": {
+        "CNAME": "huyntp1103.github.io"
+    }
+}
