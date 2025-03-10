@@ -1,8 +1,9 @@
 {
   "description": "Using this for my website, email and rpi web server, going to use cloudflare tunnels so i need ns records. (email after getting the domain: snerill@snerill.is-a.dev)",
-  "repo": "https://github.com/Snerillinn/snerillinn.github.io",
+  "repo": "https://github.com/Snerillinn/snerillinn.github.io"
   "owner": {
     "username": "Snerillinn",
+    "discord": "Snerill"
   },
   "record": {
     "NS": [
