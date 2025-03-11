@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "akelkar3"
+        "username": "akelkar3",
+        "email": "ankit.kelkar@gmail.com"
     },
     "record": {
-        "CNAME": "https://akelkar3.github.io/portfolio"
+        "CNAME": "akelkar3.github.io"
     }
 }
