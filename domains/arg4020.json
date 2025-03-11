@@ -1,0 +1,12 @@
+{
+  "description": "To access my NextcloudPi Instance Running On My Raapberrypi",
+  "repo": "https://github.com/Gamer-20A/register2",
+  "owner": {
+    "username": "Gamer-20A",
+    "email": "arirajd@gmail.com"
+  },
+  "record": {
+    "AAAA": "2405:201:c021:2c:dea6:32ff:feb2:3a23"
+  },
+  "proxied": true
+}
