@@ -1,0 +1,9 @@
+{
+  "domain": "iamkevinhuang.is-a.dev",
+  "owner": {
+    "email": "kevinjaydenwivano@duck.com"
+  },
+  "records": {
+    "CNAME": "iamkevinhuang.github.io"
+  }
+}
