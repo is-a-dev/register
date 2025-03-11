@@ -1,0 +1,10 @@
+{
+  "domain": "dnick",
+  "subdomain": "www", 
+  "owner": {
+    "email": "nischaydogra28@gmail.com"
+  },
+  "records": {
+    "CNAME": "Nischay1-hnd.github.io"
+  }
+}
