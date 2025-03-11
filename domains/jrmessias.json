@@ -1,0 +1,12 @@
+{
+  "description": "For a personal website",
+  "repo": "https://github.com/jrmessias/jrmessias.github.io",
+  "owner": {
+    "username": "jrmessias",
+    "email": "jrmessias@gmail.com",
+    "twitter": "jrmessias"
+  },
+  "record": {
+    "CNAME": "jrmessias.github.io"
+  }
+}

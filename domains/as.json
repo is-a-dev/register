@@ -1,10 +1,9 @@
 {
-    "repo": "https://mrakshayas.github.io/me/",
-    "owner": {
-        "username": "MrAkshayAS",
-        "email": "akshau72p@gmail.com"
-    },
-    "record": {
-        "CNAME": "mrakshayas.github.io"
-    }
+  "owner": {
+    "username": "mraxays",
+    "discord": "mrakshayas"
+  },
+  "record": {
+    "URL": "https://mraxays.github.io/"
+  }
 }

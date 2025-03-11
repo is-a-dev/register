@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "danielfetico21",
-        "email": "danielfetico21@gmail.com"
-    },
-    "description": "Personal Website / Portfolio Website",
-    "record": {
-        "CNAME": "fetico.ro"
-    },
-    "proxied": true
+  "owner": {
+    "username": "danielfetico21",
+    "email": "danielfetico21@gmail.com"
+  },
+  "description": "Personal Website / Portfolio Website",
+  "record": {
+    "CNAME": "fetico.ro"
+  },
+  "proxied": true
 }

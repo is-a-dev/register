@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "pranoymajumdar",
-        "email": "pranoyfr@gmail.com",
-        "discord": "1303089079809740904"
-    },
-    "record": {
-        "CNAME": "pranoy-ruby.vercel.app"
-    }
+  "owner": {
+    "username": "pranoymajumdar",
+    "email": "pranoyfr@gmail.com",
+    "discord": "1303089079809740904"
+  },
+  "record": {
+    "CNAME": "pranoy-ruby.vercel.app"
+  }
 }
