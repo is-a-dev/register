@@ -1,0 +1,11 @@
+{
+    "description": "This site is my personal site and will be used as a portfolio/blog",
+    "repo": "https://github.com/burntpizzacrust/burntpizzacrust.github.io",
+    "owner": {
+        "username": "burntpizzacrust",
+        "email": "[theburntpizzacrust@gmail.com]"
+    },
+    "record": {
+        "CNAME": "burntpizzacrust.github.io"
+    }
+}
