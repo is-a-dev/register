@@ -1,5 +1,5 @@
 {
-  "description": "Root subdomain, just a CNAME to Vercel",
+  "description": "Development and pet-project APIs",
   "repo": "https://github.com/KruASe76",
   "owner": {
     "username": "KruASe76",
@@ -7,7 +7,9 @@
     "telegram": "https://t.me/KruASe"
   },
   "record": {
-    "CNAME": "kruase.vercel.app"
+    "A": [
+      "89.19.177.86"
+    ]
   },
   "proxied": true
 }
