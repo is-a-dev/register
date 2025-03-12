@@ -4,6 +4,7 @@
     "email": "prashil1411@gmail.com"
   },
   "record": {
-    "CNAME": "portfolio-gold-delta-24.vercel.app"
+    "CNAME": "portfolio-gold-delta-24.vercel.app",
+    "TXT": ["vc-domain-verify=prashil.is-a.dev,4d4ecde09797589bede3"]
   }
 }
