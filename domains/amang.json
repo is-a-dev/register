@@ -1,0 +1,11 @@
+{
+    "description": "Just a profile page",
+    "repo": "https://github.com/iAman-G/ProfileCard",
+    "owner": {
+        "username": "iAman-G",
+        "email": "iamangpt@gmail.com"
+    },
+    "record": {
+        "CNAME": "iaman-g.github.io"
+    }
+}
