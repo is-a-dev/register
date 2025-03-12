@@ -1,8 +1,10 @@
 {
     "owner": {
-        "username": "Holdulv-official"
+        "username": "Holdulv-official",
+        "email": "holdulvlinks@gmail.com"
     },
     "record": {
-        "NS": "CLoudflare-Pages"
+        "NS": "lex.ns.cloudflare.com",
+        "NS": "ulla.ns.cloudflare.com"
     }
 }
