@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "insert-github-username-here",
+        "email": "insert-email-here"
+    },
+    "record": {
+        "CNAME": "page-six-coral.vercel.app"
+    }
+}
