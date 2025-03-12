@@ -6,7 +6,6 @@
     "email": "nguyenmanh1891997@gmail.com"
   },
   "record": {
-    "CNAME": "manh-nguyen-blogs.vercel.app",
-    "A": ["76.76.21.21"]
+    "CNAME": "manh-nguyen-blogs.vercel.app"
   }
 }
