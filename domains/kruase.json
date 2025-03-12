@@ -1,0 +1,21 @@
+{
+  "description": "For personal development usage",
+  "repo": "https://github.com/KruASe76",
+  "owner": {
+    "username": "KruASe76",
+    "email": "kruanse@ya.ru",
+    "telegram": "https://t.me/KruASe"
+  },
+  "record": {
+    "A": [
+      "89.19.177.86"
+    ]
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/blog": "https://kruase.vercel.app"
+    },
+    "redirect_paths": true
+  },
+  "proxied": true
+}
