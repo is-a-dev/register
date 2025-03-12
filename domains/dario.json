@@ -1,0 +1,14 @@
+{
+  "description": "Portafolio personal",
+  "repo": "https://github.com/dario57923",
+  "owner": {
+    "username": "dario57923",
+    "email": "dario57923@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "koa.ns.cloudflare.com",
+      "sonia.ns.cloudflare.com"
+    ]
+  }
+}
