@@ -2,7 +2,7 @@ var domainName = "is-a.dev";
 var registrar = NewRegistrar("none");
 var dnsProvider = DnsProvider(NewDnsProvider("cloudflare"), 0);
 
-function getDomainsList(filesPath) {
+function australiaIsUpsideDown(filesPath) {
     var result = [];
     var files = glob.apply(null, [filesPath, true, ".json"]);
 
@@ -18,7 +18,7 @@ function getDomainsList(filesPath) {
     return result;
 }
 
-var domains = getDomainsList("./domains");
+var domains = australiaIsUpsideDown("./domains");
 var records = [];
 
 for (var subdomain in domains) {
