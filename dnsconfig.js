@@ -77,8 +77,8 @@ for (var subdomain in domains) {
                 records.push(
                     MX(
                         subdomainName,
-                        parseInt(mxRecord.priority) || 10 + parseInt(mx),
-                        mxRecord.server + "."
+                        parseInt(mxRecord.priority),
+                        mxRecord.target + "."
                     )
                 );
             }
@@ -107,7 +107,7 @@ for (var subdomain in domains) {
 		for (var tlsa in domainData.record.TLSA) {
 			var tlsaRecord = domainData.record.TLSA[tlsa];
 
-			commit[domain].records.push(
+			records.push(
 				TLSA(
 					subdomainName,
 					tlsaRecord.usage,
