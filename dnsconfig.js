@@ -140,7 +140,7 @@ for (var subdomain in domains) {
 var reserved = require("./util/reserved.json");
 
 // Handle reserved domains
-for (const subdomain of reserved) {
+for (var subdomain of reserved) {
     records.push(CNAME(subdomain), "reserved.is-a.dev", CF_PROXY_ON);
 }
 
