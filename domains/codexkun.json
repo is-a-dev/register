@@ -2,10 +2,10 @@
   "description": "Personal Portfolio",
   "repo": "https://github.com/KunalBishwal/Portfolio_IDE",
   "owner": {
-      "username": "KunalBishwal",
-      "email": "kunalbishwal2004@gmail.com"
+    "username": "KunalBishwal",
+    "email": "kunalbishwal2004@gmail.com"
   },
   "record": {
-      "CNAME": "portfolio-ide-zeta.vercel.app"
+    "CNAME": "portfolio-ide-zeta.vercel.app"
   }
 }
