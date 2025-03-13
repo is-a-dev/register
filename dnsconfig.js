@@ -139,10 +139,19 @@ for (var subdomain in domains) {
 
 var reserved = require("./util/reserved.json");
 
+var excludedReserved = [
+	"ns1",
+    "ns2",
+    "ns3",
+    "ns4"
+]
+
 // Handle reserved domains
 for (var i = 0; i < reserved.length; i++) {
     var subdomain = reserved[i];
-    records.push(CNAME(subdomain, "reserved.is-a.dev.", CF_PROXY_ON));
+    if (!excludedReserved.includes(subdomain)) {
+        records.push(CNAME(subdomain, "reserved.is-a.dev.", CF_PROXY_ON));
+    }
 }
 
 var options = {
