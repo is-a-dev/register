@@ -104,20 +104,20 @@ for (var subdomain in domains) {
 
     // Handle TLSA records
     if (domainData.record.TLSA) {
-		for (var tlsa in domainData.record.TLSA) {
-			var tlsaRecord = domainData.record.TLSA[tlsa];
+        for (var tlsa in domainData.record.TLSA) {
+            var tlsaRecord = domainData.record.TLSA[tlsa];
 
-			records.push(
-				TLSA(
-					subdomainName,
-					tlsaRecord.usage,
-					tlsaRecord.selector,
-					tlsaRecord.matchingType,
-					tlsaRecord.certificate
-				)
-			);
-		}
-	}
+            records.push(
+                TLSA(
+                    subdomainName,
+                    tlsaRecord.usage,
+                    tlsaRecord.selector,
+                    tlsaRecord.matchingType,
+                    tlsaRecord.certificate
+                )
+            );
+        }
+    }
 
     // Handle TXT records
     if (domainData.record.TXT) {
@@ -133,7 +133,7 @@ for (var subdomain in domains) {
     // Handle URL records
     if (domainData.record.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
-	    records.push(TXT("_redirect." + subdomainName, domainData.record.URL));
+        records.push(TXT("_redirect." + subdomainName, domainData.record.URL));
     }
 }
 
@@ -142,7 +142,14 @@ var reserved = require("./util/reserved.json");
 // Handle reserved domains
 for (var i = 0; i < reserved.length; i++) {
     var subdomain = reserved[i];
-    records.push(CNAME(subdomain, "reserved.is-a.dev.", CF_PROXY_ON));
+    if (
+        subdomain !== "ns1" &&
+        subdomain !== "ns2" &&
+        subdomain !== "ns3" &&
+        subdomain !== "ns4"
+    ) {
+        records.push(CNAME(subdomain, "reserved.is-a.dev.", CF_PROXY_ON));
+    }
 }
 
 var options = {
