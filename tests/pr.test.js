@@ -29,7 +29,7 @@ t("Users can only update their own subdomains", (t) => {
             .map((file) => path.basename(file.name));
 
         if ((!changedJSONFiles && !deletedFiles) || trustedUsers.includes(prAuthorId)) return t.pass();
-        if (process.env.PR_LABELS && process.env.PR_LABELS.includes("bypass-owner-check")) return t.pass();
+        if (process.env.PR_LABELS && process.env.PR_LABELS.includes("ci: bypass-owner-check")) return t.pass();
 
         changedJSONFiles.forEach((file) => {
             const subdomain = file.replace(/\.json$/, "");
