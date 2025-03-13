@@ -137,10 +137,10 @@ for (var subdomain in domains) {
     }
 }
 
-const reserved = require("./util/reserved.json");
+const reservedDomains = require("./util/reserved.json");
 
 // Handle reserved domains
-for (const subdomain of reserved) {
+for (const subdomain of reservedDomains) {
     records.push(CNAME(subdomain), "reserved.is-a.dev", CF_PROXY_ON);
 }
 
