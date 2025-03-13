@@ -1,12 +1,9 @@
 {
-    "subdomain": "mjresu",
     "owner": {
-      "repo": "https://github.com/mjdsj",
+      "username": "mjdsj",
       "email": "work.mjdsj+is-a-dev@gmail.com"
     },
     "record": {
       "CNAME": "portfolio-workmjdsj-gmailcom.vercel.app"
-    },
-    "proxied": false
-  }
-  
+    }
+}
