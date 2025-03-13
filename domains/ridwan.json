@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "description": "This subdomain points to my portfolio website. https://ridwanyinus.vercel.app/ is the link for a preview of the website",
+    "username": "ridwanyinus",
+    "email": "ridwanyinusa15@gmail.com"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+  }
+}
