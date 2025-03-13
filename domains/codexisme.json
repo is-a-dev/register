@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "codexart-lab",
-        "email": "atmostechnexa@gmail.com"
-    },
-    "record": {
-        "CNAME": "codexart-lab.github.io"
-    }
+  "owner": {
+    "username": "codexart-lab",
+    "email": "atmostechnexa@gmail.com"
+  },
+  "record": {
+    "CNAME": "codexart-lab.github.io"
+  }
 }
