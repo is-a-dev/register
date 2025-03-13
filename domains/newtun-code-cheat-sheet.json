@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "VinhTin-AQUA",
-        "email": "tinhovinh@gmail.com"
-    },
-    "record": {
-        "CNAME": "code-cheat-sheet.vercel.app"
-    }
+  "owner": {
+    "username": "VinhTin-AQUA",
+    "email": "tinhovinh@gmail.com"
+  },
+  "record": {
+    "CNAME": "code-cheat-sheet.vercel.app"
+  }
 }

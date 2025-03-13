@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Saganaki22",
-        "email": "info@drbaph.dev"
-    },
-    "record": {
-        "CNAME": "saganaki22.github.io"
-    }
+  "owner": {
+    "username": "Saganaki22",
+    "email": "info@drbaph.dev"
+  },
+  "record": {
+    "CNAME": "saganaki22.github.io"
+  }
 }

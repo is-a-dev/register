@@ -4,6 +4,6 @@
     "email": "prashil1411@gmail.com"
   },
   "record": {
-    "CNAME": "portfolio-gold-delta-24.vercel.app"
+    "A": ["216.198.79.1", "64.29.17.1"]
   }
 }
