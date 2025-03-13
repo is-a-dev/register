@@ -2,7 +2,8 @@ const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
 
-const trustedUsers = require("../util/trusted.json").map((u) => u.toLowerCase());
+const requiredEnvVars = ["CHANGED_FILES", "PR_AUTHOR", "PR_AUTHOR_ID"];
+const trustedUsers = require("../util/trusted.json").map((u) => u.id);
 
 function getDomainData(subdomain) {
     try {
@@ -14,14 +15,15 @@ function getDomainData(subdomain) {
 }
 
 t("Users can only update their own subdomains", (t) => {
-    if (process.env.PR_AUTHOR && process.env.CHANGED_FILES) {
+    if (requiredEnvVars.every((v) => process.env[v])) {
         const changedFiles = JSON.parse(process.env.CHANGED_FILES);
         const prAuthor = process.env.PR_AUTHOR.toLowerCase();
+        const prAuthorId = process.env.PR_AUTHOR_ID;
         const changedJSONFiles = changedFiles
             .filter((file) => file.startsWith("domains/"))
             .map((file) => path.basename(file));
 
-        if (!changedJSONFiles || trustedUsers.includes(prAuthor)) return t.pass();
+        if (!changedJSONFiles || trustedUsers.includes(prAuthorId)) return t.pass();
         if (process.env.PR_LABELS && process.env.PR_LABELS.includes("bypass-owner-check")) return t.pass();
 
         changedJSONFiles.forEach((file) => {
