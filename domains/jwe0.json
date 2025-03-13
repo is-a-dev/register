@@ -2,9 +2,9 @@
   "description": "Forwarding",
   "owner": {
     "email": "900qxecf7@mozmail.com",
-    "username" : "jwe0"
+    "username": "jwe0"
   },
   "record": {
-    "CNAME" : "jwe0.xyz"
+    "CNAME": "jwe0.xyz"
   }
 }

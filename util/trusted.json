@@ -1,8 +1,7 @@
 [
-    "DEV-DIBSTER",
-    "iostpa",
-    "is-a-dev-bot",
-    "orangci",
-    "Stef-00012",
-    "wdhdev"
+    { "username": "iostpa", "id": 69630113 },
+    { "username": "is-a-dev-bot", "id": 106927495 },
+    { "username": "orangci", "id": 90866414 },
+    { "username": "WDH-2", "id": 115670568 },
+    { "username": "wdhdev", "id": 87287585 }
 ]

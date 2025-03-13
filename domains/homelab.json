@@ -5,9 +5,6 @@
     "email": "helovikipranata@gmail.com"
   },
   "record": {
-    "NS": [
-      "deb.ns.cloudflare.com",
-      "sid.ns.cloudflare.com"
-    ]
+    "NS": ["deb.ns.cloudflare.com", "sid.ns.cloudflare.com"]
   }
 }

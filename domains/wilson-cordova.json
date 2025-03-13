@@ -1,11 +1,11 @@
 {
-    "description": "Subdominio para el portafolio de Wilson Córdova",
-    "repo": "https://github.com/WSteeven/wilson-steeven.github.io",
-    "owner": {
-        "username": "WSteeven",
-        "email": "wilson972906@gmail.com"
-    },
-    "record": {
-        "CNAME": "wsteeven.github.io"
-    }
+  "description": "Subdominio para el portafolio de Wilson Córdova",
+  "repo": "https://github.com/WSteeven/wilson-steeven.github.io",
+  "owner": {
+    "username": "WSteeven",
+    "email": "wilson972906@gmail.com"
+  },
+  "record": {
+    "CNAME": "wsteeven.github.io"
+  }
 }
