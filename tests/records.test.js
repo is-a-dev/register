@@ -121,10 +121,10 @@ function validateRecordValues(t, data, file) {
                     if (typeof record === "string") {
                         t.true(isValidHostname(record), `${file}: Invalid hostname for ${key} at index ${idx}`);
                     } else {
-                        t.true(isValidHostname(record.server), `${file}: Invalid server for MX at index ${idx}`);
+                        t.true(isValidHostname(record.target), `${file}: Invalid target for ${key} at index ${idx}`);
                         t.true(
                             Number.isInteger(record.priority) && record.priority >= 0 && record.priority <= 65535,
-                            `${file}: Invalid priority for MX at index ${idx}`
+                            `${file}: Invalid priority for ${key} at index ${idx}`
                         );
                     }
                 } else if (key === "NS") {
@@ -168,55 +168,55 @@ function validateRecordValues(t, data, file) {
                 if (key === "CAA") {
                     t.true(
                         ["issue", "issuewild", "iodef"].includes(record.tag),
-                        `${file}: Invalid tag for CAA at index ${idx}`
+                        `${file}: Invalid tag for ${key} at index ${idx}`
                     );
-                    t.true(typeof record.value === "string", `${file}: Invalid value for CAA at index ${idx}`);
+                    t.true(typeof record.value === "string", `${file}: Invalid value for ${key} at index ${idx}`);
                     t.true(
                         isValidHostname(record.value) || record.value === ";",
-                        `${file}: Value must be a hostname or semicolon for CAA at index ${idx}`
+                        `${file}: Value must be a hostname or semicolon for ${key} at index ${idx}`
                     );
                 } else if (key === "DS") {
                     t.true(
                         Number.isInteger(record.key_tag) && record.key_tag >= 0 && record.key_tag <= 65535,
-                        `${file}: Invalid key_tag for DS at index ${idx}`
+                        `${file}: Invalid key_tag for ${key} at index ${idx}`
                     );
                     t.true(
                         Number.isInteger(record.algorithm) && record.algorithm >= 0 && record.algorithm <= 255,
-                        `${file}: Invalid algorithm for DS at index ${idx}`
+                        `${file}: Invalid algorithm for ${key} at index ${idx}`
                     );
                     t.true(
                         Number.isInteger(record.digest_type) && record.digest_type >= 0 && record.digest_type <= 255,
-                        `${file}: Invalid digest_type for DS at index ${idx}`
+                        `${file}: Invalid digest_type for ${key} at index ${idx}`
                     );
-                    t.true(isValidHexadecimal(record.digest), `${file}: Invalid digest for DS at index ${idx}`);
+                    t.true(isValidHexadecimal(record.digest), `${file}: Invalid digest for ${key} at index ${idx}`);
                 } else if (key === "SRV") {
                     t.true(
                         Number.isInteger(record.priority) && record.priority >= 0 && record.priority <= 65535,
-                        `${file}: Invalid priority for SRV at index ${idx}`
+                        `${file}: Invalid priority for ${key} at index ${idx}`
                     );
                     t.true(
                         Number.isInteger(record.weight) && record.weight >= 0 && record.weight <= 65535,
-                        `${file}: Invalid weight for SRV at index ${idx}`
+                        `${file}: Invalid weight for ${key} at index ${idx}`
                     );
                     t.true(
                         Number.isInteger(record.port) && record.port >= 0 && record.port <= 65535,
-                        `${file}: Invalid port for SRV at index ${idx}`
+                        `${file}: Invalid port for ${key} at index ${idx}`
                     );
-                    t.true(isValidHostname(record.target), `${file}: Invalid target for SRV at index ${idx}`);
+                    t.true(isValidHostname(record.target), `${file}: Invalid target for ${key} at index ${idx}`);
                 } else if (key === "TLSA") {
                     t.true(
                         Number.isInteger(record.usage) && record.usage >= 0 && record.usage <= 255,
-                        `${file}: Invalid usage for TLSA at index ${idx}`
+                        `${file}: Invalid usage for ${key} at index ${idx}`
                     );
                     t.true(
                         Number.isInteger(record.selector) && record.selector >= 0 && record.selector <= 255,
-                        `${file}: Invalid selector for TLSA at index ${idx}`
+                        `${file}: Invalid selector for ${key} at index ${idx}`
                     );
                     t.true(
                         Number.isInteger(record.matchingType) && record.matchingType >= 0 && record.matchingType <= 255,
-                        `${file}: Invalid matchingType for TLSA at index ${idx}`
+                        `${file}: Invalid matchingType for ${key} at index ${idx}`
                     );
-                    t.true(isValidHexadecimal(record.certificate), `${file}: Invalid certificate for TLSA at index ${idx}`);
+                    t.true(isValidHexadecimal(record.certificate), `${file}: Invalid certificate for ${key} at index ${idx}`);
                 }
             });
         }
