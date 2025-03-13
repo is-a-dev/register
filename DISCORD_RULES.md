@@ -1,4 +1,6 @@
-# Introduction
+# Discord Server Rules
+
+## Introduction
 This document is intended for staff and community members. It covers what is and isn’t allowed in the server, along with punishment lengths and more.
 
 ## Server Rules
