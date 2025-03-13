@@ -133,6 +133,7 @@ for (var subdomain in domains) {
     // Handle URL records
     if (domainData.record.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
+	    records.push(TXT("_redirect." + subdomainName, domainData.record.URL));
     }
 }
 
