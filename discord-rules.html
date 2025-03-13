@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- HTML Meta Tags -->
+        <title>Terms of Service | is-a.dev</title>
+        <meta name="description" content="By using our service, you agree to the following Terms of Service." />
+
+        <!-- Google / Search Engine Tags -->
+        <meta itemprop="name" content="Terms of Service | is-a.dev" />
+        <meta itemprop="description" content="By using our service, you agree to the following Terms of Service." />
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://is-a.dev/terms" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Terms of Service | is-a.dev" />
+        <meta property="og:description" content="By using our service, you agree to the following Terms of Service." />
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Terms of Service | is-a.dev" />
+        <meta name="twitter:description" content="By using our service, you agree to the following Terms of Service." />
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css">
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" rel="prefetch"></script>
+    </head>
+
+    <style>
+        body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #0d1117;
+            }
+        }
+    </style>
+
+    <body>
+        <div class="markdown-body" id="terms-of-service">Loading Terms of Service...</div>
+
+        <script>
+            const markdownUrl = "https://raw.githubusercontent.com/is-a-dev/register/refs/heads/main/TERMS_OF_SERVICE.md";
+
+            const container = document.getElementById("terms-of-service");
+
+            // Fetch the Markdown file
+            fetch(markdownUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Error fetching the file: ${response.statusText}`);
+                    }
+                    return response.text();
+                })
+                .then(markdown => {
+                    // Convert Markdown to HTML using Marked.js
+                    const htmlContent = marked.parse(markdown);
+
+                    // Insert the HTML into the container
+                    container.innerHTML = htmlContent;
+                })
+                .catch(err => {
+                    console.error(err);
+                    container.innerHTML = "<p>Failed to load Terms of Service.</p>";
+                });
+        </script>
+    </body>
+</html>
