@@ -38,6 +38,9 @@ jobs:
 
                   FILES=$(gh api --jq '[.[] | select(.status != "removed") | .filename]' /repos/{owner}/{repo}/pulls/${{ github.event.number }}/files)
                   echo "CHANGED_FILES=$FILES" >> $GITHUB_ENV
+
+                  REMOVED_FILE_DATA=$(gh api --jq '[.[] | select(.status == "removed") | {name: .filename, data: .patch}]' /repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files)
+                  echo "DELETED_FILES=$REMOVED_FILE_DATA" >> $GITHUB_ENV
               env:
                   GH_TOKEN: ${{ github.token }}
 
