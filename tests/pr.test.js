@@ -2,7 +2,7 @@ const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
 
-const trustedUsers = require("./util/trusted.json").map((u) => u.toLowerCase());
+const trustedUsers = require("../util/trusted.json").map((u) => u.toLowerCase());
 
 function getDomainData(subdomain) {
     try {
