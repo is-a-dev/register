@@ -1,11 +1,11 @@
 {
-    "description": "Alen's page",
-    "repo": "https://github.com/alenseeman/alenseeman.github.io",
-    "owner": {
-        "username": "alenseeman",
-        "email": "alenseeman@hotmail.com"
-    },
-    "record": {
-        "CNAME": "alenseeman.github.io"
-    }
+  "description": "Alen's page",
+  "repo": "https://github.com/alenseeman/alenseeman.github.io",
+  "owner": {
+    "username": "alenseeman",
+    "email": "alenseeman@hotmail.com"
+  },
+  "record": {
+    "CNAME": "alenseeman.github.io"
+  }
 }

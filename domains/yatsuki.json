@@ -6,9 +6,6 @@
     "discord": "yatsuki."
   },
   "record": {
-    "NS": [
-      "ezra.ns.cloudflare.com",
-      "teagan.ns.cloudflare.com"
-    ]
+    "NS": ["ezra.ns.cloudflare.com", "teagan.ns.cloudflare.com"]
   }
 }

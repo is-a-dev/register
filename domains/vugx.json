@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "TheVugx",
-        "email": "thevugx@gmail.com"
-    },
-    "record": {
-        "CNAME": "thevugx.github.io"
-    }
+  "owner": {
+    "username": "TheVugx",
+    "email": "thevugx@gmail.com"
+  },
+  "record": {
+    "CNAME": "thevugx.github.io"
+  }
 }

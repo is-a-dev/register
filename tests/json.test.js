@@ -1,7 +1,6 @@
 const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
-const { promisify } = require("util");
 
 const ignoredRootJSONFiles = ["package-lock.json", "package.json"];
 

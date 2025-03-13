@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "harunabdullahrakin"
-    },
-  
+  "owner": {
+    "username": "harunabdullahrakin"
+  },
+
   "record": {
-    "A": [
-      "185.31.40.12"
-    ]
-  
-}
+    "A": ["185.31.40.12"]
+  }
 }

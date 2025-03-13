@@ -21,31 +21,14 @@ function getDomainData(subdomain) {
     }
 }
 
-function getParentSubdomain(subdomain) {
-    const parts = subdomain.split(".");
-
-    if (parts.length <= 1) return null; // No parent for top-level subdomains
-
-    // Try to find the parent subdomain by iterating over the parts
-    for (let i = parts.length - 1; i > 0; i--) {
-        const potentialParent = parts.slice(i - 1).join(".");
-
-        if (files.includes(`${potentialParent}.json`)) {
-            return potentialParent;
-        }
-    }
-
-    return null;
-}
-
 t("Nested subdomains should not exist without a parent subdomain", (t) => {
     files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
+        const parentDomain = subdomain.split(".").reverse()[0];
 
-        if (subdomain.split(".").length > 1) {
-            const parentSubdomain = getParentSubdomain(subdomain);
+        if (parentDomain !== subdomain) {
             t.true(
-                parentSubdomain && files.includes(`${parentSubdomain}.json`),
+                parentDomain && files.includes(`${parentDomain}.json`),
                 `${file}: Parent subdomain does not exist`
             );
         }
@@ -55,12 +38,12 @@ t("Nested subdomains should not exist without a parent subdomain", (t) => {
 t("Nested subdomains should not exist if the parent subdomain has NS records", (t) => {
     files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
+        const parentDomain = subdomain.split(".").reverse()[0];
 
-        if (subdomain.split(".").length > 1) {
-            const parentSubdomain = getParentSubdomain(subdomain);
-            const parentDomain = getDomainData(parentSubdomain);
+        if (parentDomain !== subdomain) {
+            const parentData = getDomainData(parentDomain);
 
-            t.true(!parentDomain.record.NS, `${file}: Parent subdomain has NS records`);
+            t.true(!parentData.record.NS, `${file}: Parent subdomain has NS records`);
         }
     });
 });
@@ -68,14 +51,14 @@ t("Nested subdomains should not exist if the parent subdomain has NS records", (
 t("Nested subdomains should be owned by the parent subdomain's owner", (t) => {
     files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
+        const parentDomain = subdomain.split(".").reverse()[0];
 
-        if (subdomain.split(".").length > 1) {
+        if (parentDomain !== subdomain) {
             const data = getDomainData(subdomain);
-            const parentSubdomain = getParentSubdomain(subdomain);
-            const parentDomain = getDomainData(parentSubdomain);
+            const parentData = getDomainData(parentDomain);
 
             t.true(
-                data.owner.username.toLowerCase() === parentDomain.owner.username.toLowerCase(),
+                data.owner.username.toLowerCase() === parentData.owner.username.toLowerCase(),
                 `${file}: Owner does not match the parent subdomain`
             );
         }
