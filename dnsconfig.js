@@ -104,20 +104,20 @@ for (var subdomain in domains) {
 
     // Handle TLSA records
     if (domainData.record.TLSA) {
-		for (var tlsa in domainData.record.TLSA) {
-			var tlsaRecord = domainData.record.TLSA[tlsa];
+        for (var tlsa in domainData.record.TLSA) {
+            var tlsaRecord = domainData.record.TLSA[tlsa];
 
-			records.push(
-				TLSA(
-					subdomainName,
-					tlsaRecord.usage,
-					tlsaRecord.selector,
-					tlsaRecord.matchingType,
-					tlsaRecord.certificate
-				)
-			);
-		}
-	}
+            records.push(
+                TLSA(
+                    subdomainName,
+                    tlsaRecord.usage,
+                    tlsaRecord.selector,
+                    tlsaRecord.matchingType,
+                    tlsaRecord.certificate
+                )
+            );
+        }
+    }
 
     // Handle TXT records
     if (domainData.record.TXT) {
@@ -133,14 +133,14 @@ for (var subdomain in domains) {
     // Handle URL records
     if (domainData.record.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
-	    records.push(TXT("_redirect." + subdomainName, domainData.record.URL));
+        records.push(TXT("_redirect." + subdomainName, domainData.record.URL));
     }
 }
 
 var reserved = require("./util/reserved.json");
 
 var excludedReserved = [
-	"ns1",
+    "ns1",
     "ns2",
     "ns3",
     "ns4"
