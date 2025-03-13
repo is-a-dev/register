@@ -1,11 +1,6 @@
 [
-    "21Z",
-    "DEV-DIBSTER",
-    "iostpa",
-    "is-a-dev-bot",
-    "orangci",
-    "Stef-00012",
-    "SX-9",
-    "WDH-2",
-    "wdhdev"
+    { "username": "iostpa", "id": 69630113 },
+    { "username": "wdhdev", "id": 87287585 },
+    { "username": "is-a-dev-bot", "id": 106927495 },
+    { "username": "WDH-2", "id": 115670568 }
 ]
