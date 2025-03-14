@@ -1,0 +1,10 @@
+{
+  "description": "GitHub Pages verification for joey.is-a.dev",
+  "repo": "https://github.com/jlai403/jlai403.github.io"
+  "owner": {
+    "username": "jlai403"
+  },
+  "record": {
+    "CNAME": "jlai403.github.io"
+  }
+}
