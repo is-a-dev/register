@@ -1,8 +1,12 @@
 {
-    "owner": {
-        "username": "cedrickdev"
-    },
-    "record": {
-        "CNAME": "portfolio-six-ochre-12.vercel.app"
-    }
+  "owner": {
+    "description": "This subdomain points to my portfolio website. https://cedrickfeze.vercel.app/ is the link for a preview of the website",
+    "username": "cedrickdev",
+    "email": "cedrickv.tchindaf@hes-so.ch",
+    "note": "I am changing to CNAME record because of the domain is not working properly with A record on my personal devices even after clearing cache and using different browsers."
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+    "CNAME": "cedrickfeze.vercel.app"
+  }
 }
