@@ -1,0 +1,10 @@
+{
+  "description": "Byomess - Dev Portfolio",
+  "owner": {
+    "username": "byomess",
+    "email": "byomess@proton.me"
+  },
+  "record": {
+    "CNAME": ["byomess.github.io"]
+  }
+}
