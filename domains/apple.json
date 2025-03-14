@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "orangebeta"
+        "email": "ujkijymo@duck.com"
+    },
+    "record": {
+        "NS": ["adaline.ns.cloudflare.com", "quinton.ns.cloudflare.com"]
+    }
+}
