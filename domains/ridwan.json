@@ -1,8 +1,7 @@
 {
   "owner": {
     "username": "ridwanyinus",
-    "email": "ridwanyinusa15@gmail.com",
-    "note": "I am changing to CNAME record because of the domain is not working properly with A record on my personal devices even after clearing cache and using different browsers."
+    "email": "ridwanyinusa15@gmail.com"
   },
   "record": {
     "CNAME": "ridwanyinus.vercel.app"
