@@ -4,6 +4,6 @@
       "email": "maheshwebdev11@gmail.com"
   },
   "record": {
-      "CNAME": "mahesh.is-a.dev"
+      "TXT": "vc-domain-verify=mahesh.is-a.dev,1d234091fac021ba558b"
   }
-} 
+}
