@@ -6,6 +6,5 @@
     "record": {
       "CNAME": "portfolio-workmjdsj-gmailcom.vercel.app"
     },
-    "proxied": true
+    "proxied": false
   }
-  
