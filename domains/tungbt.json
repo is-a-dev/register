@@ -5,7 +5,7 @@
       "email": "bthanhtung.se@gmail.com"
     },
     "record": {
-      "URL": "https://tungbt.vercel.app/"
+      "CNAME": "tungbt.vercel.app"
     },
     "redirect_config": {
       "custom_paths": {
