@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "description": "This subdomain points to my portfolio website. https://cedrickfeze.vercel.app/ is the link for a preview of the website",
+    "username": "cedrickdev",
+    "email": "cedrickv.tchindaf@hes-so.ch",
+   },
+  "record": {
+    "CNAME": "cedrickfeze.vercel.app"
+  }
+}
