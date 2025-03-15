@@ -4,7 +4,6 @@
       "email": "work.mjdsj+is-a-dev@gmail.com"
     },
     "record": {
-      "CNAME": "portfolio-workmjdsj-gmailcom.vercel.app"
-    },
-    "proxied": false
-  }
+      "TXT": "vc-domain-verify=mjresu.is-a.dev,2122712d466f4e306e1d"
+    }
+}
