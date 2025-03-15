@@ -1,0 +1,10 @@
+{
+  "domain": "kembimore-village.is-a.dev",
+  "owner": {
+    "email": "enidbajrami1@gmail.com"
+  },
+  "records": {
+    "CNAME": "e-niddi.github.io/c-site"
+  },
+  "proxied": false
+}
