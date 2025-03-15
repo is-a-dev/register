@@ -9,7 +9,7 @@
   "redirect_config": {
     "custom_paths": {
       "/github": "https://github.com/UshnishG",
-      "/linkedin" : "https://www.linkedin.com/in/ushnishghosal"
+      "/linkedin": "https://www.linkedin.com/in/ushnishghosal"
     },
     "redirect_paths": true
   }
