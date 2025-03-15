@@ -1,0 +1,12 @@
+{
+  "description": "The Fool's Tattered Notebook",
+  "repo": "https://github.com/TheVoidMonarch/the-fools-tattered-notebook",
+  "owner": {
+    "username": "TheVoidMonarch",
+    "email": "itsvoidmonarch@gmail.com"
+  },
+  "record": {
+    "CNAME": "thevoidmonarch.github.io"
+  },
+  "proxied": true
+}
