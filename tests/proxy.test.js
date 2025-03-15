@@ -21,8 +21,13 @@ function getDomainData(file) {
 }
 
 function validateProxiedRecords(t, data, file) {
-    // Convert the Set to an array for message display (moved outside the loop to optimize performance)
     const recordTypes = Array.from(requiredRecordsToProxy).join(", ");
+
+    // Forcefully stop raw.is-a.dev from being proxied
+    if (file === "raw.json") {
+        t.true(!data.proxied, `${file}: raw.is-a.dev cannot be proxied`);
+        return;
+    }
 
     if (data.proxied) {
         const hasProxiedRecord = Object.keys(data.record).some((key) => requiredRecordsToProxy.has(key));
@@ -39,8 +44,8 @@ const files = fs.readdirSync(domainsPath).filter((file) => file.endsWith(".json"
 
 t("Domains with proxy enabled must have at least one proxy-able record", (t) => {
     files.forEach((file) => {
-        const domain = getDomainData(file);
+        const data = getDomainData(file);
 
-        validateProxiedRecords(t, domain, file);
+        validateProxiedRecords(t, data, file);
     });
 });
