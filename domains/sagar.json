@@ -1,0 +1,11 @@
+{
+  "description": "is-a.dev subdomain for my portfolio",
+  "repo": "https://github.com/cyber0070/cyber0070.github.io",
+  "owner": {
+    "username": "cyber0070",
+    "email": "sarthakmeddan@gmail.com"
+  },
+  "record": {
+    "CNAME": "cyber0070.github.io/"
+  }
+}
