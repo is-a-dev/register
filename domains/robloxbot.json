@@ -7,7 +7,7 @@
 {
   "record": {
     "NS": [
-      "celine.ns.cloudflare.com",
+      "celine.ns.cloudflare.com", (reason: Subdomain and Project Web)
       "lars.ns.cloudflare.com"
     ]
   },
