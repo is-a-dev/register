@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "tomek-i"
-    },
-    "record": {
-        "CNAME": "tomek-i.github.io"
-    }
+  "owner": {
+    "username": "tomek-i"
+  },
+  "record": {
+    "CNAME": "tomek-i.github.io"
+  }
 }
