@@ -1,0 +1,14 @@
+{
+  "description": "NS delegation to Cloudflare (cedric.is-a.dev) for secure, flexible DNS management.",
+  "record": {
+    "NS": [
+      "bart.ns.cloudflare.com",
+      "clara.ns.cloudflare.com"
+    ]
+  },
+  "owner": {
+    "username": "Zzackllack",
+    "email": "abuse@zacklack.de",
+    "discord": "zacklack"
+  }
+}
