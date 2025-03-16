@@ -5,6 +5,6 @@
     "discord": "479631349167423509"
   },
   "record": {
-    "CNAME": "meghdip.vercel.app"
+    "TXT": "vc-domain-verify=meghdip.is-a.dev,c42a80a81afe4ac5800c"
   }
 }
