@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "HarshKaretiya"
+    },
+    "record": {
+       "NS": [
+      "ns1.server1.webhostmost.com",
+      "ns2.server2.webhostmost.com",
+         "ns3.server3.webhostmost.com",
+         "ns4.server4.webhostmost.com"
+    ]
+    }
+}
