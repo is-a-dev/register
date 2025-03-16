@@ -6,6 +6,7 @@
     "email": "boranarohith07@gmail.com"
   },
   "record": {
-    "CNAME": "therohithborana.vercel.app"
+    "CNAME": "therohithborana.vercel.app",
+    "TXT": "vc-domain-verify=rohithborana.is-a.dev,b8b320974b3794149fc4"
   }
 }
