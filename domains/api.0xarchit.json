@@ -5,6 +5,5 @@
   },
   "record": {
     "CNAME": "status.cron-job.org"
-  },
-  "proxied": true
+  }
 }
