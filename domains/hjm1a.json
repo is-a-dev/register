@@ -1,0 +1,13 @@
+{
+    "owner": {
+      "username": "hjm1a",
+      "email": "qedyguf@outlook.com"
+    },
+    "record": {
+      "NS": [
+      "jobs.ns.cloudflare.com",
+      "yolanda.ns.cloudflare.com"
+    ]
+    },
+    "proxied": false
+  }
