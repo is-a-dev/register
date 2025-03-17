@@ -1,0 +1,12 @@
+{
+    "description": "Sitio web personal de coni",
+    "owner": {
+      "username": "C0n1j",
+      "email": "conijocus@gmail.com"
+    },
+    "record": {
+      "CNAME": "localhost" 
+    },
+    "proxied": true
+  }
+  
