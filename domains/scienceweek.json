@@ -1,0 +1,11 @@
+{
+    "description": "I will use this domain for an event website",
+    "repo": "https://github.com/regisx001/scienceweek",
+    "owner": {
+        "username": "regisx001",
+        "email": "[email protected]"
+    },
+    "record": {
+        "CNAME": "regisx001.github.io"
+    }
+}
