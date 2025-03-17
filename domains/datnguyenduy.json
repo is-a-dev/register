@@ -1,6 +1,7 @@
 {
   "$schema": "../schemas/domain.schema.json",
   "domain": "nguyenduydat",
+  "repo": "https://github.com/DatNguyenFEdev/nguyenduydat1",
   "owner": {
     "email": "duydat10122001@gmail.com"
   },
