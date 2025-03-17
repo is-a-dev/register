@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "is-a-dev",
-        "email": "phenax5@gmail.com"
-    },
-
-    "record": {
-        "URL": "https://raw-api.is-a.dev"
-    }
+  "owner": {
+    "username": "is-a-dev",
+    "email": "admin@is-a.dev"
+  },
+  "record": {
+    "CNAME": "is-a.dev"
+  }
 }

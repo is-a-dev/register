@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "shirsakm",
+    "email": "shirsakm@gmail.com"
+  },
+  "description": "Hosts my personal website",
+  "repo": "https://github.com/shirsakm/website",
+  "record": {
+    "CNAME": "website-ndp.pages.dev"
+  }
+}

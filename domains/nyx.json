@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "nyxical420",
-        "email": "xaveegacha7@gmail.com"
-    },
-    "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
-    }
+  "description": "Blog for my personal thoughts and projects",
+  "repo": "https://github.com/devnyxie/devnyxie.github.io",
+  "owner": {
+    "username": "devnyxie",
+    "email": "timbusinez@gmail.com"
+  },
+  "record": {
+    "CNAME": "devnyxie.github.io"
+  }
 }

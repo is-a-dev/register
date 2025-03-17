@@ -1,11 +1,10 @@
 {
-    "description": "Sanjay Suryavanshi Profile.",
-    "repo": "https://github.com/Sanjay-Suryavanshi/Sanjay-Suryavanshi.github.io",
-    "owner": {
-        "username": "Sanjay-Suryavanshi",
-        "email": ""
-    },
-    "record": {
-        "CNAME": "Sanjay-Suryavanshi.github.io"
-    }
+  "description": "Sanjay Suryavanshi Profile.",
+  "repo": "https://github.com/Sanjay-Suryavanshi/Sanjay-Suryavanshi.github.io",
+  "owner": {
+    "username": "Sanjay-Suryavanshi"
+  },
+  "record": {
+    "CNAME": "sanjay-suryavanshi.github.io"
+  }
 }

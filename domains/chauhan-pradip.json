@@ -1,11 +1,10 @@
 {
-    "description": "My website",
-    "repo": "https://github.com/chauhan-pradip/chauhan-pradip.github.io",
-    "owner": {
-        "username": "chauhan-pradip",
-        "email": ""
-    },
-    "record": {
-        "CNAME": "chauhan-pradip.github.io"
-    }
+  "description": "My website",
+  "repo": "https://github.com/chauhan-pradip/chauhan-pradip.github.io",
+  "owner": {
+    "username": "chauhan-pradip"
+  },
+  "record": {
+    "CNAME": "chauhan-pradip.github.io"
+  }
 }

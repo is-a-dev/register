@@ -1,0 +1,10 @@
+{
+  "description": "ZK's Website",
+  "owner": {
+    "username": "p55d2k",
+    "email": "peanutandscuffy1@gmail.com"
+  },
+  "record": {
+    "CNAME": "zk-website-cwo.pages.dev"
+  }
+}

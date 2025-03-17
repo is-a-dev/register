@@ -1,0 +1,11 @@
+{
+  "description": "Profile Website of Jznctt",
+  "repo": "https://github.com/ncttjz/ncttjz.github.io",
+  "owner": {
+    "username": "ncttjz",
+    "email": "jznctt@gmail.com"
+  },
+  "record": {
+    "CNAME": "ncttjz.github.io"
+  }
+}

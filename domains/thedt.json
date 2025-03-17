@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "thedtvn",
-        "email": "duongtuan30306@gmail.com"
-    },
-    "record": {
-        "URL": "https://many.link/dt"
-    }
+  "owner": {
+    "username": "thedtvn",
+    "email": "duongtuan30306@gmail.com"
+  },
+  "record": {
+    "CNAME": "thedthomepage.pages.dev"
+  }
 }

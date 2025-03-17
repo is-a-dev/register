@@ -1,11 +1,10 @@
 {
-    "owner": {
-        "email": "harishbb168@gmail.com",
-        "username": "harish"
-    },
-    "description": "My portfolio website",
-    "repo": "https://github.com/HarishB167/hs-app",
-    "record": {
-        "CNAME": "hsapp.onrender.com"
-    }
+  "owner": {
+    "username": "HarishChandran3304",
+    "email": "harish3304.work@gmail.com",
+    "discord": "harish3304"
+  },
+  "record": {
+    "CNAME": "harish-chandran.vercel.app"
+  }
 }

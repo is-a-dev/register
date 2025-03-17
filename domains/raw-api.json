@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "is-a-dev",
-        "email": "phenax5@gmail.com"
-    },
-
-    "record": {
-        "CNAME": "wdhdev.github.io"
-    }
+  "owner": {
+    "username": "is-a-dev",
+    "email": "admin@is-a.dev"
+  },
+  "record": {
+    "URL": "https://raw.is-a.dev"
+  }
 }

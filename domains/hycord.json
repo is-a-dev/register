@@ -1,11 +1,13 @@
 {
-    "description": "Hi! I'm Hycord!",
-    "owner": {
-        "username": "hycord",
-        "email": "hycord@hycordia.com",
-        "twitter": "IGNHycord"
-    },
-    "record": {
-        "CNAME": "xbwlnzmg.up.railway.app"
-    }
+  "description": "Development Portfolio for Hycord",
+  "url": "https://github.com/hycord/monorepo",
+  "owner": {
+    "username": "hycord",
+    "email": "hycord@hycordia.com",
+    "twitter": "IGNHycord",
+    "discord": "322144499734151169"
+  },
+  "record": {
+    "URL": "https://masen.dev/"
+  }
 }

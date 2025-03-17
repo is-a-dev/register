@@ -1,11 +1,12 @@
 {
-    "description": "Pranav's personal website",
-    "repo": "https://github.com/pranavnt/pt5.dev",
-    "owner": {
-        "username": "pranavnt",
-        "email": "pranavnt@outlook.com"
-    },
-    "record": {
-        "CNAME": "pt5.dev"
-    }
+  "description": "Documentation website for is-a.dev",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "Srcpranav",
+    "email": "zoldyckzoldyck41@gmail.com"
+  },
+  "record": {
+    "CNAME": "pranav-portfolio-sigma.vercel.app"
+  },
+  "proxied": true
 }

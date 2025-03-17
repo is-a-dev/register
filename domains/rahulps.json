@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "rahulps1000",
-        "email": "rahulps1000@gmail.com"
-    },
-
-    "record": {
-        "URL": "https://myfolio-rahulps.netlify.app"
-    }
+  "owner": {
+    "username": "rahulps1000",
+    "email": "rahulps1000@gmail.com"
+  },
+  "record": {
+    "A": ["75.2.60.5"]
+  },
+  "proxied": false
 }

@@ -1,11 +1,10 @@
 {
-    "description": "Have a look to my web site please ;-;",
-    "repo": "https://github.com/PatrickChoDev",
-    "owner": {
-        "username": "PatrickChoDev",
-        "email": "devpatrick.cho@gmail.com"
-    },
-    "record": {
-        "A": ["158.101.70.92"]
-    }
+  "description": "My portfolio website made with GoHugo",
+  "owner": {
+    "username": "davidsneighbour",
+    "email": "pkollitsch+isadev@gmail.com"
+  },
+  "record": {
+    "URL": "https://kollitsch.dev/"
+  }
 }

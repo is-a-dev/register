@@ -1,0 +1,10 @@
+{
+  "description": "nice domain for my sink.cool link shortener",
+  "owner": {
+    "username": "burnblazter",
+    "email": "hello@fael.my.id"
+  },
+  "record": {
+    "CNAME": "sink-1pr.pages.dev"
+  }
+}

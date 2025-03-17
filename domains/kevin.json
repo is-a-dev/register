@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "KevinBrogan",
-        "email": "kevin@brogan.ca"
-    },
-    "record": {
-        "CNAME": "brogan.ca"
-    }
+  "description": "portfolio",
+  "repo": "https://github.com/kevincrafturu2/portfolio-bolt.new",
+  "owner": {
+    "username": "kevincrafturu2",
+    "email": "kevincrafturu2@gmail.com"
+  },
+  "record": {
+    "A": ["75.2.60.5"]
+  }
 }

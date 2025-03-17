@@ -1,0 +1,12 @@
+{
+  "description": "lutherantz.is-a.dev",
+  "repo": "https://github.com/lutherantz/lutherantz.github.io",
+  "owner": {
+    "username": "lutherantz",
+    "email": "sekausername@gmail.com",
+    "twitter": "sekateur_"
+  },
+  "record": {
+    "CNAME": "lutherantz.github.io"
+  }
+}

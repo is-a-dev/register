@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "jonOriginal",
-        "email": "jonathan-knox@outlook.com",
-        "discord": "12340#0567"
-    },
-    "record": {
-        "CNAME": "webknox.ddns.net"
-    },
-    "repo": "https://github.com/jonOriginal"
+  "description": "Portfolio website.",
+  "repo": "https://github.com/jonasfroeller/jonasfroeller",
+  "owner": {
+    "username": "JonathanB500",
+    "email": "jonathanbuitrago505@gmail.com"
+  },
+  "record": {
+    "CNAME": "jonathanbuitragoroncancio.web.app"
+  }
 }

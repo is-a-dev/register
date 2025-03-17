@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "Sevinda-Herath",
+    "email": "sevindaherath@gmail.com"
+  },
+  "record": {
+    "CNAME": "sevinda-herath.github.io",
+    "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"],
+    "TXT": "v=spf1 include:zohomail.com ~all"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/Sevinda-Herath",
+      "/linkedin": "https://www.linkedin.com/in/sevindaherath",
+      "/youtube": "https://www.youtube.com/channel/UCz3Xgf25_heOC86kxdqunkA"
+    }
+  },
+  "proxied": true
+}

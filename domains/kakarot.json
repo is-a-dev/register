@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "anshuayan",
-        "email": "kakarotp@proton.me"
-    },
-
-    "record": {
-        "CNAME": "anshuayan.github.io"
-    }
+  "owner": {
+    "username": "anshuayan",
+    "email": "kakarotp@proton.me"
+  },
+  "record": {
+    "CNAME": "anshuayan.github.io"
+  }
 }

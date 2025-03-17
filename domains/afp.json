@@ -1,11 +1,10 @@
 {
-    "owner": {
-        "username": "AndreasFxPro",
-        "email": "",
-        "discord": "AndreasFxPro#9330"
-    },
-    "description": "this is-a.dev page is for me, i'll post my projects",
-    "record": {
-        "A": ["140.238.175.208"]
-    }
+  "owner": {
+    "username": "AndreasFxPro",
+    "discord": "423906482904629268"
+  },
+  "record": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+  }
 }

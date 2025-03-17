@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "wansies",
-        "email": "taio6@duck.com"
-    },
-    "record": {
-            "CNAME": "wansies.github.io"
-    }
+  "owner": {
+    "username": "wansies",
+    "email": "taio6@duck.com"
+  },
+  "record": {
+    "CNAME": "wansies.github.io"
+  }
 }

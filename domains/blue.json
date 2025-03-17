@@ -1,11 +1,12 @@
 {
-    "owner": {
-        "username": "B1ue-Dev",
-        "email": "ngolong1396@hotmail.com"
-    },
-    "record": {
-        "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
-    }
+  "description": "My personal site, for introducing myself.",
+  "repo": "https://github.com/b1ue-dev/b1ue-dev.github.io",
+  "owner": {
+    "username": "B1ue-Dev",
+    "email": "b1uedev@outlook.com",
+    "twitter": "b1uedev"
+  },
+  "record": {
+    "CNAME": "b1ue-dev.github.io"
+  }
 }

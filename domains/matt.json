@@ -1,11 +1,12 @@
 {
-    "description": "Matt Casey is a Developer!",
-    "repo": "https://github.com/mattcasey",
-    "owner": {
-        "username": "mattcasey",
-        "email": "mattwad@gmail.com"
-    },
-    "record": {
-        "URL": "https://www.linkedin.com/in/mbcasey"
-    }
+  "description": "Matt is a Developer!",
+  "owner": {
+    "username": "tweak4141",
+    "email": "tweak@talosbot.xyz"
+  },
+  "record": {
+    "A": ["150.230.46.24"],
+    "MX": ["mx1.talosbot.xyz", "mx2.talosbot.xyz"],
+    "TXT": "v=spf1 include:spf.talosbot.xyz include:spf.brevo.com include:mailgun.org include:webmail.talosbot.xyz ~all"
+  }
 }
