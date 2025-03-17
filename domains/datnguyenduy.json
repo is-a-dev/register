@@ -1,0 +1,10 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "domain": "nguyenduydat",
+  "owner": {
+    "email": "duydat10122001@gmail.com"
+  },
+  "records": {
+    "CNAME": "datnguyenfedev.github.io"
+  }
+}
