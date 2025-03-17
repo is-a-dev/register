@@ -2,7 +2,8 @@
     "description": "Liem is a dev.",
     "repo": "https://github.com/liemgumball/liemgumball.github.io",
     "owner": {
-        "username": "liemgumball"
+        "username": "liemgumball",
+        "email": "liem1762001@gmail.com"
     },
     "record": {
         "CNAME": "liemgumball.github.io"
