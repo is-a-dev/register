@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "wJuanca"
-  },
-  "record": {
-    "CNAME": "wjuanca.github.io"
-  }
+    "owner": {
+        "username": "wJuanca",
+        "email": "juancarlosturcios2001@gmail.com"
+    },
+    "record": {
+        "CNAME": "myportfolio.vercel.app"
+    }
 }
