@@ -5,7 +5,7 @@
     "email": "brogodev@gmail.com"
   },
   "record": {
-    "A": "5.161.233.190",
+    "A": ["5.161.233.190"],
     "AAAA": ["2a01:4ff:f0:dd7c::1"]
   }
 }
