@@ -1,5 +1,9 @@
 {
+  "owner": {
+    "username": "tf7software"
+  },
   "record": {
     "CNAME": "rhw-one.pages.dev"
-  }
+  },
+  "proxied": true
 }
