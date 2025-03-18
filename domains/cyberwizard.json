@@ -1,0 +1,10 @@
+{
+  "domain": "cyberwizard.is-a.dev",
+  "owner": {
+    "email": "dev.king@programmer.net"
+  },
+  "records": {
+    "A": ["192.0.2.1"],
+    "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
+  }
+}
