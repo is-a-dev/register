@@ -1,7 +1,6 @@
 {
     "owner": {
-        "username": "bdn-fr",
-        "email": "98167323+BDN-fr@users.noreply.github.com"
+        "username": "bdn-fr"
     },
     "record": {
         "CNAME": "bdn-fr.vercel.app"
