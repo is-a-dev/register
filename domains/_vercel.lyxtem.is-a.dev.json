@@ -4,6 +4,6 @@
         "email": "nu284955@gmail.com"
     },
     "record": {
-        "CNAME": "lyxtem.vercel.app"
+        "TXT": "vc-domain-verify=lyxtem.is-a.dev,bf84cf6cc0d0a77baa9d"
     }
 }
