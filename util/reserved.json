@@ -1,10 +1,13 @@
 [
+    "_zone-updated",
     "about",
     "account",
     "accounts",
     "admin",
     "api",
     "apis",
+    "app",
+    "apps",
     "assets",
     "auth",
     "authentication",
@@ -16,6 +19,7 @@
     "ads",
     "billing",
     "blog",
+    "bot",
     "cdn",
     "chat",
     "checkout",
@@ -147,5 +151,7 @@
     "www8",
     "www9",
     "wwww",
-    "your-domain-name"
+    "your-domain-name",
+    "zone",
+    "zone-updated"
 ]
