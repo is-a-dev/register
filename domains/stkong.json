@@ -7,7 +7,9 @@
   },
   "redirect_config": {
     "custom_paths": {
-      "/linkedin": "https://www.linkedin.com/in/suthanhcong",
+      "/linkedin": "https://www.linkedin.com/in/suthanhcong"
+    }
+  },
   "record": {
     "CNAME": "congltk1234.github.io"
   }
