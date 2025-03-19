@@ -4,13 +4,15 @@
   "owner": {
     "username": "congltk1234",
     "email": "suwuanxan@gmail.com",
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/linkedin": "https://www.linkedin.com/in/suthanhcong"
-    }
+    "linkedin": "https://www.linkedin.com/in/suthanhcong",
   },
   "record": {
     "CNAME": "congltk1234.github.io"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/linkedin": "https://www.linkedin.com/in/suthanhcong",
+    },
+    "redirect_paths": true
   }
 }
