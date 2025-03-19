@@ -1,13 +1,10 @@
 {
-    "description": "my personal homepage",
-    "repo": "https://github.com/dedomil",
-    "owner": {
-        "username": "dedomil",
-        "email": "ishqaddy@gmail.com",
-        "twitter": "aadixl",
-        "discord": "dedomil"
-    },
-    "record": {
-        "CNAME": "dedomil.github.io"
-    }
+  "description": "Aditya portfolio",
+  "owner": {
+    "username": "raghav-45",
+    "email": "raghavbhai4545@gmail.com"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+  }
 }

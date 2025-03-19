@@ -1,0 +1,10 @@
+{
+  "description": "Personal website for n3rdc4ptn",
+  "owner": {
+    "username": "n3rdc4ptn"
+  },
+  "record": {
+    "CNAME": "moritzreich.dev"
+  },
+  "proxied": true
+}

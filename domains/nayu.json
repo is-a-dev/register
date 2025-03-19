@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nayumin",
-        "email": "nayumi@duck.com"
-    },
-    "record": {
-        "CNAME": "web-dgj.pages.dev"
-    }
+  "owner": {
+    "username": "nayumin",
+    "email": "nayumi@duck.com"
+  },
+  "record": {
+    "CNAME": "web-dgj.pages.dev"
+  }
 }

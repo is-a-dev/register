@@ -1,10 +1,10 @@
 {
-    "repo": "https://github.com/saleh-rahimzadeh/saleh-rahimzadeh.github.io",
-    "owner": {
-        "username": "saleh-rahimzadeh",
-        "email": "saleh-rz@outlook.com"
-    },
-    "record": {
-        "CNAME": "saleh-rahimzadeh.github.io"
-    }
+  "repo": "https://github.com/saleh-rahimzadeh/saleh-rahimzadeh.github.io",
+  "owner": {
+    "username": "saleh-rahimzadeh",
+    "email": "saleh-rz@outlook.com"
+  },
+  "record": {
+    "CNAME": "saleh-rahimzadeh.github.io"
+  }
 }

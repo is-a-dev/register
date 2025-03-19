@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "RyanBaig"
+    "username": "RyanBaig",
+    "discord": "757475933170040893"
   },
   "record": {
-    "TXT": ["vc-domain-verify=links.ryanbaig.is-a.dev,3fab80af0a1ed2fe6012"]
+    "TXT": ["vc-domain-verify=ryanbaig.is-a.dev,6611c040f39e1689070b"]
   }
 }
