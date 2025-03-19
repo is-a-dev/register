@@ -1,0 +1,19 @@
+{
+  "description": "my domain mtxnk.is-a.dev by courtesy of the great wharrison",
+  "repo": "https://github.com/mtxnk/register-mtxnk",
+  "owner": {
+    "username": "mtxnk",
+    "email": "nik@x1-foundation.org"
+  },
+  "record": {
+    "A": ["103.125.217.199"]
+  },
+    "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/mtxnk"
+      "/ocean": "/home/tantan/htdocs/ocean-empathy.org"
+    },
+    "redirect_paths": true
+  },
+  "proxied": false,
+}
