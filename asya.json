@@ -1,0 +1,11 @@
+{
+    "description": "Personal portofolio website",
+  "repo": "https://glenferdinza.github.io/Asya-s-Portofolio/",
+  "owner": {
+        "username": "Glenferdinza"
+        "email":"glenferdinza21@gmail.com"
+    },
+    "record": {
+        "CNAME": "glenferdinza.github.io"
+    }
+}
