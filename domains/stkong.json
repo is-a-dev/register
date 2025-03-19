@@ -2,8 +2,12 @@
   "description": "This website is a link to my personal blog.",
   "repo": "https://github.com/congltk1234/congltk1234.github.io",
   "owner": {
-    "username": "congltk1234"
+    "username": "congltk1234",
+    "email": "suwuanxan@gmail.com",
   },
+  "redirect_config": {
+    "custom_paths": {
+      "/linkedin": "https://www.linkedin.com/in/suthanhcong",
   "record": {
     "CNAME": "congltk1234.github.io"
   }
