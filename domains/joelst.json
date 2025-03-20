@@ -10,6 +10,13 @@
       "ns3-03.azure-dns.org",
       "ns4-03.azure-dns.info"
     ],
-    "DS": "20446 13 2 66D720AF25875B71BB1ECBF45D1E108D4CE4D51EF1553F7E50F60B2B49A279A6"
+    "DS": [
+      {
+        "keytag": "20446",
+        "algorith": "13",
+        "digest_type": "2",
+        "digest": "66D720AF25875B71BB1ECBF45D1E108D4CE4D51EF1553F7E50F60B2B49A279A6"
+      }
+    ]
   }
 }
