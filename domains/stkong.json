@@ -1,18 +1,12 @@
 {
-  "description": "This website is a link to my personal blog.",
-  "repo": "https://github.com/congltk1234/congltk1234.github.io",
-  "owner": {
-    "username": "congltk1234",
-    "email": "suwuanxan@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/suthanhcong",
-  },
-  "record": {
-    "CNAME": "congltk1234.github.io"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/linkedin": "https://www.linkedin.com/in/suthanhcong",
+    "description": "hosting personal / portfolio website for myself. Also this website is a link to my personal blog.",
+    "repo": "https://github.com/congltk1234/congltk1234.github.io",
+    "owner": {
+        "username": "congltk1234",
+        "email": "suwuanxan@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/suthanhcong"
     },
-    "redirect_paths": true
-  }
+    "record": {
+        "CNAME": "congltk1234.github.io"
+    }
 }
