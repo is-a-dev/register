@@ -1,0 +1,12 @@
+{
+    "domain": "vanhao.is-a.dev",
+    "subdomain": "vanhao",
+    "owner": {
+      "username": "idlehoas",
+      "email": "vanhao.space@gmail.com"
+    },
+     "record": {
+  "CNAME": "vanhao.xyz"
+    }
+  }
+  
