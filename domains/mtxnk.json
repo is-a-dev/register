@@ -15,5 +15,5 @@
     },
     "redirect_paths": true
   },
-  "proxied": false,
+  "proxied": true
 }
