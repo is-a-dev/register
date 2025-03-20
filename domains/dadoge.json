@@ -3,7 +3,7 @@
     "username": "DaDogeDev"
   },
   "record": {
-    "CNAME": "dadogedev.github.io"  // Change this if using GitHub Pages, or use an A/AAAA record
+    "CNAME": "dadogedev.github.io"
   },
   "proxied": false
 }
