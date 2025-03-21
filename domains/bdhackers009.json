@@ -1,0 +1,11 @@
+{
+    "description": "I will use this subdomain to host my portfolio via github pages",
+    "repo": "https://github.com/bdhackers009/bdhackers009.github.io",
+    "owner": {
+        "username": "BDhaCkers009",
+        "email": "[email protected]"
+    },
+    "record": {
+        "CNAME": "bdhackers009.github.io"
+    }
+}
