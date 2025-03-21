@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "handikatriarlan",
-        "email": "handikaarlan@gmail.com"
-    },
-    "record": {
-        "CNAME": "handikatriarlan.vercel.app"
-    }
+  "owner": {
+    "username": "handikatriarlan",
+    "email": "handikaarlan@gmail.com"
+  },
+  "record": {
+    "CNAME": "handikatriarlan.vercel.app"
+  }
 }

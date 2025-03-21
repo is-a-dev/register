@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tanbaycu",
-        "email": "tanbaycu@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=minhtan.is-a.dev,7be64448654af271a7c5"
-    }
+  "owner": {
+    "username": "tanbaycu",
+    "email": "tanbaycu@gmail.com"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=minhtan.is-a.dev,7be64448654af271a7c5"
+  }
 }
