@@ -4,6 +4,7 @@
     "email": "handikaarlan@gmail.com"
   },
   "record": {
-    "CNAME": "handikatriarlan.vercel.app"
+    "CNAME": "handikatriarlan.vercel.app",
+    "TXT": "google-site-verification=OLN7xcULGVKIBN2SmVhFdGNwso9Pzl1SguUPcsrXJSY"
   }
 }
