@@ -1,9 +1,17 @@
 {
+    "description": "hosting personal / portfolio website for myself. Also this website is a link to my personal blog.",
     "owner": {
         "username": "congltk1234",
         "email": "suwuanxan@gmail.com"
     },
     "record": {
         "TXT": "29647969d4fae25a5294a04b8bfca2"
+    },
+    "redirect_config": {
+        "custom_paths": {
+          "/github": "https://github.com/congltk1234",
+          "/linkedin": "https://linkedin.com/in/suthanhcong",
+        },
+        "redirect_paths": true
     }
 }
