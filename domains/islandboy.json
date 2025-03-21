@@ -6,9 +6,6 @@
     "email": "mifzaal.scout@gmail.com"
   },
   "record": {
-    "NS": [
-      "lucy.ns.cloudflare.com",
-      "mario.ns.cloudflare.com"
-    ]
+    "NS": ["lucy.ns.cloudflare.com", "mario.ns.cloudflare.com"]
   }
 }

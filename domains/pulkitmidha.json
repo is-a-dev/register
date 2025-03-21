@@ -1,0 +1,10 @@
+{
+  "description": "Personal website",
+  "owner": {
+    "username": "midopooler",
+    "email": "midhapulkit28@gmail.com"
+  },
+  "record": {
+    "CNAME": "midopooler.github.io"
+  }
+}
