@@ -1,10 +1,10 @@
 {
     "owner": {
         "username": "Holdulv-official",
-        "email": "holdulvlinks@gmail.com"
+        "email": "holdulvlinks@gmail.com",
+        "discord": "holdulv"
     },
     "record": {
-        "NS": "lex.ns.cloudflare.com",
-        "NS": "ulla.ns.cloudflare.com"
+        "CNAME": "edge.redirect.pizza."
     }
 }
