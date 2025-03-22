@@ -4,6 +4,19 @@
     "email": "srikanthp12896@gmail.com"
   },
   "record": {
-    "TXT": "google-site-verification=nXX-abxPPSr9hSqhiakyIHcXYGcuPpIBYVXtPnnxf00"
+    "TXT": "google-site-verification=nXX-abxPPSr9hSqhiakyIHcXYGcuPpIBYVXtPnnxf00",
+    "A": [
+      "35.209.162.51",
+      "216.239.32.21",
+      "216.239.34.21",
+      "216.239.36.21",
+      "216.239.38.21"
+    ],
+    "AAAA": [
+      "2001:4860:4802:32::15",
+      "2001:4860:4802:34::15",
+      "2001:4860:4802:36::15",
+      "2001:4860:4802:38::15"
+    ]
   }
 }
