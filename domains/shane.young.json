@@ -1,0 +1,12 @@
+{
+  "description": "Shane Young's portfolio site",
+  "repo": "https://github.com/shanekizito/portfolio/",
+  "owner": {
+    "username": "shanekizito",
+    "email": "shaneyoungk@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://shaneyoungportfolio.netlify.app/"
+  },
+  "proxied": true
+}
