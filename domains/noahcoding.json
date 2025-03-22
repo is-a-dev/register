@@ -1,0 +1,11 @@
+{
+    "description": "Portfolio website",
+    "repo": "https://github.com/noah-dev-codes/noahcoding",
+    "owner": {
+        "username": "noah-dev-codes",
+        "email": "itznoahcoding@outlook.com"
+    },
+    "record": {
+        "CNAME": "https://noah-dev-codes.github.io/noahcoding/"
+    }
+}
