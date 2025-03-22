@@ -1,11 +1,13 @@
 {
-  "description": "For my static portfolio website",
-  "owner": {
-    "username": "LaPyaeOo",
-    "email": "lapyaeootharthar@gmail.com"
-  },
-  "record": {
-    "CNAME": "lapyaeoo.github.io"
-  },
-  "proxied": true
+    "description": "For my static portfolio website",
+    "repo": "https://github.com/LaPyaeOo",
+    "owner": {
+        "username": "LaPyaeOo",
+        "email": "lapyaeootharthar@gmail.com"
+    },
+    "record": {
+        "CNAME": "lapyaeoo.github.io",
+        "TXT": "google-site-verification=6LBBzq6hGqSJG1IkXd766eWxcJmf7VPHrvSMDZ_h1HE"
+    },
+    "proxied": true
 }
