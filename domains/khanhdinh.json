@@ -1,0 +1,10 @@
+{
+    "description": "Describe the use of this subdomain",
+    "owner": {
+        "username": "khanhdinh03",
+        "email": "dgkhanh2003@gmail.com"
+    },
+    "record": {
+        "CNAME": ["64.23.245.233"]
+    }
+}
