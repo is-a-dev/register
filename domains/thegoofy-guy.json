@@ -1,0 +1,11 @@
+{
+  "domain": "thegoofy-guy.is-a.dev",
+  "subdomain": "thegoofy-dev",
+  "owner": {
+    "email": "pankajtyagi1601@gmail.com",
+    "github": "thegoofy-dev"
+  },
+  "records": {
+    "CNAME": "pankajtyagi-portfolio.vercel.app"
+  }
+}
