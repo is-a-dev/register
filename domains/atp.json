@@ -1,0 +1,11 @@
+{
+  "description": "ATP Site",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "tuthanika",
+    "email": "tuthanika@gmail.com"
+  },
+    "NS": [
+      "karl.ns.cloudflare.com",
+      "sofia.ns.cloudflare.com"
+}
