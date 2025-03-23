@@ -1,0 +1,9 @@
+{
+  "subdomain": "suhamofalltrades",
+  "owner": {
+    "email": "suhamofalltrades@gmail.com"
+  },
+  "records": {
+    "CNAME": "suhamofalltrades.github.io"
+  }
+}
