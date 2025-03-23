@@ -67,7 +67,21 @@ for (var subdomain in domains) {
     // Handle MX records
     if (domainData.record.MX) {
         for (var mx in domainData.record.MX) {
-            records.push(MX(subdomainName, 10 + parseInt(mx), domainData.record.MX[mx] + "."));
+            var mxRecord = domainData.record.MX[mx];
+
+            if (typeof mxRecord === "string") {
+                records.push(
+                    MX(subdomainName, 10 + parseInt(mx), domainData.record.MX[mx] + ".")
+                );
+            } else {
+                records.push(
+                    MX(
+                        subdomainName,
+                        parseInt(mxRecord.priority),
+                        mxRecord.target + "."
+                    )
+                );
+            }
         }
     }
 
@@ -88,6 +102,23 @@ for (var subdomain in domains) {
         }
     }
 
+    // Handle TLSA records
+    if (domainData.record.TLSA) {
+        for (var tlsa in domainData.record.TLSA) {
+            var tlsaRecord = domainData.record.TLSA[tlsa];
+
+            records.push(
+                TLSA(
+                    subdomainName,
+                    tlsaRecord.usage,
+                    tlsaRecord.selector,
+                    tlsaRecord.matchingType,
+                    tlsaRecord.certificate
+                )
+            );
+        }
+    }
+
     // Handle TXT records
     if (domainData.record.TXT) {
         if (Array.isArray(domainData.record.TXT)) {
@@ -101,6 +132,22 @@ for (var subdomain in domains) {
 
     // Handle URL records
     if (domainData.record.URL) {
+        records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
+        records.push(TXT("_redirect." + subdomainName, "\"" + domainData.record.URL + "\""));
+    }
+}
+
+var reserved = require("./util/reserved.json");
+
+// Handle reserved domains
+for (var i = 0; i < reserved.length; i++) {
+    var subdomainName = reserved[i];
+    if (
+        subdomainName !== "ns1" &&
+        subdomainName !== "ns2" &&
+        subdomainName !== "ns3" &&
+        subdomainName !== "ns4"
+    ) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
     }
 }

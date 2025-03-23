@@ -1,0 +1,11 @@
+{
+  "description": "Portfolio for Mohamad Alzhori",
+  "owner": {
+    "username": "mohamadalzhori",
+    "email": "mohamadalzhori01@gmail.com"
+  },
+  "record": {
+    "CNAME": "mohamadalzhori.github.io"
+  },
+  "proxied": true
+}
