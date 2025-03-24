@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "is-a-dev",
-    "email": ""
+    "email": "admin@is-a.dev"
   },
   "record": {
-    "CNAME": "p2pb.dev"
-  }
+    "CNAME": "wdh.app"
+  },
+  "proxied": true
 }

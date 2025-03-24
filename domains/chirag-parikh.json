@@ -2,8 +2,7 @@
   "description": "This is person site",
   "repo": "https://github.com/chirag-parikh/chirag-parikh.github.io",
   "owner": {
-    "username": "chirag-parikh",
-    "email": ""
+    "username": "chirag-parikh"
   },
   "record": {
     "CNAME": "chirag-parikh.github.io"

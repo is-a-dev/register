@@ -6,6 +6,7 @@ on:
         paths:
             - "domains/*"
             - ".github/workflows/raw-api.yml"
+            - "util/reserved.json"
 
     workflow_dispatch:
 
@@ -40,8 +41,7 @@ jobs:
                   source-directory: "raw-api"
                   destination-github-username: is-a-dev
                   destination-repository-name: raw-api
-                  user-email: 106927495+is-a-dev-bot@users.noreply.github.com
-                  user-name: is-a-dev-bot
-                  commit-message: "Update Data via is-a-dev/register"
+                  user-email: "actions@github.com"
+                  user-name: "GitHub Actions"
               env:
                   API_TOKEN_GITHUB: ${{ secrets.BOT }}

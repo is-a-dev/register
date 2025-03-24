@@ -3,9 +3,10 @@
   "repo": "https://github.com/is-a-dev/docs",
   "owner": {
     "username": "is-a-dev",
-    "email": ""
+    "email": "admin@is-a.dev"
   },
   "record": {
-    "URL": "https://www.is-a.dev/docs"
-  }
+    "CNAME": "is-a-dev-docs.pages.dev"
+  },
+  "proxied": true
 }

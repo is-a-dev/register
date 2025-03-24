@@ -1,13 +1,11 @@
 {
-        "owner": {
-           "username": "IYSTREEM",
-           "email": "",
-           "discord": "774642006173286432",
-           "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.Ac-dMH1ksXfXW4uJfisIpqgvNHShqGPHMmxhvitdn5qAIG_c2DZwK__CZcekpEUqC7qZOQUA81wR8eP8qCmdqe6Dfo5e4CFCf-jD7q_GSxOURlBtxzG7tyX4QlFEW6Pbaq7V-8NCfT6REMB3eXcc8158r0jVz6y18z0ryN-XxgYezBk42Qfnl55rPAhpg60XAuoFNZgh82kapCUrEBd9HAnIuzrPVokiPiN36La_NXpw1SqH-OWbNGjOe94KsAsIYziqnrvJw4eKA4l_fzjYqcDn7SDTIFs_8Sd2O3U3UhwJ8IV01W-cYy3RyUpzVCX6rj2KMQQBOMjvTykOokjF1Q.0_mFjTD_OhUPr8i4XedRaw.M2l7as95y90X6ekq2Y_iEoiqQO9e1cMFqv8mv9C-GJXbyuT41oQdhPbI5SQL2qrCd1aUiotnnGO3y5hiCYcGpNkpM40hs4ITYcvj7_B2zHI.7xD1dmVjZS6M7AiDc4pkQg"
-        },
-    
-        "record": {
-            "A": ["103.99.216.10"]
-        }
-    }
-    
+  "description": "its for my portfolio",
+  "repo": "https://github.com/IYSTREEM/iystreem.github.io",
+  "owner": {
+    "username": "IYSTREEM",
+    "email": "iystreem186@gmail.com"
+  },
+  "record": {
+    "CNAME": "iystreem.github.io"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "description": "I'm a dev.",
+  "owner": {
+    "username": "abdisadev",
+    "email": "abdisadev@gmail.com"
+  },
+  "record": {
+    "CNAME": "abdisa.me"
+  }
+}

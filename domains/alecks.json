@@ -1,12 +1,10 @@
 {
-        "owner": {
-           "username": "Alecks20",
-           "email": "contact@alecks.dev",
-           "discord": "612522818294251522"
-        },
-    
-        "record": {
-            "CNAME": "mmsehn6m.up.railway.app"
-        }
-    }
-    
+  "owner": {
+    "username": "Alecks20",
+    "email": "hi@alecks.dev",
+    "discord": "612522818294251522"
+  },
+  "record": {
+    "CNAME": "alecks.pages.dev"
+  }
+}

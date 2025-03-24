@@ -2,8 +2,7 @@
   "description": "keyur Profile.",
   "repo": "https://github.com/keyurnimavat/keyurnimavat.github.io",
   "owner": {
-    "username": "keyurnimavat",
-    "email": ""
+    "username": "keyurnimavat"
   },
   "record": {
     "CNAME": "keyurnimavat.github.io"
