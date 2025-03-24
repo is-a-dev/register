@@ -1,11 +1,11 @@
 {
-  "domain": "thegoofy-guy.is-a.dev",
-  "subdomain": "thegoofy-dev",
-  "owner": {
-    "email": "pankajtyagi1601@gmail.com",
-    "github": "thegoofy-dev"
-  },
-  "records": {
-    "CNAME": "pankajtyagi-portfolio.vercel.app"
-  }
+"description": "My personal portfolio website",
+"owner": {
+  "username": "thegoofy-dev",
+  "email": "pankajtyagi1601@gmail.com"
+},
+"record": {
+  "CNAME": "pankajtyagi-portfolio.vercel.app"
+},
+  "proxied": true
 }
