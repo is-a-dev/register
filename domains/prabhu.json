@@ -1,0 +1,10 @@
+{
+  "domain": "prabhu",
+  "owner": {
+    "email": "prabhuls2005@gmail.com",
+    "username": "ls-prabhu"
+  },
+  "record": {
+    "CNAME": "https://ls-prabhu.github.io/my-portfolio/"
+  }
+}
