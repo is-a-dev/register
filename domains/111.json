@@ -1,0 +1,11 @@
+{
+    "description": "This domain is my bios webpage created using html, js and css",
+    "repo": "https://github.com/jaycuh/jaycuh.github.io",
+    "owner": {
+        "username": "jaycuh",
+        "email": "[email protected]"
+    },
+    "record": {
+        "CNAME": "jaycuh.github.io"
+    }
+}
