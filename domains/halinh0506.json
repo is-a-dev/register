@@ -4,6 +4,6 @@
     "email": "huanhoahongso3@gmail.com"
   },
   "record": {
-   "CNAME": "masterlegendpvp.is-a.dev"
+    "A": ["75.2.60.5"]
   }
 }
