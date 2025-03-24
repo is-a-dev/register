@@ -1,0 +1,11 @@
+{
+    "description": "I want this subdomain for my portfolio website",
+    "repo": "https://github.com/yurehito/yurei.git",
+    "owner": {
+        "username": "yurehito",
+        "discord": "https://discord.com/users/998608551431897170"
+    },
+    "record": {
+        "A": ["75.2.60.5"]
+    }
+}
