@@ -5,5 +5,6 @@
     },
     "record": {
         "CNAME": "juanturcios-github-io.vercel.app"
+        "TXT": "vc-domain-verify=juanca.is-a.dev,ff43fca0fbca1d9d8eda"
     }
 }
