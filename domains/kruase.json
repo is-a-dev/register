@@ -8,6 +8,5 @@
   },
   "record": {
     "CNAME": "kruase.vercel.app"
-  },
-  "proxied": true
+  }
 }

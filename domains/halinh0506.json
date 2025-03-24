@@ -4,8 +4,6 @@
     "email": "huanhoahongso3@gmail.com"
   },
   "record": {
-    "A": ["75.2.60.5"],
-    "MX": ["halinh0506-isa-dev03c.mail.protection.outlook.com"],
-    "TXT": "v=spf1 include:spf.protection.outlook.com -all"
+   "CNAME": "masterlegendpvp.is-a.dev"
   }
 }
