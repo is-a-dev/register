@@ -4,6 +4,7 @@
     "email": "ramirocosa@gmail.com"
   },
   "record": {
-    "CNAME": "minimalist-portfolio-json-mauve.vercel.app"
+    "CNAME": "minimalist-portfolio-json-mauve.vercel.app",
+    "TXT": ["vc-domain-verify=ramirocosa.is-a.dev,7455e9c60351674f2f23"]
   }
 }
