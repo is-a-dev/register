@@ -7,6 +7,6 @@
         },
     
         "record": {
-            "CNAME": ["adamrexo.vercel.app"]
+            "CNAME": "adamrexo.vercel.app"
         }
 }
