@@ -1,6 +1,12 @@
 {
-  "domain": "shivabajpai.is-a.dev",
+  "description": "Portfolio website for Shiva Bajpai",
+  "repo": "https://github.com/Shiva-Bajpai/",
   "owner": {
+    "username": "Shiva-Bajpai",
     "email": "shivabajpai2006@gmail.com"
-  }
+  },
+  "record": {
+    "CNAME": "https://shivacodes.vercel.app"
+  },
+  "proxied": false
 }
