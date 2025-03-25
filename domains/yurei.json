@@ -1,5 +1,5 @@
 {
-    "description": "I want this subdomain for my portfolio website",
+    "description": "I want clound security for my portfolio website",
     "repo": "https://github.com/yurehito/yurei.git",
     "owner": {
         "username": "yurehito",
@@ -7,5 +7,6 @@
     },
     "record": {
         "A": ["75.2.60.5"]
-    }
+    },
+"proxied": true
 }
