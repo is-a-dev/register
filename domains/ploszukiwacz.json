@@ -7,6 +7,11 @@
   },
   "record": {
     "NS": ["jake.ns.cloudflare.com", "stephane.ns.cloudflare.com"],
-    "DS": "ploszukiwacz.is-a.dev. 3600 IN DS 2371 13 2 CD6679293B68CD539A071B61A4BBC03B2B81F1B1DA48AAC2F2F690E957524AD1"
+    "DS": [{
+	"key_tag": 2371,
+	"algorithm": 13,
+	"digest_type": 2,
+	"digest": "CD6679293B68CD539A071B61A4BBC03B2B81F1B1DA48AAC2F2F690E957524AD1"
+    }]
   }
 }
