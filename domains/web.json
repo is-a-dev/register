@@ -1,0 +1,12 @@
+{
+  "description": "Web is a Url Shortner, Helps you shorten links, so you dont look like a sore loser. jokes...",
+  "repo": "https://github.com/jOaawd/URL-Shortener",
+  "owner": {
+    "username": "jOaawd",
+    "email": "[email protected]"
+  },
+  "record": {
+    "CNAME": "s66yve4g.up.railway.app"
+  },
+  "proxied": true
+}
