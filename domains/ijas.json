@@ -1,0 +1,10 @@
+{
+  "subdomain": "ijas",
+  "owner": {
+    "email": "ijas.n.ijas@gmail.com"
+  },
+  "records": {
+    "CNAME": "ijas.netlify.app"
+  },
+  "proxied": false
+}
