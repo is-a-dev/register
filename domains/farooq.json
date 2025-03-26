@@ -1,0 +1,10 @@
+{
+  "description": "Will be used for my portfolio",
+  "owner": {
+    "username": "fexxix",
+    "email": "fexxix@gmail.com"
+  },
+  "record": {
+    "CNAME": "portfolio-one-jet-50.vercel.app"
+  }
+}

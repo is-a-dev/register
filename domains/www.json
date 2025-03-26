@@ -1,11 +1,10 @@
 {
-  "description": "The is-a.dev website",
-  "repo": "https://github.com/is-a-dev/is-a-dev.github.io",
   "owner": {
-    "username": "wdhdev",
-    "email": ""
+    "username": "is-a-dev",
+    "email": "admin@is-a.dev"
   },
   "record": {
-    "CNAME": "is-a-dev.github.io"
-  }
+    "CNAME": "is-a.dev"
+  },
+  "proxied": true
 }

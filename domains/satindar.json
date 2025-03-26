@@ -1,12 +1,20 @@
 {
-    "description": "personal use / portfolio",
-    "repo": "https://github.com/satindar31/satindar31.github.io",
-    "owner": {
-        "username": "satindar31",
-        "email": "satindar31@tutanota.com",
-        "twitter": "satindar31"
-    },
-    "record": {
-        "CNAME": "satindar31.github.io" 
-    }
-} 
+  "description": "personal use / portfolio",
+  "repo": "https://github.com/satindar31/satindar31.github.io",
+  "owner": {
+    "username": "satindar31",
+    "email": "satindar@satindar-is.me",
+    "twitter": "satindar31"
+  },
+  "record": {
+    "NS": ["brodie.ns.cloudflare.com", "jamie.ns.cloudflare.com"],
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "C2074462471B81206F792AEC23469EF33DDC53538E8580DCCC92FD130C9A6096"
+      }
+    ]
+  }
+}

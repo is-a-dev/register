@@ -10,11 +10,7 @@
       "185.199.110.153",
       "185.199.111.153"
     ],
-    "MX": [
-      "mx.zoho.com.au",
-      "mx2.zoho.com.au",
-      "mx3.zoho.com.au"
-    ],
+    "MX": ["mx.zoho.com.au", "mx2.zoho.com.au", "mx3.zoho.com.au"],
     "TXT": "v=spf1 include:zoho.com.au ~all"
   }
 }

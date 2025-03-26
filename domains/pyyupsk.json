@@ -1,12 +1,11 @@
 {
-    "owner": {
-      "username": "pyyupsk",
-      "email": "pyyupsk@proton.me"
-    },
-    "description": "👋 Hello! I'm ファース, a passionate full-stack developer with a passionate about creating innovative solutions that have a positive impact on people's lives.",
-    "repo": "https://github.com/pyyupsk/personal-website",
-    "record": {
-      "CNAME": "pyyupsk.pages.dev"
-    }
+  "owner": {
+    "username": "pyyupsk",
+    "email": "pyyupsk@proton.me"
+  },
+  "description": "I'm a passionate software engineer with 6 years of experience in building web applications. I specialize in React, Node.js, and cloud technologies. My goal is to create efficient, scalable, and user-friendly solutions that make a positive impact.",
+  "repo": "https://github.com/pyyupsk/personal-website",
+  "record": {
+    "CNAME": "pyyupsk.vercel.app"
   }
-  
+}

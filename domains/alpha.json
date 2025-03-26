@@ -1,18 +1,13 @@
 {
   "owner": {
     "username": "YouFoundAlpha",
-    "email": "",
-    "Discord": "661121998830960651",
-    "GitHub": "YouFoundAlpha",
-    "GitLab": "YouFoundAlpha",
-    "Mastodon": "@YouFoundAlpha@mastodon.social"
+    "discord": "661121998830960651",
+    "gitlab": "YouFoundAlpha",
+    "mastodon": "@YouFoundAlpha@mastodon.social"
   },
   "record": {
-    "URL": "https://yfadev.pw",
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
+    "URL": "https://youfoundalpha.pages.dev",
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

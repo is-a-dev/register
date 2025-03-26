@@ -1,12 +1,21 @@
 {
-  "description": "Luihh's website",
-  "repo": "https://github.com/iLui/iLui.github.io",
   "owner": {
-    "username": "Luihh",
-    "email": "luihhbusiness23@gmail.com",
-    "twitter": "PoweredByLuihh"
+    "username": "luihh",
+    "email": "luihh@proton.me",
+    "discord": "481268875586174986"
   },
   "record": {
-    "CNAME": "iLui.github.io"
-  }
+    "CNAME": "spreadsheet-fih.pages.dev"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/luihh",
+      "/twitch": "https://www.twitch.tv/luihh23",
+      "/youtube": "https://www.youtube.com/@Luihh",
+      "/discord": "https://discord.gg/MdMFGJdUB6",
+      "/steam": "https://steamcommunity.com/id/Luihh23",
+      "/paypal": "https://www.paypal.com/paypalme/luihhdev"
+    }
+  },
+  "proxied": true
 }

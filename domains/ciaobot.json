@@ -1,10 +1,12 @@
 {
   "owner": {
     "username": "Ciao287",
-    "email": "",
     "discord": "687333016921440317"
   },
   "record": {
-    "A": ["144.91.115.195"]
+    "A": ["144.91.115.195"],
+    "TXT": [
+      "google-site-verification=ESHkpD4wk4-a2cqONn73cRaELmis2IzdBRB3Fw-t1Dw"
+    ]
   }
 }
