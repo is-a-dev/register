@@ -1,0 +1,11 @@
+{
+    "description": "website to describe me",
+    "repo": "https://github.com/github-username/github-repository",
+    "owner": {
+        "username": "GitHubFanTest",
+        "email": "feelingbloxyburger24@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://github.com/GitHubFanTest/bryce-website"
+    }
+}
