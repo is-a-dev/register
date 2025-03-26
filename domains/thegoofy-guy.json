@@ -1,11 +1,12 @@
 {
-"description": "My personal portfolio website",
-"owner": {
-  "username": "thegoofy-dev",
-  "email": "pankajtyagi1601@gmail.com"
-},
-"record": {
-  "CNAME": "pankajtyagi-portfolio.vercel.app"
-},
+  "description": "My personal portfolio website",
+  "owner": {
+    "username": "thegoofy-dev",
+    "email": "pankajtyagi1601@gmail.com"
+  },
+  "record": {
+    "CNAME": "pankajtyagi-portfolio.vercel.app",
+    "TXT": "vc-domain-verify=thegoofy-guy.is-a.dev,382a00f94cc6e561761e"
+  },
   "proxied": true
 }
