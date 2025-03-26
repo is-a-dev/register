@@ -1,0 +1,12 @@
+{
+    "description": "This is my personal portfolio website built using Nextjs, Python, Flask, and hosted on Vercel.",
+    "repo": "https://github.com/happyrao78/Happy-rao",
+    "owner": {
+      "username":"happyrao78",
+      "email": "happy7091.ca23@chitkara.edu.in"
+    },
+    "record": {
+      "CNAME": "https://www.happyrao.tech/"
+    },
+    "proxied": true
+  }
