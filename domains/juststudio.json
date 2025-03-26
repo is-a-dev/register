@@ -20,5 +20,18 @@
       "yandex-verification: aac5928d8d57ade9",
       "yandex-verification: 75d6e8d99eae89d4"
     ]
-  }
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/.well-known/change-password": "https://js.is-a.dev/00",
+      "/terms-of-service": "https://js.is-a.dev/01",
+      "/user-agreement": "https://js.is-a.dev/01",
+      "/rules-for-players": "https://js.is-a.dev/02",
+      "/accounts": "https://js.is-a.dev/03",
+      "/r/discord": "https://discord.gg/aHXxS6VvcC",
+      "/r/roblox": "https://www.roblox.com/groups/11641563/JustStudio#!/about",
+      "/r/github": "https://github.com/JustStudio7"
+    }
+  },
+  "proxied": true
 }

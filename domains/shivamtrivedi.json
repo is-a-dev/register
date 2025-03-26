@@ -1,0 +1,12 @@
+{
+  "description": "Personal portfolio website",
+  "repo": "https://github.com/Shivam1303/portfolio.git",
+  "owner": {
+    "username": "Shivam1303",
+    "email": "shivamtrivedi1434@gmail.com"
+  },
+  "record": {
+    "CNAME": "portfolio-three-lake-77.vercel.app"
+  },
+  "proxied": true
+}
