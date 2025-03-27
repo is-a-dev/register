@@ -4,6 +4,6 @@
         "email": "arifsanimail@gmail.com"
     },
     "record": {
-        "CNAME": "arifsani.xyz"
+        "CNAME": ["arifsani.xyz"]
     }
 }
