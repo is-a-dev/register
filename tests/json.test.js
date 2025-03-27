@@ -69,6 +69,7 @@ async function validateFileName(t, file) {
     t.false(file.includes(".is-a.dev"), `${file}: File name should not contain .is-a.dev`);
     t.true(file === file.toLowerCase(), `${file}: File name should be all lowercase`);
     t.false(file.includes("--"), `${file}: File name should not contain consecutive hyphens`);
+    t.false(file.startsWith("_redirect."), `${file}: File name should not start with _redirect`);
 
     if (file !== "@.json") {
         const subdomain = file.replace(/\.json$/, "");
