@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "kunalpurandare",
-        "email": "kunalpurandare1703@gmail.com"
-    },
-    "record": {
-        "URL": "https://kunalpurandare.github.io/portfolio"
-    }
+  "repo": "https://kunalpurandare.github.io/portfolio",
+  "owner": {
+    "username": "kunalpurandare",
+    "email": "kunalpurandare1703@gmail.com"
+  },
+  "record": {
+    "CNAME": "kunalpurandare.github.io"
+  }
 }

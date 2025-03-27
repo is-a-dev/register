@@ -1,13 +1,14 @@
-{ 
-  "repo": "https://github.com/lverx", 
-  "owner": { 
-    "username": "lverx", 
+{
+  "repo": "https://github.com/lverx",
+  "owner": {
+    "username": "lverx",
     "email": "profoundlvr@gmail.com"
-  }, 
+  },
   "record": {
-    "MX": [ 
-      "mx1.improvmx.com", 
-      "mx2.improvmx.com" 
-    ] 
+    "TXT": [
+      "zoho-verification=zb43169475.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all"
+    ],
+    "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
   }
 }
