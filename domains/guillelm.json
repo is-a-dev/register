@@ -7,5 +7,6 @@
   },
   "record": {
     "CNAME": "guillelm71.github.io"
-  }
+  },
+  "proxied": true
 }
