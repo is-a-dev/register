@@ -4,6 +4,6 @@
         "email": "me@reyuki.site"
     },
     "record": {
-        "CNAME": ["www.reyuki.site"]
+        "CNAME": "www.reyuki.site"
     }
 }
