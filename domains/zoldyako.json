@@ -1,0 +1,12 @@
+{
+  "description": "My personal site hosted on Render",
+  "repo": "https://github.com/Zoldyako/zoldyako_site",
+  "owner": {
+    "username": "Zoldyako",
+    "email": "jose.vdr.pessoal@gmail.com",
+    "discord": "Zoldyako"
+  },
+  "record": {
+    "A": ["216.24.57.1"]
+  }
+}
