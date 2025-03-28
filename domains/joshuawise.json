@@ -1,0 +1,12 @@
+{
+  "description": "Joshua Wise's Personal Page",
+  "repo": "https://github.com/jlwisedev/jlwisedev.github.io",
+  "owner": {
+    "username": "jlwisedev",
+    "email": "jlwiseeha24@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://jlwisedev.github.io"
+  },
+  "proxied": true
+}
