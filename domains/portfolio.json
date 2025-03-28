@@ -1,11 +1,12 @@
+
 {
-     "description": "It is for my portfolio",
-     "repo": "https://github.com/Alfonso12Dev/portfolio",
+    "description": "It is for my portfolio",
+    "repo": "https://github.com/Alfonso12Dev/portfolio",
      "owner": {
          "username": "alfonso12dev",
          "email": "bmeza9407@gmail.com"
      },
-     "record": {
-         "CNAME": "alfonso12Dev.github.io"
-     }
- }
+    "record": {
+        "A": ["75.2.60.5"]
+    }
+}
