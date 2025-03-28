@@ -5,8 +5,8 @@
   },
   "record": {
     "NS": [
-      "dns1.p08.nsone.net",
-      "dns2.p08.nsone.net"
+      "keira.ns.cloudflare.com",
+      "lou.ns.cloudflare.com"
     ]
   }
 }
