@@ -8,6 +8,5 @@
           "opal.ns.cloudflare.com",
           "piers.ns.cloudflare.com"
         ]
-    },
-    "proxied": false
+    }
 }
