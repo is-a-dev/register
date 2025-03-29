@@ -1,0 +1,10 @@
+{
+    "description": "crazyy domain for my portfolio",
+    "owner": {
+      "username": "parthhcodess",
+      "email": "parthmandawaria@gmail.com"
+    },
+    "record": {
+      "CNAME": "parthhcodess.github.io"
+    }
+  }
