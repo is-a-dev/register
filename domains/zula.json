@@ -1,0 +1,13 @@
+{
+  "description": "For me api tests",
+  "owner": {  
+    "username": "ojsheep",
+    "email": "ojszymon@proton.me"
+  },
+  "record": {
+    "A": [
+      "130.162.185.110"
+    ]
+  },
+  "proxied": true
+}
