@@ -1,0 +1,10 @@
+{
+  "description": "Lutfu's Personal Website",
+  "owner": {
+    "username": "lutfukara63",
+    "email": "1karalutfu@gmail.com"
+  },
+  "record": {
+    "TXT": ["vc-domain-verify=lutfu.is-a.dev,a621504e1bb11cb318d8"]
+  }
+}
