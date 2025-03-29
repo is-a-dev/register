@@ -1,0 +1,11 @@
+{
+  "description": "Making my MC server accessible via a custom domain name",
+  "repo": "https://www.minecraft.com/",
+  "owner": {
+    "username": "aloramiaa",
+    "email": "xaloramia@gmail.com"
+  },
+  "record": {
+    "A": ["78.46.65.243"]
+  }
+}
