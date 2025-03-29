@@ -1,0 +1,12 @@
+{
+  "description": "a website for my personal things",
+  "repo": "https://github.com/slovakians/crvt",
+  "owner": {
+    "username": "slovakians",
+    "email": "vipmodzteam@gmail.com"
+  },
+  "record": {
+    "CNAME": "slovakians.github.io"
+  },
+  "proxied": true
+}
