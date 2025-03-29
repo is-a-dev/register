@@ -1,0 +1,10 @@
+{
+  "name": "qjn",
+  "description": "QJN Secure Chat Application",
+  "owner": {
+    "username": "QIU-Jeroen"
+  },
+  "record": {
+    "A": ["8.219.91.150"]
+  }
+}
