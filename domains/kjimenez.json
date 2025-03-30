@@ -1,0 +1,10 @@
+{
+  "subdomain": "kjimenez",
+  "owner": {
+    "username": "KevinJG994",
+    "email": "KevinJG994@gmail.com"
+  },
+  "records": {
+    "CNAME": "kjimenez.netlify.app"
+  }
+}
