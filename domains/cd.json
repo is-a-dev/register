@@ -8,5 +8,8 @@
   },
   "record": {
     "URL": "https://thunders.website"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }
