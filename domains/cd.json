@@ -1,5 +1,5 @@
 {
-  "description": "Personal website of Yaksh Bariya",
+  "description": "Redirect to my personal website",
   "repo": "https://github.com/thunder-coding/CodingThunder",
   "owner": {
     "username": "thunder-coding",
@@ -7,6 +7,9 @@
     "discord": "codingthunder"
   },
   "record": {
-    "CNAME": "thunder-coding.github.io"
+    "URL": "https://thunders.website"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }
