@@ -1,0 +1,12 @@
+{
+  "description": "Documentation website for is-a.dev",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "omkhalane",
+    "email": "[om.khalane.dev@gmail.com]"
+  },
+  "record": {
+    "URL": "https://omkhalane.github.io/portfolio/"
+  }
+  "proxied": true
+}
