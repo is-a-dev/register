@@ -1,1 +1,10 @@
-
+{
+  "description": "anhdt.is-a.dev",
+  "owner": {
+    "username": "anhdt",
+    "email": "dtafzum@gmail.com"
+  },
+  "record": {
+    "CNAME": "dtavnn.github.io"
+  }
+}
