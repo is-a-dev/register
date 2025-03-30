@@ -1,0 +1,11 @@
+{
+    "description": "Aplicación de gestión financiera personal",
+    "repo": "https://github.com/Ballwictb/FinanzApp",
+    "owner": {
+        "username": "Ballwictb",
+        "email": "ballwictb@gmail.com"
+    },
+    "record": {
+        "CNAME": "ballwictb.github.io"
+    }
+}
