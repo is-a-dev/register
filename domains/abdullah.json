@@ -5,7 +5,8 @@
     "username": "Mdabdullah3",
     "email": "mdabdullahnoman777@gmail.com"
   },
-  "record": {
-    "CNAME": "mdabdullah3.github.io"
+  "records": {
+    "CNAME": "mdabdullah3.github.io",
+    "TXT": "_github-pages-challenge-Mdabdullah3.e4372686be62fb734820fc3d48a6ca"
   }
 }
