@@ -1,10 +1,12 @@
 {
-  "owner": {
-    "username": "KemoXtech",
-    "email": "aljmalrealstate@gmail.com",
-    "discord": "868339557593137212"
-  },
-  "record": {
-    "A": ["151.106.4.82"]
-  }
+    "description": "my portfolio",
+    "repo": "https://github.com/akrmz/my-portfolio",
+    "owner": {
+        "username": "akrmz",
+        "email": "aljmalrealstate@gmail.com",
+	"discord": "868339557593137212"
+    },
+    "record": {
+        "CNAME": "akrmz.github.io"
+    }
 }
