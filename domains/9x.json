@@ -1,0 +1,13 @@
+{
+  "subdomain": "9x",
+  "description": "My personal website using is-a.dev",
+  "repo": "https://github.com/nlg-96/is-a-dev",
+  "owner": {
+    "username": "nlg-96",
+    "email": "bsnguyenlonggiang@gmail.com"
+  },
+  "records": {
+    "CNAME": "nlg-96.github.io"
+  },
+  "proxied": false
+}
