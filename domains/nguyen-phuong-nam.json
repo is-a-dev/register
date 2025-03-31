@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "NBlue",
-        "email": "nam.np194336@gmail.com"
-    },
-    "record": {
-        "CNAME": "protofilo-beta.vercel.app"
-    }
+  "owner": {
+    "username": "NBlue",
+    "email": "nam.np194336@gmail.com"
+  },
+  "record": {
+    "CNAME": "protofilo-beta.vercel.app"
+  }
 }

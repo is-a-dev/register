@@ -1,7 +1,6 @@
 const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
-const { promisify } = require("util");
 
 const ignoredRootJSONFiles = ["package-lock.json", "package.json"];
 
@@ -69,6 +68,8 @@ async function validateFileName(t, file) {
     t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
     t.false(file.includes(".is-a.dev"), `${file}: File name should not contain .is-a.dev`);
     t.true(file === file.toLowerCase(), `${file}: File name should be all lowercase`);
+    t.false(file.includes("--"), `${file}: File name should not contain consecutive hyphens`);
+    t.false(file.startsWith("_redirect."), `${file}: File name should not start with _redirect`);
 
     if (file !== "@.json") {
         const subdomain = file.replace(/\.json$/, "");
@@ -76,7 +77,7 @@ async function validateFileName(t, file) {
         t.regex(
             subdomain + ".is-a.dev",
             hostnameRegex,
-            `${file}: FQDN must be 1-253 characters, use letters, numbers, dots, or hyphens, and not start or end with a hyphen.`
+            `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens.`
         );
         t.false(reservedDomains.includes(subdomain), `${file}: Subdomain name is reserved`);
         t.true(
