@@ -1,0 +1,10 @@
+{
+  "subdomain": "nlg",
+  "owner": {
+    "email": "bsnguyenlonggiang@gmail.com"
+  },
+  "records": {
+    "CNAME": "chatgpt.com"
+  },
+  "proxied": false
+}
