@@ -1,0 +1,11 @@
+{
+	"description": "The use of this domain is to host my Java projects for public use",
+	"owner": {
+		"username": "abdullahcxd",
+		"email": "sabdullahcxd@gmail.com",
+		"discord": "sabdullahcxd"
+	},
+	"record": {
+		"CNAME": "abdullahcxd-reposilite-server.fly.dev"
+	}
+}
