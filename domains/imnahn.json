@@ -3,9 +3,10 @@
     "repo": "https://github.com/imnotnahn/myportfolio",
     "owner": {
         "username": "imnotnahn",
+        "email": "thanhnhan.contact.work@gmail.com",
         "discord": "nowim.nhan"
     },
     "record": {
-        "CNAME": "imnotnahn.github.io"
+        "CNAME": "myportfolio-2y4.pages.dev"
     }
 }
