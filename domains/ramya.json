@@ -4,6 +4,6 @@
         "email": "ramyashah.dev@gmail.com"
     },
     "record": {
-        "TXT": "vc-domain-verify=ramya.is-a.dev,01d3d04febd477ec42b8"
+        "CNAME": "https://ramya-umber.vercel.app/"
     }
 }
