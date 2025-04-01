@@ -4,6 +4,8 @@
     "email": "salsabiladsy@gmail.com"
   },
   "record": {
-    "CNAME": "salsabiladsy.blogspot.com"
-  }
+    "CNAME": "ghs.google.com",
+    "TXT": "google-site-verification=wa09XM-Var9ELqseOfjGhhz19slF_29d7M5h76mhdQE"
+   },
+      "proxied": true
 }
