@@ -1,10 +1,15 @@
 {
     "owner": {
-        "username": "awinds"
+        "username": "awinds",
+        "email": "awinds@gmail.com"
     },
     "record": {
-        "RECORDTYPE": [
-          
+        "A": [
+            "101.32.26.52"
+        ],
+        "NS": [
+          "felicity.ns.cloudflare.com",
+          "keyla.ns.cloudflare.com"
         ]
     }
 }
