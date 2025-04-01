@@ -1,0 +1,10 @@
+{
+  "description": "Wouter's personal website",
+  "owner": {
+    "username": "wouter173",
+    "email": "wouter@debruijn.dev"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+  }
+}

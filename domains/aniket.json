@@ -1,10 +1,10 @@
 {
-    "description": "Personal Portfolio",
-    "owner": {
-        "username": "anikxt",
-        "email": "aniket15304@gmail.com"
-    },
-    "record": {
-        "CNAME": "aniket.codes"
-    }
+  "description": "Domain that redirects to my personal portfolio",
+  "owner": {
+    "username": "anikxt",
+    "email": "aniket15304@gmail.com"
+  },
+  "record": {
+    "URL": "https://aniket.codes"
+  }
 }

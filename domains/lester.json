@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "LSTR",
-        "email": "lesternr@gmail.com"
-    },
-    "record": {
-        "CNAME": "lstr.github.io"
-    }
+  "owner": {
+    "username": "LSTR",
+    "email": "lesternr@gmail.com"
+  },
+  "record": {
+    "CNAME": "lstr.github.io"
+  }
 }

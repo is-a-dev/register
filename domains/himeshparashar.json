@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "himeshparashar",
-        "email": "himeshparashar424@gmail.com"
-    },
-    "record": {
-        "CNAME": "site-himeshparashar.netlify.app"
-    }
+  "owner": {
+    "username": "himeshparashar",
+    "email": "himeshparashar424@gmail.com"
+  },
+  "record": {
+    "CNAME": "site-himeshparashar.netlify.app"
+  }
 }
-

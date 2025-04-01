@@ -3,9 +3,9 @@
   "repo": "https://github.com/ConnorDoesDev/connordoesdev.github.io",
   "owner": {
     "username": "ConnorDoesDev",
-    "email": "connor@cstudios.gay"
+    "email": "connor@dmc.chat"
   },
   "record": {
-    "CNAME": "connordoesdev.github.io"
+    "A": ["173.249.45.163"]
   }
 }

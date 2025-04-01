@@ -6,7 +6,8 @@
         "email": "lapyaeootharthar@gmail.com"
     },
     "record": {
-        "CNAME": "lapyaeoo.github.io"
+        "CNAME": "lapyaeoo.github.io",
+        "TXT": "google-site-verification=6LBBzq6hGqSJG1IkXd766eWxcJmf7VPHrvSMDZ_h1HE"
     },
     "proxied": true
 }

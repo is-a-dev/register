@@ -1,10 +1,10 @@
 {
-    "repo": "https://github.com/ducky4life/ducky4life.github.io",
-    "owner": {
-        "username": "ducky4life",
-        "email": "duckylai@proton.me"
-    },
-    "record": {
-        "CNAME": "ducky4life.github.io"
-    }
+  "repo": "https://github.com/ducky4life/ducky4life.github.io",
+  "owner": {
+    "username": "ducky4life",
+    "email": "duckylai@proton.me"
+  },
+  "record": {
+    "CNAME": "ducky4life.github.io"
+  }
 }

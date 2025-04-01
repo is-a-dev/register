@@ -1,11 +1,10 @@
 {
-    "description": "Documentation website for Aaron Fort",
-    "repo": "https://github.com/AaronFortG",
-    "owner": {
-        "username": "AaronFortG",
-        "email": "aaronfortg@gmail.com"
-    },
-    "record": {
-        "CNAME": "mycurriculum.salleurl.edu"
-    }
+  "description": "Documentation website for Aaron Fort",
+  "owner": {
+    "username": "AaronFortG",
+    "email": "aaronfortg@gmail.com"
+  },
+  "record": {
+    "CNAME": "mycurriculum.salleurl.edu"
+  }
 }

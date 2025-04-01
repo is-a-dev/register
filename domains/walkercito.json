@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Walkercito"
-    },
-    "record": {
-        "CNAME": "walkercitodev.vercel.app"
-    }
+  "owner": {
+    "username": "Walkercito"
+  },
+  "record": {
+    "CNAME": "walkercitodev.vercel.app"
+  }
 }

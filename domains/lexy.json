@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "Olalexy1",
-      "email": "",
-      "discord": "olalexy1"
-    },
-    "record": {
-        "CNAME": "lexy-portfolio-frontend.vercel.app"
-    }
+  "owner": {
+    "username": "Olalexy1",
+    "discord": "olalexy1"
+  },
+  "record": {
+    "CNAME": "lexy-portfolio-frontend.vercel.app"
+  }
 }
