@@ -1,10 +1,8 @@
 {
-  "repo": "https://github.com/Yash-Dj-Studio/register1",
   "owner": {
     "username": "Yash-Dj-Studio"
   },
   "record": {
     "NS": ["harlan.ns.cloudflare.com", "mina.ns.cloudflare.com"]
-  },
-  "proxied": true
+  }
 }
