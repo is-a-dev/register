@@ -1,9 +1,9 @@
 {
-  "subdomain": "space",
   "owner": {
+    "username": "fujisan",
     "email": "a@br5.net"
   },
-  "records": {
+  "record": {
     "CNAME": "br5.net"
   }
 }
