@@ -5,6 +5,7 @@
   },
   "record": {
     "CNAME": "ghs.google.com",
-    "CNAME2": ["r7lv6iuuho2k", "gv-ig27sfrzuvhcvc.dv.googlehosted.com"]
-  }
+    "TXT": "google-site-verification=wa09XM-Var9ELqseOfjGhhz19slF_29d7M5h76mhdQE"
+   },
+      "proxied": true
 }
