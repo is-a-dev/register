@@ -1,0 +1,11 @@
+{
+    "description": "Discord job posting bot",
+    "repo": "https://github.com/kybrd12/jobbot",
+    "owner": {
+        "username": "kybrd12",
+        "email": "knowledgebase.biolink.design@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://kybrd12.github.io/jobbot/"
+    }
+}
