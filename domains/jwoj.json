@@ -5,6 +5,6 @@
     "email": "enzoraziore@outlook.com"
   },
   "record": {
-    "CNAME": "82.156.38.77"
+    "A": ["82.156.38.77"]
   }
 }
