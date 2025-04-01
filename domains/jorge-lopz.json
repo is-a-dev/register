@@ -1,0 +1,11 @@
+{
+  "description": "Jorge's Web",
+  "owner": {
+    "username": "Jorge-lopz",
+    "email": "jlpenero2005@gmail.com",
+    "discord": "713831494761840753"
+  },
+  "record": {
+    "CNAME": "jorge-lopz.vercel.app"
+  }
+}

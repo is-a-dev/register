@@ -4,6 +4,9 @@
     "email": "william@is-a.dev"
   },
   "record": {
-    "URL": "https://hrsn.dev"
+    "URL": "https://william.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

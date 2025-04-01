@@ -1,0 +1,10 @@
+{
+  "description": "Armand Jordaan's Website",
+  "owner": {
+    "username": "armandjordaan",
+    "email": "armand.jordaan@gmail.com"
+  },
+  "record": {
+    "CNAME": "armandjordaan.github.io"
+  }
+}
