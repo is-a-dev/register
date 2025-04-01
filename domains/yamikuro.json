@@ -6,6 +6,7 @@
     "email": "tarelas1997@gmail.com"
   },
   "record": {
-    "CNAME": "yamikuro.pagekite.me"
-  }
+    "CNAME": "yamikuro.serveo.net"
+  },
+  "proxied": true
 }
