@@ -1,0 +1,12 @@
+{
+  "description": "Website for Timco307 or timmy307 ",
+  "repo": "https://github.com/Timco307/register",
+  "owner": {
+    "username": "Timco307",
+    "email": "timco307@gmail.com"
+  },
+  "record": {
+    "CNAME": "timco307.github.io"
+  },
+  "proxied": true
+}
