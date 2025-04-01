@@ -1,0 +1,12 @@
+{
+  "description": "🚀 This is the official site for Moddy, a Discord bot.",
+  "repo": "https://github.com/MilkTools/moddybot",
+  "owner": {
+    "username": "MilkTools",
+    "email": "milktuto@gmail.com",
+    "discord": "1031341585436266546"
+  },
+  "record": {
+    "CNAME": "milktools.github.io"
+  }
+}
