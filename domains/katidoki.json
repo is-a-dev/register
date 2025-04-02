@@ -1,0 +1,11 @@
+{
+  "github": "hitoshi-okada",
+  "subdomain": "katidoki",
+  "owner": {
+    "username": "hitoshi-okada",
+    "email": "okada@katidoki.com"
+  },
+  "record": {
+    "CNAME": "tunnel-id.cfargotunnel.com"
+  }
+}
