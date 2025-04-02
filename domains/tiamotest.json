@@ -1,0 +1,12 @@
+{
+  "description": "Documentation website for is-a.dev",
+  "repo": "https://github.com/tiamo.405/minipool",
+  "owner": {
+    "username": "tiamo405",
+    "email": "[nam05052002@gmail.com]"
+  },
+  "record": {
+    "CNAME": "tiamo405.github.io"
+  },
+  "proxied": true
+}
