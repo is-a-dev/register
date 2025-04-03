@@ -40,7 +40,7 @@ In your PR, please explain why you need NS records, including examples, to help 
 
 ***Pull requests adding NS records without sufficient reasoning will be closed.***
 
-> Also see: [Why are you so strict with NS records?](https://docs.is-a.dev/faq/#why-are-you-so-strict-with-ns-records)
+> Also see: [Why are you so strict with NS records](https://docs.is-a.dev/faq/#why-are-you-so-strict-with-ns-records)?
 
 > [!NOTE]
 > You can bypass these requirements[^2] by donating just $2 [here](https://wdh.gg/pvNCdvs), or via [GitHub Sponsors](https://wdh.gg/sponsor). As a thank you, you'll also receive a special role in our [Discord server](https://discord.gg/is-a-dev-830872854677422150)!
