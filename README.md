@@ -22,7 +22,7 @@ Not all of these will be posted on GitHub[^1], however they will always be poste
 <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.wdh.app/is-a-dev-830872854677422150"></a>
 
 # Register
-If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
+> If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
 
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
@@ -50,8 +50,6 @@ In your PR, please explain why you need NS records, including examples, to help 
 
 ## Report Abuse
 If you find any subdomains being used for abusive purposes, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with the relevant evidence.
-
-If there is something *sensitive* you'd like to discuss with us, please send an email to security@is-a.dev. You can also ping a maintainer in the Discord server to request a private discussion.
 
 ---
 
