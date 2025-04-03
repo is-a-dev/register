@@ -52,12 +52,14 @@ In your PR, please explain why you need NS records, including examples, to help 
 ## Report Abuse
 If you find any subdomains being used for abusive purposes, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with the relevant evidence.
 
-If there is something *sensitive* you'd like to discuss with us, please send an email to `security@is-a.dev`. Pinging a maintainer to request a private discussion in the Discord server is also acceptable.
+If there is something *sensitive* you'd like to discuss with us, please send an email to security@is-a.dev. You can also ping a maintainer in the Discord server to request a private discussion.
 
 ---
 
-We are proud to announce that we are supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) sponsorship program. We would not be able to operate without their help! 💖
-
-<a href="https://www.cloudflare.com">
-   <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="96">
-</a>
+<div style="display: flex; justify-content: space-between;">
+   <p>We are proud to announce that we are supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) sponsorship program. We would not be able to operate without their help! 💖</p>
+   
+   <a href="https://www.cloudflare.com">
+      <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="96">
+   </a>
+</div>
