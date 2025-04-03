@@ -22,8 +22,7 @@ Not all of these will be posted on GitHub[^1], however they will always be poste
 <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.wdh.app/is-a-dev-830872854677422150"></a>
 
 # Register
-## How to Register
-> If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
+If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
 
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
 - Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
@@ -56,10 +55,8 @@ If there is something *sensitive* you'd like to discuss with us, please send an 
 
 ---
 
-<div style="display: flex; justify-content: space-between;">
-   <p>We are proud to announce that we are supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) sponsorship program. We would not be able to operate without their help! 💖</p>
-   
-   <a href="https://www.cloudflare.com">
-      <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="96">
-   </a>
-</div>
+We are proud to announce that we are supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) sponsorship program. We would not be able to operate without their help! 💖
+
+<a href="https://www.cloudflare.com">
+   <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="96">
+</a>
