@@ -5,8 +5,7 @@
         "username": "riteshsargam",
         "email": "ritesh.sargam00@gmail.com"
     },
-{
-  "record": {
-    "CNAME": "riteshsargam.github.io"
-  }
+    "record": {
+        "CNAME": "riteshsargam.github.io"
+    }
 }
