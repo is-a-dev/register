@@ -8,7 +8,8 @@
     "TXT": [
       "vc-domain-verify=drive.alora.is-a.dev,395400702612ae6db6a8",
       "vc-domain-verify=profile.alora.is-a.dev,71bd18cc5db61dc75f91",
-      "vc-domain-verify=blog.alora.is-a.dev,39b11f87634c4710b9ab"
+      "vc-domain-verify=blog.alora.is-a.dev,39b11f87634c4710b9ab",
+      "vc-domain-verify=verify.alora.is-a.dev,df9b78e72bc7a2889bc8"
     ]
   }
 }
