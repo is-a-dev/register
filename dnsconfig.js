@@ -150,6 +150,8 @@ for (var i = 0; i < reserved.length; i++) {
     ) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
     }
+
+    records.push(TXT("_redirect." + subdomainName, "\"https://is-a.dev/reserved\""));
 }
 
 var options = {
