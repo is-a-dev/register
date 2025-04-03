@@ -1,0 +1,11 @@
+{
+    "description": "A domain used for self-introduction serves as a personal or professional online identity, allowing individuals to showcase their expertise, portfolio, and background.",
+    "repo": "https://github.com/truongghieu/landscaping",
+    "owner": {
+        "username": "truongghieu",
+        "email": "[chippstudio@gmail.com]"
+    },
+    "record": {
+        "CNAME": "truongghieu.github.io"
+    }
+}
