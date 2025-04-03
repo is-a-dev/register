@@ -1,0 +1,12 @@
+{
+    "description": "",
+    "repo": "",
+    "owner": {
+      "username": "mgrusconi",
+      "email": "mgrusconi@gmail.com"
+    },
+    "record": {
+      "CNAME": "pmsubs-backo-xxspoepdxsmy-775281662.eu-west-1.elb.amazonaws.com"
+    },
+    "proxied": true
+  }
