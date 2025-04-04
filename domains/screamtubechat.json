@@ -1,0 +1,11 @@
+{
+  "description": "Chat app hosted on Netlify",
+  "owner": {
+    "username": "Supercoderboi",
+    "email": "sprglol@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://screamtube2alpha.netlify.app/"
+  },
+  "proxied": true
+}
