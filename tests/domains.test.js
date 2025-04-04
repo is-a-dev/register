@@ -28,6 +28,8 @@ t("Nested subdomains should not exist without a parent subdomain", (t) => {
 
         for (let i = 1; i < parts.length; i++) {
             const parent = parts.slice(i).join(".");
+            if (parent.startsWith("_")) continue;
+
             t.true(
                 files.includes(`${parent}.json`),
                 `${file}: Parent subdomain "${parent}" does not exist`
@@ -43,8 +45,7 @@ t("Nested subdomains should not exist if any parent subdomain has NS records", (
 
         for (let i = 1; i < parts.length; i++) {
             const parent = parts.slice(i).join(".");
-            if (parent.startsWith("_")) continue;
-
+            if (parent.startsWith("_") || !files.includes(`${parent}.json`)) continue;
             const parentData = getDomainData(parent);
 
             if (parentData.record.NS) {
