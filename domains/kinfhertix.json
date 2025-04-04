@@ -1,10 +1,9 @@
 {
-    "subdomain": "kinfhertix",
-    "owner": {
+  "owner": {
+      "username": "Kinfhertix",
       "email": "kinfhertix@gmail.com"
-    },
-    "records": {
-      "A": ["37.27.30.154"]
-    }
+  },
+  "record": {
+      "CNAME": "kinfhertix.vercel.app"
   }
-  
+}
