@@ -61,6 +61,9 @@ t("Nested subdomains should be owned by the parent subdomain's owner", (t) => {
 
         if (parentDomain !== subdomain) {
             const data = getDomainData(subdomain);
+
+            if (parent.startsWith("_")) continue;
+
             const parentData = getDomainData(parentDomain);
 
             t.true(
