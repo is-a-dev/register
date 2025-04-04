@@ -43,9 +43,10 @@ t("Nested subdomains should not exist if any parent subdomain has NS records", (
 
         for (let i = 1; i < parts.length; i++) {
             const parent = parts.slice(i).join(".");
+            if (parent.startsWith("_")) continue;
+
             const parentData = getDomainData(parent);
 
-            if (!parentData) continue;
             if (parentData.record.NS) {
                 t.fail(`${file}: Parent subdomain "${parent}" has NS records`);
                 return;
@@ -61,9 +62,6 @@ t("Nested subdomains should be owned by the parent subdomain's owner", (t) => {
 
         if (parentDomain !== subdomain) {
             const data = getDomainData(subdomain);
-
-            if (parent.startsWith("_")) continue;
-
             const parentData = getDomainData(parentDomain);
 
             t.true(
