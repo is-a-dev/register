@@ -48,7 +48,7 @@ t("Nested subdomains should not exist if any parent subdomain has NS records", (
             if (parent.startsWith("_") || !files.includes(`${parent}.json`)) continue;
             const parentData = getDomainData(parent);
 
-            t.false(parentData.record.NS, `${file}: Parent subdomain "${parent}" has NS records`);
+            t.true(!parentData.record.NS, `${file}: Parent subdomain "${parent}" has NS records`);
         }
     });
 });
