@@ -4,6 +4,8 @@
     "discord": "cemalgnlts"
   },
   "record": {
-    "CNAME": "cemalgnlts.surge.sh"
+    "CNAME": "cemalgnlts.surge.sh",
+    "NS": "na-west1.surge.sh",
+    "MX": "mx.smtp.dev"
   }
 }
