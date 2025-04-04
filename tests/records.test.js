@@ -314,7 +314,7 @@ t("All files should have valid record types", (t) => {
     t.pass();
 });
 
-t("Root domains should have at least one usable record", (t) => {
+t("Root subdomains should have at least one usable record", (t) => {
     const usableRecordTypes = ["A", "AAAA", "CNAME", "MX", "NS", "URL"];
 
     files.forEach((file) => {
