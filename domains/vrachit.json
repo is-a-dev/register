@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "Rachit",
+    "email": "vrachit@proton.me"
+  },
+  "record": {
+    "TXT": [
+      "zoho-verification=zb12977056.zmverify.zoho.in"
+       ],
+    "CNAME": "vrachit.pages.dev"
+  },
+  "proxied": true
+}
