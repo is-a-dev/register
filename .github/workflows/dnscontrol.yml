@@ -10,8 +10,8 @@ on:
     workflow_dispatch:
 
 concurrency:
-    group: ${{ github.ref }}-publish
-    cancel-in-progress: false
+    group: ${{ github.ref }}-dnscontrol
+    cancel-in-progress: true
 
 jobs:
     tests:
