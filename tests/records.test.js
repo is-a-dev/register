@@ -318,7 +318,8 @@ t("Root subdomains should have at least one usable record", (t) => {
     const usableRecordTypes = ["A", "AAAA", "CNAME", "MX", "NS", "URL"];
 
     files.forEach((file) => {
-        if (file.replace(/\.json$/, "").includes(".")) return;
+        const subdomain = file.replace(/\.json$/, "");
+        if (subdomain.includes(".") || subdomain.startsWith("_")) return;
 
         const data = getDomainData(file);
         const recordKeys = Object.keys(data.record);
