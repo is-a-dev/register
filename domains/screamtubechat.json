@@ -4,8 +4,9 @@
     "username": "Supercoderboi",
     "email": "sprglol@gmail.com"
   },
-  "record": {
-    "CNAME": "https://screamtube2alpha.netlify.app/"
-  },
+"record": {
+  "CNAME": "screamtube2alpha.netlify.app"
+},
+
   "proxied": true
 }
