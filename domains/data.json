@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "wdhdev",
-        "email": "william@williamharrison.dev"
-    },
-
-    "record": {
-        "CNAME": "wdhdev.github.io"
-    }
+  "owner": {
+    "username": "is-a-dev",
+    "email": "admin@is-a.dev"
+  },
+  "record": {
+    "CNAME": "is-a.dev"
+  },
+  "proxied": true
 }

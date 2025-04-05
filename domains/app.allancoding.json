@@ -1,13 +1,12 @@
 {
-    "owner": {
-        "username": "allancoding",
-        "email": "allancoding.dev@gmail.com",
-        "twitter": "allancoding",
-        "discord": "allancoding"
-    },
-    "record": {
-        "A": ["217.174.245.249", "51.161.54.161"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
-    }
+  "description": "My app website for diffrent services",
+  "owner": {
+    "username": "allancoding",
+    "email": "allancoding.dev@gmail.com",
+    "twitter": "allancoding",
+    "discord": "allancoding"
+  },
+  "record": {
+    "A": ["206.188.218.143"]
+  }
 }

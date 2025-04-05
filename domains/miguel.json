@@ -1,11 +1,10 @@
 {
-    "description": "Miguel Piedrafita's website",
-    "repo": "https://github.com/m1guelpf",
-    "owner": {
-        "username": "m1guelpf",
-        "email": "soy@miguelpiedrafita.com"
-    },
-    "record": {
-        "URL": "https://miguelpiedrafita.com"
-    }
+  "description": "Miguel Piedrafita's website",
+  "owner": {
+    "username": "m1guelpf",
+    "email": "soy@miguelpiedrafita.com"
+  },
+  "record": {
+    "URL": "https://miguelpiedrafita.com"
+  }
 }

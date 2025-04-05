@@ -1,0 +1,11 @@
+{
+  "description": "Personal subdomain",
+  "repo": "https://github.com/Jeiel0rbit/Jeiel0rbit.github.io",
+  "owner": {
+    "username": "Jeiel0rbit",
+    "email": "jeiel@duck.com"
+  },
+  "record": {
+    "CNAME": "Jeiel0rbit.github.io"
+  }
+}

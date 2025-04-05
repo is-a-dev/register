@@ -1,11 +1,9 @@
 {
-    "description": "Tilak's personal developer website",
-    "repo": "https://github.com/Perry-xD/Perry-xD.github.io",
-    "owner": {
-        "username": "Perry-xD",
-        "email": "heyahelloji@gmail.com"
-    },
-    "record": {
-        "CNAME": "Perry-xD.github.io"
-    }
+  "owner": {
+    "username": "YourTilak",
+    "email": "rj05tilak@gmail.com"
+  },
+  "record": {
+    "CNAME": "yourtilak.github.io"
+  }
 }

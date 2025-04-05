@@ -1,11 +1,10 @@
 {
-    "owner": {
-        "username": "o-lumix",
-        "email": "lumixofficiel@gmail.com"
-    },
-    "record": {
-        "A": ["217.174.245.249", "51.161.54.161"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
-    }
+  "owner": {
+    "username": "o-lumix",
+    "email": "bylumixxx@gmail.com",
+    "discord": "828313756827516949"
+  },
+  "record": {
+    "CNAME": "lumix-cmq.pages.dev"
+  }
 }

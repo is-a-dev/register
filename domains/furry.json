@@ -1,11 +1,10 @@
 {
-    "owner": {
-        "username": "Furrycality",
-        "email": "furrycality@gmail.com"
-    },
-    "record": {
-        "A": ["217.174.245.249", "51.161.54.161"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
-    }
+  "owner": {
+    "username": "furyashnyy",
+    "email": "faradey.iskra@mail.ru",
+    "discord": "754721080383373373"
+  },
+  "record": {
+    "A": ["31.31.196.104"]
+  }
 }

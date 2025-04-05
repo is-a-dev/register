@@ -1,0 +1,10 @@
+{
+  "description": "0xmaruf.is-a.dev domain",
+  "owner": {
+    "username": "marufms4",
+    "email": "marufsm4@gmail.com"
+  },
+  "record": {
+    "CNAME": "marufcse.netlify.app"
+  }
+}

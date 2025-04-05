@@ -1,6 +1,6 @@
 domain:
-  - domains/*.json
+    - domains/*.json
 
 documentation:
-  - ./*.md
-  - ./**/*.md
+    - ./*.md
+    - ./**/*.md

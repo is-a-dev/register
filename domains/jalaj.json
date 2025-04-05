@@ -1,17 +1,11 @@
 {
-    "description": "Jalaj's Portfolio",
-
-    "repo": "https://github.com/jalajcodes/jalaj",
-
-    "owner": {
-        "username": "jalajcodes",
-
-        "email": "",
-
-        "twitter": "jalajcodes"
-    },
-
-    "record": {
-        "CNAME": "jalaj.up.railway.app"
-    }
+  "description": "Jalaj's Portfolio",
+  "repo": "https://github.com/jalajcodes/jalaj",
+  "owner": {
+    "username": "jalajcodes",
+    "twitter": "jalajcodes"
+  },
+  "record": {
+    "CNAME": "jalaj.up.railway.app"
+  }
 }

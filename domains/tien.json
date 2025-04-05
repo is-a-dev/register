@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "t6c",
-        "email": "tien2309n@gmail.com"
-    },
-    "record": {
-        "A": ["217.174.245.249", "51.161.54.161"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
-    }
+  "description": "Personal Developer Start Page",
+  "repo": "https://github.com/TonyN678/TonyN678.github.io",
+  "owner": {
+    "username": "TonyN678",
+    "email": "tientonybest2006@gmail.com"
+  },
+  "record": {
+    "CNAME": "tonyn678.github.io"
+  }
 }

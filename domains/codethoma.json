@@ -1,11 +1,10 @@
 {
-    "description": "The ThunderDome",
-    "repo": "https://github.com/codethoma",
-    "owner": {
-        "username": "codethoma",
-        "email": "mrthundergod@gmail.com"
-    },
-    "record": {
-        "CNAME": "codethoma.github.io"
-    }
+  "description": "The ThunderDome",
+  "owner": {
+    "username": "codethoma",
+    "email": "mrthundergod@gmail.com"
+  },
+  "record": {
+    "CNAME": "codethoma.github.io"
+  }
 }

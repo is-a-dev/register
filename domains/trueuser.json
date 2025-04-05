@@ -1,9 +1,11 @@
 {
-    "owner": {
-      "username": "istrueuser",
-      "email": "thisistrueemail@gmail.com"
+  "owner": {
+    "username": "istrueuser",
+    "email": "thisistrueemail@gmail.com"
   },
-    "record": {
-      "CNAME": "proxy.private.danbot.host"
+  "record": {
+    "A": ["69.30.249.53"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

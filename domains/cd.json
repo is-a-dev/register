@@ -1,12 +1,15 @@
 {
-    "description": "Personal website of Yaksh Bariya",
-    "repo": "https://github.com/thunder-coding/CodingThunder",
-    "owner": {
-        "username": "thunder-coding",
-        "email": "yakshbari4@gmail.com",
-        "discord": "codingthunder"
-    },
-    "record": {
-        "CNAME": "thunder-coding.github.io"
-    }
+  "description": "Redirect to my personal website",
+  "repo": "https://github.com/thunder-coding/CodingThunder",
+  "owner": {
+    "username": "thunder-coding",
+    "email": "yakshbari4@gmail.com",
+    "discord": "codingthunder"
+  },
+  "record": {
+    "URL": "https://thunders.website"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "DevMatei",
+    "email": "contact@devmatei.is-a.dev",
+    "discord": "784443338627612673",
+    "twitter": "thedevmatei"
+  },
+  "record": {
+    "NS": ["chip.ns.cloudflare.com", "marjory.ns.cloudflare.com"]
+  }
+}
