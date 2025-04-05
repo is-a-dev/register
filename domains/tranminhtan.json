@@ -1,0 +1,12 @@
+{
+  "description": "Documents AI website for tanbaycu",
+  "repo": "https://github.com/tanbaycu",
+  "owner": {
+    "username": "tanbaycu",
+    "email": "mnew20128@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://trituenhantao.vercel.app"
+  },
+  "proxied": true
+}
