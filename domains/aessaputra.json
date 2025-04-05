@@ -1,10 +1,9 @@
 {
     "owner": {
-        "description": "This domain is set up for a development project (no active website yet).",
         "username": "aessaputra",
-        "email": "aessaputra@yahoo.com"
+        "Twitter": "pioonrey"
     },
     "record": {
-        "A": ["168.138.171.60"]
+        "TXT": "vc-domain-verify=aessaputra.is-a.dev,e4ae1f9f5dd0538d0b82"
     }
 }
