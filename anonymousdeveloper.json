@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "noah-dev-codes",
+        "email": "ak.no@outlook.com"
+    },
+    "record": {
+        "CNAME": "noah-dev-codes.github.io",
+       "MX": ["mx1.improvmx.com.", "mx2.improvmx.com"],
+      "TXT": ["v=spf1 include:spf.improvmx.com ~all"],
+      "TXT": "dh=d5e7654e9bc26802dfb39e3b7e67607561bdfa57"
+    }
+}
