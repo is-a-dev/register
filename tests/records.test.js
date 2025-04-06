@@ -216,7 +216,10 @@ function validateRecordValues(t, data, file) {
                         Number.isInteger(record.matchingType) && record.matchingType >= 0 && record.matchingType <= 255,
                         `${file}: Invalid matchingType for ${key} at index ${idx}`
                     );
-                    t.true(isValidHexadecimal(record.certificate), `${file}: Invalid certificate for ${key} at index ${idx}`);
+                    t.true(
+                        isValidHexadecimal(record.certificate),
+                        `${file}: Invalid certificate for ${key} at index ${idx}`
+                    );
                 }
             });
         }
@@ -309,4 +312,21 @@ t("All files should have valid record types", (t) => {
     });
 
     t.pass();
+});
+
+t("Root subdomains should have at least one usable record", (t) => {
+    const usableRecordTypes = ["A", "AAAA", "CNAME", "MX", "NS", "URL"];
+
+    files.forEach((file) => {
+        const subdomain = file.replace(/\.json$/, "");
+        if (subdomain.includes(".") || subdomain.startsWith("_")) return;
+
+        const data = getDomainData(file);
+        const recordKeys = Object.keys(data.record);
+
+        t.true(
+            usableRecordTypes.some((record) => recordKeys.includes(record)),
+            `${file}: Root subdomains must have at least one A, AAAA, CNAME, MX, NS, or URL record`
+        );
+    });
 });

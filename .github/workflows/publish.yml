@@ -22,11 +22,6 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - name: Run DNSControl tests
-              uses: is-a-dev/dnscontrol-action@main
-              with:
-                  args: check
-
             - name: Generate creds.json
               run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
 

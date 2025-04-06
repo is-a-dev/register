@@ -1,0 +1,11 @@
+{
+  "description": "Blog for eternasuno",
+  "repo": "https://github.com/eternasuno/eternasuno.github.io",
+  "owner": {
+    "username": "eternasuno",
+    "email": "eternasuno@gmail.com"
+  },
+  "record": {
+    "CNAME": "eternasuno.github.io"
+  }
+}
