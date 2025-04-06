@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "hostinger-bot",
+    "email": "hostingerbalance@gmail.com"
+  },
+  "record": {
+    "CNAME": "apex-loadbalancer.netlify.com"
+  }
+}
