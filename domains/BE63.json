@@ -1,0 +1,11 @@
+{
+    "description": "This subdomain is to create my personal page as a developer with all the stuff i made.",
+    "repo": "https://github.com/github-username/github-repository",
+    "owner": {
+        "username": "github-username",
+        "email": "[email protected]"
+    },
+    "record": {
+        "A": ["75.2.60.5"]
+    }
+}
