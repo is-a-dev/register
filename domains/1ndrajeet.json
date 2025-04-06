@@ -1,8 +1,9 @@
 {
+    "description": "Applying for an is-a.dev domain for my portfolio. (1ndrajeet.vercel.app)",
     "repo": "https://github.com/1ndrajeet/1ndrajeet.github.io",
     "owner": {
       "username": "1ndrajeet",
-      "email": "[support@testforge.software]"
+      "email": "omkar.kulkarni.3174@gmail.com"
     },
     "record": {
       "CNAME": "1ndrajeet.vercel.app"
