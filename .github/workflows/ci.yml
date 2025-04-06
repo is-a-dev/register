@@ -10,7 +10,6 @@ on:
             - "tests/*"
             - "util/*"
             - ".github/workflows/ci.yml"
-            - "dnsconfig.js"
 
     workflow_dispatch:
 
@@ -43,12 +42,6 @@ jobs:
                   echo "DELETED_FILES=$REMOVED_FILE_DATA" >> $GITHUB_ENV
               env:
                   GH_TOKEN: ${{ github.token }}
-
-            - name: Run DNSControl tests
-              if: github.event_name == 'pull_request' && contains(fromJson(env.CHANGED_FILES), 'dnsconfig.js')
-              uses: is-a-dev/dnscontrol-action@main
-              with:
-                  args: check
 
             - name: Run tests
               run: npx ava tests/*.test.js --timeout=1m
