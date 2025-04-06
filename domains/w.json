@@ -1,0 +1,11 @@
+{
+    "description": "my bio link site",
+    "repo": "https://github.com/6hack/test.github.io",
+    "owner": {
+        "username": "6hack",
+        "email": "mdbrop1@gmail.com"
+    },
+    "record": {
+        "CNAME": "6hack.github.io"
+    }
+}
