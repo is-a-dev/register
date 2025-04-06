@@ -5,6 +5,6 @@
     "email": "truonganh.dev@gmail.com"
   },
   "record": {
-    "A": ["113.160.94.94"]
+    "NS": ["bingo.ns.cloudflare.com", "will.ns.cloudflare.com"]
   }
 }
