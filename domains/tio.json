@@ -4,6 +4,6 @@
     "email": "hostingerbalance@gmail.com"
   },
   "record": {
-    "CNAME": "apex-loadbalancer.netlify.com"
+    "A": "75.2.60.5"
   }
 }
