@@ -1,6 +1,11 @@
 {
-  "owner": {
-    "username": "felixop7",
-    "email": "roshansahani226@gmail.com"
-  }
+    "description": "Portofolio Website",
+    "repo": "https://github.com/felixop7/sahani",
+    "owner": {
+        "username": "felixop7",
+        "email": "roshansahani226@gmail.com"
+    },
+    "record": {
+        "CNAME": "felixop7.github.io"
+    }
 }
