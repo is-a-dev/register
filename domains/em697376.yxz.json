@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "yz9551",
-        "discord": "yz9551"
-    },
-    "record": {
-        "CNAME": "return.smtp2go.net"
-    }
+  "owner": {
+    "username": "yz9551",
+    "discord": "yz9551"
+  },
+  "record": {
+    "CNAME": "return.smtp2go.net"
+  }
 }

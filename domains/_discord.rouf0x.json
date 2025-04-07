@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "Roufox",
-        "email": "gabrielruf.fr@gmail.com",
-        "discord": "Roufox"
-    },
-    "record": {
-        "TXT": "dh=c3f8c6ef337cccc45ed0c1fac8f1dbbb76b86271"
-    }
+  "owner": {
+    "username": "Rouf0x",
+    "discord": "roufox"
+  },
+  "record": {
+    "TXT": "dh=c3f8c6ef337cccc45ed0c1fac8f1dbbb76b86271"
+  }
 }

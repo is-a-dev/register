@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "iscordian",
-        "email": "iscordian.dev@gmail.com"
-    },
-    "record": {
-        "CNAME": "iscordian.github.io"
-    }
+  "owner": {
+    "username": "iscordian",
+    "email": "iscordian.dev@gmail.com"
+  },
+  "record": {
+    "CNAME": "iscordian.github.io"
+  }
 }

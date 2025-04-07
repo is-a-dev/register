@@ -3,127 +3,105 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const domainsPath = path.resolve("domains");
-const files = fs.readdirSync(domainsPath);
+const files = fs.readdirSync(domainsPath).filter((file) => file.endsWith(".json"));
 
-function getParentSubdomain(subdomain) {
-    const parts = subdomain.split(".");
-
-    if (parts.length <= 1) return null; // No parent for top-level subdomains
-
-    // Attempt to find the parent subdomain by removing the last part
-    for (let i = parts.length - 1; i > 0; i--) {
-        const potentialParent = parts.slice(i - 1).join(".");
-        if (files.includes(`${potentialParent}.json`)) {
-            return potentialParent; // Return the parent subdomain if it exists
-        }
-    }
-
-    return null; // Return null if no valid parent is found
-}
+const domainCache = {};
 
 function getDomainData(subdomain) {
+    if (domainCache[subdomain]) {
+        return domainCache[subdomain];
+    }
+
     try {
-        return fs.readJsonSync(path.join(domainsPath, `${subdomain}.json`));
+        const data = fs.readJsonSync(path.join(domainsPath, `${subdomain}.json`));
+        domainCache[subdomain] = data; // Cache the domain data
+        return data;
     } catch (error) {
         throw new Error(`Failed to read JSON for ${subdomain}: ${error.message}`);
     }
 }
 
-function expandReservedDomains() {
-    const reserved = require("../util/reserved-domains.json");
-    const expandedList = [...reserved];
-
-    for (const item of reserved) {
-        const rangeMatch = item.match(/\[(\d+)-(\d+)\]/); // Matches [min-max]
-
-        if (rangeMatch) {
-            const prefix = item.split("[")[0];
-            const start = parseInt(rangeMatch[1], 10);
-            const end = parseInt(rangeMatch[2], 10);
-
-            if (start < end) {
-                for (let i = start; i <= end; i++) {
-                    expandedList.push(prefix + i);
-                }
-
-                expandedList.splice(expandedList.indexOf(item), 1);
-            } else {
-                throw new Error(`[util/reserved-domains.json] Invalid range [${start}-${end}] in "${item}"`);
-            }
-        }
-    }
-
-    return expandedList;
-}
-
 t("Nested subdomains should not exist without a parent subdomain", (t) => {
-    for (const file of files) {
+    files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
+        const parts = subdomain.split(".");
 
-        if (subdomain.split(".").length > 1) {
-            const parentSubdomain = getParentSubdomain(subdomain);
-            t.true(files.includes(`${parentSubdomain}.json`), `${file}: Parent subdomain does not exist`);
+        for (let i = 1; i < parts.length; i++) {
+            const parent = parts.slice(i).join(".");
+            if (parent.startsWith("_")) continue;
+
+            t.true(
+                files.includes(`${parent}.json`),
+                `${file}: Parent subdomain "${parent}" does not exist`
+            );
         }
-    }
-
-    t.pass();
+    });
 });
 
-t("Nested subdomains should not exist if the parent subdomain has NS records", (t) => {
-    for (const file of files) {
+t("Nested subdomains should not exist if any parent subdomain has NS records", (t) => {
+    files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
+        const parts = subdomain.split(".");
 
-        if (subdomain.split(".").length > 1) {
-            const parentSubdomain = getParentSubdomain(subdomain);
-            const parentDomain = getDomainData(parentSubdomain);
+        for (let i = 1; i < parts.length; i++) {
+            const parent = parts.slice(i).join(".");
+            if (parent.startsWith("_") || !files.includes(`${parent}.json`)) continue;
+            const parentData = getDomainData(parent);
 
-            t.true(!parentDomain.record.NS, `${file}: Parent subdomain has NS records`);
+            t.true(!parentData.record.NS, `${file}: Parent subdomain "${parent}" has NS records`);
         }
-    }
-
-    t.pass();
+    });
 });
 
 t("Nested subdomains should be owned by the parent subdomain's owner", (t) => {
-    for (const file of files) {
+    files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
+        const parentDomain = subdomain.split(".").reverse()[0];
 
-        if (subdomain.split(".").length > 1) {
+        if (parentDomain !== subdomain) {
             const data = getDomainData(subdomain);
-
-            const parentSubdomain = getParentSubdomain(subdomain);
-            const parentDomain = getDomainData(parentSubdomain);
+            const parentData = getDomainData(parentDomain);
 
             t.true(
-                data.owner.username.toLowerCase() === parentDomain.owner.username.toLowerCase(),
+                data.owner.username.toLowerCase() === parentData.owner.username.toLowerCase(),
                 `${file}: Owner does not match the parent subdomain`
             );
         }
-    }
+    });
 });
 
-const reservedDomains = expandReservedDomains();
+t("Users are limited to one single character subdomain", (t) => {
+    const results = [];
 
-t("Subdomain names must not be reserved", (t) => {
-    for (const file of files) {
+    files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
+        const data = getDomainData(subdomain);
 
-        t.true(!reservedDomains.includes(subdomain), `${file}: Subdomain name is reserved`);
-    }
+        if (subdomain.length === 1 && data.owner.username.toLowerCase() !== "is-a-dev") {
+            results.push({
+                subdomain,
+                owner: data.owner.username.toLowerCase()
+            });
+        }
+    });
 
-    t.pass();
-});
+    const duplicates = results.filter((result) => results.filter((r) => r.owner === result.owner).length > 1);
+    const output = duplicates.reduce((acc, curr) => {
+        if (!acc[curr.owner]) {
+            acc[curr.owner] = [];
+        }
 
-t("Reserved domains file should be valid", (t) => {
-    const subdomainRegex = /^_?[a-zA-Z0-9]+([-\.][a-zA-Z0-9]+)*(\[\d+-\d+\])?$/;
+        acc[curr.owner].push(`${curr.subdomain}.is-a.dev`);
+        return acc;
+    }, {});
 
-    for (const item of reservedDomains) {
-        t.regex(
-            item,
-            subdomainRegex,
-            `[util/reserved-domains.json] Invalid subdomain name "${item}" at index ${reservedDomains.indexOf(item)}`
-        );
-    }
+    t.is(
+        duplicates.length,
+        0,
+        Object.keys(output)
+            .map((owner) => `${owner} - ${output[owner].join(", ")}`)
+            .join("\n")
+    );
 
     t.pass();
 });

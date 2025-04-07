@@ -1,11 +1,9 @@
 {
-    "owner": {
-        "username": "jobayedsumon",
-        "email": "jobayedahmedsumon@gmail.com"
-    },
-    "record": {
-        "A": [
-          "103.159.73.11"
-        ]
-    }
+  "owner": {
+    "username": "jobayedsumon",
+    "email": "jobayedahmedsumon@gmail.com"
+  },
+  "record": {
+    "A": ["103.159.73.11"]
+  }
 }

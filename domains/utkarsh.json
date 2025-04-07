@@ -1,10 +1,10 @@
 {
-  "repo": "https://github.com/utkarshkrsingh/website",
-  "owner": {
-    "username": "Utkarshkrsingh",
-    "email": "utkarshkrsingh@proton.me"
-  },
-  "record": {
-    "CNAME": "utkarshkrsingh.github.io"
-  }
+	"repo": "https://github.com/utkarshkrsingh/website",
+	"owner": {
+		"username": "Utkarshkrsingh",
+		"email": "utkarsh.isa.dev@gmail.com"
+	},
+	"record": {
+		"CNAME": "utkarshkrsingh.github.io"
+	}
 }

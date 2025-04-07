@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "mostypc123"
-    },
-    "record": {
-        "CNAME": "mostypc123.github.io"
-    }
-} 
+  "owner": {
+    "username": "mostypc123"
+  },
+  "record": {
+    "CNAME": "mostypc123.github.io"
+  }
+}

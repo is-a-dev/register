@@ -1,0 +1,11 @@
+{
+  "description": "Portfolio",
+  "repo": "https://github.com/aaqifshafi/react-portfolio",
+  "owner": {
+    "username": "aaqifshafi",
+    "email": "aaqifshafi@gmail.com"
+  },
+  "record": {
+    "CNAME": "react-portfolio-ashen-tau.vercel.app"
+  }
+}
