@@ -1,1 +1,10 @@
-
+{
+    "description": "minhvu.is-a.dev : Hello, world!",
+    "owner": {
+        "username": "minhvu",
+        "email": "vdminh.box@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://minhvu.pro"
+    }
+}
