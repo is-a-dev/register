@@ -1,0 +1,18 @@
+{
+    "owner": {
+      "username": "MrDiamondDog",
+      "email": "drewratner27@gmail.com"
+    },
+    "record": {
+        "SRV": [
+          {
+            "name": "_minecraft._tcp.minecraft",
+            "priority": 0,
+            "weight": 5,
+            "port": 25565,
+            "target": "minecraft.mrdiamond.is-a.dev"
+          }
+        ],
+        "A": ["129.146.51.207"]
+    }
+}
