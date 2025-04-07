@@ -6,7 +6,7 @@
     "record": {
         "SRV": [
           {
-            "name": "_minecraft._tcp",
+            "name": "_minecraft._tcp.minecraft",
             "priority": 0,
             "weight": 5,
             "port": 25565,
