@@ -4,7 +4,7 @@
         "email": "tak@tak.io.vn"
     },
     "record": {
-        "A": "103.221.223.52"
+        "A": ["103.221.223.52"]
     },
     "proxied": true
 }
