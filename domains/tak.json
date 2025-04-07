@@ -4,6 +4,7 @@
         "email": "tak@tak.io.vn"
     },
     "record": {
-        "NS": ["lilith.ns.cloudflare.com","tony.ns.cloudflare.com"]
-    }
+        "A": "103.221.223.52"
+    },
+    "proxied":true
 }
