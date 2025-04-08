@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "anbuinfosec"
-    },
-    "record": {
-        "CNAME": "anbuinfosec.github.io"
-    }
+  "owner": {
+    "username": "anbuinfosec"
+  },
+  "record": {
+    "CNAME": "anbuinfosec.github.io"
+  }
 }

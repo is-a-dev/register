@@ -1,0 +1,11 @@
+{
+    "description": "Subdomain for furryr.github.io",
+    "repo": "https://github.com/FurryR/furryr.github.io",
+    "owner": {
+        "username": "FurryR",
+        "email": "awathefox@gmail.com"
+    },
+    "record": {
+        "CNAME": "furryr.github.io"
+    }
+}

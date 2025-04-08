@@ -1,11 +1,11 @@
 {
-    "description": "Personal use",
-    "repo": "https://github.com/NicoJSuarez2/PersonalPage",
-    "owner": {
-        "username": "nicojsuarez2",
-        "email": "javinsurez@gmail.com"
-    },
-    "record": {
-        "CNAME": "Nicojsuarez2.github.io"
-    }
+  "description": "Personal use",
+  "repo": "https://github.com/NicoJSuarez2/PersonalPage",
+  "owner": {
+    "username": "nicojsuarez2",
+    "email": "javinsurez@gmail.com"
+  },
+  "record": {
+    "CNAME": "Nicojsuarez2.github.io"
+  }
 }
