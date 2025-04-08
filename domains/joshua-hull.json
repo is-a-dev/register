@@ -1,7 +1,8 @@
 {
     "repo": "https://github.com/joshua-hull/joshua-hull.github.io",
     "owner": {
-      "username": "joshua-hull"
+      "username": "joshua-hull",
+      "email": "joshua.thorild.hull@gmail.com"
     },
     "record": {
         "CNAME": "joshua-hull.github.io"
