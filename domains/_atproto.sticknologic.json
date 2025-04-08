@@ -1,0 +1,13 @@
+{
+	"description": "STICKnoLOGIC's  Bluesky handler",
+	"owner": {
+		"username": "sticknologic",
+		"x": "STICKnoLOGIC",
+		"facebook": "STICKnoLOGIC",
+		"bsky": "STICKnoLOGIC"
+	},
+	"record": {
+	  "TXT": "did=did:plc:wyzmwzxvot52hynv33qebimq"
+	}
+  }
+  
