@@ -9,7 +9,7 @@
             "name": "_minecraft._tcp.minecraft",
             "priority": 0,
             "weight": 5,
-            "port": 25565,
+            "port": 28225,
             "target": "minecraft.mrdiamond.is-a.dev"
           }
         ],
