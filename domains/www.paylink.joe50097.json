@@ -4,6 +4,9 @@
     "email": "zcell9500@gmail.com"
   },
   "record": {
-    "CNAME": "paylink-comming-soon.netlify.app"
+    "CNAME": "paylink-comming-soon.netlify.app",
+    "TXT": {
+      "_gh-PayLink-Project-o": "afa0c39cdb"
+    }
   }
 }
