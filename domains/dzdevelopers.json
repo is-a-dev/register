@@ -3,7 +3,16 @@
         "username": "DZDevelopers",
         "email": "djoudiaymen0@gmail.com"
     },
-    "record": {
-        "CNAME": "dzdevelopers.github.io"
-    }
+  "record": {
+    "MX": [
+      "10 mx.zoho.com.",
+      "20 mx2.zoho.com.",
+      "50 mx3.zoho.com."
+    ],
+    "TXT": [
+      "v=spf1 include:zoho.com ~all",
+      "zoho-verification=zb51189051.zmverify.zoho.com"
+    ]
+  }
 }
+
