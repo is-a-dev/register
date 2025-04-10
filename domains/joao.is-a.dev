@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "email": "dev.joao.teta@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "ns1.dns-parking.com",
+      "ns2.dns-parking.com"
+    ]
+  }
+}
