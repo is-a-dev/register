@@ -8,5 +8,6 @@
   "record": {
     "CNAME": "pibiswal.github.io",
     "TXT": "google-site-verification=kDWGAChQixBO8bGxGGNoA9kXH24lQyfomrT3zyC5jiM"
-  }
+  },
+  "proxied": true
 }
