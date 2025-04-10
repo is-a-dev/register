@@ -9,9 +9,8 @@
             "priority": 0,
             "weight": 5,
             "port": 28225,
-            "target": "mrdiamond.is-a.dev"
+            "target": "129.146.51.207"
           }
-        ],
-        "A": ["129.146.51.207"]
+        ]
     }
 }
