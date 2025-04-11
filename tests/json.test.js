@@ -36,20 +36,30 @@ const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
 
 function findDuplicateKeys(jsonString) {
-    const keyPattern = /"([^"]+)"(?=\s*:)/g;
-    const keys = [];
-    let match;
+    const duplicateKeys = [];
 
-    while ((match = keyPattern.exec(jsonString)) !== null) {
-        keys.push(match[1]);
-    }
+    const stack = [];
 
-    const keyCount = {};
-    keys.forEach((key) => {
-        keyCount[key] = (keyCount[key] || 0) + 1;
+    const obj = JSON.parse(jsonString, (key, value) => {
+        if (typeof key === "string") {
+            const current = stack[stack.length - 1];
+            if (current) {
+                if (current[key]) {
+                    duplicateKeys.push(key);
+                } else {
+                    current[key] = true;
+                }
+            }
+        }
+
+        if (typeof value === "object" && value !== null) {
+            stack.push({});
+        }
+
+        return value;
     });
 
-    return Object.keys(keyCount).filter((key) => keyCount[key] > 1);
+    return [...new Set(duplicateKeys)];
 }
 
 async function validateFields(t, obj, fields, file, prefix = "") {
