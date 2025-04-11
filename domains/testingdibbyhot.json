@@ -2,10 +2,10 @@
   "owner": {
     "username": "DEV-DIBSTER",
     "email": "dibster@danbot.host",
-    "email": "dibster@danbot.host"
+    "email": "dibster+whyyoucheckingthis@danbot.host"
   },
   "record": {
     "NS": ["teagan.ns.cloudflare.com", "yevgen.ns.cloudflare.com"],
-    "NS": ["teagan.ns.cloudflare.com", "yevgen.ns.cloudflare.com"]
+    "NS": ["mygoatmike.ns.cloudflare.com", "stefsmells.ns.cloudflare.com"]
   }
 }
