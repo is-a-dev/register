@@ -4,6 +4,6 @@
     "email": "ekn@envs.net"
   },
   "record": {
-    "CNAME": "kyizl.pages.dev"
+    "NS": ["ali.ns.cloudflare.com", "clay.ns.cloudflare.com"]
   }
 }
