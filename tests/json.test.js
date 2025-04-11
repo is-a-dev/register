@@ -36,30 +36,49 @@ const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
 
 function findDuplicateKeys(jsonString) {
-    const duplicateKeys = [];
+    const duplicateKeys = new Set();
+    const objectStack = [];
 
-    const stack = [];
+    const keyRegex = /"(.*?)"\s*:/g;
 
-    const obj = JSON.parse(jsonString, (key, value) => {
-        if (typeof key === "string") {
-            const current = stack[stack.length - 1];
-            if (current) {
-                if (current[key]) {
-                    duplicateKeys.push(key);
+    let match;
+    let currentKeys = {};
+    let lastIndex = 0;
+
+    for (let i = 0; i < jsonString.length; i++) {
+        const char = jsonString[i];
+
+        // Start of new object
+        if (char === '{') {
+            objectStack.push(currentKeys);
+            currentKeys = {};
+        }
+
+        // End of current object
+        if (char === '}') {
+            currentKeys = objectStack.pop() || {};
+        }
+
+        // Match key if it's at the current index
+        if (i === lastIndex) {
+            keyRegex.lastIndex = i;
+            match = keyRegex.exec(jsonString);
+            if (match && match.index === i) {
+                const key = match[1];
+
+                if (currentKeys[key]) {
+                    duplicateKeys.add(key);
                 } else {
-                    current[key] = true;
+                    currentKeys[key] = true;
                 }
+
+                lastIndex = keyRegex.lastIndex;
+                i = lastIndex - 1; // skip ahead
             }
         }
+    }
 
-        if (typeof value === "object" && value !== null) {
-            stack.push({});
-        }
-
-        return value;
-    });
-
-    return [...new Set(duplicateKeys)];
+    return [...duplicateKeys];
 }
 
 async function validateFields(t, obj, fields, file, prefix = "") {
