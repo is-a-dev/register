@@ -1,0 +1,15 @@
+{
+  "description": "Email forward Tachibana Shin (@tachib_shin)",
+  "owner": {
+    "username": "tachibana-shin",
+    "email": "",
+    "twitter": "tachib_shin"
+  },
+  "record": {
+    "MX": [
+        "mx1.forwardemail.net",
+        "mx2.forwardemail.net"
+    ],
+    "TXT": "forward-email=tachibshin@duck.com"
+  }
+}
