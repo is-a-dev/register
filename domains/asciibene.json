@@ -1,0 +1,32 @@
+{
+ 
+
+  "description": "For use with my IoD (IP over DNS) setup",
+ 
+
+  "owner": {
+ 
+
+    "username": "asciibene",
+ 
+
+    "email": "ascii-bene@protonmail.ch"
+ 
+
+  },
+
+ 
+
+  "record": {
+ 
+
+    "A": "t1.asciibene.is-a.dev",
+ 
+
+     "NS": "45.154.3.18"
+ 
+
+  }
+ 
+
+}
