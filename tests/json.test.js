@@ -45,13 +45,13 @@ function findDuplicateKeys(jsonString) {
     while (i < jsonString.length) {
         const char = jsonString[i];
 
-        if (char === '{') {
+        if (char === "{") {
             keyStack.push({});
             i++;
             continue;
         }
 
-        if (char === '}') {
+        if (char === "}") {
             keyStack.pop();
             i++;
             continue;
