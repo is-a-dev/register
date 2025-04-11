@@ -1,18 +1,25 @@
 {
-    "owner": {
-        "username": "DZDevelopers",
-        "email": "djoudiaymen0@gmail.com"
-    },
+  "owner": {
+    "username": "DZDevelopers"
+  },
   "record": {
     "MX": [
-      "10 mx.zoho.com.",
-      "20 mx2.zoho.com.",
-      "50 mx3.zoho.com."
+      {
+        "target": "mx.zoho.com.",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com.",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com.",
+        "priority": 50
+      }
     ],
     "TXT": [
-      "v=spf1 include:zoho.com ~all",
-      "zoho-verification=zb51189051.zmverify.zoho.com"
+      "zoho-verification=zb51189051.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
     ]
   }
 }
-
