@@ -7,6 +7,9 @@
     "discord": "527778424392253441"
   },
   "record": {
-    "CNAME": "itsdoomone.github.io"
+    "CNAME": "itsdoomone.github.io",
+    "minecraft": {
+      "A": ["179.163.142.15"]
+    }
   }
 }
