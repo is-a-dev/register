@@ -8,7 +8,8 @@
   },
   "redirect_config": {
     "custom_paths": {
-      "/ns": "https://wdh.gg/pvNCdvs"
+      "/ns": "https://wdh.gg/pvNCdvs",
+      "/sponsor": "https://wdh.gg/sponsor"
     }
   }
 }
