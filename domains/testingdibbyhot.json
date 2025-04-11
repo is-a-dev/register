@@ -1,29 +1,11 @@
 {
   "owner": {
     "username": "DEV-DIBSTER",
+    "email": "dibster@danbot.host",
     "email": "dibster@danbot.host"
   },
   "record": {
     "NS": ["teagan.ns.cloudflare.com", "yevgen.ns.cloudflare.com"],
-    "DS": [
-      {
-        "key_tag": 10684,
-        "algorithm": 13,
-        "digest_type": 1,
-        "digest": "LMFAOSAODASLASDASDASDADADASDASDASDASDASDADASDASDASD"
-      },
-      {
-        "key_tag": 10684,
-        "algorithm": 13,
-        "digest_type": 2,
-        "digest": "ASDGHJFGDSGASDSSDFASDFFSDFASDASDASDADASDSADSADSADS"
-      },
-      {
-        "key_tag": 10684,
-        "algorithm": 13,
-        "digest_type": 1,
-        "digest": "LMFAOSAODASLASDASDASDADADASDASDASDASDASDADASDASDASD"
-      }
-    ]
+    "NS": ["teagan.ns.cloudflare.com", "yevgen.ns.cloudflare.com"]
   }
 }
