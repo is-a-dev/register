@@ -37,8 +37,7 @@ const files = fs.readdirSync(domainsPath);
 
 function findDuplicateKeys(jsonString) {
     const duplicateKeys = new Set();
-    const objectStack = [];
-    const keyMapStack = [];
+    const keyStack = [];
 
     const keyRegex = /"(.*?)"\s*:/g;
 
@@ -47,29 +46,27 @@ function findDuplicateKeys(jsonString) {
         const char = jsonString[i];
 
         if (char === '{') {
-            keyMapStack.push({});
-            objectStack.push('{');
+            keyStack.push({});
             i++;
             continue;
         }
 
         if (char === '}') {
-            keyMapStack.pop();
-            objectStack.pop();
+            keyStack.pop();
             i++;
             continue;
         }
 
         keyRegex.lastIndex = i;
         const match = keyRegex.exec(jsonString);
-        if (match && objectStack.length) {
+        if (match && match.index === i && keyStack.length > 0) {
             const key = match[1];
-            const currentKeyMap = keyMapStack[keyMapStack.length - 1];
+            const currentScope = keyStack[keyStack.length - 1];
 
-            if (currentKeyMap[key]) {
+            if (currentScope[key]) {
                 duplicateKeys.add(key);
             } else {
-                currentKeyMap[key] = true;
+                currentScope[key] = true;
             }
 
             i = keyRegex.lastIndex;
