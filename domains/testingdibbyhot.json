@@ -4,7 +4,7 @@
     "email": "dibster@danbot.host"
   },
   "record": {
-    "NS": ["teagan.ns.cloudflare.com", "yevgen.ns.cloudflare.com"]
+    "NS": ["teagan.ns.cloudflare.com", "yevgen.ns.cloudflare.com"],
     "DS": [
       {
         "key_tag": 10684,
