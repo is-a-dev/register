@@ -1,0 +1,12 @@
+{
+    "description": "Personal subdomain",
+    "repo": "https://github.com/Erickjonatthan/portfolio-ejms",
+    "owner": {
+      "username": "Erickjonatthan",
+      "email": "erick.jonathan@ufrpe.br"
+    },
+    "record": {
+      "CNAME": "portfolio-ejms.vercel.app"
+    }
+  }
+  
