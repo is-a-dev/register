@@ -38,43 +38,43 @@ const files = fs.readdirSync(domainsPath);
 function findDuplicateKeys(jsonString) {
     const duplicateKeys = new Set();
     const objectStack = [];
+    const keyMapStack = [];
 
     const keyRegex = /"(.*?)"\s*:/g;
 
-    let match;
-    let currentKeys = {};
-    let lastIndex = 0;
-
-    for (let i = 0; i < jsonString.length; i++) {
+    let i = 0;
+    while (i < jsonString.length) {
         const char = jsonString[i];
 
-        // Start of new object
         if (char === '{') {
-            objectStack.push(currentKeys);
-            currentKeys = {};
+            keyMapStack.push({});
+            objectStack.push('{');
+            i++;
+            continue;
         }
 
-        // End of current object
         if (char === '}') {
-            currentKeys = objectStack.pop() || {};
+            keyMapStack.pop();
+            objectStack.pop();
+            i++;
+            continue;
         }
 
-        // Match key if it's at the current index
-        if (i === lastIndex) {
-            keyRegex.lastIndex = i;
-            match = keyRegex.exec(jsonString);
-            if (match && match.index === i) {
-                const key = match[1];
+        keyRegex.lastIndex = i;
+        const match = keyRegex.exec(jsonString);
+        if (match && objectStack.length) {
+            const key = match[1];
+            const currentKeyMap = keyMapStack[keyMapStack.length - 1];
 
-                if (currentKeys[key]) {
-                    duplicateKeys.add(key);
-                } else {
-                    currentKeys[key] = true;
-                }
-
-                lastIndex = keyRegex.lastIndex;
-                i = lastIndex - 1; // skip ahead
+            if (currentKeyMap[key]) {
+                duplicateKeys.add(key);
+            } else {
+                currentKeyMap[key] = true;
             }
+
+            i = keyRegex.lastIndex;
+        } else {
+            i++;
         }
     }
 
