@@ -4,6 +4,6 @@
     "email": "koraxd.me@gmail.com"
   },
   "record": {
-    "NS": ["anahi.ns.cloudflare.com", "darl.ns.cloudflare.com"]
+    "CNAME": "kora-html.vercel.app"
   }
 }
