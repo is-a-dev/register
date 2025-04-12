@@ -1,0 +1,14 @@
+{
+  "description": "Personal development, testing, and deployment",
+  "repo": "https://github.com/FarelRA/profile",
+  "owner": {
+    "username": "FarelRA",
+    "email": "farelreskiaditiya22@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "adi.ns.cloudflare.com",
+      "clayton.ns.cloudflare.com"
+    ]
+  }
+}
