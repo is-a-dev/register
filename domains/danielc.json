@@ -1,0 +1,11 @@
+{
+    "description": "My personal portfolio",
+    "repo": "https://github.com/dantescur/porta",
+    "owner": {
+        "username": "dantescur",
+        "email": "cesardaniel.9611@gmail.com"
+    },
+    "record": {
+        "CNAME": "https://dantescur.github.io/porta"
+    }
+}
