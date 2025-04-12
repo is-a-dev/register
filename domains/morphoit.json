@@ -6,7 +6,6 @@
     "email": "morphoits@gmail.com"
   },
   "record": {
-    "CNAME": "morphoit.is-a-dev"
+    "CNAME": "morphoit.github.io"
   },
-  "proxied": true
 }
