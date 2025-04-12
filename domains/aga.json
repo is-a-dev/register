@@ -5,6 +5,9 @@
         "discord": "blessing455451"
     },
     "record": {
-        "CNAME": "lcnghulam.vercel.app"
+        "CNAME": [
+            "lcnghulam.vercel.app",
+            "kn4c53m67eh7.gv-avu326tm5ymn5x.dv.googlehosted.com"
+        ]
     }
 }
