@@ -1,0 +1,27 @@
+{
+  "description": "Domain for testing resend.com on a youtube video",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "longman14",
+    "email": "[email protected]"
+  },
+  "record": {
+    "CNAME": "is-a-dev-docs.pages.dev",
+    
+    "MX": [
+      {
+        "target": "feedback-smtp.eu-west-1.amazonses.com",
+        "priority": 10
+      },
+    ],
+
+ 
+    "TXT": ["v=spf1 include:amazonses.com ~all", "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDjNvLocbPH6JKKETMCb+W9Zd8NMPQ63qcOpntY0MsI23Ehb20p8jjNrYaYv6w9NnfrmCzZrasWy9eH0nZk356wKp++y7CzwktZRHYq7VnMssLfHVlkQs9/S2TVkuUudXOSWQSwKjouzNDSPfsHA75uQGz02pdFs959+Y5t92CbtwIDAQAB"]
+  
+
+  
+  },
+  "proxied": true,
+  "description": "This is to test out an email sending feature I am learning on youtube",
+  
+}
