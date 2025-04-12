@@ -1,0 +1,12 @@
+{
+  "description": "morphoit profile site",
+  "repo": "https://github.com/morphoit/morphoit.github.io",
+  "owner": {
+    "username": "morphoit",
+    "email": "morphoits@gmail.com"
+  },
+  "record": {
+    "CNAME": "morphoit.is-a-dev"
+  },
+  "proxied": true
+}
