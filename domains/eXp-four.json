@@ -1,0 +1,11 @@
+{
+  "description": "X4 Domain",
+  "repo": "https://github.com/eXp-four/exp-four.github.io",
+  "owner": {
+    "username": "eXp-four",
+    "email": "experience4four@gmail.com"
+  },
+  "record": {
+    "CNAME": "exp-four.github.io"
+  }
+}
