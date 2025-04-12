@@ -1,10 +1,14 @@
 {
-    "owner": {
-        "username": "lcnghulam",
-        "email": "lcnghulam1@gmail.com",
-        "discord": "blessing455451"
-    },
-    "record": {
-        "CNAME": "lcnghulam.vercel.app"
-    }
+  "owner": {
+    "username": "lcnghulam",
+    "email": "lcnghulam1@gmail.com",
+    "discord": "blessing455451"
+  },
+  "record": {
+    "CNAME": "lcnghulam.vercel.app",
+    "TXT": [
+      "vc-domain-verify=aga.is-a.dev,c9684d0007365a74f553",
+      "google-site-verification=p24qfEdTMTlahtU3hQxVU_txDQkifpoJH1xS4jmCmlw"
+    ]
+  }
 }
