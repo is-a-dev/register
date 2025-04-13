@@ -5,9 +5,24 @@
   },
   "record": {
     "A": ["130.61.108.36"],
+    "MX": [
+      {
+        "target": "mx.zoho.eu",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.eu",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.eu",
+        "priority": 50
+      }
+    ],
     "TXT": [
       "dh=6d109bce7d0aeacdc4a573c959d85a778d239527", 
-      "zoho-verification=zb08689376.zmverify.zoho.eu"
+      "zoho-verification=zb08689376.zmverify.zoho.eu",
+      "v=spf1 include:zohomail.eu ~all"
     ]
   }
 }
