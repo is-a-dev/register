@@ -1,0 +1,11 @@
+{
+  "description": "A very cool website",
+  "owner": {
+    "username": "devmatei",
+    "email": "contact@devmatei.is-a.dev"
+  },
+  "record": {
+    "URL": "https://devmatei.is-a.dev"
+  },
+  "proxied": true
+}
