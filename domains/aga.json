@@ -5,7 +5,7 @@
         "discord": "blessing455451"
     },
     "record": {
-        "A": "76.76.21.21",
+        "A": ["76.76.21.21"],
         "TXT": "google-site-verification=p24qfEdTMTlahtU3hQxVU_txDQkifpoJH1xS4jmCmlw"
     }
 }
