@@ -1,0 +1,36 @@
+{
+    "description": "Console for your Minecraft Server",
+    "repo": "https://github.com/YAYLOLDEV/register",
+    "owner": {
+        "username": "YAYLOLDEV",
+        "email": "lolyay@lolyay.de"
+    },
+    "record": {
+        "A": [
+            "212.132.65.176"
+        ],
+        "AAAA": [
+            "2a02:247a:25c:7400::1"
+        ],
+        "MX": [
+            "cloud.lolyay.de"
+        ],
+        "TLSA": [
+            {
+                "usage": 3,
+                "selector": 1,
+                "matchingType": 1,
+                "certificate": "4da7b0783aac76eaaa0a764043f786cb2f0132ba15c0fb3c6ab33838bb21b728"
+            }
+        ],
+        "CAA": [
+            {
+                "flags": 0,
+                "tag": "issue",
+                "value": "cloudflare.com"
+            }
+        ],
+        "TXT": "v=spf1 +mx +a ~all"
+    },
+    "proxied": true
+}
