@@ -5,6 +5,6 @@
     "discord": "300641942646161409"
   },
   "record": {
-    "CNAME": "drpleaserespect.pages.dev"
+    "NS": ["frank.ns.cloudflare.com", "hope.ns.cloudflare.com"]
   }
 }

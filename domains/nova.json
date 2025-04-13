@@ -3,9 +3,9 @@
   "owner": {
     "username": "LunarN0v4",
     "email": "nova@zeusteam.dev",
-    "discord": "novad3v"
+    "discord": "7un4r"
   },
   "record": {
-    "CNAME": "zeusteam.dev"
+    "A": ["23.136.44.108"]
   }
 }

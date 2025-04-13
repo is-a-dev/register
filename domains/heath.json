@@ -1,0 +1,10 @@
+{
+  "description": "A simple link shortener page used for the minodabproductions.dev website.",
+  "owner": {
+    "username": "minodab492",
+    "email": "heath.garvin@minodabproductions.dev"
+  },
+  "record": {
+    "CNAME": "mdp-linkshortener.pages.dev"
+  }
+}

@@ -4,7 +4,6 @@
     "email": "admin@is-a.dev"
   },
   "record": {
-    "CNAME": "is-a.dev"
-  },
-  "proxied": true
+    "URL": "https://raw.is-a.dev"
+  }
 }

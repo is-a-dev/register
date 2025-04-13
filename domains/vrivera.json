@@ -1,0 +1,11 @@
+{
+  "description": "personal portfolio",
+  "repo": "https://github.com/vcntttt/portfolio",
+  "owner": {
+    "username": "vcntttt",
+    "email": "vrivera.dev@gmail.com"
+  },
+  "record": {
+    "CNAME": "vcntttt.github.io"
+  }
+}

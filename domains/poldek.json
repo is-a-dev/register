@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "poldekdev",
-        "discord": "poldek333"
-    },
-    "record": {
-        "CNAME": "poldek.pages.dev"
-    }
+  "owner": {
+    "username": "poldekdev",
+    "discord": "poldek333"
+  },
+  "record": {
+    "CNAME": "poldek.pages.dev"
+  }
 }

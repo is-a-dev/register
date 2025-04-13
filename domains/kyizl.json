@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "oqzx",
+    "email": "ekn@envs.net"
+  },
+  "record": {
+    "NS": ["ali.ns.cloudflare.com", "clay.ns.cloudflare.com"]
+  }
+}

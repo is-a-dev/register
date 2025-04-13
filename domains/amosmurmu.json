@@ -1,0 +1,11 @@
+{
+  "description": "Personal Software Portfolio",
+  "repo": "https://github.com/amosmurmu/amosmurmu.github.io.git",
+  "owner": {
+    "username": "amosmurmu",
+    "email": "amosmurmu002@gmail.com"
+  },
+  "record": {
+    "CNAME": "amosmurmu.github.io"
+  }
+}

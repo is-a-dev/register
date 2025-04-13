@@ -1,0 +1,12 @@
+{
+  "description": "eyus00's site",
+  "repo": "https://github.com/eyus00/eyus00.github.io",
+  "owner": {
+    "username": "eyus00",
+    "email": "eyus00@duck.com"
+  },
+  "record": {
+    "CNAME": "eyus00.github.io"
+  },
+  "proxied": true
+}
