@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "your-github-username",
+        "email": "your-email-address@example.com"
+    },
+    "record": {
+        "CNAME": "https://my-portfolio-swart-eight.vercel.app/"
+    }
+}
