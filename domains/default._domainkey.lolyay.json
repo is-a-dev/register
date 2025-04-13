@@ -1,0 +1,12 @@
+{
+    "description": "Dkim for lolyay.is-a.dev",
+    "repo": "https://github.com/YAYLOLDEV/register",
+    "owner": {
+        "username": "YAYLOLDEV",
+        "email": "lolyay@lolyay.de"
+    },
+    "record": {
+        "TXT": "v=DKIM1; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxKKA6M6oS6kLZLrD8+y0tpg4M4qFPkRSrX7vQqoSmbE5HIPA8yniEo2NycIq/wLqhx1chwVkDa3IYFfg++K+1z/9XhibASY9I90Do4aDApTG++vhQyK++t+OFi2bOj65cRgviuPbi1BMYuf8piIYMNCK97VDBUQ0UUtMP0BdleSXEf6jTC/nZ0xaXSX74DGM27AtuChhBZnUL1S8p56FEi7LmMUx8uXXO3sBzq3e90gx7XJsJyJxTxXytLcRI5oaIYR5MWSN85qvCjelSSVSKJKvc0fx9j7clvqNBNnrrF+EIf0819T9tJ9/5Yp9jYeCvMA8WrJUPrSa3o8MZdbNwwIDAQAB;"
+    },
+    "proxied": false
+}
