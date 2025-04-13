@@ -1,0 +1,19 @@
+{
+    "description": "KillToLive minecraft server",
+    "owner": {
+        "username": "minecradt",
+        "email": "soccer1992.is.a.dev@gmail.com"
+    },
+    "record": {
+        "SRV": [
+          {
+            "name": "_minecraft._tcp.play",
+            "priority": 0,
+            "weight": 5,
+            "port": 25565,
+            "target": "KillToLive.valksystems.pro"
+          }
+        ],
+        "A": ["82.45.179.13"]
+    }
+}

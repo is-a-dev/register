@@ -36,20 +36,46 @@ const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
 
 function findDuplicateKeys(jsonString) {
-    const keyPattern = /"([^"]+)"(?=\s*:)/g;
-    const keys = [];
-    let match;
+    const duplicateKeys = new Set();
+    const keyStack = [];
 
-    while ((match = keyPattern.exec(jsonString)) !== null) {
-        keys.push(match[1]);
+    const keyRegex = /"(.*?)"\s*:/g;
+
+    let i = 0;
+    while (i < jsonString.length) {
+        const char = jsonString[i];
+
+        if (char === "{") {
+            keyStack.push({});
+            i++;
+            continue;
+        }
+
+        if (char === "}") {
+            keyStack.pop();
+            i++;
+            continue;
+        }
+
+        keyRegex.lastIndex = i;
+        const match = keyRegex.exec(jsonString);
+        if (match && match.index === i && keyStack.length > 0) {
+            const key = match[1];
+            const currentScope = keyStack[keyStack.length - 1];
+
+            if (currentScope[key]) {
+                duplicateKeys.add(key);
+            } else {
+                currentScope[key] = true;
+            }
+
+            i = keyRegex.lastIndex;
+        } else {
+            i++;
+        }
     }
 
-    const keyCount = {};
-    keys.forEach((key) => {
-        keyCount[key] = (keyCount[key] || 0) + 1;
-    });
-
-    return Object.keys(keyCount).filter((key) => keyCount[key] > 1);
+    return [...duplicateKeys];
 }
 
 async function validateFields(t, obj, fields, file, prefix = "") {
@@ -69,6 +95,7 @@ async function validateFileName(t, file) {
     t.false(file.includes(".is-a.dev"), `${file}: File name should not contain .is-a.dev`);
     t.true(file === file.toLowerCase(), `${file}: File name should be all lowercase`);
     t.false(file.includes("--"), `${file}: File name should not contain consecutive hyphens`);
+    t.false(file.startsWith("_redirect."), `${file}: File name should not start with _redirect`);
 
     if (file !== "@.json") {
         const subdomain = file.replace(/\.json$/, "");
