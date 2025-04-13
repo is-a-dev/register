@@ -32,5 +32,5 @@
         ],
         "TXT": "v=spf1 +mx +a ~all"
     },
-    "proxied": true
+    "proxied": false
 }
