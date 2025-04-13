@@ -1,0 +1,12 @@
+{
+    "description": "dkim for lolyay.is-a.dev",
+    "repo": "https://github.com/YAYLOLDEV/register",
+    "owner": {
+        "username": "YAYLOLDEV",
+        "email": "lolyay@lolyay.de"
+    },
+    "record": {
+        "TXT": "o=-"
+    },
+    "proxied": false
+}
