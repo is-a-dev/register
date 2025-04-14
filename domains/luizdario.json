@@ -1,0 +1,11 @@
+{
+  "description": "Personal subdomain",
+  "repo": "https://github.com/luizearaujo/luizdario.github.io",
+  "owner": {
+    "username": "luizearaujo",
+    "email": "luiz.dario.araujo@hotmail.com"
+  },
+  "record": {
+    "CNAME": "luizdario.github.io"
+  }
+}
