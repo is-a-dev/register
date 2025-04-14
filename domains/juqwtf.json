@@ -1,11 +1,11 @@
 {
   "description": "juqwtf site",
-  "repo": "https://github.com/denboy0123/juq.github.io",
+  "repo": "https://github.com/juqwtf/juq.github.io",
   "owner": {
-    "username": "denboy0123",
-    "email": "pochtaproverka01@gmail.com"
+    "username": "juqwtf",
+    "email": "juqwtf@gmail.com"
   },
   "record": {
-    "CNAME": "denboy0123.github.io"
+    "CNAME": "juqwtf.github.io"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "description": "Personal subdomain",
+  "repo": "https://github.com/lisaterumi/lisaterumi.github.io",
+  "owner": {
+    "username": "lisaterumi",
+    "email": "contato@mulheresprogramando.com.br"
+  },
+  "record": {
+    "CNAME": "lisaterumi.github.io"
+  }
+}
