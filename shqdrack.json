@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "Shqdrack",
-        "email": "shqdracky@gmail.com"
-    },
-    "record": {
-        "RECORDTYPE": "shqdrack.github.io/Portfolio/"
-    }
+  "description": "My niche",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "Shqdrack",
+    "email": "shqdracky@gmail.com"
+  },
+  "record": {
+    "CNAME": "shqdrack.github.io"
+  },
+  "proxied": true
 }
