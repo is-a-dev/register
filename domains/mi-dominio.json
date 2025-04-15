@@ -1,11 +1,15 @@
-{"owner": (
+{"owner": {
 
-"username": "guardini-philama", // Tu usario GitHub
+"username": "guardini-philama",
 
-"email": "guardi2005@yahoo.fr" // Tu email
+"email": "guardi2005@yahoo.fr"
 
 "record": {
 
-"CNAME": "https://portfoliovuejs.vercel.app/" // La URL donde apunta tu web
+"CNAME": "https://portfoliovuejs.vercel.app/"
 
-}}
+     }
+
+}
+
+}
