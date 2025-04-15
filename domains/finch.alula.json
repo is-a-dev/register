@@ -1,0 +1,12 @@
+{
+  "description": "The Finch Social Media",
+  "repo": "https://github.com/ApplePieCodes/finch",
+  "owner": {
+    "username": "ApplePieCodes",
+    "email": "ApplePiePc@outlook.com"
+  },
+  "record": {
+    "CNAME": "applepiecodes.github.io/finch"
+  },
+  "proxied": true
+}
