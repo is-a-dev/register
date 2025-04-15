@@ -1,0 +1,11 @@
+{
+  "description": "Personal subdomain",
+  "repo": "https://github.com/korbirayen/korbirayen.github.io",
+  "owner": {
+    "username": "korbirayen",
+    "email": "contact.rayenkorbi@gmail.com"
+  },
+  "record": {
+    "CNAME": "korbirayen.github.io"
+  }
+}
