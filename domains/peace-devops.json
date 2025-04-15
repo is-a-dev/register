@@ -1,0 +1,12 @@
+{
+  "description": "Learning DevOps",
+  "repo": "https://github.com/peacetran2018/devops-docs",
+  "owner": {
+    "username": "peacetran2018",
+    "email": "peacetran2018@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://peacetran2018.github.io"
+  },
+  "proxied": true
+}
