@@ -1,0 +1,17 @@
+{
+    "description": "mcgru DNS",
+    "repo": "https://github.com/mcgru/site",
+
+    "owner": {
+        "username": "mcgru",
+        "email": "iigrushin@gmail.com"
+    },
+    "record": {
+        "CNAME": "mcgru.github.io",
+        "A": [ "192.168.168.111" ],
+        "TXT": [
+          "this is mcgru.is-a.dev",
+          "jojojojo"
+        ]
+    }
+}
