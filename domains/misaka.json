@@ -1,7 +1,8 @@
 {
-  "repo": "https://github.com/misaka12843/mono",
+  "repo": "https://github.com/misaka12843/misaka12843.github.io",
   "owner": {
-    "username": "misaka12843"
+    "username": "misaka12843",
+    "email": "misaka12843@outlook.com"
   },
   "record": {
     "CNAME": "misaka12843.github.io"
