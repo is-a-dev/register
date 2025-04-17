@@ -1,9 +1,10 @@
 {
+  "repo": "https://github.com/henrique-coder/solfeggio-training",
   "owner": {
     "username": "henrique-coder",
     "email": "hjyz6rqyb@mozmail.com"
   },
   "record": {
-    "CNAME": "henrique-coder.github.io"
+    "CNAME": "solfeggio-training.vercel.app"
   }
 }
