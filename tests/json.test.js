@@ -30,7 +30,7 @@ const optionalRedirectConfigFields = {
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 
-const exceptedDomains = require("../util/excepted.json");
+const excludedDomains = require("../util/excluded.json");
 const reservedDomains = require("../util/reserved.json");
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
@@ -113,7 +113,7 @@ async function validateFileName(t, file) {
 
         const rootSubdomain = subdomain.split(".").pop();
 
-        if (!exceptedDomains.includes(rootSubdomain)) {
+        if (!excludedDomains.includes(rootSubdomain)) {
             t.false(rootSubdomain.startsWith("_"), `${file}: Root subdomains should not start with an underscore`);
         }
     }
