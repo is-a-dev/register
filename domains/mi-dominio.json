@@ -1,15 +1,9 @@
-{"owner": {
-
-"username": "guardini-philama",
-
-"email": "guardi2005@yahoo.fr"
-
-"record": {
-
-"CNAME": "https://portfoliovuejs.vercel.app/"
-
-     }
-
-}
-
+{
+  "owner": {
+    "username": "guardini-philama",
+    "email": "guardi2005@yahoo.fr"
+  },
+  "record": {
+    "CNAME": "https://portfoliovuejs.vercel.app/"
+  }
 }
