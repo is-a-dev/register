@@ -6,9 +6,10 @@
   "record": {
     "A": ["37.27.51.34"],
     "AAAA": ["2a01:4f9:3081:399c::4"],
-    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
+    "MX": ["mx1.simplelogin.co", "mx2.simplelogin.co"],
     "TXT": [
-      "v=spf1 include:zohomail.eu ~all",
+      "sl-verification=sibwuwbmtopnrrdmfxvdabidjzvcow",
+      "v=spf1 include:simplelogin.co ~all",
       "domain-verification=skyexplorewastaken"
     ]
   },

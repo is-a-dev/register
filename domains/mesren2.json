@@ -1,0 +1,11 @@
+{
+    "description": "main website for mesren2",
+    "repo": "https://github.com/mesren2/mesren2.github.io",
+    "owner": {
+        "username": "mesren2",
+        "email": "iamreallysilly90@gmail.com"
+    },
+    "record": {
+        "CNAME": "mesren2.github.io"
+    }
+}

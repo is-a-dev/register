@@ -1,0 +1,12 @@
+{
+    "description": "Documentation Flow-Wing Programming Language",
+    "repo": "https://github.com/kushagra1212/Flow-Wing",
+    "owner": {
+      "username": "kushagra1212",
+      "email": "kushagrarathore002@gmail.com"
+    },
+    "record": {
+      "CNAME": "flow-wing-docs.vercel.app"
+    }
+  }
+  

@@ -1,11 +1,11 @@
 {
-    "description": "Le Hoai Nam's website",
-    "repo": "https://github.com/nhim411/nhim411.github.io",
-    "owner": {
-        "username": "nhim411",
-        "email": "lehoainam1998@gmail.com"
-    },
-    "record": {
-        "CNAME": "nhim411.github.io"
-    }
+  "description": "Le Hoai Nam's website",
+  "repo": "https://github.com/nhim411/nhim411.github.io",
+  "owner": {
+    "username": "nhim411",
+    "email": "lehoainam1998@gmail.com"
+  },
+  "record": {
+    "CNAME": "nhim411.github.io"
+  }
 }

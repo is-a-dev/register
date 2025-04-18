@@ -1,11 +1,10 @@
 {
-    "description": "Portfolio Website",
-    "repo": "https://github.com/ujjvaljoshi45/ujjvaljoshi45",
-    "owner": {
-        "username": "ujjvaljoshi45",
-        "email": "ujjvaljoshi45@gmail.com"
-    },
-    "record": {
-        "CNAME": "portfolio-ivui.vercel.app"
-    }
+  "description": "Main Page",
+  "owner": {
+    "username": "ujjvaljoshi45",
+    "email": "ujjvaljoshi45@gmail.com"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+  }
 }

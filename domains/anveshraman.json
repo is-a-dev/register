@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "SA-Army",
-        "email": "anveshraman.ae@gmail.com"
-    },
-    "record": {
-        "CNAME": "sa-army.github.io"
-    }
+  "owner": {
+    "username": "SA-Army",
+    "email": "anveshraman.ae@gmail.com"
+  },
+  "record": {
+    "CNAME": "developeranveshraman.github.io"
+  }
 }

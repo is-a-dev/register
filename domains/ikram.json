@@ -11,6 +11,5 @@
       "v=spf1 include:spf.improvmx.com ~all",
       "google-site-verification=C38zyZL8LP_056d5IgevUInJTe4qerfxC6-qjQORdh4"
     ]
-  },
-  "proxied": true
+  }
 }

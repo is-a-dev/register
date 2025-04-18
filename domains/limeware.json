@@ -1,0 +1,11 @@
+{
+  "description": "LimeWare's Official site",
+  "repo": "https://github.com/dunno8489/dunno8489.github.io",
+  "owner": {
+    "username": "dunno8489"
+  },
+  "record": {
+    "CNAME": "dunno8489.github.io"
+  },
+  "proxied": true
+}

@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "SkyExploreWasTaken",
+    "discord": "1049263707177353247"
+  },
+  "record": {
+    "TXT": "v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Personal dev domain for my portfolio, testing purposes, and self-hosting via Cloudflare Tunnel.",
+  "owner": {
+    "username": "Turkitutu",
+    "email": "turkitututfm@gmail.com",
+    "discord": "yatsuki."
+  },
+  "record": {
+    "NS": ["ezra.ns.cloudflare.com", "teagan.ns.cloudflare.com"]
+  }
+}

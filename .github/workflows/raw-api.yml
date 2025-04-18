@@ -6,6 +6,7 @@ on:
         paths:
             - "domains/*"
             - ".github/workflows/raw-api.yml"
+            - "util/reserved.json"
 
     workflow_dispatch:
 

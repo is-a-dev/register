@@ -1,0 +1,11 @@
+{
+  "description": "An open-source file sharing application with a cyberpunk dystopian interface. Built with Next.js, Supabase, and Tailwind CSS.",
+  "repo": "https://github.com/aloramiaa/fileshare",
+  "owner": {
+    "username": "aloramiaa",
+    "email": "xaloramia@gmail.com"
+  },
+  "record": {
+    "CNAME": "fileshare-snowy.vercel.app"
+  }
+}

@@ -11,7 +11,9 @@
       "vc-domain-verify=chat.alvin.is-a.dev,520a1452a367459dd568",
       "vc-domain-verify=www.chat.alvin.is-a.dev,df452600790ef98fd42e",
       "vc-domain-verify=todo.alvin.is-a.dev,08b2734d859de7c855c5",
-      "vc-domain-verify=www.todo.alvin.is-a.dev,affd5e1204871843ebb8"
+      "vc-domain-verify=www.todo.alvin.is-a.dev,affd5e1204871843ebb8",
+      "vc-domain-verify=sign.alvin.is-a.dev,2563e8f2f9edc85132ac",
+      "vc-domain-verify=www.sign.alvin.is-a.dev,94900e209df86ce94741"
     ]
   }
 }

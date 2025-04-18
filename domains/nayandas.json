@@ -1,0 +1,11 @@
+{
+    "description": "Personal blog for Nayan Das (NayanJD)",
+    "repo": "https://github.com/NayanJD/nayanjd.github.io",
+    "owner": {
+        "username": "NayanJD",
+        "email": "dastms@gmail.com"
+    },
+    "record": {
+        "CNAME": "nayanjd.github.io"
+    }
+}

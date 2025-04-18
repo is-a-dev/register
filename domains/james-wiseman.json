@@ -1,0 +1,11 @@
+{
+  "description": "Personal site for James Wiseman",
+  "owner": {
+    "username": "jamesrobertwiseman",
+    "email": "hello@jameswiseman.me"
+  },
+  "record": {
+    "CNAME": "jameswiseman.me"
+  },
+  "proxied": true
+}

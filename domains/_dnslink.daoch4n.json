@@ -1,0 +1,11 @@
+{
+  "description": "IPFS DNSLink integration for Web3-enabled video player",
+  "repo": "https://github.com/dtub3/DaokoTube",
+  "owner": {
+    "username": "daoch4n",
+    "email": "digitaimadness@pm.me"
+  },
+  "record": {
+    "TXT": "/ipfs/bafybeictsmpmyy5cbtc52hr3awxgsl6gojyfgr3b23uudte4i7gmeof6om"
+  }
+}

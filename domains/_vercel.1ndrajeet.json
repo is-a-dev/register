@@ -1,0 +1,12 @@
+{
+    "description": "Applying for an is-a.dev domain for my portfolio. (1ndrajeet.vercel.app)",
+    "repo": "https://github.com/1ndrajeet/1ndrajeet.github.io",
+    
+    "owner": {
+        "username": "1ndrajeet",
+        "email": "omkar.kulkarni.3174@gmail.com"
+    },
+    "record": {
+        "TXT": "vc-domain-verify=1ndrajeet.is-a.dev,00cac18202bfab99e890"
+    }
+}   

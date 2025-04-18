@@ -1,0 +1,11 @@
+{
+    "description": "Need the subdomain for my discord bot website",
+    "repo": "https://github.com/yurehito/charmy-website.git",
+    "owner": {
+        "username": "yurehito",
+        "discord": "https://discord.com/users/998608551431897170"
+    },
+    "record": {
+        "A": ["75.2.60.5"]
+    }
+}

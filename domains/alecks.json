@@ -1,11 +1,10 @@
 {
   "owner": {
     "username": "Alecks20",
-    "email": "contact@alecks.dev",
+    "email": "hi@alecks.dev",
     "discord": "612522818294251522"
   },
   "record": {
-    "CNAME": "evergarden.alecks.cloud"
-  },
-  "proxied": true
+    "CNAME": "alecks.pages.dev"
+  }
 }

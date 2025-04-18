@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "GabrielIturreCs",
-        "email": "gabriel13iturre@gmail.com"
-    },
-    "record": {
-        "CNAME": "gabrieliturre.netlify.app"
-    }
+  "owner": {
+    "username": "GabrielIturreCs",
+    "email": "gabriel13iturre@gmail.com"
+  },
+  "record": {
+    "CNAME": "gabrieliturre.netlify.app"
+  }
 }

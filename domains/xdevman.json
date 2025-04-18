@@ -1,0 +1,11 @@
+{
+    "description": "The domain will be used for my portfolio",
+    "repo": "https://github.com/xdevman1/register",
+    "owner": {
+        "username": "xdevman1",
+        "email": "xdevman9@gmail.com"
+    },
+    "record": {
+        "CNAME": "xdevman1.github.io"
+    }
+}

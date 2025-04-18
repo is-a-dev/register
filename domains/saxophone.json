@@ -1,7 +1,7 @@
 {
   "description": "my personal site where i do random stuff i guess",
   "owner": {
-    "username": "saxophone-guy",
+    "username": "saxophone-dev",
     "email": "itsarchit@keemail.me"
   },
   "record": {
@@ -10,6 +10,6 @@
       "forward-email=itsarchit@keemail.me",
       "google-site-verification=xWSXW0sDedf6aw6w8tJnySqXZYExIAViuKmTEiuJZpU"
     ],
-    "A": ["216.24.57.1"]
+    "A": ["76.76.21.21"]
   }
 }

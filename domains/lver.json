@@ -1,0 +1,19 @@
+{
+  "repo": "https://github.com/lverx",
+  "owner": {
+    "username": "lverx",
+    "email": "profoundlvr@gmail.com"
+  },
+  "record": {
+    "URL": "https://lverz.glitch.me/"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/lverx",
+      "/biz": "https://github.com/lverz",
+      "/contact": "https://contact-lver.pages.dev/",
+      "/site": "https://lver.link"
+    },
+    "redirect_paths": true
+  }
+}

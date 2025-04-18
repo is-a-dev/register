@@ -1,0 +1,11 @@
+{
+  "description": "Personal subdomain",
+  "repo": "https://github.com/edudutra/edudutra.github.io",
+  "owner": {
+    "username": "edudutra",
+    "email": "emdutra@gmail.com"
+  },
+  "record": {
+    "CNAME": "edudutra.github.io"
+  }
+}

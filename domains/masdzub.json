@@ -1,0 +1,11 @@
+{
+  "description": "My Personal Website.",
+  "repo": "https://github.com/masdzub/masdzub.github.io",
+  "owner": {
+    "username": "masdzub",
+    "email": "hello@masdzub.com"
+  },
+  "record": {
+    "CNAME": "masdzub-github-io.pages.dev"
+  }
+}

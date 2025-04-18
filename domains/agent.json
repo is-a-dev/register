@@ -1,0 +1,13 @@
+{
+    "description": "Agent's Developer Portfolio",
+    "repo": "https://github.com/relentiousdragon/isadev-site/tree/main",
+    "owner": {
+        "username": "relentiousdragon",
+        "email": "relentoor@gmail.com",
+        "discord": "agentzzrp"
+    },
+    "record": {
+        "CNAME": "isadev-site.pages.dev"
+    },
+    "proxied": true
+}
