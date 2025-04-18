@@ -1,0 +1,12 @@
+{
+  "description": "Miyuki Yue's is-a.dev domain",
+  "repo": "https://github.com/YueMiyuki",
+  "owner": {
+    "username": "YueMiyuki",
+    "email": "me@miyuki-yue.dev"
+  },
+  "record": {
+    "URL": "https://miyuki-yue.dev"
+  },
+  "proxied": true
+}
