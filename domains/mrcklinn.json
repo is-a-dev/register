@@ -1,0 +1,11 @@
+{
+    "description": "Non-profit and non-commercial, only for hobby",
+    "repo": "https://github.com/mrcklinn/projects",
+    "owner": {
+        "username": "mrcklinn",
+        "email": "mrchanmp@proton.me"
+    },
+    "record": {
+        "CNAME": "mrcklinn.github.io"
+    }
+}
