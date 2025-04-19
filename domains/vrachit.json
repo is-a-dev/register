@@ -4,7 +4,7 @@
       "email": "vrachit@proton.me"
     },
     "record": {
-        "MX":["mx.zoho.in","mx2.zoho.in","mx3.zoho.in"]
+      "MX":["mx.zoho.in","mx2.zoho.in","mx3.zoho.in"],
       "TXT": [
         "zoho-verification=zb12977056.zmverify.zoho.in",
           "v=spf1 include:zoho.in ~all",
