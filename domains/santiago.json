@@ -13,6 +13,11 @@
       "proxied": true
     },
     {
+      "type": "A",
+      "name": "@",
+      "content": "192.168.1.1"
+    },
+    {
       "type": "TXT",
       "name": "_github-pages-challenge-smpineda129",
       "content": "93f74a77240e81c919b432f96766fcf1"
