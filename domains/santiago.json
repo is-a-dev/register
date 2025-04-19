@@ -6,6 +6,9 @@
     "email": "smpineda129@gmail.com"
   },
   "record": {
-    "CNAME": "smpineda129.github.io"
+    "CNAME": "smpineda129.github.io",
+    "TXT": {
+      "_github-pages-challenge-smpineda129": "93f74a77240e81c919b432f96766fcf1"
+    }
   }
 }
