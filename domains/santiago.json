@@ -5,10 +5,17 @@
     "username": "smpineda129",
     "email": "smpineda129@gmail.com"
   },
-  "record": {
-    "CNAME": "smpineda129.github.io",
-    "TXT": {
-      "_github-pages-challenge-smpineda129": "93f74a77240e81c919b432f96766fcf1"
+  "record": [
+    {
+      "type": "CNAME",
+      "name": "www",
+      "content": "smpineda129.github.io",
+      "proxied": true
+    },
+    {
+      "type": "TXT",
+      "name": "_github-pages-challenge-smpineda129",
+      "content": "93f74a77240e81c919b432f96766fcf1"
     }
-  }
+  ]
 }
