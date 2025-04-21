@@ -1,14 +1,13 @@
 {
   "owner": {
-    "username": "iliy",
-    "email": "ilya.topuria@gmail.com"
+    "username": "alvinsjoy",
+    "discord": "825382504353234954"
   },
   "description": "My service hosted at 95.217.160.242",
-  "repo": "https://github.com/amir-khazaee/register",
   "record": {
     "A": [
       "95.217.160.242"
     ]
   },
-  "proxied": true
+  
 }
