@@ -5,6 +5,12 @@
     "email": "shadowjobs@qq.com"
   },
   "record": {
-    "A": ["114.116.231.183"]
+    "A": ["114.116.231.183"],
+    "TXT": [
+      {
+        "name": "_acme-challenge",
+        "value": "GL77s4yYmKen3roum2OpMV6JmBoL9O_NdCTBVW9PkEE"
+      }
+    ]
   }
 }
