@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "iliy",
+    "email": "ilya.topuria@gmail.com"
+  },
+  "description": "My service hosted at 95.217.160.242",
+  "repo": "https://github.com/amir-khazaee/register",
+  "record": {
+    "A": [
+      "95.217.160.242"
+    ]
+  },
+  "proxied": true
+}
