@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "oyepriyansh",
+    "email": "oyeasdansh@hotmail.com",
+    "twitter": "aefaefae"
+  },
+  "description": "mail domain",
+  "record": {
+    "NS": "ns1.afraid.org",
+    "NS": "ns2.afraid.org",
+    "NS": "ns3.afraid.org",
+    "NS": "ns4.afraid.org"
+  }
+}
