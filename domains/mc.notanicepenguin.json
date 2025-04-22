@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "github": "notanicepenguin"
+  },
+  "record": {
+    "SRV": {
+      "_minecraft._tcp": {
+        "port": 26009,
+        "target": "notanicepenguin.aternos.me"
+      }
+    }
+  }
+}
