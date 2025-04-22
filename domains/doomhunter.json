@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "email": "anasamirw63@gmail.com"
+  },
+  "records": {
+    "TXT": {
+      "@": "brevo-code:208cac74c1f52b0e3a5054055d942bb0",
+      "_dmarc": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+    },
+    "CNAME": {
+      "brevo1._domainkey": "b1.doomhunteremailbot-giize-com.dkim.brevo.com",
+      "brevo2._domainkey": "b2.doomhunteremailbot-giize-com.dkim.brevo.com"
+    }
+  }
+}
