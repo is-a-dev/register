@@ -4,7 +4,7 @@
     "username": "rijj1"
   },
   "record": {
-    "A": "89.117.157.47"
+    "A": ["89.117.157.47"]
   },
   "proxied": true
 }
