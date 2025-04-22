@@ -1,0 +1,19 @@
+{
+<<<<<<< Updated upstream:domains/_github-pages-challenge-satyamissatyam.satyamjha.json
+  "owner": {
+    "username": "SatyamIsSatyam",
+    "email": "realsatyam02@gmail.com"
+  },
+  "record": {
+    "TXT": "cfb164b676b453b9258240ca419ce0"
+  }
+=======
+    "owner": {
+        "username": "dev-satyamjha",
+        "email": "realsatyam02@gmail.com"
+    },
+    "record": {
+        "TXT": "cfb164b676b453b9258240ca419ce0"
+    }
+>>>>>>> Stashed changes:domains/_github-pages-challenge-dev-satyamjha.satyamjha.json
+}

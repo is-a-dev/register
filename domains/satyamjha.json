@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "description": "Pool full of Diamonds",
   "owner": {
     "username": "SatyamIsSatyam",
@@ -7,4 +8,15 @@
   "record": {
     "CNAME": "satyamissatyam.github.io"
   }
+=======
+    "description": "Pool full of Diamonds",
+    "repo": "https://github.com/dev-satyamjha",
+    "owner": {
+        "username": "SatyamIsSatyam",
+        "email": "realsatyam02@gmail.com"
+    },
+    "record": {
+        "CNAME": "dev-satyamjha.github.io"
+    }
+>>>>>>> Stashed changes
 }
