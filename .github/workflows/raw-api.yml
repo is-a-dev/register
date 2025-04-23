@@ -36,7 +36,7 @@ jobs:
                   source-directory: "raw-api"
                   destination-github-username: is-a-dev
                   destination-repository-name: raw-api
-                  user-email: "bot@is-a.dev"
-                  user-name: "is-a-dev-bot"
+                  user-email: "actions@github.com"
+                  user-name: "GitHub Actions"
               env:
                   API_TOKEN_GITHUB: ${{ secrets.BOT }}
