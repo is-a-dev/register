@@ -49,8 +49,7 @@ for (var subdomain in domains) {
     }
 
     // Handle CNAME records
-    if (domainData.records.CNAME) {
-        // Use ALIAS instead of CNAME to support CNAME flattening on the root domain
+    if (domainData.record.CNAME) {
         records.push(ALIAS(subdomainName, domainData.records.CNAME + ".", proxyState));
     }
 
@@ -147,7 +146,8 @@ for (var i = 0; i < reserved.length; i++) {
         subdomainName !== "ns1" &&
         subdomainName !== "ns2" &&
         subdomainName !== "ns3" &&
-        subdomainName !== "ns4"
+        subdomainName !== "ns4" &&
+        subdomainName !== "www"
     ) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
     }
@@ -159,13 +159,20 @@ var options = {
 
 var ignored = [
     IGNORE("*._domainkey", "TXT"),
+    IGNORE("@", "*"),
     IGNORE("_acme-challenge", "TXT"),
     IGNORE("_autodiscover._tcp", "SRV"),
+    IGNORE("_discord", "TXT"),
     IGNORE("_dmarc", "TXT"),
+    IGNORE("_gh-is-a-dev-o", "TXT"),
+    IGNORE("_gh-is-a-dev-o.**", "TXT"),
+    IGNORE("_github-pages-challenge-is-a-dev", "TXT"),
+    IGNORE("_github-pages-challenge-is-a-dev.**", "TXT"),
     IGNORE("_psl", "TXT"),
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
     IGNORE("ns[1-4]", "A,AAAA"),
+    IGNORE("www", "*")
 ];
 
 // Push TXT record of when the zone was last updated

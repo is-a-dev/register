@@ -139,7 +139,8 @@ function validateRecordValues(t, data, file) {
 
             if (key === "CNAME") {
                 t.true(isValidHostname(value), `${file}: Invalid hostname for ${key}`);
-                t.true(value !== file, `${file}: CNAME cannot point to itself`);
+                t.true(value !== `${subdomain}.is-a.dev`, `${file}: ${key} cannot point to itself`);
+                t.true(value !== "is-a.dev", `${file}: ${key} cannot point to is-a.dev`);
             } else if (key === "URL") {
                 t.true(
                     value.startsWith("http://") || value.startsWith("https://"),
@@ -147,11 +148,9 @@ function validateRecordValues(t, data, file) {
                 );
                 t.notThrows(() => new URL(value), `${file}: Invalid URL for ${key}`);
 
+                // Check for self-referencing redirects
                 const urlHost = new URL(value).host;
-                const isSelfReferencing =
-                    file === "@.json" ? urlHost === "is-a.dev" : urlHost === `${subdomain}.is-a.dev`;
-
-                t.false(isSelfReferencing, `${file}: URL cannot point to itself`);
+                t.false(urlHost === `${subdomain}.is-a.dev`, `${file}: ${key} cannot point to itself`);
             }
         }
 
@@ -264,8 +263,7 @@ function validateRecordValues(t, data, file) {
 
             // Check for self-referencing redirects
             const urlHost = new URL(customRedirectURL).host;
-            const isSelfReferencing = file === "@.json" ? urlHost === "is-a.dev" : urlHost === `${subdomain}.is-a.dev`;
-            t.false(isSelfReferencing, `${urlMessage} cannot point to itself at index ${idx}`);
+            t.false(urlHost === `${subdomain}.is-a.dev`, `${urlMessage} cannot point to itself at index ${idx}`);
         });
     }
 }

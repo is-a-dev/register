@@ -1,10 +1,10 @@
 {
-    "owner": {
-      "username": "is-a-dev",
-      "email": "admin@is-a.dev"
-    },
-    "records": {
-      "CNAME": "is-a-dev.github.io"
-    },
-    "proxied": true
-  }
+  "owner": {
+    "username": "is-a-dev",
+    "email": "admin@is-a.dev"
+  },
+  "records": {
+    "CNAME": "is-a-dev.github.io"
+  },
+  "proxied": true
+}
