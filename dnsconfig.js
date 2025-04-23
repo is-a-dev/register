@@ -19,7 +19,7 @@ function getDomainsList(filesPath) {
 }
 
 var domains = getDomainsList("./domains");
-var records = [];
+var zone = [];
 
 for (var subdomain in domains) {
     var subdomainName = domains[subdomain].name;
@@ -30,14 +30,14 @@ for (var subdomain in domains) {
     // Handle A records
     if (records.A) {
         for (var a in records.A) {
-            records.push(A(subdomainName, IP(records.A[a]), proxyState));
+            zone.push(A(subdomainName, IP(records.A[a]), proxyState));
         }
     }
 
     // Handle AAAA records
     if (records.AAAA) {
         for (var aaaa in records.AAAA) {
-            records.push(AAAA(subdomainName, records.AAAA[aaaa], proxyState));
+            zone.push(AAAA(subdomainName, records.AAAA[aaaa], proxyState));
         }
     }
 
@@ -45,20 +45,20 @@ for (var subdomain in domains) {
     if (records.CAA) {
         for (var caa in records.CAA) {
             var caaRecord = records.CAA[caa];
-            records.push(CAA(subdomainName, caaRecord.tag, caaRecord.value));
+            zone.push(CAA(subdomainName, caaRecord.tag, caaRecord.value));
         }
     }
 
     // Handle CNAME records
     if (records.CNAME) {
-        records.push(ALIAS(subdomainName, records.CNAME + ".", proxyState));
+        zone.push(ALIAS(subdomainName, records.CNAME + ".", proxyState));
     }
 
     // Handle DS records
     if (records.DS) {
         for (var ds in records.DS) {
             var dsRecord = records.DS[ds];
-            records.push(
+            zone.push(
                 DS(subdomainName, dsRecord.key_tag, dsRecord.algorithm, dsRecord.digest_type, dsRecord.digest)
             );
         }
@@ -70,11 +70,11 @@ for (var subdomain in domains) {
             var mxRecord = records.MX[mx];
 
             if (typeof mxRecord === "string") {
-                records.push(
+                zone.push(
                     MX(subdomainName, 10 + parseInt(mx), records.MX[mx] + ".")
                 );
             } else {
-                records.push(
+                zone.push(
                     MX(
                         subdomainName,
                         parseInt(mxRecord.priority),
@@ -88,7 +88,7 @@ for (var subdomain in domains) {
     // Handle NS records
     if (records.NS) {
         for (var ns in records.NS) {
-            records.push(NS(subdomainName, records.NS[ns] + "."));
+            zone.push(NS(subdomainName, records.NS[ns] + "."));
         }
     }
 
@@ -96,7 +96,7 @@ for (var subdomain in domains) {
     if (records.SRV) {
         for (var srv in records.SRV) {
             var srvRecord = records.SRV[srv];
-            records.push(
+            zone.push(
                 SRV(subdomainName, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
             );
         }
@@ -107,7 +107,7 @@ for (var subdomain in domains) {
         for (var tlsa in records.TLSA) {
             var tlsaRecord = records.TLSA[tlsa];
 
-            records.push(
+            zone.push(
                 TLSA(
                     subdomainName,
                     tlsaRecord.usage,
@@ -123,16 +123,16 @@ for (var subdomain in domains) {
     if (records.TXT) {
         if (Array.isArray(records.TXT)) {
             for (var txt in records.TXT) {
-                records.push(TXT(subdomainName, records.TXT[txt].length <= 255 ? "\"" + records.TXT[txt] + "\"" : records.TXT[txt]));
+                zone.push(TXT(subdomainName, records.TXT[txt].length <= 255 ? "\"" + records.TXT[txt] + "\"" : records.TXT[txt]));
             }
         } else {
-            records.push(TXT(subdomainName, records.TXT.length <= 255 ? "\"" + records.TXT + "\"" : records.TXT));
+            zone.push(TXT(subdomainName, records.TXT.length <= 255 ? "\"" + records.TXT + "\"" : records.TXT));
         }
     }
 
     // Handle URL records
     if (records.URL) {
-        records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
+        zone.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
     }
 }
 
@@ -150,7 +150,7 @@ for (var i = 0; i < reserved.length; i++) {
         subdomainName !== "ns4" &&
         subdomainName !== "www"
     ) {
-        records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
+        zone.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
     }
 }
 
@@ -177,6 +177,6 @@ var ignored = [
 ];
 
 // Push TXT record of when the zone was last updated
-records.push(TXT("_zone-updated", "\"" + Date.now().toString() + "\""));
+zone.push(TXT("_zone-updated", "\"" + Date.now().toString() + "\""));
 
 D(domainName, registrar, dnsProvider, options, ignored, records);
