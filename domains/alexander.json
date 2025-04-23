@@ -1,0 +1,11 @@
+{
+    "description": "This subdomain will be used to display a portfolio",
+    "repo": "https://github.com/X4nder29/portfolio",
+    "owner": {
+        "username": "x4nder29",
+        "email": "alexanderperezmeza@gmail.com"
+    },
+    "records": {
+        "CNAME": "x4nder29.github.io"
+    }
+}
