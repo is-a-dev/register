@@ -113,8 +113,6 @@ fs.readdir(directoryPath, function (err, files) {
                 fs.writeFile("raw-api/v2.json", JSON.stringify(v2), (err) => {
                     if (err) throw err;
                 });
-            } else {
-                throw new Error("processedCount is not equal to files.length");
             }
         });
     });
