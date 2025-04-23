@@ -140,9 +140,7 @@ function validateRecordValues(t, data, file) {
             if (key === "CNAME") {
                 t.true(isValidHostname(value), `${file}: Invalid hostname for ${key}`);
                 t.true(value !== `${subdomain}.is-a.dev`, `${file}: ${key} cannot point to itself`);
-                if (data.owner.username.toLowerCase() !== "is-a-dev") {
-                    t.true(value !== "is-a.dev", `${file}: ${key} cannot point to is-a.dev`);
-                }
+                t.true(value !== "is-a.dev", `${file}: ${key} cannot point to is-a.dev`);
             } else if (key === "URL") {
                 t.true(
                     value.startsWith("http://") || value.startsWith("https://"),
