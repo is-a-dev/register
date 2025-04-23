@@ -80,21 +80,21 @@ fs.readdir(directoryPath, function (err, files) {
             item.domain = name + ".is-a.dev";
             item.subdomain = name;
 
-            if (item.owner && item.owner.email) {
-                delete item.owner.email;
-            }
+            delete item.owner.email;
 
             const itemV1 = {
-                ...item,
+                domain: item.domain,
+                subdomain: item.subdomain,
+                owner: item.owner,
                 record: item.records
             };
-            delete itemV1.records;
 
             const itemV2 = {
-                ...item,
+                domain: item.domain,
+                subdomain: item.subdomain,
+                owner: item.owner,
                 records: item.records
             };
-            delete itemV2.record;
 
             v1.push(itemV1);
             v2.push(itemV2);
@@ -112,6 +112,8 @@ fs.readdir(directoryPath, function (err, files) {
                 fs.writeFile("raw-api/v2.json", JSON.stringify(v2, null, 2), (err) => {
                     if (err) throw err;
                 });
+            } else {
+                throw new Error("processedCount is not equal to files.length");
             }
         });
     });
