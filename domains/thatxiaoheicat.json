@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "xiaoheiCat",
-        "email": "is-a-dev-domain@thatxiaoheicat.blog"
-    },
-    "record": {
-        "CNAME": "xiaoheicat-security-blog-frontend.pages.dev"
-    }
+  "owner": {
+    "username": "xiaoheiCat",
+    "email": "is-a-dev-domain@thatxiaoheicat.blog"
+  },
+  "record": {
+    "CNAME": "xiaoheicat-security-blog-frontend.pages.dev"
+  }
 }

@@ -4,9 +4,6 @@
     "email": "0xarchit@proton.me"
   },
   "record": {
-    "NS": [
-      "brenna.ns.cloudflare.com",
-      "cartman.ns.cloudflare.com"
-    ]
+    "NS": ["brenna.ns.cloudflare.com", "cartman.ns.cloudflare.com"]
   }
 }

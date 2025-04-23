@@ -6,9 +6,6 @@
     "discord": "753179409682399332"
   },
   "record": {
-    "NS": [
-      "hattie.ns.cloudflare.com",
-      "margo.ns.cloudflare.com"
-    ]
+    "NS": ["hattie.ns.cloudflare.com", "margo.ns.cloudflare.com"]
   }
 }

@@ -4,8 +4,6 @@
     "discord": "1012270723663925278"
   },
   "record": {
-    "MX": [
-      "mx.forwarding-service.maildim.com"
-    ]
+    "MX": ["mx.forwarding-service.maildim.com"]
   }
 }

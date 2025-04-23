@@ -4,8 +4,6 @@
     "discord": "1306595993055268875"
   },
   "record": {
-    "TXT": [
-      "v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s"
-    ]
+    "TXT": ["v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s"]
   }
 }

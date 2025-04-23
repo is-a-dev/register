@@ -4,9 +4,6 @@
     "discord": "823939421686071386"
   },
   "record": {
-    "NS": [
-      "ashton.ns.cloudflare.com",
-      "uma.ns.cloudflare.com"
-    ]
+    "NS": ["ashton.ns.cloudflare.com", "uma.ns.cloudflare.com"]
   }
 }

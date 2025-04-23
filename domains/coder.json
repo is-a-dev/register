@@ -4,9 +4,6 @@
     "email": "devamidhun.3c.kmbvm@gmail.com"
   },
   "record": {
-    "NS": [
-      "aria.ns.cloudflare.com",
-      "leonard.ns.cloudflare.com"
-    ]
+    "NS": ["aria.ns.cloudflare.com", "leonard.ns.cloudflare.com"]
   }
 }

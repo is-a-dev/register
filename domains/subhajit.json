@@ -1,11 +1,11 @@
 {
-    "description": "My personal website hosted on GitHub Pages",
-    "repo": "https://github.com/HappySR/Subhajit-portfolio",
-    "owner": {
-        "username": "HappySR",
-        "email": "darrang48@gmail.com"
-    },
-    "record": {
-        "CNAME": "happysr.github.io"
-    }
+  "description": "My personal website hosted on GitHub Pages",
+  "repo": "https://github.com/HappySR/Subhajit-portfolio",
+  "owner": {
+    "username": "HappySR",
+    "email": "darrang48@gmail.com"
+  },
+  "record": {
+    "CNAME": "happysr.github.io"
+  }
 }

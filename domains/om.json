@@ -3,9 +3,6 @@
     "username": "omsenjalia"
   },
   "record": {
-    "NS": [
-      "raina.ns.cloudflare.com",
-      "sergi.ns.cloudflare.com"
-    ]
+    "NS": ["raina.ns.cloudflare.com", "sergi.ns.cloudflare.com"]
   }
 }

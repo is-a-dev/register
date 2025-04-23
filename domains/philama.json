@@ -1,9 +1,9 @@
 {
   "owner": {
-     "username": "Philama",
+    "username": "Philama",
     "email": "guardi2005@yahoo.fr"
   },
   "record": {
-        "CNAME": "portfoliovuejs.vercel.app"
+    "CNAME": "portfoliovuejs.vercel.app"
   }
 }

@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "princevora"
-    },
-    "record": {
-        "CNAME": "princevora.vercel.app"
-    }
+  "owner": {
+    "username": "princevora"
+  },
+  "record": {
+    "CNAME": "princevora.vercel.app"
+  }
 }
