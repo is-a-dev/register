@@ -5,7 +5,7 @@
     "username": "Wisitt",
     "email": "wisitmoondet@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "wisit.vercel.app"
   },
   "proxied": true

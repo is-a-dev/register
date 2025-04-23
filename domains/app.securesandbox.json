@@ -5,7 +5,7 @@
     "email": "ealba.platforms@outlook.com",
     "discord": "crowleycrowd"
   },
-  "record": {
+  "records": {
     "MX": ["feedback-smtp.us-east-1.amazonses.com"],
     "TXT": [
       "v=spf1 include:amazonses.com ~all",

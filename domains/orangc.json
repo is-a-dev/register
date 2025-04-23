@@ -3,7 +3,7 @@
     "username": "orangci",
     "discord": "orangc"
   },
-  "record": {
+  "records": {
     "NS": ["nucum.ns.cloudflare.com", "tate.ns.cloudflare.com"]
   }
 }
