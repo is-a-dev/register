@@ -1,13 +1,9 @@
 {
   "owner": {
-    "username": "alvinsjoy",
-    "discord": "825382504353234954"
+    "username": "amir-khazaee",
+    "email": "amir.khazaee@optiop.org"
   },
-  "description": "My service hosted at 95.217.160.242",
   "record": {
-    "A": [
-      "95.217.160.242"
-    ]
-  },
-  
+    "A": ["95.217.160.242"]
+  }
 }
