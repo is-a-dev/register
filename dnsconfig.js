@@ -160,6 +160,7 @@ var ignored = [
     IGNORE("_acme-challenge", "TXT"),
     IGNORE("_autodiscover._tcp", "SRV"),
     IGNORE("_dmarc", "TXT"),
+    IGNORE("_psl", "TXT"),
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
     IGNORE("dkim._domainkey", "TXT"),
