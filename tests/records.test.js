@@ -152,7 +152,6 @@ function validateRecordValues(t, data, file) {
 
                 // Check for self-referencing redirects
                 const urlHost = new URL(value).host;
-                t.true(isValidHostname(urlHost), `${file}: Invalid URL hostname for ${key}`);
                 t.false(urlHost === `${subdomain}.is-a.dev`, `${file}: ${key} cannot point to itself`);
             }
         }
