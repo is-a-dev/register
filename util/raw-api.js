@@ -2,16 +2,17 @@ const fs = require("fs");
 const path = require("path");
 
 const directoryPath = path.join(__dirname, "../domains");
-const reserved = require(path.join(__dirname, "reserved.json"));
-const internal = require(path.join(__dirname, "internal.json"));
 const outputDir = path.join(__dirname, "../raw-api");
 
 if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
 }
 
-let v1 = [];
-let v2 = [];
+const internal = require(path.join(__dirname, "internal.json"));
+const reserved = require(path.join(__dirname, "reserved.json"));
+
+const v1 = [];
+const v2 = [];
 
 for (const subdomain of internal) {
     const commonData = {
@@ -101,15 +102,15 @@ fs.readdir(directoryPath, function (err, files) {
 
             processedCount++;
             if (processedCount === files.length) {
-                fs.writeFile("raw-api/index.json", JSON.stringify(v1, null, 2), (err) => {
+                fs.writeFile("raw-api/index.json", JSON.stringify(v1), (err) => {
                     if (err) throw err;
                 });
 
-                fs.writeFile("raw-api/v1.json", JSON.stringify(v1, null, 2), (err) => {
+                fs.writeFile("raw-api/v1.json", JSON.stringify(v1), (err) => {
                     if (err) throw err;
                 });
 
-                fs.writeFile("raw-api/v2.json", JSON.stringify(v2, null, 2), (err) => {
+                fs.writeFile("raw-api/v2.json", JSON.stringify(v2), (err) => {
                     if (err) throw err;
                 });
             } else {
