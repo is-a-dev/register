@@ -1,5 +1,4 @@
 [
-    "_zone-updated",
     "about",
     "account",
     "accounts",
@@ -18,6 +17,8 @@
     "authorise",
     "authorization",
     "authorize",
+    "autoconfig",
+    "autodiscover",
     "billing",
     "blog",
     "board",

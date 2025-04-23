@@ -142,6 +142,8 @@ var reserved = require("./util/reserved.json");
 for (var i = 0; i < reserved.length; i++) {
     var subdomainName = reserved[i];
     if (
+        subdomainName !== "autoconfig" &&
+        subdomainName !== "autodiscover" &&
         subdomainName !== "ns1" &&
         subdomainName !== "ns2" &&
         subdomainName !== "ns3" &&
@@ -156,17 +158,18 @@ var options = {
 };
 
 var ignored = [
-    IGNORE("@", "MX,TXT"),
+    IGNORE("*._domainkey", "TXT"),
     IGNORE("_acme-challenge", "TXT"),
     IGNORE("_autodiscover._tcp", "SRV"),
     IGNORE("_dmarc", "TXT"),
+    IGNORE("_psl", "TXT"),
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
-    IGNORE("dkim._domainkey", "TXT"),
     IGNORE("ns[1-4]", "A,AAAA"),
 ];
 
 // Push TXT record of when the zone was last updated
 records.push(TXT("_zone-updated", "\"" + Date.now().toString() + "\""));
+records.push(TXT("@", "\"zone-updated=" + Date.now().toString() + "\""));
 
 D(domainName, registrar, dnsProvider, options, ignored, records);
