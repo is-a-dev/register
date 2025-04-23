@@ -50,7 +50,7 @@ for (var subdomain in domains) {
 
     // Handle CNAME records
     if (domainData.record.CNAME) {
-        records.push(CNAME(subdomainName, domainData.record.CNAME + ".", proxyState));
+        records.push(ALIAS(subdomainName, domainData.record.CNAME + ".", proxyState));
     }
 
     // Handle DS records
