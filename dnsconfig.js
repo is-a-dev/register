@@ -143,6 +143,8 @@ for (var i = 0; i < reserved.length; i++) {
     if (
         subdomainName !== "autoconfig" &&
         subdomainName !== "autodiscover" &&
+        subdomainName !== "data" &&
+        subdomainName !== "docs" &&
         subdomainName !== "ns1" &&
         subdomainName !== "ns2" &&
         subdomainName !== "ns3" &&
@@ -172,6 +174,8 @@ var ignored = [
     IGNORE("_psl", "TXT"),
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
+    IGNORE("data", "CNAME"),
+    IGNORE("docs", "CNAME"),
     IGNORE("ns[1-4]", "A,AAAA"),
     IGNORE("raw", "CNAME"),
     IGNORE("www", "*")

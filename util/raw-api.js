@@ -22,18 +22,18 @@ for (const subdomain of reserved) {
         reserved: true
     };
 
+    const reservedRecords = {
+        URL: "https://is-a.dev/reserved"
+    }
+
     v1.push({
         ...commonData,
-        record: {
-            "URL": "https://is-a.dev/reserved"
-        }
+        record: reservedRecords
     });
 
     v2.push({
         ...commonData,
-        records: {
-            "URL": "https://is-a.dev/reserved"
-        }
+        records: reservedRecords
     });
 }
 
