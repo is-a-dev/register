@@ -34,7 +34,6 @@ for (const subdomain of internal) {
     v2.push({
         ...commonData,
         records: records,
-        reserved: true,
         internal: true
     });
 }
