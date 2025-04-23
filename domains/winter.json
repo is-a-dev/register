@@ -5,9 +5,6 @@
     "email": "me@vwinter.moe"
   },
   "record": {
-    "NS": [
-      "blakely.ns.cloudflare.com",
-      "rocco.ns.cloudflare.com"
-    ]
+    "NS": ["blakely.ns.cloudflare.com", "rocco.ns.cloudflare.com"]
   }
 }

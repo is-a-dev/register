@@ -6,9 +6,6 @@
     "email": "debjoti97@gmail.com"
   },
   "record": {
-    "NS": [
-      "art.ns.cloudflare.com", 
-      "liz.ns.cloudflare.com"
-    ]
+    "NS": ["art.ns.cloudflare.com", "liz.ns.cloudflare.com"]
   }
 }

@@ -1,5 +1,4 @@
 [
-    "_zone-updated",
     "about",
     "account",
     "accounts",
@@ -18,6 +17,8 @@
     "authorise",
     "authorization",
     "authorize",
+    "autoconfig",
+    "autodiscover",
     "billing",
     "blog",
     "board",
@@ -49,6 +50,8 @@
     "helper",
     "helpers",
     "home",
+    "host",
+    "hosting",
     "hostmaster",
     "http",
     "https",
@@ -169,6 +172,5 @@
     "www9",
     "wwww",
     "your-domain-name",
-    "zone",
-    "zone-updated"
+    "zone"
 ]

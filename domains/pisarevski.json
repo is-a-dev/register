@@ -1,0 +1,11 @@
+{
+  "description": "Personal Portfolio",
+  "repo": "https://github.com/pisarevski/pisarevski.github.io",
+  "owner": {
+    "username": "pisarevski",
+    "email": "pisarevsc@gmail.com"
+  },
+  "record": {
+    "CNAME": "pisarevski.github.io"
+  }
+}

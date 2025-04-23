@@ -6,9 +6,6 @@
     "email": "farelreskiaditiya22@gmail.com"
   },
   "record": {
-    "NS": [
-      "adi.ns.cloudflare.com",
-      "clayton.ns.cloudflare.com"
-    ]
+    "NS": ["adi.ns.cloudflare.com", "clayton.ns.cloudflare.com"]
   }
 }
