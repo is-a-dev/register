@@ -15,17 +15,16 @@ let v2 = [];
 
 for (const subdomain of internal) {
     const commonData = {
-        owner: {
-            username: "is-a-dev"
-        },
         domain: `${subdomain}.is-a.dev`,
         subdomain: subdomain,
-        internal: true
+        owner: {
+            username: "is-a-dev"
+        }
     };
 
     const records = {
         CNAME: "internal.is-a.dev"
-    }
+    };
 
     v1.push({
         ...commonData,
@@ -34,23 +33,24 @@ for (const subdomain of internal) {
 
     v2.push({
         ...commonData,
-        records: records
+        records: records,
+        reserved: true,
+        internal: true
     });
 }
 
 for (const subdomain of reserved) {
     const commonData = {
-        owner: {
-            username: "is-a-dev"
-        },
         domain: `${subdomain}.is-a.dev`,
         subdomain: subdomain,
-        reserved: true
+        owner: {
+            username: "is-a-dev"
+        }
     };
 
     const records = {
         URL: "https://is-a.dev/reserved"
-    }
+    };
 
     v1.push({
         ...commonData,
@@ -59,7 +59,8 @@ for (const subdomain of reserved) {
 
     v2.push({
         ...commonData,
-        records: records
+        records: records,
+        reserved: true
     });
 }
 
@@ -84,7 +85,6 @@ fs.readdir(directoryPath, function (err, files) {
                 delete item.owner.email;
             }
 
-            // Backwards compatible split
             const itemV1 = {
                 ...item,
                 record: item.records
