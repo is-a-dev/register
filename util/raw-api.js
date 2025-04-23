@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const directoryPath = path.join(__dirname, "domains");
-const reserved = require("util/reserved.json");
+const reserved = require("./util/reserved.json");
 const outputDir = path.join(__dirname, "raw-api");
 
 if (!fs.existsSync(outputDir)) {
