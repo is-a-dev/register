@@ -147,6 +147,7 @@ for (var i = 0; i < reserved.length; i++) {
         subdomainName !== "ns2" &&
         subdomainName !== "ns3" &&
         subdomainName !== "ns4" &&
+        subdomainName !== "raw" &&
         subdomainName !== "www"
     ) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
@@ -172,6 +173,7 @@ var ignored = [
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
     IGNORE("ns[1-4]", "A,AAAA"),
+    IGNORE("raw", "CNAME"),
     IGNORE("www", "*")
 ];
 
