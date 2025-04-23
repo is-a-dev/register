@@ -10,7 +10,8 @@
     "TXT": [
       "sl-verification=sibwuwbmtopnrrdmfxvdabidjzvcow",
       "v=spf1 include:simplelogin.co ~all",
-      "domain-verification=skyexplorewastaken"
+      "domain-verification=skyexplorewastaken",
+      "vyntr-verify=1745336503391-httpssewtisadev-89il2frr4s7"
     ]
   },
   "proxied": false
