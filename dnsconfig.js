@@ -1,6 +1,6 @@
 var domainName = "is-a.dev";
 var registrar = NewRegistrar("none");
-var dnsProvider = DnsProvider(NewDnsProvider("cloudflare"), 0);
+var dnsProvider = DnsProvider(NewDnsProvider("cloudflare"));
 
 function getDomainsList(filesPath) {
     var result = [];
