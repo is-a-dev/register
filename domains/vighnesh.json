@@ -1,0 +1,24 @@
+{
+  "domain": {
+    "name": "vighnesh",
+    "type": "cname",
+    "value": "thevighneshpawar.github.io",
+    "records": {
+      "MX": [
+        {
+          "priority": 10,
+          "server": "mx1.improvmx.com"
+        },
+        {
+          "priority": 20,
+          "server": "mx2.improvmx.com"
+        }
+      ],
+      "TXT": [
+        {
+          "value": "v=spf1 include:spf.improvmx.com ~all"
+        }
+      ]
+    }
+  }
+}
