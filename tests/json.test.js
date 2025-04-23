@@ -30,8 +30,9 @@ const optionalRedirectConfigFields = {
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 
-const excludedDomains = require("../util/excluded.json");
+const internalDomains = require("../util/internal.json");
 const reservedDomains = require("../util/reserved.json");
+
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
 
@@ -84,7 +85,7 @@ async function validateFields(t, obj, fields, file, prefix = "") {
 
         if (obj.hasOwnProperty(key)) {
             t.is(typeof obj[key], fields[key], `${file}: Field ${fieldPath} should be of type ${fields[key]}`);
-        } else if (fields === requiredFields) {
+        } else if (fields === requiredFields || fields === requiredOwnerFields) {
             t.true(false, `${file}: Missing required field: ${fieldPath}`);
         }
     }
@@ -103,17 +104,19 @@ async function validateFileName(t, file) {
         hostnameRegex,
         `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens.`
     );
+    t.false(internalDomains.includes(subdomain), `${file}: Subdomain name is registered internally`);
     t.false(reservedDomains.includes(subdomain), `${file}: Subdomain name is reserved`);
     t.true(
-        !reservedDomains.some((reserved) => subdomain.endsWith(`.${reserved}`)),
+        !internalDomains.some((i) => subdomain.endsWith(`.${i}`)),
+        `${file}: Subdomain name is registered internally`
+    );
+    t.true(
+        !reservedDomains.some((r) => subdomain.endsWith(`.${r}`)),
         `${file}: Subdomain name is reserved`
     );
 
     const rootSubdomain = subdomain.split(".").pop();
-
-    if (!excludedDomains.includes(rootSubdomain)) {
-        t.false(rootSubdomain.startsWith("_"), `${file}: Root subdomains should not start with an underscore`);
-    }
+    t.false(rootSubdomain.startsWith("_"), `${file}: Root subdomains should not start with an underscore`);
 }
 
 async function processFile(file, t) {

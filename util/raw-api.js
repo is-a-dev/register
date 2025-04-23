@@ -3,6 +3,7 @@ const path = require("path");
 
 const directoryPath = path.join(__dirname, "../domains");
 const reserved = require(path.join(__dirname, "reserved.json"));
+const internal = require(path.join(__dirname, "internal.json"));
 const outputDir = path.join(__dirname, "../raw-api");
 
 if (!fs.existsSync(outputDir)) {
@@ -11,6 +12,31 @@ if (!fs.existsSync(outputDir)) {
 
 let v1 = [];
 let v2 = [];
+
+for (const subdomain of internal) {
+    const commonData = {
+        owner: {
+            username: "is-a-dev"
+        },
+        domain: `${subdomain}.is-a.dev`,
+        subdomain: subdomain,
+        internal: true
+    };
+
+    const records = {
+        CNAME: "internal.is-a.dev"
+    }
+
+    v1.push({
+        ...commonData,
+        record: records
+    });
+
+    v2.push({
+        ...commonData,
+        records: records
+    });
+}
 
 for (const subdomain of reserved) {
     const commonData = {
@@ -22,18 +48,18 @@ for (const subdomain of reserved) {
         reserved: true
     };
 
-    const reservedRecords = {
+    const records = {
         URL: "https://is-a.dev/reserved"
     }
 
     v1.push({
         ...commonData,
-        record: reservedRecords
+        record: records
     });
 
     v2.push({
         ...commonData,
-        records: reservedRecords
+        records: records
     });
 }
 
