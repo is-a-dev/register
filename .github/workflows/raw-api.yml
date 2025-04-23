@@ -30,6 +30,9 @@ jobs:
             - name: Update Data
               run: node util/raw-api.js
 
+            - name: Create CNAME
+              run: echo "raw.is-a.dev" > raw-api/CNAME
+
             - name: Commit
               uses: cpina/github-action-push-to-another-repository@main
               with:
