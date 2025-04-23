@@ -142,6 +142,8 @@ var reserved = require("./util/reserved.json");
 for (var i = 0; i < reserved.length; i++) {
     var subdomainName = reserved[i];
     if (
+        subdomainName !== "autoconfig" &&
+        subdomainName !== "autodiscover" &&
         subdomainName !== "ns1" &&
         subdomainName !== "ns2" &&
         subdomainName !== "ns3" &&
