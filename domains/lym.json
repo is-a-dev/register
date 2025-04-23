@@ -3,7 +3,7 @@
     "username": "valentinsacco",
     "email": "vasacco@hotmail.com.ar"
   },
-  "record": {
+  "records": {
     "MX": [
       {
         "target": "feedback-smtp.sa-east-1.amazonses.com",

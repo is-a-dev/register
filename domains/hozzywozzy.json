@@ -5,7 +5,7 @@
   },
   "description": "domain for testing purposes",
   "repo": "https://github.com/hozzywozzy/hozzywozzy",
-  "record": {
+  "records": {
     "CNAME": "hozzywozzy.github.io"
   }
 }

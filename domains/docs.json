@@ -5,7 +5,7 @@
     "username": "is-a-dev",
     "email": "admin@is-a.dev"
   },
-  "record": {
+  "records": {
     "CNAME": "is-a-dev-docs.pages.dev"
   },
   "proxied": true

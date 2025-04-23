@@ -141,7 +141,7 @@ async function processFile(file, t) {
         );
     }
 
-    t.true(Object.keys(data.record).length > 0, `${file}: Missing DNS records`);
+    t.true(Object.keys(data.records).length > 0, `${file}: Missing DNS records`);
 
     // Check for duplicate keys
     const rawData = await fs.readFile(filePath, "utf8");

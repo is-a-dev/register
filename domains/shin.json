@@ -5,7 +5,7 @@
     "email": "",
     "twitter": "tachib_shin"
   },
-  "record": {
+  "records": {
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=tachibshin@duck.com"
   }
