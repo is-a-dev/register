@@ -27,13 +27,6 @@ jobs:
               with:
                   node-version: 20.x
 
-            - run: |
-                ls
-                echo ---
-                ls ../
-                echo ---
-                ls ../../
-
             - name: Update Data
               run: node util/raw-api.js
 
