@@ -1,28 +1,21 @@
 {
-  "domain": {
-    "name": "vighnesh",
-    "type": "cname",
-    "value": "thevighneshpawar.github.io",
-    "records": {
-      "MX": [
-        {
-          "priority": 10,
-          "server": "mx1.improvmx.com"
-        },
-        {
-          "priority": 20,
-          "server": "mx2.improvmx.com"
-        }
-      ],
-      "TXT": [
-        {
-          "value": "v=spf1 include:spf.improvmx.com ~all"
-        }
-      ]
-    }
-  },
   "owner": {
-    "name": "Vighnesh Pawar",
-    "email": "vighneshpawar004@gmail.com", 
-  }
+    "name": "thevighneshpawar",
+    "email": "vighneshpawar004@gmail.com"
+  },
+  "records": {
+    "CNAME": "thevighneshpawar.github.io",
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mx1.improvmx.com"
+      },
+      {
+        "priority": 20,
+        "target": "mx2.improvmx.com"
+      }
+    ],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+  },
+  "proxied": true
 }
