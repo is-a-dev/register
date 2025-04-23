@@ -24,40 +24,39 @@ var zone = [];
 for (var subdomain in domains) {
     var subdomainName = domains[subdomain].name;
     var data = domains[subdomain].data;
-    var records = data.records;
     var proxyState = data.proxied ? CF_PROXY_ON : CF_PROXY_OFF;
 
     // Handle A records
-    if (records.A) {
-        for (var a in records.A) {
-            zone.push(A(subdomainName, IP(records.A[a]), proxyState));
+    if (data.records.A) {
+        for (var a in data.records.A) {
+            zone.push(A(subdomainName, IP(data.records.A[a]), proxyState));
         }
     }
 
     // Handle AAAA records
-    if (records.AAAA) {
-        for (var aaaa in records.AAAA) {
-            zone.push(AAAA(subdomainName, records.AAAA[aaaa], proxyState));
+    if (data.records.AAAA) {
+        for (var aaaa in data.records.AAAA) {
+            zone.push(AAAA(subdomainName, data.records.AAAA[aaaa], proxyState));
         }
     }
 
     // Handle CAA records
-    if (records.CAA) {
-        for (var caa in records.CAA) {
-            var caaRecord = records.CAA[caa];
+    if (data.records.CAA) {
+        for (var caa in data.records.CAA) {
+            var caaRecord = data.records.CAA[caa];
             zone.push(CAA(subdomainName, caaRecord.tag, caaRecord.value));
         }
     }
 
     // Handle CNAME records
-    if (records.CNAME) {
-        zone.push(ALIAS(subdomainName, records.CNAME + ".", proxyState));
+    if (data.records.CNAME) {
+        zone.push(ALIAS(subdomainName, data.records.CNAME + ".", proxyState));
     }
 
     // Handle DS records
-    if (records.DS) {
-        for (var ds in records.DS) {
-            var dsRecord = records.DS[ds];
+    if (data.records.DS) {
+        for (var ds in data.records.DS) {
+            var dsRecord = data.records.DS[ds];
             zone.push(
                 DS(subdomainName, dsRecord.key_tag, dsRecord.algorithm, dsRecord.digest_type, dsRecord.digest)
             );
@@ -65,13 +64,13 @@ for (var subdomain in domains) {
     }
 
     // Handle MX records
-    if (records.MX) {
-        for (var mx in records.MX) {
-            var mxRecord = records.MX[mx];
+    if (data.records.MX) {
+        for (var mx in data.records.MX) {
+            var mxRecord = data.records.MX[mx];
 
             if (typeof mxRecord === "string") {
                 zone.push(
-                    MX(subdomainName, 10 + parseInt(mx), records.MX[mx] + ".")
+                    MX(subdomainName, 10 + parseInt(mx), data.records.MX[mx] + ".")
                 );
             } else {
                 zone.push(
@@ -86,16 +85,16 @@ for (var subdomain in domains) {
     }
 
     // Handle NS records
-    if (records.NS) {
-        for (var ns in records.NS) {
-            zone.push(NS(subdomainName, records.NS[ns] + "."));
+    if (data.records.NS) {
+        for (var ns in data.records.NS) {
+            zone.push(NS(subdomainName, data.records.NS[ns] + "."));
         }
     }
 
     // Handle SRV records
-    if (records.SRV) {
-        for (var srv in records.SRV) {
-            var srvRecord = records.SRV[srv];
+    if (data.records.SRV) {
+        for (var srv in data.records.SRV) {
+            var srvRecord = data.records.SRV[srv];
             zone.push(
                 SRV(subdomainName, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
             );
@@ -103,9 +102,9 @@ for (var subdomain in domains) {
     }
 
     // Handle TLSA records
-    if (records.TLSA) {
-        for (var tlsa in records.TLSA) {
-            var tlsaRecord = records.TLSA[tlsa];
+    if (data.records.TLSA) {
+        for (var tlsa in data.records.TLSA) {
+            var tlsaRecord = data.records.TLSA[tlsa];
 
             zone.push(
                 TLSA(
@@ -120,18 +119,18 @@ for (var subdomain in domains) {
     }
 
     // Handle TXT records
-    if (records.TXT) {
-        if (Array.isArray(records.TXT)) {
-            for (var txt in records.TXT) {
-                zone.push(TXT(subdomainName, records.TXT[txt].length <= 255 ? "\"" + records.TXT[txt] + "\"" : records.TXT[txt]));
+    if (data.records.TXT) {
+        if (Array.isArray(data.records.TXT)) {
+            for (var txt in data.records.TXT) {
+                zone.push(TXT(subdomainName, data.records.TXT[txt].length <= 255 ? "\"" + data.records.TXT[txt] + "\"" : data.records.TXT[txt]));
             }
         } else {
-            zone.push(TXT(subdomainName, records.TXT.length <= 255 ? "\"" + records.TXT + "\"" : records.TXT));
+            zone.push(TXT(subdomainName, data.records.TXT.length <= 255 ? "\"" + data.records.TXT + "\"" : data.records.TXT));
         }
     }
 
     // Handle URL records
-    if (records.URL) {
+    if (data.records.URL) {
         zone.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
     }
 }
