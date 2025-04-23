@@ -175,6 +175,4 @@ var ignored = [
     IGNORE("www", "*")
 ];
 
-records.push(...ignored);
-
-D(domainName, registrar, dnsProvider, records);
+D(domainName, registrar, dnsProvider, records, ignored);
