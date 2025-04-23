@@ -7,8 +7,7 @@
     "bsky": "stovonson.in",
     "discord": "stovonson"
   },
-  "record": {
+  "records": {
     "URL": "https://stovonson.in"
-  },
-  "proxied": true
+  }
 }
