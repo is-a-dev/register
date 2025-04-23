@@ -4,7 +4,7 @@
     "username": "t-starks",
     "email": "sr.shelby.lp@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "t-stark.netlify.app"
   },
   "proxied": false

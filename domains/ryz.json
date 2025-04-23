@@ -5,7 +5,7 @@
     "email": "j6qt9x5sj@mozmail.com",
     "discord": "4ryz"
   },
-  "record": {
+  "records": {
     "NS": ["betty.ns.cloudflare.com", "cody.ns.cloudflare.com"]
   }
 }

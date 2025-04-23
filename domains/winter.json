@@ -4,7 +4,7 @@
     "discord": "vwinter",
     "email": "me@vwinter.moe"
   },
-  "record": {
+  "records": {
     "NS": ["blakely.ns.cloudflare.com", "rocco.ns.cloudflare.com"]
   }
 }

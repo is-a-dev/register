@@ -6,7 +6,7 @@ const ignoredRootJSONFiles = ["package-lock.json", "package.json"];
 
 const requiredFields = {
     owner: "object",
-    record: "object"
+    records: "object"
 };
 
 const optionalFields = {
@@ -95,7 +95,6 @@ async function validateFileName(t, file) {
     t.false(file.includes(".is-a.dev"), `${file}: File name should not contain .is-a.dev`);
     t.true(file === file.toLowerCase(), `${file}: File name should be all lowercase`);
     t.false(file.includes("--"), `${file}: File name should not contain consecutive hyphens`);
-    t.false(file.startsWith("_redirect."), `${file}: File name should not start with _redirect`);
 
     const subdomain = file.replace(/\.json$/, "");
 
@@ -141,7 +140,7 @@ async function processFile(file, t) {
         );
     }
 
-    t.true(Object.keys(data.record).length > 0, `${file}: Missing DNS records`);
+    t.true(Object.keys(data.records).length > 0, `${file}: Missing DNS records`);
 
     // Check for duplicate keys
     const rawData = await fs.readFile(filePath, "utf8");

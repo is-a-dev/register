@@ -3,7 +3,7 @@
     "email": "xvannn07@example.com",
     "username": "Xvannn07"
   },
-  "record": {
+  "records": {
     "CNAME": "silly-arithmetic-ef452c.netlify.app"
   },
   "proxy": false

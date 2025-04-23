@@ -91,7 +91,7 @@ function isValidHexadecimal(value) {
 function validateRecordValues(t, data, file) {
     const subdomain = file.replace(/\.json$/, "");
 
-    Object.entries(data.record).forEach(([key, value]) => {
+    Object.entries(data.records).forEach(([key, value]) => {
         // General validation for arrays
         if (["A", "AAAA", "MX", "NS"].includes(key)) {
             t.true(Array.isArray(value), `${file}: Record value for ${key} should be an array`);
@@ -252,7 +252,7 @@ function validateRecordValues(t, data, file) {
 
             // Validate the redirect URL
             t.true(
-                data.record.URL !== customRedirectURL,
+                data.records.URL !== customRedirectURL,
                 `${urlMessage} should be different from the URL record at index ${idx}`
             );
             t.true(
@@ -271,7 +271,7 @@ function validateRecordValues(t, data, file) {
 t("All files should have valid record types", (t) => {
     files.forEach((file) => {
         const data = getDomainData(file);
-        const recordKeys = Object.keys(data.record);
+        const recordKeys = Object.keys(data.records);
 
         recordKeys.forEach((key) => {
             t.true(validateRecordType(key), `${file}: Invalid record type: ${key}`);
@@ -320,7 +320,7 @@ t("Root subdomains should have at least one usable record", (t) => {
         if (subdomain.includes(".") || subdomain.startsWith("_")) return;
 
         const data = getDomainData(file);
-        const recordKeys = Object.keys(data.record);
+        const recordKeys = Object.keys(data.records);
 
         t.true(
             usableRecordTypes.some((record) => recordKeys.includes(record)),

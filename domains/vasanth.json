@@ -6,7 +6,7 @@
     "twitter": "itsparser",
     "discord": "itsparser"
   },
-  "record": {
+  "records": {
     "CNAME": "itsparser.github.io"
   }
 }

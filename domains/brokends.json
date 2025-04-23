@@ -3,7 +3,7 @@
     "username": "dns24",
     "email": "wahidns24@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "dns24.github.io"
   }
 }

@@ -5,7 +5,7 @@
     "username": "dev-dco",
     "email": "dev-coop@murena.io"
   },
-  "record": {
+  "records": {
     "CNAME": "dev-dco.github.io"
   }
 }

@@ -4,7 +4,7 @@
     "email": "kayla@cybah.me"
   },
   "description": "For now I just want to secure this subdomain and have it redirect to my main site. I may do more with it later.",
-  "record": {
+  "records": {
     "URL": "https://cybah.me"
   }
 }

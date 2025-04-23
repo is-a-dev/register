@@ -6,7 +6,7 @@
     "note": "Koji Redirect"
   },
   "description": "Redirects to my Koji Profile: https://koji.to/EmilyLove",
-  "record": {
+  "records": {
     "CNAME": "cnames.withkoji.com"
   }
 }
