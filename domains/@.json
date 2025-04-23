@@ -4,6 +4,20 @@
     "email": "admin@is-a.dev"
   },
   "records": {
-    "CNAME": "is-a-dev.github.io"
-  }
+    "CNAME": "is-a-dev.github.io",
+    "MX": ["mail.hrsn.net"],
+    "TXT": ["v=spf1 include:_spf.hrsn.net -all"]
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/discord": "https://discord.gg/is-a-dev-830872854677422150",
+      "/docs": "https://docs.is-a.dev",
+      "/donate": "https://wdh.gg/pvNCdvs",
+      "/donate/ns": "https://wdh.gg/pvNCdvs",
+      "/donate/sponsor": "https://wdh.gg/sponsor",
+      "/github": "https://github.com/is-a-dev",
+      "/register": "https://github.com/is-a-dev/register"
+    }
+  },
+  "proxied": true
 }
