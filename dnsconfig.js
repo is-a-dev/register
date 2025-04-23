@@ -50,8 +50,7 @@ for (var subdomain in domains) {
 
     // Handle CNAME records
     if (domainData.record.CNAME) {
-        // Use ALIAS instead of CNAME to support CNAME flattening on the root domain
-        records.push(ALIAS(subdomainName, domainData.record.CNAME + ".", proxyState));
+        records.push(CNAME(subdomainName, domainData.record.CNAME + ".", proxyState));
     }
 
     // Handle DS records
@@ -147,7 +146,8 @@ for (var i = 0; i < reserved.length; i++) {
         subdomainName !== "ns1" &&
         subdomainName !== "ns2" &&
         subdomainName !== "ns3" &&
-        subdomainName !== "ns4"
+        subdomainName !== "ns4" &&
+        subdomainName !== "www"
     ) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
     }
@@ -159,6 +159,7 @@ var options = {
 
 var ignored = [
     IGNORE("*._domainkey", "TXT"),
+    IGNORE("@", "*"),
     IGNORE("_acme-challenge", "TXT"),
     IGNORE("_autodiscover._tcp", "SRV"),
     IGNORE("_dmarc", "TXT"),
@@ -166,6 +167,7 @@ var ignored = [
     IGNORE("autoconfig", "CNAME"),
     IGNORE("autodiscover", "CNAME"),
     IGNORE("ns[1-4]", "A,AAAA"),
+    IGNORE("www", "*")
 ];
 
 // Push TXT record of when the zone was last updated

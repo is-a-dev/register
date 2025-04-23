@@ -97,25 +97,23 @@ async function validateFileName(t, file) {
     t.false(file.includes("--"), `${file}: File name should not contain consecutive hyphens`);
     t.false(file.startsWith("_redirect."), `${file}: File name should not start with _redirect`);
 
-    if (file !== "@.json") {
-        const subdomain = file.replace(/\.json$/, "");
+    const subdomain = file.replace(/\.json$/, "");
 
-        t.regex(
-            subdomain + ".is-a.dev",
-            hostnameRegex,
-            `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens.`
-        );
-        t.false(reservedDomains.includes(subdomain), `${file}: Subdomain name is reserved`);
-        t.true(
-            !reservedDomains.some((reserved) => subdomain.endsWith(`.${reserved}`)),
-            `${file}: Subdomain name is reserved`
-        );
+    t.regex(
+        subdomain + ".is-a.dev",
+        hostnameRegex,
+        `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens.`
+    );
+    t.false(reservedDomains.includes(subdomain), `${file}: Subdomain name is reserved`);
+    t.true(
+        !reservedDomains.some((reserved) => subdomain.endsWith(`.${reserved}`)),
+        `${file}: Subdomain name is reserved`
+    );
 
-        const rootSubdomain = subdomain.split(".").pop();
+    const rootSubdomain = subdomain.split(".").pop();
 
-        if (!excludedDomains.includes(rootSubdomain)) {
-            t.false(rootSubdomain.startsWith("_"), `${file}: Root subdomains should not start with an underscore`);
-        }
+    if (!excludedDomains.includes(rootSubdomain)) {
+        t.false(rootSubdomain.startsWith("_"), `${file}: Root subdomains should not start with an underscore`);
     }
 }
 
