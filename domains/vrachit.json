@@ -3,7 +3,7 @@
     "username": "Rachitverma2006",
     "email": "vrachit@proton.me"
   },
-  "record": {
+  "records": {
     "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"],
     "TXT": [
       "zoho-verification=zb12977056.zmverify.zoho.in",

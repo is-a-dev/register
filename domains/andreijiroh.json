@@ -5,7 +5,7 @@
     "fediverse": "@ajhalili2006@tilde.zone",
     "bsky": "did:plc:wcx4c3osbuzrwmxkqdfqygwv"
   },
-  "record": {
+  "records": {
     "NS": ["kallie.ns.cloudflare.com", "tadeo.ns.cloudflare.com"]
   }
 }

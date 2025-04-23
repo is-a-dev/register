@@ -5,7 +5,7 @@
   },
   "repo": "https://portfolio.prnice.me",
   "description": "Test domain for this really cool service",
-  "record": {
+  "records": {
     "URL": "https://portfolio.prnice.me"
   }
 }

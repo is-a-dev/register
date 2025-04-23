@@ -3,7 +3,7 @@
     "username": "xiaoheiCat",
     "email": "is-a-dev-domain@thatxiaoheicat.blog"
   },
-  "record": {
+  "records": {
     "CNAME": "xiaoheicat-security-blog-frontend.pages.dev"
   }
 }
