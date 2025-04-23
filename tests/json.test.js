@@ -27,6 +27,13 @@ const optionalRedirectConfigFields = {
     redirect_paths: "boolean"
 };
 
+const blockedFields = [
+    "domain",
+    "internal",
+    "reserved",
+    "subdomain"
+];
+
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 
@@ -125,15 +132,16 @@ async function processFile(file, t) {
 
     validateFileName(t, file);
 
-    // Validate fields and duplicates
+    // Check for duplicate keys
+    const rawData = await fs.readFile(filePath, "utf8");
+    const duplicateKeys = findDuplicateKeys(rawData);
+    t.true(!duplicateKeys.length, `${file}: Duplicate keys found: ${duplicateKeys.join(", ")}`);
+
+    // Validate fields
     validateFields(t, data, requiredFields, file);
     validateFields(t, data.owner, requiredOwnerFields, file, "owner");
     validateFields(t, data.owner, optionalOwnerFields, file, "owner");
     validateFields(t, data, optionalFields, file);
-
-    if (data.redirect_config) {
-        validateFields(t, data.redirect_config, optionalRedirectConfigFields, file, "redirect_config");
-    }
 
     if (data.owner.email) {
         t.regex(data.owner.email, emailRegex, `${file}: Owner email should be a valid email address`);
@@ -145,10 +153,13 @@ async function processFile(file, t) {
 
     t.true(Object.keys(data.records).length > 0, `${file}: Missing DNS records`);
 
-    // Check for duplicate keys
-    const rawData = await fs.readFile(filePath, "utf8");
-    const duplicateKeys = findDuplicateKeys(rawData);
-    t.true(!duplicateKeys.length, `${file}: Duplicate keys found: ${duplicateKeys.join(", ")}`);
+    if (data.redirect_config) {
+        validateFields(t, data.redirect_config, optionalRedirectConfigFields, file, "redirect_config");
+    }
+
+    for (const field of blockedFields) {
+        t.true(!data.hasOwnProperty(field), `${file}: Disallowed field: ${field}`);
+    }
 }
 
 t("JSON files should not be in the root directory", (t) => {
