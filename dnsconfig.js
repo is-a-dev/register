@@ -153,11 +153,11 @@ for (var i = 0; i < reserved.length; i++) {
     }
 }
 
-var options = {
-    no_ns: "true"
-};
+// Zone last updated TXT record
+records.push(TXT("_zone-updated", "\"" + Date.now().toString() + "\""));
 
 var ignored = [
+    IGNORE("\\*", "A"),
     IGNORE("*._domainkey", "TXT"),
     IGNORE("@", "*"),
     IGNORE("_acme-challenge", "TXT"),
@@ -175,7 +175,6 @@ var ignored = [
     IGNORE("www", "*")
 ];
 
-// Push TXT record of when the zone was last updated
-records.push(TXT("_zone-updated", "\"" + Date.now().toString() + "\""));
+records.push(...ignored);
 
-D(domainName, registrar, dnsProvider, options, ignored, records);
+D(domainName, registrar, dnsProvider, records);
