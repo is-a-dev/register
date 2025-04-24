@@ -8,7 +8,7 @@
   "records": {
     "MX": [
       "feedback-smtp.us-east-1.amazonses.com",
-      "	mx.smtp.dev"
+      "mx.smtp.dev"
     ],
     "TXT": [
       "v=spf1 include:amazonses.com ~all",
