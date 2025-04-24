@@ -1,1 +1,11 @@
-
+{
+  "description": "A personal portfolio website",
+  "repo": "https://github.com/evansrrr/evans",
+  "owner": {
+    "username": "Evansrrr",
+    "email": "enzoraziore@outlook.com"
+  },
+  "records": {
+    "CNAME": "evansrrr.netlify.app"
+  }
+}
