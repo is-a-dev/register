@@ -1,0 +1,11 @@
+{
+  "description": "Load Balancer for NextCloud cluster on personal machine",
+  "owner": {
+    "username": "Hac1es",
+    "email": "nchinhtung@gmail.com"
+  },
+  "records": {
+    "CNAME": "nt132doan.duckdns.org"
+  },
+  "proxied": true
+}
