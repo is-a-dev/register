@@ -1,0 +1,11 @@
+{
+    "description": "Personal Site",
+    "repo": "https://github.com/bavsmhyan/bavsmhyan.github.io.git",
+    "owner": {
+        "username": "bavsmhyan",
+        "email": "bavsmh@yandex.com"
+    },
+    "records": {
+        "CNAME": "bavsmhyan.github.io"
+    }
+}
