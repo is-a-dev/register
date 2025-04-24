@@ -1,11 +1,24 @@
 {
-    "description": "Portfolio saya yang di-deploy di Vercel",
-    "repo": "https://github.com/saifulabidin/saifulabidin.github.io",
-    "owner": {
-      "username": "saifulabidin",
-      "email": "syaiful.osd@yahoo.com"
-    },
-    "records": {
-        "CNAME":"sabidzpro.vercel.app"
-    }
+  "description": "Portfolio saya yang di-deploy di Vercel",
+  "repo": "https://github.com/saifulabidin/saifulabidin.github.io",
+  "owner": {
+    "username": "saifulabidin",
+    "email": "syaiful.osd@yahoo.com"
+  },
+  "records": {
+    "CNAME": "sabidzpro.vercel.app",
+    "MX": [
+      {
+        "priority": 10,
+        "host": "mx1.forwardemail.net"
+      },
+      {
+        "priority": 10,
+        "host": "mx2.forwardemail.net"
+      }
+    ],
+    "TXT": [
+      "forward-email=syaiful.osd@yahoo.com"
+    ]
   }
+}
