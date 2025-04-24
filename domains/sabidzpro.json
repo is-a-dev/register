@@ -5,6 +5,7 @@
     "username": "saifulabidin",
     "email": "syaiful.osd@yahoo.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "sabidzpro.vercel.app",
     "MX": [
