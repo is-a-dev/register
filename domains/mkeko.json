@@ -5,6 +5,9 @@
   },
   "records": {
     "A": ["76.76.21.21"],
-    "TXT": "vyntr-verify=1745509030098-httpsmkekoisadev-2c0jtf2go8k"
+    "NS": [
+      "karl.ns.cloudflare.com",
+      "cruz.ns.cloudflare.com"
+    ]
   }
 }
