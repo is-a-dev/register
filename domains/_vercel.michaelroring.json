@@ -4,6 +4,6 @@
         "email": "roringmichael@gmail.com"
     },
     "records": {
-        "CNAME": "https://roring-portfolio.vercel.app/"
+        "TXT": "vc-domain-verify=michaelroring.is-a.dev,af111f419988cc62a0db"
     }
 }
