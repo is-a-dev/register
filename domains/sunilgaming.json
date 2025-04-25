@@ -1,0 +1,10 @@
+{
+  "subdomain": "sunilgaming",  // Your subdomain (this will be the first part of your URL)
+  "owner": {
+    "email": "hustlewithsunil@gmail.com"  // Your email (for account verification)
+  },
+  "record": {
+    "CNAME": "my-portfolio.up.railway.app"  // Your Railway app URL (without "http://")
+  },
+  "proxied": false  // Whether to proxy traffic through is-a.dev (false is fine for this case)
+}
