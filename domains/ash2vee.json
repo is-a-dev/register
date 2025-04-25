@@ -1,11 +1,11 @@
 {
-  "description": "Im gonna use this website for my portfolio",
-  "repo": "https://github.com/ash2vee/ash2vee.github.io",
+  "description": "Im gonna use this website for my personal use",
+  "repo": "https://github.com/vontey/vontey.github.io",
   "owner": {
-    "username": "ash2vee",
+    "username": "vontey",
     "email": "ash2vee@outlook.com"
   },
   "records": {
-    "CNAME": "ash2vee.github.io"
+    "CNAME": "vontey.github.io"
   }
 }
