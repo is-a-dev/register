@@ -7,7 +7,6 @@
         "email": "iigrushin@gmail.com"
     },
     "record": {
-        "CNAME": "mcgru.github.io",
         "A": [ "192.168.168.111" ],
         "TXT": [
           "this is mcgru.is-a.dev",
