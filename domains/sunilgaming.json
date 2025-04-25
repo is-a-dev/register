@@ -1,0 +1,10 @@
+{
+  "subdomain": "sunil",
+  "owner": {
+    "email": "sunil@example.com"
+  },
+  "record": {
+    "CNAME": "sunil.repl.co"
+  },
+  "proxied": false
+}
