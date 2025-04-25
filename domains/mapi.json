@@ -1,7 +1,8 @@
 {
   "description": "mapi.is-a.dev",
   "owner": {
-    "username": "eakkasitgithub"
+    "username": "eakkasitgithub",
+    "email": "popemepop@gmail.com"
   },
   "records": {
     "CNAME": "https://rapid-response-report-hub.lovable.app/"
