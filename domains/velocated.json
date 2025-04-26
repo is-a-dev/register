@@ -2,9 +2,9 @@
   "owner": {
     "username": "velocated",
     "email": "vemcfr@gmail.com",
-    "Discord": "velocated"
+    "discord": "velocated"
   },
-  "record": {
+  "records": {
     "CNAME": "velocated.pages.dev"
   }
 }
