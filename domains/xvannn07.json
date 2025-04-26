@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "email": "xvannn07@example.com",
-        "username": "Xvannn07"
-    },
-    "records": {
-        "CNAME": "portfolio-six-alpha-70.vercel.app"
-    }
+  "owner": {
+    "username": "Xvannn07"
+  },
+  "records": {
+    "CNAME": "portfolio-six-alpha-70.vercel.app"
+  }
 }
