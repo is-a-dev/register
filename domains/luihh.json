@@ -4,7 +4,18 @@
     "email": "luihh@proton.me",
     "discord": "481268875586174986"
   },
-  "record": {
+  "records": {
     "CNAME": "spreadsheet-fih.pages.dev"
-  }
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/luihh",
+      "/twitch": "https://www.twitch.tv/luihh23",
+      "/youtube": "https://www.youtube.com/@Luihh",
+      "/discord": "https://discord.gg/MdMFGJdUB6",
+      "/steam": "https://steamcommunity.com/id/Luihh23",
+      "/paypal": "https://www.paypal.com/paypalme/luihhdev"
+    }
+  },
+  "proxied": true
 }

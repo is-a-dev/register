@@ -1,11 +1,10 @@
 {
   "description": "Pico-8 in-browser emulator.",
-  "repo": "https://github.com/burandby",
   "owner": {
     "username": "burandby",
     "email": "bur.and.by@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "burandby.github.io"
   }
 }

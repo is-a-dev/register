@@ -1,11 +1,10 @@
 {
   "description": "Rohith's personal website",
-  "repo": "https://github.com/rohithp7777",
   "owner": {
     "username": "rohithp7777",
     "email": "rohithp8899@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rohith-1c974.web.app"
   }
 }

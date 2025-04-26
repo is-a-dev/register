@@ -1,0 +1,12 @@
+{
+  "description": "Personal/Portfolio",
+  "repo": "https://github.com/ARubikMaster/is-a.dev",
+  "owner": {
+    "username": "arubikmaster",
+    "email": "epiccooldog@techie.com",
+    "discord": "rubikmaster"
+  },
+  "records": {
+    "CNAME": "arubikmaster.github.io"
+  }
+}

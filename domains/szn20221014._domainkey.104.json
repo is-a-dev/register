@@ -1,0 +1,10 @@
+{
+  "description": "DKIM",
+  "owner": {
+    "username": "QuinceTart10",
+    "discord": "862644161156218891"
+  },
+  "records": {
+    "CNAME": "szn20221014._domainkey.seznam.cz"
+  }
+}

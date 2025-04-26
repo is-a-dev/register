@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "t-starks",
+    "email": "sr.shelby.lp@gmail.com"
+  },
+  "records": {
+    "CNAME": "t-stark.netlify.app"
+  },
+  "proxied": false
+}

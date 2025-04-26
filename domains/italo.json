@@ -1,0 +1,11 @@
+{
+  "description": "Personal subdomain - italo.is-a.dev",
+  "repo": "https://github.com/ItaloSa/italosa.github.io",
+  "owner": {
+    "username": "italoSa",
+    "email": "italosousa@duck.com"
+  },
+  "records": {
+    "CNAME": "italosa.github.io"
+  }
+}

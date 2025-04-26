@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "AVVERSION",
-    "email": "79741360+AVVERSION@users.noreply.github.com"
+    "username": "AVVERSION"
   },
-  "record": {
+  "records": {
     "CNAME": "avversion.github.io"
   }
 }

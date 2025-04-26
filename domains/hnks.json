@@ -1,0 +1,11 @@
+{
+  "repo": "https://github.com/hnks-gh/hnks-gh.github.io",
+  "owner": {
+    "username": "hnks-gh",
+    "email": "contact@mellifluous.eu.org"
+  },
+  "records": {
+    "CNAME": "hnks-gh.github.io"
+  },
+  "proxied": false
+}

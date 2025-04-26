@@ -1,11 +1,10 @@
 {
   "description": "Ashish's personal developer website",
-  "repo": "https://github.com/ashiishme",
   "owner": {
     "username": "ashiishme",
     "email": "contact@ashiish.me"
   },
-  "record": {
+  "records": {
     "CNAME": "ashiish.me"
   }
 }
