@@ -4,7 +4,6 @@
         "username": "Xvannn07"
     },
     "record": {
-        "CNAME": "https://portfolio-six-alpha-70.vercel.app"
-    },
-    "proxy": false
+        "CNAME": "portfolio-six-alpha-70.vercel.app"
+    }
 }
