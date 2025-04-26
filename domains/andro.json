@@ -7,7 +7,7 @@
     "MX": [
       {
         "target": "mail6.serv00.com",
-        "priority": "10"
+        "priority": 10
       }
     ]
   }
