@@ -1,0 +1,19 @@
+{
+  "description": "Portfolio saya yang di-deploy di Vercel",
+  "repo": "https://github.com/saifulabidin/saifulabidin.github.io",
+  "owner": {
+    "username": "saifulabidin",
+    "email": "syaiful.osd@yahoo.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "sabidzpro.vercel.app",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
+}
