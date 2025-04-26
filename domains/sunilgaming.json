@@ -1,10 +1,8 @@
 {
-  "subdomain": "sunil",
   "owner": {
     "email": "hustlewithsunil@gmail.com"
   },
   "record": {
     "CNAME": "sunily7712.repl.co"
-  },
-  "proxied": false
+  }
 }
