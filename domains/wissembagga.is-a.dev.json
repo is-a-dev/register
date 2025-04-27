@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "email": "wissbagga@gmail.com"
+  },
+  "record": {
+    "cname": "wissembagga.vercel.app"
+  },
+  "ttl": 3600,
+  "txt": {
+    "_vercel": "b16a1fded1354394c796"
+  }
+}
