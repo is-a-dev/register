@@ -1,0 +1,12 @@
+{
+  "description": "jine.is-a.dev",
+  "repo": "https://github.com/jine",
+  "owner": {
+    "username": "jine",
+    "email": "jim@jine.se",
+    "discord": "jimnelin"
+  },
+  "records": {
+    "CNAME": "dev.jine.se"
+  }
+}
