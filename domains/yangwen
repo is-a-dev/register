@@ -1,0 +1,17 @@
+{
+    "repo": "https://github.com/Arzejames/arzejames.github.io",
+
+    "owner": {
+        "username": "wooyang",
+        "email": "wooyang456@gmail.com"
+    },
+
+    "target": {
+        "CNAME": {
+            "name": "yangwen",
+            "value": "newsnow-6gz.pages.dev"
+        }
+    },
+
+    "proxied": true
+}
