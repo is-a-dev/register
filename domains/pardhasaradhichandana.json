@@ -1,9 +1,11 @@
 {
+  "description": "My new website",
+  "repo": "https://github.com/pardha-saradhi411/pardhasaradhichandana",
   "owner": {
-    "github": "pardha-saradhi411"
+    "username": "pardha-saradhi411",
+    "email": "pardhasaradhi7477@gmail.com"
   },
-  "repo": "pardha-saradhi411/pardhasaradhichandana",
-  "target": "pardha-saradhi411.github.io",
-  "type": "CNAME",
-  "proxied": false
+  "record": {
+    "CNAME": "pardha-saradhi411.github.io"
+  }
 }
