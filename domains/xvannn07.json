@@ -1,10 +1,8 @@
 {
   "owner": {
-    "email": "xvannn07@example.com",
     "username": "Xvannn07"
   },
   "records": {
-    "CNAME": "silly-arithmetic-ef452c.netlify.app"
-  },
-  "proxy": false
+    "CNAME": "portfolio-six-alpha-70.vercel.app"
+  }
 }
