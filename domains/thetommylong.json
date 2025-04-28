@@ -6,6 +6,7 @@
     },
     "records": {
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": ["forward-email=NjhhNzQwMjM2Y2YwNjI1NC02NjdlMGZmMDRlNzJhNDMwOGJjOWIyYjc2YmRlOTdkODk0ZDc1MTM4NGVlNDBiZTIzYmEwZWM2NzZjY2JhYWJk"]
+        "TXT": "forward-email=ZDFmODkzM2IwYTc3MjA2YS0xNjdmYjg1NTZlNTJhZTAyNDAwZDE3Y2M2YTg4YTc1MzIzZWFkOGE3MGM1ZWNlMWU0YTQyOWE4ZTc5NjFlNTky",
+        "TXT": "forward-email=MGY1NzY3YWI3ZTkxMzc4Mi05ZTVlZTZmMjM1YmQ2ZTA4YTE5NzAwNmJhYThiNmM1YjI0OWFiN2Q5ZjU2NTc0YzY1ZDY2NTEyYTA3Zjg0MWUyODFjYjIyMjg1NGUzZWFiYWUzZDAzN2I1Nzc5NDM0OWE="
     }
 }
