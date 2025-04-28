@@ -5,6 +5,7 @@
         "discord": "thetommylong"
     },
     "records": {
-        "CNAME": "cool-sorbet-8aff60.netlify.app"
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": "forward-email=ZjQ4MzI4ZjVhZjA5Y2RhMy03MTIyMzIwMDJhYjg2MzA3MmQzNmY4OTAwNDE0ZmVjYWMwMjU1ZWU1ODg0MjIxNDEzNGYzMjc1OTE2NmI5NjIzZTJmZWNmOTQ5MjhjMmQ5ZjgzODUxMzQyYjE0MjU1MDU="
     }
 }
