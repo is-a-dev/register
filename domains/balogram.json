@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Balogram-dev",
-        "email": "tunde.agboke@gmail.com"
-    },
-    "record": {
-        "CNAME": "balogram-dev.github.io"
-    }
+  "owner": {
+    "username": "Balogram-dev",
+    "email": "tunde.agboke@gmail.com"
+  },
+  "records": {
+    "CNAME": "balogram-dev.github.io"
+  }
 }

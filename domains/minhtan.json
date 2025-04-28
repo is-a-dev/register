@@ -5,7 +5,7 @@
     "username": "tanbaycu",
     "email": "tanbaycu@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "python-cli-webapp.vercel.app"
   },
   "proxied": true

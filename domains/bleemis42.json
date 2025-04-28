@@ -4,7 +4,7 @@
     "description": "BleemIs42.is-a.dev",
     "email": "BleemIs42@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "BleemIs42.github.io"
   }
 }

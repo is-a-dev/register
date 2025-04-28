@@ -5,10 +5,7 @@
     "username": "debjotimallick",
     "email": "debjoti97@gmail.com"
   },
-  "record": {
-    "NS": [
-      "art.ns.cloudflare.com", 
-      "liz.ns.cloudflare.com"
-    ]
+  "records": {
+    "NS": ["art.ns.cloudflare.com", "liz.ns.cloudflare.com"]
   }
 }

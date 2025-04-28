@@ -3,7 +3,7 @@
     "username": "joestr",
     "email": "joelstrasser1@gmail.com"
   },
-  "record": {
+  "records": {
     "NS": [
       "ns1-03.azure-dns.com",
       "ns2-03.azure-dns.net",

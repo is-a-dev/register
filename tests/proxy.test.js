@@ -30,7 +30,7 @@ function validateProxiedRecords(t, data, file) {
     }
 
     if (data.proxied) {
-        const hasProxiedRecord = Object.keys(data.record).some((key) => requiredRecordsToProxy.has(key));
+        const hasProxiedRecord = Object.keys(data.records).some((key) => requiredRecordsToProxy.has(key));
 
         t.true(
             hasProxiedRecord,

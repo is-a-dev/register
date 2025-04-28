@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "description": "VS Code Remote Access",
-        "username": "aessaputra",
-        "twitter": "pioonrey"
-    },
-    "record": {
-        "A": ["168.138.171.60"]
-    }
+  "owner": {
+    "description": "VS Code Remote Access",
+    "username": "aessaputra",
+    "twitter": "pioonrey"
+  },
+  "records": {
+    "A": ["168.138.171.60"]
+  }
 }
