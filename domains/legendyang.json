@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "yoni13",
+        "email": "yoni980807@gmail.com"
+    },
+    "records": {
+        "NS": [
+            "diana.ns.cloudflare.com",
+            "toby.ns.cloudflare.com"
+        ]
+    }
+}
