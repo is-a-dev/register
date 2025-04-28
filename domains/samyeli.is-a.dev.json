@@ -1,0 +1,11 @@
+{
+    "description": "Hosting statcic pages",
+    "repo": "https://github.com/github-username/github-repository",
+    "owner": {
+        "username": "github-username",
+        "email": "me@example.com"
+    },
+    "records": {
+        "CNAME": "github-username.github.io"
+    }
+}
