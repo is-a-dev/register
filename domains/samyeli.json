@@ -1,14 +1,14 @@
 {
-    "description": "Hosting my statcic calculator",
-    "repo": "https://p41d.github.io/samyeli.is-a.dev.json/",
+    "description": "Hosting my static calculator",
+    "repo": "https://github.com/P41D/samyeli.is-a.dev.json",
     "owner": {
         "account": "https://github.com/P41D/",
-        "email": "imysmpcbn@gmail.com",
+        "email": "imysmpcbn@gmail.com"
     },
     "records": {
         "A": "185.199.108.153",
         "A": "185.199.109.153",
         "A": "185.199.110.153",
-        "A": "185.199.111.153",
+        "A": "185.199.111.153"
     }
 }
