@@ -1,0 +1,11 @@
+{
+  "description": "Hyperion Repacks Sitio Oficial",
+  "repo": "https://github.com/hyperion-repacks/hyperion-repacks.github.io",
+  "owner": {
+    "username": "hyperion-repacks",
+    "email": "hyperion.repacks@proton.me"
+  },
+  "records": {
+    "CNAME": "hyperion-repacks.github.io"
+  }
+}
