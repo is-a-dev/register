@@ -1,11 +1,13 @@
 {
-    "description": "Hosting statcic pages",
-    "repo": "https://github.com/github-username/github-repository",
+    "description": "Hosting my statcic calculator",
+    "repo": "https://p41d.github.io/samyeli.is-a.dev.json/",
     "owner": {
-        "username": "github-username",
-        "email": "me@example.com"
+        "account": "https://github.com/P41D/",
     },
     "records": {
-        "CNAME": "github-username.github.io"
+        "A": "185.199.108.153",
+        "A": "185.199.109.153",
+        "A": "185.199.110.153",
+        "A": "185.199.111.153",
     }
 }
