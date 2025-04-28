@@ -2,7 +2,10 @@
     "owner": {
         "username": "anntx9"
     },
-    "records": {
-        "RECORDTYPE": "RECORDCONTENT"
-    }
+  "records": {
+    "NS": [
+      "paige.ns.cloudflare.com",
+      "seth.ns.cloudflare.com"
+    ]
+  }
 }
