@@ -5,7 +5,7 @@
         "discord": "thetommylong"
     },
     "records": {
-        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": ["forward-email=NjhhNzQwMjM2Y2YwNjI1NC02NjdlMGZmMDRlNzJhNDMwOGJjOWIyYjc2YmRlOTdkODk0ZDc1MTM4NGVlNDBiZTIzYmEwZWM2NzZjY2JhYWJk"]
     }
 }
