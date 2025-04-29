@@ -4,6 +4,6 @@
         "email": "kawet00@proton.me"
     },
     "records": {
-        "CNAME": "portfolio-ty6q.vercel.app"
+        "TXT": "vc-domain-verify=kawet.is-a.dev,e9d56f9052f76702848a"
     }
 }
