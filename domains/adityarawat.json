@@ -1,6 +1,8 @@
 {
+  "description": "Aditya's personal portfolio",
   "owner": {
-    "github": "Aditya-bot2007"
+    "username": "Aditya-bot2007"
+    "email": "palwal.2007ar@gmail.com"
   },
   "redirect": "https://normieaditya.blogspot.com/"
 }
