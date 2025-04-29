@@ -4,10 +4,8 @@
     "username": "lightningON90hz",
     "email": "andrewworkmail123@gmail.com"
   },
-  "record": {
-    "A": [
-      "69.30.249.53"
-    ]
+  "records": {
+    "A": ["69.30.249.53"]
   },
   "proxied": false
 }

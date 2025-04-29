@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "atomictyler1",
-        "discord": "atomictyler"
-    },
-    "record": {
-        "CNAME": "atomictyler1.github.io"
-    }
+  "owner": {
+    "username": "atomictyler1",
+    "discord": "atomictyler"
+  },
+  "records": {
+    "CNAME": "atomictyler1.github.io"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "benvgaming",
-        "email": "benvipgaming@protonmail.com"
-    },
-    "record": {
-        "CNAME": "ben-homepage.vercel.app"
-    }
+  "owner": {
+    "username": "benvgaming",
+    "email": "benvipgaming@protonmail.com"
+  },
+  "records": {
+    "CNAME": "ben-homepage.vercel.app"
+  }
 }

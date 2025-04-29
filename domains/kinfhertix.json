@@ -1,10 +1,10 @@
 {
   "owner": {
-      "username": "Kinfhertix",
-      "email": "kinfhertix@gmail.com",
-      "discord": "i_mert"
+    "username": "Kinfhertix",
+    "email": "kinfhertix@gmail.com",
+    "discord": "i_mert"
   },
-  "record": {
-      "CNAME": "kinfhertix.vercel.app"
+  "records": {
+    "CNAME": "kinfhertix.vercel.app"
   }
 }

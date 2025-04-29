@@ -4,13 +4,8 @@
     "username": "shomykohai",
     "twitter": "shomykohai"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": [
       "forward-email=MzBmYTJhZTc2Y2UyM2IzZS1jOGZmZDMwNWQzZjc2ZmIzMWIzZDQwOGZlNjNjZmMwMmQ5OTZhZTU2YTAxMGI1MGQ2ODk1MDFkYTEyMjM4OTk1Y2UyMWU3M2Y5NDc3YTk3NWQzN2NlYWVmMTY5ZGYyNzJmODljZGJlY2JiNmNmNWZkZmQyMTUxMzMxOGY5ZjExOA==",

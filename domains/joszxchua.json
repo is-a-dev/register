@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "joszxchua",
-        "email": "joschuaordonio29@gmail.com"
-    },
-    "record": {
-        "CNAME": "joszxchua-dev.vercel.app"
-    }
+  "owner": {
+    "username": "joszxchua",
+    "email": "joschuaordonio29@gmail.com"
+  },
+  "records": {
+    "CNAME": "joszxchua-dev.vercel.app"
+  }
 }

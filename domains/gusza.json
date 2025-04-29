@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "gusza110811",
-        "email": "auguz1108@gmail.com"
-    },
-    "record": {
-        "CNAME": "gusza110811.github.io"
-    }
+  "owner": {
+    "username": "gusza110811",
+    "email": "auguz1108@gmail.com"
+  },
+  "records": {
+    "CNAME": "gusza110811.github.io"
+  }
 }

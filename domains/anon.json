@@ -5,7 +5,7 @@
     "username": "anondev-sudo",
     "email": "contact@anonym-dev.tk"
   },
-  "record": {
+  "records": {
     "A": ["216.24.57.1"],
     "MX": [
       "4e7b2afdee66dc77.mx1.emailprofi.seznam.cz",
