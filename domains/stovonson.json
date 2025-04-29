@@ -1,0 +1,13 @@
+{
+  "description": "It's in the URL.",
+  "repo": "https://github.com/stovonson/t89",
+  "owner": {
+    "username": "stovonson",
+    "email": "me@stovonson.in",
+    "bsky": "stovonson.in",
+    "discord": "stovonson"
+  },
+  "records": {
+    "URL": "https://stovonson.in"
+  }
+}

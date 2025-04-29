@@ -5,7 +5,7 @@
     "discord": "Avery~#1845"
   },
   "description": "A cool domain that will most likely use!",
-  "record": {
+  "records": {
     "CNAME": "caverym.net"
   }
 }

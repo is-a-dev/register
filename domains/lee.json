@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kneesdev",
-        "email": "kneesdev@hotmail.com"
-    },
-    "record": {
-        "CNAME": "wyzux.vercel.app"
-    }
+  "owner": {
+    "username": "kneesdev",
+    "email": "kneesdev@hotmail.com"
+  },
+  "records": {
+    "CNAME": "wyzux.vercel.app"
+  }
 }

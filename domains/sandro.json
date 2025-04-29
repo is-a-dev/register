@@ -5,7 +5,7 @@
   },
   "description": "Personal site, as well as hosting a few tools",
   "repo": "https://github.com/diordnas/diordnas.github.io",
-  "record": {
+  "records": {
     "CNAME": "diordnas.github.io"
   }
 }

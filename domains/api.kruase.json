@@ -6,9 +6,7 @@
     "email": "kruanse@ya.ru",
     "telegram": "https://t.me/KruASe"
   },
-  "record": {
-    "A": [
-      "89.19.177.86"
-    ]
+  "records": {
+    "A": ["89.19.177.86"]
   }
 }

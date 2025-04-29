@@ -1,10 +1,9 @@
 {
-  "domain": "dharamvir.is-a.dev",
   "owner": {
-    "email": "gohildharamvirsinh1530@gmail.com",
-    "github": "DH4R4M"
+    "username": "DH4R4M",
+    "email": "gohildharamvirsinh1530@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "DH4R4M.github.io"
   }
 }

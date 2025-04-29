@@ -1,10 +1,10 @@
 {
-    "repo": "https://github.com/fjaxzhy/is-a.dev",
-    "owner": {
-      "username": "Fjaxzhy",
-      "email": "admin@kagurayayoi.top"
-    },
-    "record": {
-      "CNAME": "kagurayayoi.top"
-    }
+  "repo": "https://github.com/fjaxzhy/is-a.dev",
+  "owner": {
+    "username": "Fjaxzhy",
+    "email": "admin@kagurayayoi.top"
+  },
+  "records": {
+    "CNAME": "kagurayayoi.top"
   }
+}

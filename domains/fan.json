@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "fandyahmd",
-        "email": "fandyahmadazizi@gmail.com"
-    },
-    "record": {
-        "CNAME": "fann.pages.dev"
-    }
+  "owner": {
+    "username": "fandyahmd",
+    "email": "fandyahmadazizi@gmail.com"
+  },
+  "records": {
+    "CNAME": "fann.pages.dev"
+  }
 }
