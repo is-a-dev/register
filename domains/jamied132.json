@@ -4,7 +4,7 @@
     "username": "jamied132",
     "email": "jamied132.email@gmail.com"
   },
-  "record": {
+  "records": {
     "NS": ["kevin.ns.cloudflare.com", "megan.ns.cloudflare.com"]
   }
 }

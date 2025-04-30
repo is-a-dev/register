@@ -1,0 +1,11 @@
+{
+  "repo": "https://github.com/anujrajak/anujrajak.github.io",
+  "description": "Verification for anujrajak.is-a.dev",
+  "owner": {
+    "username": "anujrajak",
+    "email": "mr.anujrajak@gmail.com"
+  },
+  "records": {
+    "CNAME": "anujrajak.github.io"
+  }
+}

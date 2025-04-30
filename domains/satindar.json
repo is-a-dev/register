@@ -6,7 +6,7 @@
     "email": "satindar@satindar-is.me",
     "twitter": "satindar31"
   },
-  "record": {
+  "records": {
     "NS": ["brodie.ns.cloudflare.com", "jamie.ns.cloudflare.com"],
     "DS": [
       {

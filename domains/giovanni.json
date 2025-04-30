@@ -7,7 +7,7 @@
   },
   "description": "is-a.dev subdomain for my personal blog",
   "repo": "https://github.com/ItachiSan/itachisan.github.io",
-  "record": {
+  "records": {
     "CNAME": "itachisan.github.io"
   }
 }

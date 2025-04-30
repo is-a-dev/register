@@ -1,12 +1,10 @@
 {
-  "domain": "bxqrn.is-a.dev",
-  "subdomain": "bxqrn",
   "owner": {
     "repo": "https://github.com/bxqrn/bxqrn.github.io",
     "email": "flqmze@gmail.com",
     "username": "bxqrn"
   },
-  "record": {
+  "records": {
     "CNAME": "bxqrn.github.io"
   }
 }

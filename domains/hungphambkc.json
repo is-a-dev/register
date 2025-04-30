@@ -1,0 +1,11 @@
+{
+  "description": "Portfolio redirect for hungphambkc",
+  "repo": "https://github.com/hungphambkc/hungphambkc.github.io",
+  "owner": {
+    "username": "hungphambkc",
+    "email": "phamhung2001@icloud.com"
+  },
+  "records": {
+    "CNAME": "hungphambkc.github.io"
+  }
+}
