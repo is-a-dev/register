@@ -1,0 +1,12 @@
+{
+  "description": "Site web de messagerie en ligne por ma famille",
+  "repo": "https://github.com/XeroxYTB/Texty.git",
+  "owner": {
+    "username": "XeroxYTB",
+    "email": "huglostalatac@gmail.com"
+  },
+  "records": {
+    "CNAME": "XeroxYTB-github.github.io"
+  },
+  "proxied": true
+}
