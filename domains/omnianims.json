@@ -1,0 +1,12 @@
+{
+  "description": "Documentation website for is-a.dev",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "omnianims.is-a-dev",
+    "email": "ayomidefolagbade756@gmail.com"
+  },
+  "records": {
+    "CNAME": "omanianims.is-a-dev-docs.pages.dev"
+  },
+  "proxied": true
+}
