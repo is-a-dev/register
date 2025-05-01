@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tutupharirabu",
-        "email": "code.zharaurien@gmail.com"
-    },
-    "record": {
-        "CNAME": "portofolio-pribadi-irfan-zharauri.vercel.app"
-    }
+  "owner": {
+    "username": "tutupharirabu",
+    "email": "code.zharaurien@gmail.com"
+  },
+  "records": {
+    "CNAME": "portofolio-pribadi-irfan-zharauri.vercel.app"
+  }
 }

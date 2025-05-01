@@ -3,14 +3,15 @@
     "username": "SkyExploreWasTaken",
     "discord": "1049263707177353247"
   },
-  "record": {
+  "records": {
     "A": ["37.27.51.34"],
     "AAAA": ["2a01:4f9:3081:399c::4"],
     "MX": ["mx1.simplelogin.co", "mx2.simplelogin.co"],
     "TXT": [
       "sl-verification=sibwuwbmtopnrrdmfxvdabidjzvcow",
       "v=spf1 include:simplelogin.co ~all",
-      "domain-verification=skyexplorewastaken"
+      "domain-verification=skyexplorewastaken",
+      "vyntr-verify=1745336503391-httpssewtisadev-89il2frr4s7"
     ]
   },
   "proxied": false

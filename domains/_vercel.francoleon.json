@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "francoleon08",
-        "email": "francoleon284@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=francoleon.is-a.dev,ead369809cf9c9018296"
-    }
+  "owner": {
+    "username": "francoleon08",
+    "email": "francoleon284@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=francoleon.is-a.dev,ead369809cf9c9018296"
+  }
 }

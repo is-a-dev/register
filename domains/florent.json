@@ -4,7 +4,7 @@
     "username": "flobsx",
     "email": "flo@bsx.pm"
   },
-  "record": {
+  "records": {
     "CNAME": "flobsx.github.io"
   },
   "proxied": true

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "pixelbend",
-        "email": "m.arkamfahry@gmail.com"
-    },
-    "record": {
-        "CNAME": "pixelbend.github.io"
-    }
+  "owner": {
+    "username": "pixelbend",
+    "email": "m.arkamfahry@gmail.com"
+  },
+  "records": {
+    "CNAME": "pixelbend.github.io"
+  }
 }

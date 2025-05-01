@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tobikli",
-        "email": "tobikli@pm.me"
-    },
-    "record": {
-        "URL": "https://tobia.sh"
-    }
+  "owner": {
+    "username": "tobikli",
+    "email": "tobikli@pm.me"
+  },
+  "records": {
+    "URL": "https://tobia.sh"
+  }
 }

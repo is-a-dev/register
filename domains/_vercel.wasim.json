@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "simbaig",
-        "email": "wasimbaig000@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=wasim.is-a.dev,6b4abdaf07b7f6517075"
-    }
+  "owner": {
+    "username": "simbaig",
+    "email": "wasimbaig000@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=wasim.is-a.dev,6b4abdaf07b7f6517075"
+  }
 }

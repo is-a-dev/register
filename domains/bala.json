@@ -1,11 +1,9 @@
 {
-    "description": "For my github page",
-    "repo": "https://https://github.com/parzi-val/parzi-val",
-    "owner": {
-        "username": "parzi-val",
-        "email": "krbala1511@gmail.com"
-    },
-    "record": {
-        "CNAME": "parzi-val.github.io"
-    }
+  "owner": {
+    "username": "parzi-val",
+    "email": "krbala1511@gmail.com"
+  },
+  "records": {
+    "CNAME": "my-app-brown-tau.vercel.app"
+  }
 }

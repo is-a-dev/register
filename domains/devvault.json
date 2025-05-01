@@ -5,7 +5,7 @@
     "username": "DevVault",
     "email": "admin@devvault.ru"
   },
-  "record": {
+  "records": {
     "CNAME": "devvault.github.io"
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ahmetunsal",
-        "email": "web.unsalahmet@gmail.com"
-    },
-    "record": {
-        "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "ahmetunsal",
+    "email": "web.unsalahmet@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  }
 }

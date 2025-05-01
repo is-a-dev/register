@@ -5,10 +5,7 @@
     "username": "islandboymv",
     "email": "mifzaal.scout@gmail.com"
   },
-  "record": {
-    "NS": [
-      "lucy.ns.cloudflare.com",
-      "mario.ns.cloudflare.com"
-    ]
+  "records": {
+    "NS": ["lucy.ns.cloudflare.com", "mario.ns.cloudflare.com"]
   }
 }

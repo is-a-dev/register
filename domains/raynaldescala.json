@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "raynaldescala",
-        "email": "raynaldescala01@gmail.com"
-    },
-    "record": {
-        "CNAME": "raynaldescala.vercel.app"
-    }
+  "owner": {
+    "username": "raynaldescala",
+    "email": "raynaldescala01@gmail.com"
+  },
+  "records": {
+    "CNAME": "raynaldescala.vercel.app"
+  }
 }
