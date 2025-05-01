@@ -1,12 +1,14 @@
-name: StaleBOT
+name: Stale
 
 on:
-    workflow_dispatch:
     schedule:
-        - cron: "30 14 * * *"
+        - cron: "0 12 * * *"
+
+    workflow_dispatch:
 
 jobs:
-    stale:
+    label:
+        name: Label
         runs-on: ubuntu-latest
         steps:
             - uses: actions/stale@v3

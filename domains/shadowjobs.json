@@ -1,0 +1,10 @@
+{
+  "description": "shadowjobs self website",
+  "owner": {
+    "username": "shadowjobs",
+    "email": "shadowjobs@qq.com"
+  },
+  "records": {
+    "A": ["114.116.231.183"]
+  }
+}

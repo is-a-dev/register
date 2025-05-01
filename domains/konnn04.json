@@ -1,11 +1,11 @@
 {
-  "description": "Hello World!",
+  "description": "My personal website",
   "repo": "https://github.com/konnn04/konnn04.github.io",
   "owner": {
     "username": "konnn04",
     "email": "trieukon1011@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "konnn04.github.io"
   }
 }

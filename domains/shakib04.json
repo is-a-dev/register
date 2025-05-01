@@ -1,0 +1,11 @@
+{
+  "description": "This domain will be used for my personal website.",
+  "repo": "https://github.com/shakib04/shakib04.github.io",
+  "owner": {
+    "username": "shakib04",
+    "email": "shakib.joy@gmail.com"
+  },
+  "records": {
+    "CNAME": "shakib04.github.io"
+  }
+}

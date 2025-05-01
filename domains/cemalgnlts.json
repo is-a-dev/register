@@ -3,7 +3,7 @@
     "username": "cemalgnlts",
     "discord": "cemalgnlts"
   },
-  "record": {
-    "CNAME": "cemalgnlts.surge.sh"
+  "records": {
+    "A": ["45.55.110.124"]
   }
 }

@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "bdn-fr"
-    },
-    "record": {
-        "CNAME": "bdn-fr.vercel.app"
-    }
+  "owner": {
+    "username": "bdn-fr"
+  },
+  "records": {
+    "CNAME": "bdn-fr.vercel.app"
+  }
 }

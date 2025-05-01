@@ -1,0 +1,12 @@
+{
+  "description": "A practice portfolio for web design challenges.",
+  "repo": "https://github.com/KishonShrill/website-portfolio",
+  "owner": {
+    "username": "KishonShrill",
+    "email": "crystalbluew@gmail.com"
+  },
+  "records": {
+    "MX": ["feedback-smtp.ap-northeast-1.amazonses.com"],
+    "TXT": ["v=spf1 include:amazonses.com ~all"]
+  }
+}
