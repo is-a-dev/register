@@ -1,0 +1,12 @@
+{
+  "description": "personal website for modguy07",
+  "repo": "https://github.com/oneshotenjoyer/site",
+  "owner": {
+    "username": "oneshotenjoyer",
+    "email": "modguy07.proton.me"
+  },
+  "records": {
+    "CNAME": "oneshotenjoyer.github.io/site"
+  },
+  "proxied": false
+}
