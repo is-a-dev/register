@@ -4,7 +4,7 @@
     "email": "mikias.worash.a@gmail.com"
   },
   "records": {
-    "A": "13.51.193.156"
+    "A": ["13.51.193.156"]
   },
   "proxied": true
 }
