@@ -6,6 +6,6 @@
         "email": "[yoogoworkspace@gmail.com]"
     },
     "records": {
-        "CNAME": "yoogo.netlify.app"
+        "A": ["75.2.60.5"]
     }
 }
