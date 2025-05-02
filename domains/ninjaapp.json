@@ -1,0 +1,15 @@
+{
+  "domain": "ninjaapp",
+  "repo": "https://github.com/tuankiet04092018/register",
+  "owner": {
+    "username": "tuankiet04092018",
+    "email":"tuankiet04092018@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "arch.ns.cloudflare.com",
+      "dolly.ns.cloudflare.com"
+    ]
+  },
+  "proxied": true 
+}
