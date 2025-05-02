@@ -1,0 +1,11 @@
+{
+    "description": "For a personal bio webpage.",
+    "repo": "https://github.com/nanobatch/nanobatch.github.io",
+    "owner": {
+        "username": "nanobatch",
+        "email": "billblinkman@gmail.com"
+    },
+    "records": {
+        "CNAME": "nanobatch.github.io"
+    }
+}
