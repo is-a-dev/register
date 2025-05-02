@@ -1,0 +1,11 @@
+{
+  "repo": "https://github.com/flobsx",
+  "owner": {
+    "username": "flobsx",
+    "email": "flo@bsx.pm"
+  },
+  "records": {
+    "CNAME": "flobsx.github.io"
+  },
+  "proxied": true
+}

@@ -3,10 +3,9 @@
   "repo": "https://github.com/CaenJones/ChromeSEC",
   "owner": {
     "username": "CaenJones",
-    "email": "cj@caenjones.com",
-    "twitter": ""
+    "email": "cj@caenjones.com"
   },
-  "record": {
+  "records": {
     "URL": "https://caenjones.is-a.dev/ChromeSEC"
   }
 }

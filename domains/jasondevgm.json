@@ -2,10 +2,10 @@
   "description": "Personal Portfolio Website",
   "repo": "https://github.com/jasondevgm/jasondevgm.github.io.git",
   "owner": {
-      "username": "jasondevgm",
-      "email": "jasondevgm@gmail.com"
-    },
-  "record": {
+    "username": "jasondevgm",
+    "email": "jasondevgm@gmail.com"
+  },
+  "records": {
     "CNAME": "jasondevgm.github.io"
   }
 }

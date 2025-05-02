@@ -4,8 +4,7 @@
     "email": "rd.vilchez@gmail.com"
   },
   "description": "Portfolio website for Ruben Vilchez showcasing projects and professional information.",
-  "repo": "https://github.com/whiteThor",
-  "record": {
+  "records": {
     "CNAME": "whitethor.github.io"
   }
 }

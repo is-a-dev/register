@@ -1,11 +1,10 @@
 {
   "description": "Github profile of wassimbenzarti",
-  "repo": "https://github.com/wassimbenzarti",
   "owner": {
     "username": "wassimbenzarti",
     "email": "wass11121996@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "wassimbenzarti.github.io"
   }
 }

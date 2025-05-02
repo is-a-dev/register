@@ -3,10 +3,9 @@
   "repo": "https://github.com/idlidev/laufey-web",
   "owner": {
     "username": "idlidev",
-    "email": "idliyout@gmail.com",
-    "twitter": ""
+    "email": "idliyout@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "idlidev.github.io"
   }
 }

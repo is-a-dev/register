@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "leofelix908",
-    "email": ""
+    "username": "leofelix908"
   },
-  "record": {
+  "records": {
     "TXT": ["vc-domain-verify=v.is-a.dev,9bd0999222ffc1417790"]
   }
 }

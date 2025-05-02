@@ -5,7 +5,8 @@
     "username": "jbcarreon123",
     "email": "jbcarreon212@gmail.com"
   },
-  "record": {
-    "A": ["35.223.92.119"]
-  }
+  "records": {
+    "A": ["34.56.187.73"]
+  },
+  "proxied": true
 }

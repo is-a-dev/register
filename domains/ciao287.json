@@ -3,7 +3,7 @@
     "username": "Ciao287",
     "discord": "687333016921440317"
   },
-  "record": {
-    "CNAME": "ciao287.github.io"
+  "records": {
+    "A": ["144.91.115.195"]
   }
 }

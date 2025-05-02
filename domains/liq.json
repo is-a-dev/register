@@ -1,11 +1,9 @@
 {
   "description": "Learning something new everyday",
-  "repo": "https://github.com/DevLiQ",
   "owner": {
-    "username": "DevLiQ",
-    "email": "21136062+devliq@users.noreply.github.com"
+    "username": "DevLiQ"
   },
-  "record": {
+  "records": {
     "CNAME": "devliq.github.io"
   }
 }

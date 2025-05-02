@@ -3,10 +3,9 @@
   "repo": "https://github.com/nxrmqlly/nxrmqlly.github.io",
   "owner": {
     "username": "nxrmqlly",
-    "email": "ritam.das3110@outlook.com",
-    "twitter": ""
+    "email": "ritam.das3110@outlook.com"
   },
-  "record": {
+  "records": {
     "CNAME": "nxrmqlly.github.io"
   }
 }

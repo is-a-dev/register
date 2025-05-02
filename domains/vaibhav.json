@@ -3,7 +3,7 @@
     "username": "VaibhavSys",
     "email": "vaibhavsys@protonmail.com"
   },
-  "record": {
+  "records": {
     "NS": ["daphne.ns.cloudflare.com", "venkat.ns.cloudflare.com"]
   }
 }

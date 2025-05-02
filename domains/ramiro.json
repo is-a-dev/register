@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "email": "urteagaramiro33@gmail.com"
-    },
-    "record": {
-        "CNAME": "portafolio-chi-gilt.vercel.app"
-    },
-    "proxied": false
+  "owner": {
+    "username": "RamiroUrt",
+    "email": "urteagaramiro33@gmail.com"
+  },
+  "records": {
+    "CNAME": "portafolio-chi-gilt.vercel.app"
+  },
+  "proxied": false
 }
