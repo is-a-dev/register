@@ -1,0 +1,20 @@
+{
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "tester",
+    "email": "neroblanca573@gmail.com"
+  },
+  "records": {
+    "CNAME": "is-a-dev-docs.pages.dev"
+  },
+  "proxied": true
+}
+
+{
+  "records": {
+    "A": [
+      "23.95.190.97"
+      
+    ]
+  }
+}
