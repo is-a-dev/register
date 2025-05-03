@@ -1,0 +1,11 @@
+{
+  "description": "github pages and selfhosted things"
+  "repo": "https://github.com/vvirtues/TBD"
+  "owner": {
+    "username": "purple",
+    "email": "[email protected]"
+  },
+  "records": {
+    "CNAME": "purple.github.io"
+  }
+}
