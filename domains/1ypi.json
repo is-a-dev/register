@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "1ypi"
-    },
-    "records": {
-        "RECORDTYPE": "RECORDCONTENT"
-    }
+  "owner": {
+    "email": "yassinaddaoudi5@gmail.com"
+  },
+  "record": {
+    "CNAME": "web-git-main-1ypis-projects.vercel.app."
+  }
 }
