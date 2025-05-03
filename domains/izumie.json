@@ -8,5 +8,5 @@
   "records": {
     "CNAME": "mr-izumie.vercel.app"
   },
-  "proxied": true
+  "proxied": false
 }
