@@ -1,8 +1,12 @@
 {
+  "description": "Hi, I am planning to use the domain to learn coding. (Following TOS)",
+  "repo": "https://github.com/1ypi/nose/tree/main",
   "owner": {
+    "username": "1ypi",
     "email": "yassinaddaoudi5@gmail.com"
   },
-  "record": {
-    "CNAME": "web-git-main-1ypis-projects.vercel.app."
-  }
+  "records": {
+    "CNAME": "nose-smoky.vercel.app."
+  },
+  "proxied": false
 }
