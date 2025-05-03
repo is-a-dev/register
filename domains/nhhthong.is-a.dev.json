@@ -1,7 +1,10 @@
 {
   "owner": {
+    "username": "nhhthong", 
     "email": "nhhthong@gmail.com"
   },
-  "cname": "portfolio-x5o6.onrender.com",
-  "type": "cname"
+  "domain": "nhhthong.is-a.dev", 
+  "record": {
+    "CNAME": "portfolio-x5o6.onrender.com." 
+  }
 }
