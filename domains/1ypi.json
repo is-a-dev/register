@@ -5,8 +5,10 @@
     "username": "1ypi",
     "email": "yassinaddaoudi5@gmail.com"
   },
-  "records": {
-    "CNAME": "nose-smoky.vercel.app."
+  "record": {
+    "CNAME": "cname.vercel-dns.com.",
+    "TXT": "_vercel.1ypi vc-domain-verify=1ypi.is-a.dev,d455d81a29a499d907f2"
   },
-  "proxied": false
+  "proxied": false,
+  "ttl": 3600
 }
