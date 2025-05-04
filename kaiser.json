@@ -1,7 +1,9 @@
 {
-  "name": "Kaiser",
-  "age": 17,
-  "language": "Turkish",
-  "skills": ["Linux", "Git", "Godot", "Unreal Engine"],
-  "goal": "Make a story-driven game"
+    "owner": {
+        "username": "mimoritouka",
+        "email": "amgriffithme@gmail.com"
+    },
+    "record": {
+        "CNAME": "kaiser-github-io.vercel.app"
+    }
 }
