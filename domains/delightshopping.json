@@ -1,0 +1,12 @@
+{
+  "description": "used for g-suite",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "galaxyinfluence",
+    "email": "jaydenplayz152@gmail.com"
+  },
+  "records": {
+    "CNAME": "is-a-dev-docs.pages.dev"
+  },
+  "proxied": true
+}
