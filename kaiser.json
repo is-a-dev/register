@@ -1,0 +1,7 @@
+{
+  "name": "Kaiser",
+  "age": 17,
+  "language": "Turkish",
+  "skills": ["Linux", "Git", "Godot", "Unreal Engine"],
+  "goal": "Make a story-driven game"
+}
