@@ -1,9 +1,10 @@
+  GNU nano 8.4                               vercel_kaiser.json                                              
 {
     "owner": {
-        "username": "mimoritouka",
-        "email": "amgriffithme@gmail.com"
+        "username": "github-username",
+        "email": "your-email"
     },
     "record": {
-        "CNAME": "mimoritouka.github.io"
+        "CNAME": "kaiser-github-io.vercel.app"
     }
 }
