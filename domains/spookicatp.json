@@ -1,0 +1,11 @@
+{
+  "description": "Dev Home Page",
+  "repo": "https://github.com/spookicatp/spookicatp.github.io/",
+  "owner": {
+    "username": "spookicatp",
+    "email": "spookicat14@gmail.com"
+  },
+  "records": {
+    "CNAME": "spookicatp.github.io"
+  }
+}
