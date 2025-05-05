@@ -7,10 +7,6 @@
         "email": "iigrushin@gmail.com"
     },
     "record": {
-        "A": [ "192.168.168.111" ],
-        "TXT": [
-          "this is mcgru.is-a.dev",
-          "jojojojo"
-        ]
+        "A": [ "18.199.219.221" ]
     }
 }
