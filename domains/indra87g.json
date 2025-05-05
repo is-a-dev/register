@@ -1,11 +1,11 @@
 {
-  "description": "Indra Sah Noeldy",
-  "repo": "https://github.com/is-a-dev/docs",
+  "description": "indra87g: Hosted on Cloudlflare Pages",
+  "repo": "https://github.com/indra87g/indra87g-website",
   "owner": {
     "username": "indra87g",
     "email": "twinightwheel50@gmail.com"
   },
   "records": {
-    "CNAME": "indra87g.surge.sh"
+    "CNAME": "indra87g-website.pages.dev"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "description": "My personal website",
+  "repo": "https://github.com/gilmarodp/gilmarodp.github.io",
+  "owner": {
+    "username": "gilmarodp",
+    "email": "gilmar.odp@gmail.com"
+  },
+  "records": {
+    "CNAME": "gilmarodp.github.io"
+  }
+}
