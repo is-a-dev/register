@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "Cassius",
-    "email": "cassius@mangopi.xyz"
-  },
-  "records": {
-    "CNAME": "cattiusw.github.io"
-  }
+    "description": "Personal domain for projects",
+    "repo": "https://github.com/CattiusW/Cassius-Website-V2/",
+    "owner": {
+        "username": "cattiusw",
+        "email": "[email protected]"
+    },
+    "records": {
+        "CNAME": "cattiusw.github.io"
+    }
 }
