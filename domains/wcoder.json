@@ -1,0 +1,11 @@
+{
+  "description": "Applying for an is-a.dev domain on behalf of my friend so he can use one.",
+  "repo": "https://github.com/kingreatwill/open",
+  "owner": {
+    "username": "wcoder",
+    "email": "350840291@qq.com"
+  },
+  "records": {
+    "CNAME": "wcoder.com"
+  }
+}
