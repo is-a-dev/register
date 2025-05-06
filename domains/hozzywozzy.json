@@ -3,8 +3,6 @@
     "username": "hozzywozzy",
     "email": "hozzywozzy@terrorist.lol"
   },
-  "description": "domain for testing purposes",
-  "repo": "https://github.com/hozzywozzy/hozzywozzy",
   "records": {
     "CNAME": "hozzywozzy.github.io"
   }
