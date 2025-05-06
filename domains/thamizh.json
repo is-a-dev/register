@@ -5,7 +5,10 @@
     },
     "record": {
         "A": ["217.174.245.249"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "MX": ["hosts.is-a.dev", "_discord.thamizh.is-a.dev"],
+        "TXT": [
+            "v=spf1 a mx ip4:217.174.245.249 ~all",
+            "dh=550c2681c00b77524a610655c7ea8c882d33c387"
+        ]
     }
 }
