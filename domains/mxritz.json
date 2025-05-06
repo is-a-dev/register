@@ -5,6 +5,7 @@
     "email": "mail@mxritz.dev"
   },
   "records": {
-    "CNAME": "server.mxritz.dev"
+    "CNAME": "server.mxritz.dev",
+    "TXT": "google-site-verification=vy3ESRTNR5CDEj21N0nW2bG-hXaLNW10hoV_aUBjU2o"
   }
 }
