@@ -1,0 +1,10 @@
+{
+  "description": "Personal Portfolio",
+  "repo": "https://github.com/APoves/aurorapovesportfolio",
+  "owner": {
+    "username": "APoves",
+  },
+  "record": {
+    "CNAME": "APoves.github.io"
+  }
+}
