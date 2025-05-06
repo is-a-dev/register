@@ -1,9 +1,7 @@
 {
-  "description": "Tim is a Dev",
   "owner": {
     "username": "xorob0"
   },
-  "repo": "https://github.com/xorob0/register",
   "records": {
     "CNAME": "toum.me"
   }
