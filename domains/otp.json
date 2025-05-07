@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "AjaxFNC-YT",
+    "email": "ajaxfncfr@gmail.com",
+    "discord": "ajaxfnc_."
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "mail.ajaxfnc.com",
+        "priority": 10
+      }
+    ],
+    "NS": [
+      "tessa.ns.cloudflare.com",
+      "west.ns.cloudflare.com"
+    ],
+    "URL": "https://epicotp.xyz"
+  }
+}
