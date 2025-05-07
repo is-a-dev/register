@@ -1,11 +1,10 @@
 {
-    "description": "Guilherme Lacerda's personal website",
-    "repo": "https://github.com/lacerdaguilherme/lacerdaguilherme.github.io",
-    "owner": {
-      "username": "lacerdaguilherme",
-      "email": "lacerdaguilherme@gmail.com"
-    },
-    "records": {
-      "CNAME": "lacerdaguilherme.github.io"
-    }
+  "description": "Guilherme Lacerda's personal website",
+  "owner": {
+    "username": "lacerdaguilherme",
+    "email": "lacerdaguilherme@gmail.com"
+  },
+  "records": {
+    "CNAME": "lacerdaguilherme.github.io"
   }
+}

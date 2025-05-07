@@ -1,9 +1,9 @@
-  {
-    "owner": {
-      "username": "Fraczdev",
-      "email": "fraczdev@gmail.com"
-    },
-    "records": {
-      "CNAME": "fondfracz.netlify.app"
-    }
+{
+  "owner": {
+    "username": "Fraczdev",
+    "email": "fraczdev@gmail.com"
+  },
+  "records": {
+    "CNAME": "fondfracz.netlify.app"
   }
+}
