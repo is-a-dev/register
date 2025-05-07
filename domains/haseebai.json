@@ -1,9 +1,7 @@
 {
-  "description": "Haseeb Ayub's Portfolio Website",
-  "repo": "https://github.com/hassibayub/Haseeb-portfolio-website/",
   "owner": {
     "username": "hassibayub",
-    "email": "hassibayub@gmail.com" 
+    "email": "hassibayub@gmail.com"
   },
   "records": {
     "CNAME": "hassibayub.github.io"
