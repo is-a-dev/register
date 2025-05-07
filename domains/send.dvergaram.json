@@ -8,8 +8,16 @@
       {
         "target": "feedback-smtp.sa-east-1.amazonses.com",
         "priority": 10
+      },
+      {
+        "target": "mx.smtp.dev",
+        "priority": 10
       }
     ],
-    "TXT": ["v=spf1 include:amazonses.com ~all"]
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all",
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJ91/gJijvq8Ycat6uMchyWdCoRbY1lRxZVoQ0Y80Jp0Kj3Irg/m/dF+MHm0qEXf2wUWVDE2RxaOXO4NKSDoMsBaxMsNmnOg4mKyhdFv+4OL4JNsg+35LzN+/VSpW1Vi5Fc/8XDranAiHA67NF1zBUU5rZrRw5agAWJHxRlCfctwIDAQAB",
+      "v=DMARC1; p=none;"
+    ]
   }
 }
