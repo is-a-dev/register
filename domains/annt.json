@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "anntx9"
-    },
-  "records": {
+  "owner": {
+    "username": "annt",
+    "email": "annt.hgb@gmail.com"
+  },
+"records": {
     "NS": [
       "paige.ns.cloudflare.com",
       "seth.ns.cloudflare.com"
