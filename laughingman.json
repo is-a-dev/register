@@ -3,11 +3,9 @@
     "username": "hassankhan2608",
     "email": "laughingman404@proton.me"
   },
-  "reason": "I need NS delegation to manage multiple self-hosted services on dynamic IPs with SSL, automation, and webhook support, while keeping origin IPs private. This allows me full DNS control and security isolation via my own Cloudflare zone.",
+  "discription": "I need NS delegation to manage multiple self-hosted services on dynamic IPs with SSL, automation, and webhook support, while keeping origin IPs private. This allows me full DNS control and security isolation via my own Cloudflare zone.",
   "record": {
-    "type": "NS",
-    "domain": "laughingman.is-a.dev",
-    "ns": [
+    "NS": [
       "georgia.ns.cloudflare.com",
       "toby.ns.cloudflare.com"
     ]
