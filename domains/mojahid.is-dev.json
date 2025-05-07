@@ -1,0 +1,33 @@
+{
+  "owner": {
+    "email": "mojahidgfx@gmail.com"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "value": "ghs.google.com"
+    },
+    {
+      "type": "CNAME",
+      "name": "72vim2dm2auw",
+      "value": "gv-ksnjwyv3f5wtwt.dv.googlehosted.com"
+    },
+    {
+      "type": "A",
+      "value": "216.239.32.21"
+    },
+    {
+      "type": "A",
+      "value": "216.239.34.21"
+    },
+    {
+      "type": "A",
+      "value": "216.239.36.21"
+    },
+    {
+      "type": "A",
+      "value": "216.239.38.21"
+    }
+  ]
+}
