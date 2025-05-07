@@ -1,5 +1,9 @@
 {
-  "records": {
-    "TXT": "zoho-verification=zb21864535.zmverify.zoho.com"
-  }
+    "owner": {
+        "username": "harys722",
+        "discord": "1203357768610746385"
+    },
+    "records": {
+        "TXT": "zoho-verification=zb21864535.zmverify.zoho.com"
+    }
 }
