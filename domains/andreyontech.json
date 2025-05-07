@@ -3,8 +3,7 @@
     "email": "andreyontech@gmail.com",
     "twitter": "AndreyOnTech"
   },
-  "record": {
+  "records": {
     "CNAME": "andreyontech.vercel.app"
-  },
-  "ttl": 3600
+  }
 }
