@@ -4,7 +4,6 @@
     "email": "thesamueliyeh@gmail.com"
   },
   "records": {
-    "CNAME": "is-a-dev-docs.pages.dev"
-  },
-  "proxied": true
+    "CNAME": "https://github.com/thelamplighter-0"
+  }
 }
