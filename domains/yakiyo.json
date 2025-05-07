@@ -1,12 +1,10 @@
 {
-  "description": "Yakiyo. 18 y/o kid. Weeb and hobbyist Developer",
-  "repo": "https;//github.com/Yakiyo/Yakiyo.github.io",
   "owner": {
     "username": "Yakiyo",
     "twitter": "Yakiyo8",
     "discord": "Yakiyo#1206"
   },
-  "record": {
+  "records": {
     "CNAME": "yakiyo.github.io"
   }
 }

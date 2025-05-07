@@ -1,11 +1,9 @@
 {
-  "description": "Sub-domain of IslandBoy in is-a.dev",
-  "repo": "https://github.com/islandboymv/is-a-dev-register",
   "owner": {
     "username": "islandboymv",
     "email": "mifzaal.scout@gmail.com"
   },
-  "record": {
+  "records": {
     "NS": ["lucy.ns.cloudflare.com", "mario.ns.cloudflare.com"]
   }
 }

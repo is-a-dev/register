@@ -1,11 +1,9 @@
 {
-  "description": "ishh.is-a.dev",
-  "repo": "https://github.com/ishh-xd/ishh-xd.github.io",
   "owner": {
     "username": "ishh-xd",
     "email": "ishh-xd@proton.me"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.111.153",
       "185.199.110.153",

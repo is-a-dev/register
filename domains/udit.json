@@ -1,11 +1,9 @@
 {
-  "description": "Udit's portfolio",
-  "repo": "https://github.com/uditdev1/details",
   "owner": {
     "username": "uditdev",
     "email": "uditdev0008@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "details-five.vercel.app"
   }
 }

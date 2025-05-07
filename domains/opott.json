@@ -3,7 +3,7 @@
     "username": "opott",
     "email": "om.potter09@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://opott.github.io",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"

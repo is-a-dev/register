@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const requiredEnvVars = ["PR_AUTHOR", "PR_AUTHOR_ID"];
-const trustedUsers = require("../util/trusted.json").map((u) => u.id);
+const trustedUsers = require("../util/trusted.json").map((u) => u.id.toString());
 
 function getDomainData(subdomain) {
     try {

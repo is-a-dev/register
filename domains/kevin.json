@@ -1,11 +1,9 @@
 {
-  "description": "portfolio",
-  "repo": "https://github.com/kevincrafturu2/portfolio-bolt.new",
   "owner": {
     "username": "kevincrafturu2",
     "email": "kevincrafturu2@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }

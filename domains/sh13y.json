@@ -1,11 +1,9 @@
 {
-  "description": "For My Blog",
-  "repo": "https://github.com/sh13y/register",
   "owner": {
     "username": "sh13y",
     "email": "lucky10isuru@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sh13y.github.io"
   }
 }

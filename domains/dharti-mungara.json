@@ -1,10 +1,8 @@
 {
-  "description": "Dharti mungara Profile.",
-  "repo": "https://github.com/dharti-mungara/dharti-mungara.github.io",
   "owner": {
     "username": "dharti-mungara"
   },
-  "record": {
+  "records": {
     "CNAME": "dharti-mungara.github.io"
   }
 }

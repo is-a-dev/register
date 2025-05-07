@@ -1,11 +1,9 @@
 {
-  "description": "A First Willo`s Website",
-  "repo": "https://github.com/WilloIzCitron/willoizcitron.github.io",
   "owner": {
     "username": "WilloIzCitron",
     "twitter": "willoizcitron"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.109.153",
       "185.199.108.153",

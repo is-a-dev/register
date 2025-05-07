@@ -1,13 +1,11 @@
 {
-  "description": "This domain is used by Deniz Tunç / creeperkafasi as a personal portfolio",
-  "repo": "https://github.com/creeperkafasi/creeperkafasi.github.io",
   "owner": {
     "username": "creeperkafasi",
     "twitter": "_creeperkafasi_",
     "discord": "creeperkafasi",
     "note": "I don't use twitter that much, you may have a better chance to contact me through discord"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.108.153",
       "185.199.109.153",

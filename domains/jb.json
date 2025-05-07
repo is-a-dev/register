@@ -1,11 +1,9 @@
 {
-  "description": "jbcarreon123's personal website",
-  "repo": "https://github.com/jbcarreon123/jbs-website/",
   "owner": {
     "username": "jbcarreon123",
     "email": "jbcarreon212@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["34.56.187.73"]
   },
   "proxied": true
