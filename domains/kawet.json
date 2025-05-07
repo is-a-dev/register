@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Kawet00",
-        "email": "kawet00@proton.me"
-    },
-    "records": {
-        "CNAME": "portfolio-ty6q.vercel.app"
-    }
+  "owner": {
+    "username": "Kawet00",
+    "email": "kawet00@proton.me"
+  },
+  "records": {
+    "CNAME": "portfolio-ty6q.vercel.app"
+  }
 }
