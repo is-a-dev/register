@@ -3,10 +3,9 @@
     "username": "annt",
     "email": "annt.hgb@gmail.com"
   },
-"records": {
-    "NS": [
-      "paige.ns.cloudflare.com",
-      "seth.ns.cloudflare.com"
+  "records": {
+    "A": [
+      "104.18.5.103"
     ]
   }
 }
