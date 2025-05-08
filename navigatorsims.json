@@ -1,0 +1,12 @@
+{
+  "description": "Used for betterstack status page & website/api",
+  "repo": "https://github.com/is-a-dev/docs",
+  "owner": {
+    "username": "galaxyinfluence",
+    "email": "jaydenplayz152@gmail.com"
+  },
+  "records": {
+    "CNAME": "statuspage.betteruptime.com"
+  },
+  "proxied": true
+}
