@@ -9,6 +9,8 @@
     "apps",
     "assets",
     "auth",
+    "autoconfig",
+    "autodiscover",
     "billing",
     "blog",
     "bot",
