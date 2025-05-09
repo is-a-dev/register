@@ -3,7 +3,7 @@
     "username": "yz9551",
     "discord": "yz9551"
   },
-  "record": {
+  "records": {
     "TXT": [
       "v=DMARC1; p=reject; pct=100; rua=mailto:dmarc-reports@yxz.is-a.dev; ruf=mailto:forensic-reports@yxz.is-a.dev; adkim=r; aspf=r"
     ]

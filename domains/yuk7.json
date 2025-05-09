@@ -1,11 +1,9 @@
 {
-  "description": "yuk7 personal website",
-  "repo": "https://github.com/yuk7/yuk7.github.io",
   "owner": {
     "username": "yuk7",
     "email": "yukx00@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "yuk7.github.io"
   }
 }

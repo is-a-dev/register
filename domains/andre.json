@@ -1,10 +1,10 @@
 {
   "repo": "https://github.com/andrexduarte/adx",
   "owner": {
-      "username": "andrexduarte",
-      "email": "andrexduarte@gmail.com"
+    "username": "andrexduarte",
+    "email": "andrexduarte@gmail.com"
   },
-  "record": {
-      "CNAME": "andrexduarte.github.io"
+  "records": {
+    "CNAME": "andrexduarte.github.io"
   }
 }

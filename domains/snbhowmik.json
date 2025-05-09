@@ -1,13 +1,11 @@
 {
-  "description": "A Portfolio site for my Academic Career",
-  "repo": "https://github.com/snbhowmik/portfolio",
   "owner": {
     "username": "snbhowmik",
     "linkedin": "https://www.linkedin.com/in/snbhowmik/",
     "reddit": "https://www.reddit.com/user/snbhowmik/",
     "email": "snbhowmikac@proton.me"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }

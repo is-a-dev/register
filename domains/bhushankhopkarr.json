@@ -1,12 +1,11 @@
 {
   "description": "This subdomain is a redirection to my personal portfolio.",
-  "repo": "https://github.com/bhushankhopkarr/bhushankhopkarr.github.io",
   "owner": {
     "username": "bhushankhopkarr",
     "email": "bhushankhopkar06@gmail.com",
     "twitter": "bhushankhopkrr"
   },
-  "record": {
+  "records": {
     "CNAME": "bhushankhopkrr.vercel.app"
   }
 }

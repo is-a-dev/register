@@ -1,10 +1,8 @@
 {
-  "description": "Ajit Portfolio.",
-  "repo": "https://github.com/ajit-thakor/ajit-thakor.github.io",
   "owner": {
     "username": "ajit-thakor"
   },
-  "record": {
+  "records": {
     "CNAME": "ajit-thakor.github.io"
   }
 }

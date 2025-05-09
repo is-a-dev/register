@@ -1,11 +1,9 @@
 {
-  "description": "Personal site",
-  "repo": "https://github.com/Cirkutry/site",
   "owner": {
     "username": "Cirkutry",
     "discord": "kre0lidge"
   },
-  "record": {
+  "records": {
     "CNAME": "cirkutry.github.io"
   }
 }
