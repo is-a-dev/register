@@ -4,6 +4,6 @@
     "email": "techartistdilip@gmail.com"
   },
   "records": {
-    "A": "3.110.92.5"
+    "A": ["3.110.92.5"]
   }
 }
