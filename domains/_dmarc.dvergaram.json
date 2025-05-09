@@ -1,9 +1,0 @@
-{
-  "owner": {
-        "username": "Daniel-VergaraM",
-        "email": "dvergaram.dev@gmail.com"
-  },
-  "records": {
-    "TXT": ["v=DMARC1; p=none;"]
-  }
-}
