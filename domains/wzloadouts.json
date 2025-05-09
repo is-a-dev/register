@@ -1,10 +1,9 @@
 {
-  "description": "WZL",
   "owner": {
-    "username": "iwoodys",
+    "username": "iWoodys",
     "email": "santirefu1312@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "iwoodys.github.io"
   }
 }
