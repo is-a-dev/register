@@ -1,10 +1,9 @@
 {
-  "description": "Portfolio redirect for nhhthong",
   "owner": {
     "username": "nhhthong",
     "email": "nhhthong@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "portfolio-x5o6.onrender.com"
   }
 }
