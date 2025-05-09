@@ -1,11 +1,9 @@
 {
-  "description": "Documentation website for is-a.dev",
-  "repo": "https://github.com/tanishpoddar/tanishpoddar.github.io",
   "owner": {
     "username": "tanishpoddar",
     "email": "tanishpoddar.18@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "tanishpoddar.github.io"
   }
 }

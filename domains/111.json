@@ -1,11 +1,9 @@
 {
-    "description": "This domain is my bios webpage created using html, js and css",
-    "repo": "https://github.com/jaycuh/jaycuh.github.io",
-    "owner": {
-        "username": "joaawd",
-        "email": "fmodeteam@gmail.com"
-    },
-    "record": {
-        "CNAME": "jaycuh.github.io"
-    }
+  "owner": {
+    "username": "joaawd",
+    "email": "fmodeteam@gmail.com"
+  },
+  "records": {
+    "CNAME": "jaycuh.github.io"
+  }
 }

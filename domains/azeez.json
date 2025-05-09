@@ -1,11 +1,9 @@
 {
-  "description": "azeez.is-a.dev",
-  "repo": "https://github.com/azizbna/azizbna.github.io",
   "owner": {
     "username": "azizbna",
     "discord": "azeezbna"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.109.153",
       "185.199.110.153",

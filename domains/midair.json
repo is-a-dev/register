@@ -1,12 +1,10 @@
 {
-  "description": "Personal Portofolio",
-  "repo": "https://github.com/zMidair/zMidair.github.io",
   "owner": {
     "username": "zMidair",
     "email": "midair4546@gmail.com",
     "twitter": "M16a1r"
   },
-  "record": {
+  "records": {
     "CNAME": "zmidair.github.io"
   }
 }

@@ -1,10 +1,10 @@
 
 {
     "owner": {
-      "username": "karify98",
-      "email": "nnnam048@gmail.com"
+        "username": "karify98",
+        "email": "nnnam048@gmail.com"
     },
-    "record": {
-      "URL": "https://github.com/karify98"
+    "records": {
+        "CNAME": "karify98.github.io"
     }
-  }
+}
