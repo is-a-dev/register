@@ -1,10 +1,9 @@
 {
-  "description": "Email forwarding for Rishi's personal subdomain",
   "owner": {
     "username": "RishixD4511",
     "email": "rishixd95@gmail.com"
   },
-  "record": {
+  "records": {
     "MX": [
       { "priority": 10, "value": "mx1.forwardemail.net" },
       { "priority": 10, "value": "mx2.forwardemail.net" }
