@@ -3,11 +3,10 @@
     "username": "Jannator171",
     "email": "Jannator17@proton.me"
   },
-  "record": {
+  "records": {
     "URL": "https://jannator.is-a.dev"
   },
   "redirect_config": {
-    "redirect_paths": true,
-    "custom_paths": {}
+    "redirect_paths": true
   }
 }
