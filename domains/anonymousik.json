@@ -1,12 +1,11 @@
 {
-  "description": "Unknown person page of the young programmer Anonymousik, better known in Poland as Ferro",
-  "repo": "https://github.com/anonymousik.github.io",
+  "description": "Applying for an is-a.dev domain on behalf of my friend so he can use one.",
+  "repo": "https://github.com/anonymousik/anonymousik.github.io",
   "owner": {
     "username": "anonymousik",
-    "email": "nieznanynikomuu@gmail.com"
+    "email": "anonymousxtutaj@gmail.com"
   },
   "record": {
-    "CNAME": "anonymousik.github.io""
-  },
-  "proxied": true
+    "CNAME": "anonymousik.github.io"
+  }
 }
