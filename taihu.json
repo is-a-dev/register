@@ -3,6 +3,7 @@
         "username": "yayoiP"
     },
     "records": {
-        "RECORDTYPE": "RECORDCONTENT"
+        "RECORDTYPE": "A",
+        "RECORDCONTENT":"yayoip.github.io"
     }
 }
