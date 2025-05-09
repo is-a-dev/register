@@ -5,11 +5,7 @@
   },
   "records": {
     "URL": "https://stefdp.com",
-    "MX": [
-      "mail.stefdp.com"
-    ],
-    "TXT": [
-      "v=spf1 mx ~all"
-    ]
+    "MX": ["mail.stefdp.com"],
+    "TXT": ["v=spf1 mx ~all"]
   }
 }
