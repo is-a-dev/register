@@ -1,12 +1,9 @@
 {
   "owner": {
     "username": "rkoots",
-    "email": "rajkumarv88@icloud.com",
+    "email": "rajkumarv88@icloud.com"
   },
-  "reason": "I need a portfolio site hosted for self purpose. ",
-  "record": {
-    "CNAME": "rkoots.github.io",
-    "domain": "laughingman.is-a.dev",
-  },
-  "proxied": false
+  "records": {
+    "CNAME": "rkoots.github.io"
+  }
 }
