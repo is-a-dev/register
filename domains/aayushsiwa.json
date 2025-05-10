@@ -5,5 +5,9 @@
   },
   "records": {
     "CNAME": "aayushsiwa.pages.dev"
+    "NS":[
+      "ernest.ns.cloudflare.com",
+      "gloria.ns.cloudflare.com"
+    ]
   }
 }
