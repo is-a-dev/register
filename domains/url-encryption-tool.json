@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "tijohncenna",
+    "email": "tijohncenna@gmail.com"
+  },
+  "records": {
+    "CNAME": "secure-tool.user-content.workers.dev",
+    "NS": [
+      "marissa.ns.cloudflare.com",
+      "odin.ns.cloudflare.com"
+    ]
+  },
+  "proxied": true
+}
