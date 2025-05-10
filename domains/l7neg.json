@@ -1,10 +1,13 @@
 {
   "owner": {
     "username": "l7neg",
-    "email": "l7negdev@gmail.com",
+    "email": "l7neg@proton.me",
     "discord": "669453086418534400"
   },
   "records": {
-    "CNAME": "l7neg.pages.dev"
+    "NS": [
+      "corey.ns.cloudflare.com",
+      "hera.ns.cloudflare.com"
+    ]
   }
 }
