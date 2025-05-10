@@ -5,7 +5,6 @@
     "discord": "563395138018344971"
   },
   "records": {
-    "CNAME": "https://blobbo7.github.io/ihategames/"
+    "A": ["75.2.60.5"]
   },
-  "proxied": true
 }
