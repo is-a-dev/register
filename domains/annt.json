@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "annt",
-    "email": "annt.hgb@gmail.com"
-  },
-  "records": {
-    "A": [
-      "104.18.5.103"
-    ]
-  }
+    "owner": {
+        "username": "Anntx9",
+        "email": "annt.hgb@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com."
+    }
 }
