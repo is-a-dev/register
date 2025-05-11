@@ -2,7 +2,8 @@
   "description": "chat website",
   "owner": {
     "username": "vk0900",
-    "email": "nnmvishnu@gmail.com"
+    "email": "nnmvishnu@gmail.com"'
+    "proxied": true
   },
   "records": {
     "CNAME": "upchat.pages.dev"
