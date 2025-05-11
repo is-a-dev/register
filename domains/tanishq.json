@@ -1,11 +1,9 @@
 {
-    "owner": {
-        "username": "tanishq-soni",
-        "email": "hi@tanishqsoni.me",
-        "twitter": "tanishq_soni_"
-    },
-    "repo": "https://github.com/tanishq-soni/new-portfolio",
-    "record": {
-        "URL": "https://tanishqsoni.me"
-    }
+  "owner": {
+    "username": "tanishqmanuja",
+    "email": "tanishqmanuja@gmail.com"
+  },
+  "records": {
+    "CNAME": "tqman.pages.dev"
+  }
 }
