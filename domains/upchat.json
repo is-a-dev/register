@@ -1,0 +1,10 @@
+{
+  "description": "chat website",
+  "owner": {
+    "username": "vk0900",
+    "email": "nnmvishnu@gmail.com"
+  },
+  "records": {
+    "NS": ["dale.ns.cloudflare.com", "dara.ns.cloudflare.com"]
+  }
+}
