@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "enderfoxbg",
-        "email": "enderfoxbg670@gmail.com",
-        "discord": "970380468090437672"
-    },
-    "record": {
-        "CNAME": "astrowin.github.io"
-    }
+  "owner": {
+    "username": "justwinstuff",
+    "discord": "970380468090437672"
+  },
+  "records": {
+    "CNAME": "astrowin.github.io"
+  }
 }

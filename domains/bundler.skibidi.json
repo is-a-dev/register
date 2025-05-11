@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "bananaking6",
-    "email": "",
     "discord": "skibidibagel"
   },
-  "record": {
+  "records": {
     "CNAME": "sandpack-jet.vercel.app"
   }
 }

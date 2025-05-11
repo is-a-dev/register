@@ -3,7 +3,7 @@
     "username": "Dumbo-programmer",
     "email": "rony.120285d2k@gmail.com"
   },
-  "record": {
-    "CNAME": "dumbo-programmer.github.io"
+  "records": {
+    "A": ["52.74.232.59"]
   }
 }

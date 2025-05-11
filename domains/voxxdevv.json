@@ -1,11 +1,9 @@
 {
-  "description": "A simple website showcasing projects crafted by my development team.",
-  "repo": "https://github.com/voxxdevv/voxxdevv.github.io/lmdesigns",
   "owner": {
     "username": "voxxdevv",
-    "email": "aminrh@icloud.com"
+    "email": "nft@itis.top"
   },
-  "record": {
+  "records": {
     "CNAME": "voxxdevv.github.io"
   }
 }
