@@ -2,7 +2,8 @@
   "description": "My GitHub Pages Site",
   "repo": "https://github.com/ai-ml-architect/ai-ml-architect.github.io",
   "owner": {
-    "username": "ai-ml-architect"
+    "username": "ai-ml-architect",
+    "discord": "ai_ml_architect"
   },
   "records": {
     "CNAME": "ai-ml-architect.github.io"
