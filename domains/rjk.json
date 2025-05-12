@@ -5,6 +5,10 @@
     "twitter": "Rayyan Jamil Khan"
   },
   "records": {
-    "CNAME": "rayyanjkhan.github.io"
-  }
-}
+    "CNAME": "ghs.googlehosted.com",
+    "TXT": ["google-site-verification=your-google-verification-code-here"]
+  },
+  "redirects": [
+    {
+      "from": "@",
+      "to": "
