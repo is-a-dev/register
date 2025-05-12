@@ -1,12 +1,8 @@
 {
   "owner": {
-    "username": "dev-amansapkota",
-    "email": "amansapkota14@gmail.com"
+    "github": "dev-amansapkota"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "aman-sapkota.github.io"
-    }
-  ]
+  "records": {
+    "cname": "aman-sapkota.github.io"
+  }
 }
