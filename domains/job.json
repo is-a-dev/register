@@ -4,7 +4,11 @@
         "username": "FWEEaaaa1",
         "email": "gorgonfweman@outlook.com"
     },
-    "records": {
-        "CNAME": "fweeaaaa1.github.io"
-    }
+    {
+  "records": {
+    "NS": [
+      "dns1.serv00.com",
+      "dns2.serv00.com"
+    ]
+  }
 }
