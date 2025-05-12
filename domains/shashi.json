@@ -1,0 +1,11 @@
+{
+  "description": "My GitHub Pages Site",
+  "repo": "https://github.com/ai-ml-architect/ai-ml-architect.github.io",
+  "owner": {
+    "username": "ai-ml-architect"
+  },
+  "records": {
+    "CNAME": "ai-ml-architect.github.io"
+  },
+  "proxied": true
+}
