@@ -286,6 +286,7 @@ t("All files should have valid records", (t) => {
                 recordKeys.length === 1 || (recordKeys.length === 2 && recordKeys.includes("DS")),
                 `${file}: NS records cannot be combined with other records, except for DS records`
             );
+            t.true(!data.services, `${file}: Service records cannot be present when NS records are defined`);
         }
         if (recordKeys.includes("DS")) {
             t.true(recordKeys.includes("NS"), `${file}: DS records must be combined with NS records`);
