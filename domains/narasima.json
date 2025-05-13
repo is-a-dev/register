@@ -11,6 +11,7 @@
   },
   "services": {
     "discord": "dh=d54feeb331611626de2134ef368bdcf7691cbbb3",
-    "vercel": "vc-domain-verify=blog.narasima.is-a.dev,f77f79e5650f4790387a"
+    "vercel": "vc-domain-verify=blog.narasima.is-a.dev,f77f79e5650f4790387a",
+    "bluesky": "did=did:plc:u5uxl7mjlywolajtgso2ouoe"
   }
 }
