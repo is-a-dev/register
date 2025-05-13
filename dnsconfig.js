@@ -137,10 +137,12 @@ for (var subdomain in domains) {
     // Manage service records
     if (data.services) {
         if (data.services.discord) {
-            const discord = Array.isArray(data.services.discord) ? data.services.discord : [data.services.discord];
-
-            for (var txt in discord) {
-                records.push(TXT("_discord." + subdomainName, "\"" + data.services.discord[txt] + "\""));
+            if (Array.isArray(data.services.discord)) {
+                for (var txt in data.services.discord) {
+                    records.push(TXT(subdomainName, "\"" + data.services.discord[txt] + "\""));
+                }
+            } else {
+                records.push(TXT(subdomainName, "\"" + data.services.discord + "\""));
             }
         }
     }
