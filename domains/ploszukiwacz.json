@@ -13,5 +13,10 @@
         "digest": "22b5f2cb0470735026ec6d29b35ac48fedee8428a51883b3dcdeb61236bb3430"
       }
     ]
+  },
+  "services": {
+   "vercel": [
+    "vc-domain-verify=ploszukiwacz.is-a.dev,2d0920d5e8eed3f1dcd7"
+   ]
   }
 }
