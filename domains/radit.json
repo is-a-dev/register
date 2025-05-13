@@ -1,12 +1,10 @@
 {
   "description": "Raditya's Portfolio Web",
   "owner": {
-    "username": "Radiit", 
+    "username": "Radiit",
     "email": "radityaaydin@gmail.com"
   },
   "records": {
-    "A": [
-      "40.81.30.214"
-    ]
+    "A": ["40.81.30.214"]
   }
 }

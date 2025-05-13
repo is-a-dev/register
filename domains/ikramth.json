@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "ikramth.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ikramth.is-a.dev,ffebaa8e7ae5f74fdd95"
   }
 }

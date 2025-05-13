@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "yatharth-bhatia.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=yatharth.is-a.dev,59d3e946b8d099555345"
   }
 }

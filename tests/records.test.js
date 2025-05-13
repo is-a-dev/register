@@ -268,7 +268,7 @@ function validateRecordValues(t, data, file) {
     }
 }
 
-t("All files should have valid record types", (t) => {
+t("All files should have valid records", (t) => {
     files.forEach((file) => {
         const data = getDomainData(file);
         const recordKeys = Object.keys(data.records);
@@ -327,4 +327,36 @@ t("Root subdomains should have at least one usable record", (t) => {
             `${file}: Root subdomains must have at least one A, AAAA, CNAME, MX, NS, or URL record`
         );
     });
+});
+
+t("All files should have valid service records", (t) => {
+    files.forEach((file) => {
+        const data = getDomainData(file);
+
+        if (data?.services?.discord) {
+            const discord = Array.isArray(data.services.discord) ? data.services.discord : [data.services.discord];
+
+            discord.forEach((value) => {
+                const token = value.split("=")[1];
+
+                t.true(value.startsWith("dh="), `${file}: Invalid Discord service record format`);
+                t.true(token.length === 40, `${file}: Discord service token should be 40 characters long`);
+                t.true(
+                    isValidHexadecimal(token),
+                    `${file}: Discord service token should be a valid hexadecimal string`
+                );
+            });
+        }
+
+        if (data?.services?.vercel) {
+            const vercel = Array.isArray(data.services.vercel) ? data.services.vercel : [data.services.vercel];
+
+            vercel.forEach((value) => {
+                t.true(value.startsWith("vc-domain-verify="), `${file}: Invalid Vercel service record format`);
+                t.true(value.length >= 48, `${file}: Vercel service token should be 48 characters or longer`);
+            });
+        }
+    });
+
+    t.pass();
 });
