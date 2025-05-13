@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "lucatruglia-dev",
+    "email": "info.truglialuca@gmail.com"
+  },
+  "records": {
+    "NS": ["georgia.ns.cloudflare.com", "rocky.ns.cloudflare.com"]
+  }
+}
