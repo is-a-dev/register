@@ -164,6 +164,10 @@ async function processFile(file, t) {
                 `${file}: services.vercel should be an array or string`
             );
         }
+
+        if (data.services.bluesky) {
+            t.true(typeof data.services.bluesky === "string", `${file}: services.bluesky should be a string`);
+        }
     }
 
     for (const field of blockedFields) {

@@ -356,6 +356,12 @@ t("All files should have valid service records", (t) => {
                 t.true(value.length >= 48, `${file}: Vercel service token should be 48 characters or longer`);
             });
         }
+
+        const atprotoRegex = /^did=did:plc:[a-z0-9]{24}$/;
+
+        if (data?.services?.bluesky) {
+            t.true(atprotoRegex.test(data.services.bluesky), `${file}: Invalid Bluesky service record format`);
+        }
     });
 
     t.pass();
