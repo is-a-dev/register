@@ -110,6 +110,32 @@ fs.readdir(directoryPath, function (err, files) {
             v1.push(itemV1);
             v2.push(itemV2);
 
+            if (item.services) {
+                if (item.services.discord) {
+                    const discord = Array.isArray(item.services.discord)
+                        ? item.services.discord
+                        : [item.services.discord];
+
+                    v1.push({
+                        domain: `_discord.${item.domain}`,
+                        subdomain: `_discord.${item.subdomain}`,
+                        owner: item.owner,
+                        record: {
+                            TXT: discord
+                        }
+                    });
+
+                    v2.push({
+                        domain: `_discord.${item.domain}`,
+                        subdomain: `_discord.${item.subdomain}`,
+                        owner: item.owner,
+                        records: {
+                            TXT: discord
+                        }
+                    });
+                }
+            }
+
             processedCount++;
             if (processedCount === files.length) {
                 fs.writeFile("raw-api/index.json", JSON.stringify(v1), (err) => {

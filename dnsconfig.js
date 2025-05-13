@@ -133,6 +133,19 @@ for (var subdomain in domains) {
     if (data.records.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
     }
+
+    // Manage service records
+
+    // Discord TXT verification
+    if (data.services.discord) {
+        if (Array.isArray(data.services.discord)) {
+            for (var txt in data.services.discord) {
+                records.push(TXT("_discord." + subdomainName, data.services.discord[txt]));
+            }
+        } else {
+            records.push(TXT("_discord." + subdomainName, data.services.discord));
+        }
+    }
 }
 
 var reserved = require("./util/reserved.json");
