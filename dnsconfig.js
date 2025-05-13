@@ -155,6 +155,10 @@ for (var subdomain in domains) {
                 records.push(TXT("_vercel." + subdomainName, "\"" + data.services.vercel + "\""));
             }
         }
+
+        if (data.services.bluesky) {
+            records.push(TXT("_atproto." + subdomainName, "\"" + data.services.bluesky + "\""));
+        }
     }
 }
 
