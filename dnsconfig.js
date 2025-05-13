@@ -139,10 +139,10 @@ for (var subdomain in domains) {
         if (data.services.discord) {
             if (Array.isArray(data.services.discord)) {
                 for (var txt in data.services.discord) {
-                    records.push(TXT(subdomainName, "\"" + data.services.discord[txt] + "\""));
+                    records.push(TXT("_discord." + subdomainName, "\"" + data.services.discord[txt] + "\""));
                 }
             } else {
-                records.push(TXT(subdomainName, "\"" + data.services.discord + "\""));
+                records.push(TXT("_discord." + subdomainName, "\"" + data.services.discord + "\""));
             }
         }
     }
