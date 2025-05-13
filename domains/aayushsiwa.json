@@ -4,8 +4,7 @@
     "email": "22052177@kiit.ac.in"
   },
   "records": {
-    "CNAME": "aayushsiwa.pages.dev"
-    "NS":[
+    "NS": [
       "ernest.ns.cloudflare.com",
       "gloria.ns.cloudflare.com"
     ]
