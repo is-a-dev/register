@@ -14,5 +14,8 @@
       "vyntr-verify=1745336503391-httpssewtisadev-89il2frr4s7"
     ]
   },
-  "proxied": false
+  "proxied": false,
+  "services": {
+    "discord": "dh=a34e8bb281bffd5d738efe81e189ab6ef231ebb5"
+  }
 }

@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "harys722.github.io"
+  },
+  "services": {
+    "discord": "dh=b7e85268028e8c32676bf1e81122c1356159f27d"
   }
 }

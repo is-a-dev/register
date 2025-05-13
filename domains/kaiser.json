@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mimoritouka",
-        "email": "amgriffthme@gmail.com"
-    },
-    "records": {
-        "CNAME": "mimoritouka.github.io"
-    }
+  "owner": {
+    "username": "mimoritouka",
+    "email": "amgriffthme@gmail.com"
+  },
+  "records": {
+    "CNAME": "mimoritouka.github.io"
+  }
 }

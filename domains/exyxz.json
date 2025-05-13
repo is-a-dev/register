@@ -6,5 +6,9 @@
   },
   "records": {
     "CNAME": "exyxz.github.io"
+  },
+  "services": {
+    "discord": "dh=529be62f885915368b4b5c20beaef95a1c55ea98",
+    "bluesky": "did=did:plc:73r55srxmmlhhiof7fnllisy"
   }
 }

@@ -31,5 +31,8 @@
       "/r/github": "https://github.com/JustStudio7"
     }
   },
-  "proxied": true
+  "proxied": true,
+  "services": {
+    "discord": "dh=33f1a73c2f587fed7b0f3c03f18e1bf4591f8aec"
+  }
 }
