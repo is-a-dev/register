@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "amitkr.vercel.app"
+  },
+  "services": {
+    "discord": "dh=5b4d2c16d6e0595278e1eb813028b9de2e442e4c"
   }
 }

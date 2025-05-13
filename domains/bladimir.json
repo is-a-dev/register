@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "blads-portfolio.vercel.app"
+  },
+  "services": {
+    "discord": "dh=5421aaf1ad1aa267e9aa3d19c55d3762a0c5d8f8"
   }
 }

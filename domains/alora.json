@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "alora-verse.vercel.app"
+  },
+  "services": {
+    "discord": "dh=c5c6a95b0839d3a31d0ca2ae91236c9dbee84fd6"
   }
 }

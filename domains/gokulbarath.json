@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "portfolio-gokul6350s-projects.vercel.app"
+  },
+  "services": {
+    "discord": "dh=55a65497a2c3938fee2de54e3600a5b55524016c"
   }
 }

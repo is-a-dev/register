@@ -7,5 +7,8 @@
   },
   "records": {
     "CNAME": "newport-d2i.pages.dev"
+  },
+  "services": {
+    "discord": "dh=04c429a9247eee97c4db2597f0bdf22e28a949a1"
   }
 }

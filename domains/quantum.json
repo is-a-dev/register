@@ -8,5 +8,8 @@
     "TXT": ["v=spf1 include:spf.improvmx.com ~all"],
     "CNAME": "lakshinhemachandran.github.io"
   },
-  "proxied": true
+  "proxied": true,
+  "services": {
+    "discord": "dh=5a5f9d502ca98ef9d724b197609538f5b5379c83"
+  }
 }
