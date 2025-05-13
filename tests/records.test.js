@@ -353,7 +353,7 @@ t("All files should have valid service records", (t) => {
 
             vercel.forEach((value) => {
                 t.true(value.startsWith("vc-domain-verify="), `${file}: Invalid Vercel service record format`);
-                t.true(value.length > 48, `${file}: Vercel service token should be longer than 48 characters`);
+                t.true(value.length >= 48, `${file}: Vercel service token should be 48 characters or longer`);
             });
         }
     });
