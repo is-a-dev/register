@@ -135,15 +135,15 @@ for (var subdomain in domains) {
     }
 
     // Manage service records
-
-    // Discord TXT verification
-    if (data.services.discord) {
-        if (Array.isArray(data.services.discord)) {
-            for (var txt in data.services.discord) {
-                records.push(TXT("_discord." + subdomainName, data.services.discord[txt]));
+    if (data.services) {
+        if (data.services.discord) {
+            if (Array.isArray(data.services.discord)) {
+                for (var txt in data.services.discord) {
+                    records.push(TXT("_discord." + subdomainName, data.services.discord[txt]));
+                }
+            } else {
+                records.push(TXT("_discord." + subdomainName, data.services.discord));
             }
-        } else {
-            records.push(TXT("_discord." + subdomainName, data.services.discord));
         }
     }
 }
