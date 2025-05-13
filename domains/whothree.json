@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "whothreecollection.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=whothree.is-a.dev,aa6eb3d9cb5de94a6aaa"
   }
 }

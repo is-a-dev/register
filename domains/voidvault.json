@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "nova-blog-tech.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=voidvault.is-a.dev,fdc2aadb068bd286d372"
   }
 }

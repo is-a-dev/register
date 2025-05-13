@@ -18,6 +18,6 @@
       "2606:50c0:8003::153"
     ],
     "MX": ["tourmaline.uksouth.cloudapp.azure.com"],
-    "TXT": ["v=spf1 mx -all"]
+    "TXT": "v=spf1 mx -all"
   }
 }
