@@ -105,3 +105,16 @@ t("Users are limited to one single character subdomain", (t) => {
 
     t.pass();
 });
+
+t("Disallow nested subdomains when parent has specific service records", (t) => {
+    files.forEach((file) => {
+        const subdomain = file.replace(/\.json$/, "");
+        const data = getDomainData(subdomain);
+
+        if(data?.services?.discord) {
+            t.false(files.includes(`_discord.${file}`), `${file}: Nested subdomain "_discord.${subdomain}" should not exist when services.discord is present`);
+        }
+    });
+
+    t.pass();
+});
