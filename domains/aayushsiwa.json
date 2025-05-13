@@ -4,9 +4,6 @@
     "email": "22052177@kiit.ac.in"
   },
   "records": {
-    "NS": [
-      "ernest.ns.cloudflare.com",
-      "gloria.ns.cloudflare.com"
-    ]
+    "NS": ["ernest.ns.cloudflare.com", "gloria.ns.cloudflare.com"]
   }
 }

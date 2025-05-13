@@ -6,5 +6,8 @@
   },
   "records": {
     "CNAME": "ducky4life.github.io"
+  },
+  "services": {
+    "discord": "dh=925876829c7314b41fe3c2a412b7a4250214febf"
   }
 }
