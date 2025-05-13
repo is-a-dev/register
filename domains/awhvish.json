@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "awhvish.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=awhvish.is-a.dev,f4fbe002837b72638f88"
   }
 }

@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "tykea.dev"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=tykea.is-a.dev,6107010761e516843251"
   }
 }

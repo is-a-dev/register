@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "auberon.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=kazuma.is-a.dev,14b6762142361c94cc8a"
   }
 }

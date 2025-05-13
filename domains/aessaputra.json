@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "github-profile-summary-cards-aes-saputras-projects.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=aessaputra.is-a.dev,e4ae1f9f5dd0538d0b82"
   }
 }

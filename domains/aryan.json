@@ -7,5 +7,8 @@
   "records": {
     "A": ["76.76.21.21"]
   },
-  "proxied": true
+  "proxied": true,
+  "services": {
+    "vercel": "vc-domain-verify=aryan.is-a.dev,589c160d472fa2b93174"
+  }
 }

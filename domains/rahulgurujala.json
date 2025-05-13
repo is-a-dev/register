@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "rahulgurujala.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=rahulgurujala.is-a.dev,6daa2c803848d4e808d9"
   }
 }

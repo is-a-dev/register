@@ -121,6 +121,13 @@ t("Disallow nested subdomains when parent has specific service records", (t) => 
                 `${file}: Nested subdomain "_vercel.${subdomain}" should not exist when services.vercel is present`
             );
         }
+
+        if (data?.services?.bluesky) {
+            t.false(
+                files.includes(`_atproto.${file}`),
+                `${file}: Nested subdomain "_atproto.${subdomain}" should not exist when services.bluesky is present`
+            );
+        }
     });
 
     t.pass();

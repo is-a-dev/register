@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "chriscent.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=chriscent.is-a.dev,0bd491999fe494552e50"
   }
 }
