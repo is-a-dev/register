@@ -5,9 +5,7 @@
   },
   "records": {
     "A": ["76.76.21.21"],
-    "TXT": [
-      "google-site-verification=CT0XYnjNC4mKSCOf5Bg0MhiAI1iA5fE2j0cQRJ6PNNo"
-    ]
+    "TXT": "google-site-verification=CT0XYnjNC4mKSCOf5Bg0MhiAI1iA5fE2j0cQRJ6PNNo"
   },
   "services": {
     "vercel": [

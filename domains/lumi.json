@@ -6,7 +6,7 @@
   "records": {
     "A": ["76.76.21.21"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   },
   "services": {
     "discord": "dh=e00668e963ac416881a25e0bb5f87429a5eb0792"
