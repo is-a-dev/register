@@ -154,7 +154,14 @@ async function processFile(file, t) {
         if (data.services.discord) {
             t.true(
                 Array.isArray(data.services.discord) || typeof data.services.discord === "string",
-                `${file}: Discord service should be an array or string`
+                `${file}: services.discord should be an array or string`
+            );
+        }
+
+        if (data.services.vercel) {
+            t.true(
+                Array.isArray(data.services.vercel) || typeof data.services.vercel === "string",
+                `${file}: services.vercel should be an array or string`
             );
         }
     }

@@ -339,12 +339,21 @@ t("All files should have valid service records", (t) => {
             discord.forEach((value) => {
                 const token = value.split("=")[1];
 
-                t.true(value.startsWith("dh="), `${file}: Discord service record should start with "dh="`);
+                t.true(value.startsWith("dh="), `${file}: Invalid Discord service record format`);
                 t.true(token.length === 40, `${file}: Discord service token should be 40 characters long`);
                 t.true(
                     isValidHexadecimal(token),
                     `${file}: Discord service token should be a valid hexadecimal string`
                 );
+            });
+        }
+
+        if (data?.services?.vercel) {
+            const vercel = Array.isArray(data.services.vercel) ? data.services.vercel : [data.services.vercel];
+
+            vercel.forEach((value) => {
+                t.true(value.startsWith("vc-domain-verify="), `${file}: Invalid Vercel service record format`);
+                t.true(value.length > 48, `${file}: Vercel service token should be longer than 48 characters`);
             });
         }
     });

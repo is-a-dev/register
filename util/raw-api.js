@@ -134,6 +134,28 @@ fs.readdir(directoryPath, function (err, files) {
                         }
                     });
                 }
+
+                if (item.services.vercel) {
+                    const vercel = Array.isArray(item.services.vercel) ? item.services.vercel : [item.services.vercel];
+
+                    v1.push({
+                        domain: `_vercel.${item.domain}`,
+                        subdomain: `_vercel.${item.subdomain}`,
+                        owner: item.owner,
+                        record: {
+                            TXT: vercel
+                        }
+                    });
+
+                    v2.push({
+                        domain: `_vercel.${item.domain}`,
+                        subdomain: `_vercel.${item.subdomain}`,
+                        owner: item.owner,
+                        records: {
+                            TXT: vercel
+                        }
+                    });
+                }
             }
 
             processedCount++;

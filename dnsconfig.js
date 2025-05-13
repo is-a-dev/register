@@ -145,6 +145,16 @@ for (var subdomain in domains) {
                 records.push(TXT("_discord." + subdomainName, "\"" + data.services.discord + "\""));
             }
         }
+
+        if (data.services.vercel) {
+            if (Array.isArray(data.services.vercel)) {
+                for (var txt in data.services.vercel) {
+                    records.push(TXT("_vercel." + subdomainName, "\"" + data.services.vercel[txt] + "\""));
+                }
+            } else {
+                records.push(TXT("_vercel." + subdomainName, "\"" + data.services.vercel + "\""));
+            }
+        }
     }
 }
 
