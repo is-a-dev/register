@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "realyoterry.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=terry.is-a.dev,77663b6ef45302529609"
   }
 }

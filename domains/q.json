@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "xproject-xi.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=q.is-a.dev,8798cf095e1f783b5302"
   }
 }

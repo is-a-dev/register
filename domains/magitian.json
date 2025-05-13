@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "magitian.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=magitian.is-a.dev,645e2d8f0ecf6f802922"
   }
 }

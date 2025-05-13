@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "namansethi.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=namansethi.is-a.dev,e0b892773250b43800c9"
   }
 }
