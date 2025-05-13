@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "ebooks-online-opal.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ebooks.is-a.dev,5fa4e0aa7b17c9f52a9d"
   }
 }

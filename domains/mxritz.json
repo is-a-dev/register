@@ -6,5 +6,8 @@
   },
   "records": {
     "CNAME": "server.mxritz.dev"
+  },
+  "services": {
+    "discord": "dh=01795372b646a8a36087b00130313eda00b40928"
   }
 }

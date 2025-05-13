@@ -13,5 +13,8 @@
     ],
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=contact:oxmc7769.mail@gmail.com,jadenmc:oxmc7769.mail@gmail.com,buisness:oxmc7769.mail@gmail.com"
+  },
+  "services": {
+    "discord": "dh=6493e80ff0645ec8c706643ae6e357066becb660"
   }
 }

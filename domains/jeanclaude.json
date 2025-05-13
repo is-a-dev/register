@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "jeanclaude-omega.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=jeanclaude.is-a.dev,76b49022de3c560947e8"
   }
 }
