@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "septyo-adi-dwi-putra.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=lycoris.is-a.dev,c3b18b1afc1e66757025"
   }
 }

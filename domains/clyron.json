@@ -5,5 +5,9 @@
   },
   "records": {
     "CNAME": "theclyron.github.io"
+  },
+  "services": {
+    "discord": "dh=08fd1efb158b657de5293ec643a8426a20a93ede",
+    "bluesky": "did=did:plc:fqvzbqsjzjkl4o66rfp6cgk3"
   }
 }

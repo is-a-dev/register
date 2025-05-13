@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "edge.redirect.pizza"
+  },
+  "services": {
+    "discord": "dh=4277dadd7134f6e2ee439faf5377801a9eec7b2c"
   }
 }
