@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "shashankr.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=shashankr.is-a.dev,bda445ddf6f7dd38eed0"
   }
 }

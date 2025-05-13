@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "michi4.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=michi.is-a.dev,d0e5ddd1aa39de41c31a"
   }
 }

@@ -6,5 +6,8 @@
   },
   "records": {
     "CNAME": "rogerbhuntiii.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=roger.is-a.dev,3c1580f4736931662645"
   }
 }

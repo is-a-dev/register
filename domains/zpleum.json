@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "zpleum.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=zpleum.is-a.dev,34df59a5daf8df76e183"
   }
 }

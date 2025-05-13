@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "zai-kun.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=zai.is-a.dev,d6fe937cdbbdde7c76a4"
   }
 }
