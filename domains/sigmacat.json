@@ -1,12 +1,15 @@
 {
   "owner": {
-    "username": "SigmaCat01",
-    "email": "sigmacat_12@outlook.com"
+    "username": "SigmaCat01"
   },
   "records": {
-    "NS": [
-      "ns1.infinityfree.com",
-      "ns2.infinityfree.com"
+    "SRV": [
+      {
+        "priority": 10,
+        "weight": 5,
+        "port": 6311,
+        "target": "87.106.101.66"
+      }
     ]
   }
 }
