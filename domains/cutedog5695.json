@@ -10,6 +10,7 @@
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   },
   "services": {
-    "discord": "dh=f85ce7cf4e6ff1f6136767a12c041fbbcb446045"
+    "discord": "dh=f85ce7cf4e6ff1f6136767a12c041fbbcb446045",
+    "vercel": "vc-domain-verify=vercel.cutedog5695.is-a.dev,92820276b2029f5426ec"
   }
 }

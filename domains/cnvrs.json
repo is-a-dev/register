@@ -4,5 +4,8 @@
   },
   "records": {
     "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=cnvrs.is-a.dev,759e0953091c88d99f57"
   }
 }

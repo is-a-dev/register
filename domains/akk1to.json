@@ -15,6 +15,7 @@
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   },
   "services": {
-    "discord": "dh=1b549c9ba1012a210482879df31eaddc4dbf0c7e"
+    "discord": "dh=1b549c9ba1012a210482879df31eaddc4dbf0c7e",
+    "vercel": "vc-domain-verify=blogs.akk1to.is-a.dev,18b784bd5f6ecb5feeb8"
   }
 }

@@ -139,11 +139,25 @@ for (var subdomain in domains) {
         if (data.services.discord) {
             if (Array.isArray(data.services.discord)) {
                 for (var txt in data.services.discord) {
-                    records.push(TXT("_discord." + subdomainName, data.services.discord[txt]));
+                    records.push(TXT("_discord." + subdomainName, "\"" + data.services.discord[txt] + "\""));
                 }
             } else {
-                records.push(TXT("_discord." + subdomainName, data.services.discord));
+                records.push(TXT("_discord." + subdomainName, "\"" + data.services.discord + "\""));
             }
+        }
+
+        if (data.services.vercel) {
+            if (Array.isArray(data.services.vercel)) {
+                for (var txt in data.services.vercel) {
+                    records.push(TXT("_vercel." + subdomainName, "\"" + data.services.vercel[txt] + "\""));
+                }
+            } else {
+                records.push(TXT("_vercel." + subdomainName, "\"" + data.services.vercel + "\""));
+            }
+        }
+
+        if (data.services.bluesky) {
+            records.push(TXT("_atproto." + subdomainName, "\"" + data.services.bluesky + "\""));
         }
     }
 }

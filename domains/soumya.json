@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "my-portfolio-nu-black.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=soumya.is-a.dev,8ebab026d71acdb07a13"
   }
 }

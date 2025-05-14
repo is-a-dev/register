@@ -7,6 +7,6 @@
   },
   "records": {
     "MX": ["feedback-smtp.eu-west-1.amazonses.com"],
-    "TXT": ["v=spf1 include:amazonses.com ~all"]
+    "TXT": "v=spf1 include:amazonses.com ~all"
   }
 }

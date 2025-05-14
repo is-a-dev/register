@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "sortalost.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=sortalost.is-a.dev,9d2eea9fbc54a478f71c"
   }
 }

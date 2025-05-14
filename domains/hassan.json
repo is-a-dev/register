@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "portfolio-seven-pi-39.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=hassan.is-a.dev,e3a8644f36c84599e9d9"
   }
 }
