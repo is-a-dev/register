@@ -7,8 +7,8 @@
       {
         "priority": 10,
         "weight": 5,
-        "port": 6311,
-        "target": "87.106.101.66"
+        "port": 80,
+        "target": "sigmacat.rf.gd"
       }
     ]
   }
