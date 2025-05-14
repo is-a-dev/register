@@ -1,0 +1,14 @@
+{
+  "description": "my website yahoo",
+  "owner": {
+    "username": "bitpebl",
+    "email": "bitpebl@gmail.com"
+  },
+  "records": {
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": [
+      "forward-email=bitpebl@gmail.com",
+    ],
+    "A": ["76.76.21.21"]
+  },
+}
