@@ -20,5 +20,8 @@
     ],
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=nerop455@gmail.com"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=api.gizzy.is-a.dev,34435322ec6f3a031174"
   }
 }

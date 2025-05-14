@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "formunagit.github.io"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=api.formuna.is-a.dev,d52d0266198bf7ac4e7d"
   }
 }
