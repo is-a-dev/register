@@ -6,5 +6,8 @@
   },
   "records": {
     "CNAME": "meghdip.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=meghdip.is-a.dev,c42a80a81afe4ac5800c"
   }
 }

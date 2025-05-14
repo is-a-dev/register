@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "portofoliowebdev.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=andresarr.is-a.dev,c7c6b930211214eb12c5"
   }
 }
