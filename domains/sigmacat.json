@@ -7,7 +7,7 @@
       {
         "priority": 10,
         "weight": 5,
-        "port": 80,
+        "port": 443,
         "target": "sigmacat.rf.gd"
       }
     ]
