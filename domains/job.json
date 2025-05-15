@@ -1,7 +1,13 @@
 {
+  "description": "portfolio that i developed",
   "owner": {
-    "username": "fweeaaaa1",
-    "email": "gorgonfweman@outlook.com"
+    "username": "FWEEaaaa1",
+    "email": "gorgonfweman@outlook.com",
+    "discord": "openjobex"
   },
-  "record": {
-    "A": ["128.204.223.115"]
+  "records": {
+    "A": [
+      "128.204.223.115"
+    ]
+  }
+}
