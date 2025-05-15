@@ -3,7 +3,10 @@
        "username": "Warlord-10",
        "email": "deepanshu10joshi@gmail.com"
      },
-     "record": {
-       "CNAME": "https://portfolio-fawn-ten-96.vercel.app/"
+     "records": {
+       "CNAME": "portfolio-fawn-ten-96.vercel.app/"
+     },
+     "services": {
+         "vercel": "vc-domain-verify=deepanshu.is-a.dev,1cdb6956ba4d05ab51cb"
      }
    }
