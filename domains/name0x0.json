@@ -4,7 +4,7 @@
     "email": "m.afsah.279@gmail.com"
   },
   "description": "Introductory landing page for NAME0x0.is-a.dev",
-  "record": {
+  "records": {
     "CNAME": "NAME0x0.github.io"
   },
   "mxttl": 3600
