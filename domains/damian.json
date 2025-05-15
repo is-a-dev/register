@@ -5,5 +5,8 @@
   },
   "records": {
     "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=damian.is-a.dev,4dce4cc5e2ccdbc3e472"
   }
 }

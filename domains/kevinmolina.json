@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "kevinmolinadev.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=kevinmolina.is-a.dev,514e23dcdfedeb5ae4c5"
   }
 }
