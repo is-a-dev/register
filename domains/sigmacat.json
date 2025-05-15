@@ -3,13 +3,6 @@
     "username": "SigmaCat01"
   },
   "records": {
-    "SRV": [
-      {
-        "priority": 10,
-        "weight": 5,
-        "port": 443,
-        "target": "sigmacat.rf.gd"
-      }
-    ]
+    "CNAME": "sigmacat.pages.dev"
   }
 }
