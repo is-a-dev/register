@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "vldm-portafolio.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=vldm.is-a.dev,a2a022436d0631ef5231"
   }
 }

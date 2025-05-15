@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "mahi160.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=sifat.is-a.dev,cc8d1b30995eac869fea"
   }
 }

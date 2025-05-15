@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "my-portfolio-swart-eight.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=gb.is-a.dev,a243301b3c4cc33de482"
   }
 }

@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "sebastian-riveros.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=sebastianriveros.is-a.dev,be3bca98d22aab14d046"
   }
 }

@@ -6,7 +6,10 @@
   "records": {
     "CNAME": "githubfantest.github.io",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   },
-  "proxied": true
+  "proxied": true,
+  "services": {
+    "discord": "dh=7b870ea5ded2a7388f1def1fda8cfbf816f3dfe0"
+  }
 }

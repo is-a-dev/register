@@ -7,5 +7,8 @@
   },
   "records": {
     "CNAME": "vinux.in"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=vinay.is-a.dev,fbe9cb0c6fd1fdf4c943"
   }
 }

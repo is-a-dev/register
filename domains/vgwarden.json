@@ -4,5 +4,8 @@
   },
   "records": {
     "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=vgwarden.is-a.dev,fb2beec697ea06b98fb5"
   }
 }

@@ -8,5 +8,8 @@
   },
   "records": {
     "URL": "https://okinea.dev"
+  },
+  "services": {
+    "discord": "dh=72f6dea86d79bda34d2c61e1edb3037954caac82"
   }
 }
