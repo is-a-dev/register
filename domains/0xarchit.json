@@ -1,12 +1,9 @@
 {
   "owner": {
     "username": "0xarchit",
-    "mail": "0xarchit@proton.me"
+    "email": "0xarchit@proton.me"
   },
-  "record": {
-    "TXT": [
-    "0xarchit",
-    "zoho-verification=zb94087787.zmverify.zoho.in"
-  ]
+  "records": {
+    "NS": ["brenna.ns.cloudflare.com", "cartman.ns.cloudflare.com"]
   }
 }

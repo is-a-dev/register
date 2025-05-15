@@ -1,11 +1,13 @@
 {
   "description": "Portfolio site for me.",
-  "repo": "https://github.com/Infernum1/Infernum1.github.io",
   "owner": {
     "username": "Infernum1",
     "email": "infernum1212@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "infernum1.github.io"
+  },
+  "services": {
+    "discord": "dh=b25f81ebab2ff999a86bbda2f49f609e03054b39"
   }
 }

@@ -4,8 +4,11 @@
     "username": "KN2222",
     "email": "hellokhangtran03@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "hellokhangtran.vercel.app"
   },
-  "proxied": false
+  "proxied": false,
+  "services": {
+    "vercel": "vc-domain-verify=hellokhangtran.is-a.dev,c6412bc4cdbfa93fe3a1"
+  }
 }

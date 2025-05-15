@@ -6,7 +6,7 @@
     "facebook": "STICKnoLOGIC",
     "bsky": "STICKnoLOGIC"
   },
-  "record": {
+  "records": {
     "NS": ["ns1.heliohost.org", "ns2.heliohost.org"]
   }
 }

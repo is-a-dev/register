@@ -3,7 +3,10 @@
     "username": "voltonik",
     "email": "markasaadramzy@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "markasaad.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=markasaad.is-a.dev,466430b693facfcda35d"
   }
 }

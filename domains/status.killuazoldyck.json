@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "killuazoldyckreal",
-        "email": "bk1030798@gmail.com"
-    },
-    "record": {
-        "CNAME": "statuspage.betteruptime.com"
-    }
+  "owner": {
+    "username": "killuazoldyckreal",
+    "email": "bk1030798@gmail.com"
+  },
+  "records": {
+    "CNAME": "statuspage.betteruptime.com"
+  }
 }

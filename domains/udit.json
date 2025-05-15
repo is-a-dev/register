@@ -1,11 +1,12 @@
 {
-    "description": "Udit's portfolio",
-    "repo": "https://github.com/uditdev1/details",
-    "owner": {
-        "username": "uditdev",
-        "email": "uditdev0008@gmail.com"
-    },
-    "record": {
-        "CNAME": "details-five.vercel.app"
-    }
+  "owner": {
+    "username": "uditdev",
+    "email": "uditdev0008@gmail.com"
+  },
+  "records": {
+    "CNAME": "details-five.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=udit.is-a.dev,8718c1c2a08417265d7e"
+  }
 }

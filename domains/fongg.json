@@ -1,11 +1,9 @@
 {
-    "description": "nphng15.is-a.dev",
-    "repo": "https://github.com/nphng15/nphng15.github.io",
-    "owner": {
-        "username": "nphng15",
-        "email": "23521172@gm.uit.edu.vn"
-    },
-    "record": {
-        "CNAME": "nphng15.github.io"
-    }
+  "owner": {
+    "username": "nphng15",
+    "email": "23521172@gm.uit.edu.vn"
+  },
+  "records": {
+    "CNAME": "nphng15.github.io"
+  }
 }

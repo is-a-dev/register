@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "criticic",
+    "email": "acriticalcynic@outlook.com"
+  },
+  "records": {
+    "CNAME": "cynikal-blog.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=cynik.is-a.dev,c3bf65e6e52c2bd9ce40"
+  }
+}

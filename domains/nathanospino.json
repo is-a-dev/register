@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "C4lumny",
-        "email": "ospinonathan@gmail.com"
-    },
-    "record": {
-        "CNAME": "nathanospino.vercel.app"
-    }
+  "owner": {
+    "username": "C4lumny",
+    "email": "ospinonathan@gmail.com"
+  },
+  "records": {
+    "CNAME": "nathanospino.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=nathanospino.is-a.dev,4130bdbb1e9dc4fcfcc0"
+  }
 }

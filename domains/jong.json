@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Jongo22",
+    "email": "jingyiong22@gmail.com"
+  },
+  "records": {
+    "CNAME": "frontend-green-kappa.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=jong.is-a.dev,d7331d87860e2795082e"
+  }
+}

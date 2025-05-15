@@ -1,12 +1,10 @@
 {
-  "description": "Rawir's website",
-  "repo": "https://github.com/Rawiros/rawiros.github.io",
   "owner": {
     "username": "Rawiros",
     "email": "0x4d3a@protonmail.com",
     "twitter": "Rawir_"
   },
-  "record": {
+  "records": {
     "CNAME": "rawiros.github.io"
   }
 }

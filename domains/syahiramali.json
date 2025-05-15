@@ -1,11 +1,9 @@
 {
-  "description": "syahirAmali Portfolio",
-  "repo": "https://github.com/syahirAmali/syahirAmali.github.io",
   "owner": {
     "username": "syahirAmali",
     "email": "syahiramali@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "syahiramali.github.io"
   }
 }

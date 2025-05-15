@@ -3,7 +3,10 @@
     "username": "andresfer1799",
     "email": "andresfer1799@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mi-portafolio-wine.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=andres-jaramillo.is-a.dev,19f46a0dbb75aa279425"
   }
 }

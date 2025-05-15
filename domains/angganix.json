@@ -1,11 +1,11 @@
 {
-    "description": "For personal site, blogging, and displayed portofolio",
-    "repo": "https://github.com/angganix/angganix.github.io",
-    "owner": {
-        "username": "angganix",
-        "email": "angganix@gmail.com"
-    },
-    "record": {
-        "CNAME": "angganix.github.io"
-    }
+  "owner": {
+    "username": "angganix",
+    "email": "angganix@gmail.com"
+  },
+  "records": {
+    "CNAME": "angganix.github.io",
+    "TXT": "google-site-verification=q5JulUF0tB8rSEi7z2cnvV6IgMZr5En3l_O_uq70ijI"
+  },
+  "proxied": true
 }

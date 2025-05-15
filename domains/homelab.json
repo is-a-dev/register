@@ -1,0 +1,10 @@
+{
+  "description": "Domain for dynamic DNS updates and Cloudflare Tunnel setup for demo and home lab purposes",
+  "owner": {
+    "username": "vikipranata",
+    "email": "helovikipranata@gmail.com"
+  },
+  "records": {
+    "NS": ["deb.ns.cloudflare.com", "sid.ns.cloudflare.com"]
+  }
+}
