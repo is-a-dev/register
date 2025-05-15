@@ -1,11 +1,12 @@
 {
-  "description": "Portfolio Website",
-  "repo": "https://github.com/aadltya/portfolio-website",
   "owner": {
     "username": "aadltya",
     "email": "adityaedu22@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "adityasworld.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=swami.is-a.dev,ebd6de23b5512663a728"
   }
 }

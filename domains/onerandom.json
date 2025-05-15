@@ -3,7 +3,10 @@
     "username": "OneRandom1509",
     "email": "anantukid@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "folio-five-beta.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=onerandom.is-a.dev,e18318031614810f658f"
   }
 }

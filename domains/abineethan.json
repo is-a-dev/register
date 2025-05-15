@@ -4,7 +4,7 @@
     "username": "abineethan",
     "email": "abineethan22@gmail.com"
   },
-  "record": {
-    "CNAME": "abineethan-dev.web.app"
+  "records": {
+    "CNAME": "abineethan-me.web.app"
   }
 }

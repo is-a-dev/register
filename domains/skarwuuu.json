@@ -4,7 +4,10 @@
     "username": "skarwuuu",
     "email": "sakshrwt@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "skarwuuu.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=skarwuuu.is-a.dev,eb14a67d4b3b06f29c5c"
   }
 }

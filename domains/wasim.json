@@ -3,7 +3,10 @@
     "username": "simbaig",
     "email": "wasimbaig000@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "wasimb.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=wasim.is-a.dev,6b4abdaf07b7f6517075"
   }
 }

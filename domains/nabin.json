@@ -3,7 +3,10 @@
     "username": "nabinkatwal7",
     "email": "mediocampistaa@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "portfolio-v3-six-iota.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=nabin.is-a.dev,bfd13935a3cb2aaea0e5"
   }
 }

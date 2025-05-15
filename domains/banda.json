@@ -3,7 +3,10 @@
     "username": "bandabahariputra",
     "discord": "banda"
   },
-  "record": {
+  "records": {
     "CNAME": "bandabahariputra.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=banda.is-a.dev,e684b7e614c3912ba446"
   }
 }

@@ -1,11 +1,13 @@
 {
-  "description": "Personal website of Clyron",
-  "repo": "https://github.com/theclyron/theclyron.github.io",
   "owner": {
     "username": "theclyron",
     "email": "onenonlyclyron@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "theclyron.github.io"
+  },
+  "services": {
+    "discord": "dh=08fd1efb158b657de5293ec643a8426a20a93ede",
+    "bluesky": "did=did:plc:fqvzbqsjzjkl4o66rfp6cgk3"
   }
 }

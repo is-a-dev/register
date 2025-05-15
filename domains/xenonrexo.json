@@ -3,7 +3,10 @@
     "username": "shshams",
     "email": "shahadathossenshams@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "xenonrexo.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=xenonrexo.is-a.dev,8fbb85bd77adeb090add"
   }
 }

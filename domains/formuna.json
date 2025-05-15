@@ -1,11 +1,12 @@
 {
-  "description": "My website for my projects",
-  "repo": "https://github.com/FormunaGit/formunagit.github.io",
   "owner": {
     "username": "FormunaGit",
     "discord": "754657845563097108"
   },
-  "record": {
+  "records": {
     "CNAME": "formunagit.github.io"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=api.formuna.is-a.dev,d52d0266198bf7ac4e7d"
   }
 }

@@ -3,7 +3,10 @@
     "username": "Utkarsh-Singhal-26",
     "email": "singhalutkarsh26@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "utkarsh-singhal.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=utkarsh-singhal.is-a.dev,31f5c6e60805af21e98f"
   }
 }

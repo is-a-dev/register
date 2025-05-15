@@ -4,7 +4,10 @@
     "username": "juanjose23",
     "email": "jrios9836@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["76.76.21.21"]
-}
+  },
+  "services": {
+    "vercel": "vc-domain-verify=juanhuete.is-a.dev,479b0bcf59c976d6f921"
+  }
 }

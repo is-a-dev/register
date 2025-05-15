@@ -24,26 +24,28 @@ function getDomainData(subdomain) {
 t("Nested subdomains should not exist without a parent subdomain", (t) => {
     files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
-        const parentDomain = subdomain.split(".").reverse()[0];
+        const parts = subdomain.split(".");
 
-        if (parentDomain !== subdomain) {
-            t.true(
-                parentDomain && files.includes(`${parentDomain}.json`),
-                `${file}: Parent subdomain does not exist`
-            );
+        for (let i = 1; i < parts.length; i++) {
+            const parent = parts.slice(i).join(".");
+            if (parent.startsWith("_")) continue;
+
+            t.true(files.includes(`${parent}.json`), `${file}: Parent subdomain "${parent}" does not exist`);
         }
     });
 });
 
-t("Nested subdomains should not exist if the parent subdomain has NS records", (t) => {
+t("Nested subdomains should not exist if any parent subdomain has NS records", (t) => {
     files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
-        const parentDomain = subdomain.split(".").reverse()[0];
+        const parts = subdomain.split(".");
 
-        if (parentDomain !== subdomain) {
-            const parentData = getDomainData(parentDomain);
+        for (let i = 1; i < parts.length; i++) {
+            const parent = parts.slice(i).join(".");
+            if (parent.startsWith("_") || !files.includes(`${parent}.json`)) continue;
+            const parentData = getDomainData(parent);
 
-            t.true(!parentData.record.NS, `${file}: Parent subdomain has NS records`);
+            t.true(!parentData.records.NS, `${file}: Parent subdomain "${parent}" has NS records`);
         }
     });
 });
@@ -97,6 +99,36 @@ t("Users are limited to one single character subdomain", (t) => {
             .map((owner) => `${owner} - ${output[owner].join(", ")}`)
             .join("\n")
     );
+
+    t.pass();
+});
+
+t("Disallow nested subdomains when parent has specific service records", (t) => {
+    files.forEach((file) => {
+        const subdomain = file.replace(/\.json$/, "");
+        const data = getDomainData(subdomain);
+
+        if (data?.services?.discord) {
+            t.false(
+                files.includes(`_discord.${file}`),
+                `${file}: Nested subdomain "_discord.${subdomain}" should not exist when services.discord is present`
+            );
+        }
+
+        if (data?.services?.vercel) {
+            t.false(
+                files.includes(`_vercel.${file}`),
+                `${file}: Nested subdomain "_vercel.${subdomain}" should not exist when services.vercel is present`
+            );
+        }
+
+        if (data?.services?.bluesky) {
+            t.false(
+                files.includes(`_atproto.${file}`),
+                `${file}: Nested subdomain "_atproto.${subdomain}" should not exist when services.bluesky is present`
+            );
+        }
+    });
 
     t.pass();
 });
