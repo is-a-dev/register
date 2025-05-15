@@ -7,5 +7,5 @@
   "records": {
     "CNAME": "apoo711.github.io"
   },
-  "proxy": false
+  "proxied": true
 }
