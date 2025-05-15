@@ -3,11 +3,8 @@
     "username": "AKBORANA3"
   },
   "records": {
-    "A": ["76.76.21.21"],
+    "A": ["75.2.60.5"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=akay.is-a.dev,f9e6eaccf85abfddae57"
   }
 }
