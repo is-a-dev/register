@@ -9,5 +9,8 @@
       "v=spf1 include:zoho.in ~all"
     ],
     "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=blog.crazo7924.is-a.dev,08987fe260da74fe448e"
   }
 }

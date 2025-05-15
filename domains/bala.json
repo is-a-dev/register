@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "my-app-brown-tau.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=bala.is-a.dev,7d0037d117e48bf24960"
   }
 }

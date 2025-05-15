@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "thiagotukozaki.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=thiagotukozaki.is-a.dev,cf21301c66cbaaf29419"
   }
 }
