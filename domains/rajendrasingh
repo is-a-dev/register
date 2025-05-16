@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Rapter001",
+    "email": "support@rapter.is-a.dev"
+  },
+  "records": {
+    "NS": ["martha.ns.cloudflare.com", "quinton.ns.cloudflare.com"]
+  }
+}
