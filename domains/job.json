@@ -1,9 +1,12 @@
 {
   "owner": {
     "username": "FWEEaaaa1",
-    "email": "gorgonfweman@outlook.com"
+    "email": "gorgonfweman@outlook.com",
+    "discord": "openjobex"
   },
   "records": {
-    "CNAME": "fweeaaaa1.github.io"
+    "A": [
+      "128.204.223.115"
+    ]
   }
 }
