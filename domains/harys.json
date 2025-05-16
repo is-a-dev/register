@@ -9,7 +9,7 @@
     "MX": [
       {
         "target": "mx.zoho.com",
-        "priority": 10
+        "priority": "10"
       },
       {
         "target": "mx2.zoho.com",
