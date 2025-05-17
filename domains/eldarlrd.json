@@ -3,8 +3,8 @@
     "username": "eldarlrd",
     "email": "eldarlrd@pm.me"
   },
-  "description": "eldarlrd's personal website.",
-  "repo": "https://github.com/eldarlrd/eldarlrd.github.io",
-  "records": { "CNAME": "eldarlrd.github.io" },
+  "records": {
+    "CNAME": "eldarlrd.github.io"
+  },
   "proxied": true
 }
