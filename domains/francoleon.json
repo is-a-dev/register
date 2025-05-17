@@ -1,0 +1,13 @@
+{
+  "description": "Franco Leon, Personal Portfolio",
+  "owner": {
+    "username": "francoleon08",
+    "email": "francoleon284@gmail.com"
+  },
+  "records": {
+    "CNAME": "francoleondev.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=francoleon.is-a.dev,ead369809cf9c9018296"
+  }
+}

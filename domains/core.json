@@ -1,11 +1,10 @@
 {
   "description": "My information.",
-  "repo": "https://github.com/Aidenhtg",
   "owner": {
     "username": "Aidenhtg",
     "email": "aidenhiseh.m.l@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "b3e47680.corrupted.pages.dev"
   }
 }

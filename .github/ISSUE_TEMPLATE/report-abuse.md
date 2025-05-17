@@ -1,9 +1,8 @@
 ---
 name: report-abuse
 about: Use this template to report abusive domains
-title: 'Report abuse'
+title: "Report abuse"
 labels: report-abuse
-
 ---
 
 ### Domain

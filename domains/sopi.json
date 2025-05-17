@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "sopiseptiansyah",
+    "email": "sopiseptiansyah@gmail.com"
+  },
+  "records": {
+    "CNAME": "sopiseptiansyah.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=sopi.is-a.dev,d05d90937f151b8c1f8d"
+  }
+}

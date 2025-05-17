@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Raoufbaa",
+    "discord": "515230523128414228"
+  },
+  "records": {
+    "CNAME": "raoufbakhti.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=raoufbakhti.is-a.dev,6a370dda8552268e5cb6"
+  }
+}

@@ -1,12 +1,12 @@
 {
-	"owner": {
-		"username": "HafiTheCat",
-		"email": "",
-		"discord": "hafi_the_cat"
-	},
-	"description": "Website about about me",
-	"repo": "https://github.com/HafiTheCat/hafi_the_cat.github.io",
-	"record": {
-		"CNAME": "hafithecat.github.io"
-	}
+  "owner": {
+    "username": "HafiTheCat",
+    "discord": "hafi_the_cat"
+  },
+  "records": {
+    "CNAME": "hafithecat.github.io"
+  },
+  "services": {
+    "discord": "dh=1ae8d3b3460ce837d26bf5cfaa473a1bdc13460f"
+  }
 }
