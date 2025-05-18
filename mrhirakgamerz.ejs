@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrHirakGamerz - Minecraft YouTuber & Gamer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Minecraft&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4CAF50;
+            --secondary: #8BC34A;
+            --dark: #2E7D32;
+            --light: #C8E6C9;
+            --accent: #FFC107;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: white;
+            overflow-x: hidden;
+            position: relative;
+        }
+        
+        /* Minecraft-themed animated background */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+            overflow: hidden;
+        }
+        
+        .block {
+            position: absolute;
+            width: 64px;
+            height: 64px;
+            background-size: cover;
+            opacity: 0.1;
+            animation: float 15s infinite linear;
+        }
+        
+        @keyframes float {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+            100% {
+                transform: translateY(-1000px) rotate(720deg);
+            }
+        }
+        
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            backdrop-filter: blur(5px);
+            border-bottom: 2px solid var(--primary);
+        }
+        
+        .logo {
+            font-family: 'Minecraft', sans-serif;
+            font-size: 2rem;
+            color: var(--primary);
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+            letter-spacing: 2px;
+        }
+        
+        .logo span {
+            color: var(--accent);
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 30px;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            bottom: -5px;
+            left: 0;
+            transition: width 0.3s;
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 0 5%;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-content {
+            max-width: 600px;
+            z-index: 10;
+            animation: fadeIn 1s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+            font-family: 'Minecraft', sans-serif;
+            text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: var(--light);
+        }
+        
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid var(--primary);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .cta-button:hover {
+            background-color: transparent;
+            color: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .social-icons {
+            display: flex;
+            margin-top: 30px;
+        }
+        
+        .social-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            margin-right: 15px;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        
+        .social-icons a:hover {
+            background-color: var(--primary);
+            transform: translateY(-3px);
+        }
+        
+        /* About Section */
+        .section {
+            padding: 100px 5%;
+            position: relative;
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 60px;
+            color: var(--primary);
+            font-family: 'Minecraft', sans-serif;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 4px;
+            background-color: var(--accent);
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+        
+        .about-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+            padding-right: 40px;
+        }
+        
+        .about-text h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--secondary);
+        }
+        
+        .about-text p {
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+            perspective: 1000px;
+        }
+        
+        .minecraft-character {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            transform-style: preserve-3d;
+            animation: floatAnimation 6s ease-in-out infinite;
+        }
+        
+        @keyframes floatAnimation {
+            0%, 100% { transform: translateY(0) rotateY(0deg); }
+            50% { transform: translateY(-20px) rotateY(10deg); }
+        }
+        
+        /* Content Types Section */
+        .content-types {
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 80px 5%;
+            text-align: center;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .content-card {
+            background-color: rgba(30, 30, 30, 0.7);
+            border-radius: 10px;
+            padding: 30px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .content-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+            border-color: var(--primary);
+        }
+        
+        .content-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background-color: var(--primary);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease;
+        }
+        
+        .content-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .content-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        
+        .content-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--secondary);
+        }
+        
+        .content-card p {
+            color: #ccc;
+            line-height: 1.6;
+        }
+        
+        /* Videos Section */
+        .videos {
+            padding: 100px 5%;
+        }
+        
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .video-card {
+            background-color: rgba(30, 30, 30, 0.7);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .video-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+        
+        .video-thumbnail {
+            position: relative;
+            width: 100%;
+            height: 180px;
+            overflow: hidden;
+        }
+        
+        .video-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .video-card:hover .video-thumbnail img {
+            transform: scale(1.1);
+        }
+        
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .play-button i {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-left: 5px;
+        }
+        
+        .video-card:hover .play-button {
+            opacity: 1;
+        }
+        
+        .video-info {
+            padding: 20px;
+        }
+        
+        .video-info h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: white;
+        }
+        
+        .video-info p {
+            color: #aaa;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .video-stats {
+            display: flex;
+            align-items: center;
+            color: #777;
+            font-size: 0.8rem;
+        }
+        
+        .video-stats span {
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .video-stats i {
+            margin-right: 5px;
+            color: var(--primary);
+        }
+        
+        /* Contact Section */
+        .contact {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 100px 5%;
+            text-align: center;
+        }
+        
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(30, 30, 30, 0.7);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--secondary);
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s ease;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+        
+        .submit-btn {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+        
+        .submit-btn:hover {
+            background-color: var(--dark);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #0a0a0a;
+            padding: 30px 5%;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .footer-logo {
+            font-family: 'Minecraft', sans-serif;
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+        }
+        
+        .footer-links {
+            display: flex;
+            list-style: none;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .footer-links li {
+            margin: 0 15px;
+        }
+        
+        .footer-links a {
+            color: #aaa;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+        
+        .copyright {
+            color: #777;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero h2 {
+                font-size: 1.4rem;
+            }
+            
+            .about-content {
+                flex-direction: column;
+            }
+            
+            .about-text {
+                padding-right: 0;
+                margin-bottom: 40px;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Minecraft Animated Background -->
+    <div class="background" id="background"></div>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Mr<span>Hirak</span>Gamerz</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#content">Content</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>MrHirakGamerz</h1>
+            <h2>Minecraft YouTuber & Gaming Content Creator</h2>
+            <p>Welcome to my blocky world! I create awesome Minecraft content including mod reviews, plugin showcases, update news, and gameplay videos for both Java and Bedrock editions. Join me on my adventures!</p>
+            <a href="#videos" class="cta-button">Watch Videos</a>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Who is MrHirakGamerz?</h3>
+                <p>I'm a passionate Minecraft content creator who loves exploring every aspect of this amazing game. From the latest updates to the coolest mods and plugins, I'm always digging deep to bring you the best Minecraft content.</p>
+                <p>My journey started back in 2015 when I first discovered Minecraft PE. Since then, I've been hooked on creating, building, and sharing my Minecraft experiences with the world.</p>
+                <p>On my channel, you'll find a mix of tutorials, let's plays, mod showcases, and news about all things Minecraft. Whether you play Java Edition or Bedrock, there's something for everyone!</p>
+            </div>
+            <div class="about-image">
+                <img src="https://cdn.discordapp.com/attachments/1352450586049646623/1370385662703833128/IMG_20250509_183304_651.jpg?ex=681f4e9a&is=681dfd1a&hm=a97e483afdd9e3629401bbeef544d4a68e883e8d52cc94ba740e9c0c0bb66ada&" alt="Minecraft Character" class="minecraft-character">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Content Types Section -->
+    <section class="section content-types" id="content">
+        <h2 class="section-title">My Content</h2>
+        <div class="content-grid">
+            <div class="content-card">
+                <div class="content-icon">
+                    <i class="fas fa-cubes"></i>
+                </div>
+                <h3>Minecraft Mods</h3>
+                <p>Discover the best mods to enhance your Minecraft experience. From gameplay overhauls to visual enhancements, I test and review them all.</p>
+            </div>
+            <div class="content-card">
+                <div class="content-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h3>Plugins Showcase</h3>
+                <p>For server owners and players alike, I showcase the most useful and fun plugins to take your multiplayer experience to the next level.</p>
+            </div>
+            <div class="content-card">
+                <div class="content-icon">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <h3>Update News</h3>
+                <p>Stay updated with the latest Minecraft news, snapshots, and upcoming features. I break down everything you need to know about new updates.</p>
+            </div>
+            <div class="content-card">
+                <div class="content-icon">
+                    <i class="fas fa-code-branch"></i>
+                </div>
+                <h3>Patch Analysis</h3>
+                <p>Detailed analysis of Minecraft patches - what's fixed, what's changed, and how it affects your gameplay in both Java and Bedrock editions.</p>
+            </div>
+            <div class="content-card">
+                <div class="content-icon">
+                    <i class="fab fa-java"></i>
+                </div>
+                <h3>Java Edition</h3>
+                <p>Content specifically for Minecraft Java Edition players, including modding guides, technical builds, and advanced gameplay mechanics.</p>
+            </div>
+            <div class="content-card">
+                <div class="content-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Bedrock/PE</h3>
+                <p>For mobile and console players, I cover Bedrock-specific features, add-ons, and the unique aspects of Minecraft Pocket Edition.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Videos Section -->
+    <section class="section videos" id="videos">
+        <h2 class="section-title">Latest Videos</h2>
+        <div class="video-grid">
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>Top 10 Must-Have Mods for Minecraft 1.20</h3>
+                    <p>Check out these amazing mods that will completely transform your Minecraft experience!</p>
+                    <div class="video-stats">
+                        <span><i class="fas fa-eye"></i> 250K views</span>
+                        <span><i class="far fa-thumbs-up"></i> 15K likes</span>
+                        <span><i class="far fa-clock"></i> 12:45</span>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <img src="https://i.ytimg.com/vi/abc123/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>Minecraft 1.20.2 Update - Everything New!</h3>
+                    <p>All the new features, changes, and fixes in the latest Minecraft update explained.</p>
+                    <div class="video-stats">
+                        <span><i class="fas fa-eye"></i> 180K views</span>
+                        <span><i class="far fa-thumbs-up"></i> 12K likes</span>
+                        <span><i class="far fa-clock"></i> 8:32</span>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <img src="https://i.ytimg.com/vi/xyz456/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>5 Best Plugins for Your Minecraft Server</h3>
+                    <p>These plugins will make your server stand out from the rest and keep players engaged!</p>
+                    <div class="video-stats">
+                        <span><i class="fas fa-eye"></i> 150K views</span>
+                        <span><i class="far fa-thumbs-up"></i> 9K likes</span>
+                        <span><i class="far fa-clock"></i> 15:20</span>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <img src="https://i.ytimg.com/vi/def789/maxresdefault.jpg" alt="Video Thumbnail">
+                    <div class="play-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>Java vs Bedrock - Ultimate Comparison 2023</h3>
+                    <p>Which version is right for you? We compare all the differences between Java and Bedrock.</p>
+                    <div class="video-stats">
+                        <span><i class="fas fa-eye"></i> 300K views</span>
+                        <span><i class="far fa-thumbs-up"></i> 20K likes</span>
+                        <span><i class="far fa-clock"></i> 18:45</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Mr<span>Hirak</span>Gamerz</div>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#content">Content</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; 2023 MrHirakGamerz. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Create floating Minecraft blocks for background
+        function createBlocks() {
+            const background = document.getElementById('background');
+            const blockTypes = [
+                'grass_block', 'dirt', 'stone', 'oak_planks', 
+                'cobblestone', 'bedrock', 'diamond_ore', 'gold_ore'
+            ];
+            
+            for (let i = 0; i < 20; i++) {
+                const block = document.createElement('div');
+                block.className = 'block';
+                
+                // Random block type
+                const randomBlock = blockTypes[Math.floor(Math.random() * blockTypes.length)];
+                block.style.backgroundImage = `url('https://www.minecraft.net/content/dam/minecraft/touchup-2020/minecraft-block-and-item-icons/${randomBlock}.png')`;
+                
+                // Random position and size
+                block.style.left = `${Math.random() * 100}%`;
+                block.style.top = `${Math.random() * 100}%`;
+                block.style.width = `${Math.random() * 80 + 40}px`;
+                block.style.height = block.style.width;
+                
+                // Random animation duration and delay
+                block.style.animationDuration = `${Math.random() * 20 + 10}s`;
+                block.style.animationDelay = `${Math.random() * 5}s`;
+                
+                background.appendChild(block);
+            }
+        }
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Initialize when page loads
+        window.addEventListener('load', () => {
+            createBlocks();
+            
+            // Add animation to sections when they come into view
+            const sections = document.querySelectorAll('.section');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            sections.forEach(section => {
+                section.style.opacity = 0;
+                section.style.transform = 'translateY(20px)';
+                section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
