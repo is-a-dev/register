@@ -2,8 +2,9 @@
   "owner": {
     "username": "AKBORANA3"
   },
+  "proxy": true,
   "records": {
-    "A": ["75.2.60.5"],
+    "CNAME": "akborana.netlify.app",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
