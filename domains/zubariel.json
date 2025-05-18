@@ -1,8 +1,11 @@
 {
   "owner": {
-    "username": "itszubadev"
+    "username": "itszubariel"
   },
   "records": {
-    "CNAME": "zubariel.netlify.app"
+    "CNAME": {
+      "@": "zubariel.netlify.app",
+      "www": "zubariel.netlify.app"
+    }
   }
 }
