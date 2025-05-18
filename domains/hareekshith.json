@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "Hareekshith",
-    "email": "hareekshith@gmail.com"
+    "email": "hareekshith@gmail.com",
+    "instagram": "hari_the_novice"
   },
   "records": {
-    "CNAME":"hareekshith.github.io"
+    "A": ["216.24.57.4","216.24.57.252"]
   }
 }
