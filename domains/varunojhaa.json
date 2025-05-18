@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "varunojhaa"
-    "email": "varunojhaa@proton.me"
-  }
-}
-{
-  "records": {
-     "CNAME": "https://varunojhaa.pages.dev/"
-    ]
+    "owner": {
+        "username": "varunojhaa",
+        "email": "varunojhaa@proton.me"
+    },
+    "records": {
+        "CNAME": "https://varunojhaa.pages.dev/"
+    }
 }
