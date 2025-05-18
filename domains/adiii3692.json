@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "adiii3692",
+    "email": "adinair0206@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-rho-sand-13.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=adiii3692.is-a.dev,be704332b1928225a1ce"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "SoulDevs",
+    "email": "soulcosmic1406@proton.me"
+  },
+  "records": {
+    "CNAME": "main-protfolio-seven.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=soul.is-a.dev,6f957e2edcd5bb791896"
+  }
+}

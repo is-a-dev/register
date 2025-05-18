@@ -1,10 +1,12 @@
 {
   "owner": {
     "username": "Dwigoric",
-    "email": "",
     "discord": "295391820744228867"
   },
-  "record": {
-    "CNAME": "dwigoric.pages.dev"
+  "records": {
+    "URL": "https://dwigoric.dev"
+  },
+  "services": {
+    "discord": "dh=0dbe5579faf14819c58607e423f955be71311f60"
   }
 }

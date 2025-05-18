@@ -5,7 +5,7 @@
     "email": "nerop455@gmail.com",
     "discord": "gizzyowo"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.108.153",
       "185.199.109.153",
@@ -18,10 +18,10 @@
       "2606:50c0:8002::153",
       "2606:50c0:8003::153"
     ],
-    "MX": [
-      "mx1.forwardemail.net",
-      "mx2.forwardemail.net"
-    ],
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=nerop455@gmail.com"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=api.gizzy.is-a.dev,34435322ec6f3a031174"
   }
 }

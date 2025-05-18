@@ -1,9 +1,0 @@
-{
-    "owner": {
-        "username": "is-a-dev",
-        "email": ""
-    },
-    "record": {
-        "TXT": "v=DKIM1;k=rsa;t=s;s=email;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvHKQUOZp+krOUiZRtt6M1R14IM3Q9aVUrOhdHrSbxCc99ihForirdGBWFXLBhf0VzOYuYQwZ06fRsS35UrWc/LDMWmxicdNYwXJb4izGRJef1HmS0msx31hK5N81FYSCpyKY61dtaMofyJqFrCMWloURsRGoyY5KoRrwtaB5BhVCyCN6bkaD8IYzTf2C6cvsIiOPWrCkjns+BnzN77B7PBxVnDVZLkfrv/1r6Mhi5Ltj+QxlsRzuaeKr/XtYqn05bv9xD2RPJXvrALS7Gfs1zSe/hvEyMFUhtKuX2BzZApK2rSW/Mt1m4x1nsQdRkbyKdsvGB2zyUIIv6C8w1OTFRwIDAQAB"
-    }
-}

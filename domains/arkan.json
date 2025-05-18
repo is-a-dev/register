@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "ArizalArkan",
+    "email": "arizalarkan@gmail.com"
+  },
+  "records": {
+    "CNAME": "arkan-potofolio.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=arkan.is-a.dev,1950c16be793b47f3a76"
+  }
+}

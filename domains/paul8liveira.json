@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "paul8liveira",
+    "email": "paul8liveira@gmail.com"
+  },
+  "records": {
+    "CNAME": "paul8liveira.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=paul8liveira.is-a.dev,86dcef96f01c5029a229"
+  }
+}

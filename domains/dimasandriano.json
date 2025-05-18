@@ -1,12 +1,12 @@
 {
-  "description": "Portfolio",
-  "repo": "https://github.com/dimasandriano/dimasandriano.github.io",
   "owner": {
     "username": "dimasandriano",
-    "email": "dimas.andriano.h@gmail.com",
-    "twitter": "dimasandriano_h"
+    "email": "dimas.andriano.h@gmail.com"
   },
-  "record": {
-    "CNAME": "dimasandriano.github.io"
+  "records": {
+    "CNAME": "dimasandriano.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=dimasandriano.is-a.dev,e6171f1cd28f96238ae2"
   }
 }

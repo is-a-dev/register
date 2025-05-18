@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "GlitchedDaKittyCatSchoolaccount",
+    "email": "glitcheddacat@gmail.com"
+  },
+  "records": {
+    "CNAME": "glitched-da-kitty-cat.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=glitched-da-kitty-cat.is-a.dev,d3ead0cedf604d462fbb"
+  }
+}

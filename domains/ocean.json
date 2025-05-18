@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "OceanTechnic",
-    "email": "",
     "twitter": "UnderWater_DEV"
   },
-  "record": {
+  "records": {
     "CNAME": "oceantechnic.github.io"
   }
 }

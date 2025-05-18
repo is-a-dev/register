@@ -1,10 +1,9 @@
 {
-  "description": "7.is.a.dev why not",
   "owner": {
-    "username": "JustDeveloper1",
-    "email": "lk.qq@ya.ru"
+    "username": "realSunyz",
+    "discord": "800186537719365662"
   },
-  "record": {
-    "A": ["89.106.200.1"]
+  "records": {
+    "CNAME": "pub-seven-intro.pages.dev"
   }
 }

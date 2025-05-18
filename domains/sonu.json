@@ -1,11 +1,9 @@
 {
-  "description": "Sonu's Website",
-  "repo": "https://github.com/Bad-Boy-Codes/bad-boy-codes.github.io",
   "owner": {
     "username": "bad-boy-codes",
     "email": "mail@semant.is-a.dev"
   },
-  "record": {
+  "records": {
     "CNAME": "bad-boy-codes.github.io"
   }
 }

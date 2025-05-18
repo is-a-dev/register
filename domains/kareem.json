@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "kareem-m",
+    "email": "kareemmoh1911@gmail.com"
+  },
+  "records": {
+    "CNAME": "kareemelramady.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=kareem.is-a.dev,227f1873f5be3f29395e"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "horibyte",
+    "email": "thehoribyte@gmail.com"
+  },
+  "records": {
+    "CNAME": "horibyte.github.io"
+  },
+  "services": {
+    "bluesky": "did=did:plc:5ls3iv54vrppjxbs5ztocd75"
+  }
+}

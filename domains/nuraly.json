@@ -1,0 +1,10 @@
+{
+  "description": "Domain for the portfolio website",
+  "owner": {
+    "username": "nuraly-v",
+    "email": "mescorpx@gmail.com"
+  },
+  "records": {
+    "CNAME": "nuraly-v.github.io"
+  }
+}
