@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "CodeGeekR",
+    "discord": "768080481924677632"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=pythonweb.is-a.dev,395acbd091553c5523bb"
+  }
+}

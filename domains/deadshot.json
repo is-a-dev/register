@@ -1,12 +1,13 @@
 {
-    "description": "Updated Website 2023 Edition Haha",
-    "repo": "https://github.com/deadshotofficial/deadshotofficial.github.io",
-    "owner": {
-        "username": "deadshotofficial",
-        "email": "deadshot3r@pm.me",
-        "twitter": "deadshot3r"
-    },
-    "record": {
-        "CNAME": "deadshotofficial.github.io"
-    }
+  "owner": {
+    "username": "deadshotofficial",
+    "email": "deadshot3r@pm.me",
+    "discord": "416952474587496449"
+  },
+  "records": {
+    "CNAME": "deadshotdev.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=deadshot.is-a.dev,5bc34658e6351c74153c"
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "henderythmix",
+    "email": "robertoselleswork@gmail.com"
+  },
+  "records": {
+    "CNAME": "henderythmix.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=henderythmix.is-a.dev,daad531219c3ad9b7579"
+  }
+}

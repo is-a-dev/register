@@ -1,11 +1,10 @@
 {
-    "description": "NiceSapien's portfolio website",
-    "owner": {
-        "username": "NiceSapien",
-        "email": "nicesapien@gmail.com",
-        "discord": "NiceSapien#2356"
-    },
-    "record": {
-        "CNAME": "nicesapien.gatsbyjs.io"
-    }
+  "owner": {
+    "username": "nicesapien",
+    "email": "nicesapien@duck.com",
+    "twitter": "nicesapien"
+  },
+  "records": {
+    "CNAME": "portfolio-6dp.pages.dev"
+  }
 }

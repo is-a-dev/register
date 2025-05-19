@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "ncdai",
+    "email": "dai@chanhdai.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=dai.is-a.dev,1f58fc0d6c2eb6cc92d7"
+  }
+}

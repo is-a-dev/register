@@ -1,12 +1,9 @@
 {
-    "description": "Hugovidafe's website",
-    "repo": "https://github.com/Hugovidafe-OSS",
-    "owner": {
-        "username": "Hugovidafe",
-        "email": "hugo@hugovidafe.dev",
-        "twitter": "Hugovidafe"
-    },
-    "record": {
-        "URL": "https://hugovidafe.dev"
-    }
+  "owner": {
+    "username": "0x1026",
+    "email": "me@hugovidafe.dev"
+  },
+  "records": {
+    "URL": "https://hugovidafe.dev"
+  }
 }

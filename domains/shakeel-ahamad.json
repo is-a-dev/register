@@ -1,11 +1,8 @@
 {
-    "description": "Shakeel profile.",
-    "repo": "https://github.com/shakeel-ahamad/shakeel-ahamad.github.io",
-    "owner": {
-        "username": "shakeel-ahamad",
-        "email": ""
-    },
-    "record": {
-        "CNAME": "shakeel-ahamad.github.io"
-    }
+  "owner": {
+    "username": "shakeel-ahamad"
+  },
+  "records": {
+    "CNAME": "shakeel-ahamad.github.io"
+  }
 }

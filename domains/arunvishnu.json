@@ -1,0 +1,10 @@
+{
+  "description": "arunvishnu.is-a.dev: website for my portoflio",
+  "owner": {
+    "username": "arunvishnu",
+    "email": "arun.vishnu@gmail.com"
+  },
+  "records": {
+    "CNAME": "arunvishnu.com"
+  }
+}

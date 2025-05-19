@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "SanketLV",
+    "email": "sanketlakhani80@gmail.com"
+  },
+  "records": {
+    "CNAME": "sanketlakhani.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=sanket.is-a.dev,980228cda0626f2b3796"
+  }
+}

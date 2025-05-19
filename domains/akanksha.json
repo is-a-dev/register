@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "AkankshaMishra2",
+    "email": "akankshamishra20042@gmail.com"
+  },
+  "records": {
+    "CNAME": "akankshamishra.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=akanksha.is-a.dev,b1e4bbe531cb73a59644"
+  }
+}

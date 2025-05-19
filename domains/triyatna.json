@@ -1,11 +1,9 @@
 {
-    "description": "Subdomain Redirect",
-    "repo": "https://github.com/triyatna/triyatna.github.io",
-    "owner": {
-        "username": "triyatna",
-        "email": "triyatna.com@gmail.com"
-    },
-    "record": {
-        "CNAME": "triyatna.github.io"
-    }
-} 
+  "owner": {
+    "username": "triyatna"
+  },
+  "records": {
+    "CNAME": "triyatna.github.io"
+  },
+  "proxied": true
+}
