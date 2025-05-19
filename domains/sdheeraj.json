@@ -3,6 +3,7 @@
     "username": "17sdheeraj"
   },
   "records": {
-    "CNAME": "17sdheeraj.github.io"
+    "CNAME": "17sdheeraj.github.io",
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
   }
 }
