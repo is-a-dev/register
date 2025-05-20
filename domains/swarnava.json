@@ -4,6 +4,6 @@
     "email": "swarnavadutta.official@gmail.com"
   },
   "records": {
-    "CNAME": "swarnavadutta.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
