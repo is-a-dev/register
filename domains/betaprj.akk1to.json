@@ -1,6 +1,4 @@
 {
-  "description": "This website is for my personal project hosting XD (let it on rq)",
-  "repo": "https://github.com/akk1to/betaprj.github.io",
   "owner": {
     "username": "akk1to",
     "email": "akk1to.dev@gmail.com",
@@ -8,5 +6,8 @@
   },
   "records": {
     "CNAME": "akk1to.github.io"
+  },
+  "services": {
+    "discord": "dh=e1e17c98197b35ff9ed4eef8a473fa86fa3106b8"
   }
 }

@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "alvindennis.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=alvindennis.is-a.dev,0cce0dce190e046ef841"
   }
 }

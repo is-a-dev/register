@@ -1,6 +1,4 @@
 {
-  "description": "I want clound security for my portfolio website",
-  "repo": "https://github.com/yurehito/yurei.git",
   "owner": {
     "username": "yurehito",
     "discord": "https://discord.com/users/998608551431897170"
@@ -8,5 +6,8 @@
   "records": {
     "A": ["75.2.60.5"]
   },
-  "proxied": true
+  "proxied": true,
+  "services": {
+    "discord": "dh=5d5daac60e8c6f56c8c57a3cdf244a294049c273"
+  }
 }

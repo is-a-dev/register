@@ -1,6 +1,4 @@
 {
-  "description": "portfolio",
-  "repo": "https://github.com/devanshyadav2010/register",
   "owner": {
     "username": "devanshyadav2010",
     "email": "dev8adam576@gmail.com",
@@ -8,5 +6,8 @@
   },
   "records": {
     "CNAME": "devanshyadav2010.github.io"
+  },
+  "services": {
+    "discord": "dh=d14eedf95cd289bfd460f05eff5cca7a8a28d7f0"
   }
 }

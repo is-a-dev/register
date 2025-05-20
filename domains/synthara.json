@@ -1,6 +1,4 @@
 {
-  "description": "🚀 Synthara – Your Smart AI Assistant Synthara is an advanced AI-powered virtual assistant designed to enhance productivity, answer queries, and automate tasks efficiently. Built with cutting-edge AI technology, Synthara delivers seamless interactions and intelligent responses.",
-  "repo": "https://github.com/ArhanAnsari/Synthara",
   "owner": {
     "username": "ArhanAnsari",
     "email": "arhanansari2009@gmail.com",
@@ -9,5 +7,8 @@
   },
   "records": {
     "CNAME": "synthara.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=synthara.is-a.dev,5cfe1b6f6a8530d47a55"
   }
 }

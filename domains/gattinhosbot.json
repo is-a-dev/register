@@ -5,8 +5,9 @@
     "github_id": 81536172
   },
   "records": {
-    "A": ["173.208.244.6"],
-    "MX": ["mail.stefdp.lol"],
-    "TXT": ["v=spf1 mx ~all"]
+    "A": ["173.208.244.6"]
+  },
+  "services": {
+    "discord": "dh=03933534192052d1ca904fb933de9acde3b4ed48"
   }
 }

@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "linhtutkyawdev.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=linhtutkyaw.is-a.dev,0d9ce126d75cfb7fe853"
   }
 }

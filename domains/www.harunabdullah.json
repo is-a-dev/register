@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "harunabdullahrakin"
+    "username": "harunabdullahrakin",
+    "email": "harunabdullahrakin@gmail.com"
   },
-
   "records": {
-    "A": ["185.31.40.12"]
+    "CNAME": "portfolio-52h.pages.dev"
   }
 }

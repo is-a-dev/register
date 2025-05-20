@@ -83,22 +83,80 @@ fs.readdir(directoryPath, function (err, files) {
 
             delete item.owner.email;
 
-            const itemV1 = {
+            let itemV1 = {
                 domain: item.domain,
                 subdomain: item.subdomain,
                 owner: item.owner,
                 record: item.records
             };
 
-            const itemV2 = {
+            let itemV2 = {
                 domain: item.domain,
                 subdomain: item.subdomain,
                 owner: item.owner,
                 records: item.records
             };
 
+            if (item.redirect_config) {
+                itemV1.redirect_config = item.redirect_config;
+                itemV2.redirect_config = item.redirect_config;
+            }
+
+            if (item.proxied) {
+                itemV1.proxied = item.proxied;
+                itemV2.proxied = item.proxied;
+            }
+
             v1.push(itemV1);
             v2.push(itemV2);
+
+            if (item.services) {
+                if (item.services.discord) {
+                    const discord = Array.isArray(item.services.discord)
+                        ? item.services.discord
+                        : [item.services.discord];
+
+                    v1.push({
+                        domain: `_discord.${item.domain}`,
+                        subdomain: `_discord.${item.subdomain}`,
+                        owner: item.owner,
+                        record: {
+                            TXT: discord
+                        }
+                    });
+
+                    v2.push({
+                        domain: `_discord.${item.domain}`,
+                        subdomain: `_discord.${item.subdomain}`,
+                        owner: item.owner,
+                        records: {
+                            TXT: discord
+                        }
+                    });
+                }
+
+                if (item.services.vercel) {
+                    const vercel = Array.isArray(item.services.vercel) ? item.services.vercel : [item.services.vercel];
+
+                    v1.push({
+                        domain: `_vercel.${item.domain}`,
+                        subdomain: `_vercel.${item.subdomain}`,
+                        owner: item.owner,
+                        record: {
+                            TXT: vercel
+                        }
+                    });
+
+                    v2.push({
+                        domain: `_vercel.${item.domain}`,
+                        subdomain: `_vercel.${item.subdomain}`,
+                        owner: item.owner,
+                        records: {
+                            TXT: vercel
+                        }
+                    });
+                }
+            }
 
             processedCount++;
             if (processedCount === files.length) {

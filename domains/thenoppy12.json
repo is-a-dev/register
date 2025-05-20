@@ -1,6 +1,4 @@
 {
-  "description": "Main Page",
-  "repo": "https://github.com/thenoppy12/thenoppy12.github.io",
   "owner": {
     "username": "BussyBakks",
     "email": "lengochuykiengiang@gmail.com",
@@ -8,5 +6,8 @@
   },
   "records": {
     "CNAME": "thenoppy12.github.io"
+  },
+  "services": {
+    "discord": "dh=a865dfb9b8ef277f5edfaad346ddbbcfcba85b71"
   }
 }

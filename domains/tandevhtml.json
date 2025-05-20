@@ -1,6 +1,5 @@
 {
   "description": "Documentation website for tanbaycu Dev Website AI",
-  "repo": "https://github.com/tanbaycu",
   "owner": {
     "username": "tanbaycu",
     "email": "mnew20128@gmail.com"
@@ -8,5 +7,8 @@
   "records": {
     "CNAME": "aiview.vercel.app"
   },
-  "proxied": true
+  "proxied": true,
+  "services": {
+    "vercel": "vc-domain-verify=tandevhtml.is-a.dev,37900e6853b2485cb803"
+  }
 }

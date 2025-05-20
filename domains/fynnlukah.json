@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "fynnlukah.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=fynnlukah.is-a.dev,cb31ebf997d8ee866ca5"
   }
 }

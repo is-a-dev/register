@@ -1,6 +1,5 @@
 {
   "description": "Documents AI website for tanbaycu",
-  "repo": "https://github.com/tanbaycu",
   "owner": {
     "username": "tanbaycu",
     "email": "mnew20128@gmail.com"
@@ -8,5 +7,8 @@
   "records": {
     "CNAME": "trituenhantao.vercel.app"
   },
-  "proxied": true
+  "proxied": true,
+  "services": {
+    "vercel": "vc-domain-verify=tranminhtan.is-a.dev,80e210f84d0b0529d7eb"
+  }
 }

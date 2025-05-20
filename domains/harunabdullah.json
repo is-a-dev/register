@@ -1,9 +1,12 @@
 {
   "owner": {
-    "username": "harunabdullahrakin"
+    "username": "harunabdullahrakin",
+    "email": "harunabdullahrakin@gmail.com"
   },
-
   "records": {
-    "A": ["185.31.40.12"]
+    "CNAME": "portfolio-52h.pages.dev"
+  },
+  "services": {
+    "discord": "dh=08ca7b2a348ba12437193e6d84e9b819dc75da31"
   }
 }

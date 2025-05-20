@@ -1,6 +1,4 @@
 {
-  "description": "Abeja's portfolio",
-  "repo": "https://github.com/TheRealCrazyfuy/TheRealCrazyfuy.github.io",
   "owner": {
     "username": "TheRealCrazyfuy",
     "discord": "realabeja",
@@ -8,5 +6,8 @@
   },
   "records": {
     "CNAME": "TheRealCrazyfuy.github.io"
+  },
+  "services": {
+    "discord": "dh=af03f42bbbaaca145280cdd080f105feb02a9145"
   }
 }

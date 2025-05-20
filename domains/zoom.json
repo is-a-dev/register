@@ -1,6 +1,4 @@
 {
-  "description": "A way of showing my github website",
-  "repo": "https://github.com/theoldzoom/theoldzoom.github.io",
   "owner": {
     "username": "theoldzoom",
     "email": "theoldzoom@gmail.com",
@@ -9,5 +7,8 @@
   },
   "records": {
     "CNAME": "theoldzoom.github.io"
+  },
+  "services": {
+    "discord": "dh=170063c268dd129fa057f1517490d51aa9e792f7"
   }
 }

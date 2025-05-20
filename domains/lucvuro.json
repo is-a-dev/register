@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "my-portfolio-v2-iota.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=lucvuro.is-a.dev,da1967c10a4607cdefe4"
   }
 }

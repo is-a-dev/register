@@ -1,11 +1,12 @@
 {
-  "description": "For Portfolio",
-  "repo": "https://github.com/square-story/portfolio-next.js",
   "owner": {
     "username": "square-story",
     "email": "gibmepreo@gmail.com"
   },
   "records": {
     "CNAME": "sadik-mu.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=sadik.is-a.dev,7e3d1f287fcea04a1ec3"
   }
 }

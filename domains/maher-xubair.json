@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "maher-zubair.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=maher-xubair.is-a.dev,da5ba9cd6ff94d8690f8"
   }
 }
