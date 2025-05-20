@@ -1,0 +1,9 @@
+
+{
+  "github": "manit098",
+  "cname": "cname.vercel-dns.com",
+  "records": {
+    "TXT": ["_vercel.manit=vc-domain-verify=manit.is-a.dev,ec428241e62acccbaa01"]
+  }
+}
+
