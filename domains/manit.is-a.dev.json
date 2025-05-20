@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "email": "manitnv840@gmail.com",
+    "github": "manit098"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com."
+  },
+  "txt": [
+    "vc-domain-verify=manit.is-a.dev,ec428241e62acccbaa01"
+  ],
+  "proxied": false
+}
