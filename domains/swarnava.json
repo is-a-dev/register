@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "swarnava-dutta",
-        "email": "swarnavadutta.official@gmail.com"
-    },
-    "records": {
-        "CNAME": "swarnavadutta.netlify.app"
-    }
+  "owner": {
+    "username": "swarnava-dutta",
+    "email": "swarnavadutta.official@gmail.com"
+  },
+  "records": {
+    "CNAME": "swarnavadutta.netlify.app"
+  }
 }
