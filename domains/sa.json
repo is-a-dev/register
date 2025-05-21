@@ -4,7 +4,6 @@
         "email": "saif@saifabdelrazek.com"
     },
     "records": {
-        "NS": "dahlia.ns.cloudflare.com",
-        "NS": "eugene.ns.cloudflare.com"
+        "NS": ["dahlia.ns.cloudflare.com", "eugene.ns.cloudflare.com"]
     }
 }
