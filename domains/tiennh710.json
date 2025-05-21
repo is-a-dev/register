@@ -1,9 +1,12 @@
 {
-    "owner": {
-      "username": "tiennh710",
-      "email": "tiennh710@gmail.com"
-    },
-    "record": {
-      "CNAME": "tiennh710.github.io"
-    }
+  "description": "My personal webpage",
+  "repo": "https://github.com/tiennh710/tiennh710.github.io",
+  "owner": {
+    "username": "tiennh710",
+    "email": "tiennh710@gmail.com"
+  },
+  "record": {
+    "TXT": "6dbccafd2729948d17b592a6078219",
+    "CNAME": "tiennh710.github.io"
   }
+}
