@@ -1,1 +1,9 @@
-ggbang.is-a.dev.json
+{
+    "owner": {
+        "username": "github",
+        "email": "[yongkangw668@gmail.com]"
+    },
+    "records": {
+        "CNAME": "github.github.io"
+    }
+}
