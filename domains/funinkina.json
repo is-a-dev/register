@@ -4,7 +4,8 @@
     "email": "aryankushwaha3101@gmail.com"
   },
   "records": {
-    "CNAME": "funinkina.vercel.app"
+    "CNAME": "funinkina.vercel.app",
+    "TXT": ["google-site-verification=Xvnj3hUFzxO7j7QSlXDQKUREV07mjQJJ7pK44LwxNvQ"]
   },
   "services": {
     "vercel": "vc-domain-verify=funinkina.is-a.dev,8581bc99ee19dbb2326b"
