@@ -4,7 +4,10 @@
     "email": "carlos.scarrasco08@gmail.com",
     "discord": "charly0572"
   },
-  "record": {
+  "records": {
     "CNAME": "porfolio-bice-mu.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=charly.is-a.dev,ecb785240907dd83c0cc"
   }
 }

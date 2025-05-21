@@ -1,11 +1,9 @@
 {
-  "description": "Realmzers Page",
-  "repo": "https://github.com/Realmzer/realmzer.github.io",
   "owner": {
     "username": "Realmzer",
     "email": "therealm4mc@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://realmzer.github.io"
   }
 }

@@ -3,7 +3,10 @@
     "username": "JuanesPachon",
     "email": "yeroparce1@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "juanes-portfolio.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=juanespachon.is-a.dev,2b4b64d61c46b5b6384a"
   }
 }

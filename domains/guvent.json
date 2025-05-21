@@ -1,12 +1,9 @@
 {
-    "description": "The portfolio site of Guven Topal",
-    "repo": "https://github.com/guvent/guvent",
-    "owner": {
-      "username": "guvent",
-      "email": "me@guvent.com"
-    },
-    "record": {
-      "CNAME": "guvent.com"
-    }
+  "owner": {
+    "username": "guvent",
+    "email": "me@guvent.com"
+  },
+  "records": {
+    "CNAME": "guvent.com"
   }
-  
+}

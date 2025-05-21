@@ -2,7 +2,10 @@
   "owner": {
     "username": "HayBael"
   },
-  "record": {
+  "records": {
     "CNAME": "homepage-revisitrus.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=snowy.is-a.dev,710433a43c7209070848"
   }
 }

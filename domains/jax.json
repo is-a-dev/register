@@ -1,12 +1,13 @@
 {
-  "description": "Jackson's Portfolio",
-  "repo": "https://github.com/jxaq/jxaq.github.io",
   "owner": {
     "username": "jxaq",
     "email": "wild.dives.0x@icloud.com"
   },
-  "record": {
-    "TXT": ["v=spf1 -all"],
+  "records": {
+    "TXT": "v=spf1 -all",
     "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=jax.is-a.dev,f8cf558f95e96e1c703e"
   }
 }

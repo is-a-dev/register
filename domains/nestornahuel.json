@@ -3,7 +3,10 @@
     "username": "NestorNahuel",
     "email": "nahuel6195@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "portfolio-steel-seven-72.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=nestornahuel.is-a.dev,efb92feab05594a5f526"
   }
 }

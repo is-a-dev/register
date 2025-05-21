@@ -1,11 +1,12 @@
 {
-    "description": "A personal website for information on me and my projects.",
-    "repo": "https://github.com/arsenobetaine/arsenobetaine.is-a.dev",
-    "owner": {
-        "username": "arsenobetaine",
-        "email": "arsenobetaine@gmail.com"
-    },
-    "record": {
-        "CNAME": "arsenobetaine.github.io"
-    }
+  "owner": {
+    "username": "arsenobetaine",
+    "email": "arsenobetaine@gmail.com"
+  },
+  "records": {
+    "CNAME": "arsenobetaine.github.io"
+  },
+  "services": {
+    "discord": "dh=a7836fe0f1ee1642624faaa1e95fedba6f53f907"
+  }
 }

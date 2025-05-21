@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Shashank-R87",
+    "email": "shashankr8724@gmail.com"
+  },
+  "records": {
+    "CNAME": "shashankr.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=shashankr.is-a.dev,bda445ddf6f7dd38eed0"
+  }
+}

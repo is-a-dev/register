@@ -1,11 +1,9 @@
 {
-  "description": "Personal website for xPugno, hosted on Netlify at https://xpugno.netlify.app",
-  "repo": "https://github.com/xPugnocode/sillywebsite",
   "owner": {
     "username": "xPugnocode",
     "discord": "567924760370085899"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }

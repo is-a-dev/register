@@ -3,7 +3,10 @@
     "username": "arceusdev",
     "discord": "1055478076013817936"
   },
-  "record": {
+  "records": {
     "CNAME": "arceus-website-onze-developments-projects.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=arceus.is-a.dev,0f512cd8861911af26b6"
   }
 }
