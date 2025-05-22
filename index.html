@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifle-AK - Code Corner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght=400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #34495e; /* Darker blue-grey */
+            --secondary-color: #ecf0f1; /* Light grey */
+            --accent-color: #e74c3c; /* Reddish orange */
+            --text-color: #2c3e50; /* Even darker blue-grey */
+            --link-color: #2980b9; /* Dodger blue */
+            --background-gradient: linear-gradient(to right, #ece9e6, #ffffff); /* Subtle gradient */
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: var(--background-gradient);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.6;
+        }
+
+        .container {
+            background-color: var(--secondary-color);
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+            max-width: 800px;
+            width: 90%;
+            margin: 20px auto; /* Add some margin for smaller screens */
+            box-sizing: border-box; /* Include padding in width */
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--primary-color);
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        header h1::after {
+            content: '';
+            position: absolute;
+            width: 60%;
+            height: 4px;
+            background-color: var(--accent-color);
+            bottom: -10px;
+            left: 20%;
+            border-radius: 2px;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .content p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .links {
+            margin-top: 30px;
+        }
+
+        .links a {
+            display: inline-block;
+            background-color: var(--link-color);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.05em;
+            margin: 0 10px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        }
+
+        .links a:hover {
+            background-color: #3498db; /* Lighter blue */
+            transform: translateY(-2px);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: var(--primary-color);
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2em;
+            }
+
+            .tagline {
+                font-size: 1em;
+            }
+
+            .content p {
+                font-size: 1em;
+            }
+
+            .links a {
+                padding: 10px 20px;
+                font-size: 1em;
+                margin: 5px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 25px;
+            }
+
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .links a {
+                display: block; /* Stack links vertically */
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rifle-AK</h1>
+            <p class="tagline">Your digital space. Evolving.</p>
+        </header>
+
+        <main class="content">
+            <p>This is my personal code development corner on the internet. This site is always under construction, but I plan on host a variety of projects, thoughts, and resources related to my interests and endeavors.</p>
+            <p>Stay tuned for updates! In the meantime, feel free to connect with me through the links below.</p>
+        </main>
+
+        <section class="links">
+            <a href="https://github.com/rifle-ak" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+            <a href="mailto:ryanmcontois@gmail.com">Contact Me</a>
+            </section>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="2025"></span> Rifle-AK. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
