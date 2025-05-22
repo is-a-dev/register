@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "nam4eb",
-    "email": "leethanhlong7890@gmail.com"
-  },
-  "record": {
-    "CNAME": "https://nama3b.github.io/my-portfolio/namaeb.html"
-  }
+  "description": "My portfolio",
+    "repo": "https://github.com/nam4eb/my-portfolio",
+    "owner": {
+        "username": "nam4eb",
+        "email": "leethanhlong7890@gmail.com"
+    },
+    "record": {
+        "CNAME": "my-portfolio"
+    }
 }
