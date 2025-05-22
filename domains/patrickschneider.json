@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "grumpypjs08",
+    "email": "[email protected]"
+  },
+  "records": {
+    "TXT": "one-time-verification=036a8582-60c4-4752-8b43-356d9b482d69",
+    "CNAME":"cdn.webflow.com"
+  },
+}
