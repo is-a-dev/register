@@ -1,0 +1,17 @@
+{
+  "repo": "",
+
+  "owner": {
+    "username": "JSac1",
+    "email": "sacdalan.sacdalan@gmai.com"
+  },
+
+  "target": {
+    "record-type": {
+       "name": "A", 
+       "value": "45.11.229.59:3000"
+     }
+  },
+
+  "proxied": false
+}
