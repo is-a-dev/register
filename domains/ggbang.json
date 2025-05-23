@@ -4,6 +4,9 @@
         "email": "[yongkangw668@gmail.com]"
     },
     "records": {
-        "TXT": "f8a86d8c55f7a6c025a75371b1b6d5"
+            "NS": [
+                "daisy.ns.cloudflare.com",     
+                "fred.ns.cloudflare.com"
+            ]
     }
 }
