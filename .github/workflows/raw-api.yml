@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
     update:
-        name: Update
+        name: 更新
         runs-on: ubuntu-latest
 
         steps:
@@ -42,4 +42,4 @@ jobs:
                   user-email: "actions@github.com"
                   user-name: "GitHub Actions"
               env:
-                  API_TOKEN_GITHUB: ${{ secrets.BOT }}
+                  API_TOKEN_GITHUB: ${{ 11BEMKLBI08762mLF28tYJ_tjtIWRgIU5gtxGxAw7SBJJHX3uSWgFN7IA1Uj5gMN7k4QIEQA5OzguvJIAj }}
