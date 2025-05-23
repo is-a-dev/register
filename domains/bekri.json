@@ -3,6 +3,7 @@
     "email": "bzpw00@gmail.com"
   },
   "record": {
-    "CNAME": "bekri.github.io"
-  }
+    "cname": "bekri.github.io"
+  },
+  "proxied": false
 }
