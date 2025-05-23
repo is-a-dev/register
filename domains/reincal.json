@@ -5,5 +5,8 @@
     },
     "records": {
         "CNAME": "reincal.vercel.app"
-    }
+    },
+    "services": {
+    "vercel": "vc-domain-verify=reincal.is-a.dev,5726ae36fd46bd1dedb2"
+  }
 }
