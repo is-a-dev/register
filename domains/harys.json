@@ -5,7 +5,7 @@
     "email": "contact@harys.is-a.dev"
   },
   "records": {
-    "CNAME": ["harys722.github.io", "transcript-v1-hosting.cookie-api.com"],
+    "CNAME": ["harys722.github.io"],
     "TXT": ["zoho-verification=zb21864535.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all", "google-site-verification=kyfbQxiPkwN9bikDvsKAiS5O4ZTgdW9gwSczKaZt7nQ"],
     "MX": [
       {
