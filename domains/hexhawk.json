@@ -5,5 +5,8 @@
   },
   "record": {
     "CNAME": "hexhawk.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=hexhawk.is-a.dev,639ab7efa60544ddffb9"
   }
 }
