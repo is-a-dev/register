@@ -1,8 +1,9 @@
 {
   "owner": {
+    "username": "bekri",
     "email": "bzpw00@gmail.com"
   },
-  "record": {
+  "records": {
     "cname": "bekri.github.io"
   },
   "proxied": false
