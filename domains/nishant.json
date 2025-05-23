@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "nishant-sheoran",
+    "email": "nishantsheoran1429@gmail.com"
+  },
+  "records": {
+    "CNAME": "anirul.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=nishant.is-a.dev,6ff81963fb971a7f837d"
+  }
+}
