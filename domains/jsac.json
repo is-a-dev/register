@@ -7,10 +7,7 @@
   },
 
   "target": {
-    "record-type": {
-       "name": "A", 
-       "value": "45.11.229.59:3000"
-     }
+    "A": ["45.11.229.59:3000"]
   },
 
   "proxied": false
