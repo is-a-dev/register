@@ -1,0 +1,14 @@
+{
+  "description": "Portfolio-Website",
+  "repo": "https://github.com/pta201/portfolio",
+  "owner": {
+    "username": "pta201",
+    "email": "pta20801@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-peach-three-70.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=pta208.is-a.dev,95958c4e4cc40072f989"
+  }
+}

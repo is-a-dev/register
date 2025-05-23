@@ -1,11 +1,9 @@
 {
-  "description": "Github Pages Site",
-  "repo": "https://github.com/turtletown73/turtletown73.github.io",
   "owner": {
     "username": "turtletown73",
     "email": "wetturtle45@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "turtletown73.github.io"
   }
 }

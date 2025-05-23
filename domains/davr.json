@@ -3,7 +3,10 @@
     "username": "cernoh",
     "email": "davincey06@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "neobrutal-resume-vercel.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=davr.is-a.dev,ac46906b38acef6b29bf"
   }
 }

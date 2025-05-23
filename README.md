@@ -33,20 +33,13 @@ Not all of these will be posted on GitHub[^1], however they will always be poste
 - Enjoy your new `.is-a.dev` subdomain! Please consider leaving us a star ⭐️ to help support us!
 
 ### NS Records
-When applying for NS records, please be aware we already support a [wide range of DNS records](https://docs.is-a.dev/faq/#which-records-are-supported), so you may not need them. 
+When applying for NS records, please be aware we already support a [wide range of DNS records](https://docs.is-a.dev/faq/#which-records-are-supported), so likely do not not need them. 
 
-In your PR, please explain why you need NS records, including examples, to help mitigate potential abuse. Refer to the [FAQ](https://docs.is-a.dev/faq/#who-can-use-ns-records) for guidelines on allowed usage. Good examples of NS record requests are [#17592](https://github.com/is-a-dev/register/pull/17592) and [#18026](https://github.com/is-a-dev/register/pull/18026).
+In your PR, please explain why you need NS records, including examples, to help mitigate potential abuse. Refer to the [FAQ](https://docs.is-a.dev/faq/#who-can-use-ns-records) for guidelines on allowed usage.
 
 ***Pull requests adding NS records without sufficient reasoning will be closed.***
 
 > Also see: [Why are you so strict with NS records](https://docs.is-a.dev/faq/#why-are-you-so-strict-with-ns-records)?
-
-> [!NOTE]
-> You can bypass these requirements[^2] by donating just $2 [here](https://wdh.gg/pvNCdvs), or via [GitHub Sponsors](https://wdh.gg/sponsor). As a thank you, you'll also receive a special role in our [Discord server](https://discord.gg/is-a-dev-830872854677422150)!
->
-> If you donate, email william@is-a.dev or DM `@williamharrison` on Discord with your receipt and PR link.
-
-[^2]: Requests deemed to be made with malicious intent may be denied, with a refund provided.
 
 ## Report Abuse
 If you find any subdomains being used for abusive purposes, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with the relevant evidence.

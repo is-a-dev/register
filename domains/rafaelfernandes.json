@@ -1,11 +1,9 @@
 {
-  "description": "Personal potifolho site.",
-  "repo": "https://github.com/RafaelFernandesBR/rafaelfernandes.github.io",
   "owner": {
     "username": "RafaelFernandesBR",
     "email": "marcorafaeldemelo16@protonmail.com"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.108.153",
       "185.199.109.153",

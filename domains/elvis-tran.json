@@ -4,7 +4,10 @@
     "email": "elvistranhere@gmail.com",
     "discord": "elvistran.here"
   },
-  "record": {
+  "records": {
     "CNAME": "elvis-tran.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=elvis-tran.is-a.dev,cb733ac2167fe3a593a3"
   }
 }

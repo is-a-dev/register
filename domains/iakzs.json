@@ -1,11 +1,9 @@
 {
-  "description": "iakzs.is-a.dev",
-  "repo": "https://github.com/iakzs/iakzs.github.io",
   "owner": {
     "username": "iakzs",
     "email": "iakzs@protonmail.com"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.109.153",
       "185.199.110.153",

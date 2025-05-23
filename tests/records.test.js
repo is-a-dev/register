@@ -91,7 +91,7 @@ function isValidHexadecimal(value) {
 function validateRecordValues(t, data, file) {
     const subdomain = file.replace(/\.json$/, "");
 
-    Object.entries(data.record).forEach(([key, value]) => {
+    Object.entries(data.records).forEach(([key, value]) => {
         // General validation for arrays
         if (["A", "AAAA", "MX", "NS"].includes(key)) {
             t.true(Array.isArray(value), `${file}: Record value for ${key} should be an array`);
@@ -139,7 +139,8 @@ function validateRecordValues(t, data, file) {
 
             if (key === "CNAME") {
                 t.true(isValidHostname(value), `${file}: Invalid hostname for ${key}`);
-                t.true(value !== file, `${file}: CNAME cannot point to itself`);
+                t.true(value !== `${subdomain}.is-a.dev`, `${file}: ${key} cannot point to itself`);
+                t.true(value !== "is-a.dev", `${file}: ${key} cannot point to is-a.dev`);
             } else if (key === "URL") {
                 t.true(
                     value.startsWith("http://") || value.startsWith("https://"),
@@ -147,11 +148,9 @@ function validateRecordValues(t, data, file) {
                 );
                 t.notThrows(() => new URL(value), `${file}: Invalid URL for ${key}`);
 
+                // Check for self-referencing redirects
                 const urlHost = new URL(value).host;
-                const isSelfReferencing =
-                    file === "@.json" ? urlHost === "is-a.dev" : urlHost === `${subdomain}.is-a.dev`;
-
-                t.false(isSelfReferencing, `${file}: URL cannot point to itself`);
+                t.false(urlHost === `${subdomain}.is-a.dev`, `${file}: ${key} cannot point to itself`);
             }
         }
 
@@ -216,7 +215,10 @@ function validateRecordValues(t, data, file) {
                         Number.isInteger(record.matchingType) && record.matchingType >= 0 && record.matchingType <= 255,
                         `${file}: Invalid matchingType for ${key} at index ${idx}`
                     );
-                    t.true(isValidHexadecimal(record.certificate), `${file}: Invalid certificate for ${key} at index ${idx}`);
+                    t.true(
+                        isValidHexadecimal(record.certificate),
+                        `${file}: Invalid certificate for ${key} at index ${idx}`
+                    );
                 }
             });
         }
@@ -250,7 +252,7 @@ function validateRecordValues(t, data, file) {
 
             // Validate the redirect URL
             t.true(
-                data.record.URL !== customRedirectURL,
+                data.records.URL !== customRedirectURL,
                 `${urlMessage} should be different from the URL record at index ${idx}`
             );
             t.true(
@@ -261,16 +263,15 @@ function validateRecordValues(t, data, file) {
 
             // Check for self-referencing redirects
             const urlHost = new URL(customRedirectURL).host;
-            const isSelfReferencing = file === "@.json" ? urlHost === "is-a.dev" : urlHost === `${subdomain}.is-a.dev`;
-            t.false(isSelfReferencing, `${urlMessage} cannot point to itself at index ${idx}`);
+            t.false(urlHost === `${subdomain}.is-a.dev`, `${urlMessage} cannot point to itself at index ${idx}`);
         });
     }
 }
 
-t("All files should have valid record types", (t) => {
+t("All files should have valid records", (t) => {
     files.forEach((file) => {
         const data = getDomainData(file);
-        const recordKeys = Object.keys(data.record);
+        const recordKeys = Object.keys(data.records);
 
         recordKeys.forEach((key) => {
             t.true(validateRecordType(key), `${file}: Invalid record type: ${key}`);
@@ -285,6 +286,7 @@ t("All files should have valid record types", (t) => {
                 recordKeys.length === 1 || (recordKeys.length === 2 && recordKeys.includes("DS")),
                 `${file}: NS records cannot be combined with other records, except for DS records`
             );
+            t.true(!data.services, `${file}: Service records cannot be present when NS records are defined`);
         }
         if (recordKeys.includes("DS")) {
             t.true(recordKeys.includes("NS"), `${file}: DS records must be combined with NS records`);
@@ -306,6 +308,61 @@ t("All files should have valid record types", (t) => {
         }
 
         validateRecordValues(t, data, file);
+    });
+
+    t.pass();
+});
+
+t("Root subdomains should have at least one usable record", (t) => {
+    const usableRecordTypes = ["A", "AAAA", "CNAME", "MX", "NS", "URL"];
+
+    files.forEach((file) => {
+        const subdomain = file.replace(/\.json$/, "");
+        if (subdomain.includes(".") || subdomain.startsWith("_")) return;
+
+        const data = getDomainData(file);
+        const recordKeys = Object.keys(data.records);
+
+        t.true(
+            usableRecordTypes.some((record) => recordKeys.includes(record)),
+            `${file}: Root subdomains must have at least one A, AAAA, CNAME, MX, NS, or URL record`
+        );
+    });
+});
+
+t("All files should have valid service records", (t) => {
+    files.forEach((file) => {
+        const data = getDomainData(file);
+
+        if (data?.services?.discord) {
+            const discord = Array.isArray(data.services.discord) ? data.services.discord : [data.services.discord];
+
+            discord.forEach((value) => {
+                const token = value.split("=")[1];
+
+                t.true(value.startsWith("dh="), `${file}: Invalid Discord service record format`);
+                t.true(token.length === 40, `${file}: Discord service token should be 40 characters long`);
+                t.true(
+                    isValidHexadecimal(token),
+                    `${file}: Discord service token should be a valid hexadecimal string`
+                );
+            });
+        }
+
+        if (data?.services?.vercel) {
+            const vercel = Array.isArray(data.services.vercel) ? data.services.vercel : [data.services.vercel];
+
+            vercel.forEach((value) => {
+                t.true(value.startsWith("vc-domain-verify="), `${file}: Invalid Vercel service record format`);
+                t.true(value.length >= 48, `${file}: Vercel service token should be 48 characters or longer`);
+            });
+        }
+
+        const atprotoRegex = /^did=did:plc:[a-z0-9]{24}$/;
+
+        if (data?.services?.bluesky) {
+            t.true(atprotoRegex.test(data.services.bluesky), `${file}: Invalid Bluesky service record format`);
+        }
     });
 
     t.pass();

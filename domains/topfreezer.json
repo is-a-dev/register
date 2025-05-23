@@ -1,0 +1,11 @@
+{
+  "description": "is-a.dev subdomain",
+  "repo": "https://github.com/Topfreezer/topfreezer.github.io",
+  "owner": {
+    "username": "Topfreezer",
+    "email": "topfreezer41@gmail.com"
+  },
+  "records": {
+    "CNAME": "topfreezer.github.io"
+  }
+}
