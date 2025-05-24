@@ -1,9 +1,55 @@
 {
   "owner": {
     "username": "anonymousik",
-    "email": "anonymousxtutaj@gmail.com"
+    "email": "anonymousxtutaj@gmail.com",
+    "discord": "D3KkRKP8"
+  },
+  "services": {
+    "discord": "dh=bf41c141edc5338371bdcd2f5224d1e23f030b9f"
   },
   "records": {
-    "CNAME": "anonymousik.github.io"
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all",
+      "8c8810749d371c0c3f759bbda6761d"
+    ],
+    "CNAME": "anonymousik.github.io",
+    "URL": [
+      {
+        "path": "regulamin-uslug-it",
+        "destination": "/ferroit-regulamin-ferroit.htm"
+      },
+      {
+        "path": "zlecenie-status-realizacja",
+        "destination": "https://anonymousik.is-a.dev/potwierdzenie_realizacji_ferroit.htm"
+      },
+      {
+        "path": "zlecenie-status-zakonczony",
+        "destination": "https://anonymousik.is-a.dev/potwierdzenie_zakonczenia_ferroit.htm"
+      }
+    ]
+  },
+  "subdomains": {
+    "im": {
+      "MX": [
+        "mx1.improvmx.com",
+        "mx2.improvmx.com"
+      ],
+      "TXT": [
+        "v=spf1 include:spf.improvmx.com ~all"
+      ]
+    },
+    "ferro": {
+      "MX": [
+        "mx1.improvmx.com",
+        "mx2.improvmx.com"
+      ],
+      "TXT": [
+        "v=spf1 include:spf.improvmx.com ~all"
+      ]
+    }
   }
 }
