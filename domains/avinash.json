@@ -1,9 +1,11 @@
 {
+  "domain": "avinash.is-a.dev",
   "owner": {
     "username": "avinashvalder",
     "email": "avinashvalder7@gmail.com"
   },
-  "records": {
-    "CNAME": "avinashvalder.github.io"
+  "record": {
+    "A": ["45.145.184.176"],
+    "A: www": ["45.145.184.176"]
   }
 }
