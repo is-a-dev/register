@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "ghwnode02",
+        "email": "[yongkangw668@gmail.com]"
+    },
+    "records": {
+            "NS": [
+                "daisy.ns.cloudflare.com",     
+                "fred.ns.cloudflare.com"
+            ]
+    }
+}

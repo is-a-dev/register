@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
     update:
-        name: Update
+        name: 更新
         runs-on: ubuntu-latest
 
         steps:
