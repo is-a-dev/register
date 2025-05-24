@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "pp1sp1",
+    
+  },
+  "records": {
+    "NS": [
+      "eleanor.ns.cloudflare.com",
+      "johnny.ns.cloudflare.com"
+    ]
+  },
+  "proxied": true
+}
