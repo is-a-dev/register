@@ -8,5 +8,6 @@
     "CNAME": {
       "www": "avinash.is-a.dev"
     }
-  }
+  },
+  "proxied": true
 }
