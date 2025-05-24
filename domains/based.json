@@ -8,15 +8,7 @@
   "description": "a domain for my personal site",
 
   "records": {
-    "cname": "cname.vercel-dns.com"
-  },
-
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/dragsbruh",
-      "/bluesky": "https://bsky.app/profile/based.nya.pub"
-    },
-    "redirect_paths": true
+    "CNAME": "cname.vercel-dns.com"
   },
 
   "services": {
