@@ -4,10 +4,6 @@
     "email": "avinashvalder7@gmail.com"
   },
   "records": {
-    "A": ["45.145.184.176"],
-    "CNAME": {
-      "www": "avinash.is-a.dev"
-    }
-  },
-  "proxied": true
+    "A": ["45.145.184.176"]
+  }
 }
