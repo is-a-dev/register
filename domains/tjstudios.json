@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Imstillsyncs2",
+    "email": "robinsonthomas476@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=tjstudios.is-a.dev,5985f5b38034e57e82f6"
+  }
+}
