@@ -1,9 +1,40 @@
 {
+  "description": "Applying for an is-a.dev domain on behalf of my friend so he can use one.",
+  "repo": "https://github.com/anonymousik",
   "owner": {
     "username": "anonymousik",
-    "email": "anonymousxtutaj@gmail.com"
+    "email": "anonymousxtutaj@gmail.com",
+    "discord": "D3KkRKP8"
   },
   "records": {
-    "CNAME": "anonymousik.github.io"
+    "CNAME": "anonymousik.github.io",
+    "URL": [
+      {
+        "path": "regulamin-uslug-it",
+        "destination": "/ferroit-regulamin-ferroit.htm"
+      },
+      {
+        "path": "zlecenie-status-realizacja",
+        "destination": "https://anonymousik.is-a.dev/potwierdzenie_realizacji_ferroit.htm"
+      },
+      {
+        "path": "zlecenie-status-zakonczony",
+        "destination": "https://anonymousik.is-a.dev/potwierdzenie_zakonczenia_ferroit.htm"
+      }
+    ]
+  },
+  "services": {
+    "discord": "dh=bf41c141edc5338371bdcd2f5224d1e23f030b9f"
+  },
+  "proxied": true,
+  "subdomains": {
+    "im": {
+      "CNAME": "anonymousik.github.io/im",
+      "proxied": true
+    },
+    "ferro": {
+      "CNAME": "anonymousik.github.io/ferro",
+      "proxied": true
+    }
   }
 }
