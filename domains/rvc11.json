@@ -23,8 +23,7 @@
       "v=spf1 include:_spf.mx.cloudflare.net ~all"
     ],
     "NS": [
-      "arnold.ns.cloudflare.com",
-      "mia.ns.cloudflare.com"
+      "arnold.ns.cloudflare.com"
     ]
   }
 }
