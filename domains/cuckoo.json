@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "x-cuckoo",
+        "email": "ordinary_person@outlook.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com."
+    },
+    "services": {
+        "vercel": "vc-domain-verify=cuckoo.is-a.dev,56718539dc200020f1a6"
+    }
+}
