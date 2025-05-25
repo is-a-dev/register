@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "username": ".moinse908",
-    "discord": "970379709596729446"
-  },
-  "records": {
-    "URL": "https://syntaxxxx.vercel.app"
-  }
+    "owner": {
+        "username": "Syntax-XXX",
+        "email": "elias.wiesinger@proton.me"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=syntax-xxx.is-a.dev,b3c1d45f0509215b9f23"
+    }
 }
