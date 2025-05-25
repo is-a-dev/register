@@ -6,6 +6,9 @@
     "email": "manish.rebel14@gmail.com"
   },
   "records": {
-    "CNAME": "v0-minimalistic-portfolio-website-brown.vercel.app"
+    "CNAME": "v0-minimalistic-portfolio-website-brown.vercel.app",
+    "TXT": [
+      "_vercel.manish-madi=vc-domain-verify=manish-madi.is-a.dev,e8d795413d6776090e45"
+    ]
   }
 }
