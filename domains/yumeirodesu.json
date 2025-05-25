@@ -1,0 +1,13 @@
+{
+  "description": "Ya",
+  "owner": {
+    "username": "kaguraisempai",
+    "email": "kaguraisempai@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "eve.ns.cloudflare.com",
+      "kellen.ns.cloudflare.com"
+    ]
+  }
+}
