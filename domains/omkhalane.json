@@ -1,9 +1,11 @@
 {
+  "description": "Personal website for Om Khalane",
+  "repo": "https://github.com/omkhalane/omkhalane.github.io.git",
   "owner": {
     "username": "omkhalane",
     "email": "om.khalane.dev@gmail.com"
   },
-  "records": {
-    "URL": "https://omkhalane.github.io/portfolio/"
+  "record": {
+    "CNAME": "omkhalane.github.io"
   }
 }
