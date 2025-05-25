@@ -10,7 +10,6 @@ on:
             - "tests/*"
             - "util/*"
             - ".github/workflows/ci.yml"
-            - "dnsconfig.js"
 
     workflow_dispatch:
 

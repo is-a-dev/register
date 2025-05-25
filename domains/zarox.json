@@ -1,12 +1,10 @@
 {
-  "description": "Personal Portfolio",
-  "repo": "https://github.com/ZAR0X/ZAR0X.github.io",
   "owner": {
     "username": "ZAR0X",
     "email": "qzarox@gmail.com",
     "twitter": "qzarox"
   },
-  "record": {
+  "records": {
     "CNAME": "zar0x.github.io"
   }
 }

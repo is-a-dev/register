@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "abranico",
+    "email": "abranico011@gmail.com"
+  },
+  "records": {
+    "CNAME": "abranico.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=abranico.is-a.dev,82f8209e355477d34c12"
+  }
+}

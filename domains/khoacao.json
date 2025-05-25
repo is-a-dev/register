@@ -3,7 +3,10 @@
     "username": "khoacao2k4",
     "email": "cqnhatkhoa@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "khoa-cao-website.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=khoacao.is-a.dev,9b86aeda2d7aa9f99748"
   }
 }

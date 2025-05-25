@@ -4,7 +4,10 @@
     "email": "munjalindra.pandhu@gmail.com",
     "discord": "975960358999171152"
   },
-  "record": {
+  "records": {
     "CNAME": "panntod-personal.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=panntod.is-a.dev,435ff362356e5d45062f"
   }
 }

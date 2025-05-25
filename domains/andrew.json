@@ -1,13 +1,10 @@
 {
-  "description": "my portofolio",
+  "description": "my portfolio",
   "owner": {
     "username": "lightningON90hz",
     "email": "andrewworkmail123@gmail.com"
   },
-  "record": {
-    "A": [
-      "69.30.249.53"
-    ]
-  },
-  "proxied": false
+  "records": {
+    "A": ["69.30.249.53"]
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Mak5er",
+    "telegram": "@Mak5er"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=mak5er.is-a.dev,9971a80509e246fda674"
+  }
+}

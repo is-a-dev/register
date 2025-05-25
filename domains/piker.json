@@ -3,7 +3,10 @@
     "username": "Piker98988",
     "email": "iker.pavcur@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pikerdevdomain.pages.dev"
+  },
+  "services": {
+    "discord": "dh=fbea31b6c973108788a610db21edd08f23d92801"
   }
 }

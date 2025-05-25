@@ -3,7 +3,10 @@
     "username": "arifintajul4",
     "email": "arifintajul4@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "portofolio-khaki.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=tajul.is-a.dev,9a85b13fc7e25fb4237d"
   }
 }

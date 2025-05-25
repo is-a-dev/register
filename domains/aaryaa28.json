@@ -1,0 +1,14 @@
+{
+  "description": "Portfolio-Website",
+  "repo": "https://github.com/aaryaa28/Portfolio-nextjs",
+  "owner": {
+    "username": "aaryaa28",
+    "email": "thenexthead28@gmail.com"
+  },
+  "records": {
+    "CNAME": "aaryaa28.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=aaryaa28.is-a.dev,850ee630abf1e652e41e"
+  }
+}

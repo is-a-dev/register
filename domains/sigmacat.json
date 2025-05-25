@@ -1,0 +1,24 @@
+{
+  "owner": {
+    "username": "SigmaCat01"
+  },
+  "records": {
+    "CNAME": "sigmacat.pages.dev",
+    "TXT": ["zoho-verification=zb67535941.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
+    "MX": [
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 50
+      }
+    ]
+  },
+  "proxied": true
+}

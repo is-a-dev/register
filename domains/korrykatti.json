@@ -1,12 +1,13 @@
 {
-  "description": "Domain for my personal website",
-  "repo": "https://github.com/KorryKatti/korrykatti.github.io",
   "owner": {
     "username": "KorryKatti",
     "email": "8nctvx7gi@mozmail.com",
     "twitter": "korrykatti"
   },
-  "record": {
+  "records": {
     "CNAME": "korrykatti.github.io"
+  },
+  "services": {
+    "discord": "dh=75cc1a7bea6d033882a519e2d3fb4dd85314d6ec"
   }
 }

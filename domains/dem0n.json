@@ -3,7 +3,10 @@
     "username": "probablydem0n",
     "discord": "935272776586129419"
   },
-  "record": {
+  "records": {
     "CNAME": "probablydem0n.github.io"
+  },
+  "services": {
+    "discord": "dh=5ce927a38096a3a9d48e24ba44d85b0655aa4fc6"
   }
 }

@@ -3,7 +3,10 @@
     "username": "anandd17",
     "email": "avdoddamani123@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "anandd17.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=anand.is-a.dev,3a42c86f85216132b3ef"
   }
 }

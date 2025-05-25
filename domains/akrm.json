@@ -4,8 +4,7 @@
     "email": "aljmalrealstate@gmail.com",
     "discord": "868339557593137212"
   },
-  "record": {
-    "A": ["65.19.154.90"],
-    "AAAA": ["2001:470:1:1ee::1002"]
+  "records": {
+    "CNAME": "KemoXtech.github.io"
   }
 }

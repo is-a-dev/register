@@ -1,11 +1,9 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/samir-vaghela/samir-vaghela.github.io",
   "owner": {
     "username": "samir-vaghela",
     "email": "samir.vaghela@truestaz.com"
   },
-  "record": {
+  "records": {
     "CNAME": "samir-vaghela.github.io"
   }
 }

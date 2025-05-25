@@ -3,7 +3,10 @@
     "username": "anshaneja5",
     "email": "anshanejaa@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "portfolio-xi-liard-96.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ansh.is-a.dev,074c2e585d197374e108"
   }
 }
