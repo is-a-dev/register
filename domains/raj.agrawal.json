@@ -1,0 +1,11 @@
+{
+  "subdomain": "raj.agrawal",
+  "owner": {
+    "username" : "legitnewoob",
+    "email": "raj.ma@somaiya.edu"
+  },
+  "record": {
+    "CNAME": "raj-page.vercel.app"
+  },
+  "proxy": true
+}
