@@ -1,10 +1,12 @@
-
 {
-  "owner": {
-    "username": "aswin-hariram",
-    "email": "aswincseskct@gmail.com"
-  },
-  "records": {
-    "CNAME": "aswin-hariram.vercel.app"
-  }
+    "owner": {
+        "username": "Aswin-Hariram",
+        "email": "aswincseskct@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "aswin-hariram.vercel.app"
+    }
 }
