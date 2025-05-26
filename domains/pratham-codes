@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "your-github-username",
+        "email": "ultimatehobbycoder@tutamail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "_vercel.pratham-code"
+    }
+}
