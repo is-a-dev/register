@@ -5,5 +5,8 @@
     },
     "records": {
         "URL": "https://github.com/cachiusa"
+    },
+    "services": {
+        "bluesky": "did=did:plc:cbkdtvbpb5xkshlzjepnvb3v"
     }
 }
