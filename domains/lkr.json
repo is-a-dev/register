@@ -1,0 +1,11 @@
+{
+  "description": "A minimalistic personal page listing projects, social links, and contact info.",
+  "owner": {
+    "username": "lowkeyrenato",
+    "discord": "293810298207338496"
+  },
+  "records": {
+    "CNAME": "lowkeyrenato.github.io"
+  },
+  "proxied": true
+}
