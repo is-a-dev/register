@@ -5,5 +5,8 @@
     },
     "records": {
         "CNAME": "damian-pebe.vercel.app"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=damian-pebe.is-a.dev,a066a22127bdcbe28691"
     }
 }
