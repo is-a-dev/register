@@ -6,5 +6,11 @@
   "records": {
     "CNAME": "eldarlrd.github.io"
   },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/eldarlrd"
+    },
+    "redirect_paths": true
+  },
   "proxied": true
 }
