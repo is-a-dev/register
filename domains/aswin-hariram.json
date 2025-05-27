@@ -7,6 +7,6 @@
     "CNAME": "aswin-hariram.vercel.app"
   },
     "services": {
-        "vercel": "aswin-hariram.is-a.dev,f97ad879689875658150"
+        "vercel": "vc-domain-verify=aswin-hariram.is-a.dev,f97ad879689875658150"
     }
 }
