@@ -5,18 +5,13 @@
     "discord": "D3KkRKP8"
   },
   "records": {
-    "CNAME": "anonymousik.github.io",
-    "URL": "https://anonymousik.github.io"
+    "CNAME": "anonymousik.github.io"
   },
   "services": {
     "discord": "dh=bf41c141edc5338371bdcd2f5224d1e23f030b9f"
   },
   "proxied": true,
   "redirect_config": {
-    "redirect_paths": {
-      "/regulamin-uslug-it": "https://anonymousik.github.io/ferroit-regulamin-ferroit.htm",
-      "/zlecenie-status-realizacja": "https://anonymousik.is-a.dev/potwierdzenie_realizacji_ferroit.htm",
-      "/zlecenie-status-zakonczony": "https://anonymousik.is-a.dev/potwierdzenie_zakonczenia_ferroit.htm"
-    }
+    "redirect_paths": true
   }
 }
