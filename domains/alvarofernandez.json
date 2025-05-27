@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "alvaroofernaandez",
+    "email": "alvaroofernaandez@gmail.com"
+  },
+  "records": {
+    "CNAME": "alvarofernandez.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=alvarofernandez.is-a.dev,6f66200f0b9341db1d65"
+  }
+}
