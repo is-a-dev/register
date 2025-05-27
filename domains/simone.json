@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "cimasim-portfolio.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=simone.is-a.dev,dc2853a2476427303b16"
   }
 }

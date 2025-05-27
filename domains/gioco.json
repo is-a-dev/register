@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "giocoliere.github.io"
+  },
+  "services": {
+    "discord": "dh=4301bad793b7475c64673daa37b9599f04aafdd8"
   }
 }

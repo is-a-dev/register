@@ -6,5 +6,8 @@
   },
   "records": {
     "CNAME": "nuggew.github.io"
+  },
+  "services": {
+    "discord": "dh=a5d33ae1ddbac9692e675b562538f6b316f1aa1f"
   }
 }

@@ -5,9 +5,13 @@
     "discord": "1167825360151380032"
   },
   "records": {
-    "A": ["89.106.200.1"],
-    "TXT": [
-      "google-site-verification=nDh74FzhzmLwzfX4wZWHjZOjNXmTCKyuw89TGKOIfkE"
-    ]
+    "URL": "https://heatblock.esb.is-a.dev",
+    "TXT": "google-site-verification=nDh74FzhzmLwzfX4wZWHjZOjNXmTCKyuw89TGKOIfkE"
+  },
+   "redirect_config": {
+    "redirect_paths": true
+  },
+  "services": {
+    "vercel": "vc-domain-verify=in.mcstatus.is-a.dev,b4848ed9d0fbecb86308"
   }
 }

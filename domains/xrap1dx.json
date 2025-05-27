@@ -11,5 +11,8 @@
       "v=spf1 include:spf.improvmx.com ~all",
       "zoho-verification=zb43908801.zmverify.zoho.eu"
     ]
+  },
+  "services": {
+    "discord": "dh=5552cf7dcf2fec81360ac9ee4af0b0a674f1cd33"
   }
 }
