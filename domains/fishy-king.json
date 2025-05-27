@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "is-a-dev",
+    "email": "thelittlestarcat@gmail.com"
+  },
+  "records": {
+    "CNAME": "https://fishy-king.github.io/MyPage/"
+  },
+  "proxied": true
+}
