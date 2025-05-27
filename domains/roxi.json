@@ -4,6 +4,7 @@
     "email": "aetheron.inc@proton.me"
   },
   "records" {
-    "CNAME": "roxiTheReal.github.io"
+    "CNAME": "roxiTheReal.github.io",
+    "TXT": "openai-domain-verification=dv-aDPvVGgm94H2RBc5avIupJbC"
   }
 }
