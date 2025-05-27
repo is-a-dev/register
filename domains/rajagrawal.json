@@ -6,7 +6,8 @@
   "records": {
     "CNAME": "raj-page.vercel.app"
   },
+  
   "proxy": true
 }
 
-// Not sure why this is not working can anyone help me.... I checked raj-page.vercel.app is working fine
+
