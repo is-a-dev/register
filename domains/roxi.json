@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "roxiTheReal"
+    "username": "roxiTheReal",
+    "email": "aetheron.inc@proton.me"
   },
   "records" {
     "CNAME": "roxiTheReal.github.io"
