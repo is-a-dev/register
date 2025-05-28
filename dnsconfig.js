@@ -159,6 +159,16 @@ for (var subdomain in domains) {
         if (data.services.bluesky) {
             records.push(TXT("_atproto." + subdomainName, "\"" + data.services.bluesky + "\""));
         }
+
+        if (data.services.gitlab) {
+            if (Array.isArray(data.services.gitlab)) {
+                for (var txt in data.services.gitlab) {
+                    records.push(TXT("_gitlab-pages-verification-code." + subdomainName, "\"" + data.services.gitlab[txt] + "\""));
+                }
+            } else {
+                records.push(TXT("_gitlab-pages-verification-code." + subdomainName, "\"" + data.services.gitlab + "\""));
+            }
+        }
     }
 }
 
