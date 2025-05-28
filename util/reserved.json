@@ -81,6 +81,8 @@
     "private",
     "prod",
     "production",
+    "proxied",
+    "proxy",
     "rdap",
     "redirect",
     "register",
