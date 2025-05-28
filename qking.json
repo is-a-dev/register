@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "QKing-Official",
+        "email": "qkingsoftware@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=qking.is-a.dev,eee65c802e2a21251cb6"
+    }
+}
