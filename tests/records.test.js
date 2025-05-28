@@ -334,27 +334,23 @@ t("All files should have valid service records", (t) => {
     files.forEach((file) => {
         const data = getDomainData(file);
 
+        const discordRegex = /^dh=[a-f0-9]{40}$/;
+
         if (data?.services?.discord) {
             const discord = Array.isArray(data.services.discord) ? data.services.discord : [data.services.discord];
 
             discord.forEach((value) => {
-                const token = value.split("=")[1];
-
-                t.true(value.startsWith("dh="), `${file}: Invalid Discord service record format`);
-                t.true(token.length === 40, `${file}: Discord service token should be 40 characters long`);
-                t.true(
-                    isValidHexadecimal(token),
-                    `${file}: Discord service token should be a valid hexadecimal string`
-                );
+                t.true(discordRegex.test(value), `${file}: Invalid Discord service record format`);
             });
         }
+
+        const vercelRegex = /^vc-domain-verify=([a-z0-9.-]+),([a-f0-9]{20})$/;
 
         if (data?.services?.vercel) {
             const vercel = Array.isArray(data.services.vercel) ? data.services.vercel : [data.services.vercel];
 
             vercel.forEach((value) => {
-                t.true(value.startsWith("vc-domain-verify="), `${file}: Invalid Vercel service record format`);
-                t.true(value.length >= 48, `${file}: Vercel service token should be 48 characters or longer`);
+                t.true(vercelRegex.test(value), `${file}: Invalid Vercel service record format`);
             });
         }
 
@@ -362,6 +358,16 @@ t("All files should have valid service records", (t) => {
 
         if (data?.services?.bluesky) {
             t.true(atprotoRegex.test(data.services.bluesky), `${file}: Invalid Bluesky service record format`);
+        }
+
+        const gitlabRegex = /^gitlab-pages-verification-code=[a-f0-9]{32}$/;
+
+        if (data?.services?.gitlab) {
+            const gitlab = Array.isArray(data.services.gitlab) ? data.services.gitlab : [data.services.gitlab];
+
+            gitlab.forEach((value) => {
+                t.true(gitlabRegex.test(value), `${file}: Invalid GitLab service record format`);
+            });
         }
     });
 
