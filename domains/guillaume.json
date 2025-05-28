@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "Guillaume-Git",
+    "email": "salmonguillaume@outlook.com"
+  },
+  "records": {
+    "A": [
+      "89.168.32.149"
+    ],
+    "CAA": [
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "letsencrypt.org"
+      },
+    ]
+  },
+  "proxied": true
+}
