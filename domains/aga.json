@@ -6,7 +6,10 @@
   },
   "records": {
     "A": ["76.76.21.21"],
-    "TXT": "google-site-verification=p24qfEdTMTlahtU3hQxVU_txDQkifpoJH1xS4jmCmlw"
+    "TXT": "google-site-verification=p24qfEdTMTlahtU3hQxVU_txDQkifpoJH1xS4jmCmlw",
+    "CNAME": {
+      "www.aga": "cname.vercel-dns.com."
+    }
   },
   "services": {
     "vercel": [
