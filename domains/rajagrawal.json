@@ -5,6 +5,5 @@
   },
   "records": {
     "CNAME": "raj-page.vercel.app"
-  },
-  "proxy": true
+  }
 }
