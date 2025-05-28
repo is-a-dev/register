@@ -1,10 +1,10 @@
 {
-  "description": "Domain for redirection to vikipranata.is-a.dev",
+  "description": "Domain for redirection to viki.is-a.dev",
   "owner": {
     "username": "vikipranata",
     "email": "helovikipranata@gmail.com"
   },
   "records": {
-    "URL": "https://vikipranata.is-a.dev"
+    "URL": "https://viki.is-a.dev"
   }
 }
