@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "dragsbruh",
+    "email": "dragsbruh@protonmail.com",
+    "discord": "781445370177126401",
+    "bluesky": "based.nya.pub"
+  },
+  "description": "domain verification keys for lab.based.is-a.dev",
+
+  "records": {
+    "TXT": [
+      "256 SHA256:H2sB+pA/igdV7cr0HaLytV93oOEhRpEmQEJ4s8Wr2+c dragsbruh@waifustation (ED25519)"
+    ]
+  }
+}
