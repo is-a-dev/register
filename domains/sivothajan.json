@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "sivothajan",
+        "email": "is-a.dev@sivothajan.me"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=sivothajan.is-a.dev,3b5b618d16ca4dbe62a1"
+    }
+}
