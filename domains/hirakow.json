@@ -7,6 +7,6 @@
     "CNAME": "hirako.vercel.app"
   }
   "services": {
-        "vercel": "vc-domain-verify=hirakow.is-a.dev,8dc46e66306ec7b52e8e"
+        "vercel": "vc-domain-verify=8dc46e66306ec7b52e8e"
   }
 }
