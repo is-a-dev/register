@@ -172,32 +172,6 @@ for (var subdomain in domains) {
     }
 }
 
-var existingSubdomains = {};
-var eligibleDomains = [];
-
-for (var i = 0; i < domains.length; i++) {
-    var subdomainName = domains[i].name;
-    var data = domains[i].data;
-
-    existingSubdomains[subdomainName] = true;
-
-    if (
-        subdomainName.substring(0, 4) !== "www." &&
-        (data.records.A || data.records.AAAA || data.records.CNAME || data.records.URL)
-    ) {
-        eligibleDomains.push(subdomainName);
-    }
-}
-
-for (var i = 0; i < eligibleDomains.length; i++) {
-    var sub = eligibleDomains[i];
-    var wwwSub = "www." + sub;
-
-    if (!existingSubdomains[wwwSub]) {
-        records.push(A(wwwSub, IP("192.0.2.1"), CF_PROXY_ON));
-    }
-}
-
 var reserved = require("./util/reserved.json");
 
 // Handle reserved domains
