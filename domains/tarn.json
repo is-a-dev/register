@@ -4,7 +4,7 @@
     "username": "tarniscool",
     "email": "vfmblockman@gmail.com"
   },
-  "record": {
-    "CNAME": "https://tarniscool.netlify.app/"
+  "records": {
+    "CNAME": "tarniscool.netlify.app"
   }
 }
