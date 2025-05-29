@@ -1,0 +1,11 @@
+{
+  "description": "Un domaine pour mon portfolio",
+  "owner": {
+    "username": "TwitmundDev",
+    "email": "twitmund@gmail.com",
+    "discord": "Twitmund"
+  },
+  "records": {
+    "CNAME": "twitmund.vercel.app"
+  }
+}
