@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "shadowdara",
+  },
+  "records": {
+    "CNAME": "https://shadowdara.github.io/portfolio/"
+  }
+}
