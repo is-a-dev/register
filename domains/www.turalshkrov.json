@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "turalshkrov",
+    "email": "tural.shkrov@proton.me"
+  },
+  "records": {
+    "A": "75.2.60.5"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}
