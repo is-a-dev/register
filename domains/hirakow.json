@@ -1,5 +1,5 @@
 {
-    "domain": "hirakow.is-a.dev",
+    
     "owner": {
         "username": "hirwko",
         "email": "tatsumihirako@gmail.com"
@@ -8,6 +8,6 @@
         "CNAME": "cname.vercel-dns.com"
     },
     "services": {
-        "vercel": "vc-domain-verify=8dc46e66306ec7b52e8e"
+        "vercel": "vc-domain-verify=hirakow.is-a.dev,8dc46e66306ec7b52e8e"
     }
 }
