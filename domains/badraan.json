@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "mobadran",
+    "email": "badraanmo@gmail.com",
+    "discord": "gm.mo"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=badraan.is-a.dev,32cb3bde0c1514742541"
+  }
+}
