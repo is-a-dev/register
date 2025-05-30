@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "absolutelyrichd",
+        "email": "[email protected]"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=ddtugi.is-a.dev,5657bfecd6b9dcc0be24"
+    }
+}
