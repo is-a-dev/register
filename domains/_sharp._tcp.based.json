@@ -5,11 +5,14 @@
     "discord": "781445370177126401",
     "bluesky": "based.nya.pub"
   },
-  "description": "domain verification keys for lab.based.is-a.dev",
-
   "records": {
-    "TXT": [
-      "256 SHA256:H2sB+pA/igdV7cr0HaLytV93oOEhRpEmQEJ4s8Wr2+c dragsbruh@waifustation (ED25519)"
+    "SRV": [
+      {
+        "priority": 10,
+        "weight": 0,
+        "port": 1337,
+        "target": "sharp.based.is-a.dev"
+      }
     ]
   }
 }

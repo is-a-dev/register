@@ -5,10 +5,10 @@
     "discord": "781445370177126401",
     "bluesky": "based.nya.pub"
   },
-  "description": "a domain for my homelab, currently planning to host a SHARP-based search engine. using serveo.net for now but will migrate to cloudflare tunnels in prod.",
+  "description": "a domain for a SHARP-based search engine. using a friend's search vps to tunnel to my home.",
 
   "records": {
-    "CNAME": "serveo.net"
+    "A": ["94.130.137.16"]
   },
 
   "services": {
