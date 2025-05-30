@@ -1,11 +1,9 @@
 {
-    "description": "My Portfolio web",
-    "repo": "https://github.com/FauziFerdiansyah/fauziferdiansyah.github.io",
-    "owner": {
-        "username": "FauziFerdiansyah",
-        "email": "fetruzie2@gmail.com"
-    },
-    "record": {
-        "CNAME": "FauziFerdiansyah.github.io"
-    }
+  "owner": {
+    "username": "FauziFerdiansyah",
+    "email": "fetruzie2@gmail.com"
+  },
+  "records": {
+    "CNAME": "fauziferdiansyah.github.io"
+  }
 }

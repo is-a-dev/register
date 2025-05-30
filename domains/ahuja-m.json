@@ -1,11 +1,8 @@
 {
-    "description": "This is a user",
-    "repo": "https://github.com/ahuja-m/ahuja-m.github.io",
-    "owner": {
-        "username": "ahuja-m",
-        "email": ""
-    },
-    "record": {
-        "CNAME": "ahuja-m.github.io"
-    }
+  "owner": {
+    "username": "ahuja-m"
+  },
+  "records": {
+    "CNAME": "ahuja-m.github.io"
+  }
 }

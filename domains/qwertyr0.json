@@ -1,12 +1,9 @@
 {
-    "description": "My Personal website",
-    "repo": "https://github.com/QwertyR0/Personal-Website",
-    "owner": {
-        "username": "QwertyR0",
-        "email": "",
-        "discord": "qwerty.r0"
-    },
-    "record": {
-        "CNAME": "qwertyr0.github.io"
-    }
+  "owner": {
+    "username": "QwertyR0",
+    "discord": "qwerty.r0"
+  },
+  "records": {
+    "CNAME": "qwertyr0.github.io"
+  }
 }

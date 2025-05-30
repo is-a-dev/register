@@ -1,11 +1,9 @@
 {
-    "description": "portfolio jovaneah",
-    "repo": "https://github.com/jovaneah/jovaneah",
-    "owner": {
-        "username": "jovaneah",
-        "email": "jovaneah@gmail.com"
-    },
-    "record": {
-        "CNAME": "jovaneah.github.io"
-    }
+  "owner": {
+    "username": "jovaneah",
+    "email": "jovaneah@gmail.com"
+  },
+  "records": {
+    "CNAME": "jovaneah.github.io"
+  }
 }

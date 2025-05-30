@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "haripajjuri",
+    "email": "haripajjuri@gmail.com"
+  },
+  "records": {
+    "CNAME": "haripajjuri.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=haripajjuri.is-a.dev,6d1bb3e0585ec67dde26"
+  }
+}

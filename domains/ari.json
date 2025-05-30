@@ -1,11 +1,9 @@
 {
-    "description": "RayhanADev's Website!",
-    "repo": "https://github.com/rayhanadev/Personal-Website",
-    "owner": {
-        "username": "rayhanadev",
-        "email": "rayhanadev@protonmail.com"
-    },
-    "record": {
-        "CNAME": "edge.redirect.pizza"
-    }
+  "owner": {
+    "username": "TruncatedDinoSour",
+    "email": "ari@ari.lt"
+  },
+  "records": {
+    "URL": "https://ari.lt/"
+  }
 }

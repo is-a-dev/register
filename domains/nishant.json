@@ -1,11 +1,12 @@
 {
-    "description": "Nishant's website and blog",
-    "repo": "https://github.com/nishch/nishch.github.io",
-    "owner": {
-        "username": "nishch",
-        "email": "nishantchvedi@gmail.com"
-    },
-    "record": {
-        "CNAME": "twistedsoft.com"
-    }
+  "owner": {
+    "username": "nishant-sheoran",
+    "email": "nishantsheoran1429@gmail.com"
+  },
+  "records": {
+    "CNAME": "anirul.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=nishant.is-a.dev,6ff81963fb971a7f837d"
+  }
 }
