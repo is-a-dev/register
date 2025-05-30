@@ -1,1 +1,10 @@
- 
+{
+  "owner": {
+    "username": "tggamesyt",
+    "email": "[email protected]"
+  },
+  "records": {
+    "CNAME": "tggamesyt.github.io"
+  },
+  "proxied": true
+}
