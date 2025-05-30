@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "wiki-frost-me-f3415d.gitlab.io"
+  },
+  "services": {
+    "gitlab": "gitlab-pages-verification-code=57f76737bb8badd568b055bc4ff9d405"
   }
 }
