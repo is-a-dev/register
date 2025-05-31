@@ -7,9 +7,6 @@
     "URL": "https://eldarlrd.is-a.dev"
   },
   "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/eldarlrd"
-    },
     "redirect_paths": true
   }
 }
