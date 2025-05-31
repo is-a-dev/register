@@ -212,8 +212,8 @@ function validateRecordValues(t, data, file) {
                         `${file}: Invalid selector for ${key} at index ${idx}`
                     );
                     t.true(
-                        Number.isInteger(record.matchingType) && record.matchingType >= 0 && record.matchingType <= 255,
-                        `${file}: Invalid matchingType for ${key} at index ${idx}`
+                        Number.isInteger(record.matching_type) && record.matching_type >= 0 && record.matching_type <= 255,
+                        `${file}: Invalid matching_type for ${key} at index ${idx}`
                     );
                     t.true(
                         isValidHexadecimal(record.certificate),
