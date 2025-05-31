@@ -4,10 +4,9 @@
     "email": "hi@alecks.dev",
     "discord": "612522818294251522"
   },
-  "records": {
-    "CNAME": "alecks.pages.dev"
+  "record": {
+    "CNAME": "pyro.alecks.cloud"
   },
-  "services": {
-    "discord": "dh=0d543348d17f2be631fd3a25c3ae3e099741ff81"
-  }
+
+  "proxied": true
 }
