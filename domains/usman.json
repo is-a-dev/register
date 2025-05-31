@@ -1,0 +1,9 @@
+{
+  "subdomain": "usman", 
+  "owner": {
+    "email": "dotusmanali@gmail.com"
+  },
+  "record": {
+    "CNAME": "dotusmanali.github.io"
+  }
+}
