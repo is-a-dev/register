@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "ShadowPlayzDev",
+        "email": "shadowplayzdev@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=steve.is-a.dev,9159efeed4da5ca914e3"
+    }
+}
