@@ -8,5 +8,6 @@
     },
     "services": {
         "vercel": "vc-domain-verify=steve.is-a.dev,9159efeed4da5ca914e3"
+        "discord": "dh=0cecf120d7beaf4003c5e09e95a3f95c01b94275"
     }
 }
