@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "cosintan-tg",
+        "email": "cosintan.tg@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=cosintan.is-a.dev,b33d7124eaba6f7dca28",
+        "discord": "dh=cc6050f09d0f1563f4dd1b168879b9b03ad5e57f"
+    }
+}
