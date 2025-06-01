@@ -7,6 +7,6 @@
         "CNAME": "cname.vercel-dns.com"
     },
     "services": {
-        "TXT": "vc-domain-verify=docanalyzer.is-a.dev,2872d02d22a3a168a2f4"
+        "vercel": "vc-domain-verify=docanalyzer.is-a.dev,2872d02d22a3a168a2f4"
     }
 }
