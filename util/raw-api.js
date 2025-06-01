@@ -160,6 +160,9 @@ fs.readdir(directoryPath, function (err, files) {
 
             processedCount++;
             if (processedCount === files.length) {
+                v1.sort((a, b) => a.domain.localeCompare(b.subdomain));
+                v2.sort((a, b) => a.domain.localeCompare(b.subdomain));
+
                 fs.writeFile("raw-api/index.json", JSON.stringify(v1), (err) => {
                     if (err) throw err;
                 });
