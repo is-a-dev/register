@@ -1,9 +1,9 @@
-{
+t{
     "owner": {
         "username": "mcyum",
         "email": "derpingsteons@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "mcyum.github.io"
     }
 }
