@@ -1,12 +1,10 @@
 {
-    "description": "my personal site",
-    "repo": "https://github.com/ThisIsALegitUsername/thisisalegitusername.github.io",
-    "owner": {
-        "username": "hooman23",
-        "discord": "hooman23",
-        "email": ""
-    },
-    "record": {
-        "CNAME": "thisisalegitusername.github.io"
-    }
-} 
+  "description": "my personal site",
+  "owner": {
+    "username": "hooman23",
+    "discord": "hooman23"
+  },
+  "records": {
+    "CNAME": "thisisalegitusername.github.io"
+  }
+}

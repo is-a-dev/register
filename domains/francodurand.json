@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "FrancoDurand",
+    "email": "francoduve.25@gmail.com"
+  },
+  "records": {
+    "CNAME": "devfolio-franco.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=francodurand.is-a.dev,ad7840fa5cb01e5d90c1"
+  }
+}

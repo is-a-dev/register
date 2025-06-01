@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "gauravdubey19",
+    "email": "dubeygaurav520@gmail.com"
+  },
+  "records": {
+    "CNAME": "gauravdubey.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=gauravdubey.is-a.dev,2bfe868091e321f3c88c"
+  }
+}

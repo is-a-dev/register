@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Ivin-Mathew",
+    "email": "ivinmk2410@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ivin-mathew.is-a.dev,0ef6e3e9074e997b831b"
+  }
+}

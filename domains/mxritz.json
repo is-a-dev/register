@@ -1,10 +1,13 @@
 {
   "description": "Personal Portfolio",
   "owner": {
-    "username": "Moritz-Deiaco",
-    "email": "moritz.deiaco@gmail.com"
+    "username": "mxritzdev",
+    "email": "mail@mxritz.dev"
   },
-  "record": {
-    "CNAME": "proxy.host.bytes.wtf"
+  "records": {
+    "CNAME": "server.mxritz.dev"
+  },
+  "services": {
+    "discord": "dh=01795372b646a8a36087b00130313eda00b40928"
   }
 }

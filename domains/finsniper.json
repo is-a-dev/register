@@ -3,9 +3,7 @@
     "username": "chocovannii",
     "email": "eldar.fire.tv@gmail.com"
   },
-  "record": {
-    "MX": [
-      "feedback-smtp.us-east-1.amazonses.com"
-    ]
+  "records": {
+    "MX": ["feedback-smtp.us-east-1.amazonses.com"]
   }
 }

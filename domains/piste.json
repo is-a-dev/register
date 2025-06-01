@@ -3,7 +3,10 @@
     "username": "zpiste",
     "email": "contact@piste.dev"
   },
-  "record": {
+  "records": {
     "URL": "https://piste.dev"
+  },
+  "services": {
+    "discord": "dh=896e7262fdc9ab140d9c5b137e41917e8512a6bd"
   }
 }

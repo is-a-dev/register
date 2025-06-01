@@ -1,11 +1,10 @@
 {
   "description": "Personal Bio",
-  "repo": "https://github.com/is-a-dev/docs",
   "owner": {
-    "username": "keiranscript",
+    "username": "q4ow",
     "email": "keiran0@proton.me"
   },
-  "record": {
-    "URL": "https://bio.kuuichi.xyz"
+  "records": {
+    "URL": "https://e-z.bio/keiran"
   }
 }

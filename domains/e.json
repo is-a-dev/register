@@ -1,12 +1,12 @@
 {
-        "owner": {
-           "username": "KennySB-dev",
-           "email": "",
-           "discord": "681811851428102145"
-        },
-    
-        "record": {
-            "CNAME": "kennysb.xyz"
-        }
-    }
-    
+  "owner": {
+    "username": "EducatedSuddenBucket",
+    "discord": "1167825360151380032"
+  },
+  "records": {
+    "A": ["216.24.57.1"]
+  },
+  "services": {
+    "discord": "dh=2812b2fbe8af8bd92dc2c1248d0d3a71a5b8555c"
+  }
+}

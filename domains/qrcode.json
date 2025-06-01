@@ -1,12 +1,10 @@
 {
-  "description": "My QRCode Webpage Project",
+  "description": "My Project",
   "owner": {
-    "username": "isobarsmustang0g",
-    "email": "isobars.mustang_0g@icloud.com"
+    "username": "iamthanhlong",
+    "email": "uxymqfzglvtqno@proton.me"
   },
-  "record": {
-    "A": [
-      "103.97.126.29"
-    ]
+  "records": {
+    "A": ["103.97.126.29"]
   }
 }

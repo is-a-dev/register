@@ -1,11 +1,13 @@
 {
-  "description": "Personal page",
-  "repo": "https://github.com/alphatechnolog/alphatechnolog.github.io",
   "owner": {
     "username": "AlphaTechnolog",
-    "email": "gfranklings@gmail.com"
+    "email": "gfranklings@gmail.com",
+    "discord": "695333243637072002"
   },
-  "record": {
-    "CNAME": "alphatechnolog.github.io"
+  "records": {
+    "CNAME": "alphatechnolog.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=alphatechnolog.is-a.dev,60b952897ab1957420d3"
   }
 }
