@@ -4,6 +4,9 @@
         "discord": "1092448548437643376"
     },
     "records": {
-        "A": ["75.2.60.5"]
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=jxkz0.is-a.dev,4e7d2758460236e51547"
     }
 }
