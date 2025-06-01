@@ -5,6 +5,7 @@
   },
   "records": {
     "CNAME": "anirul.vercel.app"
+    "TXT": "google-site-verification=y1TgTnoiInmOdKQiYj-2cucMuJfjaSX8kaXbK6K5c3I"
   },
   "services": {
     "vercel": "vc-domain-verify=nishant.is-a.dev,6ff81963fb971a7f837d"
