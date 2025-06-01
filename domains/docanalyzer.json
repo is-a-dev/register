@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "bagaswibowo",
+        "email": "bagaswibowo121@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=docanalyzer.is-a.dev,2872d02d22a3a168a2f4"
+    }
+}
