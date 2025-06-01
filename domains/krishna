@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "KrishnaGavali",
+        "email": "krishnagavali973@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=krishna.is-a.dev,8c44295954bebd648f9e"
+    }
+}
