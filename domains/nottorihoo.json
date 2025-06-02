@@ -1,0 +1,10 @@
+{
+  "subdomain": "nottorihoo",
+  "owner": {
+    "email": "koibito2048@gmail.com"
+  },
+  "record": {
+    "A": ["89.28.237.80"]
+  },
+  "proxy": false
+}
