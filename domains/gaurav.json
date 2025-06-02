@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "email": "gauravgupta8652@gmail.com"
+  },
+  "record": {
+    "A": ["76.76.21.21"],
+    "CNAME": {
+      "www": "cname.vercel-dns.com"
+    }
+  }
+}
