@@ -128,6 +128,13 @@ t("Disallow nested subdomains when parent has specific service records", (t) => 
                 `${file}: Nested subdomain "_atproto.${subdomain}" should not exist when services.bluesky is present`
             );
         }
+
+        if (data?.services?.gitlab) {
+            t.false(
+                files.includes(`_gitlab-pages-verification-code.${file}`),
+                `${file}: Nested subdomain "_gitlab-pages-verification-code.${subdomain}" should not exist when services.gitlab is present`
+            );
+        }
     });
 
     t.pass();
