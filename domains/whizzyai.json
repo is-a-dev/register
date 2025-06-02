@@ -1,8 +1,12 @@
 {
-  "owner": {
-    "username": "vaibhavcoding69"
-  },
-  "records": {
-    "CNAME": "whizzyai.vercel.app"
-  }
+    "owner": {
+        "username": "vaibhavsharma69",
+        "email": "neverggyu69@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=whizzyai.is-a.dev,926f44966fe8be844a54"
+    }
 }
