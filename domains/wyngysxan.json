@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "zeptozor",
+        "email": "zeptozor@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=wyngysxan.is-a.dev,2b05267dac0685409013"
+    }
+}
