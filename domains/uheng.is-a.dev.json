@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "YeYuWhite",
+        "email": "yeyubai@yandex.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=uheng.is-a.dev,61587504aec6a8c6daf6"
+    }
+}
