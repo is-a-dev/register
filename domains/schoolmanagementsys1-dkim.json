@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Adiazi-ugochukwu-precious",
+    "email": "ortezzyadiazi@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all",
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD..." 
+    ]
+  }
+}
