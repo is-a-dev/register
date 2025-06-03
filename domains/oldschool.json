@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "stm32repo",
+    "email": "oopolev@gmail.com"
+  },
+  "records": {
+    "NS": ["mr3020.cloudns.nz", "oldschool.strangled.net", "zavserver.duckdns.org"]
+  }
+}
