@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "Liamds",
+        "email": "liam.ds1988@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": ""
+    }
+}
