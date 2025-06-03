@@ -4,7 +4,6 @@
         "email": "sh4d0w0561@egucom2014.de"
     },
     "records": {
-        "NS": "rudy.ns.cloudflare.com",
-        "NS": "serenity.ns.cloudflare.com"
+        "NS": ["rudy.ns.cloudflare.com", "serenity.ns.cloudflare.com"]
     }
 }
