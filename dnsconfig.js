@@ -177,18 +177,7 @@ var reserved = require("./util/reserved.json");
 // Handle reserved domains
 for (var i = 0; i < reserved.length; i++) {
     var subdomainName = reserved[i];
-    if (
-        subdomainName !== "data" &&
-        subdomainName !== "docs" &&
-        subdomainName !== "ns1" &&
-        subdomainName !== "ns2" &&
-        subdomainName !== "ns3" &&
-        subdomainName !== "ns4" &&
-        subdomainName !== "raw" &&
-        subdomainName !== "www"
-    ) {
-        records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
-    }
+    records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
 }
 
 // Zone last updated TXT record
