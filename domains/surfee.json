@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "ayden",
+    "email": "ayden@ndotlight.com"
+  },
+  "records": {
+    "ns": [
+      "dolly.ns.cloudflare.com",
+      "keenan.ns.cloudflare.com"
+    ]
+  }
+}
