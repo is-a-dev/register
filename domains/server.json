@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "ehrdyra",
+        "email": "mirasu924@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=redirect.is-a.dev,4ad8dc58d8ee260c054e"
+    }
+}
