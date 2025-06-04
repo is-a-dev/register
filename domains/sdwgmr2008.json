@@ -1,9 +1,10 @@
 {
     "owner": {
-        "username": "Sh4d0w0561",
-        "email": "sh4d0w0561@egucom2014.de"
+     "username": "Sh4d0w0561",
+     "email": "sh4d0w0561@egucom2014.de"
     },
     "records": {
-        "NS": ["rudy.ns.cloudflare.com", "serenity.ns.cloudflare.com"]
+     "A": ["138.201.33.171"],
+     "MX": ["mail.egucom2014.de"]
     }
 }
