@@ -7,5 +7,6 @@
   "records": {
     "CNAME": "siddharthjain25.github.io",
     "TXT": "zoho-verification=zb86694141.zmverify.zoho.in"
-  }
+  },
+  "proxied": true
 }
