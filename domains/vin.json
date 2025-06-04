@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "07calc",
+        "email": "[maheshwarivinayak90@gmail.com]"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com."
+    },
+    "services": {
+        "vercel": "vc-domain-verify=vin.is-a.dev,af8034daeeaed0863698"
+    }
+}
