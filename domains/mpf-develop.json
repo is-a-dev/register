@@ -1,0 +1,23 @@
+{
+  "owner": {
+    "username": "freewayspb",
+    "email": "alexey.chyrva@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "MX": [
+      {
+        "target": "feedback-smtp.us-east-1.amazonses.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "send.mpf-develop v=spf1 include:amazonses.com ~all",
+      "resend._domainkey.mpf-develop p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLvcMOdY1M8tcV3hmXtFcQntY5GfM/U9n+v8oBgyIQ3Wc/Ku+UR0Ds8QPp+qwrUopYBEvqbYFQVVAhiOIl8/SOoI+/zlZZ34xzryplHNOIW4ko/twDiJCm/g8fShaLOE+y3aL/FeN96BgkJpeqDpT3jXpauUhsPNHc2TrP48IlgQIDAQAB",
+      "_dmarc v=DMARC1; p=none;"
+    ]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=mpf-develop.is-a.dev,2413cbedf104ac4e90ed"
+  }
+}
