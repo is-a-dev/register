@@ -1,11 +1,11 @@
 {
   "owner": {
     "username": "Stetupdev",
-    "email": "[email protected]"
+    "email": "jacobstetup@tuta.io"
   },
   "records": {
-    "CNAME": "www.discord.com/users/1377398555572047932"
+    "CNAME": "discord" "www.discord.com/users/1377398555572047932"
     "URL": "stetupdev.github.io"
   },
-  "proxied": true
+  "proxied": false
 }
