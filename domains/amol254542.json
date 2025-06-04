@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "amol234545",
-        "email": "amolmilton@gmail.com"
-    },
-    "record": {
-        "CNAME": "amol234545.github.io"
-    }
+  "owner": {
+    "username": "amol234545",
+    "email": "amolmilton@gmail.com"
+  },
+  "records": {
+    "CNAME": "amol234545.github.io"
+  },
+  "services": {
+    "discord": "dh=383b5b12e8a16256189d4e54677f7c217ddde07a"
+  }
 }

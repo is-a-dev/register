@@ -1,11 +1,13 @@
 {
-    "description": "A personal page that also gives information on my projects",
-    "repo": "https://github.com/Bob16077/bob16077.github.io",
-    "owner": {
-        "username": "bob16077",
-        "discord": "bob16077777"
-    },
-    "record": {
-        "CNAME": "bob16077.github.io"
-    }
+  "description": "A personal page that also gives information on my projects",
+  "owner": {
+    "username": "bob16077",
+    "discord": "bob16077777"
+  },
+  "records": {
+    "CNAME": "bob16077.github.io"
+  },
+  "services": {
+    "discord": "dh=82f4456e6c61592f5dcdc8a4a9066d6111292de6"
+  }
 }

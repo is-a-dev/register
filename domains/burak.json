@@ -1,6 +1,4 @@
 {
-  "description": "Burak's Tech Insights: AI, Software, and More",
-  "repo": "https://github.com/burakince/burakince.github.io",
   "owner": {
     "username": "burakince",
     "email": "me@burakince.com",
@@ -8,7 +6,7 @@
     "twitter": "burakinc",
     "keybase": "burakince"
   },
-  "record": {
+  "records": {
     "URL": "https://www.burakince.com"
   }
 }

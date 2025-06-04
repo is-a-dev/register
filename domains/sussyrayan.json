@@ -1,11 +1,12 @@
 {
-  "description": "portfolio website",
-  "repo": "https://syedrayangames.github.io/portfolio",
   "owner": {
     "username": "syedrayangames",
     "email": "syedyaseeralirayan5@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "syedrayangames.github.io"
+  },
+  "services": {
+    "discord": "dh=634d6d19cba1fa609a7e88e098292bcec9198aa7"
   }
 }

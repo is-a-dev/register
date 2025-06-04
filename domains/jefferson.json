@@ -1,11 +1,9 @@
 {
-  "description": "Jefferson Michael Profile",
-  "repo": "https://github.com/jeffersonjpr/jeffersonjpr",
   "owner": {
     "username": "jeffersonjpr",
     "email": "jeffersonjpr@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://github.com/jeffersonjpr"
   }
 }

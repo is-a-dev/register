@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "devashish2024",
-        "email": "code.with.aasheesh@gmail.com"
-    },
-    "record": {
-        "CNAME": "ashishagarwal.netlify.app"
-    }
+  "owner": {
+    "username": "devashish2024",
+    "email": "code.with.aasheesh@gmail.com"
+  },
+  "records": {
+    "CNAME": "ashishagarwal.netlify.app"
+  },
+  "services": {
+    "discord": "dh=d5e203382ac94458c0d7d26b4864676898e72ea0"
+  }
 }

@@ -1,14 +1,13 @@
 {
-    "description": "AKCord's Portfolio",
-    "repo": "https://github.com/AKCord/akcord.github.io",
-    "owner": {
-        "username": "AKCord",
-        "email": "shrestha.aeniv@gmail.com",
-        "discord": "AKCord"
-    },
-    "record": {
-        "A": [
-            "75.2.60.5"
-        ]
-    }
+  "owner": {
+    "username": "AKCord",
+    "email": "shrestha.aeniv@gmail.com",
+    "discord": "AKCord"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  },
+  "services": {
+    "discord": "dh=fc3eadcea1712e3159f516950cf20f2397647f63"
+  }
 }

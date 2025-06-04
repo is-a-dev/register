@@ -1,12 +1,10 @@
 {
-  "description": "Personal portfolio for nooz",
-  "repo": "https://github.com/NoozSBC/portfolio",
   "owner": {
     "username": "NoozSBC",
     "email": "zhengm58@gmail.com",
     "discord": "Nooz#0816"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.108.153",
       "185.199.109.153",

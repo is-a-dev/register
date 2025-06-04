@@ -1,10 +1,13 @@
 {
-    "description": "For my portfolio",
-    "owner": {
-        "username": "ashwin-s-nambiar",
-        "discord": "ashwin_nambiar"
-    },
-    "record": {
-        "CNAME": "ashwin-portfolio-alpha.vercel.app"
-    }
+  "description": "For my portfolio",
+  "owner": {
+    "username": "ashwin-s-nambiar",
+    "discord": "ashwin_nambiar"
+  },
+  "records": {
+    "CNAME": "ashwin-portfolio-alpha.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ashwin-s-nambiar.is-a.dev,a34b7f9eac4c8f6d6a83"
+  }
 }

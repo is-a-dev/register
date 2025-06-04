@@ -1,11 +1,9 @@
 {
-    "description": "Simple Portfolio",
-    "repo": "https://github.com/AnimeshKotka/Animesh-Kotka-Portfolio",
-    "owner": {
-        "username": "AnimeshKotka",
-        "email": "animesh@kotka.tech"
-    },
-    "record": {
-        "CNAME": "animeshkotka.github.io"
-    }
+  "owner": {
+    "username": "AnimeshKotka",
+    "email": "animesh@kotka.tech"
+  },
+  "records": {
+    "CNAME": "animeshkotka.github.io"
+  }
 }

@@ -3,7 +3,10 @@
     "username": "qing762",
     "email": "threatedblade@outlook.com"
   },
-  "record": {
+  "records": {
     "CNAME": "qing-website.onrender.com"
+  },
+  "services": {
+    "discord": "dh=c798ccabffa36b2206669860c46efe903852e675"
   }
 }

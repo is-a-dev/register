@@ -3,7 +3,11 @@
     "username": "webcubed",
     "email": "lainathannlaiv2@gmail.com"
   },
-  "record": {
-    "CNAME": "webcubed.github.io"
+  "records": {
+    "CNAME": "webcubed.pages.dev"
+  },
+  "proxied": true,
+  "services": {
+    "discord": "dh=1612c48236f97b2a8b0fc79833cd7e46cf0c512d"
   }
 }

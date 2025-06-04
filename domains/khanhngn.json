@@ -1,10 +1,13 @@
 {
-    "owner": {
-        "username": "khanhngn-dev",
-        "email": "khanhngn.dev@gmail.com",
-        "discord": "jerry.ng"
-    },
-    "record": {
-        "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "khanhngn-dev",
+    "email": "khanhngn.dev@gmail.com",
+    "discord": "jerry.ng"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=khanhngn.is-a.dev,22d6c072955bf792ff60"
+  }
 }

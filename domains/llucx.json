@@ -1,10 +1,13 @@
 {
-    "owner": {
-        "username": "llucxdev",
-        "email": "puertesarrue@gmail.com",
-        "discord": "lluuuc_12"
-    },
-    "record": {
-        "CNAME": "portfolio-llucx.vercel.app"
-    }
+  "owner": {
+    "username": "llucxdev",
+    "email": "puertesarrue@gmail.com",
+    "discord": "lluuuc_12"
+  },
+  "records": {
+    "CNAME": "portfolio-llucx.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=llucx.is-a.dev,27a5a8414f3e33fd7634"
+  }
 }

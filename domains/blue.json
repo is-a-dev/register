@@ -1,12 +1,13 @@
 {
-    "description": "My personal site, for introducing myself.",
-    "repo": "https://github.com/b1ue-dev/b1ue-dev.github.io",
-    "owner": {
-        "username": "B1ue-Dev",
-        "email": "b1uedev@outlook.com",
-        "twitter": "b1uedev"
-    },
-    "record": {
-        "CNAME": "b1ue-dev.github.io"
-    }
+  "owner": {
+    "username": "B1ue-Dev",
+    "email": "b1uedev@outlook.com",
+    "twitter": "b1uedev"
+  },
+  "records": {
+    "CNAME": "b1ue-dev.github.io"
+  },
+  "services": {
+    "discord": "dh=17587955722bcb2745e20304b98cb5cbda716054"
+  }
 }

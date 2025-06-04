@@ -2,10 +2,9 @@
   "repo": "https://github.com/yz9551/blog",
   "owner": {
     "username": "yz9551",
-    "email": "",
     "discord": "yz9551"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.108.153",
       "185.199.109.153",
@@ -19,6 +18,6 @@
       "2606:50c0:8003::153"
     ],
     "MX": ["tourmaline.uksouth.cloudapp.azure.com"],
-    "TXT": ["v=spf1 mx -all"]
+    "TXT": "v=spf1 mx -all"
   }
 }

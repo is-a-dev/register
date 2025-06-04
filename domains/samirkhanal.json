@@ -1,10 +1,12 @@
 {
-    "owner": {
-        "username": "khanal-samir",
-        "email": "gdssamir@gmail.com"
-       
-    },
-    "record": {
-        "CNAME": "samir-khanal-portfolio.vercel.app"
-    }
+  "owner": {
+    "username": "khanal-samir",
+    "email": "gdssamir@gmail.com"
+  },
+  "records": {
+    "CNAME": "samir-khanal-portfolio.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=samirkhanal.is-a.dev,ea1c15390e801aa3ea34"
+  }
 }

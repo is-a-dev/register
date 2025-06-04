@@ -1,11 +1,12 @@
 {
-    "description": "Personal Portfolio",
-    "repo": "https://github.com/DevanshuTripathi/portfolio",
-    "owner": {
-        "username": "DevanshuTripathi",
-        "email": "aditheprince120@gmail.com"
-    },
-    "record": {
-        "CNAME": "portfolio-nine-xi-16.vercel.app"
-    }
+  "owner": {
+    "username": "DevanshuTripathi",
+    "email": "aditheprince120@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-nine-xi-16.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=devanshu.is-a.dev,e278253baf18d3dda9c1"
+  }
 }

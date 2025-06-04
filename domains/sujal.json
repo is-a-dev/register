@@ -1,10 +1,13 @@
 {
-  "repo":"https://github.com/SuzalShrestha/register",
+  "repo": "https://github.com/SuzalShrestha/register",
   "owner": {
     "username": "suzalshrestha",
     "email": "sujalshresthawork@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sujalshrestha.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=sujal.is-a.dev,58e578ab39aef3cf41e8"
   }
 }

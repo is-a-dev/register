@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "AhmedOsamaMath",
+    "email": "ahmedosamamath@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=osama.is-a.dev,635c93c34867abdfb117"
+  }
+}

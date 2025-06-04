@@ -1,11 +1,9 @@
 {
-  "description": "home/croxx",
-  "repo": "https://github.com/fabiancrx/fabiancrx.github.io",
   "owner": {
     "username": "fabiancrx",
     "email": "croxx5f@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "fabiancrx.github.io"
   }
 }

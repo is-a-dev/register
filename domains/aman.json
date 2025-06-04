@@ -3,7 +3,10 @@
     "username": "amang9446",
     "email": "dev.aman7571@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "dev-aman.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=aman.is-a.dev,d6447d0d30e57c351c44"
   }
 }

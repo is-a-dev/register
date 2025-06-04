@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "Barnacl437",
-        "email": "barnacl437@proton.me"
-    },
-    "record": {
-        "CNAME": "barnacl437.github.io"
-    }
+  "owner": {
+    "username": "Barnacl437",
+    "email": "barnacl437@proton.me"
+  },
+  "records": {
+    "CNAME": "barnacl437.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=blog.barnacl437.is-a.dev,835f01acb5999fa8605a"
+  }
 }

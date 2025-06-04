@@ -1,12 +1,10 @@
 {
-  "description": "For my personal portfolio",
-  "repo": "https://github.com/rxvolux/rxvolux.github.io",
   "owner": {
     "username": "rxvolux",
     "email": "business.itzswift@gmail.com",
     "twitter": "rxvolux"
   },
-  "record": {
+  "records": {
     "CNAME": "rxvolux.github.io"
   }
 }

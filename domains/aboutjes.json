@@ -1,11 +1,13 @@
 {
-    "description": "Personal Bio",
-    "repo": "https://github.com/is-a-dev/docs",
-    "owner": {
-        "username": "octyn-yt",
-        "email": "simplelogin-newsletter.idealize471@simplelogin.com"
-    },
-    "record": {
-        "CNAME": "edge.redirect.pizza"
-    }
+  "description": "Personal Bio",
+  "owner": {
+    "username": "octyn-yt",
+    "email": "simplelogin-newsletter.idealize471@simplelogin.com"
+  },
+  "records": {
+    "CNAME": "edge.redirect.pizza"
+  },
+  "services": {
+    "discord": "dh=492dbadf8b48232a357717e9d54511826184e352"
+  }
 }

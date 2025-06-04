@@ -1,13 +1,9 @@
 {
-    "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/GoldenStarGamer/aqtk",
-    "owner": {
-        "username": "GoldenStarGamer",
-        "email": "vicentetavareslima@gmail.com"
-    },
-    "record": {
-        "A": [
-            "75.2.60.5"
-        ]
-    }
+  "owner": {
+    "username": "GoldenStarGamer",
+    "email": "vicentetavareslima@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

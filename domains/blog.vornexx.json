@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "vornexx",
-        "email": "ajay.ramnath8812@gmail.com"
-    },
-    "record": {
-        "CNAME": "blogvornexx.pages.dev"
-    }
+  "owner": {
+    "username": "vornexx",
+    "email": "ajay.ramnath8812@gmail.com"
+  },
+  "records": {
+    "CNAME": "blogvornexx.pages.dev"
+  },
+  "services": {
+    "discord": "dh=9834c3a11e7647463c3f62cbbbb0aa0442f503f6"
+  }
 }

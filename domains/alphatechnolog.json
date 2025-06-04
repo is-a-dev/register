@@ -1,10 +1,13 @@
 {
-    "owner": {
-        "username": "AlphaTechnolog",
-        "email": "gfranklings@gmail.com",
-        "discord": "695333243637072002"
-    },
-    "record": {
-        "CNAME": "alphatechnolog.vercel.app"
-    }
+  "owner": {
+    "username": "AlphaTechnolog",
+    "email": "gfranklings@gmail.com",
+    "discord": "695333243637072002"
+  },
+  "records": {
+    "CNAME": "alphatechnolog.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=alphatechnolog.is-a.dev,60b952897ab1957420d3"
+  }
 }

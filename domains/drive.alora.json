@@ -4,7 +4,10 @@
     "email": "xaloramia@gmail.com",
     "discord": "1236292707371057216"
   },
-  "record": {
+  "records": {
     "CNAME": "onedrive-vercel-index-flame-xi.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=drive.alora.is-a.dev,395400702612ae6db6a8"
   }
 }

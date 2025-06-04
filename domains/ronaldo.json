@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "ronaldoao",
-        "email": "ronaldoa.ojeda@gmail.com"
-    },
-    "record": {
-        "CNAME": "vite-react-ronaldos-projects-c3f1d8be.vercel.app"
-    }
+  "owner": {
+    "username": "ronaldoao",
+    "email": "ronaldoa.ojeda@gmail.com"
+  },
+  "records": {
+    "CNAME": "vite-react-ronaldos-projects-c3f1d8be.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ronaldo.is-a.dev,bba2427440502a716d1c"
+  }
 }

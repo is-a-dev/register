@@ -1,11 +1,10 @@
 {
   "description": "My Portfolio",
-  "repo": "https://github.com/HarshNarayanJha",
   "owner": {
     "username": "HarshNarayanJha",
     "email": "harshnj@proton.me"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.108.153",
       "185.199.109.153",

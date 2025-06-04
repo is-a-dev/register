@@ -1,11 +1,12 @@
 {
-  "description": "Its just my portfolio :)",
-  "repo": "https://github.com/divyanshudhruv/divyanshudhruv.github.io",
   "owner": {
     "username": "divyanshudhruv",
     "email": "divyanshudhruv24@gmail.com"
   },
-  "record": {
-    "CNAME": "divyanshudhruv.netlify.app"
+  "records": {
+    "CNAME": "divyanshudhruv.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=divyanshudhruv.is-a.dev,3736859f922a85d87e46"
   }
 }

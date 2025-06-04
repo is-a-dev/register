@@ -1,10 +1,12 @@
 {
-    "owner": {
-        "username": "andresfer1799",
-        "email": "andresfer1799@gmail.com",
-        "discord": ""
-    },
-    "record": {
-        "CNAME": "mi-portafolio-wine.vercel.app"
-    }
+  "owner": {
+    "username": "andresfer1799",
+    "email": "andresfer1799@gmail.com"
+  },
+  "records": {
+    "CNAME": "mi-portafolio-wine.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=andres-jaramillo.is-a.dev,19f46a0dbb75aa279425"
+  }
 }

@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "guidocaru",
-        "discord": "696554384817127486"
-    },
-    "record": {
-        "CNAME": "guidocaru.vercel.app"
-    }
+  "owner": {
+    "username": "guidocaru",
+    "discord": "696554384817127486"
+  },
+  "records": {
+    "CNAME": "guidocaru.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=guidocaru.is-a.dev,6106f8de674c39bfb732"
+  }
 }

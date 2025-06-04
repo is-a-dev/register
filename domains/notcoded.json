@@ -1,12 +1,14 @@
 {
-  "description": "use is-a.dev domain",
-  "repo": "https://github.com/not-coded/not-coded.github.io",
   "owner": {
     "username": "not-coded",
-    "discord": "Code#9844",
+    "discord": "notcoded",
     "discordUserID": "620662953347121163"
   },
-  "record": {
+  "records": {
     "CNAME": "not-coded.github.io"
+  },
+  "services": {
+    "discord": "dh=0a6a5afd3a6ee9b2709a43a77e6679a2e9969384",
+    "bluesky": "did=did:plc:hvgfiqmdl5sqcba2453dfpxe"
   }
 }

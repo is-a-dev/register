@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "VLDeMenezes",
-        "email": "victorleandrodemenezes@gmail.com"
-    },
-    "record": {
-        "CNAME": "vldm-portafolio.vercel.app"
-    }
+  "owner": {
+    "username": "VLDeMenezes",
+    "email": "victorleandrodemenezes@gmail.com"
+  },
+  "records": {
+    "CNAME": "vldm-portafolio.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=vldm.is-a.dev,a2a022436d0631ef5231"
+  }
 }

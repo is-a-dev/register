@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "sneazy25",
-        "email": "sneazy25@proton.me"
-},
-    "record": {
-        "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "sneazy25",
+    "email": "sneazy25@proton.me"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=sneazy25.is-a.dev,2f9caf76ec1be24030a6"
+  }
 }

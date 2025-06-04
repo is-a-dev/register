@@ -1,8 +1,11 @@
 {
-    "owner": {
-        "username": "ArjunCodess"
-    },
-    "record": {
-        "CNAME": "arjuncodess.vercel.app"
-    }
+  "owner": {
+    "username": "ArjunCodess"
+  },
+  "records": {
+    "CNAME": "arjuncodess.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=arjuncodess.is-a.dev,772c34dd22de18adabaa"
+  }
 }

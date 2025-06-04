@@ -4,7 +4,11 @@
     "email": "seikoo.dev@gmail.com",
     "discord": "1293641904860172389"
   },
-  "record": {
+  "records": {
     "CNAME": "seiko-7oa.pages.dev"
+  },
+  "services": {
+    "discord": "dh=af891775cf595304f98791bd551966a1c2411fe4",
+    "vercel": "vc-domain-verify=seiko.is-a.dev,e8e0dd92b8aecad6d7af"
   }
 }
