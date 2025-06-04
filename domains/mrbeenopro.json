@@ -1,0 +1,13 @@
+{
+  "repo": "https://github.com/mrbeeenopro/website",
+  "owner": {
+    "username": "mrbeeenopro",
+    "email": "mrbeenopro@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "stella.ns.cloudflare.com",
+      "venkat.ns.cloudflare.com"
+    ]
+  }
+}
