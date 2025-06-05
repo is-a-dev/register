@@ -3,7 +3,10 @@
     "username": "balaji-atoa",
     "discord": "popz06"
   },
-  "record": {
+  "records": {
     "CNAME": "portfolio-on-live.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=balaji.is-a.dev,b4898f8e7508d5de541e"
   }
 }

@@ -3,7 +3,7 @@
     "username": "glmacedo",
     "email": "glmacedo@glmacedo.com"
   },
-  "record": {
+  "records": {
     "NS": ["dimitris.ns.cloudflare.com", "kristin.ns.cloudflare.com"]
   }
 }

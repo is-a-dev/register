@@ -1,11 +1,9 @@
 {
-  "description": "MPults's website",
-  "repo": "https://github.com/MPult/MPult.github.io",
   "owner": {
     "username": "MPult",
     "email": "MPult@protonmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mpult.github.io"
   }
 }

@@ -3,7 +3,10 @@
     "username": "azrelic",
     "email": "ahmadking78654@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ahmadazizportfolio.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ahmad.is-a.dev,c01e9cd660fc60d75301"
   }
 }

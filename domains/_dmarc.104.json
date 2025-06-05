@@ -4,7 +4,7 @@
     "username": "QuinceTart10",
     "discord": "862644161156218891"
   },
-  "record": {
+  "records": {
     "TXT": "v=DMARC1; p=quarantine; sp=none; adkim=r; aspf=r; fo=1; rua=mailto:me@quincetart10.is-a.dev; ruf=mailto:me@quincetart10.is-a.dev; rf=afrf; pct=100; ri=86400"
   }
 }

@@ -3,7 +3,10 @@
     "username": "fodilfliti",
     "email": "fodilfliti150@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=fodilfliti.is-a.dev,4fd9fffa402a9f014dc9"
   }
 }

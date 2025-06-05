@@ -3,7 +3,10 @@
     "username": "muralimallela",
     "email": "mmallela9@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=muralikrishna.is-a.dev,aa4acc43d9653d1ae68d"
   }
 }

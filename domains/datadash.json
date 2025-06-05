@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Armaan4477",
+    "email": "nakhudaarmaan66@gmail.com"
+  },
+  "records": {
+    "CNAME": "datadashshare.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=datadash.is-a.dev,3d6956be80bf968c831b"
+  }
+}

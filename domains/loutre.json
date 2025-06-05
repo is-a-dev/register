@@ -4,7 +4,10 @@
     "email": "loutrinesk@gmail.com",
     "discord": "1222265538672201759"
   },
-  "record": {
+  "records": {
     "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=loutre.is-a.dev,240b5982bf14aba93163"
   }
 }

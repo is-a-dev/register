@@ -1,12 +1,11 @@
 {
   "description": "This subdomain is a redirection to my personal portfolio",
-  "repo": "https://github.com/muizzatam/muizzatam.github.io",
   "owner": {
     "username": "MuizZatam",
     "email": "muizzatam110@gmail.com",
     "twitter": "muizzatam"
   },
-  "record": {
+  "records": {
     "CNAME": "muizzatam.github.io"
   }
 }

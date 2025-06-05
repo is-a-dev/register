@@ -3,7 +3,10 @@
         "username": "fandyahmd",
         "email": "fandyahmadazizi@gmail.com"
     },
-    "record": {
-        "CNAME": "fann.pages.dev"
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=fan.is-a.dev,6879fd44eb3ce433b8e6"
     }
 }

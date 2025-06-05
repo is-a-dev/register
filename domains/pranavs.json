@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio-website",
-  "repo": "https://github.com/Prs96/portfolio-website.git",
   "owner": {
     "username": "Prs96",
     "email": "pranavsudheesh34@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "prs96.github.io"
   }
 }

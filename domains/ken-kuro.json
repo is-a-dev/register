@@ -3,7 +3,10 @@
     "username": "ken-kuro",
     "linkedin": "hieuhm2610"
   },
-  "record": {
+  "records": {
     "CNAME": "kuro-querencia.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ken-kuro.is-a.dev,f7190a78aaa06c66bd44"
   }
 }

@@ -1,12 +1,10 @@
 {
-  "description": "personal use / portfolio",
-  "repo": "https://github.com/satindar31/satindar31.github.io",
   "owner": {
     "username": "satindar31",
     "email": "satindar@satindar-is.me",
     "twitter": "satindar31"
   },
-  "record": {
+  "records": {
     "NS": ["brodie.ns.cloudflare.com", "jamie.ns.cloudflare.com"],
     "DS": [
       {

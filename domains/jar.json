@@ -3,7 +3,10 @@
     "username": "jartf",
     "email": "hi@jar.tf"
   },
-  "record": {
+  "records": {
     "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=jar.is-a.dev,faf9fc9ca0c53d380bd7"
   }
 }

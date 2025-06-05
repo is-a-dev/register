@@ -3,7 +3,10 @@
     "username": "RadikeCosa",
     "email": "ramirocosa@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ramirocosa.is-a.dev,7455e9c60351674f2f23"
   }
 }
