@@ -1,10 +1,13 @@
 {
-    "repo": "https://github.com/ChaoticChaosTheGreat/chaoticchaosthegreat.github.io",
-    "owner": {
-        "username": "ChaoticChaosTheGreat",
-        "email": "ryan.ryanabraham@gmail.com"
-    },
-    "record": {
-        "CNAME": "chaoticchaosthegreat.github.io"
-    }
+  "repo": "https://github.com/ChaoticChaosTheGreat/chaoticchaosthegreat.github.io",
+  "owner": {
+    "username": "ChaoticChaosTheGreat",
+    "email": "ryan.ryanabraham@gmail.com"
+  },
+  "records": {
+    "CNAME": "chaoticchaosthegreat.github.io"
+  },
+  "services": {
+    "discord": "dh=99c69f88a933d5ec20fe830e8543f7e7c63646cd"
+  }
 }

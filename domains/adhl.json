@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "adhl-0216",
+    "email": "hanlim2002@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=adhl.is-a.dev,c29a7cbae5de907f4347"
+  }
+}

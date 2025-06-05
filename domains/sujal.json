@@ -1,10 +1,13 @@
 {
-    "owner": {
-        "username": "c0der69",
-        "email": "",
-        "twitter": "psychosniper_"
-    },
-    "record": {
-        "CNAME": "sujal-is-a-dev.pages.dev"
-    }
+  "repo": "https://github.com/SuzalShrestha/register",
+  "owner": {
+    "username": "suzalshrestha",
+    "email": "sujalshresthawork@gmail.com"
+  },
+  "records": {
+    "CNAME": "sujalshrestha.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=sujal.is-a.dev,58e578ab39aef3cf41e8"
+  }
 }

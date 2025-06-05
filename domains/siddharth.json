@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "siddharthjain25",
+    "email": "siddharthjainj25@gmail.com",
+    "discord": "804397662467915777"
+  },
+  "records": {
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ]
+  }
+}

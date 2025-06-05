@@ -1,0 +1,13 @@
+{
+  "description": "Portfolio",
+  "owner": {
+    "username": "aaqifshafi",
+    "email": "aaqifshafi@gmail.com"
+  },
+  "records": {
+    "CNAME": "react-portfolio-ashen-tau.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=aaqif.is-a.dev,77eef1ecff0a4bec5f86"
+  }
+}

@@ -1,11 +1,9 @@
 {
-    "description": "A personal portfolio website",
-    "repo": "https://github.com/Hieser21/hieser21.github.io",
-    "owner": {
-        "username": "Hieser21",
-        "email": "rarafat883@gmail.com"
-    },
-    "record": {
-        "CNAME": "arafatrahaman.up.railway.app"
-    }
+  "owner": {
+    "username": "Hieser21",
+    "email": "rarafat883@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-gh9n.onrender.com"
+  }
 }

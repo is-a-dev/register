@@ -1,11 +1,12 @@
 {
-    "description": "Ansh's personal website",
-    "repo": "https://github.com/anshtyagi0",
-    "owner": {
-        "username": "anshtyagi0",
-        "email": "tyagiansh175@gmail.com"
-    },
-    "record": {
-        "CNAME": "anshtyagi.me"
-    }
+  "owner": {
+    "username": "anshaneja5",
+    "email": "anshanejaa@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-xi-liard-96.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ansh.is-a.dev,074c2e585d197374e108"
+  }
 }

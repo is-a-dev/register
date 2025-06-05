@@ -1,0 +1,13 @@
+{
+  "description": "ANW's (Subhrajit Sain) Personal Site",
+  "owner": {
+    "username": "SubhrajitSain",
+    "email": "subhrajitsain34@gmail.com"
+  },
+  "records": {
+    "CNAME": "anw-site.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=anw.is-a.dev,311da8db0edf384b5617"
+  }
+}

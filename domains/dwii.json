@@ -1,11 +1,9 @@
 {
-    "description": "DwiiUnknown is a dev.",
-    "repo": "https://github.com/ItzMeDwii/dwii",
-    "owner": {
-        "username": "ItzMeDwii",
-        "email": "dwiiunknown@gmail.com"
-    },
-    "record": {
-        "URL": "https://dwii.my.id"
-    }
+  "owner": {
+    "username": "ItzMeDwii",
+    "email": "dwiiunknown@gmail.com"
+  },
+  "records": {
+    "URL": "https://dwii.my.id"
+  }
 }
