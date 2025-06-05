@@ -4,7 +4,6 @@
     "email": "gargaditya08@live.com"
   },
   "records": {
-    "CNAME": "adityagarg8.github.io",
     "TXT": ["zoho-verification=zb29517158.zmverify.zoho.in", "v=spf1 include:zoho.in ~all"],
     "MX": [
       {
@@ -20,6 +19,5 @@
         "priority": 50
       }
     ]
-  },
-  "proxied": true
+  }
 }
