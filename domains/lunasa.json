@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "7aub",
+    "email": "kona@disroot.org"
+  },
+  "record": {
+    "NS": [
+      "konnor.ns.cloudflare.com",
+      "summer.ns.cloudflare.com"
+    ]
+  }
+}
