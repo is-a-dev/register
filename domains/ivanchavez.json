@@ -1,9 +1,9 @@
 {
   "owner": {
     "email": "idlinea122@gmail.com",
-    "github": "idchavez"
+    "username": "idchavez"
   },
-  "record": {
-    "cname": "cv-ivan-chavez.vercel.app"
+  "records": {
+    "CNAME": "cv-ivan-chavez.vercel.app"
   }
 }
