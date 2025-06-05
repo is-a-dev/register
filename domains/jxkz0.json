@@ -9,5 +9,6 @@
     },
     "services": {
         "vercel": "vc-domain-verify=jxkz0.is-a.dev,4e7d2758460236e51547"
-    }
+    },
+    "proxied": true
 }
