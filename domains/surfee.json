@@ -1,10 +1,10 @@
 {
   "owner": {
-    "username": "ayden",
+    "username": "ayden-ndotlight",
     "email": "ayden@ndotlight.com"
   },
   "records": {
-    "ns": [
+    "NS": [
       "dolly.ns.cloudflare.com",
       "keenan.ns.cloudflare.com"
     ]
