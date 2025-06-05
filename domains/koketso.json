@@ -4,6 +4,9 @@
         "email":"lanchaster.k@gmail.com"    
     },
     "records":{
-        "CNAME":"Koketso-dax.github.io"
+        "CNAME":"cname.vercel-dns.com."
+    },
+    "services":{
+        "vercel":"vc-domain-verify=koketso.is-a.dev,02ac12d45a5563c36a25"
     }
 }
