@@ -7,5 +7,7 @@
   "records": {
     "CNAME": "apoo711.github.io"
   },
-  "proxied": true
+  "services": {
+    "discord": "dh=1b2d00cb449cab67bedd1c9f40961835a261a92d"
+  }
 }

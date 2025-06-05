@@ -1,11 +1,12 @@
 {
   "owner": {
     "username": "harys722",
-    "discord": "1203357768610746385"
+    "discord": "1203357768610746385",
+    "email": "contact@harys.is-a.dev"
   },
   "records": {
-    "CNAME": "harys722.github.io",
-    "TXT": ["zoho-verification=zb21864535.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
+    "CNAME": "harys.vercel.app",
+    "TXT": ["zoho-verification=zb21864535.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all", "google-site-verification=kyfbQxiPkwN9bikDvsKAiS5O4ZTgdW9gwSczKaZt7nQ"],
     "MX": [
       {
         "target": "mx.zoho.com",
@@ -23,6 +24,7 @@
   },
   "proxied": true,
   "services": {
+    "vercel": "vc-domain-verify=harys.is-a.dev,0f7f97e958bfbe3e8831",
     "discord": "dh=b7e85268028e8c32676bf1e81122c1356159f27d"
   }
 }

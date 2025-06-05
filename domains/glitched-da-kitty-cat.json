@@ -7,6 +7,6 @@
     "CNAME": "glitched-da-kitty-cat.vercel.app"
   },
   "services": {
-    "vercel": "vc-domain-verify=glitched-da-kitty-cat.is-a.dev,d3ead0cedf604d462fbb"
+    "vercel": ["vc-domain-verify=glitched-da-kitty-cat.is-a.dev,d3ead0cedf604d462fbb", "vc-domain-verify=ordo.glitched-da-kitty-cat.is-a.dev,9e018f84a7860a5d2d68"]
   }
 }
