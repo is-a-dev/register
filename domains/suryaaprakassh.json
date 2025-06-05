@@ -3,8 +3,7 @@
         "username": "suryaaprakassh",
         "email": "surya0prakash@proton.me"
     },
-
     "record": {
-        "CNAME": "suryaaprakassh.github.io"
+			  "A": ["75.2.60.5"]
     }
 }
