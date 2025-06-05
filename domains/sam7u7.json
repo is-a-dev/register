@@ -1,9 +1,10 @@
 {
     "owner": {
-        "username": "sam7u7"
+        "username": "sam7u7",
+        "email": "ba18048@ues.edu.sv"
     },
     "records": {
-      "RECORDTYPE": "RECORDCONTENT"
+      "RECORDTYPE": "RECORDCONTENT",
       "TXT": [
       "resend-verification=re_9qArSRUE_Lu2MSb81t2U4UZB5ry54gZiB"
       ],
