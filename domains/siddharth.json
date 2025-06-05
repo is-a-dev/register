@@ -6,28 +6,9 @@
   },
   "records": {
     "CNAME": "siddharthjain25.github.io",
-    "TXT": [
-      "zoho-verification=zb86694141.zmverify.zoho.in",
-      "v=spf1 include:zohomail.in ~all",
-      {
-        "target": "zmail._domainkey",
-        "value": "v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCNlHusK31xjA4xXW7gVTkcD/0Zyptq6yJZDE484jZJ98gaAyRCgYOKh2qNKA9sBKCawdBPf473XnZWPra/PpX7c2alHokIsnXv/cmpssyS2+5q9PHunPYQvxY1zdqt7DQWykGFWygPu8oGEJXYwqiAQLvoUotsqmSCry2d2i50VwIDAQAB"
-      }
-    ],
-    "MX": [
-      {
-        "target": "mx.zoho.in",
-        "priority": 10
-      },
-      {
-        "target": "mx2.zoho.in",
-        "priority": 20
-      },
-      {
-        "target": "mx3.zoho.in",
-        "priority": 50
-      }
+    "NS": [
+      "dante.ns.cloudflare.com",
+      "zariyah.ns.cloudflare.com"
     ]
-  },
-  "proxied": true
+  }
 }
