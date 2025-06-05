@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "sam7u7"
+    },
+    "records": {
+      "RECORDTYPE": "RECORDCONTENT"
+      "TXT": [
+      "resend-verification=re_9qArSRUE_Lu2MSb81t2U4UZB5ry54gZiB"
+      ],
+      "MX": [
+        "mx1.resend.com"
+      ],
+      "CNAME": "smtp.resend.com"
+    }
+}
