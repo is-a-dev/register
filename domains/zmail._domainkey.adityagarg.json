@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "AdityaGarg8",
-    "email": "gargaditya08@live.com"
-  },
-  "records": {
-    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyD2WqjRY8XW04vuzXSRHxeyBeYUsRdx9b8BLW0iffIN5u0wf3zMhkpjwlOEu9V96BtYU2g1WUXRd0qoGR4AHAYUlf5LzX1qo4vHRdhD0C7jqch7ryCx5U29/4VQbaEdnkcPP+PBb8MjIAdhiikkgcQO7WeSnMxArMzYMQByzW0QIDAQAB"
-  }
-}
