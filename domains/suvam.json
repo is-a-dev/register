@@ -4,6 +4,6 @@
         "email":"ssuvamm@gmail.com"
     },
     "records": {
-        "NS": ["luciane.ns.cloudflare.com", "vicky.ns.cloudflare.com"]
+        "CNAME": "ssuvamm.github.io"
     }
 }
