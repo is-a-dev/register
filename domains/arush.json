@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "Arubad",
+        "email": "arushbadhe@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=arush.is-a.dev,5b7a8976af691e57106b"
+    }
+}
