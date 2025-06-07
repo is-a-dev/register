@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "nickkcode",
+    "email": "tobecoolaf@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=nikhil.is-a.dev,73470ea5ab966bbf95d0"
+  }
+}
