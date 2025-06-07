@@ -1,0 +1,14 @@
+{
+    "owner": {
+        "username": "jxkz0",
+        "discord": "1092448548437643376"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": "zoho-verification=zb54667099.zmverify.zoho.eu"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=jxkz0.is-a.dev,4e7d2758460236e51547"
+    },
+    "proxied": true
+}
