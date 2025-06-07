@@ -4,6 +4,10 @@
         "email": "hoovad@proton.me"
     },
     "records": {
-        "CNAME": "pages.hoovad.codeberg.page"
+        "CNAME": "pages.hoovad.codeberg.page",
+        "TXT": "aspe:keyoxide.org:BHVNC6RJHE2RPV4P6OA6OHJMKM"
+    },
+    "services": {
+       "discord": "dh=53af7435b8acc52a8fe6e4ba41d6714627f3fbbd"
     }
 }
