@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "klsxdev.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=kls.is-a.dev,041f3f1e4708ab96acf3"
   }
 }
