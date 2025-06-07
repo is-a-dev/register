@@ -1,0 +1,14 @@
+{
+    "owner": {
+        "username": "hoovad",
+        "email": "hoovad@proton.me"
+    },
+    "records": {
+        "A": ["217.197.84.141"],
+        "AAAA": ["2a0a:4580:103f:c0de::2"],
+        "TXT": ["aspe:keyoxide.org:BHVNC6RJHE2RPV4P6OA6OHJMKM", "hoovad.codeberg.page"]
+    },
+    "services": {
+       "discord": "dh=53af7435b8acc52a8fe6e4ba41d6714627f3fbbd"
+    }
+}
