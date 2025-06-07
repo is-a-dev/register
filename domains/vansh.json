@@ -5,6 +5,9 @@
     "email": "vkapoor0112@gmail.com"
   },
   "records": {
-    "CNAME": "vansh-codes.vercel.app"
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "services": {
+    "vercel": "_vercel.vansh.is-a.dev"
   }
 }
