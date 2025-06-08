@@ -3,7 +3,10 @@
     "username": "Aurumdev952",
     "email": "benjamugi20072@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "benjamin-bay.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ishbenjamin.is-a.dev,787c8741716d7d7ae200"
   }
 }

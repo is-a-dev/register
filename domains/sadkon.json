@@ -3,7 +3,10 @@
     "username": "MohammedKHC0",
     "email": "mohammedkhc@outlook.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sadkon.gitlab.io"
+  },
+  "services": {
+    "gitlab": "gitlab-pages-verification-code=478e4a7c8445704809ba0fa31e003df3"
   }
 }

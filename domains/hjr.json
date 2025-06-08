@@ -4,7 +4,10 @@
     "username": "hongjr03",
     "email": "me@jrhim.com"
   },
-  "record": {
+  "records": {
     "CNAME": "hongjr03-github-io.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=hjr.is-a.dev,fb939de5f77b0e1360cf"
   }
 }

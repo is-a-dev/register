@@ -3,7 +3,10 @@
     "username": "VinhTin-AQUA",
     "email": "tinhovinh@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "code-cheat-sheet.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=newtun-code-cheat-sheet.is-a.dev,d8b78b5284419c18ec16"
   }
 }

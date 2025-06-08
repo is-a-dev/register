@@ -3,7 +3,10 @@
     "username": "EducatedSuddenBucket",
     "email": "educatedsuddenbucket@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["76.76.21.21"]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=liaobots.is-a.dev,8571d70b82b73973b70d"
   }
 }

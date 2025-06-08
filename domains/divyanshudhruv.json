@@ -3,7 +3,10 @@
     "username": "divyanshudhruv",
     "email": "divyanshudhruv24@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "divyanshudhruv.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=divyanshudhruv.is-a.dev,3736859f922a85d87e46"
   }
 }

@@ -1,11 +1,12 @@
 {
-  "description": "Personal about me and Projects website",
-  "repo": "https://github.com/illy-dev/illy-dev.github.io",
   "owner": {
     "username": "illy-dev",
     "email": "illythehase@gmail.com"
   },
-  "record": {
-    "CNAME": "illy-dev.github.io"
+  "records": {
+    "CNAME": "illy-dev-github-io.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=illy.is-a.dev,043aa6b06299bebf5ad1"
   }
 }

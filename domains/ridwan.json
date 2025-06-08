@@ -3,7 +3,10 @@
     "username": "ridwanyinus",
     "email": "ridwanyinusa15@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ridwanyinus.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=ridwan.is-a.dev,225e2c74c9221022a84f"
   }
 }

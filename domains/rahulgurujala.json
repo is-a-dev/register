@@ -1,11 +1,12 @@
 {
-  "description": "Portfolio Website",
-  "repo": "https://github.com/rahulgurujala/personal-portfolio",
   "owner": {
     "username": "rahulgurujala",
     "email": "isaacnewtonrahul@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rahulgurujala.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=rahulgurujala.is-a.dev,6daa2c803848d4e808d9"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Personal Blog",
-  "repo": "https://github.com/reuel-k/reuel-k.github.io",
   "owner": {
     "username": "reuel-k",
     "email": "reuelk@protonmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "reuel-k.github.io"
   }
 }

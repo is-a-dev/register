@@ -3,7 +3,10 @@
     "username": "rafsanza-hub",
     "email": "rapsanza@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rafsanza.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=rafsanza.is-a.dev,6b6643acbebdf80cd44b"
   }
 }

@@ -3,7 +3,10 @@
     "username": "faroukchebaiki",
     "email": "farouk.chebaiki@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "faroukchebaiki.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=farouk.is-a.dev,ec3de2841315d1108853"
   }
 }
