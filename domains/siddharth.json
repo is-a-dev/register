@@ -8,7 +8,10 @@
     "CNAME": "cname.vercel-dns.com",
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all",
-      "vc-domain-verify=siddharth.is-a.dev,5b334303ef3dfd64b557"
+      {
+        "target": "",
+        "value": "vc-domain-verify=siddharth.is-a.dev,5b334303ef3dfd64b557",
+      },
     ],
     "MX": [
       {
