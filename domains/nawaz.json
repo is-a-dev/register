@@ -4,6 +4,7 @@
         "email": "mgmnawas@gmail.com"
     },
     "records": {
-        "CNAME": "mohamed-nawas.github.io"
+        "CNAME": "mohamed-nawas.github.io",
+        "TXT": ["_github-pages-challenge-mohamed-nawas=c4e5a00958bb261a86a51188ee1b76"]
     }
 }
