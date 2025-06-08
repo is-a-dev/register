@@ -8,7 +8,6 @@
     "TXT": [
       "zoho-verification=zb54667099.zmverify.zoho.eu",
       "v=spf1 include:zoho.eu ~all",
-      "v=DMARC1; p=quarantine; rua=mailto:me@jxkz0.is-a.dev"
     ],
     "MX": [
       {
