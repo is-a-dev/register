@@ -5,24 +5,28 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com",
-    "TXT": "zoho-verification=zb54667099.zmverify.zoho.eu",
+    "TXT": [
+      "zoho-verification=zb54667099.zmverify.zoho.eu",
+      "v=spf1 include:zoho.eu ~all",
+      "v=DMARC1; p=quarantine; rua=mailto:me@jxkz0.is-a.dev"
+    ],
     "MX": [
       {
-        "target": "mx.zoho.com",
+        "target": "mx.zoho.eu",
         "priority": 10
       },
       {
-        "target": "mx2.zoho.com",
+        "target": "mx2.zoho.eu",
         "priority": 20
       },
       {
-        "target": "mx3.zoho.com",
+        "target": "mx3.zoho.eu",
         "priority": 50
       }
-    ]
+    ],
   },
   "services": {
     "vercel": "vc-domain-verify=jxkz0.is-a.dev,4e7d2758460236e51547"
   },
-  "proxied": true
+  "proxied": false
 }
