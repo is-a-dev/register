@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "rimehrab",
+    "email": "rimehrab@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=rimehrab.is-a.dev,3e96e93284f821eb19ca"
+  }
+}
