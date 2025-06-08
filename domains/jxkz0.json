@@ -7,7 +7,7 @@
     "CNAME": "cname.vercel-dns.com",
     "TXT": [
       "zoho-verification=zb54667099.zmverify.zoho.eu",
-      "v=spf1 include:zoho.eu ~all",
+      "v=spf1 include:zoho.eu ~all"
     ],
     "MX": [
       {
@@ -22,7 +22,7 @@
         "target": "mx3.zoho.eu",
         "priority": 50
       }
-    ],
+    ]
   },
   "services": {
     "vercel": "vc-domain-verify=jxkz0.is-a.dev,4e7d2758460236e51547"
