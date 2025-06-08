@@ -8,7 +8,9 @@
     "TXT": [
       "zoho-verification=zb54667099.zmverify.zoho.eu",
       "v=spf1 include:zohomail.eu include:zoho.eu ~all",
-      "zoho._domainkey v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCSFTEQqEAhpVNNnvRBmXoGAXhAlf/rKAPA9fwoXWlUHXgj/NiF1fOCpd4iNLVSLpmbfzjmaVUPEc5u8QgxfVfh4nqkXKPtg2q5JeNHa8BPv3GdXi6HwadUfJVNicYp2F6LbsDWhS20a8Dg/f/XimLGldPmbjRLfh4V5V9yp3G9QQIDAQAB"
+      {
+        "main._domainkey": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCSFTEQqEAhpVNNnvRBmXoGAXhAlf/rKAPA9fwoXWlUHXgj/NiF1fOCpd4iNLVSLpmbfzjmaVUPEc5u8QgxfVfh4nqkXKPtg2q5JeNHa8BPv3GdXi6HwadUfJVNicYp2F6LbsDWhS20a8Dg/f/XimLGldPmbjRLfh4V5V9yp3G9QQIDAQAB"
+      }
     ],
     "MX": [
       {
