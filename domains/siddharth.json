@@ -9,7 +9,7 @@
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all",
       {
-        "target": "",
+        "target": "_vercel",
         "value": "vc-domain-verify=siddharth.is-a.dev,5b334303ef3dfd64b557",
       },
     ],
