@@ -5,6 +5,6 @@
         "email": "jinnsulthan@proton.me"
     },
     "records": {
-        "CNAME": "ashikmuhammed.netlify.app"
+        "A": ["75.2.60.5"]
     },
 }
