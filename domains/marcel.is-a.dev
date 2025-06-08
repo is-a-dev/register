@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "elokrypt",
+    "email": "elokrypt@keemail.me"
+  },
+  "records": {
+    "A": [
+      "139.162.167.9"
+    ],
+    "AAAA": [
+      "2a01:7e01::f03c:93ff:fef3:21d9"
+    ]
+  } 
+}
