@@ -1,7 +1,8 @@
 {
     "owner": {
         "username": "kuvaldini",
-        "email": "[email protected]"
+        "email": "[email protected]",
+        "github": "kuvaldini"
     },
     "records": {
         "CNAME": "kyb.gitlab.io",
