@@ -1,23 +1,9 @@
 {
-  "github": "Satanas1275",
-  "subdomain": "rocknite-studio",
-  "owner": {
-    "email": "rocknite-studio@is-a.dev"
-  },
-  "record": {
-    "CNAME": "rocknite-studio.cloudflare-tunnel.com",
-    "console": {
-      "CNAME": "console-rocknite.cloudflare-tunnel.com"
+    "owner": {
+        "username": "Satanas1275",
+        "email": "satanas1275@gmail.com"
     },
-    "panel": {
-      "CNAME": "panel-rocknite.cloudflare-tunnel.com"
-    },
-    "host": {
-      "CNAME": "host-rocknite.cloudflare-tunnel.com"
-    },
-    "MX": [
-      "mx.yandex.net"
-    ]
-  },
-  "proxy": false
+    "records": {
+        "CNAME": "test-afw.pages.dev"
+    }
 }
