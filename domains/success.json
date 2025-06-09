@@ -1,0 +1,12 @@
+  {
+     "owner": {
+      "username": "webdryk",
+       "email": "saamebley@gmail.com"
+     },
+     "records": {
+       "CNAME": "cname.vercel-dns.com"
+     },
+    "services": {
+      "vercel": "vc-domain-verify=success.s-a.dev,5448eabc9ed80dc8c701"
+}
+   }

@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "jxkz0",
+    "discord": "1092448548437643376"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCG/7BEvU6IeYu4QXVUv5S3WV7Y3Tb0CKZVc38EUPi63vy2/wgeB0qAsRcY5kPpWBztsdya1htKbQ+/6M5AD1VIUEgI12hUhxQOkuz4IX4c03S4cXIH3KFTX+jhqZZygfMj3972Tpcl525hBKMLz9iJEL/zKiMcoF6/DmDSsyi99wIDAQAB"
+    ]
+  }
+}

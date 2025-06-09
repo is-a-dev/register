@@ -5,6 +5,21 @@
     "discord": "804397662467915777"
   },
   "records": {
-    "CNAME": "siddharthjain25.github.io"
-  }
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ]
+  },
+  "services": {
+    "vercel": "vc-domain-verify=siddharth.is-a.dev,5b334303ef3dfd64b557"
+  },
+  "proxied": true
 }
