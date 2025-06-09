@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "andreydeoliveira",
+    "email": "andreyontech@gmail.com",
+    "twitter": "AndreyOnTech"
+  },
+  "records": {
+    "CNAME": "andreyontech.vercel.app"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=andreyontech.is-a.dev,6915c470afbbae4323e9"
+  }
+}
