@@ -3,21 +3,7 @@
    "username": "SebasProgrammer2021",
    "email": "sebastian.snlo@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "name": "_5b076e00d956efeffd0910b64cf07921.sebastianvalencia.is-a.dev.",
-      "value": "_72e2e87fb9fee93a26f3dac24819ea9e.xlfgrmvvlj.acm-validations.aws."
-    },
-    {
-      "type": "CNAME",
-      "name": "sebastianvalencia",
-      "value": "d3geotg8u1w9js.cloudfront.net"
-    },
-    {
-      "type": "CNAME",
-      "name": "www.sebastianvalencia",
-      "value": "d3geotg8u1w9js.cloudfront.net"
-    }
-  ]
+ "records": {
+    "CNAME": "d2nnorvm5eoxo5.cloudfront.net"
+  }
 }
