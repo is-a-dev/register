@@ -4,7 +4,6 @@
         "email": "py546tzqj@mozmail.com"
     },
     "records": {
-        "CNAME": "kyb.gitlab.io",
-        "TXT": ""
+        "CNAME": "kyb.gitlab.io"
     }
 }
