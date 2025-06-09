@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "arnvptl",
+        "email": "rnv@pissmail.com"
+    },
+    "records": {
+       "A": ["216.198.79.193"]
+    },
+    "services": {
+        "vercel": "vc-domain-verify=a.is-a.dev,0fadab8bb0bc44361fb6"
+    }
+}
