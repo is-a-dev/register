@@ -1,0 +1,44 @@
+{
+  "subdomain": "mg",
+  "owner": {
+    "email": "brunocorregedoria@gmail.com"
+  },
+  "records": {
+    "A": [
+      "146.235.36.249"
+    ],
+    "TXT": [
+      "MS=ms55089628", 
+      "v=spf1 include:spf.protection.outlook.com -all"
+    ],
+    "MX": [
+      {
+        "priority": 0,
+        "value": "meuservico-is-a-dev.mail.protection.outlook.com."
+      }
+    ],
+    "CNAME": {
+      "autodiscover": "autodiscover.outlook.com.",
+      "sip": "sipdir.online.lync.com.",
+      "lyncdiscover": "webdir.online.lync.com.",
+      "enterpriseregistration": "enterpriseregistration.windows.net.",
+      "enterpriseenrollment": "enterpriseenrollment.manage.microsoft.com."
+    },
+    "SRV": [
+      {
+        "name": "_sip._tls",
+        "target": "sipdir.online.lync.com.",
+        "priority": 100,
+        "weight": 1,
+        "port": 443
+      },
+      {
+        "name": "_sipfederationtls._tcp",
+        "target": "sipfed.online.lync.com.",
+        "priority": 100,
+        "weight": 1,
+        "port": 5061
+      }
+    ]
+  }
+}
