@@ -3,9 +3,6 @@
     "username": "bdn-fr"
   },
   "records": {
-    "CNAME": "bdn-fr.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=bdn-fr.is-a.dev,85271b1cab848c134027"
+    "CNAME": "bdn-fr.xyz"
   }
 }
