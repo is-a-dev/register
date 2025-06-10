@@ -1,11 +1,8 @@
 {
   "owner": {
-    "github": "w4shi"
+    "username": "w4shi"
   },
   "records": {
     "CNAME": "w4shi.github.io"
-
-  },
-  "path": "/pedro-amaro-cv",
-  "proxied": false
+  }
 }
