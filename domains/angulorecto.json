@@ -12,7 +12,6 @@
     "TXT": "v=spf1 include:spf.mailjet.com mx ~all"
   }
   "owner": {
-    "username": "Angulorecto",
-    "email": "angulorecto2@gmail.com"
+    "username": "Angulorecto"
   }
 }
