@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "i6ey",
+        "discord": "i6ey"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=icey.is-a.dev,230b7c8a3ec7a896c8c3",
+        "discord": "dh=0dca47f1a292b61218d3d1bd4034656fadeacde4"
+    }
+}
