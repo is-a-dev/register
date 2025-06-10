@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "itsyourap",
+        "email": "itsyourap@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=itsyourap.is-a.dev,c120e17df6dbf8a869b2"
+    }
+}
