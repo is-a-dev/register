@@ -12,6 +12,7 @@
     "TXT": "v=spf1 include:spf.mailjet.com mx ~all"
   }
   "owner": {
-    "username": "Angulorecto"
+    "username": "Angulorecto",
+    "discord": "1012484178014650371"
   }
 }
