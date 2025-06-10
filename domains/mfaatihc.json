@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "Faryyxvn",
+    "email": "Faricanadra5@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=mfaatihc.is-a.dev,9d79dd9089a2396c0ac0"
+  },
+  "description": "mfaatihc.is-a.dev"
+}
