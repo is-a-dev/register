@@ -5,9 +5,6 @@
     "twitter": "lordlinux69"
   },
   "records": {
-     "NS": [
-      "armando.ns.cloudflare.com",
-      "kate.ns.cloudflare.com"
-    ]
+    "NS": ["armando.ns.cloudflare.com", "kate.ns.cloudflare.com"]
   }
 }
