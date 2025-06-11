@@ -16,8 +16,5 @@
       "v=spf1 ip4:65.19.154.90 ip6:2001:470:1:1ee::1002 ~all"
     ]
   },
-  "proxied": true,
-  "services":{
-    "bluesky":"did=did:plc:wyzmwzxvot52hynv33qebimq"
-  }
+  "proxied": true
 }
