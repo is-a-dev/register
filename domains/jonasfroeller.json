@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "jonasfroeller.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=jonasfroeller.is-a.dev,5e5ba77b2dbfd27d1094"
   }
 }

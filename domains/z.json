@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "jartf",
-        "email": "gh@jar.tf"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=z.is-a.dev,423c7e1a8ec177b08498"
-    }
+  "owner": {
+    "username": "jartf",
+    "email": "gh@jar.tf"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
