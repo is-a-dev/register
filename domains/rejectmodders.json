@@ -6,9 +6,5 @@
   },
   "records": {
     "CNAME": "rejectmoddersis-adev.vercel.app"
-  },
-  "services": {
-    "discord": "dh=b77acadd3e4e89069f1b25422dd5eded7bd1354c",
-    "vercel": "vc-domain-verify=rejectmodders.is-a.dev,96098d7f80d62c706b12"
   }
 }

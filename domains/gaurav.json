@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "gaurav-develops",
-        "email": "gaurav-develops@proton.me"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=gaurav.is-a.dev,f79acf8269a857f1d58f"
-    }
+  "owner": {
+    "username": "gaurav-develops",
+    "email": "gaurav-develops@proton.me"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

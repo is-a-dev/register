@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "anushi-portfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=anushi.is-a.dev,714e2ca17c98df2b9c74"
   }
 }
