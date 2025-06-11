@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "saulmrto"
-    },
-    "records": {
-        "CNAME": "saulmrto.github.io"
-    }
+  "owner": {
+    "username": "saulmrto"
+  },
+  "records": {
+    "CNAME": "saulmrto.github.io"
+  }
 }

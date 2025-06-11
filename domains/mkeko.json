@@ -6,8 +6,5 @@
   "records": {
     "A": ["76.76.21.21"],
     "TXT": "vyntr-verify=1745509030098-httpsmkekoisadev-2c0jtf2go8k"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=mkeko.is-a.dev,060738e86128a300ceee"
   }
 }

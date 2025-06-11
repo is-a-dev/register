@@ -8,10 +8,7 @@
     "URL": "https://heatblock.esb.is-a.dev",
     "TXT": "google-site-verification=nDh74FzhzmLwzfX4wZWHjZOjNXmTCKyuw89TGKOIfkE"
   },
-   "redirect_config": {
+  "redirect_config": {
     "redirect_paths": true
-  },
-  "services": {
-    "vercel": "vc-domain-verify=in.mcstatus.is-a.dev,b4848ed9d0fbecb86308"
   }
 }

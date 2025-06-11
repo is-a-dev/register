@@ -17,10 +17,5 @@
       "/paypal": "https://www.paypal.com/paypalme/luihhdev"
     }
   },
-  "proxied": true,
-  "services": {
-    "discord": "dh=81d234bda025f0796690ab6cf411be3a6b6c73c2",
-    "vercel": "vc-domain-verify=luihh.is-a.dev,918089867ac61f642dfc",
-    "bluesky": "did=did:plc:nkzlgllahrw2v2y6p4inqx6t"
-  }
+  "proxied": true
 }
