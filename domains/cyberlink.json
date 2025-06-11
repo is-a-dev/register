@@ -6,8 +6,5 @@
   "records": {
     "CNAME": "cname.vercel-dns.com"
   },
-  "services": {
-    "vercel": "vc-domain-verify=cyberlink.is-a.dev,ccef0f5f7c77ae12f085"
-  },
   "proxied": false
 }

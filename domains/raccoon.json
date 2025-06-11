@@ -5,9 +5,5 @@
   },
   "records": {
     "CNAME": "nilsraccoon.github.io"
-  },
-  "services": {
-    "discord": "dh=e9381b84c8007443b186820d32a3797bd8fa537d",
-    "bluesky": "did=did:plc:25w7vwbzb2e3h7cnflqskp37"
   }
 }

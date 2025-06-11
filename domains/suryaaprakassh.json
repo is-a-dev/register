@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "suryaaprakassh",
-        "email": "surya0prakash@proton.me"
-    },
-    "records": {
-				"A": ["216.24.57.1"]
-    }
+  "owner": {
+    "username": "suryaaprakassh",
+    "email": "surya0prakash@proton.me"
+  },
+  "records": {
+    "A": ["216.24.57.1"]
+  }
 }
