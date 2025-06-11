@@ -1,0 +1,11 @@
+{
+  "description": "Personal subdomain",
+  "repo": "https://github.com/michelmetran/michelmetran.github.io",
+  "owner": {
+    "username": "michelmetran",
+    "email": "michelmetran@gmail.com"
+  },
+  "records": {
+    "URL": "https://michelmetran.github.io"
+  }
+}
