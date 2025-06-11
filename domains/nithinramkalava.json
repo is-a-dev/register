@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "nithinramkalava.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=nithinramkalava.is-a.dev,2c94b1dbc37b602f2519"
   }
 }
