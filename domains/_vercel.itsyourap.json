@@ -4,6 +4,6 @@
     "email": "itsyourap@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.193"]
+    "TXT": "vc-domain-verify=itsyourap.is-a.dev,c120e17df6dbf8a869b2"
   }
 }
