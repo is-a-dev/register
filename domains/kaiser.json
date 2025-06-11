@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "kaiser-github-io.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=kaiser.is-a.dev,25f81d1d64896612f269"
   }
 }
