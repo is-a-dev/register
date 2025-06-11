@@ -6,7 +6,7 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "TEXT": [
+    "TXT": [
       "v=DMARC1; p=quarantine"
     ]
   }
