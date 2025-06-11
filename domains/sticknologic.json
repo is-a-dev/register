@@ -19,16 +19,5 @@
   "proxied": true,
   "services":{
     "bluesky":"did=did:plc:wyzmwzxvot52hynv33qebimq"
-  },
-  "redirect_config": {
-  "custom_paths": {
-    "/github": "https://github.com/STICKnoLOGIC",
-    "/facebook": "https://facebook.com/STICKnoLOGIC",
-    "/itchio": "https://STICKnoLOGIC.itch.io",
-    "/bsky": "https://bsky.app/profile/STICKnoLOGIC.is-a.dev",
-    "/x": "https://x.com/STICKnoLOGIC",
-    "/linkedin": "https://linkedin.com/in/STICKnoLOGIC"
-  },
-  "redirect_paths": true
-}
+  }
 }
