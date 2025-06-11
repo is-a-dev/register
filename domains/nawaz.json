@@ -5,5 +5,8 @@
     },
     "records": {
         "CNAME": "mohamed-nawas.github.io"
+    },
+    "services": {
+       "discord": "dh=bd14e4ad34ae056fd9a343b133f94107d53e08ec"
     }
 }
