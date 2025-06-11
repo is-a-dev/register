@@ -1,0 +1,10 @@
+{
+  "domain": "minhajtools.is-a.dev",
+  "owner": {
+    "repo": "https://github.com/skminhajuddin/Tool",
+    "branch": "main"
+  },
+  "record": {
+    "CNAME": "skminhajuddin.github.io"
+  }
+}
