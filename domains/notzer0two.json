@@ -5,9 +5,5 @@
   },
   "records": {
     "CNAME": "notzer0two.vercel.app"
-  },
-  "services": {
-    "discord": "dh=89504c863f0365fd5e214e695141b54b8d44c6c7",
-    "vercel": "vc-domain-verify=notzer0two.is-a.dev,38a2a717010666874386"
   }
 }
