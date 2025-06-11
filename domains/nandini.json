@@ -4,7 +4,7 @@
     "email": "ajayapandey2404@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
+    "CNAME": "cname.vercel-dns.com"
   },
   "services": {
     "vercel": "vc-domain-verify=nandini.is-a.dev,3fedda6f58cb8d447f1b"
