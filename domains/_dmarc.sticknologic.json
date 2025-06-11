@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "records": {
+    "TEXT": [
+      "v=DMARC1; p=quarantine"
+    ]
+  }
+}
