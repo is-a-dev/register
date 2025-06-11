@@ -6,6 +6,8 @@
     "email": "minhtientiny@gmail.com"
   },
   "records": {
-    "CNAME": "NguyenNhatSakura.github.io"
+    "A": "76.76.21.21",
+    "_vercel": "vc-domain-verify=dauhuyummyxp.is-a.dev,696dad48aecb20fbaea3",
+    "CNAME_www": "cname.vercel-dns.com"
   }
 }
