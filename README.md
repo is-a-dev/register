@@ -32,13 +32,13 @@ Not all of these will be posted on GitHub[^1], however they will always be poste
 - Enjoy your new `.is-a.dev` subdomain! Please consider leaving us a star ⭐️ to help support us!
 
 ### NS Records
-When applying for NS records, please be aware we already support a [wide range of DNS records](https://docs.is-a.dev/faq/#which-records-are-supported), so likely do not not need them. 
+When applying for NS records, please be aware we already support a [wide range of DNS records](https://docs.is-a.dev/faq/#which-dns-record-types-are-supported), so likely do not not need them. 
 
 In your PR, please explain why you need NS records, including examples, to help mitigate potential abuse. Refer to the [FAQ](https://docs.is-a.dev/faq/#who-can-use-ns-records) for guidelines on allowed usage.
 
 ***Pull requests adding NS records without sufficient reasoning will be closed.***
 
-> Also see: [Why are you so strict with NS records](https://docs.is-a.dev/faq/#why-are-you-so-strict-with-ns-records)?
+> Also see: [Why are NS records restricted?](https://docs.is-a.dev/faq/#why-are-ns-records-restricted)?
 
 ## Report Abuse
 If you find any subdomains being used for abusive purposes, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with the relevant evidence.
