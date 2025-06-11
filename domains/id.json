@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-main-q8dxiuiap-indrakantdanas-projects.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=id.is-a.dev,c2cc3946f3d170914ef2"
   }
 }

@@ -7,8 +7,5 @@
   "records": {
     "CNAME": "anonymousik.github.io"
   },
-  "services": {
-    "discord": "dh=bf41c141edc5338371bdcd2f5224d1e23f030b9f"
-  },
   "proxied": true
 }

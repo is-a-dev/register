@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "next-portfolio-eight-kohl.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=athanasopoulos.is-a.dev,56d11a7196dfe6d19e95"
   }
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "microblog-aa389f.gitlab.io"
-  },
-  "services": {
-    "gitlab": "gitlab-pages-verification-code=d1d70cb094c2f16f83caed76145fc105"
   }
 }
