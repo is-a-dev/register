@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "sudo-kai",
-        "email": "callmekaix@duck.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=kai.is-a.dev,6126a097e809f57bd0ff"
-    }
+  "owner": {
+    "username": "sudo-kai",
+    "email": "callmekaix@duck.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

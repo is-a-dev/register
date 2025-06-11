@@ -5,10 +5,7 @@
   },
   "records": {
     "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"],
-    "TXT": [
-      "zoho-verification=zb32862044.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
-    ],
+    "TXT": ["zoho-verification=zb32862044.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
     "A": ["75.2.60.5"]
   }
 }

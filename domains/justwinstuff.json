@@ -5,9 +5,5 @@
   },
   "records": {
     "CNAME": "justwinstuff.vercel.app"
-  },
-  "services": {
-    "discord": "dh=75e9bdc423ca4351bb8938087b552bc2ee9a3e16",
-    "vercel": "vc-domain-verify=justwinstuff.is-a.dev,f7737c243dc3c1080dd7"
   }
 }

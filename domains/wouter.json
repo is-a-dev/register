@@ -6,8 +6,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=wouter.is-a.dev,b69cd5b6b6811fe3538d"
   }
 }
