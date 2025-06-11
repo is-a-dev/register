@@ -1,12 +1,9 @@
 {
-    "owner": {
-      "username": "Trkiller02",
-      "email": "trollkiller0207@gmail.com"
-    },
-   "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=omarmarquez.is-a.dev,f52bed4996ab7d902c69"
-    }
+  "owner": {
+    "username": "Trkiller02",
+    "email": "trollkiller0207@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
+}
