@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "pankajtyagi-portfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=thegoofy-guy.is-a.dev,382a00f94cc6e561761e"
   }
 }

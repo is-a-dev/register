@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "modasir.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=mudasir.is-a.dev,2d0551deb0d92e5838a7"
   }
 }

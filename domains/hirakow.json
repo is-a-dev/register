@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "hirwko",
-        "email": "tatsumihirako@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=hirakow.is-a.dev,8dc46e66306ec7b52e8e"
-    }
+  "owner": {
+    "username": "hirwko",
+    "email": "tatsumihirako@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

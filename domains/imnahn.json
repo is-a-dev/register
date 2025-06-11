@@ -7,9 +7,5 @@
   },
   "records": {
     "CNAME": "newport-d2i.pages.dev"
-  },
-  "services": {
-    "discord": "dh=04c429a9247eee97c4db2597f0bdf22e28a949a1",
-    "vercel": "vc-domain-verify=imnahn.is-a.dev,464cfe62baa469c20c00"
   }
 }
