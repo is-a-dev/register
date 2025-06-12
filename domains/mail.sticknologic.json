@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "records": {
+    "CNAME": "sticknologic.is-a.dev"
+  },
+  "proxied": true
+}
