@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "KoraDeveloper",
+    "email": "imaravindx@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "services": {
+    "vercel": "vc-domain-verify=aravind.is-a.dev,efbca5ba81f979a08fb7"
+  }
+}
