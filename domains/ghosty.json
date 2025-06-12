@@ -5,8 +5,5 @@
   },
   "records": {
     "A": ["216.198.79.193"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ghosty.is-a.dev,2c1942afdcbc73561d5c"
   }
 }
