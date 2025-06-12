@@ -1,18 +1,13 @@
 {
+  "owner": {
+    "username": "Angulorecto",
+    "discord": "1012484178014650371"
+  },
   "records": {
     "A": [
       "98.243.203.235"
     ],
-    "MX": [
-      {
-        "host": "mail.angulorecto.is-a.dev",
-        "priority": 10
-      }
-    ],
+    "MX": ["mail.angulorecto.is-a.dev"],
     "TXT": "v=spf1 include:spf.mailjet.com mx ~all"
-  }
-  "owner": {
-    "username": "Angulorecto",
-    "discord": "1012484178014650371"
   }
 }
