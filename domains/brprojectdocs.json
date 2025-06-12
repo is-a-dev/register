@@ -1,0 +1,12 @@
+{
+  "brprojectdocs": { 
+    "owner": {
+      "username": "Brian-k1",
+      "email": "briankimemia2@gmail.com" 
+    },
+    "record": {
+      "type": "CNAME",
+      "value": "br.mintlify.app"
+    }
+  }
+}
