@@ -10,11 +10,5 @@
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
 
   },
-  "services": {
-    "vercel": "vc-domain-verify=steve.is-a.dev,9159efeed4da5ca914e3",
-    "discord": [
-      "dh=0cecf120d7beaf4003c5e09e95a3f95c01b94275",
-      "dh=a940c3db2780531f0c67e7b108cbf93b909de890"
-    ]
-  }
+  "proxied": true
 }
