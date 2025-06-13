@@ -1,9 +1,10 @@
 {
-  "owner": {
-    "username": "Syntax-XXX",
-    "email": "elias.wiesinger@proton.me"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "owner": {
+        "username": "Syntax-XXX",
+        "email": "elias.wiesinger@proton.me"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "NS": ["meiling.ns.cloudflare.com", "rustam.ns.cloudflare.com"]
 }
