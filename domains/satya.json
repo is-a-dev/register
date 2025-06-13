@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "owner": {
     "username": "Satya-Siba-Nayak",
     "email": "ssnayak8806@gmail.com"
@@ -9,3 +10,15 @@
   "description": "My personal website/portfolio",
   "proxied": true
 }
+=======
+    "owner": {
+      "username": "Satya-Siba-Nayak",
+      "discord": "satya8806"
+    },
+    "records": {
+      "CNAME": "Satya-Siba-Nayak.github.io"
+    },
+    "description": "My personal website/portfolio",
+    "proxied": true
+  }
+>>>>>>> Stashed changes
