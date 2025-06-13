@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "hujmosaviblog.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=hujjat.is-a.dev,73fd6f83a3b034bfc044"
   }
 }

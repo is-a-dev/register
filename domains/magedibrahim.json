@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "magedibrahim.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=magedibrahim.is-a.dev,7bdbe7e115da902cbd7d"
   }
 }
