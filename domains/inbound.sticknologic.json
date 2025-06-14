@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "records": {
+    "MX": [
+		{"target":"inbound.mailersend.net", "priority": 10}
+	]
+  }
+}
