@@ -1,0 +1,10 @@
+{
+  "description": "Domain for dynamic DNS updates for Cloudflare Tunnel and use for development purposes",
+  "owner": {
+    "username": "podbento-id",
+    "email": "podbento@gmail.com"
+  },
+  "records": {
+    "NS": ["annabel.ns.cloudflare.com", "ignat.ns.cloudflare.com"]
+  }
+}
