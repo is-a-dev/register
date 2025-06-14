@@ -6,7 +6,17 @@
   "proxied": true,
   "records": {
     "CNAME": "briankimemia.vercel.app",
-    "TXT": "google-site-verification=DSb1tEDwkBKAK9DhQrUAe_zh9rs7UVWfhx5uoHo1D00"
+    "TXT": [
+      "google-site-verification=DSb1tEDwkBKAK9DhQrUAe_zh9rs7UVWfhx5uoHo1D00",
+      "v=spf1 include:zoho.com ~all",
+      "v=DMARC1; p=none; rua=mailto:briankimemia2@gmail.com",
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWtuWMuXwGc1klnY1Q2InElO1IADSWOyR+uZCZt7f713bFtU0g+0jjhnksP0JYktIGgOHEmxKSJihTh2l09uOT1/S9I2WH6UHCMCZyyk+7otWlYcNvAUs5bv+w2fAjjB6uyg7m7TNUCpcmM2OHi1AQAiDmzgEFu4cU/ySzEpbd4wIDAQAB"
+    ],
+    "MX": [
+      { "value": "mx.zoho.com", "priority": 10 },
+      { "value": "mx2.zoho.com", "priority": 20 },
+      { "value": "mx3.zoho.com", "priority": 50 }
+    ]
   },
   "services": {
     "vercel": "vc-domain-verify=briankimemia.is-a.dev,93df6c0ca17c029edca7"
