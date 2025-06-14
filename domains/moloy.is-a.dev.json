@@ -5,5 +5,6 @@
     },
     "record": {
         "CNAME": "imoloy.github.io"
-    }
+    },
+    "proxied": true
 }
