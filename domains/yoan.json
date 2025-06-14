@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "yoan-gilliand.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=yoan.is-a.dev,74485448b7e7f2fd4b95"
   }
 }

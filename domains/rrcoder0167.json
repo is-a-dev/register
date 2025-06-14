@@ -6,9 +6,5 @@
   },
   "records": {
     "CNAME": "riddhimanrana.vercel.app"
-  },
-  "services": {
-    "discord": "dh=edffc018717818b3b5679949d15c4d3014187e1f",
-    "vercel": "vc-domain-verify=rrcoder0167.is-a.dev,ee2962391db53346c46b"
   }
 }
