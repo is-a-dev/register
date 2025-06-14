@@ -7,7 +7,7 @@
   },
   "records": {
     "MX": [
-		{"target":"inbound.mailersend.net", "priority": 10}
+		"inbound.mailersend.net"
 	]
   }
 }
