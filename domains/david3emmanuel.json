@@ -5,8 +5,5 @@
     },
     "records": {
         "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=david3emmanuel.is-a.dev,5ca6849c46a99fbd5c5c"
     }
 }
