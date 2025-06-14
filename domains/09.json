@@ -1,0 +1,11 @@
+{
+  "description": "9.is-a.dev",
+  "owner": {
+    "username": "shayneeo",
+    "email": "phamquocthanh357@gmail.com"
+  },
+  "records": {
+    "A": ["140.245.119.5"]
+  },
+  "proxied": true
+}
