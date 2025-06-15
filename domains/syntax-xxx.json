@@ -4,6 +4,6 @@
     "email": "elias.wiesinger@proton.me"
   },
   "records": {
-    "NS": ["meiling.ns.cloudflare.com","rustam.ns.cloudflare.com"]
+    "NS": ["meiling.ns.cloudflare.com", "rustam.ns.cloudflare.com"]
   }
 }
