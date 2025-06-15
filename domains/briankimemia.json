@@ -11,9 +11,9 @@
       "v=spf1 include:zoho.com ~all"
     ],
     "MX": [
-      { "value": "mx.zoho.com",  "priority": 10 },
-      { "value": "mx2.zoho.com", "priority": 20 },
-      { "value": "mx3.zoho.com", "priority": 50 }
+      { "target": "mx.zoho.com",  "priority": 10 },
+      { "target": "mx2.zoho.com", "priority": 20 },
+      { "target": "mx3.zoho.com", "priority": 50 }
     ]
   }
 }
