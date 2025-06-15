@@ -15,8 +15,5 @@
       { "value": "mx2.zoho.com", "priority": 20 },
       { "value": "mx3.zoho.com", "priority": 50 }
     ]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=briankimemia.is-a.dev,93df6c0ca17c029edca7"
   }
 }
