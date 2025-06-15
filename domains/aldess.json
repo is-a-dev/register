@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "AldessScratch",
-        "email": "aldess.sc@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=aldess.is-a.dev,677f969f699e3c3d4a5c"
-    }
+  "owner": {
+    "username": "AldessScratch",
+    "email": "aldess.sc@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

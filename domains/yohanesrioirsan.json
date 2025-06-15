@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "yohanesrioirsan.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=yohanesrioirsan.is-a.dev,2c8b157439c95db80770"
   }
 }

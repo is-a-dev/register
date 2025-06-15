@@ -13,12 +13,9 @@
       "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWtuWMuXwGc1klnY1Q2InElO1IADSWOyR+uZCZt7f713bFtU0g+0jjhnksP0JYktIGgOHEmxKSJihTh2l09uOT1/S9I2WH6UHCMCZyyk+7otWlYcNvAUs5bv+w2fAjjB6uyg7m7TNUCpcmM2OHi1AQAiDmzgEFu4cU/ySzEpbd4wIDAQAB"
     ],
     "MX": [
-      { "value": "mx.zoho.com", "priority": 10 },
-      { "value": "mx2.zoho.com", "priority": 20 },
-      { "value": "mx3.zoho.com", "priority": 50 }
+      { "target": "mx.zoho.com", "priority": 10 },
+      { "target": "mx2.zoho.com", "priority": 20 },
+      { "target": "mx3.zoho.com", "priority": 50 }
     ]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=briankimemia.is-a.dev,93df6c0ca17c029edca7"
   }
 }

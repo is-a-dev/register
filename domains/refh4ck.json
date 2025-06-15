@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "refh4ck.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=refh4ck.is-a.dev,cbc2088fe8cd6849093c"
   }
 }

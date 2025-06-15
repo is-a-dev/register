@@ -5,9 +5,5 @@
   },
   "records": {
     "CNAME": "shimizulinks.vercel.app"
-  },
-  "services": {
-    "discord": "dh=a24d14132caded8f17f5e4fdd4222378e8df2b89",
-    "vercel": "vc-domain-verify=shimizu.is-a.dev,3356672e8054fe9b4d65"
   }
 }

@@ -11,12 +11,5 @@
       "v=spf1 include:spf.improvmx.com ~all",
       "google-site-verification=C38zyZL8LP_056d5IgevUInJTe4qerfxC6-qjQORdh4"
     ]
-  },
-  "services": {
-    "vercel": [
-      "vc-domain-verify=ikram.is-a.dev,1c55c62cbbc1ce244ebe",
-      "vc-domain-verify=links.ikram.is-a.dev,706c366017aed069745e",
-      "vc-domain-verify=kakureta.ikram.is-a.dev,cea58e1b5cb084a5d961"
-    ]
   }
 }

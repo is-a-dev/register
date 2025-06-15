@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portofolio-pribadi-irfan-zharauri.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=zara.is-a.dev,54fd6194f447f7c5295b"
   }
 }
