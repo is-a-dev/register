@@ -2,11 +2,9 @@
   "owner": {
     "username": "asad24-dev"
   },
+  "proxied": true,
   "records": {
-    "CNAME": {
-      "value": "cname.vercel-dns.com",
-      "proxied": true
-    },
+    "CNAME": "cname.vercel-dns.com",
     "TXT": {
       "_vercel": "vc-domain-verify=muhammadasadmajeed.is-a.dev,8abdd288cb437c1ac48d"
     }
