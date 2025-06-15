@@ -1,10 +1,9 @@
 {
-  "subdomain": "docs.noodles", // your desired subdomain!
   "owner": {
-    "repo": "https://github.com/chersbobers.noodles", // your repo or leave as ""
-    "email": "chazington7@gmail.com" // your email
+    "username": "chersbobers",
+    "email": "chazington7@gmail.com"
   },
-  "record": {
-    "CNAME": "noodles-nu.vercel.app" // e.g. your GitHub Pages/Netlify/Vercel/Cloudflare Pages domain
+  "records": {
+    "CNAME": "noodles-nu.vercel.app"
   }
 }
