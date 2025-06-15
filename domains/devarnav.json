@@ -4,7 +4,7 @@
     "email": "playnav.yt@gmail.com"
   },
   "records": {
-    "CNAME": "is-a-dev-docs.pages.dev"
+    "A": ["216.198.79.193"]
   },
   "proxied": true
 }
