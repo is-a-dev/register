@@ -5,9 +5,5 @@
     },
     "records": {
         "CNAME": "meetparmar.vercel.app"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=meet-parmar.is-a.dev,6cce563600c94d6ad540"
-  }
+    }
 }
-
