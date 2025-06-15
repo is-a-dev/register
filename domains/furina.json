@@ -9,9 +9,5 @@
 
   "records": {
     "CNAME": "dragsbruh.github.io"
-  },
-
-  "services": {
-    "discord": "dh=9d235e8c0a17a9798d982db9c8f698fd5e3f113d"
   }
 }
