@@ -1,8 +1,9 @@
 {
   "owner": {
+    "username": "Dummylot",
     "email": "Dummylot@outlook.com"
   },
-  "record": {
+  "records": {
     "CNAME": "dummylot.github.io"
   },
   "redirect_config": {
