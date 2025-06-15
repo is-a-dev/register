@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "vigneshportfolio1.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=vignesh.is-a.dev,f3df13929e17acd366ea"
   }
 }

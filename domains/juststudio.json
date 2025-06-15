@@ -5,12 +5,7 @@
     "discord": "1117482901353812088"
   },
   "records": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
     "TXT": [
       "v=spf1 include:zohomail.eu ~all",
@@ -31,8 +26,5 @@
       "/r/github": "https://github.com/JustStudio7"
     }
   },
-  "proxied": true,
-  "services": {
-    "discord": "dh=33f1a73c2f587fed7b0f3c03f18e1bf4591f8aec"
-  }
+  "proxied": true
 }

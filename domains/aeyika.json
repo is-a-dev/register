@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-aeyikas-projects.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=aeyika.is-a.dev,84418c102cd22e0a172c"
   }
 }
