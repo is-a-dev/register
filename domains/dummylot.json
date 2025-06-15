@@ -3,11 +3,12 @@
     "email": "Dummylot@outlook.com"
   },
   "record": {
-    "CNAME": "dummylot.github.io",
-    "URL": {
-      "youtube": "https://www.youtube.com/@Dummylot0"
+    "CNAME": "dummylot.github.io"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/youtube": "https://www.youtube.com/@Dummylot0"
     }
   },
-  "proxy": true,
-  "wellknown": true
+  "proxied": true
 }
