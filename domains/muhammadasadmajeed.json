@@ -4,8 +4,8 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com",
-    "TXT": {
-      "_vercel": "vc-domain-verify=muhammadasadmajeed.is-a.dev,8abdd288cb437c1ac48d"
+    "_vercel": {
+      "TXT": "vc-domain-verify=muhammadasadmajeed.is-a.dev,8abdd288cb437c1ac48d"
     }
   }
 }
