@@ -6,4 +6,5 @@
   "records": {
     "NS": ["rosalie.ns.cloudflare.com", "rustam.ns.cloudflare.com"]
   }
+  "proxied": true
 }
