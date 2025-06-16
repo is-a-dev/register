@@ -1,0 +1,9 @@
+{
+  "subdomain": "animetrest",
+  "owner": {
+    "github": "anuragl2h"
+  },
+  "record": {
+    "cname": "anuragl2h.github.io"
+  }
+}
