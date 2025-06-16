@@ -4,6 +4,9 @@
     "email": "raj.ma@somaiya.edu"
   },
   "records": {
-    "CNAME": "raj-page.vercel.app"
+    "CNAME": "raj-page.vercel.app",
+    "TXT": {
+      "_vercel": "vc-domain-verify=rajagrawal.is-a.dev,e617f36ef46d8191c0aa" 
+    }
   }
 }
