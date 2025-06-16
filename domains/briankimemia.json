@@ -3,7 +3,7 @@
     "username": "BrianKN019",
     "email": "briannkimemia@gmail.com"
   },
-  "proxied": false,
+  "proxied": true,
   "records": {
     "CNAME": "briankimemia.vercel.app",
     "TXT": [
