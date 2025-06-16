@@ -1,0 +1,8 @@
+{
+    "owner": {
+        "username": "abas002"
+    },
+    "records": {
+        "NS": ["ns1.example.com", "ns2.example.com"]
+    }
+}
