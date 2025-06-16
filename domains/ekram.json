@@ -4,6 +4,6 @@
     "email": "ekramullah70@gmail.com"
   },
   "records": {
-    "CNAME": "ekramdev.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
