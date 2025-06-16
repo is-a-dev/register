@@ -5,15 +5,25 @@
   },
   "proxied": true,
   "records": {
-    "CNAME": "briankimemia.vercel.app",
+    "CNAME": [
+      "briankimemia.vercel.app",
+      {
+        "name": "mail",
+        "value": "business.zoho.com"
+      }
+    ],
     "TXT": [
       "google-site-verification=DSb1tEDwkBKAK9DhQrUAe_zh9rs7UVWfhx5uoHo1D00",
-      "v=spf1 include:zoho.com ~all"
+      "v=spf1 include:zoho.com ~all",
+      {
+        "name": "zoho._domainkey",
+        "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWtuWMuXwGc1klnY1Q2InElO1IADSWOyR+uZCZt7f713bFtU0g+0jjhnksP0JYktIGgOHEmxKSJihTh2l09uOT1/S9I2WH6UHCMCZyyk+7otWlYcNvAUs5bv+w2fAjjB6uyg7m7TNUCpcmM2OHi1AQAiDmzgEFu4cU/ySzEpbd4wIDAQAB"
+      }
     ],
     "MX": [
-      { "target": "mx.zoho.com",  "priority": 10 },
-      { "target": "mx2.zoho.com", "priority": 20 },
-      { "target": "mx3.zoho.com", "priority": 50 }
+      "mx.zoho.com.",
+      "mx2.zoho.com.",
+      "mx3.zoho.com."
     ]
   }
 }
