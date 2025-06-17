@@ -1,7 +1,9 @@
 {
+  "owner": {
     "email": "nawaidwork@gmail.com"
   },
-  "record": {
-    "CNAME": "nawaid-sheikh.vercel.app"
+  "records": {
+    "A": ["216.198.79.193"],
+    "TXT": ["vc-domain-verify=nawaid.is-a.dev,95783dcf7e39505c91e8"]
   }
 }
