@@ -4,11 +4,8 @@
         "email": "mailhiro92@gmail.com"
     },
     "records": {
-        "CNAME": {
-            "kahezra.is-a.dev"
-        },
-        "TXT": {
-            "zoho-verification=zb73798474.zmverify.zoho.com"
-        }
+        "CNAME": ["kahezra.is-a.dev"],
+        "TXT": ["zoho-verification=zb73798474.zmverify.zoho.com"]
+        
     }
 }
