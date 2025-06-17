@@ -1,0 +1,9 @@
+{
+  "subdomain": "hellobroddy", 
+  "owner": {
+    "github": "LifeNeedsFlavour"
+  },
+  "record": {
+    "cname": "hellobroddy.github.io"
+  }
+}
