@@ -1,10 +1,11 @@
 {
-  "subdomain": "osama", 
+  "subdomain": "osamaodx",
   "owner": {
     "email": "osamaayeshdx@gmail.com"
   },
   "record": {
-    "A": ["16.16.165.102"] 
+    "A": ["16.16.165.102"],
+    "TXT": ["dh=abf39d8062c9f1f53b13b7da677e3695f20870b8"]
   },
   "proxied": false
 }
