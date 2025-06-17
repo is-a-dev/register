@@ -1,9 +1,10 @@
 {
+  "subdomain": "osama", 
   "owner": {
-    "username": "AhmedOsamaMath",
-    "email": "ahmedosamamath@gmail.com"
+    "email": "osamaayeshdx@gmail.com"
   },
-  "records": {
-    "A": ["76.76.21.21"]
-  }
+  "record": {
+    "A": ["16.16.165.102"] 
+  },
+  "proxied": false
 }
