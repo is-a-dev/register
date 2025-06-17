@@ -6,6 +6,6 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "CNAME": "mlsend2._domainkey.mailersend.net"
+    "TXT":"851ec3b1c46c1e2364602e2579599c8d"
   }
 }
