@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "tobiasreuss.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=tobias.is-a.dev,21171b13f4596f6ef9ee"
   }
 }
