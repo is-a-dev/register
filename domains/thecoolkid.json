@@ -1,0 +1,13 @@
+{
+  "description": "Hi I would like to have a NS in my subdomain for my home server and link it to cloudflare to self host it and to do some coding with my home server. What am I doing? I am trying to host my website + im trying to do something in Cloudflared in Docker.",
+  "owner": {
+    "username": "noah-dev-codes",
+    "email": "ak.no@outlook.com"
+  },
+  "records": {
+    "NS": [
+      "lola.ns.cloudflare.com",
+      "nico.ns.cloudflare.com"
+    ]
+  }
+}
