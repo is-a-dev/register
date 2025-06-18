@@ -6,8 +6,7 @@
     "records": {
         "CNAME": "kahezra.github.io",
         "TXT": ["zoho-verification=zb73798474.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all",
-                {"name": "dkimforkahezraisadev._domainkey", 
-                "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDgRi1+P5Wr2Tizw9+pXJ2rHcvLb16aEK/+QXZhyoFzVebh/ZxMoNZnqGw0vPIsRzVif0XB6xmKB9axt1+E6NV9yjtMOcKW4Xmxoh/JeHDaXpXSdBZkMUadLvaKuBAYA/pk0shqleD9YMDbaTUiQtCgrQZB3uZJcRtXIoZt2S5P+wIDAQAB"}],
+              "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDgRi1+P5Wr2Tizw9+pXJ2rHcvLb16aEK/+QXZhyoFzVebh/ZxMoNZnqGw0vPIsRzVif0XB6xmKB9axt1+E6NV9yjtMOcKW4Xmxoh/JeHDaXpXSdBZkMUadLvaKuBAYA/pk0shqleD9YMDbaTUiQtCgrQZB3uZJcRtXIoZt2S5P+wIDAQAB"],
         "MX": [
             { "target": "mx.zoho.com", "priority": 10 },
             { "target": "mx2.zoho.com", "priority": 20 },
