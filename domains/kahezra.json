@@ -4,6 +4,8 @@
         "email": "mailhiro92@gmail.com"
     },
     "records": {
-        "CNAME": "kahezra.github.io"
-    }
+        "CNAME": "kahezra.github.io",
+        "TXT": "zoho-verification=zb73798474.zmverify.zoho.com"
+    },
+    "proxied": true
 }
