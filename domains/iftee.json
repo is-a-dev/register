@@ -4,8 +4,6 @@
         "email": "iftekharulislam360@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.193"],
-        "TXT": "vc-domain-verify=iftee.is-a.dev,9c1631c5b8872fd53360",
-        "URL": "https://founder.shalish.xyz"
+        "A": ["216.198.79.193"]
     }
 }
