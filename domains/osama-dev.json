@@ -1,0 +1,10 @@
+{
+  "subdomain": "osama-dev", 
+  "owner": {
+    "email": "osamaayeshdx@gmail.com"
+  },
+  "record": {
+    "A": ["16.16.165.102"]
+  },
+  "proxied": false
+}
