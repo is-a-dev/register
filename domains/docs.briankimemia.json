@@ -1,0 +1,13 @@
+{
+    "owner": {
+      "username": "BrianKN019",
+      "email": "briannkimemia@gmail.com"
+    },
+    "proxied": true,
+    "records": {
+      "CNAME": "cname.vercel-dns.com.",
+      "TXT": [
+        "vc-domain-verify=docs.briankimemia.is-a.dev,eff796c9d6a61496bd43"
+      ]
+    }
+  }
