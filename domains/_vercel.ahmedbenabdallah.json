@@ -4,6 +4,6 @@
         "email": "celiandorra@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.193"]
+      "TXT": "vc-domain-verify=ahmedbenabdallah.is-a.dev,7044bad17c15e595461a"
     }
 }
