@@ -1,0 +1,10 @@
+{
+  "subdomain": "sreerag", 
+  "owner": {
+    "github": "sreeraganil"
+  },
+  "record": {
+    "CNAME": "sreerag.deno.dev"
+  },
+  "proxied": false
+}
