@@ -1,11 +1,9 @@
 {
-  "description": "My personal site",
-  "repo": "https://github.com/rfoldbirk/rfoldbirk.github.io",
   "owner": {
     "username": "rfoldbirk",
     "twitter": "RasmusFoldberg"
   },
-  "record": {
+  "records": {
     "CNAME": "rfoldbirk.github.io"
   }
 }

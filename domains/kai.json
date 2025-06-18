@@ -1,11 +1,9 @@
 {
-  "description": "KAI is a Dev",
-  "repo": "https://github.com/blackaimc/blackaimc.github.io",
   "owner": {
-    "username": "blackaimc",
-    "email": "blackaimc@gmail.com"
+    "username": "sudo-kai",
+    "email": "callmekaix@duck.com"
   },
-  "record": {
-    "CNAME": "blackaimc.github.io"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

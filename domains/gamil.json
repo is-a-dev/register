@@ -1,11 +1,9 @@
 {
-  "description": "Gamil's Portfolio",
-  "repo": "https://github.com/gamilmohamed/gamilmohamed.github.io",
   "owner": {
     "username": "gamilmohamed",
     "email": "mohamed.gamil@outlook.fr"
   },
-  "record": {
+  "records": {
     "CNAME": "gamilmohamed.github.io"
   }
 }

@@ -1,12 +1,10 @@
 {
-  "description": "A portfolio website for HeroGamers (Marcus).",
-  "repo": "https://github.com/HeroGamers/Portfolio",
   "owner": {
     "username": "HeroGamers",
     "email": "webmaster@herogamers.dev",
     "twitter": "ItsHeroGamers"
   },
-  "record": {
+  "records": {
     "CNAME": "portfolio-4cw.pages.dev"
   }
 }

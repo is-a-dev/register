@@ -1,11 +1,9 @@
 {
-  "description": "Making a .is-a.dev domain as an alt url for my site.",
-  "repo": "https://github.com/shyam0118/portfolio",
   "owner": {
-    "username": "shyam0118",
-    "email": "shyamalendunayak0118@gmail.com"
+    "username": "Shyamg-1113",
+    "email": "shyamg1113@gmail.com"
   },
-  "record": {
-    "CNAME": "shyam.dev"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

@@ -4,9 +4,9 @@
     "email": "cs42059@gmail.com",
     "discord": "gamingdoodle"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

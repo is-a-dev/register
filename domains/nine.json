@@ -3,9 +3,9 @@
     "username": "NineLEL",
     "email": "notninelel@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["76.76.21.21"],
     "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
-    "TXT": ["zoho-verification=zb50940916.zmverify.zoho.com"]
+    "TXT": "zoho-verification=zb50940916.zmverify.zoho.com"
   }
 }

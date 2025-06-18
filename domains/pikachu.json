@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "vighnesh153",
-        "email": "pikachu@vighnesh153.dev"
-    },
-    "record": {
-        "CNAME": "vighnesh153-app.web.app"
-    }
+  "owner": {
+    "username": "vighnesh153",
+    "email": "pikachu@vighnesh153.dev"
+  },
+  "records": {
+    "CNAME": "vighnesh153-app.web.app"
+  }
 }

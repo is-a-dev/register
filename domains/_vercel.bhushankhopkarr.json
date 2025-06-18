@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "bhushankhopkarr"
+    "username": "bhushankhopkarr",
+    "email": "bhushankhopkar06@gmail.com",
+    "twitter": "bhushankhopkrr"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=bhushankhopkarr.is-a.dev,13f67c25702161e88fce"]
+  "records": {
+    "TXT": "vc-domain-verify=bhushankhopkarr.is-a.dev,13f67c25702161e88fce"
   }
 }

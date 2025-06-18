@@ -3,10 +3,15 @@
     "username": "wdhdev",
     "email": "william@is-a.dev"
   },
-  "record": {
-    "URL": "https://william.is-a.dev"
-  },
-  "redirect_config": {
-    "redirect_paths": true
+  "records": {
+    "NS": ["kyrie.ns.cloudflare.com", "tara.ns.cloudflare.com"],
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "020A83220521658994103EE306D9B7968DEDF82555639059EB05A69E4C6C36E6"
+      }
+    ]
   }
 }

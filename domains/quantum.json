@@ -1,9 +1,12 @@
 {
   "owner": {
-    "username": "RabbitFored",
-    "email": "quantum@theostrich.eu.org"
+    "username": "lakshinhemachandran",
+    "email": "lh140313@outlook.com"
   },
-  "record": {
-    "CNAME": "quantum.theostrich.eu.org"
-  }
+  "records": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "CNAME": "lakshinhemachandran.github.io"
+  },
+  "proxied": true
 }
