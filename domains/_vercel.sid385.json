@@ -4,6 +4,6 @@
         "email": "ssiddhant.ssharma@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "TXT": "vc-domain-verify=sid385.is-a.dev,bc6b38c84302290bbea3"
     }
 }
