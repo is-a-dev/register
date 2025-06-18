@@ -4,7 +4,6 @@
     "email": "nawaidwork@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.193"],
-    "TXT": ["vc-domain-verify=nawaid.is-a.dev,95783dcf7e39505c91e8"]
+    "A": ["216.198.79.193"]
   }
 }
