@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "sreeraganil"
+    "username": "sreeraganil",
+    "email": "sreeraganil2003@gmail.com"
   },
   "records": {
-    "CNAME": "sreerag.deno.dev"
+    "URL": "https://sreerag.deno.dev"
   }
 }
