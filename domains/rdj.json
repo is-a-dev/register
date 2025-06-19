@@ -3,7 +3,7 @@
     "email": "bubba.ai.tech@gmail.com"
   },
   "record": {
-    "CNAME": "your-vercel-project.vercel.app",
+    "CNAME": "dev-rdj.vercel.app",
     "TXT": {
       "_vercel": "vc-domain-verify=rdj.is-a.dev=..."
     }
