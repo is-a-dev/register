@@ -6,9 +6,5 @@
   },
   "records": {
     "CNAME": "catto24.github.io"
-  },
-  "services": {
-    "discord": "dh=cb090910b5977bb43674000fab99c3a76492ac78",
-    "bluesky": "did=did:plc:whzff4s3db6taso3s43ylrou"
   }
 }

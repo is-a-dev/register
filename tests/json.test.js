@@ -11,8 +11,7 @@ const requiredFields = {
 
 const optionalFields = {
     proxied: "boolean",
-    redirect_config: "object",
-    services: "object"
+    redirect_config: "object"
 };
 
 const requiredOwnerFields = {
@@ -28,7 +27,7 @@ const optionalRedirectConfigFields = {
     redirect_paths: "boolean"
 };
 
-const blockedFields = ["domain", "internal", "reserved", "subdomain"];
+const blockedFields = ["domain", "internal", "proxy", "reserved", "services", "subdomain"];
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
@@ -148,26 +147,6 @@ async function processFile(file, t) {
 
     if (data.redirect_config) {
         validateFields(t, data.redirect_config, optionalRedirectConfigFields, file, "redirect_config");
-    }
-
-    if (data.services) {
-        if (data.services.discord) {
-            t.true(
-                Array.isArray(data.services.discord) || typeof data.services.discord === "string",
-                `${file}: services.discord should be an array or string`
-            );
-        }
-
-        if (data.services.vercel) {
-            t.true(
-                Array.isArray(data.services.vercel) || typeof data.services.vercel === "string",
-                `${file}: services.vercel should be an array or string`
-            );
-        }
-
-        if (data.services.bluesky) {
-            t.true(typeof data.services.bluesky === "string", `${file}: services.bluesky should be a string`);
-        }
     }
 
     for (const field of blockedFields) {
