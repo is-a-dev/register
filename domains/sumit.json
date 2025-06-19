@@ -1,8 +1,8 @@
 {
   "owner": {
-    "github": "sumitsukhralia"
+    "username": "sumitsukhralia"
   },
-  "record": {
-    "cname": "sumitsukhralia.github.io"
+  "records": {
+    "CNAME": "sumitsukhralia.github.io"
   }
 }
