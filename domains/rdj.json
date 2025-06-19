@@ -1,10 +1,12 @@
 {
   "owner": {
-    "username": "dev-rdj",
     "email": "bubba.ai.tech@gmail.com"
   },
-  "records": {
-    "CNAME": "dev-rdj.vercel.app"
+  "record": {
+    "CNAME": "your-vercel-project.vercel.app",
+    "TXT": {
+      "_vercel": "vc-domain-verify=rdj.is-a.dev=..."
+    }
   },
   "proxied": true
 }
