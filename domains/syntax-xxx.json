@@ -4,6 +4,6 @@
     "email": "elias.wiesinger@proton.me"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "NS": ["meiling.ns.cloudflare.com", "rustam.ns.cloudflare.com"]
   }
 }
