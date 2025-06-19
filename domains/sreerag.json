@@ -1,10 +1,8 @@
 {
-  "subdomain": "sreerag", 
   "owner": {
-    "github": "sreeraganil"
+    "username": "sreeraganil"
   },
-  "record": {
+  "records": {
     "CNAME": "sreerag.deno.dev"
-  },
-  "proxied": false
+  }
 }
