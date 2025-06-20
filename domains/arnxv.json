@@ -1,7 +1,8 @@
 {
   "owner": {
     "username": "arnxv-coder",
-    "email": "arnav@sagaraga.com"
+    "email": "arnav@sagaraga.com",
+    "discord": "arnxv.dev"
   },
   "records": {
     "CNAME": "cname.vercel-dns.com",
@@ -12,8 +13,7 @@
     ],
     "TXT": [
       "zoho-verification=zb79566575.zmverify.zoho.in",
-      "v=spf1 include:zohomail.in ~all",
-      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCLf9uoOTBKhPdeCM3dVOPJjF6XOJM8Ajw1wWHPcfNzp46OBKabS2OU7GKQ0otQu3NJ4P9XVJYtpEI4lC5KuD095xJb9IRVQxCO+a3+xXkmDChJPI1hBNV36WmiIWO9xyE+jWQd4lpBoIhJHnmqQl4hwRzoqurhiu1TTUcIuMArRwIDAQAB"
+      "v=spf1 include:zohomail.in ~all"
     ]
   },
   "proxied": true
