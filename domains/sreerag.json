@@ -1,9 +1,14 @@
 {
+  "subdomain": "sreerag",
   "owner": {
-    "username": "sreeraganil",
+    "github": "sreeraganil",
     "email": "sreeraganil2003@gmail.com"
   },
   "records": {
-    "URL": "https://sreerag.deno.dev"
-  }
+    "CNAME": "sreerag.deno.dev",
+    "TXT": {
+      "_acme-challenge": "8b038e69da7b0f969ffcf04c._acme.deno.dev"
+    }
+  },
+  "proxied": false
 }
