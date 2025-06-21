@@ -4,6 +4,7 @@
         "email": "manjultamrakar4@gmail.com"
     },
     "records": {
-        "CNAME": "personal-website-bj2.pages.dev/"
-    }
+        "CNAME": "personal-website-bj2.pages.dev"
+    },
+    "proxied": true
 }
