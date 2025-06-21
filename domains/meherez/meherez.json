@@ -3,6 +3,7 @@
     "email": "mehrez84@gmail.com"
   },
   "records": {
-    "cname": "n8n.meherez.is-a.dev"
+    "A": ["201.210.206.194"]
   }
 }
+
