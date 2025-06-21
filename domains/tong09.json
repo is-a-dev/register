@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "tong09",
-    "email": "mdrochana93@gmail.com"
-  },
-  "record": {
-     "TXT": ["zoho-verification=zb31327440.zmverify.zoho.com"]
-  }
+    "owner": {
+        "username": "rochana-sadila",
+        "email": "mdrochana93@gmail.com"
+    },
+    "records": {
+        "TXT": "c2d4487f22f673b3580cc56530d315"
+    }
 }
