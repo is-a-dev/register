@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "email": "funcieq.alt@gmai.com"
-  },
-  "record": {
-    "CNAME": "funcbot.netlify.app"
-  }
+    "owner": {
+        "username": "github-username",
+        "email": "me@example.com"
+    },
+    "records": {
+        "A": ["75.2.60.5"]
+    }
 }
