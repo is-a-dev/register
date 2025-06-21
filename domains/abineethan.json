@@ -5,6 +5,15 @@
     "email": "abineethan22@gmail.com"
   },
   "records": {
-    "CNAME": "abineethan-me.web.app"
+    "MX": [
+      "mx.zoho.com",
+      "mx2.zoho.com",
+      "mx3.zoho.com"
+    ],
+    "TXT": [
+      "zoho-verification=zb46738610.zmverify.zoho.com",
+      "hosting-site=abineethan-me",
+      "v=spf1 include:zoho.com ~all"
+    ]
   }
 }
