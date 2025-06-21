@@ -1,0 +1,10 @@
+{
+  "description": "Portfolio",
+  "owner": {
+    "username": "aaqifshafi",
+    "email": "aaqifshafi@gmail.com"
+  },
+  "records": {
+    "CNAME": "react-portfolio-ashen-tau.vercel.app"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "sreeraganil",
+    "email": "sreeraganil2003@gmail.com"
+  },
+  "records": {
+    "CNAME": "sreerag.deno.dev",
+    "TXT": ["8b038e69da7b0f969ffcf04c._acme.deno.dev"]
+  },
+  "proxied": true
+}

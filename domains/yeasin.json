@@ -1,0 +1,11 @@
+{
+  "description": "yeasin.is-a.dev",
+  "owner": {
+    "username": "yeasiin",
+    "email": "iamyeasiin@gmail.com"
+  },
+  "records": {
+    "CNAME": "yeasiin.github.io"
+  },
+  "proxied": true
+}
