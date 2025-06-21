@@ -1,0 +1,13 @@
+{
+  "description": "Hey There! Requesting A Subdomain! Again! Hello, I'm requesting a subdomain because I can host my NTFY (I will state that in my reasns of list.) And maybe Cloudron. 1, Protection  Cloudflare has DDOS protection, TLS, and WAF protection it will be very safe. 2. My hosting! I can host various things using Cloudflare Tunnels currently I'm using my RPI5 to host NTFY and maybe Cloudron it's only local for my homeserver. But 3. DNS  There Is Many Options For DNS changes Including HTTPS that I can use for Server! 4. SSL  I can choose a various options in Cloudflare SSL  Kindly It Would Be Great If You Please Accept My Pull-Request. Thank You - Noah",
+  "owner": {
+    "username": "noah-dev-codes",
+    "email": "ak.no@outlook.com"
+  },
+  "records": {
+    "NS": [
+      "lola.ns.cloudflare.com",
+      "nico.ns.cloudflare.com"
+    ]
+  }
+}
