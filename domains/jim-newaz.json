@@ -5,5 +5,7 @@
     },
     "records": {
         "CNAME": "jim-newaz.vercel.app"
+        "A" : ["216.198.79.193"],
+        "TXT" : "vc-domain-verify=jim-newaz.is-a.dev,fb5cdbe7c71f3c62cb42"
     }
 }
