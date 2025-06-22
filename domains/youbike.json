@@ -4,6 +4,6 @@
         "email": "potatosserver@gmail.com"
     },
     "records": {
-        "CNAME": "potatosserver.github.io"
+        "TXT": "9bd2e02da4e87183c4f979b0d0ce7e"
     }
 }
