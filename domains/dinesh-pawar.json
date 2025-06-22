@@ -1,11 +1,9 @@
 {
-  "subdomain": "dinesh-pawar",
   "owner": {
-    "repo": "https://github.com/DineshPawar7/DineshPawar-Portfolio07",
+    "username": "DineshPawar7",
     "email": "dsp70458@gmail.com"
   },
-  "record": {
-    "type": "CNAME",
-    "value": "https://dinesh-pawar.netlify.app"
+  "records": {
+    "CNAME": "dinesh-pawar.netlify.app"
   }
 }
