@@ -1,0 +1,10 @@
+{
+  "description": "Redirect for my personal website.",
+  "owner": {
+    "username": "alfredjophy",
+    "email": "mail@alfredjophy.com"
+  },
+  "records": {
+    "CNAME": "alfredjophy.com"
+  }
+}

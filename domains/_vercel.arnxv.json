@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "ArnavBarway",
-    "email": "arnav@sagaraga.com"
+    "username": "arnxv-coder",
+    "email": "arnav@sagaraga.com",
+    "discord": "arnxv.dev"
   },
-  "record": {
+  "records": {
     "TXT": [
       "vc-domain-verify=arnxv.is-a.dev,2b36da5314d05cea9737",
       "vc-domain-verify=works.arnxv.is-a.dev,f8b0553cc89bfe7097fa",

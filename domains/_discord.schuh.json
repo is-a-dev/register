@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "vqpe",
-        "email": "theschuhofyou@gmail.com"
-    },
-    "record": {
-        "TXT": "dh=7e4702912048b4ff69b652081db69782cd50ccf3"
-    }
+  "owner": {
+    "username": "vqpe",
+    "email": "theschuhofyou@gmail.com"
+  },
+  "records": {
+    "TXT": "dh=7e4702912048b4ff69b652081db69782cd50ccf3"
+  }
 }

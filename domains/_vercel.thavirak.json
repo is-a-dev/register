@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "thavirak",
-        "email": "thavirak@gmail.com" 
-    },
-    "record": {
-        "TXT": ["vc-domain-verify=thavirak.is-a.dev,7a6a4ebd89476f7b339a"]
-    }
+  "owner": {
+    "username": "thavirak",
+    "email": "thavirak@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=thavirak.is-a.dev,7a6a4ebd89476f7b339a"
+  }
 }

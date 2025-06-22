@@ -1,11 +1,9 @@
 {
-    "description": "My Portfolio",
-    "repo": "https://github.com/yashokuu/yashokuu.github.io",
-    "owner": {
-        "username": "yashoukuu",
-        "email": "yas.studios.en@gmail.com"
-    },
-    "record": {
-        "CNAME": "yashokuu.github.io"
-    }
+  "owner": {
+    "username": "yashoukuu",
+    "email": "yas.studios.en@gmail.com"
+  },
+  "records": {
+    "CNAME": "yashokuu.github.io"
+  }
 }

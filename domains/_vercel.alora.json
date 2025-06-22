@@ -1,14 +1,17 @@
 {
   "owner": {
     "username": "aloramiaa",
-    "email": "xaloramia@gmail.com",
-    "discord": "1236292707371057216"
+    "email": "xaloramia@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": [
       "vc-domain-verify=drive.alora.is-a.dev,395400702612ae6db6a8",
       "vc-domain-verify=profile.alora.is-a.dev,71bd18cc5db61dc75f91",
-      "vc-domain-verify=blog.alora.is-a.dev,39b11f87634c4710b9ab"
+      "vc-domain-verify=blog.alora.is-a.dev,39b11f87634c4710b9ab",
+      "vc-domain-verify=verify.alora.is-a.dev,df9b78e72bc7a2889bc8",
+      "vc-domain-verify=share.alora.is-a.dev,abbc2694ca2401b3a842",
+      "vc-domain-verify=room.alora.is-a.dev,185a01c120ff2e7883e4",
+      "vc-domain-verify=alora.is-a.dev,f8390941aa6278184bcb"
     ]
   }
 }

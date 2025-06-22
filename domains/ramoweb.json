@@ -1,11 +1,9 @@
 {
-  "description": "My personal Portfolio Ramoweb",
-  "repo": "https://github.com/d0vak1n/ramoweb",
   "owner": {
     "username": "d0vak1n",
     "email": "raul@ramoweb.com"
   },
-  "record": {
-    "CNAME": "ramoweb.onrender.com"
+  "records": {
+    "CNAME": "ramoweb.com"
   }
 }

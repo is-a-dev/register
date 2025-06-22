@@ -1,11 +1,10 @@
 {
-  "description": "Documentation for is-a-dev",
   "repo": "https://github.com/Anubhav-Pathak/Anubhav-Pathak.github.io",
   "owner": {
     "username": "Anubhav-Pathak",
     "email": "anubhavpathak99@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "anubhav-pathak.github.io"
   }
 }

@@ -1,12 +1,10 @@
 {
-  "description": "For a personnal portfolio",
-  "repo": "https://github.com/djaana/djaana.github.io",
   "owner": {
     "username": "djaana",
     "discord": "djaana",
     "instagram": "dja.huh"
   },
-  "record": {
+  "records": {
     "CNAME": "djaana.github.io"
   }
 }

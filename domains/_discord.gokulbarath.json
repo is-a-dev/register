@@ -3,7 +3,7 @@
     "username": "gokul6350",
     "email": "gokul00060@gmail.com"
   },
-  "record": {
-    "TXT": ["dh=55a65497a2c3938fee2de54e3600a5b55524016c"]
+  "records": {
+    "TXT": "dh=55a65497a2c3938fee2de54e3600a5b55524016c"
   }
 }

@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "webcubed"
+    "username": "webcubed",
+    "email": "lainathannlaiv2@gmail.com"
   },
-  "record": {
-    "TXT": ["dh=1612c48236f97b2a8b0fc79833cd7e46cf0c512d"]
+  "records": {
+    "TXT": "dh=1612c48236f97b2a8b0fc79833cd7e46cf0c512d"
   }
 }

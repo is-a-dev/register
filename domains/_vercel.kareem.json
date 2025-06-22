@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kareem-m",
-        "email": "kareemmoh1911@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=kareem.is-a.dev,227f1873f5be3f29395e"
-    }
+  "owner": {
+    "username": "kareem-m",
+    "email": "kareemmoh1911@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=kareem.is-a.dev,227f1873f5be3f29395e"
+  }
 }

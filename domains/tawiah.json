@@ -1,11 +1,9 @@
 {
-    "description": "Describe the use of this subdomain",
-    "repo": "https://github.com/tawiahnyt/tawiah",
-    "owner": {
-        "username": "tawiahnyt",
-        "email": "tawiahin4k@gmail.com"
-    },
-    "record": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "tawiahnyt",
+    "email": "tawiahin4k@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

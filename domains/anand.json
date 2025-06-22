@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "anandd17",
-        "email": "avdoddamani123@gmail.com"
-    },
-    "record": {
-        "CNAME": "anandd17.vercel.app"
-    }
+  "owner": {
+    "username": "anandd17",
+    "email": "avdoddamani123@gmail.com"
+  },
+  "records": {
+    "CNAME": "anandd17.vercel.app"
+  }
 }

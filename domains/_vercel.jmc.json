@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "josem430",
-        "email": "jmc300499@gmail.com",
-        "discord": "josem430"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=jmc.is-a.dev,27b92885b5a4c6e96615"
-    }
+  "owner": {
+    "username": "josem430",
+    "email": "jmc300499@gmail.com",
+    "discord": "josem430"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=jmc.is-a.dev,27b92885b5a4c6e96615"
+  }
 }

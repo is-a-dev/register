@@ -1,11 +1,9 @@
 {
-  "description": "Rahul Bussa's Portfolio",
-  "repo": "https://github.com/bussarahul/rahulcodes",
   "owner": {
     "username": "rahulcodes",
     "email": "rahulbussa@outlook.com"
   },
-  "record": {
+  "records": {
     "CNAME": "bussarahul.github.io"
   }
 }

@@ -1,13 +1,11 @@
 {
-  "description": "Personal Portfolio Website",
-  "repo": "https://github.com/vinugawade/vinux.in",
   "owner": {
     "username": "vinugawade",
     "email": "vinulike11@gmail.com",
     "linkedin": "https://www.linkedin.com/in/vinu-gawade",
     "discord": "830872854677422150"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=vinay.is-a.dev,fbe9cb0c6fd1fdf4c943"]
+  "records": {
+    "TXT": "vc-domain-verify=vinay.is-a.dev,fbe9cb0c6fd1fdf4c943"
   }
 }

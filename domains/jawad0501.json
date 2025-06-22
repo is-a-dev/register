@@ -1,11 +1,9 @@
 {
-    "description": "jawad's personal portfolio website",
-    "repo": "https://github.com/Jawad0501/terminal-portfolio.git",
-    "owner": {
-        "username": "Jawad0501",
-        "email": "anmjawad007@gmail.com"
-    },
-    "record": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "Jawad0501",
+    "email": "anmjawad007@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

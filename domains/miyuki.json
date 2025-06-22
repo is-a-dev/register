@@ -1,0 +1,21 @@
+{
+  "description": "Miyuki Yue's is-a.dev domain",
+  "owner": {
+    "username": "YueMiyuki",
+    "email": "me@miyuki-yue.dev"
+  },
+  "records": {
+    "URL": "https://miyuki-yue.dev",
+    "TXT": ["d72fbdc8-2bf2-468b-96b7-818bd8dcffb9", "v=spf1 include:spf.spacemail.com ~all"],
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 0,
+        "port": 443,
+        "target": "autoconfig.spacemail.com"
+      }
+    ],
+    "MX": ["mx1.spacemail.com", "mx2.spacemail.com"]
+  },
+  "proxied": false
+}
