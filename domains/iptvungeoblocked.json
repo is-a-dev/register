@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/matte-oss/iptv-ungeoblocked",
+  "owner": {
+    "username": "matte-oss"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ]
+  }
+}
