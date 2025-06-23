@@ -4,7 +4,9 @@
     "email": "dhlcgdofficial@gmail.com"
   },
   "records": {
-    "NS": "ns1.infinityfree.com"
-    "NS": "ns2.infinityfree.com"
+    "NS": [
+      "ns1.infinityfree.com",
+      "ns2.infinityfree.com"
+    ]
   }
 }
