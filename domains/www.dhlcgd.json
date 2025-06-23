@@ -4,6 +4,7 @@
     "email": "dhlcgdofficial@gmail.com"
   },
   "records": {
-    "CNAME": "ghs.google.com"
+    "NS": "ns1.infinityfree.com"
+    "NS": "ns2.infinityfree.com"
   }
 }
