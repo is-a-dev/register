@@ -1,0 +1,10 @@
+{
+  "description": "My Main Portfolio Page",
+  "owner": {
+    "username": "violetlaire",
+    "email": "violetlaire@proton.me"
+  },
+  "records": {
+    "CNAME": "violetmainpage.vercel.app"
+  }
+}

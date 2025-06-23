@@ -4,8 +4,7 @@
     "username": "SubhrajitSain",
     "email": "subhrajitsain34@gmail.com"
   },
-  "record": {
-    "URL": "https://subhrajitsain.pythonanywhere.com"
-  },
-  "proxied": false
+  "records": {
+    "CNAME": "anw-site.vercel.app"
+  }
 }

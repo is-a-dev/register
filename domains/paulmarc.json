@@ -1,11 +1,10 @@
 {
   "description": "Personal Dev website for paulmarc.is-a.dev",
-  "repo": "https://github.com/paulmarc",
   "owner": {
     "username": "paulmarc",
     "email": "develop@paulmarc.org"
   },
-  "record": {
+  "records": {
     "URL": "https://github.com/paulmarc"
   },
   "proxied": false

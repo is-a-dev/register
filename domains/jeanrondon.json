@@ -1,12 +1,10 @@
 {
-  "description": "Jean's portfolio website and blog - JavaScript Developer, working as Frontend Dev, developer with over 3 years of JavaScript experience and a constant interest in learning new technologies. I have a solid experience in web, mobile, and desktop Frontend development.",
-  "repo": "https://github.com/jeandv/my-next-portfolio",
   "owner": {
     "username": "jeandv",
     "email": "jeanrdev@gmail.com",
     "twitter": "r4yb4"
   },
-  "record": {
+  "records": {
     "CNAME": "jeandv.github.io"
   }
 }

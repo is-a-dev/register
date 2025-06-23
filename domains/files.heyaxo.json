@@ -1,15 +1,11 @@
 {
-  "repo": "https://github.com/verygafanhot",
   "owner": {
     "username": "Verygafanhot",
     "email": "verygafanhot@gmail.com",
     "twitter": "verygafanhot",
     "discord": "Verygafanhot"
   },
-  "record": {
-    "A": [
-      "176.79.88.86"
-    ]
-  },
-  "proxied": true
+  "records": {
+    "CNAME": "axothelion.crabdance.com"
+  }
 }

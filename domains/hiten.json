@@ -1,11 +1,9 @@
 {
-  "description": "Hiten's portfolio website",
-  "repo": "https://github.com/htadg/htadg.github.io",
   "owner": {
     "username": "htadg",
     "email": "sharma.hiten3@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "htadg.github.io"
   }
 }

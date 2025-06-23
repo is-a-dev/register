@@ -1,12 +1,11 @@
 {
   "description": "I'm using this subdomain to make my portfolio website",
-  "repo": "https://github.com/mohammad87115/mohammad87115.github.io",
   "owner": {
     "username": "mohammad87115",
     "email": "mohammad87115@gmail.com",
     "twitter": "mohammad87115"
   },
-  "record": {
+  "records": {
     "CNAME": "mohammad87115.github.io"
   }
 }

@@ -1,10 +1,8 @@
 {
-  "description": "Divya profile.",
-  "repo": "https://github.com/prajapati-divya/prajapati-divya.github.io",
   "owner": {
     "username": "prajapati-divya"
   },
-  "record": {
+  "records": {
     "CNAME": "prajapati-divya.github.io"
   }
 }
