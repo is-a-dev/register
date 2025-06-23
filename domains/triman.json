@@ -9,7 +9,6 @@
         "MX" : ["feedback-smtp.ap-northeast-1.amazonses.com"],
         "TXT" : [
           "v=spf1 include:amazonses.com ~all", 
-          "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDOOsv2sh/aqvzMJrdIKb+kCuNfFJAllcn8lZgNslSG7eTYH8+AHur8ZWY5Xcbfm8kNGdPSHTg6CGAJ0zqNK93KuAL+mo6/obYftOGihtiXI1hU0Jj3Q4DdgaHjTiP5xiCtXn6BYBU0H7PhjVDL+Iy2DDiZK5hdVDpWafzrdbVQQIDAQAB",
         ]
     }
 }
