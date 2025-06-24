@@ -3,7 +3,8 @@
     "username": "thangledev",
     "email": "lethang070504@gmail.com"
   },
-  "record": {
+  "records": {
+    "A": ["216.198.79.193"],
     "TXT": {
       "_vercel": "vc-domain-verify=thangle.is-a.dev,bd6f80914ee2949ce900"
     }
