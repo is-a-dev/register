@@ -1,8 +1,11 @@
 {
   "owner": {
-    "email": "mehrez84@gmail.com"
+    "email": "mehrez84@gmail.com" 
   },
   "records": {
-    "CNAME": ["ghs.cloudflare.com"]
+    "NS": [
+      "darwin.ns.cloudflare.com", // <-- Aquí iría tu primer Nameserver de Cloudflare
+      "tegan.ns.cloudflare.com" // <-- Aquí iría tu segundo Nameserver de Cloudflare
+    ]
   }
 }
