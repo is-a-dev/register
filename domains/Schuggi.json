@@ -1,10 +1,10 @@
 {
   "owner": {
     "username": "Schuggi2309",
-    "email": "leonschugpc5531+IsADevDomain@gmail.com"
+    "email": "salamiuser007@gmail.com"
   },
   "records": {
-    "TXT": "google-site-verification=Zm4VEB-TUgtgfklU8XaS2n41tnA_Sh9E1UF1WpxOaSg"
+     "NS": [ns1.hostry.com, ns2.hostry.com, ns3.hostry.com, ns4.hostry.com]
   },
-  "proxied": true
+  "proxied": false
 }
