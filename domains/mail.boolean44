@@ -1,0 +1,11 @@
+{
+  "description": "Mail domain",
+  "owner": {
+    "username": "PinkLittleKitty",
+    "email": "canscans1221@gmail.com"
+  },
+  "records": {
+    "TXT": txt: "v=spf1 include:spf.improvmx.com ~all",
+    "mx": "mx1.improvmx.com.", "mx2.improvmx.com."
+  }
+}
