@@ -7,5 +7,5 @@
   "records": {
     "CNAME": "url-shortener-76jc.onrender.com"
   },
-  "proxied": true
+  "proxied": false
 }
