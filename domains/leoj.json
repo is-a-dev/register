@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "is-a-dev",
+    "email": "[email protected]"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=leoj.is-a.dev,0324460f4aa22a24ce05"
+  },
+  "proxied": true
+}
