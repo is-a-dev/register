@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "email": "ykabusalah@gmail.com"
+  },
+  "record": {
+    "type": "CNAME",
+    "value": "workers.dev"
+  },
+  "type": "worker"
+}
