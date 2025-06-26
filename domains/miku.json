@@ -5,8 +5,8 @@
     "discord": "781445370177126401",
     "bluesky": "based.nya.pub"
   },
-  "description": "a domain for my personal site",
+  "description": "a redirect to my homelab",
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "URL": "https://vinster.xyz/"
   }
 }
