@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عبدالسلام عارف التوي | مطور ويب وتطبيقات</title>
+    
+    <!-- Meta Tags for SEO -->
+    <meta name="author" content="عبدالسلام عارف التوي">
+    <meta name="description" content="بورتفوليو عبدالسلام عارف التوي، مطور ويب Full-Stack ومصمم تطبيقات موبايل خبير. متخصص في Laravel, Flutter, Python, و REST APIs.">
+    <meta name="keywords" content="Abdulsalam Al-Tuway, Full-Stack Developer, Mobile App Engineer, Laravel, Flutter, Python, REST APIs, Web Developer, Portfolio, مطور ويب, مصمم تطبيقات, بورتفوليو">
+
+    <!-- Favicon (replace with your own) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Animate on Scroll Library (AOS) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        /* =================================
+           CUSTOM STYLES & THEME VARIABLES
+           ================================= */
+        :root {
+            --bg-light: #f1f5f9;
+            --text-light: #0f172a;
+            --card-light: rgba(255, 255, 255, 0.6);
+            --border-light: #e2e8f0;
+            --accent-light: #0ea5e9; /* Sky 500 */
+
+            --bg-dark: #0f172a;
+            --text-dark: #e2e8f0;
+            --card-dark: rgba(30, 41, 59, 0.5); /* Slate 800 with alpha */
+            --border-dark: #334155;
+            --accent-dark: #22d3ee; /* Cyan 400 */
+
+            --font-ar: 'Cairo', sans-serif;
+            --font-en: 'Poppins', sans-serif;
+        }
+
+        html.dark {
+            --bg-color: var(--bg-dark);
+            --text-color: var(--text-dark);
+            --card-color: var(--card-dark);
+            --border-color: var(--border-dark);
+            --accent-color: var(--accent-dark);
+        }
+
+        html:not(.dark) {
+            --bg-color: var(--bg-light);
+            --text-color: var(--text-light);
+            --card-color: var(--card-light);
+            --border-color: var(--border-light);
+            --accent-color: var(--accent-light);
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            transition: background-color 0.5s ease, color 0.5s ease;
+            font-family: var(--font-ar);
+            scroll-behavior: smooth;
+        }
+
+        html[lang="en"] body {
+            font-family: var(--font-en);
+        }
+
+        /* Glassmorphism Card Style */
+        .glass-card {
+            background: var(--card-color);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            border-color: var(--accent-color);
+        }
+
+        /* Accent Color */
+        .text-accent {
+            color: var(--accent-color);
+        }
+        .bg-accent {
+            background-color: var(--accent-color);
+        }
+        .border-accent {
+            border-color: var(--accent-color);
+        }
+        .ring-accent:focus {
+            --tw-ring-color: var(--accent-color);
+        }
+
+        /* Custom Cursor */
+        .custom-cursor {
+            width: 30px;
+            height: 30px;
+            border: 2px solid var(--accent-color);
+            border-radius: 50%;
+            position: fixed;
+            pointer-events: none;
+            z-index: 9999;
+            transform: translate(-50%, -50%);
+            transition: width 0.2s, height 0.2s, background-color 0.2s;
+        }
+
+        .custom-cursor.hovered {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(var(--accent-color-rgb), 0.2);
+        }
+
+        /* Background Gradient Animation */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: radial-gradient(circle at 20% 20%, var(--accent-color) 0%, transparent 20%),
+                        radial-gradient(circle at 80% 70%, #8b5cf6 0%, transparent 20%);
+            opacity: 0.15;
+            filter: blur(100px);
+            animation: moveGradient 20s infinite alternate;
+        }
+        
+        @keyframes moveGradient {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(100px, 100px); }
+        }
+
+        /* Typing cursor for Typed.js */
+        .typed-cursor {
+            color: var(--accent-color);
+            font-size: 2.5rem;
+        }
+        
+        /* Navbar transparency */
+        nav.scrolled {
+            background: var(--card-color);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+        }
+    </style>
+</head>
+<body class="dark">
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor hidden md:block"></div>
+
+    <!-- Floating Action Buttons: Language & Theme Switcher -->
+    <div class="fixed bottom-5 end-5 z-50 flex flex-col gap-3">
+        <button id="theme-switcher" class="w-12 h-12 rounded-full glass-card flex items-center justify-center text-xl hover:text-accent focus:outline-none focus:ring-2 ring-accent">
+            <i class="fa-solid fa-sun hidden" id="sun-icon"></i>
+            <i class="fa-solid fa-moon" id="moon-icon"></i>
+        </button>
+        <button id="lang-switcher" class="w-12 h-12 rounded-full glass-card flex items-center justify-center text-lg font-bold hover:text-accent focus:outline-none focus:ring-2 ring-accent">
+            EN
+        </button>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 w-full z-40 transition-all duration-300">
+        <nav id="navbar" class="container mx-auto px-6 py-4 flex justify-between items-center rounded-b-2xl">
+            <a href="#home" class="text-2xl font-bold tracking-wider" data-translate="name_logo">عبدالسلام التوي</a>
+            <div class="hidden md:flex space-x-8 rtl:space-x-reverse items-center">
+                <a href="#about" class="hover:text-accent transition-colors" data-translate="nav_about">عني</a>
+                <a href="#projects" class="hover:text-accent transition-colors" data-translate="nav_projects">المشاريع</a>
+                <a href="#services" class="hover:text-accent transition-colors" data-translate="nav_services">الخدمات</a>
+                <a href="#contact" class="hover:text-accent transition-colors" data-translate="nav_contact">تواصل</a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-2xl">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-opacity-90 backdrop-blur-xl">
+            <div class="flex flex-col items-center space-y-6 py-8">
+                 <a href="#about" class="hover:text-accent transition-colors" data-translate="nav_about">عني</a>
+                <a href="#projects" class="hover:text-accent transition-colors" data-translate="nav_projects">المشاريع</a>
+                <a href="#services" class="hover:text-accent transition-colors" data-translate="nav_services">الخدمات</a>
+                <a href="#contact" class="hover:text-accent transition-colors" data-translate="nav_contact">تواصل</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6">
+        
+        <!-- Section: Home -->
+        <section id="home" class="min-h-screen flex items-center justify-center text-center">
+            <div class="relative z-10">
+                <!-- IMPORTANT: Replace with your profile picture URL -->
+                <img src="https://i.pravatar.cc/150?u=abdulsalam" alt="صورة عبدالسلام التوي" class="w-36 h-36 rounded-full mx-auto mb-6 border-4 border-accent shadow-lg">
+                
+                <h1 class="text-4xl md:text-6xl font-bold mb-4" data-translate="name_main">عبدالسلام عارف التوي</h1>
+                <p class="text-xl md:text-2xl mb-2 text-accent">
+                    <span id="typed-text"></span>
+                </p>
+                <p class="max-w-3xl mx-auto mb-8 text-lg text-gray-300 dark:text-gray-400" data-translate="intro_quote">
+                    "أقوم بتحويل الأفكار المعقدة إلى تجارب رقمية أنيقة، فعّالة، وسهلة الاستخدام على الويب والموبايل."
+                </p>
+                <a href="#contact" class="bg-accent text-white font-bold py-3 px-8 rounded-full text-lg hover:opacity-90 transition-opacity" data-translate="cta_button">
+                    لنتعاون معاً
+                </a>
+            </div>
+        </section>
+
+        <!-- Section: About Me -->
+        <section id="about" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up" data-translate="about_title">نبذة عني</h2>
+            <div class="grid md:grid-cols-5 gap-10 items-center">
+                <div class="md:col-span-3" data-aos="fade-right">
+                    <h3 class="text-2xl font-bold mb-4 text-accent" data-translate="about_subtitle">مهندس برمجيات وشغوف بالتصميم</h3>
+                    <p class="mb-4 text-lg" data-translate="about_p1">
+                        كمطور Full-Stack ومصمم تطبيقات، أمتلك خبرة واسعة في بناء حلول رقمية متكاملة من الصفر. أجمع بين الخبرة التقنية في Laravel و Flutter مع فهم عميق لتجربة المستخدم والتصميم الجرافيكي، خاصة في المجال التحريري والإعلامي.
+                    </p>
+                    <p class="text-lg" data-translate="about_p2">
+                        شغفي يكمن في حل المشكلات، سواء كان ذلك عبر بناء أنظمة نشر أخبار معقدة، أو تصميم واجهات برمجة تطبيقات قوية، أو أتمتة المهام باستخدام Python. أسعى دائماً لكتابة كود نظيف، قابل للتطوير، وموثوق.
+                    </p>
+                </div>
+                <div class="md:col-span-2" data-aos="fade-left">
+                    <div class="glass-card p-6 rounded-2xl">
+                        <h4 class="text-xl font-bold mb-4" data-translate="about_stack_title">مكدس التقنيات</h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3"><i class="fa-brands fa-laravel text-accent text-xl"></i> Laravel & PHP</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-mobile-screen-button text-accent text-xl"></i> Flutter (Android & iOS)</li>
+                            <li class="flex items-center gap-3"><i class="fa-brands fa-python text-accent text-xl"></i> Python (Web Scraping, Automation)</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-code text-accent text-xl"></i> RESTful APIs</li>
+                            <li class="flex items-center gap-3"><i class="fa-brands fa-js text-accent text-xl"></i> JavaScript & Tailwind CSS</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-newspaper text-accent text-xl"></i> Editorial & Layout Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Projects -->
+        <section id="projects" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up" data-translate="projects_title">أبرز المشاريع</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="glass-card rounded-2xl overflow-hidden" data-aos="fade-up">
+                    <!-- IMPORTANT: Replace with your project image URL -->
+                    <img src="https://images.unsplash.com/photo-1542744095-291d1f67b221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNTc5fDB8MXxzZWFyY2h8Mnx8Y21zfGVufDB8fHx8MTY3ODg3NTI0Nw&ixlib=rb-4.0.3&q=80&w=400" alt="مشروع نظام إدارة الأخبار" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2" data-translate="p1_title">نظام إدارة الأخبار (CMS)</h3>
+                        <p class="mb-4 text-gray-300 dark:text-gray-400" data-translate="p1_desc">نظام متكامل مبني بـ Laravel لإدارة المحتوى الإخباري، يشمل صلاحيات المستخدمين، إدارة الوسائط، وأدوات SEO.</p>
+                        <a href="#" class="font-semibold text-accent" data-translate="p_link">شاهد المشروع <i class="fa-solid fa-arrow-right rtl:fa-arrow-left"></i></a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="glass-card rounded-2xl overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1528271537-67E91427c773?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNTc5fDB8MXxzZWFyY2h8Mnx8dG91cmlzbXxlbnwwfHx8fDE2Nzg4NzUzMDE&ixlib=rb-4.0.3&q=80&w=400" alt="موقع مكتب السياحة - عدن" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2" data-translate="p2_title">موقع مكتب السياحة – عدن</h3>
+                        <p class="mb-4 text-gray-300 dark:text-gray-400" data-translate="p2_desc">موقع سياحي متجاوب ومتعدد اللغات يعرض معارض صور، نماذج استفسار، وخرائط تفاعلية.</p>
+                        <a href="#" class="font-semibold text-accent" data-translate="p_link">شاهد المشروع <i class="fa-solid fa-arrow-right rtl:fa-arrow-left"></i></a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="glass-card rounded-2xl overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNTc5fDB8MXxzZWFyY2h8NHx8Y29tbXVuaXR5fGVufDB8fHx8MTY3ODg3NTM1NQ&ixlib=rb-4.0.3&q=80&w=400" alt="موقع شقائق" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2" data-translate="p3_title">موقع شقائق</h3>
+                        <p class="mb-4 text-gray-300 dark:text-gray-400" data-translate="p3_desc">منصة لتمكين المرأة، تضم مقالات وأدوات تفاعل مجتمعي ولوحة تحكم للإدارة.</p>
+                        <a href="#" class="font-semibold text-accent" data-translate="p_link">شاهد المشروع <i class="fa-solid fa-arrow-right rtl:fa-arrow-left"></i></a>
+                    </div>
+                </div>
+                 <!-- Add more projects if needed, like Aswat Madania -->
+            </div>
+        </section>
+
+        <!-- Section: Services -->
+        <section id="services" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up" data-translate="services_title">ماذا أقدم؟</h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="glass-card p-8 rounded-2xl text-center" data-aos="fade-up">
+                    <i class="fa-solid fa-laptop-code text-4xl text-accent mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2" data-translate="s1_title">تطوير تطبيقات الويب</h3>
+                    <p class="text-gray-300 dark:text-gray-400" data-translate="s1_desc">بناء تطبيقات ويب متكاملة وقابلة للتطوير باستخدام Laravel و PHP، مع واجهات عصرية بـ Tailwind CSS.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="glass-card p-8 rounded-2xl text-center" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fa-solid fa-mobile-alt text-4xl text-accent mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2" data-translate="s2_title">تطوير تطبيقات الموبايل</h3>
+                    <p class="text-gray-300 dark:text-gray-400" data-translate="s2_desc">تصميم وبرمجة تطبيقات موبايل (Android & iOS) عالية الأداء باستخدام Flutter.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="glass-card p-8 rounded-2xl text-center" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fa-solid fa-cogs text-4xl text-accent mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2" data-translate="s3_title">بناء ودمج APIs</h3>
+                    <p class="text-gray-300 dark:text-gray-400" data-translate="s3_desc">تصميم واجهات برمجة تطبيقات RESTful قوية وآمنة لربط الأنظمة والتطبيقات المختلفة.</p>
+                </div>
+                 <!-- Service 4 -->
+                <div class="glass-card p-8 rounded-2xl text-center" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fa-solid fa-palette text-4xl text-accent mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2" data-translate="s4_title">تصميم UI/UX</h3>
+                    <p class="text-gray-300 dark:text-gray-400" data-translate="s4_desc">تصميم واجهات مستخدم جذابة وتجارب استخدام سهلة، مع التركيز على تحقيق أهداف المشروع.</p>
+                </div>
+                 <!-- Service 5 -->
+                <div class="glass-card p-8 rounded-2xl text-center" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fa-solid fa-newspaper text-4xl text-accent mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2" data-translate="s5_title">النشر الرقمي والتصميم التحريري</h3>
+                    <p class="text-gray-300 dark:text-gray-400" data-translate="s5_desc">خبرة في تصميم تخطيطات الصحف والمجلات، وتطبيق مبادئ التصميم التحريري في المنصات الرقمية.</p>
+                </div>
+                 <!-- Service 6 -->
+                <div class="glass-card p-8 rounded-2xl text-center" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fa-brands fa-python text-4xl text-accent mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2" data-translate="s6_title">أتمتة وسحب البيانات</h3>
+                    <p class="text-gray-300 dark:text-gray-400" data-translate="s6_desc">استخدام Python لأتمتة المهام المتكررة وبناء برامج لسحب البيانات من الويب (Web Scraping).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Testimonials (Optional) -->
+        <!-- You can uncomment this section and add testimonials -->
+        <!--
+        <section id="testimonials" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up" data-translate="testimonials_title">قالوا عني</h2>
+            <div class="glass-card p-8 rounded-2xl max-w-3xl mx-auto text-center" data-aos="fade-up">
+                <img src="https://i.pravatar.cc/100?u=client1" class="w-20 h-20 rounded-full mx-auto mb-4 border-2 border-accent">
+                <p class="text-lg italic mb-4" data-translate="t1_quote">"عبدالسلام مطور استثنائي. لقد حوّل فكرتنا إلى منتج واقعي يفوق التوقعات."</p>
+                <h4 class="font-bold" data-translate="t1_author">عميل سعيد</h4>
+                <p class="text-sm text-gray-400" data-translate="t1_role">مدير شركة تقنية</p>
+            </div>
+        </section>
+        -->
+
+        <!-- Section: Contact -->
+        <section id="contact" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-4" data-aos="fade-up" data-translate="contact_title">لنتحدث!</h2>
+            <p class="text-center max-w-2xl mx-auto mb-12 text-lg text-gray-300 dark:text-gray-400" data-aos="fade-up" data-translate="contact_subtitle">
+                هل لديك فكرة مشروع؟ أو ترغب في التعاون؟ أنا دائماً متاح لمناقشة المشاريع الجديدة والمثيرة.
+            </p>
+            <div class="glass-card max-w-4xl mx-auto p-8 rounded-2xl" data-aos="zoom-in-up">
+                <form action="#" method="POST">
+                    <div class="grid md:grid-cols-2 gap-6 mb-6">
+                        <input type="text" name="name" placeholder="الاسم" data-translate="form_name_placeholder" class="bg-transparent border-b-2 border-border-color p-3 w-full focus:outline-none focus:border-accent transition-colors">
+                        <input type="email" name="email" placeholder="البريد الإلكتروني" data-translate="form_email_placeholder" class="bg-transparent border-b-2 border-border-color p-3 w-full focus:outline-none focus:border-accent transition-colors">
+                    </div>
+                    <textarea name="message" rows="5" placeholder="رسالتك..." data-translate="form_message_placeholder" class="bg-transparent border-b-2 border-border-color p-3 w-full mb-6 focus:outline-none focus:border-accent transition-colors"></textarea>
+                    <button type="submit" class="bg-accent text-white font-bold py-3 px-10 rounded-full text-lg w-full md:w-auto hover:opacity-90 transition-opacity" data-translate="form_submit_button">
+                        إرسال الرسالة
+                    </button>
+                </form>
+            </div>
+            <div class="text-center mt-12" data-aos="fade-up">
+                <p class="mb-4" data-translate="contact_social_prompt">أو تواصل معي عبر:</p>
+                <div class="flex justify-center items-center space-x-6 rtl:space-x-reverse text-3xl">
+                    <!-- IMPORTANT: Replace '#' with your actual social media links -->
+                    <a href="#" aria-label="GitHub" class="hover:text-accent transition-colors"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn" class="hover:text-accent transition-colors"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Telegram" class="hover:text-accent transition-colors"><i class="fab fa-telegram"></i></a>
+                    <a href="#" aria-label="WhatsApp" class="hover:text-accent transition-colors"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 border-t border-border-color mt-12">
+        <p data-translate="footer_text">
+            &copy; <span id="copyright-year"></span> عبدالسلام عارف التوي. تم التصميم والبرمجة بحب وشغف.
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script>
+        // All JavaScript functionality in one place
+
+        // 1. Translation Data
+        const translations = {
+            en: {
+                name_logo: "Abdulsalam Al-Tuway",
+                name_main: "Abdulsalam Aref Al-Tuway",
+                typed_text_options: ['Senior Full-Stack Developer', 'Mobile App Engineer', 'Laravel & Flutter Expert'],
+                intro_quote: '"I transform complex ideas into elegant, efficient, and user-friendly digital experiences on web and mobile."',
+                cta_button: "Let's Collaborate",
+                nav_about: "About",
+                nav_projects: "Projects",
+                nav_services: "Services",
+                nav_contact: "Contact",
+                about_title: "About Me",
+                about_subtitle: "Software Engineer & Design Enthusiast",
+                about_p1: "As a Full-Stack Developer and App Designer, I have extensive experience in building complete digital solutions from scratch. I combine technical expertise in Laravel and Flutter with a deep understanding of user experience and graphic design, especially in the editorial and media fields.",
+                about_p2: "My passion lies in problem-solving, whether it's building complex news publishing systems, designing robust APIs, or automating tasks with Python. I always strive to write clean, scalable, and reliable code.",
+                about_stack_title: "My Tech Stack",
+                projects_title: "Featured Projects",
+                p1_title: "Full News Management System (CMS)",
+                p1_desc: "A comprehensive system built with Laravel for managing news content, including user roles, media management, and SEO tools.",
+                p2_title: "Aden Tourism Office Website",
+                p2_desc: "A multilingual, responsive tourism website featuring galleries, inquiry forms, and interactive maps.",
+                p3_title: "Shaqaeq Website",
+                p3_desc: "A platform for women's empowerment, featuring articles, community engagement tools, and an admin panel.",
+                p_link: "View Project",
+                services_title: "What I Offer",
+                s1_title: "Web App Development",
+                s1_desc: "Building integrated and scalable web applications using Laravel & PHP, with modern frontends using Tailwind CSS.",
+                s2_title: "Mobile App Development",
+                s2_desc: "Designing and programming high-performance mobile apps (Android & iOS) using Flutter.",
+                s3_title: "API Development & Integration",
+                s3_desc: "Designing robust and secure RESTful APIs to connect different systems and applications.",
+                s4_title: "UI/UX Design",
+                s4_desc: "Designing attractive user interfaces and seamless user experiences, focusing on achieving project goals.",
+                s5_title: "Digital Publishing & Editorial Design",
+                s5_desc: "Experience in newspaper and magazine layout design, applying editorial principles to digital platforms.",
+                s6_title: "Automation & Web Scraping",
+                s6_desc: "Using Python to automate repetitive tasks and build web scraping scripts to gather data from the web.",
+                contact_title: "Let's Talk!",
+                contact_subtitle: "Have a project idea? Or just want to collaborate? I'm always available to discuss new and exciting projects.",
+                form_name_placeholder: "Your Name",
+                form_email_placeholder: "Your Email",
+                form_message_placeholder: "Your Message...",
+                form_submit_button: "Send Message",
+                contact_social_prompt: "Or connect with me via:",
+                footer_text: "© {year} Abdulsalam Aref Al-Tuway. Designed & Coded with love and passion.",
+                testimonials_title: "Testimonials",
+                t1_quote: '"Abdulsalam is an exceptional developer. He turned our idea into a real product that exceeded our expectations."',
+                t1_author: "Happy Client",
+                t1_role: "CEO of a Tech Company",
+            },
+            ar: {
+                name_logo: "عبدالسلام التوي",
+                name_main: "عبدالسلام عارف التوي",
+                typed_text_options: ['مطور ويب Full-Stack خبير', 'مهندس تطبيقات موبايل', 'متخصص Laravel و Flutter'],
+                intro_quote: '"أقوم بتحويل الأفكار المعقدة إلى تجارب رقمية أنيقة، فعّالة، وسهلة الاستخدام على الويب والموبايل."',
+                cta_button: "لنتعاون معاً",
+                nav_about: "عني",
+                nav_projects: "المشاريع",
+                nav_services: "الخدمات",
+                nav_contact: "تواصل",
+                about_title: "نبذة عني",
+                about_subtitle: "مهندس برمجيات وشغوف بالتصميم",
+                about_p1: "كمطور Full-Stack ومصمم تطبيقات، أمتلك خبرة واسعة في بناء حلول رقمية متكاملة من الصفر. أجمع بين الخبرة التقنية في Laravel و Flutter مع فهم عميق لتجربة المستخدم والتصميم الجرافيكي، خاصة في المجال التحريري والإعلامي.",
+                about_p2: "شغفي يكمن في حل المشكلات، سواء كان ذلك عبر بناء أنظمة نشر أخبار معقدة، أو تصميم واجهات برمجة تطبيقات قوية، أو أتمتة المهام باستخدام Python. أسعى دائماً لكتابة كود نظيف، قابل للتطوير، وموثوق.",
+                about_stack_title: "مكدس التقنيات",
+                projects_title: "أبرز المشاريع",
+                p1_title: "نظام إدارة الأخبار (CMS)",
+                p1_desc: "نظام متكامل مبني بـ Laravel لإدارة المحتوى الإخباري، يشمل صلاحيات المستخدمين، إدارة الوسائط، وأدوات SEO.",
+                p2_title: "موقع مكتب السياحة – عدن",
+                p2_desc: "موقع سياحي متجاوب ومتعدد اللغات يعرض معارض صور، نماذج استفسار، وخرائط تفاعلية.",
+                p3_title: "موقع شقائق",
+                p3_desc: "منصة لتمكين المرأة، تضم مقالات وأدوات تفاعل مجتمعي ولوحة تحكم للإدارة.",
+                p_link: "شاهد المشروع",
+                services_title: "ماذا أقدم؟",
+                s1_title: "تطوير تطبيقات الويب",
+                s1_desc: "بناء تطبيقات ويب متكاملة وقابلة للتطوير باستخدام Laravel و PHP، مع واجهات عصرية بـ Tailwind CSS.",
+                s2_title: "تطوير تطبيقات الموبايل",
+                s2_desc: "تصميم وبرمجة تطبيقات موبايل (Android & iOS) عالية الأداء باستخدام Flutter.",
+                s3_title: "بناء ودمج APIs",
+                s3_desc: "تصميم واجهات برمجة تطبيقات RESTful قوية وآمنة لربط الأنظمة والتطبيقات المختلفة.",
+                s4_title: "تصميم UI/UX",
+                s4_desc: "تصميم واجهات مستخدم جذابة وتجارب استخدام سهلة، مع التركيز على تحقيق أهداف المشروع.",
+                s5_title: "النشر الرقمي والتصميم التحريري",
+                s5_desc: "خبرة في تصميم تخطيطات الصحف والمجلات، وتطبيق مبادئ التصميم التحريري في المنصات الرقمية.",
+                s6_title: "أتمتة وسحب البيانات",
+                s6_desc: "استخدام Python لأتمتة المهام المتكررة وبناء برامج لسحب البيانات من الويب (Web Scraping).",
+                contact_title: "لنتحدث!",
+                contact_subtitle: "هل لديك فكرة مشروع؟ أو ترغب في التعاون؟ أنا دائماً متاح لمناقشة المشاريع الجديدة والمثيرة.",
+                form_name_placeholder: "الاسم",
+                form_email_placeholder: "البريد الإلكتروني",
+                form_message_placeholder: "رسالتك...",
+                form_submit_button: "إرسال الرسالة",
+                contact_social_prompt: "أو تواصل معي عبر:",
+                footer_text: "© {year} عبدالسلام عارف التوي. تم التصميم والبرمجة بحب وشغف.",
+                testimonials_title: "قالوا عني",
+                t1_quote: '"عبدالسلام مطور استثنائي. لقد حوّل فكرتنا إلى منتج واقعي يفوق التوقعات."',
+                t1_author: "عميل سعيد",
+                t1_role: "مدير شركة تقنية",
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // 2. Initialize Libraries
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 50,
+            });
+
+            // 3. Theme Switcher
+            const themeSwitcher = document.getElementById('theme-switcher');
+            const sunIcon = document.getElementById('sun-icon');
+            const moonIcon = document.getElementById('moon-icon');
+            const html = document.documentElement;
+
+            const applyTheme = (theme) => {
+                if (theme === 'dark') {
+                    html.classList.add('dark');
+                    moonIcon.classList.remove('hidden');
+                    sunIcon.classList.add('hidden');
+                } else {
+                    html.classList.remove('dark');
+                    moonIcon.classList.add('hidden');
+                    sunIcon.classList.remove('hidden');
+                }
+            };
+
+            // Load saved theme
+            const savedTheme = localStorage.getItem('theme') || 'dark'; // Default to dark
+            applyTheme(savedTheme);
+
+            themeSwitcher.addEventListener('click', () => {
+                const newTheme = html.classList.contains('dark') ? 'light' : 'dark';
+                applyTheme(newTheme);
+                localStorage.setItem('theme', newTheme);
+            });
+
+            // 4. Language Switcher
+            const langSwitcher = document.getElementById('lang-switcher');
+            let currentLang = 'ar';
+            let typed;
+            
+            const updateTexts = (lang) => {
+                document.querySelectorAll('[data-translate]').forEach(el => {
+                    const key = el.getAttribute('data-translate');
+                    if (translations[lang][key]) {
+                        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                           el.placeholder = translations[lang][key];
+                        } else {
+                            el.innerHTML = translations[lang][key].replace('{year}', new Date().getFullYear());
+                        }
+                    }
+                });
+
+                // Update Typed.js
+                if (typed) {
+                    typed.destroy();
+                }
+                typed = new Typed('#typed-text', {
+                    strings: translations[lang].typed_text_options,
+                    typeSpeed: 50,
+                    backSpeed: 30,
+                    loop: true,
+                    backDelay: 2000,
+                });
+            };
+
+            langSwitcher.addEventListener('click', () => {
+                currentLang = currentLang === 'ar' ? 'en' : 'ar';
+                html.lang = currentLang;
+                html.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+                langSwitcher.textContent = currentLang === 'ar' ? 'EN' : 'AR';
+                updateTexts(currentLang);
+            });
+
+            // 5. Mobile Menu
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+            // Hide menu on link click
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+
+            // 6. Custom Cursor
+            const cursor = document.querySelector('.custom-cursor');
+            if (cursor) {
+                document.addEventListener('mousemove', e => {
+                    cursor.setAttribute('style', `top: ${e.pageY}px; left: ${e.pageX}px;`);
+                });
+
+                document.querySelectorAll('a, button, input, textarea, [data-aos]').forEach(el => {
+                    el.addEventListener('mouseover', () => cursor.classList.add('hovered'));
+                    el.addEventListener('mouseout', () => cursor.classList.remove('hovered'));
+                });
+            }
+
+            // 7. Navbar Scroll Effect
+            const navbar = document.getElementById('navbar');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+
+            // 8. Copyright Year
+            document.getElementById('copyright-year').textContent = new Date().getFullYear();
+
+            // Initial text load
+            updateTexts(currentLang);
+        });
+    </script>
+</body>
+</html>
