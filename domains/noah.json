@@ -4,11 +4,9 @@
     "username": "noah-dev-codes"
   },
   "records": {
-    "CNAME": "sites.cloudcannon.com",
-    "A": [
-      "52.8.178.132",
-      "184.169.135.34"
+    "A": ["216.198.79.193"],
+    "TXT": [
+      "vc-domain-verify=noah.is-a.dev,2bb9d459523acb9224a8"
     ]
-  },
-  "proxied": true
+  }
 }
