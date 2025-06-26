@@ -3,8 +3,8 @@
     "username": "Alighanx",
     "email": "jesuspillco10@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "alighan.vercel.app"
   },
-  "proxy": false
+  "proxied": false
 }
