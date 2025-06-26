@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "radialBueza",
+    "email": "bueza90@gmail.com"
+  },
+  "records": {
+    "A": ["13.210.0.190"],
+    "TXT": ["owner=radialBueza"],
+    "CAA": ["0 issue \"letsencrypt.org\""]
+  }
+}
