@@ -1,0 +1,14 @@
+{
+  "repo": "https://github.com/noah-dev-codes/noah-website",
+  "owner": {
+    "username": "noah-dev-codes"
+  },
+  "records": {
+    "CNAME": "sites.cloudcannon.com",
+    "A": [
+      "52.8.178.132",
+      "184.169.135.34"
+    ]
+  },
+  "proxied": true
+}
