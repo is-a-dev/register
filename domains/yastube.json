@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "yastube",
+    "email": "yastubebusiness@gmail.com"
+  },
+  "records": {
+    "CNAME": "yastube.github.io"
+  },
+  "proxied": true
+}
