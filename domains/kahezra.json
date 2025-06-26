@@ -5,6 +5,5 @@
     },
     "records": {
         "NS": ["ada.ns.cloudflare.com","carl.ns.cloudflare.com"]
-    },
-    "proxied": true
+    }
 }
