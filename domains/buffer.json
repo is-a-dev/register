@@ -1,5 +1,5 @@
 {
-  "description": "A subdomain for myself for my website to be used by others to get to know more about me and to get my contact details.",
+  "description": "bufferwise",
   "repo": "https://github.com/bufferwise/bufferwise.github.io",
   "owner": {
     "username": "bufferwise",
@@ -7,9 +7,10 @@
     "Discord": "790846560229392444",
     "Discord Server": "https://discord.gg/26MMXRHgZB",
     "Instagram": "bufferwise",
-    "Twitter/X": "bufferwise"
+    "Twitter / X": "bufferwise"
   },
   "records": {
     "CNAME": "bufferwise.github.io"
-  }
+  },
+  "proxied": true
 }
