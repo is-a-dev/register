@@ -4,7 +4,14 @@
     "email": "abiapp2024@gmail.com"
   },
   "records": {
-    "CNAME": "abineethan-me.web.app",
-    "TXT": "hosting-site=abineethan-me"
+  "MX": [
+    "mx.zoho.com",
+    "mx2.zoho.com",
+    "mx3.zoho.com"
+  ],
+  "TXT": [
+    "v=spf1 include:zoho.com ~all",
+    "zoho-verification=zb46738610.zmverify.zoho.com"
+  ]
   }
 }
