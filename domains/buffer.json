@@ -11,16 +11,5 @@
   },
   "records": {
     "CNAME": "bufferwise.github.io"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/instagram": "https://instagram.com/bufferwise",
-      "/x": "https://x.com/bufferwise",
-      "/github": "https://github.com/bufferwise",
-      "/discord": "https://discord.gg/26MMXRHgZB",
-      "/business": "mailto:buffer@outlook.in",
-      "/mail": "https://buffer@outlook.in"
-    },
-    "redirect_paths": true
   }
 }
