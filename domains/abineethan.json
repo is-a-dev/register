@@ -15,6 +15,6 @@
     "v=spf1 include:zoho.com ~all",
     "zoho-verification=zb46738610.zmverify.zoho.com"
   ],
-  "proxied": true
+  "proxy": true
 }
 }
