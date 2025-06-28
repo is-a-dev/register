@@ -5,7 +5,8 @@
     "discord": "781445370177126401",
     "bluesky": "based.nya.pub"
   },
+  "description": "a redirect to my homelab",
   "records": {
-    "TXT": "dh=934b3dfda3d0c1a16deb790deca32fbf08bdb735"
+    "URL": "https://vinster.xyz/"
   }
 }
