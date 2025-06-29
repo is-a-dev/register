@@ -1,0 +1,12 @@
+{
+  "repo": "https://github.com/noah-dev-codes/noah-website",
+  "owner": {
+    "username": "noah-dev-codes"
+  },
+  "records": {
+    "A": ["216.198.79.193"],
+    "TXT": [
+      "vc-domain-verify=noah.is-a.dev,2bb9d459523acb9224a8"
+    ]
+  }
+}
