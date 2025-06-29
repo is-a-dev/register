@@ -1,0 +1,10 @@
+{
+  "subdomain": "vaxyro",
+  "owner": {
+    "github": "Himanshu4747860"
+  },
+  "record": {
+    "CNAME": "vaxyro.onrender.com"
+  },
+  "proxied": false
+}
