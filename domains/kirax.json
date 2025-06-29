@@ -1,8 +1,9 @@
 {
   "owner": {
-    "email": "kishore42835@gmail.com"
+    "email": "kishore42835@gmail.com",
+    "username": "kishore-xo"
   },
-  "record": {
+  "records": {
     "CNAME": "example.com"
   },
   "proxied": true
