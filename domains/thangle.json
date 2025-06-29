@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "thangledev",
+    "email": "lethang070504@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.193"],
+    "TXT": ["vc-domain-verify=thangle.is-a.dev,bd6f80914ee2949ce900"]
+  }
+}
