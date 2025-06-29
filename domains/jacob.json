@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "jacobrdale",
+    "email": "jacobstetup@tuta.io"
+  },
+  "records": {
+    "NS": [
+      "dell.ns.cloudflare.com",
+      "duke.ns.cloudflare.com"
+    ]
+  },
+  "proxied": false
+}
