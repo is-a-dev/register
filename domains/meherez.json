@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "email": "mehrez84@gmail.com",
+    "username": "meherez"
+  },
+  "records": {
+    "NS": [
+      "darwin.ns.cloudflare.com",
+      "tegan.ns.cloudflare.com"
+    ]
+  }
+}
