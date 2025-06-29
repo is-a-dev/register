@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "abiapp789",
+    "email": "abiapp2024@gmail.com"
+  },
+  "records": {
+  "MX": [
+    "mx.zoho.com",
+    "mx2.zoho.com",
+    "mx3.zoho.com"
+  ],
+  "TXT": [
+    "v=spf1 include:zoho.com ~all",
+    "zoho-verification=zb46738610.zmverify.zoho.com"
+  ]
+  }
+}
