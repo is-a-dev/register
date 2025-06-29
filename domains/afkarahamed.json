@@ -1,0 +1,13 @@
+{
+  "github": "afkarahamed",
+  "name": "Afkar Ahamed",
+  "email": "afkar.net11@gmail.com",
+  "domain": "afkarahamed.is-a.dev",
+  "subdomain": "afkarahamed",
+  "owner": {
+    "github": "afkarahamed"
+  },
+  "record": {
+  "cname": "afkar-ahamed-portfolio.vercel.app"
+  }
+}
