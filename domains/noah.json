@@ -5,9 +5,9 @@
     "email": "ak.no@outlook.com"
   },
   "records": {
-    "NS": [
-      "lola.ns.cloudflare.com",
-      "nico.ns.cloudflare.com"
+    "TXT": [
+      "vc-domain-verify=noah.is-a.dev,2bb9d459523acb9224a8"
+      
     ]
   }
 }
