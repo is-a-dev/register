@@ -4,6 +4,7 @@
         "email": "contactwhawli@gmail.com"
     },
     "records": {
-        "CNAME": "nonsensicalone.github.io"
+        "CNAME": "nonsensicalone.github.io",
+        "TXT": "80567310eff86f458100f08a690ebf"
     }
 }
