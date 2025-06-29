@@ -1,0 +1,11 @@
+{
+    "description": "portfolio project",
+    "repo": "https://github.com/AryaEmalai/myportfolio",
+    "owner": {
+        "username": "AryaEmalai",
+        "email": "aryaemalai@gmail.com"
+    },
+    "record": {
+        "CNAME": "aryaemalai.github.io"
+    }
+} 
