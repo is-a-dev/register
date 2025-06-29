@@ -1,9 +1,9 @@
 {
   "owner": {
+    "username": "el-rafa-dev",
     "email": "tampaseguraa@gmail.com"
   },
-  "github": "el-rafa-dev",
   "records": {
-    "CNAME": "https://el-rafa-dev.github.io/portfolio/"
+    "CNAME": "el-rafa-dev.github.io"
   }
 }
