@@ -4,7 +4,7 @@
     "email": "kartiksingla20@proton.me"
   },
   "records": {
-    "A": "216.198.79.193",
+    "A": [216.198.79.193]
     "TXT":"vc-domain-verify=kartiksingla.is-a.dev,0bbb370551a5a3314d7e"
   }
 }
