@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "bon-droid",
+    "email": "notwitchuser69@gmail.com"
+  },
+  "records": {
+    "CNAME": "araby-vps.duckdns.org",
+    "A": "46.185.168.168"
+  },
+  "proxied": true
+}
