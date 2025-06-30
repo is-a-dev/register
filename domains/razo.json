@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "razobeckett",
+    "email": "razobeckett@proton.me",
+    "twitter": "razobeckett"
+  },
+  "records": {
+    "NS": ["evangeline.ns.cloudflare.com", "west.ns.cloudflare.com"]
+  }
+}
