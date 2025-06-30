@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "1ndrajeet",
+    "email": "1ndrajeet@proton.me"
+  },
+  "records": {
+    "*.truly": {
+      "cname": "truly-is-a-dev.vercel.app"
+    }
+  },
+  "proxied": true
+}
