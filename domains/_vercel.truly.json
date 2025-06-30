@@ -3,7 +3,8 @@
     "username": "1ndrajeet",
     "email": "1ndrajeet@proton.me"
   },
-  "records": {
+  "record": {
     "TXT": "vc-domain-verify=truly.is-a.dev,f47c4c3ff28a0a323906"
-  }
+  },
+  "proxied": false
 }
