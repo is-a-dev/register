@@ -3,10 +3,8 @@
     "username": "1ndrajeet",
     "email": "1ndrajeet@proton.me"
   },
-  "records": {
-    "*.truly": {
-      "cname": "truly-is-a-dev.vercel.app"
-    }
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
   },
-  "proxied": true
+  "proxied": false
 }
