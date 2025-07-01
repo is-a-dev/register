@@ -1,5 +1,9 @@
 {
-  "owner": "marshall-963",
-  "repo": "soumya-s-birthday-page",
-  "branch": "main"
+  "owner": {
+    "username": "marshall-963",
+    "email": "ewqw5202@gmail.com"
+  },
+  "records": {
+    "CNAME": "marshall-963.github.io"
+  }
 }
