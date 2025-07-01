@@ -4,6 +4,6 @@
         "email": "social.d6pra@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "TXT": "vc-domain-verify=menezes.is-a.dev,a61650128ba192e5eefc"
     }
 }
