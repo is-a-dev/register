@@ -1,11 +1,9 @@
 {
-  "description": "Test website for lsalas.is-a.dev using hosintger.com",
-  "repo": "https://github.com/leondrisalas/Lsalas",
   "owner": {
     "username": "leondrisalas",
     "email": "leondrisalas@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["82.180.174.177"]
   }
 }

@@ -1,18 +1,11 @@
 {
-  "description": "JustStudio.",
-  "repo": "https://github.com/JustStudio7/juststudio7.github.io",
   "owner": {
     "username": "JustDeveloper1",
     "email": "support@juststudio.is-a.dev",
     "discord": "1117482901353812088"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
     "TXT": [
       "v=spf1 include:zohomail.eu ~all",

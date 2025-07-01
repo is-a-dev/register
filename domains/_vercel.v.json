@@ -2,7 +2,7 @@
   "owner": {
     "username": "leofelix908"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=v.is-a.dev,9bd0999222ffc1417790"]
+  "records": {
+    "TXT": "vc-domain-verify=v.is-a.dev,9bd0999222ffc1417790"
   }
 }

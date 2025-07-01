@@ -3,7 +3,7 @@
     "username": "joshuanoeldeke",
     "email": "joshua.noeldeke@me.com"
   },
-  "record": {
+  "records": {
     "NS": ["adrian.ns.cloudflare.com", "keaton.ns.cloudflare.com"]
   }
 }

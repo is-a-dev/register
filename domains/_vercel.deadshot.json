@@ -1,12 +1,10 @@
 {
-  "description": "A simple portfolio template made by me.",
-  "repo": "https://github.com/deadshotofficial/minimal-portfolio",
   "owner": {
     "username": "deadshotofficial",
     "email": "deadshot3r@pm.me",
     "discord": "416952474587496449"
   },
-  "record": {
+  "records": {
     "TXT": "vc-domain-verify=deadshot.is-a.dev,5bc34658e6351c74153c"
   }
 }

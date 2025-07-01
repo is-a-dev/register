@@ -3,7 +3,7 @@
     "username": "Loapu",
     "email": "benjamin@loapu.dev"
   },
-  "record": {
+  "records": {
     "NS": ["algin.ns.cloudflare.com", "marge.ns.cloudflare.com"]
   }
 }

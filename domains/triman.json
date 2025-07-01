@@ -1,0 +1,14 @@
+{
+    "description": "Personal/Portfolio Website",
+    "owner": {
+        "username": "TrimanSingh",
+        "email": "trimantuteja@gmail.com"
+    },
+    "records": {
+        "A" : ["216.198.79.193"],
+        "MX" : ["feedback-smtp.ap-northeast-1.amazonses.com"],
+        "TXT" : [
+          "v=spf1 include:amazonses.com ~all"
+        ]
+    }
+}

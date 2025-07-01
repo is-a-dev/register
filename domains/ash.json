@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "BloodLetters",
-    "discord": "961870785486671872",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.ViU_s7aERLW_mNpbpi9hxOs4zrccaqUhyyUAxIZEKbqex3iWjZP9AUM7uoeyQh9qPzVy8fp92ArDGlC-iYQwW7Xw6WHwzMo_zQGZchYGcI7gDJnI-BSKEwTe9oFPqLzkbR8o3guo7_7Qo54bWm7UDjBjca2JCol7iXJgXP0cUJzgrX3QTPxVEigrvnBNsSIr83WlFZZagm9gyCBpl0WTVLjomcSHdTB2IjM6_yMkYCD1cLDOrkXwqH79o1orLZWrHbDf_6Mqfyay7ZoRiacDTAAi7LVMYo-bjo82IwrCRCNXbHsANk3kJKQnVETKX37bB8sPyRT7I_oygAk9tGcu0A.sbMp8UsiUgSWQ2-vTfEvxA.TzjhAHzK6nG9FtsYXnn3rqwGECCQk0m-KRlrz8-t6BDAPX2SWp0-KEp1pdmc4Okgg5iBl_LRTavfdX2xLuuFHp0G5lzit1LmeEsV6QNfrmY.sIKZgtKW8YqtT_ohHyte9Q"
+    "discord": "961870785486671872"
   },
-  "record": {
+  "records": {
     "CNAME": "web-production-six.vercel.app"
   }
 }
