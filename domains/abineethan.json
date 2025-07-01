@@ -4,15 +4,25 @@
     "username": "abineethan",
     "email": "abineethan22@gmail.com"
   },
-
-   "records": {
-        "CNAME": "abineethan-me.web.app",
-        "TXT": ["zoho-verification=zb46738610.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all", "zmail._domainkey: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIHzsnS94jaMTbcflV4QMBR4P3YCgegw1NoV7t7rkElCnZ7LEJIWLMCMheXN+ipQUclpDZ8Lw6m8B7mm4tm8P79hTuM6rmhsqcQb8w/g3u6kUDhK/eq2QoDhUienbpKTsR4pZesu9yIW0DL5wYxHT2zpxQN7zO8+8b4IzFSPnmHQIDAQAB"],
-        "MX": [
-            { "target": "mx.zoho.com", "priority": 10 },
-            { "target": "mx2.zoho.com", "priority": 20 },
-            { "target": "mx3.zoho.com", "priority": 50 }
-        ]
-    },
-    "proxied": true
+  "records": {
+    "CNAME": "abineethan-me.web.app",
+    "TXT": [
+      "zoho-verification=zb46738610.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all"
+    ],
+    "MX": [
+      { "target": "mx.zoho.com", "priority": 10 },
+      { "target": "mx2.zoho.com", "priority": 20 },
+      { "target": "mx3.zoho.com", "priority": 50 }
+    ],
+    "subdomains": {
+      "zmail._domainkey": {
+        "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIHzsnS94jaMTbcflV4QMBR4P3YCgegw1NoV7t7rkElCnZ7LEJIWLMCMheXN+ipQUclpDZ8Lw6m8B7mm4tm8P79hTuM6rmhsqcQb8w/g3u6kUDhK/eq2QoDhUienbpKTsR4pZesu9yIW0DL5wYxHT2zpxQN7zO8+8b4IzFSPnmHQIDAQAB"
+      },
+      "_dmarc": {
+        "TXT": "v=DMARC1; p=none; rua=mailto:admin@abineethan.is-a.dev; ruf=mailto:admin@abineethan.is-a.dev; sp=none; adkim=r; aspf=r; pct=5"
+      }
+    }
+  },
+  "proxied": true
 }
