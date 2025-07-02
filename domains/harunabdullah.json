@@ -5,5 +5,7 @@
   },
   "records": {
     "CNAME": "portfolio-52h.pages.dev"
+    "TXT": ["@", "zoho-verification=zb02836572.zmverify.zoho.com"]
   }
+  
 }
