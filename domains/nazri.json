@@ -4,7 +4,7 @@
         "email": "komiklowel@gmail.com"
     },
     "record": {
-        "NS": [
+        "ns": [
           "ns1.byet.org",
           "ns2.byet.org",
           "ns3.byet.org",
