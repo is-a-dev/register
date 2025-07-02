@@ -4,6 +4,9 @@
     "email": "ingshalimbu09@gmail.com"
   },
   "record": {
-    "CNAME": "ghs.google.com"
+    "CNAME": [
+      "ghs.google.com",
+      "gv-ikbt7jga73uraw.dv.googlehosted.com"
+    ]
   }
 }
