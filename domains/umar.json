@@ -4,6 +4,6 @@
     "email": "siddiquiumar0007@gmail.com"
   },
   "records": {
-    "CNAME": "personalportfolio-two-roan.vercel.app"
+    "NS": ["arch.ns.cloudflare.com", "nelly.ns.cloudflare.com"]
   }
 }
