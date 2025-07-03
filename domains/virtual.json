@@ -1,11 +1,9 @@
 {
-  "description": "Virtual is a Dev",
-  "repo": "https://github.com/MarkAguirre26/virtual",
   "owner": {
     "username": "MarkAguirre26",
     "email": "markaguirre26@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://virtual-dev.netlify.app/"
   }
 }

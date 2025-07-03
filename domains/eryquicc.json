@@ -1,17 +1,9 @@
 {
-  "description": "Personal use",
-  "repo": "https://github.com/eryquicc/eryquicc.github.io",
   "owner": {
-    "username": "Eryquicc",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.Cbf_zgEEDsPK4bFFmgXIQzS7a8f6kCaJ7fvKii_hoGmC_T816cUQCWzfgvZNCRjDTAAmeUlkFoZJ7cXAtZydJmbiiomW2rYYdahrpuHD9uzik4utcbdY93tN0jIg_oVZPBjmntBttyrOMC-ZczmA3UsYC2Sn46gvt_rNKmR8GP4SYlsoIUq54tqCKbw7hEy9uIr34I4v20mJKQ-ffnnV5jfWxRd2aPZ57B8ObpzmNaMF-KoC4TEEbA5ZxPKB68wWvQNkPrGEQdvnE6A5ymgFp6kI7ybzkb2VgN7xxrlSFtighk2-XjzOe2X-DAfAPJ7IBCaesCsupMN5J2qlsP0cXQ.X-zYTXfPKYUBbuxBuMumLA.pE13OpQVJ1FnW9oKZAsE-0ZvAaBphHU1Tn1aDESYFhrMABZbOzyaQ-HDS-8HcHu6m5GsYWeSf4_SHoqmZbag4XoWNNKgkv1VpnCY-H_52NRRX4rIEyCAxywLe2Ph1moi.I4F8hNl8SC8b_WUvYuDv7Q"
+    "username": "Eryquicc"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }

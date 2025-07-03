@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "layhout",
-        "email": "layhoutworkmail@gmail.com" 
-    },
-    "record": {
-        "TXT": ["vc-domain-verify=layhout.is-a.dev,be218a450dbf76cb68f1"]
-    }
+  "owner": {
+    "username": "layhout",
+    "email": "layhoutworkmail@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=layhout.is-a.dev,be218a450dbf76cb68f1"
+  }
 }

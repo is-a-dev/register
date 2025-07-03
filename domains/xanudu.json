@@ -1,11 +1,9 @@
 {
-  "description": "Xanudu Buster's Website",
-  "repo": "https://xanudubuster.github.io",
   "owner": {
     "username": "XanuduBuster",
     "email": "xanubuster@proton.me"
   },
-  "record": {
+  "records": {
     "CNAME": "xanudubuster.github.io"
   }
 }

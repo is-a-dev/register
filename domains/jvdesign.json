@@ -1,11 +1,9 @@
 {
-  "description": "Domain for projects page",
-  "repo": "https://github.com/JVDesignBavaria/jvdesignbavaria.github.io",
   "owner": {
-    "username": "JVDesignBavaria",
-    "twitter": "JVDesignBavaria"
+    "username": "jrmyv",
+    "email": "jvdesign@mail.de"
   },
-  "record": {
-    "CNAME": "jvdesignbavaria.github.io"
+  "records": {
+    "CNAME": "jvdesign-dev.github.io"
   }
 }

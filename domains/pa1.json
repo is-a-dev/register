@@ -1,11 +1,9 @@
 {
-  "description": "It's my personal portfolio page",
-  "repo": "https://github.com/pavan-ambekar/pavan-ambekar.github.io",
   "owner": {
     "username": "pavan-ambekar",
     "email": "pavan479eC@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pavan-ambekar.github.io"
   }
 }
