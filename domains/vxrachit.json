@@ -10,6 +10,5 @@
       "daisy.ns.cloudflare.com",
       "fred.ns.cloudflare.com"
     ]
-  },
-  "proxied": true
+  }
 }
