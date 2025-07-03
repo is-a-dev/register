@@ -9,7 +9,7 @@
     "NS": [
       "daisy.ns.cloudflare.com",
       "fred.ns.cloudflare.com"
-    ],
-    "CNAME": "vxrachit.pages.dev"
-  }
+    ]
+  },
+  "proxied": true
 }
