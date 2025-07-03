@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "ingsha09",
+    "email": "ingshalimbu09@gmail.com"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "adranalyzer",
+      "value": "ingsha09.github.io"
+    }
+  ]
+}
