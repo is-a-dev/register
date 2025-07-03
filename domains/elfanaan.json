@@ -4,7 +4,7 @@
     "email": "hmmm202031520062021@gmail.com",
     "discord": "775012312876711936"
   },
-  "record": {
+  "records": {
     "URL": "http://elfanaan.giize.com",
     "MX": ["mail.is-a.dev"],
     "TXT": "v=spf1 mx a:mail.is-a.dev ~all"

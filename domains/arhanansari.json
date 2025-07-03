@@ -1,13 +1,11 @@
 {
-    "description": "A sleek and 3D portfolio website for Arhan Ansari.",
-    "repo": "https://github.com/ArhanAnsari/Arhans-Portfolio",
-    "owner": {
-        "username": "ArhanAnsari",
-        "email": "arhanansari2009@gmail.com",
-        "x": "https://x.com/codewitharhan",
-        "discord": "@codewitharhan"
-    },
-    "record": {
-        "CNAME": "arhanansari.vercel.app"
-    }
+  "owner": {
+    "username": "ArhanAnsari",
+    "email": "arhanansari2009@gmail.com",
+    "x": "https://x.com/codewitharhan",
+    "discord": "@codewitharhan"
+  },
+  "records": {
+    "CNAME": "arhanansari.vercel.app"
+  }
 }

@@ -1,9 +1,9 @@
 {
-     "owner": {
-       "username": "Anonymous1223334444",
-       "email": "replit005@gmail.com"
-     },
-     "record": {
-       "TXT": "vc-domain-verify=andresarr.is-a.dev,c7c6b930211214eb12c5"
-     }
-   }
+  "owner": {
+    "username": "Anonymous1223334444",
+    "email": "replit005@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=andresarr.is-a.dev,c7c6b930211214eb12c5"
+  }
+}

@@ -4,7 +4,17 @@
     "username": "lamngockhuong",
     "email": "me@ngockhuong.com"
   },
-  "record": {
+  "records": {
     "URL": "https://dev.ngockhuong.com"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/lamngockhuong",
+      "/x": "https://x.com/lamngockhuong",
+      "/fb": "https://facebook.com/lamngockhuong",
+      "/linkedin": "https://linkedin.com/in/lamngockhuong",
+      "/viblo": "https://viblo.asia/u/lamngockhuong"
+    },
+    "redirect_paths": true
   }
 }

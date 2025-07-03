@@ -1,9 +1,15 @@
 {
+  "description": "bufferwise",
+  "repo": "https://github.com/bufferwise/bufferwise.github.io",
   "owner": {
     "username": "bufferwise",
-    "discord": "790846560229392444"
+    "email": "bufferwise@gmail.com",
+    "discord": "790846560229392444",
+    "instagram": "bufferwise",
+    "twitter": "bufferwise"
   },
-  "record": {
-    "CNAME": "bufferwise.netlify.app"
-  }
+  "records": {
+    "CNAME": "bufferwise.github.io"
+  },
+  "proxied": true
 }

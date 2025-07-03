@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "pavancos",
-      "email": "pavankc005@gmail.com"
-    },
-    "record": {
-      "URL": "https://pavanc.me"
-    }
+  "owner": {
+    "username": "pavancos",
+    "email": "pavankc005@gmail.com"
+  },
+  "records": {
+    "URL": "https://pavanc.me"
   }
-  
+}

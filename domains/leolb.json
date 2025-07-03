@@ -1,11 +1,10 @@
 {
   "description": "Leo LB Portfolio",
-  "repo": "https://github.com/leo-lb29",
   "owner": {
     "username": "leo-lb29",
     "email": "postyourbot@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://leolb.wagoo.app"
   }
 }

@@ -1,10 +1,8 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/patelhardik-p/patelhardik-p.github.io",
   "owner": {
     "username": "patelhardik-p"
   },
-  "record": {
+  "records": {
     "CNAME": "patelhardik-p.github.io"
   }
 }

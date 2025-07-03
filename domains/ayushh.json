@@ -1,11 +1,9 @@
 {
-  "description": "Ayush personal website",
-  "repo": "https://github.com/Ayush-Kotlin-Dev/GFG_GGV",
   "owner": {
     "username": "ayush-kotlin-dev",
     "email": "shweetarai@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://my-portfolio-qlsr.onrender.com/"
   }
 }

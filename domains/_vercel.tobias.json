@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "smarterToby",
-        "discord": "724712767080235049"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=tobias.is-a.dev,21171b13f4596f6ef9ee"
-    }
+  "owner": {
+    "username": "smarterToby",
+    "discord": "724712767080235049"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tobias.is-a.dev,21171b13f4596f6ef9ee"
+  }
 }

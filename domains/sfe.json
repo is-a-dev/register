@@ -1,11 +1,9 @@
 {
-  "description": "my personal docs",
-  "repo": "https://github.com/leecheeyong/leecheeyong",
   "owner": {
     "username": "leecheeyong",
     "email": "tribejoe.gg@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "hosting.gitbook.io"
   }
 }

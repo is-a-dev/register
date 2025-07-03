@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Rohan-ingle",
-        "email": "rohaningle911@gmail.com"
-    },
-    "record": {
-        "CNAME": "rohan-ingle.github.io"
-    }
+  "owner": {
+    "username": "Rohan-ingle",
+    "email": "rohaningle911@gmail.com"
+  },
+  "records": {
+    "CNAME": "rohan-ingle.github.io"
+  }
 }

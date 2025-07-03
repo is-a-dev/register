@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "NotZer0Two",
-        "email": "lyonfan2010@gmail.com"
-    },
-    "record": {
-        "TXT": "dh=89504c863f0365fd5e214e695141b54b8d44c6c7"
-    }
+  "owner": {
+    "username": "NotZer0Two",
+    "email": "lyonfan2010@gmail.com"
+  },
+  "records": {
+    "TXT": "dh=89504c863f0365fd5e214e695141b54b8d44c6c7"
+  }
 }

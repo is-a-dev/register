@@ -1,11 +1,9 @@
 {
-    "description": "Welcome to Ashkan's portfolio – a full-stack developer specializing in Angular, React, NestJS, Go, and cloud-native applications",
-    "repo": "https://github.com/Ashkan4472/ashkan4472.github.io",
-    "owner": {
-        "username": "ashkan4472",
-        "email": "ashkan4472@gmail.com"
-    },
-    "record": {
-        "CNAME": "ashkan4472.github.io"
-    }
+  "owner": {
+    "username": "ashkan4472",
+    "email": "ashkan4472@gmail.com"
+  },
+  "records": {
+    "CNAME": "ashkan4472.github.io"
+  }
 }

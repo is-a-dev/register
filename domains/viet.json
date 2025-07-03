@@ -1,15 +1,10 @@
 {
-  "description": "Secondary domain for vietthe.dev",
-  "repo": "https://github.com/vietthedev/vietthe.dev",
   "owner": {
     "username": "vietthedev",
     "email": "vietthedev@gmail.com",
     "discord": "vietthedev"
   },
-  "record": {
-    "NS": [
-      "evangeline.ns.cloudflare.com",
-      "salvador.ns.cloudflare.com"
-    ]
+  "records": {
+    "NS": ["evangeline.ns.cloudflare.com", "salvador.ns.cloudflare.com"]
   }
 }

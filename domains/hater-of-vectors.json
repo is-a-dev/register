@@ -1,11 +1,10 @@
 {
   "description": "Test website for hater of vectors projects",
-  "repo": "https://github.com/Mortadelo24/",
   "owner": {
     "username": "Mortadelo24",
     "email": "jdmp010101@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://github.com/Mortadelo24/"
   },
   "proxied": false

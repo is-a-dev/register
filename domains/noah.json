@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "noahprm",
-    "email": "contact.noahprm@gmail.com",
-    "discord": "949273553168121856"
+    "username": "noah-dev-codes"
   },
-  "record": {
-    "A": ["217.145.72.79"]
-  }
+  "records": {
+    "CNAME": "noah-dev-codes.github.io"
+  },
+  "proxied": true
 }

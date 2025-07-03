@@ -1,10 +1,10 @@
 {
-    "description": "👋 Hello! I'm Fabio, a passionate developer with 30+ years experience in programming. In my career I have done almost everything, from shared objects for Linux in C to complex web applications and efficient web solutions. Explore my portfolio and contact me on GitHub.",
-    "owner": {
-        "username": "fsoft72",
-        "email": "fabio.rotondo@gmail.com"
-    },
-    "record": {
-        "URL": "https://fsoft.dev"
-    }
+  "description": "👋 Hello! I'm Fabio, a passionate developer with 30+ years experience in programming. In my career I have done almost everything, from shared objects for Linux in C to complex web applications and efficient web solutions. Explore my portfolio and contact me on GitHub.",
+  "owner": {
+    "username": "fsoft72",
+    "email": "fabio.rotondo@gmail.com"
+  },
+  "records": {
+    "URL": "https://fsoft.dev"
+  }
 }

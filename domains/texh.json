@@ -3,7 +3,7 @@
     "username": "Techtonic709",
     "email": "techtonic709@gmail.com"
   },
-  "record": {
-    "MX": ["mx1.improvmx.com"]
+  "records": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
   }
 }

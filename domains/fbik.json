@@ -1,0 +1,11 @@
+{
+  "description": "FBIK.'s Personal Website",
+  "owner": {
+    "username": "FBIKdot",
+    "email": "fbik@duck.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": true
+}
