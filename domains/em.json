@@ -10,10 +10,5 @@
     "MX": [
       "10 mail.sitemgt.io"
     ]
-  },
-  "subdomains": {
-    "www": {
-      "CNAME": "em.is-a.dev"
-    }
   }
 }
