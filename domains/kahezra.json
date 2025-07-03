@@ -4,7 +4,7 @@
         "email": "mailhiro92@gmail.com"
     },
     "records": {
-        "CNAME": "kahezra.github.io",
+        "CNAME": "github-kahezra.pages.dev",
         "TXT": ["zoho-verification=zb73798474.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
         "MX": [
             { "target": "mx.zoho.com", "priority": 10 },
