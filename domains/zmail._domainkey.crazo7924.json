@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "crazo7924",
+    "discord": "466605393309859840"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsG1oi5DHp9ytwPT5aMFt28zy4rxWQ39qLPUJT+jFKVR6/eIIgGfrlQn1VbDNuQum0orxkFlPrOi9tzSxxGKRa5BzXawxk56Je8oy5YZ9L28MpbYlsbiQoc3XQwdBwFp1hbhtBJAm7QmpH6nKk8NZqXGCrq9auS6ShDazaq/ipswIDAQAB"
+  }
+}

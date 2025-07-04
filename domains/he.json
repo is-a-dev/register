@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "Yunexiz",
-    "email": "yunexiz@aol.com"
+    "discord": "1040303561847881729"
   },
-  "record": {
-    "A": ["109.71.252.37"]
+  "records": {
+    "CNAME": "yunexiz.pages.dev"
   }
 }

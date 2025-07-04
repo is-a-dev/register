@@ -1,11 +1,8 @@
 {
-  "description": "Ashutosh Kumar's Portfolio",
-  "repo": "https://github.com/Ashutoshcoder/ashutoshcoder.github.io",
   "owner": {
-    "username": "Ashutoshcoder",
-    "email": "ashutoshkumardbms@gmail.com"
+    "username": "ashutosh9938"
   },
-  "record": {
-    "CNAME": "ashutoshcoder.github.io"
+  "records": {
+    "CNAME": "ashutosh9938.github.io"
   }
 }

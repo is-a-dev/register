@@ -1,11 +1,10 @@
 {
   "description": "Imad",
-  "repo": "https://github.com/imadboy89",
   "owner": {
     "username": "imadboy89",
     "email": "imad.kh@outlook.com"
   },
-  "record": {
+  "records": {
     "A": ["20.101.44.225"]
   }
 }

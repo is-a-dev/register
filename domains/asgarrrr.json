@@ -1,10 +1,9 @@
 {
-  "repo": "https://github.com/Asgarrrr",
   "owner": {
     "username": "Asgarrrr",
     "email": "hello@jeremycaruelle.fr"
   },
-  "record": {
+  "records": {
     "CNAME": "glitch.edgeapp.net"
   }
 }

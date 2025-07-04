@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portofolio",
-  "repo": "https://github.com/rioovs/rioovs.github.io",
   "owner": {
     "username": "rioovs",
     "email": "riooktaviansyah36@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rioovs.github.io"
   }
 }

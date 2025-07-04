@@ -1,6 +1,6 @@
 {
-  "record": {
-    "URL": "https://flymeth.net"
+  "records": {
+    "CNAME": "flyweb-v2.netlify.app"
   },
   "owner": {
     "username": "Flymeth",
