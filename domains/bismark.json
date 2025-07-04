@@ -1,10 +1,9 @@
 {
-  "subdomain": "bismark",
-  "owner": {
-    "email": "bismark@markmixstudios.com"
-  },
-  "record": {
-    "CNAME": "onebismark.github.io"
-  },
-  "proxied": false
+    "owner": {
+        "username": "onebismark",
+        "email": "bismark@markmixstudios.com"
+    },
+    "records": {
+        "CNAME": "onebismark.github.io"
+    }
 }
