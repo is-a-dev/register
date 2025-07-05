@@ -1,8 +1,14 @@
 {
   "owner": {
-    "username": "Himanshu4747860"
+    "username": "Himanshu4747860",
+    "email": "himanshu12736@gmail.com"
   },
-  "records": {
-    "cname": "vaxyro.onrender.com"
+  "repo": "Himanshu4747860/vaxyro",
+  "target": "vaxyro.onrender.com",
+  "description": "Cybersecurity platform with hacking tools and 3D UI",
+  "purpose": "educational",
+  "providers": ["render"],
+  "record": {
+    "CNAME": "vaxyro.onrender.com"
   }
 }
