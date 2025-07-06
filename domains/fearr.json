@@ -1,4 +1,9 @@
 {
-  "owner": "swrlzxx",
-  "description": "Personal website for fearr"
+  "owner": {
+    "username": "swrlzxx",
+    "discord": "0xd3efac3d"
+  },
+  "records": {
+    "CNAME": "swrlzxx.github.io"
+  }
 }
