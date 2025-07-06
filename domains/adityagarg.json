@@ -5,7 +5,10 @@
   },
   "records": {
     "CNAME": "adityagarg8.github.io",
-    "TXT": "protonmail-verification=b7fa74448fd4e0529c97bc5fb91ed10ca85e0168"
+    "TXT": [
+      "protonmail-verification=b7fa74448fd4e0529c97bc5fb91ed10ca85e0168",
+      "zoho-verification=zb05622040.zmverify.zoho.in
+    ]
   },
   "proxied": true
 }
