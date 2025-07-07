@@ -7,12 +7,12 @@ YOU MUST FILL OUT THIS TEMPLATE ENTIRELY FOR YOUR PR TO BE ACCEPTED, NONE OF IT 
 
 <!-- Change each checkbox to [x] (all lowercase, with no spaces between the brackets) to mark it as completed. -->
 
-- [ ] I have **read** and **agree** to the [Terms of Service](https://is-a.dev/terms). <!-- Your request MUST follow the TOS to be approved. -->
-- [ ] My file is following the [domain structure](https://docs.is-a.dev/domain-structure/).
-- [ ] My website is **reachable** and **completed**. <!-- We do not permit simple "Hello, world!" or simply copied/mostly blank templated websites. -->
-- [ ] My website is **software development** related. <!-- Only your root subdomain needs to meet this requirement. -->
-- [ ] I have provided sufficient contact information in the `owner` key. <!-- Provide your email in the `email` field or another platform (e.g. X/Twitter or Discord) for contact. -->
-- [ ] I have provided a preview of my website below. <!-- This step is required for your domain to be approved. -->
+- [x] I have **read** and **agree** to the [Terms of Service](https://is-a.dev/terms). <!-- Your request MUST follow the TOS to be approved. -->
+- [x] My file is following the [domain structure](https://docs.is-a.dev/domain-structure/).
+- [x] My website is **reachable** and **completed**. <!-- We do not permit simple "Hello, world!" or simply copied/mostly blank templated websites. -->
+- [x] My website is **software development** related. <!-- Only your root subdomain needs to meet this requirement. -->
+- [x] I have provided sufficient contact information in the `owner` key. <!-- Provide your email in the `email` field or another platform (e.g. X/Twitter or Discord) for contact. -->
+- [x] I have provided a preview of my website below. <!-- This step is required for your domain to be approved. -->
 
 # Website Preview
 <!-- Provide a link or screenshot of your website below. -->
