@@ -1,4 +1,4 @@
 * @mrkerian
 
-/domains/ @jkacme/maintainers
-*.md @jkacme/maintainers
+/domains @mrkerian
+*.md @mrkerian
