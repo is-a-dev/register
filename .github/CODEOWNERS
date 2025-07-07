@@ -1,4 +1,4 @@
-* @wdhdev
+* @mrkerian
 
-/domains/ @is-a-dev/maintainers
-*.md @is-a-dev/maintainers
+/domains/ @jkacme/maintainers
+*.md @jkacme/maintainers
