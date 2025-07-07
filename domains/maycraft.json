@@ -1,5 +1,10 @@
 {
-  "name": "maycraft",
-  "type": "A",
-  "target": "207.180.254.11"
+  "owner": {
+    "username": "soymaycol",
+    "email": "karatekidamericatv@gmail.com"
+  },
+  "records": {
+    "A": "207.180.254.11"
+  },
+  "proxied": false
 }
