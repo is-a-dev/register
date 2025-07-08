@@ -1,0 +1,21 @@
+{
+  "owner": {
+    "username": "RehanPlayz",
+    "email": "RehanPlayz321@pm.me"
+  },
+  "records": {
+    "AAAA": [
+      "2a0b:4e07:8:1::869"
+    ],
+    "MX": [
+      { "priority": 10, "target": "mx.zoho.com" },
+      { "priority": 20, "target": "mx2.zoho.com" },
+      { "priority": 50, "target": "mx3.zoho.com" }
+    ],
+    "TXT": [
+      "v=spf1 include:zoho.com ~all",
+      "zoho-verification=zb38023323.zmverify.zoho.com"
+    ]
+  },
+  "proxied": true
+}
