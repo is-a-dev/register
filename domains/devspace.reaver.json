@@ -5,6 +5,11 @@
     "email": "reaver.entertainment@hotmail.com"
   },
   "records": {
-    "A": ["80.74.31.197"]
+    "A": ["80.74.31.197"],
+    "TXT": {
+      "_acme-challenge.devspace": "devAt0AD4jmuvgyIf20QXnrdhtzyiv_exuTiH-FMyTU",
+      "_acme-challenge.www.devspace": "Wa6egx_VprU9Ixruf2otVNZYAeevRaWur_kXC2dX2dE"
+    }
   }
 }
+
