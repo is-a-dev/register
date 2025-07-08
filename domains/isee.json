@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "fmhgit",
+    "email": "fjh@live.com"
+  },
+  "records": {
+    "NS": ["ns1.example.com", "ns2.example.com"]
+  },
+  "proxied": true
+}
