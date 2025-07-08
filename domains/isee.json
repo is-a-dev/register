@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "fmhgit",
+    "email": "fjh@live.com"
+  },
+  "records": {
+    "NS": ["art.ns.cloudflare.com", "penny.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
