@@ -4,7 +4,7 @@
     "email": "fjh@live.com"
   },
   "records": {
-    "NS": ["ns1.example.com", "ns2.example.com"]
+    "NS": ["art.ns.cloudflare.com", "penny.ns.cloudflare.com"]
   },
   "proxied": true
 }
