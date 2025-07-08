@@ -4,7 +4,8 @@
     "email": "bee411769@gmail.com"
   },
   "records": {
-    "CNAME": "is-a-dev-docs.pages.dev"
+    "A": ["75.2.60.5"]
+    
   },
   "proxied": true
 }
