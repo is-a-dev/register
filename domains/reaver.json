@@ -4,6 +4,6 @@
     "discord": "802466803984760853"
   },
   "records": {
-    "CNAME": "playreaver.github.io"
+    "A": ["75.2.60.5"]
   }
 }
