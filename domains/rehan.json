@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "RehanPlayz",
+    "email": "RehanPlayz321@pm.me"
+  },
+  "records": {
+    "AAAA": [
+      "2a0b:4e07:8:1::869"
+    ],
+    "MX": [
+      { "priority": 10, "target": "mx1.improvmx.com" },
+      { "priority": 20, "target": "mx2.improvmx.com" }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  },
+  "proxied": true
+}
