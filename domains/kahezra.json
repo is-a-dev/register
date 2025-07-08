@@ -5,7 +5,8 @@
     },
     "records": {
         "CNAME": "github-kahezra.pages.dev",
-        "TXT": ["zoho-verification=zb73798474.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
+        "TXT": ["zoho-verification=zb73798474.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all",
+                "google-site-verification=Kh1pnn3tMQM9NFhPO4uNurqXmGhqiKxPKaybmVXHbB8"],
         "MX": [
             { "target": "mx.zoho.com", "priority": 10 },
             { "target": "mx2.zoho.com", "priority": 20 },
