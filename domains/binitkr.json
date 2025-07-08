@@ -1,0 +1,24 @@
+{
+    "owner": {
+        "username": "binitkr985",
+        "email": "0506al241022@gmail.com"
+    },
+    "records": {
+        "MX": [
+            {
+                "value": "mx.zoho.in", "priority": 10
+            },
+            {
+                "value": "mx2.zoho.in", "priority": 20
+            },
+            {
+                "value": "mx3.zoho.in", "priority": 50
+            }
+        ],
+        "TXT": [
+            {
+                "value": "zoho-verification=zb59113750.zmverify.zoho.in"
+            }
+        ]
+    }
+}
