@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "micro-CAO",
+    "email": "ckfu20219@gmail.com"
+  },
+  "records": {
+    "NS": ["aria.ns.cloudflare.com", "braden.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
