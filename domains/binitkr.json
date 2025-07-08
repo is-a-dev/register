@@ -4,6 +4,7 @@
         "email": "0506al241022@gmail.com"
     },
     "records": {
+        "A": "216.198.79.1",
         "MX": [
             {
                 "value": "mx.zoho.in", "priority": 10
@@ -18,6 +19,10 @@
         "TXT": [
             {
                 "value": "zoho-verification=zb59113750.zmverify.zoho.in"
+            },
+            {
+                "name": "_vercel",
+                "value": "vc-domain-verify=binitkr.is-a.dev,2eb636e51958759c660a"
             }
         ]
     }
