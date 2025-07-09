@@ -1,0 +1,14 @@
+{
+  "description": "ChatUI – A Modern Vietnamese AI Chat Assistant  ChatUI is a sleek, Gen-Z–friendly AI chatbot app created by tanbaycu, built for natural Vietnamese conversation. It supports advanced features like contextual dialogue, image input, content and code generation, and memory recall.  Deployed via Vercel, it delivers a fast, responsive experience with a clean UI. Key functions include new chat sessions, history clearing, image uploads, and more—completely free to use and tailored to the Vietnamese audience.",
+  "repo": "https://github.com/tanbaycu/chatui-tanbaycu",
+  "owner": {
+    "username": "tanbaycu",
+    "email": "tranminhtan4953@gmail.com",
+    "discord": "tanbaycu"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
+}
