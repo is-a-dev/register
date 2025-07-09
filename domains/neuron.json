@@ -1,0 +1,12 @@
+{
+  "description": "Hello, we are a company that's looking for a domain neuron.is-a.dev, but we need NS to self host our website for protection and do use it for software development, our company is trusted and our company will NEVER break any TOS it would be great if you accept.",
+  "owner": {
+    "username": "noah-dev-codes"
+  },
+  "records": {
+    "NS": [
+      "lola.ns.cloudflare.com",
+      "nico.ns.cloudflare.com"
+    ]
+  }
+}
