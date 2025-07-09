@@ -1,0 +1,16 @@
+{
+"owner"
+: {
+"username"
+: "ac-xz",
+"email"
+: "msio2019@outlook.com"
+},
+"records"
+: {
+"A"
+: ["111.111.111.111"]
+},
+"proxied"
+: true
+}
