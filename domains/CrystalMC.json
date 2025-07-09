@@ -1,0 +1,26 @@
+{
+  "owner": {
+    "username": "AFKgods"
+  },
+  "records": {
+    "A": ["121.218.241.175"],
+    "SRV": [
+      {
+        "name": "_minecraft._tcp.CrystalMC",
+        "ttl": 3600,
+        "priority": 0,
+        "weight": 5,
+        "port": 25565,
+        "target": "CrystalMC.is-a.dev"
+      },
+      {
+        "name": "_minecraft._udp.CrystalMC",
+        "ttl": 3600,
+        "priority": 0,
+        "weight": 5,
+        "port": 19132,
+        "target": "CrystalMC.is-a.dev"
+      }
+    ]
+  }
+}
