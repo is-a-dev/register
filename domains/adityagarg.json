@@ -11,8 +11,7 @@
     "TXT": [
       "protonmail-verification=b7fa74448fd4e0529c97bc5fb91ed10ca85e0168",
       "zoho-verification=zb05622040.zmverify.zoho.in",
-      "v=spf1 include:_spf.protonmail.ch ~all",
-      "v=spf1 include:zoho.in ~all"
+      "v=spf1 include:zoho.in include:_spf.protonmail.ch ~all"
     ]
   }
 }
