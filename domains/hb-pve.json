@@ -4,12 +4,9 @@
     "email": "a522472@gmail.com"
   },
   "records": {
-    "NS": {
-      "domain": "@",
-      "value": [
-        "hal.ns.cloudflare.com",
-        "magali.ns.cloudflare.com"
-      ]
-    }
+    "NS": [
+      "hal.ns.cloudflare.com",
+      "magali.ns.cloudflare.com"
+    ]
   }
 }
