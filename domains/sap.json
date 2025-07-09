@@ -1,0 +1,19 @@
+{
+  "description": "A Portfolio",
+  "repo": "https://github.com/ripangelhacks/ripangelhacks.github.io",
+  "owner": {
+    "username": "Ripangelhacks",
+    "email": "Scaroontop@outlook.com",
+    "Discord": "Sap_ontop"
+  },
+  "records": {
+    "CNAME": "ripangelhacks-github-io.pages.dev",
+    "_verify": {
+      "TXT": [
+        "dh=a3dea54a1405697decc2d15bd8ea3c184a7af158",
+        "aac0cfc1362988ef2e252547052eda"
+      ]
+    }
+  },
+  "proxied": true
+}
