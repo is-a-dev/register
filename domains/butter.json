@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "Butter2605",
+    "email": "tnguyen030508@gmail.com"
+  },
+  "records": {
+      "SRV": [
+          {
+            "priority": 10,
+            "weight": 5,
+            "port": 25565,
+            "target": "simplesmp.ddns.net"
+          }
+        ],
+    "CNAME": "Butter2605.github.io"
+  }
+}
