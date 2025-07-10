@@ -1,10 +1,8 @@
 {
-  "description": "Bipin Bheda Profile.",
-  "repo": "https://github.com/bipin-bheda/bipin-bheda.github.io",
   "owner": {
     "username": "bipin-bheda"
   },
-  "record": {
+  "records": {
     "CNAME": "bipin-bheda.github.io"
   }
 }

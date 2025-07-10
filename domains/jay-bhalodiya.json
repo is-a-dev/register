@@ -1,11 +1,9 @@
 {
-  "description": "Jay Bhalodiya.",
-  "repo": "https://github.com/jay-bhalodiya/jay-bhalodiya.github.io",
   "owner": {
     "username": "jay-bhalodiya",
     "email": "jay.bhalodiya@acquaintsoft.com"
   },
-  "record": {
+  "records": {
     "CNAME": "jay-bhalodiya.github.io"
   }
 }

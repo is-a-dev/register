@@ -1,10 +1,10 @@
 {
-  "repo": "https://github.com/exyxz/exyxz.github.io",
+  "repo": "https://codeberg.org/exyxz/pages",
   "owner": {
     "username": "exyxz",
     "discord": "exyxz"
   },
-  "record": {
-    "CNAME": "exyxz.github.io"
+  "records": {
+    "CNAME": "exyxz.codeberg.page"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "My Developer Portfolio",
-  "repo": "https://github.com/SudoRV/register",
   "owner": {
     "username": "SudoRV",
     "email": "rahulverma.1.2005@gamil.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rahul-verma.onrender.com"
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "facundopidal",
-        "email": "facundopidalruizdiaz@gmail.com"
-    },
-    "record": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "facundopidal",
+    "email": "facundopidalruizdiaz@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

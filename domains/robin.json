@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio",
-  "repo": "https://github.com/RobinJesba/robinjesba.github.io",
   "owner": {
     "username": "RobinJesba",
     "email": "jb.robinm@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "robinjesba.github.io"
   }
 }

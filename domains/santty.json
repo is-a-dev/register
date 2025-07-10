@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "santiagogr05",
-      "email": "san7iagogr.05@gmail.com"
-    },
-    "record": {
-        "CNAME": "portfolio-santtys-projects.vercel.app"
-    }
+  "owner": {
+    "username": "santiagogr05",
+    "email": "san7iagogr.05@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-santtys-projects.vercel.app"
+  }
 }

@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "VulcanoSoftware",
-           "discord": "814891541205876767",
-           "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.DlO2KOEJxA8ox9mvR1isR_rPxNzdgErO1Sz3lDV1n3RjS--FqiD_kwjxXJFUNwCiHYhhUyVab9ZCjvaZ3dmL4En1v8sRTTl4KkrwDnW6ggD95L2KjejHNUpfogXgxzD5JlIg_ANXQX7MMbQKkc3ih8xFAEUCo4Hy7CkGzN7Kwcu9jvWz4TgX6WoRLqN1AGv0Ldn49hDviRsfXUqWuHOJOJjCtMQPj2uZAqKVXPwlFz_QZJCxd6nNCWRZwOi7q06aCPMjkIo3bppt_iBQxmK2XI0rd4nf5qZF9tyAr_d5FXu6gpLApFsb1HGTwNJ2PDHeVvXx9j6pS8shMhLVtYo_0g.V41N00bJ1np-q-JhkGNn1A.Lr5tPaGpBKb_I2r9QF2N8CperG-05bOj-LxHU5QSnPw2VhP-f8g6DQC4sw1HG76SfX6dhV4OOgrr7afpp7axGQefMEUTVEnJhiyxlWsq7NXGqai43vbifEaV8FCrjNLd.vFOZ2h0K7ag6ESfdcFSXAA"
-        },
-    
-        "record": {
-            "CNAME": "vulcanolinks.pages.dev"
-        }
-    }
-    
+  "owner": {
+    "username": "VulcanoSoftware",
+    "discord": "814891541205876767"
+  },
+  "records": {
+    "CNAME": "vulcanolinks.pages.dev"
+  }
+}

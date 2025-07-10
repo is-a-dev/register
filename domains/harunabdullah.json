@@ -1,9 +1,16 @@
 {
   "owner": {
-    "username": "harunabdullahrakin"
+    "username": "harunabdullahrakin",
+    "email": "harunabdullahrakin@gmail.com"
   },
-
-  "record": {
-    "A": ["185.31.40.12"]
-  }
+  "records": {
+    "CNAME": "portfolio-52h.pages.dev",
+    "TXT": "zoho-verification=zb02836572.zmverify.zoho.com",
+    "MX": [
+  { "target": "mx.zoho.com", "priority": 10 },
+  { "target": "mx2.zoho.com", "priority": 20 },
+  { "target": "mx3.zoho.com", "priority": 50 }
+    ]
+  },
+  "proxied": true
 }

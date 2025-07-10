@@ -1,11 +1,9 @@
 {
-  "description": "Dhinesh's portfolio website",
-  "repo": "https://github.com/mdhinesh/mdhinesh.github.io",
   "owner": {
     "username": "mdhinesh",
     "email": "mdhinesh3103@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mdhinesh.github.io"
   }
 }
