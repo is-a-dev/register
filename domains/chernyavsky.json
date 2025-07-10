@@ -4,6 +4,6 @@
         "email": "pprometey@gmail.com"
     },
     "records": {
-        "CNAME": "chernyavsky.vercel.app"
+        "A": "75.2.60.5"
     }
 }
