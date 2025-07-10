@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Tiziam",
+	  "email": "t69721446@gmail.com"
+  },
+  "records": {
+    "A": ["89.168.108.102"],
+	"CAA": [
+		{ "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+	]
+  }
+}
