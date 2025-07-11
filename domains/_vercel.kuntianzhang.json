@@ -4,6 +4,6 @@
     "email": "kuntianzhang@gmail.com"
   },
   "records": {
-	"A": ["216.198.79.1"]
-  }
+        "TXT": "vc-domain-verify=kuntianzhang.is-a.dev,e9a849ea14ce37b2b1de"
+    }
 }
