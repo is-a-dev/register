@@ -1,9 +1,10 @@
 {
+  "repo": "https://github.com/shinyzenith/website",
   "owner": {
     "username": "Shinyzenith",
     "email": "aakashsensharma@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "shinyzenith.github.io"
   }
 }

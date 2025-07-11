@@ -1,11 +1,9 @@
 {
-    "description": "Portfolio.",
-    "repo": "https://github.com/kotru21/kotikov",
-    "owner": {
-        "username": "kotru21",
-        "email": "kotikovv@proton.me"
-    },
-    "record": {
-        "URL": "https://kotikov.pages.dev"
-    }
-} 
+  "owner": {
+    "username": "kotru21",
+    "email": "kotikovv@proton.me"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

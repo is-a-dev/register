@@ -1,11 +1,9 @@
 {
-  "description": "Josh's personal developer website",
-  "repo": "https://github.com/miltzi",
   "owner": {
-    "username": "miltzi",
-    "email": "josh@miltz.co.za"
+    "username": "joshhargreaves",
+    "email": "me@joshhargreaves.co.uk"
   },
-  "record": {
-    "CNAME": "joshisadev.miltz.co.za"
+  "records": {
+    "URL": "https://joshhargreaves.co.uk"
   }
 }

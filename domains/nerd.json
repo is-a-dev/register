@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "n3rd3x3",
-    "email": "me@n3rd3x3.xyz"
+    "username": "xkcdnerd",
+    "email": "evanwang330@gmail.com"
   },
-  "record": {
-    "URL": "https://n3rd3x3.xyz"
+  "records": {
+    "CNAME": "xkcdnerd.github.io"
   }
 }
