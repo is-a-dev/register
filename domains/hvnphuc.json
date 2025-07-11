@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "phucsky971",
+    "email": "popapodfrost121@gmail.com"
+  },
+  "records": {
+    "NS": ["mario.ns.cloudflare.com", "veda.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
