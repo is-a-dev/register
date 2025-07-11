@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "YeduKrishnanTY",
-    "discord": "Chandler._bing__#8780"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=yedu.is-a.dev,a55891089e9564d9801c"
-  }
+    "owner": {
+        "username": "YedukrishnanTY",
+        "email": "yedu345@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=yedu.is-a.dev,a55891089e9564d9801c"
+    }
 }
