@@ -3,8 +3,6 @@
     "username": "yasha-nova",
     "email": "phoenixbestwaifu@gmail.com"
   },
-  "records": {
-    "type": "CNAME",
-    "value": "yasha-nova.github.io"
-  }
+    "records": {
+    "CNAME": "yasha-nova.github.io"
 }
