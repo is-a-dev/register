@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "abbas-rz",
+    "email": "mail.abbas.raza@gmail.com"
+  },
+  "description": "Email forwarding setup only – no hosting",
+  "records": {
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}
