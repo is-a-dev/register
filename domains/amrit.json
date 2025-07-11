@@ -1,11 +1,9 @@
 {
-    
     "owner": {
-        "username": "amritsapkotadev",
+      "username": "amritsapkotadev",
       "email": "amritsapkota.dev@gmail.com"
     },
     "records": {
       "CNAME": "amritsapkotadev.github.io"
     }
   }
-  
