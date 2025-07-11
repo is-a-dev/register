@@ -4,6 +4,7 @@
     "email": "mail.abbas.raza@gmail.com"
   },
   "description": "Email forwarding + GitHub Pages site",
+  "proxied": true,
   "records": {
     "CNAME": "abbas-rz.github.io",
     "MX": [
