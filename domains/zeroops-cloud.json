@@ -2,10 +2,11 @@
   "name": "zeroops-cloud",
   "description": "ZeroOps DevOps Landing Page",
   "owner": {
-    "email": "sms9960515873@gmail.com"
+    "email": "sms9960515873@gmail.com",
+    "username": "sainathmitalakar"
   },
   "record": {
-    "type": "CNAME",
-    "value": "sainathmitalakar.github.io"
+    "CNAME": "sainathmitalakar.github.io"
   }
 }
+
