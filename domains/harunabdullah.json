@@ -4,14 +4,13 @@
     "email": "harunabdullahrakin@gmail.com"
   },
   "records": {
-    "NS": ["bethany.ns.cloudflare.com", "harley.ns.cloudflare.com"],
-    "DS": [
-      {
-    "key_tag": 2371,
-    "algorithm": 13,
-    "digest_type": 2,
-    "digest": "DC28D667417B8AEEF27B526D11C20E8C4CEF895F47B4F0C16C14655F5D7333F6"
-  }
-]
-  }
+    "CNAME": "my-portfolio-d61.pages.dev",
+    "TXT": "v=spf1 include:zohomail.com ~all",
+    "MX": [
+  { "target": "mx.zoho.com", "priority": 10 },
+  { "target": "mx2.zoho.com", "priority": 20 },
+  { "target": "mx3.zoho.com", "priority": 50 }
+    ]
+  },
+  "proxied": true
 }
