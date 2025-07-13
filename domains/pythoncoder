@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "defPythonCoder"
+  },
+  "records": {
+    "SRV": [
+      {
+        "priority": 1,
+        "weight": 1,
+        "port": 3176,
+        "target": "node66.lunes.host"
+      }
+    ]
+  }
+}
