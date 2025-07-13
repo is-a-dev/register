@@ -4,6 +4,6 @@
         "email": "yedu345@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "TXT": "vc-domain-verify=yedu.is-a.dev,a55891089e9564d9801c"
     }
 }
