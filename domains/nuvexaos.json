@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "nuvexa-os",
+    "email": "wshahin28@gmail.com"
+  },
+
+  "description": "Operating System",
+
+  "records": {
+    "CNAME": "nuvexa-os.github.io"
+  },
+
+  "proxied": true
+}
