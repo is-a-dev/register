@@ -11,6 +11,7 @@ YOU MUST FILL OUT THIS TEMPLATE ENTIRELY FOR YOUR PR TO BE ACCEPTED, NONE OF IT 
 - [ ] My file is following the [domain structure](https://docs.is-a.dev/domain-structure/).
 - [ ] My website is **reachable** and **completed**. <!-- We do not permit simple "Hello, world!" or simply copied/mostly blank templated websites. -->
 - [ ] My website is **software development** related. <!-- Only your root subdomain needs to meet this requirement. -->
+- [ ] My website is not for commercial use. <!-- Your website's purpose should not be to generate any form of revenue. -->
 - [ ] I have provided sufficient contact information in the `owner` key. <!-- Provide your email in the `email` field or another platform (e.g. X/Twitter or Discord) for contact. -->
 - [ ] I have provided a preview of my website below. <!-- This step is required for your domain to be approved. -->
 
