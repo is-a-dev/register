@@ -5,6 +5,6 @@
   },
   
   "records": {
-    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCNd0tRPKNBjo6M0oOl1bg9+dwEQNLOZ/2VdRZ/G9rLgcaI3gM1LczpJb+Yb5RNYeNExM2ssKiipbpTeC2HEvoI3tXYqatzl84twVn/ImOpXkRZ02kQJjxNZ+gf2G89KP3kefzAZErspB45YBVryWby6WKV1RsC35yT5X4XYlkrRQIDAQAB"
+    "TXT": "v=DMARC1; p=none; rua=mailto:harunabdullahrakin@gmail.com; ruf=mailto:harunabdullahrakin@gmail.com; sp=none; adkim=r; aspf=r; pct=100"
   }
 }
