@@ -5,11 +5,8 @@
   },
   "records": {
     "CNAME": "my-portfolio-d61.pages.dev",
-    "TXT": [
-      "v=spf1 include:zohomail.com ~all",
-      "harunabdullah._domainkey v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCNd0tRPKNBjo6M0oOl1bg9+dwEQNLOZ/2VdRZ/G9rLgcaI3gM1LczpJb+Yb5RNYeNExM2ssKiipbpTeC2HEvoI3tXYqatzl84twVn/ImOpXkRZ02kQJjxNZ+gf2G89KP3kefzAZErspB45YBVryWby6WKV1RsC35yT5X4XYlkrRQIDAQAB",
-      "_dmarc v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCNd0tRPKNBjo6M0oOl1bg9+dwEQNLOZ/2VdRZ/G9rLgcaI3gM1LczpJb+Yb5RNYeNExM2ssKiipbpTeC2HEvoI3tXYqatzl84twVn/ImOpXkRZ02kQJjxNZ+gf2G89KP3kefzAZErspB45YBVryWby6WKV1RsC35yT5X4XYlkrRQIDAQAB"
-    ],
+    "TXT": "v=spf1 include:zohomail.com ~all",
+    
     "MX": [
       { "target": "mx.zoho.com", "priority": 10 },
       { "target": "mx2.zoho.com", "priority": 20 },
