@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "cnbillsomeday",
+    "email": "cnlouzon@hotmail.com"
+  },
+  "records": {
+    "NS": ["jaxson.ns.cloudflare.com", "raphaela.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
