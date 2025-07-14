@@ -1,0 +1,10 @@
+{
+  "subdomain": "dileep",
+  "owner": {
+    "email": "dileepbairwa48@@gmail.com"
+  },
+  "record": {
+    "CNAME": "shiny-centaur-1bf495.netlify.app"
+  },
+  "proxied": true
+}
