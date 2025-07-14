@@ -1,9 +1,18 @@
 {
-    "owner": {
-        "username": "mitulsavani07",
-        "email": "mitulsavani100@gmail.com"
+  "owner": {
+    "username": "mitulsavani07",
+    "email": "mitulsavani100@gmail.com"
+  },
+  "records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "216.198.79.1"
     },
-    "record": {
-        "CNAME": "mitulsavani.vercel.app"
+    {
+      "type": "TXT",
+      "name": "_vercel",
+      "value": "vc-domain-verify=mitulsavani.is-a.dev,95b085a94a3e16d81220"
     }
+  ]
 }
