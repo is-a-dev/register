@@ -1,11 +1,10 @@
 {
-  "description": "Prajwal's Portfolio",
-  "repo": "https://github.com/prajwal678/portfolio",
   "owner": {
-    "username": "prajwal678",
-    "email": "i.am.prajwal67@gmail.com"
+    "username": "Toricane",
+    "email": "prjwl028@gmail.com",
+    "discord": "721093211577385020"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "toricane.github.io"
   }
 }
