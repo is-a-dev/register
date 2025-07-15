@@ -1,7 +1,8 @@
 {
     "owner": {
         "username": "PRODEFIX",
-        "email": "prodefix.ytb@gmail.com",
+        "discord": "@prodefix",
+        "email": "prodefix.ytb@gmail.com"
     },
     "records": {
         "CNAME": "prodefix.pages.dev"
