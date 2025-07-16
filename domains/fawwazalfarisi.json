@@ -4,7 +4,8 @@
     "email": "fawwazalfarisi.works@gmail.com"
   },
   "records": {
-    "CNAME": "fawwaz-dev.vercel.app"
+    "CNAME": "fawwaz-dev.vercel.app",
+    "_vercel": "f613731f2de392fbf590"
   },
-  "proxied": true
+  "proxied": false
 }
