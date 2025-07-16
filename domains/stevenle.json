@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "sle-portfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=stevenle.is-a.dev,f3f7af055e99ad957025"
   }
 }

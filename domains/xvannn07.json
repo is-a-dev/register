@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "portfolio-six-alpha-70.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=xvannn07.is-a.dev,4316a096c3d8550c18c6"
   }
 }

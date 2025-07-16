@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "jigarbhoye.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=jigarbhoye.is-a.dev,194424ab5762042e64fa"
   }
 }

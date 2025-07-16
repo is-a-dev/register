@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "renzcole.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=renzcole.is-a.dev,ed459816c1440ddeef46"
   }
 }

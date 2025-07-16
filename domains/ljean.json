@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "portfolio-astro-fawn-ten.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ljean.is-a.dev,1864955b5da34f083f9b"
   }
 }

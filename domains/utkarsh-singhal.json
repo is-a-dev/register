@@ -6,8 +6,5 @@
   "records": {
     "A": ["76.76.21.21"],
     "TXT": "google-site-verification=oj2YfeDwy1ZWhgRNV7Yrp1G8ikXh_6yWA2GT5G4ELgs"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=utkarsh-singhal.is-a.dev,31f5c6e60805af21e98f"
   }
 }

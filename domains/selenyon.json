@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "selenyon.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=selenyon.is-a.dev,53f04c64c3c2f20c96cb"
   }
 }
