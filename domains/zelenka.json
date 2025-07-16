@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "zelenka-dev",
+    "email": "zelenka.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "https://zelenkadev.onrender.com/"
+  },
+  "proxied": true
+}
