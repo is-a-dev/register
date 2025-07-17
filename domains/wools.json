@@ -1,13 +1,11 @@
 {
-  "description": "wools.is-a.dev",
+  "subdomain": "wools",
   "owner": {
     "username": "hyz",
     "email": "0xeeef@gmail.com",
     "discord": "wooloopx"
   },
   "records": {
-    "A": [ "206.217.131.9" ],
-    "CAA": [ { "flags": 0, "tag": "issue", "value": "letsencrypt.org" } ]
-  },
-  "proxied": true
+    "A": [ "206.217.131.9" ]
+  }
 }
