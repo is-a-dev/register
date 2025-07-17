@@ -1,9 +1,12 @@
 {
   "owner": {
-    "username": "jakkmalm",
+    "username": "jacob-ost",
     "email": "jacob_ost@hotmail.com"
   },
   "records": {
-    "CNAME": "nextjs-portfolio-kappa-umber-96.vercel.app"
+    "CNAME": "nextjs-portfolio-kappa-umber-96.vercel.app",
+    "TXT": {
+      "_vercel": "vc-domain-verify=jacobmalmberg.is-a.dev,92f5c9869d0567dbd59c"
+    }
   }
 }
