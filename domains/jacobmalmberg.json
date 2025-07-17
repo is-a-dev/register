@@ -3,12 +3,11 @@
     "username": "jakkmalm",
     "email": "jacob_ost@hotmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "name": "@",
-      "value": "nextjs-portfolio-kappa-umber-96.vercel.app"
-    },
+  "records": {
+    "CNAME": "nextjs-portfolio-kappa-umber-96.vercel.app"
+  },
+  "proxied": false,
+  "additionalRecords": [
     {
       "type": "TXT",
       "name": "_vercel",
