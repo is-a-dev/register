@@ -6,7 +6,7 @@
     "discord": "wooloopx"
   },
   "records": {
-    "A": "206.217.131.9",
+    "A": [ "206.217.131.9" ],
     "CAA": [ { "flags": 0, "tag": "issue", "value": "letsencrypt.org" } ]
   },
   "proxied": true
