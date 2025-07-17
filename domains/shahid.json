@@ -3,7 +3,7 @@
         "username": "shahidadev",
         "email": "mdgffkiller8@gmail.com"
     },
-    "record": {
-        "CNAME": "shahidadev.github.io/shahid"
+    "records": {
+        "CNAME": "shahidadev.github.io"
     }
 }
