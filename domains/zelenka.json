@@ -4,7 +4,7 @@
     "email": "zelenka.dev@gmail.com"
   },
   "records": {
-    "CNAME": "https://zelenkadev.onrender.com/"
+    "CNAME": "zelenkadev.onrender.com"
   },
   "proxied": true
 }
