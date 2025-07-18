@@ -1,0 +1,9 @@
+{
+  "subdomain": "devtinder",
+  "owner": {
+    "email": "amanjhasahab07@email.com"
+  },
+  "record": {
+    "A": ["34.171.74.126"]
+  }
+}
