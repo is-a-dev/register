@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "frontend-green-kappa.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=jong.is-a.dev,d7331d87860e2795082e"
   }
 }

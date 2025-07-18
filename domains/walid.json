@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "walidportfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=walid.is-a.dev,07f21040e774188d5860"
   }
 }

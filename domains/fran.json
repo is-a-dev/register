@@ -4,16 +4,8 @@
     "discord": "xzon1x"
   },
   "records": {
-    "A": [
-      "185.199.108.153",
-      "185.199.110.153",
-      "185.199.109.153",
-      "185.199.111.153"
-    ],
+    "A": ["185.199.108.153", "185.199.110.153", "185.199.109.153", "185.199.111.153"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  },
-  "services": {
-    "discord": "dh=9ffde6acccff8c74faeb599818e2901110d15fa5"
   }
 }

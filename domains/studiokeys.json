@@ -7,8 +7,5 @@
   "records": {
     "CNAME": "studiokeys.vercel.app"
   },
-  "proxied": true,
-  "services": {
-    "vercel": "vc-domain-verify=studiokeys.is-a.dev,102fe59fc367a0ff21e9"
-  }
+  "proxied": true
 }
