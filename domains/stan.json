@@ -4,6 +4,21 @@
     "email": "stanleysutton2510@gmail.com"
   },
   "records": {
-    "CNAME": "stanleysutton.github.io"
-  }
+    "CNAME": "stanleysutton.github.io",
+    "MX": [
+      {
+        "target": "mx.zoho.eu",
+        "priority": 10
+      },
+      {
+        "target": “mx2.zoho.eu",
+        "priority": "20"
+      },
+      {
+        "target": "mx3.zoho.eu”,
+        "priority": "50"
+      }
+    ]
+  },
+  "proxied": true,
 }
