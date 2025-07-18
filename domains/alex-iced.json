@@ -4,6 +4,6 @@
         "email": "alexvolkov@envs.net",
         "bluesky": "https://bsky.app/profile/avol.pp.ua"
     },
-    "CNAME": "alexvolkov.envs.net",
+    "records": {"CNAME": "alexvolkov.envs.net"},
     "proxied": true
 }
