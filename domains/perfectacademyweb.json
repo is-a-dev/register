@@ -1,0 +1,11 @@
+{
+    "description": "Portfolio website",
+    "repo": "https://github.com/perfectacademyweb/perfectacademyweb.github.io",
+    "owner": {
+        "username": "perfectacademyweb",
+        "email": "perfectacademy.web@gmail.com"
+    },
+    "record": {
+        "CNAME": "perfectacademyweb.github.io"
+    }
+}
