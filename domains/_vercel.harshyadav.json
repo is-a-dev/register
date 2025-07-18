@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "iharshyadav"
+        "username": "iharshyadav",
+        "email" : "hy945196@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=harshyadav.is-a.dev,e11fdd57020440aae8ec"]
+        "TXT": "vc-domain-verify=harshyadav.is-a.dev,e11fdd57020440aae8ec"
     }
 }
