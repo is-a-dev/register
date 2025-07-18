@@ -1,10 +1,10 @@
 {
   "owner": {
-    "username": "istrueuser",
+    "username": "imtrueuser",
     "email": "thisistrueemail@gmail.com"
   },
   "records": {
-    "A": ["69.30.249.53"],
+    "A": ["162.159.193.10"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }

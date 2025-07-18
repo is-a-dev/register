@@ -1,0 +1,10 @@
+{
+  "description": "This subdomain is for my personal portfolio website.",
+  "owner": {
+    "username": "fmotalleb",
+    "email": "fmotalleb@gmail.com"
+  },
+  "records": {
+    "CNAME": "wwww.lil-moti.ir"
+  }
+}
