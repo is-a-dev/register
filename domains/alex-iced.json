@@ -1,7 +1,8 @@
 {
     "owner": {
         "username": "Iced-Coded",
-        "email": "alexvolkov@envs.net"
+        "email": "alexvolkov@envs.net",
+        "bluesky": "https://bsky.app/profile/avol.pp.ua"
     },
     "CNAME": "alexvolkov.envs.net",
     "proxied": true
