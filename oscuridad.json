@@ -1,0 +1,10 @@
+{
+  "MX": [
+    { "host": "mx.zoho.com", "priority": 10 },
+    { "host": "mx2.zoho.com", "priority": 20 },
+    { "host": "mx3.zoho.com", "priority": 50 }
+  ],
+  "TXT": [
+    { "name": "@", "value": "v=spf1 include:zoho.com ~all" }
+  ]
+}
