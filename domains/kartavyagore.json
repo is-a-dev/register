@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "kartavyagore", 
+    "email": "kartavyagore0@gmail.com"
+  },
+  "records": {
+    "CNAME": "kartavyagore.me"
+  },
+  "proxied": true,
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/kartavyagore",
+      "/portfolio": "https://kartavyagore.me"
+    },
+    "redirect_paths": true
+  }
+}
