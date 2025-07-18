@@ -5,9 +5,6 @@
     "email": "fmotalleb@gmail.com"
   },
   "records": {
-    "NS": [
-      "lovisa.ns.cloudflare.com",
-      "sonny.ns.cloudflare.com"
-    ]
+    "CNAME": "wwww.lil-moti.ir"
   }
 }
