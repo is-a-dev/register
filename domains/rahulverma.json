@@ -5,5 +5,6 @@
   },
   "records": {
     "CNAME": "rahul-verma.onrender.com"
-  }
+  },
+  "proxied": false
 }
