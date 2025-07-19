@@ -1,10 +1,14 @@
 {
-  "description": "This subdomain is for my personal portfolio website.",
+  "description": "This subdomain is for my personal portfolio website. it may contain subdomains for various projects and experiments.",
   "owner": {
     "username": "fmotalleb",
-    "email": "fmotalleb@gmail.com"
+    "email": "fmotalleb@gmail.com",
+    "telegram": "https://t.me/fmotalleb"
   },
   "records": {
-    "CNAME": "wwww.lil-moti.ir"
+    "NS": [
+      "lovisa.ns.cloudflare.com",
+      "sonny.ns.cloudflare.com"
+    ]
   }
 }
