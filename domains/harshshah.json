@@ -8,11 +8,5 @@
     "A": ["76.76.21.21"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  },
-  "services": {
-    "vercel": [
-      "vc-domain-verify=harshshah.is-a.dev,42f8ad923b9e4a9aa010",
-      "vc-domain-verify=about.harshshah.is-a.dev,f9d8e16efb5cc0d31d96"
-    ]
   }
 }

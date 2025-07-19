@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "ayman-portfolio-fawn.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=aimaneammar.is-a.dev,4b673716f741e17e5281"
   }
 }

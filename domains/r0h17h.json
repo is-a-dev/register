@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "r0h17h-rohithvarma444s-projects.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=r0h17h.is-a.dev,fdeed6c9344f4a02a122"
   }
 }

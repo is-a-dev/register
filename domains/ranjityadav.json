@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "ranjityadav.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ranjityadav.is-a.dev,998da4bd1970d94d6c43"
   }
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "riccardo126.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=riccardo126.is-a.dev,408e1d0b2f39a662b0ae"
   }
 }
