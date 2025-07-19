@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "gablilli",
+    "email": "gabriele@lilli.eu.org"
+  },
+  "records": {
+    "NS": ["garrett.ns.cloudflare.com", "walk.ns.cloudflare.com"]
+  },
+  "proxied": false
+}
