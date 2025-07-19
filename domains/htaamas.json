@@ -1,7 +1,8 @@
 {
   "owner": {
     "username": "HTaamas",
-    "email": "zero@htaamas.xyz"
+    "email": "zero@htaamas.xyz",
+    "discord": "htaamas"
   },
   "records": {
     "CNAME": "htaamas.xyz"
