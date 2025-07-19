@@ -8,8 +8,7 @@
   },
   "redirect_config": {
     "custom_paths": {
-      "/github": "https://github.com/kartavyagore",
-      "/portfolio": "https://kartavyagore.me"
+      "/github": "https://github.com/kartavyagore"
     },
     "redirect_paths": true
   }
