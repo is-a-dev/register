@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Dream20251209",
+    "email": "dream20251209@gmail.com"
+  },
+  "domain": "shan",
+  "subdomain": "dream",
+  "records": {
+    "CNAME": "pledge-ports-traffic-average.trycloudflare.com"
+  }
+}
