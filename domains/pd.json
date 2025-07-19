@@ -1,0 +1,9 @@
+ "owner": {
+    "username": "favorPatato",
+    "email": "1487483572z@gmail.com"
+  },
+  "records": {
+    "NS": ["cruz.ns.cloudflare.com", "pete.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
