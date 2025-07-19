@@ -2,7 +2,9 @@
   "owner": {
     "username": "Dream20251209"
   },
-  "records": {
+  "domain": "dream",
+  "subdomain": "shan",
+  "record": {
     "CNAME": "pledge-ports-traffic-average.trycloudflare.com"
   }
 }
