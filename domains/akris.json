@@ -5,9 +5,9 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com",
-    "TXT": {
-      "_vercel.akris.is-a.dev": "vc-domain-verify=c930dafd7ea888f84c2c"
-    }
+    "TXT": [
+      "_vercel.akris.is-a.dev=vc-domain-verify=c930dafd7ea888f84c2c"
+    ]
   },
   "proxied": true
 }
