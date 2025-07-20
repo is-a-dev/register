@@ -4,7 +4,6 @@
     "email": "varunojhaa@proton.me"
   },
   "records": {
-    "CNAME": "varunojhaa.pages.dev"
-  },
-  "proxied": true
+    "NS": ["owen.ns.cloudflare.com", "piper.ns.cloudflare.com"]
+  }
 }
