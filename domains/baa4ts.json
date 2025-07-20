@@ -4,7 +4,6 @@
     "email": "baa4tsdev@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": "vc-domain-verify=baa4ts.is-a.dev,f790b72d8acef8c39980"
+    "A": ["216.198.79.1"]
   }
 }
