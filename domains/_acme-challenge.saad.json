@@ -4,7 +4,6 @@
     "email": "github.com.haunt330@passinbox.com"
   },
   "records": {
-    "A": ["34.120.54.55"],
-    "AAAA": ["2600:1901:0:6d85::"]
+    "CNAME": "59f1a6a82d2251cb47996667._acme.deno.dev"
   }
-} 
+}
