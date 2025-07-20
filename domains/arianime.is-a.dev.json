@@ -4,8 +4,5 @@
     "repo": "https://github.com/Arihanth2206",
     "email": "ahanth23@gmail.com"
   },
-  "record": {
-    "type": "CNAME",
-    "value": "cname.vercel-dns.com"
-  }
+  "record": {}
 }
