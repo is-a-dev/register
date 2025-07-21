@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-sand-two-74.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=trild.is-a.dev,c355ae3f7ef9923a15c4"
   }
 }

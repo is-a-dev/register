@@ -7,12 +7,7 @@
     "mobile": "+40756450998"
   },
   "records": {
-    "NS": [
-      "ns.lungustefan.ro",
-      "ns2.lungustefan.ro",
-      "ns3.lungustefan.ro",
-      "ns4.lungustefan.ro"
-    ],
+    "NS": ["ns.lungustefan.ro", "ns2.lungustefan.ro", "ns3.lungustefan.ro", "ns4.lungustefan.ro"],
     "DS": [
       {
         "key_tag": 10684,

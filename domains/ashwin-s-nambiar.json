@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "ashwin-portfolio-alpha.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ashwin-s-nambiar.is-a.dev,a34b7f9eac4c8f6d6a83"
   }
 }

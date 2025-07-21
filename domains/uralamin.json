@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "retro-folio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=uralamin.is-a.dev,898bea95e45e3ecf00a7"
   }
 }

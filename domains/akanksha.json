@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "akankshamishra.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=akanksha.is-a.dev,b1e4bbe531cb73a59644"
   }
 }

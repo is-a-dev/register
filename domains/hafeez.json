@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "hafeez-delta.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=hafeez.is-a.dev,2a3f79f801934e7298bf"
   }
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "raynaldescala.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=raynaldescala.is-a.dev,7c5440b0cdb643d66472"
   }
 }
