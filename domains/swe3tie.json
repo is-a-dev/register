@@ -4,6 +4,6 @@
     "email": "dradangsuy@gmail.com"
   },
   "records": {
-    "A": "27.79.226.100"
+    "A": ["27.79.226.100"]
   }
 }
