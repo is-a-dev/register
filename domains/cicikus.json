@@ -2,7 +2,7 @@
   "owner": {
     "email": "epicyepic@gmail.com"
   },
-  "record": {
-    "A": ["193.36.132.1, 193.36.132.146"]
+  "records": {
+    "A": ["193.36.132.146"]
   }
 }
