@@ -4,6 +4,6 @@
         "email": "axelivanvalleobando@gmail.com"
     },
     "records": {
-        "CNAME": "axelvalle.github.io"
+        "A": ["75.2.60.5"]
     }
 }
