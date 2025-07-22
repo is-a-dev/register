@@ -4,7 +4,7 @@
     "email": "muntasir.joypurhat@gmail.com"
   },
   "records" : {
-    "MX": ["feedback-smtp.ap-northeast-1.amazonses.com"], 
+    "MX": ["feedback-smtp.ap-northeast-1.amazonses.com"],
     "TXT": "v=spf1 include:amazonses.com ~all"
   }
 }
