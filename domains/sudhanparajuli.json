@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio website, this is currently private and deployed in Netlify.",
-  "repo": "https://github.com/SudhanParajuli/Portfolio",
   "owner": {
     "username": "SudhanParajuli",
     "email": "dond38480@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }

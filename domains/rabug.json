@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "NotRabug50",
-    "discord": "541194606214250496",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.ps0moOTq92R__wFgKFQH6WfwtOBaTQI4l7VY-uKJH1Eq0_rgwbZn5VFO4JGz06gUM6TF7WcUJTXCKMBNmJ2FP72EziCABmyM9Nre1UzcAWQ5u8vI9BoBsFTRqbqtezMbfwi18iYzl5PhpTT9jFP9OVosqgRTaCuFQab6u_63KwrOfw4cH-vKUKAU0fr3Q0t2hlFKyioN04n--bgMbtxBkH1F9U4Y2WeeAikUsNUM-RJPxSRDkE5jPQwH3CRvteBDR3p9kMvT8hZDXH0MUQizKFE5ok2GEpc0f4yw7XZtCf59fg-kAuBlneA0or4twHPmMVBc5gj3RMQ2wkBM5TtEKg.Dz0wpW_pv-ibVW_W-AG46w.JxtLaG5wminoevZ_ovAe-G5MsPRfQLP-JsiFF_0nuHEYCrAGQvbDyTs5R9E6B9iqEvyWu7gcOAaSoclyaworD83p0P8oDbHcrRuzFnEl-N0.CsKvYUIxVUV9977e0H3KTw"
+    "discord": "541194606214250496"
   },
-  "record": {
+  "records": {
     "CNAME": "notrabug.vercel.app"
   }
 }

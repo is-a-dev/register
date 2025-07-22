@@ -1,11 +1,9 @@
 {
-  "description": "savinov.is-a.dev",
-  "repo": "https://github.com/SavinTop/savintop.github.io",
   "owner": {
     "username": "SavinTop",
     "email": "savindeath@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "savintop.github.io"
   }
 }

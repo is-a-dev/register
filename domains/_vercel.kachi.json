@@ -3,7 +3,7 @@
     "username": "joshex150",
     "email": "joshex150@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=kachi.is-a.dev,54646f7970a9cf358f0c"]
+  "records": {
+    "TXT": "vc-domain-verify=kachi.is-a.dev,54646f7970a9cf358f0c"
   }
 }

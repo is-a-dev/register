@@ -4,7 +4,7 @@
     "email": "simonknowsstuff@gmail.com",
     "twitter": "simonknowsstuff"
   },
-  "record": {
-    "CNAME": "blog-7vq.pages.dev"
+  "records": {
+    "CNAME": "simonknowsstuff.github.io"
   }
 }

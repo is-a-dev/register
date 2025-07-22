@@ -1,6 +1,4 @@
 {
-  "description": "For a personnal portfolio",
-  "repo": "https://github.com/mhmmdlsubasi/mhmmdlsubasi.github.io",
   "owner": {
     "username": "mhmmdlsubasi",
     "email": "mhmmdlsubasi@outlook.com",
@@ -8,7 +6,7 @@
     "twitter": "mhmmdlsubasi",
     "instagram": "mhmmdlsubasi"
   },
-  "record": {
+  "records": {
     "CNAME": "mhmmdlsubasi.github.io"
   }
 }

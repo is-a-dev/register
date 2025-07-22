@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "PrivacySecured",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.VoJDQtbSUW3kYsQ0IuIE4CTIomV-e8GVUO2wS0fZp_-DkO6QltgcnKL_mAqMH5Salut7IGMZy48HExbambDrl11jQWwYHBAqqyAuAlxsqnUh83KGY3UKYfQzA8eRkdCPTth1pxvyXfUFnAnjEtmJLMNTSCds-J8fmcIkNEu-xT2UMEjxPQkoN8sJ7EA8YTHn4t3078D8tMr3AV5DJ1rg0QnuFwjra5FbjuJGHeYenEzS-Tdha7LTUyTEbKrdqdxYNpN4pv45sNrVpsDZPt3sR1CgOnXNSsfVwjUm-5DRweNquJHUxSpNZblJnbWBErWyg9_NZvISrClpJZ4We48oDg.YdsO9C1ulWhtaJYei-z-Zg.8p4HE12styyP4JSTFrlLWMmfIUAOw1kDQWrAcqSOlqbbtujr4Ww-QyBuUBIQojGvuFKs3jflF5tuvIjOgU8hTOWxB2uS4KItHwpIsFeQo9i1OHSTzj0glP2ly-XMY1Wi.99kVL134lF7knduFKnqfGQ",
     "notes": "I rarely go on my emails. If I do its because I needed a verification code."
   },
-  "record": {
+  "records": {
     "CNAME": "cname.short.io"
   }
 }

@@ -3,7 +3,7 @@
     "username": "orangci",
     "discord": "orangc"
   },
-  "record": {
-    "CNAME": "edge.redirect.pizza"
+  "records": {
+    "URL": "https://orangc.net"
   }
 }

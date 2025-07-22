@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "drake-dot-o",
-    "discord": "197905102865039371",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.ODrtFxgSeAqIu6AI7SK6Sy6j7f0yg7jucjqWkjqwpJqkK_1AKsD8bck9idsla_3jjG2v_1TdSd7p23Tqodv7dz0jHDDL4OfNZB1XHW_uXGc8-qT6kKDcIOhdcktCf1lK54I4Sdg6RWgjj1ayYfXaoywhQZNGmLc54rRB_9b5JcXaRu75TB9Sp14vlqQ8Dotxo7aIutkzgqk7InvEHq8mA8tLH4a8RkAxv91tpxForl-Th2vjwexma8ySDg0TM_gf9y0Clsdu8X-hYR_upJX6V1bdiQxCLjzcD8xf3WXanoK_zF5YKwfchGX60LIOwjtzy8Ot2bQyIsrbVD3OFB6KEg.RPNQcCXjJymxMn5rHqeGYg.ru7RGuS07PxzcQm3fgdt1bR2L6PdF-aGcKq41dWFyHM3pRtZV2eiO3KUv8MwcrSleNe5TgBH0opHc-DRLLvNoOZLxxbt6nfZqJXmyjgQzrQ.kCHTV4x_MfBEVmAWChvmAA"
+    "discord": "197905102865039371"
   },
-  "record": {
+  "records": {
     "CNAME": "edge.redirect.pizza"
   }
 }
