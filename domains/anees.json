@@ -1,9 +1,19 @@
 {
-  "owner": {
-    "email": "aneesnizam2552@example.com"
-  },
-  "record": {
-    "CNAME": "anees-14.netlify.app"
-  },
-  "proxied": true
+
+  "owner": {
+
+    "username": "aneesnizam",
+
+    "email": "aneesnizam2552@gmail.com"
+
+  },
+
+  "records": {
+
+    "CNAME": "anees-14.netlify.app",
+
+    "TXT": "My personal portfolio website."
+
+  }
+
 }
