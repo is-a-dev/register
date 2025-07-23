@@ -5,6 +5,6 @@
   },
   "records": {
     "TXT": "vc-domain-verify=cyberpj.is-a.dev,935d711596b23ded6906",
-    "A":"216.198.79.1"
+    "A":["216.198.79.1"]
   }
 }
