@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "swaritiscool"
-    },
-    "records": {
-        "RECORDTYPE": "CNAME",
-        "RECORDCONTENT": "swaritiscool.github.io",
-    }
+  "owner": {
+    "username": "swaritiscool"
+  },
+  "records": {
+    "CNAME": "swaritiscool.github.io"
+  }
 }
