@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "SudoRV",
-    "email": "rahulverma.1.2005@gamil.com"
+    "email": "rahulverma.1.2005@gmail.com"
   },
   "records": {
     "CNAME": "rahul-verma.onrender.com"
-  }
+  },
+  "proxied": false
 }
