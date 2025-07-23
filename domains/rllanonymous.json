@@ -1,11 +1,9 @@
 {
-  "description": "Lanonymous own website for contact.",
-  "repo": "https://github.com/RLLanonymous/RLLanonymous.github.io",
   "owner": {
     "username": "RLLanonymous",
     "email": "ethanweirich31@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rllanonymous.github.io"
   }
 }

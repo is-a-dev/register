@@ -1,11 +1,10 @@
 {
-  "description": "Vercel verification of chuyentinorz.is-a.dev",
   "owner": {
     "username": "akk1to",
     "email": "akk1to.dev@gmail.com",
     "discord": "727497287777124414"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=chuyentinorz.is-a.dev,46d8c5be943cf4eb7cd2"]
+  "records": {
+    "TXT": "vc-domain-verify=chuyentinorz.is-a.dev,46d8c5be943cf4eb7cd2"
   }
 }

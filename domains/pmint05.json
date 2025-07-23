@@ -1,12 +1,10 @@
 {
-  "description": "Subdomain for my personal developer website",
-  "repo": "https://github.com/pmint05/pmint05.github.io",
   "owner": {
     "username": "pmint05",
     "email": "pmint05@protonmail.com",
     "twitter": "pmint05"
   },
-  "record": {
+  "records": {
     "CNAME": "pmint05.github.io"
   }
 }
