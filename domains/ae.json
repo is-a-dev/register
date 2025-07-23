@@ -6,11 +6,5 @@
   "records": {
     "CNAME": "eduardosilveiradimaro.pages.dev"
   },
-  "proxied": true,
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/eduardosilveiradev"
-    },
-    "redirect_paths": true
-  }
+  "proxied": true
 }
