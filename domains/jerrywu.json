@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "JerryWu0430",
-        "email": "woohaoran@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=jerrywu.is-a.dev,02b8b5343accf141471f"
-    }
+  "owner": {
+    "username": "JerryWu0430",
+    "email": "woohaoran@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

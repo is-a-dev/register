@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "pinage404.gitlab.io"
-  },
-  "services": {
-    "gitlab": "gitlab-pages-verification-code=d43eb39124dec340bdbb11a4d6aa6b52"
   }
 }

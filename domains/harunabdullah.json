@@ -4,9 +4,14 @@
     "email": "harunabdullahrakin@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-52h.pages.dev"
+    "CNAME": "my-portfolio-d61.pages.dev",
+    "TXT": "v=spf1 include:zohomail.com ~all",
+    
+    "MX": [
+      { "target": "mx.zoho.com", "priority": 10 },
+      { "target": "mx2.zoho.com", "priority": 20 },
+      { "target": "mx3.zoho.com", "priority": 50 }
+    ]
   },
-  "services": {
-    "discord": "dh=08ca7b2a348ba12437193e6d84e9b819dc75da31"
-  }
+  "proxied": true
 }

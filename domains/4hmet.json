@@ -5,8 +5,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=4hmet.is-a.dev,c313bc7151ebff9a1f1f"
   }
 }

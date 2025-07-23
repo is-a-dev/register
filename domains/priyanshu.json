@@ -6,9 +6,5 @@
   },
   "records": {
     "CNAME": "priyanshu.pages.dev"
-  },
-  "services": {
-    "discord": "dh=4784b7e772166e35d7f9a41207e1ddf7e3d57f82",
-    "bluesky": "did=did:plc:psimj7hgshwoets2jvd6caib"
   }
 }

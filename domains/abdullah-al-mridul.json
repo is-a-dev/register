@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "abdullah-al-mridul-dev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=abdullah-al-mridul.is-a.dev,28add02b5250c0339353"
   }
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=sergioperea.is-a.dev,ff9bc4d6b26eca2587d7"
   }
 }

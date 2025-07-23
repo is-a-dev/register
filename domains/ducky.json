@@ -1,13 +1,12 @@
 {
-  "repo": "https://github.com/ducky4life/ducky4life.github.io",
   "owner": {
     "username": "ducky4life",
     "email": "duckylai@proton.me"
   },
   "records": {
-    "CNAME": "ducky4life.github.io"
+    "CNAME": "ducky4life.github.io",
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   },
-  "services": {
-    "discord": "dh=925876829c7314b41fe3c2a412b7a4250214febf"
-  }
+  "proxied": true
 }

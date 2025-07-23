@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "squairdev.github.io"
-  },
-  "services": {
-    "discord": "dh=fea8dd63e8fe19bf9094804dd5936fdaacbec5b5"
   }
 }

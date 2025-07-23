@@ -6,8 +6,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ujjvaljoshi.is-a.dev,f7ed737aeb48311d634c"
   }
 }

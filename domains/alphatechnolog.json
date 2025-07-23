@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "alphatechnolog.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=alphatechnolog.is-a.dev,60b952897ab1957420d3"
   }
 }

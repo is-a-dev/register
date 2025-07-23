@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "vihangapi.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=vihangayt.is-a.dev,b6c7db40e44efe0c8226"
   }
 }
