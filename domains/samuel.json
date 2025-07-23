@@ -4,6 +4,6 @@
     "username": "Orpheros"
   },
   "records": {
-    "TXT": "vc-domain-verify=samuel.is-a.dev,520fdd6a60c47a735da5"
+    "A": ["216.198.79.1"]
   }
 }
