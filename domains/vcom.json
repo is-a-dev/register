@@ -1,0 +1,10 @@
+{
+  "description": "VCom Team site",
+  "owner": {
+    "username": "PlayerGames12", 
+    "email": "xdsameam18@gmail.com"
+  },
+  "record": {
+    "CNAME": "vcom-team.netlify.app"
+  }
+}
