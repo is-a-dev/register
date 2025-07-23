@@ -1,9 +1,11 @@
 {
+  "description": "Mani Prakash Reddy's Personal Portfolio",
+  "repo": "https://github.com/mani-prakash-reddy/portfolio_mine",
   "owner": {
-    "repo": "https://github.com/mani-prakash-reddy/portfolio_mine",
+    "username": "mani-prakash-reddy",
     "email": "maniprakashreddy223230@gmail.com"
   },
-  "record": {
-    "cname": "mani-prakash-reddy.github.io"
+  "records": {
+    "CNAME": "mani-prakash-reddy.github.io"
   }
 }
