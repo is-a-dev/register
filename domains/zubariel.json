@@ -5,8 +5,8 @@
   "proxied": true,
   "records": {
     "CNAME": "zubariel.vercel.app",
-    "TXT": {
-      "_vercel": "vc-domain-verify=zubariel.is-a.dev,372181051680e99ee69a"
-    }
+    "TXT": [
+      "vc-domain-verify=zubariel.is-a.dev,372181051680e99ee69a"
+    ]
   }
 }
