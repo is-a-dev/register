@@ -4,7 +4,7 @@
     "email": "hello@jiewong.com"
   },
   "records": {
-    "CNAME": ["www.jiewong.com"]
+    "CNAME": "www.jiewong.com"
   },
   "proxied": true
 }
