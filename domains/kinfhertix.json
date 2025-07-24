@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "kinfhertix.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=kinfhertix.is-a.dev,059b1c9b761eee935ee8"
   }
 }

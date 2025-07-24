@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=omarmomani.is-a.dev,6248aaf6f3b8fb62d42d"
   }
 }

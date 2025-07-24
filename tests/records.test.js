@@ -88,6 +88,8 @@ function isValidHexadecimal(value) {
     return /^[0-9a-fA-F]+$/.test(value);
 }
 
+const disallowedCNAMEs = require("../util/disallowed-cnames.json");
+
 function validateRecordValues(t, data, file) {
     const subdomain = file.replace(/\.json$/, "");
 
@@ -141,6 +143,14 @@ function validateRecordValues(t, data, file) {
                 t.true(isValidHostname(value), `${file}: Invalid hostname for ${key}`);
                 t.true(value !== `${subdomain}.is-a.dev`, `${file}: ${key} cannot point to itself`);
                 t.true(value !== "is-a.dev", `${file}: ${key} cannot point to is-a.dev`);
+
+                for (const disallowed of disallowedCNAMEs) {
+                    if (disallowed.startsWith(".")) {
+                        t.false(value.endsWith(disallowed), `${file}: ${key} cannot end with ${disallowed}`);
+                    } else {
+                        t.false(value === disallowed, `${file}: ${key} cannot be ${disallowed}`);
+                    }
+                }
             } else if (key === "URL") {
                 t.true(
                     value.startsWith("http://") || value.startsWith("https://"),
@@ -286,7 +296,6 @@ t("All files should have valid records", (t) => {
                 recordKeys.length === 1 || (recordKeys.length === 2 && recordKeys.includes("DS")),
                 `${file}: NS records cannot be combined with other records, except for DS records`
             );
-            t.true(!data.services, `${file}: Service records cannot be present when NS records are defined`);
         }
         if (recordKeys.includes("DS")) {
             t.true(recordKeys.includes("NS"), `${file}: DS records must be combined with NS records`);
@@ -328,48 +337,4 @@ t("Root subdomains should have at least one usable record", (t) => {
             `${file}: Root subdomains must have at least one A, AAAA, CNAME, MX, NS, or URL record`
         );
     });
-});
-
-t("All files should have valid service records", (t) => {
-    files.forEach((file) => {
-        const data = getDomainData(file);
-
-        const discordRegex = /^dh=[a-f0-9]{40}$/;
-
-        if (data?.services?.discord) {
-            const discord = Array.isArray(data.services.discord) ? data.services.discord : [data.services.discord];
-
-            discord.forEach((value) => {
-                t.true(discordRegex.test(value), `${file}: Invalid Discord service record format`);
-            });
-        }
-
-        const vercelRegex = /^vc-domain-verify=([a-z0-9.-]+),([a-f0-9]{20})$/;
-
-        if (data?.services?.vercel) {
-            const vercel = Array.isArray(data.services.vercel) ? data.services.vercel : [data.services.vercel];
-
-            vercel.forEach((value) => {
-                t.true(vercelRegex.test(value), `${file}: Invalid Vercel service record format`);
-            });
-        }
-
-        const atprotoRegex = /^did=did:plc:[a-z0-9]{24}$/;
-
-        if (data?.services?.bluesky) {
-            t.true(atprotoRegex.test(data.services.bluesky), `${file}: Invalid Bluesky service record format`);
-        }
-
-        const gitlabRegex = /^gitlab-pages-verification-code=[a-f0-9]{32}$/;
-
-        if (data?.services?.gitlab) {
-            const gitlab = Array.isArray(data.services.gitlab) ? data.services.gitlab : [data.services.gitlab];
-
-            gitlab.forEach((value) => {
-                t.true(gitlabRegex.test(value), `${file}: Invalid GitLab service record format`);
-            });
-        }
-    });
-
-    t.pass();
 });

@@ -6,7 +6,11 @@
   },
   "records": {
     "A": ["76.76.21.21"],
-    "TXT": ["zoho-verification=zb21864535.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all", "google-site-verification=kyfbQxiPkwN9bikDvsKAiS5O4ZTgdW9gwSczKaZt7nQ"],
+    "TXT": [
+      "zoho-verification=zb21864535.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all",
+      "google-site-verification=kyfbQxiPkwN9bikDvsKAiS5O4ZTgdW9gwSczKaZt7nQ"
+    ],
     "MX": [
       {
         "target": "mx.zoho.com",
@@ -21,9 +25,5 @@
         "priority": 50
       }
     ]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=harys.is-a.dev,0f7f97e958bfbe3e8831",
-    "discord": "dh=b7e85268028e8c32676bf1e81122c1356159f27d"
   }
 }

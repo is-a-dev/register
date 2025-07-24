@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "webpage-seven-puce.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=s1dd.is-a.dev,e08de74daf627d6e653d"
   }
 }

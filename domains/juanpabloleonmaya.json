@@ -5,8 +5,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=juanpabloleonmaya.is-a.dev,60444b8f6c0ae7c91c12"
   }
 }

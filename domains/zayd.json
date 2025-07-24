@@ -7,8 +7,5 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=zayd.is-a.dev,117e71718b91c0b23aca"
   }
 }

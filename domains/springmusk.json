@@ -5,9 +5,6 @@
     "email": "springmusk@gmail.com"
   },
   "records": {
-    "NS": [
-      "kallie.ns.cloudflare.com",
-      "mitchell.ns.cloudflare.com"
-    ]
+    "NS": ["kallie.ns.cloudflare.com", "mitchell.ns.cloudflare.com"]
   }
 }

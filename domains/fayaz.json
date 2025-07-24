@@ -1,13 +1,9 @@
 {
-    "owner": {
-        "username": "Fayaz-246",
-        "email": "fayazaccer@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=fayaz.is-a.dev,9d66b1a7387c64eabac2",
-        "discord": "dh=ba9820b5b1f84ed8fcf5519d73ddda40b15b9217"
-    }
+  "owner": {
+    "username": "Fayaz-246",
+    "email": "fayazaccer@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

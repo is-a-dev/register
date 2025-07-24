@@ -4,19 +4,8 @@
     "discord": "1175481072088268920"
   },
   "records": {
-    "A": [
-      "185.199.108.153",
-      "185.199.110.153",
-      "185.199.109.153",
-      "185.199.111.153"
-    ],
-    "TXT": [
-      "zoho-verification=zb76097651.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
-    ],
+    "A": ["185.199.108.153", "185.199.110.153", "185.199.109.153", "185.199.111.153"],
+    "TXT": ["zoho-verification=zb76097651.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
     "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
-  },
-  "services": {
-    "discord": "dh=74c1e1cd4df113f2b79e799d4f0e5910ef8f9557"
   }
 }

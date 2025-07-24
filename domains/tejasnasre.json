@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "tejasnasre",
-        "email": "tejasnasre120@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=tejasnasre.is-a.dev,26591a40489302d29c6b"
-    }
+  "owner": {
+    "username": "tejasnasre",
+    "email": "tejasnasre120@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

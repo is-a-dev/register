@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "willymateo.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=willymateo.is-a.dev,6c7018f1721c84a520df"
   }
 }

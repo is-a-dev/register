@@ -10,8 +10,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=mig.is-a.dev,c9171d74a3897a0defc6"
   }
 }

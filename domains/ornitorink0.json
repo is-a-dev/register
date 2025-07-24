@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Ornitorink0",
-        "email": "ornitorink0.dev@gmail.com"
-    },
-    "records": {
-        "CNAME": "ornitorink0.netlify.app"
-    }
+  "owner": {
+    "username": "Ornitorink0",
+    "email": "ornitorink0.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "ornitorink0.netlify.app"
+  }
 }
