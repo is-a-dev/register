@@ -2,7 +2,11 @@
   "owner": {
     "username": "itszubadev"
   },
+  "proxied": true,
   "records": {
-    "CNAME": "zubariel.netlify.app"
+    "CNAME": "zubariel.vercel.app",
+    "TXT": {
+      "_vercel": "vc-domain-verify=zubariel.is-a.dev,372181051680e99ee69a"
+    }
   }
 }
