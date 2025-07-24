@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "CodNLx",
+    "email": "219137221+CodNLx@users.noreply.github.com"
+  },
+  "records": {
+    "NS": {
+      "nameservers": [
+        "emerie.ns.cloudflare.com",
+        "lochlan.ns.cloudflare.com"
+      ]
+    }
+  }
+}
