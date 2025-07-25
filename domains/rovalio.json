@@ -3,7 +3,7 @@
         "username": "ofcrovalio",
         "email": "singh198navdeep@gmail.com"
     },
-    "record": {
-        "CNAME": "https://ofcrovalio.github.io/"
+    "records": {
+        "CNAME": "ofcrovalio.github.io"
     }
 }
