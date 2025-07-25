@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "n-wall",
+    "email": "me@rrui.org"
+  },
+  "records":{
+    "CNAME": "a-rui.pages.dev",
+    "NS": ["adaline.ns.cloudflare.com", "duke.ns.cloudflare.com"]
+  }
+}
