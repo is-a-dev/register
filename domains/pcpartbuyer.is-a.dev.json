@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "email": "pulkitchopra7@gmail.com"
+  },
+  "record": {
+    "TXT": {
+      "@": "v=spf1 include:_spf.mailersend.net ~all"
+    },
+    "CNAME": {
+      "mlsend2._domainkey": "mlsend2._domainkey.mailersend.net",
+      "mta": "mailersend.net"
+    }
+  }
+}
