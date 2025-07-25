@@ -5,6 +5,7 @@
     "email": "gilmar.odp@gmail.com"
   },
   "records": {
-    "CNAME": "gilmarodp.github.io"
+    "CNAME": "gilmarodp.github.io",
+    "TXT": "google-site-verification=oURojO6shYfZrGXLdNT61mUnmLHikKM19D560Li3-jY"
   }
 }
