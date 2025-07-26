@@ -4,6 +4,11 @@
     "email": "socialhabibur@gmail.com"
   },
   "records": {
-    "CNAME": "perfecthabibur.github.io"
+    "A": [
+      "192.250.235.174",
+      "192.250.235.174",
+      "192.250.235.174",
+      "192.250.235.174"
+    ]
   }
 }
