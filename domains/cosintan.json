@@ -7,6 +7,5 @@
         "CNAME": "cname.vercel-dns.com",
         "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"],
         "TXT": ["apple-domain=LiWFOklmiBC4xnoS", "v=spf1 include:icloud.com ~all"]
-    },
-    "proxied": true
+    }
 }
