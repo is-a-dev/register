@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "yew2362",
+    "email": "dev.nuzfk@passinbox.com"
+  },
+  "records": {
+    "NS": ["marissa.ns.cloudflare.com", "keanu.ns.cloudflare.com"],
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "C976864507DB1887888DC5B4EC403D0C7662E6CFAEEC9B7B8AE7B0816ED9A549"
+      }
+    ]
+  }
+}
