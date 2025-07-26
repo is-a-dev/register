@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "xdektv",
-    "discord": "xdek."
-  },
-  "records": {
-    "CNAME": "xdektv.github.io"
-    "TXT": "eff35c78fb9f0a26287395ce36cfad"
-  },
-  "proxied": true
+    "owner": {
+        "username": "xdektv",
+        "email": "xdekpodlogatv@gmail.com"
+    },
+    "records": {
+        "TXT": "eff35c78fb9f0a26287395ce36cfad"
+    }
 }
