@@ -1,0 +1,11 @@
+{
+    "description": "My personal website",
+    "repo": "https://github.com/alexravenna/alexravenna.github.io",
+    "owner": {
+        "username": "alexravenna",
+        "email": "alex.n.ravenna@gmail.com"
+    },
+    "records": {
+        "CNAME": "alexravenna.github.io"
+    }
+}
