@@ -4,6 +4,6 @@
     "email": "bugwheels94@gmail.com"
   },
   "records": {
-    "A": "103.164.188.19"
+    "A": ["103.164.188.19"]
   }
 }
