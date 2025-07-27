@@ -4,6 +4,6 @@
         "email": "stringhost.local@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "TXT": "vc-domain-verify=stringhost.is-a.dev,13ec6a0c66832fbd5d68"
     }
 }
