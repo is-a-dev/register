@@ -1,10 +1,8 @@
 {
-  "description": "bhumika patel.",
-  "repo": "https://github.com/bhumkah-patel/bhumkah-patel.github.io",
   "owner": {
     "username": "bhumkah-patel"
   },
-  "record": {
+  "records": {
     "CNAME": "bhumkah-patel.github.io"
   }
 }

@@ -1,12 +1,10 @@
 {
-  "description": "Personal portfolio, self-introduction website.",
-  "repo": "https://github.com/seriaati/seriaati.github.io",
   "owner": {
     "username": "seriaati",
     "email": "seria.ati@gmail.com",
     "twitter": "seria_ati"
   },
-  "record": {
+  "records": {
     "CNAME": "seriaati.github.io"
   }
 }

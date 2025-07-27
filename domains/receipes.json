@@ -1,11 +1,9 @@
 {
-  "description": "My portfolio",
-  "repo": "https://github.com/receipes/receipes.github.io",
   "owner": {
     "username": "receipes",
     "discord": "receipes#3705"
   },
-  "record": {
+  "records": {
     "CNAME": "receipes.github.io"
   }
 }

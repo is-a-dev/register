@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Infernum1"
+    "username": "Infernum1",
+    "email": "infernum1212@gmail.com"
   },
-  "record": {
-    "TXT": ["dh=b25f81ebab2ff999a86bbda2f49f609e03054b39"]
+  "records": {
+    "TXT": "dh=b25f81ebab2ff999a86bbda2f49f609e03054b39"
   }
 }

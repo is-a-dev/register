@@ -1,10 +1,11 @@
 {
   "owner": {
-    "username": "noahprm",
-    "email": "contact.noahprm@gmail.com",
-    "discord": "949273553168121856"
+    "username": "noah-dev-codes"
   },
-  "record": {
-    "A": ["217.145.72.79"]
+  "records": {
+    "NS": [
+      "lola.ns.cloudflare.com",
+      "nico.ns.cloudflare.com"
+    ]
   }
 }
