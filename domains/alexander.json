@@ -5,6 +5,8 @@
     "email": "aalexlpez@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-alex-xi.vercel.app"
+    "CNAME": "portfolio-alex-xi.vercel.app",
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=alexander.is-a.dev,d49036035013a0d0d8b6"]
   }
 }
