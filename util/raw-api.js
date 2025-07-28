@@ -11,7 +11,6 @@ if (!fs.existsSync(outputDir)) {
 const internal = require(path.join(__dirname, "internal.json"));
 const reserved = require(path.join(__dirname, "reserved.json"));
 
-const v1 = [];
 const v2 = [];
 
 for (const subdomain of internal) {
@@ -26,11 +25,6 @@ for (const subdomain of internal) {
     const records = {
         CNAME: "internal.is-a.dev"
     };
-
-    v1.push({
-        ...commonData,
-        record: records
-    });
 
     v2.push({
         ...commonData,
@@ -51,11 +45,6 @@ for (const subdomain of reserved) {
     const records = {
         URL: "https://is-a.dev/reserved"
     };
-
-    v1.push({
-        ...commonData,
-        record: records
-    });
 
     v2.push({
         ...commonData,
@@ -83,13 +72,6 @@ fs.readdir(directoryPath, function (err, files) {
 
             delete item.owner.email;
 
-            let itemV1 = {
-                domain: item.domain,
-                subdomain: item.subdomain,
-                owner: item.owner,
-                record: item.records
-            };
-
             let itemV2 = {
                 domain: item.domain,
                 subdomain: item.subdomain,
@@ -97,29 +79,21 @@ fs.readdir(directoryPath, function (err, files) {
                 records: item.records
             };
 
-            if (item.redirect_config) {
-                itemV1.redirect_config = item.redirect_config;
-                itemV2.redirect_config = item.redirect_config;
-            }
+            if (item.redirect_config) itemV2.redirect_config = item.redirect_config;
 
-            if (item.proxied) {
-                itemV1.proxied = item.proxied;
-                itemV2.proxied = item.proxied;
-            }
+            if (item.proxied) itemV2.proxied = item.proxied;
 
-            v1.push(itemV1);
             v2.push(itemV2);
 
             processedCount++;
             if (processedCount === files.length) {
-                v1.sort((a, b) => a.domain.localeCompare(b.subdomain));
                 v2.sort((a, b) => a.domain.localeCompare(b.subdomain));
 
-                fs.writeFile("raw-api/index.json", JSON.stringify(v1), (err) => {
+                fs.writeFile("raw-api/index.json", JSON.stringify({"code":404,"message":"v1 of the Raw API is no longer available, please upgrade to v2 located at https://raw.is-a.dev/v2.json"}), (err) => {
                     if (err) throw err;
                 });
 
-                fs.writeFile("raw-api/v1.json", JSON.stringify(v1), (err) => {
+                fs.writeFile("raw-api/v1.json", JSON.stringify({"code":404,"message":"v1 of the Raw API is no longer available, please upgrade to v2 located at https://raw.is-a.dev/v2.json"}), (err) => {
                     if (err) throw err;
                 });
 
