@@ -1,0 +1,22 @@
+{
+  "owner": {
+    "username": "tanlucvn",
+    "email": "t.luc497303@gmail.com"
+  },
+  "subdomain": "send.den",
+  "record": {
+    "A": ["76.76.21.21"]
+  },
+  "dns": {
+    "MX": {
+      "@": "feedback-smtp.ap-northeast-1.amazonses.com"
+    },
+    "TXT": {
+      "@": [
+        "v=spf1 include:amazonses.com ~all"
+      ],
+      "resend._domainkey": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClMtyI+xLI28Gacqh1TY6zuT6W0CI5QVg/QdDDZQtMAHn6LvWbSjvCAm+p07OF+bgJ56zb/JKfGmbTckW4K5g0/wtSCf35YJY3Ja88qHjq6EcsX3FWhFRg+i0gDZ/VPeno+Yc7pMfkKPHsFrbxr5VvaEOz7jReKyeARDOwSW0h5QIDAQAB",
+      "_dmarc": "v=DMARC1; p=none;"
+    }
+  }
+}
