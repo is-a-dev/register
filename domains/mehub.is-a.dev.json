@@ -3,5 +3,10 @@
   "target": "vercel",
   "owner": {
     "email": "abdulbasidhussain9@gmail.com"
+  },
+  "records": {
+    "txt": {
+      "_vercel": "vc-domain-verify=mehub.is-a.dev,febf8a350436928667fe"
+    }
   }
 }
