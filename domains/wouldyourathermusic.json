@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "EricPortes",
+    "email": "eric.11.portes@gmail.com"
+  },
+  "record": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "_vercel": {
+      "TXT": "vc-domain-verify=wouldyourathermusic.is-a.dev,bd5eeb248abf1b492b44"
+    }
+  }
+}
