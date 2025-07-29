@@ -3,32 +3,19 @@
     "username": "sergarsilla",
     "email": "sergarsilla@gmail.com"
   },
-  "records": [
-    {
-      "type": "A",
-      "name": "@",
-      "value": "76.76.21.21"
-    },
-    {
-      "type": "MX",
-      "name": "send",
-      "value": "feedback-smtp.us-east-1.amazonses.com",
-      "priority": 10
-    },
-    {
-      "type": "TXT",
-      "name": "send",
-      "value": "v=spf1 include:amazonses.com ~all"
-    },
-    {
-      "type": "TXT",
-      "name": "resend._domainkey",
-      "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZNktsKwZTOxeQHv0S1mJozVMuxpyjmlfdksuTNvAU9I/bPDPcYd7T4jvkEl4+1yxyMI2jzhOdXf5ddB9QF6pp/+9i8kGY8c+3+8Qv1I4PTk7kdxj3YV5mGFwMsyTd2XuwM7wokbRxVUAv+aYWXvqJ+lHYRrtmCF1oHtnvh4LpKQIDAQAB"
-    },
-    {
-      "type": "TXT",
-      "name": "_dmarc",
-      "value": "v=DMARC1; p=none;"
-    }
-  ]
+  "records": {
+    "A": ["76.76.21.21"],
+    "MX": [
+      {
+        "target": "feedback-smtp.us-east-1.amazonses.com",
+        "priority": 10,
+        "name": "send"
+      }
+    ],
+    "TXT": [
+      { "name": "send", "value": "v=spf1 include:amazonses.com ~all" },
+      { "name": "resend._domainkey", "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZNktsKwZTOxeQHv0S1mJozVMuxpyjmlfdksuTNvAU9I/bPDPcYd7T4jvkEl4+1yxyMI2jzhOdXf5ddB9QF6pp/+9i8kGY8c+3+8Qv1I4PTk7kdxj3YV5mGFwMsyTd2XuwM7wokbRxVUAv+aYWXvqJ+lHYRrtmCF1oHtnvh4LpKQIDAQAB" },
+      { "name": "_dmarc", "value": "v=DMARC1; p=none;" }
+    ]
+  }
 }
