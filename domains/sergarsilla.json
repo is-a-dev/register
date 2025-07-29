@@ -18,7 +18,7 @@
     },
     {
       "type": "TXT",
-      "name": "resend._domainkey.sergarsilla",
+      "name": "resend._domainkey",
       "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC..."
     },
     {
