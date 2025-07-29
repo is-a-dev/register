@@ -8,13 +8,13 @@
     },
     {
       "type": "MX",
-      "name": "send",
+      "name": "@",
       "value": "feedback-smtp.us-east-1.amazonses.com",
       "priority": 10
     },
     {
       "type": "TXT",
-      "name": "send",
+      "name": "@",
       "value": "v=spf1 include:amazonses.com ~all"
     },
     {
