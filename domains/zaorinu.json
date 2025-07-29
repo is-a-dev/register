@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "zaorinu",
-    "email": "getcyonic+zaorinu@gmail.com"
-  }
+    "email": "mail@zaorinu.is-a.dev"
+  },
   "records": {
-    "CNAME": "zaorinu.github.io"
+    "CNAME": "zaorinu.github.io",
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   }
 }
