@@ -2,11 +2,7 @@
   "owner": {
     "username": "itszubadev"
   },
-  "proxied": true,
   "records": {
-    "CNAME": "zubariel.vercel.app",
-    "TXT": [
-      "vc-domain-verify=zubariel.is-a.dev,372181051680e99ee69a"
-    ]
+    "TXT": "vc-domain-verify=zubariel.is-a.dev,372181051680e99ee69a"
   }
 }
