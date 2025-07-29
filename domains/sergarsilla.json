@@ -4,6 +4,27 @@
         "email": "sergarsilla@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "cname.vercel-dns.com",
+        {
+      "type": "MX",
+      "name": "send.sergarsilla",
+      "value": "feedback-smtp.us-east-1.amazonses.com",
+      "priority": 10
+    },
+    {
+      "type": "TXT",
+      "name": "send.sergarsilla",
+      "value": "v=spf1 include:amazonses.com ~all"
+    },
+    {
+      "type": "TXT",
+      "name": "resend._domainkey.sergarsilla",
+      "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC..."
+    },
+    {
+      "type": "TXT",
+      "name": "_dmarc",
+      "value": "v=DMARC1; p=none;"
+    }
     }
 }
