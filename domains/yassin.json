@@ -1,11 +1,9 @@
 {
-  "description": "my bio",
-  "repo": "https://github.com/ycssin/bio",
   "owner": {
     "username": "ycssin",
     "twitter": "ycssin"
   },
-  "record": {
+  "records": {
     "CNAME": "ycssin.github.io"
   }
 }

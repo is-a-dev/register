@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "metalespesados",
-        "email": "bengfm@icloud.com"
-    },
-    "record": {
-        "CNAME": "ebn.netlify.app"
-    }
+  "owner": {
+    "username": "metalespesados",
+    "email": "bengfm@icloud.com"
+  },
+  "records": {
+    "CNAME": "ebn.netlify.app"
+  }
 }

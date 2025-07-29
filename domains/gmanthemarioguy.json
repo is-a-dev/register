@@ -1,11 +1,9 @@
 {
-  "description": "This is to be used on my blog.",
-  "repo": "https://github.com/gmanthemarioguy/gmanthemarioguy.github.io",
   "owner": {
     "username": "gmanthemarioguy",
     "email": "gman36147@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "gmanthemarioguy.github.io"
   }
 }

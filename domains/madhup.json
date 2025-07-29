@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "madhup",
-    "discord": "714323644641181737",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.FudKVLrMa8Q4yq0sg6zxHlvtXq8KbfVv3tPlVaDvIeHJpHbviikAzWuGKxWnrGPrXJLzggxzjrmGfE-TwymhzhhN1K7t1iteQNsPMvs3ip-nBqV3urK9Hj-UvTT_n_qi-a5sH98-UvNWJcoqk52JvBNcyefncswd7qSx_4pI_rF68wMXIRgVqvz6sB45lupouDGKmbakDFaNqNY2Pi5LpUrZfCjl5wLcaXMv-0CJJ4bCCzpki8V8HAbVod-OfhpuJTy3S-P0XOHiHJ5HM10WIyjSfZEN9fm9ejT9pwoB3gdFqetXT0HWa2OYIpzM2TQUT7bzkf-xkdOzunOGit6FLg.F0pfD9nwaAjmepPR5cQKHg.FG9GyKfRJrX2qW0XI3-u-SbCeCMznQnr5hJlWuGo6nD0nOX0pLU5jeeOOXIsfXncIoTVhOx-_Me5eV2sIwUacA.sMMoX_OUCKYynrzuwKIrGQ"
-  },
-  "record": {
-    "CNAME": "madhup.github.io"
-  }
+    "owner": {
+        "username": "madhup",
+        "twitter": "madhupsukoon"
+    },
+    "records": {
+        "URL": "https://madhup.github.io/"
+    }
 }

@@ -1,17 +1,14 @@
 {
-  "description": "Encoder.js",
-  "repo": "https://github.com/JustStudio7/Encoder",
   "owner": {
     "username": "JustDeveloper1",
     "email": "support@juststudio.is-a.dev",
     "discord": "1117482901353812088"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+    "TXT": [
+      "google-site-verification=P7ELjV5zIY2_cPQKYzlhvdzVPxBvXm9xKXeRBo4VgGE",
+      "yandex-verification: 82b564dd74f37b10"
     ]
   }
 }

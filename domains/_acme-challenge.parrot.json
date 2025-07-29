@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "EducatedSuddenBucket",
-    "discord": "1167825360151380032",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.guUEvTOIBPJv8oJfvZdvgudRQpsBlIxnKLhef83On6LPv7t8yR4GXWxwwRWUmwlpsPJBLJBSzV1AZS26i7dgezj5k4-gfQdhr1ZKUz_w5T7JgQ9MIbWeOo5ocEMcMjmkC6WLesVMwH5cfCoOJeW097Gr6of_60Jt1JcpyNRX3s5zySh9cVb1p3_II0jrPbQ1Nj8ZqwNJhiRNT8xCdHt1cfsYi76RgFRx2iTsYbEmL0v933CCeqD75aYnlVmCqyKD-dv41QBhuq9dfUwKnJusArtxtbNC9h4EwX2Y9MnoIg7nKKLrOSllSS8tRIiVw2oHv_jHm3XRJascmoni2EzdmA.5waf0tgo5uTY4rjfw8gJUA.O0wUU5TTcpQ_8wkwEeKUsSX6wKEtwVZ-G0k1R0zjhAU9hXsii5BiittxlrdR2JKP_917n2rUCN7NKnYAFIg5acwvJS8NmZlvNcTIRxb_yFmC7fRfQ6RqXGkYjc0EEDWS.bxYmFS-IlttaZTgqdZdnHQ"
+    "discord": "1167825360151380032"
   },
-  "record": {
+  "records": {
     "CNAME": "51de1eeaf31ce67a1c3f69aa._acme.deno.dev"
   }
 }

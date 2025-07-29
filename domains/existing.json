@@ -1,12 +1,9 @@
 {
-  "description": "Personal Blog",
-  "repo": "https://github.com/existing-dev/existingdev",
   "owner": {
     "username": "existing-dev",
     "email": "maamelankar.deveer@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "existing-dev.github.io"
   }
 }
-
