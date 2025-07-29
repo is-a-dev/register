@@ -1,8 +1,9 @@
 {
   "owner": {
-    "github": "zarir-engineer"
+    "github": "zarir-engineer",
+    "email": "zarir.utube@gmail.com"
   },
-  "record": {
-    "CNAME": "zarir-engineer.github.io/resuminimalicious"
+  "records": {
+    "cname": "zarir-engineer.github.io"
   }
 }
