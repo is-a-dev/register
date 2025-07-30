@@ -38,7 +38,7 @@ In your PR, please explain why you need NS records, including examples, to help 
 
 ***Pull requests adding NS records without sufficient reasoning will be closed.***
 
-> Also see: [Why are NS records restricted?](https://docs.is-a.dev/faq/#why-are-ns-records-restricted)?
+> Also see: [Why are NS records restricted?](https://docs.is-a.dev/faq/#why-are-ns-records-restricted)
 
 ## Report Abuse
 If you find any subdomains being used for abusive purposes, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with the relevant evidence.
