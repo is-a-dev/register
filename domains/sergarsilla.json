@@ -14,8 +14,6 @@
     ],
     "TXT": [
       "v=spf1 include:amazonses.com ~all",
-      "resend._domainkey=p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZNktsKwZTOxeQHv0S1mJozVMuxpyjmlfdksuTNvAU9I/bPDPcYd7T4jvkEl4+1yxyMI2jzhOdXf5ddB9QF6pp/+9i8kGY8c+3+8Qv1I4PTk7kdxj3YV5mGFwMsyTd2XuwM7wokbRxVUAv+aYWXvqJ+lHYRrtmCF1oHtnvh4LpKQIDAQAB",
-      "_dmarc=v=DMARC1; p=none;"
     ]
   }
 }
