@@ -4,6 +4,6 @@
         "email": "sergarsilla@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "TXT": "vc-domain-verify=sergarsilla.is-a.dev,f36e77a7deb27b6dc568"
     }
 }
