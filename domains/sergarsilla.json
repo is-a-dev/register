@@ -13,7 +13,7 @@
       }
     ],
     "TXT": [
-      "v=spf1 include:amazonses.com ~all",
+      "v=spf1 include:amazonses.com ~all"
     ]
   }
 }
