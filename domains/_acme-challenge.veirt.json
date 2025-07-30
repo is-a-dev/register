@@ -4,6 +4,6 @@
     "email": "wetrau8zs@mozmail.com"
   },
   "records": {
-    "A": ["69.67.170.170"]
+    "CNAME": "b6926167b7faffc87b1304a07f719c54._acme.deno.net"
   }
 }

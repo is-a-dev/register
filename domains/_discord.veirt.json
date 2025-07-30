@@ -4,6 +4,6 @@
     "email": "wetrau8zs@mozmail.com"
   },
   "records": {
-    "A": ["69.67.170.170"]
+    "TXT": "dh=27ed0b24d82463be016c4b64dbab55e221615403"
   }
 }
