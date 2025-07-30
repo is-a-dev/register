@@ -1,9 +1,19 @@
 {
-    "owner": {
-        "username": "sergarsilla",
-        "email": "sergarsilla@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "sergarsilla",
+    "email": "sergarsilla@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "MX": [
+      {
+        "target": "feedback-smtp.us-east-1.amazonses.com",
+        "priority": 10,
+        "name": "send"
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all"
+    ]
+  }
 }
