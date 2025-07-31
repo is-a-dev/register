@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "email": "lilyisher687@gmail.com"
-  },
-  "record": {
-    "url": "https://lilyisadev.netlify.app"
-  }
+    "owner": {
+        "username": "voidixx",
+        "email": "lilyisher687@gmail.com"
+    },
+    "records": {
+        "A": ["75.2.60.5"]
+    }
 }
