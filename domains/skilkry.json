@@ -4,7 +4,6 @@
     "email": "skilkrymods@gmail.com"
   },
   "record": {
-    "CNAME": "portfolio-sw5y.vercel.app",
-    "TXT": "vc-domain-verify=skilkry.is-a.dev,a8ecf41372a24237ade1"
+    "CNAME": "portfolio-sw5y.vercel.app"
   }
 }
