@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "sebandblocks",
+    "email": "sebandblocks@turquoisetnt.one"
+  },
+  "records": {
+    "CNAME": "sbdesigns.pages.dev",
+    "MX": [
+      { "target": "mx.zoho.eu", "priority": 10 },
+      { "target": "mx2.zoho.eu", "priority": 20 },
+      { "target": "mx3.zoho.eu", "priority": 50 }
+    ],
+    "TXT": "v=spf1 include:zohomail.eu ~all"
+  },
+  "proxied": true
+}
