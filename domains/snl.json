@@ -1,0 +1,24 @@
+{
+  "description": "A redirect domain for my Simple Portfolio and Blog Website",
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "records": {
+    "URL": "https://sticknologic.is-a.dev"
+  },
+  "redirect_config": {
+  "custom_paths": {
+    "/github": "https://github.com/STICKnoLOGIC",
+    "/x": "https://x.com/STICKnoLOGIC",
+    "/bsky": "https://bsky.app/profile/sticknologic.is-a.dev",
+    "/facebook": "https://facebook.com/STICKnoLOGIC",
+    "/linkedin": "https://linkedin.com/in/STICKnoLOGIC",
+    "/itchio": "https://sticknologic.itch.io/",
+    "/youtube": "https://youtube.com/@STICKnoLOGIC"
+  },
+  "redirect_paths": true
+}
+}
