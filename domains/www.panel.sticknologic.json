@@ -1,5 +1,5 @@
 {
-  "description": "API call for my Simple Portfolio and Blog Website",
+  "description": "Admin Panel for my IONOS VPS",
   "owner": {
     "username": "sticknologic",
     "x": "STICKnoLOGIC",
@@ -11,3 +11,4 @@
   },
   "proxied": true
 }
+  
