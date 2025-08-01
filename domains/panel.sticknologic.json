@@ -1,4 +1,5 @@
 {
+  "description": "Admin Panel for my IONOS VPS",
   "owner": {
     "username": "sticknologic",
     "x": "STICKnoLOGIC",
@@ -6,7 +7,8 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "CNAME": "sticknologic.is-a.dev"
+    "CNAME": "snl-vps.duckdns.org"
   },
   "proxied": true
 }
+  
