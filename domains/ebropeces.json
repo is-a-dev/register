@@ -1,0 +1,11 @@
+{
+  "description": "Web sobre peces del río Ebro",
+  "repo": "https://github.com/mgb42x/ebropeces",
+  "owner": {
+    "username": "mgb42x",
+    "email": "gaudesmario17@gmail.com"
+  },
+  "record": {
+    "CNAME": "ebropeces.netlify.app"
+  }
+}
