@@ -1,4 +1,5 @@
 {
+  "description": "API call for my Simple Portfolio and Blog Website",
   "owner": {
     "username": "sticknologic",
     "x": "STICKnoLOGIC",
@@ -6,7 +7,7 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "CNAME": "sticknologic.is-a.dev"
+    "CNAME": "snl-vps.mooo.com"
   },
   "proxied": true
 }
