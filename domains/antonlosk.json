@@ -1,1 +1,10 @@
-
+{
+  "owner": {
+    "username": "AntonLosk",
+    "email": "[antonloskutovqwerty@gmail.com]"
+  },
+  "records": {
+    "NS": ["candy.ns.cloudflare.com", "dave.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
