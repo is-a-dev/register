@@ -7,10 +7,11 @@
     "A": [
       "216.198.79.1"
     ],
-    "_vercel": {
-      "TXT": [
-        "vc-domain-verify=aadarsh.is-a.dev,2e8150db7fb7f6bf781f"
-      ]
-    }
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=aadarsh.is-a.dev,2e8150db7fb7f6bf781f"
+      }
+    ]
   }
 }
