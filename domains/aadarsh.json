@@ -4,6 +4,15 @@
     "username": "Aadarsh0307"
   },
   "records": {
-    "CNAME": "portfolio-aadarsh-rais-projects.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
+  },
+  "subdomains": {
+    "_vercel": {
+      "TXT": [
+        "vc-domain-verify=aadarsh.is-a.dev,2e8150db7fb7f6bf781f"
+      ]
+    }
   }
 }
