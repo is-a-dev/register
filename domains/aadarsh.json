@@ -1,9 +1,4 @@
-// Re-triggering deployment for Vercel verification
 {
-  "owner": {
-    "email": "aadarsh.rai0307@gmail.com",
-    "username": "Aadarsh0307"
-  },
   "records": {
     "A": [
       "216.198.79.1"
@@ -15,5 +10,9 @@
         "vc-domain-verify=aadarsh.is-a.dev,2e8150db7fb7f6bf781f"
       ]
     }
+  },
+  "owner": {
+    "email": "aadarsh.rai0307@gmail.com",
+    "username": "Aadarsh0307"
   }
 }
