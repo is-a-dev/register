@@ -4,19 +4,6 @@
     "discord": "mrakshayas"
   },
   "records": {
-    "A": [
-      {
-        "name": "@",
-        "value": "76.76.21.21",
-        "ttl": "automatic"
-      }
-    ],
-    "TXT": [
-      {
-        "name": "@",
-        "value": "peerlist-domain-verification=uhp69nnnlqmkdd9hmrlemm6keqnd",
-        "ttl": "automatic"
-      }
-    ]
+    "CNAME": "mraxays.peerlist.site"
   }
 }
