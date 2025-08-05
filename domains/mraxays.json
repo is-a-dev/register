@@ -4,19 +4,20 @@
     "discord": "mrakshayas"
   },
   "records": {
-    "DNS": [
+    "A": [
       {
-        "type": "TXT",
-        "name": "mraxays",
-        "value": "peerlist-domain-verification=uhp69nnnlqmkdd9hmrlemm6keqnd",
-        "ttl": "automatic"
-      },
-      {
-        "type": "A",
         "name": "mraxays",
         "value": "216.150.1.1",
+        "ttl": "automatic"
+      }
+    ],
+    "TXT": [
+      {
+        "name": "mraxays",
+        "value": "peerlist-domain-verification=uhp69nnnlqmkdd9hmrlemm6keqnd",
         "ttl": "automatic"
       }
     ]
   }
 }
+
