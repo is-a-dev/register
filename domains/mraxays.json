@@ -4,10 +4,16 @@
     "discord": "mrakshayas"
   },
   "records": {
-    "A": "76.76.21.21",
+    "A": [
+      {
+        "name": "@",
+        "value": "76.76.21.21",
+        "ttl": "automatic"
+      }
+    ],
     "TXT": [
       {
-        "name": "mraxays",
+        "name": "@",
         "value": "peerlist-domain-verification=uhp69nnnlqmkdd9hmrlemm6keqnd",
         "ttl": "automatic"
       }
