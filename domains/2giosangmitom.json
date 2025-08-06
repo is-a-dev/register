@@ -4,6 +4,14 @@
     "email": "2giosangmitom@gmail.com"
   },
   "records": {
-    "CNAME": "blog.2giosangmitom.workers.dev"
+    "CNAME": "blog.2giosangmitom.workers.dev",
+    "MX": [
+      { "target": "feedback-smtp.us-east-1.amazonses.com", "priority": 10 }
+    ],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all",
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoVo5Ba4QmtBLqRwDjx/3pyA2ZFnSJ00fqDbYxsohdjgTlZk/YPxRHdrRz3TgBYvak50d6v7V8hxDYteGmuHnqnAhCy5Q04SttIgwRloucwGtJ5E1T99kA4U0Fm43tcc1WnpTUe8yH8/ubXZaMNPBauGseFivA2SFBCW6EgfKIlQIDAQAB",
+      "v=DMARC1; p=none;"
+    ]
   }
 }
