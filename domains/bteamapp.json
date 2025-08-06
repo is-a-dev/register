@@ -6,6 +6,6 @@
   "proxied": true,
   "records": {
     "CNAME": "ghs.google.com",
-    "TXT": [ "brevo-code:4a6e073acf19d6eb62ae4ef7d9259923" ]
+    "TXT": "brevo-code:4a6e073acf19d6eb62ae4ef7d9259923"
   }
 }
