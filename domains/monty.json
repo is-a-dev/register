@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "DevloperCrocodiles",
+    "email": "djfeildmouse@gmail.com"
+  },
+  "records": {
+    "NS": ["paloma.ns.cloudflare.com", "tadeo.ns.cloudflare.com"]
+  },
+  "proxied": false
+}
