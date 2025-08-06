@@ -1,0 +1,9 @@
+{
+  "subdomain": "dave-cnd", 
+  "owner": {
+    "email": "davidpromise2003@gmail.com"
+  },
+  "record": {
+    "CNAME": "dave-cnd.onrender.com"
+  }
+}
