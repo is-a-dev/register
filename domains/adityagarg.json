@@ -5,8 +5,9 @@
   },
   "records": {
     "MX": [
-      { "target": "mail.protonmail.ch", "priority": 10 },
-      { "target": "mailsec.protonmail.ch", "priority": 20 }
+      { "target": "mx.zoho.in", "priority": 10 },
+      { "target": "mx2.zoho.in", "priority": 20 },
+      { "target": "mx3.zoho.in", "priority": 50 }
     ],
     "TXT": [
       "protonmail-verification=b7fa74448fd4e0529c97bc5fb91ed10ca85e0168",
