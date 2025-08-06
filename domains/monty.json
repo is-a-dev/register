@@ -1,10 +1,13 @@
 {
+  "domain": "is-a.dev",
+  "subdomain": "monty",
+
   "owner": {
-    "username": "DevloperCrocodiles",
+    "github": "developercrcodile",
     "email": "djfeildmouse@gmail.com"
   },
-  "records": {
-    "NS": ["paloma.ns.cloudflare.com", "tadeo.ns.cloudflare.com"]
-  },
-  "proxied": false
+
+  "record": {
+    "CNAME": "developercrcodiles.github.io"
+  }
 }
