@@ -1,11 +1,12 @@
 {
   "owner": {
-    "username": "vspcoderz"
+    "username": "vspcoderz",
+    "discord": "921329685114269718"
   },
   "records": {
-    "NS": [
-      "fred.ns.cloudflare.com",
-      "magali.ns.cloudflare.com"
+    "TXT": [
+      "vc-domain-verify=vspcoderz.is-a.dev,0c2a23b5371d9163ad41",
+      "vc-domain-verify=www.vspcoderz.is-a.dev,3f15548c90cd1183aea4"
     ]
   }
 }
