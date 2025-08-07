@@ -1,13 +1,9 @@
 {
-  "domain": "is-a.dev",
-  "subdomain": "monty",
-
-  "owner": {
-    "github": "developercrcodile",
+ "owner": {
+    "username": "developercrcodile",
     "email": "djfeildmouse@gmail.com"
   },
-
-  "record": {
+  "records": {
     "CNAME": "developercrcodile.github.io"
   }
 }
