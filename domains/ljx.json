@@ -1,0 +1,16 @@
+{
+"owner"
+: {
+"username"
+: "turkey1024",
+"email"
+: "ljx20110119@qq.com"
+},
+"records"
+: {
+"NS"
+: ["daisy.ns.cloudflare.com", "hal.ns.cloudflare.com"]
+},
+"proxied"
+: true
+}
