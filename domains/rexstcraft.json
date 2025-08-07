@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "github": "rexstcraft"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "proxied": true,
+      "target": "premium.zonely.gen.tr"
+    },
+    {
+      "type": "CNAME",
+      "proxied": true,
+      "target": "premium.zonely.gen.tr",
+      "name": "www"
+    }
+  ]
+}
