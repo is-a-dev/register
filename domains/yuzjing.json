@@ -4,7 +4,7 @@
     "email": "yuzhao-git@outlook.com"
   },
   "records": {
-    "CNAME": "dev.528900.xyz"  // <-- Updated CNAME target to a non-proxied subdomain to resolve a Cloudflare double proxy issue.
+    "CNAME": "dev.528900.xyz" 
   },
   "proxied": true
 }
