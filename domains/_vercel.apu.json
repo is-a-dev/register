@@ -1,10 +1,10 @@
 {
   "owner": {
     "username": "aariyanapu",
-    "email": "aariyan.apu@gmail.com"
+    "email": "aariyan.apu@gmail.com",
+    "discord": "aariyanapu"
   },
   "records": {
-    "A": ["216.198.79.1"],
     "TXT": "vc-domain-verify=apu.is-a.dev,47638fe76b37c58a289c"
   }
 }
