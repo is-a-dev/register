@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "jules-agent"
-  },
-  "records": {
-    "CNAME": "links.blocksurvey.io"
-  }
+    "owner": {
+        "username": "thefaizhssn",
+        "email": "faiz.hassan@cradle.com.my"
+    },
+    "records": {
+        "CNAME": "thefaizhssn.github.io"
+    }
 }
