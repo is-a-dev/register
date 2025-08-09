@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "NomMilk"
-    },
-    "records": {
-        "URL": "https://www.i-am.fish"
-    }
+  "repo": "https://github.com/NomMilk/register",
+  "owner": {
+    "username": "NomMilk",
+    "email": "fish@hikari3.ch"
+  },
+  "records": {
+    "URL": "https://i-am.fish/"
+  }
 }
