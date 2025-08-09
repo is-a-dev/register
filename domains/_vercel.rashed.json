@@ -3,7 +3,7 @@
     "username": "Rashed360",
     "email": "ruman.rush+isadev@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=rashed.is-a.dev,b900d35114e0f3394b8c"]
+  "records": {
+    "TXT": "vc-domain-verify=rashed.is-a.dev,b900d35114e0f3394b8c"
   }
 }

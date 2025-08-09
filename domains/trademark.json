@@ -1,11 +1,9 @@
 {
-  "description": "nice subdomain for my personal website.",
-  "repo": "https://github.com/trmrk/trademark",
   "owner": {
     "username": "trmrk",
     "email": "augmooney@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }

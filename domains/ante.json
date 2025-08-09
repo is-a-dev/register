@@ -3,7 +3,7 @@
     "username": "antebrl",
     "email": "ahcwnh@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["130.61.108.36"],
     "MX": [
       {
@@ -19,10 +19,6 @@
         "priority": 50
       }
     ],
-    "TXT": [
-      "dh=6d109bce7d0aeacdc4a573c959d85a778d239527", 
-      "zoho-verification=zb08689376.zmverify.zoho.eu",
-      "v=spf1 include:zohomail.eu ~all"
-    ]
+    "TXT": ["zoho-verification=zb08689376.zmverify.zoho.eu", "v=spf1 include:zohomail.eu ~all"]
   }
 }

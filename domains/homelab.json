@@ -4,7 +4,7 @@
     "username": "vikipranata",
     "email": "helovikipranata@gmail.com"
   },
-  "record": {
+  "records": {
     "NS": ["deb.ns.cloudflare.com", "sid.ns.cloudflare.com"]
   }
 }

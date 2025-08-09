@@ -4,7 +4,7 @@
     "email": "elvistranhere@gmail.com",
     "discord": "elvistran.here"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=elvis-tran.is-a.dev,cb733ac2167fe3a593a3"]
+  "records": {
+    "TXT": "vc-domain-verify=elvis-tran.is-a.dev,cb733ac2167fe3a593a3"
   }
 }

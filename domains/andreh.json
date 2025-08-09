@@ -1,12 +1,10 @@
 {
-  "description" : "Personal coolify website for fun",
-  "owner" : {
-    "username" : "quickburrrn",
-    "email" : "andre.hansen146@gmail.com"
+  "description": "Personal coolify website for fun",
+  "owner": {
+    "username": "quickburrrn",
+    "email": "andre.hansen146@gmail.com"
   },
-  "record" : {
-    "A" : [
-      "65.108.219.118"
-    ]
+  "records": {
+    "A": ["65.108.219.118"]
   }
 }

@@ -3,13 +3,13 @@
     "username": "antebrl",
     "email": "ahcwnh@gmail.com"
   },
-  "record": {
+  "records": {
     "MX": [
       {
         "target": "feedback-smtp.eu-west-1.amazonses.com",
         "priority": 10
       }
     ],
-    "TXT": ["v=spf1 include:amazonses.com ~all"]
+    "TXT": "v=spf1 include:amazonses.com ~all"
   }
 }

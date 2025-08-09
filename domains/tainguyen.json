@@ -1,11 +1,9 @@
 {
-  "description": "this is my profile",
-  "repo": "https://github.com/taitai2107/web_cv",
   "owner": {
     "username": "taitai2107",
     "email": "nguyencongkhanhtai21072001@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "taitai2107.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio of a fullstack developer",
-  "repo": "https://github.com/daspete/pete-github-io",
   "owner": {
     "username": "daspete",
     "email": "daspetemail@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "daspete.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Personal website of Clyron",
-  "repo": "https://github.com/theclyron/theclyron.github.io",
   "owner": {
-    "username": "theclyron",
+    "username": "thekayaurora",
     "email": "onenonlyclyron@gmail.com"
   },
-  "record": {
-    "CNAME": "theclyron.github.io"
+  "records": {
+    "CNAME": "thekayaurora.github.io"
   }
 }

@@ -1,13 +1,11 @@
 {
   "description": "Portfolio",
   "owner": {
-    "username": "oliver720", 
-    "email": "olivergarro2017@gmail.com" 
+    "username": "oliver720",
+    "email": "olivergarro2017@gmail.com"
   },
-  "record": {
-    "A": [
-      "52.160.46.153"
-    ]
+  "records": {
+    "A": ["52.160.46.153"]
   },
   "proxied": false
 }
