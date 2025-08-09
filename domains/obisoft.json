@@ -1,0 +1,11 @@
+{
+  "description": "Obisoft test app",
+  "repo": "https://github.com/obisoftware/obisoft",
+  "owner": {
+    "username": "obisoftware",
+    "email": "josephanayo@gmail.com"
+  },
+  "record": {
+    "CNAME": "obisoftware.github.io"
+  }
+}
