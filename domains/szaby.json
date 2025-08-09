@@ -4,6 +4,6 @@
     "email": "xat.king6969@gmail.com"
   },
   "records": {
-    "CNAME": "weboldalam.onrender.com"
+    "A": ["216.24.57.1"]
   }
 }
