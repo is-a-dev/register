@@ -1,5 +1,5 @@
 {
-  "description": "Admin for my Simple Portfolio and Blog Website",
+  "description": "Simple Portfolio and Blog Website",
   "owner": {
     "username": "sticknologic",
     "x": "STICKnoLOGIC",
@@ -7,8 +7,7 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "A": ["65.19.154.90"],
-    "AAAA": ["2001:470:1:1ee::1002"]
+    "CNAME": "snl-vps.mooo.com"
   },
   "proxied": true
 }
