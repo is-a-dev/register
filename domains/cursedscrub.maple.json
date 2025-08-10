@@ -4,7 +4,7 @@
     "username": "quantummapleqc",
     "email": "mapelthenerd@proton.me"
   },
-  "record": {
-    "CNAME": "quantummapleqc.github.io/"
+  "records": {
+    "CNAME": "quantummapleqc.github.io"
   }
 }
