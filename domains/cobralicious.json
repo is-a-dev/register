@@ -3,6 +3,6 @@
         "username": "cobralicious"
     },
     "records": {
-        "CNAME": "https://cobralicious.netlify.app/"
+        "CNAME": "cobralicious.netlify.app"
     }
 }
