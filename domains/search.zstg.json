@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "zstg",
+    "email": "zestig@duck.com",
+    "twitter": "zstg"
+  },
+  "records": {
+    "CNAME": "https://berry.bleak-canopus.ts.net/searx/"
+  }
+}
