@@ -19,9 +19,5 @@
       "/invite": "https://discord.com/oauth2/authorize?client_id=1263729834354409544"
     }
   },
-  "services": {
-    "discord": "dh=81d234bda025f0796690ab6cf411be3a6b6c73c2",
-    "bluesky": "did=did:plc:nkzlgllahrw2v2y6p4inqx6t"
-  },
   "proxied": true
 }
