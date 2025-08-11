@@ -1,0 +1,10 @@
+{
+  "description": "Redirect for my main site",
+  "owner": {
+    "username": "quantummapleqc",
+    "email": "mapelthenerd@proton.me"
+  },
+  "records": {
+    "URL": "https://quantummapleqc.is-a.dev"
+  }
+}
