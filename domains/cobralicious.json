@@ -2,7 +2,7 @@
     "owner": {
         "username": "cobralicious"
     },
-    "records": {
-        "CNAME": "cobralicious.netlify.app"
+    "record": {
+        "CNAME": "cobralicious.github.io"
     }
 }
