@@ -5,7 +5,7 @@
     "discord": "481268875586174986"
   },
   "records": {
-    "A": "65.109.5.98"
+    "A": ["65.109.5.98"]
   },
   "redirect_config": {
     "custom_paths": {
