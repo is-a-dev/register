@@ -1,0 +1,12 @@
+{
+  "description": "Killer-spel game tunnel",
+  "domain": "is-a.dev",
+  "subdomain": "killer-spel",
+  "owner": {
+    "email": "hejoh92a@hotmail.com",
+    "github": "habaloue-bot"
+  },
+  "record": {
+    "CNAME": "9c07b1fa-4bb7-4641-ab12-fedaeaabb44b.cfargotunnel.com"
+  }
+}
