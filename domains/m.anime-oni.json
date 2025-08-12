@@ -5,6 +5,7 @@
   },
   "records": {
     "TXT": ["zoho-verification=zb90516969.zmverify.zoho.eu", "v=spf1 include:zohomail.com ~all"],
+    "URL": "https://anime-oni.is-a.dev/links",
     "MX": [
       {
         "target": "mx.zoho.com",
@@ -20,5 +21,4 @@
       }
     ]
   },
-  "proxied": true
 }
