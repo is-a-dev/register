@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "cobralicious"
+        "username": "cobralicious",
+        "email": "totpetusok@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "cobralicious.github.io"
     }
 }
