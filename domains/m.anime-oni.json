@@ -13,11 +13,11 @@
       },
       {
         "target": "mx2.zoho.com",
-        "priority": "20"
+        "priority": 20
       },
       {
         "target": "mx3.zoho.com",
-        "priority": "50"
+        "priority": 50
       }
     ]
   }
