@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "d-mironov",
+  },
+  "records": {
+    "CNAME": "mironov.engineer"
+  },
+  "redirect_config": {
+      "custom_paths": {
+          "/gitlab": "https://git.mironov.engineer"
+      },
+      "redirect_paths": true
+  },
+  "proxied": true
+}
