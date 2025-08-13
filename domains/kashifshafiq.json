@@ -4,7 +4,9 @@
     "email": "info@kashif-shafiq.com"
   },
   "records": {
-    "CNAME": "kashif-shafiq.com"
+    "CNAME": "kashif-shafiq.com",
+    "TXT": {
+      "_vercel": "vc-domain-verify=kashifshafiq.is-a.dev,3ef03255d64104f7d7e2"
+    }
   },
   "proxied": true
-}
