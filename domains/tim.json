@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "timseriakov",
+    "email": "t.seriakov@gmail.com"
+  },
+  "record": {
+    "type": "CNAME",
+    "value": "cname.vercel-dns.com"
+  },
+  "proxied": false
+}
+
