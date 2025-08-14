@@ -1,0 +1,38 @@
+{
+  "description": "LMS — email sending via Resend (DKIM/SPF/MX/DMARC)",
+  "domain": "lms-library.is-a.dev",
+  "subdomains": [
+    {
+      "label": "send",
+      "records": [
+        {
+          "type": "MX",
+          "value": "feedback-smtp.eu-west-1.amazonses.com",
+          "priority": 10
+        },
+        {
+          "type": "TXT",
+          "value": "v=spf1 include:amazonses.com ~all"
+        }
+      ]
+    },
+    {
+      "label": "resend._domainkey",
+      "records": [
+        {
+          "type": "TXT",
+          "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+2jQGZFjePUm2lFF4R/V1AGNH5KdYaSYOSU8b//0vNPQbMwYZmAnuLrIdWxY30lJO8W6EIsjF8nTljR8JGc37BjZ/uSxngYeAjUaIz7bhyrHl/jBPg6sLYx1MghO2JFMa/9L8BITmz2amT/e20yp3kpfEYBYEb1Rljyfjqe4b6wIDAQAB"
+        }
+      ]
+    },
+    {
+      "label": "_dmarc",
+      "records": [
+        {
+          "type": "TXT",
+          "value": "v=DMARC1; p=none;"
+        }
+      ]
+    }
+  ]
+}
