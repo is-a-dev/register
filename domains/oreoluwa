@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "oreoluwa-bs"
+        "username": "oreoluwa-bs",
+        "email":"hello@oreoluwabs.com"
     },
     "records": {
         "CNAME": "oreoluwabs.com"
