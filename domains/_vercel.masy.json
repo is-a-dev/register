@@ -4,6 +4,6 @@
         "email": "fazezsaidmassinissa@gmail.com"
     },
     "records": {
-        "CNAME": "vc-domain-verify=masy.is-a.dev,2253740f9eac6b40732e"
+        "TXT": "vc-domain-verify=masy.is-a.dev,2253740f9eac6b40732e"
     }
 }
