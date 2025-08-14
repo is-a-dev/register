@@ -6,5 +6,5 @@
   "records": {
     "NS": ["brianna.ns.cloudflare.com", "peter.ns.cloudflare.com"]
   },
-  "proxied": true
+  "proxied": false
 }
