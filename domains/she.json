@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "Wheat Carrier",
+    "email": "wheatcarrier@gmail.com"
+  },
+  "records": {
+    "CNAME": "theodorekrypton.github.io"
+  }
+}
