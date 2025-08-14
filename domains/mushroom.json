@@ -1,0 +1,12 @@
+{
+  "description": "Press the Mushroom site",
+  "repo": "https://github.com/lin3598197/Press-the-mushroom",
+  "owner": {
+    "username": "lin3598197"
+    "email": "lin3598197@gmail.com"
+  },
+  "record": {
+    "CNAME": "lin3598197.github.io"
+  },
+  "proxied": false
+}
