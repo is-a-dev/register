@@ -4,7 +4,7 @@
     "email": "mail.realcode@gamil.com"
   },
   "records": {
-    "URL": "bousai.cn"
+    "NS": ["brianna.ns.cloudflare.com", "peter.ns.cloudflare.com"]
   },
   "proxied": true
 }
