@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "nikvdp",
+        "email": "is-a.dev_domain@nikvdp.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"],
+        "TXT": ["vc-domain-verify=nikvdp.is-a.dev,f2d25dbbf1260efe33df"]
+    }
+}
