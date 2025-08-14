@@ -4,7 +4,7 @@
     "username": "asnct",
     "email": "asnct@proton.me"
   },
-  "record": {
+  "records": {
     "URL": "https://asnct_bio.t.me",
     "TXT": ["mailru-domain: wDSaV835X4LZyKsP", "v=spf1 redirect=_spf.mail.ru"],
     "MX": ["emx.mail.ru"]

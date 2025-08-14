@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "VulcanoSoftware",
-    "discord": "814891541205876767",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.WYB8jKD71t5bNPCzGO99a6kcjoLLipJVLzHxhAqoPUcGLm8MAPJRa4WMlKhCDM0eN49rQ5EHzL08go2s05jE12ezxmZ92m58MJ9ztAlF16TOxCTI4Vy3hFknZlOWhIdE69DhINJT1sG1ceWLY_oGk758-GIvBAQrDVPB-5m1nYEpp2LYipiMngwgZDvz0gLF0BXXRrP7b74phJUmw39nK1_gE1uJFKuDknWGYlCxPfhJ1aNQEAHHxgbuVghaLCv3tIqrh29j99dXZjw8wFxmaubcew0eei1NaG_An_OzbgwsTJn3QiAnanYRtnSaMGBGTHzhJ3OWx9st5Phxfut7lQ.qPrZy8EOYsGDVaIXF-Ilcg.CXoxIk3NL2J6h0tipv9pRe47YDHQ3Vl7VB58l0tdPtSTE_guNUoBwxvNOLkwj5pozh3oVKlqdGH4sego6PCw1blqG5nIPKq3Lju0-jdQr_jH74BrOJ6Vp4VOY-m0-2kG.0kLSV4Xse1p9_QqEod0M6g"
+    "discord": "814891541205876767"
   },
-  "record": {
-    "CNAME": "f14fb61a3cd4425fe52de16b257ca673.ipv4.tcpshield.com"
+  "records": {
+    "CNAME": "bdb78e6f-730f-4f5b-a209-c9b9aa8bd3f1.shield.neoprotect.ovh"
   }
 }

@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "jakeharrison90",
-    "email": "overtonmarke@gmail.com"
+    "username": "jartf",
+    "email": "gh@jar.tf"
   },
-  "record": {
-    "CNAME": "excelcommunity.vercel.app"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

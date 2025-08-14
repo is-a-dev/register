@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "rcerrejon",
-        "email": "neoline@gmail.com"
-    },
-    "record": {
-        "CNAME": "rafaelcerrejon.com"
-    }
+  "owner": {
+    "username": "el-rafa-dev",
+    "email": "tampaseguraa@gmail.com"
+  },
+  "records": {
+    "CNAME": "el-rafa-dev.github.io"
+  }
 }

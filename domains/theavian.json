@@ -1,12 +1,10 @@
 {
-  "description": "Personal portofolio website",
-  "repo": "https://github.com/theavian/theavian.github.io",
   "owner": {
     "username": "theavian",
     "email": "avicrafty8@gmail.com",
     "twitter": "Avian_studios"
   },
-  "record": {
+  "records": {
     "CNAME": "theavian.github.io"
   }
 }
