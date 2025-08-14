@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "mgtech",
+    "email": "avmuser@proton.me"
+  },
+  "records": {
+    "NS": ["brenna.ns.cloudflare.com", "cartman.ns.cloudflare.com"]
+  }
+}
