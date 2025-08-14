@@ -1,12 +1,10 @@
 {
-  "description": "A better link for my personal profile",
-  "repo": "https://github.com/ayaangrover/ayaangrover.github.io",
   "owner": {
     "username": "ayaangrover",
     "email": "ayaangrover@gmail.com",
     "twitter": "grover_ayaan"
   },
-  "record": {
+  "records": {
     "CNAME": "ayaangrover.github.io"
   }
 }

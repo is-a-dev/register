@@ -3,7 +3,7 @@
     "username": "Gauravisdev",
     "discord": "1119494339735867422"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=chandsi.is-a.dev,8654576292b580f414fe"]
+  "records": {
+    "TXT": "vc-domain-verify=chandsi.is-a.dev,8654576292b580f414fe"
   }
 }

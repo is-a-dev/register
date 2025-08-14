@@ -1,10 +1,8 @@
 {
-  "description": "This is personal website",
-  "repo": "https://github.com/mayank-rathva/mayank-rathva.github.io",
   "owner": {
     "username": "mayank-rathva"
   },
-  "record": {
+  "records": {
     "CNAME": "mayank-rathva.github.io"
   }
 }

@@ -3,7 +3,7 @@
     "username": "Smartlinuxcoder",
     "email": "smartcoder@linuxmail.org"
   },
-  "record": {
-    "CNAME": "proxytwo.smartlinux.xyz"
+  "records": {
+    "CNAME": "smartlinuxcoder.github.io"
   }
 }

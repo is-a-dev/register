@@ -1,12 +1,10 @@
 {
-  "description": "socials, etc",
-  "repo": "https://github.com/HaftIsntHere/haftisnthere.github.io",
   "owner": {
     "username": "HaftIsntHere",
     "discord": "imhaft",
     "email": "haftthedev@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["38.22.104.156"]
   }
 }

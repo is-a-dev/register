@@ -3,8 +3,7 @@
     "username": "JavaProgswing",
     "email": "yashasviallen@gmail.com"
   },
-  "record": {
-    "CNAME": "yashasviallen.dynv6.net"
-  },
-  "proxied": true
+  "records": {
+    "NS": ["bethany.ns.cloudflare.com", "miles.ns.cloudflare.com"]
+  }
 }

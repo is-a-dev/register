@@ -1,12 +1,11 @@
 {
   "owner": {
     "username": "Aaryan-N",
-    "discord": "652433042153144321",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.RE4SnzQsF8mU81IgFbFll-aRz00dgrRzHb93gKwvaM03w_ksZTABXtjQBNe91kffdNc9M3JpnZVUlRPWGsXcdcyIUGUctweC7d7HZKNylvAYm12-xVmaX8PYM5B4l1TwTfZfACx2LckVKZUR0dZUkIVvTVHPCMF2xCGb7z8Ic-iSSu2Dp5mywp5XN8qu1dC8ep46fzkqfMeVWtzv8daNB332nz-nwKVDx_22MuYJy3mpeMMQVPRU41oWILQoWYVWYVhsiqpgw1VXKdyd52VmzgfmG6Gj0bYPeoIDzWIX8Tb-zhjxiy67tXaZYqZ7Y6DhT-t8FoZtrAfkWVyH28VOgA.KHOXZEbbSdswKeb51IRQzw.9asWvdPDaCTj6nfgO7jC4juUIdDmstvUHCjd2lb_7LK0EKJyiriVsW8F6yG7L0hCUFvPGYRfWCgn1ffzGJsbCxn-sC7aN4vfildGU5geAHA.4lTkjQOfgK2NOf2Pdf7b9A"
+    "discord": "652433042153144321"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

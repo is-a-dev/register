@@ -3,10 +3,7 @@
     "username": "CodeSuthar",
     "email": "AdityaSuthar13@outlook.com"
   },
-  "record": {
-    "NS": [
-      "dexter.ns.cloudflare.com",
-      "fay.ns.cloudflare.com"
-    ]
+  "records": {
+    "NS": ["dexter.ns.cloudflare.com", "fay.ns.cloudflare.com"]
   }
 }

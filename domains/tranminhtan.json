@@ -1,0 +1,11 @@
+{
+  "description": "Documents AI website for tanbaycu",
+  "owner": {
+    "username": "tanbaycu",
+    "email": "mnew20128@gmail.com"
+  },
+  "records": {
+    "CNAME": "trituenhantao.vercel.app"
+  },
+  "proxied": true
+}

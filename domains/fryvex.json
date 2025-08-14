@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "x1yl",
+    "discord": "627947214576025610"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}
