@@ -10,5 +10,6 @@
            "adaline.ns.cloudflare.com",
            "ian.ns.cloudflare.com"
         ]
-    }
+    },
+    "proxied": true
 }
