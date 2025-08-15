@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "cman351",
+    "email": "sysops@go-host.org"
+  },
+  "records": {
+    "NS": ["thunder.go-host.org", "lightning.go-host.org"],
+      ]
+}
