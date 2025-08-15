@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "eslco",
+        "email": "info@aesin.eu"
+    },
+    "records": {
+        "CNAME": "gh.aesin.eu",
+        "TXT": "d4fec8e3d19984f396b98bd529eadf"
+    }
+}
