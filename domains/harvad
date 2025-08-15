@@ -1,0 +1,10 @@
+{
+  "description": "harvad.is-a.dev",
+  "owner": {
+    "username": "harvad-is-a-dev",
+    "email": "bluehawana@gmail.com"
+  },
+  "records": {
+    "CNAME": ["bluehawana.github.io"]
+  }
+}
