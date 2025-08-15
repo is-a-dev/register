@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "realcodestudio",
+    "email": "mail.realcode@gamil.com"
+  },
+  "records": {
+    "NS": ["brianna.ns.cloudflare.com", "peter.ns.cloudflare.com"]
+  },
+  "proxied": false
+}
