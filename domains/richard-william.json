@@ -1,0 +1,10 @@
+{
+  "description": "Self hosted Micro Front End Blog & Portfolio",
+  "owner": {
+    "username": "richard483",
+    "email": "richard.william483@gmail.com"
+  },
+  "records": {
+    "CNAME": "nephren.xyz"
+  }
+}
