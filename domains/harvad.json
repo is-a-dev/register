@@ -1,0 +1,10 @@
+{
+  "description": "harvad.is-a.dev",
+  "owner": {
+    "username": "blehawana",
+    "email": "blehawana@example.com"
+  },
+  "records": {
+    "A": ["127.0.0.1"]
+  }
+}
