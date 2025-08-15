@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "pecyca",
+    "email": "pecyca@gmail.com"
+  },
+  "records": {
+    "CNAME": "ndc-compare.netlify.app"
+  },
+  "proxied": true
+}
