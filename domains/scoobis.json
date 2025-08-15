@@ -6,5 +6,5 @@
   "records": {
     "CNAME": "scoobies.scoobis.online"
   },
-  "proxied": false
+  "proxied": true
 }
