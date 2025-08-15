@@ -1,0 +1,10 @@
+{
+  "name": "play.herobrine",
+  "type": "SRV",
+  "service": "_minecraft",
+  "proto": "_tcp",
+  "priority": 0,
+  "weight": 5,
+  "port": 13293,
+  "target": "8HerobrineCraft-dp95.aternos.me"
+}
