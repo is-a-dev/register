@@ -1,0 +1,11 @@
+{
+  "description": "CORS vulnerability PoC domain for testing (privy.io.likithgajula.is-a.dev)",
+  "repo": "https://github.com/likithgajula/cors-poc",
+  "owner": {
+    "username": "likithgajula",
+    "email": "luckygajula1122@gmail.com"
+  },
+  "record": {
+    "CNAME": "likithgajula.github.io"
+  }
+}
