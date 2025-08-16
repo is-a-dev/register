@@ -1,10 +1,9 @@
 {
     "owner": {
-        "username": "ishan-school",
-        "email": "ishan.13406@lahartara.sunbeamschools.com"
+        "username": "ExcessByte",
+        "email": "ericdenny26@gmail.com"
     },
-
-    "record": {
-        "A": ["69.30.249.53"]
+    "records": {
+        "CNAME": "excessbyte.github.io"
     }
 }

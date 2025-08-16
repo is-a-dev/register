@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "lverx",
+    "email": "profoundlvr@gmail.com"
+  },
+  "records": {
+    "TXT": ["zoho-verification=zb43169475.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
+    "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
+  }
+}
