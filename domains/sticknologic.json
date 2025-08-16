@@ -7,8 +7,7 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "A": ["65.19.154.90"],
-    "AAAA": ["2001:470:1:1ee::1002"],
+    "CNAME": "snl-vps.mooo.com",
     "MX": [
       "mx1.improvmx.com", "mx2.improvmx.com"
     ],
