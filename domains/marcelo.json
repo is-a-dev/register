@@ -4,8 +4,8 @@
   },
   "records": {
     "NS": [
-      "NS1.LINEADNS.COM",
-      "NS2.LINEADNS.COM"
+      "ns1.lineadns.com.",
+      "ns2.lineadns.com."
     ]
   }
 }
