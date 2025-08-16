@@ -3,7 +3,7 @@
     "username": "mrajnansky"
   },
   "records": {
-    "NS": [
+    "A": [
       "ns1.lineadns.com.",
       "ns2.lineadns.com."
     ]
