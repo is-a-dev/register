@@ -1,0 +1,11 @@
+{
+  "description": "Personal website hosted on Raspberry Pi with Tailscale Funnel.",
+  "owner": {
+    "username": "sssstf0rest",
+    "email": "haoshen0226@gmail.com"
+  },
+  "record": {
+    "CNAME": "rpi.fell-lionfish.ts.net"
+  },
+  "proxied": false
+}
