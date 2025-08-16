@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "thenamelessdev",
-    "discord": "thenamelessdev"
+    "discord": "thenamelessdev",
+    "email": "aron@thenamelessdev.com"
   },
   "records": {
-    "CNAME": "thenamelessdev.github.io/about-me"
+    "CNAME": "thenamelessdev.github.io"
   }
 }
