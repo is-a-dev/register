@@ -5,6 +5,9 @@
   },
   "records": {
     "A": ["216.150.1.1"],
-    "TXT": "peerlist-domain-verification=uhp69nnnlqmkdd9hmrlemm6keqnd"
+    "TXT": ["peerlist-domain-verification=uhp69nnnlqmkdd9hmrlemm6keqnd"],
+    "_vercel": {
+      "TXT": ["vc-domain-verify=mraxays.is-a.dev,6b8700111c94b97c2473"]
+    }
   }
 }
