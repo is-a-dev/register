@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Portfolio - Hulk Interactive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+            overflow-x: hidden;
+            color: white;
+        }
+
+        #canvas-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 1;
+        }
+
+        #ui-overlay {
+            position: relative;
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        .welcome-text {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            opacity: 0;
+            animation: fadeInUp 2s ease-out 1s forwards;
+        }
+
+        .welcome-text h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .welcome-text p {
+            font-size: 1.2rem;
+            color: #00ff88;
+        }
+
+        .projects-container {
+            position: fixed;
+            bottom: 5%;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 2rem;
+            opacity: 0;
+            animation: fadeInUp 2s ease-out 3s forwards;
+            z-index: 20;
+        }
+
+        .project-card {
+            background: rgba(0, 255, 136, 0.2);
+            backdrop-filter: blur(10px);
+            border: 2px solid #00ff88;
+            border-radius: 15px;
+            padding: 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            pointer-events: all;
+            min-width: 200px;
+            box-shadow: 0 4px 20px rgba(0, 255, 136, 0.3);
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            background: rgba(0, 255, 136, 0.2);
+            border-color: #00ff88;
+        }
+
+        .project-card h3 {
+            margin-bottom: 0.5rem;
+            color: #00ff88;
+        }
+
+        .project-card p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateX(-50%) translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
+        }
+
+        .loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 100;
+            color: #00ff88;
+            font-size: 1.5rem;
+        }
+
+        .control-buttons {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 30;
+            opacity: 0;
+            animation: fadeIn 2s ease-out 4s forwards;
+        }
+
+        .control-btn {
+            background: linear-gradient(45deg, #00ff88, #00cc66);
+            border: none;
+            border-radius: 50px;
+            padding: 15px 25px;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 255, 136, 0.4);
+            pointer-events: all;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .control-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 255, 136, 0.6);
+            background: linear-gradient(45deg, #00cc66, #00ff88);
+        }
+
+        .control-btn:active {
+            transform: translateY(0);
+        }
+
+        .control-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .smash-btn {
+            background: linear-gradient(45deg, #ff4444, #cc0000);
+            animation: pulse 1.5s infinite;
+        }
+
+        .smash-btn:hover {
+            background: linear-gradient(45deg, #cc0000, #ff4444);
+            box-shadow: 0 6px 20px rgba(255, 68, 68, 0.6);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .project-card.broken {
+            animation: breakCard 0.8s ease-out forwards;
+        }
+
+        @keyframes breakCard {
+            0% { 
+                transform: translateY(-10px) scale(1) rotate(0deg);
+                opacity: 1;
+            }
+            25% { 
+                transform: translateY(-20px) scale(1.1) rotate(-5deg);
+            }
+            50% { 
+                transform: translateY(-10px) scale(0.9) rotate(5deg);
+            }
+            100% { 
+                transform: translateY(100px) scale(0.3) rotate(15deg);
+                opacity: 0;
+            }
+        }
+
+        .project-card.hulk-landed {
+            border-color: #ff4444;
+            box-shadow: 0 4px 20px rgba(255, 68, 68, 0.5);
+            background: rgba(255, 68, 68, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loading" class="loading">Loading Hulk...</div>
+
+    <div id="canvas-container"></div>
+
+    <div class="control-buttons">
+        <button id="jumpBtn" class="control-btn">🦘 Jump to Project</button>
+        <button id="smashBtn" class="control-btn smash-btn" style="display: none;">💥 SMASH!</button>
+    </div>
+
+    <div id="ui-overlay">
+        <div class="welcome-text">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hulk ready to smash through my projects!</p>
+        </div>
+
+        <div class="projects-container">
+            <div class="project-card" data-url="https://huggingface.co/spaces/SWARIM/Agentic_RAG">
+                <h3>🤖 Agentic RAG</h3>
+                <p>AI-powered retrieval system</p>
+            </div>
+            <div class="project-card" data-url="https://huggingface.co/spaces/SWARIM/professional-portfolio-chatbot">
+                <h3>💼 Portfolio Chatbot</h3>
+                <p>Interactive AI assistant</p>
+            </div>
+            <div class="project-card" data-url="https://huggingface.co/spaces/SWARIM/RAG_CHATBOT">
+                <h3>💬 RAG Chatbot</h3>
+                <p>Smart conversational AI</p>
+            </div>
+            <div class="project-card" data-url="https://github.com/swarimabdussamad">
+                <h3>🚀 GitHub Profile</h3>
+                <p>View all my projects</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
