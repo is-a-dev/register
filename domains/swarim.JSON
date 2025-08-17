@@ -1,0 +1,12 @@
+{
+  "description": "Swarim - Software Developer Portfolio",
+  "domain": "github.io", 
+  "subdomain": "swarim",
+  "owner": {
+    "repo": "https://github.com/swarimabdussamad/swarim.is-a-dev",
+    "email": "swarimabdussamad@gmail.com"
+  },
+  "record": {
+    "CNAME": "swarimabdussamad.github.io"
+  }
+}
