@@ -4,7 +4,7 @@
     "email": "semlakune@gmail.com"
   },
   "records": {
-    "CNAME": "semlakune.github.io",
+    "A": ["75.2.60.5"],
     "TXT": "zoho-verification=zb76000441.zmverify.zoho.com"
   }
 }
