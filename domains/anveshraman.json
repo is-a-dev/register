@@ -4,6 +4,9 @@
     "email": "anveshraman.ae@gmail.com"
   },
   "records": {
-    "CNAME": "developeranveshraman.github.io"
+    "NS": [
+            "aryanna.ns.cloudflare.com",
+            "johnathan.ns.cloudflare.com"
+        ]
   }
 }
