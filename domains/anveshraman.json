@@ -8,7 +8,7 @@
     "NS": [
             "aryanna.ns.cloudflare.com",
             "johnathan.ns.cloudflare.com"
-        ]
+        ],
     "MX": [
       { "target": "mx.zoho.in", "priority": 10 },
       { "target": "mx2.zoho.in", "priority": 20 },
