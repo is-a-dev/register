@@ -1,5 +1,5 @@
 {
-  "owner": { "username": "graphwell" },
+  "owner": { "username": "graphwell", "email": "somar.solucoes.ia@gmail.com" },
   "records": { "CNAME": "graphwell.github.io" },
   "proxied": true
 }
