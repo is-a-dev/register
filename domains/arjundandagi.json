@@ -1,9 +1,0 @@
-{
-  "description": "Registering a is-a.dev domain for my github username",
-  "owner": {
-    "username": "arjundandagi"
-  },
-  "records": {
-    "CNAME": "arjundandagi.github.io"
-  }
-}
