@@ -1,0 +1,19 @@
+{
+  "description": "MyDVWA test domain for Zoho Mail",
+  "subdomain": "mydvwa",
+  "owner": {
+    "email": "princychetty2002@gmail.com"
+  },
+  "record": {
+    "A": ["206.84.228.137"],
+    "MX": [
+      { "priority": 10, "value": "mx.zoho.com" },
+      { "priority": 20, "value": "mx2.zoho.com" },
+      { "priority": 50, "value": "mx3.zoho.com" }
+    ],
+    "TXT": [
+      "v=spf1 include:zoho.com ~all",
+      "zoho-verification=zb20768727.zmverify.zoho.in"
+    ]
+  }
+}
