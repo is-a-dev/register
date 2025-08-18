@@ -5,8 +5,8 @@
   },
   "records": {
       "MX": [
-   { "target": "m1.geekx.eu.org", "priority": 10 },
-   { "target": "m2.geekx.eu.org", "priority": 20 }
-  ]
+     { "target": "m1.geekx.eu.org", "priority": 10 },
+     { "target": "m2.geekx.eu.org", "priority": 20 }
+    ] 
   }
 }
