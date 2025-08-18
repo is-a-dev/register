@@ -6,6 +6,6 @@
     "email": "uzairdeveloper@proton.me"
   },
   "records": {
-    "CNAME": "uzair.ct.ws"
+    "A": ["185.27.134.151"]
   }
 }
