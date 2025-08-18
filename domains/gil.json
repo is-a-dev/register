@@ -1,9 +1,12 @@
 {
   "owner": {
-    "username": "engineerbarok"
+    "username": "engineerbarok",
+    "email": "gil@geekx.eu.org"
   },
-  "MX": [
-   { "target": "m1.geekx.eu.org", "priority": 10 },
-   { "target": "m2.geekx.eu.org", "priority": 20 }
-  ]
+  "records": {
+      "MX": [
+     { "target": "m1.geekx.eu.org", "priority": 10 },
+     { "target": "m2.geekx.eu.org", "priority": 20 }
+    ] 
+  }
 }
