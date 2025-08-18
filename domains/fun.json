@@ -1,0 +1,11 @@
+{
+  "description": "My Calculator Website",
+  "subdomain": "fun",
+  "owner": {
+"repo": "https://github.com/Neel14151926535897/science.fun-site",
+    "email": "neel07.08.2015@gmail.com"
+  },
+  "record": {
+"CNAME": "Neel14151926535897.github.io"
+  }
+}
