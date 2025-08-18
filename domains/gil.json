@@ -1,12 +1,25 @@
 {
-  "owner": {
-    "username": "engineerbarok",
-    "email": "gil@geekx.eu.org"
-  },
-  "records": {
+    "owner": {
+      "username": "engineerbarok",
+    },
+    "records": {
+      "TXT": [
+        "TXT Value / zoho-verification=zb50318520.zmverify.zoho.com",
+        "v=spf1 include:zohomail.com ~all"
+      ],
       "MX": [
-     { "target": "m1.geekx.eu.org", "priority": 10 },
-     { "target": "m2.geekx.eu.org", "priority": 20 }
-    ] 
+        {
+          "target": "mx.zoho.com",
+          "priority": 50
+        },
+        {
+          "target": "mx2.zoho.com",
+          "priority": 55
+        },
+        {
+          "target": "mx3.zoho.com",
+          "priority": 96
+        }
+      ]
+    }
   }
-}
