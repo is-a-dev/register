@@ -5,5 +5,6 @@
     },
     "records": {
         "CNAME": "sudo-kk.pages.dev"
-    }
+    },
+    "proxied": false
 }
