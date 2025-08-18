@@ -1,0 +1,10 @@
+{
+  "description": "i-square's website",
+  "owner": {
+    "username": "i-square",
+    "email": "i_square@qq.com"
+  },
+  "records": {
+    "CNAME": "i-square.github.io"
+  }
+}
