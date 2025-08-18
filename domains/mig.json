@@ -8,7 +8,7 @@
     "instagram": "miguelcodes7",
     "note": "Previously, mig.is-a.dev was hosted on Netlify, but now it will be hosted on vercel. _vercel.mig.json has been created already. I have also updated my social media (email and instagram)."
   },
-  "record": {
+  "records": {
     "A": ["76.76.21.21"]
   }
 }

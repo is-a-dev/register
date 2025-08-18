@@ -1,12 +1,11 @@
 {
   "owner": {
-    "owl": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.svaUbpX_i7AZUnRnbjlFJqGPO5q-Ggc4_KUwj7zKurpH8YFZJ5J399yg_UZG1BUt-CRc5ZvWWoXHzRPeRJN0TVpNuPCtClOVsLtg-uuIf-m9IFifJgrNnFaTF4QJIfWQu92V9ZqfDBqWrUC31O5MR9bU3O3fvDGZqduxeYuyRBUJjsauqQb-B2JW5OxNp9I45PTT_x62h6PYHkmX8mslOogHafp-aboPTgIoroREABGiMaYIC_k2Y1VrK8t-EWzZUtqHwhIfp1TnhO1ZJiw9b_yZMY9bnOCZ1T1bl09YDqWVZqVN_q_HEM-dB3NfSR2wQ9sUmNNqSLxaHoHkKg5Y3w.I79tijv6pGsKXSPhcS48Ng.U4OgcRYwtyY8-HwdvW0hvbnYBnFOPI4BLiePLcwSReF10whseZpcnJ5gN2sm0WOgpCehx70Kcv7gjT0LXRGr4jHRRUzbdhlhT0YIjzICswA.yXQtUotGAoaKOGy4DiOmCg",
     "username": "hexaaagon",
     "email": "me@hexagonn.my.id",
     "discord": "scoooolzs",
     "twitter": "Scoooolzs"
   },
-  "record": {
+  "records": {
     "NS": ["arch.ns.cloudflare.com", "perla.ns.cloudflare.com"]
   }
 }

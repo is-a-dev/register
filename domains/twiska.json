@@ -1,11 +1,9 @@
 {
-  "description": "My personal website",
-  "repo": "https://github.com/ttwisstterr/linktree",
   "owner": {
     "username": "ttwisstterr",
     "email": "twiskanadilaa.a@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ttwisstterr.github.io"
   }
 }

@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "D-Atharv"
+    "username": "D-Atharv",
+    "email": "atharv.dewangan04@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=atharvd.is-a.dev,a9192e60bfd581760d17"]
+  "records": {
+    "TXT": "vc-domain-verify=atharvd.is-a.dev,a9192e60bfd581760d17"
   }
 }

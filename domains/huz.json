@@ -1,12 +1,10 @@
 {
-  "description": "Huz Personal Portfolio",
-  "repo": "https://github.com/Nooby69/Huz",
   "owner": {
     "username": "Nooby69",
     "email": "farighinsaan123@gmail.com",
     "discord": "excalibur._.dev"
   },
-  "record": {
+  "records": {
     "CNAME": "nooby69.github.io"
   }
 }

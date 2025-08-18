@@ -1,11 +1,9 @@
 {
-  "description": "Sarath's Website",
-  "repo": "https://github.com/Sharkaboi/sharkaboi.github.io",
   "owner": {
     "username": "Sharkaboi",
     "email": "sarathsedu@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sharkaboi.github.io"
   }
 }
