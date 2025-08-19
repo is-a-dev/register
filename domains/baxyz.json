@@ -7,9 +7,7 @@
     "bluesky": "baxyz.bsky.social"
   },
   "records": {
-    "TXT": [
-      "t-verify=fd780a0f082bc1116960770ad20261e6"
-    ],
+    "TXT": "t-verify=fd780a0f082bc1116960770ad20261e6",
     "CNAME": "baxyz.github.io"
   },
   "proxied": true
