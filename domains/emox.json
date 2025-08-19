@@ -1,0 +1,28 @@
+{
+  
+  "owner": {
+    "username":"DerEmox"
+  },
+  "records": {
+    "CNAME": "DerEmox.github.io",
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mx.zoho.com"
+      },
+      {
+        "priority": 20,
+        "target": "mx2.zoho.com"
+      },
+      {
+        "priority": 50,
+        "target": "mx3.zoho.com"
+      }
+    ],
+    "TXT": [
+      "zoho-verification=zb15546025.zmverify.zoho.eu"
+    ]
+  },
+  "proxied": true
+}
+      
