@@ -1,7 +1,7 @@
 {
     "owner": {
         "username": "quanta-naut"
-        "X-account": "@Quantum_Naut"
+        "x": "Quantum_Naut"
     },
     "records": {
         "CNAME": "quanta-naut.github.io"
