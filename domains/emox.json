@@ -1,7 +1,8 @@
 {
   
   "owner": {
-    "username":"DerEmox"
+    "username":"DerEmox",
+    "email": "support@emox.is-a.dev"
   },
   "records": {
     "CNAME": "DerEmox.github.io",
