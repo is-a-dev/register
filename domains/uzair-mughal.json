@@ -4,8 +4,6 @@
     "email": "uzairdeveloper@proton.me"
   },
   "records": {
-    "TXT": {
-      "@": "zoho-verification=zb35322807.zmverify.zoho.com"
-    }
+    "TXT": ["zoho-verification=zb35322807.zmverify.zoho.com"]
   }
 }
