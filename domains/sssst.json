@@ -4,9 +4,7 @@
     "username": "sssstf0rest",
     "email": "haoshen0226@gmail.com"
   },
-  "redirect_config": {
-    "to": "https://rpi.fell-lionfish.ts.net",
-    "type": 301,
-    "redirect_paths": true
+  "records": {
+    "URL": "https://rpi.fell-lionfish.ts.net"
   }
 }
