@@ -6,7 +6,7 @@
   "records": {
     "TXT": [
       "zoho-verification=zb80519517.zmverify.zoho.eu",
-      "v=spf1 include:zohomail.com ~all"
+      "v=spf1 include:zohomail.eu include:zohomail.com ~all"
     ],
     "CNAME": "anime-oni.github.io",
     "MX": [
