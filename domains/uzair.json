@@ -4,10 +4,7 @@
     "email": "uzairdeveloper@proton.me"
   },
   "records": {
-    "CNAME": { 
-      "cname.vercel-dns.com",
-      "proxied": true
-    },
+    "CNAME": "cname.vercel-dns.com",
     "TXT": [
       "zoho-verification=zb69472582.zmverify.zoho.com",
       "v=spf1 include:zohomail.com ~all"
@@ -27,4 +24,5 @@
       }
     ]
   }
+  "proxied": true
 }
