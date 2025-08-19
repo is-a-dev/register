@@ -1,0 +1,25 @@
+{
+  "description": "Personal email setup with Zoho",
+  "domain": "is-a.dev",
+  "subdomain": "kaledhagag",
+
+  "owner": {
+    "email": "kaledhagag01@gmail.com"
+  },
+
+   "record": {
+    "A": ["1.1.1.1"],
+
+    "TXT": [
+      "zoho-verification=zb86200041.zmverify.zoho.com"
+    ],
+
+    "MX": [
+      "mx.zoho.com",
+      "mx2.zoho.com",
+      "mx3.zoho.com"
+    ]
+  },
+
+  "proxied": false
+}
