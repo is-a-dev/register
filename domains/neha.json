@@ -1,7 +1,9 @@
 {
-  "description": "My portfolio",
-  "domain": "neha",
-  "records": {
-    "CNAME": "petadoption.vercel.app"
-  }
+    "owner": {
+        "username": "neha-g09",
+        "email": "nehagupta092001@gmail.com"
+    },
+    "records": {
+        "CNAME": "admin.petadoption.com"
+    }
 }
