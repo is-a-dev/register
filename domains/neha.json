@@ -1,0 +1,7 @@
+{
+  "description": "My portfolio",
+  "domain": "neha",
+  "records": {
+    "CNAME": "petadoption.vercel.app"
+  }
+}
