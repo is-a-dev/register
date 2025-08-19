@@ -3,8 +3,6 @@
     "username": "Sohaib-Kamal04"
   },
   "records": {
-    "CNAME": {
-      "www": "sohaibkamal.netlify.app"
-    }
+      "CNAME": "sohaibkamal.netlify.app"
   }
 }
