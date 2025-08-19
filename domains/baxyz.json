@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "baxyz",
+    "email": "baxyz@etik.com",
+    "discord": "baxyz_",
+    "twitter": "_baxyz_",
+    "bluesky": "baxyz.bsky.social"
+  },
+  "records": {
+    "TXT": "t-verify=fd780a0f082bc1116960770ad20261e6",
+    "CNAME": "baxyz.github.io"
+  },
+  "proxied": true
+}
