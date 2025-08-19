@@ -5,7 +5,10 @@
     },
     "records": {
         "CNAME": "leev1s.github.io",
-        "TXT": "zoho-verification=zb92672806.zmverify.zoho.com",
+        "TXT": [
+            "zoho-verification=zb92672806.zmverify.zoho.com",
+            "v=spf1 include:zohomail.com ~all"
+        ],
         "MX": [
             {
                 "target": "mx.zoho.com",
