@@ -1,8 +1,11 @@
 {
-    "owner": {
-        "username": "Sohaib-Kamal04"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
+  "owner": {
+    "username": "Sohaib-Kamal04"
+  },
+  "records": {
+    "A": ["75.2.60.5", "99.83.190.102"],
+    "CNAME": {
+      "www": "sohaibkamal.netlify.app"
     }
+  }
 }
