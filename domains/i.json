@@ -4,6 +4,7 @@
     "email": "satindar@satindar-is.me"
   },
   "records": {
-    "URL": "https://satindar.is-a.dev"
+    "URL": "https://satindar.is-a.dev",
+    "TXT": ["zoho-verification=zb06359477.zmverify.zoho.in"]
   }
 }

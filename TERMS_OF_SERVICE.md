@@ -26,7 +26,7 @@ You agree not to use the is-a.dev service for:
 - Engaging in activities that violate local, national, or international laws
 - Any commercial purposes, including but not limited to advertising, selling products, or hosting e-commerce platforms
 - Websites containing adult/restricted content
-- Mass unsolicitied emailing
+- Mass unsolicited emailing
 - Cryptocurrency mining sites or tools
 - Phishing or fraudulent websites
 - Open proxy websites or VPN services
