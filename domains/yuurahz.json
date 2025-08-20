@@ -4,7 +4,6 @@
     "email": "clickgp99@gmail.com"
   },
   "records": {
-    "CNAME": "is-a-dev-docs.pages.dev"
+    "A": ["76.76.21.21"]
   },
-  "proxied": true
 }
