@@ -4,7 +4,7 @@
     "email": "baxyz@etik.com"
   },
   "records": {
-    "CNAME": "s1.domainkey.tutanota.de."
+    "CNAME": "s1.domainkey.tutanota.de"
   },
   "proxied": false
 }
