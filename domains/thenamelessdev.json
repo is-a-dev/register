@@ -5,7 +5,6 @@
     "email": "aron@thenamelessdev.com"
   },
   "records": {
-    "CNAME": "thenamelessdev.github.io",
-    "TXT": "43d7a8027143f53857f30091b321cc"
+    "CNAME": "thenamelessdev.github.io"
   }
 }
