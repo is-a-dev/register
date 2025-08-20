@@ -1,0 +1,11 @@
+{
+  "description": "Lekhan's Cloud Server",
+  "repo": "https://github.com/lekhan2009", 
+  "owner": {
+    "username": "lekhan2009",
+    "email": "lekhan2009visit@gmail.com"
+  },
+  "record": {
+    "A": ["123.201.175.7"] 
+  }
+}
