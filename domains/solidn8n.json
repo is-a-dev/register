@@ -5,6 +5,9 @@
   "records": {
     "A": [
       "209.38.57.127"
-    ]
+    ],
+    "CNAME": {
+      "_D7B1B0B9E6CE02E12BC8E193619DC8CE": "3DE960DD243855085C7A58533DD35063.4D1DC03A456B516F6865CD91B41A8EB7.a37e92b87a4a64c.comodoca.com"
+    }
   }
 }
