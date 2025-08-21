@@ -1,11 +1,9 @@
 {
-  "description": "Nagaraj's Dev website",
-  "repo": "https://github.com/nagarajgond/nagarajgond.github.io",
   "owner": {
     "username": "nagarajgond",
     "email": "nagarajgond@live.com"
   },
-  "record": {
+  "records": {
     "CNAME": "nagarajgond.github.io"
   }
 }

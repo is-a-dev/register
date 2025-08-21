@@ -3,9 +3,7 @@
     "username": "HafiTheCat",
     "discord": "hafi_the_cat"
   },
-  "description": "Website about about me",
-  "repo": "https://github.com/HafiTheCat/hafi_the_cat.github.io",
-  "record": {
+  "records": {
     "CNAME": "hafithecat.github.io"
   }
 }

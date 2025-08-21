@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "uditdev",
-      "email" : "uditdev0008@gmail.com"
-    },
-    "record": {
-      "TXT": ["vc-domain-verify=udit.is-a.dev,8718c1c2a08417265d7e"]
-    }
+  "owner": {
+    "username": "uditdev",
+    "email": "uditdev0008@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=udit.is-a.dev,8718c1c2a08417265d7e"
   }
-  
+}

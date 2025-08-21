@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "2giosangmitom",
-    "email": "yeuxacucodon.dev@proton.me"
+    "email": "2giosangmitom@gmail.com"
   },
-  "record": {
-    "CNAME": "2giosangmitom.github.io"
+  "records": {
+    "CNAME": "2giosangmitom.netlify.app"
   }
 }

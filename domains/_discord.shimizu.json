@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Mikofoxie",
-        "email": "shimizulazy@gmail.com"
-    },
-    "record": {
-        "TXT": "dh=a24d14132caded8f17f5e4fdd4222378e8df2b89"
-    }
+  "owner": {
+    "username": "Mikofoxie",
+    "email": "shimizulazy@gmail.com"
+  },
+  "records": {
+    "TXT": "dh=a24d14132caded8f17f5e4fdd4222378e8df2b89"
+  }
 }

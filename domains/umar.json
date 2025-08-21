@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "umarsidiki",
-        "email": "siddiquiumar0007@gmail.com"
-    },
-    "record": {
-        "CNAME": "umarsidiki.github.io"
-    }
+  "owner": {
+    "username": "umarsidiki",
+    "email": "siddiquiumar0007@gmail.com"
+  },
+  "records": {
+    "CNAME": "personalportfolio-two-roan.vercel.app"
+  },
+  "proxied": true
 }

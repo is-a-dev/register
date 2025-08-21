@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "crazo7924",
-    "discord": "466605393309859840",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.k9rR1eHnq7uURmU-Gme0lWVuRCgtdsqYuSpLzPv0G68LByI1gx0khH5ox4H2V80xgK3Bj-i4hYIJaS8Cou5ZL8EQaMw9xDush8iTbkbNHN9ATisdhtzmb6qW5nLZnXcWqMCyKn1xfsbacMkgtfLap5CISiVDORL2u3pHIPyZ6bQ27y7AYlZwSZQqaOADn-S1co-kYuiVDLN6jKbqsjJyTK_ZBYICiAPYfKUFTQWmo5jl0rHn06niVoYZSDmmbqc-n-vzfwr0TNibE4tJ30VYlCJsEKFJu7Em7Q9JpfLCfbg9hNdw3rsz0wLptjYMNA3szl2ydMCsFtr3GHna7bvkww.KkiDy_AodaD643bHTbzCmQ.SEHezEze3r6v7trpOsu6dAaoTa595V1whd_eOWS_MNcoUqymmXqSlzxNji3pqALMmcQHjZYu89BBGcIcD6RTPTeHALeFkmf81fZv8PxJJrT2ssh8nmNIRX-kUvcxqQ-J.cJfYl8zbT1DQOyg2OOBorg"
+    "discord": "466605393309859840"
   },
-  "record": {
+  "records": {
     "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsG1oi5DHp9ytwPT5aMFt28zy4rxWQ39qLPUJT+jFKVR6/eIIgGfrlQn1VbDNuQum0orxkFlPrOi9tzSxxGKRa5BzXawxk56Je8oy5YZ9L28MpbYlsbiQoc3XQwdBwFp1hbhtBJAm7QmpH6nKk8NZqXGCrq9auS6ShDazaq/ipswIDAQAB"
   }
 }

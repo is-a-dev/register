@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "redcodemohammed",
-        "email": "redcodemohammed@gmail.com"
-    },
-    "record": {
-        "CNAME": "mohammed-wisam.pages.dev"
-    }
+  "owner": {
+    "username": "redcodemohammed",
+    "email": "redcodemohammed@gmail.com"
+  },
+  "records": {
+    "CNAME": "mohammed-wisam.pages.dev"
+  }
 }

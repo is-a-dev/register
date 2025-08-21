@@ -1,12 +1,11 @@
 {
   "description": "It's my personal portfolio website.",
-  "repo": "https://github.com/Dhiraj275/my-portfolio",
   "owner": {
     "username": "Dhiraj275",
     "email": "dhirajprajapati.co@gmail.com",
     "twitter": "DhruvInTech"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }

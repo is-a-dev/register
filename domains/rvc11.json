@@ -1,11 +1,9 @@
 {
-  "description": "RedVelvetCake11's website",
-  "repo": "https://github.com/redvelvetcake11/redvelvetcake11.github.io",
   "owner": {
-    "username": "redvelvetcake11",
+    "username": "rvc11twil",
     "email": "membermadde.insiddev25120@hotmail.com"
   },
-  "record": {
-    "CNAME": "redvelvetcake11.github.io"
+  "records": {
+    "NS": ["arnold.ns.cloudflare.com", "mia.ns.cloudflare.com"]
   }
 }

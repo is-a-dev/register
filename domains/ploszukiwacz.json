@@ -1,11 +1,17 @@
 {
-  "description": "Personal Website for PlOszukiwacz",
-  "repo": "https://github.com/PlOszukiwaczDEV/ploszukiwaczdev.github.io",
   "owner": {
-    "username": "PlOszukiwaczDEV",
+    "username": "ploszukiwacz",
     "email": "ploszukiwacz1@gmail.com"
   },
-  "record": {
-    "NS": ["jake.ns.cloudflare.com", "stephane.ns.cloudflare.com"]
+  "records": {
+    "NS": ["ns1.desec.io", "ns2.desec.org"],
+    "DS": [
+      {
+        "key_tag": 46214,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "22b5f2cb0470735026ec6d29b35ac48fedee8428a51883b3dcdeb61236bb3430"
+      }
+    ]
   }
 }

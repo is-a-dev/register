@@ -1,17 +1,12 @@
 {
-  "description": "redirect. js that",
-  "repo": "https://github.com/vintheweirdass/vintheweirdass.github.io",
   "owner": {
     "username": "vintheweirdass",
     "twitter": "vintheweirdass",
     "discord": "vintheweirdass"
   },
-  "record": {
+  "records": {
     "URL": "https://vtwa.is-a.dev",
-    "TXT": [
-      "zoho-verification=zb23163854.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
-    ],
+    "TXT": ["zoho-verification=zb23163854.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
     "MX": ["mx.zoho.com"]
   }
 }

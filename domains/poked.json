@@ -1,12 +1,10 @@
 {
-  "description": "poked.is-a.dev",
-  "repo": "https://github.com/PokedWasTaken/PokedWasTaken.github.io",
   "owner": {
     "username": "PokedWasTaken",
     "email": "pokedwastaken@gmail.com",
     "discord": "poked"
   },
-  "record": {
+  "records": {
     "CNAME": "pokedwastaken.github.io"
   }
 }

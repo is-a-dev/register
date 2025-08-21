@@ -4,17 +4,20 @@
     "email": "luihh@proton.me",
     "discord": "481268875586174986"
   },
-  "record": {
-    "CNAME": "spreadsheet-fih.pages.dev"
+  "records": {
+    "A": ["65.109.5.98"]
   },
   "redirect_config": {
     "custom_paths": {
       "/github": "https://github.com/luihh",
       "/twitch": "https://www.twitch.tv/luihh23",
       "/youtube": "https://www.youtube.com/@Luihh",
-      "/discord": "https://discord.gg/MdMFGJdUB6",
+      "/discord": "https://discord.gg/NshUskhKqf",
       "/steam": "https://steamcommunity.com/id/Luihh23",
-      "/paypal": "https://www.paypal.com/paypalme/luihhdev"
+      "/airbuds": "https://i.airbuds.fm/luihh23/xFYz65O0aX",
+      "/paypal": "https://www.paypal.com/paypalme/luihhdev",
+      "/patreon": "https://www.patreon.com/Luihh",
+      "/invite": "https://discord.com/oauth2/authorize?client_id=1263729834354409544"
     }
   },
   "proxied": true
