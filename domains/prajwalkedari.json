@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "prajwalkedar",
+    "email": "prajwalkedari@gmail.com"
+  },
+  "record": {
+    "A": ["185.146.167.201"],
+    "AAAA": ["2a07:7800::217"],
+    "MX": [
+      { "priority": 10, "value": "imap.prajwalkedari.is-a.dev" },
+      { "priority": 20, "value": "smtp.prajwalkedari.is-a.dev" }
+    ],
+    "CNAME": {
+      "imap": "imap.prajwalkedari.is-a.dev",
+      "smtp": "smtp.prajwalkedari.is-a.dev"
+    }
+  }
+}
