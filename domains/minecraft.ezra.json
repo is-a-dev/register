@@ -4,20 +4,6 @@
     "email": "ezraclintoc@gmail.com"
   },
   "records": {
-    "A": ["24.26.195.207"],
-    "SRV": [
-      {
-        "priority": 0,
-        "weight": 5,
-        "port": 25565,
-        "target": "minecraft.ezra.is-a.dev"
-      },
-      {
-        "priority": 0,
-        "weight": 5,
-        "port": 19132,
-        "target": "minecraft.ezra.is-a.dev"
-      }
-    ]
+    "A": ["24.26.195.207"]
   }
 }
