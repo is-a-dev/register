@@ -1,12 +1,1 @@
-{
-  "description": "EpicUnlock — redeem tasks site",
-  "subdomain": "alert",
-  "owner": {
-    "username": "madan052006",
-    "repo": "madan052006/EpicUnlock",
-    "email": "madan052006@users.noreply.github.com"
-  },
-  "record": {
-    "CNAME": "madan052006.github.io"
-  }
-}
+
