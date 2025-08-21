@@ -3,7 +3,6 @@
       "username": "engineerbarok"
     },
     "records": {
-        "CNAME": "www.gilx.eu.org",
         "TXT": [
         "TXT Value / zoho-verification=zb74765160.zmverify.zoho.com",
         "v=spf1 include:zohomail.com ~all"
@@ -23,5 +22,4 @@
         }
       ]
     }
-      "proxied": true
   }
