@@ -3,6 +3,6 @@
         "username": "SirOMGitsYOU"
     },
     "records": {
-        "A": "188.40.72.254"
+        "A": ["188.40.72.254"]
     }
 }
