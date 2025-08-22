@@ -7,8 +7,5 @@
   "records": {
     "A": ["76.76.21.21"],
     "TXT": "google-site-verification=p24qfEdTMTlahtU3hQxVU_txDQkifpoJH1xS4jmCmlw"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=aga.is-a.dev,c9684d0007365a74f553"
   }
 }

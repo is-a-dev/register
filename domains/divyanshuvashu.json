@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "divyanshusingh.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=divyanshuvashu.is-a.dev,26b8f5f55295c4a8ec71"
   }
 }

@@ -8,10 +8,5 @@
     "A": ["75.2.60.5"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  },
-  "services": {
-    "discord": "dh=d54feeb331611626de2134ef368bdcf7691cbbb3",
-    "vercel": "vc-domain-verify=blog.narasima.is-a.dev,f77f79e5650f4790387a",
-    "bluesky": "did=did:plc:u5uxl7mjlywolajtgso2ouoe"
   }
 }

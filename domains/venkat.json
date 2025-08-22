@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "v3nkat.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=venkat.is-a.dev,4238dd29261ea2c96bda"
   }
 }

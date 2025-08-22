@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "israrxy",
+        "email": "titled.official@proton.me"
+    },
+    "records": {
+        "CNAME": "israrxy.github.io",
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    },
+    "proxied": true
+}

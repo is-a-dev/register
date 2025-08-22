@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "baxyz",
+    "email": "baxyz@etik.com",
+    "discord": "baxyz_",
+    "twitter": "_baxyz_",
+    "bluesky": "baxyz.bsky.social"
+  },
+  "records": {
+    "MX": [
+      "mail.tutanota.de"
+    ],
+    "TXT": [
+      "t-verify=fd780a0f082bc1116960770ad20261e6",
+      "v=spf1 include:spf.tutanota.de -all"
+    ],
+    "CNAME": "baxyz.github.io"
+  },
+  "proxied": true
+}

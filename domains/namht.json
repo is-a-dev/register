@@ -5,8 +5,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=namht.is-a.dev,e9380ff504bc157f2eda"
   }
 }

@@ -5,9 +5,5 @@
   },
   "records": {
     "CNAME": "blads-portfolio.vercel.app"
-  },
-  "services": {
-    "discord": "dh=5421aaf1ad1aa267e9aa3d19c55d3762a0c5d8f8",
-    "vercel": "vc-domain-verify=bladimir.is-a.dev,e64e9cb20c3d9e344c18"
   }
 }

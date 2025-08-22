@@ -22,24 +22,23 @@ Not all of these will be posted on GitHub[^1], however they will always be poste
 <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.wdh.app/is-a-dev-830872854677422150"></a>
 
 # Register
-> If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
+> If you want a visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
 
 - [Fork](https://github.com/is-a-dev/register/fork) this repository.
-- Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
 - [Read the documentation](https://docs.is-a.dev).
    - If you are applying for NS records please read [this](#ns-records).
-- Your pull request will be reviewed and merged. *Make sure to keep an eye on it in case we need you to make any changes!*
-- After the pull request is merged, please allow up to 24 hours for the changes to propagate.
+- Your pull request will be reviewed and merged. *Keep an eye on it in case changes are needed!*
+- After the pull request is merged, your DNS records should be published with-in a few minutes.
 - Enjoy your new `.is-a.dev` subdomain! Please consider leaving us a star ⭐️ to help support us!
 
 ### NS Records
-When applying for NS records, please be aware we already support a [wide range of DNS records](https://docs.is-a.dev/faq/#which-records-are-supported), so likely do not not need them. 
+When applying for NS records, please be aware we already support a [wide range of DNS records](https://docs.is-a.dev/faq/#which-dns-record-types-are-supported), so you likely do not need them. 
 
 In your PR, please explain why you need NS records, including examples, to help mitigate potential abuse. Refer to the [FAQ](https://docs.is-a.dev/faq/#who-can-use-ns-records) for guidelines on allowed usage.
 
 ***Pull requests adding NS records without sufficient reasoning will be closed.***
 
-> Also see: [Why are you so strict with NS records](https://docs.is-a.dev/faq/#why-are-you-so-strict-with-ns-records)?
+> Also see: [Why are NS records restricted?](https://docs.is-a.dev/faq/#why-are-ns-records-restricted)
 
 ## Report Abuse
 If you find any subdomains being used for abusive purposes, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with the relevant evidence.

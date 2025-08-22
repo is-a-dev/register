@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "portafolio-orellana-workspace.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=orellanamatias.is-a.dev,784ca0f60e4e4a43e240"
   }
 }

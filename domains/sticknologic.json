@@ -7,6 +7,11 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "NS": ["ns1.heliohost.org", "ns2.heliohost.org"]
-  }
+    "CNAME": "snl-vps.mooo.com",
+    "MX": [
+      "mx1.improvmx.com", "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.mailjet.com include:spf.improvmx.com ~all"
+  },
+  "proxied": true
 }

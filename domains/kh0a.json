@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "khoasoma",
-        "email": "songtu438@gmail.com"
-    },
-    "records": {
-        "CNAME": "khoasoma.github.io"
-    }
+  "owner": {
+    "username": "khoasoma",
+    "email": "songtu438@gmail.com"
+  },
+  "records": {
+    "CNAME": "khoasoma.github.io"
+  }
 }
