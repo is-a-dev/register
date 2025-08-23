@@ -1,0 +1,12 @@
+{
+  "description": "Cloudflare Worker project",
+  "subdomain": "dremadsurgicalteam",
+  "owner": {
+    "username": "HastSb",
+    "email": "Hastsarbaz@gmail.com"
+  },
+  "record": {
+    "CNAME": "lucky-frog-c26e.hastsarbaz.workers.dev",
+    "proxied": true
+  }
+}
