@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "oxyrv",
+     "email": "oxyru.okbro@icloud.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCszHL60Fpl4odq5iXUgpOCN5ChyVpsNxTt5UO+wttyuQaWTgikZx5gXNPic3xGfSy/GYttV2kNf9tpS6PYgUItQ1P0vnGbr46YYXnEh7mJyszJ40TmpIXvw40hGvy+oD01A/6c27nDJPIpsdvx1SfE+KFrbSr899xpEWim+Ick6QIDAQAB"
+  }
+}
