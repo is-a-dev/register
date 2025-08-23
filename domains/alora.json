@@ -1,0 +1,13 @@
+{
+  "description": "Root NS delegation for a private software development and testing hub. The subdomain will host dynamic subdomains for API testing, microservices, automated deployments, and secure DNS experiments. Only programmatic and internal access will be allowed. No public hosting, gaming, or content distribution. NS delegation is required because is-a.dev's standard DNS cannot handle automated root-level updates, and deSEC is uniquely suited for programmatic and secure DNS management.",
+  "owner": {
+    "username": "aloramiaa",
+    "email": "xaloramia@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "ns1.desec.io",
+      "ns2.desec.org"
+    ]
+  }
+}
