@@ -4,7 +4,6 @@
         "email": "oxyru.okbro@icloud.com"
     },
     "records": {
-        "CNAME": "oxyrv.github.io",
         "TXT": ["zoho-verification=zb30839655.zmverify.zoho.eu"]
     }
 }
