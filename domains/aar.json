@@ -1,0 +1,13 @@
+{
+  "description": "Amil Abdullazada's personal portfolio website hosted on Vercel",
+  "domain": "is-a.dev",
+  "subdomain": "aar",
+  "owner": {
+    "repo": "https://github.com/UserAAR/register",
+    "email": "amil.abdullazada@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": true
+}
