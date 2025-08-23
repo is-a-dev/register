@@ -1,0 +1,12 @@
+{
+  "github": "trhgatu",
+  "domain": "trhgatu.is-a.dev",
+  "subdomain": "trhgatu",
+  "owner": {
+    "email": "trananhtu1112003@gmail.com"
+  },
+  "record": {
+    "type": "CNAME",
+    "value": "the-archive-of-one.vercel.app"
+  }
+}
