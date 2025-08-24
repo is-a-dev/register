@@ -1,11 +1,10 @@
 {
   "description": "Portfolio Website",
-  "subdomain": "naufal-fifa",
   "owner": {
     "username": "fifovalle",
     "email": "fifanafal10@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
