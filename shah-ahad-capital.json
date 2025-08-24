@@ -1,11 +1,12 @@
 {
   "owner": {
-    "username": "AhadFarzalDojki"
+    "username": "AhadFarzalDojki",
+    "email": "ahaddojki@gmail.com"
   },
   "records": {
     "A": [
       "199.36.158.100",
-      "151.101.65.195" 
+      "151.101.65.195"
     ]
   }
 }
