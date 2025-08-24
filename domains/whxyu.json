@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "yxu6fingers",
-        "email": ""
-    },
-    "record": {
-        "CNAME": "yxu6fingers.github.io"
-    }
+  "owner": {
+    "username": "yxu6fingers"
+  },
+  "records": {
+    "CNAME": "yxu6fingers.github.io"
+  }
 }

@@ -1,11 +1,9 @@
 {
-    "description": "Akshayan's Profile",
-    "repo": "https://github.com/akshayans/akshayans.github.io",
-    "owner": {
-        "username": "akshayans",
-        "email": "akshayan@afhstudio.ml"
-    },
-    "record": {
-        "CNAME": "akshayans.github.io"
-    }
+  "owner": {
+    "username": "akshayans",
+    "email": "akshayan@afhstudio.ml"
+  },
+  "records": {
+    "CNAME": "akshayans.github.io"
+  }
 }

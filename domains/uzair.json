@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "uzairdeveloper223",
+    "email": "uzairdeveloper@proton.me"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "zoho-verification=zb69472582.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all"
+    ],
+    "MX": [
+      { "target": "mx.zoho.com", "priority": 10 },
+      { "target": "mx2.zoho.com", "priority": 20 },
+      { "target": "mx3.zoho.com", "priority": 50 }
+    ]
+  },
+  "proxied": true
+}
+

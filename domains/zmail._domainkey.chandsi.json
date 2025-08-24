@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Gauravisdev",
+    "discord": "1119494339735867422"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCF2Yx1xPXuy5EhlMEsj7hI0WrdcGdljE9U1dpwWaaQBDpPKlqljSUOhynejmAonmOs0XXZI6ULQ8bOMB9NVjX4SNErYgOYYmsTyj0TKZ0+8HsaksqO/8giBbANte1HSa7xQdjhV+pnzr5HbVWT2dJpuvhvyvRXEZNzB85USEuFeQIDAQAB"
+  }
+}

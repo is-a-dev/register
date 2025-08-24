@@ -1,12 +1,9 @@
 {
-    "description": "Avi' personal developer website",
-    "repo": "https://github.com/avipars/avipars.github.io",
-    "owner": {
-        "username": "avipars",
-        "email": "dev@aviparshan.com",
-        "twitter": "aviinfinity"
-    },
-    "record": {
-        "CNAME": "avipars.github.io"
-    }
+  "owner": {
+    "username": "avipars",
+    "email": "isdev@aviparshan.com"
+  },
+  "records": {
+    "CNAME": "avipars.github.io"
+  }
 }

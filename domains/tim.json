@@ -1,11 +1,9 @@
 {
-    "description": "Tim is a Dev",
-    "owner": {
-        "username": "xorob0",
-        "email": "xorob0@toum"
-    },
-    "repo": "https://github.com/xorob0/register",
-    "record": {
-        "CNAME": "toum.me"
-    }
+  "owner": {
+    "username": "timseriakov",
+    "email": "t.seriakov@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

@@ -1,12 +1,10 @@
 {
-    "description": "Gokul's Personal Site",
-    "repo": "https://github.com/JavaCafe01/javacafe01.github.io",
-    "owner": {
-        "username": "JavaCafe01",
-        "email": "",
-        "twitter": "javacafe01"
-    },
-    "record": {
-        "CNAME": "javacafe01.github.io"
-    }
+  "owner": {
+    "username": "Newfies",
+    "twitter": "YeahItsGav",
+    "notes": "I'm occasionally on Twitter from time to time, hit me up if you need to talk to me, let me know your from is-a.dev"
+  },
+  "records": {
+    "URL": "https://href.li/https://github.com/GsLibrary"
+  }
 }

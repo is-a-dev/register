@@ -1,0 +1,11 @@
+{
+  "description": "This subdomain is a redirection to my personal portfolio",
+  "owner": {
+    "username": "MuizZatam",
+    "email": "muizzatam110@gmail.com",
+    "twitter": "muizzatam"
+  },
+  "records": {
+    "CNAME": "muizzatam.github.io"
+  }
+}

@@ -1,12 +1,9 @@
 {
-    "description": "My website, I guess?",
-    "repo": "https://github.com/henryhuangbc/henryhuangbc.github.io",
-    "owner": {
-        "username": "henryhuangbc",
-        "email": "space.galaxy.world@gmail.com",
-        "twitter": "hd3vv"
-    },
-    "record": {
-        "CNAME": "henryhuangbc.github.io"
-    }
+  "owner": {
+    "username": "poach3r",
+    "email": "poacherGoneWild@proton.me"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

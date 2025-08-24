@@ -1,11 +1,11 @@
 {
+  "description": "A personal portfolio to showcase my skills",
   "owner": {
     "username": "CarlosNatanauan",
     "email": "carlosbenedictn@gmail.com"
   },
-  "description": "A personal portfolio to showcase my skills",
-  "repo": "https://kuyacarlos.is-a.dev",
-  "record": {
+  "records": {
+    "CNAME": "carlosnatanauan.github.io",
     "TXT": "318b2c0f245a2b2ddededfd4424d55"
   }
 }

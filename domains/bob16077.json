@@ -1,0 +1,10 @@
+{
+  "description": "A personal page that also gives information on my projects",
+  "owner": {
+    "username": "bob16077",
+    "discord": "bob16077777"
+  },
+  "records": {
+    "CNAME": "bob16077.github.io"
+  }
+}

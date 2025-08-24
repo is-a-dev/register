@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "Devabh116",
-        "email": "chandradevabh@gmail.com"
-    },
-
-    "record": {
-        "A": ["192.95.42.75"]
-    }
+  "owner": {
+    "username": "devabh96",
+    "discord": "760049962544791562"
+  },
+  "records": {
+    "A": ["69.30.249.53"]
+  }
 }

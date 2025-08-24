@@ -1,11 +1,11 @@
 {
-    "description": "The official portfolio of ToastedToast/Toastify. Built with Astro, Tailwind CSS, and Daisy UI.",
-    "repo": "https://github.com/ToastifyDev/portfolio",
-    "owner": {
-        "username": "ToastifyDev",
-        "email": "hey@toastify.tk"
-    },
-    "record": {
-        "CNAME": "toastifydev.github.io"
-    }
+  "owner": {
+    "username": "ToastedDev",
+    "email": "hey@toasted.dev",
+    "twitter": "toasteddev",
+    "discord": "nottca"
+  },
+  "records": {
+    "URL": "https://toasted.dev"
+  }
 }

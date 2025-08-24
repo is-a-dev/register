@@ -1,11 +1,9 @@
 {
-    "description": "This website is a link to my personal developer portfolio.",
-    "repo": "https://github.com/SquarePear/personal-site",
-    "owner": {
-        "username": "SquarePear",
-        "email": "jeffrey@reygames.com"
-    },
-    "record": {
-        "URL": "https://jeffreyharmon.dev"
-    }
+  "owner": {
+    "username": "SquarePear",
+    "email": "jeffrey@reygames.com"
+  },
+  "records": {
+    "URL": "https://jeffreyharmon.dev"
+  }
 }

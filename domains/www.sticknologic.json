@@ -1,0 +1,13 @@
+{
+  "description": "Simple Portfolio and Blog Website",
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "records": {
+    "CNAME": "snl-vps.mooo.com"
+  },
+  "proxied": true
+}

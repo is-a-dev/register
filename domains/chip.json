@@ -1,11 +1,9 @@
 {
-    "description": "Krchip's develop site",
-    "repo": "https://github.com/Krchip/Krchip.github.io",
     "owner": {
-        "username": "Krchip",
-        "email": "elite7744@gmail.com"
+        "username": "whoschip",
+        "email": "itsjustchipoverhere@proton.me"
     },
-    "record": {
-        "URL": "https://krchip.github.io"
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
     }
 }
