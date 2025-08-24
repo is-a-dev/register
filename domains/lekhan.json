@@ -1,11 +1,9 @@
 {
-  "description": "Lekhan's Cloud Server",
-  "repo": "https://github.com/lekhan2009", 
   "owner": {
-    "username": "lekhan2009",
+    "username": "Lekhan2009",
     "email": "lekhan2009visit@gmail.com"
   },
   "records": {
-    "A": ["203.109.75.116"] 
+    "CNAME": "portifolio-steel-psi-95.vercel.app"
   }
 }
