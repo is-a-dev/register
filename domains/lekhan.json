@@ -4,7 +4,6 @@
     "email": "lekhan2009visit@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": ["vc-domain-verify=lekhan.is-a.dev,a563b7cf8fb34d8e4c84"]
+    "A": ["216.198.79.1"]
   }
 }
