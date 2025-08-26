@@ -1,11 +1,9 @@
 {
   "description": "redirects to my website",
-  "repo": "https://github.com/Its-Just-Nans",
   "owner": {
-    "username": "Its-Just-Nans",
-    "email": ""
+    "username": "Its-Just-Nans"
   },
-  "record": {
+  "records": {
     "URL": "https://n4n5.dev"
   }
 }

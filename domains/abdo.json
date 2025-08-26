@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "xAbdoATx",
-    "email": "xabdoat@gmail.com"
+    "username": "xAbdoAT",
+    "email": "xabdoat@gmail.com",
+    "twitter": "xAbdoAT"
   },
-  "record": {
-    "CNAME": "xabdoatx.github.io"
+  "records": {
+    "CNAME": "xabdoat.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio of Paban",
-  "repo": "https://github.com/Pabanjyoti/Pabanjyoti.github.io",
   "owner": {
     "username": "Pabanjyoti",
     "email": "pawanjyotimail@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pabanjyoti.github.io"
   }
 }

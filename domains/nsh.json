@@ -5,11 +5,8 @@
     "twitter": "oyepriyansh"
   },
   "description": "mail domain",
-  "record": {
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
+  "records": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
