@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "NotZer0Two",
-        "email": "lyonfan2010@gmail.com"
-    },
-    "record": {
-        "CNAME": "notzer0two.vercel.app"
-    }
+  "owner": {
+    "username": "NotZer0Two",
+    "email": "lyonfan2010@gmail.com"
+  },
+  "records": {
+    "CNAME": "notzer0two.vercel.app"
+  }
 }

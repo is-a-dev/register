@@ -1,13 +1,11 @@
 {
-  "description": "This website is my personal portfollo XD (let it on rq)",
-  "repo": "https://github.com/akk1to/akk1to.github.io",
   "owner": {
     "username": "akk1to",
     "email": "akk1to.dev@gmail.com",
     "discord": "727497287777124414"
   },
-  "record": {
-    "A": ["185.199.108.153", "185.199.111.153", "185.199.110.153"],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }

@@ -1,11 +1,9 @@
 {
-  "description": "My personal domain.",
-  "repo": "https://github.com/alexandre-machado/alexandre-machado.github.io",
   "owner": {
     "username": "alexandre-machado",
     "email": "alexandre@machado.cc"
   },
-  "record": {
+  "records": {
     "URL": "https://alexandre.machado.cc"
   }
 }

@@ -1,11 +1,9 @@
 {
-    "description": "THIS IS MY PORTFOLIO WEBSITE, But I am still working on it. I will update it soon.",
-    "repo": "https://github.com/usama0155/portfolio",
-    "owner": {
-        "username": "usama0155",
-        "email": "usamak5453@gmail.com"
-    },
-    "record": {
-        "CNAME": "usama0155.github.io"
-    }
+  "owner": {
+    "username": "usama0155",
+    "email": "usamak5453@gmail.com"
+  },
+  "records": {
+    "CNAME": "usama0155.github.io"
+  }
 }

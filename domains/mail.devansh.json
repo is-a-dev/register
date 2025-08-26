@@ -1,12 +1,10 @@
 {
-  "description": "mail forwarding",
-  "repo": "https://github.com/devanshyadav2010/register",
   "owner": {
     "username": "devanshyadav2010",
     "email": "dev8adam576@gmail.com",
     "twitter": "devanshyadav"
   },
-  "record": {
+  "records": {
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
   }
 }

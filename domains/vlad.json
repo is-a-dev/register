@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "uladkaminski",
-    "email": "i@uladkaminski.com"
-  },
-  "record": {
-    "CNAME": "uladkaminski.com"
-  }
+    "owner": {
+        "username": "vladbrox",
+        "email": "justkoder@duck.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "My page",
-  "repo": "https://github.com/zessu/zessu.github.io",
   "owner": {
     "username": "zessu",
     "email": "regime-pluck-gulf@duck.com"
   },
-  "record": {
-    "CNAME": "zessu.github.io"
+  "records": {
+    "CNAME": "zessu-github-io-7l1v.vercel.app"
   }
 }

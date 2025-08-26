@@ -1,11 +1,9 @@
 {
-  "description": "Personal Blog Site",
-  "repo": "https://github.com/LamNguyenz/lamnguyenz.github.io",
   "owner": {
     "username": "LamNguyenz",
     "email": "lamnguyen11e@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "lamnguyenz.github.io"
   }
 }

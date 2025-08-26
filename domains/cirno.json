@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "orangci",
-      "discord": "orangc"
-    },
-    "record": {
-      "URL": "https://orangc.net"
-    }
+  "owner": {
+    "username": "orangci",
+    "discord": "orangc"
+  },
+  "records": {
+    "URL": "https://orangc.net"
   }
-  
+}

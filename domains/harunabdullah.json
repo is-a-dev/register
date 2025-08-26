@@ -1,12 +1,17 @@
 {
-    "owner": {
-        "username": "harunabdullahrakin"
-    },
-  
-  "record": {
-    "A": [
-      "185.31.40.12"
+  "owner": {
+    "username": "harunabdullahrakin",
+    "email": "harunabdullahrakin@gmail.com"
+  },
+  "records": {
+    "CNAME": "my-portfolio-d61.pages.dev",
+    "TXT": "v=spf1 include:zohomail.com ~all",
+    
+    "MX": [
+      { "target": "mx.zoho.com", "priority": 10 },
+      { "target": "mx2.zoho.com", "priority": 20 },
+      { "target": "mx3.zoho.com", "priority": 50 }
     ]
-  
-}
+  },
+  "proxied": true
 }

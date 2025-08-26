@@ -3,7 +3,8 @@
     "username": "fawwazanvilen",
     "email": "fawwazanvi@gmail.com"
   },
-  "record": {
-    "A": ["103.16.117.247"]
+  "records": {
+    "A": ["15.235.193.24"],
+    "AAAA": ["2402:1f00:8000:800::3fcb"]
   }
 }

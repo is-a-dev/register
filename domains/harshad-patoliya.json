@@ -1,10 +1,8 @@
 {
-  "description": "Portfolio site.",
-  "repo": "https://github.com/harshad-patoliya/harshad-patoliya.github.io",
   "owner": {
     "username": "harshad-patoliya"
   },
-  "record": {
+  "records": {
     "CNAME": "harshad-patoliya.github.io"
   }
 }

@@ -3,7 +3,7 @@
     "username": "Veirt",
     "email": "wetrau8zs@mozmail.com"
   },
-  "record": {
-    "CNAME": "veirt.github.io"
+  "records": {
+    "A": ["69.67.170.170"]
   }
 }

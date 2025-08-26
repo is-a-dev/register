@@ -1,11 +1,9 @@
 {
-  "description": "Portofolio PWA",
-  "repo": "https://github.com/dherediat97/Portfolio",
   "owner": {
     "username": "dherediat97",
     "email": "dherediat97@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://dherediat97.github.io/Portfolio"
   }
 }

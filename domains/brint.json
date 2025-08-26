@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "brint97"
-    },
-    "record": {
-        "CNAME": "brint97.github.io"
-    }
+  "owner": {
+    "username": "brint97"
+  },
+  "records": {
+    "CNAME": "brint97.github.io"
+  }
 }

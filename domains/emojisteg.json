@@ -1,11 +1,9 @@
 {
-  "description": "Cloudflare Pages site for emojisteg",
-  "repo": "https://github.com/carterlasalle/emojistega",
   "owner": {
     "username": "carterlasalle",
     "email": "carterlasalle@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "emojistega.pages.dev"
   },
   "proxied": true

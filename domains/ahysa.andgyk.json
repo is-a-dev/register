@@ -1,11 +1,9 @@
 {
-  "description": "Ahysa Discord bot website",
-  "repo": "https://github.com/andgyk/ahysa",
   "owner": {
     "username": "andgyk",
     "email": "an4g7k@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ahysa.github.io"
   }
 }

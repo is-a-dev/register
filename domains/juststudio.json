@@ -1,28 +1,30 @@
 {
-  "description": "JustStudio.",
-  "repo": "https://github.com/JustStudio7/juststudio7.github.io",
   "owner": {
     "username": "JustDeveloper1",
     "email": "support@juststudio.is-a.dev",
     "discord": "1117482901353812088"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
-    "MX": [
-      "mx.zoho.eu", 
-      "mx2.zoho.eu", 
-      "mx3.zoho.eu"
-    ],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
     "TXT": [
       "v=spf1 include:zohomail.eu ~all",
       "google-site-verification=qUvCromdvfxnS6LXzcxcha5rEsHUzBxl9nZH6sT3Dk4",
       "yandex-verification: aac5928d8d57ade9",
       "yandex-verification: 75d6e8d99eae89d4"
     ]
-  }
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/.well-known/change-password": "https://js.is-a.dev/00",
+      "/terms-of-service": "https://js.is-a.dev/01",
+      "/user-agreement": "https://js.is-a.dev/01",
+      "/rules-for-players": "https://js.is-a.dev/02",
+      "/accounts": "https://js.is-a.dev/03",
+      "/r/discord": "https://discord.gg/aHXxS6VvcC",
+      "/r/roblox": "https://www.roblox.com/groups/11641563/JustStudio#!/about",
+      "/r/github": "https://github.com/JustStudio7"
+    }
+  },
+  "proxied": true
 }

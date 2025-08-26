@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sepultrex",
-        "email": "sepultrex@gmail.com"
-    },
-    "record": {
-        "TXT": "dh=2f929b7a4935af1795801360d92ba2788e27a2ff"
-    }
+  "owner": {
+    "username": "sepultrex",
+    "email": "sepultrex@gmail.com"
+  },
+  "records": {
+    "TXT": "dh=2f929b7a4935af1795801360d92ba2788e27a2ff"
+  }
 }

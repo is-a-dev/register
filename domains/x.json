@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "jvideo-sk",
-    "discord": "1030204181207859260"
+    "username": "GameRoMan",
+    "email": "gameromandev@gmail.com"
   },
-  "record": {
-    "CNAME": "jvideo.github.io"
+  "records": {
+    "CNAME": "gameroman.pages.dev"
   }
 }
