@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Lekhan2009",
-    "email": "lekhan2009visit@gmail.com"
-  },
-  "records": {
-    "CNAME": "portifolio-steel-psi-95.vercel.app"
-  }
+    "owner": {
+      "username": "Lekhan2009",
+      "email": "lekhan2009visit@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }
