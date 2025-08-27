@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DCT — Universal DCT v7 (Weekly: New Main + Old Temperature)</title>
+
+<!-- Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+<style>
+  :root{
+    --bg:#f6f8fb; --panel:#ffffff; --ink:#0f172a; --muted:#64748b; --stroke:#e5e7eb; --brand:#1d4ed8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+  h1{margin:0;padding:12px 16px;background:var(--brand);color:#fff}
+  .wrap{max-width:1100px;margin:0 auto;padding:16px}
+  .grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+  .card{grid-column:span 12;background:var(--panel);border:1px solid var(--stroke);border-radius:12px;padding:14px;box-shadow:0 2px 10px rgba(15,23,42,.06)}
+  .card-header{display:flex;align-items:center;justify-content:space-between;margin:-14px -14px 12px -14px;padding:10px 14px;border-bottom:1px solid var(--stroke);border-top-left-radius:12px;border-top-right-radius:12px;background:#f8fafc}
+  .stack{display:flex;flex-direction:column;gap:10px}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  label{font-weight:700;display:block;margin:6px 0 4px}
+  input[type=file],input[type=date]{width:100%;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:8px}
+  button{background:#1d4ed8;color:#fff;border:none;border-radius:10px;padding:10px 14px;font-weight:800;cursor:pointer}
+  .badge{display:inline-block;padding:4px 10px;border-radius:999px;border:1px solid #d1d5db;background:#f8fafc;color:#374151;font-size:12px}
+  .badge.ok{background:#ecfdf5;border-color:#a7f3d0;color:#065f46}
+  .log{white-space:pre-wrap;background:#0b1220;color:#dbeafe;border:1px solid #1e2b47;border-radius:10px;padding:10px;height:240px;overflow:auto;font-size:12px}
+  .hint{color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<h1>Universal DCT v7 — Weekly Summary</h1>
+<div class="wrap">
+
+  <!-- WEEKLY SUMMARY REPORT -->
+  <div class="card">
+    <div class="card-header">
+      <strong>Weekly Summary Report</strong>
+      <span class="badge">Outputs: Main (new) + Temperature (old)</span>
+    </div>
+    <div class="cols">
+      <div>
+        <label>Concrete_Boral.xlsx</label>
+        <input id="f-boralc" type="file" accept=".xlsx,.xls"/>
+        <label>Grout_Boral.xlsx</label>
+        <input id="f-boralg" type="file" accept=".xlsx,.xls"/>
+        <label>Lobs Hole — All Samples</label>
+        <input id="f-lobs" type="file" accept=".xlsx,.xls,.csv"/>
+        <label>Polo Flat — All Samples</label>
+        <input id="f-polo" type="file" accept=".xlsx,.xls,.csv"/>
+      </div>
+      <div>
+        <label>Start Date</label>
+        <input id="b-start" type="date"/>
+        <label>End Date</label>
+        <input id="b-end" type="date"/>
+        <div style="height:10px"></div>
+        <button id="btn-weekly">Generate Weekly (2 files)</button>
+        <div class="hint">Main uses your new 920-row logic; Temperature uses the old extraction logic.</div>
+      </div>
+    </div>
+    <div class="log" id="logB">Ready.</div>
+  </div>
+
+</div>
+
+<script>
+/* ================= Logging ================= */
+function logB(m){ const el=document.getElementById('logB'); el.textContent += "\\n"+m; el.scrollTop = el.scrollHeight; }
+
+/* ================= Date & Time helpers ================= */
+function normalizeToDMYString(v){
+  if(v==null) return "";
+  if(typeof v==="number"){
+    const d=new Date(Math.round((v-25569)*86400*1000));
+    return d.toLocaleDateString("en-GB");
+  }
+  return String(v).trim();
+}
+function dateFromDMYString(s){
+  const m=String(s||"").match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})$/);
+  return m? new Date(+m[3], +m[2]-1, +m[1]) : null;
+}
+function dateFromInput(s){ return s? new Date(s):null; }
+
+function parseTimeToFraction(v){
+  if(v===undefined || v===null) return null;
+  let s=String(v).trim(); if(!s) return null;
+  if(/^[0-9]+(\.[0-9]+)?$/.test(s)){
+    const n=Number(s);
+    if(n>=0 && n<1) return n;
+    if(n>1 && n<86400) return n/86400;
+  }
+  let m=s.match(/^(\d{1,2}):(\d{2})(?::(\d{2}))?$/);
+  if(m){
+    const hh=+m[1], mm=+m[2], ss=+(m[3]||0);
+    if(hh<24 && mm<60 && ss<60) return (hh*3600+mm*60+ss)/86400;
+  }
+  m=s.match(/^(\d{1,2}):(\d{2})(?::(\d{2}))?\s*([AP]M)$/i);
+  if(m){
+    let hh=+m[1], mm=+m[2], ss=+(m[3]||0);
+    const ap=m[4].toUpperCase();
+    if(ap==="PM" && hh<12) hh+=12;
+    if(ap==="AM" && hh===12) hh=0;
+    if(hh<24 && mm<60 && ss<60) return (hh*3600+mm*60+ss)/86400;
+  }
+  return null;
+}
+
+/* ================= Source Code inference (new/Main) ================= */
+const MAP_EXTRA_LOBS=[/ECVT/i,/ECVT\s*Tunnel/i,/DT\s*0?4\b/i,/Backfill\s*Secondary\s*grout/i,/MAR\s*263\s*Grout\s*Trial/i,/TSS-UC-S5/i,/Lobs\s*Hole/i,/Talbingo/i,/Penstock/i,/Machine\s*Hall/i,/Junction/i];
+const MAP_EXTRA_TAN=[/\bR18(4[1-9]|5[0-9]|60)\b/i,/\bR185[1-9]\b/i,/\bR1860\b/i,/Tantangara/i];
+function inferSourceFromText(txt){
+  const t = String(txt||"");
+  for(const rx of MAP_EXTRA_LOBS){ if(rx.test(t)) return "LOBS"; }
+  for(const rx of MAP_EXTRA_TAN){ if(rx.test(t)) return "TAN"; }
+  if(/Marica/i.test(t)) return "MAR";
+  if(/Polo\s*Flat/i.test(t)) return "POLO";
+  return "";
+}
+function findTR(s){ const m=/\bTR\s*\d+\b/i.exec(String(s||"")); return m? m[0].replace(/\s+/g," ").toUpperCase() : ""; }
+function propagateTRMappings(rows){
+  const trToSC=new Map();
+  for(const r of rows){
+    let sc=String(r["Source Code"]||"").trim();
+    if(sc){ sc=sc.toUpperCase(); r["Source Code"]=sc; }
+    const tr=findTR(r["Location Description"]||r["Remarks"]||"");
+    if(sc && tr && !trToSC.has(tr)) trToSC.set(tr, sc);
+  }
+  let updates=0;
+  for(const r of rows){
+    if(String(r["Source Code"]||"").trim()) continue;
+    const tr=findTR(r["Location Description"]||r["Remarks"]||"");
+    if(tr && trToSC.has(tr)){ r["Source Code"]=trToSC.get(tr); updates++; }
+  }
+  return updates;
+}
+function autoFillSourceCodesAll(rows){
+  let filled=0;
+  for(const r of rows){
+    if(String(r["Source Code"]||"").trim()) continue;
+    const inf=inferSourceFromText((r["Location Description"]||"")+" "+(r["Remarks"]||""));
+    if(inf){ r["Source Code"]=inf; filled++; }
+  }
+  filled+=propagateTRMappings(rows);
+  return filled;
+}
+
+/* ================= Type autofill (incl. Mix-A-GP → GROCUBE) ================= */
+function autoFillType(rows){
+  const val = v => (v==null ? "" : String(v).trim());
+  let filled = 0;
+  for (const r of rows){
+    if(val(r["Type"])) continue;
+    const pc = val(r["Product Code"]).toLowerCase();
+    const remarks = val(r["Remarks"]).toLowerCase();
+    const loc = val(r["Location Description"]).toLowerCase();
+    if (pc.includes("infragrout") || pc.includes("master roc mg 01") || pc.includes("mono component")) {
+      r["Type"] = "GROCUBE"; filled++; continue;
+    }
+    if (remarks.includes("grout") || loc.includes("grout")) {
+      r["Type"] = "GROCUBE"; filled++; continue;
+    }
+    if (pc === "mix - a - gp" || pc === "mix-a-gp") {
+      r["Type"] = "GROCUBE"; filled++; continue;
+    }
+  }
+  return filled;
+}
+
+/* ================= IO helpers ================= */
+async function loadFirstSheet(file){
+  if(!file) return [];
+  return new Promise((resolve,reject)=>{
+    const reader=new FileReader();
+    reader.onload=e=>{
+      const data=new Uint8Array(e.target.result);
+      const wb = XLSX.read(data,{type:"array"});
+      const ws = wb.Sheets[wb.SheetNames[0]];
+      resolve(XLSX.utils.sheet_to_json(ws,{defval:"", raw:false}));
+    };
+    reader.onerror=reject;
+    reader.readAsArrayBuffer(file);
+  });
+}
+async function loadAny(file){
+  if(!file) return [];
+  if(/\.csv$/i.test(file.name)){
+    const txt = await file.text();
+    const wb  = XLSX.read(txt,{type:"string"});
+    const ws  = wb.Sheets[wb.SheetNames[0]];
+    return XLSX.utils.sheet_to_json(ws,{defval:"", raw:false});
+  }
+  return loadFirstSheet(file);
+}
+
+/* ================= Output headers ================= */
+const BORAL_HEADERS=["Date","Source Code","Docket","ClientName","ProjectName","PourNo","Lots","SampleID","Specimen ID","Type","Product Code","Date Batched","Time Sampled","Time Batched","Time Moulded","Date Tested","Age Days","Age Hours","Init Curing Hrs","Std Curing Days","Grade","Density","Mass Unit Vol","Dim1","Dim2","Load Size","Progress Load","Des slmp","Measured Slump","Second Slump","Avg Diameter","Avg Height","Strength","Compact Method","Measured Air","Concrete Temp","Ambient Temp","Failure Mode","Cap","Marks","Location Description","Truck","Remarks","Rounded Density (U)","Rounded MPUV (V)","Rounded Strength (AE)"];
+const TEMP_HEADERS=["Date","Source Code","Docket","PourNo","Type","Product Code","Date Batched","Age Days","Concrete Temp","Ambient Temp"];
+
+/* ================= Writers ================= */
+// Main writer: date normalization, conditional Date Batched, real Excel times, temps 0→blank
+function rowsToSheet_withTimeFix_CONDITIONAL_DB(rows){
+  const out = rows.map(r=>{
+    const z={}; BORAL_HEADERS.forEach(h=> z[h]=(h in r? r[h]:""));
+    const sd = normalizeToDMYString(z["Date"]); if(sd) z["Date"]=sd;
+    const sdt= normalizeToDMYString(z["Date Tested"]); if(sdt) z["Date Tested"]=sdt;
+    const db = String(z["Date Batched"]||"").trim(); if(!db && sd) z["Date Batched"]=sd;
+    if(z["Source Code"]) z["Source Code"]=String(z["Source Code"]).trim().toUpperCase();
+    ["Concrete Temp","Ambient Temp"].forEach(k=>{ const v=String(z[k]||"").trim(); if(v==="0"||v==="0.0"||v==="0.00") z[k]=""; });
+    return z;
+  });
+  const ws = XLSX.utils.json_to_sheet(out, {header:BORAL_HEADERS, raw:true});
+  const header = XLSX.utils.sheet_to_json(ws, {header:1})[0] || [];
+  const timeCols = ["Time Sampled","Time Batched","Time Moulded"].map(h=> header.indexOf(h)).filter(i=>i>=0);
+  if(ws['!ref'] && timeCols.length){
+    const range = XLSX.utils.decode_range(ws['!ref']);
+    for(const ci of timeCols){
+      for(let r=range.s.r+1; r<=range.e.r; r++){
+        const addr = XLSX.utils.encode_cell({r,c:ci});
+        const cell = ws[addr];
+        const raw = (cell && cell.v!=null) ? String(cell.v).trim() : "";
+        if(!raw){ ws[addr]={t:'s', v:""}; continue; }
+        const frac = parseTimeToFraction(raw);
+        ws[addr]=(frac==null)? {t:'s', v:raw} : {t:'n', v:frac, z:"hh:mm"};
+      }
+    }
+  }
+  return ws;
+}
+// Temperature writer (old)
+function tempRowsToSheet(rows){
+  const out = rows.map(r=>({
+    "Date": normalizeToDMYString(r["Date"]),
+    "Source Code": r["Source Code"]||"",
+    "Docket": r["Docket"]||"",
+    "PourNo": r["PourNo"]||"",
+    "Type": r["Type"]||"",
+    "Product Code": r["Product Code"]||"",
+    "Date Batched": normalizeToDMYString(r["Date Batched"]),
+    "Age Days": (String(r["Age Days"]||"").trim()===""? "" : Number(String(r["Age Days"]).replace(/[^0-9.\-]/g,""))),
+    "Concrete Temp": (String(r["Concrete Temp"]||"").trim()===""? "" : Number(String(r["Concrete Temp"]).replace(/[^0-9.\-]/g,""))),
+    "Ambient Temp":  (String(r["Ambient Temp"]||"").trim()===""? "" : Number(String(r["Ambient Temp"]).replace(/[^0-9.\-]/g,"")))
+  }));
+  const ws = XLSX.utils.json_to_sheet(out, {header: TEMP_HEADERS, raw:true});
+  const dateCols = ["Date","Date Batched"].map(h=> TEMP_HEADERS.indexOf(h)).filter(i=>i>=0);
+  if(ws['!ref']){
+    const range = XLSX.utils.decode_range(ws['!ref']);
+    for(const ci of dateCols){
+      for(let r=range.s.r+1; r<=range.e.r; r++){
+        const addr=XLSX.utils.encode_cell({r,c:ci});
+        const s=(ws[addr]&&ws[addr].v!=null)? String(ws[addr].v).trim() : "";
+        if(!s){ ws[addr]={t:'s', v:""}; continue; }
+        // convert dd/mm/yyyy to serial
+        const m=s.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+        if(m){
+          const dd=+m[1], mm=+m[2], yy=+m[3];
+          const serial = (Date.UTC(yy,mm-1,dd) - Date.UTC(1899,11,30)) / 86400000;
+          ws[addr]={t:'n', v:serial, z:"dd/mm/yyyy"};
+        }else{
+          ws[addr]={t:'s', v:s};
+        }
+      }
+    }
+  }
+  return ws;
+}
+
+/* ================= Workbook writer ================= */
+function writeWB(sheets, name){
+  const wb = XLSX.utils.book_new();
+  for(const [title, ws] of sheets){ XLSX.utils.book_append_sheet(wb, ws, title); }
+  XLSX.writeFile(wb, name);
+}
+
+/* ================= Old Temperature helpers (kept) ================= */
+function isTempRow(r){
+  const hasPour = String(r["PourNo"]||"").trim()!=="";
+  const ct = String(r["Concrete Temp"]||"").trim();
+  const at = String(r["Ambient Temp"]||"").trim();
+  const hasTemp = (ct!=="" && ct!=="0") || (at!=="" && at!=="0");
+  return hasPour && hasTemp;
+}
+function dedupeTemperature(rows){
+  // 1) keep first row per PourNo (if present)
+  const seenPour = new Set(), pass1=[];
+  for(const r of rows){
+    const p = String(r["PourNo"]||"").trim();
+    if(p){ if(!seenPour.has(p)){ seenPour.add(p); pass1.push(r); } }
+    else { pass1.push(r); }
+  }
+  // 2) exact-key dedupe to avoid repeated pairs
+  const seen = new Set(), out=[];
+  for(const r of pass1){
+    const k = [
+      normalizeToDMYString(r["Date"]),
+      String(r["PourNo"]||"").trim(),
+      String(r["Age Days"]||"").trim(),
+      String(r["Type"]||"").trim(),
+      String(r["Product Code"]||"").trim()
+    ].join("|");
+    if(!seen.has(k)){ seen.add(k); out.push(r); }
+  }
+  return out;
+}
+
+/* ================= Main builder (NEW logic) ================= */
+async function buildWeeklyMain_fromFourFiles(files, startDate, endDate, logFn){
+  const log = typeof logFn==="function" ? logFn : ()=>{};
+
+  const [cBoral, gBoralRaw, lobsAll, poloAll] = await Promise.all([
+    loadFirstSheet(files.boralC),
+    loadFirstSheet(files.boralg),
+    loadAny(files.lobs),
+    loadAny(files.polo)
+  ]);
+
+  // blank docket for grout (Main only)
+  const gBoral = (gBoralRaw||[]).map(r=>({ ...r, Docket: "" }));
+
+  // merge (permissive like your 920-row tool)
+  const all = [...(cBoral||[]), ...(gBoral||[]), ...(lobsAll||[]), ...(poloAll||[])];
+  log(`Total raw rows: ${all.length}`);
+
+  // range filter: keep undated even if range set
+  const before = all.length;
+  const filtered = all.filter(row=>{
+    const cand=[row["Date"], row["Date Batched"], row["Date Tested"]];
+    let d=null; for(const c of cand){ const s=normalizeToDMYString(c); if(s){ d=dateFromDMYString(s); if(d) break; } }
+    if(!startDate && !endDate) return true;
+    if(!d) return true; // keep undated rows
+    if(startDate && d<startDate) return false;
+    if(endDate && d>endDate) return false;
+    return true;
+  });
+  log(`Rows before range filter: ${before} → after filter: ${filtered.length}`);
+
+  // SC inference + UPPERCASE
+  const scFilled = autoFillSourceCodesAll(filtered);
+  filtered.forEach(r=>{ if(r["Source Code"]) r["Source Code"]=String(r["Source Code"]).trim().toUpperCase(); });
+  log(`Source Code filled on ${scFilled} row(s)`);
+
+  // Type autofill (incl. Mix-A-GP)
+  const tFilled = autoFillType(filtered);
+  if(tFilled) log(`Type auto-filled on ${tFilled} row(s)`);
+
+  // write Main
+  const wsMain = rowsToSheet_withTimeFix_CONDITIONAL_DB(filtered);
+  writeWB([["All Sites (Main)", wsMain]], "All_Sites_Main_Data.xlsx");
+  log(`✅ All_Sites_Main_Data.xlsx written with ${filtered.length} rows`);
+
+  return { filtered, all }; // return both for Temperature to reuse
+}
+
+/* ================= Weekly click handler ================= */
+document.getElementById('btn-weekly').addEventListener('click', async ()=>{
+  try{
+    logB("Reading inputs…");
+    const files = {
+      boralC: document.getElementById('f-boralc').files[0],
+      boralg: document.getElementById('f-boralg').files[0],
+      lobs:   document.getElementById('f-lobs').files[0],
+      polo:   document.getElementById('f-polo').files[0],
+    };
+    const startDate = dateFromInput(document.getElementById('b-start').value);
+    const endDate   = dateFromInput(document.getElementById('b-end').value);
+
+    // 1) MAIN (new logic)
+    const { filtered, all } = await buildWeeklyMain_fromFourFiles(files, startDate, endDate, logB);
+
+    // 2) TEMPERATURE (old logic; use the same ALL rows after the same range logic)
+    //    We will re-apply the same range to "all" to keep behavior consistent.
+    const inRange = row=>{
+      const cand=[row["Date"], row["Date Batched"], row["Date Tested"]];
+      let d=null; for(const c of cand){ const s=normalizeToDMYString(c); if(s){ d=dateFromDMYString(s); if(d) break; } }
+      if(!startDate && !endDate) return true;
+      if(!d) return true; // original old behavior tolerated undated rows
+      if(startDate && d<startDate) return false;
+      if(endDate && d>endDate) return false;
+      return true;
+    };
+    const allRanged = (!startDate && !endDate) ? all : all.filter(inRange);
+
+    // Old temperature pipeline: select rows with temps & pour, dedupe, write
+    const tempCandidate = allRanged.filter(isTempRow);
+    const tempRows = dedupeTemperature(tempCandidate);
+    const wsTemp = tempRowsToSheet(tempRows);
+    writeWB([["Main (Temperature)", wsTemp]], "Temperature_Extract.xlsx");
+    logB(`✅ Temperature_Extract.xlsx written with ${tempRows.length} rows`);
+
+  }catch(e){
+    console.error(e);
+    alert("Weekly error: "+(e.message||e));
+  }
+});
+</script>
+</body>
+</html>
