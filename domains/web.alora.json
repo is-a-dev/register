@@ -1,0 +1,11 @@
+{
+  "description": "Apache2 Web Server",
+  "owner": {
+    "username": "aloramiaa"
+  },
+  "records": {
+    "A": [
+      "16.16.88.45"
+    ]
+  }
+}
