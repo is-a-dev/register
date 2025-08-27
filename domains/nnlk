@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "kavinduishere",
+    "email": "nike@nikehosting.us.kg"
+  },
+  "records": {
+    "NS": ["camilo.ns.cloudflare.com", "melany.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
