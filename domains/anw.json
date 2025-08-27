@@ -7,5 +7,6 @@
   "records": {
     "CNAME": "anw-site.vercel.app",
     "TXT": "zoho-verification=zb77912869.zmverify.zoho.in"
-  }
+  },
+  "proxied": true
 }
