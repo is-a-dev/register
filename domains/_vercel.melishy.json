@@ -6,6 +6,6 @@
     "twitter": "themelishy"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=melishy.is-a.dev,85d28dac2782a7d7f84a"
   }
 }
