@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "smttomar",
+    "email": "sumitsnghtmr@gmail.com"   // optional but recommended
+  },
+  "records": {
+    "CNAME": "smttomar.github.io"
+  },
+  "proxied": true
+}
