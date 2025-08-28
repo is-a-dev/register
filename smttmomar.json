@@ -1,7 +1,7 @@
 {
   "owner": {
     "username": "smttomar",
-    "email": "sumitsnghtmr@gmail.com"   // optional but recommended
+    "email": "sumitsnghtmr@gmail.com"
   },
   "records": {
     "CNAME": "smttomar.github.io"
