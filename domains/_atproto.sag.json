@@ -4,6 +4,6 @@
     "email": "sagxd@protonmail.com"
   },
   "records": {
-    "CNAME": "sag.codeberg.page"
-  }
+      "TXT": "did=did:plc:dx2rbvsnia4ur3k24bqwssdd"
+    }
 }
