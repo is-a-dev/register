@@ -1,8 +1,11 @@
 {
     "owner": {
-        "username": "lopo12123"
+        "username": "lopo12123",
+        "email": "lopo@zju.edu.cn"
     },
     "records": {
-        "CNAME": "lopo12123.github.io"
+        "A": [
+            "115.190.138.149"
+        ]
     }
 }
