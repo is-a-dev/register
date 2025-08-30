@@ -6,11 +6,5 @@
   },
   "records": {
     "URL": "https://just.js.org/"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/docs": "https://just.js.org/docs",
-      "/code": "https://just.js.org/code"
-    },
-    "redirect_paths": true
+  }
 }
