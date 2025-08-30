@@ -2,9 +2,17 @@
   "repo": "https://github.com/sanoojes/sanoojes.github.io",
   "owner": {
     "username": "sanoojes",
-    "email": "Sanoojes6371@gmail.com"
+    "email": "sanoojes6371@gmail.com"
   },
   "records": {
-    "CNAME": "sanoojes.github.io"
+    "NS": ["bart.ns.cloudflare.com", "kiki.ns.cloudflare.com"],
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "A0A82A78578EF132513132E27CC467D3E9F9D0B300F8C87629C04899A68B1109"
+      }
+    ]
   }
 }
