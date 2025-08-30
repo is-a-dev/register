@@ -1,0 +1,11 @@
+{
+  "description": "My portfolio site",
+  "repo": "https://github.com/DavidBalishyan/my-portfolio",
+  "owner": {
+    "username": "DavidBalishyan",
+    "email": "davidbalishyan12@gmail.com"
+  },
+  "record": {
+    "CNAME": "david-balishyan.vercel.app"
+  }
+}
