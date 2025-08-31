@@ -1,0 +1,25 @@
+{
+    "owner": {
+        "username": "oxyrv",
+        "email": "oxyru.okbro@icloud.com"
+    },
+    "records": {
+        "CNAME": "oxyrv.github.io",
+         "TXT": ["v=spf1 include:zohomail.eu ~all"],
+         "MX": [
+            {
+              "target": "mx.zoho.com",
+              "priority": 10
+            },
+            {
+              "target": "mx2.zoho.com",
+              "priority": 20
+            },
+            {
+              "target": "mx3.zoho.com",
+              "priority": 50
+            }
+        ]
+    },
+    "proxied": true
+}

@@ -19,7 +19,7 @@ Not all of these will be posted on GitHub[^1], however they will always be poste
 
 [^1]: We usually only post announcements on GitHub in the case of a serious incident. In that case, you'll likely see it at the top of this README file.
 
-<a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.wdh.app/is-a-dev-830872854677422150"></a>
+<a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.api.hrsn.dev/is-a-dev-830872854677422150"></a>
 
 # Register
 > If you want a visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
