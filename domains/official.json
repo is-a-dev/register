@@ -1,0 +1,11 @@
+{
+  "description": "My personal website",
+  "subdomain": "official",
+  "owner": {
+    "username": "enis-on-air",
+    "email": "enisonaiir@gmail.com"
+  },
+  "record": {
+    "CNAME": "enis-on-air.github.io"
+  }
+}
