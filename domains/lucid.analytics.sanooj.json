@@ -3,7 +3,7 @@
     "username": "sanoojes",
     "email": "lucid-themes@proton.me"
   },
-  "description": "Lyrics Server for my Spicetify-Extension",
+  "description": "Analytics API for my Spicetify things.",
   "records": {
     "A": ["129.153.217.187"]
   }
