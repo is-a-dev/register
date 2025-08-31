@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "phocks",
+    "email": "phocks@gmail.com"
+  },
+  "records": {
+    "CNAME": "quartz-5dp.pages.dev"
+  },
+  "proxied": true
+}
