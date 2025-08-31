@@ -2,8 +2,11 @@
   "owner": {
     "username": "Moore99",
     "email": "johnmoore01@gmail.com"
-  },
-  "records": {
-    "MX": ["feedback-smtp.us-east-1.amazonses.com"]
-  }
-}
+    },
+    "records": {
+      "MX": [
+        {
+          "value": "feedback-smtp.us-east-1.amazonses.com",
+          "priority": 10
+        }
+      ]
