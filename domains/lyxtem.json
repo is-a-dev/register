@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "lyxtem.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=lyxtem.is-a.dev,bf84cf6cc0d0a77baa9d"
   }
 }

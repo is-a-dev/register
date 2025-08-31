@@ -4,9 +4,5 @@
   },
   "records": {
     "CNAME": "computerblade.vercel.app"
-  },
-  "services": {
-    "discord": "dh=63f08ebbf48f55ad7c1a25b6f4d3f2a8504dfb89",
-    "vercel": "vc-domain-verify=computerblade.is-a.dev,0b4d70954aeb7d2d0656"
   }
 }

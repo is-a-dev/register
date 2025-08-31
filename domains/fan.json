@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "fandyahmd",
-        "email": "fandyahmadazizi@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=fan.is-a.dev,6879fd44eb3ce433b8e6"
-    }
+  "owner": {
+    "username": "fandyahmd",
+    "email": "fandyahmadazizi@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

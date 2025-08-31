@@ -4,9 +4,6 @@
     "email": "pi.faysal.mahmud@gmail.com"
   },
   "records": {
-    "CNAME" : "cname.vercel-dns.com"
-  },
- "services": {
-    "vercel": "vc-domain-verify=faysal.is-a.dev,af36a2f27729543fd715"
+    "CNAME": "cname.vercel-dns.com"
   }
 }

@@ -6,8 +6,5 @@
   "records": {
     "CNAME": "wisit.vercel.app"
   },
-  "proxied": true,
-  "services": {
-    "vercel": "vc-domain-verify=wisit.is-a.dev,00d864c9655408665e4c"
-  }
+  "proxied": true
 }

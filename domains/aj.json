@@ -6,11 +6,5 @@
   "records": {
     "A": ["76.76.21.21"],
     "TXT": "google-site-verification=CT0XYnjNC4mKSCOf5Bg0MhiAI1iA5fE2j0cQRJ6PNNo"
-  },
-  "services": {
-    "vercel": [
-      "vc-domain-verify=aj.is-a.dev,36e2705ac5c66c596f85",
-      "vc-domain-verify=www.aj.is-a.dev,55d888d08b935336a7ef"
-    ]
   }
 }

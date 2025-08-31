@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "andreyontech.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=andreyontech.is-a.dev,6915c470afbbae4323e9"
   }
 }

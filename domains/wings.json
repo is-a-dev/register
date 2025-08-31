@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "winaviation",
-        "email": "winaviation2@gmail.com"
-    },
-    "records": {
-        "CNAME": "winaviation.github.io"
-    }
+  "owner": {
+    "username": "winaviation",
+    "email": "winaviation2@gmail.com"
+  },
+  "records": {
+    "CNAME": "winaviation.github.io"
+  }
 }

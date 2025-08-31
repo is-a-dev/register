@@ -8,8 +8,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=poysa213.is-a.dev,0635f123b973ee05436d"
   }
 }

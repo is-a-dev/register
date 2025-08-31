@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "satyam-mishra-pce",
-        "email": "satyam1308mishra@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=0xsatyam.is-a.dev,e2f3449381e05e4a4b06"
-    }
+  "owner": {
+    "username": "satyam-mishra-pce",
+    "email": "satyam1308mishra@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

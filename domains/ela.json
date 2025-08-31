@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "dxrdev.github.io"
-  },
-  "services": {
-    "discord": "dh=146345133ea568500a36844c85d85ec0aead3bae"
   }
 }

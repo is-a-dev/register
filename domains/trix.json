@@ -6,9 +6,5 @@
   "records": {
     "A": ["76.76.21.21"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
-  },
-  "services": {
-    "discord": "dh=ecefe601258bdf0c1e1e20adb05d84c7b7229995",
-    "vercel": "vc-domain-verify=trix.is-a.dev,4b093361e4130cf2636b"
   }
 }

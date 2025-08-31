@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "5y8z.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=5y8z.is-a.dev,3e6a94035dca0123b793"
   }
 }

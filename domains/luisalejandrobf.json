@@ -6,8 +6,5 @@
   "records": {
     "A": ["76.76.21.21"],
     "TXT": "google-site-verification=sGmOAXQM9W1XepIo-CgWM_GlqEMW7z96P10kOC2p6fs"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=luisalejandrobf.is-a.dev,c49494ec4242b7e00e01"
   }
 }

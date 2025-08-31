@@ -1,17 +1,23 @@
 {
-  "description": "My Main Portfolio Page",
   "owner": {
     "username": "violetlaire",
     "email": "violetlaire@proton.me"
   },
   "records": {
-    "CNAME": "violetmainpage.vercel.app"
-  },
-  "services": {
-    "vercel": [
-      "vc-domain-verify=violet.is-a.dev,dd60430c61df7957e114",
-      "vc-domain-verify=me.violet.is-a.dev,3fad7d0a3bfe3724aaf1",
-      "vc-domain-verify=blog.violet.is-a.dev,27a12f9f237682d5ca9a"
+    "CNAME": "violetmainpage.vercel.app",
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
     ]
-  }
+  },
+  "proxied": true
 }

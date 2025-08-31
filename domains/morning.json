@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Notookk",
-        "email": "notookk404@gmail.com"
-    },
-    "records": {
-            "CNAME": "notookk.github.io"
-        }
+  "owner": {
+    "username": "Notookk",
+    "email": "notookk404@gmail.com"
+  },
+  "records": {
+    "CNAME": "notookk.github.io"
+  }
 }

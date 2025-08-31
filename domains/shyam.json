@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=shyam.is-a.dev,b1d7e67b97f99a0d2ec1"
   }
 }

@@ -4,6 +4,6 @@
     "email": "sergarsilla@gmail.com"
   },
   "records": {
-    "CNAME": "sergarsilla.github.io"
+    "A": ["76.76.21.21"]
   }
 }

@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "shuhaab.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=shuhaab.is-a.dev,4f90144524ddbcf1a09b"
   }
 }

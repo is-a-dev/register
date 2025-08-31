@@ -5,9 +5,5 @@
   },
   "records": {
     "CNAME": "handikatriarlan.vercel.app"
-  },
-  "services": {
-    "discord": "dh=bc2dcf8fbcb6ee4e4d77621a0f2369571bc03416",
-    "vercel": "vc-domain-verify=arlan.is-a.dev,0ab1dd26cecd05574326"
   }
 }

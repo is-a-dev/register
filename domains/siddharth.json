@@ -18,8 +18,5 @@
       }
     ]
   },
-  "services": {
-    "vercel": "vc-domain-verify=siddharth.is-a.dev,5b334303ef3dfd64b557"
-  },
   "proxied": true
 }

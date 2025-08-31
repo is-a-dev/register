@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "vapr.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=vapr.is-a.dev,e0a739ae617bd141d6f0"
   }
 }
