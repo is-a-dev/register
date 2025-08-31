@@ -1,0 +1,10 @@
+{
+  "description": "Kaapav Cloudflare Tunnel",
+  "owner": {
+    "username": "kaapav",
+    "email": "kaapavin@gmail.com"
+  },
+  "record": {
+    "CNAME": "indicating-jc-might-geology.trycloudflare.com"
+  }
+}
