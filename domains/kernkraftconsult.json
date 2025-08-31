@@ -1,30 +1,9 @@
 {
-  "kernkraftconsult": {
-    "owner": {
-      "username": "@Moore99",
-      "email": "johnmoore01@gmail.com"
-    },
-    "records": {
-      "MX": [
-        {
-          "value": "feedback-smtp.us-east-1.amazonses.com",
-          "priority": 10
-        }
-      ],
-      "TXT": [
-        {
-          "name": "send.kernkraftconsult.is",
-          "value": "v=spf1 include:amazonses.com ~all"
-        },
-        {
-          "name": "resend._domainkey.kernkraftconsult.is",
-          "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcQggBLf7IzXIrzEz3WzIuZ0Nkp5OjBc3x8APbGhK9ROZKQRIx2MF5CV1T/zmaKRj0clRW6l8mNVit1JNzhbNB+LH/pbejvyFx8EG3B9xwnkFoccZ6ihxMnfFyM/QmKyfXeCQyrY1eKLBeVZj84BfGHOnURwVhDm0xI5Y1ue1thQIDAQAB"
-        },
-        {
-          "name": "_dmarc",
-          "value": "v=DMARC1; p=none;"
-        }
-      ]
-    }
+  "owner": {
+    "username": "Moore99",
+    "email": "johnmoore01@gmail.com"
+  },
+  "records": {
+    "MX": ["feedback-smtp.us-east-1.amazonses.com"]
   }
 }
