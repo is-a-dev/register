@@ -1,0 +1,10 @@
+{
+  "name": "send.kernkraftconsult",
+  "owner": {
+    "username": "Moore99",
+    "email": "johnmoore01@gmail.com"
+  },
+  "records": {
+    "TXT": ["v=spf1 include:amazonses.com ~all"]
+  }
+}
