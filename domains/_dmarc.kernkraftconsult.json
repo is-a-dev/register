@@ -1,0 +1,12 @@
+{
+  "name": "_dmarc.kernkraftconsult",
+  "owner": {
+    "username": "Moore99",
+    "email": "johnmoore01@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
+  }
+}
