@@ -1,8 +1,8 @@
 {
   "description": "Kaapav Cloudflare Tunnel",
   "owner": {
-    "username": "your-github-username",
-    "email": "your-email@example.com"
+    "username": "kaapav",
+    "email": "kaapavin@gmail.com"
   },
   "record": {
     "CNAME": "indicating-jc-might-geology.trycloudflare.com"
