@@ -1,10 +1,10 @@
 {
-  "description": "Kaapav Cloudflare Tunnel",
+  "description": "Kaapav WhatsApp-style bot – non-commercial dev project",
   "owner": {
-    "username": "kaapav",
+    "username": "Kaapav",
     "email": "kaapavin@gmail.com"
   },
   "record": {
-    "CNAME": "indicating-jc-might-geology.trycloudflare.com"
+    "CNAME": "kaapav-bot.duckdns.org"
   }
 }
