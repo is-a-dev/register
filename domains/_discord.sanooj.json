@@ -1,10 +1,9 @@
 {
-  "repo": "https://github.com/sanoojes/sanoojes.github.io",
   "owner": {
     "username": "sanoojes",
     "email": "Sanoojes6371@gmail.com"
   },
   "records": {
-    "CNAME": "sanoojes.github.io"
+    "TXT": "dh=e486a386ca77d0104403742c5e9955c337ab70ec"
   }
 }
