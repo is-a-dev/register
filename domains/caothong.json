@@ -4,9 +4,9 @@
     "email": "hoangcaothong123@gmail.com"
   },
   "records": {
-    "CNAME": "caothongdev.vercel.app",
+    "A": "216.198.79.1",
     "TXT": [
-      "vc-domain-verify=caothong.is-a.dev,e117c886c7717a7401ba"
+      "vc-domain-verify=caothong.is-a.dev,e117c886c7717a7401..."
     ]
   }
 }
