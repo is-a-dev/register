@@ -5,11 +5,6 @@
     "email": "johnmoore01@gmail.com"
     },
     "records": {
-      "MX": [
-        {
-          "value": "feedback-smtp.us-east-1.amazonses.com",
-          "priority": 10
-        }
-      ]
+      "MX": ["feedback-smtp.us-east-1.amazonses.com"]
     }
 }
