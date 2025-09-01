@@ -1,7 +1,10 @@
 {
-  "description": "Itravel Guide",
-  "domain": "itravel-guide.is-a.dev",
+  "owner": {
+    "username": "lylyhecker",
+    "email": "lgrant18@asu.edu"
+  },
   "records": {
     "CNAME": "https://lylyhecker.github.io/iTravel-Guide"
-  }
+  },
+  "proxied": true
 }
