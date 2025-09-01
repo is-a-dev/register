@@ -1,10 +1,10 @@
 {
+  "description": "Personal Portfolio",
   "owner": {
-    "username": "vansh-goel",
-    "email": "goelvansh2@gmail.com"
+    "username": "vxnshK",
+    "email": "vkapoor0112@gmail.com"
   },
-  "record": {
-    "CNAME": "portfolio-mu-three-49.vercel.app"
-  },
-  "description": "Personal Portfolio"
+  "records": {
+    "CNAME": "vansh-codes.vercel.app"
+  }
 }

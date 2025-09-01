@@ -1,11 +1,9 @@
 {
-  "description": "NewKernel's Website",
-  "repo": "https://github.com/KernelNew/kernelnew.github.io",
   "owner": {
     "username": "KernelNew",
     "email": "new.kernel@outlook.com"
   },
-  "record": {
+  "records": {
     "CNAME": "kernelnew.github.io"
   }
 }

@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "jxaq"
+    "username": "jxaq",
+    "email": "wild.dives.0x@icloud.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=jax.is-a.dev,f8cf558f95e96e1c703e"]
+  "records": {
+    "TXT": "vc-domain-verify=jax.is-a.dev,f8cf558f95e96e1c703e"
   }
 }

@@ -1,10 +1,8 @@
 {
   "owner": {
-    "username": "DXRdev",
-    "discordID": "335635478684499970",
-    "discord": "elastrixx"
+    "username": "DXRdev"
   },
-  "record": {
-    "TXT": ["dh=146345133ea568500a36844c85d85ec0aead3bae"]
+  "records": {
+    "TXT": "dh=146345133ea568500a36844c85d85ec0aead3bae"
   }
 }

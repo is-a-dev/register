@@ -1,10 +1,8 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/p-kinjal/p-kinjal.github.io",
   "owner": {
     "username": "p-kinjal"
   },
-  "record": {
+  "records": {
     "CNAME": "p-kinjal.github.io"
   }
 }

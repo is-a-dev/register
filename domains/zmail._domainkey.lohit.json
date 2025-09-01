@@ -4,9 +4,7 @@
     "email": "lohitkolluri@gmail.com",
     "discord": "drxven"
   },
-  "record": {
-    "TXT": [
-      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDk3bjKjaUSMk1CmR3dk3zbYxepsBEwSlM5Sz7f0IMEQICvmR4rv3O3dnT+2JmzV9sr/97sqQpucCVDJaJrnLB4XlFCvgJfwUTU8TX4CPSnWOJ4P7cxrfaMRMZARJoj31m81NB/eVArLcCZFZ/wprNeiOMhPGDL4B2lZRZkDts63wIDAQAB"
-    ]
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDk3bjKjaUSMk1CmR3dk3zbYxepsBEwSlM5Sz7f0IMEQICvmR4rv3O3dnT+2JmzV9sr/97sqQpucCVDJaJrnLB4XlFCvgJfwUTU8TX4CPSnWOJ4P7cxrfaMRMZARJoj31m81NB/eVArLcCZFZ/wprNeiOMhPGDL4B2lZRZkDts63wIDAQAB"
   }
 }

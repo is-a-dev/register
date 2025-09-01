@@ -4,13 +4,8 @@
     "discordId": "285329659023851520",
     "discord": "encyclopedic"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=NGYyZmU5YzE0YTJlZjk5MC0zYjM3YTRiNTM1N2MyNzliNTUyMDdlM2ZiZjBiMDAwZmFlOGI0MjM3NjM0NDUyNjRhYzc2ZWM5MmMxMmI5Yzg4"
   }

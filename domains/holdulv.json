@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "Holdulv-official",
-        "email": "holdulvlinks@gmail.com",
-        "discord": "holdulv"
-    },
-    "record": {
-        "CNAME": "edge.redirect.pizza"
-    }
+  "owner": {
+    "username": "Holdulv-official",
+    "email": "holdulvlinks@gmail.com",
+    "discord": "holdulv"
+  },
+  "records": {
+    "CNAME": "edge.redirect.pizza"
+  }
 }

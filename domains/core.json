@@ -4,7 +4,7 @@
     "username": "Aidenhtg",
     "email": "aidenhiseh.m.l@gmail.com"
   },
-  "record": {
-    "CNAME": "b3e47680.corrupted.pages.dev"
+  "records": {
+    "CNAME": "core-dusky.vercel.app"
   }
 }

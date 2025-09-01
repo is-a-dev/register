@@ -1,12 +1,10 @@
 {
-  "description": "Create resume page, and add this link in social",
-  "repo": "https://github.com/vsecoder/vsecoder.github.io",
   "owner": {
     "username": "vsecoder",
     "email": "kreepmeister@gmail.com",
     "twitter": "vsecoder"
   },
-  "record": {
+  "records": {
     "CNAME": "vsecoder.github.io"
   }
 }

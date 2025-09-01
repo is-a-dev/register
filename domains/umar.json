@@ -3,7 +3,8 @@
     "username": "umarsidiki",
     "email": "siddiquiumar0007@gmail.com"
   },
-  "record": {
-    "CNAME": "umarsidiki.github.io"
-  }
+  "records": {
+    "CNAME": "personalportfolio-two-roan.vercel.app"
+  },
+  "proxied": true
 }

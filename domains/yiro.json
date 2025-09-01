@@ -1,11 +1,9 @@
 {
-  "description": "Yinier's personal developer website",
-  "repo": "https://github.com/yrmartinez/yrmartinez.github.io",
   "owner": {
     "username": "yrmartinez",
     "email": "yiromartinez91@gmail.com"
   },
-  "record": {
-    "CNAME": "yrmartinez.github.io"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

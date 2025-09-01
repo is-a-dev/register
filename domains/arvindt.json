@@ -1,13 +1,11 @@
 {
-  "description": "ARVIN3108's personal blog",
-  "repo": "https://github.com/ARVIN3108/arvin3108.github.io",
   "owner": {
     "username": "ARVIN3108",
     "discord": "arvin3108.id",
     "instagram": "arvin_d.t",
     "twitter": "ARVIN3108_ID"
   },
-  "record": {
+  "records": {
     "CNAME": "arvin3108.github.io"
   }
 }

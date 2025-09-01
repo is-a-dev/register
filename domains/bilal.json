@@ -1,11 +1,9 @@
 {
-  "description": "BilalBsd's developer website",
-  "repo": "https://github.com/bilalbsd/bilalbsd.github.io",
   "owner": {
     "username": "Bilalbsd",
     "email": "dev.bilalb@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "bilalbsd.github.io"
   }
 }

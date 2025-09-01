@@ -1,12 +1,10 @@
 {
-  "description": "Use for portfolio.",
-  "repo": "https://github.com/CycloneAddons/cycloneaddons.github.io",
   "owner": {
     "username": "CycloneAddons",
     "email": "cycloneaddon@gmail.com",
     "twitter": "cycloneaddons"
   },
-  "record": {
+  "records": {
     "CNAME": "cycloneaddons.github.io"
   }
 }

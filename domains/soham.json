@@ -1,11 +1,9 @@
 {
-  "description": "Soham's personal website",
-  "repo": "https://github.com/sohamdoescode/sohamdoescode.github.io",
   "owner": {
     "username": "sohamdoescode",
     "email": "soham.b630@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sohamdoescode.github.io"
   }
 }

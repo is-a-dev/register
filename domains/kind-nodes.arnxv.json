@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "ArnavBarway",
-    "email": "arnav@sagaraga.com"
+    "username": "arnxv-coder",
+    "email": "arnav@sagaraga.com",
+    "discord": "arnxv.dev"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }

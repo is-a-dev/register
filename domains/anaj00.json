@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "anaj00",
-    "discord": "726173201264279583",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.q9dOipcfQfyG9bEddrKynmNIS0Fex44YsKgBhDOFPFbGUX-BDKKePgU58S8VoJpNOZOlf1z0t_IOROvA_yXOgqboi8RWJ7MeohAFp9Vd_O4llkxDlHGzuRNrEqqUzr_ufvh2QSNQhkqFxG8Hg5P8F7BkPr51qA1gaZBPXfp-qYgTsgY1AAsB1BsQ0UUEpB6kwQPreJgoIiHQVI0Q7R9adXhQe11WIKhqAgGjl3pdCtTvTli2FsJCK6CaxeoQpnhLaoFT3HDzTNUUExBzG-cJRXwREWnJwbp6wKZ34HKFaNlf21cAsJRrGJCpzzE-oE6Yq_Si3Lqs9_1uacxjEtbTeA.-w3-ZOu80dbxWcgpHkIATw.hy-ckqmE-5uaKK-UlkLeahUomolJu7-GJWiQQpFvGqr4yCWxUSb6iduWtHWhsy9MIqphktkR6iAKH4fX7mx0Cpgp3C-CTx5hsVKoUohl-HE.jydd8-vu6z5ykX2vzY6weQ"
+    "discord": "726173201264279583"
   },
-  "record": {
+  "records": {
     "CNAME": "anaj00.vercel.app"
   }
 }

@@ -3,7 +3,7 @@
     "username": "0xzer0x",
     "email": "youssefessamasu@gmail.com"
   },
-  "record": {
+  "records": {
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": [
       "forward-email=youssefessamasu@gmail.com",

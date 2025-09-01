@@ -1,10 +1,10 @@
 {
-    "owner": {
-      "username": "khoivt",
-      "email": "khoidragonslayer+is-a-dev@gmail.com"
-    },
-    "record": {
-      "CNAME": "vukhoidev.vercel.app"
-    },
-    "proxied": false
-  }
+  "owner": {
+    "username": "khoivt",
+    "email": "khoidragonslayer+is-a-dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "vukhoidev.vercel.app"
+  },
+  "proxied": false
+}

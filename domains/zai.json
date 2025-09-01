@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "Zai-Kun",
-    "discord": "1100460955390988410",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.m6cKdJTirBBSL5dhwU-39VbjpjyfPP_9mSRhao-tr5TYYAZ2KnkwkYsCWJ9euM2LB4GZyUqNCviMtjOM1AXoxWq_lVH7pHgvC8I3a-HeKX0TNcy819o5nlrINjiM4770f09woEl5GVw3bGajgeJLWTPmj7PTWBvQkQ3Ug9Iuye7HmZ-UAIgh8kEw7LJzhyOKS2UTIgrA4hFF7epgCXSrma27dhHqTOjDPeg30dBO1aF8LNaF9GRnAn_IZE8Lah1ZFB9kqZRta466Zuzz8k5ztk4d-cPZEpuR6s6QIpHnddumx_hIt386nsfyQezQIo6TF5InIMT6fWkXUxDlkTyYqQ.D2xW1pY3dTkoLE7rwujNmw.PAHfsXDfCMvwEnw2-xyEYy1PCsEnfFJrkz9wAUOzUebiQsVvJ8_EjuuRFj9okzrjerIpOt2jVSyc_d9F6JFKR4AD9vbFtsMgQ0ni-6wdH6I.2MpIxeaOipjNwh0uvaaAEw"
+    "discord": "1100460955390988410"
   },
-  "record": {
+  "records": {
     "CNAME": "zai-kun.vercel.app"
   }
 }

@@ -5,7 +5,12 @@
     "email": "ghghello30@gmail.com",
     "discord": "970325505989574656"
   },
-  "record": {
-    "CNAME": "alainsdev.github.io"
+  "records": {
+    "A": ["45.131.65.40"],
+    "MX": [
+      { "target": "mx1.forwardemail.net", "priority": 10 },
+      { "target": "mx2.forwardemail.net", "priority": 10 }
+    ],
+    "TXT": "forward-email=alainsdevv@gmail.com"
   }
 }

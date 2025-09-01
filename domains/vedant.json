@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "theonlyvedu"
-  },
-  "record": {
-    "CNAME": "theonlyvedu.github.io"
-  }
+    "owner": {
+        "username": "Vedant817"
+    },
+    "records": {
+        "CNAME": "vedantmahajan.vercel.app"
+    }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "My personal portofolio",
-  "repo": "https://github.com/MGalaCyber/mgalacyber.github.io",
   "owner": {
     "username": "MGalaCyber",
     "discord": "GalaXd#9165"
   },
-  "record": {
+  "records": {
     "CNAME": "mgalacyber.github.io"
   }
 }

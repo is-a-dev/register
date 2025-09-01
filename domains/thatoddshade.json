@@ -1,11 +1,9 @@
 {
-  "description": "thatoddshade's personal website",
-  "repo": "https://github.com/thatoddshade/thatoddshade.github.io",
   "owner": {
     "username": "thatoddshade",
     "email": "thatoddshade+contact@proton.me"
   },
-  "record": {
+  "records": {
     "CNAME": "thatoddshade.github.io"
   }
 }

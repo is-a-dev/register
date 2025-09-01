@@ -1,11 +1,9 @@
 {
-  "description": "Techy's blog",
-  "repo": "https://github.com/Techy/techy.github.io",
   "owner": {
     "username": "techy",
     "twitter": "tech_dude1"
   },
-  "record": {
+  "records": {
     "CNAME": "techy.github.io"
   }
 }

@@ -1,13 +1,11 @@
 {
-  "description": "Web Developer Portifolio",
-  "repo": "https://github.com/matheusfdosan/portifolio/",
   "owner": {
     "username": "matheusfdosan",
     "email": "matheusfaustinoe20@gmail.com",
     "linkedin": "https://www.linkedin.com/in/matheusfaus/",
     "discord": "979816215281279019"
   },
-  "record": {
+  "records": {
     "CNAME": "portifolio-swart-five-65.vercel.app"
   }
 }

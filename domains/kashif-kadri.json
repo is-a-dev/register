@@ -1,10 +1,8 @@
 {
-  "description": "This is personal website",
-  "repo": "https://github.com/kashif-kadri/kashif-kadri.github.io",
   "owner": {
     "username": "kashif-kadri"
   },
-  "record": {
+  "records": {
     "URL": "https://kashif-kadri.github.io"
   }
 }

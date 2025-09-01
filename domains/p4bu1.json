@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "pabu1san",
-    "discord": "1012270723663925278",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.B9KDLtWYgCT0YDOd4xQyAgKmSaDJipMXSMFCXUe3r7q_5qh08iHTW8mK0BxMQ2bYPKEuMsfAEWwu6t3g4A_kXBb-GSaDvFfggge46WFV-rlPU7Vcc0i4WR8Uonna_y2WZzS9T5JrEnbMC2I7_5JihjAaOzD5Gr2-TCfm4L-Bk6TGLOnkDmj1hmlLsTFe7tHy5BhYgxIWsocbxeBrtRFMSqCUubgIh2MM4sz0QK9wWcIp3orJKDiD2WpdA552gTeUff5nuTQrwgxTwv4Cxy45wOM5E4hc9pvr7k7VB7oG6dNT_5U2WuBEFyaYjH0gHI0kF7exk0m-eLkXOcikLR6M5g.F_Vy2IBlPyy9sf-z76mPTA.F3g-ocOOvvBKyD0ipMYg39QeSck-zJ4d8vKY2bnnBw1tnTmWqPaxU7EJKJKP301gx_L1OoBN3I950LiNUB1SqEN-LrOybjVg-a58SayBT-4._dBIp2VZ_6grZywv78duSg"
+    "discord": "1012270723663925278"
   },
-  "record": {
+  "records": {
     "MX": ["mx.forwarding-service.maildim.com"]
   }
 }

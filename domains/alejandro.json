@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AlejandroSanchezSerrano",
-        "email": "alexxsanse@gmail.com"
-    },
-    "record": {
-        "CNAME": "alejandrosanchezserrano.github.io"
-    }
+  "owner": {
+    "username": "AlejandroSanchezSerrano",
+    "email": "alexxsanse@gmail.com"
+  },
+  "records": {
+    "CNAME": "alejandrosanchezserrano.github.io"
+  }
 }

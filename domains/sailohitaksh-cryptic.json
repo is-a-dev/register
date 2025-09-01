@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio website",
-  "repo": "https://github.com/sailohitaksh-cryptic/portfolio",
   "owner": {
     "username": "sailohitaksh-cryptic",
     "email": "rainasai603@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sailohitaksh-cryptic.github.io"
   }
 }

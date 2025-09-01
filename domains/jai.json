@@ -1,11 +1,9 @@
 {
-  "description": "Jai Singh Rathore's Portfolio Website",
-  "repo": "https://github.com/jaizxzx/jaizxzx.github.io",
   "owner": {
     "username": "jaizxzx",
     "email": "jaisinghrathore4432@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "jaizxzx.github.io"
   }
 }

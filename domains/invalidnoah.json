@@ -1,12 +1,10 @@
 {
-  "description": "Describe the use of this subdomain",
-  "repo": "https://github.com/InvalidNoah/InvalidNoah.github.io",
   "owner": {
     "username": "InvalidNoah",
     "email": "me@noahist.live",
     "twitter": "noahlikespmmp"
   },
-  "record": {
+  "records": {
     "CNAME": "invalidnoah.github.io"
   }
 }

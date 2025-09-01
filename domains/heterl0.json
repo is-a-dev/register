@@ -1,11 +1,9 @@
 {
-  "description": "Heterl0 Personal Blog Site",
-  "repo": "https://github.com/hieulvVn/eleventy-blog",
   "owner": {
     "username": "hieulvVn",
     "email": "hieulv@kdigi.vn"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }

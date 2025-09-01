@@ -1,11 +1,9 @@
 {
-  "description": "Home for my blogs",
-  "repo": "https://github.com/TheMagitian/themagitian.github.io-old",
   "owner": {
     "username": "magitian",
     "email": "magitian@duck.com"
   },
-  "record": {
+  "records": {
     "CNAME": "magitian.vercel.app"
   }
 }

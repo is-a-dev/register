@@ -1,13 +1,10 @@
 {
-  "description": "Portfolio.",
-  "repo": "https://github.com/kotru21/kotikov",
   "owner": {
     "username": "kotru21",
     "email": "kotikovv@proton.me"
   },
-  "record": {
-    "URL": "https://kotikov.pages.dev",
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": "google-site-verification=cWzI7CD1eHPUXycj6DYqpy6x23FoC6Lag62fE06SQ-4"
   }
 }

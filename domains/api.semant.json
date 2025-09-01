@@ -1,11 +1,10 @@
 {
-  "description": "Semant Api",
+  "description": "my API",
   "owner": {
-    "username": "ihacksemant",
-    "email": "contact@semant.is-a.dev",
-    "discord": "445073800850046977"
+    "username": "s3mant",
+    "email": "contact@semant.is-a.dev"
   },
-  "record": {
-    "A": ["69.197.135.205"]
+  "records": {
+    "A": ["69.30.249.53"]
   }
 }

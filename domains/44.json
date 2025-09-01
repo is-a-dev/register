@@ -1,11 +1,9 @@
 {
-  "description": "44.is-a.dev",
-  "repo": "https://github.com/9xN/9xN.github.io",
   "owner": {
     "username": "9xN",
     "email": "0@fbi.ac"
   },
-  "record": {
+  "records": {
     "CNAME": "9xn.github.io"
   }
 }

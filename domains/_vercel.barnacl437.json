@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Barnacl437",
-        "email": "barnacl437@proton.me"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=barnacl437.is-a.dev,3f01ae10ed626c14894b"
-    }
+  "owner": {
+    "username": "Barnacl437",
+    "email": "barnacl437@proton.me"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=blog.barnacl437.is-a.dev,835f01acb5999fa8605a"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "RishixD4511",
+    "email": "rishixd95@gmail.com"
+  },
+  "records": {
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mx1.forwardemail.net"
+      },
+      {
+        "priority": 10,
+        "target": "mx2.forwardemail.net"
+      }
+    ],
+    "TXT": "forward-email=NTMwMzc4Zjg2N2Y2MGE0NS01N2VjOTQyNDcwMDg2NWM5NDA3Mzg3ODkyNWZmNzIwNWQxZjRmOGYyNjk4Yjg4MjY4ZjQ0N2Y5NGE0NzUwNmE3"
+  }
+}

@@ -1,12 +1,10 @@
 {
-  "description": "idk mane why did u delete it \n my portfolio website btw",
-  "repo": "nicesapien.netlify.app",
   "owner": {
     "username": "nicesapien",
     "email": "nicesapien@duck.com",
     "twitter": "nicesapien"
   },
-  "record": {
+  "records": {
     "CNAME": "portfolio-6dp.pages.dev"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Pushpak | Portfolio",
-  "repo": "https://github.com/Drish-xD/Drish-xD.github.io",
   "owner": {
     "username": "1pushpak1",
     "email": "pushpakkumawat20028@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "1pushpak1.github.io"
   }
 }

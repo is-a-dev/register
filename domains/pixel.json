@@ -1,12 +1,10 @@
 {
-  "description": "BasicPixel's personal website",
-  "repo": "https://github.com/BasicPixel/basicpixel.github.io",
   "owner": {
     "username": "BasicPixel",
     "email": "osama.mo.qudah@gmail.com",
     "twitter": "pqudah"
   },
-  "record": {
+  "records": {
     "CNAME": "basicpixel.github.io"
   }
 }

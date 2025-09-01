@@ -1,10 +1,10 @@
 {
   "owner": {
     "username": "krishanunaskar",
-    "discord": "977802250716078210",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.qGTBpEFfITIu63a63XbYmqGoJDIOlEN4ISz3uij_lTD_OvLRriPZqb86NtySYA_f0g1DyQ77BzrWfcKYaB_Z7qoZkZA6mdaLR6631PlsG-Sgmaxe8TuBO2nCGtR8aqKHZy1v7_zTxp2il4D9tnOBkVQZD292aZvzHRp1rQuXWD0938IP7sHJ7iWc8ZWCslMZ1JZr2ovn6dlrJRSZwKDz9EXxhml_Vh1uMCSX4j6SVlY4Igar7uynfnQXFdfTXtNL6PmFLZzbmrT-2v1IWX37sIxdImOlu2luXFJqWyUyU3l2EdxEcrsGVxjYkVi6BYwEwuMvk1bzBdSWUSuDtbsTXg.wvk0XAFUlCXQaRY3zBwCJw.MpTbqLhGorHkqyksytW5i_3xlG4siQOw70f1hCsOuwYArFbD0T0R1Cgw_Ms-ym8yf4ksFXR6HlmS5tf3ZfnRuUu60LTBKbDC0wKY8dWsUig.g_ceL7m8Sdnyp4PCmweWgQ"
+    "email": "krishanunaskar93@gmail.com",
+    "discord": "977802250716078210"
   },
-  "record": {
-    "CNAME": "krishanu.odoo.com"
+  "records": {
+    "A": ["75.2.60.5"]
   }
 }

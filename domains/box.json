@@ -1,12 +1,11 @@
 {
   "description": "Personal Website",
-  "repo": "https://github.com/Default-Box/website",
   "owner": {
     "username": "Default-Box",
     "twitter": "DefaultBox_",
     "discord": "Default Box#8900"
   },
-  "record": {
+  "records": {
     "CNAME": "default-box.github.io"
   }
 }

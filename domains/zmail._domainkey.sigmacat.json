@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "SigmaCat01"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmwy0YYWvOLFv8G31gmIliUBdULUocGkpwUQVSbHZNRJ6ETGSKqtO3zLmigPW+Te3xi9OzD7QSJv15b6gZFUF88lrYwXarCEkrAOvveYBWVniqr+K+sg1r0X+g3HJjNbQg/Hc5a7mkGHLSV+XcdY9iSmouyMXxjC52mV1pbREigQIDAQAB"
+  }
+}

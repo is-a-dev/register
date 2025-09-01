@@ -1,11 +1,9 @@
 {
-  "description": "I want to use it for hosting my portfolio site",
-  "repo": "https://github.com/O-BERNARDOFOEGBU/my-portfolio",
   "owner": {
     "username": "O-BERNARDOFOEGBU",
     "email": "obinnaofoegbu71@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "o-bernardofoegbu.github.io"
   }
 }

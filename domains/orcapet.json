@@ -1,12 +1,10 @@
 {
-  "description": "Orca Pet's site",
-  "repo": "https://github.com/orca-pet3910/orca-pet3910.github.io",
   "owner": {
     "username": "orca-pet3910",
     "email": "user0thenyancat@proton.me",
     "discord": "1085633540139532329"
   },
-  "record": {
+  "records": {
     "CNAME": "orca-pet3910.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "This domain will be used for my personal website.",
-  "repo": "https://github.com/shadowisdev/shadowisdev",
   "owner": {
     "username": "shadowisdev",
     "email": "shadowisdev@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "shadowisdev.github.io"
   }
 }

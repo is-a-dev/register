@@ -1,12 +1,11 @@
 {
   "description": "Ahmosys's personal website",
-  "repo": "https://github.com/ahmosys/ahmosys.github.io",
   "owner": {
     "username": "Ahmosys",
     "email": "ahmosyspro@protonmail.com",
     "twitter": "ahmosys"
   },
-  "record": {
+  "records": {
     "CNAME": "ahmosys.github.io"
   }
 }

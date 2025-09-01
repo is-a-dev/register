@@ -1,11 +1,9 @@
 {
-  "description": "amanza17.is-a.dev",
-  "repo": "https://github.com/Amanza17/Amanza17.github.io.git",
   "owner": {
     "username": "Amanza17",
     "email": "a.manzanares.2023@alumnos.urjc.es"
   },
-  "record": {
+  "records": {
     "CNAME": "amanza17.github.io"
   }
 }

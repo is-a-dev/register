@@ -1,11 +1,9 @@
 {
-  "description": "Professional Web Developer portfolio site for William Balaile.",
-  "repo": "https://github.com/wilby-mj/wbalaile-dev",
   "owner": {
     "username": "wilby-mj",
     "twitter": "wilby_mj"
   },
-  "record": {
+  "records": {
     "CNAME": "wilby-mj.github.io"
   }
 }

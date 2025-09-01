@@ -6,9 +6,9 @@
     "discord": "demonitize"
   },
   "description": "Probably will use this to redirect to GitHub, because custom domain look cool",
-  "record": {
+  "records": {
     "URL": "https://github.com/demonitize",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "dh=09350922b05d5a2bcc4a3b4b16c9ef4c0deecb79 v=spf1 include:spf.improvmx.com ~all"
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

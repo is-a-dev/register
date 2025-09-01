@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "blaze-099",
-    "discord": "1186691290759434350",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.QLo89mhM4fE7MyI0fwTOoE1gwfqgTROR4XPtssSWrCFKdjAMxwFLRxSVKfTTk47ZdvtFcNQ-9i6zANMmvnKWqb4lk-A_IYDgCTI-rzfl7lIAsff092nh30jydQF4TCaaPwer3yrDZs-cHqnPJe1M9tVGLROeCpH5ndmRFCFCTp0SF5fIlyed9zElmsvmVm1In-pKSTFghIOm7W5A0Y_TGgGRz1GnCd7rUL0y_2Pww__W_JmiPYaqnIaas5YfHZSeSv68f4u6TicVOUFMCmRCAeF17ajRHB8NJJmAZ_5o0pvPs-YTFttOGRRp0MV7AMObacFMFpYufgvFM6amMBuKFA.nFT85dthPK_PLwebqK3zVw.w_dE_O8xeNrfXjtiPx_VM3hBR_p0i8huGEZfvGafCIBBtWm42cuIYAZ_kNh_qai31o3i7oRRi7UXOBGeShlvXW7znEXB9nx6Xy81QrbL878.l30yta1ym3dOqtn8MC7dZA"
+    "discord": "1186691290759434350"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=vantage.is-a.dev,880ae7aaeb22f3419bd0"]
+  "records": {
+    "TXT": "vc-domain-verify=vantage.is-a.dev,880ae7aaeb22f3419bd0"
   }
 }

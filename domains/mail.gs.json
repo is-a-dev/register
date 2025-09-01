@@ -2,14 +2,10 @@
   "owner": {
     "username": "Newfies",
     "twitter": "YeahItsGav",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.fraa7gfMOqQqWmbk-4fE5_pNd2zEvQ1K5w53QIHDTtr1C_Wu2Pzw-GfOlhxAtr7Af5ZIj_p7F5OOp6PwDxlKBXGt13e5l3Z9CQlYRclhfnaeYQm_xetYFlf9ucsYXVTfjFAeXxybT-RxbBjRl3Z48tSQaAto3E3Y-SbqwHPhjqh7-4tCpRZu5yc38Bx0_RHt95Ib2Mcg4cWShE-2ggvygSsonBuYBRGFqMIhM60tMA-cbJdQpvfVdZTJv0vHOtUJltv3eVzPpi4q5S5lWz3EKizGXuwAq3HLFycrBVrt5pegWLi1gId-urV9HGV1L3myGfQQSGwDVCEew9YKQFj71A.bxACuA7jrws9Z7z0oTx4wQ.fzzUvSGM_6ODHxUwg6vQvfJeI2kmUx5DW_4tIGVjPOymDplL8iBjzb5HIHhLqo_PlkcmGxeNr5DH4glPZdn1Dq2ywNTV90hWqpjfoHSOsYk.O8IBPKTRGwaH43VBg1rK3A",
     "notes": "I'm occasionally on Twitter from time to time; hit me up if you need to talk to me. Let me know you're from is-a.dev."
   },
-  "record": {
-    "TXT": [
-      "zoho-verification=zb26727871.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
-    ],
+  "records": {
+    "TXT": ["zoho-verification=zb26727871.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
     "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
   }
 }

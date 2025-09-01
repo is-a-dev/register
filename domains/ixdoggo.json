@@ -3,10 +3,10 @@
     "username": "xellion-dev",
     "email": "xelxtct@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ixdoggo.pages.dev",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   },
   "proxied": true
 }

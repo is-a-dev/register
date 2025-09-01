@@ -1,13 +1,12 @@
 {
   "description": "Mizu's Page",
-  "repo": "https://github.com/miyagawamizu/miyagawamizu.github.io",
   "owner": {
     "username": "miyagawamizu",
     "email": "miyagawamizu@gmail.com",
     "twitter": "miyagawamizu",
     "discord": "miyagawamizu"
   },
-  "record": {
+  "records": {
     "CNAME": "mizu.pages.dev"
   }
 }

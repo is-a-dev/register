@@ -1,10 +1,8 @@
 {
-  "description": "About Fork",
-  "repo": "https://github.com/dipmala-shrimali/dipmala-shrimali.github.io",
   "owner": {
     "username": "dipmala-shrimali"
   },
-  "record": {
+  "records": {
     "CNAME": "dipmala-shrimali.github.io"
   }
 }

@@ -4,23 +4,10 @@
     "username": "HarshNarayanJha",
     "email": "harshnj@proton.me"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
-    "AAAA": [
-      "2606:50c0:8000::153",
-      "2606:50c0:8001::153",
-      "2606:50c0:8002::153",
-      "2606:50c0:8003::153"
-    ],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+    "AAAA": ["2606:50c0:8000::153", "2606:50c0:8001::153", "2606:50c0:8002::153", "2606:50c0:8003::153"],
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": [
-      "forward-email=harshnj@proton.me",
-      "google-site-verification=Eu4i8iW1vck-KlTEnzPMfyc2WI1sgbYrNeATHJiyds0"
-    ]
+    "TXT": ["forward-email=harshnj@proton.me", "google-site-verification=Eu4i8iW1vck-KlTEnzPMfyc2WI1sgbYrNeATHJiyds0"]
   }
 }

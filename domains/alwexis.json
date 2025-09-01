@@ -1,0 +1,11 @@
+{
+  "description": "Alwexis's Portfolio",
+  "owner": {
+    "username": "alwexis",
+    "email": "arielsilvar.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": true
+}

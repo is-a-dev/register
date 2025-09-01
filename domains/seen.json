@@ -4,11 +4,9 @@
     "email": "seendator@outlook.com",
     "discord": "852477599476482048"
   },
-  "record": {
+  "records": {
     "URL": "https://github.com/Seendator",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": [
-      "v=spf1 include:spf.improvmx.com include:_spf.elasticemail.com ~all"
-    ]
+    "TXT": "v=spf1 include:spf.improvmx.com include:_spf.elasticemail.com ~all"
   }
 }

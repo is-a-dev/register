@@ -1,14 +1,10 @@
 {
   "owner": {
     "username": "userandaname",
-    "discord": "823939421686071386",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.reOdbyp6Plxic0IjF6RuL5lNhiMqzBWweBtnJ-Fpqduom7hhoabj7svWmeD5k0QxutV10NOtl_AlZbmxGOnLZGhZzg8p4Pa1uvOnq9iMrJybaxC36vNieiv0tHy5j8NbMkSUlHjaWOOtHaLMKj0gDVzz3A_QLZAkYusb1zbehSq7CamcojGG4_HZvabGE7OJhWjX1jsr1xp5YmGvRUsDEmKkcQmQFqvRwiDT8rqWd56o8OdqDzehXxRdHyBygYJuuHLGN3iTYeEUEAjj88c3tk1aZNrjStPZdVfxtHrMJCZ76Ny5R1NVOucJVlXQziy6P78lrKneqg5Wo26sietPtA.y3_0JbSixF-j9GIwRYdeqw.XkuJbAg67qp0AVL3ti1-ZTV4XHumSSqgRouDhip2qpv60pIy9cv4hBqtAl5V3W3Mjbo6UJjCKQ-j-xsGYic3xmW4_RQu_b7ezL9r9ykqILs.8XLHqBfk0A3VExJarQ8g8g"
+    "discord": "823939421686071386"
   },
-  "record": {
-    "TXT": [
-      "zoho-verification=zb15561523.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
-    ],
+  "records": {
+    "TXT": ["zoho-verification=zb15561523.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
     "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
   }
 }

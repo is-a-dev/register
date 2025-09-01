@@ -1,11 +1,9 @@
 {
-  "description": "My Portfolio Website",
-  "repo": "https://github.com/Priyanshul1307/Priyanshul1307.github.io",
   "owner": {
     "username": "Priyanshul1307",
     "email": "piyanshul1307@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "priyanshul130.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Personal Website and Portfolio",
-  "repo": "https://github.com/justTOBBI/justtobbi.github.io",
   "owner": {
     "username": "justTOBBI",
     "email": "justtobbi@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "justtobbi.github.io"
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nahianhasan161",
-        "email": "nahianhasan161@gmail.com"
-    },
-    "record": {
-        "CNAME": "al-nahian-portfolio.vercel.app"
-    }
+  "owner": {
+    "username": "nahianhasan161",
+    "email": "nahianhasan161@gmail.com"
+  },
+  "records": {
+    "CNAME": "al-nahian-portfolio.vercel.app"
+  }
 }
