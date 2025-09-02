@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "OTAKUWeBer ",
-    "discord": "772329070904999976"
-  },
-  "records": {
-    "CNAME": "weberz.vercel.app"
-  }
+    "owner": {
+        "username": "OTAKUWeBer",
+        "email": "www.tahsin3@gmail.com"
+    },
+    "records": {
+        "CNAME": "https://weberz.vercel.app/"
+    }
 }
