@@ -4,6 +4,9 @@
     "email": "valoo2023@outlook.de"
   },
   "records": {
-    "CNAME": "valooost.github.io"
+    "CNAME": "valooost.github.io",
+    "TXT": "_github-pages-challenge-valooost= a43588ffbf323b0c1ff1a6b1e530a9"
   }
+}
+
 }
