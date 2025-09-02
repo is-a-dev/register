@@ -6,5 +6,5 @@
   "records": {
     "CNAME": "g.yaoruisheng.com.cdn.cloudflare.net"
   },
-  "proxied": true
+  "proxied": false
 }
