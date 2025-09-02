@@ -1,0 +1,10 @@
+{
+  "description": "KC Zeptro site on Netlify",
+  "owner": {
+    "username": "kc-kunal",
+    "email": "kc9998008@gmail.com"
+  },
+  "record": {
+    "CNAME": "kc-zepto.netlify.app"
+  }
+}
