@@ -1,7 +1,8 @@
 {
   "owner": {
     "username": "yaoruisheng",
-    "email": "[email protected]"
+    "email": "[email protected]",
+    "twitter": "https://twitter.com/yaoruisheng"
   },
   "records": {
     "CNAME": "dash.yaoruisheng.com.cdn.cloudflare.net"
