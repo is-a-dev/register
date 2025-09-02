@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "yaoruisheng",
+    "email": "[email protected]"
+  },
+  "records": {
+    "CNAME": "cfdns.yaoruisheng.com.cdn.cloudflare.net"
+  },
+  "proxied": true
+}
