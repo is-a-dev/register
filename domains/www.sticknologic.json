@@ -9,5 +9,5 @@
   "records": {
     "CNAME": "snl-vps.mooo.com"
   },
-  "proxied": true
+  "proxied": false
 }
