@@ -3,8 +3,8 @@
       "username": "engineerbarok"
     },
     "records": {
-      "TXT": [
-        "TXT Value / zoho-verification=zb50318520.zmverify.zoho.com",
+        "TXT": [
+        "zoho-verification=zb74765160.zmverify.zoho.com",
         "v=spf1 include:zohomail.com ~all"
       ],
       "MX": [
