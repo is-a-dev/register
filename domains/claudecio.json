@@ -10,7 +10,11 @@
       { "target": "mx2.titan.email", "priority": 20 }
     ],
     "TXT": [
-      "v=spf1 include:spf.titan.email ~all"
+      "v=spf1 include:spf.titan.email ~all",
+      {
+        "name": "titan1._domainkey",
+        "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRkjBnXMwODMJn2v2ClqarkvUmBDjm5gNF9QNF8PlNvf832J7yX1gXPLdrBsaWp331Y/A0pAnw1HcT8xuL9E+xxDeOJvzOflgAUFhXJkTtVaCKRUgQo7yiS2v0viZGyMCvlfP+WJ1TYscJVr8QjkJlEpy3zYYjoV3GO5BBfq466wIDAQAB"
+      }
     ]
   }
 }
