@@ -6,5 +6,6 @@
   "records": {
     "CNAME": "GH0STP4WZ.github.io",
     "TXT": ["zoho-verification=zb43811690.zmverify.zoho.eu"]
-  }
+  },
+  "proxied": true
 }
