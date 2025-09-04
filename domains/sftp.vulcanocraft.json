@@ -1,0 +1,11 @@
+{
+  "description": "a subdomain for my sftp server",
+  "owner": {
+    "username": "VulcanoSoftware",
+    "discord": "vulcanocraft"
+  },
+  "records": {
+    "CNAME": "sftpinfo.pages.dev",
+    "A": ["147.185.221.31"]
+  }
+}
