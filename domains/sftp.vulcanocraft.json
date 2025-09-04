@@ -6,6 +6,9 @@
   },
   "records": {
     "CNAME": "sftpinfo.pages.dev",
-    "A": ["147.185.221.31"]
-  }
+    "A": [
+      "147.185.221.31"
+    ]
+  },
+  "proxied": true
 }
