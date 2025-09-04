@@ -5,6 +5,5 @@
   },
   "records": {
     "CNAME": "dearnco-django.onrender.com"
-  },
-  "proxied": true
+  }
 }
