@@ -4,6 +4,6 @@
     "email": "xiaobsh@gmx.com"
   },
   "records": {
-    "CNAME": "xiaobsh-tmp.pages.dev"
+    "NS": ["arya.ns.cloudflare.com", "houston.ns.cloudflare.com"]
   }
 }

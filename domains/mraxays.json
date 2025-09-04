@@ -4,6 +4,7 @@
     "discord": "mrakshayas"
   },
   "records": {
-    "CNAME": "mraxays.peerlist.site"
+    "A": ["216.150.1.1"],
+    "TXT": "peerlist-domain-verification=uhp69nnnlqmkdd9hmrlemm6keqnd"
   }
 }
