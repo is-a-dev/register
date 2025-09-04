@@ -1,0 +1,11 @@
+{
+  "description": "Kaapav WhatsApp Cockpit",
+  "repo": "https://github.com/Kaapav/kaapav-whatsapp-worker",
+  "owner": {
+    "username": "Kaapav",
+    "email": "kaapavin@gmail.com"
+  },
+  "record": {
+    "CNAME": "3a78587b-56e8-43ff-9efc-a81cbdfa1e08.cfargotunnel.com"
+  }
+}
