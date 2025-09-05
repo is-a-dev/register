@@ -1,0 +1,11 @@
+{
+  "description": "Kaapav WhatsApp Cockpit",
+  "repo": "https://github.com/Kaapav/kaapav-whatsapp-worker",
+  "owner": {
+    "username": "Kaapav",
+    "email": "kaapavin@gmail.com"
+  },
+  "record": {
+    "CNAME": "kaapav-chat-ui.vercel.app"
+  }
+}
