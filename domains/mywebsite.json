@@ -1,0 +1,11 @@
+{
+    "description": "mywebsite",
+    "repo": "https://navin4038.github.io/mywebsite.github.io/",
+    "owner": {
+        "username": "navin4038",
+        "email": "navi90060@gmail.com"
+    },
+    "records": {
+        "CNAME": "navin4038.github.io"
+    }
+}
