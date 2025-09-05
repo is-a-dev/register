@@ -1,0 +1,11 @@
+{
+  "domain": "blog.edwinsanjosoji.is-a.dev",
+    "subdomain": "blog.edwinsanjosoji",
+    "owner": {
+        "username": "edwinsanjo",
+        "email": "edwinsanjosoji@gmail.com"
+    },
+    "records": {
+        "CNAME": "hashnode.network"
+    }
+}
