@@ -1,0 +1,10 @@
+{
+  "subdomain": "cointoss",
+  "owner": {
+    "email": "rgoyal1295@gmail.com"
+  },
+  "record": {
+    "CNAME": "rgoyal1295-debug.github.io/coin-toss-game/"
+  },
+  "proxied": false
+}
