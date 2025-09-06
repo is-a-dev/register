@@ -4,6 +4,6 @@
         "email": "itsjustchipoverhere@proton.me"
     },
     "records": {
-        "TXT": "vc-domain-verify=lution.chip.is-a.dev,a6fc8393655e22d7d480"
+        "CNAME": "bd4dd22eb3141365.vercel-dns-017.com"
     }
 }
