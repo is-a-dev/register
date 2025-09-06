@@ -4,6 +4,6 @@
     "email": "zdaim78@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=daim.is-a.dev,d88985a4876213470d49"]
+    "TXT": "vc-domain-verify=daim.is-a.dev,d88985a4876213470d49"
   }
 }

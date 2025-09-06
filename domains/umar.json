@@ -4,6 +4,7 @@
     "email": "siddiquiumar0007@gmail.com"
   },
   "records": {
-    "CNAME": "umarsidiki.github.io"
-  }
+    "CNAME": "personalportfolio-two-roan.vercel.app"
+  },
+  "proxied": true
 }

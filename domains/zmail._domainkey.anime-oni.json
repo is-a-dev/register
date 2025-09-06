@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "anime-oni",
+   "discord": "1014232959143907429"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCMmVkQ7U5sj3UP3yG21tS8NFyBqJ5EHLFuu3b3v1WbKe5k7/7y1H9VCGJU9nKoZmRj9fuN0kTvECmpIY0vJdWnMCgzC7E/sUdmm1MrMiqFHFQoFhZldm11I/u3uUuEcH964XrNozzpaD2aqybcq2eKPFwqWkB2TxnRZC9EVkoDbwIDAQAB"
+  }
+}

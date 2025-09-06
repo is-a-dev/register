@@ -3,6 +3,6 @@
     "username": "heyjumanji"
   },
   "records": {
-    "TXT": ["vc-domain-verify=blog.jumanji.is-a.dev,27db21bc7b1a8b952003"]
+    "TXT": "vc-domain-verify=blog.jumanji.is-a.dev,27db21bc7b1a8b952003"
   }
 }
