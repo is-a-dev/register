@@ -7,10 +7,7 @@
     "CNAME": "GH0STP4WZ.github.io",
     "TXT": "v=spf1 mx:mail.gh0stp4wz.is-a.dev ip4:45.82.121.115 -all",
     "MX": [
-      {
-        "target": "mail.gh0stp4wz.is-a.dev",
-        "priority": 10
-      }
+        "mail.gh0stp4wz.is-a.dev"
     ]
   },
   "proxied": true
