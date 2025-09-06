@@ -5,6 +5,7 @@
     "linkedin": "https://www.linkedin.com/in/nadeemzahid"
   },
   "records": {
-    "CNAME": "bio-ten-psi.vercel.app"
+    "CNAME": "bio-ten-psi.vercel.app",
+    "TXT": "vc-domain-verify=nadeemzahid.is-a.dev,6e4a67fb397a66be2d1d"
   }
 }
