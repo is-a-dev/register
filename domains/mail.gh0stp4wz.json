@@ -4,6 +4,6 @@
     "email": "R3DGH0STP4WZ@protonmail.com"
   },
   "records": {
-    "A": "45.82.121.115"
+    "A": ["45.82.121.115"]
   }
 }
