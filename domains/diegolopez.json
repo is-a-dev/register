@@ -1,4 +1,7 @@
 {
   "domain": "diegolopez",
-  "target": "d25d8rxso9letq.cloudfront.net"
+  "target": "d25d8rxso9letq.cloudfront.net",
+  "owner": {
+    "email": "karankan19@gmail.com"
+  }
 }
