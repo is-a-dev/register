@@ -1,8 +1,0 @@
-{
-  "description": "My portfolio website",
-  "domain": "albert.is-a.dev",
-  "subdomain": "albert",
-  "records": {
-    "CNAME": ["alber-v2.vercel.app"]
-  }
-}
