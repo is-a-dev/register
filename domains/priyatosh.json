@@ -1,0 +1,12 @@
+{
+  "description": "Personal portfolio and Dart/Flutter package publisher.",
+  "owner": {
+    "username": "priyatosh-work",
+    "email": "priyatosh.work@google.com"
+  },
+  "records": {
+    "CNAME": "priyatosh-work.github.io",
+    "TXT": "google-site-verification=wiiXNtcjs3TbnKKNPKGATcZicQ2ldvpy4cZTfa9ZKw0"
+  },
+  "proxied": true
+}
