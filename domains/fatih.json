@@ -1,0 +1,11 @@
+{
+  "description": "My website",
+  "owner": {
+    "username": "fatih5252",
+    "email": "blackberry055205@gmail.com"
+  },
+  "record": {
+    "CNAME": "fatih5252.github.io",
+    "TXT": "e2c73af7070565c8004720ba8cc624"
+  }
+}
