@@ -4,6 +4,6 @@
     "email": "nawazishkayef@gmail.com"
   },
   "records": {
-        "CNAME": "kayefslearningcenter.me"
+      "A": ["75.2.60.5"]
     }
 }
