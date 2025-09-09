@@ -4,6 +4,6 @@
         "email": "message@zaid.qzz.io"
     },
     "records": {
-        "CNAME": "no-fap-streak.biohazard786.workers.dev"
+        "A": ["216.198.79.1"]
     }
 }
