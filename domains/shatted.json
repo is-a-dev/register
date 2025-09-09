@@ -4,6 +4,7 @@
         "email": "shattedlol@gmail.com"
     },
     "records": {
-        "A": ["https://cagato.netlify.app/"]
+        "CNAME": ["https://cagato.netlify.app/"]
     }
+
 }
