@@ -3,7 +3,6 @@
 		"username": "KMohZaid"
 	},
 	"records": {
-		"CNAME": "kmohzaid.eu.org"
-	},
-	"proxied": true
+		"CNAME": "cname.vercel-dns.com"
+	}
 }
