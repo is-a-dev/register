@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "polardev-ui",
+        "email": "polar@dona.one"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+        "TXT": ["vc-domain-verify=wsgpolar.is-a.dev,0183aff54e16183c04fe"]
+        "A": ["76.76.21.21"]
+    }
+}
