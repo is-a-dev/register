@@ -5,6 +5,6 @@
     "linkedin": "https://www.linkedin.com/in/nadeemzahid"
   },
   "records": {
-    "CNAME": "bio-ten-psi.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
