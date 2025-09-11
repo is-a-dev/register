@@ -1,9 +1,10 @@
 {
-  "owner": {
-    "username": "the-oblyv",
-    "email": "the-oblyv.module423@slmail.me"
-  },
-  "records": {
-    "CNAME": "the-oblyv.vercel.app"
-  }
+  "owner": {
+    "username": "the-oblyv",
+    "email": "the-oblyv.module423@slmail.me"
+  },
+  "records": {
+    "CNAME": "the-oblyv.vercel.app",
+    "TXT": "_vercel.the-oblyv.vercel-dns.com"
+  }
 }
