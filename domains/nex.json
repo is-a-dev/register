@@ -1,0 +1,12 @@
+{
+  "description": "My portfolio website",
+  "domain": "nex.is-a.dev",
+  "subdomain": "nex",
+  "owner": {
+    "repo": "https://github.com/sayan8bit/Nex",
+    "email": "sayan8bit@gmail.com"
+  },
+  "record": {
+    "CNAME": "sayan8bit.github.io"
+  }
+}
