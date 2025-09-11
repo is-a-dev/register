@@ -1,0 +1,7 @@
+{
+  "owner": { "username": "nsklabs" },
+  "records": {
+    "CNAME": "ngl-flask.onrender.com"
+  },
+  "proxied": false
+}
