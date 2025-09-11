@@ -6,6 +6,9 @@
   },
   "records": {
     "CNAME": "fatih5252.github.io",
+    "CNAME": "fatih5252.github.io",
     "TXT": "dh=aa693a26cd2adda3f498945fc72bf1cc9d446426"
+  },
+  "proxied": true
   }
 }
