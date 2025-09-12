@@ -1,0 +1,12 @@
+{
+  "description": "Portal de suporte Freshdesk - teste",
+  "domain": "is-a.dev",
+  "subdomain": "suportedrops",
+  "owner": {
+    "repo": "https://github.com/anadropsmart/register",
+    "email": "ana@dropsmart.com.br"
+  },
+  "record": {
+    "CNAME": "dropsmartcom-supportdesk.freshdesk.com"
+  }
+}
