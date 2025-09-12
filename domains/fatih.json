@@ -6,5 +6,6 @@
   },
   "records": {
     "CNAME": "fatih5252.github.io"
-  }
+  },
+  "proxied": true
 }
