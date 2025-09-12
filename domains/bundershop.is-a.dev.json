@@ -1,1 +1,17 @@
 
+{
+  "owner": { "email": "urikhaimov@gmail.com", "discord": "dan232323" },
+  "description": "SendGrid DKIM, return-path and link branding for Bunder Shop.",
+  "record": {
+    "CNAME": {
+      "url9968": "sendgrid.net",
+      "55976944": "sendgrid.net",
+      "em8278": "u55976944.wl195.sendgrid.net",
+      "s1._domainkey": "s1.domainkey.u55976944.wl195.sendgrid.net",
+      "s2._domainkey": "s2.domainkey.u55976944.wl195.sendgrid.net"
+    },
+    "TXT": {
+      "_dmarc": "v=DMARC1; p=none; rua=mailto:a3332a01d17074bc0a0749c294e3ed47b@dmarc-reports.cloudflare.net"
+    }
+  }
+}
