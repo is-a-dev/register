@@ -4,6 +4,7 @@
   },
   "records": {
     "URL": "https://sites.google.com/view/dwinsolutions",
-    "TXT": ["google-site-verification=0x6xlm0fma_ENNjWjQHHrLz6X2b2lXdgLAanrnAwx3E"]
+    "TXT": ["google-site-verification=0x6xlm0fma_ENNjWjQHHrLz6X2b2lXdgLAanrnAwx3E"],
+    "CNAME": "ghs.googlehosted.com"
   }
 }
