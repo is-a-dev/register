@@ -1,0 +1,11 @@
+{
+  "description": "Home Assistant Remote Access",
+  "repo": "https://github.com/aaklan/home-assistant-config",
+  "owner": {
+    "username": "aaklan",
+    "email": "aaklan@gmail.com"
+  },
+  "records": {
+    "A": ["192.168.0.205"]
+  }
+}
