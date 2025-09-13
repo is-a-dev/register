@@ -3,7 +3,8 @@
     "username": "AldwinJay"
   },
   "records": {
-    "URL": "https://sites.google.com/view/dwinsolutions",
+    "CNAME": "ghs.googlehosted.com",
     "TXT": ["google-site-verification=0x6xlm0fma_ENNjWjQHHrLz6X2b2lXdgLAanrnAwx3E"]
-  }
+  },
+  "proxied": true
 }
