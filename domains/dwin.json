@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "AldwinJay"
+  },
+  "records": {
+    "CNAME": "ghs.googlehosted.com",
+    "TXT": ["google-site-verification=0x6xlm0fma_ENNjWjQHHrLz6X2b2lXdgLAanrnAwx3E"]
+  },
+  "proxied": true
+}

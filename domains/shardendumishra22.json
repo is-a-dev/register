@@ -4,6 +4,7 @@
     "email": "shardendumishrabrave@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=shardendumishra22.is-a.dev,0e596131597808b6babe"]
   }
 }
