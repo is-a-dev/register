@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "guidocaru.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=guidocaru.is-a.dev,6106f8de674c39bfb732"
   }
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=formuna.is-a.dev,13260821808507d1277b"
   }
 }

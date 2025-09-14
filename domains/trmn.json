@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=trmn.is-a.dev,9d5ac9a88ec6320c3b31"
   }
 }

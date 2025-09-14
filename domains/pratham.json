@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "prathamdas.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=pratham.is-a.dev,b632047325056df87293"
   }
 }

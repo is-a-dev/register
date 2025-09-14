@@ -6,8 +6,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=aditya.is-a.dev,bb0fe79d43ee24597631"
   }
 }

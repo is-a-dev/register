@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "phonglidev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=phongli.is-a.dev,b6623ffbab5ed6f97cf5"
   }
 }

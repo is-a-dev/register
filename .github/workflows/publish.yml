@@ -13,7 +13,6 @@ on:
 
 concurrency:
     group: ${{ github.ref }}-publish
-    cancel-in-progress: false
 
 jobs:
     dns:

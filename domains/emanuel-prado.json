@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "meteoric-swarm.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=emanuel-prado.is-a.dev,2852fb034d376417491f"
   }
 }

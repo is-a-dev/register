@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "3d-portfolio-jade-ten.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=profile.alora.is-a.dev,71bd18cc5db61dc75f91"
   }
 }

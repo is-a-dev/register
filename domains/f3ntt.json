@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "f3ntt.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=f3ntt.is-a.dev,dc540a58beec30597866"
   }
 }

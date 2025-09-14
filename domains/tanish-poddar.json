@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tanishpoddar",
-        "email": "tanishpoddar.18@gmail.com"
-    },
-    "records": {
-        "A": ["216.24.57.1"]
-    }
+  "owner": {
+    "username": "tanishpoddar",
+    "email": "tanishpoddar.18@gmail.com"
+  },
+  "records": {
+    "A": ["216.24.57.1"]
+  }
 }

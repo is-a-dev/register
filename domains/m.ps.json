@@ -4,10 +4,7 @@
     "notes": "I rarely go on my emails. If I do its because I needed a verification code."
   },
   "records": {
-    "TXT": [
-      "zoho-verification=zb51857919.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
-    ],
+    "TXT": ["zoho-verification=zb51857919.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
     "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
   }
 }

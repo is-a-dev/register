@@ -7,12 +7,6 @@
     "discord": "Verygafanhot"
   },
   "records": {
-    "CNAME": "verygafanhot.github.io",
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  },
-  "proxied": true,
-  "services": {
-    "discord": "dh=772e8981e6a0b8bc4e30ac4af5160be7fd175c8a"
+    "CNAME": "axothelion.crabdance.com"
   }
 }

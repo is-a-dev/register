@@ -4,16 +4,8 @@
     "discord": "882124409945587773"
   },
   "records": {
-    "A": [
-      "185.199.110.153",
-      "185.199.108.153",
-      "185.199.111.153",
-      "185.199.109.153"
-    ],
+    "A": ["185.199.110.153", "185.199.108.153", "185.199.111.153", "185.199.109.153"],
     "MX": ["mx1.simplelogin.co", "mx2.simplelogin.co"],
-    "TXT": [
-      "sl-verification=ivfyrhmrpfrkrgrkywcghobxqkhynw",
-      "v=spf1 include:simplelogin.co ~all"
-    ]
+    "TXT": ["sl-verification=ivfyrhmrpfrkrgrkywcghobxqkhynw", "v=spf1 include:simplelogin.co ~all"]
   }
 }

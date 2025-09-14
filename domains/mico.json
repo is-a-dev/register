@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "micoo.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=mico.is-a.dev,1c71f89a6944e037c8f7"
   }
 }

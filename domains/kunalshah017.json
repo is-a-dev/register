@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "kunalshah017.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=kunalshah017.is-a.dev,4c9e39c65c2d0426535e"
   }
 }
