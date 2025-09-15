@@ -1,0 +1,12 @@
+{
+  "description": "Website resmi Pacific Inter Teknologi",
+  "domain": "is-a.dev",
+  "subdomain": "pacificinterteknologi",
+  "owner": {
+    "repo": "https://github.com/PacificInterTeknologi/Pacific-Website",
+    "email": "leealfian.22@gmail.com"
+  },
+  "record": {
+    "CNAME": "pacificinterteknologi.github.io"
+  }
+}
