@@ -1,6 +1,10 @@
 {
-  "records": {
-    "CNAME": "prncvin.github.io"
+  "owner": {
+    "username": "prncvin",
+    "email": "midnightbssyt@gmail.com"
   },
-  "proxied": false
+  "records": {
+    "CNAME": "prncvin.github.io/prnc"
+  },
+  "proxied": true
 }
