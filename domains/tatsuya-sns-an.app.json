@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "tofu914615",
-        "email": "tatsuya0615aaa@gmail.com" // ★★★ あなたの連絡可能なメールアドレスに書き換える
+        "email": "tatsuya0615aaa@gmail.com"
     },
     "record": {
-        "CNAME": "my-link-page-counter.web.app" // ★★★ Firebaseの画面に表示された値をここに設定
+        "CNAME": "my-link-page-counter.web.app"
     }
 }
