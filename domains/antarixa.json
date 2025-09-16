@@ -4,7 +4,6 @@
     "email": "mrxnexsus@gmail.com"
   },
   "records": {
-    "A": ["47.84.100.209"]
-  },
-  "proxied": true
+    "CNAME": "https://kidii-porto.vercel.app/"
+  }
 }
