@@ -1,0 +1,11 @@
+{
+  "description": "Cyberslot's official site",
+  "subdomain": "csp90",
+  "owner": {
+    "repo": "ytcyberslotp90/Cyber-Slot-official-website",
+    "email": "krishnendumaji3633@gmail.com"
+  },
+  "record": {
+    "CNAME": "ytcyberslotp90.github.io"
+  }
+}
