@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "nazmulnahid-git"
+  },
+  "records": {
+    "CNAME": "nazmul-nahid.github.io"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/nazmulnahid-git",
+      "/facebook": "https://www.facebook.com/itsnazmulnahid",
+      "/instagram": "https://www.instagram.com/_nazmulnahid",
+      "/linkedin": "https://www.linkedin.com/in/itsnazmulnahid"
+    },
+    "redirect_paths": true
+  }
+}
