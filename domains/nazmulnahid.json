@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "nazmulnahid-git"
+    "username": "nazmulnahid-git",
+    "email": "nazmulnahid.official@gmail.com"
   },
   "records": {
-    "CNAME": "nazmul-nahid.github.io"
+    "CNAME": "nazmulnahid-git.github.io"
   },
   "redirect_config": {
     "custom_paths": {
