@@ -17,6 +17,6 @@
           "target": "mx3.zoho.com",
           "priority": 50
         }],
-    "TXT": ["v=spf1 include:zoho.in include:spf.improvmx.com ~all", "zoho-verification=zb79559779.zmverify.zoho.in", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIgH7rkzspCgxdAEfGtMDFVqeAsZmmLMxof8ZtlEAPXhEPZR+otRjuKawWR0YShF1/r2/+D/DAt55p6vUnMtlmNGS8dVDUx5sHv3HN4Qtm0yzudclT1cy2URdrhUYc8AdpoX6Lkgz//nt2HoyghkBOuTJWMDwyrVPctX8VT/OtwQIDAQAB"]
+    "TXT": ["v=spf1 include:zoho.in include:spf.improvmx.com ~all", "zoho-verification=zb79559779.zmverify.zoho.in"]
   }
 }
