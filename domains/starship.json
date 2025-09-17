@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "starship-site",
+    "email": "domains@starship-app.com"
+  },
+  "records": {
+    "CNAME": "https://starship-site-github-io.pages.dev/source/clgunmayhem.html"
+  },
+}
