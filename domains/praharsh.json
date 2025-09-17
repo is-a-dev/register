@@ -4,6 +4,6 @@
     "email": "praharshsamria@gmail.com"
   },
   "records": {
-    "CNAME": "praharsh.zz.mu"
+    "NS": ["otto.ns.cloudflare.com", "teagan.ns.cloudflare.com"]
   }
 }
