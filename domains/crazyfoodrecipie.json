@@ -1,8 +1,9 @@
 {
     "owner": {
         "username": "TSMCIDevTest"
+        "email": "christopherbrad316@gmail.com"
     },
     "records": {
-        "RECORDTYPE": "RECORDCONTENT"
+        "CNAME": "TSMCIDevTest.github.io"
     }
 }
