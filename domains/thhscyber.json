@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "eaglenetwork",
+    "email": "[email protected]"
+  },
+  "records": {
+    "A": ["158.101.31.180"]
+  },
+  "proxied": false
+}
