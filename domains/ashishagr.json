@@ -5,7 +5,18 @@
   },
   "records": {
     "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "MX": [{
+          "target": "mx.zoho.com",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.com",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.com",
+          "priority": 50
+        }],
+    "TXT": ["v=spf1 include:zoho.in include ~all", "zoho-verification=zb79559779.zmverify.zoho.in"]
   }
 }
