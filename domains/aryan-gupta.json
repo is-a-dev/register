@@ -4,10 +4,9 @@
     "email": "aryan18guptaggs@gmail.com"
   },
   "description": "Aryan Gupta's personal portfolio, blog, and VCE resource website.",
+  "proxied": true,
   "records": {
-    "CNAME": "apoo711.github.io"
-  },
-  "services": {
-    "discord": "dh=1b2d00cb449cab67bedd1c9f40961835a261a92d"
+    "CNAME": "apoo711.github.io",
+    "TXT": "google-site-verification=Frww5uCLBTt_nZ9nlgWA5Ii-z9GsCrCGPqxujiQEwb8"
   }
 }

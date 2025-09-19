@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "redirect-1qp.pages.dev"
-  },
-  "services": {
-    "discord": "dh=fb048a2833345c205c4d76f9e7a44a13b180967f"
   }
 }

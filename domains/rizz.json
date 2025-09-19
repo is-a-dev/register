@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "bananaking6.github.io"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=old.rizz.is-a.dev,b78dc00492f43dce5eb2"
   }
 }

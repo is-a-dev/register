@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-jade-eta-63.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=jacques.is-a.dev,99cb4c27dc634df28742"
   }
 }

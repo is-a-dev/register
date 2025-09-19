@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "proxy.col1n.fr"
-  },
-  "services": {
-    "discord": "dh=f51bcf0f0dac685ca2a69541d3981cd689a1e96a"
   }
 }

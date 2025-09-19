@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-nine-sigma-65.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=arvind.is-a.dev,6078db13fb7b19c2e83d"
   }
 }

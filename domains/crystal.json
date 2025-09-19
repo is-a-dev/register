@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "crystalbajgai.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=crystal.is-a.dev,ef573673a0e376748ea9"
   }
 }

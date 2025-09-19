@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-aspect.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=amenya.is-a.dev,d5089d38c63537eecdaf"
   }
 }

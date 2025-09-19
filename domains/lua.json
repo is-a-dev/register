@@ -7,9 +7,5 @@
   },
   "records": {
     "A": ["75.119.201.51"]
-  },
-  "services": {
-    "discord": "dh=970cb15c19a813efa00124e99f198cbac7942338",
-    "bluesky": "did=did:plc:j7iap5lpvblnrr7lygisgjzp"
   }
 }

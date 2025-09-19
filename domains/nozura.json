@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "inozura",
-        "email": "nodhzen@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=nozura.is-a.dev,039e6d9945559891b759"
-    }
+  "owner": {
+    "username": "inozura",
+    "email": "nodhzen@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

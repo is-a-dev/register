@@ -6,8 +6,5 @@
   "records": {
     "CNAME": "cname.vercel-dns.com"
   },
-  "proxied": true,
-  "services": {
-    "vercel": "vc-domain-verify=shreshtha.is-a.dev,5fc36edb37a617883c80"
-  }
+  "proxied": true
 }

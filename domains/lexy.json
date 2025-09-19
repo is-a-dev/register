@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "lexy-portfolio-frontend.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=lexy.is-a.dev,a923e9c352f68e881f90"
   }
 }

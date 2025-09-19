@@ -6,8 +6,5 @@
   "records": {
     "CNAME": "python-cli-webapp.vercel.app"
   },
-  "proxied": true,
-  "services": {
-    "vercel": "vc-domain-verify=minhtan.is-a.dev,7be64448654af271a7c5"
-  }
+  "proxied": true
 }

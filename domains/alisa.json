@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "alisa-win95.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=alisa.is-a.dev,01abd793050b01c5d63f"
   }
 }

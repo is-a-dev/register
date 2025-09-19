@@ -8,9 +8,5 @@
     "CNAME": "sabidzpro.vercel.app",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  },
-  "services": {
-    "discord": "dh=a25a4d7cffc472b9402e6544f5f79f84c001e563",
-    "vercel": "vc-domain-verify=sabidzpro.is-a.dev,d94791005dd8e24e874c"
   }
 }

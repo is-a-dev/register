@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "my-portfolio-dusky-six-78.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=atharvd.is-a.dev,a9192e60bfd581760d17"
   }
 }

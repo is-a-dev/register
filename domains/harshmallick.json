@@ -6,8 +6,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=harshmallick.is-a.dev,323ae0e1146fa7bc07e2"
   }
 }

@@ -7,8 +7,5 @@
   "records": {
     "CNAME": "hellokhangtran.vercel.app"
   },
-  "proxied": false,
-  "services": {
-    "vercel": "vc-domain-verify=hellokhangtran.is-a.dev,c6412bc4cdbfa93fe3a1"
-  }
+  "proxied": false
 }

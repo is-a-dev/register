@@ -1,0 +1,11 @@
+{
+  "description": "zoho mail for abineethan.is-a.dev domain",
+  "owner": {
+    "username": "abineethan",
+    "email": "abineethan22@gmail.com"
+  },
+  
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCSALLAbrneXAYPVgwHeDzllKUO8xREkInO+FK7plR0K20Q9AZVvwC4MTwuFCQGRR3i2Lh27IDDq5tAVRN+bQ+01j/f7UhcgIOZwinI9kAShaDrzkiTA6QCED6QMiKW5FBOSEaGVFiXMOWOM7tryIvSGGH00aFL1Onq4iheBIh8CQIDAQAB"
+  }
+}
