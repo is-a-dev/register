@@ -17,6 +17,9 @@
           "target": "mx3.zoho.com",
           "priority": 50
         }],
-    "TXT": ["v=spf1 include:zoho.in include ~all", "zoho-verification=zb79559779.zmverify.zoho.in"]
+   "TXT": [
+  "v=spf1 include:zoho.in ~all",
+  "zoho-verification=zb79559779.zmverify.zoho.in"
+]
   }
 }
