@@ -7,5 +7,5 @@
     "CNAME": "web.vagonbrei.eu",
     "TXT": "zoho-verification=zb51874936.zmverify.zoho.eu"
   },
-  "proxied": false
+  "proxied": true
 }
