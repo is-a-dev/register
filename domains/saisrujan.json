@@ -1,9 +1,5 @@
 {
-    "owner": {
-        "username": "saiusesgithub"
-    },
-    "records": {
-        "RECORDTYPE": "CNAME"
-        "RECORDCONTENT": "saiusesgithub.github.io"
-    }
+  "owner": { "username": "saiusesgithub", "email": "saisrujanpunati@gmail.com" },
+  "record": { "CNAME": "https://portfolio-sigma-eight-57.vercel.app/" }
 }
+
