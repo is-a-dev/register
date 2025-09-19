@@ -4,7 +4,7 @@
     "email": "adamec08@seznam.cz"
   },
   "records": {
-    "CNAME": "web.vagonbrei.eu"
+    "CNAME": "web.vagonbrei.eu",
     "TXT": "zoho-verification=zb51874936.zmverify.zoho.eu"
   },
   "proxied": false
