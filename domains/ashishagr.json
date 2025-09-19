@@ -5,20 +5,21 @@
   },
   "records": {
       "TXT": [
-  "zoho-verification=zb79559779.zmverify.zoho.in",  "v=spf1 include:zohomail.com ~all"
+  "zoho-verification=zb79559779.zmverify.zoho.in",  "v=spf1 include:zohomail.in ~all"
 ],
-    "MX": [{
-          "target": "mx.zoho.com",
-          "priority": 10
-        },
-        {
-          "target": "mx2.zoho.com",
-          "priority": 20
-        },
-        {
-          "target": "mx3.zoho.com",
-          "priority": 50
-        }]
- 
+   "MX": [
+  {
+    "target": "mx.zoho.in",
+    "priority": 10
+  },
+  {
+    "target": "mx2.zoho.in",
+    "priority": 20
+  },
+  {
+    "target": "mx3.zoho.in",
+    "priority": 50
+  }
+]
   }
 }
