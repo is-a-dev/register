@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "YOUR-GITHUB-USERNAME",
+    "email": "you@example.com"
+  },
+  "record": {
+    "CNAME": "scanner.yourname.us.to"   // أو اتركه فارغًا إذا ستستخدم Cloudflare Tunnel
+  }
+}
