@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "archivexgamexd",
+    "email": "archivexgame@gmail.com"
+  },
+  "records": {
+    "SRV": [
+      {
+        "priority": 10,
+        "weight": 5,
+        "port": 33626,
+        "target": "exparc-33626.portmap.host"
+      }
+    ]
+  }
+}
