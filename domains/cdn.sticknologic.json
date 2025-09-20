@@ -1,5 +1,5 @@
 {
-  "description": "Admin Panel for my IONOS VPS",
+  "description": "Curated list of my cdn projects",
   "owner": {
     "username": "sticknologic",
     "x": "STICKnoLOGIC",
@@ -7,8 +7,6 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "A": ["212.132.120.14"]
-  },
-  "proxied": false
+    "CNAME": "sticknologic.github.io"
+  }
 }
-  
