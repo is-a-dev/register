@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "codewithtanim",
+    "email": "codewithtanim@gmail.com"
+  },
+  "records": {
+    "CNAME": "codewithtanim.vercel.app"
+  },
+  "proxied": true
+}
