@@ -1,5 +1,5 @@
 {
-  "description": "API call for my Simple Portfolio and Blog Website",
+  "description": "Curated list of my cdn projects",
   "owner": {
     "username": "sticknologic",
     "x": "STICKnoLOGIC",
@@ -7,7 +7,6 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "CNAME": "snl-vps.mooo.com"
-  },
-  "proxied": true
+    "CNAME": "sticknologic.github.io"
+  }
 }
