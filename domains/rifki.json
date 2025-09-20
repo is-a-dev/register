@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "rifkilabs", 
+    "email": "rifkisaputra225@gmail.com"
+  },
+  "records": {
+    "NS": ["dara.ns.cloudflare.com", "troy.ns.cloudflare.com"],
+  }
+}
