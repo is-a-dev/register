@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "saidhury",
-        "email": "saidulchoudhury10@gmail.com"
+        "email": "saidulchoudhury10@gmail.com",
+        "discord": "sponge.bad"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "saidulhc.vercel.app"
     }
 }
