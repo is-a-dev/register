@@ -7,8 +7,7 @@
   "records": {
     "TXT": [
       "vc-domain-verify=arnxv.is-a.dev,2b36da5314d05cea9737",
-      "vc-domain-verify=works.arnxv.is-a.dev,f8b0553cc89bfe7097fa",
-      "vc-domain-verify=bloqhost.arnxv.is-a.dev,65e15f8fc6cd1f97a486"
+      "vc-domain-verify=works.arnxv.is-a.dev,f8b0553cc89bfe7097fa"
     ]
   }
 }
