@@ -1,0 +1,16 @@
+{
+    "owner": {
+        "username": "oofybruh9",
+        "email": "oofybruh9@gmail.com"
+    },
+    "records": {
+        "CNAME": "oofybruh9.github.io"
+    },
+    "redirect_config": {
+        "custom_paths": {
+            "/vidlock": "https://vidlock.is-a.dev",
+            "/plus": "https://plus.oofybruh9.is-a.dev"
+        },
+        "redirect_paths": true
+    }
+}
