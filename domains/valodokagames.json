@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "ValodokaGames",
+    "email": "valodokaunblockedgames@gmail.com"
+  },
+  "records": {
+    "CNAME": "valodokagames.is-a.dev"
+  },
+  "proxied": true
+
+  "redirect_config": {
+  "custom_paths": {
+    "/github": "https://github.com/ValodokaGames"
+  },
+  "redirect_paths": true
+  }
+}
