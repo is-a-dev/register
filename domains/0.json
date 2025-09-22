@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "S4IL21",
-    "email": "s4il.is.a.dev@gmail.com"
-  },
-  "records": {
-    "CNAME": "s4il21.github.io"
-  }
+    "description": "Portfolio website",
+    "repo": "https://github.com/AditiSingh1208/AditiSingh1208.github.io",
+    "owner": {
+        "username": "Aditi Singh",
+        "email": "singhaditi2k4@gmail.com"
+    },
+    "record": {
+        "CNAME": "AditiSingh1208.github.io"
+    }
 }
