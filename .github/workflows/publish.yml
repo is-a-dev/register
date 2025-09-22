@@ -17,7 +17,7 @@ concurrency:
 jobs:
     dns:
         name: DNS
-        runs-on: self-hosted
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
 
@@ -30,4 +30,3 @@ jobs:
                   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               with:
                   args: push
-                  config_file: 'dnsconfig.js'
