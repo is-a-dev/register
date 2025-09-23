@@ -1,0 +1,8 @@
+{
+  "description": "GitHub Pages for small-gloomy-box",
+  "domain": "is-a.dev",
+  "subdomain": "small-gloomy-box",
+  "owner": { "github": "sakulem-plt" },
+  "record": { "CNAME": "sakulem-plt.github.io" },
+  "proxied": false
+}
