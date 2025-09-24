@@ -2,7 +2,8 @@
   "description": "Nafty's cave",
   "repo": "https://github.com/Nominy/Nominy.github.io/",
   "owner": {
-    "username": "Nominy"
+    "username": "Nominy",
+    "email": "sapkovich.vladislav@gmail.com"
   },
   "record": {
     "CNAME": "nominy.github.io"
