@@ -4,6 +4,7 @@
         "email": "giovanicorrea.dev@gmail.com"
     },
     "records": {
+        "A": ["216.198.79.1"]
         "TXT": "vc-domain-verify=giovani.is-a.dev,5d1b0309adec7c77cd48"
     }
 }
