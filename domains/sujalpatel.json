@@ -1,0 +1,10 @@
+{
+  "description": "My awesome portfolio",
+  "website": "https://sujalpatel.tech/",
+  "owner": {
+    "username": "devsujalpatel"
+  },
+  "record": {
+    "CNAME": "sujalpatel.tech"
+  }
+}
