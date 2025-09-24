@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "rfxct"
+  },
+  "records": {
+    "NS": [
+      "mack.ns.cloudflare.com",
+      "stephane.ns.cloudflare.com"
+    ]
+  }
+}
