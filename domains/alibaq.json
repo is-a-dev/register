@@ -7,5 +7,6 @@
   },
   "record": {
     "CNAME": "alibaq.hashnode.network"
-  }
+  },
+  "proxied": true
 }
