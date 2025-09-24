@@ -1,10 +1,10 @@
 {
   "description": "My awesome portfolio",
-  "repo": "https://github.com/yourusername/your-repo",
+  "repo": "https://github.com/Juubey/Juubey",
   "owner": {
-    "username": ""
+    "username": "Juubey"
   },
   "record": {
-    "CNAME": ".github.io"
+    "CNAME": "Juubey.github.io"
   }
 }
