@@ -3,12 +3,6 @@
         "username": "djbabuvlogs"
     },
     "records": {
-        "RECORDTYPE": "A
-AAAA
-CAA
-CNAME
-DS
-MX
-NS"
+        "RECORDTYPE": "[A AAAA CAA CNAME DS MX NS]"
     }
 }
