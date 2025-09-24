@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "bahattinkoc",
+    "email": "bahattin@is-a.dev"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/bahattinkoc"
+    },
+    "redirect_paths": true
+  }
+}
