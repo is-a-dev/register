@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Fajis",
+    "email": "pmfajis@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYO5VzbGUil5DGNjUvltdi3NMVnWyGkbec01aAHpJFwwCLWCLXm6ADyuSK2Rfg/M+SRz52F2T9X/C2815xK4OwQ8diWBF1YNMibYDWmcOmxR3Z+MjNGSNtNxqbJMx6bVK39A9t3ljMsc+CPebrYODUUKAU4oo+CmXPj72QsTIxBQIDAQAB"
+  }
+}
