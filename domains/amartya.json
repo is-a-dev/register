@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "amartyaa",
-    "email": "[email protected]"
   },
   "records": {
-    "CNAME": "amartyaa.github.io"
+    "CNAME": "ammy.vercel.app"
   },
   "proxied": true
 }
