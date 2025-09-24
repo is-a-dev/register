@@ -1,7 +1,8 @@
 {
   "description": "David V. Kimball",
   "owner": {
-    "username": "davidvkimball"
+    "username": "davidvkimball",
+    "twitter": "davidvkimball"
   },
   "record": {
     "CNAME": "davidvkimball.netlify.app"
