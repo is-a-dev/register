@@ -1,0 +1,10 @@
+{
+  "description": "Praveen Voturi Portfolio",
+  "repo": "https://github.com/voturi/langgraph-audio-prod",
+  "owner": {
+    "username": "voturi"
+  },
+  "record": {
+    "CNAME": "voturi.github.io"
+  }
+}
