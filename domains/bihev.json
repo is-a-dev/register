@@ -1,0 +1,13 @@
+{
+  "description": "Bihev Singh Rawal's Portfolio",
+  "subdomain": "bihev",
+  "owner": {
+    "username": "BihevRawal",
+    "email": "bihevr@gmail.com",
+    "repo": "https://github.com/BihevRawal/bihev-portfolio-client"
+  },
+  "records": {
+    "CNAME": "bihev-portfolio-client.vercel.app",
+    "TXT": "vc-domain-verify=bihev.is-a.dev,6f831b0c66c44576f576"
+  }
+}
