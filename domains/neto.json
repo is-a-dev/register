@@ -4,6 +4,6 @@
     "email": "jdosreisneto@hotmail.com"
   },
   "records": {
-    "CNAME": "netodev.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
