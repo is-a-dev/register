@@ -1,0 +1,10 @@
+{
+  "description": "My awesome portfolio",
+  "repo": "https://github.com/ayush-vibrant/register",
+  "owner": {
+    "username": "ayush-vibrant"
+  },
+  "record": {
+    "CNAME": "ayush-vibrant.github.io"
+  }
+}
