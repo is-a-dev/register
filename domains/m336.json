@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "M336",
+    "username": "m336g",
     "email": "m336g@proton.me"
   },
   "records": {
-    "NS": ["arya.ns.cloudflare.com", "koa.ns.cloudflare.com"]
+    "URL": "https://m336.dev/"
   }
 }
