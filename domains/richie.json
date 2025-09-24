@@ -1,0 +1,10 @@
+{
+  "description": "My awesome portfolio",
+  "repo": "https://github.com/DevSlashRichie/is-a-dev-register",
+  "owner": {
+    "username": "DevSlashRichie"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
