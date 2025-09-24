@@ -1,5 +1,11 @@
 {
   "naresh": {
-    "CNAME": "myload-43744541.ap-south-1.elb.amazonaws.com"
+    "records": {
+      "CNAME": "myload-43744541.ap-south-1.elb.amazonaws.com"
+    },
+    "owner": {
+      "username": "N12R70",
+      "email": "nareshgoudkonda22@gmail.com"
+    }
   }
 }
