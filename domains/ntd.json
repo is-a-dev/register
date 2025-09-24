@@ -1,12 +1,12 @@
 {
     "description": "ntd's portfolio",
-    "repo": "https://ngtrongdoanh.github.io/portfolio",
+    "repo": "https://github.com/NgTrongDoanh/portfolio",
     "owner": {
         "username": "NgTrongDoanh",
         "email": "ngtrongdoanh@gmail.com"
     },
-    "record": {
-        "CNAME": "ngtrongdoanh.github.io"
-    }
+    "records": {
+        "URL": "https://ngtrongdoanh.github.io/portfolio/"
+    },
+    "proxied": true
 }
-
