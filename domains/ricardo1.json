@@ -1,5 +1,8 @@
 {
   "description": "My blog",
+  "owner": {
+    "username": "your-github-username"
+  }
   "record": {
     "CNAME": "ricardoweb.dev"
   }
