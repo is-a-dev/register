@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "albertojalvo",
+    "email": "admin-is-a-dev@albertooc.com"
+  },
+  "records": {
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+    ],
+    "URL": "https://albertooc.com"
+  }
+}
