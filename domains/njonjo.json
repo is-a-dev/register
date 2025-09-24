@@ -1,10 +1,9 @@
 {
-  "description": "My awesome portfolio",
-  "repo": "https://github.com/Juubey/Juubey",
-  "owner": {
-    "username": "Juubey"
-  },
-  "record": {
-    "CNAME": "Juubey.github.io"
-  }
+    "owner": {
+        "username": "Juubey",
+        "email": "albert.njubi1@gmail.com"
+    },
+    "records": {
+        "CNAME": "Juubey.github.io"
+    }
 }
