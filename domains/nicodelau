@@ -3,5 +3,7 @@
         "username": "nicodelau",
         "email": "nicolasdelauretis122@gmail.com"
     },
-    "CNAME": "portfolio-aws.pages.dev"
+    "records": {
+        "CNAME": "portfolio-aws.pages.dev"
+    }
 }
