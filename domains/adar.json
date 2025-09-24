@@ -1,9 +1,10 @@
 {
   "description": "Adar Butel",
   "owner": {
-    "username": "LA"
+    "username": "LA",
+    "twitter": "adarbutel"
   },
-  "record": {
+  "records": {
     "CNAME": "adar.la"
   }
 }
