@@ -3,6 +3,7 @@
     "username": "erickacevedor",
     "email": "erickacevedor@gmail.com"
   },
-  "URL": "https://tini.bio/erick",
-  "proxied": true
+  "records": {
+  "URL": "https://tini.bio/erick"
+  }
 }
