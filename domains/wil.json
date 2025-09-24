@@ -1,0 +1,10 @@
+{
+  "description": "Wil's domain - Configuration pending",
+  "repo": "https://github.com/Nullzbox",
+  "owner": {
+    "username": "Nullzbox"
+  },
+  "record": {
+    "TXT": ["Domain reserved - Configuration pending"]
+  }
+}
