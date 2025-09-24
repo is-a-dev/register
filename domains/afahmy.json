@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "afahmygit",
+    "email": "git@ahmedfahmy.com"
+  },
+  "records": {
+    "NS": ["andy.ns.cloudflare.com", "vita.ns.cloudflare.com"],
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "9A964B6E8116AAFC47985F3AE5DB0BA5BFFFC85CA4AFC4882D030889816E910A"
+      }
+    ]
+  }
+}
