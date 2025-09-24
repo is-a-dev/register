@@ -1,10 +1,10 @@
 {
-  "description": "My awesome portfolio",
-  "website": "https://sujalpatel.tech/",
   "owner": {
-    "username": "devsujalpatel"
+    "username": "sujalpatel",
+    "email": "sujalpatelcoder@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sujalpatel.tech"
-  }
+  },
+  "proxied": true
 }
