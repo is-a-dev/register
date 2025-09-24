@@ -1,0 +1,10 @@
+{
+  "description": "icanq portfolio",
+  "repo": "https://github.com/icanq/icanq.github.io",
+  "owner": {
+    "username": "icanq"
+  },
+  "record": {
+    "CNAME": "icanq.github.io"
+  }
+}
