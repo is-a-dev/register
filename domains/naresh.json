@@ -1,9 +1,5 @@
 {
-    "owner": {
-        "username": "nareshkarthigeyan",
-        "email": "nareshkarthigeyan.2005@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "naresh": {
+    "CNAME": "myload-43744541.ap-south-1.elb.amazonaws.com"
+  }
 }
