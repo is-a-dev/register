@@ -1,0 +1,10 @@
+{
+  "description": "devhindo",
+  "repo": "https://devhindo.vercel.app",
+  "owner": {
+    "username": "devhindo"
+  },
+  "record": {
+    "CNAME": "devhindo.github.io"
+  }
+}
