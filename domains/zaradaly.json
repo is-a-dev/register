@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "zaradaly",
+    "email": "zaradaly@hotmail.fr"
+  },
+  "records": {
+    "NS": ["hal.ns.cloudflare.com", "magali.ns.cloudflare.com"]
+  }
+}
