@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "albertojalvo"
+  },
+  "records": {
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+    ],
+    "URL": "https://albertooc.com"
+  }
+}
