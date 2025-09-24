@@ -1,0 +1,10 @@
+{
+  "description": "Ashu's blog",
+  "repo": "https://github.com/ashupednekar/ashupednekar.github.io",
+  "owner": {
+    "username": "ashupednekar"
+  },
+  "record": {
+    "CNAME": "ashupednekar.github.io"
+  }
+}
