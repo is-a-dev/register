@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "alexlma0206",
+    "email": "alexlam@proton.me"
+  },
+  "records": {
+    "NS": ["clara.ns.cloudflare.com", "plato.ns.cloudflare.com"]
+  }
+}
