@@ -1,10 +1,10 @@
 {
   "description": "User do Diego",
-  "repo": "https://github.com/Eliaspirante",
   "owner": {
-    "username": "Eliaspirante"
+    "username": "Eliaspirante",
+    "email": "eliaspirante@gmail.com"
   },
   "record": {
-    "CNAME": "Eliaspirante.github.io"
+    "CNAME": "diegosouza.dev"
   }
 }
