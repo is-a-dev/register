@@ -5,6 +5,6 @@
     "username": "lankyjo"
   },
   "records": {
-    "CNAME": "lankythedev.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
