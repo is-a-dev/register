@@ -1,0 +1,8 @@
+{
+    "owner": {
+        "username": "aditia-dev"
+    },
+    "records": {
+        "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUZpiPjAPoNvs0jEYuNaizYUvgLHeSK40yMSd0Av6zC1s7FlG5iYMJTQnOewbV/NT39KogZRZu27xmPBSKm58dkVUkNAJJOa7Z5ygvk+/ClimszkofJjVz8IhhFj/ymO4MDrf1R4P/9T/lFuQ0pxSI8HyHIIokWO1TAlQqV6UJYQIDAQAB"
+    }
+}
