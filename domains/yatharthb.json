@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "yatharthb"
+    "username": "yatharthb",
+    "email": "72quilts_desk@icloud.com"
   },
   "records": {
-    "CNAME": "yatharthb.com"
+    "CNAME": "dev.yatharthb.com"
   }
 }
