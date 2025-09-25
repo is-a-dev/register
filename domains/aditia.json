@@ -1,7 +1,6 @@
 {
     "owner": {
-        "username": "aditia-dev",
-        "email": "hi@aditia.is-a.dev"
+        "username": "aditia-dev"
     },
     "records": {
         "TXT": ["zoho-verification=zb78375394.zmverify.zoho.com"]
