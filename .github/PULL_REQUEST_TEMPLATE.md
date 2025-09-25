@@ -7,7 +7,7 @@ YOU MUST FILL OUT THIS TEMPLATE ENTIRELY FOR YOUR PR TO BE ACCEPTED, NONE OF IT 
 
 <!-- Change each checkbox to [x] (all lowercase, with no spaces between the brackets) to mark it as completed. -->
 
-- [ ] I have **read** and **agree** to the [Terms of Service](https://is-a.dev/terms). <!-- Your request MUST follow the TOS to be approved. -->
+- [ ] I have **read** and **agreed** to the [Terms of Service](https://is-a.dev/terms). <!-- Your request MUST follow the TOS to be approved. -->
 - [ ] My file is following the [domain structure](https://docs.is-a.dev/domain-structure/).
 - [ ] My website is **reachable** and **completed**. <!-- We do not permit simple "Hello, world!" or simply copied/mostly blank templated websites. -->
 - [ ] My website is **software development** related. <!-- Only your root subdomain needs to meet this requirement. -->
