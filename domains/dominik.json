@@ -1,0 +1,10 @@
+{
+  "description": "dominik.is-a.dev",
+  "repo": "https://github.com/onesadlittleboy/is-a.dev.register.domain/",
+  "owner": {
+    "username": "onesadlittleboy"
+  },
+  "record": {
+    "CNAME": "onesadlittleboy.github.io"
+  }
+}
