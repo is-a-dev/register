@@ -13,7 +13,8 @@
     ],
     "TXT": [
       "v=spf1 mx ~all",
-      "v=DMARC1; p=quarantine; rua=mailto:dmarc-reports@ahmedfahmy.com"
+      "v=DMARC1; p=quarantine; rua=mailto:nat@ahmedfahmy.com",
+      "default._domainkey v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlZ5HUm4JZTKbZCTOOo4auSWCsoSS1v/YC6e4rUu9T5iPDhr+PSAEvTT1v7rY3dasVf+5VGzDHhG5gXMQXQam7wxtVIEQJKnAagIul5pO67+96E1ihM/X99t9VSv8VNtpFMYZDAY04XsFjzqIgWxsU0O0TVGdANDQL+M301ceQhN2BOpHt4oFqCX57jCwL5NAxhW+734WP+cW29UXrl4XBhWS/WXApnKWhdP0zyZpWO3mSSe+1HCJ4oGOXscBkwJbcXiHdLwTyP0lDiiqP/0PCdlVagHUGqNF+DtntPDst8MT/eYqivasWCRJ21iCfiTNPMI7iKadxSsG7bcDa9P9eQIDAQAB"
     ],
     "CAA": [
       "0 issue \"letsencrypt.org\"",
