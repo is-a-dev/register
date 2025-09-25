@@ -4,6 +4,6 @@
     "email": "fvishw@gmail.com"
   },
   "records": {
-    "CNAME": ""
+    "TXT":"vc-domain-verify=fvishw.is-a.dev,ec7fa0218560cb5bfb33"
   }
 }
