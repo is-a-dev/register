@@ -1,8 +1,10 @@
 {
   "domain": "samin.is-a.dev",
-  "cname": "samin-iota.vercel.app",
   "owner": {
     "github": "Solez-ai",
     "email": "sheditzofficial918@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }
