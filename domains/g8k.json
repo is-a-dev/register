@@ -3,7 +3,7 @@
   "owner": {
     "username": "RamiroG8k"
   },
-  "record": {
-    "CNAME": "https://www.g8k.dev"
+  "records": {
+    "CNAME": "www.g8k.dev"
   }
 }
