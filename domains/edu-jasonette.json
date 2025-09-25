@@ -1,5 +1,8 @@
 {
-  "owner": { "username": "Jasonette1" },
+  "owner": {
+    "username": "Jasonette1",
+    "email": "youen.lassiaz@gmail.com"
+  },
   "records": {
     "CNAME": "edu-lassiazyouen.netlify.app"
   }
