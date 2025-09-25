@@ -1,0 +1,30 @@
+{
+  "owner": {
+    "username": "archith1915",
+    "email": "artec.co.online@gmail.com"
+  },
+  "description": "Artec Co's collection of web projects and libraries.",
+  
+  "record": {
+    "CNAME": {
+      "@": "artecco.netlify.app",
+      "arclib": "arclib.netlify.app",
+      "arcteconline": "arteconline.netlify.app",
+      "arclyrics": "lyricslibrary.netlify.app"
+    },
+    
+    "MX": [
+      {
+        "priority": 10,
+        "value": "mx1.forwardemail.net"
+      },
+      {
+        "priority": 20,
+        "value": "mx2.forwardemail.net"
+      }
+    ],
+    "TXT": [
+        "forward-email=artec.co.online@gmail.com"
+    ]
+  }
+}
