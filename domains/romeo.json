@@ -1,7 +1,6 @@
 {
     "owner": {
-        "username": "Strvm",
-        "email": "[email protected]"
+        "username": "Strvm"
     },
     "records": {
         "CNAME": "cname.vercel-dns.com"
