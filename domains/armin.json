@@ -9,7 +9,7 @@
     "TXT": [
       "KR8JN06Jh0",
       "v=spf1 a mx include:spf.inleed.xyz -all"
-    ],
+    ]
   },
   "proxied": true
 }
