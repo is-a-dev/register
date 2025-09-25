@@ -4,6 +4,6 @@
     "email": "zaradaly@hotmail.fr"
   },
   "records": {
-    "NS": ["hal.ns.cloudflare.com", "magali.ns.cloudflare.com"]
+    "A": ["89.168.45.47"]
   }
 }
