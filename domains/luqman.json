@@ -4,6 +4,8 @@
     "email": "luqmanrosli907@gmail.com"
   },
   "records": {
-    "CNAME": "ai-codex-portfolio.vercel.app"
+    "CNAME": "ai-codex-portfolio.vercel.app",
+    "TXT": "vc-domain-verify=luqman.is-a.dev,7d7cdbbc5643f7264cfc"
+
   }
 }
