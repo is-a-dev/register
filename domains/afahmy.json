@@ -1,0 +1,24 @@
+{
+  "owner": {
+    "username": "afahmygit",
+    "email": "git@ahmedfahmy.com"
+  },
+  "records": {
+    "CNAME": ["cv.ahmedfahmy.com"],
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mailing.ahmedfahmy.com"
+      }
+    ],
+    "TXT": [
+      "v=spf1 mx ~all",
+      "v=DMARC1; p=quarantine; rua=mailto:dmarc-reports@ahmedfahmy.com"
+    ],
+    "CAA": [
+      "0 issue \"letsencrypt.org\"",
+      "0 issue \"cloudflare.com\"",
+      "0 iodef \"mailto:security@afahmy.is-a.dev\""
+    ]
+  }
+}
