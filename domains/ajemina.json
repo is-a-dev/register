@@ -1,0 +1,10 @@
+{
+  "description": "My portfolio",
+  "repo": "https://github.com/raphaeljay/domain-is-a",
+  "owner": {
+    "username": "raphaeljay"
+  },
+  "record": {
+    "CNAME": "ajemina.github.io"
+  }
+}
