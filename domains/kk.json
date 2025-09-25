@@ -1,9 +1,9 @@
 {
-  "description": "Portfolio Website of @Kantha2004",
   "owner": {
-    "username": "Kantha2004"
+    "username": "Kantha2004",
+    "email": "kumarkantha41@gmail.com"
   },
   "records": {
-    "URL": "https://game-of-life-kk.netlify.app/"
+      "A": ["75.2.60.5"]
   }
 }
