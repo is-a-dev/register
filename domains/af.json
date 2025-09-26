@@ -30,5 +30,6 @@
         "value": "mailto:security@af.is-a.dev"
       }
     ]
-  }
+  },
+  "proxied": true
 }
