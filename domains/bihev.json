@@ -3,8 +3,7 @@
   "subdomain": "bihev",
   "owner": {
     "username": "BihevRawal",
-    "email": "bihevr@gmail.com",
-    "repo": "https://github.com/BihevRawal/bihev-portfolio-client"
+    "email": "bihevr@gmail.com"
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
