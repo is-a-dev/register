@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "prithviraj"
+    "username": "prithviraj",
+    "email" : "prithviraj@hey.com"
   },
   "records": {
     "CNAME": "prithviraj.github.io"
