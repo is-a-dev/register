@@ -31,6 +31,63 @@ Not all of these will be posted on GitHub[^1], however they will always be poste
 - After the pull request is merged, your DNS records should be published with-in a few minutes.
 - Enjoy your new `.is-a.dev` subdomain! Please consider leaving us a star ⭐️ to help support us!
 
+## Quick Start
+
+1) Create a new file at `domains/<your-subdomain>.json` in your fork.
+
+2) Use this minimal template and update the values:
+
+```json
+{
+  "owner": {
+    "username": "your-github-username",
+    "email": "you@example.com"
+  },
+  "records": {
+    "CNAME": "your-site.example.com"
+  }
+}
+```
+
+3) Commit and open a Pull Request using the provided PR template.
+
+4) Ensure your site is reachable, development-related, and follows the [Terms of Service](https://is-a.dev/terms). The CI will run checks and reviewers may request changes.
+
+5) Once merged, records are pushed to Cloudflare and your subdomain becomes active within minutes.
+
+> Tip: Some names are reserved or internal. See `util/reserved.json` and `util/internal.json`.
+
+## Domain File Structure
+
+Each domain configuration is a single JSON file under `domains/` named after your desired subdomain (for example, `jeel.json` → `jeel.is-a.dev`).
+
+- Required fields:
+  - `owner.username`: Your GitHub username
+  - `owner.email`: A valid contact email (or see docs for acceptable alternatives)
+  - `records`: One or more DNS records
+
+- Common records:
+  - `A`, `AAAA`, `CNAME`, `TXT`, `MX`, `SRV`, `CAA`, `NS` (restricted; see below)
+  - See the [FAQ: supported record types](https://docs.is-a.dev/faq/#which-dns-record-types-are-supported)
+
+Example CNAME and TXT:
+
+```json
+{
+  "owner": { "username": "octocat", "email": "octo@example.com" },
+  "records": {
+    "CNAME": "myapp.vercel.app",
+    "TXT": "some-verification-token"
+  }
+}
+```
+
+Constraints and policies:
+
+- Names listed in `util/reserved.json` and `util/internal.json` cannot be registered.
+- Certain CNAME targets are disallowed (see `util/disallowed-cnames.json`).
+- NS records are restricted. If you truly need NS, see the section below and provide justification.
+
 ### NS Records
 When applying for NS records, please be aware we already support a [wide range of DNS records](https://docs.is-a.dev/faq/#which-dns-record-types-are-supported), so you likely do not need them. 
 
@@ -39,6 +96,42 @@ In your PR, please explain why you need NS records, including examples, to help 
 ***Pull requests adding NS records without sufficient reasoning will be closed.***
 
 > Also see: [Why are NS records restricted?](https://docs.is-a.dev/faq/#why-are-ns-records-restricted)
+
+## Local Development
+
+You don’t need to run a server. To validate your changes locally, you can run tests:
+
+```bash
+npm install
+npm test
+```
+
+Tests are written with [AVA](https://avajs.dev/). The CI will also validate changes automatically on your PR.
+
+## CI/CD Overview
+
+- On Pull Requests and pushes to `main`, the workflow at `.github/workflows/ci.yml` runs:
+  - Installs dependencies and runs tests: `npx ava tests/*.test.js`
+  - If `dnsconfig.js` changed, runs DNSControl checks
+
+- On merge to `main`, `.github/workflows/publish.yml`:
+  - Generates credentials
+  - Uses `is-a-dev/dnscontrol-action` to push DNS updates to Cloudflare
+
+## Troubleshooting
+
+- Ensure your website is publicly reachable and not just a placeholder.
+- Confirm your subdomain name is not in `util/reserved.json` or `util/internal.json`.
+- Avoid disallowed CNAME targets listed in `util/disallowed-cnames.json`.
+- Fill out every required item in the PR template and provide a preview (link or screenshot).
+- If CI fails, read the logs in your PR’s Checks tab and address the feedback.
+
+## Useful Links
+
+- Docs: https://docs.is-a.dev
+- Terms of Service: https://is-a.dev/terms
+- Report Abuse: https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse
+- Discord: https://discord.gg/is-a-dev-830872854677422150
 
 ## Report Abuse
 If you find any subdomains being used for abusive purposes, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with the relevant evidence.
