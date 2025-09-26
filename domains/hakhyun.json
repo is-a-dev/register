@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "hakhyun98"
+        "username": "hakhyun98",
+        "email": "xorjsrla123@naver.com"
     },
     "records": {
-        "RECORDTYPE": "A"
+        "CNAME": "github-hakhyun98.github.io/hakhyun.github.io"
     }
 }
