@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "kaloyaqn"
+        "username": "kaloyaqn",
+        "email":"kaloyanangelov21@gmail.com",
     },
     "records": {
-        "CNAME": "apex-loadbalancer.netlify.com"
+        "CNAME": "apex-loadbalancer.netlify.com",
     }
 }
