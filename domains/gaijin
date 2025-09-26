@@ -1,0 +1,11 @@
+{
+  "description": "Server VPS APP Gajin",
+  "subdomain": "gaijin",
+  "owner": {
+    "repo": "https://github.com/thiagoimai/register",
+    "email": "dev.kojifivem@gmail.com"
+  },
+  "record": {
+    "A": ["133.167.71.47"]
+  }
+}
