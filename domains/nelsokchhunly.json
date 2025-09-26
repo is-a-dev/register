@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "Nel-sokchhunly"
+        "username": "Nel-sokchhunly",
+        "email": "sokchhunlynel@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=nelsokchhunly.is-a.dev,6afda905c5980f87fbff"
+        "CNAME": "cname.vercel-dns.com",
     }
 }
