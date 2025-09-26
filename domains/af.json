@@ -27,7 +27,7 @@
       {
         "flags": 0,
         "tag": "iodef",
-        "value": "security@af.is-a.dev"
+        "value": "https://af.is-a.dev/caa-report"
       }
     ]
   },
