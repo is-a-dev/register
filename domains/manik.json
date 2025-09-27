@@ -1,0 +1,10 @@
+{
+  "description": "My portfolio",
+  "repo": "https://github.com/ManikSheoran/portfolio-v2",
+  "owner": {
+    "username": "ManikSheoran"
+  },
+  "record": {
+    "CNAME": "maniks.tech"
+  }
+}
