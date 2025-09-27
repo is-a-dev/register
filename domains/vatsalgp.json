@@ -1,0 +1,11 @@
+{
+  "description": "Web projects",
+  "repo": "https://github.com/vatsalgp/vatsalgp.github.io",
+  "owner": {
+    "username": "vatsalgp",
+    "email": "hi@vatsalgp.com"
+  },
+  "record": {
+    "CNAME": "vatsalgp.github.io"
+  }
+}
