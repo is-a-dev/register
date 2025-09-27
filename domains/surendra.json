@@ -1,0 +1,8 @@
+[
+  {
+    "subdomain": "surendra",
+    "type": "CNAME",
+    "comment": "My developer page hosted on GitHub Pages",
+    "target": "sonu2396.github.io."
+  }
+]
