@@ -17,3 +17,4 @@ YOU MUST FILL OUT THIS TEMPLATE ENTIRELY FOR YOUR PR TO BE ACCEPTED, NONE OF IT 
 
 # Website Preview
 <!-- Provide a link or screenshot of your website below. -->
+https://sandras-shop.tech/
