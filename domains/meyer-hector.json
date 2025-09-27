@@ -1,0 +1,11 @@
+{
+          "repo":"https://github.com/MeyerHector/MeyerHector.github.io",
+          "description": "My awesome portfolio",
+
+  "owner": {
+        "username": "MeyerHector",
+    },
+    "records": {
+        "CNAME": "MeyerHector.github.io"
+    }
+}
