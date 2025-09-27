@@ -2,10 +2,10 @@
   "description": "My portfolio",
   "repo": "https://github.com/raphaeljay/resume.me",
   "owner": {
-    "username": "raphaeljay"
+    "username": "raphaeljay",
     "email": "ralphajemina4live@gmail.com"
   },
   "records": {
-    "CNAME": "ajemina.github.io"
+    "CNAME": "raphaeljay.github.io"
   }
 }
