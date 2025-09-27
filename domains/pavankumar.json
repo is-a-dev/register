@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "pavanchowdaryg",
+        "email": "contact@pixelframes.tech"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=pavankumar.is-a.dev,a37f86adb4edb2b26ecf"
+        "A": ["216.198.79.1"]
+    }
+}
