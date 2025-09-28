@@ -4,6 +4,9 @@
     "email": "mubeenafzal3@gmail.com"
   },
   "record": {
-    "CNAME": "username.github.io"
+    "A": ["216.198.79.1"],
+    "TXT": {
+      "_vercel": "vc-domain-verify=mubeen.is-a.dev,7c920528c2263b241d56"
+    }
   }
 }
