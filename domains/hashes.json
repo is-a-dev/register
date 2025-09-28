@@ -5,6 +5,6 @@
     "email": "hashes0606@gmail.com"
   },
   "records": {
-    "CNAME": ["hashes.me"]
+    "CNAME": "hashes.me"
   }
 }
