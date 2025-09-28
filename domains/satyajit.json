@@ -4,7 +4,6 @@
      "discord": "seesatya"
   },
  "records": {
-     "CNAME": "https://getto.pages.dev",
-     "TXT": ["zoho-verification=zb77464318.zmverify.zoho.in"]
+     "CNAME": "getto.pages.dev"
   }
 }
