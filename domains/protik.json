@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "MNDL-27"
+    },
+    "records": {
+        "NS": [
+            "amos.ns.cloudflare.com",
+            "audrey.ns.cloudflare.com"
+        ]
+    }
+}
