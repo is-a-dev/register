@@ -1,8 +1,7 @@
 {
-  "description": "Trying new tech everyday",
-  "email": "veerkalantri1@gmail.com",
   "owner": {
     "username": "mads5"
+    "email": "veerkalantri1@gmail.com",
   },
   "record": {
     "CNAME": "mads5.github.io"
