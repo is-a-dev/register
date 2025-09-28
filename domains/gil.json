@@ -1,0 +1,25 @@
+{
+    "owner": {
+      "username": "engineerbarok"
+    },
+    "records": {
+        "TXT": [
+        "zoho-verification=zb74765160.zmverify.zoho.com",
+        "v=spf1 include:zohomail.com ~all"
+      ],
+      "MX": [
+        {
+          "target": "mx.zoho.com",
+          "priority": 50
+        },
+        {
+          "target": "mx2.zoho.com",
+          "priority": 55
+        },
+        {
+          "target": "mx3.zoho.com",
+          "priority": 96
+        }
+      ]
+    }
+  }

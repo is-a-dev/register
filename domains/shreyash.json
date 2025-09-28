@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "ShreyashTailor",
+        "email": "tailorshreyash01@gmail.com",
+        "discord": "shreyash0467"
+    },
+    "records": {
+        "CNAME": "shreyash.pages.dev",
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    },
+    "proxied": true
+}

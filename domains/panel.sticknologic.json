@@ -1,0 +1,14 @@
+{
+  "description": "Admin Panel for my IONOS VPS",
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "records": {
+    "A": ["212.132.120.14"]
+  },
+  "proxied": false
+}
+  
