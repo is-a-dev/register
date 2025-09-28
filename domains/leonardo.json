@@ -1,10 +1,9 @@
 {
-  "description": "My awesome portfolio",
-  "repo": "https://github.com/LeonardoVS30/Portfolio",
   "owner": {
-    "username": "LeonardoVS30"
+    "username": "LeonardoVS30",
+    "email": "verdesotoleonardo@gmail.com"
   },
-  "record": {
-    "CNAME": "LeonardoVS30.github.io"
+  "records": {
+    "CNAME": "vc-domain-verify=leonardo.is-a.dev,99c21b8d122a5cdc6ac4"
   }
 }
