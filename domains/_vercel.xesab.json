@@ -4,6 +4,6 @@
     "email": "keshabsaud.work@gmail.com"
   },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "TXT": "vc-domain-verify=xesab.is-a.dev,a0d89bd3fb166ba83f75"
     }
 }
