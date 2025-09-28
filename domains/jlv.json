@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "jolv95",
+        "email": "josniper@hotmail/fr"
+    },
+    "records": {
+        "CNAME": "jolv95.github.io"
+    },
+    "redirect_config": {
+        "custom_paths": {
+            "/ha": "https://ha.j-lv.tech/"
+        },
+        "redirect_paths": true
+    }
+}
