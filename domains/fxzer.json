@@ -4,6 +4,12 @@
         "email": "fxzer8888@outlook.com"
     },
     "records": {
-        "CNAME": "fxzer.github.io"
+        "CNAME": "fxzer.github.io",
+        "TXT": [
+                {
+                  "name": "_github-pages-challenge-fxzer",
+                  "value": "e46a0bd2514e87cbd8c60c2b8a4361"
+                }
+            ]
     }
 }
