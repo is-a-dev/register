@@ -1,0 +1,11 @@
+{
+  "description": "My personal website on AWS",
+  "subdomain": "namtp-tiamo",
+  "owner": {
+    "repo": "https://gitlab.com/galaxy.tiamo/galaxy",
+    "email": "nam05052002@gmail.com"
+  },
+  "record": {
+    "A": ["3.107.208.63"]
+  }
+}
