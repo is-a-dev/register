@@ -1,0 +1,11 @@
+{
+    "description": "mocha website",
+    "repo": "https://github.com/1naichii/1naichii.github.io",
+    "owner": {
+        "username": "1naichii",
+        "email": "nzakariya@outlook.com"
+    },
+    "record": {
+        "CNAME": "1naichii.github.io"
+    }
+}
