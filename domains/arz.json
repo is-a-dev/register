@@ -1,9 +1,7 @@
 {
-  "owner": {
-    "username": "ArZ5494",
-    "email": "zmiranda5494@gmail.com"
-  },
+  "owner": { "username": "ArZ5494", "email": "zmiranda5494@gmail.com" },
   "records": {
-    "CNAME": "arz5494.github.io"
+    "CNAME": "arz5494.github.io",
+    "TXT": { "_github-pages-challenge-ArZ5494": "e6a00ac29289cf96c0bed6e69d8a59" }
   }
 }
