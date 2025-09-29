@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "feliksius",
+    "email": "feliksdev@gmail.com"
+  },
+  "records": {
+    "NS": ["ns1.jetorbit.net", "ns2.jetorbit.net"]
+  }
+}
