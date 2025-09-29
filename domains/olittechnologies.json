@@ -1,8 +1,7 @@
 {
+  "description": "OLIT Technologies Website",
+  "repo": "vinayakkam/OLIT.github.io",
   "owner": {
     "username": "vinayakkam"
-  },
-  "record": {
-    "CNAME": "vinayakkam.github.io"
   }
 }
