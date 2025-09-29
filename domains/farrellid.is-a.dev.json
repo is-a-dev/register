@@ -3,7 +3,7 @@
     "username": "fidxteam",
     "email": "dev.farrellid@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com",
     "TXT": {
       "_vercel": "vc-domain-verify=ab8acadd131fd3db1c7f"
