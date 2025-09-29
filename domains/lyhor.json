@@ -1,0 +1,11 @@
+{
+  "description": "My personal portfolio",
+  "subdomain": "lyhor",
+  "owner": {
+    "repo": "https://hienglyhor.github.io/portfolio/",
+    "email": "hieng.lyhoir6764@example.com"
+  },
+  "record": {
+    "CNAME": "hienglyhor.github.io"
+  }
+}
