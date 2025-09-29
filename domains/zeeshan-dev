@@ -1,0 +1,10 @@
+{
+  "description": "My portfolio website hosted on Netlify",
+  "owner": {
+    "username": "MuhammadZeeshanGhafoor",
+    "email": "mirzazeeshan3738533@gmail.com"
+  },
+  "record": {
+    "CNAME": "zee-dev1.netlify.app"
+  }
+}
