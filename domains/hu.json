@@ -4,6 +4,6 @@
     "email": "caryhu.awesome@gmail.com"
   },
   "records": {
-    "A": "20.89.65.140"
+    "A": ["20.89.65.140"]
   }
 }
