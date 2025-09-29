@@ -6,6 +6,6 @@
   "record": {
     "CNAME": "cname.vercel-dns.com",
     "TXT": {
-      "_vercel": "vc-domain-verify=farrellid.is-a.dev,ab8acadd131fd3db1c7f"
+      "_vercel": "vc-domain-verify=ab8acadd131fd3db1c7f"
   }
 }
