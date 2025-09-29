@@ -1,0 +1,12 @@
+
+{
+  "description": "Subdomain for my personal project",
+  "subdomain": "adify",
+  "owner": {
+    "repo": "https://github.com/dzvellox",
+    "email": "dzvellox@gmail.com"
+  },
+  "record": {
+    "CNAME": "adify.duckdns.org"
+  }
+}
