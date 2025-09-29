@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "kylepillay",
-        "email": "kylepillay@gmail.com"
+        "email": "[email protected]"
     },
     "records": {
+        "CNAME": "cname.vercel-dns.com",
         "A": "216.198.79.1"
     }
 }
