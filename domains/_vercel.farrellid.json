@@ -4,8 +4,6 @@
     "email": "dev.farrellid@gmail.com"
   },
   "records": {
-    "TXT": {
-      "_vercel": "vc-domain-verify=ab8acadd131fd3db1c7f"
-    }
+    "TXT": "vc-domain-verify=ab8acadd131fd3db1c7f"
   }
 }
