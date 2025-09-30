@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "akk1to",
+    "email": "akk1to.dev@outlook.com"
+  },
+  "records": {
+    "MX": ["feedback-smtp.us-east-1.amazonses.com"],
+    "TXT": "v=spf1 include:amazonses.com ~all"
+  }
+}

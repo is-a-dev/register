@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "alekitopi",
+    "email": "hola@alekitopi.es"
+  },
+  "records": {
+    "URL": "https://alekitopi.es",
+    "MX": ["mail.alekitopi.es"]
+  }
+}

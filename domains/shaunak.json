@@ -1,0 +1,10 @@
+{
+  "description": "my .is-a.dev domain",
+  "owner": {
+    "username": "Shaunak-Pandya",
+    "email": "shaunak.n.pandya@gmail.com"
+  },
+  "records": {
+    "CNAME": "shaunak-pandya.github.io"
+  }
+}

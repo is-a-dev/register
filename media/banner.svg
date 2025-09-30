@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="300"
+   viewBox="0 0 264.583 79.375"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="banner.svg"
+   inkscape:export-filename="/home/an/dev/projects/is-a-dev-core/media/banner.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="0.7055704"
+     inkscape:cx="505.67511"
+     inkscape:cy="113.94339"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8" />
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <path
+     fill="#0f0c19"
+     d="M-.025 81.657H266.92V-.133H-.025z"
+     id="path2" />
+  <g
+     aria-label=".is-a.dev"
+     id="text6"
+     style="font-size:24.747px;line-height:1.25;font-family:CozetteVector;-inkscape-font-specification:CozetteVector;stroke-width:0.619">
+    <path
+       d="m 79.832553,45.909444 h 4.108388 V 50.042 h -4.108388 z"
+       style="fill:#4e3aa3"
+       id="path839" />
+    <path
+       d="m 94.260247,35.614306 v -2.078362 h 2.054194 v 2.078362 z M 92.206052,37.6685 h 4.108389 v 10.319306 h -2.054194 v -8.265112 h -2.054195 z m 4.108389,10.319306 H 100.447 V 50.042 h -4.132559 z"
+       style="fill:#4e3aa3"
+       id="path841" />
+    <path
+       d="m 104.57955,37.6685 h 8.24095 v 2.054194 h -8.24095 z m 0,2.054194 v 2.078362 h -2.07836 v -2.078362 z m 0,2.078362 h 6.18675 v 2.054194 h -6.18675 z m 6.18675,2.054194 h 2.0542 v 4.132556 h -2.0542 z m 0,4.132556 V 50.042 h -8.26511 v -2.054194 z"
+       style="fill:#4e3aa3"
+       id="path843" />
+    <path
+       d="M 114.87469,41.801056 H 125.194 v 2.054194 h -10.31931 z"
+       style="fill:#4e3aa3"
+       id="path845" />
+    <path
+       d="m 135.5133,50.042 v -2.054194 h -2.07836 v -2.078362 h 2.07836 v -6.18675 h -6.18675 V 37.6685 h 8.24095 V 50.042 Z m -6.18675,-10.319306 v 8.265112 h -2.07836 v -8.265112 z m 4.10839,8.265112 V 50.042 h -4.10839 v -2.054194 z"
+       style="fill:#4e3aa3"
+       id="path847" />
+    <path
+       d="m 141.70005,45.909444 h 4.10839 V 50.042 h -4.10839 z"
+       style="fill:#4e3aa3"
+       id="path849" />
+    <path
+       d="m 160.2603,37.6685 v -6.18675 h 2.05419 V 50.042 h -8.24094 v -2.054194 h -2.07836 v -8.265112 h 2.07836 v 8.265112 h 6.18675 v -8.265112 h -6.18675 V 37.6685 Z"
+       style="fill:#4e3aa3"
+       id="path851" />
+    <path
+       d="m 166.44705,37.6685 h 6.18675 v 2.054194 h -6.18675 z m 6.18675,2.054194 h 2.0542 v 4.132556 h -8.24095 v 4.132556 h -2.07836 v -8.265112 h 2.07836 v 2.078362 h 6.18675 z m 0,8.265112 v -2.078362 h 2.0542 v 2.078362 z m 0,0 V 50.042 h -6.18675 v -2.054194 z"
+       style="fill:#4e3aa3"
+       id="path853" />
+    <path
+       d="m 180.87475,50.042 v -4.132556 h -2.0542 v -4.108388 h -2.07836 V 37.6685 h 2.07836 v 4.132556 h 2.0542 v 4.108388 h 2.05419 v -4.108388 h 2.07836 V 37.6685 h 2.0542 v 4.132556 h -2.0542 v 4.108388 h -2.07836 V 50.042 Z"
+       style="fill:#4e3aa3"
+       id="path855" />
+  </g>
+</svg>

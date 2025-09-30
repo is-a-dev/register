@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "lverx",
+    "email": "profoundlvr@gmail.com"
+  },
+  "records": {
+    "URL": "https://lver.link/"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/lverx",
+      "/biz": "https://github.com/lverz",
+      "/contact": "https://contact-lver.pages.dev/",
+      "/site": "https://lver.link"
+    },
+    "redirect_paths": true
+  }
+}

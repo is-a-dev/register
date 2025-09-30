@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "getSono",
+    "email": "sono.arbeit@gmail.com"
+  },
+  "records": {
+    "NS": ["jasmine.ns.cloudflare.com", "trace.ns.cloudflare.com"]
+  }
+}

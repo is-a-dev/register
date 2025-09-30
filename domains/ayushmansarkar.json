@@ -1,0 +1,10 @@
+{
+  "description": "To Host my personal website :)",
+  "owner": {
+    "username": "AyushmanSarkar",
+    "email": "aayushmans2008@gmail.com"
+  },
+  "records": {
+    "CNAME": "ayushmansarkar.github.io"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "is-a-dev",
+    "email": "admin@is-a.dev"
+  },
+  "records": {
+    "URL": "https://wdh.gg/M0ttgkD"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/sponsor": "https://wdh.gg/sponsor"
+    }
+  }
+}
