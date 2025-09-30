@@ -12,7 +12,7 @@
       "mx1.forwardemail.net", "mx2.forwardemail.net"
     ],
     "TXT": [
-      "v=spf1 include:spf.forwardemail.net include:spf.mailjet.com -all", ""
+      "v=spf1 include:spf.forwardemail.net include:spf.mailjet.com -all", "forward-email=MGZmZDVhMmE4Y2U0YmU3Ni1lNWE4MjcwNDk1YzE3Mzg5M2IwOGJhMGJjNjE3NzM2YjZiNjRmNWJkOGQ0YjczYzdhYWExN2JlOTQxMzZkOGY2"
     ]
   }
 }
