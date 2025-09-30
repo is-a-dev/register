@@ -4,9 +4,6 @@
     "email": "codermillat@gmail.com"
   },
   "records": {
-    "CNAME": "codermillat.github.io",
-    "_github-pages-challenge-codermillat": {
-      "TXT": "c040edf3feef034fe7da6ed6eba4ec"
-    }
+    "CNAME": "codermillat.github.io"
   }
 }
