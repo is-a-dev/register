@@ -4,6 +4,6 @@
         "email": "sridhar.akula001@gmail.com"
     },
     "records": {
-        "A": "216.198.79.1"
+        "A": ["216.198.79.1"]
     }
 }
