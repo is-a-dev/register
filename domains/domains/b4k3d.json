@@ -1,0 +1,10 @@
+{
+  "description": "b4k3d Linktree hub",
+  "repo": "https://linktr.ee/b4k3d",
+  "owner": {
+    "username": "b4k3d"
+  },
+  "record": {
+    "CNAME": "b4k3d.is-a.dev"
+  }
+}
