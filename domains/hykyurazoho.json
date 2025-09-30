@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "hykyura"
+    "username": "hykyura",
+    "email": "hykyuraa@gmail.com"
   },
   "records": {
-    "TXT": "zoho-verification=zb34489234.zmverify.zoho.com"
+    "TXT": ["zoho-verification=zb34489234.zmverify.zoho.com"]
   }
 }
