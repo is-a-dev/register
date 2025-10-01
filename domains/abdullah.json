@@ -4,6 +4,7 @@
         "email": "stinkmang6@gmail.com"
     },
     "records": {
-        "CNAME": "mrpsycho-dev.github.io"
+        "CNAME": "mrpsycho-dev.github.io",
+        "TXT": "_github-pages-challenge-mrpsycho-dev.abdullah.is-a.dev=855cd3278a7c54ebaed66fe5e7e33a"
     }
 }
