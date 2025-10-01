@@ -1,0 +1,10 @@
+{
+  "description": "My portfolio site",
+  "owner": {
+    "username": "nafiz",
+    "email": "nafizbd2001@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com."
+  }
+}
