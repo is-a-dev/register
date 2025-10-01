@@ -1,0 +1,10 @@
+{
+  "description": "Portfolio site for Saka",
+  "subdomain": "saka",
+  "owner": {
+    "email": "sotyasaksi@gmail.com"
+  },
+  "record": {
+    "CNAME": "antaseneca.github.io"
+  }
+}
