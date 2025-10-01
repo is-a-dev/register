@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "nafiz",
+    "email": "nafizbd2001@gmail.com"
+  },
+  "record": {
+    "TXT": "vercel-domain-verification=PUT_TOKEN_FROM_VERCEL_HERE"
+  }
+}
