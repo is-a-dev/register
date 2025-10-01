@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "acakluqman"
+  },
+  "records": {
+    "NS": ["amir.ns.cloudflare.com", "tina.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
