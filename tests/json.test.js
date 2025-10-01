@@ -2,7 +2,7 @@ const t = require("ava");
 const fs = require("fs-extra");
 const path = require("path");
 
-const ignoredRootJSONFiles = ["package-lock.json", "package.json"];
+const ignoredRootJSONFiles = ["package.json"];
 
 const requiredFields = {
     owner: "object",
