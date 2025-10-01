@@ -1,0 +1,11 @@
+{
+  "description": "Subdomain for my personal project",
+  "subdomain": "adify",
+  "owner": {
+    "username": "dzvellox",
+    "email": "dzvellox@gmail.com"
+  },
+  "records": {
+    "CNAME": "dzvellox.github.io"
+  }
+}
