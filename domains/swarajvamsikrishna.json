@@ -1,4 +1,9 @@
 {
-  "subdomain": "swarajvamsikrishna",
-  "url": "https://hydrocinnamoyl-uncrumpled-gretta.ngrok-free.dev"
+  "owner": {
+    "username": "swarajvamsikrishna",
+    "email": "swarajvamsikrishna@gmail.com"
+  },
+  "records": {
+    "NS": ["https://hydrocinnamoyl-uncrumpled-gretta.ngrok-free.dev"],
+  }
 }
