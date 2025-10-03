@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "mordrion",
+    "email": "ausev905@gmail.com"
+  },
+  "records": {
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+    ]
+  }
+}
