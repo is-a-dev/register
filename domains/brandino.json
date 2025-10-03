@@ -4,6 +4,6 @@
     "email": "combatcollier25@gmail.com"
   },
   "records": {
-    "A": "99.189.77.93"
+    "A": ["99.189.77.93"]
   }
 }
