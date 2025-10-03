@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "nathandavies91",
+    "email": "hello@nathandavies.co.uk"
+  },
+  "records": {
+    "NS": [
+      "wally.ns.cloudflare.com",
+      "zeus.ns.cloudflare.com"
+    ]
+  }
+}
