@@ -5,6 +5,6 @@
     "email": "peanutandscuffy1@gmail.com"
   },
   "records": {
-    "CNAME": "xn--w9qr41c.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
