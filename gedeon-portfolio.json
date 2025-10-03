@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "gedeontiga",
+    "email": "gedeontigadev@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "CNAME": {
+      "www": "ed97a941f10ee0d0.vercel-dns-017.com."
+    },
+    "TXT": [
+      "vc-domain-verify=example.com,2073ea7a12f70e8820cc"
+    ]
+  }
+}
