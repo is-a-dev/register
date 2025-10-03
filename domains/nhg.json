@@ -1,10 +1,26 @@
 {
- "owner": {
-     "username": "AadiVIP",
-     "email": "aadishekher7@gmail.com"
-     "discord": "noheadphonegamerz"
-  },
- "records": {
-     "TXT": ["zoho-verification=zb45975427.zmverify.zoho.in"]
-  }
+    "owner": {
+      "username": "AadiVIP",
+      "email": "[aadishekher7@gmail.com]"
+    },
+    "records": {
+      "TXT": [
+        "zoho-verification=zb45975427.zmverify.zoho.in",
+        "v=spf1 include:zohomail.com ~all"
+      ],
+      "MX": [
+        {
+          "target": "mx.zoho.com",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.com",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.com",
+          "priority": 50
+        }
+      ]
+    }
 }
