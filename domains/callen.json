@@ -4,9 +4,6 @@
     "email": "callen.flynn@proton.me"
   },
   "records": {
-    "CNAME": "callenflynn.github.io",
-    "TXT": [
-      "discord=cf151"
-    ]
+    "CNAME": "callenflynn.github.io"
   }
 }
