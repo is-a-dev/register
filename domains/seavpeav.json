@@ -1,0 +1,12 @@
+{
+  "description": "My portfolio website",
+  "domain": "seavpeav.is-a.dev",
+  "subdomain": "seavpeav",
+  "owner": {
+    "email": "seavpeavpech24@gmail.com",
+    "github": "seavpeavpech24-bot"
+  },
+  "record": {
+    "CNAME": "seavpeavpech24-bot.github.io"
+  }
+}
