@@ -4,6 +4,18 @@
     },
     "records": {
         "URL": "https://github.com/aditia-dev",
-        "TXT": ["zoho-verification=zb78375394.zmverify.zoho.com"]
+        "TXT": [
+            "forward-email=NzI3MjIwNmNlMmNhNjAxNi0yYzkzZWM3NzYwMGYyYjRjNzhmYzM5Yjc2OGRlMzcxODJjNTMzNDBmN2ZlNTJhMmRiZjQyMTBkZGJlNzAzYWI1"
+        ],
+        "MX": [
+            {
+                "target": "mx1.forwardemail.net",
+                "priority": 10
+            },
+            {
+                "target": "mx2.forwardemail.net",
+                "priority": 10
+            }
+        ]
     }
 }
