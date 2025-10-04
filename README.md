@@ -17,7 +17,7 @@
 Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for announcements, updates & upgrades, and downtime notifications regarding the service.
 Not all of these will be posted on GitHub[^1], however they will always be posted in our Discord server.
 
-[^1]: We usually only post announcements on GitHub in the case of a serious incident. In that case, you'll likely see it at the top of this README file.
+[^1]: We only post announcements on GitHub in the case of a serious incident, which you'll see at the top of this README.
 
 <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.api.hrsn.dev/is-a-dev-830872854677422150"></a>
 
