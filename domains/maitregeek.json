@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "maitregeek",
+    "email": "contact@maitregeek.eu"
+  },
+  "records": {
+    "CNAME": "portfolio.maitregeek.eu"
+  },
+  "proxied": true
+}
