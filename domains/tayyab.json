@@ -1,0 +1,12 @@
+{
+  "description": "Tayyab's personal development domain connected to Hostinger",
+  "domain": "is-a.dev",
+  "subdomain": "tayyab",
+  "owner": {
+    "username": "Mr-Dev-Loper",
+    "email": "techworldhqofficial@gmail.com"
+  },
+  "record": {
+    "A": ["151.106.96.142"]
+  }
+}
