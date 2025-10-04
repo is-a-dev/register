@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "IHaveSicknesses",
-    "email": "thenirks1@gmail.com"
-  },
-  "records": {
-    "CNAME": "oryzaa.netlify.app"
-  },
-  "proxied": true
+    "owner": {
+        "username": "IHaveSicknesses",
+        "email": "thenirks1@gmail.com"
+    },
+    "records": {
+        "A": ["75.2.60.5"]
+    }
 }
