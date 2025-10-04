@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "Pranzal360"
+    "username": "Pranzal360",
+    "email": "pranzalkhatiwada03@gmail.com"
+    
   },
   "records": {
     "CNAME": "pranzalkhatiwada.com.np"
-  },
-  "proxied": true
+  }
 }
