@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "shinigami-shinto"
+        "username": "shinigami-shinto",
+	"email": "anon.44@telenet.be"
     },
     "records": {
         "A": "webserver-df3d3.web.app"
