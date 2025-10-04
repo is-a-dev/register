@@ -1,0 +1,27 @@
+{
+ "owner": {
+     "username": "SeeSatya",
+     "discord": "seesatya"
+  },
+ "records": {
+     "CNAME": "getto.pages.dev",
+     "TXT": [
+        "v=spf1 include:zoho.in ~all"
+      ],
+      "MX": [
+        {
+          "target": "mx.zoho.in",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.in",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.in",
+          "priority": 50
+        }
+      ]
+  },
+ "proxied": true
+}
