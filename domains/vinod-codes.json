@@ -6,9 +6,6 @@
     "email": "vinodmanjula08@gmail.com"
   },
   "records": {
-    "CNAME": "bytebyvinod.vercel.app",
-    "TXT": [
-      "vc-domain-verify=vinod-codes.is-a-dev,b5572bddde1fb2e78b68"
-    ]
+    "CNAME": "bytebyvinod.vercel.app"
   }
 }
