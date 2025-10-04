@@ -3,6 +3,7 @@
     "username": "Exzort567"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=kenquibel.is-a.dev,0a4c21768c74ace5a949"
   }
 }
