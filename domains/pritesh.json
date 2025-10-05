@@ -4,9 +4,6 @@
     "email": "epritesh@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"],
-    "TXT": [
-      "_vercel=vc-domain-verify=pritesh.is-a.dev,a297d9122cd5f6fad482"
-    ]
+    "A": ["76.76.21.21"]
   }
 }
