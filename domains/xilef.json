@@ -4,6 +4,6 @@
 	    "email": "anon.44@telenet.be"
     },
     "records": {
-        "A": "webserver-df3d3.web.app"
+        "CNAME": "webserver-df3d3.web.app"
     }
 }
