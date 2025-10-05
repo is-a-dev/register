@@ -4,6 +4,6 @@
         "email": "y.contact@malaxit.eu"
     },
     "records": {
-        "CNAME" : "yasmine091.netlify.app"
+        "A" : "75.2.60.5"
     }
 }
