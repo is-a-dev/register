@@ -4,6 +4,6 @@
         "email": "nexos.dons@gmail.com"
     },
     "records": {
-        "A": "151.240.30.7"
-    }
+        "A": ["151.240.30.7"]
+    },
 }
