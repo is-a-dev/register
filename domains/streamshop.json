@@ -1,0 +1,11 @@
+{
+  "description": "Official domain for StreamShop — a modern online shop for streaming services and more.",
+  "domain": "streamshop.is-a.dev",
+  "subdomain": "streamshop",
+  "owner": {
+    "username": "SmokeTKg"
+  },
+  "record": {
+    "CNAME": "smoketkg.github.io"
+  }
+}
