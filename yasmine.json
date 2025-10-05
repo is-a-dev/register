@@ -4,7 +4,6 @@
         "email": "y.contact@malaxit.eu"
     },
     "records": {
-        "NS": "marvin.ns.cloudflare.com",
-        "NS": "may.ns.cloudflare.com"
+        "CNAME" : "yasmine091.netlify.app"
     }
 }
