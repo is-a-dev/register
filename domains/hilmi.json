@@ -1,0 +1,10 @@
+{
+  "description": "Hilmi's personal portfolio",
+  "owner": {
+    "username": "hilmikt", 
+    "email": "muhammedhilmi46@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
