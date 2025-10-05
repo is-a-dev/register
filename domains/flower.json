@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "messedupflowerpot",
-    "email": "messedupflowerpot@gmail.com"
-  },
-  "records": {
-    "URL": "https://messedupflowerpot.carrd.co",
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  }
+    "owner": {
+        "username": "flowerey",
+        "email": "ashyyflower@gmail.com"
+    },
+    "records": {
+        "CNAME": "flowerey.github.io"
+    }
 }
