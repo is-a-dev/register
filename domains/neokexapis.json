@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "email": "botofnexxo@gmail.com"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "neokex-apis.onrender.com" 
+    }
+  ]
+}
