@@ -1,11 +1,9 @@
 {
   "owner": {
+    "username": "nexxo-here",
     "email": "botofnexxo@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "neokex-apis.onrender.com" 
-    }
-  ]
+  "records": {
+    "CNAME": "neokex-apis.onrender.com"
+  }
 }
