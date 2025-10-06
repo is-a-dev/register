@@ -1,0 +1,10 @@
+{
+  "description": "Danwakeem's github website",
+  "owner": {
+    "username": "danwakeem",
+    "twitter": "danwakeem"
+  },
+  "records": {
+    "CNAME": "danwakeem.github.io"
+  }
+}
