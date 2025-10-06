@@ -1,0 +1,11 @@
+{
+  "description": "Cloudflare Worker for narno.is-a.dev (lab-intro)",
+  "domain": "narno.is-a.dev",
+  "subdomain": "narno",
+  "owner": {
+    "email": "narnomx@gmail.com"
+  },
+  "record": {
+    "CNAME": "lab-intro.narnomx.workers.dev"
+  }
+}
