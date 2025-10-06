@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "c-c-epr",
+    "email": "ericxpert@gmail.com"
+  },
+  "records": {
+    "NS": ["daisy.ns.cloudflare.com", "fred.ns.cloudflare.com"]
+  }
+}
