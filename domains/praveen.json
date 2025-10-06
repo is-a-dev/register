@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "praveentcom"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  },
+  "proxied": true,
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/praveentcom"
+    },
+    "redirect_paths": true
+  }
+}
