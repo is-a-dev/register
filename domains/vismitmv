@@ -1,0 +1,8 @@
+{
+    "owner": {
+        "username": "vismitmv"
+    },
+    "records": {
+        "NS": ["nova.ns.cloudflare.com", "vin.ns.cloudflare.com"]
+    }
+}
