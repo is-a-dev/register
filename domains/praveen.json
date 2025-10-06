@@ -1,15 +1,10 @@
 {
   "owner": {
-    "username": "praveentcom"
+    "username": "praveentcom",
+    "email": "shield@praveent.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
-  },
-  "proxied": true,
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/praveentcom"
-    },
-    "redirect_paths": true
+    "A": ["216.198.79.1"],
+    "TXT": "vc-domain-verify=praveen.is-a.dev,260199b0ff20b680494d"
   }
 }
