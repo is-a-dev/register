@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "thewillwilson",
+    "email": "will@willwilson.uk"
+  },
+  "records": {
+    "URL": "https://willwilson.uk"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/thewillwilson"
+    },
+    "redirect_paths": true
+  }
+}
