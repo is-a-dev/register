@@ -1,0 +1,11 @@
+{
+  "mulugeta": {
+    "owner": {
+      "email": "mulugeta.adamu97@gmail.com"
+    },
+    "records": {
+      "A": ["192.0.2.1"],
+      "CNAME": "mulugetaadamu.vercel.app"
+    }
+  }
+}
