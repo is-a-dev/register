@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "ShuhbamSPawade",
+    "email": "shubhamspawade@gmail.com"
+  },
+  "records": {
+    "CNAME": "shubhamspawade.github.io"
+  },
+  "proxied": true,
+  "redirect_config": {
+    "custom_paths": {
+      "/": "https://shubhamspawade.github.io/fsociety/"
+    },
+    "redirect_paths": true
+  }
+}
