@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "jidanmaharjan"
+    },
+    "records": {
+        "A": ["216.198.79.1"],
+        "TXT": "vc-domain-verify=jidan.is-a.dev,cdc757b1f7408f00e554"
+    }
+}
