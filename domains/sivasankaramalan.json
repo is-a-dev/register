@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "sivasankaramalan"
+        "username": "sivasankaramalan",
+        "email": "ssmalan94@gmail.com"
     },
     "records": {
-        "RECORDTYPE": "RECORDCONTENT"
+        "CNAME": "cname.vercel-dns.com"
     }
 }
