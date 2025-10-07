@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "baragu"
+  },
+  "description": "Personal developer domain for Antony Baragu",
+  "record": {
+    "CNAME": "baragu.netlify.app"
+  }
+}
