@@ -1,16 +1,10 @@
 {
   "owner": {
-    "username": "ShuhbamSPawade",
+    "username": "shubhamspawade",
     "email": "shubhamspawade@gmail.com"
   },
   "records": {
-    "CNAME": "shubhamspawade.github.io"
+    "CNAME": "devzero7-github-io.vercel.app"
   },
-  "proxied": true,
-  "redirect_config": {
-    "custom_paths": {
-      "/": "https://shubhamspawade.github.io/fsociety/"
-    },
-    "redirect_paths": true
-  }
+  "proxied": true
 }
