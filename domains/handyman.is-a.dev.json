@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "handyman90",
+    "email": "zulhelmi@zhrventure.com"
+  },
+  "description": "Developer sandbox and project site for Handyman.",
+  "records": {
+    "CNAME": "dev.cipscreations.com"
+  },
+  "proxied": true
+}
