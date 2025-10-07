@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "iamhslee",
+        "email": "iam@hsl.ee"
+    },
+    "records": {
+        "CNAME": "hsl.ee"
+    },
+    "proxied": true
+}
