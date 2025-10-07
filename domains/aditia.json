@@ -8,14 +8,7 @@
             "forward-email=NzI3MjIwNmNlMmNhNjAxNi0yYzkzZWM3NzYwMGYyYjRjNzhmYzM5Yjc2OGRlMzcxODJjNTMzNDBmN2ZlNTJhMmRiZjQyMTBkZGJlNzAzYWI1"
         ],
         "MX": [
-            {
-                "target": "mx1.forwardemail.net",
-                "priority": 10
-            },
-            {
-                "target": "mx2.forwardemail.net",
-                "priority": 10
-            }
+          "mx1.forwardemail.net","mx2.forwardemail.net"
         ]
     }
 }
