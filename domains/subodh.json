@@ -3,6 +3,11 @@
         "username": "subodhisacat"
     },
     "records": {
+         "NS": "ns1.he.net"
+         "NS": "ns2.he.net"
+         "NS": "ns3.he.net"
+        "NS": "ns4.he.net"
+        "NS": "ns5.he.net"
         "TXT": "+8kRTWW3RuNsw3Zd/iVvgZ49WuvOxdIwm5S1vYlU010"
       
     }
