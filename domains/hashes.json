@@ -4,7 +4,8 @@
     "username": "hashes02",
     "email": "hashes0606@gmail.com"
   },
+  "proxied": true,
   "records": {
-    "CNAME": "hashes.me"
+    "A": ["95.217.177.225"]
   }
 }
