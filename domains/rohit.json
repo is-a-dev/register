@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "roht-sama",
-    "email": "rohit9804singh@gmail.com",
-    "twitter": "rohitstwts"
+    "username": "rohitsx",
+    "email": "rohiirb@gmail.com"
   },
   "records": {
-    "CNAME": "rohit-sama.github.io"
+    "TXT": "vc-domain-verify=rohit.is-a.dev,cda45212a36096b57e7f"
   }
 }
