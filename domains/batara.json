@@ -5,9 +5,6 @@
     "email": "emailmu@gmail.com"
   },
   "record": {
-    "A": ["216.198.79.1"],
-    "TXT": [
-      "vc-domain-verify=batara.is-a.dev,ce1ec885648493302f8b"
-    ]
+    "A": ["216.198.79.1"]
   }
 }
