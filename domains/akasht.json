@@ -4,6 +4,7 @@
     "email": "efgh37716@gmail.com"
   },
   "records": {
-    "CNAME": "https://portfolio-ten-peach-48.vercel.app/"
+      "TXT": "vc-domain-verify=akasht.is-a.dev,966da6d362d58b065729",
+      "A": ["216.198.79.1"]
   }
 }
