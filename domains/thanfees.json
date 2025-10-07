@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Thanfees",
+    "email": "thanfees@gmal.com"
+  },
+  "records": {
+    "NS": ["abby.ns.cloudflare.com", "armando.ns.cloudflare.com"]
+  }
+}
