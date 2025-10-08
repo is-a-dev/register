@@ -1,5 +1,8 @@
 {
-  "dns": {
-    "cname": "yourusername.github.io"
+  "owner": {
+    "username": "kasxz"
+  },
+  "record": {
+    "CNAME": "uk-01.rrhosting.eu"
   }
 }
