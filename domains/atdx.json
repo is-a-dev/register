@@ -1,1 +1,11 @@
 
+{
+  "description": "Custom Blogspot domain via Cloudflare",
+  "repo": "https://github.com/bloghugo/Atdx",
+  "owner": {
+    "username": "bloghugo"
+  },
+  "record": {
+    "CNAME": "ghs.google.com"
+  }
+}
