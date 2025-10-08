@@ -1,4 +1,4 @@
 {
-  "owner": { "username": "donotfeedthevirus", "email": "[email protected]" },
+  "owner": { "username": "donotfeedthevirus" },
   "records": { "CNAME": "cname.vercel-dns.com" }
 }
