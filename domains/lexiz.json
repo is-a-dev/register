@@ -5,6 +5,5 @@
     },
     "records": {
         "CNAME": "cname.vercel-dns.com",
-        "TXT": ["zoho-verification=zb33056081.zmverify.zoho.com"]
     }
 }
