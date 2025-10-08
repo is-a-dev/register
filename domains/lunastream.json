@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "waitlists3",
+    "email": "admin@lunastream.watch"
+  },
+  "records": {
+    "CNAME": "https://lunastreammultiplayer.netlify.app/"
+  },
+  "proxied": true
+}
