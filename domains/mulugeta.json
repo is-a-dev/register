@@ -8,6 +8,7 @@
     "x": "https://x.com/MuleBeteAmhara"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": ["vc-domain-verify=mulugeta.is-a.dev,bdb1db3f8d44abcdb4fb"]
   }
 }
