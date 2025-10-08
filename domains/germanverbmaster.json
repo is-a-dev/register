@@ -1,0 +1,29 @@
+{
+  "owner": {
+    "username": "abulhawa"
+  },
+  "records": {
+    "MX": [
+      {
+        "name": "no-reply",
+        "value": "feedback-smtp.eu-west-1.amazonses.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      {
+        "name": "no-reply",
+        "value": "v=spf1 include:amazonses.com ~all"
+      },
+      {
+        "name": "resend._domainkey",
+        "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4D8lrACqpRecJbKtjmHV7Jt24AKNHhQGnT85+m4mMaMBUCPFIz8kjKWus0oE+Ih45QWVMkrwRa6z8ntHEguNLW962dVPM8i0JVRaYMMFhRBKIqouZ+GpPTBhbKuxyPNW+mMrbKi+cS5YXXhytQ8aamcy2VildHS0jSAU8bKd41wIDAQAB"
+      },
+      {
+        "name": "_dmarc",
+        "value": "v=DMARC1; p=none;"
+      }
+    ]
+  },
+  "proxied": true
+}
