@@ -4,6 +4,6 @@
         "email": "research.ssmalan94@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "TXT": "vc-domain-verify=sivasankaramalan.is-a.dev,0ad08204e7a82366cdee"
     }
 }
