@@ -3,7 +3,7 @@
     "username": "b-aragu"
   },
   "description": "Personal developer domain for Antony Baragu",
-  "record": {
+  "records": {
     "CNAME": "baragu.netlify.app"
   }
 }
