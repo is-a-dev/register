@@ -1,11 +1,9 @@
 {
-  "description": "Personal site for github@bi0hazarDD (GH Pages verification)",
-  "repo": "https://github.com/bi0hazarDD/bi0hazarDD.github.io",
   "owner": {
     "username": "bi0hazarDD",
     "email": "jonathan-8@hotmail.co.uk"
   },
-  "record": {
+  "records": {
     "TXT": "87235c5c433d52086cbf2ae6ddd9a1"
   }
 }

@@ -1,10 +1,10 @@
 {
-  "description": "domain verification for bluesky",
   "owner": {
     "username": "luihh",
-    "email": "luihh@proton.me"
+    "email": "luihh@proton.me",
+    "discord": "481268875586174986"
   },
-  "record": {
+  "records": {
     "TXT": "did=did:plc:nkzlgllahrw2v2y6p4inqx6t"
   }
 }

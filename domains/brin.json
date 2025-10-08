@@ -1,11 +1,9 @@
 {
-  "description": "Personal site",
-  "repo": "https://github.com/xXTgamerXx/xXTgamerXx.github.io",
   "owner": {
-    "username": "xXTgamerXx",
+    "username": "brinterwastaken",
     "email": "trin.n2848@gmail.com"
   },
-  "record": {
-    "CNAME": "xxtgamerxx.github.io"
+  "records": {
+    "CNAME": "brinterwastaken.github.io"
   }
 }

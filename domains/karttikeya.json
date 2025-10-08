@@ -1,11 +1,9 @@
 {
-  "description": "Karttikeya's portfolio website",
-  "repo": "https://github.com/KartKernel/KartKernel.github.io",
   "owner": {
     "username": "Karttikeya",
     "email": "karttikeyashahi@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "kartkernel.github.io"
   }
 }

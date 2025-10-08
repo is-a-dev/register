@@ -1,0 +1,11 @@
+{
+  "description": "Personal website",
+  "owner": {
+    "username": "stacktraced",
+    "email": "q4ow@proton.me"
+  },
+  "records": {
+    "A": ["206.189.124.159"]
+  },
+  "proxied": true
+}

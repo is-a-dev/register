@@ -19,38 +19,27 @@ We reserve the right to deny any subdomain registration request for any reason.
 ## 4. Prohibited Activities
 You agree not to use the is-a.dev service for:
 
-- Hosting illegal content, including but not limited to pirated software, malware, or copyrighted materials without authorization.
-- Conducting phishing, spam, or other malicious activities.
-- Promoting hate speech, violence, or discrimination.
-- Impersonating individuals, organizations, or entities without consent.
-- Engaging in activities that violate local, national, or international laws.
-- Any commercial purposes, including advertising, selling products, or hosting e-commerce platforms.
-- Online stores/shopping websites.
-- Gambling websites.
-- Game cheat sites.
-- CDNs distributing potentially malicious content (e.g., APKs, executables).
-- 'Unblocked' gaming websites.
-- Alternate URLs for commonly blocked websites (e.g., gambling/casino websites).
-- Websites containing 18+ content.
-- Mass emailing (e.g., newsletters, mailing lists).
-- File-sharing or torrenting websites distributing copyrighted material.
-- Cryptocurrency mining sites or tools.
-- Hacking or cybersecurity exploit websites.
-- Phishing or fraudulent websites.
-- Websites hosting illegal or pirated software.
-- Proxy or VPN services bypassing network restrictions.
-- Online services for identity theft or forgery.
-- Platforms promoting self-harm or violence.
-- Illegal drug marketplaces.
-- Proxy sites (e.g., embedding other websites).
+- Hosting illegal content, including but not limited to pirated software, malware, or copyrighted materials without authorization
+- Conducting phishing, spam, or other malicious activities
+- Promoting hate speech, violence, or discrimination
+- Impersonating individuals, organizations, or entities without consent
+- Engaging in activities that violate local, national, or international laws
+- Any commercial purposes, including but not limited to advertising, selling products, or hosting e-commerce platforms
+- Websites containing adult/restricted content
+- Mass unsolicited emailing
+- Cryptocurrency mining sites or tools
+- Phishing or fraudulent websites
+- Open proxy websites or VPN services
 
-Additionally, users must comply with [GitHub’s Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) where applicable.
+This list is not exhaustive and may be updated or expanded at any time at our discretion.
+
+Additionally, users must comply with [GitHub's Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) where applicable.
 
 Violation of these terms may result in the immediate termination of your subdomain.
 
 ## 5. Ownership and Intellectual Property
 1. **Subdomain Ownership**: While you are granted the right to use a subdomain, ownership of the "is-a.dev" domain remains with the service provider.
-2. **Content Ownership**: You retain ownership of any content you host on your subdomain. However, you grant us a license to use your subdomain registration data (e.g., DNS records) to operate the service.
+2. **Content Ownership**: You retain ownership of any content you host on your subdomain. However, you grant us a license to use your subdomain registration data (e.g. contact information, DNS records) to operate the service.
 
 ## 6. Termination of Service
 We reserve the right to suspend, terminate, or revoke your subdomain at any time, for any reason, including but not limited to violations of these Terms, operational considerations, or at our sole discretion.
@@ -59,7 +48,7 @@ We reserve the right to suspend, terminate, or revoke your subdomain at any time
 For privacy-related inquiries, please contact us at privacy@is-a.dev. We are not responsible for any data or privacy breaches resulting from the use of our service.
 
 ## 8. Disclaimer of Warranties
-The is-a.dev service is provided "as-is" and "as available." We make no warranties, expressed or implied, regarding the service’s functionality, reliability, or suitability for any particular purpose.
+The is-a.dev service is provided "as-is" and "as available." We make no warranties, expressed or implied, regarding the service's functionality, reliability, or suitability for any particular purpose.
 
 ## 9. Limitation of Liability
 To the fullest extent permitted by law, is-a.dev and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use or inability to use the service.

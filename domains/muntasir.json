@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "muntasir-dev",
-    "email": "meeoundnp@gmail.com"
-  },
-  "record": {
-    "CNAME": "muntasir-de.github.io"
-  }
+    "owner": {
+        "username": "MuntasirSZN",
+        "email": "muntasir.joypurhat@gmail.com"
+    },
+    "records": {
+        "CNAME": "MuntasirSZN.github.io"
+    }
 }

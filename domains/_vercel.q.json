@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "syedtahseen",
-    "email": "itxtahseen@gmail.com"
-  },
-  "record": {
-    "TXT": ["vc-domain-verify=q.is-a.dev,8798cf095e1f783b5302"]
-  }
+    "owner": {
+        "username": "hanlin-luo",
+        "email": "hanlin.luo2@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=q.is-a.dev,937184bea166d7acf3d2"
+    }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Subdomain for my personal page.",
-  "repo": "https://github.com/Pranjal-SB/Pranjal-SB",
   "owner": {
     "username": "Pranjal-SB",
     "email": "psbhatnagar.in@gmal.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pranjal-sb.github.io"
   }
 }

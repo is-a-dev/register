@@ -1,11 +1,9 @@
 {
-  "description": "My personal website",
-  "repo": "https://github.com/Johna-123/Johna-123.github.io",
   "owner": {
     "username": "Johna-123",
     "email": "j-verstraaten@hotmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "johna.pages.dev"
   }
 }

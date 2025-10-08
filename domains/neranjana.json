@@ -1,11 +1,9 @@
 {
-  "description": "Neranjana's is-a.dev subdomain",
-  "repo": "https://github.com/NandiyaLive/is-a-dev",
   "owner": {
     "username": "NandiyaLive",
     "email": "neranjanaprsd@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://neranjana.tk"
   }
 }

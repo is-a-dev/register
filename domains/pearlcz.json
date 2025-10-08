@@ -1,12 +1,10 @@
 {
-  "description": "Making a website about me and my projects.",
-  "repo": "https://github.com/0pearlcz0/is-a.dev",
   "owner": {
     "username": "0pearlcz0",
     "email": "vitekjurcik@gmail.com",
     "twitter": "pearl_czoffic"
   },
-  "record": {
+  "records": {
     "CNAME": "0pearlcz0.github.io"
   }
 }

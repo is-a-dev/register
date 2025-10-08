@@ -1,11 +1,14 @@
 {
-  "description": "My Profile Website",
-  "repo": "https://github.com/l6174/l6174.github.io",
   "owner": {
-    "username": "l6174",
-    "email": "l6174@proton.me"
+    "username": "sekiryl",
+    "email": "sekiryl@proton.me"
   },
-  "record": {
-    "NS": ["armfazh.ns.cloudflare.com", "stella.ns.cloudflare.com"]
-  }
+  "records": {
+    "MX": [
+      { "target": "mx1.forwardemail.net", "priority": 10 },
+      { "target": "mx2.forwardemail.net", "priority": 10 }
+    ],
+    "TXT": "forward-email=sekiryl@proton.me"
+  },
+  "proxied": false
 }
