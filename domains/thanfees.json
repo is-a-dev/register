@@ -4,6 +4,7 @@
     "email": "thanfees@gmail.com"
   },
   "records": {
-    "CNAME": "thanfees.vercel.app"
+    "A": ["216.198.79.1"]
+    "TXT": ["_vercel vc-domain-verify=thanfees.is-a.dev,55d95a352c401bb26429"]
   }
 }
