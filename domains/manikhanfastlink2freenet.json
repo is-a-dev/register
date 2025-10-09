@@ -1,0 +1,16 @@
+{
+  "description": "Student/academic project — provide accessible site to Iranian users; proxied for HTTPS & accessibility",
+  "domain": "is-a.dev",
+  "subdomain": "manikhanfastlink2freenet",
+
+  "owner": {
+    "repo": "https://github.com/mehrdadashna/regiister/",
+    "email": "mehrdadashna.ma@gmail.com"
+  },
+
+  "record": {
+    "A": ["5.75.196.250"]
+  },
+
+  "proxied": true
+}
