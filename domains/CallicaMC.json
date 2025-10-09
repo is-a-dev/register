@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "YahavHatam",
+    "email": "yahavhatam@gmail.com"
+  },
+  "records": {
+    "A": ["185.83.152.74"],
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 5,
+        "port": 25585,
+        "target": "callicamc.is-a.dev"
+      }
+    ]
+  }
+}

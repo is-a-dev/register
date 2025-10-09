@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "YahavHatam",
+    "email": "yahavhatam@gmail.com"
+  },
+  "records": {
+    "CNAME": "your-site.netlify.app"
+  },
+  "proxied": true
+}
