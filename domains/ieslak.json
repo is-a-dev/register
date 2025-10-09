@@ -1,0 +1,9 @@
+{
+  "description": "Point ieslak.is-a.dev to my Cloudflare Pages site",
+  "owner": {
+    "username": "callu4580-hub"
+  },
+  "records": {
+    "CNAME": "ieslak.pages.dev"
+  }
+}
