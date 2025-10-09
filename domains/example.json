@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "silenty4ng",
+    "email": "silenty4ng@gmail.com"
+  },
+  "records": {
+    "NS": ["jill.ns.cloudflare.com", "quincy.ns.cloudflare.com"],
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "C4AE6842F7C00FACC1BBC46F41FC6FE42C3B74E18266032CCCFF5A32E5B168E1"
+      }
+    ]
+  }
+}
