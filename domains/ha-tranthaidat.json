@@ -1,0 +1,11 @@
+{
+  "description": "Home Assistant Cloudflare Tunnel",
+  "domain": "is-a.dev",
+  "subdomain": "ha-tranthaidat",
+  "owner": {
+    "email": "tranthaidat02112004@gmail.com"
+  },
+  "record": {
+    "CNAME": "e65df1ed-f362-4240-b08b-a8e3c3c461cd.cfargotunnel.com"
+  }
+}
