@@ -1,3 +1,9 @@
 {
-  "cname": "https://github.com/zwsuo"
+  "owner": {
+    "username": "zwsuo",
+    "email": "izwsuo@gmail.com"
+  },
+  "records": {
+    "A": ["100.64.5.111"]
+  }
 }
