@@ -3,5 +3,7 @@
     "username": "AzamAliCodes",
     "email": "social.azamali@gmail.com"
   },
-  "records": {}
+  "records": {
+    "CNAME": "azamalicodes.github.io"
+  }
 }
