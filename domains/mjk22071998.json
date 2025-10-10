@@ -2,7 +2,8 @@
   "description": "Muhammad Junaid Khalid's personal portfolio website",
   "repo": "mjk22071998/Portfolio",
   "owner": {
-    "username": "mjk22071998"
+    "username": "mjk22071998",
+    "email": "mjk22071998@gmail.com"
   },
   "record": {
     "CNAME": "portfolio-dun-nine-84.vercel.app"
