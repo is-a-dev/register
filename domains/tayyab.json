@@ -4,6 +4,6 @@
     "email": "techworldhqofficial@gmail.com"
   },
   "records": {
-    "A": "151.106.96.142"
+    "A": ["151.106.96.142"]
   }
 }
