@@ -5,8 +5,7 @@
     "username": "abdulmateenzwl",
     "email": "abdulmateenzwl@gmail.com"
   },
-  "record": {
-    "CNAME": "abdulmateenzwl.com",
-    "URL": "https://mateen.is-a.dev"
+  "records": {
+    "CNAME": "abdulmateenzwl.com"
   }
 }
