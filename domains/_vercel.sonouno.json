@@ -4,6 +4,6 @@
         "email": "asonouno@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "TXT": "vc-domain-verify=sonouno.is-a.dev,d4e4a97a7bfea0641481"
     }
 }
