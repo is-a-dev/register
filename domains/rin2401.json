@@ -1,0 +1,11 @@
+{
+  "description": "My blog",
+  "repo": "https://github.com/rin2401/rin2401.github.io",
+  "owner": {
+    "username": "rin2401",
+    "email": "rin2401@gmail.com"
+  },
+  "records": {
+    "CNAME": "rin2401.github.io"
+  }
+}
