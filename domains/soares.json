@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "willsoares",
+    "email": "willian@soares.is.a.dev"
+  },
+  "records": {
+    "CNAME": "willsoares.github.io"
+  },
+  "proxied": true
+}
