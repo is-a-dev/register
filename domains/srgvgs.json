@@ -1,0 +1,10 @@
+{
+  "description": "SRG VGS – Azure Static Web App",
+  "owner": {
+    "username": "goktugdemirci",
+    "email": "mgoktugdemirci@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://delightful-field-0b6ab5b03.2.azurestaticapps.net/"
+  }
+}
