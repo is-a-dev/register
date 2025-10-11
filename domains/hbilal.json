@@ -5,7 +5,6 @@
     "email": "talash982@gmail.com"
   },
   "record": {
-    "A": ["216.198.79.1"],
-    "TXT": ["_vercel", "vc-domain-verify=hbilal.is-a.dev,0e93cd74d9ac9b9bbc37"]
+    "A": ["216.198.79.1"]
   }
 }
