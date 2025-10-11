@@ -1,0 +1,10 @@
+{
+  "description": "Is-a-dev new domain for science-blog",
+  "repo": "https://github.com/KhangDuong1205/is-a-dev-domain",
+  "owner": {
+    "username": "KhangDuong1205"
+  },
+  "record": {
+    "CNAME": "KhangDuong1205.github.io"
+  }
+}
