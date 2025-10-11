@@ -4,7 +4,6 @@
     "email": "alexlamnok@proton.me"
   },
     "records": {
-        "CNAME": "alexlam0206.pages.dev"
         "NS": ["clara.ns.cloudflare.com", "plato.ns.cloudflare.com"]
 
     }
