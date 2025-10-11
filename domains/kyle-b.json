@@ -1,9 +1,19 @@
 {
-    "owner": {
-        "username": "Dekoder-py",
-        "email": "dekod3r.py@gmail.com"
-    },
-    "records": {
-        "CNAME": "dekoder-py.github.io"
-    }
+ "owner": {
+     "username": "Dekoder-py",
+     "email": "dekod3r.py@gmail.com"
+  },
+ "records": {
+     "TXT": ["v=spf1 include:spf.improvmx.com ~all"],
+     "MX": [
+        {
+          "target": "mx1.improvmx.com.",
+          "priority": 10
+        },
+        {
+          "target": "mx2.improvmx.com.",
+          "priority": 20
+        }
+      ]
+  }
 }
