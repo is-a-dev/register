@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "your-github-username",
+    "email": "your-email"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ebisa.is-a.dev,5b78088a8f87a5b4ea85"
+  }
+}
