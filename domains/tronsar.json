@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "tronsar",
-        "email": "esrjoo841@gmail.com"
-    },
-    "record": {
-        "CNAME": "tronsdevelopment.github.io"
-    }
+  "description": "Portfolio website of Tronsar (TronsDevelopment)",
+  "repo": "https://github.com/TronsDevelopment/tronsar",
+  "owner": {
+    "username": "tronsar",
+    "email": "esrjoo841@gmail.com"
+  },
+  "record": {
+    "CNAME": "tronsdevelopment.github.io"
+  }
 }
