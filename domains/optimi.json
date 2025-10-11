@@ -4,6 +4,6 @@
     "email": "alexalexandramueller@gmx.de"
   },
   "records": {
-    "A": "162.55.83.181"
+    "A": ["162.55.83.181"]
   }
 }
