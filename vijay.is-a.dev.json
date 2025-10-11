@@ -1,0 +1,12 @@
+{
+  "description": "Personal portfolio website of Kamani Vijay.",
+  "domain": "vijay.is-a.dev",
+  "subdomain": "vijay",
+  "owner": {
+    "repo": "https://github.com/kommala50-web/vijay",
+    "email": "kommala50@gmail.com"
+  },
+  "record": {
+    "CNAME": "kommala50-web.github.io"
+  }
+}
