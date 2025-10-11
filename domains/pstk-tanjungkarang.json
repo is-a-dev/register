@@ -1,0 +1,9 @@
+{
+  "description": "Business site for PSTK Tanjung Karang (3D printing & printing service)",
+  "repo": "sousobu/pstk-tanjungkarang",
+  "owner": {
+    "username": "sousobu"
+  },
+  "target": "sousobu.github.io",
+  "type": "CNAME"
+}
