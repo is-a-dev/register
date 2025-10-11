@@ -1,0 +1,12 @@
+{
+  "description": "Redirect domain for Linkvertise gate",
+  "domain": "is-a.dev",
+  "subdomain": "dcaptainplays",
+  "owner": {
+    "email": "kasiahgaguka@gmail.com"
+  },
+  "record": {
+    "type": "CNAME",
+    "value": "billowing-wave-75de.josephcasasolareal.workers.dev"
+  }
+}
