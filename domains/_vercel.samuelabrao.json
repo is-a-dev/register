@@ -4,6 +4,6 @@
     "email": "abrao.sam.2006@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=samuelabrao.is-a.dev,2b99dab73caeabde71e5"
   }
 }
