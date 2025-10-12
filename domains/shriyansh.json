@@ -4,6 +4,7 @@
     "email": "shriyansh707@gmail.com"
   },
   "records": {
-    "URL": "https://notshriyansh.github.io/"
-  }
+    "CNAME": "https://notshriyansh.github.io/"
+  },
+  "proxied": true
 }
