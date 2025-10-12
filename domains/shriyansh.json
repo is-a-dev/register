@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "notshriyansh",
-    "email": "shriyansh707@gmail.com"
-  },
-  "records": {
-    "CNAME": "notshriyansh.github.io"
-  },
-  "proxied": true
+    "owner": {
+        "username": "notshriyansh",
+        "email": "shriyansh707@gmail.com"
+    },
+    "records": {
+        "CNAME": "notshriyansh.github.io"
+    },
+    "proxied": true
 }
