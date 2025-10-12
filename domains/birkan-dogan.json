@@ -1,0 +1,11 @@
+{
+  "description": "Birkan Dogan",
+  "domain": "is-a.dev",
+  "subdomain": "birkan-dogan",
+  "owner": {
+    "email": "birkandogandev@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
