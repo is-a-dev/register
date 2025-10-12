@@ -1,0 +1,7 @@
+{
+  "owner": { "username": "YOUR_GITHUB_USERNAME" },
+  "records": {
+    "CNAME": "YOUR-SITE-NAME.netlify.app"
+  },
+  "proxied": true
+}
