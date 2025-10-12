@@ -4,8 +4,7 @@
     "email": "eldrinjohnson230@gmail.com"
   },
   "records": {
-    "A": "216.198.79.1",
-    "TXT": "vc-domain-verify=eldrin.is-a.dev,0941c8636eed92583309"
+    "CNAME": "https://eldrin23.vercel.app/"
   },
   "proxied": true
 }
