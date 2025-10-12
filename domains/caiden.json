@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "caiden.onrender.com"
-  },
-  "services": {
-    "discord": "dh=9edde4bc2a73469cb8653bf05ae22226397bc77a"
   }
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "samir-khanal-portfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=samirkhanal.is-a.dev,ea1c15390e801aa3ea34"
   }
 }

@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "akibsaleh.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=akib.is-a.dev,3605c2dfdaf80295f8b3"
   }
 }

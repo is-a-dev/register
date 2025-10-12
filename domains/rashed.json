@@ -5,8 +5,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=rashed.is-a.dev,b900d35114e0f3394b8c"
   }
 }

@@ -4,9 +4,6 @@
     "discord": "1252631745514180790"
   },
   "records": {
-    "CNAME": "letum.pages.dev"
-  },
-  "services": {
-    "discord": "dh=d49386149c842861e763ac8bf5ce74c93414ce5a"
+    "NS": ["rosalie.ns.cloudflare.com", "rustam.ns.cloudflare.com"]
   }
 }

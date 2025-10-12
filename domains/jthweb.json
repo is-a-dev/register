@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/jthweb/jthweb.github.io",
+  "owner": {
+    "username": "jthweb",
+    "email": "jthweb@duck.com"
+  },
+  "records": {
+    "CNAME": "jthweb.github.io"
+  }
+}

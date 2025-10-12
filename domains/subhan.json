@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "muhammad-subhan.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=subhan.is-a.dev,1996a182add3a767436b"
   }
 }

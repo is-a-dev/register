@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "kawsardev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=kawsar.is-a.dev,e77e8c258bee5d9213b7"
   }
 }

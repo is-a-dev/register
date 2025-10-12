@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "sohagj.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=sohag.is-a.dev,905a0fff3e8fdda0052e"
   }
 }

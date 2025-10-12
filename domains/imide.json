@@ -6,8 +6,5 @@
   "records": {
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  },
-  "services": {
-    "discord": "dh=5bac029dd3873cf20dba45eaec03433d5afe5608"
   }
 }

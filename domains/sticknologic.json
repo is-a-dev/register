@@ -7,6 +7,12 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "NS": ["ns1.heliohost.org", "ns2.heliohost.org"]
+    "A": ["212.132.120.14"],
+    "MX": [
+      "mx1.forwardemail.net", "mx2.forwardemail.net"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.mailjet.com include:spf.forwardemail.net ~all", "forward-email=MGZmZDVhMmE4Y2U0YmU3Ni1lNWE4MjcwNDk1YzE3Mzg5M2IwOGJhMGJjNjE3NzM2YjZiNjRmNWJkOGQ0YjczYzdhYWExN2JlOTQxMzZkOGY2"
+    ]
   }
 }

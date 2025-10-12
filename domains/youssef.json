@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "youssef-portfolio-sigma-youssefdevpros-projects.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=youssef.is-a.dev,8a21ff17b71b3518be3c"
   }
 }

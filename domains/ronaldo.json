@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "vite-react-ronaldos-projects-c3f1d8be.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ronaldo.is-a.dev,bba2427440502a716d1c"
   }
 }

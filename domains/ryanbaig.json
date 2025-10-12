@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "ryanthedev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ryanbaig.is-a.dev,6611c040f39e1689070b"
   }
 }
