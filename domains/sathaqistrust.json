@@ -1,0 +1,10 @@
+{
+  "description": "Official site for SathaQis Trust – a charitable non-profit organization.",
+  "repo": "https://github.com/ajmafabu/sathaqistrust",
+  "owner": {
+    "username": "ajmafabu"
+  },
+  "record": {
+    "CNAME": "ajmafabu.github.io"
+  }
+}
