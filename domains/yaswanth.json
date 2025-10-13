@@ -1,12 +1,9 @@
 {
-  "description": "Portfolio website",
-  "repo": "https://github.com/Yaswanth-s/Yaswanth.chandana.github.io",
-  "owner": {
-    "username": "Yaswanth-s",
-    "email": "yaswanth.simha666@gmail.com"
-  },
-  "record": {
-    "CNAME": "Yaswanth.chandana.github.io"
-  }
+    "owner": {
+        "username": "https://github.com/Yaswanth-s",
+        "email": "[yaswanth.simha666@gmail.com]"
+    },
+    "records": {
+        "CNAME": "Yaswanth.github.io"
+    }
 }
-
