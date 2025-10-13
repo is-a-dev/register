@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "github": "PHXN7XM" 
+  },
+  "records": [
+    {
+      "type": "A",
+      "record": "167.172.113.146",
+      "proxied": true
+    }
+  ]
+}
