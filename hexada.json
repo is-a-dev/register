@@ -1,0 +1,15 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "hexada",
+
+  "owner": {
+    "username": "brynts",
+    "email": "bryananta@icloud.com"
+  },
+
+  "records": {
+    "CNAME": "dummy-record-for-cloudflare.com"
+  },
+
+  "proxied": false
+}
