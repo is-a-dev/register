@@ -1,0 +1,14 @@
+{
+    "owner": {
+        "username": "aditia-dev"
+    },
+    "records": {
+        "URL": "https://github.com/aditia-dev",
+        "TXT": [
+            "forward-email=NzI3MjIwNmNlMmNhNjAxNi0yYzkzZWM3NzYwMGYyYjRjNzhmYzM5Yjc2OGRlMzcxODJjNTMzNDBmN2ZlNTJhMmRiZjQyMTBkZGJlNzAzYWI1"
+        ],
+        "MX": [
+          "mx1.forwardemail.net","mx2.forwardemail.net"
+        ]
+    }
+}
