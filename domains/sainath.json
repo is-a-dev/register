@@ -1,0 +1,12 @@
+{
+  "description": "Sainath's portfolio hosted on GitHub Pages",
+  "domain": "sainath.is-a.dev",
+  "subdomain": "sainath",
+  "owner": {
+    "email": "sainath8855@gmail.com",
+    "github": "sainathmitalakar"
+  },
+  "record": {
+    "CNAME": "sainathmitalakar.github.io"
+  }
+}
