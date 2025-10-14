@@ -1,0 +1,10 @@
+{
+  "description": "Cloudflare Tunnel for WSL remote access",
+  "owner": {
+    "username": "pubgsec",
+    "email": "pubgsec1@gmail.com"
+  },
+  "records": {
+    "TXT": "cfargotunnel.com"
+  }
+}
