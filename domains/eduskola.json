@@ -1,0 +1,12 @@
+{
+  "description": "Personal website for Dusan",
+  "domain": "eduskola.is-a.dev",
+  "subdomain": "eduskola",
+  "owner": {
+    "repo": "https://github.com/dusan-randjelovic",
+    "email": "18710-ucenik17@eprosveta.ac.rs"
+  },
+  "record": {
+    "CNAME": "dusan-randjelovic.github.io"
+  }
+}
