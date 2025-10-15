@@ -4,6 +4,6 @@
         "email": "bmyron.reyes@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=myron.is-a.dev,bc56889e8edbcdee3449"
+        "A": ["216.198.79.1"]
     }
 }
