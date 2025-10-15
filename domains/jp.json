@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "jepeh"
-  },
-  "records": {
-    "A": ["dev-jp.netlify.app"]
-  }
+    "owner": {
+        "username": "jepeh",
+        "email": "ganzanjepeh01@gmail.com"
+    },
+    "records": {
+        "A": ["75.2.60.5"]
+    }
 }
