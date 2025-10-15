@@ -1,8 +1,12 @@
 {
-    "owner": {
-        "username": "mdwisu"
-    },
-    "records": {
-        "CNAME": "mdwisu.com"
-    }
+  "owner": {
+    "username": "mdwisu"
+  },
+  "records": {
+    "TXT": [
+      "_vercel=vc-domain-verify=mdwisu.is-a.dev,bf198376796ed111ef61"
+    ]
+  }
 }
+
+
