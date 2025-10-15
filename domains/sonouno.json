@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "AhmadSunono"
+        "username": "AhmadSunono",
+        "email": "asonouno@gmail.com"
     },
     "records": {
-        "CNAME": "sonouno.vercel.app"
+        "CNAME": "cname.vercel-dns.com"
     }
 }
