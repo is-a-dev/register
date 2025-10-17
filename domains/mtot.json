@@ -5,6 +5,11 @@
         "email": "oroe28@punahou.edu"
     },
     "records": {
-        "CNAME": "9f23b91867153dd0.vercel-dns-017.com."
+        "URL": "https://www.mtot.is-a.dev"
     }
+  "subdomains": {
+    "www": {
+      "CNAME": "cname.vercel-dns.com"
+    }
+  }
 }
