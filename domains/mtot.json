@@ -4,6 +4,6 @@
         "email": "oroe28@punahou.edu"
     },
     "records": {
-        "TXT": "vc-domain-verify=mtot.is-a.dev,700daefdee5d1fb47084"
+        "TXT": "cname.vercel-dns.com"
     }
 }
