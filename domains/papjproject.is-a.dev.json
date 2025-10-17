@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "thanikornpha",
+    "email": "thanikorn.pha@spumail.net"
+  },
+  "record": {
+    "CNAME": "https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FLq-T9LIdO6YeDWAyCXAFtlUe6TnNNK9e4xuS8YVJQT8%3D"
+  }
+}
