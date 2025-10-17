@@ -1,15 +1,9 @@
 {
-  "  description": "The Mock Trial Online Trainer",
     "owner": {
         "username": "oroe0",
         "email": "oroe28@punahou.edu"
     },
     "records": {
-        "URL": "https://www.mtot.is-a.dev"
+        "TXT": "vc-domain-verify=mtot.is-a.dev,700daefdee5d1fb47084"
     }
-  "subdomains": {
-    "www": {
-      "CNAME": "cname.vercel-dns.com"
-    }
-  }
 }
