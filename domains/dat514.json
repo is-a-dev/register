@@ -1,10 +1,10 @@
-
 {
   "owner": {
     "username": "dat514",
     "email": "binbi731@gmail.com"
   },
   "records": {
-    "CNAME": "dat514.pages.dev"
-  }
+    "CNAME": "https://dat514-portfolio.vercel.app"
+  },
+  "proxied": true
 }
