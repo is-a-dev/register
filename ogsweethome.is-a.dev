@@ -1,0 +1,10 @@
+{
+  "description": "Home Assistant for Gift",
+  "subdomain": "ogsweethome",
+  "owner": {
+    "email": "sarawut452275@email.com"
+  },
+  "record": {
+    "A": ["49.228.33.103"]
+  }
+}
