@@ -4,6 +4,15 @@
     "email": "techworldhqofficial@gmail.com"
   },
   "records": {
-    "A": ["151.106.96.142"]
+    "A": ["151.106.96.142"],
+    "MX": [
+      { "priority": 10, "target": "mx1.hostinger.com" },
+      { "priority": 20, "target": "mx2.hostinger.com" }
+    ],
+    "TXT": [
+      "v=spf1 include:_spf.hostinger.com ~all",
+      "v=DMARC1; p=none; rua=mailto:postmaster@techworldhq.is-a.dev",
+      "hostingermail1._domainkey.techworldhq.is-a.dev. v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2SMS/wxYYanewCZsreC1GYeqoTkvYifRRxHVF"
+    ]
   }
 }
