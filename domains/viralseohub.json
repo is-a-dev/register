@@ -1,0 +1,10 @@
+{
+  "description": "Viral SEO Hub - free SEO tools for creators",
+  "subdomain": "viralseohub",
+  "owner": {
+    "email": "alishan8543402@gmail.com"
+  },
+  "record": {
+    "CNAME": "viral-seo-hub.vercel.app"
+  }
+}
