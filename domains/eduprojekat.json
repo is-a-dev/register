@@ -4,9 +4,15 @@
   "subdomain": "eduprojekat",
   "owner": {
     "repo": "https://github.com/dusan-randjelovic",
-    "email": "18710-ucenik17@eprosveta.ac.rs"
+    "email": "18710-ucenik17@eprosveta.ac.rs",
+    "username": "dusan-randjelovic"
   },
-  "record": {
-    "CNAME": "dusan-randjelovic.github.io"
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ]
   }
 }
