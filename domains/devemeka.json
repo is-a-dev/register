@@ -1,0 +1,11 @@
+{
+  "description": "Ignite backend server",
+  "domain": "is-a.dev",
+  "subdomain": "ignite",
+  "owner": {
+    "email": "emekadefirst@gmail.com"
+  },
+  "record": {
+    "A": ["31.97.114.79"]
+  }
+}
