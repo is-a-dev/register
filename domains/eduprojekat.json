@@ -1,0 +1,18 @@
+{
+  "description": "Personal website for Dusan",
+  "domain": "eduprojekat.is-a.dev",
+  "subdomain": "eduprojekat",
+  "owner": {
+    "repo": "https://github.com/dusan-randjelovic",
+    "email": "18710-ucenik17@eprosveta.ac.rs",
+    "username": "dusan-randjelovic"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ]
+  }
+}
