@@ -4,9 +4,9 @@
   "subdomain": "sainath",
   "owner": {
     "email": "sainath8855@gmail.com",
-    "github": "sainathmitalakar"
+    "username": "sainathmitalakar"
   },
-  "record": {
+  "records": {
     "CNAME": "sainathmitalakar.github.io"
   }
 }
