@@ -1,0 +1,13 @@
+{
+  "description": "Personal portfolio and projects for Duresa Guye",
+  "domain": "is-a.dev",
+  "subdomain": "duresa",
+  "owner": {
+    "email": "dureguye2@gmail.com"
+  },
+  "record": {
+  "CNAME": "cname.vercel-dns.com"
+
+"
+  }
+}
