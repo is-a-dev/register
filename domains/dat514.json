@@ -4,6 +4,6 @@
         "email": "binbi731@gmail.com"
     },
     "records": {
-        "CNAME": "dat514-portfolio.vercel.app"
+        "A": ["216.198.79.1"]
     }
 }
