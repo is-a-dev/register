@@ -1,0 +1,11 @@
+{
+  "subdomain": "darshanjain",
+  "repo": "https://github.com/ddjain/darshanjain-is-dev",
+  "owner": {
+    "email": "nnd.darshan@gmail.com"
+  },
+  "records": {
+    "CNAME": "ddjain.github.io",
+    "TXT": "c6611d28487ae8a8c90f7eaa076a69"
+  }
+}
