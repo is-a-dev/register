@@ -1,0 +1,12 @@
+{
+  "description": "A math training web app",
+  "domain": "math-training.is-a.dev",
+  "subdomain": "math-training",
+  "owner": {
+    "repo": "https://github.com/SSS-S-S/math_training",
+    "email": "chenchinmin049921@gmail.com"
+  },
+  "record": {
+    "CNAME": "SSS-S-S.github.io"
+  }
+}
