@@ -1,0 +1,11 @@
+{
+  "description": "Pandu Ranga — Portfolio: AWS DevOps Engineer, Trainer, Freelancer, and Blogger",
+  "domain": "panduclouddev.is-a.dev",
+  "subdomain": "panduclouddev",
+  "owner": {
+    "email": "vuligittipandu@gmail.com"
+  },
+  "record": {
+    "CNAME": "pandurangaswamy-github-io.vercel.app"
+  }
+}
