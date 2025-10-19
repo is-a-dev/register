@@ -1,0 +1,10 @@
+{
+  "description": "Han Chiang St John Ambulance official site",
+  "owner": {
+    "repo": "https://sites.google.com/view/hchs-sj",
+    "email": "sxydanang@gmail.com"
+  },
+  "record": {
+    "CNAME": "ghs.googlehosted.com"
+  }
+}
