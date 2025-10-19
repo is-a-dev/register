@@ -9,9 +9,6 @@
       { "priority": 10, "target": "mx1.hostinger.com" },
       { "priority": 20, "target": "mx2.hostinger.com" }
     ],
-    "CNAME": {
-      "mail": "webmail.hostinger.com"
-    },
     "TXT": [
       "v=spf1 include:_spf.hostinger.com ~all",
       "v=DMARC1; p=none; rua=mailto:postmaster@techworldhq.is-a.dev",
