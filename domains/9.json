@@ -1,10 +1,10 @@
 {
   "owner": {
     "username": "OiCkilL"
+    "email": "oickill@ghotmail.com"
   },
   "records": {
-    "A": [
-      "104.18.5.103"
-    ]
-  }
+    "A": ["104.18.5.103"],
+  },
+  "NS": ["matias.ns.cloudflare.com", "yolanda.ns.cloudflare.com"]
 }
