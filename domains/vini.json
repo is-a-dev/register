@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "ThisPythonJS",
+        "email": "thispythonjs@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"],
+        "TXT": "vc-domain-verify=vini.is-a.dev,25ac90d91fe7c07d69e9"
+    }
+}
