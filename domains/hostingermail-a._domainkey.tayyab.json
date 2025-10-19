@@ -4,8 +4,6 @@
     "email": "techworldhqofficial@gmail.com"
   },
   "records": {
-    "CNAME": {
-      "hostingermail-a._domainkey": "hostingermail-a.dkim.mail.hostinger.com."
-    }
+    "CNAME": "hostingermail-a.dkim.mail.hostinger.com."
   }
 }
