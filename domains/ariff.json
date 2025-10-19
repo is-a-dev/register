@@ -1,0 +1,53 @@
+{
+  "owner": {
+    "username": "ariff",
+    "email": "ariff@example.com"
+  },
+  "records": {
+    "A": ["192.0.2.1", "198.51.100.1"],
+    "AAAA": ["2001:db8::1", "2001:db8::2"],
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+      { "flags": 0, "tag": "issuewild", "value": "comodoca.com" }
+    ],
+    "CNAME": "ariff.example.com",
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "2BB183AF5F22588179A53B0A98631FAD1A292118"
+      }
+    ],
+    "MX": [
+      { "target": "mx1.mail.example.com", "priority": 10 },
+      { "target": "mx2.mail.example.com", "priority": 20 }
+    ],
+    "NS": ["ns1.example.com", "ns2.example.com"],
+    "SRV": [
+      {
+        "priority": 10,
+        "weight": 5,
+        "port": 443,
+        "target": "srv.example.com"
+      }
+    ],
+    "TLSA": [
+      {
+        "usage": 1,
+        "selector": 1,
+        "matching_type": 1,
+        "certificate": "0A3D7A56686E972F93E1EE6E88"
+      }
+    ],
+    "TXT": ["v=spf1 include:mail.example.com ~all", "google-site-verification=1234567890abcdef"],
+    "URL": "https://ariff.example.com"
+  },
+  "proxied": true,
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/ariff"
+    },
+    "redirect_paths": true
+  }
+}
