@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "medinafdzz",
+    "email": "suso121163@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "TXT": {
+      "_vercel": "vc-domain-verify=medinafdzz.is-a.dev,62edb21728801a36ff04"
+    }
+  },
+  "proxied": false
+}
