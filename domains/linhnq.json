@@ -1,0 +1,13 @@
+{
+  "description": "Personal site for Cam Lu",
+  "domain": "is-a.dev",
+  "subdomain": "camlu",
+  "owner": {
+    "github": "linhnql",
+    "email": "nqlinh2k1@gmail.com"
+  },
+  "records": {
+    "CNAME": "linhnql.github.io"
+  },
+  "proxied": false
+}
