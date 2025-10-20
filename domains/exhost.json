@@ -1,0 +1,11 @@
+{
+  "description": "Cloudflare-protected WebAdmin and game hosting infrastructure for ExHost",
+  "domain": "is-a.dev",
+  "subdomain": "exhost",
+  "owner": {
+    "email": "info@exhost.hu"
+  },
+  "record": {
+    "A": ["146.59.72.76", "95.168.92.124"]
+  }
+}
