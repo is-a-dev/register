@@ -1,0 +1,10 @@
+{
+  "subdomain": "khasantokhirov",
+  "owner": {
+    "username": "FrostOnFire",
+    "email": "khasan.tokhirov@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
