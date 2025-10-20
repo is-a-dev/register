@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "lizhenmiao"
+  },
+  "records": {
+    "NS": ["georgia.ns.cloudflare.com", "yevgen.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
