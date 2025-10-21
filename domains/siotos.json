@@ -1,11 +1,9 @@
 {
-  "description": "Home Assistant & Shinobi via Cloudflare Tunnel",
-  "subdomain": "siotos",
   "owner": {
-    "repo": "https://github.com/<tzaksparow>",
-    "email": "<tzaksparow@gmail.com>"
+    "username": "tzaksparow",
+    "email": "tzaksparow@gmail.com"
   },
   "record": {
-    "CNAME": "trycloudflare.com"
+    "CNAME": "tzaksparow.github.io"
   }
 }
