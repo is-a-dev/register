@@ -1,6 +1,10 @@
 {
   "description": "pchelp dev domain",
   "subdomain": "pchelp",
+  "owner": {
+    "username": "poweran",
+    "email": "artur.yudin.88@gmail.com"
+  },
   "records": {
     "CNAME": ["pchelp.artur-yudin-88.workers.dev"],
     "TXT": [
