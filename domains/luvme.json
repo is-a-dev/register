@@ -1,0 +1,13 @@
+{
+  "description": "LuvMe Official Website",
+  "domain": "is-a.dev",
+  "subdomain": "luvme",
+  "owner": {
+    "username": "jun2501",
+    "email": "arrhjun2501@gmail.com"
+  },
+  "record": {
+    "CNAME": "luvmeofficial.pages.dev"
+  }
+}
+
