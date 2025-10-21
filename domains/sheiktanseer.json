@@ -1,8 +1,8 @@
 {
-  "owner":{
+  "owner": {
     "username": "sheiktanseer"
   },
-  "record":{
-    "CNAME":"sheiktanseer.github.io"
+  "records": {
+    "CNAME": "sheiktanseer.github.io"
   }
 }
