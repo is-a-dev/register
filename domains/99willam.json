@@ -3,7 +3,8 @@
     "username": "MarrcusW",
     "email": "marrcusxyz@gmail.com"
   },
-  "records": {
-    "URL": "https://marrqs.vercel.app/"
+  "record": {
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=marrqs.is-a.dev,eff0fd3bb24c652b2e92"]
   }
 }
