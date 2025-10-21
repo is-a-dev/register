@@ -1,8 +1,14 @@
 {
-    "owner": {
-        "username": "jamestoofresh"
-    },
-    "records": {
-        "RECORDTYPE": "AAAA"
-    }
+  "owner": {
+    "username": "jamestoofresh",
+    "email": "jamestoofresh@gmail.com"
+  },
+  "records": {
+    "CNAME": "jamestoofresh.github.io."
+  },
+  "meta": {
+    "project": "GitHub Pages - Personal Site",
+    "updated": "2025-10-20",
+    "notes": "Links custom domain to jamestoofresh.github.io"
+  }
 }
