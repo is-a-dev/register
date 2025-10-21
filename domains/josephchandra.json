@@ -4,7 +4,7 @@
     "email": "jsph529@proton.me"
   },
   "records": {
-    "A": "43.163.118.95"
+    "A": ["43.163.118.95"]
   },
   "proxied": true
 }
