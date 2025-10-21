@@ -3,7 +3,10 @@
     "username": "FrostOnFire",
     "email": "khasan.tokhirov@gmail.com"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": {
+      "_vercel": "vc-domain-verify=khasantokhirov.is-a.dev,d212c7f3dc85c217be1d"
+    }
   }
 }
