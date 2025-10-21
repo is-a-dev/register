@@ -1,13 +1,11 @@
 {
   "owner": {
     "username": "DylanN25",
-    "email": "dylan.naranjo@hotmail.com"
+    "email": "tuemail@ejemplo.com"
   },
   "records": {
     "A": ["35.219.200.1"],
-    "TXT": "fah-claim=002-02-76e2be5c-c376-4ab8-ab19-a5e608ffefa7",
-    "CNAME": "_acme-challenge_37zms4qlx63nraqa.woodmaintenance.is-a.dev. 346aaf22-7fc1-4b73-9605-074fd6126edc.11.authorize.certificatemanager.goog."
+    "TXT": "fah-claim=002-02-76e2be5c-c376-4ab8-ab19-a5e608ffefa7"
   },
   "proxied": false
 }
-
