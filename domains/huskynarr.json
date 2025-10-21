@@ -8,11 +8,5 @@
   "records": {
     "CNAME": "huskynarr.github.io"
   },
-  "proxied": false,
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/huskynarr"
-    },
-    "redirect_paths": true
-  }
+  "proxied": false
 }
