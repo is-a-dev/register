@@ -1,0 +1,11 @@
+{
+  "description": "My Cloudflare Tunnel for personal project",
+  "subdomain": "serenaai",
+  "owner": {
+    "repo": "https://github.com/cqyestateyuki-prog/is-a.dev",
+    "email": "cqyestateyuki@gmail.com"
+  },
+  "record": {
+    "CNAME": "example.trycloudflare.com"
+  }
+}
