@@ -1,0 +1,8 @@
+{
+  "description": "pchelp dev domain",
+  "subdomain": "pchelp",
+  "records": {
+    "CNAME": ["pchelp.artur-yudin-88.workers.dev"],
+    "TXT": ["zoho-verification=zb65631521.zmverify.zoho.com"]
+  }
+}
