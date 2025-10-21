@@ -1,0 +1,16 @@
+{
+  "description": "pchelp dev domain",
+  "subdomain": "pchelp",
+  "records": {
+    "CNAME": ["pchelp.artur-yudin-88.workers.dev"],
+    "TXT": [
+      "zoho-verification=zb65631521.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
+    ],
+    "MX": [
+      { "priority": 10, "value": "mx.zoho.com" },
+      { "priority": 20, "value": "mx2.zoho.com" },
+      { "priority": 50, "value": "mx3.zoho.com" }
+    ]
+  }
+}
