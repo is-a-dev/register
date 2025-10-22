@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Arxsher",
-        "email": "nzakaria644@gmail.com"
-    },
-    "record": {
-        "CNAME": "arxsher.github.io"
-    }
+  "owner": {
+    "username": "Arxsher",
+    "email": "nzakaria644@gmail.com" 
+  },
+  "records": {
+    "A": [
+      "192.0.2.0" 
+    ]
+  }
 }
