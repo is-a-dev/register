@@ -1,12 +1,13 @@
 {
+  "subdomain": "khasantokhirov",
   "owner": {
     "username": "FrostOnFire",
     "email": "khasan.tokhirov@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": {
-      "_vercel": "vc-domain-verify=khasantokhirov.is-a.dev,d212c7f3dc85c217be1d"
-    }
+    "A": ["76.76.21.21"],
+    "TXT": [
+      "vc-domain-verify=khasantokhirov.is-a.dev,d212c7f3dc85c217be1d"
+    ]
   }
 }
