@@ -1,8 +1,10 @@
 {
   "owner": {
     "username": "DXRdev"
+    "discord": "335635478684499970"
   },
   "records": {
-    "CNAME": "dxrdev.github.io"
+    "CNAME": "dxrdev.github.io",
+    "TXT": "_github-pages-challenge-DXRdev.ela.is-a.dev 87b94f77e04966ee697d5e3eee5669"
   }
 }
