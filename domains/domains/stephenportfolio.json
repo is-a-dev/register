@@ -1,0 +1,10 @@
+{
+  "description": "My personal portfolio site",
+  "owner": {
+    "username": "DeMaestro5",
+    "email":"osstephen70@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-client-puce-xi.vercel.app"
+  }
+}
