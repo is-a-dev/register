@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "miqueiasbellus-oss",
+    "email": "[email protected]"
+  },
+  "records": {
+    "CNAME": "objectstorage.sa-saopaulo-1.oraclecloud.com"
+  },
+  "proxied": false
+}
+
