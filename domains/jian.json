@@ -1,0 +1,10 @@
+{
+  "description": "Jian's personal website",
+  "owner": {
+    "username": "JuoCode",
+    "email": "gjdrift@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
