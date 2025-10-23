@@ -1,10 +1,9 @@
-{
-  "owner": {
+{ 
+  "owner": { 
     "username": "Arxsher",
     "email": "nzakaria644@gmail.com"
   },
-  "domain": "arsher.is-a.dev",
-  "record": {
+  "records": { 
     "CNAME": "muddy-cloud-e5d6.nzakaria644.workers.dev"
   }
 }
