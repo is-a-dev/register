@@ -1,0 +1,11 @@
+{
+  "description": "Personal Web , accessible via Cloudflare tunnel (still learning)",
+  "owner": {
+    "username": "IhsanFikri",
+    "email": "ihsanfikri2@gmail.com"
+  },
+  "record": {
+    "CNAME": "eb88b7ca-abc6-446e-9407-cf8d964f06c2.cfargotunnel.com"
+  },
+  "proxied": true
+}
