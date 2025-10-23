@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "LeonardoFeriato",
+    "email": "lmferiato@gmail.com",
+    "discord": "feriato"
+  },
+  "records": {
+    "A": "216.198.79.1",
+    "TXT": ["_vercel", "vc-domain-verify=feriato.is-a.dev,ee441a4a5d04b196ae5b"],
+    "CNAME": "feriato.vercel.app"
+  },
+  "proxied": true
+}
