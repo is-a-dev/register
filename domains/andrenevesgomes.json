@@ -1,0 +1,11 @@
+{
+  "description": "Personal CV and portfolio website of André Gomes",
+  "subdomain": "andrenevesgomes",
+  "owner": {
+    "email": "andreneves.gomes@outlook.com",
+    "github": "andrenevesgomes"
+  },
+  "record": {
+    "CNAME": "andrenevesgomes.github.io"
+  }
+}
