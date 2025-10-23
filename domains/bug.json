@@ -4,6 +4,5 @@
     },
     "records": {
         "CNAME": "bug-is-a-dev.pages.dev"
-    },
-    "proxied": true
+    }
 }
