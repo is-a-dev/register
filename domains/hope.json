@@ -6,14 +6,5 @@
   },
   "records": {
     "CNAME": "sudohopex.github.io"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/SudoHopeX",
-      "/linkedin": "https://linkedin.com/in/dkrishna0124",
-      "/discord": "https://discord.com/users/1239239011214688437",
-      "/yt": "https://youtube.com/@sudohopex"
-    },
-    "redirect_paths": true
   }
 }
