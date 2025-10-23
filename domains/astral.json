@@ -1,11 +1,9 @@
 {
-  "description": "This is a domain for the TypingTest I am making with my friend",
-  "repo": "https://github.com/Astral-Network/Type-Master",
-  "owner": {
-    "username": "AnirudhKarthikofficial",
-    "email": "ak.no@outlook.com"
-  },
-  "records": {
-    "TXT": "google-site-verification=7K7YKjRbVAXcu_kHoXtd6Rey2w0_6oo4qQFigJ1LvIM"
-  }
+    "owner": {
+        "username": "AnirudhKarthikfficial ",
+        "email": "ak.no@outlook.com"
+    },
+    "records": {
+        "CNAME": "type-master-1wg.pages.dev/"
+    }
 }
