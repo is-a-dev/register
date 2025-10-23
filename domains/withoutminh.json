@@ -5,5 +5,5 @@
   "records": {
     "CNAME": "https://guns.lol/withoutminh"
   },
-  "proxied": false
+  "proxied": true
 }
