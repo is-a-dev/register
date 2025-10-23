@@ -1,10 +1,9 @@
 {
-  "description": "Jian's personal website",
   "owner": {
     "username": "JuoCode",
     "email": "gjdrift@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"]
+    "TXT": "vc-domain-verify=jian.is-a.dev,66aea51476cbb8f95c6d"
   }
 }
