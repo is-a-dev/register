@@ -1,0 +1,7 @@
+{
+  "name": "Amit Das",
+  "description": "Personal portfolio website hosted on cPanel",
+  "records": [
+    { "type": "A", "name": "@", "target": "135.181.217.49" }
+  ]
+}
