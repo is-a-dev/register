@@ -1,0 +1,16 @@
+{
+    "description": "Cloudflare Tunnel to SSH server on cakra HPC node. Maintained by Ray.",
+    "domain": "is-not-a.dev",
+    "subdomain": "ray-cakra",
+
+    "owner": {
+        "repo": "https://github.com/<fkt-fisika-um>",
+        "email": "<fkt.um.fisika@gmail.com>"
+    },
+
+    "record": {
+        "CNAME": "ae36f9bc-ad26-45c2-90ab-c6155cc00244.cfargotunnel.com"
+    },
+
+    "proxied": false
+}
