@@ -288,9 +288,12 @@ t("All files should have valid records", (t) => {
         });
 
         // Record type combinations validation
-        if (recordKeys.includes("CNAME") && !data.proxied) {
-            t.is(recordKeys.length, 1, `${file}: CNAME records cannot be combined with other records unless proxied`);
-            t.true(!recordKeys.includes("A") && !recordKeys.includes("AAAA"), `${file}: CNAME records cannot be combined with A or AAAA records`);
+        if (recordKeys.includes("CNAME")) {
+            if (!data.proxied) {
+                t.is(recordKeys.length, 1, `${file}: CNAME records cannot be combined with other records unless proxied`);
+            } else {
+                t.true(!recordKeys.includes("A") && !recordKeys.includes("AAAA"), `${file}: CNAME records cannot be combined with A or AAAA records`);
+            }
         }
         if (recordKeys.includes("NS")) {
             t.true(
