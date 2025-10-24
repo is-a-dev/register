@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "Aashish019"
+    "username": "Aashish019",
+    "email": "aashishanil321@gmail.com"
   },
   "records": {
-    "CNAME": "is-a-dev-docs.pages.dev"
+    "CNAME": "ashphotfolio.vercel.app"
   },
-  "proxied": true
 }
