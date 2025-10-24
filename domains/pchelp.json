@@ -6,7 +6,7 @@
     "email": "artur.yudin.88@gmail.com"
   },
   "records": {
-    "CNAME": ["pchelp.artur-yudin-88.workers.dev"],
+    "A": ["85.90.207.64"],
     "TXT": [
       "zoho-verification=zb65631521.zmverify.zoho.com",
       "v=spf1 include:zoho.com ~all"
