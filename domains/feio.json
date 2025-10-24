@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "federicoiosue"
+  },
+  "records": {
+    "NS": ["phil.ns.cloudflare.com", "zelda.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
