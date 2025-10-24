@@ -1,7 +1,5 @@
 {
   "description": "RydenX — personal developer portfolio hosted on Vercel",
-  "domain": "is-a.dev",
-  "subdomain": "rydenx",
   "owner": {
     "email": "rydenxgod@gmail.com",
     "github": "rydenxgod-bot"
