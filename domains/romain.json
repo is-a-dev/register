@@ -4,6 +4,7 @@
         "email": "romain.c@foxmail.com"
     },
     "records": {
-        "CNAME": "romainchen.github.io"
+        "CNAME": "romainchen.github.io",
+        "TXT": ["zoho-verification=zb73526407.zmverify.zoho.com"]
     }
 }
