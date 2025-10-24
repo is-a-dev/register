@@ -4,6 +4,6 @@
     "email": "gorgonfweman@outlook.com"
   },
   "records": {
-    "CNAME": "fweeaaaa1.github.io"
+    "NS": ["dns1.serv00.com", "dns2.serv00.com"]
   }
 }
