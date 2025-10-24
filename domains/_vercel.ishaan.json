@@ -1,9 +1,9 @@
 {
     "owner": {
-        "username": "your-github-username",
-        "email": "your-email-address@example.com"
+        "username": "ik04",
+        "email": "ishaankhurana321@gmail.com"
     },
     "records": {
-        "TXT": "insert-TXT-string-you-got-from-vercel-here"
+        "TXT": "vc-domain-verify=ishaan.is-a.dev,5fba645828869903b56d"
     }
 }
