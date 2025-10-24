@@ -6,8 +6,7 @@
   },
   "description": "This is my portfolio website.",
   "records": {
-    "A": ["216.198.79.1"],
-    "CNAME": "feriato.vercel.app"
+    "A": ["216.198.79.1"]
   },
   "proxied": true
 }
