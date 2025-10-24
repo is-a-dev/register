@@ -2,7 +2,7 @@
   "description": "RydenX — personal developer portfolio hosted on Vercel",
   "owner": {
     "email": "rydenxgod@gmail.com",
-    "github": "rydenxgod-bot"
+    "username": "rydenxgod-bot"
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
