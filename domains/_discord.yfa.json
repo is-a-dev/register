@@ -1,13 +1,11 @@
 {
   "owner": {
     "username": "YouFoundAlpha",
-    "email": "YouFoundAlpha@alpha.is-a.dev",
-    "Discord": "661121998830960651",
-    "GitHub": "YouFoundAlpha",
-    "GitLab": "YouFoundAlpha",
-    "Mastodon": "@YouFoundAlpha@mastodon.social"
+    "discord": "661121998830960651",
+    "gitlab": "YouFoundAlpha",
+    "mastodon": "@YouFoundAlpha@mastodon.social"
   },
-  "record": {
+  "records": {
     "TXT": "dh=b8044fd4f0628a706be5fd878fae96886bae23b7"
   }
 }

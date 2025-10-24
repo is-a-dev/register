@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "DevAndro-eg"
+  },
+  "records": {
+    "A": ["192.204.223.100"],
+    "MX": [
+      {
+        "target": "mail6.serv00.com",
+        "priority": 10
+      }
+    ]
+  }
+}

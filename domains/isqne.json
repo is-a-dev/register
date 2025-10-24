@@ -1,11 +1,9 @@
 {
-  "description": "The isqneeh Website :D | OBS: Repo is Private",
-  "repo": "https://github.com/Isqneeh/isqnechan",
   "owner": {
     "username": "Isqne",
     "email": "isqne@protonmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://isqnechan.vercel.app"
   }
 }

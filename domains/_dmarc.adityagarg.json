@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "AdityaGarg8",
+    "email": "gargaditya08@live.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=quarantine"
+  }
+}

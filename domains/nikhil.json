@@ -1,11 +1,9 @@
 {
-  "description": "Nikhil Singh Website",
-  "repo": "https://github.com/nikhils4/nikhils4.github.io",
   "owner": {
-    "username": "nikhils4",
-    "email": "nikhilsingh498@gmail.com"
+    "username": "Nikh7l",
+    "email": "nikhilselvaraj2@gmail.com"
   },
-  "record": {
-    "CNAME": "nikhils4.github.io"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

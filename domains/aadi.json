@@ -1,11 +1,9 @@
 {
-  "repo": "https://github.com/ringholder/ringholder.github.io",
   "owner": {
-    "username": "ringholder",
-    "email": "",
-    "discord": "ringholder"
+    "username": "adityadomle",
+    "email": "adityadomle14@gmail.com"
   },
-  "record": {
-    "CNAME": "ringholder.github.io"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

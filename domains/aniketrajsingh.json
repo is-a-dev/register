@@ -1,12 +1,10 @@
 {
-  "description": "The Domain is going to be used for my Portfolio",
-  "repo": "https://github.com/aniketrajsingh/aniketrajsingh.github.io",
   "owner": {
     "username": "aniketrajsingh",
     "email": "aniket@tfug-ghaziabad.tech",
     "twitter": "aniketrajsingh_"
   },
-  "record": {
+  "records": {
     "CNAME": "aniketrajsingh.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Github Page",
-  "repo": "https://github.com/Arizerr/Arizerr.github.io",
   "owner": {
     "username": "Arizerr",
     "email": "arisiraj738@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "arizerr.github.io"
   }
 }

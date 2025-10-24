@@ -1,17 +1,10 @@
 {
-  "description": "For my Personal Portfolio.",
-  "repo": "https://github.com/MatrixCoder0101/MatrixCoder0101.github.io",
   "owner": {
     "username": "MatrixCoder0101",
     "email": "tkgoutamm625@gmail.com"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
