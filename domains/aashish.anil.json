@@ -6,4 +6,5 @@
   "records": {
     "CNAME": "ashphotfolio.vercel.app"
   },
+  "proxied": true
 }
