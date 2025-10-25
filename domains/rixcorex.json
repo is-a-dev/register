@@ -1,0 +1,10 @@
+{
+  "description": "RixCoreX main domain from Termux",
+  "subdomain": "rixcorex",
+  "owner": {
+    "username": "officialrixcorex-png"
+  },
+  "record": {
+    "A": ["1.1.1.1"]
+  }
+}
