@@ -1,0 +1,14 @@
+{
+  "description": "Sarvarbek's Blog",
+  "subdomain": "sarvar",
+  "owner": {
+    "repo": "https://github.com/IlyosovSarvarbek",
+    "email": "youremail@example.com"
+  },
+  "record": {
+    "CNAME": [
+      { "name": "www", "value": "ghs.google.com" },
+      { "name": "v64erewknzmt", "value": "gv-o35qz64ta76vul.dv.googlehosted.com" }
+    ]
+  }
+}
