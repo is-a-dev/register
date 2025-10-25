@@ -1,9 +1,12 @@
 {
-  "description": "Kabiraj Pan - portfolio site hosted on Vercel (direct connection)",
+  "description": "Kabiraj's portfolio site",
+  "domain": "is-a.dev",
+  "subdomain": "kabirajpan",
   "owner": {
-    "username": "kabirajpan"
+    "username": "kabirajpan",
+    "email": "kabirajpan2@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"]
+    "CNAME": "portfolio-frontend-4g0.pages.dev"
   }
 }
