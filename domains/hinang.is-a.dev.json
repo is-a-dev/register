@@ -1,0 +1,11 @@
+{
+  "description": "Hinang backend API on Render",
+  "domain": "hinang.is-a.dev",
+  "subdomain": "hinang",
+  "records": {
+    "CNAME": "hinang-back.onrender.com"
+  },
+  "owner": {
+    "email": "edsharclee@gmail.com"
+  }
+}
