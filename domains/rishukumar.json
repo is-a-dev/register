@@ -1,1 +1,10 @@
-{"description": "Rishu Kumar - Web Developer Portfolio", "owner": {"username": "rishukumar", "email": "rishukumar.spam@gmail.com"}, "record": {"CNAME": "rishukumar.github.io"}}
+{
+  "description": "Rishu Kumar - Web Developer Portfolio",
+  "owner": {
+    "username": "rishukumar",
+    "email": "rishukumar.spam@gmail.com"
+  },
+  "records": {
+    "CNAME": "rishukumar.github.io"
+  }
+}
