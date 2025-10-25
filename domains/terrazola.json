@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "terrazola"
+    },
+    "preview": "https://nbscal.netlify.app/",
+    "records": {
+        "CNAME": "apex-loadbalancer.netlify.com"
+    }
+}
