@@ -1,11 +1,10 @@
 {
   "description": "Personal website hosted on Cloudflare Pages",
-  "domain": "is-a.dev",
-  "subdomain": "zaheer",
   "owner": {
+    "username": "zaheeraws",
     "email": "zaheer@fieztech.com"
   },
-  "record": {
+  "records": {
     "CNAME": "zaheeraws.com"
   }
 }
