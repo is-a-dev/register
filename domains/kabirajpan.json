@@ -1,12 +1,9 @@
 {
-  "description": "Kabiraj's portfolio site",
-  "domain": "is-a.dev",
-  "subdomain": "kabirajpan",
-  "owner": {
-    "username": "kabirajpan",
-    "email": "kabirajpan2@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfolio-frontend-4g0.pages.dev"
-  }
+    "owner": {
+        "username": "kabijpan",
+        "email": "kabirajpan2@gmail.com"
+    },
+    "record": {
+        "CNAME": "portfolio-frontend-4g0.pages.dev"
+    }
 }
