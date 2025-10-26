@@ -1,10 +1,10 @@
 {
-  "domain":"karthick",
-  "owner":{
-    "email":"karthicka293@gmail.com",
-    "username":"Karthick927"
+  "domain": "karthick.is-a.dev",
+  "owner": {
+    "email": "karthicka293@gmail.com",
+    "username": "Karthick927"
   },
-  "record":{
-    "CNAME":"karthick927.github.io"
+  "records": {
+    "CNAME": "karthick927.github.io"
   }
 }
