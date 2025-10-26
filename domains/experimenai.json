@@ -1,0 +1,11 @@
+{
+  "description": "staging experimenai",
+  "subdomain": "experimenai",
+  "owner": {
+    "repo": "https://github.com/gunawan92",
+    "email": "gunwp2@gmail.com"
+  },
+  "record": {
+    "A": ["157.20.37.228"]
+  }
+}
