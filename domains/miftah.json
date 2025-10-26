@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "miftah",
+    "email": "miftahganzz01@gmail.com"
+  },
+  "records": [
+    {
+      "type": "A",
+      "value": "216.198.79.1",
+      "proxied": false
+    },
+    {
+      "type": "TXT",
+      "name": "_vercel",
+      "value": "vc-domain-verify=miftah.is-a.dev,6af70edd91bc5c0742fe",
+      "proxied": false
+    }
+  ]
+}
