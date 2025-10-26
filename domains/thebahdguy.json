@@ -1,0 +1,11 @@
+{
+  "description": "Audiobookshelf running on my Raspberry Pi 5",
+  "domain": "is-a.dev",
+  "subdomain": "bookshelf",
+  "owner": {
+    "username": "thetobiguyy",
+    "email": "thebahdguy@protonmail.com"
+  },
+  "record": {}
+}
+
