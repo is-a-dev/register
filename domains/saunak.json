@@ -1,12 +1,10 @@
 {
-  "description": "my portfolio website",
-  "repo": "https://github.com/Saunakghosh10/dfolio.git",
   "owner": {
     "username": "Saunakghosh10",
     "email": "saunakghosh710@gmail.com",
     "discord": "695672697270829116"
   },
-  "record": {
+  "records": {
     "CNAME": "sgfolio-nu.vercel.app"
   }
 }

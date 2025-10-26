@@ -1,11 +1,9 @@
 {
-  "description": "Discord Bot Website",
-  "repo": "https://github.com/RiskyMH/RiskyBOT",
   "owner": {
     "username": "RiskyMH",
     "discord": "RiskyMH#0182"
   },
-  "record": {
+  "records": {
     "URL": "https://riskymh.github.io/RiskyBOT"
   }
 }

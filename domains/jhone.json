@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Jhon-E",
-        "email": "jhoneospino@gmail.com"
-    },
-    "record": {
-        "CNAME": "jhoneikerospino.vercel.app"
-    }
+  "owner": {
+    "username": "Jhon-E",
+    "email": "jhoneospino@gmail.com"
+  },
+  "records": {
+    "CNAME": "jhoneikerospino.vercel.app"
+  }
 }

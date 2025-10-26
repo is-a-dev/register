@@ -1,11 +1,9 @@
 {
-  "description": "Elanchezhiyan's personal developer website",
-  "repo": "https://github.com/Elanchezhiyan-P/Elanchezhiyan-P.git",
   "owner": {
     "username": "Elanchezhiyan-P",
     "email": "elanche97@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "elanchezhiyan-p.github.io"
   }
 }

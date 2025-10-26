@@ -3,7 +3,7 @@
     "username": "yz9551",
     "discord": "yz9551"
   },
-  "record": {
+  "records": {
     "TXT": [
       "v=DKIM1; h=sha256; k=rsa; ",
       "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkZrPwMQ7rlS6FhIaX5RgqWzKC1RdCB6GmxsdtKVbqGVzQX6WiwFXrgfQ3SqxlZXc1w+YFD7u2NFUahq+wgBnUos9ZwkmezRjq/toAEWuEV7ATtQDuWZNE6O9ab37I36rXT4pmJHZq5BGgXAY8ILKHQ6F1ZNWw7+nzCggeiGezTG8beMjnN3jy+PMafC5Q1cUZXYHme/F301Otj",

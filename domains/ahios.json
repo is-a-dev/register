@@ -3,11 +3,9 @@
     "username": "ahios",
     "email": "ahios.dev@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["76.76.21.21"],
     "TXT": "google-site-verification=vIUwZhHqcAiiHZW2nNaE21Lb0H1_FIEBHyYs6f3b0KA",
-    "MX": [
-      "SMTP.GOOGLE.COM"
-    ]
+    "MX": ["SMTP.GOOGLE.COM"]
   }
 }

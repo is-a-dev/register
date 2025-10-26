@@ -1,10 +1,9 @@
 {
-  "description": "vercel stuff for personal site",
   "owner": {
     "username": "saxophone-dev",
     "email": "itsarchit@keemail.me"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=saxophone.is-a.dev,e2dac8b9c5e42361fda8"]
+  "records": {
+    "TXT": "vc-domain-verify=saxophone.is-a.dev,e2dac8b9c5e42361fda8"
   }
 }

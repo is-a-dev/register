@@ -2,7 +2,7 @@
   "owner": {
     "username": "2nvrs"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=cnvrs.is-a.dev,759e0953091c88d99f57"]
+  "records": {
+    "TXT": "vc-domain-verify=cnvrs.is-a.dev,759e0953091c88d99f57"
   }
 }

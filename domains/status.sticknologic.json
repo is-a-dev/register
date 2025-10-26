@@ -1,0 +1,12 @@
+{
+    "description": "just a uptime status",
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "records": {
+    "CNAME": "statuspage.betteruptime.com"
+  }
+}

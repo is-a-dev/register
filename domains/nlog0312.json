@@ -1,11 +1,9 @@
 {
-  "description": "Profile card",
-  "repo": "https://github.com/nLog0312/nlog0312.github.io",
   "owner": {
     "username": "nLog0312",
     "email": "nlog.021203@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "nlog0312.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Veronica Camarzana Website",
-  "repo": "https://github.com/vcamarzana/web",
   "owner": {
     "username": "vcamarzana",
     "email": "veronicacamarzana@outlook.es"
   },
-  "record": {
+  "records": {
     "CNAME": "vcamarzana.github.io"
   }
 }

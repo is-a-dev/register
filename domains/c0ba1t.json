@@ -1,12 +1,9 @@
 {
-    "description": "hosting personal / portfolio website for myself!",
-    "repo": "https://github.com/0xC0ba1t/0xc0ba1t.github.io",
-    "owner": {
-        "username": "0xC0ba1t",
-        "email": "main0xc0ba1t@duck.com"
-    },
-    "record": {
-        "CNAME": "0xC0ba1t.github.io"
-    }
+  "owner": {
+    "username": "0xC0ba1t",
+    "email": "main0xc0ba1t@duck.com"
+  },
+  "records": {
+    "CNAME": "0xC0ba1t.github.io"
+  }
 }
-

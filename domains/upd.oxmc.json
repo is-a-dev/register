@@ -4,13 +4,8 @@
     "email": "oxmc7769.mail@gmail.com",
     "discord": "oxmc7769"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=contact:oxmc7769.mail@gmail.com"
   }

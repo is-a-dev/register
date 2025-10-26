@@ -1,11 +1,9 @@
 {
-  "description": "nothing much here...",
-  "repo": "https://github.com/Millosaurs/portfolio",
   "owner": {
     "username": "Millosaurs",
     "email": "sharanshrivatsav0@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://shrivatsav.vercel.app"
   }
 }

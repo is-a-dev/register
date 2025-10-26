@@ -5,7 +5,8 @@
     "email": "j6qt9x5sj@mozmail.com",
     "discord": "4ryz"
   },
-  "record": {
-    "NS": ["betty.ns.cloudflare.com", "cody.ns.cloudflare.com"]
+  "records": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

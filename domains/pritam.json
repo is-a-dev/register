@@ -1,11 +1,9 @@
 {
-  "description": "My Portfolio.",
-  "repo": "https://github.com/ImDarkShadow/ImDarkShadow",
   "owner": {
     "username": "ImDarkShadow",
     "email": "itspritam@proton.me"
   },
-  "record": {
-    "CNAME": "pritam-das.vercel.app"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

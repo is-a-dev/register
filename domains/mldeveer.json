@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio Website",
-  "repo": "https://github.com/existing-dev/mldeveer",
   "owner": {
     "username": "existing-dev",
     "email": "maamelankar.deveer@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "existing-dev.github.io"
   }
 }

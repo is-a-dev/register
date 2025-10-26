@@ -1,11 +1,9 @@
 {
-  "description": "Stanislav Temelkov Proffesional Portfolio",
-  "repo": "https://github.com/Temelkov/temelkov.github.io",
   "owner": {
     "username": "Temelkov",
     "email": "stanislav.temelkov@hotmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "temelkov.github.io"
   }
 }

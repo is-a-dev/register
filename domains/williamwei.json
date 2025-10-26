@@ -1,11 +1,10 @@
 {
   "description": "William Wei's Blog",
-  "repo": "https://github.com/WiIIiamWei",
   "owner": {
     "username": "WiIIiamWei",
     "email": "me@williamwei.top"
   },
-  "record": {
+  "records": {
     "CNAME": "willwell.netlify.app"
   }
 }

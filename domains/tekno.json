@@ -1,12 +1,10 @@
 {
-  "description": "Custom domain for my personal site",
-  "repo": "https://github.com/TeknoSenpai/teknosenpai.github.io",
   "owner": {
     "username": "TeknoSenpai",
     "email": "tekno@hiri.dev",
     "twitter": "TeknoSenpai"
   },
-  "record": {
+  "records": {
     "A": ["173.212.245.116"]
   }
 }

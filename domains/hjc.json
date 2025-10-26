@@ -1,11 +1,9 @@
 {
-  "description": "The repo is my personal blog,it will record the things about how to develop.I will make some tutorials as well.",
-  "repo": "https://github.com/hjc-code/hjc-code.github.io",
   "owner": {
     "username": "hjc-code",
     "email": "houjuncheng.me@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "hjc-code.github.io"
   },
   "proxied": true

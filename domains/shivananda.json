@@ -1,11 +1,9 @@
 {
-  "description": "My Portfolio Website",
-  "repo": "https://github.com/ssk090/portfolio-2024",
   "owner": {
     "username": "ssk090",
     "email": "shivanandasai.38@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://www.shivanandasai.xyz/"
   }
 }

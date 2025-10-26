@@ -1,10 +1,9 @@
-{
-  "description": "febs.is-a.dev",
-  "owner": {
-    "username": "febriansf",
-    "email": "febrian.xiii@gmail.com"
-  },
-  "record": {
-    "CNAME": "www.febss.web.id"
-  }
+ {
+   "owner": {
+        "username": "febriansf",
+        "email": "febriansf@student.uns.ac.id"
+    },
+    "records": {
+        "CNAME": "dev.febs.my.id"
+    }
 }

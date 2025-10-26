@@ -1,12 +1,10 @@
 {
-  "description": "Ashley's website",
-  "repo": "https://github.com/Sxshley/sxshley.github.io",
   "owner": {
     "username": "Sxshley",
     "email": "tsuuunyaaa@gmail.com",
     "twitter": "TsU1"
   },
-  "record": {
+  "records": {
     "CNAME": "sxshley.github.io"
   }
 }

@@ -1,12 +1,9 @@
 {
-  "description": "To get the .is-a.dev subdomain for my portfolio website",
-  "repo": "https://github.com/VirtualSquares/Portfolio",
   "owner": {
-    "username": "VirtualSquares",
-    "email": "shravanparadigm@gmail.com",
-    "discord": "cannonboys"
+    "username": "myselfshravan",
+    "email": "shravanrevanna@gmail.com"
   },
-  "record": {
-    "A": ["75.2.60.5"]
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

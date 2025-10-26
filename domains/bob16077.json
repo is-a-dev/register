@@ -1,11 +1,10 @@
 {
   "description": "A personal page that also gives information on my projects",
-  "repo": "https://github.com/Bob16077/bob16077.github.io",
   "owner": {
     "username": "bob16077",
     "discord": "bob16077777"
   },
-  "record": {
+  "records": {
     "CNAME": "bob16077.github.io"
   }
 }

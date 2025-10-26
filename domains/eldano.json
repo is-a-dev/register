@@ -1,11 +1,9 @@
 {
-  "description": "Personal website for eldano dev",
-  "repo": "https://github.com/eldano/eldano.github.io",
   "owner": {
     "username": "eldano",
     "twitter": "eldanov2"
   },
-  "record": {
+  "records": {
     "CNAME": "eldano.github.io"
   }
 }

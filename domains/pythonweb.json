@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "CodeGeekR",
-        "discord": "768080481924677632"
-    },
-    "record": {
-        "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "CodeGeekR",
+    "discord": "768080481924677632"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Kane Tu's personal developer website",
-  "repo": "https://github.com/kanetu/kanetu.github.io",
   "owner": {
     "username": "kanetu",
     "email": "kanetu731@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "kanetu.github.io"
   }
 }

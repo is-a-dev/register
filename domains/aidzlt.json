@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "aidzlt",
-        "email": "aidzlt0001@gmail.com"
-    },
-    "record": {
-        "CNAME": "aidzlt.github.io"
-    }
+  "owner": {
+    "username": "aidzlt",
+    "email": "aidzlt0001@gmail.com"
+  },
+  "records": {
+    "CNAME": "aidzlt.github.io"
+  }
 }

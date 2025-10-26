@@ -1,11 +1,9 @@
 {
-  "description": "My portfolio",
-  "repo": "https://github.com/wmoralesl/wmoralesl.github.io",
   "owner": {
     "username": "wmoralesl",
     "email": "wilsonm57wm@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "wmoralesl.github.io"
   }
 }

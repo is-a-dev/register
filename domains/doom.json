@@ -1,12 +1,10 @@
 {
-  "description": "My personal website inspired by 90s personal websites made in Geocities",
-  "repo": "https://github.com/itsdoomone/itsdoomone.github.io",
   "owner": {
     "username": "ItsDoomOne",
     "email": "leodroid796@gmail.com",
     "discord": "527778424392253441"
   },
-  "record": {
+  "records": {
     "CNAME": "itsdoomone.github.io"
   }
 }

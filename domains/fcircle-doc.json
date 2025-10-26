@@ -1,11 +1,9 @@
 {
-  "description": "fcircle-doc",
-  "repo": "https://github.com/hiltay/hexo-circle-of-friends-doc",
   "owner": {
     "username": "yyyz",
     "email": "yyyzlyh@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://hiltay.github.io/hexo-circle-of-friends-doc"
   }
 }
