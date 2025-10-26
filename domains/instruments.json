@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "MuskanAggarwal3404"
+    },
+    "records": {
+        "MX": "mx1.improvmx.com",
+        "MX2": "mx2.improvmx.com",
+        "TXT": "v=spf1 include:improvmx.com ~all"
+    }
+}
