@@ -1,0 +1,12 @@
+{
+  "description": "A4Arpon’s personal VPS hosted services.",
+  "domain": "a4arpon.is-a.dev",
+  "subdomain": "a4arpon",
+  "owner": {
+    "username": "a4arpon",
+    "email": "hxlgb3ty0@mozmail.com"
+  },
+  "record": {
+    "A": ["79.137.78.166"]
+  }
+}
