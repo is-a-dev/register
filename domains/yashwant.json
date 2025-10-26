@@ -8,6 +8,8 @@
   "proxied": true,
   "records": {
     "CNAME": "portfolio2-kappa-flame.vercel.app",
-    "TXT": ["vc-domain-verify=yashwant.is-a.dev,11b5c01be56a6a6d14ca"]
+    "_vercel": {
+      "TXT": ["vc-domain-verify=yashwant.is-a.dev,11b5c01be56a6a6d14ca"]
+    }
   }
 }
