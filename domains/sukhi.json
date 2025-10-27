@@ -5,7 +5,7 @@
     "records": {
         "A": ["216.198.79.1"],
         "TXT": [
-            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQm1ijPJs2eEOHpyFhyBXAmW2Z3oNR4Z4vbevDXS5XnXPjkv+p0NxD6iairQJOdx11JTISoIFZp01WyrY/9qoUoGoqbL657ACywqJL2nLa11+4fz4pTZTwGmWxeVGnVJZcYf/9PmrckXvE3EEWRJvvhr+P+vcTa7zcoMiwEvW7hQIDAQAB",
+            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYai9FPrQzzXXpfQnOvpRuMSwKsdiqt0QUsycDt1+Qzty7LVj+zLjRB2p1ve+ACRh601TOgz+rwMlDUoxjsrGk4vIY/VEidLgBPY/LNd4NMbEf+OG4WVqASLaw8wGyip8pGVgDZCAgr30febQXhjMPuJ9oNSInWQc+873TfM3RoQIDAQAB",
             "v=spf1 include:amazonses.com ~all",
             "v=DMARC1; p=none;"
         ],
