@@ -3,6 +3,6 @@
         "username": "callmesukhi"
     },
     "records": {
-        "CNAME": "e5cf823ab1f85797.vercel-dns-017.com"
+        "TXT": "vc-domain-verify=tools.sukhi.is-a.dev,31937bb41e6dc6ce7144"
     }
 }
