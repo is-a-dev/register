@@ -4,7 +4,6 @@
     "email": "aashishanil321@gmail.com"
   },
   "records": {
-    "CNAME": "ashphotfolio.vercel.app"
+    "TXT": "vc-domain-verify=aashish-anil.is-a.dev,8141bf007d4f5b165b58"
   },
-  "proxied": true
 }
