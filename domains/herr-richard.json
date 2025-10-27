@@ -1,5 +1,8 @@
 {
-  "proxied": false,
+  "owner": {
+    "username": "Herr-Richard",
+    "email": "richard@ponfey.copm"
+  },
   "records": {
     "CNAME": "dev3.ponfey.com"
   }
