@@ -3,6 +3,17 @@
         "username": "callmesukhi"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "A": ["216.198.79.1"],
+        "TXT": [
+            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQm1ijPJs2eEOHpyFhyBXAmW2Z3oNR4Z4vbevDXS5XnXPjkv+p0NxD6iairQJOdx11JTISoIFZp01WyrY/9qoUoGoqbL657ACywqJL2nLa11+4fz4pTZTwGmWxeVGnVJZcYf/9PmrckXvE3EEWRJvvhr+P+vcTa7zcoMiwEvW7hQIDAQAB",
+            "v=spf1 include:amazonses.com ~all",
+            "v=DMARC1; p=none;"
+        ],
+        "MX": [
+            {
+                "taget": "feedback-smtp.us-east-1.amazonses.com",
+                "priority": 10
+            }
+        ]
     }
 }
