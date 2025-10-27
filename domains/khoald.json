@@ -1,0 +1,10 @@
+{
+  "description": "Personal portfolio built with v0.dev (Vercel)",
+  "owner": {
+    "username": "keylee1110",
+    "email": "khoald1110@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://khoald.vercel.app"
+  }
+}
