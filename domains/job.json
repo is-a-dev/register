@@ -5,5 +5,8 @@
   },
   "records": {
     "A": ["128.204.223.115"]
+    "MX": [
+  { "target": "mail9.serv00.com", "priority": 10 }
+]
   }
 }
