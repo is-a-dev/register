@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "javiito",
+    "email": "hola@javiito.com"
+  },
+  "records": {
+    "CNAME": "portfolio.javiito.com"
+  },
+  "proxied": true
+}
