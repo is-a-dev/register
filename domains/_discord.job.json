@@ -4,6 +4,6 @@
     "email": "gorgonfweman@outlook.com"
   },
   "records": {
-    "A": ["128.204.223.115"]
+    "TXT": "dh=03dbcdfa981528d7a1bcab3fdfa5c583ad8c5bf7"
   }
 }

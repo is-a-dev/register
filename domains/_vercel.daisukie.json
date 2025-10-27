@@ -4,6 +4,6 @@
         "email": "vincentbernaberomeo@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=daisukie.is-a.dev,cc60498848c569a3c4eb"
     }
 }
