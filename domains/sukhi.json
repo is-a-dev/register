@@ -9,11 +9,8 @@
             "v=spf1 include:amazonses.com ~all",
             "v=DMARC1; p=none;"
         ],
-        "MX": [
-            {
-                "taget": "feedback-smtp.us-east-1.amazonses.com",
-                "priority": 10
-            }
+        "MX": [ 
+           "feedback-smtp.us-east-1.amazonses.com"
         ]
     }
 }
