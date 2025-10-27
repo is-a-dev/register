@@ -37,7 +37,7 @@ You agree not to use, attempt to use, or permit others to use the is-a.dev servi
 5. Pornography or sexually explicit material
 6. Impersonation and misrepresentation
 7. Infringe third-party rights
-8. Use for commercial, political, or promotional purposes
+8. Commercial, for-profit or political purposes
 9. Unsolicited communications
 10. Cryptocurrency and blockchain mining
 11. Abusive automation
