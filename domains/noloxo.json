@@ -1,8 +1,9 @@
 {
     "owner": {
         "username": "NoloxoYT"
+        "email": "noloxo@duck.com"
     },
     "records": {
-        "RECORDTYPE": "CNAME"
+        "CNAME": https://noloxoyt.github.io/all-my-projects/
     }
 }
