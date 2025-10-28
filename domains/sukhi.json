@@ -3,6 +3,7 @@
         "username": "callmesukhi"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "A": ["216.198.79.1"],
+        "TXT": ["vc-domain-verify=tools.sukhi.is-a.dev,31937bb41e6dc6ce7144"]
     }
 }
