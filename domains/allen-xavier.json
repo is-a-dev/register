@@ -1,11 +1,9 @@
 {
-    "description": "For Portfolio Website",
-    "repo": "https://github.com/xavierallem/AllenXavier",
-    "owner": {
-        "username": "xavierallem",
-        "email": "xavierallem1999@gmail.com"
-    },
-    "record": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "xavierallem",
+    "email": "xavierallem1999@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

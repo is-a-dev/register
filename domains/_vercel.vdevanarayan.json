@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "CodeTitan7",
-        "email": "octavius1983bc@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=vdevanarayan.is-a.dev,0c0c081b89b565d7ece1"
-    }
+  "owner": {
+    "username": "CodeTitan7",
+    "email": "octavius1983bc@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=vdevanarayan.is-a.dev,0c0c081b89b565d7ece1"
+  }
 }

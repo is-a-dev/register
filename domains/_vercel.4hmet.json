@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ahmetunsal",
-        "email": "web.unsalahmet@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=4hmet.is-a.dev,c313bc7151ebff9a1f1f"
-    }
+  "owner": {
+    "username": "ahmetunsal",
+    "email": "web.unsalahmet@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=4hmet.is-a.dev,c313bc7151ebff9a1f1f"
+  }
 }

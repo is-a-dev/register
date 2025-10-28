@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "djhemath",
-      "email": "djhemath@gmail.com"
-    },
-    "record": {
-      "URL": "https://hemath.dev"
-    }
+  "owner": {
+    "username": "djhemath",
+    "email": "djhemath@gmail.com"
+  },
+  "records": {
+    "URL": "https://hemath.dev"
   }
-  
+}

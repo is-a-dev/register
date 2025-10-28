@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "mrtspeedy",
-        "email": "toxicspeedytv@gmail.com",
-        "discord": "1095502790534627348"
-    },
-    "record": {
-        "CNAME": "portfolio-mrtspeedy.vercel.app"
-    }
+  "owner": {
+    "username": "mrtspeedy",
+    "email": "toxicspeedytv@gmail.com",
+    "discord": "1095502790534627348"
+  },
+  "records": {
+    "CNAME": "portfolio-mrtspeedy.vercel.app"
+  }
 }

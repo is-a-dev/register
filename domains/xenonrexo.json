@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "shshams",
-        "email": "shahadathossenshams@gmail.com"
-    },
-    "record": {
-        "CNAME": "xenonrexo.vercel.app"
-    }
+  "owner": {
+    "username": "shshams",
+    "email": "shahadathossenshams@gmail.com"
+  },
+  "records": {
+    "CNAME": "xenonrexo.vercel.app"
+  }
 }

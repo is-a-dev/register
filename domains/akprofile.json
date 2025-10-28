@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Akash0816",
-        "email": "akashoffical321@gmail.com"
-    },
-    "record": {
-        "CNAME": "Akash0816.github.io"
-    }
+  "owner": {
+    "username": "Akash0816",
+    "email": "akashoffical321@gmail.com"
+  },
+  "records": {
+    "CNAME": "Akash0816.github.io"
+  }
 }

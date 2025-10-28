@@ -1,12 +1,10 @@
 {
-  "description": "LooKeR's Portfolio",
-  "repo": "https://github.com/Iamlooker/iamlooker.github.io",
   "owner": {
     "username": "Iamlooker",
     "email": "mohit2002ss@gmail.com",
     "twitter": "Iam_looker"
   },
-  "record": {
+  "records": {
     "CNAME": "iamlooker.github.io"
   }
 }

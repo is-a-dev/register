@@ -1,10 +1,10 @@
 {
-	"description": "For my portfolio",
-	"owner": {
-		"username": "sohag02",
-		"discord": "sohagjabed"
-	},
-	"record": {
-		"CNAME": "sohagj.vercel.app"
-	}
+  "description": "For my portfolio",
+  "owner": {
+    "username": "sohag02",
+    "discord": "sohagjabed"
+  },
+  "records": {
+    "CNAME": "sohagj.vercel.app"
+  }
 }

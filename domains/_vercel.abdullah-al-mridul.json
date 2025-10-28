@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "abdullah-al-mridul",
-        "email": "rim89987@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=abdullah-al-mridul.is-a.dev,28add02b5250c0339353"
-    }
+  "owner": {
+    "username": "abdullah-al-mridul",
+    "email": "rim89987@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=abdullah-al-mridul.is-a.dev,28add02b5250c0339353"
+  }
 }

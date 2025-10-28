@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tsnzzhr",
-        "email": "tsnzzhr102@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=tsania-az.is-a.dev,3cf74b208f3938a96f7b"
-    }
+  "owner": {
+    "username": "tsnzzhr",
+    "email": "tsnzzhr102@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tsania.is-a.dev,cb5fadd5728a99eb3c4d"
+  }
 }

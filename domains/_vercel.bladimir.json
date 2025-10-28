@@ -1,11 +1,9 @@
 {
   "owner": {
     "username": "Esbruiz",
-    "discord": "190241825540276245",
-    "email": "esbruizc@gmail.com",
-    "bluesky": "did:plc:xkczclld4e5vvpypnu5z6m2g"
+    "email": "esbruizc@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": "vc-domain-verify=bladimir.is-a.dev,e64e9cb20c3d9e344c18"
   }
 }

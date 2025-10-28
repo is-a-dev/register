@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "crystalbajgai",
-        "email": "crystalbajgai@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=crystal.is-a.dev,ef573673a0e376748ea9"
-    }
+  "owner": {
+    "username": "crystalbajgai",
+    "email": "crystalbajgai@gmail.com",
+    "twitter": "crystaaaal"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=crystal.is-a.dev,ef573673a0e376748ea9"
+  }
 }

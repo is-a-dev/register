@@ -1,11 +1,9 @@
 {
-    "owner": {
-      "username": "namansethi13",
-      "discord": "namansethi",
-      "email": "namansethi1328@gmail.com"
-    },
-    "record": {
-      "TXT": "vc-domain-verify=namansethi.is-a.dev,e0b892773250b43800c9"
-    }
+  "owner": {
+    "username": "namansethi13",
+    "email": "heynamansethi@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=namansethi.is-a.dev,e0b892773250b43800c9"
   }
-  
+}

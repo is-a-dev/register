@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "coderman400",
-        "email": "achurox1121@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=arvind.is-a.dev,6078db13fb7b19c2e83d"
-    }
+  "owner": {
+    "username": "coderman400",
+    "email": "achurox1121@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=arvind.is-a.dev,6078db13fb7b19c2e83d"
+  }
 }

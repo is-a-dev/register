@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "awhvish",
-    "email": "avislowha9@gmail.com"
+    "email": "high.avis.lowha@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=awhvish.is-a.dev,f4fbe002837b72638f88"]
+  "records": {
+    "TXT": "vc-domain-verify=awhvish.is-a.dev,f4fbe002837b72638f88"
   }
 }

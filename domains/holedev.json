@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "holedev",
-        "email": "contact@holedev.com"
-    },
-    "record": {
-        "URL": "https://github.com/holedev"
-    }
+  "owner": {
+    "username": "holedev",
+    "email": "contact@holedev.com"
+  },
+  "records": {
+    "URL": "https://github.com/holedev"
+  }
 }

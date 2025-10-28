@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "0xarchit",
-    "email": "0xarchit@proton.me"
-  },
-  "record": {
-    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIIsclFhtL6ruTL5EClsNzTNxFf7jJBCyWJl+7VW9EXPt+x09GBVsYiaMEcLvNve0PGmuZKKVGv1H19OeJbZOAFg+kd4W7kgW9Bpw2oVklstLNZGPThu1Uv+UXgjpMIOQSwhzuWGo9yFn1k91eLkzqt2NvhMqmGVVqT9OibGwwowIDAQAB"
-  }
-}

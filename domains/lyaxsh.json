@@ -1,11 +1,9 @@
 {
-    "description": "Simple portfolio website for lyaxsh",
-    "repo": "https://github.com/lyaxsh/lyaxsh.github.io",
-    "owner": {
-        "username": "lyaxsh",
-        "email": "lakshnahar.forwork@gmail.com"
-    },
-    "record": {
-        "CNAME": "lyaxsh.github.io"
-    }
+  "owner": {
+    "username": "lyaxsh",
+    "email": "lakshnahar.forwork@gmail.com"
+  },
+  "records": {
+    "CNAME": "lyaxsh.github.io"
+  }
 }

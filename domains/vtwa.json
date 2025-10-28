@@ -1,12 +1,10 @@
 {
-  "description": "My base website. Very epik tbh 💥💥",
-  "repo": "https://github.com/vintheweirdass/vintheweirdass.github.io",
   "owner": {
     "username": "vintheweirdass",
     "twitter": "vintheweirdass",
     "discord": "vintheweirdass"
   },
-  "record": {
+  "records": {
     "NS": ["christina.ns.cloudflare.com", "mustafa.ns.cloudflare.com"]
   }
 }

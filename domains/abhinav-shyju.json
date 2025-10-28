@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "abhinavshyju",
-      "email":"abhinavshyjupc@gmail.com"
-    },
-    "record": {
-        "CNAME": "portfolio-6ns.pages.dev"
-    }
+  "owner": {
+    "username": "abhinavshyju",
+    "email": "abhinavshyjupc@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-6ns.pages.dev"
+  }
 }

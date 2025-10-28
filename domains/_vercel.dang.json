@@ -3,7 +3,7 @@
     "username": "chanhdangcom",
     "email": "ncdang@quaric.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=dang.is-a.dev,75e81b9a2a5ada157a8e"]
+  "records": {
+    "TXT": "vc-domain-verify=dang.is-a.dev,75e81b9a2a5ada157a8e"
   }
 }

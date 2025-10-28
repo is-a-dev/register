@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "natedog2424",
-        "email": "natedog2424mail@gmail.com"
-    },
-    "record": {
-        "TXT": "277ecd07aa6d1593b09b96c9329e3b"
-    }
+  "owner": {
+    "username": "natedog2424",
+    "email": "natedog2424mail@gmail.com"
+  },
+  "records": {
+    "TXT": "277ecd07aa6d1593b09b96c9329e3b"
+  }
 }

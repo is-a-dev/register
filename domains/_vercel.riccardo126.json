@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "riccardo126",
-        "email": "riccardopassacantando@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=riccardo126.is-a.dev,408e1d0b2f39a662b0ae"
-    }
+  "owner": {
+    "username": "riccardo126",
+    "email": "riccardopassacantando@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=riccardo126.is-a.dev,408e1d0b2f39a662b0ae"
+  }
 }

@@ -1,11 +1,9 @@
 {
-    "description": "It'z RJ's Website",
-    "repo": "https://github.com/itz-rj-here/itz-rj-here.github.io",
-    "owner": {
-        "username": "itz-rj-here",
-        "email": "faiadmahmudadil@gmail.com"
-    },
-    "record": {
-        "CNAME": "itz-rj-here.github.io"
-    }
+  "owner": {
+    "username": "itz-rj-here",
+    "email": "faiadmahmudadil@gmail.com"
+  },
+  "records": {
+    "CNAME": "itz-rj-here.github.io"
+  }
 }

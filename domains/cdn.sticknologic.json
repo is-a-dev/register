@@ -1,0 +1,12 @@
+{
+  "description": "Curated list of my cdn projects",
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "records": {
+    "CNAME": "sticknologic.github.io"
+  }
+}

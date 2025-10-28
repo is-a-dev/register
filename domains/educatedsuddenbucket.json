@@ -3,8 +3,9 @@
     "username": "EducatedSuddenBucket",
     "email": "educatedsuddenbucket@gmail.com"
   },
-  "record": {
-    "A": ["185.199.108.153"],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+    "AAAA": ["2606:50c0:8000::153", "2606:50c0:8001::153", "2606:50c0:8002::153", "2606:50c0:8003::153"],
     "TXT": [
       "google-site-verification=hS8B2hSz-rNk6gLRnwaZjxuJE9rCLU_25X65JsLEczE",
       "v=spf1 include:spf.improvmx.com ~all"

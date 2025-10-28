@@ -1,13 +1,11 @@
 {
-  "description": "This is my personal portfolio",
-  "repo": "https://github.com/skmojid/portfolio",
   "owner": {
     "username": "skmojid",
     "email": "77mojid77@gmail.com",
     "twitter": "SkMojid66927",
     "preview": "skmojid.netlify.app"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }

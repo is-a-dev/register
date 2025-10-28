@@ -1,0 +1,13 @@
+{
+    "owner": {
+      "username": "BrianKN019",
+      "email": "briannkimemia@gmail.com"
+    },
+    "proxied": false,
+    "records": {
+      "TXT": [
+        "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr6KMgdxxgg7oT3ulMwPJs9RXgXDrI9UWU118pHEMohl3UbL3Jwp4oxp/9N3thh/3WCJnYV134zbEVolZwqaT3JsFEq/mQ/RpW/JnOZ3rnxqJPurb2bcfJol4SDxiWVObzHX31xnANzFcXnq1/5dMK5QvW4Jh7n0fm4+4ywqiy2QIDAQAB"
+      ]
+    }
+  }
+  

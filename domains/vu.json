@@ -1,11 +1,10 @@
 {
   "description": "Vu-is-Me",
-  "repo": "https://github.com/vuisme/",
   "owner": {
     "username": "vuisme",
     "email": "me@vutn.net"
   },
-  "record": {
+  "records": {
     "A": ["140.245.62.158"]
   }
 }

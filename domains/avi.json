@@ -3,9 +3,7 @@
     "username": "avipars",
     "email": "isdev@aviparshan.com"
   },
-  "record": {
+  "records": {
     "CNAME": "avipars.github.io"
-  },
-  "description": "Personal website with useful links",
-  "repo": "https://github.com/avipars/avipars.github.io"
+  }
 }

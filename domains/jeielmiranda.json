@@ -1,11 +1,9 @@
 {
-    "description": "Personal subdomain",
-    "repo": "https://github.com/Jetrom17/jetrom17.github.io",
-    "owner": {
-        "username": "Jetrom17",
-        "email": "jeiel@duck.com"
-    },
-    "record": {
-        "CNAME": "jetrom17.github.io"
-    }
+  "owner": {
+    "username": "Jeiel0rbit",
+    "email": "jeiel@duck.com"
+  },
+  "records": {
+    "CNAME": "Jeiel0rbit.github.io"
+  }
 }

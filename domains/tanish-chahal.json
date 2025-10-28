@@ -1,11 +1,9 @@
 {
-    "description": "Tanish's Portfolio",
-    "repo": "https://github.com/TanishChahal/register",
-    "owner": {
-        "username": "TanishChahal",
-        "email": "TanishChahal5705@gmail.com"
-    },
-    "record": {
-        "URL": "https://tanishchahal.netlify.app"
-    }
+  "owner": {
+    "username": "TanishChahal",
+    "email": "TanishChahal5705@gmail.com"
+  },
+  "records": {
+    "URL": "https://tanishchahal.netlify.app"
+  }
 }

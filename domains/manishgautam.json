@@ -1,11 +1,9 @@
 {
-  "description": "Manish Gautam's Website",
-  "repo": "https://github.com/Manishmg3994/Manishmg3994.github.io",
   "owner": {
     "username": "Manishmg3994",
     "email": "manishgautammg7@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "manishmg3994.github.io"
   }
 }

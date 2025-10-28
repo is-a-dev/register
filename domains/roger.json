@@ -1,12 +1,10 @@
 {
-  "description": "Documentation website for is-a.dev",
-  "repo": "https://github.com/rogerHuntGauntlet/registerisadev",
   "owner": {
     "username": "rogerHuntGauntlet",
     "email": "regorhunt02052@gmail.com",
     "discord": "roger_jgs404040"
   },
-  "record": {
+  "records": {
     "CNAME": "rogerbhuntiii.vercel.app"
   }
 }

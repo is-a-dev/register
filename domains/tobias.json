@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "smarterToby",
-        "discord": "724712767080235049"
-    },
-    "record": {
-        "CNAME": "tobiasreuss.vercel.app"
-    }
+  "owner": {
+    "username": "smarterToby",
+    "discord": "724712767080235049"
+  },
+  "records": {
+    "CNAME": "tobiasreuss.vercel.app"
+  }
 }

@@ -1,11 +1,9 @@
 {
-    "description": "Portfolio Website",
-    "repo": "https://github.com/ujjvaljoshi45/ujjvaljoshi45",
-    "owner": {
-        "username": "ujjvaljoshi45",
-        "email": "ujjvaljoshi45@gmail.com"
-    },
-    "record": {
-         "TXT": "vc-domain-verify=ujjvaljoshi.is-a.dev,f7ed737aeb48311d634c"
-    }
+  "owner": {
+    "username": "ujjvaljoshi45",
+    "email": "ujjvaljoshi45@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ujjvaljoshi.is-a.dev,f7ed737aeb48311d634c"
+  }
 }

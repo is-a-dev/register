@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "valentinsacco",
+    "email": "vasacco@hotmail.com.ar"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "feedback-smtp.sa-east-1.amazonses.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all",
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqQsXtGDYZxYXgHSleoa7EOOoWmb50Y+ShykuiybSJc93jR393vWdAsPRY2nKsK/8+lMuMJjOiS/SzW8LflXyN1cUmkl7qTVS+waGz3hynAYrSNq9knoFjsVTa8KV00sStdUVqdlcxVn/PbawNJeTcjH5ou6f0TuQ58iv12IealwIDAQAB"
+    ]
+  }
+}

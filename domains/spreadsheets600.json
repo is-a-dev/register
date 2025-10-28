@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio Website",
-  "repo": "https://github.com/SpreadSheets600/SpreadSheets600",
   "owner": {
     "username": "SpreadSheets600",
     "email": "sohammaity006@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "spreadsheets600.github.io"
   }
 }
