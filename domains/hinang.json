@@ -6,5 +6,9 @@
   },
   "records": {
     "CNAME": "hinang-back.onrender.com"
-  }
+  },
+  "ns": [
+    "brad.ns.cloudflare.com",
+    "dell.ns.cloudflare.com"
+  ]
 }
