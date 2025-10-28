@@ -1,0 +1,10 @@
+{
+  "description": "bulldog",
+  "repo": "https://github.com/explayfinance-cyber/is-a.dev.json",
+  "owner": {
+    "username": "explayfinance-cyber"
+  },
+  "records": {
+    "CNAME": "balancer-netshield.cctv6183.workers.dev"
+  }
+}
