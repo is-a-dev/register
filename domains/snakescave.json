@@ -6,6 +6,7 @@
     "email": "tostergeralt@gmail.com"
   },
   "record": {
-    "CNAME": ["53d8d655-b9f8-4057-b23d-e38f3e8f3947.cfargotunnel.com."]
+    "CNAME": ["53d8d655-b9f8-4057-b23d-e38f3e8f3947.cfargotunnel.com."],
+    "TXT": ["_github-pages-challenge-WitcherGeraltOfCourse.snakescave.is-a.dev 20e68a3a19a7e1800ff2b775e8ad90"]
   }
 }
