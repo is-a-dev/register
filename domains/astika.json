@@ -6,6 +6,9 @@
     "email": "astika327@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "_vercel": {
+      "TXT": ["vc-domain-verify=astika.is-a.dev,cae624ab62995ef5900c"]
+    }
   }
 }
