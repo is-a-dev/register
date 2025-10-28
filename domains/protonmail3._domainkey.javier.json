@@ -4,6 +4,6 @@
      "email": "hola@javiito.com"
   },
  "records": {
-   "TXT": "protonmail3.domainkey.ds7be42nlejh7nlp7bvy33bhpppemtjhm4lb2sbtab37qahx7tbhq.domains.proton.ch"
+   "CNAME": "protonmail3.domainkey.ds7be42nlejh7nlp7bvy33bhpppemtjhm4lb2sbtab37qahx7tbhq.domains.proton.ch"
   }
 }
