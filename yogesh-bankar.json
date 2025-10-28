@@ -3,8 +3,9 @@
   "repo": "https://github.com/bankaryogesh/my-website",
   "owner": {
     "username": "bankaryogesh"
+    "email": "bankaryogesh20@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "bankaryogesh.github.io"
   }
 }
