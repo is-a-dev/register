@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Javiito32",
+    "email": "hola@javiito.com"
+  },
+  "records": {
+    "CNAME": "portfolio.javiito.com",
+    "TXT": ["protonmail-verification=061576a1989b9caf9a2264b616fb083310f9275d"]
+  },
+  "proxied": true
+}
