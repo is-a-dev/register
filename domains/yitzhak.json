@@ -4,6 +4,6 @@
         "email": "rbnchris0@gmail.com"
     },
     "records": {
-        "TXT": "insert-TXT-string-you-got-from-vercel-here"
+        "A": ["216.198.79.1"]
     }
 }
