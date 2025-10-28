@@ -1,0 +1,11 @@
+{
+  "description": "Minecraft server tunnel",
+  "domain": "is-a.dev",
+  "subdomain": "snakescave",
+  "owner": {
+    "email": "tostergeralt@gmail.com"
+  },
+  "record": {
+    "CNAME": ["53d8d655-b9f8-4057-b23d-e38f3e8f3947.cfargotunnel.com."]
+  }
+}
