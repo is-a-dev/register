@@ -1,0 +1,16 @@
+{
+    "owner": {
+        "username": "callmesukhi"
+    },
+    "records": {
+        "A": ["216.198.79.1"],
+        "TXT": [
+            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYai9FPrQzzXXpfQnOvpRuMSwKsdiqt0QUsycDt1+Qzty7LVj+zLjRB2p1ve+ACRh601TOgz+rwMlDUoxjsrGk4vIY/VEidLgBPY/LNd4NMbEf+OG4WVqASLaw8wGyip8pGVgDZCAgr30febQXhjMPuJ9oNSInWQc+873TfM3RoQIDAQAB",
+            "v=spf1 include:amazonses.com ~all",
+            "v=DMARC1; p=none;"
+        ],
+        "MX": [ 
+           "feedback-smtp.us-east-1.amazonses.com"
+        ]
+    }
+}
