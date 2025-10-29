@@ -5,6 +5,6 @@
     "discord": "881796102142185504"
   },
   "records": {
-    "A": ["147.135.213.131"]
+    "NS":["cosmin.ns.cloudflare.com","reza.ns.cloudflare.com"]
   }
 }
