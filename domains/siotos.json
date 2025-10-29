@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "tzaksparow",
-    "email": "tzaksparow@gmail.com"
+    "username": "tzaksparow"
   },
-  "record": {
-    "CNAME": "tzaksparow.github.io"
-  }
+  "description": "Personal Home Lab / GitHub Pages site",
+  "records": {
+    "CNAME": "siotos.github.io"
+  },
+  "proxied": true
 }
