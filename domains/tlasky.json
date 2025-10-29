@@ -1,10 +1,9 @@
 {
-  "description": "David Tláskal",
   "owner": {
     "username": "dtlasky",
     "email": "dav.tlaskal@proton.me"
   },
-  "record": {
+  "records": {
     "CNAME": "tlasky.fly.dev"
   }
 }
