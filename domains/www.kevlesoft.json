@@ -3,6 +3,7 @@
     "username": "MrBearCr",
     "email": "rafael3gn@gmail.com"
   },
+  "proxied": false,
   "records": {
     "CNAME": "mrbearcr.github.io"
   }
