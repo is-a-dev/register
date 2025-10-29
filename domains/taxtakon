@@ -1,7 +1,0 @@
-{
-  "fqdn": "taxtakon.is-a.dev",
-  "target": "cname.is-a.dev",
-  "dns": {
-    "cname": ["taxtakon.onrender.com"]
-  }
-}
