@@ -1,10 +1,18 @@
 {
-  "description": "Taxtakon - yog'och mahsulotlari import va eksporti",
+    "owner": {
+        "username": "meyliboyevM",
+        "email": "meyliboyy@gmail.com"
+    },
+    "record": {
+        "A": [
+            "216.24.57.1"
+        ]
+    }
   "owner": {
     "username": "meyliboyevM",
     "email": "meyliboyy@gmail.com"
   },
-  "record": {
-    "CNAME": "taxtakon.onrender.com"
+  "records": {
+    "A": ["216.24.57.1"]
   }
 }
