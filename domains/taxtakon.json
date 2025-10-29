@@ -1,10 +1,10 @@
 {
-  "description": "Taxtakon - yog'och mahsulotlari",
+  "description": "Taxtakon - yog'och mahsulotlari import va eksporti",
   "owner": {
     "username": "meyliboyevM",
     "email": "meyliboyy@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "taxtakon.onrender.com"
   }
 }
