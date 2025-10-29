@@ -1,9 +1,14 @@
 {
-  "owner": {
-    "username": "Stef-00012",
-    "discord": "694986201739952229"
-  },
-  "records": {
-    "URL": "https://stefdp.com"
-  }
+ "owner":{
+ "username":"52071314"
+}
+ "records":{
+ "NS"[
+ "ns1.byet.org"
+ "ns2.byet.org"
+ "ns3.byet.org"
+ "ns4.byet.org"
+ "ns5.byet.org"
+ ]
+}
 }
