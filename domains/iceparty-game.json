@@ -1,11 +1,10 @@
 {
-  "description": "Game server for Iceparty",
-  "repo": "awehero/iceparty",
   "owner": {
     "username": "awehero",
-    "email": "awegaming79@gmail.com"
+    "email": "awegaming@gmail.com",
+    "discord": "946944985507450941"
   },
-  "record": {
-    "A": ["192.0.2.1"]
+  "records": {
+    "CNAME": "iceparty-game.trycloudflare.com"
   }
 }
