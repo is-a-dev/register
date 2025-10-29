@@ -1,18 +1,10 @@
 {
-    "owner": {
-        "username": "meyliboyevM",
-        "email": "meyliboyy@gmail.com"
-    },
-    "record": {
-        "A": [
-            "216.24.57.1"
-        ]
-    }
+  "description": "Taxtakon - yog'och mahsulotlari",
   "owner": {
     "username": "meyliboyevM",
     "email": "meyliboyy@gmail.com"
   },
-  "records": {
-    "A": ["216.24.57.1"]
+  "record": {
+    "CNAME": "taxtakon.onrender.com"
   }
 }
