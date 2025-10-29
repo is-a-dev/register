@@ -5,5 +5,10 @@
   },
   "records": {
     "CNAME": "eduardors.github.io"
+  },
+  "description": "Personal developer portfolio and notes.",
+  "website": "https://eduardo-rs.github.io/eduardors.github.io/",
+  "links": {
+    "github": "https://github.com/Eduardo-RS"
   }
 }
