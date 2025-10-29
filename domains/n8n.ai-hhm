@@ -1,0 +1,11 @@
+{
+  "description": "Self-hosted n8n instance on VPS",
+  "owner": {
+    "username": "luutruongnguyen00-ux",
+    "email": "luu.truonnguyen00@gmail.com"
+  },
+  "record": {
+    "A": ["163.223.8.132"]
+  },
+  "subdomain": "n8n.ai-hhm"
+}
