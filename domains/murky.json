@@ -1,11 +1,9 @@
 {
-    "owner": {
-        "username": "r0ckmix",
-        "email": "mix155@yandex.ru"
-    },
-    "record": {
-        "A": [
-            "80.92.205.85"
-        ]
-    }
+  "owner": {
+    "username": "r0ckmix",
+    "email": "mix155@yandex.ru"
+  },
+  "records": {
+    "A": ["80.92.205.85"]
+  }
 }
