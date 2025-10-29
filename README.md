@@ -3,7 +3,7 @@
 </p> -->
 
 <p align="center">
-   <img alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/octoverse-2025/is-a-dev_register-readme.png">
+   <img height="350" alt="is-a.dev Octoverse 2025 Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/octoverse-2025/is-a-dev_register_1200x630.jpg">
 </p>
 
 <p align="center">
