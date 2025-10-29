@@ -1,0 +1,10 @@
+{
+  "description": "Lobby server for Ice Party",
+  "repo": "awehero/iceparty",
+  "owner": {
+    "username": "awehero"
+  },
+  "record": {
+    "A": ["192.0.2.1"]
+  }
+}
