@@ -1,9 +1,10 @@
 {
   "domain": "lensiro.is-a.dev",
   "owner": {
-    "email": "social@lensiro.com"
+    "email": "social@lensiro.com",
+    "github": "social-lensiro"
   },
-  "record": {
+  "records": {
     "CNAME": "publish.obsidian.md"
   }
 }
