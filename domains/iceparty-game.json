@@ -1,8 +1,9 @@
 {
-  "description": "Game server for Ice Party",
+  "description": "Game server for Iceparty",
   "repo": "awehero/iceparty",
   "owner": {
-    "username": "awehero"
+    "username": "awehero",
+    "email": "awegaming79@gmail.com"
   },
   "record": {
     "A": ["192.0.2.1"]
