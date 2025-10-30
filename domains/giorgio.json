@@ -2,11 +2,13 @@
   "domain": "is-a.dev",
   "subdomain": "giorgio",
   "owner": {
-    "email": "giorgiodabest1@gmail.com" 
+    "email": "giorgiodabest1@gmail.com"
   },
-  "record": {
-    "type": "CNAME",
-    "content": "Gio1112.github.io" 
-  },
+  "records": [
+    {
+      "type": "CNAME",
+      "content": "Gio1112.github.io"
+    }
+  ],
   "proxied": true
 }
