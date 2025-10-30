@@ -7,8 +7,5 @@
     "CNAME": "eduardors.github.io"
   },
   "description": "Personal developer portfolio and notes.",
-  "website": "https://eduardo-rs.github.io/eduardors.github.io/",
-  "links": {
-    "github": "https://github.com/eduardo-rs"
-  }
+  "repo": "https://eduardo-rs.github.io/eduardors.github.io/"
 }
