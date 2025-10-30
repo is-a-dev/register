@@ -2,11 +2,11 @@
   "domain": "is-a.dev",
   "subdomain": "giorgio",
   "owner": {
-    "email": "giorgiodabest1@gmail.com" // Recommended: Use a public email linked to your GitHub
+    "email": "giorgiodabest1@gmail.com" 
   },
   "record": {
     "type": "CNAME",
-    "content": "Gio1112.github.io" // ONLY use your base GH Pages username.github.io URL, NOT the full project path.
+    "content": "Gio1112.github.io" 
   },
   "proxied": true
 }
