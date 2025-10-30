@@ -1,0 +1,10 @@
+"description": "Personal site for Sanyii",
+  "domain": "is-a.dev",
+  "subdomain": "sanyii",
+  "owner": {
+    "email": "sagnirago2@gmail.com" 
+  },
+  "record": {
+    "CNAME": "sagnirago.github.io" 
+  }
+}
