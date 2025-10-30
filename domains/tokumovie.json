@@ -1,0 +1,12 @@
+{
+  "description": "Tokumovie streaming site",
+  "domain": "is-a.dev",
+  "subdomain": "tokumovie",
+  "owner": {
+    "repo": "https://github.com/Alixaind/Tokumovie",
+    "email": "daniriyadi190@gmail.com"
+  },
+  "record": {
+    "CNAME": "Alixaind.github.io"
+  }
+}
