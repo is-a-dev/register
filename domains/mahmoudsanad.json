@@ -1,0 +1,11 @@
+{
+  "description": "My automation and n8n setup",
+  "domain": "is-a.dev",
+  "subdomain": "mahmoudsanad",
+  "owner": {
+    "email": "sanadmahmoud50@gmail.com"
+  },
+  "record": {
+    "A": ["192.168.1.14"]
+  }
+}
