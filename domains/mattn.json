@@ -5,6 +5,6 @@
     "email": "mattn.jp@gmail.com"
   },
   "records": {
-    "CNAME": "cname.compile-error.net"
+    "A": "151.145.70.214"
   }
 }
