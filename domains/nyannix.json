@@ -6,6 +6,7 @@
     "twitter": "nixxlte"
   },
   "records": {
-    "CNAME": "nyannix.vercel.app"
+    "CNAME": "nyannix.vercel.app",
+    "TXT": "vc-domain-verify=nyannix.is-a.dev,31ae4fed2cb8570d5f31"
   }
 }
