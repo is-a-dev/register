@@ -4,7 +4,6 @@
         "email": "contact.cheetah@tutamail.com"
     },
     "records": {
-        "CNAME": "cheetahdoesstuff.github.io",
         "NS": ["dakota.ns.cloudflare.com", "nina.ns.cloudflare.com"]
     }
 }
