@@ -4,7 +4,6 @@
         "email": "cheetah.buisness@proton.me"
     },
     "records": {
-        "CNAME": "cheetahdoesstuff.github.io",
         "NS": ["dakota.ns.cloudflare.com", "nina.ns.cloudflare.com"]
     }
 }
