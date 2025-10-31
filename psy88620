@@ -1,0 +1,12 @@
+{
+  "description": "외출증 관리 시스템을 위한 서브도메인",
+  "domain": "is-a.dev",
+  "subdomain": "schoolpass",
+  "owner": {
+    "username": "psy88620",
+    "email": "psy88620@gmail.com"
+  },
+  "record": {
+    "CNAME": "schoolpass.is-a.dev.cdn.cloudflare.net"
+  }
+}
