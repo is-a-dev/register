@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "ayushmaanFCB"
-    },
-    "records": {
-        "CNAME": "https://homeless-margalo-ayushmaan-personal-109aa799.koyeb.app"
-    }
+  "owner": {
+    "username": "ayushmaanFCB",
+    "email": "dasayush5maan@gmail.com"
+  },
+  "records": {
+    "CNAME": "homeless-margalo-ayushmaan-personal-109aa799.koyeb.app"
+  }
 }
