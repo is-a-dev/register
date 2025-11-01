@@ -1,0 +1,11 @@
+{
+  "description": "Umer's personal developer website",
+  "repo": "https://github.com/umer-sulehri",
+  "owner": {
+    "username": "umer-sulehri",
+    "email": "sulehriumer83@gmail.com"
+  },
+  "records": {
+    "CNAME": "https://umersulehri.netlify.app"
+  }
+}
