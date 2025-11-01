@@ -7,8 +7,8 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "CNAME": "snl-vps.mooo.com"
+    "A": ["212.132.120.14"]
   },
-  "proxied": true
+  "proxied": false
 }
   
