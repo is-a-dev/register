@@ -1,7 +1,10 @@
 {
   "description": "Personal portfolio website",
-  "repo": "https://github.com/ghous56/portfolio,
+  "repo": "https://github.com/ghous56/portfolio",
   "owner": {
     "username": "ghous56"
+  },
+  "record": {
+    "CNAME": "ghous56.github.io"
   }
 }
