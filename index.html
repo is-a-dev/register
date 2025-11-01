@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Sagni Rago, Web Developer">
+    <title>Sagni Rago - Web Developer & Designer</title>
+    <link rel="website icon" href="images/web-icon.png" type="image/png"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Modern Loader -->
+<div class="modern-loader">
+    <div class="loader-content">
+        <div class="profile-intro">
+            <div class="avatar-pulse">
+                <div class="avatar-ring"></div>
+                <div class="initials">SR</div>
+            </div>
+            <h2 class="typing-text">Sagni Rago</h2>
+            <p class="profession">Web & App Developer | Graphic Designer</p>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-track">
+                <div class="progress-bar"></div>
+                <div class="progress-dots">
+                    <div class="dot" style="--delay: 0"></div>
+                    <div class="dot" style="--delay: 0.2"></div>
+                    <div class="dot" style="--delay: 0.4"></div>
+                </div>
+            </div>
+            <div class="progress-text">Loading...</div>
+        </div>
+        
+        <div class="skill-badges">
+            <div class="badge" data-tooltip="Web Development">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="badge" data-tooltip="App Development">
+                <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="badge" data-tooltip="UI/UX Design">
+                <i class="fas fa-paint-brush"></i>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <!-- Header Section -->
+    <header id="header">
+        <div class="header-container">
+            <div class="header-left">
+                <img src="images/Scree.png" alt="Sagni Rago logo" loading="lazy">
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <nav class="header-right">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link active">HOME</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">ABOUT ME</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
+                    <li class="nav-item"><a href="#work" class="nav-link">WORK</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">CONTACT ME</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Mobile Menu Toggle -->
+            <button id="hamburger-icon" class="hamburger" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#home" class="nav-link active" onclick="toggleMobileMenu()">HOME</a></li>
+                <li><a href="#about" class="nav-link" onclick="toggleMobileMenu()">ABOUT ME</a></li>
+                <li><a href="#skills" class="nav-link" onclick="toggleMobileMenu()">SKILLS</a></li>
+                <li><a href="#work" class="nav-link" onclick="toggleMobileMenu()">WORK</a></li>
+                <li><a href="#contact" class="nav-link" onclick="toggleMobileMenu()">CONTACT ME</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero" >
+        <div class="hero-container">
+            <!-- Floating Tech Elements -->
+
+            <div class="floating-tech">
+                <div class="tech-icon html"><i class="fab fa-html5"></i></div>
+                <div class="tech-icon css"><i class="fab fa-css3-alt"></i></div>
+                <div class="tech-icon js"><i class="fab fa-js"></i></div>
+                <div class="tech-icon react"><i class="fab fa-react"></i></div>
+                <div class="tech-icon node"><i class="fab fa-node-js"></i></div>
+            </div>
+            
+            <!-- Particle JS Background -->
+            <div id="particles-js"></div>
+            
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="greeting-wrapper">
+                        <span class="greeting"><h3>Hey, I'm</h3></span>
+                        <h1 class="hero-name">Sagni Rago</h1>
+                    </div>
+                    
+                    <div class="dynamic-text-container">
+                        <h2 class="full">FULL STACK DEVELOPER</h2>
+                        <div class="typing-text">
+                            <span id="role" class="typing"></span>
+                            <span class="cursor">|</span>
+                        </div>
+                    </div>
+                    
+                    <p class="hero-subtitle">Building digital solutions that <span class="highlight-word">resonate</span>.</p>
+                    
+                    <div class="hero-buttons" id="hero-buttons">
+                        <a href="#contact" class="cta-button pulse-animation">
+                            <span>Let's Talk</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                        <a href="#work" class="secondary-button">
+                            <span>View Work</span>
+                            <i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image-container" id="hero-image-container">
+                    <div class="image-frame">
+                        <img src="images/me1-modifiedd.png" alt="Sagni Rago" class="hero-image" loading="lazy">
+                    </div>
+                    <div class="rotating-lines"></div>
+                    <div class="glow-effect"></div>
+                </div>
+            </div>
+            
+            <!-- Scroll Down Indicator -->
+            <div class="scroll-down" id="scroll-down">
+                <div class="mouse">
+                    <div class="wheel"  id="wheel"></div>
+                </div>
+                <div class="arrows">
+                    <span class="arrow"></span>
+                    <span class="arrow"></span>
+                    <span class="arrow"></span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Animated Background Shapes -->
+        <div class="background-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about" class="about-section">
+    <div class="container">
+        <h2 class="section-title" >About Me</h2>
+        <div class="section-divide"></div>
+        <div class="about-content">
+            <div class="about-text">
+                <div class="intro-content">
+<p class="intro-paragraph">Welcome to the digital frontier! ⚡️ I craft websites that fuse design, clean code, and strong security—built to look great and perform even better.</p>
+                    <!-- Enhanced Gallery -->
+                    <div class="gallery-container">
+                        <div class="gallery-track">
+                            <div class="gallery-slide active">
+                                <img src="images/hubkiyya.jpg" alt="when I miss Physics" loading="lazy">
+                                <div class="slide-caption"></div>
+                            </div>
+                             <div class="gallery-slide">
+                                <img src="images/kooti.png" alt="me" loading="lazy">
+                                <div class="slide-caption"></div>
+                            </div>
+                            <div class="gallery-slide">
+                                <img src="images/friend.jpg" alt="with friends" loading="lazy">
+                                <div class="slide-caption">With friends</div>
+                            </div>
+                           
+                           
+                        </div>
+                        <div class="gallery-controls">
+                            <button class="gallery-nav prev" aria-label="Previous image">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="gallery-dots">
+                                <button class="dot active" aria-label="Go to slide 1"></button>
+                                <button class="dot" aria-label="Go to slide 2"></button>
+                                <button class="dot" aria-label="Go to slide 3"></button>
+                            </div>
+                            <button class="gallery-nav next" aria-label="Next image">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+             . <span class="highlight">"Never give up"</span> isn't just a quote for me; it's a mantra I've seen manifested in my own journey.</p>
+                </div>
+                
+                <div class="full-content">
+                    <p class="expertise-paragraph">        Since 2022, I've been obsessed with optimizing every pixel and function because in this fast-evolving tech landscape, "good enough" is never enough.                   
+           While a formal education at Addis Ababa Science and Technology University provided a solid foundation, my true growth came from embracing the challenges of coding. I'm a self-taught developer who thrives on learning, pushing boundaries, and never giving upI've witnessed firsthand the power of perseverance, the way it fuels innovation and drives success.</p>
+                    
+                    <p class="skills-paragraph">My expertise lies in WordPress development and project coordination, coupled with a strong foundation in HTML, CSS, JavaScript, and others. I'm passionate about using these skills to create impactful websites that drive business growth. Whether it's building a user-friendly interface, optimizing for speed and security, or crafting a brand that resonates with your target audience, I'm dedicated to delivering results that exceed expectations.</p>
+                </div>
+                
+                <button class="see-more-btn">
+                    <span class="btn-text">See More</span>
+                    <i class="fas fa-chevron-down arrow-icon"></i>
+                </button>
+                
+                <div class="about-actions">
+                    <button id="resumeButton" class="resume-button">
+                        <span>View My Resume</span>
+                        <i class="fas fa-file-alt"></i>
+                    </button>
+                    <a href="images/my-resume.pdf" target="_blank" id="resumeLink" class="sr-only">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+
+ <!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <div class="container"> <h2 class="section-title" 
+style="margin-left: -10px;">Specialized Skills</h2>
+       
+        <p class="section-intro" style="color: rgb(93, 90, 90);">
+            I craft digital experiences that blend technical excellence with creative vision, delivering comprehensive solutions across web, mobile, and multimedia.
+        </p>
+        
+        <div class="skills-grid">
+            <!-- Web Development Card -->
+            <div class="skill-card">
+                <div class="rotating-border"></div>
+                <div class="skill-header">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-code skill-icon"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                </div>
+                <div class="skill-badge-container" >
+                    <span class="skill-badge pulse"><i class="fab fa-html5"></i > HTML</span>
+                    <span class="skill-badge pulse"><i class="fab fa-css3-alt"></i> CSS</span>
+                    <span class="skill-badge pulse"><i class="fab fa-js"></i> JavaScript</span>
+                    <span class="skill-badge pulse"><i class="fab fa-react"></i> React</span>
+                    <span class="skill-badge pulse"><i class="fab fa-node-js"></i> Node.js</span>
+                    <span class="skill-badge pulse"><i class="fab fa-php"></i> PHP</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar" data-width="90%"></div>
+                </div>
+            </div>
+
+            <!-- Mobile Development Card -->
+            <div class="skill-card">
+                <div class="rotating-border"></div>
+                <div class="skill-header">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-mobile-alt skill-icon"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                </div>
+                <div class="skill-badge-container">
+                    <span class="skill-badge pulse"><i class="fab fa-android"></i> Android</span>
+                    <span class="skill-badge pulse"><i class="fab fa-apple"></i> iOS</span>
+                    <span class="skill-badge pulse"><i class="fab fa-react"></i> React Native</span>
+                    <span class="skill-badge pulse"><i class="fas fa-mobile"></i> Flutter</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar" data-width="85%"></div>
+                </div>
+            </div>
+
+            <!-- Design & Media Card -->
+            <div class="skill-card">
+                <div class="rotating-border"></div>
+                <div class="skill-header">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-paint-brush skill-icon"></i>
+                    </div>
+                    <h3>Design & Media</h3>
+                </div>
+                <div class="skill-badge-container">
+                    <span class="skill-badge pulse"><i class="fas fa-pencil-ruler"></i> UI/UX</span>
+                    <span class="skill-badge pulse"><i class="fab fa-adobe"></i> Photoshop</span>
+                    <span class="skill-badge pulse"><i class="fab fa-adobe"></i> Premiere Pro</span>
+                    <span class="skill-badge pulse"><i class="fab fa-adobe"></i> Illustrator</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar" data-width="80%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="work" class="portfolio-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">My Creative Works</h2>
+            <div class="section-divide"></div>
+            <p class="section-description">Explore my collection of web development projects. Each piece combines clean code with innovative design to deliver exceptional user experiences.</p>
+        </div>
+        
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="web">Web Apps</button>
+            <button class="filter-btn" data-filter="converter">Converters</button>
+            <button class="filter-btn" data-filter="cultural">Cultural</button>
+        </div>
+        
+        <div class="portfolio-grid">
+              <!-- Project 0home turor -->
+            <div class="portfolio-item" data-category="home tutors">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="images/tutors.png" alt="sagnify">
+                        <div class="portfolio-links">
+                            <a href="https://sagnify.netlify.app/" target="_blank" class="preview-link" title="Live Demo"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-info">
+                        <h3>Sagnify App</h3>
+                        <p>Connecting Students with Local Tutors!</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- Project 1 - Calculator -->
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="images/calculator 2.png" alt="Voice Calculator App">
+                        <div class="portfolio-links">
+                            <a href="https://calculatorvoice.netlify.app/" target="_blank" class="preview-link" title="Live Demo"><i class="fas fa-eye"></i></a>
+                          
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Voice Calculator</h3>
+                        <p>Calculator with voice(afaan oromoo and english)</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 - Calendar Converter -->
+            <div class="portfolio-item" data-category="converter">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="images/kaalendera.png" alt="Calendar Converter">
+                        <div class="portfolio-links">
+                            <a href="https://tri-calendar.netlify.app/" target="_blank" class="preview-link" title="Live Demo"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-info">
+                        <h3>Calendar Converter</h3>
+                        <p>Date Conversion, Localization</p>
+                       
+                    </div>
+                </div>
+            </div>
+          
+            <!-- Project 3 - Hacaaluu -->
+            <div class="portfolio-item" data-category="cultural">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="images/hacee.png" alt="Hacaaluu Music">
+                        <div class="portfolio-links">
+                            <a href="https://Hacaaluu.netlify.app/" target="_blank" class="preview-link" title="Live Demo"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Hacaaluu Music</h3>
+                        <p>Audio Player, Gallery</p>
+                      
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4 - Language Learning -->
+            <div class="portfolio-item" data-category="cultural">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="images/afaan oromoo.png" alt="Afaan Oromoo Learning">
+                        <div class="portfolio-links">
+                            <a href="learn-afaan-oromoo-free" target="_blank" class="preview-link" title="Live Demo"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Afaan Oromoo Learning</h3>
+                        <p>Language Education</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="portfolio-cta">
+    <p>Want to see more of my work or discuss a project?</p>
+    <a href="#contact" class="cta-btn">
+        Here we go! <i class="fas fa-arrow-right"></i>
+    </a>
+</div>
+
+
+    </div>
+</section>
+
+   <!-- contact -->
+    <!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2 class="section-title" >Get In Touch</h2>
+        <p class="section-intro">
+            Let's create something amazing together! Reach out for collaborations, questions, or just to say hello.
+        </p>
+        
+        <div class="contact-container" >
+            <!-- Contact Information Card -->
+            <div class="contact-card">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-method">
+                        <div class="method-icon pulse">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="method-details">
+                            <h4>Email</h4>
+                            <a href="mailto:sagnirago2@gmail.com" class="contact-link">sagnirago2@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="method-icon pulse">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="method-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+251967396717" class="contact-link">+251 967 396 717</a>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="method-icon pulse">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="method-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/sagnirag" target="_blank" class="contact-link">Connect with me</a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            
+            <!-- Contact Form Card -->
+            <div class="contact-card">
+                <h4 class="section-intro" style="margin-top: 1.5rem; text-align: center;">
+                    Alternatively, you can reach out using the direct message form below. <i class="fas fa-comment-alt"></i>
+                </h4>
+                <br>
+                <div class="snake-border">
+                    <div class="border-top"></div>
+                    <div class="border-right"></div>
+                    <div class="border-bottom"></div>
+                    <div class="border-left"></div>
+                </div>
+                <link rel="stylesheet" href="Contact form to email.css">
+                <form onsubmit="sendMail(event)" id="contact-form" class="contact-form" name="submit-to-google-sheet">
+                 
+                    <div class="form-group floating">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="form-group floating">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="form-group floating">
+                        <textarea id="message" name="message" rows="3" required></textarea>
+                        <label for="message">Your Message</label>
+                        <div class="underline"></div>
+                    </div>
+                    <button type="submit" class="submit-button" id="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loader">
+                            <span class="loader-dot"></span>
+                            <span class="loader-dot"></span>
+                            <span class="loader-dot"></span>
+                        </span>
+                    </button>
+                    <div id="form-message" class="form-message" aria-live="polite"></div>
+                    <script>src="Contact form to email.js"</script>
+                </form>
+               
+            </div>
+            <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxHDgVhJiUytVoBkUB9EWEnT2LhfhZDyfWJf8imvjDYWFphyLoCvys8y9RVZo1f4Viv/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully. Galatoomaa!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+            
+            <!-- Social Media Hub -->
+            <div class="social-hub">
+                <h3 class="section-title">Connect With Me</h3>
+                <p class="section-intro">Follow my journey and see my latest work</p>
+                
+                <div class="social-grid">
+                    <a href="https://www.linkedin.com/in/sagnirag" target="_blank" class="social-card linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/sagnirago" target="_blank" class="social-card github">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://twitter.com/sagnirag" target="_blank" class="social-card twitter">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="https://www.facebook.com/sagnirag" target="_blank" class="social-card facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://t.me/sanyii_dev" target="_blank" class="social-card telegram">
+    <i class="fab fa-telegram"></i>
+    <span>Telegram</span>
+  </a>
+                    <a href="https://instagram.com/sagnirag" target="_blank" class="social-card instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+<script>
+    const backToTop = document.getElementById('back-to-top');
+
+window.addEventListener('scroll', function() {
+    if (window.pageYOffset > 300) {
+        backToTop.classList.add('show');
+    } else {
+        backToTop.classList.remove('show');
+    }
+});
+
+backToTop.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    // Feature 1: Flip Contact Card
+    const contactCards = document.querySelectorAll('.contact-card');
+    const flipButtons = document.querySelectorAll('.flip-btn');
+    
+    flipButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            contactCards.forEach(card => {
+                card.classList.toggle('hidden');
+            });
+        });
+    });
+
+    // Feature 2: Form Submission with Enhanced UI
+    const contactForm = document.getElementById('contact-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const btnText = submitBtn.querySelector('.btn-text');
+    const btnLoader = submitBtn.querySelector('.btn-loader');
+    const formMessage = document.getElementById('form-message');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Show loading state
+            submitBtn.disabled = true;
+            btnText.style.display = 'none';
+            btnLoader.style.display = 'flex';
+            
+            // Simulate form submission (replace with actual AJAX call)
+            setTimeout(() => {
+                // Show success message
+                formMessage.textContent = "Message sent successfully! I'll get back to you soon. Galatoomaa!";
+                formMessage.classList.add('success');
+                formMessage.style.display = 'block';
+                
+                // Reset form
+                contactForm.reset();
+                
+                // Reset button state
+                setTimeout(() => {
+                    submitBtn.disabled = false;
+                    btnText.style.display = 'block';
+                    btnLoader.style.display = 'none';
+                    formMessage.style.display = 'none';
+                }, 3000);
+                
+                // Feature 5: Trigger confetti celebration
+                triggerConfetti();
+            }, 2000);
+        });
+    }
+
+    // Feature 3: Mouse move effect for border
+    document.addEventListener('mousemove', (e) => {
+        const form = document.querySelector('.contact-card:not(.hidden)');
+        if (!form) return;
+        
+        const rect = form.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        
+        // Adjust border thickness based on cursor proximity
+        const borders = document.querySelectorAll('.snake-border div');
+        borders.forEach(border => {
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            const distance = Math.sqrt(Math.pow(x - centerX, 2) + Math.pow(y - centerY, 2));
+            const maxDistance = Math.sqrt(Math.pow(centerX, 2) + Math.pow(centerY, 2));
+            const thickness = Math.max(1, 3 * (1 - distance / maxDistance));
+            
+            if (border.classList.contains('border-top') || border.classList.contains('border-bottom')) {
+                border.style.height = `${thickness}px`;
+            } else {
+                border.style.width = `${thickness}px`;
+            }
+        });
+    });
+
+    // Feature 4: Floating label effect for form inputs
+    const floatingInputs = document.querySelectorAll('.form-group.floating input, .form-group.floating textarea');
+    
+    floatingInputs.forEach(input => {
+        // Check if input has value on page load
+        if (input.value) {
+            input.previousElementSibling.style.top = '-0.5rem';
+            input.previousElementSibling.style.fontSize = '0.8rem';
+            input.previousElementSibling.style.color = '#4361ee';
+        }
+        
+        input.addEventListener('focus', function() {
+            this.previousElementSibling.style.top = '-0.5rem';
+            this.previousElementSibling.style.fontSize = '0.8rem';
+            this.previousElementSibling.style.color = '#4361ee';
+            this.nextElementSibling.style.width = '100%';
+        });
+        
+        input.addEventListener('blur', function() {
+            if (!this.value) {
+                this.previousElementSibling.style.top = '1rem';
+                this.previousElementSibling.style.fontSize = '1rem';
+                this.previousElementSibling.style.color = 'rgba(255,255,255,0.7)';
+            }
+            this.nextElementSibling.style.width = '0%';
+        });
+    });
+
+    // Feature 5: Confetti Celebration
+    function triggerConfetti() {
+        const confettiContainer = document.querySelector('.confetti-container');
+        confettiContainer.innerHTML = '';
+        confettiContainer.style.display = 'block';
+        
+        // Create confetti particles
+        for (let i = 0; i < 100; i++) {
+            const confetti = document.createElement('div');
+            confetti.classList.add('confetti');
+            
+            // Random properties
+            const size = Math.random() * 10 + 5;
+            const color = `hsl(${Math.random() * 360}, 100%, 50%)`;
+            const left = Math.random() * 100;
+            const animationDuration = Math.random() * 3 + 2;
+            const delay = Math.random() * 5;
+            
+            confetti.style.width = `${size}px`;
+            confetti.style.height = `${size}px`;
+            confetti.style.background = color;
+            confetti.style.left = `${left}%`;
+            confetti.style.animationDuration = `${animationDuration}s`;
+            confetti.style.animationDelay = `${delay}s`;
+            
+            confettiContainer.appendChild(confetti);
+        }
+        
+        // Hide after animation
+        setTimeout(() => {
+            confettiContainer.style.display = 'none';
+        }, 5000);
+    }
+});
+</script>
+
+<!-- Footer -->
+<footer class="main-footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>&copy; <span id="current-year"></span> Sagni Rago. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+<!-- Back to Top Button -->
+<button id="back-top" class="back-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
