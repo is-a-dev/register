@@ -1,0 +1,11 @@
+{
+  "description": "SecureBank — a fault-tolerant cloud banking system with automated DNS failover using Render, GitHub Actions, and Cloudflare.",
+  "repo": "https://github.com/pranavyarragudi-dev/securebank",
+  "owner": {
+    "username": "pranavyarragudi-dev",
+    "email": "pranavyarragudi@gmail.com"
+  },
+  "record": {
+    "CNAME": "securebank-inhj.onrender.com"
+  }
+}
