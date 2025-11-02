@@ -4,6 +4,6 @@
         "email": "belderinternational@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=b.is-a.dev,07d7c7641673cba188b2"
     }
 }
