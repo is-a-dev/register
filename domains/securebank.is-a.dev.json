@@ -1,4 +1,6 @@
 {
+  "description": "SecureBank project with fault-tolerant hosting and DNS failover system.",
+  "repo": "https://github.com/pranavyarragudi-dev/securebank",
   "owner": {
     "username": "pranavyarragudi-dev",
     "email": "pranavyarragudi@gmail.com"
