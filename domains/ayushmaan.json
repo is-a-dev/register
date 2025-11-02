@@ -4,6 +4,6 @@
     "email": "dasayush5maan@gmail.com"
   },
   "records": {
-    "CNAME": "homeless-margalo-ayushmaan-personal-109aa799.koyeb.app"
+    "A": ["216.198.79.1"]
   }
 }
