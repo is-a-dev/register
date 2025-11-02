@@ -5,7 +5,7 @@
     "username": "pranavyarragudi-dev",
     "email": "pranavyarragudi@gmail.com"
   },
-  "record": {
-    "cname": "securebank-inhj.onrender.com"
+  "records": {
+    "CNAME": "securebank-inhj.onrender.com"
   }
 }
