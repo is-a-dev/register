@@ -4,6 +4,8 @@
     "email": "pprankur@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=prankurpandeyy.is-a.dev,6ed3ca410f755db75580"
+    "TXT": [
+      "vc-domain-verify=prankurpandeyy.is-a.dev,6ed3ca410f755db75580" 
+    ]
   }
 }
