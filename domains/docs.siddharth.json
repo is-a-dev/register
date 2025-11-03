@@ -8,5 +8,5 @@
     "CNAME": "b8dc3ca64b659a40.vercel-dns-017.com.",
     "TXT": "vc-domain-verify=docs.siddharth.is-a.dev,4f1858da957b68594875"
   },
-  "proxied": false
+  "proxied": true
 }
