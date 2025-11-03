@@ -2,9 +2,10 @@
   "description": "Personal portfolio website",
   "repo": "https://github.com/ghous56/portfolio",
   "owner": {
-    "username": "ghous56"
+    "username": "ghous56",
+    "email": "ghousbscs@gmail.com"
   },
   "records": {
-    "CNAME": "ghous56.github.io"
+    "CNAME": "ghousportfolio.netlify.app"
   }
 }
