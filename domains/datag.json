@@ -5,6 +5,8 @@
     "discord": "374945433010700288"
   },
   "records": {
-    "CNAME": "datag.github.io"
-  }
+    "CNAME": "datag.github.io",
+    "TXT": "google-site-verification=mElJLqlhcmyQv_rFaCpBtwPmAPBi2m6rQy3y2rhg-EI"
+  },
+  "proxied": true
 }
