@@ -4,6 +4,6 @@
         "email": "lntcu@duck.com"
     },
     "records": {
-        "CNAME": "ad43e23f8fb42140.vercel-dns-017.com."
+        "TXT": "vc-domain-verify=lntcu.is-a.dev,05ca2abc8897ff53f1a2"
     }
 }
