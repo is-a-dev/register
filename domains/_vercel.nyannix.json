@@ -6,6 +6,6 @@
     "twitter": "nixxlte"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=nyannix.is-a.dev,31ae4fed2cb8570d5f31"
   }
 }
