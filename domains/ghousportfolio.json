@@ -1,11 +1,12 @@
 {
-  "description": "Personal portfolio website",
-  "repo": "https://github.com/ghous56/portfolio",
+  "description": "Personal portfolio of Ghulam Ghous showcasing projects and skills.",
+  "domain": "is-a.dev",
+  "subdomain": "ghousportfolio",
   "owner": {
-    "username": "ghous56",
     "email": "ghousbscs@gmail.com"
   },
   "records": {
-    "CNAME": "ghousportfolio.netlify.app"
-  }
+    "CNAME": "ghous56.github.io"
+  },
+  "proxied": false
 }
