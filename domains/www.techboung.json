@@ -1,0 +1,10 @@
+{
+  "description": "HTTP Strict Transport Security (HSTS Pre-reload for techboung.is-a.dev)",
+  "owner": {
+    "username": "IceCant",
+    "email": "eartechboung@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
+}
