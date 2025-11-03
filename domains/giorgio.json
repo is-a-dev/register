@@ -4,6 +4,9 @@
     "email": "giorgiodabest1@gmail.com"
   },
   "records": {
-    "CNAME": "gio1112.github.io"
+    "CNAME": "gio1112.github.io",
+    "_github-pages-challenge-gio1112": {
+      "TXT": "1e9972d6cd6b6e4b8e675f68f84e811146"
+    }
   }
 }
