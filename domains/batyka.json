@@ -1,0 +1,12 @@
+{
+  "description": "This subdomain is for my personal projects and mail forwarding.",
+  "owner": {
+    "username": "linuxgang-win",
+    "email": "inoagentik2011@incyberia.net",
+    "discord": "batyka0"
+  },
+  "records": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}
