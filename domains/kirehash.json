@@ -1,6 +1,9 @@
 {
+  "description": "kirehash's website",
+  "repo": "https://github.com/kirehash-p/githubpage",
   "owner": {
-    "username": "kirehash-p"
+    "username": "kirehash-p",
+    "email": "kirehash.d@gmail.com"
   },
   "records": {
     "CNAME": "kirehash-p.github.io"
