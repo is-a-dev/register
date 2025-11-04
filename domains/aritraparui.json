@@ -1,0 +1,11 @@
+{
+  "description": "Aritra Parui's portfolio site",
+  "subdomain": "aritraparui",
+  "owner": {
+    "email": "aritraparui08@gmail.com",
+    "github": "aritraparui"
+  },
+  "record": {
+    "CNAME": "aritraparui.github.io"
+  }
+}
