@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "hoai.lt@ttgvn.com",  // Thay bằng username GitHub của bạn (bắt buộc)
+    "email": "hoai.lt@ttgvn.com"   // Optional, nhưng nên thêm để verify
+  },
+  "records": {
+    "CNAME": "hjk0apar0q9.sn.mynetname.net"  // Target forward, thay nếu khác cho từng subdomain
+  },
+  "proxied": true  // Optional: Bật để dùng Cloudflare proxy (HTTPS, bảo mật – khuyến nghị)
+}
