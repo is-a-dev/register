@@ -1,0 +1,11 @@
+{
+  "description": "Portfolio website for ArchiNova Interiors by Gaurav Sharma",
+  "domain": "is-a.dev",
+  "subdomain": "archinova",
+  "owner": {
+    "email": "archinova1317@gmail.com"
+  },
+  "records": {
+    "CNAME": "archinova1317.github.io"
+  }
+}
