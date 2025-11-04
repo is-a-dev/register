@@ -4,6 +4,6 @@
         "email": "adeakbarmag25@gmail.com"
     },
     "records": {
-        "CNAME": "adeak-bar25.github.io"
+        "A": ["75.2.60.5"]
     }
 }
