@@ -1,6 +1,4 @@
 {
-  "description": "Subdominio para mi túnel Cloudflare",
-  "subdomain": "villa",
   "owner": {
     "email": "giovannysalas42@gmail.com",
     "github": "VillaDev42"
