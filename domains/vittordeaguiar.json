@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "vittordeaguiar"
+    },
+    "records": {
+      "A": "216.198.79.1",
+      "TXT": {
+        "_vercel": "vc-domain-verify=vittordeaguiar.is-a.dev,a86f7a086b171bd98ffd"
+      }
+  }
+}
