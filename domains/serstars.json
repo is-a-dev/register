@@ -2,10 +2,9 @@
   "repo": "https://github.com/SerStars/SerStars.github.io",
   "owner": {
     "username": "SerStars",
-    "email": "",
     "twitter": "SerStars_lol"
   },
-  "record": {
+  "records": {
     "CNAME": "serstars.github.io"
   }
 }

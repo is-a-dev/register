@@ -1,11 +1,9 @@
 {
-  "description": "My Portfolio Site",
-  "repo": "https://github.com/TartejBrothers/Tarloic",
   "owner": {
     "username": "tartejbrothers",
     "email": "taranjeetsinghbedi2@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "tarloic.web.app"
   }
 }

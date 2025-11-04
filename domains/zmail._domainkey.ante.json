@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "antebrl",
+    "email": "ahcwnh@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhuQQB2z2hhaKm7tV8iUB5N80n2yRsl8Iiny6S9wlj7s7M+fIZDNS7nUV3nXUFO7J2oqaTvW1sfWHU26xGZNAAz4MRlBss+3YB3gQrvc9xF/Cnuf9RqY1FA9P8pXJJFLVZhTQXup1f3SwcnEgPxm/ekCxHt/5KUOcZL1g4FQaaIQIDAQAB"
+  }
+}

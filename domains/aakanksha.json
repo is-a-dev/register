@@ -1,11 +1,9 @@
 {
-  "description": "Aakanksha's .is-a.dev domain",
-  "repo": "https://github.com/aakankshabhende/aakankshabhende.github.io",
   "owner": {
     "username": "aakankshabhende",
     "email": "aakanksha0407@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "aakankshabhende.github.io"
   }
 }

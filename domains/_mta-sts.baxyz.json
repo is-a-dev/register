@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "baxyz",
+    "email": "baxyz@etik.com"
+  },
+  "records": {
+    "CNAME": "mta-sts.tutanota.de"
+  },
+  "proxied": false
+}

@@ -1,51 +1,48 @@
+<!-- <p align="center">
+   <img alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
+</p> -->
+
 <p align="center">
-   <img alt="is-a-dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
+   <img height="350" alt="is-a.dev Octoverse 2025 Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/octoverse-2025/is-a-dev_register_1200x630.jpg">
 </p>
 
 <p align="center">
    <img alt="Domains" src="https://img.shields.io/github/directory-file-count/is-a-dev/register/domains?color=5c46eb&label=domains&style=for-the-badge">
    <img alt="Open Pull Requests" src="https://img.shields.io/github/issues-raw/is-a-dev/register?color=5c46eb&label=issues&style=for-the-badge">
    <img alt="Open Issues" src="https://img.shields.io/github/issues-pr-raw/is-a-dev/register?color=5c46eb&label=pull%20requests&style=for-the-badge">
+   <br>
 </p>
 
 <h1 align="center">is-a.dev</h1>
 
-<p align="center"><strong>is-a-dev</strong> is a service that allows developers to get a sweet-looking ".is-a.dev" domain for their personal websites.</p>
+<p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking <code>.is-a.dev</code> subdomain for their personal websites.</p>
 
-<p align="center">
-   <a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
-</p>
+---
 
-## Issues
-If you have any problems, feel free to [open a issue](https://github.com/is-a-dev/register/issues/new/choose).
+## Announcements
+Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for announcements, service updates, and downtime notifications regarding the service.
 
-If you have an issue that contains confidental infomation, send an email to security@maintainers.is-a.dev.
+Not all announcements are posted on GitHub[^1], however they will always be posted in our Discord server.
 
-## Register
+[^1]: We only post announcements on GitHub in the case of a serious incident, which you'll see at the top of this README.
 
-### Manual Registration
-- [Fork](https://github.com/is-a-dev/register/fork) this repository.
-- Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`.
-- [Read the documentation](https://www.is-a.dev/docs).
-- Your pull request will be reviewed and merged. *Make sure to keep an eye on it incase we need you to make any changes!*
-- After the pull request is merged, please allow up to 24 hours for the changes to propagate.
-- Enjoy your new `.is-a.dev` domain!
+# Register
+> If you want a visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
 
-### Automated Registration
-#### *When using the manage site, please ensure your records are valid. Please do NOT "test" out the manage site and create invalid PRs, it wastes maintainers' time.*
+- [Fork](https://github.com/is-a-dev/register/fork) the repository.
+- Follow the instructions on our [documentation](https://docs.is-a.dev).
+- Once you open your pull request (PR), it will be reviewed. *Keep an eye on it in case changes are needed!*
+   - If changes have been requested, please make the specified changes otherwise **you will be rejected**.
+- Once your PR is merged, your DNS records should be published with-in a few minutes.
+- Enjoy your new `.is-a.dev` subdomain! Please consider leaving a star ⭐️ to help support us!
 
-Easiest method: Use the [manage website](https://manage.is-a.dev), sign in with your GitHub account and click the register page in the navbar. Fill out some questions and it will all happen automatically!
+## Report Abuse
+If you find any subdomains being abused or breaking our TOS, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with relevant evidence.
 
-Another method is to join our [Discord server](https://discord.gg/PZCGHz4RhQ), head to the commands channel and run `/register`. The bot will ask you a few questions then will generate your PR and domain automatically. The bot also allows for domain deletion and editing.
+---
 
-## Status
-You can check the uptime of our services on our [status dashboard](https://is-a-dev.wdh.gg).
+We are supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) sponsorship program, we would not be able to operate without their help!
 
-### Donate
-If you like this project, please consider donating so we can keep this project running forever!
-
-<a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me a Coffee" height="28" width="119"></a>
-<a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" alt="Liberapay"></a>
-
-### Similar Services
-If you want to find services similar to is-a.dev, take a look on [Free For Life](https://github.com/wdhdev/free-for-life#domains).
+<a href="https://www.cloudflare.com">
+   <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="48">
+</a>

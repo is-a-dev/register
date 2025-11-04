@@ -1,0 +1,10 @@
+{
+  "description": "Subdomain for personal use to present myself",
+  "owner": {
+    "username": "pashigin",
+    "telegram": "pashigin"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
+}

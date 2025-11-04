@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "ReBlast",
-        "email": "",
-        "discord": "poxuizm"
-    },
-    "record": {
-        "CNAME": "axeon.pages.dev"
-    }
+  "owner": {
+    "username": "vyfor",
+    "discord": "vyfor"
+  },
+  "records": {
+    "CNAME": "axeon.pages.dev"
+  }
 }

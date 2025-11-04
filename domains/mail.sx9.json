@@ -1,12 +1,10 @@
 {
-  "description": "SX's Email",
-  "repo": "https://sx9.is-a.dev",
   "owner": {
     "discord": "SX-Spy-Agent#1377",
     "email": "sx-91@outlook.com",
     "username": "SX-9"
   },
-  "record": {
+  "records": {
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
