@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "iMoloy",
+    "email": "moloykrishnapaul@gmail.com"
+  },
+  "record": {
+    "CNAME": "imoloy.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "improvmx-verification=your-verification-code"
+  }
+}
