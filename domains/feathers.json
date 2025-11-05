@@ -1,0 +1,10 @@
+{
+  "description": "Feathers project frontend",
+  "subdomain": "feathers",
+  "owner": {
+    "email": "stonefrozen096@gmail.com"
+  },
+  "record": {
+    "CNAME": "feathers-frontend.onrender.com"
+  }
+}
