@@ -6,5 +6,16 @@
     },
     "records": {
         "CNAME": "myporto-7ed.pages.dev"
+    },
+    "redirect_config": {
+        "custom_paths": {
+            "/github": "https://github.com/buubub",
+            "/linkedin": "https://linkedin.com/in/bobby-kwariawan",
+            "/upwork": "https://www.upwork.com/freelancers/~019ba6cf3bee2b43a2",
+            "/fastwork": "https://fastwork.id/user/bobbykwa",
+            "/facebook": "BobbyKwariawan",
+            "/instagram": "bobbykwa"
+        },
+        "redirect_paths": true
     }
 }
