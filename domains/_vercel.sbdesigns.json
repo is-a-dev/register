@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "sb-designs",
+    "email": "hello@sbdesigns.spike.team"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=go.sbdesigns.is-a.dev,9a7470b875ef02ad42f5", "vc-domain-verify=inmotion.sbdesigns.is-a.dev,f38dc075d76bb4166ce6"]
+  }
+}

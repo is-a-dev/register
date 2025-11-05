@@ -4,6 +4,6 @@
     "discord": "1252631745514180790"
   },
   "records": {
-    "CNAME": "letum.pages.dev"
+    "NS": ["rosalie.ns.cloudflare.com", "rustam.ns.cloudflare.com"]
   }
 }

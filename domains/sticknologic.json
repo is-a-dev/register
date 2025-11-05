@@ -7,14 +7,12 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "A": ["65.19.154.90"],
-    "AAAA": ["2001:470:1:1ee::1002"],
+    "A": ["212.132.120.14"],
     "MX": [
-      { "target": "sticknologic.is-a.dev", "priority": 0 }
+      "mx1.forwardemail.net", "mx2.forwardemail.net"
     ],
     "TXT": [
-      "v=spf1 ip4:65.19.154.90 ip6:2001:470:1:1ee::1002 ~all"
+      "v=spf1 include:spf.mailjet.com include:spf.forwardemail.net ~all", "forward-email=MGZmZDVhMmE4Y2U0YmU3Ni1lNWE4MjcwNDk1YzE3Mzg5M2IwOGJhMGJjNjE3NzM2YjZiNjRmNWJkOGQ0YjczYzdhYWExN2JlOTQxMzZkOGY2"
     ]
-  },
-  "proxied": true
+  }
 }
