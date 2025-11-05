@@ -5,6 +5,7 @@
     "discord": "804397662467915777"
   },
   "records": {
-    "TXT": ["vc-domain-verify=siddharth.is-a.dev,5b334303ef3dfd64b557", "vc-domain-verify=docs.siddharth.is-a.dev,4f1858da957b68594875"]
-  }
+    "CNAME": "b8dc3ca64b659a40.vercel-dns-017.com"
+  },
+  "proxied": false
 }

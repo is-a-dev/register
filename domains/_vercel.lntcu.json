@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "lntcu",
+        "email": "lntcu@duck.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=lntcu.is-a.dev,05ca2abc8897ff53f1a2"
+    }
+}
