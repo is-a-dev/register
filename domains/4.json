@@ -18,6 +18,6 @@
       "TXT": [
         "v=spf1 include:spf.improvmx.com ~all"
       ],
-      "CNAME": "lonely.is-a.dev"
+      "URL": "https://lonely.is-a.dev"
     }
   }
