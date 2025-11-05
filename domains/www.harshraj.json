@@ -1,10 +1,11 @@
 {
     "owner": {
-      "username": "darkphoenix92",
+      "username": "LonelyGuy12",
       "email": "phoenex659@gmail.com"
     },
     "records": {
       "CNAME": "darkphoenix92.github.io"
-    }
+    },
+    "proxied": true
   }
   

@@ -1,6 +1,6 @@
   {
     "owner": {
-      "username": "darkphoenix92",
+      "username": "LonelyGuy12",
       "email": "me@harshraj.is-a.dev",
       "discord": "886120777630486538"
     },
@@ -19,5 +19,6 @@
         "v=spf1 include:spf.improvmx.com ~all"
       ],
       "CNAME": "darkphoenix92.github.io"
-    }
+    },
+    "proxied": true
   }
