@@ -1,19 +1,23 @@
-{
+  {
     "owner": {
       "username": "darkphoenix92",
       "email": "me@harshraj.is-a.dev",
       "discord": "886120777630486538"
     },
     "records": {
-      "@": {
-        "MX": [
-          { "target": "mx1.improvmx.com", "priority": 10 },
-          { "target": "mx2.improvmx.com", "priority": 20 }
-        ],
-        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
-      },
-      "www": {
-        "CNAME": "darkphoenix92.github.io"
-      }
+      "MX": [
+        {
+          "target": "mx1.improvmx.com",
+          "priority": 10
+        },
+        {
+          "target": "mx2.improvmx.com",
+          "priority": 20
+        }
+      ],
+      "TXT": [
+        "v=spf1 include:spf.improvmx.com ~all"
+      ],
+      "CNAME": "darkphoenix92.github.io"
     }
   }
