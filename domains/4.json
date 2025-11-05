@@ -18,7 +18,6 @@
       "TXT": [
         "v=spf1 include:spf.improvmx.com ~all"
       ],
-      "CNAME": "lonelyguy12.github.io"
-    },
-    "proxied": true
+      "CNAME": "lonely.is-a.dev"
+    }
   }
