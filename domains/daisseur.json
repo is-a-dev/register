@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "daisseur"
+        "username": "daisseur",
+        "email": "daisseur@gmail.com"
     },
     "records": {
         "CNAME": "daisseur.xyz"
