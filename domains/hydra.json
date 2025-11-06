@@ -4,6 +4,7 @@
         "email": "themaskedprogrammer1234@gmail.com"
     },
     "records": {
-        "CNAME": "hydra.github.io"
+        "A": ["75.2.60.5"]
     }
+
 }
