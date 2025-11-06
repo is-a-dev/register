@@ -4,6 +4,7 @@
         "email": "christos.daglaroglou@gmail.com"
     },
     "records": {
-        "CNAME": "daglaroglou.github.io"
+        "CNAME": "daglaroglou.github.io",
+        "TXT": "a8df4b105b51bfdcc39e45149cf6d3"
     }
 }
