@@ -1,11 +1,9 @@
 {
-    "description": "Yuksel Beyti's personal developer website",
-    "repo": "https://github.com/yuks/yuks.github.io",
-    "owner": {
-        "username": "yuks",
-        "email": "admin@yukselbeyti.com"
-    },
-    "record": {
-        "CNAME": "yuks.github.io"
-    }
+  "owner": {
+    "username": "yuks",
+    "email": "admin@yukselbeyti.com"
+  },
+  "records": {
+    "CNAME": "yuks.github.io"
+  }
 }

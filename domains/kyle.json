@@ -1,10 +1,9 @@
 {
-    "description": "My CDN",
     "owner": {
-        "username": "JavaScriptpy",
-        "email": "zerotwo.on.discord@gmail.com"
+        "username": "kylepillay",
+        "email": "kylepillay@gmail.com"
     },
-    "record": {
-        "CNAME": "4610390a-31b4-45f7-9a4a-4c75e28ecfbd.repl.co"
+    "records": {
+       "A": ["216.198.79.1"]
     }
 }

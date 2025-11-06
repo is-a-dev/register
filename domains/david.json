@@ -1,11 +1,10 @@
 {
-    "description": "Student and developer in the United Kingdom.",
-    "repo": "https://github.com/davidjcralph",
-    "record": {
-        "URL": "https://davidjcralph.co.uk"
-    },
-    "owner": {
-        "username": "davidjcralph",
-        "email": "me@davidjcralph.co.uk"
-    }
+  "description": "David V. Kimball",
+  "owner": {
+    "username": "davidvkimball",
+    "twitter": "davidvkimball"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

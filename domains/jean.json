@@ -1,12 +1,9 @@
 {
-    "description": "A website showcasing all of Jean's work",
-    "repo": "https://github.com/EmperorJean/emperorjean.github.io",
     "owner": {
-        "username": "emperorjean",
-        "email": "",
-        "twitter": "emperorjean_"
+        "username": "j3qn",
+        "email": "jacklogands@gmail.com"
     },
-    "record": {
-        "CNAME": "emperorjean.github.io"
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
     }
 }

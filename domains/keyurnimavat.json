@@ -1,11 +1,8 @@
 {
-    "description": "keyur Profile.",
-    "repo": "https://github.com/keyurnimavat/keyurnimavat.github.io",
-    "owner": {
-        "username": "keyurnimavat",
-        "email": ""
-    },
-    "record": {
-        "CNAME": "keyurnimavat.github.io"
-    }
+  "owner": {
+    "username": "keyurnimavat"
+  },
+  "records": {
+    "CNAME": "keyurnimavat.github.io"
+  }
 }

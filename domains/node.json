@@ -1,12 +1,8 @@
 {
-    "description": "Personal website",
-    "repo": "https://github.com/node0505/node0505.github.io",
     "owner": {
-        "username": "node0505",
-        "email": "",
-        "discord": "node#0505"
+        "username": "node"
     },
-    "record": {
-        "CNAME": "node0505.github.io"
+    "records": {
+        "CNAME": "node.github.io"
     }
 }

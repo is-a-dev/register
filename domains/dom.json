@@ -1,9 +1,8 @@
 {
     "owner": {
-        "username": "DominicFilice",
-        "email": "dominic@filiceenterprises.com"
+        "username": "dominikmuellr"
     },
-    "record": {
-        "URL": "https://dsc.gg/minecraftanarchy"
+    "records": {
+        "CNAME": "dominikmuellr.github.io"
     }
 }

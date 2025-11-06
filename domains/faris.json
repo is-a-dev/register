@@ -1,11 +1,9 @@
 {
-    "repo": "https://github.com/farisjalal",
     "owner": {
-        "username": "farisjalal",
-        "email": "",
-        "twitter": "faris__jalal"
+        "username": "yowRiss",
+        "email": "personal@riss.me"
     },
-    "record": {
-        "A": ["168.138.104.44"]
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
     }
 }

@@ -1,11 +1,10 @@
 {
-    "description": "Alexander's personal website",
-    "repo": "https://github.com/amatzen",
-    "owner": {
-        "username": "amatzen",
-        "email": "alexander@alexander.dk"
-    },
-    "record": {
-        "CNAME": "alexander.dk"
-    }
+  "description": "Alexander's professional profile portfolio",
+  "owner": {
+    "username": "aalexlpez",
+    "email": "aalexlpez@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-alex-xi.vercel.app"
+  }
 }

@@ -1,11 +1,9 @@
 {
-    "description": "thewickedkarma's portfolio",
-    "repo": "https://github.com/thewickedkarma/thewickedkarma.github.io",
-    "owner": {
-        "username": "thewickedkarma",
-        "email": "thewickedkarma@gmail.com"
-    },
-    "record": {
-        "CNAME": "thewickedkarma.github.io"
-    }
+  "owner": {
+    "username": "thewickedkarma",
+    "email": "thewickedkarma@gmail.com"
+  },
+  "records": {
+    "CNAME": "thewickedkarma.github.io"
+  }
 }

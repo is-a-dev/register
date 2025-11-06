@@ -1,10 +1,9 @@
 {
-    "description": "Kshitij Subedi",
     "owner": {
-        "username": "kshitijsubedi",
-        "email": "2subedikshitij@gmail.com"
+        "username": "Morph23",
+        "email": "kshitijdutta02@gmail.com"
     },
-    "record": {
-        "CNAME": "kshitijsubedi.com.np"
+    "records": {
+        "CNAME": "morph23.github.io"
     }
 }

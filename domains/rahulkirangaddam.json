@@ -1,11 +1,9 @@
 {
-    "description": "Rahul Kiran Gaddam Profile",
-    "repo": "https://github.com/rahgadda/rahgadda.github.io",
-    "owner": {
-        "username": "rahgadda",
-        "email": "gaddam.rahul@gmail.com"
-    },
-    "record": {
-        "CNAME": "rahgadda.github.io"
-    }
+  "owner": {
+    "username": "rahgadda",
+    "email": "gaddam.rahul@gmail.com"
+  },
+  "records": {
+    "CNAME": "rahgadda.github.io"
+  }
 }

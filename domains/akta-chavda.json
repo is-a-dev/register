@@ -1,11 +1,8 @@
 {
-    "description": "ankita chavda.",
-    "repo": "https://github.com/akta-chavda/akta-chavda.github.io",
-    "owner": {
-        "username": "akta-chavda",
-        "email": ""
-    },
-    "record": {
-        "CNAME": "akta-chavda.github.io"
-    }
+  "owner": {
+    "username": "akta-chavda"
+  },
+  "records": {
+    "CNAME": "akta-chavda.github.io"
+  }
 }

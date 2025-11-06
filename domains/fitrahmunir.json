@@ -1,0 +1,10 @@
+{
+  "description": "FitrahFM's .is-a.dev domain",
+  "owner": {
+    "username": "fitrahfm",
+    "email": "fitrhmnr+is-a-dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "fitrahmunir.pages.dev"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Personal portfolio",
+  "owner": {
+    "username": "Ostrichization",
+    "email": "abhilashk1@proton.me",
+    "twitter": "OstrichHimself"
+  },
+  "records": {
+    "CNAME": "ostrichization.github.io"
+  }
+}

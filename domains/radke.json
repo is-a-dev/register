@@ -3,8 +3,7 @@
         "username": "radekw8733",
         "email": "radekw8733@gmail.com"
     },
-    "repo": "https://github.com/radekw8733/radke.is-a.dev",
-    "record": {
-        "CNAME": "radkerouter.ddns.net"
+    "records": {
+        "CNAME": "radke.duckdns.org"
     }
 }

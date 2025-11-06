@@ -1,11 +1,9 @@
 {
-    "description": "Steven Frohlich's portfolio",
-    "repo": "https://github.com/StevenRonnyFrohlich/StevenRonnyFrohlich.github.io",
     "owner": {
-        "username": "StevenRonnyFrohlich",
-        "email": "steve.r.frohlich@gmail.com"
+        "username": "stevenld165",
+        "email": "stevenld165@gmail.com"
     },
-    "record": {
-        "CNAME": "StevenRonnyFrohlich.github.io"
+    "records": {
+        "A": ["75.2.60.5"]
     }
 }

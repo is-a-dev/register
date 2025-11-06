@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "integr-dev",
+    "email": "integr@integr.cloud",
+    "discord": "integr_"
+  },
+  "records": {
+    "CNAME": "integr-dev.github.io"
+  }
+}

@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "johanoloflindberg",
-        "email": "johan@webbab.se"
-    },
-
-    "record": {
-        "URL": "https://webb.io"
-    }
+  "owner": {
+    "username": "oliverkwebb",
+    "email": "oliverwebb8192@gmail.com"
+  },
+  "records": {
+    "CNAME": "oliverkwebb.github.io"
+  }
 }

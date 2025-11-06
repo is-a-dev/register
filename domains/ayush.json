@@ -1,12 +1,9 @@
 {
-    "description": "My Website",
-    "repo": "https://github.com/Itzayushzz/Itzayushzz.github.io",
-    "owner": {
-        "username": "Itzayushzz",
-        "email": "",
-        "discord": "Ayush_Ezz#6057"
-    },
-    "record": {
-        "CNAME": "itzayushzz.github.io"
-    }
+  "owner": {
+    "username": "Itzayushzz",
+    "discord": "Ayush_Ezz#6057"
+  },
+  "records": {
+    "CNAME": "itzayushzz.github.io"
+  }
 }

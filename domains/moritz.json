@@ -1,11 +1,10 @@
 {
-    "description": "Website of Moritz Friedrich.",
-    "repo": "https://github.com/Radiergummi/Radiergummi",
-    "owner": {
-        "username": "Radiergummi",
-        "email": "m@9dev.de"
-    },
-    "record": {
-        "URL": "https://www.moritzfriedrich.com"
-    }
+  "owner": {
+      "username": "OfficialSmojo17",
+      "email": "smmojo17@gmail.com",
+      "discord": "mapperdotexe"
+  },
+  "records": {
+    "URL": "https://officialsmojo17.github.io"
+  }
 }

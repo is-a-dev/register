@@ -1,12 +1,10 @@
 {
-    "description": "My Personal Landing Page!",
-    "repo": "https://github.com/adityaasyadav/aditya",
-    "owner": {
-        "username": "adityaasyadav",
-        "email": "ishqaddy@gmail.com",
-        "twitter": "adityaasyadav"
-    },
-    "record": {
-        "CNAME": "adityaasyadav.github.io"
-    }
+  "description": "Aditya portfolio",
+  "owner": {
+    "username": "raghav-45",
+    "email": "raghavbhai4545@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  }
 }
