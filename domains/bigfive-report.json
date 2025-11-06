@@ -1,9 +1,11 @@
 {
   "description": "Big Five Personality Test website built with React.",
+  "repo": "https://github.com/jiaeva/register",
   "owner": {
+    "username": "jiaeva",
     "email": "evainmail@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ocean-report.zeabur.app"
   }
 }
