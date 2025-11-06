@@ -6,7 +6,8 @@
     "instagram": "@Huskynarr"
   },
   "records": {
-    "CNAME": "huskynarr.github.io"
+    "CNAME": "huskynarr.github.io",
+    "TXT": "keybase-site-verification=OPYQ3YLB_JCVDblEPdCCjmd6Eev9q-MJ0nJ9A10x9aI"
   },
-  "proxied": false
+  "proxied": true
 }
