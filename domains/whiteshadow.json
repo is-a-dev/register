@@ -1,10 +1,10 @@
 {
-  "description": "WhiteShadow MD main bot site hosted on Render",
-  "repo": "https://github.com/chamodnimsara",
+  "description": "WhiteShadow Pair Site hosted on Heroku",
+  "repo": "https://github.com/chamodxxc/newpair",
   "owner": {
-    "username": "chamodnimsara"
+    "username": "chamodxxc"
   },
   "record": {
-    "CNAME": "whiteshadow-md-main.onrender.com"
+    "CNAME": "whiteshadow-8182be1f6ed6.herokuapp.com"
   }
 }
