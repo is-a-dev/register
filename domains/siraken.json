@@ -6,15 +6,5 @@
   },
   "records": {
     "CNAME": "is-a-dev.siraken.net"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/x": "https://x.com/siraken0411",
-      "/github": "https://github.com/siraken",
-      "/youtube": "https://www.youtube.com/@siraken",
-      "/twitch": "https://www.twitch.tv/siraken0411",
-      "/company": "https://www.novalumo.com/"
-    },
-    "redirect_paths": true
   }
 }
