@@ -1,12 +1,10 @@
 {
   "description": "Hari Prasath's developer portfolio",
-  "domain": "is-a.dev",
-  "subdomain": "haricreator",
   "owner": {
-    "repo": "https://github.com/stonefrozen096-collab/hari-portfolio",
+    "username": "stonefrozen096-collab",
     "email": "stonefrozen096@gmail.com"
   },
   "records": {
-    "CNAME": "stonefrozen096-collab.github.io."
+    "CNAME": "stonefrozen096-collab.github.io"
   }
 }
