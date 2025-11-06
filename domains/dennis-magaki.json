@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "DennisMagaki",
-    "email": "dennismagaki.26@gmail.com"
-  },
-  "records": {
-    "CNAME": "dennis-magaki.vercel.app"
-  }
+    "owner": {
+        "username": "dennismagaki",
+        "email": "dennismagaki.26@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
