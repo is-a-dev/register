@@ -1,0 +1,10 @@
+{
+  "description": "WhiteShadow MD main bot site hosted on Render",
+  "repo": "https://github.com/chamodnimsara",
+  "owner": {
+    "username": "chamodnimsara"
+  },
+  "record": {
+    "CNAME": "whiteshadow-md-main.onrender.com"
+  }
+}
