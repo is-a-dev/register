@@ -1,4 +1,4 @@
-
+{
   "description": "Sand Study - Timer app for focused work sessions",
   "repo": "https://github.com/zrPchan/Sand-Study",
   "owner": {
@@ -8,4 +8,4 @@
   "record": {
     "CNAME": "cname.vercel-dns.com"
   }
-
+}
