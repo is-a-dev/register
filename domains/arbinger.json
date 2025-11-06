@@ -5,6 +5,6 @@
   },
   "records": {
     "TXT": "resend._domainkey.arbinger",
-    "cname":"https://thomas-iniguez-visioli.github.io/"
+    "CNAME":"thomas-iniguez-visioli.github.io"
   }
 }
