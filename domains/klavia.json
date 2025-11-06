@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Hihshshhs"
+    "username": "Hihshshhs",
+    "email": "yizhes72@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "klavia.netlify.app"
   }
 }
