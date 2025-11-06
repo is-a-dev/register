@@ -1,0 +1,10 @@
+{
+  "description": "qk Cloudflare Tunnel",
+  "subdomain": "qawsserver24x",
+  "owner": {
+    "email": "quickdigi0official@outlook.com"
+  },
+  "record": {
+    "CNAME": "80551f12-f275-45db-bbf0-8ffebc7aa716.cfargotunnel.com"
+  }
+}
