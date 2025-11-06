@@ -4,6 +4,7 @@
     "email": "alphaleadershipyt@protonmail.com"
   },
   "records": {
-    "TXT": "Some verification text"
+    "TXT": "resend._domainkey.arbinger",
+    "cname":"https://thomas-iniguez-visioli.github.io/"
   }
 }
