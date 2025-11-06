@@ -7,7 +7,6 @@
   "records": {
     "CNAME": "is-a-dev.siraken.net"
   },
-  "proxied": false,
   "redirect_config": {
     "custom_paths": {
       "/x": "https://x.com/siraken0411",
