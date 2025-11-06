@@ -1,0 +1,23 @@
+{
+    "owner": {
+      "username": "LonelyGuy12",
+      "email": "me@4.is-a.dev",
+      "discord": "886120777630486538"
+    },
+    "records": {
+      "MX": [
+        {
+          "target": "mx1.improvmx.com",
+          "priority": 10
+        },
+        {
+          "target": "mx2.improvmx.com",
+          "priority": 20
+        }
+      ],
+      "TXT": [
+        "v=spf1 include:spf.improvmx.com ~all"
+      ],
+      "URL": "https://lonely.is-a.dev"
+    }
+  }
