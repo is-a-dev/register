@@ -1,14 +1,8 @@
-{
-  "name": "multivrsx",
-  "domain": "multivrsx.is-a.dev",
-  "owner": {
-    "email": "themultiverseeyt@gmail.com"
-  },
-  "record": {
-    "CNAME": "oof5900junk.github.io"
-  },
-  "proxied": false
-}
-
-
-
+> @@ -0,0 +1,14 @@
++{
++  "name": "multivrsx",
++  "owner": {
++    "email": "themultiverseeyt@gmail.com"
++  },
+-  "record": {
++  "records": {
