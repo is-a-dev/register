@@ -1,0 +1,18 @@
+{
+  "description": "Subdomínio técnico usado exclusivamente para autenticação SPF, DKIM e DMARC do Brevo (Sendinblue). Nenhum conteúdo web hospedado.",
+  "subdomain": "mail.bdalmonico",
+  "owner": {
+    "username": "bdalmonico",
+    "email": "b.dalmonico@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "brevo-code:a9fcfd0fa7673158beb19acc01230760",
+      "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+    ],
+    "CNAME": {
+      "brevo1._domainkey": "b1.mail-bdalmonico-is-a-dev.dkim.brevo.com",
+      "brevo2._domainkey": "b2.mail-bdalmonico-is-a-dev.dkim.brevo.com"
+    }
+  }
+}
