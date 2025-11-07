@@ -8,6 +8,8 @@
   },
   "redirect_config": {
     "custom_paths": {
+      "/status": "https://status.m336.dev/status/m336",
+      
       "/youtube": "https://www.youtube.com/@M336",
       "/github": "https://github.com/M336G",
       "/twitter": "https://x.com/m336dev",
