@@ -1,0 +1,11 @@
+{
+  "description": "Dominio principal para portfolio y proyecto de integración Brevo con Frappe Framework.",
+  "subdomain": "bdalmonico",
+  "owner": {
+    "username": "bdalmonico",
+    "email": "b.dalmonico@gmail.com"
+  },
+  "record": {
+    "CNAME": "bdalmonico.github.io"
+  }
+}
