@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "isaacrobert-is-adev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=isaacrobert33.is-a.dev,1688a3dfda585e08298e"
   }
 }

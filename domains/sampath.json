@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=sampath.is-a.dev,2b8694fbc2f1811cbff4"
   }
 }

@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "jumanjiblogs.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=blog.jumanji.is-a.dev,27db21bc7b1a8b952003"
   }
 }

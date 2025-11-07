@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "tsanias.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=tsania.is-a.dev,cb5fadd5728a99eb3c4d"
   }
 }

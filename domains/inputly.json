@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "inputly.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=inputly.is-a.dev,650df8c4415b2035e3e3"
   }
 }

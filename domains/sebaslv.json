@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "sebaslv.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=sebaslv.is-a.dev,6ca8920001de10180ecf"
   }
 }

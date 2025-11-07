@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "ashishagarwal.netlify.app"
-  },
-  "services": {
-    "discord": "dh=d5e203382ac94458c0d7d26b4864676898e72ea0"
   }
 }

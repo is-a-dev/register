@@ -8,8 +8,5 @@
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   },
-  "proxied": true,
-  "services": {
-    "vercel": "vc-domain-verify=shockbs.is-a.dev,effffa7584f4e7aa0f82"
-  }
+  "proxied": true
 }

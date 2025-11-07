@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "twinkle-portfolio-wine.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=olasubomi.is-a.dev,f6bc7744ff52f86278e8"
   }
 }

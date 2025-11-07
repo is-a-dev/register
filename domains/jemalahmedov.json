@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "jemalahmedov.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=jemalahmedov.is-a.dev,3f41428af72725b71a10"
   }
 }

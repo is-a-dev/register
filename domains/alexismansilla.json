@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "alexismansilla.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=alexismansilla.is-a.dev,a2848ebac3678d67a5c0"
   }
 }

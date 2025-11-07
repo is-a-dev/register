@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "vineeth-reddy-motati.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=vineeth.is-a.dev,772d59fe1bf7422c8f8f"
   }
 }
