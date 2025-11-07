@@ -1,0 +1,13 @@
+{
+  "description": "FarmDirect backend — Express API for e-commerce platform",
+  "domain": "is-a.dev",
+  "subdomain": "api.farmdirect",
+  "owner": {
+    "repo": "https://github.com/NicoleMumo/SERVER-ADMINISTRATION-HOSTED-WEBSITE-FARMDIRECT-E-COMMERCE",
+    "email": "nicolemumo3@gmail.com"
+  },
+  "record": {
+    "CNAME": "farmdirect-server.onrender.com"
+  },
+  "proxied": false
+}
