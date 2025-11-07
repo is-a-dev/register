@@ -1,0 +1,13 @@
+{
+  "description": "FarmDirect frontend — React app for farmers and consumers",
+  "domain": "is-a.dev",
+  "subdomain": "farmdirect",
+  "owner": {
+    "repo": "https://github.com/NicoleMumo/SERVER-ADMINISTRATION-HOSTED-WEBSITE-FARMDIRECT-E-COMMERCE",
+    "email": "nicolemumo3@gmail.com"
+  },
+  "record": {
+    "CNAME": "server-administration-hosted-website.onrender.com"
+  },
+  "proxied": false
+}
