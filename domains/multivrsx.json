@@ -1,8 +1,9 @@
 > @@ -0,0 +1,14 @@
 +{
 +  "name": "multivrsx",
+-  "domain": "multivrsx.is-a.dev",
 +  "owner": {
 +    "email": "themultiverseeyt@gmail.com"
-+  },
--  "record": {
-+  "records": {
++ },
++  "record":  {
++  "records":  {
