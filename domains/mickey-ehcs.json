@@ -1,14 +1,10 @@
 {
   "description": "Cloudflare Tunnel for personal server",
-  "domain": "is-a.dev",
-  "subdomain": "mickey-ehcs",
   "owner": {
-    "username": "mickeyehcs-dev"
+    "username": "mickeyehcs-dev",
+    "email": "YOUR_EMAIL@example.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "abcd1234.cfargotunnel.com"
-    }
-  ]
+  "record": {
+    "CNAME": "abcd1234.cfargotunnel.com"
+  }
 }
