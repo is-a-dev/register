@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "REPLACE_WITH_YOUR_GITHUB_USERNAME",
+    "email": "ardogroupltd24@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "v=spf1 include:_spf.resend.io ~all"
+    ]
+  },
+  "proxied": false
+}
