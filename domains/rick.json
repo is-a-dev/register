@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "Spectrae",
+    "email": "rick.dev.79@gmail.com"
+  },
+  "records": {
+    "CNAME": "Spectrae.github.io"
+  },
+  "description": "This is my personal portfolio website - a digital space I built to showcase who I am and what I do as a Full-Stack Developer. It highlights my skills in modern web technologies like React, Next.js, Node.js, and MongoDB, along with hands-on projects that reflect my passion for clean, scalable, and user-focused design. On this website, I’ve shared details about my professional journey, technical expertise, and the projects I’ve developed - including full-stack applications, analytics dashboards, decentralized systems, and more. The site is fully responsive, features smooth animations, and has been designed with performance, accessibility, and modern aesthetics in mind. I built this entire website from scratch using HTML, CSS, and JavaScript to represent not just my work, but my approach to coding - clean, efficient, and creative."
+}
