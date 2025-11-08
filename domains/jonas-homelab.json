@@ -1,0 +1,11 @@
+{
+  "description": "Personal homelab domain",
+  "domain": "is-a.dev",
+  "subdomain": "jonas-homelab",
+  "owner": {
+    "email": "kisum21@live.dk"
+  },
+  "records": {
+    "CNAME": "jonas-homelab.github.io"
+  }
+}
