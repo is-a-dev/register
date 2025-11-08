@@ -1,0 +1,21 @@
+{
+    "owner": {
+        "username": "buubub",
+        "email": "bobbykwariawan@gmail.com",
+        "discord": "259410894256209920"
+    },
+    "records": {
+        "URL": "https://bobby.is-a.dev"
+    },
+    "redirect_config": {
+        "custom_paths": {
+            "/github": "https://github.com/buubub",
+            "/linkedin": "https://linkedin.com/in/bobby-kwariawan",
+            "/upwork": "https://upwork.com/freelancers/~019ba6cf3bee2b43a2",
+            "/fastwork": "https://fastwork.id/user/bobbykwa",
+            "/facebook": "https://facebook.com/BobbyKwariawan",
+            "/instagram": "https://instagram.com/bobbykwa"
+        },
+        "redirect_paths": true
+    }
+}
