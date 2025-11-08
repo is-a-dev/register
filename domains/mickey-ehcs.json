@@ -1,0 +1,11 @@
+{
+  "description": "Personal Cloudflare Tunnel domain",
+  "domain": "is-a.dev",
+  "subdomain": "mickey",
+  "records": [
+    {
+      "type": "A",
+      "value": "1.1.1.1"
+    }
+  ]
+}
