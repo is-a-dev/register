@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "cafebite-dotcom"
+    },
+    "records": {
+        "NS": [
+            "ns1.cloudflare.com",
+            "ns2.cloudflare.com"
+        ]
+    }
+}
