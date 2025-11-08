@@ -4,6 +4,9 @@
         "email": "is-a-dev@bestmails.org"
     },
     "records": {
-        "CNAME": "yagizunsal.tr"
+        "NS": [
+            "fred.ns.cloudflare.com",
+            "magali.ns.cloudflare.com"
+        ]
     }
 }
