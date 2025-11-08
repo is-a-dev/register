@@ -4,7 +4,7 @@
     "username": "mickeyehcs-dev",
     "email": "YOUR_EMAIL@example.com"
   },
-  "record": {
+  "records": {
     "CNAME": "abcd1234.cfargotunnel.com"
   }
 }
