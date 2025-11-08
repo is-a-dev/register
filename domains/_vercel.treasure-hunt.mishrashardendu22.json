@@ -3,7 +3,7 @@
     "username": "MishraShardendu22",
     "email": "shardendumishrabrave@gmail.com"
   },
-  "records": {
-    "TXT": "vc-domain-verify=treasure-hunt.mishrashardendu22.is-a.dev,1a1909cbfdfac92e9995"
-  }
+  "TXT": [
+    "vc-domain-verify=treasure-hunt.mishrashardendu22.is-a.dev,1a1909cbfdfac92e9995"
+  ]
 }
