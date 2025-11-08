@@ -1,0 +1,11 @@
+{
+  "description": "Subdominio gratuito para pruebas con AWS Route 53",
+  "repo": "https://github.com/Paul-Portal",
+  "owner": {
+    "username": "Paul-Portal",
+    "email": "mathiasmaguinacastro@gmail.com"
+  },
+  "record": {
+    "A": ["1.1.1.1"]
+  }
+}
