@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "your-github-username",
+        "email": "your-email-address@example.com"
+    },
+    "records": {
+        "TXT": "_vercel.your-domain.json"
+    }
+}
