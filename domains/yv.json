@@ -6,5 +6,6 @@
     "records": {
         "CNAME": "yashvr96.github.io",
         "TXT": ["zoho-verification=zb06692219.zmverify.zoho.in"]
-    }
+    },
+    "proxied": true
 }
