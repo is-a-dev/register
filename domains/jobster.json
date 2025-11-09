@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "FWEEaaaa1",
+    "email": "gorgonfweman@outlook.com"
+  },
+  "records": {
+    "MX": [
+  { "target": "ASPMX.L.GOOGLE.COM", "priority": 1
+    "target": "ALT1.ASPMX.L.GOOGLE.COM", "priority": 5
+    "target": "ALT2.ASPMX.L.GOOGLE.COM", "priority": 5
+    "target": "ALT3.ASPMX.L.GOOGLE.COM", "priority": 10
+    "target": "ALT4.ASPMX.L.GOOGLE.COM", "priority": 10 }
+],
+    "TXT": "v=spf1 include:_spf.google.com ~all"
+  }
+}
