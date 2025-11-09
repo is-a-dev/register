@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "pabiofavanetto-max",
+    "email": "pabio.favanetto@gmail.com"
+  },
+  "records": {
+    "A": ["77.237.235.19"],
+    "TXT": "google-site-verification=StcqPXFDwICAuvYiqGrvYrDgddNf9TkttabfzIqM3no",
+    "MX": ["SMTP.GOOGLE.COM"]
+  }
+}
