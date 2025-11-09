@@ -1,0 +1,12 @@
+{
+  "description": "Tanzil Khan's personal resume hosted on GitHub Pages",
+  "domain": "is-a.dev",
+  "subdomain": "tanzil",
+  "owner": {
+    "repo": "https://github.com/tanzils-origin/resume",
+    "email": "khantanzil307@gmail.com"
+  },
+  "record": {
+    "CNAME": "tanzils-origin.github.io"
+  }
+}
