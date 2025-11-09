@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "noahddev",
+        "email": "deycknoah@icloud.com"
+    },
+    "records": {
+        "CNAME": "noahddev.github.io",
+        "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"]
+    },
+    "proxied" = true
+}
