@@ -1,9 +1,8 @@
 > @@ -0,0 +1,14 @@
 +{
 +  "name": "multivrsx",
--  "domain": "multivrsx.is-a.dev",
-+  "owner": {
++  "owner": { "oof5900junk",
 +    "email": "themultiverseeyt@gmail.com"
 + },
--  "record": {
+-  "records": {
 +  "records": {
