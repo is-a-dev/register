@@ -1,8 +1,13 @@
 {
   "owner": {
-    "email": "paulportal150@gmail.com"
+    "email": "mathiasmaguinacastro@gmail.com"
   },
-  "record": {
-    "A": ["1.1.1.1"]
+  "records": {
+    "NS": [
+      "ns-506.awsdns-63.com.",
+      "ns-1738.awsdns-25.co.uk.",
+      "ns-875.awsdns-45.net.",
+      "ns-1420.awsdns-49.org."
+    ]
   }
 }
