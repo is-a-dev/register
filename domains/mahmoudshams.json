@@ -4,6 +4,6 @@
         "email": "m.s.el-din@hotmail.com"
     },
     "records": {
-        "CNAME": "https://portfolio-dusky-six-bc3520knzk.vercel.app/",
+         "A": 216.198.79.1,
         }
     }
