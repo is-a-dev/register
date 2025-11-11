@@ -1,0 +1,12 @@
+{
+  "description": "Semzy Automotive website",
+  "domain": "ev.is-a.dev",
+  "subdomain": "ev",
+  "owner": {
+    "username": "Deepak0121-svg",
+    "email": "your-email@gmail.com"
+  },
+  "record": {
+    "CNAME": "deepak0121-svg.github.io"
+  }
+}
