@@ -1,0 +1,12 @@
+{
+  "description": "Official website for Semzy Electric Vehicles",
+  "domain": "is-a.dev",
+  "subdomain": "ev",
+  "owner": {
+    "repo": "https://github.com/deepak0121-svg/evehicle-website",
+    "email": "deepak0121@gmail.com"
+  },
+  "record": {
+    "CNAME": "deepak0121-svg.github.io"
+  }
+}
