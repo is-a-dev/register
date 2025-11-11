@@ -1,0 +1,10 @@
+{
+  "description": "Servidor Jellyfin personal de Ignacio Gutiérrez",
+  "subdomain": "filmhaus",
+  "owner": {
+    "email": "ignaciogutierrezhenriquez@gmail.com"
+  },
+  "record": {
+    "CNAME": "5d5caacf-3f1f-4045-ae9e-daa2a63f9696.cfargotunnel.com"
+  }
+}
