@@ -1,0 +1,12 @@
+{
+  "description": "Dress Organizer app hosted on Render with Resend email integration.",
+  "domain": "is-a.dev",
+  "subdomain": "dressorganizer",
+  "owner": {
+    "email": "souvik2072005@gmail.com",
+    "github": "ATOMx-max"
+  },
+  "record": {
+    "CNAME": "dress-organiser.onrender.com"
+  }
+}
