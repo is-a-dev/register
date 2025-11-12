@@ -21,5 +21,6 @@
             "v=spf1 include:spf.improvmx.com ~all"
         ],
         "URL": "https://andrelopes.is-a.dev"
-    }
+    },
+    "proxied": true
 }
