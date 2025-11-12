@@ -1,0 +1,10 @@
+{
+  "description": "Sistema de almacén BNC - INELAC (Cloudflare Tunnel)",
+  "owner": {
+    "username": "Caskev2003",
+    "email": "Kevincas860@gmail.com"
+  },
+  "record": {
+    "CNAME": "d1ecf744-6046-40f7-b57f-4db0f7ea347e.cfargotunnel.com"
+  }
+}
