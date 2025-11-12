@@ -1,12 +1,9 @@
 {
-  "owner": {
-    "username": "Karam-999",
-    "email": "karam.sayed2024@gmail.com"
-  },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "karam-999.github.io/e-shopping-list-vanilla-JS"
-    }
-  ]
+  "username": "Karam-999",
+  "email": "karam.sayed2024@gmail.com",
+  "repo": "e-shopping-list-vanilla-JS",
+  "record": {
+    "type": "CNAME",
+    "value": "karam-999.github.io"
+  }
 }
