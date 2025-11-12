@@ -1,10 +1,10 @@
 {
-  "description": "Personal site for Retro Bowl project",
+  "description": "Personal site for math help or Retro Bowl project",
   "owner": {
     "username": "adiz67",
     "email": "adityaazambre@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "adiz67.github.io"
   }
 }
