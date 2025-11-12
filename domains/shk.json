@@ -1,10 +1,11 @@
 {
-  "description": "SHk backend dev portfolio website",
-  "owner": {
-    "username": "S-Hk",
-    "email": "38405687+S-Hk@users.noreply.github.com"
-  },
-  "record": {
-    "CNAME": "s-hk.github.io"
-  }
+    "description": "SHk backend dev portfolio website",
+    "owner": {
+        "username": "S-Hk",
+        "email": "38405687+S-Hk@users.noreply.github.com"
+    },
+    "records": {
+        "CNAME": "s-hk.github.io",
+        "TXT": "df8156e4991b0cbee19589256fa1ec"
+    }
 }
