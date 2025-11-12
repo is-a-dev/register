@@ -7,8 +7,5 @@
   "records": {
     "A": ["76.76.21.21"]
   },
-  "proxied": true,
-  "services": {
-    "vercel": "vc-domain-verify=hieu.is-a.dev,dc7e0df748913559410b"
-  }
+  "proxied": true
 }

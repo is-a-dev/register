@@ -7,8 +7,5 @@
   "records": {
     "CNAME": "trituenhantao.vercel.app"
   },
-  "proxied": true,
-  "services": {
-    "vercel": "vc-domain-verify=tranminhtan.is-a.dev,80e210f84d0b0529d7eb"
-  }
+  "proxied": true
 }

@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "dynow.pages.dev"
-  },
-  "services": {
-    "discord": "dh=8bb2a3b679cd393d772165a0baf0eea849b5c698"
   }
 }

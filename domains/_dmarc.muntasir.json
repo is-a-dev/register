@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "MuntasirSZN",
+    "email": "muntasir.joypurhat@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}

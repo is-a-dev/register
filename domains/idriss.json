@@ -5,8 +5,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=idriss.is-a.dev,375d6639e027c0907afd"
   }
 }

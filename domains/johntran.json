@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "johntran.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=johntran.is-a.dev,dcd9c5b1d53d9961e19a"
   }
 }

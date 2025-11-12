@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "portfoliomvr.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=martinvruiz.is-a.dev,16e98638bc17973af9e7"
   }
 }

@@ -1,12 +1,15 @@
 {
-  "description": "Personal Website",
-  "repo": "https://github.com/eldarlrd",
   "owner": {
     "username": "eldarlrd",
     "email": "eldarlrd@pm.me"
   },
   "records": {
     "CNAME": "eldarlrd.github.io"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/eldarlrd"
+    }
   },
   "proxied": true
 }

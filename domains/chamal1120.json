@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "chamal1120.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=chamal1120.is-a.dev,cfcb568d46b4ccb8601f"
   }
 }

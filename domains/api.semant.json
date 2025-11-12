@@ -1,0 +1,10 @@
+{
+  "description": "my API",
+  "owner": {
+    "username": "s3mant",
+    "email": "contact@semant.is-a.dev"
+  },
+  "records": {
+    "A": ["69.30.249.53"]
+  }
+}

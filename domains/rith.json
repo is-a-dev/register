@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "rith-portfolio-next-js.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=rith.is-a.dev,9233c12a34113300d9af"
   }
 }

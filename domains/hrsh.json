@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "harsh-portfolio-liard.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=hrsh.is-a.dev,569f5299ceab3ef341cb"
   }
 }

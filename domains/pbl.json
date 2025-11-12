@@ -1,15 +1,14 @@
 {
   "description": "my website yahoo",
   "owner": {
-    "username": "bitpebl",
+    "username": "bitpbl",
     "email": "bitpebl@gmail.com"
   },
   "records": {
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": ["forward-email=Y2RlYjBkZjVlYzBmYWE4NC0yMWZlYmJjMzRlMTgxNjA1ZDdkNDdhNWNlYjI3YjJjYmRjY2FhN2Q0ZWE3ZWZjNmU2YmUwMWI3ZGEzZDNmMTMz"],
+    "TXT": [
+      "forward-email=Y2RlYjBkZjVlYzBmYWE4NC0yMWZlYmJjMzRlMTgxNjA1ZDdkNDdhNWNlYjI3YjJjYmRjY2FhN2Q0ZWE3ZWZjNmU2YmUwMWI3ZGEzZDNmMTMz"
+    ],
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=pbl.is-a.dev,1c90afbd1092c3ff1f7d"
   }
 }

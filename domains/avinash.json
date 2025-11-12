@@ -4,6 +4,6 @@
     "email": "avinashvalder7@gmail.com"
   },
   "records": {
-    "CNAME": "avinashvalder.github.io"
+    "A": ["45.145.184.176"]
   }
 }

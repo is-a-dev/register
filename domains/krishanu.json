@@ -1,12 +1,10 @@
 {
   "owner": {
     "username": "krishanunaskar",
+    "email": "krishanunaskar93@gmail.com",
     "discord": "977802250716078210"
   },
   "records": {
-    "CNAME": "krishanu.odoo.com"
-  },
-  "services": {
-    "discord": "dh=1603c613efb962d2d1557e92b16fe8caf00d0680"
+    "A": ["75.2.60.5"]
   }
 }
