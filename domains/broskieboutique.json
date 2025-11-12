@@ -1,0 +1,9 @@
+{
+  "subdomain": "broskieboutique",
+  "owner": {
+    "email": "ornoirbruce5@gmail.com"
+  },
+  "records": {
+    "CNAME": "ornoirbruce5-debug.github.io"
+  }
+}
