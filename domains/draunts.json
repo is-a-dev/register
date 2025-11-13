@@ -1,9 +1,8 @@
 {
-  "owner": {
-    "username": "CxmboFight",
-    "email": "cxmbofight.business@gmail.com"
-  },
-  "record": {
-    "CNAME": ["cxmbofight.github.io"]
-  }
+    "owner": {
+        "username": "CxmboFight"
+    },
+    "records": {
+        "CNAME": "cxmbofight.github.io"
+    }
 }
