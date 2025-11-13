@@ -15,8 +15,6 @@
   },  
   "description": "Juan Silva - Full-Stack Developer",
   "records": {
-    "CNAME": ["dev.juanpablosilva.com.br"],
-    "TXT": ["zoho-verification=zb41439852.zmverify.zoho.com"],
-    "proxied": true
+    "CNAME": ["dev.juanpablosilva.com.br"]
   }
 }
