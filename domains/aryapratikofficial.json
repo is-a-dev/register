@@ -1,6 +1,7 @@
 {
-  "owner": "AryaPratikOfficial",
-  "repo": "aryapratikofficial.github.io",
+  "owner": {
+    "username": "AryaPratikOfficial"
+  },
   "records": {
     "CNAME": "aryapratikofficial.github.io"
   }
