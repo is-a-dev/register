@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "prankurpandeyy",
-        "email": "pprankur@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "prankurpandeyy",
+    "email": "pprankur@gmail.com"
+  },
+  "records": {
+    "CNAME": "prankur-portfolio-site.vercel.app"
+  }
 }
