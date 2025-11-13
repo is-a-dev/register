@@ -1,9 +1,7 @@
 {
-  "owner": {
-    "username": "Aryapratikofficial",
-    "email": "aryapratikunofficial@gmail.com"
-  },
-  "record": {
+  "owner": "AryaPratikOfficial",
+  "repo": "aryapratikofficial.github.io",
+  "records": {
     "CNAME": "aryapratikofficial.github.io"
   }
 }
