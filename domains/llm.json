@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "proalit",
+    "email": "proalit@duck.com"
+  },
+  "records": {
+    "NS": ["gigi.ns.cloudflare.com", "jack.ns.cloudflare.com"]
+  },
+  "proxied": false
+}
