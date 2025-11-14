@@ -5,13 +5,5 @@
 	},
 	"records": {
 		"A": ["216.198.79.1"]
-	},
-	"redirect_config": {
-		"custom_paths": {
-			"/github": "https://github.com/aviiciii",
-            "/linkedin": "https://www.linkedin.com/in/laavesh/",
-            "/linktree": "https://aviiciii.github.io/linktree/"
-		},
-		"redirect_paths": true
 	}
 }
