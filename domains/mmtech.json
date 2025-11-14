@@ -4,9 +4,7 @@
     "username": "rgraves0"
   },
   "repo": "mmtech",
-  "records": [
-    {
-      "CNAME": "rgraves0.github.io"
-    }
-  ]
+  "records": {
+    "CNAME": "rgraves0.github.io"
+  }
 }
