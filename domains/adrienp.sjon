@@ -4,6 +4,9 @@
         "email": "mohammadsalah89610@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "A": ["216.198.79.1"],
+        "TXT": {
+            "_vercel": "vc-domain-verify=adrienp.is-a.dev,707039d070a5af5c3270"
+        }
     }
 }
