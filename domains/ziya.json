@@ -4,7 +4,6 @@
     "email": "ziyamirzeyev19@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=ziya.is-a.dev,eafed1c78a9b2e4969ca"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
