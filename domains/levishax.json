@@ -1,1 +1,8 @@
 
+{
+  "owner": {
+    "username": "22143fd2"
+  },
+"NS": ["addyson.ns.cloudflare.com", "darwin.ns.cloudflare.com"]
+  "proxied": true
+}
