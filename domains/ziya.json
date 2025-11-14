@@ -4,6 +4,7 @@
     "email": "ziyamirzeyev19@gmail.com"
   },
   "records": {
-    "CNAME": "ziyamrzyv.github.io"
+    "A": ["216.198.79.1"],
+    "TXT": "vc-domain-verify=ziya.is-a.dev,eafed1c78a9b2e4969ca"
   }
 }
