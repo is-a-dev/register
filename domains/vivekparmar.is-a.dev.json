@@ -1,0 +1,11 @@
+{
+  "description": "Personal website hosted on Vercel",
+  "domain": "vivekparmar.is-a.dev",
+  "subdomain": "vivekparmar",
+  "owner": {
+    "email": "parmarvivek05@gmail.com"
+  },
+  "record": {
+    "CNAME": "portfolio-delta-seven-46.vercel.app"
+  }
+}
