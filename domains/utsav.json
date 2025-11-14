@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "dr-hofstadter",
-    "email": "utsav.raj.338@gmail.com"
-  },
-  "record": {
-    "CNAME": "dr-hofstadter.github.io"
-  }
+    "owner": {
+        "username": "utsavdotdev",
+        "email": "utsavdotdev@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

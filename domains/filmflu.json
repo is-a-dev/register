@@ -1,11 +1,9 @@
 {
-  "description": "Film Flu Web Platform",
-  "repo": "https://github.com/dherediat97/FilmFlu",
   "owner": {
     "username": "dherediat97",
     "email": "dherediat97@gmail.com"
   },
-  "record": {
-    "URL": "https://dherediat97.github.io/FilmFlu"
+  "records": {
+    "URL": "https://film-flu.web.app/"
   }
 }

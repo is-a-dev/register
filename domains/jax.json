@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "jxaq",
+    "email": "wild.dives.0x@icloud.com"
+  },
+  "records": {
+    "TXT": "v=spf1 -all",
+    "A": ["76.76.21.21"]
+  }
+}

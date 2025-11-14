@@ -1,11 +1,9 @@
 {
-  "description": "Personal website to host bio info and other things",
-  "repo": "https://github.com/true1ann/true1ann.github.io",
   "owner": {
     "username": "true1ann",
     "email": "true1ann@tutamail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "true1ann.github.io"
   }
 }

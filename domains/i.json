@@ -3,7 +3,22 @@
     "username": "satindar31",
     "email": "satindar@satindar-is.me"
   },
-  "record": {
-    "URL": "https://satindar.is-a.dev"
+  "records": {
+    "URL": "https://satindar.is-a.dev",
+    "TXT": ["zoho-verification=zb06359477.zmverify.zoho.in", "v=spf1 include:zoho.in ~all"],
+    "MX": [
+        {
+          "target": "mx.zoho.in",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.in",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.in",
+          "priority": 50
+        }
+      ]
   }
 }

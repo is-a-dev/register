@@ -1,11 +1,9 @@
 {
-  "description": "this is for my personal website",
-  "repo": "https://github.com/EL-Bernaoui/elbernaoui",
   "owner": {
     "username": "EL-Bernaoui",
     "twitter": "ELBRN_Achraf"
   },
-  "record": {
+  "records": {
     "CNAME": "el-bernaoui.github.io"
   }
 }

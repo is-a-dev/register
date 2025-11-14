@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "mubaidr",
-    "email": "mubaidr@gmail.com",
-    "discord": ""
+    "email": "mubaidr@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mubaidr.js.org"
   }
 }

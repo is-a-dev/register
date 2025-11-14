@@ -1,11 +1,9 @@
 {
-  "description": "is-a.dev subdomain for my portfolio",
-  "repo": "https://github.com/vauth/vauth.github.io",
-  "owner": {
-    "username": "vauth",
-    "email": "ivuxey@gmail.com"
-  },
-  "record": {
-    "CNAME": "vauth.github.io"
-  }
+    "owner": {
+        "username": "moji2002",
+        "email": "moji2002@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

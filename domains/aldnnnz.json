@@ -1,12 +1,9 @@
 {
-  "description": "portofolio",
-  "domain": "aldnnnz.is-a.dev",
-  "repo": "https://github.com/aldnnnz/aldnnnz.github.io",
   "owner": {
     "username": "aldnnnz",
     "email": "aldynnn@yahoo.com"
   },
-  "record": {
+  "records": {
     "CNAME": "aldnnnz.github.io"
   }
 }

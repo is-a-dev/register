@@ -1,11 +1,9 @@
 {
-  "description": "portfolio",
-  "repo": "https://github.com/halil-dll/halil-dll.github.io",
   "owner": {
     "username": "halil-dll",
     "email": "halil@pissmail.com"
   },
-  "record": {
+  "records": {
     "A": ["173.249.45.163"]
   }
 }

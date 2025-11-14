@@ -1,0 +1,13 @@
+{
+  "description": "Personal portfolio website hosted on Azure Static Web Apps",
+  "owner": {
+    "username": "Mehtiyevs",
+    "email": "mehtiyevelnur261@gmail.com",
+    "discord": "eln_meht"
+  },
+  "records": {
+    "CNAME": "thankful-beach-04863d303.6.azurestaticapps.net",
+    "TXT": "vc-domain-verify=mehtiyev.is-a.dev,_x65jujuilutr796n9mg5yz0zkhpv8s6"
+  },
+  "proxied": true
+}

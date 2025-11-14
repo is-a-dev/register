@@ -1,16 +1,18 @@
-<!-- Please complete this template so we can review your pull request faster. -->
+<!--
+YOU MUST FILL OUT THIS TEMPLATE FOR YOUR PR TO BE ACCEPTED!
+-->
 
-## Requirements
-Unless explicitly specified otherwise by a **maintainer** or in the requirement description, your domain must pass **ALL** the indicated requirements above.
+# Requirements
+<!-- Your domain MUST pass ALL the requirements below, otherwise it WILL BE DENIED. -->
+<!-- Change each checkbox to [x] (all lowercase, with no spaces between the brackets) to mark it as completed. -->
 
-Please note that we reserve the rights not to accept any domain at our own discretion.
+- [ ] I **agree** to the [Terms of Service](https://is-a.dev/terms). <!-- Your request MUST follow the TOS to be approved. -->
+- [ ] My file is following the [domain structure](https://docs.is-a.dev/domain-structure/). <!-- Your JSON file is in the domains directory, the name is valid, etc. -->
+- [ ] My website is **reachable** and **completed**. <!-- We do not permit simple "Hello, world!" or simply copied template websites with minimal changes. -->
+- [ ] My website is **software development** related. <!-- Only your root subdomain needs to meet this requirement. -->
+- [ ] My website is **not for commercial use**. <!-- Your website's purpose should not be to generate any form of revenue or profit. -->
+- [ ] I have provided contact information in the `owner` key. <!-- Provide your email in the `email` field or another platform (e.g. X/Twitter or Discord) for contact. -->
+- [ ] I have provided a preview of my website below. <!-- This step is required for your PR to be approved. -->
 
-- [ ] The file is in the `domains` folder and is in the JSON format.
-- [ ] The file's name is all lowercased and alphanumeric. <!-- Your file's name is yourname.json, not YourName.json or your_name.json. -->
-- [ ] You have completed your website. <!-- This is not required if the domain you're registering is for emails. -->
-- [ ] The website is reachable.  <!-- This is not required if the domain you're registering is for emails. -->
-- [ ] The CNAME record doesn't contain `https://` or `/`.  <!-- This is not required if you are not using a CNAME record. -->
-- [ ] There is sufficient information at the `owner` field.  <!-- You need to have your email presented at `email` field. If you don't want to provide your email for any reason, you can specify another social platform (e.g. Twitter) so we can contact you. -->
-
-## Website Link/Preview
-<!-- Please provide a link or preview of your website below. If you can't make the website visible, then an image of the website is also fine! -->
+# Website Preview
+<!-- Provide a link AND screenshot of your website below. -->

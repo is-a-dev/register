@@ -1,0 +1,10 @@
+{
+  "description": "Guilherme Lacerda's personal website",
+  "owner": {
+    "username": "lacerdaguilherme",
+    "email": "lacerdaguilherme@gmail.com"
+  },
+  "records": {
+    "CNAME": "lacerdaguilherme.github.io"
+  }
+}

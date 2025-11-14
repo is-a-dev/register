@@ -1,11 +1,9 @@
 {
-  "description": "frthr's personal site",
-  "repo": "https://github.com/furthir/furthir.github.io",
   "owner": {
     "username": "furthir",
     "email": "furthir@pm.me"
   },
-  "record": {
+  "records": {
     "CNAME": "furthir.github.io"
   }
 }
