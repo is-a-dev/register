@@ -4,6 +4,6 @@
     "email": "djfeildmouse@gmail.com"
   },
   "records": {
-    "CNAME": "developercrcodile.github.io"
+    "NS": ["paloma.ns.cloudflare.com", "tadeo.ns.cloudflare.com"]
   }
 }
