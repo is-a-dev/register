@@ -7,3 +7,13 @@
         "CNAME": "hummingbird-9.github.io"
     }
 }
+  "record": {
+    "TXT": [
+      {
+        "name": "_github-pages-challenge-hummingbird-9",
+        "value": "6e5cf64feab6533b8241fd6f0eb8be"
+      }
+    ],
+    "CNAME": "hummingbird-9.github.io"
+  }
+}
