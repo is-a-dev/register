@@ -4,6 +4,7 @@
     "email": "ajaychekavarck@gmail.com"
   },
   "records": {
-    "CNAME": "ajayportfolio-tau.vercel.app"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": ["vc-domain-verify=ajayck.is-a.dev,lce0854686c931eble33"]
   }
 }
