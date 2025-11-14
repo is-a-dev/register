@@ -6,7 +6,8 @@
   "repo": "mmtech",
   "records": [
     {
-      "CNAME": "rgraves0.github.io"
+      "type": "CNAME", 
+      "value": "rgraves0.github.io" 
     }
   ]
 }
