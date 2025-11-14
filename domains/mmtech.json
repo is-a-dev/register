@@ -3,5 +3,11 @@
     "email": "thihazaw@mconn.eu.org",
     "username": "rgraves0"
   },
-  "repo": "mmtech"
+  "repo": "mmtech",
+  "records": [
+    {
+      "type": "CNAME",
+      "record": "rgraves0.github.io"
+    }
+  ]
 }
