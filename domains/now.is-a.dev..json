@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "CyMIRcode",
+    "email": "lazarusliu@yandex.com"
+  },
+  "records": {
+"NS": ["dana.ns.cloudflare.com", "ishaan.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
