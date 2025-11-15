@@ -1,11 +1,9 @@
 {
-  "description": "Chatbot CNP Oposiciones - Asistente inteligente",
-  "repo": "https://github.com/tobeal/Chatbot-Policia",
   "owner": {
     "username": "tobeal",
     "email": "albertomonterofn@hotmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "tobeal.github.io"
   }
 }
