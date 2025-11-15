@@ -4,7 +4,7 @@
     "email": "idontknowwwhatextra@gmail.com"
   },
   "records": {
-    "NS": ["donna.ns.cloudflare.com", "keanu.ns.cloudflare.com"]
+    "NS": ["ns1.afraid.org", "ns2.afraid.org"]
   },
   "proxied": true
 }
