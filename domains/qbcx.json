@@ -1,9 +1,9 @@
-{
+  {
       "owner": {
           "username": "qbcx",
           "email": "qbcx@tuta.io"
       },
       "records": {
-          "CNAME": ["76.76.21.21", "76.76.21.61"]
+          "CNAME": "qbcx-portfolio-50qiqc62u-qbcxs-projects.vercel.app"
       }
   }
