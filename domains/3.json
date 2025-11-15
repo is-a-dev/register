@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "idontknowwhatz",
+    "email": "idontknowwwhatextra@gmail.com"
+  },
+  "records": {
+    "NS": ["donna.ns.cloudflare.com", "keanu.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
