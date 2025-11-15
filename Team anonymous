@@ -1,0 +1,10 @@
+domains/anonymous-services.is-a.dev.json
+{
+  "owner": {
+    "username": "bayoony233-jpg",
+    "email": "bayoon233@gmail.com"
+  },
+  "record": {
+    "CNAME": "bayoony233-jpg.github.io"
+  }
+}
