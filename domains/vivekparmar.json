@@ -4,7 +4,8 @@
     "username": "VivekParmar-18"
   },
   "records": {
-    "CNAME": "portfolio-delta-seven-46.vercel.app"
+    "CNAME": "portfolio-delta-seven-46.vercel.app",
+    "TXT" : "vc-domain-verify=vivekparmar.is-a.dev,449ffc5524077621cee3"
   },
   "description": "Personal website hosted on Vercel"
 }
