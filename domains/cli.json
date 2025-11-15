@@ -4,8 +4,7 @@
     "email": "pister@skymail.ink"
   },
   "records": {
-    "NS": "ariella.ns.cloudflare.com",
-    "NS": "chad.ns.cloudflare.com"
+    "NS": ["ariella.ns.cloudflare.com", "chad.ns.cloudflare.com"]
   },
   "proxied": false
 }
