@@ -3,6 +3,9 @@
         "username": "farhadmpr"
     },
     "records": {
-        "CNAME": "farhadmpr.github.io"
+        "CNAME": "farhadmpr.github.io",
+        "TXT": {
+            "_github-pages-challenge-farhadmpr": "2c40009a3862ba102e81ea7aa61dbe"
+        }
     }
 }
