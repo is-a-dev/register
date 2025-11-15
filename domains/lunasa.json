@@ -1,12 +1,10 @@
 {
-    "owner": {
+  "owner": {
     "username": "konaa0",
-    "discord": "1149438819834269856"
-    },
-    "records": {
-        "NS": [
-            "konnor.ns.cloudflare.com",
-            "summer.ns.cloudflare.com"
-        ]
-    }
+    "email": "kona@disroot.org"
+  },
+  "records": {
+    "NS": ["konnor.ns.cloudflare.com", "summer.ns.cloudflare.com"]
+  },
+  "proxied": true
 }
