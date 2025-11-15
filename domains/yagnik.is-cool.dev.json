@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "yaagnik-patel"
+    "username": "yaagnik-patel",
+    "email": "yagu2482004@gmail.com"
   },
   "records": {
-    "CNAME": "yagnik-portfolio.vercel.app"
+    "CNAME": "portfolio-git-main-yaagnik-patels-projects.vercel.app"
   }
 }
