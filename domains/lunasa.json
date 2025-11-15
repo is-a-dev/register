@@ -6,5 +6,5 @@
   "records": {
     "NS": ["konnor.ns.cloudflare.com", "summer.ns.cloudflare.com"]
   },
-  "proxied": true
+  "proxied": false
 }
