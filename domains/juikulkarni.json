@@ -1,11 +1,9 @@
 {
-  "description": "Personal Website",
-  "repo": "https://github.com/jkulkarni01/jkulkarni01.github.io",
   "owner": {
     "username": "jkulkarni01",
     "email": "jui01kulkarni@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "jkulkarni01.github.io"
   }
 }

@@ -1,12 +1,10 @@
 {
-  "description": "Using For as a Learner,Developer and a youtuber",
-  "repo": "https://github.com/SealedSlinger/SealedSlinger.github.io",
   "owner": {
     "username": "SealedSlinger",
     "email": "infoxkingyt@gmail.com",
     "twitter": "AshanInduranga_"
   },
-  "record": {
+  "records": {
     "CNAME": "sealedslinger.github.io"
   }
 }

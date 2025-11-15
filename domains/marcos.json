@@ -1,11 +1,9 @@
 {
-    "description": "Developer portfolio",
-    "repo": "https://github.com/mtoranzo",
     "owner": {
-        "username": "mtoranzo",
-        "email": "mtoranzo@gmail.com"
+        "username": "mcalvog",
+        "email": "marcoscgdev@gmail.com"
     },
-    "record": {
-        "CNAME": "mtoranzo.github.io"
+    "records": {
+        "CNAME": "mcalvog.github.io"
     }
 }

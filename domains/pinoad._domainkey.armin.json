@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Armiiin",
+    "email": "staff-showy-swivel@duck.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA602OF2FzvU6faEvPlT1xLMUgLdlm2+Xe/SYF/9vhHNapCYJzOcDHkMAklOsLwn2N22Kh0ck3NISbg/KPoCYKGahX5iwQUATe9+0VZEkZsSxMDdTYfku+jdRRxkXaS2+kdObXnVX5c9nXiRSLF7FaLJZjkKERt3z8726m4PohK9OMcIa4Ws3Hi3ZejB9bto712shLy0Sk0dtxLX48XrbVaQpcHSVOET5u+ChlTGEqQ3xB33QsF63kZu1zfiCVGEXZvKWdMw31MRqAhY6xEn3yDN3KlrIE7Ryuvnd1EiIyqoSr7mhQM9BSeauoz9nmLp/OeWCSGb63xXpGC2AfdO3GGwIDAQAB"
+  }
+}

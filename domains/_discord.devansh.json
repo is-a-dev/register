@@ -1,12 +1,10 @@
 {
-  "description": "dc domain connect",
-  "repo": "https://github.com/devanshyadav2010/register",
   "owner": {
     "username": "devanshyadav2010",
     "email": "dev8adam576@gmail.com",
     "twitter": "devanshyadav"
   },
-  "record": {
+  "records": {
     "TXT": "dh=d14eedf95cd289bfd460f05eff5cca7a8a28d7f0"
   }
 }

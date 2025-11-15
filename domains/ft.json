@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "HaftIsntHere",
+    "email": "haftthedev@gmail.com"
+  },
+  "records": {
+    "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"],
+    "TXT": ["apple-domain=MpJJp8aekdLZ5ynT", "v=spf1 include:icloud.com ~all"]
+  }
+}

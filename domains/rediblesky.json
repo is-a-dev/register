@@ -1,12 +1,10 @@
 {
-  "description": "RedibleSky's site",
-  "repo": "https://github.com/RedibleSky/RedibleSky.github.io",
   "owner": {
     "username": "RedibleSky",
     "email": "user0thenyancat@proton.me",
     "discord": "1143176245018906697"
   },
-  "record": {
+  "records": {
     "CNAME": "rediblesky.github.io"
   }
 }

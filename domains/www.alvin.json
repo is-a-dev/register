@@ -3,10 +3,8 @@
     "username": "alvinsjoy",
     "discord": "825382504353234954"
   },
-  "record": {
+  "records": {
     "A": ["76.76.21.21"],
-    "TXT": [
-      "google-site-verification=OFAPUslqNNZEkB5-UDAC1K1QjXCwDW_e3flhEchoobM"
-    ]
+    "TXT": "google-site-verification=OFAPUslqNNZEkB5-UDAC1K1QjXCwDW_e3flhEchoobM"
   }
 }

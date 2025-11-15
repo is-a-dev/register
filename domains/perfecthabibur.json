@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio website",
-  "repo": "https://github.com/perfecthabibur/perfecthabibur.github.io",
   "owner": {
     "username": "perfecthabibur",
     "email": "socialhabibur@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "perfecthabibur.github.io"
   }
 }
