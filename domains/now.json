@@ -4,8 +4,9 @@
     "email": "lazarusliu@yandex.com"
   },
   "records": {
-"NS": ["dana.ns.cloudflare.com", "ishaan.ns.cloudflare.com"]
+"A": ["128.204.223.46"]
   },
   "proxied": true
 
 }
+
