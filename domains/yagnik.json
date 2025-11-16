@@ -6,9 +6,9 @@
   "proxied": false,
   "records": [
     {
-      "type": "TXT",
-      "name": "_vercel.yagnik",
-      "value": "vc-domain-verify=yagnik.is-a.dev,a847575435db916293d3"
+      "type": "A",
+      "name": "@",
+      "value": "76.76.21.21"
     },
     {
       "type": "CNAME",
@@ -16,9 +16,9 @@
       "value": "cname.vercel-dns.com"
     },
     {
-      "type": "A",
-      "name": "@",
-      "value": "76.76.21.21"
+      "type": "TXT",
+      "name": "_vercel.yagnik",
+      "value": "vc-domain-verify=yagnik.is-a.dev,a847575435db916293d3"
     }
   ]
 }
