@@ -4,6 +4,6 @@
         "email": "r3turntrue@gmail.com"
     },
     "records": {
-        "CNAME": "hs.ny64.kr"
+        "A": ["219.241.14.3"]
     }
 }
