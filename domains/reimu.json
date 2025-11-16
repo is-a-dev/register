@@ -4,7 +4,7 @@
         "email": "bas1wivyhisyh2@mimimail.me"
     },
     "records": {
-        "NS": ["nataly.ns.cloudflare.com", "simon.ns.cloudflare.com"]
+        "CNAME": "metatable.su"
     },
     "proxied": false
 }
