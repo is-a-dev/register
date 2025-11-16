@@ -3,9 +3,16 @@
     "username": "yaagnik-patel",
     "email": "yagnikpatel24818@gmail.com"
   },
-  "proxied": true,
-  "records": {
-    "CNAME": "portfolio-git-main-yaagnik-patels-projects.vercel.app",
-    "TXT": "vc-domain-verify=yagnik.is-a.dev,a847575435db916293d3"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "value": "portfolio-git-main-yaagnik-patels-projects.vercel.app"
+    },
+    {
+      "type": "TXT",
+      "name": "_vercel",
+      "value": "vc-domain-verify=yagnik.is-a.dev,a847575435db916293d3"
+    }
+  ]
 }
