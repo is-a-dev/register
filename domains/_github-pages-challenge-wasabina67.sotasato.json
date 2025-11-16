@@ -1,10 +1,9 @@
 {
-  "description": "sotasato is a Developer!",
   "owner": {
     "username": "wasabina67",
     "email": "wasabina67@gmail.com"
   },
   "records": {
-    "CNAME": "wasabina67.github.io"
+    "TXT": "75f2745b8010d1dfb035b9f3bcd1cf"
   }
 }
