@@ -4,6 +4,6 @@
     "email": "ajaychekavarck@gmail.com"
   },
   "records": {
-    "CNAME": "ajayportfolio-tau.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
