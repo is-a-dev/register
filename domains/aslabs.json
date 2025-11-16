@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "robertpreshyl"
+    },
+    "description": "ASLabs - Development and Testing Environment",
+    "repo": "https://github.com/robertpreshyl/aslabs-webtools",
+    "records": {
+        "A": ["129.80.62.45"],
+        "MX": ["mail.aslabs.is-a.dev."],
+        "TXT": [
+            "v=spf1 mx a ip4:129.80.62.45 ~all"
+        ]
+    },
+    "proxied": false
+}
