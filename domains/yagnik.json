@@ -3,6 +3,7 @@
     "username": "yaagnik-patel",
     "email": "yagnikpatel24818@gmail.com"
   },
+  "proxied": true,
   "records": [
     {
       "type": "CNAME",
