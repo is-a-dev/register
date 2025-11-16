@@ -1,0 +1,10 @@
+{
+  "description": "Personal Web Portfolio",
+  "owner": {
+    "username": "renskiedulog",
+    "email": "renrendulog@gmail.com"
+  },
+  "records": {
+    "CNAME": "renato-dulog.vercel.app"
+  }
+}

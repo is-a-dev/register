@@ -1,12 +1,9 @@
 {
-    "description": "Albert's Portfolio Website",
-    "repo": "https://github.com/albert1033/albert-portfolio",
     "owner": {
-        "username": "albert1033",
-        "email": "vuongdingtuong.an@gmail.com",
-        "twitter": "albert_26_10"
+        "username": "Albertong27",
+        "email": "hello@simply-smart.net"
     },
-    "record": {
-        "CNAME": "albert1033.github.io"
+    "records": {
+        "CNAME": "albertong27.github.io"
     }
 }

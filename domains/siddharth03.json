@@ -1,11 +1,9 @@
 {
-    "description": "To deploy portfolio website",
-    "repo": "https://github.com/sidshasane03/portfolio-website",
-    "owner": {
-        "username": "sidshasane03",
-        "email": "siddharthshasane03@gmail.com"
-    },
-    "record": {
-        "CNAME": "sidshasane03.github.io"
-    }
+  "owner": {
+    "username": "sidshasane03",
+    "email": "siddharthshasane03@gmail.com"
+  },
+  "records": {
+    "CNAME": "sidshasane03.github.io"
+  }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "personal portfolio for dev",
-  "repo": "https://github.com/Ewan-Dev/ewan-dev.github.io",
   "owner": {
     "username": "Ewan-Dev",
     "email": "lyricizer2@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ewan-dev.github.io"
   }
 }

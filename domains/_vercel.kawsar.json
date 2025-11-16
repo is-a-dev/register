@@ -4,7 +4,7 @@
     "email": "kawsar.dev1@gmail.com",
     "discord": "520373269979988000"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=kawsar.is-a.dev,e77e8c258bee5d9213b7"]
+  "records": {
+    "TXT": "vc-domain-verify=kawsar.is-a.dev,e77e8c258bee5d9213b7"
   }
 }

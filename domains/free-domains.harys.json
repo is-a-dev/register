@@ -1,0 +1,13 @@
+{
+  "description": "A curated collection of free subdomains ideal for personal websites, open-source projects, portfolio showcases, and innovative online ventures.",
+  "repo": "https://github.com/harys722/free-domains",
+  "owner": {
+    "username": "harys722",
+    "email": "contact@harys.is-a.dev",
+    "discord": "1203357768610746385"
+  },
+  "records": {
+    "CNAME": "harys722.github.io"
+  },
+  "proxied": true
+}

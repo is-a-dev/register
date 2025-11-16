@@ -1,10 +1,8 @@
 {
-  "description": "site.",
-  "repo": "https://github.com/shweta-gotecha/shweta-gotecha.github.io",
   "owner": {
     "username": "shweta-gotecha"
   },
-  "record": {
+  "records": {
     "CNAME": "shweta-gotecha.github.io"
   }
 }

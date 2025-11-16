@@ -1,11 +1,9 @@
 {
-    "description": "Documentation for is-a-dev",
-    "repo": "https://github.com/Aalcantaraxxx/register",
-    "owner": {
-        "username": "Aalcantaraxxx",
-        "email": "angele2705@gmail.com"
-    },
-    "record": {
-        "CNAME": "aalcantara-is-a-dev.web.app"
-    }
+  "owner": {
+    "username": "Aalcantaraxxx",
+    "email": "angele2705@gmail.com"
+  },
+  "records": {
+    "CNAME": "aalcantara-is-a-dev.web.app"
+  }
 }

@@ -1,11 +1,9 @@
 {
-    "description": "for discord website",
-    "repo": "https://srpvt.github.io/card/",
-    "owner": {
-        "username": "SRPVT",
-        "email": "gta69editz@gmail.com"
-    },
-    "record": {
-        "CNAME": "srpvt.github.io"
-    }
+  "owner": {
+    "username": "SRPVT",
+    "email": "gta69editz@gmail.com"
+  },
+  "records": {
+    "CNAME": "srpvt.github.io"
+  }
 }

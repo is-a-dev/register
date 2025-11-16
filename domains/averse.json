@@ -1,11 +1,9 @@
 {
-    "description": "Personal site",
-    "repo": "https://github.com/AverseABFun/my-site",
-    "owner": {
-        "username": "AverseABFun",
-        "email": "averse.abfun@gmail.com"
-    },
-    "record": {
-        "CNAME": "averseabfun.github.io"
-    }
+  "owner": {
+    "username": "AverseABFun",
+    "email": "averse.abfun@gmail.com"
+  },
+  "records": {
+    "CNAME": "averseabfun.github.io"
+  }
 }

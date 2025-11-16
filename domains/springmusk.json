@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/springmusk026/register",
+  "owner": {
+    "username": "springmusk026",
+    "email": "springmusk@gmail.com"
+  },
+  "records": {
+    "NS": ["kallie.ns.cloudflare.com", "mitchell.ns.cloudflare.com"]
+  }
+}

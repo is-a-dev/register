@@ -1,11 +1,10 @@
 {
-    "description": "Redirect for my personal website",
-    "repo": "https://github.com/ignSKRRRTT/register",
-    "owner": {
-        "username": "ignSKRRRTT",
-        "email": "me@aiden.gg"
-    },
-    "record": {
-        "URL": "https://aiden.gg"
-    }
+  "description": "Redirect for my personal website",
+  "owner": {
+    "username": "ignSKRRRTT",
+    "email": "me@aiden.gg"
+  },
+  "records": {
+    "URL": "https://aiden.gg"
+  }
 }

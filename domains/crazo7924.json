@@ -1,14 +1,10 @@
 {
   "owner": {
     "username": "crazo7924",
-    "discord": "466605393309859840",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.EPAp20sGUcuM20K26KYZsDVnufUJ9I-108TJUJVjIM9mb1vi18AHrnxsqlSf9APzx4aJEdPGfnWK2dkBQaS3wBM9FgnBKnVeGQaC-FAjLIWI8eOObReFw8bJIRcOtU10KaftXgSPTHv_6ezYJ61R2BM3DWQc-tOqYlxii7O52UmIgVGg-VFYu-qGtPzPY1KLAfrG3JTfLcP6o-vWcbHe_RAkZpCMS2y2t_qX3B_CpXmxombN81CxtbjNAlHCJI9kurjkH1v03XoAjsG0VhudV1aJcXCnL_jnDZz9J_kHmilivCUGnhi6La46ZEo6RCMD9KGu9jqE60lZYPMWQf3-Xw.R8aRGWxp4ChOZXQ0ZKAqwQ.piH7uRCdmslqxerUYiQjs-k9R9P1lLMeAwLkBfeJh-iCMvHT97basT5Ob6PVrxPaeV-OmnMd4FEvceS3SicofL0LsBOpRfbElmWokDJL6MmfAr-Y3ePhoLImZXKLYaWV.-v_ZfnbqCKYCs5m_EGcHjw"
+    "discord": "466605393309859840"
   },
-  "record": {
-    "TXT": [
-      "zoho-verification=zb09491787.zmverify.zoho.in",
-      "v=spf1 include:zoho.in ~all"
-    ],
+  "records": {
+    "TXT": ["zoho-verification=zb09491787.zmverify.zoho.in", "v=spf1 include:zoho.in ~all"],
     "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"]
   }
 }

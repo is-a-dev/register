@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "DaoLmao",
-    "discord": "854380469147140106",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.YYiTtfWSDHwSXb9MT6WVA8YGngFs8Na5NWWp15dLNgSOSkCDhyusojmz9so8D__NVF_MVbJ4dJ4mKUsoF1PQL_dRh-ZTINAFVnzjD4zGyFMW9nH7Q6wDk98tIGh5ZNfOUrqKgPUvslXMdDxtvkQ0ozsZB7XcIM6W35jHzHzjNYIJl58mTWlYg3qHXNcCZHXlDU-b4Qpq_yX4knBFpBBraJM-u8-j7MAkQgsX1x3kE_3LrR2W6d3AS_SofP_V7fSO-NU01glhbYPmp0TLXK0CxCGnhu8ZMzQPGD82TjN8pRtVUpQsbtMhcrCEwEmqkOXQ-D_Z4tKa_B-Qk_2g5c_gTw.HSLX0hOyRsELsyTL-Mk2tQ.WiNb7GNeSUyuaLRx6c-d00Eiv4ZC9OZM1h7_mKjjkC6AK5pdRSSvIOVpUy1c0ZRQ26SwekgDLz-rWm9GP2g5e4noskG9_2IiaH7BTg5lXb4.rxXv1bVYwiMt0sVdZz2rZg"
+    "discord": "854380469147140106"
   },
-  "record": {
+  "records": {
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }

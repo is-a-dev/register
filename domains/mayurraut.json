@@ -1,11 +1,9 @@
 {
-    "description": "Personal Website",
-    "repo": "https://github.com/razobeckett/razobeckett.github.io",
-    "owner": {
-        "username": "razobeckett",
-        "email": "mayurraut.dev@gmail.com"
-    },
-    "record": {
-        "CNAME": "razobeckett.github.io"
-    }
+  "owner": {
+    "username": "razobeckett",
+    "email": "mayurraut.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "razobeckett.github.io"
+  }
 }

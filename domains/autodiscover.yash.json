@@ -1,11 +1,10 @@
 {
-    "description": "Link to my portfolio site.",
-    "repo": "https://github.com/real-yash/website",
-    "owner": {
-        "username": "real-yash",
-        "email": "connect@real-yash.is-a.dev"
-    },
-    "record": {
-        "CNAME": "autodiscover.outlook.com"
-    }
+  "description": "Link to my portfolio site.",
+  "owner": {
+    "username": "real-yash",
+    "email": "connect@real-yash.is-a.dev"
+  },
+  "records": {
+    "CNAME": "autodiscover.outlook.com"
+  }
 }

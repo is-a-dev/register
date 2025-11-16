@@ -1,0 +1,13 @@
+{
+  "description": "A prototype of 'is-a.dev' which is a completely free subdomains service.",
+  "repo": "https://github.com/harys722/is-a-dev-prototype",
+  "owner": {
+    "username": "harys722",
+    "email": "contact@harys.is-a.dev",
+    "discord": "1203357768610746385"
+  },
+  "records": {
+    "CNAME": "harys722.github.io"
+  },
+  "proxied": true
+}

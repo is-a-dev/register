@@ -3,7 +3,7 @@
     "username": "yishuiyizhong",
     "email": "sife@sife.is-a.dev"
   },
-  "record": {
-    "CNAME":"yishuiyizhong.github.io"
+  "records": {
+    "CNAME": "yishuiyizhong.github.io"
   }
 }

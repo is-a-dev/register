@@ -1,11 +1,8 @@
 {
-    "repo": "https://alexbartles.github.io/",
     "owner": {
-        "username": "AlexBartles",
-        "email": "alexbartles2012@gmail.com",
-        "discord": "_alexbartles"
+        "username": "AlexBartles"
     },
-    "record": {
+    "records": {
         "CNAME": "alexbartles.github.io"
     }
 }

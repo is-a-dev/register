@@ -1,24 +1,18 @@
 <!--
-!!!
-YOU MUST FILL OUT THIS TEMPLATE FOR YOUR PR TO BE ACCEPTED.
-IF YOU DO NOT FILL OUT THIS PR TEMPLATE TO ITS ENTIRETY, YOUR PR WILL BE IMMEDIATELY DENIED.
-!!!
+YOU MUST FILL OUT THIS TEMPLATE FOR YOUR PR TO BE ACCEPTED!
 -->
 
 # Requirements
-Unless explicitly specified otherwise by a **maintainer** or in the requirement description, your domain **MUST** pass **ALL** the indicated requirements below.
+<!-- Your domain MUST pass ALL the requirements below, otherwise it WILL BE DENIED. -->
+<!-- Change each checkbox to [x] (all lowercase, with no spaces between the brackets) to mark it as completed. -->
 
-<!-- Change each checkbox to [x] to mark it as checked. Do not keep the spaces between the parentheses. -->
-- [ ] I have **read** and **understood** the [Terms of Service](https://is-a.dev/terms). <!-- Your domain MUST follow the TOS to be approved. -->
-- [ ] My domain is **not** for commercial use. <!-- e.g. Your domain should not be selling products & services -->
-- [ ] My file is in the `domains` directory and has the `.json` file extension.
-- [ ] My file's name is lowercased and alphanumeric. <!-- Your file's name is yourname.json, not YourName.json or your_name.json. -->
-- [ ] My website is **reachable**.
-- [ ] I have **completed** my website. <!-- We do not permit simple "Hello, world!" websites. -->
-- [ ] My website is related to **software development**. <!-- We don't permit websites for domains unrelated to development (e.g. Discord servers, gaming guilds, etc.) -->
-- [ ] I have provided sufficient contact information in the `owner` key. <!-- Provide your email in the `email` field or another platform (e.g., X, Discord) for contact. -->
-- [ ] I have followed and read the [documentation](https://docs.is-a.dev).
-- [ ] I understand my domain will be removed if I violate the [Terms of Service](https://is-a.dev/terms).
+- [ ] I **agree** to the [Terms of Service](https://is-a.dev/terms). <!-- Your request MUST follow the TOS to be approved. -->
+- [ ] My file is following the [domain structure](https://docs.is-a.dev/domain-structure/). <!-- Your JSON file is in the domains directory, the name is valid, etc. -->
+- [ ] My website is **reachable** and **completed**. <!-- We do not permit simple "Hello, world!" or simply copied template websites with minimal changes. -->
+- [ ] My website is **software development** related. <!-- Only your root subdomain needs to meet this requirement. -->
+- [ ] My website is **not for commercial use**. <!-- Your website's purpose should not be to generate any form of revenue or profit. -->
+- [ ] I have provided contact information in the `owner` key. <!-- Provide your email in the `email` field or another platform (e.g. X/Twitter or Discord) for contact. -->
+- [ ] I have provided a preview of my website below. <!-- This step is required for your PR to be approved. -->
 
 # Website Preview
-<!-- Provide a link or preview of your website below. If you can't make the website visible, then a screenshot of the website also works. -->
+<!-- Provide a link AND screenshot of your website below. -->
