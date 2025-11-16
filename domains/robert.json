@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "robertpreshyl"
+    },
+    "description": "Robert - Personal Website and Portfolio",
+    "repo": "https://github.com/robertpreshyl",
+    "records": {
+        "A": ["129.80.62.45"],
+        "MX": ["mail.robert.is-a.dev."],
+        "TXT": [
+            "v=spf1 mx a ip4:129.80.62.45 ~all"
+        ]
+    },
+    "proxied": false
+}
