@@ -1,0 +1,7 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "A": ["212.8.229.165"],
+  "owner": {
+    "email": "kvele2014@gmail.com"
+  }
+}
