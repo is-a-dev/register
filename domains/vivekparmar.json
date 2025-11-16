@@ -1,10 +1,9 @@
 {
   "owner": {
-    "email": "parmarvivek05@gmail.com",
-    "username": "VivekParmar-18"
+    "username": "VivekParmar-18",
+    "email": "parmarvivek05@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-delta-seven-46.vercel.app"
-  },
-  "description": "Personal website hosted on Vercel"
+    "A": ["216.198.79.1"]
+  }
 }
