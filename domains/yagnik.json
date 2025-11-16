@@ -1,11 +1,14 @@
 {
   "owner": {
     "username": "yaagnik-patel",
-    "email": "yagnikpatel24818@gmail.com"
+    "email": "YOUR_EMAIL@example.com"
   },
-  "proxied": true,
-  "records": {
-    "CNAME": "portfolio-git-main-yaagnik-patels-projects.vercel.app",
-    "TXT": "vc-domain-verify=yagnik.is-a.dev,a847575435db916293d3"
-  }
+  "domain": "yagnik.is-a.dev",
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "value": "yagnik.vercel.app"
+    }
+  ]
 }
