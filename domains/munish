@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "Munishd24"
+        // You can choose to omit the email line if you prefer
+    },
+    "records": {
+        "CNAME": "munish-portfolio.pages.dev"
+    }
+}
