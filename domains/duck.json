@@ -11,5 +11,6 @@
       { "target": "route1.mx.cloudflare.net", "priority": 39 }
     ],
     "TXT": "v=spf1 include:_spf.mx.cloudflare.net ~all"
-  }
+  },
+  "proxied": true
 }
