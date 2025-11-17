@@ -4,7 +4,7 @@
     "email": "articflap@gmail.com"
   },
   "records": {
-    "CNAME": "arkana-dev-nu.vercel.app",
-    "TXT"  : "vc-domain-verify=arkana.is-a.dev,24a3889f398e7490ea0f"
+    "CNAME": "arkana-dev-nu.vercel.app"
   }
 }
+
