@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "hanigamal"
+  },
+  "records": {
+      "A": [192.168.88.221],
+      "CAA": [
+        { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+      ]
+  },
+  "proxied": true
+}
