@@ -4,6 +4,12 @@
     "email": "serverdeveloper@duck.com"
   },
   "records": {
-    "CNAME": "soumalya-galaxy-portfolio-23.pages.dev"
+    "CNAME": "soumalya-galaxy-portfolio-23.pages.dev",
+    "MX": [
+      { "target": "route3.mx.cloudflare.net", "priority": 73 },
+      { "target": "route2.mx.cloudflare.net", "priority": 84 },
+      { "target": "route1.mx.cloudflare.net", "priority": 39 }
+    ],
+    "TXT": "v=spf1 include:_spf.mx.cloudflare.net ~all"
   }
 }
