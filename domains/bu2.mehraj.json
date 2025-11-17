@@ -6,4 +6,6 @@
     "records": {
         "CNAME": "ghs.googlehosted.com"
     }
+    ,
+      "proxied": false
 }
