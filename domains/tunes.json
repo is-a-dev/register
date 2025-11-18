@@ -4,6 +4,6 @@
         "email": "loolytunes@proton.me"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "CNAME": "tunesis-awebdev.vercel.app"
     }
 }
