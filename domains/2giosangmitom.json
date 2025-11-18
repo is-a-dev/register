@@ -4,6 +4,6 @@
     "email": "2giosangmitom@gmail.com"
   },
   "records": {
-    "CNAME": "2giosangmitom.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
