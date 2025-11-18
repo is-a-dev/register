@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "virtualwinter",
-    "discord": "vwinter",
-    "email": "me@vwinter.moe"
+    "telegram": "xwvux",
+    "email": "itxtahseen@gmail.com"
   },
   "records": {
-    "NS": ["blakely.ns.cloudflare.com", "rocco.ns.cloudflare.com"]
+    "CNAME": "stahseen.vercel.app"
   }
 }
