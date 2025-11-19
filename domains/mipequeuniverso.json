@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
+  "description": "Mi Pequeño Universo Odoo Access",
+  "domain": "mipequeuniverso",
+  "subdomain": "",
+  "owner": {
+    "email": "ronny@mipequeuniverso.com"
+  },
+  "record": {
+    "CNAME": "tunnel.cloudflare.com"
+  }
+}
