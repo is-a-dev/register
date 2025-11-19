@@ -1,4 +1,5 @@
-{ "description": "Personal page with basic info.",
+{ 
+  "description": "Personal page with basic info.",
   "repo": "https://github.com/bostjans/register",
   "owner": {
     "username": "bostjans",
