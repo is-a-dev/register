@@ -7,4 +7,5 @@
         "TXT": ["v=spf1 include:spf.improvmx.com ~all"],
         "CNAME": "cname.vercel-dns.com"
     }
+    "proxied": true
 }
