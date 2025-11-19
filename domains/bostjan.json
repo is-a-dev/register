@@ -7,8 +7,6 @@
   },
   "records": {
     "CNAME": "bostjan.dev404.net",
-    "URLsample1": "https://bostjan.dev404.net",
-    "MXsample1": [ "www669.your-server.de" ],
     "MX": [ { "target": "www669.your-server.de", "priority": 11 } ],
     "TXT": [ "v=spf1 +mx +ip4:213.136.93.171 +ip4:213.133.105.238 ~all" ]
   }
