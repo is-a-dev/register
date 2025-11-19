@@ -3,12 +3,11 @@
     "username": "sachin746",
     "email": "sachinbhadur9@gmail.com"
   },
-  "domain": "sach1n.is-a.dev",
   "records": [
     {
-      "type": "ALIAS",
+      "type": "CNAME",
       "host": "@",
-      "value": "sachin746-group.gitlab.io."
+      "value": "sachin746-group.gitlab.io"
     },
     {
       "type": "TXT",
