@@ -2,8 +2,7 @@
     "owner": {
         "username": "xingxing7290"
     },
-    "records": {
-        "RECORDTYPE": "A",
-        "value":"207.148.30.96"
+    "record": {
+      "A": "207.148.30.96"
     }
 }
