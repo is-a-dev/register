@@ -3,6 +3,7 @@
         "username": "xingxing7290"
     },
     "records": {
-        "RECORDTYPE": "ace.ns.cloudflare.com"
+        "RECORDTYPE": "A",
+        "value":"207.148.30.96"
     }
 }
