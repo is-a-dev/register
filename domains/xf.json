@@ -3,7 +3,7 @@
     "username": "lm-xiao-fen",
     "email": "G114514g@yeah.net"
   },
-  "records": {
-    "CNAME": "lm-xiao-fen.github.io"
+  "records": {  
+    "NS": ["saanvi.ns.cloudflare.com", "venkat.ns.cloudflare.com"]                                            
   }
 }
