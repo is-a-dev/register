@@ -1,10 +1,20 @@
 {
-    "owner": {
-        "username": "sachin746",
-        "email": "sachinbhadur9@gmail.com"
+  "owner": {
+    "username": "sachin746",
+    "email": "sachinbhadur9@gmail.com"
+  },
+  "domain": "sach1n.is-a.dev",
+  "records": [
+    {
+      "type": "ALIAS",
+      "host": "@",
+      "value": "sachin746-group.gitlab.io."
     },
-    "records": {
-        "CNAME": "mysite-3202ef.gitlab.io"
-    },
-    "proxied": true
+    {
+      "type": "TXT",
+      "host": "_gitlab-pages-verification-code",
+      "value": "gitlab-pages-verification-code=714ee5df07d8f97f7c932587207b49d3"
+    }
+  ],
+  "proxied": false
 }
