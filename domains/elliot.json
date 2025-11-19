@@ -1,10 +1,10 @@
 {
   "owner": {
     "username": "Heavensong89",
-    "email": "elliot@farrosphere.nmet"
+    "email": "elliot@allthatlab.xyz"
   },
   "records": {
-    "A": "88.97.249.99"
+    "CNAME": "allthatlab.xyz"
   },
   "proxied": true
 }
