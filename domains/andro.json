@@ -3,12 +3,9 @@
     "username": "DevAndro-eg"
   },
   "records": {
-    "A": ["192.204.223.100"],
-    "MX": [
-      {
-        "target": "mail6.serv00.com",
-        "priority": 10
-      }
+    "NS": [
+      "decker.ns.cloudflare.com",
+      "lauryn.ns.cloudflare.com"
     ]
   }
 }
