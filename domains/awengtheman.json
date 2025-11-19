@@ -3,7 +3,7 @@
     "username": "aweng081289",
     "email": "aweng081289@gmail.com"
   },
-  "record": {
-    "CNAME": "n8n-e9z5.onrender.com"
+  "records": {
+    "cname": "n8n-e9z5.onrender.com"
   }
 }
