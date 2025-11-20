@@ -1,0 +1,11 @@
+{
+  "description": "Olympiad verification website",
+  "domain": "olympiad.is-a.dev",
+  "owner": {
+    "username": "cordovadev",
+    "email": "kamaludin.leading8@gmail.com"
+  },
+  "record": {
+    "CNAME": "cordovadev.github.io"
+  }
+}
