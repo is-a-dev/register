@@ -3,7 +3,7 @@
     "username": "Joe50097",
     "email": "zcell9500@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWPXItvPXEQh/zTsZCFkEcBEObetcpbthrO74OK/zYR+wCk9gHurppJw0nTPcqVVW92Iq78R1b85s6bmGQvFCdMXPM/kM4eWlKKrMcs4QMr8muioEtbyCKu1YenXHZYlns7dfpf5JN2PNnC3cXTTW5uu3F2GNSDXcy/IjhnuSJAwIDAQAB"
   }
 }

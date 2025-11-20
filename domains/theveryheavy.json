@@ -1,16 +1,10 @@
 {
   "owner": {
     "username": "theveryheavy",
-    "discord": "1266113644643614803",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.suIFFV54UOL9Uwa0noRId59uf3EFtDxH9ExQfDv0RMETAGRUfXgK5h68nPm94oBHBVdTrgqlxB1prBpZsoDRhNJnowBjtJL8NP6i40uChltcaAUMsL76kHFlx9I-HojhoHAg6BY3Kt3iQRkMuwHFmJLFwNBCEgK45IlxiBQQ_Of_LW_C7jfp_kqQhrXggqdZYLwKUvsp-JPXCwPmny7IlYF5T6OIhEmjkj2QWEjyqPj8MhvZOpB5WI5nxsxwXKVDvdQysWDm8UuvKThgoY73yoOsKMV6-8RLSIPzSA--hSz8OOzao-YOXMlropqHx9SSQKF2gbg8Jt0la-0o77OYOw._JRnIF_by82ZehfCV5YDgg.O8_d7esMCv2vadIOAxU3oP2njMeEUmuHn7Ud46KZakXuzA8WBZntj3rYa7PZYYDf4sAFwvVCE3O5sdBJsb27Pfbx4G2NjUd04t2tGVKvI6U.U3UdmUku7uVh1MQkFfHOyg"
+    "discord": "1266113644643614803"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "MX": ["mx1.simplelogin.co", "mx2.simplelogin.co"],
     "TXT": [
       "sl-verification=annotwbbqjhagomrimwzthorstvzhw",

@@ -1,10 +1,8 @@
 {
-  "description": "Portfolio site.",
-  "repo": "https://github.com/ravi-pate/ravi-pate.github.io",
   "owner": {
     "username": "ravi-pate"
   },
-  "record": {
+  "records": {
     "CNAME": "ravi-pate.github.io"
   }
 }

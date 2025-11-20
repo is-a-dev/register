@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "pawansubedi889",
-    "email": "mail@pawansubedi.me"
-  },
-  "record": {
-    "URL": "https://www.pawansubedi.me/"
-  }
+    "owner": {
+        "username": "pawan67",
+        "email": "pawantamada8@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

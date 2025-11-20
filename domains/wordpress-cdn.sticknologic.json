@@ -1,0 +1,12 @@
+{
+  "description": "Offloading wordpress file for my Simple Portfolio and Blog Website",
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "records": {
+    "CNAME": "sticknologic.github.io"
+  }
+}

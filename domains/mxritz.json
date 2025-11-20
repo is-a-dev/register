@@ -2,9 +2,9 @@
   "description": "Personal Portfolio",
   "owner": {
     "username": "mxritzdev",
-    "email": "contact@mxritz.dev"
+    "email": "mail@mxritz.dev"
   },
-  "record": {
-    "CNAME": "proxy.host.bytes.wtf"
+  "records": {
+    "CNAME": "server.mxritz.dev"
   }
 }

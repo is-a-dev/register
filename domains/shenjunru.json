@@ -1,11 +1,9 @@
 {
-  "description": "Shen Junru is a Dev",
-  "repo": "https://github.com/shenjunru/is-a-dev",
   "owner": {
     "username": "shenjunru",
     "email": "shenjunru@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "shenjunru.github.io"
   }
 }

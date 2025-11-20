@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "roei111",
-        "email": "roeiyaacobi@gmail.com"
-    },
-    "record": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "roei111",
+    "email": "roeiyaacobi@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

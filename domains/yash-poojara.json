@@ -1,10 +1,8 @@
 {
-  "description": "Yash Poojara Profile.",
-  "repo": "https://github.com/yash-poojara/yash-poojara.github.io",
   "owner": {
     "username": "yash-poojara"
   },
-  "record": {
+  "records": {
     "CNAME": "yash-poojara.github.io"
   }
 }

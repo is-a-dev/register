@@ -1,11 +1,9 @@
 {
-    "description": "Personal portfolio site for Jonathan Geva",
-    "repo": "https://github.com/jonathan-geva/Portfolio",
-    "owner": {
-        "username": "jonathan-geva",
-        "discord": "jonilul21"
-    },
-    "record": {
-        "CNAME": "jonathangeva.ch"
-    }
+  "owner": {
+    "username": "jonathan-geva",
+    "discord": "jonilul21"
+  },
+  "records": {
+    "CNAME": "jonathangeva.ch"
+  }
 }

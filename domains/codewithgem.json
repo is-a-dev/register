@@ -1,11 +1,9 @@
 {
-  "description": "Gem Rey is an IT student, a freelance software developer and cybersecurity enthusiast.",
-  "repo": "https://github.com/gemrey13/gemrey13.github.io",
   "owner": {
     "username": "gemrey13",
     "email": "gemreyranola@gmail.com"
   },
-  "record": {
-    "CNAME": "gemrey13.github.io"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

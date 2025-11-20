@@ -3,7 +3,7 @@
     "username": "razelleclaren",
     "email": "gracela.claren1@gmail.com"
   },
-  "record": {
+  "records": {
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }

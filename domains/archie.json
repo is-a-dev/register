@@ -1,11 +1,9 @@
 {
-  "description": "My personal developer portfolio.",
-  "repo": "https://github.com/iLikeToCode/iliketocode.github.io",
   "owner": {
     "username": "iLikeToCode",
     "email": "archie@archiesbytes.xyz"
   },
-  "record": {
+  "records": {
     "CNAME": "iliketocode.github.io"
   }
 }

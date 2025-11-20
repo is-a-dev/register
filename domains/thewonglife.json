@@ -1,12 +1,10 @@
 {
-  "description": "Nicholas Wong's Personal Subdomain",
-  "repo": "https://github.com/TheWongLife/TheWongLife.github.io",
   "owner": {
     "username": "TheWongLife",
     "email": "nwong27@illinois.edu",
     "twitter": "The_Wong_Life"
   },
-  "record": {
+  "records": {
     "CNAME": "thewonglife.github.io"
   }
 }

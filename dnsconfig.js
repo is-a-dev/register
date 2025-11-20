@@ -1,6 +1,6 @@
 var domainName = "is-a.dev";
 var registrar = NewRegistrar("none");
-var dnsProvider = DnsProvider(NewDnsProvider("cloudflare"), 0);
+var dnsProvider = DnsProvider(NewDnsProvider("cloudflare"));
 
 function getDomainsList(filesPath) {
     var result = [];
@@ -23,41 +23,40 @@ var records = [];
 
 for (var subdomain in domains) {
     var subdomainName = domains[subdomain].name;
-    var domainData = domains[subdomain].data;
-    var proxyState = domainData.proxied ? CF_PROXY_ON : CF_PROXY_OFF;
+    var data = domains[subdomain].data;
+    var proxyState = data.proxied ? CF_PROXY_ON : CF_PROXY_OFF;
 
     // Handle A records
-    if (domainData.record.A) {
-        for (var a in domainData.record.A) {
-            records.push(A(subdomainName, IP(domainData.record.A[a]), proxyState));
+    if (data.records.A) {
+        for (var a in data.records.A) {
+            records.push(A(subdomainName, IP(data.records.A[a]), proxyState));
         }
     }
 
     // Handle AAAA records
-    if (domainData.record.AAAA) {
-        for (var aaaa in domainData.record.AAAA) {
-            records.push(AAAA(subdomainName, domainData.record.AAAA[aaaa], proxyState));
+    if (data.records.AAAA) {
+        for (var aaaa in data.records.AAAA) {
+            records.push(AAAA(subdomainName, data.records.AAAA[aaaa], proxyState));
         }
     }
 
     // Handle CAA records
-    if (domainData.record.CAA) {
-        for (var caa in domainData.record.CAA) {
-            var caaRecord = domainData.record.CAA[caa];
+    if (data.records.CAA) {
+        for (var caa in data.records.CAA) {
+            var caaRecord = data.records.CAA[caa];
             records.push(CAA(subdomainName, caaRecord.tag, caaRecord.value));
         }
     }
 
     // Handle CNAME records
-    if (domainData.record.CNAME) {
-        // Use ALIAS instead of CNAME to support CNAME flattening on the root domain
-        records.push(ALIAS(subdomainName, domainData.record.CNAME + ".", proxyState));
+    if (data.records.CNAME) {
+        records.push(ALIAS(subdomainName, data.records.CNAME + ".", proxyState));
     }
 
     // Handle DS records
-    if (domainData.record.DS) {
-        for (var ds in domainData.record.DS) {
-            var dsRecord = domainData.record.DS[ds];
+    if (data.records.DS) {
+        for (var ds in data.records.DS) {
+            var dsRecord = data.records.DS[ds];
             records.push(
                 DS(subdomainName, dsRecord.key_tag, dsRecord.algorithm, dsRecord.digest_type, dsRecord.digest)
             );
@@ -65,62 +64,107 @@ for (var subdomain in domains) {
     }
 
     // Handle MX records
-    if (domainData.record.MX) {
-        for (var mx in domainData.record.MX) {
-            records.push(MX(subdomainName, 10 + parseInt(mx), domainData.record.MX[mx] + "."));
+    if (data.records.MX) {
+        for (var mx in data.records.MX) {
+            var mxRecord = data.records.MX[mx];
+
+            if (typeof mxRecord === "string") {
+                records.push(
+                    MX(subdomainName, 10 + parseInt(mx), data.records.MX[mx] + ".")
+                );
+            } else {
+                records.push(
+                    MX(
+                        subdomainName,
+                        parseInt(mxRecord.priority),
+                        mxRecord.target + "."
+                    )
+                );
+            }
         }
     }
 
     // Handle NS records
-    if (domainData.record.NS) {
-        for (var ns in domainData.record.NS) {
-            records.push(NS(subdomainName, domainData.record.NS[ns] + "."));
+    if (data.records.NS) {
+        for (var ns in data.records.NS) {
+            records.push(NS(subdomainName, data.records.NS[ns] + "."));
         }
     }
 
     // Handle SRV records
-    if (domainData.record.SRV) {
-        for (var srv in domainData.record.SRV) {
-            var srvRecord = domainData.record.SRV[srv];
+    if (data.records.SRV) {
+        for (var srv in data.records.SRV) {
+            var srvRecord = data.records.SRV[srv];
             records.push(
                 SRV(subdomainName, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
             );
         }
     }
 
+    // Handle TLSA records
+    if (data.records.TLSA) {
+        for (var tlsa in data.records.TLSA) {
+            var tlsaRecord = data.records.TLSA[tlsa];
+
+            records.push(
+                TLSA(
+                    subdomainName,
+                    tlsaRecord.usage,
+                    tlsaRecord.selector,
+                    tlsaRecord.matching_type,
+                    tlsaRecord.certificate
+                )
+            );
+        }
+    }
+
     // Handle TXT records
-    if (domainData.record.TXT) {
-        if (Array.isArray(domainData.record.TXT)) {
-            for (var txt in domainData.record.TXT) {
-                records.push(TXT(subdomainName, domainData.record.TXT[txt].length <= 255 ? "\"" + domainData.record.TXT[txt] + "\"" : domainData.record.TXT[txt]));
+    if (data.records.TXT) {
+        if (Array.isArray(data.records.TXT)) {
+            for (var txt in data.records.TXT) {
+                records.push(TXT(subdomainName, data.records.TXT[txt].length <= 255 ? "\"" + data.records.TXT[txt] + "\"" : data.records.TXT[txt]));
             }
         } else {
-            records.push(TXT(subdomainName, domainData.record.TXT.length <= 255 ? "\"" + domainData.record.TXT + "\"" : domainData.record.TXT));
+            records.push(TXT(subdomainName, data.records.TXT.length <= 255 ? "\"" + data.records.TXT + "\"" : data.records.TXT));
         }
     }
 
     // Handle URL records
-    if (domainData.record.URL) {
+    if (data.records.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
     }
 }
 
-var options = {
-    no_ns: "true"
-};
+var reserved = require("./util/reserved.json");
 
-var ignored = [
-    IGNORE("@", "MX,TXT"),
-    IGNORE("_acme-challenge", "TXT"),
-    IGNORE("_autodiscover._tcp", "SRV"),
-    IGNORE("_dmarc", "TXT"),
-    IGNORE("autoconfig", "CNAME"),
-    IGNORE("autodiscover", "CNAME"),
-    IGNORE("dkim._domainkey", "TXT"),
-    IGNORE("ns[1-4]", "A,AAAA"),
-];
+// Handle reserved domains
+for (var i = 0; i < reserved.length; i++) {
+    var subdomainName = reserved[i];
+    records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
+}
 
-// Push TXT record of when the zone was last updated
+// Zone last updated TXT record
 records.push(TXT("_zone-updated", "\"" + Date.now().toString() + "\""));
 
-D(domainName, registrar, dnsProvider, options, ignored, records);
+var ignored = [
+    IGNORE("\\*", "A"),
+    IGNORE("*._domainkey", "TXT"),
+    IGNORE("@", "*"),
+    IGNORE("_acme-challenge", "TXT"),
+    IGNORE("_discord", "TXT"),
+    IGNORE("_dmarc", "TXT"),
+    IGNORE("_gh-is-a-dev-o", "TXT"),
+    IGNORE("_gh-is-a-dev-o.**", "TXT"),
+    IGNORE("_github-pages-challenge-is-a-dev", "TXT"),
+    IGNORE("_github-pages-challenge-is-a-dev.**", "TXT"),
+    IGNORE("_psl", "TXT"),
+    IGNORE("ns[1-4]", "A,AAAA")
+];
+
+var internal = require("./util/internal.json");
+
+internal.forEach(function(subdomain) {
+    ignored.push(IGNORE(subdomain, "*"));
+});
+
+D(domainName, registrar, dnsProvider, records, ignored);

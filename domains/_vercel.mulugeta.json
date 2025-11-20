@@ -1,0 +1,13 @@
+{
+  "description": "Personal developer portfolio built with Next.js and hosted on Vercel.",
+  "repo": "muleA/register",
+  "owner": {
+    "username": "muleA",
+    "email": "mulugeta.adamu97@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/mulugeta-adamu/",
+    "x": "https://x.com/MuleBeteAmhara"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=mulugeta.is-a.dev,4b2eb308426726cce893"]
+  }
+}

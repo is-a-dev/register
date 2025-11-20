@@ -1,11 +1,9 @@
 {
-  "description": "Website of AlphaSphere.AI Team",
-  "repo": "https://github.com/AlphaSphereDotAI/AlphaSphereDotAI.github.io",
   "owner": {
     "username": "AlphaSphereDotAI",
     "email": "AlphaSphere.AI@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "alphaspheredotai.github.io"
   }
 }

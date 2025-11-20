@@ -1,11 +1,9 @@
 {
-  "description": "want to use it for hosting my portfolio site",
-  "repo": "https://github.com/Dev-Ajay-sahani/Ajay_site",
   "owner": {
     "username": "Dev-Ajay-sahani",
     "email": "ajays.dev.contact@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "dev-ajay-sahani.github.io"
   }
 }

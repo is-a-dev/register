@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "MrDiamondDog",
+    "email": "drewratner27@gmail.com"
+  },
+  "records": {
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 5,
+        "port": 28225,
+        "target": "minecraft.mrdiamond.is-a.dev"
+      }
+    ]
+  }
+}

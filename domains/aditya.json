@@ -1,12 +1,10 @@
 {
-  "description": "my personal homepage",
+  "description": "Aditya portfolio",
   "owner": {
-    "username": "dedomil",
-    "email": "ishqaddy@gmail.com",
-    "twitter": "aadixl",
-    "discord": "dedomil"
+    "username": "raghav-45",
+    "email": "raghavbhai4545@gmail.com"
   },
-  "record": {
-    "CNAME": "dedomil.github.io"
+  "records": {
+    "A": ["76.76.21.21"]
   }
 }

@@ -1,13 +1,11 @@
 {
-  "description": "Gavin Ferdinand Chee's Personal Portfolio",
-  "repo": "https://github.com/GavinFerdinandChee/GavinFerdinandChee.github.io",
   "owner": {
     "username": "GavinFerdinandChee",
     "email": "gavin.ferdinand@proton.me",
     "email_work": "chee.gavin@gmail.com",
     "discord": "gavin#5968"
   },
-  "record": {
+  "records": {
     "CNAME": "gavinferdinandchee.github.io"
   }
 }
