@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "mdwisu"
+        "username": "mdwisu",
+        "email": "dwisusanto784@gmail.com"
     },
     "records": {
-        "CNAME": "mdwisu.com"
+        "CNAME": "cname.vercel-dns.com"
     }
 }
