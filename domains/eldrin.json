@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "ELDRIN23",
-    "email": "eldrinjohnson230@gmail.com"
-  },
-  "records": {
-    "CNAME": "https://eldrin23.vercel.app/"
-  },
-  "proxied": true
+    "owner": {
+        "username": "ELDRIN23",
+        "email": "eldrinjohnson230@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
