@@ -1,0 +1,10 @@
+{
+  "description": "Falmaco FCD Cloudflare Tunnel Domain",
+  "subdomain": "falmaco",
+  "owner": {
+    "email": "falmaco1996@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
