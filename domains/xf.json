@@ -4,6 +4,6 @@
     "email": "G114514g@yeah.net"
   },
   "records": {
-    "NS": ["saanvi.ns.cloudflare.com", "venkat.ns.cloudflare.com"]
+    "CNAME": "lm-xiao-fen.github.io"
   }
 }
