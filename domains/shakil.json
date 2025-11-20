@@ -4,6 +4,9 @@
         "email": "w82l8.islam@gmail.com"
     },
     "records": {
-        "CNAME": "wait2late.github.io"
-    }
+        "CNAME": "wait2late.github.io",
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    },
+    "proxied": true
 }
