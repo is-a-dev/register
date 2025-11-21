@@ -4,6 +4,9 @@
         "email": "dillowhenrick@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "cname.vercel-dns.com",
+         "TXT": {
+            "_vercel": "vc-domain-verify=dillowhenrick.is-a.dev,bd0e91151b2582f08c72"
+         }
     }
 }
