@@ -4,8 +4,6 @@
         "email": "dillowhenrick@gmail.com"
     },
     "records": {
-        "TXT": {
-            "_vercel": "vc-domain-verify=dillowhenrick.is-a.dev,bd0e91151b2582f08c72"
-        }
+        "TXT": "vc-domain-verify=dillowhenrick.is-a.dev,bd0e91151b2582f08c72"
     }
 }
