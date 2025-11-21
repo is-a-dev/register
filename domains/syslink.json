@@ -5,6 +5,9 @@
         "discord": "syslink.sh"
     },
     "records": {
-        "CNAME": "syslink.dev"
+        "CNAME": "cname.vercel-dns.com.",
+        "TXT": {
+            "_vercel": "vc-domain-verify=syslink.is-a.dev,72734a34b7d3b769708d"
+        }
     }
 }
