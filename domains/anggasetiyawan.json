@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "foxxw0lf"
+        "username": "foxxw0lf",
+        "email": "your.email@example.com"
     },
     "records": {
         "CNAME": "https://anggasetiyawan.is-a.dev/"
