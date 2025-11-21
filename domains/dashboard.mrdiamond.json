@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "MrDiamondDog",
+    "username": "MrDiamondDog"
   },
   "records": {
-    "A": "129.146.51.207"
+    "A": ["129.146.51.207"]
   },
   "proxied": true
 }
