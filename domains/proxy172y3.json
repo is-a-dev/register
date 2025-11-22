@@ -1,0 +1,12 @@
+{
+  "name": "proxy172y3",
+  "domain": "is-a.dev",
+  "subdomain": "proxy172y3",
+  "owner": {
+    "email": "proxy.summary1837.app@gmail.com"
+  },
+  "record": {
+    "CNAME": ["your-app.reflect.run"]
+  },
+  "proxied": true
+}
