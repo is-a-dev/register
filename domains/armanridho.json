@@ -6,5 +6,6 @@
   },
   "record": {
     "CNAME": "armanridho.my.id"
-  }
+  },
+  "proxied": true
 }
