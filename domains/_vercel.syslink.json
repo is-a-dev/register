@@ -5,6 +5,6 @@
         "discord": "syslink.sh"
     },
     "records": {
-        "A": ["76.76.21.21"]
+        "TXT": "vc-domain-verify=syslink.is-a.dev,72734a34b7d3b769708d"
     }
 }
