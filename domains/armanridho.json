@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "armanridho",
-        "email": "arman05ridho@gmil.com"
-    },
-    "records": {
-        "CNAME": "d3v.armanridho.my.id"
-    }
+  "description": "Arman | CyberSlayer",
+  "owner": {
+    "username": "armanridho",
+    "email": "arman05ridho@gmail.com"
+  },
+  "record": {
+    "CNAME": "armanridho.my.id"
+  }
 }
