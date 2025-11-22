@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "your_github_username",
+    "email": "your_email@example.com"
+  },
+  "record": {
+    "mx": [
+      { "priority": 10, "value": "mx1.improvmx.com" },
+      { "priority": 20, "value": "mx2.improvmx.com" }
+    ],
+    "txt": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}
