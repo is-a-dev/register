@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "Finite-Code",
-        "email": "Finite-Code.noreply@github.com"
-    },
-    "records": {
-        "CNAME": "portfolio-finitecode.pages.dev/portfolio/"
-    },
-    "proxied": true
+  "owner": {
+    "username": "Finite-Code",
+    "email": "Finite-Code.noreply@github.com"
+  },
+  "records": {
+    "CNAME": "portfolio-web-finite.web.app/"
+  }
 }
