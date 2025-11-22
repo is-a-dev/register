@@ -6,6 +6,7 @@
     "email": "olaniyiolabode99@yahoo.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=niero.is-a.dev,160d92c4fe43235951f1"
   }
 }
