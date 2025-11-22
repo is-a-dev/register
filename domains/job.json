@@ -4,6 +4,6 @@
     "email": "gorgonfweman@outlook.com"
   },
   "records": {
-    "NS": ["mary.ns.cloudflare.com", "ned.ns.cloudflare.com"],
+    "NS": ["mary.ns.cloudflare.com", "ned.ns.cloudflare.com"]
   }
 }
