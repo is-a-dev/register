@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "dharshan-0",
+    "email": "me.dharshan.1@gmail.com"
+  },
+  "records": {
+    "CNAME": "dharshan-0.github.io"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/dharshan-0",
+      "/linkedin": "https://www.linkedin.com/in/dharshan-dev/",
+    },
+    "redirect_paths": true
+  },
+  "proxied": true
+}
