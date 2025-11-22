@@ -1,13 +1,9 @@
 {
   "owner": {
-    "username": "Finite-Code" 
+    "username": "Finite-Code"
   },
   "records": {
     "CNAME": "portfolio.finitecode-contact.workers.dev"
   },
-  "proxied": true,
-  "redirect_config": {
-    "custom_paths": {},
-    "redirect_paths": false
-  }
+  "proxied": true
 }
