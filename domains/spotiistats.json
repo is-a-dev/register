@@ -1,0 +1,11 @@
+{
+  "description": "My Cloudflare Tunnel domain",
+  "domain": "is-a.dev",
+  "subdomain": "spotiistats",
+  "owner": {
+    "email": "yt.fasu@bk.ru"
+  },
+  "record": {
+    "CNAME": "b16abfa7-4389-4091-a4b1-7b4c5aef56ae.cfargotunnel.com"
+  }
+}
