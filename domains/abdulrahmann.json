@@ -1,0 +1,8 @@
+{
+  "subdomain": "abdulrahmann",
+  "owner": "HelloAbdulRahman",
+  "description": "My portfolio website hosted on Netlify",
+  "record": {
+    "CNAME": "https://gorgeous-gingersnap-c829e9.netlify.app/"
+  }
+}
