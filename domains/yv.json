@@ -1,0 +1,28 @@
+{
+    "owner": {
+        "username": "yashvr96",
+        "email": "yashvr96@gmail.com"
+    },
+    "records": {
+        "CNAME": "yashvr96.github.io",
+        "TXT": [
+            "zoho-verification=zb06692219.zmverify.zoho.in",
+            "v=spf1 include:zoho.in ~all"
+        ],
+        "MX": [
+          {
+            "target": "mx.zoho.in",
+            "priority": 10
+          },
+          {
+            "target": "mx2.zoho.in",
+            "priority": 20
+          },
+          {
+            "target": "mx3.zoho.in",
+            "priority": 50
+          }
+        ]
+    },
+    "proxied": true
+}

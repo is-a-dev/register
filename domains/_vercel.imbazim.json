@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "imbazim",
+        "email": "imbazim@icloud.com"
+    },
+    "records": {
+        "TXT": ["vc-domain-verify=imbazim.is-a.dev,433d01f09086245abeaf", "vc-domain-verify=admin.imbazim.is-a.dev,5517ec7e5fe8313f2346"]
+    }
+}

@@ -1,9 +1,11 @@
 {
   "owner": {
-    "email": "aadarsh.rai0307@gmail.com",
-    "username": "Aadarsh0307"
+    "username": "Aadarsh0307",
+    "email": "aadarsh.rai0307@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-aadarsh-rais-projects.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

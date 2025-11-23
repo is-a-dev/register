@@ -89,14 +89,6 @@ fs.readdir(directoryPath, function (err, files) {
             if (processedCount === files.length) {
                 v2.sort((a, b) => a.domain.localeCompare(b.subdomain));
 
-                fs.writeFile("raw-api/index.json", JSON.stringify({"code":404,"message":"v1 of the Raw API is no longer available, please upgrade to v2 located at https://raw.is-a.dev/v2.json"}), (err) => {
-                    if (err) throw err;
-                });
-
-                fs.writeFile("raw-api/v1.json", JSON.stringify({"code":404,"message":"v1 of the Raw API is no longer available, please upgrade to v2 located at https://raw.is-a.dev/v2.json"}), (err) => {
-                    if (err) throw err;
-                });
-
                 fs.writeFile("raw-api/v2.json", JSON.stringify(v2), (err) => {
                     if (err) throw err;
                 });
