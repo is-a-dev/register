@@ -1,11 +1,11 @@
 {
   "owner": {
-    "username": "YOUR_GITHUB_USERNAME"
+    "username": "yigasda"
   },
   "records": [
     {
       "type": "CNAME",
-      "value": "YOUR-RAILWAY-DOMAIN.up.railway.app"
+      "value": "sillytavern-railway-production.up.railway.app"
     }
   ]
 }
