@@ -1,0 +1,11 @@
+{
+  "description": "GitHub Pages site",
+  "domain": "is-a.dev",
+  "subdomain": "yourname",
+  "owner": {
+    "email": "kmczackyt@gmail.com"
+  },
+  "record": {
+    "CNAME": ["z4ck-ftw.github.io"]
+  }
+}
