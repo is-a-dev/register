@@ -3,10 +3,7 @@
     "username": "yigasda",
     "email": "soonjung118@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "sillytavern-railway-production.up.railway.app"
-    }
-  ]
+  "records": {
+    "CNAME": "sillytavern-railway-production.up.railway.app"
+  }
 }
