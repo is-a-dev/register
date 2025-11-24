@@ -1,16 +1,12 @@
 {
   "$schema": "../schemas/domain.schema.json",
-  "description": "car fleet user domain for personal use",
-  "domain": "carfleetuser.is-a.dev",
-  "subdomains": [
-    {
-      "domain": "carfleetuser.is-a.dev",
-      "records": [
-        {
-          "type": "A",
-          "value": "8.8.8.8"
-        }
-      ]
-    }
-  ]
+  "description": "Car fleet user domain for web development",
+  "owner": {
+    "email": "nanlo9783@gmail.com"
+  },
+  "record": {
+    "A": [
+      "8.8.8.8"
+    ]
+  }
 }
