@@ -4,9 +4,7 @@
   "owner": {
     "email": "nanlo9783@gmail.com"
   },
-  "record": {
-    "A": [
-      "8.8.8.8"
-    ]
+  "records": {
+    "A": ["8.8.8.8"]
   }
 }
