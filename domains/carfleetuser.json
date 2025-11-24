@@ -1,0 +1,16 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "car fleet user domain for personal use",
+  "domain": "carfleetuser.is-a.dev",
+  "subdomains": [
+    {
+      "domain": "carfleetuser.is-a.dev",
+      "records": [
+        {
+          "type": "A",
+          "value": "8.8.8.8"
+        }
+      ]
+    }
+  ]
+}
