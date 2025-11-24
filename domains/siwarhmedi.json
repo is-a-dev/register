@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "siwarhmedii",
-    "email": "siwar_hmedi@hotmail.com"
+    "email": "siwwar_hmedi@hotmail.com"
   },
-  "record": {
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"]
+  "records": {
+    "CNAME": "siwarhmedii.github.io"
   }
 }
