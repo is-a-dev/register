@@ -3,7 +3,7 @@
     "username": "hotsno"
   },
   "records": {
-    "CNAME": "aku-personal-site.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
 
