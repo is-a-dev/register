@@ -1,8 +1,11 @@
 {
   "owner": {
-    "github": "drey0911" 
+    "github": "drey0911"
   },
-  "record": {
-    "CNAME": "drey0911.github.io" 
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "drey0911.github.io"
+    }
+  ]
 }
