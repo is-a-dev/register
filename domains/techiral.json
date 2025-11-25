@@ -4,6 +4,7 @@
         "email": "lakshya.automate@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "A": ["216.198.79.1"],
+        "TXT": ["zoho-verification=zb61643303.zmverify.zoho.in"]
     }
 }
