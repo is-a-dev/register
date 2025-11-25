@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "VarunGotmare"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "TXT": {
+      "_vercel": "vc-domain-verify=varun.is-a.dev,a5471e7e697265ce688a"
+    }
+  }
+}
