@@ -4,7 +4,6 @@
     "email": "aashishanil321@gmail.com"
   },
   "records": {
-    "CNAME": "ashphotfolio.vercel.app"
-  },
-  "proxied": true
+     "A": ["216.198.79.1"]
+  }
 }
