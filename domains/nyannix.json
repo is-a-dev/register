@@ -6,6 +6,6 @@
     "twitter": "nixxlte"
   },
   "records": {
-    "CNAME": "nyannix.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
