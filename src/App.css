@@ -1,0 +1,27 @@
+/* App.css */
+main {
+	background: var(--mainground);
+	margin: 12px 0;
+	padding: 5px;
+}
+
+@media screen and (min-width: 550px) {
+	main {
+		margin: 12px;
+	}
+}
+@media screen and (min-width: 1500px) {
+	main {
+		font-size: 18px;
+	}
+}
+@media screen and (min-width: 1900px) {
+	main {
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 2600px) {
+	main {
+		font-size: 24px;
+	}
+}
