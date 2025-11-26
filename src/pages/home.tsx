@@ -1,10 +1,11 @@
 // src/pages/home.tsx
 import Main from "@/components/main/Main";
+import Project from "@/components/main/Project-input";
 
 export default function Home() {
 	return (
 		<Main title="My Home" className="cont__flex">
-			<p>
+			<div>
 				<p>
 					Esta es mi aplicación personal la iré actualizando y subiendo mis
 					proyectos a medida que avance.
@@ -43,7 +44,8 @@ export default function Home() {
 					hay ninguna empresa en sí
 				</p>
 				<p>Si me lo permiten, le pondré mucho esfuerzo a esta página :D</p>
-			</p>
+				<a href="/about">About</a>
+			</div>
 		</Main>
 	);
 }
