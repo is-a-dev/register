@@ -1,7 +1,7 @@
 // src/App.tsx
 import type { ReactNode } from "react";
 import "./App.css";
-import Header from "@/components/Header";
+import Header from "@/components/header/Header";
 import { ThemeProvider } from "./components/theme-provider";
 
 function App({ children }: { children?: ReactNode }) {

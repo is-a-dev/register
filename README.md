@@ -1,7 +1,16 @@
 # My frontend
 
 ```sh
+bun add react-i18next i18next
+bun add react-router-dom
+bun add react-hook-form
+bun add -D shadcn-ui
 bun dev
+```
+
+```sh
+bunx --bun shadcn@latest add navigation-menu
+bunx --bun shadcn@latest add button
 ```
 
 ## Presentación

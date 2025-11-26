@@ -1,4 +1,30 @@
 /* App.css */
+
+/* Header */
+.header {
+	@apply justify-between h-[46px] bg-(--mainground);
+	padding: 5px 1px;
+}
+
+.header svg {
+	height: 32px;
+	cursor: pointer;
+}
+
+.header .time {
+	display: grid;
+	grid-auto-flow: column;
+	max-width: 700px;
+	margin: auto;
+	color: var(--color-text);
+	font-size: 30px;
+	font-family: monospace;
+	text-align: center;
+	line-height: normal;
+}
+
+/* Main */
+
 main {
 	background: var(--mainground);
 	margin: 12px 0;

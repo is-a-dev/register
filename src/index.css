@@ -123,13 +123,7 @@
 	}
 }
 
-/* Header */
-
 /* Main */
-
-.bg-mainground {
-	background-color: var(--mainground);
-}
 
 .container {
 	border-top: 1px solid var(--border);
@@ -155,4 +149,18 @@ h1 {
 h1,
 h2 {
 	text-align: center;
+}
+
+.button,
+.form__div {
+	text-align: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.form__div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100px;
 }

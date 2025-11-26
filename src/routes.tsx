@@ -1,7 +1,7 @@
-// src/routes.ts
-
+// src/routes.tsx
 import type { ReactElement } from "react";
 import { PageWrapper } from "./components/PageWrapper";
+import { PROJECTS } from "@/data/projects";
 
 const modules = import.meta.glob("./pages/**/*.tsx", { eager: true });
 
@@ -11,31 +11,34 @@ type RouteItem = {
 	title: string;
 };
 
-const titles: Record<string, string> = {
-	"/": "Fuis18 - Projects",
-	"/news": "Fuis18 - News",
-	"/pages/0": "Fuis18 - Yanaira",
-};
-
 export const routes: RouteItem[] = Object.entries(modules).map(
 	([filePath, module]) => {
-		const segments = filePath.split("/");
-		const fileName = segments.pop()!.replace(".tsx", "");
-		const folderName = segments.pop()!;
+		const parts = filePath.split("/");
 
-		console.log(segments);
-		console.log(folderName);
-		console.log(fileName);
+		const file = parts.pop()!.replace(".tsx", "");
+		const folder = parts.pop()!;
 
 		let routePath = "/";
+		let title = "Fuis18 - Web";
 
-		if (folderName === "pages" && fileName !== "home") {
-			routePath = `/${fileName.toLowerCase()}`;
-		} else if (folderName !== "pages") {
-			routePath = `/pages/${folderName.toLowerCase()}`;
+		// 1. HOME -> /
+		if (folder === "pages" && file === "home") {
+			routePath = "/";
+			title = "Fuis18 - Home";
 		}
 
-		const title = titles[routePath] || "Fuis18 - Projects";
+		// 2. Páginas normales como news.tsx, about.tsx
+		else if (folder === "pages" && file !== "page") {
+			routePath = `/${file.toLowerCase()}`;
+			title = `Fuis18 - ${file.charAt(0).toUpperCase() + file.slice(1)}`;
+		}
+
+		// 3. Carpetas numéricas -> proyectos /pages/0, /pages/1, etc.
+		else if (!isNaN(Number(folder)) && file === "page") {
+			const id = Number(folder);
+			routePath = `/pages/${id}`;
+			title = PROJECTS[id] ? `Fuis18 - ${PROJECTS[id]}` : "Fuis18 - Proyecto";
+		}
 
 		const Component = (module as any).default;
 
