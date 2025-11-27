@@ -4,6 +4,6 @@
         "email": "stringhost.local@gmail.com"
     },
     "records": {
-        "CNAME": "stringhost.github.io"
+        "CNAME": "cname.vercel-dns.com"
     }
 }

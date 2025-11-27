@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "warmbo",
+    "email": "cody@warmbo.com"
+  },
+  "records": {
+    "CNAME": "cody.warmbo.com"
+  },
+  "proxied": false
+}
