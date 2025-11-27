@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "daponcer-dev"
+    "username": "daponcer-dev",
+    "email": "daponcer.dev@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sgl-app--sgl-next.us-central1.hosted.app"
   }
 }
