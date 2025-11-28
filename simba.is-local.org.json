@@ -1,0 +1,16 @@
+{
+  "description": "Domain for Simba App",
+  "domain": "simba.is-local.org",
+  "subdomain": "simba",
+  "owner": {
+    "email": "aplikasisimpanpinjamkoperasi@gmail.com"
+  },
+  "records": {
+    "A": [
+      {
+        "host": "@",
+        "value": "1.1.1.1"
+      }
+    ]
+  }
+}
