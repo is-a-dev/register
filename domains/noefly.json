@@ -4,6 +4,7 @@
         "email": "jeffyang0123@gmail.com"
     },
     "records": {
-        "CNAME": "noefly.gitlab.io"
+        "CNAME": "noefly.gitlab.io",
+        "TXT": ["google-site-verification=jSwY56861A1SX3bo48oM4CdAeW0HD9sfThUeUAXeX3g"],
     }
 }
