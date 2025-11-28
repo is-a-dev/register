@@ -4,6 +4,10 @@
     "email": "muhammedarifnn@gmail.com"
   },
   "records": {
-    "CNAME": "arif00.pages.dev"
+    "CNAME": {
+      "name": "@",
+      "value": "arif00.pages.dev",
+      "proxy": false
+    }
   }
 }
