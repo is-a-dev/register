@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Mr-Dev-Loper",
+    "email": "techworldhqofficial@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2SMS/wxYYanewCZsreC1GYeqoTkvYifRRxHVF"
+    ]
+  }
+}

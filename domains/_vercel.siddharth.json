@@ -5,6 +5,6 @@
     "discord": "804397662467915777"
   },
   "records": {
-    "TXT": "vc-domain-verify=siddharth.is-a.dev,5b334303ef3dfd64b557"
+    "TXT": ["vc-domain-verify=siddharth.is-a.dev,5b334303ef3dfd64b557", "vc-domain-verify=docs.siddharth.is-a.dev,4f1858da957b68594875"]
   }
 }
