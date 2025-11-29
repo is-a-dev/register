@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "Loolybooly",
+        "email": "loolytunes@proton.me"
+    },
+    "records": {
+        "TXT": ["vc-domain-verify=tunes.is-a.dev,c3f03e5b033f7219b57a", "vc-domain-verify=brainrot-wiki.tunes.is-a.dev,ae79a9d5504891f1402a", "vc-domain-verify=butteryclicks.tunes.is-a.dev,9eac8f1ba2223202a75f", "vc-domain-verify=degoogle-ify.tunes.is-a.dev,6228d8eadf3ac3ed56ef", "vc-domain-verify=gayballs.tunes.is-a.dev,7c83a9c7b4734a3e4bce", "vc-domain-verify=hackeroonies.tunes.is-a.dev,8cf1d690a23325b6fa2d", "vc-domain-verify=linuxdistros.tunes.is-a.dev,0aae1c6c70257f1ecfeb"]
+    }
+}
