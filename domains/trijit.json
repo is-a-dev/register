@@ -1,0 +1,12 @@
+{
+  "description": "Trijit's website",
+  "domain": "is-a.dev",
+  "subdomain": "trijit",
+  "owner": {
+    "repo": "https://github.com/agnijitam/trijit",
+    "email": "trijit890@gmail.com"
+  },
+  "record": {
+    "CNAME": "agnijitam.github.io"
+  }
+}
