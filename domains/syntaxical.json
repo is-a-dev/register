@@ -1,0 +1,11 @@
+Create _vercel.syntaxial.json
+
+{
+    "owner": {
+        "username": "xxpwnxxx420lord",
+        "email": "triocantgetme@gmail.com"
+    },
+    "records": {
+        "TXT": ["vc-domain-verify=syntaxical.is-a.dev,1bda074644251963aaea"]
+    }
+}
