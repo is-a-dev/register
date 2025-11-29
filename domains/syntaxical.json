@@ -4,6 +4,7 @@
         "email": "triocantgetme@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=syntaxical.is-a.dev,1bda074644251963aaea"]
+        "TXT": ["vc-domain-verify=syntaxical.is-a.dev,1bda074644251963aaea"],
+        "A": ["216.198.79.1"]
     }
 }
