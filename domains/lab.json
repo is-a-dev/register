@@ -1,0 +1,11 @@
+{
+  "domain": "lab",
+  "description": "Personal frontend experiments and static site hosting",
+  "owner": {
+    "username": "litao1231",
+    "email": "negis79704@badfist.com"
+  },
+  "record": {
+    "CNAME": "pages.dev"
+  }
+}
