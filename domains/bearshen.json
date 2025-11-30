@@ -3,7 +3,7 @@
     "username": "Bearshenmin"
   },
   "records": {
-    "CNAME": "bearshen.top"
+    "NS": ["daisy.ns.cloudflare.com", "hal.ns.cloudflare.com"]
   },
   "proxied": true
 }
