@@ -3,10 +3,10 @@
     "username": "andixa90",
     "email": "andixa90@gmail.com"
   },
-  "records": [ 
+  "records": [
     {
       "type": "CNAME",
       "value": "zarazehan.pages.dev"
     }
-  ] 
+  ]
 }
