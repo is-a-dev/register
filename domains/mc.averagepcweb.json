@@ -1,0 +1,11 @@
+{
+  "description": "This is a subdomain for my Minecraft Server being hosted by Aternos. I have a personal website linked to [averagepcweb]. This domain will also be linked to my discord account."
+  "owner": {
+    "username": "FaultyFaulty-glitch",
+    "email": "discordmeow28@gmail.com"
+  },
+  "records": {
+    "TXT": "dh=43c2f60caac6e998e447459ef64bb4c292450863"
+    "NS": ["galileo.aternos.org", "columbus.aternos.org"]
+  }
+}
