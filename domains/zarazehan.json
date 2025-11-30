@@ -4,8 +4,6 @@
     "email": "andixa90@gmail.com"
   },
   "records": {
-    "CNAME": [
-      "zarazehan.pages.dev"
-    ]
+    "CNAME": "zarazehan.pages.dev"
   }
 }
