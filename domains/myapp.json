@@ -1,13 +1,13 @@
 {
   "$schema": "../schemas/domain.schema.json",
-  "domain": "myapp.is-a.dev",
+  "domain": "ap-post.is-a.dev",
   "owner": {
     "username": "tankhanh",
     "email": "dinhtankhanh14@gmail.com"
   },
   "record": {
     "TXT": {
-      "resend._domainkey.myapp": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5e3s8maKnFf41EOV5hRqRwZGRuw+HKupBb/7E6xpn+LURKKDppHngV92vDoB4Two6JVv4z25b6SnfXB8kmMkkhi4OS1g4F9nUtfqfS2/E4vRmPuTmrJM7Vlk9W6UXLJy+HarKLwDxmsUueEBhSZMLHkTc17CFE88LsYW9nCoA4wIDAQAB",
+      "resend._domainkey.myapp": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbw+fJhMUxFtxQwxRx58Gz0JMwwDfIu2zGXBtP1/1Ypk11IV3pZYatMChFyCABJB/y3TkxdBlPcg3NgvKHZqBOtEOYl71fAYWvBbismVN6T1mo0YfhoZwucyzRF5v1YcphGkivLNGtNYR7BE9wO2lbM+J4TTB+W2khrx/4pLQEZwIDAQAB",
       "send.myapp": "v=spf1 include:amazonses.com ~all",
       "_dmarc": "v=DMARC1; p=none;"
     },
