@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/src/schema.json",
+  "owner": {
+    "username": "GeniusVoid",
+    "email": "geniusvoid00@gmail.com"
+  },
+  "record": {
+    "CNAME": "secure-backend.vibtech0.workers.dev"
+  }
+}
