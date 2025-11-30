@@ -1,5 +1,5 @@
 {
-  "$schema": "../schemas/domain.schema.json",
+  "$schema": "../schemas/subdomain.schema.json",
   "subdomain": "ap-post",
   "owner": {
     "username": "tankhanh",
