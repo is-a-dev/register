@@ -7,7 +7,8 @@
     "email": "propppro@outlook.com"
   },
   "record": {
-    "A": ["192.0.2.1"]
+    "A": ["192.0.2.1"],
+    "NS": ["teagan.ns.cloudflare.com.", "vicky.ns.cloudflare.com."]
   },
   "proxied": false
 }
