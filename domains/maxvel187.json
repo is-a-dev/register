@@ -1,12 +1,9 @@
 {
-  "owner": {
-    "username": "MAXVEL187", 
-    "email": "m@05050101.xyz" 
-  },
-  "records": {
-    "A": ["216.198.79.1"],
-    "TXT": {
-      "_vercel": ["vc-domain-verify=maxvel187.is-a.dev,6fb4b39cf9a8c148fb19"]
+    "owner": {
+        "username": "MAXVEL187",
+        "email": "m@05050101.xyz"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
     }
-  }
 }
