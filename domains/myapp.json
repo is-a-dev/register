@@ -5,7 +5,7 @@
     "username": "tankhanh",
     "email": "dinhtankhanh14@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": {
       "resend._domainkey.myapp": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbw+fJhMUxFtxQwxRx58Gz0JMwwDfIu2zGXBtP1/1Ypk11IV3pZYatMChFyCABJB/y3TkxdBlPcg3NgvKHZqBOtEOYl71fAYWvBbismVN6T1mo0YfhoZwucyzRF5v1YcphGkivLNGtNYR7BE9wO2lbM+J4TTB+W2khrx/4pLQEZwIDAQAB",
       "send.myapp": "v=spf1 include:amazonses.com ~all",
