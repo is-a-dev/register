@@ -1,21 +1,27 @@
 {
   "$schema": "../schemas/domain.schema.json",
-  "domain": "ap-post.is-a.dev",
+  "subdomain": "ap-post",
   "owner": {
     "username": "tankhanh",
     "email": "dinhtankhanh14@gmail.com"
   },
   "records": {
-    "TXT": {
-      "resend._domainkey.myapp": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbw+fJhMUxFtxQwxRx58Gz0JMwwDfIu2zGXBtP1/1Ypk11IV3pZYatMChFyCABJB/y3TkxdBlPcg3NgvKHZqBOtEOYl71fAYWvBbismVN6T1mo0YfhoZwucyzRF5v1YcphGkivLNGtNYR7BE9wO2lbM+J4TTB+W2khrx/4pLQEZwIDAQAB",
-      "send.myapp": "v=spf1 include:amazonses.com ~all",
-      "_dmarc": "v=DMARC1; p=none;"
-    },
-    "MX": {
-      "send.myapp": {
+    "TXT": [
+      "resend._domainkey.ap-post=p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbw+fJhMUxFtxQwxRx58Gz0JMwwDfIu2zGXBtP1/1Ypk11IV3pZYatMChFyCABJB/y3TkxdBlPcg3NgvKHZqBOtEOYl71fAYWvBbismVN6T1mo0YfhoZwucyzRF5v1YcphGkivLNGtNYR7BE9wO2lbM+J4TTB+W2khrx/4pLQEZwIDAQAB",
+      "send.ap-post=v=spf1 include:amazonses.com ~all",
+      "_dmarc=v=DMARC1; p=none;"
+    ],
+    "MX": [
+      {
+        "host": "send.ap-post",
         "value": "feedback-smtp.ap-northeast-1.amazonses.com",
         "priority": 10
+      },
+      {
+        "host": "ap-post",
+        "value": "inbound-smtp.ap-northeast-1.amazonaws.com",
+        "priority": 10
       }
-    }
+    ]
   }
 }
