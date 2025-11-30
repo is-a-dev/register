@@ -5,7 +5,7 @@
     },
     "records": {
         "CNAME": "noefly.gitlab.io",
-        "TXT": ["google-site-verification=jSwY56861A1SX3bo48oM4CdAeW0HD9sfThUeUAXeX3g"]
+        "TXT": ["google-site-verification=jSwY56861A1SX3bo48oM4CdAeW0HD9sfThUeUAXeX3g", "zoho-verification=zb50303916.zmverify.zoho.com"]
     },
     "proxied" : true
 }
