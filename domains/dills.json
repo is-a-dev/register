@@ -1,0 +1,9 @@
+{
+  "description": "Personal site for Dill, full-stack engineer.",
+  "owner": {
+    "email": "dill.ruzz.official@gmail.com"
+  },
+  "records": {
+    "CNAME": "dill-dev.netlify.app"
+  }
+}
