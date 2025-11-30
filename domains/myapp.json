@@ -2,11 +2,20 @@
   "$schema": "../schemas/domain.schema.json",
   "domain": "myapp.is-a.dev",
   "owner": {
-    "username": "your_github_username",
-    "email": "your_email@example.com"
+    "username": "tankhanh",
+    "email": "dinhtankhanh14@gmail.com"
   },
   "record": {
-    "TXT": ["resend-domain-verification=xxxx"],
-    "CNAME": "your-vercel-or-render-domain"
+    "TXT": {
+      "resend._domainkey.myapp": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5e3s8maKnFf41EOV5hRqRwZGRuw+HKupBb/7E6xpn+LURKKDppHngV92vDoB4Two6JVv4z25b6SnfXB8kmMkkhi4OS1g4F9nUtfqfS2/E4vRmPuTmrJM7Vlk9W6UXLJy+HarKLwDxmsUueEBhSZMLHkTc17CFE88LsYW9nCoA4wIDAQAB",
+      "send.myapp": "v=spf1 include:amazonses.com ~all",
+      "_dmarc": "v=DMARC1; p=none;"
+    },
+    "MX": {
+      "send.myapp": {
+        "value": "feedback-smtp.ap-northeast-1.amazonses.com",
+        "priority": 10
+      }
+    }
   }
 }
