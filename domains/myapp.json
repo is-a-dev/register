@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/domain.schema.json",
-  "subdomain": "ap-post",
+  "domain": "ap-post",
   "owner": {
     "username": "tankhanh",
     "email": "dinhtankhanh14@gmail.com"
@@ -14,12 +14,7 @@
     "MX": [
       {
         "host": "send.ap-post",
-        "value": "feedback-smtp.ap-northeast-1.amazonses.com",
-        "priority": 10
-      },
-      {
-        "host": "ap-post",
-        "value": "inbound-smtp.ap-northeast-1.amazonaws.com",
+        "target": "feedback-smtp.ap-northeast-1.amazonses.com",
         "priority": 10
       }
     ]
