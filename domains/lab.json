@@ -5,7 +5,7 @@
     "username": "litao1231",
     "email": "negis79704@badfist.com"
   },
-  "record": {
-    "CNAME": "pages.dev"
+  "records": {
+    "CNAME": "lab-project.pages.dev"
   }
 }
