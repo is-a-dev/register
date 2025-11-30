@@ -1,0 +1,12 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "domain": "myapp.is-a.dev",
+  "owner": {
+    "username": "your_github_username",
+    "email": "your_email@example.com"
+  },
+  "record": {
+    "TXT": ["resend-domain-verification=xxxx"],
+    "CNAME": "your-vercel-or-render-domain"
+  }
+}
