@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "ComradeMohan"
+         "username": "ComradeMohan",
+         "email": "k.nobitha666@gmail.com"
     },
     "records": {
-        "A": ["75.2.60.5"]
+        "CNAME": "devpulseweb.netlify.app"
     }
 }
