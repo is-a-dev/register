@@ -1,0 +1,13 @@
+{
+  "description": "Personal portfolio and blog",
+  "domain": "is-a.dev",
+  "subdomain": "japanj",
+  "owner": {
+    "username": "liligith",
+    "email": "propppro@outlook.com"
+  },
+  "record": {
+    "A": ["192.0.2.1"]
+  },
+  "proxied": false
+}
