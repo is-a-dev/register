@@ -1,0 +1,12 @@
+{
+"owner": {
+"email": "b.10997023.c@gmail.com"
+},
+"target": {
+"type": "NS",
+"records": [
+"molly.ns.cloudflare.com",
+"vin.ns.cloudflare.com"
+]
+}
+}
