@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/domain.schema.json",
-  "domain": "ap-post",
+  "subdomain": "ap-post",
   "owner": {
     "username": "tankhanh",
     "email": "dinhtankhanh14@gmail.com"
