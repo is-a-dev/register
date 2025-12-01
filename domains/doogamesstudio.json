@@ -2,7 +2,8 @@
   "owner": {
     "username": "oleksiidolbonosov"
   },
-  "records": {
+  "subdomain": "www",
+  "record": {
     "CNAME": "chipper-zabaione-7bc54c.netlify.app"
   }
 }
