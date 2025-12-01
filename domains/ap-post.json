@@ -7,10 +7,10 @@
     "TXT": [
       "resend._domainkey p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbw+fJhMUxFtxQwxRx58Gz0JMwwDfIu2zGXBtP1/1Ypk11IV3pZYatMChFyCABJB/y3TkxdBlPcg3NgvKHZqBOtEOYl71fAYWvBbismVN6T1mo0YfhoZwucyzRF5v1YcphGkivLNGtNYR7BE9wO2lbM+J4TTB+W2khrx/4pLQEZwIDAQAB",
       "v=spf1 include:amazonses.com ~all",
-      "_dmarc v=DMARC1; p=none;"
+      "_dmarc v=DMARC1; p=none"
     ],
     "MX": [
-      "10 inbound-smtp.ap-northeast-1.amazonses.com"
+      "10 inbound-smtp.ap-northeast-1.amazonses.com."
     ]
   },
   "subdomains": {
@@ -20,7 +20,7 @@
           "v=spf1 include:amazonses.com ~all"
         ],
         "MX": [
-          "10 feedback-smtp.ap-northeast-1.amazonses.com"
+          "10 feedback-smtp.ap-northeast-1.amazonses.com."
         ]
       }
     }
