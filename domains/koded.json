@@ -1,12 +1,9 @@
 {
   "owner": {
     "username": "Koded0214h",
-    "email": "coder0214h@gmail.com",
-    "txt": [
-      "vc-domain-verify=koded.is-a.dev,c6eb7337564da633e17d"
-    ]
+    "email": "your-email@example.com"
   },
   "records": {
-    "CNAME": "koded-gilt.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
