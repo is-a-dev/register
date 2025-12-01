@@ -3,6 +3,6 @@
         "username": "b1mm1fr"
     },
     "records": {
-        "CNAME": "profile.b1mm1.workers.dev"
+        "A": ["172.67.204.211", "104.21.85.112"]
     }
 }
