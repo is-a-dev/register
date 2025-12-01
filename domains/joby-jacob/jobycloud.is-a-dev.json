@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "name": "Joby Jacob",
+    "github": "joby-jacob",
+    "email": "jacobkjoby@gmail.com"
+  },
+  "domain": "jobycloud.is-a.dev",
+  "title": "Joby Jacob — Cloud & DevOps portfolio",
+  "description": "Personal portfolio demonstrating AWS S3 + CloudFront static site deployments. Non-commercial.",
+  "records": {
+    "CNAME": "d2u8hrbs5kl1gb.cloudfront.net"
+  },
+  "screenshot": "https://github.com/user-attachments/assets/8368e89f-2679-49c8-a264-0dd7da391016"
+}
