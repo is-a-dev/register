@@ -3,9 +3,7 @@
     "username": "oleksiidolbonosov",
     "email": "doogamesstudio@gmail.com"
   },
-  "subdomain": "www",
   "records": {
-    "CNAME": "chipper-zabaione-7bc54c.netlify.app"
+    "CNAME": "oleksiidolbonosov.github.io"
   }
 }
-
