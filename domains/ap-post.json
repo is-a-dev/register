@@ -3,24 +3,29 @@
     "username": "tankhanh",
     "email": "dinhtankhanh14@gmail.com"
   },
-  "description": "Personal domain for Resend email",
-  "CNAME": "is-a-dev.pages.dev",
-  "TXT": [
-    "resend._domainkey p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbw+fJhMUxFtxQwxRx58Gz0JMwwDfIu2zGXBtP1/1Ypk11IV3pZYatMChFyCABJB/y3TkxdBlPcg3NgvKHZqBOtEOYl71fAYWvBbismVN6T1mo0YfhoZwucyzRF5v1YcphGkivLNGtNYR7BE9wO2lbM+J4TTB+W2khrx/4pLQEZwIDAQAB",
-    "v=spf1 include:amazonses.com ~all",
-    "_dmarc v=DMARC1; p=none;"
-  ],
-  "MX": [
-    "10 inbound-smtp.ap-northeast-1.amazonses.com"
-  ],
+  "records": {
+    "CNAME": [
+      "is-a-dev.pages.dev"
+    ],
+    "TXT": [
+      "resend._domainkey p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbw+fJhMUxFtxQwxRx58Gz0JMwwDfIu2zGXBtP1/1Ypk11IV3pZYatMChFyCABJB/y3TkxdBlPcg3NgvKHZqBOtEOYl71fAYWvBbismVN6T1mo0YfhoZwucyzRF5v1YcphGkivLNGtNYR7BE9wO2lbM+J4TTB+W2khrx/4pLQEZwIDAQAB",
+      "v=spf1 include:amazonses.com ~all",
+      "_dmarc v=DMARC1; p=none;"
+    ],
+    "MX": [
+      "10 inbound-smtp.ap-northeast-1.amazonses.com"
+    ]
+  },
   "subdomains": {
     "send": {
-      "TXT": [
-        "v=spf1 include:amazonses.com ~all"
-      ],
-      "MX": [
-        "10 feedback-smtp.ap-northeast-1.amazonses.com"
-      ]
+      "records": {
+        "TXT": [
+          "v=spf1 include:amazonses.com ~all"
+        ],
+        "MX": [
+          "10 feedback-smtp.ap-northeast-1.amazonses.com"
+        ]
+      }
     }
   }
 }
