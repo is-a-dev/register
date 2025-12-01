@@ -3,7 +3,6 @@
         "username": "b1mm1fr"
     },
     "records": {
-        "CNAME": "b1mm1fr.github.io",
-        "A": "185.199.109.153"
+        "CNAME": "profile.b1mm1.workers.dev"
     }
 }
