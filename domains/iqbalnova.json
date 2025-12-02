@@ -4,6 +4,6 @@
     "email": "iqbalnova707@gmail.com"
   },
   "records": {
-    "NS": ["ns1.cloudflare.com", "ns2.cloudflare.com"]
+    "CNAME": "portfolio.iqbalnova.workers.dev"
   }
 }
