@@ -2,12 +2,12 @@
   "domain": "hanjunyi.is-a.dev",
   "owner": {
     "repo": "blog",
-    "user": "KengpachiHa",
+    "username": "KengpachiHa",
     "email": "han81594@gmail.com" 
   },
   "records": [
     {
-      "type": "CNAME",
+      "type": "CNAME", 
       "host": "@",
       "value": "cname.vercel-dns.com"
     }
