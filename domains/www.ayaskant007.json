@@ -5,6 +5,6 @@
         "record details": "www CNAME portfolio-007a.netlify.app"
     },
     "records": {
-        "CNAME": ["portfolio-007a.netlify.app"]
+        "CNAME": "portfolio-007a.netlify.app"
     }
 }
