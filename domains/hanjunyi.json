@@ -1,0 +1,16 @@
+{
+  "domain": "hanjunyi.is-a.dev",
+  "owner": {
+    "repo": "blog",
+    "user": "KengpachiHa",
+    "email": "han81594@gmail.com" 
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "host": "@",
+      "value": "cname.vercel-dns.com"
+    }
+  ],
+  "proxied": false
+}
