@@ -6,10 +6,10 @@
   },
   "records": [
     {
-      "type": "CNAME", 
+      "type": "CNAME",
       "host": "@",
       "value": "cname.vercel-dns.com"
     }
-  ],
+  ]
   "proxied": false
 }
