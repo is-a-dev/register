@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "ayaskant007",
-        "email": "ayaskantsahoo007@gmail.com"
+        "email": "ayaskantsahoo007@gmail.com",
+        "record details": "www CNAME portfolio-007a.netlify.app"
     },
     "records": {
-        "CNAME": ["www", "portfolio-007a.netlify.app"]
+        "CNAME": ["portfolio-007a.netlify.app"]
     }
 }
