@@ -3,7 +3,7 @@
     "username": "iqbalnova",
     "email": "iqbalnova707@gmail.com"
   },
-  "records": {
-    "A": ["76.76.21.21"]
+  "record": {
+    "NS": ["ns1.cloudflare.com", "ns2.cloudflare.com"]
   }
 }
