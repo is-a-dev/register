@@ -4,6 +4,6 @@
     "email": "iqbalnova707@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio.iqbalnova.workers.dev"
+    "A": ["76.76.21.21"]
   }
 }
