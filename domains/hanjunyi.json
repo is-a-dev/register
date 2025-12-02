@@ -2,14 +2,10 @@
   "owner": {
     "repo": "blog",
     "username": "KengpachiHa",
-    "email": "han81594@gmail.com"
+    "email": "han81594@gmail.com" 
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "host": "@",
-      "value": "cname.vercel-dns.com"
-    }
-  ],
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
   "proxied": false
 }
