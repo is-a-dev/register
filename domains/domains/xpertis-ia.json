@@ -1,0 +1,12 @@
+{
+  "description": "Dominio para Xpertis IA",
+  "domain": "is-a.dev",
+  "subdomain": "xpertis-ia",
+  "owner": {
+    "username": "elmertirado10",
+    "email": "sacxpertis@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
