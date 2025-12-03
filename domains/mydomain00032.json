@@ -1,0 +1,12 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "domain": "aidev-hfan.is-a.dev",
+  "owner": {
+    "repo": "https://github.com/hfan1019-bit3323
+",
+    "email": "u8710887296@gmail.com"
+  },
+  "record": {
+    "CNAME": "autumn-tree-1f66.hfan1019.workers.dev"
+  }
+}
