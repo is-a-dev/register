@@ -10,15 +10,15 @@
     "MX": [
       {
         "priority": 75,
-        "value": "route1.mx.cloudflare.net."
+        "target": "route1.mx.cloudflare.net."
       },
       {
         "priority": 21,
-        "value": "route2.mx.cloudflare.net."
+        "target": "route2.mx.cloudflare.net."
       },
       {
         "priority": 59,
-        "value": "route3.mx.cloudflare.net."
+        "target": "route3.mx.cloudflare.net."
       }
     ],
     "TXT": [
