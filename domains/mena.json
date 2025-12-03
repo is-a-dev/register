@@ -1,0 +1,10 @@
+{
+  "description": "My subdomain for email",
+  "subdomain": "mena",
+  "owner": {
+    "email": "mosadefmena185@gmail.com"
+  },
+  "record": {
+    "A": ["1.1.1.1"]
+  }
+}
