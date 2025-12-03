@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "kordeviant",
+    "email": "pk.kord@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "nova.ns.cloudflare.com",
+      "vin.ns.cloudflare.com"
+    ]
+  }
+}
