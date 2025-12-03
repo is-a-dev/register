@@ -1,4 +1,5 @@
 {
+  "domain": "svnty.is-a.dev",
   "owner": {
     "username": "svnty",
     "email": "jakewalklate@gmail.com"
@@ -7,18 +8,31 @@
     "A": [
       "216.198.79.1"
     ],
+    "CNAME": {
+      "www": "793e2e3cf2e8b500.vercel-dns-017.com."
+    },
     "MX": [
       {
-        "priority": 10,
-        "value": "mx1.improvmx.com."
+        "priority": 75,
+        "value": "route1.mx.cloudflare.net."
       },
       {
-        "priority": 20,
-        "value": "mx2.improvmx.com."
+        "priority": 21,
+        "value": "route2.mx.cloudflare.net."
+      },
+      {
+        "priority": 59,
+        "value": "route3.mx.cloudflare.net."
       }
     ],
     "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
+      "_vercel=vc-domain-verify=svnty.is-a.dev,9d6b583b2fffe98628f4",
+      "_vercel=vc-domain-verify=www.svnty.is-a.dev,b4f468d741e4e2513a0b",
+      "v=spf1 include:_spf.mx.cloudflare.net ~all",
+      {
+        "name": "cf2024-1._domainkey",
+        "value": "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78km4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB"
+      }
     ]
   }
 }
