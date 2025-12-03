@@ -1,0 +1,26 @@
+{
+  "description": "Budget Management Application - Family budget tracking and collaboration",
+  "repo": "https://github.com/LovationAdmin/budget-ui",
+  "owner": {
+    "username": "LovationAdmin",
+    "email": "lovation.pro@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "MX": [
+      {
+        "priority": 10,
+        "value": "feedback-smtp.eu-west-1.amazonses.com"
+      },
+      {
+        "priority": 10,
+        "value": "inbound-smtp.eu-west-1.amazonaws.com"
+      }
+    ],
+    "TXT": [
+      "resend._domainkey:p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3rzWWIHvEOW7M/0DZYLDn17JU7fMLAKdyZUYzpG15DU2kex2bC05O9bBgOOlbzbsz8zbqf1+dkEcSY5HZ8wFcPHdRf4+LAvNMwN1Mu/htZJE+GkhDP6fd+5oS69Y1My5PWM/BYegbXMQankuDT8DAVfyKXAY7pmbArNlFPH/xHQIDAQAB",
+      "send:v=spf1 include:amazonses.com ~all",
+      "_dmarc:v=DMARC1; p=none;"
+    ]
+  }
+}
