@@ -1,0 +1,11 @@
+{
+  "description": "Minecraft server via Cloudflare Tunnel",
+  "domain": "is-a.dev",
+  "subdomain": "deadforever",
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "tunnel.cloudflare.com"
+    }
+  ]
+}
