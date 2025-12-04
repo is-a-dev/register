@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "lohitakshcodes"
+        "username": "lohitakshcodes",
+        "email": "lohitakshbisen@gmail.com"
     },
     "records": {
-        "CNAME": "lohitaksh.vercel.app"
+        "A": ["216.198.79.1"]
     }
 }
