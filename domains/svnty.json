@@ -9,17 +9,21 @@
     ],
     "MX": [
       {
-        "target": "mx1.forwardemail.net",
+        "target": "mx.zoho.com.au",
         "priority": 10
       },
       {
-        "target": "mx2.forwardemail.net",
-        "priority": 10
+        "target": "mx2.zoho.com.au",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com.au",
+        "priority": 50
       }
     ],
     "TXT": [
       "_vercel=vc-domain-verify=svnty.is-a.dev,9d6b583b2fffe98628f4",
-      "forward-email=jakewalklate@gmail.com"
+      "zoho-verification=zb11747383.zmverify.zoho.com.au"
     ]
   }
 }
