@@ -1,11 +1,11 @@
 {
-    "description": "Portfólio Full Stack de Gustavo Vezetiv",
-    "repo": "https://github.com/GustavoVezetiv/Projetos",
-    "owner": {
-        "username": "GustavoVezetiv",
-        "email": "gustavovezetiv8@gmail.com"
-    },
-    "record": {
-        "CNAME": "gustavovezetiv.github.io"
-    }
+  "description": "Portfólio Full Stack de Gustavo Vezetiv",
+  "repo": "https://github.com/GustavoVezetiv/Projetos",
+  "owner": {
+    "username": "GustavoVezetiv",
+    "email": "gustavovezetiv8@gmail.com"
+  },
+  "record": {
+    "CNAME": "gustavovezetiv.github.io"
+  }
 }
