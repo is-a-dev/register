@@ -1,0 +1,11 @@
+{
+  "description": "Refine project frontend",
+  "repo": "https://github.com/Sahil-Bhoite/Refine",
+  "owner": {
+    "username": "Sahil-Bhoite",
+    "email": "work.sahilbhoite@gmail.com"
+  },
+  "record": {
+    "CNAME": "refine-frontend.onrender.com"
+  }
+}
