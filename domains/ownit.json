@@ -1,0 +1,12 @@
+{
+  "description": "OwnIt - Voice-first professional social network with 2FA security",
+  "repo": "https://github.com/Ibrahim0899/OwnIt",
+  "owner": {
+    "username": "Ibrahim0899",
+    "email": "ibrahim@ownit.is-a.dev"
+  },
+  "record": {
+    "CNAME": "Ibrahim0899.github.io"
+  },
+  "proxy": false
+}
