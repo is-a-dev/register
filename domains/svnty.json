@@ -23,7 +23,8 @@
     ],
     "TXT": [
       "_vercel=vc-domain-verify=svnty.is-a.dev,9d6b583b2fffe98628f4",
-      "zoho-verification=zb11747383.zmverify.zoho.com.au"
+      "zoho-verification=zb11747383.zmverify.zoho.com.au",
+      "v=spf1 include:zohomail.com ~all"
     ]
   }
 }
