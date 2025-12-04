@@ -1,0 +1,11 @@
+{
+  "description": "CreatiCore redirect",
+  "domain": "is-a.dev",
+  "subdomain": "creaticore",
+  "owner": {
+    "email": "manoj.digitalmarketing08@gmail.com"
+  },
+  "record": {
+    "CNAME": "creaticoreemailredirect.pages.dev"
+  }
+}
