@@ -1,0 +1,10 @@
+{
+  "description": "holydevil free panel",
+  "subdomain": "holydevilpanel",
+  "owner": {
+    "email": "clevershadow0@gmail.com"
+  },
+  "record": {
+    "A": ["68.183.214.179"]
+  }
+}
