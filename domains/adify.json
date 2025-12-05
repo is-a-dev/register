@@ -5,6 +5,9 @@
     "email": "dzvellox@gmail.com"
   },
   "records": {
-    "CNAME": "dzvellox.github.io"
+    "A": ["216.24.57.1"],
+    "CNAME": {
+      "www": "test-x0fn.onrender.com"
+    }
   }
 }
