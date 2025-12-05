@@ -4,6 +4,7 @@
     "email": "itspritam@proton.me"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": ["zoho-verification=zb68345125.zmverify.zoho.in"]
   }
 }
