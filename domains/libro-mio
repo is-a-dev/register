@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "Miniwa Kana",
+    "username": "mato0sakura-blip",
     "email": "mato0sakura@gmail.com"
   },
   "record": {
-    "CNAME": "http://151.145.75.249:30080/"
+    "A": "151.145.75.249"
   }
 }
