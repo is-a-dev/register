@@ -2,7 +2,8 @@
   "owner": {
     "email": "anyels295@gmail.com"
   },
-  "record": {
-    "CNAME": "tunnel.cloudflare.com"
-  }
+  "records": {
+    "CNAME": ["tunnel.cloudflare.com"]
+  },
+  "preview": "https://github.com/anyels295-source"
 }
