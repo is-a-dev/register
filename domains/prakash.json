@@ -1,0 +1,11 @@
+{
+  "description": "Prakash Giri personal website",
+  "domain": "is-a.dev",
+  "subdomain": "prakash",
+  "owner": {
+    "email": "pgiri8455@gmail.com"
+  },
+  "record": {
+    "A": ["129.154.255.213"]
+  }
+}
