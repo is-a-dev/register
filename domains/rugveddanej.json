@@ -1,0 +1,27 @@
+{
+    "owner": {
+      "username": "rugved-danej",
+      "email": "rugveddanej.contact@gmail.com"
+    },
+    "records": {
+      "A": ["216.198.79.1"],
+      "TXT": [
+        "zoho-verification=zb68121467.zmverify.zoho.in",
+        "v=spf1 include:zohomail.com ~all"
+      ],
+      "MX": [
+        {
+          "target": "mx.zoho.com",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.com",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.com",
+          "priority": 50
+        }
+      ]
+    }
+  }
