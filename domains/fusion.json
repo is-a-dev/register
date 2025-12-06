@@ -5,6 +5,8 @@
     "discord": "mikropekka"
   },
   "records": {
-    "CNAME": "deluxe-cactus-cf9f9c.netlify.app"
-  }
+    "CNAME": "system-4dz.pages.dev",
+    "TXT": ["google-site-verification=gTwPak7dIPqmH6Ro6cUrM9q5ZY3OtIZegGseNNxTqxU"]
+  },
+  "proxied": true
 }
