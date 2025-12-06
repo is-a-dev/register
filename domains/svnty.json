@@ -23,7 +23,8 @@
     ],
     "TXT": [
       "zoho-verification=zb11747383.zmverify.zoho.com.au",
-      "v=spf1 include:zohomail.com.au include:zohomail.com ~all"
+      "v=spf1 include:zohomail.com.au include:zohomail.com ~all",
+      "google-site-verification=k4zE3at21gUVGeaoeZ3g_x42eWrdPWkskNYyv8dywv0"
     ]
   }
 }
