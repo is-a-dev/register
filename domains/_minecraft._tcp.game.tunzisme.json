@@ -7,7 +7,6 @@
     "SRV": [
       {
         "name": "game.tunzisme.is-a.dev",
-        "target": "game",
         "port": 25565,
         "priority": 0,
         "weight": 0
