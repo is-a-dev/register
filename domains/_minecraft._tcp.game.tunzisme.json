@@ -6,7 +6,7 @@
   "records": {
     "SRV": [
       {
-        "name": "game.tunzisme.is-a.dev",
+        "target": "game.tunzisme.is-a.dev",
         "port": 25565,
         "priority": 0,
         "weight": 0
