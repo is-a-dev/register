@@ -1,0 +1,16 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "domain": "bookleaf.is-a.dev",
+  "owner": {
+    "username": "Ay-u-sh",
+    "email": "ayushbhande987@gmail.com"
+  },
+  "records": {
+    "CNAME": {
+      "@": "bookleaf.onrender.com"
+    },
+    "TXT": {
+      "@": "v=spf1 include:send.resend.com ~all"
+    }
+  }
+}
