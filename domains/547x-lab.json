@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "email": "ricky0429j@google.com"
-  },
-  "record": {
-    "A": ["182.168.27.141"]
-  }
+    "owner": {
+        "username": "5x4x7"
+    },
+    "records": {
+        "CNAME": "547x-lab.org"
+    }
 }
