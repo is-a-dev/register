@@ -1,9 +1,9 @@
 {
     "owner": {
-        "username": "lucatolton",
-        "email": "luto281@outlook.com"
+        "username": "OverloadedTech",
+        "email": "luca@lucazani.com"
     },
-    "record": {
-        "CNAME": "hosts.is-a.dev"
+    "records": {
+        "CNAME": "overloadedtech.github.io"
     }
 }

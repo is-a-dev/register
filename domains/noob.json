@@ -1,11 +1,9 @@
 {
-    "owner": {
-        "username": "KeIrNeGn",
-        "email": "terminatorx5e@gmail.com",
-        "discord": "499592235772280842"
-    },
-
-    "record": {
-        "CNAME": "keirnegn.dev"
-    }
+  "owner": {
+    "username": "IMXNOOBX",
+    "email": "me@noob.bio"
+  },
+  "records": {
+    "CNAME": "noob.bio"
+  }
 }

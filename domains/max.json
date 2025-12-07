@@ -1,11 +1,9 @@
 {
-    "owner": {
-        "username": "mdsmax",
-        "email": "maxguilham@protonmail.com"
-    },
-    "record": {
-        "A": ["34.149.204.188"],
-        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-        "TXT": "v=spf1 include:spf.improvmx.com ~all"
-    }
+  "owner": {
+    "username": "MPSimon",
+    "email": "maxo.simon@hotmail.com"
+  },
+  "records": {
+    "A": ["136.243.102.212"]
+  }
 }

@@ -1,11 +1,9 @@
 {
-    "description": "CDN for Aayu5h",
-    "repo": "https://github.com/OpAayush/cdn",
-    "owner": {
-        "username": "OpAayush",
-        "email": "aayush.agrawalm@gmail.com"
-    },
-    "record": {
-        "CNAME": "opaayush.github.io"
-    }
+  "owner": {
+    "username": "OpAayush",
+    "email": "aayush.agrawalm@gmail.com"
+  },
+  "records": {
+    "CNAME": "opaayush.github.io"
+  }
 }

@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "shashankktiwariii",
-        "email": "development.shashank@gmail.com"
-    },
-    "record": {
-        "A": ["144.24.102.80"]
-    }
+  "owner": {
+    "username": "ss-29",
+    "email": "shekhar2906@outlook.com",
+    "twitter": "shashankxdev"
+  },
+  "records": {
+    "CNAME": "ss-29.github.io"
+  }
 }

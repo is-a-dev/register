@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "MBG1337",
-        "email": "MBGx1337@gmail.com"
+        "email": "mbgx1337@gmail.com"
     },
-    "record": {
-        "A": ["3.120.250.108"]
+    "records": {
+        "CNAME": "d8f217d9843f50e3.vercel-dns-017.com"
     }
 }

@@ -1,11 +1,9 @@
 {
-    "description": "This, is a dev.",
     "owner": {
-        "username": "DaInfLoop",
-        "email": "backupharoongames100@gmail.com"
+        "username": "moji2002",
+        "email": "moji2002@gmail.com"
     },
-    "record": {
-        "URL": "https://haroon.repl.co"
-    },
-    "extra-info": "I understand if this doesn't get merged, it was just a funny joke me and my friend made because the subdomain wasn't taken."
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

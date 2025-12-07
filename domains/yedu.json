@@ -1,12 +1,9 @@
 {
-    "description": "Personal Page",
-    "repo": "https://github.com/YedukrishnanTY/web",
     "owner": {
-        "username": "YeduKrishnanTY",
-        "email": "",
-        "discord": "Chandler._bing__#8780"
+        "username": "YedukrishnanTY",
+        "email": "yedu345@gmail.com"
     },
-    "record": {
-        "CNAME": "YeduKrishnanTY.github.io"
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
     }
 }

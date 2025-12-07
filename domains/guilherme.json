@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "iiMaxxi",
-        "email": "iimaxxiguilham@gmail.com"
-    },
-
-    "record": {
-        "URL": "https://eu.dzxdev.repl.co"
-    }
+  "description": "Guilherme Lacerda's personal website",
+  "owner": {
+    "username": "lacerdaguilherme",
+    "email": "lacerdaguilherme@gmail.com"
+  },
+  "records": {
+    "CNAME": "lacerdaguilherme.github.io"
+  }
 }

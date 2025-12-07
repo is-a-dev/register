@@ -1,0 +1,11 @@
+{
+  "description": "This subdomain is a redirection to my personal portfolio.",
+  "owner": {
+    "username": "bhushankhopkarr",
+    "email": "bhushankhopkar06@gmail.com",
+    "twitter": "bhushankhopkrr"
+  },
+  "records": {
+    "CNAME": "bhushankhopkrr.vercel.app"
+  }
+}

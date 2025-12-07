@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "maxired",
-        "email": "github@maxired.fr"
-    },
-    "record": {
-        "CNAME": "www.maxired.fr"
+        "owner": {
+           "username": "maxired",
+           "email": "github@maxired.fr"
+        },
+        "records": {
+            "CNAME": "cname.vercel-dns.com"
+        }
     }
-}
+    

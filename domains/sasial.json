@@ -1,12 +1,9 @@
 {
-    "description": "My Portfolio",
-    "repo": "https://github.com/sasial-dev/Portfolio",
-    "owner": {
-        "username": "sasial-dev",
-        "email": "",
-        "discord": "Sasial#9375"
-    },
-    "record": {
-        "URL": "https://sasial.dev"
-    }
+  "owner": {
+    "username": "sasial-dev",
+    "discord": "Sasial#9375"
+  },
+  "records": {
+    "URL": "https://sasial.dev"
+  }
 }

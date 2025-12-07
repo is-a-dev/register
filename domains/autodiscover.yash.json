@@ -1,0 +1,10 @@
+{
+  "description": "Link to my portfolio site.",
+  "owner": {
+    "username": "real-yash",
+    "email": "connect@real-yash.is-a.dev"
+  },
+  "records": {
+    "CNAME": "autodiscover.outlook.com"
+  }
+}

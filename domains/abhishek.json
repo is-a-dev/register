@@ -1,11 +1,10 @@
 {
-    "description": "Abhishek's personal website",
-    "repo": "https://github.com/nullpointxr",
     "owner": {
-        "username": "nullpointxr",
-        "email": "abhishek.sankar.in@protonmail.com"
+        "username": "Abro0058T",
+        "email": "abhiseknaulae@gmail.com",
+        "twitter": "whitewolf_0058T"
     },
-    "record": {
-        "CNAME": "abhisheks.me"
+    "records": {
+        "CNAME": "abhishek360-com.vercel.app"
     }
 }

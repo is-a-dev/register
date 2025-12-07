@@ -1,0 +1,16 @@
+{
+  "description": "Its to make a minecraft server.",
+  "owner": {
+    "username": "notanicepenguin"
+  },
+  "records": {
+    "SRV": [
+      {
+        "priority": 10,
+        "weight": 5,
+        "port": 26009,
+        "target": "notanicepenguin.aternos.me"
+      }
+    ]
+  }
+}

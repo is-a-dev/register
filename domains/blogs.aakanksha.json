@@ -1,11 +1,9 @@
 {
-    "description": "Aakanksha's Blog",
-    "repo": "https://github.com/aakankshabhende/aakankshabhende.github.io",
-    "owner": {
-        "username": "aakankshabhende",
-        "email": "aakanksha0407@gmail.com"
-    },
-    "record": {
-        "CNAME": "hashnode.network"
-    }
+  "owner": {
+    "username": "aakankshabhende",
+    "email": "aakanksha0407@gmail.com"
+  },
+  "records": {
+    "CNAME": "hashnode.network"
+  }
 }

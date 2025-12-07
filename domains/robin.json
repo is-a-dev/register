@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "RobinDev03",
-        "email": "robin@robin-it.de"
-    },
-
-    "record": {
-        "CNAME": "robin-w.de"
-    }
+  "owner": {
+    "username": "RobinJesba",
+    "email": "jb.robinm@gmail.com"
+  },
+  "records": {
+    "CNAME": "robinjesba.github.io"
+  }
 }

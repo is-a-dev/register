@@ -1,11 +1,8 @@
 {
-    "description": "Chintan Profile.",
-    "repo": "https://github.com/chintan-prajapati/chintan-prajapati.github.io",
-    "owner": {
-        "username": "chintan-prajapati",
-        "email": ""
-    },
-    "record": {
-        "CNAME": "chintan-prajapati.github.io"
-    }
+  "owner": {
+    "username": "chintan-prajapati"
+  },
+  "records": {
+    "CNAME": "chintan-prajapati.github.io"
+  }
 }
