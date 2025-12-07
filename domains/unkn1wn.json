@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "unkn1wn0",
-        "email": "epicgamesjuven@gmail.com"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
+  "owner": {
+    "username": "unkn1wn0",
+    "email": "epicgamesjuven@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"],
+    "CNAME": {
+      "www": "unkn1wn.netlify.app"
     }
+  }
 }
