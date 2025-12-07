@@ -1,9 +1,9 @@
 {
     "owner": {
-        "username": "yassinekrika",
-        "email": "yassinekrika2016@gmail.com"
+        "username": "yassinekrika"
     },
     "records": {
-        "A": ["75.2.60.5"]
+        "A": ["75.2.60.5"],
+        "CNAME": "yassg4mer.netlify.app"
     }
 }
