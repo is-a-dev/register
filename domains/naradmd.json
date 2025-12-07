@@ -5,11 +5,5 @@
   },
   "records": {
     "CNAME": "naradmd.github.io"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/naradmd"
-    }
-  },
-  "proxied": true
+  }
 }
