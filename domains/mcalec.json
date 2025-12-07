@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "mcalec-dev",
+    "email": "hello@mcalec.dev",
+    "discord": "mcalec"
+  },
+  "records": {
+    "CNAME": "mcalec.dev"
+  }
+}

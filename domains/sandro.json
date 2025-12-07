@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "Diordnas",
-    "email": "alessandroeliot@gmail.com"
-  },
-  "description": "Personal site, as well as hosting a few tools",
-  "repo": "https://github.com/diordnas/diordnas.github.io",
-  "record": {
-    "CNAME": "diordnas.github.io"
-  }
+    "owner": {
+        "username": "sandro21",
+        "email": "sandroqarqusashvili@gmail.com"
+    },
+    "records": {
+        "CNAME": "sandro21.github.io"
+    }
 }

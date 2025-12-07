@@ -1,9 +1,9 @@
 {
     "owner": {
-        "username": "syedtahseen",
-        "email": "itxtahseen@gmail.com"
+        "username": "hanlin-luo",
+        "email": "hanlin.luo2@gmail.com"
     },
-    "record": {
-        "CNAME": "xproject-xi.vercel.app"
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
     }
 }

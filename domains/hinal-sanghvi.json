@@ -1,10 +1,8 @@
 {
-  "description": "Personal website for now",
-  "repo": "https://github.com/hinal-sanghvi/hinal-sanghvi.github.io",
   "owner": {
     "username": "hinal-sanghvi"
   },
-  "record": {
+  "records": {
     "CNAME": "hinal-sanghvi.github.io"
   }
 }

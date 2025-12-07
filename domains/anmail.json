@@ -1,16 +1,11 @@
 {
-  "description": "Subdomain my own website and email forwarding",
-  "repo": "https://github.com/ririko5834/register",
   "owner": {
     "username": "ririko5834",
     "email": "wolfo89+anmail@protonmail.com"
   },
-  "record": {
+  "records": {
     "A": ["167.235.217.200"],
-    "MX": [
-      "5d84c429388a8a21.mx2.emailprofi.seznam.cz",
-      "5d84c429388a8a21.mx1.emailprofi.seznam.cz"
-    ],
-    "TXT": ["v=spf1 include:spf.seznam.cz ~all"]
+    "MX": ["5d84c429388a8a21.mx2.emailprofi.seznam.cz", "5d84c429388a8a21.mx1.emailprofi.seznam.cz"],
+    "TXT": "v=spf1 include:spf.seznam.cz ~all"
   }
 }

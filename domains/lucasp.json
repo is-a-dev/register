@@ -1,11 +1,9 @@
 {
-  "description": "lucasp.is-a.dev",
-  "repo": "https://github.com/lucaspuntillo/lucaspuntillo.github.io/",
   "owner": {
     "username": "lucaspuntillo",
     "email": "puntillol@linuxmail.org"
   },
-  "record": {
+  "records": {
     "CNAME": "lucaspuntillo.github.io"
   }
 }

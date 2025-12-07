@@ -6,6 +6,8 @@ on:
         paths:
             - "domains/*"
             - ".github/workflows/raw-api.yml"
+            - "util/raw-api.js"
+            - "util/reserved.json"
 
     workflow_dispatch:
 
@@ -21,18 +23,15 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - uses: actions/checkout@v4
-              with:
-                  repository: is-a-dev/raw-api
-                  path: raw-api
-                  token: ${{ secrets.BOT }}
-
             - uses: actions/setup-node@v4
               with:
                   node-version: 20.x
 
             - name: Update Data
-              run: node raw-api/scripts/update.js
+              run: node util/raw-api.js
+
+            - name: Create CNAME
+              run: echo "raw.is-a.dev" > raw-api/CNAME
 
             - name: Commit
               uses: cpina/github-action-push-to-another-repository@main

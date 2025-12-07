@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Cuurle",
-    "email": "cuurleee@gmail.com"
-  },
-  "record": {
-    "CNAME": "glitch.edgeapp.net"
-  }
+    "owner": {
+        "username": "mustafaaycll",
+        "email": "mustafayucel.cs@gmail.com"
+    },
+    "records": {
+        "CNAME": "mustafaaycll.github.io"
+    }
 }

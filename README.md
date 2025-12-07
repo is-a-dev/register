@@ -1,5 +1,9 @@
-<p align="center">
+<!-- <p align="center">
    <img alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
+</p> -->
+
+<p align="center">
+   <img height="350" alt="is-a.dev Octoverse 2025 Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/octoverse-2025/is-a-dev_register_1200x630.jpg">
 </p>
 
 <p align="center">
@@ -7,65 +11,38 @@
    <img alt="Open Pull Requests" src="https://img.shields.io/github/issues-raw/is-a-dev/register?color=5c46eb&label=issues&style=for-the-badge">
    <img alt="Open Issues" src="https://img.shields.io/github/issues-pr-raw/is-a-dev/register?color=5c46eb&label=pull%20requests&style=for-the-badge">
    <br>
-   <img alt="Publish" src="https://github.com/is-a-dev/register/actions/workflows/publish.yml/badge.svg">
 </p>
 
 <h1 align="center">is-a.dev</h1>
 
-<p align="center"><strong>is-a-dev</strong> is a service that allows developers to get a sweet-looking ".is-a.dev" domain for their personal websites.</p>
-
-## Announcements & Status Updates
-Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for announcements, updates & upgrades, and downtimes regarding the service.
-Not all of these will be posted on GitHub, however they will always be posted in our Discord server.
-
-<a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.switchblade.xyz/is-a-dev-830872854677422150"></a>
-
-# Register
-### NS Records
-When applying for NS records, please consider if you *actually* need them. Please provide a detailed reason (with evidence) of why you require NS records.
-
-9 times out of 10, you do not actually need NS records, and merely want them. We already support a wide range of records, so it is extremely unlikely you will actually require them.
-
-***Pull requests adding NS records without valid reasoning will be closed.***
-
-**Instant Denials**:
-- I don't want to create a pull request everytime I want to update my DNS records.
-  - Over 3,000 people have to, you can too.
-- I want to use Cloudflare's proxy for DDoS protection.
-   - Simply add `"proxied": true` to your file, to enable Cloudflare's Enterprise-level DDoS protection for your subdomain.
-   - Note: We *may* allow certain users to register NS records if it would expose their home IP.
-
-For any questions regarding NS records, feel free to email support@is-a.dev.
-
-> [!NOTE]
-> You can skip these requirements by [supporting the service](https://wdh.gg/pvNCdvs) with a small amount of $2.
->
-> All donations go towards supporting the service's running costs.
->
-> If you decide to donate, please email william@is-a.dev with your payment confirmation and your pull request link to receive your NS records.
-
-## Manual Registration
-> If you want a more visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
-
-- [Fork](https://github.com/is-a-dev/register/fork) and star this repository
-- Add a new file called `your-domain-name.json` in the `domains` folder to register `your-domain-name.is-a.dev`
-- [Read the documentation](https://is-a.dev/docs)
-- Your pull request will be reviewed and merged. *Make sure to keep an eye on it incase we need you to make any changes!*
-- After the pull request is merged, please allow up to 24 hours for the changes to propagate
-- Enjoy your new `.is-a.dev` domain!
-
-## Automated Registration
-***Returning soon.*** Join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for updates.
-
-# Issues
-If you have any problems, feel free to [open an issue](https://github.com/is-a-dev/register/issues/new/choose).
-
-If you have an issue that contains confidental infomation, send an email to security@is-a.dev.
+<p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking <code>.is-a.dev</code> subdomain for their personal websites.</p>
 
 ---
 
-We are proud to announce that we are fully supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) sponsorship program. We would not be able to operate without their help! 💖
+## Announcements
+Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for announcements, service updates, and downtime notifications regarding the service.
+
+Not all announcements are posted on GitHub[^1], however they will always be posted in our Discord server.
+
+[^1]: We only post announcements on GitHub in the case of a serious incident, which you'll see at the top of this README.
+
+# Register
+> If you want a visual guide, check out [this blog post](https://blog.wharrison.com.au/2024/07/is-a-dev/).
+
+- [Fork](https://github.com/is-a-dev/register/fork) the repository.
+- Follow the instructions on our [documentation](https://docs.is-a.dev).
+- Once you open your pull request (PR), it will be reviewed. *Keep an eye on it in case changes are needed!*
+   - If changes have been requested, please make the specified changes otherwise **you will be rejected**.
+- Once your PR is merged, your DNS records should be published with-in a few minutes.
+- Enjoy your new `.is-a.dev` subdomain! Please consider leaving a star ⭐️ to help support us!
+
+## Report Abuse
+If you find any subdomains being abused or breaking our TOS, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with relevant evidence.
+
+---
+
+We are supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) sponsorship program, we would not be able to operate without their help!
 
 <a href="https://www.cloudflare.com">
-   <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="96">
+   <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="48">
 </a>
