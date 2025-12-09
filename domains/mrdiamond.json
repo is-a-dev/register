@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "MrDiamondDog",
-    "email": "drewratner27@gmail.com"
+    "username": "MrDiamondDog"
   },
   "records": {
-    "CNAME": "mrdiamond.pages.dev"
+    "A": ["129.146.51.207"]
   }
 }
