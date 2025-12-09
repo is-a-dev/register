@@ -1,0 +1,11 @@
+{
+    "description": "For Portfolio",
+    "repo": "https://github.com/JasirBasheer/jasir-basheer-portfolio",
+    "owner": {
+        "username": "JasirBasheer",
+        "email": "jasirbinbasheerpp@gmail.com"
+    },
+    "records": {
+        "CNAME": "jasir-basheer-next-portfolio.vercel.app"
+    }
+}

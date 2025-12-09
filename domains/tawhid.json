@@ -1,0 +1,10 @@
+{
+    "description": "Personal Portfolio Hosted on Netlify",
+    "owner": {
+        "username": "Dumbo-Programmer",
+        "email": "rony.120285d2k@gmail.com"
+    },
+    "records": {
+        "CNAME": "tawhidsite.netlify.app"
+    }
+}

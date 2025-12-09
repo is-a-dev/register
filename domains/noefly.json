@@ -1,0 +1,25 @@
+{
+    "owner": {
+        "username": "noeFly",
+        "email": "jeffyang0123@gmail.com"
+    },
+    "records": {
+        "CNAME": "noefly.gitlab.io",
+        "TXT": ["google-site-verification=jSwY56861A1SX3bo48oM4CdAeW0HD9sfThUeUAXeX3g", "zoho-verification=zb50303916.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
+      "MX": [
+        {
+          "target": "mx.zoho.com",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.com",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.com",
+          "priority": 50
+        }
+      ]
+    },
+    "proxied" : true
+}
