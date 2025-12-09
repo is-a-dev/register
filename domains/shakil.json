@@ -6,5 +6,6 @@
     "records": {
         "CNAME": "wait2late.github.io",
         "TXT": ["zoho-verification=zb14913997.zmverify.zoho.eu"]
-    }
+    },
+    "proxied": true
 }
