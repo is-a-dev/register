@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Subyyalx"
+    "username": "Subyyalx",
+    "email": "subyyalx@xavor.com" 
   },
-  "record": {
-    "CNAME": "Subyyalx.github.io"
+  "records": {
+    "CNAME": "subyyalx.github.io"
   }
 }
