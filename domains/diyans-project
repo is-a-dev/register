@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "Diyan-Welikanna"
+    },
+    "records": {
+        "A": ["216.198.79.1"],
+        "TXT": "vc-domain-verify=diyans-project.is-a.dev,481edd2163c3be9eb82a"
+    }
+}
