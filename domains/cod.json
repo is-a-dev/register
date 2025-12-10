@@ -1,9 +1,7 @@
 {
-  "owner": {
-    "username": "AsyncAdmin",
-    "email": "TheAsyncSystem@gmail.com"
-  },
-  "record": {
-    "CNAME": "asyncadmin.github.io"
-  }
-}
+    "owner": {
+        "username": "AsyncAdmin"
+    },
+    "records": {
+        "CNAME": "asyncadmin.github.io"
+    }
