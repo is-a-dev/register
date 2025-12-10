@@ -5,6 +5,7 @@
     "discord": "744620219976253481"
   },
   "records": {
-    "CNAME": "shriharidev.vercel.app"
+    "CNAME": "shriharidev.vercel.app",
+    "A": ["216.198.79.1"]
   }
 }
