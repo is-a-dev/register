@@ -4,8 +4,8 @@
     "username": "ritchie229",
     "email": "rishat.mukhtarov@gmail.com"
   },
-  "record": {
-    "TXT": "domain verification for ritchie229 homelab"
+  "records": {
+    "TXT": ["domain verification for ritchie229 labops"]
   }
 }
 
