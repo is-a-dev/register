@@ -1,0 +1,11 @@
+{
+  "description": "My personal project - localhost tunnel",
+  "repo": "https://github.com/cuongnadev/kiwame",
+  "owner": {
+    "username": "cuongnadev",
+    "email": "cuongna.dev@gmail.com"
+  },
+  "record": {
+    "CNAME": "pages.is-a.dev"
+  }
+}
