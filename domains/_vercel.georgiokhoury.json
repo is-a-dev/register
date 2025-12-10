@@ -4,6 +4,6 @@
         "email": "georgiokhoury02@gmail.com"
     },
     "records": {
-        "CNAME": "georgio-github-io.vercel.app"
+        "TXT": "vc-domain-verify=georgiokhoury.is-a.dev,81535a8094ee3ecf1e3f"
     }
 }
