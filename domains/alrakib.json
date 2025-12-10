@@ -4,6 +4,6 @@
         "email": "alraakib@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "NS": ["kai.ns.cloudflare.com", "may.ns.cloudflare.com"]
     }
 }
