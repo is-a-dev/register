@@ -1,10 +1,9 @@
-
 {
-  "owner": {
-    "username": "Alerrrt",
-    "email": "sajuajin8680@gmail.com"
-  },
-  "record": {
-    "CNAME": "Alerrrt.github.io"
-  }
+    "owner": {
+        "username": "Alerrrt",
+        "email": "your-email@example.com"
+    },
+    "record": {
+        "CNAME": "Alerrrt.github.io"
+    }
 }
