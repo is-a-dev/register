@@ -3,7 +3,8 @@
     "username": "AsyncAdmin",
     "email": "TheAsyncSystem@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "asyncadmin.github.io"
-  }
+  },
+  "proxied": true
 }
