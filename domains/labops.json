@@ -1,0 +1,13 @@
+{
+  "description": "Personal homelab for Kubernetes, ArgoCD, Jenkins, Grafana and demo apps. Non-commercial.",
+  "owner": {
+    "username": "ritchie229",
+    "email": "rishat.mukhtarov@gmail.com"
+
+  },
+  "records": {
+    "TXT": ["domain verification for ritchie229 labops"],
+    "URL": "https://ritchie229.github.io",
+    "CNAME": "xxxx.trycloudflare.com"
+  }
+}
