@@ -1,0 +1,13 @@
+{
+  "description": "Personal proxy node",
+  "repo": "https://github.com/yujiaao1/register",
+  "owner": {
+    "username": "yujiaao1",
+    "email": ""
+  },
+  "record": {
+    "A": ["1.1.1.1"],
+    "AAAA": ["2606:4700:4700::1111"]
+  },
+  "subdomain":"cdn886"
+}
