@@ -6,7 +6,6 @@
 
   },
   "records": {
-    "TXT": ["domain verification for ritchie229 labops"],
     "NS": ["brett.ns.cloudflare.com", "holly.ns.cloudflare.com"]
   }
 }
