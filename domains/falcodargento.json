@@ -2,9 +2,10 @@
   "description": "Dominio personale per progetto PWA",
   "subdomain": "falcodargento",
   "owner": {
-    "email": "filippo.giovagnoli10@gmail.com"
+    "email": "filippo.giovagnoli10@gmail.com",
+    "github": "falcodargento4"
   },
   "record": {
-    "CNAME": "tunnel.cloudflare.com"
+    "CNAME": "example.com"
   }
 }
