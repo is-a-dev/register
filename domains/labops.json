@@ -7,6 +7,6 @@
   },
   "records": {
     "TXT": ["domain verification for ritchie229 labops"],
-    "URL": "https://ritchie229.github.io"
+    "NS": ["brett.ns.cloudflare.com", "holly.ns.cloudflare.com"]
   }
 }
