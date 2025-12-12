@@ -1,0 +1,11 @@
+{
+    "description": "Portfolio website",
+    "repo": "https://github.com/arawindr/noclabs.github.io",
+    "owner": {
+        "username": "Aravind",
+        "email": "ara.widb4r@gmail.com"
+    },
+    "record": {
+        "CNAME": "noclabs.github.io"
+    }
+}
