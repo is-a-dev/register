@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "Manish881-hub"
+        "username": "Manish881-hub",
+        "email": "manishhbhakti881@gmail.com"
     },
-    "records": {
+    "record": {
         "CNAME": "manishbhakti-sagardev.vercel.app"
     }
 }
