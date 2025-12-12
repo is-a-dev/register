@@ -27,7 +27,7 @@ Not all announcements are posted on GitHub[^1], however they will always be post
 [^1]: We only post announcements on GitHub in the case of a serious incident, which you'll see at the top of this README.
 
 # Register
-> If you want a visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
+> If you want a visual guide, check out [this blog post](https://blog.wharrison.com.au/2024/07/is-a-dev/).
 
 - [Fork](https://github.com/is-a-dev/register/fork) the repository.
 - Follow the instructions on our [documentation](https://docs.is-a.dev).

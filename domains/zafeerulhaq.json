@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "z-haq"
+    "username": "z-haq",
+    "email": "superxaifi@gmail.com"
   },
   "records": {
-    "CNAME": "zafeer-ul-haq-zl0g8wo.gamma.site"
-  }
+        "A": ["216.198.79.1"]
+    }
 }
