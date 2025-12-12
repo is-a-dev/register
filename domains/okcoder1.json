@@ -6,5 +6,15 @@
     },
     "records": {
         "CNAME": "ok-coder1.github.io"
+    },
+    "redirect_config": {
+      "custom_paths": {
+        "/github": "https://github.com/ok-coder1",
+        "/discord": "https://discord.com/users/983692760072745020",
+        "/youtube": "https://youtube.com/@okcoder1",
+        "/twitch": "https://www.twitch.tv/ok_coder1",
+        "/mail": "mailto:codershub.code@gmail.com"
+      },
+      "redirect_paths": true
     }
 }
