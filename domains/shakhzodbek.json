@@ -4,7 +4,6 @@
         "email": "shakhgamer1128@gmail.com"
     },
     "records": {
-        "A": ["75.2.60.5"],
-        "alias": "apex-loadbalancer.netlify.com"
+        "A": ["75.2.60.5"]
     }
 }
