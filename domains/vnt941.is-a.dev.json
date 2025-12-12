@@ -1,0 +1,10 @@
+{
+  "domain": "vnt941.is-a.dev",
+  "owner": {
+    "email": "vnt941@duck.com"
+  },
+  "record": {
+    "type": "CNAME",
+    "value": "tunnel.cloudflare.com"
+  }
+}
