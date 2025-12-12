@@ -16,5 +16,6 @@
         "/mail": "mailto:codershub.code@gmail.com"
       },
       "redirect_paths": true
-    }
+    },
+    "proxied": true
 }
