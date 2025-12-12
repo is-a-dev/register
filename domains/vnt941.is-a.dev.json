@@ -1,10 +1,9 @@
 {
-  "domain": "vnt941.is-a.dev",
   "owner": {
+    "username": "vnt941"
     "email": "vnt941@duck.com"
   },
-  "record": {
-    "type": "CNAME",
-    "value": "tunnel.cloudflare.com"
+  "records": {
+    "CNAME": "films-venice-obviously-techniques.trycloudflare.com"
   }
 }
