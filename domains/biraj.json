@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "birajrai",
-        "email": "birajrai.official@gmail.com"
+        "email": "biraj@calypsostudio.tech"
     },
     "records": {
-        "CNAME": "birajrai.github.io"
+        "A": ["216.198.79.1"],
+        "TXT": "vc-domain-verify=biraj.is-a.dev,e850104ce67465358c3d"
     }
 }
