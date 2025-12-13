@@ -4,6 +4,9 @@
         "email": "manishhbhakti881@gmail.com"
     },
     "records": {
-        "CNAME": "manishbhakti-sagardev.vercel.app"
+        "CNAME": "manishbhakti-sagardev.vercel.app",
+        "A": [
+            "vc-domain-verify=manish-bhaktisagar.is-a.dev,56d7e7bb93b9e5aa2b36"
+        ]
     }
 }
