@@ -1,8 +1,10 @@
 {
+  "description": "Personal VPN server",
   "owner": {
-    "username": "m-sadeghian"
+    "username": "m-sadeghian",
   },
   "record": {
     "A": ["89.106.69.249"]
-  }
+  },
+  "proxy": false
 }
