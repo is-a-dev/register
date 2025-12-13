@@ -9,7 +9,7 @@
     "MX": [
       { "target": "mail.jirka086.is-a.dev", "priority": 10 }
     ]
-    "TXT": "v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoO3ZFukLh5FU47clSwTKLhY7Ta9gBfu7O337JKnMXuWsIZfcs1y2YbJKvCaF5lmgwsL2y3SVgby0H9Jkr9PMa6uUyyui3Rn4qQQS286+GIBsliXqLxlhDOAHRoMMe3e9iSxg+6I+MtgdzJm/W2vSruOp5WSWSGU8OgcxulJlswQIDAQAB"
+    "TXT": "v=spf1 +a +mx  -all"
   },
   "proxied": true
 }
