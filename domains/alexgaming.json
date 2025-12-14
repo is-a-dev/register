@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "alexgamingstudio",
+    "email": "team.alexgaming@icloud.com"
+  },
+  "record": {
+    "CNAME": "alexgamingstudio.github.io"
+  },
+  "records": {
+    "A": "192.168.1.1",
+    "CNAME": "alexgamingstudio.github.io"
+  }
+}
