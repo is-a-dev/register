@@ -1,0 +1,35 @@
+{
+  "owner": {
+    "username": "randomboi404",
+    "email": "admin@randomboi404.is-a.dev",
+    "discord": "randomboi404"
+  },
+  "records": {
+    "TXT": [
+      {
+        "name": "resend._domainkey",
+        "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDv6baIX/Wuin6LM6ghtN4uyHVTFN+YbuRT+N3E4XXXqG13+2QZ1K+MXH6U2ijNjIU6USGCLOkROHXC1tKwDmzcnF+7zEdia8treyouQLy0AiyFMysq/76xXGyZDFjxjQYOkEDYRMwymbyKz9OF7hkFNC6uJKUh6RWTipsZf4wqiwIDAQAB"
+      },
+      {
+        "name": "send",
+        "value": "v=spf1 include:amazonses.com ~all"
+      },
+      {
+        "name": "_dmarc",
+        "value": "v=DMARC1; p=none;"
+      }
+    ],
+    "MX": [
+      {
+        "name": "send",
+        "value": "feedback-smtp.ap-northeast-1.amazonaws.com",
+        "priority": 10
+      },
+      {
+        "name": "",
+        "value": "inbound-smtp.ap-northeast-1.amazonaws.com",
+        "priority": 10
+      }
+    ]
+  }
+}
