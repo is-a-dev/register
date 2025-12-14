@@ -1,8 +1,11 @@
 {
   "owner": {
-    "username": "jngonzales"
+    "username": "jngonzales",
+    "email": "jngonzales.dev@gmail.com"
   },
   "records": {
     "CNAME": "jngonzales.github.io"
-  }
+  },
+  "description": "Portfolio for a Full Stack Developer. Hosting my Real Estate Deal Platform and Next.js projects.",
+  "repo": "https://github.com/jngonzales/jngonzales.github.io"
 }
