@@ -5,6 +5,9 @@
     },
     "records": {
         "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": ["forward-email=QW45OEpVTEFCNzY5Z09aWHpGdmx2NFhFRjJYSEUvV1dQa2Ywby8yRVEweW15ZDk1TnJDeEJ3MWRKVW5qY2pYVDFiWHM="]
+        "TXT": [
+            "forward-email=QWl5UnRJZGFFb2V0V2RaVWl0bG5hN0dwMm1NUmxQQUZVWnpFekFXYWFSc1hwNHJuSUhMSDBTbTE3QnloTlJyYlg5T0I=",
+            "dh=8ff5a528d070bb571287c9af0afff6e33e5e19ed"
+        ]
     }
 }
