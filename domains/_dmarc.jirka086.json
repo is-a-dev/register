@@ -5,5 +5,5 @@
   },
   "records": {
     "TXT": "v=DMARC1;p=quarantine;rua=mailto:admin@jirka086.is-a.dev"
-  },
+  }
 }
