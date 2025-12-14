@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "Stillman7896",
+        "email": "zenith.smitten537@slmail.me"
+    },
+    "records": {
+        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+        "TXT": ["forward-email=QW45OEpVTEFCNzY5Z09aWHpGdmx2NFhFRjJYSEUvV1dQa2Ywby8yRVEweW15ZDk1TnJDeEJ3MWRKVW5qY2pYVDFiWHM="]
+    }
+}
