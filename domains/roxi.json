@@ -9,7 +9,7 @@
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all", 
       "openai-domain-verification=dv-aDPvVGgm94H2RBc5avIupJbC",
-      "_acme-challenge.roxi.is-a.dev.=h_6KKkX1myIEa0_W86qFx8024aQqutiprkreTQ85prA"
+      "_acme-challenge.roxi.is-a.dev.RbX63ztYsT0sMHcsIGTVjL_UNEd5xRbRqieS72mb0ug"
     ]
   },
   "proxied": true
