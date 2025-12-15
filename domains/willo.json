@@ -6,6 +6,6 @@
   "records": {
     "A": ["185.199.109.153", "185.199.108.153", "185.199.111.153", "185.199.110.153"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "did=did:plc:47gipb6dl5m2jczoupknd23p v=spf1 include:spf.improvmx.com ~all"
+    "TXT": "_github-pages-challenge-WilloIzCitron=71dad3fdc563df8504a4309d56879e did=did:plc:47gipb6dl5m2jczoupknd23p v=spf1 include:spf.improvmx.com ~all"
   }
 }
