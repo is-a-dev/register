@@ -6,7 +6,7 @@
   "records": [
     {
       "type": "CNAME",
-      "value": "https://zfyx-ice.vercel.app",
+      "value": "zfyx-ice.vercel.app",
       "ttl": 3600
     }
   ]
