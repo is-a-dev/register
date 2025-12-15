@@ -2,7 +2,8 @@
   "description": "RDX Weather App",
   "repo": "https://github.com/RDXFW/register",
   "owner": {
-    "username": "RDXFW"
+    "username": "RDXFW",
+    "email": "rdxfw.info@gmail.com"
   },
   "record": {
     "A": ["154.38.172.86"]
