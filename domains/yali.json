@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "TheYali2MC"
-    },
-    "records": {
-        "CNAME": "https://yalipro.web.app/"
-    }
+  "owner": {
+    "username": "TheYali2MC",
+    "email": "theyali@duck.com"
+  },
+  "records": {
+    "CNAME": "https://yalipro.web.app/"
+  },
+  "proxied": true
 }
