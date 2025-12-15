@@ -4,6 +4,11 @@
     "email": "subyyalx@xavor.com"  
   },
   "records": {
-    "CNAME": "subyyalx.github.io"
-  }
+    "CNAME": "subyyalx.github.io",
+    "TXT": {
+      
+      "_github-pages-challenge-Subyyalx": "345027f3ec5e88bf29a4da9f28fdcd" 
+    }
+  },
+  "proxied": true
 }
