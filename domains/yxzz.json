@@ -1,13 +1,9 @@
 {
-"owner": {
+  "owner": {
     "username": "zfyx-ice",
     "email": "wjhyuki_0201@163.com"
-},
-"records": [
-    {
-    "type": "CNAME",
-    "value": "zfyx-9xc90siwq-zfyx-ices-projects.vercel.app",
-    "ttl": 3600
-    }
-]
+  },
+  "records": {
+    "CNAME": "zfyx-9xc90siwq-zfyx-ices-projects.vercel.app"
+  }
 }
