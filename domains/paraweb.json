@@ -1,9 +1,15 @@
 {
   "owner": {
     "username": "Subyyalx",
-    "email": "subyyalx@xavor.com" 
+    "email": "subyyalx@xavor.com"  
   },
   "records": {
-    "CNAME": "subyyalx.github.io"
+    "CNAME": "subyyalx.github.io",
+    
+    "TXT": {
+    
+      "_github-pages-challenge.paraweb": "67fd810ac9b9b0344d43370ed10786"
+      
+    }
   }
 }
