@@ -1,0 +1,6 @@
+{
+  "description": "Home Assistant via Cloudflare Tunnel",
+  "record": {
+    "CNAME": "example.com"
+  }
+}
