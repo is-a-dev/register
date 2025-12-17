@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "Simonf8",
-    "email": "kefetesimon@gmail.com"
+    "email": "kefetesimon@mail.com"
   },
   "records": {
     "CNAME": "simon-production-217f.up.railway.app"
-  },
-  "proxy": false
+  }
 }
