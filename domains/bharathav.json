@@ -3,6 +3,12 @@
     "username": "AVBharath10"
   },
   "records": {
-    "A": ["76.76.21.21"]
+    "A": ["76.76.21.21"],
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=bharathav.is-a.dev,4d40c2ac67021482e173"
+      }
+    ]
   }
 }
