@@ -1,0 +1,10 @@
+{
+  "description": "My Nextcloud on Oracle Cloud",
+  "owner": {
+    "username": "yourgithubusername",
+    "email": "your@email.com"
+  },
+  "record": {
+    "A": ["155.248.235.180"]  // 여기서 your_oracle_public_ip는 Oracle Cloud 인스턴스 공용 IP (예: 155.248.235.180)
+  }
+}
