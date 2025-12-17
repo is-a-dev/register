@@ -3,9 +3,9 @@
         "username": "Manish881-hub",
         "email": "manishhbhakti881@gmail.com"
     },
-    "records": {
+    "record": {
         "CNAME": "manishbhakti-sagardev.vercel.app",
-        "A": [
+        "TXT": [
             "vc-domain-verify=manish-bhaktisagar.is-a.dev,56d7e7bb93b9e5aa2b36"
         ]
     }
