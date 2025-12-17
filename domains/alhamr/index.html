@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alham Rizvi | Offensive Security Researcher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .bg-animated {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(45deg, #000, #0a0a0a, #1a1a1a);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .particles {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .particle {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: float 20s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) translateX(0); }
+            25% { transform: translateY(-100px) translateX(50px); }
+            50% { transform: translateY(-50px) translateX(-50px); }
+            75% { transform: translateY(-150px) translateX(100px); }
+        }
+
+        nav {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(0, 255, 255, 0.3);
+            border-radius: 50px;
+            padding: 15px 40px;
+            box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        nav:hover {
+            box-shadow: 0 8px 32px rgba(0, 255, 255, 0.4);
+            border-color: rgba(0, 255, 255, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #00ffff, #00ff00);
+            transition: width 0.3s ease;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 100px 20px 50px;
+        }
+
+        .hero-content {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 30px;
+            padding: 60px 80px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            transform: perspective(1000px) rotateX(0deg);
+            transition: transform 0.5s ease;
+        }
+
+        .hero-content:hover {
+            transform: perspective(1000px) rotateX(2deg) translateY(-10px);
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            background: linear-gradient(135deg, #fff, #00ffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            animation: slideDown 1s ease;
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            color: #00ffff;
+            margin-bottom: 30px;
+            animation: slideUp 1s ease 0.2s backwards;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .typing-text {
+            font-size: 1.2rem;
+            color: #aaa;
+            min-height: 30px;
+            animation: fadeIn 1s ease 0.4s backwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            animation: fadeIn 1s ease 0.6s backwards;
+        }
+
+        .contact-info span {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            font-size: 0.9rem;
+        }
+
+        .glass-section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 60px;
+            background: linear-gradient(135deg, #fff, #00ffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            transform: translateZ(0);
+        }
+
+        .glass-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 20px 60px rgba(0, 255, 255, 0.3);
+            border-color: rgba(0, 255, 255, 0.5);
+        }
+
+        .summary-card {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .link-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+        }
+
+        .link-card:hover {
+            transform: translateY(-15px) scale(1.05);
+            box-shadow: 0 20px 60px rgba(0, 255, 255, 0.4);
+            border-color: rgba(0, 255, 255, 0.8);
+        }
+
+        .link-card i {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #00ffff, #00ff00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            transition: all 0.4s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .project-card:hover::before {
+            left: 100%;
+        }
+
+        .project-card:hover {
+            transform: translateY(-20px) rotateX(5deg);
+            box-shadow: 0 30px 80px rgba(0, 255, 255, 0.5);
+            border-color: rgba(0, 255, 255, 0.8);
+        }
+
+        .project-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #00ffff;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: rgba(0, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(0, 255, 255, 0.5);
+            color: #00ffff;
+            padding: 20px 50px;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            margin: 30px auto;
+            display: block;
+            width: fit-content;
+        }
+
+        .download-btn:hover {
+            background: rgba(0, 255, 255, 0.2);
+            box-shadow: 0 0 40px rgba(0, 255, 255, 0.6);
+            transform: scale(1.1);
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 50px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background: linear-gradient(180deg, #00ffff, #00ff00);
+        }
+
+        .timeline-item {
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -56px;
+            top: 0;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #00ffff;
+            box-shadow: 0 0 20px #00ffff;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .skill-pill {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            padding: 12px 25px;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            animation: floatPill 3s ease-in-out infinite;
+        }
+
+        .skill-pill:hover {
+            background: rgba(0, 255, 255, 0.2);
+            transform: translateY(-5px) scale(1.1);
+            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.5);
+        }
+
+        @keyframes floatPill {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .skill-pill:nth-child(odd) {
+            animation-delay: 0.5s;
+        }
+
+        .certs-scroll {
+            display: flex;
+            overflow-x: auto;
+            gap: 30px;
+            padding: 20px 0;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(0, 255, 255, 0.5) rgba(255, 255, 255, 0.1);
+        }
+
+        .certs-scroll::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .certs-scroll::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+
+        .certs-scroll::-webkit-scrollbar-thumb {
+            background: rgba(0, 255, 255, 0.5);
+            border-radius: 10px;
+        }
+
+        .cert-card {
+            min-width: 250px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .cert-card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 40px rgba(0, 255, 255, 0.4);
+        }
+
+        .achievements-list {
+            list-style: none;
+        }
+
+        .achievements-list li {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-left: 4px solid #00ffff;
+            padding: 20px 30px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .achievements-list li:hover {
+            transform: translateX(10px);
+            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3);
+        }
+
+        footer {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid rgba(0, 255, 255, 0.3);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #00ffff;
+            transform: translateY(-5px) scale(1.2);
+            filter: drop-shadow(0 0 20px #00ffff);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .hero h2 { font-size: 1.3rem; }
+            .hero-content { padding: 40px 30px; }
+            nav ul { gap: 20px; }
+            .projects-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-animated"></div>
+    <div class="particles" id="particles"></div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#links">My Links</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>ALHAM RIZVI</h1>
+            <h2>Offensive Security Researcher & Penetration Tester</h2>
+            <div class="typing-text" id="typingText"></div>
+            <div class="contact-info">
+                <span><i class="fas fa-envelope"></i> its47h4m@gmail.com</span>
+                <span><i class="fas fa-phone"></i> +91 REDACTED </span>
+                <span><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra</span>
+                <span><i class="fab fa-github"></i> alham-rizvi</span>
+                <span><i class="fas fa-cloud"></i> alhamrizvi-cloud</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="glass-section">
+        <h2 class="section-title">Summary</h2>
+        <div class="glass-card summary-card">
+            Offensive Security Researcher & Pentester skilled in Web, API, and Network security, scripting, cryptography, exploitation, and vulnerability research. Verified bug bounty hunter and ranked Top 6 nationally on TryHackMe.
+        </div>
+    </section>
+
+    <section class="glass-section" id="links">
+        <h2 class="section-title">Get All My Links</h2>
+        <div class="links-grid">
+            <a href="https://instagram.com/alhamrizvii" target="_blank" class="link-card">
+                <i class="fab fa-instagram"></i>
+                <h3>Instagram</h3>
+            </a>
+            <a href="https://www.linkedin.com/in/alham-rizvi/" target="_blank" class="link-card">
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+            </a>
+            <a href="https://github.com/alhamrizvi-cloud" target="_blank" class="link-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+            </a>
+            <a href="mailto:its47h4m@gmail.com" class="link-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+            </a>
+            <a href="https://tryhackme.com/p/Alhamrizvii" target="_blank" class="link-card">
+                <i class="fas fa-flag"></i>
+                <h3>TryHackMe</h3>
+            </a>
+            <a href="https://hackthebox.com" target="_blank" class="link-card">
+                <i class="fas fa-cube"></i>
+                <h3>HackTheBox</h3>
+            </a>
+        </div>
+    </section>
+
+    <section class="glass-section">
+        <a href="https://github.com/alhamrizvi-cloud/alhamrizvi-cloud.github.io/blob/main/alhamrizvi.pdf" class="download-btn"><i class="fas fa-download"></i> Download My Resume</a>
+    </section>
+
+    <section id="projects" class="glass-section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <a href="https://github.com/alhamrizvi-cloud/Aspen-Framework" target="_blank" class="project-card">
+                <h3>Aspen-Framework</h3>
+                <p>Automated Recon Tool featuring subdomain enumeration, port scanning, DNS analysis, and passive reconnaissance capabilities for comprehensive security assessment.</p>
+            </a>
+            <a href="https://github.com/alhamrizvi-cloud/403kill" target="_blank" class="project-card">
+                <h3>403kill</h3>
+                <p>HTTP 403 Bypass Tool that detects 403 blocks and performs intelligent header-based and path-based bypass techniques to identify access control vulnerabilities.</p>
+            </a>
+            <a href="https://github.com/alhamrizvi-cloud/tr01d" target="_blank" class="project-card">
+                <h3>Tr10d</h3>
+                <p>JavaScript Secrets Scanner capable of detecting 40+ secret types with deep analysis, multithreading support, and advanced regex filtering for comprehensive security auditing.</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="glass-section">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item glass-card">
+                <h3 style="color: #00ffff;">TechnoHacks Solutions Pvt. Ltd.</h3>
+                <p style="color: #aaa; margin: 10px 0;">12/2025 – Present</p>
+                <p>Conducting Wireshark packet analysis, Nmap network scanning, and penetration testing using OWASP methodologies. Developing Python automation scripts, executing phishing simulations, and creating incident response documentation.</p>
+            </div>
+            <div class="timeline-item glass-card">
+                <h3 style="color: #00ffff;">Redynox Cybersecurity Solutions</h3>
+                <p style="color: #aaa; margin: 10px 0;">12/2025 – Present</p>
+                <p>Managing firewall configurations, performing Wireshark traffic analysis, and conducting vulnerability scanning with OWASP ZAP. Exploiting SQLi, XSS, and CSRF vulnerabilities to enhance security postures.</p>
+            </div>
+            <div class="timeline-item glass-card">
+                <h3 style="color: #00ffff;">TheWebsiteMakers Pvt. Ltd.</h3>
+                <p style="color: #aaa; margin: 10px 0;">07/2025 – 11/2025</p>
+                <p>Hands-on experience with Nmap, Metasploit, and Burp Suite. Performed comprehensive vulnerability scanning, security assessments, and delivered detailed penetration testing reports and documentation.</p>
+            </div>
+            <div class="timeline-item glass-card">
+                <h3 style="color: #00ffff;">Security Researcher — Bug Hunter</h3>
+                <p style="color: #aaa; margin: 10px 0;">Intigriti, HackerOne, OBB</p>
+                <p>Successfully identified and reported 7 verified vulnerabilities. Conducted extensive reconnaissance, developed proof-of-concepts, created comprehensive security reports, and verified remediation efforts.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="glass-section">
+        <h2 class="section-title">Education</h2>
+        <div class="glass-card">
+            <h3 style="color: #00ffff; font-size: 1.5rem;">Bachelor's in Computer Science</h3>
+            <p style="margin: 15px 0; color: #aaa;">Rizvi Degree College, Bandra</p>
+            <p style="color: #00ffff;">2024 – 2027</p>
+        </div>
+    </section>
+
+    <section class="glass-section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <span class="skill-pill">Penetration Testing</span>
+            <span class="skill-pill">VAPT</span>
+            <span class="skill-pill">Recon & Enumeration</span>
+            <span class="skill-pill">AD Pentesting</span>
+            <span class="skill-pill">OWASP Top 10</span>
+            <span class="skill-pill">MITRE ATT&CK</span>
+            <span class="skill-pill">Cryptography</span>
+            <span class="skill-pill">Linux (Kali, Parrot)</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">Bash</span>
+            <span class="skill-pill">PowerShell</span>
+            <span class="skill-pill">Burp Suite</span>
+            <span class="skill-pill">Nmap</span>
+            <span class="skill-pill">Metasploit</span>
+            <span class="skill-pill">Wireshark</span>
+            <span class="skill-pill">OWASP ZAP</span>
+        </div>
+    </section>
+
+    <section class="glass-section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certs-scroll">
+            <div class="cert-card">
+                <i class="fas fa-certificate" style="font-size: 3rem; color: #00ffff; margin-bottom: 15px;"></i>
+                <h3>CRTA</h3>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-certificate" style="font-size: 3rem; color: #00ffff; margin-bottom: 15px;"></i>
+                <h3>eJPT</h3>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-certificate" style="font-size: 3rem; color: #00ffff; margin-bottom: 15px;"></i>
+                <h3>CNSP</h3>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-certificate" style="font-size: 3rem; color: #00ffff; margin-bottom: 15px;"></i>
+                <h3>Fortinet Certified Associate</h3>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-certificate" style="font-size: 3rem; color: #00ffff; margin-bottom: 15px;"></i>
+                <h3>CAPIE</h3>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-certificate" style="font-size: 3rem; color: #00ffff; margin-bottom: 15px;"></i>
+                <h3>Penetration Testing Engineer</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="glass-section">
+        <h2 class="section-title">Achievements</h2>
+        <ul class="achievements-list">
+            <li><i class="fas fa-trophy" style="color: #00ffff; margin-right: 15px;"></i>Top #6 National TryHackMe (2025)</li>
+            <li><i class="fas fa-trophy" style="color: #00ffff; margin-right: 15px;"></i>200+ cybersecurity writeups</li>
+            <li><i class="fas fa-trophy" style="color: #00ffff; margin-right: 15px;"></i>Multiple responsible disclosure acknowledgments</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p style="font-size: 1.2rem; margin-bottom: 10px;">Website made by <span style="color: #00ffff;">Alham Rizvi</span></p>
+        <p style="color: #aaa;">Offensive Security Researcher & Pentester | © 2025</p>
+        <div class="social-icons">
+            <a href="https://github.com/alham-rizvi" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:its47h4m@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://tryhackme.com" target="_blank"><i class="fas fa-flag"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        // Particle system
+        const particlesContainer = document.getElementById('particles');
+        for (let i = 0; i < 50; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.width = Math.random() * 5 + 2 + 'px';
+            particle.style.height = particle.style.width;
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.top = Math.random() * 100 + '%';
+            particle.style.animationDuration = Math.random() * 20 + 10 + 's';
+            particle.style.animationDelay = Math.random() * 5 + 's';
+            particlesContainer.appendChild(particle);
+        }
+
+        // Typing animation
+        const phrases = [
+            'Penetration Testing Specialist',
+            'Bug Bounty Hunter',
+            'Vulnerability Researcher',
+            'Security Tool Developer'
+        ];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typingText');
+
+        function typeEffect() {
+            const currentPhrase = phrases[phraseIndex];
+            
+            if (isDeleting) {
+                typingElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            let typeSpeed = isDeleting ? 50 : 100;
+
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                typeSpeed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                typeSpeed = 500;
+            }
+
+            setTimeout(typeEffect, typeSpeed);
+        }
+
+        typeEffect();
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start
