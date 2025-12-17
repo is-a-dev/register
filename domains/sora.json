@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "sora",
+    "email": "bili@ali.battlefield.eu.org"
+  },
+  "records": {
+    "NS": ["adel.ns.cloudflare.com", "vick.ns.cloudflare.com"]
+  }
+}
