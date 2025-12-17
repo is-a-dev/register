@@ -4,6 +4,7 @@
     "email": "ajithknat@gmail.com"
   },
   "records": {
-    "CNAME": "ajithnat.pages.dev"
+    "CNAME": "ajithnat.pages.dev",
+    "TXT": ["zoho-verification=zb63337646.zmverify.zoho.com"]
   }
 }
