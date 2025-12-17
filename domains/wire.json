@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "transformer",
+    "email": "transformerhk@outlook.com"
+  },
+  "records": {
+    "CNAME": "blog.transformercn1.workers.dev"
+  },
+  "proxied": true
+}
