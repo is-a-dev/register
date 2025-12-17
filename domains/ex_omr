@@ -1,0 +1,11 @@
+{
+  "description": "Esfandiari Exchange App",
+  "repo": "https://github.com/karmoniclabs/isadev_tg",
+  "owner": {
+    "username": "karmoniclabs",
+    "email": "karmoniclabs@gmail.com"
+  },
+  "record": {
+    "A": ["34.185.151.176"]
+  }
+}
