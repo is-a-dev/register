@@ -5,24 +5,10 @@
   },
   "records": {
     "CNAME": "GH0STP4WZ.github.io",
-    "TXT": [
-     "zoho-verification=zb43811690.zmverify.zoho.eu",
-     "v=spf1 include:zohomail.com ~all"
-   ],
-      "MX": [
-        {
-          "target": "mx.zoho.eu",
-          "priority": 10
-        },
-        {
-          "target": "mx2.zoho.eu",
-          "priority": 20
-        },
-        {
-          "target": "mx3.zoho.eu",
-          "priority": 50
-        }
-     ]
+    "TXT": "v=spf1 mx:mail.gh0stp4wz.is-a.dev ip4:45.82.121.115 -all",
+    "MX": [
+        "mail.gh0stp4wz.is-a.dev"
+    ]
   },
   "proxied": true
 }

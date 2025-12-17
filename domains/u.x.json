@@ -5,5 +5,8 @@
   },
   "records": {
     "URL": "https://userscripts.rman.dev/"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }
