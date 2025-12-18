@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "begeng82",
+        "email": "email-anda@example.com"
+    },
+    "record": {
+        "CNAME": "begeng82.github.io"
+    },
+    "metadata": {
+        "TXT": ["31ee707ef715144e7ca77b397e0ae1"]
+    }
+}
