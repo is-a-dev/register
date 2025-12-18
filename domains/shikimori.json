@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "realshikimori",
+    "email": "shikimori@atomicmail.io"
+  },
+  "record": {
+    "A": ["216.198.79.1"],
+    "TXT": [
+      "vc-domain-verify=shikimori.is-a.dev,6bde0f67838d6b9873ae"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  }
+}
