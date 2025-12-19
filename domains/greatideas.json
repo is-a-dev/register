@@ -3,10 +3,7 @@
     "username": "jgonext",
     "email": "usuariowd@gmail.com"
   },
-  "record": {
-    "CNAME": "jgonext.github.io",
-    "TXT": {
-      "_github-pages-challenge-jgonext": "63a86889e153b8f2e692d003568423"
-    }
+  "records": {
+    "CNAME": "jgonext.github.io"
   }
 }
