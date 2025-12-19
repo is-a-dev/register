@@ -1,0 +1,10 @@
+{
+  "description": "Alex's personal developer website",
+  "owner": {
+    "username": "alexmorrisnz",
+    "email": "alex@navra.nz"
+  },
+  "records": {
+    "CNAME": "alexmorris.nz"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "description": "My Personal Website",
+  "owner": {
+    "username": "MinMitCoder",
+    "email": "minmitgamer@gmail.com"
+  },
+  "records": {
+    "CNAME": "minmit.pages.dev"
+  }
+}

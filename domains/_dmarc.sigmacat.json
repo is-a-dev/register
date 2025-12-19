@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "SigmaCat01"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=reject"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Aman Bhatt's personal website",
+  "owner": {
+    "username": "bhattcodes",
+    "email": "bhatt.codes@gmail.com"
+  },
+  "records": {
+    "CNAME": "bhattcodes.github.io"
+  }
+}

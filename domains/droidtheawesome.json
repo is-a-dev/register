@@ -1,0 +1,11 @@
+{
+  "description": "DroidTA’s website",
+  "repo": "https://github.com/droidtheawesomewastaken/droidtheawesome",
+  "owner": {
+    "username": "droidtheawesomewastaken",
+    "email": "droidtheawesome@mailfence.com"
+  },
+  "records": {
+    "CNAME": "droidtheawesomewastaken.github.io"
+  }
+}

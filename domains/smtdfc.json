@@ -1,0 +1,10 @@
+{
+    "description": "smtdfc.is-a.dev : This is my profile",
+    "owner": {
+        "username": "smtdfc",
+        "email": "me.smtdfc@gmail.com"
+    },
+    "records": {
+        "CNAME":"smtdfc.pages.dev"
+    }
+}

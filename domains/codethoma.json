@@ -1,0 +1,10 @@
+{
+  "description": "The ThunderDome",
+  "owner": {
+    "username": "codethoma",
+    "email": "mrthundergod@gmail.com"
+  },
+  "records": {
+    "CNAME": "codethoma.github.io"
+  }
+}

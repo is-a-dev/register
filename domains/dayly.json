@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "email": "devnghien@gmail.com",
+    "name": "Nghien Dev"
+  },
+  "domain": "dayly",
+  "subdomain": true,
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "v=spf1 include:sendgrid.net ~all"
+    ]
+  }
+}
