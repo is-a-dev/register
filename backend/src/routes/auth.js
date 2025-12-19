@@ -33,7 +33,7 @@ router.post('/register', async (req, res) => {
             [email, hashedPassword, name]
         );
         
-        const user = result.rows;
+        const user = result.rows[0];
         
         // Create JWT token
         const token = jwt.sign(
@@ -63,9 +63,9 @@ router.post('/login', async (req, res) => {
             return res.status(400).json({ error: 'Email and password required' });
         }
         
-        // Find user
+        // Find user - SELECT specific columns
         const result = await pool.query(
-            'SELECT * FROM users WHERE email = $1',
+            'SELECT id, email, password, name FROM users WHERE email = $1',
             [email]
         );
         
@@ -73,7 +73,13 @@ router.post('/login', async (req, res) => {
             return res.status(401).json({ error: 'Invalid credentials' });
         }
         
-        const user = result.rows;
+        const user = result.rows[0];
+        
+        // Verify password exists in database
+        if (!user.password) {
+            console.error('Password missing for user:', email);
+            return res.status(401).json({ error: 'Invalid credentials' });
+        }
         
         // Check password
         const validPassword = await bcrypt.compare(password, user.password);
@@ -112,8 +118,9 @@ router.get('/me', authenticateToken, async (req, res) => {
             return res.status(404).json({ error: 'User not found' });
         }
         
-        res.json(result.rows);
+        res.json(result.rows[0]);
     } catch (error) {
+        console.error('Get user error:', error);
         res.status(500).json({ error: 'Failed to get user' });
     }
 });
@@ -121,7 +128,7 @@ router.get('/me', authenticateToken, async (req, res) => {
 // Middleware to authenticate token
 function authenticateToken(req, res, next) {
     const authHeader = req.headers['authorization'];
-    const token = authHeader && authHeader.split(' ');
+    const token = authHeader && authHeader.split(' ')[1];
     
     if (!token) {
         return res.status(401).json({ error: 'Token required' });
@@ -135,4 +142,5 @@ function authenticateToken(req, res, next) {
         next();
     });
 }
+
 module.exports = router;
