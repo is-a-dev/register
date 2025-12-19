@@ -1,0 +1,11 @@
+{
+  "description": "FastAPI project",
+  "subdomain": "aaronapi",
+  "owner": {
+    "repo": "https://github.com/wangaaron20031002-ux/is-a.dev.git",
+    "email": "wang.aaron.20031002@gmail.com"
+  },
+  "record": {
+    "A": ["0.0.0.0"]
+  }
+}
