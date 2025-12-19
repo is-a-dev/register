@@ -1,25 +1,31 @@
-const app = require('./app');
+const express = require('express');
+const cors = require('cors');
+require('dotenv').config();
 const pool = require('./config/database');
 
-const PORT = process.env.PORT || 5000;
+const app = express();
+
+// Middleware
+app.use(cors());
+app.use(express.json());
+
+// Routes
 const authRoutes = require('./routes/auth');
-
-pool.query('SELECT NOW()', (err, res) => {
-    if (err) {
-        console.error('❌ DB failed:', err.message);
-    } else {
-        console.log('✅ DB connected:', res.rows.now);
-    }
-});
-
-app.listen(PORT, () => {
-    console.log(`\n🚀 DAYLY API running on port ${PORT}\n`);
-});
-
-process.on('SIGINT', () => {
-    console.log('\n⏹️ Shutting down...');
-    pool.end();
-    process.exit(0);
-});
-
 app.use('/api/auth', authRoutes);
+
+// Health check
+app.get('/health', (req, res) => {
+    res.json({ status: 'OK', app: 'Dayly API' });
+});
+
+// Error handling
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).json({ error: 'Internal server error' });
+});
+
+// Start server
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    console.log(`🚀 DAYLY API running on port ${PORT}`);
+});
