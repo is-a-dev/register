@@ -1,3 +1,6 @@
+// Allow self-signed certificates for development
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
