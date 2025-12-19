@@ -9,9 +9,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Routes
+// ⬇️ thêm hai dòng này
 const authRoutes = require('./routes/auth');
 app.use('/api/auth', authRoutes);
+// ⬆️ phải đặt TRƯỚC mọi middleware 404 hoặc app.use('*', ...)
 
 // Health check
 app.get('/health', (req, res) => {

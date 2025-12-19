@@ -1,13 +1,13 @@
 const { Pool } = require('pg');
-require('dotenv').config();
 
 const pool = new Pool({
-    connectionString: process.env.DATABASE_URL,
-    ssl: process.env.NODE_ENV === 'production' ? {
-        rejectUnauthorized: false
-    } : false
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    require: true,
+    rejectUnauthorized: false
+  }
 });
 
-pool.on('error', (err) => console.error('❌ DB Error:', err));
+pool.on('error', (err) => console.error('🚨 DB Error:', err));
 
 module.exports = pool;
