@@ -18,7 +18,7 @@ export default function Home() {
                 <h1>🚀 Dayly</h1>
                 {user && (
                     <div className="user-menu">
-                        <span>Welcome, {user.name}!</span>
+                        <span>Welcome, {user.name}!!!</span>
                         <button onClick={handleLogout} className="btn-logout">
                             Logout
                         </button>
