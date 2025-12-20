@@ -4,6 +4,11 @@
     "email": "ajithknat@gmail.com"
   },
   "records": {
-    "CNAME": "ajithnat.pages.dev"
-  }
+    "CNAME": "ajithnat.pages.dev",
+    "TXT": [
+      "google-site-verification=IJRDxo-NsmmCQzvITLsMDO6HzG6tyiIFQuzvRp6jCn8",
+      "zoho-verification=zb63337646.zmverify.zoho.com"
+    ]
+  },
+  "proxied": true
 }
