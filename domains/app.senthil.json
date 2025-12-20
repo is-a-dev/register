@@ -3,22 +3,7 @@
     "username": "gptechland",
     "email": "skn.hills@gmail.com"
   },
-  "record": {
+  "record"s: {
     "CNAME": "vendor-quote-analyzer.onrender.com"
   }
 }
-```
-
-Or if you want to add it as a subdomain of your existing setup, check how is-a.dev handles subdomains.
-
-### 9c. Submit Pull Request
-
-1. Commit the new file
-2. Create a Pull Request to is-a.dev/register
-3. Wait for approval (usually 24-48 hours)
-
-### Alternative: Use Render's Free URL
-
-While waiting for DNS, you can use the free Render URL:
-```
-https://vendor-quote-analyzer.onrender.com
