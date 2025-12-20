@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "RAYXSTUDIOZGAMES",
-    "email": "syedyaseeralirayan5@gmail.com"
-  },
-  "records": {
-    "CNAME": "rayxstudiozgames.github.io"
-  }
+    "owner": {
+        "username": "RAYXSTUDIOZGAMES",
+        "email": "syedyaseeralirayan5@gmail.com"
+    },
+    "record": {
+        "TXT": "dh=bf868aa4b8fa4f3e245f48824ed264977ee43ba2"
+    }
 }
