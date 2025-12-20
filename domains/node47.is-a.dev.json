@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "TheMachine29"
+  },
+  "record": {
+    "NS": [
+      "marge.ns.cloudflare.com",
+      "piers.ns.cloudflare.com"
+    ]
+  }
+}
