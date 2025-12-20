@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "bugs-feats"
+  },
+  "records": {
+    "NS": ["daisy.ns.cloudflare.com", "fred.ns.cloudflare.com"]
+  },
+  "proxied": false
+}
