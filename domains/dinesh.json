@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "dineshze"
+    "username": "YOUR_GITHUB_USERNAME",
+    "email": "dinesh205.dk@gmail.com"
   },
   "records": {
     "CNAME": "dinesh-me.vercel.app"
   }
 }
+
