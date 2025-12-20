@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "bugs-feats"
+    "username": "bugs-feats",
+    "email": "sigfas@outlook.com"
   },
   "records": {
     "NS": ["daisy.ns.cloudflare.com", "fred.ns.cloudflare.com"]
