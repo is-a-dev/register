@@ -1,11 +1,1 @@
-{
-  "description": "Personal site for Dill, full-stack engineer.",
-  
-  "owner": {
-    "username": "dill-lk",
-    "email": "dill.ruzz.official@gmail.com"
-  },
-  "records": {
-    "CNAME": "dill-dev.netlify.app"
-  }
-}
+{ "owner": { "username": "dill-lk", "email": "dill.ruzz.official@gmail.com" }, "records": [ { "type": "A", "name": "@", "value": "216.198.79.1", "ttl": 3600 }, { "type": "TXT", "name": "_vercel", "value": "vc-domain-verify=dill.is-a.dev,a694fd014efd1d7fc0a8", "ttl": 3600 }, { "type": "CNAME", "name": "www", "value": "dill-is-a-dev.vercel.app", "ttl": 3600 } ] }
