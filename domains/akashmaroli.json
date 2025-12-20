@@ -3,7 +3,10 @@
     "username": "AkashMaroli"
   },
   "repo": "akashmaroli-portfolio",
-  "record": {
-    "CNAME": "akashmaroli.github.io"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "akashmaroli.github.io"
+    }
+  ]
 }
