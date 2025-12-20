@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "AquaQuokka"
+        "username": "AquaQuokka",
+        "email": "AquaQuokka@outlook.com"
     },
     "records": {
         "CNAME": "apex-loadbalancer.netlify.com",
