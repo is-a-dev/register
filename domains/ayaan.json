@@ -1,14 +1,8 @@
 {
   "owner": {
-    "username": "AyaanDhalait",
-    "email": "mr.dhalait@gmail.com",
-    "discord": "AyaanDhalait"
+    "username": "pankajchaturvedi2244"
   },
-  "records": [
-    {
-      "type": "URL",
-      "name": "@",
-      "value": "https://ayaandhalait.github.io"
-    }
-  ]
+  "record": {
+    "CNAME": "portfolio-next-kappa-sooty.vercel.app"
+  }
 }
