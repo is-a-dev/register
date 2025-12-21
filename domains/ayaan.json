@@ -6,9 +6,9 @@
   },
   "records": [
     {
-      "type": "CNAME",
+      "type": "URL",
       "name": "@",
-      "value": "ayaandhalait.github.io"
+      "value": "https://ayaandhalait.github.io"
     }
   ]
 }
