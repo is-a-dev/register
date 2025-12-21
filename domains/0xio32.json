@@ -4,6 +4,14 @@
     "email": "markus.probst@posteo.de"
   },
   "records": {
-    "CNAME": "0xio32-is-a-dev.pages.dev"
+    "NS": ["decker.ns.cloudflare.com", "kia.ns.cloudflare.com"],
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "4F33A1EF934B3296CF449307F81107BC746AC2E84BF9D6A51DFB3E145994CA8E"
+      }
+    ]
   }
 }
