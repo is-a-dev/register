@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "peter",
+    "email": "sgmpeter@proton.me"
+  },
+  "records": {
+    "NS": ["carlos.ns.cloudflare.com", "ollie.ns.cloudflare.com"]
+  }
+}
