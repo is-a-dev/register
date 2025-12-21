@@ -1,10 +1,13 @@
 {
   "owner": {
     "username": "AyaanDhalait",
-    "email": "mr.dhalait@gmail.com",
-    "discord": "ayaandhalait"
+    "email": "mr.dhalait@gmail.com"
   },
-  "record": {
-    "CNAME": "ayaandhalait.github.io"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "value": "ayaandhalait.github.io"
+    }
+  ]
 }
