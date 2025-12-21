@@ -1,0 +1,11 @@
+{
+  "description": "Personal website",
+  "owner": {
+    "username": "keircn",
+    "email": "keircn@proton.me"
+  },
+  "records": {
+    "A": ["206.189.124.159"]
+  },
+  "proxied": true
+}

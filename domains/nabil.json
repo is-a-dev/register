@@ -1,11 +1,10 @@
 {
-  "description": "Rahat Morshed Nabil - Portfolio",
-  "repo": "https://github.com/imrmnabil/profile",
   "owner": {
-    "username": "imrmnabil",
-    "email": "imrmnabil@gmail.com"
+    "username": "AnnNaserNabil",
+    "email": "ann.n.nabil@gmail.com",
+    "discord": "aureliiuuss"
   },
   "records": {
-    "CNAME": "imrmnabil.github.io"
+    "CNAME": "annnasernabil.github.io"
   }
 }

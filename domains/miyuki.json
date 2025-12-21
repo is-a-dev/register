@@ -1,6 +1,5 @@
 {
   "description": "Miyuki Yue's is-a.dev domain",
-  "repo": "https://github.com/YueMiyuki",
   "owner": {
     "username": "YueMiyuki",
     "email": "me@miyuki-yue.dev"
@@ -16,10 +15,7 @@
         "target": "autoconfig.spacemail.com"
       }
     ],
-    "MX": [
-      "mx1.spacemail.com",
-      "mx2.spacemail.com"
-    ]
+    "MX": ["mx1.spacemail.com", "mx2.spacemail.com"]
   },
   "proxied": false
 }

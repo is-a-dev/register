@@ -5,6 +5,8 @@
     "discord": "612522818294251522"
   },
   "records": {
-    "CNAME": "alecks.pages.dev"
-  }
+    "CNAME": "pyro.alecks.cloud"
+  },
+
+  "proxied": true
 }

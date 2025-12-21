@@ -1,10 +1,8 @@
 {
-  "repo": "https://github.com/ricecx/ricecx.github.io",
   "owner": {
     "username": "RiceCX",
     "email": "andyl5463@gmail.com"
   },
-  "description": "Hosting my website.",
   "records": {
     "CNAME": "ricecx.github.io"
   }

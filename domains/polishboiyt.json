@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "PolishBoiYT",
-    "discord": "994187133847875604"
-  },
-  "records": {
-    "CNAME": "polishboiyt.github.io"
-  }
+    "owner": {
+        "username": "PolishBoiYT",
+        "email": "polishboiyt@gmail.com"
+    },
+    "records": {
+        "CNAME": "polishboiyt.github.io"
+    }
 }

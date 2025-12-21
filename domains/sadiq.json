@@ -1,10 +1,9 @@
 {
-  "repo": "https://github.com/sadiq334/sadiq334.github.io",
   "owner": {
-    "username": "sadiq334",
-    "discord": "! sadiq#1152"
+    "username": "sadiq-bd",
+    "email": "admin@devsadiq.site"
   },
   "records": {
-    "CNAME": "sadiq334.github.io"
+    "CNAME": "sadiqbd.pages.dev"
   }
 }

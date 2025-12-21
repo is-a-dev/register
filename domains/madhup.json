@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "madhup",
-    "discord": "714323644641181737"
-  },
-  "records": {
-    "CNAME": "madhup.github.io"
-  }
+    "owner": {
+        "username": "madhup",
+        "twitter": "madhupsukoon"
+    },
+    "records": {
+        "URL": "https://madhup.github.io/"
+    }
 }

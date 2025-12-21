@@ -1,10 +1,9 @@
 {
-  "description": "Wouter's personal website",
   "owner": {
     "username": "wouter173",
     "email": "wouter@debruijn.dev"
   },
   "records": {
-    "TXT": ["vc-domain-verify=wouter.is-a.dev,b69cd5b6b6811fe3538d"]
+    "TXT": "vc-domain-verify=wouter.is-a.dev,b69cd5b6b6811fe3538d"
   }
 }

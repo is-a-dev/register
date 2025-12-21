@@ -1,10 +1,10 @@
 {
   "owner": {
-    "username": "crepppy",
-    "email": "chapmanjack0777@gmail.com",
-    "discord": "crepppy#2758"
+    "username": "Xhelphin",
+    "email": "jack@jackgreenacre.com"
   },
   "records": {
-    "URL": "https://jackchap.com"
-  }
+    "CNAME": "jackgreenacre-redirect.pages.dev"
+  },
+  "proxied": true
 }
