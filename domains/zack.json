@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "z4ck-ftw",
-    "email": "kmczackyt@gmail.com"
+    "username": "z4ck-ftw"
   },
-  "record": {
-    "CNAME": "z4ck-ftw.netlify.app"
+  "records": {
+    "A": ["75.2.60.5", "99.83.190.102"]
   }
 }
