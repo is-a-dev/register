@@ -2,10 +2,7 @@
   "owner": {
     "username": "pankajchaturvedi2244"
   },
-   "records": [
-    {
-      "type": "CNAME",
-      "value": "portfolio-next-kappa-sooty.vercel.app"
-    }
-  ]
+    "records": {
+    "CNAME": "portfolio-next-kappa-sooty.vercel.app"
+  }
 }
