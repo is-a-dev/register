@@ -4,7 +4,6 @@
     "email": "adamec08@seznam.cz"
   },
   "records": {
-    "CNAME": "web.vagonbrei.eu"
-  },
-  "proxied": false
+    "A": ["37.202.197.36"]
+  }
 }
