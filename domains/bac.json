@@ -1,0 +1,12 @@
+{
+  "domain": "ecommerce.is-a.dev",
+  "subdomain": "ecommerce",
+  "owner": {
+    "email": "vanbac1288@gmail.com",
+    "github": "letubac"
+  },
+  "record": {
+    "type": "A",
+    "value": "171.235.166.13"
+  }
+}
