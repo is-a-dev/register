@@ -1,0 +1,10 @@
+{
+  "description": "My Arch Linux website",
+  "repo": "mzluiis/myarch",
+  "owner": {
+    "username": "mzluiis"
+  },
+  "record": {
+    "CNAME": "mzluiis.github.io"
+  }
+}
