@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "nloveuser",
+    "email": "nloveuser@gmail.com"
+  },
+  "records": {
+    "NS1": "gina.ns.cloudflare.com",
+    "NS2": "norm.ns.cloudflare.com"
+  }
+}
