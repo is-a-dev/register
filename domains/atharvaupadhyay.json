@@ -2,7 +2,7 @@
     "owner": {
         "username": "atharvaupadhyay",
         "email": "atharvaupadhyay001@gmail.com",
-	"discord": "atharvaupadhyay"
+        "discord": "atharvaupadhyay"
     },
     "records": {
         "A": [
@@ -11,11 +11,11 @@
         "MX": [
             {
                 "priority": 10,
-                "value": "mx1.improvmx.com."
+                "target": "mx1.improvmx.com"
             },
             {
                 "priority": 20,
-                "value": "mx2.improvmx.com."
+                "target": "mx2.improvmx.com"
             }
         ]
     }
