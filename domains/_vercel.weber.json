@@ -4,6 +4,9 @@
     "discord": "772329070904999976"
   },
   "records": {
+    "A": [
+      "216.198.79.1"
+    ],
     "TXT": [
       "vc-domain-verify=weber.is-a.dev,849698044467175fa0bd",
       "dh=b46a9161f0e6f5d6ba97021ef3eae43f8b0fce48"
