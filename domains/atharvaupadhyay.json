@@ -5,6 +5,10 @@
         "discord": "atharvaupadhyay"
     },
     "records": {
+        "TXT": [
+            "vc-domain-verify=atharvaupadhyay.is-a.dev,4747e89e0114208366c8",
+            "v=spf1 include:spf.improvmx.com ~all"
+        ],
         "A": [
             "216.198.79.1"
         ],
