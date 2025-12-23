@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "randomboi404",
+    "email": "admin@randomboi404.is-a.dev",
+    "discord": "randomboi404"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "inbound-smtp.ap-northeast-1.amazonaws.com",
+        "priority": 10
+      }
+    ]
+  }
+}
