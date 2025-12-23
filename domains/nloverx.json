@@ -4,6 +4,7 @@
     "email": "nloveuser@gmail.com"
   },
   "records": {
-    "CNAME": "nloveuser.xyz"
+    "ns1": "dns1.serv00.com",
+    "ns2": "dns2.serv00.com"
   }
 }
