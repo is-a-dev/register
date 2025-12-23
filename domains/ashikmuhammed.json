@@ -1,11 +1,10 @@
 {
-  "repo": "https://github.com/professorSergioMarquina/professorSergioMarquina.github.io",
+  "repo": "https://github.com/AshikCEH",
   "owner": {
-    "username": "professorSergioMarquina",
-    "email": "mrjinnoftg@gmail.com"
+    "username": "AshikCEH",
+    "email": "jinnsulthan@proton.me"
   },
-  "record": {
-    "CNAME": "professorsergiomarquina.github.io"
-  },
-  "proxied": true
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

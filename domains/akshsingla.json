@@ -3,9 +3,7 @@
     "username": "Aktindo",
     "email": "akshit.singla.dps@gmail.com"
   },
-  "description": "Personal website.",
-  "repo": "https://github.com/Aktindo/personal-website",
-  "record": {
+  "records": {
     "URL": "https://akshsingla.vercel.app"
   }
 }

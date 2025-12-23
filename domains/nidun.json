@@ -1,11 +1,9 @@
 {
-  "description": "new update to request new cname",
-  "repo": "https://github.com/nldun/nldun.github.io",
   "owner": {
     "username": "nldun",
     "email": "rezkyto@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "nldun.github.io"
   }
 }

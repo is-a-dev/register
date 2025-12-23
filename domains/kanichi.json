@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "ItsmeKanichi",
+    "email": "iamkanichi@gmail.com"
+  },
+  "records": {
+    "CNAME": "kanichidev-erjnz.ondigitalocean.app",
+    "TXT" : "google-site-verification=ErLu26VRJTNtic1dD6ez6tudp1mqW4qE5ISQul3JAhA"
+  },
+  "proxied": true
+}

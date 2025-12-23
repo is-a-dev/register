@@ -1,12 +1,10 @@
 {
-  "description": "Setting up a repository as a blog and portfolio, and would love to use this as a domain.",
-  "repo": "https://github.com/toxocious/toxocious.github.io",
   "owner": {
     "username": "toxocious",
     "email": "toxocious@gmail.com",
     "discord": "Jess#5596"
   },
-  "record": {
+  "records": {
     "CNAME": "toxocious.github.io"
   }
 }

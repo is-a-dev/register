@@ -1,12 +1,10 @@
 {
-  "description": "A Dumb Web Devloper Who Loves Django",
-  "repo": "https://github.com/foxy4096/foxy4096.github.io",
   "owner": {
     "username": "foxy4096",
     "email": "adityapriyadarshi669@gmail.com",
     "twitter": "Foxy4096"
   },
-  "record": {
+  "records": {
     "CNAME": "foxy4096.github.io"
   }
 }

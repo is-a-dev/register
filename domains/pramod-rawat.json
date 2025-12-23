@@ -1,11 +1,9 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/pramod-rawat/pramod-rawat.github.io",
   "owner": {
     "username": "pramod-rawat",
     "email": "pramod.rawat@truestaz.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pramod-rawat.github.io"
   }
 }
