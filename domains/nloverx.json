@@ -4,7 +4,9 @@
     "email": "nloveuser@gmail.com"
   },
   "records": {
-    "ns1": "dns1.serv00.com",
-    "ns2": "dns2.serv00.com"
+    "NS": [
+      "dns1.serv00.com",
+      "dns2.serv00.com"
+    ]
   }
 }
