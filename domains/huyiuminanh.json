@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "HuyHuynhQuocGD",
+    "email": "huyhuynhquoc@ovnc.top"
+  },
+  "records": {
+    "AAAA": [
+      "2a0e:97c0:3ea:3bb::12"
+    ],
+    "MX": [
+  { "target": "mx.smtp.dev", "priority": 10 }
+],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all", "brevo-code:3510e51953af1ca1e9ed13b26df27b32"]
+  },
+  "proxied": true
+}
