@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "itzcaesar"
-  },
-  "records": {
-    "CNAME": "caesar-dev.vercel.app"
-  }
+    "owner": {
+        "username": "itzcaesar",
+        "email": "muhammadcaesarrifqi@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
