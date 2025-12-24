@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "aminkheddache-dotcom",
+    "email": "aminkheddache@gmail.com"
+  },
+  "domain": "is-a.dev",
+  "subdomain": "mygs",
+  "records": {
+    "NS": [
+      "liv.ns.cloudflare.com",
+      "vicente.ns.cloudflare.com"
+    ]
+  }
+}
