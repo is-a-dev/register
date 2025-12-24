@@ -1,0 +1,9 @@
+{
+  "description": "personal domain",
+  "owner": {
+    "username": "forest-080"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+  }
+}
