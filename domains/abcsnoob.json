@@ -5,7 +5,7 @@
         "username": "abcsnoob",
         "email": "abcsspprt@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "abcsnoob.github.io",
         "MX": [
             "inbound-smtp.ap-northeast-1.amazonaws.com",
