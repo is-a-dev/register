@@ -1,5 +1,4 @@
 {
-    "domain": "is-a.dev",
     "subdomain": "abcsnoob",
     "owner": {
         "username": "abcsnoob",
@@ -12,19 +11,10 @@
             "feedback-smtp.ap-northeast-1.amazonses.com"
         ],
         "TXT": [
-            {
-                "name": "resend._domainkey",
-                "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCMckWUQnEVSpPoCeCBQQF5pRidvO+Qpkve/3zmpnKZCrm1e5W31RZXT6oP6992yySpWH0Cee7owulUJ5hc5NQ834tH04qYQGvIM4rJm89BbDSAskHlcR0Xj4exwzQaDtnmKhhdpvGUdaHZGVqeQVasAPpa9Yfyk3SXcmERylqgwIDAQAB"
-            },
-            {
-                "name": "send",
-                "value": "v=spf1 include:amazonses.com ~all"
-            },
-            {
-                "name": "_dmarc",
-                "value": "v=DMARC1; p=none;"
-            }
+            "resend._domainkey:p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCMckWUQnEVSpPoCeCBQQF5pRidvO+Qpkve/3zmpnKZCrm1e5W31RZXT6oP6992yySpWH0Cee7owulUJ5hc5NQ834tH04qYQGvIM4rJm89BbDSAskHlcR0Xj4exwzQaDtnmKhhdpvGUdaHZGVqeQVasAPpa9Yfyk3SXcmERylqgwIDAQAB",
+            "v=spf1 include:amazonses.com ~all",
+            "_dmarc:v=DMARC1; p=none;"
         ]
     },
-    "proxied": false
+    "proxied": true
 }
