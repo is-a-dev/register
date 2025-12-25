@@ -3,7 +3,10 @@
     "username": "YJ8188",
     "email": "34296407@qq.com"
   },
-  "record": {
-    "CNAME": "yj-nav.netlify.app"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "yj-nav.netlify.app"
+    }
+  ]
 }
