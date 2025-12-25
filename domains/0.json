@@ -1,9 +1,10 @@
 {
+  "description": "GearOtad Cipher Tool",
+  "repo": "https://github.com/tadano-ippanzin/gearOtad",
   "owner": {
-    "username": "S4IL21",
-    "email": "s4il.is.a.dev@gmail.com"
+    "username": "tadano-ippanzin"
   },
-  "records": {
-    "CNAME": "s4il21.github.io"
+  "record": {
+    "CNAME": "tadano-ippanzin.github.io"
   }
 }
