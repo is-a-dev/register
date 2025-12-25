@@ -3,6 +3,6 @@
     "username": "Anssenpai"
   },
   "record": {
-    "CNAME": "answilter.vercel.app"
+    "CNAME": ["answilter.vercel.app"]
   }
 }
