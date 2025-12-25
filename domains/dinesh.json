@@ -5,6 +5,11 @@
   },
   "records": {
     "CNAME": "dinesh-me.vercel.app",
-    "TXT@_vercel":"vc-domain-verify=dinesh.is-a.dev,ce62a55f3f64fb374a78"
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=dinesh.is-a.dev,ce62a55f3f64fb374a78"
+      }
+    ]
   }
 }
