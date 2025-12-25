@@ -4,7 +4,7 @@
     "email": "firatcelik@aol.com"
   },
   "description": "PrimaSweep - OS System Optimizer",
-  "record": {
+  "records": {
     "CNAME": "primasweep.vercel.app"
   }
 }
