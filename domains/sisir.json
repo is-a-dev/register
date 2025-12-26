@@ -1,0 +1,11 @@
+{
+  "description": "Birthday website hosted on Vercel",
+  "repo": "https://github.com/Sisirtmg07",
+  "owner": {
+    "username": "Sisirtmg07",
+    "email": "sisirtmg07@email.com"
+  },
+  "record": {
+    "CNAME": "birthday-sooty-beta.vercel.app"
+  }
+}
