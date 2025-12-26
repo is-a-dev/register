@@ -3,8 +3,11 @@
     "username": "jxcwp",
     "email": "248797471@qq.com"
   },
-  "ns": [
-    "lily.ns.cloudflare.com",
-    "robert.ns.cloudflare.com"
-  ]
+  "records": {
+    "ns": [
+      "lily.ns.cloudflare.com",
+      "robert.ns.cloudflare.com"
+    ]
+  }
+
 }
