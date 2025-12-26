@@ -1,0 +1,12 @@
+{
+  "description": "Personal website and portfolio of Ritesh Bucha",
+  "domain": "is-a.dev",
+  "subdomain": "bucharitesh",
+  "owner": {
+    "email": "bucharitesh@gmail.com"
+  },
+  "record": {
+    "CNAME": "bucharitesh.in"
+  },
+  "proxied": false
+}
