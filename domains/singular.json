@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "SingularProgrammer"
-    },
-    "records": {
-        "CNAME": "singular-prgrmmr.web.app"
-    }
+  "owner": {
+    "username": "SingularProgrammer",
+    "email": "SingularProgrammer@gmail.com"
+  },
+  "records": {
+    "CNAME": "singular-prgrmmr.web.app"
+  }
 }
