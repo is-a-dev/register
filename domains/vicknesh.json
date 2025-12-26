@@ -2,7 +2,10 @@
   "owner": {
     "username": "vicknesh22"
   },
-  "record": {
-    "CNAME": "https://vicknesh22.github.io/cv/"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "vicknesh22.github.io/cv/"
+    }
+  ]
 }
