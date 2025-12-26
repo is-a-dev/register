@@ -3,8 +3,16 @@
     "username": "sisirtmg07",
     "email": "sisirtmg07@gmail.com"
   },
-  "records": {
-    "A": ["216.198.79.1"],
-    "TXT": ["vc-domain-verify=sisir.is-a.dev,d8852937a081196a1598"]
-  }
+  "records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "216.198.79.1"
+    },
+    {
+      "type": "TXT",
+      "name": "_vercel",
+      "value": "vc-domain-verify=sisir.is-a.dev,d8852937a081196a1598"
+    }
+  ]
 }
