@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "Quantaphocpython",
-    "email": "quan30102004@gmail.com"
+    "email": "hoangquan.tran.work@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com",
     "TXT": "vc-domain-verify=kaitou.is-a.dev,0b19f25838eafde55211"
   }
