@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "satminpaing1",
+        "email": "big680415@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "ns1.cloudflare.com",
+            "ns2.cloudflare.com"
+        ]
+    }
+}
