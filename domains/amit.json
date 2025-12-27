@@ -3,26 +3,17 @@
     "username": "notamitgamer",
     "email": "amitdutta4255@gmail.com"
   },
-  "records": [
-    {
-      "type": "A",
-      "value": "104.18.4.103"
-    },
-    {
-      "type": "A",
-      "value": "104.18.5.103"
-    },
-    {
-      "type": "AAAA",
-      "value": "2606:4700::6812:467"
-    },
-    {
-      "type": "AAAA",
-      "value": "2606:4700::6812:567"
-    },
-    {
-      "type": "TXT",
-      "value": "hosting-site=aranag-main-page"
-    }
-  ]
+  "records": {
+    "A": [
+      "104.18.4.103",
+      "104.18.5.103"
+    ],
+    "AAAA": [
+      "2606:4700::6812:467",
+      "2606:4700::6812:567"
+    ],
+    "TXT": [
+      "hosting-site=aranag-main-page"
+    ]
+  }
 }
