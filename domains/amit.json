@@ -4,9 +4,13 @@
     "email": "amitdutta4255@gmail.com"
   },
   "records": {
-    "CNAME": "aranag-main-page.web.app",
-    "TXT": [
-      "_acme-challenge.amit.is-a.dev=xBVVk1_nxck-AbOHBrNGLdlIDHDkej_au2ahk-bYimE"
-    ]
+    "CNAME": "aranag-main-page.web.app"
+  },
+  "subdomains": {
+    "_acme-challenge": {
+      "records": {
+        "TXT": ["xBVVk1_nxck-AbOHBrNGLdlIDHDkej_au2ahk-bYimE"]
+      }
+    }
   }
 }
