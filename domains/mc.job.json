@@ -4,6 +4,13 @@
     "email": "gorgonfweman@outlook.com"
   },
   "records": {
-    "NS": ["galileo.aternos.org", "columbus.aternos.org"]
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 5,
+        "port": 61430,
+        "target": "mc.joblol.xyz"
+      }
+    ]
   }
 }
