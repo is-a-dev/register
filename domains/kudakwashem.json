@@ -3,10 +3,11 @@
         "username": "Kudakwashemaro",
         "email": "kudakwashemaro@gmail.com"
     },
+    "proxied": true,
     "records": {
+        "A": ["75.2.60.5"],
         "CNAME": {
-            "@": "cheery-faloodeh-20d7b6.netlify.app",
-            "www": "cheery-faloodeh-20d7b6.netlify.app"
+            "www": "kudakwashem.is-a.dev"
         }
     }
 }
