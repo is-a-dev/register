@@ -6,5 +6,5 @@
   "records": {
     "CNAME": "bmabdp.dkim.ipzsv.com"
   },
-  "proxied": true
+  "proxied": false
 }
