@@ -1,5 +1,7 @@
 {
   "owner": {
     "email": "wutepeng@gmail.com"
-  }
+  },
+  "description": "n8n automation workflows and webhook services for development use",
+  "repository": "https://github.com/Seongmin0213"
 }
