@@ -5,8 +5,6 @@
     },
     "records": {
         "A": ["75.2.60.5"],
-        "CNAME": {
-            "www": "kudakwashem.is-a.dev"
-        }
+        "A@www": ["75.2.60.5"]
     }
 }
