@@ -1,8 +1,9 @@
 {
   "description": "Lyrica Labs – creative AI & web experiments",
-  "repo": "https://github.com/lyricaizm",
+  "repo": "https://github.com/lyricaizm/lyricalabs",
   "owner": {
-    "username": "lyricaizm"
+    "username": "lyricaizm",
+    "email": "utkutuzcuu@gmail.com"
   },
   "record": {
     "CNAME": "cname.vercel-dns.com"
