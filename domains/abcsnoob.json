@@ -11,13 +11,21 @@
         ],
         "TXT": [
             "v=spf1 include:amazonses.com ~all"
-        ],
+        ]
+    },
+    "subdomains": {
         "_dmarc": {
-            "TXT": "v=DMARC1; p=none;"
+            "records": {
+                "TXT": "v=DMARC1; p=none;"
+            }
         },
         "resend": {
-            "_domainkey": {
-                "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCMckWUQnEVSpPoCeCBQQF5pRidvO+Qpkve/3zmpnKZCrm1e5W31RZXT6oP6992yySpWH0Cee7owulUJ5hc5NQ834tH04qYQGvIM4rJm89BbDSAskHlcR0Xj4exwzQaDtnmKhhdpvGUdaHZGVqeQVasAPpa9Yfyk3SXcmERylqgwIDAQAB"
+            "subdomains": {
+                "_domainkey": {
+                    "records": {
+                        "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCMckWUQnEVSpPoCeCBQQF5pRidvO+Qpkve/3zmpnKZCrm1e5W31RZXT6oP6992yySpWH0Cee7owulUJ5hc5NQ834tH04qYQGvIM4rJm89BbDSAskHlcR0Xj4exwzQaDtnmKhhdpvGUdaHZGVqeQVasAPpa9Yfyk3SXcmERylqgwIDAQAB"
+                    }
+                }
             }
         }
     },
