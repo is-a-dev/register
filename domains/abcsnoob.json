@@ -10,10 +10,16 @@
             "feedback-smtp.ap-northeast-1.amazonses.com"
         ],
         "TXT": [
-            "resend._domainkey:p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCMckWUQnEVSpPoCeCBQQF5pRidvO+Qpkve/3zmpnKZCrm1e5W31RZXT6oP6992yySpWH0Cee7owulUJ5hc5NQ834tH04qYQGvIM4rJm89BbDSAskHlcR0Xj4exwzQaDtnmKhhdpvGUdaHZGVqeQVasAPpa9Yfyk3SXcmERylqgwIDAQAB",
-            "v=spf1 include:amazonses.com ~all",
-            "_dmarc:v=DMARC1; p=none;"
-        ]
+            "v=spf1 include:amazonses.com ~all"
+        ],
+        "_dmarc": {
+            "TXT": "v=DMARC1; p=none;"
+        },
+        "resend": {
+            "_domainkey": {
+                "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCMckWUQnEVSpPoCeCBQQF5pRidvO+Qpkve/3zmpnKZCrm1e5W31RZXT6oP6992yySpWH0Cee7owulUJ5hc5NQ834tH04qYQGvIM4rJm89BbDSAskHlcR0Xj4exwzQaDtnmKhhdpvGUdaHZGVqeQVasAPpa9Yfyk3SXcmERylqgwIDAQAB"
+            }
+        }
     },
     "proxied": true
 }
