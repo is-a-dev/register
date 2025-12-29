@@ -5,7 +5,7 @@
   },
   "records": {
     "CNAME": "my-portfolio-d61.pages.dev",
-    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "TXT": "v=spf1 include:spf.ipzmarketing.com include:spf.improvmx.com ~all",
     
     "MX": [
       { "target": "mx1.improvmx.com", "priority": 10 },
