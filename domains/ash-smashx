@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "ash8221"
+    },
+    "records": {
+        "TXT": ["resend._domainkey.ash-smashx", "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8JW53lsIZPEw7+KI/RYrGMrfNQu5NecPmRq1941Dq6NW6KO62CKhsuBCDxCpz3GpqWUxbTmdZPZ6zrfjFHms/eHBxBWxhSgMfR0dtqGKy/hOOb8mlTbZ635cEMgTakQbATDCHBgI2qi3pHDa3r/6age8Wa15gKsWfgmIlzRmkSwIDAQAB"],
+        "MX": [
+          { "target": "feedback-smtp.ap-northeast-1.amazonses.com", "priority": 10 }
+        ]
+    }
+}
