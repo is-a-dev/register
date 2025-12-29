@@ -4,6 +4,7 @@
     "email": "drthesmos@vivaldi.net"
   },
   "records": {
-    "CNAME": "authnation.github.io"
+    "CNAME": "authnation.github.io",
+    "TXT": "31f8c40871868da037c24068d9cb6f"
   }
 }
