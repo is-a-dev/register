@@ -1,10 +1,11 @@
 {
-  "description":  "Smart Power Monitor - IoT Dashboard for Solar Energy Monitoring",
+  "description": "Smart Power Monitor - IoT Dashboard for Solar Energy Monitoring",
   "repo": "https://github.com/MehediEEE45/smart-power-monitor",
   "owner": {
     "username": "MehediEEE45",
     "email": "mehedieeesust@gmail.com"
   },
   "records": {
-    "CNAME": "mehedieee45.github.io"
+    "CNAME": "mehedieee45.github.io."
   }
+}
