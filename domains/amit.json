@@ -1,11 +1,19 @@
 {
-  "description": "Amit's website",
-  "repo": "https://github.com/amittkulkarni/amittkulkarni.github.io",
   "owner": {
-    "username": "amittkulkarni",
-    "email": "amitcoolkarni@outlook.com"
+    "username": "notamitgamer",
+    "email": "amitdutta4255@gmail.com"
   },
-  "record": {
-    "CNAME": "amittkulkarni.github.io"
+  "records": {
+    "A": [
+      "104.18.4.103",
+      "104.18.5.103"
+    ],
+    "AAAA": [
+      "2606:4700::6812:467",
+      "2606:4700::6812:567"
+    ],
+    "TXT": [
+      "hosting-site=aranag-main-page"
+    ]
   }
 }

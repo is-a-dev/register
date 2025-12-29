@@ -1,11 +1,9 @@
 {
-  "description": "Bhargav Gohil's personal developer website",
-  "repo": "https://github.com/bhargav252000/bhargav252000.github.io",
   "owner": {
     "username": "bhargav252000",
     "email": "bhargavgohil25@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "bhargav252000.github.io"
   }
 }

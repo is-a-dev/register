@@ -1,0 +1,10 @@
+{
+  "description": "William Wei's Blog",
+  "owner": {
+    "username": "WiIIiamWei",
+    "email": "me@williamwei.top"
+  },
+  "records": {
+    "CNAME": "willwell.netlify.app"
+  }
+}
