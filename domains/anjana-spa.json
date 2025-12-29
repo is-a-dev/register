@@ -8,7 +8,7 @@
     "MX": ["feedback-smtp.us-east-1.amazonses.com"],
     "TXT": [
       "v=spf1 include:amazonses.com ~all",
-      "resend._domainkey.anjana-spa4=v=DKIM1; k=rsa; p=YOUR_PUBLIC_KEY_HERE"
+      "resend._domainkey.anjana-spa4=v=DKIM1; k=rsa; p=re_39ghmxRG_Bth98i2jXo32Unz8EEMzA2nL"
     ]
   }
 }
