@@ -4,7 +4,6 @@
     "email": "alagarsamy.m@outlook.in"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": ["_vercel.alagarsamy.is-a.dev=vc-domain-verify=alagarsamy.is-a.dev,42c83e2eb2079747cff5"]
+    "A": ["216.198.79.1"]
   }
 }
