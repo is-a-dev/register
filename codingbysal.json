@@ -1,0 +1,12 @@
+{
+  "domain": "codingbysal",
+  "owner": {
+    "repo": "https://github.com/codingbysal/codingbysal.github.io",
+    "email": "salahnas2010@gmail.com"
+  },
+  "records": {
+    "TXT": {
+      "_github-pages-challenge-codingbysal": "0e9e283af46740dcd4785c83c33b9d"
+    }
+  }
+}
