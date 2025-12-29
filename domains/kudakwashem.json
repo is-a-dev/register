@@ -6,8 +6,8 @@
     "proxied": true,
     "records": {
         "A": ["75.2.60.5"],
-        "CNAME": {
-            "www": "kudakwashem.is-a.dev"
-        }
+        "TXT": [
+            "google-site-verification=By-MkWlJ5BmOWKjzed_YNeRUQs4_ipNCkU5RqkfwqbQ"
+        ]
     }
 }
