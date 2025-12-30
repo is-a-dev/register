@@ -10,7 +10,7 @@
     "TXT": [
       "v=spf1 include:amazonses.com ~all",
       "resend._domainkey.anjana-spa4=v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHGxHg794sWdzzc/vR2lqC4t2Y9jje+5zr0fgGXSvuTihsoyda0RBuKynZQTxWLKDeImJ7eIosAH4j/yAWP5gKDHCIsXpamiboAOQGsjRC+MnKNrhgsxJSK83NJaNCNvIaa3KFUcLBI/OmuvA32p4HnAuCB1mS2QIGuNjS6LDg+wIDAQAB",
-      "v=DMARC1; p=none;",
+      "v=DMARC1; p=none;"
     ]
   }
 }
