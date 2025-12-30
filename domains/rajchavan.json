@@ -4,6 +4,6 @@
     "email": "codewithsapnap@gmail.com"
   },
   "records": {
-    "CNAME": "raj-chavan-portfolio.vercel.app"
+     "A": ["216.198.79.1"]
   }
 }
