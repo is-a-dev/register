@@ -1,0 +1,11 @@
+{
+  "description": "My AWS project website",
+  "domain": "codeninja.is-a.dev",
+  "subdomain": "codeninja",
+  "owner": {
+    "email": "donaldlikke@gmail.com"
+  },
+  "record": {
+    "CNAME": "d28hxhgarxthct.cloudfront.net"
+  }
+}
