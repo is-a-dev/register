@@ -1,0 +1,10 @@
+{
+  "description": "Personal developer subdomain forAka",
+  "owner": {
+    "username": "yahyaaka",
+    "email": "yahyaaka.real@gmail.com"
+  },
+  "record": {
+    "CNAME": "full.fly.dev"
+  }
+}
