@@ -5,6 +5,6 @@
         "discord": "syslink.sh"
     },
     "records": {
-        "CNAME": "syslink.dev"
+        "A": ["76.76.21.21"]
     }
 }
