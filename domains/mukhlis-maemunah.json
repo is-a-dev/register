@@ -1,6 +1,8 @@
 {
   "description": "Personal wedding invitation - non profit",
-  "owner": "armanridho",
+  "owner": {
+    "username": "armanridho"
+  },
   "records": {
     "A": ["8.215.201.251"],
     "AAAA": []
