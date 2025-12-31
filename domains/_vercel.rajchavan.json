@@ -4,6 +4,6 @@
     "email": "codewithsapnap@gmail.com"
   },
   "records": {
-     "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=rajchavan.is-a.dev,e398a407b37e14802a58"
   }
 }
