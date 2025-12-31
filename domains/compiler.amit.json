@@ -4,6 +4,7 @@
     "email": "amitdutta4255@gmail.com"
   },
   "records": {
-    "CNAME": "compiler-aranag-site.web.app"
+    "CNAME": "compiler-aranag-site.web.app",
+    "TXT": "hosting-site=compiler-aranag-site"
   }
 }
