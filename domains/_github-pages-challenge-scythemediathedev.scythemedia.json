@@ -1,9 +1,12 @@
 {
+  "description": "Mini project for medical scanning",
+  "repo": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME",
   "owner": {
-    "username": "ScytheMediaTheDev",
-    "email": "tswartz22@aol.com"
+    "username": "YOUR_GITHUB_USERNAME",
+    "email": "your-email@gmail.com"
   },
-  "records": {
-    "TXT": "46b3d088175cbb38e9c4b3b81cdb4b"
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }
+
