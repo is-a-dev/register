@@ -3,6 +3,9 @@
     "username": "realsunil"
   },
   "records": {
-    "CNAME": "sunilkumar.pages.dev"
+    "CNAME": "sunilkumar.pages.dev",
+    "TXT": [
+      "dh=ba51a0a9c3779e8b7b5b954224a6faaade7d2abc"
+    ]
   }
 }
