@@ -5,6 +5,24 @@
     },
     "records": {
         "A": ["216.198.79.1"],
-        "TXT": ["zoho-verification=zb05361001.zmverify.zoho.eu"]
+        "TXT": [
+            "zoho-verification=zb05361001.zmverify.zoho.eu",
+            "v=spf1 include:zohomail.com ~all"
+        ],
+        "MX": [
+        {
+          "target": "mx.zoho.com",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.com",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.com",
+          "priority": 50
+        }
+      ]
+        
     }
 }
