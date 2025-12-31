@@ -1,0 +1,11 @@
+{
+  "description": "Yeehaw bro's awesome site powered by Cloudflare Workers",
+  "repo": "https://github.com/你的GitHub用户名/你的仓库名",
+  "owner": {
+    "username": " torubleQAQ-maker",
+    "email": " 1661905580@qq.com（随便填个，建议GitHub绑定的）"
+  },
+  "record": {
+    "CNAME": "geminikill.1661905580.workers.dev"
+  }
+}
