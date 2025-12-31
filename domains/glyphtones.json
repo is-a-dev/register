@@ -4,7 +4,6 @@
     "email": "firu-glyphtones@proton.me"
   },
   "records": {
-    "A": ["5.75.148.17"],
-    "AAAA": ["2a01:04f8:0c0c:947e:0000:0000:0000:0001"]
+    "CNAME": "glyphtones.firu.dev"
   }
 }

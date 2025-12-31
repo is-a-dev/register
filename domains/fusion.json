@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "fusionofficial",
+    "email": "atomfusiondev@gmail.com",
+    "discord": "mikropekka"
+  },
+  "records": {
+    "CNAME": "system-4dz.pages.dev",
+    "TXT": ["google-site-verification=gTwPak7dIPqmH6Ro6cUrM9q5ZY3OtIZegGseNNxTqxU"],
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "pki.goog" },
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
+    ]
+  },
+  "proxied": true
+}

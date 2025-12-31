@@ -1,9 +1,10 @@
 {
+  "description": "Reaver.Entertainment",
   "owner": {
     "username": "playreaver",
-    "discord": "802466803984760853"
+    "email": "reaver.entertainment@hotmail.com"
   },
   "records": {
-    "CNAME": "playreaver.github.io"
+    "URL": "https://reaver.is-a.dev/"
   }
 }

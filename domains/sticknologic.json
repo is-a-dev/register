@@ -7,14 +7,9 @@
     "bsky": "STICKnoLOGIC"
   },
   "records": {
-    "A": ["65.19.154.90"],
-    "AAAA": ["2001:470:1:1ee::1002"],
-    "MX": [
-      { "target": "sticknologic.is-a.dev", "priority": 0 }
-    ],
-    "TXT": [
-      "v=spf1 ip4:65.19.154.90 ip6:2001:470:1:1ee::1002 ~all"
+    "NS": [
+      "clayton.ns.cloudflare.com",
+      "emely.ns.cloudflare.com"
     ]
-  },
-  "proxied": true
+  }
 }
