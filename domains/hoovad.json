@@ -13,5 +13,6 @@
              "2606:50c0:8002::153",
              "2606:50c0:8003::153"],
     "TXT": "aspe:keyoxide.org:BHVNC6RJHE2RPV4P6OA6OHJMKM"
-  }
+  },
+  "proxied": true
 }
