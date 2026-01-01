@@ -3,5 +3,8 @@
     "username": "ashvin-to"
   },
   "description": "Personal portfolio website",
-  "vercel": "portfolioo"
+  "vercel": "portfolioo",
+  "records": {
+    "CNAME": "portfolioo-azure-chi.vercel.app"
+  }
 }
