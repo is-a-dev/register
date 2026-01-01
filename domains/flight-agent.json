@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "micoforreal",
+    "email": "mjjames006@gmail.com"
+  },
+  "records": {
+    "MX": ["inbound-smtp.us-east-1.amazonaws.com"],
+    "TXT": [
+      "resend._domainkey.flight-agent",
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2lfQalYaORiQnuw1+KeKfZJpa8bp9bZ5j0MO4VSKdu3HDcbm24dBcR0SXgYwBwpuhCIU2ttyljSMkbN/jYGhenhJOytn2VuHEY7Tait8Jq2hgVTGovko1/8pMYZqlGWxqw3rdlpTi0oO2rt/s2BqYZ/44O44j1QwesMWnA/a/XQIDAQAB"
+    ]
+  }
+}
