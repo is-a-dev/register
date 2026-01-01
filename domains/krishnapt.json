@@ -1,4 +1,8 @@
 {
   "description": "Personal portfolio website",
-  "repo": "https://github.com/krishh2530/krishna-portfolio"
+  "repo": "https://github.com/krishh2530/krishna-portfolio",
+  "owner": {
+    "username": "krishh2530",
+    "email": "ktams2530@gmail.com"
+  }
 }
