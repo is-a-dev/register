@@ -1,1 +1,12 @@
 
+{
+  "description": "Cybersecurity Researcher Portfolio",
+  "repo": "https://github.com/us3ph/us3ph.github.io",
+  "owner": {
+    "username": "us3ph",
+    "email": "us3ph@gmail.com"
+  },
+  "record": {
+    "CNAME": "us3ph.github.io"
+  }
+}
