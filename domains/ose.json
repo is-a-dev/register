@@ -1,0 +1,9 @@
+ose.json
+{
+  "owner": {
+    "username": "theemeraldwanderer"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
