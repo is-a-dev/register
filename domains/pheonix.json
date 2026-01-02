@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "Hardik-Verma"
-    },
-    "records": {
-        "CNAME": "v0-pheonix-portfolio.vercel.app"
-    }
+  "owner": {
+    "username": "Hardik-Verma",
+    "email": "hardikverma1902@gmail.com"
+  },
+  "records": {
+    "CNAME": "v0-pheonix-portfolio.vercel.app"
+  }
 }
