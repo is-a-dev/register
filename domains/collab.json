@@ -4,12 +4,11 @@
   "owner": {
     "email": "siddharda0863@gmail.com"
   },
-  "subdomains": {
-    "app": {
-      "cname": "project-web-frontend-chi.vercel.app"
-    },
-    "api": {
-      "cname": "project-web-h81w.onrender.com"
+  "records": {
+    "CNAME": {
+      "@": "project-web-frontend-chi.vercel.app",
+      "app": "project-web-frontend-chi.vercel.app",
+      "api": "project-web-h81w.onrender.com"
     }
   }
 }
