@@ -4,18 +4,7 @@
     "email": "siddharda0863@gmail.com",
     "username": "siddharda1751"
   },
-  "records": [
-    {
-      "name": "@",
-      "CNAME": "project-web-frontend-chi.vercel.app"
-    },
-    {
-      "name": "app",
-      "CNAME": "project-web-frontend-chi.vercel.app"
-    },
-    {
-      "name": "api",
-      "CNAME": "project-web-h81w.onrender.com"
-    }
-  ]
+  "records": {
+    "CNAME": "project-web-frontend-chi.vercel.app"
+  }
 }
