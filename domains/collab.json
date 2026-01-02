@@ -2,13 +2,24 @@
   "description": "Personal dev environment & testing domain",
   "domain": "collab.is-a.dev",
   "owner": {
-    "email": "siddharda0863@gmail.com"
+    "email": "siddharda0863@gmail.com",
+    "username": "siddharda1751"
   },
-  "records": {
-    "CNAME": {
-      "@": "project-web-frontend-chi.vercel.app",
-      "app": "project-web-frontend-chi.vercel.app",
-      "api": "project-web-h81w.onrender.com"
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "value": "project-web-frontend-chi.vercel.app"
+    },
+    {
+      "type": "CNAME",
+      "name": "app",
+      "value": "project-web-frontend-chi.vercel.app"
+    },
+    {
+      "type": "CNAME",
+      "name": "api",
+      "value": "project-web-h81w.onrender.com"
     }
-  }
+  ]
 }
