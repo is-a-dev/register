@@ -2,7 +2,7 @@
   "owner": {
     "username": "ShadowPlayzDev",
     "email": "shadowplayzdev@gmail.com",
-    "discord": ["shadowplayzdev", "ratonetrick"]
+    "discord": "shadowplayzdev",
   },
   "records": {
     "CNAME": "cname.vercel-dns.com",
