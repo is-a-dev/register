@@ -1,6 +1,6 @@
-
 {
-  "description": "Student developer portfolio and project demos",
+  "description": "Student portfolio for free .is-a.dev subdomain",
   "type": "CNAME",
-  "value": "sewing-mono-scanning-microwave.trycloudflare.com"
+  "value": "https://rishav-web-dev.github.io/portfolio/",
+  "owner": "rishav-web-dev (GitHub), rishavbelel@gmail.com"
 }
