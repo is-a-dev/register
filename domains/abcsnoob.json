@@ -1,0 +1,33 @@
+{
+    "owner": {
+        "username": "abcsnoob",
+        "email": "abcsspprt@gmail.com"
+    },
+    "records": {
+        "CNAME": "abcsnoob.github.io",
+        "MX": [
+            "inbound-smtp.ap-northeast-1.amazonaws.com",
+            "feedback-smtp.ap-northeast-1.amazonses.com"
+        ],
+        "TXT": [
+            "v=spf1 include:amazonses.com ~all"
+        ]
+    },
+    "subdomains": {
+        "_dmarc": {
+            "records": {
+                "TXT": "v=DMARC1; p=none;"
+            }
+        },
+        "resend": {
+            "subdomains": {
+                "_domainkey": {
+                    "records": {
+                        "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCMckWUQnEVSpPoCeCBQQF5pRidvO+Qpkve/3zmpnKZCrm1e5W31RZXT6oP6992yySpWH0Cee7owulUJ5hc5NQ834tH04qYQGvIM4rJm89BbDSAskHlcR0Xj4exwzQaDtnmKhhdpvGUdaHZGVqeQVasAPpa9Yfyk3SXcmERylqgwIDAQAB"
+                    }
+                }
+            }
+        }
+    },
+    "proxied": true
+}
