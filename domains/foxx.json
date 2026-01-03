@@ -1,0 +1,11 @@
+{
+    "owner": {
+      "username": "MateusFoxx",
+      "email": "mateus@foxx.is-a.dev"
+    },
+    "proxied": false,
+    "records": {
+      "NS": ["adele.ns.cloudflare.com", "dave.ns.cloudflare.com"]
+    }
+  }
+  
