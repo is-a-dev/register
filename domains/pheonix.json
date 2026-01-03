@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "username": "Hardik-Verma",
-    "email": "hardikverma1902@gmail.com"
-  },
-  "records": {
-    "CNAME": "v0-pheonix-portfolio.vercel.app"
-  }
+    "owner": {
+        "username": "Hardik-Verma",
+        "email": "hardikverma1902@gmail.com"
+    },
+    "records": {
+        "NS": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+        ]
+    }
 }
