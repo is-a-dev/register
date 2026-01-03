@@ -4,9 +4,8 @@
         "email": "hardikverma1902@gmail.com"
     },
     "records": {
-        "NS": [
-            "ns1.vercel-dns.com",
-            "ns2.vercel-dns.com"
+        "A": [
+            "216.198.79.1"
         ]
     }
 }
