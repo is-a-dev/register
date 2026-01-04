@@ -1,0 +1,11 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "school-sabha",
+  "owner": {
+    "email": "suaaldukali@gmail.com"
+  },
+  "record": {
+    "CNAME": "sualdukali.github.io"
+  },
+  "proxied": true
+}
