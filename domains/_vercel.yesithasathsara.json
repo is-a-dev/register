@@ -4,6 +4,6 @@
         "email": "yesithasathsaraa@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=yesithasathsara.is-a.dev,8266e0738ec1ae4d6363"
+        "TXT": ["vc-domain-verify=yesithasathsara.is-a.dev,8266e0738ec1ae4d6363"]
     }
 }
