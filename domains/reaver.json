@@ -4,6 +4,9 @@
     "discord": "802466803984760853"
   },
   "records": {
-    "A": ["75.2.60.5"]
+    "A": ["75.2.60.5"],
+    "TXT": [
+      "google-site-verification=sjoDBzJzFH9aNRuLwYm6hXT654PDRkr-BJ_ACebM2qQ"
+    ]
   }
 }
