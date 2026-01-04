@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "yetikang",
+    "email": "yetikang01@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=cmos-checker.is-a.dev,f1cc7fda669878bfe99f"
+  }
+}
