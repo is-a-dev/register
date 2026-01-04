@@ -1,0 +1,11 @@
+{
+  "description": "ZEL OS Project Website",
+  "repo": "https://github.com/rfmss/rfmss.github.io",
+  "owner": {
+    "username": "rfmss",
+    "email": "rfmss@disr.it"
+  },
+  "records": {
+    "CNAME": "rfmss.github.io"
+  }
+}
