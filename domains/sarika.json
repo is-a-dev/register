@@ -4,9 +4,6 @@
     "email": "sarikasharma9711@gmail.com"
   },
   "records": {
-    "CNAME": "sarika-portfolio-ten.vercel.app",
-    "TXT": [
-      "vc-domain-verify=sarika.is-a.dev,ecdbf0c5e65d2b0a50d"
-    ]
+    "A": ["216.198.79.1"]
   }
 }
