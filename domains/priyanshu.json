@@ -5,24 +5,26 @@
     "twitter": "priyansxu_gupta"
   },
   "records": {
-      "A": ["216.198.79.1"],
-      "TXT": [
-        "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/m/Dkg2WZtC7DFyXSmdlYeCpRIvI58OfHZv8m7EQfto0Dd/0MQ879FxVIzxvvqDANQE7fYG4NJIouhLqVqkaHJ7r1rm50qNEj62RM848gAVCS/w1JsQNJcGDEy1JBqm90gGnrbqPXtAbYSlsllDGeoaJeJzf/jMFqL2UV71eurQIDAQAB",
-        "v=spf1 include:zohomail.com ~all"
-      ],
-      "MX": [
-        {
-          "target": "mx.zoho.com",
-          "priority": 10
-        },
-        {
-          "target": "mx2.zoho.com",
-          "priority": 20
-        },
-        {
-          "target": "mx3.zoho.com",
-          "priority": 50
-        }
-      ]
-    }
+    "A": [
+      "216.198.79.1"
+    ],
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/m/Dkg2WZtC7DFyXSmdlYeCpRIvI58OfHZv8m7EQfto0Dd/0MQ879FxVIzxvvqDANQE7fYG4NJIouhLqVqkaHJ7r1rm50qNEj62RM848gAVCS/w1JsQNJcGDEy1JBqm90gGnrbqPXtAbYSlsllDGeoaJeJzf/jMFqL2UV71eurQIDAQAB",
+      "v=spf1 include:zohomail.com ~all"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 50
+      }
+    ]
+  }
 }
