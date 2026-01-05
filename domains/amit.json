@@ -15,7 +15,8 @@
         "target": "mx2.improvmx.com"
       }
     ],
-    "TXT": "v=spf1 include: spf.improvmx.com ~all"
+    "TXT": "v=spf1 include: spf.improvmx.com ~all",
+    "TXT": "zoho-verification=zb83376091.zmverify.zoho.in"
   },
   "proxied": true
 }
