@@ -5,6 +5,7 @@
     "twitter": "priyansxu_gupta"
   },
   "records": {
-    "CNAME": "priyanshu.pages.dev"
+    "A": ["216.198.79.1"],
+    "TXT": ["zoho-verification=zb93709277.zmverify.zoho.in"]
   }
 }

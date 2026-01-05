@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "HuyHuynhQuocGD",
+    "email": "huyhuynhquoc@ovnc.top"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+  },
+  "proxied": false
+}

@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "vinay-ghate",
+    "email": "vsg0131@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/vinay-ghate"
+  },
+  "records": {
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
+  }
+}
