@@ -1,10 +1,9 @@
 {
-  "description": "Personal domain redirect for Rayian Mahi",
   "owner": {
     "username": "xrayian",
     "email": "rbsmahi@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rayianmahi.web.app"
   }
 }
