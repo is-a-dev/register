@@ -4,6 +4,9 @@
     "email": "10xdev4u@gmail.com"
   },
   "records": {
-    "CNAME": "blogsoftheaidev.pages.dev"
+    "NS": [
+      "bob.ns.cloudflare.com",
+      "lila.ns.cloudflare.com"
+    ]
   }
 }
