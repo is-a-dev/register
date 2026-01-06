@@ -1,0 +1,10 @@
+{
+  "description": "Bin's AList Server",
+  "repo": "https://github.com/bintrees/homlly",
+  "owner": {
+    "username": "bintrees"
+  },
+  "record": {
+    "CNAME": "bintrees2008.duckdns.org"
+  }
+}
