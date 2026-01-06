@@ -1,0 +1,9 @@
+{
+  "description": "Cloudflare Worker proxy for InfinityFree site",
+  "owner": {
+    "username": "Prince-dev0012"
+  },
+  "record": {
+    "CNAME": "quicklink-proxy.d25amtics0012.workers.dev/"
+  }
+}
