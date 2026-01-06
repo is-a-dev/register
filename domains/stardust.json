@@ -1,12 +1,9 @@
 {
-  "records": [
-    {
-      "type": "A",
-      "value": "192.168.1.1"
+    "owner": {
+        "username": "yzstardust",
+        "email": "[yangzhou@yeah.net]"
     },
-    {
-      "type": "AAAA",
-      "value": "2001:db8::1"
+    "records": {
+        "CNAME": "web.yzstardust.workers.dev"
     }
-  ]
 }
