@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "prafulusa",
-        "email": "prafulusa69@gmail.com"
-    },
-    "record": {
-        "CNAME": "prafulusa.github.io"
-    }
+  "owner": {
+    "username": "prafulusa",
+    "email": "prafulusa69@gmail.com"
+  },
+  "records": {
+    "CNAME": "prafulusa.github.io"
+  }
 }
