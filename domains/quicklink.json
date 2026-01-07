@@ -4,10 +4,12 @@
     "username": "Prince-dev0012",
     "email": "d25amtics0012@gmail.com"
   },
-  "record": {
-    "type": "CNAME",
-    "name": "@",
-    "target": "quicklink-proxy.d25amtics0012.workers.dev",
-    "proxied": false
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "target": "quicklink-proxy.d25amtics0012.workers.dev",
+      "proxied": false
+    }
+  ]
 }
