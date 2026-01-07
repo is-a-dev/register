@@ -2,7 +2,8 @@
   "description": "Personal developer labs and experiments",
   "repo": "https://github.com/fabricioartur",
   "owner": {
-    "username": "fabricioartur"
+    "username": "fabricioartur",
+    "email": "fabricio@fabricioartur.com"
   },
   "record": {
     "CNAME": "fabricioartur.com"
