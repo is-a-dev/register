@@ -4,6 +4,6 @@
     "email": "thanfees@gmail.com"
   },
   "records": {
-    "CNAME": "thanfees.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
