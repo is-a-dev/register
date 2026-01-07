@@ -1,12 +1,9 @@
 {
-  "description": "King's Portfolio",
-  "repo": "https://github.com/developerking-s/site.github.io",
-  "owner": {
-    "username": "King",
-    "email": "renafernandesjorge11@gmail.com@gmail",
-    "discord": "developer_king"
-  },
-  "record": {
-    "A": ["developer-king"]
-  }
+    "owner": {
+        "username": "developerking-s",
+        "email": "renafernandesjorge@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
