@@ -4,6 +4,6 @@
     "email": "web.unsalahmet@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=4hmet.is-a.dev,c313bc7151ebff9a1f1f"]
+    "TXT": "vc-domain-verify=4hmet.is-a.dev,c313bc7151ebff9a1f1f"
   }
 }
