@@ -1,9 +1,13 @@
 {
-  "description": "Cloudflare Worker proxy for InfinityFree site",
+  "description": "Cloudflare Worker reverse proxy for a personal software development website hosted on InfinityFree.",
   "owner": {
-    "username": "Prince-dev0012"
+    "username": "Prince-dev0012",
+    "email": "d25amtics0012@gmail.com"
   },
   "record": {
-    "CNAME": "quicklink-proxy.d25amtics0012.workers.dev/"
+    "type": "CNAME",
+    "name": "@",
+    "target": "quicklink-proxy.d25amtics0012.workers.dev",
+    "proxied": false
   }
 }
