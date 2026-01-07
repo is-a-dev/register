@@ -1,0 +1,10 @@
+{
+  "description": "Cloudflare Worker reverse proxy for a personal software development website hosted on InfinityFree.",
+  "owner": {
+    "username": "Prince-dev0012",
+    "email": "d25amtics0012@gmail.com"
+  },
+  "records": {
+    "URL": "https://quicklink-proxy.d25amtics0012.workers.dev"
+  }
+}
