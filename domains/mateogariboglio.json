@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Mateo-404",
-        "discord": "gary_______"
-    },
-    "record": {
-        "CNAME": "portfolio-mateo-404s-projects.vercel.app"
-    }
+  "owner": {
+    "username": "Mateo-404",
+    "discord": "gary_______"
+  },
+  "records": {
+    "CNAME": "portfolio-mateo-404s-projects.vercel.app"
+  }
 }

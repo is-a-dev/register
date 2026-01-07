@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "akash-kumar-dev",
-        "email": "akashkumar.dev00@gmail.com"
-    },
-    "record": {
-        "CNAME": "akashkumar-dev.vercel.app"
-    }
+  "owner": {
+    "username": "akash-kumar-dev",
+    "email": "akashkumar.dev00@gmail.com"
+  },
+  "records": {
+    "CNAME": "akashkumar-dev.vercel.app"
+  }
 }

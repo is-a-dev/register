@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio website",
-  "repo": "https://github.com/thiago-marsili/thiago-marsili.github.io",
   "owner": {
     "username": "Thiago-Marsili",
     "email": "thihoma@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "thiago-marsili.github.io"
   }
 }

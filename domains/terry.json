@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "realyoterry",
-        "email": "theterrykim@gmail.com"
-    },
-    "record": {
-        "CNAME": "realyoterry.vercel.app"
-    }
+  "owner": {
+    "username": "realyoterry",
+    "email": "theterrykim@gmail.com"
+  },
+  "records": {
+    "CNAME": "realyoterry.vercel.app"
+  }
 }

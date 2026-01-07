@@ -1,11 +1,9 @@
 {
-    "description": "Portfolio by Breaker TWS",
-    "repo": "https://github.com/BreakerTWS/breakertws.github.io",
-    "owner": {
-        "username": "BreakerTWS",
-        "email": "breakingtws@gmail.com"
-    },
-    "record": {
-        "CNAME": "breakertws.github.io"
-    }
+  "owner": {
+    "username": "BreakerTWS",
+    "email": "breakingtws@gmail.com"
+  },
+  "records": {
+    "CNAME": "breakertws.github.io"
+  }
 }

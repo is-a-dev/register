@@ -1,10 +1,8 @@
 {
-  "description": "my Profile.",
-  "repo": "https://github.com/jagdish-mer/jagdish-mer.github.io",
   "owner": {
     "username": "jagdish-mer"
   },
-  "record": {
+  "records": {
     "CNAME": "jagdish-mer.github.io"
   }
 }

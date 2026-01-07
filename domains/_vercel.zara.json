@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tutupharirabu",
-        "email": "code.zharaurien@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=zara.is-a.dev,54fd6194f447f7c5295b"
-    }
+  "owner": {
+    "username": "tutupharirabu",
+    "email": "code.zharaurien@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=zara.is-a.dev,54fd6194f447f7c5295b"
+  }
 }

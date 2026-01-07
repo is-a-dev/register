@@ -1,11 +1,10 @@
 {
   "description": "My personal Website",
-  "repo": "https://github.com/andreasgrafen/andreasgrafen",
   "owner": {
     "username": "andreasgrafen",
     "email": "software@grafen.info"
   },
-  "record": {
+  "records": {
     "URL": "https://unseen.ninja"
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Saifkhanz",
-        "email": "saif137.khan@gmail.com"
-    },
-    "record": {
-        "CNAME": "saif-two.vercel.app"
-    }
+  "owner": {
+    "username": "Saifkhanz",
+    "email": "saif137.khan@gmail.com"
+  },
+  "records": {
+    "CNAME": "saif-two.vercel.app"
+  }
 }

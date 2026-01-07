@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "Monosen",
-        "email": "edisonbj21@gmail.com",
-        "discord": "monosen"
-    },
-    "record": {
-        "CNAME": "minimalist-portfolio-zeta.vercel.app"
-    }
+  "owner": {
+    "username": "Monosen",
+    "email": "edisonbj21@gmail.com",
+    "discord": "monosen"
+  },
+  "records": {
+    "CNAME": "minimalist-portfolio-zeta.vercel.app"
+  }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Aypro's personal website",
-  "repo": "https://github.com/aypro-droid/aypro-droid.github.io",
   "owner": {
     "username": "aypro-droid",
     "email": "ayprogaming1@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "aypro-droid.github.io"
   }
 }

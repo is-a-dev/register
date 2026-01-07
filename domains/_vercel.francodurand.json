@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "FrancoDurand"
+    "username": "FrancoDurand",
+    "email": "francoduve.25@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": "vc-domain-verify=francodurand.is-a.dev,ad7840fa5cb01e5d90c1"
   }
 }

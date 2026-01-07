@@ -3,7 +3,8 @@
     "username": "Utkarsh-Singhal-26",
     "email": "singhalutkarsh26@gmail.com"
   },
-  "record": {
-    "CNAME": "utkarsh-singhal.vercel.app"
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": "google-site-verification=oj2YfeDwy1ZWhgRNV7Yrp1G8ikXh_6yWA2GT5G4ELgs"
   }
 }

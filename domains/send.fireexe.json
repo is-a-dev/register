@@ -1,0 +1,12 @@
+{
+  "description": "A portofolio website about me :D",
+  "repo": "https://github.com/fireemerald1/fire-exe-website.github.io",
+  "owner": {
+    "username": "fireemerald1",
+    "email": "imguyexeboii@gmail.com"
+  },
+  "records": {
+    "MX": ["feedback-smtp.eu-west-1.amazonses.com"],
+    "TXT": "v=spf1 include:amazonses.com ~all"
+  }
+}

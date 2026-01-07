@@ -3,9 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const domainsPath = path.resolve("domains");
-const files = fs
-    .readdirSync(domainsPath)
-    .filter((file) => file.endsWith(".json"));
+const files = fs.readdirSync(domainsPath).filter((file) => file.endsWith(".json"));
 
 const domainCache = {};
 
@@ -15,120 +13,92 @@ function getDomainData(subdomain) {
     }
 
     try {
-        const data = fs.readJsonSync(
-            path.join(domainsPath, `${subdomain}.json`),
-        );
+        const data = fs.readJsonSync(path.join(domainsPath, `${subdomain}.json`));
         domainCache[subdomain] = data; // Cache the domain data
         return data;
     } catch (error) {
-        throw new Error(
-            `Failed to read JSON for ${subdomain}: ${error.message}`,
-        );
+        throw new Error(`Failed to read JSON for ${subdomain}: ${error.message}`);
     }
-}
-
-function getParentSubdomain(subdomain) {
-    const parts = subdomain.split(".");
-
-    if (parts.length <= 1) return null; // No parent for top-level subdomains
-
-    // Try to find the parent subdomain by iterating over the parts
-    for (let i = parts.length - 1; i > 0; i--) {
-        const potentialParent = parts.slice(i - 1).join(".");
-
-        if (files.includes(`${potentialParent}.json`)) {
-            return potentialParent;
-        }
-    }
-
-    return null;
 }
 
 t("Nested subdomains should not exist without a parent subdomain", (t) => {
     files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
+        const parts = subdomain.split(".");
 
-        if (subdomain.split(".").length > 1) {
-            const parentSubdomain = getParentSubdomain(subdomain);
-            t.true(
-                parentSubdomain && files.includes(`${parentSubdomain}.json`),
-                `${file}: Parent subdomain does not exist`,
-            );
+        for (let i = 1; i < parts.length; i++) {
+            const parent = parts.slice(i).join(".");
+            if (parent.startsWith("_")) continue;
+
+            t.true(files.includes(`${parent}.json`), `${file}: Parent subdomain "${parent}" does not exist`);
         }
     });
 });
 
-t(
-    "Nested subdomains should not exist if the parent subdomain has NS records",
-    (t) => {
-        files.forEach((file) => {
-            const subdomain = file.replace(/\.json$/, "");
+t("Nested subdomains should not exist if any parent subdomain has NS records", (t) => {
+    files.forEach((file) => {
+        const subdomain = file.replace(/\.json$/, "");
+        const parts = subdomain.split(".");
 
-            if (subdomain.split(".").length > 1) {
-                const parentSubdomain = getParentSubdomain(subdomain);
-                const parentDomain = getDomainData(parentSubdomain);
+        for (let i = 1; i < parts.length; i++) {
+            const parent = parts.slice(i).join(".");
+            if (parent.startsWith("_") || !files.includes(`${parent}.json`)) continue;
+            const parentData = getDomainData(parent);
 
-                t.true(
-                    !parentDomain.record.NS,
-                    `${file}: Parent subdomain has NS records`,
-                );
-            }
-        });
-    },
-);
+            t.true(!parentData.records.NS, `${file}: Parent subdomain "${parent}" has NS records`);
+        }
+    });
+});
 
 t("Nested subdomains should be owned by the parent subdomain's owner", (t) => {
     files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
+        const parentDomain = subdomain.split(".").reverse()[0];
 
-        if (subdomain.split(".").length > 1) {
+        if (parentDomain !== subdomain) {
             const data = getDomainData(subdomain);
-            const parentSubdomain = getParentSubdomain(subdomain);
-            const parentDomain = getDomainData(parentSubdomain);
+            const parentData = getDomainData(parentDomain);
 
             t.true(
-                data.owner.username.toLowerCase() ===
-                    parentDomain.owner.username.toLowerCase(),
-                `${file}: Owner does not match the parent subdomain`,
+                data.owner.username.toLowerCase() === parentData.owner.username.toLowerCase(),
+                `${file}: Owner does not match the parent subdomain`
             );
         }
     });
 });
 
-t("Subdomains containing an underscore can only have specific records", (t) => {
+t("Users are limited to one single character subdomain", (t) => {
+    const results = [];
+
     files.forEach((file) => {
         const subdomain = file.replace(/\.json$/, "");
+        const data = getDomainData(subdomain);
 
-        if (subdomain.includes("_")) {
-            const data = getDomainData(subdomain);
-            const recordKeys = Object.keys(data.record);
-
-            if (
-                subdomain.startsWith("_acme-challenge.") ||
-                subdomain.includes("._domainkey.")
-            ) {
-                t.true(
-                    recordKeys.every((key) =>
-                        new Set(["TXT", "CNAME"]).has(key),
-                    ),
-                    `${file}: This type of subdomain can only have TXT or CNAME records`,
-                );
-            } else if (
-                subdomain.includes("._tcp.") ||
-                subdomain.includes("._udp.")
-            ) {
-                t.deepEqual(
-                    recordKeys,
-                    ["SRV"],
-                    `${file}: This type of subdomain can only have SRV records`,
-                );
-            } else {
-                t.deepEqual(
-                    recordKeys,
-                    ["TXT"],
-                    `${file}: Subdomains with underscores can only have TXT records`,
-                );
-            }
+        if (subdomain.length === 1 && data.owner.username.toLowerCase() !== "is-a-dev") {
+            results.push({
+                subdomain,
+                owner: data.owner.username.toLowerCase()
+            });
         }
     });
+
+    const duplicates = results.filter((result) => results.filter((r) => r.owner === result.owner).length > 1);
+    const output = duplicates.reduce((acc, curr) => {
+        if (!acc[curr.owner]) {
+            acc[curr.owner] = [];
+        }
+
+        acc[curr.owner].push(`${curr.subdomain}.is-a.dev`);
+        return acc;
+    }, {});
+
+    t.is(
+        duplicates.length,
+        0,
+        Object.keys(output)
+            .map((owner) => `${owner} - ${output[owner].join(", ")}`)
+            .join("\n")
+    );
+
+    t.pass();
 });

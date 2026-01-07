@@ -3,7 +3,7 @@
     "username": "bandabahariputra",
     "discord": "banda"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=banda.is-a.dev,e684b7e614c3912ba446"]
+  "records": {
+    "TXT": "vc-domain-verify=banda.is-a.dev,e684b7e614c3912ba446"
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Dev-Rajeshkumar",
-        "email": "rajesh8778354686@gmail.com"
-    },
-    "record": {
-        "TXT": ["vc-domain-verify=voidvault.is-a.dev,fdc2aadb068bd286d372"]
-    }
+  "owner": {
+    "username": "Dev-Rajeshkumar",
+    "email": "rajesh8778354586@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=voidvault.is-a.dev,fdc2aadb068bd286d372"
+  }
 }

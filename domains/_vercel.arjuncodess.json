@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "arjuncodess",
-    "email": "arjunv.prakash12345@gmail.com"
+    "username": "ArjunCodess"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=arjuncodess.is-a.dev,772c34dd22de18adabaa"]
+  "records": {
+    "TXT": "vc-domain-verify=arjuncodess.is-a.dev,772c34dd22de18adabaa"
   }
 }

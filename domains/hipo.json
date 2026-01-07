@@ -1,11 +1,9 @@
 {
-  "description": "badowhp blog page",
-  "repo": "https://github.com/badowhp/badowhp.github.io",
   "owner": {
     "username": "badowhp",
     "email": "badowhp@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "badowhp.github.io"
   }
 }

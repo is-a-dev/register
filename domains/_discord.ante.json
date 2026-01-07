@@ -3,7 +3,7 @@
     "username": "antebrl",
     "email": "ahcwnh@gmail.com"
   },
-  "record": {
-    "TXT": ["dh=6d109bce7d0aeacdc4a573c959d85a778d239527"]
+  "records": {
+    "TXT": "dh=6d109bce7d0aeacdc4a573c959d85a778d239527"
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "wildchamo",
-        "email": "wildchamo@gmail.com"
-    },
-    "record": {
-        "TXT": "5b9a158bcd9821a7a78b5b362bccf0"
-    }
+  "owner": {
+    "username": "wildchamo",
+    "email": "wildchamo@gmail.com"
+  },
+  "records": {
+    "TXT": "5b9a158bcd9821a7a78b5b362bccf0"
+  }
 }

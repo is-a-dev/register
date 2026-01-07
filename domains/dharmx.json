@@ -1,12 +1,10 @@
 {
-  "description": "Porfolio and Blog",
-  "repo": "https://github.com/dharmx/dharmx.github.io",
   "owner": {
     "username": "dharmx",
     "email": "dharmx.dev@gmail.com",
     "discord": "dharmx#2556"
   },
-  "record": {
+  "records": {
     "CNAME": "dharmx.github.io"
   }
 }

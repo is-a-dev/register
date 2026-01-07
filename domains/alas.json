@@ -1,13 +1,11 @@
 {
-  "description": "better domain for a portfolio website and email",
-  "repo": "https://github.com/alastrantia/alastrantia.github.io",
   "owner": {
     "username": "Alastrantia",
     "email": "niklasnoneedtoknow@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://alastrantia.github.io",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

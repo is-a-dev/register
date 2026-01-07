@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "yohanesrioirsan",
-        "email": "rioirsan8@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=yohanesrioirsan.is-a.dev,2c8b157439c95db80770"
-    }
+  "owner": {
+    "username": "yohanesrioirsan",
+    "email": "rioirsan8@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=yohanesrioirsan.is-a.dev,2c8b157439c95db80770"
+  }
 }

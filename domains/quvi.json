@@ -1,11 +1,9 @@
 {
-  "description": "Domain for my bio",
-  "repo": "https://github.com/quvvii/quvvii.github.io",
   "owner": {
     "username": "quvvii",
     "email": "quvi.top@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "quvvii.github.io"
   }
 }

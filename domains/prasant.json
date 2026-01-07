@@ -1,11 +1,9 @@
 {
-    "description": "My Portfolio Website",
-    "repo": "https://github.com/prashant48653c/portfolio",
-    "owner": {
-        "username": "prashant48653c",
-        "email": "acharyaprashant227@gmail.com"
-    },
-    "record": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "prashant48653c",
+    "email": "acharyaprashant227@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

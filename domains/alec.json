@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "asidsdamad1"
-    },
-    "record": {
-        "CNAME": "asidsdamad1.github.io"
-    }
+  "owner": {
+    "username": "asidsdamad1"
+  },
+  "records": {
+    "CNAME": "asidsdamad1.github.io"
+  }
 }

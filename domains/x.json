@@ -1,9 +1,12 @@
 {
   "owner": {
-    "username": "jvideo-sk",
-    "discord": "1030204181207859260"
+    "username": "GameRoMan",
+    "email": "dev@rman.dev"
   },
-  "record": {
-    "CNAME": "jvideo.github.io"
+  "records": {
+    "URL": "https://rman.dev/"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }
