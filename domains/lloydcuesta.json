@@ -6,14 +6,6 @@
   "records": {
     "A": ["34.202.229.110"],
     "CAA": [{ "flags": 0, "tag": "issue", "value": "letsencrypt.org" }],
-    "DS": [
-      {
-        "key_tag": 2371,
-        "algorithm": 13,
-        "digest_type": 2,
-        "digest": "..."
-      }
-    ],
     "TLSA": [
       {
         "usage": 1,
