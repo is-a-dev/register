@@ -1,11 +1,9 @@
 {
-  "description": "Factory for manufacturing is-a-dev domains.",
-  "repo": "https://github.com/orangci/factory.is-a.dev",
   "owner": {
     "username": "orangci",
     "email": "c@orangc.net"
   },
-  "record": {
+  "records": {
     "CNAME": "is-a-factory.vercel.app"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "For my portfolio site",
-  "repo": "https://github.com/Marten-Mrfc/Marten-Mrfc",
   "owner": {
     "username": "Marten-Mrfc",
     "email": "martensog@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "marten-mrfc.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio of Jal, Full Stack Dev",
-  "repo": "https://github.com/Jal-GG/Jal-Patel",
   "owner": {
     "username": "Jal-GG",
     "email": "jalvrund2017@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "jal-patel.vercel.app"
   }
 }

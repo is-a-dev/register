@@ -1,12 +1,10 @@
 {
-  "description": "Discord Domain Verify",
-  "repo": "https://github.com/thenoppy12/thenoppy12.github.io",
   "owner": {
     "username": "BussyBakks",
     "email": "lengochuykiengiang@gmail.com",
     "discord": ".thenoppy12"
   },
-  "record": {
+  "records": {
     "TXT": "dh=a865dfb9b8ef277f5edfaad346ddbbcfcba85b71"
   }
 }

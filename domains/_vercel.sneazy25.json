@@ -3,7 +3,7 @@
     "username": "sneazy25",
     "email": "sneazy25@proton.me"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=sneazy25.is-a.dev,2f9caf76ec1be24030a6"]
+  "records": {
+    "TXT": "vc-domain-verify=sneazy25.is-a.dev,2f9caf76ec1be24030a6"
   }
 }

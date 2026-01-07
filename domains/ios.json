@@ -1,13 +1,11 @@
 {
-    "owner": {
-      "username": "ahios",
-      "email": "ahios.dev@gmail.com"
-    },
-    "record": {
-      "A": ["76.76.21.21"],
-      "TXT": "google-site-verification=AyQrjerFwekkOGG9oZLdBFy4TOAeVAYrHTTm5Q-NZD4",
-      "MX": [
-        "SMTP.GOOGLE.COM"
-      ]
-    }
+  "owner": {
+    "username": "ahios",
+    "email": "ahios.dev@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "TXT": "google-site-verification=AyQrjerFwekkOGG9oZLdBFy4TOAeVAYrHTTm5Q-NZD4",
+    "MX": ["SMTP.GOOGLE.COM"]
   }
+}

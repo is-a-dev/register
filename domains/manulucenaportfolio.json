@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "manulucena12",
-      "email": "mlucenasalas@gmail.com"
-    },
-    "record": {
-      "CNAME": "manuportolio.netlify.app"
-    }
+  "owner": {
+    "username": "manulucena12",
+    "email": "mlucenasalas@gmail.com"
+  },
+  "records": {
+    "CNAME": "manuportolio.netlify.app"
   }
-  
+}

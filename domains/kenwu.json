@@ -1,12 +1,10 @@
 {
-  "description": "This is Ken Wu's personal portfolio website.",
-  "repo": "https://github.com/kenwuqianghao/kenwuqianghao.github.io",
   "owner": {
     "username": "KenWuqianghao",
     "email": "wooqianghao@gmail.com",
     "twitter": "KenWuqianghao"
   },
-  "record": {
+  "records": {
     "CNAME": "kenwuqianghao.github.io"
   }
 }

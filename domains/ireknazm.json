@@ -1,11 +1,9 @@
 {
-  "description": "The domain will be used for a new version of my portfolio site, later in a future :)",
-  "repo": "https://github.com/Nagellan/Portfolio-v2",
   "owner": {
     "username": "Nagellan",
     "email": "ireknazmievirek@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "nagellan.github.io"
   }
 }

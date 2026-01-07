@@ -1,11 +1,9 @@
 {
-  "description": "Personal Website for bnfone's Homelab (sadly with dynamic IPv4, which is why I need Cloudflare Nameservers).",
-  "repo": "https://github.com/6nf0n3/is-a-dev_register",
   "owner": {
     "username": "bnfone",
     "email": "is-a-dev-registration.zbden@simplelogin.com"
   },
-  "record": {
+  "records": {
     "NS": ["desiree.ns.cloudflare.com", "mcgrory.ns.cloudflare.com"]
   }
 }

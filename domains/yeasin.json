@@ -4,8 +4,8 @@
     "username": "yeasiin",
     "email": "iamyeasiin@gmail.com"
   },
-  "record": {
-    "CNAME": "yeasiin.github.io"
+  "records": {
+    "CNAME": "yeasin.netlify.app"
   },
   "proxied": true
 }

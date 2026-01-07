@@ -3,7 +3,7 @@
     "username": "getSono",
     "email": "sono.arbeit@gmail.com"
   },
-  "record": {
+  "records": {
     "NS": ["jasmine.ns.cloudflare.com", "trace.ns.cloudflare.com"]
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio website",
-  "repo": "https://github.com/alpha-og/portfolio",
   "owner": {
     "username": "alpha-og",
     "email": "athulanoop2020@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "alpha-og.github.io"
   }
 }

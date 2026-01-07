@@ -1,0 +1,30 @@
+{
+"description": "i want to link my subdomain into zoho mail for email service, Please note that my subdomain(shahid.is-a.dev) is not for 'shahidadev.github.io' it is for 'shahidadev.github.io/shahid' .",
+  "owner": {
+   "username": "shahidadev",
+   "email": "mdgffkiller8@gmail.com" 
+  },
+  "records": {
+    "CNAME": "shahidadev.github.io" ,
+    "TXT": [
+      "zoho-verification=zb84657564.zmverify.zoho.in ",
+      "v=spf1 include:zohomail.in ~all",
+      "google-site-verification=GojOGlPiNYOizhYx7DUMYXbzke20kI_GEdDwtcSDKto"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ]
+  },
+"proxied": true
+}

@@ -1,11 +1,10 @@
 {
-  "description": "This subdomain points to my portfolio website. https://blog-jimmy-hoangs-projects.vercel.app/ is the link for a preview of the website",
   "owner": {
     "username": "hmphu",
     "email": "me@hmphu.com",
     "discord": "830872854677422150"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=hmp.is-a.dev,f49576d3e029b34c2305"]
+  "records": {
+    "TXT": "vc-domain-verify=hmp.is-a.dev,f49576d3e029b34c2305"
   }
 }

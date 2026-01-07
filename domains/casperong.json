@@ -1,9 +1,14 @@
 {
   "owner": {
-    "username": "CasperOng",
-    "email": "casper10528@gmail.com"
+    "username": "casperong",
+    "email": "casper10528@gmail.com",
+    "discord": "@casper.ong.ny",
+    "instagram": "@casper.ong.ny"
   },
-  "record": {
+  "records": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"],
     "CNAME": "casperong.github.io"
-  }
+  },
+  "proxied": true
 }

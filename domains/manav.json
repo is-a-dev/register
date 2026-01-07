@@ -1,11 +1,9 @@
 {
-  "description": "Devloper Portfolio",
-  "repo": "https://github.com/Manav011/Manav011.github.io",
   "owner": {
     "username": "Manav011",
     "email": "manavbafna87+github@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "manav011.github.io"
   }
 }

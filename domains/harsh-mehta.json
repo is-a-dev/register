@@ -1,11 +1,9 @@
 {
-  "description": "harsh-mehta.is-a.dev",
-  "repo": "https://harsh05dev.github.io/My_Portfolio_2023",
   "owner": {
     "username": "Harsh05dev",
     "email": "harshmehta1505@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "harsh05dev.github.io"
   }
 }

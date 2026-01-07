@@ -1,11 +1,9 @@
 {
-  "description": "is-a.dev subdomain for my portfolio",
-  "repo": "https://github.com/vs206/vs206.github.io",
   "owner": {
     "username": "vs206",
     "email": "singhvikal891@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "vs206.github.io"
   }
 }

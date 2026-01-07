@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio",
-  "repo": "https://github.com/ProCoderAkhil/ProCoderAkhil.github.io",
   "owner": {
     "username": "ProCoderAkhil",
     "email": "AkhilRamachandran@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "procoderakhil.github.io"
   }
 }

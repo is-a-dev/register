@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio Website",
-  "repo": "https://github.com/pibiswal/pibiswal.github.io",
   "owner": {
     "username": "pibiswal",
     "email": "urpiyush39@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pibiswal.github.io",
     "TXT": "google-site-verification=kDWGAChQixBO8bGxGGNoA9kXH24lQyfomrT3zyC5jiM"
   },

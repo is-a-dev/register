@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "Delta-0mega"
+    "username": "Delta-0mega",
+    "email": "seikoo.dev@gmail.com",
+    "discord": "1293641904860172389"
   },
-  "record": {
-    "TXT": ["dh=af891775cf595304f98791bd551966a1c2411fe4"]
+  "records": {
+    "TXT": "dh=af891775cf595304f98791bd551966a1c2411fe4"
   }
 }

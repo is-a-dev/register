@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mspratama",
-        "email": "mikospratama@gmail.com"
-    },
-    "record": {
-        "CNAME": "mikosp.pages.dev"
-    }
+  "owner": {
+    "username": "mspratama",
+    "email": "mikospratama@gmail.com"
+  },
+  "records": {
+    "CNAME": "mikosp.pages.dev"
+  }
 }

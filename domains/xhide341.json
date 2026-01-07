@@ -1,12 +1,10 @@
 {
-  "description": "Hey, I'm hide and I'm a developer",
-  "repo": "https://github.com/xhide341/portfolio",
   "owner": {
     "username": "xhide341",
     "email": "shawnehgn10@gmail.com",
     "discord": "364749406878171136"
   },
-  "record": {
+  "records": {
     "CNAME": "xhide341.netlify.app"
   }
 }

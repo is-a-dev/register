@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "cfg-codes",
-        "email": "carlosfgomezarr@gmail.com"
-    },
-    "record": {
-        "CNAME": "cfg-codes.github.io"
-    }
+  "owner": {
+    "username": "cfg-codes",
+    "email": "carlosfgomezarr@gmail.com"
+  },
+  "records": {
+    "CNAME": "cfg-codes.github.io"
+  }
 }

@@ -1,12 +1,10 @@
 {
-  "description": "My personal website goes here",
-  "repo": "https://github.com/bimal-inc/bimal-inc.github.io",
   "owner": {
     "username": "bimal-inc",
     "email": "bimalyadavemail7@gmail.com",
     "twitter": "bimalinc"
   },
-  "record": {
+  "records": {
     "CNAME": "bimal-inc.github.io"
   }
 }

@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "MrDiamondDog",
-    "email": "drewratner27@gmail.com"
+    "username": "MrDiamondDog"
   },
-  "record": {
+  "records": {
     "A": ["129.146.51.207"]
   },
   "proxied": false

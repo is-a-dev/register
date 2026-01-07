@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio",
-  "repo": "https://github.com/UnidentifiedX/unidentifiedx.github.io",
   "owner": {
     "username": "UnidentifiedX",
     "email": "sunzizhuo33@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "unidentifiedx.github.io"
   }
 }
