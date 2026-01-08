@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "competitive7coder",
-        "email": "ghorui.protyushraj@gmail.com"
-    },
-    "records": {
-        "CNAME": "protyush.pages.dev"
-    }
+  "owner": {
+    "username": "competitive7coder",
+    "email": "ghorui.protyushraj@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=protyush.is-a.dev,b48a5866e26704b96ecc"
+  }
 }
