@@ -10,9 +10,9 @@
       "v=spf1 include:zoho.in ~all"
     ],
     "MX": [
-      { "priority": 10, "host": "mx.zoho.in." },
-      { "priority": 20, "host": "mx2.zoho.in." },
-      { "priority": 50, "host": "mx3.zoho.in." }
+      { "priority": 10, "host": "mx.zoho.in" },
+      { "priority": 20, "host": "mx2.zoho.in" },
+      { "priority": 50, "host": "mx3.zoho.in" }
     ]
   },
   "proxied": true
