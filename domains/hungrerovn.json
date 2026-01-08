@@ -4,6 +4,13 @@
         "email": "hungrero.vn@gmail.com"
     },
     "records": {
-        "A": ["75.2.60.5"]
+        "A": ["75.2.60.5"],
+        "MX": [
+            "mx1.forwardemail.net.",
+            "mx2.forwardemail.net."
+        ],
+        "TXT": [
+            "forward-email=QWpZTzdzZ2tScjJYazJicW5VLTVjX2lGRXo2SnhmeWFJcFRkcVloeDFtOF9OTUFlVmw2aTAzXzh2WXlScHFTRU9LNA=="
+        ]
     }
 }
