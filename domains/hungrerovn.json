@@ -6,11 +6,11 @@
     "records": {
         "A": ["75.2.60.5"],
         "MX": [
-            "mx1.forwardemail.net.",
-            "mx2.forwardemail.net."
+            "mx1.improvmx.com.",
+            "mx2.improvmx.com."
         ],
         "TXT": [
-            "forward-email=QWpZTzdzZ2tScjJYazJicW5VLTVjX2lGRXo2SnhmeWFJcFRkcVloeDFtOF9OTUFlVmw2aTAzXzh2WXlScHFTRU9LNA=="
+            "v=spf1 include:spf.improvmx.com ~all"
         ]
     }
 }
