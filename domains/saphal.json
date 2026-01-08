@@ -3,7 +3,9 @@
         "username": "Saphal-1",
         "email": "gamersaphal8@gmail.com"
     },
-    "record": {
+    "description": "My personal website for software development projects.",
+    "repo": "https://github.com/Saphal-1/First-site",
+    "records": {
         "CNAME": "saphal-1.github.io"
     }
 }
