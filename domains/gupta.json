@@ -4,7 +4,7 @@
     "email": "priyansxu@yahoo.com"
   },
   "records": {
-    "CNAME": "edge.redirect.pizza.",
+    "CNAME": "edge.redirect.pizza",
     "TXT": "zoho-verification=zb36712588.zmverify.zoho.in"
   },
   "proxied": true
