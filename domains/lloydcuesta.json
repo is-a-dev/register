@@ -5,15 +5,7 @@
   },
   "records": {
     "A": ["34.202.229.110"],
-    "CAA": [{ "flags": 0, "tag": "issue", "value": "letsencrypt.org" }],
-    "TLSA": [
-      {
-        "usage": 1,
-        "selector": 1,
-        "matching_type": 1,
-        "certificate": "..."
-      }
-    ]
+    "CAA": [{ "flags": 0, "tag": "issue", "value": "letsencrypt.org" }]
   },
   "proxied": true
 }
