@@ -4,6 +4,7 @@
     "email": "kundanbadhe3@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=kundan.is-a.dev,eeefe85793d4e056a385"
   }
 }
