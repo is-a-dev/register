@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "8n9ght",
+    "email": "8n9ght@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
