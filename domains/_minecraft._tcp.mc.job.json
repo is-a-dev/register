@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "FWEEaaaa1",
+    "email": "gorgonfweman@outlook.com"
+  },
+  "records": {
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 5,
+        "port": 61430,
+        "target": "mc.joblol.xyz"
+      }
+    ]
+  }
+}

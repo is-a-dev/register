@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "linusified",
+    "twitter": "linusified",
+    "discord": "linusified"
+  },
+  "records": {
+    "NS": ["damiete.ns.cloudflare.com", "paris.ns.cloudflare.com"]
+  }
+}
