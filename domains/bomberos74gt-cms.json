@@ -1,5 +1,8 @@
 {
   "description": "CMS for internal operations management of a Volunteer Firefighters Company in Guatemala",
+    "owner": {
+    "email": "apablom4@miumg.edu.gt"
+  },
   "records": {
     "A": ["20.75.52.108"]
   }
