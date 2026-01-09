@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "Priyanshu",
+    "username": "Priyansxu",
     "email": "priyansxu@yahoo.com"
   },
   "records": {
-    "TXT": "v=DMARC1; p=none; rua=mailto:priyanshu@gupta.is-a.dev;"
+    "TXT": "v=DMARC1; p=none; rua=mailto:priyanshu@gupta.is-a.dev"
   }
 }
