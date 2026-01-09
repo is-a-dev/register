@@ -4,6 +4,6 @@
     "email": "surya0prakash@proton.me"
   },
   "records": {
-    "CNAME": "suryaaprakassh.github.io"
+    "A": ["216.24.57.1"]
   }
 }

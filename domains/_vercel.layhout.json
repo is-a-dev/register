@@ -4,6 +4,6 @@
     "email": "layhoutworkmail@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=layhout.is-a.dev,be218a450dbf76cb68f1"]
+    "TXT": "vc-domain-verify=layhout.is-a.dev,be218a450dbf76cb68f1"
   }
 }

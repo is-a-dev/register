@@ -4,6 +4,6 @@
     "email": "prathmtayade30@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=prathm.is-a.dev,e592414faa9bcf8fe0a4"]
+    "TXT": "vc-domain-verify=prathm.is-a.dev,e592414faa9bcf8fe0a4"
   }
 }

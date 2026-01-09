@@ -27,12 +27,7 @@ const optionalRedirectConfigFields = {
     redirect_paths: "boolean"
 };
 
-const blockedFields = [
-    "domain",
-    "internal",
-    "reserved",
-    "subdomain"
-];
+const blockedFields = ["domain", "internal", "proxy", "reserved", "services", "subdomain"];
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
@@ -117,10 +112,7 @@ async function validateFileName(t, file) {
         !internalDomains.some((i) => subdomain.endsWith(`.${i}`)),
         `${file}: Subdomain name is registered internally`
     );
-    t.true(
-        !reservedDomains.some((r) => subdomain.endsWith(`.${r}`)),
-        `${file}: Subdomain name is reserved`
-    );
+    t.true(!reservedDomains.some((r) => subdomain.endsWith(`.${r}`)), `${file}: Subdomain name is reserved`);
 
     const rootSubdomain = subdomain.split(".").pop();
     t.false(rootSubdomain.startsWith("_"), `${file}: Root subdomains should not start with an underscore`);

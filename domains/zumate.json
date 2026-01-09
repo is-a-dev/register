@@ -4,10 +4,7 @@
     "discord": "823939421686071386"
   },
   "records": {
-    "TXT": [
-      "zoho-verification=zb15561523.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
-    ],
+    "TXT": ["zoho-verification=zb15561523.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
     "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
   }
 }

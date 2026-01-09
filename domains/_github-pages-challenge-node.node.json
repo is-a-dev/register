@@ -1,0 +1,10 @@
+{
+  "description": "Github verification",
+  "owner": {
+    "username": "node",
+    "email": "nodexy@gmail.com"
+  },
+  "records": {
+    "TXT": "c233c6762e3f8fa6bcbbc400733020"
+  }
+}
