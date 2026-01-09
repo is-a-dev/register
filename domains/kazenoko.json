@@ -1,0 +1,11 @@
+{
+  "description": "Personal developer portfolio",
+  "repo": "https://github.com/kazenoko-git/Website",
+  "owner": {
+    "username": "kazenoko",
+    "email": "kazenoko.main@gmail.com"
+  },
+  "record": {
+    "CNAME": "kazenoko.pages.dev"
+  }
+}
