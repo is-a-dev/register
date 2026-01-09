@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "YOUR-GITHUB-USERNAME"
+    },
+    "record": {
+        "CNAME": "your-app.onrender.com"
+    }
+}
+
