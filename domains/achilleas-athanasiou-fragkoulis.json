@@ -4,6 +4,7 @@
         "email": "achilleasatha@gmail.com"
     },
     "records": {
-        "URL": "https://github.com/achilleasatha"
-    }
+        "CNAME": "achilleasatha.github.io"
+    },
+    "proxied": true
 }
