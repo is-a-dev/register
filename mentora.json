@@ -1,0 +1,11 @@
+{
+  "description": "Mentora – teacher & student testing platform",
+"repo": "https://github.com/shoxan2050/mentora"
+  "owner": {
+    "username": "shoxan2050",
+    "email": "boburjonbaratov97@gmail.com"
+  },
+  "record": {
+    "CNAME": "webstie.netlify.app"
+  }
+}
