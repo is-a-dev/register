@@ -1,5 +1,5 @@
 {
-  "owner":  {
+  "owner": {
     "username": "notamitgamer",
     "email": "amitdutta4255@gmail.com"
   },
@@ -11,14 +11,11 @@
         "target": "mx1.improvmx.com"
       },
       {
-        "priority":   20,
+        "priority": 20,
         "target": "mx2.improvmx.com"
       }
     ],
-    "TXT": [
-      "v=spf1 include: spf.improvmx.com ~all",
-      "zoho-verification=zb83376091. zmverify.zoho.in"
-    ]
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   },
-  "proxied":  true
+  "proxied": true
 }
