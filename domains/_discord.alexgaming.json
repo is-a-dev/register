@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "alexgamingstudio",
+        "email": "DEINE_EMAIL@BEISPIEL.DE"
+    },
+    "description": "Discord Domain Verification",
+    "records": {
+        "TXT": ["dh=cb4a48593db803575ed8144ef91864197415f917"]
+    }
+}
