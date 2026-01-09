@@ -3,27 +3,7 @@
     "username": "8n9ght",
     "email": "8n9ght@gmail.com"
   },
-  "proxied": true,
   "records": {
-    "CNAME": "8n9ght.github.io",
-    "TXT": {
-      "resend._domainkey": [
-        "p=MIIGfMA0GCSqGSIb3DQE..."
-      ],
-      "send": [
-        "v=spf1 include:amazonses.com ~all"
-      ],
-      "_dmarc": [
-        "v=DMARC1; p=none;"
-      ]
-    },
-    "MX": {
-      "send": [
-        {
-          "priority": 10,
-          "value": "feedback-smtp.eu-west-1.amazonses.com"
-        }
-      ]
-    }
+    "CNAME": "8n9ght.github.io"
   }
 }
