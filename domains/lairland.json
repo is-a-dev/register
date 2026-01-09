@@ -3,9 +3,24 @@
     "username": "ajhalili2006",
     "discord": "437044173825114113",
     "fediverse": "@ajhalili2006@tilde.zone",
-    "bsky": "did:plc:wcx4c3osbuzrwmxkqdfqygwv"
+    "bsky": "did:plc:wcx4c3osbuzrwmxkqdfqygwv",
+    "email": "ajhalili2006@vivaldi.net"
   },
   "records": {
-    "CNAME": "zensical-preview-ajhalili2006.pages.dev"
+    "A": [
+      "216.150.1.1",
+      "216.150.16.1",
+      "76.76.21.21"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.uberspace.de ~all",
+      "uberspace-mail-vd2eXCqswS"
+    ],
+    "MX": [
+      {
+        "priority": 10,
+        "target": "in-mx.uberspace.de"
+      }
+    ]
   }
 }

@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "ajhalili2006",
+        "discord": "437044173825114113",
+        "fediverse": "@ajhalili2006@tilde.zone",
+        "bsky": "did:plc:wcx4c3osbuzrwmxkqdfqygwv",
+        "email": "ajhalili2006@vivaldi.net"
+    },
+    "records": {
+        "CNAME": "dkim2.uberspace.de"
+    }
+}
