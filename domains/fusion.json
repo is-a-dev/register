@@ -24,7 +24,7 @@
         "target": "mx3.zoho.com",
         "priority": 50
       }
-    ]
+    ],
     "CAA": [
       { "flags": 0, "tag": "issue", "value": "pki.goog" },
       { "flags": 0, "tag": "issue", "value": "letsencrypt.org" }
