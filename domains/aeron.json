@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "aeron-cap",
+        "email": "aeroncaponpon.01@gmail.com"
+    },
+    "records": {
+        "CNAME": "aeron-portfolio.netlify.app"
+    },
+    "redirect_config": {
+      "custom_paths": {
+        "/github": "https://github.com/aeron-cap"
+      },
+      "redirect_paths": true
+    }
+}
