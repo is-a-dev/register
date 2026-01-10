@@ -6,7 +6,7 @@
     "discord": "CodingFactoryL"
   },
   "records": {
-    "A": ["192.168.2.202"]
+    "A": ["127.0.0.1"]
   },
   "proxied": false
 }
