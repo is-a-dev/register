@@ -4,9 +4,6 @@
         "email": "g1rwqu7mq@mozmail.com"
     },
     "records": {
-        "NS": [
-            "lana.ns.cloudflare.com",
-            "mitch.ns.cloudflare.com"
-        ]
+        "CNAME": "tbdwarf.alwaysdata.net"
     }
 }
