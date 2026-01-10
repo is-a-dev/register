@@ -4,12 +4,6 @@
         "email": "aeroncaponpon.01@gmail.com"
     },
     "records": {
-        "CNAME": "aeron-portfolio.netlify.app"
+        "A": ["75.2.60.5"]
     },
-    "redirect_config": {
-      "custom_paths": {
-        "/github": "https://github.com/aeron-cap"
-      },
-      "redirect_paths": true
-    }
 }
