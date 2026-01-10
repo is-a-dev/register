@@ -3,8 +3,10 @@
         "username": "alexgamingstudio",
         "email": "team.alexgaming@icloud.com"
     },
-    "description": "Alex Gaming Ecosystem - Web via CNAME, Mail via Root",
+    "description": "Portfolio and Email Forwarding for Alex Gaming",
+    "proxied": true,
     "records": {
+        "CNAME": "alexgaming-dev.github.io",
         "MX": [
             "mx1.improvmx.com",
             "mx2.improvmx.com"
@@ -12,13 +14,5 @@
         "TXT": [
             "v=spf1 include:spf.improvmx.com ~all"
         ]
-    },
-    "nested": [
-        {
-            "name": "www",
-            "records": {
-                "CNAME": "alexgamingstudio.github.io"
-            }
-        }
-    ]
+    }
 }
