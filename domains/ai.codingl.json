@@ -1,0 +1,12 @@
+{
+  "subdomain": "ai",
+  "owner": {
+    "username": "codingfactoryl12",
+    "email": "codingfactoryl12@gmail.com",
+    "discord": "CodingFactoryL"
+  },
+  "record": {
+    "A": ["192.168.2.202"]
+  },
+  "proxied": false
+}
