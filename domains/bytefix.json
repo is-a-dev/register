@@ -1,0 +1,22 @@
+{
+  "owner": {
+    "username": "FranxizJavi",
+    "email": "fjch02@gmail.com"
+  },
+  "record": {
+    "CNAME": "franxizjavi.github.io"
+  }
+}
+```
+
+**IMPORTANTE:** Copia TODO desde la primera llave `{` hasta la última llave `}`.
+
+---
+
+### **PASO 3: Commit el archivo**
+
+1. Baja hasta el final de la página (scroll down)
+2. Verás una sección que dice **"Commit new file"**
+3. En el primer campo puedes escribir:
+```
+   Add bytefix.is-a.dev
