@@ -1,0 +1,13 @@
+{
+  "description": "Bin's AList Server",
+  "domain": "is-a.dev",
+  "subdomain": "homlly",
+  "owner": {
+    "username": "bintrees",
+    "repo": "https://github.com/bintrees/homlly",
+    "email": "goaljun@126.com"
+  },
+  "records": {
+    "CNAME": "bintrees2008.duckdns.org"
+  }
+}
