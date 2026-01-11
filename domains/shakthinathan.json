@@ -2,10 +2,7 @@
   "owner": {
     "username": "The-Chosen-One-O5"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "portfolio-ekq.pages.dev"
-    }
-  ]
+  "records": {
+    "CNAME": "portfolio-ekq.pages.dev"
+  }
 }
