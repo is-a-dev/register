@@ -13,5 +13,6 @@
       "mx1.forwardemail.net",
       "mx2.forwardemail.net"
     ]
-  }
+  },
+  "proxied": true
 }
