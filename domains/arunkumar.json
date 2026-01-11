@@ -1,0 +1,10 @@
+{
+  "description": "Personal Website",
+  "owner": {
+    "username": "arunkumar461",
+    "email": "arun.mails@protonmail.com"
+  },
+  "records": {
+    "CNAME": "arunkumar-pro.web.app"
+  }
+}
