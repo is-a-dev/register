@@ -15,31 +15,5 @@
             "v=spf1 include:spf.improvmx.com include:spf.brevo.com ~all",
             "brevo-code:48785c909fd9b5599c12767fc992db3e"
         ]
-    },
-    "subdomains": {
-        "mail._domainkey": {
-            "proxied": false,
-            "records": {
-                "CNAME": "b1.alexgaming-is-a-dev.dkim.brevo.com"
-            }
-        },
-        "brevo._domainkey": {
-            "proxied": false,
-            "records": {
-                "CNAME": "b2.alexgaming-is-a-dev.dkim.brevo.com"
-            }
-        },
-        "_dmarc": {
-            "proxied": false,
-            "records": {
-                "TXT": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
-            }
-        },
-        "default._bimi": {
-            "proxied": false,
-            "records": {
-                "TXT": "v=BIMI1; l=https://alexgaming.is-a.dev/content/svg/logo/icon.svg; a=;"
-            }
-        }
     }
 }
