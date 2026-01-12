@@ -4,8 +4,7 @@
     "email": "zeynepmehmetaliy@gmail.com"
   },
   "description": "Web Programmer",
-  "records": {
-    "CNAME": "x1en.netlify.app",
+  "record": {
     "TXT": "8b856478-aa59-4654-9986-9c00d7d8ce09"
   }
 }
