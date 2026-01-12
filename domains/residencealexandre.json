@@ -1,0 +1,10 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "domain": "residencealexandre.is-a.dev",
+  "owner": {
+    "email": "kfill420g@gmail.com"
+  },
+  "records": {
+    "CNAME": "https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudflareaccess.org%2F4HfkRT3W5s2uFuApaEZjLdIqXmSaETHERMmwmSzYYjw%3D"
+  }
+}
