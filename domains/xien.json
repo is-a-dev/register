@@ -5,6 +5,7 @@
   },
   "description": "Web Programmer",
   "records": {
-    "CNAME": "x1en.netlify.app"
+    "CNAME": "x1en.netlify.app",
+    "TXT": "8b856478-aa59-4654-9986-9c00d7d8ce09"
   }
 }
