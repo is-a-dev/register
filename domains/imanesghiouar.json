@@ -5,11 +5,6 @@
     },
     "records": {
         "A": ["76.76.21.21"],
-        "TXT": [
-            {
-                "name": "_vercel",
-                "value": "vc-domain-verify=imanesghiouar.is-a.dev,d41cf5d16a6b1dcbbf23"
-            }
-        ]
+        "TXT": ["vc-domain-verify=imanesghiouar.is-a.dev,d41cf5d16a6b1dcbbf23"]
     }
 }
