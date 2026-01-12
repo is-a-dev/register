@@ -5,6 +5,7 @@
     },
     "records": {
         "CNAME": "tutosrive.github.io"
-    }
+    },
+     "proxied": true
 }
 
