@@ -1,4 +1,8 @@
 {
+    "owner": {
+        "type": "organization",
+        "name": "alexgamingdev-maintainers"
+    },
     "proxied": false,
     "records": {
         "TXT": "v=BIMI1; l=https://alexgaming.is-a.dev/content/svg/logo/icon.svg; a=;"
