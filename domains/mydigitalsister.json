@@ -1,20 +1,21 @@
 {
-  "description": "My Digital Sister email domain",
+  "description": "My Digital Sister – safety alert emails",
+  "repo": "https://github.com/yuvalharel/register",
   "owner": {
     "username": "yuvalharel"
   },
   "record": {
-    "TXT": [
-      {
-        "name": "send",
-        "value": "v=spf1 include:amazonses.com ~all"
-      }
-    ],
     "MX": [
       {
-        "name": "send",
+        "name": "@",
         "value": "feedback-smtp.eu-west-1.amazonses.com.",
         "priority": 10
+      }
+    ],
+    "TXT": [
+      {
+        "name": "@",
+        "value": "v=spf1 include:amazonses.com ~all"
       }
     ]
   }
