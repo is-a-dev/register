@@ -2,5 +2,8 @@
   "owner": {
     "username": "sivothajan",
     "email": "is-a.dev@sivothajan.me"
+  },
+  "records": {
+    "CNAME": "sivothajan.github.io"
   }
 }
