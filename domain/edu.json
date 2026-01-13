@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "shoxan2050"
+  },
+  "target": {
+    "type": "netlify",
+    "value": "skillway.netlify.app"
+  }
+}
