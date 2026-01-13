@@ -1,11 +1,9 @@
 {
-  "description": "Ashique's Portfolio",
-  "repo": "https://github.com/ashiqulhoque/website-is-a-dev",
   "owner": {
     "username": "ashiqulhoque",
     "email": "ashiqulhbhuiyan@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "https://ashiqulhoque.netlify.app"
   }
 }
