@@ -26,5 +26,6 @@
                 "priority": 10
             }
         ]
-    }
+    },
+    "proxied": true
 }
