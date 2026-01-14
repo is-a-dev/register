@@ -5,7 +5,8 @@
     },
     "records": {
         "MX": [
-            "feedback-smtp.eu-west-1.amazonses.com"
+            "feedback-smtp.eu-west-1.amazonses.com",
+            "inbound-smtp.eu-west-1.amazonaws.com"
         ],
         "TXT": [
             "v=spf1 include:amazonses.com ~all"
