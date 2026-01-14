@@ -4,6 +4,6 @@
     "email": "g1rwqu7mq@mozmail.com"
   },
   "records": {
-    "A": "89.168.51.52"
+    "A": ["89.168.51.52"]
   }
 }
