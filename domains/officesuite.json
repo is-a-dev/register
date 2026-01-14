@@ -1,0 +1,14 @@
+{
+    "owner": {
+        "username": "alexgamingstudio",
+        "email": "officesuite@alexgaming.is-a.dev"
+    },
+    "description": "Hosting software and tools for the Office Suite Pro organization",
+    "labels": {
+        "type": "production"
+    },
+    "proxied": true,
+    "records": {
+        "CNAME": "office-suite-pro.github.io"
+    }
+}
