@@ -1,11 +1,10 @@
 {
-  "description": "Hat Kid's domain! (hat_kid)",
-  "repo": "https://github.com/thehatkid/thehatkid.github.io",
   "owner": {
     "username": "thehatkid",
-    "email": "saha22023@gmail.com"
+    "email": "saha22023@gmail.com",
+    "discord": "hat_kid"
   },
-  "record": {
+  "records": {
     "CNAME": "thehatkid.github.io"
   }
 }

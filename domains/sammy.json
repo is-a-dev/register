@@ -1,12 +1,11 @@
 {
-  "description": "link for github pages",
-  "repo": "https://github.com/TorchedSammy/torchedsammy.github.io",
+  "description": "xsach",
+  "repo": "https://github.com/xsach/xsach.github.io",
   "owner": {
-    "username": "TorchedSammy",
-    "email": "torchedsammy@gmail.com",
-    "twitter": "TorchedSammy"
+    "username": "xsach",
+    "email":"samarthchauhan7@gmail.com"
   },
-  "record": {
-    "CNAME": "torchedsammy.github.io"
+  "records": {
+    "CNAME": "xsach.github.io"
   }
 }

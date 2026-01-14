@@ -1,12 +1,10 @@
 {
-  "description": "My personal website, im learning web dev!",
-  "repo": "https://github.com/EliasKernel/EliasKernel.github.io",
   "owner": {
     "username": "eliaskernel",
     "email": "eliaskernel@protonmail.com",
     "twitter": "eliaskernel"
   },
-  "record": {
+  "records": {
     "CNAME": "eliaskernel.github.io"
   }
 }

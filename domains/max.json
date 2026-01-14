@@ -1,12 +1,9 @@
-
-    {
-      "owner": {
-        "username": "ItzMaxxi",
-        "email": "maxguilham@protonmail.com"
-      },
-
-      "record": {
-        "URL": "https://eu.dzxdev.repl.co"
-      }
-    }
-  
+{
+  "owner": {
+    "username": "MPSimon",
+    "email": "maxo.simon@hotmail.com"
+  },
+  "records": {
+    "A": ["136.243.102.212"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Cursed Scrub website",
+  "owner": {
+    "username": "quantummapleqc",
+    "email": "mapelthenerd@proton.me"
+  },
+  "records": {
+    "CNAME": "quantummapleqc.github.io"
+  }
+}

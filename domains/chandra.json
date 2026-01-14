@@ -1,12 +1,9 @@
 {
-  "description": "An Data Analyst Portfolio",
-  "repo": "https://github.com/sekharmalla/portfolio",
   "owner": {
     "username": "sekharmalla",
-    "email": "chandra.malla@msftcommunity.com",
-    "twitter": "ChandraSMalla"
+    "email": "sekharmalla.vfx@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sekharmalla.github.io"
   }
 }

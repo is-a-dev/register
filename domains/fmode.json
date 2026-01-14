@@ -1,0 +1,11 @@
+{
+  "description": "Documentation website of vulnerability in ChromeOS",
+  "owner": {
+    "username": "jOaawd",
+    "email": "fmodeteam@gmail.com"
+  },
+  "records": {
+    "CNAME": "imperfect.onrender.com"
+  },
+  "proxied": false
+}

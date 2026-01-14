@@ -1,11 +1,11 @@
- 
-    {
-      "owner": {
-        "username": "Pheonix14",
-        "email": "sd490405@gmail.com"
-      },
-      "record": {
-        "A": ["164.132.74.251"]
-      }
+{
+    "owner": {
+        "username": "Hardik-Verma",
+        "email": "hardikverma1902@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
     }
-      
+}

@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "kartavyagore", 
+    "email": "kartavyagore0@gmail.com"
+  },
+  "records": {
+    "URL": "https://kartavyagore.me"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/kartavyagore"
+    },
+    "redirect_paths": true
+  }
+}

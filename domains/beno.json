@@ -1,11 +1,10 @@
 {
-  "description": "Beno's personal developer website",
-  "repo": "https://github.com/benosambinu/benosambinu.github.io",
+  "description": "Ingeniero Informático con mención en Gestión de la Información. Me enfoco en desarrollo de software y manejo de datos. Idioma español, inglés y ruso.",
   "owner": {
-    "username": "benosambinu",
-    "email": "benosbs@gmail.com"
+    "username": "BenoAbarcaS",
+    "email": "abarcabernardo00@gmail.com"
   },
-  "record": {
-    "CNAME": "benosambinu.github.io"
+  "records": {
+    "A": ["75.2.60.5"]
   }
 }

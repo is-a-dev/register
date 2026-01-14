@@ -1,11 +1,9 @@
 {
-  "description": "Just a personal website",
-  "repo": "https://github.com/cyanraze/cyanraze",
-  "owner": {
-    "username": "cyanraze",
-    "email": "239@duck.com"
-  },
-  "record": {
-    "CNAME": "cyanraze.github.io"
-  }
+    "owner": {
+        "username": "unixzii",
+        "email": "unixzii@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }

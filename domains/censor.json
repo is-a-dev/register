@@ -1,13 +1,11 @@
 {
-  "description": "My personal Website",
-  "repo": "https://github.com/cens6r/cens6r.github.io",
   "owner": {
     "username": "censor",
     "email": "cens6r.dev@gmail.com",
     "discord": "cens6r#0001",
     "note": "It is faster to contact me on Discord."
   },
-  "record": {
+  "records": {
     "CNAME": "cens6r.github.io"
   }
 }

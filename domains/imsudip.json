@@ -1,11 +1,9 @@
 {
-    "description": "A personal portfolio site for all my projects",
-    "repo": "https://github.com/imsudip/portfolio",
     "owner": {
-        "username": "imsudip",
-        "email": "sudipghosh9333@gmail.com"
+        "username": "imsudipcreator",
+        "email": "imsudipmahata@gmail.com"
     },
-    "record": {
-        "URL": "https://portfolio.imsudip.ml"
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
     }
 }

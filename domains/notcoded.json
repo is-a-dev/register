@@ -1,13 +1,10 @@
 {
-    "description": "redirect to website",
-    "repo": "https://github.com/not-coded/notcoded.cf",
-    "owner": {
-        "username": "NotCoded",
-        "email": "contact@notcoded.cf",
-        "discord": "NotCoded#4987",
-        "discordUserID": "620662953347121163"
-    },
-    "record": {
-        "URL": "https://notcoded.cf"
-    }
-} 
+  "owner": {
+    "username": "not-coded",
+    "discord": "notcoded",
+    "discordUserID": "620662953347121163"
+  },
+  "records": {
+    "CNAME": "not-coded.github.io"
+  }
+}
