@@ -3,6 +3,7 @@
     "username": "Vedant-Git-dev",
     "email": "vedantpardeshi26@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "portfolio-six-henna-bakhfpymi2.vercel.app",
     "TXT": {
