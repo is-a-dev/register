@@ -4,6 +4,7 @@
         "email": "kamal.ayman522@gmail.com"
     },
     "records": {
-        "CNAME": "kamal-ayman.github.io"
+        "CNAME": "kamal-ayman.github.io",
+        "TXT": "google-site-verification=coaJkmooOK-BUiAxIwX17IRJ-kFHLpVSoV554H2TUSE"
     }
 }
