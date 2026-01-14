@@ -4,6 +4,6 @@
         "email": "manishbhakt1881@gmail.com"
     },
     "record": {
-        "TXT": "vc-domain-verify=www.manish-bhaktisagar.is-a.dev,35d78c8b30d7447a98dd"
+        "CNAME": "cname.vercel-dns.com"
     }
 }
