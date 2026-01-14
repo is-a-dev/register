@@ -4,7 +4,7 @@
     "email": "zeynepmehmetaliy@gmail.com"
   },
   "description": "Web Programmer",
-  "proxied": false, 
+  "proxied": true,
   "records": {
     "CNAME": "x1en.netlify.app",
     "TXT": "verified-for-netlify=8b856478-aa59-4654-9986-9c00d7d8ce09"
