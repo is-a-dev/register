@@ -4,6 +4,9 @@
     "email": "vedantpardeshi26@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-six-henna-bakhfpymi2.vercel.app"
+    "CNAME": "portfolio-six-henna-bakhfpymi2.vercel.app",
+    "TXT": {
+      "_vercel": "vc-domain-verify=vedantt.is-a.dev,70a64e8e2a62ec424cfd"
+    }
   }
 }
