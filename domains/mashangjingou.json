@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "你的GitHub用户名",
+        "email": "你的邮箱"
+    },
+    "record": {
+        "CNAME": "你的项目地址.github.io"
+    }
+}
