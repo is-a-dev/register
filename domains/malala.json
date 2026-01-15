@@ -1,0 +1,11 @@
+{
+  "description": "Projet hébergé sur Vercel",
+  "repo": "MalalaRamangason/https://github.com/MalalaRamangason/porfolio.git/",
+  "owner": {
+    "username": "MalalaRamangason",
+    "email": "malalaramangason@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
