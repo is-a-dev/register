@@ -4,6 +4,8 @@
     "email": "amanmohammed@proton.me"
   },
   "records": {
-    "TXT": ["zoho-verification=zb52489711.zmverify.zoho.in"]
+    "TXT": ["zoho-verification=zb52489711.zmverify.zoho.in"],
+    "A" : ["104.18.4.103", "104.18.5.103"],
+    "AAAA" : ["2606:4700::6812:467","2606:4700::6812:567"]
   }
 }
