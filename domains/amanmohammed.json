@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "github-username",
-    "email": "[email protected]"
+    "username": "aman-mohammed-max",
+    "email": "Amanmohammed@proton.me"
   },
   "records": {
-    "CNAME": "your-firebase-site.web.app"
+    "TXT": ["zoho-verification=zb52489711.zmverify.zoho.in"]
   }
 }
