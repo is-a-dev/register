@@ -1,6 +1,9 @@
 {
   "owner": {
-    "username": "prashant64bit"
+    "username": "prashant64bit",
+    "email": "shortageofname@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/prashant-cybersecurity",
+    "tryhackme": "https://tryhackme.com/p/prashant64bit"
   },
   "records": {
     "CNAME": "prashant64bit.github.io"
