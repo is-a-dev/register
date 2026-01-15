@@ -4,6 +4,7 @@
     "email": "Amanmohammed@proton.me"
   },
   "records": {
-    "TXT": ["zoho-verification=zb52489711.zmverify.zoho.in"]
+    "TXT": ["zoho-verification=zb52489711.zmverify.zoho.in"],
+    "CNAME": "amansite.web.app"
   }
 }
