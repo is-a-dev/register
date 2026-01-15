@@ -1,0 +1,15 @@
+{
+  "domain": "ng-life",
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "value": "niyatigohil.onrender.com"
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "niyatigohil.onrender.com"
+    }
+  ]
+}
