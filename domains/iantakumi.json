@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "ianTakumi"
+    "username": "ianTakumi",
+    "email": "iggc654@gmail.com"
   },
   "records": {
-    "CNAME": "finalportfolio-45m2.onrender.com"
+    "A": ["216.24.57.1"]
   }
 }
