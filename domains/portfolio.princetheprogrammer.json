@@ -6,5 +6,6 @@
   "records": {
     "CNAME": "theaidevx.web.app",
     "TXT": "hosting-site=theaidevx"
-  }
+  },
+  "proxied": true
 }
