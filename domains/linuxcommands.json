@@ -1,10 +1,10 @@
 {
-  "description": "Repo Page",
-  "repo": "https://github.com/Nisamov/nisa.web/",
+  "description": "GitHub Project Page for LinuxCommands",
+  "repo": "https://github.com/Nisamov/LinuxCommands",
   "owner": {
     "username": "Nisamov"
   },
   "records": {
-    "CNAME": "nisamov.github.io/LinuxCommands"
+    "CNAME": "linuxcommands.is-a.dev"
   }
 }
