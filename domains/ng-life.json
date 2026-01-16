@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "irex0"
+  },
+  "records": {
+    "CNAME": "niyatigohil.onrender.com"
+  },
+  "subdomains": {
+    "www": {
+      "CNAME": "niyatigohil.onrender.com"
+    }
+  }
+}
