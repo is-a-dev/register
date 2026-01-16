@@ -1,5 +1,8 @@
 {
   "domain": "ng-life",
+  "owner": {
+        "username": "darvik-ai"
+    },
   "records": [
     {
       "type": "CNAME",
