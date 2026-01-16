@@ -1,0 +1,13 @@
+{
+  "description": "Personal self-hosted server via Cloudflare Tunnel",
+  "owner": {
+    "username": "DarthMalvian",
+    "email": "suleulku13@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "noah.ns.cloudflare.com",
+      "val.ns.cloudflare.com"
+    ]
+  }
+}
