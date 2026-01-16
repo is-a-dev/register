@@ -6,8 +6,7 @@
     "records": {
         "CNAME": "daglaroglou.github.io",
         "TXT": [
-            "v=spf1 include:zohomail.eu ~all",
-            ""
+            "v=spf1 include:zohomail.eu ~all"
         ],
         "MX": [
             {
