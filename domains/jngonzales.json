@@ -2,10 +2,11 @@
   "owner": {
     "username": "jngonzales",
     "email": "jngonzales.dev@gmail.com"
-  },
+   },
   "records": {
-    "CNAME": "jngonzales.github.io"
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=jngonzales.is-a.dev,6e06dfcf92e4bab43a4f"]
   },
-  "description": "Portfolio for a Full Stack Developer. Hosting my Real Estate Deal Platform and Next.js projects.",
-  "repo": "https://github.com/jngonzales/jngonzales.github.io"
+  "description": "New Portfolio for a Full Stack Developer. Using Modern Stacks such as Reaect, Typescript & etc.",
+  "repo": "https://github.com/jngonzales/Portfolio-v2"
 }
