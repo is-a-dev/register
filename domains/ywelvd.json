@@ -1,7 +1,8 @@
 {
-  "description": "Personal portfolio of Er. Deepak Kumar Mohanty (ywelvd)",
-  "repo": "https://github.com/ywelvd/portfolio",
-
+    "owner": {
+        "username": "ywelvd",
+        "email": "[shreedeepakkumarmohanty@gmail.com]"
+    },
   "records": {
     "CNAME": ["ywelvd.github.io"]
   }
