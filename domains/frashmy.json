@@ -1,0 +1,9 @@
+{
+  "subdomain": "frashmy",
+  "owner": {
+    "email": "frashmy53@email.com"
+  },
+  "record": {
+    "CNAME": "frashmy.is-a.dev"
+  }
+}
