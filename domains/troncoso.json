@@ -4,7 +4,6 @@
         "email": "tec.troncosoadolfoj@gmail.com"
     },
     "records": {
-        "CNAME": "portfolio-dev-two-tawny.vercel.app",
-        "TXT": "vc-domain-verify=troncoso.is-a.dev,34dc283320ec2e49afc1"
+        "CNAME": "portfolio-dev-two-tawny.vercel.app"
     }
 }
