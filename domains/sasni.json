@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "sassni",
+    "email": "shazni121@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=sasni.is-a.dev,cb0e85e51cb6322b1447"
+  }
+}
