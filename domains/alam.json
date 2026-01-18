@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "Muhammad-Nur-Alamsyah-Anwar",
+    "email": "alam.is.a.dev@gmail.com"
+  },
+  "records": {
+    "URL": "https://www.alam.is-a.dev",
+
+    "TXT": [
+      "zoho-verification=zb85604523.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all"
+    ],
+
+    "MX": [
+      { "target": "mx.zoho.com", "priority": 10 },
+      { "target": "mx2.zoho.com", "priority": 20 },
+      { "target": "mx3.zoho.com", "priority": 50 }
+    ]
+  }
+}

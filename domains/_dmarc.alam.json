@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Muhammad-Nur-Alamsyah-Anwar",
+    "email": "alam.is.a.dev@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none; rua=mailto:alam.is.a.dev@gmail.com"
+  }
+}
