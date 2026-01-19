@@ -1,0 +1,12 @@
+{
+  "description": "Personal portfolio website showcasing my projects and skills as a developer",
+  "repo": "https://github.com/ic0nk/Iconkportfolio",
+  "owner": {
+    "username": "ic0nk",
+    "email": "wael.iconk@gmail.com"
+  },
+  "records": {
+    "CNAME": "iconkportfolio-production.up.railway.app"
+  },
+  "proxied": false
+}

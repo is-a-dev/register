@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "noeFly",
+        "email": "jeffyang0123@gmail.com"
+    },
+    "records": {
+        "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCP6hwUAZftFs0fYhEt3RskPx8qi31p+xkSzApZ89tT4ms6loXGAfUgqU13TZl+o7RN6jAoDObmkYN+PhXpSAiQ5ZdQuIDXsOxw4Jyapwod2OkGnpaqPknkQbVjw+8hrs6586+0y+fvM9o4aef242rtHqD2lGJ1pC1dVbtHlK0e7QIDAQAB"
+    }
+}

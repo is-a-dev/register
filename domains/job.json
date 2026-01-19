@@ -4,6 +4,10 @@
     "email": "gorgonfweman@outlook.com"
   },
   "records": {
-    "A": ["128.204.223.115"]
+    "A": ["128.204.223.115"],
+    "MX": [
+  { "target": "mail9.serv00.com", "priority": 10 }
+],
+    "TXT": "v=spf1 mx a include:mail9.serv00.com -all"
   }
 }
