@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "iamnycx",
-        "email": "25nikmehta@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=nycx.is-a.dev,08f49ff78aee085f6e56"
-    }
+	"owner": {
+		"username": "iamnycx",
+		"email": "25nikmehta@gmail.com"
+	},
+	"records": {
+		"TXT": "vc-domain-verify=www.nycx.is-a.dev,edaead893184516910d1"
+	}
 }
