@@ -4,6 +4,6 @@
     "email": "frankiekelechi@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=kelexine.is-a.dev,de1fa148380d50fe44a6"
   }
 }
