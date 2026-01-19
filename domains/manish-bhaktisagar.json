@@ -7,13 +7,8 @@
         "A": [
             "216.198.79.1"
         ],
-        "CNAME": {
-            "@": "manishbhakti-sagardev.vercel.app",
-            "www": "31e0a99756dec114.vercel-dns-017.com."
-        },
         "TXT": [
-            "vc-domain-verify=manish-bhaktisagar.is-a.dev,56d7e7bb93b9e5aa2b36",
-            "vc-domain-verify=www.manish-bhaktisagar.is-a.dev,35d78c8b30d7447a98dd"
+            "vc-domain-verify=manish-bhaktisagar.is-a.dev,56d7e7bb93b9e5aa2b36"
         ]
     }
 }
