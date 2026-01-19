@@ -4,6 +4,6 @@
     "email": "rakib4ggp@gmail.com"
   },
   "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=www.rakib.is-a.dev,b3af2442c0370f8fea98"
     }
 }
