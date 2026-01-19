@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "marufshakhawat"
+        "email": "marufshakhawat653@gmail.com"
+    },
+    "records": {
+        "CNAME": "marufh.netlify.app"
+        "NS": ["chance.ns.cloudflare.com", "lauryn.ns.cloudflare.com"]
+        "proxied": true
+    }
+}
