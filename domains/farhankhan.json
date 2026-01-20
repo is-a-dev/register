@@ -4,7 +4,7 @@
         "email": "faru947@gmail.com"
     },
     "records": {
-        "A": ["76.76.21.21"],
+        "A": ["216.198.79.1"],
         "MX": [
             { "target": "mx1.improvmx.com", "priority": 10 },
             { "target": "mx2.improvmx.com", "priority": 20 }
