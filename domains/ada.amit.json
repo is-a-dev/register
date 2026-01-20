@@ -1,25 +1,25 @@
 {
-  "owner":  {
+  "owner": {
     "username": "notamitgamer",
     "email": "amitdutta4255@gmail.com"
   },
   "records": {
-    "CNAME": "ada-ai-aranag.web.app",
-    "TXT": [
+    "CNAME": "ada-ai-aranag.web. app",
+    "TXT":  [
       "v=spf1 include:_spf.firebasemail.com ~all",
       "firebase=ada-ai-aranag"
-    ],
-    "proxied": true
+    ]
   },
+  "proxied": true,
   "subdomains": {
-    "firebase1._domainkey": {
+    "firebase1._domainkey":  {
       "records": {
         "CNAME": "mail-ada-amit-is--a-dev. dkim1._domainkey.firebasemail.com."
       }
     },
-    "firebase2._domainkey": {
+    "firebase2._domainkey":  {
       "records": {
-        "CNAME": "mail-ada-amit-is--a-dev. dkim2._domainkey. firebasemail.com."
+        "CNAME": "mail-ada-amit-is--a-dev.dkim2._domainkey.firebasemail.com."
       }
     }
   }
