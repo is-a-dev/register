@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "john3825a",
+    "email": "john3825a@gmail.com"
+  },
+  "records": {
+    "CNAME": "is-a-dev-docs.pages.dev"
+  },
+  "A": ["185.27.134.170"],
+  "NS":["ns1.infinityfree.com", "ns2.infinityfree.com"]
+  "proxied": true
+}
