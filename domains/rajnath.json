@@ -4,6 +4,9 @@
     "email": "rajnaths9520@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": {
+      "_vercel": "vc-domain-verify=rajnath.is-a.dev,75f43eedff6045943f01"
+    }
   }
 }
