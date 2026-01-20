@@ -8,7 +8,6 @@
   "records": {
     "URL": "https://akileshas.github.io/"
   },
-  "proxied": true,
   "redirect_config": {
     "custom_paths": {
       "/codeberg": "https://codeberg.org/akileshas/",
