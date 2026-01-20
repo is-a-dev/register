@@ -4,6 +4,7 @@
         "email": "tonyinspace@gmail.com"
     },
     "record": {
-        "CNAME": "ghs.googlehosted.com"
+        "CNAME": "ghs.googlehosted.com",
+        "TXT": ["google-site-verification=MN7eFN-IdKrBAGvR2MZlf6pzRStHrJJZJbxMb_m6YI"]
     }
 }
