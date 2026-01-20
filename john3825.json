@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "john3825",
+    "email": "john3825a@gmail.com"
+  },
+  "A": ["185.27.134.170"],
+  "NS":["ns1.infinityfree.com", "ns2.infinityfree.com"],
+  "proxied": true
+}
