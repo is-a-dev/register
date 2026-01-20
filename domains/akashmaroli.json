@@ -1,12 +1,11 @@
 {
+  "description": "Personal portfolio website",
+  "repo": "AkashMaroli/portfolio-akashmaroli",
   "owner": {
-    "username": "AkashMaroli"
+    "username": "AkashMaroli",
+    "email": "akashmaroli2000@gmai.com"
   },
-  "repo": "akashmaroli-portfolio",
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "akashmaroli.github.io"
-    }
-  ]
+  "record": {
+    "CNAME": "akashmaroli.github.io"
+  }
 }
