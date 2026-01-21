@@ -1,0 +1,12 @@
+{
+  "description": "Andrew, AI enthusiast and developer exploring DeepSeek, Grok, AI agents, and Cloudflare Workers. Deploying personal projects and experiments with free tools.",
+  "subdomain": "aiagent",
+  "owner": {
+    "username": "670941004",
+    "email": "可选，你的邮箱@example.com（可以留空或删除这行）"
+  },
+  "record": {
+    "CNAME": "royal-cell-62d2.ls670941004.workers.dev"
+  },
+  "proxy": true
+}
