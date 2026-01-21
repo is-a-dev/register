@@ -4,6 +4,9 @@
         "email": "ymp.engr.dept@gmail.com"
     },
     "records": {
-        "CNAME": "engr-dept-ymp.pages.dev"
+        "NS": [
+            "joaquin.ns.cloudflare.com",
+            "michelle.ns.cloudflare.com"
+        ]
     }
 }
