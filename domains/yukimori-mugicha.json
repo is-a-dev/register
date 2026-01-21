@@ -4,7 +4,7 @@
         "email": "ymp.engr.dept@gmail.com"
     },
     "records": {
-        "CNAME": "engr-dept-ymp.pages.dev",
+        "A": ["172.66.44.196", "104.21.12.180"],
         "MX": [
             { "target": "route1.mx.cloudflare.net", "priority": 63 },
             { "target": "route2.mx.cloudflare.net", "priority": 56 },
