@@ -5,5 +5,9 @@
   },
   "records": {
     "CNAME": "my-portfolio-ashy-omega-85.vercel.app"
+    "TXT": [
+      "vc-domain-verify=woongjin.is-a.dev,772512ad0d5d5e95beb1",
+      "vc-domain-verify=www.woongjin.is-a.dev,3335f9f299d1e318c30d"
+    ]
   }
 }
