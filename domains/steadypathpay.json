@@ -4,8 +4,15 @@
         "email": "kristin.steadypath@gmail.com"
     },
     "records": {
-        "CNAME": "daytonkristin.github.io",
-        "TXT": ["bb9e79424b28cf4cd800b0efeb49ed"]
+        "CNAME": "daytonkristin.github.io"
+    },
+    "subdomains": {
+        "_github-pages-challenge-daytonkristin": {
+            "records": {
+                "TXT": ["bb9e79424b28cf4cd800b0efeb49ed"]
+            }
+        }
     }
+}
 }
 
