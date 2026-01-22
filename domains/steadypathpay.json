@@ -4,7 +4,8 @@
         "email": "kristin.steadypath@gmail.com"
     },
     "records": {
-        "CNAME": "kristindayton-dev.github.io"
+        "CNAME": "daytonkristin.github.io",
+        "TXT": ["bb9e79424b28cf4cd800b0efeb49ed"]
     }
 }
 
