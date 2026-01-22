@@ -1,0 +1,10 @@
+{
+  "description": "FFHost is a fast and minimal image hosting service for quick file sharing.",
+  "repo": "https://github.com/jngohel/image-hosting",
+  "owner": {
+    "username": "jngohel"
+  },
+  "record": {
+    "CNAME": "image-hosting-jngohel-32add1ac4263.herokuapp.com"
+  }
+}
