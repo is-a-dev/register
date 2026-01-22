@@ -1,11 +1,22 @@
 {
-    "owner": {
-        "username": "a4axjd",
-        "email": "noorasjad3@gmail.com"
-    },
-    "records": {
-         "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-         "TXT": ["v=spf1 include:spf.improvmx.com ~all"],
-         "A": ["216.198.79.1"]
+  "owner": {
+    "username": "a4axjd",
+    "email": "noorasjad3@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ],
+
+    "www": {
+      "CNAME": "c0f66a4036462a41.vercel-dns-017.com"
     }
+  }
 }
