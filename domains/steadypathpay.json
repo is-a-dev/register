@@ -7,12 +7,11 @@
         "CNAME": "daytonkristin.github.io"
     },
     "subdomains": {
-        "_github-pages-challenge-daytonkristin": {
+        "_github-pages-challenge-kristindayton-dev": {
             "records": {
-                "TXT": ["bb9e79424b28cf4cd800b0efeb49ed"]
+                "TXT": ["f0ea198b52a5ad6afbb04fe3e2f964"]
             }
         }
     }
-}
 }
 
