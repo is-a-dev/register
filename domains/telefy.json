@@ -1,6 +1,9 @@
 {
-  "owner": { "username": "monuwar" },
+  "owner": {
+    "username": "monuwar",
+    "email": "monuwarhussain112233@gmail.com"
+  },
   "records": {
-    "URL": "https://dataxcore.vercel.app"
+    "CNAME": "dataxcore.vercel.app"
   }
 }
