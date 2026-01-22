@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Asif-4520"
+    "username": "Asif-4520",
+    "email": "asif.dev.contact@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "spdsql.vercel.app"
   }
 }
