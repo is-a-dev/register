@@ -3,6 +3,7 @@
     "username": "kimwoongjin",
     "email": "woong1536@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "my-portfolio-kimwoongjins-projects.vercel.app",
     "TXT": [
