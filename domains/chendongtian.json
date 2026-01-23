@@ -4,6 +4,7 @@
     "email": "cdt86915998@gmail.com"
   },
   "records": {
+    "CNAME": "https://cdt.github.io/",
     "MX": [
       { "target": "feedback-smtp.ap-northeast-1.amazonses.com", "priority": 10 }
     ],
