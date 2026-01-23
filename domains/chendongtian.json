@@ -1,0 +1,22 @@
+{
+  "owner": {
+    "username": "CDT",
+    "email": "cdt86915998@gmail.com"
+  },
+  "records": {
+    "MX": [
+      { "target": "feedback-smtp.ap-northeast-1.amazonses.com", "priority": 10 }
+    ],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all"
+    ],
+    "subdomains": {
+      "resend._domainkey": {
+        "TXT": ["p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC33qeWen9g9hZzuemZyPXgnVWYFEZ/sGBriYBB8dQa5EsACEmJFjqMhPSV7zHUf43jXCsL4wVlVKnPMyx9x8+2wn1Jrcz8BU/2ReY57HnP6DJ8Aj0Eq/t4PLID944/Kxih6x6nXAcl+sJ+5ghgTrnPAbyIl1gQWgDkgTOY0a5NewIDAQAB"]
+      },
+      "_dmarc": {
+        "TXT": ["v=DMARC1; p=none;"]
+      }
+    }
+  }
+}
