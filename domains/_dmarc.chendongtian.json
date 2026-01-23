@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "CDT",
+    "email": "cdt86915998@gmail.com"
+  },
+  "records": {
+    "TXT": ["v=DMARC1; p=none;"]
+  }
+}
