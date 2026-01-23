@@ -6,10 +6,4 @@
     "records": {
         "A": ["141.253.104.158"]
     },
-    "redirect_config": {
-        "custom_paths": {
-            "/github": "https://github.com/tacotopasu"
-        },
-        "redirect_paths": true
-    }
 }
