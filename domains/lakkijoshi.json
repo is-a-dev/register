@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "joshilak7",
+    "email": "luckyjoshi659@gmail.com"
+  },
+  "record": {
+    "CNAME": "lakkijoshi.vercel.app",
+    "TXT": [
+      "vc-domain-verify=lakkijoshi.is-a.dev,dc08c814a5af1e55be40"
+    ]
+  }
+} 
