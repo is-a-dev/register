@@ -4,6 +4,16 @@
     "email": "syedhasnatali785@gmail.com"
   },
   "records": {
-    "CNAME": "lovely-druid-e6f38d.netlify.app"
+    "MX": [
+      { "priority": 10, "value": "mx1.improvmx.com" },
+      { "priority": 20, "value": "mx2.improvmx.com" }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all",
+      "google-site-verification=B8-xy9LtjfYCD1JNrdaWfyRbfyLJxqJxXLRu_q5kIck"
+    ],
+    "CNAME": {
+      "www": "lovely-druid-e6f38d.netlify.app"
+    }
   }
 }
