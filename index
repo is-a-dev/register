@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página para Recordar</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            padding: 50px; 
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: inline-block;
+            max-width: 80%;
+        }
+        h1 { color: #2c3e50; }
+        p { line-height: 1.6; }
+        .footer { margin-top: 20px; font-size: 0.8em; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenidos a mi página</h1>
+        <p>Esta es la nueva versión de mi sitio, migrada desde Google Sites.</p>
+        <p><em>Página para recordar.</em></p>
+        <div class="footer">
+            Generado para mi nuevo subdominio .is-a.dev
+        </div>
+    </div>
+</body>
+</html>
