@@ -3,16 +3,7 @@
         "username": "tonyinspace",
         "email": "tonyinspace@gmail.com"
     },
-    "records": [
-        {
-            "type": "CNAME",
-            "host": "www",
-            "value": "ghs.googlehosted.com"
-        },
-        {
-            "type": "TXT",
-            "host": "@",
-            "value": "google-site-verification=MN7eFN-IdKrBAGvR2MZlf6pzRStHrJJZJbxMb_m6YI"
-        }
-    ]
+    "record": {
+        "CNAME": "tonyinspace.github.io"
+    }
 }
