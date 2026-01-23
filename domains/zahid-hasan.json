@@ -3,12 +3,9 @@
     "username": "Zahid6999"
   },
   "records": {
-    "A": ["216.198.79.1"],
-
     "CNAME": {
       "www": "3073135a036d78ea.vercel-dns-017.com"
     },
-
     "TXT": [
       {
         "name": "_vercel",
