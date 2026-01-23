@@ -1,9 +1,10 @@
+
 {
-    "owner": {
-        "username": "mubashirmuchi",
-        "email": "mubashirmuchi75@gmail.com"
-    },
-    "records": {
-        "CNAME": "my-portfolio-beta-lovat-28.vercel.app"
-    }
+  "owner": {
+    "username": "mubashirmuchi",
+    "email": "mubashirmuchi75@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
