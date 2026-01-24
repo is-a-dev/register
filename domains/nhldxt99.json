@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "a9k1n9",
+    "email": "a9k1n9@gmail.com"
+  },
+  "records": {
+    "NS": ["trey.ns.cloudflare.com", "savanna.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
