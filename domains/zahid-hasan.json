@@ -5,16 +5,6 @@
   "records": {
     "CNAME": {
       "www": "3073135a036d78ea.vercel-dns-017.com"
-    },
-    "TXT": [
-      {
-        "name": "_vercel",
-        "value": "vc-domain-verify=zahid-hasan.is-a.dev,6ea0d528fd865876a123"
-      },
-      {
-        "name": "_vercel.www",
-        "value": "vc-domain-verify=www.zahid-hasan.is-a.dev,2d140eb2dd4de9bc3cb1"
-      }
-    ]
+    }
   }
 }
