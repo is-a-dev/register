@@ -4,7 +4,6 @@
     "email": "ymp.engr.dept@gmail.com"
   },
   "records": {
-    "CNAME": "engr-dept-ymp.pages.dev",
     "MX": [
       { "target": "mx1.improvmx.com", "priority": 10 },
       { "target": "mx2.improvmx.com", "priority": 20 }
