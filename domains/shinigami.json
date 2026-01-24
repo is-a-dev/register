@@ -1,0 +1,10 @@
+{
+  "description": "Personal bio page",
+  "owner": {
+    "username": "Roman555568",
+    "discord": "verloren.ari"
+  },
+  "record": {
+    "CNAME": "bio.cheapskom1.workers.dev"
+  }
+}
