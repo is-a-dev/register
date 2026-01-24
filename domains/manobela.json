@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "Popcorn Prophets"
+        "username": "Popcorn Prophets",
+        "email": "popcornprophets@outlook.com"
     },
     "records": {
         "CNAME": "manobela.vercel.app"
