@@ -4,8 +4,6 @@
     "email": "italofernandesvm@gmail.com"
   },
   "records": {
-    "CNAME": {
-      "www": "c2dab04b83297437.vercel-dns-017.com"
-    }
+    "CNAME": "c2dab04b83297437.vercel-dns-017.com"
   }
 }
