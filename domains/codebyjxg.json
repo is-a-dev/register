@@ -4,10 +4,7 @@
     "username": "CodeByJXG",
     "email": "julhariemaddin46@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "library-management-system-kappa-black.vercel.app"
-    }
-  ]
+  "record": {
+    "CNAME": "library-management-system-kappa-black.vercel.app"
+  }
 }
