@@ -1,15 +1,16 @@
 {
-    "owner": {
-        "username": "ymp-engr-dept",
-        "email": "ymp.engr.dept@gmail.com"
-    },
-    "records": {
-        "A": ["172.66.44.196", "104.21.12.180"],
-        "MX": [
-            { "target": "route1.mx.cloudflare.net", "priority": 63 },
-            { "target": "route2.mx.cloudflare.net", "priority": 56 },
-            { "target": "route3.mx.cloudflare.net", "priority": 85 }
-        ],
-        "TXT": ["v=spf1 include:_spf.mx.cloudflare.net ~all"]
-    }
+  "owner": {
+    "username": "ymp-engr-dept",
+    "email": "ymp.engr.dept@gmail.com"
+  },
+  "records": {
+    "CNAME": "engr-dept-ymp.pages.dev",
+    "MX": [
+      { "target": "mx1.improvmx.com", "priority": 10 },
+      { "target": "mx2.improvmx.com", "priority": 20 }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
 }
