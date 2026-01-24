@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "mmuizahmed"
+        "username": "mmuizahmed",
+        "telegram-username": "@techscoder"
     },
     "records": {
         "CNAME": "portfolio.telebothosts.workers.dev"
