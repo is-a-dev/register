@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "jigarbhoye04",
-    "discord": "jigx.04",
     "email": "jigarbhoye04@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "CNAME": "dkim2.9p1t6mqbthrz.clerk.services"
   }
 }
