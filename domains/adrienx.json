@@ -4,6 +4,7 @@
         "email": "mhmxd7x@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "A": ["216.198.79.1"],
+        "CNAME": "3ab9232aeba49ddf.vercel-dns-017.com"
     }
 }
