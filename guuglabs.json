@@ -1,0 +1,13 @@
+{
+    "name": "guuglabs",
+    "email": "rifky@keemail.me",
+    "description": "GUUG LABS - Conceptualizing, Visualizing, & Building Agency.",
+    "repo": "https://github.com/GUUGLABS/website",
+    "owner": {
+        "username": "GUUGLABS",
+        "email": "rifky@keemail.me"
+    },
+    "record": {
+        "CNAME": "guuglabs.pages.dev"
+    }
+}
