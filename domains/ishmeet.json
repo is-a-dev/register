@@ -1,1 +1,9 @@
-
+{
+    "owner": {
+        "username": "bigmanstan",
+        "email": "theonlyrealemailid@gmail.com"
+    },
+    "record": {
+        "NS": ["ns1.cloudflare.com", "ns2.cloudflare.com"]
+    }
+}
