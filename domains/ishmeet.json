@@ -3,7 +3,7 @@
         "username": "bigmanstan",
         "email": "theonlyrealemailid@gmail.com"
     },
-    "record": {
+    "records": {
         "NS": ["ns1.cloudflare.com", "ns2.cloudflare.com"]
     }
 }
