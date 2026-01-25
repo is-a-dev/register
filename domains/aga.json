@@ -4,13 +4,16 @@
     "email": "lcnghulam2@gmail.com",
     "discord": "blessing455451"
   },
-  "record": {
+  "records": {
     "A": ["216.198.79.1"],
     "TXT": "google-site-verification=p24qfEdTMTlahtU3hQxVU_txDQkifpoJH1xS4jmCmlw"
   },
-  "subdomains": {
-    "www": {
-      "CNAME": "a9a123980ffcaa9e.vercel-dns-017.com."
+  "nested": [
+    {
+      "name": "www",
+      "records": {
+        "CNAME": "a9a123980ffcaa9e.vercel-dns-017.com."
+      }
     }
-  }
+  ]
 }
