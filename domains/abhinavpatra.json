@@ -1,0 +1,11 @@
+{
+  "description": "Abhinav Patra portfolio site",
+  "repo": "abhinavpatra/register",
+  "owner": {
+    "username": "abhinavpatra",
+    "email": "patraabhinav12@gmail.com"
+  },
+  "records": {
+    "CNAME": "abhinavpatra.vercel.app"
+  }
+}

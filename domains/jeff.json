@@ -3,7 +3,7 @@
     "username": "PentSec",
     "email": "pentsec.2@protonmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pentsec.github.io"
   },
   "redirect_config": {

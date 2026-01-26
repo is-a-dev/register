@@ -1,16 +1,9 @@
 {
-  "description": "website for my links",
-  "repo": "https://github.com/amenm0/littlelink.github.io",
   "owner": {
     "username": "amenm0",
     "email": "mjmwtmjls@gmail.com"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ]
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
   }
 }

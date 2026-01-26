@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "CaeCur",
-        "email": "caelan.curry+isadev@gmail.com"
-    },
-    "record": {
-        "CNAME": "caelan-curry.vercel.app"
-    }
+  "owner": {
+    "username": "CaeCur",
+    "email": "caelan.curry+isadev@gmail.com"
+  },
+  "records": {
+    "CNAME": "caelan-curry.vercel.app"
+  }
 }

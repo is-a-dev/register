@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "JustDeveloper1",
-        "email": "dev@j.is-a.dev"
-    },
-    "record": {
-        "NS": [
-            "galileo.aternos.org",
-          "columbus.aternos.org"
-        ]
-    }
+  "owner": {
+    "username": "JustDeveloper1",
+    "email": "dev@j.is-a.dev"
+  },
+  "records": {
+    "NS": ["galileo.aternos.org", "columbus.aternos.org"]
+  }
 }

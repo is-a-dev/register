@@ -1,11 +1,9 @@
 {
-  "description": "Personal website",
-  "repo": "https://github.com/nxrmqlly/nxrmqlly.github.io",
   "owner": {
     "username": "nxrmqlly",
     "email": "ritam.das3110@outlook.com"
   },
-  "record": {
-    "CNAME": "nxrmqlly.github.io"
+  "records": {
+    "CNAME": "www.ritam.pw"
   }
 }

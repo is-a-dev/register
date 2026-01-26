@@ -4,7 +4,7 @@
     "email": "shadowgaming-backup@proton.me",
     "username": "shadowgaming-backup"
   },
-  "record": {
+  "records": {
     "NS": ["mina.ns.cloudflare.com", "harlan.ns.cloudflare.com"]
   }
 }

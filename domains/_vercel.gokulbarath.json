@@ -3,7 +3,7 @@
     "username": "gokul6350",
     "email": "gokul00060@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=gokulbarath.is-a.dev,b6d252e3dde12b69cc05"]
+  "records": {
+    "TXT": "vc-domain-verify=gokulbarath.is-a.dev,b6d252e3dde12b69cc05"
   }
 }

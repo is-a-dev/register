@@ -1,11 +1,9 @@
 {
-  "description": "Hosts Discusser's personal website",
-  "repo": "https://github.com/Discusser/discusser.github.io",
   "owner": {
     "username": "Discusser",
     "email": "noobly321growing@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "discusser.github.io"
   }
 }

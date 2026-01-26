@@ -1,11 +1,9 @@
 {
-  "description": "damned.is-a.dev",
-  "repo": "https://github.com/damnedstudios/damnedstudios.github.io",
   "owner": {
     "username": "damnedstudios",
     "email": "arda.efe.gokce.2@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "damnedstudios.github.io"
   }
 }

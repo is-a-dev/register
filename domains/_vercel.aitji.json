@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "aitji",
-    "email": "ait.suriya@gmail.com",
-    "discord": "aitji"
+    "email": "ait.suriya@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": "vc-domain-verify=aitji.is-a.dev,0a05468b82f542c74dea"
   }
 }

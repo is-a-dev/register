@@ -2,7 +2,7 @@
   "owner": {
     "username": "syedtahseen"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=arshman.is-a.dev,b92115f7845437a44890"]
+  "records": {
+    "TXT": "vc-domain-verify=arshman.is-a.dev,b92115f7845437a44890"
   }
 }

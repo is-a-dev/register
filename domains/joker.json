@@ -1,12 +1,10 @@
 {
-  "description": "Personal portfolio website of joker",
-  "repo": "https://github.com/JoKeRxTD/joker.is-a.dev",
   "owner": {
     "username": "JoKeRxTD",
     "email": "joker@mythbot.org",
     "twitter": "JoKeRxHD"
   },
-  "record": {
+  "records": {
     "CNAME": "jokerxtd.github.io"
   }
 }

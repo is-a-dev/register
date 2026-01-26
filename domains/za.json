@@ -4,7 +4,7 @@
     "email": "itsshanihere42@gmail.com",
     "username": "m-zeeshan42"
   },
-  "record": {
+  "records": {
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }

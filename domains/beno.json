@@ -1,11 +1,10 @@
 {
   "description": "Ingeniero Informático con mención en Gestión de la Información. Me enfoco en desarrollo de software y manejo de datos. Idioma español, inglés y ruso.",
-  "repo": "https://github.com/BenoAbarcaS/pf",
   "owner": {
     "username": "BenoAbarcaS",
     "email": "abarcabernardo00@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }

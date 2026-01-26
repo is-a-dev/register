@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "lingledev",
-    "email": "gideon.lingle2023@gmail.com"
+    "username": "LingleDev",
+    "email": "gideon.lingle2023@gmail.com",
+    "twitter": "LingleDev"
   },
-  "record": {
-    "TXT": ["dh=21d66ba4bca0c546fa80a877a6d3df57216bd5f5"]
+  "records": {
+    "TXT": "dh=21d66ba4bca0c546fa80a877a6d3df57216bd5f5"
   }
 }

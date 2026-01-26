@@ -1,12 +1,9 @@
 {
-  "description": "My Personal Portfolio",
-  "repo": "https://github.com/yashraj-n/yashraj-n.github.io",
   "owner": {
-    "username": "yashraj-n",
-    "email": "ynnarke52@gmail.com",
-    "twitter": "NarkeYashraj"
+    "username": "yashraj970",
+    "email": "itsyashraj970@gmail.com"
   },
-  "record": {
-    "CNAME": "yashraj-n.github.io"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

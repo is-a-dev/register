@@ -2,21 +2,10 @@
   "owner": {
     "username": "DevMatei",
     "email": "contact@devmatei.is-a.dev",
-    "discord": "784443338627612673"
+    "discord": "784443338627612673",
+    "twitter": "thedevmatei"
   },
-  "record": {
-    "A": ["75.2.60.5"],
-    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
-    "TXT": [
-      "v=spf1 include:zoho.eu ~all",
-      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIOzUFPBEQXJA2Rh16fCXNC8YASZtoVbievhK2Wwof2/nd+TGcMiLhr9BT9Iiq7pc0zOlzA5fsCYzxXRpBQqiPvXQT/gYvWaVWIJaDSiQHuiz4mA8s8PEPX/iovSZWy4cCge9Gd1WKkFJLPHqVrFnOeVCPl8xFvcKU4z4uQIDAQAB"
-    ]
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/devmatei",
-      "/hating": "https://hate.is-a.dev"
-    }
-  },
-  "proxied": true
+  "records": {
+    "NS": ["chip.ns.cloudflare.com", "marjory.ns.cloudflare.com"]
+  }
 }

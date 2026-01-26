@@ -1,10 +1,8 @@
 {
-  "description": "This is falguni prajapati",
-  "repo": "https://github.com/falguni-prajapati/falguni-prajapati.github.io",
   "owner": {
     "username": "falguni-prajapati"
   },
-  "record": {
+  "records": {
     "CNAME": "falguni-prajapati.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "for my portfolio website",
-  "repo": "https://github.com/rakibmia7254/portfolio",
   "owner": {
-    "username": "rakibmia7254",
+    "username": "rakibhossain72",
     "email": "rakib4ggp@gmail.com"
   },
-  "record": {
-    "CNAME": "rakibmia7254.github.io"
-  }
+  "records": {
+        "A": ["216.198.79.1"]
+    }
 }

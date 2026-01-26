@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "radekw8733",
-    "email": "radekw8733@gmail.com"
-  },
-  "repo": "https://github.com/radekw8733/radke.is-a.dev",
-  "record": {
-    "CNAME": "radke.duckdns.org"
-  }
+    "owner": {
+        "username": "radekw8733",
+        "email": "radekw8733@gmail.com"
+    },
+    "records": {
+        "CNAME": "radke.duckdns.org"
+    }
 }

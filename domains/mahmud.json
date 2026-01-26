@@ -1,12 +1,9 @@
 {
-  "description": "mahmud's portfolio website",
-  "repo": "https://github.com/JBAxB8h7/JBAxB8h7.github.io",
-  "owner": {
-    "username": "JBAxB8h7",
-    "email": "kanieloutis758@gmail.com",
-    "twitter": "mahmudislam47"
-  },
-  "record": {
-    "CNAME": "jbaxb8h7.github.io"
-  }
+    "owner": {
+        "username": "OlyMahmudMugdho",
+        "email": "mugdhodzs38@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }

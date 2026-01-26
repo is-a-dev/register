@@ -1,11 +1,10 @@
 {
   "description": "My portfolio website.",
-  "repo": "https://github.com/trucpham04",
   "owner": {
     "username": "trucpham04",
     "email": "trucpham04@proton.me"
   },
-  "record": {
+  "records": {
     "CNAME": "trucpham.pages.dev"
   },
   "proxied": true

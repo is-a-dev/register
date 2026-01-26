@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "catto24",
-    "email": "catto24@proton.me"
+    "email": "catto24@proton.me",
+    "twitter": "catto24_"
   },
-  "record": {
+  "records": {
     "TXT": "dh=cb090910b5977bb43674000fab99c3a76492ac78"
   }
 }

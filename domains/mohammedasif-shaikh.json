@@ -1,10 +1,8 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/mohammedasif-shaikh/mohammedasif-shaikh.github.io",
   "owner": {
     "username": "mohammedasif-shaikh"
   },
-  "record": {
+  "records": {
     "CNAME": "mohammedasif-shaikh.github.io"
   }
 }

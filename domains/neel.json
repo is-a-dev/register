@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio Website of Neel Mishra",
-  "repo": "https://github.com/Neel-07/my_portfolio",
-  "owner": {
-    "username": "neelmishra",
-    "email": "neelmishra9125@gmail.com"
-  },
-  "record": {
-    "CNAME": "neelmishra.vercel.app"
-  }
+    "owner": {
+        "username": "neel-d9",
+        "discord": "neel.9"
+    },
+    "records": {
+        "CNAME": "neelisadev.netlify.app"
+    }
 }

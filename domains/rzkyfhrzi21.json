@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio",
-  "repo": "https://github.com/rzkyfhrzi21/rzkyfhrzi21.github.io",
   "owner": {
     "username": "rzkyfhrzi21",
     "email": "rzkyfhrz21@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rzkyfhrzi21.github.io"
   }
 }
