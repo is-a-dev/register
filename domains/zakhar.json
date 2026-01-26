@@ -4,6 +4,10 @@
         "email": "zaharsk@gmail.com"
     },
     "records": {
-        "CNAME": "zakharsk.github.io"
-    }
+        "NS": [
+            "blakely.ns.cloudflare.com",
+            "kevin.ns.cloudflare.com"
+        ]
+    },
+    "proxied": false
 }
