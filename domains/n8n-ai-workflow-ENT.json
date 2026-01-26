@@ -1,0 +1,9 @@
+{
+  "description": "n8n automation server",
+  "owner": {
+    "username": "YOUR_GITHUB_USERNAME"
+  },
+  "record": {
+    "CNAME": "example.com"
+  }
+}
