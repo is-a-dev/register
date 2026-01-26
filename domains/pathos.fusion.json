@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "fusionofficial",
+    "email": "inquiries@fusion.is-a.dev",
+    "discord": "mikropekka"
+  },
+  "records": {
+    "CNAME": "cf-lb.miraheze.org"
+  },
+  "proxied": false
+}
