@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "username": "italofvm",
-    "email": "italofernandesvm@gmail.com"
-  },
-  "records": {
-    "CNAME": "c2dab04b83297437.vercel-dns-017.com"
-  }
+    "owner": {
+        "username": "italofvm",
+        "email": "italofernandesvm@gmail.com"
+    },
+    "record": {
+        "CNAME": "c2dab04b83297437.vercel-dns-017.com",
+        "TXT": {
+            "_vercel": "vc-domain-verify=www.italodev.is-a.dev,4c7a452d2c042f701476"
+        }
+    }
 }
