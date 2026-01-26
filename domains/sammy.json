@@ -1,0 +1,11 @@
+{
+  "description": "xsach",
+  "repo": "https://github.com/xsach/xsach.github.io",
+  "owner": {
+    "username": "xsach",
+    "email":"samarthchauhan7@gmail.com"
+  },
+  "records": {
+    "CNAME": "xsach.github.io"
+  }
+}
