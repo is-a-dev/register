@@ -1,4 +1,9 @@
 {
-  "description": "oyh official portfolio",
-  "repo": "o1yh/o1yh.github.io"
+    "owner": {
+        "username": "o1yh",
+        "email": "contato@universalbuxx.loja"
+    },
+    "records": {
+        "CNAME": "o1yh.github.io"
+    }
 }
