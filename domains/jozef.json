@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "ThaRealJozef"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com",
-        "TXT": "vc-domain-verify=jozef.is-a.dev,0fe771b3c39466406cb3"
-    }
+  "owner": {
+    "username": "ThaRealJozef"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
