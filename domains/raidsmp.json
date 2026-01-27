@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "adityaalt23-wq",
+    "email": "adityaalt23@gmail.com"
+  },
+  "records": {
+    "A": {
+      "play": "5.39.17.58"
+    },
+    "SRV": [
+      {
+        "name": "_minecraft._tcp.play",
+        "priority": 0,
+        "weight": 5,
+        "port": 26841,
+        "target": "play.raidsmp.is-a.dev"
+      }
+    ]
+  }
+}
