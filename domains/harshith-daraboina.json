@@ -3,8 +3,9 @@
     "username": "Harshith-Daraboina",
     "email": "23bcs037@iiitdwd.ac.in"
   },
+  "proxied": true,
   "records": {
     "CNAME": "harshithdaraboina.vercel.app",
-    "TXT": "_vercel=vc-domain-verify=www.harshith-daraboina.is-a.dev,4acea414c81ac80b86dd"
+    "TXT": "_vercel=vc-domain-verify=harshith-daraboina.is-a.dev,bd0483a3092cdcab3700"
   }
 }
