@@ -3,7 +3,7 @@
         "username": "alexgamingstudio",
         "email": "info@alexgaming.is-a.dev"
     },
-    "description": "Cloudflare Nameserver delegation for Alex Gaming",
+    "description": "Portfolio for Alex Gaming",
     "records": {
         "NS": [
             "carl.ns.cloudflare.com",
