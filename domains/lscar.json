@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "lscar",
+        "email": "zhongyuetwo@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "clyde.ns.cloudflare.com",
+            "meg.ns.cloudflare.com"
+        ]
+    }
+}
