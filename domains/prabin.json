@@ -6,6 +6,6 @@
   "records": {
     "CNAME": "prabinsubedi-tech.pages.dev",
     "TXT": "google-site-verification=-gJOHVjxbshwQvobT_Jd2fWE11vPTiDSKsARPEZDuk4"
-    
-  }
+  }, 
+  "proxied": true
 }
