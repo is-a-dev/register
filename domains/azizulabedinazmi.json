@@ -4,7 +4,7 @@
     "email": "azmi00121@gmail.com"
   },
   "records": {
-    "A": ["75.2.60.5"],
-    "TXT": "vc-domain-verify=azizulabedinazmi.is-a.dev,d3e999b56ac9176c6d6c"
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=azizulabedinazmi.is-a.dev,d3e999b56ac9176c6d6c"]
   }
 }
