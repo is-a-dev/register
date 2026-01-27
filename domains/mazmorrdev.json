@@ -3,15 +3,7 @@
     "username": "MazMorrDev",
     "email": "marconchelo12@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mazmorrdev.github.io"
-  },
-  "records": [
-    {
-      "type": "CNAME",
-      "record": "mazmorrdev.github.io",
-      "ttl": 3600,
-      "proxied": true
-    }
-  ]
+  }
 }
