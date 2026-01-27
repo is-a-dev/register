@@ -1,0 +1,10 @@
+{
+  "domain": "renato.is-a.dev",
+  "owner": {
+    "username": "renatomf",
+    "email": "renatomardev@gmail.com"
+  },
+  "record": {
+    "CNAME": "cv-1mf3lhsjj-renatomf76s-projects.vercel.app"
+  }
+}
