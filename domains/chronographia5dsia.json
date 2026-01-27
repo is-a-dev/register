@@ -1,8 +1,10 @@
 {
   "domain": "is-a.dev",
   "subdomain": "chronographia5dsia",
+  "owner": {
+    "username": "Corse2B"
+  },
   "records": {
     "CNAME": "corse2b.github.io"
   }
 }
-
