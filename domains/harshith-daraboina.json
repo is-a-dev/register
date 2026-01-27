@@ -4,6 +4,7 @@
     "email": "23bcs037@iiitdwd.ac.in"
   },
   "records": {
-    "CNAME": "harshithdaraboina.vercel.app"
+    "CNAME": "harshithdaraboina.vercel.app",
+    "TXT": "_vercel=vc-domain-verify=www.harshith-daraboina.is-a.dev,4acea414c81ac80b86dd"
   }
 }
