@@ -1,0 +1,21 @@
+{
+  "repo": "https://github.com/caeser2/is-a-dev/tree/add-lvnas-is-a-dev",
+  
+  "owner": {
+    "username": "caeser2",
+    "email": "caeser222000@sohu.com"
+  },
+  "records": {
+    "NS": [
+      "fish.ns.cloudflare.com",
+      "guy.ns.cloudflare.com"
+    ]
+  },
+  "target": {
+    "NS": {
+      "name": "lvnas",
+      "value": "fish.ns.cloudflare.com, guy.ns.cloudflare.com"
+    }
+  },
+  "proxied": false
+}
