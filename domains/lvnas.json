@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "caeser2",
+    "email": "caeser222000@sohu.com"
+  },
+  "records": {
+    "NS": "fish.ns.cloudflare.com",
+    "NS": "guy.ns.cloudflare.com"
+  },
+  "description": "Personal learning projects hosted on Cloudflare"
+}
