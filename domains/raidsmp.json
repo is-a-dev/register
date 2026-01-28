@@ -4,9 +4,9 @@
     "email": "adityaalt23@gmail.com"
   },
   "records": {
-    "A": {
-      "play": "5.39.17.58"
-    },
+    "A": [
+      "5.39.17.58"
+    ],
     "SRV": [
       {
         "name": "_minecraft._tcp.play",
