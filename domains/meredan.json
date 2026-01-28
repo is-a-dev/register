@@ -4,6 +4,11 @@
         "email": "meredan.dn@gmail.com"
     },
     "records": {
-        "URL": "https://main.dgm5gmlgmn4xs.amplifyapp.com"
+        "NS": [
+            "ns-384.awsdns-48.com",
+            "ns-695.awsdns-22.net",
+            "ns-1494.awsdns-58.org",
+            "ns-2020.awsdns-60.co.uk"
+        ]
     }
 }
