@@ -3,6 +3,21 @@
     "username": "CDT"
   },
   "records": {
-    "CNAME": "chendongtian-cv.pages.dev"
+    "CNAME": "chendongtian-cv.pages.dev",
+
+    "resend._domainkey": {
+      "type": "TXT",
+      "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsinKyzaN1MmIOgNAgM9I5pEMaubD2toATGqJsN+OwPK7E4pRkqP5RJ3PqF3ItUZU2YFy8vNmOBCAMSQvxNJa3fS7Eo3NaqDisvcXLXtSW2PYqISY+i3Z38ZdycKVjqFjM0lLCpt6QR7gYU/aZ1yJip/zFwTMc7F3BQFZ8ZSIIIwIDAQAB"
+    },
+
+    "send": {
+      "type": "TXT",
+      "value": "v=spf1 include:amazonses.com include:resend.com ~all"
+    },
+
+    "_dmarc": {
+      "type": "TXT",
+      "value": "v=DMARC1; p=none;"
+    }
   }
 }
