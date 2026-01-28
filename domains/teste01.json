@@ -1,0 +1,11 @@
+{
+  "description": "Meu site de testes",
+  "domain": "paulolinks.is-a.dev",
+  "owner": {
+    "username": "Paulo-if",
+    "email": "otaviopaulo0405@gmail.com"
+  },
+  "record": {
+    "CNAME": "Paulo-if.github.io"
+  }
+}
