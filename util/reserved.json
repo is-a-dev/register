@@ -1,5 +1,6 @@
 [
     "about",
+    "abuse",
     "access",
     "account",
     "accounts",
@@ -24,6 +25,7 @@
     "dash",
     "dashboard",
     "dev",
+    "devops",
     "discord",
     "dns",
     "doc",
@@ -128,6 +130,7 @@
     "system",
     "team",
     "test",
+    "testing",
     "tools",
     "url",
     "util",
