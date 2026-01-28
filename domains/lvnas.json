@@ -5,6 +5,12 @@
     "username": "caeser2",
     "email": "caeser222000@sohu.com"
   },
+  "records": {
+    "NS": [
+      "fish.ns.cloudflare.com",
+      "guy.ns.cloudflare.com"
+    ]
+  },
   "target": {
     "NS": {
       "name": "lvnas",
