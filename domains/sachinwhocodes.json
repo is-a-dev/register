@@ -3,7 +3,7 @@
     "username": "SachinWhoCodes",
     "email": "sachinwhocodes@gmail.com"
   },
-  "records": {
-    "CNAME": "https://sachinwhocodes.vercel.app"
+  "record": {
+    "CNAME": "sachinwhocodes.vercel.app"
   }
 }
