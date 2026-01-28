@@ -1,0 +1,9 @@
+{
+  owner: {
+    username: ephemeral8997,
+      email: mazen001.ahmed001@gmail.com
+  },
+  records: {
+    CNAME: ephemeral8997.github.io
+  }
+}
