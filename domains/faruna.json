@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "farunawebservices"
+    "username": "farunawebservices",
+    "email": "farunagodwin01@gmail.com"
   },
   "records": {
-    "CNAME": "ai-portfolio-frontend-mocha.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
