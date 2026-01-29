@@ -3,7 +3,7 @@
     "username": "fekikarim",
     "email": "karim.feki.com@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["216.198.79.1"],
     "TXT": [
       "vc-domain-verify=karimfeki.is-a.dev,cb310a2db5e9066b63e8"
