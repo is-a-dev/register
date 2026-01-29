@@ -14,6 +14,17 @@
         "TXT": [
             "v=spf1 include:spf.improvmx.com include:spf.brevo.com ~all",
             "brevo-code:48785c909fd9b5599c12767fc992db3e"
-        ]
+        ],
+        "subdomains": {
+            "www": {
+                "CNAME": "alexgaming-dev.github.io"
+            },
+            "support": {
+                "CNAME": "alexgaming-dev.github.io"
+            },
+            "_gh-AlexGaming-dev-o": {
+                "TXT": "4eca742694"
+            }
+        }
     }
 }
