@@ -4,6 +4,6 @@
         "email": "mohamed.rabie.abdelhameed@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "A": ["76.76.21.21"]
     }
 }
