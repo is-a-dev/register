@@ -1,0 +1,33 @@
+{
+  "owner": {
+    "username": "fusionofficial",
+    "email": "atomfusiondev@gmail.com",
+    "discord": "mikropekka"
+  },
+  "records": {
+    "CNAME": "system-4dz.pages.dev",
+    "TXT": [
+      "google-site-verification=gTwPak7dIPqmH6Ro6cUrM9q5ZY3OtIZegGseNNxTqxU",
+      "v=spf1 include:zohomail.eu ~all"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.eu",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.eu",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.eu",
+        "priority": 50
+      }
+    ],
+    "CAA": [
+      { "tag": "issue", "value": "pki.goog" },
+      { "tag": "issue", "value": "letsencrypt.org" }
+    ]
+  },
+  "proxied": true
+}
