@@ -1,1 +1,5 @@
-zhouxx
+{
+"zhouxx": {
+"nameservers": ["ns1.cloudflare.com", "ns2.cloudflare.com"]
+}
+}
