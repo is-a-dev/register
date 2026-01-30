@@ -4,6 +4,6 @@
         "email": "ttonythomasndm@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=tonythomas.is-a.dev,135faf4754962f029ac9"]
+        "TXT": "vc-domain-verify=tonythomas.is-a.dev,135faf4754962f029ac9"
     }
 }
