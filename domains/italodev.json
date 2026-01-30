@@ -3,14 +3,13 @@
     "username": "italofvm"
   },
   "records": {
-    "CNAME": [
+    "CNAME": 
       "c2dab04b83297437.vercel-dns-017.com"
-    ],
-    "TXT": [
+    ,
+    "TXT": 
       {
         "name": "_vercel",
         "value": "vc-domain-verify=www.italodev.is-a.dev,4c7a452d2c042f701476"
       }
-    ]
   }
 }
