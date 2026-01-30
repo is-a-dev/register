@@ -1,0 +1,11 @@
+{
+  "description": "Site da rifa dos 3.500 meticais em Nampula",
+  "repo": "https://github.com/SEUUSUARIO/rifa-3500-meticais",
+  "owner": {
+    "username": "SEUUSUARIO",
+    "email": "seuemailreal@example.com"
+  },
+  "records": {
+    "CNAME": "SEUUSUARIO.github.io"
+  }
+}
