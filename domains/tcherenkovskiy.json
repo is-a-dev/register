@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "SanyTcheren",
+        "email": "tcherenkovskiy@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "frank.ns.cloudflare.com",
+            "marjory.ns.cloudflare.com"
+        ]
+    }
+}
