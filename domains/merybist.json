@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "merybist",
-        "email": "od.forall@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=merybist.is-a.dev,904e78c45c906500cb5c"
+      }
+    ]
+  }
 }
