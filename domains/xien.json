@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "xienozyurt",
+    "email": "zeynepmehmetaliy@gmail.com"
+  },
+  "description": "Web programmer specialized in JS and Python script development.",
+  "proxied": true,
+  "records": {
+    "CNAME": "x1en.netlify.app",
+    "TXT": "verified-for-netlify=8b856478-aa59-4654-9986-9c00d7d8ce09"
+  }
+}
