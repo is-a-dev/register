@@ -3,12 +3,12 @@
         "username": "shauryach0pra",
         "email": "sh4uryachopra@gmail.com"
     },
-    "record": {
-        "TXT": {
-            "resend._domainkey": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCd58hWFtXVAFzq52SczkhIhotw7U6tK3KDbvDx6+yyZOlbcw6rake4KhRw345YJl7L6AHvZhOTQanb1ZYt2mzaNqkylVA2ISvIYCZ8RMrzatRt5pisMFEQuPcPsBTxpDUNxYoQucNlR49Gltj7WLnEmgaupvHV/QRQd8iZJ/5NWwIDAQAB",
-            "send": "v=spf1 include:amazonses.com ~all",
-            "_dmarc": "v=DMARC1; p=none;"
-        },
+    "records": {
+        "TXT": [
+            "resend._domainkey=p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCd58hWFtXVAFzq52SczkhIhotw7U6tK3KDbvDx6+yyZOlbcw6rake4KhRw345YJl7L6AHvZhOTQanb1ZYt2mzaNqkylVA2ISvIYCZ8RMrzatRt5pisMFEQuPcPsBTxpDUNxYoQucNlR49Gltj7WLnEmgaupvHV/QRQd8iZJ/5NWwIDAQAB",
+            "v=spf1 include:amazonses.com ~all",
+            "_dmarc=v=DMARC1; p=none;"
+        ],
         "MX": ["feedback-smtp.ap-northeast-1.amazonses.com"]
     }
 }
