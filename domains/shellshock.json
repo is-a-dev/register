@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "krusty-agent",
+    "email": "krusty-agent@users.noreply.github.com"
+  },
+  "record": {
+    "CNAME": "krusty-signals-production.up.railway.app"
+  }
+}
