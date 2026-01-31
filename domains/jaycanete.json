@@ -1,1 +1,11 @@
-
+{
+  "description": "Personal portfolio of Jay Cañete",
+  "repo": "https://github.com/jay-kiuren/jaycanete-webpage",
+  "owner": {
+    "username": "jay-kiuren",
+    "email": "jaycanete00@gmail.com"
+  },
+  "record": {
+    "CNAME": "jaycanete.netlify.app"
+  }
+}
