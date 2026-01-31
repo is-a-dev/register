@@ -1,0 +1,11 @@
+{                                                                           
+    "description": "Personal portfolio",                                      
+    "repo": "https://github.com/ntthienan0507-web/profilio",                      
+    "owner": {                                                                
+      "username": "ntthienan0507-web",                                     
+      "email": "n.t.thienan0507@gmail.com"                                                   
+    },                                                                        
+    "record": {                                                               
+      "CNAME": "cname.vercel-dns.com"                                         
+    }                                                                         
+}  
