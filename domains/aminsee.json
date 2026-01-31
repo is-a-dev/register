@@ -1,0 +1,11 @@
+{
+  "description": "Personal website of aminsee",
+  "repo": "https://github.com/aminsee30/see30",
+  "owner": {
+    "username": "aminsee30",
+    "email": "amingholamisee@gmail.com"
+  },
+  "records": {
+    "CNAME": "aminsee30.github.io"
+  }
+}
