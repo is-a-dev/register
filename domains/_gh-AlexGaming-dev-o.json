@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "alexgamingstudio",
+        "email": "info@alexgaming.is-a.dev"
+    },
+    "description": "GitHub Domain Verification for Alex Gaming",
+    "proxied": false,
+    "records": {
+        "TXT": "4eca742694"
+    }
+}
