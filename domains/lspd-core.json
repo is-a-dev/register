@@ -1,0 +1,10 @@
+{
+  "description": "Sito del progetto LSPD",
+  "repo": "Mattweea/LspdCore",
+  "owner": {
+    "username": "Mattweea"
+  },
+  "record": {
+    "CNAME": "Mattweea.github.io"
+  }
+}
