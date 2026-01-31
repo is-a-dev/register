@@ -1,13 +1,8 @@
 {
-"description": "Personal website",
-"repo": "https://github.com/Samarth24558",
-
-"owner": { 
-  "username": "Samarth24558",
-  "email": "samarth24558@gmail.com",
-},
-
-"records": {
-  "CNAME": "samarth24558.github.io"
-}
+  "owner": {
+    "username": "Samarth24558"
+  },
+  "records": {
+    "CNAME": "samarth24558.github.io"
+  }
 }
