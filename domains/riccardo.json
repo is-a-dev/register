@@ -4,7 +4,7 @@
     "email": "riccardo.debellini@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": ["216.198.79.1"],
     "MX": [
       "10 mx1.improvmx.com",
       "20 mx2.improvmx.com"
