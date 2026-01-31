@@ -3,7 +3,10 @@
         "username": "riccardodebellini",
         "email": "riccardo.debellini@gmail.com"
     },
-    "records": {
-        "A": ["216.198.79.1"]
+    "record": {
+        "NS": [
+            "georgia.ns.cloudflare.com",
+            "keaton.ns.cloudflare.com"
+        ]
     }
 }
