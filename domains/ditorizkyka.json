@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ditorizkyka",
-    "email": "rizkykandito@gmail.com"
-  },
-  "records": {
-    "URL": "https://github.com/ditorizkyka"
-  }
+    "owner": {
+        "username": "ditorizkyka",
+        "email": "rizkykandito@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
