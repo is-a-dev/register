@@ -1,11 +1,15 @@
 {
-  "description": "Fastering18 portofolio website",
-  "repo": "https://github.com/Fastering18/Fastering18.github.io",
-  "owner": {
-    "username": "fastering18",
-    "email": "fastering18@gmail.com"
-  },
-  "record": {
-    "CNAME": "fastering18.github.io"
-  }
+    "owner": {
+        "username": "Fastering18",
+        "email": "fastering18@gmail.com"
+    },
+    "description": "Fastering18 portofolio website",
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ],
+        "TXT": [
+            "vc-domain-verify=fastering.is-a.dev,797dadfec2a2eecbc1b0"
+        ]
+    }
 }
