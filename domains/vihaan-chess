@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "krisvih32alt"
-    },
-    "records": {
-        "RECORDTYPE": "CNAME"
-        "RECORDCONTENT": "https://krisvih32alt.github.io/chess/"
-    }
+  "owner": {
+    "username": "krisvih32alt",
+    "email": "electrovive.tech@gmail.com"
+  },
+  "records": {
+    "CNAME": "krisvih32alt.github.io/chess"
+  },
+  "proxied": true
 }
