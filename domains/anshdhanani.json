@@ -4,11 +4,7 @@
     "email": "ansh61658@gmail.com"
   },
   "records": {
-    "CNAME": "anshdhanani.vercel.app",
-    "TXT": [
-      "vc-domain-verify=anshdhanani.is-a.dev,997d66edd4df1c8b330a",
-      "vc-domain-verify=www.anshdhanani.is-a.dev,19d414fce58465e0a127"
-    ]
+    "CNAME": "anshdhanani.vercel.app"
   },
   "proxied": true
 }
