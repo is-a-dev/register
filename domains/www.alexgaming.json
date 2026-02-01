@@ -3,8 +3,9 @@
         "username": "alexgamingstudio",
         "email": "info@alexgaming.is-a.dev"
     },
-    "description": "GitHub Organization Verification",
+    "description": "WWW Redirect/Mirror for Alex Gaming Portfolio",
+    "proxied": true,
     "records": {
-        "TXT": ["4eca742694"]
+        "CNAME": "alexgaming-dev.github.io"
     }
 }
