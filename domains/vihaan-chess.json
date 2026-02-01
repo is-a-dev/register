@@ -4,7 +4,7 @@
     "email": "electrovive.tech@gmail.com"
   },
   "records": {
-    "CNAME": "https://vihaans-chess.github.io/"
+    "CNAME": "vihaans-chess.github.io."
   },
-  "proxied": true
+  "proxied": false
 }
