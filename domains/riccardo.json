@@ -6,8 +6,8 @@
   "records": {
     "A": ["216.198.79.1"],
     "MX": [
-      "10 mx1.improvmx.com",
-      "20 mx2.improvmx.com"
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
     ],
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all"
