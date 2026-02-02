@@ -4,7 +4,8 @@
     "email": "samarth192025@gmail.com"
   },
   "records": {
-    "CNAME": "samarthgit-code.github.io"
+    "A": ["106.216.172.1"]
+
   }
 
 }
