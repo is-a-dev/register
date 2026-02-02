@@ -1,9 +1,10 @@
 {
-  "description": "AntiFolio – Master Career Depository",
   "owner": {
-    "username": "yamenxena"
+    "username": "yamenxena",
+    "email": "yamenxena@gmail.com"
   },
-  "record": {
-    "CNAME": "antifolio.pages.dev"
-  }
+  "records": {
+    "CNAME": "antifolioapp.pages.dev"
+  },
+  "proxied": true
 }
