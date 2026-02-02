@@ -8,5 +8,6 @@
   "records": {
     "CNAME": "juanperuzzo.vercel.app",
     "TXT": "vc-domain-verify=www.juanperuzzo.is-a.dev,63ec86e5e7b1c606d54b"
-  }
+  },
+  "proxied": true
 }
