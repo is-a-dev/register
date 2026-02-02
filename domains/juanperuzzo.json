@@ -6,6 +6,7 @@
     "email": "juanperuzzo13@gmail.com"
   },
   "records": {
-    "CNAME": "juanperuzzo.vercel.app"
+    "CNAME": "juanperuzzo.vercel.app",
+    "TXT": "vc-domain-verify=www.juanperuzzo.is-a.dev,63ec86e5e7b1c606d54b"
   }
 }
