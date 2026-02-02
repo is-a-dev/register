@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "JpCobraC"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "JpCobraC"
+  },
+  "records": {
+    "CNAME": "3ad8bf47972a848d.vercel-dns-017.com."
+  }
 }
