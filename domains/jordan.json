@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "jordru"
+    },
+    "record": {
+        "CNAME": "jordru.github.io",
+        "TXT": ["dh=5aee6ca9df183632b7b3663618c07427eb4579db"]
+    }
+}
