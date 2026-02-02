@@ -4,6 +4,6 @@
         "email": "nawvalovsky@proton.me"
     },
     "records": {
-        "TXT": "vc-domain-verify=nawvalovsky.is-a.dev,e0f1ea20ca5adb473bc1"
+        "A": ["75.2.60.5"]
     }
 }
