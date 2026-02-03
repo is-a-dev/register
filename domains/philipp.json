@@ -4,6 +4,6 @@
     "email": "endergamingz@setilic.com"
   },
   "records": {
-    "CNAME": "philipp.flouet.com"
+    "A": ["216.198.79.1"]
   }
 }
