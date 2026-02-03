@@ -1,0 +1,11 @@
+{
+  "description": "hashes.is-a.dev",
+  "owner": {
+    "username": "hashes02",
+    "email": "hashes0606@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "A": ["95.217.177.225"]
+  }
+}

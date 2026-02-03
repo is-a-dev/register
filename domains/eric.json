@@ -1,11 +1,10 @@
 {
   "description": "Eric's website and blog",
-  "repo": "https://github.com/yurrriq",
   "owner": {
     "username": "yurrriq",
     "email": "eric@ericb.me"
   },
-  "record": {
+  "records": {
     "CNAME": "yurrriq.github.io"
   }
 }

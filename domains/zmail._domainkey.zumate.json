@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "userandaname",
+    "discord": "823939421686071386"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCThzWhBz8eg5c4bE11qwCi95FvVOoSVi+8N70lAA3TRwkxAvgiUkiOj39M+9hgIvQ/8v3+VCerHvDmShl+AxatGvM0vrEZ7ZTQx0nT6YGeCYgebmhAQKyhqnGOL6YmDGHr0MkosD5/ApW1yPjwL0PqbXtALG9vMTyaI7dtZLDBHwIDAQAB"
+  }
+}

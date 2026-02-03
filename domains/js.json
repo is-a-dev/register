@@ -1,11 +1,24 @@
 {
-    "owner": {
-        "username": "ukrioo",
-        "email": "u8k50850@gmail.com"
+  "description": "js.is-a.dev",
+  "owner": {
+    "username": "JustDeveloper1",
+    "email": "support@juststudio.is-a.dev",
+    "discord": "1117482901353812088"
+  },
+  "records": {
+    "URL": "https://juststudio.is-a.dev/"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/00": "https://juststudio.is-a.dev/account/#/security?from=wellknown",
+      "/01": "https://juststudio.is-a.dev/terms",
+      "/02": "https://juststudio.is-a.dev/rules",
+      "/03": "https://juststudio.is-a.dev/account/",
+      "/encoder": "https://encoder.js.is-a.dev/",
+      "/encoder/latest": "https://encoder.js.is-a.dev/encoder.js@1.0.1.js",
+      "/encoder/1.0.0": "https://encoder.js.is-a.dev/encoder.js@1.0.0.js",
+      "/encoder/1.0.1": "https://encoder.js.is-a.dev/encoder.js@1.0.1.js"
     },
-    "record": {
-        "URL": "https://ukrioo.github.io/",
-        "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-        "TXT": "forward-email=u8k50850@gmail.com"
-    }
+    "redirect_paths": true
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Nishith-Savla",
-        "email": "nishithsavla005@gmail.com"
-    },
-    "record": {
-        "CNAME": "nishith.tech"
-    }
+  "owner": {
+    "username": "zarir-engineer",
+    "email": "zarir.utube@gmail.com"
+  },
+  "records": {
+    "CNAME": "zarir-engineer.github.io"
+  }
 }
