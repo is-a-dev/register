@@ -1,12 +1,10 @@
 {
-  "description": "WitherCubes' portfolio website",
-  "repo": "https://codeberg.org/WitherCubes/pages",
   "owner": {
     "username": "WitherCubes",
     "email": "withercubes@protonmail.com",
     "discord": "WitherCubes#2513"
   },
-  "record": {
+  "records": {
     "CNAME": "withercubes.codeberg.page"
   }
 }

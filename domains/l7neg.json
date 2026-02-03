@@ -4,7 +4,7 @@
     "email": "l7negdev@gmail.com",
     "discord": "669453086418534400"
   },
-  "record": {
-    "A": ["34.111.254.92"]
+  "records": {
+    "CNAME": "l7neg.pages.dev"
   }
 }

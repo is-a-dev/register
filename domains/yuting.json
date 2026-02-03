@@ -1,11 +1,9 @@
 {
-  "description": "yuting.is-a.dev",
-  "repo": "https://github.com/wyuting0/wyuting0.github.io",
-  "owner": {
-    "username": "wyuting0",
-    "email": "wyuting2011@gmail.com"
-  },
-  "record": {
-    "CNAME": "wyuting0.github.io"
-  }
+    "owner": {
+        "username": "wyuting0",
+        "email": "wyuting2011@gmail.com"
+    },
+    "records": {
+        "CNAME": "wyuting0.github.io"
+    }
 }
