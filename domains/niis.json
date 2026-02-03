@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "thien0709",
+    "email": "thien070904@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "TXT": "vc-domain-verify=is-a.dev,8d38d241285c33446451"
+  }
+}
