@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "bluedroidmoney"
+    "username": "bluedroidmoney",
     "email": "badmanpaul9@gmail.com"
   },
   "record": {
-    "CNAME": "ghs.googlehosted.com.",
-    "TXT": "google-site-verification=srxwKLXQYTjdSxVZPE3HaZbrJcEhaPEUSLDNXO6TwQ4"
+    "CNAME": "ghs.googlehosted.com."
   }
 }
