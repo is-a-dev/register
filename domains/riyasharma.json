@@ -2,8 +2,10 @@
   "description": "Portfolio of Riya Sharma, Software Developer",
   "repo": "https://github.com/riya-sharma17/Riya-Sharma-Portfolio",
   "owner": {
-    "username": "riya-sharma17"
-  },
+  "username": "riya-sharma17",
+  "email": "riyasharma97815@gmail.com"
+},
+
   "record": {
     "CNAME": "riya-sharma-portfolio-wngk.vercel.app"
   }
