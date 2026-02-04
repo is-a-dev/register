@@ -3,8 +3,8 @@
     "username": "bobtattvamasi",
     "email": "bob.tattvamasi@gmail.com"
   },
-  "record": {
-    "CNAME": "cname.vercel-dns.com"
+  "records": {
+    "CNAME": "bogdan-portfolio-website.vercel.app"
   },
   "proxied": false
 }
