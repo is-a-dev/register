@@ -4,6 +4,8 @@
         "email": "mehraj.hossain@gmail.com"
     },
     "records": {
-        "CNAME": "image-uploader-service-82759920070.us-central1.run.app"
+        "CNAME": "ghs.googlehosted.com"
     }
+    ,
+      "proxied": false
 }
