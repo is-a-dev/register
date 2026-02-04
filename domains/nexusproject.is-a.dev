@@ -1,0 +1,11 @@
+{
+  "description": "Sitio web de NEXUS RAIL PROJECT - Maquinaria Ferroviaria en Colombia",
+  "repo": "https://github.com/nexproject9-cell/nexproject9-cell",
+  "owner": {
+    "username": "nexproject9-cell",
+    "email": "nexusrailproject@gmail.com"
+  },
+  "record": {
+    "CNAME": "nexproject9-cell.github.io"
+  }
+}
