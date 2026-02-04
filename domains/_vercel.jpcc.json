@@ -1,17 +1,12 @@
 {
-
   "owner": {
-
     "username": "JpCobraC",
-
     "email": "jpcobrac@gmail.com"
-
   },
-
   "records": {
-
-    "TXT": "vc-domain-verify=jpccp.is-a.dev,bef84b66049d2c4c16e4"
-
+    "TXT": [
+      "vc-domain-verify=jpccp.is-a.dev,bef84b66049d2c4c16e4",
+      "vc-domain-verify=www.jpccp.is-a.dev,8d06458352689aafd8cd"
+    ]
   }
-
 }
