@@ -4,7 +4,6 @@
     "email": "thien070904@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": "vc-domain-verify=niis.is-a.dev,093027883263d9a85353"
+    "A": ["216.198.79.1"]
   }
 }
