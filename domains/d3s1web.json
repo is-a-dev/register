@@ -1,1 +1,8 @@
-
+{
+    "owner": {
+        "username": "d3s1-spec"
+    },
+    "records": {
+        "CNAME": "aboutd3s1.org"
+    }
+}
