@@ -1,8 +1,12 @@
 {
   "owner": {
-    "username": "Osama101973"
+    "username": "Osama101973",
+    "email": "osamatawfikelshimy10@gmail.com"
   },
-  "record": {
-    "A": ["76.76.21.21"]
+  "records": {
+    "A": ["76.76.21.21"],
+    "CNAME": {
+      "www": "cname.vercel-dns.com"
+    }
   }
 }
