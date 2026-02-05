@@ -4,6 +4,11 @@
     "email": "puneetcodes@gmail.com"
   },
   "records": {
-    "CNAME": "puneet-prajapat.netlify.app"
+    "CNAME": "puneet-prajapat.vercel.app"
+  },
+  "subdomains": {
+    "_vercel": {
+      "TXT": "vc-domain-verify=puneet.is-a.dev,464aa858e2f776b7e1d4"
+    }
   }
 }
