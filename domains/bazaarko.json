@@ -3,6 +3,7 @@
     "username": "Osama101973",
     "email": "osamatawfikelshimy10@gmail.com"
   },
+  "proxied": true,
   "records": {
     "A": ["76.76.21.21"],
     "CNAME": {
