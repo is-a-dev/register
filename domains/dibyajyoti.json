@@ -14,7 +14,7 @@
         "TXT": [
             "v=spf1 include:spf.improvmx.com ~all",
         "google-site-verification=9i5x0zqauM0B0GejCX6W7GDECxnSi-D49wCCcIhfWAU"
-        ],
+        ]
         
     },
     "proxied": true
