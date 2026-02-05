@@ -1,0 +1,12 @@
+{
+  "description": "Weekly creator intelligence emails",
+  "repo": "https://github.com/zenhakp/CreatorMind",
+  "owner": {
+    "username": "zenhakp",
+    "email": "fathimathulzenhakp@gmail.com"
+  },
+  "record": {
+    "MX": ["mx1.resend.com"],
+    "TXT": ["resend-domain-verification=pending"]
+  }
+}
