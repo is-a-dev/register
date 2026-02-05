@@ -3,6 +3,6 @@
         "username": "d3s1-spec"
     },
     "records": {
-        "CNAME": "aboutd3s1.org"
+        "CNAME": "aboutd3s1.netlify.app"
     }
 }
