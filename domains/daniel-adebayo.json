@@ -4,11 +4,6 @@
     "email": "darnielq@gmail.com"
   },
   "records": {
-    "CNAME": "daniel-adebayo.netlify.app",
-    "subdomains": {
-      "blog": {
-        "CNAME": "hashnode.network"
-      }
-    }
+    "CNAME": "daniel-adebayo.netlify.app"
   }
 }
