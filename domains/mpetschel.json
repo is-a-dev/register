@@ -1,9 +1,10 @@
 {
- "owner": {
-     "username": "mpets1",
-     "email": "michealrp13@gmail.com"
+  "owner": {
+    "username": "mpets1",
+    "email": "michealrp13@gmail.com"
   },
- "records": {
-     "TXT": ["zoho-verification=zb68070934.zmverify.zoho.com"]
-  }
+  "records": {
+    "CNAME": "mpets1.github.io"
+  },
+  "proxied": true
 }
