@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "renatomf",
-        "email": "renatomardevgmail.com"
-    },
-    "records": {
-        "CNAME": "cv-il91eklce-renatomf76s-projects.vercel.app"
-    }
+  "domain": "renatomf.is-a.dev",
+  "owner": {
+    "username": "renatomf",
+    "email": "renatomardev@gmail.com"
+  },
+  "records": {
+    "CNAME": "cv-rmf-renatomf76s-projects.vercel.app"
+  }
 }
