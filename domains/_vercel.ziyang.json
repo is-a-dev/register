@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "your-github-username",
+        "email": "[email protected]"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=ziyang.is-a.dev,1a5c652244e63f9f15f7"
+    }
+}
