@@ -3,8 +3,7 @@
     "username": "codermillat",
     "email": "mdmillathosen@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "proxy": false
+  }
 }
