@@ -1,0 +1,12 @@
+{
+  "description": "Dominio de pruebas para aprender Cloudflare DNS",
+  "owner": {
+    "username": "BPoER00"
+  },
+  "record": {
+    "NS": [
+      "ns1.placeholder.com",
+      "ns2.placeholder.com"
+    ]
+  }
+}
