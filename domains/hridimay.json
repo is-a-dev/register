@@ -4,6 +4,9 @@
     "email": "hridimay@gmail.com"
   },
   "records": {
-    "CNAME": "hridimay.github.io"
+    "NS": [
+      "dell.ns.cloudflare.com",
+      "steven.ns.cloudflare.com"
+    ]
   }
 }
