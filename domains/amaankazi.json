@@ -1,11 +1,9 @@
 {
-  "description": "Amaan Kazi's website containing portfolio, projects, games and more",
-  "repo": "https://github.com/Amaan-Kazi/website-amaan-kazi",
   "owner": {
     "username": "Amaan-Kazi",
     "email": "amaankazi1793@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "amaankazi.pages.dev"
   }
 }

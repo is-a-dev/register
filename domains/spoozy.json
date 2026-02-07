@@ -1,11 +1,9 @@
 {
-  "description": "Spoozy website",
-  "repo": "https://github.com/Spoozy/Spoozy.github.io",
   "owner": {
     "username": "Spoozy",
     "email": "gaspardlebreton@outlook.com"
   },
-  "record": {
+  "records": {
     "CNAME": "spoozy.github.io"
   }
 }

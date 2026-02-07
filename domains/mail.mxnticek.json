@@ -4,10 +4,7 @@
     "username": "VlastikYoutubeKo",
     "email": "plainrock@seznam.cz"
   },
-  "record": {
-    "MX": [
-      "d9025d2074984e72.mx2.emailprofi.seznam.cz",
-      "d9025d2074984e72.mx1.emailprofi.seznam.cz"
-    ]
+  "records": {
+    "MX": ["d9025d2074984e72.mx2.emailprofi.seznam.cz", "d9025d2074984e72.mx1.emailprofi.seznam.cz"]
   }
 }

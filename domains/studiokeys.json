@@ -1,0 +1,11 @@
+{
+  "repo": "https://github.com/StudioKeys/register",
+  "owner": {
+    "username": "StudioKeys",
+    "email": "studiokeys@blissroms.org"
+  },
+  "records": {
+    "CNAME": "studiokeys.vercel.app"
+  },
+  "proxied": true
+}

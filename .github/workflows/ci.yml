@@ -10,13 +10,11 @@ on:
             - "tests/*"
             - "util/*"
             - ".github/workflows/ci.yml"
-            - "dnsconfig.js"
 
     workflow_dispatch:
 
 concurrency:
     group: ${{ github.ref }}-ci
-    cancel-in-progress: true
 
 jobs:
     tests:

@@ -1,11 +1,10 @@
 {
   "description": "arunvishnu.is-a.dev: website for my portoflio",
-  "repo": "https://github.com/arunvishnu/magicui-portfolio",
   "owner": {
     "username": "arunvishnu",
     "email": "arun.vishnu@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "arunvishnu.com"
   }
 }

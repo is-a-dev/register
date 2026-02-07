@@ -1,0 +1,27 @@
+{
+    "owner": {
+      "username": "Nowazish-Nur-Kayef",
+      "email": "nawazishkayef@gmail.com"
+    },
+    "records": {
+      "A": ["75.2.60.5"],
+      "TXT": [
+        "zoho-verification=zb20194414.zmverify.zoho.com",
+        "v=spf1 include:zohomail.com ~all"
+      ],
+      "MX": [
+        {
+          "target": "mx.zoho.com",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.com",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.com",
+          "priority": 50
+        }
+      ]
+    }
+  }

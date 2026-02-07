@@ -1,0 +1,19 @@
+{
+    "owner": {
+        "username": "ok-coder1",
+        "email": "codershub.code@gmail.com",
+        "discord": "okcoder1"
+    },
+    "records": {
+        "CNAME": "ok-coder1.github.io",
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com ~all",
+            "google-site-verification=wdA-Wl8tP7neiXRq0ofIpsXZ0O5UEhTz72pqNRgyOAU"
+        ]
+    },
+    "proxied": true
+}

@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "174n",
-    "email": "174n@riseup.net"
+    "username": "cjolivier123",
+    "email": "cjolivier001@gmail.com"
   },
-  "record": {
-    "CNAME": "alexandrov.online"
-  }
+  "records": {
+    "TXT": "zoho-verification=zb70739481.zmverify.zoho.com",
+    "URL": "https://github.com/cjolivier123"
+  },
+  "proxied": false
 }

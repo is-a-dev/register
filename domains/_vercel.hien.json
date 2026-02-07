@@ -3,7 +3,7 @@
     "username": "hienlh",
     "email": "hienlh1298@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=hien.is-a.dev,8c95220c38753532b45f"]
+  "records": {
+    "TXT": "vc-domain-verify=hien.is-a.dev,8c95220c38753532b45f"
   }
 }

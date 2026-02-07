@@ -1,11 +1,9 @@
 {
-  "description": "AshC1ty's Website",
-  "repo": "https://github.com/AshC1ty/ashc1ty.github.io",
   "owner": {
     "username": "AshC1ty",
     "email": "ashcity07734@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ashc1ty.github.io"
   }
 }

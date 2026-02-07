@@ -1,11 +1,9 @@
 {
-    "description": "SMLX Design's personal blog site",
-    "repo": "https://github.com/smlxdesign/astro-newsite",
-    "owner": {
-        "username": "smlxdesign",
-        "email": "samuel.smlxdesign@gmail.com"
-    },
-    "record": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "smlxdesign",
+    "email": "samuel.smlxdesign@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

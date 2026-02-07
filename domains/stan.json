@@ -1,9 +1,25 @@
 {
   "owner": {
-    "username": "stansters",
-    "email": "stanleygeorgebond@gmail.com"
+   "username": "stanleysutton",
+    "email": "stanleysutton2510@gmail.com"
   },
-  "record": {
-    "A": ["132.145.22.92"]
-  }
+  "records": {
+    "A": ["76.76.21.21"],
+    "TXT": ["zoho-verification= zb43527147.zmverify.zoho.eu", "v=spf1 include:zohomail.eu ~all"],
+    "MX": [
+      {
+        "target": "mx.zoho.eu",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.eu",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.eu",
+        "priority": 50
+      }
+    ]
+  },
+  "proxied": true
 }

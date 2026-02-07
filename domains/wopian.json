@@ -1,11 +1,9 @@
 {
-  "description": "Homepage for my projects and open source contributions",
-  "repo": "https://github.com/wopian/wopian.me",
   "owner": {
     "username": "wopian",
     "twitter": "wopian_"
   },
-  "record": {
+  "records": {
     "URL": "https://wopian.me"
   }
 }

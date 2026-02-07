@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio",
-  "repo": "https://github.com/jcgaming-official/jcgaming-official.github.io",
   "owner": {
     "username": "jcgaming-official",
     "email": "dev.jcquieta@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "jcgaming-official.github.io"
   }
 }

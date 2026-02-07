@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "thorerik",
-    "discord": "107056552212447232",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.F6zhssd8zE-flkk300JMr63UJLCkeuPHAwqIH5cGnonDP518oKiR1OZYawVLnzKrIHNrGcZBPX09cCxiLg9sebHfP0TLthuGpM3PWEw6F0Zmbo3kvIHYWlmtnCJLhM5a4bxxwGJYS_Lb77-SzZkZrRsc__slqrpzZspu4R0SFjC6XSvfutYJLac00Wfp0yW4PZhgja9v-2W0DVW7a5fGUAKJT-E-JXfIORrmjHOCysJdxGfn468h6TDKxYDJbwjFffjNuY3jVHNK1s9Nouf7bya9bTvgtdQCoiaPO0OdlX4PIbeHKD01oLAOlKQjcPkUC2L9YLqN0rrwpHop3vHwBA.-rIc3UZYeyaMd64cOpSYbw.UridMk-3yNDqMa0VdqmjUKjS8rSmY2blxZDEv7DoMB6dd_Eb6yLFq1MYWujwTO93W6EatgvotWXAM9ZUPhYchWY1uPMQ99S_1P_Q4c6qR7Ch7yTSvKnU_qYsT4QiC-gO.BYZgAlo82oK0UJsCavGwSg"
+    "discord": "107056552212447232"
   },
-  "record": {
+  "records": {
     "CNAME": "beorn-blog.pages.dev"
   }
 }
