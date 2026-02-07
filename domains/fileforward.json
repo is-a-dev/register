@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "silenterased"
+    },
+    "record": {
+        "NS": [
+            "alice.ns.cloudflare.com",
+            "bob.ns.cloudflare.com"
+        ]
+    }
+}
