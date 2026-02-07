@@ -1,9 +1,9 @@
 {
-     "owner": {
-       "username": "varun369",
-       "email": "varun.pratap.bhardwaj@gmail.com"
-     },
-     "record": {
-       "CNAME": "varun369.github.io"
-     }
-   }
+  "owner": {
+    "username": "varun369",
+    "email": "varun.pratap.bhardwaj@gmail.com"
+  },
+  "records": {
+    "CNAME": "varun369.github.io"
+  }
+}
