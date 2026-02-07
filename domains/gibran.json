@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "NotGibranID",
-        "email": "notgibranreal@gmail.com"
-    },
-    "records": {
-        "CNAME": "sygbt-my-id.pages.dev"
-    }
+  "owner": {
+    "username": "gebrann",
+    "email": "notgibranreal@gmail.com"
+  },
+  "records": {
+    "A": "45.64.97.109"
+  },
+  "proxied": true
 }
