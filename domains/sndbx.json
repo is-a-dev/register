@@ -1,0 +1,11 @@
+{
+  "description": "Sandbox AWS EC2 API",
+  "domain": "sndbx.is-a.dev",
+  "subdomain": "sndbx",
+  "owner": {
+    "email": "lupardoca@gmail.com"
+  },
+  "record": {
+    "A": ["51.21.55.244"]
+  }
+}
