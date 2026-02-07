@@ -6,6 +6,7 @@
     "discord": "Simon Wong#6040"
   },
   "records": {
-    "URL": "https://github.com/simonwong"
+    "A": ["216.198.7.91"],
+    "TXT": ["vc-domain-verify=simonwong.is-a.dev.97ea125df5ebac2b1ed4"]
   }
 }
