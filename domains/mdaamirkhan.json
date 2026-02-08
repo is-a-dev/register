@@ -1,10 +1,9 @@
 {
-  "description": "Personal portfolio website",
-  "repo": "https://github.com/khanempire/Aamir_Portfolio_Latest",
   "owner": {
-    "username": "khanempire"
+    "username": "khanempire",
+    "email": "mdaamirkhan804@gmail.com"
   },
-  "record": {
-    "CNAME": "https://aamir-portfolio-latest.onrender.com/"
+  "records": {
+    "CNAME": "aamir-portfolio-latest.onrender.com"
   }
 }
