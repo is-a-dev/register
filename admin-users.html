@@ -1,0 +1,148 @@
+<!-- PAGE: ADMIN USER MANAGEMENT -->
+    <div id="view-admin-users" class="page-view pt-24 pb-20 bg-[#0a0c10] min-h-screen">
+        <div class="max-w-7xl mx-auto px-4">
+            
+            <!-- HEADER -->
+            <div class="mb-8">
+                <h1 class="text-2xl font-bold text-white flex items-center gap-3">
+                    <i class="fas fa-users-gear text-red-500"></i>
+                    User Management
+                </h1>
+                <p class="text-gray-500 text-xs mono uppercase tracking-widest mt-1">
+                    Administrative access – user records & roles // <span class="text-red-900/50">Restricted Area</span>
+                </p>
+            </div>
+
+            <!-- TOP CONTROLS (UI ONLY) -->
+            <div class="flex flex-col md:flex-row gap-4 mb-8">
+                <div class="relative flex-1">
+                    <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-600 text-xs"></i>
+                    <input type="text" placeholder="Search by username or email..." class="w-full bg-[#0d1117] border border-gray-800 rounded-lg pl-9 pr-4 py-2 text-xs text-white focus:outline-none focus:border-red-500/50 transition">
+                </div>
+                <div class="flex gap-4">
+                    <select class="bg-[#0d1117] border border-gray-800 rounded-lg px-4 py-2 text-xs text-gray-400 focus:outline-none focus:border-red-500/50 appearance-none min-w-[120px]">
+                        <option>All Roles</option>
+                        <option>User</option>
+                        <option>Staff</option>
+                        <option>Admin</option>
+                    </select>
+                    <select class="bg-[#0d1117] border border-gray-800 rounded-lg px-4 py-2 text-xs text-gray-400 focus:outline-none focus:border-red-500/50 appearance-none min-w-[120px]">
+                        <option>All Status</option>
+                        <option>Active</option>
+                        <option>Blocked</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- USERS TABLE -->
+            <div class="bg-[#0d1117] border border-gray-800 rounded-2xl overflow-hidden shadow-2xl">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-gray-900/50 border-b border-gray-800">
+                                <th class="p-4 text-[10px] font-bold text-gray-500 mono uppercase tracking-widest">User ID</th>
+                                <th class="p-4 text-[10px] font-bold text-gray-500 mono uppercase tracking-widest">Identity</th>
+                                <th class="p-4 text-[10px] font-bold text-gray-500 mono uppercase tracking-widest">Role</th>
+                                <th class="p-4 text-[10px] font-bold text-gray-500 mono uppercase tracking-widest">Status</th>
+                                <th class="p-4 text-[10px] font-bold text-gray-500 mono uppercase tracking-widest">Joined</th>
+                                <th class="p-4 text-[10px] font-bold text-gray-500 mono uppercase tracking-widest text-right">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-800/50">
+                            <!-- Admin Highlighted Row -->
+                            <tr class="bg-red-500/[0.02] border-l-2 border-red-500 hover:bg-red-500/[0.04] transition-colors">
+                                <td class="p-4 text-xs text-red-500 mono">#0001</td>
+                                <td class="p-4">
+                                    <div class="flex flex-col">
+                                        <span class="text-xs text-white font-bold">root_access</span>
+                                        <span class="text-[10px] text-gray-600">admin@hackerplayground.io</span>
+                                    </div>
+                                </td>
+                                <td class="p-4">
+                                    <span class="px-2 py-0.5 bg-red-500/10 border border-red-500/30 text-red-500 text-[9px] font-bold mono uppercase rounded">Admin</span>
+                                </td>
+                                <td class="p-4">
+                                    <span class="flex items-center gap-1.5 text-emerald-500 text-[10px] mono uppercase">
+                                        <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span> Active
+                                    </span>
+                                </td>
+                                <td class="p-4 text-xs text-gray-500 mono">2023-01-12</td>
+                                <td class="p-4 text-right">
+                                    <div class="flex justify-end gap-2">
+                                        <button class="px-3 py-1 bg-gray-800 text-gray-400 text-[10px] mono rounded hover:text-white transition cursor-not-allowed">Demote</button>
+                                        <button class="px-3 py-1 bg-red-900/20 text-red-500 text-[10px] mono rounded hover:bg-red-600 hover:text-white transition">Block</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- Standard Active User -->
+                            <tr class="hover:bg-white/[0.02] transition-colors">
+                                <td class="p-4 text-xs text-gray-600 mono">#4812</td>
+                                <td class="p-4">
+                                    <div class="flex flex-col">
+                                        <span class="text-xs text-white font-bold">bug_hunter_99</span>
+                                        <span class="text-[10px] text-gray-600">researcher@proton.me</span>
+                                    </div>
+                                </td>
+                                <td class="p-4">
+                                    <span class="px-2 py-0.5 bg-gray-800 text-gray-400 text-[9px] font-bold mono uppercase rounded">User</span>
+                                </td>
+                                <td class="p-4">
+                                    <span class="flex items-center gap-1.5 text-emerald-500 text-[10px] mono uppercase">
+                                        <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span> Active
+                                    </span>
+                                </td>
+                                <td class="p-4 text-xs text-gray-500 mono">2024-05-20</td>
+                                <td class="p-4 text-right">
+                                    <div class="flex justify-end gap-2">
+                                        <button class="px-3 py-1 bg-blue-900/20 text-blue-400 text-[10px] mono rounded hover:bg-blue-600 hover:text-white transition">Promote</button>
+                                        <button class="px-3 py-1 bg-red-900/20 text-red-500 text-[10px] mono rounded hover:bg-red-600 hover:text-white transition">Block</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- Blocked User Row -->
+                            <tr class="bg-red-950/10 opacity-60 hover:opacity-100 transition-opacity">
+                                <td class="p-4 text-xs text-red-900 mono">#3921</td>
+                                <td class="p-4">
+                                    <div class="flex flex-col">
+                                        <span class="text-xs text-gray-400 font-bold line-through">script_kiddie_x</span>
+                                        <span class="text-[10px] text-red-900/50 italic">Policy Violation</span>
+                                    </div>
+                                </td>
+                                <td class="p-4">
+                                    <span class="px-2 py-0.5 bg-gray-900 text-gray-600 text-[9px] font-bold mono uppercase rounded">User</span>
+                                </td>
+                                <td class="p-4">
+                                    <span class="flex items-center gap-1.5 text-red-600 text-[10px] mono uppercase font-bold">
+                                        <i class="fas fa-ban text-[8px]"></i> Blocked
+                                    </span>
+                                </td>
+                                <td class="p-4 text-xs text-gray-600 mono">2024-02-01</td>
+                                <td class="p-4 text-right">
+                                    <div class="flex justify-end gap-2">
+                                        <button class="px-3 py-1 bg-emerald-900/20 text-emerald-500 text-[10px] mono rounded hover:bg-emerald-600 hover:text-white transition">Unblock</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- PAGINATION (UI ONLY) -->
+                <div class="p-4 border-t border-gray-800 bg-gray-900/20 flex items-center justify-between">
+                    <p class="text-[10px] text-gray-600 mono uppercase tracking-tighter">Record Count: 4,812</p>
+                    <div class="flex gap-2">
+                        <button class="px-3 py-1 bg-gray-800 text-gray-500 text-[10px] mono rounded cursor-not-allowed">PREV</button>
+                        <button class="px-3 py-1 bg-gray-800 text-white text-[10px] mono rounded hover:bg-red-500 transition">NEXT</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECURITY FOOTER -->
+            <div class="mt-8 pt-8 border-t border-gray-900 text-center">
+                <p class="text-[9px] text-gray-600 mono uppercase tracking-[0.2em]">
+                    <i class="fas fa-shield-halved mr-2"></i> Audit logging is active for this session
+                </p>
+            </div>
+
+        </div>
+    </div>

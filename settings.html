@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Settings | Hackers Battle</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body class="bg-[#0a0c10] text-white">
+
+  <!-- ✅ PAGE: SETTINGS -->
+  <div class="pt-24 pb-20 min-h-screen">
+    <div class="max-w-5xl mx-auto px-4">
+
+      <!-- ✅ Top Header -->
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-10">
+        <div>
+          <h1 class="text-3xl font-bold text-white mb-2 tracking-tight">
+            Settings, <span id="settings-username" class="text-emerald-500">Loading...</span>
+          </h1>
+          <p class="text-gray-500 text-xs uppercase tracking-widest">
+            Current Session: <span id="settings-session" class="text-emerald-400">Checking...</span>
+          </p>
+        </div>
+
+        <div class="flex gap-4 flex-wrap">
+          <a href="/dashboard.html"
+            class="px-5 py-2.5 bg-gray-600/10 border border-gray-500/30 text-gray-300 rounded-lg text-xs font-bold hover:bg-gray-500 hover:text-white transition-all uppercase tracking-wider">
+            ← Dashboard
+          </a>
+
+          <button id="btn-settings-logout"
+            class="px-5 py-2.5 bg-red-600/10 border border-red-500/30 text-red-400 rounded-lg text-xs font-bold hover:bg-red-500 hover:text-white transition-all uppercase tracking-wider">
+            Logout
+          </button>
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row gap-8">
+
+        <!-- ✅ SETTINGS SIDEBAR -->
+        <div class="w-full md:w-64 shrink-0 space-y-2">
+          <h2 class="text-white font-bold text-sm uppercase tracking-widest mb-6 px-4">
+            System Config
+          </h2>
+
+          <button id="btn-tab-profile"
+            class="w-full flex items-center gap-3 px-4 py-3 bg-emerald-500/10 border border-emerald-500/30 text-emerald-500 rounded-lg text-xs font-bold transition-all uppercase">
+            <i class="fas fa-user-circle"></i> Profile
+          </button>
+
+          <button id="btn-tab-pay"
+            class="w-full flex items-center gap-3 px-4 py-3 text-gray-500 hover:text-gray-300 transition-all text-xs font-bold uppercase">
+            <i class="fas fa-credit-card"></i> Payments
+          </button>
+
+          <!-- ✅ Terminate Session removed (as you asked) -->
+        </div>
+
+        <!-- ✅ SETTINGS CONTENT -->
+        <div class="flex-1">
+
+          <!-- ✅ PROFILE SECTION -->
+          <div id="settings-profile" class="space-y-8 animate-in fade-in duration-500">
+            <div class="bg-[#0d1117] border border-gray-800 rounded-2xl p-8">
+              <h3 class="text-white font-bold mb-8 flex items-center gap-3">
+                <i class="fas fa-id-badge text-emerald-500"></i> Identity Management
+              </h3>
+
+              <!-- ✅ Avatar Upload (working) -->
+              <div class="flex items-center gap-6 mb-10 pb-10 border-b border-gray-800/50">
+                <div id="avatarBox"
+                  class="w-20 h-20 rounded-2xl bg-[#010409] border border-gray-800 flex items-center justify-center relative group overflow-hidden">
+
+                  <img id="avatarImg" src="" class="hidden w-full h-full object-cover" />
+                  <i id="avatarIcon" class="fas fa-user text-gray-700 text-2xl group-hover:opacity-20 transition-opacity"></i>
+
+                  <div class="absolute inset-0 bg-emerald-500/10 opacity-0 group-hover:opacity-100 flex items-center justify-center cursor-pointer transition-opacity">
+                    <i class="fas fa-camera text-emerald-500 text-xs"></i>
+                  </div>
+                </div>
+
+                <div class="space-y-2">
+                  <button id="btn-upload-avatar" type="button"
+                    class="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white text-[10px] font-bold rounded transition uppercase">
+                    Upload New
+                  </button>
+
+                  <button id="btn-remove-avatar" type="button"
+                    class="px-4 py-2 text-red-500/50 hover:text-red-500 text-[10px] font-bold transition uppercase block">
+                    Remove Image
+                  </button>
+
+                  <input id="avatarFile" type="file" accept="image/*" class="hidden" />
+                </div>
+              </div>
+
+              <!-- ✅ Profile Form -->
+              <div class="grid md:grid-cols-2 gap-6 mb-8">
+
+                <div class="space-y-2">
+                  <label class="text-[10px] font-bold text-gray-500 uppercase">First Name</label>
+                  <input id="firstName" type="text" value="" placeholder="First name"
+                    class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-emerald-500 transition" />
+                </div>
+
+                <div class="space-y-2">
+                  <label class="text-[10px] font-bold text-gray-500 uppercase">Last Name</label>
+                  <input id="lastName" type="text" value="" placeholder="Last name"
+                    class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-emerald-500 transition" />
+                </div>
+
+                <div class="space-y-2">
+                  <label class="text-[10px] font-bold text-gray-500 uppercase">Username</label>
+                  <input id="username" type="text" value="" placeholder="username"
+                    class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-emerald-500 transition" />
+                </div>
+
+                <div class="space-y-2">
+                  <label class="text-[10px] font-bold text-gray-500 uppercase">Email (Read-Only)</label>
+                  <input id="email" type="email" value="" readonly
+                    class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-gray-600 cursor-not-allowed" />
+                </div>
+
+                <div class="space-y-2">
+                  <label class="text-[10px] font-bold text-gray-500 uppercase">Gender</label>
+                  <select id="gender"
+                    class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-emerald-500 transition appearance-none">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Non-Binary</option>
+                    <option>Prefer not to say</option>
+                  </select>
+                </div>
+
+                <div class="space-y-2">
+                  <label class="text-[10px] font-bold text-gray-500 uppercase">Country</label>
+                  <select id="country"
+                    class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-emerald-500 transition appearance-none">
+                    <option>United States</option>
+                    <option>United Kingdom</option>
+                    <option>Germany</option>
+                    <option>India</option>
+                    <option>Singapore</option>
+                  </select>
+                </div>
+
+              </div>
+
+              <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-gray-800/50">
+                <div class="hidden md:block">
+                  <p id="msg-success" class="text-[10px] text-emerald-500 italic hidden">
+                    ✅ Profile updated successfully.
+                  </p>
+                  <p id="msg-error" class="text-[10px] text-red-500 italic hidden">
+                    ❌ Something went wrong.
+                  </p>
+                </div>
+
+                <button id="btn-save-profile" type="button"
+                  class="w-full sm:w-auto px-8 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-lg transition-all uppercase tracking-widest text-[10px]">
+                  Save Changes
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- ✅ PAYMENTS SECTION -->
+          <div id="settings-payments" class="hidden space-y-8 animate-in fade-in duration-500">
+            <div class="bg-[#0d1117] border border-gray-800 rounded-2xl p-12 text-center">
+              <div class="w-20 h-20 bg-gray-800/30 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i class="fas fa-hourglass-half text-gray-600 text-2xl animate-pulse"></i>
+              </div>
+              <h3 class="text-white font-bold text-xl mb-2">Payment System coming soon</h3>
+              <p class="text-gray-500 text-sm max-w-sm mx-auto leading-relaxed">
+                We are currently integrating our secure payment gateway. Pro subscriptions and credit-based lab access will be available shortly.
+              </p>
+              <div class="mt-8 pt-8 border-t border-gray-800/50">
+                <p class="text-[10px] text-gray-600 uppercase tracking-widest">Protocol: STRIPE_INTEGRATION_PENDING</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ✅ Firebase + Profile Save + Avatar Upload Script -->
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
+  import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js";
+  import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
+  import { getStorage, ref as sRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-storage.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyAV6iEfJ5H3kQtiHc8IEyRERK1mqJbiJZo",
+    authDomain: "hackerplayground-bf869.firebaseapp.com",
+    projectId: "hackerplayground-bf869",
+    storageBucket: "hackerplayground-bf869.firebasestorage.app",
+    messagingSenderId: "319612108619",
+    appId: "1:319612108619:web:4de1e81f08b52f574472ce",
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const db = getFirestore(app);
+  const storage = getStorage(app);
+
+  // ✅ Tabs logic
+  const btnProfile = document.getElementById("btn-tab-profile");
+  const btnPay = document.getElementById("btn-tab-pay");
+  const viewProfile = document.getElementById("settings-profile");
+  const viewPay = document.getElementById("settings-payments");
+
+  btnProfile.addEventListener("click", () => {
+    viewProfile.classList.remove("hidden");
+    viewPay.classList.add("hidden");
+
+    btnProfile.className =
+      "w-full flex items-center gap-3 px-4 py-3 bg-emerald-500/10 border border-emerald-500/30 text-emerald-500 rounded-lg text-xs font-bold transition-all uppercase";
+    btnPay.className =
+      "w-full flex items-center gap-3 px-4 py-3 text-gray-500 hover:text-gray-300 transition-all text-xs font-bold uppercase";
+  });
+
+  btnPay.addEventListener("click", () => {
+    viewProfile.classList.add("hidden");
+    viewPay.classList.remove("hidden");
+
+    btnPay.className =
+      "w-full flex items-center gap-3 px-4 py-3 bg-emerald-500/10 border border-emerald-500/30 text-emerald-500 rounded-lg text-xs font-bold transition-all uppercase";
+    btnProfile.className =
+      "w-full flex items-center gap-3 px-4 py-3 text-gray-500 hover:text-gray-300 transition-all text-xs font-bold uppercase";
+  });
+
+  // ✅ Helpers
+  const showMsg = (type) => {
+    const ok = document.getElementById("msg-success");
+    const err = document.getElementById("msg-error");
+
+    ok.classList.add("hidden");
+    err.classList.add("hidden");
+
+    if (type === "success") ok.classList.remove("hidden");
+    if (type === "error") err.classList.remove("hidden");
+
+    setTimeout(() => {
+      ok.classList.add("hidden");
+      err.classList.add("hidden");
+    }, 2500);
+  };
+
+  // ✅ Protect settings page + load profile
+  onAuthStateChanged(auth, async (user) => {
+    if (!user) {
+      window.location.replace("/index.html");
+      return;
+    }
+
+    const settingsUsername = document.getElementById("settings-username");
+    const settingsSession = document.getElementById("settings-session");
+    if (settingsSession) settingsSession.textContent = "Active ✅";
+
+    // ✅ Email input
+    const emailInput = document.getElementById("email");
+    if (emailInput) emailInput.value = user.email || "";
+
+    // ✅ Load Firestore data ONLY ONCE
+    const userRef = doc(db, "users", user.uid);
+    const userSnap = await getDoc(userRef);
+
+    let displayName = "";
+
+    if (userSnap.exists()) {
+      const data = userSnap.data();
+
+      // ✅ Fill form values
+      document.getElementById("firstName").value = data.firstName || "";
+      document.getElementById("lastName").value = data.lastName || "";
+      document.getElementById("username").value = data.username || "";
+      document.getElementById("gender").value = data.gender || "Prefer not to say";
+      document.getElementById("country").value = data.country || "India";
+
+      // ✅ Avatar show if exists
+      const avatarImg = document.getElementById("avatarImg");
+      const avatarIcon = document.getElementById("avatarIcon");
+
+      if (data.avatarURL && avatarImg && avatarIcon) {
+        avatarImg.src = data.avatarURL;
+        avatarImg.classList.remove("hidden");
+        avatarIcon.classList.add("hidden");
+      }
+
+      // ✅ Header name
+      displayName = (data.firstName || data.username || "").trim();
+    }
+
+    // fallback
+    if (!displayName) displayName = (user.email || "User").split("@")[0];
+
+    if (settingsUsername) settingsUsername.textContent = displayName;
+  });
+
+  // ✅ Save Profile
+  const saveBtn = document.getElementById("btn-save-profile");
+  saveBtn.addEventListener("click", async () => {
+    try {
+      const user = auth.currentUser;
+      if (!user) {
+        window.location.replace("/index.html");
+        return;
+      }
+
+      const payload = {
+        firstName: document.getElementById("firstName").value.trim(),
+        lastName: document.getElementById("lastName").value.trim(),
+        username: document.getElementById("username").value.trim(),
+        gender: document.getElementById("gender").value,
+        country: document.getElementById("country").value,
+        updatedAt: new Date().toISOString(),
+      };
+
+      // ✅ Username optional but if filled must be 3+
+      if (payload.username && payload.username.length < 3) {
+        showMsg("error");
+        return;
+      }
+
+      await setDoc(doc(db, "users", user.uid), payload, { merge: true });
+
+      // ✅ Update header instantly after save
+      const settingsUsername = document.getElementById("settings-username");
+      const newName = (payload.firstName || payload.username || "").trim();
+      if (settingsUsername) {
+        settingsUsername.textContent =
+          newName || (user.email || "User").split("@")[0];
+      }
+
+      showMsg("success");
+    } catch (e) {
+      console.log("SAVE ERROR:", e);
+      showMsg("error");
+    }
+  });
+
+  // ✅ Logout
+  const logoutBtn = document.getElementById("btn-settings-logout");
+  logoutBtn.addEventListener("click", async () => {
+    await signOut(auth);
+    window.location.replace("/index.html");
+  });
+
+  // ✅ Avatar Upload
+  const uploadBtn = document.getElementById("btn-upload-avatar");
+  const removeBtn = document.getElementById("btn-remove-avatar");
+  const avatarFile = document.getElementById("avatarFile");
+
+  if (uploadBtn && avatarFile) {
+    uploadBtn.addEventListener("click", () => avatarFile.click());
+  }
+
+  if (avatarFile) {
+    avatarFile.addEventListener("change", async () => {
+      try {
+        const user = auth.currentUser;
+        if (!user) return;
+
+        const file = avatarFile.files?.[0];
+        if (!file) return;
+
+        if (!file.type.startsWith("image/")) {
+          alert("❌ Only image allowed");
+          return;
+        }
+
+        if (file.size > 2 * 1024 * 1024) {
+          alert("❌ Max 2MB allowed");
+          return;
+        }
+
+        const fileRef = sRef(storage, `avatars/${user.uid}/${Date.now()}_${file.name}`);
+        await uploadBytes(fileRef, file);
+
+        const url = await getDownloadURL(fileRef);
+
+        await setDoc(doc(db, "users", user.uid), {
+          avatarURL: url,
+          updatedAt: new Date().toISOString(),
+        }, { merge: true });
+
+        const avatarImg = document.getElementById("avatarImg");
+        const avatarIcon = document.getElementById("avatarIcon");
+
+        if (avatarImg && avatarIcon) {
+          avatarImg.src = url;
+          avatarImg.classList.remove("hidden");
+          avatarIcon.classList.add("hidden");
+        }
+
+        alert("✅ Avatar updated!");
+        avatarFile.value = "";
+      } catch (e) {
+        console.log("AVATAR ERROR:", e);
+        alert("❌ Upload failed: " + e.message);
+      }
+    });
+  }
+
+  // ✅ Remove Avatar
+  if (removeBtn) {
+    removeBtn.addEventListener("click", async () => {
+      try {
+        const user = auth.currentUser;
+        if (!user) return;
+
+        await setDoc(doc(db, "users", user.uid), {
+          avatarURL: "",
+          updatedAt: new Date().toISOString(),
+        }, { merge: true });
+
+        const avatarImg = document.getElementById("avatarImg");
+        const avatarIcon = document.getElementById("avatarIcon");
+
+        if (avatarImg && avatarIcon) {
+          avatarImg.src = "";
+          avatarImg.classList.add("hidden");
+          avatarIcon.classList.remove("hidden");
+        }
+
+        alert("✅ Avatar removed!");
+      } catch (e) {
+        console.log("REMOVE AVATAR ERROR:", e);
+        alert("❌ Remove failed: " + e.message);
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
+

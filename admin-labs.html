@@ -1,0 +1,152 @@
+<!-- PAGE: ADMIN LAB MANAGEMENT -->
+    <div id="view-admin-labs" class="page-view pt-24 pb-20 bg-[#0a0c10] min-h-screen">
+        <div class="max-w-5xl mx-auto px-4">
+            
+            <!-- HEADER -->
+            <div class="mb-10 flex justify-between items-end border-b border-gray-900 pb-6">
+                <div>
+                    <h1 class="text-2xl font-bold text-white flex items-center gap-3">
+                        <i class="fas fa-flask-vial text-red-500"></i>
+                        Lab Management
+                    </h1>
+                    <p class="text-gray-500 text-xs mono uppercase tracking-widest mt-1">
+                        Create & manage labs / CTF challenges // <span class="text-red-900/50">Admin Node Controller</span>
+                    </p>
+                </div>
+                <div class="hidden md:block">
+                    <span class="text-[10px] mono text-gray-700 uppercase tracking-tighter italic">v4.0.2-stable</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                
+                <!-- MAIN FORM AREA -->
+                <div class="lg:col-span-2 space-y-8">
+                    
+                    <!-- SECTION 1: BASIC INFO -->
+                    <section class="bg-[#0d1117] border border-gray-800 rounded-2xl p-6 shadow-xl">
+                        <h2 class="text-xs font-bold text-white mono uppercase tracking-widest mb-6 flex items-center gap-2">
+                            <span class="w-1 h-3 bg-red-500"></span> 01. Basic Info
+                        </h2>
+                        <div class="space-y-4">
+                            <div>
+                                <label class="block text-[10px] text-gray-500 mono uppercase mb-2">Lab Name</label>
+                                <input type="text" placeholder="e.g. SQL Injection: Advanced Union-Based" class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-red-500/50 transition">
+                            </div>
+                            <div>
+                                <label class="block text-[10px] text-gray-500 mono uppercase mb-2">Short Description</label>
+                                <textarea rows="4" placeholder="Briefly explain the vulnerability and technical objectives..." class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-red-500/50 transition"></textarea>
+                            </div>
+                            <div>
+                                <label class="block text-[10px] text-gray-500 mono uppercase mb-2">Category</label>
+                                <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
+                                    <select class="col-span-4 bg-[#010409] border border-gray-800 rounded-lg px-4 py-3 text-sm text-gray-400 focus:outline-none focus:border-red-500/50 appearance-none cursor-pointer">
+                                        <option>Web</option>
+                                        <option>API</option>
+                                        <option>Auth</option>
+                                        <option>Cloud</option>
+                                        <option>Crypto</option>
+                                        <option>Forensics</option>
+                                        <option>OSINT</option>
+                                        <option>Reverse</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SECTION 2: DIFFICULTY & SCORING -->
+                    <section class="bg-[#0d1117] border border-gray-800 rounded-2xl p-6 shadow-xl">
+                        <h2 class="text-xs font-bold text-white mono uppercase tracking-widest mb-6 flex items-center gap-2">
+                            <span class="w-1 h-3 bg-red-500"></span> 02. Difficulty & Scoring
+                        </h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-[10px] text-gray-500 mono uppercase mb-2">Difficulty Level</label>
+                                <select class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-3 text-sm text-gray-400 focus:outline-none focus:border-red-500/50 appearance-none cursor-pointer">
+                                    <option>Very Easy</option>
+                                    <option>Easy</option>
+                                    <option>Medium</option>
+                                    <option>Hard</option>
+                                    <option>Very Hard</option>
+                                    <option>Insane</option>
+                                    <option>Nightmare</option>
+                                    <option>Hell</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-[10px] text-gray-500 mono uppercase mb-2">Points (XP)</label>
+                                <input type="number" placeholder="100" class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-red-500/50 transition">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- SIDEBAR CONTROLS -->
+                <div class="space-y-8">
+                    
+                    <!-- SECTION 3: LAB TYPE -->
+                    <section class="bg-[#0d1117] border border-gray-800 rounded-2xl p-6 shadow-xl">
+                        <h2 class="text-xs font-bold text-white mono uppercase tracking-widest mb-6 flex items-center gap-2">
+                            <span class="w-1 h-3 bg-red-500"></span> 03. Lab Type
+                        </h2>
+                        <div class="space-y-4">
+                            <label class="flex items-center gap-3 p-3 bg-[#010409] border border-gray-800 rounded-lg cursor-pointer hover:border-red-500/30 transition group">
+                                <input type="radio" name="lab-type" class="accent-red-500">
+                                <span class="text-xs text-gray-400 group-hover:text-white transition">Practice Lab</span>
+                            </label>
+                            <label class="flex items-center gap-3 p-3 bg-[#010409] border border-gray-800 rounded-lg cursor-pointer hover:border-red-500/30 transition group">
+                                <input type="radio" name="lab-type" class="accent-red-500">
+                                <span class="text-xs text-gray-400 group-hover:text-white transition">CTF Challenge</span>
+                            </label>
+                        </div>
+                    </section>
+
+                    <!-- SECTION 4: ACCESS CONTROL -->
+                    <section class="bg-[#0d1117] border border-gray-800 rounded-2xl p-6 shadow-xl">
+                        <h2 class="text-xs font-bold text-white mono uppercase tracking-widest mb-6 flex items-center gap-2">
+                            <span class="w-1 h-3 bg-red-500"></span> 04. Access Control
+                        </h2>
+                        <div class="space-y-4">
+                            <div>
+                                <label class="block text-[10px] text-gray-500 mono uppercase mb-2">Access Layer</label>
+                                <select class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-2 text-xs text-gray-400 focus:outline-none focus:border-red-500/50 appearance-none">
+                                    <option>Free</option>
+                                    <option>Paid</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-[10px] text-gray-500 mono uppercase mb-2">Visibility</label>
+                                <select class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-2 text-xs text-gray-400 focus:outline-none focus:border-red-500/50 appearance-none">
+                                    <option>Draft</option>
+                                    <option>Published</option>
+                                </select>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SECTION 5: ACTIONS -->
+                    <div class="flex flex-col gap-3">
+                        <button class="w-full py-4 bg-red-600 hover:bg-red-700 text-white text-[10px] font-bold mono uppercase tracking-widest rounded-xl transition shadow-lg shadow-red-900/20">
+                            Publish Lab
+                        </button>
+                        <button class="w-full py-4 bg-gray-900 hover:bg-gray-800 text-gray-300 text-[10px] font-bold mono uppercase tracking-widest rounded-xl transition border border-gray-800">
+                            Save Draft
+                        </button>
+                        <button class="w-full py-2 text-gray-600 hover:text-red-400 text-[9px] mono uppercase tracking-widest transition">
+                            Reset Form
+                        </button>
+                    </div>
+
+                    <!-- WARNING BANNER -->
+                    <div class="p-4 bg-red-900/10 border border-red-900/30 rounded-xl">
+                        <p class="text-[9px] text-red-500/70 mono leading-relaxed">
+                            <i class="fas fa-exclamation-triangle mr-1"></i> NOTICE: Published labs are immediately visible to eligible users. Ensure container stability before deployment.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>

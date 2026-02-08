@@ -1,0 +1,121 @@
+<!-- Add this section at the bottom of the body, before the script tag -->
+
+    <!-- PAGE: AUTH (LOGIN & CREATE ACCOUNT) -->
+    <div id="view-auth" class="page-view pt-32 pb-20 bg-[#0a0c10] min-h-screen">
+        <div class="max-w-xl mx-auto px-4">
+            <div class="bg-[#0d1117] border border-gray-800 rounded-2xl shadow-2xl overflow-hidden">
+                
+                <!-- AUTH TABS -->
+                <div class="flex border-b border-gray-800">
+                    <button onclick="document.getElementById('form-login').classList.remove('hidden'); document.getElementById('form-signup').classList.add('hidden'); this.className='flex-1 py-4 text-emerald-500 border-b-2 border-emerald-500 font-bold mono text-sm'; document.getElementById('tab-signup').className='flex-1 py-4 text-gray-500 hover:text-gray-300 transition mono text-sm';" class="flex-1 py-4 text-emerald-500 border-b-2 border-emerald-500 font-bold mono text-sm">
+                        01. LOGIN
+                    </button>
+                    <button id="tab-signup" onclick="document.getElementById('form-login').classList.add('hidden'); document.getElementById('form-signup').classList.remove('hidden'); this.className='flex-1 py-4 text-emerald-500 border-b-2 border-emerald-500 font-bold mono text-sm'; this.previousElementSibling.className='flex-1 py-4 text-gray-500 hover:text-gray-300 transition mono text-sm';" class="flex-1 py-4 text-gray-500 hover:text-gray-300 transition mono text-sm">
+                        02. CREATE_ACCOUNT
+                    </button>
+                </div>
+
+                <div class="p-8 md:p-10">
+                    <!-- LOGIN FORM -->
+                    <div id="form-login" class="space-y-6">
+                        <div class="space-y-2">
+                            <label class="text-[10px] font-bold uppercase tracking-widest text-gray-500 mono">Authorized Email</label>
+                            <input type="email" placeholder="operator@domain.io" class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-[10px] font-bold uppercase tracking-widest text-gray-500 mono">Access Key</label>
+                            <div class="relative">
+                                <input type="password" id="login-pass" placeholder="••••••••" class="w-full bg-[#010409] border border-gray-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+                                <button type="button" class="absolute right-4 top-3 text-gray-600 hover:text-emerald-500 transition">
+                                    <i class="fas fa-eye text-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- Generic Error (Hidden) -->
+                        <div class="hidden p-3 bg-red-500/10 border border-red-500/30 rounded text-red-500 text-[10px] mono">
+                            [ERROR] AUTH_FAILURE: Invalid credentials or expired session.
+                        </div>
+
+                        <button type="button" class="w-full py-4 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-lg transition-all uppercase tracking-[0.2em] text-xs shadow-lg shadow-emerald-900/20">
+                            Establish Connection
+                        </button>
+                    </div>
+
+                    <!-- CREATE ACCOUNT FORM -->
+                    <div id="form-signup" class="hidden space-y-4">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="space-y-1">
+                                <label class="text-[9px] font-bold text-gray-500 mono">USERNAME</label>
+                                <input type="text" placeholder="shadow_walker" class="w-full bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+                            </div>
+                            <div class="space-y-1">
+                                <label class="text-[9px] font-bold text-gray-500 mono">EMAIL</label>
+                                <input type="email" placeholder="alias@provider.com" class="w-full bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="space-y-1">
+                                <label class="text-[9px] font-bold text-gray-500 mono">FIRST NAME</label>
+                                <input type="text" placeholder="First" class="w-full bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+                            </div>
+                            <div class="space-y-1">
+                                <label class="text-[9px] font-bold text-gray-500 mono">LAST NAME</label>
+                                <input type="text" placeholder="Last" class="w-full bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="space-y-1">
+                                <label class="text-[9px] font-bold text-gray-500 mono">GENDER</label>
+                                <select class="w-full bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-gray-400 focus:outline-none focus:border-emerald-500 transition appearance-none">
+                                    <option>Select</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Non-Binary</option>
+                                </select>
+                            </div>
+                            <div class="space-y-1">
+                                <label class="text-[9px] font-bold text-gray-500 mono">COUNTRY</label>
+                                <select class="w-full bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-gray-400 focus:outline-none focus:border-emerald-500 transition appearance-none">
+                                    <option>Select</option>
+                                    <option>United States</option>
+                                    <option>United Kingdom</option>
+                                    <option>Germany</option>
+                                    <option>India</option>
+                                </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="space-y-1">
+                            <label class="text-[9px] font-bold text-gray-500 mono">PASSWORD</label>
+                            <input type="password" placeholder="••••••••" class="w-full bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+                        </div>
+
+                        <div class="space-y-1">
+                            <label class="text-[9px] font-bold text-gray-500 mono">CONFIRM PASSWORD</label>
+                            <input type="password" placeholder="••••••••" class="w-full bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+                        </div>
+
+                        <div class="p-3 bg-blue-500/5 border border-blue-500/20 rounded">
+                            <p class="text-[9px] text-blue-400 leading-tight mono italic">
+                                [SEC_POLICY]: Passwords must be 12+ characters with alphanumeric variance and at least one special character symbol.
+                            </p>
+                        </div>
+
+                        <button type="button" class="w-full py-3 bg-gray-800 text-gray-500 font-bold rounded-lg cursor-not-allowed uppercase tracking-widest text-xs border border-gray-700">
+                            Register Identity
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-[#0a0c10] py-4 px-8 border-t border-gray-800 text-center">
+                    <p class="text-[9px] text-gray-600 mono uppercase tracking-[0.2em]">
+                        Data encryption active: RSA-4096 / AES-256
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
