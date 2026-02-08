@@ -6,6 +6,28 @@
     "CNAME": "imponder.pages.dev",
     "TXT": [
       "apple-domain=FM1iij1C8lNDxpBO"
+    ],
+    "MX": [
+      {
+        "name": "@",
+        "content": "mx01.mail.icloud.com.",
+        "priority": 10
+      },
+      {
+        "name": "@",
+        "content": "mx02.mail.icloud.com.",
+        "priority": 10
+      }
+    ],
+    "CNAME_additional": [
+      {
+        "name": "sig1._domainkey",
+        "content": "sig1.dkim.ponder.is-a.dev.at.icloudmailadmin.com."
+      },
+      {
+        "name": "sig2._domainkey",
+        "content": "sig2.dkim.ponder.is-a.dev.at.icloudmailadmin.com."
+      }
     ]
   },
   "proxied": true
