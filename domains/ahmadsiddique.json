@@ -3,6 +3,7 @@
     "username": "ahmadsiddique-dev",
     "email": "ahmadsiddique.dev@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "ahmadsiddique-portfolio.vercel.app",
     "TXT": "vc-domain-verify=ahmadsiddique.is-a.dev,e0f61de03fb7576b629c"
