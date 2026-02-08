@@ -4,6 +4,6 @@
     "email": "solidify.ice@gmail.com"
   },
   "record": {
-    "CNAME": "snowy-server.duckdns.org"
+    "CNAME": ["snowy-server.duckdns.org"]
   }
 }
