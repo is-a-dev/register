@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Account | Hackers Battle</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+
+<body class="bg-[#0a0c10] text-white min-h-screen flex items-center justify-center px-4">
+
+  <div class="max-w-md w-full bg-[#0d1117] border border-gray-800 rounded-2xl shadow-2xl overflow-hidden">
+
+    <!-- HEADER -->
+    <div class="p-6 border-b border-gray-800">
+      <h1 class="text-xl font-bold text-white mono tracking-widest uppercase">
+        Create Account
+      </h1>
+      <p class="text-xs text-gray-500 mt-2">
+        Register and start hacking labs legally ✅
+      </p>
+    </div>
+
+    <!-- SIGNUP FORM -->
+    <div class="p-6 space-y-4">
+
+      <div class="grid grid-cols-2 gap-3">
+        <div>
+          <label class="text-[10px] font-bold text-gray-500 mono">USERNAME</label>
+          <input id="signup-username" type="text" placeholder="shadow_walker"
+            class="w-full mt-1 bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+        </div>
+
+        <div>
+          <label class="text-[10px] font-bold text-gray-500 mono">EMAIL</label>
+          <input id="signup-email" type="email" placeholder="alias@provider.com"
+            class="w-full mt-1 bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-3">
+        <div>
+          <label class="text-[10px] font-bold text-gray-500 mono">FIRST NAME</label>
+          <input id="signup-firstname" type="text" placeholder="First"
+            class="w-full mt-1 bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+        </div>
+
+        <div>
+          <label class="text-[10px] font-bold text-gray-500 mono">LAST NAME</label>
+          <input id="signup-lastname" type="text" placeholder="Last"
+            class="w-full mt-1 bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-3">
+        <div>
+          <label class="text-[10px] font-bold text-gray-500 mono">GENDER</label>
+          <select id="signup-gender"
+            class="w-full mt-1 bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-gray-400 focus:outline-none focus:border-emerald-500 transition appearance-none">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Non-Binary</option>
+            <option>Prefer not to say</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="text-[10px] font-bold text-gray-500 mono">COUNTRY</label>
+          <select id="signup-country"
+            class="w-full mt-1 bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-gray-400 focus:outline-none focus:border-emerald-500 transition appearance-none">
+            <option>India</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>Germany</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- PASSWORD -->
+      <div>
+        <label class="text-[10px] font-bold text-gray-500 mono">PASSWORD</label>
+        <div class="relative mt-1">
+          <input id="signup-pass" type="password" placeholder="••••••••"
+            class="w-full bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+          <button id="toggle-signup-pass" type="button"
+            class="absolute right-3 top-2 text-gray-600 hover:text-emerald-500 transition">
+            <i class="fas fa-eye text-sm"></i>
+          </button>
+        </div>
+
+        <!-- ✅ Password strength meter -->
+        <div class="mt-3 space-y-2">
+          <div class="w-full h-2 rounded bg-gray-900 overflow-hidden border border-gray-800">
+            <div id="pass-bar" class="h-2 w-0 bg-red-500 transition-all"></div>
+          </div>
+
+          <p id="pass-label" class="text-[10px] mono text-gray-500 uppercase tracking-widest">
+            Strength: Weak
+          </p>
+
+          <!-- ✅ Rules -->
+          <div class="grid grid-cols-2 gap-2 text-[10px] text-gray-500 mono">
+            <div id="rule-len" class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-xmark text-red-500"></i>
+              8+ Characters
+            </div>
+            <div id="rule-num" class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-xmark text-red-500"></i>
+              1 Number
+            </div>
+            <div id="rule-upper" class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-xmark text-red-500"></i>
+              1 Uppercase
+            </div>
+            <div id="rule-special" class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-xmark text-red-500"></i>
+              1 Special (!@#)
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONFIRM -->
+      <div>
+        <label class="text-[10px] font-bold text-gray-500 mono">CONFIRM PASSWORD</label>
+        <div class="relative mt-1">
+          <input id="signup-confirm" type="password" placeholder="••••••••"
+            class="w-full bg-[#010409] border border-gray-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+          <button id="toggle-signup-confirm" type="button"
+            class="absolute right-3 top-2 text-gray-600 hover:text-emerald-500 transition">
+            <i class="fas fa-eye text-sm"></i>
+          </button>
+        </div>
+
+        <!-- ✅ Match indicator -->
+        <p id="confirm-msg" class="mt-2 text-[10px] mono text-gray-500 uppercase tracking-widest">
+          Confirm password required
+        </p>
+      </div>
+
+      <!-- ✅ ERROR BOX -->
+      <div id="signup-error"
+        class="hidden p-3 bg-red-500/10 border border-red-500/30 rounded text-red-400 text-[10px] mono">
+        [ERROR] Please meet all password requirements.
+      </div>
+
+      <button id="btn-signup" type="button" disabled
+        class="w-full mt-2 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-lg uppercase tracking-widest text-xs border border-emerald-500/30 transition disabled:opacity-40 disabled:cursor-not-allowed">
+        Register Identity
+      </button>
+
+      <div class="text-center pt-3 border-t border-gray-800">
+        <p class="text-xs text-gray-500">
+          Already have an account?
+          <a href="/index.html" class="text-emerald-400 font-bold hover:text-emerald-300">Login</a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    const passInput = document.getElementById("signup-pass");
+    const confirmInput = document.getElementById("signup-confirm");
+    const btnSignup = document.getElementById("btn-signup");
+
+    const passBar = document.getElementById("pass-bar");
+    const passLabel = document.getElementById("pass-label");
+
+    const ruleLen = document.getElementById("rule-len");
+    const ruleNum = document.getElementById("rule-num");
+    const ruleUpper = document.getElementById("rule-upper");
+    const ruleSpecial = document.getElementById("rule-special");
+
+    const confirmMsg = document.getElementById("confirm-msg");
+    const signupError = document.getElementById("signup-error");
+
+    function setRule(el, ok) {
+      const icon = el.querySelector("i");
+      if (ok) {
+        icon.className = "fa-solid fa-circle-check text-emerald-500";
+        el.classList.add("text-emerald-400");
+        el.classList.remove("text-gray-500");
+      } else {
+        icon.className = "fa-solid fa-circle-xmark text-red-500";
+        el.classList.remove("text-emerald-400");
+        el.classList.add("text-gray-500");
+      }
+    }
+
+    function validatePassword() {
+      const val = passInput.value;
+
+      const hasLen = val.length >= 8;
+      const hasNum = /[0-9]/.test(val);
+      const hasUpper = /[A-Z]/.test(val);
+      const hasSpecial = /[^A-Za-z0-9]/.test(val);
+
+      setRule(ruleLen, hasLen);
+      setRule(ruleNum, hasNum);
+      setRule(ruleUpper, hasUpper);
+      setRule(ruleSpecial, hasSpecial);
+
+      let score = 0;
+      if (hasLen) score++;
+      if (hasNum) score++;
+      if (hasUpper) score++;
+      if (hasSpecial) score++;
+
+      // Strength UI
+      let width = (score / 4) * 100;
+      passBar.style.width = width + "%";
+
+      if (score <= 1) {
+        passBar.className = "h-2 bg-red-500 transition-all";
+        passLabel.textContent = "Strength: Weak";
+      } else if (score === 2) {
+        passBar.className = "h-2 bg-yellow-500 transition-all";
+        passLabel.textContent = "Strength: Medium";
+      } else if (score === 3) {
+        passBar.className = "h-2 bg-emerald-500 transition-all";
+        passLabel.textContent = "Strength: Strong";
+      } else {
+        passBar.className = "h-2 bg-cyan-400 transition-all";
+        passLabel.textContent = "Strength: Very Strong";
+      }
+
+      return (hasLen && hasNum && hasUpper && hasSpecial);
+    }
+
+    function validateConfirm() {
+      const p = passInput.value;
+      const c = confirmInput.value;
+
+      if (!c) {
+        confirmMsg.textContent = "Confirm password required";
+        confirmMsg.className = "mt-2 text-[10px] mono text-gray-500 uppercase tracking-widest";
+        return false;
+      }
+
+      if (p === c) {
+        confirmMsg.textContent = "Passwords matched ✅";
+        confirmMsg.className = "mt-2 text-[10px] mono text-emerald-400 uppercase tracking-widest";
+        return true;
+      }
+
+      confirmMsg.textContent = "Passwords not matched ❌";
+      confirmMsg.className = "mt-2 text-[10px] mono text-red-400 uppercase tracking-widest";
+      return false;
+    }
+
+    function validateAll() {
+      const okPass = validatePassword();
+      const okConfirm = validateConfirm();
+
+      if (okPass && okConfirm) {
+        btnSignup.disabled = false;
+        signupError.classList.add("hidden");
+      } else {
+        btnSignup.disabled = true;
+      }
+    }
+
+    passInput.addEventListener("input", validateAll);
+    confirmInput.addEventListener("input", validateAll);
+
+    // Eye toggles
+    document.getElementById("toggle-signup-pass").addEventListener("click", () => {
+      passInput.type = passInput.type === "password" ? "text" : "password";
+    });
+
+    document.getElementById("toggle-signup-confirm").addEventListener("click", () => {
+      confirmInput.type = confirmInput.type === "password" ? "text" : "password";
+    });
+
+    // Submit handler (frontend only)
+    btnSignup.addEventListener("click", () => {
+      const okPass = validatePassword();
+      const okConfirm = validateConfirm();
+
+      if (!okPass || !okConfirm) {
+        signupError.classList.remove("hidden");
+        return;
+      }
+
+      signupError.classList.add("hidden");
+      // ✅ firebase.js will handle actual signup
+      // Here we just allow it to proceed safely
+    });
+
+    // Initial
+    validateAll();
+  </script>
+
+  <!-- ✅ Load Firebase logic -->
+  <script type="module" src="/firebase.js"></script>
+
+</body>
+</html>
+
