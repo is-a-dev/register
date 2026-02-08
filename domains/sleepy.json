@@ -1,0 +1,10 @@
+{
+  "description": "Sleepy's homelab server",
+  "owner": {
+    "username": "NuII-0",
+    "email": "solidify.ice@gmail.com"
+  },
+  "record": {
+    "CNAME": ["snowy-server.duckdns.org"]
+  }
+}
