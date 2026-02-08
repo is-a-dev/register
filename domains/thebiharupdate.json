@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "shanmusic816",
-    "email": "shanmusic816@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "shanmusic816.github.io"
-  }
+    "owner": {
+        "username": "shanmusic816",
+            "email": "shanmusic816@gmail.com"
+              },
+                "records": {
+                    "CNAME": "shanmusic816.github.io"
+                      }
+                      }
 }
