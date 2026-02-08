@@ -1,0 +1,11 @@
+{
+  "description": "TechForge FST platform",
+  "repo": "https://github.com/Ahmedyahya12/TechForge-FST-Frontend",
+  "owner": {
+    "username": "Ahmedyahya12",
+    "email": "ahmedyahya12@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
