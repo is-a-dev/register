@@ -4,31 +4,22 @@
   },
   "records": {
     "CNAME": "imponder.pages.dev",
-    "TXT": [
-      "apple-domain=FM1iij1C8lNDxpBO"
-    ],
     "MX": [
       {
-        "name": "@",
-        "content": "mx01.mail.icloud.com.",
+        "target": "mx01.mail.icloud.com.",
         "priority": 10
       },
       {
-        "name": "@",
-        "content": "mx02.mail.icloud.com.",
+        "target": "mx02.mail.icloud.com.",
         "priority": 10
       }
     ],
-    "CNAME_additional": [
-      {
-        "name": "sig1._domainkey",
-        "content": "sig1.dkim.ponder.is-a.dev.at.icloudmailadmin.com."
-      },
-      {
-        "name": "sig2._domainkey",
-        "content": "sig2.dkim.ponder.is-a.dev.at.icloudmailadmin.com."
-      }
+    "TXT": [
+      "apple-domain=FM1iij1C8lNDxpBO",
+      "v=spf1 include:icloud.com ~all"
     ]
   },
   "proxied": true
 }
+
+// kys
