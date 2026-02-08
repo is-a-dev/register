@@ -4,6 +4,6 @@
         "email": "luckdiamondplayer@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=luck-about.is-a.dev,91990ddb0e929ad04157"
+        "A": ["216.198.79.1"]
     }
 }
