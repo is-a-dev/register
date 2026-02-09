@@ -1,11 +1,9 @@
 {
-  "description": "Ammar's personal website",
-  "repo": "https://github.com/Ammaryasser1998/ammaryasser1998.github.io",
   "owner": {
     "username": "Ammaryasser1998",
     "email": "amyss1910@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ammaryasser1998.github.io"
   }
 }

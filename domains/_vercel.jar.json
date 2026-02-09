@@ -3,7 +3,7 @@
     "username": "jartf",
     "email": "hi@jar.tf"
   },
-  "record": {
+  "records": {
     "TXT": "vc-domain-verify=jar.is-a.dev,faf9fc9ca0c53d380bd7"
   }
 }

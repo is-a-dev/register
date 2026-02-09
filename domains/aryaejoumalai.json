@@ -1,11 +1,9 @@
 {
-  "description": "portfolio project",
-  "repo": "https://github.com/AryaEjoumalai/portfolio",
   "owner": {
     "username": "AryaEjoumalai",
     "email": "aryaejoumalai@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "aryaejoumalai.github.io"
   }
 }

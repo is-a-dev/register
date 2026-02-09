@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio of karthikeyan J",
-  "repo": "https://github.com/karthik1915/my-vue-portfolio",
   "owner": {
     "username": "karthik1915",
     "email": "karthikeyanj1915@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }

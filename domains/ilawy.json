@@ -1,11 +1,9 @@
 {
-  "description": "Personal website",
-  "repo": "https://github.com/ilawy/ilawy",
   "owner": {
     "username": "ilawy",
     "email": "ilawy@proton.me"
   },
-  "record": {
+  "records": {
     "CNAME": "ilawy.pages.dev"
   }
 }

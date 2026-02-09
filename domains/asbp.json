@@ -1,11 +1,9 @@
 {
-  "description": "Agung's Portofolio Website",
-  "repo": "https://github.com/asbp/asbp.github.io",
-  "owner": {
-    "username": "asbp",
-    "email": "guungofficial@gmail.com"
-  },
-  "record": {
-    "CNAME": "asbp.github.io"
-  }
+    "owner": {
+        "username": "asbp",
+        "email": "asatriob@gmail.com"
+    },
+    "records": {
+        "CNAME": "asbp.github.io"
+    }
 }

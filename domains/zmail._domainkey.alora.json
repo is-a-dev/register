@@ -4,9 +4,7 @@
     "email": "alora@alora.is-a.dev",
     "discord": "1236292707371057216"
   },
-  "record": {
-    "TXT": [
-      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpDj1YvQ59sHlGFLqD3vweqrGkr8cDp8CT5V+xBirlBb05D4V5YCvkIDgcDSu5O6yB28PXkzfWgvpGGPDIYQr1fW/zmoktXlwKE53cQv8aEfPmF8u9zucBLUqtFhb5WxBDfd4LSBaSbggLILD2/i8yP2TNQQO2F07IeVCoQFY12wIDAQAB"
-    ]
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpDj1YvQ59sHlGFLqD3vweqrGkr8cDp8CT5V+xBirlBb05D4V5YCvkIDgcDSu5O6yB28PXkzfWgvpGGPDIYQr1fW/zmoktXlwKE53cQv8aEfPmF8u9zucBLUqtFhb5WxBDfd4LSBaSbggLILD2/i8yP2TNQQO2F07IeVCoQFY12wIDAQAB"
   }
 }

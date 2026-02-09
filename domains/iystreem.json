@@ -1,11 +1,9 @@
 {
-  "description": "its for my portfolio",
-  "repo": "https://github.com/IYSTREEM/iystreem.github.io",
   "owner": {
     "username": "IYSTREEM",
     "email": "iystreem186@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "iystreem.github.io"
   }
 }

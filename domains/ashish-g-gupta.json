@@ -1,10 +1,8 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/ashish-g-gupta/ashish-g-gupta.github.io",
   "owner": {
     "username": "ashish-g-gupta"
   },
-  "record": {
+  "records": {
     "CNAME": "ashish-g-gupta.github.io"
   }
 }

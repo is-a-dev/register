@@ -1,11 +1,9 @@
 {
-  "description": "Documentation website for is-a.dev",
-  "repo": "https://github.com/ishwar00/ishwarstuff",
   "owner": {
     "username": "ishwar00",
     "email": "ishwargowda100@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ishwarstuff.vercel.app"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Java's Website",
-  "repo": "https://github.com/javascript-void0/javascript-void0.github.io",
   "owner": {
     "username": "javascript-void0",
     "discord": "Java#3865"
   },
-  "record": {
+  "records": {
     "CNAME": "javascript-void0.github.io"
   }
 }

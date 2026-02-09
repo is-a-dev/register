@@ -3,7 +3,7 @@
     "username": "rajputshashank003",
     "email": "hariomshashank@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=rajputshashank.is-a.dev,b54453fc10c77cf72c1d"]
+  "records": {
+    "TXT": "vc-domain-verify=rajputshashank.is-a.dev,b54453fc10c77cf72c1d"
   }
 }

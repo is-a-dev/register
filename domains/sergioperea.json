@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sperea",
-        "email": "perea@mailfence.com"
-    },
-    "record": {
-        "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "sperea",
+    "email": "perea@mailfence.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  }
 }

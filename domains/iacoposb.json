@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "IacopoSb",
-    "discord": "442322290206703628",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.Hn0wg5RpzADaJvecwSHu8KpOj-Z_oG7i08e9Z62Give15eiaNXJzezQ9d7noux00NeBYHyoAWfBB5IQ4_XXWy75cLfR2N0A80Lod8D9f6zaWhH6HOcKrauCVolIJBBrzMfTXkWpi-yt74WFtQtfkjlOYren1QB6T_EqyLps5kEJxM08Vubn49m7ckSkNh2bRNJ5NfprPwjrGrHwrdsQqCDiVWn7SL7Dp-Qs-9X1m6nsbyr4shb1BA9X3embdAeL34Yq4GMaIje2tj991jpzq0lW1wGDAZweffw2cJf4xtzC1V0BBWPJDm3ye8eWWrhyOlOmVmK5xqduHk_GJ4jB__g.C50OguoaaY8-9Y9OheaUJw.pc_1FvYpLmydbLCQBa262CG2ROnCFJl-oxfguFWsFv7xDqFr5dRyEZVdEkO8J1UxQFAbO4fm3uEKV1JXDPqdl-6xZF9cpsEkOTZ72Gb2PiY.hYU41zXsd0lJbcQwO59cwA"
+    "discord": "442322290206703628"
   },
-  "record": {
+  "records": {
     "NS": ["marge.ns.cloudflare.com", "dan.ns.cloudflare.com"]
   }
 }

@@ -1,12 +1,10 @@
 {
-  "description": "This subdomain will be used by me to host my website and projects, which are currently under development ",
-  "repo": "https://github.com/rayyanjkhan/rayyanjkhan.github.io",
   "owner": {
     "username": "rayyanjkhan",
     "email": "r.khan13245@kgs.edu.pk",
     "twitter": "Rayyan Jamil Khan"
   },
-  "record": {
+  "records": {
     "CNAME": "rayyanjkhan.github.io"
   }
 }
