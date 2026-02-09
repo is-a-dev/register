@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "Symchuk05",
-    "email": "126584577+Symchuk05@users.noreply.github.com"
-  },
-  "record": {
-    "A": [
-      "46.175.151.109"
-    ]
-  }
+    "owner": {
+        "username": "Symchuk05",
+        "email": "126584577+Symchuk05@users.noreply.github.com"
+    },
+    "records": {
+        "A": [
+            "46.175.151.109"
+        ]
+    }
 }
