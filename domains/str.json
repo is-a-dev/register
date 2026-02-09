@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "StrinTing",
+	"email":"StrinTing@outlook.com"
+    },
+    "records": {
+        "CNAME": "str.pages.dev"
+    },
+    "proxied":true
+}
