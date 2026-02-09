@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "ercksantos",
+    "email": "erickpsantos0@gmail.com"
+  },
+  "records": {
+    "CNAME": "ercksantos.vercel.app",
+    "A": "216.198.79.1",
+    "TXT": ["_vercel", "vc-domain-verify=ercksantos.is-a.dev,1be9b1c03c184d629304"]
+  }
+}
