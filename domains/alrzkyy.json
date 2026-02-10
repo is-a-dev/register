@@ -6,5 +6,9 @@
   "description": "Personal Portfolio Website",
   "records": {
     "CNAME": "alrzkyywebprofile.vercel.app"
+    "TXT": [
+      "vc-domain-verify=alrzkyy.is-a.dev,30f8befcb840ff486756",
+      "vc-domain-verify=www.alrzkyy.is-a.dev,8749837153dac37025f8"
+    ]
   }
 }
