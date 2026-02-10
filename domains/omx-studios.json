@@ -1,0 +1,14 @@
+{
+    "owner": {
+        "username": "ocn3tm-ocn3tm",
+        "email": "mnjtp107@outlook.de"
+    },
+    "record": {
+        "CNAME": "https://website-c70q.onrender.com",
+        "subdomains": {
+            "legal": {
+                "CNAME": https://website-c70q.onrender.com"
+            }
+        }
+    }
+}
