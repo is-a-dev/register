@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "mudilivdnsskarthikeya-arch",
-    "email": "mudilivdnsskarthikeya@gmail.com"
+    "username": "mvdnssk",
+    "email": "mvdnssk@gmail.com"
   },
-  "records": {
-    "CNAME": "mudilivdnsskarthikeya-arch.github.io"
+  "record": {
+    "CNAME": "mvdnssk.github.io"
   }
 }
