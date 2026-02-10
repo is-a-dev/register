@@ -1,9 +1,17 @@
 {
-    "owner": {
-        "username": "Noelithub77",
-        "email": "noelmcv7@gmail.com"
+  "owner": {
+    "username": "Noelithub77",
+    "email": "noelmcv7@gmail.com"
+  },
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ],
+    "CNAME": {
+      "bunkialo": "5a3c0d323595209e.vercel-dns-017.com"
     },
-    "records": {
-        "A": ["76.76.21.21"]
+    "TXT": {
+      "_vercel.bunkialo": "vc-domain-verify=bunkialo.noel.is-a.dev,70d931b3fdb1042a39d4"
     }
+  }
 }
