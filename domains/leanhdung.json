@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "dungx-o"
+    "username": "dungx-o",
+    "email": "leadungx@gmail.com"
   },
   "records": {
-    "URL": "https://dungx-o.github.io/"
+    "CNAME": "dungx-o.github.io"
   }
 }
