@@ -4,10 +4,10 @@
         "email": "mnjtp107@outlook.de"
     },
     "record": {
-        "CNAME": "https://website-c70q.onrender.com",
+        "CNAME": "website-c70q.onrender.com",
         "subdomains": {
             "legal": {
-                "CNAME": https://website-c70q.onrender.com"
+                "CNAME": "website-c70q.onrender.com"
             }
         }
     }
