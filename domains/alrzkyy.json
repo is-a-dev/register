@@ -3,6 +3,7 @@
     "username": "alrzkyy",
     "email": "alrzkyy@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "alrzkyywebprofile.vercel.app",
     "TXT": [
