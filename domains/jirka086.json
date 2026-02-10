@@ -4,26 +4,18 @@
     "email": "adamec08@seznam.cz"
   },
   "records": {
-    "CNAME": "web.vagonbrei.eu",
-    "TXT": [
-        "zoho-verification=zb51874936.zmverify.zoho.eu",
-        "v=spf1 include:zohomail.eu ~all"
-      ],
-      "MX": [
-        {
-          "target": "mx.zoho.eu",
-          "priority": 10
-        },
-        {
-          "target": "mx2.zoho.eu",
-          "priority": 20
-        },
-        {
-          "target": "mx3.zoho.eu",
-          "priority": 50
-        }
-      ]
+    "A": ["37.202.197.36"],
+    "AAAA": [
+      "2a0d:5940:132:1::10:a",
+      "2a0d:5940:132:1::10:b"
+    ],
+    "MX": [
+      {
+        "target": "mail.jirka086.is-a.dev",
+        "priority": 10
+      }
+    ],
+    "TXT": "v=spf1 +a +mx -all"
   },
   "proxied": true
 }
-

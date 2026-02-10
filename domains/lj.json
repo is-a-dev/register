@@ -4,6 +4,6 @@
         "email": "belderinternational@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "A": ["216.198.79.1"]
     }
 }
