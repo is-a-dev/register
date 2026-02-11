@@ -1,10 +1,10 @@
 {
     "owner": {
-        "username": "Deenpro1",
+        "username": "deenpro1",
         "email": "deenpro1@icloud.com"
     },
     "record": {
-        "CNAME": "Deenpro1.github.io",
+        "CNAME": "deenpro1.github.io",
         "MX": [
             "mx1.improvmx.com",
             "mx2.improvmx.com"
