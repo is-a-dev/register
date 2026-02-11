@@ -1,11 +1,11 @@
 {
   "owner": {
     "username": "HasibAlTawha",
-    "email": "hasibaltawha@gmail.com"
+    "email": "chat@hasib.iam.bd"
   },
   "records": {
     "A": ["75.2.60.5"],
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": ["forward-email=QWlsbno4dEZvVEdnX3Z6V3pHeWRFV0NPa0RnZ1dCT2Y2TjB0Mk1zRk1DbjhqSGxWREwtbWZZUFRhTXR0YjFHQ1J5dlU="]
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   }
 }
