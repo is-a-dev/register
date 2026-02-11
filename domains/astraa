@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "straight0001"
+  },
+  "records": {
+    "CNAME": "x15.x10hosting.com",
+    "A": "198.91.81.15",
+    "MX": [
+      {
+        "target": "mail.astraa.work.gd",
+        "priority": 10
+      }
+    ]
+  }
+}
