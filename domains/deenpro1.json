@@ -3,7 +3,7 @@
         "username": "deenpro1",
         "email": "deenpro1@icloud.com"
     },
-    "record": {
+    "records": {
         "CNAME": "deenpro1.github.io",
         "MX": [
             "mx1.improvmx.com",
