@@ -1,10 +1,1 @@
-{
-  "owner": {
-    "username": "TheNoim",
-    "email": "nilsbergmann@noim.io"
-  },
-  "description": "Use as alias for noim.io (My private webpage)",
-  "records": {
-    "URL": "https://noim.io"
-  }
-}
+{ "owner": { "username": "goeckenils", "email": "nils.goecke98@gmail.com" }, "record": { "CNAME": "cname.vercel-dns.com" } }
