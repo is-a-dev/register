@@ -5,8 +5,7 @@
   },
   "records": {
     "CNAME": "minuwu.github.io",
-    "TXT": [
-      "google-site-verification=w3mQ1pbNvoqI1ONJYsGkxDXlbg3n_5BSVJ6ijhFXSoY"
-    ]
-  }
+    "TXT": "google-site-verification=w3mQ1pbNvoqI1ONJYsGkxDXlbg3n_5BSVJ6ijhFXSoY"
+  },
+  "proxied": true
 }
