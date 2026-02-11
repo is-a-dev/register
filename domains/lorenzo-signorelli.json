@@ -4,6 +4,6 @@
         "email": "signorelli.lorenzo.business@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=lorenzo.signorelli.is-a.dev,36eb3e305bb37d54317a"
+        "A": ["216.198.79.1"]
     }
 }
