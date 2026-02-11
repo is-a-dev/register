@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "omar00050",
+        "email": "omar@farghaly.dev"
+    },
+  "records": {
+    "CNAME": "abofarghaly.vercel.app"
+  },
+  "proxied": true
+}

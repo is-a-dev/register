@@ -4,20 +4,6 @@
     "email": "m336g@proton.me"
   },
   "records": {
-    "URL": "https://m336.dev/"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/status": "https://status.m336.dev/status/m336",
-      
-      "/youtube": "https://www.youtube.com/@M336",
-      "/github": "https://github.com/M336G",
-      "/twitter": "https://x.com/m336dev",
-
-      "/witherbot": "https://discord.com/oauth2/authorize?client_id=1039238934682665030",
-      "/stardust": "https://stardust.m336.dev/",
-      "/webstats": "https://discord.com/oauth2/authorize?client_id=1390590482131845180"
-    },
-    "redirect_paths": true
+    "CNAME": "m336dev.pages.dev"
   }
 }
