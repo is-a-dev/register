@@ -1,0 +1,12 @@
+{
+  "description": "Personal test server",
+  "repo": "https://github.com/ixytyxi/register",
+  "owner": {
+    "username": "ixytyxi",
+    "email": "ixytyxi@outlook.com"
+  },
+  "record": {
+    "A": ["118.196.114.88"],
+    "AAAA": []
+  }
+}
