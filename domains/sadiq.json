@@ -4,8 +4,6 @@
     "email": "admin@devsadiq.site"
   },
   "records": {
-    "A": ["75.2.60.5"],
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": ["forward-email=QXZENXlSNWsyQ1JhWk1pY2dzWDJGNEZrNUZUMWZFd2pPLUhxREk4NEh3emEyZXI4blJ5RXJqVWRYMW4yM2czOQ=="]
+    "NS": ["armfazh.ns.cloudflare.com", "stella.ns.cloudflare.com"]
   }
 }
