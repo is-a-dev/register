@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "JoaquinVeraOrtega"
+        "username": "JoaquinVeraOrtega",
+        "email": "j.veraortega99@gmail.com"
     },
     "records": {
-        "A": ["147.79.84.62"]
+        "CNAME": "jvo-dev-66bc3.web.app"
     }
 }

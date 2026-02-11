@@ -1,10 +1,8 @@
 {
-  "repo": "https://github.com/VipulOG/VipulOG.github.io",
   "owner": {
-    "username": "VipulOG",
-    "email": "vipultyagi386+github@gmail.com"
+    "username": "vipulchavan47"
   },
   "records": {
-    "CNAME": "vipulog.github.io"
+    "A": ["216.198.79.1"]
   }
 }
