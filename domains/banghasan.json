@@ -1,0 +1,11 @@
+{
+  "description": "Self-hosted personal portfolio deployed via Docker on a VPS with NGINX reverse proxy, secured through Cloudflare",
+  "owner": {
+    "username": "banghasan",
+    "email": "banghasan@gmail.com",
+    "telegram": "hasanudinhs"
+  },
+  "records": {
+    "NS": ["chan.ns.cloudflare.com", "ruben.ns.cloudflare.com"]
+  }
+}
