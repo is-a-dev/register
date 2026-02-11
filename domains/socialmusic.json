@@ -1,13 +1,11 @@
-{                                  
-    "description": "社交音乐平台 - 分享、发现和讨论音乐的社交网络",
-    "repo": "https://github.com/andycaihello/SocialMusic",
-    "owner": {
-      "username": "andycaihello",                                                                                                                                      
-      "email": "andycai7907@qq.com"
-    },                                                                                                                                                                 
-    "record": {                                                                                                                                                      
-      "A": [
-        "47.112.27.160"
-      ]
-    }
+{
+  "description": "Social Music Platform - A social network for sharing, discovering and discussing music. Not a piracy site. Test account: alice/password123",
+  "repo": "https://github.com/andycaihello/SocialMusic",
+  "owner": {
+    "username": "andycaihello",
+    "email": "andycai7907@qq.com"
+  },
+  "records": {
+    "A": ["47.112.27.160"]
   }
+}
