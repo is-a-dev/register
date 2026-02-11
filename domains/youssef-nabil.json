@@ -1,10 +1,9 @@
 {
-  "name": "youssef-nabil",
-  "dns": [
-    {
-      "type": "CNAME",
-      "host": "youssef-nabil.is-a.dev",
-      "value": "YN061120.github.io"
+    "owner": {
+        "username": "YN061120",
+        "email": "[email protected]"
+    },
+    "records": {
+        "CNAME": "YN061120.github.io"
     }
-  ]
 }
