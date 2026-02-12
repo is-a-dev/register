@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "garvit-pandia",
-    "email": "garvit9829@gmail.com"
-  },
-  "record": {
-    "CNAME": "garvit-pandia-dev.vercel.app"
-  }
+    "owner": {
+          "username": "garvit-pandia",
+          "email": "garvit9829@gmail.com"
+    },
+    "records": {
+          "CNAME": "garvit-pandia-dev.vercel.app"
+    }
 }
