@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "sadiq-bd",
+    "email": "admin@devsadiq.site"
+  },
+  "records": {
+    "TXT": ["v=DMARC1; p=none; rua=mailto:dmarc@sadiq.is-a.dev; adkim=r; aspf=r"]
+  }
+}
