@@ -1,0 +1,11 @@
+{
+  "description": "Link to my portfolio site.",
+  "repo": "https://github.com/CHIP2502/Portfolio",
+  "owner": {
+    "username": "CHIP2502",
+    "email": "l3lchipp@gmail.com"
+  },
+  "records": {
+    "CNAME": "zaara-portfolio.vercel.app"
+  }
+}
