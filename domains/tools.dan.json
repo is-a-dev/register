@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "danielprofessional",
+        "discord": "danielprofessional"
+    },
+    "records": {
+        "A": ["85.194.246.69"],
+        "MX": [{ "target": "feedback-smtp.eu-west-1.amazonses.com", "priority": 10 }],
+        "TXT": "v=spf1 include:amazonses.com ~all"
+    }
+}

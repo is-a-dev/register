@@ -1,0 +1,11 @@
+{
+  "description": "Website of my personal portfolio showcasing projects and skills.",
+  "repo": "https://github.com/Uzzoper/personal-portfolio",
+  "owner": {
+    "username": "Uzzoper",
+    "email": "juanperuzzo13@gmail.com"
+  },
+  "records": {
+    "CNAME": "juanperuzzo.vercel.app"
+  }
+}
