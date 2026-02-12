@@ -9,7 +9,7 @@
     "TXT": [
       "forward-email=QXZENXlSNWsyQ1JhWk1pY2dzWDJGNEZrNUZUMWZFd2pPLUhxREk4NEh3emEyZXI4blJ5RXJqVWRYMW4yM2czOQ==",
       "v=spf1 include:_spf.google.com include:spf.forwardemail.net ~all"
-    ],
-    "proxied": true
-  }
+    ]
+  },
+  "proxied": true
 }
