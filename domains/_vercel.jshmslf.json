@@ -4,6 +4,7 @@
         "email": "jshmslf@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=www.jshmslf.is-a.dev,f30c648747bdc40cf7ac"
+        "TXT": "vc-domain-verify=www.jshmslf.is-a.dev,f30c648747bdc40cf7ac",
+        "CNAME": "02636fba1ad76c37.vercel-dns-017.com."
     }
 }
