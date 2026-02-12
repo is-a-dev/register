@@ -1,0 +1,11 @@
+{
+  "description": "SayToIt — open-source macOS voice transcription app for developers",
+  "repo": "https://github.com/rameshreddy-adutla/saytoit",
+  "owner": {
+    "username": "rameshreddy-adutla",
+    "email": "rameshreddy.adutla@mnscorp.net"
+  },
+  "records": {
+    "CNAME": "rameshreddy-adutla.github.io"
+  }
+}
