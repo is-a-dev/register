@@ -5,7 +5,7 @@
         "username": "emanuelef",
         "email": "efumagal@proton.me"
     },
-    "record": {
-        "CNAME": "emanuelef.github.io"
-    }
+    "records": [
+        { "CNAME": "emanuelef.github.io" }
+    ]
 }
