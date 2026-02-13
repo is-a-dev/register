@@ -3,7 +3,7 @@
         "username": "claycuy",
         "email": "soteenstudio@example.com"
     },
-    "record": {
+    "records": {
         "CNAME": "soteenstudio.github.io" 
     }
 }
