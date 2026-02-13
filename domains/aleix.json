@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "aleix-batchelli",
-        "email": "a.batchelli12@gmail.com"
+        "email": "your-email@example.com"
     },
     "record": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": ["vc-domain-verify=aleix.is-a.dev,24783dd0eb25d205e69f"]
     }
 }
