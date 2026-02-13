@@ -1,1 +1,10 @@
-{"owner":{"username":"naveenkumar982","email":"naveenkumar982@outlook.com"},"record":{"CNAME":"naveenkumar982.github.io"}}
+{
+    "owner": {
+        "username": "naveenkumar982",
+        "email": "naveenkumar982@outlook.com"
+    },
+    "description": "Personal developer portfolio website for Naveen Kumar, a 3rd Year BE student and full-stack developer.",
+    "records": {
+        "CNAME": "naveenkumar982.github.io"
+    }
+}
