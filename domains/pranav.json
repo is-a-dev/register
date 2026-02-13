@@ -1,0 +1,11 @@
+{
+  "description": "Documentation website for is-a.dev",
+  "owner": {
+    "username": "Srcpranav",
+    "email": "zoldyckzoldyck41@gmail.com"
+  },
+  "records": {
+    "CNAME": "pranav-portfolio-sigma.vercel.app"
+  },
+  "proxied": true
+}

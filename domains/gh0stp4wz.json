@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "GH0STP4WZ",
+    "email": "R3DGH0STP4WZ@protonmail.com"
+  },
+  "records": {
+    "CNAME": "GH0STP4WZ.github.io",
+    "TXT": "v=spf1 mx:mail.gh0stp4wz.is-a.dev ip4:45.82.121.115 -all",
+    "MX": [
+        "mail.gh0stp4wz.is-a.dev"
+    ]
+  },
+  "proxied": true
+}

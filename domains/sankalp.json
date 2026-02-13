@@ -1,11 +1,10 @@
 {
-  "description": "Sankalp Pathak Website",
-  "repo": "https://github.com/k144u/k144u.github.io",
-  "owner": {
-    "username": "k144u",
-    "email": "pathaksankalp04@gmail.com"
-  },
-  "record": {
-    "CNAME": "k144u.github.io"
-  }
+    "description": "Personal portfolio and projects",
+    "owner": {
+    "username": "SankalpSharma7",
+    "email": "sharma.sankalp7@gmail.com"
+    },
+    "records": {
+        "CNAME": "sankalpsharma7.github.io"
+    }
 }

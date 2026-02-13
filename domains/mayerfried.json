@@ -1,11 +1,10 @@
 {
   "description": "Mayer Fried Is A Dev",
-  "repo": "https://github.com/mfried40",
   "owner": {
     "username": "mfried40",
     "email": "mayer@mayerfried.com"
   },
-  "record": {
+  "records": {
     "CNAME": "me.mayerfried.com"
   }
 }

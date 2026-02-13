@@ -3,7 +3,7 @@
         "username": "araguaci",
         "email": "araguaci@gmail.com"
     },
-  "record": {
-    "CNAME": "araguaci.github.io"
-  }
+    "records": {
+        "CNAME": "araguaci.github.io"
+    }
 }

@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "zarqizoubir",
-    "email": "zarqi.ezzoubair@etu.uae.ac.ma"
+    "username": "victorvondoom25",
+    "email": "siddharthchess25@gmail.com"
   },
-  "record": {
-    "CNAME": "zarqizoubir.github.io"
-  }
+  "records": {
+    "A": ["216.198.79.1"]
+  },
+  "proxied": false
 }

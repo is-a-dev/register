@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "Prathamesh-Dukare",
-           "email": "prathameshdukaremail@gmail.com",
-           "discord": "741144155559821342"
-        },
-    
-        "record": {
-            "CNAME": "prathamesh.works"
-        }
-    }
-    
+  "owner": {
+    "username": "prathamesh-2002",
+    "email": "prathameshisadev@gmail.com"
+  },
+  "records": {
+    "CNAME": "prathamesh-2002.github.io"
+  }
+}

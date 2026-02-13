@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "Golgrax",
-    "email": "",
     "twitter": "BughawBenjo"
   },
-  "record": {
+  "records": {
     "CNAME": "benjo.pages.dev"
   }
 }
