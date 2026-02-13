@@ -1,13 +1,14 @@
-{
+﻿{
     "owner":  {
                   "username":  "samarcayyed"
               },
     "records":  {
                     "CNAME":  "web-projects-486505.web.app",
                     "TXT":  [
-                                "PASTE_YOUR_FIREBASE_VERIFICATION_TOKEN_HERE",
-                                "PASTE_YOUR_FIREBASE_VERIFICATION_TOKEN_HERE",
-                                "firebase-domain-verification=abc123def456..."
-                            ]
+                                "hosting-site=web-projects-486505"
+                            ],
+                    "_acme-challenge":  {
+                                            "TXT":  "ZGBIH689PFchtwgtYRIPLFHGlWD6LgEM4PsNqRS2_wg"
+                                        }
                 }
 }
