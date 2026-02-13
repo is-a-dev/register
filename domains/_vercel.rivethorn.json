@@ -4,6 +4,6 @@
     "email": "hassanak813@outlook.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=rivethorn.is-a.dev,b1e0e3179d90307454e2"
   }
 }
