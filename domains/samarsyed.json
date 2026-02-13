@@ -1,8 +1,12 @@
 {
-  "owner": {
-    "username": "samarcayyed"
-  },
-  "records": {
-    "CNAME": "web-projects-486505.web.app"
-  }
+    "owner":  {
+                  "username":  "samarcayyed"
+              },
+    "records":  {
+                    "CNAME":  "web-projects-486505.web.app",
+                    "TXT":  [
+                                "PASTE_YOUR_FIREBASE_VERIFICATION_TOKEN_HERE",
+                                "PASTE_YOUR_FIREBASE_VERIFICATION_TOKEN_HERE"
+                            ]
+                }
 }
