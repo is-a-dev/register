@@ -1,9 +1,9 @@
 {
     "owner": {
-"bahruzmammadly",
+        "username": "bahruzmammadly",
         "email": "bhmcode@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=bahruzmammadly.is-a.dev,101ae7a44525562c04cb" 
+        "TXT": "vc-domain-verify=bahruzmammadly.is-a.dev,101ae7a44525562c04cb"
     }
 }
