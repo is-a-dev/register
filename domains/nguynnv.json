@@ -1,9 +1,8 @@
 {
     "owner": {
-        "username": "nguynnv",
-        "email": "vuhoangnguyen1001@gmail.com"
+        "username": "nguynnv"
     },
-    "record": {
+    "records": {
         "CNAME": "nguynnv.github.io"
     }
 }
