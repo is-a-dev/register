@@ -11,5 +11,13 @@
       "v=spf1 include:_spf.google.com include:spf.forwardemail.net ~all"
     ]
   },
+  "subdomains": {
+    "www": {
+      "URL": "https://sadiq.is-a.dev"
+    },
+    "_dmarc": {
+      "TXT": ["v=DMARC1; p=none; rua=mailto:dmarc@sadiq.is-a.dev; adkim=r; aspf=r"]
+    }
+  }
   "proxied": true
 }
