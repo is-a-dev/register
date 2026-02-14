@@ -16,7 +16,7 @@
       "URL": "https://sadiq.is-a.dev"
     },
     "_dmarc": {
-      "TXT": ["v=DMARC1; p=none; rua=mailto:dmarc@sadiq.is-a.dev; adkim=r; aspf=r"]
+      "TXT": ["v=DMARC1; p=none; rua=mailto:dmarc.report@sadiq.is-a.dev; adkim=r; aspf=r"]
     }
   },
   "proxied": true
