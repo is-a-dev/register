@@ -18,6 +18,6 @@
     "_dmarc": {
       "TXT": ["v=DMARC1; p=none; rua=mailto:dmarc@sadiq.is-a.dev; adkim=r; aspf=r"]
     }
-  }
+  },
   "proxied": true
 }
