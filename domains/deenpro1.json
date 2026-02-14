@@ -5,5 +5,8 @@
     },
     "records": {
         "CNAME": "deenpro1.github.io"
+        "TXT": [ 
+            "google-site-verification=g2hirB2ftAAqET-r7lnqgGNr71sp15w_mO66jzpNiNA" 
+        ]
     }
 }
