@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "10xdev4u-alt",
+    "email": "10xdev4u@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none; rua=mailto:admin@princetheprogrammer.is-a.dev; ruf=mailto:admin@princetheprogrammer.is-a.dev; sp=none; adkim=r; aspf=r; pct=100"
+  }
+}
