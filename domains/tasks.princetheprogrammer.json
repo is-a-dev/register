@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "10xdev4u-alt",
+    "email": "10xdev4u@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": true
+}
