@@ -3,8 +3,14 @@
         "username": "BenatEiguren"
     },
     "records": {
-        "A": ["46.225.110.152"],
-        "MX": ["10 benat.is-a.dev"],
-        "TXT": ["v=spf1 mx -all"]
+        "A": [
+            "46.225.110.152"
+        ],
+        "MX": [
+            "benat.is-a.dev"
+        ],
+        "TXT": [
+            "v=spf1 mx -all"
+        ]
     }
 }
