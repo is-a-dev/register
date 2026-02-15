@@ -1,1 +1,8 @@
-{\n  "owner": {\n    "username": "littletuna4",\n    "email": "seemsfishy04@gmail.com"\n  },\n  "records": {\n    "CNAME": "b1.tony-is-a-dev.dkim.brevo.com"\n  },\n  "proxied": true\n}
+{ "owner": {
+    "username": "littletuna4",
+    "email": "seemsfishy04@gmail.com"
+  },
+  "records": {
+    "CNAME": "b1.tony-is-a-dev.dkim.brevo.com"
+  },  "proxied": true
+}
