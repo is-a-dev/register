@@ -4,6 +4,9 @@
         "email": "piramy@proton.me"
     },
     "records": {
-        "TXT": "vc-domain-verify=nicolas-cuitino.is-a.dev,4817ff80bbb1c39cdbac"
+        "TXT": [
+            "vc-domain-verify=nicolas-cuitino.is-a.dev,4817ff80bbb1c39cdbac",
+            "vc-domain-verify=www.nicolas-cuitino.is-a.dev,b50e9600e6f2233247ce"
+        ]
     }
 }
