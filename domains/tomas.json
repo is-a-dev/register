@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "tmihalicka",
+    "email": "tomas@mihalicka.com"
+  },
+  "records": {
+    "CNAME": "mihalicka.com"
+  },
+  "proxied": true
+}

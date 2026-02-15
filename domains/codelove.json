@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "lchenrique",
+    "email": "lc.henrique@gmail.com"
+  },
+  "records": {
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.forwardemail.net ~all",
+      "forward-email=lc.henriquee@gmail.com"
+    ]
+  }
+}
