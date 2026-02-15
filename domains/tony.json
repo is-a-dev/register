@@ -1,9 +1,1 @@
-{
-    "owner": {"username": "littletuna4","email": "seemsfishy04@gmail.com"},
-    "records": {
-        "CNAME": "littletuna4.github.io",
-        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
-    },
-  "proxied": true
-}
+{"owner":{"username":"littletuna4","email":"seemsfishy04@gmail.com"},"records":{"CNAME":"littletuna4.github.io","MX":["mx1.improvmx.com","mx2.improvmx.com"],"TXT":["v=spf1 include:spf.improvmx.com ~all","brevo-code:7c33e7ab16a1c062d0727324a88b84e8","v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"]},"subdomains":{"brevo1._domainkey":{"records":{"CNAME":"b1.tony-is-a-dev.dkim.brevo.com"}},"brevo2._domainkey":{"records":{"CNAME":"b2.tony-is-a-dev.dkim.brevo.com"}},"_dmarc":{"records":{"TXT":"v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"}}},"proxied":true}
