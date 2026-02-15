@@ -1,0 +1,11 @@
+{
+  "description": "Projeto Bewear",
+  "repo": "https://github.com/lucsyntax/bewear",
+  "owner": {
+    "username": "lucsyntax",
+    "email": "luchtml5@gmail.com"
+  },
+  "record": {
+    "CNAME": "bewear-steel.vercel.app"
+  }
+}
