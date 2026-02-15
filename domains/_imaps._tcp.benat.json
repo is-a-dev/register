@@ -1,6 +1,13 @@
 {
-    "owner": { "username": "BenatEiguren" },
-    "records": {
-        "SRV": ["0 0 993 benat.is-a.dev"]
-    }
+    "owner": {
+        "username": "BenatEiguren"
+    },
+    "records": [
+        {
+            "priority": 0,
+            "weight": 0,
+            "port": 993,
+            "target": "benat.is-a.dev"
+        }
+    ]
 }
