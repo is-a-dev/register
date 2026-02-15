@@ -4,6 +4,8 @@
     "email": "admin@devsadiq.site"
   },
   "records": {
-    "CNAME": "sadiqbd.pages.dev"
+    "A": ["75.2.60.5"],
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": ["forward-email=QXZENXlSNWsyQ1JhWk1pY2dzWDJGNEZrNUZUMWZFd2pPLUhxREk4NEh3emEyZXI4blJ5RXJqVWRYMW4yM2czOQ=="]
   }
 }
