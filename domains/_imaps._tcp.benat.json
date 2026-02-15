@@ -1,0 +1,6 @@
+{
+    "owner": { "username": "BenatEiguren" },
+    "records": {
+        "SRV": ["0 0 993 benat.is-a.dev"]
+    }
+}
