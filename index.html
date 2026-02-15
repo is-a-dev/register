@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberGolf support • cyber war • burundi</title>
+    
+    <!-- Только Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #000000;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+        }
+
+        .card {
+            background: #0a0a0a;
+            border: 1px solid #1a1a1a;
+            border-radius: 32px;
+            padding: 60px 48px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Аватар с пульсацией как стук сердца */
+        .avatar-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #1a1a1a;
+            animation: heartbeat 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+            transition: border-color 0.2s;
+        }
+
+        .avatar:hover {
+            border-color: #333333;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
+            }
+            25% {
+                transform: scale(1.08);
+                box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.05);
+            }
+            35% {
+                transform: scale(1);
+                box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.03);
+            }
+            45% {
+                transform: scale(1.05);
+                box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.04);
+            }
+            55% {
+                transform: scale(1);
+                box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.02);
+            }
+        }
+
+        /* Главный тезис */
+        .statement {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .main-text {
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 1.4;
+            color: #ffffff;
+            margin-bottom: 16px;
+        }
+
+        .main-text span {
+            color: #666666;
+            font-weight: 300;
+            display: block;
+            font-size: 20px;
+            margin-top: 12px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: #1a1a1a;
+            margin: 40px auto;
+        }
+
+        /* Секция NEWS */
+        .section-title {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #444444;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .section-title::before {
+            content: '⚡';
+            color: #666666;
+            font-size: 16px;
+        }
+
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 48px;
+        }
+
+        .news-item {
+            background: #0f0f0f;
+            border: 1px solid #1a1a1a;
+            border-radius: 24px;
+            padding: 24px;
+            transition: all 0.2s;
+        }
+
+        .news-item:hover {
+            border-color: #333333;
+            background: #141414;
+            transform: translateX(4px);
+        }
+
+        .news-date {
+            color: #666666;
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .news-date::before {
+            content: '▌';
+            color: #4caf50;
+            font-size: 14px;
+        }
+
+        .news-title {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+
+        .news-desc {
+            color: #888888;
+            font-size: 15px;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+
+        .news-tag {
+            display: inline-block;
+            margin-top: 16px;
+            color: #4caf50;
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        /* Telegram */
+        .contact-section {
+            background: #0f0f0f;
+            border: 1px solid #1a1a1a;
+            border-radius: 24px;
+            padding: 28px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.2s;
+            margin-top: 48px;
+        }
+
+        .contact-section:hover {
+            border-color: #333333;
+            background: #141414;
+        }
+
+        .contact-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .contact-icon {
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        .contact-text {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .contact-copy {
+            color: #666666;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            user-select: none;
+            padding: 8px 12px;
+            border-radius: 12px;
+            transition: all 0.2s;
+        }
+
+        .contact-copy:hover {
+            background: #1a1a1a;
+            color: #ffffff;
+        }
+
+        .copy-feedback {
+            color: #4caf50;
+            font-size: 13px;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .copy-feedback.show {
+            opacity: 1;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 40px;
+            color: #222222;
+            font-size: 12px;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        /* Адаптация */
+        @media (max-width: 600px) {
+            .card {
+                padding: 40px 24px;
+            }
+            
+            .main-text {
+                font-size: 22px;
+            }
+            
+            .contact-section {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+            }
+            
+            .contact-left {
+                width: 100%;
+            }
+            
+            .contact-copy {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .avatar {
+                width: 100px;
+                height: 100px;
+            }
+
+            .news-item {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- Аватар с постоянным пульсом -->
+            <div class="avatar-container">
+                <img src="https://i.imgur.com/QcVwoa2.jpeg" alt="avatar" class="avatar" id="avatar">
+            </div>
+
+            <!-- Главный тезис -->
+            <div class="statement">
+                <div class="main-text">
+                    ransomware — это не кибертерроризм
+                    <span>это просто хобби</span>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- NEWS -->
+            <div class="section-title">НОВОСТИ НОВОСТИ CyberGolf team</div>
+            
+            <div class="news-list">
+                <div class="news-item">
+                    <div class="news-date">2025</div>
+                    <div class="news-title">CyberGolf team возобновила свою деятельность</div>
+                    <div class="news-desc">После трех-летнего перерыва команда возвращается к активной работе.</div>
+                    <div class="news-tag">#reborn</div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-date">январь 2026</div>
+                    <div class="news-title">Взломан интернет-провайдер SpidetNet (Burundi)</div>
+                    <div class="news-desc">Получен доступ к инфраструктуре провайдера. Данные абонентов, логи, маршрутизация.</div>
+                    <div class="news-tag">#access</div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-date">февраль 2026</div>
+                    <div class="news-title">Взломан сайт главной больницы Burundi</div>
+                    <div class="news-desc">CyberGolf support официально объявил кибервойну стране. Был совершен полный дефейс сайта.</div>
+                    <div class="news-tag">#declaration</div>
+                </div>
+            </div>
+
+            <!-- Telegram контакт -->
+            <div class="contact-section">
+                <div class="contact-left">
+                    <span class="contact-icon">📱</span>
+                    <span class="contact-text">@golfsupp - Telegram</span>
+                </div>
+                <div class="contact-copy" id="copyButton">
+                    <span>📋</span>
+                    <span>скопировать</span>
+                    <span class="copy-feedback" id="copyFeedback">скопировано</span>
+                </div>
+            </div>
+
+            <!-- Footer с датой -->
+            <div class="footer" id="footer">
+                <!-- дата подставится через JS -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // КОПИРОВАНИЕ НИКА В БУФЕР
+        const copyButton = document.getElementById('copyButton');
+        const copyFeedback = document.getElementById('copyFeedback');
+        
+        copyButton.addEventListener('click', async () => {
+            try {
+                await navigator.clipboard.writeText('@golfsupp');
+                copyFeedback.classList.add('show');
+                
+                setTimeout(() => {
+                    copyFeedback.classList.remove('show');
+                }, 2000);
+            } catch (err) {
+                console.error('Не удалось скопировать');
+            }
+        });
+
+        // ТЕКУЩАЯ ДАТА В ФУТЕРЕ
+        const footer = document.getElementById('footer');
+        const now = new Date();
+        const months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+        
+        footer.textContent = `${now.getDate()} ${months[now.getMonth()]} ${now.getFullYear()}`;
+
+        // АВАТАРКА - замени ссылку на свою
+        const avatar = document.getElementById('avatar');
+        // avatar.src = 'https://твой-сайт/avatar.jpg';
+
+        console.log('%c@golfsupp • война с Burundi', 'color: #4caf50; font-size: 12px;');
+    </script>
+</body>
+</html>
