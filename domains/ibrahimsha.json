@@ -1,10 +1,10 @@
 {
-  "description": "Ibrahim's Blog",
+  "description": "Ibrahimsha's Portfolio",
   "owner": {
     "username": "ibrahimshadev",
     "email": "ibrahimshadev@gmail.com"
   },
-  "record": {
-    "TXT": "Hello World!"
+  "records": {
+    "CNAME": "ibrahimshadev.github.io"
   }
 }
