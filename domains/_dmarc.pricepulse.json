@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "AmelioMansour",
+    "email": "ameliomansour612@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
