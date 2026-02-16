@@ -1,9 +1,0 @@
-{
-  "codecamp.is-a.dev": {
-    "target": "cname",
-    "Target": "cname.vercel-dns.com.",
-    "MX": "10 mx.is-a.dev.",
-    "txt-verification": "votre-code-verif-is-a-dev",
-    "https": "on"
-  }
-}
