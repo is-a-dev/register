@@ -4,6 +4,9 @@
     "email": "eqduqwde@gmail.com"
   },
   "records": {
-    "A": ["31.202.91.123"]
+    "A": ["31.202.91.123"],
+    "CNAME": {
+      "store": "ssdfrew1.github.io"
+    }
   }
 }
