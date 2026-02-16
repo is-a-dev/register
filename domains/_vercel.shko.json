@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "OneAboveAll190604",
-        "email": "shkoma.ranya@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=shko.is-a.dev,776e7784184db1914414"
-    }
+  "owner": {
+    "username": "OneAboveAll190604",
+    "email": "shkoma.ranya@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=shko.is-a.dev,776e7784184db1914414"
+  }
 }
