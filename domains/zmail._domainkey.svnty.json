@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "svnty",
+    "email": "jakewalklate@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcqEg0pCBjLa1ADqgC4mL187XbW6d4yWtA2GkiSTlXdQ/zZtG8P2cghRuZkK7nSGSRfEoqy844Tx+tub0bWM8/4zfmU0fbgtUYKr1Zc8aSgYTPQln2+F8zAXBnTC0PBz+ZLWy+vGmJt0Wykt6hxV8zbgOz3+3EFfxHuOYeca0tMwIDAQAB"
+  }
+}

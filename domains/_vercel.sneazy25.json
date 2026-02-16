@@ -4,6 +4,6 @@
     "email": "sneazy25@proton.me"
   },
   "records": {
-    "TXT": ["vc-domain-verify=sneazy25.is-a.dev,2f9caf76ec1be24030a6"]
+    "TXT": "vc-domain-verify=sneazy25.is-a.dev,2f9caf76ec1be24030a6"
   }
 }

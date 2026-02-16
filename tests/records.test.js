@@ -88,6 +88,8 @@ function isValidHexadecimal(value) {
     return /^[0-9a-fA-F]+$/.test(value);
 }
 
+const disallowedCNAMEs = require("../util/disallowed-cnames.json");
+
 function validateRecordValues(t, data, file) {
     const subdomain = file.replace(/\.json$/, "");
 
@@ -141,6 +143,14 @@ function validateRecordValues(t, data, file) {
                 t.true(isValidHostname(value), `${file}: Invalid hostname for ${key}`);
                 t.true(value !== `${subdomain}.is-a.dev`, `${file}: ${key} cannot point to itself`);
                 t.true(value !== "is-a.dev", `${file}: ${key} cannot point to is-a.dev`);
+
+                for (const disallowed of disallowedCNAMEs) {
+                    if (disallowed.startsWith(".")) {
+                        t.false(value.endsWith(disallowed), `${file}: ${key} cannot end with ${disallowed}`);
+                    } else {
+                        t.false(value === disallowed, `${file}: ${key} cannot be ${disallowed}`);
+                    }
+                }
             } else if (key === "URL") {
                 t.true(
                     value.startsWith("http://") || value.startsWith("https://"),
@@ -212,8 +222,8 @@ function validateRecordValues(t, data, file) {
                         `${file}: Invalid selector for ${key} at index ${idx}`
                     );
                     t.true(
-                        Number.isInteger(record.matchingType) && record.matchingType >= 0 && record.matchingType <= 255,
-                        `${file}: Invalid matchingType for ${key} at index ${idx}`
+                        Number.isInteger(record.matching_type) && record.matching_type >= 0 && record.matching_type <= 255,
+                        `${file}: Invalid matching_type for ${key} at index ${idx}`
                     );
                     t.true(
                         isValidHexadecimal(record.certificate),
@@ -268,7 +278,7 @@ function validateRecordValues(t, data, file) {
     }
 }
 
-t("All files should have valid record types", (t) => {
+t("All files should have valid records", (t) => {
     files.forEach((file) => {
         const data = getDomainData(file);
         const recordKeys = Object.keys(data.records);
@@ -278,8 +288,12 @@ t("All files should have valid record types", (t) => {
         });
 
         // Record type combinations validation
-        if (recordKeys.includes("CNAME") && !data.proxied) {
-            t.is(recordKeys.length, 1, `${file}: CNAME records cannot be combined with other records unless proxied`);
+        if (recordKeys.includes("CNAME")) {
+            if (!data.proxied) {
+                t.is(recordKeys.length, 1, `${file}: CNAME records cannot be combined with other records unless proxied`);
+            } else {
+                t.true(!recordKeys.includes("A") && !recordKeys.includes("AAAA"), `${file}: CNAME records cannot be combined with A or AAAA records`);
+            }
         }
         if (recordKeys.includes("NS")) {
             t.true(

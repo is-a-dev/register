@@ -1,0 +1,11 @@
+{
+  "description": "My awesome portfolio",
+  "repo": "https://github.com/Elesiann/webcurriculum",
+  "owner": {
+    "username": "elesiann",
+    "email": "giovanicorrea.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "cvgiovanimachado.vercel.app"
+  }
+}

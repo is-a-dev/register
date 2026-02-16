@@ -3,6 +3,6 @@
     "username": "micoms"
   },
   "records": {
-    "TXT": ["vc-domain-verify=mico.is-a.dev,1c71f89a6944e037c8f7"]
+    "TXT": "vc-domain-verify=mico.is-a.dev,1c71f89a6944e037c8f7"
   }
 }

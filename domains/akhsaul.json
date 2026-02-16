@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "akhsaul",
-        "email": "akhsaul.active606@passmail.com"
-    },
-    "records": {
-        "CNAME": "akhsaul.github.io"
-    }
+  "owner": {
+    "username": "akhsaul",
+    "email": "akhsaul.active606@passmail.com"
+  },
+  "records": {
+    "CNAME": "akhsaul.github.io"
+  }
 }

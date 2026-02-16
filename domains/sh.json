@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "danielsebesta",
+        "email": "podpora@smirkhat.org"
+    },
+    "records": {
+        "CNAME": "smirkhat.github.io"
+    },
+    "proxied": true
+}

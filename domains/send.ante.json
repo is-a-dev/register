@@ -10,6 +10,6 @@
         "priority": 10
       }
     ],
-    "TXT": ["v=spf1 include:amazonses.com ~all"]
+    "TXT": "v=spf1 include:amazonses.com ~all"
   }
 }

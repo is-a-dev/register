@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "anonymousik",
-    "email": "anonymousxtutaj@gmail.com"
+    "email": "anonymousxtutaj@gmail.com",
+    "discord": "D3KkRKP8"
   },
   "records": {
     "CNAME": "anonymousik.github.io"
-  }
+  },
+  "proxied": true
 }

@@ -4,6 +4,6 @@
     "email": "hardiantojek92@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=anto.is-a.dev,c6f0fc6ee41a39c2c435"]
+    "TXT": "vc-domain-verify=anto.is-a.dev,c6f0fc6ee41a39c2c435"
   }
 }

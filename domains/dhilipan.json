@@ -6,9 +6,6 @@
   "records": {
     "A": ["75.2.60.5"],
     "MX": ["mx1.simplelogin.co", "mx2.simplelogin.co"],
-    "TXT": [
-      "sl-verification=wpdcbpaapmqwevjvnaifhpwdvozldi",
-      "v=spf1 include:simplelogin.co ~all"
-    ]
+    "TXT": ["sl-verification=wpdcbpaapmqwevjvnaifhpwdvozldi", "v=spf1 include:simplelogin.co ~all"]
   }
 }
