@@ -1,0 +1,11 @@
+{
+  "description": "Numexa - Scientific Calculator Platform",
+  "repo": "https://github.com/uniyal-aditya/numexa-website",
+  "owner": {
+    "username": "uniyal-aditya",
+    "email": "moddycorner@gmail.com"
+  },
+  "record": {
+    "CNAME": "numexa.netlify.app"
+  }
+}
