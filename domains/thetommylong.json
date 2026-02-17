@@ -8,8 +8,5 @@
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=MzhmMzFiMTE5MzQzMWU3Yi0wMTUyZTEzZjg1Mjg0OGUzNjFiNzkzMmE2MGY1MDM3ZmUxY2IzODdlOWEzYTUyZGUyYjZjMzcwMzE3MWExZjNi",
     "A": ["75.2.60.5"]
-  },
-  "services": {
-    "discord": "dh=112935453eef7c160175f5248382ad40924848b0"
   }
 }

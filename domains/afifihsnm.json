@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "afifihsnm.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=afifihsnm.is-a.dev,1139cce076ac655e6950"
   }
 }

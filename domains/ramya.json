@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "ramya-umber.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ramya.is-a.dev,01d3d04febd477ec42b8"
   }
 }

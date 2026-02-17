@@ -5,8 +5,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=mantou.is-a.dev,c8a46ea52ff24c67a0a6"
   }
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "rajputshashank.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=rajputshashank.is-a.dev,b54453fc10c77cf72c1d"
   }
 }

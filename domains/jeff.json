@@ -17,8 +17,5 @@
       "/ig": "https://www.instagram.com/jeffreysfuenmayor_"
     }
   },
-  "proxied": true,
-  "services": {
-    "discord": "dh=674aa7264cbcffb1d24dd630c38f8613ad822824"
-  }
+  "proxied": true
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "saif-two.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=saif.is-a.dev,8f2dcd17056c670b7276"
   }
 }

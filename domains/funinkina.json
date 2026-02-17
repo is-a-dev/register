@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "funinkina.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=funinkina.is-a.dev,8581bc99ee19dbb2326b"
   }
 }

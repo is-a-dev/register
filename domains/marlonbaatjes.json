@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "marlonbaatjes.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=marlonbaatjes.is-a.dev,e393641c1319b97e701e"
   }
 }

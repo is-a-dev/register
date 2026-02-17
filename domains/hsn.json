@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "hasanur.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=hsn.is-a.dev,8e27ffda53d18220c019"
   }
 }

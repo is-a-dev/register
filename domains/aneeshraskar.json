@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "aneesh-raskar.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=aneeshraskar.is-a.dev,15a32ae23fd15bc3d6ff"
   }
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "nathanospino.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=nathanospino.is-a.dev,4130bdbb1e9dc4fcfcc0"
   }
 }

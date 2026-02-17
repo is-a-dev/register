@@ -1,13 +1,10 @@
 {
   "owner": {
-    "username": "rrcoder0167",
+    "username": "riddhimanrana",
     "email": "riddhiman.rana@gmail.com",
     "discord": "870936028108705803"
   },
   "records": {
-    "CNAME": "website-f4e.pages.dev"
-  },
-  "services": {
-    "discord": "dh=edffc018717818b3b5679949d15c4d3014187e1f"
+    "CNAME": "riddhimanrana.vercel.app"
   }
 }

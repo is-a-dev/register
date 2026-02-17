@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-khxif.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=khaif.is-a.dev,fe39b6b2d8e96026a707"
   }
 }

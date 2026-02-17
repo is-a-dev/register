@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "YeduKrishnanTY",
-    "discord": "Chandler._bing__#8780"
-  },
-  "records": {
-    "CNAME": "yedukrishnanty.github.io"
-  }
+    "owner": {
+        "username": "YedukrishnanTY",
+        "email": "yedu345@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

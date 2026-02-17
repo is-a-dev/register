@@ -5,12 +5,7 @@
     "discord": "1117482901353812088"
   },
   "records": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": [
       "google-site-verification=qBaFslC7xe6gcHiolYEJ32HjpJVk-ZOMbRpu_1zkm_s",
@@ -18,8 +13,5 @@
       "yandex-verification: a31dc9b638bff027",
       "v=spf1 include:spf.improvmx.com ~all"
     ]
-  },
-  "services": {
-    "discord": "dh=a468556178a0bac462fa84043545b67b982e7fe0"
   }
 }

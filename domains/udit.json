@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "details-five.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=udit.is-a.dev,8718c1c2a08417265d7e"
   }
 }

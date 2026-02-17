@@ -5,10 +5,27 @@
     "twitter": "priyansxu_gupta"
   },
   "records": {
-    "CNAME": "priyanshu.pages.dev"
-  },
-  "services": {
-    "discord": "dh=4784b7e772166e35d7f9a41207e1ddf7e3d57f82",
-    "bluesky": "did=did:plc:psimj7hgshwoets2jvd6caib"
+    "A": [
+      "216.198.79.1"
+    ],
+    "TXT": [
+      "zoho-verification=zb93709277.zmverify.zoho.in",
+      "v=spf1 include:zohomail.in ~all",
+      "google-site-verification=obhrbhl6kwFAIYMZOpXjmR9WQ-q76sMYmyUYo1WmnZE"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ]
   }
 }

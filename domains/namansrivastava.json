@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "naman08portfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=namansrivastava.is-a.dev,7b128b70cd9aae28bf1c"
   }
 }

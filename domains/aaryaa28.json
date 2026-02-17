@@ -7,8 +7,5 @@
   },
   "records": {
     "CNAME": "aaryaa28.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=aaryaa28.is-a.dev,850ee630abf1e652e41e"
   }
 }

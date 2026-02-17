@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "nextjs-notion-starter-kit-transitive-bullshit.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=risqiahmad.is-a.dev,8bd8af8f24fe915c1ac4"
   }
 }

@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "portfolio-ashy-ten-95.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=mrincer.is-a.dev,b49fbc8c9c4be061da53"
   }
 }

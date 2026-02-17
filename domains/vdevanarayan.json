@@ -6,8 +6,5 @@
   "records": {
     "A": ["76.76.21.21"],
     "TXT": "google-site-verification=NcQI-OpciiCC6SO5bs1ws-ptlIZ9AEZskMszLGwFcOY"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=vdevanarayan.is-a.dev,0c0c081b89b565d7ece1"
   }
 }

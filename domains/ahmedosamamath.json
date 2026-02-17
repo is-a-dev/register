@@ -5,8 +5,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ahmedosamamath.is-a.dev,796151d584bede738264"
   }
 }

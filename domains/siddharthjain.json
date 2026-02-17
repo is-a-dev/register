@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "next-js-portfolio-siddharth9300s-projects.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=siddharthjain.is-a.dev,bf30c11f1d56bbab2dd7"
   }
 }

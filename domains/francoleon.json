@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "francoleondev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=francoleon.is-a.dev,ead369809cf9c9018296"
   }
 }

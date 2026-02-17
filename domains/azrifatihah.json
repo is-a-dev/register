@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "azri-portfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=azrifatihah.is-a.dev,99b5bc49dc0a636f9bcf"
   }
 }

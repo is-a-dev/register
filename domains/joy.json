@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "joy-portfolio-chi.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=joy.is-a.dev,b9818cfcdf90b4080e52"
   }
 }

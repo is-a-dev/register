@@ -5,9 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-codesoftgits-projects.vercel.app"
-  },
-  "services": {
-    "discord": "dh=1d1f0586f56693138d2014b13312d7467fa4e497",
-    "vercel": "vc-domain-verify=codesoft.is-a.dev,18c04513308f15b350a9"
   }
 }

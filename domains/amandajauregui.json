@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "portifolio-amandajauregui.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=amandajauregui.is-a.dev,a3853c2f774bcc618d55"
   }
 }

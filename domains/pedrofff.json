@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-opal-theta-47.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=pedrofff.is-a.dev,5dd6c195a19c9a69c00b"
   }
 }

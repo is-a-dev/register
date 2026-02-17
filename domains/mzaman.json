@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "zaman-portfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=mzaman.is-a.dev,23ba156f3878cfc860f7"
   }
 }

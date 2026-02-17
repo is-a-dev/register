@@ -7,8 +7,5 @@
   "records": {
     "CNAME": "isadev-site.pages.dev"
   },
-  "proxied": true,
-  "services": {
-    "discord": "dh=a261e0bde9e7d78a88462fda3c35222a35a348de"
-  }
+  "proxied": true
 }

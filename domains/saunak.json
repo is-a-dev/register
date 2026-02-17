@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "sgfolio-nu.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=saunak.is-a.dev,1127684a6f45539a1ebe"
   }
 }

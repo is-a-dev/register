@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "shriharidev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=shri.is-a.dev,0dc8bc43ef83d72e5753"
   }
 }

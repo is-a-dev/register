@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=cgmuros.is-a.dev,12145ac3f3c3d53d6095"
   }
 }

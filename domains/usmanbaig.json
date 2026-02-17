@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "usmanbaig-dev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=usmanbaig.is-a.dev,c2f96e70ebd3aef5458b"
   }
 }
