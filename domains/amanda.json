@@ -4,6 +4,9 @@
     "email": "gutiamanda.es@gmail.com"
   },
   "records": {
-    "CNAME": "amanda.free.nf"
+    "NS": [
+      "clarissa.ns.cloudflare.com",
+      "graham.ns.cloudflare.com"
+    ]
   }
 }
