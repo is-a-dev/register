@@ -4,6 +4,6 @@
     "email": "admin@devsadiq.site"
   },
   "records": {
-    "TXT": ["v=DMARC1; p=none; rua=mailto:dmarc.report@sadiq.is-a.dev; adkim=r; aspf=r"]
+    "TXT": ["v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"]
   }
 }
