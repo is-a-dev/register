@@ -1,0 +1,11 @@
+{
+  "domain": "mhystudio",
+  "subdomain": "mhystudio",
+  "owner": {
+    "repo": "https://github.com/mhycreations",
+    "email": "mhyakungaming@gmail.com"
+  },
+  "record": {
+    "CNAME": "mhystudio-quick-tunnel.trycloudflare.com"
+  }
+}
