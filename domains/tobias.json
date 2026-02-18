@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "smarterToby",
+    "username": "reussio",
     "discord": "724712767080235049"
   },
   "records": {
-    "CNAME": "tobiasreuss.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }

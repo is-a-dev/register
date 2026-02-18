@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "littletuna4",
-        "email": "seemsfishy04@gmail.com"
-    },
+    "owner": {"username": "littletuna4","email": "seemsfishy04@gmail.com"},
     "records": {
-        "CNAME": "littletuna4.github.io"
-    }
+        "CNAME": "littletuna4.github.io",
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    },
+  "proxied": true
 }
