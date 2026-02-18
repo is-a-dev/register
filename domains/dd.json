@@ -4,6 +4,7 @@
     "email": "dhruvaldalwdi1907@gmail.com"
   },
   "records": {
-    "CNAME": "my-portfolio-kappa-lovat-49.vercel.app"
+    "CNAME": "my-portfolio-kappa-lovat-49.vercel.app",
+    "TXT": "vc-domain-verify=dd.is-a.dev,d840cdfdd3fbed842aa4"
   }
 }
