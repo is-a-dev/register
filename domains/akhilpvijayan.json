@@ -1,4 +1,9 @@
 {
-  "description": "My portfolio website",
-  "repo": "https://github.com/akhilpvijayan/portfolio"
+  "owner": {
+    "username": "akhilpvijayan",
+    "email": "akhilpvofficial8@gmail.com"
+  },
+  "records": {
+    "CNAME": "akhilpvijayan.github.io"
+  }
 }
