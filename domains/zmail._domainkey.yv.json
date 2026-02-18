@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "yashvr96",
+     "email": "yashvr96@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCHjFfZdiCQ1AgfMtTqbM89UWmlXVIDZKahKQhWYi3aJcsDUYU2yqpK0puMccGVhZZu69bNgEBfiwAqxQyF1SvV3cpQ8lKFj0jLvR9tEki6SMJsUV4fqf7ywai6gIlHz25mDdnC3lLRhBbKqHV180gBvl6XB70IK3IF8bZJjYJZpQIDAQAB"
+  }
+}

@@ -1,9 +1,10 @@
 {
+  "description": "David V. Kimball",
   "owner": {
-    "username": "david-valdivia",
-    "email": "dev@dvaldivia.com"
+    "username": "davidvkimball",
+    "twitter": "davidvkimball"
   },
   "records": {
-    "CNAME": "dvaldivia.com"
+    "A": ["75.2.60.5"]
   }
 }
