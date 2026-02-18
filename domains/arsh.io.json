@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Arsh-Pathan"
+    "username": "Arsh-Pathan",
+    "email": "mail.arsh.pathan@gmail.com"
   },
   "records": {
     "A": ["51.79.249.143"]
-  },
+  }
 }
