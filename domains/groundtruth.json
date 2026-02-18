@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "anish632",
+    "email": "anishdasmail@gmail.com"
+  },
+  "description": "Ground Truth MCP Server - AI agent fact-checking tool",
+  "record": {
+    "CNAME": "ground-truth-mcp.anishdasmail.workers.dev"
+  }
+}
