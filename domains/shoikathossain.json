@@ -1,0 +1,11 @@
+{
+  "description": "Shoikat Hossain's .is-a.dev subdomain for custom email setup",
+  "repo": "https://github.com/shuvo4578/domain-register",
+  "owner": {
+    "username": "shuvo4578",
+    "email": "shoikathossain77@gmail.com"
+  },
+  "records": {
+    "CNAME": "example.com"
+  }
+}
