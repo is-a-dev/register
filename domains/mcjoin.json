@@ -3,6 +3,9 @@
         "username": "Xyjio"
     },
     "record": {
-        "A": ["91.36.53.108"]
+        "NS": [
+            "damien.ns.cloudflare.com",
+            "sima.ns.cloudflare.com"
+        ]
     }
 }
