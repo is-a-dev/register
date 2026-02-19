@@ -1,0 +1,12 @@
+{
+  "description": "Tarot y Energia - personal tarot reading platform",
+  "domain": "is-a.dev",
+  "subdomain": "tarot-y-energia",
+  "owner": {
+    "username": "MartinDanielB",
+    "email": "b.martindaniel@gmail.com"
+  },
+  "record": {
+    "CNAME": "tarot-y-energia.cfargotunnel.com"
+  }
+}
