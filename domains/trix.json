@@ -5,12 +5,7 @@
     },
     "records": {
         "CNAME": "bio-81b.pages.dev",
-        "MX": [
-            {
-                "target": "inbound-smtp.ap-northeast-1.amazonaws.com",
-                "priority": 9
-            }
-        ],
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
         "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
     },
     "proxied": true
