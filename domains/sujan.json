@@ -4,6 +4,7 @@
         "email": "arorasujaan@gmail.com"
     },
     "records": {
-        "CNAME": "bento-portfolio-sujan.vercel.app"
+        "CNAME": "bento-portfolio-sujan.vercel.app",
+        "TXT": "vc-domain-verify=www.sujan.is-a.dev,e42f05498ec18157b993"
     }
 }
