@@ -1,0 +1,11 @@
+{
+  "description": "SAFAQAT backend and authentication services",
+  "repo": "https://github.com/RWADTECH-SARL/SAFAQAT",
+  "owner": {
+    "username": "KaizerX01",
+    "email": "zakariae.azila@rwadtech.com"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+  }
+}
