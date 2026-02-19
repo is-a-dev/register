@@ -4,6 +4,6 @@
     "email": "sadiq.dev@proton.me"
   },
   "records": {
-    "TXT": ["v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"]
+    "TXT": ["71e5d9839ab37ded806f9af0237e77"]
   }
 }
