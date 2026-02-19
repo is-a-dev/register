@@ -1,6 +1,9 @@
 {
-  "owner": { "username": "dhanyyudi" },
-  "record": {
-    "CNAME": "ab76d2235b4d522d2619af6ff3cdaec0.cfargotunnel.com"
-  }
+    "owner": {
+        "username": "dhanyyudi",
+        "email": "dhanyyudi.prasetyo@gmail.com"
+    },
+    "record": {
+        "CNAME": "ab76d2235b4d522d2619af6ff3cdaec0.cfargotunnel.com"
+    }
 }
