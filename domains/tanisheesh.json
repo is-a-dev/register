@@ -4,6 +4,9 @@
         "email": "tanishpoddar.18@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "A": ["216.198.79.1"],
+        "TXT": [
+            "zoho-verification=zb60574851.zmverify.zoho.com"
+        ]
     }
 }
