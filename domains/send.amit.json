@@ -7,7 +7,7 @@
     "MX": [
       {
         "priority": 10,
-        "value": "feedback-smtp.ap-northeast-1.amazonses.com"
+        "target": "feedback-smtp.ap-northeast-1.amazonses.com."
       }
     ],
     "TXT": [
