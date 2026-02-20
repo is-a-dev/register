@@ -1,0 +1,16 @@
+{
+    "owner": {
+        "username": "probeofficial",
+        "email": "proberesmi0928@gmail.com"
+    },
+    "record": {
+        "CNAME": "probe.rf.gd"
+    },
+    "subdomains": {
+        "yt": { "URL": "https://www.youtube.com/@isking-berat" },
+        "ig": { "URL": "https://www.instagram.com/iskingprobe" },
+        "fb": { "URL": "https://www.facebook.com/profile.php?id=61582809797551" },
+        "gh": { "URL": "https://github.com/probeofficial" },
+        "sss": { "URL": "https://github.com/probeofficial/probe-sss" }
+    }
+}
