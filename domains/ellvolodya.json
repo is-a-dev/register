@@ -1,8 +1,9 @@
 {
-  "description": "Personal software developer portfolio website",
-  "repo": "https://github.com/ElVolodya/ellvolodya-portfolio",
   "owner": {
     "username": "ElVolodya",
     "email": "vova.elyk@gmail.com"
+  },
+  "record": {
+    "CNAME": "ellvolodya.github.io"
   }
 }
