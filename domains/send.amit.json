@@ -14,5 +14,5 @@
       "v=spf1 include:amazonses.com ~all"
     ]
   },
-  "proxied": true
+  "proxied": false
 }
