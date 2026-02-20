@@ -4,27 +4,16 @@
     "email": "amitdutta4255@gmail.com"
   },
   "records": {
-    "CNAME": "aranag-main-page.web.app",
+    "CNAME": "aranag-main-page.web.app", 
     "MX": [
       { "priority": 33, "target": "route1.mx.cloudflare.net" },
-      { "priority": 75, "target": "route3.mx.cloudflare.net" },
-      { "priority": 78, "target": "route2.mx.cloudflare.net" }
+      { "priority": 75, "target": "route3.mx.cloudflare.net" }, 
+      { "priority": 78, "target": "route2.mx.cloudflare.net" } 
     ],
     "TXT": [
-      "v=spf1 include:_spf.mx.cloudflare.net ~all",
+      "v=spf1 include:_spf.mx.cloudflare.net ~all", 
       "google-site-verification=FMnhcar7hxxfuw7YIyFnKhNsQedCYWgeKhAFM_9YWSk"
-    ],
-    "subdomains": {
-      "cf2024-1._domainkey": {
-        "TXT": "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78km4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB"
-      },
-      "_acme-challenge": {
-        "TXT": "xBVVk1_nxck-AbOHBrNGLdlIDHDkej_au2ahk-bYimE"
-      },
-      "xnutwg5t2e6y": {
-        "CNAME": "gv-tgl4v3kjrlxj5i.dv.googlehosted.com"
-      }
-    }
+    ]
   },
-  "proxied": false
+  "proxied": true
 }
