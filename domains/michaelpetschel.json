@@ -5,6 +5,6 @@
     },
     "records": {
         "CNAME": "michaelpetschel.github.io"
-        "TXT": ["@ / zoho-verification=zb84845777.zmverify.zoho.com"]
+        "TXT": ["zoho-verification=zb84845777.zmverify.zoho.com"]
     }
 }
