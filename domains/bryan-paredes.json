@@ -4,7 +4,7 @@
         "email": "paredes.bryan2@icloud.com"
     },
     "records": {
-        "CNAME": "781dcf39dfab0d3a.vercel-dns-017.com.",
-        "TXT": "vc-domain-verify=www.bryan-paredes.is-a.dev,0b0375c331f5790428d8"
+        "CNAME": "781dcf39dfab0d3a.vercel-dns-017.com",
+        "TXT": "vc-domain-verify=bryan-paredes.is-a.dev,0b0375c331f5790428d8"
     }
 }
