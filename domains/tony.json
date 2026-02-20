@@ -3,7 +3,10 @@
     "records": {
         "CNAME": "littletuna4.github.io",
         "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com ~all",
+            "brevo-code:7c33e7ab16a1c062d0727324a88b84e8"
+        ]
     },
   "proxied": true
 }
