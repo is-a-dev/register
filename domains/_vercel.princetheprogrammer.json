@@ -4,7 +4,6 @@
     "email": "10xdev4u@gmail.com"
   },
   "records": {
-    "CNAME": "tasks.d9505cc4c4f17d8f.vercel-dns-017.com"
-  },
-  "proxied": false
+    "TXT": "vc-domain-verify=tasks.princetheprogrammer.is-a.dev,21d6aaed3ebb2ec18dca"
+  }
 }
