@@ -1,0 +1,12 @@
+{
+  "description": "My files website",
+  "owner": {
+    "username": "allancoding",
+    "email": "allancoding.dev@gmail.com",
+    "twitter": "allancoding",
+    "discord": "allancoding"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
+}

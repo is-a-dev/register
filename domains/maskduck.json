@@ -1,12 +1,9 @@
 {
-  "description": "MaskDuck's personal website!",
-  "repo": "https://github.com/maskducks/maskducks.github.io",
   "owner": {
-    "username": "MaskDuck",
-    "email": "",
-    "discord": "MaskDuck#1337"
+    "username": "maskduck",
+    "discord": "_ngiu.a_"
   },
-  "record": {
-    "CNAME": "maskducks.github.io"
+  "records": {
+    "NS": ["ada.ns.cloudflare.com", "albert.ns.cloudflare.com"]
   }
 }

@@ -1,11 +1,13 @@
 {
-  "description": "Amit's website",
-  "repo": "https://github.com/amittkulkarni/amittkulkarni.github.io",
   "owner": {
-    "username": "amittkulkarni",
-    "email": "amitcoolkarni@outlook.com"
+    "username": "notamitgamer",
+    "email": "amitdutta4255@gmail.com"
   },
-  "record": {
-    "CNAME": "amittkulkarni.github.io"
-  }
+  "records": {
+    "CNAME": "aranag-main-page.web.app", 
+    "TXT": [
+      "google-site-verification=FMnhcar7hxxfuw7YIyFnKhNsQedCYWgeKhAFM_9YWSk"
+    ]
+  },
+  "proxied": true
 }

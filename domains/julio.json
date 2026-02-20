@@ -1,0 +1,10 @@
+{
+  "description": "My work portfolio",
+  "owner": {
+    "username": "thatsquite",
+    "email": "juliocesar.santos@making.com"
+  },
+  "records": {
+    "CNAME": "thatsquite.github.io"
+  }
+}

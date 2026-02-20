@@ -1,12 +1,13 @@
 {
   "description": "Personal portfolio",
-  "repo": "https://github.com/roshan1337d/roshan1337d.github.io",
   "owner": {
-    "username": "roshan1337d",
-    "email": "roshan1337x@gmail.com",
-    "twitter": "roshan1337d"
+    "username": "roshan1885",
+    "discord": "roshan1885"
   },
-  "record": {
-    "CNAME": "roshan1337d.github.io"
-  }
+  "records": {
+    "CNAME": "roshan1885.github.io",
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  },
+  "proxied": true
 }

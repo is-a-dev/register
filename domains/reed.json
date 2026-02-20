@@ -1,10 +1,10 @@
 {
-  "repo": "https://github.com/reed-jones",
   "owner": {
     "username": "reed-jones",
-    "email": "reedjones@reedjones.com"
+    "email": "reedjones@reedjones.com",
+    "twitter": "rj0nz"
   },
-  "record": {
-    "CNAME": "reedjones.com"
+  "records": {
+    "URL": "https://www.reedjones.com"
   }
 }

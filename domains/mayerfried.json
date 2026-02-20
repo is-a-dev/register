@@ -1,0 +1,10 @@
+{
+  "description": "Mayer Fried Is A Dev",
+  "owner": {
+    "username": "mfried40",
+    "email": "mayer@mayerfried.com"
+  },
+  "records": {
+    "CNAME": "me.mayerfried.com"
+  }
+}

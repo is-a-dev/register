@@ -1,0 +1,20 @@
+{
+  "description": "tungbt.is-a.dev : This is my personal blog",
+  "owner": {
+    "username": "bthanhtung",
+    "email": "bthanhtung.se@gmail.com"
+  },
+  "records": {
+    "URL": "https://tungbt.vercel.app/"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/bthanhtung",
+      "/x": "https://x.com/_bthanhtung",
+      "/fb": "https://facebook.com/TungDaDev",
+      "/linkedin": "https://linkedin.com/in/TungDaDev",
+      "/viblo": "https://viblo.asia/u/bthanhtung"
+    },
+    "redirect_paths": true
+  }
+}

@@ -1,12 +1,11 @@
 {
-  "description": "jmbdevs repo",
-  "repo": "https://github.com/jmbdevs/jmbdevs.github.io",
+  "description": "Directory for my dev related social links",
   "owner": {
-    "username": "jmbdevs",
-    "email": "james@jmbdev.net",
-    "twitter": "jmbdevs"
+    "username": "jameshaworthcs",
+    "email": "james@j-h.ai"
   },
-  "record": {
-    "CNAME": "jmbdevs.github.io"
-  }
+  "records": {
+    "URL": "https://j-h.ai"
+  },
+  "proxied": false
 }

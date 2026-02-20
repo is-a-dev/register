@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Wait2Late",
+    "email": "w82l8.islam@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiyl732QUUKbCscprHI6YtfNuHyh5gHCmbju1k05lTUbLe7hFzPvRr0ZUxcTNj1VyMKdoC/nQYsshyjxvtsUhOhZyG5nPQqbmpyXHG3PXjZcLEtexG3qFz4GnH82dr5OOv3vO/7AGIkX8+OQuUBB4SFlvq3aROEmp8oqjEZXw78wIDAQAB"
+  }
+}

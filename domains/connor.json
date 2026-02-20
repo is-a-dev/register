@@ -1,11 +1,10 @@
 {
-  "description": "A website to show off my projects and or just blogs, etc etc.",
-  "repo": "https://github.com/ZeroTwoDevs/connor.github.io",
+  "description": "Personal portfolio.",
   "owner": {
-    "username": "Connor",
-    "email": "halil_ismail@yahoo.com"
+    "username": "ConnorDoesDev",
+    "email": "connor@dmc.chat"
   },
-  "record": {
-    "CNAME": "connordevs.github.io"
+  "records": {
+    "A": ["173.249.45.163"]
   }
 }
