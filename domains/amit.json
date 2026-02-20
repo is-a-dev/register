@@ -4,18 +4,9 @@
     "email": "amitdutta4255@gmail.com"
   },
   "records": {
-    "CNAME": "aranag-main-page.web.app",
-    "MX": [
-      {
-        "priority": 10,
-        "target": "mx1.improvmx.com"
-      },
-      {
-        "priority":  20,
-        "target": "mx2.improvmx.com"
-      }
-    ],
-    "TXT": "v=spf1 include: spf.improvmx.com ~all"
-  },
-  "proxied": true
+    "NS": [
+      "monroe.ns.cloudflare.com",
+      "noah.ns.cloudflare.com"
+    ]
+  }
 }
