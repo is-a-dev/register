@@ -4,6 +4,7 @@
     "email": "sadiq.dev@proton.me"
   },
   "records": {
-    "TXT": ["v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"]
-  }
+    "CNAME": "sadiq-bd.github.io"
+  },
+  "proxied": true
 }
