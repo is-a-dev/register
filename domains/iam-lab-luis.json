@@ -1,1 +1,9 @@
-iam-lab-luis.is-a.dev
+{
+  "owner": {
+    "username": "adrianjimenezd",
+    "email": "manzambo42@gmail.com"
+  },
+  "record": {
+    "CNAME": "temporary-placeholder.cfargotunnel.com"
+  }
+}
