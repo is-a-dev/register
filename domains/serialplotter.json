@@ -1,0 +1,11 @@
+{
+  "description": "Web Serial Plotter - Real-time serial data visualization",
+  "repo": "https://github.com/rizkyandito/serial-plotter",
+  "owner": {
+    "username": "rizkyandito",
+    "email": ""
+  },
+  "record": {
+    "CNAME": "rizkyandito.github.io"
+  }
+}
