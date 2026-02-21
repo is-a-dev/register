@@ -3,11 +3,7 @@
     "username": "ferryx-dot",
     "email": "ferryxmartins@gmail.com"
   },
-  "records": [
-    {
-      "type": "A",
-      "ttl": 300,
-      "value": "159.203.139.203"
-    }
-  ]
+  "record": {
+    "A": ["159.203.139.203"]
+  }
 }
