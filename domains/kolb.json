@@ -5,7 +5,7 @@
     "records": {
         "CNAME": "kolbxyz.github.io",
         "TXT": [
-            "$argon2id$v=19$m=64,t=512,p=2$gGB5hrSbxVdZ/7uglYOR7A$FXyYpRqdp6A3LNig14CzXw"
+            "openpgp4fpr:F615A793E197F61A3398FC43AD90B0D32C215E15"
         ]
     }
 }
