@@ -1,9 +1,10 @@
 {
     "owner": {
-        "username": "Archonic944"
+        "username": "Archonic944",
+        "twitter": "https://x.com/Archonic2"
     },
     "records": {
-        "CNAME": "gabecohen.gabrielc2904.workers.dev"
+        "CNAME": "gabecohen.pages.dev"
     },
     "proxied": true
 }
