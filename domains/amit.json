@@ -4,18 +4,10 @@
     "email": "amitdutta4255@gmail.com"
   },
   "records": {
-    "CNAME": "aranag-main-page.web.app",
-    "MX": [
-      {
-        "priority": 10,
-        "target": "mx1.improvmx.com"
-      },
-      {
-        "priority":  20,
-        "target": "mx2.improvmx.com"
-      }
-    ],
-    "TXT": "v=spf1 include: spf.improvmx.com ~all"
+    "CNAME": "aranag-main-page.web.app", 
+    "TXT": [
+      "google-site-verification=FMnhcar7hxxfuw7YIyFnKhNsQedCYWgeKhAFM_9YWSk"
+    ]
   },
   "proxied": true
 }
