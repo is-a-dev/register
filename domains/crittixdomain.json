@@ -3,8 +3,11 @@
     "username": "ferryx-dot",
     "email": "ferryxmartins@gmail.com"
   },
-  "record": {
-    "A": ["159.203.139.203"]
-  },
-  "proxied": false
+  "records": [
+    {
+      "type": "A",
+      "ttl": 300,
+      "value": "159.203.139.203"
+    }
+  ]
 }
