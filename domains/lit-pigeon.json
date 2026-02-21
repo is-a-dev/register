@@ -1,0 +1,11 @@
+{
+  "description": "Lit-based email editor web components",
+  "repo": "https://github.com/snxstudio/lit-pigeon",
+  "owner": {
+    "username": "mayurrawte",
+    "email": "rawte.mayur@gmail.com"
+  },
+  "record": {
+    "CNAME": "snxstudio.github.io"
+  }
+}
