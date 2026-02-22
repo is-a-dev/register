@@ -6,6 +6,6 @@
     "email": "vinesh4540@gmail.com"
   },
   "records": {
-    "CNAME": "epsteinfiles.epsteinfiles.workers.dev"
+    "A": ["192.0.2.1"]
   }
 }
