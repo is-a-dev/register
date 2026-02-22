@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "rivethorn",
-        "email": "hassanak813@outlook.com"
-    },
-    "records": {
-        "CNAME": "hq-e53.pages.dev"
-    }
+  "owner": {
+    "username": "rivethorn",
+    "email": "hassanak813@outlook.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
