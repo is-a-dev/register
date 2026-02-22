@@ -1,0 +1,11 @@
+{
+  "description": "Cloudflare Worker project",
+  "repo": "https://github.com/suraj78566",
+  "owner": {
+    "username": "suraj78566",
+    "email": "vinesh4540@gmail.com"
+  },
+  "record": {
+    "CNAME": "epsteinfiles.epsteinfiles.workers.dev"
+  }
+}
