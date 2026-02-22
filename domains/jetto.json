@@ -1,12 +1,12 @@
 {
-  "owner": {
-    "username": "jet1988",
-    "email": "jet.ne@mail.ru"
-  },
-  "record": {
-    "NS": [
-      "duke.ns.cloudflare.com",
-      "jocelyn.ns.cloudflare.com"
-    ]
-  }
+    "owner": {
+        "username": "jet1988",
+        "email": "jet.ne@mail.ru"
+    },
+    "record": {
+        "NS": [
+            "duke.ns.cloudflare.com",
+            "jocelyn.ns.cloudflare.com"
+        ]
+    }
 }
