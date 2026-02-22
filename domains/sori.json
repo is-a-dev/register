@@ -1,0 +1,10 @@
+{
+  "description": "SORI Project - Resonance Platform",
+  "domain": "sori",
+  "owner": {
+    "email": "여기에_팀장님_이메일을_적어주세요@gmail.com"
+  },
+  "record": {
+    "CNAME": "sori-bice.vercel.app"
+  }
+}
