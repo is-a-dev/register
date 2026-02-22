@@ -1,0 +1,12 @@
+{
+    "description": "Abdullah Developer Portfolio",
+    "domain": "is-a.dev",
+    "subdomain": "abdullah-dev",
+    "owner": {
+        "repo": "https://github.com/bugbountysaburtilz1404test-blip/abdullah-dev",
+        "email": "bugbounty.sa.burtilz1404.test@gmail.com"
+    },
+    "record": {
+        "CNAME": "bugbountysaburtilz1404test-blip.github.io"
+    }
+}
