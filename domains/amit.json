@@ -7,7 +7,6 @@
     "CNAME": "aranag-main-page.web.app", 
     "MX": [
       {
-        
         "priority": 10,
         "target": "inbound-smtp.ap-northeast-1.amazonaws.com"
       }
