@@ -4,6 +4,7 @@
         "email": "contact@anakama.xyz"
     },
     "records": {
-        "CNAME": "is-a-dev.anakama.xyz"
+        "NS": "mckenzie.ns.cloudflare.com"
+        "NS": "norm.ns.cloudflare.com"
     }
 }
