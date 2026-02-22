@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "voda0461",
+        "email": "sesenkumardalai@gmail.com"
+    },
+    "records": {
+        "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoUG1AgHl8cOdcDL5V8jyQRwDHK/u1fhQPdV6XLUPaqayIOXetJljcWhxpZqEPru4xPH4xqkRW9kVvDm/7+ftM6EAZ5oeDWcgOv0QYh7h+YYO4yAhvjiQPc7+CgmXyn2DHkr5LE+2g8dYvSmMkOYFWiLlv3R9YDKxznXUYDs7cwuAdLyLB7kizEeYGC8UTb8gJPZtiJc0AjZ5jKasAsxveQl76wmG6gcy7tQtjPR7RsiaGl7R9nCcLmVtVb15++0BuDffyXVo+p8B7jHgFCM8Pl4DUzVCmwJwJy9U3H6qEoP3VIufdXaTcKny9xdoFNjcTX/2MWYKrhew87BM99vL8QIDAQAB"
+    }
+}
