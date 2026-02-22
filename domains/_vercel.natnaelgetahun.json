@@ -1,11 +1,11 @@
 {
-  "description": "Natnael's personal blog and portfolio",
+  "description": "Vercel domain ownership verification for natnaelgetahun.is-a.dev",
   "repo": "https://github.com/Natnael-Getahun/my-site",
   "owner": {
     "username": "Natnael-Getahun",
     "email": "nathanielfeatherson@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": ["vc-domain-verify=natnaelgetahun.is-a.dev,d5c2543f0d495d72fb7b"]
   }
 }
