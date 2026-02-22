@@ -1,9 +1,15 @@
 {
-  "owner": {
-    "username": "longfeihao",
-    "email": "hlf.hao@qq.com"
-  },
-  "records": {
-    "CNAME": "longfeihao.github.io"
-  }
+    "owner":
+    {
+        "username": "longfeihao",
+        "email": "hlf.hao@qq.com"
+    },
+    "records":
+    {
+        "NS":
+        [
+            "adel.ns.cloudflare.com",
+            "jarred.ns.cloudflare.com"
+        ]
+    }
 }
