@@ -4,7 +4,6 @@
         "email": "daynlalwani23@gmail.com"
     },
     "records": {
-        "CNAME" : "daynlalwani.github.io",
         "TXT" : "v=spf1 include:zohomail.com ~all",
         "MX": [
         {
