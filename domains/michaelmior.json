@@ -1,9 +1,0 @@
-{
-    "owner": {
-        "username": "michaelmior",
-        "email": "michael.mior@gmail.com"
-    },
-    "records": {
-        "CNAME": "apex-loadbalancer.netlify.com"
-    }
-}

@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "sekiryl",
-    "email": "sekiryl@proton.me"
-  },
-  "records": {
-    "NS": ["norm.ns.cloudflare.com", "samara.ns.cloudflare.com"]
-  }
-}

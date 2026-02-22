@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "vylarion",
-    "email": "2k4samya@gmail.com"
-  },
-  "records": {
-    "TXT": [ "vc-domain-verify=vylarion.is-a.dev,9090c0a56388a5ebc656", "vc-domain-verify=www.vylarion.is-a.dev,898dda384633b68c962a" ]
-  }
-}
