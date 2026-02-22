@@ -1,0 +1,12 @@
+{
+    "description": "F15 Projects",
+    "domain": "is-a.dev",
+    "subdomain": "f15",
+    "owner": {
+        "repo": "https://github.com/bugbountysaburtilz1404test-blip/f15",
+        "email": "bugbounty.sa.burtilz1404.test@gmail.com"
+    },
+    "record": {
+        "CNAME": "bugbountysaburtilz1404test-blip.github.io"
+    }
+}
