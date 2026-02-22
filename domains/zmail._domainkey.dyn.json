@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "DaynLalwani",
+     "email": "daynlalwani23@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxxdYugud/JNmHhHda6ufWMT1o20PkBRm8oFY28gY2KOXauHy4lskmBbYjJNUVcaAhr6c2Z51RTCn3gMXnQIuD1q+G9XEPvQL8iAsnlfeyG3HO8YT1i45LN5vktAK7RoedEp15ZSVXzsVbtYUCJMkjDLRLeAwzMqE+GO2CvdUdywIDAQAB"
+  }
+}
