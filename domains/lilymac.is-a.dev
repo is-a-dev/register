@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "5910henry-art",
+    "email": "5910henry@gmail.com"
+  },
+  "records": {
+    "A": [
+      "154.159.252.66"
+    ],
+    "NS": [
+      "ns1.pending.cloudflare.com",
+      "ns2.pending.cloudflare.com"
+    ]
+  }
+}
