@@ -1,0 +1,10 @@
+{
+  "description": "Azure Static Web Apps domain validation for steam-wishlist.is-a.dev",
+  "repo": "https://github.com/d-b-c-e/steam-wishlist-demos",
+  "owner": {
+    "username": "d-b-c-e"
+  },
+  "records": {
+    "TXT": ["_cjvnc26qxnqa8a2tt55kum65ixjrot0"]
+  }
+}
