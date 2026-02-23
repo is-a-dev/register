@@ -6,9 +6,6 @@
   "records": {
     "A": ["102.18.5.191"],
     "MX": ["10 stc-mail-dev.is-a.dev"],
-    "TXT": [
-      "v=spf1 a mx ip4:102.18.5.191 ~all",
-      "v=DMARC1; p=none; rua=mailto:iangostacy@gmail.com"
-    ]
+    "TXT": ["v=spf1 a mx ~all"]
   }
 }
