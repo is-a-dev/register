@@ -1,11 +1,10 @@
 {
   "description": "Personal portfolio.",
-  "repo": "https://github.com/ConnorDoesDev/connordoesdev.github.io",
   "owner": {
     "username": "ConnorDoesDev",
     "email": "connor@dmc.chat"
   },
-  "record": {
+  "records": {
     "A": ["173.249.45.163"]
   }
 }

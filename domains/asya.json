@@ -1,11 +1,8 @@
 {
-  "description": "Personal portofolio website",
-  "repo": "https://github.com/Glenferdinza/glenferdinza.github.io",
   "owner": {
-        "username": "Glenferdinza",
-        "email":"ghisyadesign21@gmail.com"
-    },
-    "record": {
-        "CNAME": "glenferdinza.github.io"
-    }
+    "username": "Glenferdinza"
+  },
+  "records": {
+    "CNAME": "asyaportofolio-79ptuts64-asyas-projects-43fcc9eb.vercel.app"
+  }
 }

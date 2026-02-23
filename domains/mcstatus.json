@@ -4,10 +4,11 @@
     "email": "educatedsuddenbucket@gmail.com",
     "discord": "1167825360151380032"
   },
-  "record": {
-    "A": ["89.106.200.1"],
-    "TXT": [
-      "google-site-verification=nDh74FzhzmLwzfX4wZWHjZOjNXmTCKyuw89TGKOIfkE"
-    ]
+  "records": {
+    "URL": "https://heatblock.esb.is-a.dev",
+    "TXT": "google-site-verification=nDh74FzhzmLwzfX4wZWHjZOjNXmTCKyuw89TGKOIfkE"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

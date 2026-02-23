@@ -1,0 +1,8 @@
+{
+    "owner": {
+        "username": "node"
+    },
+    "records": {
+        "CNAME": "node.github.io"
+    }
+}

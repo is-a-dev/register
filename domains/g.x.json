@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "GameRoMan",
+    "email": "dev@rman.dev"
+  },
+  "records": {
+    "URL": "https://games.rman.dev/"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}

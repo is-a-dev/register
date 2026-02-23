@@ -1,12 +1,9 @@
 {
-  "description": "Personal subdomain",
-  "repo": "https://github.com/eduardonobrega/personal-website",
   "owner": {
     "username": "eduardonobrega",
     "email": "eduardo.nobrrega@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "eduardonobrega.github.io"
   }
 }
-

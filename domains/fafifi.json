@@ -4,13 +4,8 @@
     "username": "fa-fifi",
     "email": "fafifi1997@gmail.com"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "TXT": "google-site-verification=_yRLGQg5CylaCRwbj4qjPtzNKurSqbltbCqnli0nhvI"
   }
 }

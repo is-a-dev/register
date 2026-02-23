@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "cosintan-tg",
+    "email": "cosintan.tg@gmail.com"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=cosintan.is-a.dev,b33d7124eaba6f7dca28", "vc-domain-verify=www.cosintan.is-a.dev,2f95717aaeb7a517bf69"]
+  }
+}

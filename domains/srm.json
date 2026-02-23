@@ -3,7 +3,7 @@
     "username": "srmlab002",
     "email": "8zaqibue@duck.com"
   },
-  "record": {
+  "records": {
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=lyen8rxu@duck.com,8zaqibue@duck.com"
   }

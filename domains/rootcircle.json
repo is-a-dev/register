@@ -3,7 +3,10 @@
     "username": "rootCircle",
     "email": "dev.frolics@gmail.com"
   },
-  "record": {
-    "CNAME": "rootcircle.github.io"
+  "records": {
+    "URL": "https://rootcircle.github.io"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

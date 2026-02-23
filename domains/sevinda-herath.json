@@ -3,7 +3,7 @@
     "username": "Sevinda-Herath",
     "email": "sevindaherath@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sevinda-herath.github.io",
     "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"],
     "TXT": "v=spf1 include:zohomail.com ~all"

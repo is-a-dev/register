@@ -1,10 +1,8 @@
 {
-  "description": "surajh-patel Profile.",
-  "repo": "https://github.com/surajh-patel/surajh-patel.github.io",
   "owner": {
     "username": "surajh-patel"
   },
-  "record": {
+  "records": {
     "CNAME": "surajh-patel.github.io"
   }
 }

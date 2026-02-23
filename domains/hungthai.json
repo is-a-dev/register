@@ -1,11 +1,10 @@
 {
-  "description": "Personal Resume Website",
-  "repo": "https://github.com/hungthai1401/resume",
+  "description": "My personal website",
   "owner": {
     "username": "hungthai1401",
     "email": "hungthai1401.it@gmail.com"
   },
-  "record": {
-    "CNAME": "hungthai1401.github.io"
+  "records": {
+    "CNAME": "hung-thai.pages.dev"
   }
 }

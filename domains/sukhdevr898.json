@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "SUKHDEVR898",
-    "email": "sukhdevr898@gmail.com"
+    "username": "sukhdevr898"
   },
-  "record": {
-    "CNAME": "ai898.free.nf"
+  "records": {
+    "CNAME": "sukhdevr898.github.io"
   }
 }

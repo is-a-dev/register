@@ -1,12 +1,10 @@
 {
-  "description": "Link to my portfolio site.",
-  "repo": "https://github.com/abh80/abh80.github.io",
   "owner": {
     "username": "abh80",
     "email": "boatgithub27@gmail.com",
     "twitter": "trackerstars"
   },
-  "record": {
+  "records": {
     "CNAME": "abh80.github.io"
   }
 }

@@ -3,7 +3,7 @@
     "username": "loomeh",
     "bluesky": "loomeh.bsky.social"
   },
-  "record": {
+  "records": {
     "TXT": [
       "vc-domain-verify=loomeh.is-a.dev,a6084877a07f81dfa4b2",
       "vc-domain-verify=libresplit.loomeh.is-a.dev,345e69da9c8565af78cb",

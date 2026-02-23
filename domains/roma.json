@@ -1,9 +1,12 @@
 {
   "owner": {
     "username": "GameRoMan",
-    "email": "gameromandev@gmail.com"
+    "email": "dev@rman.dev"
   },
-  "record": {
-    "CNAME": "gameroman.pages.dev"
+  "records": {
+    "URL": "https://rman.dev/"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "araguaci",
-    "email": "araguaci@gmail.com"
-  },
-  "record": {
-    "CNAME": "araguaci.github.io"
-  }
+    "owner": {
+        "username": "araguaci",
+        "email": "araguaci@gmail.com"
+    },
+    "records": {
+        "CNAME": "araguaci.github.io"
+    }
 }

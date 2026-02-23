@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "aessaputra",
-        "twitter": "pioonrey"
-    },
-    "record": {
-        "CNAME": "github-profile-summary-cards-aes-saputras-projects.vercel.app"
-    }
+  "owner": {
+    "username": "aessaputra",
+    "twitter": "pioonrey"
+  },
+  "records": {
+    "CNAME": "github-profile-summary-cards-aes-saputras-projects.vercel.app"
+  }
 }

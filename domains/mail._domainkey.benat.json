@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "BenatEiguren"
+    },
+    "records": {
+        "TXT": [
+            "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAperzdHpYZe12piZXSnHpwN4KwkOLkViXrSH66vpJR6InY8UU7MZoxJOdyEE4RPuBy3/nDtaaJNHapbuIHNjtrPilKrRSvbaWN4seS8nS8a8IN0J6sXYNLgvdyiN52WToYaVKJBK+VK50BftAiuRB10TKCqdjW1PAHs2uT7yqxMBFWCDT8eBIR7XWvRNGxMgmsmyxJWvsL49VBwypfcXz6vlhgZxLhXfvrdNnhr0A2TJTCcrTo7ZAWeB9NLciInMPCKXGtNCa4iRYJINDuzwHoSwZ1/QbhzvMdxYfEjI8J2MW6a0BHKBlHab/nkqa6clnJ0kGzjvKRcLo+PE3qDI7NwIDAQAB"
+        ]
+    }
+}

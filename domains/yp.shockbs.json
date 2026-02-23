@@ -3,7 +3,7 @@
     "username": "shockbs",
     "email": "apipherng@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": "v=spf1 include:mailgun.org ~all",
     "MX": ["mxa.mailgun.org", "mxb.mailgun.org"]
   }

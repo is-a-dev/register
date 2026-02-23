@@ -1,11 +1,9 @@
 {
-  "description": "Personal site for github@Shreyas-ITB (GH Pages verification)",
-  "repo": "https://github.com/Shreyas-ITB/Portfolio",
   "owner": {
     "username": "Shreyas-ITB",
     "email": "shreyasbrillint@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": "737cf4521bb4d1c2a7530ce67a8304"
   }
 }

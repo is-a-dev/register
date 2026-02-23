@@ -1,0 +1,22 @@
+{
+  "owner": {
+    "username": "akileshas",
+    "email": "akileshas.dev@gmail.com",
+    "x": "@akileshas_dev",
+    "discord": "akileshas"
+  },
+  "records": {
+    "URL": "https://akileshas.github.io/"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/codeberg": "https://codeberg.org/akileshas/",
+      "/github": "https://github.com/akileshas/",
+      "/discord": "https://discord.com/users/1140984636537851954/",
+      "/x": "https://x.com/akileshas_dev/",
+      "/bsky": "https://bsky.app/profile/akileshas.bsky.social/",
+      "/linkedin": "https://www.linkedin.com/in/akileshas/"
+    },
+    "redirect_paths": true
+  }
+}

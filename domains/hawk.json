@@ -1,0 +1,12 @@
+{
+  "description": "My simple & small website.",
+  "repo": "https://github.com/thealonehawk/thealonehawk.github.io",
+  "owner": {
+    "username": "thealonehawk",
+    "email": "thealonehawk@gmail.com",
+    "discord": "1307258391160291371"
+  },
+  "records": {
+    "CNAME": "thealonehawk.github.io"
+  }
+}

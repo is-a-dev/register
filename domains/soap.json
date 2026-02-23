@@ -1,11 +1,9 @@
 {
-  "description": "soap.is-a.dev",
-  "repo": "https://github.com/hmonsterg/hmonsterg.github.io",
   "owner": {
     "username": "HmonsterG",
     "email": "Plzdontgethacked@outlook.com"
   },
-  "record": {
+  "records": {
     "CNAME": "hmonsterg.github.io"
   }
 }

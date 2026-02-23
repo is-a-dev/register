@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "AdityaGarg8",
+    "email": "gargaditya08@live.com"
+  },
+  "records": {
+    "MX": [
+      { "target": "mx.zoho.in", "priority": 10 },
+      { "target": "mx2.zoho.in", "priority": 20 },
+      { "target": "mx3.zoho.in", "priority": 50 }
+    ],
+    "TXT": [
+      "protonmail-verification=b7fa74448fd4e0529c97bc5fb91ed10ca85e0168",
+      "zoho-verification=zb05622040.zmverify.zoho.in",
+      "v=spf1 include:zoho.in include:_spf.protonmail.ch ~all"
+    ]
+  }
+}

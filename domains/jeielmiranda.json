@@ -1,11 +1,9 @@
 {
-  "description": "Personal subdomain",
-  "repo": "https://github.com/Jeiel0rbit/Jeiel0rbit.github.io",
   "owner": {
-    "username": "Jeiel0rbit",
-    "email": "jeiel@duck.com"
+    "username": "Miranda3000-CPU",
+    "email": "jeielmiranda@duck.com"
   },
-  "record": {
-    "CNAME": "Jeiel0rbit.github.io"
+  "records": {
+    "CNAME": "Miranda3000-CPU.github.io"
   }
 }

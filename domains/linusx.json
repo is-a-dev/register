@@ -1,11 +1,9 @@
 {
-  "description": "Just my personal website, static on github pages. Generated with hugo",
-  "repo": "https://github.com/linuzzx/linuzzx.github.io",
   "owner": {
     "username": "linuzzx",
     "email": "galaxylinus@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "linuzzx.github.io"
   }
 }

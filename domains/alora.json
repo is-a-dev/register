@@ -1,20 +1,9 @@
 {
   "owner": {
     "username": "aloramiaa",
-    "email": "xaloramia@gmail.com",
-    "discord": "7q8x"
+    "email": "xaloramia@gmail.com"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
-    "MX": ["mx.zoho.in", "mx2.zoho.in", "mx3.zoho.in"],
-    "TXT": [
-      "v=spf1 include:zohomail.in ~all",
-      "google-site-verification=6uglJKM9-BmooIZLCRAqgnGaT2_M48hkicRD1bphXHk"
-    ]
+  "records": {
+    "CNAME": "alora-verse.vercel.app"
   }
 }

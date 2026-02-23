@@ -1,11 +1,11 @@
 {
-  "description": "fittsqo's is-a.dev domain",
-  "repo": "https://github.com/fittsqo/fittsqo.github.io",
   "owner": {
-    "username": "fittsqo",
-    "email": "fittsqo@gmail.com"
+    "username": "brimalval",
+    "email": "brianmalcolm.v@gmail.com"
   },
-  "record": {
-    "CNAME": "fittsqo.github.io"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

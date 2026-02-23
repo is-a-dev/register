@@ -3,7 +3,8 @@
     "username": "Dwigoric",
     "discord": "295391820744228867"
   },
-  "record": {
-    "CNAME": "dwigoric.pages.dev"
+  "records": {
+    "URL": "https://dwigoric.dev",
+    "TXT": ["google-site-verification=p-KQOnumRDODSvYDgEoPyArDX_HdFVz59qV9MtYDsIY"]
   }
 }

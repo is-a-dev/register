@@ -1,11 +1,9 @@
 {
-  "description": "Personal developer website",
-  "repo": "https://github.com/leixiaoda/openai",
   "owner": {
     "username": "leixiaoda",
     "email": "leixiaoda@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "leixiaoda.github.io"
   }
 }

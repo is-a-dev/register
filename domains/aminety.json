@@ -1,0 +1,9 @@
+{
+    "description": "Amine's personal portfolio on cloudflare",
+    "owner": {
+        "username": "amine-tayani"
+    },
+    "records": {
+        "CNAME": "19aabcd5.portfolio-56i.pages.dev"
+    }
+}

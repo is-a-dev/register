@@ -1,11 +1,9 @@
 {
-  "description": "Personal portfolio",
-    "repo": "https://github.com/youcefaddou/Portfolio",
-    "owner": {
-        "username": "youcefaddou",
-        "email": "youcefaddou@gmail.com"
+  "owner": {
+    "username": "youcefaddou",
+    "email": "youcefaddou@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "youcef-addou.netlify.app"
   }
 }

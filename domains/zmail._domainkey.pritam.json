@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "ImDarkShadow",
+        "email": "itspritam@proton.me"
+    },
+    "records": {
+        "TXT": [
+            "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD7o2fCyPzp6iY3PwG9AY3hpHeO7yCdlE+kfQq4/XqetDuwFvQp4tqAaLkd8afwV444ZSkKdN8It+TTM82qusQSa4KJSWGySITdqFmDvKlBWysUgsL/Kkq5eawg+JFwK+eXEFRWUd3CLLHTbY26ruY+X3YHVh7TERhuD2ZCuqOMKwIDAQAB"
+        ]
+    }
+}

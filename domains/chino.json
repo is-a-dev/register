@@ -1,13 +1,11 @@
 {
-  "description": "My website",
-  "repo": "https://github.com/AutumnVN/chino.pages.dev",
   "owner": {
     "username": "AutumnVN",
     "email": "autumnvnchino@gmail.com",
     "twitter": "autumnvnchino",
     "discord": "autumnvn"
   },
-  "record": {
+  "records": {
     "NS": ["lina.ns.cloudflare.com", "miles.ns.cloudflare.com"]
   }
 }

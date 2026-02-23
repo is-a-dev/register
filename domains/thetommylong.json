@@ -1,0 +1,12 @@
+{
+  "description": "Currently used for portfolio website and SMTP mail server",
+  "owner": {
+    "username": "TheTommylongIsHeree",
+    "discord": "thetommylong"
+  },
+  "records": {
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": "forward-email=MzhmMzFiMTE5MzQzMWU3Yi0wMTUyZTEzZjg1Mjg0OGUzNjFiNzkzMmE2MGY1MDM3ZmUxY2IzODdlOWEzYTUyZGUyYjZjMzcwMzE3MWExZjNi",
+    "A": ["75.2.60.5"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "satindar31",
+    "email": "satindar@satindar-is.me"
+  },
+  "records": {
+    "TXT": ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCt5n3MTKaunu6zLibw6qXEwW4nk53kt7SJZByIq7mmypWN1GcCdVVYDq4l+7jfx1i6D50eH7ef+rFglzjojpkWAP0a8OGIUWbALwB/DetMQ4/ma7JDjaNpDYU9T9tL9ewfDK/2dCGsUA9hARpFNvZ4mMqO/S/ys0PPJzOWer0rHQIDAQAB"]
+  }
+}

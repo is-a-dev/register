@@ -1,0 +1,28 @@
+
+{
+    "owner": {
+      "username": "ridikhost",
+      "email": "mareksuper231@gmail.com"
+    },
+    "records": {
+      "A": ["216.198.79.1"],
+      "TXT": [
+        "zoho-verification=zb05361001.zmverify.zoho.eu",
+        "v=spf1 include:zohomail.eu include:zohomail.com ~all"
+      ],
+      "MX": [
+        {
+          "target": "mx.zoho.eu",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.eu",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.eu",
+          "priority": 50
+        }
+      ]
+    }
+  }

@@ -1,10 +1,8 @@
 {
-  "description": "Sharad Profile.",
-  "repo": "https://github.com/sharad-rajyaguru/sharad-rajyaguru.github.io",
   "owner": {
     "username": "sharad-rajyaguru"
   },
-  "record": {
+  "records": {
     "CNAME": "sharad-rajyaguru.github.io"
   }
 }

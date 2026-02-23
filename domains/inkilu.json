@@ -1,11 +1,9 @@
 {
-  "description": "Personal Page",
-  "repo": "https://github.com/inkilu/Personal-web",
   "owner": {
     "username": "inkilu",
     "discord": "ink#6343"
   },
-  "record": {
+  "records": {
     "CNAME": "inkilu.github.io"
   }
 }

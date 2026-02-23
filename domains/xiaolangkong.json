@@ -1,11 +1,9 @@
 {
-  "description": "My personal site for my projects",
-  "repo": "https://github.com/xiaolangkong/xiaolangkong.github.io",
   "owner": {
     "username": "xiaolangkong",
     "email": "xiaolangkong@protonmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "xiaolangkong.github.io"
   }
 }

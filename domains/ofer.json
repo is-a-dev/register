@@ -1,11 +1,9 @@
 {
-  "description": "Ofer Sadan",
-  "repo": "https://github.com/ofersadan85/portfolio",
   "owner": {
     "username": "ofersadan85",
     "email": "ofersadan85@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://ofersadan85.github.io/portfolio/"
   }
 }

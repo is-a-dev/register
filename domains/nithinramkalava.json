@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nithinramkalava",
-        "email": "nithinramkalava@gmail.com"
-    },
-    "record": {
-        "CNAME": "nithinramkalava.vercel.app"
-    }
+  "owner": {
+    "username": "nithinramkalava",
+    "email": "nithinramkalava@gmail.com"
+  },
+  "records": {
+    "CNAME": "nithinramkalava.vercel.app"
+  }
 }

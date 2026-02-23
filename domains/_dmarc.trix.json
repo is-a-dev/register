@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "tr1xem",
+        "email": "admin@trix.is-a.dev"
+    },
+    "records": {
+
+        "TXT": ["v=DMARC1; p=none;"]
+    }
+}

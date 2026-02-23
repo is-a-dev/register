@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "uzairdeveloper223",
+     "email": "uzairdeveloper@proton.me"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBGHi2UGgcBO8sdeHKwRorEuY91+1i4u2JKvU2D+NPxzvnXGne5dojtT+mzsXU0uJPHiYpEzVn1+kQecL5uXnUcZeqFlUuwzlbHmQDrLBPdAGLJ+xY7LWZuWV2cf2bLFsddPWahFgLpMlki3FtcwI0qrr4rExOI4eHLA3chROEkwIDAQAB"
+  }
+}

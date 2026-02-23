@@ -1,11 +1,9 @@
 {
-  "description": "Subdominio personal para portfolio web",
-  "repo": "https://github.com/srgrover/portfolio",
   "owner": {
     "username": "srgrover",
     "email": "jthmoya.webdev@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }

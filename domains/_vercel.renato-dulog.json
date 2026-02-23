@@ -1,10 +1,9 @@
 {
-  "description": "Web Developer Portifolio",
   "owner": {
     "username": "renskiedulog",
     "email": "renrendulog@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": "vc-domain-verify=renato-dulog.is-a.dev,eff46947abaf954087b7"
   }
 }

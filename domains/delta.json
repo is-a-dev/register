@@ -1,11 +1,9 @@
 {
-  "description": "Leo's personal website using Github Pages",
-  "repo": "https://github.com/leocatsune/leocatsune.github.io",
   "owner": {
     "username": "LeoCatsune",
     "twitter": "LeoCatsune"
   },
-  "record": {
+  "records": {
     "CNAME": "leocatsune.github.io"
   }
 }

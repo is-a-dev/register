@@ -1,12 +1,10 @@
 {
-    "description": "Documentation website for is-a.dev",
-    "repo": "https://github.com/pranavsinghpatil/portfolio",
-    "owner": {
-      "username": "pranavsinghpatil",
-      "email": "puneet.pranav04@gmail.com"
-    },
-    "record": {
-      "CNAME": "pranavsingh.vercel.app"
-    },
-    "proxied": true
-  }
+  "owner": {
+    "username": "pranavsinghpatil",
+    "email": "puneet.pranav04@gmail.com"
+  },
+  "records": {
+    "CNAME": "pranavsingh.vercel.app"
+  },
+  "proxied": true
+}

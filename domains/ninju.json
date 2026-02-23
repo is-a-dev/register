@@ -1,11 +1,9 @@
 {
-  "description": "Ninju's personal developer website",
-  "repo": "https://github.com/Ninju69/ninju69.github.io",
   "owner": {
     "username": "Ninju69",
     "email": "inju2692@outlook.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ninju69.github.io"
   }
 }

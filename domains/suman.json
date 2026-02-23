@@ -1,12 +1,10 @@
 {
-  "description": "Suman's Personal Website",
-  "repo": "https://github.com/thatsuman/thatsuman.github.io",
   "owner": {
     "username": "thatsuman",
     "email": "suman.multiverse@gmail.com",
     "twitter": "thatsumann"
   },
-  "record": {
+  "records": {
     "CNAME": "thatsuman.github.io"
   }
 }

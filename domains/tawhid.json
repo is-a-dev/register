@@ -1,11 +1,10 @@
 {
-    "description": "Personal hobby site",
-    "repo": "https://github.com/Dumbo-programmer/Dumbo-programmer.github.io",
+    "description": "Personal Portfolio Hosted on Netlify",
     "owner": {
-        "username": "Dumbo-programmer",
+        "username": "Dumbo-Programmer",
         "email": "rony.120285d2k@gmail.com"
     },
-    "record": {
-        "A": ["52.74.232.59"]
+    "records": {
+        "CNAME": "tawhidsite.netlify.app"
     }
 }

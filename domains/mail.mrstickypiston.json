@@ -1,14 +1,10 @@
 {
   "owner": {
     "username": "MrStickyPiston",
-    "discord": "700766242268774471",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.W2mVdm4dW8fJByQKFfFbX7Zy_LgzT03dRrDPZg1smltChY-8Q4ecmRlgbZg3qzCMTpZt0EAYKEvW3ZWJ2YANpH4NSl4rOExGzhByU5yhFxEFMFVu62LvAiEIRErPZLSpisd_p3sz6GNr_2lDhvy-YJHa5nstCGk8504Kfr_nLXwv6bWxpHPaQ_gMC3T3zCJs18znanaLs9A4h8O_07-_AlsKxUBhwyFPHBQv1zG05Dj-MNJXs2E3IiI2L5zwvV3807rvsolppR2et0Ghu6FZMDoq0ETelqjUmM_JW2T6fYiJk95QxRzLh0z4KHv0OcduJTAQT6OYjXDFsUOeOnl_cQ.BLMs-Z8M9F7U-qkpjWKE9g.POwlhWC7vCvZwtTz5pc6NRtbQFBqPK_DpWN7JBeIybylCNrqG9pEw12_qvlTIrb3cRh1ZEtzqLPBrVqyVV00zj8XKuFNZRmDfE7N7LZUebw.525ZlMIJoi8uHFtRgguNag"
+    "discord": "700766242268774471"
   },
-  "record": {
-    "TXT": [
-      "zoho-verification=zb27779902.zmverify.zoho.eu",
-      "v=spf1 include:zohomail.eu ~all"
-    ],
+  "records": {
+    "TXT": ["zoho-verification=zb27779902.zmverify.zoho.eu", "v=spf1 include:zohomail.eu ~all"],
     "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"]
   }
 }

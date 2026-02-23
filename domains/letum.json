@@ -3,7 +3,7 @@
     "username": "amoramicae",
     "discord": "1252631745514180790"
   },
-  "record": {
-    "CNAME": "letum.pages.dev"
+  "records": {
+    "NS": ["rosalie.ns.cloudflare.com", "rustam.ns.cloudflare.com"]
   }
 }

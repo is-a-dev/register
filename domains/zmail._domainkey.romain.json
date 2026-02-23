@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "RomainCHEN",
+     "email": "romain.c@foxmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRtm0w8ru2lC7TSNcUlLQ8+Lj/873volO98755lNRE0pSMkyImsYIr26e4C7lnnALC04FMTRck4llJObR3cWRa3zGjUHL+SWHfxOGac6RExjsgYzROy6FF6wq9y2dISxvYgPYbJg/SPSpukHVY9uQVhB0LwAB3iObWrrjpgHvEqQIDAQAB"
+  }
+}

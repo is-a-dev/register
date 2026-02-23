@@ -1,11 +1,9 @@
 {
-  "description": "My personal website",
-  "repo": "https://github.com/bistcuite/bistcuite.github.io",
   "owner": {
     "username": "bistcuite",
     "email": "hnk1440@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "bistcuite.github.io"
   }
 }

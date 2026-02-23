@@ -1,11 +1,9 @@
 {
-  "description": "Add some description",
-  "repo": "https://github.com/kazz0001/kazz0001.github.io",
   "owner": {
     "username": "kazz0001",
     "email": "badchicken11690@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "kazz0001.github.io"
   }
 }

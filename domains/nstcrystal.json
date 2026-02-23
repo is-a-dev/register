@@ -1,0 +1,10 @@
+{
+  "description": "Personal website hosted on GitHub Pages",
+  "owner": {
+    "username": "nstcrystal",
+    "email": "nstcrystal@gmail.com"
+  },
+  "records": {
+    "CNAME": "nstcrystal.github.io"
+  }
+}

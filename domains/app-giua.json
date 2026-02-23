@@ -1,11 +1,9 @@
 {
-  "description": "Giua-App è l'applicazione non ufficiale dei registri elettronici giua@school",
-  "repo": "https://github.com/Milanstarkk/Giua-App",
   "owner": {
     "username": "Milanstarkk",
     "email": "milanstark09yt@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "milanstarkk.github.io"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "description": "Github page domain verification",
+  "owner": {
+    "username": "fa-fifi",
+    "email": "fafifi1997@gmail.com"
+  },
+  "records": {
+    "TXT": "b81b58a5a862ac448e7a996d96272f"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "sergarsilla",
+        "email": "sergarsilla@gmail.com"
+    },
+    "records": {
+        "TXT": [
+            "v=DMARC1; p=none;"
+        ]
+    }
+}

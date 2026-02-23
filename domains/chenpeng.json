@@ -1,11 +1,9 @@
 {
-  "description": "Patrick Chen's develop site",
-  "repo": "https://github.com/PatrickChen928/patrickchen928.github.io",
   "owner": {
     "username": "PatrickChen928",
     "email": "cp786156072@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://patrickchen928.github.io"
   }
 }

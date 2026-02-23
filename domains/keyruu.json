@@ -1,11 +1,9 @@
 {
-  "description": "Keyruu aka Lucas",
-  "repo": "https://github.com/keyruu/traversetown-htmx",
   "owner": {
     "username": "keyruu",
     "email": "me@keyruu.de"
   },
-  "record": {
+  "records": {
     "URL": "https://keyruu.de"
   }
 }

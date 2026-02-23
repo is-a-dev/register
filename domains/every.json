@@ -1,17 +1,10 @@
 {
-  "description": "Screenshot of every accessible .is-a.dev website by @actuallyundefined",
-  "repo": "https://github.com/JustDeveloper1/every.is-a.dev",
   "owner": {
     "username": "JustDeveloper1",
     "email": "dev@j.is-a.dev",
     "discord": "1117482901353812088"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ]
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
   }
 }

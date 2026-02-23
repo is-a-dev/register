@@ -1,11 +1,10 @@
 {
-  "description": "Documentation pages for Samuel apps.",
-  "repo": "https://github.com/SISBEST/sisbest.github.io",
+  "description": "Samuel portfolio website",
   "owner": {
-    "username": "SISBEST",
-    "email": "samuel@samuelsharp.com"
+    "username": "Orpheros",
+    "instagram": "astrielmaria"
   },
-  "record": {
-    "CNAME": "sisbest.github.io"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

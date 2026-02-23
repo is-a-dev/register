@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "wythh24",
-    "email": "t3vadadev@gmail.com"
+    "username": "wythh24"
   },
-  "record": {
+  "records": {
     "TXT": "vc-domain-verify=t3vada.is-a.dev,5b01b0c87e766671d811"
   }
 }

@@ -1,10 +1,8 @@
 {
-  "description": "Limbani tejal Profile.",
-  "repo": "https://github.com/limbanitejal/limbanitejal.github.io",
   "owner": {
     "username": "limbanitejal"
   },
-  "record": {
+  "records": {
     "CNAME": "limbanitejal.github.io"
   }
 }

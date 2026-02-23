@@ -1,11 +1,9 @@
 {
-  "description": "personal website",
-  "repo": "https://github.com/hackqd/hackqd.github.io",
   "owner": {
     "username": "hackqd",
     "email": "hackqdftw@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "hackqd.github.io"
   }
 }

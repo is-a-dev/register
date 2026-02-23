@@ -1,11 +1,10 @@
 {
-  "description": "domain verification for discord",
   "owner": {
     "username": "not-coded",
     "discord": "notcoded",
     "discordUserID": "620662953347121163"
   },
-  "record": {
+  "records": {
     "TXT": "dh=0a6a5afd3a6ee9b2709a43a77e6679a2e9969384"
   }
 }

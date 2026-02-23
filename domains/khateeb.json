@@ -1,11 +1,9 @@
 {
-  "description": "Welcome to Khateeb's portfolio - a showcase of full-stack development projects and skills. Explore my work in web development, software engineering, and creative solutions built with modern technologies.",
-  "repo": "https://github.com/khateeboveskey/khateeboveskey.github.io",
   "owner": {
     "username": "khateeboveskey",
     "email": "khateeboveskey@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "khateeboveskey.github.io"
   }
 }
