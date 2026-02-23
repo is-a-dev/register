@@ -1,0 +1,14 @@
+{
+  "description": "Email forwarding domain for tooling",
+  "owner": {
+    "username": "doodaaatimmy-creator",
+    "email": "doodaaatimmy@gmail.com"
+  },
+  "records": {
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": [
+      "forward-email=doodaaatimmy@gmail.com",
+      "v=spf1 a include:spf.forwardemail.net -all"
+    ]
+  }
+}
