@@ -2,9 +2,10 @@
   "owner": {
     "username": "sarfarazstark",
     "email": "sarfarazstark@gmail.com",
-    "twitter": "sarfarazstark"
+    "twitter": "sarfarazs_tark"
   },
   "records": {
-    "CNAME": "sarfarazstark.github.io"
+    "A": ["75.2.60.5"],
+    "TXT": "did=did:plc:dgxdiegeolkuuygqztwxmdlz"
   }
 }
