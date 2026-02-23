@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Stacy-yyy",
+    "email": "iangostacy@gmail.com"
+  },
+  "records": {
+    "A": ["102.18.5.191"],
+    "MX": ["10 stc-mail-dev.is-a.dev"],
+    "TXT": ["v=spf1 a mx ~all"]
+  }
+}

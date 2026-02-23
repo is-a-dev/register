@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "Stacy-yyy",
+    "email": "iangostacy@gmail.com"
+  },
+  "records": {
+    "A": "102.18.5.188",
+    "MX": [
+      {
+        "priority": 10,
+        "target": "stcmail.is-a.dev"
+      }
+    ],
+    "TXT": [
+      "v=spf1 a mx ~all"
+    ]
+  }
+}
