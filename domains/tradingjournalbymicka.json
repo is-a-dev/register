@@ -1,9 +1,9 @@
 {
     "owner": {
-          "username": "MickaBsk",
-          "email": ""
+        "username": "MickaBsk",
+        "email": "contact@tradingjournalbymicka.is-a.dev"
     },
-    "record": {
-          "CNAME": "v0-trade-journal-app-tan.vercel.app"
+    "records": {
+        "CNAME": "v0-trade-journal-app-tan.vercel.app"
     }
 }
