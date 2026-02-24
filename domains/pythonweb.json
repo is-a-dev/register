@@ -4,6 +4,8 @@
     "discord": "768080481924677632"
   },
   "records": {
-    "A": ["76.76.21.21"]
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=www.pythonweb.is-a.dev,aeff939fd8c9984b44cc"],
+    "CNAME": ["3d46784f53d03d71.vercel-dns-017.com."]
   }
 }
