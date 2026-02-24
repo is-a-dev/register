@@ -4,6 +4,7 @@
     "email": "fortunek265@gmail.com"
   },
   "records": {
-    "CNAME": "fortunek265.github.io"
+    "CNAME": "fortunek265.github.io",
+    "CAA": "0 issue \"letsencrypt.org\""
   }
 }
