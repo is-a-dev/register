@@ -1,0 +1,24 @@
+{
+  "owner": {
+    "username": "Javiito32",
+    "email": "hola@javiito.com"
+  },
+  "records": {
+    "CNAME": "portfolio-403.pages.dev",
+    "TXT": [
+      "protonmail-verification=061576a1989b9caf9a2264b616fb083310f9275d",
+      "v=spf1 include:_spf.protonmail.ch ~all"
+    ],
+    "MX": [
+        {
+          "target": "mail.protonmail.ch",
+          "priority": 10
+        },
+        {
+          "target": "mailsec.protonmail.ch",
+          "priority": 20
+        }
+      ]
+  },
+  "proxied": true
+}

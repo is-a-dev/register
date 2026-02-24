@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "himanshuranjan007",
+        "email": "your-email-address@example.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=hr.is-a.dev,470bddf6bf558edae772"
+    }
+}

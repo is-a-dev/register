@@ -1,11 +1,11 @@
 {
   "owner": {
     "username": "Joe50097",
-    "email": "zcell9500@gmail.com"
+    "email": "me@joe50097.is-a.dev"
   },
   "records": {
-    "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"],
-    "TXT": ["zoho-verification=zb32862044.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
+    "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"],
+    "TXT": ["apple-domain=GO8Hw3g1IdGbASWS", "v=spf1 include:icloud.com ~all"],
     "A": ["75.2.60.5"]
   }
 }

@@ -4,11 +4,11 @@
     "email": "admin@is-a.dev"
   },
   "records": {
-    "URL": "https://wdh.gg/M0ttgkD"
+    "URL": "https://wh.org/is-a-dev/donate"
   },
   "redirect_config": {
     "custom_paths": {
-      "/sponsor": "https://wdh.gg/sponsor"
+      "/sponsor": "https://wh.org/sponsor"
     }
   }
 }

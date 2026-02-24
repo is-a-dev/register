@@ -6,8 +6,7 @@
     "bluesky": "furina.is-a.dev"
   },
   "description": "my personal site (yes)",
-
   "records": {
-    "CNAME": "dragsbruh.github.io"
+    "CNAME": "dragsbruh.codeberg.page"
   }
 }

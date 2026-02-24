@@ -1,0 +1,11 @@
+{
+  "description": "A JSON Prompt Builder for AI",
+  "owner": {
+    "username": "trucpham04",
+    "email": "trucpham04@proton.me"
+  },
+  "records": {
+    "CNAME": "puilder.pages.dev"
+  },
+  "proxied": true
+}

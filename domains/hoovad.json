@@ -4,8 +4,8 @@
     "email": "hoovad@proton.me"
   },
   "records": {
-    "A": ["217.197.84.141"],
-    "AAAA": ["2a0a:4580:103f:c0de::2"],
-    "TXT": ["aspe:keyoxide.org:BHVNC6RJHE2RPV4P6OA6OHJMKM", "hoovad.codeberg.page"]
-  }
+    "CNAME": "hoovad.github.io",
+    "TXT": "aspe:keyoxide.org:BHVNC6RJHE2RPV4P6OA6OHJMKM"
+  },
+  "proxied": true
 }

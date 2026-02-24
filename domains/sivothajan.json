@@ -4,6 +4,6 @@
     "email": "is-a.dev@sivothajan.me"
   },
   "records": {
-    "CNAME": "sivothajan.dev"
+    "A": ["216.198.79.1"]
   }
 }

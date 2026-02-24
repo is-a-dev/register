@@ -1,0 +1,25 @@
+{
+    "description": "Portfolio Website to showcase work",
+    "repo": "https://github.com/tomasmoraiss/tomasmoraiss.github.io",
+    "owner": {
+        "username": "tomasmoraiss",
+        "email": "tomasrgvmorais@gmail.com"
+    },
+    "records": {
+        "CNAME": "tomasmoraiss.github.io",
+        "MX": [
+            {
+                "target": "mx1.improvmx.com",
+                "priority": 10
+            },
+            {
+                "target": "mx2.improvmx.com",
+                "priority": 20
+            }
+        ],
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com ~all"
+        ]
+    },
+    "proxied": true
+}

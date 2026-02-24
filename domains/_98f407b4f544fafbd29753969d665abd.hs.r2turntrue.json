@@ -1,0 +1,10 @@
+{
+  "description": "R2turnTrue - Hosting (ACME Challenge)",
+    "owner": {
+        "username": "R2turnTrue",
+        "email": "r3turntrue@gmail.com"
+    },
+  "records": {
+    "CNAME": "9F66BC05309C823E09A29FCF1AFC5B3D.155FFE16FCBCA762EF3D43120F26FC83.b6a83f162a44c20.comodoca.com"
+  }
+}

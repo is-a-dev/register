@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "JairoMS27",
+        "email": "ejemplo@fastmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=jairoms.is-a.dev,56e3804d7b390375d277"
+    }
+}

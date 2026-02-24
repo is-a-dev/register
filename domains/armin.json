@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "Armiiin",
+    "email": "staff-showy-swivel@duck.com"
+  },
+  "records": {
+    "CNAME": "arm.in.net",
+    "MX": ["inleed.xyz"],
+    "TXT": [
+      "KR8JN06Jh0",
+      "v=spf1 a mx include:spf.inleed.xyz -all"
+    ]
+  },
+  "proxied": true
+}

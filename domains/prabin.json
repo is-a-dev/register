@@ -4,6 +4,8 @@
     "email": "prabinsubedi2016@gmail.com"
   },
   "records": {
-    "URL": "https://www.prabinsubedi.tech"
-  }
+    "CNAME": "prabinsubedi-tech.pages.dev",
+    "TXT": "google-site-verification=-gJOHVjxbshwQvobT_Jd2fWE11vPTiDSKsARPEZDuk4"
+  }, 
+  "proxied": true
 }

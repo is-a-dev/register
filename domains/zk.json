@@ -5,6 +5,6 @@
     "email": "peanutandscuffy1@gmail.com"
   },
   "records": {
-    "CNAME": "zk-website-cwo.pages.dev"
+    "A": ["216.198.79.1"]
   }
 }
