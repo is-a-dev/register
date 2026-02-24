@@ -6,6 +6,14 @@
     "records": {
         "CNAME": "michaelpetschel.github.io",
         "TXT": ["zoho-verification=zb84845777.zmverify.zoho.com"]
+        "MX": [
+  { "target": "mx.zoho.com", "priority": 10 },
+  { "target": "mx2.zoho.com", "priority": 20 },
+  { "target": "mx3.zoho.com", "priority": 50 }
+]
+      "TXT": ["v=spf1 include:zohomail.com ~all"]  
+      "TXT": ["v=spf1 include:zohomail.com ~all"]
+      "TXT": ["zmail._domainkey/v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSYkcnvfA/YTnZ2XfLBZk+GhEtpmqGNBF6kxidT+Fs6TCeFtZVMXnuqOlhcPkHwnK38tE+IKSSPl91ZT0WBLuq+246WvTZfcbNglJ9jdlP3Jv88LcBvZn1YJw8mVg6J/9lsAayaBMkzIDpUiNo2GNAFsdx758eCPWrNfLPvoemuQIDAQAB"]
     },
     "proxied": true
 }
