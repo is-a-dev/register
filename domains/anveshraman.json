@@ -10,7 +10,16 @@
       { "target": "mx2.zoho.in", "priority": 20 },
       { "target": "mx3.zoho.in", "priority": 50 }
     ],
-    "TXT": "v=spf1 include:zoho.in ~all"
+    "TXT": [
+  {
+    "host": "@",
+    "value": "v=spf1 include:zoho.in ~all"
+  },
+  {
+    "host": "zmail._domainkey",
+    "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcp719Um179LYF5D4pL5aIeyNOmIXEur0qjgZh6IhvmR4zyuYp3pWdlABrqfrGE4AMcAu0DFRNUvQIhR6kyx29P5ozZOstsx0fTKJm2fsKlFMgKub4LBNgRY4WXmrq2wT9IKrK8vjgN5/hKc8AhX0ibm+D+uPwT/65UkAZVXxrawIDAQAB"
+  },
+],
   },
   "proxied": true
 
