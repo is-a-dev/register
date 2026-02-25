@@ -3,7 +3,9 @@
     "username": "cyrose22",
     "email": "rycen81@gmail.com"
   },
-  "record": {
-    "A": ["1.1.1.1"]
+  "records": {
+    "@": {
+      "A": ["1.1.1.1"]
+    }
   }
 }
