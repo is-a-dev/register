@@ -1,10 +1,11 @@
 {
+  "description": "CodeQuest Website",
+  "repo": "https://github.com/ryan25-girsang/Code_Quest",
   "owner": {
-    "username": "dev-rdj",
-    "email": "bubba.ai.tech@gmail.com"
+    "username": "ryan25-girsang",
+    "email": "ryangirsang25@gmail.com"
   },
   "records": {
-    "CNAME": "dev-rdj.vercel.app"
-  },
-  "proxied": true
+    "CNAME": "c53253wv.up.railway.app"
+  }
 }
