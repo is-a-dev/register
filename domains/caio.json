@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "caiofsb",
+    "email": "caio@is-a.dev"
+  },
+  "records": {
+    "CNAME": "https://caiofsb.github.io/"
+  },
+  "proxied": true
+}
