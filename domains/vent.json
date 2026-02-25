@@ -4,6 +4,7 @@
     "email": ""
   },
   "record": {
-    "CNAME": "mohammedalaogly.github.io"
+    "CNAME": "mohammedalaogly.github.io",
+    "TXT": ["24328c898f15d25f1ffd9d564e43f5"]
   }
 }
