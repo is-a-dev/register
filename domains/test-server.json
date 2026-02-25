@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "DevOpsTestip",
+    "email": ""
+  },
+  "record": {
+    "CNAME": "your-server-ip.or.cloudflare.tunnel"
+  },
+  "proxied": true
+}
