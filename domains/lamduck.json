@@ -1,0 +1,11 @@
+{
+    "description": "Website for common tools of Lamduck",
+    "repo": "https://github.com/lamduck2005/lamduck",
+    "owner": {
+        "username": "lamduck2005",
+        "email": "lampdph48614@gmail.com"
+    },
+    "record": {
+        "CNAME": "lamduck.pages.dev"
+    }
+}
