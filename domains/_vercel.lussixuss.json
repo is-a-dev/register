@@ -2,5 +2,7 @@
     "owner": {
         "username": "quoc826"
     },
-    "TXT": ["vc-domain-verify=lussixuss.is-a.dev,3388be2bbb8780ed97e1"]
+    "records": {
+        "TXT": ["vc-domain-verify=lussixuss.is-a.dev,3388be2bbb8780ed97e1"]
+    }
 }
