@@ -1,0 +1,11 @@
+{
+  "description": "dev ap site",
+  "repo": "https://github.com/LeonardoAgricola",
+  "owner": {
+    "username": "LeonardoAgricola",
+    "email": "leonardofm@alumni.usp.br"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
