@@ -1,11 +1,11 @@
 {
-  "description": "APBase - Agricultura de Precisão",
+  "description": "base",
   "repo": "https://github.com/LeonardoAgricola",
   "owner": {
     "username": "LeonardoAgricola",
     "email": "leonardofm@alumni.usp.br"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
