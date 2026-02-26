@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "silkenpy",
+    "email": "silkenpy@gmail.com"
+  },
+  "records": {
+    "NS": ["margaret.ns.cloudflare.com", "roman.ns.cloudflare.com"]
+  }
+}
