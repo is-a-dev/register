@@ -5,6 +5,10 @@
     "twitter": "sarfarazs_tark"
   },
   "records": {
-    "A": ["75.2.60.5"]
+    "A": ["75.2.60.5"],
+    "TXT": [
+      "v=spf1 include:spf.brevo.com ~all",
+      "brevo-code:ee5b7b98be6f8f0937c5d0442061d6ea"
+    ]
   }
 }
