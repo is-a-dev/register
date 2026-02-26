@@ -4,6 +4,6 @@
     "email": "hello@pungrumpy.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": ["vc-domain-verify=pungrumpy.is-a.dev,2edf73cf3572b3c0f803"]
   }
 }
