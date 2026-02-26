@@ -5,8 +5,23 @@
     },
     "records": {
         "CNAME": "thex24.github.io",
-        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-        "TXT": ["v=spf1 include:spf.improvmx.com include:_spf.google.com ~all"]
+        "TXT": [
+            "v=spf1 include:zohomail.eu ~all"
+        ],
+        "MX": [
+            {
+                "target": "mx.zoho.eu",
+                "priority": 10
+            },
+            {
+                "target": "mx2.zoho.eu",
+                "priority": 20
+            },
+            {
+                "target": "mx3.zoho.eu",
+                "priority": 50
+            }
+        ]
     },
     "proxied": true
 }
