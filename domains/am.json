@@ -3,6 +3,12 @@
     "username": "erusc"
   },
   "records": {
-    "NS": ["cora.ns.cloudflare.com", "trevor.ns.cloudflare.com"]
+    "NS": ["cora.ns.cloudflare.com", "trevor.ns.cloudflare.com"],
+    "DS": [{
+      "key_tag": 2371,
+      "algorithm": 13,
+      "digest_type": 2,
+      "digest": "A2DA0817F95D99F0F68C7073519684889455075039D3D8AECF3ED2A29A2D6A08"
+    }]
   }
 }
