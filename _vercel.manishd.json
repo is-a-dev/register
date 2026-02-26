@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "PuurfectDev-MD",
-    "email": "new.mainshd@gmail.com"
-  },
-  "TXT": {
-      "_vercel": "vc-domain-verify=manishd.is-a.dev,6d3e28dc101452c5dfca"
+    "owner": {
+        "username": "PuurfectDev-MD",
+        "email": "new.manishd@gmail.com"
+    },
+    "record": {
+        "TXT": ["vc-domain-verify=manishd.is-a.dev,6d3e28dc101452c5dfca"]
     }
 }
