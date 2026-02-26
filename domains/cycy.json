@@ -3,7 +3,7 @@
         "username": "CynthiaWahome",
         "email": "hey@cycy.codes"
     },
-    "record": {
+    "records": {
         "A": ["216.198.79.1"],
         "TXT": "vc-domain-verify=cycy.is-a.dev,0668817934da0b4d265c"
     }
