@@ -1,9 +1,11 @@
 {
+  "description": "My personal website",
+  "repo": "https://forhanshop.vercel.app",
   "owner": {
     "username": "mohammadforhan05",
     "email": "mohammadforhan05@gmail.com"
   },
   "records": {
-    "CNAME": "mohammadforhan05.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
