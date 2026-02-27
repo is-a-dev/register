@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "Gnof-the-shark",
+        "email": "christophewhite14@gmail.com"
+    },
+    "record": {
+        "CNAME": "gnof-the-shark.github.io",
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ]
+    }
+}
