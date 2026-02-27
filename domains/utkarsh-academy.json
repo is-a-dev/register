@@ -3,7 +3,10 @@
         "username": "utkarsh820",
         "email": "utkarsh.research@proton.me"
     },
-    "record": {
-        "CNAME": "utkarsh820.github.io"
-    }
+    "records": [
+        {
+            "type": "CNAME",
+            "value": "utkarsh820.github.io"
+        }
+    ]
 }
