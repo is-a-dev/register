@@ -4,6 +4,6 @@
         "email": "aaryanchoubey45@gmail.com"
     },
     "records": {
-        "CNAME": "da6498799bd755b9.vercel-dns-017.com"
+        "A": ["216.198.79.1"]
     }
 }
