@@ -1,0 +1,34 @@
+{
+  "owner": {
+    "username": "Geru2040",
+    "email": "VloudX@gmail.com"
+  },
+  "record": {
+    "CNAME": "python--gerirangelov18.replit.app"
+  }
+}
+```
+Replace the CNAME with your actual Replit URL (just the domain, no `https://`)
+
+---
+
+### Step 4 — Submit Pull Request
+1. Click **Commit new file**
+2. Click **Contribute** → **Open Pull Request**
+3. Title it: `feat: add kimigo.is-a.dev`
+4. Click **Create Pull Request**
+
+---
+
+### Step 5 — Wait for approval
+Usually **under 1 hour**, sometimes minutes. You'll get a GitHub notification when approved.
+
+---
+
+### Step 6 — Once approved, add to Cloudflare
+1. Cloudflare Dashboard → your domain → DNS
+2. Add record:
+```
+Type:  CNAME
+Name:  @
+Target: YOUR-REPL.USERNAME.repl.co
