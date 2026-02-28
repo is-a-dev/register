@@ -1,0 +1,11 @@
+{
+  "description": "CRMS - Central Railway Mazdoor Sangh",
+  "repo": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO",
+  "owner": {
+    "username": "YOUR_GITHUB_USERNAME",
+    "email": "YOUR_EMAIL"
+  },
+  "record": {
+    "CNAME": "crms-connect-space.lovable.app"
+  }
+}
