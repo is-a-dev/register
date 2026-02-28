@@ -1,0 +1,14 @@
+{
+  "description": "Yug Pratap Gupta - AI Automation & Business Systems Engineer",
+  "domain": "is-a.dev",
+  "subdomain": "yugpratapgupta",
+
+  "owner": {
+    "username": "yug03",
+    "email": "yugpratapgupta00@gmail.com"
+  },
+
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
