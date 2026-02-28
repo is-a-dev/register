@@ -1,9 +1,32 @@
 {
-  "owner": {
-    "username": "hcs1219",
-    "email": "hcskaiask@gmail.com"
-  },
-  "records": {
-    "CNAME": "hcs1219.github.io"
-  }
+    "owner": {
+        "username": "hcs1219",
+        "email": "hcskaiask@gmail.com"
+    },
+    "records": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "TXT": [
+            "zoho-verification=zb40664184.zmverify.zoho.com",
+            "v=spf1 include:zoho.com ~all"
+        ],
+        "MX": [
+            {
+                "target": "mx.zoho.com",
+                "priority": 10
+            },
+            {
+                "target": "mx2.zoho.com",
+                "priority": 20
+            },
+            {
+                "target": "mx3.zoho.com",
+                "priority": 50
+            }
+        ]
+    }
 }
