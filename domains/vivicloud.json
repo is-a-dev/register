@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "admin",
+    "username": "redfoxxer",
     "email": "vivekkjacob@gmail.com"
   },
   "record": {
-    "CNAME": "https://remain-decided-trade-venues.trycloudflare.com"
-  }
+    "CNAME": "vivekjacob.github.io"
+  },
+  "description": "Personal encrypted cloud storage project built using React and Node.js"
 }
