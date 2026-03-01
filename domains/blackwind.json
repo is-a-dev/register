@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "t-blackwind",
+    "email": "hamster.crop@outlook.com"
+  },
+  "record": {
+    "NS": [
+      "daisy.ns.cloudflare.com",
+      "fred.ns.cloudflare.com"
+    ]
+  }
+}
