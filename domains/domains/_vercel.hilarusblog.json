@@ -1,0 +1,13 @@
+{
+  "description": "Enregistrement de vérification de propriété pour Vercel",
+  "repo": "https://github.com/melx7078-hub/register",
+  "owner": {
+    "username": "melx7078",
+    "email": "hilarus9@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "vc-domain-verify=hilarusblog.is-a.dev,5ac3bff102768c4484f0"
+    ]
+  }
+}
