@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "YOUR_GITHUB_USERNAME",
+        "email": "YOUR_EMAIL"
+    },
+    "records": {
+        "CNAME": "sudoserver.pages.dev"
+    }
+}
