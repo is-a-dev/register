@@ -3,7 +3,7 @@
     "username": "redfoxxer",
     "email": "vivekkjacob@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "vivekjacob.github.io"
   },
   "description": "Personal encrypted cloud storage project built using React and Node.js"
