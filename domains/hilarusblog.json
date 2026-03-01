@@ -3,6 +3,12 @@
     "username": "melx7078-hub"
   },
   "records": {
-    "CNAME": "hilarusblog.vercel.app"
+    "A": ["216.198.79.1"],
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=hilarusblog.is-a.dev,5ac3bff102768c4484f0"
+      }
+    ]
   }
 }
