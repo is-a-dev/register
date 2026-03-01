@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "Medenchi",
+        "email": "atem4513@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "ЗДЕСЬ_ПЕРВЫЙ_АДРЕС_ОТ_CLOUDFLARE",
+            "ЗДЕСЬ_ВТОРОЙ_АДРЕС_ОТ_CLOUDFLARE"
+        ]
+    }
+}
