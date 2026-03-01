@@ -2,7 +2,7 @@
   "owner": {
     "username": "c25575194-ops"
   },
-  "record": {
+  "records": {
     "MX": [
       "route1.mx.cloudflare.net",
       "route2.mx.cloudflare.net",
