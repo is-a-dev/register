@@ -4,9 +4,6 @@
     "email": "sebastian.garciab2004@gmail.com"
   },
   "records": {
-    "NS": [
-      "meiling.ns.cloudflare.com",
-      "tom.ns.cloudflare.com"
-    ]
+    "CNAME": "https://fondo-nu.vercel.app/"
   }
 }
