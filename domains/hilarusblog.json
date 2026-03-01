@@ -1,1 +1,12 @@
-{\n  "description": "Enregistrement de vérification de propriété pour Vercel",\n  "owner": {\n    "username": "melx7078",\n    "email": "hilarus9@gmail.com"\n  },\n  "record": {\n    "TXT": [\n      "vc-domain-verify=hilarusblog.is-a.dev,5ac3bff102768c4484f0"\n    ]\n  }\n}
+{
+  "description": "Enregistrement de vérification de propriété pour Vercel",
+  "owner": {
+    "username": "melx7078",
+    "email": "hilarus9@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "vc-domain-verify=hilarusblog.is-a.dev,5ac3bff102768c4484f0"
+    ]
+  }
+}
