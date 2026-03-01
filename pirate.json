@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "sanjidkabir773-lab",
+    "email": "your-email-here@example.com"
+  },
+  "records": {
+    "CNAME": "sanjidkabir773-lab.github.io"
+  }
+}
