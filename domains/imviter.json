@@ -6,7 +6,7 @@
     "repo": "https://github.com/replityash5/imvu-bot-backend",
     "email": "abcdbot@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["216.198.79.1"],
     "TXT": ["_vercel=vc-domain-verify=imviter.is-a.dev,4fc3dd07e59138a703c2"]
   }
