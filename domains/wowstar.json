@@ -1,7 +1,8 @@
 {
     "owner": {
         "username": "wowstar2504",
-        "email": "hi@22291111.xyz"
+        "email": "hi@22291111.xyz",
+        "discord": "297820144330080257"
     },
     "records": {
         "CNAME": ["cname.vercel-dns.com"]
