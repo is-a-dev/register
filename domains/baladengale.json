@@ -4,6 +4,6 @@
     "email": "dengalebr@gmail.com"
   },
   "records": {
-    "A": "185.199.111.153"
+    "A": ["185.199.111.153"]
   }
 }
