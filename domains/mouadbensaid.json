@@ -7,8 +7,10 @@
         "CNAME": "d2v6psnir6cwtu.cloudfront.net"
     },
     "records": {
-        "CNAME": [
-            "_8c0674c225f7bd6c72ae80a99574c48a.jkddzztszm.acm-validations.aws."
-        ]
+        "_86628d81de108422b11294742fad759d": {
+            "record": {
+                "CNAME": "_8c0674c225f7bd6c72ae80a99574c48a.jkddzztszm.acm-validations.aws."
+            }
+        }
     }
 }
