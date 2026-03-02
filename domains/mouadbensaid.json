@@ -7,9 +7,11 @@
         "CNAME": "d2v6psnir6cwtu.cloudfront.net"
     },
     "records": {
-        "CNAME": [
-            "d2v6psnir6cwtu.cloudfront.net",
-            "_8c0674c225f7bd6c72ae80a99574c48a.jkddzztszm.acm-validations.aws."
-        ]
+        "CNAME": "d2v6psnir6cwtu.cloudfront.net"
+    },
+    "subdomains": {
+        "www": {
+            "CNAME": "d2v6psnir6cwtu.cloudfront.net"
+        }
     }
 }
