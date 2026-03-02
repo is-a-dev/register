@@ -4,9 +4,7 @@
         "email": "badharathna@gmail.com"
     },
     "records": {
-        "CNAME": "badha.netlify.app",
-        "ssh": {
-            "A": ["129.154.41.47"]
+        "CNAME": "badha.netlify.app"
         }
     }
 }
