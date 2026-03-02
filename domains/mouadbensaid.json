@@ -7,14 +7,9 @@
         "CNAME": "d2v6psnir6cwtu.cloudfront.net"
     },
     "records": {
-        "www": {
-            "CNAME": "d2v6psnir6cwtu.cloudfront.net"
-        },
-        "_86628d81de108422b11294742fad759d": {
-            "CNAME": "_8c0674c225f7bd6c72ae80a99574c48a.jkddzztszm.acm-validations.aws."
-        },
-        "_192043f6bcd6eabe96b17cc376c50263.www": {
-            "CNAME": "_18d9db61be7cfcf0d37c790dc5356d89.jkddzztszm.acm-validations.aws."
-        }
+        "CNAME": [
+            "d2v6psnir6cwtu.cloudfront.net",
+            "_8c0674c225f7bd6c72ae80a99574c48a.jkddzztszm.acm-validations.aws."
+        ]
     }
 }
