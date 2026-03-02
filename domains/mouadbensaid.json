@@ -3,14 +3,15 @@
         "username": "Mou3ad",
         "email": "bensaid.mouad@gmail.com"
     },
-    "record": {
-        "CNAME": "d2v6psnir6cwtu.cloudfront.net"
-    },
-    "records": {
-        "_86628d81de108422b11294742fad759d": {
-            "record": {
-                "CNAME": "_8c0674c225f7bd6c72ae80a99574c48a.jkddzztszm.acm-validations.aws."
-            }
+    "records": [
+        {
+            "type": "CNAME",
+            "value": "d2v6psnir6cwtu.cloudfront.net"
+        },
+        {
+            "type": "CNAME",
+            "name": "_86628d81de108422b11294742fad759d",
+            "value": "_8c0674c225f7bd6c72ae80a99574c48a.jkddzztszm.acm-validations.aws."
         }
-    }
+    ]
 }
