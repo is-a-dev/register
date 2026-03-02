@@ -3,10 +3,12 @@
         "username": "Mou3ad",
         "email": "bensaid.mouad@gmail.com"
     },
-    "record": {
-        "CNAME": "d2v6psnir6cwtu.cloudfront.net"
-    },
     "records": [
+        {
+            "type": "CNAME",
+            "name": "@",
+            "value": "d2v6psnir6cwtu.cloudfront.net"
+        },
         {
             "type": "CNAME",
             "name": "www",
