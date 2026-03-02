@@ -1,0 +1,11 @@
+{
+  "description": "Paul Tribble's developer portfolio",
+  "repo": "https://github.com/pdtribble/pdtribble.github.io",
+  "owner": {
+    "username": "pdtribble",
+    "email": "ptribble@outlook.com"
+  },
+  "record": {
+    "CNAME": "pdtribble.github.io"
+  }
+}
