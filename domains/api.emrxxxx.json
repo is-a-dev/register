@@ -1,9 +1,15 @@
 {
-    "owner": {
-        "username": "emrcaca",
-        "email": "emrcaca@yahoo.com"
-    },
-    "records": {
-        "CNAME": "api.emrxxxx.workers.dev"
+  "owner": {
+    "name": "Emir Çaça",
+    "email": "emrcaca@yahoo.com"
+  },
+  "domain": "api.emrxxxx",
+  "parent": "emrxxxx",
+  "records": [
+    {
+      "type": "A",
+      "name": "api",
+      "value": "123.123.123.123"
     }
+  ]
 }
