@@ -1,0 +1,11 @@
+{
+    "description": "QHW Store Website",
+    "repo": "https://github.com/YOUR_GITHUB_USERNAME/the-hardware-store",
+    "owner": {
+        "username": "YOUR_GITHUB_USERNAME",
+        "email": "YOUR_EMAIL"
+    },
+    "record": {
+        "CNAME": "the-hardware-store-11962.web.app"
+    }
+}
