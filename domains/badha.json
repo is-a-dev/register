@@ -3,10 +3,8 @@
         "username": "BigRathna",
         "email": "badharathna@gmail.com"
     },
-    "record": {
-        "CNAME": "badha.netlify.app"
-    },
-    "subdomains": {
+    "records": {
+        "CNAME": "badha.netlify.app",
         "ssh": {
             "A": ["129.154.41.47"]
         }
