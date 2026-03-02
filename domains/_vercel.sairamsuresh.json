@@ -4,6 +4,6 @@
         "email": "sairam278.suresh@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=sairamsuresh.is-a.dev,47d873c3fadebb68efe1"
     }
 }
