@@ -6,13 +6,21 @@
     "record": {
         "CNAME": "d2v6psnir6cwtu.cloudfront.net"
     },
-    "records": {
-        "www": { "record": { "CNAME": "d2v6psnir6cwtu.cloudfront.net" } },
-        "_86628d81de108422b11294742fad759d": { 
-            "record": { "CNAME": "_8c0674c225f7bd6c72ae80a99574c48a.jkddzztszm.acm-validations.aws." } 
+    "records": [
+        {
+            "type": "CNAME",
+            "name": "www",
+            "value": "d2v6psnir6cwtu.cloudfront.net"
         },
-        "_192043f6bcd6eabe96b17cc376c50263.www": { 
-            "record": { "CNAME": "_18d9db61be7cfcf0d37c790dc5356d89.jkddzztszm.acm-validations.aws." } 
+        {
+            "type": "CNAME",
+            "name": "_86628d81de108422b11294742fad759d",
+            "value": "_8c0674c225f7bd6c72ae80a99574c48a.jkddzztszm.acm-validations.aws."
+        },
+        {
+            "type": "CNAME",
+            "name": "_192043f6bcd6eabe96b17cc376c50263.www",
+            "value": "_18d9db61be7cfcf0d37c790dc5356d89.jkddzztszm.acm-validations.aws."
         }
-    }
+    ]
 }
