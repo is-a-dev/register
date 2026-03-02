@@ -8,10 +8,5 @@
     },
     "records": {
         "CNAME": "d2v6psnir6cwtu.cloudfront.net"
-    },
-    "subdomains": {
-        "www": {
-            "CNAME": "d2v6psnir6cwtu.cloudfront.net"
-        }
     }
 }
