@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "nohjcarl"
-    },
-    "records": {
-        "CNAME": "nohjrlac.vercel.app"
-    }
+  "owner": {
+    "username": "nohjcarl",
+    "email": "jc15ayuda@gmail.com"   
+  "records": {
+    "CNAME": "nohjrlac.vercel.app"
+  }
 }
