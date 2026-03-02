@@ -1,10 +1,8 @@
 {
-  "owner": {
-    "username": "Sami9889",
-    "email": "samisingh988@gmail.com"
-  },
+  "domain": "sami.is-a.dev",
+  "email": "samisingh988@gmail.com",
   "records": {
     "URL": "https://sami-s.dev"
   },
-  "proxied": true
+  "proxied": false
 }
