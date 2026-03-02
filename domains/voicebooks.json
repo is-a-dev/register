@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "tomashevanatalia-tech",
+    "email": "tomasheva.natalia@gmail.com"
+  },
+  "description": "VoiceBooks — AI Audiobooks web app",
+  "record": {
+    "CNAME": "voicebooks-production.up.railway.app"
+  }
+}
