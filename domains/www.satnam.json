@@ -1,0 +1,9 @@
+{
+  "owner": {
+      "username": "github-username",
+      "email": "[email protected]"
+  },
+  "records": {
+      "CNAME": "satnam-devsecops.netlify.app"
+  }
+}
