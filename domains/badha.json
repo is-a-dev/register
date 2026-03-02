@@ -3,10 +3,7 @@
     "username": "BigRathna",
     "email": "badharathna@gmail.com"
   },
-  "record": {
-    "ssh": {
-      "A": ["129.154.41.47"]
-    },
+  "records": {
     "CNAME": "badha.netlify.app"
   }
 }
