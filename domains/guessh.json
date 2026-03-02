@@ -4,6 +4,6 @@
     "email": "mirza1karic1@gmail.com"
   },
   "records": {
-    "A": "206.189.249.134"
+    "A": ["206.189.249.134"]
   }
 }
