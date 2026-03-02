@@ -1,0 +1,11 @@
+{
+  "description": "GameCenter - self-hosted multiplayer gaming platform",
+  "repo": "https://github.com/pdtribble/gamecenter",
+  "owner": {
+    "username": "pdtribble",
+    "email": "ptribble@outlook.com"
+  },
+  "record": {
+    "CNAME": "pdtribble.is-a.dev"
+  }
+}
