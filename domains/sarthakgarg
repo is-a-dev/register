@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "sarthakkgarg",
+    "email": "sarthakgargx@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  },
+  "subdomains": {
+    "_vercel": {
+      "records": {
+        "TXT": ["vc-domain-verify=sarthakgarg.is-a.dev,69439490b2a75cbe3557"]
+      }
+    }
+  }
+}
