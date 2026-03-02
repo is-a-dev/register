@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "BigRathna",
-        "email": "badharathna@gmail.com"
+  "owner": {
+    "username": "BigRathna",
+    "email": "badharathna@gmail.com"
+  },
+  "records": {
+    "ssh": {
+      "A": ["129.154.41.47"]
     },
-    "records": {
-        "CNAME": "badha.netlify.app"
-    }
+    "CNAME": "badha.netlify.app"
+  }
 }
