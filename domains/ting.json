@@ -1,0 +1,11 @@
+{
+  "description": "Personal digital garden for a Data Infra SRE",
+  "repo": "https://github.com/hpliStartAgain/my-brain",
+  "owner": {
+    "username": "hpliStartAgain",
+    "email": "lhp1968263451@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname-china.vercel-dns.com" 
+  }
+}
