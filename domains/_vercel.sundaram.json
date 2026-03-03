@@ -4,6 +4,6 @@
         "email": "krishnsundaram@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=sundaram.is-a.dev,1a2117ec70270aab28f1"
     }
 }
