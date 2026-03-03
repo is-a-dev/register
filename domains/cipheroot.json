@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "cipheroot6"
+        "username": "cipheroot6",
+        "email": "cipheroot@proton.me"
     },
     "records": {
-        "CNAME": "https://portfolio-mu-ten-e2bvwoq1uj.vercel.app/"
+        "CNAME": "portfolio-mu-ten-e2bvwoq1uj.vercel.app/"
     }
 }
