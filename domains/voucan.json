@@ -4,6 +4,6 @@
     "email": "vcn4313@gmail.com"
   },
   "records": {
-    "CNAME": "voucan.pages.dev"
+    "A": ["152.53.38.9"]
   }
 }
