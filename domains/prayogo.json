@@ -6,11 +6,20 @@
   "proxied": true,
   "records": {
     "CNAME": "riotrip.github.io",
-    "TXT": ["zoho-verification=zb00219805.zmverify.zoho.com"],
+    "TXT": [
+      "zoho-verification=zb00219805.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all"
+    ],
     "MX": [
       { "target": "mx.zoho.com", "priority": 10 },
       { "target": "mx2.zoho.com", "priority": 20 },
       { "target": "mx3.zoho.com", "priority": 50 }
+    ],
+    "DKIM": [
+      {
+        "name": "zmail._domainkey",
+        "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZDF3pVsxj94ka8a0hBQuNbU+ROlU/I6lZYsxr/k3KFmelQVpNOLAid7ONam7YuoL2hCoGMgqgkq5+BuYTlWIGIcrQn+9UtKq6T1nnWBKcKSWL0U5jYbGF9HgK56WyNj2s64MT440K8MWjVgNR4ZQTEd07ldS/T22GFrXgJgvV6QIDAQAB"
+      }
     ]
   }
 }
