@@ -4,6 +4,6 @@
         "email": "kamri1302@gmail.com"
     },
     "records": {
-        "CNAME": "97d89a66de7ca083.vercel-dns-017.com."
+        "A": ["216.198.79.1"]
     }
 }
