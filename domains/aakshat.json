@@ -1,8 +1,7 @@
 {
-  "description": "My personal site",
   "owner": {
     "username": "Aaks-hatH",
-    "email": "aakshathariharan@gmail.com"
+    "email": "your@email.com"
   },
   "record": {
     "CNAME": "aaks-hath.pages.dev"
