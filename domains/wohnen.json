@@ -3,6 +3,7 @@
     "username": "Imegne3x",
     "email": "federalel@proton.me"
   },
+  "proxied": true,
   "records": {
     "CNAME": "cnmkppxj.up.railway.app",
     "TXT": ["railway-verify=7d7b12bae4ca5d998ddb741341c13b807538bf06e9a30c70839982d53248df37"]
