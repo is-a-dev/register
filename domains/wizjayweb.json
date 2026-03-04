@@ -1,0 +1,11 @@
+{
+  "description": "wizjayweb — Full-Stack Web Developer Portfolio",
+  "repo": "https://github.com/wizjayweb-collab/wizjayweb-portfolio",
+  "owner": {
+    "username": "Wizjayweb",
+    "email": "wizjayweb@gmail.com"
+  },
+  "record": {
+    "CNAME": "wizjayweb-portfolio.onrender.com"
+  }
+}
