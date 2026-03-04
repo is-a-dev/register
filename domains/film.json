@@ -1,1 +1,11 @@
-
+{
+  "description": "Website for gnof's movie.",
+  "repo": "https://github.com/gnof-the-shark/Six-personnes-une-montagne-une-dependance",
+  "owner": {
+    "username": "gnof-the-shark",
+    "email": "christophewhite14@gmail.com"
+  },
+  "records": {
+    "CNAME": "gnof-the-shark.github.io"
+  }
+}
