@@ -1,0 +1,11 @@
+{
+  "description": "United States of Git - 3D GitHub repo visualization",
+  "repo": "https://github.com/ptteo/united-states-of-git",
+  "owner": {
+    "username": "ptteo",
+    "email": "onlyforptwork@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://united-states-of-git.vercel.app/"
+  }
+}
