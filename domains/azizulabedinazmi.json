@@ -4,9 +4,6 @@
     "email": "azmi00121@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": [
-      "openai-domain-verification=dv-LX9whLsTUk1ZBc3QfiGLoroZ"
-    ]
+    "A": ["216.198.79.1"]
   }
 }
