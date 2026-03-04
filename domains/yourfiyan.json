@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "Yourfiyan",
+    "username": "yourfiyan",
     "email": "yourfiyan@proton.me"
   },
-  "record": {
-    "A": ["185.27.134.217"]
+  "records": {
+    "CNAME": "yourfiyan.github.io"
   }
 }
