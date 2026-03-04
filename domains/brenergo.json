@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "vasiukovich-eng",
+    "email": "brenergo.eng@gmail.com"
+  },
+  "record": {
+    "NS": ["ns1.cloudflare.com", "ns2.cloudflare.com"]
+  }
+}
