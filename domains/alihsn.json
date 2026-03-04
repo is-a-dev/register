@@ -3,7 +3,6 @@
     "username": "coscoo"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": ["vc-domain-verify=alihsn.is-a.dev,1ed45ce770bd799d311a"]
+    "A": ["216.198.79.1"]
   }
 }
