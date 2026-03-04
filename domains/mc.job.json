@@ -4,6 +4,6 @@
     "email": "gorgonfweman@outlook.com"
   },
   "records": {
-    "NS": ["galileo.aternos.org", "columbus.aternos.org"]
+    "A": ["128.204.223.115"]
   }
 }

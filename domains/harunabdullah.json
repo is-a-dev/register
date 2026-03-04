@@ -5,12 +5,11 @@
   },
   "records": {
     "CNAME": "my-portfolio-d61.pages.dev",
-    "TXT": "v=spf1 include:zohomail.com ~all",
+    "TXT": "v=spf1 include:spf.ipzmarketing.com include:spf.improvmx.com ~all",
     
     "MX": [
-      { "target": "mx.zoho.com", "priority": 10 },
-      { "target": "mx2.zoho.com", "priority": 20 },
-      { "target": "mx3.zoho.com", "priority": 50 }
+      { "target": "mx1.improvmx.com", "priority": 10 },
+      { "target": "mx2.improvmx.com", "priority": 20 }
     ]
   },
   "proxied": true

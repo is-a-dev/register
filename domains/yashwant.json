@@ -5,6 +5,7 @@
     "username": "Yashwant176",
     "email": "kumarkyashwant@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "portfolio2-kappa-flame.vercel.app"
   }
