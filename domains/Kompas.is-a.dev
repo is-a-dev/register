@@ -1,11 +1,8 @@
 {
   "owner": {
-    "username": "MisMath27",
-    "email": "Kirillmokr06@gmail.com"
+    "username": "MisMath27"
   },
   "record": {
     "CNAME": "mismath27.github.io"
-  },
-  "description": "Сайт инженерной графики КОМПАС-3D",
-  "repo": "https://github.com/MisMath27/mismath27.github.io"
+  }
 }
