@@ -1,0 +1,15 @@
+{
+  "domain": "kevinphoto.is-a.dev",
+  "owner": {
+    "name": "Jackkevin369",
+    "email": "teressapatronqseu6983@gmail.com"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "host": "@",
+      "value": "kevin-r2.pages.dev",
+      "ttl": 300
+    }
+  ]
+}
