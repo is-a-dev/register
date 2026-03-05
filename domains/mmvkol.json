@@ -1,0 +1,7 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "mmvkol",
+  "owner": { "email": "mnemail12@gmail.com" },
+  "record": { "A": ["166.1.36.230"] },
+  "proxied": false
+}
