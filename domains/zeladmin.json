@@ -3,10 +3,7 @@
     "username": "Nadzil123",
     "email": "nadzilnadziljr@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "nadzil123.github.io"
-    }
-  ]
+  "records": {
+    "CNAME": "nadzil123.github.io"
+  }
 }
