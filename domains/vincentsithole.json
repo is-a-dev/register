@@ -1,8 +1,8 @@
 {
   "description": "Personal Cloud/DevOps portfolio - Self-hosted Debian server with LAMP stack, WordPress, and Samba file sharing",
-  "repo": "https://github.com/vincent123/debian-lamp-server",
+  "repo": "https://github.com/VincentK123/debian-lamp-server",
   "owner": {
-    "username": "vincent123",
+    "username": "VincentK123",
     "email": "phakamilesithole80@gmail.com"
   },
   "record": {
