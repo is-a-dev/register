@@ -1,11 +1,8 @@
 {
-  "description": "Freqtrade portfolio dashboard",
-  "domain": "is-a.dev",
-  "subdomain": "corical",
-  "owner": {
-    "username": "coricalkcorical"
-  },
-  "record": {
-    "CNAME": "13dc1f82-262d-4122-bd2f-6ff4bd80e5d6.cfargotunnel.com"
-  }
+    "owner": {
+        "username": "coricalkcorical"
+    },
+    "records": {
+        "CNAME": "13dc1f82-262d-4122-bd2f-6ff4bd80e5d6.cfargotunnel.com"
+    }
 }
