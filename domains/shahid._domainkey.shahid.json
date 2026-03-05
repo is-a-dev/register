@@ -1,0 +1,9 @@
+{
+ "owner": {
+   "username": "shahidadev",
+   "email": "mdgffkiller8@gmail.com" 
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCJ7Bcj8h9jItr3/qnx66ffnAm7/YpRwZimjpshv3n0iVPHLjW9d7eKRkXoJKGfPG1mt87ceMzp1SpZwRWmxGkweGhZrOokYtAjxw/xbePZrkFaKmwWScQQrB3u3krQ4ejqPJLcqFTksv4FK5kxrVMqqnUo3mNPxujNjPL/WS9E+QIDAQAB"
+  }
+}

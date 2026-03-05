@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "virtualfuzz",
+    "email": "skewed-fade-deluxe@duck.com"
+  },
+  "records": {
+    "CNAME": "virtualfuzz.gitlab.io"
+  }
+}

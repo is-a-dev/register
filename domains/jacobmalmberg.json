@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "jakkmalm",
+        "email": "jacob_ost@hotmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": "google-site-verification=IGGOBkDDOAkrFU3c5a5dT5D5BFhKs_j4qzd4plZYI-E"
+    },
+    "proxied": true
+}

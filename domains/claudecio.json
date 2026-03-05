@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "claudecio",
+    "email": "claudecioj2@gmail.com"
+  },
+  "records": {
+    "A": ["108.167.188.68"],
+    "MX": [
+      { "target": "mx1.titan.email", "priority": 10 },
+      { "target": "mx2.titan.email", "priority": 20 }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.titan.email ~all"
+    ]
+  }
+}

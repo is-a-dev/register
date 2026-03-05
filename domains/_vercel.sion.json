@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "sionparadox",
+        "email": "dev.sions@example.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=sion.is-a.dev,4380ebe6da9d393dd698"
+    }
+}

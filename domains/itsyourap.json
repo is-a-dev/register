@@ -4,6 +4,7 @@
     "email": "itsyourap@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.193"]
+    "A": ["216.198.79.193"],
+    "TXT": "google-site-verification=qy88kCp9ZzCiwDhrtIXEVwUR-6W1y6fp4meD0uwJbK0"
   }
 }

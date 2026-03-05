@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "fusionofficial",
+    "email": "atomfusiondev@gmail.com",
+    "discord": "mikropekka"
+  },
+  "records": {
+    "TXT": ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOsYYOAigZbGDLRmJjuIpPHYjbE1wSmQQHK1bF7laM3WPAEMfErT/Wmiww2nyzQL/C+qKFUDvLSNDgS40L3F5wdFU2v0aF5rXh6kNvw/Rru4UYQK1mRZNTdB0/BFZ5YUe01vHhl97XrDvkK064yCnxOHTpYcK1P7EpxJopzijlIQIDAQAB"]
+  }
+}

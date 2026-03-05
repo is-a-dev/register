@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "nathandavies91",
+    "email": "hello@nathandavies.co.uk"
+  },
+  "records": {
+    "CNAME": "nathandavies.me"
+  },
+  "proxied": true
+}

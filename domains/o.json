@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "omsenjalia"
+    "username": "CurlNet",
+    "email": "TheMasterOfRisk@gmail.com"
   },
   "records": {
-    "NS": ["raina.ns.cloudflare.com", "sergi.ns.cloudflare.com"]
+    "CNAME": "amir-cv.netlify.app"
   }
 }
