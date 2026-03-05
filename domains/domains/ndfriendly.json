@@ -1,0 +1,10 @@
+{
+  "description": "Neurodivergent-friendly business directory",
+  "owner": {
+    "username": "voyagscher",
+    "email": "sarahelisescher@gnmail.com"
+  },
+  "record": {
+    "CNAME": "YOUR-CLOUDFLARE-TUNNEL-URL"
+  }
+}
