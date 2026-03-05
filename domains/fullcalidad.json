@@ -4,6 +4,7 @@
     "email": "robert19092006@gmail.com"
   },
   "record": {
-    "CNAME": "fullcalidad.up.railway.app"
+    "CNAME": "746qta0a.up.railway.app",
+    "TXT": ["railway-verify=797db045c7cef585db474afd52d35bcbeefe426ab7b4a272ef08dc1b36b5369e"]
   }
 }
