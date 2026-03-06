@@ -6,7 +6,6 @@
     "email": "venkatkousik03@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": ["vc-domain-verify=kousikkaranam.is-a.dev,27fa3985bda8ad74a667"]
+    "A": ["216.198.79.1"]
   }
 }
