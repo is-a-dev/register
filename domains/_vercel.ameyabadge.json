@@ -4,6 +4,7 @@
         "email": "ameyabadge@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=ameyabadge.is-a.dev,7e54151912bc3da5b88a"
+        "TXT": "vc-domain-verify=ameyabadge.is-a.dev,7e54151912bc3da5b88a",
+        "TXT": "google-site-verification=-l_qjdw8SLL5WVu65l-6o3kl5YSTzAKeR-bPokLmdlg"
     }
 }
