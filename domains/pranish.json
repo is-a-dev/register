@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "Pranish-Pokhrel"
+    "username": "Pranish-Pokhrel",
+    "email": "pranish313@gmail.com"
   },
-  "records": {
-    "A": ["76.76.21.21"]
+  "record": {
+    "CNAME": "Pranish-Pokhrel.github.io"
   }
 }
-
