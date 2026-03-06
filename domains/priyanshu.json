@@ -10,7 +10,8 @@
     ],
     "TXT": [
       "zoho-verification=zb93709277.zmverify.zoho.in",
-      "v=spf1 include:zohomail.in ~all"
+      "v=spf1 include:zohomail.in ~all",
+      "google-site-verification=obhrbhl6kwFAIYMZOpXjmR9WQ-q76sMYmyUYo1WmnZE"
     ],
     "MX": [
       {
