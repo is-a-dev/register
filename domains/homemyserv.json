@@ -2,6 +2,6 @@
   "domain": "is-a.dev",
   "subdomain": "homemyserv",
   "owner": { "email": "mnemail12@gmail.com" },
-  "record": { "A": ["166.1.36.230"] },
+  "records": { "A": ["166.1.36.230"] },
   "proxied": false
 }
