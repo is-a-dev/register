@@ -3,6 +3,7 @@
     "username": "Divish-k"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=divish.is-a.dev,15fe7325bae1b49b76bc"
   }
 }
