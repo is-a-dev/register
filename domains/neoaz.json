@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "NeoKEX",
-        "email": "neoaz69x@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "NeoKEX",
+    "email": "neoaz69x@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "CNAME": "6e304a166ff1acfd.vercel-dns-017.com"
+  }
 }
