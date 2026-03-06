@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noct. — Portfolio</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg:        #0a0812;
+    --bg2:       #0e0c18;
+    --surface:   #12101e;
+    --surface2:  #161424;
+    --border:    rgba(255,255,255,0.07);
+    --purple:    #8b5cf6;
+    --purple-dim:#6d28d9;
+    --purple-bg: rgba(139,92,246,0.15);
+    --text:      #ffffff;
+    --text-dim:  rgba(255,255,255,0.55);
+    --text-mute: rgba(255,255,255,0.35);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ── NAVBAR ─────────────────────────────────────────── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 40px;
+    height: 52px;
+    background: rgba(10,8,18,0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-logo {
+    font-size: 15px; font-weight: 700; color: var(--text); text-decoration: none;
+    letter-spacing: -0.3px;
+  }
+  .nav-logo span { color: var(--purple); }
+
+  .nav-links { display: flex; gap: 36px; list-style: none; }
+  .nav-links a {
+    color: var(--text-dim); text-decoration: none; font-size: 13px;
+    font-weight: 400; transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--text); }
+
+  /* ── HERO ────────────────────────────────────────────── */
+  #home {
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Glow blobs */
+  .blob {
+    position: absolute; border-radius: 50%; filter: blur(80px);
+    pointer-events: none; z-index: 0;
+  }
+  .blob-1 {
+    width: 480px; height: 480px;
+    background: radial-gradient(circle, rgba(100,40,180,0.55) 0%, transparent 70%);
+    top: 10%; left: -8%;
+  }
+  .blob-2 {
+    width: 360px; height: 360px;
+    background: radial-gradient(circle, rgba(120,60,200,0.4) 0%, transparent 70%);
+    bottom: 5%; right: -4%;
+  }
+  .blob-3 {
+    width: 280px; height: 280px;
+    background: radial-gradient(circle, rgba(80,30,160,0.3) 0%, transparent 70%);
+    top: 55%; left: 55%;
+  }
+
+  .hero-content { position: relative; z-index: 1; max-width: 620px; padding: 0 24px; }
+
+  .hero-tag {
+    font-size: 10px; font-weight: 600; letter-spacing: 3px;
+    text-transform: uppercase; color: var(--purple);
+    margin-bottom: 16px; display: block;
+  }
+
+  .hero-title {
+    font-size: clamp(38px, 5vw, 60px);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    color: #fff;
+  }
+  .hero-title .name { color: var(--purple); }
+
+  .hero-sub {
+    font-size: 15px; color: var(--text-dim);
+    max-width: 420px; margin: 0 auto 28px;
+    line-height: 1.7;
+  }
+
+  .hero-btns { display: flex; gap: 12px; justify-content: center; align-items: center; }
+
+  .btn-primary {
+    background: var(--purple);
+    color: #fff; border: none;
+    padding: 11px 24px; border-radius: 100px;
+    font-size: 13px; font-weight: 600;
+    cursor: pointer; text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+  .btn-primary:hover { background: #7c3aed; transform: translateY(-1px); }
+
+  .btn-outline {
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 11px 24px; border-radius: 100px;
+    font-size: 13px; font-weight: 500;
+    cursor: pointer; text-decoration: none;
+    transition: border-color 0.2s, transform 0.15s;
+  }
+  .btn-outline:hover { border-color: rgba(255,255,255,0.5); transform: translateY(-1px); }
+
+  /* ── SECTIONS SHARED ─────────────────────────────────── */
+  section { padding: 72px 0; }
+
+  .container { max-width: 1000px; margin: 0 auto; padding: 0 40px; }
+
+  .section-tag {
+    font-size: 10px; font-weight: 600; letter-spacing: 3px;
+    text-transform: uppercase; color: var(--purple);
+    margin-bottom: 10px; display: block;
+  }
+
+  .section-title {
+    font-size: clamp(22px, 3vw, 32px);
+    font-weight: 800; color: var(--text);
+    margin-bottom: 20px; line-height: 1.2;
+  }
+
+  /* ── ABOUT ───────────────────────────────────────────── */
+  #about { background: var(--bg2); }
+
+  .about-body {
+    font-size: 14px; line-height: 1.8;
+    color: var(--text-dim); max-width: 620px;
+    margin-bottom: 36px;
+  }
+
+  .skill-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+
+  .skill-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 18px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .skill-card:hover { border-color: rgba(139,92,246,0.3); transform: translateY(-2px); }
+
+  .skill-icon {
+    width: 36px; height: 36px;
+    background: var(--purple-bg);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+
+  .skill-card h3 { font-size: 13px; font-weight: 700; margin-bottom: 6px; color: var(--text); }
+  .skill-card p  { font-size: 12px; color: var(--text-dim); line-height: 1.6; }
+
+  /* ── EXPERIENCE ──────────────────────────────────────── */
+  #experience { background: var(--bg); }
+
+  .timeline {
+    position: relative;
+    max-width: 760px; margin: 0 auto;
+    padding-left: 36px;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute; left: 4px; top: 10px; bottom: 10px;
+    width: 1px;
+    background: linear-gradient(to bottom, var(--purple), rgba(139,92,246,0.15));
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 18px;
+  }
+
+  .timeline-dot {
+    position: absolute; left: -33px; top: 16px;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--purple);
+    box-shadow: 0 0 0 3px rgba(139,92,246,0.25);
+  }
+
+  .exp-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 24px;
+    transition: border-color 0.2s;
+  }
+  .exp-card:hover { border-color: rgba(139,92,246,0.25); }
+
+  .exp-header {
+    display: flex; align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 2px; gap: 12px;
+  }
+
+  .exp-role { font-size: 14px; font-weight: 700; color: var(--text); }
+
+  .exp-date {
+    font-size: 11px; color: var(--text-mute);
+    background: rgba(139,92,246,0.12);
+    border: 1px solid rgba(139,92,246,0.2);
+    padding: 3px 10px; border-radius: 100px;
+    white-space: nowrap; flex-shrink: 0;
+  }
+
+  .exp-company { font-size: 12px; color: var(--purple); margin-bottom: 8px; font-weight: 500; }
+
+  .exp-desc { font-size: 12px; color: var(--text-dim); line-height: 1.6; margin-bottom: 12px; }
+
+  .exp-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+  .tag-pill {
+    font-size: 10px; color: var(--text-dim);
+    border: 1px solid var(--border);
+    padding: 3px 10px; border-radius: 100px;
+    background: rgba(255,255,255,0.03);
+  }
+
+  /* ── CONTACT ─────────────────────────────────────────── */
+  #contact { background: var(--bg2); }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    gap: 60px;
+    align-items: start;
+  }
+
+  .contact-info-block {
+    display: flex; align-items: center; gap: 14px;
+    margin-bottom: 20px;
+  }
+
+  .contact-icon {
+    width: 38px; height: 38px;
+    background: var(--purple-bg);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; flex-shrink: 0;
+  }
+
+  .contact-label { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--text-mute); margin-bottom: 2px; }
+  .contact-value { font-size: 13px; color: var(--text); font-weight: 500; }
+
+  .contact-divider {
+    border: none; border-top: 1px solid var(--border);
+    margin: 20px 0;
+  }
+
+  .contact-note { font-size: 12px; color: var(--text-mute); line-height: 1.7; }
+
+  /* Form */
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+
+  .field { display: flex; flex-direction: column; gap: 5px; margin-bottom: 14px; }
+  .field label { font-size: 10px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-mute); }
+
+  .field input,
+  .field textarea {
+    background: rgba(139,92,246,0.07);
+    border: 1px solid rgba(139,92,246,0.2);
+    border-radius: 7px;
+    padding: 10px 14px;
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    outline: none;
+    transition: border-color 0.2s;
+    resize: none;
+  }
+  .field input::placeholder,
+  .field textarea::placeholder { color: rgba(255,255,255,0.2); }
+  .field input:focus,
+  .field textarea:focus { border-color: var(--purple); }
+  .field textarea { min-height: 110px; }
+
+  .btn-send {
+    width: 100%;
+    background: var(--purple);
+    color: #fff; border: none;
+    padding: 12px;
+    border-radius: 7px;
+    font-size: 13px; font-weight: 600;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    transition: background 0.2s;
+    font-family: 'Inter', sans-serif;
+  }
+  .btn-send:hover { background: #7c3aed; }
+
+  /* ── FOOTER ──────────────────────────────────────────── */
+  footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 20px 40px;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 10px;
+  }
+
+  .footer-copy { font-size: 12px; color: var(--text-mute); }
+
+  .footer-links { display: flex; gap: 24px; }
+  .footer-links a {
+    font-size: 12px; color: var(--text-dim);
+    text-decoration: none; transition: color 0.2s;
+  }
+  .footer-links a:hover { color: var(--text); }
+
+  /* ── SCROLL ANIMATIONS ───────────────────────────────── */
+  .fade-in {
+    opacity: 0; transform: translateY(18px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+  /* ── RESPONSIVE ──────────────────────────────────────── */
+  @media (max-width: 900px) {
+    nav { padding: 0 20px; }
+    .container { padding: 0 20px; }
+    .skill-cards { grid-template-columns: 1fr 1fr; }
+    .contact-grid { grid-template-columns: 1fr; gap: 32px; }
+    footer { padding: 16px 20px; }
+  }
+  @media (max-width: 600px) {
+    .nav-links { gap: 16px; }
+    .skill-cards { grid-template-columns: 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+    .hero-btns { flex-direction: column; }
+    .timeline { padding-left: 24px; }
+    .exp-header { flex-direction: column; gap: 6px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── NAV ─────────────────────────────────────────────── -->
+<nav>
+  <a href="#home" class="nav-logo">Noct<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ────────────────────────────────────────────── -->
+<section id="home">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <div class="hero-content">
+    <span class="hero-tag">Welcome to my Portfolio</span>
+    <h1 class="hero-title">Hi, I'm <span class="name">Noct</span></h1>
+    <p class="hero-sub">Experienced Project Manager designing beautiful experiences with effortless design.</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">Get in Touch</a>
+      <a href="#experience" class="btn-outline">View My Work</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ───────────────────────────────────────────── -->
+<section id="about">
+  <div class="container">
+    <span class="section-tag fade-in">About Me</span>
+    <h2 class="section-title fade-in">What i do.</h2>
+    <p class="about-body fade-in">
+      I'm a Project Manager and Game Designer with veteran experience and 7 years on Roblox. I've contributed over 4 million visits and am currently collaborating with two LiveOps &amp; Growth studios, totaling 25 million visits. I specialize in Project, Community, and Game Management, LiveOps, Analytics, Marketing, Networking, and managing social media, Discord servers, and comprehensive testing with in-depth feedback.
+    </p>
+
+    <div class="skill-cards">
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M9 14l2 2 4-4"/></svg>
+        </div>
+        <h3>Project Management</h3>
+        <p>Coordinating teams and driving projects from concept to completion across multiple studios.</p>
+      </div>
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><line x1="6" y1="12" x2="10" y2="12"/><line x1="8" y1="10" x2="8" y2="14"/><circle cx="17" cy="10" r="1"/><circle cx="15" cy="13" r="1"/></svg>
+        </div>
+        <h3>Game Design</h3>
+        <p>Crafting engaging game experiences on Roblox with 7 years of hands-on design expertise.</p>
+      </div>
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Community Management</h3>
+        <p>Building and managing Discord servers, social media, and fostering active player communities.</p>
+      </div>
+      <div class="skill-card fade-in">
+        <div class="skill-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <h3>LiveOps &amp; Analytics</h3>
+        <p>Running live operations, tracking analytics, and executing marketing strategies for growth.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ──────────────────────────────────────── -->
+<section id="experience">
+  <div class="container">
+    <span class="section-tag fade-in">Experience</span>
+    <h2 class="section-title fade-in">Where I've made an impact</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-role">Project Manager</div>
+            <div class="exp-date">2022 — Present</div>
+          </div>
+          <div class="exp-company">Orbit.</div>
+          <p class="exp-desc">Leading the frontend architecture for a SaaS platform serving 50k+ users. Driving performance improvements and design system adoption across teams.</p>
+          <div class="exp-tags">
+            <span class="tag-pill">React</span>
+            <span class="tag-pill">TypeScript</span>
+            <span class="tag-pill">Design Systems</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-role">Project Manager</div>
+            <div class="exp-date">2019 — 2022</div>
+          </div>
+          <div class="exp-company">GoSuccess</div>
+          <p class="exp-desc">Built and maintained client-facing web applications and internal tools. Led migration from legacy systems to modern stack, improving load times by 60%.</p>
+          <div class="exp-tags">
+            <span class="tag-pill">Node.js</span>
+            <span class="tag-pill">React</span>
+            <span class="tag-pill">PostgreSQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-role">Manager</div>
+            <div class="exp-date">2017 — 2019</div>
+          </div>
+          <div class="exp-company">Thalvyr Studs</div>
+          <p class="exp-desc">Developed features for an e-commerce platform from the ground up. Collaborated closely with designers and product managers in a fast-paced agile environment.</p>
+          <div class="exp-tags">
+            <span class="tag-pill">JavaScript</span>
+            <span class="tag-pill">Python</span>
+            <span class="tag-pill">AWS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-role">QA Tester</div>
+            <div class="exp-date">2015 — 2017</div>
+          </div>
+          <div class="exp-company">ETFB</div>
+          <p class="exp-desc">Designed and developed websites for small businesses and startups. Managed all aspects from client communication to deployment and maintenance.</p>
+          <div class="exp-tags">
+            <span class="tag-pill">HTML/CSS</span>
+            <span class="tag-pill">WordPress</span>
+            <span class="tag-pill">UI/UX</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ─────────────────────────────────────────── -->
+<section id="contact">
+  <div class="container">
+    <span class="section-tag fade-in">Contact</span>
+    <h2 class="section-title fade-in">Let's work together</h2>
+    <p class="fade-in" style="color:var(--text-dim); margin-bottom:36px; font-size:13px;">Have a project in mind or just want to say hello? I'd love to hear from you.</p>
+
+    <div class="contact-grid">
+      <div class="fade-in">
+        <div class="contact-info-block">
+          <div class="contact-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">mailnocturnal1@gmail.com</div>
+          </div>
+        </div>
+        <hr class="contact-divider">
+        <p class="contact-note">I typically respond within 24 hours. Looking forward to connecting with you.</p>
+      </div>
+
+      <div class="fade-in">
+        <div class="form-row">
+          <div class="field">
+            <label>Name</label>
+            <input type="text" placeholder="Your name">
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input type="email" placeholder="you@example.com">
+          </div>
+        </div>
+        <div class="field">
+          <label>Message</label>
+          <textarea placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button class="btn-send">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          Send Message
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────────── -->
+<footer>
+  <span class="footer-copy">© 2026 Noct. All rights reserved.</span>
+  <div class="footer-links">
+    <a href="#">GitHub</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Twitter</a>
+  </div>
+</footer>
+
+<script>
+  // Scroll fade-in
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 80);
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Active nav highlight
+  const sections = document.querySelectorAll('section[id]');
+  const links    = document.querySelectorAll('.nav-links a');
+
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 80) current = s.id;
+    });
+    links.forEach(a => {
+      a.style.color = a.getAttribute('href') === '#' + current
+        ? '#fff' : '';
+    });
+  });
+</script>
+</body>
+</html>
