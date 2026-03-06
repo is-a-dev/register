@@ -1,0 +1,11 @@
+{
+  "description": "Proxy API",
+  "repo": "https://github.com/router-for-me/CLIProxyAPIPlus",
+  "owner": {
+    "username": "jawkills",
+    "email": "halimcakep45@gmail.com"
+  },
+  "record": {
+    "A": ["43.156.109.107"]
+  }
+}
