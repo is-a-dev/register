@@ -4,6 +4,9 @@
     "email": "yourfiyan@proton.me"
   },
   "records": {
-    "CNAME": "yourfiyan.github.io"
+    "CNAME": "yourfiyan.github.io",
+    "TXT": [
+  "google-site-verification=Osw72MYr4ZOgV7xqjyvYzzBg4dLBiPM9GVdZ9DiS3Eo"
+    ]
   }
 }
