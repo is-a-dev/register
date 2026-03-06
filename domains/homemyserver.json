@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "mnemail12-pixel"
-  },
-  "records": {
-    "A": ["166.1.36.230"]
-  },
-  "description": "Domain for accessing my Proxmox server via VPS"
-}
