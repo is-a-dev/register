@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "mbpz",          // 你的 GitHub 用户名
+    "email": "apples398@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"     // 直接指向 Vercel
+  }
+}
