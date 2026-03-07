@@ -3,10 +3,7 @@
     "username": "piyushkumar0707",
     "email": "121piyush466mits@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "portfolio-new-sima.vercel.app"
-    }
-  ]
+  "records": {
+    "CNAME": "portfolio-new-sima.vercel.app"
+  }
 }
