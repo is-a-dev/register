@@ -1,11 +1,10 @@
 {
   "owner": {
     "username": "Jack1428u",
-    "email": "176263262+Jack1428u@users.noreply.github.com"
+    "email": "utrillajack.consulting@gmail.com"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "URL":"https://github.com/jack1428u/portfolio"
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
   },
   "proxied": true
 }
