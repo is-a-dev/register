@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "ariyanreja27",
+    "email": "ariyanreja27@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=is-a.dev,a19bb28aa4bfd14fccd0"
+    ]
+  }
+}
