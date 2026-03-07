@@ -1,8 +1,12 @@
 {
-    "owner": {
-        "username": "chocolatelabu-wq"
-    },
-    "record": {
-        "CNAME": "chocolatelabu-wq.github.io"
+  "name": "chococatmarchie",
+  "owner": {
+    "username": "chocolatelabu-wq"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "chocolatelabu-wq.github.io"
     }
+  ]
 }
