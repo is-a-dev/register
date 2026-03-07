@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "chocolatelabu-wq"
-  },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "chocolatelabu-wq.github.io"
+    "owner": {
+        "username": "chococatmarchie",
+        "email": "mdsakibul863@gmail.com"
+    },
+    "records": {
+        "CNAME": "chocolatelabu-wq.github.io"
     }
-  ]
 }
