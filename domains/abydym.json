@@ -1,9 +1,10 @@
 {
     "owner": {
-        "username": "abydym"
+        "username": "abydym",
+        "email": "1748185778@qq.com"
     },
     "records": {
-        "CNAME": "abydym.github.io"
-        "TXT": "MS=ms77169626"
+        "CNAME": "abydym.github.io",
+        "MX": ["32767 ms77169626.msv1.invalid"]
     }
 }
