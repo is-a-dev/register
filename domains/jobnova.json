@@ -1,0 +1,11 @@
+{
+  "description": "JobNova recruitment platform",
+  "repo": "https://github.com/sirmansour7/jobnova",
+  "owner": {
+    "username": "sirmansour7",
+    "email": "theotheo519@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
