@@ -9,10 +9,7 @@
             { "target": "mx1.improvmx.com", "priority": 10 },
             { "target": "mx2.improvmx.com", "priority": 20 }
         ],
-        "TXT": [
-            "v=spf1 include:spf.improvmx.com ~all"
-            "107c8eb452bd89a987ca0a840c397b"
-        ]
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
     },
     "proxied": true
 }
