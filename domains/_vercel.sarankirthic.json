@@ -3,6 +3,6 @@
         "username": "sarankirthic"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=sarankirthic.is-a.dev,94b45bbf911469ff442a"
     }
 }
