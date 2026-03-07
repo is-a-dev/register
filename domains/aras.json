@@ -1,9 +1,9 @@
 {
-    "description": "Aras'ın kişisel portföy sitesi",
+    "description": "Kısacası Aras",
     "repo": "https://github.com/arasonbesotuzbes/Aras-Website",
     "owner": {
         "username": "arasonbesotuzbes",
-        "email": "isaemiraras@gmail.com"
+        "email": "arasonbesotuzbes@gmail.com"
     },
     "record": {
         "CNAME": "arasonbesotuzbes.github.io"
