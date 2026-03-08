@@ -5,8 +5,10 @@
     "username": "Yuvaraj007A",
     "email": "yuvarajy275@gmail.com"
   },
-  "record": {
-    "type": "A",
-    "CNAME": "landing-page-kappa-tawny-64.vercel.app"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "landing-page-kappa-tawny-64.vercel.app"
+    }
+  ]
 }
