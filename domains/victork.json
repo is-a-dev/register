@@ -4,6 +4,9 @@
     "email": "dev.victork@gmail.com"
   },
   "records": {
-    "CNAME": "victorkossmann.vercel.app"
+    "CNAME": "victorkossmann.vercel.app",
+    "TXT": {
+      "_vercel": "vc-domain-verify=victork.is-a.dev,41556d096081533b6ae1"
+    }
   }
 }
