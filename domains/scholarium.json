@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "melnykk-dev"
+    "username": "melnykk-dev",
+    "email": "erthioxx@proton.me"
   },
   "record": {
     "CNAME": "scholarium-iota.vercel.app"
