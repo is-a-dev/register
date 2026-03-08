@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "yourGitHubUsername",
+    "email": "your@email.com"
+  },
+  "record": {
+    "CNAME": "mxdelite.netlify.app"
+  }
+}
