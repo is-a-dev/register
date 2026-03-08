@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "thecodalabs",
+        "email": "johnthecoda@gmail.com"
+    },
+    "records": {
+        "CNAME": "thecodalabs.github.io",
+        "TXT": ["github-pages-verification-code-c2d68f648336fad1d59d88ff0839e0"]
+    }
+}
