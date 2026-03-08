@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "chikabou"
+        "username": "chikabou",
+        "email": "discordnajed@gmail.com"
     },
-    "record": {
-        "TYPE": "chikabou.github.io"
+    "records": {
+        "CNAME": "chikabou.github.io"
     }
 }
