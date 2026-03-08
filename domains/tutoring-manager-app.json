@@ -1,9 +1,10 @@
-{
+{  
+  "repo": "https://github.com/RenMurakami/Tutoring-Manager",
   "owner": {
     "username": "RenMurakami",
     "email": "rmurakami@cedarville.edu"
   },
-  "record": {
+  "records": {
     "CNAME": "tutoring-manager-one.vercel.app"
   }
 }
