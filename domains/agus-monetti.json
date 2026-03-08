@@ -4,9 +4,6 @@
     "email": "agustinmoneti@gmail.com"
   },
   "records": {
-    "NS": [
-      "bailey.ns.cloudflare.com",
-      "uriah.ns.cloudflare.com"
-    ]
+    "CNAME": "portfolio-personal-3ew.pages.dev"
   }
 }
