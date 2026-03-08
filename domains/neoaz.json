@@ -4,6 +4,14 @@
         "email": "neoaz69x@gmail.com"
     },
     "records": {
-        "A": ["76.76.21.21"]
-    }
+        "A": ["216.198.79.1"]
+    },
+    "nested": [
+        {
+            "subdomain": "api",
+            "records": {
+                "A": ["216.198.79.1"]
+            }
+        }
+    ]
 }
