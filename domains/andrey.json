@@ -1,0 +1,9 @@
+{
+  "domain": "andrey.is-a.dev",
+  "owner": {
+    "email": "andreysooloopoov@gmail.com"
+  },
+  "record": {
+    "CNAME": "andreysooloopoov-design.github.io"
+  }
+}
