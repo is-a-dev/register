@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "NeoKEX",
-    "email": "neoaz69x@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"],
-    "TXT": ["vc-domain-verify=www.neoaz.is-a.dev,1b6c170a8d9bb1da9b0d"]
-  }
+    "owner": {
+        "username": "NeoKEX",
+        "email": "neoaz69x@gmail.com"
+    },
+    "records": {
+        "A": ["76.76.21.21"]
+    }
 }
