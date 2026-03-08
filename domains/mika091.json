@@ -1,0 +1,11 @@
+{
+  "description": "Personal DNS server",
+  "repo": "https://github.com/mika-091",
+  "owner": {
+    "username": "mika-091",
+    "email": "mefodiy091@mail.ru"
+  },
+  "record": {
+    "A": ["45.141.100.17"]
+  }
+}
