@@ -1,10 +1,12 @@
 {
-    "description": "zilong.is-a.dev : This is my personal",
-    "owner": {
-        "username": "al1103",
-        "email": "phamtuan72az@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-  }
+  "description": "zilong.is-a.dev : This is my personal website",
+  "owner": {
+    "username": "al1103",
+    "email": "phamtuan72az@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": ["vc-domain-verify=zilong.is-a.dev,df76d0b35120da2089cb"]
+  },
+  "proxied": true
 }
