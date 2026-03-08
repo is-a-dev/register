@@ -6,6 +6,7 @@
     "email": "yuvarajy275@gmail.com"
   },
   "record": {
+    "type": "A",
     "CNAME": "landing-page-kappa-tawny-64.vercel.app"
   }
 }
