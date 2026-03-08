@@ -3,10 +3,7 @@
     "username": "piyushkumar0707",
     "email": "121piyush466mits@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "cname.vercel-dns.com"
-    }
-  ]
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
