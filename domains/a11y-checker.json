@@ -1,0 +1,12 @@
+
+{
+    "owner": {
+        "username": "fantasyforgestudio",
+        "email": "info@fantasyforgestudio.online"
+    },
+    "description": "A Section 508 accessibility scanner and scoring tool based on internal agency standards.",
+    "repo": "https://github.com",
+    "records": {
+        "CNAME": "a11y-checker-bbd6b.firebaseapp.com"
+    }
+}
