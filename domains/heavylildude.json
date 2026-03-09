@@ -4,6 +4,7 @@
         "email": "heavylildude@gmail.com"
     },
     "records": {
-        "CNAME": "heavylildude.github.io"
+        "CNAME": "heavylildude.github.io",
+        "TXT": "zoho-verification=zb12242961.zmverify.zoho.com"
     }
 }
