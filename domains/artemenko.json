@@ -1,0 +1,10 @@
+{
+  "description": "Personal developer website for Daniil Artemenko",
+  "owner": {
+    "username": "d-artemenko",
+    "email": "danilartemenko@gmail.com"
+  },
+  "records": {
+    "CNAME": "d-artemenko.github.io"
+  }
+}
