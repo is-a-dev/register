@@ -1,0 +1,10 @@
+{
+    "description": "Wraient's personal website",
+    "owner": {
+        "username": "wraient",
+        "email": "rushikeshwastaken@gmail.com"
+    },
+    "records": {
+        "CNAME": "wraient.github.io"
+    }
+}

@@ -4,6 +4,6 @@
     "email": "avykera@gmail.com"
   },
   "records": {
-    "CNAME": "my-portfolio-x1nst1nctxs-projects.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }

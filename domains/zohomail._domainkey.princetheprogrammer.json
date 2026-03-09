@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "10xdev4u-alt",
+    "email": "10xdev4u@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCds7UnvnWfjgxuVsR8iq7MaWlASSlYpWmG9iCt0mfsaXOAV1RN7Oxg+W06K6n7BiUkdqrQ2xd5MuFM1jPjGRbK+YUv297/lxT96tHvsBvarKd5isNrpJL8F2wbjmyCDFcec+PtgzFhV0y5bo/MF1zHRtjlSTV6Fa3yiokv1B0WoQIDAQAB"
+  }
+}
