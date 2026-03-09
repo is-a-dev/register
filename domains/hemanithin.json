@@ -1,6 +1,8 @@
 {
+  "description": "Personal developer portfolio website.",
   "owner": {
-    "username": "hemanithin"
+    "username": "hemanithin",
+    "email": "hemanithin.work@gmail.com"
   },
   "records": {
     "A": ["216.198.79.1"]
