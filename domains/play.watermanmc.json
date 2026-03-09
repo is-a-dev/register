@@ -15,5 +15,6 @@
         "target": "watermansmp.falix.dev"
       }
     ]
-  }
+  },
+  "proxied": true
 }
