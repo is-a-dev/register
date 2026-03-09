@@ -3,6 +3,6 @@
     "username": "hemanithin"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=hemanithin.is-a.dev,df12119d02849138f53c"
   }
 }
