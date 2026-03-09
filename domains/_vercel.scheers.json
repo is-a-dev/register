@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "nicolas-scheers-lemon"    }
+        "username": "nicolas-scheers-lemon"
+    },
     "records": {
         "TXT": "vc-domain-verify=scheers.is-a.dev,08563cc5164f5b73ee6a"
     }
