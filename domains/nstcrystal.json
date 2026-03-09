@@ -1,10 +1,13 @@
 {
-  "description": "Personal website hosted on GitHub Pages",
+  "description": "Personal website hosted on Vercel",
   "owner": {
     "username": "nstcrystal",
     "email": "nstcrystal@gmail.com"
   },
   "records": {
-    "CNAME": "nstcrystal.github.io"
+    "CNAME": "e56023dae53fd0da.vercel-dns-017.com",
+    "TXT": [
+      "vc-domain-verify=www.nstcrystal.is-a.dev,fdfedf604b711ed07f3f"
+    ]
   }
 }
