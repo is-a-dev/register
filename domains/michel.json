@@ -4,7 +4,7 @@
     "email": "michel@paraisovacationrentals.com"
   },
   "records": {
-    "CNAME": "setupopenclaw.ai"
+    "A": ["178.156.192.101"]
   },
   "proxied": true
 }
