@@ -1,12 +1,10 @@
 {
-  "description": "KAPPY`s website, made by @JustDeveloper1",
-  "repo": "https://github.com/KAPPYSQUAD/kappysquad.github.io",
   "owner": {
     "username": "KAPPYSQUAD",
     "email": "justdeveloper@juststudio.is-a.dev",
     "discord": "1117482901353812088"
   },
-  "record": {
+  "records": {
     "CNAME": "kappysquad.github.io"
   }
 }

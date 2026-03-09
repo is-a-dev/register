@@ -1,10 +1,28 @@
 {
   "owner": {
     "username": "anime-oni",
-    "email": "hiba.aashir@gmail.com",
-    "discord": "1014232959143907429"
+    "email": "anime.oni.dev@gmail.com"
   },
-  "record": {
-    "CNAME": "anime-oni.github.io"
-  }
+  "records": {
+    "TXT": [
+      "zoho-verification=zb80519517.zmverify.zoho.eu",
+      "v=spf1 include:zohomail.eu include:zohomail.com ~all"
+    ],
+    "CNAME": "anime-oni.github.io",
+    "MX": [
+      {
+        "target": "mx.zoho.eu",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.eu",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.eu",
+        "priority": 50
+      }
+    ]
+  },
+  "proxied": true
 }

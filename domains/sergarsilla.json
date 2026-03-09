@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "sergarsilla",
-        "email": "sergarsilla@gmail.com"
-    },
-    "record": {
-        "CNAME": "sergarsilla.github.io"
-    }
+  "owner": {
+    "username": "sergarsilla",
+    "email": "sergarsilla@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "TXT": "google-site-verification=20VB6So5IRUeMjbYNRP9oL1s57nx1nPPby9zu0-gpJQ"
+  }
 }

@@ -3,7 +3,7 @@
     "username": "alvinsjoy",
     "discord": "825382504353234954"
   },
-  "record": {
+  "records": {
     "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTImPOYaxPGWFkA/Xb2u9/8xvjXBVrV3lMm5UWbtXEIwIOlmQhbtLMvQMgBYMJ5o5VKY2fGejoJKU1oiXAgoKfbmaXt/LI+YbegEZGV5j60VeBxZByKAzqqq+QS2Y2FCTm4ylSeNpEXIn5TUF7NxeOTOX663WDQcywVzlMAGjiGwIDAQAB"
   }
 }

@@ -1,11 +1,10 @@
 {
   "description": "For personal use",
-  "repo": "https://github.com/ajaykrshna/ajaykrshna.github.io",
   "owner": {
     "username": "ajaykrshna",
     "email": "ajaykfan@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ajaykrshna.github.io"
   }
 }

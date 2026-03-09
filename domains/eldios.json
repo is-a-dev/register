@@ -1,11 +1,9 @@
 {
-  "description": "Personal website for Lele - eldios",
-  "repo": "https://github.com/eldios/eldios.github.io",
   "owner": {
     "username": "eldios",
     "twitter": "eldios"
   },
-  "record": {
+  "records": {
     "CNAME": "eldios.github.io"
   }
 }

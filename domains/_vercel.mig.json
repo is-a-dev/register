@@ -1,13 +1,13 @@
 {
-  "description": "This subdomain points to my portfolio website. https://nextjs-portfolio-ten-navy.vercel.app/ is the link for a preview of the website",
   "owner": {
     "username": "miguelaram2016",
     "email": "miguelcodes7@gmail.com",
     "twitter": "miguelcodes7",
     "discord": "747499334383304755",
-    "instagram": "miguelcodes7"
+    "instagram": "miguelcodes7",
+    "note": "Previously, mig.is-a.dev was hosted on Netlify, but now it will be hosted on vercel. _vercel.mig.json has been created already. I have also updated my social media (email and instagram)."
   },
-  "record": {
-    "TXT": ["vc-domain-verify=mig.is-a.dev,c9171d74a3897a0defc6"]
+  "records": {
+    "TXT": "vc-domain-verify=mig.is-a.dev,c9171d74a3897a0defc6"
   }
 }

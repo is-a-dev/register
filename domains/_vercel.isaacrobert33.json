@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "isaacrobert33",
-        "email": "isaacrobertoluwaseun@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=isaacrobert33.is-a.dev,1688a3dfda585e08298e"
-    }
+  "owner": {
+    "username": "isaacrobert33",
+    "email": "isaacrobertoluwaseun@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=isaacrobert33.is-a.dev,1688a3dfda585e08298e"
+  }
 }

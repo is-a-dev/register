@@ -1,0 +1,24 @@
+name: DNSControl
+
+on:
+    push:
+        branches: [main]
+        paths:
+            - ".github/workflows/dnscontrol.yml"
+            - "dnsconfig.js"
+
+    workflow_dispatch:
+
+concurrency:
+    group: ${{ github.ref }}-dnscontrol
+
+jobs:
+    tests:
+        name: Tests
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: is-a-dev/dnscontrol-action@main
+              with:
+                  args: check

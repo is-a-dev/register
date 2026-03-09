@@ -1,11 +1,10 @@
 {
-  "description": "Naman - Portfolio",
-  "repo": "https://github.com/Naman-Gururani/Naman-Gururani.github.io",
   "owner": {
-    "username": "Naman-Gururani",
-    "email": "gururaninaman@gmail.com"
+    "username": "namandhakad712",
+    "email": "namandhakad712@gmail.com"
   },
-  "record": {
-    "CNAME": "naman-gururani.github.io"
-  }
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": true
 }

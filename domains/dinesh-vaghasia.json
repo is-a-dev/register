@@ -1,10 +1,8 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/dinesh-vaghasia/dinesh-vaghasia.github.io",
   "owner": {
     "username": "dinesh-vaghasia"
   },
-  "record": {
+  "records": {
     "CNAME": "dinesh-vaghasia.github.io"
   }
 }

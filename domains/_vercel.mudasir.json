@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mirzamudassir",
-        "discord": "0xmudassir"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=mudasir.is-a.dev,2d0551deb0d92e5838a7"
-    }
+  "owner": {
+    "username": "mirzamudassir",
+    "discord": "0xmudassir"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mudasir.is-a.dev,2d0551deb0d92e5838a7"
+  }
 }

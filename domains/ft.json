@@ -1,11 +1,9 @@
 {
-  "description": "For the email address h@ft.is-a.dev",
-  "repo": "https://github.com/HaftIsntHere/is-a.dev/",
   "owner": {
     "username": "HaftIsntHere",
     "email": "haftthedev@gmail.com"
   },
-  "record": {
+  "records": {
     "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"],
     "TXT": ["apple-domain=MpJJp8aekdLZ5ynT", "v=spf1 include:icloud.com ~all"]
   }

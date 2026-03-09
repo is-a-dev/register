@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "dragsbruh",
+    "email": "dragsbruh@protonmail.com",
+    "discord": "781445370177126401",
+    "bluesky": "furina.is-a.dev"
+  },
+  "description": "my selfhosted homelab using cloudflare tunnels, which has my git server along with a bunch of other stuff and my selfhosted projects",
+
+  "records": {
+    "NS": ["armfazh.ns.cloudflare.com", "gwen.ns.cloudflare.com"]
+  }
+}

@@ -3,9 +3,9 @@
     "username": "VulpineFriend87",
     "discord": "911268706112397392"
   },
-  "record": {
+  "records": {
     "A": ["69.30.249.53"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

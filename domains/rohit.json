@@ -1,12 +1,10 @@
 {
-  "description": "Rohit Singh's Website",
-  "repo": "https://github.com/rohit-sama/portfolio_react",
   "owner": {
     "username": "roht-sama",
     "email": "rohit9804singh@gmail.com",
     "twitter": "rohitstwts"
   },
-  "record": {
+  "records": {
     "CNAME": "rohit-sama.github.io"
   }
 }

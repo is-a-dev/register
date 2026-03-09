@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "DebtlessFlea",
-    "email": "citizen.caption020@passfwd.com"
-  },
-  "record": {
-    "CNAME": "debtlessflea.github.io"
-  }
+    "owner": {
+        "username": "debtlessflea",
+        "email": "citizen.caption020@passfwd.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

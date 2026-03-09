@@ -1,10 +1,8 @@
 {
-  "description": "Lakhani Palak.",
-  "repo": "https://github.com/lakhani-palak/lakhani-palak.github.io",
   "owner": {
     "username": "lakhani-palak"
   },
-  "record": {
+  "records": {
     "CNAME": "lakhani-palak.github.io"
   }
 }

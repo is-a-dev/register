@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "luk4h",
-        "email": "luizmarcondes@lgvm.dev"
-    },
-    "record": {
-        "CNAME": "lgvm.dev"
-    }
+  "owner": {
+    "username": "luk4h",
+    "email": "luizmarcondes@lgvm.dev"
+  },
+  "records": {
+    "CNAME": "lgvm.dev"
+  }
 }

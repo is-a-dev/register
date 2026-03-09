@@ -1,10 +1,8 @@
 {
-  "description": "For Duzo's website",
-  "repo": "https://github.com/Duzos/duzos.github.io",
   "owner": {
     "username": "Duzos"
   },
-  "record": {
+  "records": {
     "CNAME": "duzos.github.io"
   }
 }

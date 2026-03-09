@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "abdullah-al-mridul",
-        "email": "rim89987@gmail.com"
-    },
-    "record": {
-        "CNAME": "abdullah-al-mridul-dev.vercel.app"
-    }
+  "owner": {
+    "username": "abdullah-al-mridul",
+    "email": "rim89987@gmail.com"
+  },
+  "records": {
+    "CNAME": "abdullah-al-mridul-dev.vercel.app"
+  }
 }

@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "noahprm",
-    "email": "contact.noahprm@gmail.com",
-    "discord": "949273553168121856"
-  },
-  "record": {
-    "A": ["217.145.72.79"]
-  }
+    "owner": {
+        "username": "closestfriend",
+        "email": "Hnshokrian@gmail.com"
+    },
+    "records": {
+        "CNAME": "polite-torte-87e0cb.netlify.app"
+    }
 }

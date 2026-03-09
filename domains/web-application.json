@@ -1,0 +1,11 @@
+{
+  "description": "my-application",
+  "repo": "https://github.com/mantoshkumar280/mantoshkumar280.github.io",
+  "owner": {
+    "username": "mantoshkumar280",
+    "email": "mantoshkumar32795@gmail.com"
+  },
+  "records": {
+    "CNAME": "mantoshkumar280.github.io"
+  }
+}

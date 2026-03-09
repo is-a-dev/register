@@ -1,11 +1,9 @@
 {
-  "description": "The personal website for Mohamed Hisham",
-  "repo": "https://github.com/MH0386/MH0386.github.io",
   "owner": {
     "username": "MH0386",
     "email": "mohamed.hisham.abdelzaher@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mh0386.github.io"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "description": "Self-hosted personal portfolio deployed via Docker on a VPS with NGINX reverse proxy, secured through Cloudflare",
+  "owner": {
+    "username": "KunalScriptz",
+    "email": "kunal1520018@gmail.com",
+    "discord": "glitchmasterx"
+  },
+  "records": {
+    "NS": ["dom.ns.cloudflare.com", "gwen.ns.cloudflare.com"]
+  }
+}

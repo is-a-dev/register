@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "NateNear",
-        "email": "matternate21@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=inputly.is-a.dev,650df8c4415b2035e3e3"
-    }
+  "owner": {
+    "username": "NateNear",
+    "email": "matternate21@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=inputly.is-a.dev,650df8c4415b2035e3e3"
+  }
 }

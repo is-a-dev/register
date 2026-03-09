@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio Website",
-  "repo": "https://github.com/Daamin909/website/",
   "owner": {
     "username": "Daamin909",
     "email": "ashai.daamin@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "daamin909.github.io"
   }
 }

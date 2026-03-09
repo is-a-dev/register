@@ -3,12 +3,15 @@
     "username": "joestr",
     "email": "joelstrasser1@gmail.com"
   },
-  "record": {
-    "NS": [
-      "ns1-03.azure-dns.com",
-      "ns2-03.azure-dns.net",
-      "ns3-03.azure-dns.org",
-      "ns4-03.azure-dns.info"
+  "records": {
+    "NS": ["ns1-03.azure-dns.com", "ns2-03.azure-dns.net", "ns3-03.azure-dns.org", "ns4-03.azure-dns.info"],
+    "DS": [
+      {
+        "key_tag": 20446,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "66D720AF25875B71BB1ECBF45D1E108D4CE4D51EF1553F7E50F60B2B49A279A6"
+      }
     ]
   }
 }

@@ -1,12 +1,10 @@
 {
-  "description": "Personal Portfolio",
-  "repo": "https://github.com/mixmaker/mixmaker.github.io",
   "owner": {
     "username": "mixmaker",
     "email": "shoumikskdev@gmail.com",
     "twitter": "almost_shoumik"
   },
-  "record": {
+  "records": {
     "CNAME": "mixmaker.github.io"
   }
 }

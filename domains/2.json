@@ -1,10 +1,9 @@
 {
-  "description": "LIGMATV's URL Manager (aka 2)",
   "owner": {
-    "username": "LIGMATV",
-    "email": "ligmatv.id@gmail.com"
+    "username": "TheUselessCreator",
+    "email": "bot40games2@gmail.com"
   },
-  "record": {
-    "CNAME": "ligmatv-links.vercel.app"
+  "records": {
+    "URL": "https://beeper.is-a.dev"
   }
 }

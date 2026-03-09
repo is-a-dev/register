@@ -1,12 +1,10 @@
 {
-  "description": "My Territory",
-  "repo": "https://github.com/mezeru/mezeru.github.io",
   "owner": {
     "username": "Mezeru",
     "email": "jermpro0@gmail.com",
     "twitter": "Mezeru"
   },
-  "record": {
+  "records": {
     "CNAME": "mezeru.github.io"
   }
 }

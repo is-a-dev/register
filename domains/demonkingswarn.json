@@ -1,11 +1,9 @@
 {
-  "description": "DemonKingSwarn's personal developer website",
-  "repo": "https://github.com/demonkingswarn/demonkingswarn.github.io",
   "owner": {
     "username": "DemonKingSwarn",
     "email": "demonkingswarn@protonmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "demonkingswarn.github.io"
   }
 }

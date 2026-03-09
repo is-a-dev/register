@@ -1,9 +1,9 @@
 {
-     "owner": {
-       "username": "Anonymous1223334444",
-       "email": "replit005@gmail.com"
-     },
-     "record": {
-       "CNAME": "portofoliowebdev.vercel.app"
-     }
-   }
+  "owner": {
+    "username": "Anonymous1223334444",
+    "email": "replit005@gmail.com"
+  },
+  "records": {
+    "CNAME": "portofoliowebdev.vercel.app"
+  }
+}

@@ -3,7 +3,10 @@
     "username": "hridimay",
     "email": "hridimay@gmail.com"
   },
-  "record": {
-    "CNAME": "hridimay.github.io"
+  "records": {
+    "NS": [
+      "dell.ns.cloudflare.com",
+      "steven.ns.cloudflare.com"
+    ]
   }
 }

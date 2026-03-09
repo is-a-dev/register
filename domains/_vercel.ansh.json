@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "anshaneja5",
-        "email": "anshanejaa@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=ansh.is-a.dev,074c2e585d197374e108"
-    }
+  "owner": {
+    "username": "anshaneja5",
+    "email": "anshanejaa@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ansh.is-a.dev,074c2e585d197374e108"
+  }
 }

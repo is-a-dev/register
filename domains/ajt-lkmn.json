@@ -1,11 +1,9 @@
 {
-  "description": "Documentation website for is-a.dev",
-  "repo": "https://github.com/ajanthaa-lakkshmanan/ajanthaa-lakkshmanan.github.io",
   "owner": {
     "username": "ajanthaa-lakkshmanan",
     "email": "ajanthal@srmist.edu.in"
   },
-  "record": {
+  "records": {
     "CNAME": "ajanthaa-lakkshmanan.github.io"
   }
 }

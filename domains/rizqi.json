@@ -1,11 +1,9 @@
 {
-    "description": "Portofolio Website.",
-    "repo": "https://github.com/RizqiSeijuuro/portfolio",
-    "owner": {
-        "username": "RizqiSeijuuro",
-        "email": "rizqiansyah52@gmail.com"
-    },
-    "record": {
-        "CNAME": "rizqiseijuuro.github.io"
-    }
+  "owner": {
+    "username": "RizqiSeijuuro",
+    "email": "rizqiansyah52@gmail.com"
+  },
+  "records": {
+    "CNAME": "rizqiseijuuro.github.io"
+  }
 }

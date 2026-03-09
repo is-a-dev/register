@@ -1,9 +1,17 @@
 {
-    "owner": {
-        "username": "SA-Army",
-        "email": "anveshraman.ae@gmail.com"
-    },
-    "record": {
-        "CNAME": "sa-army.github.io"
-    }
+  "owner": {
+    "username": "SA-Army",
+    "email": "anveshraman.ae@gmail.com"
+  },
+  "records": {
+    "CNAME": "developeranveshraman.github.io",
+    "MX": [
+      { "target": "mx.zoho.in", "priority": 10 },
+      { "target": "mx2.zoho.in", "priority": 20 },
+      { "target": "mx3.zoho.in", "priority": 50 }
+    ],
+    "TXT": "v=spf1 include:zoho.in ~all"
+  },
+  "proxied": true
+
 }

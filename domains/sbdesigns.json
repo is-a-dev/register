@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "sb-designs",
+    "email": "hello@sbdesigns.spike.team"
+  },
+  "records": {
+    "A": ["75.2.60.5"],
+    "MX": [
+      { "target": "mx.zoho.eu", "priority": 10 },
+      { "target": "mx2.zoho.eu", "priority": 20 },
+      { "target": "mx3.zoho.eu", "priority": 50 }
+    ],
+    "TXT": "v=spf1 include:zohomail.eu ~all"
+  },
+  "proxied": true
+}

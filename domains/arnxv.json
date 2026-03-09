@@ -1,9 +1,20 @@
 {
   "owner": {
-    "username": "ArnavBarway",
-    "email": "arnav@sagaraga.com"
+    "username": "arnxv-coder",
+    "email": "arnav@sagaraga.com",
+    "discord": "arnxv.dev"
   },
-  "record": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "MX": [
+      { "target": "mx.zoho.in", "priority": 10 },
+      { "target": "mx2.zoho.in", "priority": 20 },
+      { "target": "mx3.zoho.in", "priority": 50 }
+    ],
+    "TXT": [
+      "zoho-verification=zb79566575.zmverify.zoho.in",
+      "v=spf1 include:zohomail.in ~all"
+    ]
+  },
+  "proxied": true
 }

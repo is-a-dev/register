@@ -1,12 +1,10 @@
 {
-  "description": "For hosting my portfolio",
-  "repo": "https://github.com/crystalbajgai/portfolio",
   "owner": {
     "username": "crystalbajgai",
     "email": "crystalbajgai@gmail.com",
     "twitter": "crystaaaal"
   },
-  "record": {
+  "records": {
     "CNAME": "crystalbajgai.vercel.app"
   }
 }

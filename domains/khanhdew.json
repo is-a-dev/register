@@ -1,0 +1,18 @@
+{
+  "description": "Website for khanhdew.is-a.dev",
+  "owner": {
+    "username": "khanhdew",
+    "email": "khanhdev.work@gmail.com"
+  },
+  "records": {
+    "CNAME": "khanhdew.ddns.net",
+    "MX": [
+      {
+        "target": "khanhdew.ddns.net",
+        "priority": 10
+      }
+    ],
+    "TXT": "v=spf1 +mx +a ~all"
+  },
+  "proxied": true
+}

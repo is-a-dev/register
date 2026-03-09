@@ -1,11 +1,9 @@
 {
-  "description": "Url redirect to pgscom.es",
-  "repo": "https://github.com/pgscom/pgscom.github.io",
   "owner": {
     "username": "pgscom",
     "twitter": "PGSCOM_54"
   },
-  "record": {
+  "records": {
     "URL": "https://pgscom.es"
   }
 }

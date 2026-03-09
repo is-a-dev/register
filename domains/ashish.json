@@ -1,10 +1,9 @@
 {
-  "description": "Ashish's personal developer website",
   "owner": {
-    "username": "ashiishme",
-    "email": "contact@ashiish.me"
+    "username" : "ashishk15678",
+    "email" : "15678ashishk@gmail.com"
   },
-  "record": {
-    "CNAME": "ashiish.me"
+  "records" : {
+  "CNAME": "ashish.services"
   }
 }

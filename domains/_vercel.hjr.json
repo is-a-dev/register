@@ -1,10 +1,9 @@
 {
-  "description": "Vercel verification of hjr.is-a.dev",
   "owner": {
     "username": "hongjr03",
     "email": "me@jrhim.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=hjr.is-a.dev,fb939de5f77b0e1360cf"]
+  "records": {
+    "TXT": "vc-domain-verify=hjr.is-a.dev,fb939de5f77b0e1360cf"
   }
 }

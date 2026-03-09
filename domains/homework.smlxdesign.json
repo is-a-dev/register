@@ -1,0 +1,11 @@
+{
+  "description": "An app to keep track of upcoming tests and assignment deadlines",
+  "repo": "https://git.sr.ht/~smlxdesign/HomeworkApp",
+  "owner": {
+    "username": "smlxdesign",
+    "email": "samuel.smlxdesign@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
+}

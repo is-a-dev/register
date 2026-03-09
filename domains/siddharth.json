@@ -4,7 +4,19 @@
     "email": "siddharthjainj25@gmail.com",
     "discord": "804397662467915777"
   },
-  "record": {
-    "CNAME": "siddharthjain25.github.io"
-  }
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ]
+  },
+  "proxied": true
 }

@@ -1,11 +1,9 @@
 {
-  "description": "my firstime here and for my portfolio website",
-  "repo": "https://github.com/philcajurao/philcajurao.github.io",
   "owner": {
     "username": "philcajurao",
     "email": "philcajurao@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "philcajurao.github.io"
   }
 }

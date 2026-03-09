@@ -1,11 +1,10 @@
 {
-    "description": "Baturalp Sönmez Portfolio website",
-    "repo": "https://github.com/Baturalp52/Baturalp52.github.io",
-    "owner": {
-        "username": "Baturalp52",
-        "email": "baturalpsonmez2002@gmail.com"
-    },
-    "record": {
-        "CNAME": "baturalp52.github.io"
-    }
+  "description": "Baturalp Sönmez Portfolio website",
+  "owner": {
+    "username": "Baturalp52",
+    "email": "baturalpsonmez2002@gmail.com"
+  },
+  "records": {
+    "CNAME": "baturalp52.github.io"
+  }
 }

@@ -4,7 +4,7 @@
     "email": "karmakarmeghdip@gmail.com",
     "discord": "479631349167423509"
   },
-  "record": {
-    "CNAME": "karmakarmeghdip.github.io"
+  "records": {
+    "CNAME": "meghdip.vercel.app"
   }
 }

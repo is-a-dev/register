@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "aakashrawat04",
-        "email": "2004rawataakash@gmail.com",
-        "discord": "759817307957493800"
-    },
-    "record": {
-        "CNAME": "aakashrawat.vercel.app"
-    }
+  "owner": {
+    "username": "aakashrawat04",
+    "email": "2004rawataakash@gmail.com",
+    "discord": "759817307957493800"
+  },
+  "records": {
+    "CNAME": "aakashrawat.vercel.app"
+  }
 }

@@ -1,11 +1,9 @@
 {
-    "description": "For personal/portfolio use only.",
-    "repo": "https://github.com/jecoh12/jecoh-is-a.dev",
-    "owner": {
-        "username": "jecoh12",
-        "email": "jecoh12@gmail.com"
-    },
-    "record": {
-        "CNAME": "jecoh12.github.io"
-    }
+  "owner": {
+    "username": "jecoh12",
+    "email": "jecoh12@gmail.com"
+  },
+  "records": {
+    "CNAME": "jecoh12.github.io"
+  }
 }

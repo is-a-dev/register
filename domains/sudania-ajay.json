@@ -1,11 +1,9 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/sudania-ajay/sudania-ajay.github.io",
   "owner": {
     "username": "sanjay-makasana",
     "email": "ajay.sudani@truestaz.com"
   },
-  "record": {
+  "records": {
     "URL": "https://sudania-ajay.github.io"
   }
 }

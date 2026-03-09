@@ -1,10 +1,8 @@
 {
-  "description": "Naman Profile.",
-  "repo": "https://github.com/naman-machchhar/naman-machchhar.github.io",
   "owner": {
     "username": "naman-machchhar"
   },
-  "record": {
+  "records": {
     "CNAME": "naman-machchhar.github.io"
   }
 }

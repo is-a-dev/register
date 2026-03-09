@@ -1,11 +1,9 @@
 {
-  "description": "billvog's Portfolio Website",
-  "repo": "https://github.com/billvog/billvog.github.io",
   "owner": {
     "username": "billvog",
     "email": "hey@billvog.com"
   },
-  "record": {
+  "records": {
     "URL": "https://billvog.com"
   }
 }

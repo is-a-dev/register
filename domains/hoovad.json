@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "hoovad",
+    "email": "hoovad@proton.me"
+  },
+  "records": {
+    "CNAME": "hoovad.github.io",
+    "TXT": "aspe:keyoxide.org:BHVNC6RJHE2RPV4P6OA6OHJMKM"
+  },
+  "proxied": true
+}

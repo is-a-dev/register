@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "ArhanAnsari",
-        "email": "arhanansari2009@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=synthara.is-a.dev,5cfe1b6f6a8530d47a55"
-    }
+  "owner": {
+    "username": "ArhanAnsari",
+    "email": "arhanansari2009@gmail.com",
+    "x": "https://x.com/codewitharhan",
+    "discord": "@codewitharhan"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=synthara.is-a.dev,5cfe1b6f6a8530d47a55"
+  }
 }

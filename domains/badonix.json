@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio Website",
-  "repo": "https://github.com/Badonix/portfolio_react",
   "owner": {
     "username": "badonix",
     "email": "nikdanelia@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "badonix.netlify.app"
   }
 }

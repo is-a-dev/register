@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "SoulDevs",
-        "email": "soulcosmic1406@proton.me",
-        "discord": "soulcosmic1406_"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=soul.is-a.dev,6f957e2edcd5bb791896"
-    }
+  "owner": {
+    "username": "SoulDevs",
+    "email": "soulcosmic1406@proton.me"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=soul.is-a.dev,6f957e2edcd5bb791896"
+  }
 }

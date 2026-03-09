@@ -1,11 +1,9 @@
 {
-  "description": "Janith .is-a.dev domain",
-  "repo": "https://github.com/janithpm/janithpm.github.io",
-  "owner": {
-    "username": "Janithpm",
-    "email": "janithmadarasinghe@gmail.com"
-  },
-  "record": {
-    "CNAME": "janithpm.github.io"
-  }
+    "owner": {
+        "username": "Janithpm",
+        "email": "janithpm0@gmail.com"
+    },
+    "records": {
+        "CNAME": "janithpm.github.io"
+    }
 }

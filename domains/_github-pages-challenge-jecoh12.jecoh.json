@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "jecoh12",
-        "email": "jecoh12@gmail.com"
-    },
-    "record": {
-        "TXT": "06b17cb3b27f897547ef636ec8189d"
-    }
+  "owner": {
+    "username": "jecoh12",
+    "email": "jecoh12@gmail.com"
+  },
+  "records": {
+    "TXT": "06b17cb3b27f897547ef636ec8189d"
+  }
 }

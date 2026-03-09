@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tranduytoan",
-        "email": "toandeptraibodoiqua.10a4@gmail.com"
-    },
-    "record": {
-        "CNAME": "tranduytoan.github.io"
-    }
+  "owner": {
+    "username": "tranduytoan",
+    "email": "toandeptraibodoiqua.10a4@gmail.com"
+  },
+  "records": {
+    "CNAME": "tranduytoan.github.io"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "lovian",
-        "email": "stikamera26@gmail.com"
-    },
-    "record": {
-        "CNAME": "cfpages-4pw.pages.dev"
-    }
+  "owner": {
+    "username": "lovian",
+    "email": "stikamera26@gmail.com"
+  },
+  "records": {
+    "CNAME": "cfpages-4pw.pages.dev"
+  }
 }

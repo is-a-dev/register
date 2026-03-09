@@ -3,7 +3,8 @@
     "username": "SukiPlayz",
     "email": "sukimayoo@outlook.com"
   },
-  "record": {
-    "CNAME": "portfolio-b8o.pages.dev"
+  "records": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

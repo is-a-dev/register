@@ -1,11 +1,9 @@
 {
-  "description": "supers0n1k's website. private email not disclosed. discord contact given",
-  "repo": "https://github.com/supers0n1k/supers0n1k.github.io",
   "owner": {
     "username": "supers0n1k",
     "discord": "46mil"
   },
-  "record": {
+  "records": {
     "CNAME": "supers0n1k.github.io"
   }
 }

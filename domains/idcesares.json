@@ -1,11 +1,10 @@
 {
-    "description": "Isaac D'Césares personal website",
-    "repo": "https://github.com/idcesares",
-    "owner": {
-      "username": "idcesares",
-      "email": "isaac.dcesares@gmail.com"
-    },
-    "record": {
-      "URL": "https://dcesares.dev"
-    }
+  "description": "Isaac D'Césares personal website",
+  "owner": {
+    "username": "idcesares",
+    "email": "isaac.dcesares@gmail.com"
+  },
+  "records": {
+    "URL": "https://dcesares.dev"
+  }
 }

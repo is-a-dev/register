@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "regiolis",
+    "email": "hello@regiolis.me"
+  },
+  "records": {
+    "CNAME": "regiolis.me"
+  },
+  "proxied": false
+}

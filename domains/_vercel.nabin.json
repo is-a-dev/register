@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nabinkatwal7",
-        "email": "mediocampistaa@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=nabin.is-a.dev,bfd13935a3cb2aaea0e5"
-    }
+  "owner": {
+    "username": "nabinkatwal7",
+    "email": "mediocampistaa@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=nabin.is-a.dev,bfd13935a3cb2aaea0e5"
+  }
 }

@@ -1,0 +1,20 @@
+{
+    "owner": {
+        "username": "shayneeo",
+        "email": "phamquocthanh357@gmail.com"
+    },
+    "records": {
+        "NS": [
+            "magali.ns.cloudflare.com",
+            "hal.ns.cloudflare.com"
+        ],
+        "DS": [
+            {
+                "key_tag": 2371,
+                "algorithm": 13,
+                "digest_type": 2,
+                "digest": "A7EFE346DD87966C9A84B0FBB28C0739027AC008B4205CB538FA17B23955B495"
+            }
+        ]
+    }
+}

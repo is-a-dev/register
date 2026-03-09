@@ -3,7 +3,7 @@
     "username": "whoismidlaj",
     "email": "midlaj@tuta.io"
   },
-  "record": {
-    "A": ["107.173.201.166"]
+  "records": {
+    "CNAME": "midlaj-nuxtfolio.pages.dev"
   }
 }

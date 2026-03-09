@@ -1,12 +1,9 @@
 {
-  "description": "Zaid's Personal Website",
-  "repo": "https://github.com/zaidmukaddam/zaidmukaddam.github.io",
-  "owner": {
-    "username": "zaidmukaddam",
-    "email": "zaidlunatic1@gmail.com",
-    "twitter": "Zaid08079154"
-  },
-  "record": {
-    "CNAME": "zaidmukaddam.github.io"
-  }
+    "owner": {
+        "username": "z44d",
+        "email": "vsszaid@gmail.com"
+    },
+    "records": {
+        "CNAME": "7n2.github.io"
+    }
 }

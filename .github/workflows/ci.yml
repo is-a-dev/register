@@ -9,14 +9,12 @@ on:
             - "domains/*"
             - "tests/*"
             - "util/*"
-            - ".github/workflows/validation.yml"
-            - "dnsconfig.js"
+            - ".github/workflows/ci.yml"
 
     workflow_dispatch:
 
 concurrency:
-    group: ${{ github.ref }}-validation
-    cancel-in-progress: true
+    group: ${{ github.ref }}-ci
 
 jobs:
     tests:
@@ -27,4 +25,28 @@ jobs:
 
             - run: npm install
 
-            - run: npx ava tests/*.test.js
+            - name: Fetch PR information
+              if: github.event_name == 'pull_request'
+              run: |
+                  echo "PR_AUTHOR=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
+                  echo "PR_AUTHOR_ID=${{ github.event.pull_request.user.id }}" >> $GITHUB_ENV
+
+                  LABELS=$(gh api --jq '[.labels[].name]' /repos/{owner}/{repo}/pulls/${{ github.event.number }})
+                  echo "PR_LABELS=$LABELS" >> $GITHUB_ENV
+
+                  FILES=$(gh api --jq '[.[] | select(.status != "removed") | .filename]' /repos/{owner}/{repo}/pulls/${{ github.event.number }}/files)
+                  echo "CHANGED_FILES=$FILES" >> $GITHUB_ENV
+
+                  REMOVED_FILE_DATA=$(gh api --jq '[.[] | select(.status == "removed") | {name: .filename, data: .patch}]' /repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files)
+                  echo "DELETED_FILES=$REMOVED_FILE_DATA" >> $GITHUB_ENV
+              env:
+                  GH_TOKEN: ${{ github.token }}
+
+            - name: Run DNSControl tests
+              if: github.event_name == 'pull_request' && contains(fromJson(env.CHANGED_FILES), 'dnsconfig.js')
+              uses: is-a-dev/dnscontrol-action@main
+              with:
+                  args: check
+
+            - name: Run tests
+              run: npx ava tests/*.test.js --timeout=1m
