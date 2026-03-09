@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "nicolas-scheers-lemon"
+        "username": "nicolas-scheers-lemon",
+        "email": "nscheers@proton.me"
     },
     "records": {
         "CNAME": "216.198.79.1"
