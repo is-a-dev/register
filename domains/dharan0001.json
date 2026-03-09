@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "dharan-portfolio-five.vercel.app"
+  },
+  "txt": {
+    "_vercel": "vc-domain-verify=dharan0001.is-a.dev,0dc8e7c88317e5f2c7f"
   }
 }
