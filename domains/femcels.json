@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "femcelsis2000A",
-    "email": "femcels.is@atomicmail.io"
-  },
-  "record": {
-    "CNAME": "statistics-void-protest-quarterly.trycloudflare.com"
-  }
+    "owner": {
+          "username": "femcelsis2000A",
+          "email": "femcels.is@atomicmail.io"
+    },
+    "records": {
+          "CNAME": "555225a8-6361-4fde-9cfd-fd78c163985a.cfargotunnel.com"
+    }
 }
