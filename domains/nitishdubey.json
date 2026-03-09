@@ -4,7 +4,6 @@
         "email": "nitishdubey1194@gmail.com"
     },
     "records": {
-        "RECORDTYPE": "216.198.79.1"
+        "A": ["216.198.79.1"]
     }
 }
- 
