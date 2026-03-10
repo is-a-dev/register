@@ -6,7 +6,10 @@
         "username": "deepakpanigrahy03",
         "email": "deepak.panigrahy03@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "deepakpanigrahy03.github.io"
+    },
+    "links": {
+        "website": "https://huggingface.co/spaces/a-lems/Energy"
     }
 }
