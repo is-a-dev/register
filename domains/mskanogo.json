@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "mskanogo",
-    "email": "m.kanogo@alustudent.com"
+    "email": "your@email.com"
   },
   "record": {
-    "CNAME": "mskanogo.netlify.app"
+    "A": ["196.12.151.106"]
   }
 }
