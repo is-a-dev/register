@@ -4,6 +4,6 @@
     "email": "kkj63609@gmail.com"
   },
   "records": {
-    "CNAME": "https://kevalkankrecha.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
