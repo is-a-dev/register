@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Souvik-Babai-Roy"
+    "username": "Souvik-Babai-Roy",
+    "email": "souvikroy733@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "souvik-roy-portfolio.vercel.app"
   }
 }
