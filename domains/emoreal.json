@@ -1,0 +1,9 @@
+{
+  "domain": "emoreal",
+  "owner": {
+    "repo": "https://github.com/EmoReal/em0real"
+  },
+  "record": {
+    "CNAME": ["cname.vercel-dns.com"]
+  }
+}
