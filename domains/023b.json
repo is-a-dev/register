@@ -4,6 +4,6 @@
     "email": "arunsabapathi@outlook.com"
   },
   "records": {
-    "CNAME": "placeholder.cfargotunnel.com"
+    "A": "192.0.2.1"
   }
 }
