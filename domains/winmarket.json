@@ -1,11 +1,10 @@
 {
   "description": "WIN MARKET digital services",
-  "repo": "https://github.com/carvima/winmarket",
+  "repo": "https://github.com/Carvima/winmarket",
   "owner": {
-    "username": "carvima",
-    "email": "carlosvima7@gmail.com"
+    "username": "Carvima"
   },
   "record": {
-    "CNAME": "guide-societies-equity-mptry.trycloudflare.com"
+    "CNAME": "carvima.github.io"
   }
 }
