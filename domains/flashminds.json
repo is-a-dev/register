@@ -3,8 +3,8 @@
     "username": "linkytel",
     "email": "409522320@qq.com"
   },
+  "description": "Personal website hosted on Vercel",
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": ["vc-domain-verify=flashminds.is-a.dev,95c16aa8c04aa5f0487f"]
+    "A": ["216.198.79.1"]
   }
 }
