@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "motohiroishige",
+    "email": "motohiro_ishige@jp.ricoh.com"
+  },
+  "record": {
+    "MX": [
+      "0 your-custom.mail.protection.outlook.com"
+    ],
+    "TXT": [
+      "MS=msXXXXXXXX"
+    ]
+  }
+}
