@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "linkytel",
+    "email": "409522320@qq.com"
+  },
+  "description": "Vercel verification for wangle",
+  "records": {
+    "TXT": ["vc-domain-verify=wangle.is-a.dev,f9a287859b0c125a7a14"]
+  }
+}
