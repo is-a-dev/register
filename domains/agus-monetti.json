@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "agmonetti", 
+    "username": "agmonetti",
     "email": "agustinmoneti@gmail.com"
   },
   "records": {
-    "A": ["35.199.152.57"]
+    "CNAME": "portfolio-personal-3ew.pages.dev"
   }
 }
