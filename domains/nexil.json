@@ -8,8 +8,9 @@
     "URL": "https://github.com/NexilFromNullFrame"
   },
   "redirect_config": {
-  "custom_paths": {
-    "/github": "https://github.com/NexilFromNullFrame"
-  },
-  "redirect_paths": true
+    "custom_paths": {
+      "/github": "https://github.com/NexilFromNullFrame"
+    },
+    "redirect_paths": true
+  }
 }
