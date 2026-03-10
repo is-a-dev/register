@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "linkytel",
+    "email": "409522320@qq.com"
+  },
+  "description": "Vercel verification record for flashminds",
+  "records": {
+    "TXT": ["vc-domain-verify=flashminds.is-a.dev,95c16aa8c04aa5f0487f"]
+  }
+}
