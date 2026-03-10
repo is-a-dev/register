@@ -5,11 +5,5 @@
   },
   "records": {
     "CNAME": "nexilfromnullframe.github.io"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/NexilFromNullFrame"
-    },
-    "redirect_paths": true
   }
 }
