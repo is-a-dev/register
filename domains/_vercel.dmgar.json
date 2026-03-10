@@ -4,6 +4,6 @@
         "email": "i@dmgar.ru"
     },
     "records": {
-        "TXT": "vc-domain-verify=dmgar.is-a.dev.448cee94146e80f8cd81"
+        "TXT": "vc-domain-verify=dmgar.is-a.dev,448cee94146e80f8cd81"
     }
 }
