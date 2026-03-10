@@ -4,8 +4,7 @@
     "email": "nullframelabs@outlook.com"
   },
   "records": {
-    "CNAME": "nexilfromnullframe.github.io",
-    "URL": "https://github.com/NexilFromNullFrame"
+    "CNAME": "nexilfromnullframe.github.io"
   },
   "redirect_config": {
     "custom_paths": {
