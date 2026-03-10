@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "linkytel",
+    "email": "409522320@qq.com"
+  },
+  "description": "My personal website hosted on Vercel",
+  "record": {
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=shdzlecgrowth.is-a.dev,490b21fee7a64e3d4b45"]
+  }
+}
