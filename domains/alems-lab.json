@@ -1,0 +1,12 @@
+{
+    "description": "A-LEMS: Agentic LLM Energy Measurement System - PhD Research Dashboard",
+    "domain": "is-a.dev",
+    "subdomain": "alems-lab",
+    "owner": {
+        "username": "deepakpanigrahy03",
+        "email": "deepak.panigrahy03@gmail.com"
+    },
+    "record": {
+        "CNAME": "deepakpanigrahy03.github.io"
+    }
+}
