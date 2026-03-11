@@ -4,6 +4,6 @@
         "email": "1591343112@qq.com"
     },
     "records": {
-        "CNAME": ["kobox.vercel.app"]
+        "CNAME": "kobox.vercel.app"
     }
 }
