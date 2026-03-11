@@ -4,12 +4,6 @@
     "email": "nimitjalan2013@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": ["vc-domain-verify=nimit.is-a.dev,e2273cf5dd1a4128a7a7"],
-    "subdomain": {
-      "_vercel": {
-        "TXT": ["vc-domain-verify=nimit.is-a.dev,e2273cf5dd1a4128a7a7"]
-      }
-    }
+    "A": ["216.198.79.1"]
   }
 }
