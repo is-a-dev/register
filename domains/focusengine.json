@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "zebningroyal",
-        "email": "zebningroyalgamer@gamil.com"
+        "email": "your-email@example.com"
     },
     "record": {
         "CNAME": "zebningroyal.github.io"
-    }
+    },
+    "description": "A personal productivity web-app for task management."
 }
