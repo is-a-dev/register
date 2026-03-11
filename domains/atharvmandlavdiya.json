@@ -4,6 +4,6 @@
     "email": "atharvam682@gmail.com"
   },
   "records": {
-    "CNAME": "atharvmandlavdiya.netlify.app"
+    "A": ["216.198.79.1"]
   }
 }
