@@ -3,6 +3,6 @@
         "username": "ficilabs"
     },
     "records": {
-        "CNAME": "https://nuxt-portfolio-mocha-omega.vercel.app/"
+        "CNAME": "nuxt-portfolio-mocha-omega.vercel.app"
     }
 }
