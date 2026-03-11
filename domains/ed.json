@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "eddie1704",
+    "email": "ez.white@outlook.com"
+  },
+  "records": {
+    "TXT": "google-site-verification=ZrnysqPkhlvYCDmL5OaFb0OPX491KjW5H3vvNBIi5xs"
+    "MX": [
+      { "ed": "mx1.forwardemail.net", "priority": 10 },
+      { "ed": "mx2.forwardemail.net", "priority": 10 }
+    ]
+    "TXT": "forward-email-site-verification=no1BQb65hL"
+  },
+  "proxied": true
+}
