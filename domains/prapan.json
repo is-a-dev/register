@@ -1,0 +1,24 @@
+{
+  "owner": {
+    "username": "prapanbiswas",
+    "email": "prapanbiswas@gmail.com"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      "10 mx.zoho.com",
+      "20 mx2.zoho.com",
+      "50 mx3.zoho.com"
+    ],
+    "TXT": [
+      "zoho-verification=zb92215962.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
+    ]
+  }
+}
+
