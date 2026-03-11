@@ -1,0 +1,11 @@
+{
+  "description": "Personal developer portfolio",
+  "repo": "https://github.com/boeing/boeing.github.io",
+  "owner": {
+    "username": "boeing",
+    "email": "your@email.com"
+  },
+  "records": {
+    "CNAME": "boeing.github.io"
+  }
+}
