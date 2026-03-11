@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "albedon",
+    "email": "nimitjalan2013@gmail.com"
+  },
+  "records": {
+    "MX": [
+      { "priority": 10, "value": "mx1.improvmx.com" },
+      { "priority": 20, "value": "mx2.improvmx.com" }
+    ]
+  }
+}
