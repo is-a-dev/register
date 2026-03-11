@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "linhtb",
+    "username": "linhtb-hblab",
     "email": "linhtb@hblab.vn"
   },
   "records": {
-    "A": "216.198.79.1"
-  },
-  "proxied": true
+    "A": ["216.198.79.1"]
+  }
 }
