@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "rendelarr",
-    "email": "renatadclarranaga@gmail.com"
-  },
-  "record": {
-    "CNAME": "6f1086135e0545c7.vercel-dns-017.com"
-  }
+    "owner": {
+        "username": "rendelarr",
+        "email": "renatadclarranaga@gmail.com"
+    },
+    "records": {
+        "CNAME": "6f1086135e0545c7.vercel-dns-017.com"
+    }
 }
