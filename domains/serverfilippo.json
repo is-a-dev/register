@@ -1,0 +1,12 @@
+{
+  "description": "Il mio server personale",
+  "domain": "is-a.dev",
+  "subdomain": "serverfilippo",
+  "owner": {
+    "username": "Filippo25",
+    "email": "filippocingolani0@gmail.com"
+  },
+  "record": {
+    "CNAME": "Filippo25.github.io"
+  }
+}
