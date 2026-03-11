@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "WatermanMC",
+    "email": "lozadanoah24@gmail.com"
+  },
+  "records": {
+    "CNAME": "watermansmp.falix.dev",
+    "SRV": [
+      {
+        "service": "_minecraft",
+        "protocol": "_tcp",
+        "priority": 10,
+        "weight": 5,
+        "port": 27175,
+        "target": "watermansmp.falix.dev"
+      }
+    ]
+  },
+  "proxied": true
+}
