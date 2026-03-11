@@ -3,18 +3,25 @@
     "username": "kokomi04",
     "email": "phamduy444@gmail.com"
   },
-  "record": {
-    "A": ["42.96.18.199"]
-  },
-  "subdomain": {
-    "api": {
-      "A": ["42.96.18.199"]
+  "records": [
+    {
+      "type": "A",
+      "value": "42.96.18.199"
     },
-    "grafana": {
-      "A": ["42.96.18.199"]
+    {
+      "type": "A",
+      "name": "api",
+      "value": "42.96.18.199"
     },
-    "tool": {
-      "A": ["42.96.18.199"]
+    {
+      "type": "A",
+      "name": "grafana",
+      "value": "42.96.18.199"
+    },
+    {
+      "type": "A",
+      "name": "tool",
+      "value": "42.96.18.199"
     }
-  }
+  ]
 }
