@@ -4,6 +4,7 @@
     "email": "developeramanyt@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-aman-three.vercel.app"
+    "A": ["76.76.21.21"],
+    "TXT": ["vc-domain-verify=aman-dev.is-a.dev,e1787ca07d74b4886fd3"]
   }
 }
