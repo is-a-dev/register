@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "SarielWang93",
+    "email": "SarielWang93@users.noreply.github.com"
+  },
+  "record": {
+    "NS": [
+      "morgan.ns.cloudflare.com",
+      "sonia.ns.cloudflare.com"
+    ]
+  },
+  "description": "Personal developer domain for hosting my open-source projects (OpenClaw) and local development environment via Cloudflare Tunnel."
+}
