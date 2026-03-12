@@ -1,0 +1,11 @@
+{
+  "description": "IX API Docs",
+  "repo": "https://github.com/mrfandu1",
+  "owner": {
+    "username": "mrfandu1",
+    "email": "113630375+mrfandu1@users.noreply.github.com"
+  },
+  "record": {
+    "CNAME": "agent-models-api-docs.webui-public.workers.dev"
+  }
+}
