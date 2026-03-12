@@ -1,0 +1,11 @@
+{
+  "description": "IX OpenWebUI App",
+  "repo": "https://github.com/mrfandu1",
+  "owner": {
+    "username": "mrfandu1",
+    "email": "113630375+mrfandu1@users.noreply.github.com"
+  },
+  "record": {
+    "CNAME": "app.webui-public.workers.dev"
+  }
+}
