@@ -5,8 +5,8 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com",
-    "_vercel": {
-      "TXT": "vc-domain-verify=www.urjit.is-a.dev,2483d9672d32253c49a9"
-    }
+    "TXT": [
+      "vc-domain-verify=www.urjit.is-a.dev,2483d9672d32253c49a9"
+    ]
   }
 }
