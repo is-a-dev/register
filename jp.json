@@ -1,0 +1,12 @@
+{
+  "description": "My portfolio",
+  "repo": "https://github.com/Jpallam09/portfolio",
+  "owner": {
+    "username": "jpallam09",
+    "email": "allamjohnpaul0901@gmai.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=is-a.dev,5928481849fd6945311a"
+  }
+}
