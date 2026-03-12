@@ -1,0 +1,11 @@
+{
+    "description": "VOID Network — real-time encrypted chat",
+    "repo": "https://github.com/VOIDNetwork-chat/voidnetwork-chat.github.io",
+    "owner": {
+        "username": "VOIDNetwork-chat",
+        "email": "v0id.n3tw0rk@gmail.com"
+    },
+    "record": {
+        "CNAME": "voidnetwork-chat.github.io"
+    }
+}
