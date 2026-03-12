@@ -2,10 +2,10 @@
   "description": "HPCL VTS proxy",
   "repo": "https://github.com/Amishrohmetra17/lpg-tyre-management",
   "owner": {
-    "username": "Amishrohmetra17",
+    "username": "amishroh",
     "email": "Amishrohmetra17@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "lpg-tyre-app.vercel.app"
   }
 }
