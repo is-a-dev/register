@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "53madicoolcoder",
+        "email": "eshaan2314@gmail.com"
+    },
+    "record": {
+        "TXT": "v=spf1 include:_spf.google.com ~all"
+    }
+}
