@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "jordig20",
-        "email": "jordigranadarubio@gmail.com"
-    },
-    "records": {
-        "CNAME": "jordig20.github.io"
-    }
+  "owner": {
+    "username": "jordig20",
+    "email": "jordigranadarubio@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "_vercel.jordi=vc-domain-verify=is-a.dev,085ef4a30b8eac7e41db
+  }
 }
