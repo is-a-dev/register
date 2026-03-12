@@ -3,8 +3,8 @@
     "username": "linkytel",
     "email": "409522320@qq.com"
   },
-  "description": "Personal website hosted on Vercel",
+  "description": "My developer portfolio website",
   "records": {
-    "A": ["216.198.79.1"]
+    "CNAME": "dzl.vercel.app" 
   }
 }
