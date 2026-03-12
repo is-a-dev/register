@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "твой-логин-на-github",
+    "email": "твой-email@example.com"
+  },
+  "records": {
+    "CNAME": "твой-логин.github.io"
+  }
+}
