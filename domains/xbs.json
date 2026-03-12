@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "xiaobsh",
+    "email": "xiaobsh@gmx.com"
+  },
+  "records": {
+    "NS": ["arya.ns.cloudflare.com", "houston.ns.cloudflare.com"]
+  }
+}

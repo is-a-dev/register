@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "joejo-joestar",
+        "email": "joecn2704@gmail.com"
+    },
+    "records": {
+        "TXT": [
+            "vc-domain-verify=joestar.is-a.dev,fac3da357ab73034254a",
+            "vc-domain-verify=tools.joestar.is-a.dev,a42661483cd40eed3bdf",
+            "vc-domain-verify=api.joestar.is-a.dev,261fa5c5e79622668073"
+        ]
+    }
+}

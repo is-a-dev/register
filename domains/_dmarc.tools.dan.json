@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "danielprofessional",
+        "discord": "danielprofessional"
+    },
+    "records": {
+        "TXT": "v=DMARC1; p=none;"
+    }
+}

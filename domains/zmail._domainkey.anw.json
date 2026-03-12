@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "SubhrajitSain",
+     "email": "subhrajitsain34@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCGXWmRvTjyDqOf+xRAzYcA/apzbj8pVbjc8HREur/3McIvDSbzEgf50spjQUTRdign+UY8wb85y3YpYDixBFxiC3kklasDEZOYkeD6cGZX5uq9MZvMjKChAQvtasjLbRyZ3ORNzjf/xD0b8ciXTfyYYg5KsdqT6JfLtn3rIJpU3wIDAQAB"
+  }
+}

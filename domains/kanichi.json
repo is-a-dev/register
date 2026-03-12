@@ -4,6 +4,8 @@
     "email": "iamkanichi@gmail.com"
   },
   "records": {
-    "A": ["103.179.188.241"]
-  }
+    "CNAME": "kanichidev-erjnz.ondigitalocean.app",
+    "TXT" : "google-site-verification=ErLu26VRJTNtic1dD6ez6tudp1mqW4qE5ISQul3JAhA"
+  },
+  "proxied": true
 }

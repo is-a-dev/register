@@ -1,0 +1,29 @@
+{
+  "description": "A redirect domain for my Simple Portfolio and Blog Website",
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "records": {
+    "URL": "https://sticknologic.is-a.dev"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/bmac": "https://buymeacoffee.com/sticknologic",
+      "/bsky": "https://bsky.app/profile/sticknologic.is-a.dev",
+      "/cdn": "https://cdn.sticknologic.is-a.dev",
+      "/github": "https://github.com/STICKnoLOGIC",
+      "/facebook": "https://facebook.com/STICKnoLOGIC",
+      "/itchio": "https://sticknologic.itch.io/",
+      "/linkedin": "https://linkedin.com/in/STICKnoLOGIC",
+      "/secret": "https://secret.sticknologic.is-a.dev",
+      "/sponsor": "https://github.com/sponsors/sticknologic",
+      "/wordpress-cdn": "https://wordpress-cdn.sticknologic.is-a.dev",
+      "/x": "https://x.com/STICKnoLOGIC",
+      "/youtube": "https://youtube.com/@STICKnoLOGIC"
+    },
+      "redirect_paths": true
+  }
+}
