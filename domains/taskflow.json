@@ -4,6 +4,7 @@
         "email": "criswxart@gmail.com"
     },
     "record": {
-        "CNAME": "zealous-glacier-04beb380f.1.azurestaticapps.net"
+        "CNAME": "zealous-glacier-04beb380f.1.azurestaticapps.net",
+         "TXT": "_nzu8f1u6aymwcrq35e9oxttnwbj8fqs"
     }
 }
