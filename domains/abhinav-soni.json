@@ -4,6 +4,7 @@
         "email": "abhinavsoni49@gmail.com"
     },
     "records": {
-        "CNAME": "myportfolio-ten-pearl-81.vercel.app"
+        "CNAME": "myportfolio-ten-pearl-81.vercel.app",
+        "TXT": ["vc-domain-verify=www.abhinav-soni.is-a.dev,164e67e34a90cf489788"]
     }
 }
