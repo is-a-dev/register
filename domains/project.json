@@ -1,0 +1,11 @@
+{
+  "description": "HPCL VTS proxy",
+  "repo": "https://github.com/Amishrohmetra17/lpg-tyre-management",
+  "owner": {
+    "username": "Amishrohmetra17",
+    "email": "Amishrohmetra17@gmail.com"
+  },
+  "record": {
+    "CNAME": "amishrohmetra17.github.io"
+  }
+}
