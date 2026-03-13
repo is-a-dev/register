@@ -1,0 +1,17 @@
+{
+
+  "owner": {
+
+    "username": "your-github-username",
+
+    "email": "your-email"
+
+  },
+
+  "records": {
+
+    "TXT": "vc-domain-verify=mmkkt.is-a.dev,4477b3ef3475253f8731"
+
+  }
+
+}
