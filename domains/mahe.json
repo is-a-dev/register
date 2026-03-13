@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "nagolumahidhar1299sse-lang"
+    "username": "nagolumahidhar1299sse-lang",
+    "email": "YOUR_EMAIL@example.com"
   },
-  "record": {
+  "records": {
     "CNAME": "nagolumahidhar1299sse-lang.github.io"
   },
-  "proxied": true
+  "proxied": false
 }
