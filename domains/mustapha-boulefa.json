@@ -3,9 +3,7 @@
     "username": "Mustapha-bf",
     "email": "mustapha.boulefa@gmail.com"
   },
-  "proxied": true,
   "records": {
-    "CNAME": "portfolio-gold-two-qt4nmphny8.vercel.app",
-    "TXT": ["vc-domain-verify=mustapha-boulefa.is-a.dev,bd90b5d3373958d0b0ef"]
+    "CNAME": "portfolio-gold-two-qt4nmphny8.vercel.app"
   }
 }
