@@ -1,11 +1,9 @@
 {
-  "description": "My Personal Portfolio Website",
-  "repo": "https://github.com/maungminmin/my-site",
-  "owner": {
-    "username": "maungminmin",
-    "email": "maungmaungmin07@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"],
-    }
-  }
+"owner": {
+"username": "maungminmin",
+ "email": "maungmaungmin07@gmail.com"
+ },
+"records": {
+"A": ["216.198.79.1"]
+ }
+}
