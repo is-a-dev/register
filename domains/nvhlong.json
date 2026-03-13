@@ -4,6 +4,7 @@
     "email": "longbmkxtb@gmail.com"
   },
   "record": {
-    "CNAME": "nvhlong.great-site.net"
+    "A": ["185.27.134.11"],
+    "AAAA": []
   }
 }
