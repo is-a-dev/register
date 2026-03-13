@@ -1,14 +1,11 @@
 {
   "owner": {
     "username": "its-tujo",
-    "discord" : "its_tujo",
+    "discord": "its_tujo",
     "email": "its.tujo@gmail.com"
   },
   "records": {
-    "CNAME": {
-      "@": "tujo.is-cool.dev",
-      "www": "tujo.is-cool.dev"
-    },
+    "CNAME": "tujo.is-cool.dev",
     "TXT": {
       "_discord": "dh=0d93bf2f21bb9fb9ef79488670c6c99862f1c5b4"
     }
