@@ -5,8 +5,7 @@
     "email": "its.tujo@gmail.com"
   },
   "records": {
-    "CNAME": "tujo.is-cool.dev",
-    }
+    "CNAME": "tujo.is-cool.dev"
   },
   "proxied": true
 }
