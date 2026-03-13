@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "erebmig"
-  },
-  "records": {
-    "CNAME": "cname.dub.co"
-  }
-}
+    "owner": {
+        "username": "erebmig"
+          },
+            "records": {
+                "CNAME": "cname.dub.co"
+                  }
+                  }
+              
