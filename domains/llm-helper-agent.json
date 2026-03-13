@@ -1,8 +1,7 @@
 {
-  "domain": "llm-helper-agent.is-a.dev",
   "owner": {
-    "username": "Wolfhaund",
-    "email": "lonelybeast@gmail.com"
+    "email": "lonelybeast@gmail.com",
+    "username": "Wolfhaund"
   },
   "records": {
     "A": ["193.124.46.52"]
