@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "jerome1337",
+        "email": "hello@jeromepogeant.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=jerome1337.is-a.dev,b2301d98f4c61d61006d"
+    }
+}
