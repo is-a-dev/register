@@ -1,8 +1,8 @@
 {
   "owner": {
-    "username": "andrejlesik"
+    "username": "jlecu4ka"
   },
   "records": {
-    "CNAME": ["77.239.226.206:8081/lesono/index.html"]
+    "A": ["77.239.226.206"]
   }
 }
