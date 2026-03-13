@@ -4,6 +4,10 @@
     "email": "hassanibbakh@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=hassan-ibbakh.is-a.dev,4d4ae86ec840a0a81cba"
+    ]
+  },
+  "proxied": true
 }
