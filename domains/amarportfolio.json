@@ -1,0 +1,10 @@
+{
+    "description": "My portfolio website",
+    "owner": {
+        "username": "amarcoul",
+        "email": "amarcoulibaly827@gmail.com"
+    },
+    "records": {
+        "CNAME": "portfolio-ten-pink-93.vercel.app"
+    }
+}
