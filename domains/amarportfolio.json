@@ -1,0 +1,12 @@
+{
+    "description": "My portfolio website",
+    "domain": "is-a.dev",
+    "subdomain": "amarportfolio",
+    "owner": {
+        "username": "amarcoul",
+        "email": "amarcoulibaly827@gmail.com"
+    },
+    "records": {
+        "CNAME": "portfolio-ten-pink-93.vercel.app"
+    }
+}
