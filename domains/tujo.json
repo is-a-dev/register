@@ -1,0 +1,23 @@
+{
+  "owner": {
+    "username": "its_tujo",
+    "email": "its.tujo@gmail.com"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "value": "tujo.is-cool.dev"
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "tujo.is-cool.dev"
+    }
+    {
+      "type": "TXT",
+      "name": "_discord",
+      "value": "dh=0d93bf2f21bb9fb9ef79488670c6c99862f1c5b4"
+    }
+  ]
+}
