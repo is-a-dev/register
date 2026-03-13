@@ -1,0 +1,9 @@
+{
+  "domain": "llm-helper-agent.is-a.dev",
+  "owner": {
+    "email": "lonelybeast@gmail.com"
+  },
+  "record": {
+    "A": ["193.124.46.52"]
+  }
+}
