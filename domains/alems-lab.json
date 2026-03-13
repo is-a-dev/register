@@ -1,15 +1,9 @@
 {
-    "description": "A-LEMS: Agentic LLM Energy Measurement System - PhD Research Dashboard",
-    "domain": "is-a.dev",
-    "subdomain": "alems-lab",
-    "owner": {
-        "username": "deepakpanigrahy03",
-        "email": "deepak.panigrahy03@gmail.com"
-    },
-    "records": {
-        "CNAME": "deepakpanigrahy03.github.io"
-    },
-    "links": {
-        "website": "https://huggingface.co/spaces/a-lems/Energy"
-    }
+  "owner": {
+    "username": "deepakpanigrahy03",
+    "email": "deepak.panigrahy03@gmail.com"
+  },
+  "records": {
+    "CNAME": "deepak-portfolio-t8yr.onrender.com"
+  }
 }
