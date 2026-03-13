@@ -3,7 +3,10 @@
         "username": "animhotep",
         "email": "animhotep@gmail.com"
     },
-    "record": {
-        "A": ["130.61.121.24"]
-    }
+      "records": [
+        {
+          "type": "A",
+          "value": "130.61.121.24"
+        }
+  ],
 }
