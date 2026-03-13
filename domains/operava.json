@@ -1,0 +1,11 @@
+{
+  "description": "Operava website on Render",
+  "owner": {
+    "username": "mohamedemam0",
+    "email": "mohamedemam0@outlook.com"
+  },
+  "records": {
+    "CNAME": "operava.onrender.com"
+  },
+  "proxied": true
+}
