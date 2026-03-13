@@ -5,8 +5,6 @@
   },
   "records": {
     "A": ["76.76.21.21"],
-    "TXT": {
-      "_vercel": "vc-domain-verify=warrastr.is-a.dev,c428c7430ad1d21b9f9f"
-    }
+    "TXT": ["vc-domain-verify=warrastr.is-a.dev,c428c7430ad1d21b9f9f"]
   }
 }
