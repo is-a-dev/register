@@ -1,9 +1,13 @@
 {
-    "owner": {
-        "username": "martinmoenga180-png",
-        "email": "martinmoenga180@gmail.com"
-    },
-    "records": {
-        "CNAME": "martinmoenga-png.github.io"
+  "owner": {
+    "username": "martinmoenga180-png",
+    "email": "martinmoenga180@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": {
+      "_vercel": "vc-domain-verify=is-a.dev,b3912806815135933244"
     }
+  },
+  "proxied": true
 }
