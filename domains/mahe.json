@@ -1,4 +1,9 @@
 {
-  "description": "My personal developer domain",
-  "repo": "https://github.com/nagolumahidhar1299sse-lang"
+  "owner": {
+    "username": "nagolumahidhar1299sse-lang"
+  },
+  "record": {
+    "CNAME": "nagolumahidhar1299sse-lang.github.io"
+  },
+  "proxied": true
 }
