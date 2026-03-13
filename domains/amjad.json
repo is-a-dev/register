@@ -4,9 +4,11 @@
     "email": "itsamjadrahman@gmail.com"
   },
   "records": {
-    "CNAME": "heyitzamjad.github.io",
-    "TXT": [
-      "v=spf1 include:zoho.in ~all"
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
     ],
     "MX": [
       {
@@ -21,6 +23,9 @@
         "target": "mx3.zoho.in",
         "priority": 50
       }
+    ],
+    "TXT": [
+      "v=spf1 include:zoho.in ~all"
     ]
   }
 }
