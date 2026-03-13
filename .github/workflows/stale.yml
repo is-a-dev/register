@@ -11,7 +11,7 @@ jobs:
         name: Label
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/stale@v3
+            - uses: actions/stale@v10
               with:
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
                   days-before-stale: 3
