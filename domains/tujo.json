@@ -13,7 +13,7 @@
       "type": "CNAME",
       "name": "www",
       "value": "tujo.is-cool.dev"
-    }
+    },
     {
       "type": "TXT",
       "name": "_discord",
