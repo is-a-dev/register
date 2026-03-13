@@ -3,10 +3,11 @@
         "username": "animhotep",
         "email": "animhotep@gmail.com"
     },
-      "records": [
+    "subdomain": "pavlo",
+    "records": [
         {
-          "type": "A",
-          "value": "130.61.121.24"
+            "type": "A",
+            "value": "130.61.121.24"
         }
-  ]
+    ]
 }
