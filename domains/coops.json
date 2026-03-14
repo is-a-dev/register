@@ -4,6 +4,30 @@
     "email": "andersontreeballs@gmail.com"
   },
   "records": {
-    "CNAME": "apex-loadbalancer.netlify.app"
+    "CNAME": "apex-loadbalancer.netlify.app",
+
+    "TXT": [
+      {
+        "host": "_fluxer.coops.is-a.dev",
+        "value": "fluxer-verification=caa5815b8c6fda86a84ad41a191f5b16f0561bc8d46d8e733effa0f75e09db04"
+      },
+      {
+        "host": "coops.is-a.dev",
+        "value": "v=spf1 include:spf.improvmx.com ~all"
+      }
+    ],
+
+    "MX": [
+      {
+        "host": "coops.is-a.dev",
+        "priority": 10,
+        "value": "mx1.improvmx.com"
+      },
+      {
+        "host": "coops.is-a.dev",
+        "priority": 20,
+        "value": "mx2.improvmx.com"
+      }
+    ]
   }
 }
