@@ -1,0 +1,11 @@
+{
+  "description": "NovelNest - Android book reading app",
+  "repo": "https://github.com/virusilvester/novelnest-web",
+  "owner": {
+    "username": "virusilvester",
+    "email": "onesilonecho@gmail.com"
+  },
+  "record": {
+    "CNAME": "virusilvester.github.io"
+  }
+}
