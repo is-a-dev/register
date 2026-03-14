@@ -3,6 +3,6 @@
     "username": "rochana-sadila,
   },
   "records": {
-    "CNAME": "baff0868bc3bf532.vercel-dns-017.com."
+    "TXT": "vc-domain-verify=www.rochana.is-a.dev,f97e70c3c9c2fa03cb09"
   }
 }
