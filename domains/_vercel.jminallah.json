@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "JMinallah"
+    "username": "JMinallah",
+    "email": "joviaminallah@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": ["vc-domain-verify=jminallah.is-a.dev,2ef79aedada3f3ab8544"]
   }
 }
