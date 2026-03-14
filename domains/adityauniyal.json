@@ -1,8 +1,14 @@
 {
-  "owner": {
-    "username": "uniyal-aditya"
-  },
-  "records": {
-    "CNAME": "adityauniyal.netlify.app"
-  }
+"owner": {
+"username": "uniyal-aditya"
+},
+"records": {
+"A": ["216.198.79.1"],
+"TXT": [
+"vc-domain-verify=adityauniyal.is-a.dev,99bd4937b79152bcc512"
+],
+"CNAME": {
+"www": "ee1da655c246faad.vercel-dns-017.com"
+}
+}
 }
