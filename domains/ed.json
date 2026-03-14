@@ -9,8 +9,8 @@
     "forward-email-site-verification=no1BQb65hL"
     ],
     "MX": [
-      { "ed": "mx1.forwardemail.net", "priority": 10 },
-      { "ed": "mx2.forwardemail.net", "priority": 10 }
+      { "target": "mx1.forwardemail.net", "priority": 10 },
+      { "target": "mx2.forwardemail.net", "priority": 10 }
     ]
   },
   "proxied": true
