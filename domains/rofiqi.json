@@ -1,9 +1,0 @@
-{
-    "owner": {
-        "username": "your-github-username",
-        "email": "your-email-address@example.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
-}
