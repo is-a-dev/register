@@ -1,9 +1,8 @@
 {
     "owner": {
-        "username": "dead-Spy",
-        "email": "heavenneha199@gmail.com"
+        "username": "dead-Spy"
     },
     "records": {
-        "CNAME": "tanvir-amin.netlify.app"
+        "A": ["216.198.79.1"]
     }
 }
