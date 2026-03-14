@@ -6,7 +6,7 @@
   "description": "Aryan Gupta's personal portfolio, blog, and VCE resource website.",
   "proxied": true,
   "records": {
-    "CNAME": "apoo711.github.io",
-    "TXT": "google-site-verification=Frww5uCLBTt_nZ9nlgWA5Ii-z9GsCrCGPqxujiQEwb8"
+    "A": ["170.64.223.212"],
+    "TXT": ["google-site-verification=Frww5uCLBTt_nZ9nlgWA5Ii-z9GsCrCGPqxujiQEwb8"]
   }
 }
