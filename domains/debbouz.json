@@ -3,8 +3,7 @@
     "username": "brutalpanda1990-oss",
     "email": "debbouzamine@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "proxied": false
+  }
 }
