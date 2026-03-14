@@ -1,8 +1,20 @@
 {
-    "owner": {
-        "username": "ficilabs"
+  "owner": {
+    "username": "ficilabs"
+  },
+  "record": {
+    "URL": "https://nuxt-portfolio-mocha-omega.vercel.app"
+  },
+  "extra_records": [
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "5a3fd35ac2ad2f45.vercel-dns-017.com"
     },
-    "records": {
-        "CNAME": "nuxt-portfolio-mocha-omega.vercel.app"
+    {
+      "type": "TXT",
+      "name": "_vercel",
+      "value": "vc-domain-verify=www.rofiqi.is-a.dev,563c141ba37ab1207522"
     }
+  ]
 }
