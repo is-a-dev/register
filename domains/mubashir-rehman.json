@@ -2,7 +2,8 @@
   "description": "Mubashir Rehman — Backend Engineer portfolio",
   "repo": "https://github.com/mubashir-rehman/mubashir-rehman.github.io",
   "owner": {
-    "username": "mubashir-rehman"
+    "username": "mubashir-rehman",
+    "email": "mubashirrehman66@gmail.com"
   },
   "record": {
     "CNAME": "mubashir-rehman.github.io"
