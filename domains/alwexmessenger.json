@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "alwex0920"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "alwexmessenger.vercel.app"
+  }
+}
