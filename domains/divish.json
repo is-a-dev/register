@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Divish-k"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": [
+      "vc-domain-verify=divish.is-a.dev,15fe7325bae1b49b76bc",
+      "vc-domain-verify=www.divish.is-a.dev,2b7719d8da06d1b8dc80"
+    ]
+  }
+}
