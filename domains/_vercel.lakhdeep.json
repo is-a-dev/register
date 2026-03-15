@@ -4,6 +4,6 @@
         "email": "lakhdeepjawandha@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=lakhdeep.is-a.dev,9ace551336091af50cec"
+        "TXT": ["vc-domain-verify=lakhdeep.is-a.dev,3f625c37561f09bc1509","vc-domain-verify=www.lakhdeep.is-a.dev,ebf073e30da573366725"]
     }
 }
