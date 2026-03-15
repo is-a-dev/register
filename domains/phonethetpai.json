@@ -1,0 +1,11 @@
+{
+  "description": "Phone Thet Pai portfolio",
+  "repo": "https://github.com/PhoneTP99/my-portfolio",
+  "owner": {
+    "username": "PhoneTP99",
+    "email": "homegome99@gmail.com"
+  },
+  "record": {
+    "CNAME": "phonethetpai.vercel.app"
+  }
+}
