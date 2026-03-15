@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "MrLiPx",
-    "email": "contact@mrlipx.com"
-  },
-  "records": {
-    "URL": "https://mrlipx.github.io/"
-  }
+    "owner": {
+        "username": "MrLiPx"
+    },
+    "records": {
+        "NS": [
+            "nicolas.ns.cloudflare.com",
+            "tiffany.ns.cloudflare.com"
+        ]
+    }
 }
