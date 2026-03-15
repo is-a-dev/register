@@ -1,0 +1,11 @@
+{
+  "description": "Verity — free verified news app",
+  "repo": "https://github.com/reshma-cassim-cell/verity",
+  "owner": {
+    "username": "reshma-cassim-cell",
+    "email": "reshma.cassim@gmail.com"
+  },
+  "record": {
+    "CNAME": "verity-sable.vercel.app"
+  }
+}
