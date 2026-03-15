@@ -5,7 +5,10 @@
   "owner": {
     "username": "fixx12"
   },
-  "record": {
-    "CNAME": "fixxforclose.cfargotunnel.com"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "fixxforclose.cfargotunnel.com"
+    }
+  ]
 }
