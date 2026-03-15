@@ -1,0 +1,9 @@
+{
+  "description": "My server domain",
+  "owner": {
+    "username": "fixx12"
+  },
+  "records": {
+    "CNAME": "fixx12.github.io"
+  }
+}
