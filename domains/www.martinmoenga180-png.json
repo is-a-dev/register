@@ -4,8 +4,7 @@
     "email": "martinmoenga180@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": ["vc-domain-verify=www.martinmoenga180-png.is-a.dev,cd6ecd1d434938a59024"]
+    "CNAME": "cname.vercel-dns.com"
   },
   "proxied": false
 }
