@@ -1,0 +1,12 @@
+```json
+{
+  "description": "Couture website hosted on Vercel",
+  "owner": {
+    "username": "Dev7Beast",
+    "email": "devcolab77@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
+```
