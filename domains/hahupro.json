@@ -1,0 +1,11 @@
+{
+  "description": "My personal website",
+  "repo": "https://github.com/HamedProDev/code-publisher-assistant",
+  "owner": {
+    "username": "HamedProDev",
+    "email": "hamussein01@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
