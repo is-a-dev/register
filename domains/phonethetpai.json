@@ -3,7 +3,8 @@
     "username": "PhoneTP99",
     "email": "homegome99@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "phonethetpai.vercel.app"
-  }
+  },
+  "proxied": true
 }
