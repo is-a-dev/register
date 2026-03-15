@@ -1,8 +1,8 @@
 {
-  "description": "AI Assistant Domain",
-  "domain": "mosyclara",
-  "owner": "mosyclara",
-  "record": {
+  "owner": {
+    "username": "mosyclara"
+  },
+  "records": {
     "A": [
       "185.199.108.153"
     ],
@@ -13,5 +13,6 @@
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all"
     ]
-  }
+  },
+  "proxied": true
 }
