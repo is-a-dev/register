@@ -1,15 +1,15 @@
 {               
     "description": "Wildfire evacuation 
-  signal gap dashboard — WiDS 2025      
+  signal gap dashboard - WiDS 2025      
   Datathon project",
     "repo": "https://github.com/layesh1/
   widsdatathon-1",                      
     "owner": {
       "username": "layesh1",            
-      "email": "layesh1@charlotte.edu"        
+      "email": "layesh1@charlotte.edu"  
     },                                  
     "record": {                         
       "CNAME": "wildfire-f0dc8yi8y-layes
-  h1s-projects.vercel.app"              
+  h1s-projects.vercel.app"
     }
-  }   
+  }
