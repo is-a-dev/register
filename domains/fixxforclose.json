@@ -1,0 +1,11 @@
+{
+  "description": "My server domain",
+  "domain": "is-a.dev",
+  "subdomain": "fixxforclose",
+  "owner": {
+    "username": "fixx12"
+  },
+  "record": {
+    "CNAME": "fixxforclose.cfargotunnel.com"
+  }
+}
