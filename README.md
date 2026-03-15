@@ -40,7 +40,7 @@ Not all announcements are posted on GitHub[^1], however they will always be post
 
 With the uptick in invalid PRs, including AI PRs, we reserve the right for the following:
 - Close PRs immediately.
-- Block, ban, or limit user's ability to interact with is-a.dev and it's repositories and resources.
+- Block, ban, or limit user's ability to interact with is-a.dev and its repositories and resources.
 - Remove, delete, revoke previous domains if connected to spam.
 
 ## Report Abuse
