@@ -13,5 +13,5 @@
       { "target": "mx2.forwardemail.net", "priority": 10 }
     ]
   },
-  "proxied": true
+  "proxied": false
 }
