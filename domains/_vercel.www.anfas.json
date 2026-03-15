@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "anfastech", 
+        "username": "anfastech",
+        "email": "anfastech@users.noreply.github.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=www.anfas.is-a.dev,9adda61f56da3c78322b"
+        "TXT": "vc-domain-verify=anfas.is-a.dev,a85ba16fbba5862e877f"
     }
 }
