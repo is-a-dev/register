@@ -1,11 +1,9 @@
 {
-  "description": "Seincue personal site hosted on Cloudflare Pages",
-  "repo": "https://github.com/Seincue/cloudflare-pages-site",
   "owner": {
     "username": "Seincue",
     "email": "chokoko.yannyeinsan@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cloudflare-pages-site.pages.dev"
   }
 }
