@@ -1,0 +1,11 @@
+{
+  "description": "AI-powered personal finance and expense tracker with budget management, savings goals and weekly email summaries",
+  "repo": "https://github.com/aritro2006/expense-tracker",
+  "owner": {
+    "username": "aritro2006",
+    "email": "your-gmail@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
