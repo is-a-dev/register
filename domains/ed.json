@@ -4,6 +4,7 @@
     "email": "ez.white@outlook.com"
   },
   "records": {
+  "CNAME": "portfolio.lordeddington.com",
     "TXT": [
     "google-site-verification=ZrnysqPkhlvYCDmL5OaFb0OPX491KjW5H3vvNBIi5xs",
     "forward-email-site-verification=no1BQb65hL"
