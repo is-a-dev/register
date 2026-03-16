@@ -36,6 +36,13 @@ Not all announcements are posted on GitHub[^1], however they will always be post
 - Once your PR is merged, your DNS records should be published with-in a few minutes.
 - Enjoy your new `.is-a.dev` subdomain! Please consider leaving a star ⭐️ to help support us!
 
+## Spam / Abusive PRs
+
+With the uptick in invalid PRs, including AI PRs, we reserve the right for the following:
+- Close PRs immediately.
+- Block, ban, or limit user's ability to interact with is-a.dev and its repositories and resources.
+- Remove, delete, revoke previous domains if connected to spam.
+
 ## Report Abuse
 If you find any subdomains being abused or breaking our TOS, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with relevant evidence.
 
