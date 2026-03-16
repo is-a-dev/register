@@ -1,10 +1,10 @@
 {
+  "description": "RoRo Realty Groups - Real Estate Due Diligence Platform",
   "owner": {
     "username": "AkhilaK94",
     "email": "kancharana.akhila@gmail.com"
   },
-  "description": "RoRo Realty Groups - Real Estate Due Diligence Platform",
-  "record": {
+  "records": {
     "A": ["76.76.21.21"]
   }
 }
