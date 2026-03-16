@@ -1,0 +1,11 @@
+{
+    "description": "My personal project",
+    "domain": "is-a.dev",
+    "subdomain": "hsanigpt",
+    "owner": {
+        "username": "tyujuytgyjyj"
+    },
+    "record": {
+        "CNAME": "0bc2fc05-6b54-43e9-b188-025e110832ce.cfargotunnel.com"
+    }
+}
