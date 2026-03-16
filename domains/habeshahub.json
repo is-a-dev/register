@@ -1,11 +1,11 @@
 {
-  "description": "HabeshaHub - The Diaspora Super App for Ethiopian, Eritrean & Somali communities",
-  "repo": "https://github.com/4kw6pv2wpb-code/habeshahub-web",
   "owner": {
     "username": "4kw6pv2wpb-code",
     "email": "habeshahub@proton.me"
   },
-  "record": {
+  "description": "HabeshaHub - The Diaspora Super App",
+  "repo": "https://github.com/4kw6pv2wpb-code/habeshahub-web",
+  "records": {
     "CNAME": "habeshahub-web-production.up.railway.app"
   }
 }
