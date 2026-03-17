@@ -1,0 +1,7 @@
+{
+  "description": "NebulaBox - Cloud Storage & Messaging personnel",
+  "repository": "https://github.com/vzy/nebulabox",
+  "type": "CNAME",
+  "host": "nebulabox.is-a.dev",
+  "data": "nebulabox.fly.dev"
+}
