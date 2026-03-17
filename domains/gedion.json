@@ -4,9 +4,6 @@
         "email": "devgedion@gmail.com"
     },
     "records": {
-        "A": [
-            "172.67.141.130",
-            "104.21.13.238"
-        ]
+        "CNAME": "portfolio-evv.pages.dev"
     }
 }
