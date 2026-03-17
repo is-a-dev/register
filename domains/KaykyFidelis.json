@@ -1,1 +1,10 @@
 
+{
+  "owner": {
+    "username": "Fidelis",
+    "email": "kayky.fid@gmail.com"
+  },
+  "records": {
+    "CNAME": "https://kayky-fidelis-port.vercel.app"
+  }
+}
