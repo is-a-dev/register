@@ -1,9 +1,14 @@
 {
-    "owner": {
+"description": "The New Era Discord Bot",
+  "repo": "https://github.com/drogontargaryen299-debug/TheNewEra",
+  "owner": {
         "username": "drogontargaryen299-debug",
         "email": "drogontargaryen299@gmail.com"
     },
-    "records": {
-        "A": ["178.104.1.183"]
-    }
+  "record": {
+    "NS": [
+      "ezra.ns.cloudflare.com",
+      "isabel.ns.cloudflare.com"
+    ]
+  }
 }
