@@ -3,7 +3,7 @@
     "username": "MrLiPx",
     "email": "contact@mrlipx.com"
   },
-  "records": {
-    "URL": "https://mrlipx.github.io/"
+  "record": {
+    "CNAME": "mrlipx-is-a-dev-page.mrlipx.workers.dev"
   }
 }
