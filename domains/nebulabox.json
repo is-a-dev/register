@@ -1,7 +1,10 @@
 {
   "description": "NebulaBox - Cloud Storage & Messaging personnel",
-  "repository": "https://github.com/vzy/nebulabox",
+  "repository": "https://github.com/Nathforyou/nebulabox",
   "type": "CNAME",
   "host": "nebulabox.is-a.dev",
   "data": "nebulabox.fly.dev"
+"owner": {
+    "email": "nathforyou631@gmail.com"
+  }
 }
