@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "dieMarten"
+  },
+  "records": {
+    "NS": [
+      "coco.ns.cloudflare.com",
+      "venkat.ns.cloudflare.com"
+    ]
+  }
+}
