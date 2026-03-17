@@ -6,6 +6,6 @@
     "description": "OmniUtil - Blockchain-based reward protocol and web utility infrastructure",
     "records": {
         "CNAME": "cname.vercel-dns.com",
-        "TXT": ["vc-domain-verify=omniutil.is-a.dev,4fd796cb3a0ff04cdb87"]
+        "TXT": "vc-domain-verify=omniutil.is-a.dev,4fd796cb3a0ff04cdb87"
     }
 }
