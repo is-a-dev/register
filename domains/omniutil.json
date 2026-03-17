@@ -3,7 +3,8 @@
         "username": "Johny-1992",
         "email": "johnymulenda5@gmail.com"
     },
-    "record": {
+    "description": "OmniUtil - Blockchain-based reward protocol and web utility infrastructure",
+    "records": {
         "CNAME": "cname.vercel-dns.com"
     }
 }
