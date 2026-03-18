@@ -1,0 +1,11 @@
+{
+  "description": "Nasko Dev - Developer & Creator",
+  "domain": "is-a.dev",
+  "subdomain": "naskodev",
+  "owner": {
+    "username": "atanass4000-design"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
