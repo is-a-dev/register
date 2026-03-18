@@ -4,9 +4,6 @@
     "email": "shiver3dcontact@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=shiver3d.is-a.dev,8a3a72b02f992ba9d098",
-    "CNAME": "1f6a0241cd0b6e8e.vercel-dns-017.com",
-    "A": ["216.198.79.1"]
-  },
-  "proxied": true
+    "CNAME": "1f6a0241cd0b6e8e.vercel-dns-017.com"
+  }
 }
