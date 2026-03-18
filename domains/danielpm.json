@@ -1,0 +1,10 @@
+{
+    "description": "danielpm.is-a.dev",
+    "owner": {
+        "username": "DanielPMdev",
+        "email": "danielpm.dev@gmail.com"
+    },
+    "records": {
+        "CNAME": "daniel-pm.vercel.app"
+    }
+}
