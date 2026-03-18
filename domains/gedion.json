@@ -4,6 +4,17 @@
         "email": "devgedion@gmail.com"
     },
     "records": {
-        "CNAME": "portfolio-evv.pages.dev"
+        "A": [
+            "172.67.141.130",
+            "104.21.13.238"
+        ],
+        "MX": [
+            "route1.mx.cloudflare.net",
+            "route2.mx.cloudflare.net",
+            "route3.mx.cloudflare.net"
+        ],
+        "TXT": [
+            "v=spf1 include:_spf.mx.cloudflare.net ~all"
+        ]
     }
 }
