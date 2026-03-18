@@ -1,0 +1,10 @@
+{
+    "owner":  {
+        "username":  "ako",
+        "email":     "aungkhaingu@gmail.com"
+    },
+    "records":  {
+      "CNAME":  "ako.pages.dev"
+    },
+  "proxied":  true
+}
