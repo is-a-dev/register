@@ -6,6 +6,6 @@
     "email": "sealanide-commits@users.noreply.github.com"
   },
   "record": {
-    "CNAME": "sealanide-commits.github.io"
+    "A": ["5.189.188.231"]
   }
 }
