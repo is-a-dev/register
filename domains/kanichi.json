@@ -4,7 +4,7 @@
     "email": "iamkanichi@gmail.com"
   },
   "records": {
-    "CNAME": "backup-web-cbktt.ondigitalocean.app",
+    "A": ["216.198.79.1"],
     "TXT" : "google-site-verification=ErLu26VRJTNtic1dD6ez6tudp1mqW4qE5ISQul3JAhA"
   },
   "proxied": true
