@@ -1,17 +1,18 @@
 {
-  "owner": {
-    "username": "Minxify",
-    "email": "minxie.online@protonmail.com"
-  },
-  "records": {
-    "CNAME": "minxie.likesyou.org"
-  },
-  "nested": [
-    {
-      "name": "a3746248a6cefa2caf655b1300642a30",
-      "records": {
-        "CNAME": "ns1.byet.org"
-      }
-    }
-  ]
+    "owner": {
+        "username": "Minxify",
+        "email": "minxie.online@protonmail.com"
+    },
+    "records": {
+        "CNAME": "minxie.likesyou.org"
+    },
+    "nested": [
+        {
+            "name": "a3746248a6cefa2caf655b1300642a30",
+            "records": {
+                "CNAME": "ns1.byet.org"
+            },
+            "proxied": false
+        }
+    ]
 }
