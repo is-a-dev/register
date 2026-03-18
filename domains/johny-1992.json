@@ -6,5 +6,14 @@
     "description": "Johny-1992 - RWA Infrastructure Architect & Lead Dev of OMNIUTIL",
     "records": {
         "CNAME": "johny-1992.github.io"
+    },
+    "subdomains": {
+        "omniutil": {
+            "proxied": true,
+            "records": {
+                "CNAME": "cname.vercel-dns.com",
+                "TXT": ["vc-domain-verify=omniutil.johny-1992.is-a.dev,4fd796cb3a0ff04cdb87"]
+            }
+        }
     }
 }
