@@ -1,0 +1,11 @@
+{
+  "description": "Cyan.dev — Security tools, Minecraft launcher, terminal, and more by Cyan",
+  "repo": "https://github.com/sealanide-commits/cyan-website",
+  "owner": {
+    "username": "sealanide-commits",
+    "email": "sealanide-commits@users.noreply.github.com"
+  },
+  "record": {
+    "CNAME": "sealanide-commits.github.io"
+  }
+}
