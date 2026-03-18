@@ -1,0 +1,11 @@
+{
+  "description": "GraminMart - Rural Super App by Anup Mazumdar",
+  "repo": "https://github.com/anupmazumdar/GraminBharat",
+  "owner": {
+    "username": "anupmazumdar",
+    "email": "thezeroanup0@gmail.com"
+  },
+  "record": {
+    "CNAME": "gramin-bharat-web.vercel.app"
+  }
+}
