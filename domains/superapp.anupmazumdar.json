@@ -1,0 +1,16 @@
+{
+  "description": "Online Digital Corp - Super App by Anup Mazumdar",
+  "repo": "https://github.com/anupmazumdar/SuperApp",
+  "owner": {
+    "username": "anupmazumdar",
+    "email": "thezeroanup0@gmail.com"
+  },
+  "record": {
+    "CNAME": "super-app-one-opal.vercel.app"
+  }
+}
+```
+
+**Step 5** — Commit message:
+```
+add superapp.anupmazumdar.is-a.dev
