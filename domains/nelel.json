@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "mokenye",
+    "email": "davidmokenye@gmail.com"
+  },
+  "records": {
+    "CNAME": "n--nelel--7vqh2vrwnq6y.code.run"
+  },
+  "nested": [
+    {
+      "name": "verify-fsu29i98y3tkboovidp1o9qw",
+      "records": {
+        "TXT": ["d4689defe2ace5f25ce8eed4fef12281718e5ba7e917a4ccb2bd1c5481c2dbb4"]
+      }
+    }
+  ]
+}
