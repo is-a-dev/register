@@ -1,0 +1,11 @@
+{
+  "description": "Infinitraai website",
+  "repo": "https://github.com/botboy9390-crypto/infinitraai",
+  "owner": {
+    "username": "botboy9390-crypto",
+    "email": "botboy9390@gmail.com"
+  },
+  "record": {
+    "CNAME": "infinitraai.netlify.app"
+  }
+}
