@@ -1,0 +1,11 @@
+{
+  "description": "Personal portfolio website",
+  "repo": "https://github.com/whoviks/whoviks_web",
+  "owner": {
+    "username": "whoviks",
+    "email": "vivekcodzz@gmail.com"
+  },
+  "record": {
+    "CNAME": "whoviks.vercel.app"
+  }
+}
