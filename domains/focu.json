@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "imFOCU",
+        "email": "cadeddufede5@gmail.com"
+    },
+    "record": {
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": "forward-email=cadeddufede5@gmail.com"
+    }
+}
