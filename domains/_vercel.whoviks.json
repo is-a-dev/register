@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "whoviks",
-        "email": "vivekcodzz@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=whoviks.is-a.dev,9f9b7f46b813bd205385"
+  "records": [
+    {
+      "type": "TXT",
+      "value": "vc-domain-verify=whoviks.is-a.dev,9f9b7f46b813bd205385"
     }
+  ]
 }
