@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "uniyal-aditya",
-    "email": "adityarb200789@gmail.com"
-  },
-  "records": {
-    "CNAME": "adityauniyal.vercel.app"
-  }
+    "owner": {
+        "username": "uniyal-aditya",
+        "email": "adityauniyal.dev@gmail.com"
+    },
+    "record": {
+        "CNAME": "adityauniyal.vercel.app"
+    }
 }
