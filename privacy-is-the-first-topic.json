@@ -7,13 +7,3 @@
     "CNAME": "strictly-bold-most-recipe.trycloudflare.com"
   }
 }
-```
-
-Click **"Commit changes"** → **"Commit directly to main"** → **"Commit changes"**
-
-### Step 3 — Create a Pull Request
-Go back to your fork's main page and click **"Contribute"** → **"Open pull request"** → **"Create pull request"**
-
-Add title:
-```
-Register privacy-is-the-first-topic.is-a.dev
