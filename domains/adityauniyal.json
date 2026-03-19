@@ -1,9 +1,15 @@
 {
-  "owner": {
-    "username": "uniyal-aditya",
-    "email": "adityarb200789@gmail.com"
-  },
-  "records": {
-    "CNAME": "adityauniyal.vercel.app"
-  }
+"owner": {
+"username": "uniyal-aditya",
+"email": "[adityarb200789@gmail.com](mailto:adityarb200789@gmail.com)"
+},
+"records": {
+"A": ["216.198.79.1"],
+"CNAME": {
+"www": "ee1da655c246faad.vercel-dns-017.com"
+},
+"TXT": {
+"_vercel": "vc-domain-verify=[www.adityauniyal.is-a.dev,72f7bb0faeebe3d4d23e](http://www.adityauniyal.is-a.dev,72f7bb0faeebe3d4d23e)"
+}
+}
 }
