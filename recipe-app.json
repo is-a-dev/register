@@ -1,9 +1,9 @@
-{ 
-   "owner": {
-   "username": "souravdas090300",
-   "email": "souravdas090300@gmail.com",
+{
+  "owner": {
+    "username": "sourabdas090300",
+    "email": "souravdas090300@gmail.com"
   },
-   "record": {
-     "CNAME": "tetrahedral-avocado-hvnw1hpcigkoo97mnh3e9sp5.herokudns.com"
+  "records": {
+    "CNAME": "tetrahedral-avocado-hvnw1hpcigkoo97mnh3e9sp5.herokudns.com"
   }
 }
