@@ -3,6 +3,6 @@
     "username": "pjgoncalvez"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=pgoncalves.is-a.dev,baa28d874f2102c6e291"
   }
 }
