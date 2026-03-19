@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "MrLiPx",
-    "email": "contact@mrlipx.com"
-  },
-  "records": {
-    "URL": "https://mrlipx.github.io/"
-  }
+    "owner": {
+        "username": "MrLiPx",
+        "email": "contact@mrlipx.com"
+    },
+    "records": {
+        "CNAME": "mrlipx-is-a-dev.pages.dev"
+    }
 }

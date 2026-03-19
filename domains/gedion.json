@@ -10,7 +10,7 @@
             "mx2.forwardemail.net"
         ],
         "TXT": [
-            "forward-email-site-verification=REPLACE_WITH_CODE",
+            "forward-email-site-verification=REPLACE_WITH_YOUR_CODE",
             "v=spf1 include:_spf.forwardemail.net ~all"
         ]
     }
