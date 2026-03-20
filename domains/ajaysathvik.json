@@ -1,0 +1,11 @@
+{
+  "description": "Ajay Sathvik's portfolio site",
+  "repo": "ajaysathvik/register",
+  "owner": {
+    "username": "ajaysathvik",
+    "email": "ajaysathviksu@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-ajaysathviksu.vercel.app"
+  }
+}
