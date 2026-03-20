@@ -5,5 +5,11 @@
   },
   "records": {
     "CNAME": "callenflynn.github.io"
+  },
+  "nameservers": {
+    "NS": [
+      "gigi.ns.cloudflare.com",
+      "nitin.ns.cloudflare.com"
+    ]
   }
 }
