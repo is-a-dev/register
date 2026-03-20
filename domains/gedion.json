@@ -4,6 +4,17 @@
         "email": "devgedion@gmail.com"
     },
     "records": {
-        "CNAME": "portfolio-evv.pages.dev"
+        "A": [
+            "172.67.141.130",
+            "104.21.13.238"
+        ],
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": [
+            "forward-email=devgedion@gmail.com",
+            "v=spf1 include:_spf.forwardemail.net ~all"
+        ]
     }
 }

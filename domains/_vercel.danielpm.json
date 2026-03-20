@@ -1,10 +1,9 @@
 {
-    "description": "danielpm.is-a.dev",
     "owner": {
         "username": "DanielPMdev",
         "email": "danielpm.dev@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]    
+        "TXT": "vc-domain-verify=danielpm.is-a.dev,a2c78d0652a9767f09da"
     }
 }
