@@ -4,6 +4,7 @@
     "email": "manish7479dlp@gmail.com"
   },
   "records": {
-    "CNAME": "manish7479dlp.github.io"
+    "CNAME": "manish7479dlp.github.io",
+    "TXT": ["ba28d702e7d412c3e32dd184c153a4"]
   }
 }
