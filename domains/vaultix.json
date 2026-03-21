@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "your-github-username",
+    "email": "your-public-email@example.com"
+  },
+  "record": {
+    "CNAME": "your-project-name.netlify.app"
+  }
+}
