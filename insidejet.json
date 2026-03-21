@@ -1,0 +1,58 @@
+{
+    "owner": {
+        "username": "YourGitHubUsername",
+        "email": "YourEmail@gmail.com"
+    },
+    "record": {
+        "CNAME": "YourGitHubUsername.github.io"
+    }
+}
+```
+Replace:
+- **YourGitHubUsername** → your actual GitHub username
+- **YourEmail@gmail.com** → your actual email
+
+---
+
+### Step 6: Save the File
+- Scroll down
+- Click green button **"Commit new file"** ✅
+
+---
+
+### Step 7: Send the Form to Them
+This is called a **Pull Request** — basically you're saying **"Hey please add my domain!"**
+
+1. Click **"Contribute"** button
+2. Click **"Open Pull Request"**
+3. Title it:
+```
+Add insidejet.is-a.dev
+```
+4. Click **"Create Pull Request"** ✅
+
+---
+
+### Step 8: Wait
+- They will check your request
+- Usually takes **24-48 hours**
+- You'll get a notification on GitHub when done ✅
+
+---
+
+### Step 9: Add Domain to Your Website
+After they approve:
+1. Go to your **InsideJet** repo on GitHub
+2. Click **Settings → Pages**
+3. Under **Custom Domain** type:
+```
+insidejet.is-a.dev
+```
+4. Click **Save** ✅
+
+---
+
+## Done! 🎉
+Your website is now live at:
+```
+insidejet.is-a.dev
