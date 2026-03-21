@@ -4,6 +4,12 @@
     "email": "singlebestd@gmail.com"
   },
   "records": {
-    "CNAME": "autono-pure.vercel.app"
+    "CNAME": "autono-pure.vercel.app",
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=autono.is-a.dev,04e53177692bab64b1e1"
+      }
+    ]
   }
 }
