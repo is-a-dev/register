@@ -1,0 +1,11 @@
+{
+  "description": "Daily pollen forecast app for Germany, Europe, Turkey and USA",
+  "repo": "https://github.com/rutkuc31m/pollen-app",
+  "owner": {
+    "username": "rutkuc31m",
+    "email": "rutkuc31m@gmail.com"
+  },
+  "record": {
+    "CNAME": "rutkuc31m.github.io"
+  }
+}
