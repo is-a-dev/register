@@ -4,8 +4,6 @@
     "email": "christsonalloso021@gmail.com"
   },
   "records": {
-    "TXT": [
-      "vc-domain-verify=nexstream.is-a.dev,2c24b82bbad0407aacfd"
-    ]
+    "TXT": "vc-domain-verify=nexstream.is-a.dev,2c24b82bbad0407aacfd"
   }
 }
