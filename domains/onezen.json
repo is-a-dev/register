@@ -1,12 +1,13 @@
 {
-  "description": "Software Developer Portfolio & Interactive WebGL Games",
-  "domain": "is-a.dev",
-  "subdomain": "onezen",
-  "owner": {
-    "repo": "https://github.com/3jde/creative-portfolio",
-    "email": "t_wangzheng@suda.edu.cn"
-  },
-  "records": {
-    "CNAME": "3jde.github.io"
-  }
+"description": "Software Developer Portfolio & Interactive WebGL Games",
+"domain": "is-a.dev",
+"subdomain": "onezen",
+"owner": {
+"username": "3jde",
+"repo": "https://github.com/3jde/creative-portfolio",
+"email": "t_wangzheng@suda.edu.cn"
+},
+"records": {
+"CNAME": "3jde.github.io"
+}
 }
