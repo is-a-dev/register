@@ -3,13 +3,14 @@
     "username": "singlebestd-cyber",
     "email": "singlebestd@gmail.com"
   },
-  "records": {
-    "CNAME": "autono-pure.vercel.app",
+  "records": {    
     "TXT": [
       {
         "name": "_vercel",
         "value": "vc-domain-verify=autono.is-a.dev,04e53177692bab64b1e1"
       }
-    ]
-  }
+    ],
+    "CNAME": "autono-pure.vercel.app",
+  },
+  "proxied": true
 }
