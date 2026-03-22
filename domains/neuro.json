@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "IvanRover",
+    "email": "wliskgd@gmail.com"
+  },
+  "records": {
+    "NS": ["ns1.tildadns.com", "ns2.tildadns.com"]
+    "CNAME": "https://neurobrowser.tilda.ws/"
+  },
+  "proxied": true
+}
