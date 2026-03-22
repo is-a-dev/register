@@ -4,6 +4,7 @@
     "email": "christsonalloso021@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=nexstream.is-a.dev,2c24b82bbad0407aacfd"
   }
 }
