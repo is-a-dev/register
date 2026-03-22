@@ -1,0 +1,51 @@
+{
+  "owner": {
+    "username": "your-github-username",
+    "email": "your-email@gmail.com"
+  },
+  "records": {
+    "CNAME": "focusai-production-5623.up.railway.app"
+  }
+}
+```
+> ✏️ Replace with your actual GitHub username and email!
+
+---
+
+### Step 4: Commit the File
+1. Scroll down to **"Commit changes"**
+2. Write a message like: `add truthlens.is-a.dev`
+3. Click **"Commit changes"** ✅
+
+---
+
+### Step 5: Create Pull Request
+1. You'll see a banner **"Compare & pull request"** — click it
+2. Add title: `add truthlens.is-a.dev`
+3. Click **"Create Pull Request"** ✅
+
+---
+
+### Step 6: Wait for Approval ⏳
+- The is-a.dev team will **review and merge** your PR
+- Usually takes **a few hours**
+- Once merged, wait **10–30 minutes**
+- Your site will be live at **`truthlens.is-a.dev`** 🎉
+
+---
+
+## 📱 Quick Visual Summary:
+```
+github.com/is-a-dev/register
+        ↓
+    Fork Repo
+        ↓
+  domains/truthlens.json
+        ↓
+   Commit & Push
+        ↓
+  Create Pull Request
+        ↓
+  Wait for Merge ✅
+        ↓
+ truthlens.is-a.dev LIVE! 🚀
