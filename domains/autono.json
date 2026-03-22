@@ -8,5 +8,6 @@
   "records": {
     "CNAME": "autono-pure.vercel.app",
     "TXT": ["vc-domain-verify=autono.is-a.dev,04e53177692bab64b1e1"]
-  }
+  },
+  "proxied": true
 }
