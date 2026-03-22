@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "TU_USUARIO_GITHUB",
+    "email": "tu-correo@gmail.com"
+  },
+  "records": {
+    "CNAME": "luciano.is-great.net",
+    "MX": [
+      "mx.zoho.com",
+      "mx2.zoho.com",
+      "mx3.zoho.com"
+    ],
+    "TXT": [
+      "zoho-verification=zb84953051.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
+    ]
+  }
+}
+
