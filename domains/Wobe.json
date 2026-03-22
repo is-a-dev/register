@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "luciano24pm-bot",
+    "email": "luciano24pm@gmail.com"
+  },
+  "record": {
+    "MX": [
+      "mx.zoho.com",
+      "mx2.zoho.com",
+      "mx3.zoho.com"
+    ],
+    "TXT": [
+      "zoho-verification=zb84953051.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
+    ]
+  }
+}
