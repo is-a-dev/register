@@ -1,0 +1,30 @@
+{
+  "description": "Portfólio de Henrique Santos",
+  "repo": "https://github.com/Henrique42000/portfolio",
+  "owner": {
+    "username": "Henrique42000",
+    "email": "ohenrique.sds@gmail.com"
+  },
+  "record": {
+    "CNAME": "henrique42000.vercel.app"
+  }
+}
+```
+5. Clique em **Commit changes**
+
+---
+
+### 3. 🔁 Abrir Pull Request
+
+1. Clique em **Contribute → Open pull request**
+2. Clique em **Create pull request**
+3. Escreva uma mensagem simples tipo: `Add henriquesds.is-a.dev`
+4. Clique em **Create pull request**
+
+---
+
+### 4. ⏱️ Aguardar aprovação
+
+A equipe do is-a.dev vai revisar e aprovar em geral em **1-3 dias**. Quando aprovado seu site estará em:
+```
+henriquesds.is-a.dev ✅
