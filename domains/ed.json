@@ -4,7 +4,7 @@
     "email": "ez.white@outlook.com"
   },
   "records": {
-  "CNAME": "portfolio.lordeddington.com",
+  "URL": "https://portfolio.lordeddington.com",
     "TXT": [
     "google-site-verification=ZrnysqPkhlvYCDmL5OaFb0OPX491KjW5H3vvNBIi5xs",
     "forward-email-site-verification=no1BQb65hL"
@@ -14,5 +14,5 @@
       { "target": "mx2.forwardemail.net", "priority": 10 }
     ]
   },
-  "proxied": true
+  "proxied": false
 }
