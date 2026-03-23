@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "TU_USUARIO_GITHUB",
-    "email": "tu-correo@gmail.com"
+    "username": "luciano24pm-bot",
+    "email": "luciano24pm@gmail.com"
   },
   "records": {
-    "CNAME": "luciano.is-great.net",
     "MX": [
       "mx.zoho.com",
       "mx2.zoho.com",
