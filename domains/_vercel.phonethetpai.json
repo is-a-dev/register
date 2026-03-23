@@ -4,6 +4,6 @@
         "email": "homegome99@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=phonethetpai.is-a.dev,8a580fe58a4bedebc7ef"
     }
 }
