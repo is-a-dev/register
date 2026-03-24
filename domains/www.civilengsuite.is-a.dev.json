@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "aymneidasi-lab",
+    "email": "aymneidasi@gmail.com"
+  },
+  "CNAME": ["b177316613efb3c4.vercel-dns-017.com."],
+  "TXT": [
+    {
+      "name": "_vercel",
+      "value": "vc-domain-verify=www.civilengsuite.is-a.dev,570cf8a83fe1f85b9d5f"
+    }
+  ]
+}
