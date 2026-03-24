@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "maestlo",
+    "email": "maestlo@gmail.com"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=koosig.is-a.dev,d8095486a6773c10db9c"]
+  }
+}
