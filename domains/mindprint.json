@@ -2,7 +2,8 @@
     "description": "MindPrint Social Media App",
     "subdomain": "mindprint",
     "owner": {
-        "username": "hopexx606"
+        "username": "hopexx606",
+        "email": "mjhwl7085@gmail.com"
     },
     "records": {
         "A": ["197.244.175.192"]
