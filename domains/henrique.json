@@ -5,7 +5,7 @@
     "username": "Henrique42000",
     "email": "ohenrique.sds@gmail.com"
   },
-  "record": {
-    "CNAME": "henriquesds.vercel.app"
+  "records": {
+    "CNAME": "portfolio-nine-silk-10.vercel.app"
   }
 }
