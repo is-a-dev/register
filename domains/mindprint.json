@@ -5,6 +5,6 @@
         "email": "mjhwl7085@gmail.com"
     },
     "records": {
-        "CNAME": "e44cb32f-d481-457b-8e1d-863b4c646dc3.cfargotunnel.com"
+        "A": ["197.244.175.192"]
     }
 }
