@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nyoni-ctrl",
-        "email": "joshnyonii@gmail.com"
-    },
-    "record": {
-        "CNAME": "my-tech-academy.vercel.app/"
-    }
+  "owner": {
+    "username": "nyoni-ctrl",
+    "email": "joshnyonii@gmail.com"
+  },
+  "record": {
+    "CNAME": "my-tech-academy.vercel.app"
+  }
 }
