@@ -1,0 +1,11 @@
+{
+    "description": "MindPrint Social Media App",
+    "domain": "is-a.dev",
+    "subdomain": "mindprint",
+    "owner": {
+        "username": "hopexx606"
+    },
+    "record": {
+        "A": ["197.244.175.192"]
+    }
+}
