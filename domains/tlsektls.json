@@ -3,6 +3,6 @@
     "username": "tlsektls"
   },
   "records": {
-    "A": ["1.2.3.4"]
+    "CNAME": "68395bb7-e433-4aa6-9f34-55d061851cef"
   }
 }
