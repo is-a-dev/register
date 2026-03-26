@@ -1,12 +1,10 @@
 {
-  "description": "Personal portfolio dashboard",
-  "repo": "https://github.com/shacharaj/crypto-hamuzim",
   "owner": {
     "username": "shacharaj",
     "email": "shacharaj@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "hbpno37pxbdncrj7skisv3dnai0pykir.lambda-url.eu-west-1.on.aws"
   },
-  "proxy": true
+  "proxied": true
 }
