@@ -4,17 +4,16 @@
     "email": "lozadanoah24@gmail.com"
   },
   "records": {
-    "CNAME": "watermansmp.falix.dev",
+    "A": ["191.96.231.10"],
     "SRV": [
       {
-        "service": "_minecraft",
-        "protocol": "_tcp",
+        "name": "_minecraft._tcp",
         "priority": 10,
         "weight": 5,
-        "port": 27175,
-        "target": "watermansmp.falix.dev"
+        "port": 11260,
+        "target": "play.watermanmc.is-a.dev"
       }
     ]
   },
-  "proxied": true
+  "proxied": false
 }
