@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "TON_PSEUDO_GITHUB",
+    "email": "TON_EMAIL_A_L_UDES"
+  },
+  "record": {
+    "NS": [
+      "maya.ns.cloudflare.com",
+      "woz.ns.cloudflare.com"
+    ]
+  }
+}
