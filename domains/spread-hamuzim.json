@@ -1,0 +1,12 @@
+{
+  "description": "ES/NQ pairs trading dashboard",
+  "repo": "https://github.com/shacharaj/spread-hamuzim",
+  "owner": {
+    "username": "shacharaj",
+    "email": "shacharaj@gmail.com"
+  },
+  "record": {
+    "CNAME": "nu74ycgvsn7ow6yjbneyjtwrbi0tjabb.lambda-url.eu-west-1.on.aws"
+  },
+  "proxy": true
+}
