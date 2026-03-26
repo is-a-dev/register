@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "nyoni-ctrl",
-    "email": "joshnyonii@gmail.com"
-  },
-  "records": {
-    "CNAME": "my-tech-academy.vercel.app"
-  }
+    "owner": {
+        "username": "nyoni-ctrl"
+    },
+    "records": {
+        "A": ["216.198.79.1"],
+        "TXT": ["vc-domain-verify=nyoni.is-a.dev,2c97340a959d38c12b76"]
+    }
 }
