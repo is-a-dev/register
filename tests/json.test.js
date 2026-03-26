@@ -27,7 +27,7 @@ const optionalRedirectConfigFields = {
     redirect_paths: "boolean"
 };
 
-const blockedFields = ["domain", "internal", "proxy", "reserved", "services", "subdomain"];
+const blockedFields = ["domain", "internal", "proxy", "reserved", "services", "subdomain", "nested", "record"];
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
