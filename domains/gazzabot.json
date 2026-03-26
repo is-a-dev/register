@@ -3,6 +3,7 @@
     "username": "ItsGazzaUK"
   },
   "record": {
-    "CNAME": "itsgazzauk.github.io"
+    "CNAME": "itsgazzauk.github.io",
+    "TXT": ["2a569d528392dabc273ebe477a7a1e"]
   }
 }
