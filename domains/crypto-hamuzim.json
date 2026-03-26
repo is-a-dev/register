@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "shacharaj"
+    "username": "shacharaj",
+    "email": "shacharaj@gmail.com"
   },
   "records": {
     "CNAME": "hbpno37pxbdncrj7skisv3dnai0pykir.lambda-url.eu-west-1.on.aws"
