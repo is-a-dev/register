@@ -1,0 +1,11 @@
+{
+  "description": "Vercel ownership verification for kousikkaranam.is-a.dev",
+  "repo": "https://github.com/kousikkaranam/portfolio-platform",
+  "owner": {
+    "username": "kousikkaranam",
+    "email": "venkatkousik03@gmail.com"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=kousikkaranam.is-a.dev,27fa3985bda8ad74a667"]
+  }
+}
