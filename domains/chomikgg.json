@@ -1,0 +1,16 @@
+{
+    "owner": {
+        "username": "XoliwierX7",
+        "email": "moveminiendo87@gmail.com"
+    },
+    "record": {
+        "SRV": [
+            {
+                "priority": 0,
+                "weight": 5,
+                "port": 26972,
+                "target": "mc300.boxtoplay.com"
+            }
+        ]
+    }
+}
