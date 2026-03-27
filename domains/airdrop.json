@@ -1,6 +1,8 @@
 {
+     "description": "Sharing files from one peer to peer without any server (free of cost)",
     "owner": {
         "username": "harshalsp07"
+        "email": "harshalsapa@gmail.com"
     },
     "records": {
         "CNAME": "airdrop-5kot.onrender.com"
