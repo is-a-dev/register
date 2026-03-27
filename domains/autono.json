@@ -6,9 +6,13 @@
   "description": "Developer Portfolio & Full-stack Social Engine Project (TypeScript/React)",
   "repo": "https://github.com",
   "records": {
-    "CNAME": "autono-pure.vercel.app",
+    "CNAME": "autono-pure.vercel.app"
+  },
+  "subdomains": {
     "_vercel": {
+      "records": {
         "TXT": ["vc-domain-verify=autono.is-a.dev,04e53177692bab64b1e1"]
+      }
     }
   }
 }
