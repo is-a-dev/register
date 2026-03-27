@@ -1,13 +1,14 @@
 {
-  "description": "Developer Portfolio & Full-stack TypeScript Lab Project (Social Engine Demo)",
-  "repo": "https://github.com",
   "owner": {
     "username": "singlebestd-cyber",
     "email": "singlebestd@gmail.com"
   },
+  "description": "Developer Portfolio & Full-stack Social Engine Project (TypeScript/React)",
+  "repo": "https://github.com",
   "records": {
     "CNAME": "autono-pure.vercel.app",
-    "TXT": ["vc-domain-verify=autono.is-a.dev,04e53177692bab64b1e1"]
-  },
-  "proxied": true
+    "_vercel": {
+        "TXT": ["vc-domain-verify=autono.is-a.dev,04e53177692bab64b1e1"]
+    }
+  }
 }
