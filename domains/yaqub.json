@@ -1,0 +1,11 @@
+{
+  "description": "Y4qub Project",
+  "repo": "https://github.com/FarizalMYaqub/register",
+  "owner": {
+    "username": "FarizalMYaqub",
+    "email": "farizalmaulanayaqub@outlook.com"
+  },
+  "record": {
+    "NS": ["naomi.ns.cloudflare.com", "simon.ns.cloudflare.com"]
+  }
+}
