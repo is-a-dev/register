@@ -1,4 +1,6 @@
 {
+  "description": "Personal n8n automation instance",
+  "domain": "tolcodedme",
   "owner": {
     "username": "tolcodedme",
     "email": "tolcodedme@gmail.com"
