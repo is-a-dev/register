@@ -9,7 +9,8 @@
     "Twitter": "aasteriskz"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": ["vc-domain-verify=adarshsetty.is-a.dev,f15e124684042426a123"]
   },
   "proxied": false
 }
