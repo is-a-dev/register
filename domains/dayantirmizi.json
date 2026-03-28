@@ -3,7 +3,8 @@
         "username": "selfexlezgo",
         "email": "lhgdayan@gmail.com"
     },
-    "records": {
-        "CNAME": "selfexlezgo.github.io"
+    "record": {
+        "A": ["216.198.79.1"],
+        "TXT": ["vc-domain-verify=dayantirmizi.is-a.dev,b71f83985077bbb24f49"]
     }
 }
