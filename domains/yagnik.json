@@ -1,11 +1,9 @@
 {
   "owner": {
-    "username": "yaagnik-patel",
-    "email": "yagnikpatel24818@gmail.com"
+    "username": "yagnik2408",
+    "email": "yagnikdomadiya007@gmail.com"
   },
-  "proxied": true,
-  "records": {
-    "CNAME": "portfolio-git-main-yaagnik-patels-projects.vercel.app",
-    "TXT": "vc-domain-verify=yagnik.is-a.dev,a847575435db916293d3"
+  "record": {
+    "CNAME": "yagnik2408.github.io"
   }
 }
