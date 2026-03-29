@@ -6,6 +6,7 @@
     "email": "ravikiranpadalsagina@gmail.com"
   },
   "records": {
-    "CNAME": "ravi-portfolio-lovat.vercel.app"
+    "CNAME": "ravi-portfolio-lovat.vercel.app",
+    "TXT": "vc-domain-verify=ravikiran.is-a.dev,1bee1de7bd7439574957"
   }
 }
