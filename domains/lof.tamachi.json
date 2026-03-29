@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
+    "owner": {
+      "username": "lakefront5027",
+      "email": "3031315027ghb@gmail.com"
+    },
+    "records": {
+      "CNAME": "my-arbitrage.pages.dev"
+    }
+  }
