@@ -5,5 +5,11 @@
   },
   "records": {
     "CNAME": "naomer.github.io"
+     "MX": [
+            { "priority": 10, "value": "route1.mx.cloudflare.net." },
+            { "priority": 20, "value": "route2.mx.cloudflare.net." },
+            { "priority": 30, "value": "route3.mx.cloudflare.net." }
+        ],
+        "TXT": "v=spf1 include:_spf.mx.cloudflare.net ~all"
   }
 }
