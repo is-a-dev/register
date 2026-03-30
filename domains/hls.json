@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "zainaqdas"
-    },
-    "records": {
-        "CNAME": "a7445ee19648f3b7.vercel-dns-017.com."
-      "TXT": "vc-domain-verify=www.hls.is-a.dev,ec024e66237f43b71354"
-    }
+  "description": "My personal website",
+  "repo": "https://github.com/zainaqdas/hls-player",
+  "owner": {
+    "username": "zainaqdas",
+    "email": "sczainaqdas@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
