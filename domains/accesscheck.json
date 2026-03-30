@@ -1,0 +1,10 @@
+{
+    "owner": {
+          "username": "peaklineops",
+          "email": "peakline.ops@gmail.com"
+    },
+    "description": "Website Accessibility Compliance Tool - automated WCAG scanning and reporting",
+    "records": {
+          "CNAME": "accesscheck-app.netlify.app"
+    }
+}
