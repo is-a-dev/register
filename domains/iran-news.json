@@ -1,11 +1,11 @@
- {
+{                                                                                                                                                                              
     "description": "Iran news aggregator from Telegram channels",
     "repo": "https://github.com/alv75/telegram-translator",
     "owner": {
       "username": "alv75",
       "email": "andrea.livigni@gmail.com"
     },
-    "record": {
+    "records": {
       "CNAME": "telegram-translator-1wds.onrender.com"
     }
   }
