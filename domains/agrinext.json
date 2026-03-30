@@ -1,0 +1,20 @@
+{
+    "description": "AgriNext Plant Monitor Dashboard",
+    "repo": "https://github.com/YOURGITHUBUSERNAME",
+    "owner": {
+        "username": "YOURGITHUBUSERNAME",
+        "email": "YOUREMAIL@university.edu"
+    },
+    "record": {
+        "CNAME": "manufacturer-immune-pursue-separated.trycloudflare.com"
+    }
+}
+```
+
+Replace:
+- `YOURGITHUBUSERNAME` with your actual GitHub username
+- `YOUREMAIL@university.edu` with your university email
+
+Commit the file with message:
+```
+add agrinext.is-a.dev
