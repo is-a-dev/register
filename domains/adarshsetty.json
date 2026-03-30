@@ -9,7 +9,7 @@
     "Twitter": "aasteriskz"
   },
   "records": {
-    "CNAME": "aasteriskz7.github.io"
+    "CNAME": "cname.vercel-dns.com"
   },
-  "proxied": true
+  "proxied": false
 }
