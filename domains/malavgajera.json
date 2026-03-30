@@ -2,10 +2,10 @@
   "description": "Personal portfolio — Backend & Cloud Engineer",
   "repo": "https://github.com/malav-250/portfolio",
   "owner": {
-    "username": "malav-250",
+    "username": "malavgajera250",
     "email": "gajera.ma@northeastern.edu"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
