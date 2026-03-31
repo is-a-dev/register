@@ -1,9 +1,10 @@
 {
-    "owner": {
-          "username": "liskasYR",
-          "email": "AndreiYonatan2012@walla.com"
-    },
-    "records": {
-          "CNAME": "cname.vercel-dns.com"
-    }
+      "owner": {
+              "username": "liskasYR",
+              "email": "AndreiYonatan2012@walla.com"
+      },
+      "records": {
+              "A": ["216.198.79.1"],
+              "TXT": ["vc-domain-verify=liskcell.is-a.dev,92d99b15dde567037268"]
+      }
 }
