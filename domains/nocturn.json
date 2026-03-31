@@ -5,7 +5,7 @@
     "username": "KishoreMuruganantham",
     "email": "kishore.muruganantham@gmail.com"
   },
-  "record": {
-    "CNAME": "nocturn.is-a.dev.surge.sh"
+  "records": {
+    "CNAME": "nocturn-app.surge.sh"
   }
 }
