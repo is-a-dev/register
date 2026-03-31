@@ -1,12 +1,12 @@
-{
-    "owner": {
-        "username": "lingkesh099-spec",
-        "email": "YOUR_EMAIL_HERE"
-    },
-    "record": {
-        "NS": [
-            "leah.ns.cloudflare.com",
-            "terry.ns.cloudflare.com"
-        ]
-    }
+{{
+  "owner": {
+    "username": "lingkesh099-spec",
+    "email": "lingkesh099@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "leah.ns.cloudflare.com",
+      "terry.ns.cloudflare.com"
+    ]
+  }
 }
