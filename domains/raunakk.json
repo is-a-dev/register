@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "mayberaunak",
+    "email": "mayberaunak@protonmail.com"
+  },
+  "records": {
+    "CNAME": "https://mayberaunak.github.io/"
+  }
+}
