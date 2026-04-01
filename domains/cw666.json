@@ -1,12 +1,10 @@
+
 {
-  "owner": {
-    "username": "bbhdy",
-    "email": "cwc3382@gmail.com"
-  },
-  "records": {
-    "NS": [
-      "boyd.ns.cloudflare.com",
-      "delilah.ns.cloudflare.com"
-    ]
-  }
+    "owner": {
+        "username": "bbhdy",
+        "email": "cwc3382@gmail.com"
+    },
+    "record": {
+        "CNAME": "cw690521.indevs.in"
+    }
 }
