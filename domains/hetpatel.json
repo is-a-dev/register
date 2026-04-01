@@ -4,7 +4,9 @@
         "email": "hetfaldu19@gmail.com"
     },
     "records": {
-        "CNAME": "portfolio.hetfaldu19.workers.dev"
-    },
-    "proxied": true
+        "NS": [
+            "kia.ns.cloudflare.com",
+            "phil.ns.cloudflare.com"
+        ]
+    }
 }
