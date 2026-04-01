@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "HP-002",
+        "email": "hetfaldu19@gmail.com"
+    },
+    "records": {
+        "CNAME": "portfolio.hetfaldu19.workers.dev"
+    },
+    "proxied": true
+}
