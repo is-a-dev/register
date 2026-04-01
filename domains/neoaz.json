@@ -3,7 +3,11 @@
         "username": "NeoKEX",
         "email": "neoaz69x@gmail.com"
     },
+    "description": "Personal Website and API Documentation",
     "records": {
-        "A": ["216.198.79.1"]
+        "NS": [
+            "miki.ns.cloudflare.com",
+            "will.ns.cloudflare.com"
+        ]
     }
 }
