@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "allucat1000"
+    "username": "allucat1000",
+    "email": "allucat1000@gmail.com"
   },
   "records": {
     "NS": ["raphaela.ns.cloudflare.com", "steven.ns.cloudflare.com"]
