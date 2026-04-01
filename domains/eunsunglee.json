@@ -4,6 +4,10 @@
     "email": "eunsung_lee@hotmail.com" 
   },
   "records": {
-    "CNAME": "portfolio-6vr.pages.dev"
+    "CNAME": "portfolio-6vr.pages.dev",
+    "NS": [
+      "chan.ns.cloudflare.com",
+      "rudy.ns.cloudflare.com"
+    ]
   }
 }
