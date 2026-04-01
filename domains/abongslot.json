@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "abongslot-dev",
+    "email": "rsh74772@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "description": "Administrative dashboard for gaming management built with Next.js"
+}
