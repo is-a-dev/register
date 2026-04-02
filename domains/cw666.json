@@ -4,6 +4,6 @@
         "email": "cwc3382@gmail.com"
     },
     "records": {
-        "CNAME": "cw690521.indevs.in"
+        "A": ["97.64.18.123"]
     }
 }
