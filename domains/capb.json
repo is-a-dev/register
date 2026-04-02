@@ -1,0 +1,39 @@
+{
+  "owner": {
+    "name": "Aarham-Super",
+    "email": "aarhamameen17@gmail.com"
+  },
+  "name": "CAPB Pages",
+  "description": "CAPB Pages (Captcha Both) is a personal software development hub and project showcase platform, hosting nested developer projects, interactive demos, and tutorials.",
+  "url": "https://capb.pages.dev/",
+  "screenshot": "https://i.imgur.com/1VrTyfK.jpeg",
+  "domains": [
+    {
+      "subdomain": "capb",
+      "target": "https://capb.pages.dev/",
+      "records": [
+        {
+          "type": "CNAME",
+          "name": "capb",
+          "target": "capb.pages.dev",
+          "ttl": 3600
+        },
+        {
+          "type": "A",
+          "name": "capb",
+          "target": "192.0.2.1",
+          "ttl": 3600
+        },
+        {
+          "type": "TXT",
+          "name": "capb",
+          "target": "verification=capb-pages",
+          "ttl": 3600
+        }
+      ]
+    }
+  ],
+  "type": "personal",
+  "tags": ["software development", "web tools", "developer portfolio", "Cloudflare Pages"],
+  "commercial": false
+}
