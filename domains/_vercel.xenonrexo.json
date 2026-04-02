@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "shshams",
-    "email": "shahadathossenshams@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=xenonrexo.is-a.dev,8fbb85bd77adeb090add"
-  }
+    "owner": {
+        "username": "shshams",
+        "email": "shahadathossenshams@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=is-a.dev,0cef4c631cd688abf7a7"
+    }
 }
