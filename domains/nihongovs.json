@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "HumanCronAdmin"
+        "username": "HumanCronAdmin",
+        "twitter": "petitedevlog"
     },
     "records": {
         "CNAME": "humancronadmin.github.io"
