@@ -1,0 +1,27 @@
+{
+  "owner": {
+    "username": "masskingslin",
+    "email": "masskingslin@gmail.com"
+  },
+  "record": {
+    "CNAME": "kingslin.is-a.dev"
+  }
+}
+```
+> Replace `masskingslin@gmail.com` with your real email (optional but recommended)
+
+---
+
+## Step 4 — Commit the file
+
+Scroll down → tap **Commit changes** → tap **Commit changes** again to confirm.
+
+---
+
+## Step 5 — Open Pull Request
+
+Tap **Contribute** → **Open pull request** → **Create pull request**
+
+In the title write:
+```
+add kingslin.is-a.dev
