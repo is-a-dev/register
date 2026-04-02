@@ -1,9 +1,11 @@
 {
+  "description": "My portfolio",
+  "repo": "https://github.com/kiuhip/portfolio",
   "owner": {
     "username": "kiuhip",
     "email": "kieuthehiep@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "kiuhip.vercel.app"
   }
 }
