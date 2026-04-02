@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "aymneidasi-lab",
-    "email": "aymneidasi@gmail.com"
+    "email": "aymneidasi@gmail.com",
+    "twitter": "YOUR_TWITTER_USERNAME"
   },
   "records": {
-    "CNAME": "b177316613efb3c4.vercel-dns-017.com."
+    "CNAME": "b177316613efb3c4.vercel-dns-017.com"
   }
 }
