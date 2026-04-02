@@ -1,10 +1,9 @@
 {
-  "description": "hurelhuyag.is-a.dev",
   "owner": {
     "username": "hurelhuyag",
     "email": "hurelhuyag@gmail.com"
   },
   "records": {
-    "CNAME": "hurelhuyag.github.io"
+    "TXT": "20e2d83429e974399cae1b957618ba"
   }
 }
