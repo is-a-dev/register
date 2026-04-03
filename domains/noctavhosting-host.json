@@ -1,0 +1,11 @@
+{
+    "description": "NoctavHosting",
+    "domain": "is-a.dev",
+    "subdomain": "noctavhosting-host",
+    "owner": {
+        "username": "Noctavia"
+    },
+    "record": {
+        "CNAME": "noctavhosting.cfargotunnel.com"
+    }
+}
