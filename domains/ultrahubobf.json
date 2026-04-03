@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "ultrahubteam-dot"
+  },
+  "records": {
+    "CNAME": "m9mdldhi.up.railway.app",
+    "TXT": [
+      "railway-verify=cbca964972abbd5e8e737bbc0191bd8bb91fb5a5bc3dc162510c5300aa910ee8"
+    ]
+  },
+  "proxied": true
+}
