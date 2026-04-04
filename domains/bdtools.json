@@ -3,7 +3,10 @@
     "username": "itszubariel",
     "repo": "https://github.com/itszubariel/BDTools"
   },
-  "record": {
-    "CNAME": "bdtools.netlify.app"
+  "records": {
+    "CNAME": {
+      "@": "bdtools.netlify.app",
+      "www": "bdtools.netlify.app"
+    }
   }
 }
