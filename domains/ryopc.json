@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "ryotagtagtag-wq",
+    "email": "ryotagtagtag@gmail.com"
+  },
+  "description": "PC support network headquarters",
+  "records": {
+    "NS": [
+      "://cloudflare.com",
+      "://cloudflare.com"
+    ]
+  }
+}
