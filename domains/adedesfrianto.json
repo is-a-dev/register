@@ -5,7 +5,7 @@
     "username": "adedesfrianto",
     "email": "adedesfrianto@gmail.com"
   },
-  "records": {
-    "CNAME": "portfolio-hub-ashy.vercel.app"
+  "record": {
+    "A": ["76.76.21.21"]
   }
 }
