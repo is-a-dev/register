@@ -4,6 +4,6 @@
     "email": "seraphinn0508@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=seraphin.is-a.dev,2a9cc35e9ec747e0b5ca"
   }
 }
