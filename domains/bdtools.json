@@ -4,9 +4,6 @@
     "repo": "https://github.com/itszubariel/BDTools"
   },
   "records": {
-    "CNAME": {
-      "@": "bdtools.netlify.app",
-      "www": "bdtools.netlify.app"
-    }
+    "CNAME": "bdtools.netlify.app"
   }
 }
