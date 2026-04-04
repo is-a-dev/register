@@ -4,6 +4,9 @@
     "email": "siddhib011@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=www.siddhi.is-a.dev,6011f9debce386712503"
+    ]
   }
 }
