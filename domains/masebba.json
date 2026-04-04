@@ -3,7 +3,7 @@
         "username": "masebba"
     },
     "records": {
-        "CNAME": "0d0a7eb1e727f673.vercel-dns-017.com."
-        "TXT": "vc-domain-verify=www.masebba.is-a.dev,f1e1eb1a23b290bb0838"
+        "CNAME": "_github-pages-challenge-Masebba.masebba.is-a.dev"
+        "TXT": "7a8fd833e87dff334586b4a60f3400"
     }
 }
