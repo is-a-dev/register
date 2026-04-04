@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "jpfernandezgit",
-    "email": "jelubrlu@gmail.com"
+    "username": "jpfernandezgit"
   },
-  "record": {
+  "records": {
     "CNAME": "musicit-app.whiteriver-1698a46e.westeurope.azurecontainerapps.io"
   }
 }
