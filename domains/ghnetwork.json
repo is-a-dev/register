@@ -1,0 +1,16 @@
+{
+    "owner": {
+        "username": "GokalpHizmetleri"
+    },
+    "records": {
+        "A": ["dynamic-10.magmanode.com"],
+        "SRV": {
+            "_minecraft._tcp": {
+                "priority": 0,
+                "weight": 5,
+                "port": 25778,
+                "target": "ghnetwork.is-a.dev"
+            }
+        }
+    }
+}
