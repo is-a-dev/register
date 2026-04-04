@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "aymneidasi-lab",
+    "email": "aymneidasi@gmail.com",
+    "twitter": "civilengsuite"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": "vc-domain-verify=civilengsuite.is-a.dev,017875f033b8e43e512c"
+  }
+}
