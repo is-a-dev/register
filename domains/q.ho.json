@@ -1,11 +1,11 @@
 {
-  "description": "Personal redirection for my main portfolio at jiwho.web.app",
+  "description": "for using short share URL for thisquizismine.ho.is-a.dev",
   "repo": "https://github.com/hiJiwho/M2U",
   "owner": {
     "username": "hiJiwho",
     "email": "hi.jiwho@gmail.com"
   },
   "records": {
-    "CNAME": "hiho.web.app"
+    "CNAME": "tqim.web.app"
   }
 }
