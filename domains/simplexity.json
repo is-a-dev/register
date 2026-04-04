@@ -1,1 +1,9 @@
-{"owner":{"username":"algoplexity","email":"yeuwen.mak@u.nus.edu"},"records":{"CNAME":"algoplexity.github.io"}}
+{
+  "owner": {
+    "username": "algoplexity",
+    "email": "yeuwen.mak@u.nus.edu"
+  },
+  "records": {
+    "CNAME": "algoplexity.github.io"
+  }
+}
