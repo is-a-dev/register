@@ -1,0 +1,11 @@
+{                                                         
+    "description": "WatchTower - Website monitoring tool",
+    "repo": "https://github.com/Pranavkok/WatchTower",    
+    "owner": {                                                                                                                 
+      "username": "Pranavkok",                                                                                                 
+      "email": "pranavkokoff@gmail.com"                                                                                        
+    },                                                                                                                         
+    "record": {                                                                                                                
+      "A": ["13.53.78.45"]
+    }                                                                                                                          
+  }
