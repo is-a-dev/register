@@ -1,9 +1,9 @@
 {
-      "owner": {
+    "owner": {
         "username": "MurugeshAravind",
         "email": "arvindh.balasubramaniam@gmail.com"
-      },
-      "records": {
-        "A": ["76.76.21.21"]
-      }
-  }
+    },
+    "records": {
+        "CNAME": "murugesh-aravind.netlify.app"
+    }
+}
