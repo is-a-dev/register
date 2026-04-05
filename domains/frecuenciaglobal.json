@@ -1,0 +1,25 @@
+{
+  "owner": {
+    "username": "59gray",
+    "email": "frecuenciag@outlook.com"
+  },
+  "description": "Frecuencia Global - Developer portfolio and international analysis project",
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "MX": [
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 10
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      "forward-email=contact:frecuenciag@outlook.com"
+    ]
+  }
+}
