@@ -1,11 +1,9 @@
 {
-    "description": "Skeiy portfolio",
-    "repo": "https://github.com/SkeiyNotTaken/SkeiyNotTaken.github.io",
-    "owner": {
-        "username": "SkeiyNotTaken",
-        "email": "grugrugagagugu@gmail.com"
-    },
-    "record": {
-        "CNAME": "SkeiyNotTaken.github.io"
-    }
+  "owner": {
+    "username": "SkeiyNotTaken",
+    "email": "grugrugagagugu@gmail.com"
+  },
+  "records": {
+    "CNAME": "SkeiyNotTaken-is-a-dev.pages.dev"
+  }
 }
