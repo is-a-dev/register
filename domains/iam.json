@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "ChristopherJohn1972",
+        "email": "curlsjamin@gmail.com"
+    },
+    "description": "Enterprise IAM authentication service with JWT token rotation, WebAuthn biometric login, RBAC, risk-based authentication, and audit logging",
+    "records": {
+        "CNAME": "your-app.onrender.com"
+    }
+}
