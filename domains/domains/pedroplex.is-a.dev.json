@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "priomero97-oss",
+    "email": "TU_EMAIL_AQUI"
+  },
+  "record": {
+    "NS": [
+      "ns1.cloudflare.com",
+      "ns2.cloudflare.com"
+    ]
+  }
+}
