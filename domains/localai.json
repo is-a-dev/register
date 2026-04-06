@@ -1,11 +1,9 @@
 {
   "owner": {
-    "username": "haoyangtu09-art"
+    "username": "haoyangtu09-art",
+    "email": "haoyangtu09@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "7538d96e-09df-48c6-bfc8-93db84e7d6f9.cfargotunnel.com"
-    }
-  ]
+  "records": {
+    "CNAME": "7538d96e-09df-48c6-bfc8-93db84e7d6f9.cfargotunnel.com"
+  }
 }
