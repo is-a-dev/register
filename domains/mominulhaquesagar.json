@@ -4,6 +4,7 @@
     "email": "mominulhaquesagar@gmail.com"
   },
   "records": {
-    "CNAME": "momin-portfolio-five.vercel.app"
+    "CNAME": "momin-portfolio-five.vercel.app",
+    "CNAME_www": "cname.vercel-dns.com"
   }
 }
