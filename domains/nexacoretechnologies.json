@@ -1,14 +1,9 @@
 {
   "owner": {
     "username": "Gavaash",
-     "name": "Gavaash",
-     "email": "gavaa8903@gmail.com"
+    "email": "gavaa8903@gmail.come"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "name": "@",
-      "value": "test-gva.netlify.app"
-    }
-  ]
-}
+  "records": {
+    "CNAME": "test-gva.netlify.appo"
+  }
+} 
