@@ -1,0 +1,26 @@
+{
+    "owner": {
+        "username": "naman10parikh",
+        "email": "naman10parikh@gmail.com"
+    },
+    "description": "AgentDial — open source agent identity protocol. Email routing for AI agents.",
+    "records": {
+        "MX": [
+            {
+                "priority": 10,
+                "value": "isaac.mx.cloudflare.net"
+            },
+            {
+                "priority": 20,
+                "value": "linda.mx.cloudflare.net"
+            },
+            {
+                "priority": 30,
+                "value": "amir.mx.cloudflare.net"
+            }
+        ],
+        "TXT": [
+            "v=spf1 include:_spf.mx.cloudflare.net ~all"
+        ]
+    }
+}
