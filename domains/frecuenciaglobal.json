@@ -1,0 +1,13 @@
+﻿{
+  "description": "Publishing automation system built with Python, Astro, Playwright, and n8n",
+  "owner": {
+    "username": "59gray",
+    "email": "frecuenciag@outlook.com"
+  },
+  "records": {
+    "CNAME": "59gray.github.io",
+    "TXT": "forward-email-site-verification=lnxHP2KRia",
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"]
+  },
+  "proxied": true
+}
