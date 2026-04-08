@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "username": "Swastik-4752",
-    "email": "bankarswastik@gmail.com"
-  },
-  "records": {
-    "CNAME": "maglev.proxy.rlwy.net"
-  }
+    "owner": {
+        "username": "Swastik-4752",
+        "email": "bankarswastik@mail.com"
+    },
+    "records": {
+        "CNAME": "r8z12m7g.up.railway.app",
+        "TXT": {
+            "_railway-verify": "railway-verify=d5b24fb5b797a70ee344b50e2aa6e0fa535b55a4085855adef4114a47f7e6b0f"
+        }
+    }
 }
