@@ -1,0 +1,42 @@
+{
+    "owner": {
+        "username": "BatGamesDev"
+    },
+    "records": {
+        "A": {
+            "@": "76.76.21.21"
+        },
+        "CAA": {
+            "0_issue": "letsencrypt.org",
+            "0_issuewild": "letsencrypt.org"
+        },
+        "NS": [
+            "ns71.cloudns.net",
+            "ns72.cloudns.com",
+            "ns73.cloudns.net",
+            "ns74.cloudns.uk"
+        ],
+        "TXT": {
+            "_dmarc": "v=DMARC1; p=none",
+            "_vercel": "vc-domain-verify=lockedin.int.yt,75770057c940a190ec8f",
+            "_swiftservers.play": "07ee81dca133f240f4595186c2ebbac9dd8f992684da4204087693378d13adb3"
+        },
+        "CNAME": {
+            "status": "statuspage.betteruptime.com"
+        },
+        "SRV": {
+            "_minecraft._tcp.play": {
+                "priority": 0,
+                "weight": 0,
+                "port": 25565,
+                "target": "lockedin.swiftservers.org"
+            },
+            "_minecraft._tcp.oneblock": {
+                "priority": 0,
+                "weight": 0,
+                "port": 25565,
+                "target": "lockedin2.swiftservers.org"
+            }
+        }
+    }
+}
