@@ -4,6 +4,6 @@
     "email": "russeldanielpaul@gmail.com"
   },
   "records": {
-    "CNAME": "russeldanielpaul.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
