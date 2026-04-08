@@ -4,6 +4,7 @@
     "email": "zhiyaonaiara@gmail.com"
   },
   "records": {
-    "URL": "https://nazhida.es"
-  }
+    "CNAME": "https://nazhida.es"
+  },
+  "proxied": true
 }
