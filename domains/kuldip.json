@@ -1,11 +1,11 @@
 {
-  "description": "Senior AI/ML Engineer(Computer Vision) portfolio",
+  "description": "Computer Vision and AI/ML Engineer portfolio",
   "repo": "https://github.com/KuldipThakar/kuldip.github.io",
   "owner": {
     "username": "KuldipThakar",
     "email": "kuldip.thakar@developer.com"
   },
-  "record": {
-    "CNAME": "KuldipThakar.github.io"
+  "records": {
+    "CNAME": "kuldipthakar.github.io"
   }
 }
