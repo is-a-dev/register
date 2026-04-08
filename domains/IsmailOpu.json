@@ -1,0 +1,12 @@
+{
+  "description": "Ismail Opu's portfolio",
+  "domain": "is-a.dev",
+  "subdomain": "IsmailOpu",
+  "owner": {
+    "username": "IsmailOpu1",
+    "email": "your@email.com"
+  },
+  "record": {
+    "CNAME": "portfolio-n1x1affj2-ismailopu1s-projects.vercel.app"
+  }
+}
