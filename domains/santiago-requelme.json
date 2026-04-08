@@ -9,5 +9,5 @@
       "_vercel": "vc-domain-verify=www.santiago-requelme.is-a.dev,32ba206c73a4145321a7"
     }
   },
-  "proxied": false
+  "proxied": true
 }
