@@ -1,0 +1,10 @@
+{
+  "description": "Vercel verification for lky",
+  "owner": {
+    "username": "Isafe-nk",
+    "email": "onlyink.club@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=lky.is-a.dev,22f82ddfa6b2994a1609"
+  }
+}
