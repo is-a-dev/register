@@ -3,11 +3,11 @@
     "username": "santirequelme",
     "email": "santireke37@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "51a716b2bfa09313.vercel-dns-017.com",
     "TXT": {
       "_vercel": "vc-domain-verify=www.santiago-requelme.is-a.dev,32ba206c73a4145321a7"
     }
   },
-  "proxied": true
+  "proxied": false
 }
