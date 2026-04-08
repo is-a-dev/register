@@ -1,9 +1,9 @@
 {
-    "owner": {
-          "username": "AmaDeusAlsoSatan",
-          "email": "odachisamadesu@gmail.com"
-    },
-    "record": {
-          "CNAME": "amadeusalsosatan.github.io"
-    }
+      "owner": {
+              "username": "AmaDeusAlsoSatan",
+              "email": "odachisamadesu@gmail.com"
+      },
+      "records": {
+              "CNAME": "amadeusalsosatan.github.io"
+      }
 }
