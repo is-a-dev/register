@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "ireneacqua"
+    "username": "ireneacqua",
+    "email": "tuaemail@gmail.com"
   },
-  "records": {
-    "CNAME": "globalawakening2.irenebrambilla.workers.dev"
+  "record": {
+    "CNAME": "ireneacqua.github.io"
   }
 }
