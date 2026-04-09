@@ -4,6 +4,9 @@
         "discord": "_the.spectre_"
     },
     "records": {
-        "TXT": "vc-domain-verify=urls.chaitanyashah.is-a.dev,c5d0313a0fd58887941d"
+        "TXT": [
+            "vc-domain-verify=urls.chaitanyashah.is-a.dev,c5d0313a0fd58887941d",
+            "vc-domain-verify=nexus-search.chaitanyashah.is-a.dev,81b5f449c07b2a09ec04"
+        ]
     }
 }
