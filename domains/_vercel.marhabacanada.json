@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "slimanedev"
+        "username": "slimanedev",
+        "email": "slimane.agl@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=www.marhabacanada.is-a.dev,2d86c8f8873a24c49aca"
+        "TXT": "vc-domain-verify=marhabacanada.is-a.dev,2d86c8f8873a24c49aca"
     }
 }
