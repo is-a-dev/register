@@ -1,0 +1,11 @@
+{
+    "domain": "is-a.engineer",
+    "subdomain": "yongming",
+    "owner": {
+        "username": "Voruki",
+        "email": "yongming914@gmail.com"
+    },
+    "record": {
+        "CNAME": "voruki.github.io" 
+    }
+}
