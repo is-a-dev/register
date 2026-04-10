@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "viktoras-jego",
+    "email": "viktoras.jego@gmail.com"
+  },
+  "records": {
+    "TXT": ["v=DMARC1; p=none;"]
+  }
+}
