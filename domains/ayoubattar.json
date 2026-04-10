@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "ATTARAYOUB"
+    "username": "ATTARAYOUB",
+    "email": "itsayoubattar@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "profile-ayoub.pages.dev"
   }
 }
