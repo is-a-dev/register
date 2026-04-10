@@ -1,0 +1,11 @@
+{
+  "description": "Personal developer portfolio for data science, MLOps, and machine learning projects",
+  "repo": "https://github.com/aidanpercy/portfolio",
+  "owner": {
+    "username": "aidanpercy",
+    "email": "aidanpercy88@gmail.com"
+  },
+  "records": {
+    "CNAME": "aidanpercy.github.io"
+  }
+}

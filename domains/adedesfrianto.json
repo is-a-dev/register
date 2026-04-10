@@ -6,6 +6,6 @@
     "email": "adedesfrianto@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-hub-ashy.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
