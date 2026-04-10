@@ -4,7 +4,7 @@
     "email": "viktoras.jego@gmail.com"
   },
   "records": {
-    "MX": ["10 feedback-smtp.eu-west-1.amazonses.com"],
+    "MX": ["feedback-smtp.eu-west-1.amazonses.com"],
     "TXT": ["v=spf1 include:amazonses.com ~all"]
   }
 }
