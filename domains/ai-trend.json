@@ -1,11 +1,9 @@
 {
-  "description": "AI Trend Blog - AI technology trends, insights, and practical guides",
-  "repo": "https://github.com/blogcompany0/blogcompany0.github.io",
   "owner": {
     "username": "blogcompany0",
-    "email": "blogcompany0@gmail.com"
+    "email": ""
   },
-  "record": {
+  "records": {
     "CNAME": "blogcompany0.github.io"
   }
 }
