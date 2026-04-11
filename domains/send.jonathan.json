@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "jonathan-shemer",
+        "email": "shemer.yonatan.mail@gmail.com"
+    },
+    "records": {
+        "MX": [
+            {
+                "priority": 10,
+                "target": "feedback-smtp.us-east-1.amazonses.com"
+            }
+        ],
+        "TXT": "v=spf1 include:amazonses.com ~all"
+    }
+}

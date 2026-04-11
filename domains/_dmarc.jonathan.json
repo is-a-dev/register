@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "jonathan-shemer",
+        "email": "shemer.yonatan.mail@gmail.com"
+    },
+    "records": {
+        "TXT": "v=DMARC1; p=none;"
+    }
+}
