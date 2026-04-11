@@ -5,9 +5,9 @@
   },
   "records": {
     "MX": [
-      { "priority": 10, "value": "route1.mx.cloudflare.net" },
-      { "priority": 20, "value": "route2.mx.cloudflare.net" },
-      { "priority": 50, "value": "route3.mx.cloudflare.net" }
+      { "priority": 10, "target": "route1.mx.cloudflare.net" },
+      { "priority": 20, "target": "route2.mx.cloudflare.net" },
+      { "priority": 50, "target": "route3.mx.cloudflare.net" }
     ]
   }
 }
