@@ -1,0 +1,11 @@
+{
+  "description": "Cloud Digital RDP/VPS Shop",
+  "repo": "https://github.com/DexCodeSX",
+  "owner": {
+    "username": "DexCodeSX",
+    "email": "windowbisam@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
