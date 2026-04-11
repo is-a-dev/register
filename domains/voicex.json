@@ -3,6 +3,8 @@
     "username": "dr4y17",
     "email": "dr4y17@yandex.ru"
   },
-  "records": {},
+  "records": {
+    "A": ["188.243.182.135"]
+  },
   "proxied": false
 }
