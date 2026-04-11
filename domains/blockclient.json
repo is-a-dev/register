@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "CatalingamingYT1"
+        "username": "CatalingamingYT1",
+        "email": "catalinulwu12@gmail.com"
     },
-    "records": {
+    "record": {
         "CNAME": "blockclient.pages.dev"
     }
 }
