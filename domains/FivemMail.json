@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Freelancer1754"
+  },
+  "record": {
+    "MX": [
+      { "priority": 10, "value": "route1.mx.cloudflare.net" },
+      { "priority": 20, "value": "route2.mx.cloudflare.net" },
+      { "priority": 50, "value": "route3.mx.cloudflare.net" }
+    ]
+  }
+}
