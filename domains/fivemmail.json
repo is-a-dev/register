@@ -3,7 +3,7 @@
     "username": "Freelancer1754",
     "email": "linus.fuertig@web.de"
   },
-  "record": {
+  "records": {
     "MX": [
       { "priority": 10, "value": "route1.mx.cloudflare.net" },
       { "priority": 20, "value": "route2.mx.cloudflare.net" },
