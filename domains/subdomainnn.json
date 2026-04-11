@@ -1,0 +1,20 @@
+{
+    "owner": {
+        "username": "RocketDelivery2"
+    },
+    "records": {
+        "CNAME": "example.org"
+    }
+}
+
+{
+  "description": "RocketDelivery API",
+  "repo": "https://github.com/RocketDelivery2/rocketdelivery",
+  "owner": {
+    "username": "RocketDelivery2",
+    "email": "codingcowboy2026@gmail.com"
+  },
+  "record": {
+    "CNAME": "RocketDelivery2.github.io"
+  }
+}
