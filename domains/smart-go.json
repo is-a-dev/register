@@ -1,10 +1,7 @@
 {
-    "description": "Smart Go - a web application project",
-    "subdomain": "smart-go",
     "owner": {
         "username": "ABsievil",
-        "repo": "https://github.com/ABsievil/smart-go",
-        "email": "your@email.com"
+        "email": "nccuong317qb@gmail.com"
     },
     "records": {
         "A": ["20.6.128.105"]
