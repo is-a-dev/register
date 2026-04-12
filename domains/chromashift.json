@@ -35,5 +35,7 @@
         "name": "chromashift"
         "value": "inbound-smtp.eu-west-1.amazonaws.com"
         "priority": "10"
+      }
+    ]
   }
 }
