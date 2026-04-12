@@ -6,6 +6,14 @@
     "email": "dogdoh1338@icloud.com"
   },
   "records": {
-    "A": ["168.107.54.158"]
+    "A": ["168.107.54.158"],
+    "MX": [
+      {"target": "mx.zoho.com", "priority": 10},
+      {"target": "mx2.zoho.com", "priority": 20},
+      {"target": "mx3.zoho.com", "priority": 50}
+    ],
+    "TXT": [
+      "v=spf1 include:zoho.com ~all"
+    ]
   }
 }
