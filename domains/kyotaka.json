@@ -3,7 +3,7 @@
         "username": "S4SU",
         "email": "giyutomioka7x0@gmail.com"
     },
-    "records": {
-        "TXT": "vc-domain-verify=kyotaka.is-a.dev,78f7a157262fd5b85e47"
+    "record": {
+        "CNAME": "mahi-zenin.vercel.app"
     }
 }
