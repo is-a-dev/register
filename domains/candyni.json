@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "HanLinMa"
-    },
-    "record": {
-        "CNAME": "hanlinma.github.io"
-    }
+  "owner": {
+    "username": "HanLinMa"
+  },
+  "records": {
+    "CNAME": "hanlinma.github.io"
+  }
 }
-  
