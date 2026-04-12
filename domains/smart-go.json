@@ -1,0 +1,12 @@
+{
+    "description": "Smart Go - a web application project",
+    "domain": "is-a.dev",
+    "subdomain": "smart-go",
+    "owner": {
+        "username": "ABsievil",
+        "repo": "https://github.com/ABsievil/smart-go"
+    },
+    "record": {
+        "A": ["20.6.128.105"]
+    }
+}
