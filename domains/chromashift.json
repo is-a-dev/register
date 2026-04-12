@@ -4,37 +4,28 @@
     "email": "stefano.ceriani@blu.it"
   },
   "records": {
-    "CNAME": "web-chromashift.vercel.app"
+    "CNAME": "web-chromashift.vercel.app",
+
     "TXT": [
       {
-        "name": "resend._domainkey.chromashift"
+        "name": "resend._domainkey.chromashift",
         "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbKWWj30ktXybPCZ/EW+JTURsPgjPrT/bIw9NuNWnkIXz/KYr/yDSMkkGveD6N9+sxJDjUT4yBqqgYIzlqU2ZZo12JEHPRt1Qsq8V4bLIyQPk1Y0joTCi5CPCfQPUACZVS+AAIK3f0IOsR6zi3LwZUYkiuMLVJBQr4VuZ9t9wb1QIDAQAB"
-      }
-    ]
-    "MX": [
+      },
       {
-        "name": "send.chromashift"
-        "value": "feedback-smtp.eu-west-1.amazonses.com"
-        "priority": "10"
-      }
-    ]
-    "TXT": [
-      {
-        "name": "send.chromashift"
+        "name": "send.chromashift",
         "value": "v=spf1 include:amazonses.com ~all"
-      }
-    ]
-    "TXT": [
+      },
       {
-        "name": "_dmarc"
+        "name": "_dmarc",
         "value": "v=DMARC1; p=none;"
       }
-    ]
+    ],
+
     "MX": [
       {
-        "name": "chromashift"
-        "value": "inbound-smtp.eu-west-1.amazonaws.com"
-        "priority": "10"
+        "name": "chromashift",
+        "value": "inbound-smtp.eu-west-1.amazonaws.com",
+        "priority": 10
       }
     ]
   }
