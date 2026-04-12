@@ -4,6 +4,6 @@
         "email": "giyutomioka7x0@gmail.com"
     },
     "records": {
-        "CNAME": "mahi-zenin.vercel.app"
+        "A": ["216.198.79.1"]
     }
 }
