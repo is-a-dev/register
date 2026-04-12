@@ -5,25 +5,5 @@
   },
   "records": {
     "CNAME": "web-chromashift.vercel.app",
-    "TXT": [
-      {
-        "name": "resend._domainkey.chromashift.is-a.dev",
-        "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbKWWj30ktXybPCZ/EW+JTURsPgjPrT/bIw9NuNWnkIXz/KYr/yDSMkkGveD6N9+sxJDjUT4yBqqgYIzlqU2ZZo12JEHPRt1Qsq8V4bLIyQPk1Y0joTCi5CPCfQPUACZVS+AAIK3f0IOsR6zi3LwZUYkiuMLVJBQr4VuZ9t9wb1QIDAQAB"
-      },
-      {
-        "name": "send.chromashift.is-a.dev",
-        "value": "v=spf1 include:amazonses.com ~all"
-      },
-      {
-        "name": "_dmarc.chromashift.is-a.dev",
-        "value": "v=DMARC1; p=none;"
-      }
-    ],
-    "MX": [
-      {
-        "value": "inbound-smtp.eu-west-1.amazonaws.com",
-        "priority": 10
-      }
-    ]
   }
 }
