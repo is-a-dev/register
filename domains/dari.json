@@ -8,12 +8,11 @@
   "records": {
     "A": ["168.107.54.158"],
     "MX": [
-      {"target": "mx.zoho.com", "priority": 10},
-      {"target": "mx2.zoho.com", "priority": 20},
-      {"target": "mx3.zoho.com", "priority": 50}
+      {"target": "mx1.improvmx.com", "priority": 10},
+      {"target": "mx2.improvmx.com", "priority": 20}
     ],
     "TXT": [
-      "v=spf1 include:zoho.com ~all"
+      "v=spf1 include:spf.improvmx.com ~all"
     ]
   }
 }
