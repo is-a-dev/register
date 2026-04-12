@@ -4,7 +4,8 @@
     "subdomain": "smart-go",
     "owner": {
         "username": "ABsievil",
-        "repo": "https://github.com/ABsievil/smart-go"
+        "repo": "https://github.com/ABsievil/smart-go",
+        "email": "nccuong317qb@gmail.com"
     },
     "record": {
         "A": ["20.6.128.105"]
