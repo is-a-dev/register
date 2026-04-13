@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "Katsugachi"
+        "username": "Katsugachi",
+        "email": "pernsaykin@gmail.com"
     },
     "records": {
         "CNAME": "https://katsugachi.github.io/Solus-MS/"
