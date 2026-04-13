@@ -1,0 +1,13 @@
+{
+  "description": "Personal website of Kshitij Koranne \u2014 pharma professional and developer",
+  "owner": {
+    "username": "KshitijKoranne",
+    "email": "kjrlabs9@gmail.com"
+  },
+  "records": {
+    "CNAME": "kkshitij.vercel.app",
+    "TXT": [
+      "vc-domain-verify=kkshitij.is-a.dev,6cc558172170999e91d9"
+    ]
+  }
+}
