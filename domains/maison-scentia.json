@@ -7,5 +7,6 @@
         "CNAME": "maison-scentia.vercel.app",
         "MX": ["feedback-smtp.us-east-1.amazonses.com"],
         "TXT": ["v=spf1 include:amazonses.com ~all"]
-    }
+    },
+    "proxied": true
 }
