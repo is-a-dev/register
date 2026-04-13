@@ -1,0 +1,11 @@
+{
+    "description": "Aquib's personal dev domain",
+    "repo": "https://github.com/aquib4040",
+    "owner": {
+        "username": "aquib4040",
+        "email": "mdaquibjawed1106@gmail.com"
+    },
+    "record": {
+        "CNAME": "aquib4040.github.io"
+    }
+}
