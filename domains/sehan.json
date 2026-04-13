@@ -1,7 +1,9 @@
 {
+  "description": "My portfolio website",
+  "repo": "https://github.com/Dhaneera/portfolio",
   "owner": {
     "username": "Dhaneera",
-    "email": "your-email@example.com"
+    "email": "wickramasuriyashehan@gmail.com"
   },
   "record": {
     "CNAME": "portfolio-steel-chi-3afsh55p91.vercel.app"
