@@ -1,9 +1,12 @@
 {
   "owner": {
-    "username": "itztrmin",
+    "username": itztrmin",
     "email": "t4rminx@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "trmin": {
+      "type": "CNAME",
+      "value": "trmin.pages.dev"
+    }
   }
 }
