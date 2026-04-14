@@ -1,0 +1,8 @@
+{
+    "owner": {
+        "username": "TheRabbiRifat"
+    },
+    "records": {
+        "TXT": ["v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0w5ojtQy4E/gpdadB4vCQsiPQZCs+CcJdqM9kxMf28aarGs0gujP8Gjveq9DcDXXtRCpnwby5tKGGbZ+fpwz5rAKgVzVR9ujUXQg4g/aHoC3cgGvwejh2f1f/okfZFD+pCxuvZyae4C9My6K29GQ0m7E1f5qw0NkHjl3Advy8gr4lFAIdj2lgusujsb52W21ikCtBXFWIA/hQQ7APr8YGSPG4+Z27FyJmHgc3cf5Mg/yDRCI+7WZyJi1qHHppoW3e3uxssAiAp/IQ9BbUN82k28bZGLrjWiExQFjlURp/6MvH8o8pSLhU4m4d/IFz/h2fRlP+2tnGyojEScwnO2FuwIDAQAB;"]
+    }
+}
