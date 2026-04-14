@@ -5,9 +5,7 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com",
-    "TXT": {
-      "_vercel": "vc-domain-verify=gautam-prikshit.is-a.dev,67f64b015b1e1264027e"
-    }
+    "TXT": "vc-domain-verify=gautam-prikshit.is-a.dev,67f64b015b1e1264027e"
   },
   "proxied": true
 }
