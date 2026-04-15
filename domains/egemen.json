@@ -4,6 +4,7 @@
     "email": "muhammedegemengeyik@gmail.com"
   },
   "records": {
-    "CNAME": "bore.pub"
-  }
+    "A": ["92.5.61.58"]
+  },
+  "proxied": true
 }
