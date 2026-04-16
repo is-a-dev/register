@@ -1,11 +1,12 @@
 {
-  "description": "Personal VPN",
+  "description": "Personal VPN Gateway",
   "domain": "is-a.dev",
   "subdomain": "aminvpn",
   "owner": {
-    "username": "Really-amin"
+    "username": "Really-amin",
+    "email": "aminchinisaz@gmail.com"
   },
   "record": {
-    "CNAME": "eds-summaries-strikes-samba.trycloudflare.com"
+    "CNAME": "edge-gateway-pro.amin-chinisaz.workers.dev"
   }
 }
