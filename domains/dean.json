@@ -4,6 +4,7 @@
     "email": "dandepan303@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": ["216.198.79.1"],
+    "TXT": ["zoho-verification=zb71692059.zmverify.zoho.com"]
   }
 }

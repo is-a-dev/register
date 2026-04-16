@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "naquth",
-    "email": "naquth@outlook.com"
-  },
-  "records": {
-    "CNAME": "portofolio-dun-psi.vercel.app"
-  }
+    "owner": {
+        "username": "naquth",
+        "email": "naquth@outlook.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
