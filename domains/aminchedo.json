@@ -1,0 +1,11 @@
+{
+  "description": "Personal VPN",
+  "domain": "is-a.dev",
+  "subdomain": "aminvpn",
+  "owner": {
+    "username": "Really-amin"
+  },
+  "record": {
+    "CNAME": "eds-summaries-strikes-samba.trycloudflare.com"
+  }
+}
