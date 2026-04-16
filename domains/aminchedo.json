@@ -1,10 +1,10 @@
 {
-  "description": "Personal VPN Gateway",
+  "description": "Personal developer gateway",
   "domain": "is-a.dev",
   "subdomain": "aminvpn",
   "owner": {
     "username": "Really-amin",
-    "email": "aminchinisaz@gmail.com"
+    "email": "nima.zasinich@gmail.com"
   },
   "record": {
     "CNAME": "edge-gateway-pro.amin-chinisaz.workers.dev"
