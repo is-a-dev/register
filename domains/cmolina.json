@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "cmolina",
+    "email": "is-a-dev@carlosmolina.cl"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "cmolina-dev.pages.dev",
+    "MX": [
+      { "priority": 40, "target": "route2.mx.cloudflare.net" },
+      { "priority": 64, "target": "route1.mx.cloudflare.net" },
+      { "priority": 99, "target": "route3.mx.cloudflare.net" }
+    ],
+    "TXT": [
+      "v=spf1 include:_spf.mx.cloudflare.net ~all"
+    ]
+  }
+}
