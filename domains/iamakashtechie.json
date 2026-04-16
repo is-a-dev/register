@@ -3,6 +3,7 @@
     "username": "iamakashtechie",
     "email": "akash.techie01@gmail.com"
   },
+  "proxy": true,
   "records": {
     "CNAME": "cname.vercel-dns.com",
     "TXT": "vc-domain-verify=iamakashtechie.is-a.dev,2f2c6756944c5a3a8235"
