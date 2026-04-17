@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "L-Human",
-    "email": "samrazvivaesha@gmail.com"
-  },
-  "record": {
-    "CNAME": "l-human.github.io"
-  }
+    "owner": {
+        "username": "L-Human",
+        "email": "samrazvivaesha@gmail.com"
+    },
+    "record": {
+        "CNAME": "l-human.github.io"
+    }
 }
