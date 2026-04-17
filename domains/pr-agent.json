@@ -1,0 +1,12 @@
+{
+  "description": "Self-hosted Qodo PR-Agent webhook for GitHub org",
+  "repo": "https://github.com/Gotrust-CuongVo/MyMusic",
+  "owner": {
+    "username": "Gotrust-CuongVo",
+    "email": "cuong.vo@gotrust.vn"
+  },
+  "record": {
+    "CNAME": "18aba68c-8228-40e4-b7ae-27535ae76242.cfargotunnel.com"
+  },
+  "proxied": false
+}
