@@ -4,6 +4,10 @@
     "email": "Whimsicalgd@gmail.com"
   },
   "records": {
-    "CNAME": "neptune-bot-bsnj.onrender.com"
+    "CNAME": {
+      "name": "@",
+      "value": "neptune-bot-bsnj.onrender.com",
+      "proxy": false
+    }
   }
 }
