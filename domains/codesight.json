@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "AvixoSec",
-    "email": "Avixosec@gmail.com"
+    "email": "avixosec@gmail.com"
   },
   "records": {
-    "CNAME": "avixosec.github.io"
+    "NS": ["amber.ns.cloudflare.com", "dexter.ns.cloudflare.com"]
   }
-}  
+}
