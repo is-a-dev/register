@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "vbbaccin",
+    "email": "vbbaccin@gmail.com"
+  },
+  "records": {
+    "NS": [
+            "garret.ns.cloudflare.com",
+            "ollie.ns.cloudflare.com"
+        ]
+  }
+}
