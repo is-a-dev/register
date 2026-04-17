@@ -1,0 +1,12 @@
+{
+  "description": "My application server hosted on private VM",
+  "domain": "is-a.dev",
+  "subdomain": "visitlakiweb",
+  "owner": {
+    "email": "lakikishor7@gmail.com"
+  },
+  "record": {
+    "type": "CNAME",
+    "value": "YOUR-TARGET-HERE"
+  }
+}
