@@ -3,7 +3,8 @@
     "username": "Tanisht48",
     "email": "hellsin4869@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "your-tunnel-url.trycloudflare.com"
-  }
+  },
+  "proxied": true
 }
