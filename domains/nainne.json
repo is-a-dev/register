@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "kabosuneko",
-        "email": "kabosuneko@proton.me"
-    },
-    "record": {
-        "CNAME": "kabosuneko.github.io"
-    }
+  "owner": {
+    "username": "kabosuneko",
+    "email": "kabosuneko@proton.me"
+  },
+  "description": "Personal portfolio website",
+  "repo": "https://github.com/kabosuneko/kabosuneko.github.io",
+  "records": {
+    "CNAME": "kabosuneko.github.io"
+  }
 }
