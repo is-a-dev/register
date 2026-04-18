@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "aayyuuuuuu",
+    "username": "meaayu",
     "email": "bishalnepal.np@gmail.com"
   },
   "records": {
-    "CNAME": "aayyuuuuuu.github.io"
-  }
+    "CNAME": "meaayu.github.io"
+  },
+  "proxied": true
 }
