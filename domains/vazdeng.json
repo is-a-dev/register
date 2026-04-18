@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "thaiscvaz",
+    "email": "tvazdataengineer@gmail.com"
+  },
+  "description": "Personal blog of Thais Vaz, Brazilian senior data engineer writing about production data engineering, AI research, and a crypto AI agent built in public.",
+  "repo": "https://github.com/thaiscvaz/vazdeng-blog",
+  "records": {
+    "CNAME": "thaiscvaz.github.io."
+  },
+  "proxied": false
+}
