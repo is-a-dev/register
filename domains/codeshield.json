@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "H-sharma63",
+    "email": "627harshit@gmail.com"
+  },
+  "records": {
+    "codeshield.is-a.dev": {
+      "type": "CNAME",
+      "value": "cname.vercel-dns.com",
+      "description": "The main Next.js frontend for the CodeShield IDE, hosted on Vercel."
+    },
+    "engine.codeshield.is-a.dev": {
+      "type": "A",
+      "value": "136.111.99.43",
+      "description": "The GCP VM running the persistent terminal backend for CodeShield."
+    }
+  }
+}
