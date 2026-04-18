@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "H-sharma63",
+    "email": "627harshit@gmail.com"
+  },
+  "records": {
+    "A": ["136.111.99.43"]
+  },
+  "description": "The GCP VM running the persistent terminal backend for CodeShield."
+}

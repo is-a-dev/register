@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "H-sharma63",
+    "email": "627harshit@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "description": "The main Next.js frontend for the CodeShield IDE, hosted on Vercel."
+}
