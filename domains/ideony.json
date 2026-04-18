@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "aciDrums7",
+    "email": "acidrumstudios@gmail.com"
+  },
+  "description": "Ideony — skilled-trades marketplace for Italy. Open-source dev project.",
+  "repo": "https://github.com/aciDrums7/ideony",
+  "records": {
+    "NS": ["joel.ns.cloudflare.com", "luciana.ns.cloudflare.com"]
+  }
+}
