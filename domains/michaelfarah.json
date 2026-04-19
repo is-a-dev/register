@@ -1,0 +1,33 @@
+{
+  "owner": {
+    "username": "michael-farah"
+  },
+  "records": {
+    "A": [
+      "104.18.4.103",
+      "104.18.5.103"
+    ],
+    "AAAA": [
+      "2606:4700::6812:467",
+      "2606:4700::6812:567"
+    ],
+    "MX": [
+      {
+        "target": "mx1.larksuite.com",
+        "priority": 1
+      },
+      {
+        "target": "mx2.larksuite.com",
+        "priority": 5
+      },
+      {
+        "target": "mx3.larksuite.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "verification-code-site-App_lark=Gk8WRLvRgOIbHPJc9wZI",
+      "v=spf1 +include:spf.onlarksuite.com -all"
+    ]
+  }
+}
