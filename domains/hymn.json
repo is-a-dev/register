@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "hymndavinci"
+    "username": "hymndavinci",
+    "email": "hymndavinci@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "bintangmovies.vercel.app"
   }
 }
