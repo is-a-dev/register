@@ -3,6 +3,6 @@
         "username": "neevets"
     },
     "records": {
-        "A": ["76.76.21.21"]
+        "TXT": ["vc-domain-verify=neevets.is-a.dev,97611aa1948a6f536676"]
     }
 }
