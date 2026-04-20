@@ -27,7 +27,8 @@
     ],
     "TXT": [
       "verification-code-site-App_lark=Gk8WRLvRgOIbHPJc9wZI",
-      "v=spf1 +include:spf.onlarksuite.com -all"
+      "v=spf1 +include:spf.onlarksuite.com -all",
+      "hosting-site=portfolio-mfarah"
     ]
   }
 }

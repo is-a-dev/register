@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "deepakroshan11",
-    "email": "727822tuam011@skct.edu.in"
+    "email": "deepakroshan380@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-orcin-nine-r0bxmvmfu0.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
