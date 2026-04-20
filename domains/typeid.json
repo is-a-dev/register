@@ -1,0 +1,12 @@
+{
+  "description": "TypeID — an 8-puzzle kerning game that reveals your typeface persona",
+  "repo": "https://github.com/raihanr1/typeid",
+  "owner": {
+    "username": "raihanr1",
+    "email": "raihanrobbani123@gmail.com"
+  },
+  "records": {
+    "CNAME": "typeid.pages.dev"
+  },
+  "proxied": false
+}
