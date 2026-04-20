@@ -1,6 +1,5 @@
 {
   "description": "Cisco SD-WAN Calculator tool",
-  "domain": "is-a.dev",
   "subdomain": "sdwan-calculator",
   "owner": {
     "username": "elhadibougrine"
