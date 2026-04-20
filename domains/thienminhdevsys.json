@@ -1,0 +1,11 @@
+{
+    "description": "My GitHub Pages site",
+    "repo": "https://github.com/thienminhdevsys/gh-deployment-workflow",
+    "owner": {
+        "username": "thienminhdevsys",
+        "email": "thien.buiminh.devsys@gmail.com"
+    },
+    "record": {
+        "CNAME": "thienminhdevsys.github.io"
+    }
+}
