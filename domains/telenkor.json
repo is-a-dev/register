@@ -3,6 +3,7 @@
         "username": "telenkor",
         "email": "regdvc@gmail.com"
     },
+    "proxied": true,
     "records": {
         "CNAME": "telenkor.github.io",
         "MX": ["mx1.beget.com", "mx2.beget.com"],
