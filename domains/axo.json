@@ -1,0 +1,12 @@
+{
+  "description": "Personal anime ranking app",
+  "repo": "https://github.com/86Axo/myanimelist",
+  "owner": {
+    "username": "86Axo",
+    "email": "Fallc000n@gmail.com"
+  },
+  "record": {
+    "CNAME": "myanimelist-2zd.pages.dev"
+  },
+  "proxied": false
+}
