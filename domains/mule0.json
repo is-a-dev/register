@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "wuweiwangzheye",
+    "email": "wuweiwangzheye@outlook.com"
+  },
+  "records": {
+    "A": ["104.21.80.121", "172.67.181.11"],
+    "MX": [
+      { "target": "mx1.improvmx.com", "priority": 10 },
+      { "target": "mx2.improvmx.com", "priority": 20 }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  },
+  "proxied": false
+}
