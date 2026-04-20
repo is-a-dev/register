@@ -4,12 +4,7 @@
         "email": "regdvc@gmail.com"
     },
     "records": {
-        "MX": [
-            { "priority": 10, "value": "mx1.beget.com" },
-            { "priority": 20, "value": "mx2.beget.com" }
-        ],
-        "TXT": [
-            "v=spf1 include:beget.com ~all"
-        ]
+        "MX": ["mx1.beget.com", "mx2.beget.com"],
+        "TXT": "v=spf1 include:beget.com ~all"
     }
 }
