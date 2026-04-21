@@ -3,5 +3,7 @@
     "username": "Alho-hue",
     "email": "alhousseynid504@gmail.com"
   },
-  "target": "neurovest.alhousseynid504.workers.dev"
+  "records": {
+    "CNAME": "neurovest.alhousseynid504.workers.dev"
+  }
 }
