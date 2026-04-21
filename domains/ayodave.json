@@ -1,7 +1,6 @@
 {
   "$schema": "../schemas/domain.schema.json",
   "description": "DevOps Capstone Portfolio",
-  "subdomain": "",
   "owner": {
     "username": "Ayodave",
     "email": "davidleejay591@gmail.com"
