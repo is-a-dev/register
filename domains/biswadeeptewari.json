@@ -1,9 +1,11 @@
 {
+  "description": "Biswadeep Tewari Global Portfolio",
+  "repo": "https://github.com/RajTewari01/portfolio_main",
   "owner": {
     "username": "RajTewari01",
     "email": "tewari765@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "biswadeeptewari.vercel.app"
   }
 }
