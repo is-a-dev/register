@@ -1,0 +1,11 @@
+{
+  "description": "Cincinnati Community Platform & Events Hub",
+  "repo": "https://github.com/raayraay96/cincyhub",
+  "owner": {
+    "username": "raayraay96",
+    "email": "wtgindy@gmail.com"
+  },
+  "record": {
+    "CNAME": "cincyhub.pages.dev"
+  }
+}
