@@ -1,0 +1,12 @@
+{
+  "description": "ML Framework for Lung Disease Prediction",
+  "domain": "is-a.dev",
+  "subdomain": "shanmukhp-lungml",
+  "owner": {
+    "username": "shanmukhprabhath",
+    "email": "shanmukhprabhath05@outlook.com"
+  },
+  "record": {
+    "CNAME": "web-production-e360.up.railway.app"
+  }
+}
