@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "tbl-obgyn",
-        "email": "bslonggiang@gmail.com"
+        "email": "bsnguyenlonggiang@gmail.com"
     },
     "records": {
-        "CNAME": "tbl-obgyn.github.io"
+        "CNAME": "tbl-obgyn.github.io",
+        "TXT": ["MS=ms62532530"]
     }
 }
