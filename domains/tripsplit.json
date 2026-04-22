@@ -5,7 +5,7 @@
   },
   "record": {
     "CNAME": "tripsplitmani001.azurewebsites.net",
-    "TXT": ["asuid.tripsplit.is-a.dev=PASTE_THE_AZURE_HEX_STRING_FROM_STEP_1"]
+    "TXT": ["C337645C19CBFB812676CD124DB47F37A877C02D5FF57BD0BF89119A0451B394"]
   },
   "proxied": false
 }
