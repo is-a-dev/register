@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "jfornielestiburcio02-web",
+        "email": "jfornielestiburcio02@gmail.com"
+    },
+    "description": "This website is NOT FOR COMMERCIAL USE. Educational application of the Fregenal de la Sierra Town Hall in Spain. Platform for recording course grades, attendance, students, behavior, etc.",
+    "records": {
+        "CNAME": "tecla-ayto-fregenal-de-la-sierra.vercel.app"
+    }
+}
