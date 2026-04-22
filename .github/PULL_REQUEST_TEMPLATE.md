@@ -18,5 +18,4 @@ YOU MUST FILL OUT THIS TEMPLATE FOR YOUR PR TO BE ACCEPTED!
 <!-- Provide a link AND screenshot of your website below. if not provided your PR will be closed with no questions asked. -->
 
 # Website Purpose
-<!-- Provide a motive for your website. for example a Portfolio website etc... -->
-
+<!-- Please tell us the purpose or motive behind your website. For example, it is a portfolio website, etc. -->
