@@ -1,0 +1,11 @@
+{
+  "description": "My portfolio website",
+  "repo": "https://github.com/bagir20/portofolio",
+  "owner": {
+    "username": "bagir20",
+    "email": "mdbagir20@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
