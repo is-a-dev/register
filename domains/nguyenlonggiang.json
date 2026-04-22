@@ -1,10 +1,11 @@
 {
     "owner": {
         "username": "tbl-obgyn",
-        "email": "bsnguyenlonggiang@gmail.com"
+        "email": "bslonggiang@gmail.com"
     },
     "records": {
         "CNAME": "tbl-obgyn.github.io",
         "TXT": ["MS=ms62532530"]
-    }
+    },
+    "proxied": true
 }
