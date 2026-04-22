@@ -4,6 +4,6 @@
         "email": "bslonggiang@gmail.com"
     },
     "records": {
-        "CNAME": "14.191.161.119"
+        "A": ["14.191.161.119"]
     }
 }
