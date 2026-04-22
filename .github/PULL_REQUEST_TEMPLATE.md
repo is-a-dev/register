@@ -15,4 +15,8 @@ YOU MUST FILL OUT THIS TEMPLATE FOR YOUR PR TO BE ACCEPTED!
 - [ ] I have provided a preview of my website below. <!-- This step is required for your PR to be approved. -->
 
 # Website Preview
-<!-- Provide a link AND screenshot of your website below. -->
+<!-- Provide a link AND screenshot of your website below. if not provided your PR will be closed with no questions asked. -->
+
+# Website Purpose
+<!-- Provide a motive for your website. for example a Portfolio website etc... -->
+
