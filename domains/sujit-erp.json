@@ -1,0 +1,11 @@
+{
+    "domain": "sujit-erp",
+    "subdomain": "is-a.dev",
+    "owner": {
+        "username": "sujitmurari",
+        "email": "sujitmurari06@gmail.com"
+    },
+    "record": {
+    "A": ["4.240.97.246"]
+}
+}
