@@ -1,0 +1,11 @@
+{
+  "description": "APEX Sports Dashboard - live multi-sport dashboard",
+  "repo": "https://github.com/redfang854/sports-dashboard",
+  "owner": {
+    "username": "redfang854",
+    "email": "hingabayo@gmail.com"
+  },
+  "record": {
+    "CNAME": "sports-dashboard-redfang.vercel.app"
+  }
+}
