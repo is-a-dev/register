@@ -1,0 +1,11 @@
+{
+  "description": "ShortScheduler - Chrome extension that replaces YouTube Shorts with a productivity scheduler synced with Google Calendar",
+  "repo": "https://github.com/nodejun/schedule-popup",
+  "owner": {
+    "username": "nodejun",
+    "email": "rlawns8475@gmail.com"
+  },
+  "records": {
+    "CNAME": "nodejun.github.io."
+  }
+}
