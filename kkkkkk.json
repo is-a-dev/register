@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "kkkkkk-dev"
+        "username": "kkkkkk-dev",
+        "email": "chapungblvk@gmail.com"
     },
     "records": {
-        "CNAME": "kkkkkk-dev.pages.dev"
+        "TXT": ["https://kkkkkk-dev.pages.dev/"]
     }
 }
