@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "dandepan303",
+     "email": "dandepan303@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRojucKD7y94ONavLbwM4PcSLdYwJ53eH9w3vKfFbT8mpZKR6gEUM1osUhfAQ0d5N96OanZWrUP02V+AGYA5gCIPkrvC4GwvAM6T3xddhX5upQefsV8vju/LOPRZ+CKieHLdcQ98FRr2J3H31csTJwlwetdOYkdQohxlEb8NWCXwIDAQAB"
+  }
+}
