@@ -1,0 +1,11 @@
+ {
+    "description": "RateWars - community voting battles",
+    "repo": "https://github.com/omar887/ratewars",
+    "owner": {
+      "username": "omar887",
+      "email": "cleveromar00@gmail.com"
+    },
+    "records": {
+      "CNAME": "ratewars.vercel.app"
+    }
+  }
