@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "Xiobaisme",
+        "email": "regifrdm@gmail.com"
+    },
+    "description": "Email forwarding for branding and dev projects",
+    "record": {
+        "NS": [
+            "aliza.ns.cloudflare.com",
+            "josh.ns.cloudflare.com"
+        ]
+    }
+}
