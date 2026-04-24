@@ -4,10 +4,15 @@
     "email": "momanamjad07@gmail.com"
   },
   "records": {
-    "CNAME": "de2c52e0178d8069.vercel-dns-017.com.",
- "TXT": ["vc-domain-verify=www.momanamjad.is-a.dev,b0e4f89f9bea93d42120"]
-
+    "CNAME": "://vercel-dns-017.com"
+  },
+  "subdomains": {
+    "_vercel": {
+      "records": {
+        "TXT": ["vc-domain-verify=www.momanamjad.is-a.dev,b0e4f89f9bea93d42120"]
+      }
+    }
   },
   "description": "Student Portfolio",
-  "repo": "https://github.com/momanamjad/Profile"
+  "repo": "https://github.com"
 }
