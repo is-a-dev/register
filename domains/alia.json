@@ -1,1 +1,8 @@
-
+{
+    "owner": {
+        "username": "aliaezatwork-cloud"
+    },
+    "record": {
+        "CNAME": "code-with-alia.vercel.app"
+    }
+}
