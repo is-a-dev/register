@@ -4,6 +4,6 @@
         "email": "me@xilef.dev"
     },
     "records": {
-        "CNAME": "xilef.dev"
+        "A": ["77.90.15.3"]
     }
 }
