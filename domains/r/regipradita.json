@@ -5,6 +5,7 @@
   },
   "description": "Email forwarding",
   "record": {
+    "A": ["76.76.21.21"],
     "MX": [
       "10 mx1.improvmx.com",
       "20 mx2.improvmx.com"
