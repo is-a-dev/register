@@ -4,7 +4,7 @@
     "email": "momanamjad07@gmail.com"
   },
   "records": {
-    "CNAME": "://vercel-dns-017.com"
+    "CNAME": "://vercel-dns.com"
   },
   "subdomains": {
     "_vercel": {
@@ -14,5 +14,5 @@
     }
   },
   "description": "Student Portfolio",
-  "repo": "https://github.com/momanamjad/Profile"
+  "repo": "https://github.com"
 }
