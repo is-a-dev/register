@@ -4,7 +4,7 @@
     "email": "momanamjad07@gmail.com"
   },
   "records": {
-    "CNAME": "://vercel-dns.com"
+    "CNAME": "://vercel-dns.com."
   },
   "subdomains": {
     "_vercel": {
