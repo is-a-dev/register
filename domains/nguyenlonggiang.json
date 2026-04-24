@@ -4,8 +4,9 @@
         "email": "bsnguyenlonggiang@gmail.com"
     },
     "records": {
-        "CNAME": "nglonggiang.github.io",
-        "TXT": ["MS=ms62532530"]
-    },
-    "proxied": true
+        "NS": [
+            "paislee.ns.cloudflare.com",
+            "yisroel.ns.cloudflare.com"
+        ]
+    }
 }
