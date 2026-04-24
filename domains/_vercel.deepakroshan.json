@@ -5,7 +5,8 @@
   },
   "records": {
     "TXT": [
-      "vc-domain-verify=deepakroshan.is-a.dev,b64ac1321b423123dea6"
+      "vc-domain-verify=deepakroshan.is-a.dev,e05b8a8f35727e63d706",
+      "vc-domain-verify=www.deepakroshan.is-a.dev,7bcebe93985d9492172b"
     ]
   }
 }
