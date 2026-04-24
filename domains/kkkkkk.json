@@ -3,7 +3,7 @@
         "username": "kkkkkk-dev",
         "email": "chapungblvk@gmail.com"
     },
-    "records": {
-        "TXT": ["https://kkkkkk-dev.pages.dev"]
+        "records": {
+        "CNAME": "kkkkkk-dev.pages.dev"
     }
 }
