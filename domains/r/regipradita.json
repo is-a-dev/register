@@ -6,8 +6,8 @@
   "description": "Email forwarding",
   "record": {
     "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
+      "10 mx1.improvmx.com",
+      "20 mx2.improvmx.com"
     ],
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all"
