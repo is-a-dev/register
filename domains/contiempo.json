@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "akramlam",
+        "email": "akramlaamache15@gmail.com"
+    },
+    "records": {
+        "A": ["51.254.143.87"],
+        "AAAA": ["2001:41d0:305:2100::e7ae"]
+    },
+    "proxied": true
+}
