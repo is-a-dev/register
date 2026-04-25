@@ -1,12 +1,10 @@
-
 {
   "owner": {
     "username": "mubashirmuchi",
     "email": "mubashirmuchi75@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "e19040505be1e6bf.vercel-dns-017.com",
+    "TXT": ["vc-domain-verify=www.mubashirm.is-a.dev,454f7acc044bdda200e1"]
   }
 }
-
-
