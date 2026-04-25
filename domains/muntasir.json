@@ -4,6 +4,6 @@
         "email": "muntasir.joypurhat@gmail.com"
     },
     "records": {
-    "NS": ["lakas.ns.cloudflare.com", "magali.ns.cloudflare.com"]
+      "NS": ["lakas.ns.cloudflare.com", "magali.ns.cloudflare.com"]
     }
 }
