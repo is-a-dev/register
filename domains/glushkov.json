@@ -1,0 +1,11 @@
+{
+    "description": "Trilingual artist site (RU/EN/NO) for choreographer Oleg Glushkov, designed in a retro BIOS aesthetic.",
+    "repo": "https://github.com/vasiliiberezinart-ops/oleg-glushkov",
+    "owner": {
+        "username": "vasiliiberezinart-ops",
+        "email": "vasiliiberezin.art@gmail.com"
+    },
+    "records": {
+        "CNAME": "vasiliiberezinart-ops.github.io"
+    }
+}
