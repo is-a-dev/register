@@ -1,0 +1,11 @@
+{
+  "description": "Alfareza sites",
+  "repo": "https://github.com/Alfareza-dev/Meteor-Web",
+  "owner": {
+    "username": "Alfareza-dev",
+    "email": "alfareza.backup@gmail.com"
+  },
+  "records": {
+    "CNAME": "Alfareza-dev.github.io"
+  }
+}

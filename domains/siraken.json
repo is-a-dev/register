@@ -1,0 +1,10 @@
+{
+  "description": "siraken is a Developer!",
+  "owner": {
+    "username": "siraken",
+    "email": "shirasawa@novalumo.com"
+  },
+  "records": {
+    "CNAME": "is-a-dev.siraken.net"
+  }
+}

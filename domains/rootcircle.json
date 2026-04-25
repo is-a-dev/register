@@ -4,6 +4,9 @@
     "email": "dev.frolics@gmail.com"
   },
   "records": {
-    "CNAME": "rootcircle.github.io"
+    "URL": "https://rootcircle.github.io"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }
