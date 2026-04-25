@@ -1,0 +1,12 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "GPS Tracker",
+  "domain": "mirecekmartiny",
+  "subdomain": "",
+  "owner": {
+    "username": "mirecekmartiny-oss"
+  },
+  "record": {
+    "CNAME": "louisiana-posted-mumbai-associates.trycloudflare.com"
+  }
+}
