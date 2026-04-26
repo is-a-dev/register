@@ -2,10 +2,10 @@
   "description": "My Personal portfolio written in Sveltekit!",
   "repo": "https://github.com/Kazooki123/starloexoliz.is-a.dev",
   "owner": {
-    "username": "starloexoliz",
+    "username": "Kazooki123",
     "email": "mgamerdinge146@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "starloexiliz.pages.dev"
   }
 }
