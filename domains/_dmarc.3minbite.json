@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Nit-inChaurasia",
+    "email": "rebelbhai701@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
