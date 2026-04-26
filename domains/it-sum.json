@@ -1,0 +1,11 @@
+{
+  "description": "Ремонт техники на дому в Нижнем Новгороде",
+  "repo": "https://github.com/ВАШ-USERNAME/it-sum",
+  "owner": {
+    "username": "ВАШ-USERNAME",
+    "email": "ваша@почта.ru"
+  },
+  "record": {
+    "CNAME": "ВАШ-USERNAME.github.io"
+  }
+}
