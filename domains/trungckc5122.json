@@ -3,10 +3,7 @@
     "username": "trungckc5122",
     "email": "trungckc5122@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "trungckc5122.github.io"
-    }
-  ]
+  "record": {
+    "CNAME": "trungckc5122.github.io"
+  }
 }
