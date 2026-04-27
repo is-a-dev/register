@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PAS</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,sans-serif;background:#000;color:#fff;padding:15px;max-width:500px;margin:0 auto}
+h1{text-align:center;font-size:24px;margin:20px 0}
+.news-card{border:1px solid #333;padding:15px;margin:10px 0;border-radius:10px}
+.news-card .author{color:#0f0;font-weight:bold}
+.news-card .time{color:#888;font-size:12px;display:block;margin:5px 0}
+.news-card .text{margin:10px 0;line-height:1.4}
+.like-btn{background:#111;color:#f00;border:1px solid #333;padding:8px 15px;border-radius:20px;cursor:pointer}
+.like-btn:active{background:#222}
+.tabs{display:flex;gap:5px;margin:15px 0;flex-wrap:wrap}
+.tabs button{flex:1;min-width:70px;padding:10px;background:#111;color:#fff;border:1px solid #333;border-radius:5px;cursor:pointer;font-size:13px}
+.tabs button:active{background:#0f0;color:#000}
+input,textarea{width:100%;padding:12px;margin:8px 0;background:#111;color:#fff;border:1px solid #333;border-radius:8px;font-size:16px}
+button{width:100%;padding:12px;background:#0f0;color:#000;border:none;border-radius:8px;font-size:16px;font-weight:bold;cursor:pointer;margin:5px 0}
+button:active{opacity:0.8}
+</style>
+</head>
+<body>
+
+<h1>PAS</h1>
+
+<div class="tabs">
+<button onclick="tab('news')">Лента</button>
+<button onclick="tab('my')">Мои</button>
+<button onclick="tab('add')">+Новость</button>
+</div>
+
+<div id="news"><div id="news_list"></div></div>
+<div id="my" style="display:none"><div id="my_list"></div></div>
+<div id="add" style="display:none">
+<textarea id="nt" rows="3" placeholder="Текст новости..."></textarea>
+<button onclick="addNews()">Отправить</button>
+</div>
+
+<script>
+loadNews();
+
+function loadNews(){
+fetch("/api/news").then(r=>r.json()).then(d=>{
+let b=document.getElementById("news_list");b.innerHTML="";
+d.forEach(n=>{
+b.innerHTML+=`<div class="news-card"><span class="author">${n.author}</span><span class="time">${n.timestamp}</span><div class="text">${n.text}</div><button class="like-btn" onclick="like(${n.id})">❤ ${n.likes}</button></div>`;
+})})}
+
+function like(id){fetch("/api/like/"+id).then(r=>r.json()).then(d=>{loadNews();if(document.getElementById("my").style.display!="none")loadMy()})}
+
+function loadMy(){
+fetch("/api/my_news?user="+localStorage.getItem("u")).then(r=>r.json()).then(d=>{
+let b=document.getElementById("my_list");b.innerHTML="";
+d.forEach(n=>{
+b.innerHTML+=`<div class="news-card"><span class="time">${n.timestamp} [${n.status}]</span><div class="text">${n.text}</div>❤ ${n.likes}</div>`;
+})})}
+
+function addNews(){
+let tx=document.getElementById("nt").value;
+fetch("/api/news_add",{method:"POST",body:JSON.stringify({author:localStorage.getItem("u"),text:tx,timestamp:new Date().toISOString(),code:"написать статью"})})
+.then(r=>r.json()).then(d=>{if(d.ok){alert("Отправлено!");document.getElementById("nt").value=""}else alert(d.error)})}
+
+function tab(t){
+document.getElementById("news").style.display=t=="news"?"block":"none";
+document.getElementById("my").style.display=t=="my"?"block":"none";
+document.getElementById("add").style.display=t=="add"?"block":"none";
+if(t=="news")loadNews();
+if(t=="my")loadMy();
+}
+</script>
+</body>
+</html>
