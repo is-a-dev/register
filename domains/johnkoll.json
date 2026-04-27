@@ -4,6 +4,8 @@
     },
     "records": {
         "A": ["194.219.135.137"],
-        "TXT": ["EwJJcbjwp87lfXFFRSCrTGtK8IRm2DUrWFqmFkJ3yCY"]
+        "TXT": {
+            "_acme-challenge": "EwJJcbjwp87lfXFFRSCrTGtK8IRm2DUrWFqmFkJ3yCY"
+        }
     }
 }
