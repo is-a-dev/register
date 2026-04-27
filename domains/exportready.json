@@ -1,0 +1,11 @@
+{
+  "description": "ExportReady Django App",
+  "repo": "https://github.com/iamjeffdoria/converter",
+  "owner": {
+    "username": "iamjeffdoria",
+    "email": "jeffersondoria631@gmail.com"
+  },
+  "record": {
+    "CNAME": "converter-972n.onrender.com"
+  }
+}
