@@ -4,7 +4,8 @@
     "email": "deepakroshan380@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": [
+      "vc-domain-verify=deepakroshan.is-a.dev,e05b8a8f35727e63d706"
+    ]
   }
-}
- 
+} 
