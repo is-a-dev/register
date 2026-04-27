@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "trungckc5122",
-    "email": "trungckc5122@gmail.com"
-  },
-  "record": {
-    "CNAME": "trungckc5122.github.io"
-  }
+    "owner": {
+        "username": "trungckc5122",
+        "email": "trungckc5122@gmail.com"
+    },
+    "records": {
+        "CNAME": "trungckc5122.github.io"
+    }
 }
