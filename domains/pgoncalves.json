@@ -1,7 +1,6 @@
 {
   "owner": {
-    "username": "pjgoncalvez",
-    "email": "dancingpiglet@icloud.com"
+    "username": "pjgoncalvez"
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
