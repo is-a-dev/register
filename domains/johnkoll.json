@@ -3,6 +3,7 @@
         "username": "johnkoll"
     },
     "records": {
-        "A": ["194.219.135.137"]
+        "A": ["194.219.135.137"],
+        "TXT": ["EwJJcbjwp87lfXFFRSCrTGtK8IRm2DUrWFqmFkJ3yCY"]
     }
 }
