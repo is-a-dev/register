@@ -1,7 +1,7 @@
-{
-  "owner": {
-    "username": "hill-121"
-  },
+{"owner": {
+    "username": "forjex",
+    "email": "admin@forjex.dev"
+ },
   "records": {
     "CNAME": "forjex.netlify.app"
   }
