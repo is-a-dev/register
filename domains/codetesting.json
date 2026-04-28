@@ -3,10 +3,7 @@
     "username": "Intel_MIB",
     "email": "Intel.Matrix0X0@proton.me"
   },
-  "records": {
-    "NS": [
-      "dave.ns.cloudflare.com", 
-      "nena.ns.cloudflare.com"
-    ]
+    "records": {
+    "CNAME": "Intel-MIB.github.io"
   }
 }
