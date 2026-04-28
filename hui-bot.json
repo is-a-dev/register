@@ -1,0 +1,11 @@
+{
+    "description": "My VM server",
+    "repo": "https://github.com/Enfyr55",
+    "owner": {
+        "username": "Enfyr55",
+        "email": "bboyx@hotmail.com"
+    },
+    "record": {
+        "A": ["34.51.136.254"]
+    }
+}
