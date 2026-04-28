@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Intel_MIB",
+    "email": "198488680+Intel-MIB@users.noreply.github.com"
+  },
+  "records": {
+    "NS": [
+      "dave.ns.cloudflare.com", 
+      "nena.ns.cloudflare.com"
+    ]
+  }
+}
