@@ -4,6 +4,37 @@
     "email": "ayaan@ayaan.is-a.dev"
   },
   "records": {
-    "CNAME": "AyaanDhalait.github.io"
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+
+    "MX": [
+      {
+        "priority": 10,
+        "value": "mx.zoho.in"
+      },
+      {
+        "priority": 20,
+        "value": "mx2.zoho.in"
+      },
+      {
+        "priority": 50,
+        "value": "mx3.zoho.in"
+      }
+    ],
+
+    "TXT": [
+      {
+        "name": "@",
+        "value": "v=spf1 include:zoho.in ~all"
+      },
+      {
+        "name": "_dmarc",
+        "value": "v=DMARC1; p=none"
+      }
+    ]
   }
 }
