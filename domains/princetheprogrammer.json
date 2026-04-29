@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "10xdev4u-alt",
+    "email": "10xdev4u@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "zoho-verification=zb26841435.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
+    ],
+    "MX": [
+      { "target": "mx.zoho.in", "priority": 10 },
+      { "target": "mx2.zoho.in", "priority": 20 },
+      { "target": "mx3.zoho.in", "priority": 50 }
+    ]
+  }
+}

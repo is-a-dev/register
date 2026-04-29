@@ -1,11 +1,9 @@
 {
-  "description": "Just my homepage with my links :O :)",
-  "repo": "https://github.com/WavingCatDevs/WavingCatDevs.github.io",
   "owner": {
     "username": "wavingcatdevs",
     "email": "wavingcatdevs@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "wavingcatdevs.github.io"
   }
 }

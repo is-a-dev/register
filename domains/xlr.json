@@ -1,11 +1,9 @@
 {
-  "description": "xlr personal website",
-  "repo": "https://github.com/llxlr/blog",
   "owner": {
     "username": "llxlr",
     "email": "i@xhlr.top"
   },
-  "record": {
+  "records": {
     "URL": "https://white-album.top"
   }
 }

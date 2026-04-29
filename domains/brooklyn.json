@@ -1,12 +1,10 @@
 {
-  "description": "im brooklyn :3",
-  "repo": "https://github.com/BrooklynWasHere/brooklynwashere.github.io",
   "owner": {
     "username": "BrooklynWasHere",
     "email": "redmiror@outlook.com",
     "twitter": "BrooklynCilekli"
   },
-  "record": {
+  "records": {
     "CNAME": "brooklynwashere.github.io"
   }
 }

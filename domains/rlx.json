@@ -1,11 +1,9 @@
 {
-  "description": "RLX's personal website",
-  "repo": "https://github.com/RLX-OP/rlx-op.github.io",
   "owner": {
     "username": "RLX-OP",
     "email": "contactrlxop@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rlx-op.github.io"
   }
 }

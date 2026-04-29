@@ -1,12 +1,10 @@
 {
-  "description": "Huyền's website",
-  "repo": "https://github.com/huyenit200x/huyenit200x.github.io",
   "owner": {
     "username": "huyenit200x",
     "email": "huyenit200x@gmail.com",
     "twitter": "huyenit200x"
   },
-  "record": {
+  "records": {
     "CNAME": "huyenit200x.github.io"
   }
 }

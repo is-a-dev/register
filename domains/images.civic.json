@@ -1,12 +1,9 @@
 {
-  "description": "image server",
-  "repo": "https://github.com/civic1007/image-service",
   "owner": {
-    "username": "civic1007",
-    "email": "",
-    "discord": "civic1007"
+    "username": "trollmeight",
+    "discord": "1266754182082461751"
   },
-  "record": {
-    "CNAME": "civics-api.pages.dev"
+  "records": {
+    "CNAME": "edge.redirect.pizza"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "SkuliX personal website",
-  "repo": "https://github.com/SkuliX01/Portfolio",
   "owner": {
     "username": "SkuliX01",
     "email": "bartosz.krawczyk34@gmail.com"
   },
-  "record": {
-    "CNAME": "portfolio-9ga.pages.dev"
+  "records": {
+    "CNAME": "portfolio1-ab7.pages.dev"
   }
 }

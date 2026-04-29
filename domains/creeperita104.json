@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "creeperita09",
-    "email": "creeperita.09@gmail.com"
+    "email": "creeperita104@jcjenson.net"
   },
-  "record": {
-    "CNAME": "icahomesvr2022.freeddns.org"
-  }
+  "records": {
+    "NS": ["kyrie.ns.cloudflare.com", "vida.ns.cloudflare.com"]
+   }
 }

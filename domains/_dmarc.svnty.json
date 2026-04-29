@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "svnty",
+    "email": "jakewalklate@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=quarantine; rua=mailto:jake@svnty.is-a.dev; ruf=mailto:jake@svnty.is-a.dev; sp=quarantine; adkim=r; aspf=r"
+  }
+}

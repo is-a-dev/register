@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "BrianKN019",
+    "email": "briannkimemia@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWtuWMuXwGc1klnY1Q2InElO1IADSWOyR+uZCZt7f713bFtU0g+0jjhnksP0JYktIGgOHEmxKSJihTh2l09uOT1/S9I2WH6UHCMCZyyk+7otWlYcNvAUs5bv+w2fAjjB6uyg7m7TNUCpcmM2OHi1AQAiDmzgEFu4cU/ySzEpbd4wIDAQAB"
+  }
+}

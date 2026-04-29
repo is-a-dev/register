@@ -1,13 +1,9 @@
 {
   "owner": {
-    "username": "omsenjalia",
-    "email": "om@maintainers.is-a.dev"
+    "username": "CurlNet",
+    "email": "TheMasterOfRisk@gmail.com"
   },
-  "record": {
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  "records": {
+    "CNAME": "amir-cv.netlify.app"
   }
 }

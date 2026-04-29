@@ -1,11 +1,8 @@
 {
-  "description": "Link to my portfolio site.",
-  "repo": "https://github.com/real-yash/website",
   "owner": {
-    "username": "real-yash",
-    "email": "connect@real-yash.is-a.dev"
+    "username": "Yashkhope01"
   },
-  "record": {
-    "CNAME": "real-yash.github.io"
+  "records": {
+    "CNAME": "yashkhope.vercel.app"
   }
 }

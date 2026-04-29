@@ -1,11 +1,9 @@
 {
-  "description": "danialajamil.is-a.dev",
-  "repo": "https://github.com/KawakazeRin/my-portfolio-site",
   "owner": {
     "username": "KawakazeRin",
     "email": "satyamverma46@outlook.com"
   },
-  "record": {
+  "records": {
     "CNAME": "kawakazerin.github.io"
   }
 }

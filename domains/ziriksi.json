@@ -1,12 +1,10 @@
 {
-  "description": "Ziriksi's website.",
-  "repo": "https://github.com/cloudcloudskies/coolziriksi.github.io",
   "owner": {
     "username": "cloudcloudskies",
     "email": "cloudskies@perso.be",
     "twitter": "cloudskies13"
   },
-  "record": {
+  "records": {
     "CNAME": "cloudcloudskies.github.io"
   }
 }

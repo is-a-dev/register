@@ -1,11 +1,9 @@
 {
-  "description": "kunsh13.is-a.dev",
-  "repo": "https://github.com/kunsh13/iptv",
   "owner": {
     "username": "kunsh13",
     "email": "kunshmaurya@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "kunsh13.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "I will use this website to make it a portfolio",
-  "repo": "https://github.com/creepsooff/creepsooff.github.io",
   "owner": {
     "username": "creepsooff",
     "email": "eternel_universite0s@icloud.com"
   },
-  "record": {
+  "records": {
     "CNAME": "creepsooff.github.io"
   }
 }

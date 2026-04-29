@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio",
-  "repo": "https://github.com/hmd-ali/hmd-ali.github.io",
   "owner": {
-    "username": "hmd-ali",
-    "email": "letsmailali.h@gmail.com"
+    "username": "its3li",
+    "email": "aliyoyilolo@gmail.com"
   },
-  "record": {
-    "CNAME": "hmd-ali.github.io"
+  "records": {
+    "CNAME": "ali-is-a-dev.vercel.app"
   }
 }

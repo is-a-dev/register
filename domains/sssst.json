@@ -1,0 +1,10 @@
+{
+  "description": "This domain will host my developer portfolio, showing my open-source contributions, Raspberry Pi hosting setup, and technical blog posts",
+  "owner": {
+    "username": "sssstf0rest",
+    "email": "haoshen0226@gmail.com"
+  },
+  "records": {
+    "URL": "https://rpi.fell-lionfish.ts.net"
+  }
+}

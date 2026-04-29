@@ -1,11 +1,9 @@
 {
-  "description": "gabolemus personal website",
-  "repo": "https://github.com/gabolemus/gabolemus.github.io",
   "owner": {
     "username": "gabolemus",
     "email": "glemus.stuart@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "gabolemus.github.io"
   }
 }

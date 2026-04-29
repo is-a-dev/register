@@ -1,11 +1,9 @@
 {
-  "description": "Nayan Gorasiya.",
-  "repo": "https://github.com/nayan-gorasiya/nayan-gorasiya.github.io",
   "owner": {
     "username": "nayan-gorasiya",
     "email": "nayan-gorasiya@acquaintsoft.com"
   },
-  "record": {
+  "records": {
     "CNAME": "nayan-gorasiya.github.io"
   }
 }
