@@ -1,0 +1,12 @@
+{
+  "description": "My GitHub Pages site",
+  "repo": "https://github.com/ansuestudio-cmyk/MONSTER-HOUSE",
+  "owner": {
+    "username": "ansuestudio-cmyk",
+    "email": "Ansuestudio@gmail.com"
+  },
+  "nameservers": [
+    "joyce.ns.cloudflare.com",
+    "weston.ns.cloudflare.com"
+  ]
+}
