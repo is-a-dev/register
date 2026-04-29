@@ -1,0 +1,11 @@
+{
+  "description": "Personal blog focused on AI and tech topics. Built with Next.js 15 + MDX, deployed on Vercel.",
+  "repo": "https://github.com/lozehq/ai-blog",
+  "owner": {
+    "username": "lozehq",
+    "email": "lozehqlozehq@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
