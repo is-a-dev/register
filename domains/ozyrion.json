@@ -4,6 +4,7 @@
     "email": "fisaltd3512@gmail.com"
   },
   "records": {
-    "CNAME": "ozyrion.vercel.app"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=ozyrion.is-a.dev,4ec988b57b9eba3544a4"
   }
 }
