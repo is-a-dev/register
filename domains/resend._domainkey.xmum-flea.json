@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "URneiU1",
+        "email": "1046470063@qq.com"
+    },
+    "description": "Resend DKIM key for xmum-flea.is-a.dev",
+    "records": {
+        "TXT": [
+            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDY+V/fbmSWxI7crY7XevsrUfK8F9ba7WHh4tRwL/Io63F4OcyYDM+XsaAbJkym39ep9bWTbHTLGyEvQfZAmskXGFeGsbm/2Y0jmeHJFffy6cuuhxHTC588l+vjqrd/DLHcLBcDYnRb9FP7JiwL5HZ82RNHKQmJ5ZWHuFr1e8colQIDAQAB"
+        ]
+    }
+}

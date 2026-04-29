@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "URneiU1",
+        "email": "1046470063@qq.com"
+    },
+    "description": "DMARC policy for xmum-flea.is-a.dev",
+    "records": {
+        "TXT": [
+            "v=DMARC1; p=none;"
+        ]
+    }
+}
