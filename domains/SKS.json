@@ -1,0 +1,11 @@
+{
+     "description": "Smart Kitchen Safety Monitor",
+     "domain": "SKS",
+     "owner": {
+       "username": "khubbe",
+       "email": "Khubaibshah2002@gmail.com"
+     },
+     "record": {
+       "CNAME": "khubbe.github.io"
+     }
+   }
