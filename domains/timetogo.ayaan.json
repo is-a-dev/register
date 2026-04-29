@@ -13,20 +13,20 @@
     "MX": [
       {
         "priority": 10,
-        "value": "mx.zoho.in"
+        "target": "mx.zoho.in"
       },
       {
         "priority": 20,
-        "value": "mx2.zoho.in"
+        "target": "mx2.zoho.in"
       },
       {
         "priority": 50,
-        "value": "mx3.zoho.in"
+        "target": "mx3.zoho.in"
       }
     ],
     "TXT": [
-      "v=spf1 include:zoho.in ~all",
-      "_dmarc=v=DMARC1; p=none"
+      "zoho-verification=zb30101126.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
     ]
   }
 }
