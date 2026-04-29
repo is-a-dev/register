@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "URneiU1",
+        "email": "URneiU1@users.noreply.github.com"
+    },
+    "description": "Resend transactional email return-path + SPF for xmum-flea.is-a.dev",
+    "records": {
+        "MX": [
+            { "target": "feedback-smtp.ap-northeast-1.amazonses.com", "priority": 10 }
+        ],
+        "TXT": [
+            "v=spf1 include:amazonses.com ~all"
+        ]
+    }
+}

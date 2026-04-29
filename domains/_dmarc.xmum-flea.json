@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "URneiU1",
+        "email": "URneiU1@users.noreply.github.com"
+    },
+    "description": "DMARC policy for xmum-flea.is-a.dev",
+    "records": {
+        "TXT": [
+            "v=DMARC1; p=none;"
+        ]
+    }
+}
