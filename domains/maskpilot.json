@@ -1,0 +1,12 @@
+{
+  "description": "MaskPilot Pro - Faceless YouTube System for German-speaking creators",
+  "repo": "https://github.com/sahero7/maskpilot-website",
+  "owner": {
+    "username": "sahero7",
+    "email": "alienpcmichael@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": false
+}
