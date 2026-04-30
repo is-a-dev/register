@@ -1,12 +1,9 @@
 {
   "description": "Florida State Roleplay ERLC server",
-  "domain": "is-a.dev",
-  "subdomain": "fsrp",
   "owner": {
     "username": "Asztal12"
   },
-  "record": {
+  "records": {
     "A": ["85.215.220.246"]
-  },
-  "proxied": false
+  }
 }
