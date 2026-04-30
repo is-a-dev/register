@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "tom32333423"
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://id-preview--521fa391-9ac7-4e71-9548-dbecd61dc75d.lovable.app/",
+      "type": 302
+    }
+  ]
+}
