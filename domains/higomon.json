@@ -1,0 +1,13 @@
+{
+    "description": "Personal home lab subdomain for self-hosted development infrastructure (Headscale control plane and Tailscale DERP relay)",
+    "owner": {
+        "username": "Higomon",
+        "email": "ohgi.mach@gmail.com"
+    },
+    "records": {
+        "NS": [
+            "graham.ns.cloudflare.com",
+            "nia.ns.cloudflare.com"
+        ]
+    }
+}
