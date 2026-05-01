@@ -2,9 +2,9 @@
     "description": "Syber Vault - Personal Security Site",
     "owner": {
         "username": "syber-vault",
-        "email": "mamun209209@gmail.com"
+        "email": "sybervault@gmail.com"
     },
-    "record": {
+    "records": {
         "A": ["216.24.57.1"]
     }
 }
