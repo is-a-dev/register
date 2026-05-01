@@ -1,0 +1,21 @@
+{
+  "owner": {
+    "username": "Galactus-byte",
+    "email": "Benjamina195@Outlook.com"
+  },
+  "records": {
+    "A": ["35.185.44.232"],
+    "TXT": [
+      "gitlab-pages-verification-code=61ab05e9b5781a4d1bc0a33c27fa68e0",
+      "v=spf1 include:spf.improvmx.com ~all"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  }
+}
+"TXT": [
+  "gitlab-pages-verification-code=61ab05e9b5781a4d1bc0a33c27fa68e0",
+  "v=spf1 include:://improvmx.com ~all"
+]
