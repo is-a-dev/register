@@ -1,0 +1,11 @@
+{
+  "description": "My personal dev portfolio",
+  "repo": "https://github.com/jibcamun/Portfolio",
+  "owner": {
+    "username": "jibcamun",
+    "email": "jibcamun@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
