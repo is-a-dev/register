@@ -1,0 +1,11 @@
+{
+    "description": "My Home Assistant",
+    "repo": "https://github.com/taritnaskar347-ship-it",
+    "owner": {
+        "username": "taritnaskar347-ship-it",
+        "email": "tarit.naskar347@gmail.com"
+    },
+    "record": {
+        "CNAME": "taritnaskar347-ship-it.is-a.dev.cdn.cloudflare.net"
+    }
+}
