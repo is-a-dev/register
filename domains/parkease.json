@@ -1,0 +1,21 @@
+{
+  "owner": {
+    "username": "laxmansawant1210"
+  },
+  "record": {
+    "TXT": [
+      "brevo-code:e04c1e59144809174b246d71f03327b0",
+      "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+    ],
+    "CNAME": [
+      {
+        "name": "brevo1._domainkey",
+        "value": "b1.parkease-is-a-dev.dkim.brevo.com"
+      },
+      {
+        "name": "brevo2._domainkey",
+        "value": "b2.parkease-is-a-dev.dkim.brevo.com"
+      }
+    ]
+  }
+}
