@@ -4,13 +4,25 @@
     "email": "laxmansawant1210@gmail.com"
   },
   "record": {
-    "TXT": {
-      "@": "brevo-code:e04c1e59144809174b246d71f03327b0",
-      "_dmarc": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
-    },
-    "CNAME": {
-      "brevo1._domainkey": "b1.parkease-is-a-dev.dkim.brevo.com",
-      "brevo2._domainkey": "b2.parkease-is-a-dev.dkim.brevo.com"
-    }
+    "TXT": [
+      {
+        "name": "@",
+        "value": "brevo-code:e04c1e59144809174b246d71f03327b0"
+      },
+      {
+        "name": "_dmarc",
+        "value": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+      }
+    ],
+    "CNAME": [
+      {
+        "name": "brevo1._domainkey",
+        "value": "b1.parkease-is-a-dev.dkim.brevo.com"
+      },
+      {
+        "name": "brevo2._domainkey",
+        "value": "b2.parkease-is-a-dev.dkim.brevo.com"
+      }
+    ]
   }
 }
