@@ -1,11 +1,11 @@
 {
-  "description": "My personal dev portfolio",
+  "description": "Jibran's personal portfolio",
   "repo": "https://github.com/jibcamun/Portfolio",
   "owner": {
     "username": "jibcamun",
-    "email": "jibcamun@gmail.com"
+    "email": "jibrannoorshah@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "portfolio-alpha-two-fgx1klmor5.vercel.app"
   }
 }
