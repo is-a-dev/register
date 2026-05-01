@@ -2,9 +2,10 @@
   "description": "Abhi DevOps Portfolio",
   "repo": "https://abhi-indra.github.io/abhishek-portfolio/",
   "owner": {
-    "username": "abhi-indra"
+    "username": "abhi-indra",
+    "email": "abhishekchaurasia.avi@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "abhi-indra.github.io"
   }
 }
