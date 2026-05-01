@@ -1,11 +1,11 @@
 {
   "description": "Jazir Safeel's personal portfolio — Jazirverse",
-  "repo": "https://github.com/jazirsafeel",
+  "repo": "https://github.com/jazirsafeel/jazirsafeel.github.io",
   "owner": {
     "username": "jazirsafeel",
-    "email": "your@email.com"
+    "email": "jazirsafeelps@gmail.com"
   },
   "records": {
-    "A": ["185.27.134.120"]
+    "CNAME": "jazirsafeel.github.io"
   }
 }
