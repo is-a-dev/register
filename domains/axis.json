@@ -4,8 +4,9 @@
     "email": "Yartsev.ilay@gmail.com"
   },
   "record": {
-    "A": [
-      "192.0.2.1"
+    "NS": [
+      "kareem.ns.cloudflare.com",
+      "uma.ns.cloudflare.com"
     ]
   }
 }
