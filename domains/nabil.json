@@ -3,8 +3,8 @@
     "username": "Nabil-00",
     "email": "nabeelismailabdulkadir15@gmail.com"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  },
-  "description": "Personal portfolio website"
+  "record": {
+    "A": ["216.198.79.1"],
+    "TXT": "vc-domain-verify=nabil.is-a.dev,de72e3449dc16346a3a9"
+  }
 }
