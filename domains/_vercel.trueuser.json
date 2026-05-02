@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "imtrueuser",
+        "email": "thisistrueemail@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=trueuser.is-a.dev,1d4d3b518000a95962fd"
+    }
+}

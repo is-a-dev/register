@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "paultanay",
+    "email": "tanaypaul@duck.com"
+  },
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ],
+    "MX": [
+      { "target": "mx.zoho.in", "priority": 10 },
+      { "target": "mx2.zoho.in", "priority": 20 },
+      { "target": "mx3.zoho.in", "priority": 30 }
+    ],
+    "TXT": [
+      "v=spf1 include:zoho.in ~all",
+      "zoho-verification=zb87821057.zmverify.zoho.in"
+    ]
+  }
+}

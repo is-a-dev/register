@@ -1,0 +1,30 @@
+{
+  "owner": {
+    "username": "svnty",
+    "email": "jakewalklate@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.com.au",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com.au",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com.au",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+      "zoho-verification=zb11747383.zmverify.zoho.com.au",
+      "v=spf1 include:zohomail.com.au include:zohomail.com ~all",
+      "google-site-verification=k4zE3at21gUVGeaoeZ3g_x42eWrdPWkskNYyv8dywv0"
+    ]
+  }
+}

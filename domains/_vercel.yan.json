@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "paultanay",
+    "email": "tanaypaul@duck.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=yan.is-a.dev,d3de9dcea9b01a6facac"
+    ]
+  }
+}
