@@ -4,7 +4,10 @@
     "username": "KadirEthiel",
     "email": "josueriquelme.alumno@gmail.com"
   },
-  "record": {
-    "CNAME": "kadirethiel.github.io"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "kadirethiel.github.io"
+    }
+  ]
 }
