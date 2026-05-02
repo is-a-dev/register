@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "AdrianLuqueGit",
+        "email": "poissom.jam@email.com"
+    },
+    "records": {
+        "A": ["216.24.57.1"],
+        "TXT": [
+            "brevo-code:f9f845e42cb2ab2e9e21aafdb2d442a8",
+            "v=spf1 include:://brevo.com mx ~all"
+        ]
+    }
+}
