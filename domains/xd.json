@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "csharpmf",
-        "email": "csharp@cryptolab.net"
-    },
-    "record": {
-        "CNAME": "csharpmf.github.io"
-    }
+  "owner": {
+    "username": "csharpmf",
+    "email": "csharp@cryptolab.net"
+  },
+  "records": {
+    "CNAME": "csharpmf.github.io"
+  }
 }
