@@ -1,0 +1,11 @@
+{
+  "description": "Dell internal short-form video platform",
+  "repo": "https://gitlab.com/shelly.goldblit/tiktok",
+  "owner": {
+    "username": "ShellyDCMS",
+    "email": "shelly.goldblit@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
