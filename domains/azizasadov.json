@@ -1,12 +1,8 @@
-```json id="q7m2vk"
 {
   "owner": {
-    "username": "azizasadov935-hue",
-    "email": "azizasadov935"
+    "username": "azizasadov935-hue"
   },
-
-  "records": {
+  "record": {
     "CNAME": "azizasadov935-hue.github.io"
   }
 }
-```
