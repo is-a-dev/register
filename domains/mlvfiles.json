@@ -1,0 +1,10 @@
+{
+  "domain": "mlvfiles",
+  "owner": {
+    "username": "KadirEthiel",
+    "email": "josueriquelme.alumno@gmail.com"
+  },
+  "record": {
+    "CNAME": "kadirethiel.github.io"
+  }
+}
