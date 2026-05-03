@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "SkinnyPigeon"
+    "username": "SkinnyPigeon",
+    "email": "philtheskinnypigeon@gmail.com"
   },
   "records": {
     "CNAME": "skinnypigeon.netlify.app"
