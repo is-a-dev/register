@@ -1,0 +1,10 @@
+{
+  "description": "A domain for my shared-host",
+  "owner": {
+    "username": "ahjdev",
+    "email": "amirhosseinjafari8228@gmail.com"
+  },
+  "records": {
+    "NS": ["ns1.hostiran.net", "ns2.hostiran.net"]
+  }
+}
