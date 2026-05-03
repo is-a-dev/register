@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "MhamedOuhanane",
+    "email": "mhmdeouhnan60@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
