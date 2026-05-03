@@ -1,0 +1,12 @@
+{
+  "description": "Trang web cá nhân của tôi",
+  "repo": "https://github.com/truongpt1093/truongpham",
+  "owner": {
+    "username": "truongpt1093",
+    "email": "truongpt1093@gmail.com"
+  },
+  "record": {
+    "CNAME": "truongpham-docs.pages.dev"
+  },
+  "proxied": true
+}
