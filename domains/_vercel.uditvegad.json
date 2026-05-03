@@ -4,6 +4,8 @@
         "email": "vegadudit01@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=uditvegad.is-a.dev,c76b8afee746af782f58"
+        "TXT": [
+            "vc-domain-verify=uditvegad.is-a.dev,c76b8afee746af782f58"
+        ]
     }
 }
