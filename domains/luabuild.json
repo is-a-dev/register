@@ -1,0 +1,13 @@
+{
+  "description": "Subdominio para proyectos de desarrollo",
+"owner": {
+    "username": "hose909012-coder",
+    "email": "hose909012@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "daisy.ns.cloudflare.com",
+      "fred.ns.cloudflare.com"
+    ]
+  }
+}
