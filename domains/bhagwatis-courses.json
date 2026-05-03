@@ -1,0 +1,13 @@
+{
+  "description": "Personal site of Bhagwati Prasad Joshi — Bhagwati's Courses, a learning platform with micro-courses on tech and skills.",
+  "domain": "bhagwatis-courses.is-a.dev",
+  "subdomain": "bhagwatis-courses",
+  "owner": {
+    "username": "bhagwatiprasad",
+    "email": "bhagwatijoshi325@gmail.com"
+  },
+  "record": {
+    "CNAME": "drvmjm01yy17v.cloudfront.net"
+  },
+  "proxied": false
+}
