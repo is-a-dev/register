@@ -3,22 +3,15 @@
         "username": "Hali-creater",
         "email": "vaqarhali01@gmail.com"
     },
-    "record": {
+    "proxied": true,
+    "records": {
         "CNAME": "Hali-creater.github.io",
         "MX": [
-            "mx1.improvmx.com.",
-            "mx2.improvmx.com."
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
         ],
         "TXT": [
             "v=spf1 include:spf.improvmx.com ~all"
         ]
-    },
-    "nested": [
-        {
-            "name": "agent",
-            "record": {
-                "CNAME": "the-rag-knowledge-base-agent-x4uzihm5bexrkeru87nh4g.streamlit.app"
-            }
-        }
-    ]
+    }
 }
