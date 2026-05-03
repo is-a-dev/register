@@ -3,13 +3,9 @@
         "username": "Hali-creater",
         "email": "vaqarhali01@gmail.com"
     },
+    "proxied": true,
     "records": {
-        "A": [
-            "185.199.108.153",
-            "185.199.109.153",
-            "185.199.110.153",
-            "185.199.111.153"
-        ],
+        "CNAME": "Hali-creater.github.io",
         "MX": [
             "mx1.improvmx.com",
             "mx2.improvmx.com"
