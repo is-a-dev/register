@@ -1,0 +1,12 @@
+{
+  "description": "Personal portfolio and homelab projects",
+  "domain": "juanvillegas.is-a.dev",
+  "owner": {
+    "username": "JuanVillegas95",
+    "email": "juanemail2001@gmail.com"
+  },
+  "records": {
+    "CNAME": "5033c705-5d3c-4bcf-b887-d3f334dc3cb5.cfargotunnel.com"
+  },
+  "proxied": true
+}
