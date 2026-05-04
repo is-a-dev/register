@@ -4,6 +4,7 @@
         "email": "wheaxyy@gmail.com"
     },
     "records": {
+        "CNAME": "krmoff.github.io",
         "TXT": [
             "78d078591b89de14e7c105f8a9007b_github-pages-challenge-Krmoff",
             "dh=528a26fd4c360d1696fd58de2609485d1b489d38"
