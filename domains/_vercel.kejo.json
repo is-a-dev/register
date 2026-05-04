@@ -3,6 +3,6 @@
         "username": "kazutokei"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": ["vc-domain-verify=kejo.is-a.dev.cc4db53450ff1accc0a9"]
     }
 }
