@@ -1,0 +1,11 @@
+{
+    "$schema": "https://schema.is-a.dev/registry.json",
+    "owner": {
+          "username": "jkudlerflam",
+          "email": "jkudlerflam@gmail.com"
+    },
+    "records": {
+          "CNAME": "and0u2p2.up.railway.app",
+          "TXT": ["railway-verify=fb3ec5ed0894a3494b337447f0a4f6ed727f8d0df238c44e1cc45242d731c611"]
+    }
+}
