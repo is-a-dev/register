@@ -1,13 +1,10 @@
 {
   "owner": {
     "username": "ploszukiwacz",
-    "email": "ploszukiwacz1@proton.me"
+    "email": "ploszukiwacz1@gmail.com"
   },
   "records": {
-    "NS": [
-      "ns1.desec.io",
-      "ns2.desec.org"
-    ],
+    "NS": ["ns1.desec.io", "ns2.desec.org"],
     "DS": [
       {
         "key_tag": 46214,
