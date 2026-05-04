@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "SYFATP",
-        "email": "zhhhui1997@gmail.com"
-    },
-    "record": {
-        "NS": [
-            "hui.ns.cloudflare.com",
-            "milo.ns.cloudflare.com"
-        ]
-    }
+  "owner": {
+    "username": "SYFATP",
+    "email": "shafa11997@gmail.com"
+  },
+  "records": {
+    "AAAA": ["240e:ec:6292:d7d0:756b:680e:c7ff:f663"]
+  }
 }
