@@ -4,6 +4,8 @@
     "email": "mirzazaman828@gmail.com"
   },
   "records": {
-    "CNAME": "zaman-portfolio.vercel.app"
-  }
+    "A": ["216.198.79.1"],
+    "TXT": "google-site-verification=Lglum8goz-q_d91Y9EE6NhaOjFRsBVsMwl2GnZDg31o"
+  },
+  "proxied": true
 }
