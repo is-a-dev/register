@@ -1,11 +1,11 @@
 {
-    "owner": {
-      "username": "Satya-Siba-Nayak",
-      "discord": "satya8806"
-    },
-    "records": {
-      "CNAME": "satya.qzz.io"
-    },
-    "description": "My personal website/portfolio",
-    "proxied": true
-  }
+  "owner": {
+    "username": "Satya-Siba-Nayak",
+    "discord": "satya8806"
+  },
+  "records": {
+    "CNAME": "bento-website.ssnayak8806.workers.dev"
+  },
+  "description": "My personal website/portfolio",
+  "proxied": true
+}
