@@ -5,9 +5,11 @@
         "email": "copy-dizzy-green@duck.com"
     },
     "records": {
-        "NS": [
-            "adele.ns.cloudflare.com",
-            "vicky.ns.cloudflare.com"
-        ]
+        "MX": [
+            { "target": "route1.mx.cloudflare.net.", "priority": 66 },
+            { "target": "route2.mx.cloudflare.net.", "priority": 6 },
+            { "target": "route3.mx.cloudflare.net.", "priority": 21 }
+        ],
+        "TXT": "v=spf1 include:_spf.mx.cloudflare.net ~all"
     }
 }
