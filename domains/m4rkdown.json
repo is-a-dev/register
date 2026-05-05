@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schemas/domain.schema.json",
+  "description": "M4rkdown — Fast, offline-first Markdown editor with real-time collab and typing arena",
+  "repo": "https://github.com/zhenxiao-yu/m4rkdown-editor",
+  "owner": {
+    "username": "zhenxiao-yu",
+    "email": "markyu0615@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
