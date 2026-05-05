@@ -1,0 +1,11 @@
+{
+  "description": "Portfolio - Eng. Carlos Eduardo Gabriel",
+  "repo": "https://github.com/eng-cegabriel/eng-cegabriel.github.io",
+  "owner": {
+    "username": "engcegabriel",
+    "email": "eng.cegabriel@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
