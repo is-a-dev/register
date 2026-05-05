@@ -1,0 +1,11 @@
+{
+  "description": "AI all-in-one platform",
+  "repo": "https://github.com/firstoff23/cortex",
+  "owner": {
+    "username": "firstoff23",
+    "email": "alexinacio2006@gmail.com"
+  },
+  "record": {
+    "CNAME": "cortex-five-hazel.vercel.app"
+  }
+}
