@@ -1,0 +1,11 @@
+{
+  "description": "Vegu (వేగు) - Quick commerce platform for Nellore, Andhra Pradesh",
+  "repo": "https://github.com/lokeshreddy70/vegu",
+  "owner": {
+    "username": "lokeshreddy70",
+    "email": "lokilokesh9912@gmail.com"
+  },
+  "record": {
+    "CNAME": "vegu-repo.vercel.app"
+  }
+}
