@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Reykon18",
+    "email": "tukenovdaniar8@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
