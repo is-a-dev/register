@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "Grexlabs",
+    "email": "mkmahabbat123x@gmail.com"
+  },
+  "record": {
+    "CNAME": "mk-dev.42web.io",
+    "TXT": "vc-domain-verify=grex.is-a.dev"
+  },
+  "subdomains": {
+    "8d6a7974d747393983b2ff588cd76859": {
+      "record": {
+        "CNAME": "ns1.byet.org"
+      }
+    }
+  }
+}
