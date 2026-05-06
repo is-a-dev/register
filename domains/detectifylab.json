@@ -1,11 +1,14 @@
 {
+  "description": "Detectify testing",
+  "repo": "https://github.com/ak-cyber77/next-vuln-lab",
   "owner": {
     "username": "ak-cyber77"
   },
-  "records": {
+  "record": {
     "A": ["216.198.79.1"],
     "TXT": {
       "_vercel": "vc-domain-verify=detectifylab.is-a.dev,254325007f190c9add03"
     }
-  }
+  },
+  "proxied": false
 }
