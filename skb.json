@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "Fluffy-debuger",
+    "email": "beherasailesh968@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=skb.is-a.dev,21fcd1f9d9da66143f57"
+      }
+    ]
+  }
+}
