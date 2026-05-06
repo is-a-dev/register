@@ -1,0 +1,11 @@
+{
+  "description": "Personal portfolio for Oscar Rolando Alvarez Cardenas — Principal AI Systems Architect, founder of Arkis Group. Built with Next.js 15, TypeScript, Tailwind, Framer Motion and next-intl. Bilingual (ES/EN), deployed on Vercel.",
+  "repo": "https://github.com/oscar-rolando-alvarez/oscaralvarez-dev",
+  "owner": {
+    "username": "oscar-rolando-alvarez",
+    "email": "oralvarez@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com."
+  }
+}
