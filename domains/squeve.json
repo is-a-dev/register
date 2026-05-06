@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "your-github-squeve"
+  },
+  "record": {
+    "CNAME": "your-github-squeve.github.io"
+  }
+}
