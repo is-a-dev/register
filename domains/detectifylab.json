@@ -1,8 +1,9 @@
 {
-  "description": "Detectify testing",
-  "repo": "https://github.com/ak-cyber77/next-vuln-lab",
+  "description": "Detectify testing lab",
+  "repo": "https://github.com/ak-cyber77/next-vuln-lab.git",
   "owner": {
-    "username": "ak-cyber77"
+    "username": "ak-cyber77",
+    "email": "[anil.varutra@gmail.com]"
   },
   "record": {
     "A": ["216.198.79.1"],
