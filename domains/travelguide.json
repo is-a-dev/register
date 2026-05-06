@@ -1,0 +1,12 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "My travel guide website",
+  "repo": "https://github.com/hoangtri22/TravelGuide",
+  "owner": {
+    "username": "hoangtri22",
+    "email": "ngnhoangtri2206@gmail.com"
+  },
+  "record": {
+    "CNAME": "hoangtri22.github.io"
+  }
+}
