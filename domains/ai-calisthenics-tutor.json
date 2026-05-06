@@ -5,8 +5,7 @@
     "username": "gerald512-beep",
     "email": "Gerald512@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "a08fd908-1502-41e8-9bfe-1973fc87fe6a.cfargotunnel.com"
-  },
-  "proxied": true
+  }
 }
