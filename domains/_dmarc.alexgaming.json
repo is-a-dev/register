@@ -5,6 +5,6 @@
     },
     "proxied": false,
     "records": {
-        "TXT": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+        "TXT": "v=DMARC1; p=quarantine; rua=mailto:rua@dmarc.brevo.com"
     }
 }

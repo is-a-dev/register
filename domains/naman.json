@@ -4,7 +4,21 @@
     "email": "namandhakad712@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "MX": [
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 10
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "forward-email=namandhakad712+dev@gmail.com",
+      "v=spf1 include:spf.forwardemail.net include:vercel-dns.com -all"
+    ]
   },
   "proxied": true
 }
