@@ -5,9 +5,9 @@
         "discord": "723837167499083788"
     },
     "records": {
-        "CNAME": "homelab.taila873b5.ts.net",
+        "CNAME": "http://d87769f7-a790-49f8-a045-36c0ad098f2d.cfargotunnel.com",
         "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
         "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
     },
-    "proxied": false
+    "proxied": true
 }
