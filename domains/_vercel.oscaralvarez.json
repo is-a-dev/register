@@ -1,0 +1,11 @@
+{
+  "description": "Vercel domain ownership verification TXT for oscaralvarez.is-a.dev",
+  "repo": "https://github.com/oscar-rolando-alvarez/oscaralvarez-dev",
+  "owner": {
+    "username": "oscar-rolando-alvarez",
+    "email": "oralvarez@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=oscaralvarez.is-a.dev,82f1632aa0c4b5fa232e"
+  }
+}
