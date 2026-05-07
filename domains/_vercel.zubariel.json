@@ -1,11 +1,12 @@
 {
   "owner": {
-    "username": "itszubadev"
+    "username": "itszubariel"
   },
   "records": {
     "TXT": [
       "vc-domain-verify=zubariel.is-a.dev,372181051680e99ee69a",
-      "vc-domain-verify=www.zubariel.is-a.dev,d37aed1fce6c717cf3c5"
+      "vc-domain-verify=www.zubariel.is-a.dev,d37aed1fce6c717cf3c5",
+      "vc-domain-verify=app.zubariel.is-a.dev,dd38a6eaa98ecddf7873"
     ]
   }
 }
