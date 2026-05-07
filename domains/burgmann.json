@@ -1,10 +1,8 @@
 {
   "description": "Home lab and secure tunnel for Franz Burgmann",
-  "domain": "burgmann.is-a.dev",
-  "subdomain": "burgmann",
   "owner": {
-    "repo": "https://github.com/your-github-username/register",
-    "email": "your-email@example.com"
+    "username": "franzbu",
+    "email": "csaa6335@gmail.com"
   },
   "record": {
     "NS": [
