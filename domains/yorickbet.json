@@ -1,10 +1,10 @@
 {
 "owner": {
 "username": "cleard1",
-"email": "apobaba@gmail.com"
+"email": "[apobaba@gmail.com](mailto:apobaba@gmail.com)"
 },
 
-"record": {
-"CNAME": "elements-planet-drunk-receptors.trycloudflare.com/"
+"records": {
+"CNAME": "elements-planet-drunk-receptors.trycloudflare.com"
 }
 }
