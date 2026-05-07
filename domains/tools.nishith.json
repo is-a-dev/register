@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "singhaidotnish"
+  },
+  "record": {
+    "CNAME": "0a4f4c9436bfda3d.vercel-dns-017.com",
+    "TXT": {
+      "_vercel": "vc-domain-verify=tools.nishith.is-a.dev,d68d53d3986d4bc20896"
+    }
+  }
+}
