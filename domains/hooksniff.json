@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "servetarslan02",
+    "email": "noreply@hooksniff.is-a.dev"
+  },
+  "records": {
+    "A": ["104.18.5.103", "104.18.4.103"],
+    "MX": [
+      {
+        "target": "feedback-smtp.us-east-1.amazonses.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all"
+    ]
+  }
+}
