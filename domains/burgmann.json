@@ -5,9 +5,8 @@
     "email": "csaa6335@gmail.com"
   },
   "records": {
-    "NS": [
-      "leo.ns.cloudflare.com",
-      "maleah.ns.cloudflare.com"
+    "A": [
+      "192.0.2.1"
     ]
   }
 }
