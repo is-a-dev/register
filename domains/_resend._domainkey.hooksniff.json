@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "servetarslan02",
+    "email": "noreply@hooksniff.is-a.dev"
+  },
+  "records": {
+    "TXT": [
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDa3wt33koYemEKLi0Fbf/xttHHbme0VaXjSG39D+TQoFuw5Tkap4eLmSP59CNB1DaZ16vI96tDhBi+ffZls7x3nQR4ap/byQm/bg9eTc4yg2PsCLpfcTzTTksK3/mv66Of3dDAZVPjk7sFPNS5ZHCyxCruUUFwMoGNeX4ZDVHuXwIDAQAB"
+    ]
+  }
+}
