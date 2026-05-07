@@ -4,7 +4,10 @@
         "email": "lanzaderasjohndiether@gmail.com"
     },
     "records": {
-        "A": ["185.27.134.134"]
+        "A": ["185.27.134.134"],
+        "CNAME": {
+            "37d6bfddee0d1590d1a629345891cd0d": "ns1.byet.org"
+        }
     },
     "proxied": true
 }
