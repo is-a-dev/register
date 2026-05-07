@@ -2,9 +2,9 @@
     "owner": {
       "username": "arsenshahverdyanlavtxa228",
       "email": "arsenshahverdyan300@gmail.com"                                                                                                                                                                       
-    },
-    "record": {                                                                                                                                                                                                      
-      "CNAME": "jot1nova.netlify.app"                             
     },                                                                                                                                                                                                               
-    "proxied": false
-  } 
+    "records": {                                                                                                                                                                                                     
+      "CNAME": "jot1nova.netlify.app"                                                                                                                                                                                
+    },                                                            
+    "proxied": false                                                                                                                                                                                                 
+  }
