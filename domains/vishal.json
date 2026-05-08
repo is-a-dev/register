@@ -1,10 +1,11 @@
 {
-  "description": "Welcome to Vishal Sharma's Space on Web",
-  "owner": {
-    "username": "makeavish",
-    "email": "hi@vishalsharma.dev"
-  },
-  "records": {
-    "URL": "https://vishalsharma.dev"
-  }
+    "description": "Personal portfolio for Vishal Kumar",
+    "repo": "https://github.com/vishal-kumar9032/register",
+    "owner": {
+        "username": "vishal-kumar9032",
+        "email": "studyemail7243@gmail.com"
+    },
+    "records": {
+        "CNAME": "vishal-kumar9032.github.io"
+    }
 }
