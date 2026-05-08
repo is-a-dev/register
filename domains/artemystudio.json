@@ -1,0 +1,11 @@
+{
+  "description": "ArtemyStudio — portfolio",
+  "repo": "https://github.com/ArtemyStudio/artemystudio-dev",
+  "owner": {
+    "username": "ArtemyStudio",
+    "email": "artemystudio@gmail.com"
+  },
+  "record": {
+    "CNAME": "artemystudio.netlify.app"
+  }
+}
