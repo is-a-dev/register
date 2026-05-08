@@ -4,8 +4,6 @@
         "email": "muhammadadnanbwp@outlook.com"
     },
     "records": {
-        "A": [
-            "216.198.79.1"
-        ]
+        "TXT": "vc-domain-verify=adnan.is-a.dev,cae8f125d24d1ab2f87f"
     }
 }
