@@ -3,6 +3,14 @@
     "username": "mash023"
   },
   "records": {
-    "A": ["18.180.61.242"]
+    "A": ["35.74.239.226"],
+    "TXT": [
+      "v=spf1 ip4:35.79.18.133 ~all",
+      "v=DMARC1; p=none"
+    ],
+    "mail._domainkey": {
+      "TXT": "v=DKIM1; k=rsa; "
+          "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDaH4wbrz1nDUX4Jlx1TnC0FBzKkj+1Xs3Kur1N0bKJv+JKJxqYdEZ0em+ELIQ9SEUmVET4Fq9KfKJTNeM2l2OB3cAG63wYA4hAMlMUjwnQgtQLvDRz9WKFZRc85L8DOLF+j1sIErFa4sfcvRMO/Hzuiw2KbdLpKBVHjb5KV4Qg8wIDAQAB"
+    }
   }
 }
