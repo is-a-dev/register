@@ -8,6 +8,7 @@
     "MX": ["mx.terusmail.zone.id"],
     "TXT": ["google-site-verification=FTAUffNIHTG5iWyUiGwYTyzTb4PdWdCUPAcWrDUtojI"],
     "CNAME": ["elkhaff.github.io"]
-  }
+  },
+  "proxied": false
 }
 
