@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "chautienvan"
-  },
-  "record": {
-    "CNAME": "chautienvan.github.io"
-  }
+    "owner": {
+        "username": "chautienvan",
+        "email": "chautienvan1501@gmail.com"
+    },
+    "records": {
+        "CNAME": "chautienvan.github.io"
+    }
 }
