@@ -9,7 +9,7 @@
         ],
         "MX": [
             {
-                "target": "mail.novespoir.is-a.dev",
+                "target": "mail.novespoir.is-a.dev.",
                 "priority": 10
             }
         ],
