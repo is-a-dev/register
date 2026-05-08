@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "endlesspoir",
+        "email": "159566823+endlesspoir@users.noreply.github.com"
+    },
+    "records": {
+        "TXT": [
+            "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyJdkj5jH1fCuhJtbqIJgMl6O3b0wVObf/ck8rLz9iJFlvGE3AFjhRZ5CagRQHU5TmuuhLlVQ5+yxXb8uz6D4vMNPHCxYNZZ1ltzOFDHTCD+b2N0SqgVZMwMtZw6gLrKe7ta0VnURyUH3RvF5uWd8uTW22fOIUJtW0KTbQdL597eAUReMIis3vFv2ImXxbcZPnMDzO9heKxBRX8X/HfbAD52XdEeE9FBHYTeC5caJURXABcmT8ePdBbN35X/AWiXDt0lYYOvNhRrcZsMo2QV+5CSF3pUqSa7U7HCJgW3px6pFQTVCjzLsP2pfcpzVGwd6jeeMoXbXZ6eYv4muoqYBuwIDAQAB"
+        ]
+    }
+}
