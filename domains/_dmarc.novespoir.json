@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "endlesspoir",
-    "email": "159566823+endlesspoir@users.noreply.github.com"
-  },
-  "records": {
-    "TXT": [
-      "v=DMARC1; p=quarantine; rua=mailto:postmaster@novespoir.is-a.dev"
-    ]
-  }
+    "owner": {
+        "username": "endlesspoir",
+        "email": "159566823+endlesspoir@users.noreply.github.com"
+    },
+    "records": {
+        "TXT": [
+            "v=DMARC1; p=quarantine; rua=mailto:postmaster@novespoir.is-a.dev"
+        ]
+    }
 }
