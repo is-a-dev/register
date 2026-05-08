@@ -1,7 +1,8 @@
 {
-    "owner": "Archie-Benitez",
-    "username": "Archie-Benitez",
-    "email": "archiebenitez101@gmail.com",
+    "owner": {
+        "username": "Archie-Benitez",
+        "email": "archiebenitez101@gmail.com"
+    },
     "records": {
         "A": ["76.76.21.21"],
         "TXT": "vc-domain-verify=archiebenitez.is-a.dev,89520bf62e46a8c6fde4"
