@@ -1,20 +1,20 @@
 {
-  "owner": {
-    "username": "endlesspoir",
-    "email": "159566823+endlesspoir@users.noreply.github.com"
-  },
-  "records": {
-    "A": [
-      "139.59.148.202"
-    ],
-    "MX": [
-      {
-        "target": "mail.novespoir.is-a.dev",
-        "priority": 10
-      }
-    ],
-    "TXT": [
-      "v=spf1 mx a ip4:139.59.148.202 ~all"
-    ]
-  }
+    "owner": {
+        "username": "endlesspoir",
+        "email": "159566823+endlesspoir@users.noreply.github.com"
+    },
+    "records": {
+        "A": [
+            "139.59.148.202"
+        ],
+        "MX": [
+            {
+                "target": "mail.novespoir.is-a.dev",
+                "priority": 10
+            }
+        ],
+        "TXT": [
+            "v=spf1 mx a ip4:139.59.148.202 ~all"
+        ]
+    }
 }
