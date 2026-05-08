@@ -1,11 +1,9 @@
 {
-    "description": "Personal portfolio for Vishal Kumar",
-    "repo": "https://github.com/vishal-kumar9032/register",
-    "owner": {
-        "username": "vishal-kumar9032",
-        "email": "studyemail7243@gmail.com"
-    },
-    "records": {
-        "CNAME": "vishal-kumar9032.github.io"
-    }
+  "owner": {
+    "username": "vishal-kumar9032",
+    "email": "studyemail7243@gmail.com"
+  },
+  "records": {
+    "CNAME": "vishal-kumar9032.github.io"
+  }
 }
