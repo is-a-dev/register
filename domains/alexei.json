@@ -4,7 +4,8 @@
     "email": "aleksej.mutic@gmail.com"
   },
   "records": {
-    "CNAME": "incomparable-lily-229ca6.netlify.app"
+    "CNAME": "incomparable-lily-229ca6.netlify.app",
+    "TXT": ["562442"]
   },
-  "proxied": false
+  "proxied": true
 }
