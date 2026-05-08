@@ -1,0 +1,11 @@
+{
+  "description": "Raspberry Pi ",
+  "repo": "https://github.com/aeydeCS/register",
+  "owner": {
+    "username": "aeydecs",
+    "email": "marek123424@onet.pl"
+  },
+  "record": {
+    "CNAME": "aeyde.duckdns.org"
+  }
+}
