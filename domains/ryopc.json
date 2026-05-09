@@ -4,10 +4,10 @@
     "email": "ryotagtagtag@gmail.com"
   },
   "description": "PC support network headquarters",
-  "records": {
+  "record": {
     "NS": [
-      "://cloudflare.com",
-      "://cloudflare.com"
+      "keaton.ns.cloudflare.com",
+      "nataly.ns.cloudflare.com"
     ]
   }
 }
