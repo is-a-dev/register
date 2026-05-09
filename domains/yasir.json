@@ -4,6 +4,6 @@
         "email": "moeezsindhu@gmail.com"
     },
     "records": {
-        "CNAME": "ym-sindhu.github.io"
+        "A": ["75.2.60.5"]
     }
 }
