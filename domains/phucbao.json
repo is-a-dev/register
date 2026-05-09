@@ -5,7 +5,9 @@
   },
   "description": "Personal portfolio website for a Software Engineering student.",
   "records": {
-    "CNAME": "cname.vercel-dns.com",
+    "A": [
+      "76.76.21.21"
+    ],
     "TXT": [
       "vc-domain-verify=phucbao.is-a.dev,6db5b4a3c95b06c78dd5"
     ]
