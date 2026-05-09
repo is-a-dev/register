@@ -4,6 +4,6 @@
     "email": "dummy.inbox.fun@email.com"
   },
   "records": {
-    "CNAME": "portfolio-flame-five-uvlsigajo9.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
