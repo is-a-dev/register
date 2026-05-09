@@ -7,6 +7,6 @@
       "discord": "695672697270829116"
     },
     "records": {
-      "CNAME": "portfolio-two-blush-k488se87r1.vercel.app"
+      "A": ["216.198.79.1"]
     }
 }
