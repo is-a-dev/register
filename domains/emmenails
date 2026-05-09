@@ -1,0 +1,9 @@
+emmenails.json
+{
+  "owner": {
+    "username": "Emme-Nails"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
