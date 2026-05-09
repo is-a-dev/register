@@ -3,6 +3,11 @@
     "username": "lincoln-G-zhang",
     "email": "lincoln.zhang@live.com"
   },
+  "records": {
+    "A": [
+      "192.0.2.1"
+    ]
+  },
   "ns": [
     "lou.ns.cloudflare.com",
     "meera.ns.cloudflare.com"
