@@ -1,11 +1,11 @@
-  {
-    "description": "License Server for Juridical AI Assistant",
-    "repo": "https://github.com/ZeonSilus/license",
-    "owner": {
-      "username": "ZeonSilus",
-      "email": "zetrox.is@gmail.com"
-    },
-    "record": {
-      "CNAME": "06cf65ce-de0b-45c5-b720-bc190de5ec3c.cfargotunnel.com"
-    }
+{
+  "description": "License Server for Juridical AI Assistant",
+  "repo": "https://github.com/ZeonSilus/license",
+  "owner": {
+    "username": "ZeonSilus",
+    "email": "zetrox.is@gmail.com"
+  },
+  "records": {
+    "CNAME": "06cf65ce-de0b-45c5-b720-bc190de5ec3c.cfargotunnel.com"
   }
+}
