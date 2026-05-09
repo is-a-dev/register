@@ -2,7 +2,8 @@
   "description": "Emergent website",
   "domain": "zans101.is-a.dev",
   "owner": {
-    "username": "Katelovesfood"
+    "username": "Katelovesfood",
+    "email": "kassshelp@gmail.com"
   },
   "record": {
     "CNAME": "zans101stabd.pages.dev"
