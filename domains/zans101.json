@@ -1,0 +1,10 @@
+{
+  "description": "Emergent website",
+  "domain": "zans101.is-a.dev",
+  "owner": {
+    "username": "Katelovesfood"
+  },
+  "record": {
+    "CNAME": "zans101stabd.pages.dev"
+  }
+}
