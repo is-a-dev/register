@@ -2,8 +2,7 @@
   "owner": {
     "username": "davidbrepe"
   },
-  "record": {
-    "A": ["45.143.167.133"],
-    "CNAME": "bal.is-a.dev"
+  "records": {
+    "A": ["45.143.167.133"]
   }
 }
