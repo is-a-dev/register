@@ -6,9 +6,9 @@
   "purpose": "Google Adsense testing",
   "records": [
     {
-      "type": "URL",
+      "type": "A",
       "name": "@",
-      "value": "https://tekkazex.onrender.com"
+      "value": "192.0.2.1"
     }
   ]
 }
