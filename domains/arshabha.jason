@@ -1,0 +1,11 @@
+{
+  "description": "My demo",
+  "repo": "https://github.com/arshabhaarya",
+  "owner": {
+    "username": "arshabhaarya",
+    "email": "arshabhaa@gmail.com"
+  },
+  "record": {
+    "CNAME": "arshabha.pages.dev"
+  }
+}
