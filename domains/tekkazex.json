@@ -1,8 +1,6 @@
 {
-  "subdomain": "tekkazex",
   "owner": "jamaleko",
-  "description": "ini adalah website berita profesional",
-  "links": {
-    "website": "https://tekkazex.onrender.com"
-  }
+  "domain": "tekkazex.is-a.dev",
+  "type": "personal",
+  "purpose": "testing"
 }
