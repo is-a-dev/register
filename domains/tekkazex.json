@@ -4,12 +4,12 @@
   },
   "domain": "tekkazex.is-a.dev",
   "type": "personal",
-  "purpose": "testing",
+  "purpose": "Google Adsense testing",
   "records": [
     {
       "type": "A",
       "name": "@",
-      "value": "127.0.0.1"    // placeholder IP, bisa diganti nanti
+      "value": "127.0.0.1"
     }
   ]
 }
