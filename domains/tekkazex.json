@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "jamaleko"
-  },
-  "record": {
-    "CNAME": "tekkazex.onrender.com"
+  "subdomain": "tekkazex",
+  "owner": "jamaleko",
+  "description": "ini adalah website berita profesional",
+  "links": {
+    "website": "https://tekkazex.onrender.com"
   }
 }
