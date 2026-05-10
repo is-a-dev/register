@@ -1,0 +1,11 @@
+{
+  "description": "Thyroxeia AI - Study Smarter with Gemini AI",
+  "repo": "https://github.com/gabron920-sudo/thyroxeia-deploy",
+  "owner": {
+    "username": "gabron920-sudo",
+    "email": "gabron920@gmail.com"
+  },
+  "record": {
+    "CNAME": "thyroxeia-ai.fancy-sky-31cf.workers.dev"
+  }
+}
