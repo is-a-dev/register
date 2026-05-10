@@ -1,15 +1,16 @@
 {
   "owner": {
-    "name": "jamaleko"
+    "name": "jamaleko",
+    "username": "jamaleko"
   },
   "domain": "tekkazex.is-a.dev",
   "type": "personal",
   "purpose": "Google Adsense testing",
   "records": [
     {
-      "type": "A",
+      "type": "CNAME",
       "name": "@",
-      "value": "127.0.0.1"
+      "value": "example.com"
     }
   ]
 }
