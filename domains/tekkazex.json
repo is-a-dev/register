@@ -3,12 +3,12 @@
     "username": "jamaleko"
   },
   "type": "personal",
-  "purpose": "Google Adsense testing",
+  "purpose": "testing Google Adsense domain",
   "records": [
     {
       "type": "A",
       "name": "@",
-      "value": "192.0.2.1"
+      "value": "1.1.1.1"
     }
   ]
 }
