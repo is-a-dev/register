@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "origamigriffin",
+        "email": "Origami.griffin@icloud.com"
+    },
+    "records": {
+        "NS": [
+            "celine.ns.cloudflare.com",
+            "fonzie.ns.cloudflare.com"
+        ]
+    }
+}
