@@ -1,5 +1,7 @@
 {
-  "owner": "jamaleko",
+  "owner": {
+    "name": "jamaleko"
+  },
   "domain": "tekkazex.is-a.dev",
   "type": "personal",
   "purpose": "testing"
