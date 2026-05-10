@@ -4,6 +4,6 @@
     "email": "parthbhuskade1@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": ["vc-domain-verify=sqlide.is-a.dev,9689e05150b4726f6055"]
   }
 }
