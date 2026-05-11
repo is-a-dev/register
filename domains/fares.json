@@ -1,0 +1,9 @@
+{
+  "domain": "fares.is-a.dev",
+  "owner": {
+    "email": "ferisbouzayen@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
