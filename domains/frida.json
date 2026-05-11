@@ -1,0 +1,12 @@
+{
+  "description": "Frida — luxury bag catalog (private link-share)",
+  "repo": "https://github.com/naimozcan/frida-katalog",
+  "owner": {
+    "username": "naimozcan",
+    "email": "naimyasirozcan@gmail.com"
+  },
+  "records": {
+    "CNAME": "frida-katalog.pages.dev"
+  },
+  "proxied": false
+}
