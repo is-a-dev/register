@@ -4,6 +4,12 @@
     "email": "sairajeev2002@gmail.com"
   },
   "records": {
-    "CNAME": "sairajeev.netlify.app"
+    "CNAME": "cname.vercel-dns.com",
+
+    "TXT": [
+      "vc-domain-verify=sairajeev.is-a.dev,8ad3098b8060d84f306f"
+    ],
+    
+    "www": "5c03a1063a5a8d83.vercel-dns-017.com"
   }
 }
