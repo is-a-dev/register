@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Archie-Benitez",
-        "email": "archiebenitez101@gmail.com"
-    },
-    "records": {
-        "CNAME": "archiebenitez.vercel.app"
-    }
+  "owner": {
+    "username": "Archie-Benitez",
+    "email": "archiebenitez101@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
