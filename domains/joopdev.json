@@ -1,7 +1,7 @@
 {
   "owner": {
     "username": "joopdev",
-    "email": "[info@joopdev.com]"
+    "email": "info@joopdev.com"
   },
   "records": {
     "NS": ["coco.ns.cloudflare.com", "giancarlo.ns.cloudflare.com"]
