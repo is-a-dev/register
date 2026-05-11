@@ -3,6 +3,7 @@
         "username": "theamallalgi"
     },
     "records": {
-        "CNAME": "amallalgi.vercel.app"
+        "CNAME": "amallalgi.vercel.app",
+        "TXT": "vc-domain-verify=amallalgi.is-a.dev,1d7fb22c46ad659db095"
     }
 }
