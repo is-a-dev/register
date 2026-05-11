@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "theamallalgi"
+  },
+  "records": {
+    "CNAME": "amallalgi.vercel.app",
+    "TXT": "vc-domain-verify=www.amallalgi.is-a.dev,c77198effd5a41086c2a"
+  }
+}
