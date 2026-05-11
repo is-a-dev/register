@@ -1,4 +1,9 @@
 {
-  "description": "Clearnix website",
-  "repo": "https://github.com/clearnixapp/clearnix"
+  "owner": {
+    "username": "clearnixapp",
+    "email": "clearnixapp@gmail.com"
+  },
+  "records": {
+    "CNAME": "clearnixapp.github.io"
+  }
 }
