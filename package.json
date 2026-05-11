@@ -1,9 +1,9 @@
 {
-  "devDependencies": {
-    "ava": "^6.2.0",
-    "fs-extra": "^11.2.0"
+  "owner": {
+    "username": "SSF",
+    "email": "cubewithitish@gmail.com"
   },
-  "scripts": {
-    "test": "npx ava tests/*.test.js"
+  "record": {
+    "CNAME": "SSF.github.io"
   }
 }
