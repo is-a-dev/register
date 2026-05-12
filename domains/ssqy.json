@@ -1,0 +1,12 @@
+{
+  "description": "Personal site for SSQY",
+  "repo": "https://github.com/a19344042/ssqy",
+  "owner": {
+    "username": "a19344042",
+    "email": ""
+  },
+  "record": {
+    "CNAME": "ssqy.github.io"
+  },
+  "proxied": false
+}
