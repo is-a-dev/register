@@ -1,0 +1,10 @@
+{
+  "description": "Artist website",
+  "repo": "https://lovable.dev",
+  "owner": {
+    "username": "BGS1001"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
