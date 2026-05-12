@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "KishonShrill",
+    "email": "crystalbluew@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}

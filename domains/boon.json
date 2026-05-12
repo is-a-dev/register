@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio site for me.",
   "owner": {
-    "username": "uwuCaitlin",
-    "email": "",
-    "discord": "boon#6660"
+    "username": "apiwishboon-spec",
+    "email": "apiwish.boon@gmail.com"
   },
-  "record": {
-    "URL": "https://boons.pics"
+  "records": {
+    "CNAME": "boon-profile.pages.dev"
   }
 }

@@ -1,11 +1,10 @@
 {
   "description": "Brunos's personal developer website",
-  "repo": "https://github.com/BrunoWithoutH/BrunoWithoutH.github.io",
   "owner": {
     "username": "BrunoWithoutH",
     "email": "pinheirobrunoevaristo@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "brunowithouth.github.io"
   }
 }

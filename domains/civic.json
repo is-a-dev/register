@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "civic1007",
-        "email": "",
-        "discord":"1258033419443503124"
-    },
-    "record": {
-        "CNAME": "civic1007.pages.dev"
-    }
+  "owner": {
+    "username": "trollmeight",
+    "discord": "1266754182082461751"
+  },
+  "records": {
+    "CNAME": "edge.redirect.pizza"
+  }
 }

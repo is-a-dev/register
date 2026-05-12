@@ -1,0 +1,10 @@
+{
+  "description": "my images yahoo",
+  "owner": {
+    "username": "bitpbl",
+    "email": "bitpebl@gmail.com"
+  },
+  "records": {
+    "CNAME": "edge.redirect.pizza"
+  }
+}

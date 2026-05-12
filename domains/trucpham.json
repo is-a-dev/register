@@ -1,0 +1,11 @@
+{
+  "description": "My portfolio website.",
+  "owner": {
+    "username": "trucpham04",
+    "email": "trucpham04@proton.me"
+  },
+  "records": {
+    "CNAME": "trucpham.pages.dev"
+  },
+  "proxied": true
+}

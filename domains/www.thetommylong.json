@@ -1,0 +1,10 @@
+{
+  "description": "Currently used for portfolio website and SMTP mail server",
+  "owner": {
+    "username": "TheTommylongIsHeree",
+    "discord": "thetommylong"
+  },
+  "records": {
+    "CNAME": "cool-sorbet-8aff60.netlify.app"
+  }
+}

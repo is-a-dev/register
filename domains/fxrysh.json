@@ -1,13 +1,11 @@
 {
-  "description": "Personal portfolio written in VueJS",
-  "repo": "https://github.com/fxrysh/portfolio",
   "owner": {
     "username": "fxrysh",
     "discord": "Fxrysh#5947",
     "twitter": "fxryshdev",
     "email": "hello@farish.is-a.dev"
   },
-  "record": {
+  "records": {
     "CNAME": "86872205c14179c98afa1392.cname.deno.dev"
   }
 }

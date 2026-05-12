@@ -4,7 +4,7 @@
     "username": "armoredvortex",
     "email": "rachitpandey@protonmail.com"
   },
-  "record": {
-    "CNAME": "armoredvortex.github.io"
+  "records": {
+    "CNAME": "armoredvortex.vercel.app"
   }
 }

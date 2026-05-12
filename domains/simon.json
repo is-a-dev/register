@@ -1,11 +1,9 @@
 {
-  "description": "My website :)",
-  "repo": "https://github.com/ssimondev/ssimondev.github.io",
   "owner": {
-    "username": "ssimondev",
-    "email": "simi.simecek@seznam.cz"
+    "username": "Simonf8",
+    "email": "kefetesimon@mail.com"
   },
-  "record": {
-    "CNAME": "ssimondev.github.io"
+  "records": {
+    "CNAME": "simon-production-217f.up.railway.app"
   }
 }

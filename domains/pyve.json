@@ -1,11 +1,9 @@
 {
-  "description": "pyve's world",
-  "repo": "https://github.com/pvignau/pvignau.github.io",
   "owner": {
     "username": "pvignau",
     "email": "vignau.py@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pvignau.github.io"
   }
 }

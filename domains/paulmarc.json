@@ -1,0 +1,11 @@
+{
+  "description": "Personal Dev website for paulmarc.is-a.dev",
+  "owner": {
+    "username": "paulmarc",
+    "email": "develop@paulmarc.org"
+  },
+  "records": {
+    "URL": "https://github.com/paulmarc"
+  },
+  "proxied": false
+}

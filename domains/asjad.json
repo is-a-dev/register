@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "a4axjd",
+        "email": "noorasjad3@gmail.com"
+    },
+    "records": {
+         "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+         "TXT": ["v=spf1 include:spf.improvmx.com ~all"],
+         "A": ["216.198.79.1"]
+    }
+}

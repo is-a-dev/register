@@ -1,11 +1,9 @@
 {
-  "description": "My personal website!",
-  "repo": "https://github.com/OtterCodes101/OtterCodes101.github.io",
   "owner": {
-    "username": "OtterCodes101",
-    "email": "oliver.anderson4435@gmail.com"
+    "username": "leahanderson1",
+    "email": "leah@chromebooks.lol"
   },
-  "record": {
-    "CNAME": "ottercodes101.github.io"
+  "records": {
+    "CNAME": "leahanderson1.github.io"
   }
 }

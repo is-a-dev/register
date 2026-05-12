@@ -1,11 +1,11 @@
 {
+  "description": "Sarthak Kumbhar - Software Engineer Portfolio",
+  "repo": "https://github.com/Sarthaksk26/Sarthak-portfolio",
   "owner": {
-    "username": "dubey0613",
-    "email": "dubey.sarthak0613@gmail.com",
-    "discord": "877525618525364295"
+    "username": "Sarthaksk26",
+    "email": "sarthakkumbhar11@gmail.com"
   },
-
-  "record": {
-    "CNAME": "dubey0613.github.io"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

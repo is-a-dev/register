@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "cjolivier123",
+    "discord": "1175481072088268920"
+  },
+  "records": {
+   "TXT": ["zoho-verification=zb90142323.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
+    "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
+  }
+}

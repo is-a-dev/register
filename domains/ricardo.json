@@ -1,11 +1,9 @@
 {
-  "description": "My personal website",
-  "repo": "https://github.com/RicardoGonzf/RicardoGonzf",
   "owner": {
     "username": "RicardoGonzf",
     "email": "ricardo@ricardogonz.es"
   },
-  "record": {
+  "records": {
     "URL": "https://ricardogonz.es"
   }
 }

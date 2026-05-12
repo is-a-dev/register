@@ -1,0 +1,23 @@
+{
+    "owner": {
+        "username": "alternativetixx",
+        "email": "gallium.bot@gmail.com"
+    },
+    "description": "Gallium: A professional Python-based Discord bot project.",
+    "records": {
+        "A": [
+            "76.76.21.21"
+        ],
+        "MX": [
+            "mx1.larksuite.com",
+            "mx2.larksuite.com",
+            "mx3.larksuite.com"
+        ],
+        "TXT": [
+            "lark-domain-verification=verification-code-site-App_lark=Q0VjeFSDkR6Vgs9Y4EDT",
+            "v=spf1 +include:spf.onlarksuite.com -all"
+        ]
+    }
+}
+
+

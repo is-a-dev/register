@@ -1,12 +1,10 @@
 {
-  "description": "a site for Drago Cuven's general content",
-  "repo": "https://github.com/Drago-Cuven/drago-cuven.github.io",
   "owner": {
     "username": "Drago-Cuven",
     "email": "MartinelplayzYT@gmail.com",
-    "twitter": "@mbcbgd"
+    "twitter": "mbcbgd"
   },
-  "record": {
-    "CNAME": "Drago-Cuven.github.io"
+  "records": {
+    "CNAME": "drago-cuven.github.io"
   }
 }

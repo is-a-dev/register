@@ -5,7 +5,7 @@
         "username": "antlis",
         "email": "crabs@cock.li"
     },
-    "record": {
+    "records": {
         "CNAME": "antlis.github.io",
         "TXT": ["29d3e4d8cee637ce2341f6a67903cc"]
     }

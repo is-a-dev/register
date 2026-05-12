@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "UshnishG",
+    "email": "ghosalushnish@gmail.com"
+  },
+  "records": {
+    "URL": "https://ushnish.vercel.app"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/UshnishG",
+      "/linkedin": "https://www.linkedin.com/in/ushnishghosal"
+    },
+    "redirect_paths": true
+  }
+}
