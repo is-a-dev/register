@@ -4,6 +4,6 @@
     "email": "iarasuster@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"]
+    "TXT": "vc-domain-verify=iarasuster.is-a.dev,1188b0d9e3c3ebe87a1e"
   }
 }

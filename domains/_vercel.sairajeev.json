@@ -4,6 +4,8 @@
     "email": "sairajeev2002@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": [
+      "vc-domain-verify=sairajeev.is-a.dev,8ad3098b8060d84f306f"
+    ]
   }
 }
