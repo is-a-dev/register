@@ -1,0 +1,11 @@
+{
+  "description": "SPI推論問題をAIが生成するiOSアプリ",
+  "repo": "https://github.com/iGeek-OS2/Suiron",
+  "owner": {
+    "username": "iGeek-OS2",
+    "email": "smzk1209@gmail.com"
+  },
+  "record": {
+    "CNAME": "igeek-os2.github.io"
+  }
+}
