@@ -1,0 +1,11 @@
+{
+  "description": "My PHP local server",
+  "repo": "https://github.com/mettcpms-dev",
+  "owner": {
+    "username": "mettcpms-dev",
+    "email": "Mettcpms@gmail.com"
+  },
+  "record": {
+    "CNAME": "sister-dashboard.cfargotunnel.com"
+  }
+}
