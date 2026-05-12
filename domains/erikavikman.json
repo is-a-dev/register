@@ -1,11 +1,10 @@
 {
   "description": "Artist website",
-  "repo": "https://erikavikman-site.bgs1001.workers.dev",
+  "repo": "https://lovable.dev",
   "owner": {
-    "username": "BGS1001",
-    "email": "bgs1001@gmail.com"
+    "username": "BGS1001"
   },
-  "records": {
-    "CNAME": "erikavikman-site.bgs1001.workers.dev"
+  "record": {
+    "URL": "https://erikavikman-site.bgs1001.workers.dev"
   }
 }
