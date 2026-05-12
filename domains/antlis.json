@@ -6,6 +6,7 @@
         "email": "crabs@cock.li"
     },
     "record": {
-        "CNAME": "antlis.github.io"
+        "CNAME": "antlis.github.io",
+        "TXT": ["29d3e4d8cee637ce2341f6a67903cc"]
     }
-} 
+}
