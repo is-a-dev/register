@@ -1,0 +1,10 @@
+{
+  "description": "Luxury harp artist website",
+  "repo": "https://lovable.dev",
+  "owner": {
+    "username": "BGS1001"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
