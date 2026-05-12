@@ -3,7 +3,8 @@
         "username": "Venkat-Rahul98",
         "email": "rahulvarudu7476@gmail.com"
     },
-    "records": {
-        "CNAME": "venkat-varudu.vercel.app"
+    "record": {
+        "CNAME": "portfolio-one-xi-41.vercel.app",
+        "TXT": ["vc-domain-verify=venkat.is-a.dev,3f89fa021338800e911f"]
     }
 }
