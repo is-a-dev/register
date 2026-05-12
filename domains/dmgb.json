@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "diogomgbrito",
+    "email": "dmgb.dev@gmail.com"
+  },
+  "description": "Radio Room - Collaborative listening room",
+  "records": {
+    "CNAME": "radio-room.pages.dev"
+  }
+}
