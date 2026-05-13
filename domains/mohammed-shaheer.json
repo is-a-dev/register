@@ -3,7 +3,10 @@
     "username": "MohammedShahir",
     "email": "mohammed.shaheer.shawqi@outlook.com"
   },
-  "record": {
-    "CNAME": "mohammedshahir.github.io"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "mohammedshahir.github.io"
+    }
+  ]
 }
