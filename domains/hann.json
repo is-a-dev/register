@@ -21,5 +21,10 @@
       "mx2.improvmx.com"
     ],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  },
+   "subdomains": {
+    "iot": {
+      "repo": "r-hann/IOT"
+    }
   }
 }
