@@ -1,0 +1,11 @@
+{
+  "description": "Projet Stagios",
+  "repo": "https://github.com/toolfy-tech/Stagios",
+  "owner": {
+    "username": "toolfy-tech",
+    "email": "ton-adresse-mail@exemple.com"
+  },
+  "record": {
+    "CNAME": "toolfy-tech.github.io"
+  }
+}
