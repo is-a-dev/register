@@ -2,10 +2,14 @@
   "description": "Yash Shinde personal portfolio website",
   "repo": "https://github.com/Yashshinde024/yashshinde",
   "owner": {
-    "username": "YashShinde024",
+    "username": "Yashshinde024",
     "email": "yashshinde140407@gmail.com"
   },
   "records": {
+    "A": ["216.198.79.1"],
+    "TXT": {
+      "_vercel": "vc-domain-verify=yashshinde.is-a.dev,5d203ec10cfac5543637"
+    },
     "CNAME": "yashshinde-alpha.vercel.app"
   }
 }
