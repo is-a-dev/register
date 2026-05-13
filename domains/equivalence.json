@@ -1,0 +1,12 @@
+{
+    "description": "Mon application equivalence",
+    "domain": "is-a.dev",
+    "subdomain": "equivalence",
+    "owner": {
+        "username": "Njivaniaina",
+        "email": "fenosoanjivaniaina@gmail.com"
+    },
+    "record": {
+        "CNAME": "scan-equivalence.duckdns.org"
+    }
+}
