@@ -1,10 +1,11 @@
 {
   "owner": {
-    "username": "jass6767",
-    "email": "sjass6789@gmail.com"
+    "username": "YOUR_GITHUB_USERNAME",
+    "email": "your@email.com"
   },
 
   "records": {
-    "CNAME": "jashanpreetsinghportfolio.vercel.app"
+    "CNAME": "jashanpreetsinghportfolio.vercel.app",
+    "TXT": "vc-domain-verify=jashan.is-a.dev,4bee5668b3c4929e5f94"
   }
 }
