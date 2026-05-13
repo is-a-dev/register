@@ -1,0 +1,10 @@
+{
+  "description": "My Personal Gitea Server",
+  "owner": {
+    "username": "sangeetk",
+    "email": "sangeet.kumar@gmail.com"
+  },
+  "records": {
+    "CNAME": "git.urantiatech.com"
+  }
+}
