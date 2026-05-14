@@ -4,7 +4,7 @@
     "email": "alaa.elkholy@ejust.edu.eg"
   },
   "description": "Alexandria Port Authority - Smart Management Dashboard",
-  "record": {
+  "records": {
     "CNAME": "frontend-production-e3ae.up.railway.app"
   }
 }
