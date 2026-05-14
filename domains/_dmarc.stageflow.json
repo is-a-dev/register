@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "Martin-Bernard",
+    "email": "martin.bernard780@gmail.com"
+  },
+  "description": "DMARC policy for stageflow.is-a.dev",
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
+  },
+  "proxied": false
+}
