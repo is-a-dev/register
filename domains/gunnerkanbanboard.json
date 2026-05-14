@@ -1,0 +1,10 @@
+{
+  "description": "Kanban Note — Dev team board with project workflow, bug tracking, and feature planning",
+  "owner": {
+    "username": "Gh0st-Gunner"
+  },
+  "records": {
+    "CNAME": "gh0st-gunner.github.io"
+  },
+  "proxied": true
+}
