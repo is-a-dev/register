@@ -1,0 +1,11 @@
+{
+  "description": "JobPulse job portal",
+  "repo": "https://github.com/vishnuu48/JobPulse_24_7",
+  "owner": {
+    "username": "vishnuu48",
+    "email": "YOUR_EMAIL@gmail.com"
+  },
+  "records": {
+    "CNAME": "jobpulse-24x7.onrender.com"
+  }
+}
