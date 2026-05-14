@@ -4,6 +4,6 @@
         "email": "probsinmylife@gmail.com"
     },
     "record": {
-        "A": "115.73.21.178"
+        "A": ["115.73.21.178"]
     }
 }
