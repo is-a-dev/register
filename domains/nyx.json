@@ -1,4 +1,4 @@
- {
+  {
     "description": "Personal AI chat server",
     "domain": "is-a.dev",
     "subdomain": "nyx",
@@ -6,8 +6,8 @@
       "username": "rostikcermak-pixel",
       "email": "rostik.cermak@gmail.com"
     },
-    "record": {
+    "records": {
       "CNAME": "93fee538-8bdc-4df0-bef7-b74227fa309e.cfargotunnel.com"
     },
-    "proxied": false
+    "proxied": true
   }
