@@ -3,7 +3,7 @@
     "username": "AlaaElkholy16",
     "email": "alaa.elkholy@ejust.edu.eg"
   },
-  "description": "Alexandria Port Authority - Smart Management Dashboard",
+  "description": "Alexandria Port Digital Twin — Open-source AI/ML-powered port management dashboard built with React, TypeScript, FastAPI, LightGBM, and OR-Tools. University graduation project (E-JUST).",
   "records": {
     "CNAME": "frontend-production-e3ae.up.railway.app"
   }
