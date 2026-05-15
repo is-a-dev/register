@@ -1,0 +1,11 @@
+{
+  "description": "My Immich photo server",
+  "domain": "589photos",
+  "owner": {
+    "username": "lnwchok",
+    "email": "sitthichok.punlabpho@gmail.com"
+  },
+  "record": {
+    "CNAME": "589photos.cfargotunnel.com"
+  }
+}
