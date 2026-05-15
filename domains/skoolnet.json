@@ -1,12 +1,9 @@
 {
-    "description": "SkoolNet - Open source FastAPI + React developer project with cybersecurity monitoring",
-    "domain": "is-a.dev",
-    "subdomain": "skoolnet",
     "owner": {
         "username": "Ansh29754543",
         "email": "anshisno01@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "skoolnet-pnp8.onrender.com"
     },
     "proxied": false
