@@ -1,0 +1,13 @@
+{
+    "description": "SkoolNet - Open source FastAPI + React developer project with cybersecurity monitoring",
+    "domain": "is-a.dev",
+    "subdomain": "skoolnet",
+    "owner": {
+        "username": "YOUR_GITHUB_USERNAME",
+        "email": "YOUR_EMAIL"
+    },
+    "record": {
+        "CNAME": "skoolnet-pnp8.onrender.com"
+    },
+    "proxied": false
+}
