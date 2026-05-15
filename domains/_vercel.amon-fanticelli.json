@@ -4,6 +4,6 @@
     "email": "amon_fanticelli@hotmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=amon-fanticelli.is-a.dev,f4292bf7488b4c8a8ded"
   }
 }
