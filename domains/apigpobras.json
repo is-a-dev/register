@@ -1,1 +1,13 @@
 
+{
+    "owner": {
+        "username": "gabrielqueif",
+        "email": "gabrielanime023@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "albert.ns.cloudflare.com",
+            "frida.ns.cloudflare.com"
+        ]
+    }
+}
