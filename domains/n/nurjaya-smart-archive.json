@@ -1,11 +1,9 @@
 {
-  "description": "Digital archiving system for Pharmacy and Photocopy business",
-  "repo": "https://github.com/nazakana/nsa",
-  "owner": {
-    "username": "nazakana",
-    "email": "faisalnurfaizal.48@gmail.com"
-  },
-  "records": {
-    "CNAME": "nazakana.github.io"
-  }
+    "owner": {
+        "username": "nazakana",
+        "email": "faisalnurfaizal.48@gmail.com"
+    },
+    "records": {
+        "CNAME": "nazakana.github.io"
+    }
 }
