@@ -7,7 +7,6 @@
         "email": "YOUR_EMAIL"
     },
     "record": {
-        "CNAME": "skoolnet-pnp8.onrender.com",
-        "A": ["216.24.57.1"]
+        "CNAME": "skoolnet-pnp8.onrender.com"
     }
 }
