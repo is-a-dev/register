@@ -3,7 +3,8 @@
     "username": "studiosWAR",
     "email": "warstudioscda@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "warstudios.warstudioscda.workers.dev"
-  }
+  },
+  "description": "WAR Studios is a non-commercial independent software and game development project used to showcase programming projects, web applications and indie game development experiments."
 }
