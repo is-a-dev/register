@@ -8,5 +8,6 @@
     },
     "record": {
         "CNAME": "skoolnet-pnp8.onrender.com"
-    }
+    },
+    "proxied": false
 }
