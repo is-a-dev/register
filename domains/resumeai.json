@@ -1,0 +1,11 @@
+{
+  "description": "Open source AI powered ATS resume analyzer built using PHP and Gemini API",
+  "repo": "https://github.com/shadman-hayat9992/ats-resume-checker",
+  "owner": {
+    "username": "shadman-hayat9992",
+    "email": "shadmanhayat9992@gmail.com"
+  },
+  "records": {
+    "CNAME": "ats-resume-checker-wx9g.onrender.com"
+  }
+}
