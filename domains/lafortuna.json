@@ -1,0 +1,10 @@
+{
+    "description": "Plataforma profesional para creación de rifas y sorteos",
+    "owner": {
+        "username": "fcarlos40",
+        "email": "fcarlosalberto189@gmail.com"
+    },
+    "record": {
+        "CNAME": "la-fortuna-sorteos.onrender.com"
+    }
+}
