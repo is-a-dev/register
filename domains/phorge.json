@@ -1,0 +1,11 @@
+{
+  "description": "Phorge — Cinematic Digital Studio",
+  "repo": "https://github.com/contactwavelymusic-cmyk/Phorge",
+  "owner": {
+    "username": "contactwavelymusic-cmyk",
+    "email": "sirajul.islam.rubel.dore@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
