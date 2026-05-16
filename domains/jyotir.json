@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "jyotir07",
+    "email": "jyotir.aditya.tf@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": "vc-domain-verify=jyotir.is-a.dev,81c6a03350aebcddefc2"
+  }
+}
