@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "sa01ir7"
+        "username": "sa01ir7",
+        "email": "sanane036261@gmail.com"
     },
     "records": {
-        "CNAME": "starlighter.onrender.com"
+        "A": ["216.24.57.251"]
     }
 }
