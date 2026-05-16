@@ -1,0 +1,10 @@
+{
+  "description": "DebateOS",
+  "repo": "https://github.com/sourcecheck",
+  "owner": {
+    "username": "apollomarianiworks"
+  },
+  "record": {
+    "CNAME": "sourcecheck-seven.vercel.app"
+  }
+}
