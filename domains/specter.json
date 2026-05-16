@@ -1,1 +1,12 @@
-{"owner":{"username":"dpejoh","email":"dpejoh@atomicmail.io"},"records":{"CNAME":"dpejoh.github.io"},"proxied":false}
+{
+  "owner":
+  {
+    "username":"dpejoh",
+    "email":"dpejoh@atomicmail.io"
+  },
+  "records":
+  {
+    "CNAME":"dpejoh.github.io"
+  },
+  "proxied":false
+}
