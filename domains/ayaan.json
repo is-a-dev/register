@@ -1,9 +1,34 @@
 {
-    "owner": {
-        "username": "AyaanDhalait",
-        "email": "mr.dhalait@gmail.com"
-    },
-    "records": {
-        "CNAME": "ayaandhalait.github.io"
-    }
+  "description": "Portfolio Website",
+  "owner": {
+    "username": "AyaanDhalait",
+    "x": "AyaanDhalait",
+    "email": "ayaan@ayaan.is-a.dev"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mx.zoho.in"
+      },
+      {
+        "priority": 20,
+        "target": "mx2.zoho.in"
+      },
+      {
+        "priority": 50,
+        "target": "mx3.zoho.in"
+      }
+    ],
+    "TXT": [
+      "zoho-verification=zb30101126.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
+    ]
+  }
 }

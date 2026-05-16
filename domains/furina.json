@@ -2,12 +2,9 @@
   "owner": {
     "username": "dragsbruh",
     "email": "dragsbruh@protonmail.com",
-    "discord": "781445370177126401",
-    "bluesky": "furina.is-a.dev"
+    "discord": "781445370177126401"
   },
-  "description": "my personal site (yes)",
-
   "records": {
-    "CNAME": "dragsbruh.github.io"
+    "NS": ["armfazh.ns.cloudflare.com", "gwen.ns.cloudflare.com"]
   }
 }

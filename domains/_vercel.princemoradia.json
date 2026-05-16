@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "princemoradia",
+    "email": "dummy.inbox.fun@gmail.com"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=princemoradia.is-a.dev,f040c67f995b2c7d869b", "vc-domain-verify=www.princemoradia.is-a.dev,ed71006cdca576"]
+  }
+}
