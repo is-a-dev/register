@@ -1,0 +1,19 @@
+{
+  "description": "Deb-Credit Tracking app",
+  "owner": {
+    "username": "oeroglu",
+    "email": "oeroglu@gmail.com"
+  },
+  "records":[
+    {
+      "description": "DC Tracking / analytics project hosted on Vercel",
+      "owner": {
+        "username": "GITHUB_USERNAME",
+        "email": "MAIL@example.com"
+      },
+      "records": {
+        "CNAME": "cname.vercel-dns.com"
+      }
+    }
+  ]
+}
