@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "oeroglu",
+    "email": "oeroglu@gmail.com"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "cname.vercel-dns.com"
+    }
+  ]
+}
