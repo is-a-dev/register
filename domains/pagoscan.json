@@ -1,0 +1,11 @@
+{
+  "description": "PagoScan - Backend API para gestión de consignaciones bancarias",
+  "repo": "https://github.com/ARISTIK1ll/pagoscan",
+  "owner": {
+    "username": "ARISTIK1ll",
+    "email": "juanjowolf123@gmail.com"
+  },
+  "record": {
+    "A": ["82.180.161.255"]
+  }
+}
