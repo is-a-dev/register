@@ -1,0 +1,21 @@
+
+
+{
+  "description": "DC Tracking / analytics project hosted on Vercel",
+  "owner": {
+    "username": "oeroglu",
+    "email": "oeroglu@gmail.com"
+  },
+  "records":[
+  {
+    "type": "A",
+    "host": "@",
+    "value": "216.198.79.1"
+  },
+  {
+    "type": "TXT",
+    "host": "_vercel",
+    "value": "vc-domain-verify=dc-tracking.is-a.dev,355e98bd2612c66d0e58"
+  }
+]
+}
