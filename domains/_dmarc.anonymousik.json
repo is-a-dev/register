@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "anonymousik",
+    "email": "anonymousxtutaj@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none; adkim=r; aspf=r;"
+  }
+}
