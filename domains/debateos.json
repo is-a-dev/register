@@ -1,10 +1,11 @@
 {
-  "description": "DebateOS",
-  "repo": "https://github.com/sourcecheck",
+  "description": "DebateOS - debate research and fact-checking tool",
+  "repo": "https://github.com/apollomarianiworks",
   "owner": {
-    "username": "apollomarianiworks"
+    "username": "apollomarianiworks",
+    "email": "apollo.mariani.works@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sourcecheck-seven.vercel.app"
   }
 }
