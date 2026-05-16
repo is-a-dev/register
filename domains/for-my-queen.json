@@ -1,0 +1,10 @@
+{
+    "$schema": "../schema.json",
+    "owner": {
+        "username": "shishirmsn2010-svg",
+        "email": "YOUR_EMAIL_HERE"
+    },
+    "record": {
+        "CNAME": "cname.vercel-dns.com"
+    }
+}
