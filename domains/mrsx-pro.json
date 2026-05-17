@@ -1,10 +1,15 @@
 {
     "owner": {
         "username": "MrAli88708",
-        "email": "mralizaid2013@gmail.com"
+        "email": "mralizai2013@gmail.com"
     },
     "records": {
-        "CNAME": "mrali88708.github.io",
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
         "MX": [
             "mx1.improvmx.com.",
             "mx2.improvmx.com."
