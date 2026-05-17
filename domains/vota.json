@@ -1,12 +1,16 @@
 {
+  "domain": "is-a.dev",
+  "subdomain": "vota",
   "owner": {
     "username": "xxz13352",
     "email": "1423760291@qq.com"
   },
-  "record": {
+  "records": {
+    "CNAME": ["vota-rust.vercel.app"],
     "A": ["216.198.79.1"],
     "TXT": ["vc-domain-verify=vota.is-a.dev,9844863d52977fd4cc13"]
   },
   "repo": "https://github.com/xxz13352/vota-rust",
-  "description": "Vota Rust project hosted on Vercel"
+  "description": "Vota Rust project hosted on Vercel",
+  "proxied": false
 }
