@@ -1,0 +1,11 @@
+{
+  "description": "Jefferson Mogoi's business card",
+  "repo": "https://github.com/Jefferson-rabera/My-profile-bussiness-card",
+  "owner": {
+    "username": "Jefferson-rabera",
+    "email": "raberajefferson@gmail.com"
+  },
+  "records": {
+    "CNAME": "jeffersonisadev.netlify.app"
+  }
+}
