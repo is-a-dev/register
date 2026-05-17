@@ -3,8 +3,10 @@
     "username": "xxz13352",
     "email": "1423760291@qq.com"
   },
-  "records": {
-    "CNAME": "xxz13352.github.io"
+  "record": {
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=vota.is-a.dev,9844863d52977fd4cc13"]
   },
-  "proxied": false
+  "repo": "https://github.com/xxz13352/vota-rust",
+  "description": "Vota Rust project hosted on Vercel"
 }
