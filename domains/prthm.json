@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "s-pra1ham",
+    "email": "educate.pratham@gmail.com"
+  },
+  "records": {
+    "CNAME": "s-pra1ham.github.io",
+    "TXT": [
+      "zoho-verification=zb60086894.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
+    ],
+    "MX": [
+      "10 mx.zoho.in", 
+      "20 mx2.zoho.in", 
+      "50 mx3.zoho.in"
+    ]
+  },
+  "proxied": true
+}
