@@ -1,0 +1,11 @@
+{
+  "description": "Pulsar App - Discord SaaS platform",
+  "repo": "https://github.com/kkjsasha/pulsar-app",
+  "owner": {
+    "username": "kkjsasha",
+    "email": "kkjsashacontact@email.com"
+  },
+  "record": {
+    "CNAME": "pulsar.kkjsashacontact.workers.dev"
+  }
+}
