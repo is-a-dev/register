@@ -1,0 +1,12 @@
+{
+    "description": "Al3mda - Bahraini food shop POS system",
+    "repo": "https://github.com/SPARK-YTD/Al3mda-posist",
+    "owner": {
+        "username": "SPARK-YTD",
+        "email": "7mad0098@gmail.com"
+    },
+    "record": {
+        "CNAME": "spark-ytd.github.io"
+    },
+    "proxied": false
+}
