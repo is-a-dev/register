@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "abdohrf12333-wq",
+        "email": "abdohrf12333@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "ns1.cloudflare.com",
+            "ns2.cloudflare.com"
+        ]
+    }
+}
