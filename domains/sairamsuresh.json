@@ -4,6 +4,6 @@
         "email": "sairam278.suresh@gmail.com"
     },
     "records": {
-        "CNAME": "sairam-suresh.github.io"
+        "A": ["216.198.79.1"]
     }
 }
