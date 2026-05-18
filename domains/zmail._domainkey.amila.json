@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "y-amila-nirmal",
+     "email": "yamilanirmal@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEzifXL0Me2ub17OykP8QC1J1oI+m/f8J9KlvWgwY+2CasQQRALN7nIueNCsUNgqyCVoWPZDPtIocCZ+ONDKwuZzy8otLKm1aYgOSs6vUMh4PTrYm7mB62yIUYDqiA+u+TjQNNHZmxtSZuZLIrPy8O7P43dYx2ccx9yO06Zha2fQIDAQAB"
+  }
+}
