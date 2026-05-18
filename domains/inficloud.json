@@ -1,0 +1,11 @@
+{
+  "description": "INFI-CLOUD website",
+  "repo": "https://github.com/soham809/inficloud",
+  "owner": {
+    "username": "soham809",
+    "email": "seemacaters@gmail.com"
+  },
+  "record": {
+    "CNAME": "database-37x6.onrender.com"
+  }
+}
