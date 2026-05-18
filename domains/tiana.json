@@ -1,0 +1,11 @@
+{
+  "description": "Mon projet medical",
+  "repo": "https://github.com/RVTGuillaume",
+  "owner": {
+    "username": "RVTGuillaume",
+    "email": "rvonytianaguillaume@gmail.com"
+  },
+  "record": {
+    "CNAME": "rvtguillaume.github.io"
+  }
+}
