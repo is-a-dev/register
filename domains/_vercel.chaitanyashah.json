@@ -6,7 +6,8 @@
     "records": {
         "TXT": [
             "vc-domain-verify=urls.chaitanyashah.is-a.dev,c5d0313a0fd58887941d",
-            "vc-domain-verify=nexus-search.chaitanyashah.is-a.dev,81b5f449c07b2a09ec04"
+            "vc-domain-verify=nexus-search.chaitanyashah.is-a.dev,81b5f449c07b2a09ec04",
+            "vc-domain-verify=finsight-ai.chaitanyashah.is-a.dev,2a9318ecc72ad9def852"
         ]
     }
 }

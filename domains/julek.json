@@ -4,7 +4,8 @@
     "discord": "julando810"
   },
   "records": {
-    "CNAME": "4gaw8ns2.up.railway.app"
+    "CNAME": "4gaw8ns2.up.railway.app",
+    "TXT": "_railway-verify=railway-verify=57109208c853ba9d478f39ef628512aca68c5b4d4987760be4630f538d891865"
   },
   "proxied": true
 }
