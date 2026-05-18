@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "NodeX-AR"
-    },
-    "records": {
-        "CNAME": "https://nodex-ar.github.io"
-    }
+  "owner": {
+    "username": "NodeX-AR",
+    "email": "aswanthr82@gmail.com"
+  },
+  "records": {
+    "CNAME": "nodex-ar.github.io"
+  }
 }
