@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "SlavaBeloz",
+    "email": "belozerov.svyat@gmail.com"
+  },
+  "description": "SCPR — SIM Card Pin Remover SaaS (DP2-provisioned per-client deployments)",
+  "repo": "https://github.com/SlavaBeloz/SimCardPinRemover",
+  "records": {
+    "CNAME": "mc6-app-56093.azurewebsites.net"
+  }
+}
