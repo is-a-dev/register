@@ -1,9 +1,12 @@
 {
-    "owner": {
-          "username": "Amogh5306",
-          "email": "amoghdey@gmail.com"
-    },
-    "records": {
-          "CNAME": "amoghdey-portfolio.vercel.app"
-    }
+  "owner": {
+    "username": "Amogh5306",
+    "email": "amoghdey@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=amoghdey.is-a.dev,073735d80958f08c9d83"
+    ]
+  }
 }
