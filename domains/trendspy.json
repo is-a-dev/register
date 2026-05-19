@@ -5,7 +5,7 @@
         "username": "mahesh2009",
         "email": "mahesh.arimac@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "trendspy-dashboard-react.azurewebsites.net",
         "TXT": [
             "95D217BF7053FEFF8DA45F46FD39F050318E263892149CE59CA1266853B54146"
