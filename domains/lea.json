@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Lea147",
+    "discord": "neonmoon._."
+  },
+  "records": {
+    "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"],
+    "TXT": ["apple-domain=Lo5dXusEBH4bOyoF", "v=spf1 include:icloud.com ~all"],
+    "A": ["75.2.60.5"]
+  }
+}
