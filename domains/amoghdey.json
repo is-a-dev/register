@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Amogh5306",
-    "email": "amoghdey@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfolio-osf7mruqo-amogh5306s-projects.vercel.app"
-  }
+    "owner": {
+          "username": "Amogh5306",
+          "email": "amoghdey@gmail.com"
+    },
+    "records": {
+          "CNAME": "amoghdey-portfolio.vercel.app"
+    }
 }
