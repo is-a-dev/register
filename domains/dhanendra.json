@@ -6,6 +6,7 @@
     "email": "dhanendra.it@gmail.com"
   },
   "records": {
-  "TXT": "vc-domain-verify=www.dhanendra.is-a.dev,826a6371bcdf8a55bc3a"
-}
+    "A": ["76.76.21.21"],
+    "TXT": "vc-domain-verify=www.dhanendra.is-a.dev,826a6371bcdf8a55bc3a"
+  }
 }
