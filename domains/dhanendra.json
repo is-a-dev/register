@@ -6,6 +6,7 @@
     "email": "dhanendra.it@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "534217c19930d47d.vercel-dns-017.com",
+    "TXT": "vc-domain-verify=www.dhanendra.is-a.dev,826a6371bcdf8a55bc3a"
   }
 }
