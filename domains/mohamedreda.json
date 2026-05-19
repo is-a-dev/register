@@ -4,9 +4,6 @@
     "email": "mohamedreda.labwork@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": {
-      "_vercel": "vc-domain-verify=mohamedreda.is-a.dev,dcae574f675ed7cdf9a0"
-    }
+    "CNAME": "cname.vercel-dns.com"
   }
 }
