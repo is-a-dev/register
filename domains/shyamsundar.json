@@ -6,7 +6,7 @@
     "email": "shyamarunach@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-phi-jet-58.vercel.app",
+    "A": ["216.198.79.1"],
     "TXT": [
       {
         "name": "_vercel",
