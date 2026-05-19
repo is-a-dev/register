@@ -7,11 +7,6 @@
   },
   "records": {
     "A": ["216.198.79.1"],
-    "TXT": [
-      {
-        "name": "_vercel",
-        "value": "vc-domain-verify=shyamsundar.is-a.dev,793e6ea26db09601b463"
-      }
-    ]
+    "TXT": "vc-domain-verify=shyamsundar.is-a.dev,793e6ea26db09601b463"
   }
 }
