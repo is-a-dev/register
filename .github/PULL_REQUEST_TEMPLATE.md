@@ -16,6 +16,9 @@ YOU MUST FILL OUT THIS TEMPLATE FOR YOUR PR TO BE ACCEPTED!
 
 # Website Preview
 <!-- Provide a link AND screenshot of your website below. if not provided your PR will be closed with no questions asked. -->
+https://zelemun.github.io/zelemun/
+Screenshot of the site: https://ibb.co/nNd7GDzG
 
 # Website Purpose
 <!-- Please tell us the purpose or motive behind your website. For example, it is a portfolio website, etc. -->
+A simple site where I put website buttons so you can visit them with just 1 link, it's like a personal link aggregator for all my web presence and projects.
