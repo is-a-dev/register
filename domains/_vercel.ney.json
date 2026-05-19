@@ -4,6 +4,6 @@
         "email": "fifakitzofficil@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=ney.is-a.dev,b6762adc72abe4a544d0"
     }
 }
