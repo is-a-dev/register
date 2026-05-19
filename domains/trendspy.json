@@ -1,0 +1,11 @@
+{
+    "description": "TrendSpy — Colombo Stock Exchange real-time dashboard",
+    "repo": "https://github.com/mahesh2009/trendspy",
+    "owner": {
+        "username": "mahesh2009",
+        "email": "mahesh.arimac@gmail.com"
+    },
+    "record": {
+        "CNAME": "trendspy-dashboard-react.azurewebsites.net"
+    }
+}
