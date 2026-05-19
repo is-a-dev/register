@@ -5,7 +5,13 @@
     "username": "ShyamSundar2705",
     "email": "shyamarunach@gmail.com"
   },
-  "record": {
-    "CNAME": "portfolio-phi-jet-58.vercel.app"
+  "records": {
+    "CNAME": "portfolio-phi-jet-58.vercel.app",
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=shyamsundar.is-a.dev,793e6ea26db09601b463"
+      }
+    ]
   }
 }
