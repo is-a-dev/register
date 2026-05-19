@@ -1,6 +1,10 @@
 {
   "owner": {
-    "username": "zelemun"
+    "username": "zelemun",
+    "email": "ercinmahmutsami87@gmail.com",
+    "discord": "zelemun",
+    "twitter": "@ZeLemun",
+    "github": "https://github.com/ZeLemun"
   },
   "records": {
     "CNAME": "zelemun.github.io"
