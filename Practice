@@ -1,0 +1,11 @@
+liam.json{
+  "description": "Coding Site",
+  "repo": "https://sites.google.com/view/codepractice",
+  "owner": {
+    "username": "LiamGeletka",
+    "email": "liamgeletka@gmail.com"
+  },
+  "record": {
+    "CNAME": "ghs.googlehosted.com"
+  }
+}
