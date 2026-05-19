@@ -1,12 +1,11 @@
 {
-  "description": "Dhanendra portfolio and projects",
-  "repo": "https://github.com/dhanendra-it",
-  "owner": {
-    "username": "dhanendra-it",
-    "email": "dhanendra.it@gmail.com"
-  },
-  "records": {
-    "A": ["76.76.21.21"],
-    "TXT": "vc-domain-verify=www.dhanendra.is-a.dev,826a6371bcdf8a55bc3a"
-  }
+    "description": "Dhanendra portfolio and projects",
+    "repo": "https://github.com/dhanendra-it",
+    "owner": {
+        "username": "dhanendra-it",
+        "email": "dhanendra.it@gmail.com"
+    },
+    "records": {
+        "A": ["76.76.21.21"]
+    }
 }
