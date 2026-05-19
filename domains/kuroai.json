@@ -1,0 +1,11 @@
+{
+  "description": "Open-source AI assistant for GitHub developers",
+  "repo": "https://github.com/starkbbk/kuro",
+  "owner": {
+    "username": "starkbbk",
+    "email": "starkbbk@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
