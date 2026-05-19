@@ -2,8 +2,7 @@
   "owner": {
     "username": "zelemun"
   },
-  "record": {
+  "records": {
     "CNAME": "zelemun.github.io"
-  },
-  "repo": "https://github.com/zelemun/zelemun.github.io"
+  }
 }
