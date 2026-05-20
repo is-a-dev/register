@@ -1,0 +1,11 @@
+{
+  "description": "RF Solution Website",
+  "repo": "https://github.com/rfsolution000/domain",
+  "owner": {
+    "username": "rfsolution000",
+    "email": "rfsolution000@gmail.com"
+  },
+  "record": {
+    "CNAME": "rf-solution.vercel.app/"
+  }
+}
