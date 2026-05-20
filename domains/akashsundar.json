@@ -1,9 +1,11 @@
+
 {
   "owner": {
     "username": "akashsundarr",
     "email": "akashsundarrr@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "akashsundar.vercel.app"
   }
 }
+
