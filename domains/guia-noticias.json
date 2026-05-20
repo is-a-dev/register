@@ -1,0 +1,11 @@
+{
+  "description": "Meu site na Vercel",
+  "repo": "https://github.com/ivan-teotonio",
+  "owner": {
+    "username": "ivan-teotonio",
+    "email": "ivanteotonio256@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
