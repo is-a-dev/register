@@ -5,17 +5,6 @@
   },
 
   "records": {
-    "CNAME": "zoyxf.github.io",
-
-    "MX": [
-      "10 mx.zoho.in",
-      "20 mx2.zoho.in",
-      "50 mx3.zoho.in"
-    ],
-
-    "TXT": [
-      "zoho-verification=zb38963083.zmverify.zoho.in",
-      "v=spf1 include:zoho.in ~all"
-    ]
+    "CNAME": "zoyxf.github.io"
   }
 }
