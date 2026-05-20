@@ -4,8 +4,6 @@
     "email": "contact.madhuhas@gmail.com"
   },
   "records": {
-    "CNAME": "madhuhas.vercel.app",
-    "TXT": "vc-domain-verify=madhuhas.is-a.dev,49ae6f9cd9ca852d3e04"
-  },
-  "proxied": true
+    "CNAME": "madhuhas.vercel.app"
+  }
 }
