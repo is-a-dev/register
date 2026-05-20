@@ -1,0 +1,11 @@
+{
+  "description": "Folio — бесплатная онлайн-библиотека книг",
+  "repo": "https://github.com/boburnosirov/folio",
+  "owner": {
+    "username": "boburnosirov",
+    "email": "boburnosirov6315@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
