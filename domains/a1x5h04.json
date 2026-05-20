@@ -4,6 +4,6 @@
     "email": "alishbaig2004@gmail.com"
   },
   "records": {
-    "CNAME": "a1x5h04.pages.dev"
+      "A": ["75.2.60.5"]
   }
 }

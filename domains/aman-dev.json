@@ -4,6 +4,6 @@
     "email": "developeramanyt@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-aman-three.vercel.app"
+    "A": ["76.76.21.21"]
   }
 }
