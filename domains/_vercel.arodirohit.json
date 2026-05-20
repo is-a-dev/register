@@ -4,6 +4,6 @@
         "email": "rohitarodi7@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=arodirohit.is-a.dev,9b3f023600d577b29faa"
     }
 }
