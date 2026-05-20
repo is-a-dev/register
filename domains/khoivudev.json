@@ -1,0 +1,10 @@
+{
+  "description": "khoivudev's portfolio",
+  "owner": {
+    "username": "khoivudevz",
+    "email": "khoivudev@gmail.com"
+  },
+  "records": {
+    "CNAME": "khoivudev.vercel.app"
+  }
+}

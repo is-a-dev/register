@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "enderliker",
+    "email": "notender01@gmail.com"
+  },
+  "records": {
+    "A": ["69.67.170.170"],
+    "AAAA": ["2602:f70f::1"]
+  },
+  "proxied": false
+}

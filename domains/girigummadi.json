@@ -1,0 +1,10 @@
+{
+  "description": "My Personal Website",
+  "owner": {
+    "username": "GiriGummadi",
+    "email": "girigummadi5656@gmail.com"
+  },
+  "records": {
+    "CNAME": "girigummadi.github.io"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "https://github.com/shomykohai/shomykohai.github.io",
+  "owner": {
+    "username": "shomykohai",
+    "twitter": "shomykohai"
+  },
+  "records": {
+    "URL": "https://itssho.my"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}

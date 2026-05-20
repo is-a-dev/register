@@ -1,0 +1,10 @@
+{
+  "description": "Content Delivery Network for main site",
+  "owner": {
+    "username": "s3mant",
+    "email": "contact@semant.is-a.dev"
+  },
+  "records": {
+    "CNAME": "cdn-semant.pages.dev"
+  }
+}

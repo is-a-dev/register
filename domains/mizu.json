@@ -1,0 +1,12 @@
+{
+  "description": "Mizu's Page",
+  "owner": {
+    "username": "miyagawamizu",
+    "email": "miyagawamizu@gmail.com",
+    "twitter": "miyagawamizu",
+    "discord": "miyagawamizu"
+  },
+  "records": {
+    "CNAME": "mizu.pages.dev"
+  }
+}

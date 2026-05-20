@@ -1,35 +1,55 @@
-![is-a-dev banner](./media/banner.svg)
+<!-- <p align="center">
+   <img alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
+</p> -->
 
-<br />
+<p align="center">
+   <img height="350" alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
+</p>
 
-is-a-dev is a service that allows developers to get a sweet-looking `.is-a.dev` domain for their personal websites.
+<p align="center">
+   <img alt="Domains" src="https://img.shields.io/github/directory-file-count/is-a-dev/register/domains?color=5c46eb&label=domains&style=for-the-badge">
+   <img alt="Open Pull Requests" src="https://img.shields.io/github/issues-raw/is-a-dev/register?color=5c46eb&label=issues&style=for-the-badge">
+   <img alt="Open Issues" src="https://img.shields.io/github/issues-pr-raw/is-a-dev/register?color=5c46eb&label=pull%20requests&style=for-the-badge">
+   <br>
+</p>
 
-Note: This service is currently in **beta** so expect some delays in PR merge.
+<h1 align="center">is-a.dev</h1>
 
+<p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking <code>.is-a.dev</code> subdomain for their personal websites.</p>
 
-## How do I register?
-* Fork this project
-* Add a `your-domain-name.json` new file in `domains/` directory to register `your-domain-name.is-a.dev`
-* [Read the docs for information about the json file](./API.md)
-* The PR will be reviewed and merged
-* After merging, the changes will take effect within a day
-* That's it! Done! Now go show off your cool `.is-a.dev` domain
+---
 
+## Announcements
+Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for announcements, service updates, and downtime notifications regarding the service.
 
-## Donations
-This project is a free service for developers and will stay that way.
+Not all announcements are posted on GitHub[^1], however they will always be posted in our Discord server.
 
-Donations will be greatly appreciated!
+[^1]: We only post announcements on GitHub in the case of a serious incident, which you'll see at the top of this README.
 
-<a href="https://www.buymeacoffee.com/phenax" target="_blank"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-blue.svg?style=flat-square" alt="Buy Me A Coffee donate button" /></a>
-<a href="https://liberapay.com/phenax" target="_blank"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=flat-square" alt="Liberapay recurring donation button" /></a>
+# Register
+> If you want a visual guide, check out [this blog post](https://blog.wharrison.com.au/2024/07/is-a-dev/).
 
+- [Fork](https://github.com/is-a-dev/register/fork) the repository.
+- Follow the instructions on our [documentation](https://docs.is-a.dev).
+- Once you open your pull request (PR), it will be reviewed. *Keep an eye on it in case changes are needed!*
+   - If changes have been requested, please make the specified changes otherwise **you will be rejected**.
+- Once your PR is merged, your DNS records should be published with-in a few minutes.
+- Enjoy your new `.is-a.dev` subdomain! Please consider leaving a star ⭐️ to help support us!
 
+## Spam Pull Requests
+With the recent rising of invalid PRs, including PRs generated with AI, we reserve the right to:
 
-## Report abuse
-If you think someone is abusing a domain you can report it by creating an issue with the label `report-abuse`.
+- Close these PRs without explanation.
+- Block or limit the author's ability to interact with is-a.dev's repositories and resources.
+- Remove any existing domains owned by the author if connected to TOS-violating content.
 
+## Report Abuse
+If you find any subdomains being abused or breaking our [ToS](https://is-a.dev/terms), please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with relevant evidence.
 
+---
 
-## License
-This project is under the [GPL-3.0](./LICENSE) license.
+We are supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) sponsorship program, we would not be able to operate without their help!
+
+<a href="https://www.cloudflare.com">
+   <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="48">
+</a>

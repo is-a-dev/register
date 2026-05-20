@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "AadiVIP",
+     "email": "aadishekher7@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdJQ01VGV2Wm5g+EXAZXx3z8GfwbV6FtkqbnR3q7uVk64AcBFjX3qnuKmiYlzDhr4xDo/h/GNHpTs6E8DhjB8wxqsYORVrDb5S6T0xvq4s/fLKfhKRHSfZrB25LZJIV7fbYsmZlTxGATkXi1GsZPHHiXgA73MYwZiO2Zu9KjtjwQIDAQAB"
+  }
+}
