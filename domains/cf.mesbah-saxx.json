@@ -4,6 +4,6 @@
         "email": "freefireccxml@gmail.com"
     },
     "records": {
-        "CNAME": "mesbah-apis-676m.onrender.com"
+        "A": ["54.82.146.21"]
     }
 }
