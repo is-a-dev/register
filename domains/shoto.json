@@ -3,7 +3,7 @@
         "username": "shotosystems",
         "email": "shotosystems@icloud.com"
     },
-    "record": {
+    "records": {
         "CNAME": "shotosystems.github.io",
         "TXT": [
             "apple-domain=0dyJwiurnRgVXp1C",
