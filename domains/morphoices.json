@@ -5,9 +5,7 @@
     "username": "adigitalwriting",
     "email": "morphoices@gmail.com"
   },
-  "record": {
-    "CNAME": [
-      "morphoice.framer.website"
-    ]
+  "records": {
+    "CNAME": "morphoice.framer.website"
   }
 }
