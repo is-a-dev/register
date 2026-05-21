@@ -1,0 +1,11 @@
+{
+  "description": "Mova video downloader",
+  "repo": "https://github.com/Stonepath-dotcom/gutsytik",
+  "owner": {
+    "username": "Stonepath-dotcom",
+    "email": "ardiidonovan@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
