@@ -5,7 +5,10 @@
     "username": "adigitalwriting",
     "email": "morphoices@gmail.com"
   },
-  "record": {
-    "CNAME": "morphoice.framer.website"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "morphoices.framer.website"
+    }
+  ]
 }
