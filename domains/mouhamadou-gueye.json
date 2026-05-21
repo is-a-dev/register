@@ -3,6 +3,11 @@
     "username": "Thebigone221"
   },
   "records": {
-    "CNAME": "mon-portfolio-pi-five.vercel.app"
+    "A": ["216.198.79.1"],
+    "CNAME": ["mon-portfolio-pi-five.vercel.app"],
+    "TXT": [
+      "_vercel: vc-domain-verify=www.mouhamadou-gueye.is-a.dev,db957050bdbbe15f1e00",
+      "_vercel.www: vc-domain-verify=www.mouhamadou-gueye.is-a.dev,db957050bdbbe15f1e00"
+    ]
   }
 }
