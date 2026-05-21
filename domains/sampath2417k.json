@@ -1,9 +1,14 @@
 {
-  "owner": {
-    "username": "Sampath2417k",
-    "email": "sampath2417k@email.com"
-  },
-  "records": {
-    "CNAME": "sampath2417k.github.io"
-  }
-}
+    "owner": {
+        "username": "sampath2417k",
+        "email": "sampath2417k@gmail.com"
+    },
+    "description": "Personal website hosted on Vercel",
+    "record": {
+        "A": ["216.198.79.1"]
+    },
+    "subdomains": {
+        "_vercel": {
+            "TXT": "vc-domain-verify=sampath2417k.is-a.dev,354ab37f7fd76c6e872f"
+        }
+    }
