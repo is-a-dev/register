@@ -1,14 +1,13 @@
 {
   "description": "MORPHOICES AI startup landing page",
-  "repo": "https://github.com/adigitalwriting",
+  "repo": "https://github.com/adigitalwriting/register",
   "owner": {
     "username": "adigitalwriting",
     "email": "morphoices@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "morphoices.framer.website"
-    }
-  ]
+  "record": {
+    "CNAME": [
+      "morphoice.framer.website"
+    ]
+  }
 }
