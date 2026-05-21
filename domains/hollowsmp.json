@@ -1,0 +1,11 @@
+{
+  "description": "Minecraft SMP Server",
+  "repo": "https://github.com/is-a-dev/register",
+  "owner": {
+    "username": "techedstudioscontact-oss",
+    "email": "techedstudios.contact@gmail.com"
+  },
+  "record": {
+    "CNAME": "club-tribesman.gl.joinmc.link"
+  }
+}
