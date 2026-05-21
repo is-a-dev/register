@@ -1,0 +1,11 @@
+{
+  "description": "INNOVAX - Digital transformation and AI consulting for Morocco, MENA & Francophone Africa",
+  "repo": "https://github.com/azzaouiAI/innovax-website",
+  "owner": {
+    "username": "azzaouiAI",
+    "email": "azzaouikamal@gmail.com"
+  },
+  "record": {
+    "CNAME": "innovax-website.vercel.app"
+  }
+}
