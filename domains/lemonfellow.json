@@ -3,6 +3,7 @@
           "username": "l1203012",
           "email": "adam.elkhalfioui@529technologies.com"
       },
+      "proxied": false,
       "records": {
           "CNAME": "l1203012.github.io"
       }
