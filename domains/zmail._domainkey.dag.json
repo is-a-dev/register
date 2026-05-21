@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "daglaroglou",
+     "email": "christos.dalgaroglou@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp3SWuBBQnfGA4pbNPLxL+BEi1djazb/psmFqSnwYHBZaNYgG2CPHmcyx5eoP6baW8rRG6sGSlqtcFOaFLh4NohDk4V3mqKTj9/oAn9us6DHIodQfxscTkJA6g7EPgAoRX7PXUxpuDjcWjpZF1IRsUGAAzuXV+Flb8HlNAFpEq7QIDAQAB"
+  }
+}

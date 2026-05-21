@@ -4,6 +4,8 @@
         "email": "jason130105@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "A": [
+            "168.110.212.241"
+        ]
     }
 }

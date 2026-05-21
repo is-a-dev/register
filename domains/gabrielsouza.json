@@ -1,0 +1,11 @@
+{
+  "description": "Personal subdomain",
+  "repo": "https://github.com/gsdesenvolvedor/gabrielsouza.is-a-dev-site",
+  "owner": {
+    "username": "gsdesenvolvedor",
+    "email": "gsdesenvolvedor@gmail.com"
+  },
+  "records": {
+    "CNAME": "gsdesenvolvedor.github.io"
+  }
+}
