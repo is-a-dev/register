@@ -11,8 +11,8 @@
             "v=spf1 include:icloud.com ~all"
         ],
         "MX": [
-            "mx01.mail.icloud.com.",
-            "mx02.mail.icloud.com."
+            "mx01.mail.icloud.com",
+            "mx02.mail.icloud.com"
         ]
     }
 }
