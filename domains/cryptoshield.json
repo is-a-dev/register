@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schemas/domain.json",
+  "description": "CryptoShield - Token Safety Scanner",
+  "repo": "https://github.com/sidqiall24/Cryptoshield",
+  "owner": {
+    "username": "USERNAME_GITHUB_KAMU",
+    "email": "sidqialmaidah68@gmail.com"
+  },
+  "record": {
+    "CNAME": "019e1cec-065c-96ff-59b7-e8009d7d186d.miniapps.dev"
+  }
+}
