@@ -3,12 +3,20 @@
   "repo": "https://github.com/sanmarg",
   "owner": {
     "username": "sanmarg",
-    "email": "ssp.paranjpe@gmail.com"
+    "email": "YOUR_EMAIL"
   },
-  "record": {
-    "A": ["216.198.79.1"],
-    "TXT": [
-      "vc-domain-verify=sanmarg.is-a.dev,e7f5f47617dde0631250"
-    ]
+
+  "records": {
+    "A": ["216.198.79.1"]
+  },
+
+  "subdomains": {
+    "_vercel": {
+      "records": {
+        "TXT": [
+          "vc-domain-verify=sanmarg.is-a.dev,e7f5f47617dde0631250"
+        ]
+      }
+    }
   }
 }
