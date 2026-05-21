@@ -1,11 +1,11 @@
 {
-  "description": "Mova video downloader",
+  "description": "Mova - Download video without watermark",
   "repo": "https://github.com/Stonepath-dotcom/gutsytik",
   "owner": {
     "username": "Stonepath-dotcom",
     "email": "ardiidonovan@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
