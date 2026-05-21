@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "hellorabiul2-netizen"
+    "username": "hellorabiul2-netizen",
+    "email": "hellorabiul2@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "hellorabiul2-netizen.github.io"
   }
 }
