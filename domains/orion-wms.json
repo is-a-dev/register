@@ -1,12 +1,9 @@
 {
-    "description": "ORION WMS Demo — Sistema de Gestión de Almacenes",
-    "domain": "orion-wms",
-    "owner": {
-          "username": "PePe-Araya",
-          "email": "axm.pp90@gmail.com"
-    },
-    "records": {
-          "A": ["31.220.100.192"]
-    },
-    "proxied": false
+  "owner": {
+    "username": "PePe-Araya",
+    "email": "axm.pp90@gmail.com"
+  },
+  "records": {
+    "A": ["31.220.100.192"]
+  }
 }
