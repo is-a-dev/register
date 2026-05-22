@@ -1,9 +1,14 @@
 {
   "owner": {
-    "username": "singhparidhi800-gif",
-    "email": "singhparidhi800@gmail.com"
+    "username": "singhpanidhi800-gif",
+    "email": "2321singhpanidhi@gmail.com"
   },
-  "record": {
-    "URL": "https://verisame.streamlit.app"
-  }
-} 
+  "domain": "verisame.is-a.dev",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://verisame.streamlit.app"
+    }
+  ],
+  "proxied": false
+}
