@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "Pantane1", 
-    "email": "pantane254@gmail.com"
+    "username": "Pantane1"
   },
-  "record": {
+  "records": {
     "A": ["216.198.79.1"],
     "TXT": ["vc-domain-verify=marto.is-a.dev,7b7d9bee3772464066ec"]
   }
