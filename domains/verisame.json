@@ -4,6 +4,9 @@
     "email": "2321singhpanidhi@gmail.com"
   },
   "domain": "verisame.is-a.dev",
+  "records": {
+    "CNAME": "singhpanidhi800-gif.github.io"
+  },
   "redirects": [
     {
       "source": "/",
