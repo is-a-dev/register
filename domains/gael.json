@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "jesusgaelgs",
-    "email": "gael.jggs@gmail.com"
+    "email": "tu_correo_real_de_github@gmail.com"
   },
   "records": {
-    "CNAME": "gaeldev-three.vercel.app"
+    "CNAME": "gaeldev-three.vercel.app",
+    "TXT": "vc-domain-verify=gael.is-a.dev,c60a1a3e0d1c82d81555"
   }
 }
