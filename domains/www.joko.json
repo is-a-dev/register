@@ -1,5 +1,4 @@
 {
-    "$schema": "../gateway.schema.json",
     "description": "WWW redirect for my website",
     "repo": "https://github.com/jokoarynt/joko.is-a.dev",
     "owner": {
