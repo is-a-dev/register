@@ -1,0 +1,11 @@
+{
+  "description": "TOOL V3",
+  "repo": "https://github.com/kill55547/Mysubdomain",
+  "owner": {
+    "username": "kill55547",
+    "email": "cps.tawan@gmail.com"
+  },
+  "record": {
+    "CNAME": "tawankap.duckdns.org"
+  }
+}
