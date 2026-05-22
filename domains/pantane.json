@@ -3,7 +3,7 @@
     "username": "Pantane1",
     "email": "pantane254@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com",
     "TXT": "vc-domain-verify=pantane.is-a.dev,5f9155bac4a7501dcc46"
   }
