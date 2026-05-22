@@ -4,7 +4,6 @@
     "email": "gael.jggs@gmail.com"
   },
   "records": {
-    "CNAME": "gaeldev-three.vercel.app",
-    "TXT": "vc-domain-verify=gael.is-a.dev,c60a1a3e0d1c82d81555"
+    "CNAME": "gaeldev-three.vercel.app"
   }
 }
