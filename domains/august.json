@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "zoyxf",
+    "email": "mr.august.im@gmail.com"
+  },
+
+  "records": {
+    "CNAME": "zoyxf.github.io",
+    "TXT": [
+      "zoho-verification=zb38963083.zmverify.zoho.in"
+    ]
+  },
+
+  "proxied": true
+}
