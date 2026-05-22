@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "jesusgaelgs",
-    "email": "gael.jggsgmail.com"
+    "email": "gael.jggs@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=gael.is-a.dev,c60a1a3e0d1c82d81555"
+    "TXT": ["vc-domain-verify=gael.is-a.dev,c60a1a3e0d1c82d81555"]
   }
 }
