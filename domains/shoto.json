@@ -1,0 +1,18 @@
+{
+    "owner": {
+        "username": "shotosystems",
+        "email": "shotosystems@icloud.com"
+    },
+    "proxied": true,
+    "records": {
+        "CNAME": "shotosystems.github.io",
+        "TXT": [
+            "apple-domain=0dyJwiurnRgVXp1C",
+            "v=spf1 include:icloud.com ~all"
+        ],
+        "MX": [
+            "mx01.mail.icloud.com",
+            "mx02.mail.icloud.com"
+        ]
+    }
+}
