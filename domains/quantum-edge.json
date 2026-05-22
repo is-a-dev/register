@@ -1,0 +1,11 @@
+{
+  "description": "Quantum Edge — a personal 7-layer top-down confluence trading system. FastAPI backend + 18 autonomous agents that synthesize macro, sector, smart-money, fundamental, technical, options-flow, and catalyst data into trade theses.",
+  "repo": "https://github.com/benjiman02/quantum-edge",
+  "owner": {
+    "username": "benjiman02"
+  },
+  "records": {
+    "CNAME": "24e8be95-7e78-4868-aed1-0e7a1251e50b.cfargotunnel.com"
+  },
+  "proxied": true
+}
