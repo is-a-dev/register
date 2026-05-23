@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "tvpmw"
-    },
-    "records": {
-        "CNAME": "https://thomsvnct.my.id/"
-    }
+  "owner": {
+    "username": "tvpmw",
+    "email": "thomasvincentpmw@gmail.com"
+  },
+  "records": {
+    "CNAME": "thomsvnct.my.id"
+  }
 }
