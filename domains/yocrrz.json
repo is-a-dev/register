@@ -27,25 +27,5 @@
         "TXT": [
             "v=spf1 include:spf.improvmx.com include:spf.smtp2go.com ~all"
         ]
-    },
-
-    "subdomains": {
-        "em1155691": {
-            "records": {
-                "CNAME": "return.smtp2go.net"
-            }
-        },
-
-        "s1155691._domainkey": {
-            "records": {
-                "CNAME": "dkim.smtp2go.net"
-            }
-        },
-
-        "link": {
-            "records": {
-                "CNAME": "track.smtp2go.net"
-            }
-        }
     }
 }
