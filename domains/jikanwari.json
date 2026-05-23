@@ -1,9 +1,30 @@
 {
   "owner": {
-    "username": "8apricity"
+    "username": "8apricity",
+    "email": "8.apricity@gmail.com"
   },
   "records": {
-    "CNAME": "jikanwari.8-apricity.workers.dev"
-  },
-  "proxied": true
+    "MX": [
+      {
+        "name": "send.send.jikanwari",
+        "target": "feedback-smtp.ap-northeast-1.amazonses.com",
+        "priority": 10
+      }
+    ],
+
+    "TXT": [
+      {
+        "name": "send.send.jikanwari",
+        "value": "v=spf1 include:amazonses.com ~all"
+      },
+      {
+        "name": "resend._domainkey.send.jikanwari",
+        "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsBq/AjVklzyaMSbbtn04a8bC4iQfigt9gRg4Gx+2cI/9Y5LggrdxNIc1PG/sUO+rJapeXMtCpr0rAKxx2ymPhUvT39BhDSIzIyT2Ql0Ks6AObhZHYBZQGWSofzs+qlGb+T5ARbxu7ultaufZMX0goo1if6Q7hA7SKAtXeU9uokQIDAQAB"
+      },
+      {
+        "name": "_dmarc",
+        "value": "v=DMARC1; p=none;"
+      }
+    ]
+  }
 }
