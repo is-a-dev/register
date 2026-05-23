@@ -1,0 +1,12 @@
+{
+    "description": "Runit is a fast online code editor that allows developers to write, edit, and execute code directly in the browser. It provides a quick and simple interface for testing code snippets without needing to set up a local development environment.",
+    "repo": "https://github.com/Oskar-pinara/runit",
+    "url": "https://runit9.netlify.app/",
+    "owner": {
+        "username": "Oskar-pinara",
+        "email": "osamamohssen47@gmail.com"
+    },
+    "records": {
+        "CNAME": "runit9.netlify.app"
+    }
+}
