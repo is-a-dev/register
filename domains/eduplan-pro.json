@@ -1,0 +1,11 @@
+{
+    "description": "EduPlan Pro - Application de gestion scolaire",
+    "repo": "https://github.com/Alanice237/eduplan-pro",
+    "owner": {
+        "username": "Alanice237",
+        "email": "alanicetsinfouo@gmail.com"
+    },
+    "record": {
+        "CNAME": "web-production-213e5.up.railway.app"
+    }
+}
