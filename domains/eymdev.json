@@ -1,0 +1,12 @@
+{
+  "description": "EymDev Site",
+  "domain": "eymdev",
+  "subdomain": "eymdev",
+  "owner": {
+    "repo": "https://github.com/eymdev0/register",
+    "email": "eymenefeovat1@gmail.com"
+  },
+  "record": {
+    "A": ["192.168.1.31"]
+  }
+}
