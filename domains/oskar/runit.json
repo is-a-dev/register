@@ -1,1 +1,11 @@
-
+{
+    "description": "My Website",
+    "repo": "https://github.com/Oskar-pinara/register",
+    "owner": {
+        "username": "Oskar-pinara",
+        "email": "osamamohssen47@gmail.com"
+    },
+    "records": {
+        "CNAME": "Oskar-pinara.github.io"
+    }
+}
