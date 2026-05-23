@@ -3,6 +3,7 @@
         "username": "Oskar-pinara"
     },
     "records": {
+        "CNAME": "Oskar-pinara.github.io",
         "runit": {
             "CNAME": "Oskar-pinara.github.io"
         }
