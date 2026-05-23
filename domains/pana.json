@@ -3,9 +3,13 @@
   "domain": "is-a.dev",
   "subdomain": "pana",
   "owner": {
-    "username": "OLIVIER-BOT"
+    "username": "OLIVIER-BOT",
+    "email": "gazoj1209@gmail.com"
   },
-  "record": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "cname.vercel-dns.com"
+    }
+  ]
 }
