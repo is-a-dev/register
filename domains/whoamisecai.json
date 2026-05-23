@@ -1,0 +1,13 @@
+{
+  "description": "WHOAMISecAI - Synthetic Intelligence Platform",
+  "owner": {
+    "username": "kimikukiu",
+    "email": "kexomet@proton.me"
+  },
+  "record": {
+    "CNAME": {
+      "name": "whoamisecai",
+      "value": "cname.vercel-dns.com"
+    }
+  }
+}
