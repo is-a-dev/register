@@ -1,0 +1,10 @@
+{
+    "description": "LinuxLab - Personal Linux lab",
+    "owner": {
+        "username": "pratikmule127",
+        "email": "pratikmule127@gmail.com"
+    },
+    "record": {
+        "CNAME": "linuxlab.eu.org"
+    }
+}
