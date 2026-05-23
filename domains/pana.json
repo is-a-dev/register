@@ -1,0 +1,11 @@
+{
+  "description": "PANA AI - Assistant intelligent",
+  "domain": "is-a.dev",
+  "subdomain": "pana",
+  "owner": {
+    "username": "OLIVIER-BOT"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
