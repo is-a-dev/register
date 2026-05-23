@@ -1,0 +1,11 @@
+{
+    "description": "Postiz self-hosted automation for Shepin Clipper",
+    "repo": "https://github.com/dragsbruh",
+    "owner": {
+        "username": "ical4200-rgb",
+        "email": "ical4200@gmail.com"
+    },
+    "record": {
+        "A": ["192.0.2.1"]
+    }
+}
