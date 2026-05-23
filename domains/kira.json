@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "radityafahmi",
-    "email": "[email protected]"
+    "email": "fahmi@gmail.com"
   },
   "records": {
-    "A": ["138.199.135.245"]
+    "A": [
+      "138.199.135.245"
+    ]
   }
 }
