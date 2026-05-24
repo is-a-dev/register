@@ -1,11 +1,12 @@
 {
   "owner": {
-    "username": "mrh000mrh"
+    "username": "mrh000mrh",
+    "email": "mrh000mrh@gmail.com"
   },
   "record": {
     "NS": [
-      "ns1.cloudflare.com",
-      "ns2.cloudflare.com"
+      "://cloudflare.com",
+      "://cloudflare.com"
     ]
   }
 }
