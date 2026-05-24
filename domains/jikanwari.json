@@ -4,8 +4,8 @@
     "email": "8.apricity@gmail.com"
   },
   "records": {
-    "A": "192.0.2.1",
-    "AAAA": "100::"
+    "A": ["192.0.2.1"],
+    "AAAA": ["100::"]
   },
-  "proxied": true
+  "proxied": false
 }
