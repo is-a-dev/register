@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "AmanMehta0201"
-    },
-    "records": {
-        "CNAME": "amanmehta.github.io"
-    }
+  "owner": {
+    "username": "amanmehta0201",
+    "email": "Amanmehta0201@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
