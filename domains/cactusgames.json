@@ -16,7 +16,8 @@
     ],
 
     "TXT": [
-      "v=spf1 include:improvmx.com ~all"
+      "v=spf1 include:improvmx.com ~all",
+      "v=DMARC1; p=none;"
     ]
   }
 }
