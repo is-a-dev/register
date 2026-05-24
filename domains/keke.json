@@ -5,6 +5,7 @@
     },
     "records": {
         "A": ["75.2.60.5"],
+        "URL": "https://charveey.netlify.app",
         "TXT": ["zoho-verification=zb60553734.zmverify.zoho.com"]
     },
     "proxied": true,
