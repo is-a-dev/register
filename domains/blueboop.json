@@ -11,6 +11,9 @@
     ],
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all"
+    ],
+    "TXT": [
+      "google-site-verification=BB8oVrmE7_1slHYv-FOREcV6q_VfV3JjnJ-D31WnCPU"
     ]
   },
   "proxied": true
