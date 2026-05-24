@@ -1,0 +1,11 @@
+{
+  "description": "prrockzed's projects namespace",
+  "repo": "https://github.com/prrockzed",
+  "owner": {
+    "username": "prrockzed",
+    "email": "priyanshuranjan2806@gmail.com"
+  },
+  "record": {
+    "NS": ["denver.ns.cloudflare.com", "khloe.ns.cloudflare.com"]
+  }
+}
