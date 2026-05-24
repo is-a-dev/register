@@ -4,7 +4,7 @@
     "email": "8.apricity@gmail.com"
   },
   "records": {
-    "A": ["100.100.100.100"]
+    "AAAA": ["100::"]
   },
   "proxied": true
 }
