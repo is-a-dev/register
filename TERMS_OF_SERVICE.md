@@ -90,7 +90,7 @@ You use the service at your own risk.
 You agree to indemnify and hold harmless is-a.dev, its operators, and affiliates from any claims, losses, liabilities, or expenses arising from your use of the service or violation of these Terms.
 
 ## 11. Governing Law and Jurisdiction
-These Terms are governed by the laws of Australia. Any disputes will be subject to the exclusive jurisdiction of Australian courts.
+These Terms are governed by the laws of Australia. Any disputes arising out of or relating to these Terms will be subject to the exclusive jurisdiction of the courts of Australia.
 
 ## 12. Modification of Terms
 We reserve the right to update or modify these Terms at any time. Changes will be effective immediately upon posting. Your continued use of the service constitutes acceptance of the updated Terms.
