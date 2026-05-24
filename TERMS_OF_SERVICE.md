@@ -46,7 +46,7 @@ You agree not to use, attempt to use, or permit others to use the is-a.dev servi
 6. Impersonation and misrepresentation
 7. Infringe third-party rights
 8. Commercial, for-profit or political purposes
-9. Sending unsolicited communications (spam)
+9. Sending unsolicited communications ("spam")
 10. Cryptocurrency and blockchain mining
 11. Abusive automation (e.g. bots, scrapers, or scripts that place excessive load on the service)
 12. Proxy or VPN services
