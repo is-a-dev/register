@@ -4,9 +4,8 @@
     "email": "mrh000mrh@gmail.com"
   },
   "record": {
-    "NS": [
-      "://cloudflare.com",
-      "://cloudflare.com"
+    "A": [
+      "31.15.18.166"
     ]
   }
 }
