@@ -1,14 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schemas/domain.schema.json",
-  "description": "Praveen Yadav — Cybersecurity Expert & Founder of Pasing Group",
-  "domain": "is-a.dev",
-  "subdomain": "pasing",
   "owner": {
     "username": "pasing-group",
     "email": "pasinggroup@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pasing-group.github.io"
-  },
-  "proxied": false
+  }
 }
