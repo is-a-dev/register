@@ -14,7 +14,7 @@ Before you continue reading the Terms of Service, here are the following definit
 - **"Content"** refers to any website, files, media, software, text, or other material hosted or served using a subdomain.
 
 ## 1. Acceptance of Terms
-By accessing or using is-a.dev, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree, you may not use is-a.dev.
+By accessing or using is-a.dev, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree, you cannot use the is-a.dev service.
 
 ## 2. Eligibility
 To use is-a.dev, you must:
