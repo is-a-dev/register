@@ -3,7 +3,7 @@
     "username": "albacordobacarlosantonioxd-cloud",
     "email": "albacordobacarlosantonioxd@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com",
     "TXT": ["vc-domain-verify=charly-api.is-a.dev,7d92955639cc0ec8d67b"]
   }
