@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "DANZPH",
-        "email": "kentdancel2003@gmail.com"
-    },
-    "description": "My Personal Website",
-    "records": {
-        "A": ["216.24.57.1"]
-    }
+  "owner": {
+    "username": "DANZPH"
+  },
+  "records": {
+    "A": ["216.24.57.1"],
+    "CNAME": "kentportfolio.onrender.com"
+  }
 }
