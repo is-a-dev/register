@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "farazahmed39",
+    "email": "your-email@example.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=faraz.is-a.dev,7467eb7d4165d5b05228"
+  }
+}
