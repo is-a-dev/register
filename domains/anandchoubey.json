@@ -7,9 +7,6 @@
     "email": "anandchoubey2005@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": {
-      "_vercel": "vc-domain-verify=anandchoubey.is-a.dev,d235b6fd0900128a3320"
-    }
+    "CNAME": "cname.vercel-dns.com"
   }
 }
