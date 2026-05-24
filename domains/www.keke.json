@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "charveey",
+        "email": "charveey.99@gmail.com"
+    },
+    "records": {
+        "CNAME": "charveey.netlify.app",
+        "TXT": ["zoho-verification=zb60553734.zmverify.zoho.com"]
+    }
+}
