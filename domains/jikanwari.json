@@ -8,5 +8,5 @@
       "placeholder-for-cloudflare-workers-custom-domain"
     ]
   },
-  "proxied": true
+  "proxied": false
 }
