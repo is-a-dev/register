@@ -24,7 +24,7 @@ To use is-a.dev, you must:
 3. Use the service for lawful purposes only;
 4. Provide accurate and truthful information when registering.
 
-Subdomains must be registered to an individual GitHub account, organisations should not be the registered owner of a subdomain.
+Subdomains must be registered to an individual GitHub account, organisations cannot be the registered owner of a subdomain.
 
 By using is-a.dev, you represent and warrant that you meet these requirements.
 
@@ -48,13 +48,13 @@ You agree not to use, attempt to use, or permit others to use the is-a.dev servi
 8. Commercial, for-profit or political purposes
 9. Sending unsolicited communications ("spam")
 10. Cryptocurrency and blockchain mining
-11. Abusive automation (e.g. bots, scrapers, or scripts that place excessive load on the service)
+11. Abusive automation (including but not limited to: "bots", "scrapers", or automated scripts that place excessive load on the service)
 12. Proxy or VPN services
 13. Websites on root subdomains that are behind a login page (with the exception of login pages for management reasons)
 14. Blogs that are not primarily related to software development
 15. Conversational AI websites or apps that are similar in functionality to websites or apps such as Claude, Gemini, ChatGPT, etc.
 
-*Note: This list is not exhaustive and may be updated or expanded at any time at our discretion. We also reserve the right to deny, reject, or revoke any subdomain registration or pull request for reasons not explicitly listed here, including but not limited to reasons identified during the review process.*
+*Note: This list is not exhaustive and may be updated or expanded at any time at our discretion.*
 
 Additionally, users must comply with [GitHub's Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) where applicable.
 
