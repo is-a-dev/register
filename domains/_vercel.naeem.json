@@ -1,10 +1,9 @@
 {
-    "description": "Vercel domain verification for naeem.is-a.dev",
     "owner": {
         "username": "naeem5877",
         "email": "naeem58902@gmail.com"
     },
-    "record": {
-        "TXT": ["vc-domain-verify=naeem.is-a.dev,fd94544100b7539f875a"]
+    "records": {
+        "A": ["216.198.79.1"]
     }
 }
