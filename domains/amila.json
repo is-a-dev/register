@@ -5,7 +5,6 @@
     },
     "records": {
         "A": ["216.198.79.1"],
-        "CNAME": "c045215f9f3fa99f.vercel-dns-017.com.",
         "TXT": [
             "zoho-verification=zb40796344.zmverify.zoho.com",
             "v=spf1 include:zohomail.com ~all"
