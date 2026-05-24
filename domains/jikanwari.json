@@ -4,9 +4,7 @@
     "email": "8.apricity@gmail.com"
   },
   "records": {
-    "TXT": [
-      "placeholder-for-cloudflare-workers-custom-domain"
-    ]
+    "A": ["192.0.2.1"]
   },
   "proxied": false
 }
