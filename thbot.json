@@ -1,8 +1,9 @@
 {
-     "owner": {
-       "username": "MRLIZAN"
-     },
-     "records": {
-       "A": ["45.85.146.145"]
-     }
-   }
+  "owner": {
+    "username": "MRLIZAN",
+    "email": "lizanm123@gmail.com"
+  },
+  "records": {
+    "A": ["45.85.146.145"]
+  }
+}
