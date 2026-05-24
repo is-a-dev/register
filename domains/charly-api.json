@@ -1,12 +1,10 @@
 {
-  "name": "charly-api",
-  "type": "CNAME",
-  "record": "cname.vercel-dns.com",
-  "nested": [
-    {
-      "name": "_vercel",
-      "type": "TXT",
-      "record": "vc-domain-verify=charly-api.is-a.dev,7d92955639cc0ec8d67b"
-    }
-  ]
+  "owner": {
+    "username": "albacordobacarlosantonioxd-cloud",
+    "email": "albacordobacarlosantonioxd@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": ["vc-domain-verify=charly-api.is-a.dev,7d92955639cc0ec8d67b"]
+  }
 }
