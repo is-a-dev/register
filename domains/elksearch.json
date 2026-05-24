@@ -3,8 +3,8 @@
     "username": "elksearch",
     "repo": "https://github.com/elksearch"
   },
-  "record": {
+  "records": {
     "A": ["95.182.114.166"]
-  }
+  },
+  "proxied": false
 }
-
