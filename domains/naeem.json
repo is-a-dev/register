@@ -1,11 +1,9 @@
-naeem.json{
-    "description": "My developer portfolio",
-    "repo": "https://github.com/naeem5877/My-Portfolio-30days",
+{
     "owner": {
         "username": "naeem5877",
-        "email": "naeem58902@gmail.com"
+        "email": "naeem58902@email.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=naeem.is-a.dev,fd94544100b7539f875a"
     }
 }
