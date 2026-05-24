@@ -50,7 +50,7 @@ You agree not to use, attempt to use, or permit others to use the is-a.dev servi
 10. Cryptocurrency and blockchain mining
 11. Abusive automation (e.g. bots, scrapers, or scripts that place excessive load on the service)
 12. Proxy or VPN services
-13. Websites on root subdomains that are behind a login page (login page for management are allowed)
+13. Websites on root subdomains that are behind a login page (with the exception of login pages for management reasons)
 14. Blogs that are not primarily related to software development
 15. AI websites that mimick sites like Claude, Gemini, ChatGPT and etc.
 
