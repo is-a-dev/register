@@ -52,7 +52,7 @@ You agree not to use, attempt to use, or permit others to use the is-a.dev servi
 12. Proxy or VPN services
 13. Websites on root subdomains that are behind a login page (with the exception of login pages for management reasons)
 14. Blogs that are not primarily related to software development
-15. AI websites that mimick sites like Claude, Gemini, ChatGPT and etc.
+15. Conversational AI websites or apps that are similar in functionality to websites or apps such as Claude, Gemini, ChatGPT, etc.
 
 *Note: This list is not exhaustive and may be updated or expanded at any time at our discretion. We also reserve the right to deny, reject, or revoke any subdomain registration or pull request for reasons not explicitly listed here, including but not limited to reasons identified during the review process.*
 
