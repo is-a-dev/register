@@ -24,7 +24,7 @@
 
     "TXT": [
       "zoho-verification=zb38963083.zmverify.zoho.in",
-      "v=spf1 include:zohomail.in ~all"
+      "v=spf1 include:zoho.in include:zohomail.in ~all"
     ]
   },
 
