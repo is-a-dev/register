@@ -4,6 +4,6 @@
         "email": "mhmxd7x@gmail.com"
     },
     "records": {
-        "TXT": [ "vc-domain-verify=ad.is-a.dev,3cf99c32fa4d7e9e2b53" , "vc-domain-verify=api.ad.is-a.dev,938a274085e16f8d14ab" ]
+        "TXT": [ "vc-domain-verify=ad.is-a.dev,3cf99c32fa4d7e9e2b53" , "vc-domain-verify=api.ad.is-a.dev,938a274085e16f8d14ab", "vc-domain-verify=tools.ad.is-a.dev,495bde3cff2a8c2ac84f" ]
     }
 }
