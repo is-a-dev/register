@@ -3,5 +3,10 @@
     "username": "8apricity",
     "email": "8.apricity@gmail.com"
   },
+  "records": {
+    "TXT": [
+      "placeholder-for-cloudflare-workers-custom-domain"
+    ]
+  },
   "proxied": true
 }
