@@ -6,6 +6,7 @@
     "email": "periyakaruppannagappan2020@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=periyakaruppan.is-a.dev,a762f85202e0b295a44e"
   }
 }
