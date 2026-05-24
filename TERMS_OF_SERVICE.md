@@ -72,7 +72,7 @@ You retain ownership of any content you host on your subdomain. Your hosted cont
 You grant us permission to use your registration data to operate the service.
 
 ## 7. Termination of Service
-We reserve the right to terminate your subdomain at any time, for any reason. While we will make reasonable efforts to provide notice in advance, termination may occur without notice in cases of serious or urgent violations.
+We reserve the right to terminate your subdomain at any time, for any reason. While we make reasonable efforts to provide notice in advance, we are not obligated to do so.
 
 Any donations made to the service are non-refundable.
 
