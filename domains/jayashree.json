@@ -3,7 +3,7 @@
     "username": "Jaya-Shree-JS",
     "email": "jayashreejs0101@gmail.com"
   },
-  "records": {
-    "CNAME": "Jaya-Shree-JS.github.io"
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }
