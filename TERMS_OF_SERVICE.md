@@ -31,7 +31,7 @@ By using is-a.dev, you represent and warrant that you meet these requirements.
 ## 3. Service Description
 is-a.dev allows users to register a subdomain under the "is-a.dev" domain. This service is offered "as-is" without guarantees of uptime, support, or permanence.
 
-Subdomains are intended solely for individuals, software developer groups and non-commercial projects that are related to software developement, as long as it doesn't contain activities that are prohibited.
+Subdomains are intended solely for individuals, software developer groups and non-commercial projects that are related to software development, as long as the project does not contain activities that are prohibited by us.
 
 We reserve the right to deny any subdomain registration request for any reason.
 
