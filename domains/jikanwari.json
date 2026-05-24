@@ -4,7 +4,8 @@
     "email": "8.apricity@gmail.com"
   },
   "records": {
-    "CNAME": "jikanwari.8-apricity.workers.dev"
+    "A": "192.0.2.1",
+    "AAAA": "100::"
   },
   "proxied": true
 }
