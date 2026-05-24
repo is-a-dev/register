@@ -7,6 +7,7 @@
         "A": ["75.2.60.5"],
         "TXT": ["zoho-verification=zb60553734.zmverify.zoho.com"]
     },
+    "proxied": true,
     "redirect_config": {
         "custom_paths": {
             "/github": "https://github.com/charveey",
