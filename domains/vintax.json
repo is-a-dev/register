@@ -4,6 +4,9 @@
         "email": "foxinbox300@gmail.com"
     },
     "records": {
-        "CNAME": "tubi-proxy.vineetjakhar.workers.dev"
+        "NS": [
+            "amira.ns.cloudflare.com",
+            "isidro.ns.cloudflare.com"
+        ]
     }
 }
