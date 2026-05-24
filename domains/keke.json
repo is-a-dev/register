@@ -5,15 +5,6 @@
     },
     "records": {
         "A": ["75.2.60.5"],
-        "URL": "https://charveey.netlify.app",
         "TXT": ["zoho-verification=zb60553734.zmverify.zoho.com"]
-    },
-    "proxied": true,
-    "redirect_config": {
-        "custom_paths": {
-            "/github": "https://github.com/charveey",
-            "/linkedin": "https://www.linkedin.com/in/kevin-amlaman-09813b244"
-        },
-        "redirect_paths": true
     }
 }
