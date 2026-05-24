@@ -1,0 +1,11 @@
+{
+    "description": "Bloody Rose - Premium Chat App",
+    "repo": "https://github.com/shashendraindumina44-gif/chat-app.git",
+    "owner": {
+        "username": "shashendraindumina44",
+        "email": "shashendraindumina44@gmail.com"
+    },
+    "record": {
+        "CNAME": "chat-room-cyan.vercel.app"
+    }
+}
