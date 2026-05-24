@@ -4,7 +4,7 @@
     "email": "8.apricity@gmail.com"
   },
   "records": {
-    "A": ["192.0.2.1"]
+    "CNAME": "https://jikanwari-pi.vercel.app/"
   },
   "proxied": false
 }
