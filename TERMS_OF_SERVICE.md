@@ -62,7 +62,7 @@ Violation of this section may result in immediate termination without notice.
 
 ## 5. Use of AI (Artificial Intelligence)
 
-The use of AI for websites is acceptable as long as the website is complete. For pull requests that are generated with AI (e.g. OpenClaw, Claude Code, Codex) we are strongly against and can lead to the pull request being closed alongside blocking or limiting the author's ability to interact with is-a.dev's repositories and resources.
+The use of AI for creating, designing or modifying websites is acceptable as long as the website is complete and abides by the prohibited activities guidelines. We are strongly against using AI (such as Claude Code, Codex, OpenClaw, etc) for creating pull requests, and may close the pull request alongside blocking or limiting the author's ability to interact with our repositories and resources, if used.
 
 ## 6. Ownership and Intellectual Property
 is-a.dev retains all rights, title, and interest in the "is-a.dev" domain and associated systems.
