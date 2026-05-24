@@ -24,5 +24,6 @@
       "TXT":[
          "v=spf1 include:zohomail.com ~all"
       ]
-   }
+   },
+   "proxied": true
 }
