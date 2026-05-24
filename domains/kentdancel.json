@@ -1,0 +1,11 @@
+{
+    "description": "portfolio Website",
+    "repo": "DANZPH/portfolio",
+    "owner": {
+        "username": "DANZPH",
+        "email": "kentdancel2003@gmail.com"
+    },
+    "records": {
+        "CNAME": "kentportfolio.onrender.com"
+    }
+}
