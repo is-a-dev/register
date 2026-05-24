@@ -4,8 +4,8 @@
     "email": "farazahmedkhoso90@gmail.com"
   },
   "records": {
-    "A"["216.198.79.1"]
+    "A":["216.198.79.1"]
     "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=farazahmed.is-a.dev,929b7527ced094b05ded"
+    "TXT": ["vc-domain-verify=farazahmed.is-a.dev,929b7527ced094b05ded"]
   }
 }
