@@ -4,14 +4,9 @@
     "email": "shayankardatta@gmail.com"
   },
   "record": {
-    "CNAME": {
-      "www": "8cd69cd8c86f0e65.vercel-dns-017.com."
-    },
-     "TXT": {
-      "_vercel": "vc-domain-verify=shayankar.is-a.dev,5fd764b45e691ab99885"
-    },
-    "A":{
-      "@": "216.198.79.1"
-    }
+    "A": ["216.198.79.1"],
+    "TXT": [
+      "vc-domain-verify=shayankar.is-a.dev,5fd764b45e691ab99885"
+    ]
   }
 }
