@@ -6,8 +6,10 @@
     "email": "periyakaruppannagappan2020@gmail.com"
   },
   "proxied": true,
-  "record": {
+  "records": {
     "A": ["216.198.79.1"],
-    "TXT": ["vc-domain-verify=periyakaruppan.is-a.dev,eb96b8148322bc6eaadb"]
+    "TXT": [
+      "vc-domain-verify=periyakaruppan.is-a.dev,eb96b8148322bc6eaadb"
+    ]
   }
 }
