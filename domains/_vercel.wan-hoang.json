@@ -4,8 +4,6 @@
         "email": "hoangbinhquan179@gmail.com"
     },
     "records": {
-        "A": [
-            "216.198.79.1"
-        ]
+        "TXT": "vc-domain-verify=is-a.dev,a0e11c90a0783d811ce3"
     }
 }
