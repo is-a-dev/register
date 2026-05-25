@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "jusasuss"
-  },
-  "record": {
-    "CNAME": "real-pzr5wflcw-jusasuss-projects.vercel.app"
-  }
+    "owner": {
+        "username": "jusasuss"
+    },
+    "records": {
+        "CNAME": "real-pzr5wflcw-jusasuss-projects.vercel.app"
+    }
 }
