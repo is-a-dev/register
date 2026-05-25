@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "Jaya-Shree-JS",
-    "email": "jayashreejs0101@gmail.com"
+    "email": "jayashreeb956@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }
