@@ -5,12 +5,18 @@
   },
   "records": {
     "A": ["216.198.79.1"],
-    "CNAME": "555e6293ffc6e238.vercel-dns-017.com",
     "TXT": {
       "_vercel": [
         "vc-domain-verify=pantane.is-a.dev,a504c131809ac6e67bf0",
         "vc-domain-verify=www.pantane.is-a.dev,63834afd1cfb310d99e7"
       ]
+    }
+  },
+  "subdomains": {
+    "www": {
+      "records": {
+        "CNAME": "555e6293ffc6e238.vercel-dns-017.com"
+      }
     }
   }
 }
