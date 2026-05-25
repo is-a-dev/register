@@ -1,13 +1,16 @@
 {
   "owner": {
-    "username": "pantane1",
+    "username": "Pantane1",
     "email": "pantane254@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": {
-      "_vercel": [
-        "vc-domain-verify=pantane.is-a.dev,a504c131809ac6e67bf0"
-      ]
+    "A": ["216.198.79.1"]
+  },
+  "subdomains": {
+    "www": {
+      "records": {
+        "CNAME": "555e6293ffc6e238.vercel-dns-017.com"
+      }
     }
   }
+}
