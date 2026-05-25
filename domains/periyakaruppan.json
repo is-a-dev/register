@@ -7,7 +7,9 @@
   },
   "proxied": true,
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=periyakaruppan.is-a.dev,a762f85202e0b295a44e"
+    "A": ["216.198.79.1"],
+    "TXT": [
+      "vc-domain-verify=periyakaruppan.is-a.dev,eb96b8148322bc6eaadb"
+    ]
   }
 }
