@@ -6,6 +6,9 @@
   "records": {
     "A": [
       "76.76.21.21"
+    ],
+    "TXT": [
+      "vc-domain-verify=is-a.dev,6889a7295f1b4208be16"
     ]
   }
 }
