@@ -1,11 +1,16 @@
 {
   "owner": {
-    "username": "Pantane1",
+    "username": "pantane1",
     "email": "pantane254@gmail.com"
   },
-  "proxied": true,
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=pantane.is-a.dev,5f9155bac4a7501dcc46"
+    "A": ["216.198.79.1"],
+    "CNAME": "555e6293ffc6e238.vercel-dns-017.com",
+    "TXT": {
+      "_vercel": [
+        "vc-domain-verify=pantane.is-a.dev,a504c131809ac6e67bf0",
+        "vc-domain-verify=www.pantane.is-a.dev,63834afd1cfb310d99e7"
+      ]
+    }
   }
 }
