@@ -1,0 +1,13 @@
+{
+  "description": "Personal portfolio website",
+  "repo": "https://github.com/Periyakaruppan140202/portfolio",
+  "owner": {
+    "username": "Periyakaruppan140202",
+    "email": "periyakaruppannagappan2020@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=periyakaruppan.is-a.dev,a762f85202e0b295a44e"
+  }
+}
