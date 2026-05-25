@@ -4,6 +4,9 @@
     "email": "reinieltalplacido529@gmail.com"
   },
   "records": {
-    "CNAME": "reiniel.vercel.app"
+    "CNAME": "reiniel.vercel.app",
+    "TXT": [
+      "vc-domain-verify=reiniel.is-a.dev,da9ad52645c3d5eaacfc"
+    ]
   }
 }
