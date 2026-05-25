@@ -3,7 +3,10 @@
     "username": "Jaya-Shree-JS",
     "email": "jayashreeb956@gmail.com"
   },
-  "record": {
+  "maintainers": [
+    "nishanth-0427"
+  ],
+  "records": {
     "A": [
       "76.76.21.21"
     ]
