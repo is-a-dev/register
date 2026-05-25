@@ -1,0 +1,11 @@
+{
+  "description": "Lex AI — Jamaican Legal Companion",
+  "domain": "lexiaiglobe.is-a.dev",
+  "owner": {
+    "username": "harrissamir",
+    "email": "adv.emmanuelsamirharris@gmail.com"
+  },
+  "record": {
+    "CNAME": "lexiaiglobe.lovable.app"
+  }
+}
