@@ -25,7 +25,7 @@
         ],
 
         "TXT": [
-            "v=spf1 include:spf.improvmx.com ~all"
+            "v=spf1 include:spf.improvmx.com include:spf.smtp2go.com ~all"
         ]
     }
 }
