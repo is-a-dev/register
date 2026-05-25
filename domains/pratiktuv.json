@@ -6,6 +6,7 @@
     "email": "roy1022356@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": ["_vercel", "vc-domain-verify=pratiktuv.is-a.dev,9d1bee4ff30bcee462d7"]
   }
 }
