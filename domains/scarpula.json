@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Scarpula",
+    "email": "iotplusdev@gmail.com"
+  },
+  "description": "Scarpula — Agentic AI 시대의 풀스택 엔지니어 portfolio. React 18 + GSAP + Framer Motion 기반 키네틱 인터랙션 사이트.",
+  "repo": "https://github.com/Scarpula/scarpula.github.io",
+  "records": {
+    "CNAME": "scarpula.github.io"
+  }
+}
