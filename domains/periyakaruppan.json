@@ -6,16 +6,8 @@
     "email": "periyakaruppannagappan2020@gmail.com"
   },
   "proxied": true,
-  "records": [
-    {
-      "type": "CNAME",
-      "name": "www",
-      "value": "9f1554f5269cb90e.vercel-dns-017.com."
-    },
-    {
-      "type": "TXT",
-      "name": "_vercel",
-      "value": "vc-domain-verify=www.periyakaruppan.is-a.dev,ecf1ae48164aa66d2696"
-    }
-  ]
+  "record": {
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=periyakaruppan.is-a.dev,eb96b8148322bc6eaadb"]
+  }
 }
