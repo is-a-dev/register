@@ -1,0 +1,13 @@
+{
+  "description": "ADR Social Intelligence Dashboard — sentiment analysis dei social media degli aeroporti di Roma",
+  "repo": "https://github.com/sabbachina/sentiment-adr",
+  "owner": {
+    "username": "sabbachina",
+    "email": "riccardo.sabbadini@ieee.org"
+  },
+  "record": {
+    "A": [
+      "15.161.117.164"
+    ]
+  }
+}
