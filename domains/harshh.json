@@ -3,7 +3,7 @@
     "username": "dev-harsh-codes",
     "email": "tumhara-asli-email@example.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
