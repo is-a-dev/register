@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "reembir",
+    "email": "reemexplame@gmail.com"
+  },
+  "records": {
+    "TXT": "v=spf1 ip4:79.177.143.122 ~all"
+  },
+  "proxied": true
+}
