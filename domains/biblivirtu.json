@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Mikuzinha"
+    "username": "Mikuzinha",
+    "email": "teuemail@gmail.com"
   },
   "records": {
-    "CNAME": "biblivirtu.up.railway.app"
+    "CNAME": "SEUAPP.up.railway.app"
   }
 }
