@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "gressedprivateschools",
+    "email": "gressedprivateschools@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "jessica.ns.cloudflare.com",
+      "zahir.ns.cloudflare.com"
+    ]
+  }
+}
