@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "rafsanza-hub",
-    "email": "rapsanza@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=rafsanza.is-a.dev,6b6643acbebdf80cd44b"
-  }
+    "owner": {
+        "username": "rafsanza-hub",
+        "email": "rafsanza@gmail.com"
+    },
+    "records": {
+        "CNAME": ["8f17b09739a0cc03.vercel-dns-017.com"]
+    }
 }
