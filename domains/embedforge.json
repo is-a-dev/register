@@ -2,7 +2,7 @@
   "description": "Embedded systems, firmware development and electronics consulting",
   "repo": "https://github.com/ados-prog/embedforge-site",
   "owner": {
-    "username": "ados-prog",
+    "username": "ados-prog", 
     "email": "contact.embedforge@proton.me"
   },
   "record": {
