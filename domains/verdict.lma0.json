@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "your-github-username"
+    "username": "verdictlma0-EP",
+    "email": "verdict.lma0@gmail.com"
   },
-  "record": {
-    "CNAME": "na-west1.surge.sh"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }
