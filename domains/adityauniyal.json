@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "uniyal-aditya"
+    "username": "uniyal-aditya",
+    "email": "adityarb200789@gmail.com"
   },
   "records": {
-    "CNAME": "adityauniyal.netlify.app"
+    "CNAME": "adityauniyal.vercel.app"
   }
 }

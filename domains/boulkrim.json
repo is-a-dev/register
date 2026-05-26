@@ -4,6 +4,6 @@
         "email": "khaha.bou@gmail.com"
     },
     "records": {
-        "CNAME": "portfolio-khalid-three.vercel.app"
+        "A": ["216.198.79.1"]
     }
 }
