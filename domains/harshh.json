@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "dev-harsh-codes",
+    "email": "tumhara-asli-email@example.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
