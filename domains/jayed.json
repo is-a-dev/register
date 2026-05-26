@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "anas-jayed",
-        "email": "your@email.com"
+        "email": "anasjayed@email.com"
     },
-    "record": {
+    "records": {
         "CNAME": "anas-jayed.github.io"
     }
 }
