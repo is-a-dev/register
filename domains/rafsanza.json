@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "rafsanza-hub",
-    "email": "rapsanza@gmail.com"
-  },
-  "records": {
-    "CNAME": "rafsanza.vercel.app"
-  }
+    "owner": {
+        "username": "rafsanza-hub",
+        "email": "rafsanza@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
