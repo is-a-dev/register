@@ -1,0 +1,15 @@
+{
+  "description": "TSRV Website",
+
+  "repo": "https://github.com/nimmagaddasuryachandra/register",
+
+  "owner": {
+    "username": "nimmagaddasuryachandra",
+    "email": "nsuryachandra16@gmail.com"
+  },
+
+  "record": {
+    "A": ["216.24.57.1"],
+    "CNAME": "trsv-ygfq.onrender.com"
+  }
+}
