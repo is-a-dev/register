@@ -4,6 +4,7 @@
     "email": "learn.aak@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-website-eight-ruby-95.vercel.app"
+    "CNAME": "portfolio-website-eight-ruby-95.vercel.app",
+    "TXT": "vc-domain-verify=akber.is-a.dev,d1f3101ef85929c86bd6"
   }
 }
