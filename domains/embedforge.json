@@ -1,7 +1,9 @@
 {
+  "description": "Embedded systems, firmware development and electronics consulting",
+  "repo": "https://github.com/ados-prog/embedforge-site",
   "owner": {
     "username": "ados-prog",
-    "email": "adam.jerzy.ostrowski@gmail.com"
+    "email": "contact.embedforge@proton.me"
   },
   "record": {
     "CNAME": "embedforge-site.embedforge.workers.dev"
