@@ -1,0 +1,13 @@
+{
+  "description": "Metering application served through Cloudflare Tunnel",
+  "owner": {
+    "username": "DejanIkic",
+    "email": "dikic19999@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "meera.ns.cloudflare.com",
+      "sam.ns.cloudflare.com"
+    ]
+  }
+}
