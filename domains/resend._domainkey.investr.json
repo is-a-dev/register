@@ -1,0 +1,12 @@
+{
+  "description": "Investr DKIM key",
+  "repo": "https://github.com/chukwuka112",
+  "owner": {
+    "username": "chukwuka112"
+  },
+  "record": {
+    "TXT": [
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCzcFuYnQ/L6toNT0MdUa9fSWOkUn1wyJioGOfocV6siBqHLR1cLLR3pHmP+xjd1R3IA5eFH9/2U5onaamMFVFSW3HsD05dc5WnZJH2C0C4mjSeRiuZgRvqVL5VF1gU4TwQs7mT9E41vTOlbeBCUIV4rCYOXZHSiW7FgzAOSyqKQIDAQAB"
+    ]
+  }
+}
