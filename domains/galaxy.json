@@ -1,7 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schemas/domain.json",
     "description": "Galaxy Bot - main site & game (GitHub Pages)",
-    "domain": "galaxy",
     "owner": {
         "username": "amogaddyofficial",
         "email": "amogaddyofficial@gmail.com"
