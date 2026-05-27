@@ -3,6 +3,7 @@
     "username": "gressedprivateschools",
     "email": "gressedprivateschools@gmail.com"
   },
+  "description": "Using Cloudflare NS proxy to protect our school CBT exam portal from DDoS attacks and secure student traffic.",
   "records": {
     "NS": [
       "jessica.ns.cloudflare.com",
