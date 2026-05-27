@@ -6,7 +6,7 @@
         "username": "amogaddyofficial",
         "email": "amogaddyofficial@gmail.com"
     },
-    "record": {
+    "records": {
         "TXT": [
             "v=DMARC1; p=none;"
         ]
