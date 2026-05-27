@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "pandastrikesgaming-dot",
+        "email": "rajadityapanda@gmail.com"
+    },
+    "record": {
+        "MX": ["mx.zoho.com"],
+        "TXT": ["v=spf1 include:zoho.com ~all"]
+    },
+    "proxied": false
+}
