@@ -1,11 +1,11 @@
 {
-       "description": "Hardik's GitHub Projects Portfolio",
-       "domain": "hardik.is-a.dev",
-       "owner": {
-         "email": "Hndrd2681@gmail.com",
-         "username": "hndrd0",
-         "repo": "https://github.com/Hndrd0/Hndrd0"
-       },
-       "repo": "https://github.com/Hndrd0/Hndrd0",
-       "url": "https://raw.githubusercontent.com/Hndrd0/Hndrd0/main/index.html"
-     }
+  "description": "Hardik's GitHub Projects Portfolio",
+  "domain": "hardik.is-a.dev",
+  "owner": {
+    "email": "Hndrd2681@gmail.com",
+    "username": "hndrd0",
+    "repo": "https://github.com/Hndrd0/Hndrd0"
+  },
+  "repo": "https://github.com/Hndrd0/Hndrd0",
+  "url": "https://raw.githubusercontent.com/Hndrd0/Hndrd0/main/index.html"
+}
