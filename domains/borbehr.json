@@ -1,0 +1,8 @@
+{
+    "owner": {
+        "username": "borbehr-dev"
+    },
+    "record": {
+        "NS": ["dalary.ns.cloudflare.com", "sid.ns.cloudflare.com"]
+    }
+}
