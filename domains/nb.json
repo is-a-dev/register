@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "hiroshiinada",
+    "email": "hiro.o.inada@gmail.com"
+  },
+  "record": {
+    "CNAME": "nb-app.pages.dev"
+  },
+  "description": "Personal private dashboard (read-only, login-required)"
+}
