@@ -3,6 +3,9 @@
     "username": "koaexe"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=koa.is-a.dev,6f0ccfa1f8b4330dfeb3"
+    ]
   }
 }
