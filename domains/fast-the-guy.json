@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "fast-the-guy"
+  },
+  "records": {
+    "NS": [
+      "amit.ns.cloudflare.com",
+      "magdalena.ns.cloudflare.com"
+    ]
+  }
+}
