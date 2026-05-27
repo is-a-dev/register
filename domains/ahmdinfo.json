@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "ahmedul2",
+        "email": "taboubiahmed123@gmail.com"
+    },
+    "records": {
+        "CNAME": "project-j26qa.vercel.app",
+        "TXT": ["vc-domain-verify=is-a.dev,fc4329bb3ce8cbab8ca9"]
+    }
+}
