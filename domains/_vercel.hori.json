@@ -4,6 +4,7 @@
         "email": "cutievanh@gmail.com"
     },
     "records": {
+        "MX": ["karsyn.ns.cloudflare.com", "mack.ns.cloudflare.com"],
         "TXT": "vc-domain-verify=www.hori.is-a.dev,55f338b09b90867182d1"
     }
 }
