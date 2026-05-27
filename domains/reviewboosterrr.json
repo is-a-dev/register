@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "billyandbilly94-svg"
-  },
-  "record": {
-    "CNAME": "reviewboosterrr.vercel.app"
-  }
+"owner": {
+"username": "billyandbilly94-svg",
+"email": "[reviewboosterr@gmail.com](mailto:reviewboosterr@gmail.com)"
+},
+"record": {
+"CNAME": "reviewboosterrr.vercel.app"
+}
 }
