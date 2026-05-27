@@ -1,0 +1,14 @@
+{
+  "description": "Investr platform email domain",
+  "repo": "https://github.com/chukwuka112",
+  "owner": {
+    "username": "chukwuka112"
+  },
+  "record": {
+    "CNAME": "cname.resend.com",
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all",
+      "v=DMARC1; p=none;"
+    ]
+  }
+}
