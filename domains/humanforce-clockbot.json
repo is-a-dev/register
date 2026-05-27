@@ -1,9 +1,11 @@
 {
+  "description": "Automated attendance system for Humanforce",
+  "repo": "https://github.com/shivamdubey117/humanforce-clockbot",
   "owner": {
     "username": "shivamdubey117",
     "email": "shivamdubey117@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "shivamdubey117.github.io"
   }
 }
