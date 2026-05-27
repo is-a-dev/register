@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schemas/domain.json",
+    "description": "Galaxy Bot - DKIM",
+    "domain": "resend._domainkey.galaxy",
+    "owner": {
+        "username": "amogaddyofficial",
+        "email": "amogaddyofficial@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDh/4ZTrd++HIzt1644+gCMqaWOz58jrGIkPGc36gC4H9XGQtz0GQT1c8XS9eP0Ncj5BOQwjU1PuGxonlsKGRRF0jKbxK9W8HqdF8MrH1JPepjPlC2cOOmD40IhtTukngNYjLe0osQl+D6sCwvO532lp5D3Gkj2I5DEH4Cj52XKVwIDAQAB"
+        ]
+    }
+}

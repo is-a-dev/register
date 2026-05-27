@@ -1,12 +1,12 @@
 {
     "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schemas/domain.json",
-    "description": "Galaxy Bot - main site & game",
-    "domain": "galaxy",
+    "description": "Galaxy Bot - Discord bot dashboard",
+    "domain": "bot.galaxy",
     "owner": {
         "username": "amogaddyofficial",
         "email": "amogaddyofficial@gmail.com"
     },
     "record": {
-        "CNAME": "orderbot-web.github.io"
+        "CNAME": "cname.vercel-dns.com"
     }
 }
