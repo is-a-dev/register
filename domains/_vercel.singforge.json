@@ -4,6 +4,6 @@
         "email": "singhai.nish@gmail.com"
     },
     "records": {
-        "TXT": "_vercel=vc-domain-verify=tools.singforge.is-a.dev,917e45907daec70c9b07"
+        "TXT": "vc-domain-verify=tools.singforge.is-a.dev,917e45907daec70c9b07"
     }
 }
