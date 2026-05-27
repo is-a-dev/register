@@ -3,7 +3,14 @@
     "username": "auguxt",
     "email": "syedsameer.sbecse@gmail.com"
   },
+
   "records": {
-    "CNAME": "auguxt.github.io"
-  }
+    "CNAME": "auguxt.github.io",
+
+    "TXT": [
+      "zoho-verification=zb55979606.zmverify.zoho.in"
+    ]
+  },
+
+  "proxied": true
 }
