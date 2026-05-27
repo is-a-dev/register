@@ -1,0 +1,18 @@
+{
+  "description": "Investr SPF sending subdomain",
+  "repo": "https://github.com/chukwuka112",
+  "owner": {
+    "username": "chukwuka112"
+  },
+  "record": {
+    "MX": [
+      {
+        "priority": 10,
+        "value": "feedback-smtp.eu-west-1.amazonses.com"
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all"
+    ]
+  }
+}
