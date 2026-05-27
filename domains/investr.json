@@ -5,10 +5,11 @@
     "username": "chukwuka112"
   },
   "record": {
-    "CNAME": "cname.resend.com",
-    "TXT": [
-      "v=spf1 include:amazonses.com ~all",
-      "v=DMARC1; p=none;"
+    "MX": [
+      {
+        "priority": 10,
+        "value": "inbound-smtp.eu-west-1.amazonaws.com"
+      }
     ]
   }
 }
