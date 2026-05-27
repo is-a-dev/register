@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "qingmolt"
+        "username": "qingmolt",
+        "email": "chriestine-05@yahoo.com"
     },
     "records": {
         "NS": ["fattouche.ns.cloudflare.com", "faye.ns.cloudflare.com"]
