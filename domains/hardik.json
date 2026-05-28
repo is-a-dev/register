@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "hndrd0"
-    },
-    "records": {
-        "CNAME": "https://hndrd0.github.io/Hndrd0/"
-    }
+  "owner": {
+    "username": "hndrd0"
+  },
+  "records": {
+    "CNAME": "hndrd0.github.io"
+  }
 }
