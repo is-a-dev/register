@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "Tunz152",
+    "email": "hackermangtenem123@gmail.com"
+  },
+  "records": {
+    "SRV": [
+      {
+        "target": "game.tunzisme.is-a.dev",
+        "port": 25565,
+        "priority": 0,
+        "weight": 0
+      }
+    ]
+  }
+}
