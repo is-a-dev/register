@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "satindar31",
+    "email": "satindar@satindar-is.me"
+  },
+  "records": {
+    "TXT": ["v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqcnniohE5Tt3kIsSvLY/XZhOkENx+6Yjsgtst+AKtaLn78v+SMSPVDvAAP37ge/zmL40g0T//nruxB3XT4H6BeyO9D4oG3xCj0npz5jXLxuv+XkdKlZo+0SiiUk4jpQj6mcJ9sxH4E5N+JkErFsPa0+gweQgTjcKBTNqQpQLOQBvy0tG/jsbaNWAebJa4n1YKCYI1EWDh0HBEhcL70L4mB2XZfGBB53jDotYpomw7NMC1ko/XcaFa6Snirg48lujmIS/d87AT3LviNpTmUdyAg8MDql/WxMg5TszwyiA1xXfAciktoJHUkqHIednS31wIgHaXmAQjP0FNGYRhZJxeQIDAQAB"]
+  }
+}

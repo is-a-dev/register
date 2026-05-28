@@ -1,4 +1,6 @@
 * @wdhdev
 
 /domains/ @is-a-dev/maintainers
-*.md @is-a-dev/maintainers
+
+*.md @is-a-dev/team
+/util/reserved.json @wdhdev @is-a-dev/team

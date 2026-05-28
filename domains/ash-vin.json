@@ -4,6 +4,8 @@
     "email": "mrsinghashvin@gmail.com"
   },
   "records": {
-    "CNAME": "portfolioo-azure-chi.vercel.app"
-  }
+    "CNAME": "portfolioo-azure-chi.vercel.app",
+    "TXT": ["vc-domain-verify=www.ash-vin.is-a.dev,593ad91ed60c1d1fbbf7"]
+  },
+  "proxied": true
 }
