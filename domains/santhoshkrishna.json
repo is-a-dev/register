@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "santhosh9863",
-    "email": "santhoshkrishna.r67@gmail.com"
+    "username": "santhosh9863"
   },
-  "records": {
-    "CNAME": "portfolio-navy-sigma-y38b1f5cvp.vercel.app"
+  "record": {
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=santhoshkrishna.is-a.dev,193419a23041f81922b5"]
   }
 }
