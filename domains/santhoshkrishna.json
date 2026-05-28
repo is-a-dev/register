@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "santhosh9863"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=santhoshkrishna.is-a.dev,193419a23041f81922b5"]
+  }
+}
