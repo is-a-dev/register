@@ -3,6 +3,6 @@
         "username": "barrybosssss"
     },
     "records": {
-        "CNAME": "ghs.googlehosted.com"
+        "A": ["216.198.79.1"]
     }
 }

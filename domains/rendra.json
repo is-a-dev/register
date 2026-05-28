@@ -4,7 +4,7 @@
     "email": "rendra.zuriansyah.dev@gmail.com"
   },
   "records": {
-    "CNAME": "personal-website-nine-hazel-3clic5i822.vercel.app"
+    "A": ["216.198.79.1"]
   },
   "proxied": false
 }
