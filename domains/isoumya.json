@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "isoumya",
+    "email": "soulsoumya1234@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": true
+}
