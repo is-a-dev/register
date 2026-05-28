@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "artemkatun380-star"
+        "username": "artemkatun380-star",
+        "email": "artemiityan@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "artemkatun380-star.github.io"
     }
 }
