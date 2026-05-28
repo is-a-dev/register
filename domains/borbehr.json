@@ -1,8 +1,12 @@
 {
-    "owner": {
-        "username": "borbehr-dev"
-    },
-    "records": {
-        "NS": ["dalary.ns.cloudflare.com", "sid.ns.cloudflare.com"]
-    }
+  "owner": {
+    "username": "borbehr-dev",
+    "email": "veniamingress-borbehr-dev@outlook.com"
+  },
+  "records": {
+    "NS": [
+      "dalary.ns.cloudflare.com",
+      "sid.ns.cloudflare.com"
+    ]
+  }
 }
