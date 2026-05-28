@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "likithkg"
+  },
+  "record": {
+    "A": ["216.198.79.1"],
+    "TXT": "vc-domain-verify=cortexa.is-a.dev,c00969495b1dcac3915e"
+  }
+}
