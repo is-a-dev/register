@@ -1,0 +1,11 @@
+{
+  "description": "TheAbbie's personal website",
+  "repo": "https://github.com/theabbie/theabbie.github.io",
+  "owner": {
+    "username": "theabbie",
+    "email": "abhishek7gg7@gmail.com"
+  },
+  "records": {
+    "CNAME": "theabbie.github.io"
+  }
+}
