@@ -4,6 +4,9 @@
     "email": "23831a0583@gniindia.org"
   },
   "records": {
-    "CNAME": "newtonadhikari.github.io"
+    "NS": [
+      "hazel.ns.cloudflare.com",
+      "konnor.ns.cloudflare.com"
+    ]
   }
 }
