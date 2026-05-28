@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "jaffriarsalan786",
+    "email": "jaffri.arsalan786@gmail.com"
+  },
+  "domain": "vingo",
+  "records": {
+    "TXT": [
+      "@",
+      "v=spf1 include:amazonses.com ~all"
+    ]
+  }
+}
