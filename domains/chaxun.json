@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "lava2000"
+    },
+    "records": {
+        "NS": [
+          "ryleigh.ns.cloudflare.com",
+          "trace.ns.cloudflare.com"
+        ]
+    }
+}
