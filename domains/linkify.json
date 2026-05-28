@@ -1,0 +1,11 @@
+{
+  "description": "LINKify Website",
+  "repo": "https://github.com/Bxxcv/LINKify",
+  "owner": {
+    "username": "Bxxcv",
+    "email": "unrageunrage@gmail.com"
+  },
+  "record": {
+    "CNAME": "linkify-linkbio.vercel.app"
+  }
+}
