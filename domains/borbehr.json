@@ -2,7 +2,7 @@
     "owner": {
         "username": "borbehr-dev"
     },
-    "record": {
+    "records": {
         "NS": ["dalary.ns.cloudflare.com", "sid.ns.cloudflare.com"]
     }
 }
