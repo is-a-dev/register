@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "elkhaff",
-        "email": "elkhaff27@gmail.com"
-    },
-    "records": {
-        "TXT": "05d7d1b56238cf318ae2e3e7766152"
-    }
+  "owner": {
+    "username": "elkhaff",
+    "email": "elkhaff27@gmail.com"
+  },
+  "records": {
+    "CNAME": "elkhaff.github.io"
+  }
 }
