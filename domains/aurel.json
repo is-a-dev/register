@@ -5,12 +5,9 @@
         "discord": "1497485763133177947"
     },
     "records": {
-        "A": [
-            "104.21.73.149",
-            "172.67.199.199"
-        ],
+        "CNAME": "aurel.xmorinori.online",
         "TXT": [
-            "dh=7d4a201d3cfba3865a2f88c1643527aee4370e0a"
+            "4dee87e8-8622-4917-968d-3ed015c40077"
         ]
     },
     "proxied": true
