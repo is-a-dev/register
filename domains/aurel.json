@@ -5,7 +5,10 @@
         "discord": "1497485763133177947"
     },
     "records": {
-        "CNAME": "intercept.xiao-bytedance.workers.dev",
+        "A": [
+            "104.21.73.149",
+            "172.67.199.199"
+        ],
         "TXT": [
             "dh=7d4a201d3cfba3865a2f88c1643527aee4370e0a"
         ]
