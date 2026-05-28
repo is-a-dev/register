@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "imbadatthisstuff"
-    },
-    "records": {
-        "CNAME": "imbadatthisstuff.github.io"
-    }
+  "owner": {
+    "username": "ImBadAtThisStuff",
+    "email": "ImBadAtThisStuff@pm.me"
+  },
+  "record": {
+    "CNAME": "_github-pages-challenge-ImBadAtThisStuff.aria.is-a.dev"
+  }
 }
