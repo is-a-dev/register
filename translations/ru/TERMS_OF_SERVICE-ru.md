@@ -1,83 +1,83 @@
-# Terms of Service
-Welcome to **is-a.dev** ("our", "us", "we"), a free subdomain service provided to individuals. By using our service, you agree to the following Terms of Service ("Terms"). Please read them carefully.
+# Условия использования
+Добро пожаловать в **is-a.dev** ("наш", "нам", "мы") - бесплатный сервис получения сабдоменов, предоставляемый физическим лицам. Используя наш сервис, вы соглашаетесь со следующими условиями использования ("Условия"). Пожалуйста, внимательно ознакомьтесь с ними.
 
-For questions or concerns about these Terms, please contact us at admin@is-a.dev.
+По вопросам и замечаниям относительно данных условий, пожалуйста, свяжитесь с нами по адресу admin@is-a.dev.
 
-**Last Updated**: 27th October, 2025
+**Последнее обновление**: 27 октября 2025 г.
 
-## 1. Acceptance of Terms
-By accessing or using is-a.dev, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree, you may not use is-a.dev.
+## 1. Принятие условий
+Получая доступ к is-a.dev или используя его, вы подтверждаете, что прочитали, поняли и согласны соблюдать настоящие Условия. Если вы не согласны, вы не можете использовать is-a.dev.
 
-## 2. Eligibility
-To use is-a.dev, you must:
+## 2. Требования к пользователям
+Для использования is-a.dev вы обязаны:
 
-1. Be at least 13 years old;
-2. Be an individual or non-commercial project;
-3. Use the service for lawful purposes only;
-4. Provide accurate and truthful information when registering.
+1. Быть не моложе 13 лет;
+2. Являться физическим лицом или некоммерческим проектом;
+3. Использовать сервис исключительно в законных целях;
+4. Предоставлять точную и достоверную информацию при регистрации.
 
-All subdomains must be registered to an individual GitHub account, organisations may not be the registered owner of a subdomain.
+Все сабдомены должны быть зарегистрированы на индивидуальный аккаунт GitHub; организации не могут быть зарегистрированными владельцами сабдомена.
 
-By using is-a.dev, you represent and warrant that you meet these requirements.
+Используя is-a.dev, вы заявляете и гарантируете, что соответствуете данным требованиям.
 
-## 3. Service Description
-is-a.dev allows users to register a subdomain under the "is-a.dev" domain. This service is offered "as-is" without guarantees of uptime, support, or permanence.
+## 3. Описание сервиса
+is-a.dev позволяет пользователям зарегистрировать сабдомен в зоне "is-a.dev". Сервис предоставляется "как есть" без каких-либо гарантий доступности, поддержки или долгосрочного существования.
 
-Subdomains are intended solely for individuals and non-commercial projects.
+Сабдомены предназначены исключительно для физических лиц и некоммерческих проектов.
 
-We reserve the right to deny any subdomain registration request for any reason.
+Мы оставляем за собой право отклонить любой запрос на регистрацию сабдомена по любой причине.
 
-## 4. Prohibited Activities
-You agree not to use, attempt to use, or permit others to use the is-a.dev service or any related infrastructure for any of the following purposes:
+## 4. Запрещённые действия
+Вы обязуетесь не использовать, не пытаться использовать и не позволять другим использовать сервис is-a.dev или связанную инфраструктуру в следующих целях:
 
-1. Illegal activities
-2. Degrading the service's performance or availability
-3. Promoting violence or harm
-4. Harassment, hate speech, or discrimination
-5. Pornography or sexually explicit material
-6. Impersonation and misrepresentation
-7. Infringe third-party rights
-8. Commercial, for-profit or political purposes
-9. Unsolicited communications
-10. Cryptocurrency and blockchain mining
-11. Abusive automation
-12. Proxy or VPN services
+1. Незаконная деятельность
+2. Снижение производительности или доступности сервиса
+3. Пропаганда насилия или причинение вреда
+4. Харассмент, разжигание ненависти или дискриминация
+5. Порнография или материалы сексуального характера
+6. Выдача себя за другое лицо и введение в заблуждение
+7. Нарушение прав третьих лиц
+8. Коммерческие, коммерчески-ориентированные или политические цели
+9. Несанкционированные рассылки
+10. Майнинг криптовалюты и блокчейн-операции
+11. Злоупотребление автоматизацией
+12. Прокси или VPN-сервисы
 
-*Note: This list is not extensive and may be updated or expanded at any time at our discretion.*
+*Примечание: Данный список не является исчерпывающим и может быть обновлён или расширен в любое время по нашему усмотрению.*
 
-Additionally, users must comply with [GitHub's Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) where applicable.
+Кроме того, пользователи обязаны соблюдать [TOS GitHub](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) там, где это применимо.
 
-Violation of this section may result in immediate termination without notice.
+Нарушение данного раздела может повлечь немедленное прекращение доступа без предупреждения.
 
-## 5. Ownership and Intellectual Property
-is-a.dev retains all rights, title, and interest in the "is-a.dev" domain and associated systems.
+## 5. Право собственности и интеллектуальная собственность
+is-a.dev сохраняет все права, правовой титул и интересы в отношении домена "is-a.dev" и связанных систем.
 
-You retain ownership of any content you host on your subdomain. Your hosted content however must not infringe third-party rights.
+Вы сохраняете право собственности на любой контент, размещённый на вашем сабдомене. Однако размещаемый контент не должен нарушать права третьих лиц.
 
-You grant us permission to use your registration data to operate the service.
+Вы предоставляете нам разрешение использовать данные вашей регистрации для обеспечения работы сервиса.
 
-## 6. Termination of Service
-We reserve the right to terminate your subdomain at any time, for any reason.
+## 6. Прекращение обслуживания
+Мы оставляем за собой право прекратить действие вашего сабдомена в любое время по любой причине.
 
-Termination may occur without prior notice. Any donations will not be refunded.
+Прекращение может произойти без предварительного уведомления. Любые пожертвования возврату не подлежат.
 
-## 7. Privacy
-For privacy-related inquiries, please contact us at admin@is-a.dev. We are not responsible for any data or privacy breaches resulting from the use of our service.
+## 7. Конфиденциальность
+По вопросам, связанным с конфиденциальностью, пожалуйста, свяжитесь с нами по адресу admin@is-a.dev. Мы не несём ответственности за какие-либо утечки данных или нарушения конфиденциальности, возникшие в результате использования нашего сервиса.
 
-We do not collect or process personal data beyond what is necessary to operate the service.
+Мы не собираем и не обрабатываем персональные данные сверх необходимого для обеспечения работы сервиса.
 
-## 8. Disclaimer and Limitation of Liability
-The is-a.dev service is provided "as-is" and "as available." We make no warranties, expressed or implied, regarding the service's functionality, reliability, or suitability for any particular purpose.
+## 8. Отказ от ответственности и ограничение ответственности
+Сервис is-a.dev предоставляется "как есть" и "по мере доступности". Мы не даём никаких гарантий, явных или подразумеваемых, относительно функциональности, надёжности или пригодности сервиса для каких-либо конкретных целей.
 
-You use the service at your own risk.
+Вы используете сервис на свой страх и риск.
 
-## 9. Indemnification
-You agree to indemnify and hold harmless is-a.dev, its operators, and affiliates from any claims, losses, liabilities, or expenses arising from your use of the service or violation of these Terms.
+## 9. Возмещение ущерба
+Вы соглашаетесь освободить от ответственности и защитить is-a.dev, его операторов и аффилированных лиц от любых претензий, убытков, обязательств или расходов, возникающих в связи с вашим использованием сервиса или нарушением настоящих Условий.
 
-## 10. Governing Law and Jurisdiction
-These Terms are governed by the laws of Australia.
+## 10. Применимое право и юрисдикция
+Настоящие условия регулируются законодательством австралии.
 
-## 11. Modification of Terms
-We reserve the right to update or modify these Terms at any time. Changes will be effective immediately upon posting. Your continued use of the service constitutes acceptance of the updated Terms.
+## 11. Изменение условий
+Мы оставляем за собой право обновлять или изменять настоящие условия в любое время. Изменения вступают в силу немедленно после публикации. Продолжение использования сервиса означает ваше согласие с обновлёнными условиями.
 
-If changes are made, we will notify users by posting them on our website or Discord server.
+В случае внесения изменений мы уведомим пользователей, опубликовав их на нашем сайте или в Discord-сервере.
