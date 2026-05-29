@@ -1,0 +1,10 @@
+{
+  "description": "WebSocket Server cloudflared",
+  "owner": {
+    "username": "noisyboy",
+    "email": "noisyboy.rh26@gmail.com"
+  },
+  "records": {
+    "CNAME": "2233bf00-a0a7-43b3-8344-1dba87a69ba6.cfargotunnel.com"
+  }
+}
