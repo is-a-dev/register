@@ -3,7 +3,7 @@
     "username": "profx-ctrl",
     "email": "those-blank-joyous@duck.com"
   },
-  "description": "Open source free subdomain registration platform for developers",
+  "description": "Free DNS API and subdomain registration service for developers and open source projects",
   "record": {
     "CNAME": "profx-ctrl.github.io"
   }
