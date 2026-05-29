@@ -4,6 +4,7 @@
         "email": "mo.morsi2004@gmail.com"
     },
     "records": {
-        "CNAME": "mmorsi.vercel.app"
+        "CNAME": "mmorsi.vercel.app",
+        "TXT": "vc-domain-verify=morsi.is-a.dev,6536ccb94d85fc105096"
     }
 }
