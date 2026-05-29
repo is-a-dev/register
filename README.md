@@ -15,6 +15,11 @@
 
 <h1 align="center">is-a.dev</h1>
 
+<h2>
+   <a href="README.md">English</a>
+   <a href="README-ru.md">Русский</a>
+</h2>
+
 <p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking <code>.is-a.dev</code> subdomain for their personal websites.</p>
 
 ---
@@ -53,3 +58,4 @@ We are supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com
 <a href="https://www.cloudflare.com">
    <img alt="Cloudflare Logo" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png" height="48">
 </a>
+
