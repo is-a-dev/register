@@ -1,0 +1,14 @@
+{
+  "domain": "noisyboy",
+  "description": "WebSocket Server",
+  "owner": {
+    "username": "noisyboy",
+    "email": "noisyboy.rh26@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "april.ns.cloudflare.com",
+      "kaiser.ns.cloudflare.com"
+    ]
+  }
+}
