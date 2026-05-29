@@ -16,8 +16,8 @@
 <h1 align="center">is-a.dev</h1>
 
 <h3 align="center">
-   <a href="README.md">English</a>
-   <a href="translations/README-ru.md">Русский</a>
+   <a href="/README.md">English</a>
+   <a href="/translations/README-ru.md">Русский</a>
 </h2>
 
 <p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking <code>.is-a.dev</code> subdomain for their personal websites.</p>
