@@ -15,7 +15,7 @@
 
 <h1 align="center">is-a.dev</h1>
 
-<h2 align="center">
+<h3 align="center">
    <a href="README.md">English</a>
    <a href="README-ru.md">Русский</a>
 </h2>
