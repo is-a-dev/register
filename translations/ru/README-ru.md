@@ -17,7 +17,7 @@
 
 <h3 align="center">
    <a href="/README.md">English</a>
-   <a href="/translations/README-ru.md">Русский</a>
+   <a href="/translations/ru/README-ru.md">Русский</a>
 </h2>
 
 <p align="center"><strong>is-a.dev</strong> это сервис, который позволяет разработчикам получить красивый <code>.is-a.dev</code> сабдомен для их личных сайтов.</p>
