@@ -1,12 +1,12 @@
-# Code of Conduct
-This is a Code of Conduct for any interactions in this repository. This includes pull requests, issues, etc.
+# Правила поведения
+Это правила для любого взаимодействия с этим репозиторием. Это включает в себя pull request'ы, issue и другое.
 
-- **Use common sense** - It's not that complicated. Just be nice to people.
-- **Don't abuse the service** - This service is intended for developers to get a cleaner URL for their personal websites.
-- **No wrongful use** - Do not use this service as a way, to promote hacking, scams, fraud, and other illegal activites.
-- **Follow our TOS** - You must follow our [Terms of Service](https://github.com/is-a-dev/register/blob/main/TERMS_OF_SERVICE.md).
+- **Используйте здравый смысл** - Это не так сложно. Просто будьте вежливы с людьми.
+- **Не абузьте данный сервис** - Этот сервис предназначен для разработчиков, которым нужно получить более чистый URL для их личных сайтов.
+- **Неправомерное использование** - Не используйте данный сервис для продвижения хакерства, мошенничества, обмана или любой другой незаконной деятельности.
+- **Соблюдайте наш TOS** - Вы обязаны использовать наш [TOS](https://github.com/is-a-dev/register/blob/main/TERMS_OF_SERVICE.md).
 
-## Reporting abuse
-If you believe a domain that has been registered using this service is abusing our terms, you can report it by creating an issue.
+## Сообщение об абузе
+Если вы считаете, что домен, зарегистрированный с использованием этого сервиса, нарушает наши правила, вы можете сообщить об этом, создав issue.
 
-Abuse reports will be investigated and the necessary action will be taken.
+Сообщения об абузе будут расследованы, а также будут приняты необходимые меры
