@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "firekids2026-coder",
+    "email": "firekids2026@gmail.com"
+  },
+  "description": "Personal mirror of isitdownrightnow.app for faster regional access and uptime archiving.",
+  "record": {
+    "NS": [
+      "fay.ns.cloudflare.com",
+      "norm.ns.cloudflare.com"
+    ]
+  }
+}
