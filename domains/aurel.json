@@ -5,10 +5,7 @@
         "discord": "1497485763133177947"
     },
     "records": {
-        "CNAME": "aurel.xmorinori.online",
-        "TXT": [
-            "4dee87e8-8622-4917-968d-3ed015c40077"
-        ]
+        "CNAME": "aurel.xiao-bytedance.workers.dev"
     },
-    "proxied": true
+    "proxied": false
 }
