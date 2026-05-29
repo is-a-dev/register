@@ -4,6 +4,8 @@
     "email": "damikaanupama@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-bay-iota-cvex67d1yn.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
