@@ -1,0 +1,11 @@
+{
+  "description": "E-Bridge Smart Waste Management System",
+  "repo": "https://github.com/devilmonty-lgtm/waste-management-backend",
+  "owner": {
+    "username": "devilmonty-lgtm",
+    "email": "ravisaxena555@gmail.com"
+  },
+  "record": {
+    "CNAME": "web-production-ec408.up.railway.app"
+  }
+}
