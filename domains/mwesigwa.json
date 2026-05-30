@@ -1,0 +1,12 @@
+{
+  "description": "Mwesigwa David's Portfolio",
+  "domain": "is-a.dev",
+  "subdomain": "mwesigwa",
+  "owner": {
+    "username": "Codeme256",
+    "email": "davidmwesigwa71@gmail.com"
+  },
+  "record": {
+    "CNAME": "codeme256.github.io"
+  }
+}
