@@ -4,6 +4,7 @@
         "email": "4bdurohm4an@gmail.com"
     },
     "record": {
+        "CNAME": "flowertothecodeoflife.github.io",
         "MX": [
             "feedback-smtp.eu-west-1.amazonses.com"
         ],
