@@ -4,9 +4,9 @@
   "subdomain": "mwesigwa",
   "owner": {
     "username": "Codeme256",
-    "email": "davidmwesigwa71@gmail.com"
+    "email": "your@email.com"
   },
-  "record": {
+  "records": {
     "CNAME": "codeme256.github.io"
   }
 }
