@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "tunarlkbrov7-create"
+  },
+  "record": {
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 5,
+        "port": 22557,
+        "target": "VoltrionSMP.aternos.me."
+      }
+    ]
+  }
+}
