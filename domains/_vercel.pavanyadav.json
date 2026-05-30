@@ -2,7 +2,7 @@
   "owner": {
     "username": "The-Pavan-Yadav"
   },
-  "record": {
-    "TXT": "vc-domain-verify=www.pavanyadav.is-a.dev,959672ce5a82a6da7e89"
+  "records": {
+    "TXT": "vc-domain-verify=pavanyadav.is-a.dev,959672ce5a82a6da7e89"
   }
 }
