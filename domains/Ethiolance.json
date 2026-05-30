@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "flowertothecodeoflife",
+        "email": "4bdurohm4an@gmail.com"
+    },
+    "record": {
+        "MX": [
+            "feedback-smtp.eu-west-1.amazonses.com"
+        ],
+        "TXT": [
+            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKEzBlKB37v25ij9+n42pb15CiqbDn9Ph5/DGkAbkiG1cwZLdy73qZCVdf++OZsECtvyQepOdR4qrMEpO4XljwT8ZaOsiD1jiQCnEWarYLyMNEVK+GW3LXPeXqEiCz+tm0R2pMJ99MGk46NqMs8X22ehYWf4M2OFNyOaLZ5FO40QIDAQAB",
+            "resend._domainkey.ethiolance"
+        ]
+    }
+}
