@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "gronlet",
+    "email": "gronlet@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname-china.vercel-dns.com"
+  },
+  "proxied": false
+}
