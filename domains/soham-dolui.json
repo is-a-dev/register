@@ -1,0 +1,10 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "owner": {
+    "username": "sohamdolui008",
+    "email": "soham.pfl@gmail.com"
+  },
+  "record": {
+    "CNAME": "your-project.vercel.app"
+  }
+}
