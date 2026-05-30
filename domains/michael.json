@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "heresoidontgetfined"
+        "username": "mchlbrns",
+        "email": "mchlbrns07@gmail.com"
     },
-    "records": {
-        "CNAME": "staticroute-dev.pages.dev"
+    "record": {
+        "CNAME": "kelly-portfolio-delta.vercel.app"
     }
 }
