@@ -1,9 +1,9 @@
 {
-"owner": {
-"username": "pdolai216",
-"email": "anidubflixteam@gmail.com"
-},
-"records": {
-"TXT": "vc-domain-verify=www.anidubflix.is-a.dev,54f5a2e1ecdd718bc5c6"
-}
+  "owner": {
+    "username": "pdolai216",
+    "email": "anidubflixteam@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=www.anidubflix.is-a.dev,54f5a2e1ecdd718bc5c6"
+  }
 }
