@@ -1,9 +1,11 @@
 {
+    "name": "codelab",
+    "description": "Un foro de programación construido con Laravel, Livewire y Tailwind CSS.",
     "owner": {
         "username": "Alexis-CE",
         "email": "2020pomelo@gmail.com"
     },
     "record": {
-        "CNAME": "omv-lab.cfargotunnel.com"
+        "CNAME": "99f4f98f-bf3d-407c-9243-292576a8beaa.cfargotunnel.com"
     }
 }
