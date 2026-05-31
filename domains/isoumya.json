@@ -4,7 +4,7 @@
     "email": "soulsoumya1234@gmail.com"
   },
   "records": {
-    "CNAME": "isoumyaa.vercel.app"
+    "A": ["216.198.79.1"]
   },
   "proxied": false
 }
