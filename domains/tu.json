@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
+    "owner": {
+        "username": "Webcreator3478",
+        "discord": "Jktaisa"
+    },
+    "records": {
+        "URL": "https://tiny-url-service.jktaisa.workers.dev"
+    }
+}
