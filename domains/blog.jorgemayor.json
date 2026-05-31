@@ -5,6 +5,10 @@
         "email": "joorgemayoor@gmail.com"
     },
     "records": {
+<<<<<<< HEAD
         "A": ["88.0.97.219"]
+=======
+        "A": ["83.36.65.55"]
+>>>>>>> e9ec10b4e5e77d994eba261ece29e6221d0f10dd
     }
 }
