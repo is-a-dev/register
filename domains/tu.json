@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
+    "owner": {
+        "username": "Webcreator3478",
+        "email": "jktaisa39@outlook.com"
+    },
+    "records": {
+        "CNAME": "tiny-url-service.jktaisa.workers.dev"
+    }
+}
