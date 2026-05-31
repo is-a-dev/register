@@ -1,0 +1,11 @@
+{
+  "description": "Aditya Singhal's personal site",
+  "repo": "https://github.com/TheAdityaSinghal",
+  "owner": {
+    "username": "TheAdityaSinghal",
+    "email": "adityaweb101@gmai.com"
+  },
+  "record": {
+    "CNAME": "adityasinghal.vercel.app"
+  }
+}
