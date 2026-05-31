@@ -5,10 +5,8 @@
     "username": "Muh4mmadA",
     "email": "muhammad14327m@gmail.com"
   },
-    "record": {
+  "record": {
     "CNAME": "cname.vercel-dns.com",
-    "TXT": {
-      "_vercel": "vc-domain-verify=your-value-here"
-    }
+    "TXT": "vc-domain-verify=vc-domain-verify=is-a.dev,a9648e85100d6f4bdf67"
   }
 }
