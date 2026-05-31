@@ -4,6 +4,7 @@
     "email": "oculosdanilo@gmail.com"
   },
   "records": {
-    "CNAME": "odanilo.web.app"
+    "A": ["199.36.158.100"],
+    "TXT": ["hosting-site=odanilo", "google-site-verification=QOzIso4Znjat98azyq_3_o6JTEZ2zLwTO0F7ciGxr5o"]
   }
 }

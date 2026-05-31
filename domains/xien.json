@@ -4,9 +4,8 @@
     "email": "zeynepmehmetaliy@gmail.com"
   },
   "description": "Web programmer specialized in JS and Python script development.",
-  "proxied": true,
+  "proxied": false,
   "records": {
-    "CNAME": "x1en.netlify.app",
-    "TXT": "verified-for-netlify=8b856478-aa59-4654-9986-9c00d7d8ce09"
+    "CNAME": "x1en.netlify.app"
   }
 }

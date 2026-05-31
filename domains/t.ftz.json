@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "for-the-zero"
+    "username": "for-the-zero",
+    "email": "forthezero@outlook.com"
   },
   "records": {
-    "CNAME": "0fb59d53b42dd8b0.vercel-dns-017.com"
+    "CNAME": "tooys.netlify.app"
   }
 }

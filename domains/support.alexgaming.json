@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "alexgamingstudio",
+        "email": "info@alexgaming.is-a.dev"
+    },
+    "description": "Dedicated support site for Alex Gaming",
+    "proxied": true,
+    "records": {
+        "CNAME": "alexgaming-dev.github.io"
+    }
+}

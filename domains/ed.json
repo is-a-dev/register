@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "eddie1704",
+    "email": "ez.white@outlook.com"
+  },
+  "records": {
+  "URL": "https://portfolio.lordeddington.com",
+    "TXT": [
+    "google-site-verification=ZrnysqPkhlvYCDmL5OaFb0OPX491KjW5H3vvNBIi5xs",
+    "forward-email-site-verification=no1BQb65hL"
+    ],
+    "MX": [
+      { "target": "mx1.forwardemail.net", "priority": 10 },
+      { "target": "mx2.forwardemail.net", "priority": 10 }
+    ]
+  },
+  "proxied": false
+}

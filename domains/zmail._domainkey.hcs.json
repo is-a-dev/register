@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "hcs1219",
+        "email": "hcskaiask@gmail.com"
+    },
+    "records": {
+        "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAusIhkt54Hn4bJ/mbYMYlnPbdJDFfLG44ckAnXtgYQ0bQfjihYlKO6TIP/yapIeWIC4ZqNAglWkUsOftQLkM3BlcneQdrsfIvKtI71ZiiWP5XVyshDo1MEkgZd39/9UgT+XTVaN2mgRO/Niy3KKBzECIpkS9gFoyf/yK2Yl3yhIQ4jOq5/J6uYPD8IUcbLDvCpQV5EId29aJc+xBsoQrFGIL6/chAFtYb978gZ2iF5brkNLdXs0J/5fkCbYnCcqJNV0zfr9rtYV+N1Ja1+5y3ExbZYQxvWaNLMeH9Hn11wR20xGkQx718iPY+4a+236vr0rCJRQf0z408x1WQWWdKcQIDAQAB"
+    }
+}

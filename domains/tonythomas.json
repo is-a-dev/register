@@ -4,6 +4,6 @@
         "email": "ttonythomasndm@gmail.com"
     },
     "records": {
-        "CNAME": "tonythomas.vercel.app"
+        "A": ["216.198.79.1"]
     }
 }
