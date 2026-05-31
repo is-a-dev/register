@@ -1,0 +1,12 @@
+{
+  "description": "WWM-DMGCALC - Damage calculator and expected value analyzer for Where Winds Meet.",
+  "repo": "https://github.com/Sh1get0ra/WWM-DMGCALC",
+  "owner": {
+    "username": "Sh1get0ra",
+    "email": "ms.tottie.1016@gmail.com"
+  },
+  "record": {
+    "CNAME": "sh1get0ra.github.io"
+  },
+  "proxied": false
+}
