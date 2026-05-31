@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "ansh6207",
+    "email": "anshpsolanki@gmail.com"
+  },
+  "records": {
+    "TXT": ["v=DMARC1; p=none;"]
+  }
+}
