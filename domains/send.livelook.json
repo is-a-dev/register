@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "ansh6207",
+    "email": "anshpsolanki@gmail.com"
+  },
+  "records": {
+    "MX": [
+      { "target": "feedback-smtp.us-east-1.amazonses.com", "priority": 10 }
+    ],
+    "TXT": ["v=spf1 include:amazonses.com ~all"]
+  }
+}
