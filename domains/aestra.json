@@ -4,6 +4,6 @@
         "email": "aestradev@gmail.com"
     },
     "records": {
-        "CNAME": "https://aestranaut.netlify.app/"
+        "A": ["75.2.60.5"]
     }
 }
