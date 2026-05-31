@@ -6,9 +6,6 @@
     "email": "adityaweb101@gmail.com"
   },
   "records": {
-    "CNAME": "adityasinghal.vercel.app",
-    "TXT": {
-      "_vercel": "vc-domain-verify=adityasinghal.is-a.dev,0e1d08af4101187d907d"
-    }
+    "CNAME": "adityasinghal.vercel.app"
   }
 }
