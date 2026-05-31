@@ -4,6 +4,7 @@
     "email": "anshpsolanki@gmail.com"
   },
   "records": {
+    "URL": "https://livelook-server.onrender.com",
     "TXT": ["v=spf1 include:amazonses.com ~all"]
   }
 }
