@@ -5,7 +5,7 @@
   "owner": {
     "username": "SHAURYASANYAL3"
   },
-  "record": {
-    "TXT": "vc-domain-verify=e-vara.is-a.dev,6acddb9cea037110764b"
+  "records": {
+    "TXT": ["vc-domain-verify=e-vara.is-a.dev,6acddb9cea037110764b"]
   }
 }
