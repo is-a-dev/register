@@ -1,0 +1,13 @@
+{
+    "description": "Site officiel de SENTRAX, suite de cybersécurité open source",
+    "domain": "is-cool.dev",
+    "subdomain": "sentrax",
+    "owner": {
+        "repo": "https://github.com/Ndaye12/SentraX",
+        "email": "patrickndaye919@gmail.com"
+    },
+    "record": {
+        "CNAME": "ndaye12.github.io"
+    },
+    "proxied": false
+}
