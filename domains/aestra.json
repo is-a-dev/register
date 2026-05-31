@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "AestraDev"
+        "username": "AestraDev",
+        "email": "aestradev@gmail.com"
     },
     "records": {
         "CNAME": "https://aestranaut.netlify.app/"
