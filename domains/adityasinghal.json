@@ -1,11 +1,14 @@
 {
   "description": "Aditya Singhal's personal site",
-  "repo": "https://github.com/TheAdityaSinghal",
+  "repo": "https://github.com/TheAdityaSinghal/vercel-portfolio",
   "owner": {
     "username": "TheAdityaSinghal",
-    "email": "adityaweb101@gmai.com"
+    "email": "adityaweb101@gmail.com"
   },
-  "record": {
-    "CNAME": "adityasinghal.vercel.app"
+  "records": {
+    "CNAME": "adityasinghal.vercel.app",
+    "TXT": {
+      "_vercel": "vc-domain-verify=adityasinghal.is-a.dev,0e1d08af4101187d907d"
+    }
   }
 }
