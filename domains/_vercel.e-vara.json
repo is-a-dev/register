@@ -1,0 +1,11 @@
+{
+  "description": "Vercel verification for e-vara",
+  "domain": "_vercel.e-vara.is-a.dev",
+  "subdomain": "_vercel.e-vara",
+  "owner": {
+    "username": "SHAURYASANYAL3"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=YOUR_VERIFICATION_VALUE_HERE"
+  }
+}
