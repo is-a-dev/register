@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "your-github-username",
+    "email": "your@email.com"
+  },
+  "record": {
+    "CNAME": "milan-sharma-portfolio.vercel.app"
+  }
+}
