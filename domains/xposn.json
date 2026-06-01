@@ -1,0 +1,12 @@
+{
+  "description": "personal bio site",
+  "repo": "https://xposn.pages.dev",
+  "owner": {
+    "username": "xposn",
+    "email": "xposn@icloud.com"
+  },
+  "record": {
+    "CNAME": "xposn.pages.dev"
+  },
+  "proxied": false
+}
