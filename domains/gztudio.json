@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "GZtudio-Dev"
+        "username": "GZtudio-Dev",
+        "email": "mediazee33@gmail.com"
     },
     "records": {
         "CNAME": "gztudio-dev.github.io"
