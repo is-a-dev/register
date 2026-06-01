@@ -4,6 +4,6 @@
     "email": "74674299+CenedyPalma@users.noreply.github.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=cenedy.is-a.dev,02118bc34dd41b358765"
   }
 }
