@@ -1,9 +1,12 @@
 {
     "owner": {
         "username": "MickiDolomits",
-        "email": "michelesama6@gmail.com"
+        "email": "your@email.com"
     },
     "record": {
+        "A": ["130.110.6.11"]
+    },
+    "records": {
         "A": ["130.110.6.11"]
     }
 }
