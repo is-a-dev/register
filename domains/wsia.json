@@ -1,0 +1,10 @@
+{
+    "domain": "wsia",
+    "owner": {
+        "username": "shamsuddeein",
+        "email": "talktoshamsuddeen@gmail.com"
+    },
+    "record": {
+        "A": ["155.133.23.25"]
+    }
+}
