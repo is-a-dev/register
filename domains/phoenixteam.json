@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "Phoenixbusinessconsulting",
+    "email": "githubadmin@phoenixteam.com"
+  },
+  "records": {
+    "CNAME": "pbc-time-app.cfapps.us10-001.hana.ondemand.com"
+  },
+  "description": "SAP BTP time and attendance management application for software development"
+}
