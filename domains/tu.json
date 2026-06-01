@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
+    "owner": {
+        "username": "Webcreator3478",
+        "discord": "Jktaisa"
+    },
+    "records": {
+        "A": [
+            "172.67.135.241",
+            "104.21.31.229"
+        ]
+    },
+    "proxied": true
+}
