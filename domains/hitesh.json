@@ -4,7 +4,8 @@
     "email": "rehitesh27@gmail.com"
   },
   "records": {
-    "CNAME": "3d4a92a59bbb16b9.vercel-dns-017.com"
+    "CNAME": "3d4a92a59bbb16b9.vercel-dns-017.com",
+    "TXT": "vc-domain-verify=hitesh.is-a.dev,dffae8279c1d3a67194b"
   },
   "proxied": false
 }
