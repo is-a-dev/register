@@ -1,9 +1,10 @@
 {
-    "description": "Explorator de univers 3D",
+    "description": "Interactive 3D WebGL space renderer — open-source demo built with React, TypeScript and Three.js (react-three-fiber). Real-scale solar system, free-flight controls, PWA.",
+    "repo": "https://github.com/kalu1990/Univers-3D",
     "owner": {
         "username": "kalu1990"
     },
     "records": {
         "CNAME": "kalu1990.github.io"
     }
-}
+}        
