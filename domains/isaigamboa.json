@@ -4,5 +4,6 @@
   },
   "records": {
     "CNAME": "portafolio.isaigamboa1998.workers.dev"
-  }
+  },
+  "proxied": true
 }
