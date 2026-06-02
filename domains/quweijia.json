@@ -3,7 +3,10 @@
     "username": "quweijia",
     "email": "quweijia@vip.qq.com"
   },
-  "records": {
-    "CNAME": "quweijia.is-a.dev.pages.dnsoe4.com"
-  }
+ "record": {
+        "NS": [
+            "major.ns.cloudflare.com",
+            "naomi.ns.cloudflare.com"
+        ]
+    }
 }
