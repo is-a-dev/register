@@ -3,35 +3,35 @@ Welcome to **is-a.dev** ("our", "us", "we"), a free subdomain service provided t
 
 For questions or concerns about these Terms, please contact us at admin@is-a.dev.
 
-**Last Updated**: 23th May, 2026
+**Last Updated**: 2nd June, 2026
 
 ## Definitions
-Before you continue reading the Terms of Service, here are the following definitions that apply within the Terms of Service:
+The following definitions apply within these Terms of Service:
 - **"Service"** refers to the is-a.dev subdomain registration service, website, infrastructure, GitHub repository, and related systems operated by is-a.dev.
 - **"User"**, **"you"**, and **"your"** refer to any individual using or accessing the service.
 - **"Subdomain"** refers to any subdomain registered under the `is-a.dev` domain.
 - **"Root subdomain"** refers to the primary registered subdomain itself, excluding any nested subdomains. For example, `example.is-a.dev` is a root subdomain, while `blog.example.is-a.dev` is a **"nested subdomain"**.
-- **"Content"** refers to any website, files, media, software, text, or other material hosted or served using a subdomain.
+- **"Content"** refers to any website, files, media, software, text, or other material hosted or served using an is-a.dev subdomain.
 
 ## 1. Acceptance of Terms
-By accessing or using is-a.dev, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree, you cannot use the is-a.dev service.
+By accessing or using is-a.dev, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree, you may not use the is-a.dev service.
 
 ## 2. Eligibility
 To use is-a.dev, you must:
 
 1. Be at least 13 years old;
-2. Be an individual person, not an organisation, acting either on your own behalf or as a representative of a group or a non-commercial project;
+2. Be an individual person, not an organisation, acting either on your own behalf or as a representative of a group or non-commercial project;
 3. Use the service for lawful purposes only;
 4. Provide accurate and truthful information when registering.
 
-Subdomains must be registered to an individual GitHub account, organisations cannot be the registered owner of a subdomain.
+Subdomains must be registered to an individual GitHub account, and cannot be registered to a GitHub organisation account.
 
 By using is-a.dev, you represent and warrant that you meet these requirements.
 
 ## 3. Service Description
 is-a.dev allows users to register a subdomain under the "is-a.dev" domain. This service is offered "as-is" without guarantees of uptime, support, or permanence.
 
-Subdomains are intended solely for individuals, software developer groups and non-commercial projects that are related to software development, as long as the project does not contain activities that are prohibited by us.
+Subdomains are intended solely for individuals, software developer groups and non-commercial projects that are related to software development, as long as the project does not engage in activities or serve content that is prohibited by these Terms of Service.
 
 We reserve the right to deny any subdomain registration request for any reason.
 
@@ -44,13 +44,13 @@ You agree not to use, attempt to use, or permit others to use the is-a.dev servi
 4. Harassment, hate speech, or discrimination
 5. Pornography or sexually explicit material
 6. Impersonation and misrepresentation
-7. Infringe third-party rights
-8. Commercial, for-profit or political purposes
-9. Sending unsolicited communications ("spam")
+7. Infringing third-party rights
+8. Commercial, for-profit, or political purposes
+9. Sending unsolicited communications
 10. Cryptocurrency and blockchain mining
 11. Abusive automation (including but not limited to: "bots", "scrapers", or automated scripts that place excessive load on the service)
 12. Proxy or VPN services
-13. Websites on root subdomains that are behind a login page (with the exception of login pages for management reasons)
+13. Hosting websites on root subdomains that are behind a login page (with the exception of login pages for management reasons)
 14. Blogs that are not primarily related to software development
 15. Conversational AI websites or apps that are similar in functionality to websites or apps such as Claude, Gemini, ChatGPT, etc.
 
@@ -62,12 +62,12 @@ Violation of this section may result in immediate termination without notice.
 
 ## 5. Use of AI (Artificial Intelligence)
 
-The use of AI for creating, designing or modifying websites is acceptable as long as the website is complete and abides by the prohibited activities guidelines. We are strongly against using AI (such as Claude Code, Codex, OpenClaw, etc) for creating pull requests, and may close the pull request alongside blocking or limiting the author's ability to interact with our repositories and resources, if used.
+The use of AI for creating, designing, or modifying websites is acceptable as long as the website is complete and complies with the prohibited activities guidelines. We are strongly against the usage of AI (such as Claude Code, Codex, OpenClaw, etc) for creating pull requests, and may close the pull request alongside blocking or limiting the author's ability to interact with our repositories and resources, if used.
 
 ## 6. Ownership and Intellectual Property
 is-a.dev retains all rights, title, and interest in the "is-a.dev" domain and associated systems.
 
-You retain ownership of any content you host on your subdomain. Your hosted content however must not infringe third-party rights.
+You retain ownership of any content you host on your subdomain. Your hosted content, however, must not infringe third-party rights.
 
 You grant us permission to use your registration data to operate the service.
 
