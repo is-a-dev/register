@@ -1,0 +1,11 @@
+{
+  "description": "Site d'inscription aux cours d'agility du Club Canin Vannetais",
+  "repo": "https://github.com/martinezlaetitia7-stack/ccv-agility",
+  "owner": {
+    "username": "martinezlaetitia7-stack",
+    "email": "martinezlaetitia7@gmail.com"
+  },
+  "record": {
+    "CNAME": "martinezlaetitia7-stack.github.io"
+  }
+}
