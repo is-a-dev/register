@@ -4,6 +4,6 @@
     "email": "dulankacharidu@gmail.com"
   },
   "records": {
-    "CNAME": "dulankacharidu.github.io"
-  }
+  "A": ["185.27.134.93"]
+}
 }
