@@ -6,5 +6,5 @@
   "records": {
     "CNAME": "isoumyaa.vercel.app"
   },
-  "proxied": true
+  "proxied": false
 }
