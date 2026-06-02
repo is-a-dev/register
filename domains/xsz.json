@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "lezhengqiuyuan",
+    "email": "lezhengqiuyuan@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "dawn.ns.cloudflare.com",
+      "rob.ns.cloudflare.com"
+    ]
+  },
+  "proxied": false
+}
