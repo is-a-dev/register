@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Jeql88",
+    "email": "joshedlui4@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
+  }
+}
