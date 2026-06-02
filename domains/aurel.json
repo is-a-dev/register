@@ -5,6 +5,8 @@
     "discord": "1497485763133177947"
   },
   "records": {
-    "CNAME": "aurel-5r6.pages.dev"
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }
