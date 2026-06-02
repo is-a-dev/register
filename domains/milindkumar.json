@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "milind021"
+    "username": "milind021",
+    "email": "milindkumar.2006@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "gajar.milindkumar-2006.workers.dev"
   }
 }
