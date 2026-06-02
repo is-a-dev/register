@@ -1,0 +1,11 @@
+{
+  "description": "Mask Discord Moderation Bot Dashboard",
+  "repo": "https://github.com/zenyell/discord-moderation-bot",
+  "owner": {
+    "username": "zenyell",
+    "email": "102828167+zenyell@users.noreply.github.com"
+  },
+  "record": {
+    "CNAME": "mask-dashboard.onrender.com"
+  }
+}
