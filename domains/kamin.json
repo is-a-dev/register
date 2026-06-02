@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "MaksMai",
+    "email": "79055255544@yandex.com"
+  },
+  "description": "Камин — ИИ-собеседник для мужчин 40+. Место у огня, где можно поговорить по-мужски.",
+  "repo": "kamin",
+  "records": {
+    "CNAME": "kamin-frontend.storage.yandexcloud.net"
+  }
+}
