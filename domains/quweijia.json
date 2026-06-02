@@ -4,9 +4,6 @@
     "email": "quweijia@vip.qq.com"
   },
   "records": {
-    "NS": [
-      "major.ns.cloudflare.com",
-      "naomi.ns.cloudflare.com"
-    ]
+    "CNAME": "quweijia.is-a.dev.pages.dnsoe4.com"
   }
 }
