@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "suaibulislam",
+    "email": "suaibulislambd@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "MX": [
+      { "target": "mx1.larksuite.com", "priority": 1 },
+      { "target": "mx2.larksuite.com", "priority": 5 },
+      { "target": "mx3.larksuite.com", "priority": 10 }
+    ],
+    "TXT": [
+      "google-site-verification=t6p4AgIO8wEHYU6NIZ8C3MWkckoihiNQJcxvo1ejgWs",
+      "verification-code-site-App_lark=ECPfhavC1VWuUkuqWg1f",
+      "v=spf1 +include:spf.onlarksuite.com -all"
+    ]
+  }
+}
