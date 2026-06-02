@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "hebronvallen-cpu"
-    },
-    "records": {
-        "CNAME": "f6o7dzr5.up.railway.app",
-        "TXT": ["railway-verify=6a9be2523e5b7cca2b1ef93271dd2c9e20342c41a35de9ff23ea498cb5db4ca5"]
-    }
+  "owner": {
+    "username": "hebronvallen-cpu"
+  },
+  "records": {
+    "CNAME": "f6o7dzr5.up.railway.app",
+    "TXT": [
+      "railway-verify=6a9be2523e5b7cca2b1ef93271dd2c9e20342c41a35de9ff23ea498cb5db4ca5"
+    ]
+  }
 }
