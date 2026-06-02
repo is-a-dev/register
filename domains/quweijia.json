@@ -3,10 +3,10 @@
     "username": "quweijia",
     "email": "quweijia@vip.qq.com"
   },
- "record": {
-        "NS": [
-            "major.ns.cloudflare.com",
-            "naomi.ns.cloudflare.com"
-        ]
-    }
+  "records": {
+    "NS": [
+      "major.ns.cloudflare.com",
+      "naomi.ns.cloudflare.com"
+    ]
+  }
 }
