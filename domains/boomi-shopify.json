@@ -1,0 +1,11 @@
+{
+  "description": "Shopify store custom domain for customer accounts",
+  "repo": "https://github.com/monicajalla-dev",
+  "owner": {
+    "username": "monicajalla-dev",
+    "email": "monica.jalla@boomi.com"
+  },
+  "record": {
+    "A": ["23.227.38.65"]
+  }
+}
