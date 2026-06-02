@@ -1,0 +1,11 @@
+{
+    "description": "Website streaming dan informasi drama Terbaru",
+    "repo": "https://github.com/hajumesatru-eng/wow-drama24",
+    "owner": {
+        "username": "hajumesatru-eng",
+        "email": "hajumesatru@gmail.com"
+    },
+    "record": {
+        "CNAME": "wow-drama24.pages.dev"
+    }
+}
