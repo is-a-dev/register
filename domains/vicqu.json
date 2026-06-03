@@ -4,9 +4,6 @@
         "email": "quweijia88@gmail.com"
     },
     "records": {
-        "NS": [
-            "major.ns.cloudflare.com",
-            "naomi.ns.cloudflare.com"
-        ]
+        "CNAME": "portfolio.quweijia88.workers.dev"
     }
 }
