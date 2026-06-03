@@ -1,0 +1,11 @@
+{
+    "description": "Générateur de séances de natation personnalisées avec export COROS/Garmin",
+    "repo": "https://github.com/ahlam-11/Swim_App",
+    "owner": {
+      "username": "ahlam-11",
+      "email": "ahlame.chalal@oteria.fr"
+    },
+    "record": {
+      "CNAME": "swim-app-five.vercel.app"
+    }
+  }
