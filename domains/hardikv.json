@@ -4,6 +4,6 @@
         "email": "hardikverma2005@gmail.com"
     },
     "record": {
-        "CNAME": "699af866fdf8d086.vercel-dns-017.com"
+        "A": ["216.198.79.1"]
     }
 }
