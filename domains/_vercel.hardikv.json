@@ -4,6 +4,6 @@
         "email": "hardikverma2005@gmail.com"
     },
     "record": {
-        "TXT": "vc-domain-verify=hardik.is-a.dev,9477845f9e6af422690a"
+        "TXT": ["vc-domain-verify=hardikv.is-a.dev,f4e3aa2165406032b290"]
     }
 }
