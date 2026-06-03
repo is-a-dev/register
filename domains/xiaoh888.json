@@ -1,15 +1,12 @@
 {
-
-    "owner": {
-
-        "username": "he-yu-qing"
-
-    },
-
-    "records": {
-
-        "CNAME": "divine-surf-d73f.gdxiaohe.workers.dev"
-
-    }
-
+  "owner": {
+    "username": "he-yu-qing",
+    "email": "gdjn@qq.com"
+  },
+  "records": {
+    "NS": [
+      "maleah.ns.cloudflare.com",
+      "sergi.ns.cloudflare.com"
+    ]
+  }
 }
