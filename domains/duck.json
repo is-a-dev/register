@@ -4,6 +4,7 @@
     "email": "serverdeveloper@duck.com"
   },
   "records": {
-    "CNAME": "portfolio-2026-8tc.pages.dev"
+    "CNAME": "portfolio-2026-8tc.pages.dev",
+    "TXT": "google-site-verification=o4_QC1kBwQSfdl7WRSeLjni3RZPPdFZrgM9DHyDHdJk"
   }
 }
