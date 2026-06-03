@@ -4,6 +4,7 @@
         "email": "amostafa-4xyn@outlook.com"
     },
     "records": {
-        "CNAME": "amostafa-4xyn.github.io"
+        "CNAME": "amostafa-4xyn.github.io",
+        "TXT": "cisco-ci-domain-verification=663f272f57c323fb945a06ffa24e8b2c95e57d1a2112d382938dce5b7fa193e5"
     }
 }
