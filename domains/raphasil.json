@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "raphasil",
+    "email": "raphasil@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "lamar.ns.cloudflare.com",
+      "paris.ns.cloudflare.com"
+    ]
+  }
+}
