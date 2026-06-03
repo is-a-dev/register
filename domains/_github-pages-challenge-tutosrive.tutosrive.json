@@ -4,8 +4,6 @@
         "email": "tutosriveorg@gmail.com"
     },
     "records": {
-        "CNAME": "tutosrive.github.io"
-    },
-     "proxied": true
+        "TXT": "877ced95169025755a43ee273fea7b"
+    }
 }
-
