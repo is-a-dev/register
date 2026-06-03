@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "exyone-labs",
+    "email": "exyone.dev@icloud.com"
+  },
+  "records": {
+    "CNAME": "exyone-labs.github.io"
+  },
+  "proxied": true
+}

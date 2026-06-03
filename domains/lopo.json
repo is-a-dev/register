@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "lopo12123"
-    },
-    "records": {
-        "CNAME": "lopo12123.github.io"
-    }
+  "owner": {
+    "username": "lopo12123",
+    "email": "lopo@zju.edu.cn"
+  },
+  "records": {
+    "CNAME": "lopo12123.vercel.app"
+  }
 }

@@ -1,10 +1,9 @@
 {
-  "repo": "https://github.com/AshikCEH",
-  "owner": {
-    "username": "AshikCEH",
-    "email": "jinnsulthan@proton.me"
-  },
-  "records": {
-    "A": ["75.2.60.5"]
-  }
+	"owner": {
+		"username": "shahla-ain",
+		"email": "root0fia@gmail.com"
+	},
+	"records": {
+		"CNAME": "ashikmuhammed.netlify.app"
+	}
 }
