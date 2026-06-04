@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ganesh76",
-    "email": "ganesh.g.cse@gmail.com"
-  },
-  "records": {
-    "CNAME": "ganesh76.github.io"
-  }
+"owner": {
+"username": "NarayanapurapuGanesh",
+"email": "[ganesh.narayanapurapu@sasi.ac.in](mailto:ganesh.narayanapurapu@sasi.ac.in)"
+},
+"record": {
+"CNAME": "ganesh-vscode.netlify.app"
+}
 }
