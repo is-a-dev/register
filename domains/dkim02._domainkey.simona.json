@@ -4,7 +4,7 @@
         "email": "simona@simonafield.com"
     },
     "records": {
-        "CNAME": "dkim02._domainkey.simplelogin.co."
+        "CNAME": "dkim02._domainkey.simplelogin.co"
     },
     "proxied": false
 }
