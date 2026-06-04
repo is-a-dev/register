@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "obertydev-oss",
+        "email": "obertydev@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
+}
