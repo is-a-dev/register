@@ -1,0 +1,13 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "SGAAF - Fullstack Developer Portfolio",
+  "domain": "sgaaf",
+  "subdomain": "",
+  "owner": {
+    "username": "galang-1",
+    "email": "sahidgalangfatiqin@gmail.com"
+  },
+  "record": {
+    "CNAME": "sgaaf.vercel.app"
+  }
+}
