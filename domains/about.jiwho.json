@@ -1,0 +1,11 @@
+{
+  "description": "depart my portfolio (about-) from my main portfolio (jiwho.is-a.dev)",
+  "repo": "https://github.com/hiJiwho/M2U",
+  "owner": {
+    "username": "hiJiwho",
+    "email": "hi.jiwho@gmail.com"
+  },
+  "records": {
+    "CNAME": "about-jiwho.web.app"
+  }
+}

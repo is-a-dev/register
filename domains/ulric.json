@@ -1,11 +1,10 @@
 {
-  "owner": {
-    "username": "Ulricatayi",
-    "email": "atayiulric@gmail.com"
-  },
-  "records": {
-    "A": [
-      "216.198.79.1"
-    ]
-  }
+    "owner": {
+        "username": "ulricatayi",
+        "email": "atayiulric@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"],
+        "TXT" : ["google-site-verification=IVO9Ef_GULVMG8faHFeoS4xj0tpi7xgR3BEKAsLmGG0"]
+    }
 }
