@@ -1,0 +1,539 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Serpent Spawn — Studio. Games. Built in public.</title>
+<meta name="description" content="A build-in-public studio. I design & build websites for people, ship games made with Python, and document every step." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Hanken+Grotesk:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#07090d;
+    --bg-2:#0b0f17;
+    --panel:#10151e;
+    --panel-2:#131a25;
+    --line:#1d2632;
+    --line-2:#27323f;
+    --ink:#eaf6ee;
+    --muted:#8b98a6;
+    --muted-2:#5f6b78;
+    --green:#7cff9e;
+    --green-2:#21d07a;
+    --green-deep:#169e59;
+    --red:#ff5454;
+    --maxw:1180px;
+    --r:18px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Hanken Grotesk',sans-serif;
+    font-size:17px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  /* background atmosphere */
+  body::before{
+    content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+    background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+    background-size:54px 54px;
+    -webkit-mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 0%,transparent 75%);
+            mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 0%,transparent 75%);
+    opacity:.5;
+  }
+  body::after{
+    content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+    background:radial-gradient(600px 360px at 78% -4%,rgba(124,255,158,.16),transparent 60%);
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px;position:relative;z-index:2}
+  a{color:inherit;text-decoration:none}
+  .mono{font-family:'Space Mono',monospace}
+  .eyebrow{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--green-2)}
+  .display{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;line-height:.96;letter-spacing:-.02em}
+
+  /* NAV */
+  header{position:sticky;top:0;z-index:50;transition:background .3s,border-color .3s,backdrop-filter .3s;border-bottom:1px solid transparent}
+  header.scrolled{background:rgba(7,9,13,.72);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+  .brand{display:flex;align-items:center;gap:11px;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:-.01em;font-size:18px}
+  .brand svg{display:block}
+  .navlinks{display:flex;align-items:center;gap:30px}
+  .navlinks a{font-family:'Space Mono',monospace;font-size:13px;letter-spacing:.04em;color:var(--muted);transition:color .2s}
+  .navlinks a:hover{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:8px;font-family:'Space Mono',monospace;font-size:13px;font-weight:700;letter-spacing:.03em;padding:11px 18px;border-radius:999px;border:1px solid var(--line-2);color:var(--ink);transition:.2s;cursor:pointer;background:transparent}
+  .btn:hover{border-color:var(--green);color:var(--green)}
+  .btn-solid{background:var(--green);color:#04140a;border-color:var(--green)}
+  .btn-solid:hover{background:#9affb6;color:#04140a;border-color:#9affb6}
+  .menu-toggle{display:none;background:none;border:none;color:var(--ink);cursor:pointer;font-family:'Space Mono',monospace;font-size:13px}
+
+  /* HERO */
+  .hero{padding:72px 0 56px;position:relative}
+  .pill{display:inline-flex;align-items:center;gap:9px;font-family:'Space Mono',monospace;font-size:12.5px;color:var(--muted);border:1px solid var(--line);background:rgba(255,255,255,.02);padding:7px 14px;border-radius:999px;margin-bottom:30px}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(124,255,158,.6);animation:pulse 2.2s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(124,255,158,.5)}70%{box-shadow:0 0 0 9px rgba(124,255,158,0)}100%{box-shadow:0 0 0 0 rgba(124,255,158,0)}}
+  .hero h1{font-size:clamp(52px,11vw,128px);margin:6px 0 4px}
+  .hero h1 .gr{color:var(--green)}
+  .hero-sub{max-width:620px;color:var(--muted);font-size:clamp(17px,2.2vw,21px);margin-top:22px}
+  .hero-sub b{color:var(--ink);font-weight:600}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+  .hero .snek{position:absolute;right:-10px;top:40px;width:min(360px,38vw);opacity:.9;filter:drop-shadow(0 12px 40px rgba(124,255,158,.18))}
+  .reveal{opacity:0;transform:translateY(22px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+
+  /* MARQUEE */
+  .marquee{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(255,255,255,.015);overflow:hidden;white-space:nowrap;margin-top:46px}
+  .marquee-track{display:inline-flex;gap:0;animation:scroll 26s linear infinite;will-change:transform}
+  .marquee:hover .marquee-track{animation-play-state:paused}
+  .marquee span{font-family:'Space Mono',monospace;font-size:14px;letter-spacing:.05em;color:var(--muted);padding:16px 30px;text-transform:uppercase}
+  .marquee span i{color:var(--green-2);font-style:normal;margin-right:30px}
+  @keyframes scroll{to{transform:translateX(-50%)}}
+
+  /* SECTION shells */
+  section{position:relative;z-index:2}
+  .sec{padding:96px 0}
+  .sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:46px;flex-wrap:wrap}
+  .sec-head h2{font-size:clamp(32px,5vw,56px)}
+  .sec-head p{color:var(--muted);max-width:420px}
+
+  /* WHAT I DO */
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:30px 26px;transition:.25s}
+  .card:hover{border-color:var(--line-2);transform:translateY(-4px);background:var(--panel-2)}
+  .card .no{font-family:'Space Mono',monospace;color:var(--green-2);font-size:13px;letter-spacing:.1em}
+  .card h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:23px;margin:16px 0 10px;letter-spacing:-.01em}
+  .card p{color:var(--muted);font-size:15.5px}
+
+  /* SERVICES / CRAFT */
+  .craft{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+  .craft-col{padding:34px 30px;border-right:1px solid var(--line)}
+  .craft-col:last-child{border-right:none}
+  .craft-col h4{font-family:'Space Mono',monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:22px}
+  .craft-col ul{list-style:none}
+  .craft-col li{padding:11px 0;border-top:1px solid var(--line);color:var(--ink);font-size:15.5px;display:flex;gap:10px;align-items:baseline}
+  .craft-col li::before{content:"▹";color:var(--green-2);font-size:12px}
+
+  /* GAMES */
+  .games{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .game{position:relative;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--panel);transition:.25s;min-height:300px;display:flex;flex-direction:column}
+  .game:hover{border-color:var(--green);transform:translateY(-4px)}
+  .game-art{height:172px;display:flex;align-items:center;justify-content:center;background:
+     radial-gradient(120% 120% at 50% 0%,rgba(124,255,158,.12),transparent 60%),
+     repeating-linear-gradient(0deg,rgba(255,255,255,.03) 0 1px,transparent 1px 22px),
+     repeating-linear-gradient(90deg,rgba(255,255,255,.03) 0 1px,transparent 1px 22px),var(--bg-2);
+     border-bottom:1px solid var(--line)}
+  .game-body{padding:22px 22px 26px}
+  .tag{position:absolute;top:14px;right:14px;font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border-radius:999px;border:1px solid var(--line-2);background:rgba(7,9,13,.6);color:var(--muted)}
+  .tag.live{color:var(--green);border-color:rgba(124,255,158,.4)}
+  .game h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:21px;margin-bottom:8px}
+  .game p{color:var(--muted);font-size:14.5px}
+
+  /* PRICING */
+  .price-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .price{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:28px 24px;display:flex;flex-direction:column;transition:.25s}
+  .price:hover{border-color:var(--line-2);transform:translateY(-4px)}
+  .price.feature{border-color:rgba(124,255,158,.45);background:linear-gradient(180deg,rgba(124,255,158,.06),transparent 60%),var(--panel)}
+  .price h4{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:20px}
+  .price .amt{font-family:'Space Mono',monospace;color:var(--green);font-size:15px;margin:10px 0 18px}
+  .price .amt b{color:var(--ink);font-size:30px;font-weight:700}
+  .price ul{list-style:none;flex:1}
+  .price li{font-size:14px;color:var(--muted);padding:8px 0;border-top:1px solid var(--line);display:flex;gap:9px}
+  .price li::before{content:"✓";color:var(--green-2)}
+  .price .btn{margin-top:20px;justify-content:center}
+
+  /* LATEST / BUILD LOG */
+  .log{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .log a{display:block;border:1px solid var(--line);border-radius:var(--r);padding:26px 24px;background:var(--panel);transition:.25s}
+  .log a:hover{border-color:var(--green);background:var(--panel-2)}
+  .log .ep{font-family:'Space Mono',monospace;font-size:12px;color:var(--green-2);letter-spacing:.1em}
+  .log h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:19px;margin:12px 0 8px;letter-spacing:-.01em}
+  .log p{color:var(--muted);font-size:14px}
+
+  /* QUOTE */
+  .quote{border:1px solid var(--line);border-radius:var(--r);padding:54px 44px;text-align:center;background:
+     radial-gradient(120% 140% at 50% 0%,rgba(124,255,158,.06),transparent 55%),var(--panel)}
+  .quote blockquote{font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:clamp(22px,3.4vw,34px);line-height:1.25;letter-spacing:-.01em;max-width:820px;margin:0 auto}
+  .quote cite{display:block;margin-top:22px;font-family:'Space Mono',monospace;font-size:13px;color:var(--muted);font-style:normal;letter-spacing:.05em}
+
+  /* CONTACT */
+  .contact{text-align:center;padding:110px 0 90px}
+  .contact h2{font-size:clamp(40px,8vw,92px);margin-bottom:18px}
+  .contact p{color:var(--muted);max-width:520px;margin:0 auto 34px;font-size:19px}
+
+  /* FOOTER */
+  footer{border-top:1px solid var(--line);padding:40px 0;position:relative;z-index:2}
+  .foot{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;color:var(--muted-2);font-family:'Space Mono',monospace;font-size:12.5px}
+  .foot a{color:var(--muted)}
+  .foot a:hover{color:var(--green)}
+  .foot-links{display:flex;gap:22px}
+
+  /* reveal-on-scroll */
+  .ro{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+  .ro.in{opacity:1;transform:none}
+
+  @media(max-width:900px){
+    .grid3,.games,.log{grid-template-columns:1fr 1fr}
+    .price-grid{grid-template-columns:1fr 1fr}
+    .craft{grid-template-columns:1fr}
+    .craft-col{border-right:none;border-bottom:1px solid var(--line)}
+    .craft-col:last-child{border-bottom:none}
+    .hero .snek{display:none}
+  }
+  @media(max-width:640px){
+    .navlinks{display:none}
+    .menu-toggle{display:inline-block}
+    .navlinks.open{display:flex;position:absolute;top:74px;left:0;right:0;flex-direction:column;gap:0;background:rgba(7,9,13,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:10px 26px 20px}
+    .navlinks.open a{padding:14px 0;border-top:1px solid var(--line);width:100%}
+    .grid3,.games,.log,.price-grid{grid-template-columns:1fr}
+    .sec{padding:70px 0}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header id="hdr">
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#top" aria-label="Serpent Spawn home">
+        <!-- pixel snake mark -->
+        <svg width="34" height="24" viewBox="0 0 200 140" aria-hidden="true">
+          <circle cx="25" cy="25" r="14" fill="#ff5454"/>
+          <rect x="20" y="6" width="3" height="7" rx="1.5" fill="#2e7d32"/>
+          <rect x="46"  y="82" width="30" height="30" rx="7" fill="#169e59"/>
+          <rect x="82"  y="82" width="30" height="30" rx="7" fill="#1bb36a"/>
+          <rect x="118" y="82" width="30" height="30" rx="7" fill="#20c977"/>
+          <rect x="154" y="82" width="30" height="30" rx="7" fill="#25d981"/>
+          <rect x="154" y="46" width="30" height="30" rx="7" fill="#34e08c"/>
+          <rect x="154" y="10" width="30" height="30" rx="7" fill="#54e89b"/>
+          <rect x="118" y="10" width="30" height="30" rx="7" fill="#62ee9a"/>
+          <rect x="82"  y="10" width="30" height="30" rx="7" fill="#7cff9e"/>
+          <circle cx="90" cy="18" r="4" fill="#08120b"/>
+        </svg>
+        SERPENT&nbsp;SPAWN
+      </a>
+      <div class="navlinks" id="navlinks">
+        <a href="#services">Services</a>
+        <a href="#games">Games</a>
+        <a href="#log">Build Log</a>
+        <a href="#pricing">Pricing</a>
+        <a class="btn btn-solid" href="#contact">Hire me</a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">[ menu ]</button>
+    </nav>
+  </div>
+</header>
+
+<span id="top"></span>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <svg class="snek" viewBox="0 0 200 140" aria-hidden="true">
+      <circle cx="25" cy="25" r="14" fill="#ff5454"/>
+      <rect x="20" y="6" width="3" height="7" rx="1.5" fill="#2e7d32"/>
+      <rect x="46"  y="82" width="30" height="30" rx="7" fill="#169e59"/>
+      <rect x="82"  y="82" width="30" height="30" rx="7" fill="#1bb36a"/>
+      <rect x="118" y="82" width="30" height="30" rx="7" fill="#20c977"/>
+      <rect x="154" y="82" width="30" height="30" rx="7" fill="#25d981"/>
+      <rect x="154" y="46" width="30" height="30" rx="7" fill="#34e08c"/>
+      <rect x="154" y="10" width="30" height="30" rx="7" fill="#54e89b"/>
+      <rect x="118" y="10" width="30" height="30" rx="7" fill="#62ee9a"/>
+      <rect x="82"  y="10" width="30" height="30" rx="7" fill="#7cff9e"/>
+      <circle cx="90" cy="18" r="4" fill="#08120b"/>
+    </svg>
+
+    <div class="pill reveal" style="animation-delay:.05s"><span class="dot"></span> Building in public · Episode 10 is live</div>
+    <h1 class="display reveal" style="animation-delay:.12s">Build.<br><span class="gr">Play.</span> Ship.</h1>
+    <p class="hero-sub reveal" style="animation-delay:.2s">A one-person studio with an unfair advantage. I <b>design &amp; build websites</b> for people, ship <b>games made with Python</b>, and <b>document every step</b> in public — so you see exactly what you're getting before you ever pay.</p>
+    <div class="hero-cta reveal" style="animation-delay:.28s">
+      <a class="btn btn-solid" href="#contact">Work with me →</a>
+      <a class="btn" href="#games">See the games</a>
+    </div>
+  </div>
+
+  <!-- marquee -->
+  <div class="marquee reveal" style="animation-delay:.36s" aria-hidden="true">
+    <div class="marquee-track">
+      <span><i>◆</i>Web Design<i>◆</i>Landing Pages<i>◆</i>Python Games<i>◆</i>AI Automation<i>◆</i>Build-in-Public<i>◆</i>Prompt Systems<i>◆</i>Brand &amp; Logo<i>◆</i>Documentation<i>◆</i></span>
+      <span><i>◆</i>Web Design<i>◆</i>Landing Pages<i>◆</i>Python Games<i>◆</i>AI Automation<i>◆</i>Build-in-Public<i>◆</i>Prompt Systems<i>◆</i>Brand &amp; Logo<i>◆</i>Documentation<i>◆</i></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHAT I DO ============ -->
+<section class="sec" id="about">
+  <div class="wrap">
+    <div class="sec-head ro">
+      <h2 class="display">What I do</h2>
+      <p>One person, three crafts — kept simple, shipped fast, and shown openly.</p>
+    </div>
+    <div class="grid3">
+      <div class="card ro">
+        <span class="no">01</span>
+        <h3>Websites that ship</h3>
+        <p>Clean, fast, modern sites for founders, creators, and small businesses — designed and built end-to-end, live in days, not months.</p>
+      </div>
+      <div class="card ro" style="transition-delay:.08s">
+        <span class="no">02</span>
+        <h3>Games, built in public</h3>
+        <p>Original games made with Python and AI, released on the Google Play Store. You watch the whole build happen, episode by episode.</p>
+      </div>
+      <div class="card ro" style="transition-delay:.16s">
+        <span class="no">03</span>
+        <h3>AI-powered &amp; documented</h3>
+        <p>Everything is built with AI workflows and written up as I go. Repeatable systems you can hire — or learn from — not black-box magic.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES / CRAFT ============ -->
+<section class="sec" id="services" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head ro">
+      <h2 class="display">The craft</h2>
+      <p>The work I take on, split into three lanes. Mix and match.</p>
+    </div>
+    <div class="craft ro">
+      <div class="craft-col">
+        <h4>Web</h4>
+        <ul>
+          <li>Landing pages &amp; one-pagers</li>
+          <li>Full marketing websites</li>
+          <li>Portfolio &amp; creator sites</li>
+          <li>Redesigns &amp; refreshes</li>
+          <li>Hosting &amp; launch setup</li>
+        </ul>
+      </div>
+      <div class="craft-col">
+        <h4>Games</h4>
+        <ul>
+          <li>Python game development</li>
+          <li>Mobile (Android / Play Store)</li>
+          <li>Prototypes &amp; game design docs</li>
+          <li>Pixel art &amp; UI</li>
+          <li>Build-in-public collabs</li>
+        </ul>
+      </div>
+      <div class="craft-col">
+        <h4>AI &amp; Content</h4>
+        <ul>
+          <li>AI automation &amp; prompt systems</li>
+          <li>Content &amp; caption pipelines</li>
+          <li>Brand, logo &amp; identity</li>
+          <li>Tutorials &amp; documentation</li>
+          <li>Tool setup &amp; training</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GAMES ============ -->
+<section class="sec" id="games" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head ro">
+      <h2 class="display">The games</h2>
+      <p>Made with Python &amp; AI. Shipped to real app stores. Documented from line one.</p>
+    </div>
+    <div class="games">
+      <div class="game ro">
+        <span class="tag live">● In development</span>
+        <div class="game-art">
+          <svg width="150" height="105" viewBox="0 0 200 140" aria-hidden="true">
+            <circle cx="25" cy="25" r="14" fill="#ff5454"/>
+            <rect x="20" y="6" width="3" height="7" rx="1.5" fill="#2e7d32"/>
+            <rect x="46"  y="82" width="30" height="30" rx="7" fill="#169e59"/>
+            <rect x="82"  y="82" width="30" height="30" rx="7" fill="#1bb36a"/>
+            <rect x="118" y="82" width="30" height="30" rx="7" fill="#20c977"/>
+            <rect x="154" y="82" width="30" height="30" rx="7" fill="#25d981"/>
+            <rect x="154" y="46" width="30" height="30" rx="7" fill="#34e08c"/>
+            <rect x="154" y="10" width="30" height="30" rx="7" fill="#54e89b"/>
+            <rect x="118" y="10" width="30" height="30" rx="7" fill="#62ee9a"/>
+            <rect x="82"  y="10" width="30" height="30" rx="7" fill="#7cff9e"/>
+            <circle cx="90" cy="18" r="4" fill="#08120b"/>
+          </svg>
+        </div>
+        <div class="game-body">
+          <h3>Serpent <span style="color:var(--muted-2);font-weight:400">(working title)</span></h3>
+          <p>The flagship build. A fast, one-more-go arcade game made with Python — the exact project from the 20-episode series. Launching on Google Play.</p>
+        </div>
+      </div>
+
+      <div class="game ro" style="transition-delay:.08s">
+        <span class="tag">Coming soon</span>
+        <div class="game-art" style="opacity:.55"></div>
+        <div class="game-body">
+          <h3>Game #2</h3>
+          <p>Next up after launch. Decided live with the audience. Want a say in what gets built? Follow the build log.</p>
+        </div>
+      </div>
+
+      <div class="game ro" style="transition-delay:.16s">
+        <span class="tag">Your game?</span>
+        <div class="game-art" style="opacity:.55"></div>
+        <div class="game-body">
+          <h3>Built with you</h3>
+          <p>Have a game idea but no code? I take on small build-in-public collaborations. Pitch it on the contact form.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUOTE ============ -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="quote ro">
+      <blockquote>“I'd rather hire someone I've watched actually build something — in the open — than trust a polished pitch and a stock-photo portfolio.”</blockquote>
+      <cite>— the whole reason this studio is built in public</cite>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="sec" id="pricing" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head ro">
+      <h2 class="display">Pricing</h2>
+      <p>Simple, fixed starting points. No agency overhead. Final quote after a quick call.</p>
+    </div>
+    <div class="price-grid">
+      <div class="price ro">
+        <h4>Landing Page</h4>
+        <div class="amt">from <b>$450</b></div>
+        <ul>
+          <li>Single high-converting page</li>
+          <li>Mobile-first &amp; fast</li>
+          <li>Copy polish included</li>
+          <li>Live in ~3–5 days</li>
+        </ul>
+        <a class="btn" href="#contact">Start</a>
+      </div>
+      <div class="price feature ro" style="transition-delay:.06s">
+        <h4>Full Website</h4>
+        <div class="amt">from <b>$1,400</b></div>
+        <ul>
+          <li>Up to 5 pages</li>
+          <li>Custom design &amp; brand fit</li>
+          <li>Basic SEO &amp; analytics</li>
+          <li>Launch + handover</li>
+        </ul>
+        <a class="btn btn-solid" href="#contact">Most popular</a>
+      </div>
+      <div class="price ro" style="transition-delay:.12s">
+        <h4>Game / App Build</h4>
+        <div class="amt"><b>Custom</b></div>
+        <ul>
+          <li>Python game or small app</li>
+          <li>Design doc + prototype</li>
+          <li>Store-ready packaging</li>
+          <li>Scoped per project</li>
+        </ul>
+        <a class="btn" href="#contact">Pitch it</a>
+      </div>
+      <div class="price ro" style="transition-delay:.18s">
+        <h4>Monthly Care</h4>
+        <div class="amt">from <b>$120</b><span style="font-size:14px">/mo</span></div>
+        <ul>
+          <li>Edits &amp; updates</li>
+          <li>Hosting &amp; uptime checks</li>
+          <li>Small new sections</li>
+          <li>Cancel anytime</li>
+        </ul>
+        <a class="btn" href="#contact">Subscribe</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BUILD LOG / LATEST ============ -->
+<section class="sec" id="log" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head ro">
+      <h2 class="display">Build log</h2>
+      <p>The 20-episode series — every prompt, lesson, and mistake. Free to watch, free to steal.</p>
+    </div>
+    <div class="log">
+      <a class="ro" href="#contact">
+        <div class="ep">EP 01 · FOUNDATIONS</div>
+        <h3>I'm building a real app with AI in 20 videos</h3>
+        <p>The promise, the plan, and why this is built in public.</p>
+      </a>
+      <a class="ro" href="#contact" style="transition-delay:.08s">
+        <div class="ep">EP 03 · PROMPTING</div>
+        <h3>The 4-part prompt that beats 90% of people</h3>
+        <p>Role · Context · Task · Format — the brief that fixes bad AI.</p>
+      </a>
+      <a class="ro" href="#contact" style="transition-delay:.16s">
+        <div class="ep">EP 10 · THE BUILD</div>
+        <h3>I can't code, so I asked AI to teach me</h3>
+        <p>Day one of writing Python toward a real Play Store game.</p>
+      </a>
+    </div>
+    <p class="mono ro" style="margin-top:26px;color:var(--muted);font-size:14px">→ Full series on Instagram <a href="https://instagram.com/serpentspawn" style="color:var(--green)">@serpentspawn</a></p>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="eyebrow ro">Let's build something</div>
+    <h2 class="display ro">What are<br>you building?</h2>
+    <p class="ro">Websites, games, or something stranger. Tell me the idea — first reply usually within a day.</p>
+    <div class="ro" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+      <a class="btn btn-solid" href="mailto:hello@serpentspawn.dev?subject=Project%20enquiry">hello@serpentspawn.dev</a>
+      <a class="btn" href="https://instagram.com/serpentspawn">DM on Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>© <span id="yr"></span> Serpent Spawn · Built in public 🐍</div>
+      <div class="foot-links">
+        <a href="#services">Services</a>
+        <a href="#games">Games</a>
+        <a href="#pricing">Pricing</a>
+        <a href="https://instagram.com/serpentspawn">Instagram</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // year
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // sticky nav state
+  const hdr = document.getElementById('hdr');
+  const onScroll = () => hdr.classList.toggle('scrolled', window.scrollY > 12);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+
+  // mobile menu
+  const tgl = document.getElementById('menuToggle');
+  const links = document.getElementById('navlinks');
+  tgl.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    tgl.textContent = open ? '[ close ]' : '[ menu ]';
+  });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    links.classList.remove('open'); tgl.textContent = '[ menu ]';
+  }));
+
+  // reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  }, {threshold:.14});
+  document.querySelectorAll('.ro').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
