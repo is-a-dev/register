@@ -9,5 +9,6 @@
   },
   "record": {
     "CNAME": "sgaaf.vercel.app"
-  }
+  },
+  "proxied": false
 }
