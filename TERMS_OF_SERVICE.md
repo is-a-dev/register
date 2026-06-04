@@ -67,7 +67,7 @@ The use of AI for creating, designing, or modifying websites is acceptable as lo
 ## 6. Ownership and Intellectual Property
 is-a.dev retains all rights, title, and interest in the "is-a.dev" domain and associated systems.
 
-You retain ownership of any content you host on your subdomain. Your hosted content, however, must not infringe third-party rights.
+You retain ownership of any content you host on your subdomain. Your hosted content, however, must not infringe on third-party rights.
 
 You grant us permission to use your registration data to operate the service.
 
