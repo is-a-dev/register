@@ -1,0 +1,10 @@
+{
+  "description": "Link to my blog/personal website",
+  "owner": {
+    "username": "thl007",
+    "email": "thl7.de@gmail.com"
+  },
+  "records": {
+    "CNAME": "thl007.github.io"
+  }
+}

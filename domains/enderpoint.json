@@ -1,12 +1,10 @@
 {
-  "description": "EnderPoint's dev site",
-  "repo": "https://github.com/EnderPoint07/EnderPoint07.github.io",
   "owner": {
     "username": "EnderPoint07",
     "discord": "DotM38#5497",
     "instagram": "enderpoint07"
   },
-  "record": {
+  "records": {
     "CNAME": "enderpoint07.github.io"
   }
 }

@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "RyanBaig"
+    "username": "RyanBaig",
+    "discord": "757475933170040893"
   },
-  "record": {
+  "records": {
     "CNAME": "ryanthedev.vercel.app"
   }
 }

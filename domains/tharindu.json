@@ -1,11 +1,9 @@
 {
-  "description": "Tharindu's personal developer website",
-  "repo": "https://github.com/tharindusathis/tharindusathis.github.io",
   "owner": {
     "username": "tharindusathis",
     "email": "tharindu.sathis@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "tharindusathis.github.io"
   }
 }

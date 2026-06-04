@@ -1,11 +1,9 @@
 {
-  "repo": "https://github.com/professorSergioMarquina/professorSergioMarquina.github.io",
-  "owner": {
-    "username": "professorSergioMarquina",
-    "email": "mrjinnoftg@gmail.com"
-  },
-  "record": {
-    "CNAME": "professorsergiomarquina.github.io"
-  },
-  "proxied": true
+	"owner": {
+		"username": "shahla-ain",
+		"email": "root0fia@gmail.com"
+	},
+	"records": {
+		"CNAME": "ashikmuhammed.netlify.app"
+	}
 }

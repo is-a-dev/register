@@ -1,11 +1,9 @@
 {
-  "description": "My personal portofolio",
-  "repo": "https://github.com/axolotlextnd/axolotlextnd.github.io",
   "owner": {
     "username": "axolotlextnd",
     "discord": "Sandira#0781"
   },
-  "record": {
+  "records": {
     "CNAME": "axolotlextnd.github.io"
   }
 }

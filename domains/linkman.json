@@ -1,11 +1,9 @@
 {
-  "description": "Website to put information about my projects",
-  "repo": "https://github.com/linkman8912/website",
   "owner": {
     "username": "linkman8912",
     "email": "linkman8912@proton.me"
   },
-  "record": {
+  "records": {
     "CNAME": "website-1i7.pages.dev"
   }
 }

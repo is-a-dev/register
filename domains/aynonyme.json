@@ -1,11 +1,9 @@
 {
-  "description": "My Portfolio",
-  "repo": "https://github.com/AYn0nyme/ayn0nyme.github.io",
   "owner": {
     "username": "AYn0nyme",
     "email": "aynonyme@proton.me"
   },
-  "record": {
-    "A": ["69.30.249.53"]
+  "records": {
+    "CNAME": "ayn0nyme.github.io"
   }
 }

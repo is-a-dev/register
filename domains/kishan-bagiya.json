@@ -1,10 +1,8 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/kishan-bagiya/kishan-bagiya.github.io",
   "owner": {
     "username": "kishan-bagiya"
   },
-  "record": {
+  "records": {
     "CNAME": "kishan-bagiya.github.io"
   }
 }

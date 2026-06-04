@@ -1,12 +1,9 @@
 {
-  "description": "My Website",
-  "repo": "https://github.com/itzsouravkumar/itzsouravkumar.github.io",
-  "owner": {
-    "username": "itzsouravkumar",
-    "email": "",
-    "discord": "itz_sour4v"
-  },
-  "record": {
-    "CNAME": "itzsouravkumar.github.io"
-  }
+    "owner": {
+        "username": "sourav81R",
+        "email": "souravchowdhury0203@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

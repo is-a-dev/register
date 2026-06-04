@@ -4,7 +4,7 @@
     "email": "smartcoder@linuxmail.org",
     "discord": "694986201739952229"
   },
-  "record": {
+  "records": {
     "NS": ["ignacio.ns.cloudflare.com", "nicole.ns.cloudflare.com"]
   }
 }

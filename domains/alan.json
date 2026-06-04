@@ -1,11 +1,10 @@
 {
   "description": "Alan's personal developer website",
-  "repo": "https://github.com/schirrel",
   "owner": {
     "username": "schirrel",
     "email": "alan@schirrel.dev"
   },
-  "record": {
+  "records": {
     "URL": "https://schirrel.dev"
   }
 }

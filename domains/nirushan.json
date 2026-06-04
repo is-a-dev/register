@@ -1,12 +1,10 @@
 {
-  "description": "Personal Website --> nirushan.is-a.dev",
-  "repo": "https://github.com/nirushan1/nirushan1.github.io",
   "owner": {
     "username": "nirushan1",
     "email": "nirushan.prabaharan@gmail.com",
     "twitter": "tpnirushan"
   },
-  "record": {
+  "records": {
     "CNAME": "nirushan1.github.io"
   }
 }

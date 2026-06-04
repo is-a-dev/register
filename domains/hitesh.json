@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "hitesh-can-code",
-    "email": "hiteshofficalyt@gmail.com"
+    "username": "HiteshTheGreatest",
+    "email": "rehitesh27@gmail.com"
   },
-  "record": {
-    "CNAME": "hvlxh.pages.dev"
-  }
+  "records": {
+    "CNAME": "3d4a92a59bbb16b9.vercel-dns-017.com"
+  },
+  "proxied": false
 }

@@ -1,0 +1,10 @@
+{
+  "description": "Alexander's professional profile portfolio",
+  "owner": {
+    "username": "aalexlpez",
+    "email": "aalexlpez@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-alex-xi.vercel.app"
+  }
+}

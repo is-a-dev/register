@@ -1,10 +1,9 @@
 {
-  "description": "Domain for my portfolio website",
   "owner": {
     "username": "aeyika",
     "email": "aeyikastech@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=aeyika.is-a.dev,84418c102cd22e0a172c"]
+  "records": {
+    "TXT": "vc-domain-verify=aeyika.is-a.dev,84418c102cd22e0a172c"
   }
 }

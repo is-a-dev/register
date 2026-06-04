@@ -1,12 +1,10 @@
 {
-  "description": "Chang Liu's Personal Website",
-  "repo": "https://github.com/changbobbyliu/changbobbyliu.github.io",
   "owner": {
     "username": "changbobbyliu",
     "email": "changbobbyliu@gmail.com",
     "twitter": "changliuisadev"
   },
-  "record": {
+  "records": {
     "CNAME": "changbobbyliu.github.io"
   }
 }

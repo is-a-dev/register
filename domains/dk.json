@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "zurlyy",
-    "email": "d@zurly.me"
+    "username": "debkanchan",
+    "email": "debu.samadder@gmail.com"
   },
-  "record": {
-    "A": ["76.76.21.21"]
+  "records": {
+    "CNAME": "debkanchan.github.io"
   }
 }

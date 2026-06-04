@@ -3,9 +3,18 @@
     "username": "lungustefan",
     "email": "hi@lungustefan.ro",
     "discord": "753179409682399332",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.ZerVkVuk5RE7iT8ymXVcKhUkihyAdAbufacrfxq1u7NKQ4Hd0_PbY5FYDAR5uuVd-sCe7fOztiSKV7f9q1OI4HNGDqQxiaWqzom_lQsrIMW-gWUDsBG4Vo8gsq0wrw2th797i-JfsXy2crWaeXlX7X1kROV5KZhGwlSusnUrMp3jlN-uUM3b4hxUyEs3grbh4BiZ9CWShm-kLUs572OBpMigXh3aO0DcUl-BdYdlpSEdRQe8zwylJbFnetxG3qBaMcciGwImixY6V4qaqFwH18isGjDknsHB2WvXM8ekMZmSxgMyRtv1VRSbC22grzMeBazgWoj3x65KU3Z8C7KNmw.w-d8n6WalLAvFcWHqlRkcw.W7GJTwpNRB9pUehhfBXVlkOR1knSNSjvJWeDViV6u2h6AyBdwyaAyILEQzC5ishw0f209VgdyaCqocC7nJp_ZjWjAfcyw0ICLiUXM37Sn3Q.xQOo4RjPMh6dBbWiF1Polw"
+    "phone": "+40770618625",
+    "mobile": "+40756450998"
   },
-  "record": {
-    "NS": ["teagan.ns.cloudflare.com", "yevgen.ns.cloudflare.com"]
+  "records": {
+    "NS": ["teagan.ns.cloudflare.com", "yevgen.ns.cloudflare.com"],
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "D343444413CE8DA0B28E78421A25C7C54B5D6AD8121CC25F35E59BB213BC102D"
+      }
+    ]
   }
 }

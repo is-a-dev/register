@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "PizzaSpark",
+    "email": "seanpizzaspark@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}

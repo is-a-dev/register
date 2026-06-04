@@ -1,12 +1,10 @@
 {
-  "description": "For my projects.",
-  "repo": "https://github.com/lamps-dev/lamps-dev.github.io",
   "owner": {
     "username": "lamps-dev",
     "email": "ilovelampadaire@gmail.com",
     "twitter": "lampytofficial"
   },
-  "record": {
+  "records": {
     "CNAME": "lamps-dev.github.io"
   }
 }

@@ -1,14 +1,9 @@
 {
-    "description": "Personal Portfolio Website",
-    "repo": "https://github.com/ifayala",
     "owner": {
-        "username": "ifayala",
-        "email": "ivo@dailabs.io",
-        "discord": "lt_smash666"
+        "username": "ivopatty",
+        "email": "github@ivopatty.app"
     },
-    "record": {
-        "A": [
-            "34.16.212.81"
-        ]
+    "records": {
+        "CNAME": "ivopatty-nl.pages.dev"
     }
 }

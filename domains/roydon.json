@@ -1,11 +1,10 @@
 {
   "description": "URL forwarder",
-  "repo": "https://github.com/roydondsouza",
   "owner": {
     "username": "roydondsouza",
     "twitter": "roydondsouza"
   },
-  "record": {
+  "records": {
     "CNAME": "roydondsouza.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "portfolio website",
-  "repo": "https://github.com/codeRisshi25/codeRisshi25.github.io",
   "owner": {
     "username": "codeRisshi25",
     "email": "risshirajsen@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "coderisshi25.github.io"
   }
 }

@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "syedtahseen",
-    "email": ""
+    "username": "syedtahseen"
   },
-  "record": {
+  "records": {
     "CNAME": "arshman.vercel.app"
   }
 }

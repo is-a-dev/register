@@ -1,11 +1,9 @@
 {
-  "description": "bartoszm77.is-a.dev",
-  "repo": "https://github.com/b2rt0szm77/b2rt0szm77.github.io",
   "owner": {
     "username": "bartoszm77",
     "discord": "bartoszm77#3458"
   },
-  "record": {
+  "records": {
     "CNAME": "b2rt0szm77.github.io"
   }
 }

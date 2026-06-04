@@ -1,13 +1,11 @@
 {
-  "description": "Ankit Chaubey's GitHub page",
-  "repo": "https://github.com/ankit-chaubey/ankit-chaubey",
   "owner": {
     "username": "ankit-chaubey",
     "email": "m.ankitchaubey@gmail.com",
     "telegram": "ankit_chaubey",
     "github": "ankit-chaubey"
   },
-  "record": {
+  "records": {
     "CNAME": "ankit-chaubey.github.io"
   }
 }

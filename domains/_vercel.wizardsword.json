@@ -3,7 +3,7 @@
     "username": "MukuJhansi",
     "discord": "1115658967012626542"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=wizardsword.is-a.dev,bf203775c8ab97f0aa24"]
+  "records": {
+    "TXT": "vc-domain-verify=wizardsword.is-a.dev,bf203775c8ab97f0aa24"
   }
 }

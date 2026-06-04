@@ -1,0 +1,12 @@
+{
+  "description": "Just a personal portfolio wesite ",
+  "repo": "https://github.com/vaibhavingle2007/portfolio-web.git",
+  "owner": {
+    "username": "vaibhavingle2007",
+    "email": "vaibhavingleg@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-web-vaibhavingle2007s-projects.vercel.app"
+  },
+  "proxied": true
+}

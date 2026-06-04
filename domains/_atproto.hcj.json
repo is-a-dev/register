@@ -1,10 +1,9 @@
 {
-  "description": "domain verification for bluesky",
   "owner": {
-    "username": "TheHCJ",
+    "username": "thehcj",
     "bluesky": "did:plc:5f2c6awh4ffekm7srmi4d6zg"
   },
-  "record": {
-    "TXT": "did:plc:5f2c6awh4ffekm7srmi4d6zg"
+  "records": {
+    "TXT": "did=did:plc:5f2c6awh4ffekm7srmi4d6zg"
   }
 }

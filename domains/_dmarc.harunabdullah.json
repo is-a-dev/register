@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "harunabdullahrakin",
+    "email": "harunabdullahrakin@gmail.com"
+  },
+  
+  "records": {
+    "TXT": "v=DMARC1; p=none; rua=mailto:harunabdullahrakin@gmail.com; ruf=mailto:harunabdullahrakin@gmail.com; sp=none; adkim=r; aspf=r; pct=100"
+  }
+}

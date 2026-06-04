@@ -1,0 +1,9 @@
+{
+  "repo": "https://codeberg.org/mortifiedtux/pages",
+  "owner": {
+    "username": "mortifiedtux"
+  },
+  "records": {
+    "CNAME": "mortifiedtux.codeberg.page"
+  }
+}

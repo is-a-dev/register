@@ -1,11 +1,9 @@
 {
-  "description": "Oficial website for saturn project.",
-  "repo": "https://github.com/neopromic/saturn",
   "owner": {
     "username": "neopromic",
     "email": "cusaowesley1@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://saturn-project.vercel.app/"
   }
 }

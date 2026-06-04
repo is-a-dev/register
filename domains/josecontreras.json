@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "JoseContrerasP",
+    "email": "jose.contreras.p25@gmail.com"
+  },
+  "records": {
+    "A": ["3.209.15.88"]
+  },
+  "comment": "Personal portfolio of Jose Contreras deployed on AWS EC2"
+}
