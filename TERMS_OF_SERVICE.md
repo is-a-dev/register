@@ -3,7 +3,7 @@ Welcome to **is-a.dev** ("our", "us", "we"), a free subdomain service provided t
 
 For questions or concerns about these Terms, please contact us at admin@is-a.dev.
 
-**Last Updated**: 2nd June, 2026
+**Last Updated**: 4th June, 2026
 
 ## Definitions
 The following definitions apply within these Terms of Service:
