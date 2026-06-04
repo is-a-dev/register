@@ -1,0 +1,11 @@
+{
+    "description": "JanSetu - India Government Benefits Bridge",
+    "domain": "jansetu",
+    "subdomain": "",
+    "owner": {
+        "username": "Arun-21BEECE006"
+    },
+    "record": {
+        "CNAME": "jansetu-frontend-e79s.onrender.com"
+    }
+}
