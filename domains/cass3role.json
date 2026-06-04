@@ -1,0 +1,10 @@
+{
+  "description":"my personal website",
+  "owner": {
+    "username": "cass3role",
+    "email": "cassiesnow33@gmail.com"
+  },
+  "records": {
+    "NS": ["collins.ns.cloudflare.com","felipe.ns.cloudflare.com"]
+  }
+}
