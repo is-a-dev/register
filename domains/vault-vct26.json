@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "markwfong-hub",
+    "email": "markwfong@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "jade.ns.cloudflare.com",
+      "mcgrory.ns.cloudflare.com"
+    ]
+  }
+}
