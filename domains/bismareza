@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "bismareza81"
+  },
+  "records": {
+    "CNAME": "bismarezaisadev.vercel.app",
+    "TXT": [
+      "vc-domain-verify=bismareza.is-a.dev,a982fb010fc978ed8080"
+    ]
+  }
+}
