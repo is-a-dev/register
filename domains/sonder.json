@@ -2,7 +2,7 @@
   "owner": {
     "username": "Manav54321"
   },
-  "record": {
-    "CNAME": "sonder-ai-studio.vercel.app"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }
