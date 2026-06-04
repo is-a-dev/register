@@ -1,0 +1,11 @@
+{
+  "description": "DNS tunnel",
+  "domain": "bassan",
+  "owner": {
+    "username": "STICKnoLOGIC",
+    "email": "starerixson70@gmail.com"
+  },
+  "record": {
+    "NS": ["ns1.bassan.xubi.org"]
+  }
+}
