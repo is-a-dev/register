@@ -1,8 +1,9 @@
- {                                                                                                                 
+ {                                       
+    "description": "ECL/ALCPT English exam prep app",                                                               
     "owner": {                                                                                                      
-      "username": "Jessiechen27"                                                                                    
+      "username": "Jessiechen27"              
     },                                                                                                              
-    "record": {                                                                                                     
+    "record": {                                             
       "CNAME": "cname.vercel-dns.com"                                                                               
-    }                                                       
-  }         
+    }                                
+  }    
