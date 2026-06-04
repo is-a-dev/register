@@ -4,7 +4,6 @@
     "email": "m.amrit2004@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "_vercel": "vc-domain-verify=amritesh.is-a.dev,ed0a49689fd133b046f4"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
