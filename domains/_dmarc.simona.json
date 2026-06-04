@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "simonafield"
+        "username": "simonafield",
+        "email": "simona@simonafield.com"
     },
     "records": {
         "TXT": "v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s"
