@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "xy-ai123",
+        "email": "seexinyi@virtuals.io"
+    },
+    "description": "Nested subdomain under xy-ai123.is-a.dev — Cloudflare Tunnel to a personal admin dashboard (Next.js).",
+    "records": {
+        "CNAME": "11955c3c-497b-40e2-ac99-d2ef326d054e.cfargotunnel.com"
+    }
+}
