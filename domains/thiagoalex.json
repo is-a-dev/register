@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "thglex",
-        "email": "thiago.alex@live.com"
-    },
-    "record": {
-        "URL": "https://github.com/thglex"
-    }
+  "owner": {
+    "username": "thglex",
+    "email": "thiago.alex@live.com"
+  },
+  "record": {
+    "CNAME": "thglex.github.io"
+  }
 }
