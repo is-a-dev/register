@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Arankan05",
+    "email": "arankan2003@gmail.com"
+  },
+
+  "record": {
+    "TXT": "vc-domain-verify=arankan.is-a.dev,xxxxxxxx",
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
