@@ -9,6 +9,6 @@
             { "target": "mx1.improvmx.com", "priority": 10 },
             { "target": "mx2.improvmx.com", "priority": 20 }
         ],
-        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+        "TXT": "vc-domain-verify=arankan.is-a.dev,3f7f26cf80760986e7a2"
     }
 }
