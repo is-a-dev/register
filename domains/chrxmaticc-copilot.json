@@ -4,6 +4,7 @@
         "username": "Chrxmee-Bits",
         "email": "chrxmaticc@proton.me"
     },
+    "proxied": true,
     "records": {
         "CNAME": "chrxmaticc-copliot.vercel.app",
         "TXT": "dh=d2edf633cdfaf562bf48483971517f9796115357"
