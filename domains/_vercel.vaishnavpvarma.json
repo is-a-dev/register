@@ -1,9 +1,12 @@
 {
     "owner": {
         "username": "vaishnavpvarma",
-        "email": "[vaishnavpvarma@gmail.com]"
+        "email": "vaishnavpvarma@gmail.com"
     },
     "records": {
-        "TXT": "3b3320bee4cf6556.vercel-dns-017.com"
+        "TXT": [
+            "vc-domain-verify=vaishnavpvarma.is-a.dev,ac550c3ac7736c7f9157",
+            "vc-domain-verify=www.vaishnavpvarma.is-a.dev,7d58ea1afda3b44ccd22"
+        ]
     }
 }
