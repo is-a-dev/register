@@ -5,9 +5,6 @@
   },
   "description": "PC support network headquarters",
   "records": {
-    "NS": [
-      "keaton.ns.cloudflare.com",
-      "nataly.ns.cloudflare.com"
-    ]
+   "CNAME": ["cname.short.io"]
   }
 }
