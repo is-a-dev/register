@@ -1,0 +1,11 @@
+domain.json
+
+{
+    "owner": {
+        "username": "htetgi",
+        "email": "txawne@gmail.com"
+    },
+    "records": {
+        "CNAME": "me1.htet-vis.workers.dev"
+    }
+}
