@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "Muhammad-Hassan-100",
-    "email": "muhammadhaasan6@gmail.com"
+    "email": "muhammadhassan6@gmail.com"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
+  "record": {
+    "A": ["216.198.79.1"]
   }
 }
