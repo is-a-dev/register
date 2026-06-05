@@ -4,7 +4,8 @@
     "email": "pentsec.2@protonmail.com"
   },
   "records": {
-    "CNAME": "pentsec.github.io"
+    "CNAME": "pentsec.github.io",
+    "TXT": "zoho-verification=zb88781183.zmverify.zoho.com"
   },
   "redirect_config": {
     "custom_paths": {
