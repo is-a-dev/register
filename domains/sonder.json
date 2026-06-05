@@ -3,7 +3,6 @@
     "username": "Manav54321"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": ["vc-domain-verify=sonder.is-a.dev,644adc7c423488d069e0"]
+    "CNAME": "cname.vercel-dns.com"
   }
 }
