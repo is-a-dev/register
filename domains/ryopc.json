@@ -5,6 +5,6 @@
   },
   "description": "This domain will be used as the official URL shortener service for ryopc to create shortened links for our official contents, projects, and services.",
   "records": {
-   "CNAME": ["cname.short.io"]
+   "CNAME": "cname.short.io"
   }
 }
