@@ -1,9 +1,9 @@
 {
-"owner": {
-"username": "NarayanapurapuGanesh",
-"email": "[ganesh.narayanapurapu@sasi.ac.in](mailto:ganesh.narayanapurapu@sasi.ac.in)"
-},
-"record": {
-"CNAME": "ganesh-vscode.netlify.app"
-}
+  "owner": {
+    "username": "NarayanapurapuGanesh",
+    "email": "ganesh.narayanapurapu@sasi.ac.in"
+  },
+  "records": {
+    "CNAME": "ganesh-vscode.netlify.app"
+  }
 }
