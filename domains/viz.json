@@ -1,0 +1,11 @@
+domain.json
+
+{
+    "owner": {
+        "username": "your-github-username",
+        "email": "your-email@example.com"
+    },
+    "records": {
+        "CNAME": "your-sitename.pages.dev"
+    }
+}
