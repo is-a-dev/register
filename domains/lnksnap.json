@@ -3,7 +3,9 @@
     "username": "LinkSnap-dev",
     "email": "basrysalah24@icloud.com"
   },
-  "record": {
+  "description": "LinkSnap - URL shortener web app built with Python/Flask",
+  "repo": "https://github.com/LinkSnap-dev/linksnap",
+  "records": {
     "CNAME": "linksanap-url-shortener.hf.space"
   }
 }
