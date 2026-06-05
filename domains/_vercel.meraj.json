@@ -4,6 +4,9 @@
         "email": "merajman21@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=meraj.is-a.dev,9b368f84d7d81557b910"
+        "TXT": [
+            "vc-domain-verify=meraj.is-a.dev,a8e97a0184eed177db50",
+            "vc-domain-verify=www.meraj.is-a.dev,f608734a86d6ead55176"
+        ]
     }
 }
