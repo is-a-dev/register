@@ -4,7 +4,7 @@
     "email": "eyad.dodo123456789@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-3lv.pages.dev"
+    "A": ["75.2.60.5"]
   },
   "proxied": true
 }
