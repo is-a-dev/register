@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "Muhammad-Hassan-100",
-    "email": "muhammadhaasan6@gmail.com"
+    "email": "muhammadhassan6@gmail.com"
   },
-  "records": {
-    "TXT": "vc-domain-verify=muhammadhassan.is-a.dev,c47294b72b009d4e11"
+  "record": {
+    "TXT": "vc-domain-verify=muhammadhassan.is-a.dev,3b78cc80407d3850ef3"
   }
 }
