@@ -1,8 +1,10 @@
 {
     "owner": {
-        "username": "tlaus1"
+        "username": "tlaus1",
+        "email": "legendarygamer1902@gmail.com"
     },
+    "description": "Personal dashboard",
     "records": {
-        "CNAME": "tlaus1.github.io"
+        "CNAME": "tlaus1.github.io."
     }
 }
