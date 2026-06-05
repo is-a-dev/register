@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "rimehrab",
+    "email": "rimehrab@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9MZsFairVYmaGUoN8bNY0yKvX1P+9PuLeGWtwjXkP4BKS3zN5Kf+3NU8wxtdYAWVYO3prqfkjgbT/P5wVrTSKMQkqdDq1cePWtT2DVdHfH+/owqXCgBJPZF6y7jQlbfQ6MnpIt8pgNIhAJj9+dyniV0OtPRKyf6vv3ur8809q6QIDAQAB"
+  }
+}
