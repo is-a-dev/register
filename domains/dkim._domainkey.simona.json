@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "simonafield",
+        "email": "simona@simonafield.com"
+    },
+    "records": {
+        "CNAME": "dkim._domainkey.simplelogin.co"
+    },
+    "proxied": false
+}
