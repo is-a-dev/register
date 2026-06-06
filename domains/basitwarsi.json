@@ -4,6 +4,7 @@
         "email": "2024ucs0101@iitjammu.ac.in"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "cname.vercel-dns.com",
+        "TXT" : ["vc-domain-verify=basitwarsi.is-a.dev,779152a30e3810d42de0"]
     }
 }
