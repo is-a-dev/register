@@ -1,10 +1,9 @@
 {
-    "$schema": "../schema.json",
     "owner": {
         "username": "PTK-2411",
         "email": "Khoa.ark123456@gmail.com"
     },
-    "record": {
+    "records": {
         "NS": [
             "peaches.ns.cloudflare.com",
             "brad.ns.cloudflare.com"
