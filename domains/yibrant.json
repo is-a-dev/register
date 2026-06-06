@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "aster-king",
-    "email": "shikhartherock.bansal@gmail.com"
+    "email": "theasterking@gmail.com"
   },
   "records": {
-    "A": ["144.24.118.110"]
+    "A": [
+      "144.24.118.110"
+    ]
   }
 }
