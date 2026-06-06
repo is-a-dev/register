@@ -3,7 +3,9 @@
         "username": "gibsy",
         "email": "detdomovgleb@gmail.com"
     },
-    "record": {
-        "CNAME": "gibsy.github.io"
+    "records": {
+        "CNAME": [
+         "gibsy.github.io"
+      ]
     }
 }
