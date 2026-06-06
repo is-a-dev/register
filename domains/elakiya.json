@@ -5,9 +5,7 @@
   },
   "records": {
     "CNAME": "portfolio-hazel-seven-38.vercel.app",
-    "TXT": {
-      "_vercel": "vc-domain-verify=elakiya.is-a.dev,ae450a7342f57330c7f8"
-    }
+    "TXT": ["vc-domain-verify=elakiya.is-a.dev,ae450a7342f57330c7f8"]
   },
   "proxied": true
 }
