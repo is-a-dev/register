@@ -4,9 +4,6 @@
         "email": "Khoa.ark123456@gmail.com"
     },
     "records": {
-        "NS": [
-            "peaches.ns.cloudflare.com",
-            "brad.ns.cloudflare.com"
-        ]
+        "CNAME": "ptk-2411.github.io"
     }
 }
