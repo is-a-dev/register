@@ -2,7 +2,9 @@
   "owner": {
     "username": "carvalhojonathan"
   },
-  "record": {
-    "CNAME": "souq-455x.onrender.com"
+  "records": {
+    "CNAME": [
+      "souq-455x.onrender.com"
+    ]
   }
 }
