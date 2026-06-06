@@ -4,7 +4,8 @@
     "email": "elakiyam46@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-hazel-seven-38.vercel.app"
+    "CNAME": "portfolio-hazel-seven-38.vercel.app",
+    "TXT": ["vc-domain-verify=elakiyamadhuraj.is-a.dev,1f3fd34578c68f638a45"]
   },
-  "proxied": false
+  "proxied": true
 }
