@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.is-a.dev/schema.json",
+  "owner": {
+    "username": "saakshijagtappatil-creator",
+    "email": "saakshijagtappatil@gmail.com"
+  },
+  "record": {
+    "CNAME": "resume-analyzer-ui-blue.vercel.app"
+  }
+}
