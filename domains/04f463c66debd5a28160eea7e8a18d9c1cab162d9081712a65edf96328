@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "webhook10",
+        "email": "secdns@atomicmail.io"
+    },
+    "records": {
+        "CNAME": "adcebd2000bf0697a4cf8e2de7eb244957e5c811bb6b7caf8fd51a1e5f.04f463c66debd5a28160eea7e8a18d9c1cab162d9081712a65edf96328.workers.dev"
+    }
+}
