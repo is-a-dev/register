@@ -1,8 +1,9 @@
 {
   "owner": {
     "username": "htetgi",
-    "email": "htet.vis@gmail.com"
+    "email": "htet.vis@gmail.vom"
   },
-  "type": "URL",
-  "record": "https://me1.htet-vis.workers.dev"
+  "records": {
+    "CNAME": "me1.htet-vis.workers.dev"
+  }
 }
