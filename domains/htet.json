@@ -1,11 +1,10 @@
-domain.json
-
 {
     "owner": {
         "username": "htetgi",
         "email": "htet.vis@gmail.com"
     },
     "records": {
-        "CNAME": "me1.htet-vis.workers.dev"
-    }
+        "CNAME": "https://me1.htet-vis.workers.dev"
+    },
+    "proxied": true
 }
