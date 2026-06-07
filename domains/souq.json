@@ -3,8 +3,6 @@
     "username": "carvalhojonathan"
   },
   "records": {
-    "CNAME": [
-      "souq-455x.onrender.com"
-    ]
+    "CNAME": "souq-455x.onrender.com"
   }
 }
