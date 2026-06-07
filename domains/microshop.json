@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "yowazga"
+    "username": "YourGitHubUsername",
+    "email": "youneestigr@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["51.170.32.87"]
   }
 }
