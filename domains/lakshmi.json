@@ -1,0 +1,11 @@
+{
+    "description": "Lakshmi Anoop's web developer portfolio",
+    "repo": "https://github.com/lakshmianoopoff/simple-portfolio",
+    "owner": {
+        "username": "lakshmianoopoff",
+        "email": "your@email.com"
+    },
+    "record": {
+        "CNAME": "lakshmianoopoff.github.io"
+    }
+}
