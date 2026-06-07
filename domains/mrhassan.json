@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "etetoo2026", "email": "hassanaltop100@gmail.com" },
-  "records": { "A": ["216.198.79.1"] }
+    "owner": {
+        "username": "etetoo2026",
+        "email": "hassanaltop300@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
