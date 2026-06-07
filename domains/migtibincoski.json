@@ -1,0 +1,17 @@
+{
+    "owner": {
+        "username": "migtibincoski",
+        "email": "contato@migtibincoski.is-a.dev"
+    },
+    "proxied": true,
+    "records": {
+        "CNAME": "migtibincoski.github.io",
+        "MX": [
+            { "target": "mx01.zavexx.com.br", "priority": 5 },
+            { "target": "mx02.zavexx.com.br", "priority": 10 }
+        ],
+        "TXT": [
+            "v=spf1 include:spf01.zavexx.net.br ~all"
+        ]
+    }
+}

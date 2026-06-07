@@ -1,0 +1,10 @@
+{
+  "description": "Subdomain for my personal project",
+  "owner": {
+    "username": "dzvellox",
+    "email": "dzvellox@gmail.com"
+  },
+  "records": {
+    "CNAME": "dzvellox.github.io"
+  }
+}
