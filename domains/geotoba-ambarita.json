@@ -2,13 +2,13 @@
     "description": "GeoToba - Wisata Geologi Danau Toba",
     "domain": "is-a.dev",
     "subdomain": "geotoba-ambarita",
-    
+
     "owner": {
         "username": "samuelsitio26",
-        "email": "samueljanringsitio@gmail.com"
+        "email": "samueljannringsitio@gmail.com"
     },
-    
+
     "record": {
-        "AAAA": ["2a02:4780:59:f686::1"]
+        "A": ["72.62.127.198"]
     }
 }
