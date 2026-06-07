@@ -3,7 +3,7 @@
     "username": "LinkSnap-dev",
     "email": "basrysalah24@icloud.com"
   },
-  "description": "LinkSnap - URL shortener web app built with Python/Flask",
+  "description": "description": "LinkSnap - Open source URL shortener developer tool built with Python/Flask for managing, tracking and securing short links.",
   "repo": "https://github.com/LinkSnap-dev/linksnap",
   "records": {
     "CNAME": "linksanap-url-shortener.hf.space"
