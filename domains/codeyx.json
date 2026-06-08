@@ -1,10 +1,10 @@
 {
   "description": "Codeyx Developer Platform",
-  "repo": "https://github.com/LalitModi90/register",
+  "repo": "https://github.com/LalitModi90/codeyx-web",
   "owner": {
     "username": "LalitModi90"
   },
-  "record": {
+  "records": {
     "CNAME": "codeyx-web.vercel.app"
   }
 }
