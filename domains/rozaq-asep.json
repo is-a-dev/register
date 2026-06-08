@@ -3,18 +3,7 @@
     "username": "Rozaqasepp",
     "email": "rozaqasep149@gmail.com"
   },
-  "records": {
-    "CNAME": "Rozaqasepp.github.io",
-    "SRV": [
-      {
-        "service": "minecraft",
-        "proto": "tcp",
-        "name": "mc",
-        "priority": 0,
-        "weight": 5,
-        "port": 12345,
-        "target": "node-xyz.arm-mc.link"
-      }
-    ]
+  "record": {
+    "CNAME": "Rozaqasepp.github.io"
   }
 }
