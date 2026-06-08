@@ -5,6 +5,8 @@
     },
     "description": "My Personal Website",
     "records": {
-        "CNAME": "gibsy.github.io"
+        "CNAME": "gibsy.github.io",
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
     }
 }
