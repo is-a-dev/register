@@ -1,0 +1,11 @@
+{
+  "description": "Sexto Poder Bolivia - Periodismo independiente",
+  "repository": "https://github.com/sextopoderbolivia-lab/sextopoderbolivia",
+  "owner": {
+    "username": "sextopoderbolivia-lab",
+    "email": "sextopoderbolivia@gmail.com"
+  },
+  "record": {
+    "CNAME": "sextopoderbolivia-lab.github.io"
+  }
+}
