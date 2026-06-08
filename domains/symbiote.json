@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "symbiotecode",
+    "email": "symbiotecode@gmail.com"
+  },
+  "records": {
+    "CNAME": "symbiotecode.github.io"
+  },
+  "proxied": true
+}
