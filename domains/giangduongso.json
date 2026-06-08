@@ -2,10 +2,10 @@
     "description": "GDS AI Lecture Platform",
     "repo": "https://github.com/GiangDuongSoDUT2026/gds_backend",
     "owner": {
-        "username": "GiangDuongSoDUT2026",
+        "username": "Claira27",
         "email": "hongvyho123@gmail.com"
     },
     "record": {
-        "CNAME": "giangduongso.is-a.dev"
+        "A": ["34.80.56.242"]
     }
 }
