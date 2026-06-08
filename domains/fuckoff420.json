@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "mim615375-ux",
+    "email": "mim615375@gmail.com"
+  },
+  "record": {
+    "MX": [
+      {
+        "priority": 10,
+        "value": "mx1.forwardemail.net"
+      },
+      {
+        "priority": 20,
+        "value": "mx2.forwardemail.net"
+      }
+    ],
+    "TXT": ["forward-email=mim615375@gmail.com"]
+  }
+}
