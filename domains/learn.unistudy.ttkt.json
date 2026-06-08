@@ -4,6 +4,6 @@
     "email": "helpapp.bta@gmail.com"
   },
   "records": {
-    "A": "69.164.250.130"
+    "A": ["69.164.250.130"]
   }
 }
