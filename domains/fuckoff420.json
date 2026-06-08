@@ -10,7 +10,7 @@
         "value": "mx1.forwardemail.net"
       },
       {
-        "priority": 20,
+        "priority": 10,
         "value": "mx2.forwardemail.net"
       }
     ],
