@@ -4,7 +4,7 @@
         "email": "admin@doughmination.win"
     },
     "records": {
-        "CNAME": "doughmination.github.io",
+        "CNAME": "main.clove.is-a.dev.doughmination.doughmination.gay",
         "TXT": [ "protonmail-verification=0ea3e2b7040224635c84f1baa30c72b1a2770606", "v=spf1 include:_spf.protonmail.ch ~all"],
         "MX": [
             {
