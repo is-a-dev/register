@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
+  "description": "Free temporary email service — no registration needed",
+  "owner": {
+    "username": "orazbaevdnr",
+    "email": "orazbaev.dnr@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
