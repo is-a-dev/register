@@ -1,0 +1,11 @@
+{
+  "description": "Shopify inventory sync dashboard for internal warehouse management",
+  "repo": "https://github.com/wave8-maker/inventory",
+  "owner": {
+    "username": "wave8-maker",
+    "email": "ivyandmilesofficial@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname-china.vercel-dns.com"
+  }
+}
