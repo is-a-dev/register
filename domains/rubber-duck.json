@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "EducatedSuddenBucket",
+        "email": "[email protected]"
+    },
+    "records": {
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "A": ["75.2.60.5"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    }
+}
