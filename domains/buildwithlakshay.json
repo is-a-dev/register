@@ -1,0 +1,10 @@
+{
+    "description": "Personal portfolio and blog of Lakshay Garg, a full-stack developer.",
+    "owner": {
+        "username": "Lakshay-bit-png",
+        "email": "lakshaygargd@gmail.com"
+    },
+    "records": {
+        "CNAME": "lakshay-bit-png.github.io"
+    }
+}
