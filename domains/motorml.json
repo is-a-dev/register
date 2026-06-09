@@ -1,0 +1,14 @@
+{
+  "description": "MotorML vibration monitoring Pi dashboard",
+  "repo": "https://github.com/Atid7/encod",
+  "owner": {
+    "username": "Atid7",
+    "email": "nidhalwork1@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "art.ns.cloudflare.com",
+      "zara.ns.cloudflare.com"
+    ]
+  }
+}
