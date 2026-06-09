@@ -1,16 +1,22 @@
 {
-    "$schema": "../schema.json",
-    "description": "Configuration de sous-domaine pour GNOF",
-    "repo": "https://github.com/gnof-the-shark/gnof-the-shark.github.io",
-    "owner": {
-        "username": "gnof-the-shark",
-        "email": "christophewhite@outlook.com"
-    },
-    "record": {
-        "CNAME": "gnof-the-shark.github.io",
-        "MX": [
-            "mx1.improvmx.com.",
-            "mx2.improvmx.com."
-        ]
-    }
+  "description": "Configuration pour GitHub Pages et Email forwarding ImprovMX pour mon projet",
+  "owner": {
+    "username": "gnof-the-shark",
+    "email": "christophewhite14@gmail.com"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
 }
