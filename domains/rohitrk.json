@@ -1,15 +1,10 @@
 {
   "owner": {
-    "username": "rohitkumar893"
+    "username": "rohitkumar893",
+    "email": "rkrohitkumar893@gmail.com"
   },
   "records": {
     "A": ["216.198.79.1"],
-    "CNAME": {
-      "www": "26c9df7e1c481631.vercel-dns-017.com"
-    },
-    "TXT": {
-      "_vercel": "vc-domain-verify=rohitrk.is-a.dev,2de00be4bfdcad5ceab0",
-      "_vercel.www": "vc-domain-verify=www.rohitrk.is-a.dev,9b7c061622f4f1edba4a"
-    }
+    "TXT": "vc-domain-verify=rohitrk.is-a.dev,2de00be4bfdcad5ceab0"
   }
 }
