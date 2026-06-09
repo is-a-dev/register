@@ -3,5 +3,7 @@
     "username": "cibi-k",
     "email": "kcibiofficial@gmail.com"
   },
-  "record": "vc-domain-verify=cibik.is-a.dev,c23f18fd648aef6a26e3"
+  "records": {
+    "TXT": "vc-domain-verify=cibik.is-a.dev,c23f18fd648aef6a26e3"
+  }
 }
