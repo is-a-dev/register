@@ -5,12 +5,5 @@
   },
   "records": {
     "CNAME": "ssoyygf3.up.railway.app"
-  },
-  "nested": {
-    "_railway-verify": {
-      "records": {
-        "TXT": "railway-verify=772d02280a87470caed235205b883273610017b06de7de6282f978bdd1d404a4"
-      }
-    }
   }
 }
