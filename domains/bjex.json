@@ -1,1 +1,10 @@
-
+{
+  "description": "BJEX Custom Programming Language",
+  "repo": "https://github.com/MRBG18/BJEX-Custom-Programming-Language",
+  "owner": {
+    "username": "MRBG18"
+  },
+  "record": {
+    "CNAME": "bjex.whf.bz"
+  }
+}
