@@ -4,7 +4,6 @@
         "email": "shakerksa19@example.com"
     },
     "records": {
-        "CNAME": "project-rust-one-77.vercel.app",
-        "TXT": ["vc-domain-verify=shakerksa.is-a.dev,1a146aaeb9bbd5b55b65"]
+        "CNAME": "project-rust-one-77.vercel.app"
     }
 }
