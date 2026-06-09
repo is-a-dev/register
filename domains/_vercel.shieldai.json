@@ -4,6 +4,6 @@
     "email": "parthadutta8724@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=shieldai.is-a.dev,447b8a9884cdb2093181"
   }
 }
