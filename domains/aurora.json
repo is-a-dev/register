@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "Judah1604",
-    "email": "developwithaurora@gmail.com"
+    "username": "aloma6"
   },
   "records": {
-    "CNAME": "aurora1604.netlify.app"
+    "A": "216.24.57.1"
   }
 }
