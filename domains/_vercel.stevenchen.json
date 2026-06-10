@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Chen-Steve",
+    "email": "chensteven2077@example.com"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=stevenchen.is-a.dev,893f294e41d128a82f8f"]
+  }
+}
