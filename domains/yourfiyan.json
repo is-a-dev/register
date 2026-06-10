@@ -5,8 +5,12 @@
   },
   "records": {
     "CNAME": "yourfiyan.github.io",
+    "MX": [
+      "mail.dnsexit.com",
+      "mail2.dnsexit.com"
+    ],
     "TXT": [
-  "google-site-verification=Osw72MYr4ZOgV7xqjyvYzzBg4dLBiPM9GVdZ9DiS3Eo"
+      "google-site-verification=Osw72MYr4ZOgV7xqjyvYzzBg4dLBiPM9GVdZ9DiS3Eo"
     ]
   }
 }
