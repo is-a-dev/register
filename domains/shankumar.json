@@ -4,9 +4,6 @@
     "email": "Shankumarpitta714@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "CNAME": {
-      "blog": "hashnode.network"
-    }
+    "A": ["216.198.79.1"]
   }
 }
