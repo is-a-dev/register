@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "johnl177",
+        "email": "johnlee3530@gmail.com"
+    },
+    "records": {
+        "CNAME": "my-web-dap.pages.dev"
+    },
+    "proxied": true
+}

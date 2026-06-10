@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "gebrann",
+     "email": "notgibranreal@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCB3aJM5R5pnV0O3SmNQQa0CycOv8a8FDxqojwoP84bATeWUgsXRA7HEJ/J87od9mSvN5NxKAer4IsSTmzpGKr0jcWNjCgI/jE1t5aTg2UwA4LsBBw9fLG0iM4/qbO2TA2aLrymHENF0vNItfmvElUus4I2SHpod36KeK3+izaOjQIDAQAB"
+  }
+}
