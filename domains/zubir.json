@@ -4,12 +4,5 @@
   },
   "records": {
     "CNAME": "zubir2k.github.io"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://github.com/zubir2k",
-      "/tech": "https://zubir.tech"
-    },
-    "redirect_paths": true
   }
 }
