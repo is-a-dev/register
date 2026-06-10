@@ -1,1 +1,11 @@
-
+{
+  "description": "MJ Nayeem Portfolio Website",
+  "repo": "https://github.com/nayeem-sarker/portfolio-cms",
+  "owner": {
+    "username": "nayeem-sarker",
+    "email": "mjnayeemsarker@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
