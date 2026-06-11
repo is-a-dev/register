@@ -1,0 +1,12 @@
+{
+  "description": "Christopher Wong - Bangsar South Property Specialist",
+  "domain": "is-a.dev",
+  "subdomain": "christopherwong",
+  "owner": {
+    "username": "cwss1988",
+    "email": "cwsssystem@gmail.com"
+  },
+  "record": {
+    "A": ["187.77.142.211"]
+  }
+}
