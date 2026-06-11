@@ -1,0 +1,10 @@
+{
+  "domain": "_vercel.axogm.is-a.dev",
+  "owner": {
+    "username": "TheCreateGM",
+    "repo": "https://github.com/TheCreateGM/portfolio-page-v2"
+  },
+  "record": {
+    "TXT": ["vc-domain-verify=axogm.is-a.dev,49c88577ae439746eb27"]
+  }
+}
