@@ -1,0 +1,11 @@
+{
+  "description": "Stock portfolio management tool",
+  "repo": "https://github.com/luyi-neer/stock-portfolio",
+  "owner": {
+    "username": "luyi-neer",
+    "email": "luyi-neer@users.noreply.github.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
