@@ -1,7 +1,7 @@
 {
     "owner": {
         "username": "amauryguthmann-78",
-        "email": "267043578+amauryguthmann-78@users.noreply.github.com"
+        "email": "amaury@vulcain.io"
     },
     "records": {
         "TXT": ["v=spf1 include:amazonses.com ~all"],
