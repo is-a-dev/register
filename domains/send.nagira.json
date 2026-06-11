@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "amauryguthmann-78",
+        "email": "267043578+amauryguthmann-78@users.noreply.github.com"
+    },
+    "records": {
+        "TXT": ["v=spf1 include:amazonses.com ~all"],
+        "MX": [
+            { "target": "feedback-smtp.eu-west-1.amazonses.com", "priority": 10 }
+        ]
+    },
+    "proxied": false
+}
