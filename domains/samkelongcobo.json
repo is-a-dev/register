@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "SPNgcobo",
+    "email": "samkelop.dev@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "ns1.cloudflare.com",
+      "ns2.cloudflare.com",
+      "ns3.cloudflare.com",
+      "ns4.cloudflare.com"
+    ]
+  }
+}
