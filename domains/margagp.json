@@ -4,6 +4,6 @@
     "email": "margsmay23@gmail.com"
   },
   "records": {
-    "CNAME": "marga-pilapil-dev-page.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
