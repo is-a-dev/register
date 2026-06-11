@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "armanhossen-dev",
-        "email": "armn.dev@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "armanhossen-dev"
+  },
+  "records": {
+    "CNAME": "a83aa9e839b357bf.vercel-dns-017.com"
+  }
 }
