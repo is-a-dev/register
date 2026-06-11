@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "your-github-username",
+    "email": "dev.sandakelum@gmail.com"
+  },
+  "record": {
+    "CNAME": "sandakelum.vercel.app"
+  }
+}
