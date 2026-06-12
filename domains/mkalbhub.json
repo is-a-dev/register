@@ -1,11 +1,9 @@
 {
-  "description": "mkalbhub",
-  "repo": "https://github.com/OsmaniAndi/mkalbhub",
   "owner": {
     "username": "OsmaniAndi",
     "email": "andiosmani672@yahoo.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mkalbhub.andiosmani672.workers.dev"
   }
 }
