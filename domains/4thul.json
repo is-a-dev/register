@@ -1,0 +1,12 @@
+{
+  "description": "Personal cybersecurity portfolio",
+  "domain": "is-a.dev",
+  "subdomain": "4thul",
+  "owner": {
+    "repo": "https://github.com/4thul-505/4thul-505.github.io",
+    "email": "athuljos505@gmail.com"
+  },
+  "record": {
+    "CNAME": "4thul-505.github.io"
+  }
+}
