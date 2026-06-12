@@ -1,8 +1,8 @@
 {
-   2   "owner": {
-   3     "username": "Yahyadrame"
-   4   },
-   5   "records": {
-   6     "CNAME": "cname.vercel-dns.com"
-   7   }
-   8 }
+  "owner": {
+    "username": "Yahyadrame"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
