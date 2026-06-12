@@ -1,0 +1,11 @@
+{
+  "description": "mkalbhub",
+  "repo": "https://github.com/OsmaniAndi/mkalbhub",
+  "owner": {
+    "username": "OsmaniAndi",
+    "email": "your@email.com"
+  },
+  "record": {
+    "CNAME": "mkalbhub.andiosmani672.workers.dev"
+  }
+}
