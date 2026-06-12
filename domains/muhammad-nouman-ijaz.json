@@ -1,11 +1,11 @@
 {
-        "description": "Muhammad Nouman Ijaz - Personal Portfolio",
-        "repo": "https://github.com/noumanijaz",
-        "owner": {
-                  "username": "noumanijaz",
-                  "email": "noumanabbasi629@gmail.com"
-        },
-        "record": {
-                  "CNAME": "muhammad-nouman-ijaz.noumanabbasi629.workers.dev"
-        }
+          "description": "Muhammad Nouman Ijaz - Personal Portfolio",
+          "repo": "https://github.com/NoumanIjazz/Portfolio-site",
+          "owner": {
+                      "username": "NoumanIjazz",
+                      "email": "noumanabbasi629@gmail.com"
+          },
+          "record": {
+                      "CNAME": "muhammad-nouman-ijaz.noumanabbasi629.workers.dev"
+          }
 }
