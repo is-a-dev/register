@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "armanhossen-dev",
-        "email": "armn.dev@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=armanhossen.is-a.dev,4af0122315072a6570c5"
-    }
+  "owner": {
+    "username": "armanhossen-dev"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=www.armanhossen.is-a.dev,0f1573b476f876c52a25"
+  }
 }
