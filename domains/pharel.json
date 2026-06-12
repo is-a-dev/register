@@ -4,6 +4,6 @@
         "email": "lemboupharel@proton.me"
     },
     "records": {
-        "CNAME": "lemboupharel.github.io"
+        "A": ["216.198.79.1"]
     }
 }
