@@ -1,0 +1,11 @@
+{
+    "description": "Heitor's dev portfolio",
+    "domain": "is-a.dev",
+    "subdomain": "heitor",
+    "owner": {
+        "username": "sheltonheitor"
+    },
+    "record": {
+        "CNAME": "88684ed8-d098-4294-80a5-57cbec27d1f7.cfargotunnel.com"
+    }
+}
