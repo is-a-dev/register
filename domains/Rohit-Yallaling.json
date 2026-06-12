@@ -5,5 +5,7 @@ json{
   },
   "record": {
     "CNAME": "rohityallaling-devops.lovable.app"
+    "A": ["185.158.133.1"],
+    "TXT": ["lovable_verify=1e05a8173fdc6e8104d6422ce495bd6792663ab0845481dd8cbbc712caeac9e7"]
   }
 }
