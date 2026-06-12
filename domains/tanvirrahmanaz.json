@@ -7,7 +7,7 @@
     "repo": "https://github.com/tanvirrahmanaz/tanvir_rahman_portfolio_ML", 
     "proxied": true,
     "records": {
-        "CNAME": "cname.vercel-dns.com.",
-        "TXT": ["vc-domain-verify=tanvirrahmanaz.is-a.dev,afbd274e6256ef29dd2d"]
+        "A": ["216.198.79.1"],
+        "TXT": ["vc-domain-verify=tanvirrahmanaz.is-a.dev,0d829f2c3b5f64e1ead2"]
     }
 }
