@@ -1,9 +1,11 @@
 {
+  "name": "abdulla",
+  "description": "Professional Systems Portfolio",
   "owner": {
-    "username": "abuhuraira10000",
+    "username": "abuhuraira",
     "email": "abuhuraira10000@outlook.com"
   },
   "record": {
-    "CNAME": "abdullah10k.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
