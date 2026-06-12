@@ -4,7 +4,9 @@
     "email": "jabhcl@gmail.com"
   },
   "records": {
-    "CNAME": "professional-resume-46i.pages.dev"
-  },
-  "proxied": true
+    "NS": [
+      "alaric.ns.cloudflare.com",
+      "coraline.ns.cloudflare.com"
+    ]
+  }
 }
