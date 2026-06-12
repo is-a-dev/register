@@ -4,7 +4,6 @@
     "email": "rkrohitkumar893@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": "vc-domain-verify=rohitrk.is-a.dev,2de00be4bfdcad5ceab0"
+    "A": ["216.198.79.1"]
   }
 }
