@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "tanvirrahmanaz",
+        "email": "tanvirrahmanaz@gmail.com"
+    },
+    "records": {
+        "CNAME": "9615aace0e16a839.vercel-dns-017.com.",
+        "TXT": ["vc-domain-verify=www.tanvirrahmanaz.is-a.dev,afbd274e6256ef29dd2d"]
+    }
+}
