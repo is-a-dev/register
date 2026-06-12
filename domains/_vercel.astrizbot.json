@@ -4,6 +4,6 @@
     "email": "efrailinprogaming@gmail.com"
   },
   "record": {
-    "CNAME": "833a021b6a3e195c.vercel-dns-017.com."
+    "TXT": ["vc-domain-verify=astrizbot.is-a.dev,6d45abf6f2b805188f75"]
   }
 }
