@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
+    "owner": {
+        "username": "divyanshyadav",
+        "email": "divyanshyadav8302@gmail.com"
+    },
+    "record": {
+        "CNAME": "divyansh-tube.vercel.app"
+    }
+}
