@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "PsychedelicPalimpsest",
+        "email": "psychedelicpalimpsest@gmail.com"
+    },
+    "records": {
+        "NS": ["elliott.ns.cloudflare.com", "magnolia.ns.cloudflare.com"]
+    }
+}
