@@ -1,10 +1,8 @@
 {
   "owner": {
-    "username": "sudarsan007g",
-    "email": "sudarsangovindaraj8@gmail.com"
+    "username": "sudarsan007g"
   },
-  "records": {
-    "CNAME": "sudarsan007g.github.io"
-  },
-  "proxied": false
+  "record": {
+    "CNAME": "sudarsan-portfolio-blond.vercel.app"
+  }
 }
