@@ -4,7 +4,7 @@
     "email": "yasin@email.com"
   },
   "records": {
-    "CNAME": "2cbc50b2-5ece-4304-92a1-abd669ecf29d.cfargotunnel.com"
+    "A": ["103.31.233.193"]
   },
   "proxied": true
 }
