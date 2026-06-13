@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "vijay320",
-        "email" : "vpatel8853@gmail.com"
-    },
-    "records": {
-        "CNAME": "vijay320.github.io"
-    }
+  "owner": {
+    "username": "vijay-rodge",
+    "email": "rodgevijay1@gmail.com"
+  },
+  "records": {
+    "CNAME": "my-portfolio-gules-eight-61.vercel.app",
+    "TXT": "vc-domain-verify=vijay.is-a.dev,9c22ea23402c0bc2070e"
+  }
 }
