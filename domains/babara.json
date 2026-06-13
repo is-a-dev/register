@@ -1,10 +1,9 @@
-
 {
-  "owner": {
-    "username": "babara333",
-    "email": "rnuc333@gmail.com"
-  },
-  "record": {
-    "URL": "https://reads-pci-molecular-classes.trycloudflare.com"
-  }
+"owner": {
+"username": "babara333",
+"email": "[rnuc333@gmail.com](mailto:rnuc333@gmail.com)"
+},
+"records": {
+"URL": "https://reads-pci-molecular-classes.trycloudflare.com"
+}
 }
