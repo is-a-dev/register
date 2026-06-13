@@ -3,7 +3,8 @@
     "username": "pcsixer"
   },
   "description": "Immich via Cloudflare Tunnel",
-  "records": {
-    "CNAME": "4df9c5b9-ede1-4de7-9832-57867181f248.cfargotunnel.com"
+  "record": {
+    "CNAME": "4df9c5b9-ede1-4de7-9832-57867181f248.cfargotunnel.com",
+    "proxied": false
   }
 }
