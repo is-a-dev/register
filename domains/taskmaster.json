@@ -1,0 +1,12 @@
+{
+  "description": "Mi app en Railway",
+  "repo": "https://github.com/jotachepe/taskmaster",
+  "owner": {
+    "username": "jotachepe",
+    "email": "jaherrerap@gmail.com"
+  },
+  "record": {
+    "CNAME": "w1eyudwl.up.railway.app",
+    "TXT": ["railway-verify=c5324f9e312efaa223305a42251c5145f852efe3800f24ebeac6bc178ff51e68"]
+  }
+}
