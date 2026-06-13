@@ -4,6 +4,9 @@
     "email": "manduhone@gmail.com"
   },
   "records": {
-    "CNAME": "yourname.pages.dev"
+    "NS": [
+      "frank.ns.cloudflare.com",
+      "vera.ns.cloudflare.com"
+    ]
   }
 }
