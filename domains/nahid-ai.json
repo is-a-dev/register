@@ -1,0 +1,12 @@
+{
+    "description": "My AI Workspace",
+    "domain": "is-a.dev",
+    "subdomain": "nahid-ai",
+    "owner": {
+        "username": "NahidHossain0",
+        "email": "YOUR_EMAIL"
+    },
+    "record": {
+        "A": ["136.112.158.220"]
+    }
+}
