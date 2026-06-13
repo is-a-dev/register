@@ -5,6 +5,7 @@
         "discord": "michaelgyp"
     },
     "records": {
-        "CNAME": "michaelgyp.github.io"
+        "CNAME": "michaelgyp.github.io",
+        "A": ["216.198.79.1"]
     }
 }
