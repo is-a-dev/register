@@ -1,0 +1,9 @@
+json{
+  "owner": {
+    "username": "Brutalizer",
+    "email": "mark.kovalenko@gmail.com"
+  },
+  "record": {
+    "CNAME": "personal-os-4wog.vercel.app"
+  }
+}
