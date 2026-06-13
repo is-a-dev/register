@@ -1,11 +1,9 @@
 {
-    "owner": {
-        "username": "SAKURAFLY0910",
-        "email": "sakurafly.com@gmail.com"
-    },
-    "records": {
-        "NS": [
-            "is-a-dev.ns.cloudflare.com"
-        ]
-    }
+  "owner": {
+    "username": "SAKURAFLY0910",
+    "email": "sakurafly.com@gmail.com"
+  },
+  "record": {
+    "CNAME": "starter-blog-brown.vercel.app"
+  }
 }
