@@ -1,8 +1,9 @@
-{
     "owner": {
-        "username": "nazelizurna"
+        "username": "nazelizurna",
+        "email": "nazzzzeli@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "https://broader-code-609843.framer.app/"
     }
 }
+
