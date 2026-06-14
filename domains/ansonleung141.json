@@ -1,0 +1,11 @@
+{
+"description": "My personal AI assistant",
+"domain": "is-a.dev",
+"subdomain": "ansonleung141Projects",
+"owner": {
+"username": "ansonleung141"
+},
+"record": {
+"CNAME": "TUNNEL_ID.cfargotunnel.com"
+}
+}
