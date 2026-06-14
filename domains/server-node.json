@@ -4,6 +4,7 @@
         "email": "fajikusuma@gmail.com"
     },
     "records": {
-        "CNAME": "6ea52690-b0cf-46b9-8418-a435c773a052.cfargotunnel.com"
-    }
+        "CNAME": "proxmox-bridge.fajikusuma.workers.dev"
+    },
+    "proxied": true
 }
