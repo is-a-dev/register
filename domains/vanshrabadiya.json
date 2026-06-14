@@ -4,6 +4,9 @@
     "email": "vanshrabadiyav@gmail.com"
   },
   "records": {
-    "CNAME": "vansh-rabadiya-portfolio.pages.dev"
+    "NS": [
+      "alexandra.ns.cloudflare.com",
+      "osmar.ns.cloudflare.com"
+    ]
   }
 }
