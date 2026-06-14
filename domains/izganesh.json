@@ -4,6 +4,6 @@
     "email": "gshaw5458@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-green-beta-96.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
