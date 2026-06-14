@@ -3,7 +3,7 @@
         "username": "shayan-zaheer",
         "email": "abbaszaigham744@gmail.com"
     },
-    "record": {
+    "records": {
         "A": ["216.198.79.1"],
         "TXT": ["vc-domain-verify=shayan.is-a.dev,99e38283b3dc4adb14a7"]
     }
