@@ -2,7 +2,7 @@
     "owner": {
         "username": "senpai68"
     },
-    "record": {
-        "TXT": "vc-domain-verify=www.kde-bot.is-a.dev,2f0dbaf80b045371200b"
+    "records": {
+        "TXT": "vc-domain-verify=kde-bot.is-a.dev,59effb63adc01fa973f1"
     }
 }
