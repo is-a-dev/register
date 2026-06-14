@@ -1,5 +1,8 @@
 {
-  "owner": "KanakAcharya",
+  "owner": {
+    "username": "KanakAcharya",
+    "email": "kanak.acharya1995@gmail.com"
+  },
   "record": {
     "CNAME": "shikshasetoo.netlify.app"
   }
