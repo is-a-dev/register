@@ -1,7 +1,8 @@
 {
     "owner": {
         "username": "nebex",
-        "email": "[email protected]"
+        "email": "[email protected]",
+        "discord": "nebexx"
     },
     "records": {
         "CNAME": "nebex.github.io"
