@@ -1,0 +1,12 @@
+{
+    "description": "A 290 card game app",
+    "domain": "is-a.dev",
+    "subdomain": "290game",
+    "owner": {
+        "username": "mettles-09",
+        "email": "shivammittal0307200@gmail.com.com"
+    },
+    "record": {
+        "A": ["168.144.73.156"]
+    }
+}
