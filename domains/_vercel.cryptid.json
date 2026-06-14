@@ -4,7 +4,7 @@
     "email": "cryptid@thingai.xyz",
     "discord": "545305641212706819"
   },
-  "record": {
+  "records": {
     "TXT": "vc-domain-verify=cryptid.is-a.dev,c6c6b86d7991baca2498"
   }
 }

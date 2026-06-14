@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "Loapu",
-    "email": "benjamin@loapu.dev"
-  },
-  "record": {
-    "NS": ["algin.ns.cloudflare.com", "marge.ns.cloudflare.com"]
-  }
-}

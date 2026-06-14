@@ -3,7 +3,22 @@
     "username": "satindar31",
     "email": "satindar@satindar-is.me"
   },
-  "record": {
-    "URL": "https://satindar.is-a.dev"
+  "records": {
+    "URL": "https://satindar.is-a.dev",
+    "TXT": ["verification-code-site-App_lark=io7Ez9JWtTkiRZUnGsbl", "v=spf1 +include:spf.onlarksuite.com -all"],
+    "MX": [
+        {
+          "target": "mx1.larksuite.com",
+          "priority": 1
+        },
+        {
+          "target": "mx2.larksuite.com",
+          "priority": 5
+        },
+        {
+          "target": "mx3.larksuite.com",
+          "priority": 10
+        }
+      ]
   }
 }

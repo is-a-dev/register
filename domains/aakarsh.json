@@ -1,12 +1,10 @@
 {
-  "description": "My portfolio website",
-  "repo": "https://github.com/Aakarsh-Kumar/persnol",
   "owner": {
     "username": "Aakarsh-Kumar",
     "email": "aakarsh2504@gmail.com",
     "discord": "spyperx"
   },
-  "record": {
+  "records": {
     "A": ["216.24.57.1"]
   }
 }

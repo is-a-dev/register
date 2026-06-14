@@ -3,7 +3,7 @@
     "username": "handikatriarlan",
     "email": "handikaarlan@gmail.com"
   },
-  "record": {
-    "CNAME": "handikatriarlan.vercel.app"
+  "records": {
+    "CNAME": "handikatriarlan.dev"
   }
 }

@@ -4,7 +4,7 @@
     "email": "aryanm830@proton.me",
     "discord": "riftfiree"
   },
-  "record": {
-    "CNAME": "portxd.vercel.app"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

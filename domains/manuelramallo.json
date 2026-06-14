@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ManuelRamallo",
-        "email": "mramallodiaz96@gmail.com"
-    },
-    "record": {
-        "CNAME": "manuelramallo.github.io"
-    }
+  "owner": {
+    "username": "ManuelRamallo",
+    "email": "mramallodiaz96@gmail.com"
+  },
+  "records": {
+    "CNAME": "manuelramallo.github.io"
+  }
 }

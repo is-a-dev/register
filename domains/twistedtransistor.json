@@ -1,11 +1,9 @@
 {
-  "description": "My Portfolio website",
-  "repo": "https://github.com/mikeisfree/webzone404",
   "owner": {
     "username": "mikeisfree",
     "email": "mzaperty@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mikeisfree.github.io"
   }
 }

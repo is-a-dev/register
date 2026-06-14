@@ -1,10 +1,8 @@
 {
-  "description": "This is a website",
-  "repo": "https://github.com/pratikp-patel/pratikp-patel.github.io",
   "owner": {
     "username": "pratikp-patel"
   },
-  "record": {
+  "records": {
     "CNAME": "pratikp-patel.github.io"
   }
 }

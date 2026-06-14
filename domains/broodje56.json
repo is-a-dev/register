@@ -1,11 +1,9 @@
 {
-    "description": "Personal domain for website and email",
-    "repo": "https://github.com/Broodje565/broodje56",
     "owner": {
         "username": "Broodje565",
-        "email": "loic.vcamp@gmail.com"
+        "email": "broodje56@gmail.com"
     },
-    "record": {
-        "CNAME": "broodje565.github.io"
+    "records": {
+        "CNAME": "broodje565.pages.dev"
     }
 }

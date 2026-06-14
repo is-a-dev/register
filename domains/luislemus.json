@@ -3,7 +3,7 @@
     "username": "lemux-one",
     "email": "lemux.one@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "lemux-one.github.io"
   }
 }

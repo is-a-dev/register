@@ -3,10 +3,7 @@
     "username": "sreekanthputta",
     "email": "srikanthp12896@gmail.com"
   },
-  "record": {
-    "TXT": "google-site-verification=nXX-abxPPSr9hSqhiakyIHcXYGcuPpIBYVXtPnnxf00",
-    "A": [
-      "35.209.162.51"
-    ]
+  "records": {
+    "NS": ["aaron.ns.cloudflare.com", "brianna.ns.cloudflare.com"]
   }
 }

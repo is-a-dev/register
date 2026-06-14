@@ -3,7 +3,7 @@
     "username": "ken-kuro",
     "linkedin": "hieuhm2610"
   },
-  "record": {
-    "CNAME": "kuro-querencia.vercel.app"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

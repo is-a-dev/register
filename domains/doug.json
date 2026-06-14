@@ -1,11 +1,9 @@
 {
-  "description": "Personal website",
-  "repo": "https://github.com/drssoccer55/drssoccer55.github.io",
   "owner": {
     "username": "drssoccer55",
     "email": "sextondouglas@pm.me"
   },
-  "record": {
+  "records": {
     "CNAME": "drssoccer55.github.io"
   }
 }

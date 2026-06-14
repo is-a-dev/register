@@ -1,11 +1,9 @@
 {
-  "description": "Mostafa Efafi's is-a-dev domain",
-  "repo": "https://github.com/mostafa-efafi/intro",
   "owner": {
     "username": "mostafa-efafi",
     "email": "mostafa.ef@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mostafa-efafi.github.io"
   }
 }

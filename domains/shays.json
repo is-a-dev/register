@@ -1,11 +1,9 @@
 {
-  "description": "my folio site",
-  "repo": "https://github.com/SHays24/SHays24.github.io",
   "owner": {
     "username": "SHays24",
     "discord": "munchkin2309"
   },
-  "record": {
+  "records": {
     "CNAME": "shays24.github.io"
   }
 }

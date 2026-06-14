@@ -1,11 +1,9 @@
 {
-  "description": "Presentation website for peterbuga",
-  "repo": "https://github.com/peterbuga/peterbuga.github.io",
   "owner": {
     "username": "peterbuga",
     "discord": "902580031044325407"
   },
-  "record": {
+  "records": {
     "CNAME": "peterbuga.github.io"
   }
 }

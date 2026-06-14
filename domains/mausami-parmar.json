@@ -1,10 +1,8 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/mausami-parmar/mausami-parmar.github.io",
   "owner": {
     "username": "mausami-parmar"
   },
-  "record": {
+  "records": {
     "CNAME": "mausami-parmar.github.io"
   }
 }

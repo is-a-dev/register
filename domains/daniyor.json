@@ -1,11 +1,9 @@
 {
-  "description": "Daniyor's Portfolio",
-  "repo": "https://github.com/Daniyor2020/devdan",
   "owner": {
     "username": "Daniyor2020",
     "email": "dani.bolta87@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "daniyor2020.github.io"
   }
 }

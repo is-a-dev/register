@@ -1,11 +1,9 @@
 {
-  "description": "Amy's is-a-dev domain",
-  "repo": "https://github.com/nullishamy/nullishamy.github.io",
   "owner": {
     "username": "nullishamy",
     "email": "contact@amyerskine.me"
   },
-  "record": {
+  "records": {
     "CNAME": "nullishamy.github.io"
   }
 }

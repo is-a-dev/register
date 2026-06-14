@@ -1,11 +1,9 @@
 {
-  "description": "Senthil's personal tech blog and portfolio",
-  "repo": "https://github.com/gptechland/senthil-portfolio",
   "owner": {
     "username": "gptechland",
     "email": "skn.hills@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "gptechland.github.io"
   }
 }

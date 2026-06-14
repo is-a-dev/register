@@ -1,11 +1,9 @@
 {
-  "description": "Use to portfolio",
-  "repo": "https://github.com/chard33/portfolio.github.io",
   "owner": {
     "username": "chard33",
     "email": "jchar33@hotmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "chard33.github.io"
   }
 }

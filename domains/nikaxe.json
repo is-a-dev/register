@@ -1,11 +1,9 @@
 {
-  "description": "Place for me to share anything I make",
-  "repo": "https://github.com/Nikaxe-dev/nikaxe.dev",
   "owner": {
     "username": "Nikaxe-dev",
     "email": "iamnikaxing@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "nikaxe-dev.github.io"
   }
 }

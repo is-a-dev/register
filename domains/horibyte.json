@@ -1,11 +1,9 @@
 {
-  "description": "Horibyte's personal website",
-  "repo": "https://github.com/horibyte/horibyte.github.io",
   "owner": {
     "username": "horibyte",
     "email": "thehoribyte@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "horibyte.github.io"
   }
 }

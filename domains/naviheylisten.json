@@ -5,7 +5,7 @@
     "email": "heylistennavi@proton.me",
     "discord": "naviheylisten"
   },
-  "record": {
+  "records": {
     "NS": ["gloria.ns.cloudflare.com", "mustafa.ns.cloudflare.com"]
   }
 }

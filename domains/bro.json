@@ -1,11 +1,24 @@
 {
-  "description": "Portfolio Website",
-  "repo": "https://github.com/codevodka/Random-PDF",
   "owner": {
-    "username": "codevodka",
-    "email": "mafiurislam2022@gmail.com"
+    "username": "namandhakad712",
+    "email": "namandhakad712@gmail.com"
   },
-  "record": {
-    "CNAME": "codevodka.github.io"
-  }
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "MX": [
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 10
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "forward-email=namandhakad712+bro@gmail.com",
+      "v=spf1 include:_spf.google.com include:spf.forwardemail.net -all"
+    ]
+  },
+  "proxied": true
 }

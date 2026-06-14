@@ -3,8 +3,8 @@
     "username": "tak-gamingYT",
     "email": "tak@tak.io.vn"
   },
-  "record": {
-    "CNAME": "tak-gamingyt.github.io"
+  "records": {
+    "A": ["103.221.223.52"]
   },
   "proxied": true
 }

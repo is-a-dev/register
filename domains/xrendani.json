@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "xrendani"
-    },
-    "record": {
-        "CNAME": "xrendani.github.io"
-    }
+  "owner": {
+    "username": "xrendani"
+  },
+  "records": {
+    "CNAME": "xrendani.github.io"
+  }
 }

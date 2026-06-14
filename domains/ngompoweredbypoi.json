@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ngompoweredbypoi",
-        "discord": "ngompoweredbypoi"
-    },
-    "record": {
-        "CNAME": "ngompoweredbypoi.github.io"
-    }
+  "owner": {
+    "username": "ngompoweredbypoi",
+    "discord": "ngompoweredbypoi"
+  },
+  "records": {
+    "CNAME": "ngompoweredbypoi.github.io"
+  }
 }

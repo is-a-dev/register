@@ -1,12 +1,11 @@
-
 {
-    "description": "It is for my portfolio",
-    "repo": "https://github.com/alfonso12dev/portfolio",
-     "owner": {
-         "username": "alfonso12dev",
-         "email": "bmeza9407@gmail.com"
-     },
-    "record": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "hanjungwoo3",
+    "email": "jwhan@cafe24corpai.com"
+  },
+  "description": "Official demo for portfolio-web — open-source Korean stock portfolio tracker",
+  "repo": "https://github.com/hanjungwoo3/portfolio-web",
+  "records": {
+    "CNAME": "hanjungwoo3.github.io"
+  }
 }

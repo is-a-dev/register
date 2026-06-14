@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "ijasxyz",
-    "email": "ijas.n.ijas@gmail.com"
+    "x": "ijasxyz"
   },
-  "record": {
+  "records": {
     "CNAME": "ijas.netlify.app"
-  },
-  "proxied": false
+  }
 }

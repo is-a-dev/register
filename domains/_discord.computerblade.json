@@ -2,7 +2,7 @@
   "owner": {
     "username": "computerblade-official"
   },
-  "record": {
-    "TXT": ["dh=63f08ebbf48f55ad7c1a25b6f4d3f2a8504dfb89"]
+  "records": {
+    "TXT": "dh=63f08ebbf48f55ad7c1a25b6f4d3f2a8504dfb89"
   }
 }

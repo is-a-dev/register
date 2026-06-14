@@ -3,7 +3,7 @@
     "username": "SX-9",
     "email": "hello@mail.sx9.is-a.dev"
   },
-  "record": {
+  "records": {
     "CNAME": "sx-9.github.io"
   }
 }

@@ -1,12 +1,10 @@
 {
-  "description": "My personal portfolio",
-  "repo": "https://github.com/nCenti/portfolio",
   "owner": {
     "username": "nCenti",
     "email": "contactocenti@gmail.com",
     "twitter": "Centifn"
   },
-  "record": {
+  "records": {
     "CNAME": "ncenti.github.io"
   }
 }

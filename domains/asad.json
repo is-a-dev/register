@@ -1,11 +1,9 @@
 {
-  "description": "👋 Hello there! I'm Asad, nice to meet you. Building things that bring delight to users is what I enjoy, always learning new stuff everyday.",
-  "repo": "https://github.com/AsadRazaJutt1/asadrazajutt1.github.io",
   "owner": {
     "username": "AsadRazaJutt1",
     "email": "asadrazajutt1@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "asadrazajutt1.github.io"
   }
 }

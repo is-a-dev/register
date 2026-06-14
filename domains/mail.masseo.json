@@ -3,7 +3,7 @@
     "username": "matte-oss",
     "email": "7sz8jlw6h@mozmail.com"
   },
-  "record": {
+  "records": {
     "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
     "TXT": [
       "v=spf1 include:zohomail.eu ~all",

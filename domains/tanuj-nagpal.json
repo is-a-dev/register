@@ -1,11 +1,9 @@
 {
-    "description": "personal website",
-    "repo": "https://github.com/tanuj101/personal-web-space",
-    "owner": {
-        "username": "tanuj101",
-        "email": "tanujnagpal999@gmail.com"
-    },
-    "record": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "tanuj101",
+    "email": "tanujnagpal999@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }

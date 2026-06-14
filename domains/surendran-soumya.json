@@ -1,10 +1,8 @@
 {
-  "description": "surendran-soumya Profile.",
-  "repo": "https://github.com/surendran-soumya/surendran-soumya.github.io",
   "owner": {
     "username": "surendran-soumya"
   },
-  "record": {
+  "records": {
     "CNAME": "surendran-soumya.github.io"
   }
 }

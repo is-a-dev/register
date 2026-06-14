@@ -6,7 +6,10 @@
     "facebook": "STICKnoLOGIC",
     "bsky": "STICKnoLOGIC"
   },
-  "record": {
-    "NS": ["ns1.heliohost.org", "ns2.heliohost.org"]
+  "records": {
+    "NS": [
+      "clayton.ns.cloudflare.com",
+      "emely.ns.cloudflare.com"
+    ]
   }
 }

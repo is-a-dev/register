@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "aadltya"
+    "username": "aadltya",
+    "email": "adityaedu22@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=swami.is-a.dev,ebd6de23b5512663a728"]
+  "records": {
+    "TXT": "vc-domain-verify=swami.is-a.dev,ebd6de23b5512663a728"
   }
 }

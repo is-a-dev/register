@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio Webisite",
-  "repo": "https://github.com/vinitshah101/portfolio-website",
   "owner": {
     "username": "vinitshah101",
     "email": "vinitshahofficial@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "vinitshah101.github.io"
   }
 }

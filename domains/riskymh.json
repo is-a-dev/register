@@ -1,11 +1,9 @@
 {
-  "description": "Personal Website",
-  "repo": "https://github.com/RiskyMH/RiskyMH.github.io",
   "owner": {
     "username": "RiskyMH",
     "discord": "RiskyMH#0182"
   },
-  "record": {
+  "records": {
     "URL": "https://riskymh.github.io",
     "MX": ["rocky.smtp-in.mailway.app", "peter.smtp-in.mailway.app"]
   }

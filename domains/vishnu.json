@@ -1,11 +1,9 @@
 {
-  "description": "Vishnu's personal website",
-  "repo": "https://github.com/vishnu012/vishnu012.github.io",
   "owner": {
-    "username": "vishnu012",
-    "email": "vishnu012@pm.me"
+    "username": "juliussneezer04",
+    "email": "vishnu.sundaresan@gmail.com"
   },
-  "record": {
-    "CNAME": "vishnu012.github.io"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

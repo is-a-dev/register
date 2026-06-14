@@ -1,11 +1,9 @@
 {
-  "description": "Is a dev subdomain for rishabh",
-  "repo": "https://github.com/rishabhc/rishabhc.github.io",
   "owner": {
-    "username": "rishabhc",
-    "email": "me@rishabh.ch"
+    "username": "Rishabh870",
+    "email": "reaperscodes@gmail.com"
   },
-  "record": {
-    "CNAME": "rishabhc.github.io"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

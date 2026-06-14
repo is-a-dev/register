@@ -1,12 +1,10 @@
 {
-  "description": "Redirect to my personal website",
-  "repo": "https://github.com/thunder-coding/CodingThunder",
   "owner": {
     "username": "thunder-coding",
     "email": "yakshbari4@gmail.com",
     "discord": "codingthunder"
   },
-  "record": {
+  "records": {
     "URL": "https://thunders.website"
   },
   "redirect_config": {

@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio website of Sandun Madhushan",
-  "repo": "https://github.com/sandunMadhushan/sandunMadhushan.github.io",
   "owner": {
     "username": "sandunMadhushan",
     "email": "sandunhmadushan9330@gmail.com"
   },
-  "record": {
-    "CNAME": "sandunmadhushan.github.io"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "EducatedsuddenBucket",
+    "username": "EducatedSuddenBucket",
     "email": "educatedsuddenbucket@gmail.com"
   },
-  "record": {
+  "records": {
     "NS": ["dahlia.ns.cloudflare.com", "will.ns.cloudflare.com"]
   }
 }
