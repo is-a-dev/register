@@ -16,7 +16,7 @@
       }
     ],
     "TXT": [
-      "forward-email=namandhakad712+dev@gmail.com",
+      "forward-email=namandhakad712+bro@gmail.com",
       "v=spf1 include:_spf.google.com include:spf.forwardemail.net -all"
     ]
   },
