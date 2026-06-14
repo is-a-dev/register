@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "pcsixer",
+    "email": "pcsixer@gmail.com"
+  },
+  "description": "Personal Immich photo backup server running on Oracle Cloud via Cloudflare Tunnel",
+  "record": {
+    "CNAME": "4df9c5b9-ede1-4de7-9832-57867181f248.cfargotunnel.com",
+    "proxied": false
+  }
+}
