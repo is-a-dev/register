@@ -1,6 +1,10 @@
 {
-  "domain": "kde-bot.is-a.dev",
-  "record": {
-    "CNAME": "kde-bot.netlify.app"
-  }
+    "owner": {
+        "username": "your-github-username",
+        "email": "your-gmail@gmail.com"
+    },
+    "description": "My Personal Website",
+    "records": {
+        "A": ["___________"]
+    }
 }
