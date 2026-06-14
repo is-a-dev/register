@@ -1,0 +1,11 @@
+{
+  "description": "Case Master - Legal Office Management Platform",
+  "repo": "https://github.com/Morzak19/casemaster",
+  "owner": {
+    "username": "Morzak19",
+    "email": "osamanawar579@gmail.com"
+  },
+  "records": {
+    "CNAME": "casemaster.vercel.app"
+  }
+}
