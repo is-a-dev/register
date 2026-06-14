@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "GH0STP4WZ",
+    "email": "R3DGH0STP4WZ@protonmail.com"
+  },
+  "records": {
+    "TXT": ["v=DKIM1;k=rsa;t=s;s=email;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1Y91fg+AL+QfFxF0zNhjeStQlddYjT5Et68G5RikI8LrVWtI5YTFc21tRIndfwwlgLUWw6Mladz42+1TU6wLsgQgUuW0vcKWQ6fIewyYeAu0pxQScfUP+slOL1YqWgCA8eqvkDcpLnrlDjPsh/y6tYUN9bZfnyEGtHw+LCMD39c2VOyDxQUlqJ3WK38ym8LRSTOiDaha2ieJseVV8w4Ue08iUWCO6dFttUHnFa48TvZNc+GPfbU9w5enwOoGFiQCB/wgTKazXh0EUS2P33+kbFBAEaPRmwO+HErj1HlcTqcR37IoTcxAauc9OHkL7jACsY7EZikr0t3aR8AZ7acwuQIDAQAB"]
+  }
+}
