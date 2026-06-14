@@ -4,8 +4,6 @@
     "email": "koussemonaurel@gmail.com"
   },
   "records": {
-    "A": ["216.24.57.1"],
-    "CNAME": "project-webmedia.onrender.com"
-  },
-  "proxied": true
+    "A": ["216.24.57.1"]
+  }
 }
