@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "jd92-beep",
+    "email": "ftjdfr@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
