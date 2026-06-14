@@ -4,7 +4,6 @@
     "email": "muhammedegemengeyik@gmail.com"
   },
   "records": {
-    "A": ["130.61.94.141"]
-  },
-  "proxied": false
+    "TXT": "vc-domain-verify=geyik.is-a.dev,159d31fcbb5f3c928f32"
+  }
 }
