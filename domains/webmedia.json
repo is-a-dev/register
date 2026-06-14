@@ -6,5 +6,6 @@
   "records": {
     "A": ["216.24.57.1"],
     "CNAME": "project-webmedia.onrender.com"
-  }
+  },
+  "proxied": true
 }
