@@ -4,5 +4,6 @@
     },
     "records": {
         "CNAME": "c0ba.cdstudio.org"
-    }
+    },
+    "proxied": true
 }
