@@ -1,10 +1,10 @@
 {
     "owner": {
-        "username": "https://github.com/senpai68",
+        "username": "senpai68",
         "email": "kuakerpk@gmail.com"
     },
     "description": "My Personal Website",
-    "records": {
-        "A": ["___________"]
+    "record": {
+        "A": ["216.198.79.1"]
     }
 }
