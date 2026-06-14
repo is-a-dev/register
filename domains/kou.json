@@ -5,7 +5,12 @@
     "email": "poisonstone07@gmail.com"
   },
   "record": {
-    "CNAME": "kirizakuga.github.io",
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
     "MX": [
       "10 mx1.improvmx.com",
       "20 mx2.improvmx.com"
