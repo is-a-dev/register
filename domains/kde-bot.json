@@ -1,10 +1,10 @@
 {
     "owner": {
-        "username": "https://github.com/senpai68",
+        "username": "senpai68",
         "email": "kuakerpk@gmail.com"
     },
     "description": "My Personal Website",
-    "records": {
-        "A": ["___________"]
+    "record": {
+        "CNAME": "register-wheat-theta.vercel.app"
     }
 }
