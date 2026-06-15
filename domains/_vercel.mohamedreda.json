@@ -4,6 +4,9 @@
         "email": "mohamedreda.labwork@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=mohamedreda.is-a.dev,dcae574f675ed7cdf9a0"
+        "TXT": [
+            "vc-domain-verify=mohamedreda.is-a.dev,dcae574f675ed7cdf9a0",
+            "vc-domain-verify=www.mohamedreda.is-a.dev,2be07147057bea5cabe4"
+        ]
     }
 }
