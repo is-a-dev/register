@@ -1,1 +1,9 @@
-{"owner":{"username":"mel0way"},"record":{"CNAME":"mel0way.github.io"}}
+{
+  "owner": {
+    "username": "mel0way",
+    "email": "xingyuchen052@gmail.com"
+  },
+  "records": {
+    "CNAME": "mel0way.github.io"
+  }
+}
