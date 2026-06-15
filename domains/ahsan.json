@@ -1,8 +1,11 @@
 {
-    "owner": {
-        "username": "user-ahsan"
-    },
-    "records": {
-        "CNAME": "user-ahsan.github.io"
-    }
+  "description": "My personal portfolio",
+  "repo": "https://github.com/Muh4mmadA/subdomain",
+  "owner": {
+    "username": "Muh4mmadA",
+    "email": "muhammad14327m@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }

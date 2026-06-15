@@ -2,12 +2,12 @@
   "owner": {
     "username": "ShadowPlayzDev",
     "email": "shadowplayzdev@gmail.com",
-    "discord": ["shadowplayzdev", "ratonetrick"]
+    "discord": "shadowplayzdev"
   },
   "records": {
     "CNAME": "cname.vercel-dns.com",
     "MX": [ "mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all", "google-site-verification=TTKfxbXwxlXuMQEU_oJgQjreS3W0_xyv6jKKN9mFQ4g"]
   },
   "proxied": true
 }
