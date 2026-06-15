@@ -10,19 +10,14 @@
       "185.27.134.116"
     ],
     "MX": [
-      "mx1.improvmx.com.",
-      "mx2.improvmx.com."
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
     ],
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all"
-    ]
-  },
-  "nested": [
-    {
-      "name": "e6b0ae33b511d5ef9c9015fb7a6e110",
-      "records": {
-        "CNAME": "ns1.byet.org"
-      }
+    ],
+    "CNAME": {
+      "e6b0ae33b511d5ef9c9015fb7a6e110": "ns1.byet.org"
     }
-  ]
+  }
 }
