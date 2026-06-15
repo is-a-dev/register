@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "kimthu38",
-     "email": "kimthu38.nt@gmail.com"
+    "email": "kimthu38.nt@gmail.com"
   },
   "records": {
-    "CNAME": "20155e1a3861b9c9.vercel-dns-017.com.",
-    "TXT": "vc-domain-verify=www.kim.is-a.dev,8dff353cc311787067a8"
+    "CNAME": "20155e1a3861b9c9.vercel-dns-017.com."
   }
 }
