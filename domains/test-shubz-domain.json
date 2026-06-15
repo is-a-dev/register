@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "ShubhamSukum",
+    "email": "shubhamsukum@gmail.com"
+  },
+  "description": "Personal development server hosted through Cloudflare Tunnel",
+  "records": {
+    "CNAME": "297b9a1e-03d2-445a-b88f-85a8c0654d7c.cfargotunnel.com"
+  }
+}
