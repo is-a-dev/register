@@ -5,9 +5,8 @@
     "discord": "ihatenarox"
   },
   "records": {
-    "CNAME": "ihatenarox.github.io",
-    "TXT": [
-      "e68f51c9806d01cf17785f31389642"
+    "A": [
+      "72.56.24.160"
     ]
   }
 }
