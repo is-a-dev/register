@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema.json",
+  "owner": {
+    "username": "lijojosef",
+    "email": "lijojoseph234@gmail.com"
+  },
+  "record": {
+    "CNAME": "my-eng-blog.web.app"
+  }
+}
