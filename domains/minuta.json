@@ -1,9 +1,4 @@
 {
-  "owner": {
-    "username": "WanderAmaral",
-    "email": "wanderamaral013@gmail.com"
-  },
-  "record": {
-    "A": ["163.176.175.27"]
-  }
+  "owner": { "username": "WanderAmaral", "email": "wanderamaral013@gmail.com" },
+  "records": { "A": ["163.176.175.27"] }
 }
