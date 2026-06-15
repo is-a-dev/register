@@ -3,7 +3,7 @@
     "username": "bandibhargav12",
     "email": "bhargavchowdary1221@gmail.com"
   },
-  "records": {
-    "CNAME": "your-netlify-site.netlify.app"
+  "record": {
+    "CNAME": "https://bhargavchowdary.netlify.app/"
   }
 }
