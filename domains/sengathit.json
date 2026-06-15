@@ -4,6 +4,6 @@
         "email": "teamblackextra@gmail.com"
     },
     "records": {
-        "NS": ["henry.ns.cloudflare.com", "karsyn.ns.cloudflare.com"]
+        "CNAME": "porforlio-sengathit-bannavong.firebaseapp.com"
     }
 }
