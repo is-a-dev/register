@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "dabocraft"
-  },
-  "records": {
-    "CNAME": "dabocraft.github.io"
-  }
+    "owner": {
+        "username": "dabocraft",
+        "email": "reab9cvjp@mozmail.com"
+    },
+    "records": {
+        "CNAME": "dabocraft.github.io"
+    }
 }
