@@ -16,8 +16,9 @@
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all"
     ],
-    "CNAME": {
-      "e6b0ae33b511d5ef9c9015fb7a6e110": "ns1.byet.org"
-    }
+    "NS": [
+      "ns1.byet.org",
+      "ns2.byet.org"
+    ]
   }
 }
