@@ -15,10 +15,6 @@
     ],
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all"
-    ],
-    "NS": [
-      "ns1.byet.org",
-      "ns2.byet.org"
     ]
   }
 }
