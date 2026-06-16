@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "IDemonSan"
+  },
+  "record": {
+    "NS": [
+      "carol.ns.cloudflare.com",
+      "christian.ns.cloudflare.com"
+    ]
+  }
+}
