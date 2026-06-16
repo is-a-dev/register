@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "hcs1219",
+        "email": "hcskaiask@gmail.com"
+    },
+    "records": {
+        "TXT": "v=DMARC1; p=none; rua=mailto:hcskaiask@gmail.com; ruf=mailto:hcskaiask@gmail.com; sp=none; adkim=r; aspf=r; pct=100"
+    }
+}
