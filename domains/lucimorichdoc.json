@@ -1,0 +1,11 @@
+{
+  "description": "Personal website for lucimorichdoc",
+  "repo": "https://github.com/ppzdoco/lucimorichdoc.github.io",
+  "owner": {
+    "username": "ppzdoco",
+    "email": "ppzdockeer@outlook.com"
+  },
+  "record": {
+    "CNAME": "ppzdoco.github.io"
+  }
+}
