@@ -1,0 +1,25 @@
+{
+  "owner": {
+    "username": "nazama-tools"
+  },
+  "records": {
+    "A": [
+      "144.31.46.13"
+    ]
+  },
+  "subdomains": {
+    "play": {
+      "A": [
+        "144.31.46.13"
+      ],
+      "SRV": [
+        {
+          "priority": 0,
+          "weight": 5,
+          "port": 10957,
+          "target": "play.bintansmp.is-a.dev."
+        }
+      ]
+    }
+  }
+}
