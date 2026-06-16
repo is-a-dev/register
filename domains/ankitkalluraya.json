@@ -4,5 +4,6 @@
     },
     "records": {
         "CNAME": "kallurayaankit.github.io"
-    }
+    },
+    "proxied": false
 }
