@@ -3,6 +3,9 @@
         "username": "Folksawagen"
     },
     "record": {
-        "CNAME": "waradorn-resume-68598845892.us-west1.run.app"
+        "NS": [
+            "hank.ns.cloudflare.com",
+            "veronica.ns.cloudflare.com"
+        ]
     }
 }
