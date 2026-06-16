@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "filltheebeach",
+    "email": "admin@fillthee.is-a.dev"
+  },
+  "records": {
+    "CNAME": "mail.fillthee.is-a.dev."
+  },
+  "proxied": false
+}
