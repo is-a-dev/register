@@ -5,7 +5,7 @@
     "username": "SukumarDas23",
     "email": "stokiofficiall@gmail.com"
   },
-  "record": {
-    "A": "129.159.239.56"
+  "records": {
+    "A": ["129.159.239.56"]
   }
 }
