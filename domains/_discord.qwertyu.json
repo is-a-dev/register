@@ -3,6 +3,9 @@
     "username": "fvcified"
   },
   "records": {
-        "TXT": "dh=399c9b1fa1f4a429c32733d1ffd7ef2e37d2435a"
-  }
+        "TXT": [
+            "dh=399c9b1fa1f4a429c32733d1ffd7ef2e37d2435a",
+            "dh=f8def6caf0a275add73914952ce1ed500dc096db"
+        ]
+    }
 }
