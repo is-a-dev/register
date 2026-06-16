@@ -5,5 +5,8 @@
   },
   "record": {
     "CNAME": "cname.vercel-dns.com"
-  }
+  },
+  "description": "Monico Agent - Autonomous AI Agent Platform for Developers",
+  "repo": "https://github.com/jaykk99/monico-agent",
+  "proxied": false
 }
