@@ -1,0 +1,13 @@
+{
+  "$schema": "../schema.json",
+  "owner": {
+    "username": "Ajayi-Emmanuel",
+    "email": "emmanueltemitayo056@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "moura.ns.cloudflare.com",
+      "norah.ns.cloudflare.com"
+    ]
+  }
+}
