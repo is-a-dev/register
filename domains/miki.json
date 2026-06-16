@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "michaelgyp",
-        "email": "michaeladventure080510@gmail.com"
+        "email": "michaeladventure080510@gmail.com",
+        "discord": "michaelgyp"
     },
     "records": {
-        "CNAME": "michaelgyp.github.io"
+        "A": ["216.198.79.1"]
     }
 }
