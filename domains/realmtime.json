@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "danilkalox",
+    "email": "ovdanil525@gmail.com"
+  },
+  "record": {
+    "SRV": [
+      {
+        "priority": 10,
+        "weight": 5,
+        "port": 25039,
+        "target": "46.174.54.33.",
+        "service": "minecraft",
+        "protocol": "tcp"
+      }
+    ]
+  }
+}
