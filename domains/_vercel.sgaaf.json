@@ -4,10 +4,6 @@
     "email": "sahidgalangfatiqin@gmail.com"
   },
   "records": {
-    "CNAME": "67e6bf4f6876550a.vercel-dns-017.com",
-    "TXT": [
-      "vc-domain-verify=sgaaf.is-a.dev,ceb3d0f8233447db20e6",
-      "vc-domain-verify=www.sgaaf.is-a.dev,c978973d2855b5c4a70b"
-    ]
+    "CNAME": "67e6bf4f6876550a.vercel-dns-017.com"
   }
 }
