@@ -1,7 +1,7 @@
 {
   "owner": {
     "username": "filltheebeach",
-    "email": "admin@fillthee.is-a.dev"
+    "email": "fillthee@gmail.com"
   },
   "records": {
     "TXT": ["v=DMARC1; p=none; rua=mailto:postmaster@fillthee.is-a.dev"]
