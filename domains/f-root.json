@@ -4,7 +4,6 @@
     "email": "filbert10.work@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT" : "vc-domain-verify=f-root.is-a.dev,617a1003ae05d075fd9d"
+    "A": ["216.198.79.1"]
   }
 }
