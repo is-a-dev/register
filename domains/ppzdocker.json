@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "ppzdoc",
+    "email": "ppzdocker@hotmail.com"
+  },
+  "records": {
+    "CNAME": "ppzdocker.github.io"
+  },
+  "proxied": true
+}
