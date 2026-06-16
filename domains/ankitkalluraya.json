@@ -3,6 +3,7 @@
         "username": "kallurayaankit"
     },
     "records": {
-        "CNAME": "kallurayaankit.github.io"
+        "CNAME": "kallurayaankit.github.io",
+        "TXT": ["github-pages-verification-code"]
     }
 }
