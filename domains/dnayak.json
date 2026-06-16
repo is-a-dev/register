@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "darshannayak21"
+    "username": "darshannayak21",
+    "email": "ndarshan507@gmail.com"
   },
   "records": {
-    "CNAME": "dnayak.darshan-nayak1.workers.dev"
+    "CNAME": "dnayak.pages.dev"
   }
 }
