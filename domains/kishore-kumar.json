@@ -1,0 +1,12 @@
+```json
+{
+  "owner": {
+    "username": "kthelegend",
+    "email": "kthelegend.kumar@gmail.com"
+  },
+  "record": {
+    "CNAME": "kishore-kumar-proxy.kthelegend-kumar.workers.dev"
+  },
+  "proxied": true
+}
+```
