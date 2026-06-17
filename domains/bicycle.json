@@ -1,8 +1,14 @@
 {
   "owner": {
-    "username": "OleksandrYehorov"
+    "username": "OleksandrYehorov",
+    "email": "egorow.sasha@gmail.com"
   },
   "record": {
     "A": ["46.225.180.158"]
+  },
+  "subdomains": {
+    "*": {
+      "A": ["46.225.180.158"]
+    }
   }
 }
