@@ -1,9 +1,10 @@
 {
+  "description": "Developer portfolio - Flutter, Next.js, Cloudflare Workers",
   "owner": {
     "username": "anmol-maan-dev",
     "email": "anmol.maan.dev@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "anmol-maan-dev.github.io"
   }
 }
