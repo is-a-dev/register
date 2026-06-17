@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "am-abdulmueed",
-        "email": "am.abdulmueed5@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "am.abdulmueed",
+    "email": "am.abdulmueed5@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
