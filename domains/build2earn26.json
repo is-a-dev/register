@@ -1,0 +1,11 @@
+{
+  "description": "Build2Earn - Redirects to Pomelli landing page",
+  "repo": "https://github.com/build2earn26/build2earn",
+  "owner": {
+    "username": "build2earn26",
+    "email": "shivajsmjadi@gmail.com"
+  },
+  "record": {
+    "CNAME": "build2earn26.github.io"
+  }
+}
