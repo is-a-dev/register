@@ -4,7 +4,9 @@
     "email": "itsfirecat@proton.me"
   },
   "records": {
-    "A": "144.24.249.87"
+    "A": [
+      "144.24.249.87"
+    ]
   },
   "proxied": true
 }
