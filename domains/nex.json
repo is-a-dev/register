@@ -4,6 +4,9 @@
         "email": "nezerekunke@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "A": ["216.198.79.1"],
+        "TXT": {
+            "_vercel": "vc-domain-verify=nex.is-a.dev,abb05bf8a441779b27f0"
+        }
     }
 }
