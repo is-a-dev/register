@@ -4,7 +4,7 @@
     "email": "kadiju30.vukiqo14@murena.io"
   },
   "records": {
-    "TXT": ["v=DMARC1; p=none; rua=mailto:postmaster@fillthee.is-a.dev"]
+    "TXT": ["v=DMARC1; p=none; rua=mailto:kadiju30.vukiqo14@murena.io"]
   },
   "proxied": false
 }
