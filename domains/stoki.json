@@ -1,11 +1,1 @@
-{
-  "description": "Stoki — India Stock Intelligence Platform",
-  "repo": "https://github.com/SukumarDas23/Stokiv2",
-  "owner": {
-    "username": "SukumarDas23",
-    "email": "stokiofficiall@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
-}
+{"description":"Stoki — India-first real-time stock market intelligence platform. Public dashboard, no login required.","repo":"https://github.com/SukumarDas23/Stokiv2","owner":{"username":"SukumarDas23","email":"sukumardas1022000@gmail.com"},"record":{"CNAME":"cname.vercel-dns.com"}}
