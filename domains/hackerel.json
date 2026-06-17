@@ -1,0 +1,14 @@
+{
+  "description": "Personal development environment and hosting",
+  "repo": "https://github.com/yuva-kiran-18/register",
+  "owner": {
+    "username": "yuva-kiran-18",
+    "email": "yuvakirankumar7777@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "emely.ns.cloudflare.com",
+      "maciej.ns.cloudflare.com"
+    ]
+  }
+}
