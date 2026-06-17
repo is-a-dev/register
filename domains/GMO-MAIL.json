@@ -7,3 +7,7 @@
     "CNAME": "://vercel-dns.com"
   }
 }
+{
+    "TXT": ["vc-domain-verify=gmo-mail.is-a.dev,8fcde97286aa067ba841"]
+  }
+
