@@ -1,13 +1,15 @@
 {
-  "description": "Mon portfolio WordPress et routage courriels",
-  "repo": "https://github.com/gnof-the-shark/Blog",
+  "description": "Configuration pour GitHub Pages et Email forwarding ImprovMX pour mon projet",
   "owner": {
     "username": "gnof-the-shark",
     "email": "christophewhite14@gmail.com"
   },
   "records": {
     "A": [
-      "185.27.134.116"
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
     ],
     "MX": [
       "mx1.improvmx.com",
