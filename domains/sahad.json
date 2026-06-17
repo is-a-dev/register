@@ -1,0 +1,11 @@
+{
+  "description": "Dev-Sahad's is-a.dev domain - Software Development Portfolio",
+  "repo": "https://github.com/Dev-Sahad/register",
+  "owner": {
+    "username": "Dev-Sahad",
+    "email": "dev.sxhd@gmail.com"
+  },
+  "record": {
+    "CNAME": "portfolio-v1-eta-nine.vercel.app"
+  }
+}
