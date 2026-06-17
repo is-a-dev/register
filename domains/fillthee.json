@@ -1,11 +1,11 @@
 {
   "owner": {
     "username": "filltheebeach",
-    "email": "fillthee@gmail.com"
+    "email": "kadiju30.vukiqo14@murena.io"
   },
   "records": {
     "A": ["82.155.159.86"],
-    "MX": [{"priority": 10, "value": "mail.fillthee.is-a.dev."}],
+    "MX": [{ "target": "mail.fillthee.is-a.dev.", "priority": 10 }],
     "TXT": ["v=spf1 mx ~all"],
     "CAA": [{"flags": 0, "tag": "issue", "value": "letsencrypt.org"}]
   },
