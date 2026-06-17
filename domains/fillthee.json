@@ -5,7 +5,7 @@
   },
   "records": {
     "A": ["82.155.159.86"],
-    "MX": [{ "target": "mail.fillthee.is-a.dev.", "priority": 10 }],
+    "MX": [{ "target": "mail.fillthee.is-a.dev", "priority": 10 }],
     "TXT": ["v=spf1 mx ~all"],
     "CAA": [{"flags": 0, "tag": "issue", "value": "letsencrypt.org"}]
   },
