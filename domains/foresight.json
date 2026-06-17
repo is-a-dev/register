@@ -4,7 +4,13 @@
     "email": "alexgeming30@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=foresight.is-a.dev,c5a37e0c32a0f2306fbc"
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "subdomains": {
+    "_vercel": {
+      "records": {
+        "TXT": "vc-domain-verify=foresight.is-a.dev,c5a37e0c32a0f2306fbc"
+      }
+    }
   }
 }
