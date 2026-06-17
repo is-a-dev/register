@@ -4,6 +4,6 @@
         "email": "dev.sxhd@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=sahad.is-a.dev,434214a81a4d86e0eec7"]
+        "TXT": "vc-domain-verify=sahad.is-a.dev,434214a81a4d86e0eec7"
     }
 }
