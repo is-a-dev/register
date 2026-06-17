@@ -1,0 +1,11 @@
+{
+  "description": "Vercel hosted portfolio for Dev-Sahad - _vercel.sahad.is-a.dev subdomain",
+  "repo": "https://github.com/Dev-Sahad/register",
+  "owner": {
+    "username": "Dev-Sahad",
+    "email": "dev.sxhd@gmail.com"
+  },
+  "record": {
+    "CNAME": "shift2east-32bcdf208-vercel-cdns-0f7acorr"
+  }
+}
