@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "اكتب-اسم-حسابك-على-جيت-هوب",
+    "email": "بريدك-الإلكتروني@example.com"
+  },
+  "records": {
+    "CNAME": "://vercel-dns.com"
+  }
+}
