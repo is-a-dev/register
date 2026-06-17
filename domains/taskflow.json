@@ -1,0 +1,11 @@
+{
+  "description": "TaskFlow - Team Task Manager Application",
+  "repo": "https://github.com/Yash9Rajput/taskflow",
+  "owner": {
+    "username": "Yash9Rajput",
+    "email": "ry1555530@gmail.com"
+  },
+  "record": {
+    "CNAME": "taskflowteams.netlify.app"
+  }
+}
