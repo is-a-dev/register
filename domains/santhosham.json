@@ -3,7 +3,13 @@
     "username": "santhoshham",
     "email": "santhoshamdevv@gmail.com"
   },
-  "record": {
-    "CNAME": "santhosh-pied.vercel.app"
+  "records": {
+    "@": [
+      {
+        "type": "CNAME",
+        "value": "santhosh-pied.vercel.app",
+        "ttl": 3600
+      }
+    ]
   }
 }
