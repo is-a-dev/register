@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "ken-py",
+    "username": "ken-py-dev",
     "email": "nethriondev@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": "104.18.5.103"
   }
 }
