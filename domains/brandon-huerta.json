@@ -4,9 +4,6 @@
     "email": "brandonmikehuertaneyra@gmail.com"
   },
   "records": {
-    "NS": [
-      "carol.ns.cloudflare.com",
-      "christian.ns.cloudflare.com"
-    ]
+    "CNAME": "brandonhuerta-portfolio.vercel.app"
   }
 }
