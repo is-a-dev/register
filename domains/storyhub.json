@@ -1,11 +1,12 @@
 {
     "owner": {
         "username": "Bullkeystare12"
+        "email": "nk4736515@gmail.com"
     },
-    "record": {
-    "TXT": [
-      "vc-domain-verify=is-a.dev,6d84e255bcbe0a40295e"
-    ],
+     "records": {
+        "A": ["104.18.4.103"]
+    }
+}
     "CNAME": "cname.vercel-dns.com"
   }
 }
