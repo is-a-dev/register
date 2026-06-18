@@ -4,11 +4,6 @@
     "email": "santhoshamdevv@gmail.com"
   },
   "records": {
-    "CNAME": [
-      {
-        "value": "santhosh-pied.vercel.app",
-        "ttl": 3600
-      }
-    ]
+    "CNAME": "santhosh-pied.vercel.app"
   }
 }
