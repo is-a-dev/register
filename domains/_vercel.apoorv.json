@@ -4,6 +4,9 @@
     "email": "k.apoorvtiwari@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=apoorv.is-a.dev,8eebeaa47e2e34a69cf8"
+    "TXT": [
+      "vc-domain-verify=apoorv.is-a.dev,07292695afbde4c4b724",
+      "vc-domain-verify=www.apoorv.is-a.dev,617b56675b9299ed9a63"
+    ]
   }
 }
