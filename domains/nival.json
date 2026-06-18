@@ -4,12 +4,6 @@
         "email": "nicolasalbertov18@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com",
-        "TXT": [
-            {
-                "name": "_vercel",
-                "value": "vc-domain-verify=nival.is-a.dev,8eee1902df50848c5741"
-            }
-        ]
+        "TXT": "vc-domain-verify=nival.is-a.dev,8eee1902df50848c5741"
     }
 }
