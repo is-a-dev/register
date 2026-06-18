@@ -4,7 +4,7 @@
         "email": "freefireccxml@gmail.com"
     },
     "records": {
-        "A": ["3.88.166.68"]
+        "TXT": "vc-domain-verify=cf.mesbah-saxx.is-a.dev,ebed388b9c39d35c334f"
     },
     "proxied": true
 }
