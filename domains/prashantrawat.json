@@ -5,13 +5,5 @@
   },
   "record": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "proxied": false,
-  "nested": [
-    {
-      "name": "_vercel",
-      "type": "TXT",
-      "value": "vc-domain-verify=prashantrawat.is-a-dev"
-    }
-  ]
+  }
 }
