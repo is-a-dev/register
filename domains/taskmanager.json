@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "yashhiwale",
+    "email": "hiwaleyash284@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
