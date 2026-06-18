@@ -4,7 +4,12 @@
     "email": "yourfiyan@proton.me"
   },
   "records": {
-    "CNAME": "yourfiyan.github.io",
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
     "MX": [
       {
         "target": "mail.dnsexit.com",
@@ -15,6 +20,8 @@
         "priority": 20
       }
     ],
-    "TXT": "google-site-verification=Osw72MYr4ZOgV7xqjyvYzzBg4dLBiPM9GVdZ9DiS3Eo"
+    "TXT": [
+      "google-site-verification=Osw72MYr4ZOgV7xqjyvYzzBg4dLBiPM9GVdZ9DiS3Eo"
+    ]
   }
 }
