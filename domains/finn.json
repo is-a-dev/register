@@ -4,6 +4,6 @@
         "email": "voidxontol@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "A": ["216.198.79.1"], 
+        "TXT": [zoho-verification=zb37183001.zmverify.zoho.com]
     }
-}
