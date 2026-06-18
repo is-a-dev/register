@@ -4,6 +4,6 @@
     "email": "nethriondev@gmail.com"
   },
   "records": {
-    "A": "104.18.5.103"
+    "A": ["104.18.5.103"]
   }
 }
