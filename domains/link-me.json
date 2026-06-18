@@ -1,0 +1,11 @@
+{
+  "description": "Link-Me Creator Platform",
+  "repo": "https://github.com/nilanonline22-beep/register",
+  "owner": {
+    "username": "nilanonline22-beep",
+    "email": "nilanonline22@gmail.com"
+  },
+  "record": {
+    "CNAME": "link-mebio.netlify.app"
+  }
+}
