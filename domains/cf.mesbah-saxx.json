@@ -1,19 +1,10 @@
 {
-  "owner": {
-    "username": "MBBXMESBAH",
-    "email": "freefireccxml@gmail.com"
-  },
-  "records": [
-    {
-      "type": "CNAME",
-      "name": "cf",
-      "value": "ffaf783cc10e4147.vercel-dns-017.com"
+    "owner": {
+        "username": "MBBXMESBAH",
+        "email": "freefireccxml@gmail.com"
     },
-    {
-      "type": "TXT",
-      "name": "_vercel",
-      "value": "vc-domain-verify=cf.mesbah-saxx.is-a.dev,ebed388b9c39d35c334f"
-    }
-  ],
-  "proxied": true
+    "records": {
+        "A": ["76.76.21.21"]
+    },
+    "proxied": true
 }
