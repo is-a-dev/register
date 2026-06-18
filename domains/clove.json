@@ -1,0 +1,21 @@
+{
+    "owner": {
+        "username": "doughmination",
+        "email": "admin@doughmination.win"
+    },
+    "records": {
+        "A": ["213.210.34.143"],
+        "AAAA": ["2a0f:9400:6906:1977::143"],
+        "TXT": [ "protonmail-verification=0ea3e2b7040224635c84f1baa30c72b1a2770606", "v=spf1 include:_spf.protonmail.ch ~all", "main.clove-is-a-dev.doughmination.pages.gay"],
+        "MX": [
+            {
+                "target": "mail.protonmail.ch",
+                "priority": 10
+            },
+            {
+                "target": "mailsec.protonmail.ch",
+                "priority": 20
+            }
+        ]
+    }
+}

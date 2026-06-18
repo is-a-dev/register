@@ -3,6 +3,6 @@
     "username": "Thebigone221"
   },
   "records": {
-    "CNAME": "mon-portfolio-pi-five.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
