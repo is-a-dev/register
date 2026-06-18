@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "hatmantrv-netizen",
+    "email": "hatmantrv@gmail.com@email.com"
+  },
+  "records": {
+    "CNAME": "nostar.netlify.app"
+  }
+}
