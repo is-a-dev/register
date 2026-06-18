@@ -1,11 +1,14 @@
 {
-  "description": "Email for gnof.",
+  "description": "Mon portfolio WordPress et routage courriels",
   "repo": "https://github.com/gnof-the-shark/Blog",
   "owner": {
     "username": "gnof-the-shark",
     "email": "christophewhite14@gmail.com"
   },
   "records": {
+    "A": [
+      "185.27.134.116"
+    ],
     "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"

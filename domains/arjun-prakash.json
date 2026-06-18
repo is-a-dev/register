@@ -4,6 +4,6 @@
     "email": "apkarjundeveloper@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-seven-mu-30.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
