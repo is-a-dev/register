@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "JulioMelo259"
+    "username": "JulioMelo259",
+    "email": "juliomeloreidelas@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "juliostravino.netlify.app"
   }
 }
