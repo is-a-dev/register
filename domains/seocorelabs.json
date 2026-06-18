@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "dominac",
+    "email": "mxcoda@protonmail.com"
+  },
+  "records": {
+    "MX": [
+      { "target": "://improvmx.com.", "priority": 10 },
+      { "target": "://improvmx.com.", "priority": 20 }
+    ],
+    "TXT": [
+      "v=spf1 include:://improvmx.com ~all"
+    ]
+  }
+}
