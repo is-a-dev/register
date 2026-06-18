@@ -2,7 +2,7 @@
   "owner": {
     "username": "malcolmkhong"
   },
-  "record": {
+  "records": {
     "CNAME": "b1e796dac63f3d32.vercel-dns-017.com.",
     "TXT": [
       "vc-domain-verify=www.industryx.is-a.dev,19bbfb8352446392af93"
