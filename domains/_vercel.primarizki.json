@@ -4,6 +4,6 @@
         "email": "voidxontol@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=primarizki.is-a.dev,9f6d14075a72d553acc5"
     }
 }
