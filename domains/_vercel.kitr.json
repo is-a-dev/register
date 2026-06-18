@@ -4,6 +4,6 @@
         "email": "stevenb274@yahoo.com"
     },
     "records": {
-        "A": ["vc-domain-verify=kitr.is-a.dev,e6dca0b0325f62d8beb1"]
+        "TXT": ["vc-domain-verify=kitr.is-a.dev,e6dca0b0325f62d8beb1"]
     }
 }
