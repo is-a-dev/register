@@ -4,6 +4,7 @@
     "email": "sohum611@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=sohum.is-a.dev,f6b3f90b549b3afcdee2"
   }
 }
