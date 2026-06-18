@@ -1,5 +1,5 @@
 {
-  "description": "Mon portfolio WordPress et routage courriels",
+  "description": "Mon portfolio musical Google Sites et routage courriels",
   "repo": "https://github.com/gnof-the-shark/Blog",
   "owner": {
     "username": "gnof-the-shark",
@@ -7,14 +7,18 @@
   },
   "records": {
     "A": [
-      "185.27.134.116"
+      "216.239.32.21",
+      "216.239.34.21",
+      "216.239.36.21",
+      "216.239.38.21"
     ],
     "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
     ],
     "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
+      "v=spf1 include:spf.improvmx.com ~all",
+      "google-site-verification=jw7W-u5TSGB2sM3tIEGbYKp6KQ4v0cVh69S7eDE-kdI"
     ]
   }
 }
