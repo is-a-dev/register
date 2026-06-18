@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "Cooldevv1",
+    "email": "iamcooldev@proton.me"
+  },
+  "records": {
+    "A": ["75.2.60.5"],
+    "TXT": [
+      "verification-code-site-App_lark=dXhSSqoZvuUE9Z9cz6pz",
+      "v=spf1 +include:spf.onlarksuite.com -all"
+    ],
+    "MX": [
+      "mx1.larksuite.com",
+      "mx2.larksuite.com",
+      "mx3.larksuite.com"
+    ]
+  }
+}

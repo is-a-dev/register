@@ -1,9 +1,17 @@
 {
   "owner": {
-    "username": "TruncatedDinoSour",
+    "username": "ar1ja",
     "email": "ari@ari.lt"
   },
   "records": {
-    "URL": "https://ari.lt/"
+    "A": ["45.86.125.63"],
+    "AAAA": ["2a0c:8900:2:b6c6::1"],
+    "CAA": [
+      {
+        "tag": "issue",
+        "value": "letsencrypt.org"
+      }
+    ],
+    "TXT": ["v=spf1 -all"]
   }
 }

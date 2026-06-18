@@ -1,9 +1,14 @@
 {
   "owner": {
-    "username": "l6174",
-    "email": "l6174@proton.me"
+    "username": "sekiryl",
+    "email": "sekiryl@proton.me"
   },
   "records": {
-    "NS": ["armfazh.ns.cloudflare.com", "stella.ns.cloudflare.com"]
-  }
+    "MX": [
+      { "target": "mx1.forwardemail.net", "priority": 10 },
+      { "target": "mx2.forwardemail.net", "priority": 10 }
+    ],
+    "TXT": "forward-email=sekiryl@proton.me"
+  },
+  "proxied": false
 }

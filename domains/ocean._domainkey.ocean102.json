@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "ocean10230",
+    "email": "oceananimate@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3C0k55pwwB14pWZF2todqwMNf3zVFIieJeT/aX/Xqu8j/r766KzHcJjjMOAFbPyjhupsDDYxSvBZ61gXfngGzGpfcazrCKpobEbckjkTq/Lv9rn2uOUOC9DbkYEKQLYzxsoT4ianq4PWoP8IFK7HVcefh2BCNkZi+KqiMVeM7uqY4zdCS1fcHbkGuu/awzUjkOlPNy9XLJ+BAiueNkMtbkEqAkVp123z8Q3P/q8RRCMlllZ/4JQgFWLoEIm3cbuywxVYKfxmCe47LzlrMmxMMv0+P+5cV6JCP8nQWr1KZ93qOhmRSak9il4I3EUo5GhO4e4TMB+re3T3d5coHk4NDwIDAQAB"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "leev1s",
+        "email": "lev1s@duck.com"
+    },
+    "records": {
+        "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrEJuHzQ+8ODwI1dxDRu3IF4FxvloTbarFOoP9qBLUygSBA3Gp9EgJBvyzfvvFNuBCaS71sKP0yvmmp8j228XgMX1yvpALle6OLgX8btG6kmX90D76/wGPhsHs++qJK1CyqDL06ZoII9UKEYaMjSZjSqQRuvIt/FShO3pbPjBbRQIDAQAB"
+    }
+}

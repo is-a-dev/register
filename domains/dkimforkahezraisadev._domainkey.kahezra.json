@@ -1,0 +1,9 @@
+{
+  "owner": {
+      "username": "kahezra",
+      "email": "mailhiro92@gmail.com"
+  },
+  "records": {
+      "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDgRi1+P5Wr2Tizw9+pXJ2rHcvLb16aEK/+QXZhyoFzVebh/ZxMoNZnqGw0vPIsRzVif0XB6xmKB9axt1+E6NV9yjtMOcKW4Xmxoh/JeHDaXpXSdBZkMUadLvaKuBAYA/pk0shqleD9YMDbaTUiQtCgrQZB3uZJcRtXIoZt2S5P+wIDAQAB"
+  }
+}

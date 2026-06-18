@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "taktam",
+    "email": "tamastakacs408@gmail.com"
+  },
+  "records": {
+    "CNAME": "dashbench.github.io"
+  },
+  "description": "Linux desktop toolkit for processing dashcam recordings (DashBenchApp)."
+}

@@ -4,6 +4,6 @@
     "email": "wetrau8zs@mozmail.com"
   },
   "records": {
-    "CNAME": "veirt.github.io"
+    "A": ["69.67.170.170"]
   }
 }

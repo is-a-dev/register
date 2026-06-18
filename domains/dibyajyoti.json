@@ -1,0 +1,20 @@
+{
+    "owner": {
+        "username": "DibyajyotiBiswal57",
+        "email": "dibbispersonal@gmail.com",
+        "discord": "coder99957",
+        "instagram": "coder99957"
+    },
+    "records": {
+        "CNAME": "dibyajyotibiswal57.github.io",
+        "MX": [
+            { "target": "mx1.improvmx.com", "priority": 10 },
+            { "target": "mx2.improvmx.com", "priority": 20 }
+        ],
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com ~all",
+        "google-site-verification=9i5x0zqauM0B0GejCX6W7GDECxnSi-D49wCCcIhfWAU"
+        ]
+    },
+    "proxied": true
+}
