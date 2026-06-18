@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "thishaowang-cyber",
+    "email": "thishao.wang@gmail.com"
+  },
+  "records": {
+    "MX": ["mx1.example.com", "mx2.example.com"]
+  }
+}
