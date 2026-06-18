@@ -4,6 +4,9 @@
     "email": "vishalrp047@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=www.zeroclick.is-a.dev,cf63d093377108391355"
+    "TXT": [
+      "vc-domain-verify=zeroclick.is-a.dev,1afefda0eee2d137a648",
+      "vc-domain-verify=www.zeroclick.is-a.dev,cf63d093377108391355"
+    ]
   }
 }
