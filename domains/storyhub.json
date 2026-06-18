@@ -6,7 +6,9 @@
      "records": {
         "A": ["104.18.4.103"]
     }
-}
+},
+{
+    {
     "CNAME": "cname.vercel-dns.com"
   }
 }
