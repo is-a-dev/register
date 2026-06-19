@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Saja-abbas",
-        "email": "sajaabbaspt@gmail.com"
-    },
-    "record": {
-        "CNAME": "saja-abbas.github.io"
-    }
+  "owner": {
+    "username": "Saja-abbas",
+    "email": "sajaabbaspt@gmail.com"
+  },
+  "records": {
+    "CNAME": "saja-abbas.github.io"
+  }
 }
