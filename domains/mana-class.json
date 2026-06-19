@@ -1,0 +1,11 @@
+{
+  "description": "Mana Class - Class management app for tutors",
+  "repo": "https://github.com/log-ng/mana-class",
+  "owner": {
+    "username": "log-ng",
+    "email": "thanh-long-nguyen@cybozu.vn"
+  },
+  "record": {
+    "A": ["45.32.100.84"]
+  }
+}
