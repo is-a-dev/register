@@ -1,0 +1,12 @@
+{
+    "description": "Use for portfolio.",
+    "repo": "https://github.com/CycloneAddons/Portfolio",
+    "owner": {
+        "username": "CycloneAddons",
+        "email": "cycloneaddon@gmail.com",
+        "twitter": "cycloneaddons"
+    },
+    "record": {
+       "TXT": "vc-domain-verify=cycloneaddons.is-a.dev,4347db6ae19a76a9e664"
+    }
+} 
