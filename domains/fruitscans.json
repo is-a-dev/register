@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "aansaji",
-    "email": "a4aansaji@gmail.com"
+    "email": "YOUR_EMAIL@example.com"
   },
-  "record": {
+  "records": {
     "CNAME": "fruitscans.lovable.app"
   }
 }
