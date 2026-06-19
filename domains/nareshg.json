@@ -4,6 +4,7 @@
     "email": "gnaresh3003@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=nareshg.is-a.dev,6cce7cd1849bb79be6c6"
   }
 }
