@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "killuazoldyckreal",
-        "email": "bk1030798@gmail.com"
-    },
-    "record": {
-        "CNAME": "killuazoldyckreal.github.io"
-    }
+  "owner": {
+    "username": "killuazoldyckreal"
+  },
+  "records": {
+        "URL": "https://killua.my"
+  }
 }

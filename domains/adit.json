@@ -1,9 +1,9 @@
 {
     "owner": {
-        "username": "aditya-lika-ardiansyah",
-        "email": "Adytialikaardiansyah@gmail.com"
+        "username": "adytic",
+        "email": "adytic@gmail.com"
     },
-    "record": {
-        "CNAME": "aditya-lika-ardiansyah.github.io"
+    "records": {
+        "CNAME": "byolink.pages.dev"
     }
 }

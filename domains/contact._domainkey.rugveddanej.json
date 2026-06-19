@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "rugved-danej",
+     "email": "rugveddanej.contact@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCPg8E1U/xONhnSa4uqSdlSpYzXi8t40DRBdycPBypL67mM+PMjL6FHIXXaARduDdrivx0cfwetLLc1z0DX24CWl0HtvrNlyQBUBMZCMJQLWoIQvV71N8ki+J/MXnokvzqhZpFVHDk5ESCMyV0FpjWSuzsij5LArgcXx9H4W/xQ/wIDAQAB"
+  }
+}

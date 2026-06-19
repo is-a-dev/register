@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "vadolasi",
+    "email": "vitor036daniel@gmail.com"
+  },
+  "records": {
+    "CNAME": "vitordaniel-site.pages.dev",
+    "TXT": [
+      "google-site-verification=RvRpiX2XzfmplNxAi8WXi0yOgjiKnhiYAmRBhrPwoG4",
+      "forward-email=vitor036daniel@gmail.com"
+    ],
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ]
+  },
+  "proxied": true
+}

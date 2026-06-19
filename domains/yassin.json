@@ -1,12 +1,9 @@
 {
-  "description": "my bio",
-  "repo": "https://github.com/ycssin/bio",
   "owner": {
-    "username": "ycssin",
-    "email": "",
-    "twitter": "ycssin"
+    "username": "Yas-Devp",
+    "email" : "yaspro.dev@gmail.com"
   },
-  "record": {
-    "CNAME": "ycssin.github.io"
+  "records": {
+    "CNAME": "yas-devp.github.io"
   }
 }

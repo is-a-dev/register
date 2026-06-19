@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "luckycdev",
-           "email": "lucky@luckyc.site",
-           "discord": "275273443329441792"
-        },
-    
-        "record": {
-            "CNAME": "luckyc.site"
-        }
-    }
-    
+  "owner": {
+    "username": "lucasyork233",
+    "email": "chatlucasyork@outlook.com"
+  },
+  "records": {
+    "CNAME": "yblog-cpi.pages.dev"
+  }
+}

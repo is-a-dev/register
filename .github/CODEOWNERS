@@ -1,9 +1,7 @@
-* @phenax
-
-/.github/ @wdhdev
-/.github/CODEOWNERS @phenax
+* @wdhdev
 
 /domains/ @is-a-dev/maintainers
-*.md @is-a-dev/maintainers
 
-/MAINTAINERS.md @wdhdev
+*.md @is-a-dev/team
+TERMS_OF_SERVICE.md @wdhdev
+/util/reserved.json @is-a-dev/team

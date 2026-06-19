@@ -1,11 +1,9 @@
 {
-    "description": "Personal website to host bio info and other things",
-    "repo": "https://github.com/ann-dvlpr/ann-dvlpr.github.io",
-    "owner": {
-        "username": "ann-dvlpr",
-        "email": "ne0xch4r4@gmail.com"
-    },
-    "record": {
-        "CNAME": "ann-dvlpr.github.io"
-    }
-} 
+  "owner": {
+    "username": "true1ann",
+    "email": "contact@true1ann.me"
+  },
+  "records": {
+    "CNAME": "is-a-dev.true1ann.me"
+  }
+}

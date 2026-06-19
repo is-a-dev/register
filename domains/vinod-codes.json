@@ -1,0 +1,11 @@
+{
+  "description": "Personal portfolio and development website",
+  "repo": "https://github.com/vinod-codes",
+  "owner": {
+    "username": "vinod-codes",
+    "email": "vinodmanjula08@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

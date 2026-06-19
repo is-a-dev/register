@@ -1,0 +1,10 @@
+{
+  "description": "Personal WebSite",
+  "owner": {
+    "username": "MrJulus",
+    "email": "sabjul100@gmail.com"
+  },
+  "records": {
+    "CNAME": "julien-2e69b.web.app"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "owner": {
+        "username": "aditia-dev"
+    },
+    "records": {
+        "URL": "https://github.com/aditia-dev",
+        "TXT": [
+            "forward-email=NzI3MjIwNmNlMmNhNjAxNi0yYzkzZWM3NzYwMGYyYjRjNzhmYzM5Yjc2OGRlMzcxODJjNTMzNDBmN2ZlNTJhMmRiZjQyMTBkZGJlNzAzYWI1",
+            "v=spf1 include:_spf.mailersend.net ~all"
+        ],
+        "MX": [
+          "mx1.forwardemail.net",
+          "mx2.forwardemail.net"
+        ]
+    }
+}

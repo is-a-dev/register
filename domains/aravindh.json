@@ -1,11 +1,10 @@
 {
   "description": "aravindh.is-a.dev",
-  "repo": "https://github.com/Aravindh-4195/aravindh-4195.github.io",
   "owner": {
     "username": "Aravindh-4195",
     "email": "1mareeduaravindh1@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "aravindh-4195.github.io"
   }
 }

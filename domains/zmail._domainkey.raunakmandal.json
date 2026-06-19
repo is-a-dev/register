@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "RaunakMandal",
+        "email": "iamriju2000@gmail.com"
+    },
+    "records": {
+        "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDuRkCuqkt8Eqmh8HtsIIQgNHsP24dvuj4ag1a6r8skxZXD0znyA9dVFsEI8uGRVNXJ5QhYkGIydLk6+uoREd1UvIlOD8GxDkLnaNggrw/iwHLUsTqf+Zu8DHsUynd2CNaXCLxInS5Ba4iBBotbT6ASREOfGNzy4oEMTRpLbTgdwIDAQAB"
+    }
+}

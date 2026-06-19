@@ -1,11 +1,9 @@
 {
-  "description": "My personal dev website.",
-  "repo": "https://github.com/CristianEduardMihai/is-a.dev.github.io",
   "owner": {
     "username": "CristianEduardMihai",
     "email": "cristianeduardmihai@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cristianeduardmihai.github.io"
   }
 }

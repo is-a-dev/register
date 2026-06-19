@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "AryanTheDevloper",
-        "email": "aryan.p062009@gmail.com"
-    },
-    "record": {
-        "CNAME": "aryanthedevloper.github.io"
-    }
+  "owner": {
+    "username": "aryanpatel142006",
+    "email": "aryanpatel142006@gmail.com",
+    "discord": "aryanpatel142006"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  },
+  "proxied": true
 }

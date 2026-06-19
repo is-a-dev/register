@@ -1,0 +1,10 @@
+{
+  "description": "Personal WebSite",
+  "owner": {
+    "username": "BougSoon-Studio",
+    "email": "bougsoon.studio@gmail.com"
+  },
+  "records": {
+    "CNAME": "my-mr-julus.web.app"
+  }
+}

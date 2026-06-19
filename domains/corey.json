@@ -1,9 +1,9 @@
 {
     "owner": {
-        "username": "cjsewell",
-        "email": "corey@sewell.net.nz"
+        "username": "iamcorey",
+        "email": "iamcoreychiu@gmail.com"
     },
-    "record": {
-        "CNAME": "sewell.net.nz"
+    "records": {
+        "A": ["216.150.1.1"]
     }
 }

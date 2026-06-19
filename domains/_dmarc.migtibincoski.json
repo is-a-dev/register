@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "migtibincoski",
+        "email": "contato@migtibincoski.is-a.dev"
+    },
+    "records": {
+        "TXT": [
+            "v=DMARC1; p=none; rua=mailto:dmarc-reports@zavexx.com.br"
+        ]
+    }
+}

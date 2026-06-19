@@ -1,12 +1,9 @@
 {
-  "description": "Carmelo Velardo",
-  "repo": "https://github.com/2dvisio/2dvisio.github.io",
   "owner": {
-    "username": "2dvisio",
-    "email": "[name.lastname]@gmail.com",
-    "twitter": "2dvisio"
+    "username": "Ninja-5000",
+    "discord": "707170199861854209"
   },
-  "record": {
-    "CNAME": "2dvisio.github.io"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

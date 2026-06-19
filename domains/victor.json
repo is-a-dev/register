@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "victoroliveira",
-    "email": "victoroliveira.eng@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "victoroliveira.github.io"
-  }
+    "owner": {
+        "username": "okolo157",
+        "email": "victor.okolo@pau.edu.ng"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

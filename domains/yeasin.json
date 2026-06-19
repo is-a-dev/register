@@ -1,0 +1,11 @@
+{
+  "description": "yeasin.is-a.dev",
+  "owner": {
+    "username": "yeasiin",
+    "email": "iamyeasiin@gmail.com"
+  },
+  "records": {
+    "CNAME": "yeasin.netlify.app"
+  },
+  "proxied": true
+}

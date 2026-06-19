@@ -1,11 +1,11 @@
 {
-  "description": "Personal Portfolio Website",
-  "repo": "https://github.com/piyush-rb/piyush-rb.github.io",
   "owner": {
-    "username": "piyush-rb",
+    "username": "pibiswal",
     "email": "urpiyush39@gmail.com"
   },
-  "record": {
-    "CNAME": "piyush-rb.github.io"
-  }
+  "records": {
+    "CNAME": "pibiswal.github.io",
+    "TXT": "google-site-verification=kDWGAChQixBO8bGxGGNoA9kXH24lQyfomrT3zyC5jiM"
+  },
+  "proxied": true
 }

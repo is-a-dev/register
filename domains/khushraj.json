@@ -1,11 +1,9 @@
 {
-  "description": "Khushraj Rathod's personal website.",
-  "repo": "https://github.com/KhushrajRathod/www.khushrajrathod.com",
   "owner": {
     "username": "KhushrajRathod",
     "email": "me@khushrajrathod.com"
   },
-  "record": {
+  "records": {
     "URL": "https://www.khushrajrathod.com"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "AmitDas4321",
+    "x": "AmitDas4321",
+    "facebook": "AmitDas4321",
+    "discord": "AmitDas4321"
+  },
+  "records": {
+    "A": [
+      "136.111.58.90"
+    ],
+    "TXT": [
+      "v=spf1 +a +mx -all",
+      "google-site-verification=hsqy7kuBOaLvgcE7_8iwY44SdQY0HHZJLR3mEUFoRz0"
+    ]
+  },
+  "proxied": false
+}

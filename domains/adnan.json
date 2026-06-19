@@ -1,10 +1,11 @@
 {
-  "owner": {
-    "username": "Adnan0131",
-    "email": "sonuadnan6@gmail.com"
-  },
-
-  "record": {
-    "CNAME": "adnan0131.github.io"
-  }
+    "owner": {
+        "username": "dev-adnan56",
+        "email": "muhammadadnanbwp@outlook.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }
