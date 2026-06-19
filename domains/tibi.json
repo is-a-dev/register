@@ -1,12 +1,9 @@
 {
-  "description": "Personal developer portfolio and projects",
-  "domain": "is-a.dev",
-  "subdomain": "tibi",
   "owner": {
-    "repo": "https://github.com/netistul",
+    "username": "netistul",
     "email": "tyiby@yahoo.com"
   },
-  "record": {
+  "records": {
     "A": [
       "130.61.40.137"
     ]
