@@ -4,6 +4,7 @@
         "email": "tearsachly@gmail.com"
     },
     "records": {
-        "TXT": "0a3e38881c336f08702739ea08f145"
+        "TXT": "0a3e38881c336f08702739ea08f145",
+        "CNAME": "tearsachly.github.io"
     }
 }
