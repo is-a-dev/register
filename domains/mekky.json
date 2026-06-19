@@ -1,9 +1,11 @@
 {
     "owner": {
         "username": "ahmed-mekky",
-        "email": "27medsh3pan@gmail.com"
+        "email": "mekky16@proton.me"
     },
     "records": {
-        "CNAME": "mekky.pages.dev"
-    }
+        "CNAME": "mekky.pages.dev",
+        "TXT": "google-site-verification=V-u7MZIjt0nu-E6UUhRjEf9iPc-A6Sqfu71SSL2D7uk"
+    },
+    "proxied": true
 }
