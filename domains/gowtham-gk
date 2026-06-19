@@ -1,0 +1,12 @@
+{
+  "description": "Gowtham's dev server",
+  "domain": "is-a.dev",
+  "subdomain": "gowtham-gk",
+  "owner": {
+    "username": "gowthamkrishnagk",
+    "email": "gowthamkrishna.mails@gmail.com"
+  },
+  "record": {
+    "CNAME": "3ef13993-e381-4a66-8303-e29d73bf3321.cfargotunnel.com"
+  }
+}
