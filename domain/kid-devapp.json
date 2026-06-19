@@ -1,0 +1,10 @@
+{
+    "$schema": "../schema.json",
+    "owner": {
+        "username": "yohankudo",
+        "email": "yohanwahyu.prodistikits@gmail.com"
+    },
+    "record": {
+        "CNAME": "dcmkfi.freedev.app"
+    }
+}
