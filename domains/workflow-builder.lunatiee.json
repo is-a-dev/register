@@ -6,8 +6,7 @@
         "email": "lunatie@gmail.com"
     },
     "records": {
-        "CNAME": "workflow-builder-web-qtkckv6l3a-an.a.run.app",
+        "A": ["216.239.32.21", "216.239.34.21", "216.239.36.21", "216.239.38.21"],
         "TXT": ["google-site-verification=IvWiVgnwCebsWyWF0KRub6-zxOK15_bSpZKhpX4YaXE"]
-    },
-    "proxied": true
+    }
 }

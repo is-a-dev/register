@@ -1,0 +1,10 @@
+{
+  "description": "I need NS delegation to manage dynamic DNS (DDNS) for multiple self-hosted services running on a dynamic IP. This setup allows automated DNS updates and reliable access to my home services.",
+  "owner": {
+    "username": "findnewthi",
+    "email": "std@nhhawa.edu.kg"
+  },
+  "records": {
+    "NS": ["dora.ns.cloudflare.com", "john.ns.cloudflare.com"]
+  }
+}
