@@ -1,0 +1,14 @@
+{
+  "description": "Personal developer portfolio and projects",
+  "domain": "is-a.dev",
+  "subdomain": "tibi",
+  "owner": {
+    "repo": "https://github.com/netistul",
+    "email": "tyiby@yahoo.com"
+  },
+  "record": {
+    "A": [
+      "130.61.40.137"
+    ]
+  }
+}
