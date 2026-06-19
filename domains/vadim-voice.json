@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "vadimka731-sudo"
+    "username": "vadimka731-sudo",
+    "email": "Vadimka731@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["201.51.20.192"]
   }
 }
