@@ -1,0 +1,23 @@
+{
+  "owner": {
+    "username": "Jasper6439",
+    "email": "adios6406@outlook.com"
+  },
+  "records": {
+    "A": [
+      "170.9.246.92"
+    ],
+    "MX": [
+      "mx1.ord1.oracleemaildelivery.com",
+      "mx2.ord1.oracleemaildelivery.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.oracleemaildelivery.com ~all",
+      "v=DMARC1; p=none;"
+    ],
+    "CNAME": {
+      "j59yvS604B0DOMJ7yo0a3zEb9L51iEYQ._domainkey": "j59yvS604B0DOMJ7yo0a3zEb9L51iEYQ.ulysses.is-a.dev.dkim.ord1.oracleemaildelivery.com"
+    }
+  },
+  "proxied": false
+}
