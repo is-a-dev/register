@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "phaseworld-creator",
+    "email": "phaseworld.contact@gmail.com"
+  },
+
+  "records": {
+    "URL": "https://phaseworld.surge.sh"
+  },
+  "redirect_config": {
+  "custom_paths": {
+    "/github": "https://github.com/phaseworld-creator",
+    "/discord": "https://discord.gg/JmThgRwEbb"
+  },
+  "redirect_paths": true
+}
