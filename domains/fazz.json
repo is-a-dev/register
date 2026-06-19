@@ -1,4 +1,8 @@
 {
-  "owner": { "username": "faiznc", "email": "faiznc@gmail.com" },
-  "records": { "URL": "https://github.com/faiznc" }
+  "owner": {
+    "username": "MahmoudHH1"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
