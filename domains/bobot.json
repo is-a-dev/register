@@ -4,6 +4,9 @@
     "email": "jade.treer@gmail.com"
   },
   "records": {
-    "CNAME": "clawbobot.github.io"
+    "NS": [
+      "leah.ns.cloudflare.com",
+      "rick.ns.cloudflare.com"
+    ]
   }
 }
