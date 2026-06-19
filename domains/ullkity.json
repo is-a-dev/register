@@ -1,0 +1,11 @@
+{
+  "description": "My personal website",
+  "domain": "is-a.dev",
+  "subdomain": "ullkity",
+  "owner": {
+    "username": "ynxxxxx"
+  },
+  "record": {
+    "CNAME": "ullkity-42pf.vercel.app"
+  }
+}
