@@ -1,1 +1,9 @@
-
+{
+    "owner": {
+        "username": "comsolodev-1",
+        "email": "com.solodev@gmail.com"
+    },
+    "record": {
+        "CNAME": "reyny-mark-portfolio.vercel.app"
+    }
+}
