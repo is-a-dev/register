@@ -4,7 +4,8 @@
     "email": "exyone.dev@icloud.com"
   },
   "records": {
-    "CNAME": "exyone.netlify.app"
+    "CNAME": "exyone.netlify.app",
+    "A": ["75.2.60.5"]
   },
   "proxied": true
 }
