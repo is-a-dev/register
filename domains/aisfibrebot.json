@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "athdevtech",
+    "email": "athsup2025@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "bob.ns.cloudflare.com",
+      "tani.ns.cloudflare.com"
+    ]
+  }
+}
