@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "Vinkzzz"
-  },
-  "records": {
-    "CNAME": "website-nu-kohl-50.vercel.app"
-  }
+    "owner": {
+        "username": "Vinkzzz",
+        "email": "vinkzz302@gmail.com"
+    },
+    "records": {
+        "A": ["120.0.0.0"]
+    }
 }
