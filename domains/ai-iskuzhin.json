@@ -6,6 +6,9 @@
     "email": "aigiz.iskuzhin@yandex.ru"
   },
   "records": {
-    "CNAME": "ai-iskuzhin.github.io"
+    "CNAME": "ai-iskuzhin.github.io",
+    "TXT": [
+      "google-site-verification=Coy1Smz7zIhmMGgv-7wNHRsNsXA4jvxVSSgE5pD00HI"
+    ]
   }
 }
