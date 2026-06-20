@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "TBDwarf",
-        "email": "g1rwqu7mq@mozmail.com"
-    },
-    "records": {
-        "CNAME": "tbdwarf.alwaysdata.net"
-    }
+  "owner": {
+    "username": "TBDwarf",
+    "email": "g1rwqu7mq@mozmail.com"
+  },
+  "records": {
+    "A": ["89.168.51.52"]
+  }
 }

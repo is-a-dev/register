@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "matkultra"
+  },
+  "records": {
+    "A": ["220.244.37.232"],
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 5,
+        "port": 25565,
+        "target": "mc.matkultra.is-a.dev"
+      }
+    ]
+  }
+}

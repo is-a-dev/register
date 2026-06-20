@@ -9,7 +9,8 @@
       "mx2.forwardemail.net"
     ],
     "TXT": [
-      "v=spf1 include:spf.forwardemail.net ~all"
+      "v=spf1 include:spf.forwardemail.net ~all",
+      "forward-email=lc.henriquee@gmail.com"
     ]
   }
 }

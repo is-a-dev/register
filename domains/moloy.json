@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "iMoloy",
-        "email": "moloykrishnapaul@gmail.com"
-    },
-    "records": {
-        "CNAME": "imoloy.github.io"
-    }
+  "owner": {
+    "username": "iMoloy",
+    "email": "moloykrishnapaul@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
