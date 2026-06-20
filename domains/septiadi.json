@@ -1,0 +1,12 @@
+{
+  "description": "Septiadi's developer portfolio",
+  "domain": "is-a.dev",
+  "subdomain": "septiadi",
+  "owner": {
+    "username": "septiadzhuo1",
+    "email": "Septiadizhuo1@gmail.com"
+  },
+  "record": {
+    "CNAME": "septiadi-portfolio.vercel.app"
+  }
+}
