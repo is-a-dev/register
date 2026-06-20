@@ -5,13 +5,5 @@
     },
     "records": {
         "CNAME": "krzykawa.codeberg.page"
-    },
-    "nested": [
-        {
-            "name": "_git-pages-repository",
-            "records": {
-                "TXT": "git-pages-repository-url=https://codeberg.org/krzykawa/portfolio.git"
-            }
-        }
-    ]
+    }
 }
