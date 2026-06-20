@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "shikuato",
+    "email": "shikuato@gmail.com"
+  },
+  "records": {
+    "NS": ["fred.ns.cloudflare.com", "meg.ns.cloudflare.com"]
+  }
+}
