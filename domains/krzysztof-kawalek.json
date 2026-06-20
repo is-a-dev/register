@@ -1,10 +1,17 @@
 {
     "owner": {
-        "username": "Ktosnapewno999",
+        "username": "krzkawa",
         "email": "krzysztofkawalek.napped291@passinbox.com"
     },
     "records": {
-        "CNAME": "krzykawa.codeberg.page",
-        "TXT": "git-pages-repository-url=https://codeberg.org/krzykawa/portfolio.git"
-    }
+        "CNAME": "krzykawa.codeberg.page"
+    },
+    "nested": [
+        {
+            "name": "_git-pages-repository",
+            "records": {
+                "TXT": "git-pages-repository-url=https://codeberg.org/krzykawa/portfolio.git"
+            }
+        }
+    ]
 }
