@@ -1,0 +1,12 @@
+{
+  "description": "Personal VPN service",
+  "repo": "https://github.com/fjfifjtjti-jpg/register",
+  "owner": {
+    "username": "fjfifjtjti-jpg",
+    "email": "fjfifjtjti@gmail.com"
+  },
+  "record": {
+    "CNAME": "vpn-admin-bot.fjfifjtjti.workers.dev"
+  },
+  "proxied": false
+}
