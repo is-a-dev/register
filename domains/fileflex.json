@@ -3,11 +3,8 @@
     "username": "armor229-ux",
     "email": "armor229@gmail.com"
   },
-  "record": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": [
-      "vc-domain-verify=fileflex.is-a.dev,fdfa7ef6ee62053d8e02"
-    ]
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   },
   "proxied": false
 }
