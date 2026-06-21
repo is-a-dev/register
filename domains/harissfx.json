@@ -3,10 +3,7 @@
         "username": "harissfx",
         "email": "hs6115308@gmail.com"
     },
-    "records": [
-        {
-            "type": "CNAME",
-            "value": "harissfx.github.io"
-        }
-    ]
+    "records": {
+        "CNAME": "harissfx.github.io"
+    }
 }
