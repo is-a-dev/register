@@ -1,9 +1,22 @@
 {
-  "owner": {
-    "username": "xlsanal"
-  },
-  "records": {
-    "TXT": "did:plc:7v4k5yy4sp4eakmuaorx2n2q",
-    "URL": "https://bsky.app/profile/xlsanal.is-a.dev"
-  }
+    "name": "xlsanal",
+    "description": "Personal website and developer portfolio.",
+    "repo": "https://github.com/xlsanal/xlsanal",
+    "owner": {
+        "username": "xlsanal",
+        "email": "enocxndetanirlar@gmail.com"
+    },
+    "record": {
+        "CNAME": "xlsanal.github.io",
+        "_discord": {
+            "TXT": [
+                "dh=78a41450cf59342f252982ade232f97f5e34d83d"
+            ]
+        },
+        "_atproto": {
+            "TXT": [
+                "did=did:plc:7v4k5yy4sp4eakmuaorx2n2q"
+            ]
+        }
+    }
 }
