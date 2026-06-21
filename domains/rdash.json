@@ -1,8 +1,11 @@
 {
+  "description": "rDash - Dashboard for tracking submission status at Politeknik Negeri Bandung",
+  "repo": "https://github.com/jarwomib/rDash",
   "owner": {
-    "username": "darkhirameki"
+    "username": "jarwomib",
+    "email": "fajarwibowo21@gmail.com"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
+  "record": {
+    "CNAME": ["rdash-4x6x.vercel.app"]
   }
 }
