@@ -7,16 +7,14 @@
         "email": "enocxndetanirlar@gmail.com"
     },
     "record": {
-        "CNAME": "xlsanal.github.io",
+        "CNAME": "xlsanal.github.io"
+    },
+    "subdomains": {
         "_discord": {
-            "TXT": [
-                "dh=78a41450cf59342f252982ade232f97f5e34d83d"
-            ]
+            "TXT": ["dh=78a41450cf59342f252982ade232f97f5e34d83d"]
         },
         "_atproto": {
-            "TXT": [
-                "did=did:plc:7v4k5yy4sp4eakmuaorx2n2q"
-            ]
+            "TXT": ["did=did:plc:7v4k5yy4sp4eakmuaorx2n2q"]
         }
     }
 }
