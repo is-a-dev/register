@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "harissfx",
-        "email": "harissfx@gmail.com"
+        "email": "hs6115308@gmail.com"
     },
     "record": {
-        "CNAME": "harissfx.github.io/portfolioku"
-    }
+        "CNAME": "harissfx.github.io"
+    },
+    "proxied": false
 }
