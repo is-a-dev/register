@@ -3,8 +3,10 @@
         "username": "harissfx",
         "email": "hs6115308@gmail.com"
     },
-    "record": {
-        "CNAME": "harissfx.github.io"
-    },
-    "proxied": false
+    "records": [
+        {
+            "type": "CNAME",
+            "value": "harissfx.github.io"
+        }
+    ]
 }
