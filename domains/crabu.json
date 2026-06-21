@@ -4,6 +4,6 @@
     "email": "itausif.cse@gmail.com"
   },
   "records": {
-    "CNAME": "crabu.app"
+    "CNAME": ["crabu.app"]
   }
 }
