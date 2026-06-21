@@ -2,7 +2,7 @@
   "owner": {
     "username": "MrStickyPiston"
   },
-  "record": {
+  "records": {
     "CNAME": "portfolio-site-4d2.pages.dev",
     "MX": ["mailserver.purelymail.com."],
     "TXT": [
