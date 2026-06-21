@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GameMaster755 | Neon Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --neon-cyan: #00f5ff;
+    --neon-magenta: #ff00ff;
+    --neon-green: #39ff14;
+    --neon-orange: #ff6600;
+    --dark-bg: #020408;
+    --panel-bg: rgba(0, 245, 255, 0.03);
+    --panel-border: rgba(0, 245, 255, 0.15);
+    --text-primary: #e0f7ff;
+    --text-muted: #5a8a99;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--dark-bg);
+    color: var(--text-primary);
+    font-family: 'Rajdhani', sans-serif;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  /* ─── SCANLINE OVERLAY ─── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,245,255,0.012) 2px,
+      rgba(0,245,255,0.012) 4px
+    );
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* ─── GRID BACKGROUND ─── */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,245,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,245,255,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    z-index: 1;
+  }
+
+  .hero-glow {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(0,245,255,0.08) 0%, transparent 70%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    animation: pulse-glow 4s ease-in-out infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 0.6; transform: translate(-50%,-50%) scale(1); }
+    50% { opacity: 1; transform: translate(-50%,-50%) scale(1.1); }
+  }
+
+  .hero-badge {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    color: var(--neon-cyan);
+    border: 1px solid rgba(0,245,255,0.3);
+    padding: 0.4rem 1.2rem;
+    margin-bottom: 2rem;
+    animation: fadeIn 0.6s ease forwards;
+    opacity: 0;
+    animation-delay: 0.2s;
+  }
+
+  .hero-name {
+    font-family: 'Orbitron', monospace;
+    font-size: clamp(3rem, 10vw, 7rem);
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    opacity: 0;
+    animation: slideUp 0.8s ease forwards;
+    animation-delay: 0.4s;
+  }
+
+  .hero-name .line1 {
+    display: block;
+    color: var(--text-primary);
+    text-shadow:
+      0 0 20px rgba(0,245,255,0.4),
+      0 0 60px rgba(0,245,255,0.2);
+  }
+
+  .hero-name .line2 {
+    display: block;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--neon-cyan);
+    font-size: 0.85em;
+    text-shadow: 0 0 40px rgba(0,245,255,0.3);
+  }
+
+  .hero-tagline {
+    margin-top: 1.5rem;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    letter-spacing: 0.15em;
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+    animation-delay: 0.8s;
+  }
+
+  .hero-tagline span {
+    color: var(--neon-cyan);
+    margin: 0 0.5rem;
+  }
+
+  .hero-cta {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+    animation-delay: 1s;
+  }
+
+  .btn {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    padding: 0.9rem 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+  }
+
+  .btn-primary {
+    background: var(--neon-cyan);
+    color: var(--dark-bg);
+    clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+  }
+
+  .btn-primary:hover {
+    background: #fff;
+    box-shadow: 0 0 30px var(--neon-cyan);
+    transform: translateY(-2px);
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--neon-cyan);
+    border: 1px solid var(--neon-cyan);
+    clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+  }
+
+  .btn-outline:hover {
+    background: rgba(0,245,255,0.08);
+    box-shadow: 0 0 20px rgba(0,245,255,0.3);
+    transform: translateY(-2px);
+  }
+
+  .scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 1.4s;
+  }
+
+  .scroll-indicator::before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 60px;
+    background: linear-gradient(to bottom, transparent, var(--neon-cyan));
+    margin: 0 auto;
+    animation: scroll-line 2s ease-in-out infinite;
+  }
+
+  @keyframes scroll-line {
+    0% { height: 0; opacity: 0; }
+    50% { height: 60px; opacity: 1; }
+    100% { height: 60px; opacity: 0; transform: translateY(20px); }
+  }
+
+  /* ─── SECTIONS ─── */
+  section {
+    position: relative;
+    z-index: 1;
+    padding: 6rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.4em;
+    color: var(--neon-cyan);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+  }
+
+  .section-title {
+    font-family: 'Orbitron', monospace;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 900;
+    color: var(--text-primary);
+    margin-bottom: 3rem;
+    line-height: 1.1;
+  }
+
+  .section-title .accent {
+    color: var(--neon-cyan);
+    text-shadow: 0 0 20px rgba(0,245,255,0.5);
+  }
+
+  /* ─── SKILLS GRID ─── */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5px;
+    background: rgba(0,245,255,0.1);
+    border: 1px solid rgba(0,245,255,0.1);
+  }
+
+  .skill-card {
+    background: var(--dark-bg);
+    padding: 2.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s;
+  }
+
+  .skill-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--neon-cyan), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .skill-card:hover { background: rgba(0,245,255,0.04); }
+  .skill-card:hover::before { opacity: 1; }
+
+  .skill-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+    display: block;
+  }
+
+  .skill-name {
+    font-family: 'Orbitron', monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--neon-cyan);
+    letter-spacing: 0.1em;
+    margin-bottom: 0.8rem;
+  }
+
+  .skill-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-weight: 300;
+  }
+
+  .skill-tag {
+    display: inline-block;
+    margin-top: 1.2rem;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    color: var(--neon-green);
+    border: 1px solid rgba(57,255,20,0.3);
+    padding: 0.2rem 0.6rem;
+  }
+
+  /* ─── PROJECTS ─── */
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: rgba(0,245,255,0.08);
+  }
+
+  .project-item {
+    background: var(--dark-bg);
+    padding: 2rem 2.5rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 2rem;
+    align-items: start;
+    transition: background 0.2s;
+    cursor: default;
+  }
+
+  .project-item:hover {
+    background: rgba(0,245,255,0.04);
+  }
+
+  .project-num {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.65rem;
+    color: rgba(0,245,255,0.3);
+    letter-spacing: 0.1em;
+    padding-top: 0.3rem;
+  }
+
+  .project-content {}
+
+  .project-title {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    transition: color 0.2s;
+  }
+
+  .project-item:hover .project-title {
+    color: var(--neon-cyan);
+    text-shadow: 0 0 20px rgba(0,245,255,0.4);
+  }
+
+  .project-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  .project-badge {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    padding: 0.3rem 0.8rem;
+    white-space: nowrap;
+    border: 1px solid;
+    margin-top: 0.2rem;
+  }
+
+  .badge-automation { color: var(--neon-cyan); border-color: rgba(0,245,255,0.3); }
+  .badge-gov { color: #ffe066; border-color: rgba(255,224,102,0.3); }
+  .badge-police { color: var(--neon-magenta); border-color: rgba(255,0,255,0.3); }
+
+  /* ─── WEB SECTION ─── */
+  .web-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5px;
+    background: rgba(255,0,255,0.08);
+    border: 1px solid rgba(255,0,255,0.1);
+  }
+
+  .web-card {
+    background: var(--dark-bg);
+    padding: 2.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s;
+  }
+
+  .web-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--neon-magenta), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .web-card:hover { background: rgba(255,0,255,0.03); }
+  .web-card:hover::after { opacity: 1; }
+
+  .web-icon {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    display: block;
+  }
+
+  .web-title {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--neon-magenta);
+    letter-spacing: 0.1em;
+    margin-bottom: 0.8rem;
+    text-shadow: 0 0 15px rgba(255,0,255,0.4);
+  }
+
+  .web-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-weight: 300;
+  }
+
+  .web-tag {
+    display: inline-block;
+    margin-top: 1.2rem;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    color: var(--neon-magenta);
+    border: 1px solid rgba(255,0,255,0.3);
+    padding: 0.2rem 0.6rem;
+  }
+
+  /* ─── STATS BAR ─── */
+  .stats-row {
+    border-top: 1px solid rgba(0,245,255,0.1);
+    border-bottom: 1px solid rgba(0,245,255,0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin: 0 -2rem;
+  }
+
+  .stat-item {
+    padding: 2rem;
+    text-align: center;
+    border-right: 1px solid rgba(0,245,255,0.1);
+    position: relative;
+    z-index: 1;
+  }
+
+  .stat-item:last-child { border-right: none; }
+
+  .stat-num {
+    font-family: 'Orbitron', monospace;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--neon-cyan);
+    text-shadow: 0 0 20px rgba(0,245,255,0.5);
+    display: block;
+  }
+
+  .stat-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-top: 0.3rem;
+  }
+
+  /* ─── DIVIDER ─── */
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0,245,255,0.3), transparent);
+    margin: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ─── FOOTER ─── */
+  footer {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid rgba(0,245,255,0.1);
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .footer-name {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--neon-cyan);
+    letter-spacing: 0.2em;
+    text-shadow: 0 0 20px rgba(0,245,255,0.4);
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-copy {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    letter-spacing: 0.2em;
+  }
+
+  .discord-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 1.5rem;
+    font-family: 'Orbitron', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    color: var(--neon-cyan);
+    text-decoration: none;
+    border: 1px solid rgba(0,245,255,0.3);
+    padding: 0.7rem 1.5rem;
+    transition: all 0.2s;
+  }
+
+  .discord-link:hover {
+    background: rgba(0,245,255,0.08);
+    box-shadow: 0 0 20px rgba(0,245,255,0.2);
+  }
+
+  /* ─── LANGUAGE SWITCHER ─── */
+  .lang-switcher {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+    animation-delay: 0.1s;
+  }
+
+  .lang-btn {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    padding: 0.35rem 0.8rem;
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid rgba(0,245,255,0.15);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .lang-btn:hover {
+    color: var(--neon-cyan);
+    border-color: rgba(0,245,255,0.4);
+  }
+
+  .lang-btn.active {
+    color: var(--neon-cyan);
+    border-color: var(--neon-cyan);
+    background: rgba(0,245,255,0.08);
+    box-shadow: 0 0 10px rgba(0,245,255,0.15);
+  }
+
+  /* ─── TYPING CURSOR ─── */
+  .cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background: var(--neon-cyan);
+    vertical-align: text-bottom;
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  /* ─── CORNER DECORATION ─── */
+  .corner-deco {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    pointer-events: none;
+  }
+
+  .corner-deco.tl { top: 20px; left: 20px; border-top: 1px solid rgba(0,245,255,0.4); border-left: 1px solid rgba(0,245,255,0.4); }
+  .corner-deco.tr { top: 20px; right: 20px; border-top: 1px solid rgba(0,245,255,0.4); border-right: 1px solid rgba(0,245,255,0.4); }
+  .corner-deco.bl { bottom: 20px; left: 20px; border-bottom: 1px solid rgba(0,245,255,0.4); border-left: 1px solid rgba(0,245,255,0.4); }
+  .corner-deco.br { bottom: 20px; right: 20px; border-bottom: 1px solid rgba(0,245,255,0.4); border-right: 1px solid rgba(0,245,255,0.4); }
+
+  /* ─── ANIMATIONS ─── */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ─── COOKIE BANNER ─── */
+  #cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    padding: 1.2rem 2rem;
+    background: rgba(2, 4, 8, 0.97);
+    border-top: 1px solid rgba(0,245,255,0.25);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 -10px 40px rgba(0,245,255,0.08);
+    animation: slideUpBanner 0.6s ease forwards;
+    animation-delay: 1.8s;
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  @keyframes slideUpBanner {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  #cookie-banner.hidden {
+    animation: slideDownBanner 0.4s ease forwards;
+  }
+
+  @keyframes slideDownBanner {
+    to { opacity: 0; transform: translateY(100%); pointer-events: none; }
+  }
+
+  .cookie-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .cookie-text {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+    min-width: 260px;
+  }
+
+  .cookie-icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+  }
+
+  .cookie-title {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--neon-cyan);
+    letter-spacing: 0.2em;
+    margin-bottom: 0.3rem;
+    text-shadow: 0 0 10px rgba(0,245,255,0.4);
+  }
+
+  .cookie-desc {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  .cookie-actions {
+    display: flex;
+    gap: 0.8rem;
+    flex-shrink: 0;
+  }
+
+  .cookie-actions .btn {
+    font-size: 0.65rem;
+    padding: 0.65rem 1.4rem;
+  }
+
+  /* ─── FOOTER LINKS ─── */
+  .footer-links {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0.8rem;
+  }
+
+  .footer-link {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    color: var(--text-muted);
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+    padding: 0.2rem 0;
+  }
+
+  .footer-link:hover { color: var(--neon-cyan); }
+
+  .footer-sep {
+    color: rgba(0,245,255,0.2);
+    font-size: 0.6rem;
+  }
+
+  /* ─── MODAL ─── */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    z-index: 20000;
+    backdrop-filter: blur(4px);
+  }
+
+  .modal-overlay.active { display: block; }
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.95);
+    z-index: 20001;
+    width: min(700px, 92vw);
+    max-height: 80vh;
+    background: #06080f;
+    border: 1px solid rgba(0,245,255,0.2);
+    box-shadow: 0 0 60px rgba(0,245,255,0.08), inset 0 0 40px rgba(0,245,255,0.02);
+    padding: 2.5rem;
+    overflow-y: auto;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .modal.active {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    background: none;
+    border: 1px solid rgba(0,245,255,0.2);
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  .modal-close:hover {
+    color: var(--neon-cyan);
+    border-color: var(--neon-cyan);
+    box-shadow: 0 0 10px rgba(0,245,255,0.2);
+  }
+
+  .modal-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    color: var(--neon-cyan);
+    opacity: 0.6;
+    margin-bottom: 0.4rem;
+  }
+
+  .modal-title {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: var(--text-primary);
+    margin-bottom: 1.8rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,245,255,0.1);
+  }
+
+  .modal-body h3 {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--neon-cyan);
+    letter-spacing: 0.1em;
+    margin: 1.5rem 0 0.6rem;
+    text-transform: uppercase;
+  }
+
+  .modal-body p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.75;
+    font-weight: 300;
+  }
+
+  .modal::-webkit-scrollbar { width: 4px; }
+  .modal::-webkit-scrollbar-track { background: transparent; }
+  .modal::-webkit-scrollbar-thumb { background: rgba(0,245,255,0.2); }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 600px) {
+    .project-item {
+      grid-template-columns: auto 1fr;
+      gap: 1rem;
+    }
+    .project-badge { grid-column: 2; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Corner decorations -->
+<div class="corner-deco tl"></div>
+<div class="corner-deco tr"></div>
+<div class="corner-deco bl"></div>
+<div class="corner-deco br"></div>
+
+<!-- ─── HERO ─── -->
+<div class="hero">
+  <div class="hero-glow"></div>
+
+  <div class="hero-badge">// PORTFOLIO • v2.0.25 // ONLINE</div>
+
+  <!-- LANGUAGE SWITCHER -->
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="setLang('it')">🇮🇹 ITA</button>
+    <button class="lang-btn" onclick="setLang('en')">🇬🇧 ENG</button>
+    <button class="lang-btn" onclick="setLang('es')">🇪🇸 SPA</button>
+  </div>
+
+  <h1 class="hero-name">
+    <span class="line1">GAMEMASTER755</span>
+  </h1>
+
+  <p class="hero-tagline">
+    FiveM Developer<span>•</span>Discord Dev<span>•</span>Automation Specialist
+  </p>
+
+  <div class="hero-cta">
+    <a href="#progetti" class="btn btn-primary t" data-it="Vedi Progetti" data-en="View Projects" data-es="Ver Proyectos">Vedi Progetti</a>
+    <a href="https://discord.gg/RrnrzayJWm" target="_blank" class="btn btn-outline">Discord</a>
+  </div>
+
+  <div class="scroll-indicator"></div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ─── STATS ─── -->
+<section style="padding: 0 2rem;">
+  <div class="stats-row reveal">
+    <div class="stat-item">
+      <span class="stat-num" data-lang-it="Bot Sviluppati" data-lang-en="Bots Built" data-lang-es="Bots Creados">30+</span>
+      <div class="stat-label t" data-it="Bot Sviluppati" data-en="Bots Built" data-es="Bots Creados">Bot Sviluppati</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">2023</span>
+      <div class="stat-label t" data-it="Attivo Dal" data-en="Active Since" data-es="Activo Desde">Attivo Dal</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">20+</span>
+      <div class="stat-label t" data-it="Siti Web" data-en="Websites" data-es="Sitios Web">Siti Web</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">∞</span>
+      <div class="stat-label t" data-it="Passione" data-en="Passion" data-es="Pasión">Passione</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── CHI SONO / SKILLS ─── -->
+<section id="skills">
+  <p class="section-label reveal t" data-it="// 01 — COMPETENZE" data-en="// 01 — SKILLS" data-es="// 01 — HABILIDADES">// 01 — COMPETENZE</p>
+  <h2 class="section-title reveal t" data-it="Cosa <span class='accent'>Faccio</span>" data-en="What I <span class='accent'>Do</span>" data-es="Lo Que <span class='accent'>Hago</span>">Cosa <span class="accent">Faccio</span></h2>
+
+  <div class="skills-grid reveal">
+    <div class="skill-card">
+      <span class="skill-icon">🎮</span>
+      <div class="skill-name">FiveM Developer</div>
+      <p class="skill-desc t" data-it="Creo script avanzati, sistemi RP personalizzati, automazioni server-side e integrazioni Discord per server FiveM ad alte prestazioni." data-en="I create advanced scripts, custom RP systems, server-side automations and Discord integrations for high-performance FiveM servers." data-es="Creo scripts avanzados, sistemas RP personalizados, automatizaciones server-side e integraciones Discord para servidores FiveM de alto rendimiento.">Creo script avanzati, sistemi RP personalizzati, automazioni server-side e integrazioni Discord per server FiveM ad alte prestazioni.</p>
+      <span class="skill-tag">FIVEM • LUA • JS</span>
+    </div>
+    <div class="skill-card">
+      <span class="skill-icon">🤖</span>
+      <div class="skill-name">Discord Developer</div>
+      <p class="skill-desc t" data-it="Sviluppo bot Discord complessi: moderazione automatica, ticket system, assistenti testuali e strumenti gestionali per community strutturate." data-en="I develop complex Discord bots: automatic moderation, ticket systems, text assistants and management tools for structured communities." data-es="Desarrollo bots Discord complejos: moderación automática, sistema de tickets, asistentes textuales y herramientas de gestión para comunidades estructuradas.">Sviluppo bot Discord complessi: moderazione automatica, ticket system, assistenti testuali e strumenti gestionali per community strutturate.</p>
+      <span class="skill-tag">DISCORD API • NODE.JS</span>
+    </div>
+    <div class="skill-card">
+      <span class="skill-icon">⚡</span>
+      <div class="skill-name">Automation Specialist</div>
+      <p class="skill-desc t" data-it="Progetto sistemi di automazione per semplificare la gestione di server e community, aumentando efficienza e qualità dell'esperienza utente." data-en="I design automation systems to simplify server and community management, increasing efficiency and quality of the user experience." data-es="Diseño sistemas de automatización para simplificar la gestión de servidores y comunidades, aumentando la eficiencia y calidad de la experiencia de usuario.">Progetto sistemi di automazione per semplificare la gestione di server e community, aumentando efficienza e qualità dell'esperienza utente.</p>
+      <span class="skill-tag">WORKFLOW • INTEGRATIONS</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── PROGETTI ─── -->
+<section id="progetti">
+  <p class="section-label reveal t" data-it="// 02 — PROGETTI" data-en="// 02 — PROJECTS" data-es="// 02 — PROYECTOS">// 02 — PROGETTI</p>
+  <h2 class="section-title reveal t" data-it="Lavori <span class='accent'>Recenti</span>" data-en="Recent <span class='accent'>Work</span>" data-es="Trabajos <span class='accent'>Recientes</span>">Lavori <span class="accent">Recenti</span></h2>
+
+  <div class="projects-list reveal">
+    <div class="project-item">
+      <div class="project-num">01</div>
+      <div class="project-content">
+        <div class="project-title t" data-it="Bot Ticket & Moderazione — Luman" data-en="Ticket & Moderation Bot — Luman" data-es="Bot de Tickets & Moderación — Luman">Bot Ticket & Moderazione — Luman</div>
+        <p class="project-desc t" data-it="Sistema ticket avanzato con moderazione automatica, log intelligenti e gestione staff per la community Luman." data-en="Advanced ticket system with automatic moderation, smart logs and staff management for the Luman community." data-es="Sistema de tickets avanzado con moderación automática, logs inteligentes y gestión de staff para la comunidad Luman.">Sistema ticket avanzato con moderazione automatica, log intelligenti e gestione staff per la community Luman.</p>
+      </div>
+      <span class="project-badge badge-automation t" data-it="AUTOMAZIONE" data-en="AUTOMATION" data-es="AUTOMATIZACIÓN">AUTOMAZIONE</span>
+    </div>
+
+    <div class="project-item">
+      <div class="project-num">02</div>
+      <div class="project-content">
+        <div class="project-title">Edward Simpson</div>
+        <p class="project-desc t" data-it="Assistente governativo Discord per governo RP: gestione comunicazioni, annunci ufficiali, comandi istituzionali e supporto automatico." data-en="Discord government assistant for RP government: communication management, official announcements, institutional commands and automatic support." data-es="Asistente gubernamental Discord para gobierno RP: gestión de comunicaciones, anuncios oficiales, comandos institucionales y soporte automático.">Assistente governativo Discord per governo RP: gestione comunicazioni, annunci ufficiali, comandi istituzionali e supporto automatico.</p>
+      </div>
+      <span class="project-badge badge-gov">GOVERNMENT RP</span>
+    </div>
+
+    <div class="project-item">
+      <div class="project-num">03</div>
+      <div class="project-content">
+        <div class="project-title t" data-it="Tenente Tom Wally" data-en="Lieutenant Tom Wally" data-es="Teniente Tom Wally">Tenente Tom Wally</div>
+        <p class="project-desc t" data-it="Bot Discord per la polizia RP: gestione reparti, comandi operativi, segnalazioni e integrazione con sistemi RP interni." data-en="Discord bot for RP police: department management, operational commands, reports and integration with internal RP systems." data-es="Bot Discord para policía RP: gestión de departamentos, comandos operativos, reportes e integración con sistemas RP internos.">Bot Discord per la polizia RP: gestione reparti, comandi operativi, segnalazioni e integrazione con sistemi RP interni.</p>
+      </div>
+      <span class="project-badge badge-police">POLICE RP</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── WEB DEV ─── -->
+<section id="web">
+  <p class="section-label reveal t" data-it="// 03 — WEB DEVELOPMENT" data-en="// 03 — WEB DEVELOPMENT" data-es="// 03 — DESARROLLO WEB">// 03 — WEB DEVELOPMENT</p>
+  <h2 class="section-title reveal t" data-it="Siti <span class='accent'>Sviluppati</span>" data-en="Websites <span class='accent'>Built</span>" data-es="Sitios <span class='accent'>Desarrollados</span>">Siti <span class="accent">Sviluppati</span></h2>
+
+  <div class="web-grid reveal">
+    <div class="web-card">
+      <span class="web-icon">🛡️</span>
+      <div class="web-title t" data-it="Siti Web Polizia RP" data-en="RP Police Websites" data-es="Sitios Web Policía RP">Siti Web Polizia RP</div>
+      <p class="web-desc t" data-it="Portali web per forze dell'ordine RP: dashboard operative, gestione reparti, accessi riservati e integrazione Discord." data-en="Web portals for RP law enforcement: operational dashboards, department management, restricted access and Discord integration." data-es="Portales web para fuerzas del orden RP: dashboards operativos, gestión de departamentos, accesos restringidos e integración Discord.">Portali web per forze dell'ordine RP: dashboard operative, gestione reparti, accessi riservati e integrazione Discord.</p>
+      <span class="web-tag">LAW ENFORCEMENT</span>
+    </div>
+    <div class="web-card">
+      <span class="web-icon">💼</span>
+      <div class="web-title t" data-it="Siti Web Personali" data-en="Personal Websites" data-es="Sitios Web Personales">Siti Web Personali</div>
+      <p class="web-desc t" data-it="Portfolio moderni e performanti per sviluppatori, creator e staff RP, con design neon, animazioni e identità unica." data-en="Modern and high-performance portfolios for developers, creators and RP staff, with neon design, animations and unique identity." data-es="Portfolios modernos y de alto rendimiento para desarrolladores, creadores y staff RP, con diseño neón, animaciones e identidad única.">Portfolio moderni e performanti per sviluppatori, creator e staff RP, con design neon, animazioni e identità unica.</p>
+      <span class="web-tag">PORTFOLIO</span>
+    </div>
+    <div class="web-card">
+      <span class="web-icon">🛒</span>
+      <div class="web-title t" data-it="Store & Shop Online" data-en="Online Store & Shop" data-es="Tienda & Shop Online">Store & Shop Online</div>
+      <p class="web-desc t" data-it="Store web per vendita script, servizi digitali e prodotti RP, con sistemi ordine e gestione clienti integrati." data-en="Web stores for selling scripts, digital services and RP products, with order systems and integrated customer management." data-es="Tiendas web para venta de scripts, servicios digitales y productos RP, con sistemas de pedidos y gestión de clientes integrada.">Store web per vendita script, servizi digitali e prodotti RP, con sistemi ordine e gestione clienti integrati.</p>
+      <span class="web-tag">WEB STORE</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── COOKIE BANNER ─── -->
+<div id="cookie-banner">
+  <div class="cookie-inner">
+    <div class="cookie-text">
+      <span class="cookie-icon">🍪</span>
+      <div>
+        <div class="cookie-title t" data-it="INFORMATIVA SUI COOKIE — ART. 13 GDPR (REG. UE 2016/679)" data-en="COOKIE NOTICE — ART. 13 GDPR (EU REG. 2016/679)" data-es="AVISO DE COOKIES — ART. 13 RGPD (REG. UE 2016/679)">INFORMATIVA SUI COOKIE — ART. 13 GDPR (REG. UE 2016/679)</div>
+        <p class="cookie-desc t"
+          data-it="Questo sito utilizza esclusivamente cookie tecnici di prima parte, necessari al corretto funzionamento della navigazione. Non vengono installati cookie di profilazione o di terze parti. In conformità al GDPR e al Provvedimento del Garante Privacy dell'8 maggio 2014, il consenso non è richiesto per i soli cookie tecnici. Proseguendo la navigazione accetti tale utilizzo."
+          data-en="This site uses only first-party technical cookies, necessary for the correct functioning of navigation. No profiling or third-party cookies are installed. In accordance with the GDPR and Italian Data Protection Authority guidelines, consent is not required for technical cookies only. By continuing to browse, you accept this use."
+          data-es="Este sitio utiliza exclusivamente cookies técnicas de primera parte, necesarias para el correcto funcionamiento de la navegación. No se instalan cookies de perfilación ni de terceros. De conformidad con el RGPD, el consentimiento no es necesario para cookies estrictamente técnicas. Al continuar navegando, aceptas dicho uso."
+        >Questo sito utilizza esclusivamente cookie tecnici di prima parte, necessari al corretto funzionamento della navigazione. Non vengono installati cookie di profilazione o di terze parti. In conformità al GDPR e al Provvedimento del Garante Privacy dell'8 maggio 2014, il consenso non è richiesto per i soli cookie tecnici. Proseguendo la navigazione accetti tale utilizzo.</p>
+      </div>
+    </div>
+    <div class="cookie-actions">
+      <button class="btn btn-outline t" data-it="Rifiuta" data-en="Decline" data-es="Rechazar" id="cookie-decline" onclick="closeCookie()">Rifiuta</button>
+      <button class="btn btn-primary t" data-it="Ho Capito" data-en="Got It" data-es="Entendido" id="cookie-accept" onclick="closeCookie()">Ho Capito</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── MODALS ─── -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModal()"></div>
+
+<!-- TERMINI -->
+<div class="modal" id="modal-termini">
+  <button class="modal-close" onclick="closeModal()">✕</button>
+  <div class="modal-label t" data-it="// DOCUMENTI LEGALI" data-en="// LEGAL DOCUMENTS" data-es="// DOCUMENTOS LEGALES">// DOCUMENTI LEGALI</div>
+  <h2 class="modal-title t" data-it="Termini di Servizio" data-en="Terms of Service" data-es="Términos de Servicio">Termini di Servizio</h2>
+  <div class="modal-body">
+    <p class="t" data-it="Ultimo aggiornamento: marzo 2025" data-en="Last updated: March 2025" data-es="Última actualización: marzo 2025">Ultimo aggiornamento: marzo 2025</p>
+
+    <h3 class="t" data-it="1. Accettazione dei Termini" data-en="1. Acceptance of Terms" data-es="1. Aceptación de los Términos">1. Accettazione dei Termini</h3>
+    <p class="t"
+      data-it="Accedendo e utilizzando questo sito web (gamemaster755.netlify.app), l'utente accetta integralmente i presenti Termini di Servizio. Se non si accettano tali condizioni, si prega di non utilizzare il sito."
+      data-en="By accessing and using this website (gamemaster755.netlify.app), the user fully accepts these Terms of Service. If you do not accept these terms, please do not use the site."
+      data-es="Al acceder y utilizar este sitio web (gamemaster755.netlify.app), el usuario acepta íntegramente estos Términos de Servicio. Si no acepta estas condiciones, por favor no utilice el sitio."
+    >Accedendo e utilizzando questo sito web (gamemaster755.netlify.app), l'utente accetta integralmente i presenti Termini di Servizio. Se non si accettano tali condizioni, si prega di non utilizzare il sito.</p>
+
+    <h3 class="t" data-it="2. Descrizione del Servizio" data-en="2. Description of Service" data-es="2. Descripción del Servicio">2. Descrizione del Servizio</h3>
+    <p class="t"
+      data-it="Questo sito è un portfolio personale di GameMaster755, sviluppatore di script FiveM, bot Discord e soluzioni web per community online. I contenuti presenti hanno scopo puramente informativo e promozionale."
+      data-en="This site is a personal portfolio of GameMaster755, developer of FiveM scripts, Discord bots and web solutions for online communities. The content is for informational and promotional purposes only."
+      data-es="Este sitio es un portfolio personal de GameMaster755, desarrollador de scripts FiveM, bots Discord y soluciones web para comunidades online. El contenido tiene fines puramente informativos y promocionales."
+    >Questo sito è un portfolio personale di GameMaster755, sviluppatore di script FiveM, bot Discord e soluzioni web per community online. I contenuti presenti hanno scopo puramente informativo e promozionale.</p>
+
+    <h3 class="t" data-it="3. Proprietà Intellettuale" data-en="3. Intellectual Property" data-es="3. Propiedad Intelectual">3. Proprietà Intellettuale</h3>
+    <p class="t"
+      data-it="Tutti i contenuti presenti su questo sito — testi, grafica, codice, loghi e materiali multimediali — sono di proprietà esclusiva di GameMaster755, salvo diversa indicazione. È vietata la riproduzione, distribuzione o modifica senza esplicito consenso scritto."
+      data-en="All content on this site — texts, graphics, code, logos and multimedia materials — are the exclusive property of GameMaster755, unless otherwise indicated. Reproduction, distribution or modification without explicit written consent is prohibited."
+      data-es="Todos los contenidos de este sitio — textos, gráficos, código, logotipos y materiales multimedia — son propiedad exclusiva de GameMaster755, salvo indicación contraria. Se prohíbe su reproducción, distribución o modificación sin consentimiento escrito explícito."
+    >Tutti i contenuti presenti su questo sito — testi, grafica, codice, loghi e materiali multimediali — sono di proprietà esclusiva di GameMaster755, salvo diversa indicazione. È vietata la riproduzione, distribuzione o modifica senza esplicito consenso scritto.</p>
+
+    <h3 class="t" data-it="4. Limitazione di Responsabilità" data-en="4. Limitation of Liability" data-es="4. Limitación de Responsabilidad">4. Limitazione di Responsabilità</h3>
+    <p class="t"
+      data-it="GameMaster755 non si assume alcuna responsabilità per eventuali danni diretti o indiretti derivanti dall'utilizzo o dall'impossibilità di utilizzo del sito. Le informazioni fornite sono aggiornate al meglio delle possibilità ma potrebbero non essere sempre complete o aggiornate."
+      data-en="GameMaster755 assumes no liability for any direct or indirect damages arising from the use or inability to use the site. The information provided is updated to the best of our ability but may not always be complete or up to date."
+      data-es="GameMaster755 no asume ninguna responsabilidad por daños directos o indirectos derivados del uso o imposibilidad de uso del sitio. La información proporcionada se actualiza en la medida de lo posible, pero puede no estar siempre completa o actualizada."
+    >GameMaster755 non si assume alcuna responsabilità per eventuali danni diretti o indiretti derivanti dall'utilizzo o dall'impossibilità di utilizzo del sito. Le informazioni fornite sono aggiornate al meglio delle possibilità ma potrebbero non essere sempre complete o aggiornate.</p>
+
+    <h3 class="t" data-it="5. Modifiche ai Termini" data-en="5. Changes to Terms" data-es="5. Cambios en los Términos">5. Modifiche ai Termini</h3>
+    <p class="t"
+      data-it="GameMaster755 si riserva il diritto di modificare i presenti Termini in qualsiasi momento. Le modifiche saranno efficaci dal momento della pubblicazione sul sito. L'uso continuato del sito dopo tali modifiche costituisce accettazione dei nuovi termini."
+      data-en="GameMaster755 reserves the right to modify these Terms at any time. Changes will be effective from the moment of publication on the site. Continued use of the site after such changes constitutes acceptance of the new terms."
+      data-es="GameMaster755 se reserva el derecho de modificar estos Términos en cualquier momento. Los cambios serán efectivos desde el momento de su publicación en el sitio. El uso continuado del sitio tras dichos cambios constituye la aceptación de los nuevos términos."
+    >GameMaster755 si riserva il diritto di modificare i presenti Termini in qualsiasi momento. Le modifiche saranno efficaci dal momento della pubblicazione sul sito. L'uso continuato del sito dopo tali modifiche costituisce accettazione dei nuovi termini.</p>
+
+    <h3 class="t" data-it="6. Legge Applicabile" data-en="6. Applicable Law" data-es="6. Ley Aplicable">6. Legge Applicabile</h3>
+    <p class="t"
+      data-it="I presenti Termini sono regolati dalla legge italiana. Per qualsiasi controversia è competente il Foro del luogo di residenza del titolare del sito."
+      data-en="These Terms are governed by Italian law. For any dispute, the Court of the site owner's place of residence shall have jurisdiction."
+      data-es="Estos Términos se rigen por la ley italiana. Para cualquier disputa, será competente el Tribunal del lugar de residencia del titular del sitio."
+    >I presenti Termini sono regolati dalla legge italiana. Per qualsiasi controversia è competente il Foro del luogo di residenza del titolare del sito.</p>
+  </div>
+</div>
+
+<!-- PRIVACY POLICY -->
+<div class="modal" id="modal-privacy">
+  <button class="modal-close" onclick="closeModal()">✕</button>
+  <div class="modal-label">// DOCUMENTI LEGALI</div>
+  <h2 class="modal-title t" data-it="Privacy Policy" data-en="Privacy Policy" data-es="Política de Privacidad">Privacy Policy</h2>
+  <div class="modal-body">
+    <p class="t" data-it="Ultimo aggiornamento: marzo 2025 — In conformità al Reg. UE 2016/679 (GDPR)" data-en="Last updated: March 2025 — In accordance with EU Reg. 2016/679 (GDPR)" data-es="Última actualización: marzo 2025 — De conformidad con el Reg. UE 2016/679 (RGPD)">Ultimo aggiornamento: marzo 2025 — In conformità al Reg. UE 2016/679 (GDPR)</p>
+
+    <h3 class="t" data-it="1. Titolare del Trattamento" data-en="1. Data Controller" data-es="1. Responsable del Tratamiento">1. Titolare del Trattamento</h3>
+    <p class="t"
+      data-it="Titolare del trattamento dei dati è GameMaster755, contattabile tramite il server Discord ufficiale: discord.gg/RrnrzayJWm"
+      data-en="The data controller is GameMaster755, reachable via the official Discord server: discord.gg/RrnrzayJWm"
+      data-es="El responsable del tratamiento de datos es GameMaster755, contactable a través del servidor oficial de Discord: discord.gg/RrnrzayJWm"
+    >Titolare del trattamento dei dati è GameMaster755, contattabile tramite il server Discord ufficiale: discord.gg/RrnrzayJWm</p>
+
+    <h3 class="t" data-it="2. Dati Raccolti" data-en="2. Data Collected" data-es="2. Datos Recopilados">2. Dati Raccolti</h3>
+    <p class="t"
+      data-it="Questo sito non raccoglie dati personali degli utenti tramite form, registrazioni o sistemi di tracciamento attivo. I soli dati trattati sono quelli generati automaticamente dal server di hosting (Netlify) per scopi tecnici, quali indirizzo IP e log di accesso, conservati secondo le politiche di Netlify Inc."
+      data-en="This site does not collect personal data from users via forms, registrations or active tracking systems. The only data processed is that automatically generated by the hosting server (Netlify) for technical purposes, such as IP address and access logs, stored in accordance with Netlify Inc. policies."
+      data-es="Este sitio no recopila datos personales de los usuarios a través de formularios, registros o sistemas de seguimiento activo. Los únicos datos tratados son los generados automáticamente por el servidor de alojamiento (Netlify) con fines técnicos, como la dirección IP y los registros de acceso, almacenados según las políticas de Netlify Inc."
+    >Questo sito non raccoglie dati personali degli utenti tramite form, registrazioni o sistemi di tracciamento attivo. I soli dati trattati sono quelli generati automaticamente dal server di hosting (Netlify) per scopi tecnici, quali indirizzo IP e log di accesso, conservati secondo le politiche di Netlify Inc.</p>
+
+    <h3 class="t" data-it="3. Finalità del Trattamento" data-en="3. Purpose of Processing" data-es="3. Finalidad del Tratamiento">3. Finalità del Trattamento</h3>
+    <p class="t"
+      data-it="I dati tecnici di navigazione sono trattati esclusivamente per garantire il corretto funzionamento del sito, la sicurezza informatica e la prevenzione di abusi, ai sensi dell'art. 6, par. 1, lett. f) del GDPR (legittimo interesse)."
+      data-en="Technical navigation data is processed exclusively to ensure the correct functioning of the site, IT security and abuse prevention, pursuant to Art. 6(1)(f) GDPR (legitimate interest)."
+      data-es="Los datos técnicos de navegación se tratan exclusivamente para garantizar el correcto funcionamiento del sitio, la seguridad informática y la prevención de abusos, de conformidad con el art. 6, apdo. 1, letra f) del RGPD (interés legítimo)."
+    >I dati tecnici di navigazione sono trattati esclusivamente per garantire il corretto funzionamento del sito, la sicurezza informatica e la prevenzione di abusi, ai sensi dell'art. 6, par. 1, lett. f) del GDPR (legittimo interesse).</p>
+
+    <h3 class="t" data-it="4. Diritti dell'Interessato" data-en="4. Rights of the Data Subject" data-es="4. Derechos del Interesado">4. Diritti dell'Interessato</h3>
+    <p class="t"
+      data-it="In conformità agli artt. 15–22 del GDPR, l'utente ha diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità e opposizione. Per esercitare tali diritti è possibile contattare il titolare tramite Discord."
+      data-en="In accordance with Arts. 15–22 GDPR, the user has the right of access, rectification, erasure, restriction of processing, portability and objection. To exercise these rights, please contact the data controller via Discord."
+      data-es="De conformidad con los arts. 15–22 del RGPD, el usuario tiene derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad y oposición. Para ejercer estos derechos, puede contactar al responsable a través de Discord."
+    >In conformità agli artt. 15–22 del GDPR, l'utente ha diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità e opposizione. Per esercitare tali diritti è possibile contattare il titolare tramite Discord.</p>
+
+    <h3 class="t" data-it="5. Link Esterni" data-en="5. External Links" data-es="5. Enlaces Externos">5. Link Esterni</h3>
+    <p class="t"
+      data-it="Il sito contiene link a servizi di terze parti (Discord). GameMaster755 non è responsabile delle pratiche privacy di tali servizi. Si invita a consultare le rispettive privacy policy."
+      data-en="The site contains links to third-party services (Discord). GameMaster755 is not responsible for the privacy practices of such services. Please consult their respective privacy policies."
+      data-es="El sitio contiene enlaces a servicios de terceros (Discord). GameMaster755 no es responsable de las prácticas de privacidad de dichos servicios. Se recomienda consultar sus respectivas políticas de privacidad."
+    >Il sito contiene link a servizi di terze parti (Discord). GameMaster755 non è responsabile delle pratiche privacy di tali servizi. Si invita a consultare le rispettive privacy policy.</p>
+  </div>
+</div>
+
+<!-- COOKIE POLICY -->
+<div class="modal" id="modal-cookie">
+  <button class="modal-close" onclick="closeModal()">✕</button>
+  <div class="modal-label">// DOCUMENTI LEGALI</div>
+  <h2 class="modal-title t" data-it="Cookie Policy" data-en="Cookie Policy" data-es="Política de Cookies">Cookie Policy</h2>
+  <div class="modal-body">
+    <p class="t" data-it="Ultimo aggiornamento: marzo 2025 — Ai sensi del Provvedimento Garante Privacy dell'8 maggio 2014 e del GDPR Reg. UE 2016/679" data-en="Last updated: March 2025 — Pursuant to the Italian Data Protection Authority provision of 8 May 2014 and GDPR EU Reg. 2016/679" data-es="Última actualización: marzo 2025 — Conforme a la Disposición del Garante de Privacidad del 8 de mayo de 2014 y el RGPD Reg. UE 2016/679">Ultimo aggiornamento: marzo 2025 — Ai sensi del Provvedimento Garante Privacy dell'8 maggio 2014 e del GDPR Reg. UE 2016/679</p>
+
+    <h3 class="t" data-it="Cosa sono i Cookie" data-en="What are Cookies" data-es="Qué son las Cookies">Cosa sono i Cookie</h3>
+    <p class="t"
+      data-it="I cookie sono piccoli file di testo che i siti web visitati dall'utente inviano al terminale, dove vengono memorizzati per essere ritrasmessi alla successiva visita."
+      data-en="Cookies are small text files that websites visited by the user send to the terminal, where they are stored to be retransmitted on the next visit."
+      data-es="Las cookies son pequeños archivos de texto que los sitios web visitados por el usuario envían al terminal, donde se almacenan para ser retransmitidos en la siguiente visita."
+    >I cookie sono piccoli file di testo che i siti web visitati dall'utente inviano al terminale, dove vengono memorizzati per essere ritrasmessi alla successiva visita.</p>
+
+    <h3 class="t" data-it="Tipologie di Cookie Utilizzati" data-en="Types of Cookies Used" data-es="Tipos de Cookies Utilizadas">Tipologie di Cookie Utilizzati</h3>
+    <p class="t"
+      data-it="Questo sito utilizza esclusivamente cookie tecnici di prima parte. Nessun cookie di profilazione, tracciamento o di terze parti viene installato. I cookie tecnici presenti sono: cookie di sessione (temporanei, eliminati alla chiusura del browser) necessari per la navigazione."
+      data-en="This site uses exclusively first-party technical cookies. No profiling, tracking or third-party cookies are installed. The technical cookies present are: session cookies (temporary, deleted when the browser is closed) necessary for navigation."
+      data-es="Este sitio utiliza exclusivamente cookies técnicas de primera parte. No se instalan cookies de perfilación, seguimiento ni de terceros. Las cookies técnicas presentes son: cookies de sesión (temporales, eliminadas al cerrar el navegador) necesarias para la navegación."
+    >Questo sito utilizza esclusivamente cookie tecnici di prima parte. Nessun cookie di profilazione, tracciamento o di terze parti viene installato. I cookie tecnici presenti sono: cookie di sessione (temporanei, eliminati alla chiusura del browser) necessari per la navigazione.</p>
+
+    <h3 class="t" data-it="Base Giuridica" data-en="Legal Basis" data-es="Base Jurídica">Base Giuridica</h3>
+    <p class="t"
+      data-it="Per i soli cookie tecnici non è richiesto il consenso dell'utente, ai sensi dell'art. 122 del Codice Privacy e del Provvedimento del Garante dell'8 maggio 2014. La base giuridica è il legittimo interesse ai sensi dell'art. 6(1)(f) GDPR."
+      data-en="For technical cookies only, user consent is not required, pursuant to Art. 122 of the Privacy Code and the Garante's provision of 8 May 2014. The legal basis is legitimate interest pursuant to Art. 6(1)(f) GDPR."
+      data-es="Para las cookies estrictamente técnicas no se requiere el consentimiento del usuario, de conformidad con el art. 122 del Código de Privacidad y la Disposición del Garante del 8 de mayo de 2014. La base jurídica es el interés legítimo según el art. 6(1)(f) RGPD."
+    >Per i soli cookie tecnici non è richiesto il consenso dell'utente, ai sensi dell'art. 122 del Codice Privacy e del Provvedimento del Garante dell'8 maggio 2014. La base giuridica è il legittimo interesse ai sensi dell'art. 6(1)(f) GDPR.</p>
+
+    <h3 class="t" data-it="Gestione dei Cookie tramite Browser" data-en="Cookie Management via Browser" data-es="Gestión de Cookies a través del Navegador">Gestione dei Cookie tramite Browser</h3>
+    <p class="t"
+      data-it="L'utente può gestire, bloccare o eliminare i cookie attraverso le impostazioni del proprio browser. La disabilitazione dei cookie tecnici potrebbe compromettere il corretto funzionamento del sito. Per istruzioni specifiche consultare la guida del proprio browser."
+      data-en="The user can manage, block or delete cookies through their browser settings. Disabling technical cookies may impair the correct functioning of the site. For specific instructions, consult your browser's help guide."
+      data-es="El usuario puede gestionar, bloquear o eliminar las cookies a través de la configuración de su navegador. La desactivación de las cookies técnicas podría comprometer el correcto funcionamiento del sitio. Para instrucciones específicas, consulte la guía de su navegador."
+    >L'utente può gestire, bloccare o eliminare i cookie attraverso le impostazioni del proprio browser. La disabilitazione dei cookie tecnici potrebbe compromettere il corretto funzionamento del sito. Per istruzioni specifiche consultare la guida del proprio browser.</p>
+  </div>
+</div>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-name">GAMEMASTER755</div>
+  <div class="footer-links">
+    <button class="footer-link t" data-it="Termini di Servizio" data-en="Terms of Service" data-es="Términos de Servicio" onclick="openModal('termini')">Termini di Servizio</button>
+    <span class="footer-sep">•</span>
+    <button class="footer-link t" data-it="Privacy Policy" data-en="Privacy Policy" data-es="Política de Privacidad" onclick="openModal('privacy')">Privacy Policy</button>
+    <span class="footer-sep">•</span>
+    <button class="footer-link t" data-it="Cookie Policy" data-en="Cookie Policy" data-es="Política de Cookies" onclick="openModal('cookie')">Cookie Policy</button>
+  </div>
+  <br>
+  <a href="https://discord.gg/RrnrzayJWm" target="_blank" class="discord-link t" data-it="ENTRA NEL DISCORD" data-en="JOIN MY DISCORD" data-es="ÚNETE AL DISCORD">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.031.056a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
+    <span class="discord-text">ENTRA NEL DISCORD</span>
+  </a>
+</footer>
+
+<script>
+  // ─── MODAL SYSTEM ───
+  function openModal(id) {
+    document.getElementById('modal-overlay').classList.add('active');
+    const m = document.getElementById('modal-' + id);
+    m.style.display = 'block';
+    requestAnimationFrame(() => m.classList.add('active'));
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    document.querySelectorAll('.modal').forEach(m => {
+      m.classList.remove('active');
+      setTimeout(() => { if (!m.classList.contains('active')) m.style.display = 'none'; }, 300);
+    });
+    document.getElementById('modal-overlay').classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  // ─── LANGUAGE SYSTEM ───
+  let currentLang = 'it';
+
+  function setLang(lang) {
+    currentLang = lang;
+
+    // Update buttons
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('onclick').includes(`'${lang}'`));
+    });
+
+    // Translate all .t elements
+    document.querySelectorAll('.t').forEach(el => {
+      const val = el.getAttribute(`data-${lang}`);
+      if (!val) return;
+
+      // Handle discord-link specially (has svg child)
+      if (el.classList.contains('discord-link')) {
+        const span = el.querySelector('.discord-text');
+        if (span) span.textContent = val;
+        return;
+      }
+
+      // For elements that may contain HTML (span.accent)
+      if (val.includes('<span')) {
+        el.innerHTML = val;
+      } else {
+        el.textContent = val;
+      }
+    });
+
+    // Cookie banner
+    const cookieDesc = document.querySelector('.cookie-desc');
+    if (cookieDesc) {
+      cookieDesc.textContent = cookieDesc.getAttribute(`data-${lang}`) || cookieDesc.textContent;
+    }
+  }
+
+  function closeCookie() {
+    const banner = document.getElementById('cookie-banner');
+    banner.classList.add('hidden');
+    setTimeout(() => banner.remove(), 400);
+  }
+
+  // ─── REVEAL ON SCROLL ───
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  reveals.forEach(el => observer.observe(el));
+
+  // ─── SMOOTH SCROLL ───
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      document.querySelector(a.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
+</body>
+</html>
