@@ -5,7 +5,7 @@
     "username": "jarwomib",
     "email": "fajarwibowo21@gmail.com"
   },
-  "record": {
-    "CNAME": ["rdash-4x6x.vercel.app"]
+  "records": {
+    "CNAME": "rdash-4x6x.vercel.app"
   }
 }
