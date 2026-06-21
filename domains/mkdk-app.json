@@ -1,9 +1,12 @@
 {
   "owner": {
     "username": "mkdk",
-    "email": "evgeny.kozlov@vyyer.com"
+    "email": "ikodere@gmail.com"
   },
   "records": {
-    "NS": ["duke.ns.cloudflare.com", "kimora.ns.cloudflare.com"]
+    "NS": [
+      "duke.ns.cloudflare.com",
+      "kimora.ns.cloudflare.com"
+    ]
   }
 }
