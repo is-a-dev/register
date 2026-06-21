@@ -1,24 +1,17 @@
 {
-    "owner": {
-        "username": "binitkr985",
-        "email": "0506al241022@gmail.com"
-    },
-    "records": {
-        "MX": [
-            {
-                "value": "mx.zoho.in", "priority": 10
-            },
-            {
-                "value": "mx2.zoho.in", "priority": 20
-            },
-            {
-                "value": "mx3.zoho.in", "priority": 50
-            }
-        ],
-        "TXT": [
-            {
-                "value": "zoho-verification=zb59113750.zmverify.zoho.in"
-            }
-        ]
+  "owner": {
+    "username": "binitkr985",
+    "email": "binitkr9852@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "TXT": [
+      "zoho-verification=zb68448170.zmverify.zoho.in"
+    ],
+    "_vercel": {
+      "TXT": "vc-domain-verify=binitkr.is-a.dev,2f9bda4737eaab74a1b8"
     }
+  }
 }
