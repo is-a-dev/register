@@ -4,6 +4,7 @@
     "email": "ketanarora482@gmail.com"
   },
   "records": {
-    "CNAME": "my-portfolio-gamma-peach-23.vercel.app"
+    "CNAME": "my-portfolio-gamma-peach-23.vercel.app",
+    "TXT": "_vercel=vc-domain-verify=ketan.is-a.dev,f1953cfa8da01c739e1d"
   }
 }
