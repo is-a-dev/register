@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "alexgamingstudio",
+        "email": "info@alexgaming.is-a.dev"
+    },
+    "proxied": false,
+    "records": {
+        "CNAME": "b2.alexgaming-is-a-dev.dkim.brevo.com"
+    }
+}

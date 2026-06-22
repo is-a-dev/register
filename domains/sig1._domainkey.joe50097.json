@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Joe50097",
+    "email": "me@joe50097.is-a.dev"
+  },
+  "records": {
+    "CNAME": "sig1.dkim.joe50097.is-a.dev.at.icloudmailadmin.com"
+  }
+}

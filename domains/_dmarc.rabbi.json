@@ -1,0 +1,8 @@
+{
+    "owner": {
+        "username": "TheRabbiRifat"
+    },
+    "records": {
+        "TXT": ["v=DMARC1; p=none; rua=mailto:hello@rabbi.is-a.dev"]
+    }
+}
