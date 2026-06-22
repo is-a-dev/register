@@ -1,9 +1,9 @@
-
 {
-    "owner": {
-        "username": "iamShreerang"
-    },
-    "records": {
-        "CNAME": "portfolio-rosy-psi-z0bl3f7fot.vercel.app"
-    }
+  "owner": {
+    "username": "iamShreerang",
+    "email": "shreekolhe03@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-rosy-psi-z0bl3f7fot.vercel.app"
+  }
 }
