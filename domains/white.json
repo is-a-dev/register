@@ -12,7 +12,8 @@
       "185.199.111.153"
     ],
     "MX": [
-      "smtp.google.com"
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
     ],
     "TXT": [
       "google-site-verification=nhW_43TyWZBlJrxJM-yX7OcFY3NV0ikr1QH__uylj3I"
