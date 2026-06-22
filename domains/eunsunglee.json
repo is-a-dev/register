@@ -1,13 +1,9 @@
 {
   "owner": {
     "username": "eunsunglee0524",
-    "email": "eunsung_lee@hotmail.com" 
+    "email": "eunsung_lee@hotmail.com"
   },
   "records": {
-    "CNAME": "portfolio-6vr.pages.dev",
-    "NS": [
-      "chan.ns.cloudflare.com",
-      "rudy.ns.cloudflare.com"
-    ]
+    "CNAME": "portfolio-6vr.pages.dev"
   }
 }
