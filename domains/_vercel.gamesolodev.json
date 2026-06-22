@@ -4,6 +4,9 @@
     "email": "samuel.banapour100@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=gamesolodev.is-a.dev,f842b994c4dd9989e23f"
+    "TXT": [
+      "vc-domain-verify=gamesolodev.is-a.dev,f842b994c4dd9989e23f",
+      "vc-domain-verify=neonpong.gamesolodev.is-a.dev,3b85b8c880b2d4bb9d91"
+    ]
   }
 }
