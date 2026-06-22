@@ -4,6 +4,7 @@
         "email": "saifdemos@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "A": "216.198.79.1",
+        "TXT": "vc-domain-verify=saifdemos.is-a.dev,8bcf288878c6b0f6a3be"
     }
 }
