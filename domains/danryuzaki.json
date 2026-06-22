@@ -2,7 +2,8 @@
   "owner": {
     "username": "DanRyuzaki"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
-  }
+  },
+  "proxied": false
 }
