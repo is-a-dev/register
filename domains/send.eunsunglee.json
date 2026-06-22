@@ -1,0 +1,7 @@
+{
+  "owner": { "username": "eunsunglee0524" },
+  "record": {
+    "MX": [{ "priority": 10, "value": "feedback-smtp.ap-northeast-1.amazonses.com" }],
+    "TXT": ["v=spf1 include:amazonses.com ~all"]
+  }
+}
