@@ -2,9 +2,6 @@
     "owner": {
         "username": "mertultn"
     },
-    "record": {
-        "CNAME": "mertultn.github.io"
-    },
     "records": {
         "CNAME": "mertultn.github.io"
     }
