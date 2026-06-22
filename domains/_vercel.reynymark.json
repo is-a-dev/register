@@ -1,1 +1,12 @@
-
+{
+  "owner": {
+    "username": "comsolodev-1",
+    "email": "com.solodev@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=reynymark.is-a.dev,d13ba4bd702813d275ec",
+      "vc-domain-verify=www.reynymark.is-a.dev,fc24a881a7fb3edf4ed1"
+    ]
+  }
+}
