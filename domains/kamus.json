@@ -1,0 +1,11 @@
+{
+  "description": "Kamus Blog",
+  "repo": "https://github.com/pofnoth/kamus",
+  "owner": {
+    "username": "pofnoth",
+    "email": "misdarch@gmail.com"
+  },
+  "record": {
+    "CNAME": "pofnoth.github.io"
+  }
+}
