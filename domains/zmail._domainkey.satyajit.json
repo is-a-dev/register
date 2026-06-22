@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "SeeSatya",
+    "discord": "1421923434572681297"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwnbqyrNJzXfp2fCn07WZnM97WcJEn3WREw0Du7vUm/+OaDw9DIAlEo2QOR2PXRtcQ8/lUKu3xpr2KBV8F+v1/0S87mexzoOSDIk9HWkdKfvxpoJTGgd91ii9vcGswk9TTvJUbhInOKqD+JU8c9T/Pz4970SNEbsD65HYvBXpp9wIDAQAB"
+    ]
+  }
+}
