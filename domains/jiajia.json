@@ -3,11 +3,7 @@
     "username": "123968574m",
     "email": "2796497737@qq.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "name": "@",
-      "value": "123968574m.github.io"
-    }
-  ]
+  "records": {
+    "CNAME": "123968574m.github.io"
+  }
 }
