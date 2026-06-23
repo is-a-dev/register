@@ -1,0 +1,12 @@
+{
+  "description": "OpenClaw communication proxy",
+  "domain": "is-a.dev",
+  "subdomain": "openclaw",
+  "owner": {
+    "username": "zhujun0511-mooi",
+    "email": "zhujun0511@gmail.com"
+  },
+  "record": {
+    "CNAME": "ai-telegram-bot-comm-hub.zhujun0511.workers.dev"
+  }
+}
