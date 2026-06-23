@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "lfzac",
+    "email": "plumbingzack@outlook.com"
+  },
+  "records": {
+    "NS": [
+      "gene.ns.cloudflare.com",
+      "harlan.ns.cloudflare.com"
+    ]
+  }
+}
