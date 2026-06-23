@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "BlazerKers354"
+    "username": "BlazerKers354",
+    "email": "zulfaazka1966@gmail.com"
   },
   "records": {
-    "URL": "https://github.com/BlazerKers354/ZAFProctor"
-  }
+    "CNAME": "zafproctor-production.up.railway.app"
+  },
+  "proxied": false
 }
