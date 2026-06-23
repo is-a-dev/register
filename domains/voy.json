@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "simonkey888",
+    "email": "simondalmasso44@gmail.com"
+  },
+  "record": {
+    "CNAME": "voy-app.simondalmasso44.workers.dev"
+  }
+}
