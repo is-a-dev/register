@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "zacuo",
+    "email": "zac65535@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "guy.ns.cloudflare.com",
+      "ivy.ns.cloudflare.com"
+    ]
+  }
+}
