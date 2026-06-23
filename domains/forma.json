@@ -1,11 +1,9 @@
 {
-  "description": "Forma app",
-  "repo": "https://github.com/ribhavjain22",
   "owner": {
     "username": "ribhavjain22",
     "email": "empyreanprogenitor@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
