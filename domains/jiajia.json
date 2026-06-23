@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "123968574m",
+    "email": "2796497737@qq.com"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "value": "jiaxuan.github.io"
+    }
+  ]
+}
