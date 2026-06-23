@@ -4,6 +4,8 @@
         "email": "comptes@interverti.fr"
     },
     "records": {
-        "URL": "https://interverti.fr"
+        "URL": "https://interverti.fr",
+        "TXT" : "dh=aaa2bd7a605f9364073a095048d2638f66e65e23",
+        "TXT" : "aspe:keyoxide.org:OX5MVJUDC2ZDFBVIYWNXGA37LI"
     }
 }
