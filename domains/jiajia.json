@@ -8,11 +8,6 @@
       "type": "CNAME",
       "name": "@",
       "value": "jiaxuan.github.io"
-    },
-    {
-      "type": "TXT",
-      "name": "_github-pages-challenge-123968574m",
-      "value": "4099cd15535ba7133f14c765d93a0b"
     }
   ]
 }
