@@ -1,6 +1,8 @@
 {
+    "description": "Danny — freelance full-stack developer. Tell me the goal, I'll build it.",
     "owner": {
-        "username": "dannyyycodes"
+        "username": "dannyyycodes",
+        "email": "dannyyyyyy@pm.me"
     },
     "records": {
         "CNAME": "cname.vercel-dns.com"
