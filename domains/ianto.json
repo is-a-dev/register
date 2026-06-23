@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "ianto-cannon",
+        "email": "iantocannon86@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "aragorn.ns.cloudflare.com",
+            "monroe.ns.cloudflare.com"
+        ]
+    }
+}
