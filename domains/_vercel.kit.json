@@ -4,6 +4,6 @@
     "email": "aetheron.inc@proton.me"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=kit.is-a.dev,7aac69834083dad5eb84"
   }
 }

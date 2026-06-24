@@ -4,6 +4,6 @@
     "email": "aetheron.inc@proton.me"
   },
   "records": {
-    "CNAME": "romi-dev.pages.dev"
+    "A": ["216.198.79.1"]
   }
 }
