@@ -1,6 +1,6 @@
 {
   "owner": { "username": "eunsunglee0524" },
-  "record": {
+  "records": {
     "TXT": ["v=DMARC1; p=none;"]
   }
 }
