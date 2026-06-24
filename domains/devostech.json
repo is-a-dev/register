@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "magictechnology978-hub",
-        "email": "magictechnology978@gmail.com"
-    },
-    "record": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "magictechnology978-hub",
+    "email": "magictechnology978@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel.dns.com"
+  }
 }
+
