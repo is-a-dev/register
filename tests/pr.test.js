@@ -19,8 +19,17 @@ function getDomainData(subdomain) {
 
 t("Users can only update their own subdomains", (t) => {
     if (requiredEnvVars.every((v) => process.env[v])) {
-        const changedFiles = JSON.parse(process.env.CHANGED_FILES);
-        const deletedFiles = JSON.parse(process.env.DELETED_FILES);
+        let changedFiles, deletedFiles;
+        try {
+            changedFiles = JSON.parse(process.env.CHANGED_FILES || "[]");
+        } catch (error) {
+            return t.fail(`Failed to parse CHANGED_FILES env var: ${error.message}`);
+        }
+        try {
+            deletedFiles = JSON.parse(process.env.DELETED_FILES || "[]");
+        } catch (error) {
+            return t.fail(`Failed to parse DELETED_FILES env var: ${error.message}`);
+        }
         const prAuthor = process.env.PR_AUTHOR.toLowerCase();
         const prAuthorId = process.env.PR_AUTHOR_ID;
 
@@ -31,7 +40,7 @@ t("Users can only update their own subdomains", (t) => {
             .filter((file) => file.name.startsWith("domains/"))
             .map((file) => path.basename(file.name));
 
-        if (!changedJSONFiles && !deletedFiles) return t.pass();
+        if (changedJSONFiles.length === 0 && deletedJSONFiles.length === 0) return t.pass();
         if (process.env.PR_LABELS && process.env.PR_LABELS.includes("ci: bypass-owner-check")) return t.pass();
 
         changedJSONFiles.forEach((file) => {
@@ -53,14 +62,25 @@ t("Users can only update their own subdomains", (t) => {
 
         deletedJSONFiles.forEach((file) => {
             const subdomain = file.replace(/\.json$/, "");
-            const data = JSON.parse(
-                deletedFiles
-                    .find((f) => f.name === `domains/${file}`)
-                    .data.split("\n")
-                    .filter((line) => line.startsWith("-") && !line.startsWith("---"))
-                    .map((line) => line.substring(1))
-                    .join("\n")
-            );
+            const deletedFile = deletedFiles.find((f) => f.name === `domains/${file}`);
+            if (!deletedFile || !deletedFile.data) {
+                t.fail(`${file}: Could not find deleted file data for ${subdomain}`);
+                return;
+            }
+
+            let data;
+            try {
+                data = JSON.parse(
+                    deletedFile.data
+                        .split("\n")
+                        .filter((line) => line.startsWith("-") && !line.startsWith("---"))
+                        .map((line) => line.substring(1))
+                        .join("\n")
+                );
+            } catch (error) {
+                t.fail(`${file}: Failed to parse deleted file data for ${subdomain}: ${error.message}`);
+                return;
+            }
 
             if (data.owner.username === "is-a-dev") {
                 t.true(

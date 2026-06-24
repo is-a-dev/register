@@ -24,6 +24,11 @@ var records = [];
 for (var subdomain in domains) {
     var subdomainName = domains[subdomain].name;
     var data = domains[subdomain].data;
+
+    if (!data.records) {
+        throw new Error(subdomainName + ": missing 'records' field");
+    }
+
     var proxyState = data.proxied ? CF_PROXY_ON : CF_PROXY_OFF;
 
     // Handle A records
