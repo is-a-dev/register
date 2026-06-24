@@ -1,0 +1,10 @@
+{
+  "description": "Cuqui app - voice timer assistant",
+  "repo": "https://github.com/JoseAPortillo/Cuqui",
+  "owner": {
+    "username": "JoseAPortillo"
+  },
+  "record": {
+    "CNAME": "188.245.179.45"
+  }
+}
