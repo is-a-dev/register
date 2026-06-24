@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "chaoggo",
+    "email": "chaoggoc@163.com"
+  },
+  "records": {
+    "NS": [
+      "monroe.ns.cloudflare.com",
+      "odin.ns.cloudflare.com"
+    ]
+  }
+}
