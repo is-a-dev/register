@@ -6,6 +6,9 @@
     "email": "bia.gdgp@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": {
+      "_vercel": "vc-domain-verify=is-a.dev,17b4fc686c1d8a72ed3d"
+    }
   }
 }
