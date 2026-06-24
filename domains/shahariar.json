@@ -4,6 +4,6 @@
     "email": "shahariar.works@gmail.com"
   },
   "records": {
-    "CNAME": "shahariar-dev.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
