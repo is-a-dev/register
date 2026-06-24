@@ -4,6 +4,6 @@
     "email": "vanshrabadiyav@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=vanshrabadiya.is-a.dev,edb55ed798a76cf2b49b"
   }
 }
