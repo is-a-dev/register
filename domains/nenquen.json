@@ -1,5 +1,9 @@
 {
-  "owner": { "username": "nenquen" },
-  "email": { "barank2.3107@gmail.com" },
-  "record": { "CNAME": "nenquen.github.io" }
+  "owner": {
+    "username": "nenquen",
+    "email": "barank2.3107@gmail.com"
+  },
+  "record": {
+    "CNAME": "nenquen.github.io"
+  }
 }
