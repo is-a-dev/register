@@ -1,0 +1,10 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "zwitn",
+  "owner": {
+    "repo": "https://github.com/zwitn870/zwitn870"
+  },
+  "record": {
+    "A": ["92.118.206.166"]
+  }
+}
