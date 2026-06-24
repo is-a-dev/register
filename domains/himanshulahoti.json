@@ -1,0 +1,13 @@
+{
+  "description": "Personal portfolio website of Himanshu Lahoti, a Flutter & iOS developer.",
+  "repo": "https://github.com/himanshulahoti20",
+  "owner": {
+    "username": "himanshulahoti20",
+    "email": "himanshulahoti20@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "himanshulahotiportfolio.netlify.app",
+    "TXT": ["google-site-verification=m83Yl4E1PHDTdax9wqhrI_4S4G0hjvQ3oIpqGd6zs5A"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../DOMAIN_SCHEMA.json",
+  "description": "Ujjwal Singhal's developer portfolio",
+  "repo": "https://github.com/ujjwal8880/portfolio",
+  "owner": {
+    "username": "ujjwal8880",
+    "email": "ujjwalsinghal19@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
+}

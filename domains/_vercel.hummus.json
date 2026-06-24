@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "karimsangid",
+        "email": "karimsangid@gmail.com"
+    },
+    "description": "Vercel domain ownership verification for hummus.is-a.dev",
+    "repo": "https://github.com/karimsangid",
+    "records": {
+        "TXT": ["vc-domain-verify=hummus.is-a.dev,1c9893d0e1ad5a2053ad"]
+    }
+}

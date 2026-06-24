@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "kunjalswe",
-        "email": "kunjaldjoshi@gmail.com"
-    },
-    "records": {
-        "CNAME": "kunjalswe.github.io"
-    }
+  "owner": {
+    "username": "kunjalswe",
+    "discord": "1425018608232173619",
+    "twitter": "kunjalswe"
+  },
+  "records": {
+    "URL": "https://kunjaljoshi.com.np"
+  }
 }

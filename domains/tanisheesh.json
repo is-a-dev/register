@@ -5,8 +5,14 @@
     },
     "records": {
         "A": ["216.198.79.1"],
+        "MX": [
+            "mx.zoho.com",
+            "mx2.zoho.com",
+            "mx3.zoho.com"
+        ],
         "TXT": [
-            "zoho-verification=zb60574851.zmverify.zoho.com"
+            "v=spf1 include:zohomail.com ~all",
+            "zoho._domainkey=v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCVbh0Qz48tgWghlA/HSR0Wel01N1UcEw1MFO0oI2B7kaGzJ2PJWPp/Ib1ByG5sdzaL2qgYX5LYoUydZJ0roqZlByy2lKpz8l7cmO8/bemsBApH52Ry5WU1GfZY832+8p1N8BNiUOwUwLqqQoTVKrTASQL5p3RN4CtGvONdwP9YZwIDAQAB"
         ]
     }
 }

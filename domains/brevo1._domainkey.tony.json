@@ -5,6 +5,6 @@
   },
   "records": {
     "CNAME": "b1.tony-is-a-dev.dkim.brevo.com"
-  },
-  "proxied": true
+  }
+  
 }
