@@ -10,6 +10,5 @@
       "v=spf1 include:spf.improvmx.com ~all", 
       "openai-domain-verification=dv-aDPvVGgm94H2RBc5avIupJbC"
     ]
-  },
-  "proxied": true
+  }
 }
