@@ -4,6 +4,8 @@
         "email": "abbaszaigham744@gmail.com"
     },
     "records": {
-        "CNAME": "web-portfolio-wine-seven.vercel.app"
+        "A": [
+            "216.198.79.1"
+        ]
     }
 }
