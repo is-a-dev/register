@@ -8,7 +8,23 @@
       "216.198.79.1"
     ],
     "TXT": [
-      "zoho-verification=zb68448170.zmverify.zoho.in"
+      "zoho-verification=zb68448170.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all",
+      "google-site-verification=lm7-jEPwMX0cvSTUTvAsF0m-3isX9vkq_yrbJqGFlbU"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
     ]
   }
 }
