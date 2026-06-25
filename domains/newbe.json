@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "kevinewbe"
+    },
+    "records": {
+        "NS": [
+            "hal.ns.cloudflare.com",
+            "magali.ns.cloudflare.com"
+        ]
+    }
+}
