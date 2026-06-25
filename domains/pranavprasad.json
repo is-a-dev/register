@@ -2,7 +2,8 @@
   "owner": {
     "username": "Pranav-Prasad12"
   },
-  "records": {
-    "CNAME": "my-portfolio-tau-gules-32.vercel.app"
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=pranavprasad.is-a.dev,e677e8cab523dd2e356b"
   }
 }
