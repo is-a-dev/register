@@ -4,6 +4,7 @@
     "email": "julharie.maddin.13@gmail.com"
   },
   "records": {
-    "CNAME": "julhariemaddin-portfolio.vercel.app"
+    "CNAME": "julhariemaddin-portfolio.vercel.app",
+    "TXT" : "vc-domain-verify=julhariemaddin.is-a.dev,4881cc07dcf5079a4a33"
   }
 }
