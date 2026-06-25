@@ -4,7 +4,7 @@
     "email": "siddamurthi789@gmail.com"
   },
   "records": {
-    "CNAME": "siddamurthi789.workers.dev"
+    "CNAME": "siddamurthi789.pages.dev"
   },
   "description": "Personal development space and portfolio hosted on Cloudflare Workers.",
   "repo": "https://github.com/Roadmast/register"
