@@ -4,6 +4,10 @@
         "email": "dycandxquad@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=zvx.is-a.dev,e7bc8e7ce08cc85edbad"
+        "TXT": [
+            "vc-domain-verify=zvx.is-a.dev,e7bc8e7ce08cc85edbad",
+            "vc-domain-verify=synapse-ai.zvx.is-a.dev,b8c14cce6e88c83e7057",
+            "vc-domain-verify=status.zvx.is-a.dev,65e314be9d24e6c01282"
+        ]
     }
 }
