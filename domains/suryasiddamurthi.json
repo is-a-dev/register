@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Roadmast",
+    "email": "siddamurthi789@gmail.com"
+  },
+  "record": {
+    "CNAME": "siddamurthi789.workers.dev"
+  },
+  "description": "My personal development space and portfolio hosted on Cloudflare Workers.",
+  "repo": "https://github.com/Roadmast/register"
+}
