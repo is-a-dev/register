@@ -1,12 +1,12 @@
 {
     "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schemas/domain.json",
     "description": "SolveHub - A community Q&A platform by Mayank Pandey",
-    "repo": "https://github.com/MayankGitHub86/solvehub",
+    "repo": "https://github.com/MayankGitHub86",
     "owner": {
         "username": "MayankGitHub86",
         "email": "pandeymp8602@gmail.com"
     },
-    "record": {
+    "records": {
         "A": ["184.72.167.28"]
     }
 }
