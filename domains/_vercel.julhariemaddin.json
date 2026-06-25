@@ -4,9 +4,6 @@
     "email": "julharie.maddin.13@gmail.com"
   },
   "records": {
-    "TXT": [
-      "vc-domain-verify=julhariemaddin.is-a.dev,4881cc07dcf5079a4a33",
-      "vc-domain-verify=www.julhariemaddin.is-a.dev,f6387f5c838463a011ce"
-    ]
+    "TXT": "vc-domain-verify=julhariemaddin.is-a.dev,4881cc07dcf5079a4a33"
   }
 }
