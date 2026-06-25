@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schemas/domain.json",
     "description": "SolveHub - A community Q&A platform by Mayank Pandey",
     "repo": "https://github.com/MayankGitHub86/solvehub",
     "owner": {
