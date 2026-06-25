@@ -1,0 +1,11 @@
+{
+    "description": "Personal portfolio",
+    "repo": "https://github.com/ryuma69/portfolio",
+    "owner": {
+    "username": "ryuma69",
+    "email": "omarshaik247@gmail.com"
+  },
+    "record": {
+    "CNAME": "portfolio-ryuma.vercel.app"
+  }
+}
