@@ -2,7 +2,7 @@
   "owner": {
     "username": "magictechnology978-hub"
   },
-  "record": {
+  "records": {
     "A": [
       "216.198.79.1"
     ]
@@ -10,8 +10,10 @@
   "nested": [
     {
       "name": "_vercel",
-      "record": {
-        "TXT": "vc-domain-verify=devostech.is-a.dev,6f6b41f502672d915eb8"
+      "records": {
+        "TXT": [
+          "vc-domain-verify=devostech.is-a.dev,6f6b41f502672d915eb8"
+        ]
       }
     }
   ]
