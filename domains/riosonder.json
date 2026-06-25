@@ -1,0 +1,10 @@
+{
+  "description": "Rio Sonder",
+  "repo": "https://github.com/jasthri",
+  "owner": {
+    "username": "jasthri"
+  },
+  "record": {
+    "A": ["1.1.1.1"]
+  }
+}
