@@ -1,0 +1,11 @@
+{
+  "description": "My developer portfolio",
+  "domain": "is-a.dev",
+  "subdomain": "vansharma",
+  "owner": {
+    "username": "vansharmaweb"
+  },
+  "record": {
+    "CNAME": "vansharmaweb.github.io"
+  }
+}
