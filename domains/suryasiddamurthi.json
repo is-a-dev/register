@@ -3,7 +3,7 @@
     "username": "Roadmast",
     "email": "siddamurthi789@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "siddamurthi789.workers.dev"
   },
   "description": "Personal development space and portfolio hosted on Cloudflare Workers.",
