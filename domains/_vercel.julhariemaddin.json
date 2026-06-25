@@ -4,6 +4,9 @@
     "email": "julharie.maddin.13@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=julhariemaddin.is-a.dev,40cc5663e6f8f18bf5bd"
+    "CNAME" : "8e7a788bfe8ae2eb.vercel-dns-017.com.",
+    "TXT": ["vc-domain-verify=julhariemaddin.is-a.dev,40cc5663e6f8f18bf5bd",
+      "vc-domain-verify=www.julhariemaddin.is-a.dev,5da2480c600cb2f1ae3c",
+      "google-site-verification=OSMkAIY9gSvGT8stgTFnC3-hyZNrMreJWsGXN-j4_KE"]
   }
 }
