@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "alfatt28",
-    "email": "muhammad.nash11@gmail.com"
+    "email": "muhammad.nash11@gmail.com",
+    "github": "alfatt28"
   },
-  "records": {
+  "record": {
     "CNAME": "alfatt28.github.io"
-  }
+  },
+  "subdomain": "alfatt28"
 }
