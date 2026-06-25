@@ -4,6 +4,6 @@
     "email": "ukasha636@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=ukasha.is-a.dev,076d89537118dbca8c01"
   }
 }
