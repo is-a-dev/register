@@ -3,6 +3,20 @@
         "username": "developeradhi"
     },
     "records": {
-        "CNAME": "developeradhi.github.io"
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "MX": [
+            "10 mx.zoho.in",
+            "20 mx2.zoho.in",
+            "50 mx3.zoho.in"
+        ],
+        "TXT": [
+            "zoho-verification=zb19694310.zmverify.zoho.in",
+            "v=spf1 include:zoho.in ~all"
+        ]
     }
 }
