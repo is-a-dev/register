@@ -1,0 +1,11 @@
+{
+  "description": "지식 큐레이션 도서관",
+  "repo": "https://github.com/jtaechul/Product",
+  "owner": {
+    "username": "jtaechul",
+    "email": "jtaechul@gmail.com"
+  },
+  "record": {
+    "CNAME": "book-carousel.jtaechul.workers.dev"
+  }
+}
