@@ -7,6 +7,6 @@
         "email": "pandeymp8602@gmail.com"
     },
     "records": {
-        "CNAME": "184-72-167-28.sslip.io"
+        "A": ["184.72.167.28"]
     }
 }
