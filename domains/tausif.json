@@ -4,10 +4,6 @@
     "email": "itausif.cse@gmail.com"
   },
   "records": {
-    "CNAME": "39333c060edc72a3.vercel-dns-017.com",
-    "TXT": [
-      "vc-domain-verify=tausif.is-a.dev,7c621ae1b2b72549d794",
-      "vc-domain-verify=www.tausif.is-a.dev,f8097fa2dcd3d7130865"
-    ]
+    "CNAME": "39333c060edc72a3.vercel-dns-017.com"
   }
 }
