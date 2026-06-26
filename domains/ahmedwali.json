@@ -5,11 +5,17 @@
   },
   "records": {
     "CNAME": "portfolio-2nom-seven.vercel.app",
+    "TXT": [
+      "vc-domain-verify=ahmedwali.is-a.dev,0f372795ce2611c37712"
+    ]
+  },
+  "subdomains": {
     "_vercel": {
-      "TXT": [
-        "vc-domain-verify=ahmedwali.is-a.dev,0f372795ce2611c37712",
-        "vc-domain-verify=www.ahmedwali.is-a.dev,714fd7bb48ab810e2039"
-      ]
+      "records": {
+        "TXT": [
+          "vc-domain-verify=www.ahmedwali.is-a.dev,714fd7bb48ab810e2039"
+        ]
+      }
     }
   }
 }
