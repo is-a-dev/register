@@ -4,6 +4,8 @@
     "email": "itausif.cse@gmail.com"
   },
   "records": {
-    "CNAME": "39333c060edc72a3.vercel-dns-017.com"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
