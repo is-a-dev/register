@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "miftahozuki"
+    "username": "miftahozuki",
+    "email": "miftahzk.payments@gmail.com"
   },
   "record": {
     "CNAME": "miftahus-portofolio.vercel.app"
-  }
+  },
+  "proxied": true
 }
