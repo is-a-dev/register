@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ImBadAtThisStuff",
-    "email": "git.gay@pm.me"
-  },
-  "record": {
-    "CNAME": "ari.pages.gay"
-  }
+    "owner": {
+        "username": "AriTheStupidCat",
+        "email": "git.gay@pm.me"
+    },
+    "records": {
+        "URL": "https://a.stupid.cat"
+    }
 }
