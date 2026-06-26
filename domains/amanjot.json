@@ -1,4 +1,4 @@
 {
-  "owner": { "username": "amanmalhotra911" },
-  "records": { "CNAME": "cname.vercel-dns.com" }
+    "owner": { "username": "amanmalhotra911", "email": "amanmalhotra911@gmail.com" },
+    "records": { "CNAME": "cname.vercel-dns.com" }
 }
