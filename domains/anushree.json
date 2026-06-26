@@ -4,7 +4,7 @@
     "email": "anushree1606balaji@gmail.com"
   },
   "records": {
-    "CNAME": "://vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com"
   },
   "subdomains": {
     "_vercel": {
