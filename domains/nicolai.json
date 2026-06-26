@@ -4,6 +4,7 @@
         "email": "nicolai.s.holmgaard@gmail.com"
     },
     "records": {
-        "CNAME": "nicolai9852.github.io"
-    }
+        "CNAME": "iteologi-studie.pages.dev"
+    },
+    "proxied": true
 }

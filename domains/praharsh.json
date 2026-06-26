@@ -4,6 +4,6 @@
     "email": "praharshsamria@gmail.com"
   },
   "records": {
-    "CNAME": "praharsh.zz.mu"
+    "A": ["82.180.143.98"]
   }
 }

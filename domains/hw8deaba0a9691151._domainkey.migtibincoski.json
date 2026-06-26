@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "migtibincoski",
+        "email": "contato@migtibincoski.is-a.dev"
+    },
+    "records": {
+        "TXT": [
+            "v=DKIM1; k=rsa; h=sha256; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtJR8nrL2VMQXPMrEMkLrEcd3MMltefvwG4yoIZZb4EvQgWUNo7JajJwsFxIRI4zgxU14jv3ZzAAIqpj4s1o1wQpRpm3s8vhP2jpO/4cefrVu5EvhLcx+3rjFGRrxFhXvjaKn0MdPoyll4spcKZAjWHPp21jaOMqgRF3Jag0FiZqKgQRUTyMZirJa9HKJftrNsx2vn4ltYn2FR3iAbIyhnIGjT0YMlY6yuLfopGFLRyjCy6o/1v+SqmZAY/vM/r3+/JA+BVFe8VUGMHAcMsh9yKPEMT+ZERm7zDKh29m7JZiQ8MqZF+qes5AuSeG0OJratzsAG1voSrE3QeBb7rQRbQIDAQAB"
+        ]
+    }
+}

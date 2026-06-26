@@ -4,6 +4,6 @@
         "email": "sandroqarqusashvili@gmail.com"
     },
     "records": {
-        "CNAME": "sandro21.github.io"
+        "A": ["216.198.79.1"]
     }
 }
