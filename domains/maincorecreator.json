@@ -6,5 +6,6 @@
   "records": {
     "CNAME": "dxotu7fz.up.railway.app",
     "TXT": ["railway-verify=441fc9f51880a0791cd065705c93cef86442dee8d8f0a11b374d80ae80fe1072"]
-  }
+  },
+  "proxied": true
 }
