@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "alkastraverse"
+  },
+
+  "record": {
+    "NS": [
+      "hera.ns.cloudflare.com",
+      "rob.ns.cloudflare.com"
+    ]
+  }
+}
