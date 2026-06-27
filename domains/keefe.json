@@ -1,11 +1,8 @@
 {
-  "description": "My personal website",
-  "repo": "https://github.com/CallmeKeefe/Personal-Website",
-  "owner": {
-    "username": "CallmeKeefe",
-    "email": "stevenkeefe5@gmail.com"
-  },
-  "record": {
-    "CNAME": "steven-keefe.vercel.app"
-  }
+    "owner": {
+        "username": "CallmeKeefe"
+    },
+    "records": {
+        "CNAME": "https://steven-keefe.vercel.app"
+    }
 }
