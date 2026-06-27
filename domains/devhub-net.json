@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "mehrwdade",
+    "email": "admin@devhub-panel.is-a.dev"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "a.v2boxerfree2.workers.dev"
+    }
+  ]
+}
