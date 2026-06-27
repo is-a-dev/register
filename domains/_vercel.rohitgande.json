@@ -4,6 +4,9 @@
     "email": "rohitgande0705@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=rohitgande.is-a.dev,6b5af78085220fcda500"
+    "TXT": [
+      "vc-domain-verify=rohitgande.is-a.dev,6b5af78085220fcda500",
+      "vc-domain-verify=www.rohitgande.is-a.dev,073f88013de53e452830"
+    ]
   }
 }
