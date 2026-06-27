@@ -8,5 +8,6 @@
     "TXT": [
       "_vercel=vc-domain-verify=algoverse.is-a.dev,79dd46cd98825b9c56de"
     ]
-  }
+  },
+  "proxied": true
 }
