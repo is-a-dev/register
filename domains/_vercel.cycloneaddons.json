@@ -7,6 +7,9 @@
         "twitter": "cycloneaddons"
     },
     "records": {
-       "TXT": "vc-domain-verify=cycloneaddons.is-a.dev,4347db6ae19a76a9e664"
+       "TXT": [
+           "vc-domain-verify=cycloneaddons.is-a.dev,4347db6ae19a76a9e664",
+           "vc-domain-verify=www.cycloneaddons.is-a.dev,251999003776cc51a971"
+       ]
     }
 } 
