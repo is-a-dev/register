@@ -3,7 +3,7 @@
     "username": "dirun123",
     "email": "hello@shalukagimhan.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
