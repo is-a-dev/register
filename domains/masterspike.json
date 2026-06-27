@@ -2,7 +2,8 @@
   "description": "Master Spike personal portfolio and projects hub.",
   "repo": "https://github.com/MasterSpikeDev/Spike-HUB",
   "owner": {
-    "username": "MasterSpikeDev"
+    "username": "MasterSpikeDev",
+    "email": "svf18062006@gmail.com"
   },
   "record": {
     "CNAME": "masterspikedev.github.io"
