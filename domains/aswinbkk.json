@@ -12,7 +12,8 @@
     ],
     "TXT": [
       "zoho-verification=zb43995267.zmverify.zoho.in",
-      "v=spf1 include:zoho.in ~all"
+      "v=spf1 include:zoho.in ~all",
+      "v=DMARC1; p=none; rua=mailto:contact@aswinbkk.is-a.dev; ruf=mailto:contact@aswinbkk.is-a.dev; sp=none; adkim=r; aspf=r; pct=100"
     ]
   }
 }
