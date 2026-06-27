@@ -8,8 +8,8 @@
         "A": [
             "216.198.79.1"
         ],
-        "TXT": {
-            "_vercel": "vc-domain-verify=im-denise.is-a.dev,7587d0b0945c06867b04"
-        }
+        "_vercel.TXT": [
+            "vc-domain-verify=im-denise.is-a.dev,7587d0b0945c06867b04"
+        ]
     }
 }
