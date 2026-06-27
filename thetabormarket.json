@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "yourGitHubUsername",
+    "email": "youremail@example.com"
+  },
+  "record": {
+    "CNAME": "thetabormarket.pages.dev"
+  }
+}
