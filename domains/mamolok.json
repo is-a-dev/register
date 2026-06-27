@@ -1,1 +1,11 @@
-
+{
+  "description": "My profile website",
+  "owner": {
+    "username": "mamolok",
+    "email": "baramee.dev@gmail.com"
+  },
+  "record": {
+    "CNAME": "myfirebasehosting-f8c2a.web.app",
+    "TXT": "hosting-site=myfirebasehosting-f8c2a"
+  }
+}
