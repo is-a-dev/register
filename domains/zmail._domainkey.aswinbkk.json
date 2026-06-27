@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "aswinbkk"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmN8wD0CvK9yioMiPGZijX3Srpdt1N5JIAoDhYq/hvFk56ybBt1/4j0WN3y29f99YJveHCMu6X++/09lPk+/JTAP/IV0gNO1lgSYySaEklOUr02P33OmtQTacv+INSgf2nneuXfMSg1AEm4Uijx3O78wmGqZcI/BSKFH8ZPr8u8gPU1AIAGRrPrhhhq25KriiH7vGf5Z+4DW6BK7LlPWi+BkzDpZJ5tlgadDS580WGRKNrUzcma8vtG2XDR3h879WmMaO58axrigFKXG4+EkI616IyusN+EpnLR5i5hIRupy1WcvABaw08RPMGnZzLjg1KMozQZYAJECiBJePcvd0LQIDAQAB"
+  }
+}
