@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "kyyril"
+        "username": "kyyril",
+        "email": "kyyril@proton.me"
     },
     "records": {
         "TXT": "vc-domain-verify=kiril.is-a.dev,6bf4ffb5612bc28d065d"
