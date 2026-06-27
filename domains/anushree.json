@@ -1,14 +1,9 @@
-{
-  "owner": {
-    "username": "Anushree401",
-    "email": "anushree1606balaji@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  },
-  "subdomains": {
-    "_vercel": {
-      "txt": ["vc-domain-verify=anushree.is-a.dev,l62ee4cc025cedf94daa"]
-    }
-  }
+{ 
+  "owner": { 
+    "username": "Anushree401", 
+    "email": "anushree1606balaji@gmail.com" 
+  }, 
+  "records": { 
+    "A": ["216.198.79.1"] 
+  } 
 }
