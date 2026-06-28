@@ -1,0 +1,11 @@
+{
+  "description": "SuryaNand PA Personal Website",
+  "repo": "https://github.com/SuryaNandPA",
+  "owner": {
+    "username": "SuryaNandPA",
+    "email": "hello.suryanand@gmail.com"
+  },
+  "record": {
+    "CNAME": "personal-website-gold-xi-27.vercel.app"
+  }
+}
