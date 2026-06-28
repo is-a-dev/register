@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "paulalexeevich",
+    "email": "pavel.popkov@form.com"
+  },
+  "records": {
+    "NS": ["ns1.cloudflare.com", "ns2.cloudflare.com"]
+  }
+}
