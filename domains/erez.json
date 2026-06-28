@@ -1,0 +1,10 @@
+json
+{
+  "owner": {
+    "username": "SpikeboyIL",
+    "email": "erez@rocketmail.com"
+  },
+  "record": {
+    "CNAME": "erez-builds.vercel.app"
+  }
+}
