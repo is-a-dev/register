@@ -1,0 +1,11 @@
+{
+  "description": "Andrew Assistant personal MCP server",
+  "repo": "https://github.com/kinos-wq/andrew-assistant",
+  "owner": {
+    "username": "kinos-wq",
+    "email": "kinostcrime@gmail.com"
+  },
+  "record": {
+    "CNAME": "placeholder.trycloudflare.com"
+  }
+}
