@@ -1,10 +1,11 @@
 {
   "owner": {
     "username": "debarchito",
-    "email": "debarchitonath@gmail.com",
+    "email": "debarchiton@proton.me",
     "discord": "739497344780992564"
   },
   "records": {
-    "CNAME": "debarchito.github.io"
+    "CNAME": "debarchito.github.io",
+    "TXT": "_github-pages-challenge-debarchito=4ff2639d6d794522db3ea6adbf9e20"
   }
 }
