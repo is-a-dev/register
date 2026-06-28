@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "rivando-al-rasyid",
+    "email": "nougat-tutorial@protonmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
