@@ -1,0 +1,12 @@
+{
+  "description": "Prenotazione Carrelli Notebook",
+  "domain": "is-a.dev",
+  "subdomain": "carrelli-scuola",
+  "owner": {
+    "username": "solmint-space",
+    "email": "giovanni.rossi17@outlook.com"
+  },
+  "record": {
+    "CNAME": "calm-ground-005f5dd10.7.azurestaticapps.net"
+  }
+}
