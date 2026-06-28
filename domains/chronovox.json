@@ -4,9 +4,11 @@
     "email": "muhammaddiyorshokirov72@gmail.com"
   },
   "record": {
-    "NS": [
-      "athena.ns.cloudflare.com",
-      "vin.ns.cloudflare.com"
-    ]
+    "records": {
+      "NS": [
+        "athena.ns.cloudflare.com",
+        "vin.ns.cloudflare.com"
+      ]
+    }
   }
 }
