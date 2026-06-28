@@ -1,10 +1,12 @@
-{
-  "owner": {
-    "username": "mkishoredev",
-    "email": "kishoredxd@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=mkishore.is-a.dev,7f6aeb49b31f4f8330bd"
-  }
+{ 
+  "owner": { 
+    "username": "mkishoredev", 
+    "email": "kishoredxd@gmail.com" 
+  }, 
+  "records": { 
+    "TXT": [
+      "vc-domain-verify=mkishore.is-a.dev,7f6aeb49b31f4f8330bd",
+      "google-site-verification=L_O2TLRIzK8o5GcShYpT9t1TzZm0dCGKTLdw_xpZrn8"
+    ]
+  } 
 }
-
