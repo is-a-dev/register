@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "jq-works"
+    "username": "jq-works",
+    "discord": "jackqqqq_"
   },
   "records": {
-    "CNAME": "jackqqq.vercel.app"
+    "URL": "https://jackqqq.vercel.app/"
   }
 }
