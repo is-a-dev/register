@@ -5,7 +5,6 @@
     "email": "baramee.dev@gmail.com"
   },
   "records": {
-    "CNAME": "myfirebasehosting-f8c2a.web.app",
-    "TXT": "hosting-site=myfirebasehosting-f8c2a"
+    "CNAME": "myfirebasehosting-f8c2a.web.app"
   }
 }
