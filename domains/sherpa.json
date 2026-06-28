@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "urbanlotusai"
+  },
+  "description": "Sherpa — an AWS knowledge assistant.",
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
