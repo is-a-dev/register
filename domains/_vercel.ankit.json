@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "your-github-username",
+        "email": "your-email@gmail.com"
+    },
+    "records": {
+        "TXT": ["vc-domain-verify=ankit.is-a.dev,aa44e9a3ca930433f867"]
+    }
+}
