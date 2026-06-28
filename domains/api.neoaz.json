@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "lazyneoaz",
-        "email": "neoaz69x@gmail.com"
-    },
-    "records": {
-        "CNAME": "03248b844aaa723a.vercel-dns-017.com"
-    }
+  "owner": {
+    "username": "lazyneoaz", 
+    "email": "neoaz69x@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
