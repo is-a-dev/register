@@ -3,6 +3,9 @@
         "username": "meobourguignon-rgb"
     },
     "records": {
-        "CNAME": "frosty-violet-80ef.meobourguignon.workers.dev"
+        "A": [
+            "172.67.209.130",
+            "104.21.73.187"
+        ]
     }
 }
