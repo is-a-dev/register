@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "thiemcun169",
+        "email": "thiemnguyenba169@gmail.com"
+    },
+    "description": "ThiemCun POS — mini app quản lý bán hàng (React + FastAPI + Supabase) hosted on Vercel",
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
+}
