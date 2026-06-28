@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "xlsanal"
-  },
-  "records": {
-    "TXT": "did=did:plc:7v4k5yy4sp4eakmuaorx2n2q",
-    "URL": "https://bsky.app/profile/xlsanal.is-a.dev"
-  }
+    "owner": {
+        "username": "xlsanal",
+        "email": "enocxndetanirlar@gmail.com"
+    },
+    "records": {
+        "CNAME": "xlsanal.github.io"
+    }
 }
