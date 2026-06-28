@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "aswinbkk",
+    "github": "https://github.com/aswinbkk"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "MX": [
+      { "target": "mx.zoho.in", "priority": 10 },
+      { "target": "mx2.zoho.in", "priority": 20 },
+      { "target": "mx3.zoho.in", "priority": 50 }
+    ],
+    "TXT": [
+      "zoho-verification=zb43995267.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all",
+      "v=DMARC1; p=none; rua=mailto:admin@aswinbkk.is-a.dev; ruf=mailto:admin@aswinbkk.is-a.dev; sp=none; adkim=r; aspf=r; pct=100"
+    ]
+  }
+}
