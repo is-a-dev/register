@@ -1,0 +1,10 @@
+{
+  "description": "My personal page",
+  "owner": {
+    "username": "BakaAfk",
+    "email": "xuanbac01102006@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
