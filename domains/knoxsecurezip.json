@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "knox9014"
+  \"owner\": {
+    \"username\": \"knox9014\",
+    \"email\": \"seongmin9014@gmail.com\"
   },
-  "records": {
-    "CNAME": "knox9014.github.io"
+  \"records\": {
+    \"CNAME\": \"knox9014.github.io\"
   }
 }
