@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "undefinedmc7680",
+    "email": "u402339391@gmail.com"
+  },
+  "records": {
+    "MX": ["mx1.forwardemail.net"]
+    "MX": ["mx2.forwardemail.net"]
+    "TXT": ["forward-email=u402339391@gmail.com"]
+    "URL": ["https://www.undefinedmc7680.f5.si"]
+  }
+}
