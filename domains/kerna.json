@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "kerna-network",
+    "email": "kernacoin@proton.me"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": true
+}
