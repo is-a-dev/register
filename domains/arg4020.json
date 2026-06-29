@@ -4,7 +4,9 @@
     "email": "arirajd@gmail.com"
   },
   "records": {
-    "AAAA": "2405:201:c021:112:dea6:32ff:feb2:3a23"
+    "AAAA": [
+      "2405:201:c021:112:dea6:32ff:feb2:3a23"
+    ]
   },
   "proxied": true
 }
