@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio",
-  "repo": "https://github.com/0spol/0spol.github.io",
   "owner": {
     "username": "0spol",
     "email": "gaparicio368@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "0spol.github.io"
   }
 }

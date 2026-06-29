@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Dishant402955",
-        "email": "dishantradadiya3036@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=dishant.is-a.dev,cfc2c6cd0ad49054757b"
-    }
+  "owner": {
+    "username": "Dishant402955",
+    "email": "dishantradadiya3036@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=dishant.is-a.dev,cfc2c6cd0ad49054757b"
+  }
 }

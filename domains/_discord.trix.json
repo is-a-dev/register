@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "tr1xem"
+    "username": "tr1xem",
+    "email": "admin@trixsly.xyz"
   },
-  "record": {
-    "TXT": ["dh=ecefe601258bdf0c1e1e20adb05d84c7b7229995"]
+  "records": {
+    "TXT": "dh=ecefe601258bdf0c1e1e20adb05d84c7b7229995"
   }
 }

@@ -3,7 +3,9 @@
     "username": "bteamapp",
     "email": "helpapp.bta@gmail.com"
   },
-  "record": {
-    "CNAME": "ghs.google.com"
+  "proxied": true,
+  "records": {
+    "CNAME": "ghs.google.com",
+    "TXT": "brevo-code:4a6e073acf19d6eb62ae4ef7d9259923"
   }
 }

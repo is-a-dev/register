@@ -1,11 +1,9 @@
 {
-    "description": "itsjhonalex.is-a.dev",
-    "repo": "github.com/ItsJhonAlex/PortfolioDev",
-    "owner": {
-        "username": "ItsJhonAlex",
-        "email": "itsjhonalex@gmail.com"
-    },
-    "record": {
-         "TXT": "vc-domain-verify=itsjhonalex.is-a.dev,8c4f4f96f1fa142804c7"
-    }
+  "owner": {
+    "username": "ItsJhonAlex",
+    "email": "itsjhonalex@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=itsjhonalex.is-a.dev,8c4f4f96f1fa142804c7"
+  }
 }

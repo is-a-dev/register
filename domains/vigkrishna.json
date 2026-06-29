@@ -1,11 +1,9 @@
 {
-  "description": "vigkrishna.is-a.dev",
-  "repo": "https://vigkrishna.github.io/Portfolio_2023",
   "owner": {
     "username": "vigkrishna",
     "email": "vigkrishna@yahoo.com"
   },
-  "record": {
+  "records": {
     "CNAME": "vigkrishna.github.io"
   }
 }

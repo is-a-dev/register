@@ -1,0 +1,11 @@
+{
+  "description": "Developer website of FlashSoft - andrei0x309",
+  "repo": "https://github.com/andrei0x309/flashsoft-sk",
+  "owner": {
+    "username": "andrei0x309",
+    "email": "andrei0x309@outlook.com"
+  },
+  "records": {
+    "CNAME": "fsk.netlify.app"
+  }
+}

@@ -1,11 +1,9 @@
 {
-  "description": "Personal website",
-  "repo": "https://github.com/antlis/antlis.github.io",
   "owner": {
     "username": "antlis",
     "email": "crabs@cock.li"
   },
-  "record": {
+  "records": {
     "CNAME": "antlis.github.io"
   }
 }

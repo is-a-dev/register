@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio for my works..",
-  "repo": "https://github.com/tas33n/tas33n.github.io",
   "owner": {
     "username": "tas33n",
     "email": "tasu.legend@gmail.com"
   },
-  "record": {
-    "CNAME": "tas33n.pages.dev"
+  "records": {
+    "A": ["76.76.21.21"]
   }
 }

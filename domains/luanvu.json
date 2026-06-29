@@ -1,11 +1,9 @@
 {
-  "description": "My portfolio website",
-  "repo": "https://github.com/zthanhluan/luan.is-a.dev",
   "owner": {
     "username": "zthanhluan",
     "email": "dientu078@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "luanvu.betaenglish.com.vn"
   },
   "proxied": false

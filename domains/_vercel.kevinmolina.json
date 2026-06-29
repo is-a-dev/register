@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kevinmolinadev",
-        "email": "kevinmolina.dev@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=kevinmolina.is-a.dev,514e23dcdfedeb5ae4c5"
-    }
+  "owner": {
+    "username": "kevinmolinadev",
+    "email": "kevinmolina.dev@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=kevinmolina.is-a.dev,514e23dcdfedeb5ae4c5"
+  }
 }

@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "mrtspeedy",
-        "email": "toxicspeedytv@gmail.com",
-        "discord": "1095502790534627348"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=mrtspeedy.is-a.dev,c168ba7b9bdca5dd1be8"
-    }
+  "owner": {
+    "username": "mrtspeedy",
+    "email": "toxicspeedytv@gmail.com",
+    "discord": "1095502790534627348"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mrtspeedy.is-a.dev,c168ba7b9bdca5dd1be8"
+  }
 }

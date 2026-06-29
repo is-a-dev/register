@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "ajtabjs"
+    "username": "ajtabjs",
+    "email": "oro10jua@gmail.com"
   },
-  "record": {
-    "TXT": ["dh=44c33bd9561dd8d8079e707868adf359b0c5ff05"]
+  "records": {
+    "TXT": "dh=44c33bd9561dd8d8079e707868adf359b0c5ff05"
   }
 }

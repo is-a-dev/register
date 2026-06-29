@@ -4,7 +4,7 @@
     "email": "iakzs@protonmail.com",
     "discord": "622795838032314388"
   },
-  "record": {
-    "MX": ["mx1.improvmx.com"]
+  "records": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
   }
 }

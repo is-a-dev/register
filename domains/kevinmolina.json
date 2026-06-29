@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kevinmolinadev",
-        "email": "kevinmolina.dev@gmail.com"
-    },
-    "record": {
-        "CNAME": "kevinmolinadev.vercel.app"
-    }
+  "owner": {
+    "username": "kevinmolinadev",
+    "email": "kevinmolina.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "kevinmolinadev.vercel.app"
+  }
 }

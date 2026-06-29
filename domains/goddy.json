@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "Owinogoddie",
-      "email": "owinogoddie@gmail.com"
-    },
-    "record": {
-      "URL": "https://goddy-the-dev.vercel.app"
-    }
+  "owner": {
+    "username": "Owinogoddie",
+    "email": "owinogoddie@gmail.com"
+  },
+  "records": {
+    "URL": "https://goddy-the-dev.vercel.app"
   }
-  
+}

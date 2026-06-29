@@ -1,11 +1,9 @@
 {
-  "description": "Gaurav Tewari",
-  "repo": "https://github.com/tewarig/tewarig.github.io",
   "owner": {
-    "username": "tewarig",
-    "email": "gauravtewari111@gmail.com"
+    "username": "gaurav-develops",
+    "email": "gaurav-develops@proton.me"
   },
-  "record": {
-    "CNAME": "tewarig.github.io"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

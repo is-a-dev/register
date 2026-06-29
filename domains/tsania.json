@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tsnzzhr",
-        "email": "tsnzzhr102@gmail.com"
-    },
-    "record": {
-        "CNAME": "tsanias.vercel.app"
-    }
+  "owner": {
+    "username": "tsnzzhr",
+    "email": "tsnzzhr102@gmail.com"
+  },
+  "records": {
+    "CNAME": "tsanias.vercel.app"
+  }
 }

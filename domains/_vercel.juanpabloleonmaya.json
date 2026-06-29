@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "juanleon8581",
-        "email": "juanleon8581@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=juanpabloleonmaya.is-a.dev,60444b8f6c0ae7c91c12"
-    }
+  "owner": {
+    "username": "juanleon8581",
+    "email": "juanleon8581@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=juanpabloleonmaya.is-a.dev,60444b8f6c0ae7c91c12"
+  }
 }

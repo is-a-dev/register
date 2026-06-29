@@ -1,10 +1,10 @@
 {
-    "description": "The blog of Hao Hoang",
-    "owner": {
-        "username": "vanhaohoang",
-        "email": "hoangvanhao99.01@gmail.com"
-    },
-    "record": {
-        "CNAME": "vanhaohoang.github.io"
-    }
+  "description": "The blog of Hao Hoang",
+  "owner": {
+    "username": "vanhaohoang",
+    "email": "hoangvanhao99.01@gmail.com"
+  },
+  "records": {
+    "CNAME": "vanhaohoang.github.io"
+  }
 }

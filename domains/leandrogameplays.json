@@ -2,11 +2,10 @@
   "owner": {
     "username": "LeandroGameplaysBR",
     "email": "leandrogameplays74@outlook.com",
-    "discord": "351853993443590145",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.bZj78GsosfV-njUz8U1rJxGiVcdUic3W0HrirEAP8066paJbeal5aYkKOyyeTO7hmyatEJgdXr2DGGPexl079J4oawcsXiQYrewOwsc4XeLkpiWmAkMAJlflEy0Lwu_zPIcS6FHbLscjFltjYB0I_VaWH7d1yL-dDdB_9f79LqePpEDVWeSm_tE_K9AvOZWTxjlW-MLgtsF_dZkMCn5ez7gfQxya4KHFY2l9bEREmRe_hr_ZZp12WvNrlF29qW5MFbFQsbrYsDrI-iOxjsY041RJVT7G1abtTkF1bLuFN-5dkHXmcobAgsA9i_Z217_NLhVEfzfhxiEVvhh8bsxt-g.0gki4o65YPpemExFGVKWGQ.5filVxsyk_BErBgcU2nFuEHMtIuNQI1lUXV5oQtFB3Dr3eZCishTmAzyicrT_fu3I_BG1lstU2B3HXIDkza2bwRgOV1QTc0YmXT1jnY17tteTxICfcLkjgwqXYcoakfu.-rWHQPsibUCgYKaPMnP7vQ"
+    "discord": "351853993443590145"
   },
-  "record": {
+  "records": {
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

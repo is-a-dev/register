@@ -1,10 +1,10 @@
 {
   "owner": {
     "username": "ChirayuSahu",
-    "discord": "711526476704382979",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.s4iQE3i8vgf-LeRAC1vfr6khK-U9zKiobIBW-dRV1qFhuTR4QsZvvGO2qt5Ihg938qAS934UvgF0uruo0RBSNjpfV8aywmZee65Z8hUZbWlaM7gFyqSkrKuMUxRr0gH4ckeaumeL5pJqO7cR3OY5qH_nRhcYQTzunH35cI2onTH6rQoUq179ShgCg2ATb5Mz8M2XmVEikcTWhLl5XDz1Bf04_bGsTmcXaSs7lvehDkFZrx2L4V3a-jEkN77UUBYW-InnOidSi7uz8ZLmQG-2SquTKXpyeMPP9CIOHGcWIhqoe7okS507sqZxHdUpsRCTbB28Elw8vO_NAa4dnpwIxg.NpK2mdZu15IgnmzjzHa_KQ.huIUnyAoYbMBAUB0ary5kvKzb1i0z-M20Dvqoo3Xx1cXfISzxHLdrCJbdfbmJvnso5OvGkj0kbR5UPD1JywGGm6nCxdJ-dS5Ehr8d2GH3Ew.-lS9paJMoym4DCSRG5m1MA"
+    "discord": "711526476704382979"
   },
-  "record": {
+  "records": {
     "A": ["5.9.123.217"]
-  }
+  },
+  "proxied": true
 }

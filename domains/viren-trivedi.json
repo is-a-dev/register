@@ -1,10 +1,8 @@
 {
-  "description": "Viren Profile.",
-  "repo": "https://github.com/viren-trivedi/viren-trivedi.github.io",
   "owner": {
     "username": "viren-trivedi"
   },
-  "record": {
+  "records": {
     "CNAME": "viren-trivedi.github.io"
   }
 }

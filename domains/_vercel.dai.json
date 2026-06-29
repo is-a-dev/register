@@ -3,7 +3,7 @@
     "username": "ncdai",
     "email": "dai@chanhdai.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=dai.is-a.dev,1f58fc0d6c2eb6cc92d7"]
+  "records": {
+    "TXT": "vc-domain-verify=dai.is-a.dev,1f58fc0d6c2eb6cc92d7"
   }
 }

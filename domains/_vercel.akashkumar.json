@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "akash-kumar-dev",
-        "email": "akashkumar.dev00@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=akashkumar.is-a.dev,844132b059abdd5bd808"
-    }
+  "owner": {
+    "username": "akash-kumar-dev",
+    "email": "akashkumar.dev00@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=akashkumar.is-a.dev,844132b059abdd5bd808"
+  }
 }

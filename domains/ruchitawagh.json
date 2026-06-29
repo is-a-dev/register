@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio",
-  "repo": "https://github.com/Roxie2003/Portfolio",
   "owner": {
     "username": "Roxie2003",
     "email": "ruchita03wagh@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "roxie2003.github.io"
   }
 }

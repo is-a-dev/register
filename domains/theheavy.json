@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "PyNexus-PYPI",
-    "discord": "1266113644643614803",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.Q0hi0eXIZoyV_qha54TNehZhpAbeSyzQI1OIT2wjQvArwviwVaqn4AKQj4LWMxDJFDu7KgAL-k336uR2UF26HMQ1h3BhR9t8xq_UdDJLrNv9HOyxBzLrVWZp3yveH__Cli62iKkBzJCu-0q2IbThvnZEhyyELgHBhXMot5eqWpm5vE_MGICc50lcz7vZNDPJTEGiie6bLdbvNPfxiXVugjhm7WW_tNoSheHSSOGr3asBTLFpl_46d-KGH07uKCc_wGgn9rz26qY0dwhaqTRDmq1lWn4_yuknefBHVw51vpk_C-7NA0lMp711CfPeqw0fKQT5n-QCSp4JfyYgXJkQhg.S6gJHj5xinUubawSe5bbEg.HR9U7iv7mJJAXQ1u5U88vuT0W9XbCd74QpxNl9Swn0QZ7DZs4foP8VbwLE7-L1EmEog8VSHnVWnrJO3SY06DZscCELHocxxPrOpe7cTcpomW3Sx4_fItRqIWV4OWl1Lr.qqnRh7IvZACgHMU5bwXM3g"
+    "discord": "1266113644643614803"
   },
-  "record": {
+  "records": {
     "CNAME": "pynexus-pypi.github.io"
   }
 }

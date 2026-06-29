@@ -4,7 +4,7 @@
     "username": "loomeh",
     "bluesky": "loomeh.bsky.social"
   },
-  "record": {
+  "records": {
     "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrWUZ5Vfigr20ye1jk/A8BprQadj0d0ry2cd64fKfh+8r28UkocwQeIFFQ0CYq6vCzeaKHb1ejJh5PZG+C+8J/q152wkerLLgb6+l0FrDC1e7oN5dvIpy4oDvbzAg4dTyG5h3T5W12zFLp58EagAXLC9FLikxer2VstZYBxcUFCQIDAQAB"
   }
 }

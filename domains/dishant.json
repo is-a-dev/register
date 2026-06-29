@@ -1,10 +1,10 @@
 {
-   "repo":"https://github.com/Dishant402955/Portfolio",
-  "owner":{
+  "repo": "https://github.com/Dishant402955/Portfolio",
+  "owner": {
     "username": "Dishant402955",
-    "email":"dishantradadiya3036@gmail.com"
+    "email": "dishantradadiya3036@gmail.com"
   },
-  "record":{
-    "CNAME":"portfolio-dishants-projects-6881d6c0.vercel.app"
+  "records": {
+    "CNAME": "portfolio-dishants-projects-6881d6c0.vercel.app"
   }
 }

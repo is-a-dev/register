@@ -1,10 +1,10 @@
 {
+  "description": "Reaver.Entertainment",
   "owner": {
     "username": "playreaver",
-    "discord": "802466803984760853",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.YIQZW1Q4GvuHtwoVApEhTUfnTvZRbzgeTMFBwrRj4bRe-r37w_KlqAfvqDuBXCPv7a7uPkwE5evyx_DVX2UJ3Jl5M8N1SMKIg26cnzShzMARtF1m6oBGlei_fGung5SHj0UUekOnNqE6XlspxmKZLRT1EfT9H1DxLxXHlWjOaV1uAtEyKcZvv5G1TR_pLEanpcAik1jHaSdRoMOHH_LL4T-yZ_AcY2qfzI9dKdkJSdzdjw0ZKhmmFX9APqUTf9AWV2P0Aj_dKIKejzdR8CgTqnofaI7eWZ3kAJp_8LDVNoisvJvr2BgnPGvCQ_Lfv7YRouD7UE0SHEh9Rb0Ev1owsQ.FDIBraLuBZXlcNTt3jsXdA.MRrBmfOZ3L9_pnW4SuCmAaAr23yqsMOp-ptrX4TUFwY9Gobq7XyzKp1q-8w4Uv_bTsDEVj-QvEhsCRFKrnctLb-yDWHCJfQMau1mgwCgaK4.qG8M04A5TqkLwQnOLJD0QA"
+    "email": "reaver.entertainment@hotmail.com"
   },
-  "record": {
-    "CNAME": "playreaver.github.io"
+  "records": {
+    "URL": "https://reaver.is-a.dev/"
   }
 }

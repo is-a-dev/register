@@ -1,12 +1,10 @@
 {
-  "description": "Domain for my potfolio website",
-  "repo": "https://github.com/darkdevil3610/portfolio",
   "owner": {
     "username": "darkdevil3610",
     "email": "herokugourav@gmail.com",
     "twitter": "gourav3609"
   },
-  "record": {
+  "records": {
     "CNAME": "darkdevil3610.github.io"
   }
 }

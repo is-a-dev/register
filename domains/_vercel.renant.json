@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "renant",
-        "email": "renan_replay@live.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=renant.is-a.dev,fe738eebddc5a20097e6"
-    }
+  "owner": {
+    "username": "renant",
+    "email": "renan_replay@live.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=renant.is-a.dev,fe738eebddc5a20097e6"
+  }
 }

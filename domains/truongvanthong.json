@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "truongvanthong",
-        "email": "thongvanpro2002@gmail.com"
-    },
-    "record": {
-        "CNAME": "truongvanthong.github.io"
-    }
+  "owner": {
+    "username": "truongvanthong",
+    "email": "thongvanpro2002@gmail.com"
+  },
+  "records": {
+    "CNAME": "truongvanthong.github.io"
+  }
 }

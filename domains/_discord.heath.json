@@ -3,7 +3,7 @@
     "username": "minodab492",
     "email": "heath.garvin@minodabproductions.dev"
   },
-  "record": {
-    "TXT": ["dh=5a45b7cd26a9cd21f027e4bbf1c010cac0b78204"]
+  "records": {
+    "TXT": "dh=5a45b7cd26a9cd21f027e4bbf1c010cac0b78204"
   }
 }

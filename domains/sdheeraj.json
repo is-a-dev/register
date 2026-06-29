@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "17sdheeraj",
-    "OWL": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJfaWQiOiIxMzE4NDk3NjUiLCJ1c2VybmFtZSI6IjE3c2RoZWVyYWoiLCJlbWFpbCI6IjE3c2RoZWVyYWpAd2luZ2Fyci5ldS5vcmcifSwiZXhwaXJlc0luIjoiOTk5OXkiLCJpYXQiOjE3MjE1MzM2ODJ9.7wMG7oM75_RVLS7uWP0b0gqJOP_v9jsfxRq-UcqPlgM"
+    "email": "contact@sdheeraj.is-cool.dev"
   },
-  "record": {
-    "CNAME": "17sdheeraj.github.io"
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com include:_spf.google.com ~all"
   }
 }

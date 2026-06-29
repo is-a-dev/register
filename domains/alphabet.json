@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "Commandify",
-    "email": "commandify@gmail.com"
+    "username": "callmealphabet",
+    "email": "sigma.alphabet@proton.me"
   },
-  "record": {
-    "A": ["68.183.191.223"]
-  }
+  "records": {
+    "CNAME": "itzalphabet.pages.dev"
+  },
+  "proxied": true
 }

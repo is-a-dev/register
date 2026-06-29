@@ -1,11 +1,9 @@
 {
-    "description": "Porfolio website",
-    "repo": "https://github.com/FuSoraS/portfolio",
-    "owner": {
-        "username": "FuSoraS",
-        "email": "developer.FuSoraS@gmail.com"
-    },
-    "record": {
-        "CNAME": "fusoras.github.io"
-    }
+  "owner": {
+    "username": "FuSoraS",
+    "email": "developer.FuSoraS@gmail.com"
+  },
+  "records": {
+    "CNAME": "fusoras.github.io"
+  }
 }

@@ -3,7 +3,7 @@
     "username": "SebTNT",
     "email": "turquoisetntmultimedia@gmail.com"
   },
-  "record": {
-    "CNAME": "turquoisetnt.github.io"
+  "records": {
+    "URL": "https://team.tnt.is-a.dev"
   }
 }

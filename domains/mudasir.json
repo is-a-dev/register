@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mirzamudassir",
-        "discord": "0xmudassir"
-    },
-    "record": {
-        "CNAME": "modasir.vercel.app"
-    }
+  "owner": {
+    "username": "mirzamudassir",
+    "discord": "0xmudassir"
+  },
+  "records": {
+    "CNAME": "modasir.vercel.app"
+  }
 }

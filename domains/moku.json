@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio Website",
-  "repo": "https://github.com/Moku922/CSS_HTML-CV_Website",
   "owner": {
     "username": "Moku922",
     "email": "abdulmoqtadir1@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "moku922.github.io"
   }
 }

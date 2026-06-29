@@ -2,10 +2,9 @@
   "owner": {
     "username": "NotCryptid",
     "email": "cryptid@thingai.xyz",
-    "discord": "545305641212706819",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.Ow5vOC5DYFkZ20ukBdrfiOfcTb9zGMbnQyldB0CaiIN8dVdXiZKVGEkmNIKWS6qyhnN-zmGA4gyqdwJ2YC7k3A6YNWcVwMq2mGPGnELtaavIkeex55z4fyZ8qxM49I51s5VT43V05qabzEBAJRrJeoX_qj4djtttxHWj5u7h5eZMMM3LFiYGgrzZ6H7Hdckl57sxzuC5KVz6JP_8e46ip6lowekUxPSe0TWuW910zO97sqc2cbCtQNwp6k5nCV4L0Us669A5XxRgI4LLGxSrjac7ACp4bv7tvXxE11pQPb0fQeqa0hyxB_lUDK8GvmKt6DGS8xLwyjwQdGALPc-BIQ.A-ZKIYM1iQTnY9mqtSxVkw.Fujnp_Vv-c6MDtH1I4XeaJiI0mwOM8Z4Cdp5IjAO-slOgsZnGJuhdX_azeWWNZrLB3HiftQwekFS9J9JP6zHgToirezSoKYrWf3IihYxSoZODysPgfha4weChAq_fNhv.-l3CfdXMoneU79zq_7GRDA"
+    "discord": "545305641212706819"
   },
-  "record": {
+  "records": {
     "CNAME": "cryptidbleh.vercel.app"
   }
 }

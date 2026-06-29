@@ -1,12 +1,9 @@
 {
-    "description": "PORTFOLIO",
-    "owner": {
-      "username": "sangeeth-606",
-      "email": "sangeeth999123@gmail.com"
-    },
-    "repo": "https://github.com/sangeeth-606/meh",
-    "record": {
-      "CNAME": "github-sangeeth-606.github.io"
-    }
+  "owner": {
+    "username": "sangeeth-606",
+    "email": "sangeeth999123@gmail.com"
+  },
+  "records": {
+    "CNAME": "github-sangeeth-606.github.io"
   }
-  
+}

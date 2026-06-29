@@ -3,8 +3,26 @@
     "username": "PentSec",
     "email": "pentsec.2@protonmail.com"
   },
-  "record": {
-    "CNAME": "pentsec.github.io"
+  "records": {
+    "CNAME": "pentsec.github.io",
+    "TXT": [
+      "zoho-verification=zb88781183.zmverify.zoho.com", 
+      "v=spf1 include:zohomail.com ~all"
+    ],
+    "MX": [
+        {
+          "target": "mx.zoho.com",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.com",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.com",
+          "priority": 50
+        }
+      ]
   },
   "redirect_config": {
     "custom_paths": {

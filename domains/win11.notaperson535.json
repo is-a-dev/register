@@ -1,11 +1,9 @@
 {
-  "description": "My windows 11 in HTML",
-  "repo": "https://github.com/notAperson535/Win11-HTML",
   "owner": {
     "username": "notAperson535",
     "email": "notAperson939@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "notaperson535.github.io"
   }
 }

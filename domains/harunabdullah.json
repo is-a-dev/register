@@ -1,12 +1,16 @@
 {
-    "owner": {
-        "username": "harunabdullahrakin"
-    },
-  
-  "record": {
-    "A": [
-      "185.31.40.12"
+  "owner": {
+    "username": "harunabdullahrakin",
+    "email": "harunabdullahrakin@gmail.com"
+  },
+  "records": {
+    "CNAME": "my-portfolio-d61.pages.dev",
+    "TXT": "v=spf1 include:spf.ipzmarketing.com include:spf.improvmx.com ~all",
+    
+    "MX": [
+      { "target": "mx1.improvmx.com", "priority": 10 },
+      { "target": "mx2.improvmx.com", "priority": 20 }
     ]
-  
-}
+  },
+  "proxied": true
 }

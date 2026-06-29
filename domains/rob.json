@@ -1,11 +1,9 @@
 {
-  "description": "Rob.Is-A.Dev Website",
-  "repo": "https://melroser.github.io",
   "owner": {
     "username": "melroser",
     "email": "biz@eml.cc"
   },
-  "record": {
+  "records": {
     "CNAME": "melroser.github.io"
   }
 }

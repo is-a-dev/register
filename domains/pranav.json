@@ -1,11 +1,10 @@
 {
   "description": "Documentation website for is-a.dev",
-  "repo": "https://github.com/is-a-dev/docs",
   "owner": {
     "username": "Srcpranav",
     "email": "zoldyckzoldyck41@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pranav-portfolio-sigma.vercel.app"
   },
   "proxied": true

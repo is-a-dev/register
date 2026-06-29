@@ -1,11 +1,9 @@
 {
-  "description": "TJU Engineering Mechanics Guide",
-  "repo": "https://gitlab.com/tju-2021-engineering-mechanics-top-notch/tju-emg",
   "owner": {
     "username": "XiaoHuanwise",
     "email": "1056366209@qq.com"
   },
-  "record": {
+  "records": {
     "URL": "https://tju-2021-engineering-mechanics-top-notch.gitlab.io/tju-emg"
   }
 }

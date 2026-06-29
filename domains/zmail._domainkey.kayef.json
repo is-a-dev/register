@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "Nowazish-Nur-Kayef",
+   "email": "nawazishkayef@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFRasr9J/MAMViuYBiGehniIFl+FC18rJfwYoQYEzYLvEAst+OPM4AOIWqPb7X2NXIerNwZOVuX+yp1bZE1qltgOquONptWbXj3upSxq9hOqtVfIiTDXwBAn+2GemaNfVX1EPhO3yh9X6I13a8kruuyCvl2IYY4Wg/GsmPFZ+AbwIDAQAB"
+  }
+}

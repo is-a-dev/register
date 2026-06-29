@@ -6,25 +6,20 @@ on:
         paths:
             - "domains/*"
             - ".github/workflows/publish.yml"
+            - "util/reserved.json"
             - "dnsconfig.js"
 
     workflow_dispatch:
 
 concurrency:
     group: ${{ github.ref }}-publish
-    cancel-in-progress: false
 
 jobs:
     dns:
         name: DNS
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-
-            - name: Run tests
-              run: |
-                  npm install
-                  npx ava tests/*.test.js
+            - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
             - name: Generate creds.json
               run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json

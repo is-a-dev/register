@@ -1,11 +1,9 @@
 {
-  "repo": "https://github.com/nevenxr/nevenxr.github.io",
-  "description": "Personal Website",
   "owner": {
     "username": "nevenxr",
     "discord": "Neven#3985"
   },
-  "record": {
+  "records": {
     "CNAME": "nevenxr.github.io"
   }
 }

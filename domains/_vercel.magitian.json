@@ -3,7 +3,7 @@
     "username": "magitian",
     "email": "magitian@duck.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=magitian.is-a.dev,645e2d8f0ecf6f802922"]
+  "records": {
+    "TXT": "vc-domain-verify=magitian.is-a.dev,645e2d8f0ecf6f802922"
   }
 }

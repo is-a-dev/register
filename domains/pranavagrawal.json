@@ -1,13 +1,11 @@
 {
-  "description": "Personal Portfolio",
-  "repo": "https://github.com/pranavagrawal321/pranavagrawal321.github.io",
   "owner": {
     "username": "pranavagrawal321",
     "email": "pranavagrawal321@gmail.com"
   },
-  "record": {
-    "A": ["185.199.108.153"],
-    "AAAA": ["2606:50c0:8001::153"],
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+    "AAAA": ["2606:50c0:8000::153", "2606:50c0:8001::153", "2606:50c0:8002::153", "2606:50c0:8003::153"],
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }

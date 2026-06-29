@@ -2,11 +2,10 @@
   "owner": {
     "username": "ajhalili2006",
     "discord": "437044173825114113",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.KYflKk2IBSfS6chUMYUGHREeeZVR18nZA-TlYCa5lgQGaR1P6lixNKJAJcJv72mUkHus2VyrrxSkl5ttCTtBXFdFs8eA4jNFPjtvC_7Qt-i_v0UWs5rxtdZ2y3MsN6jzPeVzHcVq2gQG9RFdIniBHMKuEOfiPCPqXp_CbdjBddCRQRsIzunnAwof917053o4EV3JCMVN9ObW3Jdq9GD9QaB_vPG9HjFqzwlvSA6QFbQYYilvij7UF5I3pcLfNyOw3tascM6GMDlXJxtqL2r6HLo58MSagDKycFCuuxdfsRljnLypuwF0m_3bEV76QRpvMWY_NmW6FaveHLjzd82l0g.ABEBdXC3pvmyqoKfDAw86A.NNKf3gP3_-fzpnvGWIBJaSzsU-d1ZJsDFJSyc52B6pjz1LrYOeK_0-QjF8w1Y1xiaRz475Drvb-27xOCjANJjZlgtCVrG1mgVxWDanb30kmyV8KtNLnlGO3VKMWXqy7r.K9X3W6jos3JsIFCn6LGifA",
     "fediverse": "@ajhalili2006@tilde.zone",
     "bsky": "did:plc:wcx4c3osbuzrwmxkqdfqygwv"
   },
-  "record": {
+  "records": {
     "NS": ["kallie.ns.cloudflare.com", "tadeo.ns.cloudflare.com"]
   }
 }

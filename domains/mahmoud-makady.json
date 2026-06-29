@@ -1,9 +1,9 @@
 {
-    "owner": {
-      "username": "Mahmoud-Makady",
-      "email": "m.makady19@gmail.com"
-    },
-    "record": {
-      "CNAME": "mahmoud-makady.netlify.app"
-    }
+  "owner": {
+    "username": "Mahmoud-Makady",
+    "email": "m.makady19@gmail.com"
+  },
+  "records": {
+    "CNAME": "mahmoud-makady.netlify.app"
+  }
 }

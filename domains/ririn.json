@@ -1,13 +1,11 @@
 {
-  "description": "ririn-hq",
-  "repo": "https://github.com/ririn-hq/ririn-hq.github.io",
   "owner": {
     "username": "ririn-hq",
     "email": "ririnvieux@gmail.com",
     "twitter": "ririnvieux_hq",
     "discord": "ririn_hq"
   },
-  "record": {
+  "records": {
     "CNAME": "ririn-hq.github.io"
   }
 }

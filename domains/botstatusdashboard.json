@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "Hjgaming",
-    "discord": "811259286977773599",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.JjFFTTvfvazAbsxqPLPi6mJrNoA9kiqnXlC9IATa7cSwrhxbFfDPZ-fm2AeJ0FM9N6yYOEZ2O0B7hO3d51HqlfxLPqQUK_upLmk1Q7B2JQD7oFtfW635eESdXF9PCbxGFyyQiPxUinQv3xmkQnnd5-4E6YzBJZtjuSVsbEUGm6UUCAjy34srUuBJUivDRiJg5DZncH9S9cAXeTaSqcD9NPUweqfafaoNkS_lbcB_i5D41mMNc2sPXKG0dvNrhp0Af92fZp2SPvQULLTU23HKERHLqq_A-OkumqGxorvIcLGd-IZwcH52wpsKlHblPp-13ZjwwIyRut3avYCiorUYuQ.GNt_fXgKV-pxY7-QLWDgEw.so8siEQ2sk6rBDsVzbOIfaO3WcL-OWHrOkHOxB7AgT0gVAYUVBJS1e-lbFkof6UkCG99gEr-HdbL1KoAiOKZBukcScryIgAZepQbPpqtzWE.8GjXmShSO6eEGoSioLPbgQ"
+    "discord": "811259286977773599"
   },
-  "record": {
+  "records": {
     "CNAME": "bot-dashboard-ho5y.onrender.com"
   }
 }

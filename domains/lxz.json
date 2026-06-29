@@ -1,11 +1,10 @@
 {
   "description": "justforlxz personal website",
-  "repo": "https://github.com/lxz/justforlxz.github.io",
   "owner": {
     "username": "justforlxz",
     "twitter": "justforlxz"
   },
-  "record": {
+  "records": {
     "CNAME": "justforlxz.github.io"
   }
 }

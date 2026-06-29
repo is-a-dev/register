@@ -1,11 +1,9 @@
 {
-  "description": "Chess online, with bot, locally",
-  "repo": "https://github.com/Amaan-Kazi/Chess",
   "owner": {
     "username": "Amaan-Kazi",
     "email": "amaankazi1793@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "chess-amaankazi.pages.dev"
   }
 }

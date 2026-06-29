@@ -1,11 +1,9 @@
 {
-  "description": "Link for vmadev-ru personal site on GitHub pages",
-  "repo": "https://github.com/vmadev-ru/vmadev-ru.github.io",
   "owner": {
     "username": "vmadev-ru",
     "email": "vmadev.ru@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "vmadev-ru.github.io"
   }
 }

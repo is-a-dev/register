@@ -1,11 +1,9 @@
 {
-  "description": "gary site",
-  "repo": "https://github.com/Zach11111/garysite",
   "owner": {
     "username": "zach11111",
     "email": "contact@garybot.dev"
   },
-  "record": {
+  "records": {
     "CNAME": "garylovesclimbingtreesexploringplacesandchasingbutterflies.garythecatisanadorablefelinealwaysseekingfunandadventure.site"
   }
 }

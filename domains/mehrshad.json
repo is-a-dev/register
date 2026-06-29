@@ -1,11 +1,9 @@
 {
-    "description": "Overview And Introduction of Owner's Open Source Projects",
-    "repo": "https://github.com/SaintScraTchY/SaintScraTchY.github.io",
-    "owner": {
-        "username": "SaintScraTchY",
-        "email": "mehrshad2028@gmail.com"
-    },
-    "record": {
-        "CNAME": "saintscratchy.github.io"
-    }
+  "owner": {
+    "username": "SaintScraTchY",
+    "email": "mehrshad2028@gmail.com"
+  },
+  "records": {
+    "CNAME": "saintscratchy.github.io"
+  }
 }

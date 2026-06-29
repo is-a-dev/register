@@ -1,10 +1,8 @@
 {
-  "description": "haridarshan.is-a.dev, for my portfolio",
-  "repo": "https://github.com/hdck007/me",
   "owner": {
     "username": "hdck007"
   },
-  "record": {
+  "records": {
     "URL": "https://haridarshan.vercel.app"
   }
 }

@@ -4,10 +4,8 @@
     "username": "davidsneighbour",
     "email": "pkollitsch+isadev@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://github.com/davidsneighbour/",
-    "MX": [
-      "smtp.google.com"
-    ]
+    "MX": ["smtp.google.com"]
   }
 }

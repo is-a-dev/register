@@ -1,11 +1,9 @@
 {
-  "description": "portfolio / profile page",
-  "repo": "https://github.com/slovakians/crvts",
   "owner": {
     "username": "Slovakians",
     "email": "siresirol937@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "slovakians.github.io"
   }
 }

@@ -1,10 +1,8 @@
 {
-  "description": "Mihir Patel Portfolio.",
-  "repo": "https://github.com/mihir-patel-agc/mihir-patel-agc.github.io",
   "owner": {
     "username": "mihir-patel-agc"
   },
-  "record": {
+  "records": {
     "CNAME": "mihir-patel-agc.github.io"
   }
 }

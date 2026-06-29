@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "liamatienza",
-        "email": "liamdev@duck.com"
-    },
-    "record": {
-        "TXT": "dh=c53cce4432aa366f65bd320ab681d468c8cea968"
-    }
+  "owner": {
+    "username": "liamatienza",
+    "email": "liamdev@duck.com"
+  },
+  "records": {
+    "TXT": "dh=c53cce4432aa366f65bd320ab681d468c8cea968"
+  }
 }

@@ -3,7 +3,9 @@
     "username": "VLDeMenezes",
     "email": "victorleandrodemenezes@gmail.com"
   },
-  "record": {
-    "CNAME": "vldm-portafolio.vercel.app"
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }

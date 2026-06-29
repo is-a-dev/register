@@ -1,11 +1,9 @@
 {
-  "description": "eshanized.is-a.dev",
-  "repo": "https://github.com/eshanized/eshanized.github.io",
   "owner": {
     "username": "eshanized",
     "email": "m.eshanized@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "eshanized.github.io"
   }
 }

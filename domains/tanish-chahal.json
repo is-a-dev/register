@@ -1,11 +1,16 @@
 {
-    "description": "Tanish's Portfolio",
-    "repo": "https://github.com/TanishChahal/register",
-    "owner": {
-        "username": "TanishChahal",
-        "email": "TanishChahal5705@gmail.com"
-    },
-    "record": {
-        "URL": "https://tanishchahal.netlify.app"
-    }
+  "owner": {
+    "username": "TanishChahal",
+    "email": "TanishChahal5705@gmail.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ],
+    "MX": [
+      { "target": "mx1.improvmx.com", "priority": 10 },
+      { "target": "mx2.improvmx.com", "priority": 20 }
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
 }
