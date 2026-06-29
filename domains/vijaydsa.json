@@ -1,0 +1,11 @@
+{
+  "description": "My DSA Problem Tracker",
+  "repo": "https://github.com/comradevijay/Problem-Solving",
+  "owner": {
+    "username": "comradevijay",
+    "email": "your@email.com"
+  },
+  "record": {
+    "CNAME": "problem-solving-sn0z.onrender.com"
+  }
+}
