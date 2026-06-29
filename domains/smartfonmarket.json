@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
+  "owner": {
+    "username": "sadullayevshaxzod",
+    "email": "shaxzodsadullayev1519@gmail.com"
+  },
+  "record": {
+    "MX": ["feedback-smtp.ap-northeast-1.amazonses.com"],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all",
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCz/qhCueXxnWE/1RoJG0chscyG2gvPJpHrb291IJWH9+RfNo2miejdCSyQPfdbq/FjwzMt6q2gMVIw4oAiaGPvnQ3ndD008gKx59RLtz0dTnE07/3o7tK+FbA6oZnhKidnzUHAAQMHV8/AKTlC/KpwLmT84OD2lk+diCTYL/NjwIDAQAB"
+    ]
+  }
+}
