@@ -1,12 +1,10 @@
 {
   "description": "Personal website CallmeKeefe",
-  "domain": "keefe.is-a.dev",
   "owner": {
     "username": "CallmeKeefe",
     "email": "stevenkeefe5@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "steven-keefe.vercel.app"
-  },
-  "preview": "https://steven-keefe.vercel.app"
+  }
 }
