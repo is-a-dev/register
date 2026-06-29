@@ -4,6 +4,7 @@
     "email": "rivando.alrasyid@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": "202.155.132.98",
+    "CNAME": "202-155-132-98.domainesia.io"
   }
 }
