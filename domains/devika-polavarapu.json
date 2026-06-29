@@ -4,6 +4,6 @@
     "email": "puppy567567@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-bay-mu-40.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
