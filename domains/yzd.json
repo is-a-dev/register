@@ -1,8 +1,12 @@
 {
+    "description": "Yazid's personal website",
+    "domain": "yzd",
+    "subdomain": "",
     "owner": {
-        "username": "RahmanYazid"
+        "username": "RahmanYazid",
+        "email": "yaziddr72@gmail.com"
     },
-    "records": {
-        "CNAME": "RahmanYazid.github.io"
+    "record": {
+        "CNAME": "rahmanyazid.github.io"
     }
 }
