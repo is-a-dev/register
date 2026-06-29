@@ -4,8 +4,8 @@
         "email": "sesenkumardalai@gmail.com"
     },
     "records": {
-        "CNAME": "556856.site.bot-hosting.cloud",
-        "TXT": ["bh-server=556856", "zoho-verification=zb99148548.zmverify.zoho.in"]
+        "CNAME": "33c95d6906de18b7.vercel-dns-017.com.",
+        "TXT": ["zoho-verification=zb99148548.zmverify.zoho.in"]
     },
-    "proxied": true
+    "proxied": false
 }
