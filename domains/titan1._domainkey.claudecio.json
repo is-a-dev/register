@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "claudecio",
+    "email": "claudecioj2@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRkjBnXMwODMJn2v2ClqarkvUmBDjm5gNF9QNF8PlNvf832J7yX1gXPLdrBsaWp331Y/A0pAnw1HcT8xuL9E+xxDeOJvzOflgAUFhXJkTtVaCKRUgQo7yiS2v0viZGyMCvlfP+WJ1TYscJVr8QjkJlEpy3zYYjoV3GO5BBfq466wIDAQAB"
+    ]
+  }
+}

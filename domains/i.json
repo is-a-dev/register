@@ -4,6 +4,21 @@
     "email": "satindar@satindar-is.me"
   },
   "records": {
-    "URL": "https://satindar.is-a.dev"
+    "URL": "https://satindar.is-a.dev",
+    "TXT": ["verification-code-site-App_lark=io7Ez9JWtTkiRZUnGsbl", "v=spf1 +include:spf.onlarksuite.com -all"],
+    "MX": [
+        {
+          "target": "mx1.larksuite.com",
+          "priority": 1
+        },
+        {
+          "target": "mx2.larksuite.com",
+          "priority": 5
+        },
+        {
+          "target": "mx3.larksuite.com",
+          "priority": 10
+        }
+      ]
   }
 }

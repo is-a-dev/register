@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "semlakune",
+    "email": "semlakune@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEW5oNF1mBJPAb0tR/SNRDfw9rPHxNhLI0Yk7INyzQwYpSEu/od8olEdw77ZrK5VqQ6Zr7JyAG/d7uORrns/PcW4M3ZMZU8wg7aqahuLlcyf8Ke9v9NtbX7oXFqtoSs4+IiAUjDVxdNBhQLCTzkDFpjzSIa0hmYFtDBtUVxHFeYwIDAQAB"
+    ]
+  }
+}

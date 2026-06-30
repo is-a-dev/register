@@ -1,8 +1,8 @@
 {
   "owner": {
-    "username": "itszubadev"
+    "username": "oliverbr0wn"
   },
   "records": {
-    "CNAME": "zubariel.netlify.app"
+    "A": ["216.198.79.1"]
   }
 }
