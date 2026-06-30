@@ -1,12 +1,10 @@
 {
-  "description": "Reshmitha Reddy's Portfolio",
-  "repo": "https://github.com/Reshmitha06/portfolio",
+  "description": "Vercel verification for reshmitha-reddy.is-a.dev",
   "owner": {
     "username": "Reshmitha06",
     "email": "reshmithareddychaikam@gmail.com"
   },
   "record": {
-    "A": ["216.198.79.1"],
     "TXT": ["vc-domain-verify=reshmitha-reddy.is-a.dev,8e6dbaa69683e92247cd"]
   }
 }
