@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "wyc",
+    "email": "wyc.emote732@passinbox.com"
+  },
+  "records": {
+    "CNAME": "https://wyc-cv.vercel.app/"
+  },
+  "proxied": true
+}
