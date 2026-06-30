@@ -9,20 +9,20 @@
             "185.199.110.153",
             "185.199.111.153"
         ],
-          "MX": [
-    {
-      "target": "mx.zoho.in",
-      "priority": 10
-    },
-    {
-      "target": "mx2.zoho.in",
-      "priority": 20
-    },
-    {
-      "target": "mx3.zoho.in",
-      "priority": 50
-    }
-  ],
+        "MX": [
+            {
+                "target": "mx.zoho.in",
+                "priority": 10
+            },
+            {
+                "target": "mx2.zoho.in",
+                "priority": 20
+            },
+            {
+                "target": "mx3.zoho.in",
+                "priority": 50
+            }
+        ],
         "TXT": [
             "zoho-verification=zb19694310.zmverify.zoho.in",
             "v=spf1 include:zoho.in ~all"
