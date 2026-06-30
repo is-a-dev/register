@@ -1,0 +1,12 @@
+ json
+    {
+      "description": "Taiwan Stock Analysis Dashboard",
+      "repo": "https://github.com/mrnielin-max/register",
+      "owner": {
+        "username": "mrnielin-max",
+        "email": "mr.nielin@gmail.com"
+      },
+      "record": {
+        "CNAME": "cname.vercel-dns.com"
+      }
+    }
