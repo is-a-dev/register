@@ -4,8 +4,6 @@
     "email": "miftahzk.payments@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "TXT": "vc-domain-verify=miftahus.is-a.dev,36796afbff05bd8d70f4"
   }
 }
