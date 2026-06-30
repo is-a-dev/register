@@ -1,0 +1,12 @@
+{
+    "$schema": "../domain.schema.json",
+    "description": "Personal portfolio website",
+    "repo": "https://github.com/akshit23/domainRepo",
+    "owner": {
+        "username": "akshit23",
+        "email": "akshit23sharma2000@gmail.com"
+    },
+    "record": {
+        "CNAME": "akshitsharma.netlify.app"
+    }
+}
