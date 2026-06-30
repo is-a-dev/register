@@ -7,6 +7,12 @@
                 "CNAME": "subbustudio.vercel.app"
             },
             "proxied": false
+        },
+        "_vercel": {
+            "record": {
+                "TXT": "vc-domain-verify=subbustudio.is-a.dev,a48b9dc21bc4da003f39"
+            },
+            "proxied": false
         }
     },
     "owner": {
