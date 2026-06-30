@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadowByte Sec - Bug Bounty Team</title>
+    <style>
+        /* CSS Variables & Reset */
+        :root {
+            --bg-primary: #0a0f1d;
+            --bg-secondary: #111827;
+            --accent-color: #00f2fe;
+            --text-primary: #ffffff;
+            --text-secondary: #9ca3af;
+            --card-bg: #1f2937;
+            --neon-glow: 0 0 10px rgba(0, 242, 254, 0.5);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: rgba(17, 24, 39, 0.8);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0, 242, 254, 0.2);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--text-primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: var(--accent-color);
+            text-shadow: var(--neon-glow);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 10rem 2rem 6rem;
+            background: radial-gradient(circle at top right, rgba(0, 242, 254, 0.05), transparent 40%),
+                        radial-gradient(circle at bottom right, rgba(123, 97, 255, 0.05), transparent 40%);
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 800;
+        }
+
+        .hero h1 span {
+            color: var(--accent-color);
+            text-shadow: var(--neon-glow);
+        }
+
+        .hero p {
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .btn {
+            background: transparent;
+            border: 2px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 0.75rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: var(--neon-glow);
+        }
+
+        .btn:hover {
+            background: var(--accent-color);
+            color: var(--bg-primary);
+            box-shadow: 0 0 20px rgba(0, 242, 254, 0.8);
+        }
+
+        /* Stats Section */
+        .stats {
+            background-color: var(--bg-secondary);
+            padding: 4rem 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .stats-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-item p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Courses Section */
+        .courses {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: var(--accent-color);
+            margin: 0.5rem auto 0;
+            box-shadow: var(--neon-glow);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s, border-color 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-color);
+        }
+
+        .card-header {
+            background: linear-gradient(135deg, #1e2640, #111827);
+            padding: 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            position: relative;
+        }
+
+        .badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: rgba(0, 242, 254, 0.1);
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            margin-top: 0.5rem;
+        }
+
+        .card-body {
+            padding: 2rem;
+            flex-grow: 1;
+        }
+
+        .card-body ul {
+            list-style: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .card-body ul li {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .card-body ul li::before {
+            content: "✓";
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .card-footer {
+            padding: 1.5rem 2rem;
+            background-color: rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .price {
+            font-weight: bold;
+            color: var(--accent-color);
+            font-size: 1.2rem;
+        }
+
+        /* Coming Soon Section / Contact */
+        .coming-soon {
+            background-color: var(--bg-secondary);
+            padding: 6rem 2rem;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .alert-box {
+            background: rgba(0, 242, 254, 0.05);
+            border: 1px dashed var(--accent-color);
+            padding: 1.5rem;
+            display: inline-block;
+            border-radius: 4px;
+            margin-bottom: 3rem;
+            box-shadow: var(--neon-glow);
+        }
+
+        .alert-box h2 {
+            color: var(--accent-color);
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .contact-form input, .contact-form textarea {
+            background-color: var(--bg-primary);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            color: var(--text-primary);
+            border-radius: 4px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .contact-form input:focus, .contact-form textarea:focus {
+            border-color: var(--accent-color);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-primary);
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hero h1 { font-size: 2.2rem; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">Shadow<span>Byte</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#join">Join Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Hunting Vulnerabilities Before <span>Malicious Actors</span> Do</h1>
+        <p>ShadowByte is a specialized team of crowd-sourced security researchers and bug bounty hunters. We dedicatedly secure organizations, hunt sophisticated threats, and train the next generation of ethical hackers.</p>
+        <button class="btn" onclick="scrollToSection('courses')">Explore Training Tracks</button>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3>+340</h3>
+                <p>Valid Bugs Reported</p>
+            </div>
+            <div class="stat-item">
+                <h3>$45K+</h3>
+                <p>Total Bounties Earned</p>
+            </div>
+            <div class="stat-item">
+                <h3>Top 500</h3>
+                <p>On Global Crowdsourced Platforms</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <h2 class="section-title">Training Academy</h2>
+        <div class="grid">
+            
+            <!-- Course 1 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge">Advanced</span>
+                    <h3 class="card-title">Web Hacking & Bug Hunting</h3>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Mastering advanced Burp Suite Pro features.</li>
+                        <li>Finding Business Logic flaws and critical IDORs.</li>
+                        <li>A proven methodology for wide-scope recon.</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <span class="price">$149</span>
+                    <button class="btn" onclick="registerCourse('Web Hacking')">Enroll Now</button>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge">Expert</span>
+                    <h3 class="card-title">API Penetration Testing</h3>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Testing RESTful & GraphQL API architectures.</li>
+                        <li>Bypassing Authentication schemes (JWT, OAuth 2.0).</li>
+                        <li>Hands-on labs featuring real-world vulnerabilities.</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <span class="price">$199</span>
+                    <button class="btn" onclick="registerCourse('API Pentesting')">Enroll Now</button>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge">Fundamental</span>
+                    <h3 class="card-title">Linux & Recon Automation</h3>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Command-line proficiency for fast security audits.</li>
+                        <li>Building custom automation scripts with Python & Bash.</li>
+                        <li>Managing scalable tools like Nuclei, Subfinder, and Amass.</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <span class="price">$99</span>
+                    <button class="btn" onclick="registerCourse('Linux & Automation')">Enroll Now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Coming Soon & Contact Section -->
+    <section class="coming-soon" id="join">
+        <div class="alert-box">
+            <h2>⚠️ LABS & CTF PLATFORM: WILL BE ACTIVE SOON</h2>
+        </div>
+        
+        <div style="max-width: 600px; margin: 0 auto 2rem;">
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+                Our official CTF platform and interactive hacking labs are currently under active development. Drop your email to get an exclusive invite to the private beta phase.
+            </p>
+        </div>
+
+        <form class="contact-form" id="notifyForm">
+            <input type="email" placeholder="Enter your email address" required id="userEmail">
+            <textarea rows="4" placeholder="Optional message (Tell us about your interest in CyberSec)"></textarea>
+            <button type="submit" class="btn">Secure Your Beta Spot</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 ShadowByte Sec. All Rights Reserved. Prepared for educational purposes.</p>
+    </footer>
+
+    <!-- JavaScript code -->
+    <script>
+        // Smooth scrolling for navigation links
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // Handle course registration click
+        function registerCourse(courseName) {
+            alert(`Thank you for your interest in "${courseName}"!\nOur platform is currently being upgraded. We will email you the enrollment steps as soon as registration opens.`);
+        }
+
+        // Form Submission logic
+        document.getElementById('notifyForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('userEmail').value;
+            
+            if(email) {
+                alert(`Success! Email registered: ${email}\nWe will notify you immediately when the CTF platform and live labs go active.`);
+                this.reset();
+            }
+        });
+    </script>
+</body>
+</html>
