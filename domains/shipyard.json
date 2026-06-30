@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "raunakdevelopersh-crypto",
+    "email": "raunakphull62@gmail.com"
+  },
+  "records": {
+    "MX": [
+      "10 feedback-smtp.ap-northeast-1.amazonses.com"
+    ],
+    "TXT": [
+      "send.shipyard=v=spf1 include:amazonses.com ~all",
+      "_dmarc=v=DMARC1; p=none;",
+      "resend._domainkey.shipyard=p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp1nPoxYyU9G9b6KjnlTaPgWzsAhtMXD/Yyz/JJ63CCmwcJJUAz/KbdxaJ5qGx9IslvDwGSNl8NxDFOrhWDJnjBSwO2OepEj/jXl3EctMl8xxr98Djoysv5SHsbx0Yg6X1AqjQZKVrnaNbSZ2UGuGbnZPIFPVdf6v/u54Wtv5lJQIDAQAB"
+    ]
+  }
+}
