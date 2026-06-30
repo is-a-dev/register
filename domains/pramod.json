@@ -4,6 +4,6 @@
     "email": "pramod.krish2002@gmail.com"
   },
   "records": {
-    "CNAME": "pramod-mu.vercel.app"
+    "TXT": "vc-domain-verify=pramod.is-a.dev,2c89948675d41072048c"
   }
 }
