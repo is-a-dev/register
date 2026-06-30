@@ -3,7 +3,7 @@
     "username": "kelvin-maina-cpu",
     "email": "km542754@gmail.com"
   },
-  "record": {
-    "CNAME": "nyota-spring-resort.vercel.app"
+  "records": {
+    "CNAME": "kevs-portfolio-three.vercel.app"
   }
 }
