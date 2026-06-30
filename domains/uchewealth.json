@@ -3,6 +3,9 @@
         "username": "uche-wealth"
     },
     "records": {
-        "CNAME": "lwu.pythonanywhere.com"
+        "NS": [
+            "celine.ns.cloudflare.com",
+            "quincy.ns.cloudflare.com"
+        ]
     }
 }
