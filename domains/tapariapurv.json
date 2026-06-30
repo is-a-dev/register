@@ -1,7 +1,10 @@
 {
-    "owner": {
-        "username": "tapariapurv"
-    },
-    "record": {
-        "CNAME": "tapariapurv.github.io"
-    }
+  "owner": {
+    "username": "tapariapurv",
+    "email": "your-actual-email@example.com"
+  },
+  "records": {
+    "CNAME": "tapariapurv.github.io"
+  },
+  "proxied": false
+}
