@@ -1,0 +1,28 @@
+{
+  "owner": {
+    "username": "wanglinsaputra",
+    "email": "wanglinsaputra@dev.com"
+  },
+  "record": {
+    "A": ["216.198.79.1"],
+    "TXT": [
+      "vc-domain-verify=wanglinsaputra.is-a.dev,d46e829f2d0e37c64faf"
+    ],
+    "CNAME": "df11850e06b40e95.vercel-dns-017.com"
+  },
+  "subdomains": {
+    "_vercel": {
+      "TXT": [
+        "vc-domain-verify=wanglinsaputra.is-a.dev,d46e829f2d0e37c64faf"
+      ]
+    },
+    "www": {
+      "CNAME": "df11850e06b40e95.vercel-dns-017.com"
+    },
+    "_vercel.www": {
+      "TXT": [
+        "vc-domain-verify=www.wanglinsaputra.is-a.dev,187396a14e419ff5badf"
+      ]
+    }
+  }
+}
