@@ -16,8 +16,8 @@
       "mx2.improvmx.com"
     ],
     "TXT": [
-      "v=spf1 include:://improvmx.com ~all",
-      "google-site-verification=nhW_43TyWZBlJrxJM-yX7OcFY3NV0ikr1QH__uylj3I"
+      "google-site-verification=nhW_43TyWZBlJrxJM-yX7OcFY3NV0ikr1QH__uylj3I",
+      "v=spf1 include:://improvmx.com ~all"
     ]
   }
 }
