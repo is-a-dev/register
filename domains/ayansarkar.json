@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "ayanonline"
+    "username": "ayanonline",
+    "email": "kingstar324576@gmail.com"
     },
     "records": {
-        "CNAME": "ayansarkar.onrender.com"
+    "A": ["216.24.57.1"]
     }
 }
