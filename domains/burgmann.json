@@ -1,10 +1,12 @@
 {
-  "description": "Official Developer Portfolio and Project Portal for Franz Burgmann",
   "owner": {
     "username": "franzbu",
     "email": "csaa6335@gmail.com"
   },
   "records": {
-    "CNAME": "franzbu.github.io"
+    "NS": [
+      "leo.ns.cloudflare.com",
+      "maleah.ns.cloudflare.com"
+    ]
   }
 }
