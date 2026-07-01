@@ -1,8 +1,8 @@
 {
     "description": "Personal Portfolio for Allen Icee Dequiros",
-    "domain": "allen-icee", 
+    "repo": "https://github.com/allen-icee/allen-icee-portfolio",
     "owner": {
-        "repo": "https://github.com/allen-icee/allen-icee-portfolio",
+        "username": "allen-icee",
         "email": "alleniceedequiros@gmail.com"
     },
     "record": {
