@@ -4,6 +4,6 @@
         "email": "raahym.rehan@gmail.com"
     },
     "records": {
-        "CNAME": "7276d6c4ce9b2355.vercel-dns-017.com."
+        "A": ["216.198.79.1"]
     }
 }
