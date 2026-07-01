@@ -1,1 +1,13 @@
-
+{
+  "description": "PZZA streaming site",
+  "domain": "is-a.dev",
+  "subdomain": "pizza",
+  "owner": {
+    "repo": "",
+    "email": "pzzabusiness@gmail.com"
+  },
+  "record": {
+    "CNAME": "pizza.pzzabusiness.workers.dev"
+  },
+  "proxied": true
+}
