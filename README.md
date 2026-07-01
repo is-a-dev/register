@@ -16,7 +16,7 @@
 <h1 align="center">is-a.dev</h1>
 
 <p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking <code>.is-a.dev</code> subdomain for their personal websites.</p>
-
+z
 ---
 
 ## Announcements
