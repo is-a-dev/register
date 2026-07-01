@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "har-jon",
+        "email": "[email protected]",
+        "mastodon": "https://universeodon.com/@harjon"
+    },
+    "records": {
+        "CNAME": "har-jon.github.io"
+    }
+}
