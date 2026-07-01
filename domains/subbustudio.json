@@ -1,0 +1,22 @@
+{
+    "description": "Subbu's Personal Portfolio",
+    "domain": "subbustudio",
+    "subdomains": {
+        "@": {
+            "record": {
+                "CNAME": "subbustudio.vercel.app"
+            },
+            "proxied": false
+        },
+        "_vercel": {
+            "record": {
+                "TXT": "vc-domain-verify=subbustudio.is-a.dev,a48b9dc21bc4da003f39"
+            },
+            "proxied": false
+        }
+    },
+    "owner": {
+        "repo": "https://github.com/subbustudio/My_Personal_Portfolio",
+        "email": "subbustudio270@gmail.com"
+    }
+}
