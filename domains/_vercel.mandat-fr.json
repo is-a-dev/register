@@ -2,7 +2,7 @@
     "owner": {
         "username": "Simonc44"
     },
-    "record": {
-        "TXT": "vc-domain-verify=www.mandat-fr.is-a.dev,77a46cbdfe35c1028c14"
+    "records": {
+        "TXT": ["vc-domain-verify=www.mandat-fr.is-a.dev,77a46cbdfe35c1028c14"]
     }
 }
