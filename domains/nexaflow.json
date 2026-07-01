@@ -5,7 +5,7 @@
     },
     "records": {
         "CNAME": "kd-deep.github.io",
-        "txt": [
+        "TXT": [
             {
                 "name": "_github-pages-challenge-kd-deep",
                 "value": "30f1846d01d56212564d2b75f4a787"
