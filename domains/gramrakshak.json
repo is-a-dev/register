@@ -1,0 +1,11 @@
+{
+  "description": "GramRakshak Backend API",
+  "repo": "https://github.com/lohithasaitech/GramRakshak-KB",
+  "owner": {
+    "username": "lohithasaitech",
+    "email": "lohithasai229@gmail.com"
+  },
+  "record": {
+    "CNAME": "gramrakshak-kb.onrender.com"
+  }
+}
