@@ -1,0 +1,26 @@
+{
+  "owner": {
+    "username": "TesheBizu"
+    "email": "teshelin7@gmail.com"
+  },
+  "records": {
+    "resend._domainkey": {
+      "TXT": [
+        "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdzxA/t1TEaaXh+9kltVLm0vQsvU1M4m5gJuJxQN+bFHx2jdP9qVrEA+DgekcTW7XnnvrpnaLStWFBp7frnBj7P7icrPas+78snRlHG+/m0mdThPvk5u288C+AOizDySc7NIFQzGKBtjA9AojsnZqDKM094W/dO3sybDkYFuv+dQIDAQAB"
+      ]
+    },
+    "send": {
+      "MX": [
+        "10 feedback-smtp.us-east-1.amazonses.com"
+      ],
+      "TXT": [
+        "v=spf1 include:amazonses.com ~all"
+      ]
+    },
+    "_dmarc": {
+      "TXT": [
+        "v=DMARC1; p=none;"
+      ]
+    }
+  }
+}
