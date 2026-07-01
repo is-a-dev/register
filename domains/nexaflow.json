@@ -3,8 +3,8 @@
         "username": "kd-deep",
         "email": "deepeshsinghrana56@gmail.com"
     },
-    "records": {
-        "CNAME": "kd-deep.github.io",
+    "record": {
+        "URL": "https://github.io",
         "TXT": [
             {
                 "name": "_github-pages-challenge-kd-deep",
