@@ -1,0 +1,11 @@
+{
+  "description": "NAKI PRIMA WiFi Scanner Monitor",
+  "domain": "is-a.dev",
+  "subdomain": "nakiprima",
+  "owner": {
+    "username": "B4T4V14"
+  },
+  "record": {
+    "CNAME": "b4t4v14.github.io"
+  }
+}
