@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "sumitsukhralia"
+    "username": "sumitsukhralia",
+    "email": "216392422+sumit0xff@users.noreply.github.com"
   },
   "records": {
-    "CNAME": "sumitsukhralia.github.io"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=sumit.is-a.dev,790c0120394903ffcf9c"
   }
 }
