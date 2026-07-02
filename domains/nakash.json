@@ -1,8 +1,1 @@
-{
-    "owner": {
-        "username": "jawahirenakash"
-    },
-    "records": {
-        "A": ["76.76.21.21"]
-    }
-}
+{ "owner": { "username": "jawahirenakash" }, "records": { "A": ["216.198.79.1"], "TXT": ["vc-domain-verify=nakash.is-a.dev,c15de4c8769a29636c02"] } }
