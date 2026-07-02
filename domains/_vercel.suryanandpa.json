@@ -4,7 +4,6 @@
     "email": "suryanandpa@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
-  },
-  "proxied": true
+    "TXT": "vc-domain-verify=suryanandpa.is-a.dev,43df3ff6039b7c07c5c1"
+  }
 }
