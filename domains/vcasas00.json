@@ -4,6 +4,9 @@
     "email": "vcasasus00@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": {
+      "_vercel": "vc-domain-verify=vcasas00.is-a.dev,4f9d0cd6643d189cbfdd"
+    }
   }
 }
