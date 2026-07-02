@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "felipejaramillo605-lab"
+  },
+  "records": {
+    "CNAME": "clipper-manage-1.emergent.host",
+    "_github-pages-challenge-felipejaramillo605-lab": {
+      "type": "TXT",
+      "value": "df16ba386be0782607b1f0b8b83850"
+    }
+  }
+}
