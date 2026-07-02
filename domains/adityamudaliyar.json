@@ -1,11 +1,12 @@
 {
-  "description": "Personal portfolio of S Aditya Mudaliyar - B.Tech CSE Full Stack Java Developer",
-  "repo": "https://github.com/Adi-0824/portfolio",
+  "description": "Personal Portfolio of S Aditya Mudaliyar",
+  "domain": "is-a.dev",
+  "subdomain": "adityamudaliyar",
   "owner": {
-    "username": "Adi-0824",
+    "repo": "https://github.com/Adi-0824/portfolio",
     "email": "adityamudaliyar98066@gmail.com"
   },
   "record": {
-    "CNAME": "adi-0824.github.io"
+    "CNAME": "Adi-0824.github.io"
   }
 }
