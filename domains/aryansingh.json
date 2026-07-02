@@ -2,7 +2,8 @@
   "description": "Dev portfolio",
   "repo": "https://github.com/AryanSingh2k4/aryan-dev",
   "owner": {
-    "username": "AryanSingh2k4"
+    "username": "AryanSingh2k4",
+    "email": "aryanvsingh641@gmail.com"
   },
   "record": {
     "CNAME": "aryan-devz.vercel.app"
