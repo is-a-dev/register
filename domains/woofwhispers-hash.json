@@ -1,10 +1,10 @@
 {
-      "description": "GitHub developer profile for woofwhispers-hash",
-      "owner": {
-              "username": "woofwhispers-hash",
-              "email": "woofwhispers@gmail.com"
-      },
-      "records": {
-              "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
-      }
+        "description": "Developer portfolio for woofwhispers-hash",
+        "owner": {
+                  "username": "woofwhispers-hash",
+                  "email": "woofwhispers@gmail.com"
+        },
+        "records": {
+                  "CNAME": "woofwhispers-hash.github.io"
+        }
 }
