@@ -5,7 +5,6 @@
     "email": "arman05ridho@gmail.com"
   },
   "records": {
-    "CNAME": "armanridho.my.id"
+    "A": ["216.198.79.1"]
   },
-  "proxied": true
 }
