@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "riotrip",
+    "email": "jasawebsch@gmail.com"
+  },
+  "records": {
+    "TXT": ["v=DMARC1; p=none; rua=mailto:hello@prayogo.is-a.dev; sp=none; aspf=r; adkim=r;"]
+  }
+}
