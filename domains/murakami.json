@@ -5,8 +5,8 @@
   },
   "record": {
     "NS": [
-      "://cloudflare.com",
-      "://cloudflare.com"
+      "donovan.ns.cloudflare.com",
+      "serena.ns.cloudflare.com"
     ]
   }
 }
