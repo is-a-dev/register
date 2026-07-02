@@ -1,11 +1,12 @@
 {
   "owner": {
-    "username": "ваш-github-username",
-    "email": "ваш-email"
+    "username": "Murakaml",
+    "email": "74461388+Myrakami@users.noreply.github.com"
   },
-  "records": {
+  "record": {
     "NS": [
-      "<будет из Cloudflare, шаг ниже>"
+      "://cloudflare.com",
+      "://cloudflare.com"
     ]
   }
 }
