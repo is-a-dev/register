@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "vcasas00"
+  },
+  "records": {
+    "TXT": "_vercel=vc-domain-verify=is-a.dev,2141ce27f85098adb8dc",
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
