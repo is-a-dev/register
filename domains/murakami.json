@@ -1,1 +1,11 @@
-
+{
+  "owner": {
+    "username": "ваш-github-username",
+    "email": "ваш-email"
+  },
+  "records": {
+    "NS": [
+      "<будет из Cloudflare, шаг ниже>"
+    ]
+  }
+}
