@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "wasimakh2",
+        "email": "wasim.akh2@gmail.com"
+    },
+    "records": {
+        "NS": ["coco.ns.cloudflare.com", "darwin.ns.cloudflare.com"]
+    }
+}
