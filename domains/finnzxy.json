@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "ISI_USERNAME_GITHUB_ANDA",
+        "email": "email-anda@domain.com"
+    },
+    "record": {
+        "CNAME": "username-anda.github.io"
+    }
+}
