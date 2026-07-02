@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "freewilson419-beep",
+    "email": "freewilson419@gmail.com"
+  },
+  "record": {
+    "CNAME": "hogkxoss.up.railway.app"
+  },
+  "nested": [
+    {
+      "name": "_railway-verify",
+      "record": {
+        "TXT": "railway-verify=b46dfffd0bc65904449dfe36e974e4c9e7019800"
+      }
+    }
+  ]
+}
