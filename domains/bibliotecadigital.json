@@ -1,0 +1,11 @@
+{
+  "description": "Biblioteca Digital Inteligente",
+  "domain": "is-a.dev",
+  "subdomain": "bibliotecadigital",
+  "owner": {
+    "username": "octavofernandez275-del"
+  },
+  "record": {
+    "CNAME": "octavofernandez275-del.github.io"
+  }
+}
