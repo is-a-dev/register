@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "developeradhi",
+    "email": "adhipvt2203@gmail.com"
+  },
+  "records": {
+    "TXT":  "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTvdI6xe2d+FjZpY+NWqTlE4yeGsA9MA5UMGYIzVhj92u16xPuC378wTz+poFHqE2mT1EdDOhm+9v/owQE5nFkJMFieYVDDmChT3YxYYzwkF9YLzrfNE4G4r6GZ6NFCyqlwa5yZuMOXiuyTivEfuM7AN7Txy6BPpvOc5rSliwJEwIDAQAB"
+  }
+}
