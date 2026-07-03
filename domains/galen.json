@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "akidasaz-creator"
+    "username": "akidasaz-creator",
+    "email": "akidasaz@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
