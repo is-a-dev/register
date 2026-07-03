@@ -4,6 +4,6 @@
         "email": "royheinrich.delgado0@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=heinz.is-a.dev,4f53b6e446d895d868e1"
     }
 }
