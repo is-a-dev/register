@@ -1,0 +1,7 @@
+"record": {
+  "A": [],
+  "AAAA": [],
+  "MX": [],           // メールやるなら後で追加
+  "TXT": ["kubobeem's"],  // 所有権確認用とか
+  "CNAME": ["kubobeem.is-a.dev"]  // ← これを Pages の提供する値に
+}
