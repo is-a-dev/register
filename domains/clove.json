@@ -4,7 +4,7 @@
         "email": "admin@doughmination.win"
     },
     "records": {
-        "URL": "https://c.stupid.cat/$1"
+        "URL": "https://c.stupid.cat"
     },
     "redirect_config": {
         "custom_paths": {
