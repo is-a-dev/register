@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "saiftubeiq",
+    "email": "mnem0908@gmail.com"
+  },
+  "records": {
+    "CNAME": "sawhost-sawhost.hf.space"
+  },
+  "subdomain": {
+    "wildcard": true
+  }
+}
