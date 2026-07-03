@@ -1,9 +1,9 @@
 {
     "owner": {
-        "username": "deimosdeployed",
+        "username": "DeimosDeployed",
         "email": "johngaltina@atomicmail.io"
     },
     "records": {
-        "CNAME": ["1bs7qvyszrmvb1sf1g5eaoqfzjyoh74e.pages.dev"]
+        "CNAME": "deimos0x0.pages.dev"
     }
 }
