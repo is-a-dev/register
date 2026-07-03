@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "DeimosDeployed",
-        "email": "johngaltina@atomicmail.io"
-    },
-    "records": {
-        "CNAME": "deimosdeployed.github.io"
-    }
+  "owner": {
+    "username": "deimosdeployed",
+    "email": "johngaltina@atomicmail.io"
+  },
+  "records": {
+    "CNAME": "deimosdeployed.github.io"
+  }
 }
