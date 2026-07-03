@@ -1,0 +1,12 @@
+{
+  "description": "Personal Portfolio Hosted on Netlify",
+  "owner": {
+    "username": "silkenpy",
+    "email": "silkenpy@gmail.com"
+  },
+  "records": {
+    "AAAA": ["2602:fa08:20:1926::a"]
+  },
+
+  "proxied": true
+}
