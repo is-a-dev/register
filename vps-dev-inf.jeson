@@ -1,0 +1,10 @@
+{
+  "description": "My VPS Hosted Agent System",
+  "record": {
+    "A": ["168.119.213.14"]
+  },
+  "owner": {
+    "username": "akhi0000189-dev",
+    "email": "your-email@example.com"
+  }
+}
