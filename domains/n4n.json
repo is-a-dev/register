@@ -4,6 +4,9 @@
     "username": "kitlord"
   },
   "records": {
-    "CNAME": "6f3ce0c7-79e2-4c0d-8d7c-aaf1844beeb3.cfargotunnel.com"
+    "NS": [
+      "hunts.ns.cloudflare.com",
+      "serena.ns.cloudflare.com"
+    ]
   }
 }
