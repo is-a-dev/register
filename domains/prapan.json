@@ -1,0 +1,26 @@
+{
+  "owner": {
+    "username": "prapanbiswas",
+    "email": "prapanbiswas@gmail.com"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      { "target": "mx.zoho.com", "priority": 10 },
+      { "target": "mx2.zoho.com", "priority": 20 },
+      { "target": "mx3.zoho.com", "priority": 50 }
+    ],
+    "TXT": [
+      "zoho-verification=zb92215962.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all",
+      "google-site-verification=tYiCb5PdEqiC6GYuKguehOPrj3Xv0oO0V9Kp85AajAk",
+      "zoho._domainkey: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgnkV8B9RUA0uSh8EGO3LP6Ma39wrMjM+dlfS8a8gyuogu1eFGfGp44XV9Kcw1xqm7jBO7TakZjN6G1oP/6RA5fRnQze3a/H1f2+2y246SqyCytYkvvBy8aibJplqsIzNmyhFnZ4oN/FsYjijrYfVeor7I/mhgX3xAIGwRmkk01QIDAQAB",
+      "_dmarc: v=DMARC1; p=none;"
+    ]
+  }
+}
