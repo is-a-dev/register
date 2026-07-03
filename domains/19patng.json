@@ -1,8 +1,8 @@
 {
-  "description": "Trang Bio của tôi",
-  "repo": "https://github.com/Beethobenngo196/gunslol-clone",
-  "owner": "Beethobenngo196",
+  "owner": {
+    "username": "Beethobenngo196"
+  },
   "records": {
-    "CNAME": ["beethobenngo196.github.io"]
+    "CNAME": "beethobenngo196.github.io"
   }
 }
