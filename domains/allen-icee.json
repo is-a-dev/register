@@ -1,0 +1,11 @@
+{
+    "description": "Personal Portfolio for Allen Icee Dequiros",
+    "repo": "https://github.com/allen-icee/allen-icee-portfolio",
+    "owner": {
+        "username": "allen-icee",
+        "email": "alleniceedequiros@gmail.com"
+    },
+    "records": {
+        "CNAME": "allen-icee.vercel.app" 
+    }
+}
