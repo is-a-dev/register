@@ -5,7 +5,7 @@
     "username": "rishabhchawda",
     "email": "rishabhchawda1@gmail.com"
   },
-  "record": {
-    "CNAME": "https://intelligent-menu-skin-menu-ai-7bmc.vercel.app/"
+  "records": {
+    "CNAME": "intelligent-menu-skin-menu-ai-7bmc.vercel.app"
   }
 }
