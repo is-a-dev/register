@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "developeradhi",
-    "email": "adhipvt2203@gmail.com"
-  },
-  "records": {
-    "TXT":  "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTvdI6xe2d+FjZpY+NWqTlE4yeGsA9MA5UMGYIzVhj92u16xPuC378wTz+poFHqE2mT1EdDOhm+9v/owQE5nFkJMFieYVDDmChT3YxYYzwkF9YLzrfNE4G4r6GZ6NFCyqlwa5yZuMOXiuyTivEfuM7AN7Txy6BPpvOc5rSliwJEwIDAQAB"
-  }
+    "owner": {
+        "username": "developeradhi",
+        "email": "adhipvt2203@mail.com"
+    },
+    "records": {
+        "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCuocorJpk+b5BgNQe+JzoXtlYlOidf8INixfgC7hcBg/lbFc808caNoZRIFtsEM7E4b9RhpeIA3KMeBvlWpj6UBI574YP8pFf2inU9UeUI4jTclJcLrixfHldk5khRIzYFOI8lN6GG5WrgrbP5VrGn2seGL3ZSy2B5YdGjdc7uiwIDAQAB"
+    }
 }
