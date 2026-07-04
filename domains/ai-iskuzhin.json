@@ -1,0 +1,11 @@
+{
+  "description": "Personal portfolio website for Aigiz Iskuzhin",
+  "repo": "https://github.com/ai-iskuzhin/ai-iskuzhin.github.io",
+  "owner": {
+    "username": "ai-iskuzhin",
+    "email": "aigiz.iskuzhin@yandex.ru"
+  },
+  "records": {
+    "CNAME": "ai-iskuzhin.github.io"
+  }
+}

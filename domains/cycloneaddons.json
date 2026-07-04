@@ -1,10 +1,12 @@
 {
-  "owner": {
-    "username": "CycloneAddons",
-    "email": "cycloneaddon@gmail.com",
-    "twitter": "cycloneaddons"
-  },
-  "records": {
-    "CNAME": "cycloneaddons.github.io"
-  }
-}
+    "description": "Use for portfolio.",
+    "repo": "https://github.com/CycloneAddons/Portfolio",
+    "owner": {
+        "username": "CycloneAddons",
+        "email": "cycloneaddon@gmail.com",
+        "twitter": "cycloneaddons"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
+} 
