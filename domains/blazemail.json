@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "BlazeSky-Dev",
+        "email": "admin@blazesky.qzz.io"
+    },
+    "records": {
+        "NS": ["gwen.ns.cloudflare.com", "yoxall.ns.cloudflare.com"]
+    }
+}
