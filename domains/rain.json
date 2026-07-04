@@ -1,11 +1,10 @@
 {
   "owner": {
-    "username": "NINJACLUBREAL",
-    "email": "bee411769@gmail.com"
+    "username": "Rain-ouroboros",
+    "email": "rain-ouroboros-github@agentmail.to"
   },
-  "records": {
-    "A": ["75.2.60.5"]
-    
+  "record": {
+    "CNAME": "rain-ouroboros.github.io"
   },
-  "proxied": true
+  "description": "Rain - autonomous agent portfolio and skills hub"
 }
