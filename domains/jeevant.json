@@ -6,7 +6,6 @@
     "email": "jeevant010@gmail.com"
   },
   "records": {
-    "CNAME": "jeevant010.vercel.app",
-    "TXT": ["_vercel=vc-domain-verify=jeevant.is-a.dev,891c21240c668cca7bf9"]
+    "CNAME": "jeevant010.vercel.app"
   }
 }
