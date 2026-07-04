@@ -4,6 +4,6 @@
         "email": "sigma.alphabet@proton.me"
     },
     "records": {
-        "CNAME": "1b3f3690a0b53a2c.vercel-dns-017.com"
+        "TXT": "vc-domain-verify=alphabet.is-a.dev,1e30f475e19fbd80548f"
     }
 }
