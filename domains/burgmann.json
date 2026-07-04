@@ -1,10 +1,9 @@
 {
-  "domain": "burgmann",
   "owner": {
     "username": "franzbu",
     "email": "csaa6335@gmail.com"
   },
-  "record": {
+  "records": {
     "NS": [
       "leo.ns.cloudflare.com",
       "maleah.ns.cloudflare.com"
