@@ -1,5 +1,9 @@
 {
-   "records": {
-    "CNAME": "cname.vercel-dns.com"
+  "owner": {
+    "username": "Zaf0708",
+    "email": "zafroollah@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }
