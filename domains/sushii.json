@@ -4,6 +4,6 @@
         "email": "linus@linus.my"
     },
     "records": {
-        "TXT": "vc-domain-verify=kang.is-a.dev,a2ca41f0d57fe891788f"
+        "A": ["216.198.79.1"]
     }
 }
