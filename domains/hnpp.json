@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "hoaothuongk32000-del",
+    "email": "hoaithuongk32000@gmail.com"
+  },
+  "description": "BCA HNPP SYSTEM",
+  "records": {
+    "NS": [
+      "hal.ns.cloudflare.com",
+      "magnolia.ns.cloudflare.com"
+    ]
+  }
+}
