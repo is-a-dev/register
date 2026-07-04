@@ -1,11 +1,10 @@
 {
-  "description": "Kottu Saikumar AI Portfolio",
-  "repo": "https://github.com/kottusaikumar/KOTTUSAIKUMAR-PORTFOLIO",
   "owner": {
     "username": "kottusaikumar",
     "email": "kottusaikumar2003@gmail.com"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
+  "record": {
+    "A": ["216.198.79.1"],
+    "TXT": "vc-domain-verify=kottusaikumar.is-a.dev,a5a913130c597a23280f"
   }
 }
