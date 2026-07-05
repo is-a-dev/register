@@ -1,0 +1,10 @@
+{
+  "description": "Personal website hosted on Netlify",
+  "owner": {
+    "username": "aliprogramator",
+    "email": "coronadoaligeri1@gmail.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
+}
