@@ -1,11 +1,9 @@
 {
-    "description": "WWW redirect for my website",
-    "repo": "https://github.com/jokoarynt/joko.is-a.dev",
-    "owner": {
-        "username": "jokoarynt",
-        "email": "jokoariyanto2013@gmail.com"
-    },
-    "records": {
-        "A": ["157.66.55.62"]
-    }
+  "owner": {
+    "username": "jokoarynt",
+    "email": "jokoariyanto2013@gmail.com"
+  },
+  "records": {
+    "URL": "https://joko.my.id"
+  }
 }
