@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "AgustinH09",
+    "email": "agus.hernandez9@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "agustinh09.github.io",
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": ["forward-email=agus.hernandez9@gmail.com"]
+  }
+}
