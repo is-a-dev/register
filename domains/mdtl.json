@@ -1,0 +1,17 @@
+{
+    "owner": {
+        "username": "mehmetlabs",
+        "email": "mdev.team@proton.me"
+    },
+    "description": "Official website for MDTLorg (Modern Development & Technology Labs), an open-source organization focused on modern development tools, terminal simulations, and technology research.",
+    "repo": "https://github.com/MDTLorg/MDTLorg.github.io",
+    "records": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ]
+    }
+}
+
