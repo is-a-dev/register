@@ -1,0 +1,10 @@
+{
+  "description": "Backend do fin-control, API REST em Laravel do app pessoal de controle financeiro (hospedado no Render).",
+  "owner": {
+    "username": "AndreAntunesBarros",
+    "email": "antunes.cidiz@gmail.com"
+  },
+  "records": {
+    "CNAME": "finance-api-w2yp.onrender.com"
+  }
+}

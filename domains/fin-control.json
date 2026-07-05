@@ -1,0 +1,10 @@
+{
+  "description": "fin-control, app pessoal de controle financeiro (React + Vite, hospedado no Vercel).",
+  "owner": {
+    "username": "AndreAntunesBarros",
+    "email": "antunes.cidiz@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
