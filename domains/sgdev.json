@@ -3,7 +3,7 @@
         "username": "s07114587-ops",
         "email": "sgdev@netc.fr"
     },
-    "record": {
-        "CNAME": "shubhomoydev.vercel.app."
+    "records": {
+        "CNAME": "shubhomoydev.vercel.app"
     }
 }
