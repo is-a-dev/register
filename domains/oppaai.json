@@ -3,8 +3,7 @@
     "username": "OppaAI",
     "email": "oppa.ai.org@gmail.com"
   },
-  "record": {
-    "type": "CNAME",
-    "value": "be2d8aaa-a9d3-4556-91b0-036755866658.cfargotunnel.com"
+  "records": {
+    "CNAME": "be2d8aaa-a9d3-4556-91b0-036755866658.cfargotunnel.com"
   }
 }
