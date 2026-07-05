@@ -1,0 +1,11 @@
+{
+    "description": "Personal Portfolio for Sumit Keshari",
+    "repo": "https://github.com/kesharisumit/portfolio",
+    "owner": {
+        "username": "kesharisumit",
+        "email": "ksrisumit@gmail.com"
+    },
+    "record": {
+        "CNAME": "kesharisumit.github.io"
+    }
+}
