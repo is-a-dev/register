@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "s07114587-ops",
+        "email": "sgdev@netc.fr"
+    },
+    "record": {
+        "type": "CNAME",
+        "target": "shubhomoydev.vercel.app",
+        "proxied": false
+    }
+}
