@@ -2,7 +2,9 @@
     "owner": {
         "username": "0xKogami"
     },
-    "record": {
+    "description": "Personal website hosted on GitHub Pages",
+    "repo": "https://github.com/0xKogami/0xKogami.github.io/index.html",
+    "records": {
         "CNAME": "0xKogami.github.io"
     }
 }
