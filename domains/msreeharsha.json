@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Harshasree23",
+    "email": "sreeharsha2358@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": {
+      "_vercel": "vc-domain-verify=msreeharsha.is-a.dev,67c86143a6e1fbf322bf"
+    }
+  }
+}
