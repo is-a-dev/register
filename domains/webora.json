@@ -4,6 +4,6 @@
     "email": "talhasiddiqui433@gmail.com"
   },
   "records": {
-    "CNAME": "webora-398.netlify.app"
+    "NS": ["clint.ns.cloudflare.com", "ophelia.ns.cloudflare.com"]
   }
 }
