@@ -1,0 +1,17 @@
+{
+
+  "owner": {
+    "username": "merouan-dev",
+    "email": "marouann032@gmail.com
+"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "TXT": [
+      "vc-domain-verify=merouan.is-a.dev,5872d752ea3d54999f59",
+      "zoho-verification=zb04118538.zmverify.zoho.com"
+    ]
+  }
+}
