@@ -4,8 +4,6 @@
         "email": "sgdev@netc.fr"
     },
     "record": {
-        "type": "CNAME",
-        "target": "shubhomoydev.vercel.app",
-        "proxied": false
+        "CNAME": "shubhomoydev.vercel.app."
     }
 }
