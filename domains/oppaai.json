@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "OppaAI",
-    "email": "oppa.ai.org@gmail.com"
+    "email": "oppa.ai.org@gmai.com"
   },
-  "records": {
-    "CNAME": "oppaai-aiko-chan.hf.space"
+  "record": {
+    "type": "CNAME",
+    "value": "be2d8aaa-a9d3-4556-91b0-036755866658.cfargotunnel.com"
   }
 }
