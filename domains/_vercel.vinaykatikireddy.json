@@ -4,6 +4,6 @@
         "email": "vinaykatikireddy@hotmail.com"
     },
     "records": {
-         "CNAME":"32c3cc5d95980557.vercel-dns-017.com"
+         "TXT":"vc-domain-verify=vinaykatikireddy.is-a.dev,235ede9674b3aaabc733"
     }
 }
