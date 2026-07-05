@@ -1,0 +1,10 @@
+{
+  "domain": "bjcf.is-a.dev",
+  "owner": {
+    "email": "bj.90.cf@gmail.com"
+  },
+  "record": {
+    "CNAME": "bjcf-dev.github.io"
+  },
+  "proxied": false
+}
