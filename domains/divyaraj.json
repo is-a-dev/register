@@ -1,9 +1,10 @@
 {
-  "owner": {
-    "username": "divyarajkathi",
-    "email": "divyarajkathi11@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "owner": {
+        "username": "divyarajkathi",
+        "email": "divyarajkathi11@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": ["vc-domain-verify=divyaraj.is-a.dev,eee654bb947d225d769a"]
+    }
 }
