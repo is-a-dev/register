@@ -1,8 +1,8 @@
-{
-  "description": "Haroun Abdelli - Software Engineer Portfolio",
+  "description": "Haroun Abdelli - Backend Software Engineer | Database Engineer Portfolio",
   "repo": "https://github.com/Harone13/portfolio-site",
   "owner": {
-    "username": "Harone13"
+    "username": "Harone13",
+    "email": "abdelliharon991@gmail.com"
   },
   "record": {
     "CNAME": "portfolio-site-6yh.pages.dev"
