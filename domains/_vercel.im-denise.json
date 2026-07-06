@@ -1,0 +1,12 @@
+{
+    "$schema": "../schema.json",
+    "owner": {
+        "username": "denisee27",
+        "email": "denisaldian88@gmail.com"
+    },
+    "records": {
+        "TXT": [
+            "vc-domain-verify=im-denise.is-a.dev,7587d0b0945c06867b04"
+        ]
+    }
+}
