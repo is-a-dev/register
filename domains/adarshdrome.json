@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "Adhi0303",
-        "email": "suriyaadhi007@email.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "Adhi0303",
+    "email": "suriyaadhi007@email.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=adarshdrome.is-a.dev,27c00b9cc10c51eb0911"
+  }
 }
