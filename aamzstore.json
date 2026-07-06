@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schemas/domain.schema.json",
+  "description": "Aamz Store - Discord bots, servers & more",
+  "repo": "https://github.com/richiiigaming56-cell/aamzstorex",
+  "owner": {
+    "username": "richiiigaming56-cell",
+    "email": "aamz1xx@outlook.com"
+  },
+  "record": {
+    "CNAME": "e27addfb0d82444a.vercel-dns-017.com"
+  }
+}
