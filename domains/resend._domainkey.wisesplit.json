@@ -1,0 +1,10 @@
+{
+  "description": "Resend DKIM",
+  "owner": {
+    "username": "darpanvedi0",
+    "email": "darpanvedi0@gmail.com"
+  },
+  "records": {
+    "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCxRzUeVNG93V+g4HmEMCSxv+JVf2F2ZvrcRLigX+sj88zZeHuhnqUhCCqhdhZao5/7AaY7K1r70JH6/hV0mi8refHCj+SgbLLvsKeM17XfiiXK8ZICTQo5RfsZnqEsumrVqu5tNDO9QM5HEuiY/P14ITbJDvSkI4NAC7kJFeVwwIDAQAB"
+  }
+}

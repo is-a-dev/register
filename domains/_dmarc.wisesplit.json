@@ -1,0 +1,10 @@
+{
+  "description": "DMARC policy",
+  "owner": {
+    "username": "darpanvedi0",
+    "email": "darpanvedi0@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
