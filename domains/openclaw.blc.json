@@ -4,6 +4,7 @@
         "email": "blctoblc223@gmail.com"
     },
     "records": {
-        "CNAME": "d87769f7-a790-49f8-a045-36c0ad098f2d.cfargotunnel.com"
+        "CNAME": "homelab.blctoblc223.workers.dev"
+        "proxied": true
     }
 }
