@@ -1,0 +1,11 @@
+{
+  "description": "Open Application — open-source job application tracker",
+  "repo": "https://github.com/SilasFr/open-application",
+  "owner": {
+    "username": "SilasFr",
+    "email": "silas23.fr@gmail.com"
+  },
+  "records": {
+    "CNAME": "open-application-frontend.onrender.com"
+  }
+}
