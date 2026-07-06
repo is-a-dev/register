@@ -1,0 +1,15 @@
+{
+  "description": "Email forwarding domain for MailPal",
+  "domain": "is-a.dev",
+  "subdomain": "xalty",
+  "owner": {
+    "repo": "https://github.com/RandomAimXD/register",
+    "email": "thisisforfutureuse1@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "hassan.ns.cloudflare.com",
+      "mona.ns.cloudflare.com"
+    ]
+  }
+}
