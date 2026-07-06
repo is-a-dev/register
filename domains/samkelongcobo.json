@@ -1,14 +1,11 @@
 {
-  "description": "Samkelo Portfolio Website - Full-stack developer portfolio",
+  "description": "Samkelo Portfolio Website",
   "repo": "https://github.com/SPNgcobo/portfolio",
   "owner": {
     "username": "SPNgcobo",
     "email": "samkelop.dev@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": {
-      "resend._domainkey": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsUp87UBLgg1fXlbC0W9hvd6pLaxkOkVY43tJN34f85RoLmX5FHRzBsU+p8iTJbzupjfekxQNtQXEGfKl6/H58n45lpbb9POcCKNWqe5liLVXBxytr8xyjVtoQZyGm7HCpjHaMUXWphY+ZLMKuLaALwCmlzYS1OsqfutmiTeoylwIDAQAB"
-    }
+    "CNAME": "cname.vercel-dns.com"
   }
 }
