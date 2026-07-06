@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "BenakKishanJ"
+    "username": "BenakKishanJ",
+    "email":"benakkishanj@gmail.com"
   },
   "records": {
     "CNAME": "benki-dev.benakkishanj.workers.dev"
