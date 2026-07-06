@@ -1,9 +1,15 @@
 {
-      "owner": {
-              "username": "RanveerSingh1997",
-              "email": "ranveergour781@gmail.com"
-      },
-      "records": {
-              "CNAME": "ranveersingh1997.github.io"
-      }
+    "owner": {
+        "username": "RanveerSingh1997",
+        "email": "ranveergour781@gmail.com"
+    },
+    "records": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "TXT": "google-site-verification=nKoEiD8mhnvf8fc6TU7-8GXYc6sdysw818KRWF3z7f4"
+    }
 }
