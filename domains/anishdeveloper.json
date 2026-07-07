@@ -1,9 +1,8 @@
 {
     "owner": {
-        "username": "alihafizanish-del",
-        "email": "alihafizanish@gmail.com"
+        "username": "alihafizanish-del"
     },
-    "record": {
-        "CNAME": "alihafizanish-del.github.io"
+    "records": {
+        "CNAME": "v0-anishdev.vercel.app"
     }
 }
