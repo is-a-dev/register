@@ -4,6 +4,9 @@
         "email": "xecloud4@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=abqory.is-a.dev,b7e28668778d80a90583"
+         "TXT": [
+      "vc-domain-verify=abqory.is-a.dev,b7e28668778d80a90583",
+      "vc-domain-verify=blogs.abqory.is-a.dev,f13fe4bc38b8ffbcf16e"
+        ]
     }
 }

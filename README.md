@@ -44,7 +44,7 @@ With the recent rising of invalid PRs, including PRs generated with AI, we reser
 - Remove any existing domains owned by the author if connected to TOS-violating content.
 
 ## Report Abuse
-If you find any subdomains being abused or breaking our TOS, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with relevant evidence.
+If you find any subdomains being abused or breaking our [ToS](https://is-a.dev/terms), please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with relevant evidence.
 
 ---
 

@@ -1,0 +1,5 @@
+{
+  "owner": { "username": "InezaBonheurCedrick", "email": "inezabonheur100@gmail.com" },
+  "description": "Vercel domain verification for inezabonheur.is-a.dev",
+  "records": { "TXT": "vc-domain-verify=inezabonheur.is-a.dev,9d368d987d49d5669abc" }
+}
