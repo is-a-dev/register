@@ -6,7 +6,6 @@
     "email": "pranavkarthika12@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=pranavprasad.is-a.dev,e677e8cab523dd2e356b"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
