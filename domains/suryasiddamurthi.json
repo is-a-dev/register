@@ -1,11 +1,11 @@
-{
-  "owner": {
-    "username": "Roadmast",
-    "email": "siddamurthi789@gmail.com"
+{ 
+  "owner" : { 
+    "username" : "Roadmast", 
+    "email" : "siddamurthi789@gmail.com" 
+  }, 
+  "records" : { 
+    "CNAME" : "roadmast.github.io" 
   },
-  "records": {
-    "CNAME": "siddamurthi789.pages.dev"
-  },
-  "description": "Personal development space and portfolio hosted on Cloudflare Workers.",
-  "repo": "https://github.com/Roadmast/register"
+  "description" : "Personal development space and portfolio hosted on GitHub Pages.",
+  "repo" : "https://github.com/Roadmast/register"
 }
