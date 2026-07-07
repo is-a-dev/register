@@ -4,13 +4,13 @@
     "owner": {
         "username": "everythingfreee"
     },
-    "record": {
+    "records": {
         "A": ["216.198.79.1"]
     },
     "nested": [
         {
             "name": "_vercel",
-            "record": {
+            "records": {
                 "TXT": ["vc-domain-verify=sanaullahshaheer.is-a.dev,ebc95a83f008eca5285f"]
             }
         }
