@@ -1,4 +1,6 @@
 {
+  "description": "Personal developer portfolio for Vincent Perez — a full-stack AI engineer. The site showcases software development projects. Hosted on Vercel from the personal-portfolio repository.",
+  "repo": "https://github.com/vincentperezzz/personal-portfolio",
   "owner": {
     "username": "vincentperezzz",
     "email": "perezvincent100@gmail.com"
