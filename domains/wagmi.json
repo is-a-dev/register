@@ -1,8 +1,10 @@
 {
     "owner": {
-        "username": "BarimKenzema"
+        "username": "YOUR_GITHUB_USERNAME"
     },
     "records": {
-        "CNAME": "wagmi-cto-website.baraye99.workers.dev"
-    }
+        "A": ["192.0.2.1"],
+        "TXT": ["is-a.dev verified"]
+    },
+    "proxied": true
 }
