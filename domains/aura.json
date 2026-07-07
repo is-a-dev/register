@@ -4,6 +4,7 @@
     "email": "github@auravoid.dev"
   },
   "records": {
-    "CNAME": "aura-is-a-dev.pages.dev"
+    "A": ["178.156.219.132"],
+    "AAAA": ["2a01:4ff:f0:fd49::1"]
   }
 }

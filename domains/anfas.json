@@ -3,6 +3,6 @@
         "username": "anfastech"
     },
     "records": {
-        "CNAME": "anfas.vercel.app"
+        "A": ["216.198.79.1"]
     }
 }

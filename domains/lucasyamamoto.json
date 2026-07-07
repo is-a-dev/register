@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "lucasayb",
-        "email": "me@lucasyamamoto.com"
+        "email": "domain@lucasyamamoto.com"
     },
     "records": {
-        "CNAME": "lucasyamamoto.com"
+        "URL": "https://lucasayb.github.io"
     }
 }

@@ -4,6 +4,6 @@
         "email": "snlkadam45@gmail.com"
     },
     "records": {
-        "CNAME": "sushantkadam.netlify.app"
+        "A": ["75.2.60.5"]
     }
 }

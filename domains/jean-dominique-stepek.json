@@ -4,6 +4,6 @@
     "email": "domstepek@gmail.com"
   },
   "records": {
-    "CNAME": "domstepek.github.io"
+    "A": ["216.198.79.1"]
   }
 }
