@@ -3,6 +3,6 @@
     "username": "gaodaqiang237-cyber"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=aiferry.is-a.dev,11c880d10f84a345ac0f"
   }
 }
