@@ -2,11 +2,7 @@
     "owner": {
         "username": "ShirleyXia330"
     },
-    "record": {
-      "MX": [
-        { "value": "mx.sendgrid.net",
-          "priority":10
-        }
-      ]
-    }
+    "records": {
+    "CNAME": "u110377009.wl010.sendgrid.net"
+  }
 }
