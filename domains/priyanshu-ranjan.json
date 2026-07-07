@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "Priyanshu631"
+    "username": "Priyanshu631",
+    "email": "priyanshuranjan6@gmail.com"
   },
   "records": {
-    "CNAME": "pr-portfolio-plum.vercel.app"
+    "CNAME": "pr-portfolio-plum.vercel.app",
+    "A": ["216.198.79.1"]
   }
 }
