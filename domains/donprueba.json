@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "zahirbombap-hub"
+  },
+  "records": {
+    "CNAME": "donprueba.online",
+    "TXT": [
+      "google-site-verification=jaxGOAPXX2jUW-vSZxoRbmWYxLty_U1FDVVh-qtwtEk",
+      "v=spf1 include:_spf.google.com ~all"
+    ],
+    "MX": [
+      { "target": "ASPMX.L.GOOGLE.COM", "priority": 1 },
+      { "target": "ALT1.ASPMX.L.GOOGLE.COM", "priority": 5 },
+      { "target": "ALT2.ASPMX.L.GOOGLE.COM", "priority": 5 },
+      { "target": "ALT3.ASPMX.L.GOOGLE.COM", "priority": 10 },
+      { "target": "ALT4.ASPMX.L.GOOGLE.COM", "priority": 10 }
+    ]
+  },
+  "proxied": true
+}

@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "developeradhi"
+        "username": "developeradhi",
+        "email": "adhipvt2203@gmail.com"
     },
     "records": {
         "A": [
@@ -25,7 +26,8 @@
         ],
         "TXT": [
             "zoho-verification=zb19694310.zmverify.zoho.in",
-            "v=spf1 include:zoho.in ~all"
+            "v=spf1 include:zoho.in ~all",
+            "_dmarc=v=DMARC1; p=none;"
         ]
     }
 }
