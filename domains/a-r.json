@@ -4,14 +4,9 @@
     "email": "aswanthr82@gmail.com"
   },
   "records": {
-    "CNAME": {
-      "value": "nodex-ar.github.io",
-      "proxied": true
-    },
-    "MX": {
-      "mx1.forwardemail.net": 10,
-      "mx2.forwardemail.net": 10
-    },
+    "CNAME": "nodex-ar.github.io",
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": ["v=spf1 include:spf.forwardemail.net ~all"]
-  }
+  },
+  "proxied": true
 }
