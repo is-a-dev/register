@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "xlsanal",
-    "email": "enocxndetanirlar@gmail.com"
-  },
-  "records": {
-    "URL": "https://xlsanal.github.io/xlsanal/"
-  }
+    "owner": {
+        "username": "xlsanal",
+        "email": "enocxndetanirlar@gmail.com"
+    },
+    "records": {
+        "CNAME": "xlsanal.github.io"
+    }
 }
