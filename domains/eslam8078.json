@@ -4,6 +4,12 @@
     "email": "eslamayman2412@gmail.com"
   },
   "records": {
-    "CNAME": "eslam-8078.vercel.app"
+    "CNAME": "eslam-8078.vercel.app",
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=eslam.is-a.dev,2841f235d1e491b2c246"
+      }
+    ]
   }
 }
