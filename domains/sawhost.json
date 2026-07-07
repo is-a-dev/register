@@ -1,0 +1,15 @@
+{
+  "description": "Bot hosting platform and container management for SA Host",
+  "domain": "sawhost",
+  "owner": {
+    "username": "ssaugjop",
+    "email": "athersaif696@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "nitin.ns.cloudflare.com",
+      "vivienne.ns.cloudflare.com"
+    ]
+  }
+}
+
