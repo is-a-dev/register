@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "dolslucas2003-byte",
+    "email": "291834406+dolslucas2003-byte@users.noreply.github.com"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "feedback-smtp.eu-west-1.amazonses.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all"
+    ]
+  }
+}
