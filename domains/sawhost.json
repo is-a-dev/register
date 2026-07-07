@@ -3,9 +3,9 @@
   "domain": "sawhost",
   "owner": {
     "username": "ssaugjop",
-    "email": "athersaif696@gmail.com"
+    "email": "athersaif69@gmail.com"
   },
-  "record": {
+  "records": {
     "NS": [
       "nitin.ns.cloudflare.com",
       "vivienne.ns.cloudflare.com"
