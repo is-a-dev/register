@@ -1,0 +1,10 @@
+{ "description": "bostjan.is-a.dev SSL/TLS validation (Digicert)",
+  "repo": "https://github.com/bostjans/register",
+  "owner": {
+    "username": "bostjans",
+    "email": "bostjan@stupica.com"
+  },
+  "records": {
+    "TXT": [ "202601020959242wn3bn4ib1mg60kacdo268wphf3zdcrhc0h6y6rwa5p6j0iyzq" ]
+  }
+}

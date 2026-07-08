@@ -4,6 +4,25 @@
         "email": "w82l8.islam@gmail.com"
     },
     "records": {
-        "CNAME": "wait2late.github.io"
-    }
+        "CNAME": "wait2late.github.io",
+        "TXT": [
+            "zoho-verification=zb14913997.zmverify.zoho.eu",
+            "v=spf1 include:zohomail.eu ~all"
+        ],
+        "MX": [
+        {
+          "target": "mx.zoho.eu",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.eu",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.eu",
+          "priority": 50
+        }
+      ]
+    },
+    "proxied": true
 }

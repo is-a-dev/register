@@ -4,7 +4,7 @@
     "email": "stanleysutton2510@gmail.com"
   },
   "records": {
-    "CNAME": "stanleysutton.github.io",
+    "A": ["76.76.21.21"],
     "TXT": ["zoho-verification= zb43527147.zmverify.zoho.eu", "v=spf1 include:zohomail.eu ~all"],
     "MX": [
       {
