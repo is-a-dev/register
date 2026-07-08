@@ -5,5 +5,6 @@
   },
   "records": {
     "CNAME": "437eaee5-d14c-4bf1-9a43-819488c791cf.cfargotunnel.com"
-  }
+  },
+  "proxied": true
 }
