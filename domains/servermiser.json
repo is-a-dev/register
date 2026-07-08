@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "izaanorayaan"
+        "username": "izaanorayaan",
+        "description": "Contact: izaanorayaan@gmail.com"
     },
     "record": {
-        "CNAME": "servermiser-dashboard.onrender.com"
+        "CNAME": "://onrender.com"
     }
 }
