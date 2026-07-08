@@ -3,7 +3,7 @@
     "username": "zylo-r"
   },
   "records": {
-    "CNAME": "https://testinf02.zylor.workers.dev/"
+    "CNAME": "testinf02.zylor.workers.dev"
   },
   "proxied": true
 }
