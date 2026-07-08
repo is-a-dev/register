@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "CAMAPY",
+    "email": "ironmancaptain86@gmail.com"
+  },
+  "records": {
+    "CNAME": "https://portfolio-pi-gray-39.vercel.app/"
+  }
+}
