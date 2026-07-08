@@ -1,0 +1,11 @@
+{
+  "description": "My Home Assistant instance",
+  "repo": "https://github.com/phplopess-cyber",
+  "owner": {
+    "username": "phplopess-cyber",
+    "email": "phplopess@gmail.com"
+  },
+  "record": {
+    "CNAME": "ef192ed9-d823-4bd3-a0fd-a8b809c15add"
+  }
+}
