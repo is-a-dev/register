@@ -1,0 +1,15 @@
+{
+  "description": "A personal website for Kaka",
+  "domain": "is-a.dev",
+  "subdomain": "kaka",
+  "owner": {
+    "username": "mike1998handerson",
+    "email": "mike.handerson.1998@atomicmail.io"
+  },
+  "record": {
+    "NS": [
+      "chan.ns.cloudflare.com",
+      "joel.ns.cloudflare.com"
+    ]
+  }
+}
