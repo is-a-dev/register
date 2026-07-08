@@ -4,7 +4,7 @@
     "email": "fiqiefendi13@gmail.com"
   },
   "records": {
-    "CNAME": "437eaee5-d14c-4bf1-9a43-819488c791cf.cfargotunnel.com"
+    "A": ["192.0.2.1"]
   },
   "proxied": true
 }
