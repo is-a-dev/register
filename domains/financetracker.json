@@ -4,7 +4,6 @@
     "email": "brinckmannalex@gmail.com"
   },
   "records": {
-    "CNAME": "expenses-incomes-frontend.vercel.app",
-    "TXT": []
+    "CNAME": "expenses-incomes-frontend.vercel.app"
   }
 }
