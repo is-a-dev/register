@@ -2,8 +2,10 @@
   "owner": {
     "username": "Nilabh2020"
   },
-  "record": {
-    "AAAA": "2401:4900:1c89:d231:2ecf:67ff:fe5f:6fe6",
-    "proxied": true
-  }
+  "records": {
+    "AAAA": [
+      "2401:4900:1c89:d231:2ecf:67ff:fe5f:6fe6"
+    ]
+  },
+  "proxied": true
 }
