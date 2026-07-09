@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "tuanaetherz17",
+        "email": "tuanaetherz17@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "archer.ns.cloudflare.com",
+            "penny.ns.cloudflare.com"
+        ]
+    }
+}
