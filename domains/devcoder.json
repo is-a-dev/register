@@ -3,7 +3,7 @@
         "username": "DevCoderMC",
         "email": "devcodermc+github@gmail.com"
     },
-    "record": {
-        "CNAME": "https://devcodermc.github.io"
+    "records": {
+        "CNAME": "devcodermc.github.io"
     }
 }
