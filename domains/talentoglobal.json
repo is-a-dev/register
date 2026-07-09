@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "cumaze",
+    "email": "cumaze@gmail.com"
+  },
+  "record": {
+    "TXT": "v=spf1 include:://improvmx.com include:mailrelay.com ~all",
+    "MX": [
+      "10 ://improvmx.com.",
+      "20 ://improvmx.com."
+    ]
+  }
+}
