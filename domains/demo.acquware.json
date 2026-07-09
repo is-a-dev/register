@@ -1,1 +1,9 @@
-
+{
+  "domain": "demo.acquware",
+  "owner": {
+    "email": "nishida@acquware.com"
+  },
+  "record": {
+    "A": ["140.245.90.222"]
+  }
+}
