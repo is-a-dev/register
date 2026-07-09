@@ -1,0 +1,15 @@
+{
+"owner"
+: {
+"username"
+: "heyuxuanyydsme",
+"email"
+: "hyxyyds0922@163.com"
+},
+"records"
+: {
+"NS": ["gail.ns.cloudflare.com","tim.ns.cloudflare.com"]
+},
+"proxied"
+: true
+}
