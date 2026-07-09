@@ -1,1 +1,11 @@
-
+{
+  "description": "LeafyCam - The Android Camera App Built for Cinematic Nature Photography",
+  "repo": "https://github.com/athira603/leafycam-website",
+  "owner": {
+    "username": "athira603",
+    "email": "leafycam.support@gmail.com"
+  },
+  "record": {
+    "CNAME": "athira603.github.io"
+  }
+}
