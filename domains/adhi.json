@@ -28,7 +28,6 @@
             "25424ae98b53411ded5dd734fd7a38",
             "zoho-verification=zb19694310.zmverify.zoho.in",
             "v=spf1 include:zoho.in ~all",
-            "_dmarc=v=DMARC1; p=none;"
         ]
     }
 }
