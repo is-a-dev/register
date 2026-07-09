@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "tecinocryptlifeos"
+    "username": "tecinocryptlifeos",
+    "email": "lifeosdailyplanner@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "lifeos-ai-voice-app.onrender.com"
   }
 }
