@@ -1,0 +1,11 @@
+{
+    "description": "Paradise Staff Panel",
+    "repo": "https://github.com/paradiseadmins/paradise-staff-site",
+    "owner": {
+        "username": "paradiseadmins",
+        "email": "paradiseadmins@gmail.com"
+    },
+    "record": {
+        "CNAME": "paradise.up.railway.app"
+    }
+}
