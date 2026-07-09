@@ -3,11 +3,17 @@
     "username": "cumaze",
     "email": "cumaze@gmail.com"
   },
-  "record": {
-    "TXT": "v=spf1 include:://improvmx.com include:mailrelay.com ~all",
+  "records": {
     "MX": [
-      "10 ://improvmx.com.",
-      "20 ://improvmx.com."
-    ]
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com include:spf.ipzmarketing.com ~all"
   }
 }
