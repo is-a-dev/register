@@ -1,9 +1,15 @@
 {
   "owner": {
-    "username": "vamsikrishnareddybevara",
-    "email": "vamsikrishnareddybevara@gmail.com"
+    "username": "jahangeershaik997-dev",
+    "email": "jahangeershaik997@gmail.com"
   },
   "records": {
-    "CNAME": "vamsikrishnareddybevara.github.io"
+    "A": "216.198.79.1",
+    "CNAME": {
+      "www": "fa7a5a1db09424b1.vercel-dns-017.com"
+    },
+    "TXT": {
+      "_vercel": "vc-domain-verify=vamsi.is-a.dev.fc3b9faa1c77d41da922"
+    }
   }
 }
