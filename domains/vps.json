@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "vps-3"
+  },
+  "records": {
+    "NS": [
+      "duke.ns.cloudflare.com",
+      "martha.ns.cloudflare.com"
+    ]
+  }
+}
