@@ -4,6 +4,6 @@
     "email": "longhip2012@gmail.com"
   },
   "records": {
-    "CNAME": "api-hop-ao0x.onrender.com"
+    "A": ["216.24.57.1"]
   }
 }
