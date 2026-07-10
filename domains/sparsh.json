@@ -4,6 +4,13 @@
     "email": "iamsparshemail02@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      {
+        "ttl": 300,
+        "value": "vc-domain-verify=sparsh.is-a.dev,a50248106218dcf45e18",
+        "name": "_vercel"
+      }
+    ]
   }
 }
