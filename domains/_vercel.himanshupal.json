@@ -4,6 +4,8 @@
     "email": "himanshupal19845@gmail.com"
   },
   "records": {
-    "CNAME": "himanshupal-portfolio-2026.vercel.app"
+    "TXT": [
+      "vc-domain-verify=himanshupal.is-a.dev,b611613f7a61c169f609"
+    ]
   }
 }
