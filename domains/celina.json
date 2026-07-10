@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/src/schema.json",
+    "owner": {
+        "username": "TheEmprex",
+        "email": "maximelmaf@gmail.com"
+    },
+    "record": {
+        "CNAME": "theemprex.github.io"
+    },
+    "description": "A puzzle library for Celina — a personal gift app.",
+    "repo": "https://github.com/TheEmprex/celinas-game"
+}
