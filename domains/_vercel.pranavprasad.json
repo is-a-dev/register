@@ -1,11 +1,11 @@
 {
-  "description": "Portfolio website for Pranav Prasad",
+  "description": "Vercel TXT Verification",
   "repo": "https://github.com/Pranav-Prasad12/my-portfolio",
   "owner": {
     "username": "Pranav-Prasad12",
     "email": "pranavkarthika12@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=pranavprasad.is-a.dev,e677e8cab523dd2e356b"
   }
 }
