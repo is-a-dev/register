@@ -1,11 +1,13 @@
 {
+  "description": "Portfolio of Marvelousshivam",
+  "repo": "https://github.com/Marvelousshivam/Marvelousshivam-portfolio-tdfx",
   "owner": {
     "username": "Marvelousshivam",
     "email": "shivamrajuniverse616@gmail.com"
   },
   "records": {
-    "TXT": [
-      "vc-domain-verify=marvelousshivam.is-a.dev,ea7fb66807e2a4e46a0a"
+    "A": [
+      "216.198.79.1"
     ]
   }
 }
