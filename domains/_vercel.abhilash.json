@@ -1,0 +1,11 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "_vercel.abhilash",
+  "owner": {
+    "username": "abhilash-kumar-collab",
+    "email": "YOUR-REAL-EMAIL@example.com"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=abhilash.is-a.dev,ad11314651c2a4fa56b0"
+  }
+}
