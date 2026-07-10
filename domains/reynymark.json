@@ -4,6 +4,6 @@
         "email": "com.solodev@gmail.com"
     },
     "records": {
-        "CNAME": "reyny-mark-portfolio.vercel.app"
+        "A": ["216.198.79.1"]
     }
 }

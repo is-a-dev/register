@@ -4,6 +4,6 @@
     "email": "vanshrabadiyav@gmail.com"
   },
   "records": {
-    "CNAME": "vansh-rabadiya-portfolio.pages.dev"
+    "A": ["216.198.79.1"]
   }
 }
