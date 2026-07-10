@@ -7,6 +7,6 @@
   "records": {
     "CNAME": "agustinh09.github.io",
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": ["forward-email=agus.hernandez9@gmail.com"]
+    "TXT": ["forward-email=agus.hernandez9@gmail.com", "brevo-code:4fe7accf8031d519f24b27472027ea92"]
   }
 }

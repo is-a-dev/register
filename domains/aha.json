@@ -1,9 +1,10 @@
 {
     "owner": {
-        "username": "ahakkoca07",
-        "email": "ahakkoca07@gmail.com"
+        "username": "theahadev",
+        "email": "ahathedev@ahathe.dev"
     },
     "records": {
-        "CNAME": "ahakkoca07.github.io"
+        "A": ["92.5.5.5", "92.5.5.6", "92.5.5.7", "92.5.5.8", "92.5.5.9", "92.5.6.0", "92.5.6.1"],
+        "TXT": ["google-site-verification=XHKd6zwiDwU9fLpBOvCzMBRFLnFZQYqhcQlQi3TWK2E"]
     }
 }
