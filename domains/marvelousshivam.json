@@ -1,11 +1,14 @@
 {
-  "description": "macOS Portfolio of Marvelousshivam",
-  "repo": "https://github.com/Marvelousshivam/Marvelousshivam-portfolio",
+  "description": "Portfolio of Marvelousshivam",
+  "repo": "https://github.com/Marvelousshivam/Marvelousshivam-portfolio-tdfx",
   "owner": {
     "username": "Marvelousshivam",
     "email": "shivamrajuniverse616@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": {
+      "_vercel": "vc-domain-verify=marvelousshivam.is-a.dev,ea7fb66807e2a4e46a0a"
+    }
   }
 }
