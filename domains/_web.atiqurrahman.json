@@ -4,6 +4,6 @@
         "email": "s.atiqurrahman2003@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=atiqurrahman.is-a.dev,ddd9f858a4b92a50e7c0"]
+        "CNAME": ["atiqurrahman-portfolio.web.app"]
     }
 }
