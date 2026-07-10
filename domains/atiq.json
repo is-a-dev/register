@@ -4,6 +4,6 @@
         "email": "s.atiqurrahman2003@gmail.com"
     },
     "records": {
-        "CNAME": "atiqurrahman-portfolio.web.app"
+        "A": ["216.198.79.1"]
     }
 }
