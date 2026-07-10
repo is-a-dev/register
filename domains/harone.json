@@ -6,6 +6,8 @@
     "email": "abdelliharon991@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-site-six-sandy-28.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
