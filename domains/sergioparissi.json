@@ -1,1 +1,9 @@
-{"owner":{"username":"sparissiasap","email":"spr_123@hotmail.com"},"records":{"CNAME":"sparissiasap.github.io"}}
+{
+  "owner": {
+    "username": "sparissiasap",
+    "email": "spr_123@hotmail.com"
+  },
+  "records": {
+    "CNAME": "sparissiasap.github.io"
+  }
+}
