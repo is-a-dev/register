@@ -4,9 +4,6 @@
     "email": "annonim.mario19@gmail.com"
   },
   "records": {
-    "NS": [
-      "eleanor.ns.cloudflare.com",
-      "syeef.ns.cloudflare.com"
-    ]
+    "CNAME": "andrew-book.is-a.dev"
   }
 }
