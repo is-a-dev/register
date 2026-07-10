@@ -6,7 +6,9 @@
     "email": "shivamrajuniverse616@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
+    "A": [
+      "76.76.21.21"
+    ],
     "TXT": {
       "_vercel": "vc-domain-verify=marvelousshivam.is-a.dev,ea7fb66807e2a4e46a0a"
     }
