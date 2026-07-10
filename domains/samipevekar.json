@@ -2,9 +2,12 @@
   "owner": {
     "username": "samipevekar"
   },
-  "records": {
+  "record": {
     "A": [
       "216.198.79.1"
+    ],
+    "TXT": [
+      "vc-domain-verify=samipevekar.is-a.dev,bed300c18ae9ebc628cbc"
     ]
   }
 }
