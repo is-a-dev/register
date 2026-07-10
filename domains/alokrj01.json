@@ -1,0 +1,11 @@
+{
+  "description": "My developer portfolio",
+  "domain": "alokrj.is-a.dev",
+  "owner": {
+    "username": "alokrj01",
+    "email": "ranjanalok2468@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://alok-dev-portfolio.netlify.app/"
+  }
+}
