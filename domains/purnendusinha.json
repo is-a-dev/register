@@ -3,7 +3,10 @@
     "username": "purnendusinha24-design",
     "email": "purnendusinha24@gmail.com"
   },
-  "record": {
-    "CNAME": "purnendusinha24-design.github.io"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "purnendusinha24-design.github.io"
+    }
+  ]
 }
