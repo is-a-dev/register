@@ -3,9 +3,7 @@
     "username": "dhruv130606",
     "email": "dhruvmahant06@gmail.com"
   },
-  "record": {
-    "TXT": [
-      "vc-domain-verify=dhruvmahant.is-a.dev,c6ce82e629090f0a3e58"
-    ]
+  "records": {
+    "TXT": "vc-domain-verify=dhruvmahant.is-a.dev,c6ce82e629090f0a3e58"
   }
 }
