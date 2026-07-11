@@ -12,16 +12,21 @@
     ],
     "MX": [
       {
-        "target": "mail.dnsexit.com",
+        "target": "mx.zoho.in",
         "priority": 10
       },
       {
-        "target": "mail2.dnsexit.com",
+        "target": "mx2.zoho.in",
         "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
       }
     ],
     "TXT": [
-      "google-site-verification=Osw72MYr4ZOgV7xqjyvYzzBg4dLBiPM9GVdZ9DiS3Eo"
+      "google-site-verification=Osw72MYr4ZOgV7xqjyvYzzBg4dLBiPM9GVdZ9DiS3Eo",
+      "v=spf1 include:zoho.in ~all"
     ]
   }
 }
