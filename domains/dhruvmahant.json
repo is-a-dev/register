@@ -3,7 +3,9 @@
     "username": "dhruv130606",
     "email": "dhruvmahant06@gmail.com"
   },
-  "record": {
-    "A": ["216.198.79.1"]
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
