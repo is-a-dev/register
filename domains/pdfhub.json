@@ -4,6 +4,6 @@
     "email": "nguyendongnam1879@gmail.com"
   },
   "record": {
-    "CNAME": "pdfhub.serveusercontent.com"
+    "A": ["76.76.21.21"]
   }
 }
