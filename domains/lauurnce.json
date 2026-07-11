@@ -4,6 +4,6 @@
     "email": "paneslawrence8@gmail.com"
   },
   "records": {
-    "CNAME": "lawrence-eigen.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
