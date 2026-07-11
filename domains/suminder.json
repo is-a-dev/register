@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "sandhu1295"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": [
+      "vc-domain-verify=suminder.is-a.dev,0369b1838865491ca0c2"
+    ]
+  }
+}
