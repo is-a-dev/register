@@ -4,6 +4,6 @@
         "email": "ericdenny26@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=byte.is-a.dev,7356e347ab32fda25c79"
     }
 }
