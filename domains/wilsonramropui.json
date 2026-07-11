@@ -4,15 +4,11 @@
     "email": "wilsonramz774@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
-  },
-  "nested": {
-    "_vercel": {
-      "records": {
-        "TXT": [
-          "vc-domain-verify=is-a.dev,c12b3d396f4f1ce53e3a"
-        ]
-      }
-    }
+    "A": [
+      "76.76.21.21"
+    ],
+    "TXT": [
+      "vc-domain-verify=is-a.dev,c12b3d396f4f1ce53e3a"
+    ]
   }
 }
