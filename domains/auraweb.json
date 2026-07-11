@@ -1,0 +1,12 @@
+{
+    "$schema": "../schema.json",
+    "description": "Premium design studio portfolio",
+    "repo": "https://github.com",
+    "owner": {
+        "username": "UnityCode-ru",
+        "email": "spaceshooter598@gmail.com"
+    },
+    "record": {
+        "CNAME": "dp227p5m-8000.euw.devtunnels.ms"
+    }
+}
