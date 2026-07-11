@@ -1,8 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
   "owner": {
-    "username": "jshapiro318-cyber",
-    "email": "jshapiro318@gmail.com"
+    "username": "jshapiro318-cyber"
   },
   "records": {
     "CNAME": "vibecheck-e2oe.onrender.com"
