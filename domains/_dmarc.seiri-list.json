@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "ToroFelipe",
+        "email": "felipe.toro.del@gmail.com"
+    },
+    "description": "Seiri — DMARC policy.",
+    "records": {
+        "TXT": [
+            "v=DMARC1; p=none;"
+        ]
+    }
+}
