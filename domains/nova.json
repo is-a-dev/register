@@ -10,7 +10,9 @@
     ],
     "TXT": [
       { "host": "nova.is-a.dev", "value": "v=spf1 a mx include:forwardemail.net ~all" },
-      { "host": "_dmarc.nova.is-a.dev", "value": "v=DMARC1; p=none;" }
+      { "host": "_dmarc.nova.is-a.dev", "value": "v=DMARC1; p=reject; pct=100; rua=mailto:dmarc-6a538110dc08dde3bc33eca8@forwardemail.net;" },
+      { "host": "fe-898292e675._domainkey.nova.is-a.dev", "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdOWIhdkj7N9KK/50p0g2yxJ7FkEBemAjlAW3X5ji6xxDGunYeDH4Z8v3/dLloB4lGpvvJ/DbwWgfcv5tKt4jWwRLiQlFOXeLSet63xg5FIJtQZeBnOcBISiNj67O3LqRBnxQtielpDv4rckICmbhS4KXKggB2s7wOfpjlo2rXzwIDAQAB;" },
+      { "host": "fe-bounces.nova.is-a.dev", "value": "forwardemail.net" }
     ]
   }
 }
