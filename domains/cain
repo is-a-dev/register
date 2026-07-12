@@ -4,6 +4,6 @@
     "email": "ironmancaptain86@gmail.com"
   },
   "records": {
-    "CNAME": "https://portfolio-pi-gray-39.vercel.app/"
+    "A": ["216.198.79.1"]
   }
 }
