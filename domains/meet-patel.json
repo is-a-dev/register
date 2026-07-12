@@ -1,12 +1,9 @@
 {
-    "owner": {
-        "username": "Meet-Patel-306",
-        "email": "meetpt306@gmail.com"
-    },
-    "records": {
-        "CNAME": "meet-patel-nu.vercel.app"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=meet-patel.is-a.dev,bd1699a7d7248572cfbb"
+  "owner": {
+    "username": "Meet-Patel-306",
+    "email": "meetpt306@gmail.com"
+  },
+  "records": {
+    "CNAME": "meet-patel-nu.vercel.app"
   }
 }

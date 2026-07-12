@@ -5,11 +5,6 @@
     "twitter": "lordlinux69"
   },
   "records": {
-    "A": ["45.90.12.31", "37.114.46.37"],
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  },
-  "services": {
-    "discord": "dh=edc2f8a1ed533b91a794ced9244cb4fa8a138531"
+    "NS": ["armando.ns.cloudflare.com", "kate.ns.cloudflare.com"]
   }
 }

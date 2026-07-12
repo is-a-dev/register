@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "ethanxcode.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ethantran.is-a.dev,5f35b845871b948c0035"
   }
 }

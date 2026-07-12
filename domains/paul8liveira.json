@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "paul8liveira.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=paul8liveira.is-a.dev,86dcef96f01c5029a229"
   }
 }

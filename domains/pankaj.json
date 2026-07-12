@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=pankaj.is-a.dev,8a1bcc497915316ee092"
   }
 }

@@ -4,9 +4,17 @@
     "email": "ait.suriya@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=aitji.is-a.dev,0a05468b82f542c74dea"
+    "A": ["76.76.21.21"],
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   }
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "bhavya-gupta-portfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=bhavyagupta.is-a.dev,6ad4b583ec5dfd020162"
   }
 }

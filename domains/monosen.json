@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "minimalist-portfolio-zeta.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=monosen.is-a.dev,a2fd2dc04b730870b37c"
   }
 }

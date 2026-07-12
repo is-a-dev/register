@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "1ndrajeet.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=1ndrajeet.is-a.dev,00cac18202bfab99e890"
   }
 }

@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "portfoio-v2.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=shubh.is-a.dev,ec236054bf6268762e7e"
   }
 }

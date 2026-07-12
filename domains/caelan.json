@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "caelan-curry.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=caelan.is-a.dev,8b8aef79a843715439f0"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "afahmygit",
+    "email": "git@ahmedfahmy.com"
+  },
+  "records": {
+    "CNAME": "cv.ahmedfahmy.com",
+    "MX": [
+      "mailing.ahmedfahmy.com"
+    ],
+    "TXT": [
+      "v=spf1 mx ~all",
+      "v=DMARC1; p=quarantine; rua=mailto:nat@ahmedfahmy.com",
+      "default._domainkey v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA389Thda0OsVLzPa2GvzgmRao0Lk+px68BMdniuvuOvWtIDJbkxcdK04GFUjPpB4Wde7dVdAOndzVijJAeEv3R5kkrfeu8d46TJWdOyqo8tjCwmX5FsRF1OpvYZ7B6VzUCNVdhmJIIGPkgxrLIGsbLhPU2BUlbadgKi9KCNj0P0vOpvkA/kx4ikGAOJnH/i47AE1xZZwuvIcohWbnCJzNqt2zKoONnf0YaKwWN8f44/S9z3fREE9VWoxmtn/rk0ebglHWZCBvJJx+hRLwqJdbO/hJiQtu/fPAvlzTUqe5755glzDdrhudDbrkEuTJMlnqQEYuyQvx1cPUOTS+dsMLkQIDAQAB"
+    ]
+  },
+  "proxied": true
+}

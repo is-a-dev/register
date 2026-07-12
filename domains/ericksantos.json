@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-ejms.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ericksantos.is-a.dev,b3536d938f21875ae7fb"
   }
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "prathmtayade.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=prathm.is-a.dev,e592414faa9bcf8fe0a4"
   }
 }

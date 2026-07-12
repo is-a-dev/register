@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-pastriks-projects.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=illyes.is-a.dev,32dc49f8ab4e44bff22a"
   }
 }

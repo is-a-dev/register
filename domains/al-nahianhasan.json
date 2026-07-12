@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "al-nahian-portfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=al-nahianhasan.is-a.dev,1deeff67e64c983a1be6"
   }
 }

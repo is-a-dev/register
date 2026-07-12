@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "solfeggio-training.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=solfeggio-training.is-a.dev,64b9db841f2e5fa03a48"
   }
 }

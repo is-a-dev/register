@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portafolio-gamma-mauve.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=wallsified.is-a.dev,a6e231e5e5b6733aba43"
   }
 }

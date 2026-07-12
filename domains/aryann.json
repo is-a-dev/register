@@ -5,9 +5,6 @@
     "discord": "riftfiree"
   },
   "records": {
-    "CNAME": "portxd.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=aryann.is-a.dev,055a43d91c6031804886"
+    "A": ["216.198.79.1"]
   }
 }

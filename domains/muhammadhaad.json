@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=muhammadhaad.is-a.dev,a12bad171212129c491c"
   }
 }

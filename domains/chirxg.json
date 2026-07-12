@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "chirxg.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=chirxg.is-a.dev,701cf9d2a75e9216fd53"
   }
 }

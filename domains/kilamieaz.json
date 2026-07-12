@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "kilamieaz.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=kilamieaz.is-a.dev,43bb0e712f64dcb9c8a5"
   }
 }

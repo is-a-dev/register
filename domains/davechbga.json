@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "davechbga.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=davechbga.is-a.dev,54fb1a1b8fbc8affd8f7"
   }
 }

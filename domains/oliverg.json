@@ -7,8 +7,5 @@
   "records": {
     "A": ["52.160.46.153"]
   },
-  "proxied": false,
-  "services": {
-    "discord": "dh=9a0dc7af9a4d5bafe658ebee92cff00b08d46270"
-  }
+  "proxied": false
 }

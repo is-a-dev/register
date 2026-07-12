@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "jefino9488.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=jefino.is-a.dev,06a21d01141d355de2b1"
   }
 }

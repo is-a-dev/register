@@ -9,8 +9,5 @@
     "URL": "https://youfoundalpha.pages.dev",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  },
-  "services": {
-    "discord": "dh=0ed7bf0ab783536f57a14304a99956a116a1782e"
   }
 }

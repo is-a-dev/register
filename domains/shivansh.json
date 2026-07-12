@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "portfolio-theta-one-19.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=shivansh.is-a.dev,497638a309315f26b590"
   }
 }

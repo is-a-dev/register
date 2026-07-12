@@ -4,10 +4,8 @@
         "email": "cosintan.tg@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
-    },
-    "services": {
-        "vercel": "vc-domain-verify=cosintan.is-a.dev,b33d7124eaba6f7dca28",
-        "discord": "dh=cc6050f09d0f1563f4dd1b168879b9b03ad5e57f"
+        "A": ["216.198.79.1"],
+        "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"],
+        "TXT": ["apple-domain=TLFvGcooOOaMmrDg", "v=spf1 include:icloud.com ~all"]
     }
 }

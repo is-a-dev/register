@@ -5,6 +5,9 @@
     "discord": "691552610519613440"
   },
   "records": {
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
     "CNAME": "drtheodor.github.io"
-  }
+  },
+  "proxied": true
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "zessu-github-io-7l1v.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=drew.is-a.dev,78b1c3bcf18815fe9bfe"
   }
 }

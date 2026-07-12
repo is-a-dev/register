@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "mayank-port.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=mack.is-a.dev,ae3eddaff5956b0fea51"
   }
 }

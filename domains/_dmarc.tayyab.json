@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Mr-Dev-Loper",
+    "email": "techworldhqofficial@gmail.com"
+  },
+  "records": {
+    "TXT": ["v=DMARC1; p=none; rua=mailto:postmaster@tayyab.is-a.dev"]
+  }
+}

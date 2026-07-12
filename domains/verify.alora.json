@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "europaverification.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=verify.alora.is-a.dev,df9b78e72bc7a2889bc8"
   }
 }

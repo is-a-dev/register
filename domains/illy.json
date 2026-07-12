@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "illy-dev-github-io.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=illy.is-a.dev,043aa6b06299bebf5ad1"
   }
 }

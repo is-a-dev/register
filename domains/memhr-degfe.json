@@ -1,0 +1,14 @@
+{
+  "owner": { "username": "metazebiya" },
+  "description": "Email setup for Resend",
+  "records": {
+    "TXT": [
+      "resend._domainkey.send.memhr-degfe.is-a.dev v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDI9bJdw0Of4nLWFs8W8HMOlz3WGo/M3AdMHtyWS4egwg/8l60RB6yhAgaD/WfQ/LIj0AeS40NGlRqOlD475daY9royQPUQqF0SHSg+xZuQ/Vde4oC9cyxYrBB7/Kdpjd69B923ULsXII1X1jUdx7T895Od9LeTzt6O/OblXNBGmwIDAQAB",
+      "send.memhr-degfe.is-a.dev v=spf1 include:amazonses.com ~all",
+      "_dmarc.memhr-degfe.is-a.dev v=DMARC1; p=none;"
+    ],
+    "MX": [
+      "feedback-smtp.us-east-1.amazonses.com"
+    ]
+  }
+}

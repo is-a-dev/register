@@ -4,6 +4,6 @@
     "email": "tasu.legend@gmail.com"
   },
   "records": {
-    "CNAME": "tas33n.pages.dev"
+    "A": ["76.76.21.21"]
   }
 }

@@ -6,8 +6,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=cesarmr.is-a.dev,f90aad152beffe874989"
   }
 }

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-beta-ecru-19.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=nparashar150.is-a.dev,129e61876792da1afb53"
   }
 }

@@ -7,8 +7,5 @@
     "A": ["76.76.21.21"],
     "TXT": "google-site-verification=AyQrjerFwekkOGG9oZLdBFy4TOAeVAYrHTTm5Q-NZD4",
     "MX": ["SMTP.GOOGLE.COM"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ios.is-a.dev,535168654c257a38deb0"
   }
 }

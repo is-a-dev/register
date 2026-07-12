@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "exigent-app.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=exigent-app.is-a.dev,e9abd842187022c39fa4"
   }
 }

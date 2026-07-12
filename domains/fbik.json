@@ -7,8 +7,5 @@
   "records": {
     "CNAME": "cname.vercel-dns.com"
   },
-  "proxied": true,
-  "services": {
-    "vercel": "vc-domain-verify=fbik.is-a.dev,0a7d295b422625e5916c"
-  }
+  "proxied": true
 }

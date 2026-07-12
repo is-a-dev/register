@@ -1,12 +1,9 @@
 {
-  "owner": {
-    "username": "AymanAegon",
-    "email": "ayo12ammar24@gmail.com"
-  },
-  "records": {
-    "CNAME": "ayman-portfolio-fawn.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=aimaneammar.is-a.dev,4b673716f741e17e5281"
-  }
+    "owner": {
+        "username": "AymanAegon",
+        "email": "ayo12ammar24@gmail.com"
+    },
+    "records": {
+        "CNAME": "ayman-portfolio-port.vercel.app"
+    }
 }

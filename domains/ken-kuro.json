@@ -4,9 +4,6 @@
     "linkedin": "hieuhm2610"
   },
   "records": {
-    "CNAME": "kuro-querencia.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ken-kuro.is-a.dev,f7190a78aaa06c66bd44"
+    "A": ["216.198.79.1"]
   }
 }

@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "deadshotdev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=deadshot.is-a.dev,5bc34658e6351c74153c"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "jartf",
+    "email": "gh@jar.tf"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

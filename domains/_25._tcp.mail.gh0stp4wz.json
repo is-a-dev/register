@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "GH0STP4WZ",
+    "email": "R3DGH0STP4WZ@protonmail.com"
+  },
+  "records": {
+    "TLSA": [
+      {
+        "usage": 3,
+        "selector": 1,
+        "matching_type": 1,
+        "certificate": "4e4ba684736047fa57048387c815e0077ea45f629e135e07828dd54c0b5ee201"
+      }
+    ]
+  }
+}

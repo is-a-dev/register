@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "dimasandriano.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=dimasandriano.is-a.dev,e6171f1cd28f96238ae2"
   }
 }
