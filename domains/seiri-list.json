@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "ToroFelipe",
+        "email": "felipe.toro.del@gmail.com"
+    },
+    "description": "Seiri — catálogo de revistas, cómics y mangas (app en Vercel).",
+    "repo": "https://github.com/ToroFelipe/Seiri",
+    "records": {
+        "URL": "https://seiri-list.vercel.app"
+    }
+}
