@@ -4,10 +4,6 @@
     "email": "nyxel.developer@gmail.com"
   },
   "records": {
-    "NS": [
-      "igor.ns.cloudflare.com",
-      "ullis.ns.cloudflare.com"
-    ],
     "CNAME": "nyxel-software-dev.pages.dev"
   }
 }
