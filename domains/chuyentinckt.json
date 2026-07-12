@@ -1,0 +1,10 @@
+{
+    "description": "Just subdomain for my class website",
+    "owner": {
+        "username": "PTK-2411",
+        "email": "khoa.ark123456@gmail.com"
+    },
+    "records": {
+        "CNAME": "chuyentinckt.pages.dev"
+    }
+}
