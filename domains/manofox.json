@@ -4,6 +4,9 @@
     "email": "ankittiwari.373164@gmail.com"
   },
   "records": {
-    "CNAME": "524e4cac-c74d-4f41-940e-d54a85b83b5d.cfargotunnel.com"
+    "NS": [
+      "jewel.ns.cloudflare.com",
+      "piers.ns.cloudflare.com"
+    ]
   }
 }
