@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "ToroFelipe",
+        "email": "felipe.toro.del@gmail.com"
+    },
+    "description": "Seiri — Resend DKIM public key.",
+    "records": {
+        "TXT": [
+            "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTuxgS4QqNZ98UGlXdN4VfmbdauV3AKy/FIntpLQ54XMmBwLE3saFBSTIhDH8ynJlE+RiRtHMmkeB+9wPqnDxpKxvso4kpBRviHMY7hMFU/qg2qsmYClRWrWL3oze+az9ZMyk9RRV7Dz9q0xAod2aYoy12UurkMrDrWtJq6QyhnQIDAQAB"
+        ]
+    }
+}
