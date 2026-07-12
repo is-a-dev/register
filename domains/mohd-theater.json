@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "bkhla",
+        "email": "bkhla2029@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "matteo.ns.cloudflare.com",
+            "tara.ns.cloudflare.com"
+        ]
+    }
+}
