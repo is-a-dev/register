@@ -1,0 +1,13 @@
+{
+  "description": "Domain for self-hosted services, dynamic DNS, Cloudflare Tunnel, and homelab multi-service routing",
+  "owner": {
+    "username": "pzx521521",
+    "email": "pzx521521@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "gigi.ns.cloudflare.com",
+      "john.ns.cloudflare.com"
+    ]
+  }
+}
