@@ -1,18 +1,18 @@
 {
   "owner": {
-    "username": "john-melek",
+    "username": "johnmelek",
     "email": "john.melekdls7@gmail.com"
   },
   "records": {
     "MX": [
-      { "host": "nova.is-a.dev", "value": "mx1.forwardemail.net", "priority": 10 },
-      { "host": "nova.is-a.dev", "value": "mx2.forwardemail.net", "priority": 20 }
+      { "target": "mx1.forwardemail.net", "priority": 10 },
+      { "target": "mx2.forwardemail.net", "priority": 20 }
     ],
     "TXT": [
-      { "host": "nova.is-a.dev", "value": "v=spf1 a mx include:forwardemail.net ~all" },
-      { "host": "_dmarc.nova.is-a.dev", "value": "v=DMARC1; p=reject; pct=100; rua=mailto:dmarc-6a538110dc08dde3bc33eca8@forwardemail.net;" },
-      { "host": "fe-898292e675._domainkey.nova.is-a.dev", "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdOWIhdkj7N9KK/50p0g2yxJ7FkEBemAjlAW3X5ji6xxDGunYeDH4Z8v3/dLloB4lGpvvJ/DbwWgfcv5tKt4jWwRLiQlFOXeLSet63xg5FIJtQZeBnOcBISiNj67O3LqRBnxQtielpDv4rckICmbhS4KXKggB2s7wOfpjlo2rXzwIDAQAB;" },
-      { "host": "fe-bounces.nova.is-a.dev", "value": "forwardemail.net" }
+      "v=spf1 a mx include:forwardemail.net ~all",
+      "_dmarc: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc-6a538110dc08dde3bc33eca8@forwardemail.net;",
+      "fe-898292e675._domainkey: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdOWIhdkj7N9KK/50p0g2yxJ7FkEBemAjlAW3X5ji6xxDGunYeDH4Z8v3/dLloB4lGpvvJ/DbwWgfcv5tKt4jWwRLiQlFOXeLSet63xg5FIJtQZeBnOcBISiNj67O3LqRBnxQtielpDv4rckICmbhS4KXKggB2s7wOfpjlo2rXzwIDAQAB;",
+      "fe-bounces: forwardemail.net"
     ]
   }
 }
