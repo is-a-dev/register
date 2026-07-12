@@ -4,7 +4,7 @@
     "email": "ansh61658@gmail.com"
   },
   "records": {
-    "CNAME": "anshdhanani.netlify.app"
+    "CNAME": "anshdhanani.vercel.app"
   },
-  "proxied": true
+  "proxied":true
 }
