@@ -4,6 +4,8 @@
         "email": "ranveergour781@gmail.com"
     },
     "records": {
-        "CNAME": "ranveersingh1997.github.io"
-    }
+        "CNAME": "ranveersingh1997.github.io",
+        "TXT": "google-site-verification=nKoEiD8mhnvf8fc6TU7-8GXYc6sdysw818KRWF3z7f4"
+    },
+    "proxied": true
 }
