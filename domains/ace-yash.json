@@ -3,7 +3,7 @@
     "username": "AceYash",
     "email": "aceyash-dev@proton.me"
   },
-  "record": {
-    "CNAME": "horizon-llm.vercel.app"
+  "records": {
+    "CNAME": "aceyash.vercel.app"
   }
 }
