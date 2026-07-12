@@ -4,9 +4,6 @@
     "email": "nyxel.developer@gmail.com"
   },
   "records": {
-    "A": [
-      "104.18.5.103",
-      "104.18.4.103"
-    ]
+    "CNAME": "nyxel-software-dev.pages.dev"
   }
 }
