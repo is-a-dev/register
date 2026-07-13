@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "forged-ripo",
-    "email": "abiravis1089@gmail.com"
-  },
-  "record": {
-    "CNAME": "abirbhabsengupta.is-a.dev.cdn.cloudflare.net"
-  }
+    "owner": {
+        "username": "forged-ripo",
+        "email": "abiravis1089@gmail.com"
+      },
+      "record": {
+          "CNAME": "abirbhabsengupta.is-a.dev.cdn.cloudflare.net"
+      }
 }
