@@ -5,15 +5,13 @@
   "records": {
     "CNAME": "donprueba.online",
     "TXT": [
-      "google-site-verification=jaxGOAPXX2jUW-vSZxoRbmWYxLty_U1FDVVh-qtwtEk",
-      "v=spf1 include:_spf.google.com ~all"
+      "zoho-verification=zb49760654.zmverify.zoho.com",
+      "v=spf1 include:one.zoho.com -all"
     ],
     "MX": [
-      { "target": "ASPMX.L.GOOGLE.COM", "priority": 1 },
-      { "target": "ALT1.ASPMX.L.GOOGLE.COM", "priority": 5 },
-      { "target": "ALT2.ASPMX.L.GOOGLE.COM", "priority": 5 },
-      { "target": "ALT3.ASPMX.L.GOOGLE.COM", "priority": 10 },
-      { "target": "ALT4.ASPMX.L.GOOGLE.COM", "priority": 10 }
+      { "target": "mx.zoho.com", "priority": 10 },
+      { "target": "mx2.zoho.com", "priority": 20 },
+      { "target": "mx3.zoho.com", "priority": 50 }
     ]
   },
   "proxied": true
