@@ -4,6 +4,6 @@
         "email": "flingogod777@gmail.com"
     },
     "records": {
-        "CNAME": "flingo777.github.io"
+       "A": ["216.198.79.1"]
     }
 }
