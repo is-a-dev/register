@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "rithvin-us",
+    "email": "rithvin1504@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "chip.ns.cloudflare.com",
+      "rita.ns.cloudflare.com"
+    ]
+  }
+}
