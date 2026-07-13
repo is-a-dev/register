@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "YANBKmonster",
-        "email": "Yanbokun_0728@163.com"
-    },
-    "records": {
-        "CNAME": "yanbkmonster.github.io"
-    }
-    "proxied": true
+  "owner": {
+    "username": "YANBKmonster",
+    "email": "Yanbokun_0728@163.com"
+  },
+  "record": {
+    "CNAME": "yanbkmonster.github.io"
+  }
 }
