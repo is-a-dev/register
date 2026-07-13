@@ -4,7 +4,6 @@
     "email": "nishida@acquware.com",
     "description": "WebRTC の技術検証と実装コードを公開する非商用の開発者向けサイト"
   },
-  "domain": "demo-acquware.is-a.dev",
   "records": {
     "A": ["140.245.90.222"]
   }
