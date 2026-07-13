@@ -1,6 +1,8 @@
 {
     "owner": {
-        "username": "IotaSpencer"
+        "username": "IotaSpencer",
+        "email": "me@iotaspencer.me",
+        "discord": "iotaspencer"
     },
     "records": {
         "CNAME": "iotaspencer.me"
