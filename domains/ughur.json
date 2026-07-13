@@ -4,6 +4,13 @@
         "email": "hello@hackermail.com"
     },
     "records": {
-        "CNAME": "ughur.spring-firefly-4007.workers.dev"
+        "A": [
+            "104.18.5.103",
+            "104.18.4.103"
+        ],
+        "AAAA": [
+            "2606:4700::6812:567",
+            "2606:4700::6812:467"
+        ]
     }
 }
