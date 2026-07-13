@@ -4,6 +4,9 @@
     "email": "trminhphuong28@gmail.com"
   },
   "records": {
-    "CNAME": "phuongdeveloper.github.io"
+    "A": "216.198.79.1",
+    "TXT": [
+      "vc-domain-verify=minhphuong.is-a.dev,9e50968635a68d0b89a5"
+    ]
   }
 }
