@@ -1,12 +1,12 @@
 {
-    "description": "上岸计划 公考备考站",
+    "description": "上岸计划 - 公考备考刷题网站",
     "repo": "https://github.com/tong666-bit/shangan-plan",
     "owner": {
         "username": "tong666-bit",
         "email": "tong666-bit@users.noreply.github.com"
     },
-    "record": {
-        "CNAME": "shangan-web-1452195195.cos-website.ap-hongkong.myqcloud.com"
+    "records": {
+        "CNAME": "tong666-bit.github.io"
     },
-    "proxied": false
+    "proxied": true
 }
