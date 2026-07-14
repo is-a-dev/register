@@ -11,9 +11,6 @@
       "185.199.110.153",
       "185.199.111.153"
     ],
-    "CNAME": {
-      "www": "joddabodscripts.github.io"
-    },
     "TXT": [
       "_github-pages-challenge-JoddabodScripts.joddabod.is-a.dev=49d72a213bf6572e6766ff949b659a",
       "v=spf1 include:spf.improvmx.com ~all"
