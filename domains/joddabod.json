@@ -3,13 +3,27 @@
     "username": "joddabodscripts",
     "email": "joddabod5@gmail.com"
   },
-  "proxied": true,
+  "proxied": false,
   "records": {
-    "CNAME": "joddabodscripts.github.io",
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "CNAME": {
+      "www": "joddabodscripts.github.io"
+    },
+    "TXT": [
+      {
+        "host": "_github-pages-challenge-JoddabodScripts.joddabod.is-a.dev",
+        "value": "49d72a213bf6572e6766ff949b659a"
+      }
+    ],
     "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
     ],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "SPF": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
