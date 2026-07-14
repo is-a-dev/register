@@ -5,15 +5,9 @@
   },
   "description": "Official website of KVR Associates",
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": [
-      "vc-domain-verify=kvrassociates.is-a.dev,bbd74cca4df914708ec0"
+    "A": [
+      "216.198.79.1"
     ],
-    "www": {
-      "CNAME": "94ffc16ba4fcf524.vercel-dns-017.com."
-    },
-    "_vercel.www": {
-      "TXT": "vc-domain-verify=www.kvrassociates.is-a.dev,104999cc3ded8a100b8e"
-    }
+    "CNAME": "94ffc16ba4fcf524.vercel-dns-017.com."
   }
 }
