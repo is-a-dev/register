@@ -1,0 +1,11 @@
+{
+  "description": "Mini site de teste para o desenvolvedor Ruan Sixto",
+  "repo": "https://github.com/ruansixto31-sudo/mini-site-teste",
+  "owner": {
+    "username": "ruansixto31-sudo",
+    "email": "ruansixto.trabalho@gmail.com"
+  },
+  "record": {
+    "CNAME": "ruansixto31-sudo.github.io"
+  }
+}
