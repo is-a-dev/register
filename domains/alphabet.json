@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "callmealphabet",
-    "email": "sigma.alphabet@proton.me"
-  },
-  "records": {
-    "CNAME": "itzalphabet.pages.dev"
-  }
+    "owner": {
+        "username": "callmealphabet",
+        "email": "sigma.alphabet@proton.me"
+    },
+    "records": {
+        "CNAME": "1b3f3690a0b53a2c.vercel-dns-017.com"
+    }
 }
