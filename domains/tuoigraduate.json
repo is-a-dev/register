@@ -1,0 +1,12 @@
+{
+  "description": "Graduation Invitation and Portfolio of Quang Tuoi",
+  "domain": "is-a.dev",
+  "subdomain": "tuoigraduate",
+  "owner": {
+    "repo": "https://github.com/Tuoi-SE/graduation_invite",
+    "email": "tuoi.2274801030222@vanlanguni.vn"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
