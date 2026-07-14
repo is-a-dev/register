@@ -1,29 +1,10 @@
 {
-    "email":  "allianconsultoriaal@gmail.com",
-    "record":  {
-                   "AAAA":  [
-
-                            ],
-                   "CNAME":  "allianceconsultoria.github.io",
-                   "CAA":  [
-
-                           ],
-                   "MX":  [
-
-                          ],
-                   "TXT":  [
-
-                           ],
-                   "SRV":  [
-
-                           ],
-                   "A":  [
-
-                         ],
-                   "NS":  [
-
-                          ]
-               },
-    "owner":  "Alliance Consultoria LTDA",
+    "records":  {
+                    "CNAME":  "allianceconsultoria.github.io"
+                },
+    "owner":  {
+                  "email":  "allianconsultoriaal@gmail.com",
+                  "username":  "AllianceConsultoria"
+              },
     "proxied":  false
 }
