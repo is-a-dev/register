@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "zhangweizhicom",
+    "email": "3609023733@qq.com"
+  },
+  "record": {
+    "CNAME": "huggingface-proxy.edgeone.dev"
+  },
+  "subdomains": {
+    "edgeonereclaim": {
+      "TXT": [
+        "reclaim-bm88f2syjqcoa1mqvqq9938whe4yni29"
+      ]
+    }
+  }
+}
