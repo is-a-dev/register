@@ -1,9 +1,8 @@
 {
   "description": "Graduation Invitation and Portfolio of Quang Tuoi",
-  "domain": "is-a.dev",
-  "subdomain": "tuoigraduate",
+  "repo": "https://github.com/Tuoi-SE/graduation_invite",
   "owner": {
-    "repo": "https://github.com/Tuoi-SE/graduation_invite",
+    "username": "Tuoi-SE",
     "email": "tuoi.2274801030222@vanlanguni.vn"
   },
   "record": {
