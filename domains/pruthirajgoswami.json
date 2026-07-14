@@ -1,11 +1,9 @@
 {
-  "description": "Personal portfolio of Pruthiraj Goswami, Frontend Developer",
-  "repo": "https://github.com/PRUTHIRAJ97/my-portfolio",
   "owner": {
     "username": "pruthiraj97",
-    "email": "goswamipruthiraj7@gmail.com"
+    "email": "pruthiraj.goswami16@gmail.com"
   },
   "records": {
-    "CNAME": "pruthiraj-goswami.vercel.app"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
