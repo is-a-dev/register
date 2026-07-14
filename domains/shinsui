@@ -3,6 +3,7 @@
     "username": "dungxuanng216"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=shinsuirestaurant.is-a.dev,1d97b5d44c2e8a37d8f2"
   }
 }
