@@ -1,0 +1,29 @@
+{
+    "email":  "allianconsultoriaal@gmail.com",
+    "record":  {
+                   "AAAA":  [
+
+                            ],
+                   "CNAME":  "allianceconsultoria.github.io",
+                   "CAA":  [
+
+                           ],
+                   "MX":  [
+
+                          ],
+                   "TXT":  [
+
+                           ],
+                   "SRV":  [
+
+                           ],
+                   "A":  [
+
+                         ],
+                   "NS":  [
+
+                          ]
+               },
+    "owner":  "Alliance Consultoria LTDA",
+    "proxied":  false
+}
