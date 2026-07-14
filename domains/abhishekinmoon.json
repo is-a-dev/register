@@ -3,6 +3,7 @@
     "username": "MoonRooter"
   },
   "records": {
-    "CNAME": "abhishekinmoon.vercel.app"
+    "CNAME": "abhishekinmoon.vercel.app",
+    "TXT": "vc-domain-verify=abhishekinmoon.is-a.dev,5472fbd9a5147f999cd4"
   }
 }
