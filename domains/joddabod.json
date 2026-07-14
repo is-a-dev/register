@@ -3,6 +3,7 @@
     "username": "joddabodscripts",
     "email": "joddabod5@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "joddabodscripts.github.io",
     "MX": [
