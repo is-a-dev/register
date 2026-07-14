@@ -1,11 +1,10 @@
 {
-  "description": "Personal portfolio.",
-  "repo": "https://github.com/ConnorDoesDev/connordoesdev.github.io",
+  "description": "(portfolio deprecated) direct link to my work and experience",
   "owner": {
     "username": "ConnorDoesDev",
-    "email": "connor@cstudios.gay"
+    "email": "connor@0008811.xyz"
   },
-  "record": {
-    "CNAME": "connordoesdev.github.io"
+  "records": {
+    "URL": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQbE24mZx8Ba7zfgMeO-i9HxzDpCvk33RBc-uRcPMiqFXyjIKjzIPVvczByydXBWVdqkYhzMxTJi8XW/pubhtml"
   }
 }

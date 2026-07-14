@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "prapanbiswas",
+    "email": "prapanbiswas@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgnkV8B9RUA0uSh8EGO3LP6Ma39wrMjM+dlfS8a8gyuogu1eFGfGp44XV9Kcw1xqm7jBO7TakZjN6G1oP/6RA5fRnQze3a/H1f2+2y246SqyCytYkvvBy8aibJplqsIzNmyhFnZ4oN/FsYjijrYfVeor7I/mhgX3xAIGwRmkk01QIDAQAB"
+  }
+}
+

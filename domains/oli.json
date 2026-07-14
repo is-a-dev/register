@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "hxntaish",
-    "email": "juliettepoisson3@gmail.com"
+    "username": "Oliver-G-R",
+    "email": "oliver.kali.hub@gmail.com"
   },
-  "record": {
-    "A": ["185.171.202.187"]
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

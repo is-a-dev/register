@@ -1,11 +1,9 @@
 {
-  "description": "A personal portfolio website",
-  "repo": "https://github.com/Hieser21/portfolio",
   "owner": {
     "username": "Hieser21",
     "email": "rarafat883@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "portfolio-gh9n.onrender.com"
   }
 }

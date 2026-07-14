@@ -1,11 +1,9 @@
 {
-  "description": "Ganesh Sekhar's Personal Portfolio",
-  "repo": "https://github.com/iamganeshsekhar/iamganeshsekhar.github.io",
   "owner": {
-    "username": "iamganeshsekhar",
-    "email": "ganeshsekha6@gmail.com"
+    "username": "NarayanapurapuGanesh",
+    "email": "ganesh.narayanapurapu@sasi.ac.in"
   },
-  "record": {
-    "CNAME": "iamganeshsekhar.github.io"
+  "records": {
+    "CNAME": "ganesh-vscode.netlify.app"
   }
 }

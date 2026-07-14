@@ -1,12 +1,10 @@
 {
-  "description": "A portfolio website to display my various achievements",
-  "repo": "https://github.com/iosahil/iosahil.github.io",
   "owner": {
     "username": "iosahil",
     "email": "sahil844101@gmail.com",
     "instagram": "io.sahil"
   },
-  "record": {
+  "records": {
     "CNAME": "iosahil.github.io"
   }
 }

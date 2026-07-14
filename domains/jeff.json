@@ -1,0 +1,39 @@
+{
+  "owner": {
+    "username": "PentSec",
+    "email": "pentsec.2@protonmail.com"
+  },
+  "records": {
+    "CNAME": "pentsec.github.io",
+    "TXT": [
+      "zoho-verification=zb88781183.zmverify.zoho.com", 
+      "v=spf1 include:zohomail.com ~all"
+    ],
+    "MX": [
+        {
+          "target": "mx.zoho.com",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.com",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.com",
+          "priority": 50
+        }
+      ]
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/gh": "https://github.com/PentSec",
+      "/dc": "https://discord.com/users/284896471210393600",
+      "/x": "https://x.com/__J3ff_",
+      "/bsky": "https://sitoz.bsky.social",
+      "/tw": "https://twitch.tv/Sitoz1",
+      "/kick": "https://kick.com/Sitoz1",
+      "/ig": "https://www.instagram.com/jeffreysfuenmayor_"
+    }
+  },
+  "proxied": true
+}

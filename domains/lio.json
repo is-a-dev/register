@@ -1,11 +1,10 @@
 {
   "description": "Homepage redirect for Lio",
-  "repo": "https://werewolf.codes",
   "owner": {
     "username": "hokkqi",
     "email": "lio@werewolf.design"
   },
-  "record": {
+  "records": {
     "URL": "https://himbo.cat"
   }
 }

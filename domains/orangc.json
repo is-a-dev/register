@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "orxngc",
-    "email": "orangc@proton.me"
+    "username": "orangci",
+    "discord": "orangc"
   },
-  "record": {
-    "CNAME": "orxngc.github.io"
+  "records": {
+    "URL": "https://orangc.net"
   }
 }

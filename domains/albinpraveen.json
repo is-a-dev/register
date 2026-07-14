@@ -1,9 +1,8 @@
 {
-  "owner": {
-    "username": "ALBINPRAVEEN",
-    "email": "albinpraveen135790@gmail.com"
-  },
-  "record": {
-    "CNAME": "albinpraveen.github.io"
-  }
+    "owner": {
+        "username": "hackerkerala"
+    },
+    "records": {
+        "CNAME": "albinpraveen.com"
+    }
 }

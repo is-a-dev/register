@@ -1,0 +1,28 @@
+{
+    "owner": {
+        "username": "leev1s",
+        "email": "lev1s@duck.com"
+    },
+    "records": {
+        "CNAME": "leev1s.github.io",
+        "TXT": [
+            "zoho-verification=zb92672806.zmverify.zoho.com",
+            "v=spf1 include:zohomail.com ~all"
+        ],
+        "MX": [
+            {
+                "target": "mx.zoho.com",
+                "priority": 10
+            },
+            {
+                "target": "mx2.zoho.com",
+                "priority": 20
+            },
+            {
+                "target": "mx3.zoho.com",
+                "priority": 50
+            }
+        ]
+    },
+    "proxied": true
+}

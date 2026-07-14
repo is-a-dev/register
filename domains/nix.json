@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "linuxhoe",
-    "email": "b0t@disroot.org"
+    "username": "nicolassaganias"
   },
-  "record": {
-    "CNAME": "linuxhoe.github.io"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "tanbaycu",
+    "email": "tanbaycu@gmail.com"
+  },
+  "records": {
+    "CNAME": "python-cli-webapp.vercel.app"
+  },
+  "proxied": true
+}

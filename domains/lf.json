@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "lfom",
-    "email": "",
     "matrix": "@lfdev:envs.net"
   },
-  "record": {
+  "records": {
     "URL": "https://lfdev.envs.net"
   }
 }

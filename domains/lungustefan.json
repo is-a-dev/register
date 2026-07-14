@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "lungustefan",
+    "email": "hi@lungustefan.ro",
+    "discord": "753179409682399332",
+    "phone": "+40770618625",
+    "mobile": "+40756450998"
+  },
+  "records": {
+    "NS": ["teagan.ns.cloudflare.com", "yevgen.ns.cloudflare.com"],
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "D343444413CE8DA0B28E78421A25C7C54B5D6AD8121CC25F35E59BB213BC102D"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "fliw",
+        "email": "hello@fliw.dev"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=fliw.is-a.dev,9dfd70b8185f0539f247"
+    }
+}
