@@ -1,0 +1,22 @@
+{
+  "owner": {
+    "username": "OnePythoneer",
+    "email": "mangeurdebebe2.0@gmail.com"
+  },
+  "record": {
+    "MX": [
+      {
+        "priority": 10,
+        "value": "mx.zoho.com"
+      },
+      {
+        "priority": 20,
+        "value": "mx2.zoho.com"
+      },
+      {
+        "priority": 50,
+        "value": "mx3.zoho.com"
+      }
+    ]
+  }
+}
