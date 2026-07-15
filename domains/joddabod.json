@@ -1,15 +1,22 @@
 {
-  "owner": {
-    "username": "joddabodscripts",
-    "email": "joddabod5@gmail.com"
-  },
-  "proxied": true,
-  "records": {
-    "CNAME": "joddabodscripts.github.io",
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  }
+    "owner": {
+        "username": "joddabodscripts",
+        "email": "joddabod5@gmail.com"
+    },
+    "records": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT": [
+            "49d72a213bf6572e6766ff949b659a",
+            "v=spf1 include:spf.improvmx.com ~all"
+        ]
+    }
 }
