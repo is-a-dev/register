@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "soufianfallah"
+    "username": "soufianfallah",
     "email": "soufianfll39@gmail.com"
   },
-  "record": {
-    "CNAME": "soufiane-fall-portfolio.netlify.app/"
+  "records": {
+    "CNAME": "soufiane-fall-portfolio.netlify.app"
   }
 }
