@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "zeckooo",
+    "email": "bazriilyass716@gmail.com"
+  },
+  "records": {
+    "TXT": ["resend._domainkey.youscout p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCc6385kGZjRHhBxEXERzH3C/Rj1RwjqlwtxlZxLtxNLWF1sHR/daquXkG6EIg5ngWXIiW8KnrM7fUVNljzUeRe/Mz8+kwLw0FwBh0fpYRotBC+aFFjBdZTGySoYYACBoJ5j7PLPGPLDg/pjHkOwII8eL++hdLPfGDgNBmhcBSEEwIDAQAB"],
+    "MX": [{"priority": 10, "value": "feedback-smtp.eu-west-1.amazonses.com"}]
+  }
+}
