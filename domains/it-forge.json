@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "seGorl",
+    "email": "gorl.seb64@gmail.com"
+  },
+  "records": {
+    "subdomains": {
+      "resend._domainkey": {
+        "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDtCxt1ZYah2PeI5kNvPrp0LTEsLv8CZAXuQCUNnfxX7oXW2LP25KvvKbLooqVrupmbjMvfycw4jXVgwJZL1rmuY7jEgACBv+5pTNktHULrXzmDsFkO9+nidKcthFYy+ST8VVw7LGPwSwhp1Q9qQLhW3ibfp1RhxFTBl/knbxnUCwIDAQAB"
+      },
+      "send": {
+        "MX": ["10 ://amazonses.com."],
+        "TXT": "v=spf1 include:amazonses.com ~all"
+      }
+    }
+  }
+}
