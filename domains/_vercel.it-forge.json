@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "seGorl",
+    "email": "gorl.seb64@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=it-forge.is-a.dev,2040049314befbd9e7f7",
+      "_dmarc=v=DMARC1; p=none;"
+    ]
+  }
+}
