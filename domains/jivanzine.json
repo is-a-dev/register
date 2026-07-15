@@ -6,6 +6,7 @@
     "email": "jeevanzine2052@gmail.com"
   },
   "records": {
-    "CNAME": "jivan-zine-portfolio-bgye-orpin.vercel.app"
+    "CNAME": "jivan-zine-portfolio-bgye-orpin.vercel.app",
+    "TXT": "vc-domain-verify=jivanzine.is-a.dev,502e910343bc41239227"
   }
 }
