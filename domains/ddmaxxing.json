@@ -3,7 +3,9 @@
         "username": "dingding-1229",
         "email": "unicornding@outlook.com"
     },
-    "records": {
-        "CNAME": "15.168.76.164"
-    }
+  "records": {
+    "A": [
+      "15.168.76.164"
+    ]
+  }
 }
