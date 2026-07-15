@@ -1,0 +1,11 @@
+{
+  "description": "STRONG BSC floor-price lending API via Cloudflare Tunnel",
+  "owner": {
+    "username": "hushuning",
+    "email": "hushuning@users.noreply.github.com"
+  },
+  "records": {
+    "CNAME": "0296ba00-52be-4985-8da0-a715d8c4e093.cfargotunnel.com"
+  },
+  "proxied": false
+}
