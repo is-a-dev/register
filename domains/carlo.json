@@ -4,6 +4,7 @@
     "email": "carloivan2910@gmail.com"
   },
   "records": {
-    "CNAME": "qvci.github.io"
+    "CNAME": "qvci.github.io",
+    "TXT": "github-pages-verification=b67a5800e916ceb2f5ca12e9220794"
   }
 }
