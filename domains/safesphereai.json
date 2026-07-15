@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Provider-id10t",
+    "email": "YOUR_GITHUB_EMAIL"
+  },
+  "records": {
+    "CNAME": "provider-id10t.github.io"
+  }
+}
