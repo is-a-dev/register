@@ -4,6 +4,6 @@
     "email": "shardendumishrabrave@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=mishra.is-a.dev,73509725316648cd546c"
+    "TXT": ["vc-domain-verify=mishra.is-a.dev,73509725316648cd546c","vc-domain-verify=www.mishra.is-a.dev,c871ecc15edbf41a7da4"]
   }
 }
