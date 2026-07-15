@@ -1,1 +1,9 @@
-{"owner":{"username":"Ahmedkhn143"},"records":{"CNAME":"cname.vercel-dns.com"}}
+{
+    "owner": {
+          "username": "Ahmedkhn143",
+          "email": "ahmadkha8143@gmail.com"
+    },
+    "records": {
+          "CNAME": "muhammadahmd.vercel.app"
+    }
+}
