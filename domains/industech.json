@@ -1,0 +1,28 @@
+{
+  "owner": {
+    "username": "opticcaiii-hub"
+  },
+  "subdomains": {
+    "resend._domainkey": {
+      "records": {
+        "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1E8q4y3zYNYMRw+9Ir6bgVkQU5+CUprEjzJd2saHONyvfwpGlTe4SZQKr6eWeb67jiiZ6+aJhyvfrEdOuDsAMqYiR/c32n0oFonQ5FA2TXF4VkxKcspgnnMX0gssYLWfCNrpV7E/HC+4pEys9neLWiru2dbyg2MZfFyFLVr6UGQIDAQAB"
+      }
+    },
+    "send": {
+      "records": {
+        "MX": [
+          {
+            "target": "feedback-smtp.ap-northeast-1.amazonses.com",
+            "priority": 10
+          }
+        ],
+        "TXT": "v=spf1 include:amazonses.com ~all"
+      }
+    },
+    "_dmarc": {
+      "records": {
+        "TXT": "v=DMARC1; p=none;"
+      }
+    }
+  }
+}
