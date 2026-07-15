@@ -1,27 +1,15 @@
 {
-  "domain": "HR.is-a.dev",
   "owner": {
-    "github": "claudedclaude2-byte",
-    "email": "hr@is-a.dev"
+    "username": "YOUR_GITHUB_USERNAME",
+    "email": "claudedclaude2@gmail.com"
   },
   "records": {
     "MX": [
-      {
-        "host": "@",
-        "value": "mx1.improvmx.com",
-        "priority": 10
-      },
-      {
-        "host": "@",
-        "value": "mx2.improvmx.com",
-        "priority": 20
-      }
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
     ],
     "TXT": [
-      {
-        "host": "@",
-        "value": "v=spf1 include:improvmx.com ~all"
-      }
+      "v=spf1 include:spf.improvmx.com ~all"
     ]
   }
 }

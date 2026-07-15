@@ -1,9 +1,15 @@
 {
   "owner": {
-    "username": "zzph",
-    "email": "johnbrettc@gmail.com"
+    "username": "YOUR_GITHUB_USERNAME",
+    "email": "claudedclaude2@gmail.com"
   },
   "records": {
-    "CNAME": "zephyr-1.onrender.com"
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
   }
 }
