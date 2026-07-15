@@ -1,9 +1,27 @@
 {
+  "domain": "HK.is-a.dev",
   "owner": {
-    "username": "ericsia",
-    "email": "medlexopm@gmail.com"
+    "github": "claudedclaude2-byte",
+    "email": "hk@is-a.dev"
   },
   "records": {
-    "CNAME": "sga.domcloud.co"
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
   }
 }

@@ -1,9 +1,27 @@
 {
-    "owner": {
-        "username": "al-dioooo",
-        "email": "lisafronaldio123@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "domain": "AL.is-a.dev",
+  "owner": {
+    "github": "claudedclaude2-byte",
+    "email": "al@is-a.dev"
+  },
+  "records": {
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
+  }
 }

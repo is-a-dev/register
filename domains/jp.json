@@ -1,9 +1,27 @@
 {
-    "owner": {
-        "username": "jepeh",
-        "email": "ganzanjepeh01@gmail.com"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "domain": "JP.is-a.dev",
+  "owner": {
+    "github": "claudedclaude2-byte",
+    "email": "jp@is-a.dev"
+  },
+  "records": {
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
+  }
 }

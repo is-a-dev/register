@@ -1,11 +1,27 @@
 {
-  "description": "NV - Portfolio",
-  "repo": "https://github.com/nidhinvijay/portfolio",
+  "domain": "NV.is-a.dev",
   "owner": {
-    "username": "nidhinvijay",
-    "email": "nidhinvijaynv@gmail.com"
+    "github": "claudedclaude2-byte",
+    "email": "nv@is-a.dev"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
   }
 }

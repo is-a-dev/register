@@ -1,11 +1,27 @@
 {
+  "domain": "SC.is-a.dev",
   "owner": {
-    "username": "SC136",
-    "email": "swarchuri06@gmail.com"
+    "github": "claudedclaude2-byte",
+    "email": "sc@is-a.dev"
   },
   "records": {
-    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
   }
 }

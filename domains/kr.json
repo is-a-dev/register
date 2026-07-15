@@ -1,9 +1,27 @@
 {
+  "domain": "KR.is-a.dev",
   "owner": {
-    "username": "me-nkr",
-    "email": "thenaveenkr7@gmail.com"
+    "github": "claudedclaude2-byte",
+    "email": "kr@is-a.dev"
   },
   "records": {
-    "URL": "https://dev.menkr.in"
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
   }
 }

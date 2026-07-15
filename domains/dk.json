@@ -1,9 +1,27 @@
 {
+  "domain": "DK.is-a.dev",
   "owner": {
-    "username": "debkanchan",
-    "email": "debu.samadder@gmail.com"
+    "github": "claudedclaude2-byte",
+    "email": "dk@is-a.dev"
   },
   "records": {
-    "CNAME": "debkanchan.github.io"
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
   }
 }

@@ -1,11 +1,27 @@
 {
-  "description": "Zeeshan's Email",
+  "domain": "ZA.is-a.dev",
   "owner": {
-    "email": "itsshanihere42@gmail.com",
-    "username": "m-zeeshan42"
+    "github": "claudedclaude2-byte",
+    "email": "za@is-a.dev"
   },
   "records": {
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
   }
 }

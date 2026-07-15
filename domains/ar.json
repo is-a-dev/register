@@ -1,9 +1,27 @@
 {
+  "domain": "AR.is-a.dev",
   "owner": {
-    "username": "AUS616",
-    "email": "austrinjames616@gmail.com"
+    "github": "claudedclaude2-byte",
+    "email": "ar@is-a.dev"
   },
   "records": {
-    "CNAME": "aus616.github.io"
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
   }
 }

@@ -1,9 +1,27 @@
 {
+  "domain": "MU.is-a.dev",
   "owner": {
-    "username": "mohammadusman666",
-    "email": "mohammadusman666@gmail.com"
+    "github": "claudedclaude2-byte",
+    "email": "mu@is-a.dev"
   },
   "records": {
-    "CNAME": "portfolio-1cw.pages.dev"
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
   }
 }

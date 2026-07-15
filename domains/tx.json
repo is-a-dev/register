@@ -1,9 +1,27 @@
 {
-    "owner": {
-        "username": "Dr-T",
-        "email": "xandertang@qq.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "domain": "TX.is-a.dev",
+  "owner": {
+    "github": "claudedclaude2-byte",
+    "email": "tx@is-a.dev"
+  },
+  "records": {
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
+  }
 }

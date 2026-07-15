@@ -1,9 +1,27 @@
 {
+  "domain": "ID.is-a.dev",
   "owner": {
-    "username": "its-id",
-    "discord": "342664542754570250"
+    "github": "claudedclaude2-byte",
+    "email": "id@is-a.dev"
   },
   "records": {
-    "CNAME": "portfolio-main-q8dxiuiap-indrakantdanas-projects.vercel.app"
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
   }
 }

@@ -1,9 +1,27 @@
 {
+  "domain": "KE.is-a.dev",
   "owner": {
-    "username": "fx-k",
-    "email": "admin@fxit.top"
+    "github": "claudedclaude2-byte",
+    "email": "ke@is-a.dev"
   },
   "records": {
-    "CNAME": "cname.ke-is-a-dev.keke.su"
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:improvmx.com ~all"
+      }
+    ]
   }
 }
