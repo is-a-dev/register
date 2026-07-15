@@ -1,0 +1,14 @@
+{
+    "owner": {
+        "username": "ducknet53-stack",
+        "email": "ducknet53@gmail.com"
+    },
+    "record": {
+        "CNAME": "talko-developers.onrender.com",
+        "subdomains": {
+            "developers": {
+                "CNAME": "talko-developers.onrender.com"
+            }
+        }
+    }
+}
