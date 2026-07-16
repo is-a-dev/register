@@ -3,7 +3,7 @@
     "username": "geo2geo",
     "email": "geo2geo@gmail.com"
   },
-  "record": {
+  "records": {
     "NS": [
       "kaiser.ns.cloudflare.com",
       "luciane.ns.cloudflare.com"
