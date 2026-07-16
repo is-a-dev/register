@@ -1,6 +1,10 @@
 {
   "owner": {
-    "username": "opticcaiii-hub"
+    "username": "opticcaiii-hub",
+    "email": "opticcaiii@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   },
   "subdomains": {
     "resend._domainkey": {
