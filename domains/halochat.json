@@ -1,0 +1,12 @@
+{
+  "description": "HaloChat API",
+  "repo": "https://github.com/quanvu201120",
+  "owner": {
+    "username": "quanvu201120",
+    "email": "",
+    "discord": ""
+  },
+  "record": {
+    "CNAME": "quanvu201120-nestjs-api.hf.space"
+  }
+}
