@@ -3,9 +3,9 @@
   "repo": "https://github.com/contactstarssports-collab/oryvialabs",
   "owner": {
     "username": "contactstarssports-collab",
-    "email": "contact.starssports@gmail.com"
+    "email": "your-actual-email@example.com"
   },
-  "record": {
+  "records": {
     "CNAME": "contactstarssports-collab.github.io"
   }
 }
