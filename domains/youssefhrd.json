@@ -1,21 +1,11 @@
 {
-
   "owner": {
-
     "username": "YoussefLehroudd"
-
   },
-
-  "record": {
-
+  "records": {
     "CNAME": "b3djw80d.up.railway.app",
-
-    "TXT": {
-
-      "_railway-verify": "railway-verify=12a187aabec0a0061da761a2fe5fb0162503b551a2bf6a92daf4990bc1f30ab8"
-
-    }
-
+    "TXT": [
+      "railway-verify=12a187aabec0a0061da761a2fe5fb0162503b551a2bf6a92daf4990bc1f30ab8"
+    ]
   }
-
 }
