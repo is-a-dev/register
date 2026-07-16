@@ -1,11 +1,9 @@
 {
-  "description": "801 - IT Consulting & Web Development Portfolio",
-  "repo": "https://github.com/801dev/801",
-  "owner": {
-    "username": "801dev",
-    "email": "data.mboyelditha@gmail.com@gmail.com"
-  },
-  "record": {
-    "CNAME": "801.pages.dev"
-  }
+    "owner": {
+        "username": "801dev",
+        "email": "email-anda@example.com"
+    },
+    "record": {
+        "CNAME": "my801.pages.dev"
+    }
 }
