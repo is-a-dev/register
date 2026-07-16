@@ -4,6 +4,6 @@
         "email": "coolmealt@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=is-a.dev,af3ee08b38af4a2a9211"]
+        "A": ["216.198.79.1"]
     }
 }
