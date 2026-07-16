@@ -4,6 +4,9 @@
     "discord": "757475933170040893"
   },
   "records": {
-    "CNAME": "ryanthedev.vercel.app"
+    "CNAME": "ryanthedev.vercel.app",
+    "A": "216.198.79.1",
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": ["forward-email=rg5373429@gmail.com"]
   }
 }
