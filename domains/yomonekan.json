@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "Simcoder1",
-    "email": "kturayev24@gmail.com"
-  },
-  "record": {
-    "A": [
-      "https://yomonekan.vercel.app/"
-    ]
-  }
+  "owner": {
+    "username": "Simcoder1",
+    "email": "kturayev24@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
