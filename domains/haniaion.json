@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "l2005l"
+    "username": "l2005l",
+    "email": "lior_hania@walla.co.il"
   },
-  "record": {
+  "records": {
     "CNAME": "haniaion.onrender.com"
   }
 }
