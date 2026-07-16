@@ -4,6 +4,6 @@
     "email": "davidlevyashfield@gmail.com"
   },
   "records": {
-    "CNAME": "6fc704cb-71dc-40f1-9b1a-6d48cf8a005a.cfargotunnel.com"
+    "A": ["132.145.9.130"]
   }
 }
