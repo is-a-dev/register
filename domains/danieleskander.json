@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "DanielEskander",
-        "email": "danielneskander@gmail.com"
-    },
-    "records": {
-        "CNAME": "my-page.danielneskander.workers.dev"
-    }
+  "owner": {
+      "username": "DanielEskander",
+      "email": "danielneskander@gmail.com"
+  },
+  "records": {
+      "CNAME": "my-page.danielneskander.workers.dev"
+  },
+  "proxied": true
 }
