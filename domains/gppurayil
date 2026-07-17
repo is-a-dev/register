@@ -1,0 +1,11 @@
+{
+  "description": "My personal CV/portfolio site",
+  "repo": "https://github.com/gppurayil/cv-portfolio",
+  "owner": {
+    "username": "gppurayil",
+    "email": "gppurayil@uaeu.ac.ae"
+  },
+  "records": {
+    "CNAME": "site-creator-vinext-starter.gppurayil.workers.dev"
+  }
+}
