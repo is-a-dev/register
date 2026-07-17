@@ -5,7 +5,7 @@
     },
     "proxied": true,
     "records": {
-        "CNAME": "shotosystems.github.io",
+        "CNAME": "shoto.dev",
         "TXT": [
             "apple-domain=0dyJwiurnRgVXp1C",
             "v=spf1 include:icloud.com ~all"
