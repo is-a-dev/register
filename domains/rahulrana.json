@@ -4,7 +4,7 @@
     "email": "saabrana023@gmail.com"
   },
   "description": "Business Management System",
-  "record": {
+  "records": {
     "CNAME": "business-management-ui.vercel.app"
   }
 }
