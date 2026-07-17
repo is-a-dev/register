@@ -3,7 +3,8 @@
     "username": "phamthuy21",
     "email": "phamthuy2192001@gmail.com"
   },
-  "record": {
-    "CNAME": "64682d7d6eb38aa2.vercel-dns-017.com."
-  }
+  "records": {
+    "CNAME": "64682d7d6eb38aa2.vercel-dns-017.com"
+  },
+  "proxied": true
 }
