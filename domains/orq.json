@@ -1,0 +1,11 @@
+{
+  "description": "this is the personal open source developer portfolio for thiennah, showcasing pure javascript components and live search algorithms.",
+  "repo": "https://github.com/thiennah/dien-co-song-toan",
+  "owner": {
+    "username": "thiennah",
+    "email": "toandn0913@gmail.com"
+  },
+  "record": {
+    "CNAME": "diencosongtoan.netlify.app"
+  }
+}
