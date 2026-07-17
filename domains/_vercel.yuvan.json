@@ -1,0 +1,10 @@
+{
+  "description": "Vercel domain verification",
+  "owner": {
+    "username": "yuvanvishnupandi",
+    "email": "yuvanvishnupandi@gmail.com"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=yuvan.is-a.dev,e034bb1779ce80838208"
+  }
+}
