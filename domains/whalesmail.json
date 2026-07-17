@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "DollarCoderX",
+    "email": "praiseifeanyix@gmail.com"
+  },
+  "record": {
+    "MX": [
+      { "exchange": "inbound.brevo.com", "priority": 10 }
+    ],
+    "TXT": ["v=spf1 include:sendinblue.com ~all"]
+  }
+}
