@@ -1,0 +1,11 @@
+{
+  "description": "An automated AI-powered assistant for podcast creators to effortlessly identify, extract, and analyze promotion-worthy clips from their full-length episodes. It can currently handle both video & audio-only files. ",
+  "repo": "https://github.com/PelagiaGk/podcast-assistant",
+  "owner": {
+    "username": "PelagiaGk",
+    "email": "pelagiagkalimani@gmail.com"
+  },
+  "record": {
+    "A": ["169.58.18.71"]
+  }
+}
