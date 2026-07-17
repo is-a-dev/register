@@ -1,0 +1,9 @@
+{
+  "description": "My personal developer page",
+  "domain": "flearance.is-a.dev",
+  "owner": {
+    "username": "Flearance-project",
+    "email": "flearance@atomicmail.io"
+  },
+  "target": "https://flearance-project.github.io/Flearance-project/"
+}
