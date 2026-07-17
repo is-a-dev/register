@@ -3,7 +3,8 @@
     "username": "SaiNanduVajhala",
     "email": "vajhalasainandu@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sainanduvajhala.github.io"
-  }
+  },
+  "proxied": true
 }
