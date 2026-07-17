@@ -3,6 +3,7 @@
     "username": "gojodevl"
   },
   "records": {
-    "CNAME": "botgojo-production.up.railway.app"
+    "CNAME": "zwmc0b58.up.railway.app",
+    "TXT": "railway-verify=655f481fa7f704955aa96f9888a2874d06166d7661ac05badb1af4ed56f696fa"
   }
 }
