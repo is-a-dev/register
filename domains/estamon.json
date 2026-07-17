@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ТВОЙ_GITHUB_ЛОГИН",
-        "email": "ТВОЯ_ПОЧТА"
-    },
-    "records": {
-        "CNAME": "estamon-forum-658q.onrender.com"
-    }
+  "owner": {
+    "username": "amanov-wq",
+    "email": "mineganyt01@gmail.com"
+  },
+  "record": {
+    "CNAME": "estamon-forum-658q.onrender.com"
+  }
 }
