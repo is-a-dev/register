@@ -1,0 +1,11 @@
+{
+    "domain": "is-a.dev",
+    "subdomain": "clutchle",
+    "owner": {
+        "repo": "https://github.com/rushanmehta/clutchle",
+        "email": "your-email@example.com"
+    },
+    "record": {
+        "CNAME": "rushanmehta.github.io"
+    }
+}
