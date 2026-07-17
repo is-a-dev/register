@@ -3,6 +3,7 @@
     "username": "RajeshKc777",
     "email": "rajeshilamion@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "RajeshKc777.github.io",
     "TXT": "af1d27c00dc12a45aaf6418f91c60e"
