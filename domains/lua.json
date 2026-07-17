@@ -1,11 +1,11 @@
 {
-  "description": "Just a website for detailing the game development projects of Lua",
+  "description": "A website for detailing the API development projects of Lua. May include game development and other code structure projects",
   "owner": {
     "username": "notxlua",
     "email": "notxlua@gmail.com",
     "discord": "778436572835086366"
   },
   "records": {
-    "A": ["69.163.194.55"]
+    "A": ["205.196.222.84"]
   }
 }
