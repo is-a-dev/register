@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "solomild",
+    "email": "Solomild@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "dakota.ns.cloudflare.com",
+      "julissa.ns.cloudflare.com"
+    ]
+  }
+}
