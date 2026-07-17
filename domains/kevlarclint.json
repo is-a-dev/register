@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "kevclint",
+        "email": "kevlarclint@gmail.com"
+    },
+    "records": {
+        "NS": [
+            "chloe.ns.cloudflare.com",
+            "martin.ns.cloudflare.com"
+        ]
+    }
+}
