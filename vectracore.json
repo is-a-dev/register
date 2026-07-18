@@ -1,0 +1,27 @@
+{
+  "owner": {
+    "username": "ad1mml",
+    "email": "moustaidadam4@gmail.com"
+  },
+  "records": {},
+  "subdomains": {
+    "mail": {
+      "CNAME": "mail-vectracore-is-a-dev.brand.brevosend.com"
+    },
+    "brevo1._domainkey": {
+      "CNAME": "b1.vectracore-is-a-dev.dkim.brevo.com"
+    },
+    "brevo2._domainkey": {
+      "CNAME": "b2.vectracore-is-a-dev.dkim.brevo.com"
+    },
+    "_dmarc": {
+      "TXT": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+    },
+    "img.mail": {
+      "CNAME": "mail-vectracore-is-a-dev.img.brand.brevosend.com"
+    },
+    "r.mail": {
+      "CNAME": "mail-vectracore-is-a-dev.r.brand.brevosend.com"
+    }
+  }
+}
