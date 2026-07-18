@@ -4,8 +4,6 @@
         "email": "ilia.delbarir@gmail.com"
     },
     "records": {
-        "www": {
-            "CNAME": "01c824de6aa413b7.vercel-dns-017.com."
-        }
+        "CNAME": "01c824de6aa413b7.vercel-dns-017.com."
     }
 }
