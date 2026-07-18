@@ -1,0 +1,11 @@
+{
+  "description": "DKIM record for iCloud Mail",
+  "repo": "https://github.com/hiJiwho/M2U",
+  "owner": {
+    "username": "hiJiwho",
+    "email": "hi.jiwho@gmail.com"
+  },
+  "records": {
+    "CNAME": "sig1.dkim.ho.is-a.dev.at.icloudmailadmin.com."
+  }
+}
