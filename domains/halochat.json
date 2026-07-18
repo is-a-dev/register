@@ -3,9 +3,9 @@
   "repo": "https://github.com/quanvu201120/NestJS-Backend-HaloChat",
   "owner": {
     "username": "quanvu201120",
-    "email": "vuquan201120@mail.com",
+    "email": "vuquan201120@mail.com"
   },
   "records": {
-    "CNAME": "quanvu201120-nestjs-api.hf.space"
+    "CNAME": "https://quanvu201120-nestjs-api.hf.space"
   }
 }
