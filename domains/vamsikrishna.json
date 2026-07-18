@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "Vamsi-crm-dev",
+    "email": "vamsig.d365@gmail.com"
+  },
+  "records": {
+    "A": "216.198.79.1",
+    "CNAME": {
+      "www": "99ff3834bcb84c16.vercel-dns-017.com"
+    },
+    "TXT": {
+      "_vercel": "vc-domain-verify=vamsikrishna.is-a.dev.0a0f127fab394dc59409"
+    }
+  }
+}
