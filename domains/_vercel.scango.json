@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "rhsa-fr",
+    "email": "rahesaaferdinand87@gmail.com"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=scango.is-a.dev,36ceb9274a318b66e7d9"]
+  }
+}
