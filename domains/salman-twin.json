@@ -4,6 +4,16 @@
     "email": "msalmansaeedch786@gmail.com"
   },
   "records": {
-    "CNAME": "d2gxmdta6ef8lc.cloudfront.net"
+    "TXT": "digital-twin: pending AWS Amplify domain association",
+    "CAA": [
+      {
+        "tag": "issue",
+        "value": "amazontrust.com"
+      },
+      {
+        "tag": "issue",
+        "value": "amazon.com"
+      }
+    ]
   }
 }
