@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "rhsa-fr",
+    "email": "rahesaaferdinand87@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "description": "ScanGO is a school attendance system using dynamic QR codes built with Laravel.",
+  "repo": "https://github.com/rhsa-fr/ScanGo"
+}
