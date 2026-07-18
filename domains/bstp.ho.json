@@ -1,0 +1,11 @@
+{
+  "description": "Subdomain for Boardest Plus Editor",
+  "repo": "https://github.com/hiJiwho/M2U",
+  "owner": {
+    "username": "hiJiwho",
+    "email": "hi.jiwho@gmail.com"
+  },
+  "records": {
+    "CNAME": "bst-plusedit.web.app"
+  }
+}
