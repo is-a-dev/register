@@ -3,7 +3,9 @@
     "username": "ad1mml",
     "email": "moustaidadam4@gmail.com"
   },
-  "records": {},
+  "records": {
+  "URL": "https://vectracore.pythonanywhere.com"
+  },
   "subdomains": {
     "mail": {
       "CNAME": "mail-vectracore-is-a-dev.brand.brevosend.com"
