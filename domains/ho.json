@@ -12,11 +12,11 @@
     "MX": [
       {
         "priority": 10,
-        "target": "mx01.mail.icloud.com."
+        "target": "mx01.mail.icloud.com"
       },
       {
         "priority": 10,
-        "target": "mx02.mail.icloud.com."
+        "target": "mx02.mail.icloud.com"
       }
     ],
     "TXT": [
