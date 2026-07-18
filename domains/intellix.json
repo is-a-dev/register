@@ -4,9 +4,8 @@
         "email": "ilia.delbarir@gmail.com"
     },
     "records": {
-        "NS": [
-            "javon.ns.cloudflare.com",
-            "roxy.ns.cloudflare.com"
-        ]
+        "www": {
+            "CNAME": "01c824de6aa413b7.vercel-dns-017.com."
+        }
     }
 }
