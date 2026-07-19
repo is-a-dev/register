@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "Pelumisamuel",
+    "username": "pelumiformapp",
     "email": "pelumiformapp@gmail.com"
   },
-  "records": {
-    "CNAME": "pelumisamuel.github.io"
+  "record": {
+    "CNAME": "robot-3-5-brain.vercel.app"
   }
 }
