@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "phatcanlez",
+    "email": "phatcanlez@gmail.com"
+  },
+  "records": {
+    "MX": [
+      { "target": "feedback-smtp.ap-northeast-1.amazonses.com", "priority": 10 }
+    ],
+    "TXT": ["v=spf1 include:amazonses.com ~all"]
+  }
+}
