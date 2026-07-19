@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "Mostakim52",
+    "email": "guyawesome96@gmail.com"
+  },
+  "record": {
+    "A": ["127.0.0.1"]
+  },
+  "subdomains": {
+    "resend._domainkey": {
+      "TXT": ["p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbUsEqIpTxjcGtUHZ2IkUKLhAcsAC4+5rawC2cBcC+2j4mqbCNXmSfLpY7dWwggnVG+KDhxpYMoN9hskTw6URU/oWcafXk5VjuqS5AcNQb1j6tgNzoPz/MbVtVy0ghBk4tv6EYRd/LB73aG3Zhd85VPKiDUqmXe6EvCTY5waB/4QIDAQAB"]
+    },
+    "send": {
+      "MX": ["feedback-smtp.ap-northeast-1.amazonses.com"],
+      "TXT": ["v=spf1 include:amazonses.com ~all"]
+    }
+  }
+}
