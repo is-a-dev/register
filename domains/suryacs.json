@@ -7,7 +7,8 @@
     "A": ["216.198.79.1"],
     "TXT": [
       "zoho-verification=zb10893917.zmverify.zoho.in",
-      "v=spf1 include:zoho.in ~all"
+      "v=spf1 include:zoho.in ~all",
+      "zmail._domainkey=v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCf5CD2fvrTOvA3skjypo5+AQeZm63bmKGEaWFVwbDe11Q3WWZBQ570thyacsj/qHczw/jTXL3iIarG1pDvPzO/scDNtnCFHc49tAxnkhCR5Qz7ivlah3YlmLpuo1yveylJw6FzIS/EBgsm6uuEPNsd6F7v5UuEBmHpClnn+xqqOwIDAQAB"
     ],
     "MX": [
       { "target": "mx.zoho.in", "priority": 10 },
