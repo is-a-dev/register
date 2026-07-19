@@ -4,6 +4,6 @@
     "email": "pelumiformapp@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": ["76.76.21.21"]
   }
 }
