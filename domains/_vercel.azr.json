@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "AraZharr",
+        "email": "azharserver36@gmail.com"
+    },
+    "records": {
+        "TXT": [
+            "vc-domain-verify=azr.is-a.dev,c22d5a958f5435014af9",
+            "vc-domain-verify=www.azr.is-a.dev,109de79dbbdb0ce70a40"
+        ]
+    }
+}
