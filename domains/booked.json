@@ -9,16 +9,14 @@
   },
   "subdomains": {
     "send": {
-      "TXT": [ "v=spf1 include:amazonses.com ~all" ],
-      "MX": [
-        "10 feedback-smtp.eu-west-1.amazonses.com"
-      ]
-    },
-    "feedback._domainkey.send": {
-      "CNAME": "feedback-smtp.eu-west-1.amazonses.com"
+      "TXT": "v=spf1 include:amazonses.com ~all",
+      "MX": "10 feedback-smtp.eu-west-1.amazonses.com"
     },
     "_dmarc": {
-      "TXT": [ "v=DMARC1; p=none;" ]
+      "TXT": "v=DMARC1; p=none;"
+    },
+    "send-verification": {
+      "CNAME": "feedback-smtp.eu-west-1.amazonses.com"
     }
   }
 }
