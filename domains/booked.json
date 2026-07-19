@@ -1,0 +1,24 @@
+{
+  "$schema": "../schema.json",
+  "owner": {
+    "username": "MORICE2004",
+    "email": "mauricemagnus45@gmail.com"
+  },
+  "record": {
+    "CNAME": "book-ed-sigma.vercel.app"
+  },
+  "subdomains": {
+    "send": {
+      "TXT": [ "v=spf1 include:amazonses.com ~all" ],
+      "MX": [
+        "10 feedback-smtp.eu-west-1.amazonses.com"
+      ]
+    },
+    "feedback._domainkey.send": {
+      "CNAME": "feedback-smtp.eu-west-1.amazonses.com"
+    },
+    "_dmarc": {
+      "TXT": [ "v=DMARC1; p=none;" ]
+    }
+  }
+}
