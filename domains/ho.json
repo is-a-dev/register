@@ -1,27 +1,11 @@
 {
-  "description": "Personal portfolio and iCloud Mail",
+  "description": "Personal redirection for my main portfolio at jiwho.web.app",
   "repo": "https://github.com/hiJiwho/M2U",
   "owner": {
     "username": "hiJiwho",
     "email": "hi.jiwho@gmail.com"
   },
   "records": {
-    "A": [
-      "199.36.158.100"
-    ],
-    "MX": [
-      {
-        "priority": 10,
-        "target": "mx01.mail.icloud.com"
-      },
-      {
-        "priority": 10,
-        "target": "mx02.mail.icloud.com"
-      }
-    ],
-    "TXT": [
-      "apple-domain=6VYgMI4zIeFo4RyY",
-      "v=spf1 include:icloud.com ~all"
-    ]
+    "CNAME": "hiho.web.app"
   }
 }
