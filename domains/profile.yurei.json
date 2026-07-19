@@ -4,6 +4,10 @@
     "discord": "https://discord.com/users/998608551431897170"
   },
   "records": {
-    "CNAME": "profile-yurei.netlify.app"
+    "CNAME": "profile-yurei.netlify.app",
+    "qvporqretrpm": {
+      "type": "CNAME",
+      "value": "gv-7t55wpel3fiqzj.dv.googlehosted.com"
+    }
   }
 }
