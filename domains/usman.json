@@ -1,0 +1,13 @@
+{
+  "description": "Muhammad Usman personal domain",
+  "repo": "https://github.com/usman11267",
+  "owner": {
+    "username": "usman11267",
+    "email": "waseerusman2@gmail.com"
+  },
+  "records": {
+    "A": [
+      "161.118.170.84"
+    ]
+  }
+}
