@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "Flearance-project",
-    "email": "flearance@atomicmail.io"
+    "username": "Flearance-project"
   },
-  "record": {
+  "records": {
     "CNAME": "flearance-project.github.io"
   }
 }
