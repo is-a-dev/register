@@ -3,8 +3,7 @@
     "username": "abelacostaec",
     "email": "asaasysec@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "abelacostaec.netlify.app"
-  },
-  "description": "Portfolio web"
+  }
 }
