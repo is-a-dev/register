@@ -4,11 +4,6 @@
     "email": "robin.nahid123@gmail.com"
   },
   "records": {
-    "CNAME": [
-      {
-        "name": "@",
-        "value": "cname.vercel-dns.com"
-      }
-    ]
+    "CNAME": "cname.vercel-dns.com"
   }
 }
