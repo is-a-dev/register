@@ -4,9 +4,12 @@
     "email": "kangrisuk@gmail.com"
   },
   "record": {
-    "NS": [
-      "://cloudflare.com",
-      "://cloudflare.com"
-    ]
+    "A": [
+      "216.239.32.21",
+      "216.239.34.21",
+      "216.239.36.21",
+      "216.239.38.21"
+    ],
+    "TXT": "google-site-verification=WgFW4DMrd2ELKaX8-Fz1bpdbAaZSy1QAbRsT1PK6omE"
   }
 }
