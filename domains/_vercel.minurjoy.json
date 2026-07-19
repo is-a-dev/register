@@ -1,11 +1,11 @@
 {
-    "records":  {
-                    "TXT":  [
-                                "vc-domain-verify=www.minurjoy.is-a.dev,eced12e40fcc2a1e3516"
-                            ]
-                },
-    "owner":  {
-                  "email":  "minurrahmanjoy1@gmail.com",
-                  "username":  "MJ0121"
-              }
+    "owner": {
+        "username": "MJ0121",
+        "email": "minurrahmanjoy1@gmail.com"
+    },
+    "records": {
+        "TXT": [
+            "vc-domain-verify=www.minurjoy.is-a.dev,eced12e40fcc2a1e3516"
+        ]
+    }
 }
