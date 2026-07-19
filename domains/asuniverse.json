@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "gnkb24-boop",
+    "email": "gnkb24@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "casey.ns.cloudflare.com",
+      "emily.ns.cloudflare.com"
+    ]
+  }
+}
