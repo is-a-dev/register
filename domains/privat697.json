@@ -3,7 +3,7 @@
     "username": "ZIGS123SAMPAI10",
     "email": "qowialkhoir@gmail.com"
   },
-  "records": {                   //
-    "CNAME": "://vercel-dns.com"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }
