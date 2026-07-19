@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ZIGS123SAMPAI10",
-        "email": "qowialkhoir@gmail.com"
-    },
-    "record": {
-        "TXT": ["vc-domain-verify=version.common.privat697.is-a.dev,d9f7131ad46adead2b7f"]
-    }
+  "owner": {
+    "username": "ZIGS123SAMPAI10",
+    "email": "qowialkhoir@gmail.com"
+  },
+  "record": {
+    "TXT": ["vc-domain-verify=version.common.privat697.is-a.dev,d9f7131ad46adead2b7f"]
+  }
 }
