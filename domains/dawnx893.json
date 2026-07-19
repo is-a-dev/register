@@ -1,10 +1,10 @@
 {
-  "domain": "dawnx893",
   "subdomain": "dawnx893",
   "owner": {
     "username": "dawnX893",
     "email": "dawnx893@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "dawnX893.github.io",
     "TXT": [
