@@ -4,11 +4,6 @@
     "email": "qowialkhoir@gmail.com"
   },
   "records": {
-    "A": [
-      {
-        "name": "@",
-        "value": "192.0.2.1"
-      }
-    ]
+    "A": ["192.0.2.1"]
   }
 }
