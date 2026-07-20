@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "apoi2",
+    "email": "apoi2@proton.me"
+  },
+  "records": {
+    "A": ["https://apoi2.netlify.app/"]
+  }
+}
