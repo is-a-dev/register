@@ -4,11 +4,6 @@
     "email": "qowialkhoir@gmail.com"
   },
   "records": {
-    "CNAME": [
-      {
-        "name": "@",
-        "value": "example.com"
-      }
-    ]
+    "CNAME": "example.com"
   }
 }
