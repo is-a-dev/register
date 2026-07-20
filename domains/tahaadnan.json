@@ -4,6 +4,6 @@
     "email": "tahaadnanawan@gmail.com"
   },
   "records": {
-    "CNAME": "lrxdarkdevil.github.io"
+    "A": ["75.2.60.5"]
   }
 }
