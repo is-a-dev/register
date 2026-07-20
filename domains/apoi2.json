@@ -4,6 +4,7 @@
     "email": "apoi2@proton.me"
   },
   "records": {
+    "A": "75.2.60.5",
     "CNAME": "apoi2.netlify.app"
   }
 }
