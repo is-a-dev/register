@@ -4,6 +4,10 @@
     "email": "msalmansaeedch786@gmail.com"
   },
   "records": {
-    "CNAME": "msalmansaeedch786.github.io"
+    "TXT": "digital-twin: pending AWS Amplify domain association",
+    "CAA": [
+      { "tag": "issue", "value": "amazontrust.com" },
+      { "tag": "issue", "value": "amazon.com" }
+    ]
   }
 }
