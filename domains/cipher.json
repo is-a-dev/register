@@ -1,0 +1,12 @@
+{
+    "description": "Cipher — private messaging web app with auto-deleting messages. A solo project by Stepundrik.",
+    "repo": "https://github.com/thefirstacc164/Cipher",
+    "owner": {
+        "username": "thefirstacc164",
+        "email": "thefirstaccievercreated164@proton.me"
+    },
+    "record": {
+        "CNAME": "cipher-trhq.onrender.com"
+    },
+    "proxied": false
+}
