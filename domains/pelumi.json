@@ -6,5 +6,5 @@
   "records": {
     "CNAME": "robot-3-5-brain.vercel.app"
   },
-  "proxied": true
+  "proxied": false
 }
