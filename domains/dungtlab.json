@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "DungTLab"
+  },
+  "records": {
+    "NS": [
+      "miles.ns.cloudflare.com",
+      "monroe.ns.cloudflare.com"
+    ]
+  }
+}
