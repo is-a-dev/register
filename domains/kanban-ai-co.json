@@ -4,7 +4,7 @@
     "email": "santiagoaguilart0@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
+    "A": ["216.198.79.1"],
     "TXT": "vc-domain-verify=kanban-ai-co.is-a.dev,50efdc092b73d23c4369"
   }
 }
