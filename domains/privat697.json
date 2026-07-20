@@ -3,6 +3,7 @@
     "username": "ZIGS123SAMPAI10",
     "email": "qowialkhoir@gmail.com"
   },
+  "proxied": true,
   "records": {
     "A": ["192.0.2.1"]
   }
