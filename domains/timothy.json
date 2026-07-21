@@ -3,7 +3,7 @@
     "username": "TianyiTimothy",
     "email": "timothy.tudis@gmail.com"
   },
-  "record": {
-    "A": "35.209.217.183"
+  "records": {
+    "A": ["35.209.217.183"]
   }
 }
