@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "devodrag"
+    "username": "devodrag",
+    "email": "euesswekgpt@gmail.com"
   },
-  "record": {
-    "A": [
-      "87.120.187.166"
-    ]
+  "records": {
+    "A": ["87.120.187.166"]
   }
 }
