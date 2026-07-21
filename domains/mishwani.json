@@ -1,9 +1,12 @@
 {
   "owner": {
-    "username": "mishwani7",
-    "email": "mishwani.bscs2030@uoch.edu.pk"
+    "username": "abuzar-mishwani",
+    "email": "mishwani.bscs2028@uoch.edu.pk"
   },
   "records": {
-    "CNAME": "mishwani7.github.io"
+    "CNAME": "abuzar-mishwani.github.io",
+    "TXT": [
+      "0b0643f87e7c84de2b6fffb93a167d"
+    ]
   }
 }
