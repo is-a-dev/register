@@ -1,9 +1,0 @@
-{
-    "owner": {
-        "username": "mcenahle",
-        "email": "hi@mcenahle.com"
-    },
-    "records": {
-        "TXT": ["vc-domain-verify=mcenahle.is-a.dev,809373a7c5898f07f7fa", "vc-domain-verify=blog.mcenahle.is-a.dev,bddad837b87686c52b2e"]
-    }
-}

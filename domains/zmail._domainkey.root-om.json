@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "darshanuniversity17",
-    "email": "darshanuniversity792@gmail.com"
-  },
-  "records": {
-    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCSRIv943CUcvgrannq2Tj56w40DiYQybhxHKGfWkaIZm877VZdb//jXhvonVYCIergc3/Xu2B41eIgNlG8gbtjV2+1bNs8REmrCi76TPFmWaZX2oFZE3+wGkUMvPhfNqt4jKL407IY6YwWVgGm6X+Jp0YOC6QmKOYD6tylxb3U7wIDAQAB"
-  }
-}

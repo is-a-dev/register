@@ -1,9 +1,0 @@
-{
-  "owner": {
-   "username": "vindalfr-k",
-     "email": "voidxontol@gmail.com"
-  },
- "records": {
-   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCF68Q/R8FTF167uo/rtkPpFw1oCf4/iAWWdQpz0m0EZrv92xS6gYF6AzmmnizelsSCQXRheLAdvHm1VGVnz90UxKRkXB5mTQy/OkdYqhGlq7/QrKUQWp7jsOkNghVmpRLnwJarCq6YFBKJ+Tug+MP5KuuDFpDuYtRsvOiS7JoTtQIDAQAB"
-  }
-}

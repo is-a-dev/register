@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "binitkr985",
-    "email": "binitkr9852@gmail.com"
-  },
-  "records": {
-    "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyiwLpQdHGxceF81kTo3KAhUUxoZif/xCRXC281FQCB7A9fluF96nwb8/QUEFgcvdxn6TIURj3Jzd9LAde47ZCI2swyxfAFeIX6jU3JEEXmjanSLAzkXhb2b6fQeoW8OcqtaBAPdKE/PraQkMi9swmo+gWx8O7LNisXEOJjVKhgA2xKKfReDh+SSS3ai/HEg1ZiMeHq/x23q+T582MBybtlfuQQJbOl+jwfHmFN4NGnPN93tG2Ayr86oFDGkhonV+/+l//Tn9GP3T9Z7I5OcYRLjbCNR9HCVlZCil3qBu7dOe2k3FTgOSu5oC44dRVJ0g5QlVolOrNSjwYTzaS76ThwIDAQAB"
-  }
-}
