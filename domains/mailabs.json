@@ -1,0 +1,11 @@
+{
+  "description": "MAI Labs (Mahesh Artificial Intelligence Labs) - AI research organization focused on Artificial Intelligence, Climate Intelligence, Robotics, Water Intelligence and Open Research.",
+  "repo": "https://github.com/MAI-Labs/mai-labs-website",
+  "owner": {
+    "username": "Mahesh-Awchar",
+    "email": "mailabs.official1@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://mai-labs-website-afqd-tan.vercel.app"
+  }
+}
