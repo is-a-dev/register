@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "ZIGS123SAMPAI10",
-    "email": "qowialkhoir@gmail.com"
+    "username": "ZIGS123SAMPAI10"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=privat697.is-a.dev,a2270d9b67ae7137dbaa"
   }
 }
