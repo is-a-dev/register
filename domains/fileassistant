@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "你的GitHub用户名",
+    "email": "你的邮箱"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "value": "cname-china.vercel-dns.com"
+    }
+  ]
+}
