@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "peewee92",
+    "email": "peewee92@foxmail.com"
+  },
+  "records": {
+    "NS": [
+      "carioca.ns.cloudflare.com",
+      "cartman.ns.cloudflare.com"
+    ]
+  }
+}
