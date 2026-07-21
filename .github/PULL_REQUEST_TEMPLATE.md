@@ -13,7 +13,7 @@
 Website: https://balajisaravananedit.framer.website
 
 Screenshot:
-<img width="506" height="476" alt="image" src="https://github.com/user-attachments/assets/d0c3c277-bb52-4495-947d-f1d2bede630e" />
+<img width="1733" height="1055" alt="image" src="https://github.com/user-attachments/assets/96957cd4-0d5f-4c6d-a247-1b22b372edc4" />
 
 
 # Website Purpose
