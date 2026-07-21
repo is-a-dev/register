@@ -1,0 +1,11 @@
+{
+  "description": "My portfolio",
+  "repo": "https://github.com/sagniksaha279/teejnil",
+  "owner": {
+    "username": "sagniksaha279",
+    "email": "sahasagnik279@gmail.com"
+  },
+  "records": {
+    "CNAME": "teejnil.vercel.app"
+  }
+}

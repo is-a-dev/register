@@ -1,0 +1,11 @@
+{
+  "description": "Vercel domain verification for zakariaebakkari.is-a.dev",
+  "repo": "https://github.com/zakariae-bakkari/Portfolio",
+  "owner": {
+    "username": "zakariae-bakkari",
+    "email": "zakariabakkari2006@gmail.com"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=zakariaebakkari.is-a.dev,b52c8e9b9611b926313e"]
+  }
+}

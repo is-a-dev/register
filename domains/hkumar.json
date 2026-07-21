@@ -3,6 +3,8 @@
         "username": "hkrobotics"
     },
     "records": {
-        "CNAME": "hkrobotics.github.io"
-    }
+        "CNAME": "hkrobotics.github.io",
+        "TXT": "google-site-verification=tyQRuNe5KBOEbokE2vq9z8PVhxsK5vV-d0yhO--sSEk"
+    },
+    "proxied": true
 }

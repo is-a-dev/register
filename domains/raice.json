@@ -4,6 +4,12 @@
     "email": "ricenooba@gmail.com"
   },
   "records": {
-    "CNAME": "raice.pages.dev"
-  }
+    "CNAME": "raice.pages.dev",
+    "MX": [
+            { "target": "mx1.forwardemail.net", "priority": 10 },
+            { "target": "mx2.forwardemail.net", "priority": 10 }
+          ],
+    "TXT": "forward-email=QXUzaElCd3kvdk1nYlJsdWkyUUEvVzM1dGUyOHNNaHhTOU81YjQ0dGJvbFJyM1B4eHBQeUE5eHNLOXlJeVE9PQ=="
+  },
+  "proxied": true
 }
