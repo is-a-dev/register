@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "alihafizanish-del",
-    "email": "alihafizanish@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfolio-website-design-red.vercel.app"
-  }
+    "owner": {
+        "username": "alihafizanish-del",
+        "email": "alihafizanish@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
