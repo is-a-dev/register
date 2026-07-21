@@ -4,6 +4,6 @@
     "email": "roodyridar2@gmail.com"
   },
   "records": {
-    "CNAME": "roodyridar2.github.io"
+    "A": ["167.71.57.237"]
   }
 }
