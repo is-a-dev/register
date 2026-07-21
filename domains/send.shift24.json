@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "dfv1663-eng",
+        "email": "dfv1663@gmail.com"
+    },
+    "records": {
+        "MX": [
+            {
+                "target": "feedback-smtp.sa-east-1.amazonses.com",
+                "priority": 10
+            }
+        ],
+        "TXT": "v=spf1 include:amazonses.com ~all"
+    }
+}
