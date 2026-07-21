@@ -1,0 +1,12 @@
+{
+  "domain": "quantops",
+  "subdomain": "",
+  "owner": {
+    "username": "HanifBocil12",
+    "email": "hanifbocil45@email.com"
+  },
+  "record": {
+    "CNAME": "quantops-577n.onrender.com"
+  },
+  "description": "Quantops is a web application built with Laravel, Livewire, Tailwind CSS, and Chart.js. This project demonstrates real-time data visualization, algorithmic trading dashboard, and quantitative analysis tools as a web development portfolio."
+}
