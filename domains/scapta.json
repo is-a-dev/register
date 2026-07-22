@@ -1,9 +1,6 @@
 {
-  "owner": {
-    "username": "ArchJunior",
-    "email": "archjunior@proton.me"
-  },
-  "records": {
+  "owner": "archjunior@proton.me",
+  "record": {
     "URL": "https://discord.gg/UsJvDUSuU"
   }
 }
