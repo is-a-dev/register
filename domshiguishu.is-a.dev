@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "你的GitHub用户名"
+  },
+  "records": {
+  "owner": { "username": "你的GitHub用户名" },
+  "records": {
+    "CNAME": "你的用户名.github.io",
+    "TXT": ["你的TXT验证值"]
+  },
+  "proxied": true
+  },
+  "proxied": true
+}
