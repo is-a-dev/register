@@ -4,6 +4,6 @@
         "email": "noadevbr@yahoo.com"
     },
     "records": {
-        "CNAME": "b8c00644-46e9-4acb-aac1-e739508eb94a.cfargotunnel.com"
+          "A": ["216.198.79.1"]
     }
 }
