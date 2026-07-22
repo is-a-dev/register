@@ -1,0 +1,10 @@
+{
+  "description": "Certificate generator web application",
+  "repo": "https://github.com/JungluChen/certificate-generator",
+  "owner": {
+    "username": "JungluChen"
+  },
+  "records": {
+    "CNAME": "cname-china.vercel-dns.com"
+  }
+}
