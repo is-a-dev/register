@@ -1,0 +1,10 @@
+{
+  "description": "AstrBot dashboard hosted via Cloudflare Tunnel",
+  "repo": "https://github.com/YSSYHS",
+  "owner": {
+    "username": "YSSYHS"
+  },
+  "record": {
+    "CNAME": "32c77b3d-e766-44c5-97a8-4b27aae04860.cfargotunnel.com"
+  }
+}
