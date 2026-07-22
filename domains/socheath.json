@@ -4,6 +4,9 @@
     "email": "cheathekm@gmail.com"
   },
   "records": {
-    "CNAME": "zentharou.vercel.app"
+    "CNAME": "zentharou.vercel.app",
+    "TXT": {
+      "_vercel": "vc-domain-verify=socheath.is-a.dev,cbf1289668ce5dbad9b4"
+    }
   }
 }
