@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nasimnowshadh",
-        "email": "nasimnowshadh@gmail.com"
-    },
-    "records": {
-        "CNAME": "nextonstream-hxey.vercel.app"
-    }
+  "owner": {
+    "username": "nasimnowshadh",
+    "email": "nasimnowshadh@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
