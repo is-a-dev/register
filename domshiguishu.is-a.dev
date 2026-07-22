@@ -1,12 +1,12 @@
 {
   "owner": {
-    "username": "你的GitHub用户名"
+    "username": "idjebkxow"
   },
   "records": {
-  "owner": { "username": "你的GitHub用户名" },
+  "owner": { "username": "idjebkxow" },
   "records": {
-    "CNAME": "你的用户名.github.io",
-    "TXT": ["你的TXT验证值"]
+    "CNAME": "idjebkxow.github.io",
+    "TXT": ["3fcf68efa0bd8248c180fa197326d4"]
   },
   "proxied": true
   },
