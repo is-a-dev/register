@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>游梦墟 · 大傩司档案</title>
+    <style>
+        /* ===== 基础 ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --bg: #0a0806;
+            --card: #14100e;
+            --border: #2a221c;
+            --text: #e0d6c8;
+            --muted: #8a8078;
+            --gold: #b8a070;
+            --gold-dim: #8a7a5a;
+            --blood: #6a1a1a;
+            --blood-dim: #4a1212;
+            --font-serif: 'Georgia', 'Songti SC', serif;
+            --font-sans: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            --font-mono: 'Courier New', 'Consolas', monospace;
+        }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: var(--font-sans);
+            line-height: 1.8;
+            padding: 40px 24px;
+            max-width: 960px;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+
+        /* ===== 档案头 ===== */
+        .archive-header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 16px;
+            margin-bottom: 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .archive-header .title {
+            font-family: var(--font-serif);
+            font-size: 1.6rem;
+            font-weight: 700;
+            letter-spacing: 6px;
+            color: var(--gold);
+        }
+        .archive-header .title small {
+            display: block;
+            font-size: 0.65rem;
+            font-weight: 400;
+            letter-spacing: 3px;
+            color: var(--muted);
+            margin-top: 2px;
+        }
+        .archive-header .meta {
+            font-size: 0.7rem;
+            color: var(--muted);
+            letter-spacing: 1px;
+            text-align: right;
+            line-height: 1.6;
+        }
+        .archive-header .meta .class {
+            border: 1px solid var(--border);
+            padding: 2px 12px;
+            border-radius: 2px;
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            color: var(--gold-dim);
+        }
+
+        /* ===== 通用 ===== */
+        .section {
+            margin-bottom: 36px;
+        }
+        .section h2 {
+            font-family: var(--font-serif);
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--gold);
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+            border-left: 2px solid var(--blood);
+            padding-left: 14px;
+        }
+        .section h3 {
+            font-family: var(--font-serif);
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--gold-dim);
+            letter-spacing: 2px;
+            margin: 16px 0 6px;
+        }
+        .section p,
+        .section li {
+            color: var(--muted);
+            font-size: 0.92rem;
+            margin-bottom: 6px;
+        }
+        .section p strong,
+        .section li strong {
+            color: var(--text);
+            font-weight: 600;
+        }
+        .section .highlight {
+            color: #b04a4a;
+            font-weight: 500;
+        }
+        .section .code-term {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: var(--gold-dim);
+            background: rgba(255, 255, 255, 0.03);
+            padding: 0 6px;
+            border-radius: 2px;
+        }
+
+        .divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border), transparent);
+            margin: 32px 0;
+        }
+
+        /* ===== 图例 ===== */
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 20px;
+            background: var(--card);
+            padding: 10px 18px;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            margin-bottom: 16px;
+            font-size: 0.75rem;
+            color: var(--muted);
+        }
+        .legend .term {
+            color: var(--gold-dim);
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-right: 4px;
+        }
+
+        /* ===== 执事网格 ===== */
+        .zhishi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 10px;
+            margin: 8px 0 12px;
+        }
+        .zhishi-card {
+            background: var(--card);
+            padding: 14px 10px;
+            border-radius: 4px;
+            text-align: center;
+            border: 1px solid var(--border);
+            cursor: pointer;
+            transition: border-color 0.25s, transform 0.2s, background 0.25s;
+            user-select: none;
+        }
+        .zhishi-card:hover {
+            border-color: rgba(184, 160, 112, 0.25);
+            transform: translateY(-2px);
+        }
+        .zhishi-card .dizhi {
+            font-family: var(--font-serif);
+            font-size: 0.75rem;
+            color: var(--blood);
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .zhishi-card .shen {
+            font-family: var(--font-serif);
+            font-size: 1.05rem;
+            color: var(--gold);
+            letter-spacing: 2px;
+        }
+        .zhishi-card .sha {
+            font-size: 0.65rem;
+            color: var(--muted);
+            display: block;
+            margin-top: 2px;
+            letter-spacing: 1px;
+        }
+        .zhishi-card .pair-tag {
+            font-size: 0.5rem;
+            color: var(--gold-dim);
+            border: 1px solid rgba(184, 160, 112, 0.12);
+            border-radius: 10px;
+            padding: 0 8px;
+            display: inline-block;
+            margin-top: 3px;
+        }
+        .zhishi-card .detail {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease, padding 0.4s ease, opacity 0.4s ease;
+            opacity: 0;
+            padding: 0 4px;
+            text-align: left;
+            font-size: 0.7rem;
+            color: var(--muted);
+            line-height: 1.8;
+            border-top: 1px solid transparent;
+            margin-top: 0;
+        }
+        .zhishi-card.active {
+            border-color: rgba(184, 160, 112, 0.3);
+            background: rgba(20, 16, 14, 0.95);
+        }
+        .zhishi-card.active .detail {
+            max-height: 300px;
+            opacity: 1;
+            padding: 10px 4px 0;
+            border-top-color: rgba(184, 160, 112, 0.06);
+            margin-top: 6px;
+        }
+        .zhishi-card .detail .label {
+            color: var(--gold-dim);
+            font-weight: 600;
+            font-size: 0.65rem;
+            letter-spacing: 1px;
+            display: inline-block;
+            min-width: 40px;
+        }
+        .zhishi-card .click-hint {
+            font-size: 0.5rem;
+            color: var(--muted);
+            opacity: 0.2;
+            margin-top: 4px;
+            letter-spacing: 1px;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+        .zhishi-card:hover .click-hint {
+            opacity: 0.5;
+        }
+
+        /* ===== 歌谣 ===== */
+        .chant-fragment {
+            margin: 16px 0 4px;
+            padding: 14px 20px;
+            border-left: 3px solid var(--gold-dim);
+            background: var(--card);
+            border-radius: 0 4px 4px 0;
+            font-family: var(--font-serif);
+            font-size: 0.9rem;
+            color: var(--gold-dim);
+            letter-spacing: 2px;
+            line-height: 2;
+            font-style: italic;
+        }
+        .chant-fragment .hl {
+            color: var(--gold);
+            font-weight: 600;
+        }
+
+        /* ===== 状态栏 ===== */
+        .status-bar {
+            margin-top: 28px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: 0.65rem;
+            color: var(--muted);
+            letter-spacing: 1px;
+            opacity: 0.6;
+        }
+        .status-bar .dot {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #2d6a4a;
+            margin-right: 6px;
+            box-shadow: 0 0 6px rgba(45, 106, 74, 0.3);
+            animation: pulse-dot 3s ease-in-out infinite;
+        }
+        @keyframes pulse-dot {
+            0%,
+            100% {
+                opacity: 0.5;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.1);
+            }
+        }
+
+        /* ===== 导航 ===== */
+        .nav-footer {
+            margin-top: 36px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .nav-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--muted);
+            padding: 8px 28px;
+            font-family: var(--font-sans);
+            font-size: 0.78rem;
+            letter-spacing: 3px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: var(--card);
+        }
+        .nav-btn:hover {
+            border-color: var(--gold-dim);
+            color: var(--gold);
+            background: rgba(184, 160, 112, 0.04);
+        }
+        .nav-btn.back-btn {
+            border-color: rgba(106, 26, 26, 0.2);
+            color: var(--muted);
+            padding: 6px 20px;
+            font-size: 0.7rem;
+        }
+        .nav-btn.back-btn:hover {
+            border-color: var(--blood);
+            color: var(--blood);
+        }
+        .nav-btn.insider-btn {
+            border-color: rgba(184, 160, 112, 0.08);
+            color: var(--gold-dim);
+            font-size: 0.7rem;
+            padding: 6px 20px;
+            letter-spacing: 2px;
+        }
+        .nav-btn.insider-btn:hover {
+            border-color: var(--gold-dim);
+            color: var(--gold);
+        }
+
+        /* ===== 页面切换 ===== */
+        .page-panel {
+            transition: opacity 0.4s ease;
+        }
+        .page-panel.hidden {
+            display: none;
+            opacity: 0;
+        }
+        .page-panel.active {
+            display: block;
+            opacity: 1;
+        }
+
+        /* ===== 加入页面 ===== */
+        .org-tree {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 10px 0 6px;
+        }
+        @media (max-width: 600px) {
+            .org-tree {
+                grid-template-columns: 1fr;
+            }
+        }
+        .org-item {
+            background: var(--card);
+            padding: 14px 18px;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+        }
+        .org-item .name {
+            font-family: var(--font-serif);
+            color: var(--gold);
+            font-size: 0.95rem;
+            letter-spacing: 2px;
+        }
+        .org-item .role {
+            font-size: 0.7rem;
+            color: var(--muted);
+            display: block;
+            margin-bottom: 2px;
+            letter-spacing: 1px;
+        }
+        .org-item p {
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* 契约 */
+        .contract-box {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 24px 24px 18px;
+            margin: 12px 0 8px;
+            position: relative;
+        }
+        .contract-box .contract-title {
+            font-family: var(--font-serif);
+            font-size: 1rem;
+            color: var(--gold);
+            letter-spacing: 4px;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 10px;
+            margin-bottom: 12px;
+        }
+        .contract-box .clause {
+            display: flex;
+            gap: 12px;
+            padding: 6px 0;
+            border-bottom: 1px solid rgba(42, 34, 28, 0.3);
+            font-size: 0.85rem;
+        }
+        .contract-box .clause:last-child {
+            border-bottom: none;
+        }
+        .contract-box .clause .num {
+            color: var(--gold-dim);
+            font-weight: 700;
+            min-width: 28px;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+        }
+        .contract-box .clause .text {
+            color: var(--muted);
+        }
+        .contract-box .clause .text strong {
+            color: var(--text);
+        }
+        .contract-box .signature {
+            margin-top: 14px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: 0.75rem;
+            color: var(--muted);
+            letter-spacing: 1px;
+        }
+
+        /* ===== 内部人员须知 ===== */
+        .duty-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 10px 0 6px;
+        }
+        @media (max-width: 600px) {
+            .duty-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .duty-card {
+            background: var(--card);
+            padding: 18px 20px;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+        }
+        .duty-card .header {
+            font-family: var(--font-serif);
+            color: var(--gold);
+            font-size: 1rem;
+            letter-spacing: 2px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 6px;
+            margin-bottom: 10px;
+        }
+        .duty-card .header .badge {
+            font-size: 0.55rem;
+            color: var(--muted);
+            letter-spacing: 1px;
+            font-family: var(--font-sans);
+            font-weight: 400;
+            display: block;
+        }
+        .duty-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .duty-card ul li {
+            font-size: 0.82rem;
+            color: var(--muted);
+            padding: 4px 0 4px 18px;
+            position: relative;
+            line-height: 1.6;
+            border-bottom: 1px solid rgba(42, 34, 28, 0.15);
+        }
+        .duty-card ul li:last-child {
+            border-bottom: none;
+        }
+        .duty-card ul li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--gold-dim);
+            font-size: 0.6rem;
+        }
+        .duty-card ul li .label {
+            color: var(--gold-dim);
+            font-weight: 600;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+        }
+        .duty-card ul li .label .hl {
+            color: var(--blood);
+        }
+
+        .prohibition-list {
+            margin: 8px 0 4px;
+        }
+        .prohibition-list li {
+            list-style: none;
+            padding: 4px 0 4px 22px;
+            position: relative;
+            font-size: 0.82rem;
+            color: var(--muted);
+            border-bottom: 1px solid rgba(42, 34, 28, 0.1);
+        }
+        .prohibition-list li:last-child {
+            border-bottom: none;
+        }
+        .prohibition-list li::before {
+            content: '⛔';
+            position: absolute;
+            left: 0;
+            font-size: 0.7rem;
+            opacity: 0.5;
+        }
+
+        /* ===== 动画 ===== */
+        .anim-fade {
+            opacity: 0;
+            transform: translateY(14px);
+            animation: fadeUp 0.7s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+        }
+        .anim-delay-1 {
+            animation-delay: 0.08s;
+        }
+        .anim-delay-2 {
+            animation-delay: 0.16s;
+        }
+        .anim-delay-3 {
+            animation-delay: 0.24s;
+        }
+        .anim-delay-4 {
+            animation-delay: 0.32s;
+        }
+        .anim-delay-5 {
+            animation-delay: 0.40s;
+        }
+        @keyframes fadeUp {
+            0% {
+                opacity: 0;
+                transform: translateY(14px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ===== 响应式 ===== */
+        @media (max-width: 600px) {
+            body {
+                padding: 24px 14px;
+            }
+            .archive-header .title {
+                font-size: 1.3rem;
+            }
+            .archive-header .meta {
+                text-align: left;
+                width: 100%;
+            }
+            .zhishi-grid {
+                grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+                gap: 8px;
+            }
+            .status-bar {
+                flex-direction: column;
+                gap: 4px;
+                align-items: flex-start;
+            }
+            .legend {
+                font-size: 0.65rem;
+                gap: 6px 12px;
+                padding: 8px 12px;
+            }
+            .nav-footer {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .contract-box {
+                padding: 16px 14px;
+            }
+            .contract-box .clause {
+                font-size: 0.78rem;
+                gap: 8px;
+            }
+            .duty-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== 档案头 ===== -->
+    <div class="archive-header anim-fade anim-delay-1">
+        <div class="title">
+            游梦墟
+            <small>梦域净化工程 · 大傩司档案</small>
+        </div>
+        <div class="meta">
+            <span class="class">▸ 绝密 · 内部分发</span><br />
+            归档号 · DS-0731-癸卯<br />
+            版本 · 修订版 4.2
+        </div>
+    </div>
+
+    <!-- ===== 页面容器 ===== -->
+    <div class="page-container">
+
+        <!-- ========================================================= -->
+        <!-- 主面板：世界观 -->
+        <!-- ========================================================= -->
+        <div class="page-panel active" id="panel-world">
+
+            <!-- 概念总纲 -->
+            <div class="section anim-fade anim-delay-2">
+                <h2>▎概念总纲</h2>
+                <p><strong>游梦墟</strong> —— 独立于现实与冥界之外的第三层空间，由历代被封存的煞秽之灵构成。所有被十二执事吞噬的邪秽，在此凝结为具象化的 <span class="highlight">“梦魇实体”</span>，相互吞噬、演化、融合。正常封印周期为 <strong>一元</strong>（约129,600年）。当人间大规模负面情绪共鸣（战乱、饥荒、信仰崩塌）发生时，将导致游梦墟结界共振削弱，梦魇实体通过 <span class="highlight">“噩梦裂隙”</span> 渗透回人间。</p>
+                <p><strong>大傩司</strong> —— 唐太宗贞观年间设立的秘密机构，专司地支裂隙的监测与封堵。第一任总执事为蜀地道士，在任期间完成《灾厄净除总纲》初稿。十二执事各守周天十二分野，各吞一类根本凶煞，使人间气运流转不绝。</p>
+                <p><strong>破梦者</strong> —— 经大傩司筛选、签约的作战人员。其精神体投射入游梦墟执行净化任务，编号格式为 <span class="code-term">G-XXXX</span>。破梦者通常由现实世界中精神力异于常人者转化而来，少数为经严格训练后主动签约的活人。</p>
+            </div>
+
+            <!-- 十二执事 -->
+            <div class="section anim-fade anim-delay-3">
+                <h2>▎十二执事 · 地支镇煞</h2>
+                <p style="font-size:0.85rem; color:var(--muted); margin-bottom:6px;">
+                    唱名即契 · 神借时限一炷香 · 超时则失位 · <span style="color:var(--gold-dim);">点击卡片展开详情</span>
+                </p>
+
+                <div class="legend">
+                    <span><span class="term">地支</span> 十二地支位格，对应周天分野</span>
+                    <span><span class="term">神名</span> 执事名号，唱名即契</span>
+                    <span><span class="term">所食</span> 该神兽镇压的根本凶煞</span>
+                    <span><span class="term">共司</span> 双神共同镇压同一类凶煞</span>
+                </div>
+
+                <div class="zhishi-grid">
+                    <div class="zhishi-card"><div class="dizhi">子</div><div class="shen">甲作</div><div class="sha">凶煞</div><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 子·正北<br /><span class="label">神名</span> 甲作·裂颚<br /><span class="label">所食</span> 凶煞：暴戾、杀伐之气<br /><span class="label">位格</span> 主镇北方</div></div>
+                    <div class="zhishi-card"><div class="dizhi">丑</div><div class="shen">胇胃</div><div class="sha">虎煞</div><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 丑·东北<br /><span class="label">神名</span> 胇胃·鼓腹<br /><span class="label">所食</span> 虎煞：暴虐、噬人之煞<br /><span class="label">位格</span> 熔炼虎煞</div></div>
+                    <div class="zhishi-card"><div class="dizhi">寅</div><div class="shen">雄伯</div><div class="sha">魅煞</div><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 寅·东北<br /><span class="label">神名</span> 雄伯·振鬃<br /><span class="label">所食</span> 魅煞：妖邪、蛊惑之煞<br /><span class="label">位格</span> 嚼碎魅煞</div></div>
+                    <div class="zhishi-card"><div class="dizhi">卯</div><div class="shen">腾简</div><div class="sha">不祥</div><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 卯·正东<br /><span class="label">神名</span> 腾简·展翼<br /><span class="label">所食</span> 不祥：灾厄、晦运之煞<br /><span class="label">位格</span> 驱散不祥</div></div>
+                    <div class="zhishi-card"><div class="dizhi">辰</div><div class="shen">揽诸</div><div class="sha">咎煞</div><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 辰·东南<br /><span class="label">神名</span> 揽诸·垂舌<br /><span class="label">所食</span> 咎煞：罪愆、业报之煞<br /><span class="label">位格</span> 舐尽咎煞</div></div>
+                    <div class="zhishi-card"><div class="dizhi">巳</div><div class="shen">伯奇</div><div class="sha">梦煞</div><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 巳·东南<br /><span class="label">神名</span> 伯奇·衔月<br /><span class="label">所食</span> 梦煞：噩梦、幻境之煞<br /><span class="label">位格</span> 啖尽梦煞</div></div>
+                    <div class="zhishi-card"><div class="dizhi">午</div><div class="shen">强梁·祖明</div><div class="sha">磔死寄生</div><span class="pair-tag">共司</span><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 午·正南<br /><span class="label">神名</span> 强梁·举斧 + 祖明·执索<br /><span class="label">所食</span> 磔死寄生：腐朽、寄生之煞<br /><span class="label">共司</span> 双神合力镇压</div></div>
+                    <div class="zhishi-card"><div class="dizhi">未</div><div class="shen">委随</div><div class="sha">观煞</div><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 未·西南<br /><span class="label">神名</span> 委随·潜行<br /><span class="label">所食</span> 观煞：窥伺、监视之煞<br /><span class="label">位格</span> 挖出观煞</div></div>
+                    <div class="zhishi-card"><div class="dizhi">申</div><div class="shen">错断</div><div class="sha">巨煞</div><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 申·西南<br /><span class="label">神名</span> 错断·挥刃<br /><span class="label">所食</span> 巨煞：庞大、沉重之煞<br /><span class="label">位格</span> 腰斩巨煞</div></div>
+                    <div class="zhishi-card"><div class="dizhi">酉</div><div class="shen">穷奇·腾根</div><div class="sha">蛊煞</div><span class="pair-tag">共司</span><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 酉·正西<br /><span class="label">神名</span> 穷奇·煽火 + 腾根·引雷<br /><span class="label">所食</span> 蛊煞：虫毒、惑乱之煞<br /><span class="label">共司</span> 双神合力镇压</div></div>
+                    <div class="zhishi-card"><div class="dizhi">戌</div><div class="shen" style="opacity:0.4;">·</div><div class="sha">镇位</div><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 戌·西北<br /><span class="label">位格</span> 镇守西北，归藏之枢</div></div>
+                    <div class="zhishi-card"><div class="dizhi">亥</div><div class="shen" style="opacity:0.4;">·</div><div class="sha">归藏</div><div class="click-hint">点击展开</div><div class="detail"><span class="label">地支</span> 亥·西北<br /><span class="label">位格</span> 归藏之枢，气运流转</div></div>
+                </div>
+
+                <div class="chant-fragment">
+                    <span class="hl">甲作</span>裂颚，吞噬凶煞；<span class="hl">胇胃</span>鼓腹，熔炼虎煞；<br />
+                    <span class="hl">雄伯</span>振鬃，嚼碎魅煞；<span class="hl">腾简</span>展翼，驱散不祥。
+                    <div style="font-size:0.65rem; margin-top:4px; opacity:0.4; letter-spacing:3px; font-style:normal;">——《十二兽食秽歌》· 卷一</div>
+                </div>
+            </div>
+
+            <!-- 封印机制 -->
+            <div class="section anim-fade anim-delay-4">
+                <h2>▎封印程序 · 转封于梦</h2>
+                <p>十二执事吞噬煞气之后，并非将其彻底湮灭，而是转入 <span class="highlight">“第二封印程序”</span>：煞气被神兽体内特有的“梦茧灵枢”包裹，注入深层梦境维度——即游梦墟。所有被吞噬的邪秽在此凝结为具象化的梦魇实体，相互吞噬演化。当现实世界发生大规模负面情绪共鸣时，游梦墟结界削弱，梦魇实体通过“噩梦裂隙”渗透至人间。</p>
+                <p style="font-size:0.85rem; color:var(--muted);">注：该程序由第一任总执事于贞观三年（629年）正式确立，载入《灾厄净除总纲》卷三。</p>
+            </div>
+
+            <!-- 状态 -->
+            <div class="status-bar anim-fade anim-delay-5">
+                <span><span class="dot"></span> 封印完整性 · 87.4%</span>
+                <span>活跃裂隙 · 3 处</span>
+                <span>最近共鸣 · 癸卯年 血月</span>
+                <span>大傩司 · 在线</span>
+            </div>
+
+        </div>
+        <!-- /主面板 -->
+
+
+        <!-- ========================================================= -->
+        <!-- 加入面板 -->
+        <!-- ========================================================= -->
+        <div class="page-panel hidden" id="panel-join">
+
+            <!-- 返回 -->
+            <div style="display:flex; justify-content:flex-end; margin-bottom:20px;">
+                <button class="nav-btn back-btn" onclick="switchPanel('world')">← 返回</button>
+            </div>
+
+            <!-- ===== 大傩司史略 ===== -->
+            <div class="section">
+                <h2>▎大傩司 · 史略</h2>
+
+                <div style="padding-left:4px;">
+
+                    <div style="padding:8px 0 8px 16px; border-left:2px solid rgba(42,34,28,0.4); margin-bottom:6px;">
+                        <div style="font-family:var(--font-serif); color:var(--gold); font-size:0.95rem; letter-spacing:2px;">西汉 · 元狩 <span style="font-weight:400; font-size:0.7rem; color:var(--muted); letter-spacing:1px; margin-left:6px;">约公元前120年</span></div>
+                        <div style="font-size:0.88rem; color:var(--muted);">汉武帝遣方士入海求仙，误入 <span class="highlight">“地支裂隙”</span>，发现龟甲《十二兽食秽歌》。方士归来后精神错乱，仅能反复吟诵 “甲作…胇胃…雄伯…”。该事件被后人视为大傩司的史前渊源。</div>
+                    </div>
+
+                    <div style="padding:8px 0 8px 16px; border-left:2px solid rgba(42,34,28,0.4); margin-bottom:6px;">
+                        <div style="font-family:var(--font-serif); color:var(--gold); font-size:0.95rem; letter-spacing:2px;">东汉 · 建安 <span style="font-weight:400; font-size:0.7rem; color:var(--muted); letter-spacing:1px; margin-left:6px;">大疫年间</span></div>
+                        <div style="font-size:0.88rem; color:var(--muted);">傩师 <span class="highlight">“蓑衣”</span>（追谥号，真名已佚）在洛阳郊外设坛，以血月之夜为引，首次成功 <span class="highlight">“唱名”</span>——甲作的声音从坛中传出，瘟疫退散。蓑衣本人七日后失位。此事件标志着人类与十二执事建立感知通道的开端。</div>
+                    </div>
+
+                    <div style="padding:8px 0 8px 16px; border-left:2px solid rgba(42,34,28,0.4); margin-bottom:6px;">
+                        <div style="font-family:var(--font-serif); color:var(--gold); font-size:0.95rem; letter-spacing:2px;">唐 · 贞观 <span style="font-weight:400; font-size:0.7rem; color:var(--muted); letter-spacing:1px; margin-left:6px;">大傩司设立</span></div>
+                        <div style="font-size:0.88rem; color:var(--muted);">朝廷秘密设立 <span class="highlight">“大傩司”</span>，专司地支裂隙的监测与封堵。第一任总执事为蜀地道士，在任期间完成《灾厄净除总纲》初稿，确立十二执事位格体系与封印程序。</div>
+                    </div>
+
+                    <div style="padding:8px 0 8px 16px; border-left:2px solid rgba(42,34,28,0.4); margin-bottom:6px;">
+                        <div style="font-family:var(--font-serif); color:var(--gold); font-size:0.95rem; letter-spacing:2px;">北宋 · 景德 <span style="font-weight:400; font-size:0.7rem; color:var(--muted); letter-spacing:1px; margin-left:6px;">红月异象 · 耳目学说</span></div>
+                        <div style="font-size:0.88rem; color:var(--muted);">大傩司观测到周期性血月现象，并首次系统记录其与地支裂隙活动的时空关联。经三代总执事研究，提出 <span class="highlight">“耳目学说”</span>：红月并非自然天体，而是十二执事在梦域-现实边界投射的感知界面——即十二兽之 <span class="highlight">“耳目”</span>。血月的相位、色度与明灭变化，对应特定执事对人间某一区域的注视状态。该学说为后世“红月定象法”之基础。</div>
+                    </div>
+
+                    <div style="padding:8px 0 8px 16px; border-left:2px solid rgba(42,34,28,0.4); margin-bottom:6px;">
+                        <div style="font-family:var(--font-serif); color:var(--gold); font-size:0.95rem; letter-spacing:2px;">清 · 光绪 <span style="font-weight:400; font-size:0.7rem; color:var(--muted); letter-spacing:1px; margin-left:6px;">档案标准化</span></div>
+                        <div style="font-size:0.88rem; color:var(--muted);">大傩司引入西方档案管理制度，建立标准化的任务编号与破梦者编号体系，结束此前混乱的记名传统。同时开始系统编纂《地支裂隙观测日志》，为现代监测体系奠定基础。</div>
+                    </div>
+
+                    <div style="padding:8px 0 8px 16px; border-left:2px solid rgba(42,34,28,0.4); margin-bottom:6px;">
+                        <div style="font-family:var(--font-serif); color:var(--gold); font-size:0.95rem; letter-spacing:2px;">现代 · 1968年 <span style="font-weight:400; font-size:0.7rem; color:var(--muted); letter-spacing:1px; margin-left:6px;">红月本质确认</span></div>
+                        <div style="font-size:0.88rem; color:var(--muted);">大傩司联合跨学科研究团队，通过光谱分析与精神共振实验，最终确认红月并非物理天体，而是十二执事感知人间的 <span class="highlight">“视听投影”</span>。研究进一步揭示：<strong>红月相位对应执事位格</strong>——子位红月呈暗赤色，午位呈猩红色，不同位格执事“注视”人间时，红月呈现对应的色温与脉动频率。这一发现使大傩司从“被动监测”转向“主动判读”，裂隙预警效率提升约三倍。</div>
+                    </div>
+
+                    <div style="padding:8px 0 8px 16px; border-left:2px solid rgba(42,34,28,0.4); margin-bottom:6px;">
+                        <div style="font-family:var(--font-serif); color:var(--gold); font-size:0.95rem; letter-spacing:2px;">现代 · 2003年 <span style="font-weight:400; font-size:0.7rem; color:var(--muted); letter-spacing:1px; margin-left:6px;">数字化改革 · 0731泄露事件</span></div>
+                        <div style="font-size:0.88rem; color:var(--muted);">大傩司全面建立数字化裂隙监测网络，以电磁场传感器替代传统符箓预警系统。同年，编号 <span class="highlight">0731</span> 游梦墟发生重大煞气泄露事件，导致周边区域出现大规模群体噩梦与精神紊乱。此次事件促使大傩司重组梦域作战编队，将破梦者编制从旧制调整为现行十二小组制，并首次引入“任务回溯归档”程序。</div>
+                    </div>
+
+                    <div style="padding:8px 0 8px 16px; border-left:2px solid rgba(42,34,28,0.4); margin-bottom:6px;">
+                        <div style="font-family:var(--font-serif); color:var(--gold); font-size:0.95rem; letter-spacing:2px;">现代 · 2019年 <span style="font-weight:400; font-size:0.7rem; color:var(--muted); letter-spacing:1px; margin-left:6px;">第二封印程序升级</span></div>
+                        <div style="font-size:0.88rem; color:var(--muted);">技术支援司研发成功 <span class="highlight">“精神体锚定技术”</span>，使破梦者精神体在游梦墟内获得更稳定的存续结构，失位率较此前下降约四成。同时，大傩司与外部保密机构建立信息遮蔽协作机制，进一步强化现实世界的信息管控。至本档案修订时，封印完整性维持在87%以上。</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- ===== 大傩司架构 ===== -->
+            <div class="section">
+                <h2>▎大傩司 · 组织架构</h2>
+                <p style="font-size:0.85rem; color:var(--muted); margin-bottom:10px;">大傩司实行垂直管理制度，总执事署为最高决策机构，下设五大司署。</p>
+
+                <div class="org-tree">
+                    <div class="org-item">
+                        <span class="role">决策机构</span>
+                        <div class="name">总执事署</div>
+                        <p>由总执事一人、副执事三人组成。负责重大任务审批、位格分配、对外保密政策制定。总执事任期不限，失位或卸任后由副执事递补。</p>
+                    </div>
+                    <div class="org-item">
+                        <span class="role">作战执行</span>
+                        <div class="name">梦域作战编队</div>
+                        <p>下辖十二个战斗小组，对应十二地支位格。每组由一名执事使（资深破梦者）领队，配备三至五名破梦者。负责游梦墟内的直接净化行动。</p>
+                    </div>
+                    <div class="org-item">
+                        <span class="role">档案与情报</span>
+                        <div class="name">归档司</div>
+                        <p>负责所有游梦墟任务记录、破梦者档案、裂隙监测数据的整理与保存。同时负责破梦者现实身份的善后工作（包括“因公殉职”通知）。</p>
+                    </div>
+                    <div class="org-item">
+                        <span class="role">后勤与技术</span>
+                        <div class="name">技术支援司</div>
+                        <p>负责符箓制作、法器维护、人偶躯体研发（为失身破梦者提供活动载体）。同时负责游梦墟结界稳定性监测与预警。</p>
+                    </div>
+                    <div class="org-item">
+                        <span class="role">人事与征召</span>
+                        <div class="name">征召司</div>
+                        <p>负责潜在征召对象的筛选、评估与接触。下设 <span class="highlight">“讣闻人”</span> 编制，负责现实世界的接引、任务指令传递及善后沟通。</p>
+                    </div>
+                    <div class="org-item">
+                        <span class="role">内部监督</span>
+                        <div class="name">监察司</div>
+                        <p>负责破梦者心理状态评估、失位风险监控、违规行为调查。对任务中可能出现的位格同化、煞气反噬等情况有紧急干预权。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- ===== 破梦者与讣闻人 ===== -->
+            <div class="section">
+                <h2>▎破梦者 · 征召与编制</h2>
+
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:10px 0 6px;">
+                    <div style="background:var(--card); padding:18px 20px; border-radius:4px; border:1px solid var(--border);">
+                        <div style="font-family:var(--font-serif); color:var(--gold); font-size:1rem; letter-spacing:2px;">破梦者</div>
+                        <div style="font-size:0.7rem; color:var(--muted); letter-spacing:1px; margin-bottom:4px;">作战人员 · 编号 G-XXXX</div>
+                        <p style="font-size:0.85rem; color:var(--muted); margin:0; line-height:1.7;">经大傩司筛选、签约的精神体作战人员。通常由濒死时被墟门截留的执念者转化而来，少数为通过严格选拔后主动签约的活人。破梦者精神体投射入游梦墟执行净化任务，其现实肉身由大傩司保管或销毁。</p>
+                        <p style="font-size:0.8rem; color:var(--muted); margin-top:6px; border-top:1px solid var(--border); padding-top:6px;"><strong style="color:var(--text);">编制</strong> 总编制上限 144 人（对应十二地支×十二地支）。目前在职 97 人，失位 23 人，待补 24 人。</p>
+                    </div>
+                    <div style="background:var(--card); padding:18px 20px; border-radius:4px; border:1px solid var(--border);">
+                        <div style="font-family:var(--font-serif); color:var(--gold); font-size:1rem; letter-spacing:2px;">讣闻人</div>
+                        <div style="font-size:0.7rem; color:var(--muted); letter-spacing:1px; margin-bottom:4px;">接引专员 · 隶属征召司</div>
+                        <p style="font-size:0.85rem; color:var(--muted); margin:0; line-height:1.7;">大傩司派驻现实世界的专职联络员。负责接触潜在征召对象、传递作战指令、管理破梦者现实身份的善后工作（包括家属沟通、“因公殉职”通知等）。讣闻人本身不进入游梦墟，但需经过完整的保密协议与心理评估。</p>
+                        <p style="font-size:0.8rem; color:var(--muted); margin-top:6px; border-top:1px solid var(--border); padding-top:6px;"><strong style="color:var(--text);">编制</strong> 总编制 36 人，按地理区域划分责任范围。目前在职 31 人。</p>
+                    </div>
+                </div>
+                <p style="font-size:0.8rem; color:var(--muted);">注：讣闻人与破梦者之间实行单向联络制度——讣闻人可主动联系破梦者，反之须通过归档司中转。此规定旨在防止现实世界信息泄露。</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- ===== 契约 ===== -->
+            <div class="section">
+                <h2>▎《梦域净化临时契约》</h2>
+                <p style="font-size:0.85rem; color:var(--muted); margin-bottom:8px;">签约方 · 大傩司 · 梦域应急作战编队</p>
+
+                <div class="contract-box">
+                    <div class="contract-title">梦 域 净 化 临 时 契 约</div>
+
+                    <div class="clause"><span class="num">01</span><span class="text"><strong>签约方自愿放弃现实肉体</strong>。签约方确认知晓并同意，其精神体将转入游梦墟，现实肉身由大傩司依规程处理。</span></div>
+                    <div class="clause"><span class="num">02</span><span class="text"><strong>签约方须服从大傩司任务指派</strong>。不得擅自行动，不得以任何形式拒绝合规的净化任务指令。违规者将被视为“失位”处理。</span></div>
+                    <div class="clause"><span class="num">03</span><span class="text"><strong>苏醒资格</strong>：签约方在完成完整一轮 <strong>十二地支循环</strong>（即十二次净化为一个完整循环）后，可向总执事署书面申请“苏醒资格”。大傩司保留最终审批权，审批周期不超过六十个工作日。</span></div>
+                    <div class="clause"><span class="num">04</span><span class="text"><strong>失位处理</strong>：签约方若在任务中 <strong>失位</strong>（被对应神兽位格同化，或精神体彻底湮灭），其现实身份由归档司负责善后。家属将收到标准格式的“因公殉职”通知，具体任务细节不予披露。</span></div>
+                    <div class="clause"><span class="num">05</span><span class="text"><strong>保密条款</strong>：签约方不得将大傩司存在、游梦墟相关事宜、十二执事信息以任何形式告知任何未签约者。违反此条款者，大傩司保留采取必要措施的权利。</span></div>
+                    <div class="clause"><span class="num">06</span><span class="text"><strong>补充条款</strong>：签约方有权在任务间隙提出装备、符箓等物资申请。技术支援司应在合理时限内予以响应。签约方同时享有心理评估与干预服务，由监察司统一安排。</span></div>
+
+                    <div class="signature">
+                        <span>签约方：________________</span>
+                        <span>编号：________________</span>
+                        <span>日期：________________</span>
+                        <span style="width:100%; text-align:right; margin-top:4px;">大傩司 · 征召司 监制</span>
+                    </div>
+                </div>
+                <p style="font-size:0.75rem; color:var(--muted); margin-top:6px; text-align:right; letter-spacing:1px;">《灾厄净除总纲》附录丙 · 修订版 4.2</p>
+            </div>
+
+            <!-- 底部返回 -->
+            <div style="margin-top:24px; text-align:center;">
+                <button class="nav-btn back-btn" onclick="switchPanel('world')">← 返回世界观</button>
+            </div>
+
+        </div>
+        <!-- /加入面板 -->
+
+
+        <!-- ========================================================= -->
+        <!-- 内部人员须知面板 -->
+        <!-- ========================================================= -->
+        <div class="page-panel hidden" id="panel-insider">
+
+            <!-- 返回 -->
+            <div style="display:flex; justify-content:flex-end; margin-bottom:20px;">
+                <button class="nav-btn back-btn" onclick="switchPanel('world')">← 返回</button>
+            </div>
+
+            <div class="section">
+                <h2>▎内部人员 · 行为规范</h2>
+                <p style="font-size:0.85rem; color:var(--muted); margin-bottom:6px;">
+                    本规范适用于大傩司全体在编人员，包括破梦者与讣闻人。违反者将依《大傩司内部惩戒条例》处理。
+                </p>
+
+                <!-- 双栏：破梦者 / 讣闻人 -->
+                <div class="duty-grid">
+
+                    <!-- 破梦者 -->
+                    <div class="duty-card">
+                        <div class="header">
+                            破梦者
+                            <span class="badge">作战人员 · 编号 G-XXXX</span>
+                        </div>
+                        <p style="font-size:0.8rem; color:var(--muted); margin-bottom:8px;">核心职责：精神体投射入游梦墟，执行梦魇实体净化任务。</p>
+
+                        <div style="font-size:0.8rem; color:var(--gold-dim); letter-spacing:1px; margin:6px 0 4px;">▸ 必须遵守</div>
+                        <ul>
+                            <li><span class="label">唱名即契</span> — 任务前须完整吟唱《十二兽食秽歌》对应段落，建立与执事的感知通道。</li>
+                            <li><span class="label">神借时限</span> — 单次神借不得超过一炷香（约一刻钟），超时将触发煞气反噬，严重者失位。</li>
+                            <li><span class="label">听令行事</span> — 严格服从执事使（领队）的作战指令，不得擅自脱离编队或改变任务目标。</li>
+                            <li><span class="label">唱名唯一性</span> — 同一游梦墟内，每位执事只能被召唤一次。不得重复唱名同一神兽。</li>
+                            <li><span class="label">任务回溯</span> — 每次任务结束后须配合归档司进行精神回溯与任务记录，不得隐瞒、篡改细节。</li>
+                        </ul>
+
+                        <div style="font-size:0.8rem; color:var(--gold-dim); letter-spacing:1px; margin:10px 0 4px;">▸ 禁止事项</div>
+                        <ul class="prohibition-list">
+                            <li>擅自开启游梦墟内未被指定的门或通道。</li>
+                            <li>在任务中回应门后传来的任何呼唤——无论声音是否属于熟识者。</li>
+                            <li>将游梦墟内所见所闻以任何形式记录并带出（归档司授权的任务回溯除外）。</li>
+                            <li>在精神体锚定不稳定的状态下强行进入深层梦境区域。</li>
+                        </ul>
+
+                        <div style="font-size:0.8rem; color:var(--gold-dim); letter-spacing:1px; margin:10px 0 4px;">▸ 注意事项</div>
+                        <ul>
+                            <li><span class="label">失位预兆</span> — 若出现持续性耳鸣、幻视、对自身编号产生陌生感，须立即向领队或监察司报告。</li>
+                            <li><span class="label">精神体维护</span> — 每次任务后须接受至少四小时的精神体稳定观察，方可再次进入游梦墟。</li>
+                            <li><span class="label">镇位符</span> — 随身携带对应位格的镇位符（由技术支援司配发），任务前检查符箓完整性。</li>
+                        </ul>
+                    </div>
+
+                    <!-- 讣闻人 -->
+                    <div class="duty-card">
+                        <div class="header">
+                            讣闻人
+                            <span class="badge">接引专员 · 隶属征召司</span>
+                        </div>
+                        <p style="font-size:0.8rem; color:var(--muted); margin-bottom:8px;">核心职责：驻守现实世界，负责征召、联络与善后工作。</p>
+
+                        <div style="font-size:0.8rem; color:var(--gold-dim); letter-spacing:1px; margin:6px 0 4px;">▸ 必须遵守</div>
+                        <ul>
+                            <li><span class="label">单向联络</span> — 可主动联系在编破梦者，反之须通过归档司中转。不得建立私人联络通道。</li>
+                            <li><span class="label">征召评估</span> — 接触潜在征召对象时，须依据《精神力评估量表》进行客观评估，不得因个人情感影响判断。</li>
+                            <li><span class="label">善后规程</span> — 破梦者失位后，须在七十二小时内完成家属沟通，使用标准话术，不得透露任务细节。</li>
+                            <li><span class="label">保密协议</span> — 所有讣闻人须签署《现实世界信息遮蔽协议》，在日常生活中不得以任何方式暗示大傩司存在。</li>
+                        </ul>
+
+                        <div style="font-size:0.8rem; color:var(--gold-dim); letter-spacing:1px; margin:10px 0 4px;">▸ 禁止事项</div>
+                        <ul class="prohibition-list">
+                            <li>以任何形式向未签约者展示或描述游梦墟、十二执事、破梦者相关内容。</li>
+                            <li>利用大傩司资源或情报谋取个人利益，或干预现实世界的正常事件进程。</li>
+                            <li>未经总执事署批准，擅自接触已退役或申请苏醒的破梦者。</li>
+                            <li>在非任务状态下主动观察或追踪已被标记为“安全”的潜在征召对象。</li>
+                        </ul>
+
+                        <div style="font-size:0.8rem; color:var(--gold-dim); letter-spacing:1px; margin:10px 0 4px;">▸ 注意事项</div>
+                        <ul>
+                            <li><span class="label">心理评估</span> — 每季度须接受一次心理状态评估，由监察司统一安排。评估结果纳入人事档案。</li>
+                            <li><span class="label">信息遮蔽</span> — 与家属沟通时须使用预设的“因公殉职”或“意外事故”模板，所有书面文件均须归档司备案。</li>
+                            <li><span class="label">任务指令传递</span> — 所有传递给破梦者的指令须通过加密信道发送，不得以明文形式留存。</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- 共同遵守 -->
+                <div style="margin-top:20px; padding:16px 20px; background:var(--card); border:1px solid var(--border); border-radius:4px;">
+                    <div style="font-family:var(--font-serif); color:var(--gold); font-size:0.95rem; letter-spacing:2px; margin-bottom:6px;">▸ 全员通用 · 共同遵守</div>
+                    <ul style="list-style:none; padding:0; display:grid; grid-template-columns:1fr 1fr; gap:4px 16px;">
+                        <li style="font-size:0.82rem; color:var(--muted); padding:3px 0 3px 18px; position:relative; border-bottom:1px solid rgba(42,34,28,0.08);">
+                            <span style="position:absolute;left:0;color:var(--gold-dim);">▸</span> 绝对保密：不得向任何未签约者透露大傩司相关信息
+                        </li>
+                        <li style="font-size:0.82rem; color:var(--muted); padding:3px 0 3px 18px; position:relative; border-bottom:1px solid rgba(42,34,28,0.08);">
+                            <span style="position:absolute;left:0;color:var(--gold-dim);">▸</span> 服从调令：总执事署的指令优先级高于一切个人意愿
+                        </li>
+                        <li style="font-size:0.82rem; color:var(--muted); padding:3px 0 3px 18px; position:relative; border-bottom:1px solid rgba(42,34,28,0.08);">
+                            <span style="position:absolute;left:0;color:var(--gold-dim);">▸</span> 主动报告：发现任何异常（裂隙波动、精神异变等）须立即上报
+                        </li>
+                        <li style="font-size:0.82rem; color:var(--muted); padding:3px 0 3px 18px; position:relative; border-bottom:1px solid rgba(42,34,28,0.08);">
+                            <span style="position:absolute;left:0;color:var(--gold-dim);">▸</span> 定期审查：所有人员须配合归档司与监察司的定期档案审查
+                        </li>
+                        <li style="font-size:0.82rem; color:var(--muted); padding:3px 0 3px 18px; position:relative; border-bottom:1px solid rgba(42,34,28,0.08);">
+                            <span style="position:absolute;left:0;color:var(--gold-dim);">▸</span> 禁止私录：不得以任何设备记录任务内容或内部会议
+                        </li>
+                        <li style="font-size:0.82rem; color:var(--muted); padding:3px 0 3px 18px; position:relative; border-bottom:1px solid rgba(42,34,28,0.08);">
+                            <span style="position:absolute;left:0;color:var(--gold-dim);">▸</span> 相互监督：发现违规行为应第一时间向监察司报告
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 惩戒说明 -->
+                <div style="margin-top:16px; padding:12px 16px; border-left:2px solid var(--blood); background:rgba(106,26,26,0.06); border-radius:0 4px 4px 0;">
+                    <p style="font-size:0.8rem; color:var(--muted); margin:0;">
+                        <strong style="color:var(--blood);">惩戒条例</strong> — 违反本规范者，将视情节轻重予以：书面警告、暂停职务、解除编制、永久失位（针对破梦者）等处理。情节严重者将由监察司启动内部调查程序。
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- 底部返回 -->
+            <div style="margin-top:24px; text-align:center;">
+                <button class="nav-btn back-btn" onclick="switchPanel('world')">← 返回世界观</button>
+            </div>
+
+        </div>
+        <!-- /内部人员须知面板 -->
+
+    </div>
+    <!-- /page-container -->
+
+
+    <!-- ===== 底部导航 ===== -->
+    <div class="nav-footer">
+        <button class="nav-btn" id="btnWorld" onclick="switchPanel('world')">◈ 世界观</button>
+        <button class="nav-btn" id="btnJoin" onclick="switchPanel('join')">⚔ 大傩司 · 加入</button>
+        <button class="nav-btn insider-btn" id="btnInsider" onclick="switchPanel('insider')">→ 内部人员须知</button>
+    </div>
+
+    <!-- ===== 脚注 ===== -->
+    <div style="margin-top:24px; font-size:0.65rem; color:var(--muted); text-align:right; letter-spacing:1px; opacity:0.4; border-top:1px solid var(--border); padding-top:14px;">
+        大傩司 · 归档司 · 绝密 · 未经授权不得查阅 · DS-0731-癸卯
+    </div>
+
+
+    <!-- ===== JavaScript ===== -->
+    <script>
+        // 卡片点击
+        document.querySelectorAll('.zhishi-card').forEach(card => {
+            card.addEventListener('click', function() {
+                this.classList.toggle('active');
+            });
+        });
+
+        // 面板切换
+        const panelWorld = document.getElementById('panel-world');
+        const panelJoin = document.getElementById('panel-join');
+        const panelInsider = document.getElementById('panel-insider');
+
+        function switchPanel(target) {
+            // 隐藏所有
+            panelWorld.classList.remove('active');
+            panelWorld.classList.add('hidden');
+            panelJoin.classList.remove('active');
+            panelJoin.classList.add('hidden');
+            panelInsider.classList.remove('active');
+            panelInsider.classList.add('hidden');
+
+            if (target === 'world') {
+                panelWorld.classList.remove('hidden');
+                requestAnimationFrame(() => { panelWorld.classList.add('active'); });
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else if (target === 'join') {
+                panelJoin.classList.remove('hidden');
+                requestAnimationFrame(() => { panelJoin.classList.add('active'); });
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else if (target === 'insider') {
+                panelInsider.classList.remove('hidden');
+                requestAnimationFrame(() => { panelInsider.classList.add('active'); });
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+
+        // 默认
+        document.addEventListener('DOMContentLoaded', function() {
+            panelWorld.classList.add('active');
+            panelWorld.classList.remove('hidden');
+            panelJoin.classList.remove('active');
+            panelJoin.classList.add('hidden');
+            panelInsider.classList.remove('active');
+            panelInsider.classList.add('hidden');
+        });
+
+        window.switchPanel = switchPanel;
+        console.log('◈ 游梦墟 · 大傩司档案 v4.2 ◈');
+    </script>
+
+</body>
+</html>
