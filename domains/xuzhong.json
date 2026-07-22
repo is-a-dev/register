@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "2134201324",
+    "email": "2134201324@qq.com"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "value": "code.2134201324.workers.dev"
+    }
+  ]
+}
