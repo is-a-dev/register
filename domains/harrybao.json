@@ -4,6 +4,6 @@
     "email": "baohuynh4107@gmail.com"
   },
   "records": {
-    "CNAME": "harry-bao.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
