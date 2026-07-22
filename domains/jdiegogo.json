@@ -4,6 +4,6 @@
     "email": "juandyego5@gmail.com"
   },
   "records": {
-    "CNAME": "ce413e41-0319-450a-a583-4f67d23ec654.cfargotunnel.com"
+    "A": ["192.0.2.1"]
   }
 }
