@@ -3,7 +3,12 @@
     "username": "idjebkxow"
   },
   "records": {
-    "CNAME": "https://idjebkxow.github.io/"
+  "owner": { "username": "idjebkxow" },
+  "records": {
+    "CNAME": "idjebkxow.github.io",
+    "TXT": ["3fcf68efa0bd8248c180fa197326d4"]
   },
+  "proxied": true
+}
   "proxied": true
 }
