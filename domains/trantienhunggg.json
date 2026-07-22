@@ -7,8 +7,13 @@
     "A": [
       "216.198.79.1"
     ],
+    "CNAME": [
+      "b94f8e93a18e1d87.vercel-dns-017.com."
+    ],
     "TXT": [
-      "vc-domain-verify=trantienhunggg.is-a.dev,c1079be7e06e6712bb3c"
+      "vc-domain-verify=trantienhunggg.is-a.dev,d67cd49fc73f9285b699",
+      "vc-domain-verify=www.trantienhunggg.is-a.dev,266f7bb0d219cfc0c163"
     ]
-  }
+  },
+  "proxied": false
 }
