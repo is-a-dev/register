@@ -1,0 +1,11 @@
+{
+  "description": "Poorva Jain Portfolio",
+  "repo": "https://github.com/poorvajain2005/portfolio",
+  "owner": {
+    "username": "poorvajain2005",
+    "email": "your-email@gmail.com"
+  },
+  "record": {
+    "CNAME": "your-vercel-project.vercel.app"
+  }
+}
