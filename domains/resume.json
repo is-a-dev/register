@@ -3,8 +3,7 @@
     "username": "shangchaovo",
     "email": "shangchaoxie888@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "shangchaovo.github.io"
-  },
-  "description": "Resume builder (Resume Forge)"
+  }
 }
