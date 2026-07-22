@@ -4,6 +4,8 @@
     "email": "zeeshanalidumka@gmail.com"
   },
   "records": {
-    "CNAME": "zeeshan-portfolio-brown.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
