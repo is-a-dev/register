@@ -3,10 +3,7 @@
     "username": "KEDHAR2004",
     "email": "kedhar1711@gmail.com"
   },
-  "records": [
-    {
-      "type": "A",
-      "value": "your-ip-address"
-    }
-  ]
+  "records": {
+    "A": ["192.0.2.1"]
+  }
 }
