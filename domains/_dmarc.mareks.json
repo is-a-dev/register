@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "mareksmareks",
+    "email": "mareks.kirilovics@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
