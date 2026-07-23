@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "k3ng0T",
+    "email": "kengot1234567890@gmail.com"
+  },
+  "records": {
+    "CNAME": "k3ng0T.github.io",
+    "MX": [
+      "aspen.ns.cloudflare.com",
+      "gannon.ns.cloudflare.com"
+    ],
+    "TXT": "v=spf1 include:_spf.mx.cloudflare.net ~all"
+  }
+}
