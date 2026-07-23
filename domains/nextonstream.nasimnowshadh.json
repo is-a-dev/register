@@ -4,6 +4,7 @@
     "email": "nasimnowshadh@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "CNAME": "de17f75ce86099ee.vercel-dns-017.com",
+    "TXT": "vc-domain-verify=nextonstream.nasimnowshadh.is-a.dev,7792f4719..."
   }
 }
