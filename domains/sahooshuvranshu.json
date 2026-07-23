@@ -5,7 +5,10 @@
   },
   "records": {
     "CNAME": "sahooshuvransu.github.io",
-    "TXT": ["v=spf1 include:zoho.in ~all"],
+    "TXT": [
+      "v=spf1 include:zoho.in ~all",
+      "google-site-verification=PoJelXMa_6lnwoJLw1QFPVMuYq9ZRjXpUhPcRdxhVJw"
+    ],
     "MX": [
         {
           "target": "mx.zoho.in",
