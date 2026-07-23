@@ -3,7 +3,9 @@
     "username": "Maykonvasconceloz-dev"
   },
   "records": {
-    "CNAME": "72dbe338-4592-41e4-bc48-609d7e8803c.cfargotunnel.com"
-  },
-  "proxied": true
+    "NS": [
+      "braelyn.ns.cloudflare.com",
+      "robert.ns.cloudflare.com"
+    ]
+  }
 }
