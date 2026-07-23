@@ -1,9 +1,11 @@
 {
+  "description": "Divyansh Rawat - AI/ML and Backend Engineer",
+  "repo": "https://github.com/DsThakurRawat",
   "owner": {
-    "username": "Divyansh1002",
-    "email": "divyanshgoyal1002@gmail.com"
+    "username": "DsThakurRawat",
+    "email": "divyanshrawatofficial@gmail.com"
   },
   "records": {
-    "CNAME": "divyansh1002.github.io"
+    "CNAME": "cname.vercel-dns.com"
   }
 }

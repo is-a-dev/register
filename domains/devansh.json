@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "devanshyadav2010",
-    "email": "dev8adam576@gmail.com",
-    "twitter": "devanshyadav"
+    "username": "DevanshBhavsar3",
+    "email": "devansh3bhavsar@gmail.com"
   },
   "records": {
-    "CNAME": "devanshyadav2010.github.io"
+    "A": ["216.198.79.1"]
   }
 }

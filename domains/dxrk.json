@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "dxrk0078",
+    "email": "dxrk0078@gmail.com"
+  },
+  "records": {
+    "CNAME": "dxrk.gt.tc",
+    "MX": [
+      { "target": "mx1.improvmx.com", "priority": 10 },
+      { "target": "mx2.improvmx.com", "priority": 20 }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all",
+      "_dmarc= v=DMARC1; p=none; rua=mailto:dxrk0078@gmail.com"
+    ]
+  },
+  "proxied": true
+}
