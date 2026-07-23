@@ -1,8 +1,10 @@
 {
+  "description": "Frontend Developer Portfolio",
+  "repo": "https://github.com/Excelliotheobald/Web-Portofolio",
   "owner": {
     "username": "Excelliotheobald"
   },
-  "records": {
+  "record": {
     "CNAME": "excellio-porto-six.vercel.app"
   }
 }
