@@ -5,31 +5,6 @@
   },
   "records": {
     "A": ["216.198.79.1"],
-    "MX": [
-      {
-        "target": "feedback-smtp.ap-northeast-1.amazonses.com",
-        "priority": 10,
-        "subdomain": "send"
-      }
-    ],
-    "TXT": [
-      "v=DMARC1; p=none;"
-    ]
-  },
-  "subdomains": {
-    "resend._domainkey": {
-      "records": {
-        "TXT": [
-          "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFoihg/AObYTUtlGInXn8dPqguXbafXd/4a7JGVk3ZtHgipeFk3loDMm+Q1JKrLPMnkD8nCeLgZ1kRk/IQSMbv/HGzbpHuasPkcz56dJDAwQYm5XmHiz85JmWdD92mbGpTfKCDp5XHM/n4d00p95gYxDfBaJ9VZW5o/DnrScswMwIDAQAB"
-        ]
-      }
-    },
-    "send": {
-      "records": {
-        "TXT": [
-          "v=spf1 include:amazonses.com ~all"
-        ]
-      }
-    }
+    "TXT": ["v=DMARC1; p=none;"]
   }
 }
