@@ -4,6 +4,7 @@
     "email": "veerrajkumar9414@gmail.com"
   },
   "records": {
+    "CNAME": "portfolio-one-liart-8bjkgkjq1m.vercel.app"
     "A": ["216.198.79.1"],
     "TXT": ["vc-domain-verify=veerraj.is-a.dev,2e78e7feb9283e278dad"]
   }
