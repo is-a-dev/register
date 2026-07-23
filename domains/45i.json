@@ -1,9 +1,12 @@
 {
   "owner": {
     "username": "45i",
-    "email": "sayakpalit61@gmail.com"
+    "email": "icedoutmate@gmail.com"
   },
-  "records": {
-    "CNAME": "45i.github.io"
+  "record": {
+    "NS": [
+      "phoenix.ns.cloudflare.com",
+      "ryan.ns.cloudflare.com"
+    ]
   }
 }
