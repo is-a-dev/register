@@ -4,6 +4,25 @@
     "email": "sahooshuvranshusekhar@gmail.com"
   },
   "records": {
-    "CNAME": "sahooshuvransu.github.io"
-  }
+    "CNAME": "sahooshuvransu.github.io",
+    "TXT": [
+      "v=spf1 include:zoho.in ~all",
+      "google-site-verification=PoJelXMa_6lnwoJLw1QFPVMuYq9ZRjXpUhPcRdxhVJw"
+    ],
+    "MX": [
+        {
+          "target": "mx.zoho.in",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.in",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.in",
+          "priority": 50
+        }
+      ]
+  },
+  "proxied": true
 }

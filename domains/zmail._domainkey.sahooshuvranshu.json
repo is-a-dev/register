@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "SahooShuvranshu",
+     "email": "sahooshuvranshusekhar@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCHgt9G5Y/6RzGbXoX7uYFAU7FF5WGQiFZvYFTMusXW8n2tClJOO2QDCtsJdFYiprZKVHtdehGIqBOLsvfpVc8jc0dCB1MPrvBBEYAPAi2iv6fVOHSCuPe2vDw0d4BZxn1Thna6Ac8WdPB/sTxPxeRa36IqOGqhR7MvsLFF6lw26wIDAQAB"
+  }
+}
