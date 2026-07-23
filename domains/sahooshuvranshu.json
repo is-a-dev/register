@@ -4,6 +4,8 @@
     "email": "sahooshuvranshusekhar@gmail.com"
   },
   "records": {
-    "CNAME": "sahooshuvransu.github.io"
-  }
+    "CNAME": "sahooshuvransu.github.io",
+    "TXT": ["zoho-verification=zb80879867.zmverify.zoho.in"]
+  },
+   "proxied": true
 }
