@@ -1,5 +1,12 @@
 {
   "owner": {
-  "username": "KEDHAR2004",
-  "email": "kedhar1711@gmail.com"
-},
+    "username": "KEDHAR2004",
+    "email": "kedhar1711@gmail.com"
+  },
+  "records": [
+    {
+      "type": "A",
+      "value": "your-ip-address"
+    }
+  ]
+}
