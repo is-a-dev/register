@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sobiya-22",
-        "email": "sobiyashaikh22@gmail.com"
-    },
-    "records": {
-        "CNAME": "sobiya.vercel.app"
-    }
+  "owner": {
+    "username": "sobiya-22",
+    "email": "sobiyashaikh22@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
