@@ -4,8 +4,6 @@
     "email": "yifyangvan@gmail.com"
   },
   "records": {
-    "AAAA": [
-      "2409:8a28:9823:fdb1:be24:11ff:fe82:899a"
-    ]
+    "NS": ["megan.ns.cloudflare.com", "paul.ns.cloudflare.com"]
   }
 }
