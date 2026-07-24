@@ -1,0 +1,10 @@
+{
+  "description": "Jomish Business Suite",
+  "repo": "https://github.com/arnoldjosamgh/jomish-business-suite",
+  "owner": {
+    "username": "arnoldjosamgh"
+  },
+  "records": {
+    "CNAME": "jomish-business-suite.onrender.com"
+  }
+}
