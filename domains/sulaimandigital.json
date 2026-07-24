@@ -7,6 +7,9 @@
   "records": {
     "A": [
       "185.27.134.231"
+    ],
+    "TXT": [
+      "zoho-verification=zb37123236.zmverify.zoho.com"
     ]
   }
 }
