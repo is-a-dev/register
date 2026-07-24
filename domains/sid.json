@@ -5,6 +5,9 @@
   },
   "proxied": true,
   "records": {
-    "CNAME": "11sid11.github.io"
+    "CNAME": "11sid11.github.io",
+    "TXT": [
+      "_github-pages-challenge-11sid11.sid.is-a.dev=3ee5f5a1c7920d09e2e2cf4699bbc2"
+    ]
   }
 }
