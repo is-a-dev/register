@@ -1,0 +1,11 @@
+{
+  "description": "Wedding invitation for Sabina and Elbaga",
+  "repo": "https://github.com/pimarvap-hub/wedding-invitation",
+  "owner": {
+    "username": "pimarvap-hub",
+    "email": "20plou00@gmail.com"
+  },
+  "records": {
+    "CNAME": "pimarvap-hub.github.io"
+  }
+}
