@@ -2,8 +2,7 @@
   "description": "Jomish Business Suite",
   "repo": "https://github.com/arnoldjosamgh/jomish-business-suite",
   "owner": {
-    "username": "arnoldjosamgh",
-    "email": "arnoldjosamgh@users.noreply.github.com"
+    "username": "arnoldjosamgh"
   },
   "record": {
     "CNAME": "jomish-business-suite.onrender.com"
