@@ -1,10 +1,9 @@
 {
-  "description": "Andy Clashbit",
   "owner": {
     "username": "AndyClashbit",
     "email": ""
   },
-  "records": {
+  "record": {
     "A": ["91.92.46.142"]
   }
 }
