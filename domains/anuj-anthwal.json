@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "Anujanthwal-dotcom"
+        "username": "Anujanthwal-dotcom",
+        "email": "anujanthwal98765432@gmail.com"
     },
     "records": {
         "CNAME": "portfolio-anuj-chi.vercel.app"
