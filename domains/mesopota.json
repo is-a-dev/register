@@ -1,8 +1,9 @@
 {
   "owner": {
     "username": "IblisseAbstractArt",
-  
+    "email": "notice.me.iblisse@gmail.com"
   },
-  "record": {
-    "CNAME": "iblisseabstractart.github.io"
-  },
+  "records": {
+    "URL": "https://iblisseabstractart.github.io"
+  }
+}
