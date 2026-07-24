@@ -3,6 +3,8 @@
     "username": "MoonRooter"
   },
   "records": {
-    "CNAME": "abhishekinmoon.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
