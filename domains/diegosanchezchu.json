@@ -4,6 +4,9 @@
         "email": "diegoanc280@gmail.com"
     },
     "records": {
-        "CNAME": "personal-portfolio-az7.pages.dev"
-    }
+        "CNAME": "personal-portfolio-az7.pages.dev",
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    },
+    "proxied": true
 }

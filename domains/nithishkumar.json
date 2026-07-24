@@ -1,0 +1,12 @@
+{
+    "$schema": "../SCHEMA.json",
+    "owner": {
+        "username": "NithishK-boop",
+        "email": "tsnithishkumar40328@gmail.com"
+    },
+    "records": {
+        "A": [
+            "16.112.15.94"
+        ]
+    }
+}
