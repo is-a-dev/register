@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "Dhairya0707"
+    "username": "Dhairya0707",
+    "email": "dhairyadarji7867@gmail.com"
   },
-  "record": {
+
+  "records": {
     "CNAME": "dhairya-rosy.vercel.app"
   }
 }
