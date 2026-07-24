@@ -4,9 +4,7 @@
     "email": "kulindupr@gmail.com"
   },
   "record": {
-    "A": [
-      "216.198.79.1"
-    ],
+    "A": "216.198.79.1",
     "TXT": {
       "_vercel": "vc-domain-verify=kulindupr.is-a.dev,908b433c019e4f0e11bc"
     }
