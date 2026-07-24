@@ -1,5 +1,8 @@
 {
-  "owner": "deepanshu0777777-blip",
+  "owner": {
+    "username": "deepanshu0777777-blip",
+    "email": "deepanshu0777777@gmail.com"
+  },
   "record": {
     "CNAME": "deepanshu0777777-blip.github.io"
   }
