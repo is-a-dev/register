@@ -1,1 +1,13 @@
-
+{
+  "owner": {
+    "username": "suriya9112006-ui",
+    "email": "suriya9112006@gmail.com"
+  },
+  "record": {
+    "A": ["76.76.21.21"]
+  },
+  "proxied": false,
+  "description": "HomeServe - Home services platform",
+  "repo": "https://github.com/suriya9112006-ui/register",
+  "homepage": "https://home-server-git-suriya-homeserver.vercel.app"
+}
