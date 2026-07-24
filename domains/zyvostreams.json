@@ -1,0 +1,11 @@
+{
+  "description": "ZYVO IPTV",
+  "repo": "https://github.com/Alexander6212/zyvo-streams",
+  "owner": {
+    "username": "Alexander6212",
+    "email": "jattbhutta321@gmail.com"
+  },
+  "record": {
+    "CNAME": "zyvo-streams.vercel.app"
+  }
+}
