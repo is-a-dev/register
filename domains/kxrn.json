@@ -6,6 +6,7 @@
   "description": "Official 3D Portfolio of Karan Gupta (Kxrn) - Software Developer and Music Producer",
   "repo": "https://github.com/karan5028ji/portfolio",
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=kxrn.is-a.dev,4c7305de238c8ebd5329"
   }
 }
