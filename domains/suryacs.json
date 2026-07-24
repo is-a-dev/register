@@ -5,15 +5,6 @@
   },
   "records": {
     "A": ["216.198.79.1"],
-    "TXT": [
-      "zoho-verification=zb10893917.zmverify.zoho.in",
-      "v=spf1 include:zoho.in ~all",
-      "zmail._domainkey=v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiHEfvb19uPUKdj36pIECOhGEkjLEiKUqt6hFy1/7SNBiD3UkslfGwAIsbISy3tg3a5ev5cIuJ9qaOUwBgbMmDBQM3a9V2VzGWMvFRR7W3HamtjHVcfLmtCFXqBQ67WvjWN9L+DQB0b80ds42sBSgg3iyJZCIRA8SWT0xj6m3SDwIDAQAB"
-    ],
-    "MX": [
-      { "target": "mx.zoho.in", "priority": 10 },
-      { "target": "mx2.zoho.in", "priority": 20 },
-      { "target": "mx3.zoho.in", "priority": 50 }
-    ]
+    "TXT": ["v=DMARC1; p=none;"]
   }
 }
