@@ -3,9 +3,10 @@
     "username": "liupings",
     "email": "anchors1001@gmail.com"
   },
-  "record": {
+  "records": {
     "A": [
       "23.95.253.243"
     ]
-  }
+  },
+  "proxied": true
 }
