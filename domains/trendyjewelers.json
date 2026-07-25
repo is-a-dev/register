@@ -3,8 +3,15 @@
     "username": "SALINA-01",
     "email": "salinatimsina3@gmail.com"
   },
-  "records": {},
+  "records": {
+    "CNAME": "x1nnn89h.up.railway.app"
+  },
   "subdomains": {
+    "_railway-verify": {
+      "records": {
+        "TXT": "railway-verify=8e72014ca7e78997518fa10cf4a11027ded570fa721725061a1f7fba4c5acc0a"
+      }
+    },
     "resend._domainkey": {
       "records": {
         "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYSgJ6Iibg8syNK+NUEKDFRr1y/0QHD3zX0kwWfrTpYZ55JiTxuqkSVDVdXAUyHMdcmwUA+pPQwsOMMIk9FDk/GYoyXtvzs/JYUBf/QdMA6zv5oK375/qWXDJwRUGQYMUTM7sx0RDRJ/0Av0T6rmXV+H6ycTMGNkYeo7kC5EYsbwIDAQAB"
