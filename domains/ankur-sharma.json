@@ -1,11 +1,8 @@
 {
-  "description": "Ankur Sharma PhD — Agentic AI & ML Engineer | Clinical Genomics | Singapore",
-  "domain": "is-a.dev",
-  "subdomain": "ankur-sharma",
   "owner": {
     "username": "ankurgenomics"
   },
-  "record": {
+  "records": {
     "CNAME": "ankur-portfolio-v2-sandy.vercel.app"
   }
 }
