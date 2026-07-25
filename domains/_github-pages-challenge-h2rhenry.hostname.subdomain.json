@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "h2rhenry",
-    "email": "hoanghai24032024@gmail.com"
-  },
-  "records": {
-    "URL": "https://h2rhenry.github.io/",
-    "TXT": "3931249f6ca1098ffce5863170c21d"
-  },
-  "proxied": false
+    "owner": {
+        "username": "h2rhenry",
+        "email": "hoanghai24032024@gmail.com"
+    },
+    "records": {
+        "TXT": "3931249f6ca1098ffce5863170c21d"
+    }
 }
