@@ -1,0 +1,11 @@
+{
+  "description": "Backend NestJS API for HaloChat",
+  "repo": "https://github.com/quanvu201120/NestJS-Backend-HaloChat",
+  "owner": {
+    "username": "quanvu201120",
+    "email": "vuquan201120@mail.com"
+  },
+  "record": {
+    "CNAME": "quanvu201120-nestjs-api.hf.space"
+  }
+}
