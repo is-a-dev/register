@@ -6,5 +6,5 @@
   "records": {
     "CNAME": "portfolio-v1oh.onrender.com"
   },
-  "proxied": true
+  "proxied": false
 }
