@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "Stylish87l",
+    "email": "marciacoleman90@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "subdomains": {
+    "api": {
+      "CNAME": "usepaylio-backend.onrender.com"
+    }
+  }
+}
