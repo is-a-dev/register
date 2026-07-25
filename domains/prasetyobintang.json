@@ -6,6 +6,9 @@
     "email": "pbsn290704@gmail.com"
   },
   "records": {
-    "CNAME": "retinoladapelene.github.io"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": {
+      "_vercel": "vc-domain-verify=prasetyobintang.is-a.dev,044647a708e94876abd7"
+    }
   }
 }
