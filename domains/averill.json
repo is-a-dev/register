@@ -10,12 +10,12 @@
   },
   "nested": {
     "_vercel": {
-      "record": {
+      "records": {
         "TXT": "vc-domain-verify=www.averill.is-a.dev,cbbbd5b067eda7d054b0"
       }
     },
     "www": {
-      "record": {
+      "records": {
         "CNAME": "66180f10022c599f.vercel-dns-017.com."
       }
     }
