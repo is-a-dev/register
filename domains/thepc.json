@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "thepc101",
-        "email": "123230543+thepc101@users.noreply.github.com"
+        "email": "123230543+thepc101@://github.com"
     },
-    "record": {
+    "records": {
         "CNAME": "thepc101.github.io"
     }
 }
