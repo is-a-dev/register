@@ -1,25 +1,11 @@
 {
-  "description": "Portfolio website",
-  "repo": "https://github.com/vinnntha/SkillLoom",
+  "description": "Website portofolio pribadi saya",
+  "repo": "https://github.com/vinnntha/Portof",
   "owner": {
     "username": "vinnntha",
-    "email": "EMAIL_KAMU_DISINI"
+    "email": "averill.kevinatha28@gmail.com"
   },
-  "record": {
-    "A": [
-      "76.76.21.21"
-    ]
-  },
-  "nested": {
-    "_vercel": {
-      "records": {
-        "TXT": "vc-domain-verify=www.averill.is-a.dev,cbbbd5b067eda7d054b0"
-      }
-    },
-    "www": {
-      "records": {
-        "CNAME": "66180f10022c599f.vercel-dns-017.com"
-      }
-    }
+  "records": {
+    "CNAME": "portof-knmx-ochre.vercel.app"
   }
 }
