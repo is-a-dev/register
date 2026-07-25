@@ -6,6 +6,7 @@
     "email": "averill.kevinatha28@gmail.com"
   },
   "records": {
-    "CNAME": "portof-knmx-ochre.vercel.app"
+    "CNAME": "portof-knmx-ochre.vercel.app",
+    "TXT": "vc-domain-verify=averill.is-a.dev,13404b9e964897daef11"
   }
 }
