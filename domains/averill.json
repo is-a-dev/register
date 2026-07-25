@@ -3,10 +3,12 @@
   "repo": "https://github.com/vinnntha/SkillLoom",
   "owner": {
     "username": "vinnntha",
-    "email": "averill.kevinatha28@gmail.com"
+    "email": "EMAIL_KAMU_DISINI"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": [
+      "76.76.21.21"
+    ]
   },
   "nested": {
     "_vercel": {
@@ -16,7 +18,7 @@
     },
     "www": {
       "records": {
-        "CNAME": "66180f10022c599f.vercel-dns-017.com."
+        "CNAME": "66180f10022c599f.vercel-dns-017.com"
       }
     }
   }
