@@ -4,9 +4,6 @@
                 "email": "rabbitcity11@outlook.com"
       },
       "records": {
-                "NS": [
-                              "daisy.ns.cloudflare.com",
-                              "fred.ns.cloudflare.com"
-                ]
+        "CNAME": "rabbit11.dns.army"
       }
 }
