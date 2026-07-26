@@ -4,5 +4,10 @@
   },
   "records": {
     "CNAME": "quenesi.pages.dev"
-  }
+    "MX": [
+      "albert.ns.cloudflare.com",
+      "aspen.ns.cloudflare.com"
+    ]
+  },
+  "proxied": true
 }
