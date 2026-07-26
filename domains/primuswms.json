@@ -3,6 +3,6 @@
         "username": "FiredCheater"
     },
     "records": {
-        "CNAME": "example.org"
+        "A": ["212.26.146.65"]
     }
 }
