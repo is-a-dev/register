@@ -4,6 +4,13 @@
     "email": "harunabdullahrakin@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-52h.pages.dev"
-  }
+    "CNAME": "my-portfolio-d61.pages.dev",
+    "TXT": "v=spf1 include:spf.ipzmarketing.com include:spf.improvmx.com ~all",
+    
+    "MX": [
+      { "target": "mx1.improvmx.com", "priority": 10 },
+      { "target": "mx2.improvmx.com", "priority": 20 }
+    ]
+  },
+  "proxied": true
 }

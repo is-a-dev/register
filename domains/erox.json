@@ -1,0 +1,11 @@
+{
+  "description": "Personal developer portfolio and engineering lab",
+  "repo": "https://github.com/Erox-02/portfolio",
+  "owner": {
+    "username": "Erox-02",
+    "email": "relic.of.sky@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

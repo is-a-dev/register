@@ -1,0 +1,12 @@
+{
+  "description": "a subdomain for my sftp server",
+  "owner": {
+    "username": "VulcanoSoftware",
+    "discord": "vulcanocraft"
+  },
+  "records": {
+    "A": [
+      "147.185.221.31"
+    ]
+  }
+}

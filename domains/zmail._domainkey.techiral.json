@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "Techiral",
+        "email": "lakshya.automate@gmail.com"
+    },
+    "records": {
+        "TXT": ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDaM+pVz4anyZ+B4cCnum9H9i2YU/Zf6ctxVUVhVlrkjqaeVX/Y5PiZQ2Sb5kqHuzj7Ik9h2xpXBX2YORr2Wr5UsW0a0WmUmQ0gA0wjG/oIVABmpGnp1NwFrOdmcecKH6zrehOXkaZqVj5wqG7YWasTVkOYRzyh2bJNRbvcOtIlwIDAQAB"]
+    }
+}
