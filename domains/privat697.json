@@ -8,12 +8,12 @@
     ]
   },
   "subdomains": {
-    "version.common.privat697": {
+    "version.common": {
       "records": {
         "CNAME": "d61bf990658e3d13.vercel-dns-017.com"
       }
     },
-    "_vercel.version.common.privat697": {
+    "_vercel.version.common": {
       "records": {
         "TXT": [
           "vc-domain-verify=version.common.privat697.is-a.dev,659c9ae425e812d5f0dd"
