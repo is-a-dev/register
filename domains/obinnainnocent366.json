@@ -1,0 +1,21 @@
+{
+  "owner": {
+    "username": "obinnainnocent366-ux"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "isa.mx1.cloudflare.net",
+        "priority": 10
+      },
+      {
+        "target": "isa.mx2.cloudflare.net",
+        "priority": 20
+      },
+      {
+        "target": "isa.mx3.cloudflare.net",
+        "priority": 30
+      }
+    ]
+  }
+}
