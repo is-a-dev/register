@@ -1,11 +1,9 @@
 {
-  "description": "Priyanshu Todi's personal website",
-  "repo": "https://github.com/EVILking9999999999999999999/EVILking9999999999999999999.github.io",
   "owner": {
     "username": "EVILking9999999999999999999",
     "email": "preettodi18@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "evilking9999999999999999999.github.io"
   }
 }
