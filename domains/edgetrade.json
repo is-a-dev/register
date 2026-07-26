@@ -6,10 +6,6 @@
     "email": "legendsigmamale@gmail.com"
   },
   "record": {
-    "NS": [
-      "ariadne.ns.cloudflare.com",
-      "glen.ns.cloudflare.com"
-    ]
+    "CNAME": "edge-trade-sigma.vercel.app"
   }
 }
-
