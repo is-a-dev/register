@@ -1,0 +1,12 @@
+{
+  "name": "seiryu",
+  "description": "Seiryu's Portfolio - Software Penetration Tester & Security Researcher",
+  "repo": "https://github.com/AvexSL/Portfol",
+  "owner": {
+    "username": "AvexSL"
+  },
+  "record": {
+    "type": "CNAME",
+    "value": "AvexSL.github.io"
+  }
+}
