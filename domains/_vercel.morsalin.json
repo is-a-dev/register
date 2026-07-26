@@ -3,6 +3,8 @@
     "username": "emoncse2020"
   },
   "record": {
-    "TXT": "vc-domain-verify=morsalin.is-a.dev,fff37cff597e6053407d"
+    "TXT": [
+      "vc-domain-verify=morsalin.is-a.dev,fff37cff597e6053407d"
+    ]
   }
 }
