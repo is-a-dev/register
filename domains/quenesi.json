@@ -4,5 +4,6 @@
   },
   "records": {
     "CNAME": "quenesi.pages.dev"
-  }
+  },
+  "proxied": true
 }
