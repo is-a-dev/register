@@ -1,0 +1,10 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "niky",
+  "owner": {
+    "email": "nikyauliaazzhr28@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://nikyweb.netlify.app/"
+  }
+}
