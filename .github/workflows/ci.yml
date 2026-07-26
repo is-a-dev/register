@@ -42,7 +42,7 @@ jobs:
               env:
                   GH_TOKEN: ${{ github.token }}
 
-            - uses: gacts/install-dnscontrol@v1
+            - uses: gacts/install-dnscontrol@890ba3249712c51203ccb7aba63307c0091e921b # v1.3.4
               if: github.event_name == 'pull_request' && contains(fromJson(env.CHANGED_FILES), 'dnsconfig.js')
               with:
                   version: 4.14.0
