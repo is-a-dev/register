@@ -1,0 +1,12 @@
+{
+  "description": "Badzy Store - Gaming accessories for Egypt",
+  "domain": "is-a.dev",
+  "subdomain": "badzystore",
+  "owner": {
+    "username": "NoxEditz",
+    "email": "abadr2479@gmail.com"
+  },
+  "records": {
+    "CNAME": "badzystore.pages.dev"
+  }
+}
