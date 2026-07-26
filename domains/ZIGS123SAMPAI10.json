@@ -2,15 +2,22 @@
   "owner": {
     "username": "ZIGS123SAMPAI10"
   },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  },
   "subdomains": {
     "version.common.privat697": {
-      "record": {
+      "records": {
         "CNAME": "d61bf990658e3d13.vercel-dns-017.com"
       }
     },
     "_vercel.version.common.privat697": {
-      "record": {
-        "TXT": ["vc-domain-verify=version.common.privat697.is-a.dev,659c9ae425e812d5f0dd"]
+      "records": {
+        "TXT": [
+          "vc-domain-verify=version.common.privat697.is-a.dev,659c9ae425e812d5f0dd"
+        ]
       }
     }
   }
