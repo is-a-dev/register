@@ -5,6 +5,6 @@
     "email": "nirans2002@gmail.com"
   },
   "records": {
-    "CNAME": "niransnarayanan-web.web.app"
+    "A": ["152.70.65.46"]
   }
 }

@@ -3,7 +3,15 @@
     "username": "mystichronicle",
     "email": "mystichronicle@gmail.com"
   },
+  "proxied": true,
   "records": {
-    "CNAME": "mystichronicle.github.io"
+    "CNAME": "mystichronicle.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
   }
 }
