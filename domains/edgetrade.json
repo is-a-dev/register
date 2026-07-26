@@ -1,0 +1,15 @@
+{
+  "description": "Beta testing environment and charting platform for EdgeTrade",
+  "repo": "https://github.com/Alok-MPM/EdgeTrade",
+  "owner": {
+    "username": "Alok-MPM",
+    "email": "legendsigmamale@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "ariadne.ns.cloudflare.com",
+      "glen.ns.cloudflare.com"
+    ]
+  }
+}
+
