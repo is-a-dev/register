@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "WoompaLoompa",
+    "email": "woompaloompa@atomicmail.io"
+  },
+  "records": {
+    "CNAME": ["qjh9imt5w9gy.id.wasmer.app"]
+  },
+  "proxied": true
+}
