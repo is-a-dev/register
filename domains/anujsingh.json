@@ -1,1 +1,8 @@
-
+{
+    "owner": {
+        "username": "anujsingh-cse"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
+}
