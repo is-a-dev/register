@@ -1,0 +1,13 @@
+{
+  "domain": "dedivan",
+  "subdomain": "dedivan",
+  "description": "VPS admin dashboard & personal site",
+  "records": {
+    "A": [
+      "2.26.54.49"
+    ]
+  },
+  "owner": {
+    "username": "ded648238"
+  }
+}
