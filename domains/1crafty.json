@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "1Crafty"
-    },
-    "records": {
-        "CNAME": "1crafty.github.io"
-    }
+  "owner": {
+    "username": "1Crafty",
+    "email": "GoldBoneK@outlook.com"
+  },
+  "records": {
+    "CNAME": "1crafty.github.io"
+  }
 }
