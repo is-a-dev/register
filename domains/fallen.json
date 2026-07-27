@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "libflndv"
+  },
+  "record": {
+    "NS": [
+      "marlowe.ns.cloudflare.com",
+      "ryan.ns.cloudflare.com"
+    ]
+  }
+}
