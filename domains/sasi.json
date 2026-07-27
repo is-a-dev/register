@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Sasi-Praneeth-Reddy",
-        "email": "sasipraneethreddy.sadhu@gmail.com"
-    },
-    "records": {
-        "CNAME": "portfolio-v1-sasi17.vercel.app/"
-    }
+  "owner": {
+    "username": "Sasi-Praneeth-Reddy",
+    "email": "sasi.praneethreddy@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
