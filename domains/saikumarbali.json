@@ -1,1 +1,11 @@
-saikumarbali.is-a.dev
+{
+  "owner": {
+    "username": "Saikumar-bali"
+  },
+  "records": {
+    "NS": [
+      "meg.ns.cloudflare.com",
+      "osmar.ns.cloudflare.com"
+    ]
+  }
+}
