@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "alexandreGellibert",
+    "email": "alexandre.gellibert@gmail.com"
+  },
+  "records": {
+    "NS": ["etta.ns.cloudflare.com", "pete.ns.cloudflare.com"]
+  }
+}
