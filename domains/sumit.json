@@ -4,6 +4,9 @@
     "email": "Sumit0xff@proton.me"
   },
   "records": {
-    "CNAME": "sumit0xff.vercel.app"
+    "CNAME": "sumit0xff.vercel.app",
+    "TXT": [
+      "vc-domain-verify=sumit.is-a.dev,c740a7bbcc6daabffb54"
+    ]
   }
 }
