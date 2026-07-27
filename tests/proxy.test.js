@@ -1,6 +1,6 @@
-const t = require("ava");
-const fs = require("fs-extra");
-const path = require("path");
+import t from "ava";
+import fs from "fs-extra";
+import path from "path";
 
 const requiredRecordsToProxy = new Set(["A", "AAAA", "CNAME"]);
 
