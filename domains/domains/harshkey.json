@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "harshkey",
+    "email": "ekey6343@gmail.com"
+  },
+  "records": {
+    "CNAME": "harshkey.github.io"
+  }
+}
