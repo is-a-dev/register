@@ -1,1 +1,11 @@
-
+{
+  "description": "Portfolio website",
+  "repo": "https://github.com/mhasaan06/mhasaan06.github.io",
+  "owner": {
+    "username": "mhasaan06",
+    "email": "mhasaan.tech@gmail.com"
+  },
+  "record": {
+    "CNAME": "mhasaan06.github.io"
+  }
+}
