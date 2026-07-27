@@ -1,0 +1,32 @@
+{
+  "owner": {
+    "username": "alxala123",
+    "email": "alxala2001@gmail.com"
+  },
+  "subdomains": {
+    "resend._domainkey": {
+      "records": {
+        "TXT": [
+          "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3pwzhjfB/IixUojs3G0rqtDi6LDjZ63N11gPSLOWfHy0wPYSS3T6xR4d995A2hcpU45Iba+O8Fp+G+H9/7jpiUZr2QcQ8uEJLYAqBjmwASybKa2vqloTzdCUWBLyvaWWqFOMam6uANZnjIhC5wmdm+TcWdeyi+ShXqi2/uddQswIDAQAB"
+        ]
+      }
+    },
+    "send": {
+      "records": {
+        "MX": [
+          { "value": "feedback-smtp.eu-west-1.amazonses.com", "priority": 10 }
+        ],
+        "TXT": [
+          "v=spf1 include:amazonses.com ~all"
+        ]
+      }
+    },
+    "_dmarc": {
+      "records": {
+        "TXT": [
+          "v=DMARC1; p=none;"
+        ]
+      }
+    }
+  }
+}
