@@ -1,9 +1,8 @@
 {
-  "owner": {
-    "username": "ahmedul2"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=is-a-dev.org,59183870986ff8e25d08"
-  }
+  "owner": {
+    "username": "ahmedul2"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
