@@ -1,0 +1,14 @@
+{
+  "description": "Email domain for Campus BlinDate App",
+  "repo": "https://github.com/NetifyIluminati/bd_hub",
+  "owner": {
+    "username": "NetifyIluminati",
+    "email": "netify_iluminati@proton.me"
+  },
+  "record": {
+    "NS": [
+      "karsyn.ns.cloudflare.com",
+      "lochlan.ns.cloudflare.com"
+    ]
+  }
+}
