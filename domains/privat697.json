@@ -24,6 +24,18 @@
       "records": {
         "CNAME": "b77085cf9e9d22e9.vercel-dns-017.com"
       }
+    },
+    "testconnect": {
+      "records": {
+        "CNAME": "c88194e894b60761.vercel-dns-017.com"
+      }
+    },
+    "_vercel.testconnect": {
+      "records": {
+        "TXT": [
+          "vc-domain-verify=testconnect.privat697.is-a.dev,1c4a6a36cb20d5050913"
+        ]
+      }
     }
   }
 }
