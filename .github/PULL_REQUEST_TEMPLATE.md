@@ -17,7 +17,7 @@ YOU MUST FILL OUT THIS TEMPLATE FOR YOUR PR TO BE ACCEPTED!
 # Website Preview
 <!-- Provide a link AND screenshot of your website below. if not provided your PR will be closed with no questions asked. -->
 https://cv-blond-delta-91.vercel.app/
-![Website Preview](.github/media/websitepreview.png)
+![Website Preview](../media/websitepreview.png)
 # Website Purpose
 <!-- Please tell us the purpose or motive behind your website. For example, it is a portfolio website, etc. -->
  it is a portfolio website and i want to use it as cv
