@@ -1,7 +1,8 @@
-"owner": {
-  "username": "mesh1o1",
-  "email": "tkmas1441@gmail.com"
-},
+{
+  "owner": {
+    "username": "mesh1o1",
+    "email": tkmas1441@gmail.com"
+  },
   "records": {
     "CNAME": "custom-domains.chatgpt.site"
   }
