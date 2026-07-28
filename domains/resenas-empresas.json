@@ -4,11 +4,18 @@
     "email": "pablocpardo2005@gmail.com"
   },
   "records": {
-    "CNAME": "resenas-empresas.vercel.app",
-    "TXT": [
-      "send.resenas-empresas",
-      "resend._domainkey.resenas-empresas"
-    ]
-    "MX": ["send.resenas-empresas"]
+    "CNAME": "resenas-empresas.vercel.app"
+  },
+  "subdomains": {
+    "send": {
+      "TXT": "v=spf1 include:amazonses.com ~all",
+      "MX": ["feedback-smtp.eu-west-1.amazonses.com"]
+    },
+    "resend._domainkey": {
+      "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2u/SRheBhOOlDcLpwT+iLIbGFPWqR/wsqT70UFOFYqeym9BzphpzGLgECMtaQl0Q2N51OKVy+BMXkilrhWjLYGGcm+fouySVHo6Su00FdBO3Mw+hMw8TQ9dOshRoZDMOp1D1IVT3D3ghZ+CV1LG6I3/vV53jkCo4HbeqOuZ0K+wIDAQAB"
+    },
+    "_dmarc": {
+      "TXT": "v=DMARC1; p=none;"
+    }
   }
 }
