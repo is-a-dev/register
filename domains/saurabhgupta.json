@@ -3,7 +3,7 @@
     "username": "saurabh9682",
     "email": "saurabhgupta8746@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com",
     "TXT": [
       "vc-domain-verify=saurabhgupta.is-a.dev,81f7ba5884d6839cb196"
