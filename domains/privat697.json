@@ -36,6 +36,30 @@
           "vc-domain-verify=testconnect.privat697.is-a.dev,1c4a6a36cb20d5050913"
         ]
       }
+    },
+    "sso": {
+      "records": {
+        "CNAME": "e6ee48519ece5597.vercel-dns-017.com"
+      }
+    },
+    "_vercel.sso": {
+      "records": {
+        "TXT": [
+          "vc-domain-verify=sso.privat697.is-a.dev,97beda44ba974e94cad0"
+        ]
+      }
+    },
+    "testsso": {
+      "records": {
+        "CNAME": "e56f071105d35d80.vercel-dns-017.com"
+      }
+    },
+    "_vercel.testsso": {
+      "records": {
+        "TXT": [
+          "vc-domain-verify=testsso.privat697.is-a.dev,edf3980e0194c73023ce"
+        ]
+      }
     }
   }
 }
