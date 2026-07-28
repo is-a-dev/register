@@ -19,6 +19,11 @@
           "vc-domain-verify=version.common.privat697.is-a.dev,659c9ae425e812d5f0dd"
         ]
       }
+    },
+    "connect": {
+      "records": {
+        "CNAME": "b77085cf9e9d22e9.vercel-dns-017.com"
+      }
     }
   }
 }
