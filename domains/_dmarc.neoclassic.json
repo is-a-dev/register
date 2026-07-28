@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Tempohh",
+    "email": "03costa.andrea@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
