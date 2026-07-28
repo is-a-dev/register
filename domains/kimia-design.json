@@ -1,0 +1,12 @@
+{
+  "description": "Personal Graphic Design & Portfolio Website of Kimia Asadi",
+  "domain": "is-a.dev",
+  "subdomain": "kimia-design",
+  "owner": {
+    "repo": "https://github.com/pepememe2015/kimia-asadi-portfolio",
+    "email": "Kimiaasadiasadi@gmail.com"
+  },
+  "record": {
+    "CNAME": "pepememe2015.github.io"
+  }
+}
