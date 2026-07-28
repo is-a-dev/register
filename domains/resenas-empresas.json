@@ -4,6 +4,11 @@
     "email": "pablocpardo2005@gmail.com"
   },
   "records": {
-    "CNAME": "resenas-empresas.vercel.app"
+    "CNAME": "resenas-empresas.vercel.app",
+    "TXT": [
+      "send.resenas-empresas",
+      "resend._domainkey.resenas-empresas"
+    ]
+    "MX": ["send.resenas-empresas"]
   }
 }
