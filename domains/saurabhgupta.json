@@ -5,6 +5,8 @@
   },
   "record": {
     "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=saurabhgupta.is-a.dev,81f7ba5884d6839cb196"
+    "TXT": [
+      "vc-domain-verify=saurabhgupta.is-a.dev,81f7ba5884d6839cb196"
+    ]
   }
 }
