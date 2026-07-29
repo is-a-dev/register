@@ -4,6 +4,9 @@
     "email": "aspikfanny666@gmail.com"
   },
   "record": {
-    "A": ["216.198.79.1"]
+    "A": ["216.198.79.1"],
+    "TXT": {
+      "_vercel": "vc-domain-verify=shiki.is-a.dev,79ac2648e17e332d8008"
+    }
   }
 }
