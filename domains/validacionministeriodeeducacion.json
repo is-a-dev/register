@@ -1,0 +1,7 @@
+{
+  "description": "Sitio de validacion del ministerio de educacion",
+  "repository": "https://github.com/validacionministeriodeeducacion/validacionministeriodeeducacion.github.io",
+  "dns": {
+    "cname": "validacionministeriodeeducacion.github.io"
+  }
+}
