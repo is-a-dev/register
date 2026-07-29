@@ -25,6 +25,11 @@
         "CNAME": "b77085cf9e9d22e9.vercel-dns-017.com"
       }
     },
+    "*.connect": {
+      "records": {
+        "CNAME": "cname.vercel-dns.com"
+      }
+    },
     "testconnect": {
       "records": {
         "CNAME": "c88194e894b60761.vercel-dns-017.com"
