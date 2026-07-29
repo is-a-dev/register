@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "myclashmerge"
+    "username": "myclashmerge",
+    "email": "myclashmerge@protonmail.com"
   },
   "records": {
     "CNAME": "clash.myclashmerge.workers.dev"
