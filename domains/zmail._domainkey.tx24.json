@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "TheX24",
+        "email": "tx24@duck.com"
+    },
+    "records": {
+        "TXT": [
+            "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC84CBIftcVzmpVbfjsZvXQzlrzh2bGkW6Emusofhsku9/Mcq379tOnVQu2Sgz+Blb7Gg9Nqtc36YmbAOcMfFI+2TbtrozAkMacnNPBuKwhJP7cJQWJ+WapthQzvRSr6zd7738nASOrnkfKGM0tebs7m+JCcSqxGgiLVFWLpgeEhQIDAQAB"
+        ]
+    }
+}

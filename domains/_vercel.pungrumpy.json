@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "PunGrumpy",
+    "email": "hello@pungrumpy.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=pungrumpy.is-a.dev,2edf73cf3572b3c0f803"
+  }
+}
