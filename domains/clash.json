@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "myclashmerge"
+  },
+  "records": {
+    "CNAME": "clash.myclashmerge.workers.dev"
+  },
+  "proxied": true
+}
