@@ -4,6 +4,6 @@
     "email": "mahmoidmohsen123456789@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=mahmouddev.is-a.dev,a0151e2652c39decd2a3"
   }
 }
