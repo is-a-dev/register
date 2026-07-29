@@ -1,28 +1,9 @@
 {
-  "description": "Website portofolio pribadi saya",
-  "repo": "https://github.com/vinnntha/Portof",
-  "owner": {
-    "username": "vinnntha",
-    "email": "averill.kevinatha28@gmail.com"
-  },
-  "record": {
-    "A": [
-      "216.198.79.1"
-    ]
-  },
-  "nested": {
-    "_vercel": {
-      "record": {
-        "TXT": [
-          "vc-domain-verify=averill.is-a.dev,ba59a0f940abd6533086",
-          "vc-domain-verify=www.averill.is-a.dev,ce2b6a5a0933ed0f2c55"
-        ]
-      }
+    "owner": {
+        "username": "vinnntha",
+        "email": "vinn.ntha@gmail.com"
     },
-    "www": {
-      "record": {
-        "CNAME": "66180f10022c599f.vercel-dns-017.com"
-      }
+    "records": {
+        "CNAME": "vinnntha.github.io"
     }
-  }
 }
