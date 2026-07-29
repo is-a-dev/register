@@ -4,6 +4,8 @@
     "email": "aspikfanny666@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=shiki.is-a.dev,79ac2648e17e332d8008"
+    "TXT": [
+      "vc-domain-verify=shiki.is-a.dev,79ac2648e17e332d8008"
+    ]
   }
 }
