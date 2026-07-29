@@ -1,0 +1,14 @@
+{
+  "description": "Backend server and Telegram mini-apps",
+  "repo": "https://github.com/SOWcd/register",
+  "owner": {
+    "username": "SOWcd",
+    "email": "sx8t8njz85@privaterelay.appleid.com"
+  },
+  "record": {
+    "NS": [
+      "brady.ns.cloudflare.com",
+      "hera.ns.cloudflare.com"
+    ]
+  }
+}
