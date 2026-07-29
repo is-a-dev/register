@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "profitsarts", "email": "7620312+Profitsarts@users.noreply.github.com" },
-  "record": { "CNAME": "profitsarts.github.io" }
+  "owner": {
+    "username": "profitsarts",
+    "email": "profitsarts@gmail.com"
+  },
+  "record": {
+    "CNAME": "profitsarts.github.io"
+  }
 }
