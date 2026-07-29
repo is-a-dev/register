@@ -1,6 +1,9 @@
-const t = require("ava");
-const fs = require("fs-extra");
-const path = require("path");
+import t from "ava";
+import fs from "fs-extra";
+import path from "path";
+
+import internalDomains from "../util/internal.json" with { type: "json" };
+import reservedDomains from "../util/reserved.json" with { type: "json" };
 
 const ignoredRootJSONFiles = ["package-lock.json", "package.json"];
 
@@ -27,13 +30,10 @@ const optionalRedirectConfigFields = {
     redirect_paths: "boolean"
 };
 
-const blockedFields = ["domain", "internal", "proxy", "reserved", "services", "subdomain"];
+const blockedFields = ["domain", "internal", "proxy", "reserved", "services", "subdomain", "nested", "record"];
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
-
-const internalDomains = require("../util/internal.json");
-const reservedDomains = require("../util/reserved.json");
 
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);

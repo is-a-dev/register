@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "adrian0511",
+    "email": "adriangarces0310@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "tzaijsct.up.railway.app",
+    "TXT":["railway-verify=995a5411e13df908cb0739d5555d5a66b7358687a0c8ba802833b59e12610bc2"]
+  }
+}
