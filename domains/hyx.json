@@ -9,7 +9,6 @@
 "records"
 : {
   "NS": ["gail.ns.cloudflare.com","tim.ns.cloudflare.com"],
-  "CNAME": "heyuxuanyyds.ccwu.cc"
 },
 "proxied"
 : true
