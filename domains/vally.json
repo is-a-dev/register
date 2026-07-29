@@ -1,0 +1,11 @@
+{
+  "description": "V-ALLY - Nexus MU formation manager",
+  "repo": "https://github.com/christiantesen/ally-manager",
+  "owner": {
+    "username": "christiantesen",
+    "email": "tu-email@ejemplo.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
