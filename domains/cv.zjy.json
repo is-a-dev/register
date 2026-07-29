@@ -7,7 +7,6 @@
   },
   "redirect_config": {
     "custom_paths": {
-      "/en": "https://jingyuan-zheng.github.io/about-me/",
       "/zh": "https://jingyuan-zheng.github.io/zh/%E5%85%B3%E4%BA%8E%E6%88%91/"
     },
     "redirect_paths": true
