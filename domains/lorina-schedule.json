@@ -1,1 +1,11 @@
-{"owner":{"username":"liwenwu-mia"},"records":{"NS":["naomi.ns.cloudflare.com","terry.ns.cloudflare.com"]},"proxied":true}
+{
+  "owner": {
+    "username": "liwenwu-mia"
+  },
+  "records": {
+    "NS": [
+      "naomi.ns.cloudflare.com",
+      "terry.ns.cloudflare.com"
+    ]
+  }
+}
