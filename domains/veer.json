@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "TheVeerRana",
-    "email": "hello@veer.codes"
+    "username": "mads5",
+    "email": "veerkalantri1@gmail.com"
   },
-  "record": {
-    "CNAME": "veer.codes"
+  "records": {
+    "CNAME": "mads5.github.io"
   }
 }

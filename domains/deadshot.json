@@ -1,12 +1,10 @@
 {
-  "description": "My Official Website, Made with HTML5",
-  "repo": "https://github.com/deadshotofficial/deadshotofficial.github.io",
   "owner": {
     "username": "deadshotofficial",
-    "email": "raj.deadshot8888@gmail.com",
-    "twitter": "deadshot3r"
+    "email": "deadshot3r@pm.me",
+    "discord": "416952474587496449"
   },
-  "record": {
-    "CNAME": "deadshotofficial.github.io"
+  "records": {
+    "CNAME": "deadshotdev.vercel.app"
   }
 }

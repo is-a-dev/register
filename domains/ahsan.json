@@ -1,10 +1,11 @@
 {
-  "description": "Ahsan's Personal Website",
+  "description": "My personal portfolio",
+  "repo": "https://github.com/Muh4mmadA/subdomain",
   "owner": {
-    "username": "aqureshi",
-    "email": "ahsan.qureshi8@gmail.com"
+    "username": "Muh4mmadA",
+    "email": "muhammad14327m@gmail.com"
   },
-  "record": {
-    "CNAME": "www.thisisahsan.com"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

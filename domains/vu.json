@@ -1,0 +1,10 @@
+{
+  "description": "Vu-is-Me",
+  "owner": {
+    "username": "vuisme",
+    "email": "me@vutn.net"
+  },
+  "records": {
+    "A": ["140.245.62.158"]
+  }
+}

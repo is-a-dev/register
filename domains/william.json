@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "WilliamDavidHarrison",
-    "email": "william@williamharrison.dev"
+    "username": "wdhdev",
+    "email": "william@is-a.dev"
   },
-
-  "record": {
-    "CNAME": "edge.redirect.pizza"
+  "records": {
+    "URL": "https://github.com/wdhdev"
   }
 }

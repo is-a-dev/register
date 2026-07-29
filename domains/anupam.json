@@ -1,11 +1,10 @@
 {
-  "description": "Anupam's portfolio website",
-  "repo": "https://github.com/anupamroy8/portfolio",
   "owner": {
-    "username": "anupamroy8",
-    "email": "anupamroy8@gmail.com"
+    "username": "aroy67258",
+    "email": "anupamroy11a@gmail.com"
   },
-  "record": {
-    "CNAME": "anupamroy8.github.io"
-  }
+  "records": {
+    "CNAME": "my-portfolio-website-rust-gamma.vercel.app"
+  },
+  "proxied": false
 }

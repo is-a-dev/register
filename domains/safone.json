@@ -1,12 +1,9 @@
-
-    {
-      "owner": {
-        "username": "AsmSafone",
-        "email": "asmsafone@gmail.com"
-      },
-
-      "record": {
-        "A": ["185.27.134.124"]
-      }
-    }
-  
+{
+  "owner": {
+    "username": "AsmSafone",
+    "email": "asmsafone@gmail.com"
+  },
+  "records": {
+    "CNAME": "safone.pages.dev"
+  }
+}

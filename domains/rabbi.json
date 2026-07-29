@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "TheRabbiRifat"
+    },
+    "records": {
+        "A": ["188.245.215.170"],
+        "MX": ["mail.rabbi.is-a.dev"],
+        "TXT": ["v=spf1 ip4:188.245.215.170 ~all"]
+    }
+}

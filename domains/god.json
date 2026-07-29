@@ -1,12 +1,9 @@
 {
-  "description": "Austin's personal developer website",
-  "repo": "https://github.com/austindyoung",
   "owner": {
-    "username": "austindyoung",
-    "email": "austin@doesweb.dev",
-    "twitter": ""
+    "username": "duchenpaul",
+    "email": "duchenpaul@gmail.com"
   },
-  "record": {
-    "URL": "https://austindyoung.github.io"
+  "records": {
+    "CNAME": "isdev.bop.pp.ua"
   }
 }

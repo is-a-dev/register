@@ -1,11 +1,9 @@
 {
-  "description": "RayhanADev's Website!",
-  "repo": "https://github.com/rayhanadev/Personal-Website",
   "owner": {
-    "username": "rayhanadev",
-    "email": "rayhanadev@protonmail.com"
+    "username": "AriTheStupidCat",
+    "email": "git.gay@pm.me"
   },
-  "record": {
-    "CNAME": "edge.redirect.pizza"
+  "records": {
+    "A": ["192.3.34.74"]
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Enzo's portfolio",
-  "repo": "https://github.com/enzonaute/",
-  "owner": {
-    "username": "enzonaute",
-    "email": "hello@enzonaute.me"
-  },
-  "record": {
-    "CNAME": "enzonaute.me"
-  }
+    "owner": {
+        "username": "EnzoNotNice",
+        "email": "tryhard14090@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }

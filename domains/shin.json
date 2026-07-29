@@ -1,12 +1,12 @@
 {
-  "description": "The offcial website by Tachibana Shin (@tachib_shin)",
-  "repo": "https://github.com/tachibana-shin/tachibana-shin.github.io",
+  "description": "Email forward Tachibana Shin (@tachib_shin)",
   "owner": {
     "username": "tachibana-shin",
     "email": "",
     "twitter": "tachib_shin"
   },
-  "record": {
-    "CNAME": "tachibana-shin.github.io"
+  "records": {
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": "forward-email=tachibshin@duck.com"
   }
 }

@@ -1,14 +1,21 @@
-To make our job easier, please spend time to review your application before submitting. 
+<!--
+YOU MUST FILL OUT THIS TEMPLATE FOR YOUR PR TO BE ACCEPTED!
+-->
 
-<!-- To check a checkbox, replace [] with [x] -->
-#### Add a x between [] if you meet that requirement example `[x]`
-- [ ] You're not using Vercel or Netlify.
-- [ ] You have completed your website, there's no type of placeholder at the website. **This requirement can be raised if the domain you're registering is for emails**
-  - Link to website: 
-- [ ] The website is reachable.
-- [ ] The CNAME record doesn't contain any slash.
-- [ ] There's enough information at the `owner` field.
-   - You should have your email presented. If you don't want to share email, you can leave email an empty string (`""`) and add any other social such as Discord/Twitter/etc.
- 
- #### Feel free to join our discord server for more updates or any help related to the service :D - https://discord.gg/PZCGHz4RhQ
-<!--  Feel free to join the discord server for any help to talk to other developers :) - https://discord.gg/PZCGHz4RhQ -->
+# Requirements
+<!-- Your domain MUST pass ALL the requirements below, otherwise it WILL BE DENIED. -->
+<!-- Change each checkbox to [x] (all lowercase, with no spaces between the brackets) to mark it as completed. -->
+
+- [ ] I **agree** to the [Terms of Service](https://is-a.dev/terms). <!-- Your request MUST follow the TOS to be approved. -->
+- [ ] My file is following the [domain structure](https://docs.is-a.dev/domain-structure/). <!-- Your JSON file is in the domains directory, the name is valid, etc. -->
+- [ ] My website is **reachable** and **completed**. <!-- We do not permit simple "Hello, world!" or simply copied template websites with minimal changes. -->
+- [ ] My website is **software development** related. <!-- Only your root subdomain needs to meet this requirement. -->
+- [ ] My website is **not for commercial use**. <!-- Your website's purpose should not be to generate any form of revenue or profit. -->
+- [ ] I have provided contact information in the `owner` key. <!-- Provide your email in the `email` field or another platform (e.g. X/Twitter or Discord) for contact. -->
+- [ ] I have provided a preview of my website below. <!-- This step is required for your PR to be approved. -->
+
+# Website Preview
+<!-- Provide a link AND screenshot of your website below. if not provided your PR will be closed with no questions asked. -->
+
+# Website Purpose
+<!-- Please tell us the purpose or motive behind your website. For example, it is a portfolio website, etc. -->

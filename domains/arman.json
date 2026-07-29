@@ -1,11 +1,10 @@
 {
-  "description": "Arman's personal website!",
-  "repo": "https://github.com/ItzArman09/website",
+  "description": "Personal Portfolio",
   "owner": {
     "username": "ItzArman09",
-    "email": "contact@mail.arman.is-a.dev"
+    "email": "itz.armxn@outlook.com"
   },
-  "record": {
-    "A": ["89.106.200.1"]
+  "records": {
+    "CNAME": "itzarman09.github.io"
   }
 }

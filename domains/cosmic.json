@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "Cosmic6811",
-    "email": "jadenweong@gmail.com"
+    "username": "im-pranav-m",
+    "email" : "pranavclarvo@gmail.com"
   },
-  "record": {
-    "CNAME": "20cd3f94-9e6c-425c-bb20-8a121e88cf78.repl.co"
+  "records": {
+    "CNAME": "cosmic-oqa.pages.dev"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "personal website",
-  "repo": "https://github.com/kldcs/kldcs",
-  "owner": {
-    "username": "kldcs",
-    "email": "kldcsces@outlook.com"
-  },
-  "record": {
-    "CNAME": "7d4f526a-194d-4047-bb0e-93af7aa4a16d.id.repl.co"
-  }
+    "owner": {
+        "username": "07734maxime",
+        "email": "07734maxime@proton.me"
+    },
+    "records": {
+        "CNAME": "my-personnal-website-sandy.vercel.app"
+    }
 }

@@ -1,12 +1,9 @@
 {
-  "description": "Image / Video host.",
-  "repo": "https://github.com/tootie112",
   "owner": {
-    "username": "tootie112",
-    "email": "",
-    "discord": "Io.Netty#3118"
+    "username": "Donsezan",
+    "email": "a4329880@gmail.com"
   },
-  "record": {
-    "CNAME": "api.has-cool.pics"
+  "records": {
+    "CNAME": "donsezan.github.io"
   }
 }
