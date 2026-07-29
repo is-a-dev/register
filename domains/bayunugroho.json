@@ -4,6 +4,6 @@
     "email": "nugrohobee8@gmail.com"
   },
   "records": {
-    "CNAME": "e413efef615df7ca.vercel-dns-017.com"
+    "A": ["216.198.79.1"]
   }
 }
