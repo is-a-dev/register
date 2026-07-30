@@ -1,0 +1,10 @@
+{
+  "description": "AmoCRM Analytics dashboard for sales managers with AI assistant",
+  "repo": "https://github.com/IngWalka/amocrm-analytics",
+  "owner": {
+    "username": "IngWalka"
+  },
+  "record": {
+    "CNAME": "amocrm-analytics.onrender.com"
+  }
+}
