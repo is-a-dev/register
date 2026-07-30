@@ -1,0 +1,11 @@
+{
+  "description": "HongTing Beauty Store",
+  "owner": {
+    "username": "你的GitHub用户名",
+    "email": "你的邮箱"
+  },
+  "record": {
+    "CNAME": "legendary-babka-28c449.netlify.app"
+  },
+  "proxied": true
+}
