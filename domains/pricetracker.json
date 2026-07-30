@@ -1,6 +1,8 @@
 {
-  "owner": { "username": "marwan130" },
-  "record": {
+  "owner": {
+    "username": "marwan130"
+  },
+  "records": {
     "CNAME": "price-tracker-web.graywater-b13edf19.eastus.azurecontainerapps.io"
   }
 }
