@@ -1,0 +1,11 @@
+{
+  "name": "ILoveyoUAna",
+  "description": "A love letter to Ana",
+  "domain": "ILoveyoUAna.is-a.dev",
+  "owner": {
+    "username": "BigChadKing"
+  },
+  "record": {
+    "CNAME": "jolly-churros-d986be.netlify.app"
+  }
+}
