@@ -1,0 +1,10 @@
+{
+  "description": "Personal developer site for Cloudflare Workers experiments and edge tools",
+  "owner": {
+    "username": "WarholYuan",
+    "email": "yangxiao0913guge@gmail.com"
+  },
+  "records": {
+    "CNAME": "mhty-home.yangxiao0913.workers.dev"
+  }
+}
