@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "mrblack31"
+  },
+  "record": {
+    "NS": [
+      "brad.ns.cloudflare.com",
+      "ullis.ns.cloudflare.com"
+    ]
+  }
+}
