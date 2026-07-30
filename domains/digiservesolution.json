@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "Jamesshylla",
+    "email": "solutiondigiserve@gmail.com"
+  },
+  "records": {
+    "CNAME": "digiserve-print-hub.vercel.app"
+  },
+  "proxied": true
+}
