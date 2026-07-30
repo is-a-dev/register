@@ -1,10 +1,9 @@
 {
-  "description": "Rohith's personal website",
   "owner": {
-    "username": "rohithp7777",
-    "email": "rohithp8899@gmail.com"
+    "username": "Rohith-Shimori",
+    "email": "pontapallirohith@gmail.com"
   },
-  "record": {
-    "CNAME": "rohith-1c974.web.app"
+  "records": {
+    "CNAME": "rohith-shimori.github.io"
   }
 }

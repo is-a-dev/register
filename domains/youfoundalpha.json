@@ -5,7 +5,7 @@
     "gitlab": "YouFoundAlpha",
     "mastodon": "@YouFoundAlpha@mastodon.social"
   },
-  "record": {
+  "records": {
     "URL": "https://github.com/YouFoundAlpha",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
     "TXT": [

@@ -1,9 +1,9 @@
 {
-	"owner": {
-		"username": "sohag02",
-		"discord": "sohagjabed"
-	},
-	"record": {
-		"TXT": "vc-domain-verify=sohag.is-a.dev,905a0fff3e8fdda0052e"
-	}
+  "owner": {
+    "username": "sohag02",
+    "discord": "sohagjabed"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sohag.is-a.dev,905a0fff3e8fdda0052e"
+  }
 }

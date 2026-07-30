@@ -1,12 +1,10 @@
 {
-  "description": "Use for zoho mail",
-  "repo": "https://github.com/JamesTheFlash22/JamesTheFlash22.github.io",
   "owner": {
     "username": "JamesTheFlash22",
     "email": "davidebu43@gmail.com"
   },
-  "record": {
-    "TXT": ["zoho-verification=zb32026957.zmverify.zoho.eu"],
+  "records": {
+    "TXT": "zoho-verification=zb32026957.zmverify.zoho.eu",
     "MX": ["mx3.zoho.eu", "mx2.zoho.eu", "mx.zoho.eu"]
   }
 }

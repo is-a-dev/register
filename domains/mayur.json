@@ -1,11 +1,9 @@
 {
-  "description": "Mayur Dange is a Developer!",
-  "repo": "https://github.com/mayurdange/mayurdange.github.io",
   "owner": {
     "username": "mayurdange",
     "email": "mayurdange@live.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mayurdange.github.io"
   }
 }

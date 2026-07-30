@@ -1,11 +1,9 @@
 {
-  "description": "Sharafat Karim",
-  "repo": "https://github.com/SharafatKarim/sharafatkarim.github.io",
   "owner": {
     "username": "SharafatKarim",
     "email": "sharafat2004@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sharafatkarim.github.io"
   }
 }

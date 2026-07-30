@@ -1,11 +1,9 @@
 {
-  "description": "Madhan's portfolio",
-  "repo": "https://github.com/madhank93/madhank93.github.io",
-  "owner": {
-    "username": "madhank93",
-    "email": "madhankumaravelu93@gmail.com"
-  },
-  "record": {
-    "CNAME": "madhank93.github.io"
+    "owner": {
+      "username": "Madhan-mohan14",
+      "email": "madhanmohan1413@gmail.com"
+    },
+    "records": {
+      "URL": "https://portfolio-site-1015392656809.us-south1.run.app"
+    }
   }
-}

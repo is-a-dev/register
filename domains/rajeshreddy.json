@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "rajesh-reddy1",
-        "email": "mrrajeshreddy1@gmail.com"
-    },
-    "record": {
-        "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "rajesh-reddy1",
+    "email": "mrrajeshreddy1@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  }
 }

@@ -1,12 +1,10 @@
 {
-  "description": "Github Pages Register Domain",
-  "repo": "https://github.com/thenoppy12/thenoppy12.github.io",
   "owner": {
     "username": "BussyBakks",
     "email": "lengochuykiengiang@gmail.com",
     "discord": ".thenoppy12"
   },
-  "record": {
+  "records": {
     "TXT": "b41e7f365072dbb42ed1ee40c250db"
   }
 }

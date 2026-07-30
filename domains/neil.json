@@ -1,9 +1,8 @@
 {
-  "owner": {
-    "username": "nxl22",
-    "email": "lien.dev.22@gmail.com"
-  },
-  "record": {
-    "CNAME": "nxl22.github.io"
-  }
+    "owner": {
+        "username": "neilwilliam"
+    },
+    "records": {
+        "CNAME": "neilssites.web.app"
+    }
 }

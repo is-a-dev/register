@@ -1,11 +1,9 @@
 {
-    "description": "YOUR DESCRIPTION GOES HERE",
-    "repo": "https://github.com/adityasriv2317/portfolioAditya",
-    "owner": {
-        "username": "adityasriv2317",
-        "email": "adityaxia9237@gmail.com"
-    },
-    "record": {
-        "URL": "https://adityasrivastava.vercel.app/"
-    }
+  "owner": {
+    "username": "adityasriv2317",
+    "email": "adityaxia9237@gmail.com"
+  },
+  "records": {
+    "URL": "https://adityasrivastava.vercel.app/"
+  }
 }

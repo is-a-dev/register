@@ -1,12 +1,10 @@
 {
-    "description": "mcalec.is-a.dev",
-    "repo": "https://github.com/mcalec-dev/mcalec.is-a.dev",
-    "owner": {
-        "username": "mcalec-dev",
-        "email": "hello@mcalec.dev",
-        "discord": "mcalec"
-    },
-    "record": {
-        "TXT": "015fcfab7237a3342e028237414716"
-    }
+  "owner": {
+    "username": "mcalec-dev",
+    "email": "hello@mcalec.dev",
+    "discord": "mcalec"
+  },
+  "records": {
+    "TXT": "015fcfab7237a3342e028237414716"
+  }
 }

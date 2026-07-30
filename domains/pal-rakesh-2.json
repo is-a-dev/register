@@ -1,11 +1,9 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/pal-rakesh/pal-rakesh.github.io",
   "owner": {
     "username": "pal-rakesh",
     "email": "rakesh.pal@truestaz.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pal-rakesh.github.io"
   }
 }

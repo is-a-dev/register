@@ -1,10 +1,12 @@
 {
   "owner": {
     "username": "VulcanoSoftware",
-    "discord": "814891541205876767",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.LFE4hdd7T8k_kGv3iE8p5w1dHdG5P6bV0tWDLkePBkHeQytXDnnlDdlmdKFwEjt_eB1SbPjhAi1Q7Mej6jgJKoP8V5PH6uoAMef0CgBiRz9EQXH9fbzDy5LNYkmu76PZONduIejnPhxohKFIaSkbTZJqnz7962HCUwSNEDptIgumL3-l30iEZ6ytQDzMuwJc4eSrfFh0qIMxvanz4pD2X67uLP-OjEMcEVl9JT4MtsfMFql1e9be3pym-Gi_VSilIFTkZrBOkmyShzkK2YG44z2-iRDPh-p920OxTxpIkytub38_qJ8OMuWrB5uaQ_UhX-YZan4TbMQHXwDY0oRxZg.34fTFW_4uMTgOrh4prtEMA.NoIOnyezwNIixQEnzbBpT0P4Z7ny0WdRBpC87tNeeWSQ-3HFGekyeSht37N8iSYPJW9rShlfpglzqLRQXr0_jOCBQClLWWTWVYnsFWYtfNbKt4ziAJHzs1a-IXZLNi0Y.zVvP0gJYcOXQdhqXuK8XOQ"
+    "discord": "814891541205876767"
   },
-  "record": {
-    "CNAME": "vulcanocraft.pages.dev"
-  }
+  "records": {
+    "CNAME": "vulcanocraft.pages.dev",
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+  },
+  "proxied": true
 }

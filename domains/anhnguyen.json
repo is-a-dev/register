@@ -1,15 +1,11 @@
 {
   "owner": {
     "username": "NgTuanAnhDev",
-    "discord": "828117990746226730",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.dxFeMXIpetS-y-w2HhyPm3jT9qQD7VXlzrjuKr0X2tYaDAsa5e-ZLfdoQ0Vi6ij2hVaULCTbvnhDGodA8Vfo2Bav69FAanB0eQp_-9e8C2O8XTm7Hc1PfQG0-QdASqYXzQLxa2K8Zsyi7i_MnjW9QcXB6OopVDPzuQkIFCD0ZBIMpxfSMYoZIJwWMIODl7qkdlrwOJaHev94VAEU8wjl9jdTJ7qUqwG_K8r2FXnRU4nvA8UUGbqoiTwqXgNWdln4S_dT6gRG1oINXS8MU55sRP_nrUsNYm5QRWiqFsKe9Ti8z00YhSJ3bvZLl353penT2lQfSdj2zEqBVNdp_J4s9Q._wjr6pPUcgjV8Pcqmb5jZw.qP7dPu7h2ZYoxAL8EzCmNuh_96Ak46xR4iMj14zoxcBMRnIKqxWQzPMp31OhvCP-a4j-_Ch3Xx4Qyl0AFKHF1b_itAmAo29o5QuG9Z3meYcHkwIxE7rrHLhnT6YaGXL_.2L3kt8GB7vNmXFwn5NauTA"
+    "discord": "828117990746226730"
   },
-  "record": {
+  "records": {
     "A": ["103.97.126.29"],
-    "TXT": [
-      "zoho-verification=zb23469214.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
-    ],
+    "TXT": ["zoho-verification=zb23469214.zmverify.zoho.com", "v=spf1 include:zohomail.com ~all"],
     "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"]
   }
 }

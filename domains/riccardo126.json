@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "riccardo126",
-        "email": "riccardopassacantando@gmail.com"
-    },
-    "record": {
-        "CNAME": "riccardo126.vercel.app"
-    }
+  "owner": {
+    "username": "riccardo126",
+    "email": "riccardopassacantando@gmail.com"
+  },
+  "records": {
+    "CNAME": "riccardo126.vercel.app"
+  }
 }

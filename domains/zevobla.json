@@ -1,10 +1,10 @@
 {
   "owner": {
     "username": "Zevobla",
-    "discord": "467539292877750284",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.Yl52Rrzzsl6pjhBgVkYA_NfGUZUHIp18-pe5PQVvoVI_7U_nksgv91HNcy56xoSJ9A8WUJCeE8qwfsenu9qwHVyWlAuNuWKfEMdM4vAI0V_AuW_1YaIm-0ObrxQsOPMohv9n7e6b5vSLz3f7EKsbiqtebvwF1ebxxqN85t64ZrfCSEBATl3sCjR-vLAORej4Kj3MpgKe7Le1qsoey3u5SR1FvGezQh3PLljcKlR72g0TKvkn8WnF2JicERNDNFJYnwipt-G0HyvibpTsh7trMrcrSEfDYFxGkDLYhgHo02RvUhXer4mtCCvMUX2MgsGraqxDBdASwfk62Jn2EINU6Q.PxrZtoeRnAFNvkmvd0vAMg.xokePgy944ELwFNV_7CzH4K_ylDYFqd_rC-XnvJAt22K2dYKk5SVjftxmLJhwib-BcZh-Aqx7FkRmR3bytAKic2a_vdnmkV6c_tuDbSsJviXViBKpPDPhDF2DoWRBvTI.b2HHi1Vk1_cUmFDkZOclbw"
+    "discord": "467539292877750284"
   },
-  "record": {
-    "A": ["77.238.238.131"]
+  "records": {
+    "A": ["46.23.81.157"],
+    "AAAA": ["2a03:6000:1813:1337::157"]
   }
 }

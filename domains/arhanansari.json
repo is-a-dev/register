@@ -1,12 +1,11 @@
 {
-  "domain": "arhanansari.is-a.dev",
   "owner": {
     "username": "ArhanAnsari",
     "email": "arhanansari2009@gmail.com",
     "x": "https://x.com/codewitharhan",
     "discord": "@codewitharhan"
   },
-  "record": {
+  "records": {
     "CNAME": "arhanansari.vercel.app"
   }
 }

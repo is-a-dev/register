@@ -1,11 +1,9 @@
 {
-  "description": "Anuj' Welcome to my portfolio",
-  "repo": "https://anujmutha.github.io/Portfolio",
   "owner": {
-    "username": "AnujMutha",
-    "email": "mutha.am16@gmail.com"
+    "username": "Anuj1718",
+    "email": "anujdhole17@gmail.com"
   },
-  "record": {
-    "CNAME": "anujmutha.github.io"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

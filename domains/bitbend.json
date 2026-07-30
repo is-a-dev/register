@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "bitbend",
-        "email": "arkamdev@gmail.com"
-    },
-    "record": {
-        "CNAME": "bitbend.github.io"
-    }
+  "owner": {
+    "username": "bitbend",
+    "email": "arkamdev@gmail.com"
+  },
+  "records": {
+    "CNAME": "bitbend.github.io"
+  }
 }

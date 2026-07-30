@@ -1,0 +1,21 @@
+{
+  "owner": {
+    "username": "jirka086",
+    "email": "adamec08@seznam.cz"
+  },
+  "records": {
+    "A": ["37.202.197.36"],
+    "AAAA": [
+      "2a0d:5940:132:1::10:a",
+      "2a0d:5940:132:1::10:b"
+    ],
+    "MX": [
+      {
+        "target": "mail.jirka086.is-a.dev",
+        "priority": 10
+      }
+    ],
+    "TXT": "v=spf1 +a +mx -all"
+  },
+  "proxied": true
+}

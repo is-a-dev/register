@@ -1,11 +1,9 @@
 {
-  "description": "xYugen's Portfolio",
-  "repo": "https://github.com/xyugen/portfolio",
   "owner": {
     "username": "xyugen",
     "email": "alex.arias.jorym@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"],
     "MX": ["feedback-smtp.us-east-1.amazonses.com"],
     "TXT": [

@@ -1,11 +1,10 @@
 {
   "description": "MrShoe Development website",
-  "repo": "https://github.com/MrShoe-Development/Website",
   "owner": {
     "username": "mrshoeshoe66",
     "email": "mrshoeshoe66@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://mrshoe.dev"
   }
 }

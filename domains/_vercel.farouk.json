@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "faroukchebaiki",
-        "email": "farouk.chebaiki@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=farouk.is-a.dev,ec3de2841315d1108853"
-    }
+  "owner": {
+    "username": "faroukchebaiki",
+    "email": "farouk.chebaiki@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=farouk.is-a.dev,ec3de2841315d1108853"
+  }
 }

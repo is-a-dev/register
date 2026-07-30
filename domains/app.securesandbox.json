@@ -1,0 +1,16 @@
+{
+  "description": "Dominio para pruebas en una app de cyberseguridad con dominio is-a.dev",
+  "owner": {
+    "username": "CrowleyCrowd",
+    "email": "ealba.platforms@outlook.com",
+    "discord": "crowleycrowd"
+  },
+  "records": {
+    "MX": ["feedback-smtp.us-east-1.amazonses.com"],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all",
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqstJSWbINtFx1fSomoSdFnVgLNt9dQgSrwrBQKyWqVd/FCUJxSKftjXAUthTCddxGwggtlrm3nbj8/fwNUpTDJ0znmG3JnuSmZ3Ac/HBrnySZjyQw152/A9eW+wMYMsk4DjACYfkGubdIx12i5LS4YFeBbYjtAVHkf4Oy7Xj2EQIDAQAB",
+      "v=DMARC1; p=none;"
+    ]
+  }
+}

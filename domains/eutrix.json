@@ -1,11 +1,9 @@
 {
-  "description": "A website to show off my projects.",
-  "repo": "https://github.com/Eutrix/eutrix.github.io",
   "owner": {
     "username": "Eutrix",
     "discord": "Tony25#4455"
   },
-  "record": {
+  "records": {
     "CNAME": "eutrix.github.io"
   }
 }

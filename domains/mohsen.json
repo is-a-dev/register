@@ -1,10 +1,8 @@
 {
-    "description": "Portfolio website for mohsenansari.com",
     "owner": {
-        "username": "mohsenari",
-        "email": "mansari387@gmail.com"
+        "username": "mmrayyan"
     },
-    "record": {
-        "CNAME": "mohsenansari.com"
+    "records": {
+        "CNAME": "mmrayyan.pages.dev"
     }
 }
