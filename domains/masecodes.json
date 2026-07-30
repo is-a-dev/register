@@ -4,9 +4,6 @@
     "email": "masedev33@proton.me"
   },
   "records": {
-    "TXT": [
-      "zoho-verification=zb40941372.zmverify.zoho.com"
-    ],
-    "CNAME": "masedev33.github.io"
+    "NS": ["hope.ns.cloudflare.com", "martin.ns.cloudflare.com"]
   }
 }
