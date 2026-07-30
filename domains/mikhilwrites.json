@@ -4,7 +4,6 @@
     "email": "mikhil123jindal@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": "vc-domain-verify=mikhilwrites.is-a.dev,d6f83761ae1c9725ff0f"
+    "A": ["216.198.79.1"]
   }
 }
