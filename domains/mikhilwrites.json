@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "mikhil69",
-    "email": "mikhil23jindal@gmail.com"
+    "email": "mikhil123jindal@gmail.com"
   },
-  "record": {
-    "A": "216.198.79.1"
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": "vc-domain-verify=mikhilwrites.is-a.dev,d6f83761ae1c9725ff0f"
   }
 }
