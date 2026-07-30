@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "dimelonoga-prog",
+    "email": "dimelonoga@gmail.com"
+  },
+  "description": "Estudio de desarrollo de videojuegos",
+  "records": {
+    "TXT": [
+      "v=spf1 a mx include:spf.improvmx.com ~all"
+    ]
+  }
+}
