@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "winneriq6s-gif",
+    "email": "Solomonwinner560@gmail.com"
+  },
+  "record": {
+    "A": [
+      "76.76.21.21"
+    ],
+    "MX": [
+      { "target": "route1.mx.cloudflare.net", "priority": 10 },
+      { "target": "route2.mx.cloudflare.net", "priority": 10 },
+      { "target": "route3.mx.cloudflare.net", "priority": 10 }
+    ],
+    "TXT": "v=spf1 include:_spf.mx.cloudflare.net ~all"
+  }
+}
