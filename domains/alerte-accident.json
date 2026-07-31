@@ -1,0 +1,12 @@
+{
+  "description": "Application citoyenne de signalement d'accidents",
+  "repo": "https://github.com/Tmamadou23/alerte-accident",
+  "owner": {
+    "username": "Tmamadou23",
+    "email": "tuomamadou10@email.com"
+  },
+  "record": {
+    "CNAME": "xmxzbfua.mule.page"
+  },
+  "proxied": false
+}
