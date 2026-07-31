@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "Dev1-Fonzz"
+    "username": "Dev1-Fonzz",
+    "email": "pfareezonzz01@gmail.com"
   },
   "record": {
     "CNAME": "dtae-calc.devfonzz.workers.dev"
-  }
+  },
+  "description": "Dtae Calculator Web App"
 }
