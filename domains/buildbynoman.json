@@ -6,6 +6,7 @@
     "email": "ialwaysforget00@gmail.com"
   },
   "records": {
-    "CNAME": "buildbynoman.vercel.app"
+    "CNAME": "buildbynoman.vercel.app",
+    "TXT": ["_vercel=vc-domain-verify=buildbynoman.is-a.dev,70b7a47ff34e276407fe"]
   }
 }
