@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "biaxedev"
+  },
+  "record": {
+    "CNAME": "biaxe-portofolio.vercel.app"
+  }
+}
