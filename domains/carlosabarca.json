@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "CarlosAbarcaDev",
-    "email": "carlos.abarca00@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfolio-website.carlos-abarca00.workers.dev"
-  },
-  "proxied": true
+    "records":  {
+                    "CNAME":  "carlosabarca.pages.dev"
+                },
+    "owner":  {
+                  "email":  "carlos.abarca00@gmail.com",
+                  "username":  "CarlosAbarcaDev"
+              },
+    "proxied":  true
 }
