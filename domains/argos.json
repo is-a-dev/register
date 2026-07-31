@@ -4,6 +4,9 @@
     "email": "iriss.smith08@proton.me"
   },
   "records": {
-    "CNAME": "seguridadbot.duckdns.org"
-  }
+    "A": [
+      "161.153.199.254"
+    ]
+  },
+  "proxied": true
 }
