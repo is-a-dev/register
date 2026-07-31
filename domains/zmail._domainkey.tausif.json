@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "IttehadT",
+    "email": "itausif.cse@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCROg/IDRkRak/vo/RQ9hhBT15vTKRqY7izlGHM20205UWObRZAIh/U1GA7FF01xYlWw/aRVI6Ytq3K09n4mHtEGoIu4OFEKUdVTLV1RO6DQhOX8VJnts5pi4fuTEbC194B/65UJJlnFYNn/G5XvLjveyd0iPJv3bIw5zv87M++DwIDAQAB"
+  }
+}
