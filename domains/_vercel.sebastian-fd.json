@@ -4,6 +4,6 @@
     "email": "sebastianfd005@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=sebastian-fd.is-a.dev,ff2903cc7868fb855969"
   }
 }
