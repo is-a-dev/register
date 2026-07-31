@@ -3,13 +3,7 @@
     "username": "kunal7768K",
     "email": "kunalfulmali99@gmail.com"
   },
-  "records": {
-    "A": [
-      {
-        "name": "@",
-        "value": "192.0.2.1",
-        "ttl": 3600
-      }
-    ]
+  "record": {
+    "CNAME": "kunal7768K.github.io"
   }
 }
