@@ -1,0 +1,12 @@
+{
+    "description": "WWW subdomain for saunakghosh.is-a.dev",
+    "repo": "https://github.com/Saunakghosh10/portfolio",
+    "owner": {
+      "username": "Saunakghosh10",
+      "email": "saunakghosh710@gmail.com",
+      "discord": "695672697270829116"
+    },
+    "records": {
+      "CNAME": "bdb8d34b8956d270.vercel-dns-017.com"
+    }
+}

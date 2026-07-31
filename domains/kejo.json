@@ -3,6 +3,6 @@
         "username": "kazutokei"
     },
     "records": {
-        "CNAME": "portfolio-kent-gamma.vercel.app"
+        "A": ["216.198.79.1"]
     }
 }
