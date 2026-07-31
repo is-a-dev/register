@@ -8,6 +8,10 @@
       {
         "target": "feedback-smtp.ap-northeast-1.amazonses.com",
         "priority": 10
+      },
+      {
+        "target": "inbound-smtp.ap-northeast-1.amazonaws.com",
+        "priority": 10
       }
     ],
     "TXT": "v=spf1 include:amazonses.com ~all"
