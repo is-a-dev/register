@@ -3,6 +3,7 @@
     "username": "dxbdxb416",
     "email": "dxbdxb416@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "dxbdxb416.github.io",
     "MX": [
