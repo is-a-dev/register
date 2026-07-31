@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "suparna39",
+    "email": "YOUR_EMAIL"
+  },
+  "record": {
+    "A": ["216.198.79.1"],
+    "TXT": [
+      "vc-domain-verify=suparna.is-a.dev,f09fe1a9482f02e69008"
+    ]
+  }
+}
