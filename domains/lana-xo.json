@@ -1,0 +1,10 @@
+{
+  "description: "Personal portfolio website" ,
+  "repo": "https://github.com/infantrichu-xo/infantrichu-xo.github.io" ,
+  "owner": {
+    "username": "infantrichu-xo" ,
+    "email": "infrichu16@gmail.com" 
+  },
+  "record": {
+    "CNAME": "infantrichu-xo.github.io"
+  }
