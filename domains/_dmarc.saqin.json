@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "SaqinNoor",
+    "email": "akmsaqinnoor@gmail.com"
+  },
+  "records": {
+    "TXT": ["v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"]
+  }
+}

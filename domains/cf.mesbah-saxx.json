@@ -4,7 +4,8 @@
         "email": "freefireccxml@gmail.com"
     },
     "records": {
-        "A": ["54.82.146.216"]
+        "CNAME": "v25nvtxc.up.railway.app",
+        "TXT": "railway-verify=aeee37696c80883a8f4ea5bbbeadedb2f7e899c18dad3428b889d40615b29433"
     },
     "proxied": true
 }

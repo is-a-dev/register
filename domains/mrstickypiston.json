@@ -1,9 +1,14 @@
 {
   "owner": {
-    "username": "MrStickyPiston",
-    "email": "mr.sticky.piston@gmail.com"
+    "username": "MrStickyPiston"
   },
   "records": {
-    "CNAME": "portfolio-site-4d2.pages.dev"
-  }
+    "CNAME": "portfolio-site-4d2.pages.dev",
+    "MX": ["mailserver.purelymail.com"],
+    "TXT": [
+      "purelymail_ownership_proof=fcf43439242155f039ff77b099be27778b599be1311463186d773cefd61d4667c1aebbffa58cc19a6350fc29d3dea3a55ff24dca437ada97173574b9db541ffe",
+      "v=spf1 include:_spf.purelymail.com ~all"
+    ]
+  },
+  "proxied": true
 }
