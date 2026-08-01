@@ -1,1 +1,8 @@
-
+{
+    "owner": {
+        "username": "neurophilic"
+    },
+    "records": {
+        "CNAME": "pi.github.io"
+    }
+}
