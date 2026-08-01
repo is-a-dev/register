@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "zeropro465-spec",
+    "email": "zeropro465-spec@users.noreply.github.com"
+  },
+  "domain": "spider",
+  "records": {
+    "CNAME": "zeropro465-spec.github.io"
+  }
+}
