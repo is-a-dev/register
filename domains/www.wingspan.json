@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "designsbyamit",
+    "email": "uxbyamit@gmail.com"
+  },
+  "records": {
+    "CNAME": "7e44375226c96364.vercel-dns-017.com.",
+    "TXT": ["vc-domain-verify=www.wingspan.is-a.dev,68ce17d8ff73a4eab28b"]
+  }
+}
