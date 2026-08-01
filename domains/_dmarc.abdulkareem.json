@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "abdulkareemakn",
+        "email": "abdulkareemakn@proton.me"
+    },
+    "records": {
+        "TXT": "v=DMARC1; p=none;"
+    }
+}
