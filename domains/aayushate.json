@@ -4,17 +4,6 @@
     "email": "aayushate@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": {
-      "_vercel": ["vc-domain-verify=aayushate.is-a.dev,f848cbe2ae4d65aafd76"],
-      "resend._domainkey": ["p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUc5/A3ZBIqskzGmhEj2v44mAQeMTKL5NLQPaGmKdEtdDp+E6/Vi9GrknONpSG3YEsIZPkVx0wKbepH/AnpNFV9FWivshL1v3L+BYFMiQrd0ZgzAypCQdtRVpsNrzBQbmbwApqlR1FVsedWLXE1OSRsS7VH0fXFdymmYj9QSRIQIDAQAB"],
-      "send": ["v=spf1 include:amazonses.com ~all"]
-    },
-    "MX": [
-      {
-        "target": "feedback-smtp.ap-northeast-1.amazonses.com",
-        "priority": 10
-      }
-    ]
+    "A": ["216.198.79.1"]
   }
 }
