@@ -31,6 +31,7 @@ Not all announcements are posted on GitHub[^1], however they will always be post
 
 - [Fork](https://github.com/is-a-dev/register/fork) the repository.
 - Follow the instructions on our [documentation](https://docs.is-a.dev).
+  - Do not use AI to generate your request, it **WILL** always get it wrong and will delay you getting a domain.
 - Once you open your pull request (PR), it will be reviewed. *Keep an eye on it in case changes are needed!*
    - If changes have been requested, please make the specified changes otherwise **you will be rejected**.
 - Once your PR is merged, your DNS records should be published with-in a few minutes.
