@@ -1,17 +1,14 @@
 {
   "owner": {
     "username": "skibiditees",
-    "email": "ayyan3635@gmail.com"
-    "discord":"skibiditees"
+    "email": "ayyan3635@gmail.com",
+    "discord": "skibiditees"
   },
   "record": {
     "CNAME": "cname.vercel-dns.com",
     "subdomains": {
       "_vercel": {
         "TXT": "vc-domain-verify=skibidi123.is-a.dev,474516b262be0e614b4f"
-      },
-      "mc": {
-        "A": ["5.6.7.8"]
       }
     },
     "MX": [
