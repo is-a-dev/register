@@ -1,4 +1,3 @@
-
 {
   "owner": {
     "username": "Asail7",
@@ -7,6 +6,9 @@
   "records": {
     "A": [
       "216.198.79.1"
+    ],
+    "TXT": [
+      "vc-domain-verify=asail.is-a.dev,60a0c47f899f6f6592af"
     ]
   }
 }
