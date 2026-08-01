@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "poorvajain2005",
+    "username": "Poorvajain2005",
     "email": "jainpoorva535@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-qe9b.vercel.app"
+    "CNAME": "portfolio-qe9b.vercel.app",
+    "TXT": "vc-domain-verify=poorvajain.is-a.dev,92b7f2ab1dcb4df84395"
   }
 }
