@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Dimentiy-cmd",
+    "email": "твоя_не_gmail_почта@пример.com"
+  },
+  "record": {
+    "NS": [
+      "adaline.ns.cloudflare.com",
+      "kanye.ns.cloudflare.com"
+    ]
+  }
+}
