@@ -1,11 +1,11 @@
 {
   "description": "Personal portfolio website",
-  "repo": "https://github.com/juergenlaturisa/JuergenLaturisa",
+  "repo": "juergenlaturisa/JuergenLaturisa",
   "owner": {
     "username": "juergenlaturisa",
     "email": "juergenllaturisa@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "juergenlaturisa.github.io"
   }
 }
