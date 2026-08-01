@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "aishwarya-modi",
+    "email": "aishwarya-modi@users.noreply.github.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "pezg5q3v.up.railway.app",
+    "TXT": [
+      "railway-verify=84b3affcf7def273ce9bd520a18095269ec67f18cda4111430a038c79d2df3db"
+    ]
+  }
+}
