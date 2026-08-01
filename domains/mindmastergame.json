@@ -4,5 +4,11 @@
   },
   "record": {
     "CNAME": "jashobanta91.github.io"
+  },
+  "records": {
+    "A": ["185.199.108.153"],
+    "AAAA": [
+      "2606:50c0:8000::153"
+    ]
   }
 }
