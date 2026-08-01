@@ -18,9 +18,7 @@
     "TXT": [
       "v=spf1 include:zoho.in include:spf.brevo.com ~all",
       "brevo-code:84c81543c733198b7d81e675624701d7",
-      "zoho-verification=zb88897524.zmverify.zoho.in",
-      "zoho._domainkey: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCBnC7XRC8IXI0TSqlY5cPq3Ko9i+bd77qMRosfnf+DWO6pXokAai8bXAQv6IaTohgwNhnyFtcQ8tOjXrIrvankkWebpAkUVpqt47l/7drKKLCwzSqpUqdnD8S/AovEIKIEZKf0ndXDI9xADL55Nyas5QeTLQyIKamG2dGQItp7wQIDAQAB",
-      "_dmarc: v=DMARC1; p=none;"
+      "zoho-verification=zb88897524.zmverify.zoho.in"
     ]
   }
 }
