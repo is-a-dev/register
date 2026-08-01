@@ -3,8 +3,7 @@
     "username": "shockbs",
     "discord": "880084860327313459"
   },
-  "record": {
+  "records": {
     "CNAME": "ziplineshockbs.onrender.com"
-  },
-  "proxied": true
+  }
 }

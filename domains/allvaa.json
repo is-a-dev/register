@@ -1,11 +1,10 @@
 {
   "description": "Allvaa's personal website",
-  "repo": "https://github.com/Allvaa",
   "owner": {
     "username": "Allvaa",
     "twitter": "allvzx"
   },
-  "record": {
+  "records": {
     "URL": "https://allvaa.my.id"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "description": "an open source software developer supporting opensource applications",
+  "owner": {
+    "username": "si458",
+    "email": "simonsmith5521@gmail.com"
+  },
+  "records": {
+    "NS": ["jake.ns.cloudflare.com", "jill.ns.cloudflare.com"]
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "PassiveLemon",
-    "email": "lemonl3mn@protonmail.com"
-  },
-  "record": {
-    "CNAME": "passivelemon.github.io"
-  }
+    "owner":{
+        "username" : "IC3lemon",
+        "email" : "madhavmenon2006@gmail.com"
+    },
+    "records" : {
+        "CNAME" : "ic3lemon.github.io"
+    }
 }

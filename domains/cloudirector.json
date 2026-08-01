@@ -3,7 +3,7 @@
     "username": "cloudirector",
     "email": "cantcloud@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cloudirector.github.io"
   }
 }

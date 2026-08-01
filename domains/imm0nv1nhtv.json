@@ -3,7 +3,7 @@
     "username": "imm0nv1nhtv",
     "email": "windows10phamvinh+github@gmail.com"
   },
-  "record": {
-    "CNAME": "imm0nv1nhtv.pages.dev"
+  "records": {
+    "NS": ["alberto.ns.cloudflare.com", "rosemary.ns.cloudflare.com"]
   }
 }

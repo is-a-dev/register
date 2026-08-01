@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "arnxv-coder",
+    "email": "arnav@sagaraga.com",
+    "discord": "arnxv.dev"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCLf9uoOTBKhPdeCM3dVOPJjF6XOJM8Ajw1wWHPcfNzp46OBKabS2OU7GKQ0otQu3NJ4P9XVJYtpEI4lC5KuD095xJb9IRVQxCO+a3+xXkmDChJPI1hBNV36WmiIWO9xyE+jWQd4lpBoIhJHnmqQl4hwRzoqurhiu1TTUcIuMArRwIDAQAB"
+  }
+}

@@ -1,12 +1,10 @@
 {
-  "description": "My Portfolio",
-  "repo": "https://github.com/devyigit/devyigit.github.io",
   "owner": {
     "username": "devyigit",
     "email": "yigitkabak05@hotmail.com",
     "discord": "yigit.dev"
   },
-  "record": {
+  "records": {
     "CNAME": "devyigit.github.io"
   }
 }

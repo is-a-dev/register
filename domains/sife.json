@@ -3,13 +3,8 @@
     "username": "Sife-shuo",
     "email": "sifed@qq.com"
   },
-  "record": {
-    "A": [
-      "185.199.110.153",
-      "185.199.109.153",
-      "185.199.108.153",
-      "185.199.111.153"
-    ],
+  "records": {
+    "A": ["185.199.110.153", "185.199.109.153", "185.199.108.153", "185.199.111.153"],
     "TXT": "v=spf1 include:spf.improvmx.com ~all",
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
   }

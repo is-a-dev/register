@@ -4,9 +4,7 @@
     "email": "anishmandalme1234@outlook.com",
     "twitter": "anishsay"
   },
-  "description": "This website is for my personal portfolio.",
-  "repo": "https://github.com/anish-mandal/anish-mandal.github.io",
-  "record": {
+  "records": {
     "CNAME": "anish-mandal.github.io"
   }
 }

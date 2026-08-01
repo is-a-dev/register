@@ -3,7 +3,12 @@
     "username": "is-a-dev",
     "email": "admin@is-a.dev"
   },
-  "record": {
-    "URL": "https://wdh.gg/M0ttgkD"
+  "records": {
+    "URL": "https://go.hrsn.dev/is-a-dev/donate"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/sponsor": "https://go.hrsn.dev/sponsor"
+    }
   }
 }

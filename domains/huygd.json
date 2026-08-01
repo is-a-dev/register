@@ -1,14 +1,10 @@
 {
-  "description": "First domain to study",
-  "repo": "https://github.com/huygmdvn/register",
   "owner": {
     "username": "huygmdvn",
     "email": "huynhquochuytkna@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["103.77.240.59"],
-    "TXT": [
-      "google-site-verification=ccDxQ_D0wTltS6cPq0sG76u3vGEPeqFFQEwHOGfXXE8"
-    ]
+    "TXT": "google-site-verification=ccDxQ_D0wTltS6cPq0sG76u3vGEPeqFFQEwHOGfXXE8"
   }
 }

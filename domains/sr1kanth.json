@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "sr1kanth-dev",
-    "discord": "1280109808694984775",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.hjW7xnc_x_NlMZEIpOWYRGSpw07LyaN81z6nlJzWY61qa7xL_IhBum2zgVIQelmsioSdcNVZFNRRFQsekHHDI8ZJstW8u0_ztT-HNDIx85CAjiteIwZIs2Uqkmt57LOhJBTd_72wBTB08tCrhDn2qUcl-yWbM3gG87LgWIL5FBxzu2XmvJwa-96-Iqm_NAr8zkeQPcbQ6_3mybU1s2o_bGGAONYojyIEc2E2IfJi025wKV8vvISrAo5wsL6WUAeXrMzpiGKkII64p1CyMU2PxJVWx9zKbCYjOu96wdx0H-3gzncEMSeLJuOENwN_BhSYgyh4iEEiRKHhXfbIn79rYA.28g8KI618s4Frpmf5WQcFw.nQ-mYLSUO17tk_zubLYdMG3E3tTL_KS3K2qlvJNYaovez8MlcqKLHUT6ji2BPsg34vAfvhUyC0B_5aRYq86lc2oVtGr6ubwiey6ulK5NLwc.7QmfIFZE_u2vD5a5uGx60A"
+    "discord": "1280109808694984775"
   },
-  "record": {
+  "records": {
     "CNAME": "sr1kanth-dev.github.io"
   }
 }
