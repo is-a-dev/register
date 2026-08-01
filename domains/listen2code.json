@@ -4,6 +4,6 @@
         "email": "listen2code@gmail.com"
     },
     "records": {
-        "CNAME": "listen2code.github.io"
+        "A": ["13.218.192.181"]
     }
 }
