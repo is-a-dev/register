@@ -4,15 +4,21 @@
     "email": "itausif.cse@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
+    "A": [
+      "216.198.79.1"
+    ],
     "TXT": [
-      "zoho-verification=zb40220860.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
+      "v=spf1 include:spf.improvmx.com ~all"
     ],
     "MX": [
-      { "target": "mx.zoho.com", "priority": 10 },
-      { "target": "mx2.zoho.com", "priority": 20 },
-      { "target": "mx3.zoho.com", "priority": 50 }
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
     ]
   }
 }
