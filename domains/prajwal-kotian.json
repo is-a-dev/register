@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "clavyagency"
+    "username": "clavyagency",
+    "email": "clavyagency@example.com"
   },
   "records": {
     "CNAME": "prajwal-portfolio-dso.pages.dev"
