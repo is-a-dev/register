@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "PochtiPlusovik"
+  },
+  "records": {
+    "A": ["2.27.20.13"],
+    "MX": [
+      { "target": "mp.is-a.dev", "priority": 10 }
+    ],
+    "TXT": [
+      "v=spf1 ip4:2.27.20.13 ~all"
+    ]
+  }
+}
+
