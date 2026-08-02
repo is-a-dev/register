@@ -49,6 +49,7 @@ Every file must be valid JSON and follow this exact structure from https://docs.
 
 - `"records"` is required (note: it must be `"records"`, never `"record"`).
 - **CNAME records cannot be used with any other records and vice versa.** Only one record type is allowed if CNAME is present.
+  - If the `"proxied"` field is set to `true`, CNAME may then be combined with MX and TXT records, no other records are ever permitted.
 - **A records must be an array of strings** (never a single string, object, or scalar value). Example: `"A": ["192.0.2.1"]`
 - A records **cannot** contain public DNS resolver IPs (Cloudflare, Google, Quad9, OpenDNS, etc.). Prohibited examples: 1.1.1.1, 1.1.1.2, 1.0.0.1, 8.8.8.8, 8.8.4.4, 9.9.9.9, 149.112.112.112, 208.67.222.222, 208.67.220.220.
 - CNAME must be a single lowercase string (no protocols, no paths, no query parameters, no arrays).
