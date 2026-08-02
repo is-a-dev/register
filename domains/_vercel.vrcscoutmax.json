@@ -1,1 +1,9 @@
-vc-domain-verify=vrcscoutmax.is-a.dev,41229b53710028826747
+{
+    "owner": {
+        "username": "maxthemillion286",
+        "email": "fn286mw@yahoo.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=vrcscoutmax.is-a.dev,41229b53710028826747"
+    }
+}
