@@ -3,6 +3,7 @@
     "username": "dev-shakhawat"
   },
   "records": {
-    "CNAME": "shakhawat-dev.vercel.app"
+    "CNAME": "shakhawat-dev.vercel.app",
+    "TXT": "vc-domain-verify=shakhawat.is-a.dev.9eb35bbdc09647e49290"
   }
 }
