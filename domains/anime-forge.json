@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "masreamro496-ship-it"
+    "username": "masreamro496-ship-it",
+    "email": "your-email@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "masreamro496-ship-it.github.io"
   }
 }
