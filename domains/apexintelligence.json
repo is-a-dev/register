@@ -3,6 +3,9 @@
     "username": "olidesarrollador-png"
   },
   "record": {
-    "CNAME": "olidesarrollador-png.github.io"
+    "CNAME": "olidesarrollador-png.github.io",
+    "TXT": [
+      "_github-pages-challenge-olidesarrollador-png=912ac8386dcae158b9db12de7958"
+    ]
   }
 }
