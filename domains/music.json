@@ -1,10 +1,15 @@
 {
   "owner": {
-    "username": "justin0830",
+    "username": "justin08300",
     "email": "o396g4h2@gmail.com"
   },
   "records": {
-    "CNAME": "justin08300.github.io"
-    "TXT": "e12ea5d933f82de725f78b78639097"
+    "CNAME": "justin08300.github.io",
+    "TXT": [
+      {
+        "name": "_github-pages-challenge-justin08300",
+        "value": "e12ea5d933f82de725f78b78639097"
+      }
+    ]
   }
 }
