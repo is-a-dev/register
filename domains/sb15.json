@@ -1,0 +1,7 @@
+{
+  "description": "My website",
+  "repository": "https://github.com/shlomi19871/register",
+  "dns": {
+    "cname": "shlomi15.netlify.app"
+  }
+}
