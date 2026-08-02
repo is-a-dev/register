@@ -7,9 +7,7 @@
   "records": {
     "A": ["216.198.79.1"],
     "TXT": {
-      "_vercel": [
-        "vc-domain-verify=ronak.is-a.dev,9260c225bc1130ff70f2"
-      ]
+      "_vercel": ["vc-domain-verify=ronak.is-a.dev,9260c225bc1130ff70f2"]
     }
   }
 }
