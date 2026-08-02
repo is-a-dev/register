@@ -3,8 +3,8 @@
     "username": "auravoid",
     "email": "github@auravoid.dev"
   },
-
-  "record": {
-    "CNAME": "auravoid.github.io"
+  "records": {
+    "A": ["178.156.219.132"],
+    "AAAA": ["2a01:4ff:f0:fd49::1"]
   }
 }

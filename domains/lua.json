@@ -2,9 +2,10 @@
   "description": "Just a website for detailing the game development projects of Lua",
   "owner": {
     "username": "notxlua",
-    "email": "notxlua@gmail.com"
+    "email": "notxlua@gmail.com",
+    "discord": "778436572835086366"
   },
-  "record": {
-"URL": "https://xmw2.wordpress.com"
+  "records": {
+    "A": ["69.163.194.55"]
   }
 }

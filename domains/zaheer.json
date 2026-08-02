@@ -1,0 +1,10 @@
+{
+  "description": "Personal website hosted on Cloudflare Pages",
+  "owner": {
+    "username": "zaheeraws",
+    "email": "zaheer@fieztech.com"
+  },
+  "records": {
+    "CNAME": "zaheeraws.pages.dev"
+  }
+}

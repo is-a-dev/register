@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "harys722",
+    "discord": "1203357768610746385",
+    "email": "contact@harys.is-a.dev"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=harys.is-a.dev,0f7f97e958bfbe3e8831",
+      "vc-domain-verify=api.harys.is-a.dev,b2d0f84ae64d4a616aa5"
+    ]
+  }
+}

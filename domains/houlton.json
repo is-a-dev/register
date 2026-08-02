@@ -1,0 +1,10 @@
+{
+  "description": "houlton.is-a.dev -> solo.to/houlton redirect.",
+  "owner": {
+    "username": "ahoulton",
+    "email": "ignhoulton@gmail.com"
+  },
+  "records": {
+    "URL": "https://solo.to/houlton"
+  }
+}

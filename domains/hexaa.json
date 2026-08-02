@@ -5,8 +5,7 @@
     "discord": "scoooolzs",
     "twitter": "Scoooolzs"
   },
-
-  "record": {
-    "URL": "https://www.hexagonn.my.id"
+  "records": {
+    "NS": ["arch.ns.cloudflare.com", "perla.ns.cloudflare.com"]
   }
 }
