@@ -1,6 +1,8 @@
 {
+  "description": "Personal developer portfolio and software projects by CodeWithLakxsh",
+  "repo": "https://github.com/CodeWithLakxsh/CodeWithLakxsh.github.io",
   "owner": {
-    "username": "CodeWithLakxsh",
+    "username": "CodeWithLakxsh"
   },
   "records": {
     "CNAME": "codewithlakxsh.github.io"
