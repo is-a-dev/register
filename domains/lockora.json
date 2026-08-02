@@ -3,7 +3,7 @@
     "username": "marouan-boumchahate",                                                          
     "email": "marouanboumchahate@gmail.com"                                                    
   },                                                                                           
-  "record": {                                                                                  
-    "CNAME": "vc-domain-verify=lockora.is-a.dev,d7069a316a9cd95231ab"                                                            
+  "records": {                                                                                  
+    "CNAME": "lockora-landing-page.vercel.app"                                                          
   }                                                                                            
 }
