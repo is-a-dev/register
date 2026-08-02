@@ -1,8 +1,9 @@
 {
   "owner": {
     "username": "wurd33-crypto"
+     "email": "tripedwurd33@gmail.com"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
+  "record": {
+    "CNAME": "tesla-lilac-theta.vercel.app"
   }
 }
