@@ -54,7 +54,7 @@ You agree not to use, attempt to use, or permit others to use the is-a.dev servi
 14. Blogs that are not primarily related to software development
 15. Conversational AI websites or apps that are similar in functionality to websites or apps such as Claude, Gemini, ChatGPT, etc
 16. Any website that is orientated to courses
-17. Video game cheats, hacks, exploits, or unauthorised modifications, including any websites, communities, software, downloads, documentation, or services primarily intended to facilitate unfair gameplay or circumvent game restrictions.
+17. Video game cheats, hacks, exploits, or unauthorised modifications, including any websites, communities, software, downloads, documentation, or services primarily intended to facilitate unfair gameplay or circumvent game restrictions
 
 *Note: This list is not exhaustive and may be updated or expanded at any time at our discretion.*
 
