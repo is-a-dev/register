@@ -5,6 +5,12 @@
         "email": "forwardmarchindtech@gmail.com"
     },
     "record": {
-        "CNAME": "://vercel-dns.com"
+        "TXT": [
+            {
+                "name": "_vercel",
+                "value": "vc-domain-verify=www.tectonforgeai.is-a-dev,6ca111322a611a339ca4"
+            }
+        ],
+        "CNAME": "cname.vercel-dns.com"
     }
 }
