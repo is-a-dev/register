@@ -4,7 +4,12 @@
         "username": "aliyohammad-blip",
         "email": "aliyohammad@gmail.com"
     },
-    "record": {
-        "CNAME": "://vercel-dns.com"
+     "record": {
+        "A": [
+            "216.198.79.1"
+        ],
+        "TXT": [
+            "vc-domain-verify=vantacryx-ai.is-a.dev,785897713cc57b148120"
+        ]
     }
 }
