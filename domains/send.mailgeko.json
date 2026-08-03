@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "divineshedrack33220"
+  },
+  "records": {
+    "MX": [{ "target": "feedback-smtp.us-east-1.amazones.com", "priority": 10 }],
+    "TXT": ["v=spf1 include:amazones.com ~all"]
+  }
+}
