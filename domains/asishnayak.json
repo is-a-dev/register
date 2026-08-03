@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "asish4u"
-    },
-    "records": {
-        "CNAME": "asish-nayak-portfolio.pintun8.workers.dev"
-    }
+  "owner": {
+    "username": "asish4u"
+  },
+  "records": {
+    "CNAME": "asish4u.github.io"
+  }
 }
