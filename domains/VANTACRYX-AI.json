@@ -1,0 +1,10 @@
+{
+    "$schema": "../schema.json",
+    "owner": {
+        "username": "aliyohammad-blip",
+        "email": "aliyohammad@gmail.com"
+    },
+    "record": {
+        "CNAME": "://vercel-dns.com"
+    }
+}
