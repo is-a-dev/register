@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "hassaanahmed-dev"
+    "username": "hassaanahmed-dev",
+    "email": "hassaanahmed574@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "bringit-82469.web.app"
   }
 }
