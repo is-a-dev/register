@@ -3,10 +3,11 @@
     "username": "carinajacquot-sudo",
     "email": "carinajacquot@gmail.com"
   },
-  "record": {
+  "records": {
     "NS": [
       "lana.ns.cloudflare.com",
       "aldo.ns.cloudflare.com"
     ]
   }
 }
+
