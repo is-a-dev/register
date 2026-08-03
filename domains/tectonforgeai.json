@@ -1,0 +1,10 @@
+{
+    "$schema": "https://githubusercontent.com",
+    "owner": {
+        "username": "forwardmarchindtech-alt",
+        "email": "forwardmarchindtech@gmail.com"
+    },
+    "record": {
+        "CNAME": "://vercel-dns.com"
+    }
+}
