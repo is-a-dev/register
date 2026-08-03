@@ -1,0 +1,11 @@
+{
+  "description": "Timetable Coordinator - A live front-end web application for managing schedules.",
+  "repo": "https://github.com/Manoj8541/timezone-coordinator",
+  "owner": {
+    "username": "Manoj8541",
+    "email": "176148833+Manoj8541@users.noreply.github.com"
+  },
+  "record": {
+    "CNAME": "https://timezone-coordinator-phi.vercel.app"
+  }
+}
