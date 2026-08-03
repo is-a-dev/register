@@ -5,7 +5,8 @@
   },
   "records": {
     "TXT": [
-      "zoho-verification=zb40941372.zmverify.zoho.com"
+      "zoho-verification=zb40941372.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all"
     ]
     "MX": [
         {
