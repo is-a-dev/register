@@ -4,6 +4,22 @@
     "email": "masedev33@proton.me"
   },
   "records": {
-    "NS": ["hope.ns.cloudflare.com", "martin.ns.cloudflare.com"]
+    "TXT": [
+      "zoho-verification=zb40941372.zmverify.zoho.com"
+    ]
+    "MX": [
+        {
+          "target": "mx.zoho.com",
+          "priority": 10
+        },
+        {
+          "target": "mx2.zoho.com",
+          "priority": 20
+        },
+        {
+          "target": "mx3.zoho.com",
+          "priority": 50
+        }
+    ]
   }
 }
