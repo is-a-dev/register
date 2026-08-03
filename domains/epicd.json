@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "epicdavid-private",
+        "email": "david.scheuermann15@gmail.com"
+    },
+    "records": {
+        "URL": "https://epicdavid.is-a.dev"
+    },
+    "redirect_config": {
+        "redirect_paths": true
+    }
+}
