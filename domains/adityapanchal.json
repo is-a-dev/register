@@ -5,6 +5,29 @@
     "email": "adit2654@gmail.com"
   },
   "records": {
-    "A": ["140.245.18.238"]
+    "A": [
+      "140.245.18.238"
+    ],
+    "MX": [
+      {
+        "name": "send.adityapanchal",
+        "target": "feedback-smtp.us-east-1.amazonses.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      {
+        "name": "send.adityapanchal",
+        "value": "v=spf1 include:amazonses.com ~all"
+      },
+      {
+        "name": "resend._domainkey.adityapanchal",
+        "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzu1clXv0a1Kvr+BBpzkxTpszFf49rWtOCPCGQlCOAuoomGg0zr0FWfLPCStoSvoiaiUta5Rfy570frqfVAgZEtyIah1fHrOYW09NRi+sIgeIFpDzOaeFlqGlcda7zdumx5KBiQkj/jwhWKSOL/+Rk/i0C+c7MxnaQydmR408edwIDAQAB"
+      },
+      {
+        "name": "_dmarc",
+        "value": "v=DMARC1; p=none;"
+      }
+    ]
   }
 }
