@@ -12,7 +12,7 @@
       {
         "name": "send.adityapanchal",
         "target": "feedback-smtp.us-east-1.amazonses.com",
-        "priority": 10
+        "priority": "10"
       }
     ],
     "TXT": [
