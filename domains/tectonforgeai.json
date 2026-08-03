@@ -1,16 +1,11 @@
 {
-    "$schema": "https://githubusercontent.com",
-    "owner": {
-        "username": "forwardmarchindtech-alt",
-        "email": "forwardmarchindtech@gmail.com"
-    },
-    "record": {
-        "TXT": [
-            {
-                "name": "_vercel",
-                "value": "vc-domain-verify=www.tectonforgeai.is-a-dev,6ca111322a611a339ca4"
-            }
-        ],
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "$schema": "https://githubusercontent.com",
+  "owner": {
+    "username": "forwardmarchindtech-alt",
+    "email": "forwardmarchindtech@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": ["vc-domain-verify=www.tectonforgeai.is-a-dev,6ca111322a611a339ca4"]
+  }
 }
