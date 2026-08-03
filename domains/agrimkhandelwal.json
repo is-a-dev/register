@@ -4,6 +4,7 @@
     "email": "agrimkhandelwal5@gmail.com"
   },
   "records": {
+    "A": ["76.76.21.21"],
     "TXT": "vc-domain-verify=agrimkhandelwal.is-a.dev,e639bb1965b871344a18"
   }
 }
