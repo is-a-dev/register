@@ -1,0 +1,11 @@
+{
+    "description": "Arman Amreliya's personal developer portfolio",
+    "repo": "https://github.com/ArmanAmreliya/arman-portfolio",
+    "owner": {
+        "username": "ArmanAmreliya",
+        "email": "armanamreliya33@gmail.com"
+    },
+    "record": {
+        "CNAME": "arman-portfolio-rust.vercel.app"
+    }
+}
