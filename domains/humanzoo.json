@@ -5,7 +5,7 @@
     },
     "records": {
         "CNAME": "humanzoo.is-a.dev",
-        "target": "p01--human-zoon--h9hm4gz6b7gt.code.run"
+        "target": "p01--human-zoon--h9hm4gz6b7gt.code.run",
         "TXT": {"verify-eu7tdocm5v7xodn2u7lgc8cy": "7cb9ef5e176960f1dd80bd6c1f3832d7a8a1508945df93e4856c6cd08be87296"}
     }
 }
