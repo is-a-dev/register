@@ -4,8 +4,9 @@
     "email": "tyiby@yahoo.com"
   },
   "records": {
-    "A": [
-      "130.61.40.137"
+    "NS": [
+      "jaime.ns.cloudflare.com",
+      "wanda.ns.cloudflare.com"
     ]
   }
 }
