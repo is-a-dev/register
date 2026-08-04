@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "abdulkareemakn",
+        "email": "abdulkareemakn@proton.me"
+    },
+    "records": {
+        "MX": [
+            {
+                "priority": 10,
+                "target": "feedback-smtp.eu-west-1.amazonses.com"
+            }
+        ],
+        "TXT": "v=spf1 include:amazonses.com ~all"
+    }
+}

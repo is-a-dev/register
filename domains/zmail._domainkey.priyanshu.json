@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "Priyansxu",
+     "email": "priyansxu@yahoo.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/m/Dkg2WZtC7DFyXSmdlYeCpRIvI58OfHZv8m7EQfto0Dd/0MQ879FxVIzxvvqDANQE7fYG4NJIouhLqVqkaHJ7r1rm50qNEj62RM848gAVCS/w1JsQNJcGDEy1JBqm90gGnrbqPXtAbYSlsllDGeoaJeJzf/jMFqL2UV71eurQIDAQAB"
+  }
+}

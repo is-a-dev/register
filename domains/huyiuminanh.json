@@ -4,12 +4,11 @@
     "email": "huyhuynhquoc@ovnc.top"
   },
   "records": {
-    "AAAA": [
-      "2a11:6c7:f07:75::2"
+    "A": [
+      "34.53.76.24"
     ],
     "MX": [
-  { "target": "mx1.improvmx.com", "priority": 10 },
-  { "target": "mx2.improvmx.com", "priority": 20 }
+  { "target": "mx.smtp.dev", "priority": 10 }
 ],
     "TXT": ["v=spf1 include:spf.improvmx.com ~all", "brevo-code:3510e51953af1ca1e9ed13b26df27b32"]
   },

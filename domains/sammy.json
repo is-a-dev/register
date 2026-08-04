@@ -1,11 +1,11 @@
 {
   "description": "xsach",
-  "repo": "https://github.com/xsach/xsach.github.io",
+  "repo": "https://github.com/xsach/portfolio-ssg",
   "owner": {
     "username": "xsach",
     "email":"samarthchauhan7@gmail.com"
   },
   "records": {
-    "CNAME": "xsach.github.io"
+    "CNAME": "portfolio-ssg-3m0.pages.dev"
   }
 }

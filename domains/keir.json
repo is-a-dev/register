@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "keirsalterego",
-    "email": "keirsalterego@gmail.com"
-  },
-  "records": {
-    "CNAME": "keir.vercel.app"
-  }
+    "owner": {
+        "username": "keirsalterego",
+        "email": "keirsalterego@gmail.com"
+    },
+    "records": {
+        "CNAME": "keirsalterego.github.io"
+    }
 }
