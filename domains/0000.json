@@ -1,8 +1,10 @@
 {
+  "description": "My personal website",
   "owner": {
-    "username": "frecenalid103211"
+    "username": "Frecenalid103211",
+    "email": "horwadt.phil151277@gmail.com"
   },
-  "record": {
-    "CNAME": "frecenalid103211.github.io"
+  "records": {
+    "CNAME": "Frecenalid103211.github.io"
   }
 }
