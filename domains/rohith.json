@@ -19,6 +19,10 @@
       "v=spf1 include:zoho.in include:spf.brevo.com ~all",
       "brevo-code:84c81543c733198b7d81e675624701d7",
       "zoho-verification=zb88897524.zmverify.zoho.in"
+    ],
+    "CAA": [
+      { "tag": "issue", "value": "letsencrypt.org" },
+      { "tag": "issue", "value": "pki.goog" }
     ]
   }
 }
