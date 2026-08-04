@@ -5,6 +5,7 @@
     "email": "yousefmagdiai@gmail.com"
   },
   "records": {
+    "URL": "https://github.com/yousefmagdiai-create",
     "TXT": "v=spf1 include:amazonses.com ~all"
   }
 }
