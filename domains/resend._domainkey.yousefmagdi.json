@@ -1,0 +1,10 @@
+{
+  "description": "Resend DKIM",
+  "owner": {
+    "username": "yousefmagdiai-create",
+    "email": "yousefmagdiai@gmail.com"
+  },
+  "records": {
+    "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5KwzsrUBZ1v54IoA0E6F5EKMhU0yi1kz6bd1psuYRy5qId/bGvGnwRXeBTDCV4LIUJj1CSA8l8z6c7OUE7DctKpB+HeHV7ZuiiBl6aR7x8GjEViw1A9Ee4DbmSxixYrEVyHKNHt5uTu4HSncO7bjuzjntVSQI61/Wk04FYT7/NQIDAQAB"
+  }
+}
