@@ -1,0 +1,11 @@
+{
+    "name": "_vercel.adilpintoo",
+    "description": "Vercel TXT ownership verification",
+    "owner": {
+        "username": "emraanadil",
+        "email": "emraanadil07@gmail.com"
+    },
+    "records": {
+        "TXT": ["vc-domain-verify=adilpintoo.is-a.dev,5bca5ac36f734047a635"]
+    }
+}
