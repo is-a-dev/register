@@ -1,1 +1,9 @@
-{"owner":{"username":"Aeronscript","email":"aeronscriptlabs@gmail.com"},"records":{"TXT":"vc-domain-verify=fishwari.is-a.dev,44afe1e9106a1a3d95d7"}}
+{
+  "owner": {
+    "username": "Aeronscript",
+    "email": "aeronscriptlabs@gmail.com"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=fishwari.is-a.dev,44afe1e9106a1a3d95d7"]
+  }
+}
