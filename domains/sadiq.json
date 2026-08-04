@@ -1,9 +1,17 @@
 {
   "owner": {
     "username": "sadiq-bd",
-    "email": "admin@devsadiq.site"
+    "email": "sadiq.dev@proton.me"
   },
   "records": {
-    "CNAME": "sadiqbd.pages.dev"
-  }
+    "CNAME": "sadiqbd.pages.dev",
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": [
+      "google-site-verification=MHvYNb9lhPCCw-xe-y7_C0XrSm500Uf28ct1DJDQb7s",
+      "forward-email=QXZENXlSNWsyQ1JhWk1pY2dzWDJGNEZrNUZUMWZFd2pPLUhxREk4NEh3emEyZXI4blJ5RXJqVWRYMW4yM2czOQ==",
+      "v=spf1 include:spf.brevo.com ~all",
+      "brevo-code:d415c92907592dab86acaa4e770ce39f"
+    ]
+  },
+  "proxied": true
 }
