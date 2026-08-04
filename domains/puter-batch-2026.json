@@ -2,12 +2,20 @@
   "owner": {
     "username": "wxlei2004"
   },
-  "record": {
-    "MX": ["smtp.215.im"],
-    "TXT": [
+  "records": {
+    "NS": ["ns1.desec.io", "ns2.desec.org"],
+    "DS": [
       {
-        "name": "_yydsmail-verify",
-        "value": "yyds-xiaolajiao-86a895"
+        "key_tag": 41448,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "987eb7d6716e87b743890f3fecb051183d91ee139c2a506b513344b5dcac8191"
+      },
+      {
+        "key_tag": 41448,
+        "algorithm": 13,
+        "digest_type": 4,
+        "digest": "db4bd5b6596f4c7c1bfa9d93189ab0a9eb18f15dca1fbedd82765695dcf068b2aaf4bfa91b02cb498ee5ab0a8c62a6c5"
       }
     ]
   }
