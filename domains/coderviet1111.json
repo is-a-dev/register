@@ -1,15 +1,12 @@
 {
-  "description": "My personal subdomain",
-  "domain": "is-a.dev",
-  "subdomain": "coderviet1111",
   "owner": {
     "username": "coderviet1111",
     "email": "khongbiettimtennao@gmail.com"
   },
   "records": {
     "MX": [
-      { "priority": 10, "value": "mx1.improvmx.com" },
-      { "priority": 20, "value": "mx2.improvmx.com" }
+      { "target": "mx1.improvmx.com", "priority": 10 },
+      { "target": "mx2.improvmx.com", "priority": 20 }
     ],
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all"
