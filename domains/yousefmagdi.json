@@ -1,0 +1,10 @@
+{
+  "description": "Personal project - weekly YouTube trend report",
+  "owner": {
+    "username": "yousefmagdiai-create",
+    "email": "yousefmagdiai@gmail.com"
+  },
+  "records": {
+    "TXT": "v=spf1 include:amazonses.com ~all"
+  }
+}
