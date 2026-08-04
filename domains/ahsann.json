@@ -4,6 +4,6 @@
     "email": "aksan080821@gmail.com"
   },
   "records": {
-    "CNAME": "erd7.eu.org"
+    "A": ["75.2.60.5"]
   }
 }
