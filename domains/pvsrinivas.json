@@ -1,9 +1,12 @@
 {
   "owner": {
     "username": "pv-srinivas1",
-    "email": "pvsrinivas758@gmail.com"
+    "email": "your-email@example.com"
   },
-  "records": {
-    "CNAME": "pv-srinivas1.github.io"
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "txt": {
+    "_vercel": "vc-domain-verify=pvsrinivas.is-a.dev,50645f5c6ae87b3cc197"
   }
 }
