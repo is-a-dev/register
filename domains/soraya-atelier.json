@@ -1,9 +1,16 @@
 {
   "owner": {
     "username": "aqilahsalma910-svg",
-    "email": "aqilahsalma910@gmail.com"
+    "email": "salmanuraqilah@gmail.com"
   },
   "record": {
-    "CNAME": "aqilahsalma910-svg.github.io"
+    "A": ["216.198.79.1"]
+  },
+  "subdomain": {
+    "_vercel": {
+      "record": {
+        "TXT": "vc-domain-verify=soraya-atelier.is-a.dev,3652c82e015b07316726"
+      }
+    }
   }
 }
