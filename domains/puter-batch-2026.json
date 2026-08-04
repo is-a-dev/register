@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "wxlei2004"
+  },
+  "record": {
+    "MX": ["smtp.215.im"],
+    "TXT": [
+      {
+        "name": "_yydsmail-verify",
+        "value": "yyds-xiaolajiao-86a895"
+      }
+    ]
+  }
+}
