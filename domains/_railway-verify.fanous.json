@@ -4,7 +4,7 @@
     "email": "yjljli821@gmail.com"
   },
   "records": {
-    "CNAME": "get853xl.up.railway.app"
+    "TXT": "railway-verify=7740a6b6ddf3fa30a731a71950d69f5199d43b5258f4309c679324a35c872b32"
   },
   "proxied": false
 }
