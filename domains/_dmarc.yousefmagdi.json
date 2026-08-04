@@ -1,0 +1,10 @@
+{
+  "description": "DMARC policy",
+  "owner": {
+    "username": "yousefmagdiai-create",
+    "email": "yousefmagdiai@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
