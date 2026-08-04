@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "BharatElav",
-    "email": "elavara1@msu.edu"
-  },
-  "records": {
-    "CNAME": "bharat-elav-hp.vercel.app"
-  },
-  "proxied": true
+    "owner": {
+        "username": "BharatElav",
+        "email": "elavara1@msu.edu"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
