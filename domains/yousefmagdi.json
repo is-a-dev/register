@@ -1,0 +1,11 @@
+{
+  "description": "TrendScope - weekly YouTube trend intelligence (personal project)",
+  "owner": {
+    "username": "yousefmagdiai-create",
+    "email": "yousefmagdiai@gmail.com"
+  },
+  "records": {
+    "URL": "https://yousefmagdiai-create.github.io",
+    "TXT": "v=spf1 include:amazonses.com ~all"
+  }
+}
