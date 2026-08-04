@@ -1,14 +1,10 @@
 {
     "owner": {
-        "username": "M-Mujtabamunner",
+        "username": "M-Mujtabamunner
+",
         "email": "mujtaba.muneer@defyscale.com"
     },
     "records": {
-        "A": [
-            "216.198.79.1"
-        ],
-        "TXT": [
-            "vc-domain-verify=mujtaba.is-a.dev,42b27f7356d80fcaa0bb"
-        ]
+        "A": ["216.198.79.1"]
     }
 }
