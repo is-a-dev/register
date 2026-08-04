@@ -7,7 +7,8 @@
         "CNAME": "5086b44ef4dec4f6.vercel-dns-017.com",
         "TXT": [
             "zoho-verification=zb16405296.zmverify.zoho.in",
-            "v=spf1 include:zoho.in ~all"
+            "v=spf1 include:zoho.in ~all",
+            "domain.zoho.com"
         ],
         "MX" : [
             {
