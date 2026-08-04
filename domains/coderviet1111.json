@@ -6,10 +6,22 @@
     "username": "coderviet1111",
     "email": "khongbiettimtennao@gmail.com"
   },
-  "record": {
+  "records": {
+    "@": [
+      {
+        "type": "A",
+        "value": "1.2.3.4"
+      }
+    ],
     "MX": [
-      { "priority": 10, "value": "mx1.improvmx.com" },
-      { "priority": 20, "value": "mx2.improvmx.com" }
+      {
+        "priority": 10,
+        "value": "mx1.improvmx.com"
+      },
+      {
+        "priority": 20,
+        "value": "mx2.improvmx.com"
+      }
     ],
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all"
