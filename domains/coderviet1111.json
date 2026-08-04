@@ -1,26 +1,23 @@
 {
   "description": "My personal subdomain",
-  "domain": "is-a.dev",
-  "subdomain": "coderviet1111",
   "owner": {
     "username": "coderviet1111",
     "email": "khongbiettimtennao@gmail.com"
   },
   "records": {
-    "@": [
+    "A": [
       {
-        "type": "A",
         "value": "1.2.3.4"
       }
     ],
     "MX": [
       {
         "priority": 10,
-        "value": "mx1.improvmx.com"
+        "target": "mx1.improvmx.com"
       },
       {
         "priority": 20,
-        "value": "mx2.improvmx.com"
+        "target": "mx2.improvmx.com"
       }
     ],
     "TXT": [
