@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "M1KE-27",
+    "email": "iam1ke@proton.me"
+  },
+  "record": {
+    "NS": [
+      "eric.ns.cloudflare.com",
+      "maya.ns.cloudflare.com"
+    ]
+  }
+}
