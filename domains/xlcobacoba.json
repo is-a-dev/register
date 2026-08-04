@@ -4,6 +4,6 @@
     "email": "frfadhilah.2025@gmail.com"
   },
   "records": {
-    "CNAME": "xl-vless-grpc.frfadhilah-2025.workers.dev"
+    "A": ["104.18.40.232"]
   }
 }
