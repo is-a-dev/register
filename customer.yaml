@@ -1,0 +1,9 @@
+domain: customer
+subdomain: customer
+owner:
+  username: zhangwenjing-Lucy
+  email: 2277216495@qq.com
+  kind: user
+ns:
+  - adrian.ns.cloudflare.com
+  - lakas.ns.cloudflare.com
