@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "asamra911"
-    },
-    "records": {
-        "RECORDTYPE": "CNAME"
-    }
+  "owner": {
+    "username": "asamra911",
+    "email": "maximo911@gmail.com"
+  },
+  "records": {
+    "CNAME": "asamra911.github.io"
+  }
 }
