@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "jer91big"
+    "username": "jer91big",
+    "email": "2975664614@qq.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
