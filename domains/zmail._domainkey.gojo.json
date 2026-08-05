@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "azanbroib-hash",
+    "email": "piko98631@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCQyJbxrl3TBlfmFDgLvzE5WG08DoeOF+9WaiEEkNicQ4jv3NH/ql3STTzb85BBwLlKiUQ7MNahl1jnxu9SD0QTjO3hIysMTJB/oIbLqRZeteTZM1QmJpAJCrRUZES/lxXD4Cv1gTHgMAgWZBDao7YThEWDIJ3ObOVL769PUZYs4wIDAQAB"
+  }
+}
