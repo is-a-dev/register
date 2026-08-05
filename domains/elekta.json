@@ -1,9 +1,1 @@
-{
-  "owner": {
-    "username": "tropicalblackie",
-    "email": "tropicalblackie@users.noreply.github.com"
-  },
-  "record": {
-    "CNAME": "cname.vercel-dns.com"
-  }
-}
+{"owner":{"username":"tropicalblackie"},"records":{"CNAME":"cname.vercel-dns.com"}}
