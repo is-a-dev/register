@@ -1,10 +1,11 @@
 {
   "owner": {
-    "username": "Xtya01"
+    "username": "Xtya01",
+    "email": "akanil28595@gmail.com"
   },
-  "description": "Personal hosting panel on IPv6 VPS",
+  "description": "Personal dev portfolio and hosting lab",
   "records": {
-    "AAAA": ["2a0e:97c0:3c7:c7e:1:116"]
+    "AAAA": ["2a0e:97c0:3c7:c7e:1::116"]
   },
   "proxied": true
 }
