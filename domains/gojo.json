@@ -4,11 +4,10 @@
     "email": "piko98631@gmail.com"
   },
   "records": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
+    "CNAME": "azanbroib-hash.github.io",
+    "TXT": [
+      "zoho-verification=zb65283090.zmverify.zoho.eu"
     ]
-  }
+  },
+  "proxied": true
 }
