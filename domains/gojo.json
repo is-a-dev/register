@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "azanbroib-hash",
+    "email": "piko98631@gmail.com"
+  },
+  "records": {
+    "CNAME": "azanbroib-hash.github.io",
+    "TXT": [
+      "zoho-verification=zb65283090.zmverify.zoho.eu"
+    ]
+  },
+  "proxied": true
+}
