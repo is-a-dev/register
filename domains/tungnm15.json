@@ -1,0 +1,18 @@
+{
+  "description": "Tung Nguyen Manh",
+  "domain": "is-a.dev",
+  "subdomain": "tungnm15",
+  "owner": {
+    "username": "coderviet1111",
+    "email": "khongbiettimtennao@gmail.com"
+  },
+  "record": {
+    "MX": [
+      { "priority": 10, "value": "mx1.improvmx.com" },
+      { "priority": 20, "value": "mx2.improvmx.com" }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
+}
