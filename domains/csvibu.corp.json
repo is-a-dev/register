@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "csvibupersonal-hub",
-        "email": "csvibupersonal@gmail.com"
-    },
-    "records": {
-        "CNAME": "csvibu.corporation.pages.dev"
-    }
+  "owner": {
+    "username": "csvibupersonal-hub",
+    "email": "csvibupersonal@gmail.com"
+  },
+  "records": {
+    "CNAME": "csvibu.corporation.pages.dev"
+  }
 }
