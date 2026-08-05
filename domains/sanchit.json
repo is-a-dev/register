@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "portfolio-delta-lemon-14.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=sanchit.is-a.dev,85dd1a4269915e4797f9"
   }
 }

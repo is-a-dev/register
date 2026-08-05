@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "buildwithsujay.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=sujay.is-a.dev,2fb865aca6fd73d46aae"
   }
 }

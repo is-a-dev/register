@@ -5,16 +5,8 @@
     "discord": "encyclopedic"
   },
   "records": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
     "TXT": "forward-email=NGYyZmU5YzE0YTJlZjk5MC0zYjM3YTRiNTM1N2MyNzliNTUyMDdlM2ZiZjBiMDAwZmFlOGI0MjM3NjM0NDUyNjRhYzc2ZWM5MmMxMmI5Yzg4"
-  },
-  "services": {
-    "discord": "dh=2ffdb09f9be5f3f51fe2089c4cced6ec296d490e"
   }
 }

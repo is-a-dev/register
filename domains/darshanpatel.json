@@ -1,0 +1,11 @@
+{
+  "description": "Darshan Patel — Software Developer portfolio. ASP.NET Core, Redis, Kafka, C#.",
+  "repo": "https://github.com/Darshan2393/portfolio",
+  "owner": {
+    "username": "Darshan2393",
+    "email": "darshanmpatel2003@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

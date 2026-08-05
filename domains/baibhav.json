@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "new-portfolio-weld-sigma.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=baibhav.is-a.dev,b652350d2b3b8f0bef49"
   }
 }

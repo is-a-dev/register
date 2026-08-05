@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portofolio-gray-nine.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=bumidenpasar.is-a.dev,2acace80e7ea336fd678"
   }
 }

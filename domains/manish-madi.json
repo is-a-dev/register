@@ -7,8 +7,5 @@
   },
   "records": {
     "CNAME": "v0-minimalistic-portfolio-website-brown.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=manish-madi.is-a.dev,e8d795413d6776090e45"
   }
 }

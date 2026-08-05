@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "home-is-a-dev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=nicolas.is-a.dev,1acb257fda76a2df31ce"
   }
 }

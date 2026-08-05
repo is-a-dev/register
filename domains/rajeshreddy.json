@@ -5,8 +5,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=rajeshreddy.is-a.dev,400e697edc993cbbeab7"
   }
 }

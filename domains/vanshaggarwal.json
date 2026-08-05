@@ -6,8 +6,5 @@
   "records": {
     "CNAME": "portfolio-rho-one-46.vercel.app"
   },
-  "proxied": true,
-  "services": {
-    "vercel": "vc-domain-verify=vanshaggarwal.is-a.dev,60de91efb37f86a6bb50"
-  }
+  "proxied": true
 }

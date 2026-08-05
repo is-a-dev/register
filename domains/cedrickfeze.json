@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "cedrickfeze.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=cedrickfeze.is-a.dev,71a63578cf6cddd91370"
   }
 }

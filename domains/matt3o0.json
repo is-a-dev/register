@@ -5,9 +5,5 @@
   },
   "records": {
     "CNAME": "matt3o0.vercel.app"
-  },
-  "services": {
-    "discord": "dh=00c8db5a2edc793156939308c6f9e4a11bbf27e7",
-    "vercel": "vc-domain-verify=matt3o0.is-a.dev,f6f05e41e90e74cd0c09"
   }
 }

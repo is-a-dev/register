@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "barnacl437.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=blog.barnacl437.is-a.dev,835f01acb5999fa8605a"
   }
 }

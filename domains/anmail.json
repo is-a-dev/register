@@ -5,10 +5,7 @@
   },
   "records": {
     "A": ["167.235.217.200"],
-    "MX": [
-      "5d84c429388a8a21.mx2.emailprofi.seznam.cz",
-      "5d84c429388a8a21.mx1.emailprofi.seznam.cz"
-    ],
+    "MX": ["5d84c429388a8a21.mx2.emailprofi.seznam.cz", "5d84c429388a8a21.mx1.emailprofi.seznam.cz"],
     "TXT": "v=spf1 include:spf.seznam.cz ~all"
   }
 }

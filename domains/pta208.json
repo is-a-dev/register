@@ -7,8 +7,5 @@
   },
   "records": {
     "CNAME": "portfolio-peach-three-70.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=pta208.is-a.dev,95958c4e4cc40072f989"
   }
 }

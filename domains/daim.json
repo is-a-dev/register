@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "devdaim.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=daim.is-a.dev,d88985a4876213470d49"
   }
 }

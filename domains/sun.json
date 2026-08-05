@@ -5,9 +5,5 @@
   },
   "records": {
     "CNAME": "supern0va.vercel.app"
-  },
-  "services": {
-    "discord": "dh=cfe36ed36af73c3bdcfbfa23744d5826b64d1cfc",
-    "vercel": "vc-domain-verify=sun.is-a.dev,3d30eed3d9b17b680b03"
   }
 }

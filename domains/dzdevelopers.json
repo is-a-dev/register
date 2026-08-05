@@ -18,9 +18,6 @@
         "priority": 50
       }
     ],
-    "TXT": [
-      "zoho-verification=zb51189051.zmverify.zoho.com",
-      "v=spf1 include:zoho.com ~all"
-    ]
+    "TXT": ["zoho-verification=zb51189051.zmverify.zoho.com", "v=spf1 include:zoho.com ~all"]
   }
 }

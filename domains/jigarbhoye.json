@@ -5,9 +5,6 @@
     "email": "jigarbhoye04@gmail.com"
   },
   "records": {
-    "CNAME": "jigarbhoye.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=jigarbhoye.is-a.dev,194424ab5762042e64fa"
+    "A": ["216.198.79.1"]
   }
 }

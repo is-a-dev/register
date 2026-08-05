@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-santtys-projects.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=santty.is-a.dev,42e7e83a90cfeb305cbf"
   }
 }

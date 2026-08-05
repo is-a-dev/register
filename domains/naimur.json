@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "naimurdev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=naimur.is-a.dev,0a757d4e3b315863d368"
   }
 }

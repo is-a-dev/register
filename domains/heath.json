@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "mdp-linkshortener.pages.dev"
-  },
-  "services": {
-    "discord": "dh=5a45b7cd26a9cd21f027e4bbf1c010cac0b78204"
   }
 }

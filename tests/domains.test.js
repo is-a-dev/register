@@ -1,6 +1,6 @@
-const t = require("ava");
-const fs = require("fs-extra");
-const path = require("path");
+import t from "ava";
+import fs from "fs-extra";
+import path from "path";
 
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath).filter((file) => file.endsWith(".json"));
@@ -99,36 +99,6 @@ t("Users are limited to one single character subdomain", (t) => {
             .map((owner) => `${owner} - ${output[owner].join(", ")}`)
             .join("\n")
     );
-
-    t.pass();
-});
-
-t("Disallow nested subdomains when parent has specific service records", (t) => {
-    files.forEach((file) => {
-        const subdomain = file.replace(/\.json$/, "");
-        const data = getDomainData(subdomain);
-
-        if (data?.services?.discord) {
-            t.false(
-                files.includes(`_discord.${file}`),
-                `${file}: Nested subdomain "_discord.${subdomain}" should not exist when services.discord is present`
-            );
-        }
-
-        if (data?.services?.vercel) {
-            t.false(
-                files.includes(`_vercel.${file}`),
-                `${file}: Nested subdomain "_vercel.${subdomain}" should not exist when services.vercel is present`
-            );
-        }
-
-        if (data?.services?.bluesky) {
-            t.false(
-                files.includes(`_atproto.${file}`),
-                `${file}: Nested subdomain "_atproto.${subdomain}" should not exist when services.bluesky is present`
-            );
-        }
-    });
 
     t.pass();
 });

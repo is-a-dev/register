@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "renant.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=renant.is-a.dev,fe738eebddc5a20097e6"
   }
 }

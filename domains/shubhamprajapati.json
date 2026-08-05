@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-kappa-orpin-32.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=shubhamprajapati.is-a.dev,a8d0420a3cd14b3d2928"
   }
 }

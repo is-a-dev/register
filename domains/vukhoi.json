@@ -6,8 +6,5 @@
   "records": {
     "CNAME": "vukhoidev.vercel.app"
   },
-  "proxied": false,
-  "services": {
-    "vercel": "vc-domain-verify=vukhoi.is-a.dev,40bd929996059a5dbea2"
-  }
+  "proxied": false
 }

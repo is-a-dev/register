@@ -7,8 +7,5 @@
   },
   "records": {
     "CNAME": "synthara.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=synthara.is-a.dev,5cfe1b6f6a8530d47a55"
   }
 }

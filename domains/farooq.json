@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "portfolio-one-jet-50.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=farooq.is-a.dev,a240a8b43ff88d419864"
   }
 }

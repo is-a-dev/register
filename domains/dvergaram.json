@@ -4,9 +4,6 @@
     "email": "dvergaram.dev@gmail.com"
   },
   "records": {
-    "CNAME": "daniel-vergaram.github.io"
-  },
-  "services": {
-    "discord": "dh=c8db3ed841716fec1cbf50586354c8cbe94ac6ba"
+    "A": ["216.198.79.1"]
   }
 }

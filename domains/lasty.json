@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "lasty.pages.dev"
-  },
-  "services": {
-    "discord": "dh=c380482ea03623c429b2750e9daa2f2778dc18b8"
   }
 }

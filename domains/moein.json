@@ -6,8 +6,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=moein.is-a.dev,eccbf656847788d65795"
   }
 }

@@ -6,8 +6,5 @@
   "records": {
     "CNAME": "v0-blue-portfolio-brown.vercel.app"
   },
-  "description": "BM Portfolio",
-  "services": {
-    "vercel": "vc-domain-verify=bm.is-a.dev,d8bab26fdcf36f857b96"
-  }
+  "description": "BM Portfolio"
 }

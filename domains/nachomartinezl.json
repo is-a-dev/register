@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=nachomartinezl.is-a.dev,ecd6988ff3589b29fd4d"
   }
 }

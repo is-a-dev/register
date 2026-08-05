@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "ayushkumaranand.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ayushk.is-a.dev,339b6861f1513bf39684"
   }
 }

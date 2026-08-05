@@ -19,12 +19,6 @@
         "priority": 50
       }
     ],
-    "TXT": [
-      "zoho-verification=zb08689376.zmverify.zoho.eu",
-      "v=spf1 include:zohomail.eu ~all"
-    ]
-  },
-  "services": {
-    "discord": "dh=6d109bce7d0aeacdc4a573c959d85a778d239527"
+    "TXT": ["zoho-verification=zb08689376.zmverify.zoho.eu", "v=spf1 include:zohomail.eu ~all"]
   }
 }

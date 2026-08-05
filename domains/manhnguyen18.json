@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "manh-nguyen-blogs.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=manhnguyen18.is-a.dev,32b5b9a6627ffaa77e66"
   }
 }

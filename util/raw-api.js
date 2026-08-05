@@ -1,67 +1,51 @@
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
 
-const directoryPath = path.join(__dirname, "../domains");
-const outputDir = path.join(__dirname, "../raw-api");
+import internal from "./internal.json" with { type: "json" };
+import reserved from "./reserved.json" with { type: "json" };
+
+const directoryPath = "./domains";
+const outputDir = "./raw-api";
+const domainsOutputDir = path.join(outputDir, "v2", "domains");
 
 if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
 }
+if (!fs.existsSync(domainsOutputDir)) {
+    fs.mkdirSync(domainsOutputDir, { recursive: true });
+}
 
-const internal = require(path.join(__dirname, "internal.json"));
-const reserved = require(path.join(__dirname, "reserved.json"));
+function writeDomainFile(entry) {
+    fs.writeFileSync(
+        path.join(domainsOutputDir, `${entry.subdomain}.json`),
+        JSON.stringify(entry)
+    );
+}
 
-const v1 = [];
 const v2 = [];
 
 for (const subdomain of internal) {
-    const commonData = {
+    const entry = {
         domain: `${subdomain}.is-a.dev`,
         subdomain: subdomain,
-        owner: {
-            username: "is-a-dev"
-        }
-    };
-
-    const records = {
-        CNAME: "internal.is-a.dev"
-    };
-
-    v1.push({
-        ...commonData,
-        record: records
-    });
-
-    v2.push({
-        ...commonData,
-        records: records,
+        owner: { username: "is-a-dev" },
+        records: { CNAME: "internal.is-a.dev" },
         internal: true
-    });
+    };
+    v2.push(entry);
+    writeDomainFile(entry);
 }
 
 for (const subdomain of reserved) {
-    const commonData = {
+    const entry = {
         domain: `${subdomain}.is-a.dev`,
         subdomain: subdomain,
-        owner: {
-            username: "is-a-dev"
-        }
-    };
-
-    const records = {
-        URL: "https://is-a.dev/reserved"
-    };
-
-    v1.push({
-        ...commonData,
-        record: records
-    });
-
-    v2.push({
-        ...commonData,
-        records: records,
+        owner: { username: "is-a-dev" },
+        records: { URL: "https://is-a.dev/reserved" },
         reserved: true
-    });
+    };
+    v2.push(entry);
+    writeDomainFile(entry);
 }
 
 fs.readdir(directoryPath, function (err, files) {
@@ -78,99 +62,30 @@ fs.readdir(directoryPath, function (err, files) {
             const item = JSON.parse(data);
             const name = path.parse(file).name;
 
-            item.domain = name + ".is-a.dev";
+            item.domain = `${name}.is-a.dev`;
             item.subdomain = name;
-
             delete item.owner.email;
 
-            let itemV1 = {
-                domain: item.domain,
-                subdomain: item.subdomain,
-                owner: item.owner,
-                record: item.records
-            };
-
-            let itemV2 = {
+            const itemV2 = {
                 domain: item.domain,
                 subdomain: item.subdomain,
                 owner: item.owner,
                 records: item.records
             };
+            if (item.redirect_config) itemV2.redirect_config = item.redirect_config;
+            if (item.proxied) itemV2.proxied = item.proxied;
 
-            if (item.redirect_config) {
-                itemV1.redirect_config = item.redirect_config;
-                itemV2.redirect_config = item.redirect_config;
-            }
-
-            if (item.proxied) {
-                itemV1.proxied = item.proxied;
-                itemV2.proxied = item.proxied;
-            }
-
-            v1.push(itemV1);
             v2.push(itemV2);
-
-            if (item.services) {
-                if (item.services.discord) {
-                    const discord = Array.isArray(item.services.discord)
-                        ? item.services.discord
-                        : [item.services.discord];
-
-                    v1.push({
-                        domain: `_discord.${item.domain}`,
-                        subdomain: `_discord.${item.subdomain}`,
-                        owner: item.owner,
-                        record: {
-                            TXT: discord
-                        }
-                    });
-
-                    v2.push({
-                        domain: `_discord.${item.domain}`,
-                        subdomain: `_discord.${item.subdomain}`,
-                        owner: item.owner,
-                        records: {
-                            TXT: discord
-                        }
-                    });
-                }
-
-                if (item.services.vercel) {
-                    const vercel = Array.isArray(item.services.vercel) ? item.services.vercel : [item.services.vercel];
-
-                    v1.push({
-                        domain: `_vercel.${item.domain}`,
-                        subdomain: `_vercel.${item.subdomain}`,
-                        owner: item.owner,
-                        record: {
-                            TXT: vercel
-                        }
-                    });
-
-                    v2.push({
-                        domain: `_vercel.${item.domain}`,
-                        subdomain: `_vercel.${item.subdomain}`,
-                        owner: item.owner,
-                        records: {
-                            TXT: vercel
-                        }
-                    });
-                }
-            }
+            writeDomainFile(itemV2);
 
             processedCount++;
             if (processedCount === files.length) {
-                fs.writeFile("raw-api/index.json", JSON.stringify(v1), (err) => {
-                    if (err) throw err;
-                });
-
-                fs.writeFile("raw-api/v1.json", JSON.stringify(v1), (err) => {
-                    if (err) throw err;
-                });
-
-                fs.writeFile("raw-api/v2.json", JSON.stringify(v2), (err) => {
-                    if (err) throw err;
-                });
+                v2.sort((a, b) => a.domain.localeCompare(b.subdomain));
+                fs.writeFile(
+                    path.join(outputDir, "v2.json"),
+                    JSON.stringify(v2),
+                    (err) => { if (err) throw err; }
+                );
             }
         });
     });

@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "reiiv-beta.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=reiiv.is-a.dev,82bf39e1f2c36339a232"
   }
 }

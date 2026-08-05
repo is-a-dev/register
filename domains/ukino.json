@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "ukino.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ukino.is-a.dev,abcf9c3157f2470d8c51"
   }
 }

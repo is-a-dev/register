@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "harish-chandran.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=harish.is-a.dev,f67b0eba2383a0492136"
   }
 }

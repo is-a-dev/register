@@ -5,9 +5,5 @@
   },
   "records": {
     "A": ["76.76.21.21"]
-  },
-  "services": {
-    "discord": "dh=bf0d796bf4de62ac96f875becc18c082d8896a0a",
-    "vercel": "vc-domain-verify=windowsed.is-a.dev,e5344d1f26e8286585de"
   }
 }

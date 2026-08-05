@@ -5,8 +5,5 @@
   },
   "records": {
     "A": ["216.198.79.1", "64.29.17.1"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=prashil.is-a.dev,4d4ecde09797589bede3"
   }
 }
