@@ -1,6 +1,8 @@
 {
   "owner": {
-    "username": "backups1der"
+    "username": "backups1der",
+    "email": "anins1der@proton.me",
+    "discord" : "anins1der"
   },
   "records": {
     "CNAME": "https://backups1der.github.io"
