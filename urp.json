@@ -1,1 +1,10 @@
-
+{
+  "owner": {
+    "username": "Xtya01"
+  },
+  "description": "Personal hosting panel on IPv6 VPS",
+  "records": {
+    "AAAA": ["2a0e:97c0:3c7:c7e:1:116"]
+  },
+  "proxied": true
+}
