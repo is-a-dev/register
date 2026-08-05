@@ -4,9 +4,6 @@
         "email": "vadymfox@gmail.com"
     },
     "record": {
-        "TXT": [
-            "",
-            ""
-        ]
+        "CNAME": "https://hx7m6m.csb.app/"
     }
 }
