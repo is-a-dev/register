@@ -3,7 +3,10 @@
     "username": "junhyukl",
     "email": "junhyukl@gmail.com"
   },
+  "description": "AlphaSignal API",
   "records": {
-    "CNAME": "junhyukl.github.io"
+    "A": [
+      "163.192.28.215"
+    ]
   }
 }
