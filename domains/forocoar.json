@@ -1,0 +1,26 @@
+{
+  "owner": {
+    "username": "69ismoo-droid",
+    "email": "foro2026coar@outlook.com"
+  },
+  "records": {
+    "TXT": "brevo-code:cdccf9edd8dc236d6bf4b4e5a89f5204"
+  },
+  "subdomains": {
+    "brevo1._domainkey": {
+      "records": {
+        "CNAME": "b1.forocoar-is-a-dev.dkim.brevo.com"
+      }
+    },
+    "brevo2._domainkey": {
+      "records": {
+        "CNAME": "b2.forocoar-is-a-dev.dkim.brevo.com"
+      }
+    },
+    "_dmarc": {
+      "records": {
+        "TXT": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+      }
+    }
+  }
+}
