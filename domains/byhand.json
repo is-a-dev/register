@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "ansh-chaturmohta",
+        "email": "ansh.chaturmohta@gmail.com"
+    },
+    "records": {
+        "NS": ["ajay.ns.cloudflare.com", "indie.ns.cloudflare.com"]
+    }
+}
