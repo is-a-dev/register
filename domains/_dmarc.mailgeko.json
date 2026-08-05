@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "divineshedrack33220",
+    "email": "omag4nt@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}

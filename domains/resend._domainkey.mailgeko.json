@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "divineshedrack33220",
+    "email": "omag4nt@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDr3nxsnC8KsFwUhrRPQTzumJ6gs1Qy9fwTJdMYAR/McYRfVYfozP8r5wKai/B4CURyyo4gMa4RuxcNRKodlSkr51FxdrmpvEtyqe5FvD8PgDLSn4I2J+nffjfvJADAceabr7+DN10YWotXxF7hMeRYrjdCJzqmwMpLHechn0e34wIDAQAB"
+  }
+}
