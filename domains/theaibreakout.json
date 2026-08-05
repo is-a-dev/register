@@ -6,5 +6,6 @@
   "records": {
     "CNAME": "theaibreakout.pages.dev",
     "TXT": "linkedin-site-verification=a044475d-248a-4913-b807-abb2f2ffb737"
-  }
+  },
+  "proxied": true
 }
