@@ -4,9 +4,6 @@
     "email": "ms88hr@gmail.com"
   },
   "records": {
-    "NS": [
-      "leo.ns.cloudflare.com",
-      "luciane.ns.cloudflare.com"
-    ]
+    "CNAME": "my-portfolio-016.pages.dev"
   }
 }
