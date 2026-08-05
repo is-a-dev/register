@@ -3,7 +3,10 @@
         "username": "Vadymfox",
         "email": "vadymfox@gmail.com"
     },
-    "record": {
-        "CNAME": "https://hx7m6m.csb.app/"
+    "records": {
+        "URL": "https://codesandbox.io",
+        "TXT": [
+            ""
+        ]
     }
 }
