@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "Wazotti",
-    "email": "claramazotti@gmail.com"
+    "username": "Wazotti"
   },
-  "record": {
-    "A": ["20.51.191.48"]
+  "records": {
+    "A": [
+      "20.51.191.48"
+    ]
   }
 }
