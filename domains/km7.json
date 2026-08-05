@@ -1,0 +1,10 @@
+{
+  "description": "Personal seat-picker web app",
+  "owner": {
+    "username": "WQ311"
+  },
+  "records": {
+    "CNAME": "custom-domains.chatgpt.site."
+  },
+  "proxied": true
+}
