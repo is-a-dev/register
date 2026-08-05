@@ -1,21 +1,9 @@
 {
-  "owner": {
-    "username": "Shreshth-1",
-    "email": "shresthtyagi2004@gmail.com"
-  },
-  "record": {
-    "A": ["216.198.79.1"]
-  },
-  "subdomains": {
-    "_vercel": {
-      "record": {
-        "TXT": "vc-domain-verify=shreshth.is-a.dev,dbced4fb75e804f42598"
-      }
+    "owner": {
+        "username": "Shreshth-1",
+        "email": "shresthtyagi2004@gmail.com"
     },
-    "www": {
-      "record": {
-        "CNAME": "5c237e54e38659c9.vercel-dns-017.com"
-      }
+    "records": {
+        "A": ["216.198.79.1"]
     }
-  }
 }
