@@ -1,0 +1,19 @@
+{
+    "owner": {
+        "username": "alexgamingstudio",
+        "email": "info@alexgaming.is-a.dev"
+    },
+    "description": "Portfolio and Email Forwarding for Alex Gaming",
+    "proxied": true,
+    "records": {
+        "CNAME": "alexgaming-dev.github.io",
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ],
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com include:spf.brevo.com ~all",
+            "brevo-code:48785c909fd9b5599c12767fc992db3e"
+        ]
+    }
+}

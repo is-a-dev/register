@@ -1,10 +1,11 @@
 {
+  "description": "DMARC",
   "owner": {
     "username": "BrianKN019",
     "email": "briannkimemia@gmail.com"
   },
   "records": {
-    "TXT": "v=DMARC1; p=none; rua=mailto:briankimemia2@gmail.com"
+    "TXT": "v=DMARC1; p=quarantine; rua=mailto:briannkimemia@gmail.com"
   }
 }
 

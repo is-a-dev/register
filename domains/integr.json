@@ -1,10 +1,10 @@
 {
   "owner": {
-    "username": "Integr-0",
-    "email": "erik.reitbauer@outlook.de",
+    "username": "integr-dev",
+    "email": "integr@integr.cloud",
     "discord": "integr_"
   },
   "records": {
-    "CNAME": "integr-0.github.io"
+    "CNAME": "integr-dev.github.io"
   }
 }

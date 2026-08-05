@@ -1,0 +1,11 @@
+{
+  "name": "willer",
+  "description": "Portafolio personal de desarrollo web de Willer",
+  "owner": {
+    "username": "piramiDK",
+    "email": "willerp13@gmail.com"
+  },
+  "records": {
+    "CNAME": "piramiDK.github.io"
+  }
+}

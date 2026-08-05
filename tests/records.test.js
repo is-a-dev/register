@@ -1,6 +1,8 @@
-const t = require("ava");
-const fs = require("fs-extra");
-const path = require("path");
+import t from "ava";
+import fs from "fs-extra";
+import path from "path";
+
+import disallowedCNAMEs from "../util/disallowed-cnames.json" with { type: "json" };
 
 const validRecordTypes = new Set(["A", "AAAA", "CAA", "CNAME", "DS", "MX", "NS", "SRV", "TLSA", "TXT", "URL"]);
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
@@ -141,6 +143,14 @@ function validateRecordValues(t, data, file) {
                 t.true(isValidHostname(value), `${file}: Invalid hostname for ${key}`);
                 t.true(value !== `${subdomain}.is-a.dev`, `${file}: ${key} cannot point to itself`);
                 t.true(value !== "is-a.dev", `${file}: ${key} cannot point to is-a.dev`);
+
+                for (const disallowed of disallowedCNAMEs) {
+                    if (disallowed.startsWith(".")) {
+                        t.false(value.endsWith(disallowed), `${file}: ${key} cannot end with ${disallowed}`);
+                    } else {
+                        t.false(value === disallowed, `${file}: ${key} cannot be ${disallowed}`);
+                    }
+                }
             } else if (key === "URL") {
                 t.true(
                     value.startsWith("http://") || value.startsWith("https://"),
@@ -278,8 +288,12 @@ t("All files should have valid records", (t) => {
         });
 
         // Record type combinations validation
-        if (recordKeys.includes("CNAME") && !data.proxied) {
-            t.is(recordKeys.length, 1, `${file}: CNAME records cannot be combined with other records unless proxied`);
+        if (recordKeys.includes("CNAME")) {
+            if (!data.proxied) {
+                t.is(recordKeys.length, 1, `${file}: CNAME records cannot be combined with other records unless proxied`);
+            } else {
+                t.true(!recordKeys.includes("A") && !recordKeys.includes("AAAA"), `${file}: CNAME records cannot be combined with A or AAAA records`);
+            }
         }
         if (recordKeys.includes("NS")) {
             t.true(

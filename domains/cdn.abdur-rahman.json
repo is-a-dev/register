@@ -1,0 +1,10 @@
+{
+  "description": "CDN for Abdur Rahman's site",
+  "owner": {
+    "username": "Abdur-Rahman-0517",
+    "email": "abdurrahmankazi199@gmail.com"
+  },
+  "records": {
+    "CNAME": "res-by-abdur-rahman.netlify.app"
+  }
+}
