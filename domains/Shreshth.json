@@ -8,10 +8,14 @@
   },
   "subdomains": {
     "_vercel": {
-      "TXT": "vc-domain-verify=shreshth.is-a.dev,dbced4fb75e804f42598"
+      "record": {
+        "TXT": "vc-domain-verify=shreshth.is-a.dev,dbced4fb75e804f42598"
+      }
     },
     "www": {
-      "CNAME": "5c237e54e38659c9.vercel-dns-017.com"
+      "record": {
+        "CNAME": "5c237e54e38659c9.vercel-dns-017.com"
+      }
     }
   }
 }
