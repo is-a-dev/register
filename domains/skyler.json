@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "Adem-ARFAOUI"
+    "username": "Adem-ARFAOUI",
+    "email": "adem.arfaoui2025@gmail.com"
   },
   "records": {
-    "A": [
-      "216.24.57.1"
-    ]
+    "CNAME": "personal-portfolio-website-hzcs.onrender.com"
   }
 }
