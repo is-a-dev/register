@@ -4,5 +4,6 @@
   },
   "records": {
     "CNAME": "tonghda11.github.io"
-  }
+  },
+  "proxied": false
 }
