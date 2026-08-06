@@ -3,7 +3,7 @@
     "username": "abneeeees",
     "email": "avneeshsingh288@gmail.com"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
+  "record": {
+    "CNAME": "abneeeees.github.io"
   }
 }
