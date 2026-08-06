@@ -4,6 +4,6 @@
       "email": "moyanmu230@gmail.com"
     },
     "records": {
-      "CNAME": "bread-knight-sync.bread-knight-sync.workers.dev"
+      "NS": ["aryanna.ns.cloudflare.com", "guy.ns.cloudflare.com"]
     }
   }
