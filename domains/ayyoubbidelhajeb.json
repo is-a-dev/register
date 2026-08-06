@@ -4,8 +4,7 @@
     "email": "oubyaub@gmail.com"
   },
   "records": {
-    "CNAME": "ayyoub-nu.vercel.app",
+    "URL": "https://github.com/AubyDemon",
     "TXT": "zoho-verification=zb11232518.zmverify.zoho.com"
-  },
-  "proxied": true
+  }
 }
