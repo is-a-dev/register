@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "grejojoby",
+        "email": "is-a-dev@grejo.in"
+    },
+    "records": {
+        "URL": "https://grejo.in"
+    },
+    "redirect_config": {
+        "custom_paths": {
+            "/github": "https://github.com/grejojoby"
+        },
+        "redirect_paths": true
+    }
+}
