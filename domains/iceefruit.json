@@ -1,9 +1,1 @@
-{
-  "owner": {
-    "username": "iceefruit",
-    "email": "iceefruit.2@gmail.com"
-  },
-  "records": {
-    "CNAME": "iceefruit.github.io"
-  }
-}
+{"owner": {"username": "iceefruit", "email": "iceefruit.2@gmail.com"}, "records": {"CNAME": "cname.vercel-dns.com"}}
