@@ -8,7 +8,7 @@
     "SRV": [
       {
         "name": "_minecraft._tcp",
-        "priority": 10,
+        "priority": 0,
         "weight": 5,
         "port": 11260,
         "target": "play.watermanmc.is-a.dev"
