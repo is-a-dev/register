@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "Ciaorz"
+    "username": "ciaorz"
   },
-  "records": {
-    "CNAME": "ciaorz.github.io/coursetable"
-  },
-  "proxied": true
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "ciaorz.github.io/coursetable"
+    }
+  ]
 }
