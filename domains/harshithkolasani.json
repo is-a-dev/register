@@ -3,6 +3,9 @@
     "username": "harshithkolasani-dev"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "_vercel": {
+      "TXT": "vc-domain-verify=harshithkolasani.is-a.dev,8764542100fc0c9116ee"
+    }
   }
 }
