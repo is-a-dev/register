@@ -10,6 +10,8 @@ on:
             - "tests/*"
             - "util/*"
             - ".github/workflows/ci.yml"
+            - "package.json"
+            - "package-lock.json"
 
     workflow_dispatch:
 
@@ -21,9 +23,9 @@ jobs:
         name: Tests
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
-            - run: npm install
+            - run: npm ci
 
             - name: Fetch PR information
               if: github.event_name == 'pull_request'
@@ -42,11 +44,14 @@ jobs:
               env:
                   GH_TOKEN: ${{ github.token }}
 
-            - name: Run DNSControl tests
+            - uses: gacts/install-dnscontrol@890ba3249712c51203ccb7aba63307c0091e921b # v1.3.4
               if: github.event_name == 'pull_request' && contains(fromJson(env.CHANGED_FILES), 'dnsconfig.js')
-              uses: is-a-dev/dnscontrol-action@main
               with:
-                  args: check
+                  version: 4.14.0
+
+            - name: Run DNSControl checks
+              run: dnscontrol check
+              if: github.event_name == 'pull_request' && contains(fromJson(env.CHANGED_FILES), 'dnsconfig.js')
 
             - name: Run tests
               run: npx ava tests/*.test.js --timeout=1m

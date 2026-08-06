@@ -1,0 +1,10 @@
+{
+  "description": "Vercel domain verification",
+  "owner": {
+    "username": "Fluffy-debuger",
+    "email": "beherasailesh968@gmail.com"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=skb.is-a.dev,21fcd1f9d9da66143f57"]
+  }
+}
