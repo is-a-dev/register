@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "R0T0-DEV"
+    "username": "R0T0-DEV",
+    "email": "lsaddawischmidt@gmail.com"
   },
   "record": {
-    "CNAME": "r0to-dev.github.io"
+    "CNAME": "r0t0-dev.github.io/"
   }
 }
