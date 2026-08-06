@@ -17,6 +17,13 @@
 
 <p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking <code>.is-a.dev</code> subdomain for their personal websites.</p>
 
+> [!TIP]
+> We have just launched another free subdomain service for developers, called [**`is-a.bot`**](https://is-a.bot)!
+> 
+> Claim your `.is-a.bot` subdomain for free, before it's too late!
+> 
+> **GitHub** — [**free-domains/is-a.bot**](https://github.com/free-domains/is-a.bot)
+
 ---
 
 ## Announcements
