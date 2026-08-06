@@ -50,7 +50,7 @@ t("Domains with proxy enabled must have at least one proxy-able record", (t) => 
     });
 });
 
-const disallowedRecords = [
+const unproxyable = [
     {
         type: "CNAME",
         value: "*.onrender.com"
@@ -62,7 +62,7 @@ t("Domains with specific records must not have proxy enabled", (t) => {
         const data = getDomainData(file);
 
         if (data.proxied) {
-            disallowedRecords.forEach((record) => {
+            unproxyable.forEach((record) => {
                 let recordExists = false;
 
                 if (!data.records[record.type]) {
