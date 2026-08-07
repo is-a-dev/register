@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "veronamezzomo-cyber",
+    "email": "00mezzomo@gmail.com"
+  },
+  "record": {
+    "CNAME": "veronastudio.netlify.app"
+  }
+}
