@@ -4,6 +4,6 @@
     "email": "singlucasmartin@gmail.com"
   },
   "records": {
-    "CNAME": "fire.lucas-martin-sing.com.ar"
+    "A": ["192.162.86.237"]
   }
 }
