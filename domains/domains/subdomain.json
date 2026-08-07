@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "denver.ns.cloudflare.com",
+        "email": "[email protected]"
+    },
+    "records": {
+        "CNAME": "eve.ns.cloudflare.com"
+    }
+}
