@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "siw777513-spec",
+    "email": "siw777513@gmail.com"
+  },
+  "domain": "onefeedbd",
+  "records": {
+    "CNAME": "onefeed-bd.siw777513.workers.dev"
+  },
+  "proxied": true
+}
