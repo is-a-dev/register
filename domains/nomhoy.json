@@ -1,7 +1,5 @@
 {
   "description": "Personal site for Cloudflare Workers proxy",
-  "domain": "is-a.dev",
-  "subdomain": "nomhoy",
   "owner": {
     "username": "zzz86226-lab",
     "email": "zzz86226@gmail.com"
