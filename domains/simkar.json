@@ -3,7 +3,8 @@
     "username": "Abel-Thareq",
     "email": "abel.thareq88@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
-  }
+  },
+  "description": "SIMKAR - Sistem Informasi Manajemen Karyawan"
 }
