@@ -1,8 +1,14 @@
 [
-    "autoconfig",
-    "autodiscover",
+    "api.cf-pages",
+    "cf-pages",
     "data",
     "docs",
+    "ns1",
+    "ns2",
+    "ns3",
+    "ns4",
+    "ns5",
+    "ns6",
     "raw",
     "www"
 ]

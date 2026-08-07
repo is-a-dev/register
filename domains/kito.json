@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "KitoMCVN",
-    "discord": "915876843884777472"
+    "discord": "915876843884777472",
+    "email": "kitomcchill@gmail.com"
   },
   "records": {
-    "CNAME": "kitomc.site"
+    "CNAME": "cname.vercel-dns.com"
   }
 }

@@ -12,7 +12,7 @@
         "priority": 10
       }
     ],
-    "TXT": ["v=spf1 +mx +a ~all"]
+    "TXT": "v=spf1 +mx +a ~all"
   },
   "proxied": true
 }

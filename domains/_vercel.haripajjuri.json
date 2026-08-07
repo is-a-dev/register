@@ -4,6 +4,6 @@
     "email": "haripajjuri@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=haripajjuri.is-a.dev,6d1bb3e0585ec67dde26"]
+    "TXT": "vc-domain-verify=haripajjuri.is-a.dev,6d1bb3e0585ec67dde26"
   }
 }

@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "realsnipc",
-    "email": "snipc.mail@proton.me"
+    "username": "syedtahseen"
   },
   "records": {
-    "URL": "https://snipc.me"
+    "CNAME": "snipeditor.vercel.app"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Sourabh Yadav's Portfolio",
-  "repo": "https://github.com/YadavSourabhGH/YadavSourabhGH.github.io",
   "owner": {
-    "username": "YadavSourabhGH",
-    "email": "yadav.sourabh9012@gmail.com"
+    "username": "sourabh-singh0",
+    "email": "17sourav.singh@gmail.com"
   },
   "records": {
-    "CNAME": "yadavsourabhgh.github.io"
+    "A": ["216.198.79.1"]
   }
 }

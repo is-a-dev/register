@@ -4,6 +4,6 @@
     "email": "krbala1511@gmail.com"
   },
   "records": {
-    "CNAME": "s37e9nua.up.railway.app"
+    "A": ["216.24.57.1"]
   }
 }

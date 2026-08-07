@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "JustAnOkapi"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 10
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "forward-email=MTc4OGNiYjAzNzkzMmZkMi1kZTUxNmQwMDNkMjk4ZTRiYzcwMTZkYjE0NGI3YmM4OTVkYjM4YmZhNzU3YjIyZmMzNjZjNGM5NmM0YTdmYjkw"
+    ]
+  }
+}

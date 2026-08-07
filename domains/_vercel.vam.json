@@ -1,0 +1,11 @@
+{
+  "description": "Vercel domain ownership verification for vam.is-a.dev",
+  "owner": {
+    "username": "Vam-JD",
+    "email": "jamesdealanm@gmail.com"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=vam.is-a.dev,a6a80aea23144293ac35"]
+  },
+  "proxied": false
+}

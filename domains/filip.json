@@ -1,6 +1,4 @@
 {
-  "description": "Filip's personal site and/or CV",
-  "repo": "https://github.com/totalolage/totalolage.github.io",
   "owner": {
     "username": "totalolage",
     "email": "filip@kalny.net"
@@ -10,7 +8,6 @@
     "CNAME": "vps1.kalny.net",
     "CAA": [
       {
-        "flags": 0,
         "tag": "issue",
         "value": "letsencrypt.org"
       }

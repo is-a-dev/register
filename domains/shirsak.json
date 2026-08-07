@@ -3,8 +3,6 @@
     "username": "shirsakm",
     "email": "shirsakm@gmail.com"
   },
-  "description": "Hosts my personal website",
-  "repo": "https://github.com/shirsakm/website",
   "records": {
     "CNAME": "website-ndp.pages.dev"
   }

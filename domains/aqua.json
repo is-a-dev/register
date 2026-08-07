@@ -1,9 +1,8 @@
 {
-  "owner": {
-    "username": "AquaQuokka",
-    "email": "aquaquokka@outlook.com"
-  },
-  "records": {
-    "CNAME": "aquaquokka.github.io"
-  }
+    "owner": {
+        "username": "aquaxs1"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }

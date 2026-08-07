@@ -1,10 +1,9 @@
 {
-  "description": "Hamza's website",
   "owner": {
-    "username": "hamza8bit",
-    "email": "hamzabyte@gmail.com"
+    "username": "HamzaCodeBase",
+    "email": "mhamzazafarg@gmail.com"
   },
   "records": {
-    "CNAME": "hamza8bit.github.io"
+    "CNAME": "HamzaCodeBase.github.io"
   }
 }

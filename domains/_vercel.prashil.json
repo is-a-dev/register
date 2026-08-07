@@ -4,6 +4,6 @@
     "email": "prashil1411@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=prashil.is-a.dev,4d4ecde09797589bede3"]
+    "TXT": "vc-domain-verify=prashil.is-a.dev,4d4ecde09797589bede3"
   }
 }

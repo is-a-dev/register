@@ -1,10 +1,9 @@
 {
-  "description": "Mamun's website",
   "owner": {
-    "username": "mamunhpath",
-    "email": "mamunhpath@hotmail.com"
+    "username": "cyberrvault",
+    "email": "cyberrvault@gmail.com"
   },
   "records": {
-    "CNAME": "mamunhpath.github.io"
+    "CNAME": "mamunvault.netlify.app"
   }
 }
