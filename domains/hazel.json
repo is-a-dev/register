@@ -6,5 +6,6 @@
   },
   "records": {
     "CNAME": "hazel.legiti.dev"
-  }
+  },
+  "proxied": false
 }
