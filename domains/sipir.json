@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "sipircip",
+        "email": "Sipir17@gmail.com"
+    },
+    "records": {
+        "NS": [
+            "khalid.ns.cloudflare.com",
+            "melody.ns.cloudflare.com"
+        ]
+    }
+}
