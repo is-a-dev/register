@@ -5,12 +5,5 @@
   },
   "records": {
     "CNAME": "luxjson.github.io"
-  },
-  "subdomains": {
-    "_gh-teamdeadsmile-o": {
-      "record": {
-        "TXT": "dee491a72b"
-      }
-    }
-  } 
+  }
 }
