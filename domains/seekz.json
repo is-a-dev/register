@@ -1,0 +1,11 @@
+{
+  "description": "seeKazino — виртуальное онлайн-казино",
+  "repo": "https://github.com/feallov/seeKazino",
+  "owner": {
+    "username": "feallov",
+    "email": "werr1on11@gmail.com"
+  },
+  "records": {
+    "CNAME": "seekazino.werr1on11.workers.dev"
+  }
+}
