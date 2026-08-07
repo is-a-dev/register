@@ -1,0 +1,15 @@
+{
+  "description": "Personal site for Cloudflare Workers proxy",
+  "domain": "is-a.dev",
+  "subdomain": "nomhoy",
+  "owner": {
+    "repo": "https://github.com/zzz86226-lab",
+    "email": "zzz86226@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "grannbo.ns.cloudflare.com",
+      "kai.ns.cloudflare.com"
+    ]
+  }
+}
