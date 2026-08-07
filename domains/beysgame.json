@@ -1,6 +1,10 @@
 {
   "description": "Minecraft Sunucum",
+  "repository": "https://github.com/dombuldomates123-cmd/register",
   "record": {
     "CNAME": "enthusiasm-maintain.tun.ply.gg"
+  },
+  "owner": {
+    "email": "dombuldomates123@gmail.com"
   }
 }
