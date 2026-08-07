@@ -1,0 +1,28 @@
+{
+  "owner": {
+    "username": "Rohith-Shimori",
+    "email": "pontapallirohith@gmail.com"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      { "target": "mx.zoho.in", "priority": 10 },
+      { "target": "mx2.zoho.in", "priority": 20 },
+      { "target": "mx3.zoho.in", "priority": 50 }
+    ],
+    "TXT": [
+      "v=spf1 include:zoho.in include:spf.brevo.com ~all",
+      "brevo-code:84c81543c733198b7d81e675624701d7",
+      "zoho-verification=zb88897524.zmverify.zoho.in"
+    ],
+    "CAA": [
+      { "tag": "issue", "value": "letsencrypt.org" },
+      { "tag": "issue", "value": "pki.goog" }
+    ]
+  }
+}
