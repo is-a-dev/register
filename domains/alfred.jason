@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "email": "alpha.coil966@passinbox.com",
-    "username": "alfredpanakkal"
-  },
-  "record": {
-    "type": "CNAME",
-    "value": "alfred-panakkal.vercel.app"
-  }
+    "owner": {
+        "username": "alfredpanakkal ",
+        "email": "alpha.coil966@passinbox.com"
+    },
+    "records": {
+        "CNAME": "alfredpanakkal.github.io/alfred.panakkal"
+    }
 }
