@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "denver.ns.cloudflare.com",
+        "email": "[tuanzi@hmt10.com]"
+    },
+    "records": {
+        "CNAME": "eve.ns.cloudflare.com"
+    }
+}
