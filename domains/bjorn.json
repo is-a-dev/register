@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "override4life",
+    "email": "bjornjonkerdronten@gmail.com"
+  },
+  "target": {
+    "CNAME": {
+      "value": "portfolio-2eyf.onrender.com"
+    }
+  }
+}
