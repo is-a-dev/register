@@ -1,10 +1,8 @@
 {
-	"owner" : {
-		"username" : "Stukdee",
-		"email" : "354536332@qq.com"
-	},
-	"record" : {
-		"cname" : "stukdee.github.io"
-	},
-	"proxied" : false
+  "owner": {
+    "username": "stukdee"
+  },
+  "records": {
+    "CNAME": "stukdee.github.io"
+  }
 }
