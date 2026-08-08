@@ -5,8 +5,8 @@
   },
   "records": {
     "NS": [
-      "ns1.cloudflare.com",
-      "ns2.cloudflare.com"
+      "stevie.ns.cloudflare.com",
+      "thaddeus.ns.cloudflare.com"
     ]
   }
 }
