@@ -1,8 +1,11 @@
 {
-    "owner": {
-        "username": "MCTCRS"
-    },
-    "records": {
-        "CNAME": "mctcrs.github.io"
-    }
+  "name": "tcrs",
+  "description": "Personal landing page and project site",
+  "owner": {
+    "username": "MCTCRS",
+    "email": "austin0007112550@gmail.com"
+  },
+  "record": {
+    "CNAME": "mctcrs.github.io"
+  }
 }
