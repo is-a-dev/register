@@ -4,6 +4,6 @@
     "email": "vivov3190463@gmail.com"
   },
   "records": {
-    "CNAME": "themostpoordev.top"
+    "A": ["217.216.75.82"]
   }
 }
