@@ -1,0 +1,12 @@
+{
+    "description": "Free Background Remover and AI Editor",
+    "domain": "bgremove.is-a.dev",
+    "subdomain": "bgremove",
+    "owner": {
+        "repo": "tumhara-github-profile-link",
+        "email": "tumhara-email@gmail.com"
+    },
+    "record": {
+        "CNAME": "mahieyai.vercel.app"
+    }
+}
