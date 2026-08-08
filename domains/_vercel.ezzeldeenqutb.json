@@ -3,10 +3,7 @@
     "username": "Pant0x",
     "email": "contact.ezzeldeenqutb@gmail.com"
   },
-  "record": {
-    "A": ["216.198.79.1"],
-    "TXT": "vc-domain-verify=ezzeldeenqutb.is-a-dev,824a08ff4725f461fee0"
+  "records": {
+    "TXT": "vc-domain-verify=ezzeldeenqutb.is-a.dev,824a08ff4725f461fee0"
   }
 }
-
-
