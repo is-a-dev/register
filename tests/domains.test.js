@@ -1,6 +1,6 @@
-const t = require("ava");
-const fs = require("fs-extra");
-const path = require("path");
+import t from "ava";
+import fs from "fs-extra";
+import path from "path";
 
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath).filter((file) => file.endsWith(".json"));
@@ -30,10 +30,7 @@ t("Nested subdomains should not exist without a parent subdomain", (t) => {
             const parent = parts.slice(i).join(".");
             if (parent.startsWith("_")) continue;
 
-            t.true(
-                files.includes(`${parent}.json`),
-                `${file}: Parent subdomain "${parent}" does not exist`
-            );
+            t.true(files.includes(`${parent}.json`), `${file}: Parent subdomain "${parent}" does not exist`);
         }
     });
 });
@@ -48,7 +45,7 @@ t("Nested subdomains should not exist if any parent subdomain has NS records", (
             if (parent.startsWith("_") || !files.includes(`${parent}.json`)) continue;
             const parentData = getDomainData(parent);
 
-            t.true(!parentData.record.NS, `${file}: Parent subdomain "${parent}" has NS records`);
+            t.true(!parentData.records.NS, `${file}: Parent subdomain "${parent}" has NS records`);
         }
     });
 });

@@ -1,11 +1,9 @@
 {
-  "description": "Anasov Github Portfolio",
-  "repo": "https://github.com/ItzAnasov/ItzAnasov.github.io",
   "owner": {
-    "username": "ItzAnasov",
-    "email": "anasybal@mail.ru"
+    "username": "anaskhaann",
+    "email": "anaskhaann@proton.me"
   },
-  "record": {
-    "CNAME": "itzanasov.github.io"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

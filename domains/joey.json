@@ -1,11 +1,9 @@
 {
-  "description": "GitHub Pages verification for joey.is-a.dev",
-  "repo": "https://github.com/jlai403/jlai403.github.io",
   "owner": {
-    "username": "jlai403",
-    "discord": "120522740590575616"
+    "username": "choongjoey",
+    "email": "treetop-beatnik.9f@icloud.com"
   },
-  "record": {
-    "CNAME": "jlai403.github.io"
+   "records": {
+    "URL": "https://github.com/choongjoey"
   }
 }

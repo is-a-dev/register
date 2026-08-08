@@ -1,11 +1,9 @@
 {
-  "description": "Manoj's portfolio website",
-  "repo": "https://github.com/ManojINaik/portfolio",
-  "owner": {
-    "username": "ManojINaik",
-    "email": "naik97059@gmail.com"
-  },
-  "record": {
-    "CNAME": "manojinaik.github.io"
-  }
+    "owner": {
+        "username": "kdotmanoj",
+        "email": "hsuper681@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

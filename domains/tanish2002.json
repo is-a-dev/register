@@ -1,11 +1,9 @@
 {
-  "description": "Tanish2002's Website",
-  "repo": "https://github.com/Tanish2002/Tanish2002.github.io",
   "owner": {
     "username": "Tanish2002",
     "email": "tanishkhare@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "tanish2002.github.io"
   }
 }

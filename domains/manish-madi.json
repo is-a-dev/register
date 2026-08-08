@@ -1,11 +1,11 @@
 {
   "description": "Manish's Personal Website",
-  "repo": "https://github.com/m-manish03/m-manish03",
+  "repo": "https://github.com/m-manish03/portfolio-website",
   "owner": {
     "username": "m-manish03",
     "email": "manish.rebel14@gmail.com"
   },
-  "record": {
-    "CNAME": "m-manish03.github.io"
+  "records": {
+    "CNAME": "v0-minimalistic-portfolio-website-brown.vercel.app"
   }
 }

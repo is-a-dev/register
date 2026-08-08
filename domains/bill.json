@@ -1,12 +1,9 @@
 {
-  "description": "Bill's blog site.",
-  "repo": "https://github.com/CMBill/CMBill.github.io",
-  "owner": {
-    "username": "CMBill",
-    "email": "callmebill@billw.cn",
-    "twitter": "BillWen14"
-  },
-  "record": {
-    "CNAME": "cmbill.github.io"
-  }
+    "owner": {
+        "username": "CMBill",
+        "email": "callmebill@billw.cn"
+    },
+    "records": {
+        "CNAME": "cmbill.pages.dev"
+    }
 }

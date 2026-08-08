@@ -1,12 +1,10 @@
 {
-  "description": "Personal Website",
-  "repo": "https://github.com/NicoGaming77/NicoGaming77.github.io",
   "owner": {
-    "username": "NicoGaming77",
-    "email": "nicodreyer7@icloud.com",
-    "discord": "nicosnico#7674"
+    "username": "Picolas",
+    "email": "contact@nicolaspiplard.fr",
+    "x": "https://x.com/las_pico"
   },
-  "record": {
-    "CNAME": "nicogaming77.github.io"
+  "records": {
+    "URL": "https://nicolas.nz"
   }
 }

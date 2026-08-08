@@ -1,11 +1,9 @@
 {
-  "description": "Akira's Dev Webpage",
-  "repo": "https://github.com/cakira/cakira.github.io.git",
   "owner": {
     "username": "cakira",
     "email": "cleber.akira@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cakira.github.io"
   }
 }

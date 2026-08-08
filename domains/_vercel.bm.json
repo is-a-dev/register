@@ -3,7 +3,7 @@
     "username": "BM87006",
     "email": "bm.is.a.dev@gmail.com"
   },
-  "record": {
-     "TXT": "vc-domain-verify=bm.is-a.dev,d8bab26fdcf36f857b96"
+  "records": {
+    "TXT": "vc-domain-verify=bm.is-a.dev,d8bab26fdcf36f857b96"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Personal developer portfolio repository update request. Changing DNS/hosting configuration to migrate from Render to Vercel.",
-  "repo": "https://github.com/SharadJ19/portfolio",
   "owner": {
     "username": "SharadJ19",
     "email": "sharadchandel2005@gmail.com"
   },
-  "record": {
-    "CNAME": "cname.vercel-dns.com"
+  "records": {
+    "A": ["216.24.57.1"]
   }
 }

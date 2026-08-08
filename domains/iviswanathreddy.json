@@ -1,11 +1,9 @@
 {
-  "description": "Personal portfolio written in Ruby and HTML",
-  "repo": "https://github.com/iviswanathreddy/iviswanathreddy.github.io.git",
   "owner": {
     "username": "iviswanathreddy",
     "email": "i.viswanath666@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "iviswanathreddy.github.io"
   }
 }

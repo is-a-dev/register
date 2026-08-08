@@ -3,7 +3,7 @@
     "username": "joao-zanutto",
     "email": "jpberno@gmail.com"
   },
-  "record": {
-    "CNAME": "joao-zanutto-github-com.pages.dev"
+  "records": {
+    "CNAME": "hugo-bearblog-2vt.pages.dev"
   }
 }

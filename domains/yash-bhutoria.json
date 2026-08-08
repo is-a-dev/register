@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "yash9323",
+    "email": "yash-bhutoria@is-a.dev"
+  },
+  "records": {
+    "URL": "https://www.notion.so/yashbhutoria/Yash-Bhutoria-1734e120ac5f800d87e4c1df6a39085f"
+  },
+  "redirect_config": {
+        "custom_paths": {
+            "/github": "https://github.com/yash9323/",
+            "/linkedin": "https://www.linkedin.com/in/yash-bhutoria/",
+            "/blog": "https://www.notion.so/yashbhutoria/Blog-ea0c7412926d40199221ee11e4d92de2"
+        },
+        "redirect_paths": true
+    }   
+}

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Alimadcorp",
-        "email": "alimad.co.ltd@gmail.com"
-    },
-    "record": {
-        "CNAME": "alimad.vercel.app"
-    }
+  "owner": {
+    "username": "Alimadcorp",
+    "email": "alimad.co.ltd@gmail.com"
+  },
+  "records": {
+    "CNAME": "alimad.vercel.app"
+  }
 }

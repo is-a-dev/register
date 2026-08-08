@@ -1,12 +1,10 @@
 {
-  "description": "GitHub domain verification for my personal website",
-  "repo": "https://github.com/theRookieCoder/theRookieCoder.github.io",
   "owner": {
     "username": "theRookieCoder",
     "email": "ileshkt@gmail.com",
     "discord": "therookiecoder"
   },
-  "record": {
+  "records": {
     "TXT": "11a49aa635c8bc15e62134fbd34a46"
   }
 }

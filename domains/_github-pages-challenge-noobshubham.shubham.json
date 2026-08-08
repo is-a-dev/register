@@ -1,11 +1,9 @@
 {
-  "description": "My Portfolio Website",
-  "repo": "https://github.com/noobshubham/Portfolio",
   "owner": {
     "username": "noobshubham",
     "email": "noobshubham65@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": "d195c824403985d365b744c05663fb"
   }
 }

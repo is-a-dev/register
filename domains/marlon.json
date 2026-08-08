@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "MarlonDevs",
-    "email": "marlonmogollon13@gmail.com"
-  },
-  "record": {
-    "CNAME": "marlondevs.github.io"
-  }
+    "owner": {
+        "username": "overchernited",
+        "email": "mmarlon.ssantiago@gmail.com"
+    },
+    "records": {
+        "CNAME": "overchernited.github.io"
+    }
 }

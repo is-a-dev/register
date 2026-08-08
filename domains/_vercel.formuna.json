@@ -3,7 +3,7 @@
     "username": "FormunaGit",
     "discord": "754657845563097108"
   },
-  "record": {
-    "TXT": "vc-domain-verify=api.formuna.is-a.dev,d52d0266198bf7ac4e7d"
+  "records": {
+    "TXT": "vc-domain-verify=formuna.is-a.dev,13260821808507d1277b"
   }
 }

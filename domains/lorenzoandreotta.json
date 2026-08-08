@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "ocioman",
+    "email": "joker232005@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "TXT": "vc-domain-verify=lorenzoandreotta.is-a.dev,05a917f01aa47460f728"
+  }
+}

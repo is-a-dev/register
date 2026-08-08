@@ -1,0 +1,25 @@
+{
+    "description": "Personal coolify website for fun",
+    "repo": "https://github.com/andrejorgelopes/3D-Portfolio",
+    "owner": {
+        "username": "andrejorgelopes",
+        "email": "andrelopes.professional@gmail.com"
+    },
+    "records": {
+        "CNAME": "andrejorgelopes.github.io",
+        "MX": [
+            {
+                "target": "mx1.improvmx.com",
+                "priority": 10
+            },
+            {
+                "target": "mx2.improvmx.com",
+                "priority": 20
+            }
+        ],
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com ~all"
+        ]
+    },
+    "proxied": true
+}

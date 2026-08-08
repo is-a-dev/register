@@ -4,7 +4,8 @@
     "username": "raghav-45",
     "email": "raghavbhai4545@gmail.com"
   },
-  "record": {
-    "A": ["76.76.21.21"]
+  "records": {
+    "A": ["76.76.21.21"],
+    "TXT": "google-site-verification=pXeWUelUhod_DdBv2go40kPIUvvQjne2bJunqR-NHVA"
   }
 }

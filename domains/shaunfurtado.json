@@ -1,11 +1,9 @@
 {
-  "description": "My Personal Portfolio Website",
-  "repo": "https://github.com/Shaunfurtado/Shaunfurtado.github.io",
   "owner": {
     "username": "Shaunfurtado",
     "email": "shaunf1801@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "shaunfurtado.github.io"
   }
 }

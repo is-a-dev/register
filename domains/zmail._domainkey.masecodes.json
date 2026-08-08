@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "MaseDev33",
+     "email": "masedev33@proton.me"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0jBezygOKIUu8mSy5hIvT4ud0jL2Y1mX8AP6NRZZIquVq98O+moUoZ5H+Elgn5wyVIYojSHy0C7s8HVtFxbBWaZHAfsWwQJnhTj7MsKTzMWW6RbRgesoxl8XuFQxOvC/TI+lnKgEac+9aKGlH6uchGRIs4gXv0MJoxGkwd0/bWwIDAQAB"
+  }
+}

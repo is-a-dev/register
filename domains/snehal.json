@@ -1,11 +1,9 @@
 {
-  "description": "Personal Website",
-  "repo": "https://github.com/sneh-al/sneh-al.github.io",
   "owner": {
     "username": "sneh-al",
     "email": "snehal1380@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "sneh-al.github.io"
   }
 }

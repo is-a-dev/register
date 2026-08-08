@@ -1,11 +1,9 @@
 {
-  "description": "Domain for my personal portfolio",
-  "repo": "https://github.com/Online13/Online13.github.io",
   "owner": {
     "username": "Online13",
     "email": "rratiarivelo@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "portfolio-cwk.pages.dev"
   }
 }

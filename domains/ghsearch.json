@@ -1,11 +1,9 @@
 {
-  "description": "Aplicación web para buscar repositorios en GitHub por tema, utilizando la API de GitHub. Construida con HTML, CSS y JavaScript.",
-  "repo": "https://https://github.com/herwingx/awesome-github-search",
   "owner": {
     "username": "herwingx",
     "email": "herwingmacias@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "herwingx.github.io"
   }
 }

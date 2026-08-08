@@ -1,11 +1,9 @@
 {
-  "description": "Daniel's developer website",
-  "repo": "https://github.com/daniepusb/daniepusb.github.io",
   "owner": {
     "username": "daniepusb",
     "linkedin": "https://www.linkedin.com/in/danielpedroza87"
   },
-  "record": {
+  "records": {
     "URL": "https://daniepusb.github.io/"
   }
 }

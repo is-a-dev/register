@@ -1,10 +1,9 @@
 {
-  "description": "For my personal portfolio website",
-  "owner": {
-    "username": "tawhid404Err",
-    "email": "xcode.dev@yahoo.com"
-  },
-  "record": {
-    "A": ["103.62.149.9"]
-  }
+    "owner": {
+        "username": "Tawhid404Err",
+        "email": "xcode.dev@yahoo.com"
+    },
+    "records": {
+        "A": ["216.198.79.193"]
+    }
 }

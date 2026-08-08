@@ -1,10 +1,9 @@
 {
-  "description": "Erik Personal Website",
   "owner": {
-    "username": "erik3010",
-    "email": "erikhau3010@gmail.com"
+    "username": "erikcnel",
+    "email": "erikcnel@gmail.com"
   },
-  "record": {
-    "CNAME": "erik3010.github.io"
+  "records": {
+    "URL": "https://erikcnel.github.io"
   }
 }
