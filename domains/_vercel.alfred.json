@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "alfred-panakkal"
+    "username": "alfred-panakkal",
+    "email": "alfred.panakkal@outlook.com"
   },
   "records": {
     "TXT": "vc-domain-verify=alfred.is-a.dev,375c41418d94c75d2d61"
