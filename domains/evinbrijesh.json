@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "evinbrijesh"
+    },
+    "records": {
+        "A": ["216.198.79.1"],
+        "TXT": "vc-domain-verify=evinbrijesh.is-a.dev,e0c140293ed51525f6cd"
+    }
+}
