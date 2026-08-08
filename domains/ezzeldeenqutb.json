@@ -4,7 +4,6 @@
     "email": "contact.ezzeldeenqutb@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=www.ezzeldeenqutb.is-a.dev,040d4cccfe5868aef40c"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
