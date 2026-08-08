@@ -1,0 +1,13 @@
+{
+  "description": "Personal site for Cloudflare Workers proxy",
+  "owner": {
+    "username": "zzz86226-lab",
+    "email": "zzz86226@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "grannbo.ns.cloudflare.com",
+      "kai.ns.cloudflare.com"
+    ]
+  }
+}
