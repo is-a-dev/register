@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "emmanuelchika",
-    "email": "emmanuelchika589@gmail.com"
+    "email": "futureatpivot@gmail.com"
   },
   "records": {
-    "CNAME": "emmanuelchika.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }

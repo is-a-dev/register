@@ -1,0 +1,16 @@
+{
+    "owner": {
+        "username": "alphaleadership",
+        "email": "alphaleadershipyt@protonmail.com"
+    },
+    "records": {
+        "MX": [
+            "inbound-smtp.eu-west-1.amazonaws.com"
+        ],
+        "TXT": [
+            "v=spf1 include:amazonses.com ~all"
+        ],
+        "CNAME": "thomas-iniguez-visioli.github.io"
+    },
+    "proxied": true
+}

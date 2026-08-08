@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "Martin-Bernard",
+    "email": "martin.bernard780@gmail.com"
+  },
+  "description": "SPF/return-path for Resend (StageFlow)",
+  "records": {
+    "MX": [
+      { "target": "feedback-smtp.eu-west-1.amazonses.com", "priority": 10 }
+    ],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all"
+    ]
+  },
+  "proxied": false
+}
