@@ -5,6 +5,6 @@
     "discord": "755751261357473803"
   },
   "records": {
-    "CNAME": "ronakdutta.github.io"
+    "A": ["216.198.79.1"]
   }
 }
