@@ -4,6 +4,6 @@
     "email": "pontapallirohith@gmail.com"
   },
   "records": {
-    "TXT": "v=DMARC1; p=none; rua=mailto:rohith@rohith.is-a.dev,mailto:rua@dmarc.brevo.com; ruf=mailto:rohith@rohith.is-a.dev; sp=none; adkim=r; aspf=r; pct=100"
+    "TXT": "v=DMARC1; p=none; rua=mailto:rohith@rohith.is-a.dev; ruf=mailto:rohith@rohith.is-a.dev; sp=none; adkim=r; aspf=r; pct=100"
   }
 }
