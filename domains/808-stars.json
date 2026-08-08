@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "808-Stars"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+    "TXT": "_vercel"
+  }
+}
