@@ -1,6 +1,10 @@
 {
-  "owner": { "otagoitachi-pixel": "otagoitachi-pixel" },
+  "owner": {
+    "username": "otagoitachi-pixel",
+    "email": "otagoitachi@gmail.com"
+  },
   "records": {
     "CNAME": "aura-lens.otagoitachi.workers.dev"
   }
 }
+
