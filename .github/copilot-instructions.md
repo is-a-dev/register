@@ -45,7 +45,7 @@ Every file must be valid JSON and follow this exact structure from https://docs.
 **Critical rules (enforce strictly):**
 
 - `"owner"."username"` **MUST** exactly match the GitHub username of the person who opened the PR, **unless** the PR author is a trusted maintainer listed in `util/trusted.json`.  
-  Trusted maintainers: STICKnoLOGIC, DEV-DIBSTER, iostpa, orangci, Stef-00012, satr14washere, wdhdev.
+  Trusted maintainers: STICKnoLOGIC, DEV-DIBSTER, iostpa, orangci, Stef-DP, satr14washere, wdhdev.
 
 - `"records"` is required (note: it must be `"records"`, never `"record"`).
 - **CNAME records cannot be used with any other records and vice versa.** Only one record type is allowed if CNAME is present.
