@@ -11,6 +11,6 @@
 			  "priority": 10
 			}
 		],
-		"TXT": ["v=spf1 include:spf.stackmail.com a mx -all"]
+		"TXT": ["v=spf1 include:spf.stackmail.com a mx -all", "google-site-verification=EeCD2oH1nUCH_y3ZI-1qiGVn0xsPMzNSvcuzZNTCboI"]
     }
 }
