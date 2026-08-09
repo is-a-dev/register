@@ -3,7 +3,7 @@
     "username": "VIROS-and-LIME",
     "email": "linuxviros794@gmail.com"
   },
-  "record": {
-    "CNAME": "zerohex.zerohex-node.workers.dev"
+  "records": {
+    "CNAME": "zerohex-node.workers.dev"
   }
 }
