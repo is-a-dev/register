@@ -1,0 +1,30 @@
+*** Begin Patch
+*** Update File: domains/abduljabar25.json
+@@
+ {
+-  "description": "My Website",
+-  "repo": "https://github.com/alisad259/myunvrsty",
+-  "owner": {
+-    "username": "alisad259",
+-    "email": "alisad2591996@gmail.com"
+-  },
+-  "record": {
+-    "CNAME": "alisad259.github.io"
+-  }
++  "description": "My Website",
++  "repo": "https://github.com/alisad259/myunvrsty",
++  "owner": {
++    "username": "alisad259",
++    "email": "alisad259@example.com"
++  },
++  "records": {
++    "@": [
++      {
++        "type": "CNAME",
++        "value": "alisad259.github.io",
++        "ttl": 3600
++      }
++    ]
++  }
+ }
+*** End Patch
