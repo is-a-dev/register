@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "nanphipatwongted",
+    "email": "nanphipat.w@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
+  }
+}
