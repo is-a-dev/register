@@ -1,12 +1,14 @@
 {
     "owner": {
         "username": "fandiplay",
-        "email": "298298190+fandiplay@users.noreply.github.com"
+        "email": "dramaido88@gmail.com"
     },
     "records": {
-        "NS": [
-            "armfazh.ns.cloudflare.com",
-            "sky.ns.cloudflare.com"
-        ]
+        "A": [
+            "216.198.79.1"
+        ],
+        "TXT": {
+            "_vercel": "vc-domain-verify=arfan.is-a.dev,a69a2a4496c1afc745f1"
+        }
     }
 }
