@@ -1,1 +1,10 @@
-
+{
+  "owner": {
+    "username": "heliomunizpt-code",
+    "email": "heliomunizpt@gmail.com"
+  },
+  "records": {
+    "CNAME": "86d8388e-4964-46ff-be07-7ab9a0735dc9.cfargotunnel.com"
+  },
+  "proxied": true
+}
