@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "damilola-gzy",
+    "email": "fsattrack.rubber234@aleeas.com"
+           },
+    "records": {
+        "URL": "https://damilola-gzy.github.io"
+               },
+
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/damilola-gzy"
+                    },
+    "redirect_paths": true
+                     }
+}
+
