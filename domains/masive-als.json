@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "fredy30-Rojas",
+    "email": "fredy_30@hotmail.com"
+  },
+  "record": {
+    "A": ["79.72.57.253"]
+  },
+  "description": "MASIVE-ALS: Scientific computing project using AlphaFold, AutoDock-GPU and GROMACS on MareNostrum 5 supercomputer for ALS drug discovery. Open source software tools for molecular docking at exascale."
+}
