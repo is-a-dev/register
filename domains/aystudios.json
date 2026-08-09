@@ -4,7 +4,7 @@
     "email": "aystudios@proton.me"
   },
   "records": {
-    "A": "216.198.79.1"
+    "A": {"@":"216.198.79.1"}
     "TXT":{"_vercel":"vc-domain-verify=aystudios.is-a.dev,5c256a84f5ce1279807d"}
   }
 }
