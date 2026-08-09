@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "AgustinH09",
-    "email": "agus.hernandez9@gmail.com"
-  },
-  "records": {
-    "TXT": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "owner": {
-    "username": "crytsalsl2"
-  },
-  "records": {
-    "TXT": "v=DMARC1; p=none;"
-  }
-}

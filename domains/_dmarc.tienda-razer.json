@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "hirotakeshi",
-    "email": "thevad.z561@gmail.com"
-  },
-  "records": {
-    "TXT": "v=DMARC1; p=none;"
-  }
-}

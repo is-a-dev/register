@@ -1,9 +1,0 @@
-{
-  "owner": {
-   "username": "heyitzamjad",
-     "email": "itsamjadrahman@gmail.com"
-  },
- "records": {
-   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqTtRi4uOzeuvT/Hk+SsYei5DtJLmYoqCTNFoTqGcONlknpZYXnjGjSZIxPlh/rFDZULQxwH+sPpiVvMERZ3amZpAe9vNAZuH9ceKMsRn53+M8mQQgbWxFNC3MAFG/LChG/U5O74lS4G+DX5xCWoEY4buUMDoAd1RS5CTzv8grYQIDAQAB"
-  }
-}
