@@ -1,9 +1,0 @@
-{
-    "owner": {
-        "username": "ayaskant007",
-        "email": "ayaskantsahoo007@gmail.com"
-    },
-    "records": {
-        "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFDQWceCTMawiOyY/1dV40xcl7Ba2FaGt75ZXIVDPP3OhlfhENo1wnMcvXZ3KEPmkzs/38+Tvjp3A8fRcmqxoE9GDegrocnVyyCuw2bYSDBWXURLRBGKqmlPAF9fARXbxpYFXGcllcvILdaStqvjMa8FZPjLg8Zavm+Q4ye4vIvwIDAQAB"
-    }
-}
