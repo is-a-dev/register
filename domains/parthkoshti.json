@@ -1,5 +1,5 @@
 {
-  "description": "Portfolio of Parth Koshti — AI/ML Engineer",
+  "description": "Portfolio of Parth Koshti, AI/ML Engineer",
   "repo": "https://github.com/Parth2619/Portfolio-Website",
   "owner": {
     "username": "Parth2619",
@@ -7,6 +7,5 @@
   },
   "record": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "proxied": false
+  }
 }
