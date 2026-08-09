@@ -1,0 +1,11 @@
+{
+  "description": "My Website",
+  "repo": "https://github.com/alisad259/myunvrsty",
+  "owner": {
+    "username": "alisad259",
+    "email": "ضع-بريدك-الإلكتروني-هنا@gmail.com"
+  },
+  "record": {
+    "CNAME": "alisad259.github.io"
+  }
+}
