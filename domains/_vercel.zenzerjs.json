@@ -4,10 +4,6 @@
     "email": "Jayzenzer15@gmail.com"
   },
   "records": {
-    "TXT": [
-      {
-        "value": "vc-domain-verify=zenzerjs.is-a.dev,f744d4b56f2fa536f27e"
-      }
-    ]
+    "TXT": "vc-domain-verify=zenzerjs.is-a.dev,f744d4b56f2fa536f27e"
   }
 }
