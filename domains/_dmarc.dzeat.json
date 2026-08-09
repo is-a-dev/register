@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "manelbenchenni",
+    "email": "ton-email@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
