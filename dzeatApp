@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "ton-pseudo-github",
+    "email": "ton-email@gmail.com"
+  },
+  "records": {
+    "TXT": {
+      "resend._domainkey": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEDHwjmIiQK1dz0/QgmmUOGVyUp9wGunkvigw1SI3+3a3hwxuPtsnwJBorxB/jTtQpEiuV7lf7Z2Oy0R90sHq+FZOa5SXNcuhUbJD5/b7IOv91m/0bfrX7Bo8+Y22NLD3/ohO0BiN+sEzm5TE2G7yVPXhd9uJQc7vJb9vAqqfD+wIDAQAB",
+      "send": "v=spf1 include:amazonses.com ~all",
+      "_dmarc": "v=DMARC1; p=none;"
+    },
+    "MX": [
+      {
+        "name": "send",
+        "value": "feedback-smtp.eu-west-1.amazonses.com",
+        "priority": 10
+      }
+    ]
+  }
+}
