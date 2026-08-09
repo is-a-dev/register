@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "Merlin04",
+    "email": "is-a-dev@benjaminsmith.dev"
+  },
+  "description": "Redirect to personal website",
+  "records": {
+    "URL": "https://benjaminsmith.dev"
+  }
+}

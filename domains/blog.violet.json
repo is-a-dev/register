@@ -1,0 +1,9 @@
+{
+  "description": "My Blog Page",
+  "owner": {
+    "username": "violetlaire"
+  },
+  "records": {
+    "CNAME": "blogviolet.vercel.app"
+  }
+}

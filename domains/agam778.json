@@ -1,0 +1,10 @@
+{
+  "description": "Agam's Website",
+  "owner": {
+    "username": "agam778",
+    "email": "agam778@zohomail.in"
+  },
+  "records": {
+    "CNAME": "agamsblog.pages.dev"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "dfv1663-eng",
+        "email": "dfv1663@gmail.com"
+    },
+    "records": {
+        "TXT": "v=DMARC1; p=none;"
+    }
+}

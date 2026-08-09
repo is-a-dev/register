@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "npx ava tests/*.test.js"
+  },
+  "devDependencies": {
+    "ava": "^8.0.1",
+    "fs-extra": "^11.4.0"
+  }
+}

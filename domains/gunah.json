@@ -1,0 +1,11 @@
+{
+    "description": "GunahD Personal website",
+    "repo": "https://github.com/GunahD/gunah",
+    "owner": {
+        "username": "GunahD",
+        "email": "gabewastaken03@gmail.com"
+    },
+    "records": {
+        "CNAME": "gunahd.github.io"
+    }
+}

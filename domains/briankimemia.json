@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "BrianKN019",
+    "email": "briannkimemia@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "briankimemia.vercel.app",
+    "TXT": [
+      "google-site-verification=DSb1tEDwkBKAK9DhQrUAe_zh9rs7UVWfhx5uoHo1D00",
+      "v=spf1 include:zoho.com ~all"
+    ],
+    "MX": [
+      { "target": "mx.zoho.com",  "priority": 10 },
+      { "target": "mx2.zoho.com", "priority": 20 },
+      { "target": "mx3.zoho.com", "priority": 50 }
+    ]
+  }
+}

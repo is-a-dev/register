@@ -1,0 +1,10 @@
+{
+  "description": "Brunos's personal developer website",
+  "owner": {
+    "username": "BrunoWithoutH",
+    "email": "pinheirobrunoevaristo@gmail.com"
+  },
+  "records": {
+    "CNAME": "brunowithouth.github.io"
+  }
+}

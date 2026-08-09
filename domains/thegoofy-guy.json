@@ -1,0 +1,10 @@
+{
+  "description": "My personal portfolio website",
+  "owner": {
+    "username": "thegoofy-dev",
+    "email": "pankajtyagi1601@gmail.com"
+  },
+  "records": {
+    "CNAME": "pankajtyagi-portfolio.vercel.app"
+  }
+}

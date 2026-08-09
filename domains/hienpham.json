@@ -1,0 +1,11 @@
+{
+  "description": "My personal portfolio",
+  "repo": "https://github.com/phmhienn/Portfolio.git",
+  "owner": {
+    "username": "phmhienn",
+    "email": "hienphamtm74@gmail.com"
+  },
+  "records": {
+    "CNAME": "hienpahm-dev.vercel.app"
+  }
+}
