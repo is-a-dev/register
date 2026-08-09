@@ -4,6 +4,6 @@
     "email": "aystudios@proton.me"
   },
   "records": {
-    "NS": ["dns1.p07.nsone.net", "dns2.p07.nsone.net", "dns3.p07.nsone.net", "dns4.p07.nsone.net"]
+    "CNAME": "aystudios.netlify.app"
   }
 }
