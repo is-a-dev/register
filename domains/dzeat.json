@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "manelbenchenni",
+    "username": "manelBenchenni",
     "email": "manelmbnchenni@gmail.com"
   },
   "records": {
+    "URL": "https://github.com/manelbenchenni/dzeat",
     "TXT": "v=spf1 ~all"
   }
 }
