@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "souravbanerjee147",
+    "email": "souravayrah1@gmail.com"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "feedback-smtp.us-east-1.amazonses.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all",
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMgEjDV6PjNkBOLldaVCqL4oKOV/FE4p2u0PNhcD33c56VnL7B/SvkECYWXzACgi5F0uPzvl1CNrU5tbIRAc77/8v+IMKgMvnXcbQzERqlpTvbL+GlPN3d2aKH+d3G9xHZRH78dVZ1ozQMaQYOYZEjCogSdK+nPo7Btv1EwRNG+QIDAQAB"
+    ]
+  }
+}
