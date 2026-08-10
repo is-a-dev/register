@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>NYANN SCRIPT HUB</title>
+
+<!-- Pixel Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:var(--ui-font,"Press Start 2P",monospace);
+    -webkit-tap-highlight-color:transparent;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#060606;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+    overflow-x:hidden;
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background-image:
+        linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+    background-size:64px 64px;
+    pointer-events:none;
+}
+
+.card{
+    width:100%;
+    max-width:720px;
+    background:#111;
+    border:2px solid #2e2e2e;
+    border-radius:14px;
+    padding:25px;
+    position:relative;
+    z-index:1;
+    box-shadow:0 0 12px rgba(0,0,0,.5);
+}
+
+.logo{
+    text-align:center;
+    font-size:70px;
+    margin-bottom:18px;
+    user-select:none;
+}
+
+h1{
+    text-align:center;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.info{
+    text-align:center;
+    color:#888;
+    font-size:8px;
+    line-height:2;
+    margin-bottom:20px;
+}
+
+.info a{
+    color:var(--accent);
+    text-decoration:none;
+}
+
+.info a:hover{
+    text-decoration:underline;
+}
+
+.script-display{
+    background:#090909;
+    border:2px solid #2d2d2d;
+    border-radius:10px;
+    padding:15px;
+    margin-bottom:16px;
+}
+
+.script-display .label{
+    display:block;
+    color:#777;
+    font-size:8px;
+    margin-bottom:8px;
+}
+
+.script-display .name{
+    font-size:14px;
+    color:var(--accent);
+    margin-bottom:12px;
+    word-break:break-word;
+}
+
+.script-display .code{
+    background:#060606;
+    border:1px solid #1d1d1d;
+    border-radius:8px;
+    padding:12px;
+    font-size:8px;
+    line-height:2;
+    color:#ddd;
+    white-space:pre-wrap;
+    word-break:break-word;
+    max-height:200px;
+    overflow-y:auto;
+}
+
+.script-display .code::-webkit-scrollbar{
+    width:4px;
+}
+
+.script-display .code::-webkit-scrollbar-track{
+    background:#111;
+}
+
+.script-display .code::-webkit-scrollbar-thumb{
+    background:#2d2d2d;
+    border-radius:4px;
+}
+
+.copy-btn{
+    width:100%;
+    padding:16px;
+    border:2px solid #555;
+    background:#141414;
+    color:#fff;
+    font-size:10px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.15s;
+    margin-bottom:16px;
+}
+
+.copy-btn:hover{
+    background:#fff;
+    color:#000;
+}
+
+.copy-btn:active{
+    transform:scale(.98);
+}
+
+/* Search Bar */
+.search-box{
+    display:flex;
+    gap:8px;
+    margin-bottom:12px;
+    align-items:center;
+}
+
+.search-box input{
+    flex:1;
+    padding:12px 16px;
+    background:#0a0a0a;
+    border:2px solid #2d2d2d;
+    border-radius:8px;
+    color:#fff;
+    font-size:9px;
+    outline:none;
+    transition:.15s;
+}
+
+.search-box input::placeholder{
+    color:#555;
+}
+
+.search-box input:focus{
+    border-color:var(--accent);
+}
+
+.search-box .search-icon{
+    color:#555;
+    font-size:12px;
+    padding:8px;
+}
+
+.script-list-title{
+    color:#888;
+    font-size:8px;
+    margin-bottom:12px;
+    letter-spacing:1px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.script-list-title .count{
+    color:#555;
+    font-size:7px;
+}
+
+/* Chia 2 cột */
+.script-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:8px;
+    margin-bottom:16px;
+    max-height:350px;
+    overflow-y:auto;
+    padding:4px;
+}
+
+.script-grid::-webkit-scrollbar{
+    width:4px;
+}
+
+.script-grid::-webkit-scrollbar-track{
+    background:#111;
+}
+
+.script-grid::-webkit-scrollbar-thumb{
+    background:#2d2d2d;
+    border-radius:4px;
+}
+
+.script-item{
+    padding:14px 16px;
+    border:2px solid #2d2d2d;
+    background:#0a0a0a;
+    color:#aaa;
+    font-size:8px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.15s;
+    text-align:center;
+    width:100%;
+    font-weight:bold;
+    letter-spacing:0.5px;
+}
+
+.script-item:hover{
+    background:#1a1a1a;
+    border-color:#555;
+    color:#fff;
+    transform:translateY(-1px);
+}
+
+.script-item.active{
+    border-color:var(--accent);
+    color:var(--accent);
+    background:var(--accent-bg);
+    box-shadow:0 0 16px rgba(0,255,136,0.15);
+}
+
+.script-item:active{
+    transform:scale(.96);
+}
+
+.script-item.hidden{
+    display:none;
+}
+
+/* Highlight search */
+.script-item .highlight{
+    color:var(--accent);
+}
+
+#toast{
+    margin-top:15px;
+    text-align:center;
+    font-size:8px;
+    min-height:14px;
+    color:var(--accent);
+}
+
+@media(max-width:600px){
+
+.logo{
+    font-size:55px;
+}
+
+h1{
+    font-size:14px;
+}
+
+.script-display .name{
+    font-size:11px;
+}
+
+.script-display .code{
+    font-size:7px;
+    padding:10px;
+}
+
+.copy-btn{
+    font-size:9px;
+    padding:14px;
+}
+
+.script-item{
+    font-size:7px;
+    padding:12px 12px;
+}
+
+.search-box input{
+    font-size:8px;
+    padding:10px 14px;
+}
+
+.script-list-title{
+    font-size:7px;
+}
+
+.script-list-title .count{
+    font-size:6px;
+}
+
+}
+
+/* Hamburger Menu */
+.menu-btn{
+    position:absolute;
+    top:18px;
+    right:18px;
+    width:44px;
+    height:44px;
+    border:2px solid #2d2d2d;
+    border-radius:9px;
+    background:#0a0a0a;
+    color:#fff;
+    font-size:20px;
+    cursor:pointer;
+    z-index:20;
+    transition:.15s;
+}
+.menu-btn:hover{
+    background:#fff;
+    color:#000;
+}
+.menu-panel{
+    position:absolute;
+    top:70px;
+    right:18px;
+    width:230px;
+    background:#0b0b0b;
+    border:2px solid #2d2d2d;
+    border-radius:10px;
+    padding:12px;
+    display:none;
+    z-index:19;
+    box-shadow:0 10px 30px rgba(0,0,0,.45);
+}
+.menu-panel.show{display:block;}
+.menu-title{
+    color:#888;
+    font-size:8px;
+    margin-bottom:10px;
+    letter-spacing:1px;
+}
+.menu-link{
+    display:block;
+    width:100%;
+    padding:12px;
+    margin-bottom:8px;
+    border:2px solid #2d2d2d;
+    border-radius:8px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    text-align:center;
+    font-size:8px;
+    cursor:pointer;
+}
+.menu-link:last-child{margin-bottom:0;}
+.menu-link:hover{
+    background:#fff;
+    color:#000;
+}
+
+
+.delta-panel{
+    position:absolute;
+    top:70px;
+    right:18px;
+    width:280px;
+    background:#0b0b0b;
+    border:2px solid #2d2d2d;
+    border-radius:10px;
+    padding:14px;
+    display:none;
+    z-index:21;
+    box-shadow:0 10px 30px rgba(0,0,0,.5);
+}
+.delta-panel.show{display:block;}
+.delta-panel h3{
+    color:#fff;
+    font-size:10px;
+    margin-bottom:10px;
+}
+.delta-panel p{
+    color:#888;
+    font-size:7px;
+    line-height:1.8;
+    margin-bottom:12px;
+}
+.delta-online{
+    display:block;
+    width:100%;
+    padding:12px;
+    border:2px solid #2d2d2d;
+    border-radius:8px;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    text-align:center;
+    font-size:8px;
+}
+.delta-online:hover{
+    background:#fff;
+    color:#000;
+}
+
+
+.client-info-panel{
+    position:absolute;
+    top:70px;
+    right:18px;
+    width:280px;
+    background:#0b0b0b;
+    border:2px solid #2d2d2d;
+    border-radius:10px;
+    padding:14px;
+    display:none;
+    z-index:22;
+    box-shadow:0 10px 30px rgba(0,0,0,.5);
+}
+.client-info-panel.show{display:block;}
+.client-info-panel h3{
+    color:#fff;
+    font-size:10px;
+    margin:0 0 10px;
+}
+.client-info-panel p{
+    color:#888;
+    font-size:7px;
+    line-height:1.8;
+    margin:0 0 12px;
+}
+.client-online{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    padding:12px;
+    border:2px solid #2d2d2d;
+    border-radius:8px;
+    background:#111;
+    color:#fff;
+    text-align:center;
+    font-size:8px;
+    text-decoration:none;
+    cursor:pointer;
+    transition:.15s;
+}
+a.client-online:hover{
+    background:#fff;
+    color:#000;
+    border-color:#fff;
+}
+
+
+.sub-panel{position:absolute;top:70px;right:18px;width:290px;max-height:70vh;overflow-y:auto;background:#0b0b0b;border:2px solid #2d2d2d;border-radius:10px;padding:12px;display:none;z-index:25;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.sub-panel.show{display:block}
+.sub-title{color:#888;font-size:8px;margin-bottom:12px;letter-spacing:1px}
+.status{float:right;font-size:6px}
+.status.online{color:var(--accent)}
+.status.offline{color:var(--accent)}
+.setting-label{color:#777;font-size:7px;margin:4px 0 10px}
+.color-grid,.font-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:10px}
+.color-btn,.font-btn{padding:10px 6px;border:2px solid #2d2d2d;border-radius:8px;background:#111;color:#fff;font-family:var(--ui-font,"Press Start 2P",monospace);font-size:6px;cursor:pointer}
+.color-btn:hover,.color-btn.active,.font-btn:hover,.font-btn.active{border-color:#555;box-shadow:none}
+.back-btn,.reset-color-btn,.reset-font-btn{width:100%;padding:11px;border:2px solid #2d2d2d;border-radius:8px;background:#111;color:#fff;font-family:var(--ui-font,"Press Start 2P",monospace);font-size:7px;cursor:pointer;margin-top:7px}
+.back-btn:hover,.reset-color-btn:hover,.reset-font-btn:hover{background:#fff;color:#000}
+
+
+.menu-panel.show{display:block}
+.menu-panel.show + .sub-panel{}
+@media(max-width:600px){
+    .menu-panel,.sub-panel,.client-info-panel{right:10px;max-width:calc(100vw - 20px);}
+}
+
+
+:root{
+    --accent:#ffffff;
+    --accent-rgb:0,255,136;
+    --accent-bg:rgba(var(--accent-rgb),.10);
+    --accent-glow:rgba(var(--accent-rgb),.20);
+}
+
+/* Everything that is an interface accent follows --accent */
+.script-item.active,
+.script-item .highlight{
+    color:var(--accent) !important;
+}
+
+.script-item.active{
+    border-color:var(--accent);
+}
+
+
+.script-item.active{
+    background:var(--accent-bg);
+    border-color:var(--accent) !important;
+    box-shadow:0 0 16px var(--accent-glow);
+}
+
+.script-item:hover{
+    border-color:var(--accent);
+}
+
+.script-item .highlight{
+    color:var(--accent) !important;
+}
+
+.search-box input:focus{
+    border-color:#555 !important;
+    box-shadow:none;
+}
+
+.copy-btn:hover{
+    border-color:#fff !important;
+    color:#000 !important;
+    background:#fff !important;
+    box-shadow:none;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.back-btn:hover,
+.reset-color-btn:hover{
+    border-color:#fff !important;
+    color:#000 !important;
+}
+
+.color-btn:hover,
+.color-btn.active{
+    border-color:#555 !important;
+    box-shadow:none;
+}
+
+.client-online{
+    color:#fff !important;
+    border-color:#2d2d2d !important;
+}
+
+.status.online,
+.status.offline{
+    color:#fff !important;
+}
+
+
+/* ===== SCRIPT TAB COLOR SYNC =====
+   Only the selected script tab uses the Settings accent color.
+   All other interface elements remain black/white/gray. */
+.script-item{
+    transition:color .15s,background-color .15s,border-color .15s,box-shadow .15s;
+}
+
+.script-item:not(.active){
+    color:#aaa !important;
+    border-color:#2d2d2d !important;
+    background:#0a0a0a !important;
+}
+
+.script-item:hover{
+    color:#fff !important;
+    border-color:#555 !important;
+    background:#1a1a1a !important;
+}
+
+.script-item.active{
+    color:var(--accent) !important;
+    border-color:var(--accent) !important;
+    background:var(--accent-bg) !important;
+    box-shadow:0 0 16px var(--accent-glow) !important;
+}
+
+/* Keep Settings and the rest of the UI monochrome. */
+.menu-btn,
+.menu-link,
+.client-online,
+.color-btn,
+.back-btn,
+.reset-color-btn,
+.search-box input,
+.copy-btn,
+.card,
+.script-display,
+.menu-panel,
+.sub-panel,
+.client-info-panel{
+    color:#fff;
+}
+
+.menu-btn,
+.menu-link,
+.client-online,
+.color-btn,
+.back-btn,
+.reset-color-btn,
+.search-box input,
+.copy-btn,
+.card,
+.script-display,
+.menu-panel,
+.sub-panel,
+.client-info-panel{
+    border-color:#2d2d2d !important;
+}
+
+.search-box input:focus{
+    border-color:#555 !important;
+    box-shadow:none !important;
+}
+
+.search-box input::placeholder{
+    color:#555 !important;
+    opacity:1;
+}
+
+.copy-btn:hover,
+.menu-btn:hover,
+.menu-link:hover,
+.back-btn:hover,
+.reset-color-btn:hover{
+    background:#fff !important;
+    color:#000 !important;
+    border-color:#fff !important;
+}
+
+.color-btn:hover,
+.color-btn.active{
+    border-color:#555 !important;
+    box-shadow:none !important;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+    <div class="menu-panel" id="menuPanel">
+        <div class="menu-title">MENU</div>
+        <button class="menu-link" id="clientToolsBtn" type="button">CLIENT / TOOLS</button>
+        <button class="menu-link" id="settingsBtn" type="button">SETTINGS</button>
+    </div>
+
+    <div class="sub-panel" id="clientToolsPanel">
+        <div class="sub-title">CLIENT / TOOLS</div>
+        <button class="menu-link" id="deltaToolBtn" type="button">DELTA <span class="status online">ONLINE</span></button>
+        <button class="menu-link" id="krnlToolBtn" type="button">KRNL <span class="status offline">OFFLINE</span></button>
+        <button class="back-btn" id="clientBackBtn" type="button">← BACK</button>
+    </div>
+
+    <div class="sub-panel settings-panel" id="settingsPanel">
+        <div class="sub-title">SETTINGS</div>
+        <div class="setting-label">Choose the color you like</div>
+        <div class="color-grid" id="colorGrid">
+            <button class="color-btn" data-color="#00ff88">Green</button>
+            <button class="color-btn" data-color="#ff3b30">Red</button>
+            <button class="color-btn" data-color="#ff9500">Orange</button>
+            <button class="color-btn" data-color="#ffd60a">Yellow</button>
+            <button class="color-btn" data-color="#34c759">Lime</button>
+            <button class="color-btn" data-color="#00e5ff">Cyan</button>
+            <button class="color-btn" data-color="#0a84ff">Blue</button>
+            <button class="color-btn" data-color="#5856d6">Indigo</button>
+            <button class="color-btn" data-color="#af52de">Purple</button>
+            <button class="color-btn" data-color="#ff2d55">Pink</button>
+            <button class="color-btn" data-color="#ff00ff">Magenta</button>
+            <button class="color-btn" data-color="#39ff14">Neon Green</button>
+            <button class="color-btn" data-color="#7df9ff">Neon Blue</button>
+            <button class="color-btn" data-color="#bf5af2">Neon Purple</button>
+            <button class="color-btn" data-color="#ff69b4">Hot Pink</button>
+            <button class="color-btn" data-color="#00bcd4">Ocean</button>
+            <button class="color-btn" data-color="#1de9b6">Mint</button>
+            <button class="color-btn" data-color="#76ff03">Electric Lime</button>
+            <button class="color-btn" data-color="#c6ff00">Chartreuse</button>
+            <button class="color-btn" data-color="#ffea00">Lemon</button>
+            <button class="color-btn" data-color="#ff6d00">Tangerine</button>
+            <button class="color-btn" data-color="#ff1744">Crimson</button>
+            <button class="color-btn" data-color="#d50000">Ruby</button>
+            <button class="color-btn" data-color="#ff4081">Rose</button>
+            <button class="color-btn" data-color="#e040fb">Violet</button>
+            <button class="color-btn" data-color="#7c4dff">Electric Violet</button>
+            <button class="color-btn" data-color="#651fff">Deep Purple</button>
+            <button class="color-btn" data-color="#304ffe">Royal Blue</button>
+            <button class="color-btn" data-color="#00a8ff">Sky Blue</button>
+            <button class="color-btn" data-color="#00acc1">Teal</button>
+            <button class="color-btn" data-color="#00897b">Emerald</button>
+            <button class="color-btn" data-color="#aeea00">Apple Green</button>
+            <button class="color-btn" data-color="#ffb300">Amber</button>
+            <button class="color-btn" data-color="#f4511e">Burnt Orange</button>
+            <button class="color-btn" data-color="#8d6e63">Mocha</button>
+        </div>
+        <button class="reset-color-btn" id="resetColorBtn" type="button">RESET COLOR</button>
+        <div class="setting-label">Choose the font you like</div>
+        <div class="font-grid" id="fontGrid">
+            <button class="font-btn" data-font='"Press Start 2P",monospace'>Pixel</button>
+            <button class="font-btn" data-font="Arial,sans-serif">Arial</button>
+            <button class="font-btn" data-font="Verdana,sans-serif">Verdana</button>
+            <button class="font-btn" data-font="Tahoma,sans-serif">Tahoma</button>
+            <button class="font-btn" data-font="Georgia,serif">Georgia</button>
+            <button class="font-btn" data-font='"Courier New",monospace'>Courier</button>
+            <button class="font-btn" data-font="Impact,sans-serif">Impact</button>
+            <button class="font-btn" data-font="Trebuchet MS,sans-serif">Trebuchet</button>
+        </div>
+        <button class="reset-font-btn" id="resetFontBtn" type="button">RESET FONT</button>
+        <button class="back-btn" id="settingsBackBtn" type="button">← BACK</button>
+    </div>
+
+
+<div class="logo">N</div>
+
+<h1>nyann get script</h1>
+
+<div class="info">
+YouTube: <a href="https://www.youtube.com/@nyann-y7g" target="_blank">@nyann-y7g</a><br>
+Tiktok: <a href="https://www.tiktok.com/@datlamhack?_r=1&_t=ZS-98PBwF4MDkA" target="_blank">@datlamhack</a><br>
+Facebook: <a href="https://www.facebook.com/share/1HJkm8PbEE/" target="_blank">@Truong Dat</a><br>
+Instagram: <a href="https://www.instagram.com/ttd.213?igsh=N2ljc3A4NTQ0ZW9n" target="_blank">@ttd_213</a><br>
+by real_@nyann
+</div>
+
+<!-- Script Display -->
+<div class="script-display">
+    <span class="label">SELECTED SCRIPT</span>
+    <div class="name" id="scriptName">Select Script</div>
+    <div class="code" id="scriptCode"><Choose the script you want to use./div>
+</div>
+
+<button class="copy-btn" id="copyBtn">COPY SCRIPT</button>
+
+<!-- Search Box -->
+<div class="search-box">
+    <span class="search-icon"></span>
+    <input type="text" id="searchInput" placeholder="SEARCH SCRIPT..." autocomplete="off">
+</div>
+
+<!-- Script List - 2 cột -->
+<div class="script-list-title">
+    SCRIPT LIST
+    <span class="count" id="scriptCount">Script</span>
+</div>
+<div class="script-grid" id="scriptGrid">
+    <button class="script-item" data-name="Redz Hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()'>Redz Hub</button>
+    <button class="script-item" data-name="Tay Hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/VTDROBLOX/Animehub/refs/heads/main/Tayhub.lua"))()'>Tay Hub</button>
+    <button class="script-item" data-name="Gravity Hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()'>Gravity Hub</button>
+    <button class="script-item" data-name="Dark X Hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Trdz-hub/refs/heads/main/DarkXHub.lua"))()'>Dark X Hub</button>
+    <button class="script-item" data-name="Neji Hub" data-code='repeat wait() until game:IsLoaded() and game.Players.LocalPlayer loadstring(game:HttpGet("https://raw.githubusercontent.com/ugmoddev/ScriptRoblox/refs/heads/main/NejiHub.lua"))()'>Neji Hub</button>
+    <button class="script-item" data-name="NatAov Hub" data-code='repeat wait() until game:IsLoaded() and game.Players.LocalPlayer getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-AnhTuansitink/NatAov-Hub/refs/heads/main/ILoveYou.lua"))()'>NATAov Hub</button>
+    <button class="script-item" data-name="Adz Hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()'>Adz Hub</button>
+    <button class="script-item" data-name="Abacaxi Hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/real33ms/BloxFruits/refs/heads/main/AbacaxiHubOfc.lua"))()'>Abacaxi Hub</button>
+    <button class="script-item" data-name="Dum Hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/DumHubdz/DumHubdzVN/refs/heads/main/DumHubdzVN.lua"))()'>Dum Hub</button>
+    <button class="script-item" data-name="Ok Hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/Okhubhere/refs/heads/main/MainBloxFruit.lua"))()'>Ok Hub</button>
+    <button class="script-item" data-name="Xeter V1" data-code='getgenv().Version = "V1" getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()'>Xeter V1</button>
+    <button class="script-item" data-name="Xeter V2" data-code='getgenv().Version = "V2" getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()'>Xeter V2</button>
+    <button class="script-item" data-name="Xeter V3" data-code='getgenv().Version = "V3" getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()'>Xeter V3</button>
+    <button class="script-item" data-name="Xeter V4" data-code='getgenv().Version = "V4" getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()'>Xeter V4</button>
+    <button class="script-item" data-name="Gravity Premium" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/MainPremium.lua"))()'>Gravity Premium</button>
+    <button class="script-item" data-name="Tay Premium" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/VTDROBLOX/Animehub/refs/heads/main/Tayhub-PREMIUM.lua"))()'>Tay Premium</button>
+    <button class="script-item" data-name="Nana TV" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/NaNaTV36/NaNaTVHubPremium/refs/heads/main/mainpremium.lua"))()'>Nana TV</button>
+    <button class="script-item" data-name="Hao Mod" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/TranGiaHao-source/HaoModHub/refs/heads/main/HUB_VIP_BY_HAO"))()'>Hao Mod</button>
+    <button class="script-item" data-name="Ngọc Bổng V2" data-code='loadstring(game:HttpGet("https://github.com/LuaCrack/NgocBong/raw/refs/heads/main/NgocBongV2"))()'>Ngọc Bổng V2</button>
+    <button class="script-item" data-name="Gravity Kaitun" data-code='repeat wait() until game:IsLoaded() and game.Players.LocalPlayer loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Kaitun.lua"))()'>Gravity Kaitun</button>
+    <button class="script-item" data-name="Realkid Kaitun" data-code='getgenv().Configs = {
+    ["Quest"] = {
+        ["Evo Race V1"] = true;
+        ["Evo Race V2"] = true;
+        ["RGB Haki"] = true;
+        ["Pull Lerver"] = true;
+    };
+    Sword = {
+        "Dual-Headed Blade";
+        "Smoke Admiral";
+        "Wardens Sword";
+        "Cutlass";
+        "Katana";
+        "Dual Katana";
+        "Triple Katana";
+        "Iron Mace";
+        "Saber";
+        "Pole (1st Form)";
+        "Gravity Blade";
+        "Longsword";
+        "Rengoku";
+        "Midnight Blade";
+        "Soul Cane";
+        "Bisento";
+        "Yama";
+        "Tushita";
+        "Cursed Dual Katana";
+    };
+    Gun = {
+        "Skull Guitar";
+        "Kabucha";
+        "Venom Bow";
+        "Musket";
+        "Flintlock";
+        "Refined Slingshot"; 
+        "Magma Blaster";
+        "Dual Flintlock";
+        "Cannon";
+        "Bizarre Revolver";
+        "Bazooka";
+    };
+    ["Bypass TP"] = true;
+    ["Auto Active Race V4"] = true;
+};
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realkidhub/realkid/refs/heads/main/kaitun.lua"))()'>Realkid Kaitun</button>
+    <button class="script-item" data-name="Teddy Hub" data-code='repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/teddyhubdev/diepvy/refs/heads/main/TeddyHub.lua"))()'>Teddy Hub</button>
+    <button class="script-item" data-name="Blue X Hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()'>Blue X Hub</button>
+    <button class="script-item" data-name="Night Hub" data-code='script_key = "" -- default is FREEMIUM]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/BF-Beta.lua"))()'>Night Hub</button>
+    <button class="script-item" data-name="nyann os" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/id202azh/Dev-nyannos/refs/heads/main/nyannos"))()'>nyann os</button>
+    <button class="script-item" data-name="nyann os all script" data-code='error : script dead'>nyann os all script</button>
+    <button class="script-item" data-name="Bacon Banana" data-code='repeat wait() until game:IsLoaded() and game.Players.LocalPlayer  getgenv().team = "Marines" -- Pirates or Marines loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh129150/hack/refs/heads/main/Bloxfruits.lua"))()'>Bacon Banana</button>
+    <button class="script-item" data-name="Hoho Hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()'>Hoho Hub</button>
+    <button class="script-item" data-name="Omg Hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()'>Omg Hub</button>
+    <button class="script-item" data-name="Realkid" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/realkidhub/realkid/refs/heads/main/main.lua"))()'>Realkid</button>
+    <button class="script-item" data-name="Datthg x Hoho" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/main/BloxFruit/Custom/ThgHub.lua"))()'>Datthg x Hoho</button>
+    <button class="script-item" data-name="Grai Hub V3" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Graihub/graihubfixlagv3/refs/heads/main/fixlagv3"))()'>Grai Hub V3</button>
+    <button class="script-item" data-name="Tung Nam" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/duongquangtungnam/Scripts/refs/heads/main/TungNamXRedz.lua"))()'>Tung Nam</button>
+    <button class="script-item" data-name="nyann os fix lag 100%" data-code=' loadstring(game:HttpGet("https://pastefy.app/PD0FXCxr/raw"))()'>nyann os fix lag 100%</button>
+    <button class="script-item" data-name="nyann os fix lag 20%" data-code=' loadstring(game:HttpGet("https://raw.githubusercontent.com/nyanndzvkl/fixlag/refs/heads/main/nyannfixlag.lua"))()'>nyann os fix lag 20%</button>
+    <button class="script-item" data-name="Than hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()'>Than hub</button>
+    <button class="script-item" data-name="PMT hub" data-code='loadstring(game:HttpGet("https://api.luacrack.site/files/v4/loaders/441db37736363705cf359bb89e23e0e1.lua"))()'>PMT hub</button>
+    <button class="script-item" data-name="Turbo lite hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/refs/heads/main/MainV2.lua"))()'>Turbo lite</button>
+    <button class="script-item" data-name="BOMAYYEUVIETNAM hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/banamkhoi/BOMAYYEUVIETNAM-Hub-menu-redz-hub/refs/heads/main/BOMAYYEUVIETNAM%20Hub%20fix.lua"))()'>BOMAYYEUVIETNAM</button>
+    <button class="script-item" data-name="Rise hub" data-code='if not game:IsLoaded() then game.Loaded:Wait() end 
+loadstring(game:HttpGet("https://rise-evo.xyz/apiv3/main.lua"))()'>Rise hub</button>
+    <button class="script-item" data-name="Setting hub" data-code='loadstring(game:HttpGet("https://pastefy.app/AjS0TLCt/raw"))()'>Setting hub</button>
+    <button class="script-item" data-name="Longhihi hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV4.1.0/refs/heads/main/MainV4.1.0"))()'>Longhihi hub</button>
+    <button class="script-item" data-name="TuanAnh IOS hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS-Main.Lua"))()'>TuanAnhIos</button>
+    <button class="script-item" data-name="Sol hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/GoblinKun009/Script/refs/heads/main/SolHub", true))()'>Sol hub</button>
+    <button class="script-item" data-name="Lonely Hub Pvp" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/LongHip12/LonelyHub/refs/heads/main/LonelyHub-PVP.lua"))()'>Lonely Hub Pvp</button>
+    <button class="script-item" data-name="Nova hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Real-Nova-X-Hub/all-game/refs/heads/main/skidder-Yes.lua"))()'>Nova hub</button>
+    <button class="script-item" data-name="Lonely Hub Pvp M1 fruit" data-code='getgenv().Config = {
+    ["Team"] = "Pirates",
+    ["Hide UI"] = false,
+
+    ["Hunt"] = {
+        ["Method Farm"] = "TP", -- Reset
+
+        ["Chat"] = {
+            ["Enabled"] = false,
+            ["Text"] = {"msg1", "msg2"},
+            ["Delay"] = 15
+        },
+
+        ["Auto Hop Time"] = 30,
+
+        ["Teleport Y When Low Health"] = {
+            Enabled = true,
+            ["Health Min"] = 4700,
+            ["Health Max"] = 6000
+        },
+
+        ["Auto V3"] = true,
+        ["Auto V4"] = true,
+        ["Auto Random Fruit"] = false,
+        ["Rejoin When Kick"] = true,
+
+        ["FPS Boost Method"] = "", -- Low Graphic or Hide Map
+        ["White Screen"] = false,
+        ["Black Screen"] = false,
+
+        ["Webhook"] = {
+            ["Enabled"] = false,
+            ["Url"] = ""
+        }
+    }
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LongHip12/LonelyHub/refs/heads/main/LonelyHub-BountyM1.lua"))()'>Lonely Hub Pvp M1 fruit</button>
+    <button class="script-item" data-name="Ronix hub" data-code='loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fda9babd071d6b536a745774b6bc681c.lua"))()'>Ronix hub</button>
+    <button class="script-item" data-name="Dragon hub" data-code='repeat wait() until game:IsLoaded() and game.Players.LocalPlayer  getgenv().team = "Pirates" -- Pirates or Marines loadstring(game:HttpGet("https://raw.githubusercontent.com/dragonhubdev/dragonwitheveryone/refs/heads/main/Main-BF.lua"))()'>Dragon Hub</button>
+    <button class="script-item" data-name="Maru hub free" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/MaruHubV1/refs/heads/main/MainV1.Lua "))()'>Maru hub free</button>
+    <button class="script-item" data-name="LGB hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/haob11399-debug/Redzhub/refs/heads/main/8676241718623887.lua"))()'>LGB hub</button>
+    <button class="script-item" data-name="Quantum hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()'>Quantum hub</button>
+    <button class="script-item" data-name="Omg hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()'>Omg hub</button>
+    <button class="script-item" data-name="Mixi hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/mixihubvip/mixihubvip/refs/heads/main/MixiHub"))()'>Mixi hub</button>
+    <button class="script-item" data-name="ZYN hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/GoblinKun009/Script/refs/heads/main/ZynHub", true))()'>ZYN hub</button>
+    <button class="script-item" data-name="Muxus hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/MuxusTL/BloxFruits/main/MuxusHub.lua"))()'>Muxus hub</button>
+    <button class="script-item" data-name="Lemon hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/trieu1082/Lemon-hub/refs/heads/main/Lemon-hub-cute.lua"))() '>Lemon hub</button>
+    <button class="script-item" data-name="3Toc hub" data-code='getgenv().Team = "Marines" --// Pirates loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/245375592509cc0bcb3526982431ab18.lua"))()'>3Toc hub</button>
+    <button class="script-item" data-name="TDT hub" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/ThinhNek343/tdthub/refs/heads/main/maintdt.lua"))()'>TDT hub</button>
+    <button class="script-item" data-name="Nana Tv Gag 2" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/NaNaTV36/gag2/refs/heads/main/NaNaHubGag2.lua"))()'>Nana Tv Gag 2</button>
+    <button class="script-item" data-name="NatAov hub Gag 2" data-code='loadstring(game:HttpGet'https://raw.githubusercontent.com/Dev-AnhTuansitink/NatAov-Hub/refs/heads/main/NatAovHub_GAG2.lua')()'>NatAov Gag 2</button>
+    <button class="script-item" data-name="Gravity hub Gag 2" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/GrowAGarden2/refs/heads/main/Main.lua"))()'>Gravity hub Gag 2</button>
+    <button class="script-item" data-name="Tay hub Gag 2" data-code=' loadstring(game:HttpGet("https://raw.githubusercontent.com/VTDROBLOX/Animehub/refs/heads/main/Tayhub-main-grow-2.lua"))()'>Tay hub Gag 2</button>
+    <button class="script-item" data-name="Speed hub Gag 2" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()'>Speed hub Gag 2</button>
+    <button class="script-item" data-name="Vxeze hub Gag 2" data-code='loadstring(game:HttpGet("https://gist.githubusercontent.com/angeryy-tvy/826d6026d799ff987914f4f911026a12/raw/GardenMainVxeze.lua"))()'>Vxeze hub Gag 2</button>
+    <button class="script-item" data-name="Realkid hub Gag 2" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/realkidhub/realkid/refs/heads/main/main.lua"))()'>Realkid hub Gag 2</button>
+    <button class="script-item" data-name="Blue X hub Gag 2" data-code='_G.AutoTranslate = true _G.SaveConfig = true loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()'>Blue X hub Gag 2</button>
+    <button class="script-item" data-name="Hoshi hub Gag 2" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Fluxyyy333/HoshiOnTop/main/loader.lua"))()'>Hoshi hub Gag 2</button>
+    <button class="script-item" data-name="Chiyo hub Gag 2" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()'>Chiyo hub Gag 2</button>
+    <button class="script-item" data-name="Axon hub Gag 2" data-code='loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/97c3f6db55a2cf72141537a85458e5a7.lua"))()'>Axon hub</button>
+    <button class="script-item" data-name="Senpai hub Tsb" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Senpai1997/Scripts/refs/heads/main/SenpaihubTheStrongestBattlegroundsAimlockAutoblock.lua"))()'>Senpai hub Tsb</button>
+    <button class="script-item" data-name="Tam hub Tsb" data-code='loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/bettertamhub.lua")()'>Tam hub Tsb</button>
+    <button class="script-item" data-name="Ns hub Tsb" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/TSBG/main/Solara"))()'>Ns hub Tsb</button>
+    <button class="script-item" data-name="Star hub Tsb" data-code='loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bc25e1f8ef8aa59092de8f8f4c4fb95c.lua"))()'>Star hub Tsb</button>
+    <button class="script-item" data-name="Forge hub Tsb" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()'>Forga hub Tsb</button>
+    <button class="script-item" data-name="Nicuse hub Tsb" data-code='loadstring(game:HttpGet("https://loader.nicuse.xyz"))()'>Nicuse hub Tsb</button>
+    <button class="script-item" data-name="Omg hub King legacy" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()'>Omg hub King legacy</button>
+    <button class="script-item" data-name="Wukong hub King legacy" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/duymanhm6-cyber/wukonghud/refs/heads/main/wukonghud"))()'>Wukong hub King legacy</button>
+    <button class="script-item" data-name="Zee hub King legacy" data-code='loadstring(game:HttpGet('https://zuwz.me/Ls-Zee-Hub-KL'))()'>Zee hub King legacy</button>
+    <button class="script-item" data-name="NTT hub King legacy" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/NTT-HUB/Script/refs/heads/main/main"))()'>NTT hub King legacy</button>
+    <button class="script-item" data-name="Axel hub King legacy" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/lostinnowheres/Loader/refs/heads/main/Loader.Lua"))()'>Axel hub King legacy</button>
+    <button class="script-item" data-name="Vector hub King legacy" data-code='loadstring(game:HttpGet("https://vectorhub.space"))() '>Vector hub King legacy</button>
+    <button class="script-item" data-name="Draconic hub Evade" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknownproooolucky/Draconic-Hub-X/refs/heads/main/files/Evade/Overhaul.lua"))()'>Draconic hub Evade</button>
+    <button class="script-item" data-name="Elderwyrm hub Evade" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Vraigos/Elderwyrm-Hub-X/refs/heads/main/Scripts/Evade/Overhaul.lua"))()'>Elderwyrm hub Evade</button>
+    <button class="script-item" data-name="Imp hub Sailor piece" data-code='loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34824c86db1eba5e5e39c7c2d6d7fdfe.lua"))()'>Imp hub Sailor piece</button>
+    <button class="script-item" data-name="Chiyo hub Sailor piece" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()'>Chiyo hub Sailor piece</button>
+    <button class="script-item" data-name="Nix hub Sailor piece" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/kirsia-dev/NixHub/refs/heads/main/loader.luau"))()'>Nix hub Sailor piece</button>
+    <button class="script-item" data-name="Rc hub Sailor piece" data-code='loadstring(game:HttpGet("https://vss.pandadevelopment.net/virtual/file/2768ea6419cb4d73"))()'>Rc hub Sailor piece</button>
+    <button class="script-item" data-name="Cat hub Sailor piece" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/realcath/lab/refs/heads/main/src/main/loader.lua"))()'>Cat hub Sailor piece</button>
+    <button class="script-item" data-name="Solix hub Sailor piece" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/a/a/a"))('>Solix hub Sailor piece</button>
+    <button class="script-item" data-name="Silver hub" data-code='getgenv().SCRIPT_KEY = "KEYLESS" loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/68c03a4bbe2693d16392815ddaa9cf322ddac3f145a4aed71ab52c87426373fd/download"))()'>Silver hub</button>
+    <button class="script-item" data-name="Trigon hub Sailor piece" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/Sindex-Saliii/TrigonEvoHub/refs/heads/main/Main.luau"))()'>Trigon hub Sailor piece</button>
+    <button class="script-item" data-name="Vexon hub MM2" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/refs/heads/main/VexonHub"))()'>Vexon hub MM2</button>
+    <button class="script-item" data-name="Onyx hub MM2" data-code='loadstring(game:HttpGet('https://raw.githubusercontent.com/OnyxHub-New/OnyxHub/refs/heads/main/mm2'))()'>Onyx hub MM2</button>
+    <button class="script-item" data-name="Thunder hub MM2" data-code='loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))()'>Thunder hub MM2</button>
+    <button class="script-item" data-name="Ronix hub MM2" data-code='loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fda9babd071d6b536a745774b6bc681c.lua"))()'>Ronix hub MM2</button>
+    <button class="script-item" data-name="Ringta hub Dead Rails" data-code='--[[ 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk! ]] loadstring(game:HttpGet("https://raw.githubusercontent.com/erewe23/deadrailsring.github.io/refs/heads/main/ringta.lua"))()'>Ringta hub Dead Rails</button>
+    <button class="script-item" data-name="Foxname hub Dead Rails" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/Foxname-Dr.lua"))()'>Ringta hub Dead Rails</button>
+    <button class="script-item" data-name="Chiyohub Garden horizone" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()'>Chiyohub Garden horizone</button>
+    <button class="script-item" data-name="Speed hub Garden horizone" data-code='loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()'>Speed hub Garden horizone</button>
+</div>
+
+<div id="toast"></div>
+
+</div>
+
+<script>
+const scriptName = document.getElementById('scriptName');
+const scriptCode = document.getElementById('scriptCode');
+const copyBtn = document.getElementById('copyBtn');
+const toast = document.getElementById('toast');
+const scriptItems = document.querySelectorAll('.script-item');
+const searchInput = document.getElementById('searchInput');
+const scriptCount = document.getElementById('scriptCount');
+
+let currentName = '';
+let currentCode = '';
+
+// Search function
+searchInput.addEventListener('input', function() {
+    const searchText = this.value.toLowerCase().trim();
+    let visibleCount = 0;
+    
+    scriptItems.forEach(item => {
+        const name = item.dataset.name.toLowerCase();
+        if (name.includes(searchText)) {
+            item.classList.remove('hidden');
+            visibleCount++;
+        } else {
+            item.classList.add('hidden');
+        }
+    });
+    
+    scriptCount.textContent = visibleCount + ' scripts';
+});
+
+// Script item click
+scriptItems.forEach(item => {
+    item.addEventListener('click', function() {
+        scriptItems.forEach(i => i.classList.remove('active'));
+        this.classList.add('active');
+        
+        const name = this.dataset.name;
+        const code = this.dataset.code;
+        
+        scriptName.textContent = name;
+        scriptCode.textContent = code;
+        
+        currentName = name;
+        currentCode = code;
+        
+        showToast('✓ Loaded: ' + name);
+    });
+});
+
+copyBtn.addEventListener('click', copyScript);
+
+function showToast(msg, color){
+    toast.textContent = msg;
+    toast.style.color = color || getComputedStyle(document.documentElement).getPropertyValue("--accent").trim() || "#00ff88";
+    clearTimeout(showToast.timer);
+    showToast.timer = setTimeout(() => {
+        toast.textContent = "";
+    }, 2500);
+}
+
+async function copyScript(){
+    const text = currentCode;
+    
+    if (!currentName || !text) {
+        showToast('✗ NO SCRIPT SELECTED');
+        return;
+    }
+    
+    if(navigator.clipboard && window.isSecureContext){
+        try{
+            await navigator.clipboard.writeText(text);
+            showToast('✓ ' + currentName + ' COPIED');
+            return;
+        }catch(e){}
+    }
+    
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.readOnly = true;
+    textarea.style.position = "fixed";
+    textarea.style.left = "-9999px";
+    textarea.style.opacity = "0";
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    
+    let success = false;
+    try{
+        success = document.execCommand("copy");
+    }catch(e){}
+    textarea.remove();
+    
+    if(success){
+        showToast('✓ ' + currentName + ' COPIED');
+    }else{
+        showToast('✗ COPY FAILED');
+    }
+}
+
+
+// Hamburger / Client / Settings
+const menuBtn=document.getElementById("menuBtn");
+const menuPanel=document.getElementById("menuPanel");
+const clientToolsBtn=document.getElementById("clientToolsBtn");
+const settingsBtn=document.getElementById("settingsBtn");
+const clientToolsPanel=document.getElementById("clientToolsPanel");
+const settingsPanel=document.getElementById("settingsPanel");
+const clientBackBtn=document.getElementById("clientBackBtn");
+const settingsBackBtn=document.getElementById("settingsBackBtn");
+const colorGrid=document.getElementById("colorGrid");
+const resetColorBtn=document.getElementById("resetColorBtn");
+const fontGrid=document.getElementById("fontGrid");
+const resetFontBtn=document.getElementById("resetFontBtn");
+
+function hideSubPanels(){clientToolsPanel.classList.remove("show");settingsPanel.classList.remove("show");}
+
+menuBtn.addEventListener("click",e=>{
+    e.stopPropagation();
+    const open=menuPanel.classList.contains("show");
+    hideSubPanels();
+    menuPanel.classList.toggle("show",!open);
+});
+clientToolsBtn.addEventListener("click",e=>{
+    e.stopPropagation();menuPanel.classList.remove("show");settingsPanel.classList.remove("show");clientToolsPanel.classList.add("show");
+});
+settingsBtn.addEventListener("click",e=>{
+    e.stopPropagation();menuPanel.classList.remove("show");clientToolsPanel.classList.remove("show");settingsPanel.classList.add("show");
+});
+clientBackBtn.addEventListener("click",e=>{e.stopPropagation();clientToolsPanel.classList.remove("show");menuPanel.classList.add("show");});
+settingsBackBtn.addEventListener("click",e=>{e.stopPropagation();settingsPanel.classList.remove("show");menuPanel.classList.add("show");});
+
+function showClientInfo(name,description,status,url){
+    let panel=document.getElementById("clientInfoPanel");
+    if(!panel){panel=document.createElement("div");panel.id="clientInfoPanel";panel.className="client-info-panel";document.querySelector(".card").appendChild(panel);}
+    
+    if(url){
+        panel.innerHTML=`<h3>${name}</h3><p>${description}</p><a class="client-online" href="${url}" target="_blank" rel="noopener noreferrer">${status}</a>`;
+    }else{
+        panel.innerHTML=`<h3>${name}</h3><p>${description}</p><div class="client-online">${status}</div>`;
+    }
+    
+    hideSubPanels();panel.classList.add("show");
+}
+document.getElementById("deltaToolBtn").addEventListener("click",e=>{
+    e.stopPropagation();
+    showClientInfo(
+        "DELTA CLIENT",
+        "Online",
+        "Click",
+        "https://deltaexploits.gg/delta-executor-android"
+    );
+});
+document.getElementById("krnlToolBtn").addEventListener("click",e=>{
+    e.stopPropagation();showClientInfo("KRNL","Offline","OFFLINE");
+});
+
+const defaultColor="#ffffff";
+function hexToRgb(hex){
+    hex=hex.replace("#","");
+    if(hex.length===3) hex=hex.split("").map(x=>x+x).join("");
+    const n=parseInt(hex,16);
+    return [(n>>16)&255,(n>>8)&255,n&255];
+}
+
+function applyColor(color){
+    const rgb=hexToRgb(color);
+    const bg=`rgba(${rgb.join(",")},.10)`;
+    const glow=`rgba(${rgb.join(",")},.20)`;
+
+    document.documentElement.style.setProperty("--accent",color);
+    document.documentElement.style.setProperty("--accent-rgb",rgb.join(","));
+    document.documentElement.style.setProperty("--accent-bg",bg);
+    document.documentElement.style.setProperty("--accent-glow",glow);
+
+    // Keep the interface monochrome. The accent is used by the
+    // currently selected script tab only.
+    document.querySelectorAll(".script-item").forEach(el=>{
+        el.style.color="";
+        el.style.borderColor="";
+        el.style.backgroundColor="";
+        el.style.boxShadow="";
+    });
+
+    document.querySelectorAll(".color-btn").forEach(btn=>{
+        btn.classList.toggle(
+            "active",
+            btn.dataset.color.toLowerCase()===color.toLowerCase()
+        );
+    });
+
+    localStorage.setItem("nyannInterfaceColor",color);
+}
+colorGrid.addEventListener("click",e=>{
+    const btn=e.target.closest(".color-btn");if(!btn)return;
+    applyColor(btn.dataset.color);showToast("✓ COLOR: "+btn.textContent);
+});
+resetColorBtn.addEventListener("click",()=>{applyColor(defaultColor);showToast("✓ COLOR RESET");});
+
+const defaultFont='"Press Start 2P",monospace';
+function applyFont(font){
+    document.documentElement.style.setProperty("--ui-font",font);
+    document.body.style.fontFamily=font;
+    document.querySelectorAll(".card, .card *").forEach(el=>el.style.fontFamily=font);
+    document.querySelectorAll(".font-btn").forEach(btn=>btn.classList.toggle("active",btn.dataset.font===font));
+    localStorage.setItem("nyannInterfaceFont",font);
+}
+fontGrid.addEventListener("click",e=>{
+    const btn=e.target.closest(".font-btn"); if(!btn)return;
+    applyFont(btn.dataset.font); showToast("✓ FONT: "+btn.textContent);
+});
+resetFontBtn.addEventListener("click",()=>{applyFont(defaultFont);showToast("✓ FONT RESET");});
+applyFont(localStorage.getItem("nyannInterfaceFont")||defaultFont);
+applyColor(localStorage.getItem("nyannInterfaceColor")||defaultColor);
+
+document.addEventListener("click",e=>{
+    const infoPanel=document.getElementById("clientInfoPanel");
+    if(infoPanel&&!infoPanel.contains(e.target)&&e.target.id!=="deltaToolBtn"&&e.target.id!=="krnlToolBtn")infoPanel.classList.remove("show");
+    if(!menuPanel.contains(e.target)&&e.target!==menuBtn&&!clientToolsPanel.contains(e.target)&&!settingsPanel.contains(e.target)){menuPanel.classList.remove("show");hideSubPanels();}
+});
+
+document.addEventListener("touchstart", function(){}, {passive: true});
+</script>
+
+</body>
+</html>
