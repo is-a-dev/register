@@ -1,17 +1,9 @@
 {
-
   "owner": {
-
-    "username": "b4rbarroja"
-
+    "username": "b4rbarroja",
+    "email": "mhmdm0@proton.me"
   },
-
   "records": {
-
-    "CNAME": "cname.vercel-dns.com"
-
-  },
-
-  "proxied": true
-
+    "A": ["216.198.79.1"]
+  }
 }
