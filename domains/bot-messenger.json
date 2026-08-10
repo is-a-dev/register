@@ -5,11 +5,7 @@
     "username": "mahandry51",
     "email": "mahandryantonio51@gmail.com"
   },
-  "proxied": true,
   "records": {
-    "CNAME": "bot-messenger-qsmt.onrender.com",
-    "TXT": [
-      "facebook-domain-verification=kmlikfigvrgzyr06ftcl6hr3gnxxyg"
-    ]
+    "CNAME": "bot-messenger-qsmt.onrender.com"
   }
 }
