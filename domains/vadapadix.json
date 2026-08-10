@@ -1,8 +1,14 @@
 {
-    "owner": {
-        "username": "vadapadix"
-    },
-    "records": {
-        "A": ["185.27.134.150"]
+  "owner": {
+    "username": "vadapadix"
+  },
+  "records": {
+    "A": ["185.27.134.150"],
+    "CNAME": "ns1.byet.org"
+  },
+  "subdomains": {
+    "34db229a6dfdcc48662260de06a8497f": {
+      "CNAME": "ns1.byet.org"
     }
+  }
 }
