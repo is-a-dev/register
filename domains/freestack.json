@@ -1,1 +1,9 @@
-{ "owner": { "username": "Fe3in", "email": "febinbenny434@gmail.com" }, "records": { "CNAME": "freestack.fe31n.workers.dev" } } 
+{
+  "owner": {
+    "username": "Fe3in",
+    "email": "febinbenny434@gmail.com"
+  },
+  "records": {
+    "CNAME": "freestack-app.netlify.app"
+  }
+}
