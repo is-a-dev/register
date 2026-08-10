@@ -5,6 +5,7 @@
     "username": "mahandry51",
     "email": "mahandryantonio51@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "bot-messenger-qsmt.onrender.com",
     "TXT": [
