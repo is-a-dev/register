@@ -4,6 +4,7 @@
     "email": "petrioteer007@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=itesh.is-a.dev,f95ed73dc7eb2b7fba3f"
+    "TXT": "vc-domain-verify=itesh.is-a.dev,f95ed73dc7eb2b7fba3f",
+    "TXT": "vc-domain-verify=www.itesh.is-a.dev,074f48fdfc5fef563297"
   }
 }
