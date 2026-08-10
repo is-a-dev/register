@@ -1,11 +1,12 @@
 {
   "owner": {
-    "username": "zSynnn"
+    "username": "zSynnn",
+    "email": "zsynkerx@gmail.com"
   },
   "records": {
     "NS": [
-      "ns5.awardspace.com",
-      "ns6.awardspace.com"
+      "ns95.dailysieure.com",
+      "ns96.dailysieure.com"
     ]
   }
 }
