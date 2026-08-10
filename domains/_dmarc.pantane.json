@@ -5,6 +5,5 @@
   },
   "records": {
     "TXT": "v=DMARC1; p=none;"
-  },
-  "proxied": true
+  }
 }
