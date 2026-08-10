@@ -3,7 +3,6 @@
         "username": "MaxLananas"
     },
     "records": {
-        "CNAME": "maxlananas-builds.pages.dev"
-    },
-    "proxied": true
+        "CNAME": "maxlananas.github.io"
+    }
 }
