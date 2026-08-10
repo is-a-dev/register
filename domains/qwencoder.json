@@ -1,0 +1,14 @@
+{
+  "description": "Meu servidor local",
+  "repo": "https://github.com/seu-usuario/seu-repositorio",
+  "owner": {
+    "username": "seu-usuario",
+    "email": "seu-email@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "elliott.ns.cloudflare.com",
+      "faye.ns.cloudflare.com"
+    ]
+  }
+}
