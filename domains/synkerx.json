@@ -4,9 +4,8 @@
     "email": "zsynkerx@gmail.com"
   },
   "records": {
-    "NS": [
-      "ns95.dailysieure.com",
-      "ns96.dailysieure.com"
+    "A": [
+      "160.191.243.50"
     ]
   }
 }
