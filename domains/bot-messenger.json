@@ -1,0 +1,14 @@
+{
+  "description": "Bot Messenger avec Meta Graph API",
+  "repo": "https://github.com/mahandry51/register",
+  "owner": {
+    "username": "mahandry51",
+    "email": "mahandryantonio51@gmail.com"
+  },
+  "record": {
+    "CNAME": "bot-messenger-qsmt.onrender.com",
+    "TXT": [
+      "facebook-domain-verification=kmlikfigvrgzyr06ftcl6hr3gnxxyg"
+    ]
+  }
+}
