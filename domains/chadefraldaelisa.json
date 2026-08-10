@@ -1,0 +1,12 @@
+{
+  "description": "Site do Chá de Fraldas da Elisa - 12 de setembro de 2026",
+  "domain": "chadefraldaelisa.is-a.dev",
+  "owner": {
+    "username": "matdardengo10-a11y",
+    "email": "matheus.dardengo@elogroup.com.br"
+  },
+  "record": {
+    "CNAME": "matdardengo10-a11y.github.io"
+  },
+  "proxied": false
+}
