@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "zSynnn",
-    "email": "zsynkerx@gmail.com"
+    "username": "zSynnn"
   },
   "records": {
-    "CNAME": "zsynnn.github.io"
+    "NS": [
+      "ns5.awardspace.com",
+      "ns6.awardspace.com"
+    ]
   }
 }
