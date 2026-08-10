@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "angelerika623-sudo"
+    "username": "angelerika623-sudo",
+    "email": "angelerika623@gmail.com"
   },
   "records": {
-    "TXT": "bbbb34cca9c5eaca52c4bca91dbaca"
+    "CNAME": "angelerika623-sudo.github.io"
   }
 }
