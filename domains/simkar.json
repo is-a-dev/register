@@ -4,7 +4,8 @@
     "email": "abel.thareq88@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=simkar.is-a.dev,c9300e1ead053bdd3a45"
   },
   "description": "SIMKAR - Sistem Informasi Manajemen Karyawan"
 }
