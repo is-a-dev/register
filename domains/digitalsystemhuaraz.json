@@ -10,12 +10,12 @@
       {
         "host": "@",
         "value": "mx1.forwardemail.net",
-        "priority": 10
+        "priority": 0
       },
       {
         "host": "@",
         "value": "mx2.forwardemail.net",
-        "priority": 10
+        "priority": 0
       }
     ],
     "TXT": [
