@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "Herofz"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
