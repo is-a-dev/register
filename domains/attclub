@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "your-github-username"
+  },
+  "record": {
+    "NS": [
+      "carmelo.ns.cloudflare.com",
+      "celine.ns.cloudflare.com"
+    ]
+  }
+}
