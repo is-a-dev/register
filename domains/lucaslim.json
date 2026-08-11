@@ -1,0 +1,13 @@
+{
+  "description": "Personal portfolio for Lucas Lim, Senior Full-Stack & AI Engineer — built with Next.js 14, React 18, Three.js, and TypeScript.",
+  "domain": "is-a.dev",
+  "subdomain": "lucaslim",
+  "owner": {
+    "username": "lucas97lim",
+    "email": "lucas97lim@gmail.com"
+  },
+  "records": {
+    "CNAME": "3232a0d0fc7a1532.vercel-dns-017.com"
+  },
+  "proxied": false
+}
