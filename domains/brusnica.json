@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "brusnica",
-    "email": "danny.fwrk@gmail.com"
+    "username": "lstparrot",
+    "email": "gooldes@gmail.com"
   },
   "records": {
-    "CNAME": "lstparrot.github.io"
+    "A": ["134.17.37.128"]
   }
 }
