@@ -3,7 +3,7 @@
     "username": "novaecosystems-cloud",
     "email": "novaecosystems@gmail.com"
   },
-  "record": {
-    "CNAME": "synaps-one.vercel.app"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }
