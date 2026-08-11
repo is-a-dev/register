@@ -4,6 +4,6 @@
         "email": "minilover2014@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=menelik.is-a.dev,cb17d3438343e5466dc3"]
+        "CNAME": "menelikcv.vercel.app"
     }
 }
