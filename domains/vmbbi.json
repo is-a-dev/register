@@ -9,6 +9,10 @@
       "mx1.forwardemail.net",
       "mx2.forwardemail.net"
     ],
-    "TXT": ["_git-pages-repository=https://codeberg.org/vmbbi/pages.git"]
+    "TXT": [
+      "_git-pages-repository=https://codeberg.org/vmbbi/pages.git",
+    "forward-email=QW9QdFBSOTFGRDhJWFRVQzFvNWMwWUdHYUNTbW9ET3gyYU83bkFNWDVJYkw0emxpSERHLWltbGJBZmhtWHlST0REMA==",
+      "v=spf1 a mx include:spf.forwardemail.net ~all"
+    ]
   }
 }
