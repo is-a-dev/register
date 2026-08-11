@@ -4,7 +4,7 @@
     "email": "tu-correo@gmail.com"
   },
   "domain": "is-a.dev",
-  "subdomain": "digitalsystem",
+  "subdomain": "digitalsystemhuaraz",
   "records": {
     "MX": ["mx.yandex.net"],
     "TXT": ["v=spf1 redirect=_spf.yandex.net"]
