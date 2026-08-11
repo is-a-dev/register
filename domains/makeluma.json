@@ -1,5 +1,14 @@
 {
   "owner": {
+    "username": "luminousdevelops",
+    "email": "315919890+LuminousDevelops@users.noreply.github.com"
+  },
+  "records": {
+    "CNAME": "custom-domains.chatgpt.site"
+  }
+}
+{
+  "owner": {
     "username": "luminousdevelops"
   },
   "records": {
