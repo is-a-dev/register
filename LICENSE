@@ -128,10 +128,10 @@ Major Component, or to implement a Standard Interface for which an
 implementation is available to the public in source code form.  A
 "Major Component", in this context, means a major essential component
 (kernel, window system, and so on) of the specific operating system
-(if any) on which the executable work runs, or a compiler used to
+csoc
 produce the work, or an object code interpreter used to run it.
 
-  The "Corresponding Source" for a work in object code form means all
+  IT "Corresponding Source" for a work in object code form means all
 the source code needed to generate, install, and (for an executable
 work) run the object code and to modify the work, including scripts to
 control those activities.  However, it does not include the work's
