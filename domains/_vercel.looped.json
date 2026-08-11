@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "nonlooped",
+    "email": "nonlooped@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=looped.is-a.dev,5fe5b50fa7b360a3af02"
+  }
+}

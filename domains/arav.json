@@ -1,0 +1,23 @@
+{
+    "owner": {
+        "username": "TrioA",
+        "email": "programmer60108@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"],
+        "MX": [
+            {
+                "target": "mx1.improvmx.com",
+                "priority": 10
+            },
+            {
+                "target": "mx2.improvmx.com",
+                "priority": 20
+            }
+        ],
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com ~all",
+            "google-site-verification=4l6Y8vk4RssyrfcMAk-voFzXePBwwR1ssHjnSpO7EtM"
+        ]
+    }
+}

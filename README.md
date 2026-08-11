@@ -17,6 +17,13 @@
 
 <p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking <code>.is-a.dev</code> subdomain for their personal websites.</p>
 
+> [!TIP]
+> We have just launched another free subdomain service for developers, called [**`is-a.bot`**](https://is-a.bot)!
+> 
+> Claim your `.is-a.bot` subdomain for free, before it's too late!
+> 
+> **GitHub** — [**free-domains/is-a.bot**](https://github.com/free-domains/is-a.bot)
+
 ---
 
 ## Announcements
@@ -31,6 +38,7 @@ Not all announcements are posted on GitHub[^1], however they will always be post
 
 - [Fork](https://github.com/is-a-dev/register/fork) the repository.
 - Follow the instructions on our [documentation](https://docs.is-a.dev).
+  - Do not use AI to generate your request, it **WILL** always get it wrong and will delay you getting a domain.
 - Once you open your pull request (PR), it will be reviewed. *Keep an eye on it in case changes are needed!*
    - If changes have been requested, please make the specified changes otherwise **you will be rejected**.
 - Once your PR is merged, your DNS records should be published with-in a few minutes.
