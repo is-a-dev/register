@@ -11,8 +11,16 @@
       }
     ],
     "TXT": [
-      "v=spf1 include:amazonses.com ~all",
-      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMgEjDV6PjNkBOLldaVCqL4oKOV/FE4p2u0PNhcD33c56VnL7B/SvkECYWXzACgi5F0uPzvl1CNrU5tbIRAc77/8v+IMKgMvnXcbQzERqlpTvbL+GlPN3d2aKH+d3G9xHZRH78dVZ1ozQMaQYOYZEjCogSdK+nPo7Btv1EwRNG+QIDAQAB"
+      "v=spf1 include:amazonses.com ~all"
     ]
+  },
+  "subdomains": {
+    "resend._domainkey": {
+      "records": {
+        "TXT": [
+          "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC16rAJyV657aqB04via0L5sC9wJJO7eaycZVrr6MmLx0CnReKLpjbhj5I4Bz8+9hQrh/oSNwW0U3HE729QMZmc6buadpxs1w9plk85Ed+T+Yxm7fnCUrs0hB4Rw2yT8h24cL7zHtA0QEe9oVnFhEGsdH3aaRFcWYF7sIOC5anoxwIDAQAB"
+        ]
+      }
+    }
   }
 }
