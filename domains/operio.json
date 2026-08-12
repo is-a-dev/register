@@ -1,0 +1,11 @@
+{
+  "description": "Operio — SaaS platform for service businesses",
+  "repo": "https://github.com/axeelhrz/register",
+  "owner": {
+    "username": "axeelhrz",
+    "email": "axeelhrz@gmail.com"
+  },
+  "records": {
+    "CNAME": "operio.up.railway.app"
+  }
+}
