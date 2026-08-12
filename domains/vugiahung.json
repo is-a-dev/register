@@ -4,6 +4,7 @@
     "email": "29vu07gia07hung@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=vugiahung.is-a.dev,2829fc6e34d31ebdee2e"
   }
 }
