@@ -1,1 +1,9 @@
-
+{
+  "description": "anis",
+  "owner": {
+    "username": "anismansuri03"
+  },
+  "records": {
+    "CNAME": "anismansuri03.github.io"
+  }
+}
