@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "eternaldevotee"
-  },
-  "records": {
-    "CNAME": "eternaldevotee.github.io"
-  }
+    "owner": {
+        "username": "eternaldevotee",
+        "email": "shubhamofficial0910@gmail.com"
+    },
+    "records": {
+        "CNAME": "eternaldevotee.github.io"
+    }
 }
