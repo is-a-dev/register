@@ -1,0 +1,10 @@
+{
+  "description": "Railway domain verification for operio.is-a.dev",
+  "owner": {
+    "username": "axeelhrz",
+    "email": "axeelhrz@gmail.com"
+  },
+  "records": {
+    "TXT": "railway-verify=f2c2168a6fd989a03c34502a6da98cb712a1a7b077299beb6bbd8c0a15371a67"
+  }
+}
