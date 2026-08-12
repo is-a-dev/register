@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "sanphukhoa",
+        "email": "bslonggiang@gmail.com"
+    },
+    "records": {
+        "CNAME": "sanphukhoa.github.io",
+        "TXT": ["MS=ms31678187"]
+    },
+    "proxied": true
+}
