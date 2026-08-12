@@ -25,11 +25,9 @@ Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150)
 Not all announcements are posted on GitHub[^1], however they will always be posted in our Discord server.
 
 > [!NOTE]
-> We have just launched another free subdomain service for developers, called [**`is-a.bot`**](https://is-a.bot)!
+> We have recently launched another free subdomain service, [**is-a.bot**](https://is-a.bot)!
 > 
-> Claim your `.is-a.bot` subdomain for free, before it's too late!
-> 
-> **GitHub** — [**free-domains/is-a.bot**](https://github.com/free-domains/is-a.bot)
+> Claim your `.is-a.bot` subdomain [here](https://github.com/free-domains/is-a.bot).
 
 [^1]: We only post announcements on GitHub in the case of a serious incident, which you'll see at the top of this README.
 
