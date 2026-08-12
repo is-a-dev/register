@@ -1,0 +1,14 @@
+{
+  "description": "nomi wake tunnel",
+  "repo": "https://github.com/linyinian/register",
+  "owner": {
+    "username": "linyinian",
+    "email": "vvwdust@gmail.com"
+  },
+  "records": {
+    "NS": [
+      { "host": "@", "answer": "javier.ns.cloudflare.com" },
+      { "host": "@", "answer": "saanvi.ns.cloudflare.com" }
+    ]
+  }
+}
