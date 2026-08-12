@@ -1,7 +1,8 @@
 {
   "description": "anis",
   "owner": {
-    "username": "anismansuri03"
+    "username": "anismansuri03",
+    "email": "hackerlol383@gmail.com"
   },
   "records": {
     "CNAME": "anismansuri03.github.io"
