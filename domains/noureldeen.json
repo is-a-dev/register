@@ -1,9 +1,11 @@
 {
+  "description": "Noureldeen Developer Portfolio",
+  "repo": "https://github.com/noureldeen-fn",
   "owner": {
     "username": "noureldeen-fn",
     "email": "noureldeen.fn@gmail.com"
   },
   "record": {
-    "CNAME": "noureldeen-zayan.vercel.app"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
