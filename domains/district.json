@@ -2,9 +2,10 @@
   "description": "District trading platform",
   "repo": "https://github.com/Soll-fx/District",
   "owner": {
-    "username": "Soll-fx"
+    "username": "Soll-fx",
+    "email": "solomon.ikigai@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
