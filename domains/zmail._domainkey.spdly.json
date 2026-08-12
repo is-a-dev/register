@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "spdly-studios",
+     "email": "spdly.studios@gmail.com"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCK4MjlxmjVt4c85I11yc2RzO5FS5Vwjlx26zc8IQrjM/yOzvqNQF9g/B/7k1wfz+aA2lZfMuYO8aUFbIV7DDT1X4Xsxv0Ts6+cmXbgcrES08/FULyihauOzYJyzOp7cpQ+XJrzN1c8jJ7jVH6DDAGCPwenFjybV4uMNbWXl/hegQIDAQAB"
+  }
+}

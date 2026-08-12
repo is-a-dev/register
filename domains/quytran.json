@@ -1,0 +1,11 @@
+{
+  "description": "My blog",
+  "repo": "https://github.com/motmaytinh/motmaytinh.github.io",
+  "owner": {
+    "username": "motmaytinh",
+    "email": "motmaytinh@gmail.com"
+  },
+  "records": {
+    "CNAME": "motmaytinh.github.io"
+  }
+}
