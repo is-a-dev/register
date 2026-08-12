@@ -1,32 +1,9 @@
 {
   "owner": {
-    "username": "TU_USUARIO_DE_GITHUB",
+    "username": "oscardg2708-cmd",
     "email": "oscardg2708@gmail.com"
   },
-  "domain": "is-a.dev",
-  "subdomain": "digitalsystemhuaraz",
-  "records": {
-    "MX": [
-      {
-        "host": "@",
-        "value": "mx1.forwardemail.net",
-        "priority": 0
-      },
-      {
-        "host": "@",
-        "value": "mx2.forwardemail.net",
-        "priority": 0
-      }
-    ],
-    "TXT": [
-      {
-        "host": "@",
-        "value": "v=spf1 include:spf.forwardemail.net -all"
-      },
-      {
-        "host": "@",
-        "value": "forward-email=oscardg2708@gmail.com"
-      }
-    ]
+  "record": {
+    "CNAME": "oscardg2708-cmd.github.io"
   }
 }
