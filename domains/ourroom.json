@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "manyue0503-stack",
+    "email": "Manyue0503@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "hadlee.ns.cloudflare.com",
+      "jobs.ns.cloudflare.com"
+    ]
+  }
+}
