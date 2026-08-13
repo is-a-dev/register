@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "olgy1"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "v=spf1 include:spf.mailjet.com ~all"
+  },
+  "proxied": true
+}
