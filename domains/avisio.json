@@ -1,0 +1,31 @@
+{
+  "domain": "avisio.is-a.dev",
+  "owner": {
+    "github": "titoune33",
+    "email": "wajda-titouan@etud.ices.fr"
+  },
+  "records": {
+    "mx": [
+      {
+        "name": "send.avisio",
+        "type": "MX",
+        "value": "feedback-smtp.us-east-1.amazonses.com",
+        "priority": 10,
+        "ttl": 3600
+      }
+    ],
+    "txt": [
+      {
+        "name": "resend._domainkey.avisio",
+        "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCz1dLCjVlCzAurX4kP189OP+InaTeVvj2xY0yobHeo2qRSDVF81AV3LOy/Gdi0ucHBqXoeza1GPKWzWOrab36xR/YqNK4KlUIt7KlQKYymhhMGKvXS5LHF3ybBOkKrMGDKSZjeh7X5+e5ycmfrvJp/Gjg9HbsEA4UsF9+E9cvKjwIDAQAB",
+        "ttl": 3600
+      },
+      {
+        "name": "send.avisio",
+        "value": "v=spf1 include:amazonses.com ~all",
+        "ttl": 3600
+      }
+    ]
+  },
+  "proxied": false
+}
