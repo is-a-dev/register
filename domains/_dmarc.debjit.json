@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "mystichronicle",
+    "email": "mystichronicle@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=none; rua=mailto:mystichronicle@gmail.com;"
+    ]
+  }
+}
