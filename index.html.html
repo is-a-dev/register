@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semicogames.dev - Play Free Online Games</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --bg: #f8fafc;
+            --sidebar: #1e293b;
+            --card-bg: #ffffff;
+            --text: #0f172a;
+            --text-light: #64748b;
+            --border: #e2e8f0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            background-color: var(--sidebar);
+            color: white;
+            padding: 20px;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            transition: width 0.3s;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo span { color: white; }
+
+        .nav-menu { list-style: none; flex-grow: 1; }
+        .nav-item { margin-bottom: 10px; }
+
+        .nav-link {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 12px 15px;
+            color: #cbd5e1;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .nav-link:hover, .nav-link.active { background-color: #334155; color: white; }
+        .copyright { font-size: 12px; color: #64748b; margin-top: 20px; }
+
+        /* Main Content */
+        .main { flex-grow: 1; margin-left: 250px; display: flex; flex-direction: column; }
+
+        .header {
+            height: 70px;
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            padding: 0 30px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .search-bar { flex-grow: 1; max-width: 500px; position: relative; }
+        .search-bar input {
+            width: 100%;
+            padding: 10px 15px 10px 40px;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            font-size: 16px;
+            outline: none;
+        }
+        .search-bar input:focus { border-color: var(--primary); }
+
+        .content { padding: 30px; flex-grow: 1; }
+        .section-title { font-size: 24px; margin-bottom: 20px; font-weight: 600; }
+
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .game-card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .game-card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px rgba(0,0,0,0.1); }
+
+        .game-thumb {
+            width: 100%;
+            aspect-ratio: 16/10;
+            background-color: #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: #94a3b8;
+        }
+
+        .game-info { padding: 15px; }
+        .game-title { font-weight: 600; margin-bottom: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .game-category { font-size: 12px; color: var(--text-light); }
+
+        /* Game Player Overlay */
+        #game-player {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #0f172a;
+            z-index: 1000;
+            flex-direction: column;
+        }
+
+        .player-header {
+            height: 60px;
+            background-color: #1e293b;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            color: white;
+            gap: 20px;
+        }
+
+        .back-btn { background: none; border: none; color: white; font-size: 18px; cursor: pointer; display: flex; align-items: center; gap: 5px; }
+        .player-title { font-size: 20px; font-weight: 600; }
+        .game-frame { flex-grow: 1; border: none; background: white; }
+
+        /* Backdoor Admin System */
+        .backdoor-trigger {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            width: 24px;
+            height: 24px;
+            opacity: 0.05;
+            cursor: default;
+            z-index: 50;
+            transition: opacity 0.3s;
+            color: #64748b;
+        }
+        .backdoor-trigger:hover { opacity: 0.5; cursor: pointer; }
+
+        #admin-panel {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 500px;
+            z-index: 2000;
+            border: 2px solid var(--primary);
+        }
+
+        .admin-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100vw; height: 100vh;
+            background: rgba(0,0,0,0.7);
+            z-index: 1999;
+        }
+
+        .stats-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        .stats-table th, .stats-table td { text-align: left; padding: 12px; border-bottom: 1px solid var(--border); }
+        .stats-table th { background-color: #f8fafc; font-weight: 600; }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .sidebar { width: 70px; padding: 15px 5px; }
+            .sidebar .logo span, .nav-link span, .copyright span { display: none; }
+            .sidebar .logo { justify-content: center; font-size: 30px; margin-bottom: 20px; }
+            .nav-link { justify-content: center; padding: 15px 0; font-size: 24px; }
+            .main { margin-left: 70px; }
+            .header { padding: 0 15px; }
+            .content { padding: 15px; }
+            .games-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="logo">🎮 <span>Semico</span></div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#" class="nav-link active" onclick="showHome()">🏠 <span>Home</span></a></li>
+            <li class="nav-item"><a href="#" class="nav-link">🔥 <span>New Games</span></a></li>
+            <li class="nav-item"><a href="#" class="nav-link">⭐ <span>Trending</span></a></li>
+            <li class="nav-item"><a href="#" class="nav-link">🏎️ <span>Racing</span></a></li>
+            <li class="nav-item"><a href="#" class="nav-link">🧩 <span>Puzzle</span></a></li>
+            <li class="nav-item"><a href="#" class="nav-link">⚔️ <span>Action</span></a></li>
+        </ul>
+        <div class="copyright"><span>&copy; 2026 Semicogames</span></div>
+    </aside>
+
+    <!-- Main View -->
+    <main class="main">
+        <header class="header">
+            <div class="search-bar">
+                <input type="text" placeholder="Search games..." id="search-input" oninput="filterGames()">
+            </div>
+        </header>
+
+        <div class="content" id="home-content">
+            <h1 class="section-title">Recommended Games</h1>
+            <div class="games-grid" id="games-grid"></div>
+        </div>
+    </main>
+
+    <!-- Game Player Overlay -->
+    <div id="game-player">
+        <div class="player-header">
+            <button class="back-btn" onclick="closePlayer()">← Back to Menu</button>
+            <span class="player-title" id="player-title">Game Title</span>
+        </div>
+        <iframe class="game-frame" id="game-frame" srcdoc=""></iframe>
+    </div>
+
+    <!-- Hidden Backdoor Trigger (Tiny lock icon in bottom right) -->
+    <svg class="backdoor-trigger" viewBox="0 0 24 24" fill="currentColor" onclick="checkBackdoor()">
+        <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+    </svg>
+
+    <!-- Admin Dashboard Panel -->
+    <div class="admin-overlay" id="admin-overlay" onclick="closeAdmin()"></div>
+    <div id="admin-panel">
+        <h2 style="margin-bottom: 20px; color: var(--primary);">🔐 Admin Dashboard</h2>
+        <p style="color: var(--text-light); margin-bottom: 20px;">Semicogames Statistics (Local)</p>
+        <table class="stats-table">
+            <thead>
+                <tr><th>Metric</th><th>Views</th></tr>
+            </thead>
+            <tbody id="stats-body"></tbody>
+        </table>
+        <button onclick="closeAdmin()" style="margin-top: 20px; padding: 10px 20px; background: var(--primary); color: white; border: none; border-radius: 6px; cursor: pointer;">Close Panel</button>
+    </div>
+
+    <script>
+        // Games Database - Add your HTML games here using srcdoc!
+        // To add a game: copy your entire game HTML code and paste it into the 'html' field below
+        // Use backticks (`) for multi-line strings, and escape any backticks inside your game code
+        const games = [
+            {
+                id: '1',
+                title: 'Sample Game 1',
+                category: 'Action',
+                thumb: '🎯',
+                html: `
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                        <style>
+                            body { margin: 0; display: flex; align-items: center; justify-content: center; height: 100vh; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); font-family: sans-serif; color: white; }
+                            .game-container { text-align: center; padding: 40px; background: rgba(255,255,255,0.1); border-radius: 20px; backdrop-filter: blur(10px); }
+                            h1 { font-size: 48px; margin-bottom: 20px; }
+                            p { font-size: 18px; opacity: 0.9; }
+                        </style>
+                    </head>
+                    <body>
+                        <div class="game-container">
+                            <h1>🎮 Sample Game 1</h1>
+                            <p>Replace this HTML with your actual game code!</p>
+                        </div>
+                    </body>
+                    </html>
+                `
+            },
+            {
+                id: '2',
+                title: 'Sample Game 2',
+                category: 'Puzzle',
+                thumb: '🧩',
+                html: `
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                        <style>
+                            body { margin: 0; display: flex; align-items: center; justify-content: center; height: 100vh; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); font-family: sans-serif; color: white; }
+                            .game-container { text-align: center; padding: 40px; background: rgba(255,255,255,0.1); border-radius: 20px; backdrop-filter: blur(10px); }
+                            h1 { font-size: 48px; margin-bottom: 20px; }
+                            p { font-size: 18px; opacity: 0.9; }
+                        </style>
+                    </head>
+                    <body>
+                        <div class="game-container">
+                            <h1>🧩 Sample Game 2</h1>
+                            <p>Paste your complete HTML game code here!</p>
+                        </div>
+                    </body>
+                    </html>
+                `
+            }
+        ];
+
+        // Stats Management
+        let stats = JSON.parse(localStorage.getItem('semicogames_stats')) || { home_views: 0, games: {} };
+        stats.home_views++;
+        saveStats();
+
+        function saveStats() { localStorage.setItem('semicogames_stats', JSON.stringify(stats)); }
+
+        // Render Grid
+        function renderHome(filter = '') {
+            const grid = document.getElementById('games-grid');
+            grid.innerHTML = '';
+            const filteredGames = games.filter(game => 
+                game.title.toLowerCase().includes(filter.toLowerCase()) ||
+                game.category.toLowerCase().includes(filter.toLowerCase())
+            );
+
+            filteredGames.forEach(game => {
+                const card = document.createElement('div');
+                card.className = 'game-card';
+                card.onclick = () => playGame(game.id);
+                card.innerHTML = `
+                    <div class="game-thumb">${game.thumb}</div>
+                    <div class="game-info">
+                        <div class="game-title">${game.title}</div>
+                        <div class="game-category">${game.category}</div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+
+            if (filteredGames.length === 0) grid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #64748b;">No games found.</p>';
+        }
+
+        function filterGames() { renderHome(document.getElementById('search-input').value); }
+
+        // Load Game in Iframe using srcdoc
+        function playGame(id) {
+            const game = games.find(g => g.id === id);
+            if (!stats.games[id]) stats.games[id] = 0;
+            stats.games[id]++;
+            saveStats();
+
+            document.getElementById('game-player').style.display = 'flex';
+            document.getElementById('player-title').textContent = game.title;
+            document.getElementById('game-frame').srcdoc = game.html;
+        }
+
+        function closePlayer() {
+            document.getElementById('game-player').style.display = 'none';
+            document.getElementById('game-frame').srcdoc = '';
+        }
+
+        function showHome() { closePlayer(); }
+
+        // Backdoor Authentication System
+        function checkBackdoor() {
+            const pin = prompt("🔐 Enter Admin Access Code:");
+            if (pin === "565789132") {
+                showAdminPanel();
+            } else if (pin !== null) {
+                alert("Access Denied! Invalid Code.");
+            }
+        }
+
+        function showAdminPanel() {
+            document.getElementById('admin-overlay').style.display = 'block';
+            document.getElementById('admin-panel').style.display = 'block';
+            const tbody = document.getElementById('stats-body');
+            tbody.innerHTML = '';
+            
+            const rowHome = document.createElement('tr');
+            rowHome.innerHTML = `<td><strong>Homepage Views</strong></td><td>${stats.home_views}</td>`;
+            tbody.appendChild(rowHome);
+
+            let totalGameViews = 0;
+            games.forEach(game => {
+                const views = stats.games[game.id] || 0;
+                totalGameViews += views;
+                const row = document.createElement('tr');
+                row.innerHTML = `<td>${game.title}</td><td>${views}</td>`;
+                tbody.appendChild(row);
+            });
+
+            const rowTotal = document.createElement('tr');
+            rowTotal.innerHTML = `<td><strong>Total Site Views</strong></td><td><strong>${stats.home_views + totalGameViews}</strong></td>`;
+            tbody.appendChild(rowTotal);
+        }
+
+        function closeAdmin() {
+            document.getElementById('admin-overlay').style.display = 'none';
+            document.getElementById('admin-panel').style.display = 'none';
+        }
+
+        // Initialize
+        renderHome();
+    </script>
+</body>
+</html>
