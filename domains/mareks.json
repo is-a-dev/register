@@ -4,6 +4,30 @@
     "email": "mareks.kirilovics@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ],
+    "MX": [
+      "inbound-smtp.eu-west-1.amazonaws.com"
+    ]
+  },
+  "subdomains": {
+    "send": {
+      "records": {
+        "MX": [
+          "feedback-smtp.eu-west-1.amazonses.com"
+        ],
+        "TXT": [
+          "v=spf1 include:amazonses.com ~all"
+        ]
+      }
+    },
+    "resend._domainkey": {
+      "records": {
+        "TXT": [
+          "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMkOUNCdM/OiSiZ2X1Hn5rpV/pj47L+sUGJG72CMBgeLzkGdKcE7iO0M439EPAUUaAF9NS4cBMDTTyknvvpZyraF6DNyeC9UK4l7uAsOzqfvSre5r1IfeB+mDxEmpanZhrokF8ZnON1slOhHhfLJSpACYtDMp13aRBXJLzRQidnwIDAQAB"
+        ]
+      }
+    }
   }
 }
