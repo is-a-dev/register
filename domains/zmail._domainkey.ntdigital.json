@@ -1,0 +1,9 @@
+{
+  "owner": {
+   "username": "NortexDigital",
+     "email": "contact@ntdigital.is-a.dev"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDK5ysREleTj6vcimB4P7jTIvN8dSnACv23TAZOJhfpfWZIzAE7RJTDh02dO3JQucDzOVgP/AWoz6gFN11uvkRI/rPvmHS6nYW5k9sWXqW+Bvv2wN0IMDm38vnbOf61WI+rXtE4EvvFNZKcA36pCuh3SB1qdYLLRTZTYiPkPR9PWQIDAQAB"
+  }
+}
