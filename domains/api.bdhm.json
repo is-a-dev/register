@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "000bdhm",
+    "email": "bdhm32@gmail.com"
+  },
+  "records": {
+    "URL": "https://api.bdhm32.workers.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}
