@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "dormeneur"
-    },
-    "records": {
-        "CNAME": "adityabharti.pages.dev"
-    }
+  "description": "Portfolio",
+  "owner": {
+    "username": "dormeneur",
+    "email": "adityabharti1214@gmail.com"
+  },
+  "records": {
+    "CNAME": "adityabharti.pages.dev"
+  }
 }
