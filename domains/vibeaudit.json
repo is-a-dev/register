@@ -1,0 +1,14 @@
+{
+  "description": "vibeaudit - AI API security business email domain",
+  "repo": "https://github.com/newchannelid432-code/vibeaudit-landing",
+  "owner": {
+    "username": "newchannelid432-code",
+    "email": "vibeaudit@tuta.com"
+  },
+  "record": {
+    "TXT": [
+      "v=spf1 include:mailgun.org ~all"
+    ],
+    "CNAME": "mailgun.org"
+  }
+}
