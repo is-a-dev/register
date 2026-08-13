@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "Isugithub",
+    "email": "isulakshani57@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": [
+      "_vercel",
+      "vc-domain-verify=isuri-liyanage.is-a.dev,c1975f0baa764aa49a21"
+    ]
+  }
+}
