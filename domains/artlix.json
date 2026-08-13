@@ -1,0 +1,11 @@
+{
+  "description": "Artlix - Art Marketplace",
+  "repo": "https://github.com/Sudeepsr862/artlix",
+  "owner": {
+    "username": "Sudeepsr862",
+    "email": "sudeepsr52@gmail.com"
+  },
+  "record": {
+    "CNAME": "artlix.netlify.app"
+  }
+}
