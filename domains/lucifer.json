@@ -1,0 +1,11 @@
+{
+  "domain": "lucifer",
+  "owner": {
+    "username": "Silverbullets1",
+    "email": "msdhoni99770@gmail.com",
+    "repo": "https://github.com/Silverbullets1/Lucifer"
+  },
+  "records": {
+    "CNAME": "lucifer-eight.vercel.app"
+  }
+}
