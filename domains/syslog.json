@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "dnsohskbca"
+  },
+  "record": {
+    "A": ["185.199.108.153"],
+    "NS": ["cdn.syslog.is-a.dev"]
+  }
+}
