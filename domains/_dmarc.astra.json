@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "olgy1"
+    "username": "olgy1",
+    "email": "gls.kyle@icloud.com"
   },
   "records": {
     "TXT": "v=DMARC1; p=none"
