@@ -3,7 +3,7 @@
     "username": "CHIRASHREE-PAN",
     "email": "panchirashree@gmail.com"
   },
-  "record": {
-    "NS": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }
