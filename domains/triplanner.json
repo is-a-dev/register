@@ -3,7 +3,7 @@
     "username": "danylo-senchyshyn",
     "email": "danilsencisin@gmail.com"
   },
-  "record": {
-    "TXT": ["resend-verification-строка-которую-даст-Resend"]
+  "records": {
+    "CNAME": "trip-generator-m1.tail2e6a28.ts.net"
   }
 }
