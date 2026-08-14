@@ -1,0 +1,11 @@
+{
+  "description": "Minecraft Java join hostname for Cascade (playit tunnel, single server on 25565)",
+  "owner": {
+    "username": "MariusSurGithub",
+    "email": "trolle.marius@gmail.com"
+  },
+  "records": {
+    "CNAME": "jacobs-tissue.tun.ply.gg"
+  },
+  "proxied": false
+}
