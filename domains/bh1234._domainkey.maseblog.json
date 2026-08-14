@@ -4,8 +4,6 @@
     "email": "masedev33@proton.me"
   },
   "records": {
-    "CNAME": [
-      "bh1234._domainkey.maseblog.is-a.dev.zn001.beehiivmail.net"
-    ]
+    "CNAME": "bh1234._domainkey.maseblog.is-a.dev.zn001.beehiivmail.net"
   }
 }
