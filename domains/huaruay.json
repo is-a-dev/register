@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "eydgaj24-sudo",
+    "email": "eydgaj24@gmail.com"
+  },
+  "records": {
+    "A": ["8.8.8.8"],
+    "TXT": ["v=spf1 -all"]
+  }
+}
