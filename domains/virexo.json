@@ -6,7 +6,8 @@
     "records": {
       "CNAME": ["masedev33.github.io"],
       "TXT": [
-        "v=spf1 include:zohomail.com ~all"
+        "v=spf1 include:zohomail.com ~all",
+        "zoho-verification=zb34962308.zmverify.zoho.com"
       ],
       "MX": [
         {
