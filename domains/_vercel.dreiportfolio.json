@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "dreidadev-cmyk",
+        "email": "dreidadev@gmail.com"
+    },
+    "records": {
+        "TXT": "insert-TXT-string-you-got-from-vercel-here"
+    }
+}
