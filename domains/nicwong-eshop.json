@@ -4,7 +4,6 @@
     "email": "nicwongwork@hotmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=nicwong-eshop.is-a.dev,63f71d7338d856319d09"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
