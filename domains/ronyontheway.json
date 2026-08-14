@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "YamimHossain",
-        "email": "md.yamimhossain23410@imperial.edu.bd"
-    },
-    "record": {
-        "CNAME": "https://ronyontheway.pages.dev/"
-    },
-    "proxied": true
+  "owner": {
+    "username": "YamimHossain",
+    "email": "md.yamimhossain23410@imperial.edu.bd"
+  },
+  "records": {
+    "CNAME": "ronyontheway.pages.dev"
+  },
+  "proxied": true
 }
