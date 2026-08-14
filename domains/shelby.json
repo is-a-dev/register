@@ -5,7 +5,7 @@
   },
   "description": "Shelby — a Claude-powered autonomous data agent",
   "repo": "https://github.com/kuxhaan7/Shelby-AI",
-  "record": {
+  "records": {
     "CNAME": "ghs.googlehosted.com"
   }
 }
