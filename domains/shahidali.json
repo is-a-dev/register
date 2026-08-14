@@ -6,7 +6,6 @@
     "email": "alishahid41406@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=shahidali.is-a.dev,5798606fa629a4824917"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
