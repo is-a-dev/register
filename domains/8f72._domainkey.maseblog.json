@@ -4,8 +4,6 @@
     "email": "mase@masecodes.is-a.dev"
   },
   "records": {
-    "CNAME": [
-      "8f72.domainkey.u110282348.wl099.sendgrid.net"
-    ]
+    "CNAME": "8f72.domainkey.u110282348.wl099.sendgrid.net"
   }
 }
