@@ -1,11 +1,9 @@
 {
-  "description": "Lucid Dev — Developer, builder and creator of software, automation tools and digital experiences.",
-  "repo": "https://github.com/lawrencenjeri4-lgtm",
   "owner": {
     "username": "lawrencenjeri4-lgtm",
     "email": "lucidtechsolutions41@gmail.com"
   },
-  "record": {
-    "CNAME": "lucid-dev-portfolio.vercel.app"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }
