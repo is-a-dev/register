@@ -1,6 +1,8 @@
 {
-  "$schema": "../domains.schema.json",
-  "description": "AI COMPUTER PLUS platform",
-  "repo": "https://github.com/ibLeovance/dataplus-ai",
-  "cname": "ai-computer-xplus-ai-fresh.pages.dev"
+  "owner": {
+    "username": "ibLeovance"
+  },
+  "records": {
+    "CNAME": "ai-computer-xplus-ai-fresh.pages.dev"
+  }
 }
