@@ -4,6 +4,7 @@
     "email": "yuhimcheng2@gmail.com"
   },
   "records": {
+    "A": ["217.197.84.141"],
     "AAAA": ["2a0a:4580:103f:c0de::2"],
     "MX": [
       "mx1.forwardemail.net",
