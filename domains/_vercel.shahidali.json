@@ -1,0 +1,11 @@
+{
+  "description": "Vercel TXT verification for shahidali.is-a.dev",
+  "repo": "https://github.com/h4hids/my-website",
+  "owner": {
+    "username": "h4hids",
+    "email": "alishahid41406@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=shahidali.is-a.dev,5798606fa629a4824917"
+  }
+}
