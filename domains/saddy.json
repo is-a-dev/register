@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "myCodeWithSADDY"
+        "username": "myCodeWithSADDY",
+        "email": "asadb9074@gmail.com"
     },
     "records": {
-        "CNAME": "15.252.170.140"
+        "CNAME": "https://portfolio-8escwwq6j-saddys-projects-d3d947cc.vercel.app/"
     }
 }
