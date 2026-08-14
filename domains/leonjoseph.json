@@ -1,13 +1,12 @@
-
 {
   "owner": {
     "username": "leonjoejoseph",
     "email": "leonjj210@proton.me"
   },
   "records": {
-    "TXT": "the-verification-value-firebase-gave-you",
     "A": [
-      "104.18.4.103"
+      "104.18.4.103",
+      "104.18.5.103"
     ]
   }
 }
