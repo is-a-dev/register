@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "metanovii",
+    "email": "metanovii@gmail.com"
+  },
+  "records": {
+    "MX": [
+      { "target": "mxa.eu.mailgun.org", "priority": 10 },
+      { "target": "mxb.eu.mailgun.org", "priority": 10 }
+    ],
+    "TXT": ["v=spf1 include:mailgun.org ~all"]
+  }
+}

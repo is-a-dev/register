@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "metanovii",
+    "email": "metanovii@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu4pnNClxdSy7ZYeNMSTBndwoz+XeormUy+L0zpe/Wew07N2KYiQ5wQ6Jcy+27cv1zIeiUM7KJzVAEf/sXOr8kqvGLrMMMurnmtAkYz5zT4KbgMDMSZUgFmAQNvdLSYWY5OHs+CtM5RzMTR8zBTC9RsZvBa318hl7f/YKgg4MnROayRizFkn0kiKTHf3Tf0+eeZarJmx1O6ZdH0i3BJHg/28i8fqbs87wSlEsTHivNLWmNu0MKRXqxl1Y+uduryyJP4H+YBNgnWn7+QHy07IyuEd4ejT6NQa8biHohKFV8jW43NjrwTkB6B7Df5ih0j/z5WyyLmEG/eEg0qm8UNriOwIDAQAB"
+    ]
+  }
+}
