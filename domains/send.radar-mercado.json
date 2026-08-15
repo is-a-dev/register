@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "dedeapollo",
+    "email": "andre_apollo@live.com"
+  },
+  "records": {
+    "MX": [
+      { "target": "feedback-smtp.sa-east-1.amazonses.com", "priority": 10 }
+    ],
+    "TXT": "v=spf1 include:amazonses.com ~all"
+  }
+}
