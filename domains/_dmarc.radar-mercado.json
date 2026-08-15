@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "dedeapollo",
+    "email": "andre_apollo@live.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
