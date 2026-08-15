@@ -1,9 +1,9 @@
 {
-  "description": "AUTOHUB website",
+  "description": "AUTOHUB official website",
   "owner": {
     "username": "nektoati"
   },
-  "record": {
+  "records": {
     "CNAME": "nektoati.github.io"
   }
 }
