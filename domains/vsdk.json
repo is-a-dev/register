@@ -4,6 +4,7 @@
     "email": "erenbayrak2525@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": ["vc-domain-verify=vsdk.is-a.dev,0d4ed48ced4e8851fbf9"]
   }
 }
