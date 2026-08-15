@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "ahmedeltayb372-del"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
