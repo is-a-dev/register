@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "lormsystems-maker",
+    "email": "lorm.systems@gmail.com"
+  },
+  "subdomain": "flaircloud",
+  "description": "DNSTT server",
+  "record": {
+    "A": ["145.241.186.217"]
+  }
+} 
