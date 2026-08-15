@@ -3,8 +3,8 @@
     "username": "leo4484",
     "email": "soffiettileo@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "leo4484.github.io"
   },
-  "description": "ByteVerdict — short-form tech/AI commentary channel"
+  "proxied": false
 }
