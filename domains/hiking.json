@@ -3,5 +3,5 @@
   "description": "徒步装备检查",
   "repo": "https://github.com/The-bigfish/hiking-check",
   "owner": { "username": "The-bigfish" },
-  "record": { "CNAME": "the-bigfish.github.io" }
+  "records": { "CNAME": "the-bigfish.github.io" }
 }
