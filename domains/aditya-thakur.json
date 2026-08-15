@@ -1,0 +1,11 @@
+{
+  "description": "Your project description goes here",
+  "repo": "https://github.com/aditya0563/portfolio/tree/main",
+  "owner": {
+    "username": "aditya0563",
+    "email": "taditiya870@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com."
+  }
+}
