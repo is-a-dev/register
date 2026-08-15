@@ -1,0 +1,12 @@
+{
+  "description": "n8n webhook for DUSPS project",
+  "domain": "dusps-n8n",
+  "subdomain": "",
+  "owner": {
+    "username": "amrokhalidalshalwy-stack",
+    "email": "amrokhalidalshalwy@gmail.com"
+  },
+  "record": {
+    "CNAME": "zcjs3av8jy9j.shares.zrok.io"
+  }
+}
