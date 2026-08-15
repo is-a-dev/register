@@ -4,6 +4,7 @@
         "email": "sheikhhasib037@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": "dh=893cf982099290266b32e3f1c4c09a30897d6086"
     }
 }
