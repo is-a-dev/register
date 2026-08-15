@@ -1,0 +1,11 @@
+{
+  "description": "My personal website",
+  "repo": "https://github.com/devopmg/register",
+  "owner": {
+    "username": "devopmg",
+    "email": "316708625+devopmg@users.noreply.github.com"
+  },
+  "record": {
+    "CNAME": "sundi.pages.dev"
+  }
+}
