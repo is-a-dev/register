@@ -1,9 +1,27 @@
 {
-    "owner": {
-        "username": "heyitzamjad",
-        "email": "itsamjadrahman@gmail.com"
-    },
-    "records": {
-        "CNAME": "falastech.pages.dev"
-    }
+   "owner":{
+      "username":"heyitzamjad",
+      "email":"itsamjadrahman@gmail.com"
+   },
+   "records":{
+      "CNAME": "falastech.pages.dev",
+      "MX":[
+         {
+            "target":"mx.zoho.com",
+            "priority":10
+         },
+         {
+            "target":"mx2.zoho.com",
+            "priority":20
+         },
+         {
+            "target":"mx3.zoho.com",
+            "priority":50
+         }
+      ],
+      "TXT":[
+         "v=spf1 include:zohomail.com ~all"
+      ]
+   },
+   "proxied": true
 }
