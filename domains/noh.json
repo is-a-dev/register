@@ -4,6 +4,12 @@
     "email": "ncql@proton.me"
   },
   "records": {
-    "CNAME": "nohz.pages.dev"
+    "CNAME": "nohz.pages.dev",
+    "MX": [
+      {
+        "target": "inbound-smtp.ap-northeast-1.amazonaws.com",
+        "priority": 10
+      }
+    ]
   }
 }
