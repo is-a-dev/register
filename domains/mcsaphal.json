@@ -1,16 +1,12 @@
 {
   "owner": {
-    "username": "Saphal-1"
+    "username": "Saphal-1",
+    "email": "gamersaphal8@gmail.com"
   },
   "records": {
-    "CNAME": "saphal.aternos.me",
-    "SRV": [
-      {
-        "priority": 0,
-        "weight": 0,
-        "port": 28009,
-        "target": "saphal.aternos.me"
-      }
+    "NS": [
+      "columbus.aternos.org",
+      "galileo.aternos.org"
     ]
   }
 }
