@@ -1,0 +1,7 @@
+{
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/domains/schema.json",
+  "description": "徒步装备检查",
+  "repo": "https://github.com/The-bigfish/hiking-check",
+  "owner": { "username": "The-bigfish" },
+  "record": { "CNAME": "the-bigfish.github.io" }
+}
