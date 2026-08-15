@@ -4,7 +4,7 @@
         "discord": "whatifyousaidyeswouldgo"
     },
     "records": {
-        "A": ["75.2.60.5"]
+        "A": ["75.2.60.5"],
         "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
        "TXT": [
       "brevo-code:a3319400a829438ff8d741c6bfc8",
