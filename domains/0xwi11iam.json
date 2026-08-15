@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "0xwi11iam"
+    },
+    "records": {
+        "A": ["216.198.79.1"],
+        "TXT": [
+            "vc-domain-verify=0xwi11iam.is-a.dev,b414a428164d83432737",
+            "vc-domain-verify=www.0xwi11iam.is-a.dev,57025b91365eeb8a306c"
+        ],
+        "CNAME": {
+            "www": "a76a309258807b2e.vercel-dns-017.com."
+        }
+    }
+}
