@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "Saphal-1"
+  },
+  "records": {
+    "CNAME": "saphal.aternos.me",
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 0,
+        "port": 28009,
+        "target": "saphal.aternos.me"
+      }
+    ]
+  }
+}
