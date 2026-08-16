@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "pmohata34"
-  },
-  "records": {
-    "CNAME": "pranjal-mohata-portfolio.vercel.app"
-  }
+    "owner": {
+        "username": "pmohata34"
+    },
+    "records": {
+        "CNAME": "pranjal-mohata-portfolio.vercel.app"
+    }
 }

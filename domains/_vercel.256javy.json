@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "256javy",
-    "email": "256javiervillalba@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=256javy.is-a.dev,fee66576180fdf9bca6c"
-  }
+    "owner": {
+        "username": "256javy",
+        "email": "256javiervillalba@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=256javy.is-a.dev,fee66576180fdf9bca6c"
+    }
 }

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "new7start7"
-  },
-  "records": {
-    "CNAME": "abhiarya.netlify.app"
-  }
+    "owner": {
+        "username": "new7start7"
+    },
+    "records": {
+        "CNAME": "abhiarya.netlify.app"
+    }
 }

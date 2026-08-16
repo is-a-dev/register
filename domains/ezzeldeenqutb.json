@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Pant0x",
-    "email": "contact.ezzeldeenqutb@gmail.com"
-  },
-  "records": {
-    "CNAME": "ezzeldeenqutb.vercel.app"
-  }
+    "owner": {
+        "username": "Pant0x",
+        "email": "contact.ezzeldeenqutb@gmail.com"
+    },
+    "records": {
+        "CNAME": "ezzeldeenqutb.vercel.app"
+    }
 }

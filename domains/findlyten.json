@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "FindlyTen",
-    "email": "maxsmirnov428@gmail.com"
-  },
-  "records": {
-    "CNAME": "findlyten.github.io"
-  }
+    "owner": {
+        "username": "FindlyTen",
+        "email": "maxsmirnov428@gmail.com"
+    },
+    "records": {
+        "CNAME": "findlyten.github.io"
+    }
 }

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Skyden09"
-  },
-  "records": {
-    "CNAME": "skyden09.github.io"
-  }
+    "owner": {
+        "username": "Skyden09"
+    },
+    "records": {
+        "CNAME": "skyden09.github.io"
+    }
 }

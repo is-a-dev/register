@@ -1,9 +1,10 @@
 {
-  "description": "My awesome portfolio",
-  "repo": "maxc390.github.io/Portfolio/",
-  "owner": {
-    "username": "Maxc390"
-  },
-  "records": {
-    "CNAME": "maxc390.github.io"  }
+    "description": "My awesome portfolio",
+    "repo": "maxc390.github.io/Portfolio/",
+    "owner": {
+        "username": "Maxc390"
+    },
+    "records": {
+        "CNAME": "maxc390.github.io"
+    }
 }

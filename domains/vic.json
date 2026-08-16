@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "victorioxd",
-    "email": "vicxd@pm.me",
-    "twitter": "vicjajsalu2"
-  },
-  "records": {
-    "CNAME": "v1ctorio.github.io"
-  }
+    "owner": {
+        "username": "victorioxd",
+        "email": "vicxd@pm.me",
+        "twitter": "vicjajsalu2"
+    },
+    "records": {
+        "CNAME": "v1ctorio.github.io"
+    }
 }

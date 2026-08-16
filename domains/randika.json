@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "randika-srimal"
-  },
-  "records": {
-    "CNAME": "area51projects.com"
-  }
+    "owner": {
+        "username": "randika-srimal"
+    },
+    "records": {
+        "CNAME": "area51projects.com"
+    }
 }

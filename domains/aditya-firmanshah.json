@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Aditya-fmh",
-    "email": "adityafmh@proton.me"
-  },
-  "records": {
-    "CNAME": "Aditya-fmh.github.io"
-  }
+    "owner": {
+        "username": "Aditya-fmh",
+        "email": "adityafmh@proton.me"
+    },
+    "records": {
+        "CNAME": "Aditya-fmh.github.io"
+    }
 }

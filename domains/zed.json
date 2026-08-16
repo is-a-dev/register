@@ -1,10 +1,12 @@
 {
-  "owner": {
-    "username": "Nathan-ZED",
-    "email": "contact@nathanzenou.fr"
-  },
-  "records": {
-    "A": ["147.93.54.88"]
-  },
-  "proxied": true
+    "owner": {
+        "username": "Nathan-ZED",
+        "email": "contact@nathanzenou.fr"
+    },
+    "records": {
+        "A": [
+            "147.93.54.88"
+        ]
+    },
+    "proxied": true
 }

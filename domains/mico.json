@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "micoms"
-  },
-  "records": {
-    "CNAME": "micoo.vercel.app"
-  }
+    "owner": {
+        "username": "micoms"
+    },
+    "records": {
+        "CNAME": "micoo.vercel.app"
+    }
 }

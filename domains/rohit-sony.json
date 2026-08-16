@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "rohit-sony"
-  },
-  "records": {
-    "CNAME": "rohit-sony.github.io"
-  }
+    "owner": {
+        "username": "rohit-sony"
+    },
+    "records": {
+        "CNAME": "rohit-sony.github.io"
+    }
 }

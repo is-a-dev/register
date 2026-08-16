@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "seregannj",
-    "email": "seregannj@gmail.com"
-  },
-  "records": {
-    "CNAME": "seregannj.github.io"
-  }
+    "owner": {
+        "username": "seregannj",
+        "email": "seregannj@gmail.com"
+    },
+    "records": {
+        "CNAME": "seregannj.github.io"
+    }
 }

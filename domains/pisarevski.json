@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "pisarevski",
-    "email": "pisarevsc@gmail.com"
-  },
-  "records": {
-    "CNAME": "pisarevski.github.io"
-  }
+    "owner": {
+        "username": "pisarevski",
+        "email": "pisarevsc@gmail.com"
+    },
+    "records": {
+        "CNAME": "pisarevski.github.io"
+    }
 }

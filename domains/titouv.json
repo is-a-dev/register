@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "titouv",
-    "email": "titouan.verhille@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "owner": {
+        "username": "titouv",
+        "email": "titouan.verhille@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

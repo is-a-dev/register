@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "naman-machchhar"
-  },
-  "records": {
-    "CNAME": "naman-machchhar.github.io"
-  }
+    "owner": {
+        "username": "naman-machchhar"
+    },
+    "records": {
+        "CNAME": "naman-machchhar.github.io"
+    }
 }

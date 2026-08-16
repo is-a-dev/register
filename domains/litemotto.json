@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "zip8919",
-    "email": "zip8919@outlook.com"
-  },
-  "records": {
-    "CNAME": "tokenshare-worker.pages.dev"
-  }
+    "owner": {
+        "username": "zip8919",
+        "email": "zip8919@outlook.com"
+    },
+    "records": {
+        "CNAME": "tokenshare-worker.pages.dev"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "tlapanco",
-    "email": "tlapanco.dev+is-a.dev@gmail.com"
-  },
-  "records": {
-    "CNAME": "tlapanco.github.io"
-  }
+    "owner": {
+        "username": "tlapanco",
+        "email": "tlapanco.dev+is-a.dev@gmail.com"
+    },
+    "records": {
+        "CNAME": "tlapanco.github.io"
+    }
 }

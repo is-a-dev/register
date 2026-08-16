@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Ax-r",
-    "email": "hostmaster@netcourrier.com"
-  },
-  "records": {
-    "CNAME": "ax-r.github.io"
-  }
+    "owner": {
+        "username": "Ax-r",
+        "email": "hostmaster@netcourrier.com"
+    },
+    "records": {
+        "CNAME": "ax-r.github.io"
+    }
 }

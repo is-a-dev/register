@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "readandprogress",
-    "email": "readandprogress@duck.com",
-    "discord": "readandprogress" 
-  },
-  "records": {
-    "CNAME": "thereadingdimension.pages.dev"
-  }
+    "owner": {
+        "username": "readandprogress",
+        "email": "readandprogress@duck.com",
+        "discord": "readandprogress"
+    },
+    "records": {
+        "CNAME": "thereadingdimension.pages.dev"
+    }
 }

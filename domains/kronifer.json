@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "Kronifer",
-    "email": "dillonr5@live.wsd1.org"
-  },
-  "records": {
-    "A": ["159.203.35.162"]
-  }
+    "owner": {
+        "username": "Kronifer",
+        "email": "dillonr5@live.wsd1.org"
+    },
+    "records": {
+        "A": [
+            "159.203.35.162"
+        ]
+    }
 }

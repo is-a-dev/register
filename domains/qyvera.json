@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "chobesujal24",
-    "email": "sujalchobe@gmail.com"
-  },
-  "records": {
-    "CNAME": "sujalporfolio11.vercel.app"
-  }
+    "owner": {
+        "username": "chobesujal24",
+        "email": "sujalchobe@gmail.com"
+    },
+    "records": {
+        "CNAME": "sujalporfolio11.vercel.app"
+    }
 }

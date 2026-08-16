@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "limbanitejal"
-  },
-  "records": {
-    "CNAME": "limbanitejal.github.io"
-  }
+    "owner": {
+        "username": "limbanitejal"
+    },
+    "records": {
+        "CNAME": "limbanitejal.github.io"
+    }
 }

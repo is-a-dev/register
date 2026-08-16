@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "mGarciaNieto",
-    "email": "mgarcianieto@gmail.com"
-  },
-  "records": {
-    "CNAME": "mGarciaNieto.github.io"
-  }
+    "owner": {
+        "username": "mGarciaNieto",
+        "email": "mgarcianieto@gmail.com"
+    },
+    "records": {
+        "CNAME": "mGarciaNieto.github.io"
+    }
 }

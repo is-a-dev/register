@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "danilezheng4",
-    "email": "danilezheng4@outlook.com"
-  },
-  "records": {
-    "CNAME": "danilezheng4.github.io"
-  }
+    "owner": {
+        "username": "danilezheng4",
+        "email": "danilezheng4@outlook.com"
+    },
+    "records": {
+        "CNAME": "danilezheng4.github.io"
+    }
 }

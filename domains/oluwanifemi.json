@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "UFOASTRO",
-    "email": "nifemibello10@gmail.com"
-  },
-  "records": {
-    "CNAME": "ufoastro.github.io"
-  }
+    "owner": {
+        "username": "UFOASTRO",
+        "email": "nifemibello10@gmail.com"
+    },
+    "records": {
+        "CNAME": "ufoastro.github.io"
+    }
 }
