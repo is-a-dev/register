@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "bitzzdev"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=bitz.is-a.dev,a9c533aba36bda461727"
-  }
+    "owner": {
+        "username": "bitzzdev"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=bitz.is-a.dev,a9c533aba36bda461727"
+    }
 }

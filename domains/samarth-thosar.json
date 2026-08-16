@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "samarth-thosar",
-    "email": "samarth.thosar194@gmail.com"
-  },
-  "records": {
-    "CNAME": "samarth-thosar.github.io"
-  }
+    "owner": {
+        "username": "samarth-thosar",
+        "email": "samarth.thosar194@gmail.com"
+    },
+    "records": {
+        "CNAME": "samarth-thosar.github.io"
+    }
 }

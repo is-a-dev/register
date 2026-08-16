@@ -1,4 +1,3 @@
-
 {
     "owner": {
         "username": "iamasifsabirr",
@@ -6,6 +5,8 @@
     },
     "description": "My Portfolio Website",
     "records": {
-        "A": ["216.198.79.1"]
+        "A": [
+            "216.198.79.1"
+        ]
     }
 }

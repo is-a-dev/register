@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "sb-designs",
-    "email": "hello@sbdesigns.spike.team"
-  },
-  "records": {
-    "CNAME": "statuspage.betteruptime.com"
-  }
+    "owner": {
+        "username": "sb-designs",
+        "email": "hello@sbdesigns.spike.team"
+    },
+    "records": {
+        "CNAME": "statuspage.betteruptime.com"
+    }
 }

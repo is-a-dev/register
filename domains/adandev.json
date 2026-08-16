@@ -1,8 +1,8 @@
 {
-  "owner":{
-  "username": "adansuhailch-cell",
-    "email": "adansuhailch@gmail.com"
-  },
+    "owner": {
+        "username": "adansuhailch-cell",
+        "email": "adansuhailch@gmail.com"
+    },
     "records": {
         "CNAME": "adandev.netlify.app"
     }

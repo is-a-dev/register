@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "neebooo",
-    "email": "dev.cnamew@gmail.com"
-  },
-  "records": {
-    "A": ["193.187.255.169"]
-  }
+    "owner": {
+        "username": "neebooo",
+        "email": "dev.cnamew@gmail.com"
+    },
+    "records": {
+        "A": [
+            "193.187.255.169"
+        ]
+    }
 }

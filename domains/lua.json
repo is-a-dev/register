@@ -1,11 +1,13 @@
 {
-  "description": "Just a website for detailing the game development projects of Lua",
-  "owner": {
-    "username": "notxlua",
-    "email": "notxlua@gmail.com",
-    "discord": "778436572835086366"
-  },
-  "records": {
-    "A": ["205.196.222.84"]
-  }
+    "description": "Just a website for detailing the game development projects of Lua",
+    "owner": {
+        "username": "notxlua",
+        "email": "notxlua@gmail.com",
+        "discord": "778436572835086366"
+    },
+    "records": {
+        "A": [
+            "205.196.222.84"
+        ]
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "TheCodeHeist",
-    "email": "riyasat.hossain.29@gmail.com"
-  },
-  "records": {
-    "CNAME": "thecodeheist.vercel.app"
-  }
+    "owner": {
+        "username": "TheCodeHeist",
+        "email": "riyasat.hossain.29@gmail.com"
+    },
+    "records": {
+        "CNAME": "thecodeheist.vercel.app"
+    }
 }

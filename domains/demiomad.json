@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Demiomad",
-    "email": "demiomad@gmail.com"
-  },
-  "records": {
-    "CNAME": "demiomad.github.io"
-  }
+    "owner": {
+        "username": "Demiomad",
+        "email": "demiomad@gmail.com"
+    },
+    "records": {
+        "CNAME": "demiomad.github.io"
+    }
 }

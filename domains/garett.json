@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "garettschultz-sudo",
-    "email": "garett.schultz5@gmail.com"
-  },
-  "records": {
-    "CNAME": "garettschultz-sudo.github.io"
-  }
+    "owner": {
+        "username": "garettschultz-sudo",
+        "email": "garett.schultz5@gmail.com"
+    },
+    "records": {
+        "CNAME": "garettschultz-sudo.github.io"
+    }
 }

@@ -5,6 +5,8 @@
         "username": "everythingfreee"
     },
     "records": {
-        "TXT": ["vc-domain-verify=sanaullahshaheer.is-a.dev,ebc95a83f008eca5285f"]
+        "TXT": [
+            "vc-domain-verify=sanaullahshaheer.is-a.dev,ebc95a83f008eca5285f"
+        ]
     }
 }

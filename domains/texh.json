@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "username": "Techtonic709",
-    "email": "techtonic709@gmail.com"
-  },
-  "records": {
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
-  }
+    "owner": {
+        "username": "Techtonic709",
+        "email": "techtonic709@gmail.com"
+    },
+    "records": {
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ]
+    }
 }

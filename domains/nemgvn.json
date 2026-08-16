@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "nemgvn",
-    "email": "info@nemg.me"
-  },
-  "records": {
-    "CNAME": "nemgvn.github.io"
-  }
+    "owner": {
+        "username": "nemgvn",
+        "email": "info@nemg.me"
+    },
+    "records": {
+        "CNAME": "nemgvn.github.io"
+    }
 }

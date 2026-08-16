@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "alvinsjoy",
-    "discord": "825382504353234954"
-  },
-  "records": {
-    "A": ["76.76.21.21"]
-  }
+    "owner": {
+        "username": "alvinsjoy",
+        "discord": "825382504353234954"
+    },
+    "records": {
+        "A": [
+            "76.76.21.21"
+        ]
+    }
 }

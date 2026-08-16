@@ -1,10 +1,13 @@
 {
-  "owner": {
-    "username": "Adwaith-Shan-Pk",
-    "email": "mail@adwaithshan.rf.gd",
-    "twitter": "lordlinux69"
-  },
-  "records": {
-    "NS": ["armando.ns.cloudflare.com", "kate.ns.cloudflare.com"]
-  }
+    "owner": {
+        "username": "Adwaith-Shan-Pk",
+        "email": "mail@adwaithshan.rf.gd",
+        "twitter": "lordlinux69"
+    },
+    "records": {
+        "NS": [
+            "armando.ns.cloudflare.com",
+            "kate.ns.cloudflare.com"
+        ]
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "toanducvo",
-    "email": "toan.ducvo@icloud.com"
-  },
-  "records": {
-    "CNAME": "hashnode.network"
-  }
+    "owner": {
+        "username": "toanducvo",
+        "email": "toan.ducvo@icloud.com"
+    },
+    "records": {
+        "CNAME": "hashnode.network"
+    }
 }

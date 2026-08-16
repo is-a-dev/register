@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "tecanmol",
-    "email": "panmol735@gmail.com"
-  },
-  "records": {
-    "CNAME": "tecanmol.github.io"
-  }
+    "owner": {
+        "username": "tecanmol",
+        "email": "panmol735@gmail.com"
+    },
+    "records": {
+        "CNAME": "tecanmol.github.io"
+    }
 }

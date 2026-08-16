@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "DevZerow",
-    "email": "zerow.pro@protonmail.com"
-  },
-  "records": {
-    "MX": ["mail.zerow.is-a.dev"]
-  }
+    "owner": {
+        "username": "DevZerow",
+        "email": "zerow.pro@protonmail.com"
+    },
+    "records": {
+        "MX": [
+            "mail.zerow.is-a.dev"
+        ]
+    }
 }

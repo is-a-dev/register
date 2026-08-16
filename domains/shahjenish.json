@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "shahjenish"
-  },
-  "records": {
-    "CNAME": "shahjenish.github.io"
-  }
+    "owner": {
+        "username": "shahjenish"
+    },
+    "records": {
+        "CNAME": "shahjenish.github.io"
+    }
 }

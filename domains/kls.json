@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "klsxgh",
-    "email": "karthik.l.shankar@gmail.com"
-  },
-  "records": {
-    "CNAME": "klsxdev.vercel.app"
-  }
+    "owner": {
+        "username": "klsxgh",
+        "email": "karthik.l.shankar@gmail.com"
+    },
+    "records": {
+        "CNAME": "klsxdev.vercel.app"
+    }
 }

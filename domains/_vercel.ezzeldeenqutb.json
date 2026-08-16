@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Pant0x",
-    "email": "contact.ezzeldeenqutb@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=ezzeldeenqutb.is-a.dev,824a08ff4725f461fee0"
-  }
+    "owner": {
+        "username": "Pant0x",
+        "email": "contact.ezzeldeenqutb@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=ezzeldeenqutb.is-a.dev,824a08ff4725f461fee0"
+    }
 }

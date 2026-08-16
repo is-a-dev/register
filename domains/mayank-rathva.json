@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "mayank-rathva"
-  },
-  "records": {
-    "CNAME": "mayank-rathva.github.io"
-  }
+    "owner": {
+        "username": "mayank-rathva"
+    },
+    "records": {
+        "CNAME": "mayank-rathva.github.io"
+    }
 }

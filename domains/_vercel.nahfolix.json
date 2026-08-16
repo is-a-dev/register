@@ -4,6 +4,8 @@
         "email": "hassanali042213@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=nahfolix.is-a.dev,8778872a89d0dcfe716f"]
+        "TXT": [
+            "vc-domain-verify=nahfolix.is-a.dev,8778872a89d0dcfe716f"
+        ]
     }
 }

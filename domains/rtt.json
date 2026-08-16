@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "rehmancode",
-    "email": "rehmantechtips@gmail.com"
-  },
-  "records": {
-    "CNAME": "rehmancode.github.io"
-  }
+    "owner": {
+        "username": "rehmancode",
+        "email": "rehmantechtips@gmail.com"
+    },
+    "records": {
+        "CNAME": "rehmancode.github.io"
+    }
 }
