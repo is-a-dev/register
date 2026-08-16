@@ -1,0 +1,12 @@
+{
+  "description": "Portfolio of Tarun Jampani",
+  "domain": "tarunjampani.is-a.dev",
+  "subdomain": "tarunjampani",
+  "owner": {
+    "repo": "https://github.com/tarun1790/my-website",
+    "email": "tarun.jampani45@gmail.com"
+  },
+  "record": {
+    "CNAME": "tarun1790.github.io"
+  }
+}
