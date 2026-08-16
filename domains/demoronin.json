@@ -4,9 +4,6 @@
         "email": "samarth.shammy.goel@gmail.com"
     },
     "records": {
-        "NS": [
-            "cris.ns.cloudflare.com",
-            "zariyah.ns.cloudflare.com"
-        ]
+        "CNAME": "the-miser.web.app"
     }
 }
