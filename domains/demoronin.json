@@ -1,11 +1,12 @@
 {
     "owner": {
-        "username": "Beefysam211"
+        "username": "Beefysam211",
+        "email": "samarth.shammy.goel@gmail.com"
     },
     "records": {
         "NS": [
-            "://cloudflare.com",
-            "://cloudflare.com"
+            "cris.ns.cloudflare.com",
+            "zariyah.ns.cloudflare.com"
         ]
     }
 }
