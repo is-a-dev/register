@@ -2,7 +2,7 @@
   "owner": {
     "username": "Ak-eem"
   },
-  "record": {
-    "TXT": "Mira is-a.dev domain for Resend email verification"
+  "records": {
+    "CNAME": "mira-eight-tau.vercel.app"
   }
 }
