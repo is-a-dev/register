@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "myCodeWithSADDY"
+    "username": "myCodeWithSADDY",
+    "email": "wuzzydetective@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-saddys-projects-d3d947cc.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
