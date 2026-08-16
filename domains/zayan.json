@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "zayanbnziz28-ui",
+    "email": "zayanbnziz28@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "MX": [
+      { "priority": 10, "target": "mx1.improvmx.com" },
+      { "priority": 20, "target": "mx2.improvmx.com" }
+    ],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+  },
+  "proxied": true
+}
