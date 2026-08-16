@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "mamyraoby",
-    "email": "mamyraoby@outlook.com"
-  },
-  "records": {
-    "A": ["80.241.212.124"]
-  }
+    "owner": {
+        "username": "mamyraoby",
+        "email": "mamyraoby@outlook.com"
+    },
+    "records": {
+        "A": [
+            "80.241.212.124"
+        ]
+    }
 }

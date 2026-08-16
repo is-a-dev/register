@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "ansari-saify"
-  },
-  "records": {
-    "CNAME": "ansari-saify.github.io"
-  }
+    "owner": {
+        "username": "ansari-saify"
+    },
+    "records": {
+        "CNAME": "ansari-saify.github.io"
+    }
 }

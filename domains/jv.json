@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "JoaoVSouto",
-    "email": "joaovsoutosantos@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "owner": {
+        "username": "JoaoVSouto",
+        "email": "joaovsoutosantos@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

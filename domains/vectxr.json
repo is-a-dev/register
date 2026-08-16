@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "0xvectxr",
-    "email": "izan.garcia.aguado@gmail.com"
-  },
-  "records": {
-    "CNAME": "0xvectxr.github.io"
-  }
+    "owner": {
+        "username": "0xvectxr",
+        "email": "izan.garcia.aguado@gmail.com"
+    },
+    "records": {
+        "CNAME": "0xvectxr.github.io"
+    }
 }

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "ObuaDan"
-  },
-  "records": {
-    "CNAME": "ObuaDan.github.io"
-  }
+    "owner": {
+        "username": "ObuaDan"
+    },
+    "records": {
+        "CNAME": "ObuaDan.github.io"
+    }
 }

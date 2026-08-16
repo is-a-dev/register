@@ -1,10 +1,11 @@
 {
     "owner": {
-      "username": "maggimagesh",
-      "email": "maggimagesh995@gmail.com"
+        "username": "maggimagesh",
+        "email": "maggimagesh995@gmail.com"
     },
     "records": {
-      "A": ["76.76.21.21"]
+        "A": [
+            "76.76.21.21"
+        ]
     }
-  }
-  
+}

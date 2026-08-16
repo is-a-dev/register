@@ -1,8 +1,9 @@
 {
     "owner": {
-      "username": "amritsapkotadev",
-      "email": "amritsapkota.dev@gmail.com"
+        "username": "amritsapkotadev",
+        "email": "amritsapkota.dev@gmail.com"
     },
     "records": {
-      "CNAME": "amritsapkota.netlify.app"    }
-  }
+        "CNAME": "amritsapkota.netlify.app"
+    }
+}

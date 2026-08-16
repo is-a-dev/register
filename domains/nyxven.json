@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "NYXVEN-debug"
-  },
-  "records": {
-    "CNAME": "NYXVEN-debug.github.io"
-  }
+    "owner": {
+        "username": "NYXVEN-debug"
+    },
+    "records": {
+        "CNAME": "NYXVEN-debug.github.io"
+    }
 }

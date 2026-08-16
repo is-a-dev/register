@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "mrsanjaya",
-    "email": "sandhysanjaya0110@gmail.com"
-  },
-  "records": {
-    "CNAME": "mrsanjaya.github.io"
-  }
+    "owner": {
+        "username": "mrsanjaya",
+        "email": "sandhysanjaya0110@gmail.com"
+    },
+    "records": {
+        "CNAME": "mrsanjaya.github.io"
+    }
 }

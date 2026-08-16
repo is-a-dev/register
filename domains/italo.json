@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "italoSa",
-    "email": "italosousa@duck.com"
-  },
-  "records": {
-    "CNAME": "italosa.github.io"
-  }
+    "owner": {
+        "username": "italoSa",
+        "email": "italosousa@duck.com"
+    },
+    "records": {
+        "CNAME": "italosa.github.io"
+    }
 }

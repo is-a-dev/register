@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "zelenka-dev",
-    "email": "zelenka.dev@gmail.com"
-  },
-  "records": {
-    "CNAME": "zelenkadev.onrender.com"
-  }
+    "owner": {
+        "username": "zelenka-dev",
+        "email": "zelenka.dev@gmail.com"
+    },
+    "records": {
+        "CNAME": "zelenkadev.onrender.com"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "pxlshpr",
-    "email": "pxlshpr@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "owner": {
+        "username": "pxlshpr",
+        "email": "pxlshpr@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

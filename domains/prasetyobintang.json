@@ -1,11 +1,13 @@
 {
-  "description": "Prasetyo Bintang - IT & Data Analyst Portfolio",
-  "repo": "https://github.com/retinoladapelene/Prasetyo-Bintang-Profile",
-  "owner": {
-    "username": "retinoladapelene",
-    "email": "pbsn290704@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "description": "Prasetyo Bintang - IT & Data Analyst Portfolio",
+    "repo": "https://github.com/retinoladapelene/Prasetyo-Bintang-Profile",
+    "owner": {
+        "username": "retinoladapelene",
+        "email": "pbsn290704@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

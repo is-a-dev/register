@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "rahgadda",
-    "email": "gaddam.rahul@gmail.com"
-  },
-  "records": {
-    "CNAME": "rahgadda.github.io"
-  }
+    "owner": {
+        "username": "rahgadda",
+        "email": "gaddam.rahul@gmail.com"
+    },
+    "records": {
+        "CNAME": "rahgadda.github.io"
+    }
 }

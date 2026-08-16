@@ -1,8 +1,10 @@
 {
-  "owner": {
-    "username": "FarrosIlman"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "FarrosIlman"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

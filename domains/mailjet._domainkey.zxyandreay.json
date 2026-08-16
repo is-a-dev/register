@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "zxyandreay",
-    "email": "zxyandreay@gmail.com"
-  },
-  "records": {
-    "TXT": "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAujNJF8b/c7NDnfknAVuFrCgyt+K5MqYzBiEUa6C8mD4pMJwAKLd2INkiCDeaztXdV0aHN4EiOoJrljgGvr9TUhS/pYMvxc7aS71Wpyb5bjDJhFgC+eVx6t8yJE0uUV8ol/jQZO+Jaa6ZJ6o4llj2ZsgJnRM8TXlagc1jkv7mvBH8nXd5w92xa5KkUeWAyhhrLEifuoDmgHChKNJjyrugKoXYN7yagVKmzBhciQh/fNWLLhiZAViteNT3rXP+VL5b628HmE5SHWDww2pnOiRroab5K9NCD6AGRAoUfa1/tPjpwO+N0uiD4CA9qiKb9pCK1+dgSxpBHMWi3eec3c6z6QIDAQAB"
-  }
+    "owner": {
+        "username": "zxyandreay",
+        "email": "zxyandreay@gmail.com"
+    },
+    "records": {
+        "TXT": "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAujNJF8b/c7NDnfknAVuFrCgyt+K5MqYzBiEUa6C8mD4pMJwAKLd2INkiCDeaztXdV0aHN4EiOoJrljgGvr9TUhS/pYMvxc7aS71Wpyb5bjDJhFgC+eVx6t8yJE0uUV8ol/jQZO+Jaa6ZJ6o4llj2ZsgJnRM8TXlagc1jkv7mvBH8nXd5w92xa5KkUeWAyhhrLEifuoDmgHChKNJjyrugKoXYN7yagVKmzBhciQh/fNWLLhiZAViteNT3rXP+VL5b628HmE5SHWDww2pnOiRroab5K9NCD6AGRAoUfa1/tPjpwO+N0uiD4CA9qiKb9pCK1+dgSxpBHMWi3eec3c6z6QIDAQAB"
+    }
 }

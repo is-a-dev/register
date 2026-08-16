@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "FWEEaaaa1",
-    "email": "gorgonfweman@outlook.com"
-  },
-  "records": {
-    "CNAME": "edges.redirect.pizza"
-  }
+    "owner": {
+        "username": "FWEEaaaa1",
+        "email": "gorgonfweman@outlook.com"
+    },
+    "records": {
+        "CNAME": "edges.redirect.pizza"
+    }
 }

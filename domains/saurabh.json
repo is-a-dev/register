@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "sohrubh",
-    "email": "sy413@outlook.com"
-  },
-  "records": {
-    "CNAME": "array.pages.dev"
-  }
+    "owner": {
+        "username": "sohrubh",
+        "email": "sy413@outlook.com"
+    },
+    "records": {
+        "CNAME": "array.pages.dev"
+    }
 }

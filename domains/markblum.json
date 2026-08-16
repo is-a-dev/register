@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "mblumdumes",
-    "email": "mark@el-blum.de"
-  },
-  "records": {
-    "CNAME": "dyndns.el-blum.de"
-  }
+    "owner": {
+        "username": "mblumdumes",
+        "email": "mark@el-blum.de"
+    },
+    "records": {
+        "CNAME": "dyndns.el-blum.de"
+    }
 }

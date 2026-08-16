@@ -4,6 +4,8 @@
         "email": "cleve.noreplay@gmail.com"
     },
     "records": {
-        "A": ["159.65.119.182"]
+        "A": [
+            "159.65.119.182"
+        ]
     }
 }

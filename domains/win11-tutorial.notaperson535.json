@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "notAperson535",
-    "email": "notAperson939@gmail.com"
-  },
-  "records": {
-    "CNAME": "notaperson535.github.io"
-  }
+    "owner": {
+        "username": "notAperson535",
+        "email": "notAperson939@gmail.com"
+    },
+    "records": {
+        "CNAME": "notaperson535.github.io"
+    }
 }

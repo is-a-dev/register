@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "GrifTheDev",
-    "email": "tmjeteo3@gmail.com"
-  },
-  "records": {
-    "CNAME": "grifthedev.github.io"
-  }
+    "owner": {
+        "username": "GrifTheDev",
+        "email": "tmjeteo3@gmail.com"
+    },
+    "records": {
+        "CNAME": "grifthedev.github.io"
+    }
 }

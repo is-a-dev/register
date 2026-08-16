@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "github-username",
-    "email": "mail@felixyeung.dev"
-  },
-  "records": {
-    "URL": "https://felixyeung.dev"
-  }
+    "owner": {
+        "username": "github-username",
+        "email": "mail@felixyeung.dev"
+    },
+    "records": {
+        "URL": "https://felixyeung.dev"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "pxsty0",
-    "email": "pxsty@pxserv.net"
-  },
-  "records": {
-    "CNAME": "pxsty0.github.io"
-  }
+    "owner": {
+        "username": "pxsty0",
+        "email": "pxsty@pxserv.net"
+    },
+    "records": {
+        "CNAME": "pxsty0.github.io"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "alfiwillianz",
-    "email": "willianz@pm.me"
-  },
-  "records": {
-    "CNAME": "alfiwillianz.github.io"
-  }
+    "owner": {
+        "username": "alfiwillianz",
+        "email": "willianz@pm.me"
+    },
+    "records": {
+        "CNAME": "alfiwillianz.github.io"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "sitov",
-    "email": "cristian.sitov@gmail.com"
-  },
-  "records": {
-    "CNAME": "sitov.ro"
-  }
+    "owner": {
+        "username": "sitov",
+        "email": "cristian.sitov@gmail.com"
+    },
+    "records": {
+        "CNAME": "sitov.ro"
+    }
 }

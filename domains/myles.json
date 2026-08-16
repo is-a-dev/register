@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Myles-J",
-    "email": "mylesjefferson.dev@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "owner": {
+        "username": "Myles-J",
+        "email": "mylesjefferson.dev@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "username": "vxrachit",
-    "email": "vxrachit@proton.me"
-  },
-  "records": {
-    "NS": ["daisy.ns.cloudflare.com", "fred.ns.cloudflare.com"]
-  }
+    "owner": {
+        "username": "vxrachit",
+        "email": "vxrachit@proton.me"
+    },
+    "records": {
+        "NS": [
+            "daisy.ns.cloudflare.com",
+            "fred.ns.cloudflare.com"
+        ]
+    }
 }

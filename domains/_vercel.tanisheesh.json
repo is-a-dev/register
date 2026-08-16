@@ -4,6 +4,8 @@
         "email": "tanishpoddar.18@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=tanisheesh.is-a.dev,ea75e80a993389a072fd"]
+        "TXT": [
+            "vc-domain-verify=tanisheesh.is-a.dev,ea75e80a993389a072fd"
+        ]
     }
 }

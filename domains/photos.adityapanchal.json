@@ -1,12 +1,12 @@
 {
-  "description": "Aditya Photos",
-  "owner": {
-    "username": "audi2654",
-    "email": "adit2654@gmail.com"
-  },
-  "records": {
-    "A": [
-      "140.245.18.238"
-    ]
-  }
+    "description": "Aditya Photos",
+    "owner": {
+        "username": "audi2654",
+        "email": "adit2654@gmail.com"
+    },
+    "records": {
+        "A": [
+            "140.245.18.238"
+        ]
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "shenjunru",
-    "email": "shenjunru@gmail.com"
-  },
-  "records": {
-    "CNAME": "shenjunru.github.io"
-  }
+    "owner": {
+        "username": "shenjunru",
+        "email": "shenjunru@gmail.com"
+    },
+    "records": {
+        "CNAME": "shenjunru.github.io"
+    }
 }

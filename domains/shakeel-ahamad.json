@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "shakeel-ahamad"
-  },
-  "records": {
-    "CNAME": "shakeel-ahamad.github.io"
-  }
+    "owner": {
+        "username": "shakeel-ahamad"
+    },
+    "records": {
+        "CNAME": "shakeel-ahamad.github.io"
+    }
 }

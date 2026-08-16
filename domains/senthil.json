@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "gptechland",
-    "email": "skn.hills@gmail.com"
-  },
-  "records": {
-    "CNAME": "gptechland.github.io"
-  }
+    "owner": {
+        "username": "gptechland",
+        "email": "skn.hills@gmail.com"
+    },
+    "records": {
+        "CNAME": "gptechland.github.io"
+    }
 }
