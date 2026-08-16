@@ -4,7 +4,6 @@
         "email": "anasyusuf12@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"],
-        "TXT": ["vc-domain-verify=anasy.is-a.dev,833084eb6b748747f6bb"]
+        "TXT": "vc-domain-verify=anasy.is-a.dev,aa4ebef4334e2e60428a"
     }
 }
