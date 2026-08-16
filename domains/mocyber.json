@@ -4,6 +4,7 @@
     "email": "m.khawaga61@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=mocyber.is-a.dev,4f6593a0b1794fa2c429"
   }
 }
