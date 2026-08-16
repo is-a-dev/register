@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "jalalbabaie-crypto"
+  },
+  "record": {
+    "NS": [
+      "chip.ns.cloudflare.com",
+      "martha.ns.cloudflare.com"
+    ]
+  }
+}
