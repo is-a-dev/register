@@ -1,9 +1,12 @@
 {
   "owner": {
     "username": "zurai02",
-    "email": "zurai02ispro@gmail.com"
+    "email": "297417184+zurai02@users.noreply.github.com"
   },
   "records": {
-    "CNAME": "zurai02.github.io"
+    "NS": [
+      "dante.ns.cloudflare.com",
+      "paislee.ns.cloudflare.com"
+    ]
   }
 }
