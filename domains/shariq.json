@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Shariqtechie",
-    "email": "shariqahmad129@gmail.com"
-  },
-  "records": {
-    "CNAME": "shariqtechie.github.io"
-  }
+    "owner": {
+        "username": "Shariqtechie",
+        "email": "shariqahmad129@gmail.com"
+    },
+    "records": {
+        "CNAME": "shariqtechie.github.io"
+    }
 }

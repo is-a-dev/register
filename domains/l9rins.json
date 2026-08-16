@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "l9rins",
-    "email": "marklorenzbarangan@gmail.com"
-  },
-  "records": {
-    "CNAME": "l9rins-portfolio.vercel.app"
-  }
+    "owner": {
+        "username": "l9rins",
+        "email": "marklorenzbarangan@gmail.com"
+    },
+    "records": {
+        "CNAME": "l9rins-portfolio.vercel.app"
+    }
 }

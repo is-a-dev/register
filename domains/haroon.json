@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "haroonalbar",
-    "email": "haroonalbarx@gmail.com"
-  },
-  "records": {
-    "CNAME": "haroonalbar.vercel.app"
-  }
+    "owner": {
+        "username": "haroonalbar",
+        "email": "haroonalbarx@gmail.com"
+    },
+    "records": {
+        "CNAME": "haroonalbar.vercel.app"
+    }
 }

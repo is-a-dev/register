@@ -4,6 +4,8 @@
         "email": "tomislav.herman@gmail.com"
     },
     "records": {
-        "A": ["152.67.70.181"]
+        "A": [
+            "152.67.70.181"
+        ]
     }
 }

@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "lumacodes",
-    "email": "lumacodes@proton.mail"
-  },
-  "records": {
-    "CNAME": "lumacodes.github.io"
-  },
-  "proxied": true
+    "owner": {
+        "username": "lumacodes",
+        "email": "lumacodes@proton.mail"
+    },
+    "records": {
+        "CNAME": "lumacodes.github.io"
+    },
+    "proxied": true
 }

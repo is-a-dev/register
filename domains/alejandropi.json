@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "AlejandroPiCano",
-    "email": "alejandro.pi87@gmail.com"
-  },
-  "records": {
-    "CNAME": "alejandropicano.github.io"
-  }
+    "owner": {
+        "username": "AlejandroPiCano",
+        "email": "alejandro.pi87@gmail.com"
+    },
+    "records": {
+        "CNAME": "alejandropicano.github.io"
+    }
 }

@@ -1,10 +1,11 @@
 {
-  "owner": {
-    "username": "SoraKasvgano",
-    "email": "sora@bfban.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-    
-  }
+    "owner": {
+        "username": "SoraKasvgano",
+        "email": "sora@bfban.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

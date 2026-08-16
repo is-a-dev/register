@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "benrahla-islam",
-    "email": "its.islam.ben@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=islam-benrahla.is-a.dev,8df587e773ba15604fde"
-  }
+    "owner": {
+        "username": "benrahla-islam",
+        "email": "its.islam.ben@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=islam-benrahla.is-a.dev,8df587e773ba15604fde"
+    }
 }

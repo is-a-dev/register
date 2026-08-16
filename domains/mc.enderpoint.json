@@ -4,14 +4,14 @@
     },
     "records": {
         "SRV": [
-              {
+            {
                 "service": "_minecraft",
                 "protocol": "_tcp",
                 "priority": 1,
                 "weight": 1,
                 "port": 60109,
                 "target": "session-interactions.gl.at.ply.gg"
-              }
-            ]
+            }
+        ]
     }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "phenax",
-    "email": "phenax5@gmail.com"
-  },
-  "records": {
-    "CNAME": "phenax.github.io"
-  }
+    "owner": {
+        "username": "phenax",
+        "email": "phenax5@gmail.com"
+    },
+    "records": {
+        "CNAME": "phenax.github.io"
+    }
 }

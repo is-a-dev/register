@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "eeaqd",
-    "email": "tuxtto@gmail.com"
-  },
-  "records": {
-    "A": ["70.34.252.166"]
-  }
+    "owner": {
+        "username": "eeaqd",
+        "email": "tuxtto@gmail.com"
+    },
+    "records": {
+        "A": [
+            "70.34.252.166"
+        ]
+    }
 }

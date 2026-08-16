@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "arkamfahry",
-    "email": "m.arkamfahry@gmail.com"
-  },
-  "records": {
-    "CNAME": "arkamfahry.github.io"
-  }
+    "owner": {
+        "username": "arkamfahry",
+        "email": "m.arkamfahry@gmail.com"
+    },
+    "records": {
+        "CNAME": "arkamfahry.github.io"
+    }
 }

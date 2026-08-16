@@ -1,8 +1,10 @@
 {
-  "owner": {
-    "username": "Getepq"
-  },
-  "records": {
-    "A": ["150.241.74.137"]
-  }
+    "owner": {
+        "username": "Getepq"
+    },
+    "records": {
+        "A": [
+            "150.241.74.137"
+        ]
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Joe50097",
-    "email": "me@joe50097.dev"
-  },
-  "records": {
-    "CNAME": "joe50097.netlify.app"
-  }
+    "owner": {
+        "username": "Joe50097",
+        "email": "me@joe50097.dev"
+    },
+    "records": {
+        "CNAME": "joe50097.netlify.app"
+    }
 }

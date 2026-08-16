@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "couplesuicide",
-    "email": "couplesuicide@proton.me"
-  },
-  "records": {
-    "CNAME": "couplesuicide.github.io"
-  }
+    "owner": {
+        "username": "couplesuicide",
+        "email": "couplesuicide@proton.me"
+    },
+    "records": {
+        "CNAME": "couplesuicide.github.io"
+    }
 }

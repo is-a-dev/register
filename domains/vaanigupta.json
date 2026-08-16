@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "vaanigupta01",
-    "email": "vaanigupta01@gmail.com"
-  },
-  "records": {
-    "CNAME": "vaani-pm-portfolio.pages.dev"
-  }
+    "owner": {
+        "username": "vaanigupta01",
+        "email": "vaanigupta01@gmail.com"
+    },
+    "records": {
+        "CNAME": "vaani-pm-portfolio.pages.dev"
+    }
 }

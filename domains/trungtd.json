@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "niits",
-    "email": "trungtdxz@gmail.com"
-  },
-  "records": {
-    "CNAME": "niits-github-io.pages.dev"
-  }
+    "owner": {
+        "username": "niits",
+        "email": "trungtdxz@gmail.com"
+    },
+    "records": {
+        "CNAME": "niits-github-io.pages.dev"
+    }
 }

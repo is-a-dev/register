@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "zulhendryms",
-    "email": "zulhendryms@gmail.com"
-  },
-  "records": {
-    "CNAME": "zulhendryms.github.io"
-  }
+    "owner": {
+        "username": "zulhendryms",
+        "email": "zulhendryms@gmail.com"
+    },
+    "records": {
+        "CNAME": "zulhendryms.github.io"
+    }
 }

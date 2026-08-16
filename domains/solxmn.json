@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Fraczdev",
-    "email": "fraczdev@gmail.com"
-  },
-  "records": {
-    "CNAME": "solxmn.netlify.app"
-  }
+    "owner": {
+        "username": "Fraczdev",
+        "email": "fraczdev@gmail.com"
+    },
+    "records": {
+        "CNAME": "solxmn.netlify.app"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "jesusgaelgs",
-    "email": "gael.jggs@gmail.com"
-  },
-  "records": {
-    "CNAME": "gaeldev-three.vercel.app"
-  }
+    "owner": {
+        "username": "jesusgaelgs",
+        "email": "gael.jggs@gmail.com"
+    },
+    "records": {
+        "CNAME": "gaeldev-three.vercel.app"
+    }
 }

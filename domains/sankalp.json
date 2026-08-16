@@ -1,8 +1,8 @@
 {
     "description": "Personal portfolio and projects",
     "owner": {
-    "username": "SankalpSharma7",
-    "email": "sharma.sankalp7@gmail.com"
+        "username": "SankalpSharma7",
+        "email": "sharma.sankalp7@gmail.com"
     },
     "records": {
         "CNAME": "sankalpsharma7.github.io"

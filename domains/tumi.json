@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "mercykolapo",
-    "email": "mercyoluwatumininukolapo@gmail.com"
-  },
-  "records": {
-    "CNAME": "latest-portfolio-cp2.pages.dev"
-  }
+    "owner": {
+        "username": "mercykolapo",
+        "email": "mercyoluwatumininukolapo@gmail.com"
+    },
+    "records": {
+        "CNAME": "latest-portfolio-cp2.pages.dev"
+    }
 }

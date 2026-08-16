@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "victorchiaka"
-  },
-  "records": {
-    "CNAME": "victorchiaka.netlify.app"
-  }
+    "owner": {
+        "username": "victorchiaka"
+    },
+    "records": {
+        "CNAME": "victorchiaka.netlify.app"
+    }
 }

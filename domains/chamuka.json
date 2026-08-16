@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "weldonfisher",
-    "email": "chamuka15d@gmail.com"
-  },
-  "records": {
-    "CNAME": "chamuka-zeta.vercel.app"
-  }
+    "owner": {
+        "username": "weldonfisher",
+        "email": "chamuka15d@gmail.com"
+    },
+    "records": {
+        "CNAME": "chamuka-zeta.vercel.app"
+    }
 }

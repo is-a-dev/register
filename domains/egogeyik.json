@@ -1,10 +1,12 @@
 {
-  "owner": {
-    "username": "egemngyk",
-    "email": "muhammedegemengeyik@gmail.com"
-  },
-  "records": {
-    "A": ["92.5.157.78"]
-  },
-  "proxied": false
+    "owner": {
+        "username": "egemngyk",
+        "email": "muhammedegemengeyik@gmail.com"
+    },
+    "records": {
+        "A": [
+            "92.5.157.78"
+        ]
+    },
+    "proxied": false
 }

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "itahseen"
-  },
-  "records": {
-    "CNAME": "viktoriaa.vercel.app"
-  }
+    "owner": {
+        "username": "itahseen"
+    },
+    "records": {
+        "CNAME": "viktoriaa.vercel.app"
+    }
 }

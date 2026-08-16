@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "justwinstuff",
-    "discord": "970380468090437672"
-  },
-  "records": {
-    "CNAME": "astrowin.github.io"
-  }
+    "owner": {
+        "username": "justwinstuff",
+        "discord": "970380468090437672"
+    },
+    "records": {
+        "CNAME": "astrowin.github.io"
+    }
 }
