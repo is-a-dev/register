@@ -1,0 +1,6 @@
+{
+  "domain": "syntahmed.dev",
+  "record": {
+    "CNAME": "syntahmed.netlify.app"
+  }
+}
