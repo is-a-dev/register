@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "hyz",
-    "email": "0xeeef@gmail.com"
-  },
-  "records": {
-    "CNAME": "wood.is-a.dev"
-  }
+    "owner": {
+        "username": "hyz",
+        "email": "0xeeef@gmail.com"
+    },
+    "records": {
+        "CNAME": "wood.is-a.dev"
+    }
 }

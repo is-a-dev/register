@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Mahdi-Abdollahi",
-    "email": "mahdiabdollahi159@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=www.maahdi.is-a.dev,5b9033077a74d5560461"
-  }
+    "owner": {
+        "username": "Mahdi-Abdollahi",
+        "email": "mahdiabdollahi159@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=www.maahdi.is-a.dev,5b9033077a74d5560461"
+    }
 }

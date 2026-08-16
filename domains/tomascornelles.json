@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "tomascornelles",
-    "email": "tomascornelles@gmail.com"
-  },
-  "records": {
-    "CNAME": "tomascornelles.github.io"
-  }
+    "owner": {
+        "username": "tomascornelles",
+        "email": "tomascornelles@gmail.com"
+    },
+    "records": {
+        "CNAME": "tomascornelles.github.io"
+    }
 }

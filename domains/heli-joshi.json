@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "heli-joshi"
-  },
-  "records": {
-    "CNAME": "heli-joshi.github.io"
-  }
+    "owner": {
+        "username": "heli-joshi"
+    },
+    "records": {
+        "CNAME": "heli-joshi.github.io"
+    }
 }

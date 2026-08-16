@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "toiyeuphunu414",
-    "email": "nguyendaikhang2000@gmail.com"
-  },
-  "records": {
-    "A": ["160.191.244.75"]
-  }
+    "owner": {
+        "username": "toiyeuphunu414",
+        "email": "nguyendaikhang2000@gmail.com"
+    },
+    "records": {
+        "A": [
+            "160.191.244.75"
+        ]
+    }
 }

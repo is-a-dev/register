@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Pritam6569",
-    "email": "skskmdbeheh@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfr.pages.dev"
-  }
+    "owner": {
+        "username": "Pritam6569",
+        "email": "skskmdbeheh@gmail.com"
+    },
+    "records": {
+        "CNAME": "portfr.pages.dev"
+    }
 }

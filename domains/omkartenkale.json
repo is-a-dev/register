@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "omkar-tenkale",
-    "email": "otenkale@gmail.com"
-  },
-  "records": {
-    "CNAME": "omkar-tenkale.github.io"
-  }
+    "owner": {
+        "username": "omkar-tenkale",
+        "email": "otenkale@gmail.com"
+    },
+    "records": {
+        "CNAME": "omkar-tenkale.github.io"
+    }
 }

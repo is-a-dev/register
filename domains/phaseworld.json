@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "phaseworld-creator",
-    "email": "contact-me.phase@proton.me"
-  },
-  "records": {
-    "CNAME": "phaseworld.surge.sh"
-  },
-  "proxied": true
+    "owner": {
+        "username": "phaseworld-creator",
+        "email": "contact-me.phase@proton.me"
+    },
+    "records": {
+        "CNAME": "phaseworld.surge.sh"
+    },
+    "proxied": true
 }

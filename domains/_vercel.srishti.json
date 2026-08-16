@@ -4,6 +4,8 @@
         "email": "srishti@growthz.ai"
     },
     "records": {
-        "TXT": ["vc-domain-verify=srishti.is-a.dev,3369b335199d874e34a8"]
+        "TXT": [
+            "vc-domain-verify=srishti.is-a.dev,3369b335199d874e34a8"
+        ]
     }
 }

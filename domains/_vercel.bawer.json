@@ -4,7 +4,9 @@
         "email": "omerbaveryildiz545@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=bawer.is-a.dev,588866798a26e60b678a"]
+        "TXT": [
+            "vc-domain-verify=bawer.is-a.dev,588866798a26e60b678a"
+        ]
     },
     "proxied": false
 }

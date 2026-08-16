@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "ILMFAMILY001"
-  },
-  "records": {
-    "CNAME": "agnal-tom.onrender.com"
-  }
+    "owner": {
+        "username": "ILMFAMILY001"
+    },
+    "records": {
+        "CNAME": "agnal-tom.onrender.com"
+    }
 }

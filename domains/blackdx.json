@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "blackdx",
-    "email": "blackdxnet@gmail.com",
-    "twitter": "BlackDX10"
-  },
-  "records": {
-    "CNAME": "blackdx.github.io"
-  }
+    "owner": {
+        "username": "blackdx",
+        "email": "blackdxnet@gmail.com",
+        "twitter": "BlackDX10"
+    },
+    "records": {
+        "CNAME": "blackdx.github.io"
+    }
 }

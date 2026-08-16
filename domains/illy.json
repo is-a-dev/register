@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "illy-dev",
-    "email": "illythehase@gmail.com"
-  },
-  "records": {
-    "CNAME": "illy-dev-github-io.vercel.app"
-  }
+    "owner": {
+        "username": "illy-dev",
+        "email": "illythehase@gmail.com"
+    },
+    "records": {
+        "CNAME": "illy-dev-github-io.vercel.app"
+    }
 }

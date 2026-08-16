@@ -1,32 +1,32 @@
 {
-  "owner": {
-    "username": "MaseDev33",
-    "email": "mase@masecodes.is-a.dev"
-  },
-  "records": {
-    "A": [
-      "185.199.108.153", 
-      "185.199.109.153", 
-      "185.199.110.153", 
-      "185.199.111.153"
-    ],
-    "TXT": [
-      "zoho-verification=zb40941372.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
-    ],
-    "MX": [
-      {
-        "target": "mx.zoho.com",
-        "priority": 10
-      },
-      {
-        "target": "mx2.zoho.com",
-        "priority": 20
-      },
-      {
-        "target": "mx3.zoho.com",
-        "priority": 50
-      }
-    ]
-  }
+    "owner": {
+        "username": "MaseDev33",
+        "email": "mase@masecodes.is-a.dev"
+    },
+    "records": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "TXT": [
+            "zoho-verification=zb40941372.zmverify.zoho.com",
+            "v=spf1 include:zohomail.com ~all"
+        ],
+        "MX": [
+            {
+                "target": "mx.zoho.com",
+                "priority": 10
+            },
+            {
+                "target": "mx2.zoho.com",
+                "priority": 20
+            },
+            {
+                "target": "mx3.zoho.com",
+                "priority": 50
+            }
+        ]
+    }
 }

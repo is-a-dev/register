@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "akshtt-dev",
-    "discord": "1056531806763102218"
-  },
-  "records": {
-    "A": ["104.167.231.114"]
-  }
+    "owner": {
+        "username": "akshtt-dev",
+        "discord": "1056531806763102218"
+    },
+    "records": {
+        "A": [
+            "104.167.231.114"
+        ]
+    }
 }

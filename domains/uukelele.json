@@ -1,12 +1,12 @@
 {
-  "repo": "https://github.com/uukelele/uukelele.github.io",
-  "owner": {
-    "username": "uukelele",
-    "email": "uukelele@proton.me",
-    "discord": "uukele1e"
-  },
-  "records": {
-    "CNAME": "uukelele.pages.dev"
-  },
-  "proxied": false
+    "repo": "https://github.com/uukelele/uukelele.github.io",
+    "owner": {
+        "username": "uukelele",
+        "email": "uukelele@proton.me",
+        "discord": "uukele1e"
+    },
+    "records": {
+        "CNAME": "uukelele.pages.dev"
+    },
+    "proxied": false
 }

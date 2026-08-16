@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "dimasawardhana",
-    "email":"dimasawardhana@gmail.com"
-  },
-  "records": {
-    "CNAME": "dimasajiwardhana-portfolio.pages.dev"
-  }
+    "owner": {
+        "username": "dimasawardhana",
+        "email": "dimasawardhana@gmail.com"
+    },
+    "records": {
+        "CNAME": "dimasajiwardhana-portfolio.pages.dev"
+    }
 }

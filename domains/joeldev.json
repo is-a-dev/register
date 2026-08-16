@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "thejoelc"
-  },
-  "records": {
-    "CNAME": "thejoelc.github.io"
-  }
+    "owner": {
+        "username": "thejoelc"
+    },
+    "records": {
+        "CNAME": "thejoelc.github.io"
+    }
 }

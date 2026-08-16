@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "priyas-rana"
-  },
-  "records": {
-    "CNAME": "priyas-rana.github.io"
-  }
+    "owner": {
+        "username": "priyas-rana"
+    },
+    "records": {
+        "CNAME": "priyas-rana.github.io"
+    }
 }

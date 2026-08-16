@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "Ajay-ck",
-    "email": "ajaychekavarck@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "Ajay-ck",
+        "email": "ajaychekavarck@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }
