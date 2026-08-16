@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "muraza6",
-"email": "bodycalc@proton.me"  },
-  "records": {
-    "CNAME": "bodycalc-e9a7fxhwd8bfc0gc.italynorth-01.azurewebsites.net"
-  }
+    "owner": {
+        "username": "muraza6",
+        "email": "bodycalc@proton.me"
+    },
+    "records": {
+        "CNAME": "bodycalc-e9a7fxhwd8bfc0gc.italynorth-01.azurewebsites.net"
+    }
 }

@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "Davidface97",
-    "email": "davidfa15@hotmail.com"
-  },
-  "records": {
-    "A": ["18.116.7.124"]
-  }
+    "owner": {
+        "username": "Davidface97",
+        "email": "davidfa15@hotmail.com"
+    },
+    "records": {
+        "A": [
+            "18.116.7.124"
+        ]
+    }
 }

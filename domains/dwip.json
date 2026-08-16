@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "dwip-the-dev"
-  },
-  "records": {
-    "CNAME": "dwipbiswas.netlify.app"
-  }
+    "owner": {
+        "username": "dwip-the-dev"
+    },
+    "records": {
+        "CNAME": "dwipbiswas.netlify.app"
+    }
 }

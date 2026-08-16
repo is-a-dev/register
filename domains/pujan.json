@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "Pujan-Dev",
-    "email": "pujanneupaneop0907@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "Pujan-Dev",
+        "email": "pujanneupaneop0907@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

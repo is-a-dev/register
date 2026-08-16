@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "notamitgamer",
-    "email": "amitdutta4255@gmail.com"
-  },
-  "records": {
-    "TXT": ["xBVVk1_nxck-AbOHBrNGLdlIDHDkej_au2ahk-bYimE"]
-  }
+    "owner": {
+        "username": "notamitgamer",
+        "email": "amitdutta4255@gmail.com"
+    },
+    "records": {
+        "TXT": [
+            "xBVVk1_nxck-AbOHBrNGLdlIDHDkej_au2ahk-bYimE"
+        ]
+    }
 }

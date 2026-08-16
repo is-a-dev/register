@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "atlasru",
-    "email": "gen0l@protonmail.com"
-  },
-  "records": {
-    "CNAME": "atlasru.github.io"
-  }
+    "owner": {
+        "username": "atlasru",
+        "email": "gen0l@protonmail.com"
+    },
+    "records": {
+        "CNAME": "atlasru.github.io"
+    }
 }

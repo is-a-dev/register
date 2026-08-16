@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "dulankacharidu",
-    "email": "dulankacharidu@gmail.com"
-  },
-  "records": {
-    "CNAME": "dulankacharidu.github.io"
-  }
+    "owner": {
+        "username": "dulankacharidu",
+        "email": "dulankacharidu@gmail.com"
+    },
+    "records": {
+        "CNAME": "dulankacharidu.github.io"
+    }
 }

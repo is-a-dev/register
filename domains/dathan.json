@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "paician",
-    "email": "dathancenter@gmail.com"
-  },
-  "records": {
-    "CNAME": "paician.github.io"
-  }
+    "owner": {
+        "username": "paician",
+        "email": "dathancenter@gmail.com"
+    },
+    "records": {
+        "CNAME": "paician.github.io"
+    }
 }

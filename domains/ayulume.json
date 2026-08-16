@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "nvct-website",
-    "discord": "@ayulume"
-  },
-  "records": {
-    "CNAME": "nvct-website.github.io"
-  }
+    "owner": {
+        "username": "nvct-website",
+        "discord": "@ayulume"
+    },
+    "records": {
+        "CNAME": "nvct-website.github.io"
+    }
 }

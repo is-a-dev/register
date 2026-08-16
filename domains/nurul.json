@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "nurul-exe"
-  },
-  "records": {
-    "CNAME": "nurul-exe.github.io"
-  }
+    "owner": {
+        "username": "nurul-exe"
+    },
+    "records": {
+        "CNAME": "nurul-exe.github.io"
+    }
 }

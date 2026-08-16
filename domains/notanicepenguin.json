@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "notanicepenguin"
-  },
-  "records": {
-    "CNAME": "notanicepenguin.github.io"
-  }
+    "owner": {
+        "username": "notanicepenguin"
+    },
+    "records": {
+        "CNAME": "notanicepenguin.github.io"
+    }
 }

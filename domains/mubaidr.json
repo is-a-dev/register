@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "mubaidr",
-    "email": "mubaidr@gmail.com"
-  },
-  "records": {
-    "CNAME": "mubaidr.js.org"
-  }
+    "owner": {
+        "username": "mubaidr",
+        "email": "mubaidr@gmail.com"
+    },
+    "records": {
+        "CNAME": "mubaidr.js.org"
+    }
 }

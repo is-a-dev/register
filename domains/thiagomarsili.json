@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Thiago-Marsili",
-    "email": "thihoma@gmail.com"
-  },
-  "records": {
-    "CNAME": "thiago-marsili.github.io"
-  }
+    "owner": {
+        "username": "Thiago-Marsili",
+        "email": "thihoma@gmail.com"
+    },
+    "records": {
+        "CNAME": "thiago-marsili.github.io"
+    }
 }

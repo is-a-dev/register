@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "tungarisdev"
-  },
-  "records": {
-    "CNAME": "aris-blog.vercel.app"
-  }
+    "owner": {
+        "username": "tungarisdev"
+    },
+    "records": {
+        "CNAME": "aris-blog.vercel.app"
+    }
 }

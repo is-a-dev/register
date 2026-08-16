@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Ashking-tech"
-  },
-  "records": {
-    "CNAME": "ashking-tech.github.io"
-  }
+    "owner": {
+        "username": "Ashking-tech"
+    },
+    "records": {
+        "CNAME": "ashking-tech.github.io"
+    }
 }
