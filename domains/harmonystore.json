@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Harmonystore",
+    "email": "yohafranco28@gmail.com"
+  },
+  "description": "Harmony Store - cozy home decor store for Pinterest verification",
+  "record": {
+    "CNAME": "ghs.googlehosted.com",
+    "TXT": "p:domain_verify=75faf886a229f970a6c552cfcb7e6ca5"
+  },
+  "proxied": false
+}
