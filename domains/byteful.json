@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "byteful0xFF"
-  },
-  "records": {
-    "CNAME": "byteful0xff.github.io"
-  }
+    "owner": {
+        "username": "byteful0xFF"
+    },
+    "records": {
+        "CNAME": "byteful0xff.github.io"
+    }
 }

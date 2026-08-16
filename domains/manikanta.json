@@ -1,9 +1,9 @@
-  {
+{
     "owner": {
-      "username": "manikantaruppa",
-      "email": "ruppamanikanta1999@gmail.com"
+        "username": "manikantaruppa",
+        "email": "ruppamanikanta1999@gmail.com"
     },
     "records": {
-      "CNAME": "portfolio-m72f.vercel.app"
+        "CNAME": "portfolio-m72f.vercel.app"
     }
-  }
+}

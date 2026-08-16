@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "mdrayaanpasha",
-    "email": "mdrayaanpasha@gmail.com"
-  },
-  "records": {
-    "CNAME": "rayaanpasha.vercel.app"
-  }
+    "owner": {
+        "username": "mdrayaanpasha",
+        "email": "mdrayaanpasha@gmail.com"
+    },
+    "records": {
+        "CNAME": "rayaanpasha.vercel.app"
+    }
 }

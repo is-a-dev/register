@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "rah-shresh",
-    "email": "shresrahangdale@gmail.com"
-  },
-  "records": {
-    "CNAME": "shreshr.vercel.app"
-  }
+    "owner": {
+        "username": "rah-shresh",
+        "email": "shresrahangdale@gmail.com"
+    },
+    "records": {
+        "CNAME": "shreshr.vercel.app"
+    }
 }

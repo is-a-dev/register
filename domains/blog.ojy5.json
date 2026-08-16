@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "FWEEaaaa1",
-    "email": "gorgonfweman@outlook.com"
-  },
-  "records": {
-    "CNAME": "hashnode.network"
-  }
+    "owner": {
+        "username": "FWEEaaaa1",
+        "email": "gorgonfweman@outlook.com"
+    },
+    "records": {
+        "CNAME": "hashnode.network"
+    }
 }

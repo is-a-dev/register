@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "tanh1c",
-    "email": "chunguyentuananh11b6@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "tanh1c",
+        "email": "chunguyentuananh11b6@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

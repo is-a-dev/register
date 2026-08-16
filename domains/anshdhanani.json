@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "Ansh-dhanani",
-    "email": "ansh61658@gmail.com"
-  },
-  "records": {
-    "CNAME": "anshdhanani.vercel.app"
-  },
-  "proxied":true
+    "owner": {
+        "username": "Ansh-dhanani",
+        "email": "ansh61658@gmail.com"
+    },
+    "records": {
+        "CNAME": "anshdhanani.vercel.app"
+    },
+    "proxied": true
 }

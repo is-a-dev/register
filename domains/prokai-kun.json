@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "IAKORP",
-    "email": "prokaiindo003@gmail.com"
-  },
-  "records": {
-    "CNAME": "iakorp.github.io"
-  }
+    "owner": {
+        "username": "IAKORP",
+        "email": "prokaiindo003@gmail.com"
+    },
+    "records": {
+        "CNAME": "iakorp.github.io"
+    }
 }

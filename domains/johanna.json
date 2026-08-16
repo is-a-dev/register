@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "johanna-panganuron",
-    "email": "johannapanganuron@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "johanna-panganuron",
+        "email": "johannapanganuron@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "inkilu",
-    "discord": "ink#6343"
-  },
-  "records": {
-    "CNAME": "inkilu.github.io"
-  }
+    "owner": {
+        "username": "inkilu",
+        "discord": "ink#6343"
+    },
+    "records": {
+        "CNAME": "inkilu.github.io"
+    }
 }

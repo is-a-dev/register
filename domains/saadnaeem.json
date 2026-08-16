@@ -4,6 +4,11 @@
         "email": "muhammadsaadnaeem424@gmail.com"
     },
     "records": {
-        "A": ["129.158.246.156"]
+        "A": [
+            "129.158.246.156"
+        ],
+        "TXT": [
+            "google-site-verification=xDbr-t-Swcn9FqFmWxQ19Z3vEcnHHYjq9CqRZOtOUGU"
+        ]
     }
 }

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "xzrci"
-  },
-  "records": {
-    "CNAME": "xzrci.vercel.app"
-  }
+    "owner": {
+        "username": "xzrci"
+    },
+    "records": {
+        "CNAME": "xzrci.vercel.app"
+    }
 }

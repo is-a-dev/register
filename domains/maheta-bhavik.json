@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "maheta-bhavik"
-  },
-  "records": {
-    "CNAME": "maheta-bhavik.github.io"
-  }
+    "owner": {
+        "username": "maheta-bhavik"
+    },
+    "records": {
+        "CNAME": "maheta-bhavik.github.io"
+    }
 }

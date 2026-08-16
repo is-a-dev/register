@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "sajjadxsami2000-source",
-    "email": "sajjadxsami2000@gmail.com"
-  },
-  "records": {
-    "CNAME": "sajjadxsami2000-source.github.io"
-  }
+    "owner": {
+        "username": "sajjadxsami2000-source",
+        "email": "sajjadxsami2000@gmail.com"
+    },
+    "records": {
+        "CNAME": "sajjadxsami2000-source.github.io"
+    }
 }

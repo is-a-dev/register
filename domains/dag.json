@@ -12,16 +12,16 @@
         ],
         "MX": [
             {
-              "target": "mx.zoho.eu",
-              "priority": 10
+                "target": "mx.zoho.eu",
+                "priority": 10
             },
             {
-              "target": "mx2.zoho.eu",
-              "priority": 20
+                "target": "mx2.zoho.eu",
+                "priority": 20
             },
             {
-              "target": "mx3.zoho.eu",
-              "priority": 50
+                "target": "mx3.zoho.eu",
+                "priority": 50
             }
         ]
     },

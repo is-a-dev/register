@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "juanfranciscocis",
-    "email": "jfcisnerosg@icloud.com"
-  },
-  "records": {
-    "CNAME": "e62c10e88c5d1aa6.vercel-dns-017.com"
-  },
-  "proxied": false
+    "owner": {
+        "username": "juanfranciscocis",
+        "email": "jfcisnerosg@icloud.com"
+    },
+    "records": {
+        "CNAME": "e62c10e88c5d1aa6.vercel-dns-017.com"
+    },
+    "proxied": false
 }

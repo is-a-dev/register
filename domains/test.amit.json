@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "notamitgamer"
-  },
-  "records": {
-    "CNAME": "localtestdomain.pages.dev"
-  }
+    "owner": {
+        "username": "notamitgamer"
+    },
+    "records": {
+        "CNAME": "localtestdomain.pages.dev"
+    }
 }

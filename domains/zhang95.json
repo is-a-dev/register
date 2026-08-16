@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "isbzx",
-    "email": "sbzx@seek.li"
-  },
-  "records": {
-    "A": ["193.111.31.121"]
-  }
+    "owner": {
+        "username": "isbzx",
+        "email": "sbzx@seek.li"
+    },
+    "records": {
+        "A": [
+            "193.111.31.121"
+        ]
+    }
 }

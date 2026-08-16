@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "woodenwooood-dev"
-  },
-  "records": {
-    "A": [
-      "216.198.79.1"
-    ]
-  }
+    "owner": {
+        "username": "woodenwooood-dev"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

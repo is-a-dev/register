@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "kh4iri",
-    "email": "dev.khairi@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=khairi.is-a.dev,ec959bf78946eba67682"
-  }
+    "owner": {
+        "username": "kh4iri",
+        "email": "dev.khairi@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=khairi.is-a.dev,ec959bf78946eba67682"
+    }
 }

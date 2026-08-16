@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "CmdCV",
-    "email": "email@ales-urbanek.cz"
-  },
-  "records": {
-    "CNAME": "ales-urbanek.cz"
-  }
+    "owner": {
+        "username": "CmdCV",
+        "email": "email@ales-urbanek.cz"
+    },
+    "records": {
+        "CNAME": "ales-urbanek.cz"
+    }
 }

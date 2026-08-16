@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Surita-pixel",
-    "email":"suritabtc@gmail.com"
-  },
-  "records": {
-    "CNAME": "portafolio-cyan-psi.vercel.app"
-  }
+    "owner": {
+        "username": "Surita-pixel",
+        "email": "suritabtc@gmail.com"
+    },
+    "records": {
+        "CNAME": "portafolio-cyan-psi.vercel.app"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "akshatsrivastava11",
-    "email":"akshatsri1108@gmail.com"
-  },
-  "records": {
-    "CNAME": "akshonite.vercel.app"
-  }
+    "owner": {
+        "username": "akshatsrivastava11",
+        "email": "akshatsri1108@gmail.com"
+    },
+    "records": {
+        "CNAME": "akshonite.vercel.app"
+    }
 }

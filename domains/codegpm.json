@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "Sabarna-dev",
-    "email":"sanjaykumarsad65@gmail.com"
-  },
-  "records": {
-    "A": ["13.49.47.202"]
-  }
+    "owner": {
+        "username": "Sabarna-dev",
+        "email": "sanjaykumarsad65@gmail.com"
+    },
+    "records": {
+        "A": [
+            "13.49.47.202"
+        ]
+    }
 }

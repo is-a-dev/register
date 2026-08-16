@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "iteshxt",
-    "email": "petrioteer007@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=itesh.is-a.dev,f95ed73dc7eb2b7fba3f"
-  }
+    "owner": {
+        "username": "iteshxt",
+        "email": "petrioteer007@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=itesh.is-a.dev,f95ed73dc7eb2b7fba3f"
+    }
 }

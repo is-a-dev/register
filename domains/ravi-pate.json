@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "ravi-pate"
-  },
-  "records": {
-    "CNAME": "ravi-pate.github.io"
-  }
+    "owner": {
+        "username": "ravi-pate"
+    },
+    "records": {
+        "CNAME": "ravi-pate.github.io"
+    }
 }

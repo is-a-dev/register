@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "verma-sanjeet"
-  },
-  "records": {
-    "CNAME": "verma-sanjeet.github.io"
-  }
+    "owner": {
+        "username": "verma-sanjeet"
+    },
+    "records": {
+        "CNAME": "verma-sanjeet.github.io"
+    }
 }

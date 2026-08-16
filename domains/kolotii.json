@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "mkolotii",
-    "email": "maksym@kolotii.com"
-  },
-  "records": {
-    "CNAME": "mkolotii.github.io"
-  }
+    "owner": {
+        "username": "mkolotii",
+        "email": "maksym@kolotii.com"
+    },
+    "records": {
+        "CNAME": "mkolotii.github.io"
+    }
 }

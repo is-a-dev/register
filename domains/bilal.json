@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Bilalbsd",
-    "email": "dev.bilalb@gmail.com"
-  },
-  "records": {
-    "CNAME": "bilalbsd.github.io"
-  }
+    "owner": {
+        "username": "Bilalbsd",
+        "email": "dev.bilalb@gmail.com"
+    },
+    "records": {
+        "CNAME": "bilalbsd.github.io"
+    }
 }

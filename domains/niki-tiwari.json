@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "niki-tiwari"
-  },
-  "records": {
-    "CNAME": "niki-tiwari.github.io"
-  }
+    "owner": {
+        "username": "niki-tiwari"
+    },
+    "records": {
+        "CNAME": "niki-tiwari.github.io"
+    }
 }

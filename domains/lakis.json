@@ -1,10 +1,10 @@
 {
-  "description": "Lakis with axolotls",
-  "owner": {
-    "username": "Lakiś",
-    "email": "support@axolotlmc.pl"
-  },
-  "records": {
-    "URL": "https://e-z.bio/lakis"
-  }
+    "description": "Lakis with axolotls",
+    "owner": {
+        "username": "Lakiś",
+        "email": "support@axolotlmc.pl"
+    },
+    "records": {
+        "URL": "https://e-z.bio/lakis"
+    }
 }
