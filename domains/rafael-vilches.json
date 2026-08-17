@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "doguedogue"
-  },
-  "records": {
-    "CNAME": "doguedogue.github.io"
-  }
+    "owner": {
+        "username": "doguedogue"
+    },
+    "records": {
+        "CNAME": "doguedogue.github.io"
+    }
 }

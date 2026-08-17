@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "dtlasky",
-    "email": "dav.tlaskal@proton.me"
-  },
-  "records": {
-    "CNAME": "tlasky.fly.dev"
-  }
+    "owner": {
+        "username": "dtlasky",
+        "email": "dav.tlaskal@proton.me"
+    },
+    "records": {
+        "CNAME": "tlasky.fly.dev"
+    }
 }

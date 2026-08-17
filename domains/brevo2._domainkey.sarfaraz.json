@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "sarfarazstark"
-  },
-  "records": {
-    "CNAME": "b2.sarfaraz-is-a-dev.dkim.brevo.com"
-  }
+    "owner": {
+        "username": "sarfarazstark"
+    },
+    "records": {
+        "CNAME": "b2.sarfaraz-is-a-dev.dkim.brevo.com"
+    }
 }

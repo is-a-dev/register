@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "pahal-desai",
-    "email": "desaipahal64@gmail.com"
-  },
-  "records": {
-    "CNAME": "pahal-desai.github.io"
-  }
+    "owner": {
+        "username": "pahal-desai",
+        "email": "desaipahal64@gmail.com"
+    },
+    "records": {
+        "CNAME": "pahal-desai.github.io"
+    }
 }

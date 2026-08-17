@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "anshonweb",
-    "email": "ansh.a.3112@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "anshonweb",
+        "email": "ansh.a.3112@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

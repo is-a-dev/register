@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Fazil17",
-    "email": "fazilsanjari27@gmail.com"
-  },
-  "records": {
-    "CNAME": "fazil-portfolio-vert.vercel.app"
-  }
+    "owner": {
+        "username": "Fazil17",
+        "email": "fazilsanjari27@gmail.com"
+    },
+    "records": {
+        "CNAME": "fazil-portfolio-vert.vercel.app"
+    }
 }

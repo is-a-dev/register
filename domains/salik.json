@@ -1,11 +1,13 @@
 {
-  "description": "Personal portfolio",
-  "repo": "https://github.com/NovaX-star/My-Portfolio",
-  "owner": {
-    "username": "NovaX-star",
-    "email": "salikridwanedu@gmail.com"
-  },
-  "records": {
-    "A": ["75.2.60.5"]
-  }
+    "description": "Personal portfolio",
+    "repo": "https://github.com/NovaX-star/My-Portfolio",
+    "owner": {
+        "username": "NovaX-star",
+        "email": "salikridwanedu@gmail.com"
+    },
+    "records": {
+        "A": [
+            "75.2.60.5"
+        ]
+    }
 }

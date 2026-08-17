@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Faizee-Asad",
-    "email": "asadfaizee@gmail.com"
-  },
-  "records": {
-    "CNAME": "faizee-asad.github.io"
-  }
+    "owner": {
+        "username": "Faizee-Asad",
+        "email": "asadfaizee@gmail.com"
+    },
+    "records": {
+        "CNAME": "faizee-asad.github.io"
+    }
 }

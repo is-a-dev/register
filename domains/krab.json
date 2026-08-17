@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "GrumpyKrab",
-    "email": "GrumpyKrabb@gmail.com"
-  },
-  "records": {
-    "CNAME": "grumpykrab.github.io"
-  }
+    "owner": {
+        "username": "GrumpyKrab",
+        "email": "GrumpyKrabb@gmail.com"
+    },
+    "records": {
+        "CNAME": "grumpykrab.github.io"
+    }
 }

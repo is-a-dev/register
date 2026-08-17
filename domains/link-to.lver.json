@@ -1,11 +1,13 @@
 {
-  "github": "https://github.com/lverx",
-  "owner": {
-    "username": "lverx",
-    "email": "profoundlvr@gmail.com"
-  },
-  "records": {
-    "A": ["52.72.49.79"]
-  },
-  "proxied": true
+    "github": "https://github.com/lverx",
+    "owner": {
+        "username": "lverx",
+        "email": "profoundlvr@gmail.com"
+    },
+    "records": {
+        "A": [
+            "52.72.49.79"
+        ]
+    },
+    "proxied": true
 }

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "doansilinh"
-  },
-  "records": {
-    "CNAME": "doansilinh.github.io"
-  }
+    "owner": {
+        "username": "doansilinh"
+    },
+    "records": {
+        "CNAME": "doansilinh.github.io"
+    }
 }

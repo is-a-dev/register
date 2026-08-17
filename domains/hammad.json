@@ -3,7 +3,9 @@
         "username": "Hammad7128",
         "email": "hammadamjad7128@gmail.com"
     },
-   "records": {
-        "A": ["75.2.60.5"]
+    "records": {
+        "A": [
+            "75.2.60.5"
+        ]
     }
 }

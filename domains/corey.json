@@ -4,6 +4,8 @@
         "email": "iamcoreychiu@gmail.com"
     },
     "records": {
-        "A": ["216.150.1.1"]
+        "A": [
+            "216.150.1.1"
+        ]
     }
 }

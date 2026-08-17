@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "shadowisdev",
-    "email": "shadowisdev@gmail.com"
-  },
-  "records": {
-    "CNAME": "shadowisdev.github.io"
-  }
+    "owner": {
+        "username": "shadowisdev",
+        "email": "shadowisdev@gmail.com"
+    },
+    "records": {
+        "CNAME": "shadowisdev.github.io"
+    }
 }

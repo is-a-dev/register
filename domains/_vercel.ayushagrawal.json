@@ -1,17 +1,11 @@
 {
+    "owner": {
+        "username": "SeeThearc",
 
-  "owner": {
+        "email": "ayushagrawal2334@gmail.com"
+    },
 
-    "username": "SeeThearc",
-
-    "email": "ayushagrawal2334@gmail.com"
-
-  },
-
-  "records": {
-
-    "TXT": "vc-domain-verify=ayushagrawal.is-a.dev,57117e28c50d69c86504"
-
-  }
-
+    "records": {
+        "TXT": "vc-domain-verify=ayushagrawal.is-a.dev,57117e28c50d69c86504"
+    }
 }

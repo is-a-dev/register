@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "viplav-mistry"
-  },
-  "records": {
-    "CNAME": "viplav-mistry.github.io"
-  }
+    "owner": {
+        "username": "viplav-mistry"
+    },
+    "records": {
+        "CNAME": "viplav-mistry.github.io"
+    }
 }

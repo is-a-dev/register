@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "oppara",
-    "email": "oppara@oppara.tv"
-  },
-  "records": {
-    "CNAME": "oppara.tv"
-  }
+    "owner": {
+        "username": "oppara",
+        "email": "oppara@oppara.tv"
+    },
+    "records": {
+        "CNAME": "oppara.tv"
+    }
 }

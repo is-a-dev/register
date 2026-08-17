@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "ukinon"
-  },
-  "records": {
-    "CNAME": "ukino.vercel.app"
-  }
+    "owner": {
+        "username": "ukinon"
+    },
+    "records": {
+        "CNAME": "ukino.vercel.app"
+    }
 }

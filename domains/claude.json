@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "christianchartier"
-  },
-  "records": {
-    "CNAME": "christianchartier.github.io"
-  }
+    "owner": {
+        "username": "christianchartier"
+    },
+    "records": {
+        "CNAME": "christianchartier.github.io"
+    }
 }

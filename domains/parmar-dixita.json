@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "parmar-dixita"
-  },
-  "records": {
-    "CNAME": "parmar-dixita.github.io"
-  }
+    "owner": {
+        "username": "parmar-dixita"
+    },
+    "records": {
+        "CNAME": "parmar-dixita.github.io"
+    }
 }

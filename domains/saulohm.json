@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "saulohm",
-    "email": "terramixsaulo@gmail.com"
-  },
-  "records": {
-    "A": ["164.163.9.112"]
-  }
+    "owner": {
+        "username": "saulohm",
+        "email": "terramixsaulo@gmail.com"
+    },
+    "records": {
+        "A": [
+            "164.163.9.112"
+        ]
+    }
 }

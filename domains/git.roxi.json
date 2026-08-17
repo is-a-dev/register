@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "roxiTheReal",
-    "email": "aetheron.inc@proton.me"
-  },
-  "records": {
-    "CNAME": "roxi-dev.duckdns.org"
-  },
-  "proxied": true
+    "owner": {
+        "username": "roxiTheReal",
+        "email": "aetheron.inc@proton.me"
+    },
+    "records": {
+        "CNAME": "roxi-dev.duckdns.org"
+    },
+    "proxied": true
 }

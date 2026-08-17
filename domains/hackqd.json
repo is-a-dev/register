@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "hackqd",
-    "email": "hackqdftw@gmail.com"
-  },
-  "records": {
-    "CNAME": "hackqd.github.io"
-  }
+    "owner": {
+        "username": "hackqd",
+        "email": "hackqdftw@gmail.com"
+    },
+    "records": {
+        "CNAME": "hackqd.github.io"
+    }
 }

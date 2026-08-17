@@ -1,10 +1,10 @@
 {
-  "description": "Personal WebSite",
-  "owner": {
-    "username": "BougSoon-Studio",
-    "email": "bougsoon.studio@gmail.com"
-  },
-  "records": {
-    "CNAME": "mr-julus.vercel.app"
-  }
+    "description": "Personal WebSite",
+    "owner": {
+        "username": "BougSoon-Studio",
+        "email": "bougsoon.studio@gmail.com"
+    },
+    "records": {
+        "CNAME": "mr-julus.vercel.app"
+    }
 }

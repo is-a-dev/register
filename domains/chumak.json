@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "spumony",
-    "email": "ciumac.dev@gmail.com"
-  },
-  "records": {
-    "A": ["204.168.196.101"]
-  }
+    "owner": {
+        "username": "spumony",
+        "email": "ciumac.dev@gmail.com"
+    },
+    "records": {
+        "A": [
+            "204.168.196.101"
+        ]
+    }
 }

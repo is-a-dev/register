@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "icybool",
-    "email": "icybool@gmx.com"
-  },
-  "records": {
-    "CNAME": "icybool.pages.dev"
-  }
+    "owner": {
+        "username": "icybool",
+        "email": "icybool@gmx.com"
+    },
+    "records": {
+        "CNAME": "icybool.pages.dev"
+    }
 }
