@@ -1,10 +1,10 @@
 {
-  "description": "Personal site to showcase my future works.",
-  "owner": {
-    "username": "abdulrahman1s",
-    "email": "mail@abdulrahman.dev"
-  },
-  "records": {
-    "URL": "https://abdulrahman.dev"
-  }
+    "owner": {
+        "username": "Abdulrahman1808",
+        "email": "Abdulrahman.mohamed1808@gmail.com"
+    },
+    "records": {
+        "CNAME": "portfolio-1n5.pages.dev"
+    },
+    "proxied": true
 }
