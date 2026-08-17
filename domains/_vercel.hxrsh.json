@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "WizzRizz"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=hxrsh.is-a.dev,db8934b0035f59943762"
-  }
+    "owner": {
+        "username": "WizzRizz",
+        "email": "harshhemraz403@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=www.hxrsh.is-a.dev,42913091abdd4b02a7ce"
+    }
 }
