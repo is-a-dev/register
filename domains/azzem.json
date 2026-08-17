@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "reyocoding"
+        "username": "reyocoding",
+        "email": "saadazzemayoub@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "reyocoding.github.io"
     }
 }
