@@ -1,0 +1,9 @@
+{
+  "description": "AUTOHUB official website",
+  "owner": {
+    "username": "nektoati"
+  },
+  "records": {
+    "CNAME": "nektoati.github.io"
+  }
+}
