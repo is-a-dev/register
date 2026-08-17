@@ -1,1 +1,9 @@
-{"owner":{"username":"iimotaz","email":"mecherimotaz@gmail.com"},"records":{"A":["76.76.21.21"]}}
+{
+    "owner": {
+        "username": "iimotaz",
+        "email": "mecherimotaz@gmail.com"
+    },
+    "records": {
+        "CNAME": "motaz4edit.vercel.app"
+    }
+}
