@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "raventry"
+    },
+    "records": {
+        "NS": [
+            "anderson.ns.cloudflare.com",
+            "arya.ns.cloudflare.com"
+        ]
+    }
+}
