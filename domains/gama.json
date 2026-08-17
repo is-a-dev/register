@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "lennebraha38"
-    },
-    "records": {
-        "CNAME": "lennebraha38.github.io"
-    }
+  "description": "Gama Toplulugu - Turkiye genclik Ar-Ge birligi",
+  "owner": {
+    "username": "Lennebraha38"
+  },
+  "records": {
+    "CNAME": "lennebraha38.github.io"
+  }
 }
