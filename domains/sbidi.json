@@ -4,7 +4,7 @@
     "email": "worldoftankblizt1234@gmail.com"
   },
   "domain": "sbidi",
-  "record": {
+  "records": {
     "CNAME": "sbidi-dev.pages.dev"
   }
 }
