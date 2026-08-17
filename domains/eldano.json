@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "eldano",
-    "twitter": "eldanov2"
-  },
-  "records": {
-    "CNAME": "eldano.github.io"
-  }
+    "owner": {
+        "username": "eldano",
+        "twitter": "eldanov2"
+    },
+    "records": {
+        "CNAME": "eldano.github.io"
+    }
 }

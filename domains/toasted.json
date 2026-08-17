@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "ToastedDev",
-    "email": "hey@toasted.dev",
-    "twitter": "toasteddev",
-    "discord": "nottca"
-  },
-  "records": {
-    "URL": "https://toasted.dev"
-  }
+    "owner": {
+        "username": "ToastedDev",
+        "email": "hey@toasted.dev",
+        "twitter": "toasteddev",
+        "discord": "nottca"
+    },
+    "records": {
+        "URL": "https://toasted.dev"
+    }
 }

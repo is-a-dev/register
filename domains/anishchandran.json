@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Canish1991"
-  },
-  "records": {
-    "CNAME": "nice-plant-08762640f.7.azurestaticapps.net"
-  }
+    "owner": {
+        "username": "Canish1991"
+    },
+    "records": {
+        "CNAME": "nice-plant-08762640f.7.azurestaticapps.net"
+    }
 }

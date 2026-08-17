@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "OmarAliSiad",
-    "email": "omaraliabdelaziz250@gmail.com"
-  },
-  "records": {
-    "CNAME": "omaralisiad.github.io"
-  }
+    "owner": {
+        "username": "OmarAliSiad",
+        "email": "omaraliabdelaziz250@gmail.com"
+    },
+    "records": {
+        "CNAME": "omaralisiad.github.io"
+    }
 }

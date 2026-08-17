@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "timi2506",
-    "email": "tim@glos-omu.uk"
-  },
-  "records": {
-    "CNAME": "timi2506.github.io"
-  }
+    "owner": {
+        "username": "timi2506",
+        "email": "tim@glos-omu.uk"
+    },
+    "records": {
+        "CNAME": "timi2506.github.io"
+    }
 }

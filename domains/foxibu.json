@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "atimevil",
-    "email": "atimevil@gmail.com"
-  },
-  "records": {
-    "A": ["168.107.47.192"]
-  }
+    "owner": {
+        "username": "atimevil",
+        "email": "atimevil@gmail.com"
+    },
+    "records": {
+        "A": [
+            "168.107.47.192"
+        ]
+    }
 }

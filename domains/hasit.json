@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "L-Creabiza",
-    "email": "hasitagarwal@gmail.com"
-  },
-  "records": {
-    "CNAME": "l-creabiza.github.io"
-  }
+    "owner": {
+        "username": "L-Creabiza",
+        "email": "hasitagarwal@gmail.com"
+    },
+    "records": {
+        "CNAME": "l-creabiza.github.io"
+    }
 }

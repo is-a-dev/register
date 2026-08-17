@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "jasondevgm",
-    "email": "jasondevgm@gmail.com"
-  },
-  "records": {
-    "CNAME": "jasondevgm.github.io"
-  }
+    "owner": {
+        "username": "jasondevgm",
+        "email": "jasondevgm@gmail.com"
+    },
+    "records": {
+        "CNAME": "jasondevgm.github.io"
+    }
 }

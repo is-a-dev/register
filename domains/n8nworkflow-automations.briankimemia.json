@@ -1,10 +1,10 @@
 {
     "owner": {
-      "username": "BrianKN019",
-      "email": "briannkimemia@gmail.com"
+        "username": "BrianKN019",
+        "email": "briannkimemia@gmail.com"
     },
     "proxied": false,
     "records": {
-      "CNAME": "n8n-iu39.onrender.com"
+        "CNAME": "n8n-iu39.onrender.com"
     }
-  }
+}

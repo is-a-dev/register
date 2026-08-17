@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "AtharvM02222",
-    "email": "atharvam682@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=atharvmandlavdiya.is-a.dev,9ccd0443549ac37bc0c5"
-  }
+    "owner": {
+        "username": "AtharvM02222",
+        "email": "atharvam682@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=atharvmandlavdiya.is-a.dev,9ccd0443549ac37bc0c5"
+    }
 }

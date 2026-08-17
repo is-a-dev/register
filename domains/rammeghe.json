@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "kartikshriwas"
-  },
-  "records": {
-    "CNAME": "rammeghe.github.io"
-  }
+    "owner": {
+        "username": "kartikshriwas"
+    },
+    "records": {
+        "CNAME": "rammeghe.github.io"
+    }
 }

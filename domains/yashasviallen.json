@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "username": "JavaProgswing",
-    "email": "yashasviallen@gmail.com"
-  },
-  "records": {
-    "NS": ["bethany.ns.cloudflare.com", "miles.ns.cloudflare.com"]
-  }
+    "owner": {
+        "username": "JavaProgswing",
+        "email": "yashasviallen@gmail.com"
+    },
+    "records": {
+        "NS": [
+            "bethany.ns.cloudflare.com",
+            "miles.ns.cloudflare.com"
+        ]
+    }
 }

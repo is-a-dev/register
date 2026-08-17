@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "abduldaayim",
-    "email": "abduldaayim07@gmail.com"
-  },
-  "records": {
-    "CNAME": "abduldaayemkemma.netlify.app"
-  }
+    "owner": {
+        "username": "abduldaayim",
+        "email": "abduldaayim07@gmail.com"
+    },
+    "records": {
+        "CNAME": "abduldaayemkemma.netlify.app"
+    }
 }

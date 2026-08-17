@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "aloramiaa"
-  },
-  "records": {
-    "CNAME": "violetroom.vercel.app"
-  }
+    "owner": {
+        "username": "aloramiaa"
+    },
+    "records": {
+        "CNAME": "violetroom.vercel.app"
+    }
 }

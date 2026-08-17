@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "IamSmeagol",
-    "discord": "iamsmeagol"
-  },
-  "records": {
-    "CNAME": "iamsmeagol.github.io"
-  }
+    "owner": {
+        "username": "IamSmeagol",
+        "discord": "iamsmeagol"
+    },
+    "records": {
+        "CNAME": "iamsmeagol.github.io"
+    }
 }

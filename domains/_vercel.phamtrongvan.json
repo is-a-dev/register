@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "rich0401",
-    "email": "phamtrongvan95@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=phamtrongvan.is-a.dev,8a5398fba4da50c7b716"
-  }
+    "owner": {
+        "username": "rich0401",
+        "email": "phamtrongvan95@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=phamtrongvan.is-a.dev,8a5398fba4da50c7b716"
+    }
 }

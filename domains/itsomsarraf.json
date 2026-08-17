@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "itsOmSarraf",
-    "email": "itsomsarraf@gmail.com"
-  },
-  "records": {
-    "CNAME": "itsomsarraf.github.io"
-  }
+    "owner": {
+        "username": "itsOmSarraf",
+        "email": "itsomsarraf@gmail.com"
+    },
+    "records": {
+        "CNAME": "itsomsarraf.github.io"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "37cut",
-    "email": "cutt37@outlook.com"
-  },
-  "records": {
-    "CNAME": "37cut.github.io"
-  }
+    "owner": {
+        "username": "37cut",
+        "email": "cutt37@outlook.com"
+    },
+    "records": {
+        "CNAME": "37cut.github.io"
+    }
 }

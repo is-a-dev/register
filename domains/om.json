@@ -1,8 +1,11 @@
 {
-  "owner": {
-    "username": "omsenjalia"
-  },
-  "records": {
-    "NS": ["raina.ns.cloudflare.com", "sergi.ns.cloudflare.com"]
-  }
+    "owner": {
+        "username": "omsenjalia"
+    },
+    "records": {
+        "NS": [
+            "raina.ns.cloudflare.com",
+            "sergi.ns.cloudflare.com"
+        ]
+    }
 }

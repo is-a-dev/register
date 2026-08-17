@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "sudarshanmehta",
-    "email": "sudarshan.mehtacs@gmail.com"
-  },
-  "records": {
-    "CNAME": "sudarshanmehta.github.io"
-  }
+    "owner": {
+        "username": "sudarshanmehta",
+        "email": "sudarshan.mehtacs@gmail.com"
+    },
+    "records": {
+        "CNAME": "sudarshanmehta.github.io"
+    }
 }

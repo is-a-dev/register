@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "FelipeCarvalhoS"
-  },
-  "records": {
-    "CNAME": "felipecarvalhos.github.io"
-  }
+    "owner": {
+        "username": "FelipeCarvalhoS"
+    },
+    "records": {
+        "CNAME": "felipecarvalhos.github.io"
+    }
 }

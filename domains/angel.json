@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "angelvs18",
-    "email": "angel.maamx@gmail.com"
-  },
-  "records": {
-    "CNAME": "angelvs-web.web.app"
-  }
+    "owner": {
+        "username": "angelvs18",
+        "email": "angel.maamx@gmail.com"
+    },
+    "records": {
+        "CNAME": "angelvs-web.web.app"
+    }
 }

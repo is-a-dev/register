@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "NBN7",
-    "email": "nachobiran@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "NBN7",
+        "email": "nachobiran@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

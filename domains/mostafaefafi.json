@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "mostafa-efafi",
-    "email": "mostafa.ef@gmail.com"
-  },
-  "records": {
-    "CNAME": "mostafa-efafi.github.io"
-  }
+    "owner": {
+        "username": "mostafa-efafi",
+        "email": "mostafa.ef@gmail.com"
+    },
+    "records": {
+        "CNAME": "mostafa-efafi.github.io"
+    }
 }

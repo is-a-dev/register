@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Qvme",
-    "email": "varad.pi@proton.me"
-  },
-  "records": {
-    "CNAME": "qvme.github.io"
-  }
+    "owner": {
+        "username": "Qvme",
+        "email": "varad.pi@proton.me"
+    },
+    "records": {
+        "CNAME": "qvme.github.io"
+    }
 }

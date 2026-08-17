@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "tonghda11"
-  },
-  "records": {
-    "CNAME": "tonghda11.github.io"
-  },
-  "proxied": false
+    "owner": {
+        "username": "tonghda11"
+    },
+    "records": {
+        "CNAME": "tonghda11.github.io"
+    },
+    "proxied": false
 }

@@ -4,7 +4,9 @@
         "email": "arisal@charlotte.edu"
     },
     "records": {
-        "A": ["107.23.76.94"]
+        "A": [
+            "107.23.76.94"
+        ]
     },
     "proxied": true
 }

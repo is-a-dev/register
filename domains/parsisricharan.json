@@ -1,10 +1,12 @@
 {
-  "owner": {
-    "username": "Sricharan106",
-    "email": "parsisricharan106@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"],
-    "TXT": "google-site-verification=q4oFQpG2bE0yfkMVdE2rN5JrbntrRQ-IO5Z9T1clQ5w"
-  }
+    "owner": {
+        "username": "Sricharan106",
+        "email": "parsisricharan106@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ],
+        "TXT": "google-site-verification=q4oFQpG2bE0yfkMVdE2rN5JrbntrRQ-IO5Z9T1clQ5w"
+    }
 }
