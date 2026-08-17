@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "DiaryNely"
+    "username": "DiaryNely",
+    "email": "hasiniaina.nely@gmail.com"
   },
   "records": {
     "CNAME": "portfolio.hasiniaina-nely.workers.dev"
-  },
-  "proxied": true
+  }
 }
