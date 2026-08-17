@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "nitaysc"
-  },
-  "records": {
-    "CNAME": "nitaysc.github.io"
-  }
+    "owner": {
+        "username": "nitaysc"
+    },
+    "records": {
+        "CNAME": "nitaysc.github.io"
+    }
 }

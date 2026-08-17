@@ -4,6 +4,8 @@
         "email": "thilakvp@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=thilak.is-a.dev,9df8013cd1817f1af918"]
+        "TXT": [
+            "vc-domain-verify=thilak.is-a.dev,9df8013cd1817f1af918"
+        ]
     }
 }

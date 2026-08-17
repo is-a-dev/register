@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "stukdee"
-  },
-  "records": {
-    "CNAME": "stukdee.github.io"
-  }
+    "owner": {
+        "username": "stukdee"
+    },
+    "records": {
+        "CNAME": "stukdee.github.io"
+    }
 }

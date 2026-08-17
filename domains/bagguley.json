@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "bagguley"
-  },
-  "records": {
-    "CNAME": "bagguley.pages.dev"
-  }
+    "owner": {
+        "username": "bagguley"
+    },
+    "records": {
+        "CNAME": "bagguley.pages.dev"
+    }
 }

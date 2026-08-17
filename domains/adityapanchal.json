@@ -1,25 +1,18 @@
 {
-  "description": "Aditya's Portfolio",
-  "owner": {
-    "username": "audi2654",
-    "email": "adit2654@gmail.com"
-  },
-  "records": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
-    "MX": [
-      {
-        "target": "feedback-smtp.us-east-1.amazonses.com",
-        "priority": 10
-      }
-    ],
-    "TXT": [
-      "v=spf1 include:amazonses.com ~all",
-      "v=DMARC1; p=none;"
-    ]
-  }
+    "description": "Aditya's Portfolio",
+    "owner": {
+        "username": "audi2654",
+        "email": "adit2654@gmail.com"
+    },
+    "records": {
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "TXT": [
+            "v=DMARC1; p=none;"
+        ]
+    }
 }

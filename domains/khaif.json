@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "khxif",
-    "email": "code.khaif@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfolio-khxif.vercel.app"
-  }
+    "owner": {
+        "username": "khxif",
+        "email": "code.khaif@gmail.com"
+    },
+    "records": {
+        "CNAME": "portfolio-khxif.vercel.app"
+    }
 }

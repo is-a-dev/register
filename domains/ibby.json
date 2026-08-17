@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "everfacture"
-  },
-  "records": {
-    "CNAME": "everfacture.github.io"
-  },
-  "proxied": true
+    "owner": {
+        "username": "everfacture"
+    },
+    "records": {
+        "CNAME": "everfacture.github.io"
+    },
+    "proxied": true
 }

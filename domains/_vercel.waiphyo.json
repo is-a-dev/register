@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "waiphyo285"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=waiphyo.is-a.dev,0a2eedd8e6a7fc7602be"
-  }
+    "owner": {
+        "username": "waiphyo285"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=waiphyo.is-a.dev,0a2eedd8e6a7fc7602be"
+    }
 }

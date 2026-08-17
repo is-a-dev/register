@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "AYn0nyme",
-    "email": "aynonyme@proton.me"
-  },
-  "records": {
-    "CNAME": "ayn0nyme.github.io"
-  }
+    "owner": {
+        "username": "AYn0nyme",
+        "email": "aynonyme@proton.me"
+    },
+    "records": {
+        "CNAME": "ayn0nyme.github.io"
+    }
 }

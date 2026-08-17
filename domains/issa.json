@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Issa-Mgn",
-    "email": "miganissa334@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfolio-issamigan.netlify.app"
-  }
+    "owner": {
+        "username": "Issa-Mgn",
+        "email": "miganissa334@gmail.com"
+    },
+    "records": {
+        "CNAME": "portfolio-issamigan.netlify.app"
+    }
 }

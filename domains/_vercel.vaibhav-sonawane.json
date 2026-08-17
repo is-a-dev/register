@@ -4,6 +4,8 @@
         "email": "work.vaibhav1308@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=vaibhav-sonawane.is-a.dev,b127a06f8dce40c8267e"]
+        "TXT": [
+            "vc-domain-verify=vaibhav-sonawane.is-a.dev,b127a06f8dce40c8267e"
+        ]
     }
 }

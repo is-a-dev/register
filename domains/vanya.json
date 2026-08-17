@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "sheisstarwithoutmoon"
-  },
-  "records": {
-    "CNAME": "vanya-portfolio-tau.vercel.app"
-  }
+    "owner": {
+        "username": "sheisstarwithoutmoon"
+    },
+    "records": {
+        "CNAME": "vanya-portfolio-tau.vercel.app"
+    }
 }

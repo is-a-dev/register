@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "sampoder",
-    "email": "sam@sampoder.com"
-  },
-  "records": {
-    "URL": "https://sampoder.com"
-  }
+    "owner": {
+        "username": "sampoder",
+        "email": "sam@sampoder.com"
+    },
+    "records": {
+        "URL": "https://sampoder.com"
+    }
 }

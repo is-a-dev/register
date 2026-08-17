@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "zkwinkle",
-    "email": "ignaevc@gmail.com"
-  },
-  "records": {
-    "A": ["198.74.54.85"]
-  }
+    "owner": {
+        "username": "zkwinkle",
+        "email": "ignaevc@gmail.com"
+    },
+    "records": {
+        "A": [
+            "198.74.54.85"
+        ]
+    }
 }

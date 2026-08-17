@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "gabeusgong"
-  },
-  "records": {
-    "CNAME": "gabeusgong.github.io"
-  }
+    "owner": {
+        "username": "gabeusgong"
+    },
+    "records": {
+        "CNAME": "gabeusgong.github.io"
+    }
 }

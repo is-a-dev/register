@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "shaoyanji"
-  },
-  "records": {
-    "CNAME": "shaoyanji.github.io"
-  }
+    "owner": {
+        "username": "shaoyanji"
+    },
+    "records": {
+        "CNAME": "shaoyanji.github.io"
+    }
 }

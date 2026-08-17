@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "zach11111",
-    "email": "contact@garybot.dev"
-  },
-  "records": {
-    "CNAME": "garylovesclimbingtreesexploringplacesandchasingbutterflies.garythecatisanadorablefelinealwaysseekingfunandadventure.site"
-  }
+    "owner": {
+        "username": "zach11111",
+        "email": "contact@garybot.dev"
+    },
+    "records": {
+        "CNAME": "garylovesclimbingtreesexploringplacesandchasingbutterflies.garythecatisanadorablefelinealwaysseekingfunandadventure.site"
+    }
 }

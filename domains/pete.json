@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "daspete",
-    "email": "daspetemail@gmail.com"
-  },
-  "records": {
-    "CNAME": "daspete.github.io"
-  }
+    "owner": {
+        "username": "daspete",
+        "email": "daspetemail@gmail.com"
+    },
+    "records": {
+        "CNAME": "daspete.github.io"
+    }
 }

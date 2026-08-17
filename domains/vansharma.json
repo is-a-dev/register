@@ -1,9 +1,9 @@
 {
-  "description": "My developer portfolio",
-  "owner": {
-    "username": "vansharmaweb"
-  },
-  "records": {
-    "CNAME": "vansharmaweb.github.io"
-  }
+    "description": "My developer portfolio",
+    "owner": {
+        "username": "vansharmaweb"
+    },
+    "records": {
+        "CNAME": "vansharmaweb.github.io"
+    }
 }

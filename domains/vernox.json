@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "shadowkurox"
-  },
-  "records": {
-    "CNAME": "shadowkurox.github.io"
-  }
+    "owner": {
+        "username": "shadowkurox"
+    },
+    "records": {
+        "CNAME": "shadowkurox.github.io"
+    }
 }

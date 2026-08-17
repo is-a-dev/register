@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Usamah-Abdul-Aziz",
-    "email": "ikmal.usamah@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=usamah.is-a.dev,8cd8bf4d4e9e608f0b88"
-  }
+    "owner": {
+        "username": "Usamah-Abdul-Aziz",
+        "email": "ikmal.usamah@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=usamah.is-a.dev,8cd8bf4d4e9e608f0b88"
+    }
 }

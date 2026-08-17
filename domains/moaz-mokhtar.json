@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "moaz-mokhtar"
-  },
-  "records": {
-    "CNAME": "portfolio-v8.fly.dev"
-  }
+    "owner": {
+        "username": "moaz-mokhtar"
+    },
+    "records": {
+        "CNAME": "portfolio-v8.fly.dev"
+    }
 }

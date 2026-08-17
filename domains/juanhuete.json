@@ -1,10 +1,12 @@
 {
-  "description": "Personal website for juanhuete",
-  "owner": {
-    "username": "juanjose23",
-    "email": "jrios9836@gmail.com"
-  },
-  "records": {
-    "A": ["76.76.21.21"]
-  }
+    "description": "Personal website for juanhuete",
+    "owner": {
+        "username": "juanjose23",
+        "email": "jrios9836@gmail.com"
+    },
+    "records": {
+        "A": [
+            "76.76.21.21"
+        ]
+    }
 }
