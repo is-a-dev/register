@@ -4,6 +4,8 @@
         "email": "obilanaeniola01@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=stephenhaleem.is-a.dev,b20866d9d6ae3e23da43"]
+        "TXT": [
+            "vc-domain-verify=stephenhaleem.is-a.dev,b20866d9d6ae3e23da43"
+        ]
     }
 }

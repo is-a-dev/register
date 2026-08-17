@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Bilgeehatesyou",
-    "email": "bilgee.ganduuren8@gmail.com"
-  },
-  "records": {
-     "CNAME": "bilgee-dev.vercel.app"
-  }
+    "owner": {
+        "username": "Bilgeehatesyou",
+        "email": "bilgee.ganduuren8@gmail.com"
+    },
+    "records": {
+        "CNAME": "bilgee-dev.vercel.app"
+    }
 }

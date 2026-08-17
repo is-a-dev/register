@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "zeative",
-    "email": "zaadevofc@gmail.com"
-  },
-  "records": {
-    "CNAME": "jaa-web-id.vercel.app"
-  }
+    "owner": {
+        "username": "zeative",
+        "email": "zaadevofc@gmail.com"
+    },
+    "records": {
+        "CNAME": "jaa-web-id.vercel.app"
+    }
 }

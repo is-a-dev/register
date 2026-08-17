@@ -1,0 +1,13 @@
+{
+  "trailingComma": "none",
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "parser": "json",
+        "printWidth": 1,
+        "tabWidth": 4
+      }
+    }
+  ]
+}

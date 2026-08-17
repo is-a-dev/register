@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "nevenxr",
-    "discord": "Neven#3985"
-  },
-  "records": {
-    "CNAME": "nevenxr.github.io"
-  }
+    "owner": {
+        "username": "nevenxr",
+        "discord": "Neven#3985"
+    },
+    "records": {
+        "CNAME": "nevenxr.github.io"
+    }
 }

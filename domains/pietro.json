@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "nicolaspiet",
-    "email": "nicolaspietro@proton.me"
-  },
-  "records": {
-    "CNAME": "nicolaspiet.github.io"
-  }
+    "owner": {
+        "username": "nicolaspiet",
+        "email": "nicolaspietro@proton.me"
+    },
+    "records": {
+        "CNAME": "nicolaspiet.github.io"
+    }
 }

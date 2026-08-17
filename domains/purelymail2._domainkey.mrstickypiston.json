@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "MrStickyPiston"
-  },
-  "records": {
-    "CNAME": "key2.dkimroot.purelymail.com"
-  }
+    "owner": {
+        "username": "MrStickyPiston"
+    },
+    "records": {
+        "CNAME": "key2.dkimroot.purelymail.com"
+    }
 }

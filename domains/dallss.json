@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Dallss",
-    "email": "randallalquicer21@gmail.com"
-  },
-  "records": {
-    "CNAME": "dallss.github.io"
-  }
+    "owner": {
+        "username": "Dallss",
+        "email": "randallalquicer21@gmail.com"
+    },
+    "records": {
+        "CNAME": "dallss.github.io"
+    }
 }

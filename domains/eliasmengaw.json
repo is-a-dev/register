@@ -1,10 +1,11 @@
 {
-  "owner": {
-    "username": "elondae",
-    "email": "eliasmengaw28@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfolio-blond-mu-cicyraivpa.vercel.app"
-  },
-  "proxied": true
+    "owner": {
+        "username": "elondae",
+        "email": "eliasmengaw28@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

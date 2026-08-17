@@ -1,10 +1,10 @@
 {
-  "description": "Blog for Erisa A.",
-  "owner": {
-    "username": "Erisa",
-    "email": "seriel@erisa.moe"
-  },
-  "records": {
-    "CNAME": "dev.cname.erisa.moe"
-  }
+    "description": "Blog for Erisa A.",
+    "owner": {
+        "username": "Erisa",
+        "email": "seriel@erisa.moe"
+    },
+    "records": {
+        "CNAME": "dev.cname.erisa.moe"
+    }
 }

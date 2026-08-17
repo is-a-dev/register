@@ -4,13 +4,18 @@
         "email": "fahadnaeem424@gmail.com"
     },
     "records": {
-        "A": ["129.213.59.48"],
-		"MX": [
-			{
-			  "target": "mx.stackmail.com",
-			  "priority": 10
-			}
-		],
-		"TXT": ["v=spf1 include:spf.stackmail.com a mx -all", "google-site-verification=EeCD2oH1nUCH_y3ZI-1qiGVn0xsPMzNSvcuzZNTCboI"]
+        "A": [
+            "129.213.59.48"
+        ],
+        "MX": [
+            {
+                "target": "mx.stackmail.com",
+                "priority": 10
+            }
+        ],
+        "TXT": [
+            "v=spf1 include:spf.stackmail.com a mx -all",
+            "google-site-verification=EeCD2oH1nUCH_y3ZI-1qiGVn0xsPMzNSvcuzZNTCboI"
+        ]
     }
 }

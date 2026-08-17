@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "VinayagamRaja",
-    "email": "vinay@vinayagam.tech"
-  },
-  "records": {
-    "CNAME": "vinayagamraja.github.io"
-  }
+    "owner": {
+        "username": "VinayagamRaja",
+        "email": "vinay@vinayagam.tech"
+    },
+    "records": {
+        "CNAME": "vinayagamraja.github.io"
+    }
 }

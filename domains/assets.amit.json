@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "notamitgamer"
-  },
-  "records": {
-    "CNAME": "assets-amit-is-a-dev.web.app"
-  }
+    "owner": {
+        "username": "notamitgamer"
+    },
+    "records": {
+        "CNAME": "assets-amit-is-a-dev.web.app"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "lalitkishore2",
-    "email": "svlalitk@gmail.com"
-  },
-  "records": {
-    "CNAME": "lalitkishore2.github.io"
-  }
+    "owner": {
+        "username": "lalitkishore2",
+        "email": "svlalitk@gmail.com"
+    },
+    "records": {
+        "CNAME": "lalitkishore2.github.io"
+    }
 }

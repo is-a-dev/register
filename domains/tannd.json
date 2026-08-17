@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ndt2804",
-    "email": "nduytan.uit.a3@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "owner": {
+        "username": "ndt2804",
+        "email": "nduytan.uit.a3@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

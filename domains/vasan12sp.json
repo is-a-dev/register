@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "vasan12sp"
-  },
-  "records": {
-    "CNAME": "vasan12sp.github.io"
-  }
+    "owner": {
+        "username": "vasan12sp"
+    },
+    "records": {
+        "CNAME": "vasan12sp.github.io"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "PramudithaN",
-    "email": "pramudithanadun@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "owner": {
+        "username": "PramudithaN",
+        "email": "pramudithanadun@gmail.com"
+    },
+    "records": {
+        "CNAME": "pramuditha-is-a-dev.onrender.com"
+    }
 }

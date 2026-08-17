@@ -4,6 +4,9 @@
         "email": "contato@migtibincoski.is-a.dev"
     },
     "records": {
-        "NS": ["dayana.ns.cloudflare.com", "elliott.ns.cloudflare.com"]
+        "NS": [
+            "dayana.ns.cloudflare.com",
+            "elliott.ns.cloudflare.com"
+        ]
     }
 }

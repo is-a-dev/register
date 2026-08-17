@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "magitian",
-    "email": "magitian@duck.com"
-  },
-  "records": {
-    "CNAME": "magitian.vercel.app"
-  }
+    "owner": {
+        "username": "magitian",
+        "email": "magitian@duck.com"
+    },
+    "records": {
+        "CNAME": "magitian.vercel.app"
+    }
 }

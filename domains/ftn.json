@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "furthir",
-    "email": "furthir@pm.me"
-  },
-  "records": {
-    "CNAME": "furthir.github.io"
-  }
+    "owner": {
+        "username": "furthir",
+        "email": "furthir@pm.me"
+    },
+    "records": {
+        "CNAME": "furthir.github.io"
+    }
 }

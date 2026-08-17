@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "clavyagency",
-    "email": "clavyagency@gmail.com"
-  },
-  "records": {
-    "CNAME": "prajwal-portfolio-dso.pages.dev"
-  }
+    "owner": {
+        "username": "clavyagency",
+        "email": "clavyagency@gmail.com"
+    },
+    "records": {
+        "CNAME": "prajwal-portfolio-dso.pages.dev"
+    }
 }

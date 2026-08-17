@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "AstroNutws",
-    "email": "samongud@gmail.com"
-  },
-  "records": {
-    "CNAME": "astronutws.github.io"
-  }
+    "owner": {
+        "username": "AstroNutws",
+        "email": "samongud@gmail.com"
+    },
+    "records": {
+        "CNAME": "astronutws.github.io"
+    }
 }

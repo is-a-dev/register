@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "kulasekaranK",
-    "email": "itzkulasekaran@gmail.com"
-  },
-  "records": {
-    "CNAME": "imkulasekaran.web.app"
-  }
+    "owner": {
+        "username": "kulasekaranK",
+        "email": "itzkulasekaran@gmail.com"
+    },
+    "records": {
+        "CNAME": "imkulasekaran.web.app"
+    }
 }
