@@ -5,8 +5,6 @@
   },
   "records": {
     "A": "216.198.79.1",
-    "_vercel": {
-      "TXT": "vc-domain-verify=kaistudio.is-a.dev,3d767e2fd3567e4f012c"
-    }
+    "TXT": "vc-domain-verify=kaistudio.is-a.dev,3d767e2fd3567e4f012c"
   }
 }
