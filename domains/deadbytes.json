@@ -3,7 +3,11 @@
         "username": "deadbytesus"
     },
     "records": {
-        "A": "216.198.79.1",
-        "TXT": "vc-domain-verify=deadbytes.is-a.dev,86ad7e8eb93063341c3c"
+        "A": [
+            "216.198.79.1"
+        ],
+        "TXT": [
+            "vc-domain-verify=deadbytes.is-a.dev,86ad7e8eb93063341c3c"
+        ]
     }
 }
