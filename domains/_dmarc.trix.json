@@ -4,7 +4,8 @@
         "email": "admin@trix.is-a.dev"
     },
     "records": {
-
-        "TXT": ["v=DMARC1; p=none;"]
+        "TXT": [
+            "v=DMARC1; p=none;"
+        ]
     }
 }

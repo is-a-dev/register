@@ -5,7 +5,9 @@
     },
     "records": {
         "CNAME": "nglonggiang.github.io",
-        "TXT": ["MS=ms62532530"]
+        "TXT": [
+            "MS=ms62532530"
+        ]
     },
     "proxied": true
 }

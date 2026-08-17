@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "sumit0xff",
-    "email": "Sumit0xff@proton.me"
-  },
-  "records": {
-    "CNAME": "f0li0.netlify.app"
-  }
+    "owner": {
+        "username": "sumit0xff",
+        "email": "Sumit0xff@proton.me"
+    },
+    "records": {
+        "CNAME": "f0li0.netlify.app"
+    }
 }

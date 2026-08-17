@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "StevenYoe",
-    "email": "stevenyoe80@gmail.com"
-  },
-  "records": {
-    "CNAME": "stevenyoeportfolio.vercel.app"
-  }
+    "owner": {
+        "username": "StevenYoe",
+        "email": "stevenyoe80@gmail.com"
+    },
+    "records": {
+        "CNAME": "stevenyoeportfolio.vercel.app"
+    }
 }

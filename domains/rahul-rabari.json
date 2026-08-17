@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "rahul-rabari"
-  },
-  "records": {
-    "CNAME": "rahul-rabari.github.io"
-  }
+    "owner": {
+        "username": "rahul-rabari"
+    },
+    "records": {
+        "CNAME": "rahul-rabari.github.io"
+    }
 }

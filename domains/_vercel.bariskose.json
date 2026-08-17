@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Bariskosee"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=bariskose.is-a.dev,15ae49fff41c0e1f457b"
-  }
+    "owner": {
+        "username": "Bariskosee"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=bariskose.is-a.dev,15ae49fff41c0e1f457b"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ConnorDoesDev",
-    "email": "connordoesdev@gmail.com"
-  },
-  "records": {
-    "CNAME": "zerotwodiscord.github.io"
-  }
+    "owner": {
+        "username": "ConnorDoesDev",
+        "email": "connordoesdev@gmail.com"
+    },
+    "records": {
+        "CNAME": "zerotwodiscord.github.io"
+    }
 }

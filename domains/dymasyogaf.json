@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "dymasyogaf",
-    "email": "dymasyogaf11@gmail.com"
-  },
-  "records": {
-    "CNAME": "dymasyogaf.vercel.app"
-  }
+    "owner": {
+        "username": "dymasyogaf",
+        "email": "dymasyogaf11@gmail.com"
+    },
+    "records": {
+        "CNAME": "dymasyogaf.vercel.app"
+    }
 }

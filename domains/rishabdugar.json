@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "kingrishabdugar"
-  },
-  "records": {
-    "CNAME": "rishabdugar.netlify.app"
-  }
+    "owner": {
+        "username": "kingrishabdugar"
+    },
+    "records": {
+        "CNAME": "rishabdugar.netlify.app"
+    }
 }

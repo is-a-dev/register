@@ -4,6 +4,8 @@
         "email": "fmdtawhidulislam@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=reis.is-a.dev,a062f04bf28a71af715a"]
+        "TXT": [
+            "vc-domain-verify=reis.is-a.dev,a062f04bf28a71af715a"
+        ]
     }
 }

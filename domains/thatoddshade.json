@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "thatoddshade",
-    "email": "thatoddshade@gmx.com"
-  },
-  "records": {
-    "CNAME": "thatoddshade-palace.statichost.page"
-  }
+    "owner": {
+        "username": "thatoddshade",
+        "email": "thatoddshade@gmx.com"
+    },
+    "records": {
+        "CNAME": "thatoddshade-palace.statichost.page"
+    }
 }

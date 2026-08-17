@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "chimpiriudaykiran"
-  },
-  "records": {
-    "CNAME": "chimpiriudaykiran.vercel.app"
-  }
+    "owner": {
+        "username": "chimpiriudaykiran"
+    },
+    "records": {
+        "CNAME": "chimpiriudaykiran.vercel.app"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "1avishek",
-    "email": "avishekkuriananda@gmail.com"
-  },
-  "records": {
-    "CNAME": "1avishek.github.io"
-  }
+    "owner": {
+        "username": "1avishek",
+        "email": "avishekkuriananda@gmail.com"
+    },
+    "records": {
+        "CNAME": "1avishek.github.io"
+    }
 }

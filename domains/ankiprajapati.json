@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "ankiprajapati"
-  },
-  "records": {
-    "CNAME": "ankiprajapati.github.io"
-  }
+    "owner": {
+        "username": "ankiprajapati"
+    },
+    "records": {
+        "CNAME": "ankiprajapati.github.io"
+    }
 }

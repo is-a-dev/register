@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ikramzargar",
-    "email": "ikramxargar@gmail.com"
-  },
-  "records": {
-    "CNAME": "ikram-zargar.web.app"
-  }
+    "owner": {
+        "username": "ikramzargar",
+        "email": "ikramxargar@gmail.com"
+    },
+    "records": {
+        "CNAME": "ikram-zargar.web.app"
+    }
 }

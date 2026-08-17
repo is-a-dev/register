@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "falola13",
-    "email": "femi.deji0@gmail.com"
-  },
-  "records": {
-    "CNAME": "falola-portfolio.vercel.app"
-  }
+    "owner": {
+        "username": "falola13",
+        "email": "femi.deji0@gmail.com"
+    },
+    "records": {
+        "CNAME": "falola-portfolio.vercel.app"
+    }
 }

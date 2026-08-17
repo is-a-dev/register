@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "mortifiedtux"
-  },
-  "records": {
-    "TXT": "did=did:plc:73r55srxmmlhhiof7fnllisy"
-  }
+    "owner": {
+        "username": "mortifiedtux"
+    },
+    "records": {
+        "TXT": "did=did:plc:73r55srxmmlhhiof7fnllisy"
+    }
 }

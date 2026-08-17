@@ -4,7 +4,9 @@
         "email": "lilyhigby26@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"],
+        "A": [
+            "216.198.79.1"
+        ],
         "MX": [
             {
                 "target": "mx1.improvmx.com",

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "ogsamrat"
-  },
-  "records": {
-    "CNAME": "ogsamrat.github.io"
-  }
+    "owner": {
+        "username": "ogsamrat"
+    },
+    "records": {
+        "CNAME": "ogsamrat.github.io"
+    }
 }

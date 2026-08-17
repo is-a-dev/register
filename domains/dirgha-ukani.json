@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "dirgha-ukani"
-  },
-  "records": {
-    "CNAME": "dirgha-ukani.github.io"
-  }
+    "owner": {
+        "username": "dirgha-ukani"
+    },
+    "records": {
+        "CNAME": "dirgha-ukani.github.io"
+    }
 }

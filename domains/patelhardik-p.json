@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "patelhardik-p"
-  },
-  "records": {
-    "CNAME": "patelhardik-p.github.io"
-  }
+    "owner": {
+        "username": "patelhardik-p"
+    },
+    "records": {
+        "CNAME": "patelhardik-p.github.io"
+    }
 }
