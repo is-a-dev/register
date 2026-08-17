@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "R3tr0LastKnight"
-  },
-  "records": {
-    "CNAME": "portfoio-v2.vercel.app"
-  }
+    "owner": {
+        "username": "R3tr0LastKnight"
+    },
+    "records": {
+        "CNAME": "portfoio-v2.vercel.app"
+    }
 }

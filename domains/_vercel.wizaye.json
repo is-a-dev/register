@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "wizaye",
-    "email": "vijayendhergatla21@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=www.wizaye.is-a.dev,756ec0d78910854abf67"
-  }
+    "owner": {
+        "username": "wizaye",
+        "email": "vijayendhergatla21@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=wizaye.is-a.dev,32e0d014ee1c7ade3b85"
+    }
 }

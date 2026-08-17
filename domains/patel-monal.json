@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "patel-monal"
-  },
-  "records": {
-    "CNAME": "patel-monal.github.io"
-  }
+    "owner": {
+        "username": "patel-monal"
+    },
+    "records": {
+        "CNAME": "patel-monal.github.io"
+    }
 }

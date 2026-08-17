@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "g-pratik"
-  },
-  "records": {
-    "CNAME": "g-pratik.github.io"
-  }
+    "owner": {
+        "username": "g-pratik"
+    },
+    "records": {
+        "CNAME": "g-pratik.github.io"
+    }
 }

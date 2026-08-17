@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "gutiamanda",
-    "email": "gutiamanda.es@gmail.com"
-  },
-  "records": {
-    "CNAME": "gutiamanda.github.io"
-  }
+    "owner": {
+        "username": "gutiamanda",
+        "email": "gutiamanda.es@gmail.com"
+    },
+    "records": {
+        "CNAME": "gutiamanda.github.io"
+    }
 }

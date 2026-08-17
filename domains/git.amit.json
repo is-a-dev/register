@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "notamitgamer"
-  },
-  "records": {
-    "CNAME": "notamitgamer.github.io"
-  }
+    "owner": {
+        "username": "notamitgamer"
+    },
+    "records": {
+        "CNAME": "notamitgamer.github.io"
+    }
 }

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "DarremMolko"
-  },
-  "records": {
-    "CNAME": "darrem.alwaysdata.net"
-  }
+    "owner": {
+        "username": "DarremMolko"
+    },
+    "records": {
+        "CNAME": "darrem.alwaysdata.net"
+    }
 }

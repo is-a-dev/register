@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Lukkas98",
-    "email": "lucaspalma988@gmail.com"
-  },
-  "records": {
-    "CNAME": "lucas-palma.vercel.app"
-  }
+    "owner": {
+        "username": "Lukkas98",
+        "email": "lucaspalma988@gmail.com"
+    },
+    "records": {
+        "CNAME": "lucas-palma.vercel.app"
+    }
 }

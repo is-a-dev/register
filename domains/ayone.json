@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "vidasik"
-  },
-  "records": {
-    "CNAME": "ayonelnx.github.io"
-  }
+    "owner": {
+        "username": "vidasik"
+    },
+    "records": {
+        "CNAME": "ayonelnx.github.io"
+    }
 }

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "iQbalADR"
-  },
-  "records": {
-    "CNAME": "me.oncombalado.net"
-  }
+    "owner": {
+        "username": "iQbalADR"
+    },
+    "records": {
+        "CNAME": "me.oncombalado.net"
+    }
 }

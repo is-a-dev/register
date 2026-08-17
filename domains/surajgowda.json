@@ -1,8 +1,10 @@
 {
-  "owner": {
-    "username": "surajgowda"
-  },
-  "records": {
-    "A": ["167.99.236.182"]
-  }
+    "owner": {
+        "username": "surajgowda"
+    },
+    "records": {
+        "A": [
+            "167.99.236.182"
+        ]
+    }
 }

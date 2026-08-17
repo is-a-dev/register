@@ -1,10 +1,10 @@
 {
-  "description": "GM ☕️",
-  "owner": {
-    "username": "hudsongraeme",
-    "discord": "wencoffee"
-  },
-  "records": {
-    "CNAME": "hudsongrae-me.pages.dev"
-  }
+    "description": "GM ☕️",
+    "owner": {
+        "username": "hudsongraeme",
+        "discord": "wencoffee"
+    },
+    "records": {
+        "CNAME": "hudsongrae-me.pages.dev"
+    }
 }

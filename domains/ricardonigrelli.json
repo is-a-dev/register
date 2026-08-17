@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "ricardonigrelli"
-  },
-  "records": {
-    "CNAME": "portafolio-rn-beta.vercel.app"
-  }
+    "owner": {
+        "username": "ricardonigrelli"
+    },
+    "records": {
+        "CNAME": "portafolio-rn-beta.vercel.app"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "j3rrythomas",
-    "email": "jerrythomasjohn9@gmail.com"
-  },
-  "records": {
-    "CNAME": "j3rrythomas.github.io"
-  }
+    "owner": {
+        "username": "j3rrythomas",
+        "email": "jerrythomasjohn9@gmail.com"
+    },
+    "records": {
+        "CNAME": "j3rrythomas.github.io"
+    }
 }

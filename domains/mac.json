@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "itsmaclol",
-    "email": "itsmaclol69@gmail.com"
-  },
-  "records": {
-    "CNAME": "macsite.pages.dev"
-  }
+    "owner": {
+        "username": "itsmaclol",
+        "email": "itsmaclol69@gmail.com"
+    },
+    "records": {
+        "CNAME": "macsite.pages.dev"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "wdhdev",
-    "email": "william@is-a.dev"
-  },
-  "records": {
-    "TXT": "69b278b41e3fa39a7976fd06204603"
-  }
+    "owner": {
+        "username": "wdhdev",
+        "email": "william@is-a.dev"
+    },
+    "records": {
+        "TXT": "69b278b41e3fa39a7976fd06204603"
+    }
 }

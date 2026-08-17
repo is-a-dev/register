@@ -1,8 +1,10 @@
 {
-  "owner": {
-    "username": "itsnildev"
-  },
-  "records": {
-    "A": ["46.8.64.39"]
-  }
+    "owner": {
+        "username": "itsnildev"
+    },
+    "records": {
+        "A": [
+            "46.8.64.39"
+        ]
+    }
 }

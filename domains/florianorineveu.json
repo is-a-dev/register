@@ -1,10 +1,10 @@
 {
-  "description": "French PHP/Symfony developer",
-  "owner": {
-    "username": "florianorineveu",
-    "email": "hello@fnev.eu"
-  },
-  "records": {
-    "CNAME": "fnev.eu"
-  }
+    "description": "French PHP/Symfony developer",
+    "owner": {
+        "username": "florianorineveu",
+        "email": "hello@fnev.eu"
+    },
+    "records": {
+        "CNAME": "fnev.eu"
+    }
 }

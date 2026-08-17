@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "gewaleelek"
-  },
-  "records": {
-    "CNAME": "gewaleelek.github.io"
-  }
+    "owner": {
+        "username": "gewaleelek"
+    },
+    "records": {
+        "CNAME": "gewaleelek.github.io"
+    }
 }

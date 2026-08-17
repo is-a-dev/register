@@ -3,7 +3,9 @@
         "username": "asoko2"
     },
     "records": {
-        "A": ["82.197.68.14"]
+        "A": [
+            "82.197.68.14"
+        ]
     },
     "proxied": true
 }

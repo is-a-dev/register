@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "prankapple",
-    "email": "prankapple@is.notaskid.ong"
-  },
-  "records": {
-    "CNAME": "prankapple.github.io"
-  }
+    "owner": {
+        "username": "prankapple",
+        "email": "prankapple@is.notaskid.ong"
+    },
+    "records": {
+        "CNAME": "prankapple.github.io"
+    }
 }

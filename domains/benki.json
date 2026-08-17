@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "BenakKishanJ",
-    "email":"benakkishanj@gmail.com"
-  },
-  "records": {
-    "CNAME": "benki-dev.pages.dev"
-  }
+    "owner": {
+        "username": "BenakKishanJ",
+        "email": "benakkishanj@gmail.com"
+    },
+    "records": {
+        "CNAME": "benki-dev.pages.dev"
+    }
 }

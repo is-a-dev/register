@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "viren-trivedi"
-  },
-  "records": {
-    "CNAME": "viren-trivedi.github.io"
-  }
+    "owner": {
+        "username": "viren-trivedi"
+    },
+    "records": {
+        "CNAME": "viren-trivedi.github.io"
+    }
 }

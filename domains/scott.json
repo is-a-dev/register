@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "surgery18"
-  },
-  "records": {
-    "CNAME": "myapp.sh"
-  }
+    "owner": {
+        "username": "surgery18"
+    },
+    "records": {
+        "CNAME": "myapp.sh"
+    }
 }

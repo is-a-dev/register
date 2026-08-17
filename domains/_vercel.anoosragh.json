@@ -4,6 +4,8 @@
         "email": "ok.ano0s6090@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=anoosragh.is-a.dev,8400e2cf3f9266f96ff3"]
+        "TXT": [
+            "vc-domain-verify=anoosragh.is-a.dev,8400e2cf3f9266f96ff3"
+        ]
     }
 }

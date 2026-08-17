@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Chukseo"
-  },
-  "records": {
-    "CNAME": "chukseoportfolio.netlify.app"
-  }
+    "owner": {
+        "username": "Chukseo"
+    },
+    "records": {
+        "CNAME": "chukseoportfolio.netlify.app"
+    }
 }

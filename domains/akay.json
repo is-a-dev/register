@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "AKBORANA3"
-  },
-  "records": {
-    "CNAME": "akborana.netlify.app"
-  }
+    "owner": {
+        "username": "AKBORANA3"
+    },
+    "records": {
+        "CNAME": "akborana.netlify.app"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ikramhossainkhanjarif-ops",
-    "email": "ikramhossainkhanjarif@gmail.com"
-  },
-  "records": {
-    "CNAME": "ikramhossainkhanjarif-ops.github.io"
-  }
+    "owner": {
+        "username": "ikramhossainkhanjarif-ops",
+        "email": "ikramhossainkhanjarif@gmail.com"
+    },
+    "records": {
+        "CNAME": "ikramhossainkhanjarif-ops.github.io"
+    }
 }

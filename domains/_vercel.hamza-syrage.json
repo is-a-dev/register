@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "hamzaSyrage",
-    "email": "hamzasyrage@gmail.com"
-  },
+    "owner": {
+        "username": "hamzaSyrage",
+        "email": "hamzasyrage@gmail.com"
+    },
     "records": {
         "TXT": "vc-domain-verify=hamza-syrage.is-a.dev,e1bbf2f3d6d02e55842f"
     }

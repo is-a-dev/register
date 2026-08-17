@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Duzos"
-  },
-  "records": {
-    "CNAME": "duzos.github.io"
-  }
+    "owner": {
+        "username": "Duzos"
+    },
+    "records": {
+        "CNAME": "duzos.github.io"
+    }
 }

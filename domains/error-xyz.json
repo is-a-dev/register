@@ -4,6 +4,8 @@
         "email": "sibepiz4037@azemo.tech"
     },
     "records": {
-        "A": ["75.2.60.5"]
+        "A": [
+            "75.2.60.5"
+        ]
     }
 }

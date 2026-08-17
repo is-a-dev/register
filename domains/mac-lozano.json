@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "lumakk",
-    "discord": "1239578679156408360"
-  },
-  "records": {
-    "CNAME": "lumakk.github.io"
-  }
+    "owner": {
+        "username": "lumakk",
+        "discord": "1239578679156408360"
+    },
+    "records": {
+        "CNAME": "lumakk.github.io"
+    }
 }

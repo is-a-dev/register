@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "yywbadm",
-    "discord": "849563829213593612"
-  },
-  "records": {
-    "CNAME": "yywbadm.github.io"
-  }
+    "owner": {
+        "username": "yywbadm",
+        "discord": "849563829213593612"
+    },
+    "records": {
+        "CNAME": "yywbadm.github.io"
+    }
 }

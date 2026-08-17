@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "NagaPranathiRallabandi",
-    "email": "nagapranathi.rallabandi@gmail.com"
-  },
-  "records": {
-    "CNAME": "NagaPranathiRallabandi.github.io"
-  }
+    "owner": {
+        "username": "NagaPranathiRallabandi",
+        "email": "nagapranathi.rallabandi@gmail.com"
+    },
+    "records": {
+        "CNAME": "NagaPranathiRallabandi.github.io"
+    }
 }

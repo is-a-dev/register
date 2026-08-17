@@ -4,6 +4,8 @@
         "email": "bilal.bm.houari@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=bh.is-a.dev,edc26d757bbc4378102e"]
+        "TXT": [
+            "vc-domain-verify=bh.is-a.dev,edc26d757bbc4378102e"
+        ]
     }
 }
