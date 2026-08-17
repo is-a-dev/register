@@ -1,0 +1,11 @@
+{
+  "description": "LAI Blueprint Portfolio",
+  "repo": "https://github.com/meisems/lai-me",
+  "owner": {
+    "username": "meisems",
+    "email": "ebadong.0511@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://lai-me.onrender.com"
+  }
+}
