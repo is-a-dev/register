@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "AymanElMimouni",
-    "email": "aymanelmimouni.contact@gmail.com"
-  },
-  "records": {
-    "CNAME": "aymanel.pages.dev"
-  }
+    "owner": {
+        "username": "AymanElMimouni",
+        "email": "aymanelmimouni.contact@gmail.com"
+    },
+    "records": {
+        "CNAME": "aymanel.pages.dev"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "tranvansanghust",
-    "email": "tranvansangdv@gmail.com"
-  },
-  "records": {
-    "CNAME": "tranvansanghust.github.io"
-  }
+    "owner": {
+        "username": "tranvansanghust",
+        "email": "tranvansangdv@gmail.com"
+    },
+    "records": {
+        "CNAME": "tranvansanghust.github.io"
+    }
 }

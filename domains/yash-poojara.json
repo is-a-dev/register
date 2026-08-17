@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "yash-poojara"
-  },
-  "records": {
-    "CNAME": "yash-poojara.github.io"
-  }
+    "owner": {
+        "username": "yash-poojara"
+    },
+    "records": {
+        "CNAME": "yash-poojara.github.io"
+    }
 }

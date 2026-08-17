@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "samuelbanapour",
-    "email": "samuel.banapour100@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "owner": {
+        "username": "samuelbanapour",
+        "email": "samuel.banapour100@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

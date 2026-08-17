@@ -1,10 +1,12 @@
 {
-  "owner": {
-    "username": "MukuJhansi",
-    "email": "mukundagrawal800@gmail.com",
-    "discord": "1115658967012626542"
-  },
-  "records": {
-    "A": ["216.24.57.1"]
-  }
+    "owner": {
+        "username": "MukuJhansi",
+        "email": "mukundagrawal800@gmail.com",
+        "discord": "1115658967012626542"
+    },
+    "records": {
+        "A": [
+            "216.24.57.1"
+        ]
+    }
 }

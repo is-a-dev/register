@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "tutupharirabu",
-    "email": "code.zharaurien@gmail.com"
-  },
-  "records": {
-    "CNAME": "very-personal-website.pages.dev"
-  }
+    "owner": {
+        "username": "tutupharirabu",
+        "email": "code.zharaurien@gmail.com"
+    },
+    "records": {
+        "CNAME": "very-personal-website.pages.dev"
+    }
 }

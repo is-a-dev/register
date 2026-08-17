@@ -1,8 +1,8 @@
 {
-  "owner":{
-    "username":"AnastasisVl"
-  },
-  "records":{
-    "CNAME": "anastasisvl.github.io"
-  }
+    "owner": {
+        "username": "AnastasisVl"
+    },
+    "records": {
+        "CNAME": "anastasisvl.github.io"
+    }
 }

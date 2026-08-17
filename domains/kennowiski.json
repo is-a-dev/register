@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "kennowiski",
-    "email": "kennowiski@yahoo.com"
-  },
-  "records": {
-    "CNAME": "kennowiski.github.io"
-  }
+    "owner": {
+        "username": "kennowiski",
+        "email": "kennowiski@yahoo.com"
+    },
+    "records": {
+        "CNAME": "kennowiski.github.io"
+    }
 }

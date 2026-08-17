@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "YashwinReddy29",
-    "email": "yashwinlakkireddy@gmail.com"
-  },
-  "records": {
-    "CNAME": "yashwin-reddy-portfolio-orpin.vercel.app"
-  }
+    "owner": {
+        "username": "YashwinReddy29",
+        "email": "yashwinlakkireddy@gmail.com"
+    },
+    "records": {
+        "CNAME": "yashwin-reddy-portfolio-orpin.vercel.app"
+    }
 }

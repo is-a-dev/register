@@ -4,6 +4,8 @@
         "email": "gunjon043@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=gunjon.is-a.dev,f281e8e4b8351b606b80"]
+        "TXT": [
+            "vc-domain-verify=gunjon.is-a.dev,f281e8e4b8351b606b80"
+        ]
     }
 }

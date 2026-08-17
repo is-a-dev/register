@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Herr-Richard",
-    "email": "richard@ponfey.com"
-  },
-  "records": {
-    "CNAME": "dev3.ponfey.com"
-  }
+    "owner": {
+        "username": "Herr-Richard",
+        "email": "richard@ponfey.com"
+    },
+    "records": {
+        "CNAME": "dev3.ponfey.com"
+    }
 }

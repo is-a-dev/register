@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "vishnurajkr"
-  },
-  "records": {
-    "CNAME": "wishlogic.pages.dev"
-  }
+    "owner": {
+        "username": "vishnurajkr"
+    },
+    "records": {
+        "CNAME": "wishlogic.pages.dev"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Aliwangara",
-    "email": "wangaraali56@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfolio-web-delta-murex.vercel.app"
-  }
+    "owner": {
+        "username": "Aliwangara",
+        "email": "wangaraali56@gmail.com"
+    },
+    "records": {
+        "CNAME": "portfolio-web-delta-murex.vercel.app"
+    }
 }

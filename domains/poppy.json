@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ignpoppyseed",
-    "email": "ignpoppyseed@cloverbrand.xyz"
-  },
-  "records": {
-    "CNAME": "ignpoppyseed.github.io"
-  }
+    "owner": {
+        "username": "ignpoppyseed",
+        "email": "ignpoppyseed@cloverbrand.xyz"
+    },
+    "records": {
+        "CNAME": "ignpoppyseed.github.io"
+    }
 }

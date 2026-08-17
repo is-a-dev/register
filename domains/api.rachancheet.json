@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "rachancheet",
-    "email": "raxxsngh37@gmail.com"
-  },
-  "records": {
-    "A": ["152.67.163.7"]
-  }
+    "owner": {
+        "username": "rachancheet",
+        "email": "raxxsngh37@gmail.com"
+    },
+    "records": {
+        "A": [
+            "152.67.163.7"
+        ]
+    }
 }

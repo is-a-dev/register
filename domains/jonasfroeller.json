@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "jonasfroeller",
-    "email": "j.froe@gmx.at"
-  },
-  "records": {
-    "CNAME": "jonasfroeller.vercel.app"
-  }
+    "owner": {
+        "username": "jonasfroeller",
+        "email": "j.froe@gmx.at"
+    },
+    "records": {
+        "CNAME": "jonasfroeller.vercel.app"
+    }
 }

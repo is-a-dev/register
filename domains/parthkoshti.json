@@ -1,11 +1,11 @@
 {
-  "description": "Portfolio of Parth Koshti, AI/ML Engineer",
-  "repo": "https://github.com/Parth2619/Portfolio-Website",
-  "owner": {
-    "username": "Parth2619",
-    "email": "Parthkoshti2606@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "description": "Portfolio of Parth Koshti, AI/ML Engineer",
+    "repo": "https://github.com/Parth2619/Portfolio-Website",
+    "owner": {
+        "username": "Parth2619",
+        "email": "Parthkoshti2606@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

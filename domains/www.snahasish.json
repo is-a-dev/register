@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "basic30",
-    "email": "snahasishdey143@gmail.com"
-  },
-  "records": {
-    "CNAME": "2f6b31f071a83591.vercel-dns-017.com"
-  }
+    "owner": {
+        "username": "basic30",
+        "email": "snahasishdey143@gmail.com"
+    },
+    "records": {
+        "CNAME": "2f6b31f071a83591.vercel-dns-017.com"
+    }
 }

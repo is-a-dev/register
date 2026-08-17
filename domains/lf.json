@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "lfom",
-    "matrix": "@lfdev:envs.net"
-  },
-  "records": {
-    "URL": "https://lfdev.envs.net"
-  }
+    "owner": {
+        "username": "lfom",
+        "matrix": "@lfdev:envs.net"
+    },
+    "records": {
+        "URL": "https://lfdev.envs.net"
+    }
 }

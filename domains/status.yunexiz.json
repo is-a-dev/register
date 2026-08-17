@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "yunexiz"
-  },
-  "records": {
-    "CNAME": "uptime-kuma-beta.onrender.com"
-  }
+    "owner": {
+        "username": "yunexiz"
+    },
+    "records": {
+        "CNAME": "uptime-kuma-beta.onrender.com"
+    }
 }

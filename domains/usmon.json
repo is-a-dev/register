@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "usmonffuzb",
-    "email": "usmonffuzb@gmail.com"
-  },
-  "records": {
-    "CNAME": "usmonp.netlify.app"
-  }
+    "owner": {
+        "username": "usmonffuzb",
+        "email": "usmonffuzb@gmail.com"
+    },
+    "records": {
+        "CNAME": "usmonp.netlify.app"
+    }
 }

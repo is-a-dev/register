@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "binayshaw7777",
-    "email": "bandishachowdhury07@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=bandishachowdhury.is-a.dev,ef66b00cac80600c50c8"
-  }
+    "owner": {
+        "username": "binayshaw7777",
+        "email": "bandishachowdhury07@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=bandishachowdhury.is-a.dev,ef66b00cac80600c50c8"
+    }
 }
