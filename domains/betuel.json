@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "betuelarones-arch"
-  },
-  "records": {
-    "CNAME": "portafolio.pages.dev"
-  }
+    "owner": {
+        "username": "betuelarones-arch"
+    },
+    "records": {
+        "CNAME": "portafolio.pages.dev"
+    }
 }

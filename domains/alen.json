@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "alenseeman",
-    "email": "alenseeman@hotmail.com"
-  },
-  "records": {
-    "CNAME": "alenseeman.github.io"
-  }
+    "owner": {
+        "username": "alenseeman",
+        "email": "alenseeman@hotmail.com"
+    },
+    "records": {
+        "CNAME": "alenseeman.github.io"
+    }
 }

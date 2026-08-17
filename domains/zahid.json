@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "zahid47",
-    "email": "epiczahid@gmail.com"
-  },
-  "records": {
-    "A": ["75.2.60.5"]
-  }
+    "owner": {
+        "username": "zahid47",
+        "email": "epiczahid@gmail.com"
+    },
+    "records": {
+        "A": [
+            "75.2.60.5"
+        ]
+    }
 }

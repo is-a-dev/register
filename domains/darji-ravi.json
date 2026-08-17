@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "darji-ravi"
-  },
-  "records": {
-    "CNAME": "darji-ravi.github.io"
-  }
+    "owner": {
+        "username": "darji-ravi"
+    },
+    "records": {
+        "CNAME": "darji-ravi.github.io"
+    }
 }

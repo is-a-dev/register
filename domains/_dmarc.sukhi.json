@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "callmesukhi"
-  },
-  "records": {
-    "TXT": "v=DMARC1; p=none;"
-  }
+    "owner": {
+        "username": "callmesukhi"
+    },
+    "records": {
+        "TXT": "v=DMARC1; p=none;"
+    }
 }

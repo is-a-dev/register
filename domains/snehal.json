@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "sneh-al",
-    "email": "snehal1380@gmail.com"
-  },
-  "records": {
-    "CNAME": "sneh-al.github.io"
-  }
+    "owner": {
+        "username": "sneh-al",
+        "email": "snehal1380@gmail.com"
+    },
+    "records": {
+        "CNAME": "sneh-al.github.io"
+    }
 }

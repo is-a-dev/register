@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "OverCharred"
-  },
-  "records": {
-    "CNAME": "chris-base12-portfolio.vercel.app"
-  }
+    "owner": {
+        "username": "OverCharred"
+    },
+    "records": {
+        "CNAME": "chris-base12-portfolio.vercel.app"
+    }
 }

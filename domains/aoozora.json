@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "aoozoraa",
-    "email": "akuummuu@gmail.com"
-  },
-  "records": {
-    "A": ["143.47.59.128"]
-  }
+    "owner": {
+        "username": "aoozoraa",
+        "email": "akuummuu@gmail.com"
+    },
+    "records": {
+        "A": [
+            "143.47.59.128"
+        ]
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "faycalhabibahmatalbachar",
-    "email": "faycalhabibahmat@gmail.com"
-  },
-  "records": {
-    "CNAME": "faycalhabibahmatalbachar.github.io"
-  }
+    "owner": {
+        "username": "faycalhabibahmatalbachar",
+        "email": "faycalhabibahmat@gmail.com"
+    },
+    "records": {
+        "CNAME": "faycalhabibahmatalbachar.github.io"
+    }
 }

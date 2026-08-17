@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "themuhamed" 
-  },
-  "records": {
-    "CNAME": "themuhamed.dev"
-  }
+    "owner": {
+        "username": "themuhamed"
+    },
+    "records": {
+        "CNAME": "themuhamed.dev"
+    }
 }

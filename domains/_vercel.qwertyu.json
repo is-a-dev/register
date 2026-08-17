@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "fvcified"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=qwertyu.is-a.dev,edec23d035259055718e"
-  }
+    "owner": {
+        "username": "fvcified"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=qwertyu.is-a.dev,edec23d035259055718e"
+    }
 }

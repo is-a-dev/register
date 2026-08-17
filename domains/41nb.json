@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "lstTTY",
-    "email": "1956631904@qq.com"
-  },
-  "records": {
-    "CNAME": "lsttty.github.io"
-  }
+    "owner": {
+        "username": "lstTTY",
+        "email": "1956631904@qq.com"
+    },
+    "records": {
+        "CNAME": "lsttty.github.io"
+    }
 }

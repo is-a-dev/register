@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "danknessdra",
-    "email": "danknessdra@gmail.com"
-  },
-  "records": {
-    "CNAME": "danknessdra.github.io"
-  }
+    "owner": {
+        "username": "danknessdra",
+        "email": "danknessdra@gmail.com"
+    },
+    "records": {
+        "CNAME": "danknessdra.github.io"
+    }
 }

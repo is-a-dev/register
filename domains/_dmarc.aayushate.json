@@ -1,5 +1,10 @@
 {
-  "description": "DMARC policy for aayushate.is-a.dev",
-  "owner": { "username": "Aayush-Ate", "email": "aayushate@gmail.com" },
-  "records": { "TXT": "v=DMARC1; p=none;" }
+    "description": "DMARC policy for aayushate.is-a.dev",
+    "owner": {
+        "username": "Aayush-Ate",
+        "email": "aayushate@gmail.com"
+    },
+    "records": {
+        "TXT": "v=DMARC1; p=none;"
+    }
 }

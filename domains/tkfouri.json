@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "tkfouri",
-    "email": "kfouri.thiago@gmail.com"
-  },
-  "records": {
-    "CNAME": "tkfouri.github.io"
-  }
+    "owner": {
+        "username": "tkfouri",
+        "email": "kfouri.thiago@gmail.com"
+    },
+    "records": {
+        "CNAME": "tkfouri.github.io"
+    }
 }

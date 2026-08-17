@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Sricharan106",
-    "email": "parsisricharan106@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=parsisricharan.is-a.dev,8d294d6613354d467d4d"
-  }
+    "owner": {
+        "username": "Sricharan106",
+        "email": "parsisricharan106@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=parsisricharan.is-a.dev,8d294d6613354d467d4d"
+    }
 }

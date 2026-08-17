@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "dudani-meet"
-  },
-  "records": {
-    "CNAME": "dudani-meet.github.io"
-  }
+    "owner": {
+        "username": "dudani-meet"
+    },
+    "records": {
+        "CNAME": "dudani-meet.github.io"
+    }
 }

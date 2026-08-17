@@ -4,6 +4,9 @@
         "email": "snahasishdey143@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=snahasish.is-a.dev,cb9e5433121cef1f57fc","vc-domain-verify=www.snahasish.is-a.dev,db81d46e5266b363c154"]
+        "TXT": [
+            "vc-domain-verify=snahasish.is-a.dev,cb9e5433121cef1f57fc",
+            "vc-domain-verify=www.snahasish.is-a.dev,db81d46e5266b363c154"
+        ]
     }
 }

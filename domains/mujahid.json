@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Shield-Jaguar"
-  },
-  "records": {
-    "CNAME": "shield-jaguar.github.io"
-  }
+    "owner": {
+        "username": "Shield-Jaguar"
+    },
+    "records": {
+        "CNAME": "shield-jaguar.github.io"
+    }
 }

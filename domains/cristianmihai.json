@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "CristianEduardMihai",
-    "email": "cristianeduardmihai@gmail.com"
-  },
-  "records": {
-    "CNAME": "cristianeduardmihai.github.io"
-  }
+    "owner": {
+        "username": "CristianEduardMihai",
+        "email": "cristianeduardmihai@gmail.com"
+    },
+    "records": {
+        "CNAME": "cristianeduardmihai.github.io"
+    }
 }

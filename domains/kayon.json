@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "sleepyrisu",
-    "email": "blogjun626@gmail.com"
-  },
-  "records": {
-    "CNAME": "personal-blog-cjw.pages.dev"
-  }
+    "owner": {
+        "username": "sleepyrisu",
+        "email": "blogjun626@gmail.com"
+    },
+    "records": {
+        "CNAME": "personal-blog-cjw.pages.dev"
+    }
 }

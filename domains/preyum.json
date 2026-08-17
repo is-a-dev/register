@@ -4,8 +4,13 @@
         "email": "preyum.kumar@iitgn.ac.in"
     },
     "records": {
-        "A": ["75.2.60.5"],
-        "TXT": ["zoho-verification=zb77063088.zmverify.zoho.in", "v=spf1 include:zohomail.in ~all"],
+        "A": [
+            "75.2.60.5"
+        ],
+        "TXT": [
+            "zoho-verification=zb77063088.zmverify.zoho.in",
+            "v=spf1 include:zohomail.in ~all"
+        ],
         "MX": [
             {
                 "target": "mx.zoho.in",

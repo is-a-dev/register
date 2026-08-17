@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "nbrandes",
-    "email": "nickbrandes@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfolio-5r7.pages.dev"
-  }
+    "owner": {
+        "username": "nbrandes",
+        "email": "nickbrandes@gmail.com"
+    },
+    "records": {
+        "CNAME": "portfolio-5r7.pages.dev"
+    }
 }

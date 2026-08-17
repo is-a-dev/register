@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "CDT"
-  },
-  "records": {
-    "CNAME": "cdt.github.io"
-  }
+    "owner": {
+        "username": "CDT"
+    },
+    "records": {
+        "CNAME": "cdt.github.io"
+    }
 }

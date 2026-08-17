@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "summitchronicles"
-  },
-  "records": {
-    "CNAME": "sunithkumar.pages.dev"
-  }
+    "owner": {
+        "username": "summitchronicles"
+    },
+    "records": {
+        "CNAME": "sunithkumar.pages.dev"
+    }
 }

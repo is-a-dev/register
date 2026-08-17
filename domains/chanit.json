@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "chanitt",
-    "email": "chanitaphon.l@gmail.com"
-  },
-  "records": {
-    "CNAME": "chanit.dev"
-  }
+    "owner": {
+        "username": "chanitt",
+        "email": "chanitaphon.l@gmail.com"
+    },
+    "records": {
+        "CNAME": "chanit.dev"
+    }
 }

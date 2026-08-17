@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "nirav-bhut"
-  },
-  "records": {
-    "CNAME": "nirav-bhut.github.io"
-  }
+    "owner": {
+        "username": "nirav-bhut"
+    },
+    "records": {
+        "CNAME": "nirav-bhut.github.io"
+    }
 }

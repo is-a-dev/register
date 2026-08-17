@@ -1,8 +1,10 @@
 {
-  "owner": {
-    "username": "VGWARDEN"
-  },
-  "records": {
-    "A": ["76.76.21.21"]
-  }
+    "owner": {
+        "username": "VGWARDEN"
+    },
+    "records": {
+        "A": [
+            "76.76.21.21"
+        ]
+    }
 }

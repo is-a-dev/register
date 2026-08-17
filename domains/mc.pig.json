@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "ipigtw",
-    "email": "diegogamingtw@gmail.com"
-  },
-  "records": {
-    "A": ["34.81.149.229"]
-  }
+    "owner": {
+        "username": "ipigtw",
+        "email": "diegogamingtw@gmail.com"
+    },
+    "records": {
+        "A": [
+            "34.81.149.229"
+        ]
+    }
 }
