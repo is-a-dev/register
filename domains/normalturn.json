@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "xhed404"
-  },
-  "records": {
-    "CNAME": "normalturn.netlify.app"
-  }
+    "owner": {
+        "username": "xhed404"
+    },
+    "records": {
+        "CNAME": "normalturn.netlify.app"
+    }
 }

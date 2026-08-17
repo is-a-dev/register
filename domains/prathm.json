@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "prathm",
-    "email": "prathmtayade30@gmail.com"
-  },
-  "records": {
-    "CNAME": "prathmtayade.vercel.app"
-  }
+    "owner": {
+        "username": "prathm",
+        "email": "prathmtayade30@gmail.com"
+    },
+    "records": {
+        "CNAME": "prathmtayade.vercel.app"
+    }
 }

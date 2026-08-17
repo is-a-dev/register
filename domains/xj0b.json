@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "FWEEaaaa1",
-    "email": "gorgonfweman@outlook.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "FWEEaaaa1",
+        "email": "gorgonfweman@outlook.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

@@ -4,7 +4,11 @@
         "email": "rayangangg647@gmail.com"
     },
     "records": {
-        "A": ["76.76.21.21"],
-        "TXT": ["vc-domain-verify=ahmedzarir.is-a.dev,3f304f387027101ae2f9"]
+        "A": [
+            "76.76.21.21"
+        ],
+        "TXT": [
+            "vc-domain-verify=ahmedzarir.is-a.dev,3f304f387027101ae2f9"
+        ]
     }
 }

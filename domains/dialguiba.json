@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "dialguiba",
-    "email": "dialguiba@gmail.com"
-  },
-  "records": {
-    "CNAME": "dialguiba.netlify.app"
-  }
+    "owner": {
+        "username": "dialguiba",
+        "email": "dialguiba@gmail.com"
+    },
+    "records": {
+        "CNAME": "dialguiba.netlify.app"
+    }
 }

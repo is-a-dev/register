@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "MrSiir",
-    "email": "mrsiir@gmail.com"
-  },
-  "records": {
-    "CNAME": "mrsiir.github.io"
-  }
+    "owner": {
+        "username": "MrSiir",
+        "email": "mrsiir@gmail.com"
+    },
+    "records": {
+        "CNAME": "mrsiir.github.io"
+    }
 }

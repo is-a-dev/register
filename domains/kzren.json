@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "Kzren"
-  },
-  "records": {
-    "CNAME": "kzren-is-a-dev.pages.dev"
-  }
+    "owner": {
+        "username": "Kzren",
+        "discord": "1150713121560862720"
+    },
+    "records": {
+        "CNAME": "kzren.github.io"
+    }
 }

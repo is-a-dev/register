@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "imsomjit",
-    "email": "soumyajit302@gmail.com"
-  },
-  "records": {
-    "CNAME": "soumyajit.web.app"
-  }
+    "owner": {
+        "username": "imsomjit",
+        "email": "soumyajit302@gmail.com"
+    },
+    "records": {
+        "CNAME": "soumyajit.web.app"
+    }
 }

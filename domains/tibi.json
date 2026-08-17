@@ -1,11 +1,12 @@
 {
-  "owner": {
-    "username": "netistul",
-    "email": "tyiby@yahoo.com"
-  },
-  "records": {
-    "A": [
-      "130.61.40.137"
-    ]
-  }
+    "owner": {
+        "username": "tibiv22",
+        "email": "contact@tibi.is-a.dev"
+    },
+    "records": {
+        "NS": [
+            "jaime.ns.cloudflare.com",
+            "wanda.ns.cloudflare.com"
+        ]
+    }
 }

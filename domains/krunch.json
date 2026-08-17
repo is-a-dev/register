@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "RadioactivePotato",
-    "discord": "1166013268008120340"
-  },
-  "records": {
-    "CNAME": "krunch.pages.dev"
-  }
+    "owner": {
+        "username": "RadioactivePotato",
+        "discord": "1166013268008120340"
+    },
+    "records": {
+        "CNAME": "krunch.pages.dev"
+    }
 }

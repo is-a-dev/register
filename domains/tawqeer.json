@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "1k24bytes.github.io",
-    "email": "tawqeer21@gmail.com"
-  },
-  "records": {
-    "CNAME": "1k24bytes.github.io"
-  }
+    "owner": {
+        "username": "1k24bytes.github.io",
+        "email": "tawqeer21@gmail.com"
+    },
+    "records": {
+        "CNAME": "1k24bytes.github.io"
+    }
 }

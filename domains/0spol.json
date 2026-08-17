@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "0spol",
-    "email": "gaparicio368@gmail.com"
-  },
-  "records": {
-    "CNAME": "0spol.github.io"
-  }
+    "owner": {
+        "username": "0spol",
+        "email": "gaparicio368@gmail.com"
+    },
+    "records": {
+        "CNAME": "0spol.github.io"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "atticoos",
-    "x": "atticoos"
-  },
-  "records": {
-    "CNAME": "atticuswhite.com"
-  }
+    "owner": {
+        "username": "atticoos",
+        "x": "atticoos"
+    },
+    "records": {
+        "CNAME": "atticuswhite.com"
+    }
 }

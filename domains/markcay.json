@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "markcay",
-    "email": "markgabrieller@gmail.com"
-  },
-  "records": {
-    "CNAME": "mark-cay.web.app"
-  }
+    "owner": {
+        "username": "markcay",
+        "email": "markgabrieller@gmail.com"
+    },
+    "records": {
+        "CNAME": "mark-cay.web.app"
+    }
 }

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "EndSkiess"
-  },
-  "records": {
-    "CNAME": "my-portfolio-b470.onrender.com"
-  }
+    "owner": {
+        "username": "EndSkiess"
+    },
+    "records": {
+        "CNAME": "my-portfolio-b470.onrender.com"
+    }
 }

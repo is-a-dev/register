@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Byson94",
-    "email": "byson94@outlook.com"
-  },
-  "records": {
-    "CNAME": "byson94.github.io"
-  }
+    "owner": {
+        "username": "Byson94",
+        "email": "byson94@outlook.com"
+    },
+    "records": {
+        "CNAME": "byson94.github.io"
+    }
 }

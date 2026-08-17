@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "hibro-onyancha",
-    "email": "hibroonyancha9@gmail.com"
-  },
-  "records": {
-    "CNAME": "hibro-flame.vercel.app"
-  }
+    "owner": {
+        "username": "hibro-onyancha",
+        "email": "hibroonyancha9@gmail.com"
+    },
+    "records": {
+        "CNAME": "hibro-flame.vercel.app"
+    }
 }

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "shabesh10"
-  },
-  "records": {
-    "CNAME": "shabesh-portfolio.netlify.app"
-  }
+    "owner": {
+        "username": "shabesh10"
+    },
+    "records": {
+        "CNAME": "shabesh-portfolio.netlify.app"
+    }
 }
