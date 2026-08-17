@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "RazanakotoMandresy"
+        "username": "RazanakotoMandresy",
+        "email": "razanakotomandresy@gmail.com"
     },
     "records": {
-        "RECORDTYPE": "CNAME"
+        "CNAME": "razanakotomandresy.github.io"
     }
 }
