@@ -4,6 +4,8 @@
     "email": "arch.ahmedzaki@gmail.com"
   },
   "records": {
-    "CNAME": "theunknown-zyk.pages.dev"
+    "A": [
+      "109.199.98.40"
+    ]
   }
 }
