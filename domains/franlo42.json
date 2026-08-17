@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "franlo42"
-  },
-  "records": {
-    "CNAME": "franlo42.github.io"
-  }
+    "owner": {
+        "username": "franlo42"
+    },
+    "records": {
+        "CNAME": "franlo42.github.io"
+    }
 }

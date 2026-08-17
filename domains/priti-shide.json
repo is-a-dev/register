@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "priti-shide"
-  },
-  "records": {
-    "CNAME": "priti-shide.github.io"
-  }
+    "owner": {
+        "username": "priti-shide"
+    },
+    "records": {
+        "CNAME": "priti-shide.github.io"
+    }
 }

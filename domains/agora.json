@@ -3,7 +3,9 @@
         "username": "Agoraaa203"
     },
     "records": {
-        "A": ["209.50.59.182"]
+        "A": [
+            "209.50.59.182"
+        ]
     },
     "proxied": true
 }

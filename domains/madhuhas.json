@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "madhuhas",
-    "email": "contact.madhuhas@gmail.com"
-  },
-  "records": {
-    "CNAME": "madhuhas.vercel.app"
-  }
+    "owner": {
+        "username": "madhuhas",
+        "email": "contact.madhuhas@gmail.com"
+    },
+    "records": {
+        "CNAME": "madhuhas.vercel.app"
+    }
 }

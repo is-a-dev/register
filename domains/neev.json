@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "neevjustin",
-    "email": "justinneev@gmail.com"
-  },
-  "records": {
-    "CNAME": "neev.pages.dev"
-  }
+    "owner": {
+        "username": "neevjustin",
+        "email": "justinneev@gmail.com"
+    },
+    "records": {
+        "CNAME": "neev.pages.dev"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "TacoGit",
-    "email": "opmijloly@gmail.com"
-  },
-  "records": {
-    "CNAME": "tacogit.github.io"
-  }
+    "owner": {
+        "username": "TacoGit",
+        "email": "opmijloly@gmail.com"
+    },
+    "records": {
+        "CNAME": "tacogit.github.io"
+    }
 }

@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "kushcreative",
-    "email": "kushalvisualdesigner@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "kushcreative",
+        "email": "kushalvisualdesigner@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

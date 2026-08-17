@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "abranico",
-    "email": "abranico011@gmail.com"
-  },
-  "records": {
-    "CNAME": "abranico.vercel.app"
-  }
+    "owner": {
+        "username": "abranico",
+        "email": "abranico011@gmail.com"
+    },
+    "records": {
+        "CNAME": "abranico.vercel.app"
+    }
 }

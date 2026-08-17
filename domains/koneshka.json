@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "kon1402",
-    "email": "kon1402@bu.edu"
-  },
-  "records": {
-    "CNAME": "kon1402.github.io"
-  }
+    "owner": {
+        "username": "kon1402",
+        "email": "kon1402@bu.edu"
+    },
+    "records": {
+        "CNAME": "kon1402.github.io"
+    }
 }

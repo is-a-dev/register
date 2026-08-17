@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "square-story",
-    "email": "gibmepreo@gmail.com"
-  },
-  "records": {
-    "CNAME": "sadik-mu.vercel.app"
-  }
+    "owner": {
+        "username": "square-story",
+        "email": "gibmepreo@gmail.com"
+    },
+    "records": {
+        "CNAME": "sadik-mu.vercel.app"
+    }
 }

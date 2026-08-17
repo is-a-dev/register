@@ -3,6 +3,8 @@
         "username": "dead-Spy"
     },
     "records": {
-        "TXT": ["vc-domain-verify=tanviramin.is-a.dev,bcffcb3702eb2b3eb007"]
+        "TXT": [
+            "vc-domain-verify=tanviramin.is-a.dev,bcffcb3702eb2b3eb007"
+        ]
     }
 }

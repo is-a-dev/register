@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "YAOfficial",
-    "email": "yahumble1@gmail.com"
-  },
-  "records": {
-    "CNAME": "yaofficial.github.io"
-  }
+    "owner": {
+        "username": "YAOfficial",
+        "email": "yahumble1@gmail.com"
+    },
+    "records": {
+        "CNAME": "yaofficial.github.io"
+    }
 }

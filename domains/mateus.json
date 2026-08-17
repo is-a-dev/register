@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "costamateus",
-    "email": "mateus@costamateus.com.br"
-  },
-  "records": {
-    "A": ["147.79.84.80"]
-  }
+    "owner": {
+        "username": "costamateus",
+        "email": "mateus@costamateus.com.br"
+    },
+    "records": {
+        "A": [
+            "147.79.84.80"
+        ]
+    }
 }

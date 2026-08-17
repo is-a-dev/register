@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "DennisVis",
-    "email": "dennis@dennisvis.dev"
-  },
-  "records": {
-    "CNAME": "dennisvis.dev"
-  }
+    "owner": {
+        "username": "DennisVis",
+        "email": "dennis@dennisvis.dev"
+    },
+    "records": {
+        "CNAME": "dennisvis.dev"
+    }
 }

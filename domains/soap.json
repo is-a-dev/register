@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "HmonsterG",
-    "email": "Plzdontgethacked@outlook.com"
-  },
-  "records": {
-    "CNAME": "hmonsterg.github.io"
-  }
+    "owner": {
+        "username": "HmonsterG",
+        "email": "Plzdontgethacked@outlook.com"
+    },
+    "records": {
+        "CNAME": "hmonsterg.github.io"
+    }
 }

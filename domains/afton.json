@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "aftoncodes",
-    "email": "williamafton.codes@gmail.com",
-    "twitter": "aftoncodes"
-  },
-  "records": {
-    "URL": "https://aftoncodes.vercel.app"
-  }
+    "owner": {
+        "username": "aftoncodes",
+        "email": "williamafton.codes@gmail.com",
+        "twitter": "aftoncodes"
+    },
+    "records": {
+        "URL": "https://aftoncodes.vercel.app"
+    }
 }

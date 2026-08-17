@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Kyvelu",
-    "email": "Kyvelu@proton.me"
-  },
-  "records": {
-    "CNAME": "kyvelu.github.io"
-  }
+    "owner": {
+        "username": "Kyvelu",
+        "email": "Kyvelu@proton.me"
+    },
+    "records": {
+        "CNAME": "kyvelu.github.io"
+    }
 }

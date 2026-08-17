@@ -1,8 +1,10 @@
 {
-  "owner": {
-    "username": "GudditiNaganjaneyulu"
-  },
-  "records": {
-    "A": ["216.24.57.1"]
-  }
+    "owner": {
+        "username": "GudditiNaganjaneyulu"
+    },
+    "records": {
+        "A": [
+            "216.24.57.1"
+        ]
+    }
 }

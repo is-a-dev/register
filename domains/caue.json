@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "crpinhal",
-    "email": "cauepinhal@gmail.com"
-  },
-  "records": {
-    "CNAME": "dev.caue.xyz"
-  }
+    "owner": {
+        "username": "crpinhal",
+        "email": "cauepinhal@gmail.com"
+    },
+    "records": {
+        "CNAME": "dev.caue.xyz"
+    }
 }

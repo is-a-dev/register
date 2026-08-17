@@ -1,11 +1,13 @@
 {
-  "owner": {
-    "username": "G-Aman",
-    "email": "mail@amang.pp.ua"
-  },
-  "records": {
-    "CNAME": "g-aman.github.io",
-    "MX": ["mx.amang.in"]
-  },
-  "proxied": true
+    "owner": {
+        "username": "G-Aman",
+        "email": "mail@amang.pp.ua"
+    },
+    "records": {
+        "CNAME": "g-aman.github.io",
+        "MX": [
+            "mx.amang.in"
+        ]
+    },
+    "proxied": true
 }

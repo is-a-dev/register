@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "AliTajmirRiahi"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=alitajmirriahi.is-a.dev,78c121f9beedf2e288c0"
-  }
+    "owner": {
+        "username": "AliTajmirRiahi"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=alitajmirriahi.is-a.dev,78c121f9beedf2e288c0"
+    }
 }

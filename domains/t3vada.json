@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "wythh24"
-  },
-  "records": {
-    "CNAME": "devada.vercel.app"
-  }
+    "owner": {
+        "username": "wythh24"
+    },
+    "records": {
+        "CNAME": "devada.vercel.app"
+    }
 }

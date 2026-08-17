@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "isttiiak",
-    "email": "isttiiak@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=istiak.is-a.dev,ad7d6893cbe2e47651fd"
-  }
+    "owner": {
+        "username": "isttiiak",
+        "email": "isttiiak@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=istiak.is-a.dev,ad7d6893cbe2e47651fd"
+    }
 }

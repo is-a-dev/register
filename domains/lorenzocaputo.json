@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "lorenzocaputodev",
-    "email": "lorenzocaputo2002.lc@gmail.com"
-  },
-  "records": {
-    "CNAME": "lorenzocaputodev.github.io"
-  }
+    "owner": {
+        "username": "lorenzocaputodev",
+        "email": "lorenzocaputo2002.lc@gmail.com"
+    },
+    "records": {
+        "CNAME": "lorenzocaputodev.github.io"
+    }
 }

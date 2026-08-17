@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "omaiirr",
-    "email": "crazyomairennab@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "omaiirr",
+        "email": "crazyomairennab@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

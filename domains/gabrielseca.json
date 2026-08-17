@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Gbseca"
-  },
-  "records": {
-    "CNAME": "gbseca.github.io"
-  }
+    "owner": {
+        "username": "Gbseca"
+    },
+    "records": {
+        "CNAME": "gbseca.github.io"
+    }
 }

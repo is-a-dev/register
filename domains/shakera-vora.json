@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "shakera-vora"
-  },
-  "records": {
-    "CNAME": "shakera-vora.github.io"
-  }
+    "owner": {
+        "username": "shakera-vora"
+    },
+    "records": {
+        "CNAME": "shakera-vora.github.io"
+    }
 }

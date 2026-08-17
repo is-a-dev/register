@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "shankumar7",
-    "email": "Shankumarpitta714@gmail.com"
-  },
-  "records": {
-    "CNAME": "hashnode.network"
-  }
+    "owner": {
+        "username": "shankumar7",
+        "email": "Shankumarpitta714@gmail.com"
+    },
+    "records": {
+        "CNAME": "hashnode.network"
+    }
 }

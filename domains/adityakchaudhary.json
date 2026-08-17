@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "adityakchaudhary",
-    "email": "ck.aditya.chaudhary@gmail.com"
-  },
-  "records": {
-    "CNAME": "adityakchaudhary.github.io"
-  }
+    "owner": {
+        "username": "adityakchaudhary",
+        "email": "ck.aditya.chaudhary@gmail.com"
+    },
+    "records": {
+        "CNAME": "adityakchaudhary.github.io"
+    }
 }

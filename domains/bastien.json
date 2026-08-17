@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "BastienGimbert",
-    "email": "contact@bastiengimbert.fr"
-  },
-  "records": {
-    "CNAME": "bastiengimbert.fr"
-  }
+    "owner": {
+        "username": "BastienGimbert",
+        "email": "contact@bastiengimbert.fr"
+    },
+    "records": {
+        "CNAME": "bastiengimbert.fr"
+    }
 }
