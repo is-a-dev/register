@@ -3,7 +3,7 @@
   "owner": {
     "username": "zarrar-devs"
   },
-  "record": {
-    "A": "216.198.79.1"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }
