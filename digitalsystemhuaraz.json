@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Oscardg2708-cmd",
+    "email": "oscardg2708@gmail.com"
+  },
+  "subdomain": "digitalsystemhuaraz",
+  "records": {
+    "A": ["76.76.21.21"],
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": ["forward-email=oscardg2708@gmail.com"]
+  }
+}
