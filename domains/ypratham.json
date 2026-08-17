@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ypratham",
-    "email": "ypratham0014@gmail.com"
-  },
-  "records": {
-    "CNAME": "ypratham.github.io"
-  }
+    "owner": {
+        "username": "ypratham",
+        "email": "ypratham0014@gmail.com"
+    },
+    "records": {
+        "CNAME": "ypratham.github.io"
+    }
 }

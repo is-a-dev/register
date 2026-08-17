@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "adrian-erlikhman",
-    "email": "erlikhman.adrian@gmail.com"
-  },
-  "records": {
-    "CNAME": "adrian-erlikhman.github.io"
-  }
+    "owner": {
+        "username": "adrian-erlikhman",
+        "email": "erlikhman.adrian@gmail.com"
+    },
+    "records": {
+        "CNAME": "adrian-erlikhman.github.io"
+    }
 }

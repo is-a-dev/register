@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "rahulgurujala",
-    "email": "isaacnewtonrahul@gmail.com"
-  },
-  "records": {
-    "CNAME": "rahulgurujala.vercel.app"
-  }
+    "owner": {
+        "username": "rahulgurujala",
+        "email": "isaacnewtonrahul@gmail.com"
+    },
+    "records": {
+        "CNAME": "rahulgurujala.vercel.app"
+    }
 }

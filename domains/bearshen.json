@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Bearshenmin"
-  },
-  "records": {
-    "CNAME": "bearshen.top"
-  },
-  "proxied": true
+    "owner": {
+        "username": "Bearshenmin"
+    },
+    "records": {
+        "CNAME": "bearshen.top"
+    },
+    "proxied": true
 }

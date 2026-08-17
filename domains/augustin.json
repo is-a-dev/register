@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "gus5900000",
-    "email": "augustinverissimo.pro@gmail.com"
-  },
+    "owner": {
+        "username": "gus5900000",
+        "email": "augustinverissimo.pro@gmail.com"
+    },
     "records": {
-        "A": ["216.198.79.1"]
+        "A": [
+            "216.198.79.1"
+        ]
     }
 }

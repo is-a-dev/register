@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Sxinar",
-    "email": "sxi@artadosearch.com"
+    "owner": {
+        "username": "Sxinar",
+        "email": "sxi@artadosearch.com"
     },
-  "records": {
-    "CNAME": "sxinar.github.io"
-  }
+    "records": {
+        "CNAME": "sxinar.github.io"
+    }
 }

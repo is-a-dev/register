@@ -1,8 +1,10 @@
 {
-  "owner": {
-    "username": "matkultra"
-  },
-  "records": {
-    "A": ["220.244.37.232"]
-  }
+    "owner": {
+        "username": "matkultra"
+    },
+    "records": {
+        "A": [
+            "220.244.37.232"
+        ]
+    }
 }

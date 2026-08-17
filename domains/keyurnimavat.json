@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "keyurnimavat"
-  },
-  "records": {
-    "CNAME": "keyurnimavat.github.io"
-  }
+    "owner": {
+        "username": "keyurnimavat"
+    },
+    "records": {
+        "CNAME": "keyurnimavat.github.io"
+    }
 }

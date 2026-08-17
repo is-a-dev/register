@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "deontic",
-    "email": "someofficialuse@gmail.com"
-  },
-  "records": {
-        "A": ["216.198.79.1"]
+    "owner": {
+        "username": "deontic",
+        "email": "someofficialuse@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
     }
 }

@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "UnMars"
-  },
-  "records": {
-    "CNAME": "guillaumeroboam.vercel.app"
-  }
+    "owner": {
+        "username": "UnMars"
+    },
+    "records": {
+        "CNAME": "guillaumeroboam.vercel.app"
+    }
 }

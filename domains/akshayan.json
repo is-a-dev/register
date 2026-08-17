@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "akshayans",
-    "email": "akshayan@afhstudio.ml"
-  },
-  "records": {
-    "CNAME": "akshayans.github.io"
-  }
+    "owner": {
+        "username": "akshayans",
+        "email": "akshayan@afhstudio.ml"
+    },
+    "records": {
+        "CNAME": "akshayans.github.io"
+    }
 }

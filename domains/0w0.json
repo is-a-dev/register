@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "SkyExploreWasTaken",
-    "discord": "1049263707177353247"
-  },
-  "records": {
-    "CNAME": "edge.redirect.pizza"
-  }
+    "owner": {
+        "username": "SkyExploreWasTaken",
+        "discord": "1049263707177353247"
+    },
+    "records": {
+        "CNAME": "edge.redirect.pizza"
+    }
 }

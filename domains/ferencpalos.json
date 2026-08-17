@@ -4,6 +4,8 @@
         "email": "ferencpalos.image003@simplelogin.com"
     },
     "records": {
-        "A": ["188.6.5.56"]
+        "A": [
+            "188.6.5.56"
+        ]
     }
 }

@@ -3,7 +3,9 @@
         "username": "adityajshettigar"
     },
     "records": {
-        "A": ["13.204.67.81"]
+        "A": [
+            "13.204.67.81"
+        ]
     },
     "proxied": false
 }

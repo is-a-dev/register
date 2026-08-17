@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "imluckii"
-  },
-  "records": {
-    "CNAME": "imluckii.github.io"
-  }
+    "owner": {
+        "username": "imluckii"
+    },
+    "records": {
+        "CNAME": "imluckii.github.io"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "earthpyy"
-  },
-  "records": {
-    "CNAME": "earthpyy.me"
-  },
-  "proxied": false
+    "owner": {
+        "username": "earthpyy"
+    },
+    "records": {
+        "CNAME": "earthpyy.me"
+    },
+    "proxied": false
 }

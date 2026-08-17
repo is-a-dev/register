@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "AyshaSaeed-Alpha",
-    "email": "alphatomb.5@gmail.com"
-  },
-  "records": {
-    "CNAME": "ayshasaeed-alpha.github.io"
-  }
+    "owner": {
+        "username": "AyshaSaeed-Alpha",
+        "email": "alphatomb.5@gmail.com"
+    },
+    "records": {
+        "CNAME": "ayshasaeed-alpha.github.io"
+    }
 }

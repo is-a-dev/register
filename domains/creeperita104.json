@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "username": "creeperita09",
-    "email": "creeperita104@jcjenson.net"
-  },
-  "records": {
-    "NS": ["kyrie.ns.cloudflare.com", "vida.ns.cloudflare.com"]
-   }
+    "owner": {
+        "username": "creeperita09",
+        "email": "creeperita104@jcjenson.net"
+    },
+    "records": {
+        "NS": [
+            "kyrie.ns.cloudflare.com",
+            "vida.ns.cloudflare.com"
+        ]
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ProCoderAkhil",
-    "email": "AkhilRamachandran@gmail.com"
-  },
-  "records": {
-    "CNAME": "procoderakhil.github.io"
-  }
+    "owner": {
+        "username": "ProCoderAkhil",
+        "email": "AkhilRamachandran@gmail.com"
+    },
+    "records": {
+        "CNAME": "procoderakhil.github.io"
+    }
 }

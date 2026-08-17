@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "flazepe",
-    "discord": "flazepe"
-  },
-  "records": {
-    "CNAME": "flazepe.github.io"
-  }
+    "owner": {
+        "username": "flazepe",
+        "discord": "flazepe"
+    },
+    "records": {
+        "CNAME": "flazepe.github.io"
+    }
 }

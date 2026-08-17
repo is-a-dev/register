@@ -1,7 +1,7 @@
 {
-  "description": "verify ownership of masebba.is-a.dev",
-  "sourcecode": "https://github.com/Masebba/masebba",
-  
+    "description": "verify ownership of masebba.is-a.dev",
+    "sourcecode": "https://github.com/Masebba/masebba",
+
     "owner": {
         "username": "masebba",
         "email": "masternasser2@gmail.com"

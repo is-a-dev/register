@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "ahang39"
-  },
-  "records": {
-    "CNAME": "ahang39.github.io"
-  }
+    "owner": {
+        "username": "ahang39"
+    },
+    "records": {
+        "CNAME": "ahang39.github.io"
+    }
 }

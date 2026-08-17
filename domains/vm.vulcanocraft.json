@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "VulcanoSoftware",
-    "discord": "vulcanocraft"
-  },
-  "records": {
-    "CNAME": "vulcanovms.pages.dev"
-  }
+    "owner": {
+        "username": "VulcanoSoftware",
+        "discord": "vulcanocraft"
+    },
+    "records": {
+        "CNAME": "vulcanovms.pages.dev"
+    }
 }
