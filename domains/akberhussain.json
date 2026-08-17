@@ -3,7 +3,6 @@
     "username": "Akberhussain01"
   },
   "records": {
-    "CNAME": "akberhussain.vercel.app",
-    "TXT": "vc-domain-verify=akberhussain.is-a.dev,436d09e5da7e178c9b41"
+    "CNAME": "akberhussain.vercel.app"
   }
 }
