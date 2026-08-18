@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kter",
-        "email": "takahashi@tomohiko.io"
-    },
-    "records": {
-        "CNAME": "www.tomohiko.io"
-    }
+  "owner": {
+    "username": "kter",
+    "email": "takahashi@tomohiko.io"
+  },
+  "records": {
+    "CNAME": "www.tomohiko.io"
+  }
 }
