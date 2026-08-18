@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "PsychedelicPalimpsest",
-        "email": "psychedelicpalimpsest@gmail.com"
-    },
-    "records": {
-        "CNAME": "psychedelicpalimpsest.github.io"
-    }
+  "owner": {
+    "username": "PsychedelicPalimpsest",
+    "email": "psychedelicpalimpsest@gmail.com"
+  },
+  "records": {
+    "CNAME": "psychedelicpalimpsest.github.io"
+  }
 }
