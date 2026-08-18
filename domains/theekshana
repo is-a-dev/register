@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "theekshana"
+    "username": "theekshana",
+    "email": "theekshana.beatz@gmail.com"
   },
   "records": {
     "CNAME": "v0-theekshanar.vercel.app"
-  }
+  },
+  "proxied": true
 }
