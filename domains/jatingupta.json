@@ -3,9 +3,6 @@
     "username": "Jatingupta9120"
   },
   "record": {
-    "A": ["216.198.79.1"],
-    "TXT": {
-      "_vercel": "vc-domain-verify=jatingupta.is-a.dev,016912cca92831e7c3f5"
-    }
+    "CNAME": "cname.vercel-dns.com"
   }
 }
