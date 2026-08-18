@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Akberhussain01"
-  },
-  "records": {
-    "CNAME": "akberhussain.vercel.app"
-  }
+    "owner": {
+        "username": "Akberhussain01"
+    },
+    "records": {
+        "CNAME": "akberhussain.vercel.app"
+    }
 }
