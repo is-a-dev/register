@@ -1,11 +1,13 @@
 {
-  "description": "Arman | CyberSlayer",
-  "owner": {
-    "username": "armanridho",
-    "email": "arman05ridho@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  },
-  "proxied": false
+    "description": "Arman | CyberSlayer",
+    "owner": {
+        "username": "armanridho",
+        "email": "arman05ridho@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    },
+    "proxied": false
 }

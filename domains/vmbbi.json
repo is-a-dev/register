@@ -1,18 +1,22 @@
 {
-  "owner": {
-    "username": "vmbbi",
-    "email": "yuhimcheng2@gmail.com"
-  },
-  "records":{
-    "AAAA": ["2a0a:4580:103f:c0de::2"],
-    "MX": [
-      "mx1.forwardemail.net",
-      "mx2.forwardemail.net"
-    ],
-    "TXT": [
-      "_git-pages-repository=https://codeberg.org/vmbbi/pages.git",
-    "forward-email=QW9QdFBSOTFGRDhJWFRVQzFvNWMwWUdHYUNTbW9ET3gyYU83bkFNWDVJYkw0emxpSERHLWltbGJBZmhtWHlST0REMA==",
-      "v=spf1 a mx include:spf.forwardemail.net ~all"
-    ]
-  }
+    "owner": {
+        "username": "vmbbi",
+        "email": "yuhimcheng2@gmail.com"
+    },
+    "records": {
+        "A": [
+            "217.197.84.141"
+        ],
+        "AAAA": [
+            "2a0a:4580:103f:c0de::2"
+        ],
+        "MX": [
+            "mx1.forwardemail.net",
+            "mx2.forwardemail.net"
+        ],
+        "TXT": [
+            "forward-email=QW9QdFBSOTFGRDhJWFRVQzFvNWMwWUdHYUNTbW9ET3gyYU83bkFNWDVJYkw0emxpSERHLWltbGJBZmhtWHlST0REMA==",
+            "v=spf1 a mx include:spf.forwardemail.net ~all"
+        ]
+    }
 }

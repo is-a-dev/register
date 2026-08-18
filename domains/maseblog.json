@@ -4,6 +4,8 @@
         "email": "mase@masecodes.is-a.dev"
     },
     "records": {
-        "CNAME": "example.com"
+        "A": [
+            "104.16.243.55"
+        ]
     }
 }

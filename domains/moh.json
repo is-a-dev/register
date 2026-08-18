@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "minoyahia",
-    "email": "notminoyahiahf@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfolio-two-opal-a1faijyg0s.vercel.app"
-  }
+    "owner": {
+        "username": "minoyahia",
+        "email": "notminoyahiahf@gmail.com"
+    },
+    "records": {
+        "CNAME": "portfolio-two-opal-a1faijyg0s.vercel.app"
+    }
 }

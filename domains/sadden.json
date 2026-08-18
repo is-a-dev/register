@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "sd5simo"
-  },
-  "records": {
-    "CNAME": "sadden.netlify.app"
-  }
+    "owner": {
+        "username": "sd5simo"
+    },
+    "records": {
+        "CNAME": "sadden.netlify.app"
+    }
 }

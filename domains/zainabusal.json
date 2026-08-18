@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "ZraxGaming"
-  },
-  "records": {
-    "CNAME": "zain-liart-pi.vercel.app"
-  }
+    "owner": {
+        "username": "ZraxGaming"
+    },
+    "records": {
+        "CNAME": "zain-liart-pi.vercel.app"
+    }
 }

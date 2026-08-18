@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "shwetarajputsk"
-  },
-  "records": {
-    "CNAME": "shwetarajput.netlify.app"
-  }
+    "owner": {
+        "username": "shwetarajputsk"
+    },
+    "records": {
+        "CNAME": "shwetarajput.netlify.app"
+    }
 }

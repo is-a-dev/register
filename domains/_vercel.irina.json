@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "IrinaStephane",
-    "email": "irinarakoto2005@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=irina.is-a.dev,2f3d1e7844aeabb0493b"
-  }
+    "owner": {
+        "username": "IrinaStephane",
+        "email": "irinarakoto2005@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=irina.is-a.dev,2f3d1e7844aeabb0493b"
+    }
 }
-

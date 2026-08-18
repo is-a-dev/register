@@ -1,10 +1,12 @@
 {
-  "description": "making my cdn!!!",
-  "owner": {
-    "username": "xrap1dx",
-    "discord": "xrap1dx"
-  },
-  "records": {
-    "A": ["69.30.249.53"]
-  }
+    "description": "making my cdn!!!",
+    "owner": {
+        "username": "xrap1dx",
+        "discord": "xrap1dx"
+    },
+    "records": {
+        "A": [
+            "69.30.249.53"
+        ]
+    }
 }

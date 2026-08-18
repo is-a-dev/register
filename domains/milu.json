@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "milanmarton",
-    "discord": "312899549670801410"
-  },
-  "records": {
-    "CNAME": "milu-eor.pages.dev"
-  }
+    "owner": {
+        "username": "milanmarton",
+        "discord": "312899549670801410"
+    },
+    "records": {
+        "CNAME": "milu-eor.pages.dev"
+    }
 }

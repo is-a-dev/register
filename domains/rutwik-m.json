@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Rutwik-M",
-    "email": "rmuley558@gmail.com"
-  },
-  "records": {
-    "CNAME": "rutwik-m.github.io"
-  }
+    "owner": {
+        "username": "Rutwik-M",
+        "email": "rmuley558@gmail.com"
+    },
+    "records": {
+        "CNAME": "rutwik-m.github.io"
+    }
 }

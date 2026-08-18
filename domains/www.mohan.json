@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "mohankumarpaluru",
-    "discord": "272751100237578241"
-  },
-  "records": {
-    "CNAME": "mohan.is-a.dev"
-  }
+    "owner": {
+        "username": "mohankumarpaluru",
+        "discord": "272751100237578241"
+    },
+    "records": {
+        "CNAME": "mohan.is-a.dev"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "1havedr",
-    "email": "flaimjames@gmail.com"
-  },
-  "records": {
-    "CNAME": "trrst-portfolio-cia5.vercel.app"
-  }
+    "owner": {
+        "username": "1havedr",
+        "email": "flaimjames@gmail.com"
+    },
+    "records": {
+        "CNAME": "trrst-portfolio-cia5.vercel.app"
+    }
 }

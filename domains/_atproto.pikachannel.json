@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "pikachannel",
-    "email": "pikachannel.dev@gmail.com"
-  },
-  "records": {
-    "TXT": "did=did:plc:vjebfehqmiywodpip7faal2q"
-  }
+    "owner": {
+        "username": "pikachannel",
+        "email": "pikachannel.dev@gmail.com"
+    },
+    "records": {
+        "TXT": "did=did:plc:vjebfehqmiywodpip7faal2q"
+    }
 }

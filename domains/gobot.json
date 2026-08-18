@@ -4,7 +4,9 @@
         "email": "notender01@gmail.com"
     },
     "records": {
-        "A": ["172.239.144.173"]
+        "A": [
+            "172.239.144.173"
+        ]
     },
     "proxied": true
 }

@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "sailesh-010",
-    "email": "saileshshahi2205bit@balmikilincoln.edu.np"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "sailesh-010",
+        "email": "saileshshahi2205bit@balmikilincoln.edu.np"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

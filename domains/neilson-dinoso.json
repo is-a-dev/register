@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "Kneel-soN",
-    "email": "fishda101@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "owner": {
+        "username": "Kneel-soN",
+        "email": "fishda101@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }

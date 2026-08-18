@@ -1,8 +1,10 @@
 {
-  "owner": {
-    "username": "Ne0nt1"
-  },
-  "records": {
-    "A": ["147.185.221.19"]
-  }
+    "owner": {
+        "username": "Ne0nt1"
+    },
+    "records": {
+        "A": [
+            "147.185.221.19"
+        ]
+    }
 }

@@ -4,6 +4,8 @@
         "email": "josroes.19@gmail.com"
     },
     "records": {
-        "TXT": ["vc-domain-verify=josroes.is-a.dev,086cc7871d5f56e0d24d"]
+        "TXT": [
+            "vc-domain-verify=josroes.is-a.dev,086cc7871d5f56e0d24d"
+        ]
     }
 }

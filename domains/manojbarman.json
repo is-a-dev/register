@@ -1,10 +1,10 @@
 {
-  "owner": {
-    "username": "itsmanojb",
-    "twitter": "itsmanojb"
-  },
-  "description": "My personal website",
-  "records": {
-    "URL": "https://manojbarman.in"
-  }
+    "owner": {
+        "username": "itsmanojb",
+        "twitter": "itsmanojb"
+    },
+    "description": "My personal website",
+    "records": {
+        "URL": "https://manojbarman.in"
+    }
 }

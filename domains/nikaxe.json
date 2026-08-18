@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Nikaxe-dev",
-    "email": "nikaxe.public@gmail.com"
-  },
-  "records": {
-    "CNAME": "nikaxe-dev.github.io"
-  }
+    "owner": {
+        "username": "Nikaxe-dev",
+        "email": "nikaxe.public@gmail.com"
+    },
+    "records": {
+        "CNAME": "nikaxe-dev.github.io"
+    }
 }

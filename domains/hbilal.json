@@ -1,10 +1,12 @@
 {
-  "description": "HBilal's Portfolio",
-  "owner": {
-    "username": "hbilal9",
-    "email": "talash982@gmail.com"
-  },
-  "records": {
-    "A": ["216.198.79.1"]
-  }
+    "description": "HBilal's Portfolio",
+    "owner": {
+        "username": "hbilal9",
+        "email": "talash982@gmail.com"
+    },
+    "records": {
+        "A": [
+            "216.198.79.1"
+        ]
+    }
 }
