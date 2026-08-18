@@ -16,8 +16,9 @@ FAILURE TO COMPLETE ALL REQUIREMENTS WILL RESULT IN A DENIAL OF YOUR PR!
 - [ ] I have provided a link to my website below. <!-- This step is required for your PR to be approved. -->
 
 # Website Preview
-<!-- Provide a link of your website below. We do NOT accept screenshots, with the exception we ask you for one. -->
-<!-- This should be a link to the existing domain your website is on, NOT the is-a.dev domain you're applying for. (e.g. abc.vercel.app, abc.github.io) -->
+<!-- Provide a LINK of your website below. We do NOT accept screenshots, with the exception we ask you for one. -->
+<!-- This should be a LINK to the existing domain your website is on, NOT the is-a.dev domain you're applying for. (e.g. https://abc.vercel.app, https://abc.github.io) -->
+<!-- WE ASK FOR LINKS NOT JUST HOSTNAMES AS THIS MAKES OUR LIVES EASIER -->
 <!-- SCREENSHOTS ARE NOT PERMITTED AS PREVIEWS. -->
 
 # Website Purpose
