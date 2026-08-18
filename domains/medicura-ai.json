@@ -1,9 +1,10 @@
 {
     "owner": {
         "username": "adithyanks2005",
-        "email":"ksadithyan2021@gmail.com"
+        "email":"ksadithyan2021@gmail.com",
+        "discord":"_adhi_2005"
     },
     "records": {
-        "CNAME": "https://nexora-ai-flax.vercel.app/"
+        "CNAME": "nexora-ai-flax.vercel.app/"
     }
 }
