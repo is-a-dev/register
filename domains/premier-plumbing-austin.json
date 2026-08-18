@@ -1,10 +1,9 @@
 {
-  "domain": "xx.kg",
   "owner": {
     "username": "webdesigners231",
     "email": "owner@webdesigners231.com"
   },
-  "record": {
+  "records": {
     "CNAME": "webdesigners231.github.io"
   }
 }
