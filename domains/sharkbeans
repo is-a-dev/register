@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "sharkbeans"
+        "username": "sharkbeans",
+        "discord": "YOUR_DISCORD_USERNAME"
     },
     "records": {
         "CNAME": "sharkbeans.github.io"
