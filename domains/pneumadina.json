@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "j12k14a"
+    "username": "j12k14a",
+    "email": "contact@pneumadina.com"
   },
-  "record": {
+  "records": {
     "CNAME": "j12k14a.github.io"
   }
 }
