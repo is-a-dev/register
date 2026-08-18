@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "wimdaw",
+    "email": "wimdaw@163.com"
+  },
+  "records": {
+    "NS": [
+      "celeste.ns.cloudflare.com",
+      "kobe.ns.cloudflare.com"
+    ]
+  }
+}
