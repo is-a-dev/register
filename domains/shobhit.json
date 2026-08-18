@@ -4,14 +4,12 @@
         "email": "shobhit@shobhit.net"
     },
     "records": {
-        "CNAME": [
-            "apex-loadbalancer.netlify.com"
-        ],
-        "proxied": true,
+        "CNAME": "apex-loadbalancer.netlify.com",
         "MX": [
             "mx1.improvmx.com",
             "mx2.improvmx.com"
         ],
         "TXT": "v=spf1 include:spf.improvmx.com ~all"
-    }
+    },
+    "proxied": true
 }
