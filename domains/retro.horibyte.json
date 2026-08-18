@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "horibyte",
-    "email": "thehoribyte@gmail.com"
-  },
-  "records": {
-    "CNAME": "horibyte.github.io"
-  }
+    "owner": {
+        "username": "horibyte",
+        "email": "thehoribyte@gmail.com"
+    },
+    "records": {
+        "CNAME": "horibyte.github.io"
+    }
 }

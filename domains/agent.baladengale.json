@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "baladengale",
-    "email": "dengalebr@gmail.com"
-  },
-  "records": {
-    "CNAME": "baladengale.duckdns.org"
-  }
+    "owner": {
+        "username": "baladengale",
+        "email": "dengalebr@gmail.com"
+    },
+    "records": {
+        "CNAME": "baladengale.duckdns.org"
+    }
 }

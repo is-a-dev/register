@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "pedrobrantes"
-  },
-  "records": {
-    "CNAME": "brantes.netlify.app"
-  }
+    "owner": {
+        "username": "pedrobrantes"
+    },
+    "records": {
+        "CNAME": "brantes.netlify.app"
+    }
 }

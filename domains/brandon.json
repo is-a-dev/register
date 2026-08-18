@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "b-hexsoul",
-    "email": "brandon.hexsel@gmail.com"
-  },
-  "records": {
-    "CNAME": "b-hexsoul.github.io"
-  }
+    "owner": {
+        "username": "b-hexsoul",
+        "email": "brandon.hexsel@gmail.com"
+    },
+    "records": {
+        "CNAME": "b-hexsoul.github.io"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Harshith-Daraboina",
-    "email": "23bcs037@iiitdwd.ac.in"
-  },
-  "records": {
-    "CNAME": "harshithdaraboina.vercel.app"
-  }
+    "owner": {
+        "username": "Harshith-Daraboina",
+        "email": "23bcs037@iiitdwd.ac.in"
+    },
+    "records": {
+        "CNAME": "harshithdaraboina.vercel.app"
+    }
 }

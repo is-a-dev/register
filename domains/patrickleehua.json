@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "patrickleehua"
-  },
-  "records": {
-    "CNAME": "patrickleehua.github.io"
-  }
+    "owner": {
+        "username": "patrickleehua"
+    },
+    "records": {
+        "CNAME": "patrickleehua.github.io"
+    }
 }

@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "NestorNahuel",
-    "email": "nahuel6195@gmail.com"
-  },
-  "records": {
-    "CNAME": "portfolio-steel-seven-72.vercel.app"
-  }
+    "owner": {
+        "username": "NestorNahuel",
+        "email": "nahuel6195@gmail.com"
+    },
+    "records": {
+        "CNAME": "portfolio-steel-seven-72.vercel.app"
+    }
 }

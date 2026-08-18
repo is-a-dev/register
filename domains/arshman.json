@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "syedtahseen"
-  },
-  "records": {
-    "CNAME": "arshman.vercel.app"
-  }
+    "owner": {
+        "username": "syedtahseen"
+    },
+    "records": {
+        "CNAME": "arshman.vercel.app"
+    }
 }

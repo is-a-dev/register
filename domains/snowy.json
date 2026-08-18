@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "HayBael"
-  },
-  "records": {
-    "CNAME": "homepage-revisitrus.vercel.app"
-  }
+    "owner": {
+        "username": "HayBael"
+    },
+    "records": {
+        "CNAME": "homepage-revisitrus.vercel.app"
+    }
 }

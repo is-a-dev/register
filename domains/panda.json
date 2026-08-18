@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "0pandadev",
-    "email": "contact@pandadev.net"
-  },
-  "records": {
-    "CNAME": "pandadev.net"
-  }
+    "owner": {
+        "username": "0pandadev",
+        "email": "contact@pandadev.net"
+    },
+    "records": {
+        "CNAME": "pandadev.net"
+    }
 }

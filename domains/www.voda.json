@@ -5,7 +5,9 @@
     },
     "records": {
         "URL": "https://voda.is-a.dev",
-        "TXT": ["zoho-verification=zb99148548.zmverify.zoho.in"]
+        "TXT": [
+            "zoho-verification=zb99148548.zmverify.zoho.in"
+        ]
     },
     "proxied": false
 }

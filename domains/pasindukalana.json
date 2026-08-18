@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Luchn1k"
-  },
-  "records": {
-    "CNAME": "luchn1k.github.io"
-  }
+    "owner": {
+        "username": "Luchn1k"
+    },
+    "records": {
+        "CNAME": "luchn1k.github.io"
+    }
 }

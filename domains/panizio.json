@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "lucaspanizio",
-    "email": "lucaspanizio@gmail.com"
-  },
-  "records": {
-    "CNAME": "lucaspanizio.github.io"
-  }
+    "owner": {
+        "username": "lucaspanizio",
+        "email": "lucaspanizio@gmail.com"
+    },
+    "records": {
+        "CNAME": "lucaspanizio.github.io"
+    }
 }

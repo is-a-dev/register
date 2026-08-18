@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Malvin555",
-    "email": "communicate-with-me@malvn.slmail.me"
-  },
-  "records": {
-    "CNAME": "malvilo.netlify.app"
-  }
+    "owner": {
+        "username": "Malvin555",
+        "email": "communicate-with-me@malvn.slmail.me"
+    },
+    "records": {
+        "CNAME": "malvilo.netlify.app"
+    }
 }

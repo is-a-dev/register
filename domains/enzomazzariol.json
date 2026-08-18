@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "enzomazzariol",
-    "email": "mazzariolenzo@gmail.com"
-  },
-  "records": {
-    "CNAME": "enzomazzariol.netlify.app"
-  }
+    "owner": {
+        "username": "enzomazzariol",
+        "email": "mazzariolenzo@gmail.com"
+    },
+    "records": {
+        "CNAME": "enzomazzariol.netlify.app"
+    }
 }

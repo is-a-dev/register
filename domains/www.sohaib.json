@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Sohaib-Kamal04"
-  },
-  "records": {
-      "CNAME": "sohaibkamal.netlify.app"
-  }
+    "owner": {
+        "username": "Sohaib-Kamal04"
+    },
+    "records": {
+        "CNAME": "sohaibkamal.netlify.app"
+    }
 }

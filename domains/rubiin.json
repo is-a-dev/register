@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "rubiin",
-    "email": "roobin.bhandari@gmail.com"
-  },
-  "records": {
-    "CNAME": "rubiin.github.io"
-  }
+    "owner": {
+        "username": "rubiin",
+        "email": "roobin.bhandari@gmail.com"
+    },
+    "records": {
+        "CNAME": "rubiin.pages.dev"
+    }
 }

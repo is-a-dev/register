@@ -1,11 +1,11 @@
 {
-  "owner": {
-    "username": "notamitgamer",
-    "email": "amitdutta4255@gmail.com"
-  },
-  "records": {
-    "TXT": [
-      "v=DMARC1; p=none;"
-    ]
-  }
+    "owner": {
+        "username": "notamitgamer",
+        "email": "amitdutta4255@gmail.com"
+    },
+    "records": {
+        "TXT": [
+            "v=DMARC1; p=none;"
+        ]
+    }
 }
