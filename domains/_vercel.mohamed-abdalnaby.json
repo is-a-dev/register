@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "dev-mohamed-abdalnabi",
-    "email": "dev.mohamed.abdalnabi@gmail.com"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=mohamed-abdalnaby.is-a.dev"
-  }
+    "owner": {
+        "username": "dev-mohamed-abdalnabi",
+        "email": "dev.mohamed.abdalnabi@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=mohamed-abdalnaby.is-a.dev"
+    }
 }
