@@ -1,9 +1,9 @@
 {
-  "description": "Mogesh's Portfolio",
   "owner": {
-    "username": "mogesh-developer"
+    "username": "mogesh-developer",
+    "email": "mogeshwaran09@gmail.com"
   },
-  "record": {
-    "CNAME": "mogeshportfolio.netlify.app"
+  "records": {
+    "A": ["75.2.60.5"]
   }
 }
