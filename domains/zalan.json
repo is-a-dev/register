@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Widroach",
-        "email": "zalan.hegedus@gmail.com"
-    },
-    "records": {
-        "CNAME": "widroach.github.io"
-    }
+  "owner": {
+    "username": "Widroach",
+    "email": "zalan.hegedus@gmail.com"
+  },
+  "records": {
+    "CNAME": "widroach.github.io"
+  }
 }
