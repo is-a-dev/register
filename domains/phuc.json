@@ -1,0 +1,8 @@
+{
+  "description": "Portfolio website của Phước Nguyễn",
+  "repository": "https://github.com/hoaiphuc/portfolio",
+  "domain": "phuc.is-a.dev",
+  "records": {
+    "CNAME": "portfolio-six-coral-50.vercel.app"
+  }
+}
