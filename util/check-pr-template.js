@@ -47,21 +47,21 @@ if (uncheckedRequirements.length > 0) {
     );
 }
 
-const websitePreview = getSection(
-    "<!-- WEBSITE_PREVIEW_START -->",
-    "<!-- WEBSITE_PREVIEW_END -->",
-);
-
-if (!websitePreview) {
+if (
+    !getSection(
+        "<!-- WEBSITE_PREVIEW_START -->",
+        "<!-- WEBSITE_PREVIEW_END -->",
+    )
+) {
     errors.push("The **Website Preview** section has not been filled out.");
 }
 
-const websitePurpose = getSection(
-    "<!-- WEBSITE_PURPOSE_START -->",
-    "<!-- WEBSITE_PURPOSE_END -->",
-);
-
-if (!websitePurpose) {
+if (
+    !getSection(
+        "<!-- WEBSITE_PURPOSE_START -->",
+        "<!-- WEBSITE_PURPOSE_END -->",
+    )
+) {
     errors.push("The **Website Purpose** section has not been filled out.");
 }
 
@@ -69,7 +69,6 @@ if (errors.length > 0) {
     console.error("PR template validation failed.");
     console.error("");
     console.error(errors.join("\n"));
-
     process.exit(1);
 }
 
