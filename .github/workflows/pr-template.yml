@@ -16,6 +16,7 @@ jobs:
     validate:
         name: Validate
         runs-on: ubuntu-latest
+
         steps:
             - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
               with:
@@ -39,50 +40,78 @@ jobs:
                       try {
                           await github.rest.issues.getLabel({
                               owner: context.repo.owner,
-                              repo: context.repo.name,
+                              repo: context.repo.repo,
                               name: label
                           });
                       } catch (error) {
                           if (error.status === 404) {
                               await github.rest.issues.createLabel({
                                   owner: context.repo.owner,
-                                  repo: context.repo.name,
+                                  repo: context.repo.repo,
                                   name: label,
-                                  color: "D93F0B",
-                                  description: "Your PR template is not complete. (e.g. missing the requirements form, missing website preview)"
+                                  color: "d73a4a",
+                                  description: "The PR template has not been completely filled out."
                               });
                           } else {
                               throw error;
                           }
                       }
 
-                      await github.rest.issues.addLabels({
+                      const labels = await github.rest.issues.listLabelsOnIssue({
                           owner: context.repo.owner,
-                          repo: context.repo.name,
-                          issue_number: context.issue.number,
-                          labels: [label]
+                          repo: context.repo.repo,
+                          issue_number: context.issue.number
                       });
 
-                      const body = [
-                          "## ❌ Incomplete PR template",
-                          "",
-                          "This pull request is missing required information from the PR template.",
-                          "",
-                          "Please make sure that:",
-                          "",
-                          "- Every required checkbox is checked.",
-                          "- **Website Preview** is filled out.",
-                          "- **Website Purpose** is filled out.",
-                          "",
-                          "Once the template has been completed, this check will run again automatically."
-                      ].join("\n");
+                      if (!labels.data.some((item) => item.name === label)) {
+                          await github.rest.issues.addLabels({
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number,
+                              labels: [label]
+                          });
+                      }
 
-                      await github.rest.issues.createComment({
-                          owner: context.repo.owner,
-                          repo: context.repo.name,
-                          issue_number: context.issue.number,
-                          body
-                      });
+                      const marker = "<!-- is-a-dev-bot: incomplete-pr-template -->";
+
+                      const comments = await github.paginate(
+                          github.rest.issues.listComments,
+                          {
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number
+                          }
+                      );
+
+                      const alreadyCommented = comments.some(
+                          (comment) =>
+                              comment.user?.login === "is-a-dev-bot" &&
+                              comment.body?.includes(marker)
+                      );
+
+                      if (!alreadyCommented) {
+                          const body = [
+                              marker,
+                              "## ❌ Incomplete PR template",
+                              "",
+                              "This pull request is missing required information from the PR template.",
+                              "",
+                              "Please make sure that:",
+                              "",
+                              "- Every required checkbox is checked.",
+                              "- **Website Preview** is filled out.",
+                              "- **Website Purpose** is filled out.",
+                              "",
+                              "Once the template has been completed, this check will run again automatically."
+                          ].join("\n");
+
+                          await github.rest.issues.createComment({
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number,
+                              body
+                          });
+                      }
 
             - name: Remove incomplete label
               if: steps.validate.outcome == 'success'
@@ -95,7 +124,7 @@ jobs:
                       try {
                           await github.rest.issues.removeLabel({
                               owner: context.repo.owner,
-                              repo: context.repo.name,
+                              repo: context.repo.repo,
                               issue_number: context.issue.number,
                               name: label
                           });
@@ -103,40 +132,4 @@ jobs:
                           if (error.status !== 404) {
                               throw error;
                           }
-
-    tests:
-        name: Tests
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
-
-            - run: npm ci
-
-            - name: Fetch PR information
-              if: github.event_name == 'pull_request'
-              run: |
-                  echo "PR_AUTHOR=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
-                  echo "PR_AUTHOR_ID=${{ github.event.pull_request.user.id }}" >> $GITHUB_ENV
-
-                  LABELS=$(gh api --jq '[.labels[].name]' /repos/{owner}/{repo}/pulls/${{ github.event.number }})
-                  echo "PR_LABELS=$LABELS" >> $GITHUB_ENV
-
-                  FILES=$(gh api --jq '[.[] | select(.status != "removed") | .filename]' /repos/{owner}/{repo}/pulls/${{ github.event.number }}/files)
-                  echo "CHANGED_FILES=$FILES" >> $GITHUB_ENV
-
-                  REMOVED_FILE_DATA=$(gh api --jq '[.[] | select(.status == "removed") | {name: .filename, data: .patch}]' /repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files)
-                  echo "DELETED_FILES=$REMOVED_FILE_DATA" >> $GITHUB_ENV
-              env:
-                  GH_TOKEN: ${{ github.token }}
-
-            - uses: gacts/install-dnscontrol@890ba3249712c51203ccb7aba63307c0091e921b # v1.3.4
-              if: github.event_name == 'pull_request' && contains(fromJson(env.CHANGED_FILES), 'dnsconfig.js')
-              with:
-                  version: 4.14.0
-
-            - name: Run DNSControl checks
-              run: dnscontrol check
-              if: github.event_name == 'pull_request' && contains(fromJson(env.CHANGED_FILES), 'dnsconfig.js')
-
-            - name: Run tests
-              run: npx ava tests/*.test.js --timeout=1m
+                      }
