@@ -1,13 +1,7 @@
 name: Update PR Branches
 
 on:
-    push:
-        branches:
-            - main
-
-permissions:
-    contents: write
-    pull-requests: write
+    workflow_dispatch: 
 
 jobs:
     update:
