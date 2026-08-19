@@ -1,10 +1,16 @@
 {
   "owner": {
     "username": "satindar31",
-    "email": "ibrahim@i.is-a.dev"
   },
   "records": {
     "URL": "https://printer.satindar.is-a.dev"
   },
-  "proxied": true
+  "proxied": true,
+  "redirect_config": {
+    "custom_paths": {
+      "/u": "https://printer.satindar.is-a.dev/app?service=page/UserSummary",
+      "/a": "https://printer.satindar.is-a.dev/app?service=page/Dashboard"
+    },
+  "redirect_paths": true
+  }
 }
