@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "gauravdubey19",
-        "email": "dubeygaurav520@gmail.com"
-    },
-    "records": {
-        "CNAME": "gauravdubey.vercel.app"
-    }
+  "owner": {
+    "username": "gauravdubey19",
+    "email": "dubeygaurav520@gmail.com"
+  },
+  "records": {
+    "CNAME": "gauravdubey.vercel.app"
+  }
 }
