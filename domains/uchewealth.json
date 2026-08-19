@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "uche-wealth"
-    },
-    "records": {
-        "CNAME": "lwu.pythonanywhere.com"
-    }
+  "owner": {
+    "username": "uche-wealth"
+  },
+  "records": {
+    "CNAME": "lwu.pythonanywhere.com"
+  }
 }
