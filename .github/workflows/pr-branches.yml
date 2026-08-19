@@ -1,0 +1,95 @@
+name: PR Branches
+
+on:
+    workflow_dispatch:
+
+jobs:
+    update:
+        name: Update
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Update branches
+              uses: actions/github-script@v8
+              with:
+                  github-token: ${{ secrets.BOT }}
+                  script: |
+                      const marker = "<!-- is-a-dev-bot: merge-conflict -->";
+
+                      const prs = await github.paginate(
+                          github.rest.pulls.list,
+                          {
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              state: "open",
+                              per_page: 100
+                          }
+                      );
+
+                      console.log(`Found ${prs.length} open PRs`);
+
+                      for (const pr of prs) {
+                          try {
+                              await github.rest.pulls.updateBranch({
+                                  owner: context.repo.owner,
+                                  repo: context.repo.repo,
+                                  pull_number: pr.number
+                              });
+
+                              console.log(`Updated #${pr.number} (${pr.head.ref})`);
+                          } catch (error) {
+                              console.log(`Could not update #${pr.number}: ${error.message}`);
+
+                              const { data: updatedPr } = await github.rest.pulls.get({
+                                  owner: context.repo.owner,
+                                  repo: context.repo.repo,
+                                  pull_number: pr.number
+                              });
+
+                              if (updatedPr.mergeable !== false) {
+                                  continue;
+                              }
+
+                              await github.rest.issues.addLabels({
+                                  owner: context.repo.owner,
+                                  repo: context.repo.repo,
+                                  issue_number: pr.number,
+                                  labels: ["reason: merge conflict"]
+                              });
+
+                              const comments = await github.paginate(
+                                  github.rest.issues.listComments,
+                                  {
+                                      owner: context.repo.owner,
+                                      repo: context.repo.repo,
+                                      issue_number: pr.number
+                                  }
+                              );
+
+                              const alreadyCommented = comments.some(
+                                  (comment) =>
+                                      comment.user?.login === "is-a-dev-bot" &&
+                                      comment.body?.includes(marker)
+                              );
+
+                              if (!alreadyCommented) {
+                                  const body = [
+                                      marker,
+                                      "## ❌ Merge conflict",
+                                      "",
+                                      "This pull request can not be merged because it has merge conflicts with `main`.",
+                                      "",
+                                      "***Please resolve the merge conflicts before this PR can be merged!***"
+                                  ].join("\n");
+
+                                  await github.rest.issues.createComment({
+                                      owner: context.repo.owner,
+                                      repo: context.repo.repo,
+                                      issue_number: pr.number,
+                                      body
+                                  });
+                              }
+
+                              console.log(`Marked #${pr.number} as having merge conflicts`);
+                          }
+                      }
