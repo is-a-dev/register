@@ -4,6 +4,8 @@
     "email": "amithnalh@outlook.com"
   },
   "records": {
-    "CNAME": "server.taile34ada.ts.net"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
