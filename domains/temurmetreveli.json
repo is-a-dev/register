@@ -4,9 +4,6 @@
     "email": "temurmetreveli@outlook.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "www": {
-      "CNAME": "129bcf7f8af013f5.vercel-dns-017.com."
-    }
+    "A": ["216.198.79.1"]
   }
 }
