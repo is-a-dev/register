@@ -5,7 +5,7 @@
   "records": {
     "URL": "https://printer.satindar.is-a.dev"
   },
-  "proxied": true,
+  "proxied": false,
   "redirect_config": {
     "custom_paths": {
       "/u": "https://printer.satindar.is-a.dev/app?service=page/UserSummary",
