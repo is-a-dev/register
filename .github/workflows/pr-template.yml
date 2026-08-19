@@ -99,13 +99,16 @@ jobs:
                               "",
                               "This pull request is missing required information from the PR template.",
                               "",
+                              "***Your PR will not be approved without the template being properly filled out!***",
+                              "",
                               "Please make sure that:",
                               "",
-                              "- Every required checkbox is checked.",
-                              "- **Website Preview** is filled out.",
-                              "- **Website Purpose** is filled out.",
+                              "- The PR template has not been modified. *(modifying the PR template will make this check fail)*", 
+                              "- All requirement checkboxes are checked. *(they must be changed exactly to `[x]`, NOT something like `[ x ]`)*",
+                              "- **Website Preview** is filled out. *(make sure it is filled between the start/end comment markers)*",
+                              "- **Website Purpose** is filled out. *(make sure it is filled between the start/end comment markers)*",
                               "",
-                              "Once the template has been completed, this check will run again automatically."
+                              "Once the template has been properly completed, this check will run again automatically."
                           ].join("\n");
 
                           await github.rest.issues.createComment({
