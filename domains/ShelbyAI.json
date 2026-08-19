@@ -1,0 +1,12 @@
+{
+  "owner":{
+    "username": "kuxhaan7",
+    "email": "kushaankaushik007@gmail.com"
+  },
+  "description": "Shelby - Personal Assistant for hosted on GCP",
+  "repo": "https://github.com/kuxhaan7/Shelby-AI",
+  "records":{
+    "CNAME": "ghs.googlehosted.com"
+  }
+}
+
