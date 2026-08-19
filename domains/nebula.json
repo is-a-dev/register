@@ -3,5 +3,9 @@
   "repository": "https://github.com/motaz11w/register",
   "dns": {
     "cname": "nebulagame.vercel.app"
+  },
+  "owner": {
+    "username": "motaz11w",
+    "email": "motaz166619697@gmail.com"
   }
 }
