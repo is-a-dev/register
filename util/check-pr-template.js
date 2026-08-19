@@ -1,4 +1,15 @@
+const trustedUsers = require("./trusted.json");
+
 const body = process.env.PR_BODY || "";
+const authorUsername = process.env.PR_AUTHOR || "";
+const authorId = Number(process.env.PR_AUTHOR_ID);
+
+const isTrustedUser = trustedUsers.some((u) => u.id === authorId);
+
+if (isTrustedUser) {
+    console.log(`PR author "${authorUsername}" is a trusted user. Skipping template validation.`);
+    process.exit(0);
+}
 
 const REQUIRED_CHECKBOXES = [
     "TOS",
