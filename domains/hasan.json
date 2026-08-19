@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "bistcuite",
-    "email": "hnk1440@gmail.com"
+    "username": "VersionTV",
+    "email": "hasanversion2009@gmail.com"
   },
   "records": {
-    "CNAME": "bistcuite.github.io"
-  }
+    "CNAME": "hasan-arnavutoglu-resume.s3-website-us-east-1.amazonaws.com"
+  },
+  "proxied": false
 }

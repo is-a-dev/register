@@ -4,6 +4,8 @@
     "email": "nithishparameswaran2005@gmail.com"
   },
   "records": {
-    "CNAME": "nisxzn.vercel.app"
-  }
+    "CNAME": "nisxzn.vercel.app",
+    "TXT": "google-site-verification=QgYgHSP7VQkZGyLTkIYwKi8TtKbbanO6-nt-UcYaEyU"
+  },
+  "proxied": true
 }

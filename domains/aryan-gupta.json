@@ -6,7 +6,11 @@
   "description": "Aryan Gupta's personal portfolio, blog, and VCE resource website.",
   "proxied": true,
   "records": {
-    "A": ["169.224.225.89"],
-    "TXT": ["google-site-verification=Frww5uCLBTt_nZ9nlgWA5Ii-z9GsCrCGPqxujiQEwb8"]
+    "A": [
+      "169.224.225.89"
+    ],
+    "TXT": [
+      "google-site-verification=Frww5uCLBTt_nZ9nlgWA5Ii-z9GsCrCGPqxujiQEwb8"
+    ]
   }
 }
