@@ -46,6 +46,57 @@ jobs:
                           - "TERMS_OF_SERVICE.md"
                           - "LICENSE"
 
+            - name: Check for NS records
+              id: ns
+              uses: actions/github-script@v8
+              env:
+                  DOMAIN_CHANGED: ${{ steps.changes.outputs.domain }}
+              with:
+                  github-token: ${{ secrets.BOT }}
+                  script: |
+                      if (process.env.DOMAIN_CHANGED !== "true") {
+                          core.setOutput("changed", "false");
+                          return;
+                      }
+
+                      const { data: files } = await github.rest.pulls.listFiles({
+                          owner: context.repo.owner,
+                          repo: context.repo.repo,
+                          pull_number: context.issue.number,
+                          per_page: 100
+                      });
+
+                      const domainFiles = files.filter(
+                          (file) =>
+                              file.filename.startsWith("domains/") &&
+                              file.filename.endsWith(".json") &&
+                              file.status !== "removed"
+                      );
+
+                      for (const file of domainFiles) {
+                          const { data: content } =
+                              await github.rest.repos.getContent({
+                                  owner: context.repo.owner,
+                                  repo: context.repo.repo,
+                                  path: file.filename,
+                                  ref: context.payload.pull_request.head.sha
+                              });
+
+                          const domain = JSON.parse(
+                              Buffer.from(content.content, "base64").toString("utf8")
+                          );
+
+                          if (
+                              Array.isArray(domain.records?.NS) &&
+                              domain.records.NS.length > 0
+                          ) {
+                              core.setOutput("changed", "true");
+                              return;
+                          }
+                      }
+
+                      core.setOutput("changed", "false");
+
             - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
               with:
                   ref: ${{ github.event.repository.default_branch }}
@@ -75,6 +126,7 @@ jobs:
                   CI_CHANGED: ${{ steps.changes.outputs.ci }}
                   DOCUMENTATION: ${{ steps.changes.outputs.documentation }}
                   DOMAIN_CHANGED: ${{ steps.changes.outputs.domain }}
+                  NS_CHANGED: ${{ steps.ns.outputs.changed }}
                   MAINTAINER: ${{ steps.check-trusted.outcome == 'success' }}
                   R_WILLIAM: ${{ steps.changes.outputs.r-william }}
               with:
@@ -84,12 +136,27 @@ jobs:
 
                       if (process.env.CI_CHANGED === "true") {
                           labels.push("ci");
+                      }
+
+                      if (process.env.DOCUMENTATION === "true") {
+                          labels.push("documentation");
+                      }
+
+                      if (process.env.DOMAIN_CHANGED === "true") {
+                          labels.push("domain");
+                      }
+
+                      if (process.env.MAINTAINER === "true") {
+                          labels.push("maintainer");
+                      }
+
+                      if (
+                          process.env.CI_CHANGED === "true" ||
+                          process.env.NS_CHANGED === "true" ||
+                          process.env.R_WILLIAM === "true"
+                      ) {
                           labels.push("r: william");
                       }
-                      if (process.env.DOCUMENTATION === "true") labels.push("documentation");
-                      if (process.env.DOMAIN_CHANGED === "true") labels.push("domain");
-                      if (process.env.MAINTAINER === "true") labels.push("maintainer");
-                      if (process.env.R_WILLIAM === "true") labels.push("r: william");
 
                       const uniqueLabels = [...new Set(labels)];
 
@@ -105,6 +172,7 @@ jobs:
     template:
         name: Template
         runs-on: ubuntu-latest
+
         steps:
             - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
               with:
