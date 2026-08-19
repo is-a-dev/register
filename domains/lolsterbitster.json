@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "pavelsha992-cloud",
+    "email": "pavelsha99@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "arvind.ns.cloudflare.com",
+      "mira.ns.cloudflare.com"
+    ]
+  }
+}
