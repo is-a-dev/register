@@ -6,6 +6,7 @@ on:
             - opened
             - edited
             - synchronize
+            - labeled
 
 permissions:
     contents: read
@@ -28,7 +29,8 @@ jobs:
                   PR_BODY: ${{ github.event.pull_request.body }}
                   PR_AUTHOR: ${{ github.event.pull_request.user.login }}
                   PR_AUTHOR_ID: ${{ github.event.pull_request.user.id }}
-              run: node util/check-pr-template.js
+                  PR_LABELS: ${{ toJSON(github.event.pull_request.labels.*.name) }}
+              run: node util/check-pr-template.cjs
 
             - name: Handle incomplete PR
               if: steps.validate.outcome == 'failure'
