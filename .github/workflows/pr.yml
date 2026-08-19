@@ -135,17 +135,7 @@ jobs:
                               name: label
                           });
                       } catch (error) {
-                          if (error.status === 404) {
-                              await github.rest.issues.createLabel({
-                                  owner: context.repo.owner,
-                                  repo: context.repo.repo,
-                                  name: label,
-                                  color: "D93F0B",
-                                  description: "Your PR template is not complete. (e.g. missing the requirements form, missing website preview)"
-                              });
-                          } else {
-                              throw error;
-                          }
+                          throw error;
                       }
 
                       const labels = await github.rest.issues.listLabelsOnIssue({
