@@ -5,7 +5,9 @@
     "email": "profoundlvr@gmail.com"
   },
   "records": {
-    "A": ["52.72.49.79"]
+    "A": [
+      "52.72.49.79"
+    ]
   },
   "proxied": true
 }
