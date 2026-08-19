@@ -1,4 +1,24 @@
+const trustedUsers = require("./trusted.json");
+
 const body = process.env.PR_BODY || "";
+const authorUsername = process.env.PR_AUTHOR || "";
+const authorId = Number(process.env.PR_AUTHOR_ID);
+const labels = JSON.parse(process.env.PR_LABELS || "[]");
+
+const BYPASS_LABEL = "ci: bypass-template-check";
+
+const isTrustedUser = trustedUsers.some((u) => u.id === authorId);
+const hasBypassLabel = labels.includes(BYPASS_LABEL);
+
+if (isTrustedUser) {
+    console.log(`PR author "${authorUsername}" is a trusted user. Skipping template validation.`);
+    process.exit(0);
+}
+
+if (hasBypassLabel) {
+    console.log(`PR has the "${BYPASS_LABEL}" label. Skipping template validation.`);
+    process.exit(0);
+}
 
 const REQUIRED_CHECKBOXES = [
     "TOS",
