@@ -1,13 +1,13 @@
 {
-    "owner": {
-        "username": "mellifluousguy",
+  "owner": {
+    "username": "mellifluousguy",
 
-        "email": "mg467222@gmail.com"
-    },
+    "email": "mg467222@gmail.com"
+  },
 
-    "records": {
-        "A": [
-            "216.198.79.1"
-        ]
-    }
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
