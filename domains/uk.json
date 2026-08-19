@@ -4,8 +4,6 @@
     "email": "isadev@ukriu.com"
   },
   "records": {
-    "URL": "https://ukriu.com/",
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": "forward-email=forwardemailnet@ukriu.com"
+    "URL": "https://ukriu.com/"
   }
 }

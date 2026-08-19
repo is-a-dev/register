@@ -3,7 +3,7 @@
 </p> -->
 
 <p align="center">
-   <img height="350" alt="is-a.dev Octoverse 2025 Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/octoverse-2025/is-a-dev_register_1200x630.jpg">
+   <img height="350" alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
 </p>
 
 <p align="center">
@@ -24,6 +24,11 @@ Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150)
 
 Not all announcements are posted on GitHub[^1], however they will always be posted in our Discord server.
 
+> [!NOTE]
+> We have recently launched another free subdomain service, [**is-a.bot**](https://is-a.bot)!
+> 
+> Claim your `.is-a.bot` subdomain [here](https://github.com/free-domains/is-a.bot).
+
 [^1]: We only post announcements on GitHub in the case of a serious incident, which you'll see at the top of this README.
 
 # Register
@@ -31,13 +36,27 @@ Not all announcements are posted on GitHub[^1], however they will always be post
 
 - [Fork](https://github.com/is-a-dev/register/fork) the repository.
 - Follow the instructions on our [documentation](https://docs.is-a.dev).
+  - Do not use AI to generate your request, it **WILL** always get it wrong and will delay you getting a domain.
+
+> [!TIP]
+> If your desired `.is-a.dev` subdomain is taken, you can register an `.is-a.bot` subdomain instead!
+> 
+> Claim your `.is-a.bot` subdomain [here](https://github.com/free-domains/is-a.bot).
+
 - Once you open your pull request (PR), it will be reviewed. *Keep an eye on it in case changes are needed!*
    - If changes have been requested, please make the specified changes otherwise **you will be rejected**.
 - Once your PR is merged, your DNS records should be published with-in a few minutes.
 - Enjoy your new `.is-a.dev` subdomain! Please consider leaving a star ⭐️ to help support us!
 
+## Spam Pull Requests
+With the recent rising of invalid PRs, including PRs generated with AI, we reserve the right to:
+
+- Close these PRs without explanation.
+- Block or limit the author's ability to interact with is-a.dev's repositories and resources.
+- Remove any existing domains owned by the author if connected to TOS-violating content.
+
 ## Report Abuse
-If you find any subdomains being abused or breaking our TOS, please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with relevant evidence.
+If you find any subdomains being abused or breaking our [ToS](https://is-a.dev/terms), please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with relevant evidence.
 
 ---
 
