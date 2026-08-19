@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "zakharsk",
-        "email": "zaharsk@gmail.com"
-    },
-    "records": {
-        "CNAME": "zakharsk.github.io"
-    }
+  "owner": {
+    "username": "zakharsk",
+    "email": "zaharsk@gmail.com"
+  },
+  "records": {
+    "CNAME": "zakhar.pages.dev"
+  }
 }

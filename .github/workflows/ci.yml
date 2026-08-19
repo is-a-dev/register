@@ -10,6 +10,8 @@ on:
             - "tests/*"
             - "util/*"
             - ".github/workflows/ci.yml"
+            - "package.json"
+            - "package-lock.json"
 
     workflow_dispatch:
 
@@ -21,32 +23,30 @@ jobs:
         name: Tests
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
-            - run: npm install
+            - run: npm ci
 
             - name: Fetch PR information
               if: github.event_name == 'pull_request'
-              run: |
-                  echo "PR_AUTHOR=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
-                  echo "PR_AUTHOR_ID=${{ github.event.pull_request.user.id }}" >> $GITHUB_ENV
-
-                  LABELS=$(gh api --jq '[.labels[].name]' /repos/{owner}/{repo}/pulls/${{ github.event.number }})
-                  echo "PR_LABELS=$LABELS" >> $GITHUB_ENV
-
-                  FILES=$(gh api --jq '[.[] | select(.status != "removed") | .filename]' /repos/{owner}/{repo}/pulls/${{ github.event.number }}/files)
-                  echo "CHANGED_FILES=$FILES" >> $GITHUB_ENV
-
-                  REMOVED_FILE_DATA=$(gh api --jq '[.[] | select(.status == "removed") | {name: .filename, data: .patch}]' /repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files)
-                  echo "DELETED_FILES=$REMOVED_FILE_DATA" >> $GITHUB_ENV
               env:
                   GH_TOKEN: ${{ github.token }}
+                  PR: ${{ github.event.pull_request.number }}
+              run: |
+                  echo "PR_AUTHOR=${{ github.event.pull_request.user.login }}" >> "$GITHUB_ENV"
+                  echo "PR_AUTHOR_ID=${{ github.event.pull_request.user.id }}" >> "$GITHUB_ENV"
+                  echo "PR_LABELS=$(gh pr view ${{ github.event.pull_request.number }} --json labels --jq '[.labels[].name]')" >> "$GITHUB_ENV"
+                  echo "CHANGED_FILES=$(gh api --jq '[.[] | select(.status != "removed") | .filename]' "repos/${{ github.repository }}/pulls/$PR/files")" >> "$GITHUB_ENV"
+                  echo "DELETED_FILES=$(gh api --jq '[.[] | select(.status == "removed") | {name: .filename, data: .patch}]' "repos/${{ github.repository }}/pulls/$PR/files")" >> "$GITHUB_ENV"
 
-            - name: Run DNSControl tests
+            - uses: gacts/install-dnscontrol@890ba3249712c51203ccb7aba63307c0091e921b # v1.3.4
               if: github.event_name == 'pull_request' && contains(fromJson(env.CHANGED_FILES), 'dnsconfig.js')
-              uses: is-a-dev/dnscontrol-action@main
               with:
-                  args: check
+                  version: 4.14.0
+
+            - name: Run DNSControl checks
+              if: github.event_name == 'pull_request' && contains(fromJson(env.CHANGED_FILES), 'dnsconfig.js')
+              run: dnscontrol check
 
             - name: Run tests
               run: npx ava tests/*.test.js --timeout=1m
