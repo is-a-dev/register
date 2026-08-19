@@ -16,7 +16,6 @@ jobs:
     validate:
         name: Validate
         runs-on: ubuntu-latest
-
         steps:
             - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
               with:
@@ -27,7 +26,7 @@ jobs:
               continue-on-error: true
               env:
                   PR_BODY: ${{ github.event.pull_request.body }}
-              run: node scripts/validate-pr-template.js
+              run: node util/check-pr-template.js
 
             - name: Handle incomplete PR
               if: steps.validate.outcome == 'failure'
@@ -133,3 +132,9 @@ jobs:
                               throw error;
                           }
                       }
+
+            - name: Fail if PR template is incomplete
+              if: steps.validate.outcome == 'failure'
+              run: |
+                  echo "::error::PR template is incomplete."
+                  exit 1
