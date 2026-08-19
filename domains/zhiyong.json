@@ -1,5 +1,14 @@
 {
   "owner": {
+    "username": "tiankaiwen524",
+    "email": "tiankaiwen525@gmail.com"
+  },
+  "records": {
+    "CNAME": "factory-witness-shanghai-mono.trycloudflare.com"
+  },
+  "proxied": true
+}{
+  "owner": {
     "username": "tiankaiwen524"
   },
   "records": {
