@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "AyushPandey218",
-        "email": "ayushpandey0618@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "AyushPandey218",
+    "email": "ayushpandey0618@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

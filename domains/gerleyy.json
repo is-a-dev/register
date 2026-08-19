@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "gakhd625",
-        "email": "yuloaiah@gmail.com"
-    },
-    "records": {
-        "A":["216.198.79.1"]
-    }
+  "owner": {
+    "username": "gakhd625",
+    "email": "yuloaiah@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
