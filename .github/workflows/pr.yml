@@ -100,6 +100,49 @@ jobs:
 
                       core.setOutput("changed", "false");
 
+            - name: Comment about NS records
+              if: steps.ns.outputs.changed == 'true'
+              uses: actions/github-script@v8
+              with:
+                  github-token: ${{ secrets.BOT }}
+                  script: |
+                      const marker = "<!-- is-a-dev-bot: ns-record-review -->";
+
+                      const comments = await github.paginate(
+                          github.rest.issues.listComments,
+                          {
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number
+                          }
+                      );
+
+                      const alreadyCommented = comments.some(
+                          (comment) =>
+                              comment.user?.login === "is-a-dev-bot" &&
+                              comment.body?.includes(marker)
+                      );
+
+                      if (!alreadyCommented) {
+                          const body = [
+                              marker,
+                              "## ⚠️ NS record review required",
+                              "",
+                              "This pull request contains a request for NS records and will need to be reviewed by the service owner.",
+                              "",
+                              "Please ensure you have provided reasoning for needing NS records in your PR description, otherwise your request cannot be approved.",
+                              "---",
+                              "***Do not mention the owner on this PR, he has already been notified.***"
+                          ].join("\n");
+
+                          await github.rest.issues.createComment({
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number,
+                              body
+                          });
+                      }
+
             - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
               with:
                   ref: ${{ github.event.repository.default_branch }}
