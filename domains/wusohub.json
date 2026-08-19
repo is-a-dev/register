@@ -1,0 +1,10 @@
+{
+  "description": "WusoHub",
+  "owner": {
+    "username": "wusozz12-hue",
+    "email": "GITHUB_EMAIL_ADRESIN"
+  },
+  "record": {
+    "CNAME": "wusohub.vercel.app"
+  }
+}
