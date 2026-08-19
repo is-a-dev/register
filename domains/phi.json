@@ -4,6 +4,9 @@
     "email": "y5c4l3@proton.me"
   },
   "records": {
-    "NS": ["johnny.ns.cloudflare.com", "rachel.ns.cloudflare.com"]
+    "NS": [
+      "johnny.ns.cloudflare.com",
+      "rachel.ns.cloudflare.com"
+    ]
   }
 }

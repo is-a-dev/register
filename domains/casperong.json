@@ -6,8 +6,13 @@
     "instagram": "@casper.ong.ny"
   },
   "records": {
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ],
     "CNAME": "casperong.github.io"
   },
   "proxied": true
