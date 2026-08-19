@@ -34,13 +34,25 @@ jobs:
                           - "dnsconfig.js"
                       domain:
                           - "domains/*"
+                      documentation:
+                          - ".github/PULL_REQUEST_TEMPLATE.md"
+                          - ".github/copilot-instructions.md"
+                          - "README.md"
+                      r-william:
+                          - ".github/CODEOWNERS"
+                          - "CODE_OF_CONDUCT.md"
+                          - "CONTRIBUTING.md"
+                          - "SECURITY.md"
+                          - "TERMS_OF_SERVICE.md"
+                          - "LICENSE"
 
             - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
               with:
                   ref: ${{ github.event.repository.default_branch }}
 
             - name: Check trusted user
-              id: check
+              id: check-trusted
+              continue-on-error: true
               env:
                   PR_AUTHOR_ID: ${{ github.event.pull_request.user.id }}
               run: |
@@ -61,28 +73,32 @@ jobs:
               uses: actions/github-script@v8
               env:
                   CI_CHANGED: ${{ steps.changes.outputs.ci }}
+                  DOCUMENTATION: ${{ steps.changes.outputs.documentation }}
                   DOMAIN_CHANGED: ${{ steps.changes.outputs.domain }}
-                  MAINTAINER: ${{ steps.check.outcome == 'success' }}
+                  MAINTAINER: ${{ steps.check-trusted.outcome == 'success' }}
+                  R_WILLIAM: ${{ steps.changes.outputs.r-william }}
               with:
                   github-token: ${{ secrets.BOT }}
                   script: |
                       const labels = [];
 
-                      if (process.env.CI_CHANGED === "true")
+                      if (process.env.CI_CHANGED === "true") {
                           labels.push("ci");
+                          labels.push("r: william");
+                      }
+                      if (process.env.DOCUMENTATION === "true") labels.push("documentation");
+                      if (process.env.DOMAIN_CHANGED === "true") labels.push("domain");
+                      if (process.env.MAINTAINER === "true") labels.push("maintainer");
+                      if (process.env.R_WILLIAM === "true") labels.push("r: william");
 
-                      if (process.env.DOMAIN_CHANGED === "true")
-                          labels.push("domain");
+                      const uniqueLabels = [...new Set(labels)];
 
-                      if (process.env.MAINTAINER === "true")
-                          labels.push("maintainer");
-
-                      if (labels.length) {
+                      if (uniqueLabels.length) {
                           await github.rest.issues.addLabels({
                               owner: context.repo.owner,
                               repo: context.repo.repo,
                               issue_number: context.issue.number,
-                              labels
+                              labels: uniqueLabels
                           });
                       }
 
