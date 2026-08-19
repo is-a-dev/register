@@ -26,6 +26,8 @@ jobs:
               continue-on-error: true
               env:
                   PR_BODY: ${{ github.event.pull_request.body }}
+                  PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+                  PR_AUTHOR_ID: ${{ github.event.pull_request.user.id }}
               run: node util/check-pr-template.js
 
             - name: Handle incomplete PR
@@ -112,13 +114,14 @@ jobs:
                           });
                       }
 
-            - name: Remove incomplete label
+            - name: Remove incomplete label and comment
               if: steps.validate.outcome == 'success'
               uses: actions/github-script@v8
               with:
                   github-token: ${{ secrets.BOT }}
                   script: |
                       const label = "reason: incomplete pr";
+                      const marker = "<!-- is-a-dev-bot: incomplete-pr-template -->";
 
                       try {
                           await github.rest.issues.removeLabel({
@@ -130,6 +133,28 @@ jobs:
                       } catch (error) {
                           if (error.status !== 404) {
                               throw error;
+                          }
+                      }
+
+                      const comments = await github.paginate(
+                          github.rest.issues.listComments,
+                          {
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number
+                          }
+                      );
+
+                      for (const comment of comments) {
+                          if (
+                              comment.user?.login === "is-a-dev-bot" &&
+                              comment.body?.includes(marker)
+                          ) {
+                              await github.rest.issues.deleteComment({
+                                  owner: context.repo.owner,
+                                  repo: context.repo.repo,
+                                  comment_id: comment.id
+                              });
                           }
                       }
 

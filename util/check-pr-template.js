@@ -1,22 +1,29 @@
+const trustedUsers = require("./trusted.json");
+
 const body = process.env.PR_BODY || "";
+const authorUsername = process.env.PR_AUTHOR || "";
+const authorId = Number(process.env.PR_AUTHOR_ID);
 
-const REQUIRED_CHECKBOXES = [
-    "I agree to the [Terms of Service]",
-    "My file is following the [domain structure]",
-    "My website is reachable and completed.",
-    "My website is software development related.",
-    "My website is not for commercial use.",
-    "I have provided sufficient contact information in the `owner` key.",
-    "I have provided a link to my website below.",
-];
+const isTrustedUser = trustedUsers.some((u) => u.id === authorId);
 
-function escapeRegExp(value) {
-    return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+if (isTrustedUser) {
+    console.log(`PR author "${authorUsername}" is a trusted user. Skipping template validation.`);
+    process.exit(0);
 }
 
-function isRequiredCheckboxChecked(text) {
+const REQUIRED_CHECKBOXES = [
+    "TOS",
+    "DOMAIN_STRUCTURE",
+    "WEBSITE_REACHABLE",
+    "SOFTWARE_RELATED",
+    "NON_COMMERCIAL",
+    "CONTACT_INFO",
+    "WEBSITE_LINK",
+];
+
+function isCheckboxChecked(marker) {
     const regex = new RegExp(
-        `-\\s*\\[[xX]\\]\\s*(?:<!--[^>]*-->\\s*)?${escapeRegExp(text)}`,
+        `-\\s*\\[[xX]\\]\\s*<!--\\s*${marker}\\s*-->`,
         "i",
     );
 
@@ -34,41 +41,47 @@ function getSection(startMarker, endMarker) {
     return match ? match[1].trim() : "";
 }
 
+function escapeRegExp(value) {
+    return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 const errors = [];
 
-const uncheckedRequirements = REQUIRED_CHECKBOXES.filter(
-    (requirement) => !isRequiredCheckboxChecked(requirement),
+for (const checkbox of REQUIRED_CHECKBOXES) {
+    if (!isCheckboxChecked(checkbox)) {
+        errors.push(
+            `The \`${checkbox}\` requirement has not been checked.`,
+        );
+    }
+}
+
+const websitePreview = getSection(
+    "<!-- WEBSITE_PREVIEW_START -->",
+    "<!-- WEBSITE_PREVIEW_END -->",
 );
 
-if (uncheckedRequirements.length > 0) {
+if (!websitePreview) {
     errors.push(
-        "The following required checkboxes have not been checked:",
-        ...uncheckedRequirements.map((requirement) => `- ${requirement}`),
+        "The **Website Preview** section has not been filled out.",
     );
 }
 
-if (
-    !getSection(
-        "<!-- WEBSITE_PREVIEW_START -->",
-        "<!-- WEBSITE_PREVIEW_END -->",
-    )
-) {
-    errors.push("The **Website Preview** section has not been filled out.");
-}
+const websitePurpose = getSection(
+    "<!-- WEBSITE_PURPOSE_START -->",
+    "<!-- WEBSITE_PURPOSE_END -->",
+);
 
-if (
-    !getSection(
-        "<!-- WEBSITE_PURPOSE_START -->",
-        "<!-- WEBSITE_PURPOSE_END -->",
-    )
-) {
-    errors.push("The **Website Purpose** section has not been filled out.");
+if (!websitePurpose) {
+    errors.push(
+        "The **Website Purpose** section has not been filled out.",
+    );
 }
 
 if (errors.length > 0) {
     console.error("PR template validation failed.");
     console.error("");
     console.error(errors.join("\n"));
+
     process.exit(1);
 }
 
