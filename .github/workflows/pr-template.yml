@@ -103,11 +103,15 @@ jobs:
                               "",
                               "Please make sure that:",
                               "",
-                              "- The PR template has not been modified. *(modifying the PR template will make this check fail)*", 
-                              "- All requirement checkboxes are checked. *(they must be changed exactly to `[x]`, NOT something like `[ x ]`)*",
-                              "- **Website Preview** is filled out. *(make sure it is filled between the start/end comment markers)*",
-                              "- **Website Purpose** is filled out. *(make sure it is filled between the start/end comment markers)*",
-                              "",
+                              "- The PR template has not been modified.",
+                              "  - *Modifying the PR template will make this check fail.*",
+                              "- All requirement checkboxes are checked.",
+                              "  - *All checkboxes must be changed exactly to `[x]`, NOT something like `[ x ]`.*",
+                              "- **Website Preview** is filled out.",
+                              "  - *Make sure it is filled between the start/end comment markers.*",
+                              "- **Website Purpose** is filled out.",
+                              "  - *Make sure it is filled between the start/end comment markers.*",
+                              "---",
                               "Once the template has been properly completed, this check will run again automatically."
                           ].join("\n");
 
