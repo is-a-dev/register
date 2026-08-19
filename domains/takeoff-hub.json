@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "mg-marcum",
+    "email": "matt.oakey.marcum@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "abby.ns.cloudflare.com",
+      "jake.ns.cloudflare.com"
+    ]
+  }
+}
