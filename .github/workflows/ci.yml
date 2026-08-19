@@ -35,7 +35,7 @@ jobs:
               run: |
                   echo "PR_AUTHOR=${{ github.event.pull_request.user.login }}" >> "$GITHUB_ENV"
                   echo "PR_AUTHOR_ID=${{ github.event.pull_request.user.id }}" >> "$GITHUB_ENV"
-                  echo "PR_LABELS=$(gh api --jq '[.labels[].name]' "repos/${{ github.repository }}/pulls/$PR")" >> "$GITHUB_ENV"
+                  echo "PR_LABELS=$(gh pr view ${{ github.event.pull_request.number }} --json labels --jq '[.labels[].name]')" >> "$GITHUB_ENV"
                   echo "CHANGED_FILES=$(gh api --jq '[.[] | select(.status != "removed") | .filename]' "repos/${{ github.repository }}/pulls/$PR/files")" >> "$GITHUB_ENV"
                   echo "DELETED_FILES=$(gh api --jq '[.[] | select(.status == "removed") | {name: .filename, data: .patch}]' "repos/${{ github.repository }}/pulls/$PR/files")" >> "$GITHUB_ENV"
 
