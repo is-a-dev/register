@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "himanshuraj20112008-source",
+    "email": "himanshuraj20112008@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
