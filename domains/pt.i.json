@@ -1,6 +1,6 @@
 {
   "owner": {
-    "username": "satindar31",
+    "username": "satindar31"
   },
   "records": {
     "URL": "https://printer.satindar.is-a.dev"
@@ -11,6 +11,6 @@
       "/u": "https://printer.satindar.is-a.dev/app?service=page/UserSummary",
       "/a": "https://printer.satindar.is-a.dev/app?service=page/Dashboard"
     },
-  "redirect_paths": true
+    "redirect_paths": true
   }
 }
