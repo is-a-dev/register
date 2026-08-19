@@ -4,6 +4,8 @@
     "email": "shalinirnair@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=salini-devi.is-a.dev,6b27d080e40b17cb1846"]
+    "TXT": [
+      "vc-domain-verify=salini-devi.is-a.dev,6b27d080e40b17cb1846"
+    ]
   }
 }

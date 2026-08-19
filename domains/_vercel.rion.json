@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "Riontuscano",
-        "email": "riontuscano@gmail.com"
-
-    },
-    "records": {
-        "TXT": "vc-domain-verify=rion.is-a.dev,236ae890d81cae48bf0d"
-    }
+  "owner": {
+    "username": "Riontuscano",
+    "email": "riontuscano@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=rion.is-a.dev,236ae890d81cae48bf0d"
+  }
 }
