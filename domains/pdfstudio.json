@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "YOUR_GITHUB_USERNAME",
+    "email": "YOUR_EMAIL@EXAMPLE.COM"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
