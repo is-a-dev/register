@@ -4,6 +4,8 @@
     "email": "dazuii@duck.com"
   },
   "records": {
-    "CNAME": "dazui-py.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
