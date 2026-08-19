@@ -1,0 +1,7 @@
+{
+  "description": "Nebula Game Launcher",
+  "repository": "https://github.com/motaz11w/register",
+  "dns": {
+    "cname": "nebulagame.vercel.app"
+  }
+}
