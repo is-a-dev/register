@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "hash00"
+    "username": "dev-mohamed-abdalnabi",
+    "email": "dev.mohamed.abdalnabi@gmail.com"
   },
   "records": {
-    "CNAME": "hash00.github.io"
+    "CNAME": "mo-portfolio.vercel.app"
   }
 }
