@@ -7,7 +7,6 @@ on:
             - reopened
             - edited
             - synchronize
-            - labeled
 
 permissions:
     contents: read
