@@ -26,6 +26,8 @@ jobs:
               continue-on-error: true
               env:
                   PR_BODY: ${{ github.event.pull_request.body }}
+                  PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+                  PR_AUTHOR_ID: ${{ github.event.pull_request.user.id }}
               run: node util/check-pr-template.js
 
             - name: Handle incomplete PR
