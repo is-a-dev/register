@@ -7,7 +7,6 @@ on:
             - reopened
             - edited
             - synchronize
-            - labeled
 
 permissions:
     contents: read
@@ -40,9 +39,6 @@ jobs:
                           - "README.md"
                       r-william:
                           - ".github/CODEOWNERS"
-                          - "CODE_OF_CONDUCT.md"
-                          - "CONTRIBUTING.md"
-                          - "SECURITY.md"
                           - "TERMS_OF_SERVICE.md"
                           - "LICENSE"
 
