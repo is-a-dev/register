@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "infraflakes",
-        "email": "infraflakes@proton.me"
-    },
-    "records": {
-        "CNAME": "infraflakes.github.io" 
-    }
+  "owner": {
+    "username": "infraflakes",
+    "email": "infraflakes@proton.me"
+  },
+  "records": {
+    "CNAME": "infraflakes.github.io"
+  }
 }
