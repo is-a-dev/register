@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kashishrastogii-hub",
-        "email": "kashishrastogi13@gmail.com"
-    },
-    "records": {
-        "CNAME": "kashishrastogi.netlify.app"
-    }
+  "owner": {
+    "username": "kashishrastogii-hub",
+    "email": "kashishrastogi13@gmail.com"
+  },
+  "records": {
+    "CNAME": "kashishrastogi.netlify.app"
+  }
 }
