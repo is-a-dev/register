@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "waybarrios",
-        "email": "waybarrios@gmail.com"
-    },
-    "records": {
-        "CNAME": "waybarrios.github.io"
-    }
+  "owner": {
+    "username": "waybarrios",
+    "email": "waybarrios@gmail.com"
+  },
+  "records": {
+    "CNAME": "waybarrios.github.io"
+  }
 }
