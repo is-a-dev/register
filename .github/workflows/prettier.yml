@@ -1,6 +1,12 @@
 name: Prettier
 
 on:
+    push:
+        branches: [main]
+        paths:
+            - ".prettierrc"
+            - ".github/workflows/prettier.yml"
+
     schedule:
         - cron: "0 0 * * 0" # Runs every week on Sunday
 
@@ -22,7 +28,7 @@ jobs:
 
             - run: npm ci
 
-            - name: Run the prettifier and open a PR if it changed something
+            - name: Run Prettier and open PR
               run: |
                   set -euo pipefail
 

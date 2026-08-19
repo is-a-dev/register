@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "manannjoshi",
-        "email": "manannjoshi123@gmail.com"
-    },
-    "records": {
-        "CNAME": "manannjoshi.github.io"
-    }
+  "owner": {
+    "username": "manannjoshi",
+    "email": "manannjoshi123@gmail.com"
+  },
+  "records": {
+    "CNAME": "manannjoshi.github.io"
+  }
 }
