@@ -1,11 +1,13 @@
-name: PR Template
+name: PR
 
 on:
     pull_request_target:
         types:
             - opened
+            - reopened
             - edited
             - synchronize
+            - labeled
 
 permissions:
     contents: read
@@ -13,8 +15,95 @@ permissions:
     issues: write
 
 jobs:
-    validate:
-        name: Validate
+    label:
+        name: Label
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Check changed paths
+              id: changes
+              uses: dorny/paths-filter@v3
+              with:
+                  filters: |
+                      ci:
+                          - ".github/workflows/*"
+                          - "tests/*"
+                          - "util/*"
+                          - "package.json"
+                          - "package-lock.json"
+                          - "dnsconfig.js"
+                      domain:
+                          - "domains/*"
+                      documentation:
+                          - ".github/PULL_REQUEST_TEMPLATE.md"
+                          - ".github/copilot-instructions.md"
+                          - "README.md"
+                      r-william:
+                          - ".github/CODEOWNERS"
+                          - "CODE_OF_CONDUCT.md"
+                          - "CONTRIBUTING.md"
+                          - "SECURITY.md"
+                          - "TERMS_OF_SERVICE.md"
+                          - "LICENSE"
+
+            - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+              with:
+                  ref: ${{ github.event.repository.default_branch }}
+
+            - name: Check trusted user
+              id: check-trusted
+              continue-on-error: true
+              env:
+                  PR_AUTHOR_ID: ${{ github.event.pull_request.user.id }}
+              run: |
+                  node - <<'NODE'
+                  const trustedUsers = require("./util/trusted.json");
+
+                  const authorId = Number(process.env.PR_AUTHOR_ID);
+
+                  if (!trustedUsers.some((u) => u.id === authorId)) {
+                      console.log("PR author is not a trusted user.");
+                      process.exit(1);
+                  }
+
+                  console.log("PR author is a trusted user.");
+                  NODE
+
+            - name: Add labels
+              uses: actions/github-script@v8
+              env:
+                  CI_CHANGED: ${{ steps.changes.outputs.ci }}
+                  DOCUMENTATION: ${{ steps.changes.outputs.documentation }}
+                  DOMAIN_CHANGED: ${{ steps.changes.outputs.domain }}
+                  MAINTAINER: ${{ steps.check-trusted.outcome == 'success' }}
+                  R_WILLIAM: ${{ steps.changes.outputs.r-william }}
+              with:
+                  github-token: ${{ secrets.BOT }}
+                  script: |
+                      const labels = [];
+
+                      if (process.env.CI_CHANGED === "true") {
+                          labels.push("ci");
+                          labels.push("r: william");
+                      }
+                      if (process.env.DOCUMENTATION === "true") labels.push("documentation");
+                      if (process.env.DOMAIN_CHANGED === "true") labels.push("domain");
+                      if (process.env.MAINTAINER === "true") labels.push("maintainer");
+                      if (process.env.R_WILLIAM === "true") labels.push("r: william");
+
+                      const uniqueLabels = [...new Set(labels)];
+
+                      if (uniqueLabels.length) {
+                          await github.rest.issues.addLabels({
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number,
+                              labels: uniqueLabels
+                          });
+                      }
+
+    template:
+        name: Template
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
@@ -26,7 +115,10 @@ jobs:
               continue-on-error: true
               env:
                   PR_BODY: ${{ github.event.pull_request.body }}
-              run: node util/check-pr-template.js
+                  PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+                  PR_AUTHOR_ID: ${{ github.event.pull_request.user.id }}
+                  PR_LABELS: ${{ toJSON(github.event.pull_request.labels.*.name) }}
+              run: node util/check-pr-template.cjs
 
             - name: Handle incomplete PR
               if: steps.validate.outcome == 'failure'
@@ -95,13 +187,20 @@ jobs:
                               "",
                               "This pull request is missing required information from the PR template.",
                               "",
+                              "***Your PR will not be approved without the template being properly filled out!***",
+                              "",
                               "Please make sure that:",
                               "",
-                              "- Every required checkbox is checked.",
+                              "- The PR template has not been modified.",
+                              "  - *Modifying the PR template will make this check fail.*",
+                              "- All requirement checkboxes are checked.",
+                              "  - *All checkboxes must be changed exactly to `[x]`, NOT something like `[ x ]`.*",
                               "- **Website Preview** is filled out.",
+                              "  - *Make sure it is filled between the start/end comment markers.*",
                               "- **Website Purpose** is filled out.",
-                              "",
-                              "Once the template has been completed, this check will run again automatically."
+                              "  - *Make sure it is filled between the start/end comment markers.*",
+                              "---",
+                              "Once the template has been properly completed, this check will run again automatically."
                           ].join("\n");
 
                           await github.rest.issues.createComment({
