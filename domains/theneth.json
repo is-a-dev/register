@@ -4,6 +4,9 @@
     "email": "stheneth@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-landing-seven-tau.vercel.app"
+    "NS": [
+      "edward.ns.cloudflare.com",
+      "ximena.ns.cloudflare.com"
+    ]
   }
 }
