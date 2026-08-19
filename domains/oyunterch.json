@@ -4,7 +4,6 @@
     "email": "zodiacuuf@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=oyunterch.is-a.dev,25ab664c0c0995336e36"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
