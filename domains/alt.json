@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "ctrlaltspace"
-    },
-    "records": {
-        "CNAME": "ctrlaltspace.github.io"
-    }
+  "owner": {
+    "username": "ctrlaltspace"
+  },
+  "records": {
+    "CNAME": "ctrlaltspace.github.io"
+  }
 }
