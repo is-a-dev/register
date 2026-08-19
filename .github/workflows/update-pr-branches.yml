@@ -1,0 +1,41 @@
+name: Update PR Branches
+
+on:
+    push:
+        branches:
+            - main
+
+permissions:
+    contents: write
+    pull-requests: write
+
+jobs:
+    update:
+        name: Update
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Update branches
+              uses: actions/github-script@v8
+              with:
+                  github-token: ${{ secrets.BOT }}
+                  script: |
+                      const { data: prs } = await github.rest.pulls.list({
+                          owner: context.repo.owner,
+                          repo: context.repo.repo,
+                          state: "open"
+                      });
+
+                      for (const pr of prs) {
+                          try {
+                              await github.rest.pulls.updateBranch({
+                                  owner: context.repo.owner,
+                                  repo: context.repo.repo,
+                                  pull_number: pr.number
+                              });
+
+                              console.log(`Updated #${pr.number} (${pr.head.ref})`);
+                          } catch (error) {
+                              console.log(`Could not update #${pr.number}: ${error.message}`);
+                          }
+                      }
