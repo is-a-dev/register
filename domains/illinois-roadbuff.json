@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "illinois-roadbuff",
-        "email": "illinois_roadbuff@proton.me"
-    },
-    "records": {
-        "CNAME": "illinois-roadbuff.github.io"
-    }
+  "owner": {
+    "username": "illinois-roadbuff",
+    "email": "illinois_roadbuff@proton.me"
+  },
+  "records": {
+    "CNAME": "illinois-roadbuff.github.io"
+  }
 }
