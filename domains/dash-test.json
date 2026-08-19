@@ -4,6 +4,9 @@
     "email": "admin@is-a.dev"
   },
   "records": {
-    "NS": ["hank.ns.cloudflare.com", "megan.ns.cloudflare.com"]
+    "NS": [
+      "hank.ns.cloudflare.com",
+      "megan.ns.cloudflare.com"
+    ]
   }
 }
