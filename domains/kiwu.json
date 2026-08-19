@@ -1,9 +1,20 @@
 {
-    "owner": {
-        "username": "staridentity",
-        "discord": "whatifyousaidyeswouldgo"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "staridentity",
+    "discord": "whatifyousaidyeswouldgo"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "brevo-code:a3319400a629436ff8d741c6bfc863a3",
+      "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com",
+      "v=spf1 include:spf.improvmx.com include:spf.brevo.com ~all"
+    ]
+  }
 }

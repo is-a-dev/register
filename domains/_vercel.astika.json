@@ -4,6 +4,8 @@
     "email": "astika327@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=astika.is-a.dev,cae624ab62995ef5900c"]
+    "TXT": [
+      "vc-domain-verify=astika.is-a.dev,cae624ab62995ef5900c"
+    ]
   }
 }
