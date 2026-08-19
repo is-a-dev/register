@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "fairen"
-    },
-    "records": {
-        "CNAME": "fairen.github.io"
-    }
+  "owner": {
+    "username": "fairen"
+  },
+  "records": {
+    "CNAME": "fairen.github.io"
+  }
 }
