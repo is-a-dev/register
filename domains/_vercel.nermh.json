@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "Nermhy"
+        "username": "Nermhy",
+        "email": "nermhy@gmail.com"
     },
     "records": {
         "TXT": "vc-domain-verify=is-a.dev,8a86714a5bf382f6c186"
