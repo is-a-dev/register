@@ -4,6 +4,20 @@
     "email": "sabbirb228@gmail.com"
   },
   "records": {
-    "CNAME": "sabbir28.github.io"
+    "A": "216.198.79.1",
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      "_vercel=vc-domain-verify=s28.is-a.dev,4d4600e76bf2cf7410c2",
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
   }
 }
