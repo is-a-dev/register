@@ -49,8 +49,8 @@ jobs:
                                   owner: context.repo.owner,
                                   repo: context.repo.repo,
                                   name: label,
-                                  color: "d73a4a",
-                                  description: "The PR template has not been completely filled out."
+                                  color: "D93F0B",
+                                  description: "Your PR template is not complete. (e.g. missing the requirements form, missing website preview)"
                               });
                           } else {
                               throw error;
