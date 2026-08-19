@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "phamthanhhang208",
-        "email": "phamthanhhang.208@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "phamthanhhang208",
+    "email": "phamthanhhang.208@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
