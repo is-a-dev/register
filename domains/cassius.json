@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "cattiusw"
-    },
-    "records": {
-        "CNAME": "cattiusw.github.io"
-    }
+  "owner": {
+    "username": "cattiusw"
+  },
+  "records": {
+    "CNAME": "cattiusw.github.io"
+  }
 }
