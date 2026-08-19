@@ -5,7 +5,10 @@
   },
   "records": {
     "MX": [
-      { "target": "inbound-smtp.sa-east-1.amazonaws.com", "priority": 10 }
+      {
+        "target": "inbound-smtp.sa-east-1.amazonaws.com",
+        "priority": 10
+      }
     ]
   }
 }

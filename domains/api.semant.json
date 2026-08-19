@@ -5,6 +5,8 @@
     "email": "contact@semant.is-a.dev"
   },
   "records": {
-    "A": ["82.38.134.225"]
+    "A": [
+      "82.38.134.225"
+    ]
   }
 }
