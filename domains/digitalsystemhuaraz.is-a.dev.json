@@ -1,0 +1,19 @@
+{
+  "domain": "digitalsystemhuaraz.is-a.dev",
+  "owner": {
+    "email": "oscardg2708@gmail.com",
+    "username": "oscardg2708-cmd"
+  },
+  "proxied": false,
+  "record": {
+    "CNAME": "oscardg2708-cmd.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  },
+  "subdomain": "digitalsystemhuaraz"
+}
