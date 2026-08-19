@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Noelithub77",
-        "email": "noelmcv7@gmail.com"
-    },
-    "records": {
-        "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "Noelithub77",
+    "email": "noelmcv7@gmail.com"
+  },
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ]
+  }
 }
