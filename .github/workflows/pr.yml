@@ -126,13 +126,14 @@ jobs:
                       if (!alreadyCommented) {
                           const body = [
                               marker,
-                              "## ⚠️ NS record review required",
+                              "## ⚠️ Special review required",
                               "",
                               "This pull request contains a request for NS records and will need to be reviewed by the service owner.",
                               "",
-                              "Please ensure you have provided reasoning for needing NS records in your PR description, otherwise your request cannot be approved.",
+                              "***Please ensure you have provided reasoning for needing NS records in your PR description, otherwise your request cannot be approved.***",
+                              "",
                               "---",
-                              "***Do not mention the owner on this PR, he has already been notified.***"
+                              "*Do not alert or contact staff about this PR otherwise it will be set to low priority.*"
                           ].join("\n");
 
                           await github.rest.issues.createComment({
