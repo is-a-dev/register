@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "abeguerr01",
+    "email": "alejandro.beguer@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "jason.ns.cloudflare.com",
+      "molly.ns.cloudflare.com"
+    ]
+  }
+}
