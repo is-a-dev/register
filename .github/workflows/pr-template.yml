@@ -28,7 +28,7 @@ jobs:
                   PR_BODY: ${{ github.event.pull_request.body }}
                   PR_AUTHOR: ${{ github.event.pull_request.user.login }}
                   PR_AUTHOR_ID: ${{ github.event.pull_request.user.id }}
-              run: node util/check-pr-template.js
+              run: node util/check-pr-template.cjs
 
             - name: Handle incomplete PR
               if: steps.validate.outcome == 'failure'
