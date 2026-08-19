@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "SimonJuri",
-        "email": "simonjuri04@gmail.com"
-    },
-    "records": {
-        "CNAME": "simonjuri.pages.dev"
-    }
+  "owner": {
+    "username": "SimonJuri",
+    "email": "simonjuri04@gmail.com"
+  },
+  "records": {
+    "CNAME": "simonjuri.pages.dev"
+  }
 }
