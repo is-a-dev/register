@@ -3,7 +3,7 @@
     "username": "kuxhaan7",
     "email": "kushaankaushik007@gmail.com"
   },
-  "description": "Shelby - Personal Assistant for hosted on GCP with Terraform Config",
+  "description": "Shelby - Personal Assistant for hosted on GCP with multi - tenant Terraform Config",
   "repo": "https://github.com/kuxhaan7/Shelby-AI",
   "records":{
     "CNAME": "ghs.googlehosted.com"
