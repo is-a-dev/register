@@ -3,7 +3,7 @@
     "username": "ashiffrontend",
     "email": "mohdashif.dev@gmail.com"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
+  "record": {
+    "URL": "https://mohammad-ashif-portfolio.vercel.app"
   }
 }
