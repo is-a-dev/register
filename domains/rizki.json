@@ -1,9 +1,15 @@
 {
   "owner": {
-    "username": "RzkyF",
-    "email": "rizkifadillah616@outlook.co.id"
+    "username": "Rizkijack",
+    "email": "106044433+Rizkijack@users.noreply.github.com"
   },
   "records": {
-    "CNAME": "rzkyf.github.io"
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
   }
 }
