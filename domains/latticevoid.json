@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "latticevoid"
+    "username": "latticevoid",
+    "email": "latticevoid@outlook.com"
   },
   "records": {
     "CNAME": "latticevoid.pages.dev"
