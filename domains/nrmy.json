@@ -1,5 +1,9 @@
-
 {
-  "name": "nrmy",
-  "description": "Moje doména"
+  "owner": {
+    "username": "normyhraje-sudo",
+    "email": "normyhraje@gmail.com"
+  },
+  "records": {
+    "CNAME": "normyhraje-sudo.github.io"
+  }
 }
