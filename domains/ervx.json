@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "ervxbit"
+    "username": "ervxbit",
+    "email": "ervxbit@duck.com"
   },
   "records": {
     "CNAME": "ervx-is-a-dev.ervxbit.workers.dev"
