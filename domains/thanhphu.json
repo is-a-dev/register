@@ -1,4 +1,11 @@
-"NS": [
-  "norm.ns.cloudflare.com",
-  "wanda.ns.cloudflare.com"
-]
+{
+  "owner": {
+    "username": "clonefbdtphu"
+  },
+  "record": {
+    "NS": [
+      "norm.ns.cloudflare.com",
+      "wanda.ns.cloudflare.com"
+    ]
+  }
+}
