@@ -1,7 +1,6 @@
 {
   "owner": {
-    "username": "MaseDev33",
-    "email": "contact@virexo.is-a.dev"
+    "username": "MaseDev33"
   },
   "records": {
     "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYhPlgM2ZH4buH7kcmi853sCam56y+js5HfeiJCp7k3nT7Cb2x+AATUgYOiyXJZR+FIoQpp4PpRekN3LkTcOQgjyEAq2BeiMGAkYzOikZIM81bPDpclfOlvQ4uMydMlElf2rJNRR/YJQq312i5MjtTNAZnw3iDzA9ogusS+xSaFQIDAQAB"
