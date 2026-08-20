@@ -33,6 +33,9 @@ jobs:
             - name: Create CNAME
               run: echo "raw.is-a.dev" > raw-api/CNAME
 
+            - name: Create timestamp
+              run: echo "$(date +%s%3N)" > raw-api/timestamp
+
             - name: Commit
               uses: cpina/github-action-push-to-another-repository@55306faa4ed53b815ae49e564af8cfb359d32ae2 # v1.7.3
               with:
