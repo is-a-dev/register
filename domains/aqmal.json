@@ -1,9 +1,12 @@
 {
     "owner": {
-        "username": "A-Q-M-A-L"
+        "username": "A-Q-M-A-L",
+        "email": "aqmalfaraz@gmail.com"
     },
     "records": {
         "CNAME": "ox11v94p.up.railway.app",
-        "TXT": "railway-verify=b73a6934bc3328e1e4db51272b06018ab05106b58a8f73e0b556b0547981a49f"
+        "TXT": {
+            "_railway-verify": "railway-verify=b73a6934bc3328e1e4db51272b06018ab05106b58a8f73e0b556b0547981a49f"
+        }
     }
 }
