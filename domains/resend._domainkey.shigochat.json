@@ -1,0 +1,10 @@
+{
+  "description": "Resend DKIM for ShigoChat transactional email",
+  "owner": {
+    "username": "bbfosho0",
+    "email": "yoshigomezgutierrez@gmail.com"
+  },
+  "records": {
+    "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCaxwaP8bKCJ7zSxDZ9HohsTxIh6z6Oje8PLmnPmNy1mbOGAw1gzFhxW2z/9kGSQVf0JcnAxX3spBGDlVe879p+upsdDxLQNUmm8mkYbzO4KePYOQnTKgLGYLQfWtkPPH9ee6hFWDsRz8fN3JoWUz9cobUMHjF1x6MmQKVggF6BuQIDAQAB"
+  }
+}
