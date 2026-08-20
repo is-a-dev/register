@@ -1,0 +1,9 @@
+{
+  "description": "YeShanPVP 官方伺服器規則網站",
+  "owner": {
+    "username": "YeShan-TW"
+  },
+  "record": {
+    "CNAME": "yeshan-tw.github.io"
+  }
+}
