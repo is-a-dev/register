@@ -1,0 +1,10 @@
+amirant.json
+{
+  "owner": {
+    "username": "<שם המשתמש שלך ב-GitHub>",
+    "email": "yanay.pereg10@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
+}
