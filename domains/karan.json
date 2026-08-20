@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "balanikaran"
+    "username": "karan-jadhav",
+    "email": "karan@jadhav.dev"
   },
-  "record": {
-    "CNAME": "karanbalani.com"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

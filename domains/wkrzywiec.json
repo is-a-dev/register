@@ -1,11 +1,9 @@
 {
-  "description": "My blog and portfolio",
-  "repo": "https://github.com/wkrzywiec/wkrzywiec.github.io",
   "owner": {
     "username": "wkrzywiec",
     "twitter": "wkrzywiec"
   },
-  "record": {
+  "records": {
     "CNAME": "wkrzywiec.github.io"
   }
 }

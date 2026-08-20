@@ -131,3 +131,4 @@ dist
 
 # Custom
 .DS_Store
+*.js

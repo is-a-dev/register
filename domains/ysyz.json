@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "yishuiyizhong",
-    "email": "sife@sife.is-a.dev"
+    "username": "yishuiyizhong"
   },
-  "record": {
+  "records": {
     "CNAME": "yishuiyizhong.github.io"
   }
 }

@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "rajesh-reddy1",
-        "email": "mrrajeshreddy1@gmail.com",
-        "discord": "suuiii_1"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=rajeshreddy.is-a.dev,400e697edc993cbbeab7"
-    }
+  "owner": {
+    "username": "rajesh-reddy1",
+    "email": "mrrajeshreddy1@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=rajeshreddy.is-a.dev,400e697edc993cbbeab7"
+  }
 }

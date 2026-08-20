@@ -1,10 +1,14 @@
 {
-  "description": "Personal Portfolio",
   "owner": {
-    "username": "FahadAminShovon",
-    "email": "shovonfahad991@gmail.com"
+    "username": "FahadNaeem424",
+    "email": "fahadnaeem424@gmail.com"
   },
-  "record": {
-    "CNAME": "market-portfolio.vercel.app"
+  "records": {
+    "A": [
+      "129.213.59.48"
+    ],
+    "TXT": [
+      "google-site-verification=ludJGhRzKY4s55kQVRAsemxDntFBt2HBpALRfcSJOPk"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "jakeharrison90",
-    "email": "overtonmarke@gmail.com"
+    "username": "jartf",
+    "email": "gh@jar.tf"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=z.is-a.dev,9be8de01c9c241334606"]
+  "records": {
+    "TXT": "vc-domain-verify=z.is-a.dev,423c7e1a8ec177b08498"
   }
 }

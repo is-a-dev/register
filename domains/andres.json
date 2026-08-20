@@ -3,7 +3,9 @@
     "username": "eneru2",
     "email": "elementaov@gmail.com"
   },
-  "record": {
-    "A": ["130.61.184.180"]
+  "records": {
+    "A": [
+      "130.61.184.180"
+    ]
   }
 }

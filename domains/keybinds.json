@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "tr1xem",
-    "email": "admin@trix.is-a.dev"
+    "username": "tr1xem"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.110.153",
       "185.199.109.153",

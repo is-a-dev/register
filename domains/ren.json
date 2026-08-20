@@ -1,11 +1,10 @@
 {
-  "description": "is-a.dev subdomain for my portfolio",
-  "repo": "https://github.com/rendotpy/portfolio",
   "owner": {
-    "username": "rendotpy",
-    "email": "arugh3@gmail.com"
+    "username": "ultragamer135",
+    "email": "elinero27@gmail.com",
+    "discord": "ultragamer135"
   },
-  "record": {
-    "CNAME": "rendotpy.github.io"
+  "records": {
+    "URL": "https://tilde.town/~ren"
   }
 }

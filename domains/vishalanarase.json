@@ -1,12 +1,10 @@
 {
-  "description": "Subdomain for my personal portfolio",
-  "repo": "https://github.com/vishalanarase/vishalanarase.github.io",
   "owner": {
     "username": "vishalanarase",
     "email": "iamvishalanarase@gmail.com",
     "twitter": "vishalanarase"
   },
-  "record": {
+  "records": {
     "CNAME": "vishalanarase.github.io"
   }
 }

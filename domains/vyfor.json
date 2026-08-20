@@ -1,11 +1,9 @@
 {
-  "description": "minimal portfolio",
-  "repo": "https://github.com/vyfor/page",
   "owner": {
     "username": "vyfor",
     "discord": "vyfor"
   },
-  "record": {
+  "records": {
     "CNAME": "vyfor.pages.dev"
   }
 }

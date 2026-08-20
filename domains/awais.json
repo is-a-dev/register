@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio website for Awais Khan Niazi",
-  "repo": "https://github.com/askhan963/register",
   "owner": {
     "username": "askhan963",
     "email": "awaisknas963@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "awaiskhanniazi.netlify.app"
   },
   "proxied": false

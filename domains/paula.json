@@ -3,8 +3,12 @@
     "username": "pbabbicola",
     "email": "paula.babbicola@gmail.com"
   },
-  "record": {
-    "A": ["185.26.156.151"],
-    "AAAA": ["2a00:d0c0:200:0:64fc:adff:fef0:8a72"]
+  "records": {
+    "A": [
+      "185.26.156.151"
+    ],
+    "AAAA": [
+      "2a00:d0c0:200:0:64fc:adff:fef0:8a72"
+    ]
   }
 }

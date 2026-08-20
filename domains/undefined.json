@@ -5,7 +5,10 @@
     "email": "baokhang4930@gmail.com",
     "twitter": "undefiined__"
   },
-  "record": {
-    "NS": ["elijah.ns.cloudflare.com", "jo.ns.cloudflare.com"]
+  "records": {
+    "NS": [
+      "elijah.ns.cloudflare.com",
+      "jo.ns.cloudflare.com"
+    ]
   }
 }

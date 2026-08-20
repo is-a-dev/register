@@ -1,11 +1,9 @@
 {
-  "description": "Shirish Satish Shinde's Portfolio",
-  "repo": "https://github.com/MasterShirishShinde/MasterShirishShinde.github.io",
   "owner": {
     "username": "MasterShirishShinde",
     "email": "shirishshinde2605@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mastershirishshinde.github.io"
   }
 }

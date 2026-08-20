@@ -3,7 +3,9 @@
     "username": "DevZerow",
     "email": "zerow.pro@protonmail.com"
   },
-  "record": {
-    "MX": ["mail.zerow.is-a.dev"]
+  "records": {
+    "MX": [
+      "mail.zerow.is-a.dev"
+    ]
   }
 }

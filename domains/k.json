@@ -3,7 +3,10 @@
     "username": "MaskDuck",
     "discord": "716134528409665586"
   },
-  "record": {
-    "NS": ["ada.ns.cloudflare.com", "albert.ns.cloudflare.com"]
+  "records": {
+    "NS": [
+      "ada.ns.cloudflare.com",
+      "albert.ns.cloudflare.com"
+    ]
   }
 }

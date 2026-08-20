@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "atom-tr",
-        "email": "thai.tr@hotmail.com",
-        "discord": "423327141921423361"
-    },
-    "record": {
-        "CNAME": "astro-erudite.pages.dev"
-    },
-    "repo": "https://github.com/atom-tr/astro-erudite"
+  "owner": {
+    "username": "atom-tr",
+    "email": "thai.tr@hotmail.com",
+    "discord": "423327141921423361"
+  },
+  "records": {
+    "CNAME": "astro-erudite.pages.dev"
+  },
+  "repo": "https://github.com/atom-tr/astro-erudite"
 }

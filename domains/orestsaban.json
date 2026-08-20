@@ -1,10 +1,9 @@
 {
   "description": "My personality web page",
   "owner": {
-    "username": "OrestSaban",
-    "email": "OrestSaban@OrestSaban.is-a.dev"
+    "username": "OrestSaban"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.108.153",
       "185.199.109.153",

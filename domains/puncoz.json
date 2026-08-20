@@ -3,7 +3,10 @@
     "username": "puncoz",
     "discord": "333515022565113856"
   },
-  "record": {
-    "NS": ["bruce.ns.cloudflare.com", "coco.ns.cloudflare.com"]
+  "records": {
+    "NS": [
+      "bruce.ns.cloudflare.com",
+      "coco.ns.cloudflare.com"
+    ]
   }
 }

@@ -1,10 +1,9 @@
 {
-  "description": "Art's personal developer website",
   "owner": {
-    "username": "dotiful",
-    "email": "dots.util@gmail.com"
+    "username": "artempl88",
+    "email": "artempl88@gmail.com"
   },
-  "record": {
-    "CNAME": "dotiful.github.io"
+  "records": {
+    "CNAME": "artempl88-portfolio.pages.dev"
   }
 }

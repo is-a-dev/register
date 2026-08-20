@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "DevMatei",
-    "email": "contact@devmatei.is-a.dev"
+    "username": "DevMatei"
   },
-  "record": {
+  "records": {
     "A": ["75.2.60.5"]
   }
 }
