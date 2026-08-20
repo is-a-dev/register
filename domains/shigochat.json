@@ -1,0 +1,10 @@
+{
+  "description": "ShigoChat - real-time messaging application",
+  "owner": {
+    "username": "bbfosho0",
+    "email": "yoshigomezgutierrez@gmail.com"
+  },
+  "records": {
+    "CNAME": "shigochat.onrender.com"
+  }
+}
