@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "motaz11w",
-    "email": "motaz166619697@gmail.com"
-  },
-  "records": {
-    "URL": "https://nebulagame.vercel.app"
-  }
+    "owner": {
+        "username": "motaz11w",
+        "email": "motaz166619697@gmail.com"
+    },
+    "record": {
+        "CNAME": "nebulagame.vercel.app"
+    }
 }
