@@ -1,0 +1,16 @@
+{
+  "description": "Resend SPF and Return-Path for ShigoChat transactional email",
+  "owner": {
+    "username": "bbfosho0",
+    "email": "yoshigomezgutierrez@gmail.com"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "feedback-smtp.us-east-1.amazonses.com",
+        "priority": 10
+      }
+    ],
+    "TXT": "v=spf1 include:amazonses.com ~all"
+  }
+}
