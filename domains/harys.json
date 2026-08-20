@@ -1,13 +1,10 @@
 {
   "owner": {
     "username": "harys722",
-    "discord": "1203357768610746385",
-    "email": "contact@harys.is-a.dev"
+    "discord": "1203357768610746385"
   },
   "records": {
-    "A": [
-      "76.76.21.21"
-    ],
+    "A": ["76.76.21.21"],
     "TXT": [
       "zoho-verification=zb21864535.zmverify.zoho.com",
       "v=spf1 include:zohomail.com ~all",
