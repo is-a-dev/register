@@ -1,7 +1,6 @@
 {
   "owner": {
     "username": "justdevw",
-    "email": "support@juststudio.is-a.dev",
     "discord": "1117482901353812088"
   },
   "records": {
@@ -11,11 +10,7 @@
       "185.199.110.153",
       "185.199.111.153"
     ],
-    "MX": [
-      "mx.zoho.eu",
-      "mx2.zoho.eu",
-      "mx3.zoho.eu"
-    ],
+    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
     "TXT": [
       "v=spf1 include:zohomail.eu ~all",
       "google-site-verification=qUvCromdvfxnS6LXzcxcha5rEsHUzBxl9nZH6sT3Dk4",
