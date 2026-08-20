@@ -4,6 +4,6 @@
     "email": "ngovietdung0112@gmail.com"
   },
   "records": {
-    "CNAME": "my-portfolio-green-ten-52.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
