@@ -3,8 +3,7 @@
     "username": "Kaiz-2",
     "email": "kizzyrnam@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "kaiz-site.pages.dev"
-  },
-  "proxied": false
+  }
 }
