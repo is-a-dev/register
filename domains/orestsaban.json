@@ -1,8 +1,7 @@
 {
   "description": "My personality web page",
   "owner": {
-    "username": "OrestSaban",
-    "email": "OrestSaban@OrestSaban.is-a.dev"
+    "username": "OrestSaban"
   },
   "records": {
     "A": [
@@ -11,9 +10,6 @@
       "185.199.110.153",
       "185.199.111.153"
     ],
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ]
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"]
   }
 }
