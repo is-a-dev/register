@@ -4,7 +4,6 @@
     "email": "naveeensrikanth008@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=naveens.is-a.dev,4efab21f7141f4da6560"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
