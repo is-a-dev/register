@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "latticevoid"
+  },
+  "records": {
+    "CNAME": "latticevoid.pages.dev"
+  }
+}
