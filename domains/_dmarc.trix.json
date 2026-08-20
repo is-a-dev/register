@@ -1,11 +1,8 @@
 {
   "owner": {
-    "username": "tr1xem",
-    "email": "admin@trix.is-a.dev"
+    "username": "tr1xem"
   },
   "records": {
-    "TXT": [
-      "v=DMARC1; p=none;"
-    ]
+    "TXT": ["v=DMARC1; p=none;"]
   }
 }
