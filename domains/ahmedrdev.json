@@ -4,6 +4,8 @@
     "email": "145340034+ahmed-r1@users.noreply.github.com"
   },
   "records": {
-    "CNAME": "my-portfolio.ahmedrdev10.workers.dev"
+    "A": [
+      "192.0.2.1"
+    ]
   }
 }
