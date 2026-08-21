@@ -4,7 +4,7 @@
     "email": "cao30332@gmail.com"
   },
   "records": {
-    "CNAME": "sim-portfolio-api.cao30332.workers.dev"
+    "CNAME": "https://sim-portfolio-api.cao30332.workers.dev/"
   },
   "proxied": true
 }
