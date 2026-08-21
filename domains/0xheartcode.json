@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "0xheartcode",
-        "email": "0xheartcode@gmail.com"
-    },
-    "records": {
-        "CNAME": "0xheartcode.github.io"
-    }
+  "owner": {
+    "username": "0xheartcode",
+    "email": "0xheartcode@gmail.com"
+  },
+  "records": {
+    "CNAME": "0xheartcode.github.io"
+  }
 }
