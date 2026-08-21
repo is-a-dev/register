@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "AyaanDh",
-        "email": "ayaan@ayaan.is-a.dev"
-    },
-    "records": {
-        "CNAME": "AyaanDh.github.io"
-    }
+  "owner": {
+    "username": "AyaanDh"
+  },
+  "records": {
+    "CNAME": "AyaanDh.github.io"
+  }
 }

@@ -1,6 +1,12 @@
-name: Prettifier
+name: Prettier
 
 on:
+    push:
+        branches: [main]
+        paths:
+            - ".prettierrc"
+            - ".github/workflows/prettier.yml"
+
     schedule:
         - cron: "0 0 * * 0" # Runs every week on Sunday
 
@@ -22,14 +28,14 @@ jobs:
 
             - run: npm ci
 
-            - name: Run the prettifier and open a PR if it changed something
+            - name: Run Prettier and open PR
               run: |
                   set -euo pipefail
 
-                  git config --global user.email "actions@github.com"
-                  git config --global user.name "GitHub Actions"
+                  git config --global user.email "bot@is-a.dev"
+                  git config --global user.name "is-a-dev-bot"
 
-                  BRANCH="prettify-json-files"
+                  BRANCH="prettier-$(date +%s%3N)"
 
                   git push origin --delete "$BRANCH" 2>/dev/null || true
 
@@ -43,9 +49,9 @@ jobs:
 
                   git add .
                   COUNT=$(git status -s -uno | wc -l)
-                  git commit -m "chore(domains): prettify all json files"
+                  git commit -m "chore(domains): prettier"
                   git push --set-upstream origin "$BRANCH"
 
-                  gh pr create -l maintainer -t "chore(domains): prettify all json files" -b "$COUNT file(s) have been modified."
+                  gh pr create -l maintainer -t "chore(domains): prettier" -b "$COUNT file(s) have been prettified."
               env:
-                  GH_TOKEN: ${{ github.token }}
+                  GH_TOKEN: ${{ secrets.BOT }}
