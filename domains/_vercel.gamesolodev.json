@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "samuelbanapour",
+    "email": "samuel.banapour100@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=gamesolodev.is-a.dev,f842b994c4dd9989e23f",
+      "vc-domain-verify=neonpong.gamesolodev.is-a.dev,3b85b8c880b2d4bb9d91",
+      "vc-domain-verify=breachprotocol.gamesolodev.is-a.dev,59ca308730616d79cdad"
+    ]
+  }
+}

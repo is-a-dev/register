@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "notamitgamer",
+    "email": "amitdutta4255@gmail.com"
+  },
+  "records": {
+    "MX": [
+      {
+        "priority": 10,
+        "target": "feedback-smtp.ap-northeast-1.amazonses.com"
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all"
+    ]
+  },
+  "proxied": false
+}

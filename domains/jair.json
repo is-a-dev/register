@@ -1,0 +1,11 @@
+{
+  "description": "Portfólio Jair Rodrigues",
+  "repo": "https://github.com/JairRodrigue/portfolio-public",
+  "owner": {
+    "username": "JairRodrigue",
+    "email": "jairodrigues99@gmail.com"
+  },
+  "records": {
+    "CNAME": "jair-portfolio.vercel.app"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "N0rule",
+    "email": "N0rule228@gmail.com"
+  },
+  "records": {
+    "A": [
+      "152.70.172.53"
+    ],
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 5,
+        "port": 25565,
+        "target": "mc.n0rule.is-a.dev"
+      }
+    ]
+  }
+}

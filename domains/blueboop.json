@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "Nicholas-Tritsaris",
+    "email": "nicholas.tritsaris13@bk.ru"
+  },
+  "records": {
+    "CNAME": "nicholas-tritsaris.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  },
+  "proxied": true
+}

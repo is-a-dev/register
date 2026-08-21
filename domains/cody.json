@@ -4,6 +4,21 @@
     "email": "codingamazing224@outlook.com"
   },
   "records": {
-    "CNAME": "hi-im-cody.pages.dev"
-  }
+    "CNAME": "hi-im-cody.pages.dev",
+    "MX": [
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 30
+      }
+    ]
+  },
+  "proxied": true
 }

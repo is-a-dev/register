@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "fawwazanvilen",
-    "email": "fawwazanvi@gmail.com"
+    "username": "fawwazkw",
+    "email": "fawwazkwidyadhana@gmail.com"
   },
   "records": {
-    "CNAME": "fawwaz.anvilen.space"
+    "A": [
+      "168.110.207.188"
+    ]
   }
 }

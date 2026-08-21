@@ -1,0 +1,11 @@
+{
+  "description": "Verificación de Vercel para portafolio",
+  "repo": "https://github.com/AGCastilloNamuche/portafolio-dev",
+  "owner": {
+    "username": "AGCastilloNamuche",
+    "email": "castillonamucheanthonygapierre@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=gianpierre.is-a.dev,0e5a0ae69dd97c634dd5"
+  }
+}

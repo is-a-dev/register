@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "alexgamingstudio"
+  },
+  "description": "Dedicated support site for Alex Gaming",
+  "proxied": true,
+  "records": {
+    "CNAME": "alexgaming-dev.github.io"
+  }
+}
