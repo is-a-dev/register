@@ -1,0 +1,10 @@
+{
+  "description": "Satva's personal URL shortener",
+  "owner": {
+    "username": "stva01",
+    "email": "satvalite@gmail.com"
+  },
+  "records": {
+    "CNAME": "satva-urls-nine.vercel.app"
+  }
+}
