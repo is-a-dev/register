@@ -1,11 +1,8 @@
 {
   "owner": {
-    "username": "MaseDev33",
-    "email": "mase@masecodes.is-a.dev"
+    "username": "MaseDev33"
   },
   "records": {
-    "A": [
-      "104.16.243.55"
-    ]
+    "A": ["104.16.243.55"]
   }
 }
