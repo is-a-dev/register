@@ -4,14 +4,6 @@
     "email": "pramudithanadun@gmail.com"
   },
   "records": {
-    "CNAME": "f04f67516bc66a48.vercel-dns-017.com",
-    "TXT": "vc-domain-verify=www.pramuditha.is-a.dev,479fd6f37a93995b6f97"
-  },
-  "subdomains": {
-    "www": {
-      "records": {
-        "CNAME": "f04f67516bc66a48.vercel-dns-017.com"
-      }
-    }
+    "CNAME": "f04f67516bc66a48.vercel-dns-017.com"
   }
 }
