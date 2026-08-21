@@ -1,12 +1,9 @@
 {
   "description": "Short link to justdeveloer.is-a.dev",
   "owner": {
-    "username": "justdevw",
-    "email": "justdeveloper@juststudio.is-a.dev"
+    "username": "justdevw"
   },
   "records": {
-    "A": [
-      "89.106.200.1"
-    ]
+    "A": ["89.106.200.1"]
   }
 }
