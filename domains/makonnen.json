@@ -4,8 +4,7 @@
     "email": "bundamulima@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc=vercel"
+    "CNAME": "cname.vercel-dns.com"
   },
-  "proxied": true
+  "proxied": false
 }
