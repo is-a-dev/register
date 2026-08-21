@@ -1,18 +1,6 @@
-name: Update PR Branches
+name: PR Branches
 
 on:
-    push:
-        branches: main
-        paths:
-            - "tests/*"
-            - ".github/workflows/ci.yml"
-            - ".github/workflows/pr.yml"
-            - "util/check-pr-template.cjs"
-            - "util/disallowed-cnames.json"
-            - "util/internal.json"
-            - "util/reserved.json"
-            - "util/trusted.json"
-
     workflow_dispatch:
 
 jobs:
