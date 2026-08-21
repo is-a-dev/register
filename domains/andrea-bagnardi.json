@@ -1,0 +1,10 @@
+{
+  "description": "Personal portfolio",
+  "owner": {
+    "username": "andrea-bagnardi",
+    "email": "andrea.bagnardi+isadev@gmail.com"
+  },
+  "records": {
+    "CNAME": "andrea-bagnardi.github.io"
+  }
+}
