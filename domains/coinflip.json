@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "COIN254"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=coinflip.is-a.dev,82def3a985e4df6bea70"
+  }
+}
