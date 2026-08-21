@@ -1,18 +1,10 @@
 {
   "owner": {
-    "username": "Kevlarclint",
-    "email": "dev@clintlorenzo.is-a.dev"
+    "username": "Kevlarclint"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ],
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
-    "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
-    ]
+    "A": ["216.198.79.1"],
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   }
 }
