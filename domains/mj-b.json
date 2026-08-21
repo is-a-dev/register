@@ -1,7 +1,8 @@
 {
   "description": "Trading bot creat pentru teste a pietei facut in scop educational si de interes personal",
   "owner": {
-    "username": "MichaelJosu"
+    "username": "MichaelJosu",
+    "email": "josu.mishanea@gmail.com"
   },
   "records": {
     "CNAME": "mh-b.pages.dev"
