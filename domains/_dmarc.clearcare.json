@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "alkly7144-source",
+    "email": "alkly7144@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
