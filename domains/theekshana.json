@@ -3,7 +3,9 @@
     "username": "theeekshana",
     "email": "theekshana.beatz@gmail.com"
   },
+  "proxied": true,
   "records": {
-    "CNAME": "daa97b4dd93f21bf.vercel-dns-017.com"
+    "CNAME": "14bbac285cbfb497.vercel-dns-017.com.",
+    "TXT": "vc-domain-verify=www.theekshana.is-a.dev,e3f5cecb2bc51241e8ce"
   }
 }
