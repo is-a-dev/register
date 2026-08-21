@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "matorazerstudio"
+  },
+  "records": {
+    "CNAME": "turnara.vercel.app"
+  }
+}
