@@ -1,8 +1,7 @@
 {
   "description": "site",
   "owner": {
-    "username": "fakename131",
-    "email": "fake@fake.is-a.dev"
+    "username": "fakename131"
   },
   "records": {
     "A": ["75.2.60.5"],

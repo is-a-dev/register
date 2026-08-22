@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "DmitriyMgar",
-        "email": "i@dmgar.ru"
-    },
-    "records": {
-        "CNAME": "dmgar.vercel.app"
-    }
+  "owner": {
+    "username": "DmitriyMgar",
+    "email": "i@dmgar.ru"
+  },
+  "records": {
+    "CNAME": "dmgar.vercel.app"
+  }
 }
