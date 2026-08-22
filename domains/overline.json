@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "OverlineDev"
-    },
-    "records": {
-        "CNAME": "overlinedev.github.io"
-    }
+  "owner": {
+    "username": "OverlineDev"
+  },
+  "records": {
+    "CNAME": "overlinedev.github.io"
+  }
 }

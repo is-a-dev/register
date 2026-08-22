@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "dsalz",
-        "email": "salisu.damola@yahoo.com"
-    },
-    "records": {
-        "CNAME": "dsalz.github.io"
-    }
+  "owner": {
+    "username": "dsalz",
+    "email": "salisu.damola@yahoo.com"
+  },
+  "records": {
+    "CNAME": "dsalz.github.io"
+  }
 }
