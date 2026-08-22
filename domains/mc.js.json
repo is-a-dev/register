@@ -1,12 +1,8 @@
 {
   "owner": {
-    "username": "justdevw",
-    "email": "dev@j.is-a.dev"
+    "username": "justdevw"
   },
   "records": {
-    "NS": [
-      "galileo.aternos.org",
-      "columbus.aternos.org"
-    ]
+    "NS": ["galileo.aternos.org", "columbus.aternos.org"]
   }
 }
