@@ -4,6 +4,9 @@
         "email": "info.andreamascolo@gmail.com"
     },
     "records": {
-        "CNAME": "mascoloandrea.github.io"
+        "CNAME": "mascoloandrea.github.io",
+        "TXT": [
+              "v=DMARC1; p=none;"
+            ]
     }
 }
