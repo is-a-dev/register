@@ -4,6 +4,8 @@
     "email": "utku_guclu@hotmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=utku.is-a.dev,6bc65a847c34e4e98c06"]
+    "TXT": [
+      "vc-domain-verify=utku.is-a.dev,6bc65a847c34e4e98c06"
+    ]
   }
 }

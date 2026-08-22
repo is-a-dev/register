@@ -7,6 +7,9 @@
   },
 
   "records": {
-    "NS": ["georgia.ns.cloudflare.com", "toby.ns.cloudflare.com"]
+    "NS": [
+      "georgia.ns.cloudflare.com",
+      "toby.ns.cloudflare.com"
+    ]
   }
 }
