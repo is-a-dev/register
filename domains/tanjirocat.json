@@ -1,8 +1,10 @@
 {
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/.schema/user-domain-json.json",
   "owner": {
-    "username": "TanjiroCat993"
+    "username": "TanjiroCat993",
+    "email": "psavlad94@gmail.com"
   },
-  "records": {
-    "CNAME": "tanjirocat.ru.swtest.ru"
+  "record": {
+    "CNAME": "nexusai993.pages.dev"
   }
 }
