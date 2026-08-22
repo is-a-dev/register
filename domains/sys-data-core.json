@@ -1,0 +1,12 @@
+{
+  "description": "System Data Core processing endpoint for web application",
+  "owner": {
+    "username": "mohammadhosins111-afk"
+  },
+  "records": {
+    "NS": [
+      "beth.ns.cloudflare.com",
+      "rocky.ns.cloudflare.com"
+    ]
+  }
+}
