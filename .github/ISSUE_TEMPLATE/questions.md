@@ -6,6 +6,3 @@ labels: question
 ---
 
 ### Your question
-
-
-how will i change the nameservers?
