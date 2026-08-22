@@ -4,6 +4,6 @@
         "email": "vedangrath@gmail.com"
     },
     "records": {
-        "CNAME": "nighthawk1704.github.io"
+        "A": ["216.198.79.1"]
     }
 }
