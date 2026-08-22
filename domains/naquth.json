@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "naquth",
-        "email": "naquth@outlook.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "naquth",
+    "email": "naquth@outlook.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
