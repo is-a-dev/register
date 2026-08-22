@@ -1,7 +1,6 @@
 {
   "owner": {
-    "username": "tr1xem",
-    "email": "admin@trix.is-a.dev"
+    "username": "tr1xem"
   },
   "records": {
     "MX": [
@@ -10,8 +9,6 @@
         "priority": 10
       }
     ],
-    "TXT": [
-      "v=spf1 include:amazonses.com ~all"
-    ]
+    "TXT": ["v=spf1 include:amazonses.com ~all"]
   }
 }
