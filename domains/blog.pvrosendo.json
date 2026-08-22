@@ -3,7 +3,9 @@
     "username": "pvrosendo",
     "email": "paulovitor.rsd@gmail.com"
   },
-  "record": {
-    "CNAME": "9a3f5029283d817c.vercel-dns-017.com."
+  "records": {
+    "CNAME": [
+        "9a3f5029283d817c.vercel-dns-017.com."
+    ]
   }
 }
