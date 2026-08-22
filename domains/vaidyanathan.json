@@ -1,15 +1,11 @@
 {
   "owner": {
-    "username": "vaidyanathan285"
+    "username": "vaidyanthan285"
   },
   "records": {
-    "A": "216.198.79.1",
-    "CNAME": {
-      "www": "5cbc3d759e9f17e.vercel-dns-017.com"
-    },
+    "CNAME": "vaidyanathang.vercel.app",
     "TXT": [
-      "vc-domain-verify=vaidyanathan.is-a.dev,a21a986e4308e49aa4b1",
-      "vc-domain-verify=www.vaidyanathan.is-a.dev,7c5586e663e9d5f77e0f"
+      "vc-domain-verify=vaidyanathan.is-a.dev,a21a986e4308e49aa4b1"
     ]
   }
 }
