@@ -1,0 +1,6 @@
+{
+ "domain": "mubarak",
+ "record": {
+ "CNAME": "https://portfolio-main-fixed-9.vercel.app/"
+ }
+}
