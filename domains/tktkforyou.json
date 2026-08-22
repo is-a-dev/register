@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "m3117910-lang",
+    "email": "r3bup8236@gmail.com"
+  },
+  "record": {
+    "MX": ["route1.mx.cloudflare.net", "route2.mx.cloudflare.net", "route3.mx.cloudflare.net"],
+    "TXT": ["v=spf1 include:_spf.mx.cloudflare.net ~all"]
+  },
+  "proxied": false
+}
