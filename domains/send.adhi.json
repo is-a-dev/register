@@ -1,7 +1,6 @@
 {
   "owner": {
-    "username": "developeradhi",
-    "email": "contact@adhi.is-a.dev"
+    "username": "developeradhi"
   },
   "records": {
     "MX": [
@@ -10,8 +9,6 @@
         "priority": 10
       }
     ],
-    "TXT": [
-      "v=spf1 include:amazonses.com ~all"
-    ]
+    "TXT": ["v=spf1 include:amazonses.com ~all"]
   }
 }
