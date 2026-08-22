@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "renomerx",
-        "email": "renomerx@gmail.com"
-    },
-    "records": {
-        "CNAME": "renomerx.netlify.app"
-    }
+  "owner": {
+    "username": "renomerx",
+    "email": "renomerx@gmail.com"
+  },
+  "records": {
+    "CNAME": "renomerx.netlify.app"
+  }
 }

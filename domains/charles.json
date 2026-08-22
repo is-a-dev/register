@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Charles-Stark"
-    },
-    "records": {
-        "CNAME": "blog-astro-theme-pure.pages.dev"
-    }
+  "owner": {
+    "username": "Charles-Stark"
+  },
+  "records": {
+    "CNAME": "blog-astro-theme-pure.pages.dev"
+  }
 }

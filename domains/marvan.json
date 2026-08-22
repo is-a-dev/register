@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "voisnoa",
-        "email": "markzlopp@gmail.com"
-    },
-    "records": {
-        "CNAME": "voisnoa.github.io"
-    }
+  "owner": {
+    "username": "voisnoa",
+    "email": "markzlopp@gmail.com"
+  },
+  "records": {
+    "CNAME": "voisnoa.github.io"
+  }
 }
