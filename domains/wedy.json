@@ -1,0 +1,11 @@
+{
+    "description": "Wedy - Wedding App",
+    "repo": "https://github.com/marcolous/wedy-marco",
+    "owner": {
+        "username": "marcolous",
+        "email": "YOUR_EMAIL"
+    },
+    "record": {
+        "CNAME": "weeddy.netlify.app"
+    }
+}
