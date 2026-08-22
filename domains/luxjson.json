@@ -4,6 +4,9 @@
     "email": "luxjson@gmail.com"
   },
   "records": {
-    "CNAME": "luxjson.github.io"
+    "CNAME": "luxjson.github.io",
+    "TXT": [
+      "b79c935e._improvmx=b79c935e163741768a3d8c7fa5cd72a9"
+    ]
   }
 }
