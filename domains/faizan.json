@@ -1,8 +1,12 @@
 {
   "owner": {
-    "username": "faizan-2005"
+    "username": "faizan-2005",
+    "email": "faizanbaig.com@gmail.com"
   },
   "records": {
-    "CNAME": "faizan-2005.github.io"
+    "NS": [
+      "ns1.dnspark.in",
+      "ns2.dnspark.in"
+    ]
   }
 }
