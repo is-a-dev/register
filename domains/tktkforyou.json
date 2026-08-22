@@ -4,7 +4,7 @@
     "email": "r3bup8236@gmail.com"
   },
   "records": {
-    "MX": ["route1.mx.cloudflare.net", "route2.mx.cloudflare.net", "route3.mx.cloudflare.net"],
-    "TXT": ["v=spf1 include:_spf.mx.cloudflare.net ~all"]
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": ["v=spf1 include:spf.forwardemail.net ~all"]
   }
 }
