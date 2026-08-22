@@ -1,11 +1,8 @@
 {
   "owner": {
-    "username": "MaseDev33",
-    "email": "mase@masecodes.is-a.dev"
+    "username": "MaseDev33"
   },
   "records": {
-    "TXT": [
-      "3e525d27490e5985b3cb5f9d801488a70a0c577e"
-    ]
+    "TXT": ["3e525d27490e5985b3cb5f9d801488a70a0c577e"]
   }
 }
