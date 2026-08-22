@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "JamesTheFlash",
-        "email": "me@jamestheflash22.is-a.dev"
-    },
-    "records": {
-        "CNAME": "jamestheflash22.github.io"
-    }
+  "owner": {
+    "username": "JamesTheFlash"
+  },
+  "records": {
+    "CNAME": "jamestheflash22.github.io"
+  }
 }
