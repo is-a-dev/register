@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "fardinnuman",
-        "email": "fardinnuman@gmail.com"
-    },
-    "records": {
-        "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "fardinnuman",
+    "email": "fardinnuman@gmail.com"
+  },
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ]
+  }
 }

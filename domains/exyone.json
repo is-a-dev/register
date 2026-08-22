@@ -1,10 +1,10 @@
 {
   "owner": {
-    "username": "exyone-labs",
+    "username": "eiraud-fishball",
     "email": "exyone.dev@icloud.com"
   },
   "records": {
-    "CNAME": "exyone-labs.github.io"
+    "CNAME": "apex-loadbalancer.netlify.com"
   },
   "proxied": true
 }

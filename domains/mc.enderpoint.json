@@ -1,19 +1,17 @@
 {
-    "owner": {
-        "username": "EnderPoint07"
-    },
-    "records": {
-        "CNAME": "session-interactions.gl.at.ply.gg",
-        "SRV": [
-              {
-                "service": "_minecraft",
-                "protocol": "_tcp.mc",
-                "priority": 1,
-                "weight": 1,
-                "port": 60109,
-                "target": "mc.enderpoint.is-a.dev"
-              }
-            ]
-    },
-    "proxied": true
+  "owner": {
+    "username": "EnderPoint07"
+  },
+  "records": {
+    "SRV": [
+      {
+        "service": "_minecraft",
+        "protocol": "_tcp",
+        "priority": 1,
+        "weight": 1,
+        "port": 60109,
+        "target": "session-interactions.gl.at.ply.gg"
+      }
+    ]
+  }
 }

@@ -1,6 +1,8 @@
-const t = require("ava");
-const fs = require("fs-extra");
-const path = require("path");
+import t from "ava";
+import fs from "fs-extra";
+import path from "path";
+
+import disallowedCNAMEs from "../util/disallowed-cnames.json" with { type: "json" };
 
 const validRecordTypes = new Set(["A", "AAAA", "CAA", "CNAME", "DS", "MX", "NS", "SRV", "TLSA", "TXT", "URL"]);
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
@@ -87,8 +89,6 @@ function isValidHostname(hostname) {
 function isValidHexadecimal(value) {
     return /^[0-9a-fA-F]+$/.test(value);
 }
-
-const disallowedCNAMEs = require("../util/disallowed-cnames.json");
 
 function validateRecordValues(t, data, file) {
     const subdomain = file.replace(/\.json$/, "");
