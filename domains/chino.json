@@ -6,6 +6,9 @@
     "discord": "autumnvn"
   },
   "records": {
-    "NS": ["lina.ns.cloudflare.com", "miles.ns.cloudflare.com"]
+    "NS": [
+      "lina.ns.cloudflare.com",
+      "miles.ns.cloudflare.com"
+    ]
   }
 }

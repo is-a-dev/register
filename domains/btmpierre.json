@@ -4,7 +4,9 @@
     "email": "nexos.dons@gmail.com"
   },
   "records": {
-    "A": ["62.3.18.101"]
+    "A": [
+      "62.3.18.101"
+    ]
   },
   "proxied": false
 }

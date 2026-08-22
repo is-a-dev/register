@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "FahadNaeem424",
-        "email": "fahadnaeem424@gmail.com"
-    },
-    "records": {
-        "A": ["79.72.72.15"]
-    }
+  "owner": {
+    "username": "FahadNaeem424",
+    "email": "fahadnaeem424@gmail.com"
+  },
+  "records": {
+    "A": [
+      "129.213.59.48"
+    ]
+  }
 }
