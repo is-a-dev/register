@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "ejaymedia"
-    },
-    "records": {
-        "CNAME": "ejaymedia.github.io"
-    }
+  "owner": {
+    "username": "ejaymedia"
+  },
+  "records": {
+    "CNAME": "ejaymedia.github.io"
+  }
 }

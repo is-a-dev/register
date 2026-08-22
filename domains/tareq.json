@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "tarreq"
-    },
-    "records": {
-        "CNAME": "tarreq.github.io"
-    }
+  "owner": {
+    "username": "tarreq"
+  },
+  "records": {
+    "CNAME": "tarreq.github.io"
+  }
 }
