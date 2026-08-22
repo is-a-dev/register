@@ -4,6 +4,7 @@
     "email": "codewithabhiishek@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=abhiishek.is-a.dev,c5b13068ac130d60b391"
   }
 }
