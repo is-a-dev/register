@@ -1,9 +1,2 @@
-{
-  "owner": {
-    "username": "HAMI",
-    "email": "hami@gmail.com"
-  },
-  "record": {
-    "CNAME": "cname.vercel-dns.com"
-  }
-}
+"owner": "HAMIDO-6268"
+"CNAME": "cname.vercel-dns.com"
