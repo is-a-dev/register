@@ -3,7 +3,6 @@
     "username": "waleedcv",
     "email": "abdisalamid@gmail.com"
   },
-  "domain": "is-a.dev",
   "subdomain": "waleedcv",
   "records": {
     "CNAME": "waleedcv.github.io"
