@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "PfeifferDe"
+    "username": "PfeifferDe",
+    "email": "licobanapix@gmail.com"
   },
   "records": {
     "TXT": "v=DMARC1; p=none;"
