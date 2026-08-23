@@ -1,11 +1,18 @@
 {
-  "description": "The Sol Trading Web Application",
+  "description": "The Sol Trading Web Application - HengMak168",
   "repo": "https://github.com/Tiw-Thanapol/register",
   "owner": {
-    "username": "Tiw-Thanapol",
-    "email": "thanapol.th@yahoo.com"
+    "username": "Tiw-Thanapol"
   },
   "records": {
-    "CNAME": "tiw-thanapol.github.io"
+    "TXT": "dh=47266bba65f0bca3de5890cb05dd4b32afc47f5a",
+    "TXT": {
+      "resend._domainkey": "p=MIGfMA0GCSqG...3WHoUkQIDAQAB",
+      "_dmarc": "v=DMARC1; p=none;"
+    },
+    "CNAME": {
+      "rsend": "rsend.forge.rmta.net",
+      "send": "send.forge.rmta.net"
+    }
   }
 }
