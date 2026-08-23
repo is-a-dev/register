@@ -1,0 +1,10 @@
+{
+  "description": "Kousthubhee's portfolio",
+  "owner": {
+    "username": "Kousthubhee",
+    "email": "kousthubheekrishna@gmail.com"
+  },
+ "records": {
+    "CNAME": "portfolio-data-dun.vercel.app"
+  }
+}
