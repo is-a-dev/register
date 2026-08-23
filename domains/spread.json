@@ -3,7 +3,7 @@
         "username": "wowneutral",
         "email": "hello@mitez.org"
     },
-    "record": {
+    "records": {
         "CNAME": "wowneutral.github.io"
     }
 }
