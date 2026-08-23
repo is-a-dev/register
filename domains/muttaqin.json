@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "rich0021",
-        "email": "kurabersayap002@gmail.com"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "rich0021",
+    "email": "kurabersayap002@gmail.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }
