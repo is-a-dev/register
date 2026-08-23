@@ -1,0 +1,13 @@
+{
+  "name": "_vercel.jithesh-gopinathan",
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "jitheshlive",
+    "email": "jitheshlive@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=jithesh-gopinathan.is-a.dev,8ccd018398d1a54f97ef"
+    ]
+  }
+}
