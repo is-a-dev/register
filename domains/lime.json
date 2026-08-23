@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Haruki9767",
-        "email": "schwan671@gmail.com"
-    },
-    "records": {
-        "CNAME": "paranoid-404.pages.dev"
-    }
+  "owner": {
+    "username": "Haruki9767",
+    "email": "schwan671@gmail.com"
+  },
+  "records": {
+    "CNAME": "paranoid-404.pages.dev"
+  }
 }
