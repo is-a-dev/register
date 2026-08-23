@@ -1,0 +1,5 @@
+{
+  "owner": { "username": "Kharisma1996", "email": "kharismabahtiar96@gmail.com" },
+  "description": "Resend return-path untuk Pockit",
+  "records": { "CNAME": "rsend.forge.rmta.net" }
+}
