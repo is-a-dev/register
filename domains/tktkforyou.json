@@ -5,6 +5,6 @@
   },
   "records": {
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": ["forward-email=obada8236@gmail.com", "v=spf1 include:spf.forwardemail.net ~all"]
+    "TXT": ["forward-email=r3bup8236@gmail.com", "v=spf1 include:spf.forwardemail.net ~all"]
   }
 }
