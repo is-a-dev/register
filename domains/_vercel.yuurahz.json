@@ -4,6 +4,9 @@
     "email": "clickgp99@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=yuurahz.is-a.dev,c6d990c621cf9ae5740d"
+    "TXT": [
+      "vc-domain-verify=yuurahz.is-a.dev,c6d990c621cf9ae5740d",
+      "vc-domain-verify=www.yuurahz.is-a.dev,2c16dd62e5abe4321ca2"
+    ]
   }
 }
