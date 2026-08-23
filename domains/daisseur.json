@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "daisseur",
-        "email": "daisseur@gmail.com"
-    },
-    "records": {
-        "CNAME": "daisseur.xyz"
-    }
+  "owner": {
+    "username": "daisseur",
+    "email": "daisseur@gmail.com"
+  },
+  "records": {
+    "CNAME": "daisseur.xyz"
+  }
 }

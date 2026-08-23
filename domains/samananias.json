@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "SamAnaniasCases",
-        "email": "samananiascases@gmail.com"
-    },
-    "records": {
-        "CNAME": "gebportfolio.pages.dev"
-    }
+  "owner": {
+    "username": "SamAnaniasCases",
+    "email": "samananiascases@gmail.com"
+  },
+  "records": {
+    "CNAME": "gebportfolio.pages.dev"
+  }
 }

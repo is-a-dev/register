@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "asfaqehussain"
-    },
-    "records": {
-        "CNAME": "asfaqe.vercel.app"
-    }
+  "owner": {
+    "username": "asfaqehussain"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

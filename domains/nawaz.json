@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mohamed-nawas",
-        "email": "mgmnawas@gmail.com"
-    },
-    "records": {
-        "CNAME": "mohamed-nawas.github.io"
-    }
+  "owner": {
+    "username": "mohamed-nawas",
+    "email": "mgmnawas@gmail.com"
+  },
+  "records": {
+    "CNAME": "mohamed-nawas.github.io"
+  }
 }
