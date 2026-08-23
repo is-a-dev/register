@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "squishydal",
-        "email": "mochammadtora@gmail.com"
-    },
-    "records": {
-        "CNAME": "squishydal.github.io"
-    }
+  "owner": {
+    "username": "squishydal",
+    "email": "mochammadtora@gmail.com"
+  },
+  "records": {
+    "CNAME": "squishydal.github.io"
+  }
 }

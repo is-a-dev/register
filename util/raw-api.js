@@ -1,8 +1,11 @@
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
 
-const directoryPath = path.join(__dirname, "../domains");
-const outputDir = path.join(__dirname, "../raw-api");
+import internal from "./internal.json" with { type: "json" };
+import reserved from "./reserved.json" with { type: "json" };
+
+const directoryPath = "./domains";
+const outputDir = "./raw-api";
 const domainsOutputDir = path.join(outputDir, "v2", "domains");
 
 if (!fs.existsSync(outputDir)) {
@@ -12,16 +15,14 @@ if (!fs.existsSync(domainsOutputDir)) {
     fs.mkdirSync(domainsOutputDir, { recursive: true });
 }
 
-const internal = require(path.join(__dirname, "internal.json"));
-const reserved = require(path.join(__dirname, "reserved.json"));
-const v2 = [];
-
 function writeDomainFile(entry) {
     fs.writeFileSync(
         path.join(domainsOutputDir, `${entry.subdomain}.json`),
         JSON.stringify(entry)
     );
 }
+
+const v2 = [];
 
 for (const subdomain of internal) {
     const entry = {

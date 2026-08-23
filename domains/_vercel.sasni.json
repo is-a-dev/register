@@ -4,6 +4,8 @@
     "email": "shazni121@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=sasni.is-a.dev,cb0e85e51cb6322b1447"]
+    "TXT": [
+      "vc-domain-verify=sasni.is-a.dev,cb0e85e51cb6322b1447"
+    ]
   }
 }
