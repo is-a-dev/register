@@ -2,8 +2,8 @@
   "description": "The Sol Trading Web Application",
   "repo": "https://github.com/Tiw-Thanapol/register",
   "owner": {
-    "email": "thanapol.th@yahoo.com",
-    "discord": "Tiw-Thanapol"
+    "username": "Tiw-Thanapol",
+    "email": "thanapol.th@yahoo.com"
   },
   "records": {
     "CNAME": "tiw-thanapol.github.io"
