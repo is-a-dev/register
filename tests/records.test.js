@@ -238,6 +238,15 @@ function validateRecordValues(t, data, file) {
             const values = Array.isArray(value) ? value : [value];
             values.forEach((record, idx) => {
                 t.true(typeof record === "string", `${file}: TXT record value should be a string at index ${idx}`);
+
+                if (record.startsWith("vc-domain-verify=")) {
+                    const domainToken = record.split("vc-domain-verify=")[1].split(",")[0];
+
+                    t.true(
+                        domainToken.endsWith(".is-a.dev"),
+                        `${file}: Vercel TXT verification must target a subdomain of is-a.dev`
+                    );
+                }
             });
         }
     });
