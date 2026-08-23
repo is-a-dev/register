@@ -4,9 +4,14 @@
     "email": "zurai02ispro@gmail.com"
   },
   "records": {
-    "NS": [
-      "dante.ns.cloudflare.com",
-      "paislee.ns.cloudflare.com"
+    "CNAME": "zurai02.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
     ]
-  }
+  },
+  "proxied": true
 }
