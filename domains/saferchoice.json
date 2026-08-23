@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "89ph88o8gf",
-        "email": "saferchoice@gmail.com"
-    },
-    "records": {
-        "URL": "https://saferchoice.netlify.app/",
-        "TXT": "zoho-verification=zb08701120.zmverify.zoho.eu"
-    }
+  "owner": {
+    "username": "89ph88o8gf",
+    "email": "saferchoice@gmail.com"
+  },
+  "records": {
+    "URL": "https://saferchoice.netlify.app/",
+    "TXT": "zoho-verification=zb08701120.zmverify.zoho.eu"
+  }
 }

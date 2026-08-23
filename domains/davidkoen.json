@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "TheDavidKoen",
-        "email": "DavidoDawie@gmail.com"
-    },
-    "records": {
-        "CNAME": "temp-site-2cf.pages.dev"
-    }
+  "owner": {
+    "username": "TheDavidKoen",
+    "email": "DavidoDawie@gmail.com"
+  },
+  "records": {
+    "CNAME": "temp-site-2cf.pages.dev"
+  }
 }
