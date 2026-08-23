@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "YOUR-ACTUAL-USERNAME-HERE"
+  },
+  "records": {
+    "CNAME": "super-llama-23529f.netlify.app"
+  }
+}
