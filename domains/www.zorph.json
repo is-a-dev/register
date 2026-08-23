@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "ahmadzorph"
+    "username": "ahmadzorph",
+    "email": "ahmadzorph@gmail.com"
   },
   "records": {
-    "CNAME": "ghs.google.com"
+    "CNAME": "ghs.googlehosted.com"
   }
 }
