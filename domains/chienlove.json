@@ -1,0 +1,10 @@
+{
+    "description": "Trang web cá nhân",
+    "owner": {
+        "username": "chienlove",
+        "email": "boypink93@gmail.com"
+    },
+    "record": {
+        "CNAME": "rocomvn.pages.dev" 
+    }
+}
