@@ -4,9 +4,6 @@
     "email": "eng_mohamedgawad@yahoo.com"
   },
   "records": {
-    "NS": [
-      "kip.ns.cloudflare.com",
-      "tiffany.ns.cloudflare.com"
-    ]
+    "CNAME": "0fddacd4-a1d8-42d0-9bb6-d6d9fef08194.cfargotunnel.com"
   }
 }
