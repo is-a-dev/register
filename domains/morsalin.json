@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "emoncse2020",
-    "email": "emon.cse.2020@gmail.com"
+    "username": "emoncse2020"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

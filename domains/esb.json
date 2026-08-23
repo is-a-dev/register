@@ -4,6 +4,9 @@
     "email": "educatedsuddenbucket@gmail.com"
   },
   "records": {
-    "NS": ["dahlia.ns.cloudflare.com", "will.ns.cloudflare.com"]
+    "NS": [
+      "dahlia.ns.cloudflare.com",
+      "will.ns.cloudflare.com"
+    ]
   }
 }

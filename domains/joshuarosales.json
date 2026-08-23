@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "joshuarosales-cmd"
-    },
-    "records": {
-        "CNAME": "joshua-rosales-porfolio.web.app"
-    },
-    "proxied": false
+  "owner": {
+    "username": "joshuarosales-cmd"
+  },
+  "records": {
+    "CNAME": "joshua-rosales-porfolio.web.app"
+  },
+  "proxied": false
 }
