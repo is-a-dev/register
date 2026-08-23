@@ -5,12 +5,12 @@
     "username": "Tiw-Thanapol"
   },
   "records": {
-    "TXT": "dh=47266bba65f0bca3de5890cb05dd4b32afc47f5a",
-    "TXT": {
-      "resend._domainkey": "p=MIGfMA0GCSqG...3WHoUkQIDAQAB",
-      "_dmarc": "v=DMARC1; p=none;"
-    },
+    "TXT": [
+      "dh=47266bba65f0bca3de5890cb05dd4b32afc47f5a",
+      "v=DMARC1; p=none;"
+    ],
     "CNAME": {
+      "resend._domainkey": "resend._domainkey.domainkey.resend.dev", 
       "rsend": "rsend.forge.rmta.net",
       "send": "send.forge.rmta.net"
     }
