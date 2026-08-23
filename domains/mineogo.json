@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mineogo",
-        "email": "venkatesh10year@gmail.com"
-    },
-    "records": {
-        "CNAME": "mineogo.pages.dev"
-    }
+  "owner": {
+    "username": "mineogo",
+    "email": "venkatesh10year@gmail.com"
+  },
+  "records": {
+    "CNAME": "mineogo.pages.dev"
+  }
 }
