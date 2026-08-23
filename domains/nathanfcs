@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "OwenCloude"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=nathanfcs.is-a.dev,4dd91218a37fdfb15946"
+  }
+}
