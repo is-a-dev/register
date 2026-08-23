@@ -2,8 +2,7 @@
   "owner": {
     "username": "RVXv2"
   },
-  "nameservers": [
-    "arturo.ns.cloudflare.com",
-    "rafe.ns.cloudflare.com"
-  ]
+  "records": {
+    "CNAME": "de3.bot-hosting.net"
+  }
 }
