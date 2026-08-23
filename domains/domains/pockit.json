@@ -1,0 +1,10 @@
+{
+  "owner": { "username": "Kharisma1996", "email": "kharismabahtiar96@gmail.com" },
+  "description": "Pockit — aplikasi pencatat keuangan keluarga",
+  "records": {
+    "TXT": [
+      "resend._domainkey.pockit v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPMGHyYJmMjjDvp1ghG38wcM5/j+nVSGOhrlDVrN9ucDEw8TFU9FjE6yZ7pTKurJwroZIPWur50FVk1kB1xTgvagumJXo/lKmKMgFNOS/Nf4G9/gwla1eekKid78SwHWGcy87n2/rIlSw8Dt1sanHV9eWdIWirturd3ejKyAqFfwIDAQAB",
+      "_dmarc.pockit v=DMARC1; p=none;"
+    ]
+  }
+}
