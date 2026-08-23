@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "MmasssXklr"
-  },
-  "records": {
-    "URL": "https://mmasssxklr.github.io/See.Emm"
-  }
+    "owner": {
+        "username": "MmasssXklr",
+        "email": "cg.innovator@gmail.com"
+    },
+    "records": {
+        "CNAME": "mmasssxklr.github.io"
+    }
 }
