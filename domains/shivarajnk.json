@@ -4,6 +4,7 @@
     "email": "shivarajnkengannavar@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=shivarajnk.is-a.dev,3ec4a3407fab11285d6f"
   }
 }
