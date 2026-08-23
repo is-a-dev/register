@@ -1,10 +1,10 @@
 {
-    "description": "Trang web cá nhân",
+    "description": "Trang web công cụ IPA iOS",
     "owner": {
         "username": "chienlove",
         "email": "boypink93@gmail.com"
     },
     "records": {
-        "CNAME": "rocomvn.pages.dev" 
+        "CNAME": "ipatool.storeios.net" 
     }
 }
