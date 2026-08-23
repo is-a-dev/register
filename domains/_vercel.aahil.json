@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "aahil-khan",
-        "email": "aahilkhanbly123@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aahil.is-a.dev,1eb703cf366f3636e904"
-    }
+  "owner": {
+    "username": "aahil-khan",
+    "email": "aahilkhanbly123@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aahil.is-a.dev,1eb703cf366f3636e904"
+  }
 }

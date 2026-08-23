@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "MascoloAndrea",
-        "email": "info.andreamascolo@gmail.com"
-    },
-    "records": {
-        "CNAME": "mascoloandrea.github.io"
-    }
+  "owner": {
+    "username": "MascoloAndrea",
+    "email": "info.andreamascolo@gmail.com"
+  },
+  "records": {
+    "CNAME": "mascoloandrea.github.io"
+  }
 }

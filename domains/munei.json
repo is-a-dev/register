@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "sijiyu521"
-    },
-    "records": {
-        "A": ["47.93.86.70"]
-    }
+  "owner": {
+    "username": "sijiyu521"
+  },
+  "records": {
+    "A": [
+      "47.93.86.70"
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
   "owner": {
-   "username": "KorvienDev"
+    "username": "KorvienDev"
   },
- "records": {
-   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDp2c2v4tYmH/ubYd/pfYhP3P5/XZrqISQpJe3iN893Jd+zwmEHOyEjqKbhqM1/wZrXOaBDNcIhEpgzQaOYALxlX2dCVy1BK2/xgtAOBTnYyt7Ejm2UQTYDkl8U7zVSZzVi3lUK3ZOTKGchlBS/zfqPm+6kvDRw9b71xOrU8dyIdwIDAQAB"
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDp2c2v4tYmH/ubYd/pfYhP3P5/XZrqISQpJe3iN893Jd+zwmEHOyEjqKbhqM1/wZrXOaBDNcIhEpgzQaOYALxlX2dCVy1BK2/xgtAOBTnYyt7Ejm2UQTYDkl8U7zVSZzVi3lUK3ZOTKGchlBS/zfqPm+6kvDRw9b71xOrU8dyIdwIDAQAB"
   }
 }
