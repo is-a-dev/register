@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "deepakstark01",
-        "email": "rohit45deepak@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=nomaddeepak.is-a.dev,032e1b5e3e11fcc6e603"
-    }
+  "owner": {
+    "username": "deepakstark01",
+    "email": "rohit45deepak@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=nomaddeepak.is-a.dev,032e1b5e3e11fcc6e603"
+  }
 }

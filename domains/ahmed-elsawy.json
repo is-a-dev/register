@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "ahmed-es-egypt",
-        "email": "ahmed.es.egypt@gmail.com"
-    },
-    "records": {
-        "A": ["84.8.108.209"]
-    }
+  "owner": {
+    "username": "ahmed-es-egypt",
+    "email": "ahmed.es.egypt@gmail.com"
+  },
+  "records": {
+    "A": [
+      "84.8.108.209"
+    ]
+  }
 }

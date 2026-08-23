@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "thatoneumer",
-        "email": "umercrusher34@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=thatoneumer.is-a.dev,98c8f827ac44cce2ce5d"
-    }
+  "owner": {
+    "username": "thatoneumer",
+    "email": "umercrusher34@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=thatoneumer.is-a.dev,98c8f827ac44cce2ce5d"
+  }
 }
