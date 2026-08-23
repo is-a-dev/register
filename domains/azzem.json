@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "reyocoding",
-        "email": "saadazzemayoub@gmail.com"
-    },
-    "records": {
-        "CNAME": "reyocoding.github.io"
-    }
+  "owner": {
+    "username": "reyocoding",
+    "email": "saadazzemayoub@gmail.com"
+  },
+  "records": {
+    "CNAME": "reyocoding.github.io"
+  }
 }

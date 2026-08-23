@@ -4,6 +4,8 @@
     "email": "manavbidlan22@gmail.com"
   },
   "records": {
-    "CNAME": "manavbidlan.netlify.app"
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }
