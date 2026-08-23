@@ -1,0 +1,11 @@
+{
+  "description": "Aliceflix streaming app",
+  "repo": "https://github.com/intrns",
+  "owner": {
+    "username": "intrns",
+    "email": "iamalightmain@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
