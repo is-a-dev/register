@@ -6,7 +6,6 @@
   },
   "records": {
     "CNAME": "portfolio-data-dun.vercel.app",
-    "A": ["216.198.79.1"],
-    "TXT": "vc-domain-verify=kousthubhee.is-a.dev,bd4bb4454be70f0e30bd"
+    "TXT": "vc-domain-verify=kousthubhee.is-a.dev,30ea92545553ff5b18ef"
   }
 }
