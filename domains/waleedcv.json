@@ -1,11 +1,12 @@
 {
-‏  "description": "My Personal Resume",
-‏  "repo": "https://github.com/waleedcv/waleedcv.github.io",
-‏  "owner": {
-‏    "username": "waleedcv",
-‏    "email": "abdisalamid@gmail.com"
+  "owner": {
+    "username": "waleedcv",
+    "email": "abdisalamid@gmail.com"
   },
-‏  "record": {
-‏    "CNAME": "waleedcv.github.io"
-  }
+  "domain": "is-a.dev",
+  "subdomain": "waleedcv",
+  "record": {
+    "CNAME": "waleedcv.github.io"
+  },
+  "proxied": false
 }
