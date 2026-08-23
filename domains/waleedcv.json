@@ -3,9 +3,7 @@
     "username": "waleedcv",
     "email": "abdisalamid@gmail.com"
   },
-  "subdomain": "waleedcv",
   "records": {
     "CNAME": "waleedcv.github.io"
-  },
-  "proxied": false
+  }
 }
