@@ -1,5 +1,11 @@
 {
   "owner": { "username": "Kharisma1996", "email": "kharismabahtiar96@gmail.com" },
-  "description": "Resend sending subdomain untuk Pockit",
-  "records": { "CNAME": "send.forge.rmta.net" }
+  "description": "Pockit — aplikasi pencatat keuangan keluarga",
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "resend._domainkey.pockit v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPMGHyYJmMjjDvp1ghG38wcM5/j+nVSGOhrlDVrN9ucDEw8TFU9FjE6yZ7pTKurJwroZIPWur50FVk1kB1xTgvagumJXo/lKmKMgFNOS/Nf4G9/gwla1eekKid78SwHWGcy87n2/rIlSw8Dt1sanHV9eWdIWirturd3ejKyAqFfwIDAQAB",
+      "_dmarc.pockit v=DMARC1; p=none;"
+    ]
+  }
 }
