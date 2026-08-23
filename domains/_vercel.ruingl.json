@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ruingl",
-        "email": "ruingl@proton.me"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=ruingl.is-a.dev,5655632f0c102faa07bb"
-    }
+  "owner": {
+    "username": "ruingl",
+    "email": "ruingl@proton.me"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ruingl.is-a.dev,5655632f0c102faa07bb"
+  }
 }

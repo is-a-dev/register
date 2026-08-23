@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "deadbytesus",
-        "email": "ognevushka.scratcher@gmail.com"
-    },
-    "records": {
-        "TXT": [
-            "vc-domain-verify=deadbytes.is-a.dev,86ad7e8eb93063341c3c"
-        ]
-    }
+  "owner": {
+    "username": "deadbytesus",
+    "email": "ognevushka.scratcher@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=deadbytes.is-a.dev,86ad7e8eb93063341c3c"
+    ]
+  }
 }

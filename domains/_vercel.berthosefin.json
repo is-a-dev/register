@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "berthosefin",
-        "email": "berthosefin@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=berthosefin.is-a.dev,4cff50e3e2feaabcccb3"
-    }
+  "owner": {
+    "username": "berthosefin",
+    "email": "berthosefin@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=berthosefin.is-a.dev,4cff50e3e2feaabcccb3"
+  }
 }
