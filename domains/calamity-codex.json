@@ -1,8 +1,8 @@
 {
-  "владелец""records"{
-    "имя пользователя": "олешаады"
+  "owner": {
+    "username": "oleshaads"
   },
-  "записи": {
+  "records": {
     "CNAME": "oleshaads.github.io"
   }
 }
