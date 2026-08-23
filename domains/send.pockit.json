@@ -1,0 +1,5 @@
+{
+  "owner": { "username": "Kharisma1996", "email": "kharismabahtiar96@gmail.com" },
+  "description": "Resend sending subdomain untuk Pockit",
+  "records": { "CNAME": "send.forge.rmta.net" }
+}
