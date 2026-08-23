@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "itzhdgr"
+    "username": "itzhdgr",
+    "email": "itzhdgr@gmail.com"
   },
   "record": {
-    "CNAME": "hdgr.rgon.workers.dev"
+    "URL": "https://hdgr.rgon.workers.dev"
   }
 }
-
