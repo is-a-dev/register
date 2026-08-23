@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "TecnikOfficial",
-        "email": "tecnikmail@proton.me"
-    },
-    "records": {
-        "CNAME": "tecnik.pages.dev"
-    },
-    "proxied": true
+  "owner": {
+    "username": "TecnikOfficial",
+    "email": "tecnikmail@proton.me"
+  },
+  "records": {
+    "CNAME": "tecnik.pages.dev"
+  },
+  "proxied": true
 }

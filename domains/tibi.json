@@ -3,6 +3,9 @@
     "username": "devtibi"
   },
   "records": {
-    "NS": ["jaime.ns.cloudflare.com", "wanda.ns.cloudflare.com"]
+    "NS": [
+      "jaime.ns.cloudflare.com",
+      "wanda.ns.cloudflare.com"
+    ]
   }
 }

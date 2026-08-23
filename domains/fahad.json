@@ -4,8 +4,16 @@
     "email": "fahadnaeem424@gmail.com"
   },
   "records": {
-    "A": ["129.213.59.48"],
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all", "google-site-verification=ludJGhRzKY4s55kQVRAsemxDntFBt2HBpALRfcSJOPk"]
+    "A": [
+      "129.213.59.48"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all",
+      "google-site-verification=ludJGhRzKY4s55kQVRAsemxDntFBt2HBpALRfcSJOPk"
+    ]
   }
 }
