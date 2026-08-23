@@ -5,7 +5,7 @@
   },
   "domain": "is-a.dev",
   "subdomain": "waleedcv",
-  "record": {
+  "records": {
     "CNAME": "waleedcv.github.io"
   },
   "proxied": false
