@@ -1,0 +1,10 @@
+{
+  "description": "pi-server",
+  "owner": {
+    "username": "NeutriexD",
+    "email": "neutriex@gmail.com"
+  },
+  "record": {
+    "A": "92.209.205.16"
+  }
+}
