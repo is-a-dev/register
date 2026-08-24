@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "MariusSurGithub",
+        "email": "trolle.marius@gmail.com"
+    },
+    "description": "Personal self-hosted software projects (portfolio / homelab). Public page is non-commercial; panel login is on /login only.",
+    "records": {
+        "AAAA": [
+            "2a12:bec4:1651:104::f8e"
+        ]
+    },
+    "proxied": true
+}
