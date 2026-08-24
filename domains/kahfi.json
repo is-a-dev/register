@@ -1,0 +1,11 @@
+{
+  "description": "Kahfi's personal CV website",
+  "repo": "https://github.com/kahfiismatullah-sys/cv-kahfi",
+  "owner": {
+    "username": "kahfiismatullah-sys",
+    "email": "kahfiismatullah@gmail.com"
+  },
+  "record": {
+    "CNAME": "kahfiismatullah-sys.github.io"
+  }
+}
