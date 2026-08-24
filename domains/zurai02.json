@@ -14,7 +14,7 @@
       {
         "name": "_dmarc",
         "value": "v=DMARC1; p=quarantine; rua=mailto:zurai02ispro@gmail.com; ruf=mailto:zurai02ispro@gmail.com; fo=1; adkim=r; aspf=r; pct=100; ri=86400"
-      },
+      }
     ],
     "CAA": [
       { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
