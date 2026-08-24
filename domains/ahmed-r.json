@@ -3,6 +3,7 @@
     "username": "ahmed-r1",
     "email": "ahmedrdev10@gmail.com"
   },
+  "proxied": true,
   "records": {
     "A": [
       "192.0.2.1"
