@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "JuniorTank-J13",
+    "email": "juniortank@example.com"
+  },
+  "records": {
+    "A": [
+      "1.1.1.1"
+    ]
+  },
+  "proxied": true
+}
