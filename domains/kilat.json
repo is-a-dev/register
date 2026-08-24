@@ -1,0 +1,14 @@
+{
+  "description": "Kilat Mail - Instant & Serverless Disposable Email Service",
+  "repo": "https://github.com/zzdree/kilat-mail",
+  "owner": {
+    "username": "zzdree",
+    "email": "andreasr35tu@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "kallie.ns.cloudflare.com",
+      "merlin.ns.cloudflare.com"
+    ]
+  }
+}
