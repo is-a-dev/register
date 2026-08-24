@@ -4,13 +4,35 @@
     "email": "zurai02ispro@gmail.com"
   },
   "records": {
-    "CNAME": "zurai02.github.io",
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "AAAA": [
+      "2606:50c0:8000::153",
+      "2606:50c0:8001::153",
+      "2606:50c0:8002::153",
+      "2606:50c0:8003::153"
+    ],
+    "CNAME": {
+      "www": "zurai02.github.io"
+    },
     "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
+      { "value": "mx1.improvmx.com", "priority": 10 },
+      { "value": "mx2.improvmx.com", "priority": 20 }
     ],
     "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
+      "v=spf1 include:spf.improvmx.com ~all",
+      {
+        "name": "_dmarc",
+        "value": "v=DMARC1; p=quarantine; rua=mailto:zurai02ispro@gmail.com; pct=100"
+      },
+      {
+        "name": "_github-pages-challenge-zurai02",
+        "value": "ebd90925cdd2af3278b6f3992a5ac4"
+      }
     ]
   },
   "proxied": true
