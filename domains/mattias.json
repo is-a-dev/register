@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mattiasmicu",
-        "email": "mattias.micu@icloud.com"
-    },
-    "records": {
-        "CNAME": "my-second-portfolio-ten.vercel.app"
-    }
+  "owner": {
+    "username": "mattiasmicu",
+    "email": "mattias.micu@icloud.com"
+  },
+  "records": {
+    "CNAME": "my-second-portfolio-ten.vercel.app"
+  }
 }
