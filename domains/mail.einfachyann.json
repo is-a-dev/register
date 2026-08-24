@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "EinfachYann1"
+    "username": "EinfachYann1",
     "email": "yannhein134@gmail.com"
   },
   "records": {
-    "A": "77.90.30.203"
+    "A": [
+      "77.90.30.203"
+    ]
   }
 }
