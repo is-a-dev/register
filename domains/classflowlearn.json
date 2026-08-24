@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "anominousus123-oss"
+    "username": "anominousus123-oss",
+    "email": "anominousus123@gmail.com"
   },
   "records": {
     "CNAME": "classflowlearn.netlify.app"
