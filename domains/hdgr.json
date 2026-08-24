@@ -4,6 +4,9 @@
     "email": "itzhdgr@gmail.com"
   },
   "records": {
-    "URL": "https://hdgr.rgon.workers.dev"
+    "NS": [
+      "eric.ns.cloudflare.com",
+      "marlowe.ns.cloudflare.com"
+    ]
   }
 }
