@@ -1,11 +1,8 @@
 {
-  "description": "Anointed's personal software development portfolio",
   "owner": {
     "username": "anointedthedeveloper"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "CNAME": "e267fcf76109eadc.vercel-dns-017.com"
   }
 }
