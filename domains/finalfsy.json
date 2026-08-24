@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Final-FSY"
+    "username": "Final-FSY",
+    "email": "final.fsy@outlook.com"
   },
-  "record": {
+  "records": {
     "CNAME": "finalfsy.pages.dev"
   }
 }
