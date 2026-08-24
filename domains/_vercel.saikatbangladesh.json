@@ -3,6 +3,9 @@
     "username": "saikatbangla"
   },
   "records": {
-    "TXT": "vc-domain-verify=saikatbangladesh.is-a.dev,60035afdafb45c694de9"
+    "TXT": [
+      "vc-domain-verify=saikatbangladesh.is-a.dev,60035afdabf45c694de9",
+      "vc-domain-verify=www.saikatbangladesh.is-a.dev,0378aaf30f55e9ae18d3"
+    ]
   }
 }
