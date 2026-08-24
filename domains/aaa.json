@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "profpomeha-create",
-    "email": "aandreichenko@mail.ru"
-  },
-  "records": {
-    "CNAME": "profpomeha-create.github.io"
-  }
+    "owner": {
+        "username": "profpomeha-create",
+        "email": "aandreichenko@mail.ru"
+    },
+    "records": {
+        "A": [
+            "89.108.70.71"
+        ]
+    }
 }
