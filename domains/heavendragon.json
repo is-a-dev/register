@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "heaven-dragon"
+        "username": "heaven-dragon",
+        "email": "long_zhou@163.com"
     },
     "records": {
         "CNAME": "heaven-dragon.github.io"
