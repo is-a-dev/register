@@ -3,15 +3,12 @@
     "username": "zurai02",
     "email": "zurai02ispro@gmail.com"
   },
-
   "records": {
     "CNAME": "zurai02.github.io",
-
     "MX": [
       { "value": "mx1.improvmx.com", "priority": 10 },
       { "value": "mx2.improvmx.com", "priority": 20 }
     ],
-
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all",
       {
@@ -27,19 +24,14 @@
         "value": "disabled"
       }
     ],
-
     "CAA": [
       { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
       { "flags": 0, "tag": "issue", "value": "pki.goog" },
       { "flags": 0, "tag": "issuewild", "value": ";" },
       { "flags": 0, "tag": "iodef", "value": "mailto:zurai02ispro@gmail.com" }
     ],
-
-    "SRV": [],
-
-    "NS": null
+    "SRV": []
   },
-
   "security": {
     "dnssec": true,
     "tls": {
@@ -56,7 +48,6 @@
       "auto_https": true
     }
   },
-
   "monitoring": {
     "health_checks": {
       "enabled": true,
@@ -69,9 +60,7 @@
       "webhook": null
     }
   },
-
   "proxied": true,
-
   "cache": {
     "ttl": {
       "browser": 14400,
@@ -79,13 +68,11 @@
     },
     "always_online": true
   },
-
   "firewall": {
     "security_level": "medium",
     "challenge_ttl": 1800,
     "bot_fight_mode": true
   },
-
   "page_rules": [
     {
       "match": "*/*",
