@@ -3,6 +3,8 @@
     "username": "tr1xem"
   },
   "records": {
-    "TXT": ["v=DMARC1; p=none;"]
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
   }
 }

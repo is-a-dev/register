@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "excitedlord",
-        "email": "ben.sujith@gmail.com"
-    },
-    "records": {
-        "CNAME": "excitedlord.github.io"
-    }
+  "owner": {
+    "username": "excitedlord",
+    "email": "ben.sujith@gmail.com"
+  },
+  "records": {
+    "CNAME": "excitedlord.github.io"
+  }
 }
