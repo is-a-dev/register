@@ -1,9 +1,10 @@
 {
   "description": "Sayantan Mandal — Portfolio",
   "owner": {
-    "username": "Sayantan181222"
+    "username": "Sayantan181222",
+    "email": "sayantanman508@gmail.com"
   },
   "record": {
-    "CNAME": "sayantan.netlify.app"
+    "CNAME": "sayantan004.netlify.app"
   }
 }
