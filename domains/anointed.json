@@ -1,10 +1,11 @@
 {
-  "repo": "https://github.com/anointedthedeveloper/portfolio",
+  "description": "Anointed's personal software development portfolio",
   "owner": {
-    "username": "anointedthedeveloper",
-    "email": "anointedthedeveloper@gmail.com"
+    "username": "anointedthedeveloper"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
