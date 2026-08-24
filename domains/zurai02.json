@@ -3,6 +3,7 @@
     "username": "zurai02",
     "email": "zurai02ispro@gmail.com"
   },
+
   "records": {
     "A": [
       "185.199.108.153",
@@ -10,30 +11,110 @@
       "185.199.110.153",
       "185.199.111.153"
     ],
+
     "AAAA": [
       "2606:50c0:8000::153",
       "2606:50c0:8001::153",
       "2606:50c0:8002::153",
       "2606:50c0:8003::153"
     ],
+
     "CNAME": {
       "www": "zurai02.github.io"
     },
+
     "MX": [
       { "value": "mx1.improvmx.com", "priority": 10 },
       { "value": "mx2.improvmx.com", "priority": 20 }
     ],
+
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all",
       {
         "name": "_dmarc",
-        "value": "v=DMARC1; p=quarantine; rua=mailto:zurai02ispro@gmail.com; pct=100"
+        "value": "v=DMARC1; p=quarantine; rua=mailto:zurai02ispro@gmail.com; ruf=mailto:zurai02ispro@gmail.com; fo=1; adkim=r; aspf=r; pct=100; ri=86400"
       },
       {
         "name": "_github-pages-challenge-zurai02",
         "value": "ebd90925cdd2af3278b6f3992a5ac4"
+      },
+      {
+        "name": "_domainconnect",
+        "value": "disabled"
       }
-    ]
+    ],
+
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+      { "flags": 0, "tag": "issue", "value": "pki.goog" },
+      { "flags": 0, "tag": "issuewild", "value": ";" },
+      { "flags": 0, "tag": "iodef", "value": "mailto:zurai02ispro@gmail.com" }
+    ],
+
+    "SRV": [],
+
+    "NS": null
   },
-  "proxied": true
+
+  "security": {
+    "dnssec": true,
+    "tls": {
+      "min_version": "1.2",
+      "hsts": {
+        "enabled": true,
+        "max_age": 31536000,
+        "include_subdomains": true,
+        "preload": true
+      }
+    },
+    "https": {
+      "redirect": true,
+      "auto_https": true
+    }
+  },
+
+  "monitoring": {
+    "health_checks": {
+      "enabled": true,
+      "interval": 300,
+      "timeout": 10,
+      "retries": 2
+    },
+    "alerts": {
+      "email": "zurai02ispro@gmail.com",
+      "webhook": null
+    }
+  },
+
+  "proxied": true,
+
+  "cache": {
+    "ttl": {
+      "browser": 14400,
+      "edge": 86400
+    },
+    "always_online": true
+  },
+
+  "firewall": {
+    "security_level": "medium",
+    "challenge_ttl": 1800,
+    "bot_fight_mode": true
+  },
+
+  "page_rules": [
+    {
+      "match": "*/*",
+      "settings": {
+        "cache_level": "cache_everything",
+        "edge_cache_ttl": 86400
+      }
+    },
+    {
+      "match": "*/admin*",
+      "settings": {
+        "security_level": "high"
+      }
+    }
+  ]
 }
