@@ -18,10 +18,6 @@
       {
         "name": "_github-pages-challenge-zurai02",
         "value": "ebd90925cdd2af3278b6f3992a5ac4"
-      },
-      {
-        "name": "_domainconnect",
-        "value": "disabled"
       }
     ],
     "CAA": [
@@ -29,63 +25,7 @@
       { "flags": 0, "tag": "issue", "value": "pki.goog" },
       { "flags": 0, "tag": "issuewild", "value": ";" },
       { "flags": 0, "tag": "iodef", "value": "mailto:zurai02ispro@gmail.com" }
-    ],
-    "SRV": []
+    ]
   },
-  "security": {
-    "dnssec": true,
-    "tls": {
-      "min_version": "1.2",
-      "hsts": {
-        "enabled": true,
-        "max_age": 31536000,
-        "include_subdomains": true,
-        "preload": true
-      }
-    },
-    "https": {
-      "redirect": true,
-      "auto_https": true
-    }
-  },
-  "monitoring": {
-    "health_checks": {
-      "enabled": true,
-      "interval": 300,
-      "timeout": 10,
-      "retries": 2
-    },
-    "alerts": {
-      "email": "zurai02ispro@gmail.com",
-      "webhook": null
-    }
-  },
-  "proxied": true,
-  "cache": {
-    "ttl": {
-      "browser": 14400,
-      "edge": 86400
-    },
-    "always_online": true
-  },
-  "firewall": {
-    "security_level": "medium",
-    "challenge_ttl": 1800,
-    "bot_fight_mode": true
-  },
-  "page_rules": [
-    {
-      "match": "*/*",
-      "settings": {
-        "cache_level": "cache_everything",
-        "edge_cache_ttl": 86400
-      }
-    },
-    {
-      "match": "*/admin*",
-      "settings": {
-        "security_level": "high"
-      }
-    }
-  ]
+  "proxied": true
 }
