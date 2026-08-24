@@ -3,6 +3,7 @@
     "username": "MaseDev33"
   },
   "records": {
+    "A": ["75.2.60.5"],
     "TXT": [
       "zoho-verification=zb04278517.zmverify.zoho.com",
       "v=spf1 include:zohomail.com ~all"
