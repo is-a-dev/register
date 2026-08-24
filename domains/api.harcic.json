@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "HarcicYang",
+    "email": "harcic@outlook.com"
+  },
+  "records": {
+    "CNAME": "servicic-gateway.harcic4690.workers.dev"
+  },
+  "proxied": true
+}
