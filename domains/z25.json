@@ -5,7 +5,7 @@
     "username": "zidan-cmiw",
     "email": "b3nny.haryant0@gmail.com"
   },
-  "record": {
-    "CNAME": "https://new-portofolio-puce-five.vercel.app/"
+  "records": {
+    "CNAME": "new-portofolio-puce-five.vercel.app"
   }
 }
