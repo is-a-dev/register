@@ -153,6 +153,7 @@ var ignored = [
     IGNORE("_acme-challenge", "TXT"),
     IGNORE("_discord", "TXT"),
     IGNORE("_dmarc", "TXT"),
+    IGNORE("_gh-iad-team-o", "TXT"),
     IGNORE("_gh-is-a-dev-o", "TXT"),
     IGNORE("_gh-is-a-dev-o.**", "TXT"),
     IGNORE("_github-pages-challenge-is-a-dev", "TXT"),
