@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "GODOINED",
-    "email": "goodmopsreset@gmail.com"
+    "username": "godoined",
+    "email": "goodmopsreset@example.com"
   },
   "record": {
-    "CNAME": "https://godoined.github.io/RB_COM"
+    "CNAME": "godoined.github.io"
   }
 }
