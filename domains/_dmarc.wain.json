@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "maestroazouz-cmyk",
-    "email": "Maestroazouz@gmail.com"
-  },
-  "records": {
-    "TXT": "v=DMARC1; p=none;"
-  }
-}
