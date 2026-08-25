@@ -3,7 +3,7 @@
   "owner": {
     "username": "saeedheidari62"
   },
-  "record": {
-    "A": "216.24.57.1"
+  "records": {
+    "A": ["216.24.57.1"]
   }
 }
