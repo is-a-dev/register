@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "rns-forge",
+    "email": "your-email-address@gmail.com"
+  },
+  "records": {
+    "CNAME": "rns-forge.github.io"
+  }
+}
