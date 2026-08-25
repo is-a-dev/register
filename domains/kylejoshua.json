@@ -6,6 +6,7 @@
     "email": "kylejoshua878@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=kylejoshua.is-a.dev,d0c609b9f7f22efd9f29"
   }
 }
