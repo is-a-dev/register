@@ -23,5 +23,5 @@
       { "flags": 0, "tag": "iodef", "value": "mailto:zurai02ispro@gmail.com" }
     ]
   },
-  "proxied": false
+  "proxied": true
 }
