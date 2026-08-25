@@ -4,6 +4,6 @@
     "email": "ochavillo.kylebenedict25@gmail.com"
   },
   "records": {
-    "CNAME": "mazeyboi.vercel.app"
+    "A":["216.198.79.1"]
   }
 }
