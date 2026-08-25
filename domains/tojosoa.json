@@ -4,6 +4,12 @@
     "email": "tojosoamahefa@gmail.com"
   },
   "records": {
-    "URL": "https://github.com/tojosoa-code"
+    "A": ["216.198.79.1"],
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=tojosoa.is-a.dev,0c5f44ee39590eaef2da"
+      }
+    ]
   }
 }
