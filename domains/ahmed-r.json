@@ -4,6 +4,8 @@
     "email": "ahmedrdev10@gmail.com"
   },
   "records": {
-    "CNAME": "my-portfolio.ahmedrdev10.workers.dev"
+    "A": [
+      "172.67.174.201"
+    ]
   }
 }
