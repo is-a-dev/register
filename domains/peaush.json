@@ -3,7 +3,11 @@
     "username": "peaush07",
     "email": "peaushpaul99@gmail.com"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=peaush.is-a.dev,c1eef098473d942a29a8",
+      "vc-domain-verify=www.peaush.is-a.dev,c1eef098473d942a29a8"
+    ]
   }
 }
