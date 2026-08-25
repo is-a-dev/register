@@ -16,8 +16,7 @@
     "CAA": [
       { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
       { "flags": 0, "tag": "issue", "value": "pki.goog" },
-      { "flags": 0, "tag": "issuewild", "value": ";" },
-      { "flags": 0, "tag": "iodef", "value": "mailto:zurai02ispro@gmail.com" }
+      { "flags": 0, "tag": "issuewild", "value": ";" }
     ]
   },
   "proxied": true
