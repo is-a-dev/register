@@ -5,9 +5,6 @@
   },
   "record": {
     "CNAME": "cname.vercel-dns.com",
-    "TXT": [
-      "vc-domain-verify=peaush.is-a.dev,c1eef098473d942a29a8",
-      "vc-domain-verify=www.peaush.is-a.dev,c1eef098473d942a29a8"
-    ]
+    "TXT": "vc-domain-verify=peaush.is-a.dev,e19ef5e55f9eb2a02e87"
   }
 }
