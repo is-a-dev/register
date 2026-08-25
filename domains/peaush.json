@@ -4,7 +4,6 @@
     "email": "peaushpaul99@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=peaush.is-a.dev,e19ef5e55f9eb2a02e87"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
