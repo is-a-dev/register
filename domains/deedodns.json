@@ -1,4 +1,0 @@
-   {
-     "owner": { "username": "onuretim", "email": "mitter.bruno04@gmail.com" },
-     "records": { "TXT": ["v=spf1 include:amazonses.com ~all"] }
-   }
