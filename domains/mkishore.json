@@ -10,6 +10,20 @@
     "TXT": [
       "zoho-verification=zb68828045.zmverify.zoho.in",
       "google-site-verification=L_O2TLRIzK8o5GcShYpT9t1TzZm0dCGKTLdw_xpZrn8"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+       "target": "mx2.zoho.in",
+       "priority": 20
+      },
+      {
+       "target": "mx3.zoho.in",
+       "priority": 50
+      }
     ]
   }
 }
