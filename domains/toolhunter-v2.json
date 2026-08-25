@@ -1,7 +1,8 @@
 {
-  "description": "ToolHunterAI V2 test",
+  "description": "ToolHunterAI V2 technical software development test environment",
   "owner": {
-    "username": "saeedheidari62"
+    "username": "saeedheidari62",
+    "email": "saeed.heidari62@gmail.com"
   },
   "records": {
     "A": ["216.24.57.1"]
