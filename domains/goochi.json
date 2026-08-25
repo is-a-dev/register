@@ -1,8 +1,11 @@
+
 {
   "owner": {
-    "username": https://github.com/goochi24seven-lab
+    "username": "goochi24seven-lab"
   },
   "records": {
-    "A": ["140.238.101.209"]
+    "A": [
+      "140.238.101.209"
+    ]
   }
 }
