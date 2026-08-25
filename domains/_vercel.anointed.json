@@ -3,6 +3,6 @@
     "username": "anointedthedeveloper"
   },
   "records": {
-    "CNAME": "e267fcf76109eadc.vercel-dns-017.com"
+    "TXT": "vc-domain-verify=anointed.is-a.dev,86a1aa37460ee5a15b82"
   }
 }
