@@ -9,6 +9,7 @@
     ],
     "TXT": [
       "zoho-verification=zb68828045.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all",
       "google-site-verification=L_O2TLRIzK8o5GcShYpT9t1TzZm0dCGKTLdw_xpZrn8"
     ],
     "MX": [
