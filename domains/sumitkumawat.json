@@ -1,0 +1,11 @@
+{
+  "description": "My personal website",
+  "repo": "https://github.com/prosumitkumawat/prosumitkumawat.github.io.git",
+  "owner": {
+    "username": "prosumitkumawat",
+    "email": "sumitkumawat090912@gmail.com"
+  },
+  "records": {
+    "CNAME": "prosumitkumawat.github.io"
+  }
+}

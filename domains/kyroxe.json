@@ -3,23 +3,6 @@
     "username": "MaseDev33"
   },
   "records": {
-    "TXT": [
-      "zoho-verification=zb04278517.zmverify.zoho.com",
-      "v=spf1 include:zohomail.com ~all"
-    ],
-    "MX": [
-      {
-        "target": "mx.zoho.com",
-        "priority": 10
-      },
-      {
-        "target": "mx2.zoho.com",
-        "priority": 20
-      },
-      {
-        "target": "mx3.zoho.com",
-        "priority": 50
-      }
-    ]
+    "NS": ["hera.ns.cloudflare.com", "kip.ns.cloudflare.com"]
   }
 }
