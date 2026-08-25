@@ -4,6 +4,6 @@
     "email": "er.sheershtiwari@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=sheersh.is-a.dev,501e17f5478853397b6a"
   }
 }
