@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "Jaimeneira9",
+    "email": "jaimelaika12@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=tu-nombre.is-a.dev,caab6e7f52536b1d8ce3"
+  }
+}
