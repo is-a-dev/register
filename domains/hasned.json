@@ -1,8 +1,11 @@
 {
   "owner": {
-    "username": "Hasned-spec"
+    "username": "Hasned-spec",
+    "email": "Hasned-spec@users.noreply.github.com"
   },
   "records": {
-    "A": "129.213.128.185"
+    "A": [
+      "129.213.128.185"
+    ]
   }
 }
