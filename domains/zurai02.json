@@ -6,15 +6,12 @@
   "records": {
     "CNAME": "zurai02.github.io",
     "MX": [
-      { "value": "mx1.improvmx.com", "priority": 10 },
-      { "value": "mx2.improvmx.com", "priority": 20 }
+      { "target": "mx1.improvmx.com", "priority": 10 },
+      { "target": "mx2.improvmx.com", "priority": 20 }
     ],
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all",
-      {
-        "name": "_dmarc",
-        "value": "v=DMARC1; p=quarantine; rua=mailto:zurai02ispro@gmail.com; ruf=mailto:zurai02ispro@gmail.com; fo=1; adkim=r; aspf=r; pct=100; ri=86400"
-      }
+      "v=DMARC1; p=quarantine; rua=mailto:zurai02ispro@gmail.com; ruf=mailto:zurai02ispro@gmail.com; fo=1; adkim=r; aspf=r; pct=100; ri=86400"
     ],
     "CAA": [
       { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
