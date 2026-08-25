@@ -3,5 +3,7 @@
     "username": "maestroazouz-cmyk",
     "email": "Maestroazouz@gmail.com"
   },
-  "records": {}
+  "records": {
+    "CNAME": "maestroazouz-cmyk.github.io"
+  }
 }
