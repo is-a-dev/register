@@ -1,0 +1,10 @@
+{
+  "description": "NeoBrowser — an MCP server that drives real Chrome with real logged-in sessions",
+  "owner": {
+    "username": "pitiflautico",
+    "email": "pitiflautico3@gmail.com"
+  },
+  "records": {
+    "CNAME": "pitiflautico.github.io"
+  }
+}
