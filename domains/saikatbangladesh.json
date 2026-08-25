@@ -3,6 +3,9 @@
     "username": "saikatbangla"
   },
   "records": {
-    "CNAME": "saikatbangladesh.pages.dev"
+    "NS": [
+      "ariadne.ns.cloudflare.com",
+      "yahir.ns.cloudflare.com"
+    ]
   }
 }
