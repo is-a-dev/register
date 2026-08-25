@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "igormach00",
+    "email": "igormach00@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=spf1 -all"
+    ]
+  }
+}
