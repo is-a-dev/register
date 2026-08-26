@@ -11,7 +11,8 @@
     ],
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all",
-      "v=DMARC1; p=quarantine; rua=mailto:zurai02ispro@gmail.com; ruf=mailto:zurai02ispro@gmail.com; fo=1; adkim=r; aspf=r; pct=100; ri=86400"
+      "v=DMARC1; p=quarantine; rua=mailto:zurai02ispro@gmail.com; ruf=mailto:zurai02ispro@gmail.com; fo=1; adkim=r; aspf=r; pct=100; ri=86400",
+      "google-site-verification=cbDu7ZAi84tTALeQcS5yn7zciD3tTO43hVMhA3pwfoI"
     ],
     "CAA": [
       { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
