@@ -4,6 +4,6 @@
         "email": "mandrindraantonnio@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=mandrindraa.is-a.dev,6dc79ebfe17b2762fc5a"
     }
 }
