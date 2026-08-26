@@ -1,11 +1,12 @@
 {
-    "description": "Portfólio e Catálogo de Filmes de LidioR",
-    "repo": "https://github.com/leedio17/meu-catalogo",
+    "description": "Catalogo de Filmes de LidioR",
+    "repo": "https://github.com/leedio17/site",
     "owner": {
         "username": "leedio17",
-        "email": "leedio@msn.com"
+        "email": "seuemail@exemplo.com"
     },
     "record": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": "vc-domain-verify=lidior.is-a.dev,9b5ab4955ad02ad8a79f"
     }
 }
