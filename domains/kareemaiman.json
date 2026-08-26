@@ -4,6 +4,7 @@
         "email": "kareemaiman2012@gmail.com"
     },
     "records": {
-        "CNAME": "kareemaiman.kareemaiman2012.workers.dev"
-    }
+        "CNAME": "kareemaiman.pages.dev/"
+    },
+    "proxied": true
 }
