@@ -1,0 +1,14 @@
+{
+  "description": "For my nuojiji relay server",
+  "repo": "https://github.com/wcl20071005/nuojiji-relay",
+  "owner": {
+    "username": "caleb0324",
+    "email": "1846467442@qq.com"
+  },
+  "record": {
+    "NS": [
+      "amanda.ns.cloudflare.com",
+      "patryk.ns.cloudflare.com"
+    ]
+  }
+}
