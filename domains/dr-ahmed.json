@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "ana-joker",
+    "email": "ana.joker@users.noreply.github.com"
+  },
+  "records": {
+    "NS": ["aryanna.ns.cloudflare.com", "brad.ns.cloudflare.com"]
+  }
+}
