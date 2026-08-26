@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "teamsamvaad"
+    "username": "teamsamvaad",
+    "email": "pixelworks-dev@users.noreply.github.com"
   },
   "records": {
     "CNAME": "teamsamvaad.github.io"
   },
-  "description": "PixelWorks \u2014 free web portfolio & client demo sites"
+  "description": "Web development portfolio \u2014 15 client-ready business website demos (HTML/CSS/JS)"
 }
