@@ -5,12 +5,5 @@
   },
   "records": {
     "CNAME": "portfolio-mickychog.vercel.app"
-  },
-  "nested": {
-    "_vercel": {
-      "records": {
-        "TXT": "vc-domain-verify=mickychog.is-a.dev,5e04327d1e0043551b23"
-      }
-    }
   }
 }
