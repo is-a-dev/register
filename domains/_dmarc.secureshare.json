@@ -1,0 +1,1 @@
+{ "owner": { "username": "sudhirkr2003" }, "records": { "TXT": "v=DMARC1; p=reject; rua=mailto:a332a01d17074bc0a0749c294e3ed47b@dmarc-reports.cloudflare.net" } }
