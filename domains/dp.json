@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "kindmita"
+        "username": "kindmita",
+        "email": "kind.mita@outlook.com"
     },
     "records": {
         "CNAME": "dp-intro-vue.pages.dev"
