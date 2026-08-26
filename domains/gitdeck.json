@@ -5,7 +5,7 @@
     "email": "contentsaja12@gmail.com",
     "contact": "https://whatsapp.com/channel/0029VbC6a5C7oQhUeajM3q1i"
   },
-  "record": [
+  "records": [
     {
       "type": "A",
       "name": "@",
@@ -19,6 +19,5 @@
   ],
   "url": "https://git-deck-cuk.vercel.app",
   "description": "GitHub workspace application to manage repositories, edit files, and view GitHub profiles from a single integrated dashboard",
-  "category": "software-development",
-  "deployed": true
+  "category": "software-development"
 }
