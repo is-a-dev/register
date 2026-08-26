@@ -4,6 +4,7 @@
     "email": "abdelrahman.shoiera@gmail.com"
   },
   "records": {
-    "CNAME": "abdelrahman-shoeera.github.io"
+    "CNAME": "abdelrahman-shoeera.github.io",
+    "TXT": ["7e4ccea89c47eb3d4f9405949f2a6f"]
   }
 }
