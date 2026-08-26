@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "gettinrotten",
+    "email": "t59349806@gmail.com"
+  },
+  "records": {
+    "CNAME": "imagehostdomain.guns.lol",
+    "_acme-challenge": {
+      "CNAME": "gettin.rotten.com.01ca74f54c9a62a7.dcv.cloudflare.com"
+    }
+  }
+}
