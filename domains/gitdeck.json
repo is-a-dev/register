@@ -1,0 +1,24 @@
+{
+  "domain": "gitdeck.is-a.dev",
+  "owner": {
+    "name": "Gamet",
+    "email": "contentsaja12@gmail.com",
+    "contact": "https://whatsapp.com/channel/0029VbC6a5C7oQhUeajM3q1i"
+  },
+  "record": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "216.198.79.1"
+    },
+    {
+      "type": "TXT",
+      "name": "_vercel",
+      "value": "vc-domain-verify=gitdeck.is-a.dev,e5939e93166a9226657b"
+    }
+  ],
+  "url": "https://git-deck-cuk.vercel.app",
+  "description": "GitHub workspace application to manage repositories, edit files, and view GitHub profiles from a single integrated dashboard",
+  "category": "software-development",
+  "deployed": true
+}
