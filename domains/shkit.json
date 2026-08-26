@@ -1,9 +1,10 @@
+json
 {
     "owner": {
-        "shkit.is-a.dev": "ваш-логин-github"
+        "username": "glebpashnin-star"
     },
     "record": {
-        "glebpashnin-star.github.io": "ваш-логин-github.github.io"
+        "CNAME": "glebpashnin-star.github.io"
     },
     "proxied": true
 }
