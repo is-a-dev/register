@@ -4,7 +4,6 @@
     "email": "asimt2001@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=asim.is-a.dev,fa69a36a4c337c1154b8"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
