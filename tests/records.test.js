@@ -240,6 +240,11 @@ function validateRecordValues(t, data, file) {
                 t.true(typeof record === "string", `${file}: TXT record value should be a string at index ${idx}`);
 
                 if (record.startsWith("vc-domain-verify=")) {
+                    t.true(
+                        file.startsWith("_vercel."),
+                        `${file}: vc-domain-verify TXT records are only allowed in files starting with _vercel.`
+                    );
+
                     const domainToken = record.split("vc-domain-verify=")[1].split(",")[0];
 
                     t.true(
@@ -289,6 +294,13 @@ function validateRecordValues(t, data, file) {
 
 t("All files should have valid records", (t) => {
     files.forEach((file) => {
+        if (file.startsWith("_vercel")) {
+            t.true(
+                /^_vercel\.[^.]+\.json$/.test(file),
+                `${file}: Files starting with '_vercel' must have format '_vercel.<name>.json'`
+            );
+        }
+
         const data = getDomainData(file);
         const recordKeys = Object.keys(data.records);
 
