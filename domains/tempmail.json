@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "akshatenqcode",
+    "email": "akshat.enqcode@gmail.com"
+  },
+  "records": {
+    "MX": [
+      { "value": "mxa.mailgun.org", "priority": 10 },
+      { "value": "mxb.mailgun.org", "priority": 10 }
+    ],
+    "TXT": [
+      { "value": "v=spf1 include:mailgun.org ~all" }
+    ],
+    "CNAME": "your-dkim-target.mailgun.org"
+  }
+}
