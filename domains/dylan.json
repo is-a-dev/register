@@ -4,9 +4,6 @@
         "email": "dylanzarzuela62@gmail.com"
     },
     "records": {
-        "NS": [
-            "ns1.vercel-dns.com",
-            "ns2.vercel-dns.com"
-        ]
+        "CNAME": "://vercel-dns.com"
     }
 }
