@@ -1,11 +1,9 @@
 {
-  "owner": {
-    "username": "faisalimap",
-    "email": "faisalimap@gmail.com"
-  },
-  "records": {
-    "A": [
-      "76.76.21.21"
-    ]
-  }
+    "owner": {
+        "username": "faisalimap",
+        "email": "[faisalimap@gmail.com]"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
