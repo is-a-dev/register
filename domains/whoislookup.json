@@ -1,0 +1,11 @@
+{
+  "description": "Universal WHOIS Lookup and Domain Intelligence Tool",
+  "repo": "https://github.com/whois-lookup",
+  "owner": {
+    "username": "whois-lookup",
+    "email": "ahmedali2026@atomicmail.io"
+  },
+  "record": {
+    "CNAME": "whois-lookup.ahmedali2026.workers.dev"
+  }
+}
