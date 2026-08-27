@@ -1,0 +1,11 @@
+{
+  "description": "Personal website",
+  "repo": "https://github.com/zarnoso/zarnoso.github.io",
+  "owner": {
+    "username": "zarnoso",
+    "email": "andres_bv@live.cl"
+  },
+  "record": {
+    "CNAME": "zarnoso.github.io"
+  }
+}
