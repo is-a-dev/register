@@ -1,0 +1,11 @@
+{
+  "description": "RikkY Search - a privacy-focused metasearch engine",
+  "repo": "https://github.com/anjalifredy-ai/searxng-railway-template",
+  "owner": {
+    "username": "anjalifredy-ai",
+    "email": "anjalifredy@gmail.com"
+  },
+  "record": {
+    "CNAME": "searxng-production-6dcc.up.railway.app"
+  }
+}
