@@ -4,6 +4,6 @@
     "email": "joyalksdev@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=joyalks.is-a.dev,97fd1605311c35d0f0cc"
   }
 }
