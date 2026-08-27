@@ -21,9 +21,9 @@
         "target": "mx3.zoho.com",
         "priority": 50
       }
-    ],
-    "redirect_config": {
-      "redirect_paths": true
-    }
+    ]
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }
