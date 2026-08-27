@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mvinorian",
-        "email": "vinorianmuhammad@gmail.com"
-    },
-    "records": {
-        "CNAME": "mvinorian-astro.vinorianmuhammad.workers.dev"
-    }
+  "owner": {
+    "username": "mvinorian",
+    "email": "vinorianmuhammad@gmail.com"
+  },
+  "records": {
+    "URL": "https://mvinorian-astro.vinorianmuhammad.workers.dev"
+  }
 }
