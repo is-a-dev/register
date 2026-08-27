@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "dein-github-username",
+    "email": "deine@email.at"
+  },
+  "records": {
+    "CNAME": "tool-manager.jollysmoke-0d20aaf2.germanywestcentral.azurecontainerapps.io"
+  },
+  "proxied": false
+}
