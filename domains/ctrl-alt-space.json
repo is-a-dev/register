@@ -3,6 +3,9 @@
         "username": "ctrlaltspace"
     },
     "records": {
-        "CNAME": "ctrlaltspace.github.io"
+        "URL": "https://ctrlaltspace.is-a.dev"
+    },
+    "redirect_config": {
+      "redirect_paths": true
     }
 }

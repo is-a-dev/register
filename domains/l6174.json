@@ -5,8 +5,14 @@
   },
   "records": {
     "MX": [
-      { "target": "mx1.forwardemail.net", "priority": 10 },
-      { "target": "mx2.forwardemail.net", "priority": 10 }
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 10
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 10
+      }
     ],
     "TXT": "forward-email=sekiryl@proton.me"
   },
