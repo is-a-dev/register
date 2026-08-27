@@ -246,10 +246,12 @@ function validateRecordValues(t, data, file) {
                     );
 
                     const domainToken = record.split("vc-domain-verify=")[1].split(",")[0];
+                    const targetName = file.replace(/^_vercel\./, "").replace(/\.json$/, "");
+                    const expectedDomain = `${targetName}.is-a.dev`;
 
                     t.true(
-                        domainToken.endsWith(".is-a.dev"),
-                        `${file}: Vercel TXT verification must target a subdomain of is-a.dev`
+                        domainToken === expectedDomain || domainToken.endsWith(`.${expectedDomain}`),
+                        `${file}: Vercel TXT record domain (${domainToken}) must be '${expectedDomain}' or end with '.${expectedDomain}'`
                     );
                 }
             });
