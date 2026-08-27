@@ -4,7 +4,13 @@
     "email": "seanpaulforonda@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=seanpaul.is-a.dev,761570db351db5920ee6"
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "subdomains": {
+    "_vercel": {
+      "records": {
+        "TXT": "vc-domain-verify=seanpaul.is-a.dev,761570db351db5920ee6"
+      }
+    }
   }
 }
