@@ -5,7 +5,7 @@
     "username": "whois-lookup",
     "email": "ahmedali2026@atomicmail.io"
   },
-  "record": {
+  "records": {
     "CNAME": "whois-lookup.ahmedali2026.workers.dev"
   }
 }
