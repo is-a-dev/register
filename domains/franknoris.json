@@ -6,5 +6,6 @@
     "records": {
         "CNAME": "f47cf98730a9c1db.vercel-dns-017.com",
         "TXT": "vc-domain-verify=franknoris.is-a.dev,291c72fb8126fa33c442"
-    }
+    },
+    "proxied": true
 }
