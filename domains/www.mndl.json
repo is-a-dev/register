@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "MNDL-27",
+        "email": "[email protected]"
+    },
+    "records": {
+        "CNAME": "apex-loadbalancer.netlify.com"
+    }
+}
