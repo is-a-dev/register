@@ -5,7 +5,7 @@
     },
     "proxied": true,
     "records": {
-        "CNAME": "://vercel-dns.com",
+        "CNAME": "portfolio-demo-dz.vercel.app",
         "TXT": [
             "vc-domain-verify=dylan.is-a.dev,0cb727f41d0060fc5308"
         ]
