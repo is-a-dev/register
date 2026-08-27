@@ -4,6 +4,9 @@
     "email": "dhananjayp359@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "NS": [
+      "beth.ns.cloudflare.com",
+      "colin.ns.cloudflare.com"
+    ]
   }
 }
