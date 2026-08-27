@@ -4,6 +4,6 @@
     "email": "seanpaulforonda@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=seanpaul.is-a.dev,4c688dbc27421aeb9079"
   }
 }
