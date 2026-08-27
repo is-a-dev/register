@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "joyalksdev",
+    "username": "joyalks",
     "email": "joyalksdev@gmail.com"
   },
   "records": {
-    "CNAME": "joyalks-portfolio.vercel.app"
+    "CNAME": "joyalks-portfolio.vercel.app",
+    "TXT": "vc-domain-verify=www.joyalks.is-a.dev,ceba868b8a0045c2f499"
   }
 }
