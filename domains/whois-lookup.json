@@ -1,0 +1,11 @@
+{
+  "description": "Universal WHOIS Lookup and Domain Intelligence Tool",
+  "repo": "https://github.com/ai-q2a",
+  "owner": {
+    "username": "ai-q2a",
+    "email": "ahmedali2026@atomicmail.io"
+  },
+  "records": {
+    "CNAME": "whois-lookup.ahmedali2026.workers.dev"
+  }
+}
