@@ -1,0 +1,6 @@
+{
+  "owner": { "username": "ckm1268-cell" },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
