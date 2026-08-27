@@ -6,7 +6,6 @@
     "email": "leo4yuu@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=leoson.is-a.dev,2ce8c17d52bab6aa7389"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
