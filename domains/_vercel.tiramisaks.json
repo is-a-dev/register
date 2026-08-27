@@ -1,0 +1,11 @@
+{
+  "description": "tiramisaks CTF writeups and security research portfolio",
+  "repo": "https://github.com/xMryth/tiramisaks-portfolio",
+  "owner": {
+    "username": "xMryth",
+    "email": "farellrizqii@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tiramisaks.is-a.dev,c3b83b22bbe0fd0317ba"
+  }
+}

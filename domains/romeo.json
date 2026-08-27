@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Strvm"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "Strvm"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

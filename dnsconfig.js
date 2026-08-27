@@ -153,12 +153,12 @@ var ignored = [
     IGNORE("_acme-challenge", "TXT"),
     IGNORE("_discord", "TXT"),
     IGNORE("_dmarc", "TXT"),
+    IGNORE("_gh-iad-team-o", "TXT"),
     IGNORE("_gh-is-a-dev-o", "TXT"),
     IGNORE("_gh-is-a-dev-o.**", "TXT"),
     IGNORE("_github-pages-challenge-is-a-dev", "TXT"),
     IGNORE("_github-pages-challenge-is-a-dev.**", "TXT"),
-    IGNORE("_psl", "TXT"),
-    IGNORE("ns[1-4]", "A,AAAA")
+    IGNORE("_psl", "TXT")
 ];
 
 var internal = require("./util/internal.json");
