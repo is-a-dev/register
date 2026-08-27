@@ -5,12 +5,5 @@
   },
   "records": {
     "CNAME": "jo6nl3gh.up.railway.app"
-  },
-  "subdomains": {
-    "_railway-verify": {
-      "records": {
-        "TXT": "railway-verify=dc6f42417248e2f807678609df30f07e87322c38b1cb1ba46ee0280a32b641b0"
-      }
-    }
   }
 }
