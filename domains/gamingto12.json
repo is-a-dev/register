@@ -4,6 +4,24 @@
     "email": "0x8f2d3e@gmail.com"
   },
   "records": {
-    "CNAME": "gamingto12.github.io"
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      "10 mx1.improvmx.com",
+      "20 mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  },
+  "subdomains": {
+    "vault": {
+      "CNAME": "vault-origin.freedomforever.eu.org"
+    },
+    "status": {
+      "CNAME": "status-origin.freedomforever.eu.org"
+    }
   }
 }
