@@ -4,6 +4,9 @@
         "email": "dylanzarzuela62@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": [
+            "vc-domain-verify=dylan.is-a.dev,0cb727f41d0060fc5308"
+        ]
     }
 }
