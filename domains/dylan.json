@@ -3,11 +3,10 @@
         "username": "dylanzm",
         "email": "dylanzarzuela62@gmail.com"
     },
-    "proxied": true,
     "records": {
-        "CNAME": "portfolio-demo-dz.vercel.app",
-        "TXT": [
-            "vc-domain-verify=dylan.is-a.dev,0cb727f41d0060fc5308"
+        "NS": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
         ]
     }
 }
