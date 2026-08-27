@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "binlecode",
+    "email": "bin.le.code@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "elle.ns.cloudflare.com",
+      "nick.ns.cloudflare.com"
+    ]
+  }
+}
