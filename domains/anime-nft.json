@@ -3,6 +3,7 @@
     "username": "srashti-blocks",
     "email": "sgsrashtigupta45@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "2429d539cb4945f9.vercel-dns-017.com",
     "TXT": "vc-domain-verify=www.anime-nft.is-a.dev,959b8784859962ee510a"
