@@ -1,0 +1,8 @@
+{
+  "description": "Meu site no Render",
+  "domain": "chequetto.is-a.dev",
+  "records": {
+    "CNAME": "chequetto-hujo.onrender.com"
+  },
+  "proxy": false
+}
