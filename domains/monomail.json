@@ -1,0 +1,9 @@
+{
+ "owner": {
+     "username": "adibbyte",
+     "email": "[email protected]"
+  },
+ "records": {
+     "TXT": ["v=spf1 include:_spf.nisdos.com ~all"]
+  }
+}
