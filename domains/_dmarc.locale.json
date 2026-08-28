@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "hanxsoloxx",
+    "email": "localeapp.ng@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
