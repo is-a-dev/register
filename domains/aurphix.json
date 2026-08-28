@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "khinghello",
+    "email": "chaiwatsamathi@gmail.com"
+  },
+  "record": {
+    "MX": [
+      "mx.zoho.com",
+      "mx2.zoho.com",
+      "mx3.zoho.com"
+    ],
+    "TXT": [
+      "zoho-verification=zb23327626.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
+    ]
+  }
+}
