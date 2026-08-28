@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "StieveL"
+    "username": "StieveL",
+    "email": "8ninamarie@gmail.com"
   },
   "records": {
-    "CNAME": "roverify-dhg.pages.dev"
-  }
+    "CNAME": "rover-4ea.pages.dev"
+  },
+  "proxied": true
 }
