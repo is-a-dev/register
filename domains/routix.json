@@ -1,0 +1,11 @@
+{
+  "description": "Routix Cloud WAF & Application Protection",
+  "repo": "https://github.com/774851129aaa/routix",
+  "owner": {
+    "username": "774851129aaa-code",
+    "email": "774851129aaa@gmail.com"
+  },
+  "records": {
+    "CNAME": "production-1-54qv.onrender.com"
+  }
+}
