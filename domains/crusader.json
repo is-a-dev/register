@@ -8,9 +8,9 @@
             "213.149.62.199"
         ],
         "MX": [
-            "route1.mx.cloudflare.net.",
-            "route2.mx.cloudflare.net.",
-            "route3.mx.cloudflare.net."
+            "route1.mx.cloudflare.net",
+            "route2.mx.cloudflare.net",
+            "route3.mx.cloudflare.net"
         ]
     }
 }
