@@ -1,0 +1,16 @@
+{
+    "owner": {
+        "username": "Karlo1104",
+        "email": "karlo.sarson1@gmail.com"
+    },
+    "record": {
+        "A": [
+            "213.149.62.199"
+        ],
+        "MX": [
+            "route1.mx.cloudflare.net.",
+            "route2.mx.cloudflare.net.",
+            "route3.mx.cloudflare.net."
+        ]
+    }
+}
