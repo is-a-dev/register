@@ -4,6 +4,7 @@
     "email": "chaiwatsamathi@gmail.com"
   },
   "records": {
+    "URL": "https://github.com/khinghello",
     "TXT": [
       "zoho-verification=zb38569329.zmverify.zoho.com",
       "v=spf1 include:zoho.com ~all"
