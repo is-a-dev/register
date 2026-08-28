@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "gpb-codes",
+    "email": "gabriel.pedreros.dev@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "zoho-verification=zb72133477.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
+    ],
+    "MX": [
+      "10 mx.zoho.com",
+      "20 mx2.zoho.com",
+      "50 mx3.zoho.com"
+    ]
+  }
+}
