@@ -12,6 +12,9 @@
     "TXT": [
       "zoho-verification=zb23327626.zmverify.zoho.com",
       "v=spf1 include:zoho.com ~all"
-    ]
+    ],
+    "CNAME": {
+      "zoho._domainkey": "zoho._domainkey.zoho.com"
+    }
   }
 }
