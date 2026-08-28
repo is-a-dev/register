@@ -5,5 +5,12 @@
     },
     "records": {
         "CNAME": "noisy-aqua-thhfvmsj.edgeone.dev"
+    },
+    "subdomains": {
+        "edgeonereclaim": {
+            "records": {
+                "TXT": "reclaim-xh4rufjlrp0f0n5w67epw0ep19dxsacm"
+            }
+        }
     }
 }
