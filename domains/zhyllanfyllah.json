@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Jirankun",
-        "email": "zhyllanfyllah@gmail.com"
-    },
-    "records": {
-        "CNAME": "zhyllanfyllah.pages.dev"
-    }
+  "owner": {
+    "username": "Jirankun",
+    "email": "zhyllanfyllah@gmail.com"
+  },
+  "records": {
+    "CNAME": "zhyllanfyllah.pages.dev"
+  }
 }

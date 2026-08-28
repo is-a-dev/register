@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "heet06",
-        "email": "radadiyaheet@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "heet06",
+    "email": "radadiyaheet@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

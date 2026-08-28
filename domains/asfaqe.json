@@ -1,8 +1,12 @@
 {
-    "owner": {
-        "username": "asfaqehussain"
-    },
-    "records": {
-        "CNAME": "asfaqe.vercel.app"
-    }
+  "description": "Asfaqe Portfolio",
+  "owner": {
+    "username": "asfaqehussain",
+    "email":"asfaqeh@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

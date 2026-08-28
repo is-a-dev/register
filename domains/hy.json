@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "hamzayslmn",
-        "email": "resmiyslmn@gmail.com"
-    },
-    "records": {
-        "CNAME": "hamzayslmn.github.io"
-    }
+  "owner": {
+    "username": "hamzayslmn",
+    "email": "resmiyslmn@gmail.com"
+  },
+  "records": {
+    "CNAME": "hamzayslmn.github.io"
+  }
 }
