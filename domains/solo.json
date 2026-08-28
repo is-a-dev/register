@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "omernkf"
-    },
-    "record": {
-        "CNAME": "omdesign.netlify.app"
-    }
+  "owner": {
+    "username": "omernkf",
+    "email": "Omerfarroq37@gmail.com"
+  },
+  "records": {
+    "CNAME": "omdesign.netlify.app"
+  }
 }
