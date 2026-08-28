@@ -1,8 +1,10 @@
 {
+  "description": "DRipACS DICOM Viewer Software Development Project",
   "owner": {
-    "username": "balansiva02121997-dot"
+    "username": "balansiva02121997-dot",
+    "email": "balansiva02121997@gmail.com"
   },
   "records": {
-    "CNAME": "a0cc5043-7e96-4e62-bde5-582b2ba4bf02.cfargotunnel.com"
+    "CNAME": "acd4043c-ee38-4eaa-9410-0a6bf893070d.cfargotunnel.com"
   }
 }
