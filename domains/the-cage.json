@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "Fleps0",
+    "email": "lassebrechmacher@gmail.com"
+  },
+  "records": {
+    "CNAME": "fleps0.github.io"
+  }
+}
