@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "89ph88o8gf"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8EsYU6KAdKNp8l/JR5VQeDyo6O7IVOS3E601kAN7S6LYpE/x12YiIjVHLcXBMYUruvSOb+dEyb7WlYbstkiQE9AspsQwDK4NyPSp6l4phmd0zLx0nscLHz25rewYX2iabM8Pzmh5X69s5V8C3qg+DN0joW/2di433WBx+Urk9DQIDAQAB"
+  }
+}
