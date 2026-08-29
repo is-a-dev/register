@@ -5,7 +5,10 @@
     "discord": "thetommylong"
   },
   "records": {
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
     "TXT": "forward-email=MzhmMzFiMTE5MzQzMWU3Yi0wMTUyZTEzZjg1Mjg0OGUzNjFiNzkzMmE2MGY1MDM3ZmUxY2IzODdlOWEzYTUyZGUyYjZjMzcwMzE3MWExZjNi",
     "CNAME": "thetommylong.github.io"
   },
