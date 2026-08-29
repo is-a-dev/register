@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "nattomaki10000",
+    "email": "nattomaki10000@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "damiete.ns.cloudflare.com",
+      "grace.ns.cloudflare.com"
+    ]
+  }
+}
