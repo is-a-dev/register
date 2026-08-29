@@ -4,9 +4,6 @@
     "email": "nattomaki10000@gmail.com"
   },
   "record": {
-    "NS": [
-      "damiete.ns.cloudflare.com",
-      "grace.ns.cloudflare.com"
-    ]
+    "CNAME": "bbs-chat.nattomaki10000.workers.dev"
   }
 }
