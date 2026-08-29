@@ -11,9 +11,12 @@
       "185.199.111.153"
     ],
     "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
     ],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "TXT": [
+      "forward-email=0x8f2d3e@gmail.com",
+      "v=spf1 a include:spf.forwardemail.net -all"
+    ]
   }
 }
