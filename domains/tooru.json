@@ -4,6 +4,9 @@
     "email": "nattomaki10000@gmail.com"
   },
   "records": {
-    "CNAME": "bbs-chat.nattomaki10000.workers.dev"
+    "A": [
+      "104.21.31.229",
+      "172.67.135.241"
+    ]
   }
 }
