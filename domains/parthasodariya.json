@@ -3,8 +3,8 @@
     "username": "iamparth2003",
     "email": "parthasodariya14@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["76.76.21.21"],
-    "TXT": "vc-domain-verify=parthasodariya.is-a.dev,223b0da274563cff4c49"
+    "TXT": ["vc-domain-verify=parthasodariya.is-a.dev,223b0da274563cff4c49"]
   }
 }
