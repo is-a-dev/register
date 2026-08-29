@@ -1,15 +1,15 @@
 {
-  "description": "My site / mail settings (update as needed)",
-  "repo": "codewithhanzlah/codewithhanzlah.github.io",
   "owner": {
     "username": "codewithhanzlah",
-    "email": "support@codewithhanzlah.example"
+    "email": "codewithhanzlah@gmail.com"
   },
   "records": {
+    "CNAME": "codewithhanzlah.github.io",
     "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
+      { "target": "mx1.improvmx.com", "priority": 10 },
+      { "target": "mx2.improvmx.com", "priority": 20 }
     ],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  }
+  },
+  "proxied": true
 }
