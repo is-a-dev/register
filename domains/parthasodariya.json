@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "iamparth2003",
+    "email": "parthasodariya14@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=parthasodariya.is-a.dev,223b0da274563cff4c49"
+  }
+}
