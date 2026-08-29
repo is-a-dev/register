@@ -3,9 +3,8 @@
     "username": "vladbrox",
     "email": "justkoder@duck.com"
   },
-  "records": {
-    "A": [
-      "216.198.79.1"
-    ]
-  }
+  "nameservers": [
+    "anahi.ns.cloudflare.com",
+    "armfazh.ns.cloudflare.com"
+  ]
 }
