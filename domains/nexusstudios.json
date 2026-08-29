@@ -1,0 +1,15 @@
+{
+  "domain": "nexusstudios.is-a.dev",
+  "subdomain": "nexusstudios",
+  "owner": {
+    "username": "Ibtehajalamkiani",
+    "email": "kianiibtehajalam@gmail.com",
+    "discord": "nexusstudios"
+  },
+  "records": {
+    "NS": [
+      "celine.ns.cloudflare.com",
+      "donald.ns.cloudflare.com"
+    ]
+  }
+}
