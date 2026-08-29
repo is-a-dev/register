@@ -6,10 +6,15 @@
     "email": "codewithhanzlah@gmail.com"
   },
   "record": {
-    "CNAME": "codewithhanzlah.github.io",
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
     "MX": [
-      "mx1.improvmx.com 10",
-      "mx2.improvmx.com 20"
+      "mx1.improvmx.com.",
+      "mx2.improvmx.com."
     ]
   }
 }
