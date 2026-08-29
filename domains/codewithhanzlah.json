@@ -1,25 +1,20 @@
 {
   "description": "Personal portfolio of Muhammad Hanzlah — AI Engineer",
-  "repo": "https://github.com",
+  "repo": "https://github.com/codewithhanzlah/codewithhanzlah.github.io",
   "owner": {
     "username": "codewithhanzlah",
     "email": "codewithhanzlah@gmail.com"
   },
-  "record": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
+  "records": {
+    "CNAME": "codewithhanzlah.github.io",
     "MX": [
       {
         "priority": 10,
-        "mx": "://improvmx.com."
+        "mx": "mx1.improvmx.com."
       },
       {
         "priority": 20,
-        "mx": "://improvmx.com."
+        "mx": "mx2.improvmx.com."
       }
     ]
   }
