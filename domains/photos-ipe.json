@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "dumitrumiron38-ux",
+    "email": "admin@photos-ipe.dev"
+  },
+  "records": {
+    "NS":[
+      "harleigh.ns.cloudflare.com"
+      "julian.ns.cloudflare.com"
+    ]
+  }
+}
