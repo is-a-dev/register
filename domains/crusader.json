@@ -6,9 +6,11 @@
     "records": {
         "CNAME": "karlo1104.github.io",
         "MX": [
-            "route1.mx.cloudflare.net",
-            "route2.mx.cloudflare.net",
-            "route3.mx.cloudflare.net"
+            "10 ://improvmx.com.",
+            "20 ://improvmx.com."
+        ],
+        "TXT": [
+            "v=spf1 include:://improvmx.com ~all"
         ]
     },
     "proxied": true
