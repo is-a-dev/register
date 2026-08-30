@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kasiliwachiye",
-        "email": "wachiye25@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=kasili.is-a.dev,e967880e9bb824dc95ed"
-    }
+  "owner": {
+    "username": "kasiliwachiye",
+    "email": "wachiye25@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=kasili.is-a.dev,e967880e9bb824dc95ed"
+  }
 }

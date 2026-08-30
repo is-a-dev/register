@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Pratik-Harani",
-        "email": "pratik.harani@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "Pratik-Harani",
+    "email": "pratik.harani@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
