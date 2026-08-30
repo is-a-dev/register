@@ -4,6 +4,9 @@
     "email": "markanthonyenriquezzz@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-murex-eta-qlzrmmbabo.vercel.app"
+    "CNAME": "portfolio-murex-eta-qlzrmmbabo.vercel.app",
+    "TXT": [
+      "vc-domain-verify=markanthonyportfolio.is-a.dev,dae714a36487b312f6fb"
+    ]
   }
 }
