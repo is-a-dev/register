@@ -4,7 +4,12 @@
         "email": "karlo.sarson1@gmail.com"
     },
     "records": {
-        "CNAME": "karlo1104.github.io",
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
         "MX": [
             { "target": "mx1.improvmx.com", "priority": 10 },
             { "target": "mx2.improvmx.com", "priority": 20 }
@@ -13,5 +18,5 @@
             "v=spf1 include:spf.improvmx.com ~all"
         ]
     },
-    "proxied": false
+    "proxied": true
 }
