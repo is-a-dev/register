@@ -1,1 +1,9 @@
-{"owner":{"username":"taimweromita505-source","email":"taimweromita505@gmail.com"},"records":{"CNAME":"taimweromita505-source.github.io"}}
+{
+  "owner": {
+    "username": "taimweromita505-source",
+    "email": "taimweromita505@gmail.com"
+  },
+  "records": {
+    "CNAME": "taimweromita505-source.github.io"
+  }
+}
