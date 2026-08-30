@@ -1,0 +1,11 @@
+{
+  "description": "Vercel domain verification for carloscabello.is-a.dev",
+  "owner": {
+    "username": "CarlosCabelloTroncoso",
+    "email": "ignaciocarlos016@gmail.com",
+    "repo": "https://github.com/CarlosCabelloTroncoso/portfolio-2026"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=carloscabello.is-a.dev,9a98ce47b9802237888f"
+  }
+}
