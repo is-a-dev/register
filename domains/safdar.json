@@ -4,7 +4,6 @@
         "email": "safdar.eryx@gmail.com"
     },
     "records": {
-        "CNAME": "swara.bysafdar.workers.dev"
-    },
-    "proxied": true
+        "URL": "https://swara.bysafdar.workers.dev"
+    }
 }
