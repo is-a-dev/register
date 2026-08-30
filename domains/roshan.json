@@ -1,16 +1,9 @@
 {
-  "description": "Personal portfolio",
+  "repo": "https://github.com/Roshan-py/portfolio",
   "owner": {
-    "username": "roshan1885",
-    "discord": "roshan1885"
+    "username": "Roshan-py"
   },
   "records": {
-    "CNAME": "roshan1885.github.io",
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  },
-  "proxied": true
+    "CNAME": "roshan-py.github.io"
+  }
 }
