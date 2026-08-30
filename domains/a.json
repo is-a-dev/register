@@ -1,13 +1,11 @@
 {
   "owner": {
-    "username": "dragsbruh",
-    "email": "dragsbruh@protonmail.com",
-    "discord": "781445370177126401"
+    "username": "FufuUwU",
+    "email": "git.gay@pm.me"
   },
   "records": {
-    "URL": "https://ririna.net"
-  },
-  "redirect_config": {
-    "redirect_paths": true
+    "A": [
+      "192.3.34.74"
+    ]
   }
 }
