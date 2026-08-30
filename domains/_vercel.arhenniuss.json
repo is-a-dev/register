@@ -1,12 +1,12 @@
 {
-    "owner": {
-        "username": "Ayusman-Singhal",
-        "email": "ayusmansinghal@gmail.com"
-    },
-    "records": {
-        "TXT": [
-            "vc-domain-verify=arhenniuss.is-a.dev,78479e014158a95b7457",
-            "vc-domain-verify=www.arhenniuss.is-a.dev,6d5fc74b31105ff0016c"
-        ]
-    }
+  "owner": {
+    "username": "Ayusman-Singhal",
+    "email": "ayusmansinghal@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=arhenniuss.is-a.dev,78479e014158a95b7457",
+      "vc-domain-verify=www.arhenniuss.is-a.dev,6d5fc74b31105ff0016c"
+    ]
+  }
 }
