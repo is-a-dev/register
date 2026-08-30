@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "akram-cse",
-        "email": "wasim@banglafighter.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=wasimcse.is-a.dev,13864f9d98662278fb42"
-    }
+  "owner": {
+    "username": "akram-cse",
+    "email": "wasim@banglafighter.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=wasimcse.is-a.dev,13864f9d98662278fb42"
+  }
 }
