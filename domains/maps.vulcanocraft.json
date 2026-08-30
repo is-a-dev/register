@@ -4,6 +4,7 @@
     "discord": "814891541205876767"
   },
   "records": {
-    "CNAME": "vulcanomap.pages.dev"
-  }
+    "CNAME": "map.vulcanocraft.com"
+  },
+  "proxied": true
 }
