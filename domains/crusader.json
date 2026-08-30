@@ -4,9 +4,7 @@
         "email": "karlo.sarson1@gmail.com"
     },
     "records": {
-        "A": [
-            "213.149.62.199"
-        ],
+        "CNAME":"https://karlo1104.github.io/Karlo1104/",
         "MX": [
             "route1.mx.cloudflare.net",
             "route2.mx.cloudflare.net",
