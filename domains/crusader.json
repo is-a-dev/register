@@ -6,11 +6,11 @@
     "records": {
         "CNAME": "karlo1104.github.io",
         "MX": [
-            "10 ://improvmx.com",
-            "20 ://improvmx.com"
+            { "target": "mx1.improvmx.com", "priority": 10 },
+            { "target": "mx2.improvmx.com", "priority": 20 }
         ],
         "TXT": [
-            "v=spf1 include:://improvmx.com ~all"
+            "v=spf1 include:spf.improvmx.com ~all"
         ]
     },
     "proxied": true
