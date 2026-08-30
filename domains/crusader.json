@@ -10,5 +10,6 @@
             "route2.mx.cloudflare.net",
             "route3.mx.cloudflare.net"
         ]
-    }
+    },
+    "proxied": true
 }
