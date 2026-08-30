@@ -1,4 +1,9 @@
-{ 
-  "owner": { "username": "Dineshraja03", "email": "mdineshraja03@gmail.com" }, 
-  "records": { "CNAME": "dineshraja.pages.dev" } 
+{
+  "owner": {
+    "username": "Dineshraja03",
+    "email": "mdineshraja03@gmail.com"
+  },
+  "records": {
+    "CNAME": "dineshraja.pages.dev"
+  }
 }

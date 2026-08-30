@@ -1,1 +1,9 @@
- { "owner": { "username": "Danik25326", "email": "danikrut79@gmail.com" }, "records": { "CNAME": "Danik25326.github.io" } }
+{
+  "owner": {
+    "username": "Danik25326",
+    "email": "danikrut79@gmail.com"
+  },
+  "records": {
+    "CNAME": "Danik25326.github.io"
+  }
+}
