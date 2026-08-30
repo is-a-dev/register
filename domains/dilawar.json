@@ -6,6 +6,7 @@
     "email": "dkonlycomputer@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=dilawar.is-a.dev,cb1f27504212122e8dc2"
   }
 }
