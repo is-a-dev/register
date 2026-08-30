@@ -1,4 +1,11 @@
 {
-  "owner": { "username": "Dineshraja03", "email": "mdineshraja03@gmail.com" },
-  "records": { "TXT": ["vc-domain-verify=dineshraja.is-a.dev,da46ad8f3efeeb650559"] }
+  "owner": {
+    "username": "Dineshraja03",
+    "email": "mdineshraja03@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=dineshraja.is-a.dev,da46ad8f3efeeb650559"
+    ]
+  }
 }

@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Ayusman-Singhal",
-        "email": "ayusmansinghal@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "Ayusman-Singhal",
+    "email": "ayusmansinghal@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
