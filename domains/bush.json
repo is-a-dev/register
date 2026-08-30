@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "bushdevelops",
-        "email": "thespacecore10@gmail.com"
-    },
-    "records": {
-        "CNAME": "bushdevelops.github.io"
-    }
+  "owner": {
+    "username": "bushdevelops",
+    "email": "thespacecore10@gmail.com"
+  },
+  "records": {
+    "CNAME": "bushdevelops.github.io"
+  }
 }
