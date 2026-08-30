@@ -1,0 +1,10 @@
+{
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "dkonlycomputer",
+    "email": "dkonlycomputer@gmail.com"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=dilawar.is-a.dev,cb1f27504212122e8dc2"
+  }
+}
