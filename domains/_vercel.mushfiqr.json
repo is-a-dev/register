@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "thecyfrin",
-        "email": "thecyfrin@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=mushfiqr.is-a.dev,4f3fe1ddca2991b750dc"
-    }
+  "owner": {
+    "username": "thecyfrin",
+    "email": "thecyfrin@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mushfiqr.is-a.dev,4f3fe1ddca2991b750dc"
+  }
 }

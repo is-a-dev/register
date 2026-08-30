@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "linuskang",
-        "email": "linus@linus.my"
-    },
-    "records": {
-        "TXT": "dh=81270c2868ef64afd6471476e5025561749146d3"
-    }
+  "owner": {
+    "username": "linuskang",
+    "email": "linus@linus.my"
+  },
+  "records": {
+    "TXT": "dh=81270c2868ef64afd6471476e5025561749146d3"
+  }
 }
