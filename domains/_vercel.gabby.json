@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Gabby-Hue",
-        "email": "gabrielamel347@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=gabby.is-a.dev,b56f084d2f2518511c47"
-    }
+  "owner": {
+    "username": "Gabby-Hue",
+    "email": "gabrielamel347@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=gabby.is-a.dev,b56f084d2f2518511c47"
+  }
 }
