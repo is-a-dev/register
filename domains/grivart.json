@@ -1,0 +1,10 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "grivart"
+  "record": {
+    "NS": [
+      "bjorn.ns.cloudflare.com",
+      "coraline.ns.cloudflare.com"
+    ]
+  }
+}
