@@ -3,6 +3,9 @@
         "username": "iTaZzSy"
     },
     "record": {
-        "CNAME": "bareeq-cleaning.itazz-sy.workers.dev"
+        "NS": [
+            "eva.ns.cloudflare.com",
+            "leo.ns.cloudflare.com"
+        ]
     }
 }
