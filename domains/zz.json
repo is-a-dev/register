@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "Cheetzh"
+  },
+  "records": {
+    "CNAME": "YOUR_GITHUB_USERNAME.github.io"
+  }
+}
