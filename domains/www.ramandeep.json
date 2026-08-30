@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "hey-raman",
-        "email": "ramandeepsingh39672@gmail.com"
-    },
-    "records": {
-        "CNAME": "courageous-taiyaki-e63584.netlify.app"
-    }
+  "owner": {
+    "username": "hey-raman",
+    "email": "ramandeepsingh39672@gmail.com"
+  },
+  "records": {
+    "CNAME": "courageous-taiyaki-e63584.netlify.app"
+  }
 }
