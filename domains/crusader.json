@@ -6,8 +6,8 @@
     "records": {
         "CNAME": "karlo1104.github.io",
         "MX": [
-            "10 ://improvmx.com.",
-            "20 ://improvmx.com."
+            "10 ://improvmx.com",
+            "20 ://improvmx.com"
         ],
         "TXT": [
             "v=spf1 include:://improvmx.com ~all"
