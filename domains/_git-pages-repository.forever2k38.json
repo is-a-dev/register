@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "forever2k38",
-        "email": "forever2k38@disroot.org"
-    },
-    "records": {
-        "TXT": "https://codeberg.org/forever2k38/pages.git"
-    }
+  "owner": {
+    "username": "forever2k38",
+    "email": "forever2k38@disroot.org"
+  },
+  "records": {
+    "TXT": "https://codeberg.org/forever2k38/pages.git"
+  }
 }

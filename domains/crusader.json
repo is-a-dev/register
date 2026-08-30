@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "Karlo1104",
+        "email": "karlo.sarson1@gmail.com"
+    },
+    "records": {
+        "CNAME": "karlo1104.github.io",
+        "MX": [
+            "route1.mx.cloudflare.net",
+            "route2.mx.cloudflare.net",
+            "route3.mx.cloudflare.net"
+        ]
+    },
+    "proxied": true
+}

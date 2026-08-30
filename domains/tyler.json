@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tyleruploads",
-        "email": "tyleruploads@yahoo.com"
-    },
-    "records": {
-        "CNAME": "tyler-n.pages.dev"
-    }
+  "owner": {
+    "username": "tyleruploads",
+    "email": "tyleruploads@yahoo.com"
+  },
+  "records": {
+    "CNAME": "tyler-n.pages.dev"
+  }
 }
