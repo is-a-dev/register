@@ -1,1 +1,9 @@
-{"owner":{"username":"Yangchengen-hub","email":"3565583431@qq.com"},"records":{"A":["43.226.44.4"]}}
+{
+  "owner": {
+    "username": "Yangchengen-hub",
+    "email": "3565583431@qq.com"
+  },
+  "records": {
+    "CNAME": "jifeng-cn.pages.dev"
+  }
+}
