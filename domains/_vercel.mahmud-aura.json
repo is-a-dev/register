@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "mahmudx7",
-        "email": "mahmudx077@gmail.com"
-    },
-    "records": {
-        "TXT": ["vc-domain-verify=mahmud-aura.is-a.dev,5dc73bb246f0d3374b23"]
-    }
+  "owner": {
+    "username": "mahmudx7",
+    "email": "mahmudx077@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=mahmud-aura.is-a.dev,5dc73bb246f0d3374b23"
+    ]
+  }
 }

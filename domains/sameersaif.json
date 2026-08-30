@@ -1,9 +1,9 @@
- {
-     "owner": {
-       "username": "Sameer-Saif1",
-       "email": "iamsameersaif@gmail.com"
-     },
-     "records": {
-       "CNAME": "sameer-saif1.github.io"
-     }
-   }
+{
+  "owner": {
+    "username": "Sameer-Saif1",
+    "email": "iamsameersaif@gmail.com"
+  },
+  "records": {
+    "CNAME": "sameer-saif1.github.io"
+  }
+}
