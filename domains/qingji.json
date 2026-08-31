@@ -1,0 +1,12 @@
+{
+  "description": "轻记 QuickMemo 服务器",
+  "domain": "is-a.dev",
+  "subdomain": "qingji",
+  "owner": {
+    "username": "Gaoge911"
+  },
+  "record": {
+    "CNAME": "family-auction-attend-oil.trycloudflare.com"
+  },
+  "proxied": false
+}
