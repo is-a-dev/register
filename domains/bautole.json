@@ -1,8 +1,11 @@
 {
-    "owner": {
-        "username": "ngunq"
-    },
-    "records": {
-        "A": "212.71.244.31"
-    }
+  "owner": {
+    "username": "ngunq",
+    "email": "ngunq.work@gmail.com"
+  },
+  "records": {
+    "A": [
+      "212.71.244.31"
+    ]
+  }
 }
