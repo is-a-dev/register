@@ -3,6 +3,6 @@
   "records": {
     "URL": "https://github.com/itmepizza",
     "TXT": ["v=spf1 include:amazonses.com ~all"],
-    "MX": [{ "value": "feedback-smtp.us-east-1.amazonses.com", "priority": 10 }]
+    "MX": [{ "target": "feedback-smtp.us-east-1.amazonses.com", "priority": 10 }]
   }
 }
