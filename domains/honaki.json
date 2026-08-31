@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "honaki-dev",
+    "email": "themacdono@gmail.com"
+  },
+  "records": {
+    "A": {
+      "proxy": "103.245.245.156"
+    },
+    "CNAME": {
+      "@": "honaki-dev.github.io",
+      "www": "honaki-dev.github.io",
+      "aov": "honaki-dev.github.io",
+      "api": "aov-poster-api.conghoang-dev09.workers.dev",
+      "mail": "tempmail-worker.conghoang-dev09.workers.dev"
+    }
+  }
+}
