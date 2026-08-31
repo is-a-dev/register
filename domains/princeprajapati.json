@@ -4,6 +4,6 @@
     "email": "prince30112001@gmail.com"
   },
   "records": {
-    "CNAME": "princexd.vercel.app"
+    "A": ["140.238.242.140"]
   }
 }
