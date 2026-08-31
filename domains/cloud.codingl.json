@@ -4,6 +4,6 @@
         "email": "codingfactoryl12@gmail.com"
     },
     "records": {
-        "A": "192.168.2.119"
+        "A": ["192.168.2.119"]
     }
 }
