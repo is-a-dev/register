@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "godfather1509"
-    },
-    "records": {
+  "owner": {
+    "username": "godfather1509"
+  },
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
