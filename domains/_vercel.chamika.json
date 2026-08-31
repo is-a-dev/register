@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "CHAMI-csr",
-        "email": "infor.chamika@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=chamika.is-a.dev,b800aa97d944511aa2ec"
-    }
+  "owner": {
+    "username": "CHAMI-csr",
+    "email": "infor.chamika@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=chamika.is-a.dev,b800aa97d944511aa2ec"
+  }
 }
