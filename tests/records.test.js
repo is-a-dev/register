@@ -1,6 +1,8 @@
-const t = require("ava");
-const fs = require("fs-extra");
-const path = require("path");
+import t from "ava";
+import fs from "fs-extra";
+import path from "path";
+
+import disallowedCNAMEs from "../util/disallowed-cnames.json" with { type: "json" };
 
 const validRecordTypes = new Set(["A", "AAAA", "CAA", "CNAME", "DS", "MX", "NS", "SRV", "TLSA", "TXT", "URL"]);
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
@@ -87,8 +89,6 @@ function isValidHostname(hostname) {
 function isValidHexadecimal(value) {
     return /^[0-9a-fA-F]+$/.test(value);
 }
-
-const disallowedCNAMEs = require("../util/disallowed-cnames.json");
 
 function validateRecordValues(t, data, file) {
     const subdomain = file.replace(/\.json$/, "");
@@ -238,6 +238,22 @@ function validateRecordValues(t, data, file) {
             const values = Array.isArray(value) ? value : [value];
             values.forEach((record, idx) => {
                 t.true(typeof record === "string", `${file}: TXT record value should be a string at index ${idx}`);
+
+                if (record.startsWith("vc-domain-verify=")) {
+                    t.true(
+                        file.startsWith("_vercel."),
+                        `${file}: vc-domain-verify TXT records are only allowed in files starting with _vercel.`
+                    );
+
+                    const domainToken = record.split("vc-domain-verify=")[1].split(",")[0];
+                    const targetName = file.replace(/^_vercel\./, "").replace(/\.json$/, "");
+                    const expectedDomain = `${targetName}.is-a.dev`;
+
+                    t.true(
+                        domainToken === expectedDomain || domainToken.endsWith(`.${expectedDomain}`),
+                        `${file}: Vercel TXT record domain (${domainToken}) must be '${expectedDomain}' or end with '.${expectedDomain}'`
+                    );
+                }
             });
         }
     });
@@ -280,6 +296,13 @@ function validateRecordValues(t, data, file) {
 
 t("All files should have valid records", (t) => {
     files.forEach((file) => {
+        if (file.startsWith("_vercel")) {
+            t.true(
+                /^_vercel\.[^.]+\.json$/.test(file),
+                `${file}: Files starting with '_vercel' must have format '_vercel.<name>.json'`
+            );
+        }
+
         const data = getDomainData(file);
         const recordKeys = Object.keys(data.records);
 

@@ -4,6 +4,9 @@
     "email": "lava.racquet-6y@icloud.com"
   },
   "records": {
-    "NS": ["eoin.ns.cloudflare.com", "mona.ns.cloudflare.com"]
+    "NS": [
+      "eoin.ns.cloudflare.com",
+      "mona.ns.cloudflare.com"
+    ]
   }
 }
