@@ -4,6 +4,7 @@
     "discord": "814891541205876767"
   },
   "records": {
-    "CNAME": "status.vulcanocraft.com"
-  }
+    "URL": "https://status.vulcanocraft.com"
+  },
+  "proxied": true
 }
