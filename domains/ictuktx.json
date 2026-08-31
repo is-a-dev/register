@@ -1,16 +1,8 @@
 {
-  "owner": {
-    "username": "itmepizza",
-    "email": "pizzaafj123vnplus@gmail.com"
-  },
+  "owner": { "username": "itmepizza", "email": "pizzaafj123vnplus@gmail.com" },
   "records": {
     "URL": "https://github.com/itmepizza",
-    "TXT": [
-      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTj8bvSZHdW0m9xeqHp25/leWF4guMoMC1/nyziR2C9q6UhuU5EeDkw0PuDsFMY0SyiupC5PNV7J0RCBLcbjxHg4JdGNCBRjf8qTeuEkmyu0+I5XrpS9ntfKTetRS+C2RY/Hf4pPdBUC5FkHsb5Jvi2Umb4AeNsROPZ471vBM0IQIDAQAB",
-      "v=spf1 include:amazonses.com ~all"
-    ],
-    "MX": [
-      { "value": "feedback-smtp.us-east-1.amazonses.com", "priority": 10 }
-    ]
+    "TXT": ["v=spf1 include:amazonses.com ~all"],
+    "MX": [{ "value": "feedback-smtp.us-east-1.amazonses.com", "priority": 10 }]
   }
 }
