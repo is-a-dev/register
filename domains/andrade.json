@@ -4,6 +4,8 @@
     "email": "0andradejoao@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=andrade.is-a.dev,46b40074ee1f4e7edfbc"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
