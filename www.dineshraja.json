@@ -1,0 +1,5 @@
+// domains/www.dineshraja.json
+{
+  "owner": { "username": "Dineshraja03", "email": "mdineshraja03@gmail.com" },
+  "records": { "CNAME": "b4982feb78b132f7.vercel-dns-017.com" }
+}
