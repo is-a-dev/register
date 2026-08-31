@@ -3,6 +3,6 @@
     "username": "AnkitKumarMishra5"
   },
   "records": {
-    "CNAME": "ankitkumarmishra.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
