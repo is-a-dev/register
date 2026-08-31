@@ -4,6 +4,6 @@
     "email": "kieltrres@gmail.com"
   },
   "records": {
-  "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=jhner.is-a.dev,9e9aa0e0322d2ad716bb"
   }
 }
