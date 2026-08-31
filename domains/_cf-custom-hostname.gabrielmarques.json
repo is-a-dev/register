@@ -1,0 +1,9 @@
+{
+  "description": "Verificacao SSL do dominio personalizado do portfolio",
+  "owner": {
+    "username": "Gabr1eLBR"
+  },
+  "records": {
+    "TXT": "4af0ce5e-74dc-462b-8987-e0b70179541d"
+  }
+}

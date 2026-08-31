@@ -1,0 +1,9 @@
+{
+  "description": "Verificacao do dominio personalizado do portfolio",
+  "owner": {
+    "username": "Gabr1eLBR"
+  },
+  "records": {
+    "TXT": "openai-site-verification=Voqm102flB3NcfBPzjmPCV76q8-2mi3YWxIWIdZAZ5M"
+  }
+}
