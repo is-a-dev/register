@@ -4,8 +4,7 @@
     "email": "vinaykatikireddy@hotmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "A": ["216.198.79.1"],
+    "TXT": ["zoho-verification=zb05250022.zmverify.zoho.in"]
   }
 }
