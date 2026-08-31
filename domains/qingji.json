@@ -1,11 +1,9 @@
 {
-  "description": "轻记 QuickMemo 服务端",
-  "subdomain": "qingji",
   "owner": {
-    "username": "Gaoge911"
+    "username": "Gaoge911",
+    "email": "gaoge911@outlook.com"
   },
   "records": {
-    "CNAME": ["family-auction-attend-oil.trycloudflare.com"]
-  },
-  "proxied": false
+    "CNAME": "family-auction-attend-oil.trycloudflare.com"
+  }
 }
