@@ -1,8 +1,8 @@
 {
-  "$schema": "https://githubusercontent.com",
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
   "owner": {
     "username": "arumajirohz",
-    "email": "arumajirohz@gmail.com"
+ "email": "arumajirohz@gmail.com"
   },
   "record": {
     "CNAME": "arumajirohz.github.io"
