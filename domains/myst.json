@@ -1,17 +1,9 @@
 {
   "owner": {
-    "username": "doughmination",
-    "email": "admin@doughmination.win"
+    "username": "ExcessByte",
+    "email": "ericdenny26@gmail.com"
   },
   "records": {
-    "URL": "https://doughmination.gay"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/robots.txt": "https://doughmination.gay/robots.txt",
-      "/humans.txt": "https://doughmination.gay/humans.txt",
-      "/discord": "https://doughmination.gay/discord"
-    },
-    "redirect_paths": true
+    "URL": "https://byte.is-a.dev"
   }
 }
