@@ -3,12 +3,12 @@
     "username": "AhmadBinAsghar",
     "email": "ahmadbinasghar2022@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["216.198.79.1"]
   },
   "subdomains": {
     "_vercel": {
-      "record": {
+      "records": {
         "TXT": ["vc-domain-verify=first-next-js.is-a.dev,df388d3fb95ad6bc3bbf"]
       }
     }
