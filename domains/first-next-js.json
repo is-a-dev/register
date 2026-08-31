@@ -1,9 +1,16 @@
 {
   "owner": {
     "username": "AhmadBinAsghar",
-    "email": "ahmadbinasghar2022@gmail.com"
+    "email": "your-email@example.com"
   },
   "record": {
-    "CNAME": "first-next-js.vercel.app"
+    "A": ["216.198.79.1"]
+  },
+  "subdomains": {
+    "_vercel": {
+      "record": {
+        "TXT": "vc-domain-verify=first-next-js.is-a.dev,df388d3fb95ad6bc3bbf"
+      }
+    }
   }
 }
