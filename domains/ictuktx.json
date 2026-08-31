@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "itmepizza",
+    "email": "<pizzaafj123vnplus@gmail.com>"
+  },
+  "records": {
+    "TXT": {
+      "resend._domainkey": ["p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZL1vlnAuE+nCoqH7/QLXb+r9NCM8dCb2GuHOjeR5arcS1T3ovz6Cp+A3pCLoXUJE337VfpyEz2nRx1wzcUFZr3dnt4A9eb7pIgmFOgpads+67udzL/y8n3Wot3pIaFpjlNJDIL1L5RqmHptatrET3LGed3y3RgAbOrv0yh8uo0wIDAQAB"],
+      "send": ["v=spf1 include:amazonses.com ~all"]
+    },
+    "MX": {
+      "send": [
+        { "value": "feedback-smtp.us-east-1.amazonses.com", "priority": 10 }
+      ]
+    }
+  }
+}
