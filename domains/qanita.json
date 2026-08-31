@@ -1,9 +1,9 @@
 {
     "owner": {
-        "username": "your-github-username",
-        "email": "your@email.com"
+        "username": "dawoodqanita",
+        "email": "dawoodqanita@gmail.com"
     },
     "records": {
-        "CNAME": "qanita-portfolio.pages.dev"
+        "CNAME": "https://qanita-portfolio.laserrexlabs.workers.dev"
     }
 }
