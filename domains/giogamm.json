@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "giogamm"
+    "username": "giogamm",
+    "email": "giovanymemije@gmail.com"
   },
-  "record": {
-    "CNAME": "https://giogamm.netlify.app/"
+  "records": {
+    "A": ["75.2.60.5"]
   }
 }
