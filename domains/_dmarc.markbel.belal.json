@@ -4,6 +4,6 @@
     "email": "belalwaheed000@gmail.com"
   },
   "records": {
-    "CNAME": "belalwaheed.pages.dev"
+    "TXT": "v=DMARC1; p=none;"
   }
 }
