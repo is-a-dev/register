@@ -8,5 +8,5 @@
     "records": {
         "CNAME": "aura-hub-website-v2.pages.dev"
     },
-    "proxied": true
+    "proxied": false
 }
