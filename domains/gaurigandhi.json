@@ -2,6 +2,9 @@
   "name": "Gauri Gandhi",
   "description": "Portfolio",
   "website": "https://gaurigandhi.is-a.dev",
+  "owner": {
+    "email": "gauri.gandhi4827@gmail.com"
+  },
   "record": {
     "type": "CNAME",
     "value": "GauriGandhi200517.github.io"
