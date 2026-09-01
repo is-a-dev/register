@@ -3,7 +3,6 @@
         "username": "abhishekpanja554"
     },
     "records": {
-        "CNAME": "pocket-ledger-alb-1931817337.ap-south-1.elb.amazonaws.com"
-    },
-    "proxied": true
+        "URL": "https://github.com/abhishekpanja554/pocket_ledger_be"
+    }
 }
