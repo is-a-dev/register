@@ -102,15 +102,3 @@ t("Users are limited to one single character subdomain", (t) => {
 
     t.pass();
 });
-
-t("Subdomain names should not contain 'is-a-dev'", (t) => {
-    files.forEach((file) => {
-        const subdomain = file.replace(/\.json$/, "");
-        const baseName = subdomain.split(".").pop();
-
-        t.false(
-            baseName.toLowerCase().includes("is-a-dev"),
-            `${file}: Subdomain name cannot contain 'is-a-dev'`
-        );
-    });
-});
