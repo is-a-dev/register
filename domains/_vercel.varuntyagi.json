@@ -1,0 +1,11 @@
+{
+  "description": "Vercel verification for varun.is-a.dev",
+  "repo": "https://github.com/varuntyagii/portfolio_",
+  "owner": {
+    "username": "varuntyagii",
+    "email": "varuntyagi0099@gmail.com"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=varun.is-a.dev,db66e75d3ec230bdf0eb"
+  }
+}
