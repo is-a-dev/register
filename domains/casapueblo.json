@@ -4,6 +4,7 @@
     "email": "juanmarcoscordobez@gmail.com"
   },
   "records": {
-    "CNAME": "ghs.googlehosted.com"
+    "CNAME": "ghs.googlehosted.com",
+    "TXT": "google-site-verification=miO_ZpSFrHX9twIUqABzn35GnVG3lFEISuwWQHzhdVE"
   }
 }
