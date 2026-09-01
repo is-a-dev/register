@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "dudo-2026-sedr",
+    "email": "ddudos647@gmail.com"
+  },
+  "record": {
+    "CNAME": "oke6mnvx.up.railway.app"
+  },
+  "subdomain": {
+    "_railway-verify": {
+      "record": {
+        "TXT": "railway-verify=e72c5a8477b93864c0add8ebf7945a0186d30efc40cd2e8cbcdd67176250ebee"
+      }
+    }
+  }
+}
