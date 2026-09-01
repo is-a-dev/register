@@ -1,8 +1,10 @@
 {
     "owner": {
-        "username": "abhishekpanja554"
+        "username": "abhishekpanja554",
+        "email": "abhishek.panja554@gmail.com"
     },
     "records": {
-        "URL": "https://github.com/abhishekpanja554/pocket_ledger_be"
-    }
+        "CNAME": "abhishekpanja554.github.io"
+    },
+    "proxied": true
 }
