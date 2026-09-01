@@ -5,7 +5,9 @@
     "username": "varuntyagii",
     "email": "varuntyagi0099@gmail.com"
   },
-  "record": {
-    "A": "216.198.79.1"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
