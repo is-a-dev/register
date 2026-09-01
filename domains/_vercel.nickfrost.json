@@ -1,12 +1,12 @@
 {
-   "owner": {
-      "username": "nickfrostcode",
-      "email": "bensonnicholas206@gmail.com"
-   },
-   "records": {
-      "TXT": [
-         "vc-domain-verify=nickfrost.is-a.dev,fcab8132dfcc51a39b13",
-         "vc-domain-verify=design.nickfrost.is-a.dev,66ad78fad9a9f5d0fb74"
-      ]
-   }
+  "owner": {
+    "username": "nickfrostcode",
+    "email": "bensonnicholas206@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=nickfrost.is-a.dev,fcab8132dfcc51a39b13",
+      "vc-domain-verify=design.nickfrost.is-a.dev,66ad78fad9a9f5d0fb74"
+    ]
+  }
 }
