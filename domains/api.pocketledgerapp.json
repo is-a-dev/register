@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "abhishekpanja554"
+    },
+    "records": {
+        "CNAME": "pocket-ledger-alb-1931817337.ap-south-1.elb.amazonaws.com"
+    },
+    "proxied": true
+}
