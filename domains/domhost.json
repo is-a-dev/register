@@ -3,8 +3,8 @@
         "username": "julianoodom12-creator",
         "email": "julianoodom12@gmail.com"
     },
-    "record": {
-        "CNAME": "julianoodom12-creator.github.io"
+    "records": {
+        "CNAME": ["julianoodom12-creator.github.io"]
     },
     "proxied": false
 }
