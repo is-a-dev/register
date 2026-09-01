@@ -1,59 +1,234 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Floricultura Francisco Beltrão | Casa Jardim - Plano Básico</title>
-<meta name="description" content="Floricultura em Francisco Beltrão. Av. Cristo Rei 1027 Cango. Entrega hoje.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casa Jardim - Plantas e Paisagismo | Francisco Beltrão PR</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 <style>
-:root{--rosa:#b0006b;--bg:#fff7f9}
-*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,Arial,sans-serif}
-body{background:var(--bg)}
-header{position:sticky;top:0;z-index:10;background:#fff;padding:12px 20px;display:flex;justify-content:space-between;box-shadow:0 2px 10px #0001;align-items:center}
-.logo{font-weight:900;color:var(--rosa);font-size:18px}
-.hero{background:linear-gradient(120deg,var(--rosa),#ff4fa3);color:#fff;padding:32px 20px;text-align:center}
-.hero h1{font-size:26px}.hero p{margin-top:8px}
-.fotos{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;padding:16px}
-.fotos img{width:100%;height:160px;object-fit:cover;border-radius:12px}
-.box{background:#fff;margin:16px;border-radius:16px;padding:20px;box-shadow:0 4px 12px #0001;text-align:center}
-.mapa{padding:0 16px 16px}.m-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 12px #0001}
-.btn{width:100%;padding:14px;border-radius:12px;border:0;font-weight:800;margin-top:10px;cursor:pointer;font-size:15px}
-.float{position:fixed;bottom:18px;right:18px;background:#25d366;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;z-index:60;text-decoration:none;box-shadow:0 4px 12px #0004}
+:root{--primary:#b0006b;--dark:#1c1520;--bg:#fdf6f9;--gray:#f5e6ee}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--dark);line-height:1.5}
+h1,h2{font-family:'Playfair Display',serif}
+header{position:sticky;top:0;z-index:99;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);display:flex;justify-content:space-between;align-items:center;padding:14px 5%;border-bottom:1px solid #f1d4e2}
+.logo{font-weight:700;font-size:1.3rem;color:var(--primary)}
+nav a{margin-left:16px;text-decoration:none;color:var(--dark);font-weight:600;font-size:.9rem}
+.hero{display:grid;grid-template-columns:1.1fr.9fr;min-height:72vh;background:linear-gradient(105deg,#fff,#ffe2ef)}
+.hero-text{padding:8% 6%}
+.badge{background:var(--primary);color:#fff;padding:6px 14px;border-radius:20px;font-size:.75rem;display:inline-block;margin-bottom:14px}
+.btn{padding:13px 22px;border-radius:30px;text-decoration:none;font-weight:700;display:inline-flex;cursor:pointer;border:none}
+.btn-primary{background:var(--primary);color:#fff}
+section{padding:56px 5%}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+.card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.06)}
+.card img{width:100%;height:200px;object-fit:cover}
+.card-body{padding:12px 14px}
+.stock-bar{height:6px;background:#ffe0ed;border-radius:3px;overflow:hidden;margin:6px 0}.stock-bar div{height:100%}
+.price{color:var(--primary);font-weight:800;font-size:1.15rem}
+.card-actions{display:flex;gap:8px;margin-top:10px}
+.card-actions button{flex:1;padding:10px;border-radius:10px;border:none;font-weight:700;cursor:pointer;font-size:.85rem}
+.services{background:var(--dark);color:#fff}
+.svc{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);padding:20px;border-radius:18px}
+.svc button{margin-top:12px;width:100%;padding:10px;border-radius:10px;border:none;background:#25D366;color:#fff;font-weight:700;cursor:pointer}
+.delivery{background:#fff;border:2px solid var(--gray);border-radius:24px;padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:20px}
+.input{width:100%;padding:12px 14px;border:1px solid #e8c6d6;border-radius:12px;margin-top:6px;font-family:inherit}
+.pix-box{background:linear-gradient(135deg,#b0006b,#ff4da6);color:#fff;border-radius:20px;padding:22px}
+.float-wpp{position:fixed;bottom:18px;right:18px;background:#25D366;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;text-decoration:none;z-index:80}
+.cart{position:fixed;right:-380px;top:0;width:360px;max-width:92vw;height:100%;background:#fff;z-index:100;box-shadow:-10px 0 30px rgba(0,0,0,.2);transition:.35s;padding:20px;overflow:auto}
+.cart.open{right:0}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.delivery{grid-template-columns:1fr}nav{display:none}}
 </style>
 </head>
 <body>
-<header><div class="logo">🌸 Casa Jardim - Básico R$297</div><a href="https://wa.me/5546999229791" style="background:var(--rosa);color:#fff;padding:8px 14px;border-radius:20px;text-decoration:none;font-weight:800">Zap</a></header>
-<div class="hero"><h1>Floricultura em Francisco Beltrão</h1><p>Av. Cristo Rei 1027 - Cango - Entrega hoje</p><p style="font-size:13px;margin-top:10px;opacity:.9">📍 Viveiro próprio • Rosas, orquídeas e suculentas que aguentam o frio de Beltrão</p></div>
-<div class="fotos">
-<img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=500" alt="Rosas Beltrão">
-<img src="https://images.unsplash.com/photo-1560717845-01307a8f03cc?w=500" alt="Orquídea Beltrão">
-<img src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=500" alt="Suculenta Beltrão">
-<img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=500" alt="Lírio Beltrão">
+<header><div class="logo">CASA JARDIM 🌺</div><nav><a href="#plantas">Plantas</a><a href="#entrega">PIX/Entrega</a><a href="#local">Local</a><a href="#" onclick="openCart();return false">🛒 (<span id="cart-count">0</span>)</a></nav></header>
+
+<div class="hero">
+<div class="hero-text">
+<div class="badge">Av. Cristo Rei, 162 - Francisco Beltrão PR</div>
+<h1>Seu jardim com <em>alma</em>, cor da Kalanchoe.</h1>
+<p style="margin:14px 0 18px;color:#6b5a64">20 plantas com estoque ao vivo, entrega 24h, PIX (46) 99922-9791</p>
+<a class="btn btn-primary" href="https://wa.me/5546999229791?text=Olá Casa Jardim! Quero orçamento" target="_blank">💬 WhatsApp (46) 99922-9791</a>
 </div>
-<div class="box">
-<h2 style="color:var(--rosa)">💐 Casa Jardim</h2>
-<p style="margin-top:10px;color:#555;line-height:1.6">Floricultura e viveiro em Francisco Beltrão. Especialistas em rosa, orquídea Phalaenopsis, suculenta e buquês. Atendemos toda Beltrão com entrega hoje.</p>
-<div style="margin-top:16px;display:grid;gap:8px">
-<a href="https://wa.me/5546999229791?text=Ol%C3%A1%20vim%20pelo%20site%20B%C3%A1sico" class="btn" style="background:#25d366;color:#fff;text-decoration:none;display:block">💬 Chamar no WhatsApp</a>
-<a href="tel:+554630556100" class="btn" style="background:#fff;border:1px solid var(--rosa);color:var(--rosa);text-decoration:none;display:block">📞 (46) 3055-6100</a>
+<div><img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=1200" style="width:100%;height:100%;object-fit:cover;min-height:380px"></div>
 </div>
-<p style="margin-top:14px;font-size:12px;color:#888">📍 Av. Cristo Rei, 1027 - Cango<br>Francisco Beltrão - PR<br>🕒 Seg a Sáb 8h às 18h</p>
+
+<section id="plantas">
+<h2>Viveiro - 20 Plantas</h2>
+<div class="grid" id="grid"></div>
+</section>
+
+<section class="services">
+<h2>Serviços - WhatsApp (46) 99922-9791</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:20px">
+<div class="svc"><h3>🌿 Paisagismo Completo</h3><button onclick="zap('Quero paisagismo completo')">Pedir no WhatsApp</button></div>
+<div class="svc"><h3>🌱 Plantio com Garantia</h3><button onclick="zap('Quero plantio')">Pedir no WhatsApp</button></div>
+<div class="svc"><h3>✂️ Manutenção R$120</h3><button onclick="zap('Quero manutenção')">Pedir no WhatsApp</button></div>
+<div class="svc"><h3>🏡 Jardim Vertical</h3><button onclick="zap('Quero jardim vertical')">Pedir no WhatsApp</button></div>
+<div class="svc"><h3>💧 Irrigação</h3><button onclick="zap('Quero irrigação')">Pedir no WhatsApp</button></div>
+<div class="svc"><h3>🎁 Vasos Presente</h3><button onclick="zap('Quero vaso presente')">Pedir no WhatsApp</button></div>
 </div>
-<div class="mapa">
-<div class="m-box">
-<div style="position:relative">
-<iframe src="https://maps.google.com/maps?q=-26.0815,-53.0675&z=17&output=embed" width="100%" height="320" style="border:0" loading="lazy"></iframe>
-<a href="https://maps.app.goo.gl/ucAXuuFN9w4esE297?g_st=ac" target="_blank" style="position:absolute;top:12px;right:12px;background:#fff;color:#b0006b;padding:10px 14px;border-radius:20px;text-decoration:none;font-weight:900;font-size:12px;box-shadow:0 4px 12px #0003">📍 Abrir no Maps</a>
+</section>
+
+<section id="entrega">
+<h2>PIX e Entrega</h2>
+<div class="delivery">
+<div>
+<h3>📦 Como receber?</h3>
+<label><input type="radio" name="entrega" value="retirada" checked onchange="calcFrete()"> Retirada Grátis - Av. Cristo Rei, 162</label>
+<label style="display:block;margin-top:12px"><input type="radio" name="entrega" value="entrega" onchange="calcFrete()"> Entrega Beltrão - R$25</label>
+<label style="display:block;margin-top:12px"><input type="radio" name="entrega" value="plantio" onchange="calcFrete()"> Entrega + Plantio - R$60</label>
+<div style="margin-top:18px">
+<label>Bairro</label><input id="bairro" class="input" placeholder="Cristo Rei">
+<label>Endereço</label><input id="endereco" class="input" placeholder="Rua, número">
+<label>Obs</label><textarea id="obs" class="input" rows="2"></textarea>
 </div>
-<div style="padding:14px;display:flex;justify-content:space-between;align-items:center;gap:10px">
-<div><b>📍 Como chegar na loja</b><br><small>Av. Cristo Rei, 1027 - Cango</small></div>
-<a href="https://maps.app.goo.gl/ucAXuuFN9w4esE297?g_st=ac" target="_blank" style="background:var(--rosa);color:#fff;padding:12px 16px;border-radius:12px;text-decoration:none;font-weight:900">📍 Ir com Waze</a>
+<div style="margin-top:16px;background:#f5e6ee;padding:14px;border-radius:12px">
+<div style="display:flex;justify-content:space-between"><span>Subtotal</span><b id="subtotal">R$ 0,00</b></div>
+<div style="display:flex;justify-content:space-between"><span>Frete</span><b id="frete">Grátis</b></div>
+<div style="display:flex;justify-content:space-between;font-size:1.2rem;margin-top:8px;border-top:1px dashed #d6a8be;padding-top:8px"><span>Total</span><b id="total-geral" style="color:var(--primary)">R$ 0,00</b></div>
+<small>* 5% OFF no PIX</small>
+</div>
+</div>
+<div>
+<div class="pix-box">
+<h3>💜 PIX - 5% OFF</h3>
+<p style="margin:8px 0">Chave telefone - clique para copiar:</p>
+<div style="background:rgba(0,0,0,.15);padding:14px;border-radius:12px;display:flex;justify-content:space-between;align-items:center;margin:12px 0">
+<span id="pix-key" style="font-weight:800;font-size:1.3rem;letter-spacing:1px">46999229791</span>
+<button onclick="copyPix()" id="btn-copy" style="background:#fff;color:var(--primary);border:none;padding:10px 18px;border-radius:20px;font-weight:800;cursor:pointer">Copiar</button>
+</div>
+<p style="font-size:.9rem">📱 (46) 99922-9791<br>Nome: Casa Jardim<br>Cola no banco em PIX > Telefone</p>
+<button onclick="finalizarPix()" style="width:100%;margin-top:14px;background:var(--dark);color:#fff;padding:14px;border:none;border-radius:30px;font-weight:800;cursor:pointer">✅ Já paguei - Enviar no WhatsApp</button>
 </div>
 </div>
 </div>
-<div style="background:#fff;margin:16px;border-radius:16px;padding:16px;box-shadow:0 4px 12px #0001;font-size:12px;color:#555;line-height:1.6">
-<h3 style="color:var(--rosa);font-size:14px">🌸 Floricultura em Francisco Beltrão</h3>
-Floricultura em Francisco Beltrão - Viveiro na Av. Cristo Rei 1027 Cango. Rosa em Francisco Beltrão, orquídea Phalaenopsis em Beltrão, suculenta em Francisco Beltrão.
+</section>
+
+<section id="local" style="display:grid;grid-template-columns:1fr 1fr;gap:22px">
+<div><h2>Viveiro</h2><p style="margin:12px 0">Av. Cristo Rei, 162<br>Francisco Beltrão - PR<br><br><b>(46) 99922-9791</b></p><a class="btn btn-primary" href="https://maps.app.goo.gl/DCHgeYiEq7dgGZfV8" target="_blank">📍 Maps</a></div>
+<div style="border-radius:20px;overflow:hidden;height:380px"><iframe src="https://www.google.com/maps?q=Av.+Cristo+Rei,+162+-+Francisco+Beltrão&z=17&output=embed" width="100%" height="100%" style="border:0"></iframe></div>
+</section>
+
+<footer style="background:var(--dark);color:#fff;padding:24px 5%;text-align:center">Casa Jardim • (46) 3055-6100 • PIX 46999229791</footer>
+<a class="float-wpp" href="https://wa.me/5546999229791?text=Olá Casa Jardim!" target="_blank">💬</a>
+
+<div id="cart" class="cart">
+<h3>🛒 Carrinho</h3>
+<div id="cart-items" style="margin:14px 0"></div>
+<div style="border-top:1px solid #eee;padding-top:12px">
+<div style="display:flex;justify-content:space-between"><span>Subtotal</span><b id="cart-sub">R$ 0,00</b></div>
+<div style="display:flex;justify-content:space-between"><span>Frete</span><b id="cart-frete">Grátis</b></div>
+<b style="display:flex;justify-content:space-between;margin-top:8px">Total <span id="cart-total">R$ 0,00</span></b>
+<button onclick="finalizar()" style="width:100%;margin-top:14px;background:var(--primary);color:#fff;padding:12px;border:none;border-radius:30px;font-weight:800">Finalizar no WhatsApp</button>
+<button onclick="closeCart()" style="width:100%;margin-top:8px;padding:10px;border-radius:20px;border:1px solid #ddd;background:#fff">Continuar</button>
 </div>
-<a class="float" href="https://wa.me/5546999229791?text=Ol%C3%A1%20vim%20pelo%20site%20B%C3%A1sico" target="_blank">💬</a>
+</div>
+
+<script>
+const plantas=[
+{n:"Kalanchoe Roxa",p:28.9,s:15,m:25,i:"https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?q=80&w=600"},
+{n:"Costela de Adão",p:89.9,s:8,m:15,i:"https://images.unsplash.com/photo-1614594975525-e45190c55d0b?q=80&w=600"},
+{n:"Jiboia Variegata",p:45,s:22,m:30,i:"https://images.unsplash.com/photo-1602923668104-32f9e03a1e2b?q=80&w=600"},
+{n:"Palmeira Areca",p:120,s:5,m:12,i:"https://images.unsplash.com/photo-1525498128493-380d1990a112?q=80&w=600"},
+{n:"Espada de São Jorge",p:35,s:30,m:40,i:"https://images.unsplash.com/photo-1599598177997-2d760b8d6bf2?q=80&w=600"},
+{n:"Lavanda Francesa",p:32.5,s:18,m:25,i:"https://images.unsplash.com/photo-1499002238440-d264edd596ec?q=80&w=600"},
+{n:"Samambaia Americana",p:39.9,s:12,m:20,i:"https://images.unsplash.com/photo-1509423350716-97f9360b4e09?q=80&w=600"},
+{n:"Hortênsia Rosa",p:55,s:9,m:18,i:"https://images.unsplash.com/photo-1563241527-300022b7a6e2?q=80&w=600"},
+{n:"Zamioculca",p:68,s:14,m:20,i:"https://images.unsplash.com/photo-1593691509543-c55fb32d8de5?q=80&w=600"},
+{n:"Buxinho Bola",p:75,s:6,m:15,i:"https://images.unsplash.com/photo-1470058869958-2a77ade41c02?q=80&w=600"},
+{n:"Orquídea Phalaenopsis",p:95,s:7,m:10,i:"https://images.unsplash.com/photo-1561120560-6d12c4a8e38d?q=80&w=600"},
+{n:"Suculenta Echeveria",p:18,s:40,m:50,i:"https://images.unsplash.com/photo-1459156212016-c812468e2115?q=80&w=600"},
+{n:"Rosa do Deserto",p:110,s:4,m:10,i:"https://images.unsplash.com/photo-1517191434949-5e90cd67d2b6?q=80&w=600"},
+{n:"Manjericão Roxo",p:12,s:25,m:35,i:"https://images.unsplash.com/photo-1618164435735-413d3abaf36a?q=80&w=600"},
+{n:"Lírio da Paz",p:42,s:16,m:22,i:"https://images.unsplash.com/photo-1584589167171-541ce45f1eea?q=80&w=600"},
+{n:"Begônia Rex",p:29.9,s:11,m:20,i:"https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=600"},
+{n:"Ficus Lyrata",p:135,s:3,m:8,i:"https://images.unsplash.com/photo-1509423350716-97f9360b4e09?q=80&w=600"},
+{n:"Alecrim Arbusto",p:22,s:28,m:35,i:"https://images.unsplash.com/photo-1512428813834-c702c7702b78?q=80&w=600"},
+{n:"Antúrio Vermelho",p:48,s:10,m:18,i:"https://images.unsplash.com/photo-1600411833196-7c1f6b1a8c77?q=80&w=600"},
+{n:"Grama Amendoim m²",p:8.5,s:100,m:200,i:"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=600"}
+];
+let cart=[];let freteValor=0;
+function render(){
+const g=document.getElementById('grid');g.innerHTML='';
+plantas.forEach((pl,idx)=>{
+let perc=Math.round(pl.s/pl.m*100);let cor=perc>50?'#158a52':perc>20?'#c48a00':'#c00';
+g.innerHTML+=`<div class="card"><img src="${pl.i}" loading="lazy"><div class="card-body"><h3>${pl.n}</h3><div style="display:flex;justify-content:space-between;font-size:.8rem"><span style="color:${cor}">${pl.s} unid.</span><span>${perc}%</span></div><div class="stock-bar"><div style="width:${perc}%;background:${cor}"></div></div><div style="display:flex;justify-content:space-between;margin-top:6px"><b class="price">R$ ${pl.p.toFixed(2).replace('.',',')}</b></div><div class="card-actions"><button style="background:#1c1520;color:#fff" ${pl.s==0?'disabled':''} onclick="addCart(${idx})">+ Carrinho</button><button style="background:#e6ffe8;color:#0a5e2a;border:1px solid #b9e9bd" onclick="zap('Quero ${pl.n}')">WhatsApp</button></div></div></div>`;
+});
+}
+function addCart(i){if(plantas[i].s<=0)return;plantas[i].s--;cart.push({...plantas[i]});render();updateAll();openCart();}
+function updateAll(){
+document.getElementById('cart-count').innerText=cart.length;
+let sub=cart.reduce((a,b)=>a+b.p,0);
+document.getElementById('subtotal').innerText='R$ '+sub.toFixed(2).replace('.',',');
+document.getElementById('cart-sub').innerText='R$ '+sub.toFixed(2).replace('.',',');
+document.getElementById('cart-frete').innerText=freteValor==0?'Grátis':'R$ '+freteValor.toFixed(2).replace('.',',');
+document.getElementById('frete').innerText=freteValor==0?'Grátis':'R$ '+freteValor.toFixed(2).replace('.',',');
+let total=sub+freteValor;
+document.getElementById('total-geral').innerText='R$ '+total.toFixed(2).replace('.',',')+' (R$ '+(total*0.95).toFixed(2).replace('.',',')+' no PIX)';
+document.getElementById('cart-total').innerText='R$ '+total.toFixed(2).replace('.',',');
+document.getElementById('cart-items').innerHTML=cart.map(c=>`<div style="display:flex;justify-content:space-between;font-size:.9rem;margin-bottom:6px"><span>${c.n}</span><b>R$ ${c.p.toFixed(2)}</b></div>`).join('')||'<p style="color:#888">Vazio</p>';
+}
+function calcFrete(){
+let t=document.querySelector('input[name=entrega]:checked').value;
+if(t=='retirada')freteValor=0;else if(t=='entrega')freteValor=25;else freteValor=60;
+updateAll();
+}
+function openCart(){document.getElementById('cart').classList.add('open')}
+function closeCart(){document.getElementById('cart').classList.remove('open')}
+function zap(m){window.open('https://wa.me/5546999229791?text='+encodeURIComponent(m),'_blank')}
+
+// *** FUNÇÃO COPIAR CORRIGIDA - FUNCIONA NO CELULAR ***
+function copyPix(){
+  const text = '46999229791';
+  const btn = document.getElementById('btn-copy');
+
+  // Cria textarea invisível (funciona em 100% dos celulares)
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  ta.setAttribute('readonly','');
+  ta.style.position = 'fixed';
+  ta.style.top = '-100px';
+  ta.style.opacity = '0';
+  document.body.appendChild(ta);
+  ta.select();
+  ta.setSelectionRange(0, 99999); // Para iOS
+
+  let ok = false;
+  try {
+    ok = document.execCommand('copy');
+  } catch(e){ ok = false; }
+
+  document.body.removeChild(ta);
+
+  if(ok){
+    const old = btn.innerText;
+    btn.innerText = '✅ Copiado!';
+    btn.style.background = '#c8ffd0';
+    setTimeout(()=>{ btn.innerText = old; btn.style.background = '#fff'; }, 2000);
+  } else {
+    // Último fallback: tenta clipboard API
+    if(navigator.clipboard){
+      navigator.clipboard.writeText(text).then(()=>{
+        btn.innerText = '✅ Copiado!';
+        setTimeout(()=>btn.innerText='Copiar',2000);
+      });
+    } else {
+      prompt('Seu navegador bloqueou. Copia manual:', text);
+    }
+  }
+}
+
+function finalizar(){
+if(cart.length==0)return alert('Carrinho vazio');
+let tipo=document.querySelector('input[name=entrega]:checked').value;
+let bairro=document.getElementById('bairro').value;let end=document.getElementById('endereco').value;let obs=document.getElementById('obs').value;
+let lista=cart.map(c=>`- ${c.n} R$ ${c.p}`).join('%0A');
+let sub=cart.reduce((a,b)=>a+b.p,0);let total=sub+freteValor;
+let msg=`Olá Casa Jardim!%0AQuero:%0A${lista}%0A%0ASubtotal: R$ ${sub.toFixed(2)}%0AFrete (${tipo}): R$ ${freteValor}%0ATotal: R$ ${total.toFixed(2)} (PIX R$ ${(total*0.95).toFixed(2)})%0A%0AEntrega: ${tipo}%0ABairro: ${bairro}%0AEnd: ${end}%0AObs: ${obs}%0A%0APIX: 46999229791`;
+window.open('https://wa.me/5546999229791?text='+msg,'_blank');
+}
+function finalizarPix(){if(cart.length==0)return alert('Adicione plantas');finalizar();}
+render();calcFrete();
+</script>
 </body>
 </html>
