@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "name": "Siyra",
+    "discord": "siyra.dev"
+  },
+  "record": {
+    "NS": [
+      "ada.ns.cloudflare.com",
+      "randall.ns.cloudflare.com"
+    ]
+  }
+}
