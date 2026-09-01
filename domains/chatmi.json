@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "chapter1hansgroup-del",
+    "email": "chapter.1hansgroup@gmail.com"
+  },
+  "description": "ChatMi - Simple fast private chat app for Ghana",
+  "domain": "chatmi",
+  "record": {
+    "CNAME": "chatmi2-935278234945.web.app"
+  },
+  "subdomain": ""
+}
