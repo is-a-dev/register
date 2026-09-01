@@ -6,7 +6,13 @@
     "email": "leonrixo@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=grizo.is-a.dev,d05c5da3aa89ead7645f"
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "nested": {
+    "_vercel": {
+      "record": {
+        "TXT": "vc-domain-verify=grizo.is-a.dev,d05c5da3aa89ead7645f"
+      }
+    }
   }
 }
