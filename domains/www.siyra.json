@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "siyradev",
+    "email": "siyra@proton.me"
+  },
+  "records": {
+    "CNAME": "siyra.pages.dev"
+  },
+  "proxied": true
+}
