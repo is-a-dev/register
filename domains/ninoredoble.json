@@ -1,9 +1,11 @@
 {
+  "description": "Personal developer portfolio website",
+  "repo": "https://github.com/ninoredoble/ninoredoble.github.io",
   "owner": {
     "username": "ninoredoble",
     "email": "redoble.gninoemmanuel@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ninoredoble.github.io"
   }
 }
