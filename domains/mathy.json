@@ -1,0 +1,11 @@
+{
+  "description": "Mathy: Math AI Tutor — Free step-by-step AI mathematics solver",
+  "repo": "https://github.com/samuelbanapour/math-agent-website",
+  "owner": {
+    "username": "samuelbanapour",
+    "email": "samuel.banapour100@gmail.com"
+  },
+  "record": {
+    "CNAME": "math-agent-web.onrender.com"
+  }
+}
