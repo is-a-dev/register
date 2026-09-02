@@ -4,6 +4,9 @@
     "email": "sekiryl@proton.me"
   },
   "records": {
-    "NS": ["norm.ns.cloudflare.com", "samara.ns.cloudflare.com"]
+    "NS": [
+      "norm.ns.cloudflare.com",
+      "samara.ns.cloudflare.com"
+    ]
   }
 }

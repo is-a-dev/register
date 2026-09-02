@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "djdark08",
-        "email": "agonia.lloyd8@gmail.com"
-    },
-    "records": {
-        "CNAME": "djdark08.github.io"
-    }
+  "owner": {
+    "username": "djdark08",
+    "email": "agonia.lloyd8@gmail.com"
+  },
+  "records": {
+    "CNAME": "djdark08.github.io"
+  }
 }

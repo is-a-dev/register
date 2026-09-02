@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "pantane1",
+    "email": "pantane254@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
