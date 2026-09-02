@@ -1,11 +1,11 @@
 {
-    "description": "Akari's Personal Bio",
-    "repo": "https://github.com/akari310/akari310-bio",
-    "owner": {
-        "username": "akari310",
-        "email": "ngocanhyb2009@gmail.com"
-    },
-    "records": {
-        "CNAME": "akari310.github.io"
-    }
+  "description": "Akari's Personal Bio",
+  "repo": "https://github.com/akari310/akari310-bio",
+  "owner": {
+    "username": "akari310",
+    "email": "ngocanhyb2009@gmail.com"
+  },
+  "records": {
+    "CNAME": "akari310.github.io"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ansonmatt",
-        "email": "ansonmathewalan@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=www.ansonmatt.is-a.dev,9b87aeac051384d74848"
-    }
+  "owner": {
+    "username": "ansonmatt",
+    "email": "ansonmathewalan@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=www.ansonmatt.is-a.dev,9b87aeac051384d74848"
+  }
 }
