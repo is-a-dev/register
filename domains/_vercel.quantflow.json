@@ -1,0 +1,11 @@
+{
+  "description": "Vercel domain verification for quantflow.is-a.dev",
+  "repo": "https://github.com/devashishhaldar2006/QuantFlow",
+  "owner": {
+    "username": "devashishhaldar2006",
+    "email": "workfordevashishhaldar@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=quantflow.is-a.dev,6c06712c6fa82bb9c057"
+  }
+}
