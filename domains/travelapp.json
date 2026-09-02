@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "nextgen-er"
+    "username": "nextgen-er",
+    "email": "nextgen.erdev@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "travel-app-alb-1258651113.ap-south-1.elb.amazonaws.com"
   }
 }
