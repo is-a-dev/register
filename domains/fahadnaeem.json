@@ -4,6 +4,7 @@
     "email": "fahadnaeem424@gmail.com"
   },
   "records": {
+    "NS": ["cora.ns.cloudflare.com", "memphis.ns.cloudflare.com"]
     "A": [
       "129.213.59.48"
     ],
