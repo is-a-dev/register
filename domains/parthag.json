@@ -3,7 +3,7 @@
     "username": "SkynodeX",
     "email": "hello@parth.dev"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
