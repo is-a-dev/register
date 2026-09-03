@@ -4,6 +4,6 @@
     "email": "jakewalklate@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=svnty.is-a.dev,9d6b583b2fffe98628f4"
+    "TXT": "v=DMARC1; p=quarantine; ruf=mailto:jake@jakewalklate.is-a.dev; sp=quarantine; adkim=r; aspf=r"
   }
 }
