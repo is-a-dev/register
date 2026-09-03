@@ -4,7 +4,6 @@
     "email": "saferchoice.project@gmail.com"
   },
   "records": {
-    "URL": "https://saferchoice.netlify.app/",
     "TXT": "v=spf1 mx ip4:2001:41d0:404:200::62e1 -all",
     "MX": [
       {
