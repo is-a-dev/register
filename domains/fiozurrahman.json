@@ -1,0 +1,11 @@
+{
+  "description": "Personal developer website and portfolio",
+  "repo": "https://github.com/fiozurrahman/fiozurrahman.github.io",
+  "owner": {
+    "username": "fiozurrahman",
+    "email": "fiozurrahman@gmail.com"
+  },
+  "record": {
+    "CNAME": "fiozurrahman.github.io"
+  }
+}
