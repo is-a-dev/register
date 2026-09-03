@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "00xHoudini",
-        "email": "youssefhamada16@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=www.7amada.is-a.dev,2d2091721d527633ce37"
-    }
+  "owner": {
+    "username": "00xHoudini",
+    "email": "youssefhamada16@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=7amada.is-a.dev,855d5956080866713d48"
+  }
 }
