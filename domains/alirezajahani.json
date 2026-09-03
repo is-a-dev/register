@@ -1,0 +1,12 @@
+{
+  "description": "Alireza Jahani Website",
+  "domain": "is-a.dev",
+  "subdomain": "alirezajahani",
+  "owner": {
+    "repo": "https://github.com/earnoo/earnoo.github.io",
+    "email": "alirezajahani.earno@gmail.com"
+  },
+  "record": {
+    "CNAME": "earnoo.github.io"
+  }
+}
