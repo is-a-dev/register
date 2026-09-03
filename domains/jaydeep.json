@@ -2,8 +2,9 @@
     "owner": {
         "username": "whoisjayd"
     },
-    "records": {
-        "CNAME": "whoisjayd.github.io"
+    "record": {
+        "CNAME": "://vercel-dns.com",
+        "TXT": "vc-domain-verify=jaydeep.is-a.dev,f47fcc0404b981aa1eed"
     },
     "proxied": false
 }

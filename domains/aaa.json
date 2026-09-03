@@ -4,6 +4,8 @@
     "email": "aandreichenko@mail.ru"
   },
   "records": {
-    "CNAME": "profpomeha-create.github.io"
+    "A": [
+      "89.108.70.71"
+    ]
   }
 }
