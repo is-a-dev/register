@@ -3,7 +3,10 @@
     "username": "for-tristan",
     "email": "marous20st@gmail.com"
   },
-  "record": {
-    "CNAME": "xfoundry.marous20st.workers.dev"
+  "records": {
+    "NS": [
+      "alexandra.ns.cloudflare.com",
+      "bryce.ns.cloudflare.com"
+    ]
   }
 }
