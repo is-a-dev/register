@@ -4,7 +4,9 @@
     "email": "indrjeetp462@gmail.com"
   },
   "record": {
-    "CNAME": "ghs.googlehosted.com"
+    "CNAME": "ghs.googlehosted.com",
+    "TXT": "google-site-verification=lc4rk0qqXcAByf5yIOFRKvvgl_2bcVvYK8DaA0DzidQ"
   },
-  "description": "Chimney Service NCR"
+  "subdomain": "chimneyservicencr",
+  "description": "Chimney Service NCR - Kitchen chimney repair and service in Delhi NCR"
 }
