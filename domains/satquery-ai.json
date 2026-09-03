@@ -1,11 +1,9 @@
 {
-  "description": "SATQUERY AI - Multimodal Satellite Intelligence Platform",
-  "repo": "https://github.com/pavansreeram15-dev/SATQUERY",
   "owner": {
     "username": "pavansreeram15-dev",
     "email": "pavansreeram15@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "pavansreeram15-dev.github.io"
   }
 }
