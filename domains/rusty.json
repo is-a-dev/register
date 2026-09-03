@@ -4,6 +4,9 @@
     "email": "harrisonchaffin@gmail.com"
   },
   "records": {
-    "CNAME": "rustyisacat.github.io"
+    "CNAME": "rustyisacat.github.io",
+    "TXT": [
+      "_github-pages-challenge-rustyisacat.rusty.is-a.dev=29a3a85a3f99167cb05833fe0b5d30"
+    ]
   }
 }
