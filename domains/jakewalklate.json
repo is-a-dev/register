@@ -22,9 +22,9 @@
       }
     ],
     "TXT": [
-      "zoho-verification=zb11747383.zmverify.zoho.com.au",
-      "v=spf1 include:zohomail.com.au include:zohomail.com ~all",
-      "google-site-verification=k4zE3at21gUVGeaoeZ3g_x42eWrdPWkskNYyv8dywv0"
+      "zoho-verification=zb24531393.zmverify.zoho.com.au",
+      "v=spf1 include:zohomail.com.au ~all",
+      "google-site-verification=dPtFnnAG2F3N_HxHh54J2Xv0_a1Gab6f6tJvrzs3Rng"
     ]
   }
 }
