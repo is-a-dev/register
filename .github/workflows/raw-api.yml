@@ -33,13 +33,16 @@ jobs:
             - name: Create CNAME
               run: echo "raw.is-a.dev" > raw-api/CNAME
 
+            - name: Create timestamp
+              run: echo "$(date +%s%3N)" > raw-api/timestamp
+
             - name: Commit
-              uses: cpina/github-action-push-to-another-repository@main
+              uses: cpina/github-action-push-to-another-repository@55306faa4ed53b815ae49e564af8cfb359d32ae2 # v1.7.3
               with:
                   source-directory: "raw-api"
                   destination-github-username: is-a-dev
                   destination-repository-name: raw-api
-                  user-email: "actions@github.com"
-                  user-name: "GitHub Actions"
+                  user-email: "bot@is-a.dev"
+                  user-name: "is-a-dev-bot"
               env:
                   API_TOKEN_GITHUB: ${{ secrets.BOT }}

@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "thecodalabs",
-        "email": "johnthecoda@gmail.com"
-    },
-    "records": {
-        "TXT": ["26963fc98cd97812b54c2e36726d34"]
-    }
+  "owner": {
+    "username": "thecodalabs",
+    "email": "johnthecoda@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "26963fc98cd97812b54c2e36726d34"
+    ]
+  }
 }

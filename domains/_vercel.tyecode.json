@@ -4,6 +4,8 @@
     "email": "sengphachanh.dev@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=tyecode.is-a.dev,b8d5f54c0fbcd18ddf2a"]
+    "TXT": [
+      "vc-domain-verify=tyecode.is-a.dev,b8d5f54c0fbcd18ddf2a"
+    ]
   }
 }

@@ -2,7 +2,7 @@ name: Stale
 
 on:
     schedule:
-        - cron: "0 12 * * *"
+        - cron: "0 12 * * *" # Runs at 12:00
 
     workflow_dispatch:
 

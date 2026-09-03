@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "defouren",
-        "email": "daneswara@tuta.io"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "defouren",
+    "email": "daneswara@tuta.io"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

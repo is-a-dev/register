@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "hsp4m",
-        "discord": "luizdodibre."
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "hsp4m",
+    "discord": "luizdodibre."
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

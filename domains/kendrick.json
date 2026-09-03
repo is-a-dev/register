@@ -4,7 +4,9 @@
     "email": "olorik362@gmail.com"
   },
   "records": {
-    "A": ["150.136.162.179"]
+    "A": [
+      "150.136.162.179"
+    ]
   },
   "proxied": false
 }
