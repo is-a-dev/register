@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "chasetodie",
-        "email": "chasetodie10@gmail.com"
-    },
-    "record": {
-        "CNAME": "chasetodie.github.io"
-    }
+  "owner": {
+    "username": "chasetodie",
+    "email": "tu-email@ejemplo.com"
+  },
+  "records": {
+    "CNAME": "chasetodie.github.io"
+  }
 }
