@@ -1,0 +1,10 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "owner": {
+    "username": "ikasbidaia2024orixe-sudo",
+    "email": "ikasbidaia2024orixe@gmail.com"
+  },
+  "records": {
+    "CNAME": "studio--studio-8998618909-fc269.us-central1.hosted.app"
+  }
+}
