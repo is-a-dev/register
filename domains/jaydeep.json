@@ -1,10 +1,11 @@
 {
     "owner": {
-        "username": "whoisjayd"
+        "username": "whoisjayd",
+        "email": "contactjaydeepsolanki@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "://vercel-dns.com",
         "TXT": "vc-domain-verify=jaydeep.is-a.dev,f47fcc0404b981aa1eed"
     },
-    "proxied": false
+    "proxied": true
 }
