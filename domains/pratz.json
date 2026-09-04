@@ -5,6 +5,6 @@
     "email": "prathampatil7798@gmail.com"
   },
   "records": {
-    "CNAME": "prathamesh-patil.pages.dev"
+    "A": ["216.198.79.1"]
   }
 }
