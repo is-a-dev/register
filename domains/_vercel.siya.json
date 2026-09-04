@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "rajputsiya",
-      "email" : "siyarajput9258@gmail.com"
-    },
-    "record": {
-      "TXT": ["vc-domain-verify=siya.is-a.dev,8b5584a1aeb3bb9a60c5"]
-    }
+  "owner": {
+    "username": "rajputsiya",
+    "email": "siyarajput9258@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=siya.is-a.dev,8b5584a1aeb3bb9a60c5"
   }
-  
+}

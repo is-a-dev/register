@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "alexgamingstudio"
+  },
+  "proxied": false,
+  "records": {
+    "TXT": "v=DMARC1; p=quarantine; rua=mailto:rua@dmarc.brevo.com"
+  }
+}

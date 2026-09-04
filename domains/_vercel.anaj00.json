@@ -3,7 +3,7 @@
     "username": "anaj00",
     "discord": "726173201264279583"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=anaj00.is-a.dev,68d5c0091e41f6b9cd2f"]
+  "records": {
+    "TXT": "vc-domain-verify=anaj00.is-a.dev,68d5c0091e41f6b9cd2f"
   }
 }

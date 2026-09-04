@@ -3,7 +3,7 @@
     "username": "sYnceDez41",
     "email": "zdaim78@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=daim.is-a.dev,d88985a4876213470d49"]
+  "records": {
+    "TXT": "vc-domain-verify=daim.is-a.dev,d88985a4876213470d49"
   }
 }

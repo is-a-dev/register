@@ -3,7 +3,9 @@
     "username": "Kronifer",
     "email": "dillonr5@live.wsd1.org"
   },
-  "record": {
-    "A": ["159.203.35.162"]
+  "records": {
+    "A": [
+      "159.203.35.162"
+    ]
   }
 }

@@ -4,7 +4,7 @@
     "username": "mrasif",
     "email": "admin@mrasif.in"
   },
-  "record": {
-    "CNAME": "mrasif.github.io"
+  "records": {
+    "CNAME": "mrasif-in.web.app"
   }
 }

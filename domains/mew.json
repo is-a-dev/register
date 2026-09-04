@@ -3,7 +3,10 @@
     "username": "meewmeew",
     "email": "mauminh.nguyen@gmail.com"
   },
-  "record": {
-    "NS": ["bart.ns.cloudflare.com", "karina.ns.cloudflare.com"]
+  "records": {
+    "NS": [
+      "bart.ns.cloudflare.com",
+      "karina.ns.cloudflare.com"
+    ]
   }
 }

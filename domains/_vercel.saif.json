@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Saifkhanz",
-        "email": "saif137.khan@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=saif.is-a.dev,8f2dcd17056c670b7276"
-    }
+  "owner": {
+    "username": "Saifkhanz",
+    "email": "saif137.khan@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=saif.is-a.dev,8f2dcd17056c670b7276"
+  }
 }

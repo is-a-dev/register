@@ -1,0 +1,20 @@
+{
+  "description": "duynguyenkim.is-a.dev : This is my personal notebook",
+  "owner": {
+    "username": "nguyenkimduy180697",
+    "email": "nguyenkimduy180697@gmail.com"
+  },
+  "records": {
+    "URL": "https://nguyenkimduy.com/"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/nguyenkimduy180697",
+      "/fb": "https://facebook.com/nguyenkimduy180697",
+      "/instagram": "https://instagram.com/nguyenkimduy180697/",
+      "/linkedin": "https://linkedin.com/in/nguyenkimduy180697",
+      "/viblo": "https://viblo.asia/u/nguyenkimduy180697"
+    },
+    "redirect_paths": true
+  }
+}

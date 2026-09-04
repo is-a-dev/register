@@ -1,11 +1,10 @@
 {
-    "owner": {
-      "username": "risqi17",
-      "email": "ahmadreys@gmail.com",
-      "discord": "risqi_ahmad9230"
-    },
-    "record": {
-      "CNAME": "nextjs-notion-starter-kit-transitive-bullshit.vercel.app"
-    }
+  "owner": {
+    "username": "risqi17",
+    "email": "ahmadreys@gmail.com",
+    "discord": "risqi_ahmad9230"
+  },
+  "records": {
+    "CNAME": "nextjs-notion-starter-kit-transitive-bullshit.vercel.app"
   }
-  
+}

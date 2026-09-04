@@ -1,11 +1,9 @@
 {
-  "description": "Willian Arsenio's Website",
-  "repo": "https://github.com/waveiro/waveiro.github.io",
   "owner": {
     "username": "waveiro",
     "twitter": "waveiro"
   },
-  "record": {
+  "records": {
     "CNAME": "waveiro.github.io"
   }
 }

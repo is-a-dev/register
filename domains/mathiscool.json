@@ -1,11 +1,9 @@
 {
-  "description": "Mathiscool personal website",
-  "repo": "https://testbot-github.github.io/Mathiscool",
   "owner": {
     "username": "testbot-github",
     "email": "testbot-github@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mathiscool.github.io"
   }
 }

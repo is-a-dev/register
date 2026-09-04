@@ -3,7 +3,9 @@
     "username": "Friedman10",
     "email": "yfriedman@gmail.com"
   },
-  "record": {
-    "MX": ["smtp.google.com"]
+  "records": {
+    "MX": [
+      "smtp.google.com"
+    ]
   }
 }

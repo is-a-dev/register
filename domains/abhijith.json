@@ -1,11 +1,9 @@
 {
-  "description": "Personal portfolio",
-  "repo": "https://github.com/abhisawesome/abhisawesome.github.io",
   "owner": {
-    "username": "abhisawesome",
-    "email": "abhijithababhijith@gmail.com"
+    "username": "abhiwikky",
+    "email": "abhijiths01022@gmail.com"
   },
-  "record": {
-    "CNAME": "abhisawesome.github.io"
+  "records": {
+    "CNAME": "abhiwikky.github.io"
   }
 }

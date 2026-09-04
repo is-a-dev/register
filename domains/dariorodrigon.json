@@ -1,11 +1,9 @@
 {
-  "description": "Dario Rodri Gon is a dev",
-  "repo": "https://github.com/dario-rodriguez/dario-rodriguez.github.io",
   "owner": {
     "username": "dario-rodriguez",
     "email": "dario.rg.1990@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "dario-rodriguez.github.io"
   }
 }

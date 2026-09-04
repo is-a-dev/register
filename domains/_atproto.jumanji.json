@@ -1,10 +1,9 @@
 {
-  "description": "domain verification for bluesky",
   "owner": {
     "username": "heyjumanji",
-    "email": "madhuchutiya.unhinge50@silomails.com"
+    "email": "madhuchutiya.unhinge650@silomails.com"
   },
-  "record": {
+  "records": {
     "TXT": "did=did:plc:nrjpabfv3zoxd6kiwr6fs4lq"
   }
 }

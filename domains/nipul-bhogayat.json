@@ -1,10 +1,8 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/nipul-bhogayat/nipul-bhogayat.github.io",
   "owner": {
     "username": "nipul-bhogayat"
   },
-  "record": {
+  "records": {
     "CNAME": "nipul-bhogayat.github.io"
   }
 }

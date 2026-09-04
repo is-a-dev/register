@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "divyanshudhruv",
-        "email": "divyanshudhruv24@gmail.com"
-    },
-    "record": {
-        "CNAME": "divyanshudhruv.vercel.app"
-    }
+  "owner": {
+    "username": "divyanshudhruv",
+    "email": "divyanshudhruv24@gmail.com"
+  },
+  "records": {
+    "CNAME": "divyanshudhruv.vercel.app"
+  }
 }

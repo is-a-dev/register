@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "NotAProton",
-           "discord": "881083592648843294",
-           "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.ljVmbkSps_q105bpImCtqo4lcTC3vXwfeKumQRVxp8bEoL2YAJOK_L1-ZJS3xoqwYz4dGhXRgfMwbXxt5DywBdnkWksIaVeslM0kAmjfqFGzT6j7YuFHHn0lCrtJACVCqfnkM6m-K8JVO71W66hnpyHqUep-pk-PEi7ySj7NibAjqMNf2UJiawXTTVLk3ynTUkwF4TJPwm4SdUJ6u9-YoFOh2aLOc716UINMAyRtnhB_LrfOYbl2a0OEnQGNdyEMqs1gjzmtn1wq_MZp6rI0HsRGV8PXuUh4GeEdptRCk2WIs2Rgg8vK1ECQ_DbbFCH0f1qxZAEngq-kTmByoICfhg.vi-XIRIxV8vkUwHBfoDxvQ._nY8vknWdQ_aGvm7_e2oh64O8IePxVzUV-Cxc20Y8HIG1ZihZ1_ae_BeL5b6OxJ9Ku0vnvwzitskb1y58Ja6krv4v-OVUft6kdUUYkyhB5Hai7HIRDbtiT9FD5EFXd3F.uS_CcluynSxFeTDrJosDrw"
-        },
-    
-        "record": {
-            "CNAME": "notaproton.github.io"
-        }
-    }
-    
+  "owner": {
+    "username": "NotAProton",
+    "discord": "881083592648843294"
+  },
+  "records": {
+    "CNAME": "notaproton.github.io"
+  }
+}

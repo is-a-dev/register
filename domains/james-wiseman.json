@@ -4,7 +4,7 @@
     "username": "jamesrobertwiseman",
     "email": "hello@jameswiseman.me"
   },
-  "record": {
+  "records": {
     "CNAME": "jameswiseman.me"
   },
   "proxied": true

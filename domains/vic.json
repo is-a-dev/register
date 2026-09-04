@@ -1,12 +1,10 @@
 {
-  "description": "my personal website",
-  "repo": "https://github.com/v1ctorio/v1ctorio.github.io",
   "owner": {
     "username": "victorioxd",
     "email": "vicxd@pm.me",
     "twitter": "vicjajsalu2"
   },
-  "record": {
+  "records": {
     "CNAME": "v1ctorio.github.io"
   }
 }

@@ -1,9 +1,9 @@
-{ 
-    "owner": { 
-        "username": "FendiMohamed", 
-        "email": "fendimohamed615@gmail.com"
-    }, 
-     "record": { 
-        "TXT": "vc-domain-verify=fendimohamed.is-a.dev,36783fd4f5b7c8306eb5" 
-    } 
+{
+  "owner": {
+    "username": "FendiMohamed",
+    "email": "fendimohamed615@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=fendimohamed.is-a.dev,36783fd4f5b7c8306eb5"
+  }
 }

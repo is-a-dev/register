@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "cloudcap10",
-    "email": "jttalasan@live.com"
+    "username": "DevMatei"
   },
-  "record": {
-    "CNAME": "cloudcap10.github.io"
+  "records": {
+    "URL": "https://devmatei.com/"
   }
 }

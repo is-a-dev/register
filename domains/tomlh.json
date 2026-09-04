@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "tomlonghorn",
-    "discord": "555437155829153793",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.fLYf5SQZcFwBqFk53_ChiGVQHkDDx6q5VBT_uVb1qPmiv8kUiP6drwPejnGfg8_WskhWBXw8VeBxZhuozUKm-81Ti1Jj8lEMDuO-npQYsXnNyP1pPmmn9PbWw5Miyn1nYmzvIwlD0vTvl2SaOmdDkSIdG6B-ZbF-fR7Xt--8zrmB-_ZGsRnY5Xz69qzzKeE4FW0JIgypkeqwXXrcJ3Xql9yrlq7ei-NTtyFnSryH3-bD2cnM-_2PcaAm0yhLWCIeVukgWaHpQM7f4tyIkWP_ZmN7_GGI9ofEzwou0ky2S6tz1gsbWRIj0yc5LKiU27jSSI7Xilbuf__1Yz_H3pcjUA.rG-9RsGnGA-PMeJ_I7sChw.U6RQsO8SPjsrt7kmydNYZq-AqaQiifoJ-zHDUMB7tYlhT0UELkKk4-OCd-Eg6bbZd3iRYjndwG-Co3kRrUJzhc4_JzvW3wfF-fS4QNTVsM0.2QRCf2qldh-pSDZ745U6oA"
+    "discord": "555437155829153793"
   },
-  "record": {
+  "records": {
     "CNAME": "tomlonghorn.github.io"
   }
 }

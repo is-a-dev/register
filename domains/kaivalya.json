@@ -1,11 +1,9 @@
 {
-  "description": "For my Personal Portfolio website",
-  "repo": "https://github.com/Kaivalya4/Kaivalya4.github.io",
   "owner": {
     "username": "Kaivalya4",
     "email": "kt6819@yahoo.com"
   },
-  "record": {
+  "records": {
     "CNAME": "kaivalya4.github.io"
   }
 }

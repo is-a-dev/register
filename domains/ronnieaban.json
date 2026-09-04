@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ronnieaban",
-        "email": "ronnieaban@gmail.com"
-    },
-    "record": {
-        "CNAME": "ronnieaban.pages.dev"
-    }
+  "owner": {
+    "username": "ronnieaban",
+    "email": "ronnieaban@gmail.com"
+  },
+  "records": {
+    "CNAME": "ronnieaban.pages.dev"
+  }
 }

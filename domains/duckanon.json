@@ -3,7 +3,9 @@
     "username": "SmolNightHere312",
     "email": "magickdevl@proton.me"
   },
-  "record": {
-    "A": ["69.30.249.53"]
+  "records": {
+    "A": [
+      "69.30.249.53"
+    ]
   }
 }

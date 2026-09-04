@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "realyoterry",
-        "email": "theterrykim@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=terry.is-a.dev,77663b6ef45302529609"
-    }
+  "owner": {
+    "username": "realyoterry",
+    "email": "theterrykim@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=terry.is-a.dev,77663b6ef45302529609"
+  }
 }

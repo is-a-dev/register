@@ -1,10 +1,8 @@
 {
-  "description": "This is personal website",
-  "repo": "https://github.com/rahul-rabari/rahul-rabari.github.io",
   "owner": {
     "username": "rahul-rabari"
   },
-  "record": {
+  "records": {
     "CNAME": "rahul-rabari.github.io"
   }
 }

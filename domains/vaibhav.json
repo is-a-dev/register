@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "VaibhavSys",
-    "email": "vaibhavsys@protonmail.com"
+    "username": "MrUnknown-47",
+    "email": "vaibhavsingh8d36@gmail.com"
   },
-  "record": {
-    "NS": ["daphne.ns.cloudflare.com", "venkat.ns.cloudflare.com"]
+  "records": {
+    "CNAME": "mrunknown-47.github.io"
   }
 }

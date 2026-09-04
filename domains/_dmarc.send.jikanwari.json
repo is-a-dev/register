@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "8apricity",
+    "email": "8.apricity@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
+  }
+}

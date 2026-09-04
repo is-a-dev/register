@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "asd1495",
-        "email": "armando.salcedo95@gmail.com"
-    },
-    "record": {
-        "CNAME": "asd1495.github.io"
-    }
+  "owner": {
+    "username": "asd1495",
+    "email": "armando.salcedo95@gmail.com"
+  },
+  "records": {
+    "CNAME": "asd1495.github.io"
+  }
 }

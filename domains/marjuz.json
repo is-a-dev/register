@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "marjuzdev"
-    },
-    "record": {
-        "CNAME": "marjuz.netlify.app"
-    }
+  "owner": {
+    "username": "marjuzdev"
+  },
+  "records": {
+    "CNAME": "marjuz.netlify.app"
+  }
 }

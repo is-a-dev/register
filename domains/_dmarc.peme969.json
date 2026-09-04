@@ -3,9 +3,7 @@
     "username": "peme969",
     "email": "mrcoderpeme@gmail.com"
   },
-  "record": {
-    "TXT": [
-      "forward-email=NjNhNjJlMjMzOGJhMWUxNy1hOTk2MzljYmY0ZDczZWViZDY2NTljZmUwMDc4OTM5MmQ3YmVjN2RmYWEyMjFlN2VhODAxZWUwOWI5ODhhNDY2"
-    ]
+  "records": {
+    "TXT": "forward-email=NjNhNjJlMjMzOGJhMWUxNy1hOTk2MzljYmY0ZDczZWViZDY2NTljZmUwMDc4OTM5MmQ3YmVjN2RmYWEyMjFlN2VhODAxZWUwOWI5ODhhNDY2"
   }
 }

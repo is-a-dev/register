@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "SoulDevs",
-        "email": "soulcosmic1406@proton.me"
-    },
-    "record": {
-        "CNAME": "main-protfolio-seven.vercel.app"
-    }
+  "owner": {
+    "username": "SoulDevs",
+    "email": "soulcosmic1406@proton.me"
+  },
+  "records": {
+    "CNAME": "main-protfolio-seven.vercel.app"
+  }
 }

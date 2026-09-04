@@ -1,10 +1,11 @@
 {
   "owner": {
     "username": "okineadev",
-    "discord": "okineadev",
-    "telegram": "okinea"
+    "telegram": "https://telegram.okinea.dev",
+    "email": "hi@okinea.dev",
+    "discord": "okineadev"
   },
-  "record": {
+  "records": {
     "TXT": "dh=72f6dea86d79bda34d2c61e1edb3037954caac82"
   }
 }

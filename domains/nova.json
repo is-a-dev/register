@@ -1,11 +1,10 @@
 {
-  "description": "nova.is-a.dev",
   "owner": {
-    "username": "LunarN0v4",
-    "email": "nova@zeusteam.dev",
-    "discord": "7un4r"
+    "username": "supernova0866",
+    "email": "supernova0866@outlook.com",
+    "discord": "875703615099134013"
   },
-  "record": {
-    "A": ["130.51.94.101"]
+  "records": {
+    "CNAME": "supernova0866.github.io"
   }
 }

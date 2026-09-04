@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio Site",
-  "repo": "https://dev10us1ty.github.io",
   "owner": {
     "username": "melonmasteristaken",
     "email": "melonmasteristaken@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "dev10us1ty.github.io"
   }
 }

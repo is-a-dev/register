@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "NateNear",
-        "email": "matternate21@gmail.com"
-    },
-    "record": {
-        "CNAME": "inputly.vercel.app"
-    }
+  "owner": {
+    "username": "NateNear",
+    "email": "matternate21@gmail.com"
+  },
+  "records": {
+    "CNAME": "inputly.vercel.app"
+  }
 }

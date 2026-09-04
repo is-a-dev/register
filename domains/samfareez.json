@@ -1,11 +1,9 @@
 {
-  "description": "Personal site",
-  "repo": "https://github.com/zeerafle/zeerafle.github.io",
   "owner": {
     "username": "zeerafle",
     "email": "vsefareez@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "zeerafle.github.io"
   }
 }

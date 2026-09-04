@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "soccer",
+    "username": "minecradt",
     "email": "soccer1992.is.a.dev@gmail.com"
   },
-  "record": {
-    "A": ["75.2.60.5"]
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }

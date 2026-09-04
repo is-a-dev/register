@@ -1,9 +1,8 @@
-
 {
-    "owner": {
-        "username": "udithamanohara"
-    },
-    "record": {
-        "CNAME": "udithamanohara.github.io"
-    }
+  "owner": {
+    "username": "udithamanohara"
+  },
+  "records": {
+    "CNAME": "udithamanohara.github.io"
+  }
 }

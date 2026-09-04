@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "DevMatei",
-    "email": "matei.thoma@gmail.com"
+    "username": "DevMatei"
   },
-  "record": {
-    "A": ["75.2.60.5"]
+  "records": {
+    "URL": "https://devmatei.com/"
   }
 }

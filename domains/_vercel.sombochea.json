@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sombochea",
-        "email": "sombochea100@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=sombochea.is-a.dev,2cdc71284d8d8193f021"
-    }
+  "owner": {
+    "username": "sombochea",
+    "email": "sombochea100@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sombochea.is-a.dev,2cdc71284d8d8193f021"
+  }
 }

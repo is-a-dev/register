@@ -1,10 +1,10 @@
 {
-    "repo": "https://github.com/rahulc0dy/rahulc0dy.github.io",
-    "owner": {
-        "username": "rahulc0dy",
-        "email": "codyrahulop@gmail.com"
-    },
-    "record": {
-        "CNAME": "rahulc0dy.github.io"
-    }
+  "repo": "https://github.com/rahulc0dy/rahulc0dy.github.io",
+  "owner": {
+    "username": "rahulc0dy",
+    "email": "codyrahulop@gmail.com"
+  },
+  "records": {
+    "CNAME": "rahulc0dy-vault.netlify.app"
+  }
 }

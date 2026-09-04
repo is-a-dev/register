@@ -1,10 +1,10 @@
 {
+  "description": "Portfolio",
   "owner": {
     "username": "adamrexo",
-    "discord": "898638440592191509",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.UQXA3K1mX8Pq_S_dcKeoB7MzL_ON5vOvOGOA_0xPft015rDYunl47BEB_lxW0viGYUMvnecBkv6vBnxUrCtoh9F1f2QNnSfJMpDLRnEoiJt4gwt3wSuW8zlw7Y4gkr0oGoqPqXoVZkZOXtn1-SAB5h_rHksFxolsoxNUGbqfcqTcsHScsjVDhlfRSK7eGn-0iWJCjiQc0nL4HPHm-ziu0p2q4bFXzp6XreLITFZIASffgJzFldC2lmxXe3iR1A_T1zHw93f6rUrgdKgWRAN4qhmxHeSUatmI3uMTc0sd2BS0c99IumRnEYVzQDNkSutfw_zo5wDTjp2aabyb7XqusQ.dj4_olpViy2ITJcHo1Fo6g.IXDL4TFulPcVWPZMZ9SR5yoKVD0dS44Rx1-dHODPZw1ZoOUDliQDqUF5csyOdbLGLXiRAl6bsePXCVLIpYoPGwC25zKxI1z7maAu4uHQ6dI.QvaiUlJyNs4nk2-cV_HgDg"
+    "email": "rexosheesh@gmail.com"
   },
-  "record": {
-    "A": ["130.162.237.143"]
+  "records": {
+    "CNAME": "adamrexo.vercel.app"
   }
 }

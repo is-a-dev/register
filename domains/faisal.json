@@ -1,12 +1,11 @@
 {
-  "description": "Faisal Portfolio Website",
-  "repo": "https://github.com/faisal-fida/faisal-fida.github.io",
   "owner": {
-    "username": "faisal-fida",
-    "email": "arainfaisal826@gmail.com",
-    "twitter": "faisalfida_4"
+    "username": "faisallbhr",
+    "email": "faisallbhr@gmail.com"
   },
-  "record": {
-    "CNAME": "faisal-fida.github.io"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

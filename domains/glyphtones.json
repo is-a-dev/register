@@ -3,10 +3,7 @@
     "username": "firu115",
     "email": "firu-glyphtones@proton.me"
   },
-  "record": {
-    "A": ["5.75.148.17"],
-    "AAAA": ["2a01:04f8:0c0c:947e:0000:0000:0000:0001"]
-  },
-  "description": "Glyphtones is a website that I made for sharing Nothing Phone ringtones that feature glyph light effects. https://nothing.tech/",
-  "repo": "https://github.com/Firu115/nothing_glyphtones"
+  "records": {
+    "CNAME": "glyphtones.firu.dev"
+  }
 }

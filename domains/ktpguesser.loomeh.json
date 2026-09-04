@@ -3,7 +3,9 @@
     "username": "loomeh",
     "bluesky": "loomeh.bsky.social"
   },
-  "record": {
-    "A": ["76.76.21.21"]
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

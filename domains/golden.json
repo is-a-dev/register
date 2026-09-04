@@ -1,12 +1,10 @@
 {
-  "description": "Golden's Public Site",
-  "repo": "https://github.com/goldenboys2011/goldenboys2011.github.io",
   "owner": {
     "username": "goldenboys2011",
     "email": "ody.chryssos@gmail.com",
     "discord": "936320442594103307"
   },
-  "record": {
+  "records": {
     "CNAME": "goldenboys2011.github.io"
   }
 }

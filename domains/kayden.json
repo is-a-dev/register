@@ -3,7 +3,9 @@
     "username": "leekayden",
     "email": "kaydenleefale@gmail.com"
   },
-  "record": {
-    "A": ["178.128.124.89"]
+  "records": {
+    "A": [
+      "178.128.124.89"
+    ]
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Sam Poder's personal website.",
-  "repo": "https://github.com/sampoder/w2",
   "owner": {
     "username": "sampoder",
     "email": "sam@sampoder.com"
   },
-  "record": {
+  "records": {
     "URL": "https://sampoder.com"
   }
 }

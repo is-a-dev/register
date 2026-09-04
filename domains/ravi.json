@@ -1,11 +1,9 @@
 {
-  "description": "Personal website of Ravi",
-  "repo": "https://github.com/ravikhokhar23/ravikhokhar23.github.io",
   "owner": {
     "username": "ravikhokhar23",
     "email": "khokhar.ravikumar@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ravikhokhar23.github.io"
   }
 }

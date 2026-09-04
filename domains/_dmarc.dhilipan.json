@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "Dhilipan-Git",
-    "discord": "1306595993055268875",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.WPtn_SlHtmPez8jjftkfl-CgWWn-ZYC-SyRJsyxLt-Gn_aEyTjQCgENyWvEpCzShxRpsqd5Np_gpkW8UM1-1MhIm1LjkGB50Aw_DMZK-gZS5KsWEXG8mclQXpIbcBVzI-HlRtHXicgDs-t7TcdL1qefMiisKwedNEUz9UvBxHFoNuA9E37cNrl5Y5j8Cf2E2x3D7eK2FxA3WvKXaMTRj40pitxwXxOGJqFqiv5QFehiIp_0pwtsjlWXm792LsePHIOKONeFy1p6v7HJgUx3WZKI4-5FADx9XqD3s6pS9jC8gOFqL4zllEE5cLVOz1Fy27tQrMn4B_b7qn5UxO1kBYA.ekzBd4v9e5MKBuUB-08ILg.qLhRJw9HYeu7ifjuRQfOUYdplsU6goAZRwazKk8fnW9FU1N6zxPg_2FjU4yoIki6PHZUrb-I5Bwt8FrX6G-3-M3uBQspwQLb5YdUDU-qJQY.KTelr2g7MJZ-b4qOxnJv2A"
+    "discord": "1306595993055268875"
   },
-  "record": {
-    "TXT": ["v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s"]
+  "records": {
+    "TXT": "v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s"
   }
 }

@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "adriancmiranda",
-    "email": "ad@is-a.dev"
+    "username": "adriancmiranda"
   },
-  "record": {
+  "records": {
     "URL": "https://adrian-miranda.vercel.app"
   },
   "redirect_config": {

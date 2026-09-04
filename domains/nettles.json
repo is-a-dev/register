@@ -1,12 +1,11 @@
 {
   "description": "Add some description",
-  "repo": "https://github.com/nettlees/nettleee.github.io",
   "owner": {
     "username": "nettlees",
     "email": "nettles.dev@gmail.com",
     "twitter": "rickroll"
   },
-  "record": {
+  "records": {
     "CNAME": "nettlees.github.io"
   }
 }

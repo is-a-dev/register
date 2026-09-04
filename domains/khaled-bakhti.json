@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "OTK-98",
-    "discord": "613789376325091329",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.QxPdpax0NnXuYc2y0Kd1afVg5WCm9q-4Pg4dfOhlJD_nEl57XXLzRTqSs19REvTOzrUU1BvxFEBF3Qe3yGaCx8y_vBcRZhh8Voqu637kk4rxatFV9G8wWtle6OatoqYjJ9bXeS-pzvPk4b0hqVwH3INnlzhwMERleRh0e3EbMjolSLEEREWAkNWr0PtEErFd1JL8OqyHxXqG2qNvXqYMtVu4TyVGbBvpiqe8lgToa0amu798f6rEDWKQbKArdbRfCgYYeMsgO4Y3GIjCSx08NJB7IljDhiucILegmOcv_xvQTWizW7KARlVzoxhQz89Yd_-kfOwYA8vmgeW2LOLDuQ.gIx5z6cUtBW0cF1-dI57LA._a_x8UO3Sry1F6tTwpHhdfmfkrfLnTurDfqcT740SwPA0G7DWGY6uli2t1_cV6JzoPry3rboDzwqaLM3fk3YIwhhLYSPpT01hBQO_LVeTmoMeGssyMSseU8ztu15Y_ht.4vtubaVaW9uVN217s62Aag"
+    "discord": "613789376325091329"
   },
-  "record": {
+  "records": {
     "CNAME": "khaled-bakhti.vercel.app"
   }
 }

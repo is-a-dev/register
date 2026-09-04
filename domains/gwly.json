@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "cyrilguocode"
-    },
-    "record": {
-        "CNAME": "gwlyweb.pages.dev"
-    }
+  "owner": {
+    "username": "cyrilguocode"
+  },
+  "records": {
+    "CNAME": "gwlyweb.pages.dev"
+  }
 }

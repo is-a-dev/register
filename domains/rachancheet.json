@@ -3,7 +3,9 @@
     "username": "rachancheet",
     "email": "raxxsngh37@gmail.com"
   },
-  "record": {
-    "A": ["152.67.163.7"]
+  "records": {
+    "A": [
+      "152.67.163.7"
+    ]
   }
 }

@@ -4,7 +4,7 @@
     "email": "gfranklings@gmail.com",
     "discord": "695333243637072002"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=alphatechnolog.is-a.dev,60b952897ab1957420d3"]
+  "records": {
+    "TXT": "vc-domain-verify=alphatechnolog.is-a.dev,60b952897ab1957420d3"
   }
 }

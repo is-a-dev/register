@@ -1,11 +1,9 @@
 {
-    "description": "duc.is-a.dev",
-    "repo": "https://github.com/duc-ios/duc-ios.github.io",
-    "owner": {
-        "username": "duc-ios",
-        "email": "hi@duk.one"
-    },
-    "record": {
-        "CNAME": "duc-ios.github.io"
-    }
+  "owner": {
+    "username": "duc-ios",
+    "email": "hi@duk.one"
+  },
+  "records": {
+    "CNAME": "duc-ios.github.io"
+  }
 }

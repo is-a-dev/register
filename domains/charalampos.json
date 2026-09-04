@@ -1,11 +1,9 @@
 {
-  "description": "Redirection domain for my personal website",
-  "repo": "https://github.com/cfanoulis/fanoulis.dev",
   "owner": {
     "username": "cfanoulis",
     "email": "domains@fanoulis.dev"
   },
-  "record": {
+  "records": {
     "URL": "https://fanoulis.dev"
   }
 }

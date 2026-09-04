@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "owenslopez211"
-    },
-    "record": {
-        "CNAME": "owenslopez211.github.io"
-    }
+  "owner": {
+    "username": "owenslopez211"
+  },
+  "records": {
+    "CNAME": "owenslopez211.github.io"
+  }
 }

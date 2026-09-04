@@ -3,7 +3,9 @@
     "username": "EducatedSuddenBucket",
     "email": "educatedsuddenbucket@gmail.com"
   },
-  "record": {
-    "A": ["76.76.21.21"]
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

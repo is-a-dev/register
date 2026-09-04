@@ -1,9 +1,9 @@
 {
-  "description": "Omi Personal Webpage",
   "owner": {
-    "username": "omi-the-sorcerer"
+    "username": "omiraj07",
+    "email": "omi7835@gmail.com"
   },
-  "record": {
-    "CNAME": "omi.cat"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

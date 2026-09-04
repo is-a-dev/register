@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "anshaneja5",
-        "email": "anshanejaa@gmail.com"
-    },
-    "record": {
-        "CNAME": "portfolio-xi-liard-96.vercel.app"
-    }
+  "owner": {
+    "username": "anshaneja5",
+    "email": "anshanejaa@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-xi-liard-96.vercel.app"
+  }
 }

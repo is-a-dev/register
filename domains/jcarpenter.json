@@ -1,11 +1,9 @@
 {
-  "description": "jcarpenter's personal site",
-  "repo": "https://github.com/jcarpenter48/jcarpenter48.github.io",
   "owner": {
     "username": "jcarpenter48",
     "email": "jcarpenter48@mail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "jcarpenter48.github.io"
   }
 }

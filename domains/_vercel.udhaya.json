@@ -1,10 +1,9 @@
 {
-  "description": "Vercel Txt Verification",
   "owner": {
-    "username": "xAceDuke",
+    "username": "xaceduke",
     "email": "kinghtth0@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=udhaya.is-a.dev,accd4809ddad58ac55a4"]
+  "records": {
+    "TXT": "vc-domain-verify=udhaya.is-a.dev,accd4809ddad58ac55a4"
   }
 }

@@ -3,7 +3,9 @@
     "username": "jobayedsumon",
     "email": "jobayedahmedsumon@gmail.com"
   },
-  "record": {
-    "A": ["103.159.73.11"]
+  "records": {
+    "A": [
+      "103.159.73.11"
+    ]
   }
 }

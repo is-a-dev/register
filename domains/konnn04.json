@@ -1,11 +1,9 @@
 {
-    "description": "Hello World!",
-    "repo": "https://github.com/konnn04/konnn04.github.io",
-    "owner": {
-        "username": "konnn04",
-        "email": "trieukon1011@gmail.com"
-    },
-    "record": {
-        "CNAME": "konnn04.github.io"
-    }
+  "owner": {
+    "username": "konnn04",
+    "email": "trieukon1011@gmail.com"
+  },
+  "records": {
+    "CNAME": "konnn04.github.io"
+  }
 }

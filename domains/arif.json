@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio Website",
-  "repo": "https://github.com/Arif-Islam/Portfolio-site",
   "owner": {
-    "username": "Arif-Islam",
-    "email": "arif8491@gmail.com"
+    "username": "an-arif",
+    "email": "muhammedarifnn@gmail.com"
   },
-  "record": {
-    "CNAME": "arif-islam.github.io"
+  "records": {
+    "CNAME": "arif00.pages.dev"
   }
 }

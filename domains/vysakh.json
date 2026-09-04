@@ -1,11 +1,9 @@
 {
-  "description": "Personal Website",
-  "repo": "https://github.com/vyshuks/vyshuks.github.io",
   "owner": {
     "username": "vyshuks",
     "email": "vyshuks@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "vyshuks.github.io"
   }
 }

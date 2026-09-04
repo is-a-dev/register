@@ -1,11 +1,9 @@
 {
-  "description": "My own hub for everything that I do!",
-  "repo": "https://github.com/GrifTheDev/grifthedev.github.io",
   "owner": {
     "username": "GrifTheDev",
     "email": "tmjeteo3@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "grifthedev.github.io"
   }
 }

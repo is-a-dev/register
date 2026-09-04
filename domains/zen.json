@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "zeraAI",
-    "email": "parkzen68@gmail.com"
+    "username": "zen-geohub",
+    "email": "abidinzaenal556@gmail.com"
   },
-  "record": {
-    "CNAME": "zeraai.github.io"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

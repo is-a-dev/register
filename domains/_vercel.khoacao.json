@@ -3,7 +3,7 @@
     "username": "khoacao2k4",
     "email": "cqnhatkhoa@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=khoacao.is-a.dev,9b86aeda2d7aa9f99748"]
+  "records": {
+    "TXT": "vc-domain-verify=khoacao.is-a.dev,9b86aeda2d7aa9f99748"
   }
 }

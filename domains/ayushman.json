@@ -1,11 +1,11 @@
 {
-  "description": "Personal website for Ayushman",
   "owner": {
-    "username": "AMRzip",
-    "email": "ayushmanrathi0@gmail.com"
+    "username": "SysQuirrel",
+    "discord": "arnesh4881"
   },
-  "record": {
-    "CNAME": "ARMzip.github.io"
-  },
-  "proxied": false
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

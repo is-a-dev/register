@@ -1,12 +1,10 @@
 {
-  "description": "Portfolio",
-  "repo": "https://github.com/dushmanta05/dushmanta05.github.io",
   "owner": {
     "username": "dushmanta05",
     "email": "dushbehera05@gmail.com",
     "twitter": "dushmanta05"
   },
-  "record": {
+  "records": {
     "CNAME": "dushmanta05.github.io"
   }
 }
