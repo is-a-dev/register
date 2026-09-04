@@ -1,0 +1,10 @@
+{
+  "description": "New Leaf — a gentle, private companion for noticing yourself and building better habits, one day at a time.",
+  "owner": {
+    "username": "harmless-beep",
+    "email": "harmless-beep@users.noreply.github.com"
+  },
+  "records": {
+    "CNAME": "harmless-beep.github.io"
+  }
+}
