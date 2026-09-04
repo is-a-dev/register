@@ -5,7 +5,7 @@
   },
   "description": "TaskFlow app",
   "record": {
-    "CNAME": "cb630903f7b71ffc.vercel-dns-017.com"
+    "A": ["216.198.79.1"]
   },
   "proxy": false
 }
