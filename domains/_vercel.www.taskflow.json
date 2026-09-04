@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "Pranav-N-25",
+    "email": "npranavnpranav@gmail.com"
+  },
+  "description": "Vercel safety verification token for www.taskflow.is-a.dev",
+  "record": {
+    "TXT": "vc-domain-verify=www.taskflow.is-a.dev,fe644fd0e44721a443a1"
+  }
+}
