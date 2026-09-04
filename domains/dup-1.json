@@ -1,0 +1,11 @@
+{
+  "description": "Deployment for dup-1 website",
+  "repo": "https://github.com/shameem2787/dup-1",
+  "owner": {
+    "username": "shameem2787",
+    "email": "shameem278700@gmail.com"
+  },
+  "record": {
+    "CNAME": "shameem2787.github.io"
+  }
+}
