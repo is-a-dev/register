@@ -1,0 +1,10 @@
+{
+  "description": "Electro Infinity",
+  "repo": "https://github.com/masakatsuSan/ElectroInfinity",
+  "owner": {
+    "username": "masakatsuSan"
+  },
+  "record": {
+    "CNAME": "electro-infinity.vercel.app"
+  }
+}
