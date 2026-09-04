@@ -1,0 +1,23 @@
+{
+  "owner": {
+    "username": "faisalimap",
+    "email": "faisalimap@gmail.com"
+  },
+  "records": {
+    "URL": "https://faisalimap.is-a.dev",
+    "MX": [
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 0
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 0
+      }
+    ],
+    "TXT": [
+      "forward-email=faisalimap@gmail.com",
+      "brevo-code:012e990fbd248270d55abe9aaf9ed698"
+    ]
+  }
+}

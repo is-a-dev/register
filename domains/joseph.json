@@ -4,6 +4,8 @@
     "email": "yfriedman@gmail.com"
   },
   "records": {
-    "MX": ["smtp.google.com"]
+    "MX": [
+      "smtp.google.com"
+    ]
   }
 }

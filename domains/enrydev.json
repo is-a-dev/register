@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "enry-dev",
-        "email": "penricoscuola@gmail.com"
-    },
-    "records": {
-        "CNAME": "enry-dev.github.io"
-    }
+  "owner": {
+    "username": "enry-dev",
+    "email": "penricoscuola@gmail.com"
+  },
+  "records": {
+    "CNAME": "enry-dev.github.io"
+  }
 }

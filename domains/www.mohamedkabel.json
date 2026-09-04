@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "xmkabel",
-        "discord": "xmkabel"
-    },
-    "records": {
-        "CNAME": "website.netlify.app"
-    }
+  "owner": {
+    "username": "xmkabel",
+    "discord": "xmkabel"
+  },
+  "records": {
+    "CNAME": "website.netlify.app"
+  }
 }

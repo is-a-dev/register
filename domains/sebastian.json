@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "SebastianLang-GER"
+  },
+  "records": {
+    "URL": "https://sebastianlang.net"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/SebastianLang-GER"
+    },
+    "redirect_paths": true
+  }
+}

@@ -4,6 +4,8 @@
     "email": "supratimrk@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=supratim.is-a.dev,ece59905c9937731c029"]
+    "TXT": [
+      "vc-domain-verify=supratim.is-a.dev,ece59905c9937731c029"
+    ]
   }
 }

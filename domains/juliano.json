@@ -4,7 +4,10 @@
     "email": "me@jusfrei.dev"
   },
   "records": {
-    "MX": ["in1-smtp.messagingengine.com", "in2-smtp.messagingengine.com"],
+    "MX": [
+      "in1-smtp.messagingengine.com",
+      "in2-smtp.messagingengine.com"
+    ],
     "TXT": "v=spf1 include:spf.messagingengine.com ?all"
   }
 }
