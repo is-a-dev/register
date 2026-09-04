@@ -11,11 +11,11 @@
     "MX": [
       {
         "priority": 10,
-        "value": "mx1.forwardemail.net"
+        "target": "mx1.forwardemail.net"
       },
       {
         "priority": 10,
-        "value": "mx2.forwardemail.net"
+        "target": "mx2.forwardemail.net"
       }
     ],
     "TXT": [
