@@ -1,9 +1,10 @@
 {
+  "description": "Portfolio website for Muhammad Safwan",
   "owner": {
     "username": "Msafwn",
     "email": "safwanamjad782@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
