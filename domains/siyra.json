@@ -4,7 +4,9 @@
     "email": "siyra@proton.me"
   },
   "records": {
-    "A": "89.106.200.1"
+    "A": [ 
+      "89.106.200.1"
+    ]
   },
   "proxied": true
 }
