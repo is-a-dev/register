@@ -4,6 +4,9 @@
         "email": "ryyventura@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=rayane-ventura.is-a.dev,908e49c3a7264ede13ca"
+        "TXT": [
+            "vc-domain-verify=rayane-ventura.is-a.dev,7cfcf87a656435866882",
+            "vc-domain-verify=www.rayane-ventura.is-a.dev,eda99bb1c1911b6a246a"
+        ]
     }
 }
