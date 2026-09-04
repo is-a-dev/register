@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "aiden8teen",
+    "email": "jhinpogshop@gmail.com"
+  },
+  "record": {
+    "CNAME": "aiden8teen.github.io",
+    "MX": [
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 10
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 20
+      }
+    ],
+    "TXT": "forward-email=jhinpogshop@gmail.com"
+  }
+}
