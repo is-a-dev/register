@@ -1,0 +1,11 @@
+{
+  "description": "Cloudflare custom hostname verification for OpenAI Sites",
+  "owner": {
+    "username": "K-im-jinwoo"
+  },
+  "records": {
+    "TXT": [
+      "e53ea30b-e61c-411d-8614-a192de8628c9"
+    ]
+  }
+}

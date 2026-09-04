@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "bertdk",
-        "email": "bertdk10@gmail.com"
-    },
-    "records": {
-        "CNAME": "jolly-visvesvaraya-59374b.netlify.app"
-    }
+  "owner": {
+    "username": "bertdk",
+    "email": "bertdk10@gmail.com"
+  },
+  "records": {
+    "CNAME": "jolly-visvesvaraya-59374b.netlify.app"
+  }
 }
