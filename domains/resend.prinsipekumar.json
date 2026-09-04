@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "prinsipekumar",
+    "email": "prinsipekumar@gmail.com"
+  },
+  "records": {
+    "TXT": {
+      "_dmarc": "v=DMARC1; p=none;",
+      "resend._domainkey": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCJD5An5+LZxMN3fNG0/UOosv84GRe4eNoNjHo7fKK95I2QkxxnERSx5UZuXEq81Zy3WaBBmjduXZEmjSoS4d5AaiPly2D0cUdI5ijzIWghsK2y7Tmy9al+nKFj0M1EkUvirKzFjonygmPnMso7XKV/TAgHhmbhvPeWXs+VoKsSwIDAQAB"
+    },
+    "CNAME": {
+      "rsend": "rsend-apne1.forge.rmta.net",
+      "send": "send.forge.rmta.net"
+    }
+  }
+}
