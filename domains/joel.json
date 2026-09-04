@@ -3,6 +3,7 @@
         "username": "joelOfTheSharingan",
         "email": "joelmichaelgeorge@gmail.com"
     },
+    "proxied": true,
     "records": {
         "CNAME": "joelofthesharingan.github.io",
         "TXT": [
