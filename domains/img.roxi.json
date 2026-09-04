@@ -4,7 +4,6 @@
     "email": "aetheron.inc@proton.me"
   },
   "records": {
-    "CNAME": "roxi-dev.duckdns.org"
-  },
-  "proxied": true
+    "CNAME": "rkrj.duckdns.org"
+  }
 }
