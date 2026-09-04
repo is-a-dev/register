@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "Pranav-N-25",
+    "email": "npranavnpranav@gmail.com"
+  },
+  "record": {
+    "CNAME": "://vercel-dns.com"
+  },
+  "subdomains": {
+    "www": {
+      "CNAME": "cb630903f7b71ffc.vercel-dns-017.com."
+    },
+    "_vercel.www": {
+      "TXT": "vc-domain-verify=www.taskflow.is-a.dev,088b9d78a7a0d44f124d"
+    }
+  }
+}
