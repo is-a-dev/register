@@ -4,10 +4,8 @@
     "email": "kulkarniijayesh@gmail.com"
   },
   "records": {
-    "NS": [
-      "://digitalocean.com.",
-      "://digitalocean.com.",
-      "://digitalocean.com."
+    "A": [
+      "168.144.92.193"
     ]
   }
 }
