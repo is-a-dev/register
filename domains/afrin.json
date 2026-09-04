@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "aftab1337"
+    "username": "aftab1337",
     "email": "aftabshaikh1377@proton.me"
   },
   "records": {
-    "A": ["18.61.208.45"]
+    "A": [
+      "18.61.208.45"
+    ]
   }
 }
