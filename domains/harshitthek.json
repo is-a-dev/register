@@ -7,6 +7,19 @@
   "records": {
     "A": [
       "161.118.171.84"
+    ],
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mx1.forwardemail.net"
+      },
+      {
+        "priority": 10,
+        "target": "mx2.forwardemail.net"
+      }
+    ],
+    "TXT": [
+      "forward-email=erharshit50@gmail.com"
     ]
   },
   "redirect_config": {
