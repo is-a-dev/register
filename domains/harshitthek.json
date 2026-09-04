@@ -3,9 +3,16 @@
     "username": "harshitthek",
     "email": "erharshit50@gmail.com"
   },
+  "proxied": true,
   "records": {
     "A": [
       "161.118.171.84"
     ]
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/harshitthek",
+      "/portfolio": "https://harshitthek.github.io/harshitfolio/"
+    }
   }
 }
