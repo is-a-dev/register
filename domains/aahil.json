@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "aahil-khan",
-        "email": "aahilkhanbly123@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "aahil-khan",
+    "email": "aahilkhanbly123@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

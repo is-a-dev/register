@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "21-01",
-        "email": "nandana.ammar@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=2101.is-a.dev,6bd39985bc5f50ac937b"
-    }
+  "owner": {
+    "username": "21-01",
+    "email": "nandana.ammar@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=2101.is-a.dev,6bd39985bc5f50ac937b"
+  }
 }

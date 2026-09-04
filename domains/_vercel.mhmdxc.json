@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "coder-red",
-        "email": "mohammed.ds.ml01@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=mhmdxc.is-a.dev,4f4f92686e4ee7e3c857"
-    }
+  "owner": {
+    "username": "coder-red",
+    "email": "mohammed.ds.ml01@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mhmdxc.is-a.dev,4f4f92686e4ee7e3c857"
+  }
 }

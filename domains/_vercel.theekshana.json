@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "theeekshana"
+    "username": "theeekshana",
+    "email": "theekshana.beatz@gmail.com"
   },
   "records": {
-    "TXT": [
-      "vc-domain-verify=www.theekshana.is-a.dev,52e24f20ca4eeae57b1a"
-    ]
+    "TXT": "vc-domain-verify=theekshana.is-a.dev,1a501502788f9b629233"
   }
 }
