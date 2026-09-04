@@ -9,7 +9,7 @@
         "priority": 1,
         "weight": 1,
         "port": 50304,
-        "target": "mcsrv.vulcanocraft.com"
+        "target": "mcsrv.vulcanocraft.is-a.dev"
       }
     ]
   }
