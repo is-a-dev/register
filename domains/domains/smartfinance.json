@@ -3,7 +3,7 @@
   "owner": {
     "username": "prxsannx"
   },
-  "record": {
-    "CNAME": "smart-expense-tracker-frontend-kappa.vercel.app"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }
