@@ -1,0 +1,9 @@
+{
+  "description": "Smart Finance - Personal Expense Tracker",
+  "owner": {
+    "username": "prxsannx"
+  },
+  "record": {
+    "CNAME": "smart-expense-tracker-frontend-kappa.vercel.app"
+  }
+}
