@@ -1,0 +1,11 @@
+{
+  "description": "OpenAI Sites domain ownership verification",
+  "owner": {
+    "username": "K-im-jinwoo"
+  },
+  "records": {
+    "TXT": [
+      "openai-site-verification=aVf94wGifShRd64W7i3mg52Kqg0fM2ZX6l8JE4-g3V8"
+    ]
+  }
+}
