@@ -1,9 +1,14 @@
 {
-    "owner": {
-        "username": "prinsipekumar",
-        "email": "prinsipekumar@gmail.com"
-    },
-    "records": {
+  "owner": {
+    "username": "prinsipekumar",
+    "email": "prinsipekumar@gmail.com"
+  },
+  "record": {
+    "A": ["216.198.79.1"],
+    "subdomains": {
+      "contact": {
         "A": ["216.198.79.1"]
+      }
     }
+  }
 }
