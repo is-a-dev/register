@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Pranav-N-25",
+    "email": "npranavnpranav@gmail.com"
+  },
+  "description": "TaskFlow app",
+  "record": {
+    "CNAME": "://vercel-dns.com"
+  },
+  "proxy": false
+}
