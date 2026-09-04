@@ -4,6 +4,9 @@
         "email": "joelmichaelgeorge@gmail.com"
     },
     "records": {
-        "CNAME": "joelofthesharingan.github.io"
+        "CNAME": "joelofthesharingan.github.io",
+        "TXT": [
+            "_github-pages-challenge-joelOfTheSharingan=508ca4300eead004ffe330ff24316a"
+        ]
     }
 }
