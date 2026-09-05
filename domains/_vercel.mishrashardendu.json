@@ -6,7 +6,11 @@
   "records": {
     "TXT": [
       "vc-domain-verify=mishrashardendu.is-a.dev,2dfb7d6fab9b43f10032",
-      "vc-domain-verify=www.mishrashardendu.is-a.dev,d997ffc5e6fe3a4c1293"
+      "vc-domain-verify=www.mishrashardendu.is-a.dev,d997ffc5e6fe3a4c1293",
+      "vc-domain-verify=repo-transfer.mishrashardendu.is-a.dev,06508645ed27bfcfdc32",
+      "vc-domain-verify=www.repo-transfer.mishrashardendu.is-a.dev,aeeced3c50febac8dc69",
+      "vc-domain-verify=gws.mishrashardendu.is-a.dev,cf073c72090f51fe2abb",
+      "vc-domain-verify=www.gws.mishrashardendu.is-a.dev,7ac2bcf57641eb873a33"
     ]
   }
 }

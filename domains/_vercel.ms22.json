@@ -6,7 +6,11 @@
   "records": {
     "TXT": [
       "vc-domain-verify=ms22.is-a.dev,291ac5d0c7a3c7b27dbb",
-      "vc-domain-verify=www.ms22.is-a.dev,7953b1fea14be6f1da66"
+      "vc-domain-verify=www.ms22.is-a.dev,7953b1fea14be6f1da66",
+      "vc-domain-verify=repo-transfer.ms22.is-a.dev,09e8bf497016a1370c02",
+      "vc-domain-verify=www.repo-transfer.ms22.is-a.dev,a123e520e394f4903358",
+      "vc-domain-verify=gws.ms22.is-a.dev,c24e4e284528017f5a37",
+      "vc-domain-verify=www.gws.ms22.is-a.dev,9ee4e8327d3dc0ba0c1a"
     ]
   }
 }

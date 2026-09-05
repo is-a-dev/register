@@ -6,7 +6,11 @@
   "records": {
     "TXT": [
       "vc-domain-verify=shardendumishra.is-a.dev,c735da2d0276d772d62c",
-      "vc-domain-verify=www.shardendumishra.is-a.dev,4f388a837ebb35efc2c9"
+      "vc-domain-verify=www.shardendumishra.is-a.dev,4f388a837ebb35efc2c9",
+      "vc-domain-verify=repo-transfer.shardendumishra.is-a.dev,7bc884230194c4f0408c",
+      "vc-domain-verify=www.repo-transfer.shardendumishra.is-a.dev,bde0aa41e456cf858032",
+      "vc-domain-verify=gws.shardendumishra.is-a.dev,1ee26c90aac53548074d",
+      "vc-domain-verify=www.gws.shardendumishra.is-a.dev,a406d724167fadb94290"
     ]
   }
 }
