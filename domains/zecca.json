@@ -4,6 +4,7 @@
     "email": "zeccadeveloper@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=zecca.is-a.dev,d9538af807e74a5b3e38"
   }
 }
