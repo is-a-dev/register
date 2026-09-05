@@ -2,8 +2,8 @@
   "owner": {
     "username": "andrewmkbuilds",
     "email": "myidandy17@gmail.com"
-  },
-  "records": {
-    "CNAME": "andrewmk.pages.dev"
-  }
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
