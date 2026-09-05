@@ -6,7 +6,11 @@
   "records": {
     "TXT": [
       "vc-domain-verify=shardendu.is-a.dev,61a8bee8bdf5ceb3716d",
-      "vc-domain-verify=www.shardendu.is-a.dev,a0d8fe868190e3b41e20"
+      "vc-domain-verify=www.shardendu.is-a.dev,a0d8fe868190e3b41e20",
+      "vc-domain-verify=repo-transfer.shardendu.is-a.dev,059eb7e885e2d8aa0091",
+      "vc-domain-verify=www.repo-transfer.shardendu.is-a.dev,963349358bd0e0f62f7f",
+      "vc-domain-verify=gws.shardendu.is-a.dev,0030b60e43a5adb2d20f",
+      "vc-domain-verify=www.gws.shardendu.is-a.dev,3f2435313654be42e088"
     ]
   }
 }

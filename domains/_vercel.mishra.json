@@ -6,7 +6,11 @@
   "records": {
     "TXT": [
       "vc-domain-verify=mishra.is-a.dev,73509725316648cd546c",
-      "vc-domain-verify=www.mishra.is-a.dev,c871ecc15edbf41a7da4"
+      "vc-domain-verify=www.mishra.is-a.dev,c871ecc15edbf41a7da4",
+      "vc-domain-verify=repo-transfer.mishra.is-a.dev,38d1dbfdbc11975f80e6",
+      "vc-domain-verify=www.repo-transfer.mishra.is-a.dev,004fdf6c902241bcfb9d",
+      "vc-domain-verify=gws.mishra.is-a.dev,ba39310f1af79b6e9493",
+      "vc-domain-verify=www.gws.mishra.is-a.dev,7fc3049fd707f469f99d"
     ]
   }
 }
