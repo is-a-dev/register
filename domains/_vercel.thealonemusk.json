@@ -5,6 +5,9 @@
     "twitter": "thealonemusk"
   },
   "records": {
-    "TXT": "vc-domain-verify=thealonemusk.is-a.dev,5d1f590a3497d16d158b"
+    "TXT": [
+      "vc-domain-verify=thealonemusk.is-a.dev,5d1f590a3497d16d158b",
+      "vc-domain-verify=www.thealonemusk.is-a.dev,d0dce6cb0af61c8e39af"
+    ]
   }
 }
