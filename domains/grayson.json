@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "wenoptics",
-        "email": "wenoptics@gmail.com"
-    },
-    "records": {
-        "CNAME": "me.wenop.app"
-    }
+  "owner": {
+    "username": "wenoptics",
+    "email": "wenoptics@gmail.com"
+  },
+  "records": {
+    "CNAME": "me.wenop.app"
+  }
 }

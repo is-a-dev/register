@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "pvrosendo",
-        "email": "paulovitor.rsd@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=pvrosendo.is-a.dev,758d7b27e2bba728dd89"
-    }
+  "owner": {
+    "username": "pvrosendo",
+    "email": "paulovitor.rsd@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=pvrosendo.is-a.dev,758d7b27e2bba728dd89",
+      "vc-domain-verify=blog.pvrosendo.is-a.dev,9ce3c341dcd4bb096bf4"
+    ]
+  }
 }

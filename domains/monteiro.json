@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "edumonteiro-dev",
-        "email": "edumonteiro.dev@gmail.com"
-    },
-    "records": {
-        "CNAME": "edumonteiro-dev.github.io"
-    }
+  "owner": {
+    "username": "edumonteiro-dev",
+    "email": "edumonteiro.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "edumonteiro-dev.github.io"
+  }
 }

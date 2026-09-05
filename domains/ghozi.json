@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "m-ghozi"
-    },
-    "records": {
-        "CNAME": "m-ghozi.github.io"
-    }
+  "owner": {
+    "username": "m-ghozi"
+  },
+  "records": {
+    "CNAME": "m-ghozi.github.io"
+  }
 }

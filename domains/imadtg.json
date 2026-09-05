@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "imadtg",
-        "email": "i.haidi@outlook.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "imadtg",
+    "email": "i.haidi@outlook.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

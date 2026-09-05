@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "AlexBartles"
-    },
-    "records": {
-        "CNAME": "alexbartles.github.io"
-    }
+  "owner": {
+    "username": "AlexBartles"
+  },
+  "records": {
+    "CNAME": "alexbartles.github.io"
+  }
 }

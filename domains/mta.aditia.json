@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "aditia-dev"
-    },
-    "records": {
-        "CNAME": "mailersend.net"
-    }
+  "owner": {
+    "username": "aditia-dev"
+  },
+  "records": {
+    "CNAME": "mailersend.net"
+  }
 }

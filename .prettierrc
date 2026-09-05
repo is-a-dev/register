@@ -6,7 +6,7 @@
       "options": {
         "parser": "json",
         "printWidth": 1,
-        "tabWidth": 4
+        "tabWidth": 2
       }
     }
   ]

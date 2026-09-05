@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "jamesshadowdragon"
-    },
-    "records": {
-        "CNAME": "voidlurer.vercel.app"
-    }
+  "owner": {
+    "username": "jamesshadowdragon"
+  },
+  "records": {
+    "CNAME": "voidlurer.vercel.app"
+  }
 }

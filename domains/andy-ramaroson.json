@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AndyFaniry",
-        "email": "ramarosonandyfaniry@gmail.com"
-    },
-    "records": {
-        "CNAME": "andy-ramaroson.pages.dev"
-    }
+  "owner": {
+    "username": "AndyFaniry",
+    "email": "ramarosonandyfaniry@gmail.com"
+  },
+  "records": {
+    "CNAME": "andy-ramaroson.pages.dev"
+  }
 }

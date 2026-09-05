@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "tocendence-source"
-    },
-    "records": {
-        "CNAME": "tocendence-source.github.io"
-    }
+  "owner": {
+    "username": "tocendence-source"
+  },
+  "records": {
+    "CNAME": "tocendence-source.github.io"
+  }
 }

@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "yishuiyizhong",
-        "email": "sife@sife.is-a.dev"
-    },
-    "records": {
-        "CNAME": "yishuiyizhong.github.io"
-    }
+  "owner": {
+    "username": "yishuiyizhong"
+  },
+  "records": {
+    "CNAME": "yishuiyizhong.github.io"
+  }
 }

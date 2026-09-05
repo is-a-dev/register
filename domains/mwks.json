@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "meowkis",
-        "discord": "femmeowkis"
-    },
-    "records": {
-        "CNAME": "meowkis.github.io"
-    }
+  "owner": {
+    "username": "meowkis",
+    "discord": "femmeowkis"
+  },
+  "records": {
+    "CNAME": "meowkis.github.io"
+  }
 }

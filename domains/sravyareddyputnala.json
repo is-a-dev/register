@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "Sravyaareddy",
+  "owner": {
+    "username": "Sravyaareddy",
 
-        "email": "sravyareddyputnala@gmail.com"
-    },
+    "email": "sravyareddyputnala@gmail.com"
+  },
 
-    "records": {
-        "CNAME": "sravyaareddy.github.io"
-    }
+  "records": {
+    "CNAME": "sravyaareddy.github.io"
+  }
 }

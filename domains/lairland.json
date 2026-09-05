@@ -1,11 +1,20 @@
 {
-    "owner": {
-        "username": "ajhalili2006",
-        "discord": "437044173825114113",
-        "fediverse": "@ajhalili2006@tilde.zone",
-        "bsky": "did:plc:wcx4c3osbuzrwmxkqdfqygwv"
-    },
-    "records": {
-        "CNAME": "zensical-preview-ajhalili2006.pages.dev"
-    }
+  "owner": {
+    "username": "ajhalili2006",
+    "discord": "437044173825114113",
+    "fediverse": "@ajhalili2006@tilde.zone",
+    "bsky": "did:plc:wcx4c3osbuzrwmxkqdfqygwv"
+  },
+  "records": {
+    "NS": [
+      "ns1.desec.io",
+      "ns2.desec.org"
+    ],
+    "DS": [{
+      "key_tag": 43652,
+      "algorithm": 13,
+      "digest_type": 2,
+      "digest": "46b60944cc99dc0d085c9113699366e389a10faf9eff37203155225b54b503cf"
+    }]
+  }
 }

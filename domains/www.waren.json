@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "William-nyarash",
-        "email": "waleuser@gmail.com"
-    },
-    "records": {
-        "CNAME": "warenonline.netlify.app"
-    }
+  "owner": {
+    "username": "William-nyarash",
+    "email": "waleuser@gmail.com"
+  },
+  "records": {
+    "CNAME": "warenonline.netlify.app"
+  }
 }

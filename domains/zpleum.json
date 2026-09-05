@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "zpleum",
-        "email": "wiraphat.makwong@gmail.com"
-    },
-    "records": {
-        "CNAME": "zpleum.vercel.app"
-    }
+  "owner": {
+    "username": "zpleum",
+    "email": "wiraphat.makwong@gmail.com"
+  },
+  "records": {
+    "CNAME": "zpleum.vercel.app"
+  }
 }
