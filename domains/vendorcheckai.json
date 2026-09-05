@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Israth29",
+    "email": "israthjahanworthy29@gmail.com"
+  },
+  "records": {
+    "MX": [
+      { "target": "inbound-smtp.ap-northeast-1.amazonaws.com", "priority": 10 }
+    ]
+  }
+}
