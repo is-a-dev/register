@@ -1,0 +1,11 @@
+{
+  "description": "Vercel domain ownership verification for sriraj.is-a.dev",
+  "repo": "https://github.com/Sriraj12/next_portfolio",
+  "owner": {
+    "username": "Sriraj12",
+    "email": "srirajappu22@gmail.com"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=sriraj.is-a.dev,f07d0ea5600f18ecd643"
+  }
+}
