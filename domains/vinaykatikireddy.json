@@ -1,9 +1,24 @@
 {
-    "owner": {
-        "username": "vinaykatikireddy",
-        "email": "vinaykatikireddy@hotmail.com"
-    },
-    "records": {
-        "CNAME": "vinaykatikireddy.github.io"
-    }
+  "owner": {
+    "username": "vinaykatikireddy",
+    "email": "vinaykatikireddy@hotmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": ["v=spf1 include:zoho.in include:zoho.com ~all"],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ]
+  }
 }

@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Gurukrishnaa",
-        "email": "gurukrishnaa.k@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "Gurukrishnaa",
+    "email": "gurukrishnaa.k@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "owhenrique",
-        "email": "me.pauloalmeida@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "owhenrique",
+    "email": "me.pauloalmeida@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

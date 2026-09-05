@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "tahayparker"
-    },
-    "records": {
-        "CNAME": "tahayparker.vercel.app"
-    }
+  "owner": {
+    "username": "tahayparker"
+  },
+  "records": {
+    "CNAME": "tahayparker.vercel.app"
+  }
 }

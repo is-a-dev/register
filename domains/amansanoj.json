@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AmanSanoj",
-        "email": "aman@falak.me"
-    },
-    "records": {
-        "CNAME": "amansanoj.github.io"
-    }
+  "owner": {
+    "username": "AmanSanoj",
+    "email": "aman@falak.me"
+  },
+  "records": {
+    "CNAME": "amansanoj.github.io"
+  }
 }
