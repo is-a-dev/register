@@ -1,10 +1,10 @@
 {
   "owner": {
     "username": "firstaxel",
-    "email": "olasubomiolubisi@geeg.space",
+    "email": "codeheart@unmoveabletech.com",
     "discord": "1209136236607049758"
   },
   "records": {
-    "CNAME": "twinkle-portfolio-wine.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }

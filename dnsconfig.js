@@ -158,7 +158,8 @@ var ignored = [
     IGNORE("_gh-is-a-dev-o.**", "TXT"),
     IGNORE("_github-pages-challenge-is-a-dev", "TXT"),
     IGNORE("_github-pages-challenge-is-a-dev.**", "TXT"),
-    IGNORE("_psl", "TXT")
+    IGNORE("_psl", "TXT"),
+    IGNORE("cf-bounce", "MX,TXT")
 ];
 
 var internal = require("./util/internal.json");
