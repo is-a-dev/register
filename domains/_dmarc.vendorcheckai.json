@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Israth29",
+    "email": "israthjahanworthy29@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
