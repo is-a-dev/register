@@ -1,0 +1,11 @@
+{
+  "description": "My photo journal",
+  "repo": "https://github.com/KishanKumar-in/photo-journal",
+  "owner": {
+    "username": "KishanKumar-in",
+    "email": "kishan.kumar.in@outlook.com"
+  },
+  "record": {
+    "CNAME": "photo-journal-c5a.pages.dev"
+  }
+}
