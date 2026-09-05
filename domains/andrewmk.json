@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "andrewmkbuilds",
-        "email": "myidandy17@gmail.com"
+        "email": "[myidandy17@gmail.com]"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "CNAME": "andrewmk.pages.dev"
     }
 }
