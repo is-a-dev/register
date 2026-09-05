@@ -7,7 +7,7 @@
   "records": {
     "CNAME": "portfolio-theta-orcin-29.vercel.app",
     "TXT": {
-      "_vercel": "vc-domain-verify=slimabdelkefi.is-a.dev,51b86bd8047b0a58a7bb"
+      "_vercel": ["vc-domain-verify=slimabdelkefi.is-a.dev,51b86bd8047b0a58a7bb"]
     }
   }
 }
