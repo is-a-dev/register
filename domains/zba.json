@@ -1,0 +1,11 @@
+{
+  "description": "Personal portfolio website",
+  "repo": "https://github.com/zainabBinteAzhar/portfolio",
+  "owner": {
+    "username": "zainabBinteAzhar",
+    "email": "zynabzba22@gmail.com"
+  },
+  "records": {
+    "CNAME": "zainabportfolio.vercel.app"
+  }
+}

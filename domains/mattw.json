@@ -1,0 +1,10 @@
+{
+  "description": "Matt is a Developer!",
+  "owner": {
+    "username": "tweak4141",
+    "email": "tweak@talosbot.xyz"
+  },
+  "records": {
+    "CNAME": "nginxpm.talosbot.xyz"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "cjolivier123",
+    "discord": "1175481072088268920"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKr1YCFtXzTufNgvRlYuDw72rzN8WBF+F8xNRtI5PwvfVyFEAS7saeRf6hqQ28hdqH8FFmJ9479UkP0023gyUyQcpRQnqu01InfoyPCIicCRv/WQBTKyb0YXMtrF3ANZHBDq0p2lcp/naUtPs2oQEuSI5Ih+SfsCs5HnCRTyV2DQIDAQABl"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description": "My website",
+  "owner": {
+    "username": "fatih5252",
+    "email": "blackberry055205@gmail.com"
+  },
+  "records": {
+    "CNAME": "fatih5252.github.io"
+  },
+  "proxied": true
+}

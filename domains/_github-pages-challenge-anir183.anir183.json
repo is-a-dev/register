@@ -1,0 +1,11 @@
+{
+  "description": "github domain verify",
+  "owner": {
+    "username": "anir183",
+    "email": "anirbanrc@proton.me",
+    "discord": "anir183"
+  },
+  "records": {
+    "TXT": "2b3ca14976993be1fdc4755cca182c"
+  }
+}

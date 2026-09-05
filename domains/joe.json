@@ -1,0 +1,10 @@
+{
+  "description": "Joe Banks",
+  "owner": {
+    "username": "jb3",
+    "email": "joseph@josephbanks.me"
+  },
+  "records": {
+    "CNAME": "jb3.github.io"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "vishalwork",
+    "email": "kvishalwork21@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "vishalwork.github.io",
+    "TXT": "google-site-verification=GPUhky8qKQs_AODr_KyhtDYadtSVBKrHAvp4DXLmilU"
+  }
+}

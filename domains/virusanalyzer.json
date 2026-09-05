@@ -1,0 +1,10 @@
+{
+  "description": "VirusAnalyzer official website",
+  "repo": "https://github.com/Th3Monarch/VirusAnalyzer",
+  "owner": {
+    "username": "Th3Monarch"
+  },
+  "records": {
+    "CNAME": "th3monarch.github.io"
+  }
+}
