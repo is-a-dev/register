@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "SA-Army",
+    "email": "anveshraman.ae@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcp719Um179LYF5D4pL5aIeyNOmIXEur0qjgZh6IhvmR4zyuYp3pWdlABrqfrGE4AMcAu0DFRNUvQIhR6kyx29P5ozZOstsx0fTKJm2fsKlFMgKub4LBNgRY4WXmrq2wT9IKrK8vjgN5/hKc8AhX0ibm+D+uPwT/65UkAZVXxrawIDAQAB"
+  },
+  "proxied": false
+}

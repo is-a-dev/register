@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "bteamapp",
+    "email": "helpapp.bta@gmail.com"
+  },
+  "proxied": false,
+  "records": {
+    "CNAME": "b2.bteamapp-is-a-dev.dkim.brevo.com"
+  }
+}

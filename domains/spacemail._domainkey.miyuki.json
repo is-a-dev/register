@@ -1,0 +1,11 @@
+{
+  "description": "Miyuki Yue's is-a.dev mail TXT record",
+  "owner": {
+    "username": "YueMiyuki",
+    "email": "me@miyuki-yue.dev"
+  },
+  "records": {
+    "TXT": "v=DKIM1;k=rsa;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzuhvV3D8tvFHxwfPAG+swAcCX/FbtJTMNwSOBJXqT1G3sGyZsxUJjEOIrTXdbfYecDdoWGd+7ypRK+aZ/fTHD4cpx7flXeQCQi9G1XjWQJUvZiQ04PhfKbiXXBwXzKwyq1QyHXQ5acUJPFmJ2TEeupT/F5NQuZ3U342KoZAuB0S1g3z/ItsAVPeR337oQJjO3c4soNhUSa7ET4s0NFrOBb+9TL9dJaSmfRjOxP6PcPx4CvwfgyhtYQddr+Wj8Gdkhrp2yh7OZE4Qb+7wQzDL5wTfsEvx22SeNar/8bCqPRIy0N5vmwtClcz3xObPoRQj1PkgS38y/9cqOFlp5OoB/QIDAQAB"
+  },
+  "proxied": false
+}

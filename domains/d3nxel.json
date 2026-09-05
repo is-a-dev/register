@@ -1,0 +1,10 @@
+{
+  "description": "My friends website",
+  "owner": {
+    "username": "ExpediteDC",
+    "email": "vien@courvix.com"
+  },
+  "records": {
+    "CNAME": "denzel.pages.dev"
+  }
+}
