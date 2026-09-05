@@ -1,13 +1,11 @@
 {
   "owner": {
-    "username": "ocean10230",
-    "email": "oceananimate@gmail.com"
+    "username": "MaseDev33"
   },
   "records": {
-    "A": [
-      "216.24.57.1"
-    ],
+    "CNAME": "masedev33.github.io",
     "TXT": [
+      "zoho-verification=zb60256438.zmverify.zoho.com",
       "v=spf1 include:zohomail.com ~all"
     ],
     "MX": [
@@ -24,5 +22,6 @@
         "priority": 50
       }
     ]
-  }
+  },
+  "proxied": true
 }
