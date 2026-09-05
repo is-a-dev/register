@@ -4,9 +4,6 @@
     "email": "amirtest191919@gmail.com"
   },
   "records": {
-    "NS": [
-      "julian.ns.cloudflare.com",
-      "teresa.ns.cloudflare.com"
-    ]
+    "CNAME": "uh-five-tau.vercel.app"
   }
 }
