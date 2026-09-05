@@ -4,6 +4,6 @@
     "email": "kynmmarshall@gmail.com"
   },
   "records": {
-    "CNAME": "my-portfolio-site-ten-eta.vercel.app"
-  }
+  "A": ["38.242.246.126"]
+}
 }
