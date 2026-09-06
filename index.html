@@ -1,121 +1,119 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Carpintaria e Pedreiro Vilmar Souza - Obra Forte em Francisco Beltrão</title>
-<meta name="description" content="Carpintaria e Pedreiro Vilmar Souza - Carpintaria geral, marcenaria madeira maciça, solda, construção casas fundação acabamentos, azulejista bancadas porcelanato nichos cuba esculpida, elétrica. Obra forte e bem feita em Francisco Beltrão.">
-<meta name="keywords" content="carpinteiro Francisco Beltrão, pedreiro Francisco Beltrão, Vilmar Souza, obra forte Beltrão">
-<meta name="geo.region" content="BR-PR"><meta name="geo.placename" content="Francisco Beltrão">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Carpintaria e Pedreiro Vilmar Souza","telephone":"+5546991281831","address":{"@type":"PostalAddress","addressLocality":"Francisco Beltrão","addressRegion":"PR"}}</script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DomUber 102.4 - Motoristas + GPS</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700;800&family=Inter:wght@400;700;900&display=swap');
-:root{--mogno:#3E1F12;--verniz:#8B4513;--mel:#D7A76F;--clara:#FFF9F1;--whats:#25D366}
-*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,sans-serif}
-body{background:var(--clara)}
-header{background:linear-gradient(180deg,#4E2A18 0%, #2D160C 100%);color:#F5E6D3;padding:14px 4%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:99;border-bottom:3px solid var(--mel)}
-.logo{font-family:Sora,sans-serif;font-weight:800;font-size:20px;display:flex;align-items:center;gap:10px}
-.logo-icon{width:46px;height:46px;background:linear-gradient(135deg,var(--mel),var(--verniz));border-radius:12px;display:grid;place-items:center;color:#fff}
-nav a{color:#F5E6D3;text-decoration:none;font-weight:800;font-size:11px;margin-left:14px;padding:8px 14px;border-radius:99px;opacity:.85}
-nav a.active{background:var(--mel);color:#2D160C;opacity:1}
-.hero{position:relative;min-height:580px;display:grid;grid-template-columns:1fr 1fr;background:#111;overflow:hidden}
-.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(45,22,12,.92) 0%, rgba(45,22,12,.7) 55%, rgba(0,0,0,.15) 100%)}
-.hero-content{position:relative;z-index:2;padding:50px 6%;display:flex;flex-direction:column;justify-content:center}
-.badge{background:rgba(215,167,111,.15);border:1px solid var(--mel);color:var(--mel);padding:7px 14px;border-radius:99px;font-size:10px;font-weight:900;letter-spacing:1.2px;display:inline-flex;margin-bottom:16px;width:fit-content}
-.hero h1{font-family:Sora,sans-serif;font-size:42px;line-height:.9;color:#fff;letter-spacing:-1.8px}
-.hero h1 b{color:var(--mel)}
-.btn{display:inline-flex;padding:14px 24px;border-radius:14px;font-weight:900;text-decoration:none;margin-top:16px;font-size:13px;width:fit-content}
-.btn-mel{background:linear-gradient(180deg,var(--mel),#C28A4A);color:#2D160C;box-shadow:0 8px 20px rgba(215,167,111,.4)}
-#servicos{background:#fff;padding:70px 4%;max-width:1240px;margin:0 auto}
-.h2{font-family:Sora,sans-serif;font-size:36px;color:var(--mogno);letter-spacing:-1.5px;line-height:.9}
-.h2 span{color:var(--verniz)}
-.servicos-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:26px}
-.servico-card{background:linear-gradient(180deg,#FFFEFB 0%, #FFF6E8 100%);border:1px solid #EADDCB;border-left:6px solid var(--verniz);border-radius:18px;padding:22px;display:flex;gap:14px;box-shadow:0 8px 25px rgba(62,31,18,.06)}
-.servico-num{width:48px;height:48px;min-width:48px;background:linear-gradient(135deg,var(--mogno),var(--verniz));border-radius:14px;display:grid;place-items:center;color:var(--mel);font-family:Sora,sans-serif;font-weight:800;font-size:18px}
-.servico-card h3{font-family:Sora,sans-serif;font-size:14px;color:var(--mogno);margin-bottom:6px}
-.servico-card p{font-size:12px;color:#6B5A45;line-height:1.5}
-.destaque-especial{grid-column:span 2;background:linear-gradient(105deg,#3E1F12 0%, #6D3B24 100%);color:#F5E6D3;border-left:6px solid var(--mel)}
-.destaque-especial h3{color:#fff}.destaque-especial p{color:#EADDCB}
-.lista{margin-top:10px;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
-.lista li{background:rgba(255,255,255,.12);border:1px solid rgba(215,167,111,.2);padding:5px 10px;border-radius:99px;font-size:10px}
-#amostras{background:linear-gradient(180deg,#FFF9F1 0%, #FFF3E0 100%);padding:70px 4%;border-top:1px solid #EADDCB}
-.amostras-wrap{max-width:1240px;margin:0 auto}
-.grid-amostras{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:28px}
-.foto-box{background:#fff;border:2px solid #EADDCB;border-radius:18px;aspect-ratio:4/3;overflow:hidden;position:relative;box-shadow:0 8px 20px rgba(62,31,18,.06)}
-.foto-box img{width:100%;height:100%;object-fit:cover;display:block;transition:.3s}
-.foto-box:hover img{transform:scale(1.05)}
-.foto-box:hover{border-color:var(--verniz);box-shadow:0 12px 30px rgba(139,69,19,.18)}
-.numero-foto{position:absolute;top:8px;left:8px;background:var(--mogno);color:var(--mel);width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:11px;z-index:2;box-shadow:0 2px 8px rgba(0,0,0,.3)}
-.floatWhats{position:fixed;bottom:22px;right:22px;width:64px;height:64px;background:var(--whats);border-radius:50%;display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.35);border:3px solid #fff;z-index:200;text-decoration:none}
-.floatWhats svg{width:32px;height:32px;fill:#fff}
-@media(max-width:1000px){.grid-amostras{grid-template-columns:repeat(2,1fr)}.servicos-grid{grid-template-columns:1fr}.destaque-especial{grid-column:span 1}.hero{grid-template-columns:1fr}.hero h1{font-size:32px}}
+*{font-family:'Outfit',sans-serif;box-sizing:border-box}
+body{margin:0;background:#05070a;color:#fff;min-height:100vh;padding-bottom:30px}
+.hero{height:26vh;background:linear-gradient(0deg,#05070a 0%, transparent 100%), linear-gradient(90deg, rgba(0,102,255,0.4), transparent), url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1000') center/cover;display:flex;align-items:end;padding:20px}
+.badge{background:rgba(43,123,255,0.2);border:1px solid #2b7bff;color:#6ea8ff;padding:6px 12px;border-radius:20px;font-size:11px}
+.hero h1{margin:8px 0 0;font-size:26px}.hero h1 span{color:#2b7bff}
+.card{background:rgba(20,25,35,0.95);margin:12px;border-radius:18px;padding:16px;border:1px solid rgba(43,123,255,0.2)}
+input,select{width:100%;background:#0f141e;border:1px solid #1e2a40;color:#fff;padding:13px;border-radius:12px;margin-top:8px;font-size:14px}
+.btn-primary{width:100%;background:linear-gradient(90deg,#0066FF,#00C2FF);color:#fff;border:none;padding:15px;border-radius:12px;font-weight:700;margin-top:10px;cursor:pointer}
+.btn-gps{width:100%;background:#1a2a45;border:1px solid #2b7bff;color:#6ea8ff;padding:12px;border-radius:12px;margin-top:8px;cursor:pointer;font-weight:700}
+.corrida{background:#0f141e;border-left:3px solid #0066FF;padding:10px;border-radius:10px;margin-top:8px;border:1px solid #1a2a45}
+.mapaGoogle{width:100%;height:300px;border-radius:12px;margin-top:8px;border:1px solid #1e2a40}
+.sugestoes{background:#0f141e;border-radius:10px;max-height:110px;overflow:auto}
+.sugestoes div{padding:9px;border-bottom:1px solid #1a2a45;cursor:pointer;font-size:12px}
+.sugestoes div:hover{background:#1a2a45}
+.small{color:#6b7d9a;font-size:11px}
+.box-cad{background:#1a2a45;padding:12px;border-radius:12px;margin-bottom:12px;border:1px dashed #2b7bff}
 </style>
 </head>
 <body>
-<header>
-<div class="logo"><div class="logo-icon">🪵</div> Vilmar Souza <span style="color:var(--mel)">• Carpintaria e Pedreiro</span></div>
-<nav>
-<a href="#inicio">INÍCIO</a>
-<a href="#servicos" class="active">SERVIÇOS</a>
-</nav>
-</header>
+<div class="hero"><div><div class="badge">DOM FM 87.5 • 102.4 MOTORISTAS OFICIAL</div><h1>DomUber <span>102.4</span></h1></div></div>
 
-<section class="hero" id="inicio">
-<img class="hero-img" src="foto-oficial.jpg" alt="Vilmar Souza">
-<div class="hero-overlay"></div>
-<div class="hero-content">
-<div class="badge">VILMAR SOUZA • FRANCISCO BELTRÃO</div>
-<h1>Carpintaria e<br>Pedreiro<br><b>Vilmar Souza</b></h1>
-<div style="margin-top:14px;display:inline-flex;background:linear-gradient(135deg,#3E1F12,#8B4513);border:2px solid #D7A76F;color:#D7A76F;padding:9px 18px;border-radius:99px;font-size:11px;font-weight:900;letter-spacing:1px;box-shadow:0 4px 15px rgba(0,0,0,.4);width:fit-content">💪 OBRA FORTE E BEM FEITA • REFERÊNCIA EM BELTRÃO</div>
-<p style="margin-top:14px;color:#EADDCB;max-width:460px;font-size:12.5px;line-height:1.6">Carpintaria, marcenaria madeira maciça, solda, construção casas do zero, azulejista premium e elétrica. Obra forte e bem feita.</p>
-<a class="btn btn-mel" href="https://wa.me/5546991281831?text=Ol%C3%A1%20Vilmar!%20Vi%20seu%20site" target="_blank">💬 Chamar no WhatsApp Oficial</a>
+<div class="card">
+<select id="tipo" onchange="trocar()">
+<option value="passageiro">🚶 PASSAGEIRO</option>
+<option value="motorista">🚗 MOTORISTA</option>
+<option value="admin">🔒 ADMIN DOM</option>
+</select>
 </div>
-</section>
 
-<section id="servicos">
-<h2 class="h2">Serviços que o <span>pai faz</span></h2>
-<div class="servicos-grid" style="margin-top:20px">
-<div class="servico-card"><div class="servico-num">1</div><div><h3>🪚 Serviços de carpintaria em geral</h3><p>Serviços de carpintaria em geral.</p></div></div>
-<div class="servico-card"><div class="servico-num">2</div><div><h3>🪵 Serviços de marcenaria em madeira maciça</h3><p>Serviços de marcenaria em madeira maciça.</p></div></div>
-<div class="servico-card"><div class="servico-num">3</div><div><h3>⚡ Alguns serviços de solda e serralheria</h3><p>Alguns serviços de solda e serralheria.</p></div></div>
-<div class="servico-card"><div class="servico-num">6</div><div><h3>💡 Serviços de elétrica residencial</h3><p>Serviços de elétrica residencial.</p></div></div>
-<div class="servico-card destaque-especial"><div class="servico-num" style="background:var(--mel);color:var(--mogno)">4</div><div><h3>🏗️ Especialidade em construção civil</h3><p><b>Especialidade em construção civil, construção de casas desde a fundação até os acabamentos. Também muros, pisos, contrapisos, calçadas, pintura, entre outros.</b></p><ul class="lista"><li>Fundação</li><li>Casas completas</li><li>Muros</li><li>Pisos</li><li>Calçadas</li></ul></div></div>
-<div class="servico-card destaque-especial" style="border-left-color:#FFD700"><div class="servico-num" style="background:#FFD700;color:var(--mogno)">5</div><div><h3>✨ Serviços de azulejista</h3><p><b>Serviços de azulejista, incluindo bancadas em porcelanato, nichos e cuba esculpida.</b></p><ul class="lista"><li>Bancadas porcelanato</li><li>Nichos</li><li>Cuba esculpida</li></ul></div></div>
+<div id="passageiro" class="card">
+<h3 style="margin:0">Para onde vamos?</h3>
+<input id="nome" placeholder="Seu nome">
+<input id="whats" placeholder="Seu WhatsApp">
+<input id="origem" placeholder="📍 Origem" oninput="buscar(this.value,'origem')">
+<div id="sugOrigem" class="sugestoes"></div>
+<button onclick="pegarMinhaLocalizacao()" class="btn-gps">📍 USAR MINHA LOCALIZAÇÃO ATUAL</button>
+<input id="destino" placeholder="🏁 Destino" oninput="buscar(this.value,'destino')" style="margin-top:12px">
+<div id="sugDestino" class="sugestoes"></div>
+<div class="small" style="margin-top:10px">Mapa Google Colorido:</div>
+<iframe id="mapaGoogle" class="mapaGoogle" src="https://maps.google.com/maps?q=Francisco%20Beltrão%20Paraná&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+<div id="infoRota" class="small" style="margin-top:10px;color:#6ea8ff;font-weight:700"></div>
+<input id="preco" type="number" placeholder="💰 Valor R$ - calcula R$2,00/km">
+<button class="btn-primary" onclick="solicitar()">SOLICITAR AGORA →</button>
+<div id="statusCorrida" class="small" style="margin-top:8px"></div>
 </div>
-</section>
 
-<section id="amostras">
-<div class="amostras-wrap">
-<div style="display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:16px">
-<div>
-<div style="background:var(--mogno);color:var(--mel);padding:6px 12px;border-radius:99px;font-size:10px;font-weight:900;letter-spacing:1px;display:inline-flex">📸 AMOSTRAS • 12 FOTOS REAIS</div>
-<h2 class="h2" style="margin-top:14px">Amostras de alguns<br><span>serviços feitos</span></h2>
+<div id="motorista" class="card" style="display:none">
+<div class="box-cad">
+<h4 style="margin:0 0 8px 0">📝 Cadastro Motorista DOM</h4>
+<input id="m_nome" placeholder="Seu nome completo">
+<input id="m_whats" placeholder="WhatsApp 46999999999">
+<input id="m_placa" placeholder="Placa ex: ABC1D23">
+<input id="m_carro" placeholder="Carro ex: Onix Preto 2020">
+<button class="btn-primary" onclick="cadastrarMotorista()">CADASTRAR COMO MOTORISTA</button>
+<div id="m_status" class="small" style="margin-top:6px"></div>
 </div>
+<h3>Corridas ao vivo</h3><div id="lista"></div>
+<div style="margin-top:20px"><h4>Motoristas Cadastrados</h4><div id="listaMotoristas"></div></div>
 </div>
-<div class="grid-amostras">
-<div class="foto-box"><div class="numero-foto">1</div><img src="logo1.jpg" alt="Serviço 1 Vilmar Souza" onerror="this.onerror=null;this.src='logo1.png'"></div>
-<div class="foto-box"><div class="numero-foto">2</div><img src="logo2.jpg" alt="Serviço 2 Vilmar Souza" onerror="this.onerror=null;this.src='logo2.png'"></div>
-<div class="foto-box"><div class="numero-foto">3</div><img src="logo3.jpg" alt="Serviço 3 Vilmar Souza" onerror="this.onerror=null;this.src='logo3.png'"></div>
-<div class="foto-box"><div class="numero-foto">4</div><img src="logo4.jpg" alt="Serviço 4 Vilmar Souza" onerror="this.onerror=null;this.src='logo4.png'"></div>
-<div class="foto-box"><div class="numero-foto">5</div><img src="logo5.jpg" alt="Serviço 5 Vilmar Souza" onerror="this.onerror=null;this.src='logo5.png'"></div>
-<div class="foto-box"><div class="numero-foto">6</div><img src="logo6.jpg" alt="Serviço 6 Vilmar Souza" onerror="this.onerror=null;this.src='logo6.png'"></div>
-<div class="foto-box"><div class="numero-foto">7</div><img src="logo7.jpg" alt="Serviço 7 Vilmar Souza" onerror="this.onerror=null;this.src='logo7.png'"></div>
-<div class="foto-box"><div class="numero-foto">8</div><img src="logo8.jpg" alt="Serviço 8 Vilmar Souza" onerror="this.onerror=null;this.src='logo8.png'"></div>
-<div class="foto-box"><div class="numero-foto">9</div><img src="logo9.jpg" alt="Serviço 9 Vilmar Souza" onerror="this.onerror=null;this.src='logo9.png'"></div>
-<div class="foto-box"><div class="numero-foto">10</div><img src="logo10.jpg" alt="Serviço 10 Vilmar Souza" onerror="this.onerror=null;this.src='logo10.png'"></div>
-<div class="foto-box"><div class="numero-foto">11</div><img src="logo11.jpg" alt="Serviço 11 Vilmar Souza" onerror="this.onerror=null;this.src='logo11.png'"></div>
-<div class="foto-box"><div class="numero-foto">12</div><img src="logo12.jpg" alt="Serviço 12 Vilmar Souza" onerror="this.onerror=null;this.src='logo12.png'"></div>
-</div>
-</div>
-</section>
 
-<section style="background:linear-gradient(105deg,#3E1F12 0%, #6D3B24 100%);color:#F5E6D3;padding:60px 4%;text-align:center">
-<h2 style="font-family:Sora,sans-serif;font-size:36px">Obra <span style="color:var(--mel)">forte e bem feita</span> em Beltrão</h2>
-<a href="https://wa.me/5546991281831?text=Ol%C3%A1%20Vilmar!%20Quero%20or%C3%A7amento" target="_blank" style="margin-top:24px;display:inline-flex;background:var(--mel);color:#2D160C;padding:20px 40px;border-radius:16px;text-decoration:none;font-weight:900;font-size:18px">💬 Chamar no WhatsApp Oficial</a>
-</div>
-</section>
+<div id="admin" class="card" style="display:none"><h3>ADMIN DOM</h3><input id="senhaAdmin" type="password" placeholder="Senha dom102"><button class="btn-primary" onclick="logarAdmin()">ENTRAR</button><div id="painelAdmin" style="display:none"><div id="listaAdmin" style="margin-top:10px"></div><div id="listaAdminMotoristas" style="margin-top:20px"></div></div></div>
 
-<a class="floatWhats" href="https://wa.me/5546991281831" target="_blank"><svg viewBox="0 0 24 24"><path d="M19.05 4.94A9.88 9.88 0 0 0 12.03 2C6.54 2 2.07 6.47 2.07 11.96c0 1.76.46 3.47 1.33 4.98L2 22l5.25-1.38a9.86 9.86 0 0 0 4.78 1.22h.01c5.49 0 9.96-4.47 9.96-9.96a9.83 9.83 0 0 0-2.95-6.94M12.04 20.15a8.14 8.14 0 0 1-4.15-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.16 8.16 0 0 1-1.26-4.34c0-4.5 3.66-8.16 8.16-8.16a8.11 8.11 0 0 1 5.76 2.39 8.11 8.11 0 0 1 2.39 5.76c0 4.5-3.66 8.16-8.15 8.16m4.47-6.11c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.02-.37.1-.49.1-.1.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.46-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2 0 1.18.86 2.32.98 2.48.12.16 1.69 2.58 4.1 3.62.57.25 1.02.4 1.37.51.58.18 1.1.16 1.52.1.46-.07 1.43-.58 1.63-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg></a>
-<div style="background:#1A0C06;color:#9C8266;padding:20px 4%;text-align:center;font-size:10px">© 2026 Carpintaria e Pedreiro Vilmar Souza • Obra forte e bem feita • Francisco Beltrão PR</div>
+<script>
+const SUPABASE_URL="https://iaquzqgonuozmsqargdk.supabase.co";
+const SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlhcXV6cWdvbnVvem1zcWFyZ2RrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg1MDkxMzksImV4cCI6MjEwNDA4NTEzOX0.6p7oaw9Eaw90nmagFiv5CWOx5FRM6TufDCwJEwwjYVc";
+const supabaseClient=supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
+let latO,lngO,latD,lngD;
+function trocar(){const t=document.getElementById('tipo').value;document.getElementById('passageiro').style.display=t==='passageiro'?'block':'none';document.getElementById('motorista').style.display=t==='motorista'?'block':'none';document.getElementById('admin').style.display=t==='admin'?'block':'none';if(t==='motorista'){carregarCorridas();carregarMotoristas();}}
+async function pegarMinhaLocalizacao(){
+  if(!navigator.geolocation) return alert('Sem GPS');
+  document.getElementById('infoRota').innerHTML = '📡 Pegando GPS...';
+  navigator.geolocation.getCurrentPosition(async (pos)=>{
+    latO = pos.coords.latitude; lngO = pos.coords.longitude;
+    try{const r = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latO}&lon=${lngO}`);const j = await r.json();document.getElementById('origem').value = j.display_name || `${latO.toFixed(5)}, ${lngO.toFixed(5)}`;}catch(e){document.getElementById('origem').value = `${latO.toFixed(5)}, ${lngO.toFixed(5)}`;}
+    document.getElementById('mapaGoogle').src = `https://maps.google.com/maps?q=${latO},${lngO}&z=17&output=embed`;
+    document.getElementById('infoRota').innerHTML = `✅ GPS OK!`; calcular();
+  }, (err)=>{ alert('Ative o GPS: ' + err.message); }, {enableHighAccuracy:true});
+}
+function atualizarMapa(){ let q = document.getElementById('destino').value || document.getElementById('origem').value || 'Francisco Beltrão'; document.getElementById('mapaGoogle').src = `https://maps.google.com/maps?q=${encodeURIComponent(q)}%20Francisco%20Beltrao&t=&z=15&ie=UTF8&iwloc=&output=embed`; }
+async function buscar(texto,tipo){if(texto.length<3)return; try{const r=await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(texto)}&limit=4&countrycodes=br&viewbox=-53.3,-25.6,-52.9,-25.9&bounded=1`); const dados=await r.json(); const div=document.getElementById(tipo==='origem'?'sugOrigem':'sugDestino'); div.innerHTML=dados.map(d=>`<div onclick="selecionar('${d.display_name.replace(/'/g,'')}','${d.lat}','${d.lon}','${tipo}')">${d.display_name.substring(0,70)}</div>`).join('');}catch(e){}}
+function selecionar(nome,lat,lon,tipo){ if(tipo==='origem'){document.getElementById('origem').value=nome; latO=parseFloat(lat); lngO=parseFloat(lon); document.getElementById('sugOrigem').innerHTML='';} else{document.getElementById('destino').value=nome; latD=parseFloat(lat); lngD=parseFloat(lon); document.getElementById('sugDestino').innerHTML='';} atualizarMapa(); calcular(); }
+function calcDist(la1,lo1,la2,lo2){const R=6371;const dLat=(la2-la1)*Math.PI/180;const dLon=(lo2-lo1)*Math.PI/180;const a=Math.sin(dLat/2)**2+Math.cos(la1*Math.PI/180)*Math.cos(la2*Math.PI/180)*Math.sin(dLon/2)**2;return R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a));}
+function calcular(){ if(!latO||!latD) return; const dist = calcDist(latO,lngO,latD,lngD); const precoSugerido = (5 + dist * 2.0).toFixed(2); document.getElementById('infoRota').innerHTML = `📏 ${dist.toFixed(1)} km • R$2,00/km • Total R$ ${precoSugerido}`; document.getElementById('preco').value = precoSugerido; }
+async function solicitar(){
+const passageiro_nome=document.getElementById('nome').value;
+const whatsapp=document.getElementById('whats').value;
+const origem=document.getElementById('origem').value;
+const destino=document.getElementById('destino').value;
+const preco=parseFloat(document.getElementById('preco').value)||0;
+if(!passageiro_nome||!origem||!destino) return alert('Preencha nome, origem e destino');
+const {error}=await supabaseClient.from('corridas').insert([{passageiro_nome,origem,destino,preco,status:'procurando',origem_lat:latO,origem_lng:lngO,destino_lat:latD,destino_lng:lngD,whatsapp}]);
+if(error) alert(error.message); else document.getElementById('statusCorrida').innerHTML='✅ Solicitado! Aguardando motorista DOM...';
+}
+async function carregarCorridas(){const{data}=await supabaseClient.from('corridas').select('*').eq('status','procurando').order('created_at',{ascending:false}); document.getElementById('lista').innerHTML=(data||[]).map(c=>`<div class="corrida"><b>${c.passageiro_nome}</b> • R$${c.preco}<br><small>${c.origem} → ${c.destino}</small><br><button class="btn-primary" style="padding:9px;margin-top:6px" onclick="aceitar('${c.id}')">ACEITAR CORRIDA</button> <a href="https://www.google.com/maps/dir/?api=1&destination=${c.origem_lat||''},${c.origem_lng||''}" target="_blank" style="color:#6ea8ff;font-size:12px;display:block;margin-top:6px">📍 Abrir GPS</a> <a href="https://wa.me/55${(c.whatsapp||'').replace(/\D/g,'')}" target="_blank" style="color:#25D366;font-size:12px;display:block;margin-top:4px">💬 WhatsApp</a></div>`).join('')||'Nenhuma corrida agora';}
+async function aceitar(id){const motorista_nome=prompt('Seu nome motorista:')||'Motorista DOM'; await supabaseClient.from('corridas').update({status:'aceita',motorista_nome}).eq('id',id); carregarCorridas();}
+async function cadastrarMotorista(){
+  const nome=document.getElementById('m_nome').value;
+  const whatsapp=document.getElementById('m_whats').value;
+  const placa=document.getElementById('m_placa').value;
+  const carro=document.getElementById('m_carro').value;
+  if(!nome||!whatsapp||!placa||!carro) return alert('Preencha nome, whats, placa e carro');
+  const {error}=await supabaseClient.from('motoristas').insert([{nome,whatsapp,placa,carro}]);
+  if(error) alert(error.message); else {document.getElementById('m_status').innerHTML='✅ Cadastrado! Bem-vindo ao DOM'; carregarMotoristas();}
+}
+async function carregarMotoristas(){const{data}=await supabaseClient.from('motoristas').select('*').order('created_at',{ascending:false}).limit(20); document.getElementById('listaMotoristas').innerHTML=(data||[]).map(m=>`<div class="corrida">🚗 ${m.nome} - ${m.carro} - ${m.placa} <br><small>${m.whatsapp}</small></div>`).join('')||'';}
+function logarAdmin(){if(document.getElementById('senhaAdmin').value!=='dom102')return alert('Senha dom102'); document.getElementById('painelAdmin').style.display='block'; carregarTodas();}
+async function carregarTodas(){const{data}=await supabaseClient.from('corridas').select('*').order('created_at',{ascending:false}).limit(50); document.getElementById('listaAdmin').innerHTML='<h4>Corridas</h4>'+(data||[]).map(c=>`<div class="corrida">${c.status.toUpperCase()} - ${c.passageiro_nome} (${c.motorista_nome||'-'})<br>${c.origem}→${c.destino} R$${c.preco}</div>`).join(''); const{data:motoristas}=await supabaseClient.from('motoristas').select('*').order('created_at',{ascending:false}); document.getElementById('listaAdminMotoristas').innerHTML='<h4>Motoristas</h4>'+(motoristas||[]).map(m=>`<div class="corrida">🚗 ${m.nome} | ${m.carro} | ${m.placa} | ${m.whatsapp} - ${m.status}</div>`).join('');}
+supabaseClient.channel('geral').on('postgres_changes',{event:'*',schema:'public',table:'corridas'},()=>{if(document.getElementById('tipo').value==='motorista')carregarCorridas();}).subscribe();
+</script>
 </body>
 </html>
