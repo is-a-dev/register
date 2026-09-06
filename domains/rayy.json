@@ -1,9 +1,14 @@
 {
+
   "owner": {
-    "username": "lucasdanielray"
+   "username": "deontic",
+    "email": "someofficialuse@gmail.com"
   },
-  "email": "xixofone555@gmail.com",
   "records": {
-    "CNAME": "portfolio-update-zeta-five.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
+    
   }
+
 }
