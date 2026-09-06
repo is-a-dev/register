@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "itsabrardev",
+    "email": "itsabrar.dev@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "rayden.ns.cloudflare.com",
+      "isla.ns.cloudflare.com"
+    ]
+  }
+}
