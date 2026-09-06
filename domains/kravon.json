@@ -1,0 +1,9 @@
+{
+  "description": "Kravon",
+  "owner": {
+    "username": "brotheymadeanedit-web"
+  },
+  "records": {
+    "CNAME": "YOUR_GITHUB_PAGES_DOMAIN"
+  }
+}
