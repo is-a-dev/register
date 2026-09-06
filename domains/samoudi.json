@@ -1,0 +1,12 @@
+{
+  "$schema": "https://is-a.dev/schema.json",
+  "owner": {
+    "username": "firassamoudi"
+  },
+  "records": {
+    "NS": [
+      "kehlani.ns.cloudflare.com",
+      "maciej.ns.cloudflare.com"
+    ]
+  }
+}
