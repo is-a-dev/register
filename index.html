@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DomUber 102.4 - Motoristas + GPS</title>
+<title>DomUber 102.5 - Seguro</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -25,7 +25,7 @@ input,select{width:100%;background:#0f141e;border:1px solid #1e2a40;color:#fff;p
 </style>
 </head>
 <body>
-<div class="hero"><div><div class="badge">DOM FM 87.5 • 102.4 MOTORISTAS OFICIAL</div><h1>DomUber <span>102.4</span></h1></div></div>
+<div class="hero"><div><div class="badge">DOM FM 87.5 • 102.5 OFICIAL SEGURO</div><h1>DomUber <span>102.5</span></h1></div></div>
 
 <div class="card">
 <select id="tipo" onchange="trocar()">
@@ -44,7 +44,7 @@ input,select{width:100%;background:#0f141e;border:1px solid #1e2a40;color:#fff;p
 <button onclick="pegarMinhaLocalizacao()" class="btn-gps">📍 USAR MINHA LOCALIZAÇÃO ATUAL</button>
 <input id="destino" placeholder="🏁 Destino" oninput="buscar(this.value,'destino')" style="margin-top:12px">
 <div id="sugDestino" class="sugestoes"></div>
-<div class="small" style="margin-top:10px">Mapa Google Colorido:</div>
+<div class="small" style="margin-top:10px">Mapa Google:</div>
 <iframe id="mapaGoogle" class="mapaGoogle" src="https://maps.google.com/maps?q=Francisco%20Beltrão%20Paraná&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
 <div id="infoRota" class="small" style="margin-top:10px;color:#6ea8ff;font-weight:700"></div>
 <input id="preco" type="number" placeholder="💰 Valor R$ - calcula R$2,00/km">
@@ -66,7 +66,12 @@ input,select{width:100%;background:#0f141e;border:1px solid #1e2a40;color:#fff;p
 <div style="margin-top:20px"><h4>Motoristas Cadastrados</h4><div id="listaMotoristas"></div></div>
 </div>
 
-<div id="admin" class="card" style="display:none"><h3>ADMIN DOM</h3><input id="senhaAdmin" type="password" placeholder="Senha dom102"><button class="btn-primary" onclick="logarAdmin()">ENTRAR</button><div id="painelAdmin" style="display:none"><div id="listaAdmin" style="margin-top:10px"></div><div id="listaAdminMotoristas" style="margin-top:20px"></div></div></div>
+<div id="admin" class="card" style="display:none">
+<h3>ADMIN DOM - Acesso Restrito</h3>
+<input id="senhaAdmin" type="password" placeholder="••••••••">
+<button class="btn-primary" onclick="logarAdmin()">ENTRAR</button>
+<div id="painelAdmin" style="display:none"><div id="listaAdmin" style="margin-top:10px"></div><div id="listaAdminMotoristas" style="margin-top:20px"></div></div>
+</div>
 
 <script>
 const SUPABASE_URL="https://iaquzqgonuozmsqargdk.supabase.co";
@@ -111,7 +116,10 @@ async function cadastrarMotorista(){
   if(error) alert(error.message); else {document.getElementById('m_status').innerHTML='✅ Cadastrado! Bem-vindo ao DOM'; carregarMotoristas();}
 }
 async function carregarMotoristas(){const{data}=await supabaseClient.from('motoristas').select('*').order('created_at',{ascending:false}).limit(20); document.getElementById('listaMotoristas').innerHTML=(data||[]).map(m=>`<div class="corrida">🚗 ${m.nome} - ${m.carro} - ${m.placa} <br><small>${m.whatsapp}</small></div>`).join('')||'';}
-function logarAdmin(){if(document.getElementById('senhaAdmin').value!=='dom102')return alert('Senha dom102'); document.getElementById('painelAdmin').style.display='block'; carregarTodas();}
+function logarAdmin(){
+  if(btoa(document.getElementById('senhaAdmin').value)!=='QERvbS4yMDI3'){return alert('Acesso negado');}
+  document.getElementById('painelAdmin').style.display='block'; carregarTodas();
+}
 async function carregarTodas(){const{data}=await supabaseClient.from('corridas').select('*').order('created_at',{ascending:false}).limit(50); document.getElementById('listaAdmin').innerHTML='<h4>Corridas</h4>'+(data||[]).map(c=>`<div class="corrida">${c.status.toUpperCase()} - ${c.passageiro_nome} (${c.motorista_nome||'-'})<br>${c.origem}→${c.destino} R$${c.preco}</div>`).join(''); const{data:motoristas}=await supabaseClient.from('motoristas').select('*').order('created_at',{ascending:false}); document.getElementById('listaAdminMotoristas').innerHTML='<h4>Motoristas</h4>'+(motoristas||[]).map(m=>`<div class="corrida">🚗 ${m.nome} | ${m.carro} | ${m.placa} | ${m.whatsapp} - ${m.status}</div>`).join('');}
 supabaseClient.channel('geral').on('postgres_changes',{event:'*',schema:'public',table:'corridas'},()=>{if(document.getElementById('tipo').value==='motorista')carregarCorridas();}).subscribe();
 </script>
