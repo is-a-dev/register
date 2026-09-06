@@ -2,14 +2,14 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DomUber 106.3 - Dom FM 87.5</title>
+<title>DomUber 106.4 - Dom FM 87.5</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
 *{font-family:'Outfit',sans-serif;box-sizing:border-box}
 body{margin:0;background:#05070a;color:#fff;min-height:100vh;padding-bottom:30px}
 :root{--cor:#0066FF;--cor2:#00C2FF;}
-.hero{height:30vh;background:linear-gradient(0deg,#05070a 15%,transparent),url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1000') center/cover;display:flex;align-items:end;padding:18px;border-bottom:2px solid var(--cor)}
+.hero{height:32vh;background:linear-gradient(0deg,#05070a 15%,transparent),url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1000') center/cover;display:flex;align-items:end;padding:18px;border-bottom:2px solid var(--cor)}
 .badge{background:rgba(0,0,0,0.7);border:1px solid var(--cor);padding:6px 12px;border-radius:20px;font-size:11px}
 .hero h1{margin:8px 0 0;font-size:28px;font-weight:900}.hero h1 span{color:var(--cor2)}
 .card{background:rgba(20,25,35,0.98);margin:12px;border-radius:18px;padding:16px;border:1px solid rgba(255,255,255,0.1)}
@@ -28,8 +28,8 @@ input,select{width:100%;background:#0f141e;border:1px solid #1e2a40;color:#fff;p
 </style>
 </head>
 <body>
-<div class="hero"><div><div class="badge">🔴 DOM FM 87.5 • BELTRÃO • 106.3</div><h1>DomUber <span>Beltrão</span></h1>
-<div class="radio-player"><button onclick="tocarRadio()" id="btnPlay" style="background:#fff;color:#000;border:none;border-radius:50%;width:44px;height:44px;font-weight:900;cursor:pointer">▶</button><div style="flex:1"><div style="font-size:13px;font-weight:900">RÁDIO AUTOMÁTICA DOM FM</div><div class="small" style="color:#fff" id="statusRadio">Carregando músicas...</div></div><audio id="audioRadio" preload="none"></audio></div>
+<div class="hero"><div><div class="badge">🔴 DOM FM 87.5 • BELTRÃO • 106.4 FIX</div><h1>DomUber <span>Beltrão</span></h1>
+<div class="radio-player"><button onclick="tocarRadio()" id="btnPlay" style="background:#fff;color:#000;border:none;border-radius:50%;width:44px;height:44px;font-weight:900;cursor:pointer">▶</button><div style="flex:1"><div style="font-size:13px;font-weight:900">RÁDIO AUTOMÁTICA DOM FM</div><div class="small" style="color:#fff" id="statusRadio">Procurando músicas...</div></div><audio id="audioRadio" preload="none"></audio></div>
 </div></div>
 
 <div class="card"><select id="tipo" onchange="trocar()"><option value="passageiro">🚶 PASSAGEIRO</option><option value="motorista">🚗 MOTORISTA</option><option value="admin">🔒 ADMIN</option></select></div>
@@ -41,7 +41,7 @@ input,select{width:100%;background:#0f141e;border:1px solid #1e2a40;color:#fff;p
 <button onclick="pegarMinhaLocalizacao()" class="btn-gps">📍 USAR MINHA LOCALIZAÇÃO</button>
 <input id="destino" placeholder="🏁 Destino" oninput="buscar(this.value,'destino')" style="margin-top:12px"><div id="sugDestino" class="sugestoes"></div>
 <iframe id="mapaGoogle" class="mapaGoogle" src="https://maps.google.com/maps?q=Francisco%20Beltrão&t=&z=14&output=embed"></iframe>
-<input id="preco" type="number" placeholder="💰 Valor R$ (pode deixar vazio)">
+<input id="preco" type="number" placeholder="💰 Valor R$ (opcional)">
 <button class="btn-primary" onclick="solicitar()">SOLICITAR AGORA →</button>
 <div id="statusCorrida"></div><div id="cardAceita" style="display:none"></div>
 </div>
@@ -49,14 +49,15 @@ input,select{width:100%;background:#0f141e;border:1px solid #1e2a40;color:#fff;p
 <div id="motorista" class="card" style="display:none"><h3>Corridas</h3><div id="lista"></div><button class="btn-gps" onclick="carregarCorridas()">🔄 ATUALIZAR</button></div>
 
 <div id="admin" class="card" style="display:none">
-<h3>ADMIN</h3><input id="senhaAdmin" type="password" placeholder="Senha"><button class="btn-primary" onclick="logarAdmin()">ENTRAR</button>
+<h3>ADMIN - DOM</h3><input id="senhaAdmin" type="password" placeholder="Senha"><button class="btn-primary" onclick="logarAdmin()">ENTRAR</button>
 <div id="painelAdmin" style="display:none;margin-top:14px">
 <div class="card" style="border:1px solid #0066FF;margin:0 0 12px 0;background:#0a1020">
-<h3 style="margin:0">📻 RÁDIO - BUCKET MUSICAS</h3>
-<div class="small" style="margin:6px 0">Bucket: MUSICAS (PUBLIC) - já configurado na sua foto ✅</div>
-<input type="file" id="arquivoRadio" accept=".mp3,audio/*"><button class="btn-primary" onclick="subirMusicaRadio()">📤 ENVIAR MP3</button>
+<h3 style="margin:0">📻 RÁDIO - UPLOAD DIRETO</h3>
+<div class="small" style="margin:6px 0">Bucket: musicas (minúsculo) - Sobe aqui que já vai pro ar</div>
+<input type="file" id="arquivoRadio" accept=".mp3,audio/mpeg,audio/*"><button class="btn-primary" onclick="subirMusicaRadio()">📤 ENVIAR MP3 PRO AR</button>
 <div id="statusUploadRadio" class="small" style="margin-top:8px"></div>
-<div id="listaMusicasAdmin" style="margin-top:10px;max-height:200px;overflow:auto;background:#05070a;border-radius:10px;padding:6px"></div>
+<div id="listaMusicasAdmin" style="margin-top:10px;max-height:250px;overflow:auto;background:#05070a;border-radius:10px;padding:6px"></div>
+<button class="btn-gps" onclick="carregarPlaylistRadio()">🔄 ATUALIZAR LISTA DO BUCKET</button>
 </div>
 <div id="listaAdmin"></div>
 </div>
@@ -67,68 +68,85 @@ const CONFIG = {
   SUPABASE_URL: "https://iaquzqgonuozmsqargdk.supabase.co",
   SUPABASE_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlhcXV6cWdvbnVvem1zcWFyZ2RrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg1MDkxMzksImV4cCI6MjEwNDA4NTEzOX0.6p7oaw9Eaw90nmagFiv5CWOx5FRM6TufDCwJEwwjYVc",
   BANDEIRADA: 5.00, PRECO_KM: 2.00, SENHA_ADMIN: "DOM2027",
-  BUCKET: "MUSICAS"
+  BUCKET: "musicas"
 };
 const supabaseClient=supabase.createClient(CONFIG.SUPABASE_URL,CONFIG.SUPABASE_KEY);
 let latO,lngO,latD,lngD, playlistRadio=[], indexRadio=0;
 
 function trocar(){const t=document.getElementById('tipo').value;document.getElementById('passageiro').style.display=t==='passageiro'?'block':'none';document.getElementById('motorista').style.display=t==='motorista'?'block':'none';document.getElementById('admin').style.display=t==='admin'?'block':'none';if(t==='motorista')carregarCorridas();}
-async function pegarMinhaLocalizacao(){if(!navigator.geolocation) return; navigator.geolocation.getCurrentPosition(async pos=>{latO=pos.coords.latitude;lngO=pos.coords.longitude;document.getElementById('origem').value=`${latO.toFixed(5)}, ${lngO.toFixed(5)}`;document.getElementById('mapaGoogle').src=`https://maps.google.com/maps?q=${latO},${lngO}&z=17&output=embed`;try{const r=await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latO}&lon=${lngO}`);const j=await r.json();document.getElementById('origem').value=j.display_name;}catch(e){}});}
+async function pegarMinhaLocalizacao(){navigator.geolocation.getCurrentPosition(async pos=>{latO=pos.coords.latitude;lngO=pos.coords.longitude;document.getElementById('origem').value=`${latO.toFixed(5)}, ${lngO.toFixed(5)}`;document.getElementById('mapaGoogle').src=`https://maps.google.com/maps?q=${latO},${lngO}&z=17&output=embed`;try{const r=await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latO}&lon=${lngO}`);const j=await r.json();document.getElementById('origem').value=j.display_name;}catch(e){}});}
 async function buscar(texto,tipo){if(texto.length<3) return; try{const r=await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(texto+', Francisco Beltrão')}&limit=4&countrycodes=br`);const dados=await r.json();const div=document.getElementById(tipo==='origem'?'sugOrigem':'sugDestino');div.innerHTML=dados.map(d=>`<div onclick="selecionar('${d.display_name.replace(/'/g,'')}','${d.lat}','${d.lon}','${tipo}')">${d.display_name.substring(0,80)}</div>`).join('');}catch(e){}}
 function selecionar(nome,lat,lon,tipo){if(tipo==='origem'){document.getElementById('origem').value=nome;latO=parseFloat(lat);lngO=parseFloat(lon);document.getElementById('sugOrigem').innerHTML='';}else{document.getElementById('destino').value=nome;latD=parseFloat(lat);lngD=parseFloat(lon);document.getElementById('sugDestino').innerHTML='';}document.getElementById('mapaGoogle').src=`https://maps.google.com/maps?q=${lat},${lon}&z=16&output=embed`;}
 function calcDist(a,b,c,d){const R=6371;const dLat=(c-a)*Math.PI/180;const dLon=(d-b)*Math.PI/180;const e=Math.sin(dLat/2)**2+Math.cos(a*Math.PI/180)*Math.cos(c*Math.PI/180)*Math.sin(dLon/2)**2;return R*2*Math.atan2(Math.sqrt(e),Math.sqrt(1-e));}
-
 async function solicitar(){
- const passageiro_nome=document.getElementById('nome').value.trim();
- const whatsapp=document.getElementById('whats').value.trim();
- const origem=document.getElementById('origem').value.trim();
- const destino=document.getElementById('destino').value.trim();
+ const passageiro_nome=document.getElementById('nome').value.trim(); const whatsapp=document.getElementById('whats').value.trim();
+ const origem=document.getElementById('origem').value.trim(); const destino=document.getElementById('destino').value.trim();
  let preco=parseFloat(document.getElementById('preco').value); if(isNaN(preco)) preco=0;
  if(!passageiro_nome||!origem||!destino){alert('Preencha nome, origem e destino');return;}
  document.getElementById('statusCorrida').innerHTML='<div class="small" style="color:#00C2FF;margin-top:10px">⏳ Enviando...</div>';
  const {data,error}=await supabaseClient.from('corridas').insert([{passageiro_nome,origem,destino,preco,status:'procurando',origem_lat:latO,origem_lng:lngO,destino_lat:latD,destino_lng:lngD,whatsapp}]).select().single();
  if(error){document.getElementById('statusCorrida').innerHTML='Erro: '+error.message;}
- else{
-  localStorage.setItem('dom_corrida',data.id);
-  const txt=preco>0?`por R$${preco.toFixed(2)}`:`com valor a negociar`;
-  document.getElementById('statusCorrida').innerHTML=`<div style="color:#00c853;background:#00c85315;padding:10px;border-radius:10px;border:1px solid #00c853;margin-top:10px" class="small">✅ Enviado ${txt}! Aguardando motorista...</div>`;
-  escutarMinhaCorrida(data.id);
- }
+ else{localStorage.setItem('dom_corrida',data.id);document.getElementById('statusCorrida').innerHTML=`<div style="color:#00c853;background:#00c85315;padding:10px;border-radius:10px;border:1px solid #00c853;margin-top:10px" class="small">✅ Enviado ${preco>0?'por R$'+preco.toFixed(2):'com valor a negociar'}!</div>`;escutarMinhaCorrida(data.id);}
 }
 function escutarMinhaCorrida(id){supabaseClient.channel('corrida-'+id).on('postgres_changes',{event:'UPDATE',schema:'public',table:'corridas',filter:`id=eq.${id}`},p=>{if(p.new.status==='aceita')mostrarAceita(p.new);}).subscribe();}
 function mostrarAceita(c){const link=c.motorista_whats?`https://wa.me/55${c.motorista_whats.replace(/\D/g,'')}`:null;document.getElementById('cardAceita').style.display='block';document.getElementById('cardAceita').innerHTML=`<div class="aceita-box"><h3>✅ ${c.motorista_nome} aceitou!</h3><b>R$ ${parseFloat(c.preco||0).toFixed(2)||'A negociar'}</b><br><small>${c.origem} → ${c.destino}</small>${link?`<a class="btn-whats" href="${link}" target="_blank">💬 CHAMAR NO ZAP</a>`:''}</div>`;}
 async function carregarCorridas(){const{data}=await supabaseClient.from('corridas').select('*').eq('status','procurando').order('created_at',{ascending:false});document.getElementById('lista').innerHTML=(data||[]).map(c=>{let dTxt='';if(c.origem_lat&&c.destino_lat){const d=calcDist(c.origem_lat,c.origem_lng,c.destino_lat,c.destino_lng);dTxt=`📏 ${d.toFixed(2)}km • Sug R$${(CONFIG.BANDEIRADA+d*CONFIG.PRECO_KM).toFixed(2)}`;}return `<div class="corrida"><b>${c.passageiro_nome}</b> • <b style="color:#00ff88">${c.preco>0?'R$'+parseFloat(c.preco).toFixed(2):'A NEGOCIAR'}</b><br><small style="color:#00C2FF">${dTxt}</small><br><small>${c.origem.substring(0,50)} → ${c.destino.substring(0,50)}</small></div>`;}).join('')||'Nenhuma';}
 function logarAdmin(){if(btoa(document.getElementById('senhaAdmin').value)!==btoa(CONFIG.SENHA_ADMIN)){alert('Senha errada');return;}document.getElementById('painelAdmin').style.display='block';carregarTodas();listarMusicasAdmin();carregarPlaylistRadio();}
 
+// RADIO - VERSÃO 106.4 CORRIGIDA
 async function carregarPlaylistRadio(){
- try{
-  const {data,error}=await supabaseClient.storage.from(CONFIG.BUCKET).list('',{limit:100,sortBy:{column:'name',order:'asc'}});
-  if(error){document.getElementById('statusRadio').innerText='Erro: '+error.message;return;}
-  playlistRadio=data.filter(f=>f.name.toLowerCase().endsWith('.mp3')).map(f=>{const {data:urlData}=supabaseClient.storage.from(CONFIG.BUCKET).getPublicUrl(f.name);return{nome:f.name,url:urlData.publicUrl}});
-  document.getElementById('statusRadio').innerText=playlistRadio.length?`${playlistRadio.length} músicas na grade - clique ▶`:'Bucket MUSICAS vazio';
- }catch(e){document.getElementById('statusRadio').innerText='Erro rádio';}
+  document.getElementById('statusRadio').innerText = 'Buscando em musicas...';
+  const bucketsParaTentar = ["musicas","MUSICAS","radio","Radio","MUSICA"];
+  let encontrouAlguma = false;
+  for(let b of bucketsParaTentar){
+    try{
+      const {data, error} = await supabaseClient.storage.from(b).list('', {limit:100, sortBy:{column:'name',order:'asc'}});
+      if(error) continue;
+      // Se achou arquivos, usa esse bucket
+      if(data){
+        const mp3s = data.filter(f=>f.name.toLowerCase().endsWith('.mp3') || f.name.toLowerCase().endsWith('.m4a') || f.name.toLowerCase().endsWith('.wav'));
+        if(mp3s.length>0 || b===CONFIG.BUCKET){
+          CONFIG.BUCKET = b;
+          playlistRadio = mp3s.map(f=>{
+            const {data:u} = supabaseClient.storage.from(b).getPublicUrl(f.name);
+            return {nome:f.name, url:u.publicUrl}
+          });
+          document.getElementById('statusRadio').innerText = mp3s.length ? `${mp3s.length} músicas em ${b} - clique ▶` : `Bucket ${b} existe mas está vazio - suba MP3`;
+          encontrouAlguma = true;
+          break;
+        }
+      }
+    }catch(e){ console.log(e); }
+  }
+  if(!encontrouAlguma){
+    document.getElementById('statusRadio').innerText = 'Bucket musicas vazio - vá em ADMIN e suba MP3';
+    playlistRadio = [];
+  }
 }
 function tocarRadio(){
- const audio=document.getElementById('audioRadio'); const btn=document.getElementById('btnPlay'); const status=document.getElementById('statusRadio');
- if(playlistRadio.length===0){carregarPlaylistRadio();status.innerText='Carregando...';return;}
- if(!audio.src||audio.src===''){audio.src=playlistRadio[indexRadio].url;}
- if(audio.paused){audio.play().then(()=>{btn.innerText='⏸';status.innerText='Tocando: '+playlistRadio[indexRadio].nome;});}
- else{audio.pause();btn.innerText='▶';status.innerText='Pausado: '+playlistRadio[indexRadio].nome;}
- audio.onended=()=>{indexRadio=(indexRadio+1)%playlistRadio.length;audio.src=playlistRadio[indexRadio].url;audio.play();status.innerText='Tocando: '+playlistRadio[indexRadio].nome;};
+  const audio=document.getElementById('audioRadio'); const btn=document.getElementById('btnPlay'); const status=document.getElementById('statusRadio');
+  if(playlistRadio.length===0){ carregarPlaylistRadio(); status.innerText='Nenhuma música ainda - suba no ADMIN'; return; }
+  if(!audio.src || audio.src===''){ audio.src=playlistRadio[indexRadio].url; }
+  if(audio.paused){
+    audio.play().then(()=>{ btn.innerText='⏸'; status.innerText='Tocando: '+playlistRadio[indexRadio].nome; })
+    .catch(e=>{ status.innerText='Erro ao tocar: '+e.message; });
+  }else{ audio.pause(); btn.innerText='▶'; status.innerText='Pausado: '+playlistRadio[indexRadio].nome; }
+  audio.onended=()=>{ indexRadio=(indexRadio+1)%playlistRadio.length; audio.src=playlistRadio[indexRadio].url; audio.play(); status.innerText='Tocando: '+playlistRadio[indexRadio].nome; };
 }
 async function subirMusicaRadio(){
- const file=document.getElementById('arquivoRadio').files[0]; if(!file){alert('Escolha MP3');return;}
- document.getElementById('statusUploadRadio').innerText='⏳ Enviando '+file.name+'...';
- const {error}=await supabaseClient.storage.from(CONFIG.BUCKET).upload(file.name,file,{upsert:true});
- if(error){document.getElementById('statusUploadRadio').innerText='❌ '+error.message;}
- else{document.getElementById('statusUploadRadio').innerText='✅ '+file.name+' no ar!';carregarPlaylistRadio();listarMusicasAdmin();}
+  const file=document.getElementById('arquivoRadio').files[0]; if(!file){alert('Escolha MP3');return;}
+  document.getElementById('statusUploadRadio').innerText='⏳ Enviando '+file.name+' para bucket '+CONFIG.BUCKET+'...';
+  const {error} = await supabaseClient.storage.from(CONFIG.BUCKET).upload(file.name, file, {upsert:true});
+  if(error){ document.getElementById('statusUploadRadio').innerText='❌ Erro: '+error.message + ' - tente criar bucket musicas PUBLIC'; }
+  else{ document.getElementById('statusUploadRadio').innerText='✅ '+file.name+' já está no ar em '+CONFIG.BUCKET+'!'; carregarPlaylistRadio(); listarMusicasAdmin(); }
 }
 async function listarMusicasAdmin(){
- const {data}=await supabaseClient.storage.from(CONFIG.BUCKET).list('',{limit:100});
- document.getElementById('listaMusicasAdmin').innerHTML=data&&data.length?data.map(f=>`<div style="display:flex;justify-content:space-between;align-items:center;padding:6px;border-bottom:1px solid #1a2a45;font-size:11px"><span>🎵 ${f.name}</span><button class="btn-del" onclick="deletarMusica('${f.name}')">X</button></div>`).join(''):'<div class="small">Nenhuma música</div>';
+  const {data} = await supabaseClient.storage.from(CONFIG.BUCKET).list('', {limit:100});
+  if(!data) return;
+  document.getElementById('listaMusicasAdmin').innerHTML = data.length ? data.map(f=>`<div style="display:flex;justify-content:space-between;align-items:center;padding:6px;border-bottom:1px solid #1a2a45;font-size:11px"><span>🎵 ${f.name}</span><button class="btn-del" onclick="deletarMusica('${f.name}')">X</button></div>`).join('') : '<div class="small">Nenhuma música - bucket vazio</div>';
 }
-async function deletarMusica(nome){if(!confirm('Excluir '+nome+'?')) return; await supabaseClient.storage.from(CONFIG.BUCKET).remove([nome]);listarMusicasAdmin();carregarPlaylistRadio();}
-async function carregarTodas(){const{data}=await supabaseClient.from('corridas').select('*').order('created_at',{ascending:false}).limit(60);document.getElementById('listaAdmin').innerHTML=(data||[]).map(c=>{let dist=0,sug=0;if(c.origem_lat&&c.destino_lat){dist=calcDist(c.origem_lat,c.origem_lng,c.destino_lat,c.destino_lng);sug=CONFIG.BANDEIRADA+dist*CONFIG.PRECO_KM;}return `<div class="corrida"><b>${c.status}</b> - ${c.passageiro_nome} - R$${c.preco} | Deveria R$${sug.toFixed(2)} | ${dist.toFixed(2)}km<br><small>${c.origem.substring(0,60)} → ${c.destino.substring(0,60)}</small></div>`;}).join('');}
+async function deletarMusica(nome){ if(!confirm('Excluir '+nome+'?')) return; await supabaseClient.storage.from(CONFIG.BUCKET).remove([nome]); listarMusicasAdmin(); carregarPlaylistRadio(); }
+async function carregarTodas(){const{data}=await supabaseClient.from('corridas').select('*').order('created_at',{ascending:false}).limit(60);document.getElementById('listaAdmin').innerHTML=(data||[]).map(c=>`<div class="corrida"><b>${c.status}</b> - ${c.passageiro_nome} - R$${c.preco}<br><small>${c.origem.substring(0,60)} → ${c.destino.substring(0,60)}</small></div>`).join('');}
 
 carregarPlaylistRadio();
 </script>
