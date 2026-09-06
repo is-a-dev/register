@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "hitro",
+    "email": "rohitbk745@gmail.com"
+  },
+  "records": {
+    "NS": ["anahi.ns.cloudflare.com", "harlan.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
