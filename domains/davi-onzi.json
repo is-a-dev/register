@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "davionzi8527-code",
+    "email": "davionzi8527@gmail.com"
+  },
+  "description": "OS do Davi Onzi",
+  "domain": "davi-onzi",
+  "records": {
+    "CNAME": "davi-onzi-oficial.surge.sh"
+  }
+}
