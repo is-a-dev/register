@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "mrb1lal"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": ["vc-domain-verify=kinaflex.is-a.dev,e9c6d05c127a948c010a"]
+  }
+}
