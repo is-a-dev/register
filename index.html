@@ -2,171 +2,186 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DomUber 103.2 - Relatório Zap</title>
+<title>DomUber 105 - Fix Calcular</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 <style>
 *{font-family:'Outfit',sans-serif;box-sizing:border-box}
 body{margin:0;background:#05070a;color:#fff;min-height:100vh;padding-bottom:30px}
-.hero{height:22vh;background:linear-gradient(0deg,#05070a, transparent), url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1000') center/cover;display:flex;align-items:end;padding:20px}
-.badge{background:rgba(43,123,255,0.2);border:1px solid #2b7bff;color:#6ea8ff;padding:6px 12px;border-radius:20px;font-size:11px}
-.hero h1{margin:8px 0 0;font-size:24px}.hero h1 span{color:#2b7bff}
-.card{background:rgba(20,25,35,0.95);margin:12px;border-radius:18px;padding:16px;border:1px solid rgba(43,123,255,0.2)}
+:root{ --cor:#0066FF; --cor2:#00C2FF; }
+.hero{height:26vh;background:linear-gradient(0deg,#05070a, transparent), url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1000') center/cover;display:flex;align-items:end;padding:20px;border-bottom:2px solid var(--cor)}
+.badge{background:rgba(0,0,0,0.5);border:1px solid var(--cor);color:#fff;padding:6px 12px;border-radius:20px;font-size:11px;backdrop-filter:blur(5px)}
+.hero h1{margin:8px 0 0;font-size:26px}.hero h1 span{color:var(--cor2)}
+.card{background:rgba(20,25,35,0.95);margin:12px;border-radius:18px;padding:16px;border:1px solid rgba(255,255,255,0.1)}
 input,select{width:100%;background:#0f141e;border:1px solid #1e2a40;color:#fff;padding:13px;border-radius:12px;margin-top:8px;font-size:14px}
-.btn-primary{width:100%;background:linear-gradient(90deg,#0066FF,#00C2FF);color:#fff;border:none;padding:13px;border-radius:12px;font-weight:700;margin-top:10px;cursor:pointer}
-.btn-calc{width:100%;background:#1a2a45;border:1px solid #00c853;color:#00ff88;padding:11px;border-radius:12px;margin-top:8px;cursor:pointer;font-weight:700}
-.btn-gps{width:100%;background:#1a2a45;border:1px solid #2b7bff;color:#6ea8ff;padding:11px;border-radius:12px;margin-top:8px;cursor:pointer;font-weight:700}
+.btn-primary{width:100%;background:linear-gradient(90deg,var(--cor),var(--cor2));color:#fff;border:none;padding:13px;border-radius:12px;font-weight:700;margin-top:10px;cursor:pointer}
+.btn-gps,.btn-calc{width:100%;background:#1a2a45;border:1px solid var(--cor);color:#6ea8ff;padding:11px;border-radius:12px;margin-top:8px;cursor:pointer;font-weight:700}
 .btn-small{padding:7px 11px;border-radius:8px;border:none;font-weight:700;cursor:pointer;font-size:12px;margin-right:6px;margin-top:6px}
 .btn-ok{background:#00c853;color:#fff}.btn-no{background:#ff3d00;color:#fff}.btn-del{background:#222;border:1px solid #ff3d00;color:#ff6e6e}
 .btn-whats{background:#25D366;color:#fff;display:block;text-align:center;text-decoration:none;padding:12px;border-radius:12px;margin-top:10px;font-weight:700}
 .btn-relatorio{background:linear-gradient(90deg,#25D366,#128C7E);color:#fff;border:none;padding:13px;border-radius:12px;width:100%;font-weight:700;margin-top:12px;cursor:pointer}
-.corrida{background:#0f141e;border-left:3px solid #0066FF;padding:10px;border-radius:10px;margin-top:8px;border:1px solid #1a2a45}
+.corrida{background:#0f141e;border-left:3px solid var(--cor);padding:10px;border-radius:10px;margin-top:8px;border:1px solid #1a2a45}
 .corrida.aceita{border-left-color:#00c853}
 .mapaGoogle{width:100%;height:240px;border-radius:12px;margin-top:8px;border:1px solid #1e2a40}
 .sugestoes{background:#0f141e;border-radius:10px;max-height:110px;overflow:auto}
 .sugestoes div{padding:9px;border-bottom:1px solid #1a2a45;cursor:pointer;font-size:12px}
 .small{color:#6b7d9a;font-size:11px}
-.box-cad{background:#1a2a45;padding:12px;border-radius:12px;margin-bottom:12px;border:1px dashed #2b7bff}
-.aceita-box{background:linear-gradient(135deg,#00c85322,#0066FF22);border:1px solid #00c853;padding:14px;border-radius:14px;margin-top:12px}
+.box-cad{background:#1a2a45;padding:12px;border-radius:12px;margin-bottom:12px;border:1px dashed var(--cor)}
+.aceita-box{background:linear-gradient(135deg,#00c85322,var(--cor)22);border:1px solid #00c853;padding:14px;border-radius:14px;margin-top:12px}
 .tabs{display:flex;gap:8px;margin:10px 0}
 .tab{flex:1;padding:10px;border-radius:10px;border:1px solid #1e2a40;background:#0f141e;color:#6b7d9a;text-align:center;cursor:pointer;font-weight:700;font-size:12px}
-.tab.active{background:#0066FF;color:#fff;border-color:#0066FF}
+.tab.active{background:var(--cor);color:#fff;border-color:var(--cor)}
+.radio-player{background:linear-gradient(90deg,var(--cor),var(--cor2));padding:10px;border-radius:12px;margin-top:10px;display:flex;align-items:center;gap:10px}
 </style>
 </head>
 <body>
-<div class="hero"><div><div class="badge">DOM FM 87.5 • 103.2 RELATÓRIO ZAP</div><h1>DomUber <span>103.2</span></h1></div></div>
-<div class="card"><select id="tipo" onchange="trocar()"><option value="passageiro">🚶 PASSAGEIRO</option><option value="motorista">🚗 MOTORISTA</option><option value="admin">🔒 ADMIN DOM</option></select></div>
-
+<div class="hero"><div><div id="badgeCidade" class="badge">DOM FM 87.5 • BELTRÃO</div><h1 id="tituloApp">DomUber <span id="tituloCidade">Beltrão</span></h1><div class="radio-player"><button onclick="tocarRadio()" id="btnPlay" style="background:#fff;color:#000;border:none;border-radius:50%;width:34px;height:34px;font-weight:700;cursor:pointer">▶</button><div><div style="font-size:12px;font-weight:700">AO VIVO - <span id="nomeRadio">DOM FM 87.5</span></div><div class="small" style="color:#fff">Tocando enquanto espera</div></div><audio id="audioRadio" src=""></audio></div></div></div>
+<div class="card"><select id="tipo" onchange="trocar()"><option value="passageiro">🚶 PASSAGEIRO</option><option value="motorista">🚗 MOTORISTA</option><option value="admin">🔒 ADMIN</option></select></div>
 <div id="passageiro" class="card">
-<h3 style="margin:0">Para onde vamos?</h3>
+<h3 style="margin:0">Para onde vamos em <span class="cidadeTxt">Beltrão</span>?</h3>
 <input id="nome" placeholder="Seu nome"><input id="whats" placeholder="WhatsApp">
-<input id="origem" placeholder="📍 Origem" oninput="buscar(this.value,'origem')" onblur="tentaGeocode('origem')"><div id="sugOrigem" class="sugestoes"></div>
+<input id="origem" placeholder="📍 Origem - ex: Rua Vadeson Sabadin" oninput="buscar(this.value,'origem')"><div id="sugOrigem" class="sugestoes"></div>
 <button onclick="pegarMinhaLocalizacao()" class="btn-gps">📍 USAR MINHA LOCALIZAÇÃO</button>
-<input id="destino" placeholder="🏁 Destino" oninput="buscar(this.value,'destino')" onblur="tentaGeocode('destino')" style="margin-top:12px"><div id="sugDestino" class="sugestoes"></div>
-<button onclick="forcarCalculo()" class="btn-calc">🧮 CALCULAR - R$5 + R$2/km</button>
+<input id="destino" placeholder="🏁 Destino - ex: R Guaporé 301" oninput="buscar(this.value,'destino')" style="margin-top:12px"><div id="sugDestino" class="sugestoes"></div>
+<button onclick="forcarCalculo()" class="btn-calc">🧮 CALCULAR - R$5 + R$2/km (opcional)</button>
 <iframe id="mapaGoogle" class="mapaGoogle" src="https://maps.google.com/maps?q=Francisco%20Beltrão&t=&z=14&output=embed"></iframe>
-<div id="infoRota" class="small" style="margin-top:8px;color:#00ff88;font-weight:700">R$5 bandeirada + R$2/km - selecione nas sugestões</div>
+<div id="infoRota" class="small" style="margin-top:8px;color:#00ff88;font-weight:700">R$5 bandeirada + R$2/km</div>
 <input id="preco" type="number" placeholder="💰 Valor R$">
 <button class="btn-primary" onclick="solicitar()">SOLICITAR AGORA →</button>
-<div id="statusCorrida"></div>
-<div id="cardAceita" style="display:none"></div>
+<div id="statusCorrida"></div><div id="cardAceita" style="display:none"></div>
 </div>
-
 <div id="motorista" class="card" style="display:none">
 <div id="areaLoginMotorista" class="box-cad">
-<h4 style="margin:0 0 8px 0">🚗 Área do Motorista</h4>
-<input id="m_nome" placeholder="Nome completo"><input id="m_whats" placeholder="WhatsApp 46999999999"><input id="m_placa" placeholder="Placa"><input id="m_carro" placeholder="Carro">
-<div style="display:flex;gap:8px"><button class="btn-primary" style="flex:1" onclick="cadastrarMotorista()">CADASTRAR</button><button class="btn-primary" style="flex:1;background:linear-gradient(90deg,#00c853,#00ff88)" onclick="loginMotorista()">ENTRAR</button></div>
+<h4 style="margin:0 0 8px 0">🚗 Motorista <span class="cidadeTxt">Beltrão</span></h4>
+<input id="m_nome" placeholder="Nome completo"><input id="m_whats" placeholder="WhatsApp"><input id="m_placa" placeholder="Placa"><input id="m_carro" placeholder="Carro">
+<div style="display:flex;gap:8px"><button class="btn-primary" style="flex:1" onclick="cadastrarMotorista()">CADASTRAR</button><button class="btn-primary" style="flex:1;background:#00c853" onclick="loginMotorista()">ENTRAR</button></div>
 <div id="m_status" class="small"></div>
 </div>
-
 <div id="areaPainelMotorista" style="display:none">
 <div class="small" style="margin-bottom:8px">Logado <b id="nomeLogado" style="color:#fff"></b> • <span onclick="sairMotorista()" style="color:#ff6e6e;cursor:pointer">Sair</span></div>
-<div class="tabs"><div id="tabAoVivo" class="tab active" onclick="abaMotorista('vivo')">AO VIVO</div><div id="tabHist" class="tab" onclick="abaMotorista('hist')">HISTÓRICO + RELATÓRIO</div></div>
-<div id="lista"></div>
-<div id="listaHistorico" style="display:none"></div>
-<div id="areaRelatorio" style="display:none">
-<div id="totalGanho" style="margin-top:12px;color:#00ff88;font-weight:700;background:#0f141e;padding:10px;border-radius:10px"></div>
-<button class="btn-relatorio" onclick="enviarRelatorioZap()">📤 ENVIAR RELATÓRIO NO MEU WHATSAPP</button>
-<button class="btn-relatorio" style="background:linear-gradient(90deg,#0066FF,#00C2FF);margin-top:8px" onclick="enviarRelatorioAdmin()">📤 ENVIAR RELATÓRIO PRO DONO DOM</button>
-<div class="small" style="margin-top:6px">Vai abrir seu WhatsApp com o texto pronto pra enviar</div>
+<div class="tabs"><div id="tabAoVivo" class="tab active" onclick="abaMotorista('vivo')">AO VIVO</div><div id="tabHist" class="tab" onclick="abaMotorista('hist')">HISTÓRICO</div></div>
+<div id="lista"></div><div id="listaHistorico" style="display:none"></div>
+<div id="areaRelatorio" style="display:none"><div id="totalGanho" style="margin-top:12px;color:#00ff88;font-weight:700;background:#0f141e;padding:10px;border-radius:10px"></div><button class="btn-relatorio" onclick="enviarRelatorioZap()">📤 RELATÓRIO NO MEU ZAP</button><button class="btn-relatorio" style="background:linear-gradient(90deg,var(--cor),var(--cor2));margin-top:8px" onclick="enviarRelatorioAdmin()">📤 ENVIAR PRO DONO</button></div>
 </div>
 </div>
-</div>
-
 <div id="admin" class="card" style="display:none">
-<h3>ADMIN DOM</h3><input id="senhaAdmin" type="password" placeholder="••••••••"><button class="btn-primary" onclick="logarAdmin()">ENTRAR</button>
+<h3>ADMIN <span class="cidadeTxt">Beltrão</span></h3><input id="senhaAdmin" type="password" placeholder="Senha"><button class="btn-primary" onclick="logarAdmin()">ENTRAR</button>
 <div id="painelAdmin" style="display:none"><h4>🚗 Motoristas</h4><div id="listaAdminMotoristas"></div><hr style="border-color:#1a2a45;margin:18px 0"><h4>🏁 Corridas</h4><div id="listaAdmin"></div></div>
 </div>
-
 <script>
-const SUPABASE_URL="https://iaquzqgonuozmsqargdk.supabase.co";
-const SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlhcXV6cWdvbnVvem1zcWFyZ2RrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg1MDkxMzksImV4cCI6MjEwNDA4NTEzOX0.6p7oaw9Eaw90nmagFiv5CWOx5FRM6TufDCwJEwwjYVc";
-const supabaseClient=supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
-let latO,lngO,latD,lngD, minhaCorridaId=null, motoristaLogado=null, historicoAtual=[];
-
-function trocar(){const t=document.getElementById('tipo').value;document.getElementById('passageiro').style.display=t==='passageiro'?'block':'none';document.getElementById('motorista').style.display=t==='motorista'?'block':'none';document.getElementById('admin').style.display=t==='admin'?'block':'none';if(t==='motorista'){ if(localStorage.getItem('dom_motorista')){ const m=JSON.parse(localStorage.getItem('dom_motorista')); loginMotoristaAuto(m); } else carregarCorridas(); }}
-
+// ==========================================
+// 🔧 CONFIG DA CIDADE - SÓ MUDAR AQUI PRA VENDER
+// ==========================================
+const CONFIG = {
+  CIDADE_NOME: "Francisco Beltrão",
+  CIDADE_CURTA: "Beltrão",
+  NOME_RADIO: "DOM FM 87.5",
+  COR_PRINCIPAL: "#0066FF",
+  COR_SECUNDARIA: "#00C2FF",
+  SUPABASE_URL: "https://iaquzqgonuozmsqargdk.supabase.co",
+  SUPABASE_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlhcXV6cWdvbnVvem1zcWFyZ2RrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg1MDkxMzksImV4cCI6MjEwNDA4NTEzOX0.6p7oaw9Eaw90nmagFiv5CWOx5FRM6TufDCwJEwwjYVc",
+  BANDEIRADA: 5.00,
+  PRECO_KM: 2.00,
+  WHATS_ADMIN: "5546999999999",
+  SENHA_ADMIN: "DOM2027"
+};
+// FIM CONFIG
+const supabaseClient=supabase.createClient(CONFIG.SUPABASE_URL,CONFIG.SUPABASE_KEY);
+let latO,lngO,latD,lngD,minhaCorridaId=null,motoristaLogado=null,historicoAtual=[];
+document.documentElement.style.setProperty('--cor', CONFIG.COR_PRINCIPAL);
+document.documentElement.style.setProperty('--cor2', CONFIG.COR_SECUNDARIA);
+document.getElementById('badgeCidade').innerText=`${CONFIG.NOME_RADIO} • ${CONFIG.CIDADE_CURTA.toUpperCase()}`;
+document.getElementById('tituloCidade').innerText=CONFIG.CIDADE_CURTA;
+document.getElementById('nomeRadio').innerText=CONFIG.NOME_RADIO;
+document.querySelectorAll('.cidadeTxt').forEach(e=>e.innerText=CONFIG.CIDADE_CURTA);
+document.getElementById('infoRota').innerHTML=`R$${CONFIG.BANDEIRADA.toFixed(2)} bandeirada + R$${CONFIG.PRECO_KM.toFixed(2)}/km`;
+function tocarRadio(){ alert('Coloca seu link de streaming em <audio id="audioRadio" src="">');}
+function trocar(){const t=document.getElementById('tipo').value;document.getElementById('passageiro').style.display=t==='passageiro'?'block':'none';document.getElementById('motorista').style.display=t==='motorista'?'block':'none';document.getElementById('admin').style.display=t==='admin'?'block':'none';if(t==='motorista'){ if(localStorage.getItem('dom_motorista_'+CONFIG.CIDADE_CURTA)){ const m=JSON.parse(localStorage.getItem('dom_motorista_'+CONFIG.CIDADE_CURTA)); loginMotoristaAuto(m); } else carregarCorridas(); }}
 async function pegarMinhaLocalizacao(){if(!navigator.geolocation)return alert('Sem GPS');document.getElementById('infoRota').innerHTML='📡 Pegando GPS...';navigator.geolocation.getCurrentPosition(async pos=>{latO=pos.coords.latitude;lngO=pos.coords.longitude;try{const r=await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latO}&lon=${lngO}`);const j=await r.json();document.getElementById('origem').value=j.display_name||`${latO.toFixed(5)},${lngO.toFixed(5)}`;}catch(e){document.getElementById('origem').value=`${latO},${lngO}`;}document.getElementById('mapaGoogle').src=`https://maps.google.com/maps?q=${latO},${lngO}&z=17&output=embed`;if(latD) calcular();});}
 async function buscar(texto,tipo){if(texto.length<3)return;try{const r=await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(texto)}&limit=4&countrycodes=br`);const dados=await r.json();const div=document.getElementById(tipo==='origem'?'sugOrigem':'sugDestino');div.innerHTML=dados.map(d=>`<div onclick="selecionar('${d.display_name.replace(/'/g,'')}','${d.lat}','${d.lon}','${tipo}')">${d.display_name.substring(0,70)}</div>`).join('');}catch(e){}}
 function selecionar(nome,lat,lon,tipo){if(tipo==='origem'){document.getElementById('origem').value=nome;latO=parseFloat(lat);lngO=parseFloat(lon);document.getElementById('sugOrigem').innerHTML='';}else{document.getElementById('destino').value=nome;latD=parseFloat(lat);lngD=parseFloat(lon);document.getElementById('sugDestino').innerHTML='';}document.getElementById('mapaGoogle').src=`https://maps.google.com/maps?q=${lat},${lon}&z=16&output=embed`;calcular();}
-async function tentaGeocode(tipo){ const texto=document.getElementById(tipo).value; if(!texto||texto.length<5)return; if(tipo==='origem'&&latO)return; if(tipo==='destino'&&latD)return; try{const r=await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(texto)}&limit=1&countrycodes=br`);const dados=await r.json();if(dados[0]){if(tipo==='origem'){latO=parseFloat(dados[0].lat);lngO=parseFloat(dados[0].lon);}else{latD=parseFloat(dados[0].lat);lngD=parseFloat(dados[0].lon);}calcular();}}catch(e){} }
-async function forcarCalculo(){ for(let t of ['origem','destino']){const texto=document.getElementById(t).value;if(!texto)continue;try{const r=await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(texto)}&limit=1&countrycodes=br`);const d=await r.json();if(d[0]){if(t==='origem'){latO=parseFloat(d[0].lat);lngO=parseFloat(d[0].lon);}else{latD=parseFloat(d[0].lat);lngD=parseFloat(d[0].lon);}}}catch(e){}} calcular(); }
 function calcDist(a,b,c,d){const R=6371;const dLat=(c-a)*Math.PI/180;const dLon=(d-b)*Math.PI/180;const e=Math.sin(dLat/2)**2+Math.cos(a*Math.PI/180)*Math.cos(c*Math.PI/180)*Math.sin(dLon/2)**2;return R*2*Math.atan2(Math.sqrt(e),Math.sqrt(1-e));}
-function calcular(){if(!latO||!latD)return;const dist=calcDist(latO,lngO,latD,lngD);const precoFinal=(5 + dist*2).toFixed(2);document.getElementById('infoRota').innerHTML=`✅ ${dist.toFixed(2)} km • R$5 + R$2/km = <b style="color:#fff;font-size:16px">R$ ${precoFinal}</b>`;document.getElementById('preco').value=precoFinal;document.getElementById('mapaGoogle').src=`https://www.google.com/maps/dir/?api=1&origin=${latO},${lngO}&destination=${latD},${lngD}`;return {dist,precoFinal};}
+function calcular(){if(!latO||!latD)return null;const dist=calcDist(latO,lngO,latD,lngD);const precoFinal=(CONFIG.BANDEIRADA + dist*CONFIG.PRECO_KM).toFixed(2);document.getElementById('infoRota').innerHTML=`✅ ${dist.toFixed(2)} km • R$${CONFIG.BANDEIRADA.toFixed(2)} + R$${CONFIG.PRECO_KM.toFixed(2)}/km = <b style="color:#fff;font-size:16px">R$ ${precoFinal}</b>`;document.getElementById('preco').value=precoFinal;document.getElementById('mapaGoogle').src=`https://www.google.com/maps/dir/?api=1&origin=${latO},${lngO}&destination=${latD},${lngD}`;return {dist,precoFinal};}
+async function geocodarTexto(texto){
+  try{
+    const r=await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(texto)}&limit=1&countrycodes=br`);
+    const dados=await r.json();
+    if(dados[0]) return {lat:parseFloat(dados[0].lat), lng:parseFloat(dados[0].lon)};
+  }catch(e){}
+  return null;
+}
+async function forcarCalculo(){
+  for(let t of ['origem','destino']){
+    const texto=document.getElementById(t).value;
+    if(!texto) continue;
+    const g = await geocodarTexto(texto);
+    if(g){
+      if(t==='origem'){latO=g.lat; lngO=g.lng;} else {latD=g.lat; lngD=g.lng;}
+    }
+  }
+  const c=calcular();
+  return c;
+}
 function formataZapLink(n){if(!n)return null;let x=n.replace(/\D/g,'');if(x.length<10)return null;if(!x.startsWith('55'))x='55'+x;return `https://wa.me/${x}`;}
+
+// ===== SOLICITAR CORRIGIDO - NÃO PRECISA CLICAR CALCULAR =====
 async function solicitar(){
- const passageiro_nome=document.getElementById('nome').value; const whatsapp=document.getElementById('whats').value; const origem=document.getElementById('origem').value; const destino=document.getElementById('destino').value; let preco=parseFloat(document.getElementById('preco').value)||0;
- if((!preco||preco==0)&&latO&&latD){const c=calcular();if(c)preco=parseFloat(c.precoFinal);} if((!latO||!latD)||!preco){await forcarCalculo();preco=parseFloat(document.getElementById('preco').value)||0;}
- if(!passageiro_nome||!origem||!destino)return alert('Preencha tudo'); if(!preco)return alert('Clique CALCULAR');
+ const passageiro_nome=document.getElementById('nome').value;
+ const whatsapp=document.getElementById('whats').value;
+ const origem=document.getElementById('origem').value;
+ const destino=document.getElementById('destino').value;
+ let preco=parseFloat(document.getElementById('preco').value)||0;
+ if(!passageiro_nome||!origem||!destino) return alert('Preencha nome, origem e destino');
+
+ document.getElementById('statusCorrida').innerHTML='<div class="small" style="color:#00C2FF;margin-top:10px">⏳ Calculando valor...</div>';
+
+ if(!latO ||!latD){
+   await forcarCalculo();
+ }
+
+ if(!latO ||!latD){
+   // se ainda não achou lat, tenta de novo com a cidade no final
+   const gO = await geocodarTexto(origem + ', ' + CONFIG.CIDADE_NOME);
+   const gD = await geocodarTexto(destino + ', ' + CONFIG.CIDADE_NOME);
+   if(gO){ latO=gO.lat; lngO=gO.lng; }
+   if(gD){ latD=gD.lat; lngD=gD.lng; }
+ }
+
+ let resultado = calcular();
+ if(resultado) preco = parseFloat(resultado.precoFinal);
+ else if(!preco) preco = CONFIG.BANDEIRADA + (2*CONFIG.PRECO_KM); // mínimo 2km se não calcular
+
  const {data,error}=await supabaseClient.from('corridas').insert([{passageiro_nome,origem,destino,preco,status:'procurando',origem_lat:latO,origem_lng:lngO,destino_lat:latD,destino_lng:lngD,whatsapp}]).select().single();
- if(error)alert(error.message); else{minhaCorridaId=data.id;localStorage.setItem('dom_corrida',data.id);document.getElementById('statusCorrida').innerHTML='<div class="small" style="color:#00c853;font-weight:700;margin-top:10px">✅ Solicitado R$'+preco.toFixed(2)+'!</div>';escutarMinhaCorrida(data.id);}
+ if(error) alert(error.message);
+ else {
+   minhaCorridaId=data.id;
+   localStorage.setItem('dom_corrida',data.id);
+   document.getElementById('statusCorrida').innerHTML='<div class="small" style="color:#00c853;font-weight:700;margin-top:10px">✅ Solicitado por R$'+preco.toFixed(2)+'! Aguardando motorista em '+CONFIG.CIDADE_CURTA+'...</div>';
+   escutarMinhaCorrida(data.id);
+ }
 }
 function escutarMinhaCorrida(id){ supabaseClient.channel('corrida-'+id).on('postgres_changes',{event:'UPDATE',schema:'public',table:'corridas',filter:`id=eq.${id}`},(p)=>{if(p.new.status==='aceita')mostrarAceita(p.new);}).subscribe(); }
-async function mostrarAceita(c){let motInfo='';try{const{data:m}=await supabaseClient.from('motoristas').select('*').ilike('nome',`%${c.motorista_nome}%`).limit(1).single();if(m)motInfo=`🚗 ${m.carro} - ${m.placa}`;}catch(e){}const link=formataZapLink(c.motorista_whats);document.getElementById('cardAceita').style.display='block';document.getElementById('cardAceita').innerHTML=`<div class="aceita-box"><h3 style="margin:0 0 8px 0">✅ ${c.motorista_nome} aceitou!</h3><div>${motInfo}</div><div style="font-size:20px;margin:8px 0"><b>💰 R$ ${parseFloat(c.preco).toFixed(2)}</b></div><div class="small">${c.origem} → ${c.destino}</div>${link?`<a class="btn-whats" href="${link}" target="_blank">💬 CHAMAR</a>`:''}</div>`;}
-
-async function cadastrarMotorista(){const nome=document.getElementById('m_nome').value;const whatsapp=document.getElementById('m_whats').value;const placa=document.getElementById('m_placa').value;const carro=document.getElementById('m_carro').value;if(!nome||!whatsapp||!placa||!carro)return alert('Preencha tudo');const{error}=await supabaseClient.from('motoristas').insert([{nome,whatsapp,placa,carro,status:'pendente'}]);if(error)alert(error.message);else document.getElementById('m_status').innerHTML='⏳ Enviado! Aguarde aprovação';}
-async function loginMotorista(){
- const nome=document.getElementById('m_nome').value.trim(); if(!nome) return alert('Digite seu nome');
- const {data}=await supabaseClient.from('motoristas').select('*').ilike('nome',`%${nome}%`).limit(1).maybeSingle();
- if(!data) return alert('Não encontrado'); if(data.status!=='aprovado') return alert('Status: '+data.status);
- motoristaLogado=data; localStorage.setItem('dom_motorista',JSON.stringify(data)); abrirPainel();
-}
+async function mostrarAceita(c){let motInfo='';try{const{data:m}=await supabaseClient.from('motoristas').select('*').ilike('nome',`%${c.motorista_nome}%`).limit(1).single();if(m)motInfo=`🚗 ${m.carro} - ${m.placa}`;}catch(e){}const link=formataZapLink(c.motorista_whats);document.getElementById('cardAceita').style.display='block';document.getElementById('cardAceita').innerHTML=`<div class="aceita-box"><h3 style="margin:0 0 8px 0">✅ ${c.motorista_nome} aceitou!</h3><div>${motInfo}</div><div style="font-size:20px;margin:8px 0"><b>💰 R$ ${parseFloat(c.preco).toFixed(2)}</b></div><div class="small">${c.origem} → ${c.destino}</div>${link?`<a class="btn-whats" href="${link}" target="_blank">💬 CHAMAR MOTORISTA NO ZAP</a>`:''}</div>`;}
+async function cadastrarMotorista(){const nome=document.getElementById('m_nome').value;const whatsapp=document.getElementById('m_whats').value;const placa=document.getElementById('m_placa').value;const carro=document.getElementById('m_carro').value;if(!nome||!whatsapp||!placa||!carro)return alert('Preencha tudo');const{error}=await supabaseClient.from('motoristas').insert([{nome,whatsapp,placa,carro,status:'pendente'}]);if(error)alert(error.message);else document.getElementById('m_status').innerHTML='⏳ Enviado! Aguarde aprovação no painel ADMIN';}
+async function loginMotorista(){ const nome=document.getElementById('m_nome').value.trim(); if(!nome) return alert('Digite nome'); const {data}=await supabaseClient.from('motoristas').select('*').ilike('nome',`%${nome}%`).limit(1).maybeSingle(); if(!data) return alert('Não encontrado'); if(data.status!=='aprovado') return alert('Status: '+data.status+' - aguarde admin liberar'); motoristaLogado=data; localStorage.setItem('dom_motorista_'+CONFIG.CIDADE_CURTA,JSON.stringify(data)); abrirPainel(); }
 function loginMotoristaAuto(m){ motoristaLogado=m; abrirPainel(); }
 function abrirPainel(){ document.getElementById('areaLoginMotorista').style.display='none'; document.getElementById('areaPainelMotorista').style.display='block'; document.getElementById('nomeLogado').innerText=motoristaLogado.nome; carregarCorridas(); carregarHistorico(); }
-function sairMotorista(){ localStorage.removeItem('dom_motorista'); motoristaLogado=null; document.getElementById('areaLoginMotorista').style.display='block'; document.getElementById('areaPainelMotorista').style.display='none'; }
+function sairMotorista(){ localStorage.removeItem('dom_motorista_'+CONFIG.CIDADE_CURTA); motoristaLogado=null; document.getElementById('areaLoginMotorista').style.display='block'; document.getElementById('areaPainelMotorista').style.display='none'; }
 function abaMotorista(qual){ document.getElementById('tabAoVivo').classList.toggle('active',qual==='vivo'); document.getElementById('tabHist').classList.toggle('active',qual==='hist'); document.getElementById('lista').style.display=qual==='vivo'?'block':'none'; document.getElementById('listaHistorico').style.display=qual==='hist'?'block':'none'; document.getElementById('areaRelatorio').style.display=qual==='hist'?'block':'none'; }
-
-async function carregarCorridas(){
- const{data}=await supabaseClient.from('corridas').select('*').eq('status','procurando').order('created_at',{ascending:false});
- document.getElementById('lista').innerHTML=(data||[]).map(c=>{ let precoCalc=c.preco; if((!precoCalc||precoCalc==0)&&c.origem_lat&&c.destino_lat){const d=calcDist(c.origem_lat,c.origem_lng,c.destino_lat,c.destino_lng);precoCalc=(5+d*2).toFixed(2);} const linkPass=formataZapLink(c.whatsapp); return `<div class="corrida"><b>${c.passageiro_nome}</b> • <b style="color:#00ff88">R$${parseFloat(precoCalc).toFixed(2)}</b><br><small>${c.origem.substring(0,45)} → ${c.destino.substring(0,45)}</small><br><button class="btn-small btn-ok" onclick="aceitar('${c.id}','${precoCalc}')">ACEITAR</button> ${linkPass?`<a href="${linkPass}" target="_blank" style="color:#25D366;font-size:12px">💬 ZAP</a>`:''}</div>`; }).join('')||'<div class="small">Nenhuma corrida</div>';
-}
-async function carregarHistorico(){
- if(!motoristaLogado) return;
- const {data}=await supabaseClient.from('corridas').select('*').eq('motorista_nome',motoristaLogado.nome).in('status',['aceita','finalizada']).order('created_at',{ascending:false}).limit(100);
- historicoAtual=data||[];
- let total=0; document.getElementById('listaHistorico').innerHTML=historicoAtual.map(c=>{ total+=parseFloat(c.preco)||0; return `<div class="corrida aceita"><b>${c.passageiro_nome}</b> - R$${parseFloat(c.preco).toFixed(2)} - ${c.status.toUpperCase()}<br><small>${new Date(c.created_at).toLocaleString('pt-BR')} - ${c.origem.substring(0,25)}→${c.destino.substring(0,25)}</small><br>${c.status==='aceita'?`<button class="btn-small btn-ok" onclick="finalizarCorrida('${c.id}')">✅ FINALIZAR</button>`:''}</div>`; }).join('')||'<div class="small">Nenhuma corrida ainda</div>';
- document.getElementById('totalGanho').innerHTML=`💰 Total: R$ ${total.toFixed(2)} em ${historicoAtual.length} corridas<br><small>Fórmula: R$5 bandeirada + R$2/km</small>`;
-}
-async function aceitar(id,precoCalc){ if(!motoristaLogado) return alert('Login'); await supabaseClient.from('corridas').update({status:'aceita',motorista_nome:motoristaLogado.nome,preco:parseFloat(precoCalc),motorista_whats:motoristaLogado.whatsapp}).eq('id',id); carregarCorridas(); carregarHistorico(); abaMotorista('hist'); }
-async function finalizarCorrida(id){ if(!confirm('Finalizar?'))return; await supabaseClient.from('corridas').update({status:'finalizada'}).eq('id',id); carregarHistorico(); }
-
-// RELATÓRIO WHATSAPP
-function gerarTextoRelatorio(){
- if(!historicoAtual.length) return 'Nenhuma corrida';
- let total=0; historicoAtual.forEach(c=> total+=parseFloat(c.preco)||0);
- let texto=`🚗 *RELATÓRIO DOMUBER*%0A`;
- texto+=`👤 Motorista: ${motoristaLogado.nome}%0A`;
- texto+=`📅 Data: ${new Date().toLocaleDateString('pt-BR')} ${new Date().toLocaleTimeString('pt-BR')}%0A`;
- texto+=`💰 *TOTAL: R$ ${total.toFixed(2)} em ${historicoAtual.length} corridas*%0A`;
- texto+=`📏 Fórmula: R$5 bandeirada + R$2/km%0A`;
- texto+=`----------------------------%0A`;
- historicoAtual.slice(0,20).forEach((c,i)=>{
-   const data=new Date(c.created_at).toLocaleDateString('pt-BR');
-   texto+=`${i+1}. ${c.passageiro_nome} - R$${parseFloat(c.preco).toFixed(2)} - ${data}%0A ${c.origem.substring(0,20)}→${c.destino.substring(0,20)}%0A`;
- });
- texto+=`----------------------------%0A✅ Gerado pelo App DomUber 103.2`;
- return texto;
-}
-function enviarRelatorioZap(){
- const texto=gerarTextoRelatorio();
- const link=`https://wa.me/?text=${texto}`;
- window.open(link,'_blank');
-}
-function enviarRelatorioAdmin(){
- const texto=gerarTextoRelatorio();
- const adminZap='5546991219785'; // TROCA PELO SEU NUMERO DOM
- const link=`https://wa.me/${adminZap}?text=${texto}`;
- window.open(link,'_blank');
-}
-
-function logarAdmin(){if(btoa(document.getElementById('senhaAdmin').value)!=='QERvbS4yMDI3')return alert('Acesso negado');document.getElementById('painelAdmin').style.display='block';carregarTodas();}
-async function carregarTodas(){const{data}=await supabaseClient.from('corridas').select('*').order('created_at',{ascending:false}).limit(50);document.getElementById('listaAdmin').innerHTML=(data||[]).map(c=>`<div class="corrida">${c.status.toUpperCase()} - ${c.passageiro_nome} (${c.motorista_nome||'-'}) R$${c.preco}<br><button class="btn-small btn-del" onclick="apagarCorrida('${c.id}')">🗑️ APAGAR</button></div>`).join('');const{data:mot}=await supabaseClient.from('motoristas').select('*').order('created_at',{ascending:false});document.getElementById('listaAdminMotoristas').innerHTML=(mot||[]).map(m=>`<div class="corrida"><b>${m.nome}</b> ${m.carro} ${m.placa} - ${m.status.toUpperCase()}<br><small>${m.whatsapp}</small><br>${m.status==='pendente'?`<button class="btn-small btn-ok" onclick="aprovarMotorista('${m.id}')">✅ ACEITAR</button><button class="btn-small btn-no" onclick="recusarMotorista('${m.id}')">❌ RECUSAR</button>`:''}<button class="btn-small btn-del" onclick="apagarMotorista('${m.id}')">🗑️ APAGAR</button></div>`).join('');}
+async function carregarCorridas(){ const{data}=await supabaseClient.from('corridas').select('*').eq('status','procurando').order('created_at',{ascending:false}); document.getElementById('lista').innerHTML=(data||[]).map(c=>{ let precoCalc=c.preco; if((!precoCalc||precoCalc==0)&&c.origem_lat&&c.destino_lat){const d=calcDist(c.origem_lat,c.origem_lng,c.destino_lat,c.destino_lng);precoCalc=(CONFIG.BANDEIRADA+d*CONFIG.PRECO_KM).toFixed(2);} const linkPass=formataZapLink(c.whatsapp); return `<div class="corrida"><b>${c.passageiro_nome}</b> • <b style="color:#00ff88">R$${parseFloat(precoCalc).toFixed(2)}</b><br><small>${c.origem.substring(0,45)} → ${c.destino.substring(0,45)}</small><br><button class="btn-small btn-ok" onclick="aceitar('${c.id}','${precoCalc}')">ACEITAR</button> ${linkPass?`<a href="${linkPass}" target="_blank" style="color:#25D366;font-size:12px">💬 ZAP</a>`:''}</div>`; }).join('')||'<div class="small">Nenhuma corrida no momento</div>'; }
+async function carregarHistorico(){ if(!motoristaLogado) return; const {data}=await supabaseClient.from('corridas').select('*').eq('motorista_nome',motoristaLogado.nome).in('status',['aceita','finalizada']).order('created_at',{ascending:false}).limit(100); historicoAtual=data||[]; let total=0; document.getElementById('listaHistorico').innerHTML=historicoAtual.map(c=>{ total+=parseFloat(c.preco)||0; return `<div class="corrida aceita"><b>${c.passageiro_nome}</b> - R$${parseFloat(c.preco).toFixed(2)} - ${c.status.toUpperCase()}<br><small>${new Date(c.created_at).toLocaleString('pt-BR')} - ${c.origem.substring(0,25)}→${c.destino.substring(0,25)}</small><br>${c.status==='aceita'?`<button class="btn-small btn-ok" onclick="finalizarCorrida('${c.id}')">✅ FINALIZAR CORRIDA</button>`:''}</div>`; }).join('')||'<div class="small">Nenhuma ainda</div>'; document.getElementById('totalGanho').innerHTML=`💰 Total: R$ ${total.toFixed(2)} em ${historicoAtual.length} corridas<br><small>R$${CONFIG.BANDEIRADA}+R$${CONFIG.PRECO_KM}/km</small>`; }
+async function aceitar(id,precoCalc){ if(!motoristaLogado) return alert('Faça login motorista'); await supabaseClient.from('corridas').update({status:'aceita',motorista_nome:motoristaLogado.nome,preco:parseFloat(precoCalc),motorista_whats:motoristaLogado.whatsapp}).eq('id',id); carregarCorridas(); carregarHistorico(); abaMotorista('hist'); }
+async function finalizarCorrida(id){ if(!confirm('Finalizar essa corrida?'))return; await supabaseClient.from('corridas').update({status:'finalizada'}).eq('id',id); carregarHistorico(); }
+function gerarTextoRelatorio(){ if(!historicoAtual.length) return 'Nenhuma corrida'; let total=0; historicoAtual.forEach(c=> total+=parseFloat(c.preco)||0); let texto=`🚗 *RELATÓRIO ${CONFIG.CIDADE_CURTA.toUpperCase()}*%0A👤 Motorista: ${motoristaLogado.nome}%0A📅 Data: ${new Date().toLocaleDateString('pt-BR')} ${new Date().toLocaleTimeString('pt-BR')}%0A💰 *TOTAL: R$ ${total.toFixed(2)} em ${historicoAtual.length} corridas*%0A📏 R$${CONFIG.BANDEIRADA}+R$${CONFIG.PRECO_KM}/km%0A----------------------------%0A`; historicoAtual.slice(0,20).forEach((c,i)=>{ const data=new Date(c.created_at).toLocaleDateString('pt-BR'); texto+=`${i+1}. ${c.passageiro_nome} - R$${parseFloat(c.preco).toFixed(2)} - ${data}%0A`; }); texto+=`----------------------------%0A✅ ${CONFIG.NOME_RADIO} - ${CONFIG.CIDADE_NOME}`; return texto; }
+function enviarRelatorioZap(){ const texto=gerarTextoRelatorio(); window.open(`https://wa.me/?text=${texto}`,'_blank'); }
+function enviarRelatorioAdmin(){ const texto=gerarTextoRelatorio(); window.open(`https://wa.me/${CONFIG.WHATS_ADMIN}?text=${texto}`,'_blank'); }
+function logarAdmin(){if(btoa(document.getElementById('senhaAdmin').value)!==btoa(CONFIG.SENHA_ADMIN))return alert('Senha errada');document.getElementById('painelAdmin').style.display='block';carregarTodas();}
+async function carregarTodas(){const{data}=await supabaseClient.from('corridas').select('*').order('created_at',{ascending:false}).limit(50);document.getElementById('listaAdmin').innerHTML=(data||[]).map(c=>`<div class="corrida">${c.status.toUpperCase()} - ${c.passageiro_nome} (${c.motorista_nome||'-'}) R$${c.preco}<br><button class="btn-small btn-del" onclick="apagarCorrida('${c.id}')">🗑️ APAGAR</button></div>`).join('');const{data:mot}=await supabaseClient.from('motoristas').select('*').order('created_at',{ascending:false});document.getElementById('listaAdminMotoristas').innerHTML=(mot||[]).map(m=>`<div class="corrida"><b>${m.nome}</b> ${m.carro} ${m.placa} - ${m.status.toUpperCase()}<br><small>${m.whatsapp}</small><br>${m.status==='pendente'?`<button class="btn-small btn-ok" onclick="aprovarMotorista('${m.id}')">✅ APROVAR</button><button class="btn-small btn-no" onclick="recusarMotorista('${m.id}')">❌ RECUSAR</button>`:''}<button class="btn-small btn-del" onclick="apagarMotorista('${m.id}')">🗑️</button></div>`).join('');}
 async function aprovarMotorista(id){await supabaseClient.from('motoristas').update({status:'aprovado'}).eq('id',id);carregarTodas();}
 async function recusarMotorista(id){await supabaseClient.from('motoristas').update({status:'recusado'}).eq('id',id);carregarTodas();}
-async function apagarMotorista(id){if(!confirm('Apagar?'))return;await supabaseClient.from('motoristas').delete().eq('id',id);carregarTodas();}
+async function apagarMotorista(id){if(!confirm('Apagar motorista?'))return;await supabaseClient.from('motoristas').delete().eq('id',id);carregarTodas();}
 async function apagarCorrida(id){if(!confirm('Apagar corrida?'))return;await supabaseClient.from('corridas').delete().eq('id',id);carregarTodas();}
-window.onload=()=>{const id=localStorage.getItem('dom_corrida'); if(id){ minhaCorridaId=id; escutarMinhaCorrida(id); supabaseClient.from('corridas').select('*').eq('id',id).single().then(({data})=>{ if(data && data.status==='aceita') mostrarAceita(data); }); } const mot=localStorage.getItem('dom_motorista'); if(mot && document.getElementById('tipo').value==='motorista'){ motoristaLogado=JSON.parse(mot); abrirPainel(); }};
+window.onload=()=>{const id=localStorage.getItem('dom_corrida'); if(id){ minhaCorridaId=id; escutarMinhaCorrida(id); supabaseClient.from('corridas').select('*').eq('id',id).single().then(({data})=>{ if(data && data.status==='aceita') mostrarAceita(data); }); } const mot=localStorage.getItem('dom_motorista_'+CONFIG.CIDADE_CURTA); if(mot){ motoristaLogado=JSON.parse(mot); if(document.getElementById('tipo').value==='motorista') abrirPainel(); }};
 supabaseClient.channel('geral').on('postgres_changes',{event:'*',schema:'public',table:'corridas'},()=>{if(document.getElementById('tipo').value==='motorista') {carregarCorridas(); if(motoristaLogado) carregarHistorico();}}).subscribe();
 </script>
 </body>
