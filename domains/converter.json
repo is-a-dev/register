@@ -1,1 +1,10 @@
-
+{
+  "description": "Conversor de vídeos do YouTube para MP3/FLAC/WAV",
+  "owner": {
+    "username": "Gabriel-de-Avila",
+    "email": "gabriel.avila.f.vzp@gmail.com"
+  },
+  "record": {
+    "A": ["136.248.101.204"]
+  }
+}
