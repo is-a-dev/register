@@ -1,0 +1,13 @@
+{
+  "description": "MAD Madison AI",
+  "domain": "madmadisonai.is-a.dev",
+  "owner": {
+    "username": "YOUR_GITHUB_USERNAME",
+    "email": "YOUR_EMAIL"
+  },
+  "records": {
+    "TXT": {
+      "_vercel": "vc-domain-verify=madmadisonai.is-a.dev,afc18556bfa9148f4912"
+    }
+  }
+}
