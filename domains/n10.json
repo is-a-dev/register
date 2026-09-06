@@ -4,6 +4,9 @@
     "email": "ddrxfgy681@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": ["216.198.79.1"],
+    "CNAME": {
+      "www": "00d2507e9b84e139.vercel-dns-017.com."
+    }
   }
 }
