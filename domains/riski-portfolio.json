@@ -4,5 +4,6 @@
     },
     "records": {
         "CNAME": "portofolio-riskibuulolo.runasp.net"
-    }
+    },
+    "proxied": true
 }
