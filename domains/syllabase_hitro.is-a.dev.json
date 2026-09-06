@@ -1,0 +1,14 @@
+{
+  "description": "Syllabase backend API",
+  "repo": "https://github.com/collab-core/Syllabase",
+  "owner": {
+    "username": "hitrohitro",
+    "email": "rohitbk745@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "anahi.ns.cloudflare.com",
+      "harlan.ns.cloudflare.com"
+    ]
+  }
+}
