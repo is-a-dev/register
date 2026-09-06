@@ -1,0 +1,10 @@
+{
+  "long_description": "Serpentine Arcade — eight playable arcade games (Snake, Block Twist, Breakout, Invaders, Pong, Asteroids, Minesweeper, Memory), hosted on GitHub Pages. Free, offline-first, gamepad & keyboard friendly.",
+  "owner": {
+    "username": "engida32",
+    "email": "engidatv@gmail.com"
+  },
+  "record": {
+    "CNAME": "engida32.github.io"
+  }
+}
