@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "Nyaamsika"
+    },
+    "records": {
+        "CNAME": "YOUR-TUNNEL-UUID.cfargotunnel.com"
+    },
+    "proxied": true
+}
