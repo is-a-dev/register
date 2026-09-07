@@ -6,8 +6,8 @@
   "records": {
     "MX": [
       {
-        "priority": 10,
-        "target": "feedback-smtp.eu-west-1.amazonses.com"
+        "target": "feedback-smtp.eu-west-1.amazonses.com",
+        "priority": 10
       }
     ],
     "TXT": "v=spf1 include:amazonses.com ~all"
