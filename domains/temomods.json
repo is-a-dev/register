@@ -1,11 +1,9 @@
 {
   "owner": {
     "username": "temosilva800-cmd",
-    "email": "tu_correo@gmail.com"
+    "email": "temosilva800@gmail.com"
   },
-  "description": "Pagina oficial de TemoMods - mods y recursos",
-  "record": {
-    "URL": "https://temosilva800-cmd.github.io"
-  },
-  "proxied": false
+  "records": {
+    "A": ["76.76.21.21"]
+  }
 }
