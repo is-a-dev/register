@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "riccardodebellini",
-        "email": "riccardo.debellini@gmail.com"
-    },
-    "records": {
-        "CNAME": "riccardodebellini.github.io"
-    }
+  "owner": {
+    "username": "riccardodebellini",
+    "email": "riccardo.debellini@gmail.com"
+  },
+  "records": {
+    "CNAME": "riccardodebellini.github.io"
+  }
 }

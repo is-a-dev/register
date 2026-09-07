@@ -59,6 +59,7 @@
     "isa",
     "isadev",
     "link",
+    "links",
     "login",
     "m",
     "mail",
@@ -79,8 +80,6 @@
     "notifications",
     "ns",
     "ns0",
-    "ns5",
-    "ns6",
     "ns7",
     "ns8",
     "ns9",
@@ -148,5 +147,6 @@
     "your-domain",
     "your-domain-name",
     "your-subdomain",
-    "zone"
+    "zone",
+    "zones"
 ]

@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "superman-enamy"
-    },
-    "records": {
-        "CNAME": "moin-3bp.pages.dev"
-    }
+  "owner": {
+    "username": "superman-enamy"
+  },
+  "records": {
+    "CNAME": "moin-3bp.pages.dev"
+  }
 }

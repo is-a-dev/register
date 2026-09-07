@@ -1,11 +1,11 @@
 {
-"description": "i want to link my subdomain into zoho mail for email service, Please note that my subdomain(shahid.is-a.dev) is not for 'shahidadev.github.io' it is for 'shahidadev.github.io/shahid' .",
+  "description": "i want to link my subdomain into zoho mail for email service, Please note that my subdomain(shahid.is-a.dev) is not for 'shahidadev.github.io' it is for 'shahidadev.github.io/shahid' .",
   "owner": {
-   "username": "shahidadev",
-   "email": "mdgffkiller8@gmail.com" 
+    "username": "shahidadev",
+    "email": "mdgffkiller8@gmail.com"
   },
   "records": {
-    "CNAME": "shahidadev.github.io" ,
+    "CNAME": "shahidadev.github.io",
     "TXT": [
       "zoho-verification=zb84657564.zmverify.zoho.in ",
       "v=spf1 include:zohomail.in ~all",
@@ -26,5 +26,5 @@
       }
     ]
   },
-"proxied": true
+  "proxied": true
 }

@@ -3,7 +3,9 @@
     "username": "BIPUL-BORDOLOI"
   },
   "records": {
-    "A": ["31.97.236.128"]
+    "A": [
+      "200.234.35.166"
+    ]
   },
   "proxied": true
 }

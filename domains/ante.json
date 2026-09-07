@@ -4,7 +4,9 @@
     "email": "ahcwnh@gmail.com"
   },
   "records": {
-    "A": ["130.61.108.36"],
+    "A": [
+      "130.61.108.36"
+    ],
     "MX": [
       {
         "target": "mx.zoho.eu",
@@ -19,6 +21,9 @@
         "priority": 50
       }
     ],
-    "TXT": ["zoho-verification=zb08689376.zmverify.zoho.eu", "v=spf1 include:zohomail.eu ~all"]
+    "TXT": [
+      "zoho-verification=zb08689376.zmverify.zoho.eu",
+      "v=spf1 include:zohomail.eu ~all"
+    ]
   }
 }

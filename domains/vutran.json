@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "vutrn",
-        "email": "meoiuwai@gmail.com"
-    },
-    "records": {
-        "CNAME": "portfolio-apa.pages.dev"
-    }
+  "owner": {
+    "username": "vutrn",
+    "email": "meoiuwai@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-apa.pages.dev"
+  }
 }

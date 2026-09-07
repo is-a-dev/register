@@ -4,7 +4,9 @@
     "email": "contact@nathanzenou.fr"
   },
   "records": {
-    "A": ["147.93.54.88"]
+    "A": [
+      "147.93.54.88"
+    ]
   },
   "proxied": true
 }
