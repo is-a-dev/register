@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "OneSayong",
-        "email": "buingohoanganhalt@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=sayong.is-a.dev,0ec474c1c1c9551ca539"
-    }
+  "owner": {
+    "username": "OneSayong",
+    "email": "buingohoanganhalt@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sayong.is-a.dev,0ec474c1c1c9551ca539"
+  }
 }
