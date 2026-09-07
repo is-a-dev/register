@@ -1,0 +1,13 @@
+{
+  "domain": "chamika.is-a.dev",
+  "description": "My cPanel VPS",
+  "owner": {
+    "repo": "https://github.com/CHAMI-csr/my-portfolio-website-React.git",
+    "email": "infor.chamika@gmail.com"
+  },
+  "record": {
+    "A": [
+      "138.2.66.76"
+    ]
+  }
+}
