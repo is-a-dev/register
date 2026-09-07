@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "logi-26",
+    "email": "logi26.dev@gmail.com"
+  },
+  "records": {
+    "NS": ["drake.ns.cloudflare.com", "maxine.ns.cloudflare.com"]
+  }
+}
