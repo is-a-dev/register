@@ -4,9 +4,7 @@
     "email": "mareks.kirilovics@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ],
+    "CNAME": "m-crm.mareks-kirilovics.workers.dev",
     "MX": [
       {
         "target": "inbound-smtp.eu-west-1.amazonaws.com",
