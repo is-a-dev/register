@@ -1,0 +1,10 @@
+{
+  "description": "Mi portfolio personal de desarrollo web",
+  "owner": {
+    "username": "acaballero-dev",
+    "email": "alejandrocaballeromoreno123@gmail.com"
+  },
+  "records": {
+    "CNAME": "alejandro-servicios-web.web.app"
+  }
+}
