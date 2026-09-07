@@ -1,10 +1,11 @@
-
 {
-    "owner": {
-        "username": "arjunparmar03",
-        "email": "parmararjun0501@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "arjunparmar03",
+    "email": "parmararjun0501@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

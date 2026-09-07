@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "arjunparmar03",
-        "email": "parmararjun0501@gmail.com"
-    },
-    "records": {
-        "TXT": ["vc-domain-verify=arjunparmar.is-a.dev,d9822f8b7b89a5832e5c"]
-    }
+  "owner": {
+    "username": "arjunparmar03",
+    "email": "parmararjun0501@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=arjunparmar.is-a.dev,d9822f8b7b89a5832e5c"
+    ]
+  }
 }
