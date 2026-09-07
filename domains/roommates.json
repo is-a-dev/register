@@ -1,0 +1,17 @@
+{
+  "description": "RoomMate's — Verified PG & Rental Discovery Platform",
+  "repo": "https://github.com/BharathMalayalam/RoomMates",
+  "owner": {
+    "username": "BharathMalayalam",
+    "email": "bharathmalayalam25@gmail.com"
+  },
+  "records": {
+    "@": [
+      {
+        "type": "A",
+        "value": "129.225.94.152",
+        "ttl": 3600
+      }
+    ]
+  }
+}
