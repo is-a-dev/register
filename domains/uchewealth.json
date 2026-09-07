@@ -1,11 +1,9 @@
 {
     "owner": {
-        "username": "uche-wealth"
+        "username": "uche-wealth",
+        "email": "uchadubs@yahoo.com"
     },
     "records": {
-        "NS": [
-            "celine.ns.cloudflare.com",
-            "quincy.ns.cloudflare.com"
-        ]
+        "A": ["216.198.79.1"]
     }
 }
