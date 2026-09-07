@@ -1,1 +1,11 @@
-
+   {
+     "description": "syncyomi-server",
+     "repo": "https://github.com/AkshitMohan/register",
+     "owner": {
+       "username": "AkshitMohan",
+       "email": "akshitmohan1687@gmail.com"
+     },
+     "record": {
+       "A": ["92.4.78.242"]
+     }
+   }
