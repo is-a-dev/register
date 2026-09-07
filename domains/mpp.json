@@ -1,0 +1,11 @@
+{
+  "description": "My post page blogger",
+  "repo": "https://github.com/RakibAlam/mpp.json",
+  "owner": {
+    "username": "RakibAlamgir",
+    "email": "rakibhossen053@gmail.com"
+  },
+  "records": {
+    "CNAME": "ns1.byet.org"
+  }
+}
