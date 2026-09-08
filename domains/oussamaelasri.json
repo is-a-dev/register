@@ -4,6 +4,6 @@
         "email": "oussamaasri80@gmail.com"
     },
     "records": {
-        "CNAME": "1c184669053d1eec.vercel-dns-017.com."
+        "A": ["216.198.79.1"]
     }
 }
