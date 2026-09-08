@@ -1,10 +1,10 @@
 {
-    "description": "Personal Portfolio",
-    "owner": {
-        "username": "Unknown3663",
-        "email":"ezzatmagedsamir@gmail.com"
-    },
-    "records": {
-        "CNAME": "zez0dev.vercel.app"
-    }
+  "description": "Personal Portfolio",
+  "owner": {
+    "username": "Unknown3663",
+    "email": "ezzatmagedsamir@gmail.com"
+  },
+  "records": {
+    "CNAME": "zez0dev.vercel.app"
+  }
 }
