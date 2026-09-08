@@ -4,6 +4,7 @@
         "email": "ezzatmagedsamir@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=zez0.is-a.dev,d8798e27bed76a8fa63d"
+        "TXT": "vc-domain-verify=zez0.is-a.dev,d8798e27bed76a8fa63d",
+        "A": "216.198.79.1"
     }
 }
