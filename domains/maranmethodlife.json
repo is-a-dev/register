@@ -1,0 +1,10 @@
+{
+  "description": "Sitio web oficial de MaranMethodLife",
+  "owner": {
+    "username": "eliseo007estrada-lab",
+    "email": "eliseo007.estrada@gmail.com"
+  },
+  "record": {
+    "CNAME": "maranmethodlife.vercel.app"
+  }
+}
