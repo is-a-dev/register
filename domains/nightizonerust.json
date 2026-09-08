@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Aria249"
+    "username": "Aria249",
+    "email": "miadking47@atomicmail.io"
   },
   "records": {
-    "A": ["5.57.37.236"]
+    "A": "5.57.37.236"
   }
 }
