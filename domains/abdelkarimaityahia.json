@@ -3,6 +3,7 @@
     "username": "karimait12",
     "email": "karimaityahia98@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "abdelkarimaityahia.vercel.app",
     "TXT": "vc-domain-verify=abdelkarimaityahia.is-a.dev,b3a21e3ce51b712899e4"
