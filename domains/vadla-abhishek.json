@@ -1,0 +1,11 @@
+{
+    "description": "Vadla Abhishek Threat Intelligence Portfolio",
+    "repo": "https://github.com/vadla-abhishek/vadla-abhishek.github.io",
+    "owner": {
+        "username": "vadla-abhishek",
+        "email": "vadla.abhiram@gmail.com"
+    },
+    "record": {
+        "CNAME": "vadla-abhishek.github.io"
+    }
+}
