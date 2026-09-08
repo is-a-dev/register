@@ -5,9 +5,6 @@
   },
   "records": {
     "TXT": "vc-domain-verify=www.zez0.is-a.dev,75adf586e0d4541f8e4b",
-    "A": [
-      "216.198.79.1"
-    ],
     "CNAME": "386e3904ef50d7a6.vercel-dns-017.com."
   },
   "proxied": true
