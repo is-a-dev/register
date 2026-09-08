@@ -1,11 +1,8 @@
-
 {
   "owner": {
     "username": "Foxhound999"
   },
   "records": {
-    "A": [
-      "8.8.8.8"
-    ]
+    "CNAME": "foxhound999.github.io"
   }
 }
