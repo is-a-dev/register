@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "thecaptainexe"
-    },
-    "records": {
-        "CNAME": "thecaptainexe.vercel.app"
-    }
+  "owner": {
+    "username": "thecaptainexe",
+    "email": "itscaptainexe@gmail.com"
+  },
+  "records": {
+    "CNAME": "thecaptainexe.vercel.app"
+  }
 }
