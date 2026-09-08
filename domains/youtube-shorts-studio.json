@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "butter-free",
+    "email": "comet5485@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "meadow.ns.cloudflare.com",
+      "trey.ns.cloudflare.com"
+    ]
+  }
+}
