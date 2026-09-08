@@ -5,6 +5,7 @@
         "email":"ezzatmagedsamir@gmail.com"
     },
     "records": {
-        "CNAME": "zez0dev.vercel.app"
+        "CNAME": "zez0dev.vercel.app",
+        "A": "216.198.79.1"
     }
 }
