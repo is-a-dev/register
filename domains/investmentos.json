@@ -1,9 +1,10 @@
 ﻿{
-    "records":  {
-                    "CNAME":  "cfba3d34-2031-4a86-ab6c-04a7b925a408.cfargotunnel.com"
-                },
-    "owner":  {
-                  "username":  "phuongcodeunited"
-              },
-    "proxied":  true
+    "owner": {
+        "username": "phuongcodeunited",
+        "email": "phuong.codeunited@gmail.com"
+    },
+    "records": {
+        "CNAME": "cfba3d34-2031-4a86-ab6c-04a7b925a408.cfargotunnel.com"
+    },
+    "proxied": true
 }
