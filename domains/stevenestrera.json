@@ -3,6 +3,7 @@
         "username": "crocketier"
     },
     "records": {
-        "CNAME": "crocketier.pages.dev"
+        "CNAME": "b32aaeab2163e1ef.vercel-dns-017.com.",
+        "TXT": "vc-domain-verify=stevenestrera.is-a.dev,2d1a48a8f1cc1d999cca"
     }
 }
