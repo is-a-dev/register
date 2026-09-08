@@ -5,5 +5,8 @@
     },
     "records": {
         "CNAME": "cname.vercel-dns.com"
-    }
+    },
+    "subdomains": [
+        "_vercel"
+    ]
 }
