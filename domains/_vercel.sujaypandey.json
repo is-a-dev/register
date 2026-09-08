@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "sujay-515"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=sujaypandey.is-a.dev,1daccf81d3db2bbca425"
-    }
+  "owner": {
+    "username": "sujay-515"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sujaypandey.is-a.dev,1daccf81d3db2bbca425"
+  }
 }

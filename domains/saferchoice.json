@@ -4,7 +4,9 @@
     "email": "saferchoice.project@gmail.com"
   },
   "records": {
-    "A": ["75.2.60.5"],
+    "A": [
+      "75.2.60.5"
+    ],
     "TXT": "v=spf1 mx ip4:2001:41d0:404:200::62e1 -all",
     "MX": [
       {
