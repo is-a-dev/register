@@ -6,6 +6,8 @@
     "email": "pbsn290704@gmail.com"
   },
   "records": {
-    "CNAME": "retinoladapelene.github.io"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
-  "owner":{
-      "username": "GurKalra",
-      "email": "thegkkalra@gmail.com"
+  "owner": {
+    "username": "GurKalra",
+    "email": "thegkkalra@gmail.com"
   },
   "records": {
-      "CNAME": "portfolio-website-5aq.pages.dev"
+    "CNAME": "portfolio-website-5aq.pages.dev"
   }
 }

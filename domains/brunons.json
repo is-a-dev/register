@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "bruno-ns",
-        "email": "ns.bruno@gmail.com"
-    },
-    "records": {
-        "CNAME": "bruno-ns.github.io"
-    }
+  "owner": {
+    "username": "bruno-ns",
+    "email": "ns.bruno@gmail.com"
+  },
+  "records": {
+    "CNAME": "bruno-ns.github.io"
+  }
 }

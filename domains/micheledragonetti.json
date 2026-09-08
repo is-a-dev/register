@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "notmikenot"
-    },
-    "records": {
-        "CNAME": "micheledragonetti.netlify.app"
-    }
+  "owner": {
+    "username": "notmikenot"
+  },
+  "records": {
+    "CNAME": "micheledragonetti.netlify.app"
+  }
 }

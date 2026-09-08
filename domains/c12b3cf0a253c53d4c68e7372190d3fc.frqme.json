@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Frqmelikescheese"
-    },
-    "records": {
-        "CNAME": "ns1.byet.org"
-    }
+  "owner": {
+    "username": "Frqmelikescheese"
+  },
+  "records": {
+    "CNAME": "ns1.byet.org"
+  }
 }

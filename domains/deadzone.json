@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "DeadZone-0"
-    },
-    "records": {
-        "CNAME": "deadzone-0.vercel.app"
-    }
+  "owner": {
+    "username": "DeadZone-0"
+  },
+  "records": {
+    "CNAME": "deadzone-0.vercel.app"
+  }
 }
