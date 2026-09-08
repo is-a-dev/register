@@ -305,6 +305,16 @@ t("All files should have valid records", (t) => {
                 `${file}: Files starting with '_vercel' must have format '_vercel.<name>.json'`
             );
 
+            t.false(
+                recordKeys.includes("A"),
+                `${file}: Files starting with '_vercel' cannot have 'A' records`
+            );
+
+            t.false(
+                recordKeys.includes("CNAME"),
+                `${file}: Files starting with '_vercel' cannot have 'CNAME' records`
+            );
+
             const txtRecords = data.records.TXT;
             const txtList = Array.isArray(txtRecords) ? txtRecords : [txtRecords];
 
