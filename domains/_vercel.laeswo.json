@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "laeswo"
-  },
-  "records": {
-    "TXT": "vc-domain-verify=laeswo.is-a.dev,3fa9be78d17566cf50ee"
-  }
+    "owner": {
+        "username": "laeswo",
+        "email": "laeswo@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=laeswo.is-a.dev,3fa9be78d17566cf50ee"
+    }
 }
