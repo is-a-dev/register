@@ -1,8 +1,10 @@
 {
   "owner": {
     "username": "sajitpanta03"
+    "email": "pantasajit31.com"
   },
   "records": {
-    "CNAME": "mytechpeople.is-a.dev"
+    "URL": "https://github.com/sajitpanta03"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
