@@ -1,11 +1,10 @@
 {
-  "owner": {
-    "username": "roodyridar2",
-    "email": "roodyridar2@gmail.com"
-  },
-  "records": {
-    "A": [
-      "167.71.57.237"
-    ]
-  }
+    "description": "Portfolio/app on Vercel",
+    "owner": {
+        "username": "roodyridar2",
+        "email": "roodyridar2@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }
