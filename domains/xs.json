@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "xstvstream-media"
+    "username": "xstvstream-media",
+    "email": "hdsfilmes5@gmail.com"
   },
   "record": {
     "CNAME": "xstvstream-media.github.io"
   }
 }
+
