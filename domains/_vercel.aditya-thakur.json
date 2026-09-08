@@ -5,7 +5,7 @@
     "username": "aditya0563",
     "email": "taditiya870@gmail.com"
   },
-  "records": {
-    "TXT": "vc-domain-verify=aditya-thakur.is-a.dev"
+  "record": {
+    "TXT": "vc-domain-verify=aditya-thakur.is-a.dev,276606b452337803ee07"
   }
 }
