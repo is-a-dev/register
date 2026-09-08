@@ -3,6 +3,6 @@
     "username": "levankydu"
   },
   "records": {
-    "CNAME": "levankydu.github.io"
+     "A": ["140.245.46.195"]
   }
 }
