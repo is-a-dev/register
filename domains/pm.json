@@ -1,6 +1,7 @@
 {
   "owner": {
     "username": "okpom",
+    "email": "pomiku@proton.me",
   },
   "records": {
     "CNAME": "jobless-requiem.okpom.workers.dev"
