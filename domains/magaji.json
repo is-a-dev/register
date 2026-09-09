@@ -1,0 +1,39 @@
+{
+  "owner": {
+    "username": "Topaz-code",
+    "email": "erabo65@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "subdomain": {
+    "updates": {
+      "subdomain": {
+        "resend._domainkey": {
+          "record": {
+            "TXT": [
+              "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC26SD4Ks0H92DookiqZ5H9C71ialBhKYmk/SuklIFr+14CsGshyeUH9Ecf5Ksg5afXIwpdNpwMFye6xTwXXxE1IQf0lYg4gQLp/1xbl1tIxX4xW19jIhogb4e01VqKJ5HWwWwY0nudEzVrad5rgwUoJ5SxGY8VXlBPtsdAPGkTjQIDAQAB"
+            ]
+          }
+        },
+        "_dmarc": {
+          "record": {
+            "TXT": [
+              "v=DMARC1; p=none;"
+            ]
+          }
+        },
+        "FIRST_SPF_NAME": {
+          "record": {
+            "CNAME": "rsend-euw1.forge.rmta.net"
+          }
+        },
+        "SECOND_SPF_NAME": {
+          "record": {
+            "CNAME": "send.forge.rmta.net"
+          }
+        }
+      }
+    }
+  }
+}
