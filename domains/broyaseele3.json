@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "sahitttsahit-sys"
+  },
+  "records": {
+    "NS": [
+      "gabriel.ns.cloudflare.com",
+      "ziggy.ns.cloudflare.com"
+    ]
+  }
+}
