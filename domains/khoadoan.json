@@ -1,11 +1,9 @@
     {
-      "description": "Portfolio of Doan Cong Khoa - Backend Developer",
-      "repo": "https://github.com/khoadoan2008/khoadoan2008.github.io",
       "owner": {
         "username": "khoadoan2008",
         "email": "doancongkhoa2008@gmail.com"
       },
-      "record": {
+      "records": {
         "CNAME": "khoadoan2008.github.io"
       }
     }
