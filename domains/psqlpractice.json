@@ -4,9 +4,6 @@
     "email": "rahuldgupta020@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": {
-      "_vercel": "vc-domain-verify=psqlpractice.is-a.dev,8d269256968d0cb6d224"
-    }
+    "A": ["216.198.79.1"]
   }
 }
