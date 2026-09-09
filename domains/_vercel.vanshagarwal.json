@@ -4,8 +4,6 @@
     "email": "agrwlvansh@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "TXT": "vc-domain-verify=vanshagarwal.is-a.dev,4817b746b9a0e778ffa6"
   }
 }
