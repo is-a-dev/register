@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "digiustad48-cloud"
+    "username": "digiustad48-cloud",
+    "email": "digiustad48@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
