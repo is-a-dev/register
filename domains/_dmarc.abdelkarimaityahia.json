@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "karimait12",
+    "email": "karimaityahia98@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
+  }
+}
