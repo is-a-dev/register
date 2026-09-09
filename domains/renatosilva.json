@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "blaustaim-hue"
+    "username": "blaustaim-hue",
+    "email": "blaustaim@gmail.com"
   },
   "records": {
     "CNAME": "renatosilvatech.netlify.app"
