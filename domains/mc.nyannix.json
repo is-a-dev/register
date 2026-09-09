@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "nixpanqueca",
+    "email": "iamthenix@yahoo.com",
+    "discord": "rushpanqueca",
+    "twitter": "nixxlte"
+  },
+  "records": {
+    "A": ["147.185.221.213"],
+    "SRV": [
+      {
+        "priority": 1,
+        "weight": 1,
+        "port": 52638,
+        "target": "practicing-heavily.tun.ply.gg"
+      }
+    ]
+  }
+}
