@@ -1,8 +1,10 @@
 {
     "owner": {
         "username": "MorseTheCode"
+        "email": "morsethecode@gmail.com"
     },
     "records": {
         "CNAME": "morsethecode.github.io"
-    }
+    },
+    "proxied": true
 }
