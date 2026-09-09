@@ -1,0 +1,11 @@
+{
+  "description": "Sand's Domain",
+  "repo": "https://github.com/Sandau1204/domain",
+  "owner": {
+    "username": "Sandau1204",
+    "email": "uongsythanganh@gmail.com"
+  },
+  "record": {
+    "CNAME": "Sandau1204.github.io"
+  }
+}
