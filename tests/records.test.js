@@ -239,6 +239,11 @@ function validateRecordValues(t, data, file) {
             values.forEach((record, idx) => {
                 t.true(typeof record === "string", `${file}: TXT record value should be a string at index ${idx}`);
 
+                t.false(
+                    record.includes("github-pages-challenge"),
+                    `${file}: TXT record cannot contain 'github-pages-challenge' at index ${idx}`
+                );
+
                 if (record.startsWith("vc-domain-verify=")) {
                     t.true(
                         file.startsWith("_vercel."),
