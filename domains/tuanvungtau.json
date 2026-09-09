@@ -1,5 +1,14 @@
 {
   "owner": {
+    "username": "nhattuan612",
+    "email": "nhattuan.trader@gmail.com"
+  },
+  "records": {
+    "CNAME": "scarlett-rose-portfolio.tuantuoitantuathienthan.workers.dev"
+  },
+  "proxied": true
+}{
+  "owner": {
     "username": "nhattuan612"
   },
   "records": {
