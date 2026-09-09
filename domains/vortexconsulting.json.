@@ -1,0 +1,8 @@
+{
+  "description": "Vortex Consulting infrastructure",
+  "domain": "is-a.dev",
+  "subdomain": "vortexconsulting",
+  "records": {
+    "A": "82.208.21.112"
+  }
+}
