@@ -1,0 +1,24 @@
+{
+  "description": "Business email for a small engineering consultancy",
+  "owner": {
+    "username": "Amz34",
+    "email": "azengineeringapp@gmail.com"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 50
+      }
+    ],
+    "TXT": "v=spf1 include:zohomail.com ~all"
+  }
+}
