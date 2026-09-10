@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "velehrac"
+  },
+  "record": {
+    "NS": [
+      "dion.ns.cloudflare.com",
+      "karsyn.ns.cloudflare.com"
+    ]
+  }
+}
