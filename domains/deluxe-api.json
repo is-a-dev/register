@@ -1,5 +1,9 @@
 {
-  "owner": { "username": "KenisawaDevolper", "email": "mauroazcurra035@gmail.com" },
-  "subdomain": "deluxe-api",
-  "records": { "CNAME": "rest-api-lwqi.onrender.com" }
+  "owner": {
+    "username": "KenisawaDevolper",
+    "email": "mauroazcurra035@gmail.com"
+  },
+  "records": {
+    "CNAME": "rest-api-lwqi.onrender.com"
+  }
 }
