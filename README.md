@@ -1,58 +1,66 @@
-<!-- <p align="center">
-   <img alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
-</p> -->
+# Система контролю версій Git
 
-<p align="center">
-   <img height="350" alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
-</p>
-
-<p align="center">
-   <img alt="Domains" src="https://img.shields.io/github/directory-file-count/is-a-dev/register/domains?color=5c46eb&label=domains&style=for-the-badge">
-   <img alt="Open Pull Requests" src="https://img.shields.io/github/issues-raw/is-a-dev/register?color=5c46eb&label=issues&style=for-the-badge">
-   <img alt="Open Issues" src="https://img.shields.io/github/issues-pr-raw/is-a-dev/register?color=5c46eb&label=pull%20requests&style=for-the-badge">
-   <br>
-</p>
-
-<h1 align="center">is-a.dev</h1>
-
-<p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking <code>.is-a.dev</code> subdomain for their personal websites.</p>
-<p align="center">📕 <a href="https://docs.is-a.dev">Documentation</a> &bull; 📜 <a href="https://is-a.dev/terms">Terms of Service</a> &bull; 💖 <a href="https://donate.is-a.dev">Donate</a></p>
+Цей репозиторій містить навчальні матеріали, інструкції та ресурси з вивчення системи контролю версій **Git**.
 
 ---
 
-## 📢 Announcements
-Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for announcements, service updates, and downtime notifications regarding the service.
-
-Only critical announcements are posted on GitHub, everything else is posted on our Discord server.
-
----
-
-> [!NOTE]
-> We've launched another free subdomain service! Claim your `.is-a.bot` subdomain [here](https://github.com/free-domains/is-a.bot).
+## 📋 Зміст
+1. [Вступ: Що таке VCS та Git](#1-вступ-що-таке-vcs-та-git)
+2. [Основні можливості та переваги Git](#2-основні-можливості-та-переваги-git)
+3. [10 базових команд Git](#3-10-базових-команд-git)
+4. [Сертифікат про проходження курсу](#4-сертифікат-про-проходження-курсу)
+5. [Корисні джерела та лінки](#5-корисні-джерела-та-лінки)
 
 ---
 
-# ✏️ Register
-> If you want a visual guide, check out [this blog post](https://blog.wharrison.com.au/2024/07/is-a-dev/).
+## 1. Вступ: Що таке VCS та Git
 
-- [Fork](https://github.com/is-a-dev/register/fork) the repository.
-- Follow the instructions on our [documentation](https://docs.is-a.dev).
-  - Do not use AI to generate your request, it **WILL** always get it wrong and will delay you getting a domain.
-- Once you open your pull request (PR), it will be reviewed. *Keep an eye on it in case changes are needed!*
-   - If changes have been requested, please make the specified changes otherwise **you will be rejected**.
-- Once your PR is merged, your DNS records should be published with-in a few minutes.
-- Enjoy your new `.is-a.dev` subdomain! Please consider leaving a star ⭐️ to help support us!
+* **Система контролю версій (Version Control System / VCS)** — це програмне забезпечення, яке фіксує зміни у файлах проекту з перебігом часу, дозволяючи повертатися до попередніх станів, аналізувати історію редагувань та ефективно організовувати командну розробку.
+* **Git** — це найпопулярніша розподілена система контролю версій (Distributed VCS), створена Лінусом Торвальдсом у 2005 році. На відміну від централізованих систем (таких як SVN), у Git кожен розробник має повну локальну копію всієї історії репозиторію.
 
 ---
 
-## ⛔ Report Abuse
-If you find any subdomains being abused or breaking our [ToS](https://is-a.dev/terms), please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with relevant evidence.
+## 2. Основні можливості та переваги Git
+
+* **Розподілена архітектура:** Можливість повноцінно працювати офлайн та мати повне резервування коду на кожному комп'ютері розробника.
+* **Гнучка система розгалуження (Branching):** Легке створення, об'єднання та видалення гілок для розробки окремих фіч, експериментів чи виправлення помилок.
+* **Швидкість та продуктивність:** Більшість операцій (комміти, перегляд історії, переключення гілок) виконуються локально на високій швидкості.
+* **Безпека та цілісність даних:** Використання криптографічних хешів (SHA-1/SHA-256) для перевірки цілісності файлів і коммітів.
+* **Багата екосистема:** Інтеграція з усіма сучасними IDE, а також з платформами віддаленого хостингу коду (GitHub, GitLab, Bitbucket).
 
 ---
 
-## 💖 Supporting Us
-If you would like to help support us, please consider [donating](https://donate.is-a.dev) or [sponsoring](https://donate.is-a.dev/sponsor).
+## 3. 10 базових команд Git
 
-We are proudly supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) program for our DNS management.
+Нижче наведено 10 найважливіших команд для повсякденної роботи в Git:
 
-We would like to thank all of our current and past [supporters](https://is-a.dev/thanks).
+```bash
+# 1. Ініціалізація нового локального Git-репозиторію в поточній директорії
+git init
+
+# 2. Клонування існуючого віддаленого репозиторію на локальний комп'ютер
+git clone [https://github.com/username/repository.git](https://github.com/username/repository.git)
+
+# 3. Перегляд поточного стану робочого дерева та відстежуваних/невідстежуваних файлів
+git status
+
+# 4. Додавання змін або файлів до індексу (Staging Area) для підготовки до комміту
+git add .
+
+# 5. Фіксація (збереження) доданих змін в історії репозиторію з описовим коментарем
+git commit -m "Add core project documentation and README"
+
+# 6. Перегляд списку існуючих гілок або створення нової гілки
+git branch feature-login
+
+# 7. Створення та автоматичний перехід на нову гілку
+git checkout -b feature-login
+
+# 8. Об'єднання змін із зазначеної гілки в поточну активну гілку
+git merge feature-login
+
+# 9. Завантаження та автоматичне об'єднання останніх змін із віддаленого репозиторію
+git pull origin main
+
+# 10. Відправка локальних коммітів до віддаленого репозиторію на GitHub/GitLab
+git push origin main
