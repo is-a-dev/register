@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "sroshan106"
+    },
+    "records": {
+      "CNAME": "22da67192685825a.vercel-dns-017.com",
+      "TXT": {
+        "_vercel": "vc-domain-verify=roshan.singh.is-a.dev,c53190a48067abe41cf1"
+      }
+    }
+}
