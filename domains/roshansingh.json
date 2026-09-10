@@ -2,7 +2,7 @@
     "owner": {
         "username": "sroshan106"
     },
-        "proxied": true,
+    "proxied": true,
     "records": {
       "CNAME": "22da67192685825a.vercel-dns-017.com",
       "TXT": {
