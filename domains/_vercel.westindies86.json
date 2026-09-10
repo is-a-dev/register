@@ -1,0 +1,10 @@
+{
+  "description": "Vercel verification for westindies86.is-a.dev",
+  "owner": {
+    "username": "westindies86-DeV",
+    "email": "westindies86@gmail.com"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=westindies86.is-a.dev,a037dff79a0d9226cf0c"
+  }
+}
