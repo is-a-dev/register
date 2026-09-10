@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "infinityDev-07",
+    "email": "officiallsparkshift@gmail.com"
+  },
+  "domain": "infinityos",
+  "subdomain": "",
+  "records": {
+    "CNAME": "infinitydev-07.github.io"
+  },
+  "proxied": false
+}
