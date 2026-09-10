@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "scapulas"
-  },
-  "records": {
-    "URL": "https://github.com/scapulas"
-  }
+    "owner": {
+        "username": "github-username",
+        "email": "me@example.com"
+    },
+    "records": {
+        "CNAME": "github-username.github.io"
+    }
 }
