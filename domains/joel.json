@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "joelOfTheSharingan",
-        "email": "joelmichaelgeorge@gmail.com"
-    },
-    "records": {
-        "CNAME": "joelofthesharingan.github.io"
-    }
+  "owner": {
+    "username": "joelOfTheSharingan",
+    "email": "joelmichaelgeorge@gmail.com"
+  },
+  "records": {
+    "CNAME": "joelofthesharingan.github.io"
+  }
 }

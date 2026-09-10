@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "blobnix",
-        "email": "trishu.main@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "blobnix",
+    "email": "trishu.main@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
