@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "crxtich",
+    "linkedin": "https://www.linkedin.com/in/crotich/"
+  },
+  "description": "Resend DKIM for nse-tracker.is-a.dev",
+  "records": {
+    "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQPnHfHKYEK9/Kf1+Vh3kphiLvlF4a8Pf8WjJN3ZYQwy8mOc7/jGVS51jx755brzplcpuehzRaD35YyklhP7WcSzfHjp8gIsqtCIBL9lut2yQhwvFCjd/Vbf6k5aT+jL3VmLTfWSoDeunlgfdFFgk6sABHZbrU0S3p3qCBLPrKOwIDAQAB"
+  }
+}

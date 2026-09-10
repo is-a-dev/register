@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "crxtich",
+    "linkedin": "https://www.linkedin.com/in/crotich/"
+  },
+  "description": "Resend email sending (SPF) for nse-tracker.is-a.dev",
+  "records": {
+    "CNAME": "send.forge.rmta.net"
+  }
+}
