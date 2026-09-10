@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "pareshmishra23",
+    "email": "paresh.mishra@gmail.com"
+  },
+  "description": "Root namespace for GUS Research Lab AI telemetry dashboard & open-source projects",
+  "records": {
+    "URL": "http://gusresearchlab.hopto.org:8000"
+  }
+}
