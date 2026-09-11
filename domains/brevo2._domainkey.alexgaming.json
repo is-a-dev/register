@@ -4,10 +4,7 @@
     "email": "alexgaming.padh@gmail.com"
   },
   "proxied": false,
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "b2.alexgaming-is-a-dev.dkim.brevo.com"
-    }
-  ]
+  "records": {
+    "CNAME": "b2.alexgaming-is-a-dev.dkim.brevo.com"
+  }
 }
