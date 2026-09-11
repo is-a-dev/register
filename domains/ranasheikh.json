@@ -6,12 +6,7 @@
         "email": "rana6424sheikh@gmail.com"
     },
     "records": {
-        "A": [
-            "185.199.108.153",
-            "185.199.109.153",
-            "185.199.110.153",
-            "185.199.111.153"
-        ],
+        "CNAME": "ranasheikh64.github.io",
         "MX": [
             "mx1.improvmx.com",
             "mx2.improvmx.com"
