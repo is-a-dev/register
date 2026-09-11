@@ -23,7 +23,7 @@
 ## 📢 Announcements
 Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for announcements, service updates, and downtime notifications regarding the service.
 
-Only critical announcements are posted on GitHub, everything else is posted on our Discord server.
+Only critical announcements are posted on GitHub; everything else is posted on our Discord server.
 
 ---
 
@@ -39,7 +39,7 @@ Only critical announcements are posted on GitHub, everything else is posted on o
 - Follow the instructions on our [documentation](https://docs.is-a.dev).
   - Do not use AI to generate your request, it **WILL** always get it wrong and will delay you getting a domain.
 - Once you open your pull request (PR), it will be reviewed. *Keep an eye on it in case changes are needed!*
-   - If changes have been requested, please make the specified changes otherwise **you will be rejected**.
+   - If changes have been requested, please make the specified changes otherwise **you will be rejected!**
 - Once your PR is merged, your DNS records should be published with-in a few minutes.
 - Enjoy your new `.is-a.dev` subdomain! Please consider leaving a star ⭐️ to help support us!
 
