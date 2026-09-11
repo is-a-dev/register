@@ -4,5 +4,6 @@
   },
   "records": {
     "CNAME": "personal-blog.cobbie.workers.dev"
-  }
+  },
+  "proxied": true
 }
