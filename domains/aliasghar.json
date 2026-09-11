@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "Ali2ii",
-    "email": "Aliasgharyaqubi248@gmail.com"
+    "email": "khadimhu1994@gmail.com"
   },
-  "record": {
-    "CNAME": "https://php-pro-t8jt.onrender.com"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
