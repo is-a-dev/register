@@ -1,0 +1,11 @@
+{
+  "description": "mpreg Proxy",
+  "owner": {
+    "username": "SubhrajitSain",
+    "email": "subhrajitsain34@gmail.com"
+  },
+  "records": {
+    "CNAME": "c2bf415f3722c87a.vercel-dns-017.com."
+  },
+  "proxied": false
+}
