@@ -4,9 +4,8 @@
     "email": "anup@librecion.com"
   },
   "records": {
-    "CNAME": [
-      "iamanupsutar.github.io"
-    ],
+    "CNAME":
+      "iamanupsutar.github.io",
     "TXT": [
       "zoho-verification=zb60255639.zmverify.zoho.in",
       "v=spf1 include:zoho.in ~all"
