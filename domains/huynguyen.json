@@ -1,10 +1,11 @@
 {
+  "description": "Personal portfolio and software development project showcase.",
+  "repo": "https://github.com/ALKAstraverse",
   "owner": {
     "username": "ALKAstraverse",
-    "email": "huynguyen@alk.helioho.st"
+    "email": "contact.me@alk.helioho.st"
   },
-  "records": {
-    "A": ["65.19.154.94"]
-  },
-  "proxied": true
+  "record": {
+    "CNAME": "alkastraverse.github.io"
+  }
 }
