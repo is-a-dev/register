@@ -4,6 +4,15 @@
     "email": "vgvvlsa@gmail.com"
   },
   "records": {
-    "CNAME": "vgvvlsa-dev.onrender.com"
+    "CNAME": [
+      {
+        "name": "render",
+        "value": "vgvvlsa-dev.onrender.com"
+      },
+      {
+        "name": "vercel",
+        "value": "vgvvlsa-dev.vercel.app"
+      }
+    ]
   }
 }
