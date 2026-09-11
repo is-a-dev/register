@@ -4,7 +4,6 @@
     "email": "yogeshkumarn.02@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=yogesh.is-a.dev,0714c71668f6cd5926e3"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
