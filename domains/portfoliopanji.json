@@ -1,1 +1,12 @@
-
+{
+  "owner": {
+    "username": "frunzeeeic",
+    "email": "panjiap33@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "meiling.ns.cloudflare.com",
+      "nico.ns.cloudflare.com"
+    ]
+  }
+}
