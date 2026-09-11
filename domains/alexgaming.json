@@ -4,7 +4,7 @@
     "email": "alexgaming.padh@gmail.com"
   },
   "description": "Portfolio and Email Forwarding for alexgamingdev",
-  "proxied": false,
+  "proxied": true,
   "records": {
     "CNAME": "alexgaming-dev.github.io",
     "MX": [
