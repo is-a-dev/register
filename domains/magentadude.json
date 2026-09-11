@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "MagentaDude",
-        "discord": "magentadude"
-    },
-    "records": {
-        "CNAME": "magentadude.github.io"
-    }
+  "owner": {
+    "username": "MagentaDude",
+    "discord": "magentadude"
+  },
+  "records": {
+    "CNAME": "magentadude.github.io"
+  }
 }

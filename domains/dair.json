@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ferdair",
-        "email": "dairsanchez@gmail.com"
-    },
-    "records": {
-        "CNAME": "ferdair-portfolio.pages.dev"
-    }
+  "owner": {
+    "username": "ferdair",
+    "email": "dairsanchez@gmail.com"
+  },
+  "records": {
+    "CNAME": "ferdair-portfolio.pages.dev"
+  }
 }

@@ -4,7 +4,9 @@
     "email": "polen18@gmail.com"
   },
   "records": {
-    "A": ["150.230.158.71"]
+    "A": [
+      "150.230.158.71"
+    ]
   },
   "proxied": false
 }

@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "uche-wealth"
+        "username": "uche-wealth",
+        "email": "uchadubs@yahoo.com"
     },
     "records": {
-        "CNAME": "lwu.pythonanywhere.com"
+        "A": ["216.198.79.1"]
     }
 }

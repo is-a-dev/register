@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "LenaDijksma"
-    },
-    "records": {
-        "CNAME": "lenadijksma.onrender.com"
-    }
+  "owner": {
+    "username": "LenaDijksma"
+  },
+  "records": {
+    "CNAME": "lenadijksma.vercel.app"
+  }
 }

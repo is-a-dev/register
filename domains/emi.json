@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "emberaine",
-        "discord": "emberainee"
-    },
-    "records": {
-        "CNAME": "emberaine.github.io"
-    }
+  "owner": {
+    "username": "emberaine",
+    "discord": "emberainee"
+  },
+  "records": {
+    "CNAME": "emberaine.github.io"
+  }
 }

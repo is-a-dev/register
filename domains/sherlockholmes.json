@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sherlockholmestech",
-        "email": "sherlock@lockrmail.com"
-    },
-    "records": {
-        "CNAME": "sherlockholmes.pages.dev"
-    }
+  "owner": {
+    "username": "sherlockholmestech",
+    "email": "sherlock@lockrmail.com"
+  },
+  "records": {
+    "CNAME": "sherlockholmes.pages.dev"
+  }
 }

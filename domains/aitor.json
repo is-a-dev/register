@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AitorConS",
-        "email": "aitorconesalucena@gmail.com"
-    },
-    "records": {
-        "CNAME": "aitorconesa.es"
-    }
+  "owner": {
+    "username": "AitorConS",
+    "email": "aitorconesalucena@gmail.com"
+  },
+  "records": {
+    "CNAME": "aitorconesa.es"
+  }
 }
