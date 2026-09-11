@@ -4,6 +4,8 @@
     "email": "anujlakhekar4@jdcoem.ac.in"
   },
   "records": {
-    "TXT": "vc-domain-verify=anujlakhekar.is-a.dev,ecf1a37472213f2fe7d5"
+    "TXT": ["vc-domain-verify=anujlakhekar.is-a.dev,ecf1a37472213f2fe7d5",
+      "google-site-verification=rCzCfNFNBy8aPUxsx2oEWPX5eC5C-agYH6qmRdEWilc"]
+
   }
 }
