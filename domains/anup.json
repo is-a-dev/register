@@ -5,7 +5,6 @@
   },
   "records": {
     "CNAME": "iamanupsutar.github.io",
-      "iamanupsutar.github.io",
     "TXT": [
       "zoho-verification=zb60255639.zmverify.zoho.in",
       "v=spf1 include:zoho.in ~all"
