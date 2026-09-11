@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "frost-rvl",
-        "email": "voaryluciano@proton.me"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=voaryluciano.is-a.dev,e4358da4f80b5988a777"
-    }
+  "owner": {
+    "username": "frost-rvl",
+    "email": "voaryluciano@proton.me"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=voaryluciano.is-a.dev,e4358da4f80b5988a777"
+  }
 }
