@@ -1,14 +1,12 @@
 {
   "owner": {
-    "username": "krishanmurariji",
-    "email": "mrkrishanmurariji@gmail.com"
+    "username": "iamanupsutar",
+    "email": "anup@librecion.com"
   },
   "records": {
-    "A": [
-      "76.76.21.21"
-    ],
+    "CNAME": "iamanupsutar.github.io",
     "TXT": [
-      "zoho-verification=zb27668643.zmverify.zoho.in",
+      "zoho-verification=zb60255639.zmverify.zoho.in",
       "v=spf1 include:zoho.in ~all"
     ],
     "MX": [
@@ -25,5 +23,6 @@
         "priority": 50
       }
     ]
-  }
+  },
+  "proxied": true
 }
