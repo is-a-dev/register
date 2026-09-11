@@ -6,6 +6,8 @@
         "email": "rana6424sheikh@gmail.com"
     },
     "records": {
-        "CNAME": "ranasheikh64.github.io"
+        "CNAME": "ranasheikh64.github.io",
+        "MX": ["10 mx1.improvmx.com", "20 mx2.improvmx.com"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
     }
 }
