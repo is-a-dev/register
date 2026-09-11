@@ -7,7 +7,7 @@
     "MX": [
       {
         "priority": 10,
-        "value": "inbound-smtp.us-east-1.amazonaws.com"
+        "target": "inbound-smtp.us-east-1.amazonaws.com"
       }
     ]
   }
