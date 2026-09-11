@@ -1,58 +1,52 @@
-<!-- <p align="center">
-   <img alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
-</p> -->
+# DRipACS Teleradiology
 
-<p align="center">
-   <img height="350" alt="is-a.dev Banner" src="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">
-</p>
+Local Windows DICOM receiver with a password-protected patient web viewer.
 
-<p align="center">
-   <img alt="Domains" src="https://img.shields.io/github/directory-file-count/is-a-dev/register/domains?color=5c46eb&label=domains&style=for-the-badge">
-   <img alt="Open Pull Requests" src="https://img.shields.io/github/issues-raw/is-a-dev/register?color=5c46eb&label=issues&style=for-the-badge">
-   <img alt="Open Issues" src="https://img.shields.io/github/issues-pr-raw/is-a-dev/register?color=5c46eb&label=pull%20requests&style=for-the-badge">
-   <br>
-</p>
+## Current secure architecture
 
-<h1 align="center">is-a.dev</h1>
+`app_secure.py` is now the default server started by `start_server.bat`.
 
-<p align="center"><strong>is-a.dev</strong> is a service that allows developers to get a sweet-looking <code>.is-a.dev</code> subdomain for their personal websites.</p>
-<p align="center">📕 <a href="https://docs.is-a.dev">Documentation</a> &bull; 📜 <a href="https://is-a.dev/terms">Terms of Service</a> &bull; 💖 <a href="https://donate.is-a.dev">Donate</a></p>
+Flow:
 
----
+1. Raster Router / modality sends DICOM to `SECURELINK:11112`.
+2. The server stores DICOM under `received/<StudyUID>/<SeriesUID>/`.
+3. A random 32-byte URL token is created for the study and expires after 30 days.
+4. The configured `LINK_PASSWORD` is stored only as a strong password hash in SQLite.
+5. The patient opens `/p/<token>` and enters the common patient-link password.
+6. A signed Flask session is created only after successful authentication.
+7. Viewer and every DICOM/metadata/report API verify both the token and authenticated session.
+8. DICOM access is restricted to the series belonging to that study.
 
-## 📢 Announcements
-Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150) for announcements, service updates, and downtime notifications regarding the service.
+## Credentials and secrets
 
-Only critical announcements are posted on GitHub, everything else is posted on our Discord server.
+Do not commit `.env`, the SQLite database, or patient DICOM files.
 
----
+Required environment variables:
 
-> [!NOTE]
-> We've launched another free subdomain service! Claim your `.is-a.bot` subdomain [here](https://github.com/free-domains/is-a.bot).
+- `FLASK_SECRET_KEY` — long random secret used to sign Flask sessions.
+- `ADMIN_PASSWORD_HASH` — Werkzeug password hash for the admin account.
+- `LINK_PASSWORD` — fixed/common patient-link password for all studies.
+- `PUBLIC_URL` — public HTTPS URL used when generating links.
 
----
+The repository intentionally contains placeholders in `.env.example`, not real credentials.
 
-# ✏️ Register
-> If you want a visual guide, check out [this blog post](https://blog.wharrison.com.au/2024/07/is-a-dev/).
+## Windows setup
 
-- [Fork](https://github.com/is-a-dev/register/fork) the repository.
-- Follow the instructions on our [documentation](https://docs.is-a.dev).
-  - Do not use AI to generate your request, it **WILL** always get it wrong and will delay you getting a domain.
-- Once you open your pull request (PR), it will be reviewed. *Keep an eye on it in case changes are needed!*
-   - If changes have been requested, please make the specified changes otherwise **you will be rejected**.
-- Once your PR is merged, your DNS records should be published with-in a few minutes.
-- Enjoy your new `.is-a.dev` subdomain! Please consider leaving a star ⭐️ to help support us!
+```text
+python -m pip install -r requirements.txt
+python app_secure.py
+```
 
----
+Or double-click `start_server.bat`.
 
-## ⛔ Report Abuse
-If you find any subdomains being abused or breaking our [ToS](https://is-a.dev/terms), please report them by [creating an issue](https://github.com/is-a-dev/register/issues/new?assignees=&labels=report-abuse&projects=&template=report-abuse.md&title=Report+abuse) with relevant evidence.
+Admin: `http://127.0.0.1:5000/admin`
 
----
+DICOM: `SECURELINK` on port `11112`.
 
-## 💖 Supporting Us
-If you would like to help support us, please consider [donating](https://donate.is-a.dev) or [sponsoring](https://donate.is-a.dev/sponsor).
+## Security notes
 
-We are proudly supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) program for our DNS management.
+Use HTTPS for remote patient access. Keep `FLASK_SECRET_KEY`, `ADMIN_PASSWORD_HASH`, and `LINK_PASSWORD` outside GitHub. Rotate credentials if they have ever been committed publicly. The old `app.py` is retained as a legacy backup; production startup now uses `app_secure.py`.
 
-We would like to thank all of our current and past [supporters](https://is-a.dev/thanks).
+## Viewer
+
+The existing `templates/viewer.html` is served after patient authentication. The viewer receives the study token through `__TOKEN__` and loads original DICOM objects through authenticated APIs.

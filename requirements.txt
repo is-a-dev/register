@@ -1,0 +1,4 @@
+Flask>=3,<4
+pydicom>=3,<4
+pynetdicom>=3,<4
+numpy>=2,<3

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRipACS Teleradiology DICOM Web Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #00adb5;
+        }
+        .container {
+            border: 2px dashed #00adb5;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            background-color: #1e1e1e;
+            width: 80%;
+            max-width: 600px;
+        }
+        input[type="file"] {
+            margin-top: 15px;
+            color: #fff;
+        }
+        .viewer-box {
+            margin-top: 20px;
+            width: 100%;
+            height: 300px;
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #333;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>DRipACS Teleradiology DICOM Web Viewer</h1>
+    <p>Upload DICOM medical images (.dcm) for viewing and analysis.</p>
+
+    <div class="container">
+        <h3>Select DICOM File</h3>
+        <input type="file" id="dicomFile" accept=".dcm">
+        
+        <div class="viewer-box" id="viewer">
+            DICOM Display Area
+        </div>
+    </div>
+
+</body>
+</html>
