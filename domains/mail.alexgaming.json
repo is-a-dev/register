@@ -9,6 +9,26 @@
         "priority": 10,
         "target": "inbound-smtp.us-east-1.amazonaws.com"
       }
+    ],
+    "CNAME": [
+      {
+        "name": "send",
+        "value": "send.forge.rmta.net"
+      },
+      {
+        "name": "rsend",
+        "value": "rsend.forge.rmta.net"
+      }
+    ],
+    "TXT": [
+      {
+        "name": "resend._domainkey",
+        "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbzrofargKSGBKH9VOymXgOlPsjyz5qxudV2Za9aqM31wmqGZShXekmeJmSIUrwMq0b7XZHWTjgCiy1PX/rBgf3q9jmUWcDKGprjgoSiSTYpeg8xaeZkgyYmOgpQrIvgE5ZnwEF1xG3qAHCy5OISlmIo1B89oD9tRf13c/e+VPLwIDAQAB"
+      },
+      {
+        "name": "@",
+        "value": "v=spf1 include:amazonses.com ~all"
+      }
     ]
   }
 }
