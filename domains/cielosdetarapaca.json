@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "huertaocarlos-eng",
-    "email": "Huerta.o.carlos@gmail.com"
+    "email": "huerta.o.carlos@gmail.com"
   },
   "records": {
-    "CNAME": "huertaocarlos-eng.github.io"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
