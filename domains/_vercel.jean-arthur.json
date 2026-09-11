@@ -1,12 +1,12 @@
 {
-    "owner": {
-        "username": "8n9ght",
-        "email": "8n9ght@gmail.com"
-    },
-    "records": {
-        "TXT": [
-            "vc-domain-verify=jean-arthur.is-a.dev,19f6c4cc94b4272ef0d4",
-            "vc-domain-verify=www.jean-arthur.is-a.dev,81d5fd5854bd972355be"
-        ]
-    }
+  "owner": {
+    "username": "8n9ght",
+    "email": "8n9ght@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=jean-arthur.is-a.dev,19f6c4cc94b4272ef0d4",
+      "vc-domain-verify=www.jean-arthur.is-a.dev,81d5fd5854bd972355be"
+    ]
+  }
 }
