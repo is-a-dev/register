@@ -4,6 +4,8 @@
     "email": "iamsameersaif@gmail.com"
   },
   "records": {
-    "CNAME": "sameer-saif1.github.io"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
