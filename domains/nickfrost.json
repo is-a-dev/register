@@ -1,11 +1,11 @@
 {
-   "owner": {
-      "username": "nickfrostcode",
-      "email": "bensonnicholas206@gmail.com"
-   },
-   "records": {
-      "A": [
-         "216.198.79.1"
-      ]
-   }
+  "owner": {
+    "username": "nickfrostcode",
+    "email": "bensonnicholas206@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

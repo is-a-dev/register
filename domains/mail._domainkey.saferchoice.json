@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "89ph88o8gf",
+    "email": "saferchoice.project@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn7VyM9lG/kThSk2weEhGlK3Jg6sUbbXLcrSoBLS8nQyCrLesXSypN7ON7TPBSEFqcGU+u18TBc/9DqrpA8c/h12V0n3Fv3xcWDmevSbAhXLgGc6sHq273vI0bqiUzZaz947fdKL8tWHQpoVtPzSry6f1ugVeHAOWYk0EkhvK6yEnKiCwEfQjd0PRpaIh4d16f6pmiqNv63V/6lG/KWjXzCNjJufgMBehLIuRpF8PNeq9qM/PO17XlVi49AWuXX1I8iUcIr9doAF7DDBo1fO3iU8sbBtTouhI1IaE0QUjjxyhxnPw+JP36SuJPEDH1mEBjszfmdYm07eBJ55yRiRcfwIDAQAB"
+  }
+}

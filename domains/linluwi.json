@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "MaseDev33"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "MaseDev33"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

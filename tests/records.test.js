@@ -238,6 +238,27 @@ function validateRecordValues(t, data, file) {
             const values = Array.isArray(value) ? value : [value];
             values.forEach((record, idx) => {
                 t.true(typeof record === "string", `${file}: TXT record value should be a string at index ${idx}`);
+
+                t.false(
+                    record.includes("github-pages-challenge"),
+                    `${file}: TXT record cannot contain 'github-pages-challenge' at index ${idx}`
+                );
+
+                if (record.startsWith("vc-domain-verify=")) {
+                    t.true(
+                        file.startsWith("_vercel."),
+                        `${file}: vc-domain-verify TXT records are only allowed in files starting with _vercel.`
+                    );
+
+                    const domainToken = record.split("vc-domain-verify=")[1].split(",")[0];
+                    const targetName = file.replace(/^_vercel\./, "").replace(/\.json$/, "");
+                    const expectedDomain = `${targetName}.is-a.dev`;
+
+                    t.true(
+                        domainToken === expectedDomain || domainToken.endsWith(`.${expectedDomain}`),
+                        `${file}: Vercel TXT record domain (${domainToken}) must be '${expectedDomain}' or end with '.${expectedDomain}'`
+                    );
+                }
             });
         }
     });
@@ -282,6 +303,26 @@ t("All files should have valid records", (t) => {
     files.forEach((file) => {
         const data = getDomainData(file);
         const recordKeys = Object.keys(data.records);
+
+        if (file.startsWith("_vercel")) {
+            t.true(
+                /^_vercel\.[^.]+\.json$/.test(file),
+                `${file}: Files starting with '_vercel' must have format '_vercel.<name>.json'`
+            );
+
+            t.true(
+                recordKeys.includes("TXT") && recordKeys.length === 1,
+                `${file}: Files starting with '_vercel' can only have TXT records`
+            );
+
+            const txtRecords = data.records.TXT;
+            const txtList = Array.isArray(txtRecords) ? txtRecords : [txtRecords];
+
+            t.true(
+                txtList.length > 0 && txtList.every((record) => typeof record === "string" && record.startsWith("vc-domain-verify=")),
+                `${file}: Vercel verification files must contain at least one TXT record and all TXT records must start with 'vc-domain-verify='`
+            );
+        }
 
         recordKeys.forEach((key) => {
             t.true(validateRecordType(key), `${file}: Invalid record type: ${key}`);
