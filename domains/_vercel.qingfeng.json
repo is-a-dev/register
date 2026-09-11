@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "mmxskl-bot"
+    "username": "mmxskl-bot",
+    "email": "mmxskl@163.com"
   },
   "records": {
     "TXT": "vc-domain-verify=is-a.dev,397fd878e7ff0f57ade1"
