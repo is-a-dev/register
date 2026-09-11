@@ -5,10 +5,5 @@
   },
   "record": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "subdomains": {
-    "render": {
-      "CNAME": "vgvvlsa-dev.onrender.com"
-    }
   }
 }
