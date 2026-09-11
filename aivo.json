@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "your-github-username",
+    "username": "zanyardoit-cloud",
     "email": "zanyardoit@gmail.com"
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
   }
+}
