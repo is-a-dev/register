@@ -4,6 +4,11 @@
     "email": "alexgaming.padh@gmail.com"
   },
   "records": {
-    "CNAME": "alexgamingdev.github.io"
+    "MX": [
+      {
+        "priority": 10,
+        "target": "inbound-smtp.us-east-1.amazonaws.com"
+      }
+    ]
   }
 }
