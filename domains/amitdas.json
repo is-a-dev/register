@@ -1,0 +1,24 @@
+{
+  "owner": {
+    "username": "AmitDas4321",
+    "x": "AmitDas4321",
+    "facebook": "AmitDas4321",
+    "discord": "AmitDas4321"
+  },
+  "records": {
+    "A": [
+      "92.4.86.157"
+    ],
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mail.amitdas.site"
+      }
+    ],
+    "TXT": [
+      "v=spf1 +a +mx -all",
+      "google-site-verification=xANyUr0WJZ5F8T3khjW86g3qhAwcuMjB88TxhQvSqo8"
+    ]
+  },
+  "proxied": false
+}

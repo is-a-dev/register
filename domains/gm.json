@@ -1,4 +1,8 @@
 {
-  "owner": { "username": "donotfeedthevirus" },
-  "records": { "CNAME": "cname.vercel-dns.com" }
+  "owner": {
+    "username": "donotfeedthevirus"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

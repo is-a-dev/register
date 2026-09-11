@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "alexgamingstudio"
+  },
+  "description": "WWW Redirect/Mirror for Alex Gaming Portfolio",
+  "proxied": true,
+  "records": {
+    "CNAME": "alexgaming-dev.github.io"
+  }
+}

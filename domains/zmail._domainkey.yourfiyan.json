@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Yourfiyan",
+    "email": "yourfiyan@proton.me"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxIZT7Vea7UWhKDBP4N5P5EkJoiij6ZwAYmWhNbdedpOZFgVt0zd04MAxLubnoAsI2UljgmngBKJuwm3FZ5PXb1qF588AB1IjD6emSruwh45hgrpirZV02zXpJ/YhNnqzvuqlnv9iUZDpjOLb18fSWzcOJh3YNl7Ul8AZ+4FLwPrexQ8Il017aofFtgm0pos+V+yjehVBUJang5snKN3H76rUkNHbEbuoHvGRDGNf7s+dVJ0Di+O3cMBMt9JrN6CBjFNaZAwAI7ixeEVrOkalKpY/oAA28Yw3PIpJLrK/YAYDCsGf01EGLhnIbYyxcZ25trBXpGp9QrIal8N/o8VwowIDAQAB"
+  }
+}

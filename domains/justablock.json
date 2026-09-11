@@ -4,7 +4,7 @@
     "email": "bdfd000@gmail.com"
   },
   "records": {
-    "A": ["92.221.9.135"]
+    "CNAME": "justablockcode.github.io"
   },
-  "proxied": true
+  "proxied": false
 }

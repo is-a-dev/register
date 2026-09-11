@@ -4,6 +4,9 @@
     "email": "mauminh.nguyen@gmail.com"
   },
   "records": {
-    "NS": ["bart.ns.cloudflare.com", "karina.ns.cloudflare.com"]
+    "NS": [
+      "bart.ns.cloudflare.com",
+      "karina.ns.cloudflare.com"
+    ]
   }
 }

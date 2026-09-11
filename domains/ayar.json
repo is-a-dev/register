@@ -1,0 +1,25 @@
+{
+  "owner": {
+    "username": "ayaszsh-code",
+    "email": "ayaszsh@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "zoho-verification=zb34447494.zmverify.zoho.com"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 50
+      }
+    ]
+  }
+}

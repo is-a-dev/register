@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "slater-uk"
-    },
-    "records": {
-        "CNAME": "slater-uk.github.io"
-    }
+  "owner": {
+    "username": "slater-uk"
+  },
+  "records": {
+    "CNAME": "slater-uk.github.io"
+  }
 }

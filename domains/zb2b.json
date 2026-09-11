@@ -4,7 +4,9 @@
     "email": "zb2b.world@gmail.com"
   },
   "records": {
-    "A": ["218.144.195.104"]
+    "A": [
+      "218.144.195.104"
+    ]
   },
   "proxied": true
 }

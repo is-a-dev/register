@@ -2,7 +2,7 @@ name: Stale
 
 on:
     schedule:
-        - cron: "0 12 * * *"
+        - cron: "0 12 * * *" # Runs at 12:00
 
     workflow_dispatch:
 
@@ -11,7 +11,7 @@ jobs:
         name: Label
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/stale@v3
+            - uses: actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f # v10.2.0
               with:
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
                   days-before-stale: 3

@@ -1,6 +1,9 @@
 {
-  "owner": { "username": "HUUDAA6", "email": "houdaelbarehoumi@gmail.com" },
+  "owner": {
+    "username": "HUUDAA6",
+    "email": "houdaelbarehoumi@gmail.com"
+  },
   "records": {
-    "TXT": ["vc-domain-verify=houdaelbarehoumi.is-a.dev,804977c62d87e6d43506"]
+    "TXT": "vc-domain-verify=houdaelbarehoumi.is-a.dev,8a105ed2a299c9268e67"
   }
 }

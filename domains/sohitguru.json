@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "SohitGuru",
-        "email": "sohitgrng@gmail.com"
-    },
-    "records": {
-        "CNAME": "sohitguru.github.io"
-    }
+  "owner": {
+    "username": "SohitGuru",
+    "email": "sohitgrng@gmail.com"
+  },
+  "records": {
+    "CNAME": "sohitguru.github.io"
+  }
 }

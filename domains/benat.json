@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "BenatEiguren"
+  },
+  "records": {
+    "A": [
+      "178.105.230.158"
+    ],
+    "MX": [
+      "benat.is-a.dev"
+    ],
+    "TXT": [
+      "v=spf1 mx -all"
+    ]
+  }
+}
