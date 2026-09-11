@@ -3,16 +3,8 @@
     "username": "vgvvlsa1448",
     "email": "vgvvlsa@gmail.com"
   },
-  "records": {
-    "CNAME": [
-      {
-        "name": "render",
-        "value": "vgvvlsa-dev.onrender.com"
-      },
-      {
-        "name": "vercel",
-        "value": "vgvvlsa-dev.vercel.app"
-      }
-    ]
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=vgvvlsa.is-a.dev,f2cb8ebd845a41775ddb"
   }
 }
