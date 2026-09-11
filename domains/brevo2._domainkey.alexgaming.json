@@ -1,10 +1,13 @@
 {
   "owner": {
-    "username": "alexgamingdev"
+    "username": "alexgamingdev",
     "email": "alexgaming.padh@gmail.com"
   },
   "proxied": false,
-  "records": {
-    "CNAME": "b2.alexgaming-is-a-dev.dkim.brevo.com"
-  }
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "b2.alexgaming-is-a-dev.dkim.brevo.com"
+    }
+  ]
 }
