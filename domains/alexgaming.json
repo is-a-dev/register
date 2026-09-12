@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "alexgamingstudio"
+    "username": "alexgamingdev",
+    "email": "alexgaming.padh@gmail.com"
   },
-  "description": "Portfolio and Email Forwarding for Alex Gaming",
+  "description": "Portfolio and Email Forwarding for alexgamingdev",
   "proxied": true,
   "records": {
     "CNAME": "alexgaming-dev.github.io",
