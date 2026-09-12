@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "nanda2708",
-        "email": "nandagopal2708@gmail.com"
-    },
-    "records": {
-        "A": ["65.1.117.213"]
-    }
+  "owner": {
+    "username": "nanda2708",
+    "email": "nandagopal2708@gmail.com"
+  },
+  "records": {
+    "A": [
+      "65.1.117.213"
+    ]
+  }
 }

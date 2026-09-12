@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Pratik-Harani",
-        "email": "pratik.harani@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=pratik-harani.is-a.dev,53789ba8d5a795f83fd0"
-    }
+  "owner": {
+    "username": "Pratik-Harani",
+    "email": "pratik.harani@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=pratik-harani.is-a.dev,53789ba8d5a795f83fd0"
+  }
 }

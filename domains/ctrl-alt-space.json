@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "ctrlaltspace"
-    },
-    "records": {
-        "URL": "https://ctrlaltspace.is-a.dev"
-    },
-    "redirect_config": {
-      "redirect_paths": true
-    }
+  "owner": {
+    "username": "ctrlaltspace"
+  },
+  "records": {
+    "URL": "https://ctrlaltspace.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
 }

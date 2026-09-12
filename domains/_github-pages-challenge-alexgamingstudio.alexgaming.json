@@ -1,8 +1,11 @@
 {
   "owner": {
-    "username": "alexgamingstudio"
+    "username": "alexgamingdev",
+    "email": "alexgaming.padh@gmail.com"
   },
   "records": {
-    "TXT": "ca3e9353931bd9a9e9ee74625b2b39"
+    "TXT": [
+      "ca3e9353931bd9a9e9ee74625b2b39"
+    ]
   }
 }

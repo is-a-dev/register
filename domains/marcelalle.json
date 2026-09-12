@@ -4,7 +4,9 @@
     "email": "marcelalledev@gmail.com"
   },
   "records": {
-    "A": ["83.229.19.74"],
+    "A": [
+      "83.229.19.74"
+    ],
     "TXT": "google-site-verification=Hw-aZINH4umK6ACwT3I81errdr1NaFI-fw1FLe4ucgQ"
   }
 }

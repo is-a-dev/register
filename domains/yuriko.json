@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "notyuriko",
-        "email": "enaphilmj@mozmail.com"
-    },
-    "records": {
-        "CNAME": "notyuriko.github.io"
-    }
+  "owner": {
+    "username": "notyuriko",
+    "email": "enaphilmj@mozmail.com"
+  },
+  "records": {
+    "CNAME": "notyuriko.github.io"
+  }
 }

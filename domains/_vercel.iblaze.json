@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "iBlazeX",
-        "email": "iblaze.x1z@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=iblaze.is-a.dev,4a049bb7891e454b4a84"
-    }
+  "owner": {
+    "username": "iBlazeX",
+    "email": "iblaze.x1z@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=iblaze.is-a.dev,4a049bb7891e454b4a84"
+  }
 }
