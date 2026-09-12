@@ -1,0 +1,14 @@
+{
+  "description": "Catch-all Email Routing OpenWrt",
+  "repo": "https://github.com/TÊN_NICK_GITHUB_CỦA_BRO/register",
+  "owner": {
+    "username": "tranhuykhang31032013-koocbiet",
+    "email": "tranhuykhang31032013@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "annabel.ns.cloudflare.com",
+      "matt.ns.cloudflare.com"
+    ]
+  }
+}
