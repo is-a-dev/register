@@ -4,6 +4,9 @@
     "email": "cvfoliox@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ],
+    "TXT": "google-site-verification=W_pj19KvUO7RsVdkRztUea0BG6dD9UUt1YOZ-4HrWJ8"
   }
 }
