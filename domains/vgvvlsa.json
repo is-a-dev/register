@@ -4,6 +4,7 @@
     "email": "vgvvlsa@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=vgvvlsa.is-a.dev,59b2834a428c3689021e"
   }
 }
