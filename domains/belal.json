@@ -4,6 +4,9 @@
     "email": "belalwaheed000@gmail.com"
   },
   "records": {
-    "CNAME": "belalwaheed.pages.dev"
+    "NS": [
+      "elsa.ns.cloudflare.com",
+      "major.ns.cloudflare.com"
+    ]
   }
 }
