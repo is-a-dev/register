@@ -3,6 +3,9 @@
     "username": "Amrinder19"
   },
   "records": {
-    "CNAME": "portfolio-self-eight-z8lr3vy1lo.vercel.app"
+    "CNAME": "portfolio-self-eight-z8lr3vy1lo.vercel.app",
+    "TXT": [
+      "vc-domain-verify=amrinder.is-a.dev,e9103371c04867f24bcd"
+    ]
   }
 }
