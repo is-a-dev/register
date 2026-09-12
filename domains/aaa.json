@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "profpomeha-create",
-        "email": "aandreichenko@mail.ru"
-    },
-    "records": {
-        "A": [
-            "89.108.70.71"
-        ]
-    }
+  "owner": {
+    "username": "profpomeha-create",
+    "email": "aandreichenko@mail.ru"
+  },
+  "records": {
+    "A": [
+      "89.108.70.71"
+    ]
+  }
 }

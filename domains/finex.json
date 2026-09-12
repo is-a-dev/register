@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Finexji",
-        "email": "revokeorg@gmail.com"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "Finexji",
+    "email": "revokeorg@gmail.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

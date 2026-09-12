@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "imhannsop",
-        "email": "imhannsop@gmail.com"
-    },
-    "records": {
-        "CNAME": "imhannsop.github.io"
-    }
+  "owner": {
+    "username": "imhannsop",
+    "email": "imhannsop@gmail.com"
+  },
+  "records": {
+    "CNAME": "imhannsop.github.io"
+  }
 }
