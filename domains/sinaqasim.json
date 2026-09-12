@@ -3,7 +3,9 @@
     "username": "GutsKU",
     "email": "matiex.v22@gmail.com"
   },
-  "record": {
-    "A": "5.189.171.137"
+  "records": {
+    "A": [
+      "5.189.171.137"
+    ]
   }
 }
