@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "SynacNipo",
+    "email": "synacnipo@gmail.com",
+    "discord": "synacni"
+  },
+  "records": {
+    "A": ["144.31.46.9"],
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 0,
+        "port": 13850,
+        "target": "mc.synacni.is-a.dev"
+      }
+    ]
+  }
+}
