@@ -1,0 +1,12 @@
+{
+  "description": "LUCII TOOLS - AI Builds & Custom Systems",
+  "domain": "luciitools",
+  "subdomain": "",
+  "owner": {
+    "username": "LuciiModz",
+    "email": "luciferhawksworth8@gmail.com"
+  },
+  "record": {
+    "A": ["140.238.64.112"]
+  }
+}
