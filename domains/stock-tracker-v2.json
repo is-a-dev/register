@@ -1,0 +1,13 @@
+{
+  "description": "Personal stock tracking web app, self-hosted behind Cloudflare Tunnel.",
+  "owner": {
+    "username": "Anqarium",
+    "email": "demirtashakan08@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "galilea.ns.cloudflare.com",
+      "kianchau.ns.cloudflare.com"
+    ]
+  }
+}
