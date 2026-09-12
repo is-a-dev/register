@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "bracozs"
+        "username": "bracozs",
+        "twitter": "@bracozs"
     },
     "records": {
-        "CNAME": "https://github.com/bracozs"
+        "CNAME": "bracotes.dev"
     }
 }
