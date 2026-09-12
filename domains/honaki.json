@@ -3,9 +3,12 @@
         "username": "honaki-dev"
     },
     "records": {
-        "CNAME": "honaki-dev.github.io",
+        "CNAME":"honaki-dev.github.io",
         "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com include:spf.brevo.com ~all",
+            "brevo-code:c5459f8ed91d04c0e71ccdeb75d5f099"
+        ]
     },
-    "proxied": true
+    "proxied": false
 }
