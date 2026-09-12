@@ -4,7 +4,6 @@
     "email": "nabeelismailabdulkadir15@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
-  },
-  "description": "Personal portfolio website"
+    "A": ["216.198.79.1"]
+  }
 }

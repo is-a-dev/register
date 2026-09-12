@@ -4,6 +4,9 @@
     "email": "subhrajitsain34@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=anw.is-a.dev,311da8db0edf384b5617"
+    "TXT": [
+      "vc-domain-verify=anw.is-a.dev,311da8db0edf384b5617",
+      "vc-domain-verify=mpreg.anw.is-a.dev,0d023761285007e1059b"
+    ]
   }
 }

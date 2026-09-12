@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "blobnix",
-        "email": "trishu.main@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=blob.is-a.dev,c21f12a2d2bef2c381a6"
-    }
+  "owner": {
+    "username": "blobnix",
+    "email": "trishu.main@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=blob.is-a.dev,c21f12a2d2bef2c381a6"
+  }
 }
