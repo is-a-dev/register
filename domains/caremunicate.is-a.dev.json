@@ -1,11 +1,10 @@
 {
   "description": "Caremunicate - secure healthcare messaging platform",
-  "repo": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO",
-  "owner": { "username": "YOUR_GITHUB_USERNAME", "email": "yomunseol@gmail.com" },
+  "repo": "https://github.com/yomunseol/caremunicate",
+  "owner": { "username": "yomunseol", "email": "yomunseol@gmail.com" },
   "record": {
     "TXT": [
-      "PASTE_BREVO_CODE_VALUE_HERE",
-      "PASTE_SPF_VALUE_HERE_ONLY_IF_SHOWN"
+      "brevo-code:55e7e50bfbac4e4d6d1916edca7a6bad"
     ]
   }
 }
