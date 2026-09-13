@@ -1,10 +1,10 @@
 {
-    "description": "Vercel domain verification for ayub.is-a.dev",
-    "owner": {
-        "username": "roodyridar2",
-        "email": "roodyridar2@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=ayub.is-a.dev,19c64983a835d3018831"
-    }
+  "description": "Vercel domain verification for ayub.is-a.dev",
+  "owner": {
+    "username": "roodyridar2",
+    "email": "roodyridar2@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ayub.is-a.dev,19c64983a835d3018831"
+  }
 }

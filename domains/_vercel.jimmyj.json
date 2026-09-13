@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "jimmy-jose",
-        "email": "jimmy.jose96@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=jimmyj.is-a.dev,49544f50ef321ae3fe11"
-    }
+  "owner": {
+    "username": "jimmy-jose",
+    "email": "jimmy.jose96@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=jimmyj.is-a.dev,49544f50ef321ae3fe11"
+  }
 }

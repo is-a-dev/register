@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "ronnaf",
-        "twitter": "https://twitter.com/ronnaf_"
-    },
-    "records": {
-        "A": [
-            "216.198.79.1"
-        ]
-    }
+  "owner": {
+    "username": "ronnaf",
+    "twitter": "https://twitter.com/ronnaf_"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
