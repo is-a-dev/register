@@ -4,7 +4,13 @@
     "email": "raparadillo06235@liceo.edu.ph"
   },
   "records": {
-    "CNAME": "portfolio-v1-q85s.vercel.app"
+    "CNAME": "portfolio-v1-q85s.vercel.app",
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=rapar.is-a.dev,1949aef95262ee002696"
+      }
+    ]
   },
   "description": "Personal portfolio website"
 }
