@@ -5,7 +5,10 @@
     "username": "tranhuykhang31032013-koocbiet",
     "email": "tranhuykhang31032013@gmail.com"
   },
-  "record": {
-    "URL": "https://tranhuykhang31032013-koocbiet.github.io/huykhang-website/"
+  "records": {
+    "NS": [
+      "annabel.ns.cloudflare.com",
+      "matt.ns.cloudflare.com"
+    ]
   }
 }
