@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "rajj28",
-        "email": "ruturajsonkamble28@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=ruturaj.is-a.dev,f5bc3f5b7f0decab639a"
-    }
+  "owner": {
+    "username": "rajj28",
+    "email": "ruturajsonkamble28@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ruturaj.is-a.dev,f5bc3f5b7f0decab639a"
+  }
 }
