@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "bernardomerlo",
-        "email": "bernardomerlo49@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=bernardomerlo.is-a.dev,19107e87e65342d404f7"
-    }
+  "owner": {
+    "username": "bernardomerlo",
+    "email": "bernardomerlo49@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=bernardomerlo.is-a.dev,19107e87e65342d404f7"
+  }
 }
