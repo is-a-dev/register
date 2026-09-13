@@ -1,10 +1,12 @@
 {
   "owner": {
     "username": "zedxos",
-    "email": "danpineda12345678910@gmail.com",
+    "email": "zedan.pineda@gmail.com",
     "discord": "966170177815339008"
   },
   "records": {
-    "CNAME": "cheerful-monstera-e4af4f.netlify.app"
+    "A": [
+      "216.24.57.1"
+    ]
   }
 }

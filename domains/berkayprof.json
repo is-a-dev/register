@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Berkayprof",
-        "email": "delenopschool@outlook.com"
-    },
-    "records": {
-        "CNAME": "berkayprof.pages.dev"
-    }
+  "owner": {
+    "username": "Berkayprof",
+    "email": "delenopschool@outlook.com"
+  },
+  "records": {
+    "CNAME": "berkayprof.pages.dev"
+  }
 }
