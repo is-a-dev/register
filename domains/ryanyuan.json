@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "ryan11yuan",
-        "email": "ryanyuan32@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "ryan11yuan",
+    "email": "ryanyuan32@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

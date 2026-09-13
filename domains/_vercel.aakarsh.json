@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Aakarsh-Kumar",
-        "email": "aakarsh2504@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aakarsh.is-a.dev,bbd2fc0297605cc38591"
-    }
+  "owner": {
+    "username": "Aakarsh-Kumar",
+    "email": "aakarsh2504@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aakarsh.is-a.dev,bbd2fc0297605cc38591"
+  }
 }
