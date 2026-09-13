@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "leonardoborgesdev",
+    "email": "caiosantosubatuba@gmail.com"
+  },
+  "records": {
+    "CNAME": "offline-network.suportebrazika.workers.dev"
+  },
+  "description": "OFFLINE — an offline-first social network that keeps working with no internet (local Wi-Fi station + peer sync).",
+  "repo": "https://github.com/leonardoborgesdev/offline-world-2000"
+}
