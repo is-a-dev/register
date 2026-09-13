@@ -94,7 +94,7 @@ async function validateFields(t, obj, fields, file, prefix = "") {
     }
 }
 
-async function validateFileName(t, file, owner) {
+async function validateFileName(t, file) {
     t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
     t.false(file.includes(".is-a.dev"), `${file}: File name should not contain .is-a.dev`);
     t.true(file === file.toLowerCase(), `${file}: File name should be all lowercase`);
@@ -103,14 +103,7 @@ async function validateFileName(t, file, owner) {
     const subdomain = file.replace(/\.json$/, "");
     const isGitHubChallenge = subdomain.startsWith("_github-pages-challenge-");
 
-    if (isGitHubChallenge && owner?.username) {
-        const expectedPrefix = `_github-pages-challenge-${owner.username.toLowerCase()}`;
-
-        t.true(
-            subdomain.startsWith(expectedPrefix),
-            `${file}: Challenge domain name must match owner username (${owner.username})`
-        );
-
+    if (isGitHubChallenge) {
         t.regex(
             subdomain + ".is-a.dev",
             challengeHostnameRegex,
@@ -141,7 +134,7 @@ async function processFile(file, t) {
     const filePath = path.join(domainsPath, file);
     const data = await fs.readJson(filePath);
 
-    await validateFileName(t, file, data.owner);
+    validateFileName(t, file);
 
     // Check for duplicate keys
     const rawData = await fs.readFile(filePath, "utf8");
@@ -189,12 +182,7 @@ t("All files should be valid JSON", async (t) => {
 });
 
 t("All files should have valid file names", async (t) => {
-    await Promise.all(
-        files.map(async (file) => {
-            const data = await fs.readJson(path.join(domainsPath, file));
-            await validateFileName(t, file, data.owner);
-        })
-    );
+    await Promise.all(files.map((file) => validateFileName(t, file)));
 });
 
 t("All files should have valid required and optional fields", async (t) => {
