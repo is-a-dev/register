@@ -34,6 +34,7 @@ const blockedFields = ["domain", "internal", "proxy", "reserved", "services", "s
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
+const challengeHostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9][a-zA-Z0-9-]{0,62})\.)+[a-zA-Z]{2,63}$/;
 
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
@@ -93,19 +94,36 @@ async function validateFields(t, obj, fields, file, prefix = "") {
     }
 }
 
-async function validateFileName(t, file) {
+async function validateFileName(t, file, owner) {
     t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
     t.false(file.includes(".is-a.dev"), `${file}: File name should not contain .is-a.dev`);
     t.true(file === file.toLowerCase(), `${file}: File name should be all lowercase`);
     t.false(file.includes("--"), `${file}: File name should not contain consecutive hyphens`);
 
     const subdomain = file.replace(/\.json$/, "");
+    const isGitHubChallenge = subdomain.startsWith("_github-pages-challenge-");
 
-    t.regex(
-        subdomain + ".is-a.dev",
-        hostnameRegex,
-        `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens.`
-    );
+    if (isGitHubChallenge && owner?.username) {
+        const expectedPrefix = `_github-pages-challenge-${owner.username.toLowerCase()}`;
+
+        t.true(
+            subdomain.startsWith(expectedPrefix),
+            `${file}: Challenge domain name must match owner username (${owner.username})`
+        );
+
+        t.regex(
+            subdomain + ".is-a.dev",
+            challengeHostnameRegex,
+            `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens.`
+        );
+    } else {
+        t.regex(
+            subdomain + ".is-a.dev",
+            hostnameRegex,
+            `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens.`
+        );
+    }
+
     t.false(internalDomains.includes(subdomain), `${file}: Subdomain name is registered internally`);
     t.false(reservedDomains.includes(subdomain), `${file}: Subdomain name is reserved`);
     t.true(
@@ -123,7 +141,7 @@ async function processFile(file, t) {
     const filePath = path.join(domainsPath, file);
     const data = await fs.readJson(filePath);
 
-    validateFileName(t, file);
+    await validateFileName(t, file, data.owner);
 
     // Check for duplicate keys
     const rawData = await fs.readFile(filePath, "utf8");
@@ -171,7 +189,12 @@ t("All files should be valid JSON", async (t) => {
 });
 
 t("All files should have valid file names", async (t) => {
-    await Promise.all(files.map((file) => validateFileName(t, file)));
+    await Promise.all(
+        files.map(async (file) => {
+            const data = await fs.readJson(path.join(domainsPath, file));
+            await validateFileName(t, file, data.owner);
+        })
+    );
 });
 
 t("All files should have valid required and optional fields", async (t) => {
