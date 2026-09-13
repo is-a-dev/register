@@ -1,0 +1,10 @@
+{
+  "description": "Development domain for a new app.",
+  "owner": {
+    "username": "datactor",
+    "email": "datactress@gmail.com"
+  },
+  "records": {
+    "CNAME": "kairos-next.pages.dev"
+  }
+}
