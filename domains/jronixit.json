@@ -1,9 +1,10 @@
 {
+  "description": "Portfolio of Rana Sheikh",
   "owner": {
     "username": "ranasheikh64",
     "email": "rana6424sheikh@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ranasheikh64.github.io"
   }
 }
