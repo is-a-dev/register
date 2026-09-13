@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "YOUR_GITHUB_USERNAME"
-  },
-  "records": {
-    "CNAME": "mina-staging.cds-minamedhat23376.workers.dev"
-  }
+ "owner": {
+  "username": "codetic061-art"
+ },
+ "records": {
+  "CNAME": "staging.mina-portfolio-3x2.pages.dev"
+ }
 }
