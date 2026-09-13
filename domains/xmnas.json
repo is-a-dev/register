@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "xuleima68",
+    "username": "xuleima68-prog",
     "email": "xuleima55@gmail.com"
   },
   "records": {
-    "CNAME": "5c0718d5-b8b6-4093-b3ca-7f923e335bcd.cfargotunnel.com"
+    "A": ["198.51.100.42"]
   }
 }
