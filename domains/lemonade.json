@@ -1,0 +1,10 @@
+{
+  "description": "Lemonade",
+  "owner": {
+    "username": "omesoftwarelab",
+    "email": "inuduki7@gmail.com"
+  },
+  "record": {
+    "CNAME": "omesoftwarelab.github.io"
+  }
+}
