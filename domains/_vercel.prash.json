@@ -1,13 +1,12 @@
 {
   "owner": {
     "username": "prash240303",
-    "email": "prash2402works@gmail.com",
-    "twitter": "@prash2403"
+    "email": "prash2402works@gmail.com"
   },
-  "records": {
+  "record": {
     "TXT": [
-      "vc-domain-verify=prash.is-a.dev,055f09f05909d723a8e9",
-      "vc-domain-verify=www.prash.is-a.dev,7a3534e9458741b26aed"
+      "vc-domain-verify=prash.is-a.dev,055f09f05909d723a8e9"
     ]
-  }
+  },
+  "proxied": false
 }
