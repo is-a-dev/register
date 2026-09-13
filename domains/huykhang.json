@@ -6,9 +6,7 @@
     "email": "tranhuykhang31032013@gmail.com"
   },
   "records": {
-    "NS": [
-      "annabel.ns.cloudflare.com",
-      "matt.ns.cloudflare.com"
-    ]
+    "CNAME": "tranhuykhang31032013-koocbiet.github.io"
   }
 }
+
