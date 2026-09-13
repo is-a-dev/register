@@ -3,6 +3,6 @@
     "username": "crocketier"
   },
   "records": {
-    "CNAME": "crocketier.pages.dev"
+    "A": [ "82.38.134.96" ]
   }
 }
