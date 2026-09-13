@@ -5,6 +5,6 @@
     "twitter": "@prash2403"
   },
   "records": {
-    "CNAME": "0f6c0e1450184551.vercel-dns-017.com."
+    "A": ["216.198.79.1"]
   }
 }
