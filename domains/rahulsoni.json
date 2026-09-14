@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "iRahulVerma",
-        "email": "somnathrx@gmail.com"
-    },
-    "records": {
-        "CNAME": "stackdart.com" 
-    }
+  "owner": {
+    "username": "iRahulVerma",
+    "email": "somnathrx@gmail.com"
+  },
+  "records": {
+    "CNAME": "stackdart.com"
+  }
 }

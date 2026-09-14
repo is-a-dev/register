@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "renatovelasquez",
-        "email": "renvl.dev@gmail.com"
-    },
-    "records": {
-        "CNAME": "renatovelasquez.github.io"
-    }
+  "owner": {
+    "username": "renatovelasquez",
+    "email": "renvl.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "renatovelasquez.github.io"
+  }
 }

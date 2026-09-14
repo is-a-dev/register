@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "RoBo-Go"
-    },
-    "records": {
-        "CNAME": "robo-go.github.io"
-    }
+  "owner": {
+    "username": "RoBo-Go"
+  },
+  "records": {
+    "CNAME": "robo-go.github.io"
+  }
 }

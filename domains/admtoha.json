@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "admtoha",
-        "email": "haitoha85@yandex.ru"
-    },
-    "records": {
-        "A": ["89.253.255.150"]
-    }
+  "owner": {
+    "username": "admtoha",
+    "email": "haitoha85@yandex.ru"
+  },
+  "records": {
+    "A": [
+      "89.253.255.150"
+    ]
+  }
 }

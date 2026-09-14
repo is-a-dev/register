@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "AlbatrossC"
-    },
-    "records": {
-        "CNAME": "albatrossc.github.io"
-    }
+  "owner": {
+    "username": "AlbatrossC"
+  },
+  "records": {
+    "CNAME": "albatrossc.github.io"
+  }
 }

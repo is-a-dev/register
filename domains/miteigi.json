@@ -4,6 +4,9 @@
     "email": "baokhang4930@gmail.com"
   },
   "records": {
-    "NS": ["elijah.ns.cloudflare.com", "jo.ns.cloudflare.com"]
+    "NS": [
+      "elijah.ns.cloudflare.com",
+      "jo.ns.cloudflare.com"
+    ]
   }
 }

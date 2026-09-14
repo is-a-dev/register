@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "davismichael",
-        "email": "michaelaustindavis@icloud.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "davismichael",
+    "email": "michaelaustindavis@icloud.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

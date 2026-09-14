@@ -8,6 +8,8 @@
     "x": "https://x.com/MuleBeteAmhara"
   },
   "records": {
-    "TXT": ["vc-domain-verify=mulugeta.is-a.dev,4b2eb308426726cce893"]
+    "TXT": [
+      "vc-domain-verify=mulugeta.is-a.dev,4b2eb308426726cce893"
+    ]
   }
 }
