@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "GhostWebEnterprise"
+    "username": "GhostWebEnterprise",
+    "email": "Ghostweb@ghostbin.cfd"
   },
   "records": {
     "CNAME": "ghostwebenterprise.github.io"
