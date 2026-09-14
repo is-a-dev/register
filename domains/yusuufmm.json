@@ -9,7 +9,7 @@
     ],
     "MX": [
       {
-        "target": "my.mailbux.com.",
+        "target": "my.mailbux.com",
         "priority": 10
       }
     ],
