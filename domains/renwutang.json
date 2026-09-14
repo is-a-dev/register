@@ -4,6 +4,7 @@
     "email": "3269825035-maker@users.noreply.github.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=renwutang.is-a.dev,23105dd281a765271c7f"
   }
 }
