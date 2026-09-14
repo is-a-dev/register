@@ -4,6 +4,9 @@
     "email": "dayaneorou123@gmail.com"
   },
   "records": {
-    "CNAME": "dayaneorou.vercel.app"
+    "CNAME": "dayaneorou.vercel.app",
+    "TXT": {
+      "_vercel": "vc-domain-verify=dayaneorou.is-a.dev,0983ccea0ba809009c7e"
+    }
   }
 }
