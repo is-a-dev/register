@@ -4,6 +4,8 @@
     "email": "jbonior85@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=bonnito.is-a.dev,16f54774ca4bca0bcf68"]
+    "TXT": [
+      "vc-domain-verify=bonnito.is-a.dev,16f54774ca4bca0bcf68"
+    ]
   }
 }

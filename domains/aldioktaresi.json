@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "aldiok27",
-        "email": "aldiokta007@gmail.com"
-    },
-    "records": {
-        "CNAME": "aldioktaresi.vercel.app"
-    }
+  "owner": {
+    "username": "aldiok27",
+    "email": "aldiokta007@gmail.com"
+  },
+  "records": {
+    "CNAME": "aldioktaresi.vercel.app"
+  }
 }

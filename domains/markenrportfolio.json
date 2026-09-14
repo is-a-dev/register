@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "imnrqzz",
-        "email": "markanthonyenriquezzz@gmail.com"
-    },
-    "proxied": true,
-    "records": {
-        "CNAME": "imnrqzportfolio.vercel.app"
-    }
+  "owner": {
+    "username": "imnrqzz",
+    "email": "markanthonyenriquezzz@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "imnrqzportfolio.vercel.app"
+  }
 }

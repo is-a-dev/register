@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ulrik-matemu",
-        "email": "advancechronicles@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=ulrik-matemu.is-a.dev,1a13736757be549c1155"
-    }
+  "owner": {
+    "username": "ulrik-matemu",
+    "email": "advancechronicles@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ulrik-matemu.is-a.dev,1a13736757be549c1155"
+  }
 }
