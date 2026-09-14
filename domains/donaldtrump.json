@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "Desdale26"
+  },
+  "records": {
+    "TXT": "zoho-verification=zb79589601.zmverify.zoho.com.au",
+    "MX": [
+      { "target": "mx.zoho.com.au", "priority": 10 },
+      { "target": "mx2.zoho.com.au", "priority": 20 },
+      { "target": "mx3.zoho.com.au", "priority": 50 }
+    ]
+  }
+}
