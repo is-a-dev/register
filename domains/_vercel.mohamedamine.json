@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mohamedamineelabidi",
-        "email": "elabidimohamedamine@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=mohamedamine.is-a.dev,efa55f80248b70a95de0"
-    }
+  "owner": {
+    "username": "mohamedamineelabidi",
+    "email": "elabidimohamedamine@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mohamedamine.is-a.dev,efa55f80248b70a95de0"
+  }
 }
