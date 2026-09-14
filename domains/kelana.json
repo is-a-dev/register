@@ -1,9 +1,11 @@
 {
+  "description": "Kelana educational language learning platform and open-source project",
+  "repo": "https://github.com/ronngranz-droid/Kelana",
   "owner": {
     "username": "ronngranz-droid",
     "email": "ronngranz@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
