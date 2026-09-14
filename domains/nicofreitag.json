@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "Lexa-Heda",
-    }, 
-    "records": {
-        "CNAME": "https://portfolio.nico-freitag.workers.dev",
-        "CNAME": "portfolio.nico-freitag.workers.dev",
-    }
+  "owner": {
+    "username": "Lexa-Heda"
+  },
+  "records": {
+    "CNAME": "portfolio.nico-freitag.workers.dev"
+  }
 }
