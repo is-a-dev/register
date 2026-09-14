@@ -1,9 +1,10 @@
-const t = require("ava");
-const fs = require("fs-extra");
-const path = require("path");
+import t from "ava";
+import fs from "fs-extra";
+import path from "path";
+
+import trustedUsers from "../util/trusted.json" with { type: "json" };
 
 const requiredEnvVars = ["PR_AUTHOR", "PR_AUTHOR_ID"];
-const trustedUsers = require("../util/trusted.json");
 
 const trusted = trustedUsers.map((u) => u.id.toString());
 const admins = trustedUsers.filter((u) => u.admin).map((u) => u.id.toString());

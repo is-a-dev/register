@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "neilwilliam"
-    },
-    "records": {
-        "CNAME": "neilssites.web.app"
-    }
+  "owner": {
+    "username": "neilwilliam"
+  },
+  "records": {
+    "CNAME": "neilssites.web.app"
+  }
 }

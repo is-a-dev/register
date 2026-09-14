@@ -4,6 +4,8 @@
     "email": "mominulhaquesagar@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=mominulhaquesagar.is-a.dev,40e92583b0be1904a463"]
+    "TXT": [
+      "vc-domain-verify=mominulhaquesagar.is-a.dev,40e92583b0be1904a463"
+    ]
   }
 }

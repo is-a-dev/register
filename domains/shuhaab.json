@@ -3,6 +3,8 @@
     "username": "Shuhaab-coder"
   },
   "records": {
-    "CNAME": "shuhaab.vercel.app"
-  }
+    "CNAME": "shuhaab.vercel.app",
+    "TXT": "google-site-verification=AYFiEnxsZZ3z1EBfRfHqesdkO7oCbOCS1w4rSAnNl9I"
+  },
+  "proxied": true
 }

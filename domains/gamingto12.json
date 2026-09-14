@@ -1,9 +1,22 @@
 {
-    "owner": {
-        "username": "gamingto12",
-        "email": "0x8f2d3e@gmail.com"
-    },
-    "records": {
-        "CNAME": "gamingto12.github.io"
-    }
+  "owner": {
+    "username": "gamingto12",
+    "email": "0x8f2d3e@gmail.com"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
+    "TXT": [
+      "forward-email=0x8f2d3e@gmail.com",
+      "v=spf1 a include:spf.forwardemail.net -all"
+    ]
+  }
 }
