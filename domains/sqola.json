@@ -1,11 +1,8 @@
 {
-  "description": "Open-source learning platform providing educational tools and coding tutorials",
-  "repo": "https://github.com/aboal21458/aboal21458.github.io",
   "owner": {
     "username": "aboal21458",
-    "email": "aboalez2003@tutamail.com"
+    "email": "Aboalez2003@tutamail.com"
   },
   "record": {
-    "CNAME": "aboal21458.github.io"
+    "NS": ["erin.ns.cloudflare.com", "jaziel.ns.cloudflare.com"]
   }
-}
