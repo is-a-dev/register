@@ -5,7 +5,10 @@
     "email": "is-a-dev-registration.zbden@simplelogin.com"
   },
   "records": {
-    "NS": ["adelaide.ns.cloudflare.com", "arnold.ns.cloudflare.com"]
+    "NS": [
+      "adelaide.ns.cloudflare.com",
+      "arnold.ns.cloudflare.com"
+    ]
   },
   "proxied": false
 }

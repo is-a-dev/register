@@ -5,6 +5,8 @@
   },
   "description": "Vercel verification for flashminds",
   "records": {
-    "TXT": ["vc-domain-verify=dengzl.is-a.dev,f6e53877100fd17f279e"]
+    "TXT": [
+      "vc-domain-verify=dengzl.is-a.dev,f6e53877100fd17f279e"
+    ]
   }
 }

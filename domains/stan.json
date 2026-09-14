@@ -1,11 +1,16 @@
 {
   "owner": {
-   "username": "stanleysutton",
+    "username": "stanleysutton",
     "email": "stanleysutton2510@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"],
-    "TXT": ["zoho-verification= zb43527147.zmverify.zoho.eu", "v=spf1 include:zohomail.eu ~all"],
+    "A": [
+      "76.76.21.21"
+    ],
+    "TXT": [
+      "zoho-verification= zb43527147.zmverify.zoho.eu",
+      "v=spf1 include:zohomail.eu ~all"
+    ],
     "MX": [
       {
         "target": "mx.zoho.eu",

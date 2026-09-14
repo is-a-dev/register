@@ -4,6 +4,8 @@
     "email": "wilburnhuang123@outlook.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "google-site-verification=ocgWZ9BW9x33ZWr4Uf3E8ancKaOAZ7tifYiS9YZ5w9U"
+  },
+  "proxied": true
 }

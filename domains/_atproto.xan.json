@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "pparaxan"
-    },
-    "records": {
-        "TXT": "did=did:plc:qhfvr7lgvv6thytqdewcwrok"
-    }
+  "owner": {
+    "username": "pparaxan"
+  },
+  "records": {
+    "TXT": "did=did:plc:qhfvr7lgvv6thytqdewcwrok"
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "doughmination",
+    "email": "admin@doughmination.win"
+  },
+  "records": {
+    "TXT": [
+      "dh=7cd873c594b7e451ad7900acfa3b2120e34b489f",
+      "dh=519e8df3ca342b1a755cda15eb209d486aa16775",
+      "dh=bbfa4857d7139ec5af9d10ef71a476e0f18c8242",
+      "dh=4d3c0d80f40ffd69c0fc6fa9dbf3ae1f214cb4b5"
+    ]
+  }
+}

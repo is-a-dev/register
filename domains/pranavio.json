@@ -1,11 +1,13 @@
 {
   "description": "It's my personal portfolio website.",
   "owner": {
-        "username": "pranavio",
-        "email": "patilpranav589@gmail.com",
-        "twitter": "pranv_patil"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+    "username": "pranavio",
+    "email": "patilpranav589@gmail.com",
+    "twitter": "pranv_patil"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

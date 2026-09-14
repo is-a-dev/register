@@ -4,7 +4,9 @@
     "email": "slymanmrcan@gmail.com"
   },
   "records": {
-    "A": ["80.225.87.114"]
+    "A": [
+      "80.225.87.114"
+    ]
   },
   "proxied": true
 }

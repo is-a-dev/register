@@ -1,0 +1,11 @@
+{
+  "description": "WWW redirect for Shyam Sundar's developer portfolio",
+  "repo": "https://github.com/ShyamSundar2705/portfolio",
+  "owner": {
+    "username": "ShyamSundar2705",
+    "email": "shyamarunach@gmail.com"
+  },
+  "records": {
+    "CNAME": "7177f7d3d480f905.vercel-dns-017.com"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "harshptl14",
-    "email": "harshptl714@gmail.com"
+    "username": "arshdevx",
+    "email": "arshcodes1@gmail.com"
   },
   "records": {
-    "CNAME": "arshpatel.me"
+    "A": ["216.198.79.1"]
   }
 }
