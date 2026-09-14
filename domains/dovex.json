@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "dovex-steven64",
+    "email": "dovexsteven64@gmail.com"
+  },
+  "records": {
+    "CNAME": "dovex-steven64.github.io"
+  }
+}
