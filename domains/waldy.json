@@ -4,6 +4,13 @@
         "email": "clocktoktok@gmail.com"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "CNAME": "://vercel-dns.com",
+        "TXT": ["vc-domain-verify=waldy.is-a.dev,f22a47695d757aa75c51"]
+    },
+    "subdomains": {
+        "www": {
+            "CNAME": "://vercel-dns-017.com",
+            "TXT": ["vc-domain-verify=www.waldy.is-a.dev,ec2170f762f871080a3d"]
+        }
     }
 }
