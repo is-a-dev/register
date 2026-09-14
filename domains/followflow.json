@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "mittai17",
+    "email": "ggiridharan097@gmail.com"
+  },
+  "records": {
+    "CNAME": "followflow-alb-2061937775.us-east-1.elb.amazonaws.com"
+  },
+  "proxied": true
+}
