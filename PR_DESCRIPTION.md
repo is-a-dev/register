@@ -1,1 +1,0 @@
-Temporary local reference for the is-a.dev PR description.
