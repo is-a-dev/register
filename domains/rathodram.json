@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "rathod-ramraj"
+    "username": "rathod-ramraj",
+    "email": "diamondstar2200@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "CNAME": "rathodram.pages.dev"
   }
 }
