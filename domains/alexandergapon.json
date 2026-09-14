@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
+  "description": "Personal developer portfolio of Alexander Gapon",
+  "repo": "https://github.com/AlexanderGapon/AlexanderGapon.github.io",
+  "owner": {
+    "username": "AlexanderGapon"
+  },
+  "records": {
+    "CNAME": "alexandergapon.github.io"
+  }
+}
