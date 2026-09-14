@@ -1,26 +1,11 @@
-{ 
-  "owner": {    
-  "username": "aboal21458",  
-  "email": "aboalez2003@tutamail.com"  
- },  
-  "records": {  
-  "CNAME": "aboal21458.github.io",    
-    "MX": [      "mx1.improvmx.com",      
-      "mx2.improvmx.com"    ],    
-    "TXT": [      
-  "v=spf1 include:spf.improvmx.com ~all"   
-  ]  
- }
+{
+  "description": "Open-source learning platform providing educational tools and coding tutorials for developers.",
+  "repo": "https://github.com/aboal21458/sqola",
+  "owner": {
+    "username": "aboal21458",
+    "email": "aboalez2003@tutamail.com"
+  },
+  "record": {
+    "CNAME": "aboal21458.github.io"
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
