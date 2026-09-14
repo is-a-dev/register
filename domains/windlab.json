@@ -1,0 +1,11 @@
+{
+  "description": "Web-based platform for wind data analysis, Weibull distribution calculations, and wind rose generation",
+  "repo": "https://github.com/sd5-isa-dev/register",
+  "owner": {
+    "username": "sd5simo",
+    "email": "saddenmohamad99@gmail.com"
+  },
+  "record": {
+    "CNAME": "widlab.netlify.app"
+  }
+}
