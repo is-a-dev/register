@@ -1,1 +1,8 @@
-{`n  "owner": {`n    "username": "Amaan690"`n  },`n  "records": {`n    "A": ["216.198.79.1"]`n  }`n}
+{
+  "owner": {
+    "username": "Amaan690"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
+}
