@@ -6,7 +6,11 @@
     "email": "tranhuykhang31032013@gmail.com"
   },
   "records": {
-    "CNAME": "tranhuykhang31032013-koocbiet.github.io"
+    "CNAME": "tranhuykhang31032013-koocbiet.github.io",
+    "MX": [
+      "10 mx1.improvmx.com",
+      "20 mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
-
