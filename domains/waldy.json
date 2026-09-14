@@ -4,7 +4,6 @@
         "email": "clocktoktok@gmail.com"
     },
     "records": {
-        "A": ["76.76.21.21"],
-        "TXT": ["vc-domain-verify=waldy.is-a.dev,f22a47695d757aa75c51"]
+        "A": ["76.76.21.21"]
     }
 }
