@@ -1,0 +1,17 @@
+{
+    "owner": {
+        "username": "toilalode",
+        "email": "vudanhquy1002@gmail.com"
+    },
+    "record": {
+        "CNAME": "toilalode.github.io"
+    },
+    "nested": [
+        {
+            "subdomain": "toilalode",
+            "record": {
+                "CNAME": "toilalode.github.io"
+            }
+        }
+    ]
+}
