@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "aboal21458",
+    "email": "kola68715@gmail.com"
+  },
+  "description": "Sqola - Learning platform",
+  "repo": "https://github.com/aboal21458/sqola",
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+    "MX": ["route1.mx.cloudflare.net", "route2.mx.cloudflare.net", "route3.mx.cloudflare.net"],
+    "TXT": ["v=spf1 include:_spf.mx.cloudflare.net ~all"]
+  }
+}
