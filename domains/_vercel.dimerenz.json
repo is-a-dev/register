@@ -4,6 +4,6 @@
     "email": "dime.r.apor@gmail.com"
   },
   "records": {
-    "CNAME": "dimerenz.vercel.app"
+    "TXT": "vc-domain-verify=dimerenz.is-a.dev,8b56f597c8a86ec2066a"
   }
 }
