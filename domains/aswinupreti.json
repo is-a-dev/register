@@ -1,10 +1,1 @@
-{
-  "description": "Aswin Upreti - Portfolio",
-  "owner": {
-    "username": "aswinupreti52-cell"
-  },
-  "records": {
-    "CNAME": "aswin2-c8e.pages.dev"
-  },
-  "proxied": true
-}
+{"description":"Aswin Upreti - Portfolio","owner":{"username":"aswinupreti52-cell","email":"aswinupreti52@gmail.com"},"records":{"CNAME":"aswin2-c8e.pages.dev"},"proxied":true}
