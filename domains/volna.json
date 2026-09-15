@@ -1,0 +1,9 @@
+{
+  "description": "Volna social network",
+  "owner": {
+    "username": "Timer-Official"
+  },
+  "record": {
+    "CNAME": "volna.vercel.app"
+  }
+}
