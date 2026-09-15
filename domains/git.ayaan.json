@@ -3,6 +3,7 @@
     "username": "ayaandh"
   },
   "records": {
-    "CNAME": "ayaandh.gitlab.io"
+    "CNAME": "ayaandh.gitlab.io",
+    "TXT": "gitlab-pages-verification-code=8084818be2fa5914b45aed6bb07078d5"
   }
 }
