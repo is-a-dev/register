@@ -1,9 +1,12 @@
 {
   "owner": {
-    "username": "xuchao996",
-    "email": "chao.xu996@gmail.com"
+    "username": "wy995",
+    "email": "try99599@163.com"
   },
   "records": {
-    "CNAME": "xuchao996.github.io"
+    "NS": [
+      "dane.ns.cloudflare.com",
+      "karsyn.ns.cloudflare.com"
+    ]
   }
 }
