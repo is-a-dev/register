@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "keelbismark",
-        "email": "dedil001kz@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=keel.is-a.dev,5d638a8067469c99e6a7"
-    }
+  "owner": {
+    "username": "keelbismark",
+    "email": "dedil001kz@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=keel.is-a.dev,5d638a8067469c99e6a7"
+  }
 }
