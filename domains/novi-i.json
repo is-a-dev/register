@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "NOVI-16699-cmd",
+    "email": "eveilsaint6699@gmail.com"
+  },
+  "record": {
+    "A": ["76.76.21.21"],
+    "TXT": ["v=spf1 include:spf.brevo.com ~all"]
+  }
+}
