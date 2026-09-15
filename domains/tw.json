@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "ermolaevaulia274-create"
+  },
+  "record": {
+    "NS": [
+      "ns1.cloudflare.com",
+      "ns2.cloudflare.com"
+    ]
+  }
+}
