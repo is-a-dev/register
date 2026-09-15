@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "AT00L",
+        "email": "atul.lilhare@cube.ms"
+    },
+    "records": {
+        "CNAME": "urlshortner-env.eba-jm987rhm.ap-south-1.elasticbeanstalk.com"
+    },
+    "proxied": true
+}
