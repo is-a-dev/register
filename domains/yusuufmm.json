@@ -6,6 +6,15 @@
   "records": {
     "A": [
       "216.198.79.1"
+    ],
+    "MX": [
+      {
+        "target": "my.mailbux.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:msg25.com ~all"
     ]
   }
 }

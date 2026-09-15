@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "yzcmrt",
-        "email": "yazici.mert.35@gmail.com"
-    },
-    "records": {
-        "CNAME": "mertyazici.pages.dev"
-    },
-    "proxied": true
+  "owner": {
+    "username": "yzcmrt",
+    "email": "yazici.mert.35@gmail.com"
+  },
+  "records": {
+    "CNAME": "mertyazici.pages.dev"
+  },
+  "proxied": true
 }
