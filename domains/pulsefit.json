@@ -1,0 +1,12 @@
+{
+  "description": "PulseFit App Domain",
+  "domain": "pulsefit",
+  "subdomain": "pulsefit",
+  "owner": {
+    "username": "uumohamedawany-dev",
+    "email": "uu.mohamed.awany@gmail.com"
+  },
+  "records": {
+    "CNAME": "uumohamedawany-dev.github.io"
+  }
+}
