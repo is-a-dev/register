@@ -1,10 +1,12 @@
 {
   "owner": {
     "username": "fernandotoia",
-    "email": "toia.fernando@gmail.com"
+    "email": "SEU_EMAIL"
   },
-  "nameservers": [
-    "kelly.ns.cloudflare.com",
-    "sergi.ns.cloudflare.com"
-  ]
+  "records": {
+    "NS": [
+      "kelly.ns.cloudflare.com",
+      "sergi.ns.cloudflare.com"
+    ]
+  }
 }
