@@ -1,0 +1,15 @@
+{
+    "owner":  {
+                  "username":  "jaehong6695",
+                  "email":  "jeon6695@gmail.com"
+              },
+    "records":  {
+                    "A":  [
+                              "185.199.108.153",
+                              "185.199.109.153",
+                              "185.199.110.153",
+                              "185.199.111.153"
+                          ],
+                    "TXT":  "google-site-verification=aUvMyxVmtI_YHQSjeVXW7mndVaB4T4aAn0vr58uFV0U"
+                }
+}
