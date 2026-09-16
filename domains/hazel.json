@@ -1,10 +1,11 @@
 {
   "owner": {
     "username": "hablethedev",
-    "email": "xendyex@tutanota.com",
+    "email": "hablethedev@getgoogleoff.me",
     "discord": "1113284520737771621"
   },
   "records": {
-    "CNAME": "hablethedev.github.io"
-  }
+    "CNAME": "hazel.legiti.dev"
+  },
+  "proxied": false
 }

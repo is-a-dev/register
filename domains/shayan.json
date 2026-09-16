@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "shayan-zaheer",
-        "email": "abbaszaigham744@gmail.com"
-    },
-    "records": {
-        "CNAME": "web-portfolio-wine-seven.vercel.app"
-    }
+  "owner": {
+    "username": "shayan-zaheer",
+    "email": "abbaszaigham744@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

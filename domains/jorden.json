@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "jordenlch"
-    },
-    "records": {
-        "CNAME": "jordenlch.vercel.app"
-    }
+  "owner": {
+    "username": "jordenlch"
+  },
+  "records": {
+    "CNAME": "jordenlch.vercel.app"
+  }
 }

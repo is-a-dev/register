@@ -1,10 +1,12 @@
 {
-    "owner": {
-        "username": "CSerVN",
-        "email": "summerthinh3@gmail.com"
-    },
-    "description": "My Personal Portfolio Website",
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "CSerVN",
+    "email": "summerthinh3@gmail.com"
+  },
+  "description": "My Personal Portfolio Website",
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

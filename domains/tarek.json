@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "iam-sigma",
-        "email": "tarekamibro@gmail.com"
-    },
-    "records": {
-        "CNAME": "tarekdev.pages.dev"
-    }
+  "owner": {
+    "username": "iam-sigma",
+    "email": "tarekamibro@gmail.com"
+  },
+  "records": {
+    "CNAME": "tarekdev.pages.dev"
+  }
 }
