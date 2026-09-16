@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "linuskang",
+    "email": "linuskang1@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      {
+        "host": "_atproto",
+        "value": "did=did:plc:tjebuahpfvzgjsr35bhbszj"
+      }
+    ]
+  }
+}
