@@ -1,11 +1,10 @@
 {
   "owner": {
-    "username": "aboal2145",
+    "username": "aboal21458",
     "email": "mohamedbdall44@gmail.com"
   },
   "record": {
     "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"],
-    "URL": "https://aboal21458.github.io/sqola"
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
