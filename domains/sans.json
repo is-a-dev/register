@@ -2,8 +2,12 @@
     "owner": {
         "username": "bricksarecool",
         "email": "sans@black.com"
-    },
+    },    
     "records": {
-        "CNAME": "bricksarecool.github.io"
+        "CNAME": "bricksarecool.github.io",
+        "MX": [
+          "mx1.improvmx.com.",
+          "mx2.improvmx.com."
+        ]
     }
 }
