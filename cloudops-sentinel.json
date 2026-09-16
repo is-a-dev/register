@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "ShyamBadiganti"
+    "username": "ShyamBadiganti",
+    "email": "badigantishyam@outlook.com"
   },
   "records": {
     "CNAME": "cloudops-sentinel-alb-337567964.ap-south-1.elb.amazonaws.com"
