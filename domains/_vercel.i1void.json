@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "i1void",
+    "email": "nodtfears@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=i1void.is-a.dev,c582515825b001d8f914",
+      "vc-domain-verify=api.i1void.is-a.dev,33dc98f84fae9bb78e50"
+    ]
+  }
+}
