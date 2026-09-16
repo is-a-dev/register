@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "Aboodi22",
+    "email": "abdell55rt@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "subdomains": {
+    "_vercel": {
+      "record": {
+        "TXT": "vc-domain-verify=abbounsif.is-a.dev,65749ba59c5c8940c660"
+      }
+    }
+  }
+}
