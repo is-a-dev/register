@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "allplay4k-netizen"
-  },
-  "records": {
-    "URL": "https://allplay4k-netizen.github.io/landonxr.github.io/"
-  }
+    "description": "landonxr",
+    "owner": {
+        "username": "landonxr"
+    },
+    "record": {
+        "CNAME": "https://allplay4k-netizen.github.io/landonxr.github.io/"
+    }
 }
