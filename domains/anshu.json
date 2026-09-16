@@ -3,7 +3,9 @@
     "username": "IIXII-L192",
     "email": "ytwerewolfgaming@gmail.com"
   },
-  "record": {
-    "CNAME": "anshu07.vercel.app"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
