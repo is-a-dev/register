@@ -1,1 +1,8 @@
-
+{
+    "owner": {
+        "username": "kushawahavibhav-sudo"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
+}
