@@ -4,6 +4,7 @@
     "email": "brickwall2900@gmail.com"
   },
   "records": {
-    "CNAME": "brickwall2900.github.io"
+    "CNAME": "brickwall2900-github-io.pages.dev",
+    "TXT": "google-site-verification=Jv-6i-HcBosL7qGqMJQX-hsNBNUGHxyy9vrHsjFRCNY"
   }
 }
