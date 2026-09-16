@@ -4,6 +4,6 @@
     "email": "atharvam682@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=www.adarshverma.is-a.dev,e344b861305d3f447bc9"
+    "TXT": ["vc-domain-verify=www.adarshverma.is-a.dev,e344b861305d3f447bc9"]
   }
 }
