@@ -1,0 +1,11 @@
+{
+  "description": "Personal developer portfolio and open-source projects of Ronn Granz",
+  "repo": "https://github.com/ronngranz-droid/ronngranz-droid.github.io",
+  "owner": {
+    "username": "ronngranz-droid",
+    "email": "ronngranz@gmail.com"
+  },
+  "records": {
+    "CNAME": "ronngranz-droid.github.io"
+  }
+}
