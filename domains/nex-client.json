@@ -1,9 +1,10 @@
 {
+  "description": "Nex Client web application",
   "owner": {
     "username": "abhinavgautam08",
-    "email": "abhinavgautam08@users.noreply.github.com"
+    "email": "abhinavgautam08@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "nex-client.pages.dev"
   }
 }
