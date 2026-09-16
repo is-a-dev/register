@@ -1,4 +1,9 @@
-"owner": {
-  "username": "anasharara059",
-  "email": "anasharara059@gmail.com"
+{
+  "owner": {
+    "username": "anasharara059",
+    "email": "anasharara059@gmail.com"
+  },
+  "records": {
+    "CNAME": "anasharara059.github.io"
+  }
 }
