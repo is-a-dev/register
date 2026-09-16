@@ -4,6 +4,8 @@
     "email": "lyw8459@gmail.com"
   },
   "records": {
-    "MX": ["aspmx.daum.net"]
+    "MX": [
+      "aspmx.daum.net"
+    ]
   }
 }

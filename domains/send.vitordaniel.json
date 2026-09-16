@@ -4,7 +4,11 @@
     "email": "vitor036daniel@gmail.com"
   },
   "records": {
-    "TXT": ["v=spf1 include:amazonses.com ~all"],
-    "MX": ["feedback-smtp.sa-east-1.amazonses.com"]
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all"
+    ],
+    "MX": [
+      "feedback-smtp.sa-east-1.amazonses.com"
+    ]
   }
 }

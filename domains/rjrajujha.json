@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "rjrajujha",
-        "email": "email@rajujha.dev"
-    },
-    "records": {
-        "CNAME": "rjrajujha.github.io"
-    }
+  "owner": {
+    "username": "rjrajujha",
+    "email": "email@rajujha.dev"
+  },
+  "records": {
+    "CNAME": "rjrajujha.github.io"
+  }
 }
