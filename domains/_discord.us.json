@@ -3,10 +3,10 @@
     "username": "fvcified"
   },
   "records": {
-        "TXT": [
-            "dh=0d0b83419433bd4804feba57497c4aebb49d5fb6",
-            "dh=90ac8b1b612c34e804d44f1adfbb0381e330e2cf",
-            "dh=aefacf060b804f570b0d12c81908f5e0d91ca578"
-        ]
-    }
+    "TXT": [
+      "dh=0d0b83419433bd4804feba57497c4aebb49d5fb6",
+      "dh=90ac8b1b612c34e804d44f1adfbb0381e330e2cf",
+      "dh=aefacf060b804f570b0d12c81908f5e0d91ca578"
+    ]
+  }
 }

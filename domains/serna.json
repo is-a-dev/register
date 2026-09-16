@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "MFS-code"
-    },
-    "records": {
-        "CNAME": "mfserna.dev"
-    }
+  "owner": {
+    "username": "MFS-code"
+  },
+  "records": {
+    "CNAME": "mfserna.dev"
+  }
 }

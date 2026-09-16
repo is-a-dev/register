@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "ctrlaltspace"
-    },
-    "records": {
-        "CNAME": "rsend.forge.rmta.net"
-    }
+  "owner": {
+    "username": "ctrlaltspace"
+  },
+  "records": {
+    "CNAME": "rsend.forge.rmta.net"
+  }
 }

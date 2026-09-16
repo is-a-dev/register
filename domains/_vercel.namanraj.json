@@ -4,6 +4,9 @@
     "email": "rajnaman.work@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=namanraj.is-a.dev,67a94932e2102b9d267f", "vc-domain-verify=systemdesign.namanraj.is-a.dev,762b01ff9d158968b9b5"]
+    "TXT": [
+      "vc-domain-verify=namanraj.is-a.dev,67a94932e2102b9d267f",
+      "vc-domain-verify=systemdesign.namanraj.is-a.dev,762b01ff9d158968b9b5"
+    ]
   }
 }

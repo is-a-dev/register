@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "getcmdrolled",
-        "email": "wetturtle45@gmail.com"
-    },
-    "records": {
-        "CNAME": "scoobies.scoobis.us.to"
-    }
+  "owner": {
+    "username": "getcmdrolled",
+    "email": "wetturtle45@gmail.com"
+  },
+  "records": {
+    "CNAME": "scoobies.scoobis.us.to"
+  }
 }

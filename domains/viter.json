@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Veeter",
-        "email": "doochwiththeeye@gmail.com"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "Veeter",
+    "email": "doochwiththeeye@gmail.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "rohithteja",
-        "email": "rohithtejam@gmail.com"
-    },
-    "records": {
-            "CNAME": "af8497f4f603ab96.vercel-dns-017.com"
-    }
+  "owner": {
+    "username": "rohithteja",
+    "email": "rohithtejam@gmail.com"
+  },
+  "records": {
+    "CNAME": "af8497f4f603ab96.vercel-dns-017.com"
+  }
 }
