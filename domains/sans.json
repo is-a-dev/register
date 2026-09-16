@@ -4,6 +4,11 @@
         "email": "sans@black.com"
     },    
     "records": {
-        "NS": ["burt.ns.cloudflare.com", "nova.ns.cloudflare.com"]
+        "CNAME": "bricksarecool.github.io",
+        "proxied": true,
+        "MX": [
+          "mx1.improvmx.com.",
+          "mx2.improvmx.com."
+        ]
     }
 }
