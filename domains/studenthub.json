@@ -1,1 +1,10 @@
-
+{
+  "description": "Student Resources Hub",
+  "repo": "kumarabhiraj05981-dot/Student-Resources-Hub-Production",
+  "owner": {
+    "username": "kumarabhiraj05981-dot"
+  },
+  "record": {
+    "CNAME": "student-resources-hub-production.vercel.app"
+  }
+}
