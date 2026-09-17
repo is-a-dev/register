@@ -3,8 +3,10 @@
     "username": "14goga1000-create",
     "email": "14goga1000@gmail.com"
   },
-  "record": {
-    "type": "NS",
-    "value": ["ns1.cloudflare.com", "ns2.cloudflare.com"]
+  "records": {
+    "NS": [
+      "ns1.cloudflare.com",
+      "ns2.cloudflare.com"
+    ]
   }
 }
