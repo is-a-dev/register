@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "glehtovaara",
+    "email": "lcheesemarketgang@gmail.com"
+  },
+  "subdomain": "tesseracttechnology",
+  "record": {
+    "A": ["76.76.21.21"],
+    "TXT": ["google-site-verification=pending"]
+  }
+}
