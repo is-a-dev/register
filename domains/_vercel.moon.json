@@ -4,6 +4,6 @@
     "email": "ansdyd23@nate.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=moon.is-a.dev,2d8fb8b59d2fa26bedca"
   }
 }
