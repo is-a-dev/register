@@ -1,11 +1,11 @@
 {
-    "description": "Portfolio for Ali Tarraf, Senior Software Engineer",
-    "owner": {
-        "username": "Tarraf2020",
-        "email": "alitarraf2017@gmail.com"
-    },
-    "records": {
-        "CNAME": "tarraf2020.github.io"
-    },
-    "proxied": false
+  "description": "Portfolio for Ali Tarraf, Senior Software Engineer",
+  "owner": {
+    "username": "Tarraf2020",
+    "email": "alitarraf2017@gmail.com"
+  },
+  "records": {
+    "CNAME": "tarraf2020.github.io"
+  },
+  "proxied": false
 }

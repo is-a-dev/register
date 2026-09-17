@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Sandeep2k5",
-        "email": "sandeeputhayakumar@gmail.com"
-    },
-    "records": {
-        "CNAME": "sandeep2k5.netlify.app"
-    }
+  "owner": {
+    "username": "Sandeep2k5",
+    "email": "sandeeputhayakumar@gmail.com"
+  },
+  "records": {
+    "CNAME": "sandeep2k5.netlify.app"
+  }
 }
