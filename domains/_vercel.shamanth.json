@@ -4,6 +4,9 @@
     "email": "shamanth25402@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=shamanth.is-a.dev,084458fbaf9472625253"
+    "TXT": [
+      "vc-domain-verify=shamanth.is-a.dev,ee1f8307717ce553557f",
+      "vc-domain-verify=www.shamanth.is-a.dev,e2081eb35062cdf261fd"
+    ]
   }
 }
