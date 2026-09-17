@@ -5,7 +5,7 @@
     "username": "jyotirmya17",
     "email": "jyotirmya.jm@gmail.com"
   },
-  "record": {
-    "CNAME": "https://portofolio-ten-cyan-23.vercel.app"
+  "records": {
+    "CNAME": "your-vercel-app-url.vercel.app"
   }
 }
