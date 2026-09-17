@@ -6,7 +6,6 @@
   "subdomain": "tesseract",
   "record": {
     "A": ["76.76.21.21"],
-    "TXT"
-["google-site-verification=bF-IitD_jGLi6kIR16504j4OybRGwptIWc6eVIcJ2kg"]
+    "TXT": ["google-site-verification=bF-IitD_jGLi6kIR16504j40ybRGwptIWc6eVIcJ2kg"]
   }
 }
