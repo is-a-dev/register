@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Samratsinh-git",
-    "email": "samrat1544@gmail.com"
-  },
-  "record": {
-    "CNAME": "visit-tracker-zeta.vercel.app"
-  }
+    "owner": {
+        "username": "Samratsinh-git",
+        "email": "samrat1544@gmail.com"
+    },
+    "records": {
+        "CNAME": "ce190dc9287c93ad.vercel-dns-017.com."
+    }
 }
