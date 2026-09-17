@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "ksr20nx-collab",
+    "email": "ksr20nx@gmail.com"
+  },
+  "domain": "jaipur62bagru",
+  "record": {
+    "MX": [
+      "10 mx.zoho.in",
+      "20 mx2.zoho.in",
+      "50 mx3.zoho.in"
+    ],
+    "TXT": [
+      "v=spf1 include:zoho.in ~all"
+    ]
+  }
+}
