@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "metehop",
+    "email": "stridemetric@proton.me"
+  },
+  "description": "Appli web meteo pour le projet metehop.github.io",
+  "records": {
+    "CNAME": "metehop.github.io"
+  }
+}
