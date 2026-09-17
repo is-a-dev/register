@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "OussamaEl-Asri",
-        "email": "oussamaasri80@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=oussamaelasri.is-a.dev,a356888bd9eccbd337dc"
-    }
+  "owner": {
+    "username": "OussamaEl-Asri",
+    "email": "oussamaasri80@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=oussamaelasri.is-a.dev,a356888bd9eccbd337dc"
+  }
 }
