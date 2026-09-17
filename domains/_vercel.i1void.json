@@ -5,8 +5,9 @@
   },
   "records": {
     "TXT": [
-      "vc-domain-verify=i1void.is-a.dev,333f420585c43cf5f270",
-      "vc-domain-verify=api.i1void.is-a.dev,33dc98f84fae9bb78e50"
+      "vc-domain-verify=i1void.is-a.dev,c582515825b001d8f914",
+      "vc-domain-verify=api.i1void.is-a.dev,33dc98f84fae9bb78e50",
+      "vc-domain-verify=www.i1void.is-a.dev,8356aede71fcfb5c6ddc"
     ]
   }
 }

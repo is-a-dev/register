@@ -4,6 +4,9 @@
     "email": "m1st4ck@proton.me"
   },
   "records": {
-    "CNAME": "m1st4ck.github.io"
-  }
+    "CNAME": "m1st4ck.github.io",
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+  },
+  "proxied": true
 }
