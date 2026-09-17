@@ -3,7 +3,8 @@
     "username": "NOVI-16699-cmd",
     "email": "eveilsaint6699@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "cname.vercel-dns.com"
-  }
+  },
+  "description": "My portfolio website"
 }
