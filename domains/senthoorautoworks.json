@@ -1,0 +1,11 @@
+{
+  "description": "Website for Senthoor Auto Works",
+  "repo": "https://github.com/karthickvel123/care",
+  "owner": {
+    "username": "karthickvel123",
+    "email": "karthivel875@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
