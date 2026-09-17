@@ -1,7 +1,7 @@
-
 {
   "owner": {
-    "username": "kumarabhiraj05981-dot"
+    "username": "kumarabhiraj05981-dot",
+    "email": "kumarabhiraj05981@gmail.com"
   },
   "records": {
     "CNAME": "student-resources-hub-production.vercel.app"
