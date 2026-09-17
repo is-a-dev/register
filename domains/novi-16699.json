@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "novi-16699-cmd",
-    "email": "evelisaint6699@gmail.com"
+    "username": "NOVI-16699-cmd",
+    "email": "eveilsaint6699@gmail.com"
   },
-  "records": {
+  "subdomain": "novi-16699",
+  "record": {
     "CNAME": "cname.vercel-dns.com"
-  }
+  },
+  "description": "Portfolio website for my software development projects"
 }
