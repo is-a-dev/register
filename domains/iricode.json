@@ -1,5 +1,7 @@
-{   "owner": {
-    "username": "Nikhul009988"
+{
+  "owner": {
+    "username": "Nikhil009988",
+    "email": "nikhilguntur1@gmail.com"
   },
   "records": {
     "CNAME": "iricode.vercel.app"
