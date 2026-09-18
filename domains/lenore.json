@@ -1,11 +1,10 @@
 {
-  "domain": "is-a-dev.site",
   "subdomain": "legest-bot",
   "owner": {
     "username": "Lenorebot",
     "email": "nsoorryy1@gmail.com"
   },
   "records": {
-    "CNAME": "17a87864-aa5e-4427-92e3-698ce3b66b87.cfargotunnel.com"
+    "CNAME": "mayor-cloud.site"
   }
 }
