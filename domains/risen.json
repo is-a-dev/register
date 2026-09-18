@@ -1,1 +1,10 @@
-
+{
+  "owner": {
+    "username": "trueness04",
+    "email": "aminazmoo@gmail.com"
+  },
+  "records": {
+    "CNAME": "trueness04.github.io"
+  },
+  "proxied": true
+}
