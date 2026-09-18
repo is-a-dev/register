@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "caspersonca-sys",
+        "email": "caspersonca@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "://cloudflare.com",
+            "://cloudflare.com"
+        ]
+    }
+}
