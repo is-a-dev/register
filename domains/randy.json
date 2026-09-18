@@ -4,6 +4,20 @@
     "email": "n.r0225@gmail.com"
   },
   "records": {
-    "URL": "https://github.com/nr0225"
+    "URL": "https://github.com/nr0225",
+    "MX": [
+      {
+        "target": "mx01.mail.icloud.com",
+        "priority": 10
+      },
+      {
+        "target": "mx02.mail.icloud.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "apple-domain=S6dZ3pkvm5iM5VSC",
+      "v=spf1 include:icloud.com ~all"
+    ]
   }
 }
