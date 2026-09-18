@@ -1,10 +1,9 @@
 {
-  "subdomain": "legest-bot",
   "owner": {
     "username": "Lenorebot",
     "email": "nsoorryy1@gmail.com"
   },
   "records": {
-    "CNAME": "node1.mayor-cloud.site"
+    "CNAME": "mayor-cloud.site"
   }
 }
