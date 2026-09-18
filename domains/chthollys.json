@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "chthollys",
-        "email": "jason130105@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "chthollys",
+    "email": "jason130105@gmail.com"
+  },
+  "records": {
+    "A": [
+      "168.110.212.241"
+    ]
+  }
 }

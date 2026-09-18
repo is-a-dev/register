@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "10xdev4u-alt",
+    "email": "10xdev4u@gmail.com"
+  },
+  "records": {
+    "CNAME": "theaidevx.web.app",
+    "TXT": "hosting-site=theaidevx"
+  },
+  "proxied": true
+}

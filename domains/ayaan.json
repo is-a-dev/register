@@ -1,0 +1,31 @@
+{
+  "description": "Portfolio Website",
+  "owner": {
+    "username": "ayaandh",
+    "x": "AyaanDhalait"
+  },
+  "records": {
+    "A": [
+      "35.185.44.232"
+    ],
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mx.zoho.in"
+      },
+      {
+        "priority": 20,
+        "target": "mx2.zoho.in"
+      },
+      {
+        "priority": 50,
+        "target": "mx3.zoho.in"
+      }
+    ],
+    "TXT": [
+      "gitlab-pages-verification-code=5e1c9ca3187ea9c0a88d142348af2bbe",
+      "zoho-verification=zb30101126.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
+    ]
+  }
+}

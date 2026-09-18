@@ -5,6 +5,9 @@
     "email": "dibster+is-a-dev@danbot.host"
   },
   "records": {
-    "NS": ["eugene.ns.cloudflare.com", "teresa.ns.cloudflare.com"]
+    "NS": [
+      "eugene.ns.cloudflare.com",
+      "teresa.ns.cloudflare.com"
+    ]
   }
 }
