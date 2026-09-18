@@ -1,0 +1,10 @@
+{
+  "description": "PartyWatcher watch party",
+  "owner": {
+    "username": "Baamich",
+    "email": "baamich.gm@gmail.com"
+  },
+  "records": {
+    "CNAME": "knights-their-gui-consecutive.trycloudflare.com/index.html"
+  }
+}
