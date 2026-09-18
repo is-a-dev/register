@@ -1,12 +1,1 @@
-{
-    "owner": {
-        "username": "hyqanxd",
-        "email": "hakobabo2002@gmail.com"
-    },
-    "records": {
-        "TXT": [
-            "vc-domain-verify=axpay.is-a.dev,0fd71fcad761c967417a",
-            "vc-domain-verify=www.axpay.is-a.dev,aeabfa8b83e337ebfc59"
-        ]
-    }
-}
+{"owner":{"username":"hyqanxd","email":"hakobabo2002@gmail.com"},"records":{"TXT":["vc-domain-verify=axpay.is-a.dev,0fd71fcad761c967417a","vc-domain-verify=www.axpay.is-a.dev,aeabfa8b83e337ebfc59"]}}
