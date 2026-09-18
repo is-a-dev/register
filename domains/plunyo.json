@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "plunyo"
+    "username": "plunyo",
+    "email": "plunyo.games@gmail.com"
   },
   "records": {
-    "A": ["119.18.17.200"]
+    "CNAME": "plunyo.github.io"
   }
 }
