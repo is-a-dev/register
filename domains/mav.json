@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "shipwr3ckd",
+    "email": "shipwr3ckd@proton.me"
+  },
+  "records": {
+    "NS": [
+      "alfred.ns.cloudflare.com",
+      "mona.ns.cloudflare.com"
+    ]
+  }
+}
