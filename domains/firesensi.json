@@ -1,0 +1,11 @@
+{
+  "description": "FireSensi and BGMI Pro Sensitivity Hub",
+  "repo": "https://github.com/sharib409",
+  "owner": {
+    "username": "sharib409",
+    "email": "apna-email@gmail.com"
+  },
+  "record": {
+    "CNAME": "firesensi.vercel.app"
+  }
+}
