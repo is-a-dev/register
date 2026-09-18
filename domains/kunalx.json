@@ -6,6 +6,9 @@
     "discord": "glitchmasterx"
   },
   "records": {
-    "NS": ["dom.ns.cloudflare.com", "gwen.ns.cloudflare.com"]
+    "NS": [
+      "dom.ns.cloudflare.com",
+      "gwen.ns.cloudflare.com"
+    ]
   }
 }
