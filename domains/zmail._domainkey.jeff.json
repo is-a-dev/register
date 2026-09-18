@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "PentSec",
+    "email": "pentsec.2@protonmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCHxjevzE840Y3NAXCG1DaJNQnrL6H5OIdpvxQ2SFJzrMMOPo9104AIWuH5Tzfq7CRXQhgj6SttZRM03WxXkJBQGYYZtaGKPg8kWrSjwks1RKSF5RLGiXKT3H/BXKqrlT7vckJOY6MmjSExSHyMUlOeVX0GzZttCNCED8e0RGSv+wIDAQAB"
+  }
+}

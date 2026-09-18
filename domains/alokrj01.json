@@ -1,0 +1,10 @@
+{
+  "description": "My developer portfolio",
+  "owner": {
+    "username": "alokrj01",
+    "email": "ranjanalok2468@gmail.com"
+  },
+  "records": {
+    "CNAME": "alok-dev-portfolio.netlify.app"
+  }
+}

@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "jokoarynt",
-        "email": "jokoariyanto2013@gmail.com"
-    },
-    "records": {
-        "A": ["157.66.55.62"]
-    }
+  "owner": {
+    "username": "jokoarynt"
+  },
+  "records": {
+    "URL": "https://github.com/jokoarynt"
+  }
 }
