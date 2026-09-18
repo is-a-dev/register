@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Wheatlay",
-        "email": "krzysztof.wolkowycki.work@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "Wheatlay",
+    "email": "krzysztof.wolkowycki.work@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "noonefr69",
-        "email": "kasraam385@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "noonefr69",
+    "email": "kasraam385@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

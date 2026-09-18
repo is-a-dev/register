@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Wheatlay",
-        "email": "krzysztof.wolkowycki.work@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=wheatlay.is-a.dev,a845bc5aab51d8805b66"
-    }
+  "owner": {
+    "username": "Wheatlay",
+    "email": "krzysztof.wolkowycki.work@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=wheatlay.is-a.dev,a845bc5aab51d8805b66"
+  }
 }
