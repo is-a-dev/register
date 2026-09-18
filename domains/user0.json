@@ -1,11 +1,9 @@
 {
-  "description": "My own web profile",
-  "repo": "https://github.com/user0-07161/user0-07161.github.io",
   "owner": {
     "username": "user0-07161",
     "email": "user0thenyancat@proton.me"
   },
-  "record": {
+  "records": {
     "CNAME": "user0-07161.codeberg.page"
   }
 }

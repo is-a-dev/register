@@ -1,11 +1,9 @@
 {
-  "description": "Linux For All",
-  "repo": "https://github.com/linuxforall3/linuxforall3.github.io",
   "owner": {
-    "username": "linux",
-    "email": "linuxforall32@proton.me"
+    "username": "doughmination",
+    "email": "admin@doughmination.win"
   },
-  "record": {
-    "CNAME": "linuxforall3.github.io"
+  "records": {
+    "CNAME": "doughmination-sex-hub.pages.dev"
   }
 }

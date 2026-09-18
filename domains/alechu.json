@@ -1,11 +1,9 @@
 {
-  "description": "My personal website to describe who I am and what I'm currently doing as a developer",
-  "repo": "https://github.com/Alechuu/alechuu.github.io",
   "owner": {
     "username": "Alechuu",
     "email": "alechu.dev@icloud.com"
   },
-  "record": {
+  "records": {
     "CNAME": "alechuu.github.io"
   }
 }

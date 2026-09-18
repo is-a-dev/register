@@ -1,11 +1,11 @@
 {
-  "description": "Leon is a dev!",
   "owner": {
-    "username": "itsLeonB",
-    "email": "ellionblessan@gmail.com"
+    "username": "LeonMT1",
+    "email": "leon@cookieattack.de"
   },
-  "record": {
-    "CNAME": "itsLeonB.github.io"
-  },
-  "proxied": true
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

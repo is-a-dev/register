@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "YourTilak",
-    "email": "rj05tilak@gmail.com"
+    "username": "tilakcodes-cloudx",
+    "email": "tilak.codes@gmail.com"
   },
-  "record": {
-    "CNAME": "yourtilak.github.io"
+  "records": {
+    "CNAME": "tilak-devsecops.netlify.app"
   }
 }

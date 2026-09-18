@@ -1,12 +1,8 @@
-
 {
-    "description": "It is for my portfolio",
-    "repo": "https://github.com/alfonso12dev/portfolio",
-     "owner": {
-         "username": "alfonso12dev",
-         "email": "bmeza9407@gmail.com"
-     },
-    "record": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "SELMANI-Lyna"
+  },
+  "records": {
+    "A": ["216.24.57.1"]
+  }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "hoojinguyen.is-a.dev : This is my personal notebook",
-  "repo": "https://github.com/hoojinguyen/portfolio-by-ai",
   "owner": {
     "username": "hoojinguyen",
     "email": "vn.hoinv98@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://hooji-nguyen.vercel.app/"
   }
 }

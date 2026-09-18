@@ -1,0 +1,11 @@
+{
+  "description": "My developer portfolio",
+  "repo": "https://github.com/SajithNuski/my-portfolio",
+  "owner": {
+    "username": "SajithNuski",
+    "email": "sajithnuski555@gmail.com"
+  },
+  "records": {
+    "CNAME": "my-portfolio-bm95.vercel.app"
+  }
+}

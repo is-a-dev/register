@@ -1,11 +1,9 @@
 {
-    "description": "Using it to point to my Portfolio on GitHub Pages",
-    "repo": "https://github.com/knowgaurav/knowgaurav.github.io",
-    "owner": {
-        "username": "knowgaurav",
-        "email": "qj1b83fmt@mozmail.com"
-    },
-    "record": {
-        "CNAME": "knowgaurav.github.io"
-    }
+  "owner": {
+    "username": "knowgaurav",
+    "email": "qj1b83fmt@mozmail.com"
+  },
+  "records": {
+    "CNAME": "knowgaurav.github.io"
+  }
 }

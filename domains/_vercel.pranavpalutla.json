@@ -1,0 +1,10 @@
+{
+  "description": "Vercel verification for pranavpalutla.is-a.dev",
+  "owner": {
+    "username": "Pranav593",
+    "email": "pranavpalutla@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=pranavpalutla.is-a.dev,66c55f010065082b0515"
+  }
+}

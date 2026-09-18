@@ -1,12 +1,10 @@
 {
-  "description": "Myster's website",
-  "repo": "https://github.com/MysterV/mysterv.github.io",
   "owner": {
     "username": "MysterV",
     "email": "myster@ik.me",
     "discord": "my5ter"
   },
-  "record": {
+  "records": {
     "CNAME": "mysterv.github.io"
   }
 }

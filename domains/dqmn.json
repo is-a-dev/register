@@ -1,11 +1,9 @@
 {
-  "description": "dqmn.is-a.dev",
-  "repo": "https://github.com/dqmn/dqmn.github.io",
   "owner": {
     "username": "dqmn",
     "email": "dqmnbackup@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "dqmn.github.io"
   }
 }

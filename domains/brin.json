@@ -1,11 +1,11 @@
 {
-  "description": "Personal site",
-  "repo": "https://github.com/brinterwastaken/brinterwastaken.github.io",
   "owner": {
     "username": "brinterwastaken",
     "email": "trin.n2848@gmail.com"
   },
-  "record": {
-    "CNAME": "brinterwastaken.github.io"
-  }
+  "records": {
+    "CNAME": "brinterwastaken.github.io",
+    "TXT": "google-site-verification=WlrRT6o98BXmoLOWGiapXwLCWiUS33jl8cNuKV76fgw"
+  },
+  "proxied": true
 }

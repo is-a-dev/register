@@ -1,11 +1,8 @@
 {
-  "description": "My Personal Web.",
-  "repo": "https://github.com/PinozenTH/PinozenTH.github.io",
-  "owner": {
-    "username": "PinozenTH",
-    "email": "Pinozen.Thailand@gmail.com"
-  },
-  "record": {
-    "CNAME": "pinozenth.github.io"
-  }
+    "owner": {
+        "username": "Pinont"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }

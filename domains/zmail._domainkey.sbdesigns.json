@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "sb-designs",
+    "email": "hello@sbdesigns.spike.team"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRH/DKV+EAPb/3ADnQxBMZiY15YblYbd13sJBzpSoVsMjwo3WtVK79xWH9JrG4tKiEJtqMQqo8n9cKyFe5SAw65JzwEzhnGbkG/R+7zGupANI7IGw0aQEHtw9d+Trc7GDq8fzv9mmQ8f25yTFntb/bpwZQcGOJ9xxOkoSine9hWQIDAQAB"
+  },
+  "proxied": false
+}

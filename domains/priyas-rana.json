@@ -1,10 +1,8 @@
 {
-  "description": "My new website",
-  "repo": "https://github.com/priyas-rana/priyas-rana.github.io",
   "owner": {
     "username": "priyas-rana"
   },
-  "record": {
+  "records": {
     "CNAME": "priyas-rana.github.io"
   }
 }

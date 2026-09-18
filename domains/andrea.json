@@ -4,7 +4,9 @@
     "username": "andrea-capigiri",
     "email": "uadopo+isadev@pm.me"
   },
-  "record": {
-    "A": ["62.171.176.192"]
+  "records": {
+    "A": [
+      "62.171.176.192"
+    ]
   }
 }

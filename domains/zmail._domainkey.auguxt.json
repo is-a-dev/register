@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "auguxt",
+    "email": "syedsameer.sbecse@gmail.com"
+  },
+
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJWOUJsUEN1KdD9lry3eUKI3aJGXAY2AXHu5L4IhdMezC9ClXRBTXKgTbZRjKtZ690STXrlDd43X0xBqzaMxBqVJ3E7a2C72Eib76R4AGeMfqAGXAOYinDHNRUHxPxvVOb08JFLva1Dni4vbEhRXQNBVLjHWo3jy7ikncYN51duwIDAQAB"
+  }
+}

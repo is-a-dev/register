@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "nxrmqlly",
-    "email": "ritam@duck.com"
+    "username": "RitamRoa",
+    "email": "ritamrao48@gmail.com"
   },
-  "record": {
-    "CNAME": "ritams-website.vercel.app"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

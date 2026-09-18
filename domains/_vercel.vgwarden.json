@@ -2,7 +2,7 @@
   "owner": {
     "username": "VGWARDEN"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=vgwarden.is-a.dev,fb2beec697ea06b98fb5"]
+  "records": {
+    "TXT": "vc-domain-verify=vgwarden.is-a.dev,fb2beec697ea06b98fb5"
   }
 }

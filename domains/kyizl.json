@@ -3,7 +3,10 @@
     "username": "oqzx",
     "email": "ekn@envs.net"
   },
-  "record": {
-    "CNAME": "kyizl.pages.dev"
+  "records": {
+    "NS": [
+      "ali.ns.cloudflare.com",
+      "clay.ns.cloudflare.com"
+    ]
   }
 }

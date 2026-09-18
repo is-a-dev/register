@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "revansp",
-        "email": "revanspstudy28@gmail.com"
-    },
-    "record": {
-        "CNAME": "reiiv-beta.vercel.app"
-    }
+  "owner": {
+    "username": "revansp",
+    "email": "revanspstudy28@gmail.com"
+  },
+  "records": {
+    "CNAME": "reiiv-beta.vercel.app"
+  }
 }

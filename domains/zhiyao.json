@@ -1,11 +1,9 @@
 {
-  "description": "志遥（至尧）的个人博客",
-  "repo": "https://github.com/lizhiyao/lizhiyao.github.io",
   "owner": {
     "username": "lizhiyao",
     "email": "dancerlzy@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "lizhiyao.github.io"
   }
 }
