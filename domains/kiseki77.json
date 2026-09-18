@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "你的GitHub用户名",
+    "email": "你的邮箱"
+  },
+  "record": {
+    "NS": [
+      "ns71.cloudns.net",
+      "ns72.cloudns.com",
+      "ns73.cloudns.net",
+      "ns74.cloudns.uk"
+    ]
+  }
+}
