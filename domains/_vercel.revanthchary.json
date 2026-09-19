@@ -1,9 +1,8 @@
 {
     "owner": {
-        "username": "chary-workplace",
-        "email": "revanthcharyworkspace@gmail.com"
+        "username": "chary-workplace"
     },
     "records": {
-        "TXT": "vc-domain-verify=www.revanthchary.is-a.dev,433c6cdabf31115a74e9"
+        "TXT": "vc-domain-verify=revanthchary.is-a.dev,1381d8cf0f72a77b9139"
     }
 }
