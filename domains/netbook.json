@@ -1,9 +1,11 @@
 {
+  "description": "My personal website",
+  "repo": "https://github.com/ArchiePaperBag/archie-site",
   "owner": {
     "username": "ArchiePaperBag",
-    "email": "archieclarkmichigan@gmail.com"
+    "email": "Archieclarkmichigan@gmail.com"
   },
-  "records": {
-    "CNAME": "ArchiePaperBag.github.io"
+  "record": {
+    "CNAME": "archie-site.archieclarkmichigan.workers.dev"
   }
 }
