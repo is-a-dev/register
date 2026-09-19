@@ -4,6 +4,6 @@
         "email": "ritmeester@atomicmail.io"
     },
     "records": {
-        "TXT": "vc-domain-verify=chris.is-a.dev,8ed652cdbc20096c597f"
+        "A": ["216.198.79.1"]
     }
 }
