@@ -1,8 +1,9 @@
 {
-    "owner": {
-          "username": "OKZHT"
-    },
-    "records": {
-          "CNAME": "okzht.pgups.workers.dev"
-    }
+        "owner": {
+                    "username": "OKZHT",
+                    "email": "h4ndee.twitch@gmail.com"
+        },
+        "records": {
+                    "CNAME": "okzht.pgups.workers.dev"
+        }
 }
