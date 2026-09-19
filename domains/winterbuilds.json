@@ -4,6 +4,9 @@
     "email": "hollowfaith1001@gmail.com"
   },
   "records": {
-    "CNAME": ["wintersbuilds.onrender.com"]
+    "A": ["216.198.79.1"],
+    "TXT": {
+      "_vercel": "vc-domain-verify=winterbuilds.is-a.dev,367f7959c1b4fdaba6c4"
+    }
   }
 }
