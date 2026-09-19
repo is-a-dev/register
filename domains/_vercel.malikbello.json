@@ -1,0 +1,13 @@
+{
+  "name": "_vercel.malikbello",
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "HonTime2023",
+    "email": "belloayopelumi@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=malikbello.is-a.dev,9b066880d7e78129a200"
+    ]
+  }
+}

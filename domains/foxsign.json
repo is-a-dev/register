@@ -1,0 +1,19 @@
+{
+    "owner": {
+      "username": "fox-sign",
+      "email": "foxsign.305@gmail.com"
+    },
+    "records": {
+        "URL": "https://lit.link/foxsign"
+    },
+    "redirect_config": {
+      "custom_paths": {
+        "/github": "https://github.com/fox-sign",
+        "/qiita": "https://qiita.com/foxsign",
+        "/note": "https://note.com/foxsign",
+        "/about/tech": "https://github.com/fox-sign/fox-sign/blob/main/README.md",
+        "/about": "https://note.com/foxsign/n/n9274a7786a4a"
+      },
+      "redirect_paths": true
+    }
+}
