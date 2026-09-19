@@ -1,0 +1,10 @@
+{
+  "description": "Resend SPF (bounce subdomain) for Run Together email sending",
+  "owner": {
+    "username": "swiftjamesr",
+    "email": "swiftjamesr@gmail.com"
+  },
+  "records": {
+    "CNAME": "rsend.forge.rmta.net"
+  }
+}
