@@ -4,9 +4,6 @@
     "email": "jose.contreras.p25@gmail.com"
   },
   "records": {
-    "A": [
-      "3.209.15.88"
-    ]
-  },
-  "comment": "Personal portfolio of Jose Contreras deployed on AWS EC2"
+    "CNAME": "843b5e99-f98e-4cf5-8f80-420c2d396817.cfargotunnel.com"
+  }
 }
