@@ -4,6 +4,6 @@
     "email": "robowhisperer78@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=robowhisperer.is-a.dev,810a71b8a800c461827e"
+    "TXT": ["vc-domain-verify=robowhisperer.is-a.dev,810a71b8a800c461827e", "vc-domain-verify=cardwright.robowhisperer.is-a.dev,4a35f41874a654df6cb3"]
   }
 }
