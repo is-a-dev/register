@@ -10,5 +10,6 @@
       "selah.ns.cloudflare.com",
       "terry.ns.cloudflare.com"
     ]
-  }
+  },
+  "nested": true
 }
