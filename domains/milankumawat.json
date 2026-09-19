@@ -5,7 +5,10 @@
   },
   "records": {
     "A": [
-      "152.67.14.19"
+      "216.198.79.1"
+    ],
+    "TXT": [
+      "zoho-verification=zb02803674.zmverify.zoho.in"
     ]
   }
 }

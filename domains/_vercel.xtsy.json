@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Jackmod",
-        "email": "demtjackbtw@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=xtsy.is-a.dev,a14ebce41521dac9b680"
-    }
+  "owner": {
+    "username": "Jackmod",
+    "email": "demtjackbtw@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=xtsy.is-a.dev,a14ebce41521dac9b680"
+  }
 }
