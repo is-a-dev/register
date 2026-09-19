@@ -5,7 +5,7 @@
   },
   "subdomain": "fred-blaise",
   "description": "Portfolio for Fred Blaise Jr - CX Automation Engineer",
-  "record": {
+  "records": {
     "A": ["76.76.21.21"],
     "MX": [
       "mx.zoho.com",
