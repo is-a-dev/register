@@ -3,6 +3,7 @@
         "username": "noah-zipit"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": "vc-domain-verify=ashar.is-a.dev,be0f3f12b5472547b0da"
     }
 }
