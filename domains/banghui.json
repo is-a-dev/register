@@ -3,6 +3,6 @@
     "username": "banghuisun"
   },
   "records": {
-    "CNAME": "banghuisun.github.io"
+    "A": ["124.223.50.60"]
   }
 }
