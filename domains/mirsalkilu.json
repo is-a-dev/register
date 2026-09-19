@@ -1,11 +1,9 @@
-
-
 {
   "owner": {
     "username": "mirsalkilu-hub",
     "email": "mirsal.kilu@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "carlos.ns.cloudflare.com"
   }
 }
