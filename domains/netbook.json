@@ -1,7 +1,8 @@
 {
   "description": "My personal website",
   "owner": {
-    "username": "ArchiePaperBag"
+    "username": "ArchiePaperBag",
+    "email": "archieclarkmichigan@gmail.com"
   },
   "record": {
     "NS": [
@@ -9,4 +10,3 @@
       "christina.ns.cloudflare.com"
     ]
   }
-}
