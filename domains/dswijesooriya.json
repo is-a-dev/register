@@ -1,16 +1,9 @@
 {
   "owner": {
-    "username": "dswijesooriya",
+    "username": "dswijesooryia",
     "email": "dswijesooriya2@gmail.com"
   },
   "records": {
     "A": ["216.198.79.1"]
-  },
-  "subdomains": {
-    "_vercel": {
-      "records": {
-        "TXT": "vc-domain-verify=dswijesooriya.is-a.dev,a1f5d2b92596aa559100"
-      }
-    }
   }
 }
