@@ -1,10 +1,8 @@
 {
   "owner": {
-    "username": "mtmatter",
-    "email": "mtmatter@users.noreply.github.com"
+    "username": "mtmatter"
   },
   "records": {
-    "CNAME": "mac.taildd8edc.ts.net"
-  },
-  "proxied": true
+    "URL": "https://mac.taildd8edc.ts.net/"
+  }
 }
