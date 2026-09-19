@@ -1,9 +1,16 @@
 {
   "owner": {
     "username": "dswijesooriya",
-    "email": "dswijesooriya2@gmail.com"
+    "email": "your-github-email@example.com"
   },
   "records": {
     "A": ["216.198.79.1"]
+  },
+  "subdomains": {
+    "_vercel": {
+      "records": {
+        "TXT": "vc-domain-verify=dswijesooriya.is-a.dev,a1f5d2b92596aa559100"
+      }
+    }
   }
 }
