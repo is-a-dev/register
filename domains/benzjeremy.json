@@ -1,0 +1,14 @@
+{
+  "description": "Portfolio and self-hosted projects for Jeremy Benz",
+  "repo": "https://github.com/benzjeremy/benzjeremy",
+  "owner": {
+    "username": "benzjeremy",
+    "email": "benzjeremy@pm.me"
+  },
+  "records": {
+    "NS": [
+      "selah.ns.cloudflare.com",
+      "terry.ns.cloudflare.com"
+    ]
+  }
+}
