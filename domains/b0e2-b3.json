@@ -1,8 +1,11 @@
 {
   "owner": {
-    "username": "b0e2"
+    "username": "b0e2",
+    "email": "beenjeong02@gmail.com"
   },
   "records": {
-    "A": ["43.201.84.129"]
+    "A": [
+      "43.201.84.129"
+    ]
   }
 }
