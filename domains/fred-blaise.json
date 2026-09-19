@@ -3,9 +3,14 @@
     "username": "westindies86-DeV",
     "email": "westindies86@gmail.com"
   },
-  "records": {
+  "description": "Portfolio and Keeper projects - software development",
+  "record": {
     "A": ["216.198.79.1"],
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": "forward-email=westindies86@gmail.com"
-  }
+    "TXT": [
+      "forward-email=westindies86@gmail.com",
+      "vc-domain-verify=fred-blaise.is-a.dev,dcc2136f002422f05613"
+    ]
+  },
+  "proxied": false
 }
