@@ -1,10 +1,11 @@
-{
-  "owner": {
-    "username": "rahmanrayhandra-jpg",
-    "email": "rahmanrayhandra@gmail.com"
-  },
-  "record": {
-    "A": ["1.1.1.1"],
-    "TXT": ["devancaProject"]
-  }
-}
+- [x] I have read the CONTRIBUTING guidelines
+- [x] I have read the CODE OF CONDUCT
+
+### Domain name
+devpro.is-a.dev
+
+### Reason
+Personal website for Kalisari village project
+
+### Record
+A record pointing to 1.1.1.1 temporarily, will use Cloudflare Tunnel later
