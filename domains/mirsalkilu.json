@@ -3,7 +3,7 @@
     "username": "mirsalkilu-hub",
     "email": "mirsal.kilu@gmail.com"
   },
-  "records": {
-    "CNAME": "carlos.ns.cloudflare.com"
+  "record": {
+    "CNAME": "c184c69d-28f6-45de-80a9-cc7383efc7ed.cfargotunnel.com"
   }
 }
