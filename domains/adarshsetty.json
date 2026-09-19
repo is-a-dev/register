@@ -9,7 +9,9 @@
     "Twitter": "aasteriskz"
   },
   "records": {
-    "CNAME": "aasteriskz7.github.io"
+    "A": [
+      "216.198.79.1"
+    ]
   },
-  "proxied": true
+  "proxied": false
 }
