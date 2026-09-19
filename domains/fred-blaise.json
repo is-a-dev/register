@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "westindies86-DeV",
+    "email": "westindies86@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "MX": [
+      "mx.zoho.com",
+      "mx2.zoho.com",
+      "mx3.zoho.com"
+    ],
+    "TXT": [
+      "zoho-verification=zb99790609.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
+    ]
+  },
+  "proxied": false
+}

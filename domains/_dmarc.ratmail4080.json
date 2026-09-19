@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "magmashice",
+    "email": "aissalabandaseize@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none; rua=mailto:aissalabandaseize@gmail.com"
+  }
+}
