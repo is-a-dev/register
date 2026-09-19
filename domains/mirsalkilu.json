@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "mirsalkilu-hub",
+    "email": "mirsal.kilu@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "carlos.ns.cloudflare.com",
+      "veronica.ns.cloudflare.com"
+    ]
+  }
+}
