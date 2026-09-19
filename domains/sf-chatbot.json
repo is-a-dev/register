@@ -1,0 +1,9 @@
+{
+  "description": "San Fernando Municipal Inquiry Chatbot",
+  "owner": {
+    "username": "kc_castro"
+  },
+  "record": {
+    "CNAME": "municipal-chatbot-bert-lime.vercel.app"
+  }
+}
