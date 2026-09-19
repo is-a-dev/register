@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "ganteng-debug",
+    "email": "ganteng-debug@users.noreply.github.com"
+  },
+  "record": {
+    "NS": [
+      "kolton.ns.cloudflare.com",
+      "ursula.ns.cloudflare.com"
+    ]
+  }
+}
