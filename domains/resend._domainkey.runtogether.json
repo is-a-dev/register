@@ -1,0 +1,10 @@
+{
+  "description": "Resend DKIM for Run Together email sending",
+  "owner": {
+    "username": "swiftjamesr",
+    "email": "swiftjamesr@gmail.com"
+  },
+  "records": {
+    "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7uFsoS41JApzjSoIwDmBeE5L0BWGK0YJDgpQBahBiqnfp4ZTbqtTuaI9HauYQ1JMmzUS0nCyoZlxEJXtOJkNiUvDqgKz9T9vz2RkScGIabd3W1si+5vbprjARqPozimjq+hruqestnVBLYmO7fBXYNiJjUKDWDHP65udXg3GmvQIDAQAB"
+  }
+}
