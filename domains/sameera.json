@@ -3,6 +3,6 @@
     "username": "sameeramadushan"
   },
   "records": {
-    "CNAME": "://vercel-dns.com"
+    "A": ["216.198.79.1"]
   }
 }
