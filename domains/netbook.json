@@ -1,12 +1,11 @@
 {
   "description": "My personal website",
+  "repo": "https://github.com/ArchiePaperBag/archie-site",
   "owner": {
     "username": "ArchiePaperBag",
     "email": "archieclarkmichigan@gmail.com"
   },
   "records": {
-    "NS": [
-      "chance.ns.cloudflare.com",
-      "christina.ns.cloudflare.com"
-    ]
+    "CNAME": "archiepaperbag.github.io"
   }
+}
