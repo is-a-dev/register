@@ -1,0 +1,11 @@
+{
+  "description": "API Gateway",
+  "repo": "https://github.com/Mallushub1234/register",
+  "owner": {
+    "username": "Mallushub1234",
+    "email": ""
+  },
+  "record": {
+    "A": ["184.192.164.95"]
+  }
+}
