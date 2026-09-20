@@ -1,17 +1,13 @@
 {
-
   "owner": {
-
     "username": "iBlackFoxprod",
 
-    "email": "iblackfoxprod@gmail.com" 
-
+    "email": "iblackfoxprod@gmail.com"
   },
 
   "records": {
-
-    "A": ["216.198.79.1"]
-
+    "A": [
+      "216.198.79.1"
+    ]
   }
-
 }

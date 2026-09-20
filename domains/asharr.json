@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "noah-zipit"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "noah-zipit"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
