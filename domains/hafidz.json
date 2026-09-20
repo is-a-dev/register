@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nekoshirro",
-        "email": "ais.muzakky@gmail.com"
-    },
-    "records": {
-        "CNAME": "automaticsites-git-main-nekoshirros-projects.vercel.app"
-    }
+  "owner": {
+    "username": "nekoshirro",
+    "email": "ais.muzakky@gmail.com"
+  },
+  "records": {
+    "CNAME": "automaticsites-git-main-nekoshirros-projects.vercel.app"
+  }
 }
