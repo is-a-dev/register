@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "DarmaCahya",
-    "email": "imdarmacahya@gmail.com"
+    "email": "darmady6@gmail.com"
   },
   "records": {
-    "CNAME": "darmacahya.vercel.app"
+    "A": [
+      "104.18.5.103"
+    ]
   }
 }
