@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "zgjouig",
+    "email": "645034492@qq.com"
+  },
+  "records": {
+    "NS": ["mario.ns.cloudflare.com", "sue.ns.cloudflare.com"]
+  },
+  "proxied": true
+}
