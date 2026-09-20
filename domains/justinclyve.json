@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "clyvecute",
-        "email": "morada.310947@legazpi.sti.edu.ph"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "clyvecute",
+    "email": "morada.310947@legazpi.sti.edu.ph"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
