@@ -1,0 +1,11 @@
+{
+  "description": "Personal portfolio for software developer",
+  "repo": "https://github.com/oriel-r/webfolio",
+  "owner": {
+    "username": "oriel-r",
+    "email": "orielromero.work@gmail.com"
+  },
+  "records": {
+    "CNAME": "oriel-r.github.io"
+  }
+}

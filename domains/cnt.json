@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "channyeintun"
-    },
-    "records": {
-        "CNAME": "channyeintun.github.io"
-    }
+  "owner": {
+    "username": "channyeintun"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

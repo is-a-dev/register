@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "gaureshpai"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=gauresh.is-a.dev,64d9876f0218cdebb6db"
-    }
+  "owner": {
+    "username": "gaureshpai"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=gauresh.is-a.dev,64d9876f0218cdebb6db"
+  }
 }
