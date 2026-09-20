@@ -1,0 +1,32 @@
+{
+    "owner": {
+        "username": "dsweb-dev"
+    },
+    "records": {
+        "A": "75.2.60.5",
+        "MX": [
+            "mailserver.purelymail.com."
+        ],
+        "TXT": [
+            "purelymail_ownership_proof=67656f8a6ac963a9e641f86cadc1463b8a091f42c345409ecf6be35f81460324f0a3155691abb80d3483e5ec09df82fe1b65d3c473da7f30870357da1c8fa507",
+            "v=spf1 include:_spf.purelymail.com ~all"
+        ],
+        "CNAME": {
+            "www": "luminous-truffle-ec7a74.netlify.app",
+            "purelymail1._domainkey": "key1.dkimroot.purelymail.com.",
+            "purelymail2._domainkey": "key2.dkimroot.purelymail.com.",
+            "purelymail3._domainkey": "key3.dkimroot.purelymail.com.",
+            "_dmarc": "dmarcroot.purelymail.com.",
+            "autoconfig": "autoconfig.purelymail.com."
+        },
+        "SRV": [
+            {
+                "name": "_autodiscover._tcp",
+                "priority": 0,
+                "weight": 0,
+                "port": 443,
+                "target": "autodiscover.purelymail.com."
+            }
+        ]
+    }
+}
