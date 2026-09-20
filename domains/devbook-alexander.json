@@ -1,15 +1,9 @@
-{ 
-
-  "owner": { 
-
-    "username": "alexriver101219" 
-
-  }, 
-
-  "record": { 
-
-    "CNAME": "cname.vercel-dns.com" 
-
-  } 
-
-} 
+{
+  "owner": {
+    "username": "TU_USUARIO_GITHUB",
+    "email": "TU_CORREO"
+  },
+  "records": {
+    "CNAME": "TU_PROYECTO.vercel.app"
+  }
+}
