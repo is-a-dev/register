@@ -3,11 +3,11 @@
     "username": "Rady-ail",
     "email": "radyp13@gmail.com"
   },
-  "domain": "ail-labs",
   "records": {
     "CNAME": {
       "host": "@",
-      "value": "ryan-ady-putra.netlify.app"
+      "value": "ryan-ady-putra.netlify.app",
+      "proxied": true
     },
     "MX": [
       { "host": "@", "value": "mx.zoho.com", "priority": 10 },
