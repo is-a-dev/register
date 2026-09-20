@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AramCZdev",
-        "email": "aramcz@protonmail.com"
-    },
-    "records": {
-        "CNAME": "aramczdev.github.io"
-    }
+  "owner": {
+    "username": "AramCZdev",
+    "email": "aramcz@protonmail.com"
+  },
+  "records": {
+    "CNAME": "aramczdev.github.io"
+  }
 }
