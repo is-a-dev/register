@@ -4,7 +4,7 @@
     "email": "sinavproject@proton.me"
   },
   "description": "Personal dev project site and test backend",
-  "record": {
+  "records": {
     "NS": [
       "dylan.ns.cloudflare.com",
       "vivienne.ns.cloudflare.com"
