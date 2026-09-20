@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "GhostWebEnterprise"
+  },
+  "records": {
+    "CNAME": "GhostWebEnterprise.github.io"
+  }
+}
