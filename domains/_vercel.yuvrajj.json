@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "iblameyuvraj",
-        "email": "mechox31@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=yuvrajj.is-a.dev,719e24dc0457246e4c9f"
-    }
+  "owner": {
+    "username": "iblameyuvraj",
+    "email": "mechox31@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=yuvrajj.is-a.dev,719e24dc0457246e4c9f"
+  }
 }

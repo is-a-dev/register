@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "pwrisbss",
-        "email": "pwr.is.bss@tuta.io"
-    },
-    "records": {
-        "CNAME": "pwr-c0n-7d9.pages.dev"
-    },
-    "proxied": true
+  "owner": {
+    "username": "pwrisbss",
+    "email": "pwr.is.bss@tuta.io"
+  },
+  "records": {
+    "CNAME": "pwr-c0n-7d9.pages.dev"
+  },
+  "proxied": true
 }
