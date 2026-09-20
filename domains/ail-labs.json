@@ -1,0 +1,21 @@
+{
+  "owner": {
+    "username": "Rady-ail",
+    "email": "radyp13@gmail.com"
+  },
+  "domain": "ail-labs",
+  "records": {
+    "CNAME": {
+      "host": "@",
+      "value": "ryan-ady-putra.netlify.app"
+    },
+    "MX": [
+      { "host": "@", "value": "mx.zoho.com", "priority": 10 },
+      { "host": "@", "value": "mx2.zoho.com", "priority": 20 },
+      { "host": "@", "value": "mx3.zoho.com", "priority": 50 }
+    ],
+    "TXT": [
+      "@:v=spf1 include:zoho.com ~all"
+    ]
+  }
+}
