@@ -4,7 +4,7 @@
     "email": "645034492@qq.com"
   },
   "records": {
-    "NS": ["mario.ns.cloudflare.com", "sue.ns.cloudflare.com"]
+    "CNAME": "tdzf.ccwu.cc"
   },
   "proxied": true
 }
