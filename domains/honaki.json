@@ -17,6 +17,5 @@
       "v=spf1 include:spf.improvmx.com include:spf.brevo.com ~all",
       "brevo-code:c5459f8ed91d04c0e71ccdeb75d5f099"
     ]
-  },
-  "proxied": false
+  }
 }
