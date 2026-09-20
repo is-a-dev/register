@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "okpom"
-    },
-    "records": {
-        "CNAME": "jobless-requiem.pages.dev"
-    }
+  "owner": {
+    "username": "okpom"
+  },
+  "records": {
+    "CNAME": "jobless-requiem.pages.dev"
+  }
 }
