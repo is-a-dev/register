@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nikithamal",
-        "email": "iamnikithamal@gmail.com"
-    },
-    "records": {
-        "CNAME": "nikithamal.github.io"
-    }
+  "owner": {
+    "username": "nikithamal",
+    "email": "iamnikithamal@gmail.com"
+  },
+  "records": {
+    "CNAME": "nikithamal.github.io"
+  }
 }
