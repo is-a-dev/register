@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Brewage",
-        "email": "brewaging@gmail.com"
-    },
-    "records": {
-        "CNAME": "kawed.netlify.app"
-    }
+  "owner": {
+    "username": "Brewage",
+    "email": "brewaging@gmail.com"
+  },
+  "records": {
+    "CNAME": "kawed.netlify.app"
+  }
 }

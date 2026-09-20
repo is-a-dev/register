@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "bitscoid"
-    },
-    "records": {
-        "CNAME": "imam.bits.co.id"
-    }
+  "owner": {
+    "username": "bitscoid"
+  },
+  "records": {
+    "CNAME": "imam.bits.co.id"
+  }
 }

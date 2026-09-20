@@ -4,7 +4,9 @@
     "email": "guilhermechaves11@gmail.com"
   },
   "records": {
-    "A": ["163.176.230.223"],
+    "A": [
+      "163.176.230.223"
+    ],
     "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
