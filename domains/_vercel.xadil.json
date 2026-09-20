@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "iamxadil",
-        "email": "adil.xanny@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=xadil.is-a.dev,1ca6fd5aaf3eac924538"
-    }
+  "owner": {
+    "username": "iamxadil",
+    "email": "adil.xanny@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=xadil.is-a.dev,1ca6fd5aaf3eac924538"
+  }
 }

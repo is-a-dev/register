@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sameeramadushan",
-        "email": "sameeradelpechithra@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=sameera.is-a.dev,5213852686883af466d0"
-    }
+  "owner": {
+    "username": "sameeramadushan",
+    "email": "sameeradelpechithra@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sameera.is-a.dev,5213852686883af466d0"
+  }
 }
