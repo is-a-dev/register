@@ -3,7 +3,9 @@
     "username": "phamtung140513-bit",
     "email": "tung140513@gmail.com"
   },
-  "record": {
-    "A": ["45.58.159.107"]
+  "records": {
+    "A": [
+      "45.58.159.107"
+    ]
   }
 }
