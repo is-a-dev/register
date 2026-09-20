@@ -1,0 +1,12 @@
+{
+  "owner": { "username": "radyput", "email": "radyp13@gmail.com" },
+  "domain": "ail-labs",
+  "records": {
+    "MX": [
+      { "value": "mx.zoho.com", "priority": 10 },
+      { "value": "mx2.zoho.com", "priority": 20 },
+      { "value": "mx3.zoho.com", "priority": 50 }
+    ],
+    "TXT": ["v=spf1 include:zoho.com ~all"]
+  }
+}
