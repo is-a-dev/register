@@ -1,0 +1,10 @@
+{
+  "description": "CareSync",
+  "owner": {
+    "username": "abl4ze-dev",
+    "email": "abl4ze.ph@gmail.com"
+  },
+  "records": {
+    "CNAME": "care-sync-ph.netlify.app"
+  }
+}
