@@ -1,0 +1,28 @@
+{
+  "owner": {
+    "username": "satoshinakamoto119",
+    "email": "othmnehm88@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      {
+        "name": "resend._domainkey",
+        "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDu0vTK67+jN6+7+slS4mCFMyJ5Friu9guxlRCLWPy/yO8XgI3mlP1cUTvHK95/mqw80PO2uFr/zaFpzeeufKBDvjBEDNcGnwN5Ul9C1HqL2cfvRhyCZNNnUAoYemvhEqQnPg+AsauNlz//T0Xvg8ByglXvXoDHXKpy1QTMCTM1SQIDAQAB"
+      },
+      {
+        "name": "_dmarc",
+        "value": "v=DMARC1; p=none;"
+      }
+    ],
+    "CNAME": [
+      {
+        "name": "rsend",
+        "value": "rsend-euw1.forge.rmta.net"
+      },
+      {
+        "name": "send",
+        "value": "send.forge.rmta.net"
+      }
+    ]
+  }
+}
