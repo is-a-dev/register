@@ -1,0 +1,15 @@
+{
+  "description": "Personal portfolio website for Fred Blaise",
+  "owner": {
+    "email": "westindies86@gmail.com",
+    "username": "westindies86-DeV"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "TXT": [
+      "zoho-verification=zb99790609.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
+    ]
+  },
+  "proxied": false
+}
