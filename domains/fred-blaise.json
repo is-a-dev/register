@@ -3,7 +3,7 @@
   "description": "Portfolio website",
   "repo": "https://github.com/westindies86-DeV/fred-blaise-portfolio",
   "owner": {
-    "name": "Fred Blaise",
+    "username": "westindies86-DeV",
     "email": "westindies86@gmail.com"
   },
   "records": {
@@ -17,11 +17,7 @@
     ],
     "TXT": [
       "zoho-verification=zb99790609.zmverify.zoho.com",
-      "v=spf1 include:zoho.com ~all",
-      {
-        "name": "zmail._domainkey",
-        "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/wOXnJZHLGbaGxSco/E1MrY4jlYXeniyOPyKnSWYMfywT/bG/JkzZyOIecXTYbH8ksBtGVqI5X3ayHuLx4AisIg2/qZVE7UVGXDXGQv++SrEY5m6WOEV/FlzxAaGLP64WkF1x2D7Jm6VXwEBLxU5JkVeutPpQ/yQZtVjtjynUQQIDAQAB"
-      }
+      "v=spf1 include:zoho.com ~all"
     ]
   }
 }
