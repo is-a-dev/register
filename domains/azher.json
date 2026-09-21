@@ -4,9 +4,6 @@
     "email": "azhersallah1@gmail.com"
   },
   "records": {
-    "NS": [
-      "kirk.ns.cloudflare.com",
-      "melody.ns.cloudflare.com"
-    ]
+    "CNAME": "azher-dev.pages.dev"
   }
 }
