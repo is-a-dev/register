@@ -3,11 +3,11 @@
     "username": "satoshinakamoto119",
     "email": "othmnehm88@gmail.com"
   },
-  "records": {
+  "record": {
     "TXT": [
       {
         "name": "resend._domainkey",
-        "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDu0vTK67+jN6+7+slS4mCFMyJ5Friu9guxlRCLWPy/yO8XgI3mlP1cUTvHK95/mqw80PO2uFr/zaFpzeeufKBDvjBEDNcGnwN5Ul9C1HqL2cfvRhyCZNNnUAoYemvhEqQnPg+AsauNlz//T0Xvg8ByglXvXoDHXKpy1QTMCTM1SQIDAQAB"
+        "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDjh9rVPu9SBjYnT8QKbskyonrQsngRuZtZAPvX2I1XE2cwE5RJi8oj7Cu8cqVLiVZdBuEJSsvZp91MkDj71ZP+eJW7SUsoWSQvoCRaboLpvC8ObqKetMqMH5f7GdRhUfC30B8O3qWq/nMNFppO1dih3zBJSw5C9P25kZpFD1/yGwIDAQAB"
       },
       {
         "name": "_dmarc",
