@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "EthanLife41", 
+    "username": "EthanLife41",
     "email": "ethanxuyuefan@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
