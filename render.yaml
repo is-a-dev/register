@@ -1,0 +1,21 @@
+# render.yaml — Infraestructura como Codigo para Render.com
+# "New +" -> "Blueprint", seleccionas el repo, y listo. Sin base de
+# datos, sin cuentas externas, sin variables secretas que configurar.
+
+services:
+  - type: web
+    name: quickqr
+    runtime: node
+    plan: free
+    region: oregon
+    branch: main
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.0
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000

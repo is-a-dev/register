@@ -1,13 +1,26 @@
 {
-  "type": "module",
+  "name": "quickqr",
+  "version": "1.0.0",
+  "description": "Generador de codigos QR — todo corre en el navegador del usuario",
+  "main": "dist/index.js",
+  "engines": { "node": ">=18.0.0" },
   "scripts": {
-    "test": "npx ava tests/*.test.js",
-    "check:reserved-order": "node util/check-reserved-order.cjs",
-    "add:reserved": "node util/add-reserved-subdomain.cjs"
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0"
   },
   "devDependencies": {
-    "ava": "^8.0.1",
-    "fs-extra": "^11.4.0",
-    "prettier": "3.9.6"
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
   }
 }

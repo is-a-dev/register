@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>QuickQR — Generador de Códigos QR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.9.2/lib/qr-code-styling.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.2/dist/jszip.min.js"></script>
+<style>
+  :root {
+    --ink: #0B1220; --panel: #141C2E; --accent: #FF6A3D; --accent-2: #FFD23F;
+    --bg: #0A0F1A; --ice: #EAEEF7; --muted: #8C97AE; --border: rgba(234,238,247,0.1);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; background: radial-gradient(circle at 50% 0%, #1c1530 0%, var(--bg) 55%);
+    color: var(--ice); font-family: 'Inter', sans-serif; padding: 24px;
+  }
+  .wrap { max-width: 480px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 20px; position: relative; }
+  h1 { font-family: 'Space Grotesk', sans-serif; font-size: 30px; margin: 0 0 6px; }
+  h1 span { color: var(--accent); }
+  p.subtitle { color: var(--muted); font-size: 14px; margin: 0; }
+
+  #lang-toggle {
+    position: absolute; top: 0; right: 0; background: var(--panel); border: 1px solid var(--border);
+    color: var(--muted); border-radius: 999px; padding: 6px 12px; font-size: 12px; cursor: pointer; font-weight: 600;
+  }
+  #lang-toggle:hover { color: var(--ice); }
+
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 16px; padding: 22px; margin-bottom: 20px; }
+
+  /* Tabs principales */
+  .main-tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+  .main-tab {
+    flex: 1; text-align: center; padding: 10px; border-radius: 10px; cursor: pointer;
+    background: var(--panel); border: 1px solid var(--border); color: var(--muted); font-size: 13px; font-weight: 600;
+  }
+  .main-tab.active { background: var(--accent); color: #1a0e05; border-color: var(--accent); }
+  .main-tab-panel { display: none; }
+  .main-tab-panel.active { display: block; }
+
+  label { font-size: 12px; color: var(--muted); display: block; margin-bottom: 6px; margin-top: 14px; }
+  label:first-child { margin-top: 0; }
+  textarea, select, input[type="text"], input[type="tel"], input[type="email"] {
+    width: 100%; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--border);
+    background: #0d1424; color: var(--ice); font-size: 14px; font-family: inherit; resize: vertical;
+  }
+  textarea:focus, select:focus, input:focus { outline: 2px solid var(--accent); }
+  input[type="file"] {
+    width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border);
+    background: #0d1424; color: var(--muted); font-size: 13px;
+  }
+
+  .checkbox-row { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+  .checkbox-row input { width: 16px; height: 16px; }
+  .checkbox-row label { margin: 0; font-size: 13px; color: var(--ice); }
+
+  .row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .color-field { display: flex; align-items: center; gap: 10px; background: #0d1424; border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; }
+  .color-field input[type="color"] { width: 32px; height: 32px; border: none; background: none; padding: 0; cursor: pointer; }
+  .color-field span { font-size: 13px; color: var(--muted); }
+
+  .content-type-fields { display: none; }
+  .content-type-fields.active { display: block; }
+
+  button#generate-btn, button#batch-generate-btn {
+    width: 100%; margin-top: 18px; padding: 14px; border-radius: 10px; border: none;
+    background: var(--accent); color: #1a0e05; font-weight: 700; font-size: 15px; cursor: pointer;
+  }
+  button#generate-btn:hover, button#batch-generate-btn:hover { background: #ff8258; }
+  button:disabled { opacity: 0.6; cursor: wait; }
+
+  #qr-output { display: none; text-align: center; margin-top: 26px; }
+  #qr-canvas-wrap { display: inline-block; border-radius: 12px; overflow: hidden; }
+  .output-actions { display: flex; gap: 10px; justify-content: center; margin-top: 16px; flex-wrap: wrap; }
+  .action-btn {
+    display: inline-block; padding: 10px 20px; border-radius: 999px;
+    background: transparent; border: 1px solid var(--accent); color: var(--accent);
+    font-weight: 600; font-size: 13px; cursor: pointer; text-decoration: none;
+  }
+  .action-btn:hover { background: rgba(255,106,61,0.1); }
+  .action-btn.secondary { border-color: var(--border); color: var(--muted); }
+
+  .error-msg { color: #FF6B6B; font-size: 13px; margin-top: 10px; min-height: 18px; text-align: center; }
+  .info-msg { color: var(--muted); font-size: 12px; margin-top: 8px; text-align: center; }
+
+  .disclaimer { font-size: 12px; color: var(--muted); text-align: center; line-height: 1.6; margin-bottom: 20px; }
+
+  /* Historial */
+  .history-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+  .history-header h2 { font-family: 'Space Grotesk', sans-serif; font-size: 16px; margin: 0; }
+  #clear-history-btn { background: transparent; border: 1px solid var(--border); color: var(--muted); border-radius: 999px; padding: 5px 12px; font-size: 11px; cursor: pointer; }
+  #clear-history-btn:hover { color: var(--ice); }
+  .history-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 10px; }
+  .history-item { background: #0d1424; border: 1px solid var(--border); border-radius: 10px; padding: 6px; cursor: pointer; text-align: center; }
+  .history-item:hover { border-color: var(--accent); }
+  .history-item img { width: 100%; border-radius: 6px; display: block; background: white; }
+  .history-item .cap { font-size: 10px; color: var(--muted); margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .history-empty { color: var(--muted); font-size: 13px; text-align: center; padding: 10px 0; }
+
+  /* Modo lote */
+  .batch-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 10px; margin-top: 16px; }
+  .batch-item { background: #0d1424; border: 1px solid var(--border); border-radius: 10px; padding: 6px; text-align: center; }
+  .batch-item img { width: 100%; border-radius: 6px; display: block; background: white; }
+  .batch-item .cap { font-size: 10px; color: var(--muted); margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .batch-hint { font-size: 11px; color: var(--muted); margin-top: 6px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <button id="lang-toggle" onclick="toggleLang()">English</button>
+      <h1>Quick<span>QR</span></h1>
+      <p class="subtitle" data-i18n="subtitle">Convierte cualquier texto o link en un código QR, al instante.</p>
+    </header>
+
+    <div class="main-tabs">
+      <div class="main-tab active" data-tab="single" onclick="switchMainTab('single')" data-i18n="tabSingle">Generador</div>
+      <div class="main-tab" data-tab="batch" onclick="switchMainTab('batch')" data-i18n="tabBatch">Modo Lote</div>
+    </div>
+
+    <!-- ============ TAB: GENERADOR SIMPLE ============ -->
+    <div class="main-tab-panel active" id="panel-single">
+      <div class="panel">
+        <label data-i18n="labelContentType">Tipo de contenido</label>
+        <select id="content-type" onchange="onContentTypeChange()">
+          <option value="text" data-i18n="typeText">Texto o Link</option>
+          <option value="wifi" data-i18n="typeWifi">📶 WiFi</option>
+          <option value="vcard" data-i18n="typeVcard">👤 Contacto</option>
+          <option value="whatsapp" data-i18n="typeWhatsapp">💬 WhatsApp</option>
+        </select>
+
+        <!-- Texto/Link -->
+        <div class="content-type-fields active" id="fields-text">
+          <label data-i18n="labelContent">Texto o URL</label>
+          <textarea id="content" rows="3" data-i18n-ph="phContent" placeholder="https://ejemplo.com o cualquier texto..."></textarea>
+        </div>
+
+        <!-- WiFi -->
+        <div class="content-type-fields" id="fields-wifi">
+          <label data-i18n="labelSsid">Nombre de la red (SSID)</label>
+          <input type="text" id="wifi-ssid" data-i18n-ph="phSsid" placeholder="MiRedWiFi" />
+          <label data-i18n="labelSecurity">Seguridad</label>
+          <select id="wifi-security" onchange="onWifiSecurityChange()">
+            <option value="WPA" data-i18n="secWpa">WPA/WPA2</option>
+            <option value="WEP" data-i18n="secWep">WEP</option>
+            <option value="nopass" data-i18n="secOpen">Abierta (sin contraseña)</option>
+          </select>
+          <div id="wifi-password-field">
+            <label data-i18n="labelWifiPassword">Contraseña</label>
+            <input type="text" id="wifi-password" data-i18n-ph="phWifiPassword" placeholder="••••••••" />
+          </div>
+          <div class="checkbox-row">
+            <input type="checkbox" id="wifi-hidden" />
+            <label for="wifi-hidden" data-i18n="labelHiddenNetwork">Red oculta</label>
+          </div>
+        </div>
+
+        <!-- vCard -->
+        <div class="content-type-fields" id="fields-vcard">
+          <label data-i18n="labelFullName">Nombre completo</label>
+          <input type="text" id="vcard-name" data-i18n-ph="phFullName" placeholder="Ana Pérez" />
+          <label data-i18n="labelPhone">Teléfono</label>
+          <input type="tel" id="vcard-phone" data-i18n-ph="phPhone" placeholder="+51 987 654 321" />
+          <label data-i18n="labelEmail">Correo (opcional)</label>
+          <input type="email" id="vcard-email" data-i18n-ph="phEmail" placeholder="ana@ejemplo.com" />
+          <label data-i18n="labelOrg">Empresa (opcional)</label>
+          <input type="text" id="vcard-org" data-i18n-ph="phOrg" placeholder="Mi Empresa" />
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="content-type-fields" id="fields-whatsapp">
+          <label data-i18n="labelWaPhone">Número de WhatsApp (con código de país)</label>
+          <input type="tel" id="wa-phone" data-i18n-ph="phWaPhone" placeholder="+51 987 654 321" />
+          <label data-i18n="labelWaMessage">Mensaje predefinido (opcional)</label>
+          <textarea id="wa-message" rows="2" data-i18n-ph="phWaMessage" placeholder="Hola! Vi tu código QR..."></textarea>
+        </div>
+
+        <label data-i18n="labelDescription">Descripción (opcional)</label>
+        <textarea id="description" rows="2" data-i18n-ph="phDescription" placeholder="Ej. Visita nuestra tienda online..."></textarea>
+
+        <label data-i18n="labelImage">Imagen (opcional)</label>
+        <input type="file" id="image-input" accept="image/*" />
+        <div class="checkbox-row">
+          <input type="checkbox" id="use-as-logo" />
+          <label for="use-as-logo" data-i18n="labelUseLogo">Usar esta imagen como logo dentro del QR</label>
+        </div>
+
+        <div class="row-2">
+          <div>
+            <label data-i18n="labelTemplate">Plantilla</label>
+            <select id="template-select" onchange="applyTemplate()">
+              <option value="none" data-i18n="tplNone">Ninguna</option>
+              <option value="birthday" data-i18n="tplBirthday">🎉 Cumpleaños</option>
+              <option value="business" data-i18n="tplBusiness">💼 Negocio</option>
+              <option value="event" data-i18n="tplEvent">📅 Evento</option>
+            </select>
+          </div>
+          <div>
+            <label data-i18n="labelStyle">Estilo del QR</label>
+            <select id="style-select">
+              <option value="classic" data-i18n="styleClassic">Clásico</option>
+              <option value="rounded" data-i18n="styleRounded">Redondeado</option>
+              <option value="dots" data-i18n="styleDots">Puntos</option>
+              <option value="classy" data-i18n="styleClassy">Elegante</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row-2">
+          <div>
+            <label data-i18n="labelSize">Tamaño</label>
+            <select id="size">
+              <option value="200" data-i18n="sizeSmall">Pequeño (200px)</option>
+              <option value="300" selected data-i18n="sizeMedium">Mediano (300px)</option>
+              <option value="500" data-i18n="sizeLarge">Grande (500px)</option>
+            </select>
+          </div>
+          <div>
+            <label>&nbsp;</label>
+            <div class="color-field">
+              <input type="color" id="fg-color" value="#0B1220" />
+              <span data-i18n="labelColor">Color del código</span>
+            </div>
+          </div>
+        </div>
+
+        <button id="generate-btn" onclick="generateQR()" data-i18n="btnGenerate">Generar código QR</button>
+        <div class="error-msg" id="error-msg"></div>
+
+        <div id="qr-output">
+          <div id="qr-canvas-wrap"></div>
+          <div class="output-actions">
+            <a id="download-btn" class="action-btn" href="#" download="qrcode.png" data-i18n="btnDownload">Descargar PNG</a>
+            <button id="share-btn" class="action-btn secondary" onclick="shareCard()" data-i18n="btnShare">Compartir</button>
+          </div>
+          <div class="info-msg" id="share-info"></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="history-header">
+          <h2 data-i18n="historyTitle">Historial reciente</h2>
+          <button id="clear-history-btn" onclick="clearHistory()" data-i18n="btnClearHistory">Borrar todo</button>
+        </div>
+        <div id="history-grid" class="history-grid"></div>
+      </div>
+    </div>
+
+    <!-- ============ TAB: MODO LOTE ============ -->
+    <div class="main-tab-panel" id="panel-batch">
+      <div class="panel">
+        <label data-i18n="labelBatchList">Lista (un renglón por código: Nombre, contenido)</label>
+        <textarea id="batch-input" rows="8" data-i18n-ph="phBatchList" placeholder="Juan Pérez, https://miapp.com/juan
+María López, https://miapp.com/maria
+Carlos Ruiz, https://miapp.com/carlos"></textarea>
+        <div class="batch-hint" data-i18n="batchHint">Cada código usa el mismo estilo y color configurados en la pestaña "Generador".</div>
+
+        <button id="batch-generate-btn" onclick="generateBatch()" data-i18n="btnBatchGenerate">Generar todos</button>
+        <div class="error-msg" id="batch-error-msg"></div>
+        <div class="info-msg" id="batch-progress"></div>
+
+        <div id="batch-grid" class="batch-grid"></div>
+
+        <div class="output-actions" id="batch-download-wrap" style="display:none;">
+          <button class="action-btn" onclick="downloadBatchZip()" data-i18n="btnBatchDownload">Descargar todos (ZIP)</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="disclaimer" data-i18n="disclaimer">
+      El historial se guarda solo en este navegador (no se sube a ningún servidor) y se borra si limpias los datos del sitio.
+    </div>
+  </div>
+
+  <script>
+    /* ============ i18n ============ */
+    const I18N = {
+      es: {
+        subtitle: "Convierte cualquier texto o link en un código QR, al instante.",
+        tabSingle: "Generador", tabBatch: "Modo Lote",
+        labelContentType: "Tipo de contenido",
+        typeText: "Texto o Link", typeWifi: "📶 WiFi", typeVcard: "👤 Contacto", typeWhatsapp: "💬 WhatsApp",
+        labelContent: "Texto o URL", phContent: "https://ejemplo.com o cualquier texto...",
+        labelSsid: "Nombre de la red (SSID)", phSsid: "MiRedWiFi",
+        labelSecurity: "Seguridad", secWpa: "WPA/WPA2", secWep: "WEP", secOpen: "Abierta (sin contraseña)",
+        labelWifiPassword: "Contraseña", phWifiPassword: "••••••••",
+        labelHiddenNetwork: "Red oculta",
+        labelFullName: "Nombre completo", phFullName: "Ana Pérez",
+        labelPhone: "Teléfono", phPhone: "+51 987 654 321",
+        labelEmail: "Correo (opcional)", phEmail: "ana@ejemplo.com",
+        labelOrg: "Empresa (opcional)", phOrg: "Mi Empresa",
+        labelWaPhone: "Número de WhatsApp (con código de país)", phWaPhone: "+51 987 654 321",
+        labelWaMessage: "Mensaje predefinido (opcional)", phWaMessage: "Hola! Vi tu código QR...",
+        labelDescription: "Descripción (opcional)", phDescription: "Ej. Visita nuestra tienda online...",
+        labelImage: "Imagen (opcional)", labelUseLogo: "Usar esta imagen como logo dentro del QR",
+        labelTemplate: "Plantilla", tplNone: "Ninguna", tplBirthday: "🎉 Cumpleaños", tplBusiness: "💼 Negocio", tplEvent: "📅 Evento",
+        labelStyle: "Estilo del QR", styleClassic: "Clásico", styleRounded: "Redondeado", styleDots: "Puntos", styleClassy: "Elegante",
+        labelSize: "Tamaño", sizeSmall: "Pequeño (200px)", sizeMedium: "Mediano (300px)", sizeLarge: "Grande (500px)",
+        labelColor: "Color del código",
+        btnGenerate: "Generar código QR", btnDownload: "Descargar PNG", btnShare: "Compartir",
+        historyTitle: "Historial reciente", btnClearHistory: "Borrar todo",
+        historyEmpty: "Todavía no generaste ningún código.",
+        disclaimer: "El historial se guarda solo en este navegador (no se sube a ningún servidor) y se borra si limpias los datos del sitio.",
+        errEmpty: "Escribe algo primero — un link o cualquier texto.",
+        errWifiSsid: "Escribe el nombre de la red (SSID).",
+        errVcardName: "Escribe al menos el nombre completo.",
+        errWaPhone: "Escribe el número de WhatsApp.",
+        errGeneric: "Algo salió mal, intenta de nuevo.",
+        shareNotSupported: "Tu navegador no soporta compartir directo. Descarga la imagen y compártela manualmente.",
+        shareError: "No se pudo compartir. Intenta descargar la imagen.",
+        langToggleLabel: "English",
+        labelBatchList: 'Lista (un renglón por código: Nombre, contenido)',
+        phBatchList: "Juan Pérez, https://miapp.com/juan\nMaría López, https://miapp.com/maria\nCarlos Ruiz, https://miapp.com/carlos",
+        batchHint: 'Cada código usa el mismo estilo y color configurados en la pestaña "Generador".',
+        btnBatchGenerate: "Generar todos", btnBatchDownload: "Descargar todos (ZIP)",
+        batchErrEmpty: "Pega al menos un renglón con formato: Nombre, contenido",
+        batchProgress: (done, total) => `Generando ${done} de ${total}...`,
+        batchDone: (count) => `${count} códigos generados.`,
+      },
+      en: {
+        subtitle: "Turn any text or link into a QR code, instantly.",
+        tabSingle: "Generator", tabBatch: "Batch Mode",
+        labelContentType: "Content type",
+        typeText: "Text or Link", typeWifi: "📶 WiFi", typeVcard: "👤 Contact", typeWhatsapp: "💬 WhatsApp",
+        labelContent: "Text or URL", phContent: "https://example.com or any text...",
+        labelSsid: "Network name (SSID)", phSsid: "MyWiFiNetwork",
+        labelSecurity: "Security", secWpa: "WPA/WPA2", secWep: "WEP", secOpen: "Open (no password)",
+        labelWifiPassword: "Password", phWifiPassword: "••••••••",
+        labelHiddenNetwork: "Hidden network",
+        labelFullName: "Full name", phFullName: "Jane Doe",
+        labelPhone: "Phone", phPhone: "+1 555 123 4567",
+        labelEmail: "Email (optional)", phEmail: "jane@example.com",
+        labelOrg: "Company (optional)", phOrg: "My Company",
+        labelWaPhone: "WhatsApp number (with country code)", phWaPhone: "+1 555 123 4567",
+        labelWaMessage: "Pre-filled message (optional)", phWaMessage: "Hi! I saw your QR code...",
+        labelDescription: "Description (optional)", phDescription: "Ex. Visit our online store...",
+        labelImage: "Image (optional)", labelUseLogo: "Use this image as the QR's center logo",
+        labelTemplate: "Template", tplNone: "None", tplBirthday: "🎉 Birthday", tplBusiness: "💼 Business", tplEvent: "📅 Event",
+        labelStyle: "QR Style", styleClassic: "Classic", styleRounded: "Rounded", styleDots: "Dots", styleClassy: "Classy",
+        labelSize: "Size", sizeSmall: "Small (200px)", sizeMedium: "Medium (300px)", sizeLarge: "Large (500px)",
+        labelColor: "Code color",
+        btnGenerate: "Generate QR code", btnDownload: "Download PNG", btnShare: "Share",
+        historyTitle: "Recent history", btnClearHistory: "Clear all",
+        historyEmpty: "You haven't generated any codes yet.",
+        disclaimer: "History is saved only in this browser (never uploaded anywhere) and clears if you clear site data.",
+        errEmpty: "Type something first — a link or any text.",
+        errWifiSsid: "Type the network name (SSID).",
+        errVcardName: "Type at least the full name.",
+        errWaPhone: "Type the WhatsApp number.",
+        errGeneric: "Something went wrong, try again.",
+        shareNotSupported: "Your browser doesn't support direct sharing. Download the image and share it manually.",
+        shareError: "Couldn't share. Try downloading the image instead.",
+        langToggleLabel: "Español",
+        labelBatchList: "List (one line per code: Name, content)",
+        phBatchList: "John Doe, https://myapp.com/john\nJane Smith, https://myapp.com/jane\nMike Ross, https://myapp.com/mike",
+        batchHint: 'Each code uses the same style and color set in the "Generator" tab.',
+        btnBatchGenerate: "Generate all", btnBatchDownload: "Download all (ZIP)",
+        batchErrEmpty: "Paste at least one line with format: Name, content",
+        batchProgress: (done, total) => `Generating ${done} of ${total}...`,
+        batchDone: (count) => `${count} codes generated.`,
+      },
+    };
+    let currentLang = "es";
+
+    function applyLanguage(lang) {
+      currentLang = lang;
+      const dict = I18N[lang];
+      document.documentElement.lang = lang;
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        if (typeof dict[key] === "string") el.textContent = dict[key];
+      });
+      document.querySelectorAll("[data-i18n-ph]").forEach((el) => {
+        const key = el.getAttribute("data-i18n-ph");
+        if (typeof dict[key] === "string") el.placeholder = dict[key];
+      });
+      document.getElementById("lang-toggle").textContent = dict.langToggleLabel;
+      renderHistory();
+    }
+    function toggleLang() { applyLanguage(currentLang === "es" ? "en" : "es"); }
+
+    /* ============ Tabs principales ============ */
+    function switchMainTab(tab) {
+      document.querySelectorAll(".main-tab").forEach((t) => t.classList.toggle("active", t.dataset.tab === tab));
+      document.querySelectorAll(".main-tab-panel").forEach((p) => p.classList.toggle("active", p.id === `panel-${tab}`));
+    }
+
+    /* ============ Tipo de contenido ============ */
+    function onContentTypeChange() {
+      const type = document.getElementById("content-type").value;
+      document.querySelectorAll(".content-type-fields").forEach((f) => f.classList.remove("active"));
+      document.getElementById(`fields-${type}`).classList.add("active");
+    }
+    function onWifiSecurityChange() {
+      const isOpen = document.getElementById("wifi-security").value === "nopass";
+      document.getElementById("wifi-password-field").style.display = isOpen ? "none" : "block";
+    }
+
+    /* ============ Constructores de contenido ============ */
+    function escapeWifiField(s) {
+      return s.replace(/([\\;,:"])/g, "\\$1");
+    }
+    function buildWifiContent() {
+      const ssid = document.getElementById("wifi-ssid").value.trim();
+      const password = document.getElementById("wifi-password").value;
+      const security = document.getElementById("wifi-security").value;
+      const hidden = document.getElementById("wifi-hidden").checked;
+      if (!ssid) return { error: "errWifiSsid" };
+      const parts = ["WIFI:", `T:${security};`, `S:${escapeWifiField(ssid)};`];
+      if (security !== "nopass") parts.push(`P:${escapeWifiField(password)};`);
+      if (hidden) parts.push("H:true;");
+      parts.push(";");
+      return { value: parts.join("") };
+    }
+    function buildVCardContent() {
+      const fullName = document.getElementById("vcard-name").value.trim();
+      const phone = document.getElementById("vcard-phone").value.trim();
+      const email = document.getElementById("vcard-email").value.trim();
+      const org = document.getElementById("vcard-org").value.trim();
+      if (!fullName) return { error: "errVcardName" };
+      const lines = ["BEGIN:VCARD", "VERSION:3.0", `N:;${fullName};;;`, `FN:${fullName}`];
+      if (org) lines.push(`ORG:${org}`);
+      if (phone) lines.push(`TEL;TYPE=CELL:${phone}`);
+      if (email) lines.push(`EMAIL:${email}`);
+      lines.push("END:VCARD");
+      return { value: lines.join("\n") };
+    }
+    function buildWhatsappContent() {
+      const phone = document.getElementById("wa-phone").value.trim();
+      const message = document.getElementById("wa-message").value.trim();
+      if (!phone) return { error: "errWaPhone" };
+      const cleanPhone = phone.replace(/[^0-9]/g, "");
+      const url = `https://wa.me/${cleanPhone}${message ? "?text=" + encodeURIComponent(message) : ""}`;
+      return { value: url };
+    }
+    function getContentForCurrentType() {
+      const type = document.getElementById("content-type").value;
+      if (type === "wifi") return buildWifiContent();
+      if (type === "vcard") return buildVCardContent();
+      if (type === "whatsapp") return buildWhatsappContent();
+      const text = document.getElementById("content").value.trim();
+      if (!text) return { error: "errEmpty" };
+      return { value: text };
+    }
+
+    /* ============ Plantillas ============ */
+    const TEMPLATES = {
+      none:     { fgColor: "#0B1220", cardBg: "#ffffff", banner: null },
+      birthday: { fgColor: "#7C3AED", cardBg: "#FDF4FF", banner: { es: "🎉 ¡Feliz Cumpleaños!", en: "🎉 Happy Birthday!" } },
+      business: { fgColor: "#0B1220", cardBg: "#F8FAFC", banner: null },
+      event:    { fgColor: "#065F46", cardBg: "#ECFDF5", banner: { es: "📅 ¡Estás invitado/a!", en: "📅 You're invited!" } },
+    };
+    function applyTemplate() {
+      const tpl = TEMPLATES[document.getElementById("template-select").value];
+      document.getElementById("fg-color").value = tpl.fgColor;
+    }
+
+    /* ============ Estilos de QR ============ */
+    // Importante: las esquinas (cornersSquareOptions / cornersDotOptions) se
+    // dejan SIEMPRE en "square". Las camaras nativas de los celulares buscan
+    // patrones cuadrados especificos en las 3 esquinas para detectar un QR;
+    // si se estilizan como circulos, muchas camaras (aunque no todos los
+    // lectores) fallan en detectarlo. Solo se le da estilo a los puntos de
+    // datos del interior, que no afectan la deteccion.
+    const QR_STYLES = {
+      classic: { dotsType: "square" },
+      rounded: { dotsType: "rounded" },
+      dots:    { dotsType: "dots" },
+      classy:  { dotsType: "classy-rounded" },
+    };
+
+    /* ============ Imagen subida ============ */
+    let uploadedImageDataUrl = null;
+    document.getElementById("image-input").addEventListener("change", (e) => {
+      const file = e.target.files[0];
+      if (!file) { uploadedImageDataUrl = null; return; }
+      const reader = new FileReader();
+      reader.onload = (ev) => { uploadedImageDataUrl = ev.target.result; };
+      reader.readAsDataURL(file);
+    });
+
+    /* ============ Utilidades de composicion de tarjeta ============ */
+    function wrapText(ctx, text, maxWidth) {
+      const words = text.split(/\s+/).filter(Boolean);
+      const lines = [];
+      let current = "";
+      for (const word of words) {
+        const test = current ? current + " " + word : word;
+        if (ctx.measureText(test).width > maxWidth && current) { lines.push(current); current = word; }
+        else current = test;
+      }
+      if (current) lines.push(current);
+      return lines;
+    }
+    function loadImageEl(src) {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+        img.src = src;
+      });
+    }
+    async function buildCard(qrImg, description, imageDataUrl, cardBg, bannerText) {
+      const padding = 24;
+      const cardWidth = Math.max(qrImg.width + padding * 2, 320);
+      const userImg = imageDataUrl ? await loadImageEl(imageDataUrl).catch(() => null) : null;
+
+      const canvas = document.createElement("canvas");
+      const ctx = canvas.getContext("2d");
+
+      const imgDrawWidth = cardWidth - padding * 2;
+      let imgHeight = 0;
+      if (userImg) imgHeight = Math.min((userImg.height / userImg.width) * imgDrawWidth, 220);
+
+      ctx.font = "16px Inter, sans-serif";
+      const lines = description ? wrapText(ctx, description, cardWidth - padding * 2) : [];
+      const lineHeight = 22;
+
+      ctx.font = "bold 18px Inter, sans-serif";
+      const bannerLines = bannerText ? wrapText(ctx, bannerText, cardWidth - padding * 2) : [];
+      const bannerLineHeight = 26;
+
+      const qrPadding = 16;
+      const totalHeight =
+        padding +
+        (bannerLines.length ? bannerLines.length * bannerLineHeight + 14 : 0) +
+        (userImg ? imgHeight + 16 : 0) +
+        (lines.length ? lines.length * lineHeight + 16 : 0) +
+        qrImg.height + qrPadding * 2 +
+        padding;
+
+      canvas.width = cardWidth;
+      canvas.height = totalHeight;
+      ctx.fillStyle = cardBg || "#ffffff";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      let y = padding;
+      if (bannerLines.length) {
+        ctx.fillStyle = "#111111"; ctx.font = "bold 18px Inter, sans-serif"; ctx.textBaseline = "top";
+        for (const line of bannerLines) {
+          const w = ctx.measureText(line).width;
+          ctx.fillText(line, (cardWidth - w) / 2, y);
+          y += bannerLineHeight;
+        }
+        y += 14;
+      }
+      if (userImg) {
+        const dx = (cardWidth - imgDrawWidth) / 2;
+        ctx.drawImage(userImg, dx, y, imgDrawWidth, imgHeight);
+        y += imgHeight + 16;
+      }
+      if (lines.length) {
+        ctx.fillStyle = "#111111"; ctx.font = "16px Inter, sans-serif"; ctx.textBaseline = "top";
+        for (const line of lines) {
+          const w = ctx.measureText(line).width;
+          ctx.fillText(line, (cardWidth - w) / 2, y);
+          y += lineHeight;
+        }
+        y += 16;
+      }
+      const qrBoxX = (cardWidth - qrImg.width - qrPadding * 2) / 2;
+      ctx.fillStyle = "#ffffff";
+      ctx.fillRect(qrBoxX, y, qrImg.width + qrPadding * 2, qrImg.height + qrPadding * 2);
+      ctx.drawImage(qrImg, qrBoxX + qrPadding, y + qrPadding);
+
+      return canvas;
+    }
+
+    async function renderQrImage(content, { size, fgColor, style, useLogo }) {
+      const qrOptions = {
+        width: size, height: size, type: "canvas", data: content,
+        margin: Math.round(size * 0.08), // quiet zone: ~8% del tamano, horneada en la imagen misma
+        qrOptions: { errorCorrectionLevel: useLogo ? "H" : "Q" },
+        dotsOptions: { color: fgColor, type: style.dotsType },
+        cornersSquareOptions: { type: "square", color: fgColor },
+        cornersDotOptions: { type: "square", color: fgColor },
+        backgroundOptions: { color: "#ffffff" },
+      };
+      if (useLogo) {
+        qrOptions.image = uploadedImageDataUrl;
+        qrOptions.imageOptions = { hideBackgroundDots: true, imageSize: 0.4, margin: 4 };
+      }
+      const qrStyling = new QRCodeStyling(qrOptions);
+      const blob = await qrStyling.getRawData("png");
+      const blobUrl = URL.createObjectURL(blob);
+      const img = await loadImageEl(blobUrl);
+      URL.revokeObjectURL(blobUrl);
+      return img;
+    }
+
+    /* ============ Generar (individual) ============ */
+    let lastCardCanvas = null;
+
+    async function generateQR() {
+      const dict = I18N[currentLang];
+      const errorMsg = document.getElementById("error-msg");
+      const output = document.getElementById("qr-output");
+      const btn = document.getElementById("generate-btn");
+      document.getElementById("share-info").textContent = "";
+
+      const contentResult = getContentForCurrentType();
+      if (contentResult.error) {
+        errorMsg.textContent = dict[contentResult.error];
+        output.style.display = "none";
+        return;
+      }
+      errorMsg.textContent = "";
+      btn.disabled = true;
+
+      try {
+        const size = parseInt(document.getElementById("size").value, 10);
+        const fgColor = document.getElementById("fg-color").value;
+        const style = QR_STYLES[document.getElementById("style-select").value];
+        const template = TEMPLATES[document.getElementById("template-select").value];
+        const useLogo = document.getElementById("use-as-logo").checked && uploadedImageDataUrl;
+        const description = document.getElementById("description").value.trim();
+
+        const qrImg = await renderQrImage(contentResult.value, { size, fgColor, style, useLogo });
+        const bannerText = template.banner ? template.banner[currentLang] : null;
+        const cardCanvas = await buildCard(qrImg, description, uploadedImageDataUrl, template.cardBg, bannerText);
+        lastCardCanvas = cardCanvas;
+
+        const displayWrap = document.getElementById("qr-canvas-wrap");
+        displayWrap.innerHTML = "";
+        displayWrap.appendChild(cardCanvas);
+        output.style.display = "block";
+
+        const finalDataUrl = cardCanvas.toDataURL("image/png");
+        document.getElementById("download-btn").href = finalDataUrl;
+
+        saveToHistory(contentResult.value, finalDataUrl);
+      } catch (e) {
+        console.error(e);
+        errorMsg.textContent = dict.errGeneric;
+      } finally {
+        btn.disabled = false;
+      }
+    }
+
+    /* ============ Compartir directo ============ */
+    async function shareCard() {
+      const dict = I18N[currentLang];
+      const infoEl = document.getElementById("share-info");
+      if (!lastCardCanvas) return;
+
+      if (!navigator.share || !navigator.canShare) {
+        infoEl.textContent = dict.shareNotSupported;
+        return;
+      }
+
+      try {
+        const blob = await new Promise((resolve) => lastCardCanvas.toBlob(resolve, "image/png"));
+        const file = new File([blob], "qrcode.png", { type: "image/png" });
+
+        if (!navigator.canShare({ files: [file] })) {
+          infoEl.textContent = dict.shareNotSupported;
+          return;
+        }
+        await navigator.share({ files: [file], title: "QR Code" });
+        infoEl.textContent = "";
+      } catch (e) {
+        if (e.name !== "AbortError") {
+          console.error(e);
+          infoEl.textContent = dict.shareError;
+        }
+      }
+    }
+
+    document.getElementById("content").addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && e.ctrlKey) generateQR();
+    });
+
+    /* ============ Historial ============ */
+    const HISTORY_KEY = "quickqr_history";
+    const MAX_HISTORY = 6;
+    function getHistory() {
+      try { return JSON.parse(localStorage.getItem(HISTORY_KEY) || "[]"); }
+      catch { return []; }
+    }
+    function saveToHistory(content, dataUrl) {
+      let history = getHistory();
+      history.unshift({ id: Date.now(), preview: content.slice(0, 60), dataUrl });
+      history = history.slice(0, MAX_HISTORY);
+      try { localStorage.setItem(HISTORY_KEY, JSON.stringify(history)); }
+      catch (e) { console.warn("No se pudo guardar el historial:", e); }
+      renderHistory();
+    }
+    function clearHistory() { localStorage.removeItem(HISTORY_KEY); renderHistory(); }
+    function openFromHistory(id) {
+      const item = getHistory().find((h) => h.id === id);
+      if (!item) return;
+      document.getElementById("qr-canvas-wrap").innerHTML = `<img src="${item.dataUrl}" style="max-width:100%;display:block;" />`;
+      document.getElementById("qr-output").style.display = "block";
+      document.getElementById("download-btn").href = item.dataUrl;
+      lastCardCanvas = null; // viene de historial, no hay canvas vivo para "compartir" directo
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    function renderHistory() {
+      const grid = document.getElementById("history-grid");
+      const history = getHistory();
+      if (history.length === 0) {
+        grid.innerHTML = `<div class="history-empty">${I18N[currentLang].historyEmpty}</div>`;
+        return;
+      }
+      grid.innerHTML = history.map((h) => `
+        <div class="history-item" onclick="openFromHistory(${h.id})">
+          <img src="${h.dataUrl}" alt="QR" />
+          <div class="cap">${h.preview.replace(/</g, "&lt;")}</div>
+        </div>
+      `).join("");
+    }
+
+    /* ============ Modo lote ============ */
+    let batchResults = []; // { name, dataUrl }
+
+    function parseBatchInput(raw) {
+      return raw.split("\n").map((l) => l.trim()).filter(Boolean).map((line) => {
+        const idx = line.indexOf(",");
+        if (idx === -1) return { name: line, content: line };
+        return { name: line.slice(0, idx).trim(), content: line.slice(idx + 1).trim() };
+      }).filter((item) => item.content);
+    }
+
+    async function generateBatch() {
+      const dict = I18N[currentLang];
+      const errorMsg = document.getElementById("batch-error-msg");
+      const progressEl = document.getElementById("batch-progress");
+      const grid = document.getElementById("batch-grid");
+      const btn = document.getElementById("batch-generate-btn");
+      const downloadWrap = document.getElementById("batch-download-wrap");
+
+      const items = parseBatchInput(document.getElementById("batch-input").value);
+      if (items.length === 0) {
+        errorMsg.textContent = dict.batchErrEmpty;
+        return;
+      }
+      errorMsg.textContent = "";
+      btn.disabled = true;
+      grid.innerHTML = "";
+      downloadWrap.style.display = "none";
+      batchResults = [];
+
+      const size = parseInt(document.getElementById("size").value, 10);
+      const fgColor = document.getElementById("fg-color").value;
+      const style = QR_STYLES[document.getElementById("style-select").value];
+
+      for (let i = 0; i < items.length; i++) {
+        progressEl.textContent = dict.batchProgress(i + 1, items.length);
+        try {
+          const qrImg = await renderQrImage(items[i].content, { size: Math.min(size, 300), fgColor, style, useLogo: false });
+          const cardCanvas = await buildCard(qrImg, items[i].name, null, "#ffffff", null);
+          const dataUrl = cardCanvas.toDataURL("image/png");
+          batchResults.push({ name: items[i].name, dataUrl });
+
+          const cell = document.createElement("div");
+          cell.className = "batch-item";
+          cell.innerHTML = `<img src="${dataUrl}" alt="${items[i].name}" /><div class="cap">${items[i].name.replace(/</g, "&lt;")}</div>`;
+          grid.appendChild(cell);
+        } catch (e) {
+          console.error("Error generando item de lote:", items[i], e);
+        }
+      }
+
+      progressEl.textContent = dict.batchDone(batchResults.length);
+      if (batchResults.length > 0) downloadWrap.style.display = "flex";
+      btn.disabled = false;
+    }
+
+    async function downloadBatchZip() {
+      if (batchResults.length === 0) return;
+      const zip = new JSZip();
+      for (const item of batchResults) {
+        const safeFileName = item.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") || "qr";
+        const base64 = item.dataUrl.split(",")[1];
+        zip.file(`${safeFileName}.png`, base64, { base64: true });
+      }
+      const blob = await zip.generateAsync({ type: "blob" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "quickqr-lote.zip";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    /* ============ Init ============ */
+    applyLanguage("es");
+    renderHistory();
+  </script>
+</body>
+</html>
