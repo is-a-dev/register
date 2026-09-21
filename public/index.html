@@ -184,10 +184,17 @@
 
         <label data-i18n="labelImage">Imagen (opcional)</label>
         <input type="file" id="image-input" accept="image/*" />
+        <div id="image-preview-wrap" style="display:none; margin-top:10px; text-align:center;">
+          <img id="image-preview" style="max-width:100px; max-height:100px; border-radius:8px; border:1px solid var(--border);" />
+          <div>
+            <a href="#" onclick="clearUploadedImage(); return false;" style="color:var(--accent); font-size:12px;" data-i18n="linkRemoveImage">Quitar imagen</a>
+          </div>
+        </div>
         <div class="checkbox-row">
           <input type="checkbox" id="use-as-logo" />
           <label for="use-as-logo" data-i18n="labelUseLogo">Usar esta imagen como logo dentro del QR</label>
         </div>
+        <div class="info-msg" style="text-align:left; margin-top:4px;" data-i18n="hintLogoSimple">Usa una imagen simple (tu logo), no una captura de otro QR — un logo muy detallado puede hacer que el código no se pueda escanear.</div>
 
         <div class="row-2">
           <div>
@@ -296,7 +303,8 @@ Carlos Ruiz, https://miapp.com/carlos"></textarea>
         labelWaPhone: "Número de WhatsApp (con código de país)", phWaPhone: "+51 987 654 321",
         labelWaMessage: "Mensaje predefinido (opcional)", phWaMessage: "Hola! Vi tu código QR...",
         labelDescription: "Descripción (opcional)", phDescription: "Ej. Visita nuestra tienda online...",
-        labelImage: "Imagen (opcional)", labelUseLogo: "Usar esta imagen como logo dentro del QR",
+        labelImage: "Imagen (opcional)", labelUseLogo: "Usar esta imagen como logo dentro del QR", linkRemoveImage: "Quitar imagen",
+        hintLogoSimple: "Usa una imagen simple (tu logo), no una captura de otro QR — un logo muy detallado puede hacer que el código no se pueda escanear.",
         labelTemplate: "Plantilla", tplNone: "Ninguna", tplBirthday: "🎉 Cumpleaños", tplBusiness: "💼 Negocio", tplEvent: "📅 Evento",
         labelStyle: "Estilo del QR", styleClassic: "Clásico", styleRounded: "Redondeado", styleDots: "Puntos", styleClassy: "Elegante",
         labelSize: "Tamaño", sizeSmall: "Pequeño (200px)", sizeMedium: "Mediano (300px)", sizeLarge: "Grande (500px)",
@@ -338,7 +346,8 @@ Carlos Ruiz, https://miapp.com/carlos"></textarea>
         labelWaPhone: "WhatsApp number (with country code)", phWaPhone: "+1 555 123 4567",
         labelWaMessage: "Pre-filled message (optional)", phWaMessage: "Hi! I saw your QR code...",
         labelDescription: "Description (optional)", phDescription: "Ex. Visit our online store...",
-        labelImage: "Image (optional)", labelUseLogo: "Use this image as the QR's center logo",
+        labelImage: "Image (optional)", labelUseLogo: "Use this image as the QR's center logo", linkRemoveImage: "Remove image",
+        hintLogoSimple: "Use a simple image (your logo), not a screenshot of another QR — a very detailed logo can make the code unscannable.",
         labelTemplate: "Template", tplNone: "None", tplBirthday: "🎉 Birthday", tplBusiness: "💼 Business", tplEvent: "📅 Event",
         labelStyle: "QR Style", styleClassic: "Classic", styleRounded: "Rounded", styleDots: "Dots", styleClassy: "Classy",
         labelSize: "Size", sizeSmall: "Small (200px)", sizeMedium: "Medium (300px)", sizeLarge: "Large (500px)",
@@ -479,9 +488,19 @@ Carlos Ruiz, https://miapp.com/carlos"></textarea>
       const file = e.target.files[0];
       if (!file) { uploadedImageDataUrl = null; return; }
       const reader = new FileReader();
-      reader.onload = (ev) => { uploadedImageDataUrl = ev.target.result; };
+      reader.onload = (ev) => {
+        uploadedImageDataUrl = ev.target.result;
+        document.getElementById("image-preview").src = uploadedImageDataUrl;
+        document.getElementById("image-preview-wrap").style.display = "block";
+      };
       reader.readAsDataURL(file);
     });
+    function clearUploadedImage() {
+      uploadedImageDataUrl = null;
+      document.getElementById("image-input").value = "";
+      document.getElementById("image-preview-wrap").style.display = "none";
+      document.getElementById("use-as-logo").checked = false;
+    }
 
     /* ============ Utilidades de composicion de tarjeta ============ */
     function wrapText(ctx, text, maxWidth) {
