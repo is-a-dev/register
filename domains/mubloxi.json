@@ -3,6 +3,9 @@
     "username": "Mubloxi"
   },
   "records": {
-    "CNAME": "portfolio.theblackholebay.lol"
+    "CNAME": "portfolio.theblackholebay.lol",
+    "TXT": {
+      "_github-pages-challenge-Mubloxi": "ed97c61b479aecd4d5311d9da70577"
+    }
   }
 }
