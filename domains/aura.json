@@ -1,14 +1,9 @@
 {
   "owner": {
-    "username": "auravoid",
-    "email": "github@auravoid.dev"
+    "username": "jhonmonlibert",
+    "email": "jhonmonlibert@users.noreply.github.com"
   },
   "records": {
-    "A": [
-      "178.156.219.132"
-    ],
-    "AAAA": [
-      "2a01:4ff:f0:fd49::1"
-    ]
+    "CNAME": "aura-web.aplatform.workers.dev"
   }
 }
