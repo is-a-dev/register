@@ -1,1 +1,9 @@
-kamui.json
+{
+  "owner": {
+    "username": "blackfade632-alt",
+    "email": "blackfade632@gmail.com"
+  },
+  "records": {
+    "CNAME": "kamui-site.vercel.app"
+  }
+}
