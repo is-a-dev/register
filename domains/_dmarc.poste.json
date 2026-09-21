@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "satoshinakamoto119",
+    "email": "othmnehm88@gmail.com"
+  },
+  "record": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
