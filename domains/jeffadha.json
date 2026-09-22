@@ -3,7 +3,7 @@
     "username": "Jeffadha",
     "email": "jeffagaming0@gmail.com"
   },
-  "record": {
-    "CNAME": "://vercel-dns.com"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }
