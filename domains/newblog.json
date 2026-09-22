@@ -5,6 +5,9 @@
     "email": "std@nhhawa.edu.kg"
   },
   "records": {
-    "NS": ["dora.ns.cloudflare.com", "john.ns.cloudflare.com"]
+    "NS": [
+      "dora.ns.cloudflare.com",
+      "john.ns.cloudflare.com"
+    ]
   }
 }

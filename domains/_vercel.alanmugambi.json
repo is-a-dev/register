@@ -6,6 +6,8 @@
     "email": "alanmugambi2007@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=alanmugambi.is-a.dev,5fa10bdb444c0693727b"]
+    "TXT": [
+      "vc-domain-verify=alanmugambi.is-a.dev,5fa10bdb444c0693727b"
+    ]
   }
 }

@@ -5,7 +5,11 @@
     "discord": "797458672225091594"
   },
   "records": {
-    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"],
+    "MX": [
+      "mx.zoho.eu",
+      "mx2.zoho.eu",
+      "mx3.zoho.eu"
+    ],
     "TXT": [
       "zoho-verification=zb18547320.zmverify.zoho.eu",
       "v=spf1 include:zohomail.eu ~all",

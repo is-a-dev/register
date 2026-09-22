@@ -3,16 +3,7 @@
     "username": "keirsalterego",
     "email": "keirsalterego@gmail.com"
   },
-  "proxied": true,
   "records": {
-    "CNAME": "keir.vercel.app",
-    "MX": [
-      "mx1.forwardemail.net",
-      "mx2.forwardemail.net"
-    ],
-    "TXT": [
-      "v=spf1 a mx include:spf.forwardemail.net ~all",
-      "forward-email=manish:keirsalterego@gmail.com"
-    ]
+    "CNAME": "keirsalterego.github.io"
   }
 }

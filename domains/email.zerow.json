@@ -4,6 +4,8 @@
     "email": "zerow.pro@protonmail.com"
   },
   "records": {
-    "MX": ["mail.zerow.is-a.dev"]
+    "MX": [
+      "mail.zerow.is-a.dev"
+    ]
   }
 }
