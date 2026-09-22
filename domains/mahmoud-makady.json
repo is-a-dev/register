@@ -3,7 +3,7 @@
     "username": "Mahmoud-Makady",
     "email": "m.makady19@gmail.com"
   },
-  "record": {
-    "CNAME": "Mahmoud-Makady.github.io"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }
