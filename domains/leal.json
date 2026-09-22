@@ -9,9 +9,7 @@
       "20 mx2.zoho.com.",
       "50 mx3.zoho.com."
     ],
-    "TXT": [
-      "v=spf1 include:zoho.com ~all"
-    ]
+    "TXT": "v=spf1 include:zoho.com ~all"
   },
   "description": "Site e email corporativo para renda extra"
 }
