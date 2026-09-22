@@ -3,7 +3,10 @@
     "username": "ukriu",
     "email": "isadev@ukriu.com"
   },
-  "record": {
-    "NS": ["love.ns.cloudflare.com", "pete.ns.cloudflare.com"]
+  "records": {
+    "NS": [
+      "love.ns.cloudflare.com",
+      "pete.ns.cloudflare.com"
+    ]
   }
 }

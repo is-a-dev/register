@@ -2,7 +2,7 @@
   "owner": {
     "username": "heyjumanji"
   },
-  "record": {
-    "CNAME": "jumanjiblogs.vercel.app"
+  "records": {
+    "CNAME": "jumanjiblogs.pages.dev"
   }
 }

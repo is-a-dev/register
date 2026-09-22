@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nashnc",
-        "email": "nash.nc@gmail.com"
-    },
-    "record": {
-        "CNAME": "nashnc.github.io"
-    }
+  "owner": {
+    "username": "nashnc",
+    "email": "nash.nc@gmail.com"
+  },
+  "records": {
+    "CNAME": "nashnc.github.io"
+  }
 }

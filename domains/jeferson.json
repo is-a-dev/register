@@ -1,11 +1,9 @@
 {
-  "description": "Jeferson Brito's Portfolio",
-  "repo": "https://github.com/jeferson-sb/portfolio",
   "owner": {
     "username": "jeferson-sb",
     "linkedin": "https://www.linkedin.com/in/jeferson-sb"
   },
-  "record": {
+  "records": {
     "URL": "https://www.jefersonsilva.me"
   }
 }

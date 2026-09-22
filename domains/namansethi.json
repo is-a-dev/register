@@ -1,10 +1,9 @@
 {
-    "owner": {
-      "username": "namansethi13",
-      "email": "heynamansethi@gmail.com"
-    },
-    "record": {
-      "CNAME": "namansethi.vercel.app"
-    }
+  "owner": {
+    "username": "namansethi13",
+    "email": "heynamansethi@gmail.com"
+  },
+  "records": {
+    "CNAME": "namansethi.vercel.app"
   }
-  
+}

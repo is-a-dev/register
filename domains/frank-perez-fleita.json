@@ -1,0 +1,10 @@
+{
+  "description": "Personal domain for Frank Perez Fleita, redirecting to my Vercel app.",
+  "owner": {
+    "username": "frankperez-github",
+    "email": "fp848584@gmail.com"
+  },
+  "records": {
+    "URL": "https://frank-perez-fleita.vercel.app"
+  }
+}

@@ -1,12 +1,10 @@
 {
-  "description": "A one-page portfolio website",
-  "repo": "https://github.com/yohn-maistre/yohn-maistre.github.io",
   "owner": {
     "username": "yohn-maistre",
     "twitter": "jind0sh",
     "discord": "jind0sh#5330"
   },
-  "record": {
+  "records": {
     "CNAME": "yohn-maistre.github.io"
   }
 }

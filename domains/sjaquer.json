@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "sjaquer",
+    "email": "sjaquer@outlook.es"
+  },
+  "records": {
+    "CNAME": "sjaquer.vercel.app"
+  },
+  "proxied": true
+}

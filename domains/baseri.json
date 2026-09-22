@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "Ho3einWave",
-    "discord": "743786737901240362",
-    "OWL": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJraWQiOiJaa1VsRmRqVThiUEstLXVVM2JJR09PVHFYYVFFS1ZINFVXOW53MTR6WTJnIn0.V7AHINjrzMRmazv2IjJU2V9qPlcAeRQRRYDuxjvF-fq9nOmp0H3b1KfXaBuU8rTW34c9iLNwZdxAHhJ2IvsIgQvYrAVjrJ4bxgjSaO4UPmgFze1hwHS2qpZzouOZngoWjqWfTMPhttPui4yiBtCFE2x62Y-rn3_MBCfvBZLh7aqwD6booL4FGDiL7QX202miM1Mqd-r8ZNDdydAdkcpETXDLd-7opFJgcg4Tkmq-tZuKmvdHNUsDxT4GPxVhvUKGuqtHiEGBf7YuNS_OdClqsN1sXckHOsFUFwkfIx3F7upRXWN5DBy4bEXLgphfASJjMuwFx4h27pCA5B1257msrg.Ied7dY9u3UB65AXGar9V5w.JgX5U0byUY3wzS0mx9fAOkpNan7a08RyEgRzp2Dcnusv_-_UNvIsqkbPznWTjoz8NQE6ixLrymxrDIs2dGNWcgsZ3IFpF5PY9VWKkxFSTCA.nQi799OJqhyhsVY-6Tbmcg"
+    "discord": "743786737901240362"
   },
-  "record": {
+  "records": {
     "CNAME": "apex-loadbalancer.netlify.com"
   }
 }

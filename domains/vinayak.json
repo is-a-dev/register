@@ -1,12 +1,10 @@
 {
-  "description": "Vinayak Kulkarni's Website",
-  "repo": "https://github.com/vinayakkulkarni/vinayakkulkarni.dev",
   "owner": {
-    "username": "vinayakkulkarni",
-    "email": "inbox.vinayak@gmail.com",
-    "twitter": "_vinayak_k"
+    "username": "vinayak1497",
+    "email": "kundarvinayak2004@gmail.com"
+    
   },
-  "record": {
-    "CNAME": "vinayakkulkarni.dev"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }

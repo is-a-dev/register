@@ -3,7 +3,10 @@
     "username": "JavaProgswing",
     "email": "yashasviallen@gmail.com"
   },
-  "record": {
-    "NS": ["bethany.ns.cloudflare.com", "miles.ns.cloudflare.com"]
+  "records": {
+    "NS": [
+      "bethany.ns.cloudflare.com",
+      "miles.ns.cloudflare.com"
+    ]
   }
 }

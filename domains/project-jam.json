@@ -3,7 +3,10 @@
     "username": "Omarplayz233",
     "email": "mrbouiri@gmail.com"
   },
-  "record": {
-    "NS": ["elsa.ns.cloudflare.com", "roan.ns.cloudflare.com"]
+  "records": {
+    "NS": [
+      "elsa.ns.cloudflare.com",
+      "roan.ns.cloudflare.com"
+    ]
   }
 }

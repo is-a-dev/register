@@ -1,12 +1,10 @@
 {
-  "description": "JIMMY's Personal Website",
-  "repo": "https://github.com/JIMMY1371/jimmy1371.github.io",
   "owner": {
     "username": "JIMMY1371",
     "email": "idkvro8@gmail.com",
     "discord": "JIMMY#1371"
   },
-  "record": {
+  "records": {
     "CNAME": "jimmy1371.github.io"
   }
 }

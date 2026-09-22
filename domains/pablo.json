@@ -3,7 +3,9 @@
     "username": "pasanflo",
     "email": "pasanflo@protonmail.com"
   },
-  "record": {
-    "A": ["75.2.60.5"]
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }

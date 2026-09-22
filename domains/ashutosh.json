@@ -1,11 +1,9 @@
 {
-  "description": "Ashutosh Kumar's Portfolio",
-  "repo": "https://github.com/Ashutoshcoder/ashutoshcoder.github.io",
   "owner": {
-    "username": "Ashutoshcoder",
-    "email": "ashutoshkumardbms@gmail.com"
+    "username": "ashuk9129",
+    "email": "info.nexttechlabs@gmail.com"
   },
-  "record": {
-    "CNAME": "ashutoshcoder.github.io"
+  "records": {
+    "CNAME": "ashuk9129.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Personal Page",
-  "repo": "https://github.com/SuryajithR/suryajithr.github.io",
   "owner": {
     "username": "suryajith",
     "discord": "SuryJithr#5011"
   },
-  "record": {
+  "records": {
     "CNAME": "suryajith.github.io"
   }
 }

@@ -1,11 +1,10 @@
 {
-    "description": "itsjhonalex.is-a.dev",
-    "repo": "github.com/ItsJhonAlex/PortfolioDev",
-    "owner": {
-        "username": "ItsJhonAlex",
-        "email": "itsjhonalex@gmail.com"
-    },
-    "record": {
-        "CNAME": "portfolio-dev-itsjhonalexs-projects.vercel.app"
-    }
+  "description": "itsjhonalex.is-a.dev",
+  "owner": {
+    "username": "ItsJhonAlex",
+    "email": "itsjhonalex@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-dev-itsjhonalexs-projects.vercel.app"
+  }
 }

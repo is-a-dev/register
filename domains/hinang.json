@@ -1,0 +1,10 @@
+{
+  "description": "Hinang backend API on Render",
+  "owner": {
+    "username": "Miyo2003",
+    "email": "edsharclee@gmail.com"
+  },
+  "records": {
+    "CNAME": "hinang-back.onrender.com"
+  }
+}

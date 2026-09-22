@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio",
-  "repo": "https://github.com/GeopJr/geopjr.dev",
   "owner": {
     "username": "GeopJr",
     "email": "domains@geopjr.dev"
   },
-  "record": {
+  "records": {
     "URL": "https://geopjr.dev"
   }
 }

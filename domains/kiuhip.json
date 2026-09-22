@@ -1,0 +1,11 @@
+{
+  "description": "My portfolio",
+  "repo": "https://github.com/kiuhip/portfolio",
+  "owner": {
+    "username": "kiuhip",
+    "email": "kieuthehiep@gmail.com"
+  },
+  "records": {
+    "CNAME": "kiuhip.vercel.app"
+  }
+}

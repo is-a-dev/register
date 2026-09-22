@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "MhmdFais",
-        "email": "mofam534@gmail.com"
-    },
-    "record": {
-        "CNAME": "muhammeddev.vercel.app"
-    }
+  "owner": {
+    "username": "MhmdFais",
+    "email": "mofam534@gmail.com"
+  },
+  "records": {
+    "CNAME": "muhammeddev.vercel.app"
+  }
 }

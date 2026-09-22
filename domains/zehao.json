@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "2eha0",
-        "email": "zehao93@outlook.com"
-    },
-    "record": {
-        "CNAME": "blog-pi-eight.vercel.app"
-    }
+  "owner": {
+    "username": "2eha0",
+    "email": "zehao93@outlook.com"
+  },
+  "records": {
+    "CNAME": "blog-pi-eight.vercel.app"
+  }
 }

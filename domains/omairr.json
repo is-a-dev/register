@@ -3,7 +3,9 @@
     "username": "omaiirr",
     "email": "crazyomairennab@gmail.com"
   },
-  "record": {
-    "CNAME": "omaiirr.github.io"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

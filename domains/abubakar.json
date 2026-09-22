@@ -1,11 +1,9 @@
 {
-  "description": "My personal portfolio",
-  "repo": "https://github.com/AbubakarKang/AbubakarKang.github.io",
   "owner": {
     "username": "AbubakarKang",
     "discord": "TheHacker#4418"
   },
-  "record": {
+  "records": {
     "CNAME": "abubakarkang.github.io"
   }
 }

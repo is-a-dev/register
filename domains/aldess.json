@@ -3,7 +3,7 @@
     "username": "AldessScratch",
     "email": "aldess.sc@gmail.com"
   },
-  "record": {
-    "CNAME": "aldess.pages.dev"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

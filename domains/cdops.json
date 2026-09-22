@@ -4,7 +4,9 @@
     "username": "gtamilvanan17",
     "discord": "gtamilvanan17"
   },
-  "record": {
-    "A": ["216.24.57.1"]
+  "records": {
+    "A": [
+      "216.24.57.1"
+    ]
   }
 }

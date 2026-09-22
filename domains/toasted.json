@@ -1,13 +1,11 @@
 {
-  "description": "official website of toastedtoast",
-  "repo": "https://github.com/ToastedDev/toasted.dev",
   "owner": {
     "username": "ToastedDev",
     "email": "hey@toasted.dev",
     "twitter": "toasteddev",
     "discord": "nottca"
   },
-  "record": {
+  "records": {
     "URL": "https://toasted.dev"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "description": "Dev Site",
+  "owner": {
+    "username": "kelvinojedaepn",
+    "email": "kelvin.ojeda.071@outlook.com"
+  },
+  "records": {
+    "CNAME": "kelvin-portfolio-zeta.vercel.app"
+  }
+}

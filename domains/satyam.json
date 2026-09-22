@@ -3,7 +3,10 @@
     "username": "lostboysatyam",
     "email": "lostboysatyam54@gmail.com"
   },
-  "record": {
-    "NS": ["braden.ns.cloudflare.com", "diana.ns.cloudflare.com"]
+  "records": {
+    "NS": [
+      "braden.ns.cloudflare.com",
+      "diana.ns.cloudflare.com"
+    ]
   }
 }

@@ -1,0 +1,10 @@
+{
+  "description": "Domain for redirection to angganix.is-a.dev",
+  "owner": {
+    "username": "angganix",
+    "email": "angganix@gmail.com"
+  },
+  "records": {
+    "URL": "https://angganix.is-a.dev"
+  }
+}

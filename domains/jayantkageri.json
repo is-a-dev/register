@@ -1,11 +1,9 @@
 {
-  "description": "Nothing is easy in life when you aren't interested.",
-  "repo": "https://github.com/jayantkageri/Website",
   "owner": {
     "username": "jayantkageri",
     "email": "jayantkageri@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://www.jayantkageri.in"
   }
 }

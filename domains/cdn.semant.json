@@ -1,10 +1,9 @@
 {
-  "description": "My static database",
+  "description": "Content Delivery Network for main site",
   "owner": {
-    "username": "ihacksemant",
-    "email": "contact@semant.is-a.dev"
+    "username": "s3mant"
   },
-  "record": {
-    "CNAME": "web-0wfb.onrender.com"
+  "records": {
+    "CNAME": "cdn-semant.pages.dev"
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Mikofoxie",
-        "email": "shimizulazy@gmail.com"
-    },
-    "record": {
-        "CNAME": "shimizulinks.vercel.app"
-    }
+  "owner": {
+    "username": "Mikofoxie",
+    "email": "shimizulazy@gmail.com"
+  },
+  "records": {
+    "CNAME": "shimizulinks.vercel.app"
+  }
 }

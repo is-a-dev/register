@@ -3,7 +3,7 @@
     "username": "Sevinda-Herath",
     "email": "sevindaherath@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCAhBt3btz/Lvou5WOJo+eF4YYWNZHxX0h5vPCfcP0IVtxOcicEhpvuY8DZ86ooVAptJeXKeuXVOz0J3SkAeGu2OAPZdHwKmBXTxvIx040Qhb3plS3T1iQXj3gu8SjkZk2w6X/07iQB+KkUYD8wvAT6UUIyNugQPd74LRYpOV1pRQIDAQAB"
   }
 }

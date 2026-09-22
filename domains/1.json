@@ -4,7 +4,9 @@
     "username": "i-am-is-a-dev",
     "email": "lx737456@gmail.com"
   },
-  "record": {
-    "A": ["89.106.200.1"]
+  "records": {
+    "A": [
+      "89.106.200.1"
+    ]
   }
 }

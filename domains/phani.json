@@ -1,11 +1,10 @@
 {
   "description": "PortFolio Showcasing my Works and contact details",
-  "repo": "https://github.com/Phani2425/My-Portfolio",
   "owner": {
     "username": "Phani2425",
     "email": "mohantyphanibhusan@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://portfolioweb-gules.vercel.app/"
   }
 }

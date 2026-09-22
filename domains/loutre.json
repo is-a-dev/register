@@ -4,7 +4,9 @@
     "email": "loutrinesk@gmail.com",
     "discord": "1222265538672201759"
   },
-  "record": {
-    "A": ["76.76.21.21"]
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

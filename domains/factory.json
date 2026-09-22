@@ -1,11 +1,9 @@
 {
-  "description": "Factory for manufacturing is-a-dev domains",
-  "repo": "https://github.com/VaibhavSys/DomainFactory",
   "owner": {
-    "username": "VaibhavSys",
-    "email": "vaibhavsys@protonmail.com"
+    "username": "orangci",
+    "email": "c@orangc.net"
   },
-  "record": {
-    "CNAME": "domainfactory.pages.dev"
+  "records": {
+    "CNAME": "is-a-factory.vercel.app"
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Dev-Rajeshkumar",
-        "email": "rajesh8778354586@gmail.com"
-    },
-    "record": {
-        "TXT": "vc-domain-verify=rajeshkumar.is-a.dev,52cd27c94b7115d293d5"
-    }
+  "owner": {
+    "username": "Dev-Rajeshkumar",
+    "email": "rajesh8778354586@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=rajeshkumar.is-a.dev,52cd27c94b7115d293d5"
+  }
 }

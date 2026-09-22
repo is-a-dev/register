@@ -1,0 +1,363 @@
+name: PR
+
+on:
+    pull_request_target:
+        types:
+            - opened
+            - reopened
+            - edited
+            - synchronize
+
+permissions:
+    contents: read
+    pull-requests: write
+    issues: write
+
+jobs:
+    label:
+        name: Label
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Check changed paths
+              id: changes
+              uses: dorny/paths-filter@v3
+              with:
+                  filters: |
+                      ci:
+                          - ".github/workflows/*"
+                          - "tests/*"
+                          - "util/*"
+                          - "package.json"
+                          - "package-lock.json"
+                          - "dnsconfig.js"
+                      domain:
+                          - "domains/*"
+                      documentation:
+                          - ".github/PULL_REQUEST_TEMPLATE.md"
+                          - ".github/copilot-instructions.md"
+                          - "README.md"
+                      r-william:
+                          - ".github/CODEOWNERS"
+                          - "TERMS_OF_SERVICE.md"
+                          - "LICENSE"
+
+            - name: Check for NS records
+              id: ns
+              uses: actions/github-script@v8
+              env:
+                  DOMAIN_CHANGED: ${{ steps.changes.outputs.domain }}
+              with:
+                  github-token: ${{ secrets.BOT }}
+                  script: |
+                      if (process.env.DOMAIN_CHANGED !== "true") {
+                          core.setOutput("changed", "false");
+                          return;
+                      }
+
+                      const files = await github.paginate(
+                          github.rest.pulls.listFiles,
+                          {
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              pull_number: context.issue.number,
+                              per_page: 100
+                          }
+                      );
+
+                      const domainFiles = files.filter(
+                          (file) =>
+                              file.filename.startsWith("domains/") &&
+                              file.filename.endsWith(".json") &&
+                              file.status !== "removed"
+                      );
+
+                      for (const file of domainFiles) {
+                          const { data: content } =
+                              await github.rest.repos.getContent({
+                                  owner: context.repo.owner,
+                                  repo: context.repo.repo,
+                                  path: file.filename,
+                                  ref: context.payload.pull_request.head.sha
+                              });
+
+                          const domain = JSON.parse(
+                              Buffer.from(content.content, "base64").toString("utf8")
+                          );
+
+                          if (
+                              Array.isArray(domain.records?.NS) &&
+                              domain.records.NS.length > 0
+                          ) {
+                              core.setOutput("changed", "true");
+                              return;
+                          }
+                      }
+
+                      core.setOutput("changed", "false");
+
+            - name: Comment about NS records
+              if: steps.ns.outputs.changed == 'true'
+              uses: actions/github-script@v8
+              with:
+                  github-token: ${{ secrets.BOT }}
+                  script: |
+                      const marker = "<!-- is-a-dev-bot: ns-record-review -->";
+
+                      const comments = await github.paginate(
+                          github.rest.issues.listComments,
+                          {
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number
+                          }
+                      );
+
+                      const alreadyCommented = comments.some(
+                          (comment) =>
+                              comment.user?.login === "is-a-dev-bot" &&
+                              comment.body?.includes(marker)
+                      );
+
+                      if (!alreadyCommented) {
+                          const body = [
+                              marker,
+                              "## ⚠️ Special review required",
+                              "",
+                              "This pull request contains a request for NS records and will need to be reviewed by the service owner.",
+                              "",
+                              "***Please ensure you have provided reasoning for needing NS records in your PR description, otherwise your request cannot be approved.***",
+                              "",
+                              "---",
+                              "*Do not alert or contact staff about this PR otherwise it will be set to low priority.*"
+                          ].join("\n");
+
+                          await github.rest.issues.createComment({
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number,
+                              body
+                          });
+                      }
+
+            - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+              with:
+                  ref: ${{ github.event.repository.default_branch }}
+
+            - name: Check trusted user
+              id: check-trusted
+              continue-on-error: true
+              env:
+                  PR_AUTHOR_ID: ${{ github.event.pull_request.user.id }}
+              run: |
+                  node - <<'NODE'
+                  const trustedUsers = require("./util/trusted.json");
+
+                  const authorId = Number(process.env.PR_AUTHOR_ID);
+
+                  if (!trustedUsers.some((u) => u.id === authorId)) {
+                      console.log("PR author is not a trusted user.");
+                      process.exit(1);
+                  }
+
+                  console.log("PR author is a trusted user.");
+                  NODE
+
+            - name: Add labels
+              uses: actions/github-script@v8
+              env:
+                  CI_CHANGED: ${{ steps.changes.outputs.ci }}
+                  DOCUMENTATION: ${{ steps.changes.outputs.documentation }}
+                  DOMAIN_CHANGED: ${{ steps.changes.outputs.domain }}
+                  NS_CHANGED: ${{ steps.ns.outputs.changed }}
+                  MAINTAINER: ${{ steps.check-trusted.outcome == 'success' }}
+                  R_WILLIAM: ${{ steps.changes.outputs.r-william }}
+              with:
+                  github-token: ${{ secrets.BOT }}
+                  script: |
+                      const labels = [];
+
+                      if (process.env.CI_CHANGED === "true") {
+                          labels.push("ci");
+                      }
+
+                      if (process.env.DOCUMENTATION === "true") {
+                          labels.push("documentation");
+                      }
+
+                      if (process.env.DOMAIN_CHANGED === "true") {
+                          labels.push("domain");
+                      }
+
+                      if (process.env.MAINTAINER === "true") {
+                          labels.push("maintainer");
+                      }
+
+                      if (
+                          process.env.CI_CHANGED === "true" ||
+                          process.env.NS_CHANGED === "true" ||
+                          process.env.R_WILLIAM === "true"
+                      ) {
+                          labels.push("r: william");
+                      }
+
+                      const uniqueLabels = [...new Set(labels)];
+
+                      if (uniqueLabels.length) {
+                          await github.rest.issues.addLabels({
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number,
+                              labels: uniqueLabels
+                          });
+                      }
+
+    template:
+        name: Template
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+              with:
+                  ref: ${{ github.event.repository.default_branch }}
+
+            - name: Validate PR template
+              id: validate
+              continue-on-error: true
+              env:
+                  PR_BODY: ${{ github.event.pull_request.body }}
+                  PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+                  PR_AUTHOR_ID: ${{ github.event.pull_request.user.id }}
+                  PR_LABELS: ${{ toJSON(github.event.pull_request.labels.*.name) }}
+              run: node util/check-pr-template.cjs
+
+            - name: Handle incomplete PR
+              if: steps.validate.outcome == 'failure'
+              uses: actions/github-script@v8
+              with:
+                  github-token: ${{ secrets.BOT }}
+                  script: |
+                      const label = "reason: incomplete pr";
+
+                      try {
+                          await github.rest.issues.getLabel({
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              name: label
+                          });
+                      } catch (error) {
+                          throw error;
+                      }
+
+                      const labels = await github.rest.issues.listLabelsOnIssue({
+                          owner: context.repo.owner,
+                          repo: context.repo.repo,
+                          issue_number: context.issue.number
+                      });
+
+                      if (!labels.data.some((item) => item.name === label)) {
+                          await github.rest.issues.addLabels({
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number,
+                              labels: [label]
+                          });
+                      }
+
+                      const marker = "<!-- is-a-dev-bot: incomplete-pr-template -->";
+
+                      const comments = await github.paginate(
+                          github.rest.issues.listComments,
+                          {
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number
+                          }
+                      );
+
+                      const alreadyCommented = comments.some(
+                          (comment) =>
+                              comment.user?.login === "is-a-dev-bot" &&
+                              comment.body?.includes(marker)
+                      );
+
+                      if (!alreadyCommented) {
+                          const body = [
+                              marker,
+                              "## ❌ Incomplete PR template",
+                              "",
+                              "This pull request is missing required information from the PR template.",
+                              "",
+                              "***Your PR will not be approved without the template being properly filled out!***",
+                              "",
+                              "Please make sure that:",
+                              "",
+                              "- The PR template has not been modified.",
+                              "  - *Modifying the PR template will make this check fail.*",
+                              "- All requirement checkboxes are checked.",
+                              "  - *All checkboxes must be changed exactly to `[x]`, NOT something like `[ x ]`.*",
+                              "- **Website Preview** is filled out.",
+                              "  - *Make sure it is filled between the start/end comment markers.*",
+                              "- **Website Purpose** is filled out.",
+                              "  - *Make sure it is filled between the start/end comment markers.*",
+                              "---",
+                              "Once the template has been properly completed, this check will run again automatically."
+                          ].join("\n");
+
+                          await github.rest.issues.createComment({
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number,
+                              body
+                          });
+                      }
+
+            - name: Remove incomplete label and comment
+              if: steps.validate.outcome == 'success'
+              uses: actions/github-script@v8
+              with:
+                  github-token: ${{ secrets.BOT }}
+                  script: |
+                      const label = "reason: incomplete pr";
+                      const marker = "<!-- is-a-dev-bot: incomplete-pr-template -->";
+
+                      try {
+                          await github.rest.issues.removeLabel({
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number,
+                              name: label
+                          });
+                      } catch (error) {
+                          if (error.status !== 404) {
+                              throw error;
+                          }
+                      }
+
+                      const comments = await github.paginate(
+                          github.rest.issues.listComments,
+                          {
+                              owner: context.repo.owner,
+                              repo: context.repo.repo,
+                              issue_number: context.issue.number
+                          }
+                      );
+
+                      for (const comment of comments) {
+                          if (
+                              comment.user?.login === "is-a-dev-bot" &&
+                              comment.body?.includes(marker)
+                          ) {
+                              await github.rest.issues.deleteComment({
+                                  owner: context.repo.owner,
+                                  repo: context.repo.repo,
+                                  comment_id: comment.id
+                              });
+                          }
+                      }
+
+            - name: Fail if PR template is incomplete
+              if: steps.validate.outcome == 'failure'
+              run: |
+                  echo "::error::PR template is incomplete."
+                  exit 1

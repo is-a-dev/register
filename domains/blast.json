@@ -4,7 +4,7 @@
     "discord": "poxuizm"
   },
   "description": "Personal website with links to my social medias, will probably add portfolio",
-  "record": {
+  "records": {
     "CNAME": "reblast.github.io"
   }
 }

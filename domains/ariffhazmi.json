@@ -1,11 +1,10 @@
 {
   "description": "Ariffhazmi's Website",
-  "repo": "https://github.com/Areplesapelagi/ariffhazmi.git",
   "owner": {
     "username": "Areplesapelagi",
     "email": "muhdariffhazmi@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "areplesapelagi.github.io"
   }
 }

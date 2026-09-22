@@ -3,7 +3,7 @@
     "username": "camposdev",
     "email": "felipecamposdev@gmail.com"
   },
-  "record": {
-    "CNAME": "felipecampos.vercel.app"
+  "records": {
+    "URL": "https://felipecampos.vercel.app"
   }
 }

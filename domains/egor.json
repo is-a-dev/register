@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "egor-xyz",
-    "discord": "egor.xyz"
+    "username": "kubk",
+    "email": "7gorbachevm@gmail.com"
   },
-  "record": {
-    "CNAME": "egor.xyz"
+  "records": {
+    "CNAME": "personal-website-akj.pages.dev"
   }
 }
