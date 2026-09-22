@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "EII-VAREZAI",
+    "email": "akuagus3523@gmail.com"
+  },
+  "domain": "varezzy",
+  "subdomain": "",
+  "records": {
+    "MX": ["mail.cleantempmail.com"],
+    "TXT": ["v=spf1 include:mail.cleantempmail.com ~all"]
+  }
+}
