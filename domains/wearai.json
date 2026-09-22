@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "ehsaniiii9271-debug",
+    "email": "ehsaniiii9271@gmail.com"
+  },
+  "domain": "wearai",
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": false
+}
