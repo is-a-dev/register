@@ -1,10 +1,12 @@
 {
-    "owner": {
-        "username": "naextro",
-        "email": "riham.tangail@gmail.com",
-        "discord":"h6s"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "naextro",
+    "email": "riham.tangail@gmail.com",
+    "discord": "h6s"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

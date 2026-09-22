@@ -4,7 +4,9 @@
     "email": "benjamdoley@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
+    "A": [
+      "216.198.79.1"
+    ],
     "TXT": "google-site-verification=SFR-9w2T770gV_uA91X4e-2Wc4YHpw2fJbeM-71V5yQ"
   }
 }
