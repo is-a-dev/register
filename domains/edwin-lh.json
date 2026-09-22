@@ -1,12 +1,10 @@
 {
-  "description": "Custom github pages domain",
-  "repo": "https://github.com/ezerinz/ezerinz.github.io",
   "owner": {
     "username": "ezerinz",
     "email": "edwinnnzx@gmail.com",
     "twitter": "Ezerinz"
   },
-  "record": {
+  "records": {
     "CNAME": "ezerinz.github.io"
   }
 }

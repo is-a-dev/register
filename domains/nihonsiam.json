@@ -1,0 +1,11 @@
+{
+  "description": "Nihon Siam's personal portfolio",
+  "repo": "https://github.com/NihonSiam/NihonSiam.github.io",
+  "owner": {
+    "username": "NihonSiam",
+    "email": "nihonsiam.personal@gmail.com"
+  },
+  "records": {
+    "CNAME": "nihonsiam.github.io"
+  }
+}

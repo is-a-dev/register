@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "ColinLeDev"
+    "username": "ColinLeDev",
+    "email": "spam+isadev@col1n.fr"
   },
-  "record": {
-    "TXT": ["dh=f51bcf0f0dac685ca2a69541d3981cd689a1e96a"]
+  "records": {
+    "TXT": "dh=f51bcf0f0dac685ca2a69541d3981cd689a1e96a"
   }
 }

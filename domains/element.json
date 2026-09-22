@@ -4,7 +4,9 @@
     "username": "playreaver",
     "email": "reaver.entertainment@hotmail.com"
   },
-  "record": {
-    "A": ["75.2.60.5"]
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }

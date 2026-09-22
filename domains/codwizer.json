@@ -1,11 +1,9 @@
 {
-  "description": "Create resume page, and add this link in social",
-  "repo": "https://github.com/Codwizer/codwizer.github.io",
   "owner": {
     "username": "codwiz",
     "email": "devcodwiz@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "codwizer.github.io"
   }
 }

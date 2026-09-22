@@ -1,11 +1,10 @@
 {
   "description": "houlton.is-a.dev -> solo.to/houlton redirect.",
-  "repo": "https://github.com/ahoulton/register",
   "owner": {
     "username": "ahoulton",
     "email": "ignhoulton@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://solo.to/houlton"
   }
 }

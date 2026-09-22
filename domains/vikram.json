@@ -1,12 +1,10 @@
 {
-  "description": "This domain will be used for my personal website.",
-  "repo": "https://github.com/vikramisdev/vikram",
   "owner": {
     "username": "vikramisdev",
     "email": "vs423502@gmail.com",
     "twitter": "vikramisdev"
   },
-  "record": {
+  "records": {
     "CNAME": "vikramisdev.netlify.app"
   }
 }

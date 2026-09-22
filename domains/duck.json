@@ -3,7 +3,9 @@
     "username": "ServerDeveloper9447",
     "email": "serverdeveloper@duck.com"
   },
-  "record": {
-    "CNAME": "serverdeveloper9447.github.io"
+  "proxied": true,
+  "records": {
+    "CNAME": "portfolio-2026-8tc.pages.dev",
+    "TXT": "google-site-verification=o4_QC1kBwQSfdl7WRSeLjni3RZPPdFZrgM9DHyDHdJk"
   }
 }

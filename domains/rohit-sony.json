@@ -1,10 +1,8 @@
 {
-  "description": "Rohit Profile.",
-  "repo": "https://github.com/rohit-sony/rohit-sony.github.io",
   "owner": {
     "username": "rohit-sony"
   },
-  "record": {
+  "records": {
     "CNAME": "rohit-sony.github.io"
   }
 }

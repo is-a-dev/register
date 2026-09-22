@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "alexgamingdev",
+    "email": "alexgaming.padh@gmail.com"
+  },
+  "proxied": false,
+  "records": {
+    "TXT": "v=BIMI1; l=https://alexgaming.is-a.dev/icon.svg; a=;"
+  }
+}

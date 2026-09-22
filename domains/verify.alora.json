@@ -1,0 +1,10 @@
+{
+  "description": "Verification Site For my Roleplay Server",
+  "owner": {
+    "username": "aloramiaa",
+    "email": "xaloramia@gmail.com"
+  },
+  "records": {
+    "CNAME": "europaverification.vercel.app"
+  }
+}

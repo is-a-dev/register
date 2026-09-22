@@ -1,12 +1,10 @@
 {
-  "description": "Personal Resume",
-  "repo": "https://github.com/danosyrus/danosyrus.github.io",
   "owner": {
     "username": "danosyrus",
     "email": "danosyrus@tuta.io",
     "discord": "danosyrus"
   },
-  "record": {
+  "records": {
     "CNAME": "danosyrus.github.io"
   }
 }

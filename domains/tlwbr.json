@@ -1,11 +1,9 @@
 {
-  "description": "My personal portfolio website",
-  "repo": "https://github.com/tolubori07/portfolio",
   "owner": {
     "username": "tolubori07",
     "email": "Tolubori07@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "tlwbr.netlify.app"
   }
 }

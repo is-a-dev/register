@@ -1,11 +1,9 @@
 {
-  "description": "Personal website and portfolio for Pyae Sone Win",
-  "repo": "https://github.com/mgmgpyaesonewin/mgmgpyaesonewin.github.io",
   "owner": {
     "username": "mgmgpyaesonewin",
     "email": "pyaesonewin.dev@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mgmgpyaesonewin.github.io"
   }
 }

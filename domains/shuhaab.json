@@ -2,7 +2,9 @@
   "owner": {
     "username": "Shuhaab-coder"
   },
-  "record": {
-    "CNAME": "shuhaab.vercel.app"
-  }
+  "records": {
+    "CNAME": "shuhaab.vercel.app",
+    "TXT": "google-site-verification=AYFiEnxsZZ3z1EBfRfHqesdkO7oCbOCS1w4rSAnNl9I"
+  },
+  "proxied": true
 }

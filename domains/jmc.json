@@ -4,7 +4,9 @@
     "email": "jmc300499@gmail.com",
     "discord": "josem430"
   },
-  "record": {
-    "A": ["76.76.21.21"]
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

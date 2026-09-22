@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "violetlaire",
+    "email": "violetlaire@proton.me"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=violet.is-a.dev,dd60430c61df7957e114",
+      "vc-domain-verify=me.violet.is-a.dev,3fad7d0a3bfe3724aaf1",
+      "vc-domain-verify=blog.violet.is-a.dev,27a12f9f237682d5ca9a"
+    ]
+  }
+}

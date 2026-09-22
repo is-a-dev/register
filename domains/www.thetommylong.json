@@ -1,0 +1,10 @@
+{
+  "description": "Currently used for portfolio website and SMTP mail server",
+  "owner": {
+    "username": "thetommylong",
+    "discord": "thetommylong"
+  },
+  "records": {
+    "CNAME": "thetommylong.github.io"
+  }
+}

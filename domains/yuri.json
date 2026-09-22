@@ -1,9 +1,13 @@
 {
   "owner": {
-    "username": "MaiYurito",
-    "email": "reachgamers9999@gmail.com"
+    "username": "dragsbruh",
+    "email": "dragsbruh@protonmail.com",
+    "discord": "781445370177126401"
   },
-  "record": {
-    "URL": "https://yuri.only-fans.club/"
+  "records": {
+    "URL": "https://furina.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

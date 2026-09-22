@@ -1,12 +1,10 @@
 {
-  "description": "personal website",
-  "repo": "https://github.com/ngocjohn/ngocjohn.github.io",
   "owner": {
     "username": "ngocjohn",
     "email": "ngocjohn@me.com",
     "twitter": "emkay3000"
   },
-  "record": {
+  "records": {
     "CNAME": "ngocjohn.github.io"
   }
 }

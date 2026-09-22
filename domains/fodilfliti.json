@@ -3,7 +3,9 @@
     "username": "fodilfliti",
     "email": "fodilfliti150@gmail.com"
   },
-  "record": {
-    "A": ["76.76.21.21"]
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

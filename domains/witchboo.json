@@ -3,7 +3,7 @@
     "username": "WitchBoo",
     "email": "soconfirmo@hotmail.com"
   },
-  "record": {
-    "CNAME": "witchboo.github.io"
+  "records": {
+    "URL": "https://witchboo.me"
   }
 }

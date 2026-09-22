@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "abbas-rz",
+    "email": "mail.abbas.raza@gmail.com"
+  },
+  "description": "Email forwarding + GitHub Pages site",
+  "proxied": true,
+  "records": {
+    "CNAME": "abbas-rz.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}

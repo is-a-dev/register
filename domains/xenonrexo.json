@@ -3,7 +3,9 @@
     "username": "shshams",
     "email": "shahadathossenshams@gmail.com"
   },
-  "record": {
-    "CNAME": "xenonrexo.vercel.app"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

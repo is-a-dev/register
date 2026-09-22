@@ -1,0 +1,10 @@
+{
+  "description": "Just a domain for Portafilter",
+  "owner": {
+    "username": "Jannator171",
+    "email": "Jannator17@proton.me"
+  },
+  "records": {
+    "CNAME": "jannator-portainer.duckdns.org"
+  }
+}

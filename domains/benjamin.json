@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "Loapu",
-    "email": "benjamin@loapu.dev"
+    "username": "benjaminc-tech",
+    "email": "benjamincgoldberger@gmail.com"
   },
-  "record": {
-    "NS": ["algin.ns.cloudflare.com", "marge.ns.cloudflare.com"]
+  "records": {
+    "CNAME": "benjamin-is-a-dev.netlify.app"
   }
 }

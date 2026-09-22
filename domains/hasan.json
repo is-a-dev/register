@@ -1,11 +1,10 @@
 {
-  "description": "My personal website",
-  "repo": "https://github.com/bistcuite/bistcuite.github.io",
   "owner": {
-    "username": "bistcuite",
-    "email": "hnk1440@gmail.com"
+    "username": "VersionTV",
+    "email": "hasanversion2009@gmail.com"
   },
-  "record": {
-    "CNAME": "bistcuite.github.io"
-  }
+  "records": {
+    "CNAME": "d8bnugisbredx.cloudfront.net"
+  },
+  "proxied": false
 }

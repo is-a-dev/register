@@ -4,8 +4,10 @@
     "username": "lverx",
     "email": "profoundlvr@gmail.com"
   },
-  "record": {
-    "A": ["52.72.49.79"]
+  "records": {
+    "A": [
+      "52.72.49.79"
+    ]
   },
   "proxied": true
 }
