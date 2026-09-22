@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "trathailoi",
-        "email": "trathailoi@gmail.com"
-    },
-    "description": "Interactive terminal CV.",
-    "repo": "https://github.com/trathailoi/portfolio",
-    "records": {
-        "CNAME": "trathailoi.github.io"
-    }
+  "owner": {
+    "username": "trathailoi",
+    "email": "trathailoi@gmail.com"
+  },
+  "description": "Interactive terminal CV.",
+  "repo": "https://github.com/trathailoi/portfolio",
+  "records": {
+    "CNAME": "trathailoi.github.io"
+  }
 }

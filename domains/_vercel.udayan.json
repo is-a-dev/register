@@ -1,9 +1,9 @@
 {
-"owner": {
-"username": "networkerman",
-"email": "networker.udayan@gmail.com"
-},
-"records": {
-"TXT": "vc-domain-verify=udayan.is-a.dev,c2a671cd20748b8dea2d"
-}
+  "owner": {
+    "username": "networkerman",
+    "email": "networker.udayan@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=www.udayan.is-a.dev,cdbd6b1c3930e3101c94"
+  }
 }

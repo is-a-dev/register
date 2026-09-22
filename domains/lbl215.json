@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "name-unkowned",
-        "email": "imnotputtingmyname@proton.me"
-    },
-    "records": {
-        "CNAME": "name-unkowned.github.io"
-    }
+  "owner": {
+    "username": "name-unkowned",
+    "email": "imnotputtingmyname@proton.me"
+  },
+  "records": {
+    "CNAME": "name-unkowned.github.io"
+  }
 }
