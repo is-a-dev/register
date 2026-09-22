@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "ddfenrir",
+    "email": "la-tua-email@esempio.com"
+  },
+  "records": {
+    "CNAME": "il-tuo-progetto.pages.dev"
+  }
+}
