@@ -1,9 +1,17 @@
 {
   "owner": {
     "username": "Yuri-leal777",
-    "email": "renan-leal10@hotmail.com"
+    "email": "yurileal777@gmail.com"
   },
   "record": {
-    "CNAME": "yuri-leal777.github.io"
-  }
+    "MX": [
+      "10 mx.zoho.com.",
+      "20 mx2.zoho.com.",
+      "50 mx3.zoho.com."
+    ],
+    "TXT": [
+      "v=spf1 include:zoho.com ~all"
+    ]
+  },
+  "description": "Site e email corporativo para renda extra"
 }
