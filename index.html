@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShardClient — The most powerful Minecraft client</title>
+<meta name="description" content="ShardClient — undetected, packed with modules, built for Minecraft. Monthly $7.50 or Lifetime $15.">
+<link rel="icon" type="image/png" href="assets/shardlogo.png">
+<style>
+  :root {
+    --bg: #0a0711;
+    --bg2: #120a20;
+    --card: #171026;
+    --surface: #1a1128;
+    --border: #2c1f45;
+    --amethyst-1: #8b5cf6;
+    --amethyst-2: #a855f7;
+    --amethyst-3: #c084fc;
+    --text: #ece6f7;
+    --muted: #a89cc0;
+    --glow: rgba(139, 92, 246, 0.35);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: radial-gradient(1200px 600px at 80% -10%, #241544 0%, transparent 60%),
+                radial-gradient(1000px 500px at 0% 10%, #1d1030 0%, transparent 50%),
+                var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  a { color: var(--amethyst-3); text-decoration: none; }
+
+  .container { width: min(1100px, 92%); margin: 0 auto; }
+
+  /* ---------- Navbar (slide-down on load) ---------- */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+    background: rgba(11, 7, 20, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    transform: translateY(-100px);
+    transition: transform 0.4s ease;
+  }
+  nav.live { transform: translateY(0); }
+  nav .container { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.15rem; letter-spacing: 0.5px; }
+  nav ul { list-style: none; display: flex; gap: 28px; align-items: center; }
+  nav ul a { color: var(--muted); font-size: 0.95rem; transition: color 0.2s; }
+  nav ul a:hover { color: var(--text); }
+  @media (max-width: 720px) { nav ul { display: none; } }
+  .gem {
+    width: 34px; height: 34px; display: grid; place-items: center;
+    background: linear-gradient(135deg, var(--amethyst-1), var(--amethyst-3));
+    border-radius: 10px; color: #0b0714; font-weight: 900;
+    box-shadow: 0 0 18px var(--glow);
+    animation: gemPulse 3.5s ease-in-out infinite;
+  }
+  .logo-sm { width: 30px; height: 30px; border-radius: 8px; display: block; object-fit: contain; }
+  @keyframes gemPulse { 0%,100% { box-shadow: 0 0 14px var(--glow); } 50% { box-shadow: 0 0 26px var(--glow); } }
+
+  /* ---------- Intro / opening animation ---------- */
+  .intro {
+    position: fixed; inset: 0; z-index: 100;
+    background: radial-gradient(900px 500px at 50% 20%, #241544 0%, transparent 60%), var(--bg);
+    display: grid; place-items: center;
+    opacity: 1; visibility: visible;
+    transition: opacity 0.8s ease, visibility 0.8s ease;
+  }
+  .intro .logo-big {
+    width: 96px; height: 96px; object-fit: contain; display: block;
+    opacity: 0; transform: scale(0.5); filter: blur(10px);
+  }
+  .intro.play .logo-big { animation: logoIn 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+  @keyframes logoIn {
+    0% { opacity: 0; transform: scale(0.5) rotate(-12deg); filter: blur(10px); }
+    60% { opacity: 1; }
+    100% { opacity: 1; transform: scale(1) rotate(0deg); filter: blur(0); }
+  }
+  .intro .wordmark {
+    margin-top: 22px; text-align: center;
+    font-size: 1.7rem; font-weight: 900; letter-spacing: 5px; text-transform: uppercase;
+    opacity: 0; transform: translateY(14px);
+  }
+  .intro.play .wordmark { animation: wordIn 0.7s ease 0.45s forwards; }
+  @keyframes wordIn { to { opacity: 1; transform: translateY(0); } }
+  .intro .bar {
+    width: 70px; height: 3px; margin: 16px auto 0; border-radius: 99px;
+    background: linear-gradient(90deg, var(--amethyst-1), var(--amethyst-3));
+    transform: scaleX(0); transform-origin: left; box-shadow: 0 0 14px var(--glow);
+  }
+  .intro.play .bar { animation: barGrow 0.7s ease 0.6s forwards; }
+  @keyframes barGrow { to { transform: scaleX(1); } }
+  .intro.out { opacity: 0; visibility: hidden; }
+  body.intro-locked { overflow: hidden; }
+
+  /* ---------- Header ---------- */
+  .btn {
+    padding: 14px 30px; border-radius: 999px; font-weight: 800; font-size: 1rem;
+    transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    display: inline-block;
+  }
+  .btn:hover { transform: translateY(-3px); }
+  /* button sweep glint */
+  .btn-primary {
+    position: relative; overflow: hidden;
+    background: linear-gradient(135deg, var(--amethyst-1), var(--amethyst-2));
+    color: #fff; box-shadow: 0 4px 26px var(--glow);
+  }
+  .btn-primary:hover { background: linear-gradient(135deg, var(--amethyst-2), var(--amethyst-3)); }
+  .btn-primary::after {
+    content: ""; position: absolute; top: 0; bottom: 0; left: -60%; width: 40%;
+    background: linear-gradient(100deg, transparent, rgba(255,255,255,.45), transparent);
+    transform: skewX(-20deg);
+  }
+  .btn-primary:hover::after { animation: glint 0.7s ease; }
+  @keyframes glint { to { left: 120%; } }
+  .btn-ghost { background: rgba(255,255,255,.05); border: 1px solid var(--border); color: var(--text); }
+  .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+  header { padding: 120px 0 60px; text-align: center; position: relative; overflow: hidden; }
+
+  /* light beams */
+  .beam-layer { position: absolute; inset: 0; pointer-events: none; opacity: 0; transition: opacity 1.6s ease; }
+  .beam {
+    position: absolute; width: 560px; height: 1100px; top: -120px;
+    background: radial-gradient(68.54% 68.72% at 55.02% 31.46%,
+      hsla(268, 90%, 75%, 0.09) 0%, hsla(268, 90%, 60%, 0.03) 50%, hsla(268, 90%, 55%, 0) 80%);
+    transform: rotate(45deg); transform-origin: top left;
+  }
+  .beam.left { left: -120px; }
+  .beam.right { right: -120px; transform: rotate(-45deg); transform-origin: top right; }
+  .beam.mid { width: 240px; top: 80px; left: -40px; opacity: .8; }
+  .beam.mid-r { width: 240px; top: 80px; right: -40px; opacity: .8; transform: rotate(-45deg); transform-origin: top right; }
+  .beam-layer.show { opacity: 1; }
+
+  .badge {
+    display: inline-block; padding: 6px 14px; border-radius: 999px; font-size: 0.8rem;
+    border: 1px solid var(--border); background: var(--card); color: var(--muted); margin-bottom: 22px;
+  }
+  h1 { font-size: clamp(2.4rem, 6vw, 4rem); font-weight: 900; line-height: 1.1; letter-spacing: -1px; }
+  h1 .hw { display: inline-block; opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  h1 .hw.show { opacity: 1; transform: translateY(0); }
+  h1 .accent { color: var(--amethyst-3); font-style: italic; padding-right: 2px; }
+  header p.sub { max-width: 620px; margin: 22px auto 34px; color: var(--muted); font-size: 1.1rem; opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease 0.6s, transform 0.8s ease 0.6s; }
+  body.loaded header p.sub { opacity: 1; transform: translateY(0); }
+  .hero-cta { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease 0.75s, transform 0.8s ease 0.75s; }
+  body.loaded .hero-cta { opacity: 1; transform: translateY(0); }
+
+  .hero-stats { display: flex; gap: 40px; justify-content: center; flex-wrap: wrap; margin-top: 46px; }
+  .hero-stats div b { display: block; font-size: 1.5rem; color: var(--amethyst-3); font-variant-numeric: tabular-nums; }
+  .hero-stats div span { color: var(--muted); font-size: 0.85rem; }
+
+  /* ---------- Sections ---------- */
+  section { padding: 70px 0; }
+  h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 900; text-align: center; letter-spacing: -0.5px; }
+  h2 .accent { color: var(--amethyst-3); }
+  .section-sub { text-align: center; color: var(--muted); max-width: 560px; margin: 12px auto 44px; }
+
+  /* ---------- Reveal on scroll (staggered by inline delay) ---------- */
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.8s ease, transform 0.8s ease; }
+  .reveal.big { transform: translateY(30px); }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+  .reveal video, .reveal img { transform: scale(0.96); transition: transform 0.8s ease; }
+  .reveal.in video, .reveal.in img { transform: scale(1); } /* unused, keeping pattern */
+
+  /* ---------- Features (card-glow) ---------- */
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; }
+  .feature {
+    position: relative; overflow: hidden;
+    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
+    padding: 26px 22px; transition: transform 0.3s ease, border 0.3s ease;
+  }
+  .feature:hover { transform: translateY(-5px); border-color: var(--amethyst-2); }
+  .feature .orb {
+    position: absolute; top: -60px; right: -60px; width: 160px; height: 160px;
+    border-radius: 50%; filter: blur(60px); opacity: 0;
+    background: linear-gradient(135deg, #a855f7, #6d28d9);
+    transition: opacity 0.5s ease;
+  }
+  .feature:hover .orb { opacity: 1; }
+  .feature .icon {
+    width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; font-size: 1.3rem;
+    background: linear-gradient(180deg, rgba(139,92,246,.5), rgba(139,92,246,.15));
+    border: 1px solid var(--border); margin-bottom: 14px; position: relative;
+  }
+  .feature h3 { font-size: 1.05rem; margin-bottom: 6px; }
+  .feature p { color: var(--muted); font-size: 0.92rem; }
+
+  /* ---------- How it works (timeline) ---------- */
+  .steps-wrap { position: relative; }
+  .step-line { position: absolute; top: 37px; left: 12%; right: 12%; height: 2px; background: rgba(255,255,255,.07); }
+  .step-line-fill {
+    position: absolute; inset: 0;
+    background: linear-gradient(90deg, var(--amethyst-1), var(--amethyst-3));
+    transform: scaleX(0); transform-origin: left; transition: transform 1.2s ease;
+    box-shadow: 0 0 12px var(--glow);
+  }
+  .step-line-fill.grow { transform: scaleX(1); }
+  @media (max-width: 900px) { .step-line { display: none; } }
+  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; counter-reset: step; }
+  .step {
+    position: relative; background: var(--card); border: 1px solid var(--border);
+    border-radius: 16px; padding: 24px; text-align: center;
+    transition: transform 0.3s ease, border 0.3s ease;
+  }
+  .step:hover { transform: translateY(-5px); border-color: var(--amethyst-2); }
+  .step::before {
+    counter-increment: step; content: counter(step);
+    width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; margin: 0 auto 14px;
+    background: linear-gradient(135deg, var(--amethyst-1), var(--amethyst-2));
+    font-weight: 900; color: #fff; box-shadow: 0 0 18px var(--glow);
+  }
+  .step h3 { margin-bottom: 6px; }
+  .step p { color: var(--muted); font-size: 0.92rem; }
+
+  /* ---------- Pricing ---------- */
+  .pricing { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; max-width: 720px; margin: 0 auto; }
+  .plan {
+    position: relative; overflow: hidden;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 20px;
+    padding: 34px 28px; text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .plan:hover { transform: translateY(-5px); }
+  .plan.lifetime { border-color: var(--amethyst-2); box-shadow: 0 0 34px var(--glow); }
+  .plan.lifetime:hover { box-shadow: 0 12px 46px var(--glow); }
+  .popular {
+    position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+    background: linear-gradient(135deg, var(--amethyst-1), var(--amethyst-3));
+    color: #fff; font-size: 0.75rem; font-weight: 800; padding: 5px 16px; border-radius: 999px;
+    letter-spacing: 0.5px; white-space: nowrap; overflow: hidden;
+  }
+  .popular::after {
+    content: ""; position: absolute; top: 0; bottom: 0; width: 50%; left: -60%;
+    background: linear-gradient(100deg, transparent, rgba(255,255,255,.5), transparent);
+    transform: skewX(-20deg); animation: shimmer 2.6s ease infinite;
+  }
+  @keyframes shimmer { 0% { left: -60%; } 55% { left: 110%; } 100% { left: 110%; } }
+  .plan h3 { font-size: 1.15rem; }
+  .plan .price { font-size: 2.6rem; font-weight: 900; margin: 14px 0 4px; color: var(--amethyst-3); }
+  .plan .per { color: var(--muted); font-size: 0.9rem; margin-bottom: 20px; }
+  .plan ul { list-style: none; text-align: left; margin: 0 0 24px; }
+  .plan ul li { padding: 7px 0 7px 26px; position: relative; color: var(--muted); font-size: 0.95rem; }
+  .plan ul li::before { content: "✔"; position: absolute; left: 0; color: var(--amethyst-2); font-weight: 800; }
+  .plan .btn { display: block; text-align: center; }
+
+  /* ---------- Reviews ---------- */
+  .reviews { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px; }
+  .review {
+    position: relative; overflow: hidden;
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 22px;
+    transition: transform 0.3s ease, border 0.3s ease;
+  }
+  .review:hover { transform: translateY(-5px); border-color: var(--amethyst-2); }
+  .review .stars { color: #d9b2ff; letter-spacing: 2px; margin-bottom: 10px; }
+  .review p { color: var(--muted); font-size: 0.95rem; margin-bottom: 14px; }
+  .review .who { display: flex; align-items: center; gap: 10px; }
+  .avatar {
+    width: 34px; height: 34px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--amethyst-1), var(--amethyst-3));
+    display: grid; place-items: center; font-weight: 900; font-size: 0.85rem; color: #0b0714;
+  }
+  .review .who b { font-size: 0.9rem; }
+  .review .who span { font-size: 0.8rem; color: var(--muted); }
+
+  /* ---------- FAQ ---------- */
+  .faq { max-width: 720px; margin: 0 auto; display: grid; gap: 12px; }
+  details { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px 22px; transition: border 0.3s ease; }
+  details[open] { border-color: var(--amethyst-2); }
+  summary { cursor: pointer; font-weight: 700; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+  summary::after { content: "＋"; color: var(--amethyst-2); font-weight: 900; transition: transform 0.3s ease; display: inline-block; }
+  details[open] summary::after { transform: rotate(45deg); }
+  details p { color: var(--muted); font-size: 0.95rem; margin-top: 12px; }
+
+  /* ---------- CTA ---------- */
+  .final-cta { text-align: center; padding: 30px 0 20px; }
+  .final-cta .btn { font-size: 1.1rem; padding: 16px 38px; }
+
+  /* ---------- Footer ---------- */
+  footer { border-top: 1px solid var(--border); padding: 34px 0; margin-top: 30px; }
+  footer .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; }
+  footer p { color: var(--muted); font-size: 0.85rem; }
+  footer .links { display: flex; gap: 18px; }
+  footer .links a { color: var(--muted); font-size: 0.85rem; }
+  footer .links a:hover { color: var(--amethyst-3); }
+
+  .glow-line { height: 1px; background: linear-gradient(90deg, transparent, var(--amethyst-2), transparent); border: none; opacity: 0.5; }
+</style>
+</head>
+<body>
+
+<!-- Intro overlay -->
+<div class="intro" id="intro">
+  <div>
+    <img class="logo-big" src="assets/shardlogo.png" alt="ShardClient">
+    <div class="wordmark">Shard<span style="color:var(--amethyst-3)">Client</span></div>
+    <div class="bar"></div>
+  </div>
+</div>
+
+<!-- Light beams -->
+<div class="beam-layer">
+  <div class="beam left"></div>
+  <div class="beam mid"></div>
+  <div class="beam right"></div>
+  <div class="beam mid-r"></div>
+</div>
+
+<!-- Nav -->
+<nav>
+  <div class="container">
+    <a class="brand" href="#"><img class="logo-sm" src="assets/shardlogo.png" alt="ShardClient"> Shard<span style="color:var(--amethyst-3)">Client</span></a>
+    <ul>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a class="btn btn-primary" style="padding:10px 20px;font-size:.9rem" href="https://discord.gg/shardclient" target="_blank" rel="noopener">Get ShardClient</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header>
+  <div class="container" style="position:relative">
+    <span class="badge">◆ Undetected · Instant delivery · 24/7 support</span>
+    <h1>
+      <span class="hw">The</span> <span class="hw">most</span> <span class="hw accent">powerful</span><br>
+      <span class="hw">Minecraft</span> <span class="hw">client.</span>
+    </h1>
+    <p class="sub">Win more fights without it ever looking like cheating. Hundreds of modules, a beautiful amethyst GUI, and updates shipped the moment the game changes.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="https://discord.gg/shardclient" target="_blank" rel="noopener">Get ShardClient</a>
+      <a class="btn btn-ghost" href="#how">See how it works</a>
+    </div>
+    <div class="hero-stats">
+      <div><b data-count="100">0</b><span>+ Modules included</span></div>
+      <div><b data-count="2000">0</b><span>+ Players</span></div>
+      <div><b>24/7</b><span>Discord support</span></div>
+      <div><b>4.9/5</b><span>Community rating</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- Features -->
+<section id="features">
+  <div class="container">
+    <div class="reveal big"><h2>Why choose <span class="accent">ShardClient?</span></h2></div>
+    <div class="reveal big"><p class="section-sub">Every plan includes every module. No feature gates, no upsells — one great client.</p></div>
+    <div class="features">
+      <div class="feature reveal" style="transition-delay:.05s"><span class="orb"></span><div class="icon">⚡</div><h3>High Performance</h3><p>Built light so it stays out of your game's way. No FPS drops.</p></div>
+      <div class="feature reveal" style="transition-delay:.1s"><span class="orb"></span><div class="icon">🛡</div><h3>Completely Undetectable</h3><p>The bypass hundreds of players bet their accounts on.</p></div>
+      <div class="feature reveal" style="transition-delay:.15s"><span class="orb"></span><div class="icon">🎮</div><h3>Custom GUI</h3><p>Every module and setting in one clean, amethyst-styled interface.</p></div>
+      <div class="feature reveal" style="transition-delay:.05s"><span class="orb"></span><div class="icon">🔄</div><h3>Regular Updates</h3><p>When Minecraft changes, we ship a fix. Lifetime gets it free.</p></div>
+      <div class="feature reveal" style="transition-delay:.1s"><span class="orb"></span><div class="icon">💬</div><h3>24/7 Support</h3><p>Ask on Discord and a real person answers, any time.</p></div>
+      <div class="feature reveal" style="transition-delay:.15s"><span class="orb"></span><div class="icon">⚙️</div><h3>Configure Everything</h3><p>Go near-legit on strict servers or full send — your choice.</p></div>
+    </div>
+  </div>
+</section>
+
+<hr class="glow-line">
+
+<!-- How it works -->
+<section id="how">
+  <div class="container">
+    <div class="reveal big"><h2>Buy, download, <span class="accent">play.</span></h2></div>
+    <div class="reveal big"><p class="section-sub">A download and a couple of clicks. That's it.</p></div>
+    <div class="steps-wrap" style="margin-top:44px">
+      <div class="step-line"><div class="step-line-fill"></div></div>
+      <div class="steps">
+        <div class="step reveal"><h3>Purchase a plan</h3><p>Instant access. Paid and delivered in under a minute.</p></div>
+        <div class="step reveal" style="transition-delay:.15s"><h3>Download the client</h3><p>Grab the latest version from your dashboard.</p></div>
+        <div class="step reveal" style="transition-delay:.3s"><h3>Drop it in &amp; launch</h3><p>Mods folder → launch the game → press Right Shift. Done.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="glow-line">
+
+<!-- Pricing -->
+<section id="pricing">
+  <div class="container">
+    <div class="reveal big"><h2>Pick a <span class="accent">plan.</span></h2></div>
+    <div class="reveal big"><p class="section-sub">Same features, same support, same updates. Pay monthly or once and own it forever.</p></div>
+    <div class="pricing" style="margin-top:44px">
+      <div class="plan reveal">
+        <h3>Monthly</h3>
+        <div class="price">$7.50</div>
+        <div class="per">per month · no auto-renewal</div>
+        <ul>
+          <li>All 100+ modules</li>
+          <li>Custom amethyst GUI</li>
+          <li>Regular updates</li>
+          <li>Windows 10 / 11</li>
+          <li>24/7 Discord support</li>
+        </ul>
+        <a class="btn btn-ghost" href="https://discord.gg/shardclient" target="_blank" rel="noopener">Buy Monthly</a>
+      </div>
+      <div class="plan lifetime reveal" style="transition-delay:.15s">
+        <span class="popular">Most Popular</span>
+        <h3>Lifetime</h3>
+        <div class="price">$15</div>
+        <div class="per">one-time · forever · instant delivery</div>
+        <ul>
+          <li>All 100+ modules</li>
+          <li>Custom amethyst GUI</li>
+          <li>Lifetime updates</li>
+          <li>Windows 10 / 11</li>
+          <li>24/7 Discord support</li>
+          <li>Never pay again</li>
+        </ul>
+        <a class="btn btn-primary" href="https://discord.gg/shardclient" target="_blank" rel="noopener">Buy Lifetime — $15</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="glow-line">
+
+<!-- Reviews -->
+<section id="reviews">
+  <div class="container">
+    <div class="reveal big"><h2>What players <span class="accent">say.</span></h2></div>
+    <div class="reveal big"><p class="section-sub">Real reviews from the community. Thousands more on our Discord.</p></div>
+    <div class="reviews" style="margin-top:44px">
+      <div class="review reveal"><div class="stars">★★★★★</div><p>"Went from losing every fight to top PvP in a weekend. The modules are insane and it looks completely normal."</p><div class="who"><span class="avatar">K</span><div><b>@kryptic</b><br><span>Crystal PvP</span></div></div></div>
+      <div class="review reveal" style="transition-delay:.15s"><div class="stars">★★★★★</div><p>"Easiest money I've ever spent. Lifetime updates for $15 is a no-brainer — worth it forever."</p><div class="who"><span class="avatar">N</span><div><b>@nightWraith</b><br><span>Sword PvP</span></div></div></div>
+      <div class="review reveal" style="transition-delay:.3s"><div class="stars">★★★★★</div><p>"Support answered in minutes and the GUI is gorgeous. Amethyst theme goes hard. 10/10."</p><div class="who"><span class="avatar">S</span><div><b>@shadowz</b><br><span>Anarchy</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<hr class="glow-line">
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="reveal big"><h2>Questions? <span class="accent">Answered.</span></h2></div>
+    <div class="reveal big"><p class="section-sub">Everything you probably want to know before buying.</p></div>
+    <div class="faq" style="margin-top:44px">
+      <details class="reveal" open>
+        <summary>Which Minecraft version does ShardClient support?</summary>
+        <p>ShardClient targets the latest Minecraft versions on Fabric (1.21+). We update quickly whenever a new version drops.</p>
+      </details>
+      <details class="reveal">
+        <summary>Will I get banned?</summary>
+        <p>Any client carries inherent risk. ShardClient is built with humanised behaviour and undetectable combat modules, but you're responsible for how and where you use it. Use it correctly and you will not get banned.</p>
+      </details>
+      <details class="reveal">
+        <summary>How fast do I get access?</summary>
+        <p>The second your payment clears you get your license key and download link. No waiting, no manual delivery.</p>
+      </details>
+      <details class="reveal">
+        <summary>What if I change my PC?</summary>
+        <p>Your license is bound to your HWID. You can request a reset from your dashboard or on Discord — Lifetime users get generous, transferable resets.</p>
+      </details>
+      <details class="reveal">
+        <summary>Do you offer refunds?</summary>
+        <p>Because all sales are digital goods delivered instantly, we don't offer refunds. Contact us on Discord if there's a technical issue and we'll make it right.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section class="final-cta">
+  <div class="container">
+    <div class="reveal big"><h2>Lifetime access for <span class="accent">less than a pizza.</span></h2></div>
+    <div class="reveal big"><p class="section-sub" style="margin-bottom:28px">What are you waiting for?</p></div>
+    <div class="reveal">
+      <a class="btn btn-primary" href="https://discord.gg/shardclient" target="_blank" rel="noopener">Get ShardClient — $15 Lifetime</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="brand"><img class="logo-sm" src="assets/shardlogo.png" alt="ShardClient"> Shard<span style="color:var(--amethyst-3)">Client</span></div>
+    <p>© 2026 ShardClient. Not affiliated with Mojang AB.</p>
+    <div class="links">
+      <a href="https://discord.gg/shardclient" target="_blank" rel="noopener">Discord</a>
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // intro animation, then slide nav in + reveal hero after it fades
+  window.addEventListener("load", () => {
+    document.body.classList.add("intro-locked");
+    const intro = document.getElementById("intro");
+    requestAnimationFrame(() => intro.classList.add("play"));
+    setTimeout(() => intro.classList.add("out"), 1800);
+    setTimeout(() => {
+      document.body.classList.remove("intro-locked");
+      document.querySelector("nav").classList.add("live");
+      document.querySelector(".beam-layer").classList.add("show");
+      document.body.classList.add("loaded");
+      document.querySelectorAll(".hw").forEach((w, i) => {
+        w.style.transitionDelay = (0.09 * i + 0.15) + "s";
+        w.classList.add("show");
+      });
+    }, 2000);
+  });
+
+  // scroll reveal
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.12, rootMargin: "0px 0px -10% 0px" });
+  document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+  // grow the how-it-works line
+  const stepsWrap = document.querySelector(".steps-wrap");
+  if (stepsWrap) {
+    const lineObserver = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) { document.querySelector(".step-line-fill").classList.add("grow"); lineObserver.disconnect(); }
+      });
+    }, { threshold: 0.3 });
+    lineObserver.observe(stepsWrap);
+  }
+
+  // count-up stats
+  function animateCount(el) {
+    const end = parseInt(el.dataset.count, 10);
+    const duration = 1400;
+    const start = performance.now();
+    function tick(now) {
+      const p = Math.min((now - start) / duration, 1);
+      el.textContent = Math.floor(end * (1 - Math.pow(1 - p, 3))).toLocaleString();
+      if (p < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+  const countObserver = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) { animateCount(e.target); countObserver.unobserve(e.target); }
+    });
+  }, { threshold: 0.5 });
+  document.querySelectorAll("[data-count]").forEach((el) => countObserver.observe(el));
+</script>
+
+</body>
+</html>
