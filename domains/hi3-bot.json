@@ -2,7 +2,7 @@
   "owner": {
     "username": "sonicfilmscom-droid"
   },
-  "record": {
-    "CNAME": "twój-bot.onrender.com"
+  "records": {
+    "CNAME": "hi3-bot.onrender.com"
   }
 }
