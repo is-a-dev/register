@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "S4IL21",
-    "email": "s4il.is.a.dev@gmail.com"
+    "username": "anurag647",
+    "email": "YOUR_ACTUAL_EMAIL"
   },
   "records": {
-    "CNAME": "s4il21.github.io"
+    "A": [
+      "216.24.57.1"
+    ]
   }
 }
