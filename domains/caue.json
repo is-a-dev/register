@@ -4,7 +4,9 @@
     "email": "cauepinhal@gmail.com"
   },
   "records": {
-    "CNAME": "alientech.app.br",
+    "A": [
+      "23.95.14.217"
+    ],
     "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
