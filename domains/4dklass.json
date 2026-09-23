@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "igainullin",
+    "email": "igainullin@yandex.ru"
+  },
+  "records": {
+    "A": [
+      "88.218.121.220"
+    ],
+    "CNAME": {
+      "www": "4dklass.is-a.dev"
+    }
+  }
+}
