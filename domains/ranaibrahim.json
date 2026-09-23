@@ -4,6 +4,8 @@
     "email": "dryed999@gmail.com"
   },
   "records": {
-    "CNAME": "statuesque-sable-07c546.netlify.app"
-  }
+    "CNAME": "statuesque-sable-07c546.netlify.app",
+    "TXT": "zoho-verification=zb40173275.zmverify.zoho.com"
+  },
+  "proxied": true
 }
