@@ -5,6 +5,8 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=sohail.is-a.dev,7e2d50716e36a753bf7f"
+    "_vercel": {
+      "TXT": "vc-domain-verify=sohail.is-a.dev,7e2d50716e36a753bf7f"
+    }
   }
 }
