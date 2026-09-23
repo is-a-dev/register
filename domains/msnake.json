@@ -4,7 +4,7 @@
     "email": "mdtalha1997@gmail.com"
   },
   "records": {
-    "CNAME": "msnake-server.mdtalha1997.workers.dev"
+    "A": ["192.0.2.1"]
   },
   "proxied": true
 }
