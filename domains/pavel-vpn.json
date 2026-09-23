@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "pavvaisman-cloud"
+  },
+  "record": {
+    "NS": [
+      "conrad.ns.cloudflare.com",
+      "jillian.ns.cloudflare.com"
+    ]
+  }
+}
