@@ -11,7 +11,10 @@
       "mx1.improvmx.com",
       "mx2.improvmx.com"
     ],
-    "TXT": ["v=spf1 include:improvmx.com ~all"]
+    "TXT": [
+      "v=spf1 include:improvmx.com ~all",
+      "vc-domain-verify=www.fauzan.is-a.dev,303318e45674ce1e82c4"
+    ]
   },
   "proxied": true
 }
