@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "buyer85",
+    "email": "buyer85@users.noreply.github.com"
+  },
+  "domain": "integritas360",
+  "records": {
+    "CNAME": "buyer85.github.io"
+  }
+}
