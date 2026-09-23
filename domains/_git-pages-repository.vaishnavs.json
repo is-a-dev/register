@@ -4,6 +4,9 @@
     "email": "vaishnav.sabari.girish@gmail.com"
   },
   "records": {
-    "TXT": "https://codeberg.org/Vaishnav-Sabari-Girish/pages.git"
+    "TXT": [
+      "https://codeberg.org/Vaishnav-Sabari-Girish/pages.git",
+      "openpgp4fpr:C882A020C01653634082BB7CF6E9E3F1DB0AFFCB"
+    ]
   }
 }
