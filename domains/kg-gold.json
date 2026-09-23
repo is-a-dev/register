@@ -1,0 +1,15 @@
+{
+  "description": "My personal Cloudflare Tunnel",
+  "domain": "is-a.dev",
+  "subdomain": "kg-gold",
+  "owner": {
+    "username": "songshangwen",
+    "email": "2302465746@qq.com"
+  },
+  "record": {
+    "NS": [
+      "lola.ns.cloudflare.com",
+      "noah.ns.cloudflare.com"
+    ]
+  }
+}
