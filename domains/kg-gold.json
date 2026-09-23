@@ -1,6 +1,5 @@
 {
   "description": "My personal Cloudflare Tunnel",
-  "domain": "is-a.dev",
   "subdomain": "kg-gold",
   "owner": {
     "username": "songshangwen",
