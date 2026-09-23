@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "AdityaNair-jpg",
-        "email": "adityanair807@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "AdityaNair-jpg",
+    "email": "adityanair807@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
