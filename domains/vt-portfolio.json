@@ -5,6 +5,24 @@
     "twitter": "VT_zero1"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": ["216.198.79.1"],
+    "MX": [
+      {
+        "target": "mx.zohocloud.ca",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zohocloud.ca",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zohocloud.ca",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+      "zoho-verification=zb39742406.zmverify.zohocloud.ca",
+      "v=spf1 include:zohocloud.ca ~all"
+    ]
   }
 }

@@ -1,4 +1,7 @@
 {
+  "name": "fred-blaise",
+  "description": "Portfolio website",
+  "repo": "https://github.com/westindies86-DeV/fred-blaise-portfolio",
   "owner": {
     "username": "westindies86-DeV",
     "email": "westindies86@gmail.com"
@@ -14,8 +17,7 @@
     ],
     "TXT": [
       "zoho-verification=zb99790609.zmverify.zoho.com",
-      "v=spf1 include:zoho.com ~all"
+      "v=spf1 include:zohomail.com ~all"
     ]
-  },
-  "proxied": false
+  }
 }
