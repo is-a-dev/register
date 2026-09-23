@@ -4,6 +4,7 @@
         "email": "developer.work.david@gmail.com"
     },
     "records": {
-        "CNAME": "davidk4leido5.github.io"
+        "CNAME": "davidk4leido5.github.io",
+        "TXT": "google-site-verification=aEDKwMOObj1F0v-5Vos9k2M1KGq_s94lVMTZgDjadM0"
     }
 }
