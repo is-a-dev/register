@@ -1,0 +1,12 @@
+{
+  "description": "Darshan Dhameliya Portfolio",
+  "repo": "https://github.com/darshan-dhameliya/my-portfolio-v2-main",
+  "owner": {
+    "username": "darshan-dhameliya",
+    "email": "iamdhameliya@gmail.com" 
+  },
+  "record": {
+    "CNAME": "darshan-dhameliya.web.app",
+    "TXT": "hosting-site=darshan-dhameliya"
+  }
+}
