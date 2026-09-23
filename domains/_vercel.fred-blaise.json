@@ -1,0 +1,15 @@
+{
+  "name": "_vercel.fred-blaise",
+  "description": "Vercel verification for root + www - ownership proof",
+  "repo": "https://github.com/westindies86-DeV/fred-blaise-portfolio",
+  "owner": {
+    "username": "westindies86-DeV",
+    "email": "westindies86@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=fred-blaise.is-a.dev,692ceb406df9f99db2f",
+      "vc-domain-verify=www.fred-blaise.is-a.dev,1f1286b201ab6d5cc9bc"
+    ]
+  }
+}

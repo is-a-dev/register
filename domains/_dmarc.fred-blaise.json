@@ -1,0 +1,13 @@
+{
+  "name": "_dmarc.fred-blaise",
+  "description": "DMARC for fred-blaise - prevents spoofing",
+  "owner": {
+    "username": "westindies86-DeV",
+    "email": "westindies86@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=quarantine; rua=mailto:westindies86@gmail.com"
+    ]
+  }
+}
