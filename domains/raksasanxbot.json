@@ -4,6 +4,9 @@
         "email": "athanatha77@gmail.com"
     },
     "records": {
-        "CNAME": "patient-morning-aca3.athanatha77.workers.dev"
-    }
+       "A": [
+          "172.67.199.186",
+          "104.21.57.190"
+    ]
+  }
 }
