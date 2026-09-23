@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "buyer85",
-    "email": "buyer85@users.noreply.github.com"
+    "email": "info.buyer85@gmail.com"
   },
-  "record": {
-    "CNAME": "buyer85.github.io"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }
