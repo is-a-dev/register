@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "unkownperson-99"
+    "username": "unkownperson-99",
+    "email": "mrudilpothuri@colegiosil.com"
   },
-  "records": {
+  "record": {
     "CNAME": "unkownperson-99.github.io"
   }
 }
