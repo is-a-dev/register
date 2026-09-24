@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "AlphaBetha01"
+  },
+  "records": {
+    "A": ["http://178.170.121.77:8080/login"]
+  }
+}
