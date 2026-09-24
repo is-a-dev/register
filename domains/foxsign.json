@@ -12,7 +12,9 @@
         "/qiita": "https://qiita.com/foxsign",
         "/note": "https://note.com/foxsign",
         "/about/tech": "https://github.com/fox-sign/fox-sign/blob/main/README.md",
-        "/about": "https://note.com/foxsign/n/n9274a7786a4a"
+        "/about": "https://note.com/foxsign/n/n9274a7786a4a",
+        "/welcome": "https://welcome.to/foxsign",
+        "/contact": "https://tayori.com/form/ecbb5fa62a8928c042c0212ffa28a91b104dce62/"
       },
       "redirect_paths": true
     }
