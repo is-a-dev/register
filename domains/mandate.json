@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "Ivan825",
+    "email": "mandateappnotify@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "TXT": ["v=spf1 include:amazonses.com ~all"]
+  }
+}
