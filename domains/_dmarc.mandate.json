@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Ivan825",
+    "email": "mandateappnotify@gmail.com"
+  },
+  "records": {
+    "TXT": ["v=DMARC1; p=none; rua=mailto:mandateappnotify@gmail.com"]
+  }
+}
