@@ -1,0 +1,12 @@
+{
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "venkatmidhunmareedu",
+    "email": "midhunmareedu@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=midhunmareedu.is-a.dev,53897b74ebb47750c496"
+    ]
+  }
+}
