@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "TRigzin"
-    },
-    "record": {
-        "CNAME": "my-portfolio-psi-beryl-77.vercel.app"
-    }
+  "owner": {
+    "username": "TRigzin"
+  },
+  "records": {
+    "CNAME": "my-portfolio-psi-beryl-77.vercel.app"
+  }
 }
