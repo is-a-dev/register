@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Dryed99",
+    "email": "dryed999@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWEMwEJGhG9+JXqJ4lSY0wpxj1r03jUyZ+ncA73JLcob8vqucnp+86VJ6RSgCHlu+XPZAFX+t6esEJdakdUFyUh0yXequRrs3LQDQLv3nZvYhKdXQVpGLWAKcc5Pg2fy1ZTXytYYitYZ58nabMW9wWVXTFxVty519PiOFJdtmQcwIDAQAB"
+  }
+}
