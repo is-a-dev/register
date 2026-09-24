@@ -7,6 +7,12 @@
     "A": [
       "216.198.79.1"
     ],
-    "TXT": "google-site-verification=etZ2D3YnNrKFvEiw2owUijZpuzyg0WKp7B4abhOnfkw"
+    "TXT": "google-site-verification=etZ2D3YnNrKFvEiw2owUijZpuzyg0WKp7B4abhOnfkw",
+    "MX": [
+      {
+        "target": "inbound-smtp.ap-northeast-1.amazonaws.com",
+        "priority": 10
+      }
+    ]
   }
 }
