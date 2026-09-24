@@ -1,10 +1,11 @@
 {
   "owner": {
-    "username": "mustafaabdullahai-dev"
+    "username": "mustafaabdullahai-dev",
+    "email": "mustafaabdullah22002@gmail.com"
   },
-  "description": "PostCraft — AI LinkedIn content agent",
+  "description": "PostCraft — AI LinkedIn content agent (open-source dev portfolio project)",
   "repo": "https://github.com/mustafaabdullahai-dev/postcraft-linkedin",
   "records": {
-    "CNAME": "analysts-wallace-array-him.trycloudflare.com"
+    "CNAME": "lingo-suburb-living.ngrok-free.dev"
   }
 }
