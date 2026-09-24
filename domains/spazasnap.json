@@ -3,7 +3,9 @@
     "username": "innocenttatendawork-dot",
     "email": "innocent.tatenda.work@gmail.com"
   },
+  "description": "SpazaSnap AI - Township Retail Intelligence portfolio",
   "record": {
-    "URL": "https://sites.google.com/view/spazasnap-ai-township-retail-i"
-  }
+    "CNAME": "innocenttatendawork-dot.github.io"
+  },
+  "subdomain": "spazasnap"
 }
