@@ -1,1 +1,12 @@
-
+{
+  "owner": {
+    "username": "facef2024",
+    "email": "facefentriprise@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "elle.ns.cloudflare.com",
+      "west.ns.cloudflare.com"
+    ]
+  }
+}
