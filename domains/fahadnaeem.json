@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "FahadNaeem424",
-        "email": "fahadnaeem424@gmail.com"
-    },
-    "records": {
-        "A": ["79.72.72.15"]
-    }
+  "owner": {
+    "username": "FahadNaeem424",
+    "email": "fahadnaeem424@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "cora.ns.cloudflare.com",
+      "memphis.ns.cloudflare.com"
+    ]
+  }
 }

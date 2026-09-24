@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ymp-engr-dept",
-        "email": "ymp.engr.dept@gmail.com"
-    },
-    "records": {
-        "CNAME": "engr-dept-ymp.pages.dev"
-    }
+  "owner": {
+    "username": "ymp-engr-dept",
+    "email": "ymp.engr.dept@gmail.com"
+  },
+  "records": {
+    "CNAME": "engr-dept-ymp.pages.dev"
+  }
 }

@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "SirOMGitsYOU"
-    },
-    "records": {
-        "A": ["188.40.72.254"]
-    }
+  "owner": {
+    "username": "SirOMGitsYOU"
+  },
+  "records": {
+    "A": [
+      "188.40.72.254"
+    ]
+  }
 }

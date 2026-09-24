@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "dbohry"
-    },
-    "records": {
-        "CNAME": "dkb.ddns.net"
-    }
+  "owner": {
+    "username": "dbohry"
+  },
+  "records": {
+    "CNAME": "dkb.ddns.net"
+  }
 }
