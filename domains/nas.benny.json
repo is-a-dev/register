@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "bennyliaw"
-    },
-    "records": {
-        "A": [
-            "84.46.240.74"
-        ]
-    }
+  "owner": {
+    "username": "bennyliaw"
+  },
+  "records": {
+    "A": [
+      "84.46.240.74"
+    ]
+  }
 }

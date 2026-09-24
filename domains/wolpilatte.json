@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "wolpilatte",
-        "email": "kapaltopi@gmail.com"
-    },
-    "records": {
-        "CNAME": "wolpilatte.github.io"
-    }
+  "owner": {
+    "username": "wolpilatte",
+    "email": "kapaltopi@gmail.com"
+  },
+  "records": {
+    "CNAME": "wolpilatte.github.io"
+  }
 }

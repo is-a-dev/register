@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "gaganjainse"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "gaganjainse"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

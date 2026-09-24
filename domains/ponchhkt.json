@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "PonchHKT",
-        "email": "p.chanaloet@gmail.com"
-    },
-    "records": {
-        "CNAME": "portfolio-2ftoatc9t-pchanaloetgmailcoms-projects.vercel.app"
-    }
+  "owner": {
+    "username": "PonchHKT",
+    "email": "p.chanaloet@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-2ftoatc9t-pchanaloetgmailcoms-projects.vercel.app"
+  }
 }

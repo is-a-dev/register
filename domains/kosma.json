@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "KosmicznyNomad"
-    },
-    "records": {
-        "CNAME": "custom-domains.chatgpt.site"
-    }
+  "owner": {
+    "username": "KosmicznyNomad"
+  },
+  "records": {
+    "CNAME": "custom-domains.chatgpt.site"
+  }
 }

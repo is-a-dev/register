@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "snylum"
-    },
-    "records": {
-        "CNAME": "snylum.github.io"
-    }
+  "owner": {
+    "username": "snylum"
+  },
+  "records": {
+    "CNAME": "snylum.github.io"
+  }
 }

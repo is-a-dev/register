@@ -1,9 +1,19 @@
 {
-    "owner": {
-        "username": "crpinhal",
-        "email": "cauepinhal@gmail.com"
-    },
-    "records": {
-        "CNAME": "dev.caue.xyz"
-    }
+  "owner": {
+    "username": "crpinhal",
+    "email": "cauepinhal@gmail.com"
+  },
+  "records": {
+    "A": [
+      "23.95.14.217"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  },
+  "proxied": true
 }

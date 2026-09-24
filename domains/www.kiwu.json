@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "staridentity",
-        "discord": "whatifyousaidyeswouldgo"
-    },
-    "records": {
-        "CNAME": "kiwuwebshit.netlify.app"
-    }
+  "owner": {
+    "username": "staridentity",
+    "discord": "whatifyousaidyeswouldgo"
+  },
+  "records": {
+    "CNAME": "kiwuwebshit.netlify.app"
+  }
 }

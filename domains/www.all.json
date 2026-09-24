@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "justdevw",
-        "email": "justdeveloper@juststudio.is-a.dev"
-    },
-    "records": {
-        "URL": "https://all.is-a.dev/"
-    }
+  "owner": {
+    "username": "justdevw"
+  },
+  "records": {
+    "URL": "https://all.is-a.dev/"
+  }
 }
