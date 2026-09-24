@@ -1,0 +1,12 @@
+{
+  "description": "Fallen Store",
+  "domain": "is-a.dev",
+  "subdomain": "fallen-store-dz",
+  "owner": {
+    "username": "mehdif02085",
+    "email": "mehdif02085@gmail.com"
+  },
+  "record": {
+    "CNAME": "fallen-store-dz.lovable.app"
+  }
+}
