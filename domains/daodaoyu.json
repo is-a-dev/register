@@ -1,0 +1,21 @@
+{
+  "owner": {
+    "username": "daodaoyu123",
+    "email": "189113974+daodaoyu123@users.noreply.github.com"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
+}
