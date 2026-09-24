@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "duya3895"
+    "username": "duya3895",
+    "email": "你的邮箱@example.com"
   },
   "records": {
     "CNAME": "xg-2.frp.one"
