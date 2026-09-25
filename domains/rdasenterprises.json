@@ -1,10 +1,11 @@
 {
   "owner": {
     "username": "radhekrishnatech251125-oss",
-    "email": "radhekrishnatech251125@gmail.com"
+    "email": "rdasenterprises2004@gmail.com"
   },
+  "description": "RDAS Enterprises - Software and IT services",
+  "repo": "https://github.com/radhekrishnatech251125-oss/register",
   "records": {
-    "A": ["76.76.21.21"],
     "CNAME": "cname.vercel-dns.com"
   }
 }
