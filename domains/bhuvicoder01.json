@@ -1,0 +1,16 @@
+{
+  "domain": "bhuvicoder01.is-a.dev",
+  "owner": {
+    "github": "bhuvicoder01"
+  },
+  "records": {
+    "jarvis": {
+      "type": "CNAME",
+      "value": "bhuvicoder01.github.io"
+    },
+    "api": {
+      "type": "CNAME",
+      "value": "bhuvicoder01.github.io"
+    }
+  }
+}
