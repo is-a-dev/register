@@ -1,8 +1,9 @@
-﻿{
-    "records":  {
-                    "CNAME":  "Zayoooh1.github.io"
-                },
-    "owner":  {
-                  "username":  "Zayoooh1"
-              }
+{
+  "records": {
+    "CNAME": "Zayoooh1.github.io"
+  },
+  "owner": {
+    "username": "Zayoooh1",
+    "discord": "1471283494469636223"
+  }
 }
