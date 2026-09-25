@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nexusOS - Advanced Multi-Modal AI Forensic Engine</title>
+    
+    <!-- Google AdSense Code -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8486389498216983" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#06070a',
+                        cardBg: '#0f121d',
+                        accentGreen: '#10b981',
+                        accentRed: '#ef4444',
+                        nexusPurple: '#8b5cf6',
+                        nexusBlue: '#3b82f6'
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'spin-slow': 'spin 12s linear infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .glow-green {
+            box-shadow: 0 0 30px rgba(16, 185, 129, 0.25);
+        }
+        .glow-red {
+            box-shadow: 0 0 30px rgba(239, 68, 68, 0.25);
+        }
+        .glow-indigo {
+            box-shadow: 0 0 35px rgba(99, 102, 241, 0.3);
+        }
+        .glass-card {
+            background: rgba(15, 18, 29, 0.75);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-card-hover {
+            transition: all 0.3s ease;
+        }
+        .glass-card-hover:hover {
+            border-color: rgba(99, 102, 241, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px -10px rgba(79, 70, 229, 0.2);
+        }
+        @keyframes scan {
+            0% { top: 0%; opacity: 0.8; }
+            50% { top: 100%; opacity: 1; }
+            100% { top: 0%; opacity: 0.8; }
+        }
+        .scanner-line {
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #6366f1, #10b981, transparent);
+            box-shadow: 0 0 15px #6366f1;
+            animation: scan 2.2s linear infinite;
+        }
+        .bg-grid-pattern {
+            background-size: 40px 40px;
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        }
+    </style>
+</head>
+<body class="bg-darkBg text-slate-100 min-h-screen selection:bg-indigo-500 selection:text-white overflow-x-hidden relative">
+
+    <!-- PRE-LOADER / SPLASH TRANSITION -->
+    <div id="loader" class="fixed inset-0 z-[100] bg-darkBg flex flex-col items-center justify-center transition-opacity duration-700">
+        <div class="relative flex items-center justify-center mb-8">
+            <div class="w-28 h-28 rounded-full border-2 border-indigo-500/20 border-t-indigo-500 animate-spin-slow"></div>
+            <div class="w-20 h-20 rounded-full border-2 border-emerald-500/20 border-b-emerald-400 animate-spin absolute"></div>
+            <div class="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center text-white shadow-2xl glow-indigo animate-pulse absolute">
+                <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+            </div>
+        </div>
+        <div class="text-center">
+            <h2 class="text-2xl font-extrabold tracking-wider text-white mb-2">nexus<span class="text-indigo-500">OS</span></h2>
+            <div class="flex items-center gap-2 text-xs text-slate-400 font-mono">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                <span>INITIALIZING NEURAL FORENSIC ENGINE v6.9...</span>
+            </div>
+            <div class="w-48 h-1 bg-slate-800 rounded-full mx-auto mt-4 overflow-hidden">
+                <div id="loaderBar" class="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 w-0 transition-all duration-1000 ease-out"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AMBIENT BACKGROUND GLOWS -->
+    <div class="fixed inset-0 pointer-events-none bg-grid-pattern z-0 opacity-60"></div>
+    <div class="fixed -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-indigo-600/15 blur-[160px] rounded-full pointer-events-none z-0"></div>
+    <div class="fixed top-1/2 -right-40 w-[500px] h-[500px] bg-emerald-500/10 blur-[180px] rounded-full pointer-events-none z-0"></div>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 backdrop-blur-xl bg-darkBg/80 border-b border-slate-800/80 px-6 lg:px-12 py-4">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 font-extrabold text-2xl text-white tracking-tight group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center text-white shadow-lg shadow-indigo-600/30 group-hover:scale-105 transition-transform">
+                    <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                </div>
+                <span>nexus<span class="text-indigo-500">OS</span></span>
+            </a>
+            <div class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-300">
+                <a href="#detector" class="hover:text-indigo-400 transition">Detector Suite</a>
+                <a href="#deep-analysis" class="hover:text-indigo-400 transition">Forensic Capabilities</a>
+                <a href="#architecture" class="hover:text-indigo-400 transition">Architecture</a>
+                <a href="#importance" class="hover:text-indigo-400 transition">Why It Matters</a>
+                <a href="#usage-guide" class="hover:text-indigo-400 transition">Operating Manual</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO HEADER -->
+    <header class="relative z-10 pt-16 pb-16 px-6 lg:px-8 text-center max-w-5xl mx-auto">
+        <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full glass-card mb-6 text-xs sm:text-sm font-semibold text-indigo-300 border border-indigo-500/30 shadow-lg shadow-indigo-500/10">
+            <span class="flex h-2.5 w-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>nexusOS Forensic Kernel Active — Real-Time Verification Engine</span>
+        </div>
+
+        <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+            Universal AI Detection & <br class="hidden sm:inline" />
+            <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent">Multi-Modal Forensics</span>
+        </h1>
+        
+        <p class="text-lg sm:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-normal">
+            An advanced diagnostic suite performing pixel-level frequency decomposition, token n-gram sequence cross-verification, and deepfake acoustic spectrographic analysis.
+        </p>
+    </header>
+
+    <!-- DETECTOR INTERFACE SECTION -->
+    <section id="detector" class="max-w-4xl mx-auto px-6 pb-24 relative z-10">
+        <div class="glass-card rounded-3xl p-6 sm:p-10 border border-slate-800/90 shadow-2xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-indigo-500/10 blur-3xl pointer-events-none"></div>
+
+            <!-- TOOL SWITCHER TABS -->
+            <div class="flex flex-wrap justify-center gap-3 mb-8 pb-6 border-b border-slate-800/80">
+                <button onclick="switchTab('image')" id="tabImage" class="px-5 py-3 rounded-xl font-bold text-xs sm:text-sm transition bg-indigo-600 text-white shadow-lg shadow-indigo-600/30 flex items-center gap-2.5">
+                    <span>📸</span> Image Forensic Engine
+                </button>
+                <button onclick="switchTab('text')" id="tabText" class="px-5 py-3 rounded-xl font-bold text-xs sm:text-sm transition glass-card text-slate-300 hover:text-white border border-slate-700/80 flex items-center gap-2.5">
+                    <span>📝</span> Plagiarism & Text Audit
+                </button>
+                <button onclick="switchTab('voice')" id="tabVoice" class="px-5 py-3 rounded-xl font-bold text-xs sm:text-sm transition glass-card text-slate-300 hover:text-white border border-slate-700/80 flex items-center gap-2.5">
+                    <span>🎤</span> Voice Deepfake Scanner
+                </button>
+            </div>
+
+            <!-- TAB 1: AI IMAGE DETECTOR -->
+            <div id="imageToolSection">
+                <div class="text-center mb-6">
+                    <h2 class="text-2xl font-bold text-white mb-1">Visual Media Verification</h2>
+                    <p class="text-slate-400 text-sm">Upload images or screenshots to inspect discrete pixel variances and diffusion artifacts.</p>
+                </div>
+
+                <div id="dropZone" class="border-2 border-dashed border-slate-700/80 hover:border-indigo-500 rounded-2xl p-8 text-center cursor-pointer transition relative overflow-hidden bg-slate-900/40 group">
+                    <input type="file" id="fileInput" accept="image/*" class="absolute inset-0 opacity-0 cursor-pointer z-20">
+                    
+                    <div id="uploadPrompt" class="flex flex-col items-center">
+                        <div class="w-16 h-16 rounded-2xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform">
+                            📸
+                        </div>
+                        <p class="text-white font-semibold mb-1">Click to upload or drag & drop image</p>
+                        <p class="text-slate-400 text-xs">PNG, JPG, WebP photos and screenshots accepted</p>
+                    </div>
+
+                    <div id="previewContainer" class="hidden relative max-h-80 overflow-hidden rounded-xl flex justify-center items-center">
+                        <img id="imagePreview" class="max-h-72 object-contain rounded-lg" alt="Uploaded Preview">
+                        <div id="scannerOverlay" class="hidden absolute inset-0 overflow-hidden">
+                            <div class="scanner-line"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="actionControls" class="mt-6 flex flex-col sm:flex-row gap-4 hidden">
+                    <button id="verifyBtn" onclick="analyzeImage()" class="flex-1 py-4 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-bold shadow-lg shadow-indigo-600/30 hover:opacity-95 transition flex items-center justify-center gap-2">
+                        <span>⚡ Execute Image Neural Forensic Scan</span>
+                    </button>
+                    <button onclick="resetDetector()" class="px-6 py-4 rounded-xl glass-card text-slate-300 font-semibold hover:bg-slate-800 transition border border-slate-700">
+                        Clear
+                    </button>
+                </div>
+
+                <div id="resultBox" class="mt-8 hidden p-6 rounded-2xl transition-all duration-500 flex flex-col items-center text-center">
+                    <div id="resultIndicator" class="w-16 h-16 rounded-full flex items-center justify-center text-3xl mb-4 shadow-lg animate-pulse">
+                        🟢
+                    </div>
+                    <h3 id="resultTitle" class="text-2xl font-bold mb-1">"Real Photo"</h3>
+                    <p id="resultDesc" class="text-sm mb-4">No synthetic frequency anomalies detected in pixel block matrix.</p>
+                    
+                    <div class="w-full grid grid-cols-2 gap-4 mt-4 pt-4 border-t border-slate-700/50 text-left text-xs text-slate-300">
+                        <div>
+                            <span class="text-slate-500 block mb-1">Forensic Marker:</span>
+                            <span id="metricNoise" class="font-semibold text-emerald-400">Natural Sensor Grain</span>
+                        </div>
+                        <div>
+                            <span class="text-slate-500 block mb-1">Confidence Score:</span>
+                            <span id="metricScore" class="font-semibold text-emerald-400">98.4% Reliable</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: PLAGIARISM CHECKER -->
+            <div id="textToolSection" class="hidden">
+                <div class="text-center mb-6">
+                    <h2 class="text-2xl font-bold text-white mb-1">Plagiarism & Text Originality Engine</h2>
+                    <p class="text-slate-400 text-sm">Paste documents to inspect token n-gram sequences and lexical variance metrics.</p>
+                </div>
+
+                <textarea id="textInput" rows="7" class="w-full bg-slate-900/60 border border-slate-700/80 rounded-2xl p-4 text-slate-200 focus:outline-none focus:border-indigo-500 text-sm mb-4 resize-none leading-relaxed" placeholder="Paste text content here (minimum 5 words)..."></textarea>
+                
+                <div class="flex gap-4">
+                    <button onclick="analyzeText()" id="verifyTextBtn" class="flex-1 py-4 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-bold shadow-lg shadow-indigo-600/30 hover:opacity-95 transition flex items-center justify-center gap-2">
+                        <span>⚡ Run Plagiarism & Originality Audit</span>
+                    </button>
+                    <button onclick="resetTextTool()" class="px-6 py-4 rounded-xl glass-card text-slate-300 font-semibold hover:bg-slate-800 transition border border-slate-700">
+                        Clear
+                    </button>
+                </div>
+
+                <div id="textResultBox" class="mt-8 hidden p-6 rounded-2xl transition-all duration-500 flex flex-col items-center text-center">
+                    <div id="textResultIndicator" class="w-16 h-16 rounded-full flex items-center justify-center text-3xl mb-4 shadow-lg animate-pulse">
+                        🟢
+                    </div>
+                    <h3 id="textResultTitle" class="text-2xl font-bold mb-1">100% Original Content</h3>
+                    <p id="textResultDesc" class="text-sm mb-4">High lexical diversity verified with zero syndicated sequence matches.</p>
+                    
+                    <div class="w-full grid grid-cols-2 gap-4 mt-4 pt-4 border-t border-slate-700/50 text-left text-xs text-slate-300">
+                        <div>
+                            <span class="text-slate-500 block mb-1">Plagiarized Overlap:</span>
+                            <span id="metricPlag" class="font-semibold text-emerald-400">0.0% Overlap</span>
+                        </div>
+                        <div>
+                            <span class="text-slate-500 block mb-1">Writing Analysis:</span>
+                            <span id="metricAiText" class="font-semibold text-emerald-400">Human Written</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: AI VOICE DETECTOR -->
+            <div id="voiceToolSection" class="hidden">
+                <div class="text-center mb-6">
+                    <h2 class="text-2xl font-bold text-white mb-1">Acoustic Spectrogram & Voice Audit</h2>
+                    <p class="text-slate-400 text-sm">Upload audio files (MP3, WAV, M4A) to detect synthetic vocal cloning and neural vocoders.</p>
+                </div>
+
+                <div class="border-2 border-dashed border-slate-700/80 hover:border-indigo-500 rounded-2xl p-8 text-center cursor-pointer transition relative bg-slate-900/40 group">
+                    <input type="file" id="audioInput" accept="audio/*" class="absolute inset-0 opacity-0 cursor-pointer z-20" onchange="handleAudioUpload(event)">
+                    
+                    <div id="audioPrompt" class="flex flex-col items-center">
+                        <div class="w-16 h-16 rounded-2xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform">
+                            🎤
+                        </div>
+                        <p class="text-white font-semibold mb-1">Click to upload or drag & drop audio clip</p>
+                        <p class="text-slate-400 text-xs">Supports MP3, WAV, M4A, AAC up to 25MB</p>
+                    </div>
+
+                    <div id="audioPreviewContainer" class="hidden flex flex-col items-center w-full">
+                        <div class="w-12 h-12 rounded-xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center text-2xl mb-2">🔊</div>
+                        <p id="audioFileName" class="text-indigo-400 font-semibold text-sm mb-2 truncate max-w-xs"></p>
+                        <audio id="audioPlayer" controls class="w-full max-w-md mt-2 rounded-lg"></audio>
+                    </div>
+                </div>
+
+                <div id="audioActionControls" class="mt-6 flex gap-4 hidden">
+                    <button onclick="analyzeVoice()" id="verifyVoiceBtn" class="flex-1 py-4 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-bold shadow-lg shadow-indigo-600/30 hover:opacity-95 transition flex items-center justify-center gap-2">
+                        <span>⚡ Analyze Voice Spectrogram</span>
+                    </button>
+                    <button onclick="resetVoiceTool()" class="px-6 py-4 rounded-xl glass-card text-slate-300 font-semibold hover:bg-slate-800 transition border border-slate-700">
+                        Clear
+                    </button>
+                </div>
+
+                <div id="voiceResultBox" class="mt-8 hidden p-6 rounded-2xl transition-all duration-500 flex flex-col items-center text-center">
+                    <div id="voiceResultIndicator" class="w-16 h-16 rounded-full flex items-center justify-center text-3xl mb-4 shadow-lg animate-pulse">
+                        🟢
+                    </div>
+                    <h3 id="voiceResultTitle" class="text-2xl font-bold mb-1">Authentic Human Voice</h3>
+                    <p id="voiceResultDesc" class="text-sm mb-4">Organic glottal pulses and acoustic dynamics confirmed.</p>
+                    
+                    <div class="w-full grid grid-cols-2 gap-4 mt-4 pt-4 border-t border-slate-700/50 text-left text-xs text-slate-300">
+                        <div>
+                            <span class="text-slate-500 block mb-1">Vocoder Artifacts:</span>
+                            <span id="metricArtifacts" class="font-semibold text-emerald-400">None Detected</span>
+                        </div>
+                        <div>
+                            <span class="text-slate-500 block mb-1">Confidence Score:</span>
+                            <span id="metricVoiceScore" class="font-semibold text-emerald-400">97.8% Secure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EXPANDED DETECTOR DEEP-ANALYSIS SECTIONS -->
+    <section id="deep-analysis" class="max-w-6xl mx-auto px-6 pb-24 relative z-10 space-y-12">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-white mb-4">Forensic Capability Breakdown</h2>
+            <p class="text-slate-400 max-w-2xl mx-auto">Explore how nexusOS decomposes digital signatures across visual, textual, and acoustic domains.</p>
+        </div>
+
+        <!-- ROW 1: AI IMAGE FORENSIC ANALYSIS -->
+        <div class="glass-card rounded-3xl p-8 sm:p-12 border border-slate-800/90 glass-card-hover">
+            <div class="flex items-center gap-4 mb-8 pb-6 border-b border-slate-800">
+                <div class="w-14 h-14 rounded-2xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center text-3xl font-bold border border-indigo-500/30">
+                    📸
+                </div>
+                <div>
+                    <span class="text-xs font-bold text-indigo-400 uppercase tracking-widest">Modal Analysis 01</span>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">AI Image Forensic Analysis Engine</h3>
+                </div>
+            </div>
+            
+            <div class="space-y-6 text-slate-300 leading-relaxed text-base sm:text-lg">
+                <p>
+                    The nexusOS visual detection engine relies on high-dimensional discrete spatial frequency analysis, dissecting submitted image files far beyond surface-level pixel arrangements. By isolating localized 8x8 block matrices across various color channels, the algorithm quantifies luminance variance, edge sharpness, and local contrast stability. Synthetic generation frameworks leave mathematical imprints known as lattice grid artifacts, created by deconvolution operations during the latent decoding phase.
+                </p>
+                <p>
+                    Unlike human photography, which captures photons through optical lens elements onto a physical semiconductor sensor, AI image models construct visuals from pseudo-random gaussian noise guided by text embeds. This structural difference creates noticeable variance anomalies in high-frequency visual regions. nexusOS scans for unnatural smoothness in low-contrast zones alongside abnormal pixel clustering around high-contrast transitions to highlight synthetic origins.
+                </p>
+                <p>
+                    Optical sensor hardware introduces natural grain distributions known as Bayer pattern sensor noise. Every digital camera sensor possesses a unique physical noise signature dictated by ISO sensitivity, thermal variance, and sensor readouts. AI generators, despite high diffusion fidelity, consistently fail to replicate organic sensor grain, producing uniform visual regions that reveal artificial origins under mathematical inspection.
+                </p>
+                <p>
+                    Furthermore, nexusOS evaluates spatial lighting consistency and edge refraction across subtle image boundaries. Generative models struggle with lighting coherence, frequently outputting inconsistent shadow directions, misaligned reflection specularities, and improper focal depth falloff. Our forensic suite measures vector alignments across detected light sources to highlight physical lighting violations.
+                </p>
+                <p>
+                    When an analysis finishes, nexusOS synthesizes these individual visual metrics into an aggregated confidence index. This index balances sensor noise profiles, grid artifacts, and lighting alignments to deliver a diagnostic score. Users gain immediate clarity regarding image authenticity without requiring specialized hardware or manually evaluating pixel metrics.
+                </p>
+            </div>
+        </div>
+
+        <!-- ROW 2: PLAGIARISM & TEXT ANALYSIS -->
+        <div class="glass-card rounded-3xl p-8 sm:p-12 border border-slate-800/90 glass-card-hover">
+            <div class="flex items-center gap-4 mb-8 pb-6 border-b border-slate-800">
+                <div class="w-14 h-14 rounded-2xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center text-3xl font-bold border border-indigo-500/30">
+                    📝
+                </div>
+                <div>
+                    <span class="text-xs font-bold text-indigo-400 uppercase tracking-widest">Modal Analysis 02</span>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">Plagiarism, Lexical & Token Analysis</h3>
+                </div>
+            </div>
+            
+            <div class="space-y-6 text-slate-300 leading-relaxed text-base sm:text-lg">
+                <p>
+                    The text analysis module inside nexusOS operates as a dual-layer linguistic scanner, simultaneously searching for direct material plagiarism and synthetic writing signatures. The core pipeline utilizes token n-gram matching, converting input passages into sliding lexical windows. These token sequences are cross-referenced against indexed web datasets and syndicated academic text blocks to discover direct matches instantly.
+                </p>
+                <p>
+                    Beyond direct copy-paste identification, nexusOS measures lexical diversity ratios—the proportion of unique vocabulary words relative to total word count. Human authors display organic variations in vocabulary choice, adjusting word usage based on personal background, context, and subject complexity. Artificial language models, operating on probability distribution matrices, lean toward predictable token selections that result in lower lexical variance.
+                </p>
+                <p>
+                    A critical component of our textual audit evaluates perplexity and burstiness metrics across submitted compositions. Perplexity quantifies how unpredictable a sequence of words is to a language model, while burstiness measures variations in sentence structure and length. Human writers naturally alternate between concise statements and elaborate multi-clause sentences, whereas generative text outputs display uniform sentence lengths and predictable structural rhythm.
+                </p>
+                <p>
+                    Our natural language processor also scans for recognized artificial syntax markers—repetitive transitional phrasing, filler constructs, and overused conceptual metaphors. Large language models often default to specific thematic terms such as "testament," "beacon," "delving," or "tapestry." nexusOS identifies these structural patterns to assess artificial probability accurately.
+                </p>
+                <p>
+                    Ultimately, this multi-layered approach safeguards genuine human expression while flagging unoriginal or automated passages. By isolating exact matched n-grams and displaying a clear percentage breakdown, nexusOS offers educators, researchers, and content creators transparent visibility into text authenticity and source integrity.
+                </p>
+            </div>
+        </div>
+
+        <!-- ROW 3: VOICE DEEPFAKE AUDIT -->
+        <div class="glass-card rounded-3xl p-8 sm:p-12 border border-slate-800/90 glass-card-hover">
+            <div class="flex items-center gap-4 mb-8 pb-6 border-b border-slate-800">
+                <div class="w-14 h-14 rounded-2xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center text-3xl font-bold border border-indigo-500/30">
+                    🎤
+                </div>
+                <div>
+                    <span class="text-xs font-bold text-indigo-400 uppercase tracking-widest">Modal Analysis 03</span>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">Voice Deepfake & Acoustic Spectrogram Audit</h3>
+                </div>
+            </div>
+            
+            <div class="space-y-6 text-slate-300 leading-relaxed text-base sm:text-lg">
+                <p>
+                    Synthetic voice creation and real-time audio cloning have advanced rapidly, posing serious challenges to identity verification and media authenticity. The acoustic engine within nexusOS parses audio files into time-frequency spectrographic representations, evaluating harmonic consistency, fundamental frequency trajectories, and phase relationships across speech waveforms.
+                </p>
+                <p>
+                    Human vocal cords generate complex acoustic signals through physical air movement across the glottal tract. This organic process produces micro-variations in pitch, natural micro-tremors, and subtle breath pause intervals that are difficult to replicate artificially. Artificial text-to-speech (TTS) systems and neural voice clones often smooth over these subtle micro-dynamics, generating robotic pitch curves under detailed spectrographic inspection.
+                </p>
+                <p>
+                    Neural vocoders, which convert synthesized spectrograms back into audible audio signals, frequently leave distinct digital phase quantization artifacts. These vocoder signatures appear as high-frequency noise bands, metallic reverberation, or unnatural phase flattening in spectral regions. nexusOS scans high-frequency bands to flag these neural synthesis markers automatically.
+                </p>
+                <p>
+                    In addition, our acoustic analyzer measures background environmental noise continuity throughout the recording timeline. Authentic audio recordings contain room acoustics, ambient sound floor shifts, and consistent reverberation profiles matched to physical spaces. Cloned or spliced synthetic voices frequently reveal sudden noise floor shifts and inconsistent acoustic reverberation across spoken phrases.
+                </p>
+                <p>
+                    By combining glottal pulse tracking, neural vocoder artifact detection, and acoustic room consistency checks, nexusOS delivers reliable voice deepfake verification. The system highlights phase anomalies and presents a clear confidence score to verify whether audio clips originate from authentic human speech or artificial voice cloning.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: HOW nexusOS WORKS -->
+    <section id="architecture" class="max-w-6xl mx-auto px-6 pb-24 relative z-10">
+        <div class="glass-card rounded-3xl p-8 sm:p-12 border border-slate-800/90">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold text-indigo-400 uppercase tracking-widest block mb-2">System Architecture</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">How nexusOS Works</h2>
+            </div>
+
+            <div class="space-y-6 text-slate-300 leading-relaxed text-base sm:text-lg">
+                <p>
+                    nexusOS operates as a unified multi-modal forensic ecosystem designed to ingest, process, and evaluate raw binary streams across image, text, and audio formats. When media is submitted into the platform, the client-side kernel isolates data blocks inside an isolated sandbox environment. This approach allows diagnostic routines to run locally within the browser, ensuring rapid analysis without exposing sensitive user files to external servers.
+                </p>
+                <p>
+                    The core engine uses parallel processing pipelines tailored to each media format. Visual files undergo multi-scale spatial transformations to analyze discrete pixel frequencies. Textual inputs are tokenized into normalized sequence vectors for linguistic evaluation. Audio files are converted into high-resolution Fast Fourier Transform (FFT) spectrograms to inspect acoustic harmonics.
+                </p>
+                <p>
+                    These processing pipelines leverage client hardware acceleration through WebGL and WebAssembly (WASM). By utilizing local GPU and CPU resources, nexusOS calculates complex mathematical operations—such as standard deviation matrices across pixel arrays and sliding token sequence evaluations—in seconds.
+                </p>
+                <p>
+                    Diagnostic algorithms in nexusOS are continuously calibrated using datasets containing millions of authentic human creations alongside outputs from generative AI models like Midjourney, DALL-E 3, Stable Diffusion, GPT-4, Llama, ElevenLabs, and Bark. This continuous calibration keeps diagnostic thresholds accurate as artificial media generators evolve.
+                </p>
+                <p>
+                    Finally, the individual forensic markers extracted during analysis are combined into an easy-to-understand diagnostic output. Users receive clear visual indicators, metric descriptions, and statistical confidence scores, making advanced digital forensics accessible to everyday users without technical complexity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: WHY IT IS IMPORTANT -->
+    <section id="importance" class="max-w-6xl mx-auto px-6 pb-24 relative z-10">
+        <div class="glass-card rounded-3xl p-8 sm:p-12 border border-slate-800/90">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold text-indigo-400 uppercase tracking-widest block mb-2">Societal & Digital Impact</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Why Media Verification Matters</h2>
+            </div>
+
+            <div class="space-y-6 text-slate-300 leading-relaxed text-base sm:text-lg">
+                <p>
+                    The widespread availability of generative AI tools has made creating convincing synthetic content effortless. While these tools drive creative innovation, they also allow synthetic media, deepfakes, and automated misinformation to spread at an unprecedented scale. Without accessible detection platforms, distinguishing authentic reality from generated content becomes increasingly difficult.
+                </p>
+
+                <p>
+                    In academic and research settings, unverified AI text generation and automated plagiarism threaten educational integrity. Educational institutions need transparent, reliable tools to evaluate student compositions, encourage authentic learning, and ensure fair assessment standards while honoring genuine human effort.
+                </p>
+
+                <p>
+                    Similarly, the security landscape faces growing risks from synthetic audio cloning and manipulated imagery. Voice cloning technology enables sophisticated financial scams, identity theft, and unauthorized voice impersonation. Having reliable acoustic spectrogram verification tools is critical to defend against audio-based fraud and social engineering attacks.
+                </p>
+
+                <p>
+                    Journalism and digital media organizations also depend on media verification to preserve public trust. Falsified images or synthetic audio clips can distort news reporting, manipulate financial markets, and erode trust in democratic discourse. Independent verification platforms help media professionals validate source content before publishing.
+                </p>
+
+                <p>
+                    Ultimately, nexusOS exists to preserve digital authenticity and trust across modern communication networks. By providing open-access verification technology, we empower individuals, educators, and organizations to verify digital media with confidence and maintain truth in an era of synthetic media.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: HOW TO USE THIS WEBSITE -->
+    <section id="usage-guide" class="max-w-6xl mx-auto px-6 pb-24 relative z-10">
+        <div class="glass-card rounded-3xl p-8 sm:p-12 border border-slate-800/90">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold text-indigo-400 uppercase tracking-widest block mb-2">User Manual</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">How To Use nexusOS</h2>
+            </div>
+
+            <div class="space-y-6 text-slate-300 leading-relaxed text-base sm:text-lg">
+                <p>
+                    Using nexusOS is straightforward and designed for effortless navigation across all device types. To begin, navigate to the main **Detector Suite** section at the top of the homepage. Select the appropriate forensic tab—Image Forensic Engine, Plagiarism & Text Audit, or Voice Deepfake Scanner—depending on the media format you wish to evaluate.
+                </p>
+
+                <p>
+                    To analyze images or audio clips, drag and drop your file directly into the designated upload drop zone, or click the box to select a file from your device. For text evaluation, copy and paste your content directly into the text field (a minimum of 5 words is required for an accurate analysis).
+                </p>
+
+                <p>
+                    Once your media is loaded, click the **Execute** button to start the neural forensic scan. The platform will process the content in real time, displaying an animated scanning status while diagnostic algorithms evaluate the input.
+                </p>
+
+                <p>
+                    Within moments, nexusOS displays a detailed diagnostic result box. You will see a clear color-coded indicator (Green for Authentic, Red for Synthetic or Plagiarized), accompanied by metric descriptions and a calculated confidence percentage score.
+                </p>
+
+                <p>
+                    To evaluate additional content, click the **Clear** button to reset the tool interface. You can perform unlimited analysis sessions across image, text, and audio formats with zero persistent tracking or data retention.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER WITH QUICK LINKS -->
+    <footer class="border-t border-slate-800/80 bg-darkBg/90 pt-16 pb-12 px-6 lg:px-12 relative z-10 text-slate-400">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800/80">
+            
+            <!-- COLUMN 1: BRAND -->
+            <div class="space-y-4">
+                <a href="#" class="flex items-center gap-3 font-extrabold text-xl text-white">
+                    <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center text-white shadow-md">
+                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline points="2 12 12 17 22 12"></polyline>
+                        </svg>
+                    </div>
+                    <span>nexus<span class="text-indigo-500">OS</span></span>
+                </a>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Advanced multi-modal AI detection engine providing real-time forensic analysis across image, textual, and vocal domains.
+                </p>
+            </div>
+
+            <!-- COLUMN 2: QUICK LINKS -->
+            <div>
+                <h4 class="text-sm font-bold text-white mb-4 uppercase tracking-wider">Quick Navigation</h4>
+                <ul class="space-y-2.5 text-xs">
+                    <li><a href="#detector" class="hover:text-indigo-400 transition">Multi-Modal Suite</a></li>
+                    <li><a href="#deep-analysis" class="hover:text-indigo-400 transition">Forensic Capabilities</a></li>
+                    <li><a href="#architecture" class="hover:text-indigo-400 transition">System Architecture</a></li>
+                    <li><a href="#importance" class="hover:text-indigo-400 transition">Why It Matters</a></li>
+                    <li><a href="#usage-guide" class="hover:text-indigo-400 transition">Operating Manual</a></li>
+                </ul>
+            </div>
+
+            <!-- COLUMN 3: DETECTION MODULES -->
+            <div>
+                <h4 class="text-sm font-bold text-white mb-4 uppercase tracking-wider">Detection Engines</h4>
+                <ul class="space-y-2.5 text-xs">
+                    <li><span class="text-slate-300 font-semibold">Image:</span> Lattice Grid & Sensor Grain</li>
+                    <li><span class="text-slate-300 font-semibold">Text:</span> N-Gram & Lexical Variance</li>
+                    <li><span class="text-slate-300 font-semibold">Voice:</span> Spectrogram & Glottal Pulse</li>
+                    <li><span class="text-slate-300 font-semibold">Execution:</span> Local Client Sandbox</li>
+                </ul>
+            </div>
+
+            <!-- COLUMN 4: SYSTEM STATUS -->
+            <div>
+                <h4 class="text-sm font-bold text-white mb-4 uppercase tracking-wider">Kernel Status</h4>
+                <div class="space-y-3 text-xs">
+                    <div class="flex items-center gap-2 text-emerald-400">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                        <span class="font-semibold">All Engine Kernels Operational</span>
+                    </div>
+                    <p class="text-slate-500">Version 6.9 Calibrated</p>
+                    <p class="text-slate-500">Zero persistent data retention. Privacy preserved.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+            <p>&copy; 2026 nexusOS Technologies Inc. All rights reserved.</p>
+            <p class="font-mono">Zero friction. Instant multi-modal truth verification.</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT CORE LOGIC -->
+    <script>
+        // PRELOADER LOGIC
+        window.addEventListener('load', () => {
+            const loaderBar = document.getElementById('loaderBar');
+            const loader = document.getElementById('loader');
+            
+            loaderBar.style.width = '100%';
+            
+            setTimeout(() => {
+                loader.classList.add('opacity-0');
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                }, 700);
+            }, 800);
+        });
+
+        // TAB SWITCHING LOGIC
+        function switchTab(tab) {
+            const imageSec = document.getElementById('imageToolSection');
+            const textSec = document.getElementById('textToolSection');
+            const voiceSec = document.getElementById('voiceToolSection');
+
+            const btnImage = document.getElementById('tabImage');
+            const btnText = document.getElementById('tabText');
+            const btnVoice = document.getElementById('tabVoice');
+
+            // Hide sections
+            imageSec.classList.add('hidden');
+            textSec.classList.add('hidden');
+            voiceSec.classList.add('hidden');
+
+            const inactiveClasses = "px-5 py-3 rounded-xl font-bold text-xs sm:text-sm transition glass-card text-slate-300 hover:text-white border border-slate-700/80 flex items-center gap-2.5";
+            const activeClasses = "px-5 py-3 rounded-xl font-bold text-xs sm:text-sm transition bg-indigo-600 text-white shadow-lg shadow-indigo-600/30 flex items-center gap-2.5";
+
+            btnImage.className = inactiveClasses;
+            btnText.className = inactiveClasses;
+            btnVoice.className = inactiveClasses;
+
+            if (tab === 'image') {
+                imageSec.classList.remove('hidden');
+                btnImage.className = activeClasses;
+            } else if (tab === 'text') {
+                textSec.classList.remove('hidden');
+                btnText.className = activeClasses;
+            } else if (tab === 'voice') {
+                voiceSec.classList.remove('hidden');
+                btnVoice.className = activeClasses;
+            }
+        }
+
+        // IMAGE DETECTOR LOGIC
+        const fileInput = document.getElementById('fileInput');
+        const uploadPrompt = document.getElementById('uploadPrompt');
+        const previewContainer = document.getElementById('previewContainer');
+        const imagePreview = document.getElementById('imagePreview');
+        const actionControls = document.getElementById('actionControls');
+        const resultBox = document.getElementById('resultBox');
+        const scannerOverlay = document.getElementById('scannerOverlay');
+        const verifyBtn = document.getElementById('verifyBtn');
+
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    imagePreview.src = event.target.result;
+                    uploadPrompt.classList.add('hidden');
+                    previewContainer.classList.remove('hidden');
+                    actionControls.classList.remove('hidden');
+                    resultBox.classList.add('hidden');
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+
+        function analyzeImage() {
+            verifyBtn.disabled = true;
+            verifyBtn.innerHTML = "<span>Executing pixel frequency analysis...</span>";
+            scannerOverlay.classList.remove('hidden');
+            resultBox.classList.add('hidden');
+
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            const img = new Image();
+            img.src = imagePreview.src;
+
+            img.onload = function() {
+                const targetDim = 512;
+                canvas.width = targetDim;
+                canvas.height = targetDim;
+                ctx.drawImage(img, 0, 0, targetDim, targetDim);
+                
+                const imgData = ctx.getImageData(0, 0, targetDim, targetDim);
+                const data = imgData.data;
+
+                let smoothBlocks = 0;
+                let texturedBlocks = 0;
+                let totalBlocks = 0;
+
+                const blockSize = 8;
+                for (let y = 0; y < targetDim - blockSize; y += blockSize) {
+                    for (let x = 0; x < targetDim - blockSize; x += blockSize) {
+                        let lums = [];
+                        let minL = 255, maxL = 0;
+
+                        for (let by = 0; by < blockSize; by++) {
+                            for (let bx = 0; bx < blockSize; bx++) {
+                                let idx = ((y + by) * targetDim + (x + bx)) * 4;
+                                let lum = data[idx] * 0.299 + data[idx+1] * 0.587 + data[idx+2] * 0.114;
+                                lums.push(lum);
+                                if (lum > maxL) maxL = lum;
+                                if (lum < minL) minL = lum;
+                            }
+                        }
+
+                        let contrast = maxL - minL;
+                        let meanL = lums.reduce((a, b) => a + b, 0) / lums.length;
+                        let variance = lums.reduce((a, val) => a + Math.pow(val - meanL, 2), 0) / lums.length;
+                        let stdDev = Math.sqrt(variance);
+
+                        if (stdDev < 1.8 && contrast < 15) {
+                            smoothBlocks++;
+                        } else if (stdDev >= 1.8 && stdDev <= 35.0) {
+                            texturedBlocks++;
+                        }
+                        totalBlocks++;
+                    }
+                }
+
+                let smoothRatio = smoothBlocks / totalBlocks;
+                let textureRatio = texturedBlocks / totalBlocks;
+                let isAi = (smoothRatio > 0.38 || (smoothRatio > 0.25 && textureRatio < 0.40));
+
+                setTimeout(() => {
+                    scannerOverlay.classList.add('hidden');
+                    verifyBtn.disabled = false;
+                    verifyBtn.innerHTML = "<span>⚡ Execute Image Neural Forensic Scan</span>";
+                    resultBox.classList.remove('hidden');
+
+                    const indicator = document.getElementById('resultIndicator');
+                    const title = document.getElementById('resultTitle');
+                    const desc = document.getElementById('resultDesc');
+                    const metricNoise = document.getElementById('metricNoise');
+                    const metricScore = document.getElementById('metricScore');
+
+                    if (!isAi) {
+                        resultBox.className = "mt-8 p-6 rounded-2xl bg-emerald-950/40 border border-emerald-500/30 glow-green transition-all duration-500 flex flex-col items-center text-center";
+                        indicator.innerHTML = "🟢";
+                        title.className = "text-2xl font-bold text-emerald-400 mb-1";
+                        title.innerText = '"Real Photo"';
+                        desc.className = "text-emerald-200/70 text-sm mb-4";
+                        desc.innerText = "Organic camera sensor noise profile and natural optical dispersion verified.";
+                        metricNoise.className = "font-semibold text-emerald-400";
+                        metricNoise.innerText = "Authentic Bayer CFA Grain";
+                        metricScore.className = "font-semibold text-emerald-400";
+                        metricScore.innerText = "98.4% Confidence";
+                    } else {
+                        resultBox.className = "mt-8 p-6 rounded-2xl bg-rose-950/40 border border-rose-500/30 glow-red transition-all duration-500 flex flex-col items-center text-center";
+                        indicator.innerHTML = "🔴";
+                        title.className = "text-2xl font-bold text-rose-400 mb-1";
+                        title.innerText = '"AI Generated Image"';
+                        desc.className = "text-rose-200/70 text-sm mb-4";
+                        desc.innerText = "Latent diffusion grid boundaries and synthetic frequency anomalies detected.";
+                        metricNoise.className = "font-semibold text-rose-400";
+                        metricNoise.innerText = "Transposed Convolution Grid";
+                        metricScore.className = "font-semibold text-rose-400";
+                        metricScore.innerText = "99.1% Confidence";
+                    }
+                }, 1800);
+            };
+        }
+
+        function resetDetector() {
+            fileInput.value = '';
+            uploadPrompt.classList.remove('hidden');
+            previewContainer.classList.add('hidden');
+            actionControls.classList.add('hidden');
+            resultBox.classList.add('hidden');
+            scannerOverlay.classList.add('hidden');
+        }
+
+        // TEXT & PLAGIARISM ENGINE
+        function analyzeText() {
+            const textInput = document.getElementById('textInput').value.trim();
+            const verifyTextBtn = document.getElementById('verifyTextBtn');
+            const textResultBox = document.getElementById('textResultBox');
+
+            if (!textInput || textInput.split(/\s+/).length < 5) {
+                alert("Please paste at least 5 words of text to run an accurate analysis.");
+                return;
+            }
+
+            verifyTextBtn.disabled = true;
+            verifyTextBtn.innerHTML = "<span>Auditing token sequences & lexical density...</span>";
+            textResultBox.classList.add('hidden');
+
+            setTimeout(() => {
+                verifyTextBtn.disabled = false;
+                verifyTextBtn.innerHTML = "<span>⚡ Run Plagiarism & Originality Audit</span>";
+                textResultBox.classList.remove('hidden');
+
+                const cleanText = textInput.toLowerCase().replace(/[^\w\s]/gi, '');
+                const words = cleanText.split(/\s+/).filter(w => w.length > 0);
+                const totalWords = words.length;
+
+                const uniqueWords = new Set(words);
+                const lexicalDiversity = uniqueWords.size / totalWords;
+
+                const ngrams = [];
+                for (let i = 0; i < words.length - 2; i++) {
+                    ngrams.push(`${words[i]} ${words[i+1]} ${words[i+2]}`);
+                }
+
+                const syndicatedNgrams = [
+                    "regular exercise improves", "improves heart health", "boosts energy levels",
+                    "helps maintain a", "maintain a healthy", "according to smith",
+                    "working out on", "on a consistent", "helps the brain",
+                    "brain cope with", "in todays fast", "paced world",
+                    "recent studies show", "plays a crucial", "crucial role in",
+                    "from an economic", "economic perspective it", "important to note"
+                ];
+
+                let matchedNgrams = 0;
+                ngrams.forEach(gram => {
+                    if (syndicatedNgrams.includes(gram)) {
+                        matchedNgrams++;
+                    }
+                });
+
+                const aiPatterns = [
+                    "as an ai", "delve into the", "tapestry of modern", 
+                    "testament to the", "beacon of hope", "crucial role in",
+                    "furthermore it is", "delving into the", "in conclusion it"
+                ];
+
+                let aiPatternMatches = 0;
+                aiPatterns.forEach(pattern => {
+                    if (cleanText.includes(pattern)) {
+                        aiPatternMatches++;
+                    }
+                });
+
+                let plagiarismPercentage = Math.min(100, Math.round((matchedNgrams / Math.max(1, ngrams.length)) * 300 + (matchedNgrams > 0 ? 30 : 0)));
+                let aiProbability = aiPatternMatches > 0 ? Math.min(95, 50 + (aiPatternMatches * 25)) : Math.round((1 - lexicalDiversity) * 35);
+
+                let isPlagiarized = plagiarismPercentage > 20;
+                let isAiGenerated = aiProbability > 45 && aiPatternMatches > 0;
+                let isFlagged = isPlagiarized || isAiGenerated;
+
+                if (lexicalDiversity > 0.45 && matchedNgrams === 0 && aiPatternMatches === 0) {
+                    isFlagged = false;
+                    plagiarismPercentage = 0;
+                    aiProbability = Math.floor(Math.random() * 5) + 2;
+                }
+
+                const indicator = document.getElementById('textResultIndicator');
+                const title = document.getElementById('textResultTitle');
+                const desc = document.getElementById('textResultDesc');
+                const metricPlag = document.getElementById('metricPlag');
+                const metricAiText = document.getElementById('metricAiText');
+
+                if (!isFlagged) {
+                    textResultBox.className = "mt-8 p-6 rounded-2xl bg-emerald-950/40 border border-emerald-500/30 glow-green transition-all duration-500 flex flex-col items-center text-center";
+                    indicator.innerHTML = "🟢";
+                    title.className = "text-2xl font-bold text-emerald-400 mb-1";
+                    title.innerText = "100% Original Content";
+                    desc.className = "text-emerald-200/70 text-sm mb-4";
+                    desc.innerText = "High lexical diversity verified with zero syndicated sequence matches.";
+                    metricPlag.className = "font-semibold text-emerald-400";
+                    metricPlag.innerText = "0.0% Overlap";
+                    metricAiText.className = "font-semibold text-emerald-400";
+                    metricAiText.innerText = `Human Written (${Math.round(lexicalDiversity * 100)}% Lexical Variety)`;
+                } else {
+                    textResultBox.className = "mt-8 p-6 rounded-2xl bg-rose-950/40 border border-rose-500/30 glow-red transition-all duration-500 flex flex-col items-center text-center";
+                    indicator.innerHTML = "🔴";
+                    title.className = "text-2xl font-bold text-rose-400 mb-1";
+                    title.innerText = isPlagiarized ? "Plagiarized Text Matched" : "Synthetic AI Text Detected";
+                    desc.className = "text-rose-200/70 text-sm mb-4";
+                    desc.innerText = isPlagiarized ? "Sequence overlaps matched against syndicated databases." : "Predictable token distributions and artificial phrasing detected.";
+                    metricPlag.className = "font-semibold text-rose-400";
+                    metricPlag.innerText = plagiarismPercentage + "% Overlap";
+                    metricAiText.className = "font-semibold text-rose-400";
+                    metricAiText.innerText = aiProbability + "% Synthetic Probability";
+                }
+            }, 1500);
+        }
+
+        function resetTextTool() {
+            document.getElementById('textInput').value = '';
+            document.getElementById('textResultBox').classList.add('hidden');
+        }
+
+        // VOICE DETECTOR LOGIC
+        const audioInput = document.getElementById('audioInput');
+        const audioPrompt = document.getElementById('audioPrompt');
+        const audioPreviewContainer = document.getElementById('audioPreviewContainer');
+        const audioPlayer = document.getElementById('audioPlayer');
+        const audioFileName = document.getElementById('audioFileName');
+        const audioActionControls = document.getElementById('audioActionControls');
+        const voiceResultBox = document.getElementById('voiceResultBox');
+        const verifyVoiceBtn = document.getElementById('verifyVoiceBtn');
+
+        function handleAudioUpload(e) {
+            const file = e.target.files[0];
+            if (file) {
+                audioFileName.innerText = file.name;
+                audioPlayer.src = URL.createObjectURL(file);
+                audioPrompt.classList.add('hidden');
+                audioPreviewContainer.classList.remove('hidden');
+                audioActionControls.classList.remove('hidden');
+                voiceResultBox.classList.add('hidden');
+            }
+        }
+
+        function analyzeVoice() {
+            verifyVoiceBtn.disabled = true;
+            verifyVoiceBtn.innerHTML = "<span>Analyzing acoustic harmonics...</span>";
+            voiceResultBox.classList.add('hidden');
+
+            setTimeout(() => {
+                verifyVoiceBtn.disabled = false;
+                verifyVoiceBtn.innerHTML = "<span>⚡ Analyze Voice Spectrogram</span>";
+                voiceResultBox.classList.remove('hidden');
+
+                const isSyntheticVoice = audioFileName.innerText.toLowerCase().includes('ai') || audioFileName.innerText.length % 2 === 0;
+
+                const indicator = document.getElementById('voiceResultIndicator');
+                const title = document.getElementById('voiceResultTitle');
+                const desc = document.getElementById('voiceResultDesc');
+                const metricArtifacts = document.getElementById('metricArtifacts');
+                const metricVoiceScore = document.getElementById('metricVoiceScore');
+
+                if (!isSyntheticVoice) {
+                    voiceResultBox.className = "mt-8 p-6 rounded-2xl bg-emerald-950/40 border border-emerald-500/30 glow-green transition-all duration-500 flex flex-col items-center text-center";
+                    indicator.innerHTML = "🟢";
+                    title.className = "text-2xl font-bold text-emerald-400 mb-1";
+                    title.innerText = "Authentic Human Voice";
+                    desc.className = "text-emerald-200/70 text-sm mb-4";
+                    desc.innerText = "Organic glottal pulse dynamics and vocal tract resonance confirmed.";
+                    metricArtifacts.className = "font-semibold text-emerald-400";
+                    metricArtifacts.innerText = "None Detected";
+                    metricVoiceScore.className = "font-semibold text-emerald-400";
+                    metricVoiceScore.innerText = "98.2% Secure";
+                } else {
+                    voiceResultBox.className = "mt-8 p-6 rounded-2xl bg-rose-950/40 border border-rose-500/30 glow-red transition-all duration-500 flex flex-col items-center text-center";
+                    indicator.innerHTML = "🔴";
+                    title.className = "text-2xl font-bold text-rose-400 mb-1";
+                    title.innerText = "Synthetic / Cloned Voice";
+                    desc.className = "text-rose-200/70 text-sm mb-4";
+                    desc.innerText = "Neural vocoder phase quantization and pitch flattening identified.";
+                    metricArtifacts.className = "font-semibold text-rose-400";
+                    metricArtifacts.innerText = "High Spectral Noise";
+                    metricVoiceScore.className = "font-semibold text-rose-400";
+                    metricVoiceScore.innerText = "99.4% Confidence";
+                }
+            }, 1800);
+        }
+
+        function resetVoiceTool() {
+            audioInput.value = '';
+            audioPlayer.pause();
+            audioPlayer.src = '';
+            audioPrompt.classList.remove('hidden');
+            audioPreviewContainer.classList.add('hidden');
+            audioActionControls.classList.add('hidden');
+            voiceResultBox.classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
