@@ -3,6 +3,9 @@
         "username": "fritzfurher567"
     },
     "records": {
-        "RECORDTYPE": "CNAME"
+        "CNAME": "fritzfurher567.github.io",
+        "TXT": {
+            "_discord": "dh=4bffd4ce35f7055bbc9b9a93c0e8600d5a0bc539"
+        }
     }
 }
