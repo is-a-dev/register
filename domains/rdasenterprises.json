@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "radhekrishnatech251125-oss",
+    "email": "radhekrishnatech251125@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"],
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
