@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Manoj8541",
+    "email": "nicoman-tourism@googlegroups.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
+  }
+}
