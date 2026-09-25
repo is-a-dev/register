@@ -1,8 +1,17 @@
-{
-  "owner": {
-    "username": "Mykh4il0"
-  },
-  "record": {
-    "CNAME": "Mykh4il0.github.io"
-  }
-}
+### Requirements
+
+- [x] I agree to the [Terms of Service](https://is-a.dev/terms).
+- [x] My file is following the [domain structure](https://is-a.dev/docs/domain-structure).
+- [x] My website is **reachable** and **completed**.
+- [x] My website is **software development** related.
+- [x] My website is **not for commercial use**.
+- [x] I have provided sufficient contact information in the `owner` key.
+- [x] I have provided a link to my website below.
+
+### Website Preview
+
+https://mykh4il0.github.io/weknowall.is-a.dev/
+
+### Website Purpose
+
+Historical encyclopedia website with interactive biographies.
