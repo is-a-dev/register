@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "rift4"
+    "username": "rift4",
+    "email": "felixdayapper@tutamail.com"
   },
   "records": {
     "CNAME": "rift4.github.io"
