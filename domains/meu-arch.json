@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "nicolicof",
+    "email": "nicolicof6060@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "adelaide.ns.cloudflare.com",
+      "mark.ns.cloudflare.com"
+    ]
+  }
+}
