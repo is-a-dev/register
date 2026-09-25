@@ -1,0 +1,20 @@
+{
+    "owner": {
+        "username": "hp17-host",
+        "email": "hp17.host@gmail.com"
+    },
+    "records": {
+        "URL": "https://hp17.vercel.app/"
+    },
+    "redirect_config": {
+      "custom_paths": {
+        "/github": "https://github.com/hp17-host",
+        "/ds": "https://hp17-deck-study.vercel.app/",
+        "/tp": "https://hp17-typing-pro.vercel.app/",
+        "/ww": "https://hp17-water-weber.vercel.app/",
+        "/tc": "https://hp17-task-checker.vercel.app/",
+        "/bg": "https://hp17-cut-bg.vercel.app/"
+      },
+      "redirect_paths": true
+    }
+}
