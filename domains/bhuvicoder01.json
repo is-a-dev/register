@@ -1,14 +1,9 @@
 {
-  "domain": "bhuvicoder01.is-a.dev",
   "owner": {
-    "github": "bhuvicoder01",
-    "username": "bhuvicoder01"
+    "username": "bhuvicoder01",
+    "email": "cebhuvneshsingh@gmail.com"
   },
   "records": {
-    "CNAME": {
-      "@": "bhuvicoder01.github.io",
-      "jarvis": "bhuvicoder01.github.io",
-      "api": "bhuvicoder01.github.io"
-    }
+    "CNAME": "bhuvicoder01.github.io"
   }
 }
