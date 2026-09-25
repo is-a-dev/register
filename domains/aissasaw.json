@@ -1,0 +1,10 @@
+{
+  "description": "Website for Algerian Rap",
+  "domain": "aissasaw",
+  "owner": {
+    "email": "aissasawdz@gmail.com"
+  },
+  "records": {
+    "CNAME": "aissasaw.github.io"
+  }
+}
