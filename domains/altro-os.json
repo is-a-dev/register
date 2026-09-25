@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "altro-os"
+    "username": "altro-os",
+    "email": "contact@altro-os.is-a.dev"
   },
   "records": {
     "A": [
@@ -10,8 +11,8 @@
       "185.199.111.153"
     ],
     "MX": [
-      { "target": "mx1.improvmx.com", "priority": 10 },
-      { "target": "mx2.improvmx.com", "priority": 20 }
+      "10 mx1.improvmx.com",
+      "20 mx2.improvmx.com"
     ],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
