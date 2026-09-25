@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "t2do73",
+    "email": "timo.t.ruottinen@gmail.com"
+  },
+  "description": "RecipePlanner - personal recipe- and weekly menu planning app",
+  "repo": "https://github.com/t2do73/RecipePlanner",
+  "records": {
+    "A": ["35.219.200.108"],
+    "TXT": ["fah-claim=016-02-f64153d2-3fae-47d0-a3bc-76dc0424ab5b"]
+  },
+  "subdomains": {
+    "_acme-challenge_upfjgayjnhc26kx5": {
+      "records": {
+        "CNAME": "9839e87b-1eba-416c-a946-8d0772a19a96.2.authorize.certificatemanager.goog."
+      }
+    }
+  },
+  "proxied": false
+}
