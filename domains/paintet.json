@@ -1,9 +1,11 @@
 {
-  "owner": {
-    "username": "IceAvocado",
-    "email": "karamalsopeh@gmail.com"
-  },
-  "record": {
-    "CNAME": "paintet-blook-world.base44.app"
-  }
+    "description": "A digital collection game clone called Paintet.",
+    "repo": "https://github.com",
+    "owner": {
+        "username": "iceavocado",
+        "email": "karamalsopeh@gmail.com"
+    },
+    "record": {
+        "CNAME": "paintet-blook-world.base44.app"
+    }
 }
