@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "devopsqag-debug"
+    "username": "devopsqag-debug",
+    "email": "thajj9228@gmail.com"
   },
   "records": {
     "CNAME": "quantumarmada-portfolio.thajj9228.workers.dev"
