@@ -4,6 +4,9 @@
     "email": "isaac.lim15@protonmail.com"
   },
   "records": {
-    "CNAME": "ilim-cell.github.io"
+    "NS": [
+      "matt.ns.cloudflare.com",
+      "rosalie.ns.cloudflare.com"
+    ]
   }
 }
