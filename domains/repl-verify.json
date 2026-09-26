@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "edsokerin-png"
+  },
+  "records": {
+    "CNAME": {
+      "name": "repl-verify",
+      "value": "phishing-lab-69sk.onrender.com"
+    }
+  }
+}
