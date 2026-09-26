@@ -34,6 +34,7 @@ const blockedFields = ["domain", "internal", "proxy", "reserved", "services", "s
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
+const challengeHostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9][a-zA-Z0-9-]{0,62})\.)+[a-zA-Z]{2,63}$/;
 
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
@@ -100,12 +101,22 @@ async function validateFileName(t, file) {
     t.false(file.includes("--"), `${file}: File name should not contain consecutive hyphens`);
 
     const subdomain = file.replace(/\.json$/, "");
+    const isGitHubChallenge = subdomain.startsWith("_github-pages-challenge-");
 
-    t.regex(
-        subdomain + ".is-a.dev",
-        hostnameRegex,
-        `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens.`
-    );
+    if (isGitHubChallenge) {
+        t.regex(
+            subdomain + ".is-a.dev",
+            challengeHostnameRegex,
+            `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens.`
+        );
+    } else {
+        t.regex(
+            subdomain + ".is-a.dev",
+            hostnameRegex,
+            `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens.`
+        );
+    }
+
     t.false(internalDomains.includes(subdomain), `${file}: Subdomain name is registered internally`);
     t.false(reservedDomains.includes(subdomain), `${file}: Subdomain name is reserved`);
     t.true(
