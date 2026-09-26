@@ -5,7 +5,10 @@
         "username": "akari310",
         "email": "ngocanhyb2009@gmail.com"
     },
-    "records": {
-        "CNAME": "akari310.github.io"
+    "record": {
+        "NS": [
+            "carmelo.ns.cloudflare.com",
+            "lila.ns.cloudflare.com"
+        ]
     }
 }
