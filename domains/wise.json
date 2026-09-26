@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Dr-Safaa-Kandil"
+    "username": "Dr-Safaa-Kandil",
+    "email": "dr.sa.kandil@gmail.com"
   },
-  "record": {
-    "CNAME": "cname.vercel-dns.com"
+  "records": {
+    "CNAME": "dr-safaa.vercel.app"
   }
 }
