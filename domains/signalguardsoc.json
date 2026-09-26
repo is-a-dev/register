@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "itdesk",
+    "email": "enghamzah021@gmail.com"
+  },
+  "record": {
+    "TXT": [
+      "@: zoho-verification=zb45865343.zmverify.zoho.com",
+      "@: v=spf1 include:one.zoho.com -all",
+      "26134248436._domainkey: k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTpKOErb4P9a1YYGQjcQf+cilGNULjdRAVEFF22cKCa00oAG/RIQe3uiAm95WGM+TrwBXlF0CdBUL9ufORCG5JYMFC6ZlxUSN9W0H+KC1UMAFUWCQGoh4aZRKVXKlp8qgkuSjP7pG2dNv5Uw5ugwe2OgeNy18TI5Xrd/IC4duuaQIDAQAB",
+      "zc940856094._domainkey: k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjIRS/HsWtM9tB3QUdrMh4ZOI+Yj+9CJMejOoa2Xw2+pLl7IZH14g+bo4a/c+frxNLU4x2OQt5yI09eHkb03BdZWOAV9Cg7mRAI51AaaGOuMrncu/GwcbEbI5Qtb7quayUAVAl0A0FHfN3HXOoJ5GjxH0jP+LE+1GyoQIN2cCcEwIDAQAB"
+    ],
+    "MX": [
+      "@: mx.zoho.com:10",
+      "@: mx2.zoho.com:20",
+      "@: mx3.zoho.com:50"
+    ]
+  }
+}
