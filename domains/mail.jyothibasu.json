@@ -1,16 +1,1 @@
-{
-  "owner": {
-    "username": "jyothi-basu",
-    "email": "jyothibasuchodavarapu@gmail.com"
-  },
-  "records": {
-    "TXT": {
-      "resend._domainkey": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4doFU/15XRFlgIMYMMoVi+oPS5uilLAN0vMBvU38lSzL5axep0h9Fyx9TA2O/4W/oQSJP4fO0VepEpDdrLCr7lIPdKF0C93tiPR69oJ1APh+BwsAtr/KlRwMBmHG2QBInW3yo4i/lTOIyxGFw1/U/bK31vLq6V0xjHt2wAdLUqQIDAQAB",
-      "_dmarc": "v=DMARC1; p=none;"
-    },
-    "CNAME": {
-      "rsend": "rsend.forge.rmta.net",
-      "send": "send.forge.rmta.net"
-    }
-  }
-}
+{"owner":{"username":"jyothi-basu","email":"jyothibasuchodavarapu@gmail.com"},"records":{"CNAME":"send.forge.rmta.net"}}
