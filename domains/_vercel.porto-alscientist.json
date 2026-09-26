@@ -4,6 +4,8 @@
     "email": "ahmadalimin700@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=porto-alscientist.is-a.dev,46448f71f93ad67da682"]
+    "TXT": [
+      "vc-domain-verify=porto-alscientist.is-a.dev,46448f71f93ad67da682"
+    ]
   }
 }

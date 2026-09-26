@@ -3,6 +3,8 @@
     "username": "ri5ing"
   },
   "records": {
-    "TXT": ["vc-domain-verify=ri5ing.is-a.dev,daf2bd0bdd6c20a94b3d"]
+    "TXT": [
+      "vc-domain-verify=ri5ing.is-a.dev,daf2bd0bdd6c20a94b3d"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "karthikeya2536",
-        "email": "yemulakarthikeya@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=karthik-portfolio.is-a.dev,ef6849278d7d5889bad4"
-    }
+  "owner": {
+    "username": "karthikeya2536",
+    "email": "yemulakarthikeya@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=karthik-portfolio.is-a.dev,ef6849278d7d5889bad4"
+  }
 }

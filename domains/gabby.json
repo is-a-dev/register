@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Gabby-Hue",
-        "email": "gabrielamel347@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "Gabby-Hue",
+    "email": "gabrielamel347@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
