@@ -4,7 +4,7 @@
     "email": "baraa.runtime@gmail.com"
   },
   "records": {
-    "ns": [
+    "NS": [
       "newt.ns.cloudflare.com",
       "rosalyn.ns.cloudflare.com"
     ]
