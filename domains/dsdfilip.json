@@ -1,9 +1,12 @@
 {
+    "description": "My Flask application backend running on Vercel",
+    "repo": "https://github.com",
     "owner": {
         "username": "mxrecki",
         "email": "175851745+mxrecki@users.noreply.github.com"
     },
-    "records": {
-        "CNAME": "://onrender.com"
+    "record": {
+        "CNAME": "://vercel-dns.com",
+        "TXT": "vc-domain-verify=dsdfilip.is-a.dev,d40a13680994a0a3f87c"
     }
 }
