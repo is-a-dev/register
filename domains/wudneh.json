@@ -1,0 +1,11 @@
+{
+  "description": "Personal website of Wudneh Tilahun Mengist — Mathematician, Educator, and Builder based in Debre Tabor, Ethiopia. Lecturer at Debre Tabor University.",
+  "owner": {
+    "username": "wud2hagie",
+    "email": "wudneh.tilahun@dbtu.edu.et"
+  },
+  "record": {
+    "CNAME": "wud2hagie.github.io"
+  },
+  "proxied": false
+}
