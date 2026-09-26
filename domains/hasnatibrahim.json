@@ -1,10 +1,13 @@
 {
-  "description": "Portfolio of Hasnat Ibrahim",
+  "description": "Hasnat Ibrahim",
   "owner": {
-    "username": "hasnatibrahim10-sys",
+    "username": "hasnatibrahim",
     "email": "hasnatibrahim10@gmail.com"
   },
   "records": {
-    "CNAME": "hasnat-ibrahim.pages.dev"
+    "NS": [
+      "carioca.ns.cloudflare.com", 
+      "scott.ns.cloudflare.com"
+    ]
   }
 }
