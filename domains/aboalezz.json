@@ -9,7 +9,8 @@
       "mx2.improvmx.com"
     ],
     "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
+      "v=spf1 include:spf.improvmx.com ~all",
+      "google-site-verification=DMAx82b75b8mqN8UMbGxaqiLhOqqmyhunwF5JPs2SkM"
     ]
   }
 }
