@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "loopsww",
+        "email": "loadf@proton.me"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=loadfent.is-a.dev,3af07d4b7b69948b9dbf",
+        "TXT": "vc-domain-verify=www.loadfent.is-a.dev,b70d8d2462c90b176b71"
+    }
+}
