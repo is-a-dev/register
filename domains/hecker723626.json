@@ -4,6 +4,6 @@
     "email": "asm24128@gmail.com"
   },
   "records": {
-    "A": ["103.130.119.224"]
+    "NS": ["carrera.ns.cloudflare.com", "koa.ns.cloudflare.com"]
   }
 }
