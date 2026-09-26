@@ -5,5 +5,10 @@
   },
   "records": {
     "CNAME": "neotwis.github.io"
+  },
+  "subdomains": {
+    "_discord": {
+      "TXT": "dh=2c03cf8fac5bbc8c88c23dac217eafc5ad5c6f6b"
+    }
   }
 }
