@@ -3,6 +3,6 @@
     "username": "Sina2026pop"
   },
   "records": {
-    "CNAME": "football-yar.onrender.com"
+    "A": ["216.24.57.1"]
   }
 }
