@@ -1,0 +1,10 @@
+{
+  "description": "My Flask application backend running on Vercel",
+  "owner": {
+    "username": "mxrecki",
+    "email": "175851745+mxrecki@users.noreply.github.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
+}
