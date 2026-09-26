@@ -1,12 +1,9 @@
 {
-    "description": "Justicera AI App",
-    "domain": "is-a.dev",
-    "subdomain": "justicera",
     "owner": {
-        "repo": "https://github.com/iamgamemasterg9-pixel/register",
+        "username": "iamgamemasterg9-pixel",
         "email": "iamgamemasterg9@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "storied-crisp-8463be.netlify.app"
     }
 }
