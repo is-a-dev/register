@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "BaraaByte",
+    "email": "baraa.runtime@gmail.com"
+  },
+  "records": {
+    "ns": [
+      "newt.ns.cloudflare.com",
+      "rosalyn.ns.cloudflare.com"
+    ]
+  }
+}
