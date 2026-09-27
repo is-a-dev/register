@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "mexhfl"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=wjd.is-a.dev,a0b8cedd32d4f1e12f29"
-    }
+  "owner": {
+    "username": "mexhfl"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=wjd.is-a.dev,a0b8cedd32d4f1e12f29"
+  }
 }
