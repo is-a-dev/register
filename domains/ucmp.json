@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Sakura-QoQ"
-    },
-    "records": {
-        "RECORDTYPE": "RECORDCONTENT"
-    }
+  "owner": {
+    "username": "Sakura-QoQ"
+  },
+  "records": {
+    "A": ["3.10.232.221"]
+  }
 }
