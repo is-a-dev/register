@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "rochke12-web"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=yug.is-a.dev,82f0a15e39f4352690b0"
+  }
+}
