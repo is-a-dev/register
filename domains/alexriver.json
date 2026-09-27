@@ -1,0 +1,10 @@
+{
+ "owner": {
+    "username": "alexriver101219",
+    "email": "alexriver101219@gmail.com"
+  },
+  "record": {
+    "CNAME": "devbook-alex.vercel.app",
+    "TXT": "vc-domain-verify=alexriver.is-a.dev,d19dfb837937f5302702",
+  }
+}
