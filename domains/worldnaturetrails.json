@@ -4,10 +4,5 @@
   },
   "records": {
     "CNAME": "ghs.google.com"
-  },
-  "subdomains": {
-    "vbv3hrqzeqwn": {
-      "CNAME": "gv-kyoyg3k37qws5r.dv.googlehosted.com"
-    }
   }
 }
