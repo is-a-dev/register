@@ -5,7 +5,9 @@
     "twitter": "VT_zero1"
   },
   "records": {
-    "A": ["216.198.79.1"],
+    "A": [
+      "216.198.79.1"
+    ],
     "MX": [
       {
         "target": "mx.zohocloud.ca",

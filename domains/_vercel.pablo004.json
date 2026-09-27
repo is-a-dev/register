@@ -1,1 +1,9 @@
-{"owner":{"username":"Pa004","email":"pablodo004@gmail.com"},"records":{"TXT":"vc-domain-verify=pablo004.is-a.dev,f0fb5d037469326e7ba7"}}
+{
+  "owner": {
+    "username": "Pa004",
+    "email": "pablodo004@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=pablo004.is-a.dev,f0fb5d037469326e7ba7"
+  }
+}
