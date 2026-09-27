@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "bhartiomee",
+    "email": "bhartiomee25@gmail.com"
+  },
+  "description": "FISA Sports — open-source social sports web app (feed, clubs, events, courts)",
+  "proxied": true,
+  "records": {
+    "CNAME": "fisa-sports.pages.dev",
+    "MX": [
+      {
+        "target": "inbound-smtp.ap-northeast-1.amazonaws.com",
+        "priority": 10
+      }
+    ]
+  }
+}
