@@ -1,0 +1,11 @@
+{
+  "description": "KrtlTech Web Sitesi",
+  "repo": "https://github.com/OfficialKrtlTech/KrtlTech",
+  "owner": {
+    "username": "OfficialKrtlTech",
+    "email": "officialkrtltech@icloud.com"
+  },
+  "record": {
+    "CNAME": "krtltech.pages.dev"
+  }
+}
