@@ -1,11 +1,9 @@
 {
-    "owner": {
-        "username": "kurutoga121323-sketch",
-        "email": "kurutoga121323@gmail.com"
-    },
-    "record": {
-        "A": [
-            "practicing-risky.tun.ply.gg"
-        ]
-    }
+  "owner": {
+    "username": "kurutoga121323-sketch",
+    "email": "kurutoga121323@gmail.com"
+  },
+  "records": {
+    "CNAME": "practicing-risky.tun.ply.gg"
+  }
 }
