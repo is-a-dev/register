@@ -2,9 +2,8 @@
   "owner": {
     "username": "ShotTechOp",
     "email": "whitedevilsexi@gmail.com"
-  },
+},
   "records": {
-    "CNAME": "tw97onqv.up.railway.app",
-    "TXT": "railway-verify=1606194b2a9ba6b00af9396a4cf8f88bae5e4cb8af3adc7b48e2081c53ae5d10"
+    "CNAME": "tw97onqv.up.railway.app"
   }
 }
