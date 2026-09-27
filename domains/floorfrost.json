@@ -1,0 +1,11 @@
+{
+  "description": "Official Floor Frost Gaming Website",
+  "repo": "https://github.com/YOUR_GITHUB_USERNAME/floor-frost-website",
+  "owner": {
+    "username": "vansh165yt",
+    "email": "vansh165yt@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
