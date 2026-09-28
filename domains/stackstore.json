@@ -1,0 +1,11 @@
+{
+  "description": "Loja de aplicativos do StackStore",
+  "repository": "https://github.com/opiteamdevs/stackstore",
+  "owner": {
+    "username": "opiteamdevs",
+    "email": "turmadoyeahblu3@gmail.com"
+  },
+  "record": {
+    "CNAME": "stackstore.theblu3sky0362.workers.dev"
+  }
+}
