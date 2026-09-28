@@ -4,6 +4,8 @@
     "email": "iwinter0911@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=wei0911.is-a.dev,c2196f821e980001acb7"]
+    "TXT": [
+      "vc-domain-verify=wei0911.is-a.dev,c2196f821e980001acb7"
+    ]
   }
 }

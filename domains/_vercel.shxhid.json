@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "shxhid-dev",
-        "email": "shxhidafrid1@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=shxhid.is-a.dev,6a8e0d8bee5ea1e14baf"
-    }
+  "owner": {
+    "username": "shxhid-dev",
+    "email": "shxhidafrid1@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=shxhid.is-a.dev,6a8e0d8bee5ea1e14baf"
+  }
 }

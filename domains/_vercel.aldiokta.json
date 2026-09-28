@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "aldiok27",
-        "email": "aldiokta007@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aldiokta.is-a.dev,04c02f41d50bd82050cd"
-    }
+  "owner": {
+    "username": "aldiok27",
+    "email": "aldiokta007@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aldiokta.is-a.dev,04c02f41d50bd82050cd"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sagarhutagi",
-        "email": "sagarmh6364@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=sagarhutagi.is-a.dev,73382fa170514ec61b91"
-    }
+  "owner": {
+    "username": "sagarhutagi",
+    "email": "sagarmh6364@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sagarhutagi.is-a.dev,73382fa170514ec61b91"
+  }
 }

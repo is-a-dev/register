@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "prinsipekumar",
-        "email": "prinsipekumar@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=prinsipekumar.is-a.dev,393e98e2c138c989fc9f"
-    }
+  "owner": {
+    "username": "prinsipekumar",
+    "email": "prinsipekumar@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=prinsipekumar.is-a.dev,393e98e2c138c989fc9f"
+  }
 }

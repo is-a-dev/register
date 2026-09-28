@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "MarcD25",
-        "email":"doria.marcjacob@gmail.com"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "MarcD25",
+    "email": "doria.marcjacob@gmail.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

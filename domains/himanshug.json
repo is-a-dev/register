@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "propainter",
-        "email": "himanshugnsit@gmail.com"
-    },
-    "records": {
-        "CNAME": "propainter.github.io"
-    }
+  "owner": {
+    "username": "propainter",
+    "email": "himanshugnsit@gmail.com"
+  },
+  "records": {
+    "CNAME": "propainter.github.io"
+  }
 }
