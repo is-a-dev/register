@@ -1,9 +1,9 @@
-{ 
-  "owner": { 
-    "username": "alexriver101219",
-    "email": "alexriver101219@gmail.com" 
-  }, 
-  "records": { 
-    "CNAME": "devbookalex.netlify.app/",
-  } 
-} 
+{
+    "owner": {
+        "username": "alexriver101219",
+        "email": "alexriver101219@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=alexriver.is-a.dev,73e64e6094b131cb0661"
+    }
+}
