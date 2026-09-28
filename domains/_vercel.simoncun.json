@@ -1,7 +1,7 @@
 {
     "owner": {
-        "username": "your-github-username",
-        "email": "your-email-address@example.com"
+        "username": "Simon-Cun",
+        "email": "simoncun.dev@gmail.com"
     },
     "records": {
         "TXT": "vc-domain-verify=simoncun.is-a.dev,452b441e1d9df58aa127"
