@@ -1,10 +1,11 @@
 {
-  "description": "wang20203's personal website",
+  "description": "Personal website for 车耗管家, a non-commercial vehicle fuel and maintenance tracking web app",
+  "repo": "https://github.com/wang20203/wangtest.github.io",
   "owner": {
     "username": "wang20203",
-    "email": ""
+    "email": "wang2020329@163.com"
   },
-  "record": {
+  "records": {
     "CNAME": "wang20203.github.io"
   }
 }
