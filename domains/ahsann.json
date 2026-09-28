@@ -6,6 +6,12 @@
   "records": {
     "A": [
       "75.2.60.5"
+    ],
+    "CNAME": [
+      {
+        "host": "iflzfm6jhgb",
+        "target": "gv-mv4nyylkj4kngu.dv.googlehosted.com"
+      }
     ]
   }
 }
