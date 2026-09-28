@@ -1,9 +1,9 @@
 {
-    "owner": {
-          "username": "ziyunyi8023",
-          "email": "ziyunyi666@gmail.com"
-    },
-    "record": {
-          "A": ["1.1.1.1"]
-    }
+  "owner": {
+    "username": "ziyunyi8023",
+    "email": "ziyunyi666@gmail.com"
+  },
+  "record": {
+    "CNAME": "ziyunyi8023.github.io"
+  }
 }
