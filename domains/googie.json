@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "y7777777777777778"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": {
+      "_vercel": "vc-domain-verify=googie.is-a.dev,77f8b5078249fd0cefc8"
+    }
+  }
+}
