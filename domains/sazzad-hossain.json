@@ -4,6 +4,6 @@
     "email": "dcodecore@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=www.sazzad-hossain.is-a.dev,73e424374dfc7376af48"
+    "A": ["216.198.79.1"]
   }
 }
