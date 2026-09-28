@@ -1,1 +1,9 @@
-
+{
+  "description": "Vexo",
+  "owner": {
+    "username": "tewtone66-cmd"
+  },
+  "record": {
+    "CNAME": "https://configsaz.tewtone66.workers.dev/"
+  }
+}
