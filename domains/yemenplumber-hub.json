@@ -1,5 +1,11 @@
-- [x] I have read and understood the Terms of Service (https://is-a.dev/terms)
-- [x] I have checked that my domain is not already taken and that my site is accessible
+# Requirements
+- [x] <!-- TOS --> I **agree** to the [Terms of Service](https://is-a.dev/terms).
+- [x] <!-- DOMAIN_STRUCTURE --> My file is following the [domain structure](https://docs.is-a.dev/domain-structure/).
+- [x] <!-- WEBSITE_REACHABLE --> My website is **reachable** and **completed**.
+- [x] <!-- SOFTWARE_RELATED --> My website is **software development** related.
+- [x] <!-- NON_COMMERCIAL --> My website is **not for commercial use**.
+- [x] <!-- CONTACT_INFO --> I have provided sufficient contact information in the `owner` key.
+- [x] <!-- WEBSITE_LINK --> I have provided a link to my website below.
 
-<!-- Preview: https://sites.google.com/view/plumber-electrician-yemen/Who-are-we -->
-<!-- Purpose: Personal portfolio website to showcase my plumbing and electrical projects in Yemen -->
+# Website Link
+https://sites.google.com/view/plumber-electrician-yemen/Who-are-we
