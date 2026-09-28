@@ -1,1 +1,14 @@
-{"owner":{"username":"jyothi-basu","email":"jyothibasuchodavarapu@gmail.com"},"records":{"CNAME":"send.forge.rmta.net"}}
+{
+  "owner": {
+    "username": "jyothi-basu",
+    "email": "jyothibasuchodavarapu@gmail.com"
+  },
+  "records": {
+    "MX": [
+      {
+        "priority": 10,
+        "target": "inbound-smtp.us-east-1.amazonaws.com"
+      }
+    ]
+  }
+}
