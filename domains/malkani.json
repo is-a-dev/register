@@ -4,7 +4,8 @@
      "email": "mzaid2710@gmail.com"
    },
    "records": {
-     "CNAME": "cname.vercel-dns.com"
+     "CNAME": "cname.vercel-dns.com",
+      "TXT" : "vc-domain-verify=malkani.is-a.dev,88e9c7a25291e2e5c28b"
    },
   "subdomains": {
     "resend._domainkey": {
