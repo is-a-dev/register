@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "Sushanth18052005",
-        "email": "sushanth.reddy22@kmit.edu.in"
-    },
-    "records": {
-        "A":["216.198.79.1"],
-        "CNAME": "vc-domain-verify=sushanthreddy.is-a.dev,6669918b72a1fcccc6e8"
-    }
+  "owner": {
+    "username": "Sushanth18052005",
+    "email": "sushanth.reddy22@kmit.edu.in"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
