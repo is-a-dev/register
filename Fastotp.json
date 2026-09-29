@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "bibekmaharana29",
+    "email": "aapka-email@gmail.com"
+  },
+  "domain": "fastotp",
+  "records": {
+    "A": ["76.76.21.21"]
+  }
+}
