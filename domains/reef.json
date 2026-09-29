@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "Rafiekuntest"
-  },
-  "records": {
-    "CNAME": "reef.dev"
-  }
+    "owner": {
+        "username": "Rafiekuntest"
+    },
+    "records": {
+        "CNAME": "reef-dev.vercel.app"
+    }
 }
