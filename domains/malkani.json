@@ -10,6 +10,7 @@
   "subdomains": {
     "resend._domainkey": {
       "TXT": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/eTHrSFtmAoNjW9VnRbHxncjE/ZbaATgdKz8rg0eNVwdfk0hy0LPvCA+S+O0lSIek5vG53AluJnLOjfL/TyFYp0wmpdGtcwSD0vjFuq46NfbyeMTMoyUU780gr8db54m0CkQa9kwyjjZ7Gw8Rd21uoUJSByaupgrOKAPDdwSY5wIDAQAB"
+    }
     },
     "send": {
       "MX": "inbound-smtp.ap-northeast-1.amazonaws.com",
