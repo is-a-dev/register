@@ -2,8 +2,7 @@
   "owner": {
     "username": "makulli"
   },
-  "record": {
+  "records": {
     "CNAME": "makulli.github.io"
-  },
-  "repo": "https://github.com/makulli/makulli.github.io"
+  }
 }
