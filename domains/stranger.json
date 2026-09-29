@@ -1,8 +1,11 @@
 {
-    "owner": {
-        "username": "shayanroyxyz"
-    },
-    "records": {
-        "CNAME": "[stranger.github.io]"
-    }
+  "description": "Football match prediction dashboard",
+  "repo": "https://github.com/shayanroyxyz/Football-Predictor",
+  "owner": {
+    "username": "shayanroyxyz",
+    "email": "shayanroy80x@gmail.com"
+  },
+  "records": {
+    "CNAME": "stranger.github.io"
+  }
 }
