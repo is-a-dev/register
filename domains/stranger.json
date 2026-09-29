@@ -1,11 +1,11 @@
 {
-  "description": "Football match prediction dashboard",
+  "description": "Football match prediction dashboard and analytics tool",
   "repo": "https://github.com/shayanroyxyz/Football-Predictor",
   "owner": {
     "username": "shayanroyxyz",
     "email": "shayanroy80x@gmail.com"
   },
   "records": {
-    "CNAME": "stranger.github.io"
+    "CNAME": "shayanroyxyz.github.io"
   }
 }
