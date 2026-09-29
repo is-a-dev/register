@@ -20,7 +20,10 @@
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all",
       "google-site-verification=9i5x0zqauM0B0GejCX6W7GDECxnSi-D49wCCcIhfWAU"
-    ]
+    ],
+    "_github-pages-challenge-DibyajyotiBiswal57": {
+      "TXT": "3d65588152e329ae9f84d2a5b48bbe"
+    }
   },
   "proxied": true
 }
