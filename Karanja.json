@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "ndungu97-dev",
+    "email": "abrahamndungu78@gmail.com"
+  },
+  "records": {
+    "CNAME": "ndungu97-dev.github.io",
+    "MX": ["route1.mx.cloudflare.net", "route2.mx.cloudflare.net", "route3.mx.cloudflare.net"],
+    "TXT": ["v=spf1 include:_spf.mx.cloudflare.net ~all"]
+  }
+}
