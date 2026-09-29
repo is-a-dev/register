@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "bktales",
-        "email": "superpootis12@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=bktales.is-a.dev,ec7a349ea5d08fa93db2"
-    }
+  "owner": {
+    "username": "bktales",
+    "email": "superpootis12@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=bktales.is-a.dev,ec7a349ea5d08fa93db2"
+  }
 }

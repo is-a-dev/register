@@ -3,7 +3,9 @@
     "username": "tayyab1251"
   },
   "records": {
-    "A": ["152.67.10.6"],
+    "A": [
+      "152.67.10.6"
+    ],
     "TXT": "google-site-verification=mfAmEVdg1RKgSqGVu3VwBF9hoJg5yu5JHTxXeeqVUKg"
   }
 }
