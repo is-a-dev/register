@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "usaimaker",
+    "email": "felovery@gmail.com"
+  },
+  "records": {
+    "CNAME": "qrify-ebon.vercel.app"
+  },
+  "description": "QRify - free artistic QR code generator"
+}
