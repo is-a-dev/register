@@ -1,0 +1,21 @@
+{
+  "owner": {
+    "username": "ridhonurj1"
+  },
+  "records": {
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mx1.forwardemail.net"
+      },
+      {
+        "priority": 20,
+        "target": "mx2.forwardemail.net"
+      }
+    ],
+    "TXT": [
+      "forward-email=tuyulstarpo001@gmail.com",
+      "v=spf1 include:forwardemail.net -all"
+    ]
+  }
+}
