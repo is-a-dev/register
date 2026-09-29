@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "bhavyatadvi",
-    "email": "bhavyatadvi0@gamil.com"
+    "username": "bhavyatadvi"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "CNAME": "bhavya-portfolio-ochre.vercel.app"
   }
 }
