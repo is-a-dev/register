@@ -1,3 +1,9 @@
-username: shivaanshmudgal
-email: SHIVAANSHMUDGAL24@GMAIL.COM
-CNAME: shivaanshmudgal.github.io
+{
+  "owner": {
+    "username": "shivaanshmudgal",
+    "email": "shivaanshmudga24@gmail.com"
+  },
+  "records": {
+    "CNAME": "shivaanshmudgal.github.io"
+  }
+}
