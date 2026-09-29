@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Kimbohy",
-        "email": "lovatianarabary@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=lova.is-a.dev,65909aed6c1c8728eb48"
-    }
+  "owner": {
+    "username": "Kimbohy",
+    "email": "lovatianarabary@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=lova.is-a.dev,65909aed6c1c8728eb48"
+  }
 }

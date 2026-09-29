@@ -1,7 +1,6 @@
 {
   "owner": {
-    "username": "developeradhi",
-    "email": "contact@adhi.is-a.dev"
+    "username": "developeradhi"
   },
   "records": {
     "TXT": "v=DMARC1; p=none;"

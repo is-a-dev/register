@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "yukimura-kyoto",
-        "email": "jeanlinguicagostoso@gmail.com"
-    },
-    "records": {
-        "CNAME": "yukei.pages.dev"
-    }
+  "owner": {
+    "username": "yukimura-kyoto",
+    "email": "jeanlinguicagostoso@gmail.com"
+  },
+  "records": {
+    "CNAME": "yukei.pages.dev"
+  }
 }
