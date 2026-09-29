@@ -4,8 +4,6 @@
     "email": "116277383+jayeshpandey01@users.noreply.github.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "TXT": "vc-domain-verify=codefy.is-a.dev,a382380c0d3a0d5b7b58"
   }
 }
