@@ -5,5 +5,6 @@
   },
   "records": {
     "CNAME": "dev-ayush-portfolio.vercel.app"
-  }
+  },
+  "proxied": true
 }
