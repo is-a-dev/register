@@ -11,13 +11,6 @@
     color: var(--color-foreground);
     min-height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    /* Soft pale green and white mesh gradient */
-    background: 
-      radial-gradient(circle at 15% 50%, #dcfce7, transparent 50%),
-      radial-gradient(circle at 85% 30%, #f0fdf4, transparent 50%),
-      radial-gradient(circle at 50% 80%, #ecfdf5, transparent 50%),
-      #ffffff;
-    background-attachment: fixed;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: -0.01em;

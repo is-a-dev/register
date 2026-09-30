@@ -37,17 +37,13 @@ export default async function Home() {
         {/* Top Action Bar (Client Component for sharing) */}
         <TopActionBar />
 
-        {/* Profile Header Block */}
-        <ProfileHeader />
-
-        {/* Social Icons row (centered) */}
-        <div className="flex justify-center items-center w-full mb-10 md:mb-12 animate-fade-in-up delay-100">
-          <SocialRow />
+        {/* Profile Card Block (Image, Name, Socials combined floating) */}
+        <div className="w-full flex flex-col items-center mb-10 animate-fade-in-up">
+          <ProfileHeader />
         </div>
 
         {/* Recent YouTube Upload Block */}
         <div className="w-full flex flex-col mb-10 animate-fade-in-up delay-200">
-          <h3 className="text-slate-500 font-semibold text-[0.85rem] mb-3 text-left px-3 uppercase tracking-widest">Featured Video</h3>
           <div className="w-full glass-panel p-2">
             <div className="w-full aspect-[16/9] rounded-[20px] overflow-hidden relative">
                <iframe 
@@ -96,22 +92,19 @@ export default async function Home() {
         href="https://rajs.vercel.app"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 left-1/2 -translate-x-1/2 w-[calc(100%-48px)] max-w-[400px] glass-panel !rounded-[24px] py-4 px-5 flex justify-between items-center z-50 cursor-pointer transition-all hover:scale-[1.02] animate-fade-in-up delay-500"
+        className="fixed bottom-6 left-1/2 -translate-x-1/2 w-[calc(100%-32px)] max-w-[448px] glass-panel !rounded-[24px] py-4 px-5 flex justify-start items-center z-50 cursor-pointer transition-all hover:scale-[1.02] animate-fade-in-up delay-500 shadow-lg"
         title="Visit my main portfolio"
       >
-        <div className="flex items-center gap-3 text-slate-800 font-medium text-[0.95rem]">
-          <div className="bg-green-100 p-1.5 rounded-full">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" className="text-green-700">
-               <circle cx="12" cy="7" r="3.2" />
-               <circle cx="7" cy="16" r="3.2" />
-               <circle cx="17" cy="16" r="3.2" />
+        <div className="flex items-center gap-3">
+          <div className="bg-emerald-100/70 p-1.5 rounded-full ring-1 ring-emerald-200/50">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-700">
+              <path d="M22 13h-4l-2.5-8a2 2 0 0 0-3.8 0L9.2 13H2"/>
+              <circle cx="7.5" cy="17" r="3.5"/>
+              <circle cx="16.5" cy="17" r="3.5"/>
+              <path d="M11 17h2"/>
             </svg>
           </div>
-          Biswadeep Tewari
-        </div>
-        <div className="text-slate-500 font-medium text-[0.9rem] flex items-center gap-1">
-          Portfolio
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          <span className="font-[family-name:var(--font-pacifico)] lowercase text-black text-[1.25rem] leading-none mb-0.5">biswadeep tewari</span>
         </div>
       </a>
     </main>

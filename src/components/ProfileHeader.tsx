@@ -3,6 +3,9 @@
 import { useRef } from "react";
 import Image from "next/image";
 import { loginWithGoogle } from "@/lib/firebase";
+import { MapPin } from "lucide-react";
+
+import SocialRow from "./SocialRow";
 
 export default function ProfileHeader() {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -27,34 +30,35 @@ export default function ProfileHeader() {
   };
 
   return (
-    <div className="flex flex-row items-center gap-[18px] mb-[24px]">
+    <div className="flex flex-row items-center gap-[22px] w-full">
       <div 
-        className="relative w-[110px] h-[110px] rounded-[32px] overflow-hidden shrink-0 cursor-pointer select-none ring-2 ring-white hover:ring-green-300 transition-all shadow-[0_8px_24px_rgba(0,0,0,0.08)]"
+        className="relative w-[125px] h-[125px] rounded-[36px] overflow-hidden shrink-0 cursor-pointer select-none ring-1 ring-black/5 hover:ring-green-400/50 transition-all shadow-md"
         onPointerDown={handlePointerDown}
         onPointerUp={clearTimer}
         onPointerLeave={clearTimer}
         onTouchStart={handlePointerDown}
         onTouchEnd={clearTimer}
-        onContextMenu={(e) => e.preventDefault()} // Prevent context menu on long press
+        onContextMenu={(e) => e.preventDefault()}
         title="Long press for admin access"
       >
         <Image
           src="https://avatars.githubusercontent.com/RajTewari01"
           alt="Biswadeep Tewari"
-          width={110}
-          height={110}
+          width={125}
+          height={125}
           className="object-cover w-full h-full pointer-events-none"
           priority
         />
       </div>
-      <div className="flex flex-col justify-center text-left">
-        <h1 className="text-[1.7rem] font-bold text-slate-900 tracking-tight leading-tight">
-          Biswadeep Tewari
+      <div className="flex flex-col justify-center text-left flex-1 py-1">
+        <h1 className="text-[1.8rem] lowercase text-black tracking-wide leading-none mb-2 font-[family-name:var(--font-pacifico)] drop-shadow-sm">
+          biswadeep tewari
         </h1>
-        <p className="text-slate-500 text-[0.95rem] mt-1 flex items-center gap-1.5 font-medium">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <p className="text-slate-500 text-[0.95rem] flex items-center justify-start gap-1 font-medium mb-1.5">
+          <MapPin className="w-[14px] h-[14px] text-emerald-600" strokeWidth={2.5} />
           Kolkata, West Bengal
         </p>
+        <SocialRow />
       </div>
     </div>
   );
