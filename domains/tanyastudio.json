@@ -1,0 +1,11 @@
+{
+  "description": "Portfolio website for Tanya",
+  "domain": "tanyastudio",
+  "record": {
+    "CNAME": "hello-tanyastudio.github.io"
+  },
+  "owner": {
+    "username": "hello-tanyastudio",
+    "email": "hello.tanyastudio@gmail.com"
+  }
+}
