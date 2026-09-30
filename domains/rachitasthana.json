@@ -1,0 +1,10 @@
+{
+  "description": "Link Cleaner - strips tracking parameters from YouTube and Instagram share links",
+  "owner": {
+    "username": "racstan",
+    "email": "asthanarachit@gmail.com"
+  },
+  "records": {
+    "CNAME": "racstan.github.io"
+  }
+}
