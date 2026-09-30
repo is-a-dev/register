@@ -4,6 +4,6 @@
     "email": "sreeramvrkumar@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": ["129.225.83.15"]
   }
 }
