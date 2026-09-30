@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "Lix2013",
-    "email": "iyadard68@gmail.com"
+    "username": "Lix2013"
   },
-  "record": {
+  "records": {
     "CNAME": "lix-website.netlify.app"
   }
 }
