@@ -4,6 +4,9 @@
     "email": "sybry1148@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=febry.is-a.dev,3c32add38667277bb0a0"
+    "TXT": [
+      "vc-domain-verify=febry.is-a.dev,3c32add38667277bb0a0",
+      "google-site-verification=WGUj-1YYBUKVFx3zP00zIImGlCSRe4peSDbGT8B-zaA"
+    ]
   }
 }
