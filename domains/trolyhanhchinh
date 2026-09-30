@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "taidtxemmex",
+    "email": "taidt.xemmex@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "hal.ns.cloudflare.com",
+      "magali.ns.cloudflare.com"
+    ]
+  }
+}
