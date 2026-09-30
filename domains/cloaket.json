@@ -3,8 +3,7 @@
     "username": "EthanM32122",
     "email": "himan672026@outlook.com"
   },
-  "record": {
-   "CNAME": "://onrender.com"
-
+  "records": {
+    "CNAME": "://onrender.com"
   }
 }
