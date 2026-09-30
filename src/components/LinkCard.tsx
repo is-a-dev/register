@@ -12,19 +12,10 @@ interface LinkCardProps {
 
 export default function LinkCard({ title, subtitle, url, iconUrl, delay = 0 }: LinkCardProps) {
   return (
-    <motion.a
+    <a
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      initial={{ opacity: 0, y: 15 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ 
-        delay: 0.4 + delay * 0.05, 
-        duration: 0.4, 
-        ease: [0.16, 1, 0.3, 1]
-      }}
-      whileHover={{ scale: 1.02 }}
-      whileTap={{ scale: 0.98 }}
       className="glass-panel w-full flex items-center p-3 mb-3 cursor-pointer group transition-all"
     >
       {/* Icon Squircle */}
@@ -48,6 +39,6 @@ export default function LinkCard({ title, subtitle, url, iconUrl, delay = 0 }: L
           <path d="m9 18 6-6-6-6"/>
         </svg>
       </div>
-    </motion.a>
+    </a>
   )
 }
