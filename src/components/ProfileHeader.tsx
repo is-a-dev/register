@@ -51,8 +51,8 @@ export default function ProfileHeader() {
         />
       </div>
       <div className="flex flex-col justify-center text-left flex-1 py-1">
-        <h1 className="text-[1.8rem] lowercase text-black tracking-wide leading-none mb-2 font-[family-name:var(--font-pacifico)] drop-shadow-sm">
-          biswadeep tewari
+        <h1 className="text-[1.8rem] text-black tracking-wide leading-none mb-2 font-[family-name:var(--font-pacifico)] drop-shadow-sm">
+          Biswadeep Tewari
         </h1>
         <p className="text-slate-500 text-[0.95rem] flex items-center justify-start gap-1 font-medium mb-1.5">
           <MapPin className="w-[14px] h-[14px] text-emerald-600" strokeWidth={2.5} />
