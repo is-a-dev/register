@@ -1,8 +1,14 @@
 {
+  "description": "Personal developer portfolio and open-source software project showcase",
+  "repo": "https://github.com/xct007",
   "owner": {
-    "username": "xct007"
+    "username": "xct007",
+    "email": "itsrose.dev@gmail.com"
   },
-  "records": {
-    "NS": ["amalia.ns.cloudflare.com", "giancarlo.ns.cloudflare.com"]
+  "record": {
+    "NS": [
+      "amalia.ns.cloudflare.com",
+      "giancarlo.ns.cloudflare.com"
+    ]
   }
 }
