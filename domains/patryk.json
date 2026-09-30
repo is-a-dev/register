@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "patrykburger",
+    "email": "burger.patryk.personal@gmail.com"
+  },
+  "record": {
+    "CNAME": "dihygzx3tp3j0.cloudfront.net"
+  },
+  "subdomain": "patryk",
+  "nested": [
+    {
+      "subdomain": "_769aa555d8529a845cb28af1198298b4",
+      "record": {
+        "CNAME": "_b47b537a3be307a9feab9d9ad737d7b7.wzccmgtwzk.acm-validations.aws."
+      }
+    }
+  ]
+}
