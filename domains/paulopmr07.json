@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "paulopmr07",
+    "email": "paulopmr07@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "hal.ns.cloudflare.com",
+      "daisy.ns.cloudflare.com"
+    ]
+  }
+}
