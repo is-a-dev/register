@@ -1,33 +1,84 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #000000;
-  --color-foreground: #ffffff;
+  --color-background: #ffffff;
+  --color-foreground: #111827;
 }
 
 @layer base {
   body {
-    background-color: var(--color-background);
+    background-color: #f0fdf4; /* Pale green base */
     color: var(--color-foreground);
     min-height: 100vh;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    /* Sleek black mirror background */
-    background: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #000000 70%);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    /* Soft pale green and white mesh gradient */
+    background: 
+      radial-gradient(circle at 15% 50%, #dcfce7, transparent 50%),
+      radial-gradient(circle at 85% 30%, #f0fdf4, transparent 50%),
+      radial-gradient(circle at 50% 80%, #ecfdf5, transparent 50%),
+      #ffffff;
     background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.01em;
   }
 }
 
-/* Apple-Style Glassmorphism Utilities */
+/* Beautiful White Pill Style with 3D Depth */
 .glass-panel {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  /* Deeper, softer layered shadows for a 3D effect */
+  box-shadow: 
+    0 2px 8px rgba(0, 0, 0, 0.02),
+    0 10px 24px rgba(16, 185, 129, 0.06), 
+    inset 0 1px 0 rgba(255, 255, 255, 1);
+  border-radius: 24px;
 }
 
 .glass-panel:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.03),
+    0 14px 32px rgba(16, 185, 129, 0.08), 
+    inset 0 1px 0 rgba(255, 255, 255, 1);
 }
+
+.glass-panel:active {
+  box-shadow: 
+    0 1px 2px rgba(0, 0, 0, 0.02),
+    0 4px 12px rgba(16, 185, 129, 0.04), 
+    inset 0 2px 4px rgba(0, 0, 0, 0.04);
+  transform: translateY(2px);
+}
+
+/* Background SVG Breathing Animation */
+@keyframes breathe {
+  0%, 100% { transform: scale(1) translate(0, 0); }
+  50% { transform: scale(1.05) translate(-1%, -1%); }
+}
+
+.animate-breathe {
+  animation: breathe 15s ease-in-out infinite;
+}
+
+/* Entrance Animations */
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+  opacity: 0; /* start hidden */
+  animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Stagger Delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
 

@@ -27,9 +27,9 @@ export default function ProfileHeader() {
   };
 
   return (
-    <div className="flex flex-row items-center gap-[18px] mb-[18px]">
+    <div className="flex flex-col items-center gap-[18px] mb-[24px]">
       <div 
-        className="relative w-[96px] h-[96px] rounded-full overflow-hidden shrink-0 cursor-pointer select-none ring-2 ring-transparent hover:ring-white/20 transition-all"
+        className="relative w-[110px] h-[110px] rounded-[32px] overflow-hidden shrink-0 cursor-pointer select-none ring-2 ring-white hover:ring-green-300 transition-all shadow-[0_8px_24px_rgba(0,0,0,0.08)]"
         onPointerDown={handlePointerDown}
         onPointerUp={clearTimer}
         onPointerLeave={clearTimer}
@@ -39,21 +39,21 @@ export default function ProfileHeader() {
         title="Long press for admin access"
       >
         <Image
-          src="https://github.com/RajTewari01.png"
+          src="https://avatars.githubusercontent.com/RajTewari01"
           alt="Biswadeep Tewari"
-          width={96}
-          height={96}
+          width={110}
+          height={110}
           className="object-cover w-full h-full pointer-events-none"
           priority
         />
       </div>
-      <div className="flex flex-col justify-center text-left">
-        <h1 className="text-[1.5rem] font-semibold text-white tracking-tight leading-tight">
+      <div className="flex flex-col items-center justify-center text-center">
+        <h1 className="text-[1.7rem] font-bold text-slate-900 tracking-tight leading-tight">
           Biswadeep Tewari
         </h1>
-        <p className="text-[#a1a1aa] text-[0.95rem] mt-1 flex items-center gap-1.5 font-medium">
+        <p className="text-slate-500 text-[0.95rem] mt-1.5 flex items-center gap-1.5 font-medium">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-          Kolkata, West Bengal, India
+          Kolkata, West Bengal
         </p>
       </div>
     </div>
