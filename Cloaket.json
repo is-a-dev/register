@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "EthanM32122"
-    },
-    "records": {
-        "CNAME": "Cloaket.org"
-    }
+  "owner": {
+    "username": "EthanM32122",
+    "email": "[himan672026@outlook.com]"
+  },
+  "records": {
+    "CNAME": "is-a-dev-docs.pages.dev"
+  },
+  "proxied": true
 }
