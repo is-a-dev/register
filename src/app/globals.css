@@ -7,7 +7,7 @@
 
 @layer base {
   body {
-    background-color: #f0fdf4; /* Pale green base */
+    background-color: #f0fdf4;
     color: var(--color-foreground);
     min-height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -22,6 +22,16 @@
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: -0.01em;
   }
+}
+
+/* Background SVG Breathing Animation */
+@keyframes breathe {
+  0%, 100% { transform: scale(1) translate(0, 0); }
+  50% { transform: scale(1.05) translate(-1%, -1%); }
+}
+
+.animate-breathe {
+  animation: breathe 15s ease-in-out infinite;
 }
 
 /* Clean Solid White Cards (Replaces Glass) */
@@ -48,16 +58,7 @@
   transform: translateY(1px);
 }
 
-/* Wave Animation for SVG */
-@keyframes wave {
-  0% { transform: translateX(0) scaleY(1); }
-  50% { transform: translateX(-15%) scaleY(1.1); }
-  100% { transform: translateX(0) scaleY(1); }
-}
 
-.animate-wave {
-  animation: wave infinite ease-in-out;
-}
 
 /* Entrance Animations */
 @keyframes fadeInUp {

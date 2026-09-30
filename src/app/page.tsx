@@ -24,21 +24,14 @@ export default async function Home() {
   return (
     <main className="w-full min-h-screen flex flex-col items-center pb-24 relative overflow-x-hidden bg-transparent">
       
-      {/* Beautiful Animated Wave SVG Background */}
-      <div className="fixed bottom-0 left-0 w-full h-[60vh] overflow-hidden z-[0] pointer-events-none opacity-[0.25] text-emerald-800 mix-blend-multiply flex items-end">
-        {/* Minimalist Solid Tree SVG */}
-        <svg className="absolute bottom-0 right-[5%] w-[45vw] max-w-[350px] h-auto opacity-60 animate-wave origin-bottom" style={{ animationDuration: '12s' }} viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 2L4 10H8L2 16H10V22H14V16H22L16 10H20L12 2Z" />
-        </svg>
-        {/* Front Wave */}
-        <svg className="absolute w-[200%] h-auto bottom-0 left-0 animate-wave" style={{ animationDuration: '18s' }} viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
-          <path fill="currentColor" fillOpacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-        </svg>
-        {/* Back Wave */}
-        <svg className="absolute w-[200%] h-auto bottom-0 left-0 animate-wave" style={{ animationDuration: '24s', animationDirection: 'reverse', opacity: 0.6 }} viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
-          <path fill="currentColor" fillOpacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,138.7C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      {/* Cool SVG Background Patterns (Topographic / Abstract Layers) */}
+      <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none opacity-[0.05] text-green-800">
+        <svg className="absolute w-[200%] h-[200%] top-[-50%] left-[-50%] animate-breathe" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill="none" stroke="currentColor" strokeWidth="0.5" d="M0,50 Q25,30 50,50 T100,50 M0,60 Q25,40 50,60 T100,60 M0,70 Q25,50 50,70 T100,70 M0,80 Q25,60 50,80 T100,80 M0,40 Q25,20 50,40 T100,40 M0,30 Q25,10 50,30 T100,30 M0,20 Q25,0 50,20 T100,20 M0,90 Q25,70 50,90 T100,90 M0,10 Q25,-10 50,10 T100,10" />
+          <path fill="none" stroke="currentColor" strokeWidth="0.3" d="M-20,50 Q25,10 50,50 T120,50 M-20,60 Q25,20 50,60 T120,60 M-20,70 Q25,30 50,70 T120,70 M-20,80 Q25,40 50,80 T120,80 M-20,40 Q25,0 50,40 T120,40" transform="rotate(45 50 50)" />
         </svg>
       </div>
+
       <div className="w-full max-w-[480px] px-4 py-8 flex flex-col pt-8 md:pt-12 relative z-[10]">
         
         {/* Top Action Bar (Client Component for sharing) */}
