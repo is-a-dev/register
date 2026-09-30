@@ -1,0 +1,11 @@
+{
+  "description": "Noxa subscription endpoint",
+  "repo": "https://github.com/svizer1",
+  "owner": {
+    "username": "svizer1",
+    "email": "dagpker@gmail.com"
+  },
+  "record": {
+    "CNAME": "noxa-vpn.noxa-vpn.workers.dev"
+  }
+}
