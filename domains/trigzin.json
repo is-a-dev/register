@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "TRigzin"
+    "username": "TRigzin",
+    "email": "raindevilcurse@gmail.com"
   },
   "records": {
-    "CNAME": "my-portfolio-psi-beryl-77.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
