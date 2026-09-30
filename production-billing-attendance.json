@@ -1,0 +1,20 @@
+Replace YOUR-GITHUB-USERNAME and YOUR-EMAIL with your real details:
+{
+    "owner": {
+        "username": "YOUR-GITHUB-USERNAME",
+        "email": "YOUR-EMAIL"
+    },
+    "records": {
+        "CNAME": "YOUR-GITHUB-USERNAME.github.io"
+    }
+}
+Example if your username is marie:
+{
+    "owner": {
+        "username": "marie",
+        "email": "marie@gmail.com"
+    },
+    "records": {
+        "CNAME": "marie.github.io"
+    }
+}
