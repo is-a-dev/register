@@ -36,19 +36,21 @@
     0 4px 6px -2px rgba(0, 0, 0, 0.025);
   border-radius: 24px;
   transition: all 0.2s ease;
+  transform: translateZ(0); /* Fix scrolling rendering bugs */
+  backface-visibility: hidden;
 }
 
 .glass-panel:hover {
   box-shadow: 
     0 20px 40px -5px rgba(16, 185, 129, 0.08),
     0 8px 10px -2px rgba(16, 185, 129, 0.04);
-  transform: translateY(-2px);
+  transform: translateY(-2px) translateZ(0);
 }
 
 .glass-panel:active {
   box-shadow: 
     0 5px 15px -5px rgba(0, 0, 0, 0.05);
-  transform: translateY(1px);
+  transform: translateY(1px) translateZ(0);
 }
 
 
@@ -62,6 +64,9 @@
 .animate-fade-in-up {
   opacity: 0; /* start hidden */
   animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 /* Stagger Delays */
