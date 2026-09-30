@@ -1,10 +1,9 @@
-
 {
   "owner": {
     "username": "tsololenka904-cpu",
     "email": "tsololenka904@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=ludogold.is-a.dev,5ba862ed273e53197aea"
   }
 }
