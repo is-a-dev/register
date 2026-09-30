@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "shukalpunit"
+        "username": "shukalpunit",
+        "email": "pshukal24@gmail.com"
     },
     "records": {
-        "CNAME": "https://shukalpunit.github.io/portfolio/"
+        "TXT": "https://shukalpunit.github.io/portfolio/"
     }
 }
