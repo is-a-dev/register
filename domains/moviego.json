@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "NVLR33",
-    "email": "offic1al.fxx@gmail.com"
+    "email": "iiojitepreuct.1@yandex.ru"
   },
   "records": {
-    "A": ["76.76.21.21"],
-    "TXT": ["vc-domain-verify=moviego.is-a.dev,b1062391e20fc1fa42b0"]
+    "CNAME": "cname.vercel-dns.com"
   }
 }
