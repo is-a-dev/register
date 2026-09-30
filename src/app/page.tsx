@@ -22,13 +22,21 @@ export default async function Home() {
   const randomVideoId = videoIds[Math.floor(Math.random() * videoIds.length)]
 
   return (
-    <main className="w-full min-h-screen flex flex-col items-center pb-24 relative overflow-x-hidden bg-transparent">
+    <main 
+      className="w-full min-h-screen flex flex-col items-center pb-24 relative overflow-x-hidden"
+      style={{
+        background: "radial-gradient(circle at 15% 50%, #dcfce7, transparent 50%), radial-gradient(circle at 85% 30%, #f0fdf4, transparent 50%), radial-gradient(circle at 50% 80%, #ecfdf5, transparent 50%), #ffffff",
+        backgroundAttachment: "fixed"
+      }}
+    >
       
-      {/* Cool SVG Background Patterns (Topographic / Abstract Layers) */}
-      <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none opacity-[0.05] text-green-800">
-        <svg className="absolute w-[200%] h-[200%] top-[-50%] left-[-50%] animate-breathe" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill="none" stroke="currentColor" strokeWidth="0.5" d="M0,50 Q25,30 50,50 T100,50 M0,60 Q25,40 50,60 T100,60 M0,70 Q25,50 50,70 T100,70 M0,80 Q25,60 50,80 T100,80 M0,40 Q25,20 50,40 T100,40 M0,30 Q25,10 50,30 T100,30 M0,20 Q25,0 50,20 T100,20 M0,90 Q25,70 50,90 T100,90 M0,10 Q25,-10 50,10 T100,10" />
-          <path fill="none" stroke="currentColor" strokeWidth="0.3" d="M-20,50 Q25,10 50,50 T120,50 M-20,60 Q25,20 50,60 T120,60 M-20,70 Q25,30 50,70 T120,70 M-20,80 Q25,40 50,80 T120,80 M-20,40 Q25,0 50,40 T120,40" transform="rotate(45 50 50)" />
+      {/* Cool SVG Background Patterns */}
+      <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
+        <svg className="absolute top-[-10%] left-[-15%] w-[80%] md:w-[50%] h-auto opacity-[0.04] text-green-900 animate-breathe" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="currentColor" d="M44.7,-76.4C58.9,-69.2,71.8,-59.1,81.3,-46.3C90.8,-33.5,96.8,-18,97.1,-2.4C97.4,13.2,91.9,28.9,81.8,41.5C71.7,54.1,56.9,63.6,41.4,70.1C25.9,76.6,9.6,80.1,-6.1,79.5C-21.8,78.9,-37.2,74.1,-50.8,65.8C-64.4,57.5,-76.1,45.7,-82.9,31.7C-89.7,17.7,-91.6,1.4,-88.2,-13.4C-84.8,-28.2,-76.1,-41.4,-64.4,-51.7C-52.7,-62,-38.1,-69.3,-24.1,-74.6C-10.1,-79.9,3.3,-83.1,16.4,-81.4C29.5,-79.7,42.6,-73,50.7,-64.7Z" transform="translate(100 100) scale(1.1)" />
+        </svg>
+        <svg className="absolute bottom-[-5%] right-[-20%] w-[90%] md:w-[60%] h-auto opacity-[0.05] text-green-800 animate-breathe" style={{ animationDelay: '-7.5s' }} viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="currentColor" d="M47.7,-73.2C61,-64.5,70.5,-50.2,78.2,-34.5C85.9,-18.8,91.8,-1.7,87.6,12.7C83.4,27.1,69,38.8,55.4,49.2C41.8,59.6,29.1,68.7,14,75.1C-1.1,81.5,-18.6,85.2,-33.3,79.9C-48,74.6,-59.8,60.3,-69.7,44.9C-79.6,29.5,-87.6,13,-85.4,-1.8C-83.2,-16.6,-70.8,-29.7,-58.5,-40.5C-46.2,-51.3,-34,-59.8,-21.1,-67.6C-8.2,-75.4,5.4,-82.5,20.1,-81.7C34.8,-80.9,50.6,-72.2,47.7,-73.2Z" transform="translate(100 100) scale(1.2)" />
         </svg>
       </div>
       <div className="w-full max-w-[480px] px-4 py-8 flex flex-col pt-8 md:pt-12">
@@ -37,9 +45,7 @@ export default async function Home() {
         <TopActionBar />
 
         {/* Profile Header Block */}
-        <div className="animate-fade-in-up">
-          <ProfileHeader />
-        </div>
+        <ProfileHeader />
 
         {/* Social Icons row (centered) */}
         <div className="flex justify-center items-center w-full mb-10 md:mb-12 animate-fade-in-up delay-100">
