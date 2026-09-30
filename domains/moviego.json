@@ -4,6 +4,7 @@
     "email": "offic1al.fxx@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": ["76.76.21.21"],
+    "TXT": ["vc-domain-verify=moviego.is-a.dev,b1062391e20fc1fa42b0"]
   }
 }
