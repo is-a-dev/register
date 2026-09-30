@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "tsololenka904-cpu",
+    "email": "tsololenka904@gmail.com"
+  },
+  "description": "Ludo Gold - Online Ludo Game with PayPal and M-Pesa",
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "sub": "ludogold",
+  "proxied": false
+}
