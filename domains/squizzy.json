@@ -1,8 +1,4 @@
 {
-  "owner": {
-    "username": "temniprinc"
-  },
-  "records": {
-    "CNAME": "temniprinc.github.io"
-  }
+  "owner": { "username": "temniprinc" },
+  "records": { "CNAME": "temniprinc.github.io" }
 }
