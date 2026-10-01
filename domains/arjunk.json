@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "arjunkirandev",
-    "email": "arjunkiran4375@gmail.com"
-  },
-  "records": {
-    "CNAME": "arjunkirandev.github.io"
-  }
+    "owner": {
+        "username": "arjunkirandev",
+        "email": "arjunkiran4375@gmail.com"
+    },
+    "records": {
+        "CNAME": "arjunkiran.pages.dev"
+    }
 }
