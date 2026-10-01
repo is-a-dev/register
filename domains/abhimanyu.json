@@ -1,8 +1,12 @@
 {
   "owner": {
-    "username": "abhimanyu-1"
+    "username": "abhimanyu-1",
+    "email": "malfoyhp07@gmail.com.com"
   },
-  "records": {
-    "A": ["216.198.79.1"]
+  "record": {
+    "CNAME": "my-portfolio-nine-xi-61.vercel.app",
+    "TXT": [
+      "vc-domain-verify=abhimanyu.is-a.dev,741fa03802803adfda3a"
+    ]
   }
 }
