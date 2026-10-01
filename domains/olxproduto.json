@@ -1,0 +1,10 @@
+{
+    "description": "OLPG - Plataforma de pagamento seguro para produtos OLX",
+    "repo": "https://github.com/JamesSilva7K/OLX",
+    "owner": {
+        "username": "JamesSilva7K"
+    },
+    "record": {
+        "CNAME": "olxproduto.bladestudiosltda.workers.dev"
+    }
+}
