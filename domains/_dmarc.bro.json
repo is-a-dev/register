@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "namandhakad712",
+    "email": "namandhakad712@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none; rua=mailto:namandhakad712+bro@gmail.com"
+  },
+  "proxied": true
+}
