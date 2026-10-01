@@ -1,9 +1,9 @@
 {
-    "records":  {
-                    "TXT":  "vc-domain-verify=helloakshay.is-a.dev,3cbe1e8b4a72aef7e68c"
-                },
-    "owner":  {
-                  "email":  "akshay.dunny08@gmail.com",
-                  "username":  "VUPPALA-AKSHAY"
-              }
+  "records": {
+    "TXT": "vc-domain-verify=helloakshay.is-a.dev,3cbe1e8b4a72aef7e68c"
+  },
+  "owner": {
+    "email": "akshay.dunny08@gmail.com",
+    "username": "VUPPALA-AKSHAY"
+  }
 }

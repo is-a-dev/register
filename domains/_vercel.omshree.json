@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "omshree59",
-        "email": "paridaomshree@gmail.com"
-    },
-    "records": {
-        "TXT": ["vc-domain-verify=omshree.is-a.dev,4184503360bd6c47640b"]
-    }
+  "owner": {
+    "username": "omshree59",
+    "email": "paridaomshree@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=omshree.is-a.dev,4184503360bd6c47640b"
+    ]
+  }
 }
