@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "5353ahmed",
+    "email": "ahmed.almhdy.241467@gmail.com"
+  },
+  "domain": "habyabb11",
+  "record": {
+    "NS": ["leah.ns.cloudflare.com", "igor.ns.cloudflare.com"]
+  }
+}
