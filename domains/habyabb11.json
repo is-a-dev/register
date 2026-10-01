@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "5353ahmed",
+    "username": "5353ahme",
     "email": "ahmed.almhdy.241467@gmail.com"
   },
-  "domain": "habyabb11",
   "record": {
     "NS": ["leah.ns.cloudflare.com", "igor.ns.cloudflare.com"]
   }
