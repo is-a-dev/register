@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "siko6476",
-    "email": "ddrxfgy681@gmail.com"
+    "username": "siko6476"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "CNAME": "siko6476.github.io"
   }
 }
