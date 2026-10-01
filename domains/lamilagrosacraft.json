@@ -4,12 +4,8 @@
     "username": "scv-git"
   },
   "records": {
-    "A": [
-      { "value": "45.229.73.67", "proxied": false }
-    ],
-    "AAAA": [
-      { "value": "2803:4d20:8641:700::1", "proxied": false }
-    ],
+    "A": ["45.229.73.67"],
+    "AAAA": ["2803:4d20:8641:700::1"],
     "SRV": {
       "_minecraft._tcp": "0 5 25565 lamilagrosacraft.is-a.dev"
     }
