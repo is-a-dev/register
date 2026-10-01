@@ -4,8 +4,6 @@
     "email": "ngyzwork@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "TXT": "vc-domain-verify=isaacng.is-a.dev,332fd9a887366a3d8c3b"
   }
 }
