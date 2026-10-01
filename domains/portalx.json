@@ -1,12 +1,8 @@
 {
-    "owner": {
-        "username": "MatisanchikBravohvh",
-        "email": "grokXIAI@proton.me"
-    },
-    "records": {
-        "NS": [
-            "jermaine.ns.cloudflare.com",
-            "lisa.ns.cloudflare.com"
-        ]
-    }
+  "owner": {
+    "username": "MatisanchikBravohvh"
+  },
+  "record": {
+    "CNAME": "cl-gl5691f8b9.gcdn.co"
+  }
 }
