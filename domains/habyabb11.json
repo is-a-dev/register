@@ -3,7 +3,10 @@
     "username": "5353ahme",
     "email": "ahmed.almhdy.241467@gmail.com"
   },
-  "record": {
-    "NS": ["leah.ns.cloudflare.com", "igor.ns.cloudflare.com"]
+  "records": {
+    "NS": [
+      "leah.ns.cloudflare.com",
+      "dax.ns.cloudflare.com"
+    ]
   }
 }
