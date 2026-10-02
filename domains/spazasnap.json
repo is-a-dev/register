@@ -1,9 +1,9 @@
 {
+  "description": "SpazaSnap AI - Township Retail Intelligence portfolio",
   "owner": {
     "username": "innocenttatendawork-dot",
     "email": "innocent.tatenda.work@gmail.com"
   },
-  "description": "SpazaSnap AI - Township Retail Intelligence portfolio",
   "proxied": true,
   "records": {
     "CNAME": "innocenttatendawork-dot.github.io",
@@ -19,4 +19,4 @@
     ],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
-}
+      }
