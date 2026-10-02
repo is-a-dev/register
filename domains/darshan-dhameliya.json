@@ -6,6 +6,6 @@
     "email": "iamdhameliya@gmail.com" 
   },
   "records": {
-    "CNAME": "darshan-dhameliya.web.app"
+    "A": ["216.198.79.1"]
   }
 }
