@@ -1,0 +1,11 @@
+{
+  "description": "David Jide - Developer Portfolio",
+  "repo": "https://github.com/Synacwave",
+  "owner": {
+    "username": "synacwave",
+    "email": "synacwave@gmail.com"
+  },
+  "record": {
+    "CNAME": "expectations-portfolio.netlify.app"
+  }
+}
