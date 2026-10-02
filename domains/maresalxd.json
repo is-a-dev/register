@@ -4,7 +4,7 @@
     "username": "GITHUB_KULLANICI_ADIN",
     "email": "GITHUB_EMAIL_ADRESIN"
   },
-  "record": {
-    "CNAME": "SITE_ADRESIN"
-  }
+ "records": {
+  "CNAME": "realmaresal-oss.github.io"
+}
 }
