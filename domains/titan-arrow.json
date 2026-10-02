@@ -1,0 +1,10 @@
+{
+  "description": "TitanArrow chess analysis server",
+  "owner": {
+    "username": "ghostchess013-spec",
+    "email": "ghostchess013-spec@users.noreply.github.com"
+  },
+  "record": {
+    "A": ["43.173.6.212"]
+  }
+}
