@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "laminisidibe222-source",
+    "email": "ton-email@gmail.com"
+  },
+  "records": {
+    "CNAME": {
+      "name": "makeinvoice",
+      "value": "cname.vercel-dns.com"
+    }
+  }
+}
