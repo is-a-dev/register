@@ -1,10 +1,9 @@
 {
   "description": "MaresalXD personal website",
   "owner": {
-    "username": "GITHUB_KULLANICI_ADIN",
-    "email": "GITHUB_EMAIL_ADRESIN"
+    "username": "realmaresal-oss"
   },
- "records": {
-  "CNAME": "realmaresal-oss.github.io"
-}
+  "records": {
+    "CNAME": "realmaresal-oss.github.io"
+  }
 }
