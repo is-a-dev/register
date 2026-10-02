@@ -1,0 +1,11 @@
+{
+  "description": "Mini projet frontend",
+  "owner": {
+    "username": "AmtrifAyman",
+    "email": "aymanamtrif@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=fdrop.is-a.dev,59b3fd441ef5b4b8d74c"
+  }
+}
