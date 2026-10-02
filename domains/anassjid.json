@@ -1,1 +1,11 @@
-
+{
+  "description": "Anass Jid personal portfolio",
+  "owner": {
+    "username": "anassjid"
+  },
+  "record": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
+}
