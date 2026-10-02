@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "madumurugesh"
+        "username": "madumurugesh",
+        "email": "madumurugesh4043@gmail.com"
     },
     "records": {
-        "CNAME": "portfolio-nine-teal-9o1grftsip.vercel.app"
+        "CNAME": "cname.vercel-dns.com"
     }
 }
