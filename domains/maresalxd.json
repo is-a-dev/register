@@ -1,7 +1,8 @@
 {
   "description": "MaresalXD personal website",
   "owner": {
-    "username": "realmaresal-oss"
+    "username": "realmaresal-oss",
+    "email": "realmaresal@gmail.com"
   },
   "records": {
     "CNAME": "realmaresal-oss.github.io"
