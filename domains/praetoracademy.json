@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "praetoracademy",
+    "email": "auth.praetor@gmail.com"
+  },
+  "records": {
+    "URL": "https://educational-lace-undefined-lil.trycloudflare.com"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}
