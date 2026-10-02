@@ -1,11 +1,8 @@
 {
-  "description": "Vercel domain verification for anassjid.is-a.dev",
   "owner": {
-    "username": "anassjid"
+    "username": "ajxdevx"
   },
-  "record": {
-    "TXT": [
-      "vc-domain-verify=anassjid.is-a.dev,852ef3ee273889edfee6"
-    ]
+  "records": {
+    "TXT": "vc-domain-verify=anassjid.is-a.dev,852ef3ee273889edfee6"
   }
 }
