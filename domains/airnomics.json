@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "airnomics"
+    "username": "airnomics",
+    "email": "airnomicks@gmail.com"
   },
   "records": {
     "CNAME": "airnomics.github.io"
