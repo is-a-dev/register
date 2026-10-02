@@ -1,0 +1,10 @@
+{
+  "description": "Satva's personal developer portfolio",
+  "owner": {
+    "username": "stva01",
+    "email": "satvalite@gmail.com"
+  },
+  "records": {
+    "CNAME": "satva-urls-nine.vercel.app"
+  }
+}

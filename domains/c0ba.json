@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "c0ba"
-    },
-    "records": {
-        "CNAME": "c0ba.cdstudio.org"
-    },
-    "proxied": true
+  "owner": {
+    "username": "c0ba"
+  },
+  "records": {
+    "CNAME": "c0ba.cdstudio.org"
+  },
+  "proxied": true
 }

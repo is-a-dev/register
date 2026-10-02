@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "nawfs254"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "nawfs254"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

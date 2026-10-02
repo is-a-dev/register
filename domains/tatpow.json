@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "tatpow"
-    },
-    "records": {
-        "CNAME": "tatpow.github.io"
-    }
+  "owner": {
+    "username": "tatpow"
+  },
+  "records": {
+    "CNAME": "tatpow.github.io"
+  }
 }

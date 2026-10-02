@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "docroch",
-        "email": "soheilabbasnia@gmail.com"
-    },
-    "records": {
-        "CNAME": "docroch.ir"
-    }
+  "owner": {
+    "username": "docroch",
+    "email": "soheilabbasnia@gmail.com"
+  },
+  "records": {
+    "CNAME": "docroch.ir"
+  }
 }

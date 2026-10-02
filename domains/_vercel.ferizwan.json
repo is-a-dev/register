@@ -1,0 +1,11 @@
+{
+  "description": "Vercel domain verification for ferizwan.is-a.dev",
+  "repo": "https://github.com/Ferizwan/Portfolio",
+  "owner": {
+    "username": "Ferizwan",
+    "email": "ferizmalik12@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ferizwan.is-a.dev,044a1e3aa3865eb4d403"
+  }
+}

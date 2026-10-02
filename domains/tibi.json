@@ -1,12 +1,11 @@
 {
-    "owner": {
-        "username": "tibiv22",
-        "email": "contact@tibi.is-a.dev"
-    },
-    "records": {
-        "NS": [
-            "jaime.ns.cloudflare.com",
-            "wanda.ns.cloudflare.com"
-        ]
-    }
+  "owner": {
+    "username": "devtibi"
+  },
+  "records": {
+    "NS": [
+      "jaime.ns.cloudflare.com",
+      "wanda.ns.cloudflare.com"
+    ]
+  }
 }

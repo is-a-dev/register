@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "xehrf"
-    },
-    "records": {
-        "CNAME": "xehrf-github-io.vercel.app"
-    }
+  "owner": {
+    "username": "xehrf"
+  },
+  "records": {
+    "CNAME": "xehrf-github-io.vercel.app"
+  }
 }

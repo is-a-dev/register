@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AnakamaTH",
-        "email": "contact@anakama.xyz"
-    },
-    "records": {
-        "CNAME": "anakama-is-a-dev.pages.dev"
-    }
+  "owner": {
+    "username": "AnakamaTH",
+    "email": "contact@anakama.xyz"
+  },
+  "records": {
+    "CNAME": "anakama-is-a-dev.pages.dev"
+  }
 }
