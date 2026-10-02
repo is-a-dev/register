@@ -1,0 +1,11 @@
+{
+  "description": "启笔·KIBI Markdown 编辑器官网",
+  "repo": "https://gitlab.com/FirstWater/documentedit",
+  "owner": {
+    "username": "你的GitHub用户名",
+    "email": "你的GitHub邮箱"
+  },
+  "record": {
+    "CNAME": "firstwater.gitlab.io"
+  }
+}
