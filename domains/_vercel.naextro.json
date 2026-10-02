@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "naextro",
-        "email": "riham.tangail@gmail.com",
-        "discord":"h6s"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=naextro.is-a.dev,dba133e235a17fb19f22"
-    }
+  "owner": {
+    "username": "naextro",
+    "email": "riham.tangail@gmail.com",
+    "discord": "h6s"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=naextro.is-a.dev,dba133e235a17fb19f22"
+  }
 }

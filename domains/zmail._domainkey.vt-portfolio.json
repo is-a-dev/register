@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "Vt01nft",
+    "email": "vt01nfts@gmail.com",
+    "twitter": "VT_zero1"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJ2r4XdUizSvMDexH1jE6wrPaNgoccdfc1JaRuCBRpF30ltlB6frc4iLH0F/GqkHfgdWn/tU9RzaB1UOnp2OkMzfb6jNRDfOk+ZEqlegvJmX1gaxxgwpNfg0/2t3F5G9UlVhynOZA4szDQMHQF/gR0tLKuVGTb2q6UkBHsg/ITowlDAQAB"
+  }
+}

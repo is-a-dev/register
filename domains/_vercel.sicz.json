@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "siczpro-svg",
-        "email": "sicz.pro@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=sicz.is-a.dev,9320934073ef82070b0a"
-    }
+  "owner": {
+    "username": "siczpro-svg",
+    "email": "sicz.pro@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sicz.is-a.dev,4b69f923e55210910990"
+  }
 }

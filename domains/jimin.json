@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "j243kim",
-        "email": "rainbow604034@gmail.com"
-    },
-    "records": {
-        "CNAME": "custom-domains.chatgpt.site"
-    }
+  "owner": {
+    "username": "j243kim",
+    "email": "rainbow604034@gmail.com"
+  },
+  "records": {
+    "CNAME": "custom-domains.chatgpt.site"
+  }
 }
