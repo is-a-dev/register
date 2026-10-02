@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "devlamys",
+    "email": "muhammedlameesmv@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=lamees.is-a.dev,29ae5a4615cf7638c210"
+  }
+}
