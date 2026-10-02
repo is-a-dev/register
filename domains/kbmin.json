@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "minr2kb",
-        "email": "kbmin1129@gmail.com"
-    },
-    "records": {
-        "CNAME": "portfolio-kbmin.web.app"
-    }
+  "owner": {
+    "username": "minr2kb",
+    "email": "kbmin1129@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-kbmin.web.app"
+  }
 }
