@@ -1,15 +1,9 @@
 {
   "owner": {
     "username": "chishxd",
-    "email": [
-      "chishxd@gmail.com",
-      "chishxd@tutamail.com"
-    ]
+    "email": "chishxd@gmail.com"
   },
   "records": {
-    "CNAME": [
-      "chishxd.github.io",
-      "chishxd.xyz"
-    ]
+    "CNAME": "chishxd.github.io"
   }
 }
