@@ -1,9 +1,9 @@
 {
   "owner": {
-   "username": "jeevanhs06",
-     "email": "jeevanhsofficial@gmail.com"
+    "username": "jeevanhs06",
+    "email": "jeevanhsofficial@gmail.com"
   },
- "records": {
-   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCV0gzgwHgyQgdlVDVZMIjnMSKzTdr/bJFYbxll2pAHYyxcbSGPS2lWbnO9FgRgBCIFNbd69cZ+RwVLOUJwlRliJdUsr747/v+IVzGJKsiNeXLKWfHuO/42vzzWAqOB0gHsyQ2AAhveXj/tY+ej5BL8iMnSoyW9QTOtbSIHBX9iKQIDAQAB"
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCV0gzgwHgyQgdlVDVZMIjnMSKzTdr/bJFYbxll2pAHYyxcbSGPS2lWbnO9FgRgBCIFNbd69cZ+RwVLOUJwlRliJdUsr747/v+IVzGJKsiNeXLKWfHuO/42vzzWAqOB0gHsyQ2AAhveXj/tY+ej5BL8iMnSoyW9QTOtbSIHBX9iKQIDAQAB"
   }
 }

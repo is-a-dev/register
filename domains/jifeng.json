@@ -1,12 +1,9 @@
 {
-  "repo": "https://github.com/Yangchengen-hub/sanfengyun-review",
   "owner": {
     "username": "Yangchengen-hub",
     "email": "3565583431@qq.com"
   },
   "records": {
-    "A": [
-      "43.226.44.4"
-    ]
+    "CNAME": "jifeng-cn.pages.dev"
   }
 }

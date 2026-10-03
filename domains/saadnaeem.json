@@ -4,8 +4,16 @@
     "email": "muhammadsaadnaeem424@gmail.com"
   },
   "records": {
-    "A":   ["129.158.246.156"],
-    "MX":  ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all", "google-site-verification=xDbr-t-Swcn9FqFmWxQ19Z3vEcnHHYjq9CqRZOtOUGU"]
+    "A": [
+      "129.158.246.156"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all",
+      "google-site-verification=xDbr-t-Swcn9FqFmWxQ19Z3vEcnHHYjq9CqRZOtOUGU"
+    ]
   }
 }

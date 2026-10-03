@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "rainyday21",
-        "email": "rainydayscholar21@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=rainyday.is-a.dev,5c73d9a32cdb0f2da226"
-    }
+  "owner": {
+    "username": "rainyday21",
+    "email": "rainydayscholar21@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=rainyday.is-a.dev,5c73d9a32cdb0f2da226"
+  }
 }

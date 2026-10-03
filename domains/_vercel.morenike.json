@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mo-renike",
-        "email": "herroyalpianist@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=morenike.is-a.dev,acd43aae378f3ad2c7f0"
-    }
+  "owner": {
+    "username": "mo-renike",
+    "email": "herroyalpianist@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=morenike.is-a.dev,acd43aae378f3ad2c7f0"
+  }
 }

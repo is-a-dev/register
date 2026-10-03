@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "rich0021",
-        "email": "kurabersayap002@gmail.com"
-    },
-    "records": {
-        "CNAME": "muttaqin.netlify.app"
-    }
+  "owner": {
+    "username": "rich0021",
+    "email": "kurabersayap002@gmail.com"
+  },
+  "records": {
+    "CNAME": "muttaqin.netlify.app"
+  }
 }

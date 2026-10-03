@@ -4,8 +4,16 @@
     "email": "guesswhoishere4@gmail.com"
   },
   "records": {
-    "A":   ["79.72.72.15"],
-    "MX":  ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all", "google-site-verification=KKc_xMrFqrPr78h8jGtwA6-0oPEKucmkCK3g8_WHTTQ"]
+    "A": [
+      "79.72.72.15"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all",
+      "google-site-verification=KKc_xMrFqrPr78h8jGtwA6-0oPEKucmkCK3g8_WHTTQ"
+    ]
   }
 }

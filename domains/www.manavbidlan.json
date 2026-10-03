@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Manav-bidlan",
-        "email": "manavbidlan22@gmail.com"
-    },
-    "records": {
-        "CNAME": "manav-bidlan.netlify.app"
-    }
+  "owner": {
+    "username": "Manav-bidlan",
+    "email": "manavbidlan22@gmail.com"
+  },
+  "records": {
+    "CNAME": "manav-bidlan.netlify.app"
+  }
 }

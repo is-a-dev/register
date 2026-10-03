@@ -1,11 +1,11 @@
 {
- "description": "Personal blog for Adarsh B A",
- "repo": "https://github.com/developeradhi/blog",
- "owner": {
- "username": "developeradhi",
- "email": "adhipvt2203@gmail.com"
- },
- "records": {
- "CNAME": "developeradhi.github.io"
- }
+  "description": "Personal blog for Adarsh B A",
+  "repo": "https://github.com/developeradhi/blog",
+  "owner": {
+    "username": "developeradhi",
+    "email": "adhipvt2203@gmail.com"
+  },
+  "records": {
+    "CNAME": "developeradhi.github.io"
+  }
 }

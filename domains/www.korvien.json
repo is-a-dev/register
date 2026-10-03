@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "KorvienDev"
-    },
-    "records": {
-        "CNAME": "korviendev.github.io"
-    }
+  "owner": {
+    "username": "KorvienDev"
+  },
+  "records": {
+    "CNAME": "korviendev.github.io"
+  }
 }

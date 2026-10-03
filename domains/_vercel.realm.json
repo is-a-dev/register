@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "chandanSahoo-cs",
-        "email": "chandansahoo02468@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=realm.is-a.dev,301140f48cbe693ae9be"
-    }
+  "owner": {
+    "username": "chandanSahoo-cs",
+    "email": "chandansahoo02468@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=realm.is-a.dev,301140f48cbe693ae9be"
+  }
 }

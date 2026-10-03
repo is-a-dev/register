@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "thedarkmrx",
-        "email": "thedarkmrx@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=about-thedarkmrx.is-a.dev,3fc735fef7781515576a"
-    }
+  "owner": {
+    "username": "thedarkmrx",
+    "email": "thedarkmrx@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=about-thedarkmrx.is-a.dev,3fc735fef7781515576a"
+  }
 }

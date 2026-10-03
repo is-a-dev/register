@@ -5,6 +5,9 @@
     "twitter": "thedevmatei"
   },
   "records": {
-    "NS": ["chip.ns.cloudflare.com", "marjory.ns.cloudflare.com"]
+    "NS": [
+      "chip.ns.cloudflare.com",
+      "marjory.ns.cloudflare.com"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "leoolivi",
-        "email": "olivierileo19@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=leoo.is-a.dev,208b8cf90f121ae13c8e"
-    }
+  "owner": {
+    "username": "leoolivi",
+    "email": "olivierileo19@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=leoo.is-a.dev,208b8cf90f121ae13c8e"
+  }
 }

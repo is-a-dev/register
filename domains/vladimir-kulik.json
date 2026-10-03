@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "vladimirkulikdev",
-        "email": "aterrealms@gmail.com"
-    },
-    "records": {
-        "CNAME": "vladimirkulikdev.github.io"
-    }
+  "owner": {
+    "username": "vladimirkulikdev",
+    "email": "aterrealms@gmail.com"
+  },
+  "records": {
+    "CNAME": "vladimirkulikdev.github.io"
+  }
 }

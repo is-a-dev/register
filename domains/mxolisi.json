@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Levii17",
-        "email": "mxolisibhotile58@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "Levii17",
+    "email": "mxolisibhotile58@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

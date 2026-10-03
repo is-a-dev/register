@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "karlowsmorris",
-        "email": "karlowsmorris@gmail.com"
-    },
-    "records": {
-        "CNAME": "karlowsmorris.github.io"
-    }
+  "owner": {
+    "username": "karlowsmorris",
+    "email": "karlowsmorris@gmail.com"
+  },
+  "records": {
+    "CNAME": "karlowsmorris.github.io"
+  }
 }

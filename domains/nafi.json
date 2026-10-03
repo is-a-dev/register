@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sa-nafi",
-        "email": "nafi.frolic804@aleeas.com"
-    },
-    "records": {
-        "CNAME": "sa-nafi.github.io"
-    }
+  "owner": {
+    "username": "sa-nafi",
+    "email": "nafi.frolic804@aleeas.com"
+  },
+  "records": {
+    "CNAME": "sa-nafi.github.io"
+  }
 }

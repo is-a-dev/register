@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "thatoneumer",
-        "email": "umercrusher34@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "thatoneumer",
+    "email": "umercrusher34@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

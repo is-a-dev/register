@@ -1,9 +1,9 @@
 {
-    "owner": {
-      "username": "agrorithms",
-      "email": "destinyfarmfinder@proton.me"
-    },
-    "records": {
-      "CNAME": "is-a-dev-1ul.pages.dev"
-    }
+  "owner": {
+    "username": "agrorithms",
+    "email": "destinyfarmfinder@proton.me"
+  },
+  "records": {
+    "CNAME": "is-a-dev-1ul.pages.dev"
   }
+}

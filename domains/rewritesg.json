@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "RewriteSG",
-        "email": "hazwansg15@gmail.com"
-    },
-    "records": {
-        "CNAME": "rewritesg.github.io"
-    }
+  "owner": {
+    "username": "RewriteSG",
+    "email": "hazwansg15@gmail.com"
+  },
+  "records": {
+    "CNAME": "rewritesg.github.io"
+  }
 }

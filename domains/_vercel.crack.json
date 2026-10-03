@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Krusherk",
-        "email": "kqowiy25@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=crack.is-a.dev,aa51b06db4df1190f8f8"
-    }
+  "owner": {
+    "username": "Krusherk",
+    "email": "kqowiy25@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=crack.is-a.dev,aa51b06db4df1190f8f8"
+  }
 }
