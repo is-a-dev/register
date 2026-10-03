@@ -4,5 +4,7 @@
     },
     "records": {
         "CNAME": "tuffgit21.github.io"
-    }
+    },
+    "proxied": true
+    
 }
