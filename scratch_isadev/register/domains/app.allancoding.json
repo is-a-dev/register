@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "allancoding",
+    "email": "allancoding.dev@gmail.com",
+    "twitter": "allancoding",
+    "discord": "allancoding"
+  },
+  "records": {
+    "CNAME": "dns.allancoding.dev"
+  },
+  "proxied": true
+}

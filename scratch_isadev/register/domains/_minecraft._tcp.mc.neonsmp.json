@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "Ne0nt1"
+  },
+  "records": {
+    "SRV": [
+      {
+        "priority": 1,
+        "weight": 1,
+        "port": 23607,
+        "target": "wisplike-disabled.gl.at.ply.gg"
+      }
+    ]
+  }
+}

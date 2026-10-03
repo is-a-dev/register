@@ -1,0 +1,10 @@
+{
+  "description": "Joe Dawley",
+  "owner": {
+    "username": "jdawley",
+    "twitter": "joedawley"
+  },
+  "records": {
+    "CNAME": "joedawley.com"
+  }
+}

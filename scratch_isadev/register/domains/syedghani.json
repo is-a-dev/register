@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "dev-syedghani",
+    "email": "syedghani001@email.com"
+  },
+  "records": {
+    "CNAME": "dev-syedghani.github.io"
+  },
+  "proxied": false
+}

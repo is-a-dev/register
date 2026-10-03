@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "rich7420",
+    "email": "richhuang@apache.org"
+  },
+  "records": {
+    "CNAME": "frontend-service-82626127307.asia-east1.run.app"
+  },
+  "proxied": false
+}

@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "prapanbiswas",
+    "email": "prapanbiswas@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
+  }
+}

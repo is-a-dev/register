@@ -1,0 +1,10 @@
+{
+  "description": "My information.",
+  "owner": {
+    "username": "Aidenhtg",
+    "email": "aidenhiseh.m.l@gmail.com"
+  },
+  "records": {
+    "CNAME": "core-dusky.vercel.app"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "thunder-coding",
+    "email": "yakshbari4@gmail.com",
+    "discord": "codingthunder"
+  },
+  "records": {
+    "URL": "https://thunders.website"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}

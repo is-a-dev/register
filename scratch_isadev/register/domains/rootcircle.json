@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "rootCircle",
+    "email": "dev.frolics@gmail.com"
+  },
+  "records": {
+    "URL": "https://rootcircle.github.io"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}

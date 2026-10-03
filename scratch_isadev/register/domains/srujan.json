@@ -1,0 +1,10 @@
+{
+  "description": "Personal Website",
+  "owner": {
+    "username": "bqwerr",
+    "email": "srujan.t@outlook.com"
+  },
+  "records": {
+    "CNAME": "bqwerr.github.io"
+  }
+}

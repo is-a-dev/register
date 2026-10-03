@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "TrevorDBrown",
+    "email": "trevordylanbrown@gmail.com"
+  },
+  "records": {
+    "URL": "https://trevord.me"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/code": "https://github.com/TrevorDBrown"
+    },
+    "redirect_paths": true
+  }
+}

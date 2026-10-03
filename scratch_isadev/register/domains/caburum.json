@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "caburum",
+    "discord": "caburum"
+  },
+  "records": {
+    "NS": [
+      "fred.ns.cloudflare.com",
+      "leah.ns.cloudflare.com"
+    ]
+  }
+}

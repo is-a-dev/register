@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Pacifico } from 'next/font/google'
 import "./globals.css"
+import RedirectPopupProvider from "@/components/RedirectPopupProvider"
 
 const pacifico = Pacifico({
   weight: '400',
@@ -25,7 +26,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={pacifico.variable}>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <RedirectPopupProvider>
+          {children}
+        </RedirectPopupProvider>
+      </body>
     </html>
   )
 }

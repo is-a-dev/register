@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "cmolina",
+    "email": "is-a-dev@carlosmolina.cl"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "cmolina-dev.pages.dev"
+  }
+}
