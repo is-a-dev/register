@@ -1,11 +1,12 @@
 {
   "owner": {
     "username": "jassmeinnour-art",
-    "email": "jassmeinnour@gmail.com"
+    "email": "jassmeinnour-eng@gmail.com"
   },
   "domain": "merchant-radar",
   "subdomain": "",
-  "records": {
+  "record": {
     "CNAME": "cname.vercel-dns.com"
-  }
+  },
+  "proxied": false
 }
