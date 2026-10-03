@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "magmashice",
+    "email": "aissalabandaseize@gmail.com"
+  },
+  "proxied": false,
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNKlO3tr06xjUGcKgmm/Ba8cy1bQWn3eY6sc30GNaNIU7tC9O9RfE76KBIuFNcCfl4PFu/KHEcblvhoHpx/+KhmvptiM4trFTmQeKgo+yk7BEDMoCVr6Opk54u2CEXC+gdIPUPD+Wj7XU1W1+cluz7Bq1QtOO8SeuPUXh2tQdloQIDAQAB"
+    ]
+  }
+}
