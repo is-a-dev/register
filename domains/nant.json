@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "aadnanmt",
+    "email": "adnan@nanoolabs.dev"
+  },
+  "record": {
+    "NS": [
+      "kia.ns.cloudflare.com",
+      "kirk.ns.cloudflare.com"
+    ]
+  }
+}
