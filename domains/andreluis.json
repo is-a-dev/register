@@ -1,5 +1,9 @@
-{ "owner": 
-  { "username": "andreluisaguiar", 
-    "email": "andreluisaguiarn@gmail.com" },
-  "records": { "CNAME": "poritfolio.pages.dev" } 
+{
+    "owner": {
+        "username": "AV248",
+        "email": "itzAavrit4@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
