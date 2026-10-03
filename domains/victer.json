@@ -1,13 +1,11 @@
 {
+  "description": "Portfolio Victer — Full-stack Developer",
+  "repo": "https://github.com/victerhong/portfolio-victer",
   "owner": {
     "username": "VicterHong",
     "email": "victerphanjaya@gmail.com"
   },
   "record": {
-    "CNAME": "cname.mintlify.builders",
-    "TXT": [
-      "28_J5suAwVQBvGynG9nBd6zjDtkpu3hPOw1oPbqA3XU",
-      "d5fd6b50-2b29-4843-addb-3afd60b44783"
-    ]
+    "CNAME": "portfolio-victer.pages.dev"
   }
 }
