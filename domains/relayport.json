@@ -4,7 +4,7 @@
     "email": "nganlinh4@gmail.com"
   },
   "records": {
-    "CNAME": "jev-proxy.relayport.workers.dev"
+    "A": ["136.86.179.217"]
   },
-  "proxied": true
+  "proxied": false
 }
