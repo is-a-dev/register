@@ -1,0 +1,11 @@
+{
+  "description": "Channel Six News",
+  "owner": {
+    "username": "BushDevelops",
+    "email": "thespacecore10@gmail.com"
+  },
+  "repo": "https://github.com/BushDevelops/channelsix.github.io",
+  "records": {
+    "CNAME": "bushdevelops.github.io"
+  }
+}
