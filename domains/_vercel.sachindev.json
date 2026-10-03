@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "AEGON247",
+    "email": "sachinmehta247@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sachindev.is-a.dev",
+    "CNAME": "zacos.vercel.app"
+  }
+}
