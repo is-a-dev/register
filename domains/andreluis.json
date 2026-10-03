@@ -4,13 +4,9 @@
     "email": "andreluisaguiarn@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
-  },
-  "subdomains": {
-    "_vercel": {
-      "records": {
-        "TXT": "vc-domain-verify=andreluis.is-a.dev,1022c27af912e3456de1"
-      }
+    "A": ["216.198.79.1"],
+    "TXT": {
+      "_vercel": "vc-domain-verify=andreluis.is-a.dev,1022c27af912e3456de1"
     }
   }
 }
