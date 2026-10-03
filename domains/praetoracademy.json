@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "praetoracademy",
+    "email": "auth.praetor@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
