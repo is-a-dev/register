@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "tanishkasharmaaa",
+    "email": "anjanasharma8448766174@gmail.com"
+  },
+  "records": [
+    {
+      "type": "TXT",
+      "name": "_vercel",
+      "value": "vc-domain-verify=thebuildgirl.is-a.dev"
+    }
+  ]
+}
