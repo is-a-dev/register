@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "TechyElle",
-    "email": "penamoraciellemae@gmail.com"
+    "email": "pciellemae@gmail.com"
   },
-  "record": {
-    "A": ["216.198.79.1"]
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
