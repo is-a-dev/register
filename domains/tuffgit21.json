@@ -1,10 +1,10 @@
 {
     "owner": {
-        "username": "tuffgit21"
+        "username": "tuffgit21",
+        "email": "tuffgit21@duck.com"
     },
     "records": {
-        "CNAME": "tuffgit21.github.io",
-        "email": "tuffgit21@duck.com"
+        "CNAME": "tuffgit21.github.io"
     },
     "proxied": true
     
