@@ -6,7 +6,10 @@
     "twitter": "tachib_shin"
   },
   "records": {
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
     "TXT": "forward-email=tachibshin@duck.com"
   }
 }

@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "Frqmelikescheese"
-    },
-    "records": {
-        "A": [ "185.27.134.139" ]
-    }
+  "owner": {
+    "username": "Frqmelikescheese"
+  },
+  "records": {
+    "A": [
+      "185.27.134.139"
+    ]
+  }
 }

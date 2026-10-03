@@ -1,9 +1,9 @@
 {
-    "owner": {
+  "owner": {
     "username": "x1NST1NCTx",
     "email": "avykera@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=annish.is-a.dev,158807a66f06a526777d"
-    }
+  },
+  "records": {
+    "TXT": "vc-domain-verify=annish.is-a.dev,158807a66f06a526777d"
+  }
 }

@@ -1,0 +1,9 @@
+{
+  "description": "OpenAI Sites domain verification for Mohammed Ayman",
+  "owner": {
+    "username": "Mohammed91Ayman"
+  },
+  "records": {
+    "TXT": "openai-site-verification=9j4j5v6BstNnoMTkLkHRbrgCHF-FU8c8xAc7q2k2K1c"
+  }
+}

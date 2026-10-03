@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "colding10",
-        "email": "bygjlhd3e@mozmail.com"
-    },
-    "records": {
-        "CNAME": "coldblog.pages.dev"
-    }
+  "owner": {
+    "username": "colding10",
+    "email": "bygjlhd3e@mozmail.com"
+  },
+  "records": {
+    "CNAME": "coldblog.pages.dev"
+  }
 }

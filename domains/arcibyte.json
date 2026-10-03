@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "arcibyte",
-        "email": "arcibyte@gmail.com"
-    },
-    "records": {
-        "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "arcibyte",
+    "email": "arcibyte@gmail.com"
+  },
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ]
+  }
 }

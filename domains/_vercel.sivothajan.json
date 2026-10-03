@@ -4,6 +4,9 @@
     "email": "is-a.dev@sivothajan.me"
   },
   "records": {
-    "TXT": ["vc-domain-verify=sivothajan.is-a.dev,3b5b618d16ca4dbe62a1", "vc-domain-verify=www.sivothajan.is-a.dev,fae31f790b62563bea01"]
+    "TXT": [
+      "vc-domain-verify=sivothajan.is-a.dev,2329f3c21ece1b94d5bd",
+      "vc-domain-verify=www.sivothajan.is-a.dev,b57a3d901000fbfaa1a0"
+    ]
   }
 }
