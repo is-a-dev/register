@@ -1,0 +1,9 @@
+{
+  "description": "Personal software development portfolio",
+  "owner": {
+    "username": "ignit-fury",
+    "email": "prem.patel9224@gmail.com"
+  },
+  "record": {
+    "CNAME": "ignitdev.vercel.app"
+  }
