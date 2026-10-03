@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "Suidvck"
+    "username": "Suidvck",
+    "email": "suidvck@gmail.com"
   },
   "records": {
     "TXT": "v=DMARC1; p=none; adkim=s; aspf=s"
