@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Dadinhio841",
+    "email": "ton.email@gmail.com"
+  },
+  "description": "SOUM - Messagerie 100% cryptee",
+  "domain": "soum",
+  "subdomain": "",
+  "records": {
+    "CNAME": "soum-dadinhio841.netlify.app"
+  }
+}
