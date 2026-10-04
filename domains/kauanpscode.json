@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "kauanpscode"
-    },
-    "records": {
-        "CNAME": "kauanps-portfolio.vercel.app"
-    }
+  "owner": {
+    "username": "kauanpscode"
+  },
+  "records": {
+    "CNAME": "kauanps-portfolio.vercel.app"
+  }
 }

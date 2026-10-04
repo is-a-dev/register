@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AndresO7",
-        "email": "andres.ortiz.h.2001@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=andres-o.is-a.dev,ac8519e419517c6bfbdb"
-    }
+  "owner": {
+    "username": "AndresO7",
+    "email": "andres.ortiz.h.2001@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=andres-o.is-a.dev,ac8519e419517c6bfbdb"
+  }
 }

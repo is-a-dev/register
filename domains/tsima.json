@@ -1,10 +1,14 @@
 {
-     "owner": {
-       "username": "TsimaAndriam",
-       "email": "tsimadarkomalley@gmail.com"
-     },
-     "records": {
-       "A": ["216.198.79.1"],
-       "TXT": ["brevo-code:ec828334f63ab0b3a580ebb031b05356"]
-     }
-   }
+  "owner": {
+    "username": "TsimaAndriam",
+    "email": "tsimadarkomalley@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "TXT": [
+      "brevo-code:ec828334f63ab0b3a580ebb031b05356"
+    ]
+  }
+}
