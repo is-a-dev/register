@@ -1,0 +1,12 @@
+{
+  "description": "Website packaging tool",
+  "repo": "https://github.com/hongkong-nao",
+  "owner": {
+    "username": "hongkong-nao",
+    "email": "hnstudio@foxmail.com"
+  },
+  "records": {
+    "CNAME": "free.frpee.top"
+  }
+}
+
