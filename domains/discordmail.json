@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "ArtemSanych15",
+    "email": "artsanysh@gmail.com"
+  },
+  "records": {
+    "MX": [
+      { "priority": 10, "value": "route1.mx.cloudflare.net" },
+      { "priority": 20, "value": "route2.mx.cloudflare.net" },
+      { "priority": 30, "value": "route3.mx.cloudflare.net" }
+    ]
+  }
+}
