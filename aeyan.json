@@ -1,1 +1,9 @@
-
+   {
+     "owner": {
+       "username": "aeyan2004",
+       "email": "your-public-email@example.com"
+     },
+     "records": {
+       "CNAME": "aeyan2004.github.io"
+     }
+   }
