@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "m1st4ck",
+    "email": "m1st4ck@proton.me"
+  },
+  "records": {
+    "TXT": ["v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"]
+  }
+}
