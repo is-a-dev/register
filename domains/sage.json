@@ -3,8 +3,6 @@
     "username": "sagehav3n"
   },
   "records": {
-    "CNAME": [
-      "proxy.aspecthosting.eu"
-    ]
+    "CNAME": "proxy.aspecthosting.eu"
   }
 }
