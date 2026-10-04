@@ -1,14 +1,9 @@
-## Requirements
-
-- [x] The file is in the `domains` folder and is in the JSON format.
-- [x] The file's name is all lowercased and alphanumeric.
-- [x] You have completed your website.
-- [x] The website is reachable.
-- [x] The CNAME record doesn't contain `https://` or `/`.
-- [x] There is sufficient information at the `owner` field.
-
-## Website Link/Preview
-https://sites.google.com/view/plumber-electrician-yemen/Who-are-we
-
-## Purpose
-Personal business website for plumbing and electrical services in Yemen. Need custom domain for Google Business verification code.
+{
+  "owner": {
+    "username": "yemenplumber-hub",
+    "email": "yemenplumber@gmail.com"
+  },
+  "record": {
+    "CNAME": "ghs.googlehosted.com"
+  }
+}
