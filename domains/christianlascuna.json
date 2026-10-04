@@ -4,8 +4,6 @@
     "email": "c.lascuna556171@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"],
-    "TXT": "vc-domain-verify=christianlascuna.is-a.dev,7b4c7ee6a7ac71c1170b"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
-
