@@ -4,6 +4,6 @@
     "email": "aissalabandaseize@gmail.com"
   },
   "records": {
-    "TXT": "v=DMARC1; p=none; rua=mailto:aissalabandaseize@gmail.com,mailto:rua@dmarc.brevo.com"
+    "CNAME": "b2.ratmail4080-is-a-dev.dkim.brevo.com"
   }
 }
