@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Mimooo00",
-        "email": "shahrulaimantest@gmail.com"
-    },
-    "records": {
-        "CNAME": "my-website-gules-zeta-74.vercel.app"
-    }
+  "owner": {
+    "username": "Mimooo00",
+    "email": "shahrulaimantest@gmail.com"
+  },
+  "records": {
+    "CNAME": "my-website-gules-zeta-74.vercel.app"
+  }
 }

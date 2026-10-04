@@ -4,6 +4,8 @@
     "email": "vinaykatikireddy@hotmail.com"
   },
   "records": {
-    "TXT": ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCshDYLZ18kSiw3rNkkb0tOoc1fhng/SA/PgQ9TNHkan1+POpXMe7o6wtE0AwF5BqHMYYBk1YMq7AqVIGsM1bJK5PIYaBZ+jndaEU52BX2RgZt5QfmhWHdJY1c9vbuDOkEi7mSouYPE3YcJri6SMz4Vp7jjwLapr0FrnZx2M4ourQIDAQAB"]
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCshDYLZ18kSiw3rNkkb0tOoc1fhng/SA/PgQ9TNHkan1+POpXMe7o6wtE0AwF5BqHMYYBk1YMq7AqVIGsM1bJK5PIYaBZ+jndaEU52BX2RgZt5QfmhWHdJY1c9vbuDOkEi7mSouYPE3YcJri6SMz4Vp7jjwLapr0FrnZx2M4ourQIDAQAB"
+    ]
   }
 }

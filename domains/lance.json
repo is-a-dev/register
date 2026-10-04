@@ -2,8 +2,8 @@
   "owner": {
     "username": "civilincomps",
     "email": "civilincomps@gmail.com"
-    },
-    "records": {
-        "CNAME": "civilincomps.github.io"
-    }
+  },
+  "records": {
+    "CNAME": "civilincomps.github.io"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "divija027",
-        "email": "gowdadivija@gmail.com"
-    },
-    "records": {
-        "CNAME": "dmv.pages.dev"
-    }
+  "owner": {
+    "username": "divija027",
+    "email": "gowdadivija@gmail.com"
+  },
+  "records": {
+    "CNAME": "dmv.pages.dev"
+  }
 }

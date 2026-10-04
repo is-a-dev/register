@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "vladbrox",
-        "email": "justkoder@duck.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=vlad.is-a.dev,314033f514abbab7e620"
-    }
+  "owner": {
+    "username": "vladbrox",
+    "email": "justkoder@duck.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=vlad.is-a.dev,314033f514abbab7e620"
+  }
 }
