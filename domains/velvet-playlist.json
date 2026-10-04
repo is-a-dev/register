@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "Ring-wdr"
+        "username": "Ring-wdr",
+        "email": "akswnd55@gmail.com"
     },
     "records": {
         "CNAME": "ring-experimental.github.io"
