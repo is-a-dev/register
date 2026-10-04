@@ -4,6 +4,7 @@
     "email": "navbhardwa22@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": ["cname.vercel-dns.com"],
+    "TXT": ["vc-domain-verify=navdeep6789.is-a.dev,d3842e97e216b5b097a0"]
   }
 }
