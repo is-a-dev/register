@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "KWAKDONGSIN",
-     "email": "dkmdkm999@naver.com"   
+  "owner": {
+    "username": "KWAKDONGSIN",
+    "email": "dkmdkm999@naver.com"
   },
-    "records": {
-        "CNAME": "kwakdongsin.github.io"
-    }
+  "records": {
+    "CNAME": "kwakdongsin.github.io"
+  }
 }

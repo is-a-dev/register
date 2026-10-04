@@ -4,6 +4,8 @@
     "email": "mxrecki.is.a.dev@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=dsdfilip.is-a.dev,d40a13680994a0a3f87c"]
+    "TXT": [
+      "vc-domain-verify=dsdfilip.is-a.dev,d40a13680994a0a3f87c"
+    ]
   }
 }

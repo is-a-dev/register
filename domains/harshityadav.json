@@ -1,1 +1,9 @@
- { "owner": { "username": "Harshityadav004", "email": "harshit.greenindia@gmail.com" }, "records": { "CNAME": "harshityadav004.github.io" } }
+{
+  "owner": {
+    "username": "Harshityadav004",
+    "email": "harshit.greenindia@gmail.com"
+  },
+  "records": {
+    "CNAME": "harshityadav004.github.io"
+  }
+}

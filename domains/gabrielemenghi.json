@@ -4,7 +4,9 @@
     "email": "gabry.menghi01@gmail.com"
   },
   "records": {
-    "A": ["164.132.110.64"]
+    "A": [
+      "164.132.110.64"
+    ]
   },
   "proxied": false
 }

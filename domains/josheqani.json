@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "josheqani"
-    },
-    "records": {
-        "CNAME": "josheqani-proxy.pages.dev"
-    }
+  "owner": {
+    "username": "josheqani"
+  },
+  "records": {
+    "CNAME": "josheqani-proxy.pages.dev"
+  }
 }
