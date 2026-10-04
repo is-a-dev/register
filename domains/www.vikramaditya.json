@@ -1,10 +1,9 @@
-
 {
   "owner": {
     "username": "VikramadityaDev",
-    "email": "vikramadityapratap353@gmail.com"
+    "email": "vikramadityapratap35@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=www.vikramaditya.is-a.dev,7e215347d74b8f8db4f4"
+    "CNAME": ["36ca8c1ad5bc058f.vercel-dns-017.com"]
   }
 }
