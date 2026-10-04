@@ -4,6 +4,7 @@
         "email": "cayircagatay337@gmail.com"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": "vc-domain-verify=cinepulse.is-a.dev,b111e45609e493b5ed65"
     }
 }
