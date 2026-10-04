@@ -4,6 +4,8 @@
     "email": "lanchaster.k@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "google-site-verification=TIB-k_ve1wi37z1mAUXmUv-w1hCfhiLquuAY4MtHuIQ"
+  },
+  "proxied": true
 }

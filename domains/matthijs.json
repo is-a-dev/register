@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Mkuilen",
-        "email": "mukilen@gmail.com"
-    },
-    "records": {
-        "CNAME": "matthijsvandekuilen.nl"
-    }
+  "owner": {
+    "username": "Mkuilen",
+    "email": "mukilen@gmail.com"
+  },
+  "records": {
+    "CNAME": "matthijsvandekuilen.nl"
+  }
 }

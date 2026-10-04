@@ -1,0 +1,11 @@
+{
+  "description": "Vercel domain verification for juanperuzzo.is-a.dev",
+  "repo": "https://github.com/Uzzoper/personal-portfolio",
+  "owner": {
+    "username": "Uzzoper",
+    "email": "juanperuzzo13@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=juanperuzzo.is-a.dev,3c2790260916c350e745"
+  }
+}

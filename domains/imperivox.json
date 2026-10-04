@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "imperivox",
-        "email": "imperivox@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "imperivox",
+    "email": "imperivox@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

@@ -1,10 +1,11 @@
 {
   "owner": {
-    "username": "RuskyDev",
-    "email": "iamayaanalee@gmail.com",
-    "discord": "969507085316399154"
+    "username": "ruskydev",
+    "email": "iamayaanalee@gmail.com"
   },
   "records": {
-    "CNAME": "ruskydev.github.io"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

@@ -1,11 +1,13 @@
 {
   "owner": {
-    "username": "itszubadev"
+    "username": "oliverbr0wn"
   },
   "records": {
     "TXT": [
       "vc-domain-verify=zubariel.is-a.dev,372181051680e99ee69a",
-      "vc-domain-verify=www.zubariel.is-a.dev,d37aed1fce6c717cf3c5"
+      "vc-domain-verify=www.zubariel.is-a.dev,d37aed1fce6c717cf3c5",
+      "vc-domain-verify=api.zubariel.is-a.dev,c402f76755cb913379ba",
+      "vc-domain-verify=app.zubariel.is-a.dev,3d055a5a6609a133516e"
     ]
   }
 }

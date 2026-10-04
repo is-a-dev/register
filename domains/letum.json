@@ -4,6 +4,9 @@
     "discord": "1252631745514180790"
   },
   "records": {
-    "NS": ["rosalie.ns.cloudflare.com", "rustam.ns.cloudflare.com"]
+    "NS": [
+      "rosalie.ns.cloudflare.com",
+      "rustam.ns.cloudflare.com"
+    ]
   }
 }

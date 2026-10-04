@@ -4,7 +4,9 @@
     "discord": "https://discord.com/users/998608551431897170"
   },
   "records": {
-    "A": ["75.2.60.5"]
+    "A": [
+      "75.2.60.5"
+    ]
   },
   "proxied": true
 }

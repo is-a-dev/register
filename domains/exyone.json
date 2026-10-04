@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "eiraud-fishball",
+    "email": "exyone.dev@icloud.com"
+  },
+  "records": {
+    "CNAME": "apex-loadbalancer.netlify.com"
+  },
+  "proxied": true
+}
