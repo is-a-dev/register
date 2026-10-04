@@ -1,8 +1,9 @@
-   {
-     "owner": {
-       "username": "ChamathWijerathne"
-     },
-     "records": {
-       "CNAME": "chamathwijerathne.github.io"
-     }
-   }
+{
+  "owner": {
+    "username": "ChamathWijerathne",
+    "email": "anuradhika.wije@gmail.com"
+  },
+  "records": {
+    "CNAME": "chamathwijerathne.github.io"
+  }
+}
