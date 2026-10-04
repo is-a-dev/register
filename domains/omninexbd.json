@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "mdmaahdihasan"
+    "username": "mdmaahdihasan",
+    "email": "mdmaahdihasan@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "omninexbd.netlify.app"
   }
 }
