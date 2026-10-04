@@ -3,7 +3,8 @@
     "username": "sagehav3n"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": "vc-domain-verify=sage.is-a.dev,2ccdd7c90960314d3317"
+    "CNAME": [
+      "sage-website.sagehav3n.workers.dev"
+    ]
   }
 }
