@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "jake123-cmd"
-    },
-    "records": {
-        "CNAME": "connect.xsystemsdomains.xyz"
-    }
+  "owner": {
+    "username": "jake123-cmd",
+    "email": "kingrobert3132@gmail.com"
+  },
+  "records": {
+    "CNAME": "connect.xsystemsdomains.xyz"
+  }
 }
