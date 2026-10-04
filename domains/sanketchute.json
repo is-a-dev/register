@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "sanketchute17"
+    "username": "sanketchute17",
+    "email": "YOUR-EMAIL-HERE"
   },
   "records": {
     "CNAME": "live.sanketchute17.workers.dev"
