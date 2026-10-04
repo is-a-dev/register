@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "agnoritus"
+    "username": "agnoritus",
+    "email": "agnoritus@gmail.com"
   },
   "records": {
     "CNAME": "click.agnoritus.workers.dev"
