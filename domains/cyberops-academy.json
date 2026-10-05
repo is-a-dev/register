@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "EngHamzahh",
+    "email": "enghamzah021@gmail.com"
+  },
+  "domain": "cyberops-academy",
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": false
+}
