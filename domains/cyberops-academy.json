@@ -4,8 +4,7 @@
     "email": "enghamzah021@gmail.com"
   },
   "domain": "cyberops-academy",
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "proxied": false
+  }
 }
