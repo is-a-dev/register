@@ -3,6 +3,6 @@
     "username": "notamitgamer"
   },
   "records": {
-    "CNAME": "cname.mintlify.builders"
+    "NS": ["galileo.aternos.org", "columbus.aternos.org"]
   }
 }
