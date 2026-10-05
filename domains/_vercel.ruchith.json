@@ -1,7 +1,9 @@
 {
     "owner": {
-        "username": "Ruchith1018"
+    "username": "Ruchith1018",
+    "email": "ruchith.balam1@gmail.com"
     },
+
     "records": {
         "TXT": "vc-domain-verify=www.ruchith.is-a.dev,855b817798f755d830d3"
     }
