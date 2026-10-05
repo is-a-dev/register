@@ -1,9 +1,0 @@
-{
-  "description": "Self-hosted n8n instance",
-  "owner": {
-    "username": "vansharmaweb"
-  },
-  "records": {
-    "CNAME": "n8n-automation-i4nj.onrender.com"
-  }
-}
