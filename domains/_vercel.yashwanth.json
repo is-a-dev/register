@@ -1,12 +1,12 @@
 {
-    "owner": {
-        "username": "yashwanth8634",
-        "email": "yashwanthreddykoppula@gmail.com"
-    },
-    "records": {
-        "TXT": [
-            "vc-domain-verify=yashwanth.is-a.dev,ce94080f258ef3784ff3",
-            "vc-domain-verify=www.yashwanth.is-a.dev,5fdd9cc0693d32a9a11f"
-        ]
-    }
+  "owner": {
+    "username": "yashwanth8634",
+    "email": "yashwanthreddykoppula@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=yashwanth.is-a.dev,ce94080f258ef3784ff3",
+      "vc-domain-verify=www.yashwanth.is-a.dev,5fdd9cc0693d32a9a11f"
+    ]
+  }
 }

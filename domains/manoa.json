@@ -1,10 +1,9 @@
-
 {
-    "owner": {
-        "username": "ma-noa",
-        "email": "manoa576@proton.me"
-    },
-    "records": {
-        "CNAME": "ma-noa.github.io"
-    }
+  "owner": {
+    "username": "ma-noa",
+    "email": "manoa576@proton.me"
+  },
+  "records": {
+    "CNAME": "ma-noa.github.io"
+  }
 }

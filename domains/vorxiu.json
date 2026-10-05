@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "vorxiu",
-        "email": "vorxiu@gmail.com"
-    },
-    "records": {
-        "CNAME": "vortfolio.pages.dev"
-    }
+  "owner": {
+    "username": "vorxiu",
+    "email": "vorxiu@gmail.com"
+  },
+  "records": {
+    "CNAME": "vortfolio.pages.dev"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "uche-wealth",
-        "email": "uchadubs@yahoo.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=uchewealth.is-a.dev,99149e1c94cedbeaa6b9"
-    }
+  "owner": {
+    "username": "uche-wealth",
+    "email": "uchadubs@yahoo.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=uchewealth.is-a.dev,99149e1c94cedbeaa6b9"
+  }
 }
