@@ -5,6 +5,8 @@
   },
   "proxied": false,
   "records": {
-    "TXT": ["v=DMARC1; p=reject;"]
+    "TXT": [
+      "v=DMARC1; p=quarantine; rua=mailto:oufr29@gmail.com; fo=1; adkim=r; aspf=r"
+    ]
   }
 }
