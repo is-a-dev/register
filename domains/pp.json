@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "hsnrhebd",
+    "email": "q33210143@outlook.com"
+  },
+  "records": {
+    "MX": [
+      "0 mx1.forwardemail.net",
+      "0 mx2.forwardemail.net"
+    ],
+    "TXT": [
+      "forward-email=QXUzRXd2WVVaQk1sWmlTNTZUTnVuNFp2RWFuUjM0RlBKTVotRlRyU3N4NzNPeHpIeDNyVVFCSDkwNUo4TFE="
+    ]
+  }
+}
