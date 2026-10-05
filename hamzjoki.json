@@ -1,1 +1,85 @@
 
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Layanan Joki kontak terpercaya</title>
+<style>
+:root{--y:#dcf73e;--g:linear-gradient(90deg,#62ec63,#f6faa4);--l:#3a7260}
+*{box-sizing:border-box;margin:0;font-family:system-ui,sans-serif}
+body{background:radial-gradient(900px 500px at 50% -10%,#37806b,#183529 60%) fixed;color:#e8f5ee;padding-bottom:72px}
+.w{max-width:520px;margin:auto;padding:0 16px}
+header{display:flex;gap:10px;align-items:center;padding:10px 16px;background:#1d3835;border-bottom:1px solid var(--l)}
+.lg{width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg,#0f2a20,var(--y));display:grid;place-items:center;font-weight:800;overflow:hidden}
+.lg img{width:100%;height:100%;object-fit:cover;grid-area:1/1}
+small{display:block;color:var(--y);font-size:.75rem;font-weight:700}
+marquee,.r{margin-top:8px;padding:7px;border:1px solid var(--l);border-radius:12px;background:#1b332f;font-size:.8rem}
+.r{display:flex;align-items:center;gap:10px;padding:9px 12px;border-color:#c62828;background:#2a1018;color:#ff5252;font-weight:800}
+.r svg{flex:none}.r marquee{margin:0;padding:0;border:0;background:none}
+.chip{display:inline-block;margin-top:16px;padding:4px 12px;border-radius:99px;background:#2d4d45;color:var(--y);font:700 .75rem system-ui;letter-spacing:1.5px}
+h1{margin-top:8px}.sub,.c p{color:#c4ecd9;font-size:.85rem;margin-top:4px}
+.c{background:#223f3b;border:1px solid var(--l);border-radius:16px;padding:16px;margin-top:12px}
+.t{display:inline-block;margin:0 6px 8px 0;padding:3px 10px;border-radius:99px;background:#2d4d45;color:var(--y);font:700 .65rem system-ui}
+.t+.t{background:var(--g);color:#0f2a20}
+.c ul{margin:10px 0 0 18px;font-size:.85rem;line-height:1.7}
+.pr{color:var(--y);font-size:1.4rem;font-weight:800;margin:10px 0}
+button{display:block;width:100%;padding:12px;border:0;border-radius:99px;background:var(--g);color:#0f2a20;font-weight:700;cursor:pointer}
+nav{position:fixed;inset:auto 0 0;display:flex;background:#172b27;border-top:1px solid var(--l);padding:5px}
+nav a{flex:1;text-align:center;color:#c4ecd9;text-decoration:none;font-size:.65rem;padding:6px 0;border-radius:12px}
+nav .on{background:var(--g);color:#0f2a20;font-weight:700}
+.fab{display:flex;align-items:center;gap:6px;position:fixed;right:12px;bottom:76px;background:#e53935;color:#fff;padding:9px 14px;border-radius:99px;text-decoration:none;font-weight:700;font-size:.8rem}
+dialog{margin:auto auto 0;width:100%;max-width:520px;border:0;border-radius:20px 20px 0 0;background:#223f3b;color:inherit;padding:18px}
+dialog::backdrop{background:#000a}
+input,textarea{width:100%;margin:4px 0 10px;padding:11px;border-radius:10px;border:1px solid var(--l);background:#1a302c;color:inherit}
+.q{display:block;width:200px;margin:12px auto;border-radius:12px;background:#fff;padding:8px}
+/* terang ala sinar surga (agak diredam) */
+h1,b,.pr,h3{text-shadow:0 0 6px #e6ff3d77,0 0 14px #5ddc5f55}
+h1{color:#fff}
+small,.chip,.t{text-shadow:0 0 5px #e6ff3d66}
+.chip,.t{box-shadow:0 0 6px #e6ff3d33}
+button,nav .on{box-shadow:0 0 10px #7dff6f88,0 0 18px #e6ff3d33}
+.c{border-color:#46896f;box-shadow:0 0 10px #5ddc5f22}
+header{box-shadow:0 2px 14px #5ddc5f33}
+.r{box-shadow:0 0 9px #ff525233;text-shadow:0 0 5px #ff1744aa}
+.fab{box-shadow:0 0 10px #e5393588}
+</style></head><body>
+<header><div class="lg"><img src="https://i.ibb.co.com/Pvghsr1s/WA-1791125846043.jpg" alt="" onerror="this.remove()"></div>
+<div><b>HAMZ JOKI ELITE</b> <svg width="18" viewBox="0 0 24 24" style="vertical-align:-3px"><circle cx="12" cy="12" r="11" fill="#3b82f6"/><path d="M7 12.5l3.3 3.3L17 9" stroke="#fff" stroke-width="2.5" fill="none"/></svg><small>Pusat Layanan joki kontak</small></div></header>
+<div class="w">
+<marquee id="tk"></marquee>
+<span class="chip">JASA JOKI KONTAK</span><h1>Paket Joki Kontak.</h1>
+<p class="sub">Pilih paket dinamis dari admin, isi format lalu bayar dan diproses oleh admin</p>
+<div class="r"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 2.5 1.5 21h21L12 2.5z" fill="#ff3b3b" stroke="#ff3b3b" stroke-width="2" stroke-linejoin="round"/><rect x="11" y="9" width="2" height="6" rx="1" fill="#fff"/><circle cx="12" cy="17.5" r="1.2" fill="#fff"/></svg><marquee>KANG JOKI KONTAK DILARANG ORDER JOKI KONTAK DI SINI. JIKA KETAHUAN, TIDAK DILAYANI!</marquee></div>
+<div id="l"></div></div>
+<a class="fab" href="laporan.html"><svg width="18" height="18" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#fff"/><rect x="11" y="6" width="2" height="8" rx="1" fill="#e53935"/><circle cx="12" cy="17.5" r="1.4" fill="#e53935"/></svg>Laporan</a>
+<dialog id="d">
+<button type="button" onclick="d.close()" style="width:auto;float:right;padding:6px 12px;background:#2f524b;color:#fff">✕</button>
+<form id="f"><h3 id="n"></h3><p class="pr" id="h"></p>
+Nama<input id="nm" required>
+Nomor WhatsApp<input id="no" type="tel" required>
+Format Joki<textarea id="pr" rows="3" required placeholder="Tulis Format contoh:
+ *SV BUYER FRESH HAMZ*🔥
+ 
+*SV.namalu*
+wa.me/nomerlu
+
+*NAMBAH VIEW SW+KONTAK+SELLER+BUYER+DLL🌤️🌈*"></textarea>
+<button>Bayar Sekarang</button>
+<p class="sub">Setelah bayar, kirim bukti tf ke admin lewat WhatsApp jika tidak kirim tidak akan di post!!.</p></form>
+<div id="p" hidden><h3>Pembayaran: <span id="n2"></span></h3><img class="q" id="qr" alt="QRIS"><button id="ok">Saya Sudah Bayar</button></div>
+</dialog>
+
+<script>
+// === UBAH DI SINI ===
+const WA="6285126445351", QRIS="https://i.ibb.co.com/4g21Nw82/IMG-20261004-WA0311.jpg";
+const P=[["15 jam",500,"PALING LARIS"],["1 hari",1000],["2 hari",1800],["3 hari",2500],["5 hari",4000],["7 hari",5500],["10 hari",7500],["15 hari",10000],["30 hari",18000,"VVIP"]]; // [durasi,harga,badge]
+tk.textContent="Y** · joki kontak · 2 jam lalu Rp 500  ·  A** · joki kontak · 5 jam lalu Rp 18.000";
+// ====================
+const rp=n=>"Rp "+n.toLocaleString("id-ID"); let c;
+l.innerHTML=P.map(([d,h,b],i)=>`<div class="c">${[d.toUpperCase(),b].filter(x=>x).map(x=>`<span class="t">${x}</span>`).join("")}
+<h2>Joki ${d.replace(/\b\w/g,x=>x.toUpperCase())}</h2><p>${d} + SW + share all GB</p>
+<ul><li>${d} + SW + share all GB<li>Order langsung di web<li>Langsung diproses Admin</ul>
+<div class="pr">${rp(h)}</div><button onclick="pesan(${i})">Pesan Sekarang</button></div>`).join("");
+const pesan=i=>{c=P[i];n.textContent=n2.textContent="Joki "+c[0].replace(/\b\w/g,x=>x.toUpperCase());h.textContent=rp(c[1]);f.hidden=false;p.hidden=true;d.showModal()};
+f.onsubmit=e=>{e.preventDefault();if(no.value.replace(/\D/g,"").length<9)return alert("Nomor WhatsApp belum benar.");qr.src=QRIS;f.hidden=true;p.hidden=false};
+ok.onclick=()=>{open(`https://wa.me/${WA}?text=`+encodeURIComponent(`Halo admin, saya sudah bayar.\nPaket: *${n2.textContent}* (${rp(c[1])})\nNama: ${nm.value}\nNo. WA: ${no.value}\nFormat joki: ${pr.value}\n\nBukti bayar saya kirim di bawah ini.`));d.close();f.reset()};
+</script></body></html>
+  
