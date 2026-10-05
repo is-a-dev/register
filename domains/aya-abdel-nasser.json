@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "Aya-Abdel-Nasser",
+    "email": "ayaabdelnasserali@outlook.com"
+  },
+  "records": {
+    "URL": "https://aya-abdel-nasser.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}
