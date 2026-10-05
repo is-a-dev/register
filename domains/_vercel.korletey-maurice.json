@@ -4,6 +4,6 @@
     "email": "bitcoinarmani03@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=korletey-maurice.is-a.dev,f8db966b27c20fe2f572"
+    "A": ["216.198.79.1"]
   }
 }
