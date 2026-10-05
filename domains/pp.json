@@ -5,11 +5,11 @@
   },
   "records": {
     "MX": [
-      "0 mx1.forwardemail.net",
-      "0 mx2.forwardemail.net"
+      { "target": "mx1.forwardemail.net", "priority": 0 },
+      { "target": "mx2.forwardemail.net", "priority": 0 }
     ],
     "TXT": [
-      "forward-email=QXUzRXd2WVVaQk1sWmlTNTZUTnVuNFp2RWFuUjM0RlBKTVotRlRyU3N4NzNPeHpIeDNyVVFCSDkwNUo4TFE="
+      "forward-email=1874467936@qq.com"
     ]
   }
 }
