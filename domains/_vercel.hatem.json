@@ -4,6 +4,8 @@
     "email": "hatemalsfyani@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": [
+      "vc-domain-verify=hatem.is-a.dev,e0ab5fd53e8e6cb9ea72"
+    ]
   }
 }
