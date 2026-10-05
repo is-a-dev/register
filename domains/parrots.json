@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "parrotshelper-dot" },
-  "records": { "CNAME": "1a9ci5o6.up.railway.app" }
+  "owner": {
+    "username": "parrotshelper-dot",
+    "email": "parrotshelper@gmail.com"
+  },
+  "records": {
+    "CNAME": "1a9ci5o6.up.railway.app"
+  }
 }
