@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "parrotshelper-dot" },
-  "records": { "TXT": "railway-verify=e7a82433e36dad4f1a4d399dcd6e1e4d208796598fff4377c07d33fa6b494c57" }
+  "owner": {
+    "username": "parrotshelper-dot",
+    "email": "parrotshelper@gmail.com"
+  },
+  "records": {
+    "TXT": "railway-verify=e7a82433e36dad4f1a4d399dcd6e1e4d208796598fff4377c07d33fa6b494c57"
+  }
 }
