@@ -3,9 +3,6 @@
     "username": "gmubungen"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ],
     "TXT": "vc-domain-verify=gmubungen.is-a.dev,af42689f49111914a126"
   }
 }
