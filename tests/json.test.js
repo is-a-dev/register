@@ -1,6 +1,7 @@
 import t from "ava";
 import fs from "fs-extra";
 import path from "path";
+import { isValidRecordName } from "../util/record-name.js";
 
 import internalDomains from "../util/internal.json" with { type: "json" };
 import reservedDomains from "../util/reserved.json" with { type: "json" };
@@ -33,7 +34,6 @@ const optionalRedirectConfigFields = {
 const blockedFields = ["domain", "internal", "proxy", "reserved", "services", "subdomain", "subdomains", "nested", "record"];
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath);
@@ -93,18 +93,21 @@ async function validateFields(t, obj, fields, file, prefix = "") {
     }
 }
 
-async function validateFileName(t, file) {
+async function validateFileName(t, file, data) {
     t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
     t.false(file.includes(".is-a.dev"), `${file}: File name should not contain .is-a.dev`);
     t.true(file === file.toLowerCase(), `${file}: File name should be all lowercase`);
     t.false(file.includes("--"), `${file}: File name should not contain consecutive hyphens`);
 
     const subdomain = file.replace(/\.json$/, "");
+    const name = subdomain + ".is-a.dev";
+    if (!data && !isValidRecordName(name)) {
+        data = await fs.readJson(path.join(domainsPath, file));
+    }
 
-    t.regex(
-        subdomain + ".is-a.dev",
-        hostnameRegex,
-        `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens.`
+    t.true(
+        isValidRecordName(name, data?.records),
+        `${file}: FQDN must be 1-253 characters, can use letters, numbers, dots, and non-consecutive hyphens. A label may end with a hyphen only in a TXT-only GitHub Pages verification record (_github-pages-challenge-USERNAME).`
     );
     t.false(internalDomains.includes(subdomain), `${file}: Subdomain name is registered internally`);
     t.false(reservedDomains.includes(subdomain), `${file}: Subdomain name is reserved`);
@@ -123,7 +126,7 @@ async function processFile(file, t) {
     const filePath = path.join(domainsPath, file);
     const data = await fs.readJson(filePath);
 
-    validateFileName(t, file);
+    await validateFileName(t, file, data);
 
     // Check for duplicate keys
     const rawData = await fs.readFile(filePath, "utf8");
