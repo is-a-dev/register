@@ -3,10 +3,7 @@
     "username": "jassmeinnour-art",
     "email": "jassmeinnour-eng@gmail.com"
   },
-  "domain": "merchant-radar",
-  "subdomain": "",
   "record": {
-    "CNAME": "cname.vercel-dns.com"
-  },
-  "proxied": false
+    "CNAME": "merchant-radar-egypt-is-published.vercel.app"
+  }
 }
