@@ -3,6 +3,8 @@
     "username": "nethsara-rahiru"
   },
   "records": {
-    "A": "168.35.181.135"
+    "A": [
+      "168.35.181.135"
+    ]
   }
 }
