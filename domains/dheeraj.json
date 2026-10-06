@@ -3,6 +3,7 @@
     "username": "NichenametlaDheeraj"
   },
   "record": {
+    "CNAME": "cname.vercel-dns.com",
     "TXT": "vc-domain-verify=dheeraj.is-a.dev,559d3ebfe2597ef65dad"
   }
 }
