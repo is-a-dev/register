@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "aurafxgg-eng",
-    "email": "your-email@gmail.com"
+    "email": "YOUR EMAIL"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
