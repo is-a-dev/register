@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "madumurugesh",
-        "email": "madumurugesh4043@gmail.comv"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=devmm.is-a.dev,a79c8af25ea533baf922"
-    }
+  "owner": {
+    "username": "madumurugesh",
+    "email": "madumurugesh4043@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=devmm.is-a.dev,82a46712cdc9259161c8",
+      "vc-domain-verify=www.devmm.is-a.dev,c292cefe7707af57b81c"
+    ]
+  }
 }
