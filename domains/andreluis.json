@@ -1,5 +1,9 @@
-{ "owner": 
-  { "username": "andreluisaguiar", 
-    "email": "andreluisaguiarn@gmail.com" },
-  "records": { "CNAME": "poritfolio.pages.dev" } 
+{
+  "owner": {
+    "username": "andreluisaguiar",
+    "email": "andreluisaguiarn@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
