@@ -3,6 +3,6 @@
         "username": "kauanpscode"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "TXT": "vc-domain-verify=kauanpscode.is-a.dev,2f900dff92fd2f0866e9"
     }
 }
