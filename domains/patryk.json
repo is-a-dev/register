@@ -3,10 +3,7 @@
     "username": "patrykburger",
     "email": "burger.patryk.personal@gmail.com"
   },
-  "records": {
-    "CNAME": [
-      "dihygzx3tp3j0.cloudfront.net",
-      "_b47b537a3be307a9feab9d9ad737d7b7.wzccmgtwzk.acm-validations.aws."
-    ]
+  "record": {
+    "CNAME": "dihygzx3tp3j0.cloudfront.net"
   }
 }
