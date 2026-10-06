@@ -4,6 +4,6 @@
     "email": "mohdasif70568@gmail.com"
   },
   "records": {
-    "CNAME": "asif03hy-portfolio.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
