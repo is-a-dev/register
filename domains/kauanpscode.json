@@ -3,6 +3,6 @@
         "username": "kauanpscode"
     },
     "records": {
-        "CNAME": "kauanps-portfolio.vercel.app"
+        "A": ["216.198.79.1"]
     }
 }
