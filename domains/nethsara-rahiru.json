@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "nethsara-rahiru"
-    },
-    "records": {
-        "RECORDTYPE": "168.35.181.135:5500"
-    }
+  "owner": {
+    "username": "nethsara-rahiru"
+  },
+  "records": {
+    "A": "168.35.181.135"
+  }
 }
