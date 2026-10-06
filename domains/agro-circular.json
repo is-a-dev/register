@@ -1,11 +1,11 @@
 {
   "description": "AGRO-CIRCULAR OS v2.4 - Plateforme intégrée de gestion agro-industrielle et économie circulaire (Ferme de Sara + SORATRAD)",
   "repo": "https://github.com/iboukar30/David_Projet",
-  "owner": {
-    "username": "iboukar30",
+ "owner": {
+    "username": "iboukar",
     "email": "iboukar30@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "3e482e7e-22c6-4421-92c3-7ecb77daf2d6.cfargotunnel.com"
   }
 }
