@@ -1,6 +1,8 @@
 {
+  "description": "Prince Asenathi's Discord domain verification",
   "owner": {
-    "username": "PrinceAsenathi"
+    "username": "PrinceAsenathi",
+    "email": "prinasenathi3@gmail.com"
   },
   "records": {
     "TXT": [
