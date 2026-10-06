@@ -5,6 +5,9 @@
     "email": "zqqj2004@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=28h.is-a.dev,74380d279b47a04f8ddb"
+    ]
   }
 }
