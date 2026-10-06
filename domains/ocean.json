@@ -4,6 +4,7 @@
     "email": "iknowu.uk@gmail.com"
   },
   "records": {
-    "CNAME": "pirateKnow.github.io"
+    "CNAME": "pirateKnow.github.io",
+    "TXT": "_github-pages-challenge-pirateKnow=c1acc4a3be24d28779199e6816336d"
   }
 }
