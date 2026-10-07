@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "nahyan0077",
-        "email": "nahyanm4@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "nahyan0077",
+    "email": "nahyanm4@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

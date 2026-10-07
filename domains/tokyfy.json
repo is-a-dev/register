@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "TokyFy",
-         "email": "tokyfy@outlook.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "TokyFy",
+    "email": "tokyfy@outlook.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

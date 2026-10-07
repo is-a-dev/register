@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "15aniruddh",
-        "email": "aniruddh1995@yahoo.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=15aniruddh.is-a.dev,932e497f004d1f79668d"
-    }
+  "owner": {
+    "username": "15aniruddh",
+    "email": "aniruddh1995@yahoo.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=15aniruddh.is-a.dev,932e497f004d1f79668d"
+  }
 }

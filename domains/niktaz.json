@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "niktazpo",
-        "email": "pooya.bamaram11@gmail.com"
-    },
-    "records": {
-        "CNAME": "pootak.pages.dev"
-    }
+  "owner": {
+    "username": "niktazpo",
+    "email": "pooya.bamaram11@gmail.com"
+  },
+  "records": {
+    "CNAME": "pootak.pages.dev"
+  }
 }
