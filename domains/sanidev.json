@@ -3,10 +3,7 @@
     "username": "sani48-code",
     "email": "nextgenitware@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "value": "sani-forge.vercel.app"
-    }
-  ]
+  "record": {
+    "CNAME": "sani-forge.vercel.app"
+  }
 }
