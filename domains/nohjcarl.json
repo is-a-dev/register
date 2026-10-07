@@ -4,8 +4,6 @@
     "email": "jc15ayuda@gmail.com"
   },
   "records": {
-    "CNAME": "nohjcarl.vercel.app",
-    "TXT": "vc-domain-verify=nohjcarl.is-a.dev,93a3c24eab3705a4d461"
-  },
-  "proxied": true
+    "CNAME": "nohjcarl.vercel.app"
+  }
 }
