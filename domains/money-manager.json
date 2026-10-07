@@ -1,7 +1,8 @@
 {
   "description": "Personal money management app",
   "owner": {
-    "username": "jorgeaguadero"
+    "username": "jorgeaguadero",
+    "email": "jorgeaguaderodev@gmail.com"
   },
   "records": {
     "URL": "https://p01--money-manager-web--j8d2vvjsm66c.code.run"
