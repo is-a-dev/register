@@ -1,16 +1,15 @@
 {
+  "name": "spazasnap",
+  "description": "SpazaSnap AI - Township Retail Intelligence",
+  "repo": "https://github.com/innocenttatendawork-dot/SpazaSnap",
   "owner": {
-    "username": "innocenttatendawork-dot",
+    "name": "Innocent Tatenda",
     "email": "innocent.tatenda.work@gmail.com"
   },
   "record": {
     "CNAME": "innocenttatendawork-dot.github.io",
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
-    "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
-    ]
-  }
+    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  },
+  "proxied": false
 }
