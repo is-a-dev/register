@@ -4,6 +4,17 @@
     "email": "oziohana5@gmail.com"
   },
   "records": {
-    "CNAME": "YuvalDoraGG.aternos.me:37723"
+    "CNAME": "yuvaldoragg.aternos.me",
+    "SRV": [
+      {
+        "service": "_minecraft",
+        "proto": "_tcp",
+        "name": "@",
+        "priority": 0,
+        "weight": 5,
+        "port": 37723,
+        "target": "yuvaldoragg.aternos.me"
+      }
+    ]
   }
 }
