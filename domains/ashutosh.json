@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ashuk9129",
-    "email": "info.nexttechlabs@gmail.com"
-  },
-  "records": {
-    "CNAME": "ashuk9129.github.io"
-  }
+    "owner": {
+        "username": "ashub-26",
+        "email": "ashutoshbansal.206@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
