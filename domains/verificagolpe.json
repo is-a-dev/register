@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "quantumlinkapp"
+    "username": "quantumlinkapp",
+    "email": "quantumlink.app@gmail.com"
   },
   "record": {
     "CNAME": "verificagolpe.netlify.app"
