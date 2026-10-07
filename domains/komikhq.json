@@ -1,14 +1,12 @@
 {
-  "name": "komikhq",
-  "description": "Next-Generation Digital Comic Reading and Publishing Infrastructure",
-  "maintainer": {
-    "name": "KomikHQ Engineering Team",
-    "email": "team@komikhq.com"
-  },
-  "record": {
-    "NS": [
-      "jerome.ns.cloudflare.com",
-      "sara.ns.cloudflare.com"
-    ]
-  }
+    "owner": {
+        "username": "komikhq",
+        "email": "team@komikhq.com"
+    },
+    "records": {
+        "NS": [
+            "jerome.ns.cloudflare.com",
+            "sara.ns.cloudflare.com"
+        ]
+    }
 }
