@@ -1,11 +1,9 @@
 {
   "owner": {
-    "username": "kimsekwon1995"
+    "username": "kimsekwon1995",
+    "email": "kimsekwon1995@gmail.com"
   },
   "records": {
-    "NS": [
-      "alaric.ns.cloudflare.com",
-      "poppy.ns.cloudflare.com"
-    ]
+    "CNAME": "kimsekwon1995.github.io"
   }
 }
