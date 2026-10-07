@@ -5,6 +5,8 @@
   },
   "records": {
     "A": "216.198.79.1",
-    "_vercel": "vc-domain-verify=yl.is-a.dev,b60c8f116d2bbf0ba16"
+    "TXT": {
+      "_vercel": "vc-domain-verify=yl.is-a.dev,b60c8f116d2bbf0ba16"
+    }
   }
 }
