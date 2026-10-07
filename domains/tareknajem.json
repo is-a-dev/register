@@ -1,9 +1,11 @@
 {
+  "description": "Portfolio de Tarek Najem",
+  "repo": "https://github.com/tareknjm/portfolio",
   "owner": {
     "username": "tareknjm",
     "email": "tareknajem277@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
