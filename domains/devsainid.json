@@ -1,1 +1,11 @@
-
+{
+  "description": "Dev Saini - AI/ML Developer Portfolio",
+  "repo": "https://github.com/devsainid/devsainid.github.io",
+  "owner": {
+    "username": "devsainid",
+    "email": "YOUR_EMAIL"
+  },
+  "record": {
+    "CNAME": "devsainid.github.io"
+  }
+}
