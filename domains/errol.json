@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "official-errol",
+    "email": "mr.errolsolomon@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=errol.is-a.dev,5c5300113bf79a394128"
+    ]
+  }
+}
