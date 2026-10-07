@@ -1,11 +1,10 @@
 {
   "owner": {
-    "username": "Mike-Bamidele",
-    "email": "aniyajuwonmichael@yahoo.com"
+    "username": "mikebamideleisfavoured-netizen",
+    "email": "mikebamideleisfavoured@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "CNAME": "490c9e45b771df77.vercel-dns-017.com.",
+    "TXT": "vc-domain-verify=www.mikebamidele.is-a.dev,b9011f7cf4e449f1cafd"
   }
 }
