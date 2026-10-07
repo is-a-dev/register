@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "fabiolepor3-wq",
+    "email": "fabiolepor3@gmail.com"
+  },
+  "record": {
+    "MX": ["mx.zoho.eu", "mx2.zoho.eu"],
+    "TXT": "v=spf1 include:zoho.eu ~all"
+  }
+}
