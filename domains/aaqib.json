@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "aaqibshaikh10"
+        "username": "AaqibShaikh10",
+        "email": "aaqibshaikh300@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=is-a.dev,0cb92bde8e675ff3018a"
+        "A": ["216.198.79.1"]
     }
 }
