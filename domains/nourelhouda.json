@@ -1,8 +1,12 @@
 {
+  "name": "nourelhouda",
+  "description": "Nour El Houda Bouajila - Full-Stack Engineer portfolio",
+  "repo": "https://github.com/nourhb/nour-portfolio-v2",
   "owner": {
-    "username": "Nourhb"
+    "username": "nourhb",
+    "email": "nourhb58@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "nour-portfolio-v2.vercel.app"
   }
 }
