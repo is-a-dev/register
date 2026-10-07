@@ -4,7 +4,6 @@
     "email": "contact@mohammedibrahim.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=carbon.is-a.dev,083d8c13361cdcf5ff79"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
