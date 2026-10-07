@@ -1,1 +1,9 @@
-JSON
+{ "description": "OPK Services website", 
+  "owner":{ 
+    "username" "mckobby26-cyber",
+    "email": "mckobby26@gmail.com"
+  },
+  "record": {
+    "CNAME": "mckobby26-cyber.github.io"
+  }
+}
