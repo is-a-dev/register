@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "a1286743184",
+    "email": "domains@chencangxuan.com"
+  },
+  "record": {
+    "NS": [
+      "ziggy.ns.cloudflare.com",
+      "johnathan.ns.cloudflare.com"
+    ]
+  },
+  "proxied": false
+}
