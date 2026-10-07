@@ -3,11 +3,10 @@
     "username": "a1286743184",
     "email": "domains@chencangxuan.com"
   },
-  "record": {
+  "records": {
     "NS": [
       "cortney.ns.cloudflare.com",
       "memphis.ns.cloudflare.com"
     ]
-  },
-  "proxied": false
+  }
 }
