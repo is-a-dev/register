@@ -1,12 +1,9 @@
 {
-  "description": "Sravan's engineering portfolio — quant, ML, and systems projects",
-  "link": "https://shrxvxn-portfolio.vercel.app",
-  "owners": [
-    {
-      "username": "shrxvxn007"
-    }
-  ],
-  "records": {
+  "owner": {
+    "username": "shrxvxn007",
+    "email": "mudduluru.sravankumarvarma07@gmail.com"
+  },
+  "record": {
     "CNAME": "shrxvxn-portfolio.vercel.app"
   }
 }
