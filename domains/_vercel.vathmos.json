@@ -4,6 +4,8 @@
     "email": "reversecardcantreverse@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=vathmos.is-a.dev,8dbc95e4021927457541"]
+    "TXT": [
+      "vc-domain-verify=vathmos.is-a.dev,8dbc95e4021927457541"
+    ]
   }
 }

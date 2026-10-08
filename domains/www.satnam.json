@@ -1,9 +1,9 @@
 {
   "owner": {
-      "username": "satnambhatt",
-      "email": "overall_freesia0r@icloud.com"
+    "username": "satnambhatt",
+    "email": "overall_freesia0r@icloud.com"
   },
   "records": {
-      "CNAME": "satnam-devsecops.netlify.app"
+    "CNAME": "satnam-devsecops.netlify.app"
   }
 }

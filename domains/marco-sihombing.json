@@ -1,8 +1,11 @@
 {
   "owner": {
-    "username": "marco-sihombing"
+    "username": "marco-sihombing",
+    "email": "injapri@gmail.com"
   },
   "records": {
-    "CNAME": "marco-sihombing.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

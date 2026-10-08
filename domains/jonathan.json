@@ -5,7 +5,9 @@
     "username": "JonathanXDR"
   },
   "records": {
-    "A": ["216.198.79.1"],
+    "A": [
+      "216.198.79.1"
+    ],
     "TXT": [
       "google-site-verification=J4aYxPE33w4lQmkg8LaQDxMNY_ulv4keqSEKBdwq1mQ"
     ]

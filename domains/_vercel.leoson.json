@@ -1,0 +1,12 @@
+{
+  "description": "Vercel verification for leoson.is-a.dev",
+  "owner": {
+    "username": "Leo4yu",
+    "email": "leo4yuu@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=leoson.is-a.dev,a6338556f689106ffd01"
+    ]
+  }
+}

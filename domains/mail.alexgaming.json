@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "alexgamingdev",
+    "email": "alexgaming.padh@gmail.com"
+  },
+  "records": {
+    "MX": [
+      {
+        "priority": 10,
+        "target": "inbound-smtp.us-east-1.amazonaws.com"
+      }
+    ]
+  }
+}

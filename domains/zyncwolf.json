@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ZyncWolf",
-        "email": "zyncwolf@gmail.com"
-    },
-    "records": {
-        "CNAME": "zyncwolf.github.io"
-    }
+  "owner": {
+    "username": "ZyncWolf",
+    "email": "zyncwolf@gmail.com"
+  },
+  "records": {
+    "CNAME": "zyncwolf.github.io"
+  }
 }

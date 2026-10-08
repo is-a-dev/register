@@ -4,6 +4,9 @@
     "discord": "maskduck"
   },
   "records": {
-    "NS": ["ada.ns.cloudflare.com", "albert.ns.cloudflare.com"]
+    "NS": [
+      "ada.ns.cloudflare.com",
+      "albert.ns.cloudflare.com"
+    ]
   }
 }

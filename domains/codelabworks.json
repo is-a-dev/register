@@ -5,6 +5,9 @@
     "username": "shadowgaming-backup"
   },
   "records": {
-    "NS": ["mina.ns.cloudflare.com", "harlan.ns.cloudflare.com"]
+    "NS": [
+      "mina.ns.cloudflare.com",
+      "harlan.ns.cloudflare.com"
+    ]
   }
 }

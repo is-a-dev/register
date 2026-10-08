@@ -5,7 +5,9 @@
     "email": "jamesdealanm@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=vam.is-a.dev,a6a80aea23144293ac35"]
+    "TXT": [
+      "vc-domain-verify=vam.is-a.dev,a6a80aea23144293ac35"
+    ]
   },
   "proxied": false
 }

@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "mcenahle",
-        "email": "hi@mcenahle.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "mcenahle",
+    "email": "hi@mcenahle.page"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

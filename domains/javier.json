@@ -10,15 +10,15 @@
       "v=spf1 include:_spf.protonmail.ch ~all"
     ],
     "MX": [
-        {
-          "target": "mail.protonmail.ch",
-          "priority": 10
-        },
-        {
-          "target": "mailsec.protonmail.ch",
-          "priority": 20
-        }
-      ]
+      {
+        "target": "mail.protonmail.ch",
+        "priority": 10
+      },
+      {
+        "target": "mailsec.protonmail.ch",
+        "priority": 20
+      }
+    ]
   },
   "proxied": true
 }

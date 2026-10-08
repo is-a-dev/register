@@ -1,0 +1,9 @@
+{
+  "description": "Personal developer subdomain",
+  "owner": {
+    "username": "shababj0o-ux"
+  },
+  "records": {
+    "CNAME": "shababj0o-ux.github.io"
+  }
+}
