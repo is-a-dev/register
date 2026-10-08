@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "BhavyaKotak969"
+    "username": "BhavyaKotak969",
+    "email": "kotakbhavya16@gmail.com"
   },
   "record": {
-    "CNAME": "vaqentra-technology.vercel.app"
+    "CNAME": "vaqentra-technology-web.vercel.app"
   }
 }
