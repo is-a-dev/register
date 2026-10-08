@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "gab-in-tech"
+        "username": "gab-in-tech",
+        "email": "gabxgeneral@gmail.com"
     },
     "records": {
         "CNAME": "https://gabgeneral.pages.dev/"
