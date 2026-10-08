@@ -1,12 +1,9 @@
 {
-  "description": "Bashir Shandaq Developer Platform - PHP & MySQL System from mobile in Sanaa",
-  "repo": "https://github.com/bashirshandaq/bashirshandaq.github.io",
-  "owner": {
-    "username": "bashirshandaq",
-    "name": "Bashir  Shandaq",
-    "email": "bashirshandaq@gmail.com"
-  },
-  "records": {
-    "URL": "https://count-insurance-premiere-presentation.trycloudflare.com"
-  }
+    "owner": {
+        "username": "bashirshandaq",
+        "email": "bashirshandaq@gmail.com"
+    },
+    "record": {
+        "A": ["216.198.79.1"]
+    }
 }
