@@ -4,6 +4,6 @@
     "email": "mr.umerirshad@gmail.com"
   },
   "records": {
-    "CNAME": "65388a23fabeecd7.vercel-dns-017.com"
+    "A": ["216.198.79.1"]
   }
 }
