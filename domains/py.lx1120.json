@@ -1,4 +1,9 @@
-"owner": {
-    "username": "xie-good",
-    "email": "238087xieqg@stu.nfu.edu.cn"
-},
+{
+    "owner": {
+        "username": "xie-good",
+        "email": "238087xieqg@stu.nfu.edu.cn"
+    },
+    "records": {
+        "CNAME": "xie-good.github.io"
+    }
+}
