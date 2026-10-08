@@ -5,9 +5,6 @@
   },
   "proxied": true,
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": [
-      "vc-domain-verify=is-a.dev,66708d5df1be13e74a1e"
-    ]
+    "CNAME": "cname.vercel-dns.com"
   }
 }
