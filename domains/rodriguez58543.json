@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "rodriguez58543",
+    "email": "rodriguez58543@users.noreply.github.com"
+  },
+  "record": {
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
+}
