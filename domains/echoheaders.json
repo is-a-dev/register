@@ -1,0 +1,12 @@
+{
+  "description": "Domain for helm repository EchoHeaders utility",
+  "owner": {
+    "username": "vikipranata",
+    "email": "helovikipranata@gmail.com"
+  },
+  "records": {
+    "CNAME": "vikipranata.github.io",
+    "TXT": "google-site-verification=FMThr9zncnu_3xiBxoaMycqaXDYYJ_OABgp0v6GR0kU"
+  },
+  "proxied": true
+}
