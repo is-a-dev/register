@@ -3,6 +3,7 @@
     "username": "syed-asad-ul-zaman",
     "email": "syed.asad.ul.zaman@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "cname.vercel-dns.com",
     "TXT": [
