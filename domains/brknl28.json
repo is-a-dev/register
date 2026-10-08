@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "brknl28"
-    },
-    "records": {
-        "CNAME": "brknl28-diagnostic-portfolio.pages.dev"
-    }
+  "owner": {
+    "username": "brknl28",
+    "twitter": "brknl28"
+  },
+  "records": {
+    "CNAME": "brknl28-diagnostic-portfolio.pages.dev"
+  }
 }
