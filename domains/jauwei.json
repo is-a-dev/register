@@ -1,11 +1,11 @@
+
 {
   "description": "My Personal Website",
   "owner": {
     "username": "JauWei",
     "email": "d903866750@yahoo.com.tw"
   },
-  "record": {
+  "records": {
     "CNAME": "JauWei.github.io"
   }
 }
-
