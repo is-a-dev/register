@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "alimehram066-hash",
+    "email": "dramaflixpk@gmail.com"
+  },
+  "domain": "dramaflix",
+  "records": {
+    "CNAME": "dramaflix-pk.netlify.app"
+  }
+}
