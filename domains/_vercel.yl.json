@@ -1,1 +1,9 @@
-vc-domain-verify=yl.is-a.dev
+{
+  "records": [
+    {
+      "type": "TXT",
+      "name": "_vercel",
+      "value": "vc-domain-verify=yl.is-a.dev"
+    }
+  ]
+}
