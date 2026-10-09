@@ -5,7 +5,9 @@
     "discord": "synacni"
   },
   "records": {
-    "A": ["144.31.46.9"],
+    "A": [
+      "144.31.46.9"
+    ],
     "SRV": [
       {
         "priority": 0,

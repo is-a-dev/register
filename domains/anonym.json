@@ -4,6 +4,6 @@
     "email": "jedidiakamdemsouop@gmail.com"
   },
   "records": {
-    "CNAME": "jedidiadev.github.io"
+    "A": ["216.198.79.1"]
   }
 }

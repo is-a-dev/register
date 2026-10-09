@@ -1,11 +1,11 @@
 {
-    "description": "Portfolio of Rana Sheikh",
-    "repo": "https://github.com/ranasheikh64/project-showcase",
-    "owner": {
-        "username": "ranasheikh64",
-        "email": "rana6424sheikh@gmail.com"
-    },
-    "records": {
-        "CNAME": "ranasheikh64.github.io"
-    }
+  "description": "Portfolio of Rana Sheikh",
+  "repo": "https://github.com/ranasheikh64/project-showcase",
+  "owner": {
+    "username": "ranasheikh64",
+    "email": "rana6424sheikh@gmail.com"
+  },
+  "records": {
+    "CNAME": "ranasheikh64.github.io"
+  }
 }
