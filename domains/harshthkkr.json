@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "harshthakkr",
+        "email": "iharshthkkr@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "TXT": {
+        "_vercel": "vc-domain-verify=harshthkkr.is-a.dev,766cb8a5c5f8201e90bc"
+    }
+}
