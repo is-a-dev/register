@@ -4,13 +4,9 @@
     "email": "d08689390@gmail.com" 
   }, 
   "records": { 
-    "A": [ 
-      "104.18.5.103", 
-      "104.18.4.103" 
-    ], 
-    "AAAA": [ 
-      "2606:4700::6812:567", 
-      "2606:4700::6812:467" 
+    "NS": [
+      "diva.ns.cloudflare.com",
+      "terry.ns.cloudflare.com"
     ]
   } 
 }
