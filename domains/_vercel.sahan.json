@@ -4,6 +4,8 @@
     "email": "sahanchinthaka04@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=sahan.is-a.dev,e4325e1af9e76220df3d"]
+    "TXT": [
+      "vc-domain-verify=sahan.is-a.dev,e4325e1af9e76220df3d"
+    ]
   }
 }

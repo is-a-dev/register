@@ -1,0 +1,12 @@
+{
+  "description": "Personal developer portfolio",
+  "repo": "https://github.com/deep-tinker/portfolio",
+  "owner": {
+    "username": "deep-tinker",
+    "email": "pragatiranjan25@gmail.com"
+  },
+  "records": {
+    "CNAME": "deep-tinker.github.io"
+  },
+  "proxied": false
+}

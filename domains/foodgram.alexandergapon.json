@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/is-a-dev/register/main/schema.json",
+  "description": "Foodgram recipe sharing application",
+  "owner": {
+    "username": "AlexanderGapon",
+    "email": "alexander.gaponn@yandex.by"
+  },
+  "records": {
+    "A": ["158.160.203.224"]
+  }
+}

@@ -1,10 +1,12 @@
 {
-    "description": "Tran Khanh Thanh portfolio",
-    "owner": {
-        "username": "khanhthanhdev",
-        "email": "thanhkt27507@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "description": "Tran Khanh Thanh portfolio",
+  "owner": {
+    "username": "khanhthanhdev",
+    "email": "thanhkt27507@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "Martin-Bernard",
+    "email": "martin.bernard780@gmail.com"
+  },
+  "description": "DKIM key for Resend transactional emails (StageFlow)",
+  "records": {
+    "TXT": [
+      "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrMqbq7cwQ6Eee4nbYiwUFeq3wxI/n2zofCBpN3Q9drRLs9T/xxRwpkTK3j9195IS+QcVe7JulKmiVcsdim4/HC2jjIQn+jlq87U+3HRgpFb4FGQIabyTJZZ7w1Gwe/mT6np4HtFsvQuZkW6C8Aeo4Ueoo7NjT7cPQkXA9J/UdYwIDAQAB"
+    ]
+  },
+  "proxied": false
+}

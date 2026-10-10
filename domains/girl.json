@@ -1,9 +1,13 @@
 {
   "owner": {
-    "username": "ukriu",
-    "email": "isadev@ukriu.com"
+    "username": "dragsbruh",
+    "email": "dragsbruh@protonmail.com",
+    "discord": "781445370177126401"
   },
   "records": {
-    "CNAME": "ukriu.pages.dev"
+    "URL": "https://furina.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

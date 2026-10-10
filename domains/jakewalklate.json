@@ -1,0 +1,30 @@
+{
+  "owner": {
+    "username": "jakewalklate",
+    "email": "jakewalklate@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.com.au",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com.au",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com.au",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+      "zoho-verification=zb24531393.zmverify.zoho.com.au",
+      "v=spf1 include:zohomail.com.au ~all",
+      "google-site-verification=dPtFnnAG2F3N_HxHh54J2Xv0_a1Gab6f6tJvrzs3Rng"
+    ]
+  }
+}

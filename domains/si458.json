@@ -5,6 +5,9 @@
     "email": "simonsmith5521@gmail.com"
   },
   "records": {
-    "NS": ["jake.ns.cloudflare.com", "jill.ns.cloudflare.com"]
+    "NS": [
+      "jake.ns.cloudflare.com",
+      "jill.ns.cloudflare.com"
+    ]
   }
 }

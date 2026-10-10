@@ -4,6 +4,9 @@
     "email": "madhuchutiya.unhinge650@silomails.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=www.jumanji.is-a.dev,f2c2d7a5a92201538272", "vc-domain-verify=blog.jumanji.is-a.dev,486fb527dc3495a132e8"]
+    "TXT": [
+      "vc-domain-verify=jumanji.is-a.dev,112b96e3e1f769670be0",
+      "vc-domain-verify=blog.jumanji.is-a.dev,486fb527dc3495a132e8"
+    ]
   }
 }

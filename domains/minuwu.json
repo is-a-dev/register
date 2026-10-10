@@ -5,7 +5,14 @@
   },
   "records": {
     "CNAME": "minuwu.github.io",
-    "TXT": "google-site-verification=w3mQ1pbNvoqI1ONJYsGkxDXlbg3n_5BSVJ6ijhFXSoY"
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "google-site-verification=w3mQ1pbNvoqI1ONJYsGkxDXlbg3n_5BSVJ6ijhFXSoY",
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
   },
   "proxied": true
 }

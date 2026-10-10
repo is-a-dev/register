@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "CMBill",
-    "email": "callmebill@billw.cn",
-    "twitter": "BillWen14"
+    "email": "callmebill@billw.cn"
   },
   "records": {
-    "CNAME": "cmbill.github.io"
+    "CNAME": "cmbill.pages.dev"
   }
 }

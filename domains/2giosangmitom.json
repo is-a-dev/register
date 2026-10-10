@@ -4,6 +4,6 @@
     "email": "2giosangmitom@gmail.com"
   },
   "records": {
-    "CNAME": "2giosangmitom.github.io"
+    "A": ["216.198.79.1"]
   }
 }
