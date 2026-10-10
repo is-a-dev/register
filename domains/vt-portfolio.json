@@ -8,21 +8,14 @@
     "A": ["216.198.79.1"],
     "MX": [
       {
-        "target": "mx.zohocloud.ca",
+        "target": "mx1.improvmx.com",
         "priority": 10
       },
       {
-        "target": "mx2.zohocloud.ca",
+        "target": "mx2.improvmx.com",
         "priority": 20
-      },
-      {
-        "target": "mx3.zohocloud.ca",
-        "priority": 50
       }
     ],
-    "TXT": [
-      "zoho-verification=zb39742406.zmverify.zohocloud.ca",
-      "v=spf1 include:zohocloud.ca ~all"
-    ]
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }
