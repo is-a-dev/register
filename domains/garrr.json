@@ -3,7 +3,7 @@
         "username": "tegarmuhamad122-cmd",
         "email": "tegarmuhamad122@gmail.com"
     },
-    "record": {
-        "URL": "https://lair-bacteria-latticed.ngrok-free.dev/rfid-smart-locker"
+    "records": {
+        "URL": "lair-bacteria-latticed.ngrok-free.dev"
     }
 }
