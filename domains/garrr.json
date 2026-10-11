@@ -1,9 +1,9 @@
 {
-    "description": "Smart RFID Lab Locker System Dashboard",
-    "repo": "https://github.com/tegarmuhamad122-cmd",
+    "description": "Smart RFID Lab Locker System Using ESP32",
+    "repo": "https://github.com/tegarmuhamad122-cmd/rfid-smart-locker",
     "owner": {
         "username": "tegarmuhamad122-cmd",
-        "email": "tegarmuhamad122@gmail.com"
+        "email": "email-anda@gmail.com"
     },
     "record": {
         "URL": "https://lair-bacteria-latticed.ngrok-free.dev/rfid-smart-locker"
