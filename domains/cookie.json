@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "0xCook1e",
-        "email": "cookiectf@gmail.com"
-    },
-    "records": {
-        "CNAME": "0xcook1e.github.io"
-    }
+  "owner": {
+    "username": "0xCook1e",
+    "email": "cookiectf@gmail.com"
+  },
+  "records": {
+    "CNAME": "0xcook1e.github.io"
+  }
 }

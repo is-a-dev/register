@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "biswaadev",
-        "email": "xamicc222@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=biswa.is-a.dev,68e565b7408658ebd2a7"
-    }
+  "owner": {
+    "username": "biswaadev",
+    "email": "xamicc222@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=biswa.is-a.dev,68e565b7408658ebd2a7"
+  }
 }
