@@ -12,7 +12,7 @@
     ],
     "TXT": [
       "verification-code-site-App_lark=Y8anXuSz8jYBjjVGrMtH",
-      "v=spf1 include:larksuite.com ~all"
+      "v=spf1 +include:spf.onlarksuite.com -all"
     ]
   },
   "proxied": true
