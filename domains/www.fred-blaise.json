@@ -2,6 +2,11 @@
   "name": "www.fred-blaise",
   "description": "Portfolio website WWW",
   "repo": "https://github.com/westindies86-DeV/fred-blaise-portfolio",
-  "owner": { "username": "westindies86-DeV", "email": "westindies86@gmail.com" },
-  "records": { "CNAME": "b68d5f65eb3dda19.vercel-dns-017.com" }
+  "owner": {
+    "username": "westindies86-DeV",
+    "email": "westindies86@gmail.com"
+  },
+  "records": {
+    "CNAME": "b68d5f65eb3dda19.vercel-dns-017.com"
+  }
 }
