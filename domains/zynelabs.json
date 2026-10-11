@@ -1,1 +1,9 @@
-{"owner":{"username":"zinmyo19","email":"zinmyo.zm.007@gmail.com"},"records":{"CNAME":"zinmyo19.github.io"}}
+{
+  "owner": {
+    "username": "zinmyo19",
+    "email": "zinmyo.zm.007@gmail.com"
+  },
+  "records": {
+    "CNAME": "zinmyo19.github.io"
+  }
+}
