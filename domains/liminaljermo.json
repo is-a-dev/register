@@ -1,0 +1,21 @@
+{
+    "description": "Personal site of Jeremy Sebastian (liminaljermo) - the Lattice / Liminal Institute; interim web and email home while liminaljermo.com registration is pending.",
+    "owner": {
+        "username": "kushkillerjsixx66",
+        "email": "lattice.liminaljermo@gmail.com"
+    },
+    "records": {
+        "URL": "https://liminaljermo.substack.com",
+        "MX": [
+            {
+                "target": "mx1.improvmx.com",
+                "priority": 10
+            },
+            {
+                "target": "mx2.improvmx.com",
+                "priority": 20
+            }
+        ],
+        "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    }
+}
