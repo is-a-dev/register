@@ -7,5 +7,5 @@
   "records": {
     "CNAME": "guto.onrender.com"
   },
-  "proxied": true
+  "proxied": false
 }
