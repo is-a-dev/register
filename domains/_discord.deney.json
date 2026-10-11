@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "deneyy",
-        "email": "deneyy@proton.me"
-    },
-    "records": {
-        "TXT": "dh=0fc3dacfe1e92194805240fd2ba3d953f66abc18"
-    }
+  "owner": {
+    "username": "deneyy",
+    "email": "deneyy@proton.me"
+  },
+  "records": {
+    "TXT": "dh=0fc3dacfe1e92194805240fd2ba3d953f66abc18"
+  }
 }
