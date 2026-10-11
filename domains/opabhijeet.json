@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "opabhijeet",
-        "email": "opabhijeet15@gmail.com"
-    },
-    "records": {
-        "CNAME": "opabhijeet.github.io"
-    }
+  "owner": {
+    "username": "opabhijeet",
+    "email": "opabhijeet15@gmail.com"
+  },
+  "records": {
+    "CNAME": "opabhijeet.github.io"
+  }
 }
