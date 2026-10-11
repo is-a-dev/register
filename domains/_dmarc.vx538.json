@@ -1,0 +1,8 @@
+{
+  "owner": {
+   "username": "MaseDev33"
+  },
+ "records": {
+   "TXT": "v=DMARC1; p=none; rua=mailto:mason@vx538.is-a.dev; ruf=mailto:mason@vx538.is-a.dev; sp=none; adkim=r; aspf=r"
+  }
+}
