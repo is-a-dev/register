@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "DezJukes",
-        "email": "jbryan08dc@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=dezjukes.is-a.dev,3cb45aa03e565084c2d8"
-    }
+  "owner": {
+    "username": "DezJukes",
+    "email": "jbryan08dc@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=dezjukes.is-a.dev,3cb45aa03e565084c2d8"
+  }
 }

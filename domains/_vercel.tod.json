@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "keyveloper"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=tod.is-a.dev,78c57b8f67f4008d1c6a"
-    }
+  "owner": {
+    "username": "keyveloper"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tod.is-a.dev,78c57b8f67f4008d1c6a"
+  }
 }
