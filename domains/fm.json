@@ -15,6 +15,9 @@
         "priority": 0
       }
     ],
-    "TXT": "forward-email=faisalimap@gmail.com"
+    "TXT": [
+      "forward-email=faisalimap@gmail.com",
+      "brevo-code:012e990fbd248270d55abe9aaf9ed698"
+    ]
   }
 }

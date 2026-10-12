@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "AyushxpnOtic",
-        "email": "ayushh181234@gmail.com"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "AyushxpnOtic",
+    "email": "ayushh181234@gmail.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

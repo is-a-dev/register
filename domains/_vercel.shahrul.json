@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Mimooo00",
-        "email": "shahrulaimantest@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=shahrul.is-a.dev,8be28adc62b21d2af38c"
-    }
+  "owner": {
+    "username": "Mimooo00",
+    "email": "shahrulaimantest@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=shahrul.is-a.dev,8be28adc62b21d2af38c"
+  }
 }

@@ -26,7 +26,7 @@ To use is-a.dev, you must:
 
 Subdomains must be registered to an individual GitHub account, and cannot be registered to a GitHub organisation account.
 
-By using is-a.dev, you represent and warrant that you meet these requirements.
+By using is-a.dev, you represent and warrant that you meet these requirements. Certain subdomains and nested subdomains requests, including but not limited to those with projects that are not personal developer related, non portfolio / traditional sites may be and can have additional restrictions in regards to maintainer review, with full express consent given to maintainers and PR reviewers to deny such pull requests.
 
 ## 3. Service Description
 is-a.dev allows users to register a subdomain under the "is-a.dev" domain. This service is offered "as-is" without guarantees of uptime, support, or permanence.

@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "8n9ght",
-        "email": "8n9ght@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "8n9ght",
+    "email": "8n9ght@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "description": "Open-source systems software and project documentation.",
+  "repo": "https://github.com/offyotto/Core-Monitor",
+  "owner": {
+    "username": "offyotto",
+    "email": "offyotto@icloud.com"
+  },
+  "records": {
+    "CNAME": "offyotto.github.io"
+  }
+}

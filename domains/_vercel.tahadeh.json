@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tahadeh2010",
-        "email": "tahadehnavi8989@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=tahadeh.is-a.dev,cf741d43e4005f5dcda4"
-    }
+  "owner": {
+    "username": "tahadeh2010",
+    "email": "tahadehnavi8989@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tahadeh.is-a.dev,cf741d43e4005f5dcda4"
+  }
 }

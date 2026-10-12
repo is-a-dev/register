@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "WFekik",
-        "email": "w_fekik@ensta.edu.dz"
-    },
-    "records": {
-        "CNAME": "wfekik.github.io"
-    }
+  "owner": {
+    "username": "WFekik",
+    "email": "w_fekik@ensta.edu.dz"
+  },
+  "records": {
+    "CNAME": "wfekik.github.io"
+  }
 }

@@ -9,6 +9,9 @@
     ],
     "MX": [
       "inbound-smtp.eu-west-1.amazonaws.com"
+    ],
+    "TXT": [
+      "google-site-verification=zb6AOheCa35-mYZNM8Kj_K1YF4iLubwyNtefiCOwWnQ"
     ]
   }
 }
