@@ -4,8 +4,6 @@
     "email": "gongsoonyee@gmail.com"
   },
   "records": {
-    "A": [
-      "http://gongsoonyee.github.io/"
-    ]
+    "CNAME": "gongsoonyee.github.io"
   }
 }
