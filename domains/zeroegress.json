@@ -4,6 +4,6 @@
     "email": "arkadatta1531@gmail.com"
   },
   "records": {
-    "CNAME": "arkadatta1531.github.io"
+    "A": ["216.198.79.1"]
   }
 }
