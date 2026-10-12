@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "blacknoize404",
-        "email": "blacknoize404@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=barnesinside.is-a.dev,90118adce1a1905fd48b"
-    }
+  "owner": {
+    "username": "blacknoize404",
+    "email": "blacknoize404@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=barnesinside.is-a.dev,90118adce1a1905fd48b"
+  }
 }
