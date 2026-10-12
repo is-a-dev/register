@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "VicterHong",
+    "email": "victerphanjaya@gmail.com"
+  },
+  "description": "Brevo branded sender record for victer.is-a.dev",
+  "records": {
+    "CNAME": "noreply-victer-is-a-dev.brand.brevosend.com"
+  }
+}

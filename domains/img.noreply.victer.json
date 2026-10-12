@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "VicterHong",
+    "email": "victerphanjaya@gmail.com"
+  },
+  "description": "Brevo image redirection record for victer.is-a.dev",
+  "records": {
+    "CNAME": "noreply-victer-is-a-dev.img.brand.brevosend.com"
+  }
+}
