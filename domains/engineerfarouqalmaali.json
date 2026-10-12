@@ -1,10 +1,10 @@
-
 {
-  "owner": {
-    "username": "EngFarouqAlmaali",
-    "email": "engineerfarouqa@gmail.com"
-  },
-  "records": {
-    "CNAME": "21132f313732b74a.vercel-dns-017.com"
-  }
+    "owner": {
+        "username": "EngFarouqAlmaali",
+        "email": "engineerfarouqa@gmail.com"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": "vc-domain-verify=engineerfarouqalmaali.is-a.dev,942f36dec905fed8d9e8"
+    }
 }
