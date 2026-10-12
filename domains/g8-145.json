@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "g8asialab01-sys",
-    "email": "g8.eu.lab01@gmail.com"
+    "email": "g8.asia.lab01@gmail.com"
   },
-  "record": {
-    "CNAME": "g8-145.pages.dev"
+  "records": {
+    "CNAME": "g8-145.g8-eu-lab02.workers.dev"
   }
 }
