@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "jyothi-basu",
+    "email": "jyothibasuchodavarapu@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsrm7y8Yy0yf5kldi6YKi5P8FNDQb2dKBhPFKUFpDNeiasvVP7beHkTo20z7A0pZBnumD6YrQoVq0GM+6Fanmvko1Xg1HTVe2cbw3NRAEoPgwqk0L6q/z1sEaf7MYw1m5vCD2qgec4G7w4xfFoyVQ03UHGYV4xxlvSRNxYNAvbr/B8aDZUo1USXsD+mr8wmo1cO7j9TEGcxJdUlgE8t7XFfIhzIhkV/T2JFfqVjnHcg0De9+39sGmgW4m5H4+bmcblZKo57tLBOu9XYtSEaJkeWXqxNE9VlhlWB/oXKqtLC2mMMYQV9JyUvgJW4aSjzSK2pRbHYMM7WW/gNfzRO0OXwIDAQAB"
+  }
+}
