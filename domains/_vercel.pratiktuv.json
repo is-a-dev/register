@@ -6,6 +6,8 @@
     "email": "roy1022356@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=pratiktuv.is-a.dev,9d1bee4ff30bcee462d7"]
+    "TXT": [
+      "vc-domain-verify=pratiktuv.is-a.dev,9d1bee4ff30bcee462d7"
+    ]
   }
 }

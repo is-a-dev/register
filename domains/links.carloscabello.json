@@ -1,0 +1,11 @@
+{
+  "description": "Carlos Cabello's link-in-bio page",
+  "owner": {
+    "username": "CarlosCabelloTroncoso",
+    "email": "ignaciocarlos016@gmail.com",
+    "repo": "https://github.com/CarlosCabelloTroncoso/portfolio-links"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

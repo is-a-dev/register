@@ -4,7 +4,8 @@
     "email": "sonishreyans01@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"],
-    "TXT": ["vc-domain-verify=shreyans.is-a.dev,0517fbfcf1a18a360902"]
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

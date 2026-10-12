@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "SulaimanAlizada",
+    "email": "SulaimanAlizada9@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkiwgqjNc+ALbaXY3Lw2+fR+HjMg0YAyu4XrfHGI0x8bgbCaGXrMjWzAwfK593iOObHgmu4CcxCXg+TDmdWFisfYi8zak6sBCZcOGfWGseEHQ+Ka2rLSCOUhi43zJAHFCd1IsuIpKQ0tCW5NwHnKu6r6JZLXee/j/f9KYp6K3QuzfCzXw/vXktcYPSZRyYjIgvYEZQ2AUHegYyyT5VHYfMKGbit0In9SlgvT1na9ZkF+z8uE4I2T8M9oezgEP4gpjnpalYntb9FqmuC/cWfCjV7cvvsXjHHlm5Ilhd1tyC3SEUIvTbPAD7viNT1mdOE+/T0YaPKWVqQCgR40j+u9VCwIDAQAB"
+  }
+}

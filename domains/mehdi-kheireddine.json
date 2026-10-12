@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "MahdiKheireddine",
+    "email": "your-email@example.com"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "TXT": "brevo-code:ff1c622f9f9b435e3408de3eb5fb3b41"
+  }
+}

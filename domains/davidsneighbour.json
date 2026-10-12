@@ -6,6 +6,8 @@
   },
   "records": {
     "URL": "https://github.com/davidsneighbour/",
-    "MX": ["smtp.google.com"]
+    "MX": [
+      "smtp.google.com"
+    ]
   }
 }
