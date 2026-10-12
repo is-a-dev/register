@@ -3,7 +3,7 @@
     "username": "GiZano",
     "email": "gizano.dev@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "gizano.github.io",
     "MX": [
       "mx1.forwardemail.net",
