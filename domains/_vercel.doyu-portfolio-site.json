@@ -1,9 +1,9 @@
 {
-    "owner": {
-          "username": "DoyuIm",
-          "email": "rnehrdyddmfh@gmail.com"
-    },
-    "records": {
-          "TXT": "vc-domain-verify=doyu-portfolio-site.is-a.dev,880b675b39acb5f08942"
-    }
+  "owner": {
+    "username": "DoyuIm",
+    "email": "rnehrdyddmfh@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=doyu-portfolio-site.is-a.dev,880b675b39acb5f08942"
+  }
 }
