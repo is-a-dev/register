@@ -4,6 +4,12 @@
         "email": "snarang445566@gmail.com"
     },
     "records": {
-        "CNAME": "altitdev.github.io"
+        "CNAME": "altitdev.github.io",
+        "TXT": "zoho-verification=zb65348756.zmverify.zoho.in",
+        "MX": [
+            { "target": "mx.zoho.in", "priority": 10 },
+            { "target": "mx2.zoho.in", "priority": 20 },
+            { "target": "mx3.zoho.in", "priority": 50 }
+        ]
     }
 }
