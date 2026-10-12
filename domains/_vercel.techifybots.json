@@ -1,9 +1,0 @@
-{
-    "owner": {
-        "username": "techifybots"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=www.techifybots.is-a.dev,b36a8ab0d234bd4e2bf3",
-        "TXT": "vc-domain-verify=techifybots.is-a.dev,ab8c2d56a2290cd34ab3"
-    }
-}
