@@ -1,0 +1,12 @@
+{
+  "description": "Personal subdomain for xigui quiz tunnel",
+  "repo": "https://github.com/Zll06/register",
+  "owner": {
+    "username": "Zll06",
+    "email": "284016791@qq.com"
+  },
+  "record": {
+    "CNAME": "a3afd981-dc02-4f3d-8f91-5739f16dbb3b.cfargotunnel.com"
+  },
+  "proxied": false
+}
