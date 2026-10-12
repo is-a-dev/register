@@ -1,10 +1,11 @@
-
 {
-    "owner": {
-        "username": "yourlocaljesus-dev",
-        "email": "nilay2011op@gmail.com"
-    },
-    "records": {
-        "TXT": ["vc-domain-verify=nilay.is-a.dev,c02d0646be6be4f1e910"]
-    }
+  "owner": {
+    "username": "yourlocaljesus-dev",
+    "email": "nilay2011op@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=nilay.is-a.dev,c02d0646be6be4f1e910"
+    ]
+  }
 }
