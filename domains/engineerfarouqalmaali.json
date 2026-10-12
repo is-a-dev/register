@@ -5,8 +5,6 @@
     },
     "records": {
         "CNAME": "cname.vercel-dns.com",
-        "TXT": [
-            "vc-domain-verify=engineerfarouqalmaali.is-a.dev,942f36dec905fed8d9e8"
-        ]
+        "TXT": "vc-domain-verify=engineerfarouqalmaali.is-a.dev,eae88d87722a21518843"
     }
 }
