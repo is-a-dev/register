@@ -1,15 +1,20 @@
 {
-    "owner": {
-        "username": "Sahil390",
-        "email": "snarang445566@gmail.com"
-    },
-    "records": {
-        "CNAME": "altitdev.github.io",
-        "TXT": "zoho-verification=zb65348756.zmverify.zoho.in",
-        "MX": [
-            { "target": "mx.zoho.in", "priority": 10 },
-            { "target": "mx2.zoho.in", "priority": 20 },
-            { "target": "mx3.zoho.in", "priority": 50 }
-        ]
-    }
+  "owner": {
+    "username": "Sahil390",
+    "email": "snarang445566@gmail.com"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "TXT": "zoho-verification=zb65348756.zmverify.zoho.in",
+    "MX": [
+      { "target": "mx.zoho.in", "priority": 10 },
+      { "target": "mx2.zoho.in", "priority": 20 },
+      { "target": "mx3.zoho.in", "priority": 50 }
+    ]
+  }
 }
