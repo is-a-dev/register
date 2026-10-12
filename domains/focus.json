@@ -3,9 +3,6 @@
         "username": "focus-at"
     },
     "records": {
-        "NS": [
-            "harleigh.ns.cloudflare.com",
-            "matt.ns.cloudflare.com"
-        ]
+        "CNAME": "e05f5ec8-7a76-45a2-92a2-6470ac5fcbc3.cfargotunnel.com"
     }
 }
