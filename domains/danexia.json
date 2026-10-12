@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "xXINFINITE117Xx",
+    "email": "davidagaonahenao@gmail.com"
+  },
+  "domain": "danexia",
+  "subdomain": "",
+  "records": {
+    "CNAME": "cname.vercel-dns.com."
+  }
+}
