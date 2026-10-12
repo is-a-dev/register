@@ -4,6 +4,8 @@
     "email": "tegarmuhamad122@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=projectme-tegar.is-a.dev,da9a0289836c3d9e0a14"
+    "TXT": [
+      "vc-domain-verify=projectme-tegar.is-a.dev,da9a0289836c3d9e0a14"
+    ]
   }
 }
