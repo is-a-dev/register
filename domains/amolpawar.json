@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "AmolPawar921"
-    },
-    "records": {
-        "A": ["129.146.168.83"]
-    }
+  "owner": {
+    "username": "AmolPawar921"
+  },
+  "records": {
+    "A": [
+      "129.146.168.83"
+    ]
+  }
 }

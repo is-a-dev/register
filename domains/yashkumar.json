@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "codewithzodi",
-        "email": "mailzodibhai@gmail.com"
-    },
-    "records": {
-        "CNAME": "codewithzodi.github.io"
-    }
+  "owner": {
+    "username": "codewithzodi",
+    "email": "mailzodibhai@gmail.com"
+  },
+  "records": {
+    "CNAME": "codewithzodi.github.io"
+  }
 }

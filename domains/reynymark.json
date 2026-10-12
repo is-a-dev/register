@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "comsolodev-1",
-        "email": "com.solodev@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "comsolodev-1",
+    "email": "com.solodev@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

@@ -4,6 +4,9 @@
     "email": "sabbir.apbn.edu@gmail.com"
   },
   "records": {
-    "NS": ["clarissa.ns.cloudflare.com", "harley.ns.cloudflare.com"]
+    "NS": [
+      "clarissa.ns.cloudflare.com",
+      "harley.ns.cloudflare.com"
+    ]
   }
 }
