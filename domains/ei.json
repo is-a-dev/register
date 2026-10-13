@@ -1,12 +1,8 @@
 {
     "owner": {
-        "username": "sdifh",
-        "email": "sdifh@dingway.eu.org"
+        "username": "sdifh"
     },
-    "record": {
-        "NS": [
-            "mira.ns.cloudflare.com",
-            "nico.ns.cloudflare.com"
-        ]
+    "records": {
+        "CNAME": "sdifh.github.io"
     }
 }
