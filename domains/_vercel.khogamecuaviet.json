@@ -1,3 +1,9 @@
 {
-  "TXT": "vc-domain-verify=khogamecuaviet.is-a.dev,cb45a30f20d9bab11028"
+  "owner": {
+    "username": "luckyluke963",
+    "email": "tomviet963@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=khogamecuaviet.is-a.dev,cb45a30f20d9bab11028"
+  }
 }
