@@ -1,11 +1,13 @@
+
 {
   "owner": {
     "username": "Broodje565",
     "email": "broodje56@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
+    "NS": [
+      "ben.ns.cloudflare.com",
+      "walk.ns.cloudflare.com"
     ]
   }
 }
