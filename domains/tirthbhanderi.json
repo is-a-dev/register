@@ -5,9 +5,6 @@
     "email": "bhanderitirth94@gmail.com"
   },
   "records": {
-        "CNAME": "tirth-bhanderi.vercel.app",
-        "A": ["216.198.79.1"]
-  },
-  "proxied": true
-
+    "A": ["216.198.79.1"]
+  }
 }
