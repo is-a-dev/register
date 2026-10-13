@@ -4,6 +4,7 @@
     "email": "orikruzik@gmail.com"
   },
   "records": {
-    "CNAME": "orient-is-a-dev.web.app"
+    "CNAME": "orient-is-a-dev.web.app",
+    "TXT": "google-site-verification=HfBVeFzn81bZ0GZIWJmiU5NGSVOfXUeRw4Qf-Gzj2wc"
   }
 }
