@@ -4,6 +4,8 @@
   },
   "record": {
     "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=mic-testpro.is-a.dev,9c6ca202c99c36482c02"
+    "TXT": [
+      "vc-domain-verify=mic-testpro.is-a.dev,9c6ca202c99c36482c02"
+    ]
   }
 }
