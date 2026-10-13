@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "ebrahimi76"
+    "username": "ebrahimi76",
+    "email": "moali.develop@gmail.com"
   },
   "records": {
     "CNAME": "portfolio-2ld7.onrender.com"
-  }
+  },
+  "proxied": true
 }
