@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "taiwoabubakar-hub",
+    "email": "Taiwo.sophiyat@gmail.com"
+  },
+  "description": "Power BI project for school assessment",
+  "record": {
+    "MX": ["mx.zoho.eu", "mx2.zoho.eu"],
+    "TXT": "v=spf1 include:zoho.eu ~all"
+  }
+}
