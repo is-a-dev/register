@@ -1,7 +1,16 @@
 {
   "owner": {
     "username": "zurai02",
-    "email": "zurai02ispro@gmail.com"
+    "email": "{
+  "owner": {
+    "username": "zurai02",
+    "email": "Contact@zurai02.is-a.dev"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=quarantine; rua=mailto:zurai02ispro@gmail.com"
+  }
+}
+"
   },
   "records": {
     "CNAME": "zurai02.github.io",
