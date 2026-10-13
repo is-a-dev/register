@@ -1,0 +1,10 @@
+{
+  "description": "Personal money management app",
+  "owner": {
+    "username": "jorgeaguadero",
+    "email": "jorgeaguaderodev@gmail.com"
+  },
+  "records": {
+    "CNAME": "p01--money-manager-web--j8d2vvjsm66c.code.run"
+  }
+}
