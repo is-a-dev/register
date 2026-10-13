@@ -1,9 +1,1 @@
-{
-  "owner": {
-    "username": "3601701",
-    "email": "3601701@qq.com"
-  },
-  "records": {
-    "URL": "https://zhixiang.workers.dev"
-  }
-}
+{"owner":{"username":"3601701","email":"3601701@qq.com"},"description":"Personal cloud development workspace and proxy service","repo":"https://github.com/3601701","record":{"CNAME":"zhixiang.workers.dev"}}
