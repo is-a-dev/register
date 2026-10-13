@@ -3,6 +3,8 @@
     "username": "mshahidhanif1"
   },
   "records": {
-    "TXT": ["vc-domain-verify=mshahidhanif.is-a.dev,bd133a9dad2c4e4385a6"]
+    "TXT": [
+      "vc-domain-verify=mshahidhanif.is-a.dev,bd133a9dad2c4e4385a6"
+    ]
   }
 }
