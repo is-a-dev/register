@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "Seraph1nity"
+    "username": "Seraph1nity",
+    "email": "Seraphinity@national.shitposting.agency"
   },
   "records": {
     "RECORDTYPE": "https://seraph1nity.github.io/"
-  }
+  },
+  "proxied": true
 }
