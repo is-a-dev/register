@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "bijjudama"
-    },
-    "records": {
-        "CNAME": "nitansh.netlify.app"
-    }
+  "owner": {
+    "username": "bijjudama"
+  },
+  "records": {
+    "CNAME": "nitansh.netlify.app"
+  }
 }

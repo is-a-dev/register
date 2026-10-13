@@ -1,0 +1,13 @@
+{
+  "description": "Vercel domain verification for noureddine-oubraim.is-a.dev",
+  "repo": "https://github.com/noureddine-oubraim/DevFolio",
+  "owner": {
+    "username": "noureddine-oubraim",
+    "email": "noureddineoubraim1@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=noureddine-oubraim.is-a.dev,fe45ad7057bd8ca20b5b"
+    ]
+  }
+}

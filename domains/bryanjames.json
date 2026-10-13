@@ -1,0 +1,10 @@
+{
+  "description": "Portfolio",
+  "owner": {
+    "username": "bryanjamesdionisio",
+    "email": "dionisiobryanjames@yahoo.com"
+  },
+  "records": {
+    "CNAME": "bjgd-portfolio.vercel.app"
+  }
+}

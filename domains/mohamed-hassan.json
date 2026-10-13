@@ -4,7 +4,9 @@
     "email": "engmhassan994@gmail.com"
   },
   "records": {
-    "A": ["13.220.54.133"]
+    "A": [
+      "13.220.54.133"
+    ]
   },
   "proxied": false
 }

@@ -4,6 +4,9 @@
     "email": "sahidgalangfatiqin@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=sgaaf.is-a.dev,56d4e77b5d936dc60a3d"
+    "TXT": [
+      "vc-domain-verify=sgaaf.is-a.dev,ceb3d0f8233447db20e6",
+      "vc-domain-verify=www.sgaaf.is-a.dev,c978973d2855b5c4a70b"
+    ]
   }
 }

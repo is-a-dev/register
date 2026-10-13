@@ -3,7 +3,7 @@ Welcome to **is-a.dev** ("our", "us", "we"), a free subdomain service provided t
 
 For questions or concerns about these Terms, please contact us at admin@is-a.dev.
 
-**Last Updated**: 4th June, 2026
+**Last Updated**: 31st August, 2026
 
 ## Definitions
 The following definitions apply within these Terms of Service:
@@ -26,7 +26,7 @@ To use is-a.dev, you must:
 
 Subdomains must be registered to an individual GitHub account, and cannot be registered to a GitHub organisation account.
 
-By using is-a.dev, you represent and warrant that you meet these requirements.
+By using is-a.dev, you represent and warrant that you meet these requirements. Certain subdomains and nested subdomains requests, including but not limited to those with projects that are not personal developer related, non portfolio / traditional sites may be and can have additional restrictions in regards to maintainer review, with full express consent given to maintainers and PR reviewers to deny such pull requests.
 
 ## 3. Service Description
 is-a.dev allows users to register a subdomain under the "is-a.dev" domain. This service is offered "as-is" without guarantees of uptime, support, or permanence.
@@ -53,6 +53,8 @@ You agree not to use, attempt to use, or permit others to use the is-a.dev servi
 13. Hosting websites on root subdomains that are behind a login page (with the exception of login pages for management reasons)
 14. Blogs that are not primarily related to software development
 15. Conversational AI websites or apps that are similar in functionality to websites or apps such as Claude, Gemini, ChatGPT, etc.
+16. Any website that is orientated to courses
+17. Video game cheats, hacks, exploits, or unauthorised modifications, including any websites, communities, software, downloads, documentation, or services primarily intended to facilitate unfair gameplay or circumvent game restrictions
 
 *Note: This list is not exhaustive and may be updated or expanded at any time at our discretion.*
 
@@ -60,39 +62,43 @@ Additionally, users must comply with [GitHub's Terms of Service](https://docs.gi
 
 Violation of this section may result in immediate termination without notice.
 
-## 5. Use of AI (Artificial Intelligence)
+## 5. Subdomain Transfers and Monetisation
+
+is-a.dev subdomains are provided free of charge and may not be bought, sold, traded, rented, leased, auctioned, or otherwise transferred or monetised, whether directly or indirectly. This includes transferring or offering rights to a subdomain in exchange for money, goods, services, cryptocurrency, or any other form of compensation.
+
+## 6. Use of AI (Artificial Intelligence)
 
 The use of AI for creating, designing, or modifying websites is acceptable as long as the website is complete and complies with the prohibited activities guidelines. We are strongly against the usage of AI (such as Claude Code, Codex, OpenClaw, etc) for creating pull requests, and may close the pull request alongside blocking or limiting the author's ability to interact with our repositories and resources, if used.
 
-## 6. Ownership and Intellectual Property
+## 7. Ownership and Intellectual Property
 is-a.dev retains all rights, title, and interest in the "is-a.dev" domain and associated systems.
 
 You retain ownership of any content you host on your subdomain. Your hosted content, however, must not infringe on third-party rights.
 
 You grant us permission to use your registration data to operate the service.
 
-## 7. Termination of Service
+## 8. Termination of Service
 We reserve the right to terminate your subdomain at any time, for any reason. While we make reasonable efforts to provide notice in advance, we are not obligated to do so.
 
 Any donations made to the service are non-refundable.
 
-## 8. Privacy
+## 9. Privacy
 We collect and process only the personal data strictly necessary to operate is-a.dev. We do not sell or share your data with third parties for marketing purposes. While we take reasonable precautions, we are not responsible for any data or privacy breaches resulting from the use of our service.
 
 For privacy-related inquiries, please contact us at admin@is-a.dev.
 
-## 9. Disclaimer and Limitation of Liability
+## 10. Disclaimer and Limitation of Liability
 The is-a.dev service is provided "as-is" and "as available." We make no warranties, expressed or implied, regarding the service's functionality, reliability, or suitability for any particular purpose.
 
 You use the service at your own risk.
 
-## 10. Indemnification
+## 11. Indemnification
 You agree to indemnify and hold harmless is-a.dev, its operators, and affiliates from any claims, losses, liabilities, or expenses arising from your use of the service or violation of these Terms.
 
-## 11. Governing Law and Jurisdiction
+## 12. Governing Law and Jurisdiction
 These Terms are governed by the laws of Australia. Any disputes arising out of or relating to these Terms will be subject to the exclusive jurisdiction of the courts of Australia.
 
-## 12. Modification of Terms
+## 13. Modification of Terms
 We reserve the right to update or modify these Terms at any time. Changes will be effective immediately upon posting. Your continued use of the service constitutes acceptance of the updated Terms.
 
 If changes are made, we will notify users by posting them on our website or Discord server.
