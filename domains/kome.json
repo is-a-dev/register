@@ -5,5 +5,6 @@
     },
     "records": {
         "CNAME": "blessingkeyzthedev.vercel.app"
+        "TXT": "vc-domain-verify=www.kome.is-a.dev,5fb0d6e12acf423ce1fe"
     }
 }
