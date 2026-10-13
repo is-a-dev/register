@@ -1,9 +1,12 @@
+
 {
   "owner": {
     "username": "cierlout-ui",
-    "email": "cierlout@gmail.com"
+    "email": "cierloutudtud@gmail.com"
   },
-  "record": {
-    "TXT": ["vc-domain-verify=cierloutudtud.is-a.dev,7ff6582494a7bc20ee72"]
+  "records": {
+    "TXT": [
+      "vc-domain-verify=cierloututud.is-a.dev,7ff6582494a7bc20ee72"
+    ]
   }
 }
