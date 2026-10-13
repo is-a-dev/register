@@ -1,11 +1,11 @@
 {
-  "description": "Personal portfolio website showcasing software development, web development, and IoT projects.",
+  "description": "Situs web portofolio pribadi untuk menampilkan proyek pengembangan perangkat lunak, web, dan IoT.",
   "repo": "https://github.com/tegarmuhamad122-cmd/Portofolio",
   "owner": {
     "username": "tegarmuhamad122-cmd",
-    "email": "tegarmuhamad122@gmail.com"
+    "email": "tegarmuhamad1220@gmail.com"
   },
-  "record": {
-    "CNAME": "tegar-portofolio-tau.vercel.app"
+  "records": {
+    "CNAME": "tegar-portfolio-tau.vercel.app"
   }
 }
