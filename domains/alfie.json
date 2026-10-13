@@ -1,9 +1,10 @@
+
 {
-    "owner":
+    "owner": {
         "username": "rdmilkshakelab",
         "email": "alfernado@outlook.com"
-    }
+    },
     "records": {
-        "CNAME": "https://rdmilkshakelab.github.io"
+        "CNAME": "rdmilkshakelab.github.io"
     }
 }
