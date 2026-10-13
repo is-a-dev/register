@@ -4,6 +4,8 @@
     "email": "broodje56@gmail.com"
   },
   "records": {
-    "CNAME": "broodje565.pages.dev"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
