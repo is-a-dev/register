@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "sdifh",
+        "email": "sdifh@dingway.eu.org"
+    },
+    "record": {
+        "NS": [
+            "mira.ns.cloudflare.com",
+            "nico.ns.cloudflare.com"
+        ]
+    }
+}
