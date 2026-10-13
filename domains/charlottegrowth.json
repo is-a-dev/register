@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "anwitham86-source"
+    "username": "anwitham86-source",
+    "email": "anwitham86@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "charlotte-growth-grid.base44.app"
   }
 }
