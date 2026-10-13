@@ -1,11 +1,11 @@
 {
-  "description": "Situs web portofolio pribadi untuk menampilkan proyek pengembangan perangkat lunak, web, dan IoT.",
-  "repo": "https://github.com/tegarmuhamad122-cmd/Portofolio",
+  "description": "Portofolio Website Tegar di Vercel",
+  "repo": "https://github.com/tegarmuhamad122-cmd",
   "owner": {
     "username": "tegarmuhamad122-cmd",
     "email": "tegarmuhamad1220@gmail.com"
   },
   "records": {
-    "CNAME": "tegar-portfolio-tau.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
