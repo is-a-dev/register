@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "catsmoker"
+    "username": "catsmoker",
+    "email": "catsmoker.lab@gmail.com"
   },
   "records": {
     "CNAME": "catsmoker.vercel.app"
