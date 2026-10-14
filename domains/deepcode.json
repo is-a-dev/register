@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "Deepcode2021"
-    },
-    "records": {
-        "CNAME": "deepcode21.vercel.app"
-    }
+  "owner": {
+    "username": "Deepcode2021",
+    "email": "deepcode2007@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
