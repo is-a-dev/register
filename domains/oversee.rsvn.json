@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "rushierivan",
-    "email": "rushierivan@gmail.com"
+    "email": "rushier.ivan@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "team-manager-promaxtest.web.app"
   },
   "proxied": false
