@@ -3,7 +3,7 @@
     "username": "Rakshit6456"
   },
   "records": {
-    "CNAME": "ryadav-portfolio.vercel.app"
+    "A": ["216.198.79.1"]
   },
   "proxied": true
 }
