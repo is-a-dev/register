@@ -6,21 +6,9 @@
   "records": {
     "MX": [
       {
-        "priority": 10,
-        "target": "mx.zoho.in"
-      },
-      {
-        "priority": 20,
-        "target": "mx2.zoho.in"
-      },
-      {
-        "priority": 50,
-        "target": "mx3.zoho.in"
+        "priority": 9,
+        "target": "inbound-smtp.us-east-1.amazonaws.com"
       }
-    ],
-    "TXT": [
-      "zoho-verification=zb54977424.zmverify.zoho.in",
-      "v=spf1 include:zoho.in ~all"
     ]
   }
 }
