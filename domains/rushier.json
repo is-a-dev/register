@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "rushierivan"
+    "username": "rushierivan",
+    "email": "rushier.ivan@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "rushierivan.github.io"
   }
 }
