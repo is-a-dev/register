@@ -5,7 +5,7 @@
     "username": "edrischhawniwala",
     "email": "echhawniwala@gmail.com"
   },
-  "record": {
-    "CNAME": "https://edris.echhawniwala.workers.dev"
+  "records": {
+    "CNAME": "edris.echhawniwala.workers.dev"
   }
 }
