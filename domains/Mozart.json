@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "MozartMoknine"
-    },
-    "records": {
-        "RECORDTYPE": "CNAME"
-    }
+  "owner": {
+    "username": "MozartMoknine"
+  },
+  "record": {
+    "CNAME": "MozartMoknine.github.io"
+  }
 }
