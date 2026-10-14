@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "Traveritas"
+    "username": "Traveritas",
+    "email": "traveritas@proton.me"
   },
   "records": {
     "CNAME": "traveritas.github.io"
