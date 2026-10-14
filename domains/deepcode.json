@@ -3,7 +3,8 @@
     "username": "Deepcode2021",
     "email": "deepcode2007@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=deepcode.is-a.dev,4a0f1783c0ed93d57947"
   }
 }
