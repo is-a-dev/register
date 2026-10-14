@@ -6,7 +6,8 @@
   "records": {
     "TXT": [
       "verification-code-site-App_lark=cSsPTgiE2HeUbXJAjUNQ",
-      "v=spf1 +include:spf.onlarksuite.com -all"
+      
+     "TXT": ["v=spf1 +include:spf.onlarksuite.com -all"]
     ],
     "MX": [
       { "target": "mx1.larksuite.com", "priority": 1 },
