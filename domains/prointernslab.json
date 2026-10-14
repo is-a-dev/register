@@ -1,11 +1,11 @@
 {
   "description": "ProInternsLab internship website",
-  "repo": "https://github.com/rajprajapati12345",
+  "repo": "https://github.com/rajprajapati12345/prointernslabs",
   "owner": {
     "username": "rajprajapati12345",
     "email": "prointernslab@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rajprajapati12345.github.io"
   }
 }
