@@ -4,7 +4,8 @@
     "email": "huertaabadalex@gmail.com"
   },
   "records": {
-    "CNAME": "gamerxr-637.github.io"
+    "CNAME": "gamerxr-637.github.io",
     "TXT": ["zoho-verification=zb76641191.zmverify.zoho.com"]
-  }
+  },
+  "proxied": true
 }
