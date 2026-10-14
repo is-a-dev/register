@@ -4,9 +4,7 @@
     "email": "hafizusamaarain769@gmail.com"
   },
   "record": {
-    "NS": [
-      "coco.ns.cloudflare.com",
-      "roxy.ns.cloudflare.com"
-    ]
-  }
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "subdomain": "faizusa"
 }
