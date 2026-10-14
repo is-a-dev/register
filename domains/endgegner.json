@@ -1,8 +1,11 @@
+```json
 {
   "owner": {
-    "username": "youmtarko"
+    "username": "youmtarko",
+    "email": "taylor55r@proton.me"
   },
   "records": {
     "CNAME": "youmtarko.github.io"
   }
 }
+```
