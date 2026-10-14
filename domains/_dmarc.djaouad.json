@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "djoudad292",
+    "email": "oufr29@gmail.com"
+  },
+  "proxied": false,
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=quarantine; rua=mailto:oufr29@gmail.com; fo=1; adkim=r; aspf=r"
+    ]
+  }
+}

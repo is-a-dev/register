@@ -5,12 +5,12 @@
   },
   "records": {
     "MX": [
-      "route1.mx.cloudflare.net",
-      "route2.mx.cloudflare.net",
-      "route3.mx.cloudflare.net"
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
     ],
     "TXT": [
-      "v=spf1 include:_spf.mx.cloudflare.net ~all"
+      "forward-email=r3bup8236@gmail.com",
+      "v=spf1 include:spf.forwardemail.net ~all"
     ]
   }
 }
