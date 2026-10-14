@@ -4,6 +4,20 @@
         "email": "ajtimepyro@gmail.com"
     },
     "records": {
-        "CNAME": "ajtimepyro.github.io"
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "MX": [
+            "mx.zoho.com",
+            "mx2.zoho.com",
+            "mx3.zoho.com"
+        ],
+        "TXT": [
+            "zoho-verification=zb87970162.zmverify.zoho.in",
+            "v=spf1 include:zoho.com ~all"
+        ]
     }
 }
