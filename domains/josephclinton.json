@@ -4,6 +4,6 @@
     "email": "josephclinton@gmail.com"
   },
   "records": {
-    "CNAME":"joseph-portfolio-joseph-portfolio1.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
