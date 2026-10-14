@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Xvannn07"
+    "username": "Xvannn07",
+    "email": "xvannn07@gmail.com"
   },
   "records": {
-    "CNAME": "2f25160848fb125b.vercel-dns-017.com"
+    "A": ["216.198.79.1"]
   }
 }
