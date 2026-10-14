@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "goloveshko",
-        "email": "goloveshko@proton.me"
-    },
-    "records": {
-        "CNAME": "goloveshko.github.io"
-    }
+  "owner": {
+    "username": "goloveshko",
+    "email": "goloveshko@proton.me"
+  },
+  "records": {
+    "CNAME": "goloveshko.github.io"
+  }
 }

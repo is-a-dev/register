@@ -1,0 +1,13 @@
+{
+  "name": "_vercel.ahmadkassem",
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "ahmad-kassem6",
+    "email": "kassema035@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=ahmadkassem.is-a.dev,9d88ea75fd73a2602d75"
+    ]
+  }
+}

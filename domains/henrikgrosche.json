@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "hgrosche95",
-        "email": "h.grosche95@gmail.com"
-    },
-    "records": {
-        "CNAME": "agreeable-tree-0f9b1f60f.6.azurestaticapps.net"
-    }
+  "owner": {
+    "username": "hgrosche95",
+    "email": "h.grosche95@gmail.com"
+  },
+  "records": {
+    "CNAME": "agreeable-tree-0f9b1f60f.6.azurestaticapps.net"
+  }
 }

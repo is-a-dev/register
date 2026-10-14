@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kindmita",
-        "email": "kind.mita@outlook.com"
-    },
-    "records": {
-        "CNAME": "kindmita.github.io"
-    }
+  "owner": {
+    "username": "kindmita",
+    "email": "kind.mita@outlook.com"
+  },
+  "records": {
+    "CNAME": "kindmita.github.io"
+  }
 }

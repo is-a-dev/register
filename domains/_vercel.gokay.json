@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "gokay05",
-        "email": "gyamankurt@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=gokay.is-a.dev,6d5427dbff6e7d291063"
-    }
+  "owner": {
+    "username": "gokay05",
+    "email": "gyamankurt@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=gokay.is-a.dev,6d5427dbff6e7d291063"
+  }
 }
