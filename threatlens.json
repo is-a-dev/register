@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "chmujahid12619-spec",
-    "email": "chmujahid12619@gmail.com"
+    "email": "ch.mujahid12619@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "threat-intelligence-d1l9.bolt.host"
-  },
-  "proxied": true
+  }
 }
