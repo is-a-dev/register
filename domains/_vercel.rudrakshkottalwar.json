@@ -4,6 +4,8 @@
     "email": "rudraksh7709@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=rudrakshkottalwar.is-a.dev,6b79f862eda2012dc0b7"
+    "TXT": [
+      "vc-domain-verify=rudrakshkottalwar.is-a.dev,cabe8c7ab8d1c7d441d2"
+    ]
   }
 }
