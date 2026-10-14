@@ -8,7 +8,8 @@
     "TXT": [
       "zoho-verification=zb16405296.zmverify.zoho.in",
       "v=spf1 include:zoho.in ~all",
-      "domain.zoho.com"
+      "domain.zoho.com",
+      "google-site-verification=R9ictvA8AC2lzvWKGlMY2Kcu8YNpSgs8HIQp4nVdC3s"
     ],
     "MX": [
       {

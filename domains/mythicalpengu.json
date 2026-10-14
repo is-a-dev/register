@@ -1,0 +1,10 @@
+{
+  "description": "This is my website",
+  "owner": {
+    "username": "mysticalpengu",
+    "email": "mythicalpengu@proton.me"
+  },
+  "records": {
+    "CNAME": "mysticalpengu.github.io"
+  }
+}
