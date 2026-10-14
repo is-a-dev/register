@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "Yabish", "email": "yabisharfath7@gmail.com" },
-  "records": { "TXT": "vc-domain-verify=yabish.is-a.dev,8c236f6da25041296f29" }
+  "owner": {
+    "username": "Yabish",
+    "email": "yabisharfath7@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=yabish.is-a.dev,8c236f6da25041296f29"
+  }
 }
