@@ -4,6 +4,6 @@
     "username": "gokulmcodes"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "ns1.vercel-dns.com, ns2.vercel-dns.com"
   }
 }
