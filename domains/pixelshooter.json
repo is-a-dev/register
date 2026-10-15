@@ -1,9 +1,13 @@
 {
   "owner": {
-    "username": "lorennswaggerboi-lab",
-    "email": "lorenn.swaggerboi@email.com"
+    "username": "lorennswaggerboi-lab"
   },
-  "record": {
-    "CNAME": "https://lorennswaggerboi-lab.github.io/test/"
+  "records": {
+    "@": [
+      {
+        "type": "CNAME",
+        "value": "lorennswaggerboi-lab.github.io"
+      }
+    ]
   }
 }
