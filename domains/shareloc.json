@@ -1,10 +1,9 @@
 {
-  "description": "Share files instantly from anywhere",
-  "owner": {
-    "username": "omranadam9",
-    "email": "omranadam9@gmail.com"
-  },
-  "records": {
-    "CNAME": "omranadam9.github.io"
-  }
+    "owner": {
+        "username": "omranadam9",
+        "email": "omranadam9@gmail.com"
+    },
+    "records": {
+        "CNAME": "omranadam9.github.io"
+    }
 }
