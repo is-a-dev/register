@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Shubhdeeps",
-        "email": "shubhdeeps.dev@gmail.com"
-    },
-    "records": {
-        "CNAME": "shubhdeeps.github.io"
-    }
+  "owner": {
+    "username": "Shubhdeeps",
+    "email": "shubhdeeps.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "shubhdeeps.github.io"
+  }
 }

@@ -1,1 +1,9 @@
-{"owner":{"username":"sourav-bwn","email":"souravgarai.bwn@gmail.com"},"records":{"TXT":"vc-domain-verify=souravgarai.is-a.dev,7b87631d0adffe9206c9"}}
+{
+  "owner": {
+    "username": "sourav-bwn",
+    "email": "souravgarai.bwn@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=souravgarai.is-a.dev,7b87631d0adffe9206c9"
+  }
+}
