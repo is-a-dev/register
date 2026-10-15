@@ -1,6 +1,7 @@
 import t from "ava";
 import fs from "fs-extra";
 import path from "path";
+import { isIPv6 } from "node:net";
 
 import disallowedCNAMEs from "../util/disallowed-cnames.json" with { type: "json" };
 
@@ -69,13 +70,16 @@ function validateIPv4(ip, proxied) {
 }
 
 function validateIPv6(ip) {
-    return !(
-        ip.toLowerCase().startsWith("fc") ||
-        ip.toLowerCase().startsWith("fd") ||
-        ip.toLowerCase().startsWith("fe80") ||
-        ip.toLowerCase().startsWith("::1") ||
-        ip.toLowerCase().startsWith("2001:db8")
-    );
+    const segments = ip.split(":").map((segment) => Number.parseInt(segment, 16));
+    const firstSegment = segments[0];
+    const secondSegment = segments[1];
+
+    const isUniqueLocal = (firstSegment & 0xfe00) === 0xfc00;
+    const isLinkLocal = (firstSegment & 0xffc0) === 0xfe80;
+    const isLoopback = segments.slice(0, 7).every((segment) => segment === 0) && segments[7] === 1;
+    const isDocumentation = firstSegment === 0x2001 && secondSegment === 0x0db8;
+
+    return !(isUniqueLocal || isLinkLocal || isLoopback || isDocumentation);
 }
 
 function validateRecordType(recordType) {
@@ -89,6 +93,43 @@ function isValidHostname(hostname) {
 function isValidHexadecimal(value) {
     return /^[0-9a-fA-F]+$/.test(value);
 }
+
+function isValidIPv6Address(ip) {
+    // Validate the original representation before expanding it. Otherwise malformed
+    // inputs containing multiple "::" sequences can be expanded into eight segments.
+    if (!isIPv6(ip)) return false;
+
+    const expandedIPv6 = expandIPv6(ip);
+    return ipv6Regex.test(expandedIPv6) && validateIPv6(expandedIPv6);
+}
+
+t("IPv6 validation rejects malformed and non-public addresses", (t) => {
+    const validAddresses = [
+        "2606:4700:4700::1111",
+        "2001:4860:4860::8888",
+        "2606:4700:4700:0:0:0:0:1111"
+    ];
+    const invalidAddresses = [
+        "2001:db8::1::2",
+        "1:2:3:4:5:6:7:8::",
+        "2001:db8:0:0:0:0:0",
+        "gggg::1",
+        "::1",
+        "fc00::1",
+        "fd12::1",
+        "fe80::1",
+        "fe90::1",
+        "2001:db8::1"
+    ];
+
+    validAddresses.forEach((address) => {
+        t.true(isValidIPv6Address(address), `${address} should be accepted`);
+    });
+
+    invalidAddresses.forEach((address) => {
+        t.false(isValidIPv6Address(address), `${address} should be rejected`);
+    });
+});
 
 function validateRecordValues(t, data, file) {
     const subdomain = file.replace(/\.json$/, "");
@@ -111,9 +152,10 @@ function validateRecordValues(t, data, file) {
                         `${file}: Invalid IPv4 address for ${key} at index ${idx}`
                     );
                 } else if (key === "AAAA") {
-                    const expandedIPv6 = expandIPv6(record);
-                    t.true(ipv6Regex.test(expandedIPv6), `${file}: Invalid IPv6 address for ${key} at index ${idx}`);
-                    t.true(validateIPv6(expandedIPv6), `${file}: Invalid IPv6 address for ${key} at index ${idx}`);
+                    t.true(
+                        isValidIPv6Address(record),
+                        `${file}: Invalid IPv6 address for ${key} at index ${idx}`
+                    );
                 } else if (key === "MX") {
                     t.true(
                         typeof record === "object" || typeof record === "string",
