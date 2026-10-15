@@ -6,8 +6,8 @@
   "records": {
     "CNAME": "zurai02.github.io",
     "MX": [
-      { "target": "mx1.improvmx.com", "priority": 10 },
-      { "target": "mx2.improvmx.com", "priority": 20 }
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
     ],
     "TXT": [
       "google-site-verification=cbDu7ZAi84tTALeQcS5yn7zciD3tTO43hVMhA3pwfoI",
@@ -16,7 +16,8 @@
     "CAA": [
       { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
       { "flags": 0, "tag": "issue", "value": "pki.goog" },
-      { "flags": 0, "tag": "issuewild", "value": ";" }
+      { "flags": 0, "tag": "issuewild", "value": ";" },
+      { "flags": 0, "tag": "iodef", "value": "mailto:zurai02ispro@gmail.com" }
     ]
   },
   "proxied": true
