@@ -1,6 +1,0 @@
-name = "king-panel"
-main = "index.js"
-compatibility_date = "2026-10-15"
-
-[vars]
-# متغیرهای محیطی در صورت نیاز
