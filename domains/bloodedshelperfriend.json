@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "barkedsonbarkbark-lab"
-    },
-    "records": {
-        "CNAME": "bloodedsfriendshelpersite.onrender.com."
-    }
+  "owner": {
+    "username": "barkedsonbarkbark-lab"
+  },
+  "record": {
+    "CNAME": "bloodedsfriendshelpersite.onrender.com"
+  }
 }
