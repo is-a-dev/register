@@ -26,7 +26,7 @@ export default {
       return new Response(null, { status: 101, webSocket: client });
     }
 
-    // ساب متنی هوشمند - بدون خطا و کاملا پاکسازی شده
+    // ساب متنی هوشمند
     if (path.startsWith("/sub/") && method === "GET") {
       const username = path.split("/")[2];
       try {
@@ -333,11 +333,28 @@ function getMasterDashboardHtml(host) {
                     <div class="form-row">
                         <div class="form-group">
                             <label>حجم اشتراک</label>
-                            <input type="text" id="f-traffic" value="نامحدود" placeholder="مثال: 50 GB">
+                            <select id="f-traffic" onchange="checkCustomTraffic(this)">
+                                <option value="نامحدود">نامحدود</option>
+                                <option value="10 GB">10 گیگابایت</option>
+                                <option value="30 GB">30 گیگابایت</option>
+                                <option value="50 GB">50 گیگابایت</option>
+                                <option value="100 GB">100 گیگابایت</option>
+                                <option value="custom">مقدار دلخواه...</option>
+                            </select>
+                            <input type="text" id="f-traffic-custom" placeholder="مثال: 75 GB" style="margin-top:8px; display:none;">
                         </div>
                         <div class="form-group">
                             <label>مدت زمان انقضا</label>
-                            <input type="text" id="f-expire" value="30 روز" placeholder="مثال: 30 روز">
+                            <select id="f-expire" onchange="checkCustomExpire(this)">
+                                <option value="30 روز">30 روزه</option>
+                                <option value="7 روز">7 روزه</option>
+                                <option value="15 روز">15 روزه</option>
+                                <option value="60 روز">60 روزه</option>
+                                <option value="90 روز">90 روزه</option>
+                                <option value="نامحدود">بدون انقضا</option>
+                                <option value="custom">مقدار دلخواه...</option>
+                            </select>
+                            <input type="text" id="f-expire-custom" placeholder="مثال: 45 روز" style="margin-top:8px; display:none;">
                         </div>
                     </div>
 
@@ -364,6 +381,30 @@ function getMasterDashboardHtml(host) {
         let allUsersCache = [];
         let currentMode = 'create';
         const currentHost = "${host}";
+
+        function checkCustomTraffic(sel) {
+            const customInput = document.getElementById('f-traffic-custom');
+            if(sel.value === 'custom') {
+                customInput.style.display = 'block';
+                customInput.required = true;
+                customInput.focus();
+            } else {
+                customInput.style.display = 'none';
+                customInput.required = false;
+            }
+        }
+
+        function checkCustomExpire(sel) {
+            const customInput = document.getElementById('f-expire-custom');
+            if(sel.value === 'custom') {
+                customInput.style.display = 'block';
+                customInput.required = true;
+                customInput.focus();
+            } else {
+                customInput.style.display = 'none';
+                customInput.required = false;
+            }
+        }
 
         async function loadUsers() {
             try {
@@ -454,7 +495,9 @@ function getMasterDashboardHtml(host) {
                 document.getElementById('modal-submit-btn').innerText = 'ثبت در دیتابیس';
                 document.getElementById('user-form').reset();
                 document.getElementById('f-traffic').value = 'نامحدود';
+                document.getElementById('f-traffic-custom').style.display = 'none';
                 document.getElementById('f-expire').value = '30 روز';
+                document.getElementById('f-expire-custom').style.display = 'none';
                 document.getElementById('f-username').disabled = false;
                 document.getElementById('username-label').innerText = 'نام کاربری (پیش‌وند KING_ خودکار اضافه می‌شود)';
             }
@@ -473,8 +516,43 @@ function getMasterDashboardHtml(host) {
             document.getElementById('f-username').disabled = true;
             document.getElementById('username-label').innerText = 'نام کاربری (غیرقابل تغییر)';
             
-            document.getElementById('f-traffic').value = u.traffic || 'نامحدود';
-            document.getElementById('f-expire').value = u.expire || '30 روز';
+            // ست کردن حجم
+            const trafficSelect = document.getElementById('f-traffic');
+            const trafficCustom = document.getElementById('f-traffic-custom');
+            let trafficMatch = false;
+            for(let opt of trafficSelect.options) {
+                if(opt.value === u.traffic) {
+                    trafficSelect.value = u.traffic;
+                    trafficMatch = true;
+                    break;
+                }
+            }
+            if(!trafficMatch && u.traffic) {
+                trafficSelect.value = 'custom';
+                trafficCustom.style.display = 'block';
+                trafficCustom.value = u.traffic;
+            } else {
+                trafficCustom.style.display = 'none';
+            }
+
+            // ست کردن انقضا
+            const expireSelect = document.getElementById('f-expire');
+            const expireCustom = document.getElementById('f-expire-custom');
+            let expireMatch = false;
+            for(let opt of expireSelect.options) {
+                if(opt.value === u.expire) {
+                    expireSelect.value = u.expire;
+                    expireMatch = true;
+                    break;
+                }
+            }
+            if(!expireMatch && u.expire) {
+                expireSelect.value = 'custom';
+                expireCustom.style.display = 'block';
+                expireCustom.value = u.expire;
+            } else {
+                expireCustom.style.display = 'none';
+            }
             
             document.getElementById('f-adblock').checked = (u.adblock === 'on');
             document.getElementById('f-adult').checked = (u.adult_block === 'on');
@@ -489,11 +567,21 @@ function getMasterDashboardHtml(host) {
         document.getElementById('user-form').addEventListener('submit', async (e) => {
             e.preventDefault();
             
+            let trafficVal = document.getElementById('f-traffic').value;
+            if(trafficVal === 'custom') {
+                trafficVal = document.getElementById('f-traffic-custom').value.trim();
+            }
+
+            let expireVal = document.getElementById('f-expire').value;
+            if(expireVal === 'custom') {
+                expireVal = document.getElementById('f-expire-custom').value.trim();
+            }
+
             const payload = {
                 username: document.getElementById('f-username').value,
                 protocol: document.getElementById('f-protocol').value,
-                traffic: document.getElementById('f-traffic').value,
-                expire: document.getElementById('f-expire').value,
+                traffic: trafficVal || 'نامحدود',
+                expire: expireVal || '30 روز',
                 adblock: document.getElementById('f-adblock').checked ? 'on' : 'off',
                 adult_block: document.getElementById('f-adult').checked ? 'on' : 'off'
             };
