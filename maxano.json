@@ -1,0 +1,13 @@
+{
+  "description": "Domain for v2ray config",
+  "repo": "https://github.com/crowlink/register",
+  "owner": {
+    "email": "mrh@xoomail.us"
+  },
+  "records": {
+    "NS": [
+      "ns1.cloudflare.com",
+      "ns2.cloudflare.com"
+    ]
+  }
+}
