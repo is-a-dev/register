@@ -1,11 +1,10 @@
 {
-  "description": "Nova AI - Web + RAG Chatbot Assistant",
-  "repo": "https://github.com",
+  "description": "Personal software development project and full-stack web architecture",
   "owner": {
     "username": "Aisaarthi13",
     "email": "kartikeydwivedi131313@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["13.48.44.114"]
   }
 }
