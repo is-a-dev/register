@@ -40,9 +40,9 @@ export default {
         const adultBlockParam = user.adult_block === "on" ? "&adult_block=true" : "";
 
         if (user.protocol === "VLESS") {
-          link = `vless://${user.uuid}@${host}:443?encryption=none&security=tls&sni=${host}&type=ws&host=${host}&path=/\%3F${adBlockParam}${adultBlockParam}#${encodedName}`;
+          link = `vless://${user.uuid}@${host}:443?encryption=none&security=tls&sni=${host}&type=ws&host=${host}&path=/%3F${adBlockParam}${adultBlockParam}#${encodedName}`;
         } else if (user.protocol === "Trojan") {
-          link = `trojan://${user.uuid}@${host}:443?security=tls&sni=${host}&type=ws&host=${host}&path=/\%3F${adBlockParam}${adultBlockParam}#${encodedName}`;
+          link = `trojan://${user.uuid}@${host}:443?security=tls&sni=${host}&type=ws&host=${host}&path=/%3F${adBlockParam}${adultBlockParam}#${encodedName}`;
         } else {
           const auth = btoa(`chacha20-ietf-poly1305:${user.uuid}`);
           link = `ss://${auth}@${host}:443#${encodedName}`;
@@ -532,4 +532,5 @@ function getMasterDashboardHtml(host) {
         loadUsers();
     </script>
 </body>
-</html>
+</html>`;
+}
