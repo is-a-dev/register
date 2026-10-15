@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "devsensei404"
+    "username": "devsensei404",
     "email": "subhadeeppaul51@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": "vc-domain-verify=devsensei404.is-a.dev,ea5d9fcea938c58a11ff"
+    "A": ["216.198.79.1"]
   }
 }
