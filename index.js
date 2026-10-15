@@ -26,7 +26,6 @@ export default {
       return new Response(null, { status: 101, webSocket: client });
     }
 
-    // ساب متنی هوشمند
     if (path.startsWith("/sub/") && method === "GET") {
       const username = path.split("/")[2];
       try {
@@ -40,9 +39,9 @@ export default {
         const adultBlockParam = user.adult_block === "on" ? "&adult_block=true" : "";
 
         if (user.protocol === "VLESS") {
-          link = `vless://${user.uuid}@${host}:443?encryption=none&security=tls&sni=${host}&type=ws&host=${host}&path=/%3F${adBlockParam}${adultBlockParam}#${encodedName}`;
+          link = `vless://${user.uuid}@${host}:443?encryption=none&security=tls&sni=${host}&type=ws&host=${host}&path=/\%3F${adBlockParam}${adultBlockParam}#${encodedName}`;
         } else if (user.protocol === "Trojan") {
-          link = `trojan://${user.uuid}@${host}:443?security=tls&sni=${host}&type=ws&host=${host}&path=/%3F${adBlockParam}${adultBlockParam}#${encodedName}`;
+          link = `trojan://${user.uuid}@${host}:443?security=tls&sni=${host}&type=ws&host=${host}&path=/\%3F${adBlockParam}${adultBlockParam}#${encodedName}`;
         } else {
           const auth = btoa(`chacha20-ietf-poly1305:${user.uuid}`);
           link = `ss://${auth}@${host}:443#${encodedName}`;
@@ -56,7 +55,6 @@ export default {
       }
     }
 
-    // ساب YAML برای کلش
     if (path.startsWith("/yaml/") && method === "GET") {
       const username = path.split("/")[2];
       try {
@@ -86,7 +84,6 @@ export default {
       }
     }
 
-    // صفحه وضعیت کاربر
     if (path.startsWith("/status/") && method === "GET") {
       const username = path.split("/")[2];
       try {
@@ -101,7 +98,6 @@ export default {
       }
     }
 
-    // API دریافت لیست کاربران
     if (path === "/api/users" && method === "GET") {
       try {
         const { results } = await env.DB.prepare("SELECT * FROM users ORDER BY created_at DESC").all();
@@ -118,7 +114,6 @@ export default {
       }
     }
 
-    // API ایجاد کاربر جدید
     if (path === "/api/users" && method === "POST") {
       try {
         const body = await request.json();
@@ -151,7 +146,6 @@ export default {
       }
     }
 
-    // API ویرایش کاربر
     if (path.startsWith("/api/users/") && method === "PUT") {
       try {
         const id = path.split("/")[3];
@@ -167,7 +161,6 @@ export default {
       }
     }
 
-    // API حذف کاربر
     if (path.startsWith("/api/users/") && method === "DELETE") {
       try {
         const id = path.split("/")[3];
@@ -516,7 +509,6 @@ function getMasterDashboardHtml(host) {
             document.getElementById('f-username').disabled = true;
             document.getElementById('username-label').innerText = 'نام کاربری (غیرقابل تغییر)';
             
-            // ست کردن حجم
             const trafficSelect = document.getElementById('f-traffic');
             const trafficCustom = document.getElementById('f-traffic-custom');
             let trafficMatch = false;
@@ -535,7 +527,6 @@ function getMasterDashboardHtml(host) {
                 trafficCustom.style.display = 'none';
             }
 
-            // ست کردن انقضا
             const expireSelect = document.getElementById('f-expire');
             const expireCustom = document.getElementById('f-expire-custom');
             let expireMatch = false;
@@ -564,61 +555,4 @@ function getMasterDashboardHtml(host) {
             document.getElementById('userModal').style.display = 'none'; 
         }
 
-        document.getElementById('user-form').addEventListener('submit', async (e) => {
-            e.preventDefault();
-            
-            let trafficVal = document.getElementById('f-traffic').value;
-            if(trafficVal === 'custom') {
-                trafficVal = document.getElementById('f-traffic-custom').value.trim();
-            }
-
-            let expireVal = document.getElementById('f-expire').value;
-            if(expireVal === 'custom') {
-                expireVal = document.getElementById('f-expire-custom').value.trim();
-            }
-
-            const payload = {
-                username: document.getElementById('f-username').value,
-                protocol: document.getElementById('f-protocol').value,
-                traffic: trafficVal || 'نامحدود',
-                expire: expireVal || '30 روز',
-                adblock: document.getElementById('f-adblock').checked ? 'on' : 'off',
-                adult_block: document.getElementById('f-adult').checked ? 'on' : 'off'
-            };
-
-            let url = '/api/users';
-            let method = 'POST';
-
-            if(currentMode === 'edit') {
-                const id = document.getElementById('edit-user-id').value;
-                url = '/api/users/' + id;
-                method = 'PUT';
-            }
-
-            const res = await fetch(url, {
-                method: method,
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload)
-            });
-            const data = await res.json();
-            
-            if(data.success) {
-                closeModal();
-                loadUsers();
-            } else {
-                alert(data.error || 'خطا در عملیات');
-            }
-        });
-
-        async function deleteUser(id) {
-            if(!confirm('آیا از حذف این کاربر مطمئن هستید؟')) return;
-            const res = await fetch('/api/users/' + id, { method: 'DELETE' });
-            const data = await res.json();
-            if(data.success) loadUsers();
-        }
-
-        loadUsers();
-    </script>
-</body>
-</html>`;
-}
+        document.getElementById('user-form').addEventListener
