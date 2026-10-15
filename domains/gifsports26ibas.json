@@ -3,12 +3,7 @@
     "username": "eddahjohn584-stack",
     "email": "eddahjohn584@gmail.com"
   },
-  "records": {
-    "@": [
-      {
-        "type": "URL",
-        "value": "https://gifsports26ibas.base44.app"
-      }
-    ]
+  "record": {
+    "URL": "https://gifsports26ibas.base44.app"
   }
 }
