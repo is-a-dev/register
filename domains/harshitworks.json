@@ -4,6 +4,8 @@
     "email": "shahharshit226@gmail.com"
   },
   "records": {
-    "CNAME": "myworks-neon.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
