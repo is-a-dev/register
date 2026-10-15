@@ -6,6 +6,9 @@
     "email": "echhawniwala@gmail.com"
   },
   "records": {
-    "CNAME": "edris-chhawniwala.pages.dev"
+    "CNAME": "edris-chhawniwala.pages.dev",
+     "TXT": [
+      "google-site-verification=O9e7qwO5NlSP3MNgEBIsmJC6fGyOTYf2aSE1mpJzfeg"
+    ]
   }
 }
