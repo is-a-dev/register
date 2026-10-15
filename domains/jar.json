@@ -4,9 +4,8 @@
     "email": "hi@jar.tf"
   },
   "records": {
-    "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=jar.is-a.dev,faf9fc9ca0c53d380bd7"
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

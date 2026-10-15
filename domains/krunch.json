@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "krunch.pages.dev"
-  },
-  "services": {
-    "discord": "dh=df2bf9fb87a1dc3ee29c6ddfa51ed86da28581c5"
   }
 }

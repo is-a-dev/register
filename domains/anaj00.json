@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "anaj00.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=anaj00.is-a.dev,68d5c0091e41f6b9cd2f"
   }
 }

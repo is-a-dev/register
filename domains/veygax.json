@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=veygax.is-a.dev,a56bc04fff9fc5e6e38d"
   }
 }

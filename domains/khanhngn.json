@@ -5,9 +5,8 @@
     "discord": "jerry.ng"
   },
   "records": {
-    "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=khanhngn.is-a.dev,22d6c072955bf792ff60"
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

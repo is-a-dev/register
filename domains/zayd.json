@@ -1,0 +1,11 @@
+{
+  "description": "My website",
+  "repo": "https://github.com/Zaydme/Zaydme",
+  "owner": {
+    "username": "Zaydme",
+    "email": "zaydme8@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

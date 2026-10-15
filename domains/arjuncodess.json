@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "arjuncodess.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=arjuncodess.is-a.dev,772c34dd22de18adabaa"
   }
 }

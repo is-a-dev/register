@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "hienlh-github-io.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=hien.is-a.dev,8c95220c38753532b45f"
   }
 }

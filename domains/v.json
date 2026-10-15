@@ -1,11 +1,9 @@
 {
   "owner": {
-    "username": "leofelix908"
+    "username": "varunojhaa",
+    "email": "varunojhaa@proton.me"
   },
   "records": {
-    "CNAME": "xproject-xi.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=v.is-a.dev,9bd0999222ffc1417790"
+    "CNAME": "varunojhaa.pages.dev"
   }
 }

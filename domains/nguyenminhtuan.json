@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "profile-sigma-wine.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=nguyenminhtuan.is-a.dev,2910b5006f1f208b05e6"
   }
 }

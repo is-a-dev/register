@@ -1,0 +1,11 @@
+{
+  "description": "Personal developer portfolio",
+  "repo": "https://github.com/boeing/boeing.github.io",
+  "owner": {
+    "username": "boeingliam-cloud",
+    "email": "boeingliam@outlook.com"
+  },
+  "records": {
+    "CNAME": "boeingliam-cloud.github.io"
+  }
+}

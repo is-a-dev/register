@@ -1,0 +1,11 @@
+{
+  "description": "A personal page that also gives information on my projects",
+  "owner": {
+    "username": "sergiobonatto",
+    "discord": "fibonatto",
+    "X": "fibonatto"
+  },
+  "records": {
+    "CNAME": "bonatto.vercel.app"
+  }
+}

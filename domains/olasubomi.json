@@ -1,13 +1,12 @@
 {
   "owner": {
     "username": "firstaxel",
-    "email": "olasubomiolubisi@geeg.space",
+    "email": "codeheart@unmoveabletech.com",
     "discord": "1209136236607049758"
   },
   "records": {
-    "CNAME": "twinkle-portfolio-wine.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=olasubomi.is-a.dev,f6bc7744ff52f86278e8"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

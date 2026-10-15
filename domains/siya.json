@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "siyarajput.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=siya.is-a.dev,8b5584a1aeb3bb9a60c5"
   }
 }

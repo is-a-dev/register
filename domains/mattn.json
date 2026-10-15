@@ -1,0 +1,10 @@
+{
+  "description": "Mattn is a Developer!",
+  "owner": {
+    "username": "mattn",
+    "email": "mattn.jp@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.compile-error.net"
+  }
+}

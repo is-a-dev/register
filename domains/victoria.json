@@ -4,8 +4,5 @@
   },
   "records": {
     "CNAME": "viktoriaa.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=victoria.is-a.dev,c0c6d37bd2ddf96a77aa"
   }
 }

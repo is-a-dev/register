@@ -1,0 +1,10 @@
+{
+  "description": "Sujit Laware's portfolio website",
+  "owner": {
+    "username": "sujitlaware1809",
+    "email": "sujitlaware123@example.com"
+  },
+  "records": {
+    "CNAME": "sujitlaware.vercel.app"
+  }
+}

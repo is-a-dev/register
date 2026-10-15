@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "midnight0s-is-a-dev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=midnight0s.is-a.dev,333b53956284ddc6d49d"
   }
 }

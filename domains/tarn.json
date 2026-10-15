@@ -1,0 +1,10 @@
+{
+  "description": "Tarn's Portfolio",
+  "owner": {
+    "username": "tarniscool",
+    "email": "vfmblockman@gmail.com"
+  },
+  "records": {
+    "CNAME": "tarniscool.netlify.app"
+  }
+}

@@ -7,8 +7,5 @@
   "records": {
     "CNAME": "aiview.vercel.app"
   },
-  "proxied": true,
-  "services": {
-    "vercel": "vc-domain-verify=tandevhtml.is-a.dev,37900e6853b2485cb803"
-  }
+  "proxied": true
 }

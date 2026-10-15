@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "khoivudev.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=khoivudev.is-a.dev,777db716599f724e221d"
   }
 }

@@ -1,12 +1,9 @@
 {
   "owner": {
     "username": "IMXNOOBX",
-    "email": "me@noob.bio"
+    "email": "me@noob.pm"
   },
   "records": {
-    "CNAME": "noob.bio"
-  },
-  "services": {
-    "discord": "dh=4bda89987e4e232aac78bb9d0a0e973c96166119"
+    "CNAME": "noob.pm"
   }
 }

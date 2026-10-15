@@ -8,6 +8,10 @@
       "zoho-verification=zb91651102.zmverify.zoho.eu",
       "v=spf1 include:zohomail.eu ~all"
     ],
-    "MX": ["mx.zoho.eu", "mx2.zoho.eu", "mx3.zoho.eu"]
+    "MX": [
+      "mx.zoho.eu",
+      "mx2.zoho.eu",
+      "mx3.zoho.eu"
+    ]
   }
 }

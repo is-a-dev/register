@@ -4,9 +4,8 @@
     "email": "aadityaa2606@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=aadityaa.is-a.dev,ac8d0d70ecad184cddfa"
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

@@ -5,9 +5,8 @@
     "discord": "838620835282812969"
   },
   "records": {
-    "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=darshan.is-a.dev,f0974387e063ffff633d"
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

@@ -4,9 +4,8 @@
     "email": "prince30112001@gmail.com"
   },
   "records": {
-    "CNAME": "princexd.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=princeprajapati.is-a.dev,f0d9843f925488ed34bb"
+    "A": [
+      "140.238.242.140"
+    ]
   }
 }

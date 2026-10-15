@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "goutam-porfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=ngoutam.is-a.dev,9c110859b66d7ddcd7b5"
   }
 }

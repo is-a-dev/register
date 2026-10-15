@@ -4,9 +4,8 @@
     "email": "felixmanullang81@gmail.com"
   },
   "records": {
-    "CNAME": "gratiaportofolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=graxya.is-a.dev,f57c22ab53c078ea60ce"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

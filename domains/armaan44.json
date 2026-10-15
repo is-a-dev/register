@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "armaan44.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=armaan44.is-a.dev,1bdc792d1224de9fb7ec"
   }
 }

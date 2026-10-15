@@ -5,9 +5,8 @@
     "discord": "lroque.dev"
   },
   "records": {
-    "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=roque.is-a.dev,43b1a7bc843584779f24"
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

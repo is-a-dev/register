@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "deeptanshu.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=deeptanshu.is-a.dev,28a4f0adf29f7fd2f9c3"
   }
 }

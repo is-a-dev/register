@@ -1,6 +1,8 @@
-const t = require("ava");
-const fs = require("fs-extra");
-const path = require("path");
+import t from "ava";
+import fs from "fs-extra";
+import path from "path";
+
+import disallowedCNAMEs from "../util/disallowed-cnames.json" with { type: "json" };
 
 const validRecordTypes = new Set(["A", "AAAA", "CAA", "CNAME", "DS", "MX", "NS", "SRV", "TLSA", "TXT", "URL"]);
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
@@ -141,6 +143,14 @@ function validateRecordValues(t, data, file) {
                 t.true(isValidHostname(value), `${file}: Invalid hostname for ${key}`);
                 t.true(value !== `${subdomain}.is-a.dev`, `${file}: ${key} cannot point to itself`);
                 t.true(value !== "is-a.dev", `${file}: ${key} cannot point to is-a.dev`);
+
+                for (const disallowed of disallowedCNAMEs) {
+                    if (disallowed.startsWith(".")) {
+                        t.false(value.endsWith(disallowed), `${file}: ${key} cannot end with ${disallowed}`);
+                    } else {
+                        t.false(value === disallowed, `${file}: ${key} cannot be ${disallowed}`);
+                    }
+                }
             } else if (key === "URL") {
                 t.true(
                     value.startsWith("http://") || value.startsWith("https://"),
@@ -212,8 +222,8 @@ function validateRecordValues(t, data, file) {
                         `${file}: Invalid selector for ${key} at index ${idx}`
                     );
                     t.true(
-                        Number.isInteger(record.matchingType) && record.matchingType >= 0 && record.matchingType <= 255,
-                        `${file}: Invalid matchingType for ${key} at index ${idx}`
+                        Number.isInteger(record.matching_type) && record.matching_type >= 0 && record.matching_type <= 255,
+                        `${file}: Invalid matching_type for ${key} at index ${idx}`
                     );
                     t.true(
                         isValidHexadecimal(record.certificate),
@@ -228,6 +238,27 @@ function validateRecordValues(t, data, file) {
             const values = Array.isArray(value) ? value : [value];
             values.forEach((record, idx) => {
                 t.true(typeof record === "string", `${file}: TXT record value should be a string at index ${idx}`);
+
+                t.false(
+                    record.includes("github-pages-challenge"),
+                    `${file}: TXT record cannot contain 'github-pages-challenge' at index ${idx}`
+                );
+
+                if (record.startsWith("vc-domain-verify=")) {
+                    t.true(
+                        file.startsWith("_vercel."),
+                        `${file}: vc-domain-verify TXT records are only allowed in files starting with _vercel.`
+                    );
+
+                    const domainToken = record.split("vc-domain-verify=")[1].split(",")[0];
+                    const targetName = file.replace(/^_vercel\./, "").replace(/\.json$/, "");
+                    const expectedDomain = `${targetName}.is-a.dev`;
+
+                    t.true(
+                        domainToken === expectedDomain || domainToken.endsWith(`.${expectedDomain}`),
+                        `${file}: Vercel TXT record domain (${domainToken}) must be '${expectedDomain}' or end with '.${expectedDomain}'`
+                    );
+                }
             });
         }
     });
@@ -273,20 +304,43 @@ t("All files should have valid records", (t) => {
         const data = getDomainData(file);
         const recordKeys = Object.keys(data.records);
 
+        if (file.startsWith("_vercel")) {
+            t.true(
+                /^_vercel\.[^.]+\.json$/.test(file),
+                `${file}: Files starting with '_vercel' must have format '_vercel.<name>.json'`
+            );
+
+            t.true(
+                recordKeys.includes("TXT") && recordKeys.length === 1,
+                `${file}: Files starting with '_vercel' can only have TXT records`
+            );
+
+            const txtRecords = data.records.TXT;
+            const txtList = Array.isArray(txtRecords) ? txtRecords : [txtRecords];
+
+            t.true(
+                txtList.length > 0 && txtList.every((record) => typeof record === "string" && record.startsWith("vc-domain-verify=")),
+                `${file}: Vercel verification files must contain at least one TXT record and all TXT records must start with 'vc-domain-verify='`
+            );
+        }
+
         recordKeys.forEach((key) => {
             t.true(validateRecordType(key), `${file}: Invalid record type: ${key}`);
         });
 
         // Record type combinations validation
-        if (recordKeys.includes("CNAME") && !data.proxied) {
-            t.is(recordKeys.length, 1, `${file}: CNAME records cannot be combined with other records unless proxied`);
+        if (recordKeys.includes("CNAME")) {
+            if (!data.proxied) {
+                t.is(recordKeys.length, 1, `${file}: CNAME records cannot be combined with other records unless proxied`);
+            } else {
+                t.true(!recordKeys.includes("A") && !recordKeys.includes("AAAA"), `${file}: CNAME records cannot be combined with A or AAAA records`);
+            }
         }
         if (recordKeys.includes("NS")) {
             t.true(
                 recordKeys.length === 1 || (recordKeys.length === 2 && recordKeys.includes("DS")),
                 `${file}: NS records cannot be combined with other records, except for DS records`
             );
-            t.true(!data.services, `${file}: Service records cannot be present when NS records are defined`);
         }
         if (recordKeys.includes("DS")) {
             t.true(recordKeys.includes("NS"), `${file}: DS records must be combined with NS records`);
@@ -328,42 +382,4 @@ t("Root subdomains should have at least one usable record", (t) => {
             `${file}: Root subdomains must have at least one A, AAAA, CNAME, MX, NS, or URL record`
         );
     });
-});
-
-t("All files should have valid service records", (t) => {
-    files.forEach((file) => {
-        const data = getDomainData(file);
-
-        if (data?.services?.discord) {
-            const discord = Array.isArray(data.services.discord) ? data.services.discord : [data.services.discord];
-
-            discord.forEach((value) => {
-                const token = value.split("=")[1];
-
-                t.true(value.startsWith("dh="), `${file}: Invalid Discord service record format`);
-                t.true(token.length === 40, `${file}: Discord service token should be 40 characters long`);
-                t.true(
-                    isValidHexadecimal(token),
-                    `${file}: Discord service token should be a valid hexadecimal string`
-                );
-            });
-        }
-
-        if (data?.services?.vercel) {
-            const vercel = Array.isArray(data.services.vercel) ? data.services.vercel : [data.services.vercel];
-
-            vercel.forEach((value) => {
-                t.true(value.startsWith("vc-domain-verify="), `${file}: Invalid Vercel service record format`);
-                t.true(value.length >= 48, `${file}: Vercel service token should be 48 characters or longer`);
-            });
-        }
-
-        const atprotoRegex = /^did=did:plc:[a-z0-9]{24}$/;
-
-        if (data?.services?.bluesky) {
-            t.true(atprotoRegex.test(data.services.bluesky), `${file}: Invalid Bluesky service record format`);
-        }
-    });
-
-    t.pass();
 });

@@ -10,7 +10,9 @@
       "185.199.110.153",
       "185.199.111.153"
     ],
-    "MX": ["mx.mailtie.com"],
+    "MX": [
+      "mx.mailtie.com"
+    ],
     "TXT": "mailtie=joesjourney500@gmail.com"
   }
 }

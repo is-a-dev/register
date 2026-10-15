@@ -6,8 +6,5 @@
   },
   "records": {
     "CNAME": "juan-morales.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=juan-morales.is-a.dev,ccd6e4ba9d4b2196b5f7"
   }
 }

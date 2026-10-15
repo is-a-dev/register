@@ -4,9 +4,8 @@
     "email": "peanutplays61@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"]
-  },
-  "services": {
-    "vercel": "vc-domain-verify=izerr.is-a.dev,16607c905489ac70ec6d"
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

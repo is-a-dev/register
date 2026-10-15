@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "diagram-portfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=waltersonna.is-a.dev,95c219c6eb52eab7ed7c"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "neisserdev",
+    "email": "benjamdoley@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=neisser.is-a.dev,0063af244266dae11e0c",
+      "vc-domain-verify=www.neisser.is-a.dev,b187765db8009d054288"
+    ]
+  }
+}

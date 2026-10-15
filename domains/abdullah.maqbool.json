@@ -5,8 +5,5 @@
   },
   "records": {
     "CNAME": "abdullahmaqbool-portfolio.vercel.app"
-  },
-  "services": {
-    "vercel": "vc-domain-verify=abdullah.maqbool.is-a.dev,7d30d66cf0ff8ca544ba"
   }
 }
