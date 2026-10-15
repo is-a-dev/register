@@ -1,0 +1,16 @@
+{
+    "owner": {
+        "username": "br274364244"
+    },
+    "records": {
+      ; --- Apex Domain A Records ---
+@      3600    IN    A        185.199.108.153
+@      3600    IN    A        185.199.109.153
+@      3600    IN    A        185.199.110.153
+@      3600    IN    A        185.199.111.153
+
+      ; --- Subdomain CNAME Record ---
+www    3600    IN    CNAME    br274364244.github.io.
+    
+    }
+}
