@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nishchal-gond",
-        "email": "gond.nishchal1@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=nishchal.is-a.dev,48edd7363d66c0953c9b"
-    }
+  "owner": {
+    "username": "nishchal-gond",
+    "email": "gond.nishchal1@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=nishchal.is-a.dev,48edd7363d66c0953c9b"
+  }
 }

@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Ovuoba-Chiagozie",
-        "email": "ovubskhalid@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "Ovuoba-Chiagozie",
+    "email": "ovubskhalid@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
