@@ -1,12 +1,10 @@
 {
-  "name": "shareloc",
   "description": "Share files instantly from anywhere",
-  "repo": "https://github.com/omranadam9/shareloc",
   "owner": {
     "username": "omranadam9",
     "email": "omranadam9@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "omranadam9.github.io"
   }
 }
