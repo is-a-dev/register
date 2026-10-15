@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "aronaplana-os"
+    "username": "aronaplana-os",
+    "email": "arona2@aronaplana.dynv6.net"
   },
   "records": {
     "CNAME": "arona-resource-hunt.netlify.app"
