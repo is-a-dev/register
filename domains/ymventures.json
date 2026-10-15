@@ -1,0 +1,15 @@
+{
+ "owner": {
+ "username": "mr-hacker-yash",
+ "email": "ymventures1727@gmail.com"
+ },
+ "domain": "ymventures",
+ "records": {
+ "MX": [
+ "route1.mx.cloudflare.net",
+ "route2.mx.cloudflare.net",
+ "route3.mx.cloudflare.net"
+ ],
+ "TXT": ["v=spf1 include:_spf.mx.cloudflare.net ~all"]
+ }
+}
