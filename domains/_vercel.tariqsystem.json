@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "tariqimran4553"
+    "username": "tariqimran4553",
+    "email": "tariqimran4553@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": "vc-domain-verify=tariqsystem.is-a.dev,e1701458a0d50ff1cf4e"
   }
 }
