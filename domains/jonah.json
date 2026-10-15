@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "jonahisadev"
-    },
-    "records": {
-        "CNAME": "code.byjonah.net"
-    }
+  "owner": {
+    "username": "jonahisadev"
+  },
+  "records": {
+    "CNAME": "code.byjonah.net"
+  }
 }

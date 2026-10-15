@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "VikkiezDev",
-        "email": "vigneshndrwork23@gmail.com"
-    },
-    "records": {
-        "A": ["161.118.163.9"]
-    }
+  "owner": {
+    "username": "VikkiezDev",
+    "email": "vigneshndrwork23@gmail.com"
+  },
+  "records": {
+    "A": [
+      "161.118.163.9"
+    ]
+  }
 }

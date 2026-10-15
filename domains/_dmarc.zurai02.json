@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "zurai02",
+    "email": "zurai02ispro@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=quarantine; rua=mailto:zurai02ispro@gmail.com; adkim=r; aspf=r; pct=100"
+  }
+}

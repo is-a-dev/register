@@ -1,1 +1,11 @@
-{ "owner": { "username": "siczpro-svg", "email": "sicz.pro@gmail.com" }, "records": { "A": ["216.198.79.1"] } }
+{
+  "owner": {
+    "username": "siczpro-svg",
+    "email": "sicz.pro@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
+}
