@@ -1,9 +1,10 @@
+
 {
   "owner": {
     "username": "tusharrr017-arch",
     "email": "tusharrr017@gmail.com"
   },
   "records": {
-    "TXT": "PASTE_YOUR_EXACT_VERCEL_TXT_VALUE_HERE"
+    "TXT": "vc-domain-verify=tushar17.is-a.dev,8075a7ae05e30589b1ed"
   }
 }
