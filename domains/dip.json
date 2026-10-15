@@ -1,0 +1,12 @@
+{
+  "name": "dip",
+  "description": "VLESS Game",
+  "repo": "https://github.com/lordvinz78/reilwey",
+  "owner": {
+    "username": "lordvinz78",
+    "email": "dip79916@gmail.com"
+  },
+  "record": {
+    "CNAME": "vlessgratis.dip79916.workers.dev"
+  }
+}
