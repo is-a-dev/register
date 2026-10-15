@@ -14,11 +14,12 @@
       "google-site-verification=cbDu7ZAi84tTALeQcS5yn7zciD3tTO43hVMhA3pwfoI",
       "facebook-domain-verification=nryjocciq2hiak0yjo0zg8ydhhfagn"
     ],
-    "CAA": [
-      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-      { "flags": 0, "tag": "issue", "value": "pki.goog" },
-      { "flags": 0, "tag": "issuewild", "value": ";" }
-    ]
+"CAA": [
+  { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+  { "flags": 0, "tag": "issue", "value": "pki.goog" },
+  { "flags": 0, "tag": "issuewild", "value": ";" },
+  { "flags": 0, "tag": "iodef", "value": "info.domainguard.workers.dev" }
+]
   },
   "proxied": true
 }
