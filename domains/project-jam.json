@@ -4,6 +4,9 @@
     "email": "mrbouiri@gmail.com"
   },
   "records": {
-    "NS": ["elsa.ns.cloudflare.com", "roan.ns.cloudflare.com"]
+    "NS": [
+      "elsa.ns.cloudflare.com",
+      "roan.ns.cloudflare.com"
+    ]
   }
 }

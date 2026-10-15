@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ichtoloog",
-        "email": "sermuscem@gmail.com"
-    },
-    "records": {
-        "CNAME": "ichtoloog.github.io"
-    }
+  "owner": {
+    "username": "ichtoloog",
+    "email": "sermuscem@gmail.com"
+  },
+  "records": {
+    "CNAME": "ichtoloog.github.io"
+  }
 }

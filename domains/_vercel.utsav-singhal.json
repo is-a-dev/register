@@ -4,6 +4,8 @@
     "email": "utsavsinghal26@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=utsav-singhal.is-a.dev,edbba5070d5c149afe77"]
+    "TXT": [
+      "vc-domain-verify=utsav-singhal.is-a.dev,edbba5070d5c149afe77"
+    ]
   }
 }
