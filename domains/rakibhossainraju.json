@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "rakibhossainraju",
-    "email": "rakibhossianraju@gmail.com"
+    "email": "rakibhossainraju.dev@gmail.com"
   },
   "records": {
-    "CNAME": "rakibhossainraju.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }

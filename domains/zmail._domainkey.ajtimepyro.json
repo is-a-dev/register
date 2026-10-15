@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "ajtimepyro",
+        "email": "ajtimepyro@gmail.com"
+    },
+    "records": {
+        "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAZ1bUTOUxzOr2c+dCoVYRNxab16ZX8WGkUYoI6DasBjI8EdWsvSqiVJ+I/DDzSIAy7X3dCnxph30DPEbZT8tE9gBX/SpPQzDVmeRMHt/pPvQ7XfUe1TbUIOSydxMjMa1dZQ7yEDMhyhsPYL/jQyzxjLU7W1ZhKrQ6Jjs710ILGwIDAQAB"
+    }
+}
