@@ -6,8 +6,17 @@
   "records": {
     "CNAME": "zurai02.github.io",
     "MX": [
-  { "priority": 10, "target": "mx1.improvmx.com" },
-  { "priority": 20, "target": "mx2.improvmx.com" }
+  [
+  {
+    "target": "mx1.improvmx.com",
+    "priority": 10
+  },
+  {
+    "target": "mx2.improvmx.com",
+    "priority": 20
+  }
+]
+
 ],
     "TXT": [
       "google-site-verification=cbDu7ZAi84tTALeQcS5yn7zciD3tTO43hVMhA3pwfoI",
