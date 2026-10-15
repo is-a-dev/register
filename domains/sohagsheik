@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "smsohag32",
+    "email": "sohagsheik32@gmail.com"
+  },
+  "records": {
+    "A": ["203.161.49.44"],
+    "CNAME": "cname.vercel-dns.com",
+  }
+  
+}
