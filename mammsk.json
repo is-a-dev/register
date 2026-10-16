@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "nawrasaldamen8-spec"
+    "username": "nawrasaldamen8-spec",
+    "email": "nawrasaldamen8@gmail.com"
   },
-  "record": {
-    "A": ["216.198.79.1"],
-    "TXT": ["vc-domain-verify=mammsk.is-a.dev,60f85872ef15564da2fc"]
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
