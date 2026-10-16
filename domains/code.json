@@ -1,6 +1,8 @@
+
 {
   "owner": {
-    "username": "fhiek"
+    "username": "fhiek",
+    "email": "netjade@maxxspace.com"
   },
   "records": {
     "CNAME": "fhiek.github.io"
