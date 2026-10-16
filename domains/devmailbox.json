@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "mozzaru"
+  },
+  "records": {
+    "MX": [
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
+    ],
+    "TXT": [
+      "forward-email=*:gerda20b4de@qe.barconic.org",
+      "v=spf1 a include:spf.forwardemail.net ~all"
+    ]
+  }
+}
