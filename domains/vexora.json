@@ -1,0 +1,10 @@
+vexora.json
+{
+{
+  "owner": {
+    "username": "contactdodix-bot"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
