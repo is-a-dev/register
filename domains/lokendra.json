@@ -1,0 +1,10 @@
+{
+  "description": "My personal developer portfolio",
+  "repo": "https://github.com/Lokendra0001/lokendra-portfolio",
+  "owner": {
+    "email": "your-email@example.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
