@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "Jawe-Programmer",
-    "email": "johnwayne.rebustes@gmail.com"
+    "username": "Jawe-Programmer"
   },
   "records": {
-    "CNAME": "jawetine1218-001-site4.jtempurl.com"
+    "A": [
+      "204.188.228.35"
+    ]
   }
 }
