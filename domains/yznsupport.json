@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "yzna0907w-cmyk"
+    "username": "yzna0907w-cmyk",
+    "email": "yznsupport@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "tourmaline-licorice-5ddbf7.netlify.app"
   }
 }
