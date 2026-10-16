@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "KevinBandara"
+    "username": "KevinBandara",
+    "email": "kevinbandara@gmail.com"
   },
   "records": {
-    "CNAME": "https://kevinbandara.vercel.app/"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
