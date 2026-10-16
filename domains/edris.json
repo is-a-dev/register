@@ -5,6 +5,7 @@
     "username": "edrischhawniwala",
     "email": "echhawniwala@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "edris-chhawniwala.pages.dev",
      "TXT": [
