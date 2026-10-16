@@ -1,0 +1,11 @@
+{
+  "description": "My Personal Home Server",
+  "repo": "https://github.com/RealCoolNoob/register",
+  "owner": {
+    "username": "RealCoolNoob",
+    "email": "seosheoroper@gmail.com"
+  },
+  "record": {
+    "A": ["59.11.206.253"]
+  }
+}
