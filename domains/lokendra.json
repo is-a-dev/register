@@ -4,6 +4,11 @@
     "email": "lokendraraj@gmail.com"
   },
   "records": {
-    "CNAME": "lokendra-portfolio-six.vercel.app"
+    "CNAME": [
+      {
+        "name": "@",
+        "value": "lokendra-portfolio-six.vercel.app"
+      }
+    ]
   }
 }
