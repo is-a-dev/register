@@ -1,11 +1,11 @@
 {
-  "description": "VECTRON Cyber Threat Intelligence",
+  "description": "An open-source developer software framework and 3D geospatial telemetry tool for data engineers",
   "repo": "https://gitlab.com/Bittu02/vectron",
   "owner": {
     "username": "pranayj954-commits",
     "email": "pranayj954@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "vectron-fx06.onrender.com"
   }
 }
