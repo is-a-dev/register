@@ -1,0 +1,11 @@
+{
+    "description": "REST API backend hosted on AWS EC2",
+    "repo": "https://github.com/Learner-92/Learner-92.github.io",
+    "owner": {
+        "username": "Learner-92",
+        "email": "cyber.rakesh03@gmail.com"
+    },
+    "record": {
+        "A": ["52.66.202.202"]
+    }
+}
