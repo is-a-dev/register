@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "DaniyalHasan089",
-    "email": "daniboymtk1@gmail.com"
+    "email": "your-email@example.com"
   },
   "records": {
-    "CNAME": "daniyalhasan.pages.dev"
-  },
-  "proxied": true
+    "URL": "https://daniyalhasan.pages.dev"
+  }
 }
