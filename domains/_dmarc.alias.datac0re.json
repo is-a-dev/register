@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "Rzbck"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none; adkim=r; aspf=r"
+  }
+}
