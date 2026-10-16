@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "linuxusertools-boop"
+  },
+  "records": {
+    "NS": [
+      "plato.ns.cloudflare.com",
+      "zara.ns.cloudflare.com"
+    ]
+  }
+}
