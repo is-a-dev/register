@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Rzbck",
+    "instagram": "data_c0re_"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none; adkim=r; aspf=r"
+  }
+}
