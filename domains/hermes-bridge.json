@@ -1,11 +1,12 @@
 {
-  "owner": {
-    "username": "Bigb25",
-    "email": "b.dealwatch@gmail.com"
-  },
-  "description": "Personal OAuth app homepage for Hermes Research Bridge",
-  "records": {
-    "CNAME": "bigb25.github.io",
-    "TXT": "google-site-verification=DHWtNJ1arYFgis1K4CwojbB2e-C_dnb_eYfOQYIi0Cg"
-  }
+    "owner": {
+        "username": "Bigb25",
+        "email": "b.dealwatch@gmail.com"
+    },
+    "description": "Personal OAuth app homepage for Hermes Research Bridge",
+    "records": {
+        "CNAME": "bigb25.github.io",
+        "TXT": "google-site-verification=DHWtNJ1arYFgis1K4CwojbB2e-C_dnb_eYfOQYIi0Cg"
+    },
+    "proxied": true
 }
