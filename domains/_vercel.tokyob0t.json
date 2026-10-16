@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tokyob0t",
-        "email": "tokyob0t.business@proton.me"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=tokyob0t.is-a.dev,1766ded1539460004ffc"
-    }
+  "owner": {
+    "username": "tokyob0t",
+    "email": "tokyob0t.business@proton.me"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tokyob0t.is-a.dev,1766ded1539460004ffc"
+  }
 }
