@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "Rzbck"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "mail.alias.datac0re.is-a.dev",
+        "priority": 10
+      }
+    ],
+    "TXT": "v=spf1 include:eu.rp.oracleemaildelivery.com ~all"
+  }
+}
