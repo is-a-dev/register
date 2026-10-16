@@ -13,6 +13,10 @@
         "admin": true
     },
     {
+        "username": "maskduck",
+        "id": 70831061
+    },
+    {
         "username": "orangci",
         "id": 90866414
     },
@@ -24,9 +28,5 @@
         "username": "wdhdev",
         "id": 87287585,
         "admin": true
-    },
-    {
-        "username": "maskduck",
-        "id": 70831061
-    },
+    }
 ]
