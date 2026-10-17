@@ -1,0 +1,11 @@
+{
+  "description": "Mon site perso",
+  "repo": "https://github.com/5ciscool/NOM-DU-DEPOT",
+  "owner": {
+    "username": "5ciscool",
+    "email": ""
+  },
+  "record": {
+    "CNAME": "5ciscool.github.io"
+  }
+}
