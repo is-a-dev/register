@@ -1,1 +1,9 @@
-{"owner":{"username":"K2951314","email":"k2951314@163.com"},"records":{"A":["211.159.174.204"]}}
+{
+  "owner": {
+    "username": "K2951314",
+    "email": "k2951314@163.com"
+  },
+  "records": {
+    "CNAME": "940d7f21-8ea0-47d4-a983-a992210b0f6d.cfargotunnel.com"
+  }
+}
