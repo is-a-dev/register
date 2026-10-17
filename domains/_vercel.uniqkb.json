@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Vishal-Sadhu",
+    "email": "globleearn2@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=uniqkb.is-a.dev,REPLACE_WITH_VERIFICATION_CODE_FROM_VERCEL"
+  }
+}
