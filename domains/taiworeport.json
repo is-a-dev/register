@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "taiwoabubakar",
+    "email": "taiwo.sophiyat@gmail.com"
+  },
+  "description": "Portfolio website with ImprovMX",
+  "repo": "https://github.com/taiwoabubakar/taiwoabubakar.github.io",
+  "records": {
+    "CNAME": "taiwoabubakar.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  },
+  "proxied": true
+}
