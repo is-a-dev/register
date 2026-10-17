@@ -1,14 +1,30 @@
 {
   "owner": {
     "username": "Vishal-Sadhu",
-    "email": "uniqkb2012@gmail.com"
+    "email": "globleearn2@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"],
     "MX": [
-      { "priority": 10, "target": "mx1.improvmx.com" },
-      { "priority": 20, "target": "mx2.improvmx.com" }
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com",
+        "priority": 20
+      }
     ],
-    "TXT": ["v=spf1 include:spf.improvmx.com include:_spf.google.com ~all"]
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:spf.improvmx.com ~all"
+      }
+    ],
+    "CNAME": {
+      "host": "@",
+      "value": "cname.vercel-dns.com"
+    }
   }
 }
