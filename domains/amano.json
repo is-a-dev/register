@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "ifabregat",
-    "email": "ivanfabregat@outlook.com"
-  },
-  "records": {
-    "CNAME": "43dcb74d-a434-4a99-b42b-25a8cd2fbd9f.cfargotunnel.com"
-  }
+    "owner": {
+        "username": "ifabregat",
+        "email": "ivanfabregat@outlook.com"
+    },
+    "records": {
+        "CNAME": "5ce8ada19af92e1c.vercel-dns-017.com"
+    }
 }
