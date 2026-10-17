@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "manikanta-ndv", "email": "manikantanidadhavolu@gmail.com" },
-  "record": { "CNAME": "manikanta-ndv.github.io" }
+  "owner": {
+    "username": "manikanta-ndv",
+    "email": "manikantanidadhavolu@gmail.com"
+  },
+  "records": {
+    "CNAME": "manikanta-ndv.github.io"
+  }
 }
