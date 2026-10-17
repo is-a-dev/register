@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Vishal-Sadhu",
+    "email": "uniqkb2012@gmail.com"
+  },
+  "domain": "uniqkb",
+  "subdomain": "",
+  "record": {
+    "A": ["76.76.21.21"],
+    "TXT": ["v=spf1 include:zoho.in ~all"]
+  }
+}
