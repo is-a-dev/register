@@ -5,10 +5,12 @@
   "records": {
     "CNAME": "tecmoman1.netlify.app"
   },
-  "subdomains": {
-    "www": {
-      "CNAME": "tecmoman1.netlify.app"
+  "nested": [
+    {
+      "subdomain": "www",
+      "records": {
+        "CNAME": "tecmoman1.netlify.app"
+      }
     }
-  }
+  ]
 }
-
