@@ -4,6 +4,9 @@
   },
   "description": "my site shiza",
   "records": {
-    "CNAME": "shiza69.vercel.app"
+    "CNAME": "shiza69.vercel.app",
+    "TXT": [
+      "vc-domain-verify=shiza.is-a.dev,2f00fdee09bc086f43bd"
+    ]
   }
 }
