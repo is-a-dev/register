@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "l3b4nk4",
+    "email": "l3b4nk4@email.com"
+  },
+  "records": {
+    "MX": [
+      "mx.dropmail.me"
+    ],
+    "TXT": "v=spf1 include:spf.dropmail.me ~all"
+  }
+}
