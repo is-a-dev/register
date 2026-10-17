@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "DinoNaedYT"
+    },
+    "records": {
+        "SRV": [
+  {
+    "priority": 10,
+    "weight": 5,
+    "port": 30001,
+    "target": "15.204.82.36"
+  }
+]
+    }
+}
