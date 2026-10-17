@@ -1,9 +1,13 @@
 {
+  "name": "kashimnagargps21",
+  "description": "Personal developer project - school website template by KN1950",
+  "repo": "https://github.com/KN1950/kashimnagar-school",
   "owner": {
     "username": "KN1950",
     "email": "kngps.bir21@gmail.com"
   },
   "record": {
     "CNAME": "kn1950.github.io"
-  }
+  },
+  "proxied": false
 }
