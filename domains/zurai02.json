@@ -1,18 +1,26 @@
 {
   "owner": {
     "username": "zurai02",
-    "email": "Contact@zurai02.is-a.dev"
+    "email": "contact@zurai02.is-a.dev"
   },
   "records": {
-    "CNAME": "zurai02.github.io",
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "AAAA": [
+      "2606:50c0:8000::153",
+      "2606:50c0:8001::153",
+      "2606:50c0:8002::153",
+      "2606:50c0:8003::153"
+    ],
     "MX": [
       { "target": "mx1.improvmx.com", "priority": 10 },
       { "target": "mx2.improvmx.com", "priority": 20 }
     ],
-    "TXT": [
-      "google-site-verification=cbDu7ZAi84tTALeQcS5yn7zciD3tTO43hVMhA3pwfoI",
-      "facebook-domain-verification=nryjocciq2hiak0yjo0zg8ydhhfagn"
-    ],
+    "TXT": "v=spf1 include:spf.improvmx.com -all",
     "CAA": [
       { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
       { "flags": 0, "tag": "issue", "value": "pki.goog" },
