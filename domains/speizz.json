@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "priyanshu130826-ship-it",
+    "email": "priyanshu130826@gmail.com"
+  },
+  "records": {
+    "A": [
+      {
+        "address": "62.41.26.28"
+      }
+    ],
+    "MX": [
+      {
+        "target": "speizzz.is-a.dev",
+        "priority": 10
+      }
+    ]
+  }
+}
