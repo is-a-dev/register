@@ -1,10 +1,11 @@
 {
-  "owner": {
-    "username": "trilochanmhattikar297-cloud"
-  },
-  "record": {
-    "A": [
-      "1.1.1.1"
-    ]
-  }
+    "description": "Portfolio website for finance automation workflows",
+    "repo": "https://github.com/trilochanmhattikar297-cloud/finance-automation-site",
+    "owner": {
+        "username": "trilochanmhattikar297-cloud",
+        "email": "trilochanmhattikar297@gmail.com"
+    },
+    "record": {
+        "CNAME": "trilochanmhattikar297-cloud.github.io"
+    }
 }
