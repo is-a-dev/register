@@ -1,11 +1,11 @@
 {
+  "description": "My personal developer portfolio",
+  "repo": "https://github.com/Lokendra0001/lokendra-portfolio",
   "owner": {
-    "username": "LokendraNath",
-    "email": "nathdeveloper25@gmail.com"
+    "username": "Lokendra0001",
+    "email": "lokendraraj@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "CNAME": "lokendra-portfolio-six.vercel.app"
   }
 }
