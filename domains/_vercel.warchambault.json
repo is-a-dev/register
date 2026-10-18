@@ -4,7 +4,7 @@
         "email": "warchambault5@gmail.com"
     },
     "records": {
-        "CNAME": "3cbfd6d778528486.vercel-dns-017.com."
+        "CNAME": "3cbfd6d778528486.vercel-dns-017.com.",
         "TXT": ["vc-domain-verify=warchambault.is-a.dev,b9eab04895a8facdc022", "vc-domain-verify=www.warchambault.is-a.dev,3846c0832b60d1b437f7"]
     }
 }
