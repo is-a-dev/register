@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "i4estyle",
+    "email": "kwiniceice@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=botbuilder.is-a.dev,a19863a5021fda5db6f3"
+    ]
+  }
+}
