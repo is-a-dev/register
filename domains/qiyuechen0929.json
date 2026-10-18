@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "qiyuechen0929"
+    "username": "qiyuechen0929",
+    "email": "qiyuechen114@gmail.com"
   },
   "records": {
-    "CNAME": "qiyuechen0929.github.io"
-  }
+    "CNAME": "chenqiyue.ccwu.cc"
+  },
+  "proxied": true
 }
