@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Tarkan-Zarrouk",
-        "email": "tarkan.zarrouk@gmail.com"
-    },
-    "records": {
-        "CNAME": "tarkan-zarrouk.github.io"
-    }
+  "owner": {
+    "username": "Tarkan-Zarrouk",
+    "email": "tarkan.zarrouk@gmail.com"
+  },
+  "records": {
+    "CNAME": "tarkan-zarrouk.github.io"
+  }
 }
