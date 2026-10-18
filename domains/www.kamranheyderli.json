@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kamranheyderli",
-        "email": "kamranheyderli33@gmail.com"
-    },
-    "records": {
-        "CNAME": "kamranheyderli.netlify.app"
-    }
+  "owner": {
+    "username": "kamranheyderli",
+    "email": "kamranheyderli33@gmail.com"
+  },
+  "records": {
+    "CNAME": "kamranheyderli.netlify.app"
+  }
 }
