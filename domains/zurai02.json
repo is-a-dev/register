@@ -33,5 +33,10 @@
       { "flags": 0, "tag": "iodef", "value": "info.domainguard.workers.dev" }
     ]
   },
-  "proxied": true
+  "proxied": true,
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/zurai02"
+    }
+  }
 }
