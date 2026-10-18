@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "TheRealRexo",
+    "email": "ahmedelkafas15@gmail.com"
+  },
+  "description": "Brevo DKIM 2 for lotus-direct.rexo.is-a.dev",
+  "records": {
+    "CNAME": "b2.lotus-direct-rexo-is-a-dev.dkim.brevo.com"
+  }
+}
