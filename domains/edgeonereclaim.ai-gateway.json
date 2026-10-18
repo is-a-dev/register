@@ -1,8 +1,9 @@
 {
-    "owner": {
-          "username": "daocao-dev"
-    },
-    "records": {
-          "TXT": "reclaim-o4et5mtefhl0ahi1kxa0dk1c7cd26ozb"
-    }
+      "owner": {
+              "username": "daocao-dev",
+              "email": "1144900160@qq.com"
+      },
+      "records": {
+              "TXT": "reclaim-o4et5mtefhl0ahi1kxa0dk1c7cd26ozb"
+      }
 }
