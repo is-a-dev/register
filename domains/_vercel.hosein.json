@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "hoseininjast",
-        "email": "hosein.for.dev@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=hosein.is-a.dev,f1d2255b113f3ce5119c"
-    }
+  "owner": {
+    "username": "hoseininjast",
+    "email": "hosein.for.dev@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=hosein.is-a.dev,f1d2255b113f3ce5119c"
+  }
 }
