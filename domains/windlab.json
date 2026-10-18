@@ -1,0 +1,11 @@
+{
+  "description": "Web platform for wind energy data analysis, Weibull distribution calculations, and wind rose visualizations",
+  "repo": "https://github.com/sd5simo/Wind-lab",
+  "owner": {
+    "username": "sd5simo",
+    "email": "saddenmoahamad99@gmail.com"
+  },
+  "record": {
+    "CNAME": "windlab.netlify.app"
+  }
+}
