@@ -4,6 +4,7 @@
     "email": "13419536168@163.com"
   },
   "records": {
-    "NS": ["jessica.ns.cloudflare.com", "rodrigo.ns.cloudflare.com"]
+    "CNAME": "is-a-dev-register.pages.dev"
   },
+  "proxied": true
 }
