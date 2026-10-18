@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "evyd",
+    "email": "evyd@gmail.com"
+  },
+  "record": {
+    "MX": ["10 mx.zoho.com.", "20 mx2.zoho.com.", "50 mx3.zoho.com."],
+    "TXT": ["v=spf1 include:zoho.com ~all"],
+    "A": ["76.76.21.21"]
+  }
+}
