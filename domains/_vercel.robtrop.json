@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "robtrop",
+        "email": "robtropcode@gmail.com"
+    },
+    "records": {
+        "TXT": ["vc-domain-verify=robtrop.is-a.dev,1c67b3a4a70e91d6c080"]
+    }
+}
