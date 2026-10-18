@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "baxtidev"
+  },
+  "records": {
+    "CNAME": "baxtidev.github.io",
+    "TXT": [
+      {
+        "name": "_github-pages-challenge-baxtidev",
+        "value": "cb657e58317e6d832e9d4c52afea92"
+      }
+    ]
+  }
+}
