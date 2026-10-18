@@ -1,9 +1,4 @@
 {
-  "owner": {
-    "username": "goblinsami",
-    "email": "samijanafse@gmail.com"
-  },
-  "records": {
-    "CNAME": "peppy-horse-77762e.netlify.app"
-  }
+  "owner": { "username": "goblinsami", "email": "samijanafse@gmail.com" },
+  "records": { "CNAME": "samijanafse.netlify.app" }
 }
