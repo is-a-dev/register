@@ -40,7 +40,8 @@
       "/devforum": "https://devforum.roblox.com/u/zurai02",
       "/portfolio": "https://devforum.roblox.com/t/zurai02-scripting-portfolio/4679442",
       "/roblox": "https://www.roblox.com/users/5674181802/profile"
-    }
+    },
+    "redirect_paths": true
   },
   "proxied": true
 }
