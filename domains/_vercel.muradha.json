@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "muradha",
-        "email": "rizkiadha.dev@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=muradha.is-a.dev,e66c86b805262ab0b46c"
-    }
+  "owner": {
+    "username": "muradha",
+    "email": "rizkiadha.dev@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=muradha.is-a.dev,e66c86b805262ab0b46c"
+  }
 }

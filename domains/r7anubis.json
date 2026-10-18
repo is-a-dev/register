@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "R7anubis",
-        "email": "rahul.mayavi@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "R7anubis",
+    "email": "rahul.mayavi@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
