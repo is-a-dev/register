@@ -1,4 +1,8 @@
 {
-  "owner": { "username": "mysticalpengu" },
-  "records": { "URL": "https://mythicalpengu.is-a.dev/mc.html" }
+  "owner": {
+    "username": "mysticalpengu"
+  },
+  "records": {
+    "URL": "https://mythicalpengu.is-a.dev/mc.html"
+  }
 }
