@@ -1,8 +1,9 @@
 {
-    "owner": {
-          "username": "daocao-dev"
-    },
-    "records": {
-          "CNAME": "gemini-proxy-pxh4y2ae.edgeone.dev"
-    }
+      "owner": {
+              "username": "daocao-dev",
+              "email": "1144900160@qq.com"
+      },
+      "records": {
+              "CNAME": "gemini-proxy-pxh4y2ae.edgeone.dev"
+      }
 }
