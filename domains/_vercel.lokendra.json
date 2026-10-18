@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Lokendra0001",
-        "email": "lokendraraj@gmail.com"
-    },
-    "records": {
-        "TXT": ["vc-domain-verify=lokendra.is-a.dev,2f29f9a79b5f5ec8c280"]
-    }
+  "owner": {
+    "username": "Lokendra0001",
+    "email": "lokendraraj@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=lokendra.is-a.dev,2f29f9a79b5f5ec8c280"
+    ]
+  }
 }
