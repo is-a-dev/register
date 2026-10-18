@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "74mdi",
-        "email": "7amdi@tuta.io"
-    },
-    "records": {
-        "CNAME": "74mdi.github.io"
-    }
+  "owner": {
+    "username": "74mdi",
+    "email": "7amdi@tuta.io"
+  },
+  "records": {
+    "CNAME": "74mdi.github.io"
+  }
 }

@@ -33,11 +33,14 @@
       { "flags": 0, "tag": "iodef", "value": "info.domainguard.workers.dev" }
     ]
   },
-  "proxied": true,
   "redirect_config": {
     "custom_paths": {
       "/github": "https://github.com/zurai02",
-      "/discord": "https://discord.com/users/1460949263650652200"
+      "/discord": "https://discord.com/users/1460949263650652200",
+      "/devforum": "https://devforum.roblox.com/u/zurai02",
+      "/portfolio": "https://devforum.roblox.com/t/zurai02-scripting-portfolio/4679442",
+      "/roblox": "https://www.roblox.com/users/5674181802/profile"
     }
-  }
+  },
+  "proxied": true
 }
