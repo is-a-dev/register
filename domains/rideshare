@@ -4,6 +4,6 @@
         "email": "jpaul.wenger@gmail.com"
     },
     "records": {
-        "CNAME": "jpweng.github.io"
+        "A": ["51.20.61.145"]
     }
 }
