@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "miregitgud",
-        "email": "ayyash.jibril@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=mire-portfolio.is-a.dev,8b31787cd31e2476ab10"
-    }
+  "owner": {
+    "username": "miregitgud",
+    "email": "ayyash.jibril@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mire-portfolio.is-a.dev,8b31787cd31e2476ab10"
+  }
 }

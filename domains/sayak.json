@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "sayakbiswas13",
-        "email": "sayakbiswas13@gmail.com"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "sayakbiswas13",
+    "email": "sayakbiswas13@gmail.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

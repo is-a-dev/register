@@ -1,1 +1,11 @@
-{"description":"HS portfolio website","owner":{"username":"Buyukofficial","name":"Hammad","email":"sayedhammad996@gmail.com"},"records":{"CNAME":"buyukofficial.github.io"}}
+{
+  "description": "HS portfolio website",
+  "owner": {
+    "username": "Buyukofficial",
+    "name": "Hammad",
+    "email": "sayedhammad996@gmail.com"
+  },
+  "records": {
+    "CNAME": "buyukofficial.github.io"
+  }
+}

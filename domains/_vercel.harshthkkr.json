@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "harshthakkr",
-        "email": "iharshthkkr@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=harshthkkr.is-a.dev,766cb8a5c5f8201e90bc"
-    }
+  "owner": {
+    "username": "harshthakkr",
+    "email": "iharshthkkr@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=harshthkkr.is-a.dev,766cb8a5c5f8201e90bc"
+  }
 }
