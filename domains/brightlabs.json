@@ -4,6 +4,7 @@
     "email": "qasmarketai@gmail.com"
   },
   "records": {
+    "CNAME": "qashas94.github.io",
     "MX": [
       { "target": "mx1.forwardemail.net", "priority": 10 },
       { "target": "mx2.forwardemail.net", "priority": 20 }
@@ -12,5 +13,6 @@
       "v=spf1 include:spf.forwardemail.net -all",
       "forward-email=qasmarketai@gmail.com"
     ]
-  }
+  },
+  "proxied": true
 }
