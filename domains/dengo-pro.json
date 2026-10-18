@@ -1,10 +1,8 @@
 {
   "owner": {
-    "username": "opportunitystore92-afk",
-    "email": "opportunitystore92@gmail.com"
+    "username": "opportunitystore92-afk"
   },
-  "record": {
+  "records": {
     "CNAME": "dengo-pro.pages.dev"
-  },
-  "description": "Dengo Pro"
+  }
 }
