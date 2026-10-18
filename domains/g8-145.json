@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "g8asialab01-sys",
+    "email": "G8.eu.lab02@gmail.com"
+  },
+  "domain": "g8-145",
+  "record": {
+    "CNAME": "g8-145.g8-eu-lab02.workers.dev"
+  },
+  "proxied": false
+}
