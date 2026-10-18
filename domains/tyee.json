@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tyee33",
-        "email": "tye3@qq.com"
-    },
-    "records": {
-        "CNAME": "tyee33.github.io"
-    }
+  "owner": {
+    "username": "tyee33",
+    "email": "tye3@qq.com"
+  },
+  "records": {
+    "CNAME": "tyee33.github.io"
+  }
 }

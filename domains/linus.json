@@ -6,7 +6,10 @@
   "records": {
     "URL": "https://linuskang.au",
     "MX": [
-      {"target": "inbound-smtp.ap-northeast-1.amazonaws.com", "priority": 10}
+      {
+        "target": "inbound-smtp.ap-northeast-1.amazonaws.com",
+        "priority": 10
+      }
     ]
   }
 }
