@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "repo": "https://github.com/gsphysics15/dev.gs",
+    "email": "gs.physics15@gmail.com"
+  },
+  "subdomain": "gsphysics15",
+  "record": {
+    "CNAME": "gsphysics15.github.io"
+  }
+}
