@@ -4,6 +4,8 @@
     "email": "rudraksh7709@gmail.com"
   },
   "records": {
-    "CNAME": "rudraksh-xp.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
