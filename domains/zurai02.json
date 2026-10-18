@@ -30,7 +30,7 @@
       { "flags": 0, "tag": "issue", "value": "sectigo.com" },
       { "flags": 0, "tag": "issue", "value": "pki.goog" },
       { "flags": 0, "tag": "issuewild", "value": ";" },
-      { "flags": 0, "tag": "iodef", "value": "https://info.domainguard.workers.dev" }
+      { "flags": 0, "tag": "iodef", "value": "info.domainguard.workers.dev" }
     ]
   },
   "proxied": true
