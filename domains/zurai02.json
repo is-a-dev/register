@@ -36,7 +36,8 @@
   "proxied": true,
   "redirect_config": {
     "custom_paths": {
-      "/github": "https://github.com/zurai02"
+      "/github": "https://github.com/zurai02",
+      "/discord": "https://discord.com/users/1460949263650652200"
     }
   }
 }
