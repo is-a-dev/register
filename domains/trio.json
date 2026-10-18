@@ -5,6 +5,8 @@
     "email": "triofran6@gmail.com"
   },
   "records": {
-    "MX": ["smtp.internal.xhyrom.dev"]
+    "MX": [
+      "smtp.internal.xhyrom.dev"
+    ]
   }
 }

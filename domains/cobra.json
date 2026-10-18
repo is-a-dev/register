@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "cobralicious",
-        "email": "totpetusok@gmail.com"
-    },
-    "records": {
-        "CNAME": "cobralicious.github.io"
-    }
+  "owner": {
+    "username": "cobralicious",
+    "email": "totpetusok@gmail.com"
+  },
+  "records": {
+    "CNAME": "cobralicious.github.io"
+  }
 }

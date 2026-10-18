@@ -4,6 +4,8 @@
     "email": "faiadmahmudadil@gmail.com"
   },
   "records": {
-    "CNAME": "itz-rj-here.github.io"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

@@ -4,6 +4,8 @@
     "email": "jeanclaude.geagea@gmail.com"
   },
   "records": {
-    "CNAME": "jeanclaude-omega.vercel.app"
-  }
+    "CNAME": "jeanclaude-omega.vercel.app",
+    "TXT": "openai-domain-verification=dv-SRD9ycxQ2XccntCevx17Wj32"
+  },
+  "proxied": true
 }
