@@ -19,8 +19,14 @@
       "2606:50c0:8003::153"
     ],
     "MX": [
-      { "target": "mx1.improvmx.com", "priority": 10 },
-      { "target": "mx2.improvmx.com", "priority": 20 }
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
     ],
     "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
