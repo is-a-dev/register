@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "luckysonyu99",
-        "email": "dblsomgyu@gmail.com"
-    },
-    "records": {
-        "CNAME": "moreyu-placeholder.pages.dev"
-    }
+  "owner": {
+    "username": "luckysonyu99",
+    "email": "dblsomgyu@gmail.com"
+  },
+  "records": {
+    "CNAME": "moreyu-placeholder.pages.dev"
+  }
 }

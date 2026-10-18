@@ -1,10 +1,11 @@
-
 {
   "owner": {
     "username": "NS0T",
     "email": "theebahmad10@gmail.com"
   },
   "records": {
-    "A": ["46.248.203.25"]
+    "A": [
+      "46.248.203.25"
+    ]
   }
 }
