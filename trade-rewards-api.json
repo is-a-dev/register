@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "YOUR_GITHUB_USERNAME",
+    "email": "YOUR_CONTACT_EMAIL"
+  },
+  "record": {
+    "CNAME": "rexia-api.onrender.com"
+  }
+}
