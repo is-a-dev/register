@@ -4,7 +4,10 @@
     "username": "fungimax81-glitch"
   },
   "records": {
-    "CNAME": "custom-domains.chatgpt.site"
+    "A": [
+      "162.159.143.30",
+      "172.66.3.26"
+    ]
   },
   "proxied": false
 }
