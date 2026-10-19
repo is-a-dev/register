@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "krusty-uar",
+    "email": "Admin.uar.ethical@gmail.com"
+  },
+  "record": {
+    "CNAME": "krusty-uar.github.io",
+    "MX": [
+      "10 mx1.improvmx.com.",
+      "20 mx2.improvmx.com."
+    ],
+    "TXT": [
+      "v=spf1 include:improvmx.com ~all"
+    ]
+  }
+}
