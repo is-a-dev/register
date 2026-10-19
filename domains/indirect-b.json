@@ -3,10 +3,10 @@
     "username": "indirect-b",
     "email": "indirectnebula6@gmail.com"
   },
-  "record": {
+  "records": {
     "NS": [
-      "nina.ns.cloudflare.com",
-      "owen.ns.cloudflare.com"
+      "://cloudflare.com",
+      "://cloudflare.com"
     ]
   }
 }
