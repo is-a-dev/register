@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "indirect-b",
+    "email": "indirectnebula6@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "nina.ns.cloudflare.com",
+      "owen.ns.cloudflare.com"
+    ]
+  }
+}
