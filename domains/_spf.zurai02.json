@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "zurai02",
-    "email": "Contact@zurai02.is-a.dev"
-  },
-  "records": {
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
-  }
-}
