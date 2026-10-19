@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "TheRealRexo",
+    "email": "ahmedelkafas15@gmail.com"
+  },
+  "description": "DMARC for lotus-direct.rexo.is-a.dev",
+  "records": {
+    "TXT": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+  }
+}

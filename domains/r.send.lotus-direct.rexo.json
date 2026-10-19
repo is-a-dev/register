@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "TheRealRexo",
+    "email": "ahmedelkafas15@gmail.com"
+  },
+  "description": "Brevo redirect subdomain for lotus-direct.rexo.is-a.dev",
+  "records": {
+    "CNAME": "send-lotus-direct-rexo-is-a-dev.r.brand.brevosend.com"
+  }
+}

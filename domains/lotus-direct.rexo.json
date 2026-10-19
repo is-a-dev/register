@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "TheRealRexo",
+    "email": "ahmedelkafas15@gmail.com"
+  },
+  "description": "Lotus Express appointment booking - Brevo email verification",
+  "records": {
+    "TXT": "brevo-code:399465ea2b780e964680d6a61f1b5a54"
+  }
+}
