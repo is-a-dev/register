@@ -3,9 +3,10 @@
     "username": "TheRealRexo",
     "email": "ahmedelkafas15@gmail.com"
   },
-  "description": "Rexo developer portfolio - software development, open source, game dev tooling",
+  "description": "Rexo developer portfolio - software development, open source, game dev tooling, and transactional email for Lotus Express",
   "records": {
-    "URL": "https://github.com/TheRealRexo"
+    "URL": "https://github.com/TheRealRexo",
+    "TXT": "brevo-code:399465ea2b780e964680d6a61f1b5a54"
   },
   "proxied": false
 }

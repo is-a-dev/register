@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "TheRealRexo",
+    "email": "ahmedelkafas15@gmail.com"
+  },
+  "description": "Brevo branded sending subdomain for Lotus Express (appointment booking email)",
+  "records": {
+    "CNAME": "lotusdirectautomatednoreplyemail-rexo-is-a-dev.brand.brevosend.com"
+  }
+}
