@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "iamspyder"
+    "username": "iamspyder",
+    "email": "irajangpt@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rajan-portfolio-blond.vercel.app"
   }
 }
