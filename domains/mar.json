@@ -4,6 +4,12 @@
     "email": "haikalfibraayirprasta7@gmail.com"
   },
   "records": {
-    "CNAME": "vault-goy.netlify.app"
+    "CNAME": "vault-goy.netlify.app",
+    "TXT": [
+      {
+        "name": "_discord",
+        "value": "dh=554659b0da27c187a09e8b76a1a93ab088673d23"
+      }
+    ]
   }
 }
