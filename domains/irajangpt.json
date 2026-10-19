@@ -4,6 +4,6 @@
     "email": "irajangpt@gmail.com"
   },
   "records": {
-    "CNAME": "rajan-portfolio-blond.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
