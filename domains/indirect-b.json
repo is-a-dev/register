@@ -5,8 +5,8 @@
   },
   "records": {
     "NS": [
-      "://cloudflare.com",
-      "://cloudflare.com"
+      "nina.ns.cloudflare.com",
+      "owen.ns.cloudflare.com"
     ]
   }
 }
