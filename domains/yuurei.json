@@ -4,6 +4,6 @@
     "discord": "https://discord.com/users/998608551431897170"
   },
   "records": {
-    "CNAME": "profile-yurei.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
