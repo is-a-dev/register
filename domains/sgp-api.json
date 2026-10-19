@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "mmoanythings",
+        "email": "mmoanythings@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "kolton.ns.cloudflare.com", 
+            "malavika.ns.cloudflare.com" 
+        ]
+    }
+}
