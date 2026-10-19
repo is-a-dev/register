@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Tarkan-Zarrouk",
-        "email": "tarkan.zarrouk@gmail.com"
-    },
-    "records": {
-        "URL": "https://tarkan-zarrouk.github.io/Portfolio-Final/"
-    }
+  "owner": {
+    "username": "Tarkan-Zarrouk",
+    "email": "tarkan.zarrouk@gmail.com"
+  },
+  "records": {
+    "CNAME": "tarkan-zarrouk.github.io"
+  }
 }
