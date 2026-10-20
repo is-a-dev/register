@@ -1,0 +1,10 @@
+
+{
+    "owner": {
+        "username": "your-github-username",
+        "email": "your-email@gmail.com"
+    },
+    "records": {
+        "TXT": ["vc-domain-verify=www.pavandeep.is-a.dev,7cb8dfcd46f2a8234fab"]
+    }
+}
