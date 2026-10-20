@@ -6,6 +6,7 @@
   "records": {
     "A": [
       "216.198.79.1"
-    ]
+    ],
+    "TXT": "vc-domain-verify=pymite6941.is-a.dev,<VERCEL_VERIFICATION_HASH>"
   }
 }
