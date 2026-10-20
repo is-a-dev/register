@@ -5,6 +5,9 @@
     "email": "anzar0904@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": {
+      "_vercel": "vc-domain-verify=anzar.is-a.dev,88598916bbb243802110"
+    }
   }
 }
