@@ -1,0 +1,11 @@
+{
+    "description": "DEBUNK.IT - AI-powered misinformation detection platform",
+    "repo": "https://github.com/Code-Breaker-Ctrl/Debunkit",
+    "owner": {
+        "username": "Code-Breaker-Ctrl",
+        "email": "joshiaman2006@gmail.com"
+    },
+    "record": {
+        "CNAME": "debunkit-production.up.railway.app"
+    }
+}
