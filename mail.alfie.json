@@ -1,10 +1,10 @@
 {
   "owner": {
-    "username": "rdmuilkshakelab",
+    "username": "rdmilkshakelab",
     "email": "alfernado@outlook.com"
   },
   "records": {
-    "CNAME": "alfie.is-a.dev/preorder/"
+    "CNAME": "alfie.is-a.dev"
   },
   "proxied": true
 }
