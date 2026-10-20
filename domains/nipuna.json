@@ -1,11 +1,9 @@
 {
-  "description": "Personal Portfolio of Nipuna Dilshan",
-  "repo": "https://nipuna-developer.github.io/nipuna-dilshan/",
   "owner": {
     "username": "nipuna-developer",
     "email": "uanipunadilshan@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "nipuna-developer.github.io"
   }
 }
