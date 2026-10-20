@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "promaruf"
+    "username": "promaruf",
+    "email": "f.maruf.hasan77@gmail.com"
   },
   "records": {
     "CNAME": "promaruf.netlify.app"
-  }
+  },
+  "proxied": true
 }
