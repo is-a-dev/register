@@ -1,1 +1,9 @@
-{"owner":{"email":"Charleswesleydedmond@gmail.com","username":"nonchalantCD"},"record":{"CNAME":"nonchalantcd.github.io"}}
+{
+  "owner": {
+    "username": "nonchalantCD",
+    "email": "Charleswesleydedmond@gmail.com"
+  },
+  "records": {
+    "CNAME": "nonchalantcd.github.io"
+  }
+}
