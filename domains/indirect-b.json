@@ -4,9 +4,6 @@
     "email": "indirectnebula6@gmail.com"
   },
   "records": {
-    "NS": [
-      "nina.ns.cloudflare.com",
-      "owen.ns.cloudflare.com"
-    ]
+    "CNAME": "indirect-b.github.io"
   }
 }
