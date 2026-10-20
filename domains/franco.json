@@ -1,0 +1,10 @@
+{
+  "domain": "franco.is-a.dev",
+  "owner": {
+    "github": "Etiketaa",
+    "email": "francoparedes1992@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
