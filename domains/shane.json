@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "onlyPureYogurt",
-        "email": "apdooewi@gmail.com"
-    },
-    "records": {
-        "CNAME": "onlypureyogurt.github.io"
-    }
+  "owner": {
+    "username": "onlyPureYogurt",
+    "email": "apdooewi@gmail.com"
+  },
+  "records": {
+    "CNAME": "onlypureyogurt.github.io"
+  }
 }

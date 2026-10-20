@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "ravonmy-creator",
+    "email": "ravonmy@gmail.com"
+  },
+  "records": {
+    "CNAME": "ravonmy-creator.github.io",
+    "TXT": [
+      "rc.graphpad.com:domain-verification=NSv_-k6LyVkmkLCVC63XHw"
+    ]
+  },
+  "proxied": true
+}
