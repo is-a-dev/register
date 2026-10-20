@@ -4,9 +4,6 @@
     "email": "mr.umerirshad@gmail.com"
   },
   "records": {
-    "TXT": [
-      "vc-domain-verify=umerirshad.is-a.dev,ef349cb450cf4c251b31",
-      "vc-domain-verify=www.umerirshad.is-a.dev,2ec08f3fbffcbfb48dc2"
-    ]
+    "TXT": "vc-domain-verify=umerirshad.is-a.dev,7c7249129efeb3dc2a22"
   }
 }

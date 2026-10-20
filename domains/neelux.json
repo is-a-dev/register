@@ -1,9 +1,9 @@
 {
-    "owner": {
-          "username": "skychik89",
-        "telegram": "xwias"
-    },
-    "records": {
-          "CNAME": "skychik89.github.io"
-    }
+  "owner": {
+    "username": "skychik89",
+    "telegram": "xwias"
+  },
+  "records": {
+    "CNAME": "skychik89.github.io"
+  }
 }
