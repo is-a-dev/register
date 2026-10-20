@@ -3,8 +3,9 @@
         "username": "kichu12348"
     },
     "records": {
-        "A": [
-            "216.198.79.1"
+        "NS": [
+            "casey.ns.cloudflare.com",
+            "harmony.ns.cloudflare.com"
         ]
     }
 }
