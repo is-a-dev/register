@@ -48,7 +48,6 @@ jobs:
               env:
                   DOMAIN_CHANGED: ${{ steps.changes.outputs.domain }}
               with:
-                  github-token: ${{ secrets.BOT }}
                   script: |
                       if (process.env.DOMAIN_CHANGED !== "true") {
                           core.setOutput("changed", "false");
@@ -100,7 +99,6 @@ jobs:
               if: steps.ns.outputs.changed == 'true'
               uses: actions/github-script@v8
               with:
-                  github-token: ${{ secrets.BOT }}
                   script: |
                       const marker = "<!-- is-a-dev-bot: ns-record-review -->";
 
@@ -173,7 +171,6 @@ jobs:
                   MAINTAINER: ${{ steps.check-trusted.outcome == 'success' }}
                   R_WILLIAM: ${{ steps.changes.outputs.r-william }}
               with:
-                  github-token: ${{ secrets.BOT }}
                   script: |
                       const labels = [];
 
@@ -235,7 +232,6 @@ jobs:
               if: steps.validate.outcome == 'failure'
               uses: actions/github-script@v8
               with:
-                  github-token: ${{ secrets.BOT }}
                   script: |
                       const label = "reason: incomplete pr";
 
@@ -316,7 +312,6 @@ jobs:
               if: steps.validate.outcome == 'success'
               uses: actions/github-script@v8
               with:
-                  github-token: ${{ secrets.BOT }}
                   script: |
                       const label = "reason: incomplete pr";
                       const marker = "<!-- is-a-dev-bot: incomplete-pr-template -->";

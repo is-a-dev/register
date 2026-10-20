@@ -12,7 +12,6 @@ jobs:
             - name: Update branches
               uses: actions/github-script@v8
               with:
-                  github-token: ${{ secrets.BOT }}
                   script: |
                       const marker = "<!-- is-a-dev-bot: merge-conflict -->";
 

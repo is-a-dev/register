@@ -23,7 +23,6 @@ jobs:
               env:
                   PR_TITLE: ${{ github.event.pull_request.title }}
               with:
-                  github-token: ${{ secrets.BOT }}
                   script: |
                       // this must match AGENTS.md
                       const tag = "(dns-preflight)";
