@@ -4,6 +4,9 @@
     "email": "predakingser@gmail.com"
   },
   "records": {
-    "CNAME": "casaos.cfargotunnel.com"
+    "NS": [
+      "alaric.ns.cloudflare.com",
+      "jacqueline.ns.cloudflare.com"
+    ]
   }
 }
