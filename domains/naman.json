@@ -20,5 +20,5 @@
       "v=spf1 include:spf.forwardemail.net include:spf.smtp2go.com -all"
     ]
   },
-  "proxied": false
+  "proxied": true
 }
