@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "vikki-k-s"
-    },
-    "records": {
-         "CNAME": "vikki-k-s.github.io"
-         "A": [
+  "owner": {
+    "username": "vikki-k-s"
+  },
+  "records": {
+    "CNAME": "vikki-k-s.github.io",
+    "A": [
       "185.199.108.153",
       "185.199.109.153",
       "185.199.110.153",
@@ -25,8 +25,9 @@
       }
     ],
     "TXT": [
-        "5aa70231e1874e2b21311387476eb6"
+      "5aa70231e1874e2b21311387476eb6",
       "zoho-verification=zb60958690.zmverify.zoho.in",
       "v=spf1 include:zoho.in ~all"
-    }
+    ]
+  }
 }
