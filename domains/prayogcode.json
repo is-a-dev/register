@@ -4,6 +4,6 @@
     "email": "shivanandvarpe0@gmail.com"
   },
   "records": {
-    "CNAME": "vm-18971-prayogcode-server.vyuhstack.com"
+    "A": ["3.27.237.122"]
   }
 }
