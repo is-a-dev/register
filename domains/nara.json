@@ -1,8 +1,7 @@
 {
   "description": "Nara - a free AI companion bot for Discord. Landing page, privacy policy and terms.",
   "owner": {
-    "username": "NYDJustin",
-    "email": "NYDJustin@users.noreply.github.com"
+    "username": "NYDJustin"
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
