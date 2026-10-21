@@ -3,6 +3,30 @@
         "username": "vikki-k-s"
     },
     "records": {
-        "CNAME": "vikki-k-s.github.io"
+         "CNAME": "vikki-k-s.github.io"
+         "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+        "5aa70231e1874e2b21311387476eb6"
+      "zoho-verification=zb60958690.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
     }
 }
