@@ -1,0 +1,8 @@
+{
+  "owner": {
+   "username": "vikki-k-s"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCCbzimHtGrO9a1SX36EbMtwfCupGM3e7dnJ2SO1eKDeRL2t+TstSUYONuyumeknpXWASl4opcCAlsIv0sITYv8xTRKOSAmy785pVCRCR+rNoSyDBZGFFAToc301dLb8tc+xd9wj4OlnvqNXoSg4PEyVSSrlapvI7WsLmEurpGpKwIDAQAB"
+  }
+}
