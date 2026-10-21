@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "derikjamba-dev"
+  },
+  "description": "Derik Jamba's portfolio site",
+  "repo": "https://github.com/derikjamba-dev/derik-portfolio",
+  "records": {
+    "CNAME": "derik-portfolio-beta.vercel.app"
+  }
+}
