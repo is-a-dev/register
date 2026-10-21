@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AaqibShaikh10",
-        "email": "aaqibshaikh300@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aaqib.is-a.dev,2d35b5aa10f0178e15a8"
-    }
+  "owner": {
+    "username": "AaqibShaikh10",
+    "email": "aaqibshaikh300@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aaqib.is-a.dev,2d35b5aa10f0178e15a8"
+  }
 }
