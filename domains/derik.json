@@ -6,5 +6,6 @@
   "repo": "https://github.com/derikjamba-dev/derik-portfolio",
   "records": {
     "CNAME": "derik-portfolio-beta.vercel.app"
+    "TXT": ["vc-domain-verify=derik.is-a.dev,9592fae466cb4728c149"]
   }
 }
