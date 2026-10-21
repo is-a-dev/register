@@ -1,0 +1,13 @@
+{
+  "description": "Naif's personal engineering showcase and B2B portfolio",
+  "owner": {
+    "username": "tugg86722-create",
+    "email": "dewellsmell@gmail.com"
+  },
+  "records": {
+    "URL": "https://astro-keystatic-b2b.dewellsmell.workers.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}
