@@ -1,0 +1,11 @@
+{
+  "description": "zero.con - AI chat web app",
+  "repo": "https://github.com/zerodayExpert/zero-con",
+  "owner": {
+    "username": "zerodayExpert",
+    "email": "intrusivewhitehat@gmail.com"
+  },
+  "record": {
+    "CNAME": "zerodayexpert.github.io"
+  }
+}
