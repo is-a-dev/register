@@ -1,0 +1,13 @@
+{
+  "description": "Personal portfolio, experiments, and fun web development projects",
+  "owner": {
+    "username": "ghahramani",
+    "email": "ghahramani.navid@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "brit.ns.cloudflare.com",
+      "buck.ns.cloudflare.com"
+    ]
+  }
+}
