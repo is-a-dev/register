@@ -1,11 +1,11 @@
 {
   "owner": {
     "username": "GAMBULLS101",
-    "email": "gambulls@gmail.com"
+    "email": "gambullsaccess@gmail.com"
   },
   "domain": "gambulls",
   "subdomain": "",
   "records": {
-    "A": ["76.76.21.21"]
+    "CNAME": "damp-tooth-f9b7.6nzdg8kvyd.workers.dev"
   }
 }
