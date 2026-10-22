@@ -1,13 +1,10 @@
 {
-  "description": "Personal portfolio, experiments, and fun web development projects",
+  "description": "Distribution portal and documentation for open-source OpenWrt community firmware builds and package feeds",
   "owner": {
     "username": "ghahramani",
     "email": "ghahramani.navid@gmail.com"
   },
   "records": {
-    "NS": [
-      "brit.ns.cloudflare.com",
-      "buck.ns.cloudflare.com"
-    ]
+    "CNAME": "openwrt.style.dev"
   }
 }
