@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "Rahyned"
+    "username": "Rahyned",
+    "email": "rodriguez.samuel.lautaro@gmail.com"
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
