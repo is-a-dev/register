@@ -1,8 +1,32 @@
 {
-    "owner": {
-        "username": "theakashr"
-    },
-    "records": {
-        "CNAME": "theakashr.github.io"
-    }
+  "owner": {
+    "username": "theakashr",
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+      "56785fe9334e5d74023033d3c72c41",
+      "zoho-verification=zb80481181.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
+    ]
+  }
 }
