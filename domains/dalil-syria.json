@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "ameryruw" },
-  "records": { "CNAME": "ameryruw" }
+  "owner": {
+    "username": "ameryruw"
+  },
+  "records": {
+    "CNAME": "ameryruw.github.io"
+  },
+  "proxied": true
 }
