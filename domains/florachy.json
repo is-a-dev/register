@@ -4,7 +4,7 @@
     "email": "940382006@qq.com"
   },
   "records": {
-    "CNAME": "xiahb.github.io"
+    "A": ["121.41.166.21"]
   },
   "proxied": false
 }
