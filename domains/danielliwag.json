@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "danielliwag",
-        "email": "danielarylliwag@gmail.com"
-    },
-    "records": {
-        "CNAME": "danielliwag.github.io"
-    }
+  "owner": {
+    "username": "danielliwag",
+    "email": "danielarylliwag@gmail.com"
+  },
+  "records": {
+    "CNAME": "danielliwag.github.io"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mk-hassan",
-        "email": "kamal@example.com"
-    },
-    "records": {
-        "CNAME": "mk-hassan.github.io"
-    }
+  "owner": {
+    "username": "mk-hassan",
+    "email": "kamal@example.com"
+  },
+  "records": {
+    "CNAME": "mk-hassan.github.io"
+  }
 }

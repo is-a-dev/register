@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "harissfx",
-        "email": "hs6115308@gmail.com"
-    },
-    "records": {
-        "CNAME": "harissfx.github.io"
-    }
+  "owner": {
+    "username": "harissfx",
+    "email": "hs6115308@gmail.com"
+  },
+  "records": {
+    "CNAME": "harissfx.github.io"
+  }
 }

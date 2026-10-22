@@ -1,5 +1,7 @@
 {
-  "owner": { "username": "MukulBhardwaj-4" },
+  "owner": {
+    "username": "MukulBhardwaj-4"
+  },
   "records": {
     "TXT": "v=DMARC1; p=none;"
   }

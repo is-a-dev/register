@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "abar5-dev",
-        "email": "abar20100513@gmail.com"
-    },
-    "records": {
-        "CNAME": "abar5-dev.github.io"
-    }
+  "owner": {
+    "username": "abar5-dev",
+    "email": "abar20100513@gmail.com"
+  },
+  "records": {
+    "CNAME": "abar5-dev.github.io"
+  }
 }
