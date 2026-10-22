@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "mindattic"
+        "username": "mindattic",
+        "email": "ryandebraal@mindattic.com"
     },
     "records": {
         "CNAME": "mindattic.com"
