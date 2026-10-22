@@ -5,6 +5,25 @@
     "email": "dewellsmell@gmail.com"
   },
   "records": {
-    "CNAME": "naif-dtc.pages.dev"
-  }
+    "CNAME": "naif-dtc.pages.dev",
+    "MX": [
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+      "zoho-verification=zb24386103.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all"
+    ]
+  },
+  "proxied": true
 }
