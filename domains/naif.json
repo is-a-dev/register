@@ -1,13 +1,29 @@
 {
-  "description": "Naif's personal engineering showcase and B2B portfolio",
+  "description": "Naif | DTC eCommerce Operator & Full-Funnel Growth Architect",
   "owner": {
     "username": "tugg86722-create",
     "email": "dewellsmell@gmail.com"
   },
   "records": {
-    "URL": "https://astro-keystatic-b2b.dewellsmell.workers.dev"
+    "CNAME": "naif-dtc.pages.dev",
+    "MX": [
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+      "zoho-verification=zb24386103.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all"
+    ]
   },
-  "redirect_config": {
-    "redirect_paths": true
-  }
+  "proxied": true
 }
