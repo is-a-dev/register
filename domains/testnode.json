@@ -3,7 +3,9 @@
     "username": "rocianante",
     "email": "dily2010150@163.com"
   },
-  "record": {
-    "CNAME": "frosty-surf-c61d.dily2010150.workers.dev"
+  "records": {
+    "CNAME": [
+      "frosty-surf-c61d.dily2010150.workers.dev"
+    ]
   }
 }
