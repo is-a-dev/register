@@ -4,8 +4,11 @@
     "email": "vadimkruglov1995@gmail.com"
   },
   "records": {
-    "A": [
-      "185.241.53.34"
+    "NS": [
+      "ns1.zomro.net",
+      "ns2.zomro.ru",
+      "ns3.zomro.com",
+      "ns4.zomro.su"
     ]
   }
 }
