@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "imhannsop",
-        "email": "shirokxd@gmail.com"
-    },
-    "records": {
-        "CNAME": "imhann.is-a.dev"
-    }
+  "owner": {
+    "username": "imhannsop",
+    "email": "shirokxd@gmail.com"
+  },
+  "records": {
+    "CNAME": "imhann.is-a.dev"
+  }
 }

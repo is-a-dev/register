@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Logizel",
-        "email": "jizelprince@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "Logizel",
+    "email": "jizelprince@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
