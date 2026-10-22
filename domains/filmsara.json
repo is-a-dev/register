@@ -1,9 +1,10 @@
 {
+  "description": "My personal website",
   "owner": {
     "username": "Mr-Chemist",
     "email": "hiwanima@gmail.com"
   },
-  "record": {
+  "records": {
     "A": [
       "94.183.176.103"
     ]
