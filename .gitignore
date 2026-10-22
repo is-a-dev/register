@@ -64,6 +64,7 @@ web_modules/
 .rts2_cache_umd/
 
 # Optional REPL history
+temp_auto_push.bat
 .node_repl_history
 
 # Output of 'npm pack'
@@ -120,7 +121,6 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # yarn v2
 .yarn/cache
@@ -132,3 +132,5 @@ dist
 # Custom
 .DS_Store
 *.js
+.gitignore
+branch_structure.json
