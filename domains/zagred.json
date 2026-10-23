@@ -1,7 +1,8 @@
 {
-  "owner": {
-    "username": "zagredmuda-dot"
-  },
+   "owner": {
+  "username": "zagredmuda-dot",
+  "email": "zagredmuda@gamil.com"
+},
   "records": {
     "CNAME": "cname.vercel-dns.com"
   }
