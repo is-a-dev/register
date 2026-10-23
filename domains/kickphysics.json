@@ -1,0 +1,11 @@
+{
+    "description": "Long kick aerodynamics web tool",
+    "repo": "https://github.com/shujiyoneda/long-kick-science",
+    "owner": {
+        "username": "shujiyoneda",
+        "email": "zhongzhimitian@gmail.com"
+    },
+    "record": {
+        "CNAME": "shujiyoneda.github.io"
+    }
+}
