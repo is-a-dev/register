@@ -5,9 +5,6 @@
   },
   "proxied": true,
   "records": {
-    "TXT": [
-      "vc-domain-verify=is-a.dev,5c8abdddfdcaff97e7c4"
-    ],
     "CNAME": "complete-portfolio-website-delta.vercel.app"
   }
 }
