@@ -4,9 +4,6 @@
     "email": "lueying1072271909@hotmail.com"
   },
   "records": {
-    "NS": [
-      "daisy.ns.cloudflare.com",
-      "roan.ns.cloudflare.com"
-    ]
+    "CNAME": "syrjgc11006.github.io"
   }
 }
