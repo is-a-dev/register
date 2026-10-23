@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "58fly"
+  },
+  "records": {
+    "CNAME": "<TUNNEL-UUID>.cfargotunnel.com"
+  },
+  "proxied": false
+}
