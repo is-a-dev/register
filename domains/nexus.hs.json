@@ -1,0 +1,12 @@
+{
+  "description": "Nexus private chat (Cloudflare Tunnel)",
+  "owner": {
+    "username": "Buyukofficial",
+    "name": "Hammad",
+    "email": "sayedhammad996@gmail.com"
+  },
+  "records": {
+    "CNAME": "8b4d0cd0-6218-4e19-810c-35416b72871d.cfargotunnel.com"
+  },
+  "proxied": false
+}
