@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "MTP939"
+  },
+  "records": {
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 5,
+        "port": 13062,
+        "target": "xhy.9666.fun"
+      }
+    ]
+  }
+}
