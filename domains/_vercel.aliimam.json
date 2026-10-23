@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "Aliimam10"
-       
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aliimam.is-a.dev,7a589c88a9f007021c74"
-    }
+  "owner": {
+    "username": "Aliimam10"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aliimam.is-a.dev,7a589c88a9f007021c74"
+  }
 }
