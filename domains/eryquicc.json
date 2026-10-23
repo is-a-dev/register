@@ -13,6 +13,7 @@
       "mx1.improvmx.com",
       "mx2.improvmx.com"
     ],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "TXT": "v=spf1 include:spf.improvmx.com ~all",
+    "TXT": "_github-pages-challenge-Eryquicc=d2810f7995d88fc6639b116b6ede29"
   }
 }
