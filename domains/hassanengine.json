@@ -4,7 +4,6 @@
     "username": "GrowBuisness365"
   },
   "records": {
-    "TXT": "vc-domain-verify=hassanengine.is-a.dev,674a40638f5d8c8f8341"
+    "A": ["216.198.79.1"]
   }
 }
-
