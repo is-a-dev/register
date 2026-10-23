@@ -1,0 +1,11 @@
+{
+  "description": "POS de Entre Panas (pizzeria y comidas rapidas)",
+  "owner": {
+    "username": "entrepanas225-max",
+    "email": "entrepanas225-max@users.noreply.github.com"
+  },
+  "record": {
+    "CNAME": "entrepanas225-max.github.io"
+  },
+  "proxied": false
+}
