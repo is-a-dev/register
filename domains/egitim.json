@@ -3,6 +3,9 @@
         "username": "XPROSHIP"
     },
     "records": {
-        "RECORDTYPE": "egitim-haberleri.omerzen.workers.dev"
+        "URL": "https://egitim.omerzen.workers.dev"
+    },
+    "redirect_config": {
+        "redirect_paths": true
     }
 }
