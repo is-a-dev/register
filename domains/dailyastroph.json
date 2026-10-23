@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "afaisst",
-    "email": "anfaisst@gmail.com"
+    "username": "afaisst"
   },
-  "record": {
-    "CNAME": "dap-eret.onrender.com"
-  }
+  "records": {
+    "A": ["216.24.57.1"]
+  },
 }
