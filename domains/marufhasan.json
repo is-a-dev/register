@@ -4,7 +4,6 @@
     "email": "f.maruf.hasan77@gmail.com"
   },
   "records": {
-    "CNAME": "promaruf.netlify.app"
-  },
-  "proxied": true
+    "A": ["75.2.60.5"]
+  }
 }
