@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Lyte3075",
-        "email": "aaron3075@icloud.com"
-    },
-    "records": {
-        "CNAME": "lyte3075.github.io"
-    }
+  "owner": {
+    "username": "Lyte3075",
+    "email": "aaron3075@icloud.com"
+  },
+  "records": {
+    "CNAME": "lyte3075.github.io"
+  }
 }
