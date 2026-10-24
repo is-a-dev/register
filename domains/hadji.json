@@ -3,9 +3,6 @@
     "username": "lamin-sudo"
   },
   "records": {
-    "CNAME": "lamin-sudo.github.io",
-    "TXT": [
-      "google-site-verification=OFjsJISJYl1Y2-5c97AHraXeqCDkLgZ5TxNp"
-    ]
+    "CNAME": "lamin-sudo.github.io"
   }
 }
