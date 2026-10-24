@@ -1,12 +1,11 @@
 {
-  "description": "Website packaging tool",
-  "repo": "https://github.com/hongkong-nao",
+  "description": "会闹工作室导航站",
+  "repo": "https://github.com/hongkong-nao/hnstgw",
   "owner": {
     "username": "hongkong-nao",
     "email": "hnstudio@foxmail.com"
   },
   "records": {
-    "CNAME": "free.frpee.top"
+    "CNAME": "hongkong-nao.github.io"
   }
 }
-
