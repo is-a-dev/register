@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "blue-cannon",
+    "email": "gyte01834@gmail.com"
+  },
+  "domain": "gitto",
+  "subdomain": "",
+  "record": {
+    "CNAME": "blue-cannon.github.io"
+  },
+  "proxied": false
+}
