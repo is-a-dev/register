@@ -1,7 +1,8 @@
 {
-  "description": "GitHub 宝藏小项目导航 · 精选小而美开源项目",
+  "description": "GitHub 宝藏小项目导航 · 精选 44 个小而美开源项目",
   "owner": {
-    "username": "cwn-mr"
+    "username": "cwn-mr",
+    "email": "cwn-mr@users.noreply.github.com"
   },
   "record": {
     "CNAME": "cwn-mr.github.io"
