@@ -1,8 +1,9 @@
- {
+   {
        "owner": {
-           "username": "Jizel14"
+           "username": "Jizel14",
+           "email": "jizel.ziadi@esprit.tn"
        },
        "records": {
-           "CNAME": "jizel14.github.io"
+           "CNAME": "cname.vercel-dns.com"
        }
    }
