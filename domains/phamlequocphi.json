@@ -6,11 +6,6 @@
     "email": "phamlequocphi16092001@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ],
-    "TXT": [
-      "vc-domain-verify=phamlequocphi.is-a.dev,34be5033322875aa5b1f"
-    ]
+    "CNAME": "cname.vercel-dns.com"
   }
 }
