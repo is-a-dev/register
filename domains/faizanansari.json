@@ -1,10 +1,11 @@
-
 {
   "owner": {
     "username": "Fzansa",
     "email": "faizanansari8747@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

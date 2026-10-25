@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "MitulNayakwadi",
-        "email": "mitulnayakwadi@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=mitulnayakwadi.is-a.dev,5134071b8a561420d999"
-    }
+  "owner": {
+    "username": "MitulNayakwadi",
+    "email": "mitulnayakwadi@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mitulnayakwadi.is-a.dev,5134071b8a561420d999"
+  }
 }
