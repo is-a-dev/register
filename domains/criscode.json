@@ -3,7 +3,10 @@
     "username": "CristianSanchesEng",
     "email": "cristiansanches.eng@gmail.com"
   },
-  "records": {
-    "URL": "https://github.com/CristianSanchesEng"
+  "record": {
+    "NS": [
+      "adele.ns.cloudflare.com",
+      "dale.ns.cloudflare.com"
+    ]
   }
 }
