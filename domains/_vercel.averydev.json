@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "MaseDev33"
-    },
-    "records": {
-        "TXT": [
-          "vc-domain-verify=averydev.is-a.dev,7e7680b7d4dd7c0b2328",
-          "vc-domain-verify=www.averydev.is-a.dev,1420ca0a05c07786661d"
-        ]
-    }
+  "owner": {
+    "username": "MaseDev33"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=averydev.is-a.dev,7e7680b7d4dd7c0b2328",
+      "vc-domain-verify=www.averydev.is-a.dev,1420ca0a05c07786661d"
+    ]
+  }
 }
