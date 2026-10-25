@@ -1,0 +1,13 @@
+{
+  "name": "_vercel.bapao",
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "notbapao",
+    "email": "fvkupbusiness@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=bapao.is-a.dev,09b45fdd35cc19cb9622"
+    ]
+  }
+}
