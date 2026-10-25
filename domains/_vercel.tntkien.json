@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tntkien",
-        "email": "kien.tnt.200901@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=tntkien.is-a.dev,e88dab6eeb9e6ed852dd"
-    }
+  "owner": {
+    "username": "tntkien",
+    "email": "kien.tnt.200901@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tntkien.is-a.dev,e88dab6eeb9e6ed852dd"
+  }
 }

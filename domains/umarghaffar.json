@@ -1,1 +1,14 @@
-{"owner": {"username": "Umar888"}, "records": {"A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"], "TXT": "google-site-verification=T1Vu62xqJxees1XoYGhS6zNKR274oIkVJC57STxW294"}}
+{
+  "owner": {
+    "username": "Umar888"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "TXT": "google-site-verification=T1Vu62xqJxees1XoYGhS6zNKR274oIkVJC57STxW294"
+  }
+}
