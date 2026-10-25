@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "godsfavour2",
+    "email": "godsfavourgf2@gmail.com"
+  },
+  "domain": "gaflo",
+  "record": {
+    "CNAME": "gaflo.vercel.app",
+    "TXT": "Gaflo Search Engine Bot"
+  },
+  "subdomain": "",
+  "proxied": false
+}
