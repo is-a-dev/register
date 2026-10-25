@@ -5,20 +5,54 @@
   "records": {
     "CNAME": "zurai02-github-io.pages.dev",
     "MX": [
-      { "target": "mx1.improvmx.com", "priority": 10 },
-      { "target": "mx2.improvmx.com", "priority": 20 }
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
     ],
     "TXT": [
       "v=spf1 include:spf.improvmx.com -all"
     ],
     "CAA": [
-      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-      { "flags": 0, "tag": "issue", "value": "ssl.com" },
-      { "flags": 0, "tag": "issue", "value": "zerossl.com" },
-      { "flags": 0, "tag": "issue", "value": "sectigo.com" },
-      { "flags": 0, "tag": "issue", "value": "pki.goog" },
-      { "flags": 0, "tag": "issuewild", "value": ";" },
-      { "flags": 0, "tag": "iodef", "value": "info.domainguard.workers.dev" }
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "letsencrypt.org"
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "ssl.com"
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "zerossl.com"
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "sectigo.com"
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "pki.goog"
+      },
+      {
+        "flags": 0,
+        "tag": "issuewild",
+        "value": ";"
+      },
+      {
+        "flags": 0,
+        "tag": "iodef",
+        "value": "info.domainguard.workers.dev"
+      }
     ]
   },
   "redirect_config": {
