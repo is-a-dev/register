@@ -1,8 +1,9 @@
 {
-"owner": {
-"username": "Draglow"
-},
-"records": {
-"CNAME": "devvdereje.vercel.app"
+  "owner": {
+    "username": "Draglow"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
-}
+
