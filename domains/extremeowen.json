@@ -1,1 +1,9 @@
-
+{
+  "description": "extremeowen — personal site",
+  "owner": {
+    "username": "extremeowen"
+  },
+  "records": {
+    "CNAME": "owenvibe.netlify.app"
+  }
+}
