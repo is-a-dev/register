@@ -1,13 +1,12 @@
 {
   "owner": {
-    "username": "godsfavour2",
+    "username": "godsfavourgf2-creator",
     "email": "godsfavourgf2@gmail.com"
   },
   "domain": "gaflo",
-  "record": {
-    "CNAME": "gaflo.vercel.app",
-    "TXT": "Gaflo Search Engine Bot"
-  },
   "subdomain": "",
+  "record": {
+    "URL": "https://github.com/godsfavourgf2-creator"
+  },
   "proxied": false
 }
