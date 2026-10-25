@@ -132,3 +132,8 @@ dist
 # Custom
 .DS_Store
 *.js
+# Arquivos de domínio is-a.dev
+*.json
+domains/**/*.json
+# Permitir .json específico no domínio domains/
+domains/*.json
