@@ -1,7 +1,8 @@
 {
   "description": "extremeowen — personal site",
   "owner": {
-    "username": "extremeowen"
+    "username": "extremeowen",
+    "email": "maks20050615@gmail.com"
   },
   "records": {
     "CNAME": "owenvibe.netlify.app"
