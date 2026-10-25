@@ -3,6 +3,9 @@
     "username": "nubnffsynz-byte"
   },
   "records": {
-    "CNAME": "sxzprofile-mjzrqxkb.manus.space"
+    "CNAME": "sxzprofile.vercel.app",
+    "TXT": [
+      "_vercel=vc-domain-verify=is-a.dev,4eab04b1f63999e46e3a"
+    ]
   }
 }
