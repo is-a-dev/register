@@ -4,7 +4,6 @@
     "email": "hoanghai24032024@gmail.com"
   },
   "records": {
-    "URL": "https://h2rhenry.github.io/"
-  },
-  "proxied": false
+    "CNAME": "h2rhenry.github.io"
+  }
 }
