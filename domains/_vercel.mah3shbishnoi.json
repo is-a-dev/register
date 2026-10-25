@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sha00yam",
-        "email": "luvky8995@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=mah3shbishnoi.is-a.dev,3a7088b17c5ed075d211"
-    }
+  "owner": {
+    "username": "sha00yam",
+    "email": "luvky8995@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mah3shbishnoi.is-a.dev,3a7088b17c5ed075d211"
+  }
 }
