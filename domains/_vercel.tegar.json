@@ -1,0 +1,11 @@
+{
+  "description": "Verifikasi domain Vercel untuk tegar.is-a.dev",
+  "repo": "https://github.com/tegarmuhamad122-cmd",
+  "owner": {
+    "username": "tegarmuhamad122-cmd",
+    "email": "tegarmuhamad122@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tegar.is-a.dev,a49298788c315c5708b8"
+  }
+}

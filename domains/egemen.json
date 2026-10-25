@@ -4,6 +4,8 @@
     "email": "muhammedegemengeyik@gmail.com"
   },
   "records": {
-    "CNAME": "bore.pub"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

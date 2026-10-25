@@ -1,0 +1,14 @@
+{
+  "name": "_vercel.fred-blaise",
+  "description": "Vercel domain verification for fred-blaise - root + www FOREVER",
+  "owner": {
+    "username": "westindies86-DeV",
+    "email": "fred.blaise@fred-blaise.is-a.dev"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=fred-blaise.is-a.dev,692ceb406df9df99db2f",
+      "vc-domain-verify=www.fred-blaise.is-a.dev,1f1286b201ab6d5cc9bc"
+    ]
+  }
+}

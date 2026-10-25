@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "BeratWebdev"
-    },
-    "records": {
-        "CNAME": "beratwebdev.github.io"
-    }
+  "owner": {
+    "username": "BeratWebdev"
+  },
+  "records": {
+    "CNAME": "beratwebdev.github.io"
+  }
 }
