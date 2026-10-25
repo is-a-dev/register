@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "jagadees24"
-    },
-    "records": {
-        "CNAME": "jacksparrow.org"
-    }
+  "owner": {
+    "username": "Jagadees",
+    "email": "jagadees@nexacloudtech.com"
+  },
+  "records": {
+    "URL": "jacksparrow.org"
+  }
 }
