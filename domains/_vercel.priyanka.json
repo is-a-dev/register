@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "priyankak3",
-        "email": "piyukadam74@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=priyanka.is-a.dev,ab60588c9b1d7db4cfd6"
-    }
+  "owner": {
+    "username": "priyankak3",
+    "email": "piyukadam74@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=priyanka.is-a.dev,ab60588c9b1d7db4cfd6"
+  }
 }
