@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "promaruf",
+    "username": "marufhasaneshan",
     "email": "f.maruf.hasan77@gmail.com"
   },
   "records": {
-    "A": ["75.2.60.5"]
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }
