@@ -1,0 +1,13 @@
+{
+  "name": "prostudio",
+  "description": "ProStudio — студия цифровых услуг: сайты, Telegram-боты, дизайн",
+  "owners": [
+    {
+      "email": "maxivanov05052015@gmail.com",
+      "github": "maxivanov05052015-pixel"
+    }
+  ],
+  "records": {
+    "CNAME": "prostudio-cdh.pages.dev"
+  }
+}
