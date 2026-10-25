@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oddbox — Floating Chaos</title>
+<style>
+:root {
+  --bg:#101016;
+  --panel:#211f30;
+  --panel2:#302b43;
+  --text:#f7f4ff;
+  --muted:#aaa7c3;
+  --pink:#ff65b8;
+  --blue:#71dcff;
+  --yellow:#ffe66d;
+  --green:#8bffb0;
+  --border:rgba(255,255,255,.14);
+}
+*{box-sizing:border-box}
+html{min-height:100%;scroll-behavior:smooth}
+body{
+  margin:0;min-height:100vh;overflow-x:hidden;
+  background:var(--bg);color:var(--text);
+  font-family:system-ui,-apple-system,Segoe UI,sans-serif
+}
+button,input{font:inherit}
+button{
+  color:var(--text);background:var(--panel2);
+  border:1px solid var(--border);border-radius:11px;
+  padding:9px 12px;cursor:pointer;position:relative
+}
+button:hover{background:#493654;border-color:var(--pink)}
+button:disabled{opacity:.5;cursor:default}
+input{
+  color:var(--text);background:#171622;
+  border:1px solid var(--border);border-radius:10px;padding:10px
+}
+
+/* Bubbles stay BEHIND the website and never intercept clicks. */
+#bubbleLayer{
+  position:fixed;inset:0;overflow:hidden;
+  pointer-events:none;z-index:0
+}
+.bubble{
+  position:absolute;bottom:-100px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.28);
+  background:radial-gradient(circle at 30% 25%,
+    rgba(255,255,255,.24),rgba(113,220,255,.07) 45%,
+    rgba(255,101,184,.035) 75%);
+  box-shadow:inset -5px -7px 18px rgba(113,220,255,.06),
+    0 0 18px rgba(113,220,255,.04);
+  animation:bubbleFloat linear infinite;
+  will-change:transform
+}
+@keyframes bubbleFloat{
+  0%{transform:translate3d(0,0,0) rotate(0deg);opacity:0}
+  10%{opacity:.65}
+  85%{opacity:.45}
+  100%{transform:translate3d(var(--drift),-120vh,0) rotate(180deg);opacity:0}
+}
+
+/* The page content sits above the bubbles. */
+.page{
+  position:relative;z-index:1;
+  max-width:1150px;margin:auto;
+  padding:18px 15px 175px
+}
+header{
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:12px;margin-bottom:20px
+}
+.brand{font-size:clamp(30px,5vw,43px);font-weight:1000;letter-spacing:-2px}
+.brand span{color:var(--pink)}
+.subtitle,.small{font-size:12px;color:var(--muted)}
+.header-actions,.row,.stats,.mode-buttons{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap
+}
+.hero{
+  padding:23px;border:1px solid var(--border);border-radius:22px;
+  background:linear-gradient(120deg,#ff65b81d,#71dcff12);
+  margin-bottom:15px
+}
+.hero h1{font-size:clamp(25px,4vw,38px);margin:0 0 8px}
+.hero p,.panel p{color:var(--muted);line-height:1.5}
+.stats{margin-top:15px}
+.stat{background:#0003;padding:8px 11px;border-radius:9px;font-size:12px}
+.layout{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.panel{
+  min-width:0;padding:17px;border-radius:18px;
+  background:rgba(33,31,48,.88);
+  border:1px solid var(--border);
+  backdrop-filter:blur(7px)
+}
+.panel h2{font-size:19px;margin:0 0 7px}
+.panel p{font-size:13px}
+.wide{grid-column:1/-1}
+.primary{background:#793c70;border-color:#b45a9d}
+.blue{background:#21485c}
+.pink{background:#542747}
+.display{
+  padding:14px;background:#0003;border:1px solid var(--border);
+  border-radius:13px;margin:12px 0;overflow-wrap:anywhere
+}
+.question{font-size:17px;font-weight:750}
+.feedback{color:var(--yellow);font-size:13px;min-height:22px}
+.choice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.choice-grid button{min-height:44px}
+.progress{height:5px;background:#343143;border-radius:9px;overflow:hidden;margin-top:10px}
+.progress div{height:100%;width:0;background:var(--pink);transition:width .2s}
+.achievement-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px}
+.achievement{padding:10px;border-radius:12px;border:1px solid var(--border);background:#0002;opacity:.45}
+.achievement.unlocked{opacity:1;border-color:#9c80ff;background:#8c69ff1f}
+.achievement .emoji{font-size:22px}
+.achievement strong{display:block;font-size:12px;margin:4px 0}
+.achievement small{font-size:11px;color:var(--muted)}
+#toast{
+  position:fixed;z-index:30;top:12px;left:50%;
+  transform:translate(-50%,-160%);padding:11px 16px;
+  background:#29253d;border:1px solid #a98aff;border-radius:13px;
+  box-shadow:0 8px 30px #0007;transition:transform .2s;
+  max-width:90vw;text-align:center;pointer-events:none
+}
+#toast.show{transform:translate(-50%,0)}
+
+/*
+  Foreground physics canvas:
+  z-index 5 puts the objects in front of cards and text.
+  pointer-events:none means the canvas itself never blocks controls.
+*/
+#world{
+  position:fixed;inset:0;width:100%;height:100%;
+  z-index:5;pointer-events:none;touch-action:pan-y
+}
+
+/* Interactive dragging is handled on a separate transparent layer. */
+#dragLayer{
+  position:fixed;inset:0;z-index:6;
+  pointer-events:none;touch-action:none
+}
+#dragLayer.active{pointer-events:auto;cursor:grab}
+#dragLayer.active:active{cursor:grabbing}
+
+.dock{
+  position:fixed;z-index:20;left:50%;bottom:9px;
+  transform:translateX(-50%);width:min(950px,calc(100% - 14px));
+  padding:9px;background:rgba(23,22,34,.96);
+  backdrop-filter:blur(14px);border:1px solid var(--border);
+  border-radius:17px;box-shadow:0 8px 35px #0008
+}
+.dock-title{
+  display:flex;justify-content:space-between;gap:8px;
+  padding:0 4px 7px;color:var(--muted);
+  font-size:11px;text-transform:uppercase
+}
+.dock-items{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+.dock-items button{flex:0 0 auto;white-space:nowrap;padding:8px 10px;font-size:12px}
+.dock-settings{
+  display:flex;align-items:center;flex-wrap:wrap;gap:10px;
+  border-top:1px solid var(--border);margin-top:5px;
+  padding:8px 3px 0;font-size:11px;color:var(--muted)
+}
+.dock-settings label{display:flex;align-items:center;gap:4px}
+.dock-settings input[type=range]{width:75px;padding:0;accent-color:var(--pink)}
+.dock-settings input[type=checkbox]{width:auto}
+body.party{animation:party .7s infinite alternate}
+@keyframes party{from{background-color:#19101e}to{background-color:#102027}}
+@media(max-width:650px){
+  .layout{grid-template-columns:1fr}
+  .wide{grid-column:auto}
+  .page{padding:12px 9px 190px}
+  .panel{padding:14px}
+  .hero{padding:18px}
+  .dock-settings{gap:7px}
+  .dock-settings input[type=range]{width:57px}
+}
+@media(prefers-reduced-motion:reduce){
+  .bubble{animation-duration:40s!important}
+  button{transition:none}
+}
+</style>
+</head>
+<body>
+
+<div id="bubbleLayer" aria-hidden="true"></div>
+<canvas id="world" aria-hidden="true"></canvas>
+<div id="dragLayer" aria-hidden="true"></div>
+<div id="toast" role="status"></div>
+
+<div class="page">
+<header>
+  <div>
+    <div class="brand">odd<span>box</span> ✳</div>
+    <div class="subtitle">Your brain's loading screen.</div>
+  </div>
+  <div class="header-actions">
+    <button id="randomAll" class="primary">🎲 Random chaos</button>
+    <button id="partyButton">🪩 Party mode</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Welcome to the nonsense zone.</h1>
+  <p>Objects in the foreground. Bubbles in the background. Logic optional.</p>
+  <div class="stats">
+    <div class="stat">🧱 Objects: <strong id="objectCount">0</strong>/35</div>
+    <div class="stat">🏆 Achievements: <strong id="achievementCount">0</strong>/<span id="achievementTotal">0</span></div>
+    <div class="stat">🎮 Rounds: <strong id="gamesPlayed">0</strong></div>
+    <div class="stat">🌀 Chaos: <strong id="chaosScore">0</strong></div>
+  </div>
+</section>
+
+<main class="layout">
+<section class="panel wide">
+<h2>🪐 Whole-page physics playground</h2>
+<p>Objects float over the page. Use the controls to create chaos.</p>
+<div class="row">
+<button id="spawn" class="primary">➕ Spawn</button>
+<button id="bomb" class="pink">💥 Boom</button>
+<button id="rain">🌧️ Small rain</button>
+<button id="tower">🗼 Tower</button>
+<button id="quake">🌋 Quake</button>
+<button id="clear">🧹 Clear</button>
+</div>
+<div class="row" style="margin-top:8px">
+<button id="flipGravity">🙃 Flip gravity</button>
+<button id="zeroGravity" class="blue">🛰️ Zero-G</button>
+<button id="tornado">🌪️ Tornado</button>
+<button id="magnet">🧲 Magnet</button>
+<button id="blackhole">🕳️ Black hole</button>
+<button id="resetWorld">↺ Reset</button>
+</div>
+<p class="small">Bubbles drift behind the page. Physics objects float in front.</p>
+</section>
+
+<section class="panel">
+<h2>🦆 The Duck Court</h2>
+<p>One duck. Suspicious evidence. You are the judge.</p>
+<div class="display">
+<div class="small" id="duckCase"></div>
+<div class="question" id="duckStory"></div>
+</div>
+<div class="choice-grid">
+<button data-verdict="guilty">🔨 Guilty</button>
+<button data-verdict="innocent">🕊️ Innocent</button>
+<button data-verdict="fish">🐟 Blame the fish</button>
+</div>
+<div class="display feedback" id="duckResult">Court is in session.</div>
+<div class="progress"><div id="duckProgress"></div></div>
+</section>
+
+<section class="panel">
+<h2>🧠 Riddle machine</h2>
+<p>Answer to earn brain points. Skip to move on.</p>
+<div class="display">
+<div class="small" id="riddleNumber"></div>
+<div class="question" id="riddleText"></div>
+</div>
+<form id="riddleForm" class="row">
+<input id="riddleInput" placeholder="Your answer..." autocomplete="off" aria-label="Your answer">
+<button type="submit" class="primary">Submit</button>
+</form>
+<div class="row" style="margin-top:8px"><button id="skipRiddle">⏭️ Skip</button></div>
+<div class="feedback" id="riddleResult"></div>
+<div class="progress"><div id="riddleProgress"></div></div>
+</section>
+
+<section class="panel">
+<h2>🤔 Absurd decisions</h2>
+<p>Both options are extremely questionable.</p>
+<div class="display">
+<div class="small" id="decisionNumber"></div>
+<div class="question" id="wouldYou"></div>
+</div>
+<div class="choice-grid" id="wouldChoices"></div>
+<div class="display feedback" id="wouldResult">Choose your destiny.</div>
+<div class="progress"><div id="decisionProgress"></div></div>
+</section>
+
+<section class="panel">
+<h2>📝 Excuse generator</h2>
+<p>A deeply unserious explanation for absolutely anything.</p>
+<div class="display question" id="excuseText"></div>
+<div class="row">
+<button id="newExcuse" class="primary">🎲 New excuse</button>
+<button id="copyExcuse">📋 Copy</button>
+</div>
+<div class="small" id="excuseStatus"></div>
+</section>
+
+<section class="panel">
+<h2>🌀 Reality settings</h2>
+<p>Make the laws of physics slightly less reliable.</p>
+<div class="mode-buttons">
+<button id="slowMode">🐌 Slow motion</button>
+<button id="fastMode">⚡ Speed</button>
+<button id="moonMode">🌙 Moon gravity</button>
+<button id="partyMode2">🌈 Party colors</button>
+<button id="normalMode">↩ Normal</button>
+</div>
+<div class="display">
+<div class="small">Current reality</div>
+<strong id="realityStatus">Mostly normal. Unfortunately.</strong>
+</div>
+</section>
+
+<section class="panel wide">
+<h2>🏆 Achievement wall</h2>
+<p>Unlock these by exploring the site.</p>
+<div class="achievement-grid" id="achievementGrid"></div>
+</section>
+</main>
+</div>
+
+<nav class="dock" aria-label="Summon dock">
+<div class="dock-title"><span>✳ Summon dock</span><span>Tap to cause problems</span></div>
+<div class="dock-items">
+<button data-spawn="box">🧱 Box</button>
+<button data-spawn="duck">🦆 Duck</button>
+<button data-spawn="ball">⚽ Ball</button>
+<button data-spawn="star">⭐ Star</button>
+<button data-spawn="random">🎲 Random</button>
+<button id="dockBoom">💥 Boom</button>
+<button id="dockRain">🌧️ Rain</button>
+<button id="dockClear">🧹 Clear</button>
+</div>
+<div class="dock-settings">
+<label>Size <input id="sizeSetting" type="range" min="12" max="45" value="25"></label>
+<label>Gravity <input id="gravitySetting" type="range" min="-10" max="20" value="7"></label>
+<label><input id="zeroSetting" type="checkbox"> Zero-G</label>
+</div>
+</nav>
+
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+const rand=(a,b)=>Math.random()*(b-a)+a;
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+
+let chaos=0,gamesPlayed=0,gravity=7,timeScale=1,zeroG=false,flipG=false;
+let sizeSetting=25,nextId=1,magnetOn=false,blackholeOn=false,tornadoOn=false;
+let duckRounds=0,riddleRounds=0,decisionRounds=0,excuseCount=0;
+let duckTimer,riddleTimer,decisionTimer;
+const unlocked=new Set();
+
+function toast(message){
+ const el=$("toast");el.textContent=message;el.classList.add("show");
+ clearTimeout(toast.timer);
+ toast.timer=setTimeout(()=>el.classList.remove("show"),2000);
+}
+function addChaos(n=1){
+ chaos+=n;$("chaosScore").textContent=chaos;
+ if(chaos>=10)unlock("chaos10");
+ if(chaos>=50)unlock("chaos50");
+ if(chaos>=100)unlock("chaos100");
+}
+function gamePlayed(){
+ gamesPlayed++;$("gamesPlayed").textContent=gamesPlayed;
+ if(gamesPlayed>=10)unlock("gamer10");
+ if(gamesPlayed>=50)unlock("gamer50");
+}
+
+const achievements=[
+["first","✨","First Contact","Summon an object."],
+["five","🧱","Construction Crew","Have 5 objects."],
+["twenty","🏙️","Tiny City","Have 20 objects."],
+["thirtyfive","🌆","Object Overload","Reach 35 objects."],
+["rain","🌧️","Weather Warning","Make it rain."],
+["boom","💥","Big Boop","Trigger a boom."],
+["tower","🗼","Architect of Chaos","Build a tower."],
+["quake","🌋","Ground Disagreement","Trigger a quake."],
+["duck","🦆","Duck Detective","Judge a duck."],
+["ducks10","⚖️","Duck Attorney","Judge 10 ducks."],
+["ducks25","🎩","Duck Supreme Court","Judge 25 ducks."],
+["riddle","🧠","Brain Online","Solve a riddle."],
+["riddle5","📚","Riddle Regular","Solve 5 riddles."],
+["riddle20","🧩","Enigma Machine","Solve 20 riddles."],
+["decision","🤔","Decisive-ish","Make a decision."],
+["decision10","🗳️","Professional Chooser","Make 10 decisions."],
+["excuse","📝","Master of Excuses","Generate an excuse."],
+["excuse10","🎭","Excuse Factory","Generate 10 excuses."],
+["chaos10","🌀","Minor Menace","Reach 10 chaos."],
+["chaos50","🌪️","Chaos Coordinator","Reach 50 chaos."],
+["chaos100","👑","Agent of Nonsense","Reach 100 chaos."],
+["gamer10","🎮","Button Enthusiast","Play 10 rounds."],
+["gamer50","🕹️","Can't Stop","Play 50 rounds."],
+["zero","🛰️","Space Cadet","Activate zero gravity."],
+["flip","🙃","Up Is Down","Flip gravity."],
+["magnet","🧲","Attraction Issues","Activate magnet."],
+["blackhole","🕳️","Event Horizon","Activate black hole."],
+["tornado","🌪️","Wind Department","Activate tornado."],
+["party","🪩","Dance Floor Physics","Activate party mode."],
+["clear","🧹","Clean Slate","Clear objects."],
+["grab","🖐️","Hands On","Drag an object."]
+];
+$("achievementTotal").textContent=achievements.length;
+$("achievementGrid").innerHTML=achievements.map(a=>
+`<div class="achievement" id="ach-${a[0]}"><div class="emoji">${a[1]}</div><strong>${a[2]}</strong><small>${a[3]}</small></div>`
+).join("");
+
+function unlock(id){
+ if(unlocked.has(id))return;
+ unlocked.add(id);
+ const el=$("ach-"+id);
+ if(el){
+  el.classList.add("unlocked");
+  $("achievementCount").textContent=unlocked.size;
+  const a=achievements.find(x=>x[0]===id);
+  if(a)toast("🏆 "+a[2]);
+ }
+}
+function checkObjects(){
+ const n=bodies.length;
+ if(n>=5)unlock("five");
+ if(n>=20)unlock("twenty");
+ if(n>=35)unlock("thirtyfive");
+ $("objectCount").textContent=n;
+}
+
+/* Background bubbles: create a modest number once, then let CSS animate them. */
+const bubbleLayer=$("bubbleLayer");
+for(let i=0;i<17;i++){
+ const bubble=document.createElement("div");
+ bubble.className="bubble";
+ const size=rand(18,100);
+ bubble.style.width=size+"px";
+ bubble.style.height=size+"px";
+ bubble.style.left=rand(0,100)+"%";
+ bubble.style.animationDuration=rand(16,38)+"s";
+ bubble.style.animationDelay=rand(-38,0)+"s";
+ bubble.style.setProperty("--drift",rand(-100,100)+"px");
+ bubbleLayer.appendChild(bubble);
+}
+
+/* Foreground object physics. */
+const canvas=$("world"),ctx=canvas.getContext("2d",{alpha:true});
+let W=innerWidth,H=innerHeight,dpr=1,bodies=[],particles=[];
+let dragging=null,dragDX=0,dragDY=0,lastPX=0,lastPY=0;
+let lastFrame=0,lastCountUpdate=0;
+const colors=["#ff65b8","#71dcff","#ffe66d","#8bffb0","#b7a0ff","#ff9a72","#fff"];
+
+function resize(){
+ dpr=Math.min(devicePixelRatio||1,1.5);
+ W=innerWidth;H=innerHeight;
+ canvas.width=Math.round(W*dpr);
+ canvas.height=Math.round(H*dpr);
+ canvas.style.width=W+"px";
+ canvas.style.height=H+"px";
+ ctx.setTransform(dpr,0,0,dpr,0,0);
+}
+addEventListener("resize",resize);resize();
+
+function spawn(type="random",x=rand(30,W-30),y=rand(60,Math.max(90,H-150))){
+ if(bodies.length>=35){
+  toast("Object limit reached! Clear some objects to summon more.");
+  return;
+ }
+ if(type==="random")type=pick(["box","duck","ball","star","ghost","pizza","frog"]);
+ const emojis={box:"🧱",duck:"🦆",ball:"⚽",star:"⭐",ghost:"👻",pizza:"🍕",frog:"🐸"};
+ const r=sizeSetting*rand(.7,1.1);
+ bodies.push({
+  id:nextId++,type,emoji:emojis[type]||"⭐",
+  x:clamp(x,r,W-r),y:clamp(y,r,H-r),
+  vx:rand(-2,2),vy:rand(-1,2),r,
+  rot:rand(-.3,.3),vr:rand(-.04,.04),color:pick(colors)
+ });
+ addChaos();unlock("first");checkObjects();
+}
+function spawnRain(n=7){
+ n=Math.min(n,35-bodies.length);
+ for(let i=0;i<n;i++)spawn("random",rand(20,W-20),rand(20,H*.5));
+ unlock("rain");addChaos(2);
+}
+function boom(x=W/2,y=H/2){
+ for(const b of bodies){
+  const dx=b.x-x,dy=b.y-y,d=Math.hypot(dx,dy)||1;
+  const power=Math.min(12,8+300/d);
+  b.vx+=dx/d*power;b.vy+=dy/d*power;
+  b.vr+=rand(-.1,.1);
+ }
+ for(let i=0;i<10;i++){
+  particles.push({x,y,vx:rand(-6,6),vy:rand(-6,6),life:20,color:pick(colors),r:rand(2,5)});
+ }
+ unlock("boom");addChaos(3);toast("BOOM. Everything is fine.");
+}
+function quake(){
+ for(const b of bodies){b.vx+=rand(-7,7);b.vy+=rand(-5,5);}
+ unlock("quake");addChaos(2);toast("The ground has opinions.");
+}
+function clearWorld(){
+ bodies.length=0;particles.length=0;checkObjects();unlock("clear");toast("Fresh universe.");
+}
+function resetWorld(){
+ gravity=7;flipG=false;zeroG=false;magnetOn=false;
+ blackholeOn=false;tornadoOn=false;timeScale=1;
+ $("gravitySetting").value=7;$("zeroSetting").checked=false;
+ $("realityStatus").textContent="Mostly normal. Unfortunately.";
+ toast("Physics reset.");
+}
+function drawBody(b){
+ ctx.save();ctx.translate(b.x,b.y);ctx.rotate(b.rot);
+ if(b.type==="box"){
+  ctx.fillStyle=b.color;ctx.globalAlpha=.25;
+  ctx.beginPath();ctx.roundRect(-b.r,-b.r,b.r*2,b.r*2,6);ctx.fill();
+  ctx.globalAlpha=1;ctx.strokeStyle=b.color;ctx.lineWidth=1.5;ctx.stroke();
+ }else{
+  ctx.fillStyle=b.color;ctx.globalAlpha=.12;
+  ctx.beginPath();ctx.arc(0,0,b.r+3,0,Math.PI*2);ctx.fill();
+  ctx.globalAlpha=1;
+ }
+ ctx.font=`${Math.round(b.r*1.55)}px system-ui`;
+ ctx.textAlign="center";ctx.textBaseline="middle";
+ ctx.fillText(b.emoji,0,1);ctx.restore();
+}
+function frame(now){
+ if(!lastFrame)lastFrame=now;
+ const dt=Math.min((now-lastFrame)/16.67,1.5);
+ lastFrame=now;
+ ctx.clearRect(0,0,W,H);
+ const g=(zeroG||$("zeroSetting").checked)?0:gravity*(flipG?-1:1);
+ const cx=W/2,cy=H/2;
+
+ for(let i=bodies.length-1;i>=0;i--){
+  const b=bodies[i];
+  if(dragging===b){
+   b.x=clamp(pointer.x-dragDX,b.r,W-b.r);
+   b.y=clamp(pointer.y-dragDY,b.r,H-b.r);
+   drawBody(b);continue;
+  }
+  if(magnetOn||blackholeOn){
+   const dx=cx-b.x,dy=cy-b.y,d=Math.hypot(dx,dy)||1;
+   const force=blackholeOn?.24:.09;
+   b.vx+=dx/d*force;b.vy+=dy/d*force;
+   if(blackholeOn&&d<18){bodies.splice(i,1);continue;}
+  }
+  if(tornadoOn){
+   const dx=b.x-cx,dy=b.y-cy;
+   b.vx+=-dy*.0005;b.vy+=dx*.0005;
+{
+  "owner": {
+    "username": "Devanino13"
+  },
+  "records": {
+    "CNAME": "Devanino13.github.io"
+  }
+  b.vy+=g*.012*dt;
+  b.vx*=Math.pow(.998,dt);b.vy*=Math.pow(.999,dt);
+  b.x+=b.vx*dt*timeScale;b.y+=b.vy*dt*timeScale;
+  b.rot+=b.vr*dt*timeScale;
+  if(b.x<b.r){b.x=b.r;b.vx=Math.abs(b.vx)*.8;}
+  if(b.x>W-b.r){b.x=W-b.r;b.vx=-Math.abs(b.vx)*.8;}
+  if(b.y<b.r){b.y=b.r;b.vy=Math.abs(b.vy)*.8;}
+  if(b.y>H-b.r){b.y=H-b.r;b.vy=-Math.abs(b.vy)*.7;}
+  drawBody(b);
+ }
+ for(let i=particles.length-1;i>=0;i--){
+  const p=particles[i];
+  p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=.1*dt;p.life-=dt;
+  ctx.globalAlpha=Math.max(0,p.life/20);
+  ctx.fillStyle=p.color;ctx.beginPath();
+  ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill();ctx.globalAlpha=1;
+  if(p.life<=0)particles.splice(i,1);
+ }
+ if(now-lastCountUpdate>250){checkObjects();lastCountUpdate=now;}
+ requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+
+/*
+  Foreground objects are drawn above the page. The canvas ignores pointer
+  events, so a separate hit test on pointerdown enables dragging without
+  making the whole screen unclickable.
+*/
+let pointer={x:-9999,y:-9999};
+function pointerPosition(e){return{x:e.clientX,y:e.clientY};}
+document.addEventListener("pointerdown",e=>{
+ const target=e.target;
+ if(target.closest("button,input,textarea,form,a,label,.dock"))return;
+ const p=pointerPosition(e);pointer=p;
+ for(let i=bodies.length-1;i>=0;i--){
+  const b=bodies[i];
+  if(Math.hypot(b.x-p.x,b.y-p.y)<b.r+5){
+   dragging=b;dragDX=p.x-b.x;dragDY=p.y-b.y;
+   lastPX=p.x;lastPY=p.y;
+   $("dragLayer").classList.add("active");
+   $("dragLayer").setPointerCapture?.(e.pointerId);
+   e.preventDefault();return;
+  }
+ }
+},{passive:false});
+document.addEventListener("pointermove",e=>{
+ pointer=pointerPosition(e);
+ if(dragging){
+  dragging.vx=(pointer.x-lastPX)*.5;
+  dragging.vy=(pointer.y-lastPY)*.5;
+  lastPX=pointer.x;lastPY=pointer.y;
+ }
+});
+function release(){
+ if(dragging)unlock("grab");
+ dragging=null;$("dragLayer").classList.remove("active");
+}
+document.addEventListener("pointerup",release);
+document.addEventListener("pointercancel",release);
+
+$("spawn").onclick=()=>spawn();
+$("bomb").onclick=()=>boom();
+$("clear").onclick=clearWorld;
+$("quake").onclick=quake;
+$("rain").onclick=()=>spawnRain(7);
+$("tower").onclick=()=>{
+ for(let i=0;i<Math.min(7,35-bodies.length);i++)
+  spawn("box",W/2+rand(-12,12),H-150-i*sizeSetting*1.3);
+ unlock("tower");toast("Architecture by questionable engineers.");
+};
+$("flipGravity").onclick=()=>{
+ flipG=!flipG;zeroG=false;$("zeroSetting").checked=false;
+ unlock("flip");toast("Gravity flipped.");
+};
+$("zeroGravity").onclick=()=>{
+ $("zeroSetting").checked=!$("zeroSetting").checked;
+ zeroG=$("zeroSetting").checked;
+ if(zeroG)unlock("zero");
+ toast(zeroG?"Welcome to space.":"Gravity returns.");
+};
+$("zeroSetting").onchange=e=>{
+ zeroG=e.target.checked;if(zeroG)unlock("zero");
+};
+$("gravitySetting").oninput=e=>{
+ gravity=Number(e.target.value);zeroG=false;$("zeroSetting").checked=false;
+};
+$("sizeSetting").oninput=e=>sizeSetting=Number(e.target.value);
+$("magnet").onclick=()=>{
+ magnetOn=!magnetOn;if(magnetOn)unlock("magnet");
+ toast(magnetOn?"Magnet on.":"Magnet off.");
+};
+$("blackhole").onclick=()=>{
+ blackholeOn=!blackholeOn;if(blackholeOn)unlock("blackhole");
+ toast(blackholeOn?"Black hole on.":"Black hole off.");
+};
+$("tornado").onclick=()=>{
+ tornadoOn=!tornadoOn;if(tornadoOn)unlock("tornado");
+ toast(tornadoOn?"Tornado on.":"Tornado off.");
+};
+$("resetWorld").onclick=resetWorld;
+document.querySelectorAll("[data-spawn]").forEach(b=>b.onclick=()=>spawn(b.dataset.spawn));
+$("dockBoom").onclick=()=>boom();
+$("dockRain").onclick=()=>spawnRain(7);
+$("dockClear").onclick=clearWorld;
+$("randomAll").onclick=()=>{
+ pick([
+  ()=>spawnRain(5),()=>boom(),()=>quake(),
+  ()=>{zeroG=true;$("zeroSetting").checked=true;unlock("zero");},
+  ()=>{magnetOn=!magnetOn;},()=>{tornadoOn=!tornadoOn;},
+  ()=>{for(let i=0;i<3;i++)spawn();}
+ ])();addChaos(3);
+};
+
+function toggleParty(){
+ document.body.classList.toggle("party");
+ if(document.body.classList.contains("party"))unlock("party");
+}
+$("partyButton").onclick=toggleParty;
+$("partyMode2").onclick=toggleParty;
+
+/* Duck court */
+const duckCases=[
+["A duck is accused of stealing 47 tiny hats.","guilty"],
+["A duck quacked during a meeting about ducks.","innocent"],
+["A duck allegedly replaced the town fountain with soup.","fish"],
+["A duck wore a fake moustache and claimed to be mayor.","guilty"],
+["A duck is accused of looking suspiciously duck-shaped.","innocent"],
+["A fish says the duck stole its bicycle. Neither owns a bicycle.","fish"],
+["A duck put on a musical. A goat gave it a standing ovation.","innocent"],
+["A duck ate the evidence. The evidence was a sandwich.","guilty"],
+["A duck pretended to be a traffic cone.","innocent"],
+["A fish says the duck spread rumours about fish.","fish"],
+["A duck tried to pay for groceries with buttons.","innocent"],
+["A duck declared itself an expert in submarine design.","innocent"]
+];
+let currentDuck=0,duckDone=false;
+function loadDuck(){
+ currentDuck=Math.floor(Math.random()*duckCases.length);duckDone=false;
+ $("duckCase").textContent="CASE "+String(duckRounds+1).padStart(3,"0");
+ $("duckStory").textContent=duckCases[currentDuck][0];
+ $("duckResult").textContent="Awaiting your extremely official verdict.";
+ $("duckProgress").style.width=(duckRounds%10)*10+"%";
+ document.querySelectorAll("[data-verdict]").forEach(b=>b.disabled=false);
+}
+function verdict(v){
+ if(duckDone)return;duckDone=true;
+ const correct=duckCases[currentDuck][1];
+ const lines={
+  guilty:["The duck has been sentenced to pond service.","Order! Order! Quack!"],
+  innocent:["The duck walks free. Suspiciously.","Justice has waddled into the room."],
+  fish:["The fish has been detained. It looks confused.","The fish is filing an appeal."]
+ };
+ $("duckResult").textContent=pick(lines[v])+
+  (v===correct?" The official answer agrees!":" The court stands by its chaos.");
+ document.querySelectorAll("[data-verdict]").forEach(b=>b.disabled=true);
+ duckRounds++;gamePlayed();addChaos(2);unlock("duck");
+ if(duckRounds>=10)unlock("ducks10");
+ if(duckRounds>=25)unlock("ducks25");
+ $("duckProgress").style.width=(duckRounds%10)*10+"%";
+ clearTimeout(duckTimer);duckTimer=setTimeout(loadDuck,1300);
+}
+document.querySelectorAll("[data-verdict]").forEach(b=>b.onclick=()=>verdict(b.dataset.verdict));
+loadDuck();
+
+/* Riddles */
+const riddles=[
+["What has keys but can't open locks?","piano"],
+["What gets wetter as it dries?","towel"],
+["What has a face and two hands but no arms?","clock"],
+["What has one eye but cannot see?","needle"],
+["What has many teeth but cannot bite?","comb"],
+["What goes up but never comes down?","age"],
+["What has a neck but no head?","bottle"],
+["What travels the world while staying in one corner?","stamp"],
+["What has words but never speaks?","book"],
+["What has cities but no houses?","map"],
+["What can you catch but not throw?","cold"],
+["What has four legs but cannot walk?","table"],
+["What belongs to you but other people use it more?","name"],
+["What breaks when you say its name?","silence"],
+["What has a head and a tail but no body?","coin"],
+["What kind of room has no doors?","mushroom"],
+["What fills a room but takes no space?","light"],
+["What has rings but no fingers?","telephone"],
+["What has branches but no leaves?","bank"],
+["What has a bottom at the top?","leg"]
+];
+let currentRiddle=0,riddleDone=false;
+function loadRiddle(){
+ currentRiddle=Math.floor(Math.random()*riddles.length);riddleDone=false;
+ $("riddleNumber").textContent="RIDDLE "+String(riddleRounds+1).padStart(3,"0");
+ $("riddleText").textContent=riddles[currentRiddle][0];
+ $("riddleInput").value="";$("riddleResult").textContent="";
+ $("riddleInput").disabled=false;
+ $("riddleForm").querySelector("button").disabled=false;
+ $("skipRiddle").disabled=false;
+ $("riddleProgress").style.width=(riddleRounds%10)*10+"%";
+}
+function finishRiddle(message,correct){
+ if(riddleDone)return;riddleDone=true;$("riddleResult").textContent=message;
+ $("riddleInput").disabled=true;
+ $("riddleForm").querySelector("button").disabled=true;
+ $("skipRiddle").disabled=true;
+ if(correct){
+  unlock("riddle");addChaos(3);
+  if(riddleRounds>=4)unlock("riddle5");
+  if(riddleRounds>=19)unlock("riddle20");
+ }
+ riddleRounds++;gamePlayed();
+ $("riddleProgress").style.width=(riddleRounds%10)*10+"%";
+ clearTimeout(riddleTimer);riddleTimer=setTimeout(loadRiddle,1300);
+}
+$("riddleForm").onsubmit=e=>{
+ e.preventDefault();
+ const a=$("riddleInput").value.trim().toLowerCase().replace(/[.!?]/g,"");
+ if(!a){$("riddleResult").textContent="Type an answer first!";return;}
+ const correct=a===riddles[currentRiddle][1];
+ finishRiddle(correct?"Correct! Brain cell promoted. 🧠":
+ "Not quite! Answer: "+riddles[currentRiddle][1]+". Next one loading…",correct);
+};
+$("skipRiddle").onclick=()=>finishRiddle(
+ "Skipped! Answer: "+riddles[currentRiddle][1]+". Next one loading…",false
+);
+loadRiddle();
+
+/* Absurd decisions */
+const decisions=[
+["Would you rather have a tiny marching band follow you or a giant duck stare at you?","Tiny marching band","Giant duck"],
+["Would you rather sneeze glitter or hiccup like a frog?","Glitter sneeze","Frog hiccups"],
+["Would you rather fight one horse-sized hamster or fifty hamster-sized horses?","Giant hamster","Tiny horses"],
+["Would you rather have spaghetti hair or waffle hands?","Spaghetti hair","Waffle hands"],
+["Would you rather speak like a pirate or sing every sentence?","Pirate mode","Musical mode"],
+["Would you rather have a pet mouse-sized dragon or a dragon-sized mouse?","Tiny dragon","Huge mouse"],
+["Would you rather walk backwards or speak only in questions?","Backwards","Questions"],
+["Would you rather have squeaky shoes or a chair that applauds?","Squeaky shoes","Applause chair"],
+["Would you rather talk to pigeons or understand printer errors?","Pigeon translator","Printer whisperer"],
+["Would you rather have a personal fog machine or entrance theme music?","Fog machine","Theme music"],
+["Would you rather every door narrate your arrival or mirrors roast you?","Narrator doors","Roast mirrors"],
+["Would you rather have crayon fingers or glowing elbows?","Crayon fingers","Glow elbows"],
+["Would you rather be chased by a polite goose or judged by a squirrel?","Polite goose","Judgy squirrel"],
+["Would you rather only eat triangle-shaped food or drink from tiny cups?","Triangle food","Tiny cups"]
+];
+let currentDecision=0,decisionDone=false;
+function loadDecision(){
+ currentDecision=Math.floor(Math.random()*decisions.length);decisionDone=false;
+ $("decisionNumber").textContent="DECISION "+String(decisionRounds+1).padStart(3,"0");
+ $("wouldYou").textContent=decisions[currentDecision][0];
+ $("wouldResult").textContent="Choose your destiny.";
+ $("wouldChoices").innerHTML="";
+ decisions[currentDecision].slice(1).forEach(choice=>{
+  const b=document.createElement("button");
+  b.textContent=choice;b.onclick=()=>chooseDecision(choice);
+  $("wouldChoices").appendChild(b);
+ });
+ $("decisionProgress").style.width=(decisionRounds%10)*10+"%";
+}
+function chooseDecision(choice){
+ if(decisionDone)return;decisionDone=true;
+ $("wouldChoices").querySelectorAll("button").forEach(b=>b.disabled=true);
+ $("wouldResult").textContent="You chose: "+choice+". "+pick([
+  "Scientists are confused.","Your future self has questions.",
+  "The pigeon council approves.","An imaginary committee is taking notes.",
+  "There are no wrong answers, only weird consequences."
+ ]);
+ decisionRounds++;gamePlayed();addChaos(2);unlock("decision");
+ if(decisionRounds>=10)unlock("decision10");
+ $("decisionProgress").style.width=(decisionRounds%10)*10+"%";
+ clearTimeout(decisionTimer);decisionTimer=setTimeout(loadDecision,1300);
+}
+loadDecision();
+
+/* Excuse generator */
+const excuseA=[
+"I was delayed because","The situation got complicated when",
+"I had to investigate why","My schedule was interrupted after",
+"A highly unusual event occurred when"
+];
+const excuseB=[
+"a pigeon started acting like my manager",
+"my left sock requested legal representation",
+"a suspiciously confident potato appeared",
+"the Wi-Fi developed stage fright",
+"a duck challenged me to a staring contest",
+"my shadow took an unscheduled break",
+"a tiny orchestra emerged from a cupboard",
+"a traffic cone demanded an explanation",
+"an invisible committee called an emergency meeting",
+"a spoon disappeared under mysterious circumstances",
+"a group of ants formed a tiny union",
+"my chair made a noise that required investigation",
+"a sandwich became emotionally significant",
+"the calendar began making vague threats"
+];
+const excuseC=[
+". The investigation is ongoing.",
+". I have been advised not to discuss it.",
+". It was a whole thing.",
+". Nobody could have predicted this.",
+". Please respect my privacy."
+];
+function newExcuse(){
+ $("excuseText").textContent=pick(excuseA)+" "+pick(excuseB)+pick(excuseC);
+ $("excuseStatus").textContent="";
+ excuseCount++;addChaos();unlock("excuse");
+ if(excuseCount>=10)unlock("excuse10");
+}
+$("newExcuse").onclick=newExcuse;
+$("copyExcuse").onclick=async()=>{
+ try{
+  await navigator.clipboard.writeText($("excuseText").textContent);
+  $("excuseStatus").textContent="Copied!";
+ }catch(e){
+  $("excuseStatus").textContent="Clipboard unavailable; select and copy the text manually.";
+ }
+};
+newExcuse();
+
+/* Reality settings */
+$("slowMode").onclick=()=>{
+ timeScale=.4;$("realityStatus").textContent="Everything is happening in slow motion.";
+};
+$("fastMode").onclick=()=>{
+ timeScale=2;$("realityStatus").textContent="The universe drank three coffees.";
+};
+$("moonMode").onclick=()=>{
+ gravity=1.2;$("gravitySetting").value=1.2;
+ zeroG=false;$("zeroSetting").checked=false;
+ $("realityStatus").textContent="Moon gravity. Boing responsibly.";
+};
+$("normalMode").onclick=()=>{
+ timeScale=1;gravity=7;flipG=false;zeroG=false;
+ $("gravitySetting").value=7;$("zeroSetting").checked=false;
+ $("realityStatus").textContent="Mostly normal. Unfortunately.";
+};
+addEventListener("keydown",e=>{
+ if(["INPUT","TEXTAREA"].includes(document.activeElement.tagName))return;
+ if(e.code==="Space"){e.preventDefault();spawn();}
+ if(e.key.toLowerCase()==="b")boom();
+ if(e.key.toLowerCase()==="r")spawnRain(5);
+ if(e.key.toLowerCase()==="c")clearWorld();
+});
+
+/* A few starter objects, rather than filling the page immediately. */
+for(let i=0;i<3;i++){
+ spawn("random",rand(60,Math.max(100,W-60)),rand(100,Math.max(140,H-180)));
+}
+</script>
+</body>
+</html>
