@@ -4,6 +4,8 @@
     "email": "kamal@alfathcorp.id"
   },
   "records": {
-    "TXT": ["vc-domain-verify=muskarab.is-a.dev,9356f62162adf583f8da"]
+    "TXT": [
+      "vc-domain-verify=muskarab.is-a.dev,9356f62162adf583f8da"
+    ]
   }
 }

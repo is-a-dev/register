@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "darkknight009-dev"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "darkknight009-dev"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
