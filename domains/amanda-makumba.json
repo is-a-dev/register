@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Amanda-Makumba",
+    "email": "amanda@example.com"
+  },
+  "domain": "is-a.dev",
+  "subdomain": "amanda-makumba",
+  "records": {
+    "CNAME": "https://spectacular-sorbet-6efc35.netlify.app/"
+  }
+}
