@@ -26,7 +26,8 @@
       }
     ],
     "TXT": [
-      "v=spf1 include:_spf.zurai02.is-a.dev -all"
+      "v=spf1 include:_spf.zurai02.is-a.dev -all",
+      "brevo-code:0bf95265fb4f32859ce9c1f95e7a8b71"
     ],
     "CAA": [
       {
