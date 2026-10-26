@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "nikunjsingh93"
-    },
-    "records": {
-        "CNAME": "nikunjsingh93.github.io"
-    }
+  "owner": {
+    "username": "nikunjsingh93",
+    "email": "nikunj.singh@gmail.com"
+  },
+  "records": {
+    "CNAME": "nikunjsingh93.github.io"
+  }
 }
