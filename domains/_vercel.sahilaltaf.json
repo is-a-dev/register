@@ -1,8 +1,8 @@
 {
-"owner": {
-"username": "sahilsx"
-},
-"records": {
-"TXT": "vc-domain-verify=sahilaltaf.is-a.dev,583053996bb5105054d0"
-}
+  "owner": {
+    "username": "sahilsx"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sahilaltaf.is-a.dev,583053996bb5105054d0"
+  }
 }
