@@ -2,13 +2,8 @@
   "owner": {
     "username": "wecher7-blip"
   },
-  "record": {
-    "type": "CNAME",
-    "content": "cdn.example.com.",
-    "proxied": false
-  },
   "records": {
-    "CNAME": "cdn.example.com."
+    "CNAME": "cdn.example.com"
   },
   "description": "MASSA self-hosted encrypted messenger server"
 }
