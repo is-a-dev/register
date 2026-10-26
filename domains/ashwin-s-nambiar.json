@@ -5,6 +5,8 @@
     "discord": "ashwin_nambiar"
   },
   "records": {
-    "CNAME": "ashwin-portfolio-alpha.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
