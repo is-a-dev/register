@@ -1,7 +1,6 @@
 {
   "owner": {
-    "username": "zurai02",
-    "email": "contact@zurai02.is-a.dev"
+    "username": "zurai02"
   },
   "records": {
     "A": [
@@ -17,29 +16,67 @@
       "2606:50c0:8003::153"
     ],
     "MX": [
-      { "target": "mx1.improvmx.com", "priority": 10 },
-      { "target": "mx2.improvmx.com", "priority": 20 }
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
     ],
     "TXT": [
-      "v=spf1 include:spf.improvmx.com -all"
+      "v=spf1 include:_spf.zurai02.is-a.dev -all",
+      "brevo-code:0bf95265fb4f32859ce9c1f95e7a8b71"
     ],
     "CAA": [
-      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-      { "flags": 0, "tag": "issue", "value": "ssl.com" },
-      { "flags": 0, "tag": "issue", "value": "zerossl.com" },
-      { "flags": 0, "tag": "issue", "value": "sectigo.com" },
-      { "flags": 0, "tag": "issue", "value": "pki.goog" },
-      { "flags": 0, "tag": "issuewild", "value": ";" },
-      { "flags": 0, "tag": "iodef", "value": "info.domainguard.workers.dev" }
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "letsencrypt.org"
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "ssl.com"
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "zerossl.com"
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "sectigo.com"
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "pki.goog"
+      },
+      {
+        "flags": 0,
+        "tag": "issuewild",
+        "value": ";"
+      },
+      {
+        "flags": 0,
+        "tag": "iodef",
+        "value": "info.domainguard.workers.dev"
+      }
     ]
   },
   "redirect_config": {
     "custom_paths": {
-      "/github": "https://github.com/zurai02",
-      "/discord": "https://discord.com/users/1460949263650652200",
-      "/devforum": "https://devforum.roblox.com/u/zurai02",
-      "/portfolio": "https://devforum.roblox.com/t/zurai02-scripting-portfolio/4679442",
-      "/roblox": "https://www.roblox.com/users/5674181802/profile"
+      "/github":        "https://github.com/zurai02",
+      "/repositories": "https://github.com/zurai02?tab=repositories",
+      "/repos":         "https://github.com/zurai02?tab=repositories",
+      "/stars":         "https://github.com/zurai02?tab=stars",
+      "/portfolio":     "https://devforum.roblox.com/t/zurai02-scripting-portfolio/4679442",
+      "/devforum":      "https://devforum.roblox.com/u/zurai02",
+      "/roblox":        "https://www.roblox.com/users/5674181802/profile",
+      "/discord":       "https://discord.com/users/1460949263650652200"
     }
   },
   "proxied": true
