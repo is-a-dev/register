@@ -3,7 +3,10 @@
     "username": "wecher7-blip"
   },
   "records": {
-    "CNAME": "6fbddc53-4c21-4f6f-ae7a-3bb5b526d36a.cfargotunnel.com"
+    "NS": [
+      "vern.ns.cloudflare.com",
+      "vida.ns.cloudflare.com"
+    ]
   },
   "description": "MASSA self-hosted encrypted messenger server"
 }
