@@ -1,11 +1,9 @@
 {
-  "description": "Domain for SES testing",
-  "repo": "https://github.com/mridul1809",
   "owner": {
-    "username": "mridul1809",
+    "username": "guptamridul1809",
     "email": "your-email@example.com"
   },
-  "record": {
+  "records": {
     "NS": [
       "ns1.cloudflare.com",
       "ns2.cloudflare.com"
