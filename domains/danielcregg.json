@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "danielcregg"
-    },
-    "records": {
-        "CNAME": "danielcregg.github.io"
-    }
+  "owner": {
+    "username": "danielcregg"
+  },
+  "records": {
+    "CNAME": "danielcregg.github.io"
+  }
 }

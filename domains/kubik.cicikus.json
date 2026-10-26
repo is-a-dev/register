@@ -1,9 +1,11 @@
 {
   "owner": {
-      "username":"Epicyepic",
+    "username": "Epicyepic",
     "email": "epicyepic@gmail.com"
   },
   "records": {
-    "A": ["193.36.132.146"]
+    "A": [
+      "193.36.132.146"
+    ]
   }
 }

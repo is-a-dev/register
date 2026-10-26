@@ -4,6 +4,9 @@
     "email": "AdityaSuthar13@outlook.com"
   },
   "records": {
-    "NS": ["dexter.ns.cloudflare.com", "fay.ns.cloudflare.com"]
+    "NS": [
+      "dexter.ns.cloudflare.com",
+      "fay.ns.cloudflare.com"
+    ]
   }
 }

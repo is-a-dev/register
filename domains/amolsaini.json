@@ -1,8 +1,11 @@
 {
   "owner": {
-    "username": "sainiamol27-lgtm"
+    "username": "sainiamol27-lgtm",
+    "email": "sainiamol27@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

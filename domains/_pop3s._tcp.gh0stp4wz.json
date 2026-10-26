@@ -5,12 +5,12 @@
   },
   "records": {
     "SRV": [
-        {
-            "priority": 10,
-            "weight": 5,
-            "port": 995,
-            "target": "mail.gh0stp4wz.is-a.dev"
-        }
+      {
+        "priority": 10,
+        "weight": 5,
+        "port": 995,
+        "target": "mail.gh0stp4wz.is-a.dev"
+      }
     ]
   }
 }
