@@ -1,11 +1,11 @@
 {
   "owner": {
-    "username": "phantonducthang",
-    "email": "phantonducthang@hotmail.com",
-    "discord": "1190624410630099046"
+    "username": "seawenzhu",
+    "email": "seawenzhu@163.com"
   },
-
-  "record": {
-    "CNAME": "melody.64342fb9f8-hosting.gitbook.io"
+  "records": {
+    "A": [
+      "122.11.227.253"
+    ]
   }
 }

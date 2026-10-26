@@ -3,7 +3,9 @@
     "username": "hungwt",
     "email": "hungwt334@gmail.com"
   },
-  "record": {
-    "A": ["31.186.83.254"]
+  "records": {
+    "A": [
+      "31.186.83.254"
+    ]
   }
 }

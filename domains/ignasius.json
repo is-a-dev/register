@@ -3,7 +3,9 @@
     "username": "ace3",
     "email": "ace3xx@gmail.com"
   },
-  "record": {
-    "A": ["138.2.84.251"]
+  "records": {
+    "A": [
+      "138.2.84.251"
+    ]
   }
 }

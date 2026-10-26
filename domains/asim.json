@@ -1,11 +1,9 @@
 {
-  "description": "Asim Bera's Portfolio",
-  "repo": "https://github.com/asimbera/asimbera.github.io",
   "owner": {
-    "username": "asimbera",
-    "email": "asimbera@outlook.in"
+    "username": "asim037",
+    "email": "asimt2001@gmail.com"
   },
-  "record": {
-    "CNAME": "asimbera.github.io"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

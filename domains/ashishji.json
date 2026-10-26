@@ -1,11 +1,9 @@
 {
-  "description": "Ashish Verma Portfolio Website",
-  "repo": "https://github.com/ashishjii/ashishjii.github.io",
   "owner": {
     "username": "AshishJii",
     "email": "ashishverma208004@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ashishjii.github.io"
   }
 }

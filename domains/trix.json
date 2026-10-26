@@ -1,9 +1,16 @@
 {
   "owner": {
-    "username": "tr1xem",
-    "email": "admin@trixsly.xyz"
+    "username": "tr1xem"
   },
-  "record": {
-    "CNAME": "superuser-l.github.io"
-  }
+  "records": {
+    "CNAME": "bio-81b.pages.dev",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  },
+  "proxied": true
 }

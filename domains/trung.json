@@ -3,7 +3,9 @@
     "username": "vuthanhtrung2010",
     "email": "vuthanhtrungsuper@gmail.com"
   },
-  "record": {
-    "A": ["35.185.84.140"]
+  "records": {
+    "A": [
+      "35.185.84.140"
+    ]
   }
 }

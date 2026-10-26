@@ -1,11 +1,9 @@
 {
-  "description": "Hiren Brahmbhatt.",
-  "repo": "https://github.com/hiren-brahmbhatt/hiren-brahmbhatt.github.io",
   "owner": {
     "username": "hiren-brahmbhatt",
     "email": "hiren-brahmbhatt@acquaintsoft.com"
   },
-  "record": {
+  "records": {
     "CNAME": "hiren-brahmbhatt.github.io"
   }
 }

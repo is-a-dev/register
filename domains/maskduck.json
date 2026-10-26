@@ -1,10 +1,12 @@
 {
-   "owner": {
-      "username": "maskduck",
-      "email": "",
-      "discord": "_ngiu.a_"
-   },
-   "record": {
-      "CNAME": "maskduck.github.io"
-   }
+  "owner": {
+    "username": "maskduck",
+    "discord": "maskduck"
+  },
+  "records": {
+    "NS": [
+      "ada.ns.cloudflare.com",
+      "albert.ns.cloudflare.com"
+    ]
+  }
 }

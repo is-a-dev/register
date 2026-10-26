@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "2giosangmitom",
-    "email": "yeuxacucodon.dev@proton.me"
+    "email": "2giosangmitom@gmail.com"
   },
-  "record": {
-    "CNAME": "2giosangmitom.github.io"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

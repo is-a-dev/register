@@ -1,12 +1,9 @@
 {
   "owner": {
-    "username": "EmilyLove26",
-    "email": "EmilyLove@writeme.com",
-    "discord": "Emily Love#1251",
-    "note": "Koji Redirect"
+    "username": "tbag127",
+    "email": "guyletters@gmail.com"
   },
-  "description": "Redirects to my Koji Profile: https://koji.to/EmilyLove",
-  "record": {
-    "CNAME": "cnames.withkoji.com"
+  "records": {
+    "URL": "https://github.com/tbag127"
   }
 }

@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "neohe",
-    "email": "he_neo@163.com"
+    "username": "ctrlaltspace"
   },
-  "record": {
-    "CNAME": "neohe.github.io"
+  "records": {
+    "URL": "https://ctrlaltspace.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

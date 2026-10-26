@@ -1,11 +1,9 @@
 {
-  "description": "Juanjo personal developer website",
-  "repo": "https://github.com/string-null/string-null.github.io",
   "owner": {
     "username": "string-null",
     "email": "null0x22@protonmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "string-null.github.io"
   }
 }

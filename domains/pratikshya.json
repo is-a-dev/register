@@ -1,11 +1,8 @@
 {
-    "description": "Pratikshya website",
-    "repo": "https://github.com/pratikshya-gautam/portfolio",
-    "owner": {
-      "username": "pratikshya-gautam",
-      "email": ""
-    },
-    "record": {
-      "CNAME": "pratikshya-gautam.github.io"
-    }
+  "owner": {
+    "username": "pratikshya-gautam"
+  },
+  "records": {
+    "CNAME": "pratikshya-gautam.github.io"
   }
+}

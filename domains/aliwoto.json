@@ -3,7 +3,9 @@
     "username": "ALiwoto",
     "email": "aminnimaj@gmail.com"
   },
-  "record": {
-    "A": ["5.9.188.232"]
+  "records": {
+    "A": [
+      "5.9.188.232"
+    ]
   }
 }

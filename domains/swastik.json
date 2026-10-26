@@ -1,12 +1,10 @@
 {
-  "description": "About Swastik Baranwal",
-  "repo": "https://github.com/delta456/delta456.github.io",
   "owner": {
     "username": "delta456",
     "email": "swstkbaranwal@gmail.com",
     "twitter": "delta2315"
   },
-  "record": {
+  "records": {
     "CNAME": "delta456.github.io"
   }
 }

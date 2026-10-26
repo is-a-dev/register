@@ -3,7 +3,9 @@
     "username": "gooplancton",
     "email": "gooplancton@outlook.com"
   },
-  "record": {
-    "A": ["93.93.117.164"]
+  "records": {
+    "A": [
+      "93.93.117.164"
+    ]
   }
 }

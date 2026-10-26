@@ -1,12 +1,9 @@
 {
-  "description": "Mohaned's personal website",
-  "repo": "https://github.com/mohanedashraf/mohanedashraf.github.io",
   "owner": {
-    "username": "mohanedashraf",
-    "email": "",
-    "twitter": "mohanedzz"
+    "username": "mohamed2394",
+    "email": "mohamed@holool.dev"
   },
-  "record": {
-    "CNAME": "mohanedashraf.github.io"
+  "records": {
+    "CNAME": "medjabri.com"
   }
 }

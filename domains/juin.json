@@ -1,11 +1,9 @@
 {
-  "description": "Personal portfolio",
-  "repo": "https://github.com/Juin28/Juin28.github.io",
   "owner": {
     "username": "Juin28",
     "email": "tanjuinlong@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "juin28.github.io"
   }
 }

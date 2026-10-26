@@ -1,0 +1,11 @@
+{
+  "description": "Website for Luxorens projects",
+  "owner": {
+    "username": "Luxorens",
+    "email": "luxorens@gmail.com"
+  },
+  "records": {
+    "CNAME": "luxorens.github.io"
+  },
+  "proxied": true
+}

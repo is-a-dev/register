@@ -1,12 +1,10 @@
 {
-  "description": "KayoticCarnige is a dev",
-  "repo": "https://github.com/kckarnige/kckarnige.github.io",
   "owner": {
     "username": "kckarnige",
     "email": "kayos156official@gmail.com",
     "twitter": "kckarnige"
   },
-  "record": {
+  "records": {
     "CNAME": "kckarnige.github.io"
   }
 }

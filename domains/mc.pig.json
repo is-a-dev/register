@@ -3,7 +3,9 @@
     "username": "ipigtw",
     "email": "diegogamingtw@gmail.com"
   },
-  "record": {
-    "A": ["34.81.149.229"]
+  "records": {
+    "A": [
+      "34.81.149.229"
+    ]
   }
 }

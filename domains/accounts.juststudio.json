@@ -1,0 +1,10 @@
+{
+  "description": "For account system",
+  "owner": {
+    "username": "justdevw",
+    "discord": "1117482901353812088"
+  },
+  "records": {
+    "CNAME": "accounts.clerk.services"
+  }
+}

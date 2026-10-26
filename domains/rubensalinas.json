@@ -3,7 +3,9 @@
     "username": "rubensalinas",
     "email": "ruben.asg@gmail.com"
   },
-  "record": {
-    "A": ["154.53.55.74"]
+  "records": {
+    "A": [
+      "154.53.55.74"
+    ]
   }
 }

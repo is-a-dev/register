@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "Yunexiz",
-    "discord": "1040303561847881729",
-    "email": ""
+    "discord": "1040303561847881729"
   },
-  "record": {
-    "CNAME": "yunexiz.pages.dev"
+  "records": {
+    "URL": "https://y.is-a.dev"
   }
 }

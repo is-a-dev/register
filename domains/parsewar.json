@@ -3,7 +3,9 @@
     "username": "AtharvParsewar",
     "email": "atharvparsewar@gmail.com"
   },
-  "record": {
-    "A": ["69.30.249.53"]
+  "records": {
+    "A": [
+      "69.30.249.53"
+    ]
   }
 }

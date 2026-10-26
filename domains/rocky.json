@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "PRODEFIX",
-    "email": "prodefix.ytb@gmail.com"
+    "username": "infinitethoughts7"
   },
-  "record": {
-    "CNAME": "statuspage.betteruptime.com"
+  "records": {
+    "CNAME": "infinitethoughts7.github.io"
   }
 }

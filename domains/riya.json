@@ -1,12 +1,10 @@
 {
-  "description": "Riya Roy",
-  "repo": "https://github.com/riyaroy2086/riyaroy2086.github.io",
   "owner": {
-    "username": "riyaroy2086",
-    "email": "riyaroy2086@gmal.com",
-    "discord": "ROY#1369"
+    "username": "iriyasingh"
   },
-  "record": {
-    "CNAME": "riyaroy2086.github.io"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

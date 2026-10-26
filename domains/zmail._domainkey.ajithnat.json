@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "ajithkumar-natarajan",
+    "email": "ajithknat@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClZTzVdUNDoNZUxe2K4lpp/MSPCNTNsq1L3CA3/W8W/6rSxC0lj5Avt3YHmbWaYy4CrZjlttrxoqJEOsOqBDtotLVkQB4Ba0/P+KYyn9Swt3DmeyZWxHClJKXyGuiODHhVNxgRsBxp5L3wgDIaf+OvzVnM0bKoVRQ53NW3Wby9jwIDAQAB"
+  }
+}

@@ -1,12 +1,10 @@
 {
-  "description": "My Portfolio Website",
-  "repo": "https://github.com/studiousgamer/studiousgamer.github.io",
   "owner": {
-    "username": "studiousgamer",
+    "username": "natyavidhan",
     "email": "natyavidhanbiswas10@gmail.com",
     "twitter": "GamerStudious"
   },
-  "record": {
-    "CNAME": "studiousgamer.github.io"
+  "records": {
+    "URL": "https://natya.dev"
   }
 }

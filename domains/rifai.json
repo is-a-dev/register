@@ -1,0 +1,10 @@
+{
+  "description": "Using is-a.dev for my personal portfolio",
+  "owner": {
+    "username": "humanwhodebugs",
+    "email": "humanwhodebugs@gmail.com"
+  },
+  "records": {
+    "CNAME": "humanwhodebugs.netlify.app"
+  }
+}

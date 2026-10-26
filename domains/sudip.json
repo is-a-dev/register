@@ -1,12 +1,9 @@
 {
-  "description": "Host my portfolio website",
-  "repo": "https://github.com/sudipkundu999/sudipkundu",
   "owner": {
-    "username": "sudipkundu999",
-    "email": "sudipkundu999@gmail.com",
-    "twitter": "sudipkundu999"
+    "username": "imsudipcreator",
+    "email": "imsudipmahata@gmail.com"
   },
-  "record": {
-    "CNAME": "sudipkundu999.github.io"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

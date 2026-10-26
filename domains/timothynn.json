@@ -1,12 +1,10 @@
 {
-  "description": "timothynn's personal website",
-  "repo": "https://github.com/timothynn/timothynn.github.io",
   "owner": {
     "username": "timothynn",
     "email": "timothynn08@gmail.com",
     "twitter": "timothynn_"
   },
-  "record": {
+  "records": {
     "CNAME": "timothynn.github.io"
   }
 }

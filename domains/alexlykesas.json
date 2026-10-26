@@ -1,11 +1,9 @@
 {
-  "description": "Alex Lykesas's personal developer website",
-  "repo": "https://github.com/Alexookah/alexlykesas.com",
   "owner": {
     "username": "alexookah",
     "email": "alexlykesas@gmail.com"
   },
-  "record": {
+  "records": {
     "URL": "https://alexlykesas.com"
   }
 }

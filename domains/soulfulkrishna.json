@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "ecstaticsoul",
+    "username": "soulfulkrishna",
     "email": "soulfulkrishna@gmail.com"
   },
-  "record": {
-    "CNAME": "ecstaticsoul.github.io"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

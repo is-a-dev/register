@@ -5,7 +5,7 @@
   },
   "description": "Personal site/blog",
   "repository": "https://github.com/Harry-Ross/harry-ross.github.io.git",
-  "record": {
+  "records": {
     "CNAME": "harry-ross.github.io"
   }
 }

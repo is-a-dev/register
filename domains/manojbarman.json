@@ -1,12 +1,10 @@
 {
   "owner": {
     "username": "itsmanojb",
-    "email": "",
     "twitter": "itsmanojb"
   },
   "description": "My personal website",
-  "repo": "https://github.com/itsmanojb",
-  "record": {
+  "records": {
     "URL": "https://manojbarman.in"
   }
 }

@@ -1,12 +1,9 @@
 {
-        "owner": {
-           "username": "PogMaster9001",
-           "email": "",
-           "discord": "1190052608346435597"
-        },
-    
-        "record": {
-            "CNAME": "projectdevs.net"
-        }
-    }
-    
+  "owner": {
+    "username": "S4IL21",
+    "email": "s4il.is.a.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "s4il21.github.io"
+  }
+}

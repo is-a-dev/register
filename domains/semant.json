@@ -1,13 +1,15 @@
 {
   "description": "My Website",
   "owner": {
-    "username": "ihacksemant",
-    "email": "contact@semant.is-a.dev",
-    "discord": "@semant"
+    "username": "s3mant",
+    "discord": "semant"
   },
-  "record": {
+  "records": {
     "A": [
-      "69.30.249.53"
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
     ],
     "MX": [
       "mx1.improvmx.com",

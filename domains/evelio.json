@@ -5,8 +5,10 @@
     "email": "alphaevelio@gmail.com",
     "discord": "srevelio"
   },
-  "record": {
-    "A": ["216.24.57.1"],
+  "records": {
+    "A": [
+      "216.24.57.1"
+    ],
     "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"

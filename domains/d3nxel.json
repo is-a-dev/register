@@ -1,11 +1,10 @@
 {
   "description": "My friends website",
-  "repo": "https://github.com/ExpediteDC/denzel",
   "owner": {
     "username": "ExpediteDC",
     "email": "vien@courvix.com"
   },
-  "record": {
+  "records": {
     "CNAME": "denzel.pages.dev"
   }
 }

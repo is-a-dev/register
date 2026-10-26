@@ -1,12 +1,9 @@
 {
-  "description": "My personal portfolio website",
-  "repo": "https://github.com/knownasnaffy/knownasnaffy.github.io",
   "owner": {
     "username": "knownasnaffy",
-    "email": "email@address",
-    "twitter": "dharni_naffy"
+    "email": "contact@barinderpreet.com"
   },
-  "record": {
-    "CNAME": "knownasnaffy.github.io"
+  "records": {
+    "URL": "https://barinderpreet.com"
   }
 }

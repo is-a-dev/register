@@ -2,10 +2,9 @@
   "description": "Email thingy",
   "owner": {
     "username": "QuinceTart10",
-    "email": "",
     "discord": "862644161156218891"
   },
-  "record": {
+  "records": {
     "MX": [
       "a8aacaa795f68ffd.mx1.emailprofi.seznam.cz",
       "a8aacaa795f68ffd.mx2.emailprofi.seznam.cz"

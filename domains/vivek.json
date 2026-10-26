@@ -1,11 +1,9 @@
 {
-  "description": "Vivek's Website",
-  "repo": "https://github.com/vivek-oraon/vivek-oraon.github.io",
   "owner": {
     "username": "vivek-oraon",
     "email": "vivekoraon@pm.me"
   },
-  "record": {
+  "records": {
     "A": [
       "185.199.109.153",
       "185.199.108.153",

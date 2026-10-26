@@ -1,12 +1,10 @@
 {
-  "description": "Sayantan's portfolio and project wikis",
-  "repo": "https://github.com/legendsayantan/legendsayantan.github.io",
   "owner": {
     "username": "legendsayantan",
     "email": "legendsayantan@gmail.com",
     "twitter": "legendsayantan"
   },
-  "record": {
+  "records": {
     "CNAME": "legendsayantan.github.io"
   }
 }

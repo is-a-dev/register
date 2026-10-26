@@ -1,11 +1,8 @@
 {
-  "description": "LightClient",
-  "repo": "https://github.com/EvaZeVolt/GBA-Emulator",
   "owner": {
-    "username": "Voltage",
-    "email": "Voltagenesis@outlook.com"
+    "username": "zurai02"
   },
-  "record": {
-    "CNAME": "evazevolt.github.io"
+  "records": {
+    "URL": "https://zurai02.is-a.dev"
   }
 }

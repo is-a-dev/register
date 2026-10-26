@@ -2,12 +2,10 @@
   "description": "Domain for my portofolio website",
   "owner": {
     "username": "MrinmoyHaloi",
-    "email": "",
     "twitter": "_mrinmoy_haloi_",
     "discord": "Mrinmoy#5878"
   },
-
-  "record": {
+  "records": {
     "CNAME": "mrinmoyhaloi.github.io"
   }
 }

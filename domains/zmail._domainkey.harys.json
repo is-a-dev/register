@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "harys722",
+    "discord": "1203357768610746385"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcv+WfWKIF72v6INR98p9eruS5kToMvlVKkwXwxZm0XQTs3bXlVzyRU89lcPVF6alIDpxoVCt0cH/jtw+FL0E2Lok01dJyESWFpjBJApqgBL7mGZUrZtn+fhOVdutplogyvAthJPPmxAXTB5K4uZ5ew9BHhk3rz+C9NW7YwH5GBQIDAQAB"
+  }
+}

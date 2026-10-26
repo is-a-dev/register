@@ -1,11 +1,9 @@
 {
   "owner": {
-    "username": "caverym",
-    "email": "averylapine@gmail.com",
-    "discord": "Avery~#1845"
+    "username": "AveryEclipse",
+    "email": "thekayaurora@gmail.com"
   },
-  "description": "A cool domain that will most likely use!",
-  "record": {
-    "CNAME": "caverym.net"
+  "records": {
+    "CNAME": "averyeclipse.github.io"
   }
 }

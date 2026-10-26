@@ -1,11 +1,9 @@
 {
-  "description": "Dinesh Kumar's personal developer website",
-  "repo": "https://github.com/dinesh-ysl/dinesh-ysl.github.io",
   "owner": {
-    "username": "dinesh-ysl",
-    "email": "dseera6@gmail.com"
+    "username": "dineshze",
+    "email": "dinesh205.dk@gmail.com"
   },
-  "record": {
-    "CNAME": "dinesh-ysl.github.io"
+  "records": {
+    "CNAME": "dinesh-me.vercel.app"
   }
 }

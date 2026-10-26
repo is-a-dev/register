@@ -1,12 +1,11 @@
 {
   "description": "Leonard's Personal Website",
-  "repo": "https://github.com/LeonardSSH",
   "owner": {
     "username": "LeonardSSH",
     "email": "leonardssh22@gmail.com",
     "twitter": "leonardssh22"
   },
-  "record": {
+  "records": {
     "URL": "https://leonard.sh"
   }
 }

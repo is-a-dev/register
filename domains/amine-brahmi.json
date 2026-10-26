@@ -2,10 +2,9 @@
   "description": "My tech blog",
   "owner": {
     "username": "thou-mayest",
-    "email": "",
     "twitter": "Dr_whoami_"
   },
-  "record": {
+  "records": {
     "CNAME": "thou-mayest.github.io"
   }
 }

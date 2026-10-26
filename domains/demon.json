@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "patilranjit485",
-    "email": "patilranjit2610@gmail.com"
+    "username": "itzzikram",
+    "email": "mdikramhossain78@gmail.com"
   },
-  "record": {
-    "CNAME": "demon-brother.blogspot.com"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

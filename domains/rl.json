@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "Rylazius",
-    "email": "nodejsenjoyer@gmail.com"
+    "username": "RLSDK",
+    "email": "RafalLada1.0@gmail.com"
   },
-  "record": {
-    "CNAME": "rylazius.github.io"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

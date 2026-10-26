@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "MrUranium1",
+    "email": "hossainmehir2006@gmail.com"
+  },
+  "records": {
+    "URL": "https://mruranium1.github.io/",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
+}

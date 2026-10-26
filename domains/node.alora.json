@@ -1,0 +1,11 @@
+{
+  "description": "Netdata For My VPS Nodes",
+  "owner": {
+    "username": "aloramiaa"
+  },
+  "records": {
+    "A": [
+      "16.16.88.45"
+    ]
+  }
+}

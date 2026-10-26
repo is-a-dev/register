@@ -1,11 +1,9 @@
 {
-  "description": "portfolio rominaru",
-  "repo": "https://github.com/Leuthra/Leuthra",
   "owner": {
-    "username": "leuthra",
-    "email": "romi49610@gmail.com"
+    "username": "roxiTheReal",
+    "email": "aetheron.inc@proton.me"
   },
-  "record": {
-    "CNAME": "leuthra.github.io"
+  "records": {
+    "CNAME": "rkrj.duckdns.org"
   }
 }
