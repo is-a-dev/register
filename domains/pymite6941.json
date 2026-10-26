@@ -3,12 +3,7 @@
     "username": "pymite6941",
     "email": "greshamd27@gmail.com"
   },
-  "records": {
-    "A": [
-      "216.198.79.1",
-      "64.29.17.1",
-      "76.76.21.21"
-    ],
-    "CNAME": "complete-portfolio-website-delta.vercel.app"
+  records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }
