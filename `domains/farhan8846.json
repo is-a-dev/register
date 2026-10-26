@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "farhangujjar8846-crypto",
+    "email": "farhangujjar8846@gmail.com"
+  },
+  "description": "My personal domain",
+  "records": {
+    "A": ["76.76.21.21"]
+  }
+}
