@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "TeddyYeung"
-    },
-    "records": {
-        "CNAME": "teddyyeung.github.io"
-    }
+  "owner": {
+    "username": "TeddyYeung"
+  },
+  "records": {
+    "CNAME": "teddyyeung.github.io"
+  }
 }
