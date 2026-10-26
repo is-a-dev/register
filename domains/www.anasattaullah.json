@@ -1,11 +1,11 @@
 {
-    "description": "Personal portfolio website",
-    "repo": "https://github.com/AnasAttaullah/Portfolio",
-    "owner": {
-        "username": "AnasAttaullah",
-        "email": "anas303842@gmail.com"
-    },
-    "records": {
-        "CNAME": "anasattaullah.netlify.app"
-    }
+  "description": "Personal portfolio website",
+  "repo": "https://github.com/AnasAttaullah/Portfolio",
+  "owner": {
+    "username": "AnasAttaullah",
+    "email": "anas303842@gmail.com"
+  },
+  "records": {
+    "CNAME": "anasattaullah.netlify.app"
+  }
 }

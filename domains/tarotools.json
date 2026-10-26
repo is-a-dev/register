@@ -1,0 +1,11 @@
+{
+  "description": "Taro Tools",
+  "repo": "https://github.com/diazlauti",
+  "owner": {
+    "username": "diazlauti",
+    "email": "diazlautarro@gmail.com"
+  },
+  "records": {
+    "CNAME": "tarotools.netlify.app"
+  }
+}

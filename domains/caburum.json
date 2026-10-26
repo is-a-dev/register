@@ -1,9 +1,12 @@
 {
   "owner": {
     "username": "caburum",
-    "email": "24cdingwall@gmail.com"
+    "discord": "caburum"
   },
   "records": {
-    "CNAME": "calum-portfolio.pages.dev"
+    "NS": [
+      "fred.ns.cloudflare.com",
+      "leah.ns.cloudflare.com"
+    ]
   }
 }

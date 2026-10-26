@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Zaahiid"
-    },
-    "records": {
-        "CNAME": "zaahiid.netlify.app"
-    }
+  "owner": {
+    "username": "Zaahiid"
+  },
+  "records": {
+    "CNAME": "zaahiid.netlify.app"
+  }
 }
