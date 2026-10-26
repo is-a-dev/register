@@ -3,9 +3,7 @@
     "username": "Xskyis"
   },
   "records": {
-    "CNAME": "://vercel-dns.com",
-    "TXT": [
-      "vc-domain-verify=nabilfgrza.is-a.dev,19f565a155d012cd441b"
-    ]
+    "CNAME": "cname.vercel-dns.com",
+    "www": "://vercel-dns-017.com"
   }
 }
