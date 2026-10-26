@@ -4,16 +4,11 @@
   },
   "record": {
     "type": "CNAME",
-    "content": "MASSA-SERVER",
+    "content": "cdn.example.com.",
     "proxied": false
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "content": "MASSA-SERVER",
-      "proxied": false,
-      "ttl": 3600
-    }
-  ],
-  "description": "MASSA messenger server"
+  "records": {
+    "CNAME": "cdn.example.com."
+  },
+  "description": "MASSA self-hosted encrypted messenger server"
 }
