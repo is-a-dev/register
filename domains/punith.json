@@ -1,8 +1,9 @@
+
 {
-    "owner": {
-        "username": "PUNITH-V"
-    },
-    "records": {
-        "A": "216.198.79.1"
-    }
+  "owner": {
+    "username": "PUNITH-V"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
