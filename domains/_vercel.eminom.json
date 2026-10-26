@@ -1,11 +1,11 @@
 {
   "description": "Vercel verification for eminom.is-a.dev",
   "repo": "https://github.com/MightyOm/Eminom",
-    "owner": {
-        "username": "MightyOm",
-        "email": "pranavsikka4208@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=eminom.is-a.dev,5260c150302e33fd1230"
-    }
+  "owner": {
+    "username": "MightyOm",
+    "email": "pranavsikka4208@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=eminom.is-a.dev,5260c150302e33fd1230"
+  }
 }
