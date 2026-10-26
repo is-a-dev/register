@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "wecher7-blip"
+  },
+  "records": {
+    "CNAME": "cdn.example.com"
+  },
+  "description": "MASSA self-hosted encrypted messenger server"
+}
