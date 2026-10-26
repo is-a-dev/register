@@ -1,11 +1,12 @@
 {
-  "description": "Personal developer portfolio and project showcase",
-  "repo": "https://github.com/thangknt99/thangknt99.github.io",
   "owner": {
     "username": "thangknt99",
     "email": "thangknt99@gmail.com"
   },
-  "record": {
-    "CNAME": "thangnh.github.io"
-  }
+  "records": {
+    "A": [
+      "103.121.91.162"
+    ]
+  },
+  "proxied": true
 }
