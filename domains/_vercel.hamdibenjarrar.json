@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "hamdibenjarrar"
+        "username": "hamdibenjarrar",
+        "email": "hamdibenjarrar@gmail.com"
     },
     "records": {
         "TXT": "vc-domain-verify=hamdibenjarrar.is-a.dev,627214cf4b3d1bea0cbd"
