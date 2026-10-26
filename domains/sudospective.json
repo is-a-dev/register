@@ -4,7 +4,6 @@
     "email": "sudospective@proton.me"
   },
   "records": {
-    "A": [ "176.9.62.179" ],
-    "AAAA": [ "2a01:4f8:150:80be::2" ]
+    "CNAME": "https://sudospective.codeberg.page"
   }
 }
