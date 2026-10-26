@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "wecher7-blip"
+  },
+  "record": {
+    "type": "CNAME",
+    "content": "MASSA-SERVER",
+    "proxied": false,
+    "ttl": 3600
+  },
+  "description": "MASSA messenger server"
+}
