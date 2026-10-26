@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "amp-r3"
+        "username": "amp-r3",
+        "email": "amp_r3@proton.me"
     },
     "records": {
         "A": ["75.2.60.5"]
