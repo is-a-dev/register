@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "psp219player-source",
+    "email": "psp219player@gmail.com"
+  },
+  "domain": "pspgamezone",
+  "records": {
+    "CNAME": "psp219player-source.github.io"
+  }
+}
