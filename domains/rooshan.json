@@ -4,7 +4,6 @@
     "email": "rooshansamar@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": "vc-domain-verify=rooshan.is-a.dev,3ee85e979692fea9e6a2"
+    "A": ["216.198.79.1"]
   }
 }
