@@ -4,6 +4,8 @@
     "email": "mriganksingh005@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=mrigank.is-a.dev,acfc7eb508b32a267de9"]
+    "TXT": [
+      "vc-domain-verify=mrigank.is-a.dev,acfc7eb508b32a267de9"
+    ]
   }
 }

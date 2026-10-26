@@ -4,7 +4,9 @@
     "email": "acakluqman@hotmail.com"
   },
   "records": {
-    "A": ["192.250.235.22"]
+    "A": [
+      "192.250.235.22"
+    ]
   },
   "proxied": false
 }

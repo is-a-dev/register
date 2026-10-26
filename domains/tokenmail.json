@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "laiyuan2010",
+    "email": "1290533142@qq.com"
+  },
+  "records": {
+    "URL": "https://laiyuan2010.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
+}

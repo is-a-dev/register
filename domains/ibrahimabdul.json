@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "aybee5",
-        "email": "ibrahimabdul050@gmail.com"
-    },
-    "records": {
-        "CNAME": "aybee.netlify.app"
-    },
-    "proxied": true
+  "owner": {
+    "username": "aybee5",
+    "email": "ibrahimabdul050@gmail.com"
+  },
+  "records": {
+    "CNAME": "aybee.netlify.app"
+  },
+  "proxied": true
 }
