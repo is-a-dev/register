@@ -1,9 +1,9 @@
 {
   "owner": {
-    "email": "aetheron.inc@proton.me",
-    "username": "roxiTheReal"
+    "username": "roxiTheReal",
+    "email": "aetheron.inc@proton.me"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "CNAME": "rkrj.duckdns.org"
   }
 }

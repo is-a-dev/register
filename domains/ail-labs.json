@@ -1,0 +1,11 @@
+{
+  "description": "Personal software developer portfolio",
+  "owner": {
+    "username": "Rady-ail",
+    "email": "radyp13@gmail.com"
+  },
+  "records": {
+    "CNAME": "ryan-ady-putra.netlify.app"
+  },
+  "proxied": true
+}
