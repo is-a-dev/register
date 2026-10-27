@@ -1,9 +1,0 @@
-{
-  "description": "Clerk authentication for ABAP Studio",
-  "owner": {
-    "username": "akashgupta221"
-  },
-  "records": {
-    "CNAME": "frontend-api.clerk.services"
-  }
-}

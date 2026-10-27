@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "merouan-dev",
-    "email": "marouann032@gmail.com"
-  },
-  "records": {
-    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCinwSi4s12ZWokHPXTihHO9J1uC9L7zPD0a0PWr3S1Y3xTcgXx6CiUFzDGYSj4/vM6sRJP1mox9DXoABvt0Hgcw7KWPKnGgPe5ycMHI/PfSVUXvsjDbnm4A6yPJrNqpmxtPhEE93cvuVg0x+GDG4WyMfVbq6Gc4VfpnvOcOA6vNQIDAQAB"
-  }
-}

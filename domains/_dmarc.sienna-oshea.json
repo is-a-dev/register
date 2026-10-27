@@ -1,9 +1,0 @@
-{
-  "owner": {
-    "username": "osheasienna",
-    "email": "osheasienna@gmail.com"
-  },
-  "records": {
-    "TXT": "v=DMARC1; p=none;"
-  }
-}
