@@ -4,7 +4,7 @@
     "email": "ckumaraditya2004@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=adityakchaudhary.is-a.dev,9e08278a172d24236872",
-    "vc-domain-verify=www.adityakchaudhary.is-a.dev,10accf580be452ce9a51"
+    "TXT": ["vc-domain-verify=adityakchaudhary.is-a.dev,9e08278a172d24236872",
+    "vc-domain-verify=www.adityakchaudhary.is-a.dev,10accf580be452ce9a51"]
   }
 }
