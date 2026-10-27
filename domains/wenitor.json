@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "burakdevv"
+  },
+  "record": {
+    "CNAME": "wenitor.oneapp.dev",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  }
+}
