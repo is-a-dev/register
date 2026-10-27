@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "vinpanda"
+  },
+  "record": {
+    "NS": [
+      "bowen.ns.cloudflare.com",
+      "elisabeth.ns.cloudflare.com"
+    ]
+  }
+}
