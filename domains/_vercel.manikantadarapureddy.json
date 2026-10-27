@@ -1,8 +1,9 @@
-"owner": {
-        "username": "chinni-d",
-        "email": "222221a4517@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=manikantadarapureddy.is-a.dev,5b3c277077b308dc275f"
-    }
-
+{
+  "owner": {
+    "username": "chinni-d",
+    "email": "222221a4517@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=manikantadarapureddy.is-a.dev,5b3c277077b308dc275f"
+  }
+}
