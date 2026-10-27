@@ -4,6 +4,6 @@
     "email": "bernardmaleo863@gmail.com"
   },
   "records": {
-    "CNAME": "bravebear15.github.io"
+    "A": ["216.24.57.1"]
   }
 }
