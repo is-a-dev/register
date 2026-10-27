@@ -4,6 +4,8 @@
     "username": "tienvvcc-lang"
   },
   "records": {
-    "TXT": "vc-domain-verify=quan-ly-dt-226.is-a.dev,93c6639560f781610575"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
