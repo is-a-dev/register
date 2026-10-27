@@ -4,6 +4,6 @@
     "email": "teto06920623@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=teto.is-a.dev,acae78042e40b00cc78d"
   }
 }
