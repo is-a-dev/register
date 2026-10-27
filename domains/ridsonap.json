@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "ridsonap"
-    },
-    "records": {
-        "CNAME": "ridsonap.github.io"
-    }
+  "owner": {
+    "username": "ridsonap"
+  },
+  "records": {
+    "CNAME": "ridsonap.github.io"
+  }
 }
