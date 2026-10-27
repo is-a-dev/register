@@ -1,0 +1,10 @@
+{
+  "description": "Website cá nhân của tôi",
+  "owner": {
+    "username": "huisnguyen",
+    "email": "nhuy0164217@gmail.com"
+  },
+  "record": {
+    "CNAME": "sparkling-longma-9a6add.netlify.app"
+  }
+}
