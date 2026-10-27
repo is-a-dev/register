@@ -1,17 +1,8 @@
 {
-    "owner": {
-        "username": "tienvvcc-lang",
-        "email": "tienvvcc@gmail.com"
-    },
-    "record": {
-        "CNAME": "quan-ly-dt-226.vercel.app."
-    },
-    "nested": [
-        {
-            "name": "_vercel",
-            "record": {
-                "TXT": ["vc-domain-verify=quan-ly-dt-226.is-a.dev,93c6639560f781610575"]
-            }
-        }
-    ]
+  "owner": {
+    "username": "tienvvcc-lang"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
