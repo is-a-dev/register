@@ -6,6 +6,9 @@
   "records": {
     "A": [
       "216.198.79.1"
+    ],
+    "TXT": [
+      "PASTE_YOUR_EMAIL_PROVIDER_TXT_VALUE_HERE"
     ]
   }
 }
