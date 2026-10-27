@@ -7,6 +7,5 @@
   },
   "redirect_config": {
     "redirect_paths": true
-  },
-  "proxied": false
+  }
 }
