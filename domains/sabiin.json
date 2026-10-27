@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "sikexninja6-debug"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "CNAME": {
+      "www": "dabe3169915ff6a6.vercel-dns-017.com."
+    },
+    "TXT": [
+      "vc-domain-verify=sabiin.is-a.dev,b656bfc462e828522a91",
+      "vc-domain-verify=www.sabiin.is-a.dev,e437c13b97f9e02f2b66"
+    ]
+  }
+}
