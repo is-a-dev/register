@@ -6,7 +6,7 @@
   "records": {
     "CNAME": "shrikant-portfolio-nu.vercel.app"
   },
-  "subdomain": {
+  "subdomains": {
     "_vercel": {
       "records": {
         "TXT": "vc-domain-verify=shrikantkudale.is-a.dev,dfbe2e49302e4a4ee086"
