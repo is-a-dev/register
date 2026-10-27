@@ -1,6 +1,8 @@
 {
+  "description": "Tien's developer portfolio website's quan-ly-dt-226 vercel server",
   "owner": {
-    "username": "tienvvcc-langN"
+    "username": "tienvvcc-lang",
+    "email": "tienvvcc@gmail.com"
   },
   "records": {
     "TXT": "vc-domain-verify=quan-ly-dt-226.is-a.dev,93c6639560f781610575"
