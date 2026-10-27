@@ -1,9 +1,10 @@
+
 {
   "owner": {
     "username": "teto06920623",
     "email": "teto06920623@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=taha-cs.is-a.dev,c9ed82f3f86f911fc370"
+    "A": ["216.198.79.1"]
   }
 }
