@@ -4,6 +4,8 @@
     "email": "crazyomairennab@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=omairr.is-a.dev,d606bac1fd47ae274861"]
+    "TXT": [
+      "vc-domain-verify=omairr.is-a.dev,d606bac1fd47ae274861"
+    ]
   }
 }

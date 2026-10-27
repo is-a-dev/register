@@ -1,0 +1,57 @@
+name: Prettier
+
+on:
+    push:
+        branches: [main]
+        paths:
+            - ".prettierrc"
+            - ".github/workflows/prettier.yml"
+
+    schedule:
+        - cron: "0 0 * * 0" # Runs every week on Sunday
+
+    workflow_dispatch:
+
+permissions:
+    contents: write
+    pull-requests: write
+    actions: write
+
+jobs:
+    prettify:
+        name: Prettify JSON files
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+
+            - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+
+            - run: npm ci
+
+            - name: Run Prettier and open PR
+              run: |
+                  set -euo pipefail
+
+                  git config --global user.email "bot@is-a.dev"
+                  git config --global user.name "is-a-dev-bot"
+
+                  BRANCH="prettier-$(date +%s%3N)"
+
+                  git push origin --delete "$BRANCH" 2>/dev/null || true
+
+                  git checkout -b "$BRANCH"
+                  npx prettier . --write
+
+                  if git diff --quiet && git diff --cached --quiet; then
+                    echo "No formatting changes needed."
+                    exit 0
+                  fi
+
+                  git add .
+                  COUNT=$(git status -s -uno | wc -l)
+                  git commit -m "chore(domains): prettier"
+                  git push --set-upstream origin "$BRANCH"
+
+                  gh pr create -l maintainer -t "chore(domains): prettier" -b "$COUNT file(s) have been prettified."
+              env:
+                  GH_TOKEN: ${{ secrets.BOT }}

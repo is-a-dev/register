@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "nandamade"
-    },
-    "records": {
-        "CNAME": "nandamade.github.io"
-    }
+  "owner": {
+    "username": "nandamade"
+  },
+  "records": {
+    "CNAME": "nandamade.github.io"
+  }
 }

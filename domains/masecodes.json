@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "MaseDev33",
-    "email": "masedev33@proton.me"
+    "username": "MaseDev33"
   },
   "records": {
+    "URL": "https://masecodes.dev",
     "TXT": [
       "zoho-verification=zb40941372.zmverify.zoho.com",
       "v=spf1 include:zohomail.com ~all"
@@ -22,5 +22,8 @@
         "priority": 50
       }
     ]
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

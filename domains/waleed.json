@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "willzxone",
-        "email": "willzxone0987@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "willzxone",
+    "email": "willzxone0987@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

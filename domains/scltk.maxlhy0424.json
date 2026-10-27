@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "MaxLHy0424",
-        "email": "MaxLHy974413@outlook.com"
-    },
-    "records": {
-        "CNAME": "cname-china.vercel-dns.com"
-    }
+  "owner": {
+    "username": "MaxLHy0424",
+    "email": "MaxLHy974413@outlook.com"
+  },
+  "records": {
+    "CNAME": "cname-china.vercel-dns.com"
+  }
 }

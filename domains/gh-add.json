@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "gh-add",
+    "email": "add.gutto@gmail.com"
+  },
+  "records": {
+    "CNAME": "guto.onrender.com"
+  },
+  "proxied": false
+}

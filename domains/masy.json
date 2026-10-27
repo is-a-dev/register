@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "masymars",
-        "email": "fazezsaidmassinissa@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "masymars",
+    "email": "fazezsaidmassinissa@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
