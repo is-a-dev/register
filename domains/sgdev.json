@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "s07114587-ops",
-        "email": "sgdev@netc.fr"
-    },
-    "records": {
-        "CNAME": "shubhomoydev.vercel.app"
-    }
+  "owner": {
+    "username": "sgsdev",
+    "email": "admin@sgdev.qd.je"
+  },
+  "records": {
+    "NS": ["ns1.he.net", "ns2.he.net", "ns3.he.net" , "ns4.he.net" , "ns5.he.net"]
+  }
 }
