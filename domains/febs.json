@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "febriansf",
-    "email": "febriansf@student.uns.ac.id"
+    "email": "febrian.xiii@gmail.com"
   },
   "records": {
-    "CNAME": "dev.febs.my.id"
+    "A": ["45.158.126.130"]
   }
 }
