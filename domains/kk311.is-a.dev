@@ -1,10 +1,8 @@
 {
   "owner": {
-    "username": "bobomg311",
-    "email": "bobomg.zhu@gmail.com"
+    "username": "bobomg311"
   },
   "records": {
-    "A": ["64.83.53.235"]
-  },
-  "proxied": true
+    "CNAME": "64.83.53.235"
+  }
 }
