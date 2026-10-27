@@ -7,10 +7,5 @@
     "A": [
       "216.198.79.1"
     ]
-  },
-  "subdomains": {
-    "www": {
-      "CNAME": "56105395266ce9d5.vercel-dns-017.com."
-    }
   }
 }
