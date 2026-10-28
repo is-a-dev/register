@@ -1,9 +1,11 @@
 {
   "owner": {
-  "username": "zagredmuda-dot",
-  "email": "zagredmuda@gmail.com"
-},
+    "username": "zagredmuda-dot",
+    "email": "zagredmuda@gmail.com"
+  },
   "records": {
-    "TXT": ["vc-domain-verify=zagred.is-a.dev,6d884704c99e3ae965db"]
+    "TXT": [
+      "vc-domain-verify=zagred.is-a.dev,6d884704c99e3ae965db"
+    ]
   }
 }

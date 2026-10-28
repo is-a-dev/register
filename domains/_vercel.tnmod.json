@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tnmod",
-        "email": "tnmod.test@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=tnmod.is-a.dev,dddccdf027d0830d0865"
-    }
+  "owner": {
+    "username": "tnmod",
+    "email": "tnmod.test@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tnmod.is-a.dev,dddccdf027d0830d0865"
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "description": "Gabo's personal developer logbook and portfolio",
+  "repo": "https://github.com/louigab/GaboPortfolio",
+  "owner": {
+    "username": "louigab",
+    "email": "louisgabriel.damondamon@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

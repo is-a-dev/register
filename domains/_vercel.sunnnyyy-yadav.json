@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "sunnnyyy-yadav"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=sunnnyyy-yadav.is-a.dev,384e241f9bb9fa62cc4d"
-    }
+  "owner": {
+    "username": "sunnnyyy-yadav"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sunnnyyy-yadav.is-a.dev,384e241f9bb9fa62cc4d"
+  }
 }

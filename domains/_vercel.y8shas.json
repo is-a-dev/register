@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "y8shas"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=y8shas.is-a.dev,774e8e308ba91f29cbb6"
-    }
+  "owner": {
+    "username": "y8shas"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=y8shas.is-a.dev,774e8e308ba91f29cbb6"
+  }
 }

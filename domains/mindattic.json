@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mindattic",
-        "email": "ryandebraal@mindattic.com"
-    },
-    "records": {
-        "CNAME": "mindattic.com"
-    }
+  "owner": {
+    "username": "mindattic",
+    "email": "ryandebraal@mindattic.com"
+  },
+  "records": {
+    "CNAME": "mindattic.com"
+  }
 }

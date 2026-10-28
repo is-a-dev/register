@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "umidjon-k"
-    },
-    "records": {
-        "CNAME": "umidjon-router.pages.dev"
-    }
+  "owner": {
+    "username": "umidjon-k"
+  },
+  "records": {
+    "CNAME": "umidjon-router.pages.dev"
+  }
 }

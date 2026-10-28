@@ -1,9 +1,11 @@
-   {
-     "owner": {
-       "username": "bhagyeshkoli40-create",
-       "email": "Bhagyeshkoli40@gmail.com"
-     },
-     "records": {
-       "A": ["216.198.79.1"]
-     }
-   }
+{
+  "owner": {
+    "username": "bhagyeshkoli40-create",
+    "email": "Bhagyeshkoli40@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
+}

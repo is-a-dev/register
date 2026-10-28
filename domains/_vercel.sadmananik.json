@@ -4,6 +4,8 @@
     "email": "sadmananik8986@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=sadmananik.is-a.dev,63a5bda4033dff834567"]
+    "TXT": [
+      "vc-domain-verify=sadmananik.is-a.dev,63a5bda4033dff834567"
+    ]
   }
 }

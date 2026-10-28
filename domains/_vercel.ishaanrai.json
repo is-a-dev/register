@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "darkknight009-dev"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=ishaanrai.is-a.dev,f6a30315ea81b855b49e"
-    }
+  "owner": {
+    "username": "darkknight009-dev"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ishaanrai.is-a.dev,f6a30315ea81b855b49e"
+  }
 }
