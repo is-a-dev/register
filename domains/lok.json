@@ -1,9 +1,15 @@
 {
   "owner": {
     "username": "volvein",
-    "email": "84660404+Volvein@users.noreply.github.com",
+    "email": "84660404+Volvein@users.noreply.github.com"
   },
   "records": {
     "CNAME": "volvein.github.io"
   }
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://volvein.github.io/cv"
+    },
+    "redirect_paths": true
+  } 
 }
