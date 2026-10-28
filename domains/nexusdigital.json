@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "YOUR_GITHUB_USERNAME",
+    "email": "your-email@example.com"
+  },
+  "records": {
+    "CNAME": "app-fe228aimry9.appmedo.com"
+  }
+}
