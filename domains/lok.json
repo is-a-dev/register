@@ -5,11 +5,11 @@
   },
   "records": {
     "CNAME": "volvein.github.io"
-  }
+  },
   "redirect_config": {
     "custom_paths": {
       "/github": "https://volvein.github.io/cv"
     },
     "redirect_paths": true
-  } 
+  }
 }
