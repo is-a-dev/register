@@ -4,6 +4,7 @@
     "email": "adaptableatharv@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "google-site-verification=mAYjVimgFQBZlPYEouWLtkV-N6PcKbxQriEYl2MVEuw"c
   }
 }
