@@ -1,11 +1,14 @@
 {
-  "description": "会闹工作室导航站",
+  "description": "会闹工作室开发主页",
   "repo": "https://github.com/hongkong-nao/hnstgw",
   "owner": {
     "username": "hongkong-nao",
     "email": "hnstudio@foxmail.com"
   },
   "records": {
-    "CNAME": "hongkong-nao.github.io"
+    "NS": [
+      "serena.ns.cloudflare.com",
+      "tadeo.ns.cloudflare.com"
+    ]
   }
 }
