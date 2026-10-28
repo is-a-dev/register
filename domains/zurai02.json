@@ -30,8 +30,8 @@
       }
     ],
     "TXT": [
-      "v=spf1 include:_spf.zurai02.is-a.dev -all",
-      "brevo-code:0bf95265fb4f32859ce9c1f95e7a8b71"
+      { "value": "v=spf1 include:_spf.zurai02.is-a.dev -all", "type": "TXT", "ttl": 3600 },
+      { "value": "brevo-code:0bf95265fb4f32859ce9c1f95e7a8b71", "type": "TXT", "ttl": 3600 }
     ],
     "CAA": [
       {
