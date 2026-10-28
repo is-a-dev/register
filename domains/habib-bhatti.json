@@ -4,6 +4,6 @@
     "email": "zoptic2k@gmail.com"
   },
   "records": {
-    "CNAME": "habib-bhatti.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
