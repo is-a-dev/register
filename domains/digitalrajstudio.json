@@ -4,7 +4,7 @@
     "email": "irdya23anthony24@gmail.com"
   },
   "domain": "digitalrajstudio",
-  "record": {
+  "records": {
     "CNAME": "audit-pro-api.irdya23anthony24.workers.dev"
   },
   "proxied": false
