@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "chatLooney",
-        "email": "chat.looney@gmail.com"
-    },
-    "records": {
-        "CNAME": "chatlooney.github.io"
-    }
+  "owner": {
+    "username": "chatLooney",
+    "email": "chat.looney@gmail.com"
+  },
+  "records": {
+    "CNAME": "chatlooney.github.io"
+  }
 }
