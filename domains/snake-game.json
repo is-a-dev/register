@@ -1,0 +1,11 @@
+{
+  "name": "snake-game",
+  "description": "Простая реализация игры 'Змейка' на JavaScript.",
+  "url": "https://Green-Snake345.github.io",
+  "owner": {
+    "email": "leha.levin.06@inbox.ru",
+    "github": "Green-Snake345"
+  },
+  "category": "games",
+  "tags": ["snake", "game", "js"]
+}
