@@ -71,6 +71,13 @@
       },
       {
         "flags": 0,
+        "tag": "issue",
+        "value": "digicert.com",
+        "type": "CAA",
+        "ttl": 3600
+      },
+      {
+        "flags": 0,
         "tag": "issuewild",
         "value": ";",
         "type": "CAA",
