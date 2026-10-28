@@ -4,6 +4,9 @@
     "email": "admin@sgdev.qd.je"
   },
   "records": {
-    "NS": ["ns1.he.net", "ns2.he.net", "ns3.he.net" , "ns4.he.net" , "ns5.he.net"]
+    "NS": [
+      "ridge.ns.cloudflare.com",
+      "teresa.ns.cloudflare.com"
+    ]
   }
 }
