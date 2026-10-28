@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "gentle-07-man",
+    "email": "avenger24a2@gmail.com"
+  },
+  "domain": "qp2hub",
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": false
+}
