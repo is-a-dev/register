@@ -18,11 +18,15 @@
     "MX": [
       {
         "target": "mx1.improvmx.com",
-        "priority": 10
+        "priority": 10,
+        "type": "MX",
+        "ttl": 3600
       },
       {
         "target": "mx2.improvmx.com",
-        "priority": 20
+        "priority": 20,
+        "type": "MX",
+        "ttl": 3600
       }
     ],
     "TXT": [
@@ -33,37 +37,58 @@
       {
         "flags": 0,
         "tag": "issue",
-        "value": "letsencrypt.org"
+        "value": "letsencrypt.org",
+        "type": "CAA",
+        "ttl": 3600
       },
       {
         "flags": 0,
         "tag": "issue",
-        "value": "ssl.com"
+        "value": "ssl.com",
+        "type": "CAA",
+        "ttl": 3600
       },
       {
         "flags": 0,
         "tag": "issue",
-        "value": "zerossl.com"
+        "value": "zerossl.com",
+        "type": "CAA",
+        "ttl": 3600
       },
       {
         "flags": 0,
         "tag": "issue",
-        "value": "sectigo.com"
+        "value": "sectigo.com",
+        "type": "CAA",
+        "ttl": 3600
       },
       {
         "flags": 0,
         "tag": "issue",
-        "value": "pki.goog"
+        "value": "pki.goog",
+        "type": "CAA",
+        "ttl": 3600
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "digicert.com",
+        "type": "CAA",
+        "ttl": 3600
       },
       {
         "flags": 0,
         "tag": "issuewild",
-        "value": ";"
+        "value": ";",
+        "type": "CAA",
+        "ttl": 3600
       },
       {
         "flags": 0,
         "tag": "iodef",
-        "value": "info.domainguard.workers.dev"
+        "value": "info.domainguard.workers.dev",
+        "type": "CAA",
+        "ttl": 3600
       }
     ]
   },
