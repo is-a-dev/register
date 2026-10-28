@@ -1,6 +1,16 @@
- {
+  Website Preview
+  <!-- PREVIEW-START -->
+  https://nbv000.is-a.dev
+  <!-- PREVIEW-END -->
+
+  Website Purpose
+  <!-- PURPOSE-START -->
+  Personal VPN endpoint for secure browsing
+  <!-- PURPOSE-END -->
+
+{
     "owner": {
-      "username": "ТВОЙ_GITHUB_НИК",
+      "username": "Nbv000",
       "email": "tim0sha0@mail.ru"
     },
     "records": {
