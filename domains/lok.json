@@ -1,15 +1,15 @@
-{
-  "owner": {
-    "username": "volvein",
-    "email": "el20lokendra00@gmail.com"
-  },
-  "records": {
-    "CNAME": "volvein.github.io"
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/github": "https://volvein.github.io/cv"
-    },
-    "redirect_paths": true
-  }
-}
+ {
+   "owner": {
+     "username": "volvein",
+     "email": "el20lokendra00@gmail.com"
+   },
+   "records": {
+      "URL": "https://volvein.github.io"
+   },
+   "redirect_config": {
+     "custom_paths": {
+       "/github": "https://volvein.github.io/cv"
+     },
+     "redirect_paths": true
+   }
+ }
