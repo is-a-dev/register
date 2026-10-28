@@ -4,6 +4,10 @@
     "email": "dhanunjay905@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=djportfolio.is-a.dev,d929b9a0efd0f72dbd35",
+      "vc-domain-verify=www.djportfolio.is-a.dev,bfec3c630de1b4a56158"
+    ]
   }
 }
