@@ -1,11 +1,9 @@
 {
-  "description": "Personal portfolio",
   "owner": {
-    "username": "Ostrichization",
-    "email": "abhilashk1@proton.me",
-    "twitter": "OstrichHimself"
+    "username": "abhilash-kumar-collab",
+    "email": "writerabhilash@gmail.com"
   },
   "records": {
-    "CNAME": "ostrichization.github.io"
+    "CNAME": "portfolio-nine-eta-uc3snrn22s.vercel.app"
   }
 }

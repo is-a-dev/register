@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "thatoneumer",
+    "email": "umercrusher34@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHZIgf2rt6GQdEdCMB/eP+c6Vi0/Y/3mFtetjlTZbCmRFxNLwz6kSF+hcQcMHoUbzWBzvaKyUPqkeUv1TCKCtA65Xj15R+h2T/c83b1fZVTpPEf9Sdsp4SW+hIgLigOqSx6z4cvfCgBILfhL/eMc3L749xGOYX8HOHRWk9M6xWbQIDAQAB"
+  }
+}

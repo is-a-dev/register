@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "caelondev",
+    "email": "me@caelondev.net"
+  },
+  "records": {
+    "URL": "https://caelondev.net"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}

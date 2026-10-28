@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "SkynodeX",
+    "email": "hello@parth.dev"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

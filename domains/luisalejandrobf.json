@@ -4,7 +4,9 @@
     "email": "luisalejandrobravoferreira@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"],
+    "A": [
+      "76.76.21.21"
+    ],
     "TXT": "google-site-verification=sGmOAXQM9W1XepIo-CgWM_GlqEMW7z96P10kOC2p6fs"
   }
 }

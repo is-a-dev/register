@@ -5,6 +5,8 @@
     "email": "groig@protonmail.com"
   },
   "records": {
-    "A": ["152.206.118.95"]
+    "A": [
+      "152.206.118.95"
+    ]
   }
 }
