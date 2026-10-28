@@ -1,19 +1,9 @@
-  Website Preview
-  <!-- PREVIEW-START -->
-  https://nbv000.is-a.dev
-  <!-- PREVIEW-END -->
-
-  Website Purpose
-  <!-- PURPOSE-START -->
-  Personal VPN endpoint for secure browsing
-  <!-- PURPOSE-END -->
-
 {
-    "owner": {
-      "username": "Nbv000",
-      "email": "tim0sha0@mail.ru"
-    },
-    "records": {
-      "A": ["195.63.164.55"]
-    }
+  "owner": {
+    "username": "Nbv000",
+    "email": "tim0sha0@mail.ru"
+  },
+  "records": {
+    "A": ["195.63.164.55"]
   }
+}
