@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "furrybest"
-    },
-    "records": {
-        "CNAME": "furrybest.github.io"
-    }
+  "owner": {
+    "username": "furrybest"
+  },
+  "records": {
+    "CNAME": "furrybest.github.io/linux.github.io"
+  }
 }
