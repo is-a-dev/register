@@ -4,6 +4,10 @@
     "email": "greshamd27@gmail.com"
   },
   "records": {
-    "CNAME": "complete-portfolio-website-delta.vercel.app"
+    "A": [
+      "216.198.79.1",
+      "64.29.17.1",
+      "76.76.21.21"
+    ]
   }
 }
