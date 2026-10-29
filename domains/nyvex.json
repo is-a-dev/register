@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "nyvex-technologies",
+    "email": "nyvex.technologies@gmail.com"
+  },
+  "records": {
+    "CNAME": "nyvex-technologies.github.io",
+    "TXT": [
+      "_github-pages-challenge-nyvex-technologies=c4d2c4ad806dbadb2388aa294a791f"
+    ]
+  }
+}
