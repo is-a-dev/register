@@ -1,0 +1,11 @@
+
+{
+  "owner": {
+    "username": "smitgadhavi205",
+    "email": "smitgadhai205@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=is-a.dev,80d56c068730b6eb78c7",
+    "A": ["216.198.79.1"]
+  }
+}
