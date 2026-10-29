@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "nishithsai00"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "my.mailbux.com",
+        "priority": 10
+      }
+    ],
+    "TXT": "v=spf1 include:msg25.com ~all"
+  }
+}

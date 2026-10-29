@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Shrikant-Kudale"
+    "username": "Shrikant-Kudale",
+    "email": "pixelreceives@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "shrikant-portfolio-nu.vercel.app"
   }
 }
