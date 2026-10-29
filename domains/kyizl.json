@@ -4,6 +4,9 @@
     "email": "ekn@envs.net"
   },
   "records": {
-    "NS": ["ali.ns.cloudflare.com", "clay.ns.cloudflare.com"]
+    "NS": [
+      "ali.ns.cloudflare.com",
+      "clay.ns.cloudflare.com"
+    ]
   }
 }

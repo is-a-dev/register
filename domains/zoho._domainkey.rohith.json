@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Rohith-Shimori",
+    "email": "pontapallirohith@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCBnC7XRC8IXI0TSqlY5cPq3Ko9i+bd77qMRosfnf+DWO6pXokAai8bXAQv6IaTohgwNhnyFtcQ8tOjXrIrvankkWebpAkUVpqt47l/7drKKLCwzSqpUqdnD8S/AovEIKIEZKf0ndXDI9xADL55Nyas5QeTLQyIKamG2dGQItp7wQIDAQAB"
+  }
+}

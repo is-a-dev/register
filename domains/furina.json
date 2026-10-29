@@ -5,6 +5,9 @@
     "discord": "781445370177126401"
   },
   "records": {
-    "NS": ["armfazh.ns.cloudflare.com", "gwen.ns.cloudflare.com"]
+    "NS": [
+      "armfazh.ns.cloudflare.com",
+      "gwen.ns.cloudflare.com"
+    ]
   }
 }

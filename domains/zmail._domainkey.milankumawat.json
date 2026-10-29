@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "milankumawat01",
+    "email": "milankumawat01@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyR9wMvdJilyWyHJZTFrM/Fx9y8zb6L7nW7SbqQa9tfmnU4zerGfpc+/oScK2DVW++2gnQcRKN0CZ47CXNnlwHvVeszFv6qlVE8AMiXXcnsQFxEfCe9qK+ecdYSCGWwPQz9Ss2s5EkbPQ68ERfvKnIttwKgvPlfEYEr9YkSdseGwIDAQAB"
+  }
+}

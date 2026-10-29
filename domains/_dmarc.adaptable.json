@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "adaptableCoder",
+    "email": "adaptableatharv@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}

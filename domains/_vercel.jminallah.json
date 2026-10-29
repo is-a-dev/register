@@ -4,6 +4,8 @@
     "email": "joviaminallah@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=jminallah.is-a.dev,2ef79aedada3f3ab8544"]
+    "TXT": [
+      "vc-domain-verify=jminallah.is-a.dev,2ef79aedada3f3ab8544"
+    ]
   }
 }

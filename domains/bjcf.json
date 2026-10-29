@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "bjcf-dev",
+    "email": "bj.90.cf@gmail.com"
+  },
+  "records": {
+    "CNAME": "bjcf-dev.github.io"
+  },
+  "proxied": false
+}
