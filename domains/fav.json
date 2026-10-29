@@ -3,10 +3,9 @@
   "repo": "https://github.com/git-keysh/page",
   "owner": {
     "username": "git-keysh",
-    "email": "favnc@proton.me",
-    "discord": "t8ub"
+    "email": "favnc@proton.me"
   },
-  "record": {
+  "records": {
     "CNAME": "git-keysh.github.io"
   }
 }
