@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "a50411278apeter40-svg"
+    },
+    "records": {
+        "MX": ["","receive-apne1.forge.rmta.net"],
+        "CNAME": ["rsend","rsend-apne1.forge.rmta.net"],
+        "CNAME":["send","send.forge.rmta.net"]
+        "TXT": ["v=resend._domainkey include:p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9h75T8gUFkCTbmQ4viMRiOQHOGkEw8ilnAv3zL9yw+/aYyomnIrUDYPjwpdrnumrMR9PuKslmKzroarC9H370ilI4bfIwwtuMgqYVpSt6ykU1JCH6tEXCDyqIb15kiWLZBik6L+YQbfNFhpUQHA4WkMrMZgDnpruvnyNZmUnDBwIDAQAB"]
+    }
+}
