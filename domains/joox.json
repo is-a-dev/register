@@ -6,6 +6,9 @@
     "email": "joox10dev@gmail.com"
   },
   "records": {
-    "CNAME": "joox-4gw.pages.dev"
+    "NS": [
+      "ethan.ns.cloudflare.com",
+      "leah.ns.cloudflare.com"
+    ]
   }
 }
