@@ -3,9 +3,9 @@
     "username": "VishalVaghela-hue",
     "email": "arvindvaghela374@gmail.com"
   },
-  "subdomain": "gujaratstudenttools",
+  "description": "Free educational tools for Gujarat students - GPA calculator, PDF compressor, photo resizer and other Digital Gujarat utilities built with HTML CSS JS",
+  "repo": "https://github.com/VishalVaghela-hue/gujarat-student-tools",
   "record": {
-    "URL": "https://vishalvaghela-hue.github.io/gujarat-student-tools"
-  },
-  "description": "Free tools for Gujarat students"
+    "CNAME": "vishalvaghela-hue.github.io"
+  }
 }
