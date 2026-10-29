@@ -1,13 +1,13 @@
 {
   "name": "_dmarc.fred-blaise",
-  "description": "DMARC for fred-blaise - prevents spoofing",
+  "description": "DMARC policy for fred-blaise.is-a.dev",
   "owner": {
     "username": "westindies86-DeV",
-    "email": "westindies86@gmail.com"
+    "email": "fred.blaise@fred-blaise.is-a.dev"
   },
   "records": {
     "TXT": [
-      "v=DMARC1; p=quarantine; rua=mailto:westindies86@gmail.com"
+      "v=DMARC1; p=quarantine; rua=mailto:fred.blaise@fred-blaise.is-a.dev; ruf=mailto:fred.blaise@fred-blaise.is-a.dev; sp=quarantine; adkim=r; aspf=r; pct=100"
     ]
   }
 }

@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "kaileyventures"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYLSIvSTN0A/bjsv2l00B+tLzFY9x2T3zde6lpKkIjFW7tFY1vApbNvAKyV5tM0HziExAy+QCProSW3lGASbmyyQPfcMaf7Lg8sg3EvVQlYkS9cBcGiTfVwR0LNPjJ7bs9OJ5iFlixxOozVAbb9cL6riz6fbYdicUwYzm5bRBi4QIDAQAB"
+  }
+}

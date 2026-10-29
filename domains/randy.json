@@ -17,7 +17,8 @@
     ],
     "TXT": [
       "apple-domain=S6dZ3pkvm5iM5VSC",
-      "v=spf1 include:icloud.com ~all"
+      "v=spf1 include:icloud.com ~all",
+      "openai-domain-verification=dv-5P522HebGJGBrN7OvbojIyjF"
     ]
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "Maniakov132414",
+    "email": "work@maniakov.bond"
+  },
+  "records": {
+    "CNAME": "telecloud.onthewifi.com",
+    "MX": [
+      {
+        "target": "telecloud.onthewifi.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "v=spf1 a:telecloud.onthewifi.com -all"
+    ]
+  },
+  "proxied": true
+}
