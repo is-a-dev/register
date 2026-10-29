@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mohsin-ali08",
-        "email": "mohsinalisurhio08@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=mohsinali08.is-a.dev,16cb04508b84a64ceb89"
-    }
+  "owner": {
+    "username": "mohsin-ali08",
+    "email": "mohsinalisurhio08@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mohsinali08.is-a.dev,16cb04508b84a64ceb89"
+  }
 }

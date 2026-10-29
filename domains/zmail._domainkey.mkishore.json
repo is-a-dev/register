@@ -1,9 +1,9 @@
 {
   "owner": {
-   "username": "mkishoredev",
-   "email": "kishoredxd@gmail.com"
+    "username": "mkishoredev",
+    "email": "kishoredxd@gmail.com"
   },
- "records": {
-   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9qE1i63ziusPh8ZwyggGjYV3ZuoXOQNH+2GhJyRK6Zjk4TAFOus7/YOhM0gX3xz9ezDoZyNwi0GblFvJrVbait8rP0rHCK4QHstfpn10byX2scCDJtrL2L8+a/2HGc0qR0/LGLD3X+UFTPmENKJGGWjYWjmcSJiGCKB7uSUEAAwIDAQAB"
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9qE1i63ziusPh8ZwyggGjYV3ZuoXOQNH+2GhJyRK6Zjk4TAFOus7/YOhM0gX3xz9ezDoZyNwi0GblFvJrVbait8rP0rHCK4QHstfpn10byX2scCDJtrL2L8+a/2HGc0qR0/LGLD3X+UFTPmENKJGGWjYWjmcSJiGCKB7uSUEAAwIDAQAB"
   }
 }

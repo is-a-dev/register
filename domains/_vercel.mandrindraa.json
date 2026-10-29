@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mandrindraa",
-        "email": "mandrindraantonnio@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=mandrindraa.is-a.dev,6dc79ebfe17b2762fc5a"
-    }
+  "owner": {
+    "username": "mandrindraa",
+    "email": "mandrindraantonnio@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mandrindraa.is-a.dev,6dc79ebfe17b2762fc5a"
+  }
 }

@@ -1,8 +1,8 @@
 {
   "owner": {
-   "username": "MaseDev33"
+    "username": "MaseDev33"
   },
- "records": {
-   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDMygU2hSty5lCFLvZWQZ017ytepQcJFc0wru4J6OAUxqWjM3jcRmhHcQHD+fOoz9TZZ9sw2AribRDOTrXBpDJUtkCmTfMZRq3ddHIwYN5Xkr6wXMWlWT+0Mw4zhQkOyfbdoScIaSI44kVl330TpkLOsHXFJSOv7129oi+omQ7SQIDAQAB"
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDMygU2hSty5lCFLvZWQZ017ytepQcJFc0wru4J6OAUxqWjM3jcRmhHcQHD+fOoz9TZZ9sw2AribRDOTrXBpDJUtkCmTfMZRq3ddHIwYN5Xkr6wXMWlWT+0Mw4zhQkOyfbdoScIaSI44kVl330TpkLOsHXFJSOv7129oi+omQ7SQIDAQAB"
   }
 }

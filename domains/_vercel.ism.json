@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "MITTNAYT",
-        "email": "ismailthewriter@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=ism.is-a.dev,9fbbe6a6d633aaf2b200"
-    }
+  "owner": {
+    "username": "MITTNAYT",
+    "email": "ismailthewriter@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ism.is-a.dev,9fbbe6a6d633aaf2b200"
+  }
 }

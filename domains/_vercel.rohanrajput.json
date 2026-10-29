@@ -1,0 +1,13 @@
+{
+  "description": "Vercel domain verification",
+  "repo": "https://github.com/Denx00/portfolio",
+  "owner": {
+    "username": "Denx00",
+    "email": "rsr86854@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=rohanrajput.is-a.dev,cc63375b851a78095bdb"
+    ]
+  }
+}

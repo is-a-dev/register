@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "ansonmatt",
-        "email": "ansonmathewalan@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "ansonmatt",
+    "email": "ansonmathewalan@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

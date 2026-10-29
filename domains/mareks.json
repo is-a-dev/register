@@ -6,6 +6,12 @@
   "records": {
     "A": [
       "216.198.79.1"
+    ],
+    "MX": [
+      {
+        "target": "inbound-smtp.eu-west-1.amazonaws.com",
+        "priority": 10
+      }
     ]
   }
 }

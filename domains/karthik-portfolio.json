@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "karthikeya2536",
-        "email": "yemulakarthikeya@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "karthikeya2536",
+    "email": "yemulakarthikeya@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

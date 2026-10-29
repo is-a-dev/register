@@ -1,1 +1,11 @@
-{  "owner": {    "username": "Danik25326",    "email": "danikrut79@gmail.com"  },  "records": {    "CNAME": "Danik25326.github.io",    "TXT": "google-site-verification=M_T5cby4ZR7BNgh9nOMBrizx_bS1OOBbpf7bMW0NHDg"  },  "proxied": true}
+{
+  "owner": {
+    "username": "Danik25326",
+    "email": "danikrut79@gmail.com"
+  },
+  "records": {
+    "CNAME": "Danik25326.github.io",
+    "TXT": "google-site-verification=M_T5cby4ZR7BNgh9nOMBrizx_bS1OOBbpf7bMW0NHDg"
+  },
+  "proxied": true
+}

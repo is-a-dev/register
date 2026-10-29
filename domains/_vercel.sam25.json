@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Sam-2503",
-        "email": "sampraaddas2503@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=sam25.is-a.dev,a2583c8ba2e00e7e33f8"
-    }
+  "owner": {
+    "username": "Sam-2503",
+    "email": "sampraaddas2503@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sam25.is-a.dev,a2583c8ba2e00e7e33f8"
+  }
 }

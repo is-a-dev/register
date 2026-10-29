@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "khaizr0",
-        "email": "caophankhai2004@gmail.com"
-    },
-    "records": {
-        "CNAME": "aboutme-home.pages.dev"
-    }
+  "owner": {
+    "username": "khaizr0",
+    "email": "caophankhai2004@gmail.com"
+  },
+  "records": {
+    "CNAME": "aboutme-home.pages.dev"
+  }
 }

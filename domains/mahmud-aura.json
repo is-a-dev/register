@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "mahmudx7",
-        "email": "mahmudx077@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "mahmudx7",
+    "email": "mahmudx077@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
