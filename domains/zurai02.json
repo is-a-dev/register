@@ -27,11 +27,24 @@
         "priority": 20,
         "type": "MX",
         "ttl": 3600
+      },
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 30,
+        "type": "MX",
+        "ttl": 3600
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 40,
+        "type": "MX",
+        "ttl": 3600
       }
     ],
     "TXT": [
       "v=spf1 include:_spf.zurai02.is-a.dev -all",
-      "brevo-code:0bf95265fb4f32859ce9c1f95e7a8b71"
+      "brevo-code:0bf95265fb4f32859ce9c1f95e7a8b71",
+      "forward-email=QWtpUnhXcVg1bVRZTXhzbFJGZjd6WGtXRFJwQnZmQTZlek83cDhxOXNPU2V3aVRjTXR5anQ4dGRrMjdLazFpTW9LTERwSU5q"
     ],
     "CAA": [
       {
