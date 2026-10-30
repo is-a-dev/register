@@ -3,6 +3,7 @@
         "username": "ehsadev"
     },
     "records": {
-        "CNAME": "ehsadev.github.io"
+        "CNAME": "ehsadev.github.io",
+        "TXT": "2324ebd876e6439dacd4411c4634fc"
     }
 }
