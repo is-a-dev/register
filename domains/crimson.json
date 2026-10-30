@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "UBG-Tester",
+    "email": "ubgtester@atomicmail.io"
+  },
+  "record": {
+    "MX": [
+      "://larksuite.com. 1",
+      "://larksuite.com. 5",
+      "://larksuite.com. 10"
+    ],
+    "TXT": [
+      "verification-code-site-App_lark=4cb8YIyjL0BUQW0Txp6c",
+      "v=spf1 include:://onlarksuite.com -all"
+    ]
+  }
+}
