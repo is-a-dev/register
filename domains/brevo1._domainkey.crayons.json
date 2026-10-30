@@ -1,1 +1,4 @@
-
+{
+  "owner": { "username": "devrUs-cloud" },
+  "records": { "CNAME": "b1.crayons-is-a-dev.dkim.brevo.com" }
+}
