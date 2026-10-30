@@ -1,9 +1,20 @@
 {
-    "owner": {
-        "username": "isobarsmustang0g",
-        "email": "isobars.mustang_0g@icloud.com"
-    },
-    "records": {
-        "A": ["103.97.126.29"]
-    }
+  "owner": {
+    "username": "isobarsmustang0g",
+    "email": "isobars.mustang_0g@icloud.com"
+  },
+  "records": {
+    "A": [
+      "103.97.126.29"
+    ],
+    "MX": [
+      "mx.zoho.com",
+      "mx2.zoho.com",
+      "mx3.zoho.com"
+    ],
+    "TXT": [
+      "zoho-verification=zb69504918.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
+    ]
+  }
 }
