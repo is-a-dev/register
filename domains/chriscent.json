@@ -6,5 +6,6 @@
   "records": {
     "CNAME": "chriscent.vercel.app",
     "TXT": "google-site-verification=iKLxQ8Sv1WxH7RV_ko5fAaojDZcYOrgnCo_-QTHIm7E"
-  }
+  },
+  "proxied": true
 }
