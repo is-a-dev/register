@@ -1,11 +1,8 @@
 {
   "owner": {
-    "username": "prasanthgunda134-cyber",
-    "email": "prasanthgunda134@gmail.com"
+    "username": "prasanthgunda134-cyber"
   },
-  "domain": "fighter",
-  "subdomain": "fighter",
   "records": {
-    "URL": "https://prasanthgunda134-cyber.github.io"
+    "CNAME": "prasanthgunda134-cyber.github.io"
   }
 }
