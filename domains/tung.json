@@ -4,6 +4,6 @@
     "email": "nguyentung191001@gmail.com"
   },
   "records": {
-    "CNAME": "manhtungptit.github.io"
+    "A": ["52.65.162.5"]
   }
 }
