@@ -1,9 +1,8 @@
 {
   "owner": {
     "username": "glzjoo"
-    "email": "145960148+glzjoo@users.noreply.github.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=gly.is-a.dev,873b1547a8fdf2a59490"]
+    "TXT": ["vc-domain-verify=gly.is-a.dev,PASTE_FULL_VALUE_FROM_VERCEL"]
   }
 }
