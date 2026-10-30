@@ -1,0 +1,4 @@
+{
+  "owner": { "username": "devrUs-cloud" },
+  "records": { "TXT": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com" }
+}
