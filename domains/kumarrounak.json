@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "kumarrounakdev"
+    "username": "kumarrounakdev",
+    "email": "YOUR_PUBLIC_EMAIL"
   },
   "records": {
     "A": ["75.2.60.5"]
