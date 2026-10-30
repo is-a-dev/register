@@ -1,0 +1,11 @@
+{
+  "description": "secondmate -- a Claude Code plugin that makes your AI coding agent check its own work with a second-opinion model (maker/checker loop). Project site built with Next.js.",
+  "repo": "https://github.com/eshwarvijay/secondmate",
+  "owner": {
+    "username": "eshwarvijay",
+    "email": "eshwarvijaynallur@gmail.com"
+  },
+  "records": {
+    "CNAME": "eshwarvijay.github.io"
+  }
+}
