@@ -1,1 +1,8 @@
-
+{
+    "owner": {
+        "username": "nexismereal-dot"
+    },
+    "records": {
+        "CNAME": "nomosbot.vercel.app"
+    }
+}
