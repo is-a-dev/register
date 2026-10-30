@@ -4,6 +4,7 @@
         "email": "mohamedovar8@gmail.com"
     },
     "records": {
-        "CNAME": "emojipro-web.vercel.app"
+        "CNAME": "emojipro-web.vercel.app",
+        "TXT": "vc-domain-verify=emojipro.is-a.dev,5c4a56a8056f1820369e"
     }
 }
