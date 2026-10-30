@@ -1,20 +1,9 @@
-## Requirements
-- [x] I have read the [Contributing Guidelines](https://github.com/is-a-dev/register/blob/main/CONTRIBUTING.md).
-- [x] I have read the [is-a.dev documentation](https://docs.is-a.dev).
-- [x] I have searched for existing pull requests or issues that might be related to this one.
-- [x] I understand that this PR will be closed if it is not compliant with the guidelines.
-
-## Website Preview
-<!-- WEBSITE_PREVIEW_START -->
-https://gfsxgg50-maker.github.io/ElevatorStok
-<!-- WEBSITE_PREVIEW_END -->
-
-## Website Purpose
-<!-- WEBSITE_PURPOSE_START -->
-My personal website hosted on GitHub Pages.
-<!-- WEBSITE_PURPOSE_END -->
-
-## Domain
-- **Domain:** `elevatorstok.is-a.dev`
-- **Type:** CNAME
-- **Target:** `gfsxgg50-maker.github.io`
+{
+  "owner": {
+    "username": "gfsxgg50-maker",
+    "email": "gfsxggg50@gmail.com"
+  },
+  "records": {
+    "CNAME": "gfsxgg50-maker.github.io"
+  }
+}
