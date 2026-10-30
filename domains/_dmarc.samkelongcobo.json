@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "SPNgcobo",
+    "email": "samkelop.dev@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}

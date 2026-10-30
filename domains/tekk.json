@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "tekk"
-    },
-    "records": {
-        "CNAME": "tekk.eu"
-    }
+  "owner": {
+    "username": "tekk"
+  },
+  "records": {
+    "CNAME": "tekk.eu"
+  }
 }

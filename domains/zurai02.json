@@ -1,0 +1,108 @@
+{
+  "owner": {
+    "username": "zurai02"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "AAAA": [
+      "2606:50c0:8000::153",
+      "2606:50c0:8001::153",
+      "2606:50c0:8002::153",
+      "2606:50c0:8003::153"
+    ],
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10,
+        "type": "MX",
+        "ttl": 3600
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20,
+        "type": "MX",
+        "ttl": 3600
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:_spf.zurai02.is-a.dev -all",
+      "brevo-code:0bf95265fb4f32859ce9c1f95e7a8b71"
+    ],
+    "CAA": [
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "letsencrypt.org",
+        "type": "CAA",
+        "ttl": 3600
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "ssl.com",
+        "type": "CAA",
+        "ttl": 3600
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "zerossl.com",
+        "type": "CAA",
+        "ttl": 3600
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "sectigo.com",
+        "type": "CAA",
+        "ttl": 3600
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "pki.goog",
+        "type": "CAA",
+        "ttl": 3600
+      },
+      {
+        "flags": 0,
+        "tag": "issue",
+        "value": "digicert.com",
+        "type": "CAA",
+        "ttl": 3600
+      },
+      {
+        "flags": 0,
+        "tag": "issuewild",
+        "value": ";",
+        "type": "CAA",
+        "ttl": 3600
+      },
+      {
+        "flags": 0,
+        "tag": "iodef",
+        "value": "info.domainguard.workers.dev",
+        "type": "CAA",
+        "ttl": 3600
+      }
+    ]
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/github":        "https://github.com/zurai02",
+      "/repositories": "https://github.com/zurai02?tab=repositories",
+      "/repos":         "https://github.com/zurai02?tab=repositories",
+      "/stars":         "https://github.com/zurai02?tab=stars",
+      "/portfolio":     "https://devforum.roblox.com/t/zurai02-scripting-portfolio/4679442",
+      "/devforum":      "https://devforum.roblox.com/u/zurai02",
+      "/roblox":        "https://www.roblox.com/users/5674181802/profile",
+      "/discord":       "https://discord.com/users/1460949263650652200"
+    }
+  },
+  "proxied": true
+}
