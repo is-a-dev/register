@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "prasanthgunda134-cyber"
+    "username": "prasanthgunda134-cyber",
+    "email": "prasanthgunda134@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "prasanthgunda134-cyber.github.io"
   }
 }
