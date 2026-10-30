@@ -1,5 +1,5 @@
 {
-  "owner": { "username": "YOUR_GITHUB_USERNAME", "email": "dev.r24012026@gmail.com" },
+  "owner": { "username": "devrUs-cloud", "email": "dev.r24012026@gmail.com" },
   "records": {
     "A": ["75.2.60.5"],
     "MX": [
@@ -9,7 +9,7 @@
     "TXT": [
       "forward-email=dev.r24012026@gmail.com",
       "v=spf1 include:spf.forwardemail.net include:spf.brevo.com ~all",
-      "brevo-code:PASTE_BREVO_CODE"
+      "brevo-code:d23b9b8972cbb9fbdce3f303e14f630d"
     ]
   }
 }
