@@ -1,10 +1,12 @@
 {
-    "owner": {
-        "username": "KurniawanSatria",
-        "email": "saturia.codes@gmail.com"
-    },
-    "records": {
-        "CNAME": "1d934fc7-49ea-4bda-b1db-71268f92cc9b.cfargotunnel.com"
-    },
-    "proxied": true
+  "owner": {
+    "username": "KurniawanSatria",
+    "email": "saturia.codes@gmail.com"
+  },
+  "records": {
+    "A": [
+      "45.134.39.74"
+    ]
+  },
+  "proxied": true
 }
