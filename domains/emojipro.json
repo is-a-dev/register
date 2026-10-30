@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mohamedovar",
-        "email": "mohamedovar8@gmail.com"
-    },
-    "records": {
-        "CNAME": "emojipro-web.vercel.app"
-    }
+  "owner": {
+    "username": "mohamedovar",
+    "email": "mohamedovar8@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
