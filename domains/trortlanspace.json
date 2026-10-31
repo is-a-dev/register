@@ -8,7 +8,10 @@
       "94.177.8.101"
     ],
     "MX": [
-      "10 mail.onemovemed.tech."
+      {
+        "target": "mail.onemovemed.tech.",
+        "priority": 10
+      }
     ],
     "TXT": [
       "v=spf1 ip4:94.177.8.101 mx ~all"
