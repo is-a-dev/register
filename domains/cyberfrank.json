@@ -1,19 +1,9 @@
 {
-  "branch": "main",
   "owner": {
     "username": "MoYunFrank",
-    "email": "fk@keyvalues.cn",
-    "is_org": false
+    "email": "fk@keyvalues.cn"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "host": "cyberfrank.is-a.dev",
-      "answer": "moyunfrank.github.io",
-      "ttl": 3600
-    }
-  ],
-  "repo": "MoYunFrank/cyberfrank-site",
-  "display": "CyberFrank",
-  "description": "FDE 前向部署工程师 · 个人站点作品集"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
