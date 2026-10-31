@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "glzjoo"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=gly.is-a.dev,PASTE_FULL_VALUE_FROM_VERCEL"]
+  }
+}
