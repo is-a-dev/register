@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Giorfm",
-        "email": "giorinov.fazli@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=giorinov.is-a.dev,5284b610410637fdb262"
-    }
+  "owner": {
+    "username": "Giorfm",
+    "email": "giorinov.fazli@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=giorinov.is-a.dev,5284b610410637fdb262"
+  }
 }

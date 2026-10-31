@@ -1,10 +1,11 @@
-
 {
   "owner": {
     "username": "jcuadradoh2",
     "email": "jcuadradoh3@gmail.com"
   },
   "records": {
-    "A": ["75.2.60.5"]
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }

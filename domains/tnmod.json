@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "tnmod",
-        "email": "tnmod.test@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "tnmod",
+    "email": "tnmod.test@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
