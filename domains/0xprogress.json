@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "0xProgress",
+    "email": "progressuwhuseba+isadev@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "0xprogress.pages.dev",
+    "TXT": "google-site-verification=4hBfAsQjOnK8gAAktigq-ODJtiC7K1l554bvb4aX7PU"
+  }
+}
