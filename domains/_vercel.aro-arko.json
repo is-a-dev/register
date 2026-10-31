@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "aro-arko",
+    "email": "aroarko.sd@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=aro-arko.is-a.dev,fc84af82ad48e2d6bdc4",
+      "vc-domain-verify=www.aro-arko.is-a.dev,8c9757a107aec22d4f89"
+    ]
+  }
+}

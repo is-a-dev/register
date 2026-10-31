@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "rafiekunsimp",
+    "twitter": "Justchef_reef"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxlNJqs6lBjfhGV/Um8umvfBK8MoPtQ4Y4bsB8XiMoV2gMnlMkizHfUjCVMsvzgz+XhtMCxsY8pGAFvr4u7LjTi8ZZ52BfQU/qFlS6PvxseQ5NRvTryCiSUJl2DyvWdMqHBMiGmmnAOgkk63JLou2prl5HQup3p2t0wyhZjCWlNQIDAQAB"
+    ]
+  }
+}

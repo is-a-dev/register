@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "nishithsai00"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=ed25519; p=iPjSGcPA8BEi/r4dIqO5BWJZOIcfOq/7rKrmK/qDduU="
+  }
+}
