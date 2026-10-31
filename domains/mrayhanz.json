@@ -3,7 +3,8 @@
     "username": "mrayhanz",
     "email": "zmuhammadrayhan@gmail.com"
   },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=mrayhanz.is-a.dev,31faf60b6e101fc9104a"
   }
 }
