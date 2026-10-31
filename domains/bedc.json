@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "sobyauto",
+    "email": "sobyauto@example.com"
+  },
+  "description": "BEDC Iraqi Ministry Site",
+  "domain": "bedc-iq",
+  "records": {
+    "CNAME": "bedc-iq.edgeone.dev"
+  }
+}
