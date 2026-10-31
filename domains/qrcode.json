@@ -8,9 +8,18 @@
       "103.97.126.29"
     ],
     "MX": [
+    {
       "mx.zoho.com",
+      "priority": 10
+    },
+    {
       "mx2.zoho.com",
-      "mx3.zoho.com"
+      "priority": 20
+    },
+    {
+      "mx3.zoho.com",
+      "priority": 50
+    }
     ],
     "TXT": [
       "zoho-verification=zb69504918.zmverify.zoho.com",
