@@ -4,8 +4,6 @@
     "email": "isobars.mustang_0g@icloud.com"
   },
   "records": {
-    "TXT": [
-      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHD0D65TKAOBHID/yQIeJcIujNm8pXstjk8lm1Lr5s3dosJEx/jGsE//AQcp6uvKafkrYeOPit/VYNEhlqiuoFBoXaVEqGGPljIiFv1hibvGnPSf1Evm/MbWAOj9F2m1ZHCbeUrxl1rE+6TO46NFf6Q7Aidn33NwEGQI+tgnC4RwIDAQAB"
-    ]
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHD0D65TKAOBHID/yQIeJcIujNm8pXstjk8lm1Lr5s3dosJEx/jGsE//AQcp6uvKafkrYeOPit/VYNEhlqiuoFBoXaVEqGGPljIiFv1hibvGnPSf1Evm/MbWAOj9F2m1ZHCbeUrxl1rE+6TO46NFf6Q7Aidn33NwEGQI+tgnC4RwIDAQAB"
   }
 }
