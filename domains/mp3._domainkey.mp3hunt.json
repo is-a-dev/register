@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "squ11z1"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgLM9LpkY3WwoS4KdJzE8Y4sepHb6Z44OjSQWzgUFWR5nLZt339Q+ZxDlRMt3TzOCY40i7svTrdxpbNBvxokBgoK/JD/GwItfY9mWte4kdysE0p+qrlDu4PK+22CLO98ywlxTeBix13mT43zmChsl2znalS4N7JMyjewNf++ncRQIDAQAB"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "squ11z1"
+  },
+  "records": {
+    "MX": [
+      { "target": "mx1.mailprotect.fr", "priority": 10 }
+    ],
+    "TXT": [
+      "mailprotect-verify=1bb0dfd7f6af02bab3f66a4772134eed",
+      "v=spf1 +all"
+    ]
+  }
+}
