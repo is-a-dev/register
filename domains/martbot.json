@@ -3,7 +3,7 @@
     "username": "HelloMartim",
     "email": "martim.tas@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ingress.bot-hosting.cloud"
   }
 }
