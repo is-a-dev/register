@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "azerty19e-collab",
+    "email": "anas.moods.agency@gmail.com"
+  },
+  "domain": "anas-moods",
+  "record": {
+    "CNAME": "azerty19e-collab.github.io",
+    "proxied": false
+  }
+}
