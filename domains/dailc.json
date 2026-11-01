@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "caoTayTang",
-        "email": "dai.lechi@hcmut.edu.vn"
-    },
-    "records": {
-        "CNAME": "dailc.pages.dev"
-    }
+  "owner": {
+    "username": "caoTayTang",
+    "email": "dai.lechi@hcmut.edu.vn"
+  },
+  "records": {
+    "CNAME": "dailc.pages.dev"
+  }
 }

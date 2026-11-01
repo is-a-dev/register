@@ -18,7 +18,9 @@
         "priority": 50
       }
     ],
-    "TXT": ["v=spf1 include:zohomail.in ~all"]
+    "TXT": [
+      "v=spf1 include:zohomail.in ~all"
+    ]
   },
   "proxied": true
 }

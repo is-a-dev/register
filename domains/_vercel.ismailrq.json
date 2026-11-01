@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "ismailrq"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=ismailrq.is-a.dev,952a88c8884bf73869de"
-    }
+  "owner": {
+    "username": "ismailrq"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ismailrq.is-a.dev,952a88c8884bf73869de"
+  }
 }

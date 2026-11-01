@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Krishnaprajapat693",
-        "email": "krishnaprajapat693@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=krishnaprajapat.is-a.dev,6bfe68a5b72e6084cde6"
-    }
+  "owner": {
+    "username": "Krishnaprajapat693",
+    "email": "krishnaprajapat693@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=krishnaprajapat.is-a.dev,6bfe68a5b72e6084cde6"
+  }
 }

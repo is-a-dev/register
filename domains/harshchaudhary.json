@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "email":"harshchikara408@gmail.com",
-        "username": "harshchaudhary04"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "email": "harshchikara408@gmail.com",
+    "username": "harshchaudhary04"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

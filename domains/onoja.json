@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "onoja217",
-        "email": "onojamondayojonugba@gmail.com"
-    },
-    "records": {
-        "CNAME": "onoja-dev-portfolio.pages.dev",
-        "TXT": "google-site-verification=D0h366r6yk4Lg9Bs6pRDmMPY-HMImwHZFZk7nCCERqg"
-    },
-    "proxied": true
+  "owner": {
+    "username": "onoja217",
+    "email": "onojamondayojonugba@gmail.com"
+  },
+  "records": {
+    "CNAME": "onoja-dev-portfolio.pages.dev",
+    "TXT": "google-site-verification=D0h366r6yk4Lg9Bs6pRDmMPY-HMImwHZFZk7nCCERqg"
+  },
+  "proxied": true
 }
