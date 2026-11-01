@@ -1,5 +1,5 @@
 {
-  "description": "Personal site and architecture journal for Prathamesh Patil",
+  "description": "Personal website and software engineering portfolio for Prathamesh Patil",
   "owner": {
     "username": "prathamesh-patil-5090",
     "email": "prathampatil7798@gmail.com"
@@ -7,6 +7,24 @@
   "records": {
     "A": [
       "75.2.60.5"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+      "zoho-verification=zb26419049.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
     ]
   }
 }
