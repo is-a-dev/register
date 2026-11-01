@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Amitmatyas"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+    "owner": {
+        "username": "Amitmatyas"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
