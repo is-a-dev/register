@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Zephyrex21"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=saurabhraj.is-a.dev,e8af95188958a8e5d253"
-    }
+  "owner": {
+    "username": "Zephyrex21"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=saurabhraj.is-a.dev,e8af95188958a8e5d253"
+  }
 }

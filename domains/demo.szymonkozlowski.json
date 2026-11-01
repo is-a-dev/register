@@ -1,1 +1,11 @@
-{ "owner": { "username": "skm1995", "email": "szymonkozlowski1995@gmail.com" }, "records": { "A": ["92.5.154.24"] } }
+{
+  "owner": {
+    "username": "skm1995",
+    "email": "szymonkozlowski1995@gmail.com"
+  },
+  "records": {
+    "A": [
+      "92.5.154.24"
+    ]
+  }
+}

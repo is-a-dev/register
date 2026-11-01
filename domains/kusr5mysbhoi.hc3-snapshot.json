@@ -1,10 +1,9 @@
-
 {
-    "owner": {
-        "username": "ras1354",
-        "email": "tims795100@gmail.com"
-    },
-    "records": {
-        "CNAME": "gv-q2s6r2k7j2zlcb.dv.googlehosted.com"
-    }
+  "owner": {
+    "username": "ras1354",
+    "email": "tims795100@gmail.com"
+  },
+  "records": {
+    "CNAME": "gv-q2s6r2k7j2zlcb.dv.googlehosted.com"
+  }
 }

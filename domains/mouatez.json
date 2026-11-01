@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "BunnyBuzz",
-        "email": "bizbo07dz@gmail.com"
-    },
-    "records": {
-        "CNAME": "mouatezadam.pages.dev"
-    }
+  "owner": {
+    "username": "BunnyBuzz",
+    "email": "bizbo07dz@gmail.com"
+  },
+  "records": {
+    "CNAME": "mouatezadam.pages.dev"
+  }
 }

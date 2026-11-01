@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "hamdibenjarrar",
-        "email": "hamdibenjarrar@gmail.com"
-    },
-    "records": {
-        "TXT": ["vc-domain-verify=hamdibenjarrar.is-a.dev,627214cf4b3d1bea0cbd", "vc-domain-verify=www.hamdibenjarrar.is-a.dev,7a1da1314cdb1e9d8b4f"]
-    }
+  "owner": {
+    "username": "hamdibenjarrar",
+    "email": "hamdibenjarrar@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=hamdibenjarrar.is-a.dev,627214cf4b3d1bea0cbd",
+      "vc-domain-verify=www.hamdibenjarrar.is-a.dev,7a1da1314cdb1e9d8b4f"
+    ]
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "MiguelNS101",
-        "email": "miguelns101@gmail.com"
-    },
-    "records": {
-        "CNAME": "miguelns101.github.io"
-    }
+  "owner": {
+    "username": "MiguelNS101",
+    "email": "miguelns101@gmail.com"
+  },
+  "records": {
+    "CNAME": "miguelns101.github.io"
+  }
 }

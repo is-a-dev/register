@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "uday-gandhi04"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "uday-gandhi04"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
