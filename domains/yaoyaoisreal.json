@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "yaoyaoisreal189"
-    },
-    "record": {
-        "CNAME": "yaoyaoisreal189.github.io"
-    },
-    "nested": "yaoyaoisreal189.github.io/camalig.homepage"
+  "owner": {
+    "username": "yaoyaoisreal189",
+    "email": "20grace1130@gmail.com"
+  },
+  "records": {
+    "CNAME": "yaoyaoisreal.github.io"
+  }
 }
