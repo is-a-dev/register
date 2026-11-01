@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "nishithsai00"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArITeFzwnAPfZBg76hsA3JQg99cNfzkzXUth0n0O2KYxSEfKwY8nE2WvsdB1YeQcrdC76bxCXwXALFRsKT5j6oxMSmoQA0bOMC9MHSB+1RIZ0HbYNxSZO+oOND4RW17OmzQUArR4xYAHu9Ly7N16E7lduzgFdDNEMB0r4CKfjYsZGtts4OcJ7svIRXbOVosJwMHbKh9YNQfbEaQHmoa0I2MmZndXcwyxjuNFBbbvepX8VGdpa7cNqzFCbSuVgMjWEX1yezRwM+enIBfz4ByOzarNwOCvicVm0WHiDzA8dTHJlu+UhDA21Yrez4804J0C+crMcxhdKxF0nOt7cQvgKVQIDAQAB"
+  }
+}
