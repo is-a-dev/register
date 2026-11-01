@@ -3,6 +3,6 @@
         "username": "carlers"
     },
     "records": {
-        "TXT": "vc-domain-verify=carlers.is-a.dev,aeeb1a43fc493cda81c7"
+        "TXT": ["vc-domain-verify=carlers.is-a.dev,aeeb1a43fc493cda81c7", "vc-domain-verify=mosaic.carlers.is-a.dev,10a7004c52862216d293"]
     }
 }
