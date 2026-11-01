@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "SonyLucky7",
-        "email": "sonylucky46hac@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=teja.is-a.dev,cc04e218c8754e24fa86"
-    }
+  "owner": {
+    "username": "SonyLucky7",
+    "email": "sonylucky46hac@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=teja.is-a.dev,cc04e218c8754e24fa86"
+  }
 }

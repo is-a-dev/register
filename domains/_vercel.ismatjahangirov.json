@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ismetcahangirov",
-        "email": "cahangirovismat@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=ismatjahangirov.is-a.dev,d1749d82f2efd1372ce6"
-    }
+  "owner": {
+    "username": "ismetcahangirov",
+    "email": "cahangirovismat@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ismatjahangirov.is-a.dev,d1749d82f2efd1372ce6"
+  }
 }

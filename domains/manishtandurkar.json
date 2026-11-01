@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "manishtandurkar",
-        "email": "manish03.svt@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "manishtandurkar",
+    "email": "manish03.svt@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "jamesdiamla27",
-        "email": "jamesdiamla27@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=jamesdiamla.is-a.dev,a8105bbda5a21e6a562b"
-    }
+  "owner": {
+    "username": "jamesdiamla27",
+    "email": "jamesdiamla27@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=jamesdiamla.is-a.dev,a8105bbda5a21e6a562b"
+  }
 }

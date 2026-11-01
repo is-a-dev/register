@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Charlie064",
-        "email": "charlie.sandvall@gmail.com"
-    },
-    "records": {
-        "CNAME": "charlie-sandvall.pages.dev"
-    }
+  "owner": {
+    "username": "Charlie064",
+    "email": "charlie.sandvall@gmail.com"
+  },
+  "records": {
+    "CNAME": "charlie-sandvall.pages.dev"
+  }
 }

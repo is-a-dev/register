@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "manishtandurkar",
-        "email": "manish03.svt@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=manishtandurkar.is-a.dev,dea9dac6967accfcd32b"
-    }
+  "owner": {
+    "username": "manishtandurkar",
+    "email": "manish03.svt@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=manishtandurkar.is-a.dev,dea9dac6967accfcd32b"
+  }
 }

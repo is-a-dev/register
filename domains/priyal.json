@@ -1,0 +1,16 @@
+{
+  "description": "Priyal Mokaria Sr. Software Engineer Portfolio",
+  "repo": "https://github.com/priyalmokaria/priyal-mokaria-portfolio",
+  "owner": {
+    "username": "priyalmokaria",
+    "email": "priyalmokaria.22@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "priyal-mokaria-portfolio.pages.dev",
+    "TXT": [
+      "google-site-verification=bXZ9GUb6GyMKyptzG7ovVrfujklfy1FXJ1rODmSr6jc",
+      "df2c6181de5b4c2acce6dc3d9b9e0e"
+    ]
+  }
+}

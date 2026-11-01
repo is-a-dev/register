@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "PauzeDevs",
-        "email": "githubpauze@gmail.com"
-    },
-    "records": {
-        "CNAME": "PauzeDevs.github.io"
-    }
+  "owner": {
+    "username": "PauzeDevs",
+    "email": "githubpauze@gmail.com"
+  },
+  "records": {
+    "CNAME": "PauzeDevs.github.io"
+  }
 }

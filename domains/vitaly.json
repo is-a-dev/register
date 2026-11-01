@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "vitalybrandes"
-    },
-    "records": {
-        "CNAME": "vitalybrandes.github.io"
-    }
+  "owner": {
+    "username": "vitalybrandes"
+  },
+  "records": {
+    "CNAME": "vitalybrandes.github.io"
+  }
 }

@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "henneth-annun"
+    "username": "henneth-annun",
+    "email": "haikalfibraayirprasta7@gmail.com"
   },
   "records": {
-    "CNAME": "henneth-annun.github.io"
+    "CNAME": "vault-goy.netlify.app"
   }
 }

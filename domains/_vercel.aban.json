@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Icceeyyyy",
-        "email": "thayyilaban7@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aban.is-a.dev,ffb61e17f673e8f94de7"
-    }
+  "owner": {
+    "username": "Icceeyyyy",
+    "email": "thayyilaban7@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aban.is-a.dev,ffb61e17f673e8f94de7"
+  }
 }

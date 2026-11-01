@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "zurai02",
-    "email": "zurai02ispro@gmail.com"
+    "username": "zurai02"
   },
   "records": {
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com include:spf.brevo.com -all"
+    ]
   }
 }
