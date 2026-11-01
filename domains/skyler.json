@@ -4,6 +4,6 @@
     "email": "adem.arfaoui2025@gmail.com"
   },
   "records": {
-    "CNAME": "personal-portfolio-website-hzcs.onrender.com"
+    "A": ["216.198.79.1"]
   }
 }
