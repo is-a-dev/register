@@ -1,0 +1,10 @@
+{
+  "description": "Kara — searchable web archive of the @kara_ai_offer Telegram channel's free AI offers (GitHub Pages site of 1atomic11/kara-archive).",
+  "owner": {
+    "username": "1atomic11",
+    "email": "1atomic11@users.noreply.github.com"
+  },
+  "records": {
+    "CNAME": "1atomic11.github.io"
+  }
+}
