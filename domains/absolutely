@@ -4,6 +4,6 @@
     },
     "records": {
         "A": ["75.2.60.5"],
-        "CNAME": "https://gemistore.netlify.app"
+        "CNAME": "gemistore.netlify.app"
     }
 }
