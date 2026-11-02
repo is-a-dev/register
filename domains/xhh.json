@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "gh4609650-glitch"
+    "username": "gh4609650-glitch",
+    "email": "gh4609650@gmail.com"
   },
   "records": {
-    "URL": "https://github.com/gh4609650-glitch"
+    "CNAME": "gh4609650-glitch.github.io"
   }
 }
