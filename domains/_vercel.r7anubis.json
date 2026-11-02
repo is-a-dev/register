@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "R7anubis",
-        "email": "rahul.mayavi@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=r7anubis.is-a.dev,ffa3bb934eb1b42ba374"
-    }
+  "owner": {
+    "username": "R7anubis",
+    "email": "rahul.mayavi@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=r7anubis.is-a.dev,ffa3bb934eb1b42ba374"
+  }
 }

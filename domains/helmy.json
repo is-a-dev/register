@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "helmy2",
-        "email":"mohelmy.eng@gmail.com"
-    },
-    "records": {
-        "CNAME": "helmy2.github.io"
-    }
+  "owner": {
+    "username": "helmy2",
+    "email": "mohelmy.eng@gmail.com"
+  },
+  "records": {
+    "CNAME": "helmy2.github.io"
+  }
 }

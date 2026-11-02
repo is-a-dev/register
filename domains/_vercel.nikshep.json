@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "speednikk04-tech",
-        "email": "speednikk04@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=nikshep.is-a.dev,eb10dae54556143dab1a"
-    }
+  "owner": {
+    "username": "speednikk04-tech",
+    "email": "speednikk04@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=nikshep.is-a.dev,eb10dae54556143dab1a"
+  }
 }

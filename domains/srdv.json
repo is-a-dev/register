@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sridevkp",
-        "email": "sri.is.dev@gmail.com"
-    },
-    "records": {
-        "CNAME": "sridevkp.github.io"
-    }
+  "owner": {
+    "username": "sridevkp",
+    "email": "sri.is.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "sridevkp.github.io"
+  }
 }

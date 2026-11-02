@@ -8,9 +8,9 @@
   "proxied": true,
   "records": {
     "CNAME": "edris-chhawniwala.pages.dev",
-     "TXT": [
+    "TXT": [
       "google-site-verification=O9e7qwO5NlSP3MNgEBIsmJC6fGyOTYf2aSE1mpJzfeg",
-       "68e1bb8df49fbd814672ff3f5eabe0"
+      "68e1bb8df49fbd814672ff3f5eabe0"
     ]
   }
 }
