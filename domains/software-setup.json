@@ -4,6 +4,7 @@
     "email": "awaisrahmansoomro111@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=software-setup.is-a.dev,773b5b8f48f7f87d5328"
   }
 }
