@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "replytodrexie-collab"
+        "username": "replytodrexie-collab",
+        "email": "leedrexie@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=drexie.is-a.dev,35381b797b2ef2bc51ea"
+        "TXT": "vc-domain-verify=www.drexie.is-a.dev,6fdf580fe504743478ad"
     }
 }
