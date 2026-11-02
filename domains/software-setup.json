@@ -1,9 +1,10 @@
 {
+  "domain": "software-setup",
   "owner": {
     "username": "Awais072",
     "email": "awaisrahmansoomro111@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "cname": "cname.vercel-dns.com"
   }
 }
