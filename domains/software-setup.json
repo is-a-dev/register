@@ -1,0 +1,7 @@
+{
+  "description": "Software setup guide and developer resources website",
+  "repository": "https://github.com/Awais072/software-setup",
+  "dns": {
+    "cname": "software-setup.vercel.app"
+  }
+}
