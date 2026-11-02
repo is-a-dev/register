@@ -1,11 +1,9 @@
 {
-  "description": "Luna Seemann's personal website",
-  "repo": "https://github.com/Luna-devv/luna-site",
   "owner": {
-    "username": "Luna-devv",
-    "email": "luna@waya.one"
+    "username": "KitsuneDev",
+    "email": "kitsune@akitsune.dev"
   },
-  "record": {
-    "A": ["51.161.24.80"]
+  "records": {
+    "URL": "https://akitsune.dev"
   }
 }

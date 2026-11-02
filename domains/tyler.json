@@ -1,11 +1,9 @@
 {
-  "description": "Tyler McCarthy is a Developer!",
-  "repo": "https://github.com/tmccarthyj",
   "owner": {
-    "username": "tmccarthyj",
-    "email": "tyler@tjm.dev"
+    "username": "tyleruploads",
+    "email": "tyleruploads@yahoo.com"
   },
-  "record": {
-    "CNAME": "tjm.dev"
+  "records": {
+    "CNAME": "tyler-n.pages.dev"
   }
 }

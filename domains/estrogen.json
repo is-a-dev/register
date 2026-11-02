@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "ploszukiwacz",
+    "email": "ploszukiwacz1@proton.me"
+  },
+  "records": {
+    "NS": [
+      "ns1.desec.io",
+      "ns2.desec.org"
+    ],
+    "DS": [
+      {
+        "key_tag": 20791,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "71549880245b551e05ebd7ac768dfe18d7702b8f7f986c0932eb69ce95bf8a44"
+      }
+    ]
+  }
+}

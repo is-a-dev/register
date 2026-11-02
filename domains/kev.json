@@ -1,11 +1,9 @@
 {
-  "description": "Personal website",
-  "repo": "https://github.com/kevinle108/kevinle108.github.io",
-  "owner": {
-    "username": "kevinle108",
-    "email": "kevinle108@gmail.com"
-  },
-  "record": {
-    "CNAME": "kevinle108.github.io"
-  }
+    "owner": {
+        "username": "0xkev21",
+	"email": "kev992199@gmail.com"
+    },
+    "records": {
+        "A": ["75.2.60.5"]
+    }
 }

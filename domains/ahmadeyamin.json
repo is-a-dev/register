@@ -1,11 +1,10 @@
 {
   "description": "Eyamin Personal Website",
-  "repo": "https://github.com/ahmadeyamin/ahmadeyamin.github.io",
   "owner": {
     "username": "ahmadeyamin",
     "email": "ahmadeyamin@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ahmadeyamin.pages.dev"
   }
 }

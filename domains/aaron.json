@@ -1,11 +1,9 @@
 {
-  "description": "Aaron's personal developer website",
-  "repo": "https://github.com/aaron-harvey",
   "owner": {
-    "username": "aaronharvey",
-    "email": "aaron@lolsup.com"
+    "username": "kenneropia",
+    "email": "adetunmbikenny@gmail.com"
   },
-  "record": {
-    "CNAME": "lolsup.com"
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

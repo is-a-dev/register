@@ -1,11 +1,12 @@
 {
-  "description": "Amit's website",
-  "repo": "https://github.com/amittkulkarni/amittkulkarni.github.io",
   "owner": {
-    "username": "amittkulkarni",
-    "email": "amitcoolkarni@outlook.com"
+    "username": "notamitgamer",
+    "discord": "1274721760088166495"
   },
-  "record": {
-    "CNAME": "amittkulkarni.github.io"
+  "records": {
+    "NS": [
+      "monroe.ns.cloudflare.com",
+      "noah.ns.cloudflare.com"
+    ]
   }
 }

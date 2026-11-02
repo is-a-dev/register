@@ -1,12 +1,9 @@
 {
-  "description": "Joel's dev blog",
-  "repo": "https://github.com/9oelM/9oelm.github.io",
   "owner": {
-    "username": "9oelm",
-    "email": "",
-    "twitter": "9oelm"
+    "username": "joelOfTheSharingan",
+    "email": "joelmichaelgeorge@gmail.com"
   },
-  "record": {
-    "CNAME": "9oelm.github.io"
+  "records": {
+    "CNAME": "joelofthesharingan.github.io"
   }
 }

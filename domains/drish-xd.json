@@ -1,11 +1,9 @@
 {
-  "description": "Drish | Portfolio",
-  "repo": "https://github.com/Drish-xD/Drish-xD.github.io",
   "owner": {
     "username": "Drish-xD",
     "email": "drish.xd@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "drish-xd.github.io"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Eric's website and blog",
-  "repo": "https://github.com/yurrriq",
   "owner": {
-    "username": "yurrriq",
-    "email": "eric@ericb.me"
+    "username": "ExcessByte",
+    "email": "ericdenny26@gmail.com"
   },
-  "record": {
-    "CNAME": "yurrriq.github.io"
+  "records": {
+    "URL": "https://byte.is-a.dev"
   }
 }

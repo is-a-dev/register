@@ -1,0 +1,11 @@
+{
+  "description": "My Portfolio",
+  "repo": "https://github.com/Anmol283/Anmol-Portfolio",
+  "owner": {
+    "username": "Anmol283",
+    "email": "295anmol@gmail.com"
+  },
+  "records": {
+    "CNAME": "anmol-portfolio-zeta.vercel.app"
+  }
+}

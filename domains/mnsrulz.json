@@ -1,11 +1,9 @@
 {
-  "description": "mnsrulz web",
-  "repo": "https://github.com/mnsrulz/mnsrulz.github.io",
   "owner": {
     "username": "mnsrulz",
     "email": "mnsrulz@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "mnsrulz.github.io"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "This is for my local server",
-  "repo": "https://github.com/richiesuper",
   "owner": {
-    "username": "richiesuper",
-    "email": "richie9963@gmail.com"
+    "username": "DevSlashRichie",
+    "email": "ricardo@binarysails.com"
   },
-  "record": {
-    "CNAME": "richiesuper.ddns.net"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

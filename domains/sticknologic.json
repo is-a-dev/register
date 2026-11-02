@@ -1,0 +1,15 @@
+{
+  "description": "Simple Portfolio and Blog Website",
+  "owner": {
+    "username": "sticknologic",
+    "x": "STICKnoLOGIC",
+    "facebook": "STICKnoLOGIC",
+    "bsky": "STICKnoLOGIC"
+  },
+  "records": {
+    "NS": [
+      "clayton.ns.cloudflare.com",
+      "emely.ns.cloudflare.com"
+    ]
+  }
+}

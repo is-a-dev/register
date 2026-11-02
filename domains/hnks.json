@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "hnks-gh",
+    "email": "contact@mellifluous.eu.org"
+  },
+  "records": {
+    "CNAME": "hnks-gh.github.io"
+  },
+  "proxied": false
+}

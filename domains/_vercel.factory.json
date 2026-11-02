@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "orangci",
+    "email": "c@orangc.net"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=factory.is-a.dev,482c23b2de7e2ba81e1e"
+  }
+}

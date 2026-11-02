@@ -1,11 +1,9 @@
 {
-  "description": "Lian's Own Dev Domain",
-  "repo": "https://github.com/liancastellon/liancastellon.github.io",
   "owner": {
     "username": "liancastellon",
     "email": "liancg@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "liancastellon.github.io"
   }
 }

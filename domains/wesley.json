@@ -1,11 +1,9 @@
 {
-  "description": "",
-  "repo": "https://github.com/westhecool/register",
   "owner": {
     "username": "westhecool",
-    "email": "wesley@wmail.eu.org"
+    "email": "wesley@westhedev.xyz"
   },
-  "record": {
-    "CNAME": "cname.wdns.eu.org"
+  "records": {
+    "CNAME": "wesley-is-a-dev.pages.dev"
   }
 }

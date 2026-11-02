@@ -1,11 +1,9 @@
 {
-  "description": "Portfolio website",
-  "repo": "https://github.com/robertdrakedennis/portfolio",
   "owner": {
-    "username": "robertdrakedennis",
-    "email": "robertdennispersonal@gmail.com"
+    "username": "atlasru",
+    "email": "gen0l@protonmail.com"
   },
-  "record": {
-    "CNAME": "robertdennis.netlify.app"
+  "records": {
+    "CNAME": "atlasru.github.io"
   }
 }

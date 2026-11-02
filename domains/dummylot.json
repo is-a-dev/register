@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "Dummylot",
+    "email": "Dummylot@outlook.com"
+  },
+  "records": {
+    "CNAME": "dummylot.github.io"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/youtube": "https://www.youtube.com/@Dummylot0"
+    }
+  },
+  "proxied": true
+}

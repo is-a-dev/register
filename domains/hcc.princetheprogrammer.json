@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "10xdev4u-alt",
+    "email": "10xdev4u@gmail.com"
+  },
+  "records": {
+    "CNAME": "hackathonx-99d48.web.app",
+    "TXT": "hosting-site=hackathonx-99d48"
+  },
+  "proxied": true
+}

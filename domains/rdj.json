@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "dev-rdj",
+    "email": "bubba.ai.tech@gmail.com"
+  },
+  "records": {
+    "CNAME": "dev-rdj.vercel.app"
+  },
+  "proxied": true
+}

@@ -1,11 +1,9 @@
 {
-  "description": "This will soon be a dev portfolio for myself :)",
-  "repo": "https://github.com/dylanjamesdev",
   "owner": {
-    "username": "dylanjamesdev",
-    "email": "dylan@tritan.gg"
+    "username": "dylanzm",
+    "email": "dylanzarzuela62@gmail.com"
   },
-  "record": {
-    "A": ["209.216.85.142"]
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "is-a.dev domain",
-  "repo": "https://github.com/ryan0204",
   "owner": {
-    "username": "Ryan0204",
-    "email": "ryan@ssrv.xyz"
+    "username": "MdSagorMunshi",
+    "email": "sudoryan@icloud.com"
   },
-  "record": {
-    "URL": "https://ssrv.xyz"
+  "records": {
+    "CNAME": "ryanshelby.vercel.app"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "Robert's portfolio",
-  "repo": "https://github.com/treboryx",
   "owner": {
-    "username": "treboryx",
-    "email": "treboryx@gmail.com"
+    "username": "jake123-cmd",
+    "email": "kingrobert3132@gmail.com"
   },
-  "record": {
-    "CNAME": "roberto.gr"
+  "records": {
+    "CNAME": "connect.xsystemsdomains.xyz"
   }
 }

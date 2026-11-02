@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "linuskang",
+    "email": "linus@linus.my"
+  },
+  "records": {
+    "URL": "https://linuskang.au",
+    "MX": [
+      {
+        "target": "receive-apne1.forge.rmta.net",
+        "priority": 10
+      }
+    ]
+  }
+}

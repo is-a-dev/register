@@ -1,11 +1,33 @@
 {
-  "description": "Jeevan's Portfolio",
-  "repo": "https://github.com/jeevan900929/jeevan900929.github.io",
   "owner": {
-    "username": "jeevan900929",
-    "email": "jeevan.900929@gmail.com"
+    "username": "jeevanhs06",
+    "email": "jeevanhs0fficial@gmail.com"
   },
-  "record": {
-    "CNAME": "jeevan900929.github.io"
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+      "c2e19a126a1b4a016a6ce483cdc901",
+      "zoho-verification=zb62221114.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
+    ]
   }
 }

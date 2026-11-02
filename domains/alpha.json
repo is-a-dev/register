@@ -1,19 +1,13 @@
 {
-"repo": "https://github.com/YouFoundAlpha/youfoundalpha.github.io",
   "owner": {
     "username": "YouFoundAlpha",
-    "email": "",
-    "twitter": "YouFoundAlpha",
-    "discord": "YouFoundAlpha#5372"
+    "discord": "661121998830960651",
+    "gitlab": "YouFoundAlpha",
+    "mastodon": "@YouFoundAlpha@mastodon.social"
   },
-  "record": {
-"A": [
-    "185.199.108.153",
-  "185.199.109.153",
-  "185.199.110.153",
-  "185.199.111.153"
-  ],
-     "MX": [
+  "records": {
+    "URL": "https://youfoundalpha.pages.dev",
+    "MX": [
       "mx1.improvmx.com",
       "mx2.improvmx.com"
     ],

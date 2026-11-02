@@ -1,11 +1,11 @@
 {
-  "description": "lol is a dev",
-  "repo": "https://github.com/codingjlu/codingjlu.github.io",
   "owner": {
-    "username": "codingjlu",
-    "email": "20472547@fhda.edu"
+    "username": "ctrlaltspace"
   },
-  "record": {
-    "CNAME": "codingjlu.github.io"
+  "records": {
+    "URL": "https://ctrlaltspace.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

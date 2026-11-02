@@ -1,11 +1,8 @@
 {
-    "description": "Personal Portfolio",
-    "repo": "https://github.com/hmd-ali/hmd-ali.github.io",
-    "owner": {
-        "username": "hmd-ali",
-        "email": "letsmailali.h@gmail.com"
-    },
-    "record": {
-        "CNAME": "hmd-ali.github.io"
-    }
+  "owner": {
+    "username": "princeali7"
+  },
+  "records": {
+    "CNAME": "princeali7.github.io"
+  }
 }

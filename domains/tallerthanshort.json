@@ -1,0 +1,10 @@
+{
+  "description": "TallerThanShort made site",
+  "owner": {
+    "username": "TallerThanShort",
+    "email": "TallerThanShort@duck.com"
+  },
+  "records": {
+    "CNAME": "tallerthanshort.github.io"
+  }
+}

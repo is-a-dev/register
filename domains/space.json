@@ -1,10 +1,11 @@
 {
-  "description": "My site",
   "owner": {
-    "username": "StalkerMeyr",
-    "email": "andchit223@gmail.com"
+    "username": "ctrlaltspace"
   },
-  "record": {
-    "A": ["148.251.26.247"]
+  "records": {
+    "URL": "https://ctrlaltspace.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

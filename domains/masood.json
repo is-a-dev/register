@@ -1,11 +1,8 @@
 {
-  "description": "Masood Mohammad's Personal Website",
-  "repo": "https://github.com/masoodbinmohammad",
   "owner": {
-    "username": "masoodbinmohammad",
-    "email": "masoodbinmohammad@hotmail.com"
+    "username": "masood-01"
   },
-  "record": {
-    "CNAME": "masoodbinmohammad.github.io"
+  "records": {
+    "CNAME": "masood-01.github.io"
   }
 }

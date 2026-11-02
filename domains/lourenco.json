@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "crytsalsl2"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "MX": [
+      {
+        "priority": 10,
+        "target": "inbound-smtp.eu-west-1.amazonaws.com"
+      }
+    ]
+  }
+}

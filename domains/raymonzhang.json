@@ -1,11 +1,9 @@
 {
-  "description": "My personal website",
-  "repo": "https://github.com/raymon-zhang/website",
   "owner": {
     "username": "raymon-zhang",
     "email": "raymonzhang.rz@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "raymon-zhang.github.io"
   }
 }

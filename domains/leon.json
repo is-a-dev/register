@@ -1,10 +1,11 @@
 {
-  "repo": "https://github.com/LeonskiDev/leonskidev",
   "owner": {
-    "username": "LeonskiDev",
-    "email": "bodged@pm.me"
+    "username": "LeonMT1",
+    "email": "leon@cookieattack.de"
   },
-  "record": {
-    "CNAME": "leonskidev.github.io"
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

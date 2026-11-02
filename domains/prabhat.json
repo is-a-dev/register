@@ -1,11 +1,9 @@
 {
-  "description": "My Portfolio Website",
-  "repo": "https://github.com/itzPrabhat",
   "owner": {
-    "username": "itzPrabhat",
-    "email": "prabhatbhatia09@gmail.com"
+    "username": "prabhatshah24",
+    "email": "shahp8346@gmail.com"
   },
-  "record": {
-    "CNAME": "pbdev.ml"
+  "records": {
+    "CNAME": "prabhatshah24.github.io"
   }
 }

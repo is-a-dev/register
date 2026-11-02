@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "GH0STP4WZ",
+    "email": "R3DGH0STP4WZ@protonmail.com"
+  },
+  "records": {
+    "SRV": [
+      {
+        "priority": 10,
+        "weight": 5,
+        "port": 443,
+        "target": "mail.gh0stp4wz.is-a.dev"
+      }
+    ]
+  }
+}

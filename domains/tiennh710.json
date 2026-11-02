@@ -1,0 +1,11 @@
+{
+  "description": "My personal webpage",
+  "repo": "https://github.com/tiennh710/tiennh710.github.io",
+  "owner": {
+    "username": "tiennh710",
+    "email": "tiennh710@gmail.com"
+  },
+  "records": {
+    "CNAME": "tiennh710.github.io"
+  }
+}

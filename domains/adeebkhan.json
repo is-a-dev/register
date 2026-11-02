@@ -1,0 +1,10 @@
+{
+  "description": "Describe the use of this subdomain",
+  "owner": {
+    "username": "akpathan2799",
+    "email": "akpathan2799@gmail.com"
+  },
+  "records": {
+    "CNAME": "akpathan2799.github.io"
+  }
+}

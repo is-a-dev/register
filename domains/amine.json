@@ -1,11 +1,9 @@
 {
-  "description": "Personal portfolio",
-  "repo": "https://github.com/AM-77/am-77.github.io/",
   "owner": {
-    "username": "am-77",
-    "email": "amine.griche77@protonmail.ch"
+    "username": "GPU-overheat",
+    "email": "Jsamin3@gmail.com"
   },
-  "record": {
-    "CNAME": "am-77.github.io"
+  "records": {
+    "CNAME": "gpu-overheat.github.io"
   }
 }

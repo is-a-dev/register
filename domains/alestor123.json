@@ -1,11 +1,9 @@
 {
-  "description": "A Mortal Web Developer With Immortal Dreams",
-  "repo": "https://github.com/alestor123/alestor123.github.io",
   "owner": {
     "username": "alestor123",
     "email": "alestoraldous@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "alestor123.github.io"
   }
 }
