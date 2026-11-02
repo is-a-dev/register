@@ -4,7 +4,7 @@
     "email": "hungvand@gmail.com"
   },
   "records": {
-    "CNAME": "vn-gridcode-bop-windfarm.grok.me"
+    "A": ["216.150.1.1"]
   }
 }
 
