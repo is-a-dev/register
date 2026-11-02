@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "freelanceresearchca",
+    "email": "oytech49@gmail.com"
+  },
+  "description": "Personal developer portfolio for freelance research and software development",
+  "records": {
+    "URL": "https://github.com/freelanceresearchca",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  }
+}
