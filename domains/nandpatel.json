@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "bgmihacker-ddos",
+    "email": "nandpatel0912@nandpatel.serv00.net"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "mail.serv00.com",
+        "priority": 10
+      }
+    ],
+    "TXT": "v=spf1 include:serv00.com ~all"
+  }
+}
