@@ -1,7 +1,9 @@
 {
-  "description": "Software setup guide and developer resources website",
-  "repository": "https://github.com/Awais072/software-setup",
-  "dns": {
-    "cname": "software-setup.vercel.app"
+  "owner": {
+    "username": "Awais072",
+    "email": "awaisrahmansoomro111@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
   }
 }
