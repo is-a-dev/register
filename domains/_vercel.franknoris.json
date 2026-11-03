@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "franknoris",
-        "email": "munachukwuikezue@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=franknoris.is-a.dev,291c72fb8126fa33c442"
-    }
+  "owner": {
+    "username": "franknoris",
+    "email": "munachukwuikezue@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=franknoris.is-a.dev,291c72fb8126fa33c442"
+  }
 }

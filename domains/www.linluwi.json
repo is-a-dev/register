@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "MaseDev33"
-    },
-    "records": {
-        "CNAME": "linluwi.netlify.app"
-    }
+  "owner": {
+    "username": "MaseDev33"
+  },
+  "records": {
+    "CNAME": "linluwi.netlify.app"
+  }
 }

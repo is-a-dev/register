@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "HeyRamon",
-        "email": "rvazq@uic.edu"
-    },
-    "records": {
-        "CNAME": "ramon.is-a.dev.pages.dnsoe7.com"
-    }
+  "owner": {
+    "username": "HeyRamon",
+    "email": "rvazq@uic.edu"
+  },
+  "records": {
+    "CNAME": "ramon.is-a.dev.pages.dnsoe7.com"
+  }
 }

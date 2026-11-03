@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "jitheshlive",
-        "email": "jitheshlive@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "jitheshlive",
+    "email": "jitheshlive@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

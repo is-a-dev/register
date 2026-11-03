@@ -1,8 +1,8 @@
-   {
-       "owner": {
-           "username": "12somyasahu"
-       },
-       "records": {
-           "CNAME": "12somyasahu.github.io"
-       }
-   }
+{
+  "owner": {
+    "username": "12somyasahu"
+  },
+  "records": {
+    "CNAME": "12somyasahu.github.io"
+  }
+}

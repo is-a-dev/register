@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "barveakshat",
-        "email": "barveakshat091@gmail.com"
-    },
-    "records": {
-        "CNAME": "akshatbarve-portfolio.pages.dev"
-    }
-}  
+  "owner": {
+    "username": "barveakshat",
+    "email": "barveakshat091@gmail.com"
+  },
+  "records": {
+    "CNAME": "akshatbarve-portfolio.pages.dev"
+  }
+}

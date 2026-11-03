@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "VikkiezDev",
-        "email": "vigneshndrwork23@gmail.com"
-    },
-    "records": {
-        "CNAME": "vikkiez.netlify.app"
-    }
+  "owner": {
+    "username": "VikkiezDev",
+    "email": "vigneshndrwork23@gmail.com"
+  },
+  "records": {
+    "CNAME": "vikkiez.netlify.app"
+  }
 }

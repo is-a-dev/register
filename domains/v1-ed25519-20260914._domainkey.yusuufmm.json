@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "yusuuf-mm",
+    "email": "yusuf2000mm@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=ed25519; p=zJHQKT7Ga2WgOGe+8TEa2PUx9AxnIXutvvwBvmKRLnM="
+  }
+}

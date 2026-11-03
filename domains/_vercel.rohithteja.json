@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "rohithteja",
-        "email": "rohithtejam@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=rohithteja.is-a.dev,d3735c98d14674bf2479"
-    }
+  "owner": {
+    "username": "rohithteja",
+    "email": "rohithtejam@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=rohithteja.is-a.dev,d3735c98d14674bf2479"
+  }
 }

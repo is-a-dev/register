@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "yazoniplay",
-        "email": "yazan.mahmoud2@outlook.com"
-    },
-    "records": {
-        "CNAME": "yazoniplay.github.io"
-    }
+  "owner": {
+    "username": "yazoniplay",
+    "email": "yazan.mahmoud2@outlook.com"
+  },
+  "records": {
+    "CNAME": "yazoniplay.github.io"
+  }
 }

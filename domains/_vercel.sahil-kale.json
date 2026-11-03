@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Sahil-R-Kale",
-        "email": "sahilrkale05@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=sahil-kale.is-a.dev,9d17ed5a287eb9eff724"
-    }
+  "owner": {
+    "username": "Sahil-R-Kale",
+    "email": "sahilrkale05@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sahil-kale.is-a.dev,9d17ed5a287eb9eff724"
+  }
 }

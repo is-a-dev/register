@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "moka129",
-        "email": "syk.m.129@gmail.com"
-    },
-    "records": {
-        "CNAME": "moka129.github.io"
-    }
+  "owner": {
+    "username": "moka129",
+    "email": "syk.m.129@gmail.com"
+  },
+  "records": {
+    "CNAME": "moka129.github.io"
+  }
 }
