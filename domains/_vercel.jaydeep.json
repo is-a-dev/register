@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "whoisjayd"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=jaydeep.is-a.dev,f47fcc0404b981aa1eed"
-    }
+  "owner": {
+    "username": "whoisjayd"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=jaydeep.is-a.dev,f47fcc0404b981aa1eed"
+  }
 }

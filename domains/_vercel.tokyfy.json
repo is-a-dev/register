@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "TokyFy",
-        "email": "tokyfy@outlook.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=tokyfy.is-a.dev,e228c11dbb5fa788e54e"
-    }
+  "owner": {
+    "username": "TokyFy",
+    "email": "tokyfy@outlook.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tokyfy.is-a.dev,e228c11dbb5fa788e54e"
+  }
 }

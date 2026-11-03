@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "frost-rvl",
-        "email": "voaryluciano@proton.me"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "frost-rvl",
+    "email": "voaryluciano@proton.me"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

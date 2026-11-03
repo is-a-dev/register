@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "yesung-dev",
+    "email": "chayscode@gmail.com"
+  },
+  "records": {
+    "URL": "https://github.com/yesung-dev"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/URE": "https://yesung-dev.github.io/URE/",
+      "/PZM": "https://yesung-dev.github.io/PZM/",
+      "/PCue": "https://yesung-dev.github.io/PCue/"
+    },
+    "redirect_paths": true
+  }
+}

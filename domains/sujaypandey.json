@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "sujay-515",
-        "email": "nbjhb2114@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "sujay-515",
+    "email": "nbjhb2114@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

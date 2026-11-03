@@ -10,11 +10,13 @@
       "ns1.desec.io",
       "ns2.desec.org"
     ],
-    "DS": [{
-      "key_tag": 43652,
-      "algorithm": 13,
-      "digest_type": 2,
-      "digest": "46b60944cc99dc0d085c9113699366e389a10faf9eff37203155225b54b503cf"
-    }]
+    "DS": [
+      {
+        "key_tag": 43652,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "46b60944cc99dc0d085c9113699366e389a10faf9eff37203155225b54b503cf"
+      }
+    ]
   }
 }

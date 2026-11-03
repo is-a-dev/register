@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mjfactor",
-        "email": "emjayfactor@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=emjayfactor.is-a.dev,104f533a0624c403994a"
-    }
+  "owner": {
+    "username": "mjfactor",
+    "email": "emjayfactor@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=emjayfactor.is-a.dev,104f533a0624c403994a"
+  }
 }

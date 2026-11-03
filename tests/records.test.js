@@ -239,6 +239,11 @@ function validateRecordValues(t, data, file) {
             values.forEach((record, idx) => {
                 t.true(typeof record === "string", `${file}: TXT record value should be a string at index ${idx}`);
 
+                t.false(
+                    record.includes("github-pages-challenge"),
+                    `${file}: TXT record cannot contain 'github-pages-challenge' at index ${idx}`
+                );
+
                 if (record.startsWith("vc-domain-verify=")) {
                     t.true(
                         file.startsWith("_vercel."),
@@ -303,6 +308,11 @@ t("All files should have valid records", (t) => {
             t.true(
                 /^_vercel\.[^.]+\.json$/.test(file),
                 `${file}: Files starting with '_vercel' must have format '_vercel.<name>.json'`
+            );
+
+            t.true(
+                recordKeys.includes("TXT") && recordKeys.length === 1,
+                `${file}: Files starting with '_vercel' can only have TXT records`
             );
 
             const txtRecords = data.records.TXT;

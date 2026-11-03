@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "nahyan0077",
-        "email": "nahyanm4@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=nahyan.is-a.dev,b69e1f0b75ad24ea7b53"
-    }
+  "owner": {
+    "username": "nahyan0077",
+    "email": "nahyanm4@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=nahyan.is-a.dev,b69e1f0b75ad24ea7b53"
+  }
 }

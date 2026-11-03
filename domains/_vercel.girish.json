@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "girishbari"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=girish.is-a.dev,969c2a1f223da23b9a69"
-    }
+  "owner": {
+    "username": "girishbari"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=girish.is-a.dev,969c2a1f223da23b9a69"
+  }
 }

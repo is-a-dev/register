@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "shimajima-eiji",
-        "email": "nomuraya.contact@gmail.com"
-    },
-    "records": {
-        "CNAME": "nomuraya-games.pages.dev"
-    }
+  "owner": {
+    "username": "shimajima-eiji",
+    "email": "nomuraya.contact@gmail.com"
+  },
+  "records": {
+    "CNAME": "nomuraya-games.pages.dev"
+  }
 }

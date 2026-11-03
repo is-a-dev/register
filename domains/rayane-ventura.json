@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "rayyventura"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "rayyventura"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
