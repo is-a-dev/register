@@ -6,7 +6,7 @@
   "domain": "zetalabs",
   "subdomain": "",
   "record": {
-    "CNAME": "zetacraft.my.canva.site"
+    "CNAME": "zetacraft-hub.zetayt.workers.dev"
   },
   "proxied": true
 }
