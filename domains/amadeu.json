@@ -1,8 +1,11 @@
 {
   "owner": {
-    "username": "Amad3eu"
+    "username": "Amad3eu",
+    "email": "luizfelipewarmling@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
