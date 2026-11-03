@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "contactanaszakimoods-netizen",
+    "email": "contact.anaszaki.moods@gmail.com"
+  },
+  "domain": "anaszaki",
+  "record": {
+    "CNAME": "contactanaszakimoods-netizen.github.io"
+  },
+  "proxied": false
+}
