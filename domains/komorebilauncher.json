@@ -3,6 +3,12 @@
     "username": "KujouShiori"
   },
   "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
     "TXT": [
       "MS=ms92119410"
     ],
@@ -11,7 +17,6 @@
         "target": "ms92119410.msv1.invalid",
         "priority": 32767
       }
-    ],
-    "CNAME": "komorebilauncher.github.io"
+    ]
   }
 }
