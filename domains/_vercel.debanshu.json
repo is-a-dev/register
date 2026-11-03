@@ -6,6 +6,9 @@
     "email": "debanshudevgoswami@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=debanshu.is-a.dev,9f2d784644a8c5f1a480"
+    "TXT": [
+      "vc-domain-verify=debanshu.is-a.dev,9f2d784644a8c5f1a480",
+      "vc-domain-verify=nivaas.debanshu.is-a.dev,f177957b8ff3367d6e70"
+    ]
   }
 }
