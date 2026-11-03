@@ -4,12 +4,5 @@
     },
     "records": {
         "CNAME": "portfolio-beta-wine-91.vercel.app"
-    },
-    "subdomains": {
-        "www": {
-            "records": {
-                "CNAME": "10534db9eeafc62a.vercel-dns-017.com"
-            }
-        }
     }
 }
