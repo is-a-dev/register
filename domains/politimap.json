@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "COprivacy"
+    "username": "COprivacy",
+    "email": "contato@coprivacy.com"
   },
   "records": {
     "CNAME": "coprivacy.github.io"
