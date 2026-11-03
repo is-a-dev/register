@@ -1,4 +1,7 @@
+JSON
 {
+  "description": "Project proxy backend server",
+  "repo": "https://github.com/brontosimungo/register/",
   "owner": {
     "username": "brontosimungo",
     "email": "brontosimungo@outlook.co.id"
