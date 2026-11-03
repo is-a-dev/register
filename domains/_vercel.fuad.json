@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Rafi-netizen",
-        "email": "fuadmahmudrafi.official@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=fuad.is-a.dev,f6bffb5ebe5f687515c4"
-    }
+  "owner": {
+    "username": "Rafi-netizen",
+    "email": "fuadmahmudrafi.official@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=fuad.is-a.dev,f6bffb5ebe5f687515c4"
+  }
 }

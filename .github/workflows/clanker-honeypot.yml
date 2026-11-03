@@ -1,0 +1,40 @@
+name: Clanker Honeypot
+
+on:
+    pull_request_target:
+        types:
+            - opened
+            - reopened
+            - edited
+
+permissions:
+    contents: read
+    pull-requests: write
+    issues: write
+
+jobs:
+    label:
+        name: Filter out AI-generated PRs
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Check title for AI canary word
+              uses: actions/github-script@v8
+              env:
+                  PR_TITLE: ${{ github.event.pull_request.title }}
+              with:
+                  github-token: ${{ secrets.BOT }}
+                  script: |
+                      // this must match AGENTS.md
+                      const tag = "(dns-preflight)";
+
+                      if (!process.env.PR_TITLE.toLowerCase().includes(tag)) {
+                          return;
+                      }
+
+                      await github.rest.issues.addLabels({
+                          owner: context.repo.owner,
+                          repo: context.repo.repo,
+                          issue_number: context.issue.number,
+                          labels: ["reason: ai generated pr", "status: denied"]
+                      });
