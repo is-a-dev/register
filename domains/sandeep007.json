@@ -1,8 +1,11 @@
 {
-    "owner": {
-        "username": "sandeep2409-gitch"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "description": "My portfolio website",
+  "repo": "https://github.com/sandeep2409-gitch/MYPORTFOLIO",
+  "owner": {
+    "username": "sandeep2409-gitch",
+    "email": "sandeepmanchinasetti007@gmail.com"
+  },
+  "record": {
+    "CNAME": "fb144bf711789b89.vercel-dns-017.com."
+  }
 }
