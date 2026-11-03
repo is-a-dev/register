@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "zetaytofficial",
+    "email": "zetayt@proton.me"
+  },
+  "domain": "zetalabs",
+  "subdomain": "",
+  "record": {
+    "CNAME": "zetacraft.my.canva.site"
+  },
+  "proxied": true
+}
