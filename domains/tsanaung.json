@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "tsanaung"
+    "username": "tsanaung",
+    "email": "myanmar@post.com"
   },
   "records": {
     "CNAME": "tsanaung.tsanaung.workers.dev"
