@@ -3,10 +3,6 @@
     "username": "rooshanuddin"
   },
   "records": {
-    "CNAME": "4847a286b50cb2db.vercel-dns-017.com",
-    "TXT": [
-      "vc-domain-verify=rooshan-uddin-shaikh.is-a.dev,67efb7a8f96bed988c3e",
-      "vc-domain-verify=www.rooshan-uddin-shaikh.is-a.dev,17bb9452e0e367b9a331"
-    ]
+    "CNAME": "4847a286b50cb2db.vercel-dns-017.com"
   }
 }
