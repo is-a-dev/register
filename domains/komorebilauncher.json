@@ -1,0 +1,17 @@
+{
+  "owner": {
+    "username": "KujouShiori"
+  },
+  "records": {
+    "TXT": [
+      "MS=ms92119410"
+    ],
+    "MX": [
+      {
+        "target": "ms92119410.msv1.invalid",
+        "priority": 32767
+      }
+    ],
+    "CNAME": "komorebilauncher.github.io"
+  }
+}
