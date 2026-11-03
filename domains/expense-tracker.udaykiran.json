@@ -5,8 +5,6 @@
     "email": "ukuday981@gmail.com"
   },
   "records": {
-    "A": [
-      "216.24.57.1"
-    ]
+    "CNAME": "expense-tracker-app-ckop.onrender.com"
   }
 }
