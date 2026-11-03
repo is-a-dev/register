@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "assignment-sets"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=gourabmondal.is-a.dev,6227f07baf060d3f87cb"
-    }
+  "owner": {
+    "username": "assignment-sets"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=gourabmondal.is-a.dev,6227f07baf060d3f87cb"
+  }
 }
