@@ -3,10 +3,7 @@
     "username": "zetaytofficial",
     "email": "zetayt@proton.me"
   },
-  "domain": "zetalabs",
-  "subdomain": "",
-  "record": {
+  "records": {
     "CNAME": "zetacraft-hub.zetayt.workers.dev"
-  },
-  "proxied": true
+  }
 }
