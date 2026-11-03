@@ -1,0 +1,11 @@
+{
+  "description": "Nivaas - resident app for a gated township (bills, bank matching, complaints), built by Debanshu Devgoswami",
+  "repo": "https://github.com/debuJan/nivaas",
+  "owner": {
+    "username": "debuJan",
+    "email": "debanshudevgoswami@gmail.com"
+  },
+  "records": {
+    "CNAME": "c71fdb976b5fc0d8.vercel-dns-017.com"
+  }
+}
