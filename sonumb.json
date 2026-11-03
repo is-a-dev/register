@@ -1,0 +1,15 @@
+{
+  "description": "Project proxy backend server",
+  "domain": "is-a.dev",
+  "subdomain": "sonumb",
+  "owner": {
+    "repo": "https://github.com/username-anda/repo-terkait",
+    "email": "brontosimungo@outlook.co.id"
+  },
+  "record": {
+    "NS": [
+      "kehlani.ns.cloudflare.com",
+      "memphis.ns.cloudflare.com"
+    ]
+  }
+}
