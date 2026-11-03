@@ -1,7 +1,8 @@
 {
-    "owner": {
-        "username": "mf-kewang"
-    },
+   "owner": {
+    "username": "mf-kewang",
+    "email": "mariamfatimakewang29@gmail.com"
+},
     "records": {
         "CNAME": "wwwkewang.netlify.app"
     }
