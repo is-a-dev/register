@@ -1,8 +1,7 @@
 {
   "description": "TSAI 的个人主页",
   "owner": {
-    "username": "mabaca123hsu",
-    "email": "mabaca123hsu@users.noreply.github.com"
+    "username": "mabaca123hsu"
   },
   "records": {
     "CNAME": "mabaca123hsu.github.io"
