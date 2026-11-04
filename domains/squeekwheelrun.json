@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "devnfix-cyber",
+    "email": "devnfix@gmail.com"
+  },
+  "description": "Squeek Wheel Run — browser runner game using the Squeekchain public API",
+  "records": {
+    "CNAME": "devnfix-cyber.github.io"
+  },
+  "proxied": true
+}
