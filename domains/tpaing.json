@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "tpaingtemp-svg",
+    "email": "tpaing.temp@gmail.com"
+  },
+  "domain": "tpaing",
+  "subdomain": "vpn",
+  "record": {
+    "CNAME": "07f01fad-e2e4-4dd1-acd9-a04e63da2888.cfargotunnel.com"
+  },
+  "description": "Vietnam VPN for family"
+}
