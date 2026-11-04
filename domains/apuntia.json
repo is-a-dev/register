@@ -1,0 +1,10 @@
+{
+  "domain": "is-a.dev",
+  "subdomain": "apuntia",
+  "owner": {
+    "username": "Jokerrv28"
+  },
+  "record": {
+    "CNAME": "apuntia.apuntia-jmg.workers.dev"
+  }
+}
