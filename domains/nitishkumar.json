@@ -1,0 +1,11 @@
+{
+  "name": "nitishkumar",
+  "description": "My personal project website hosted on Vercel",
+  "owner": {
+    "username": "Nitish752",
+    "email": "workinai4m@gmail.com"
+  },
+  "record": {
+    "CNAME": "://vercel-dns.com"
+  }
+}
