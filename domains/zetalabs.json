@@ -4,11 +4,8 @@
     "email": "zetayt@proton.me"
   },
   "records": {
-    "URL": "https://zetacraft.my.canva.site",
+    "URL": "https://zetalabs.my.canva.site",
     "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": [
-      "v=spf1 include:spf.forwardemail.net ~all",
-      "forward-email=zetalabs.official@proton.me"
-    ]
+    "TXT": ["v=spf1 include:spf.forwardemail.net ~all"]
   }
 }
