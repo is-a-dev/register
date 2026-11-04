@@ -14,11 +14,7 @@
         "priority": 20
       }
     ],
-    "TXT": [
-      {
-        "value": "forward-email=herpojmi365@gmail.com"
-      }
-    ]
+    "TXT": "forward-email=herpojmi365@gmail.com"
   },
   "proxied": true
 }
