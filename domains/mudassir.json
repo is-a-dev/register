@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Mudassir-ali228"
-    },
-    "records": {
-        "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "Mudassir-ali228"
+  },
+  "records": {
+    "CNAME": "portfolio-mudassir-ali.vercel.app"
+  }
 }

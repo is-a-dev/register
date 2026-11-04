@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "bvdwalt",
-        "email": "bvdwalt@protonmail.com"
-    },
-    "records": {
-        "CNAME": "blog.greedo.net"
-    }
+  "owner": {
+    "username": "bvdwalt",
+    "email": "bvdwalt@protonmail.com"
+  },
+  "records": {
+    "CNAME": "blog.greedo.net"
+  }
 }
