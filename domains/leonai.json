@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "lenaschogotsch-cloud",
+    "email": "lenaschogotsch@gmail.com"
+  },
+  "subdomain": "leonai",
+  "record": {
+    "CNAME": "6b594082-3583-4ee2-8010-d92e3dbd1ad7.cfargotunnel.com"
+  },
+  "proxied": false
+}
