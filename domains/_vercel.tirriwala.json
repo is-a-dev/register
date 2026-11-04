@@ -1,0 +1,9 @@
+{
+  "description": "Vercel domain verification for tirriwala.is-a.dev",
+  "owner": {
+    "username": "sparkyjod"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tirriwala.is-a.dev,037a740454033f55ac4a"
+  }
+}
