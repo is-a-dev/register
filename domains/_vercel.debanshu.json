@@ -1,0 +1,11 @@
+{
+  "description": "Vercel domain verification for debanshu.is-a.dev",
+  "repo": "https://github.com/debuJan/debanshu-portfolio",
+  "owner": {
+    "username": "debuJan",
+    "email": "debanshudevgoswami@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=debanshu.is-a.dev,9f2d784644a8c5f1a480"
+  }
+}
