@@ -3,9 +3,31 @@
     "username": "zetaytofficial",
     "email": "zetayt@proton.me"
   },
-  "records": {
+  "description": "ZetaLabs - official domain",
+  "record": {
     "URL": "https://zetalabs.my.canva.site",
-    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
-    "TXT": ["v=spf1 include:spf.forwardemail.net ~all"]
+    "MX": [
+      "10 mx1.forwardemail.net",
+      "10 mx2.forwardemail.net"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.forwardemail.net ~all",
+      "forward-email=zetalabs.official@proton.me",
+      "forward-email=info:zetalabs.official@proton.me",
+      "forward-email=zetacraft,zetacraft-hub,zetacrafthub:zetalabs.official@proton.me",
+      "forward-email=zeta3d-labs,zeta3d:zetalabs.official@proton.me",
+      "forward-email=apexlock:zetalabs.official@proton.me",
+      "forward-email=zetayt:zetayt@proton.me",
+      "forward-email=assistenza,supporto,help,assistenza-clienti:zetalabs.official@proton.me",
+      "forward-email=contatti,contact,hello:zetalabs.official@proton.me",
+      "forward-email=admin,administrator,amministrazione:zetalabs.official@proton.me",
+      "forward-email=business,partnership,collab,collaborazioni:zetalabs.official@proton.me",
+      "forward-email=legal,privacy,abuse,security,sicurezza:zetalabs.official@proton.me",
+      "forward-email=billing,fatture,pagamenti:zetalabs.official@proton.me",
+      "forward-email=noreply,no-reply,donotreply:zetalabs.official@proton.me",
+      "forward-email=press,stampa,media:zetalabs.official@proton.me",
+      "forward-email=jobs,lavoro,careers:zetalabs.official@proton.me",
+      "forward-email=dev,developer,supporto-tecnico:zetalabs.official@proton.me"
+    ]
   }
 }
