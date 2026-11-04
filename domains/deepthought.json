@@ -1,4 +1,8 @@
 {
-  "owner": { "username": "roy-reed" },
-  "record": { "CNAME": "deepthought.pages.dev" }
+  "owner": {
+    "username": "roy-reed"
+  },
+  "records": {
+    "CNAME": "deepthought.pages.dev"
+  }
 }
