@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "RajdeepKushwaha5"
-  },
-  "records": {
-    "CNAME": "rajdeep-singh.vercel.app"
-  }
+    "owner": {
+        "username": "rajdeep564",
+        "email": "chavdarajdeep77@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }

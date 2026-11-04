@@ -1,0 +1,10 @@
+{
+  "description": "Personal dev profile of Shubham Naik",
+  "owner": {
+    "username": "shbhmnk",
+    "email": "shubham.naik40@gmail.com"
+  },
+  "records": {
+    "CNAME": "shbhmnk.netlify.app"
+  }
+}
