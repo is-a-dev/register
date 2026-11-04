@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "itzhdgr",
-    "email": "itzhdgr@gmail.com"
-  },
-  "records": {
-    "URL": "https://hdgr.rgon.workers.dev"
-  }
+    "owner": {
+        "username": "itzhdgr",
+        "email": "itzhdgr@gmail.com"
+    },
+    "record": {
+        "CNAME": "://vercel-dns.com"
+    }
 }
