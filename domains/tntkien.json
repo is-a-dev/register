@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "tntkien",
-        "email": "kien.tnt.200901@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "tntkien",
+    "email": "kien.tnt.200901@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

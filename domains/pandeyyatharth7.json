@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "pandeyyatharth7",
-        "email": "pandeyyatharth7@gmail.com"
-    },
-    "records": {
-        "CNAME": "pandeyyatharth7.github.io"
-    }
+  "owner": {
+    "username": "pandeyyatharth7"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

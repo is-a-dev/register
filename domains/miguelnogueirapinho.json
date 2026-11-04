@@ -1,18 +1,29 @@
 {
-    "owner": {
-        "username": "trippytheog",
-        "email": "madmyke.booking@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"],
-        "TXT": [
-            "zoho-verification=zb12426221.zmverify.zoho.eu",
-            "v=spf1 include:zoho.eu ~all"
-        ],
-        "MX": [
-            { "target": "mx.zoho.eu", "priority": 10 },
-            { "target": "mx2.zoho.eu", "priority": 20 },
-            { "target": "mx3.zoho.eu", "priority": 50 }
-        ]
-    }
+  "owner": {
+    "username": "trippytheog",
+    "email": "madmyke.booking@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "TXT": [
+      "zoho-verification=zb12426221.zmverify.zoho.eu",
+      "v=spf1 include:zoho.eu ~all"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.eu",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.eu",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.eu",
+        "priority": 50
+      }
+    ]
+  }
 }
