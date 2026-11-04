@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "HungerMonster",
-        "email": "harithadzka.ramadhan@gmail.com"
-    },
-    "records": {
-        "CNAME": "hungermonster.github.io"
-    }
+  "owner": {
+    "username": "HungerMonster",
+    "email": "harithadzka.ramadhan@gmail.com"
+  },
+  "records": {
+    "CNAME": "hungermonster.github.io"
+  }
 }

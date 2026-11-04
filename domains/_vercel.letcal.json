@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Let-cal",
-        "email": "letcal2003@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=letcal.is-a.dev,bde6a67ff0f1b556c740"
-    }
+  "owner": {
+    "username": "Let-cal",
+    "email": "letcal2003@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=letcal.is-a.dev,bde6a67ff0f1b556c740"
+  }
 }

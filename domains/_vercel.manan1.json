@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "technoiris1",
-        "email": "sharmamanan1908@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=manan1.is-a.dev,767c781cef306882336f"
-    }
+  "owner": {
+    "username": "technoiris1",
+    "email": "sharmamanan1908@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=manan1.is-a.dev,767c781cef306882336f"
+  }
 }

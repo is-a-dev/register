@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "error-restart-your-computer",
-        "email": "error.restart.your.computer@gmail.com"
-    },
-    "records": {
-        "CNAME": "error-restart-your-computer.github.io"
-    }
+  "owner": {
+    "username": "error-restart-your-computer",
+    "email": "error.restart.your.computer@gmail.com"
+  },
+  "records": {
+    "CNAME": "error-restart-your-computer.github.io"
+  }
 }
