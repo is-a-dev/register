@@ -1,0 +1,9 @@
+{
+  "description": "Vercel domain verification for autowala.is-a.dev",
+  "owner": {
+    "username": "sparkyjod"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=autowala.is-a.dev,8917d0464a94fb01e341"
+  }
+}
