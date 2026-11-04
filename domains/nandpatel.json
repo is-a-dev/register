@@ -1,0 +1,21 @@
+{
+  "description": "Nand Patel's personal developer portfolio and email domain",
+  "owner": {
+    "username": "bgmihacker-ddos",
+    "email": "nandpatel0912@nandpatel.serv00.net"
+  },
+  "records": {
+    "A": [
+      "212.91.26.79"
+    ],
+    "MX": [
+      {
+        "target": "mail16.serv00.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:serv00.com ~all"
+    ]
+  }
+}
