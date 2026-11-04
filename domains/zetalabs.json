@@ -4,7 +4,7 @@
     "email": "zetayt@proton.me"
   },
   "description": "ZetaLabs - official domain",
-  "record": {
+  "records": {
     "URL": "https://zetalabs.my.canva.site",
     "MX": [
       "10 mx1.forwardemail.net",
