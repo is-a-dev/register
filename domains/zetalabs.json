@@ -3,8 +3,14 @@
     "username": "zetaytofficial",
     "email": "zetayt@proton.me"
   },
-  "subdomain": "zetalabs",
-  "records": {
-    "URL": "https://zetacraft.my.canva.site"
+  "record": {
+    "URL": "https://zetacraft.my.canva.site",
+    "MX": [
+      "10 mx1.improvmx.com.",
+      "20 mx2.improvmx.com."
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
   }
 }
