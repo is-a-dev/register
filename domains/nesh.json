@@ -4,6 +4,6 @@
     "discord": "njuken"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=nesh.is-a.dev,1b598b2a4fc827030db1"
   }
 }
