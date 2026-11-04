@@ -4,6 +4,10 @@
     "email": "engr.kamrul45@gmail.com"
   },
   "records": {
-    "CNAME": "kamrul.pages.dev"
-  }
+    "CNAME": "kamrul.pages.dev",
+    "TXT": [
+      "zoho-verification=zb71326163.zmverify.zoho.com"
+    ]
+  },
+  "proxied": true
 }
