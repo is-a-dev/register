@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "dontman-tech",
-        "email": "tabe7143@gmail.com"
-    },
-    "records": {
-        "CNAME": "dontman-tech.github.io"
-    }
+  "owner": {
+    "username": "dontman-tech",
+    "email": "tabe7143@gmail.com"
+  },
+  "records": {
+    "CNAME": "dontman-tech.github.io"
+  }
 }

@@ -1,9 +1,12 @@
 {
   "owner": {
     "username": "caelondev",
-    "email": "jerichopanagsagan0@gmail.com"
+    "email": "me@caelondev.net"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "URL": "https://caelondev.net"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

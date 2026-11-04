@@ -10,7 +10,8 @@
       "mx2.improvmx.com"
     ],
     "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
+      "v=spf1 include:spf.improvmx.com ~all",
+      "brevo-code:966d01c3b7e14ad563ce182fab8fb1a5"
     ]
   },
   "proxied": true
