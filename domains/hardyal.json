@@ -4,6 +4,9 @@
     "email": "hardyalsinghdeora@gmail.com"
   },
   "records": {
-    "CNAME": "hardyalsinghdeora.pages.dev"
+    "NS": [
+      "kyrie.ns.cloudflare.com",
+      "wren.ns.cloudflare.com"
+    ]
   }
 }
