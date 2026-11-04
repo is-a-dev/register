@@ -19,5 +19,6 @@
         "value": "forward-email=herpojmi365@gmail.com"
       }
     ]
-  }
+  },
+  "proxied": true
 }
