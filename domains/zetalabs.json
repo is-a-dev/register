@@ -7,8 +7,14 @@
   "records": {
     "URL": "https://zetalabs.my.canva.site",
     "MX": [
-      "10 mx1.forwardemail.net",
-      "10 mx2.forwardemail.net"
+      {
+        "priority": 10,
+        "value": "mx1.forwardemail.net"
+      },
+      {
+        "priority": 10,
+        "value": "mx2.forwardemail.net"
+      }
     ],
     "TXT": [
       "v=spf1 include:spf.forwardemail.net ~all",
