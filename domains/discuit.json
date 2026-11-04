@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "mhdnadeemali"
+    },
+    "description": "Discuit — local-first personal backup app; this relay proxies cellular/cross-network backups between a user's phone and their own desktop.",
+    "repo": "https://github.com/mhdnadeemali/Discuit",
+    "records": {
+        "A": ["129.158.59.254"]
+    }
+}
