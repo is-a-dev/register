@@ -1,0 +1,11 @@
+   {
+     "description": "My server",
+     "repo": "https://github.com/Camber62",
+     "owner": {
+       "username": "Camber62",
+       "email": "Camber62@mail.ru"
+     },
+     "record": {
+       "A": ["147.45.218.166"]
+     }
+   }
