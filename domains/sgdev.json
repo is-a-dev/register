@@ -1,12 +1,11 @@
 {
   "owner": {
-    "username": "sgsdev-official",
-    "email": "admin@sgdev.qd.je"
+    "username": "sgdev-official",
+    "email": "info@sgdev.is-cool.dev"
   },
   "records": {
-    "NS": [
-      "ridge.ns.cloudflare.com",
-      "teresa.ns.cloudflare.com"
+    "A": [
+      "216.24.57.1"
     ]
   }
 }
