@@ -1,0 +1,11 @@
+{
+  "name": "_vercel.postroenie205",
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "L3ndyy",
+    "email": "nikikak113@mail.ru"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=postroenie205.is-a.dev,e8abe4f649219a266496"]
+  }
+}
