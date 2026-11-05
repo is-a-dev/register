@@ -4,9 +4,6 @@
     "email": "echovats@gmail.com"
   },
   "records": {
-    "A": [
-      "168.107.76.0"
-    ]
-  },
-  "proxied": true
+    "CNAME": "ethanai-cart.github.io"
+  }
 }
