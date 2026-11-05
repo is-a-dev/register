@@ -1,1 +1,10 @@
-
+{
+  "description": "Coach Squeek — a beat-the-AI prediction game for Squeekchain, the hamster-powered blockchain (Sepolia testnet).",
+  "owner": {
+    "username": "tukangnyasar",
+    "email": "tukangnyasar@users.noreply.github.com"
+  },
+  "records": {
+    "CNAME": "tukangnyasar.github.io"
+  }
+}
