@@ -1,11 +1,11 @@
 {
+  "description": "Personal developer portfolio and projects",
   "owner": {
-    "username": "sandeeptechandroid"
+    "username": "sandeeptechandroid",
+    "email": "support@sandeeptech.dev"
   },
-  "records": {
-    "A": [
-      "27.100.38.228"
-    ]
+  "record": {
+    "A": ["27.100.38.228"]
   },
   "proxied": true
 }
