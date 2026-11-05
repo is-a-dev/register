@@ -4,6 +4,7 @@
     "email": "noahlunartistic@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "95c7451b1e9a44be.vercel-dns-017.com."
+    "TXT": "vc-domain-verify=www.aquatism.is-a.dev,6af74f69d1aaca2238c5"
   }
 }
