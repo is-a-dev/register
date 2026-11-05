@@ -4,9 +4,6 @@
     "email": "lixploittechnology@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": [
-      "vc-domain-verify=lixploit-venture.is-a.dev,b5386f21a611f736d4b6"
-    ]
+    "CNAME": "cname.vercel-dns.com"
   }
 }
