@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "duong02072002"
+    "username": "duong02072002",
+    "email": "duong02072002@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.cloudflare-dns.com"
   }
 }
