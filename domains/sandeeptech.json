@@ -5,7 +5,7 @@
     "email": "support@sandeeptech.dev"
   },
   "record": {
-    "A": ["27.100.38.228"]
+    "CNAME": "sandeeptech.dev"
   },
   "proxied": true
 }
