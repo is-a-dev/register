@@ -1,0 +1,14 @@
+{
+  "description": "Self-taught full-stack Node.js development practice project, with user auth, forum, check-in points and file download features, built as a personal web development work.",
+  "repo": "https://github.com/fcsygf/fcsy",
+  "owner": {
+    "username": "fcsygf",
+    "email": "m15572838380@163.com"
+  },
+  "record": {
+    "NS": [
+      "fish.ns.cloudflare.com",
+      "justin.ns.cloudflare.com"
+    ]
+  }
+}
