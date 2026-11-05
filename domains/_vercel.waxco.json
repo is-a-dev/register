@@ -3,6 +3,9 @@
     "username": "tham3212"
   },
   "records": {
-    "TXT": "vc-domain-verify=waxco.is-a.dev,c963124bc0f9951b3400"
+    "TXT": [
+      "vc-domain-verify=waxco.is-a.dev,8d9056a9ffce0c72a7c1",
+      "vc-domain-verify=www.waxco.is-a.dev,0c8c26c937d16e696f3e"
+    ]
   }
 }
