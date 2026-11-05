@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "khoasoma"
+        "username": "khoasoma",
+        "email": "songtu438@gmail.com"
     },
     "records": {
         "CNAME": "nstu.songtu438.workers.dev"
