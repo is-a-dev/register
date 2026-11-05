@@ -7,6 +7,12 @@
     "record": {
         "A": [
             "216.198.79.1"
+        ],
+        "TXT": [
+            {
+                "name": "_vercel",
+                "value": "vc-domain-verify=drillingz.is-a.dev,a5cdc7b2163ad746a92c"
+            }
         ]
     }
 }
