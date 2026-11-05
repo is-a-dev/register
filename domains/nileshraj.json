@@ -1,21 +1,9 @@
-# Requirements
-
-- [x] <!-- TOS --> I **agree** to the [Terms of Service](https://is-a.dev/terms).
-- [x] <!-- DOMAIN_STRUCTURE --> My file is following the [domain structure](https://docs.is-a.dev/domain-structure/).
-- [x] <!-- WEBSITE_REACHABLE --> My website is **reachable** and **completed**.
-- [x] <!-- SOFTWARE_RELATED --> My website is **software development** related.
-- [x] <!-- NON_COMMERCIAL --> My website is **not for commercial use**.
-- [x] <!-- CONTACT_INFO --> I have provided sufficient contact information in the `owner` key.
-- [x] <!-- WEBSITE_LINK --> I have provided a link to my website below.
-
-# Website Preview
-
-<!-- WEBSITE_PREVIEW_START -->
-https://nileshraj-portfolio.vercel.app
-<!-- WEBSITE_PREVIEW_END -->
-
-# Website Purpose
-
-<!-- WEBSITE_PURPOSE_START -->
-WRITE YOUR OWN SENTENCE HERE
-<!-- WEBSITE_PURPOSE_END -->
+{
+  "owner": {
+    "username": "Nilesh1735",
+    "email": "nileshraj1735@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
