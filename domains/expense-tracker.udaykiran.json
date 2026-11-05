@@ -1,10 +1,11 @@
-
 {
   "owner": {
     "username": "Uday6790",
     "email": "ukuday981@gmail.com"
   },
   "records": {
-    "CNAME": "expense-tracker-app-ckop.onrender.com"
+    "A": [
+      "216.24.57.1"
+    ]
   }
 }
