@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "sanjuvsk07-stack"
+  },
+  "records": {
+    "CNAME": "pixel-perfect-replay-35429.sanjuvsk07.workers.dev"
+  },
+  "proxied": false
+}
