@@ -5,6 +5,6 @@
   },
   "subdomain": "duty-w7615",
   "record": {
-    "CNAME": duty-app.w7615duty.workers.dev
+    "CNAME": "duty-app.w7615duty.workers.dev"
   }
 }
