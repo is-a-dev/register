@@ -4,7 +4,6 @@
   },
   "records": {
     "CNAME": "lxc5proton.github.io"
-  },
-  "proxy": true
+  }
 }
 
