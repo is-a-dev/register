@@ -3,6 +3,6 @@
         "username": "raphael9031"
     },
     "records": {
-        "CNAME": "rafzs9031.vercel.app"
+        "TXT": "vc-domain-verify=9031.is-a.dev,65f2bd44a84379f3931b"
     }
 }
