@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "farhanr22"
-    },
-    "records": {
-        "CNAME": "farhanr22.netlify.app"
-    }
+  "owner": {
+    "username": "farhanr22"
+  },
+  "records": {
+    "CNAME": "farhanr22.netlify.app"
+  }
 }

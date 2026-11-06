@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Fajis",
-        "email": "pmfajis@gmail.com"
-    },
-    "records": {
-        "CNAME": "fajis.github.io"
-    }
+  "owner": {
+    "username": "Fajis",
+    "email": "pmfajis@gmail.com"
+  },
+  "records": {
+    "CNAME": "fajis.github.io"
+  }
 }

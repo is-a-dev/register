@@ -5,6 +5,9 @@
     "discord": "vietthedev"
   },
   "records": {
-    "NS": ["evangeline.ns.cloudflare.com", "salvador.ns.cloudflare.com"]
+    "NS": [
+      "evangeline.ns.cloudflare.com",
+      "salvador.ns.cloudflare.com"
+    ]
   }
 }

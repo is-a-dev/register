@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "boopup"
-    },
-    "records": {
-        "CNAME": "cname.short.io"
-    }
+  "owner": {
+    "username": "boopup"
+  },
+  "records": {
+    "CNAME": "cname.short.io"
+  }
 }

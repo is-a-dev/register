@@ -1,0 +1,9 @@
+{
+  "description": "Clerk email delivery for ABAP Studio",
+  "owner": {
+    "username": "akashgupta221"
+  },
+  "records": {
+    "CNAME": "mail.nefqx6afwufx.clerk.services"
+  }
+}

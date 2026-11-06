@@ -1,9 +1,0 @@
-{
-    "owner": {
-        "username": "doughmination",
-        "email": "admin@doughmination.win"
-    },
-    "records": {
-        "TXT": "v=DMARC1; p=quarantine"
-    }
-}

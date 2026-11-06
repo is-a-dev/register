@@ -1,0 +1,10 @@
+*.md
+.github
+media
+tests/*
+util/*
+*.js
+package*.json
+.prettier*
+.gitignore
+LICENSE

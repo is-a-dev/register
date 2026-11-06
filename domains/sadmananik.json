@@ -4,6 +4,9 @@
     "email": "sadmananik8986@gmail.com"
   },
   "records": {
-    "CNAME": "api-render-nqht.onrender.com"
-  }
+    "A": [
+      "216.198.79.1"
+    ]
+  },
+  "proxied": false
 }

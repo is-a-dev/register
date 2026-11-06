@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "TheRealRexo",
+    "email": "ahmedelkafas15@gmail.com"
+  },
+  "records": {
+    "TXT": "v=spf1 include:amazonses.com ~all",
+    "MX": [
+      {
+        "target": "feedback-smtp.us-east-1.amazonses.com",
+        "priority": 10
+      }
+    ]
+  }
+}

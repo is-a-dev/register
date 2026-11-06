@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "ENSI-Sahnoun",
+    "email": "work@sahnoun.dev"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=sahnoun.is-a.dev,7b378c42e04525dcd010",
+      "vc-domain-verify=www.sahnoun.is-a.dev,47014c9e7b48f27cced5"
+    ]
+  }
+}

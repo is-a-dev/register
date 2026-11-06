@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "SaiAnirudVarma",
+    "email": "saianirudhvarmauppalapati@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
+  }
+}

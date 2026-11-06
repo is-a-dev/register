@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "christopherfoxjr",
-        "email": "spoinkosgithub@gmail.com"
-    },
-    "records": {
-        "CNAME": "christopherfoxjr.github.io"
-    }
+  "owner": {
+    "username": "christopherfoxjr",
+    "email": "spoinkosgithub@gmail.com"
+  },
+  "records": {
+    "CNAME": "christopherfoxjr.github.io"
+  }
 }

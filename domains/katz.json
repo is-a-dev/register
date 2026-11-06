@@ -4,6 +4,9 @@
     "discord": "banana_lol_7678"
   },
   "records": {
-    "NS": ["audrey.ns.cloudflare.com", "hank.ns.cloudflare.com"]
+    "NS": [
+      "audrey.ns.cloudflare.com",
+      "hank.ns.cloudflare.com"
+    ]
   }
 }
