@@ -1,7 +1,10 @@
 {
-  "owner": "lxc5proton",
+  "owner": {
+    "username": "lxc5proton"
+  },
   "records": {
     "CNAME": "lxc5proton.github.io"
   },
   "proxy": true
 }
+
