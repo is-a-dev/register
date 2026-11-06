@@ -1,0 +1,11 @@
+{
+"owner": {
+"username": "bazumtaaveyno-cloud",
+"email": "bazumtaaveyno@gmail.com"
+},
+"subdomain": "lybrnart",
+"records": {
+"A": ["1.1.1.1"]
+},
+"proxied": false
+}
