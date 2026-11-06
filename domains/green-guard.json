@@ -1,0 +1,12 @@
+{
+  "name": "green-guard",
+  "description": "Automatic solar powered smart stray cattle deterrent system by Om Agritech",
+  "repo": "https://github.com/omagrtech556-oss/green-guard-harvest-watch",
+  "owner": {
+    "username": "omagrtech556-oss",
+    "email": "omagrtech55@gmail.com"
+  },
+  "record": {
+    "CNAME": "green-guard-harvest-watch.pages.dev"
+  }
+}
