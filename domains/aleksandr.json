@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "Alexto-IP"
+    "username": "Alexto-IP", 
+    "email": "alex.ipanov@icloud.com"
   },
   "records": {
     "CNAME": "alexto-ip.github.io"
