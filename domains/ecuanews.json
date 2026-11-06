@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "RDM-Tv",
+    "username": "RDM-TV",
     "email": "rhonnie.tv@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "rdm-tv.github.io"
   }
 }
