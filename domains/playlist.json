@@ -1,8 +1,7 @@
 {
-  "owner": {
-    "username": "Lxc5proton"
-  },
+  "owner": "lxc5proton",
   "records": {
-    "CNAME": "245a3025-3fc8-4bfc-aaca-e1b57f39d566.cfargotunnel.com"
-  }
+    "CNAME": "lxc5proton.github.io"
+  },
+  "proxy": true
 }
