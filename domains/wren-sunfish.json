@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "wren-sunfish",
+    "email": "sage.sunfish@proton.me"
+  },
+  "records": {
+    "TXT": ["v=spf1 include:spf.mailjet.com ?all"]
+  }
+}
