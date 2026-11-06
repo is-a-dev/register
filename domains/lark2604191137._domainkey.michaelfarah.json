@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "michael-farah"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6ejJNflPbdIIy0+4kjh+H6OjSd0A+pq82YkPyw39uYqqTUOgcCkqxU6ezNsEqegRsBAYItH9VlSJ50tAtQAjBzfcCj6lkjMgFeVZBEL224I9jhzXj33d5PABo65AEwWPRxXmyM0NwwXb611+APFTCv4KOE2A8lZOD1Gyx1A3owlIU9cx2+04HGfE/zsDjgsz7XnmllDtSTHQ1J8zXkKYIxDkUwVbSQt0O9JGLfJ+gB3CUATOgUCgYjXW8lWJp21iY3vwqGe5lAg9HWXg9TMOtV6bDLZACRVONxpLRupdAl521Z2u3M1CcbIJ3IWMJkdzvn5cjysVZGoYp2etv/OZRwIDAQAB"
+  }
+}

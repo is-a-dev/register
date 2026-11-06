@@ -1,8 +1,9 @@
 {
-  "owner": {
-    "username": "antonio-ivanovski"
-  },
-  "records": {
-    "CNAME": "antonio-ivanovski.github.io"
-  }
+    "owner": {
+        "username": "YantCaccia",
+        "email": "yantcaccia@gmail.com"
+    },
+    "records": {
+        "CNAME": "yantcaccia.github.io"
+    }
 }

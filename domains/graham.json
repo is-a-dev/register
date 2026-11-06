@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "grahamburgsma",
-        "email": "graham.burgsma@gmail.com"
-    },
-    "records": {
-        "CNAME": "grahamburgsma.github.io"
-    }
+  "owner": {
+    "username": "grahamburgsma",
+    "email": "graham.burgsma@gmail.com"
+  },
+  "records": {
+    "CNAME": "grahamburgsma.github.io"
+  }
 }

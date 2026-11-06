@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "azzsou05-stack",
+    "email": "Azzsou05@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpxzMK7M5sLWp1gCreClW6eNpOxde41uyB59jhNSSuUl0+88TGy7Kk1UbQzdUqN3s5z3kCCQWXCpxgM5KK4Oo+MGRNIC/JQT2nGpId6lY17zaYLDS0SI32kaskDL9m2F1iYdRynbt42cszVHzIZpyYRVOwIS8NP8IlT/xo6qVaFwIDAQAB"
+  }
+}

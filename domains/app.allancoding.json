@@ -1,5 +1,4 @@
 {
-  "description": "My app website for diffrent services",
   "owner": {
     "username": "allancoding",
     "email": "allancoding.dev@gmail.com",
@@ -7,6 +6,7 @@
     "discord": "allancoding"
   },
   "records": {
-    "A": ["206.188.218.143"]
-  }
+    "CNAME": "dns.allancoding.dev"
+  },
+  "proxied": true
 }

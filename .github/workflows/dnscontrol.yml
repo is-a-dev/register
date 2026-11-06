@@ -17,8 +17,11 @@ jobs:
         name: Tests
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
-            - uses: is-a-dev/dnscontrol-action@main
+            - uses: gacts/install-dnscontrol@890ba3249712c51203ccb7aba63307c0091e921b # v1.3.4
               with:
-                  args: check
+                  version: 4.14.0
+
+            - name: Run DNSControl checks
+              run: dnscontrol check

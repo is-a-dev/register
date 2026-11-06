@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "tecnocrata",
+    "email": "enrique@ortuno.net"
+  },
+  "records": {
+    "URL": "https://tecnocrata.vercel.app"
+  },
+  "proxied": false,
+  "redirect_config": {
+    "custom_paths": {
+      "/github": "https://github.com/tecnocrata"
+    },
+    "redirect_paths": true
+  }
+}
