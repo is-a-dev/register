@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "zydric"
+        "username": "zydric",
+        "email": "zydricabel@gmail.com"
     },
     "records": {
         "TXT": "vc-domain-verify=zydric.is-a.dev,dbe406224f51706de9a7"
