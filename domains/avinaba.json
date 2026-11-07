@@ -3,6 +3,6 @@
     "username": "AbhiDev-pro"
   },
   "records": {
-    "CNAME": "64b917c8dc2eb3c7.vercel-dns-017.com."
+    "A": ["216.198.79.1"]
   }
 }
