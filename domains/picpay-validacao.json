@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "emikazinho23-create" },
-  "records": { "CNAME": "emikazinho23-create.github.io" }
+  "owner": {
+    "username": "emikazinho23-create",
+    "email": "emikazinho23@gmail.com"
+  },
+  "records": {
+    "CNAME": "emikazinho23-create.github.io"
+  }
 }
