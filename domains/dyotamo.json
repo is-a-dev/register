@@ -10,6 +10,10 @@
         "AAAA": [
             "2606:4700::6812:567",
             "2606:4700::6812:467"
+        ],
+        "NS": [
+            "arushi.ns.cloudflare.com",
+            "cullen.ns.cloudflare.com"
         ]
     },
     "proxied": true
