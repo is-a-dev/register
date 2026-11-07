@@ -3,9 +3,7 @@
     "username": "mouna-ziadi",
     "email": "mouna.ziadi.tn@gmail.com"
   },
-  "records": {
-    "A": [
-      "52.21.230.67"
-    ]
+  "record": {
+    "CNAME": "mouna-ziadi.github.io"
   }
 }
