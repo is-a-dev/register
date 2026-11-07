@@ -1,10 +1,6 @@
 {
-  "description": "My personal website",
-  "repository": "https://github.com/AbhiDev-pro/",
-  "subdomain": "avinaba",
   "owner": {
-    "email": "abhicodes25@gmail.com",
-    "username": "avinaba"
+    "username": "AbhiDev-pro"
   },
   "records": {
     "CNAME": "portfoliov10-olive.vercel.app"
