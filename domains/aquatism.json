@@ -1,9 +1,8 @@
 {
-  "owner": {
-    "username": "aquaisadev",
-    "email": "noahlunartistic@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+    "owner": {
+        "username": "aquaisadev"
+    },
+    "records": {
+        "A": ["76.76.21.21"]
+    }
 }
