@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "zumaetaadriel2",
-        "email": "zumaetaadriel2@gmail.com"
-    },
-    "records": {
-        "TXT": ["vc-domain-verify=adriel.is-a.dev,2fec71ddb984d82dfae2"]
-    }
+  "owner": {
+    "username": "zumaetaadriel2",
+    "email": "zumaetaadriel2@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=adriel.is-a.dev,2fec71ddb984d82dfae2"
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Renard-admin"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=renard.is-a.dev,d7ab89bbfbd096a686a8"
-    }
+  "owner": {
+    "username": "Renard-admin"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=renard.is-a.dev,d7ab89bbfbd096a686a8"
+  }
 }

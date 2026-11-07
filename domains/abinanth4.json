@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Abinanth-A",
-        "email": "abinanthaex@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "Abinanth-A",
+    "email": "abinanthaex@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

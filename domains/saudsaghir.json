@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "saud302",
-        "email": "saudkhan.web@gmail.com"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "saud302",
+    "email": "saudkhan.web@gmail.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

@@ -34,8 +34,10 @@ jobs:
                       domain:
                           - "domains/*"
                       documentation:
+                          - ".github/ISSUE_TEMPLATE/*"
                           - ".github/PULL_REQUEST_TEMPLATE.md"
                           - ".github/copilot-instructions.md"
+                          - "AGENTS.md"
                           - "README.md"
                       r-william:
                           - ".github/CODEOWNERS"

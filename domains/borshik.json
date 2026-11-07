@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "BorshikNotFound",
-        "email": "borshik2293@gmail.com"
-    },
-    "records": {
-        "CNAME": "borshiknotfound.github.io"
-    }
+  "owner": {
+    "username": "BorshikNotFound",
+    "email": "borshik2293@gmail.com"
+  },
+  "records": {
+    "CNAME": "borshiknotfound.github.io"
+  }
 }

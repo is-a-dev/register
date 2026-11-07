@@ -4,6 +4,8 @@
     "email": "namandhakad712@gmail.com"
   },
   "records": {
-    "TXT": ["v=DMARC1; p=none; sp=none; adkim=r; aspf=r; pct=100; rua=mailto:namandhakad712+bro@gmail.com"]
+    "TXT": [
+      "v=DMARC1; p=none; sp=none; adkim=r; aspf=r; pct=100; rua=mailto:namandhakad712+bro@gmail.com"
+    ]
   }
 }

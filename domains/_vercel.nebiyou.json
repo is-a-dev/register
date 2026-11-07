@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "cosmoset",
-        "email": "takitakir64@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=nebiyou.is-a.dev,05ab6905af48f9185f11"
-    }
+  "owner": {
+    "username": "cosmoset",
+    "email": "takitakir64@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=nebiyou.is-a.dev,05ab6905af48f9185f11"
+  }
 }

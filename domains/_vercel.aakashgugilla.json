@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Gugilla-Aakash",
-        "email": "aakashgugilla559@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aakashgugilla.is-a.dev,8bcea4b37f5c5b75381d"
-    }
+  "owner": {
+    "username": "Gugilla-Aakash",
+    "email": "aakashgugilla559@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aakashgugilla.is-a.dev,8bcea4b37f5c5b75381d"
+  }
 }

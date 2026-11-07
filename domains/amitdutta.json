@@ -1,0 +1,24 @@
+{
+  "owner": {
+    "username": "notamitgamer"
+  },
+  "records": {
+    "URL": "https://amit.is-a.dev"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/bmac": "https://buymeacoffee.com/notamitgamer",
+      "/bsky": "https://bsky.app/profile/amit.is-a.dev",
+      "/usercontent": "https://usercontent.amit.is-a.dev",
+      "/discord": "https://discord.com/users/1274721760088166495",
+      "/github": "https://github.com/notamitgamer",
+      "/facebook": "https://facebook.com/notamitgamer",
+      "/instagram": "https://www.instagram.com/notamitgamer",
+      "/linkedin": "https://linkedin.com/in/notamitgamer",
+      "/reddit": "https://www.reddit.com/user/notamitgamer/",
+      "/sponsor": "https://github.com/sponsors/notamitgamer",
+      "/x": "https://x.com/notamitgamer"
+    },
+    "redirect_paths": true
+  }
+}
