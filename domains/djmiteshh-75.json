@@ -1,11 +1,8 @@
-
 {
   "owner": {
-    "username": "ymitesh760-star",
-    "email": "ymitesh760@gmail.com"
+    "username": "ymitesh760-star"
   },
-  "record": {
-    "CNAME": "YOUR-VERCEL-DOMAIN.vercel.app"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }
-  
