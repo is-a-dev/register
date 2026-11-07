@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "ananvaypandey" },
-  "records": { "CNAME": "ananvaypandey.github.io" }
+  "owner": {
+    "username": "ananvaypandey",
+    "email": "ananvaypandey29@gmail.com"
+  },
+  "records": {
+    "CNAME": "ananvaypandey.github.io"
+  }
 }
