@@ -1,11 +1,8 @@
 {
   "owner": {
-    "username": "ExcessByte",
-    "email": "ericdenny26@gmail.com"
+    "username": "ExcessByte"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+     "CNAME": "excessbyte.github.io"
   }
 }
