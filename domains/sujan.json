@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "sujansenthil01-bee",
-    "email": "sujansenthil01@gmail.com"
+    "username": "sujansenthil01-bee"
   },
   "records": {
-    "CNAME": "space-5ga.pages.dev"
+    "CNAME": "YOUR-HOSTING-TARGET"
   }
 }
