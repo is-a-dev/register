@@ -1,1 +1,9 @@
-hades-ops.json
+{
+  "owner": {
+    "username": "thor5432111",
+    "email": "modiiimodi5432@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
