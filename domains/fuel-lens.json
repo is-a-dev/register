@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "therealkarle",
+    "email": "therealkarle@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "dara.ns.cloudflare.com",
+      "lance.ns.cloudflare.com"
+    ]
+  }
+}
