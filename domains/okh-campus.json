@@ -1,8 +1,9 @@
-{
-    "owner": {
-        "username": "aliahbila2-alt"
-    },
-    "records": {
-        "CNAME": "aliahbila2-alt.github.io"
-    }
-}
+  {
+      "owner": {
+          "username": "aliahbila2-alt",
+          "email": "ali.ahbila2@gmail.com"
+      },
+      "records": {
+          "CNAME": "aliahbila2-alt.github.io"
+      }
+  }
