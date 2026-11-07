@@ -1,8 +1,4 @@
-## Requirements
-- [x] The file is in the `domains` folder
-- [x] The file is valid JSON
-- [x] The domain is not already registered
-- [x] I have read the contributing guidelines
-
-## Domain
-picpay-validacao.is-a.dev
+{
+  "owner": { "username": "emikazinho23-create" },
+  "records": { "CNAME": "emikazinho23-create.github.io" }
+}
