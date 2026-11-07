@@ -1,12 +1,30 @@
 {
   "owner": {
     "username": "sm999khan-papsa",
-    "email": "sm999khan@gmail.com"
+    "email": "papsa1212k@gmail.com"
   },
-  "domain": "smaistudio",
   "record": {
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "CNAME": "cname.vercel-dns.com"
   },
-  "proxied": false
+  "records": {
+    "MX": [
+      {
+        "host": "@",
+        "value": "mx1.improvmx.com.",
+        "priority": 10
+      },
+      {
+        "host": "@",
+        "value": "mx2.improvmx.com.",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      {
+        "host": "@",
+        "value": "v=spf1 include:spf.improvmx.com ~all"
+      }
+    ]
+  },
+  "proxied": true
 }
