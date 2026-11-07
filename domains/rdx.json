@@ -3,6 +3,9 @@
         "username": "gymkhanaiitk"
     },
     "records": {
-        "CNAME": "gymkhanaiitk.github.io"
+        "NS": [
+            "eric.ns.cloudflare.com",
+            "phoenix.ns.cloudflare.com"
+        ]
     }
 }
