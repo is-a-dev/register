@@ -7,11 +7,12 @@
   "records": {
     "URL": "https://moiz-73.github.io/devtools-kit/",
     "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
+      "mx1.forwardemail.net",
+      "mx2.forwardemail.net"
     ],
     "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
+      "v=spf1 a include:spf.forwardemail.net -all",
+      "forward-email=anonysusarchiver@gmail.com"
     ]
   }
 }
