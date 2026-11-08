@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "rajdeep564",
-        "email": "chavdarajdeep77@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=rajdeep.is-a.dev,02792f58cd5f6b421f81"
-    }
+  "owner": {
+    "username": "rajdeep564",
+    "email": "chavdarajdeep77@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=rajdeep.is-a.dev,02792f58cd5f6b421f81"
+  }
 }

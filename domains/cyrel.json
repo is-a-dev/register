@@ -1,1 +1,10 @@
-{"description":"My personal portfolio","owner":{"email":"dalinacyrel@gmail.com","username":"Cyrel91"},"records":{"CNAME":"cyrel.netlify.app"}}
+{
+  "description": "My personal portfolio",
+  "owner": {
+    "email": "dalinacyrel@gmail.com",
+    "username": "Cyrel91"
+  },
+  "records": {
+    "CNAME": "cyrel.netlify.app"
+  }
+}

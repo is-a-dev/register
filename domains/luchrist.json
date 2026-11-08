@@ -5,7 +5,9 @@
     "username": "christian-dev1",
     "email": "nouchrist773@gmail.com"
   },
-  "records":{
-    "A": ["169.58.127.116"]
+  "records": {
+    "A": [
+      "169.58.127.116"
+    ]
   }
 }

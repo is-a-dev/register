@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "onewaez",
-        "email": "onewaezwork@gmail.com"
-    },
-    "records": {
-        "CNAME": "onewaez.github.io"
-    }
+  "owner": {
+    "username": "onewaez",
+    "email": "onewaezwork@gmail.com"
+  },
+  "records": {
+    "CNAME": "onewaez.github.io"
+  }
 }

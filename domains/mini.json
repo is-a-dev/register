@@ -1,1 +1,9 @@
-{"owner":{"email":"lyh15597771770@gmail.com","username":"15597771770-cpu"},"records":{"CNAME":"15597771770-cpu.github.io"}}
+{
+  "owner": {
+    "email": "lyh15597771770@gmail.com",
+    "username": "15597771770-cpu"
+  },
+  "records": {
+    "CNAME": "15597771770-cpu.github.io"
+  }
+}

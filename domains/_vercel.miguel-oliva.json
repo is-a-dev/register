@@ -1,1 +1,9 @@
-{"owner":{"username":"Raiderstor","email":"olivapalazonmiguel@gmail.com"},"records":{"TXT":"vc-domain-verify=miguel-oliva.is-a.dev,4d16f0f69ce6e3853e54"}}
+{
+  "owner": {
+    "username": "Raiderstor",
+    "email": "olivapalazonmiguel@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=miguel-oliva.is-a.dev,4d16f0f69ce6e3853e54"
+  }
+}

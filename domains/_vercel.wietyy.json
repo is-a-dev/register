@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "wietyy"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=wietyy.is-a.dev,2c99610d473ea35d28f8"
-    }
+  "owner": {
+    "username": "wietyy"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=wietyy.is-a.dev,2c99610d473ea35d28f8"
+  }
 }

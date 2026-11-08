@@ -1,9 +1,9 @@
 {
-    "records":  {
-                    "CNAME":  "shazanasmi-lgtm.github.io"
-                },
-    "owner":  {
-                  "email":  "shazanasmi@gmail.com",
-                  "username":  "shazanasmi-lgtm"
-              }
+  "records": {
+    "CNAME": "shazanasmi-lgtm.github.io"
+  },
+  "owner": {
+    "email": "shazanasmi@gmail.com",
+    "username": "shazanasmi-lgtm"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "spark142857142857",
-        "email": "spark142857@gmail.com"
-    },
-    "records": {
-        "CNAME": "spark142857142857.github.io"
-    }
+  "owner": {
+    "username": "spark142857142857",
+    "email": "spark142857@gmail.com"
+  },
+  "records": {
+    "CNAME": "spark142857142857.github.io"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mateosomozadiaz",
-        "email": "mateosomozadiaz@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=mateo.is-a.dev,35bda158b7711eaff707"
-    }
+  "owner": {
+    "username": "mateosomozadiaz",
+    "email": "mateosomozadiaz@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mateo.is-a.dev,35bda158b7711eaff707"
+  }
 }

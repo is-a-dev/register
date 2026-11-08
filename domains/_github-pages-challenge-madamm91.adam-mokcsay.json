@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "madamm91", "email": "adam.mokcsay@gmail.com" },
-  "records": { "TXT": "b59e07139ce052b43a946ae9f99baf" }
+  "owner": {
+    "username": "madamm91",
+    "email": "adam.mokcsay@gmail.com"
+  },
+  "records": {
+    "TXT": "b59e07139ce052b43a946ae9f99baf"
+  }
 }

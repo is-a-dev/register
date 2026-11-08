@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "fantastic0206"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=fantasy.is-a.dev,047c69b4bed0635b9fd9"
-    }
+  "owner": {
+    "username": "fantastic0206"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=fantasy.is-a.dev,047c69b4bed0635b9fd9"
+  }
 }

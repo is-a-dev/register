@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "judemusyoki",
-        "email": "judemusyoki@gmail.com"
-    },
-    "records": {
-        "CNAME": "e1bc60a230f27e70.vercel-dns-017.com"
-    }
+  "owner": {
+    "username": "judemusyoki",
+    "email": "judemusyoki@gmail.com"
+  },
+  "records": {
+    "CNAME": "e1bc60a230f27e70.vercel-dns-017.com"
+  }
 }

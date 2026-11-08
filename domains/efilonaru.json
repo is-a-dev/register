@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "efilonaru"
-    },
-    "records": {
-        "CNAME": "efilonaru.github.io"
-    }
+  "owner": {
+    "username": "efilonaru"
+  },
+  "records": {
+    "CNAME": "efilonaru.github.io"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "hamdibenjarrar",
-        "email": "hamdibenjarrar@gmail.com"
-    },
-    "records": {
-        "TXT": "v=DMARC1; p=reject; rua=mailto:hamdibenjarrar@gmail.com"
-    }
+  "owner": {
+    "username": "hamdibenjarrar",
+    "email": "hamdibenjarrar@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=reject; rua=mailto:hamdibenjarrar@gmail.com"
+  }
 }

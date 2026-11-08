@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "m7taha",
-        "email": "m.7taharajpoot@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=mohammadtaha.is-a.dev,57e7f24a4d92f78e0290"
-    }
+  "owner": {
+    "username": "m7taha",
+    "email": "m.7taharajpoot@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mohammadtaha.is-a.dev,57e7f24a4d92f78e0290"
+  }
 }

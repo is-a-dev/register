@@ -1,1 +1,9 @@
-{"owner":{"username":"ebinesh25","email":"ebinesh2511@gmail.com"},"records":{"CNAME":"c6a527ef6ef2ca58.vercel-dns-017.com"}}
+{
+  "owner": {
+    "username": "ebinesh25",
+    "email": "ebinesh2511@gmail.com"
+  },
+  "records": {
+    "CNAME": "c6a527ef6ef2ca58.vercel-dns-017.com"
+  }
+}
