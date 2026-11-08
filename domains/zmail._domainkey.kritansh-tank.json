@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Kritansh-Tank",
+    "email": "tankkritansh088@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpd/bUy4HJ1pBO1U/7i0HegBqf3n8llepTpAFDayq7VDprsqhvcr8XluLGSzCY7BjXBJj1FZ4BrfxXHQVHl290/wFbpVZ09fF28TNV1H8NzsYYt1eM51KGVn6A4pgRnYHvDU9jU+kRQhLmQdyFi8wg3GqR+2zNo+cSh5Q0oJo2YwIDAQAB"
+  }
+}

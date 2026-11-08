@@ -1,9 +1,25 @@
 {
   "owner": {
-    "username": "bot-coder0815",
-    "email": "devcodermc+github.com@gmail.com"
+    "username": "DevCoderMC",
+    "email": "devcodermc+portfolio@gmail.com"
   },
   "records": {
-    "CNAME": "bot-coder0815.github.io"
+    "A": [
+      "216.198.79.1"
+    ],
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all",
+      "brevo-code:3ef8d8dd3d5116c22e82380e3c0b5741"
+    ]
   }
 }
