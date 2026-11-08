@@ -1,12 +1,12 @@
 {
     "owner": {
         "username": "Anshul-Anuragi",
-        "email": "kabeer87088@gmail.com"
+        "email": "kabeer0700@gmail.com"
     },
     "record": {
         "CNAME": "://vercel-dns.com",
         "TXT": [
-            "brevo-code:brevo-code:a7b08577999d9c58deeb3699912efb27",
+            "brevo-code:a7b085770509dc50dacb2d09912ffd27",
             "v=DMARC1; p=none; rua=mailto:dmarc@aqvonx.is-a-dev"
         ]
     }
