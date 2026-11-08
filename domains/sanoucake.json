@@ -1,11 +1,9 @@
 {
-  "description": "Maison Sanou Cake Constantine — Pièces Montées de Mariage, Khotba & Cake Design 3D",
-  "repo": "https://github.com/btmanis93-debug/SANOU-CAKE-",
   "owner": {
     "username": "btmanis93-debug",
     "email": "boutemmine.anis@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
