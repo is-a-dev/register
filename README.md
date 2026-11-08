@@ -52,3 +52,4 @@ If you would like to help support us, please consider [donating](https://donate.
 We are proudly supported by Cloudflare's [Project Alexandria](https://www.cloudflare.com/lp/project-alexandria) program for our DNS management.
 
 We would like to thank all of our current and past [supporters](https://is-a.dev/thanks).
+squeekchain-project: 7a6711e5-7f0f-48d4-8888-2e17582ec84b
