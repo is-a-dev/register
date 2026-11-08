@@ -1,0 +1,17 @@
+{
+  "description": "DevTools Kit project page and maintainer email",
+  "owner": {
+    "username": "moiz-73",
+    "email": "f2025408135@umt.edu.pk"
+  },
+  "records": {
+    "URL": "https://moiz-73.github.io/devtools-kit/",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
+}

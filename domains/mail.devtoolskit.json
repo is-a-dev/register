@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "moiz-73",
+    "email": "f2025408135@umt.edu.pk"
+  },
+  "records": {
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
+}
