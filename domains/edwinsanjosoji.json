@@ -3,7 +3,10 @@
         "username": "edwinsanjo",
         "email": "edwinsanjosoji@gmail.com"
     },
-    "records": {
-        "CNAME": "edwinsanjo.github.io"
-    }
+    "record": {
+    "NS": [
+      "dalary.ns.cloudflare.com",
+      "miles.ns.cloudflare.com"
+    ]
+  }
 }
