@@ -1,0 +1,28 @@
+{
+  "owner": {
+    "username": "kamrullab",
+    "email": "engr.kamrul45@gmail.com"
+  },
+  "records": {
+    "CNAME": "kamrul.pages.dev",
+    "TXT": [
+      "zoho-verification=zb71326163.zmverify.zoho.com",
+      "v=spf1 include:zohomail.com ~all"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 50
+      }
+    ]
+  },
+  "proxied": true
+}
