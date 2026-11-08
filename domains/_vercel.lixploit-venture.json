@@ -4,6 +4,6 @@
     "email": "lixploittechnology@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=lixploit-venture.is-a.dev,b5386f21a611f736d4b6"
+    "TXT": ["vc-domain-verify=lixploit-venture.is-a.dev,b5386f21a611f736d4b6", "vc-domain-verify=www.lixploit-venture.is-a.dev,3a09d5b27c4ddf4f9be2"]
   }
 }
