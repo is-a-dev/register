@@ -4,6 +4,6 @@
     "email": "mymaniscr7@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=biton.is-a.dev,1cc9233d9a459ed3445b"
+    "TXT": ["vc-domain-verify=biton.is-a.dev,1cc9233d9a459ed3445b", "vc-domain-verify=www.biton.is-a.dev,5626b98fa90da9f1e778"]
   }
 }
