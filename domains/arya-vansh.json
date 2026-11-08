@@ -4,7 +4,7 @@
     "email": "aryavansh.dev@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
     "TXT": "vc-domain-verify=arya-vansh.is-a.dev,2d38d86943aa982f4f89"
   }
 }
