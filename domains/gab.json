@@ -7,22 +7,22 @@
   "records": {
     "CNAME": "developer-portfolio-2qp.pages.dev",
     "TXT": [
-        "TXT Value / Content Will Be Stay Here From Old Content",
-        "v=spf1 include:zohomail.com ~all"
+      "TXT Value / Content Will Be Stay Here From Old Content",
+      "v=spf1 include:zohomail.com ~all"
     ],
     "MX": [
-        {
-          "target": "mx.zoho.com",
-          "priority": 10
-        },
-        {
-          "target": "mx2.zoho.com",
-          "priority": 20
-        },
-        {
-          "target": "mx3.zoho.com",
-          "priority": 50
-        }
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 50
+      }
     ]
   },
   "proxied": true

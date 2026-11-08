@@ -1,11 +1,13 @@
 {
-    "owner": {
-        "username": "NoxCoreDev",
-        "email": "noxprimeee80@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    },
-    "description": "Portfolio of NoxCoreDev - web development, automation and intelligent AI and bots.",
-    "repo": "https://github.com/NoxCoreDev/NoxCoreDev-profile"
+  "owner": {
+    "username": "NoxCoreDev",
+    "email": "noxprimeee80@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  },
+  "description": "Portfolio of NoxCoreDev - web development, automation and intelligent AI and bots.",
+  "repo": "https://github.com/NoxCoreDev/NoxCoreDev-profile"
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ahad124",
-        "email": "abdulahadsattar22@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=abdulahad.is-a.dev,3c0163da7fe0192c8a75"
-    }
+  "owner": {
+    "username": "ahad124",
+    "email": "abdulahadsattar22@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=abdulahad.is-a.dev,3c0163da7fe0192c8a75"
+  }
 }

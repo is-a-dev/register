@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "Tuccim4n"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "Tuccim4n"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

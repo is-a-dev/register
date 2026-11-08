@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "RichardPinnock",
-        "email": "phoenixpinnock@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "RichardPinnock",
+    "email": "phoenixpinnock@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

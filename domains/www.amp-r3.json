@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "amp-r3",
-        "email": "amp_r3@proton.me"
-    },
-    "records": {
-        "CNAME": "website.netlify.app"
-    }
+  "owner": {
+    "username": "amp-r3",
+    "email": "amp_r3@proton.me"
+  },
+  "records": {
+    "CNAME": "website.netlify.app"
+  }
 }

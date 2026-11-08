@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "FreeCode911"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=libin.is-a.dev,79bacf9ce430424aebf0"
-    }
+  "owner": {
+    "username": "FreeCode911"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=libin.is-a.dev,79bacf9ce430424aebf0"
+  }
 }

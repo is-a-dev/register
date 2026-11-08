@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "aquaisadev"
-    },
-    "records": {
-        "CNAME": "95c7451b1e9a44be.vercel-dns-017.com"
-    }
+  "owner": {
+    "username": "aquaisadev"
+  },
+  "records": {
+    "CNAME": "95c7451b1e9a44be.vercel-dns-017.com"
+  }
 }

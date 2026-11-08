@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "xaldiy",
-        "email": "aldi@v.cd"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aldiv.is-a.dev,e3a543a68de1eae92e00"
-    }
+  "owner": {
+    "username": "xaldiy",
+    "email": "aldi@v.cd"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aldiv.is-a.dev,e3a543a68de1eae92e00"
+  }
 }

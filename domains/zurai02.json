@@ -94,14 +94,14 @@
   },
   "redirect_config": {
     "custom_paths": {
-      "/github":        "https://github.com/zurai02",
+      "/github": "https://github.com/zurai02",
       "/repositories": "https://github.com/zurai02?tab=repositories",
-      "/repos":         "https://github.com/zurai02?tab=repositories",
-      "/stars":         "https://github.com/zurai02?tab=stars",
-      "/portfolio":     "https://devforum.roblox.com/t/zurai02-scripting-portfolio/4679442",
-      "/devforum":      "https://devforum.roblox.com/u/zurai02",
-      "/roblox":        "https://www.roblox.com/users/5674181802/profile",
-      "/discord":       "https://discord.com/users/1460949263650652200"
+      "/repos": "https://github.com/zurai02?tab=repositories",
+      "/stars": "https://github.com/zurai02?tab=stars",
+      "/portfolio": "https://devforum.roblox.com/t/zurai02-scripting-portfolio/4679442",
+      "/devforum": "https://devforum.roblox.com/u/zurai02",
+      "/roblox": "https://www.roblox.com/users/5674181802/profile",
+      "/discord": "https://discord.com/users/1460949263650652200"
     }
   },
   "proxied": true

@@ -1,10 +1,11 @@
-
 {
-    "owner": {
-        "username": "Nallakannu-R",
-        "email": "kannunalla1234@gmail.com"
-    },
-    "records": {
-        "TXT": ["vc-domain-verify=nallakannur.is-a.dev,d08e8efe2146603c219e"]
-    }
+  "owner": {
+    "username": "Nallakannu-R",
+    "email": "kannunalla1234@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=nallakannur.is-a.dev,d08e8efe2146603c219e"
+    ]
+  }
 }

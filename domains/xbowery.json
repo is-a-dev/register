@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "maks3592",
-        "email": "eneskurtaran@proton.me"
-    },
-    "records": {
-        "CNAME": "maks3592.github.io"
-    }
+  "owner": {
+    "username": "maks3592",
+    "email": "eneskurtaran@proton.me"
+  },
+  "records": {
+    "CNAME": "maks3592.github.io"
+  }
 }

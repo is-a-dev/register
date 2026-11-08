@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Aktaf404"
-    },
-    "records": {
-        "CNAME": "aktaf404.github.io"
-    },
-    "description": "Personal portfolio & homelab notes \u2014 Billah Aktafi"
+  "owner": {
+    "username": "Aktaf404"
+  },
+  "records": {
+    "CNAME": "aktaf404.github.io"
+  },
+  "description": "Personal portfolio & homelab notes \u2014 Billah Aktafi"
 }

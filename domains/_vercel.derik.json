@@ -4,6 +4,8 @@
     "email": "derikjamba@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=derik.is-a.dev,0f241992f61cfd0894f9"]
+    "TXT": [
+      "vc-domain-verify=derik.is-a.dev,0f241992f61cfd0894f9"
+    ]
   }
 }

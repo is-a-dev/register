@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "waste-didi",
-        "email": "0x000ddd@gmail.com"
-    },
-    "records": {
-        "CNAME": "waste-didi.github.io"
-    }
+  "owner": {
+    "username": "waste-didi",
+    "email": "0x000ddd@gmail.com"
+  },
+  "records": {
+    "CNAME": "waste-didi.github.io"
+  }
 }

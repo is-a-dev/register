@@ -5,6 +5,8 @@
     "email": "support@sandeeptech.dev"
   },
   "records": {
-    "A": ["27.100.38.228"]
+    "A": [
+      "27.100.38.228"
+    ]
   }
 }

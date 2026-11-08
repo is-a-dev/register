@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "fwwz-id"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=fwwz.is-a.dev,daa7b38c40fbcc04c66d"
-    }
+  "owner": {
+    "username": "fwwz-id"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=fwwz.is-a.dev,daa7b38c40fbcc04c66d"
+  }
 }

@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "NojinNojs", "email": "muhammadraffiaqsan@gmail.com" },
-  "records": { "TXT": "vc-domain-verify=nojin.is-a.dev,ab1c477c5c9e920e4f98" }
+  "owner": {
+    "username": "NojinNojs",
+    "email": "muhammadraffiaqsan@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=nojin.is-a.dev,ab1c477c5c9e920e4f98"
+  }
 }

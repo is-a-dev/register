@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "veniaminMedanov"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=veniamin.is-a.dev,e009d674a81db840e3b1"
-    }
+  "owner": {
+    "username": "veniaminMedanov"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=veniamin.is-a.dev,e009d674a81db840e3b1"
+  }
 }
