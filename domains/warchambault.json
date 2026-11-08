@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "warchambault5",
-        "email": "warchambault5@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "warchambault5",
+    "email": "warchambault5@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

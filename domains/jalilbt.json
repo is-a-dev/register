@@ -1,10 +1,11 @@
-
 {
   "owner": {
     "username": "emulsionagency-del",
     "email": "j4lil.3t@zohomail.com"
   },
   "records": {
-    "A": ["185.135.132.104"]
+    "A": [
+      "185.135.132.104"
+    ]
   }
 }
