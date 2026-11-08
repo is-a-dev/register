@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "non-official-trhacking",
-    "email": "cinargok555@gmail.com"
+    "username": "non-official-trhacking"
   },
-  "record": {
-    "CNAME": "lavietta-cinargok555-3815.vercel.app"
+  "records": {
+    "A": ["216.198.79.1"]
   }
 }
