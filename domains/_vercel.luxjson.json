@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "luxjson",
+    "email": "luxjson@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=api.luxjson.is-a.dev,7d1c909168fc0fd4eb1e",
+      "vc-domain-verify=luxjson.is-a.dev,0e8d9a43c7401a4e0b5e",
+      "vc-domain-verify=www.luxjson.is-a.dev,cda8a13a8feb85eeced2"
+    ]
+  }
+}

@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "kulahad",
-    "email": "kulahad007@gmail.com"
+    "username": "ahad1125",
+    "email": "abdahad.722@gmail.com"
   },
   "records": {
-    "CNAME": "kulahad.github.io"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

@@ -5,6 +5,8 @@
     "email": "raiyanbinrashid0@gmail.com"
   },
   "records": {
-    "CNAME": "raiyan.hylith.com"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Videatur",
-        "email": "videatur@outlook.it"
-    },
-    "records": {
-        "CNAME": "videatur.github.io"
-    }
+  "owner": {
+    "username": "Videatur",
+    "email": "videatur@outlook.it"
+  },
+  "records": {
+    "CNAME": "videatur.github.io"
+  }
 }

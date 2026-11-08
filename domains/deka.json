@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "dekagalang",
-        "email": "dekagalangpermadi@gmail.com"
-    },
-    "records": {
-        "CNAME": "deka.pages.dev"
-    }
+  "owner": {
+    "username": "dekagalang",
+    "email": "dekagalangpermadi@gmail.com"
+  },
+  "records": {
+    "CNAME": "deka.pages.dev"
+  }
 }

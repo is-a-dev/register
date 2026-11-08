@@ -4,6 +4,19 @@
     "email": "arpannn543@gmail.com"
   },
   "records": {
-    "CNAME": "c371e2dabd92431b.vercel-dns-017.com"
+    "A": [
+      "76.76.21.21"
+    ],
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
   }
 }

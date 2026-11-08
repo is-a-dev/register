@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "talisraeli",
+    "email": "contact@talisrae.li"
+  },
+  "records": {
+    "URL": "https://talisrae.li"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}

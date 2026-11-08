@@ -4,6 +4,8 @@
     "email": "ahmed.magdi@msn.com"
   },
   "records": {
-    "MX": ["mx01.mail.icloud.com"]
+    "MX": [
+      "mx01.mail.icloud.com"
+    ]
   }
 }

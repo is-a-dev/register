@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "ilyes-i-ben",
-        "email": "bilyesc+isdev@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "ilyes-i-ben",
+    "email": "bilyesc+isdev@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "google-site-verification=mMQa2DfzqnpHww70o2pxhE3wFAHoKEGG0Wxw1OG7MmI"
+  },
+  "proxied": true
 }

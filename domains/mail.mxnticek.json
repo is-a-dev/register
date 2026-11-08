@@ -1,10 +1,11 @@
 {
-  "description": "Domain for my music bot",
   "owner": {
-    "username": "VlastikYoutubeKo",
-    "email": "plainrock@seznam.cz"
+    "username": "vlastikyoutubeko"
   },
   "records": {
-    "MX": ["d9025d2074984e72.mx2.emailprofi.seznam.cz", "d9025d2074984e72.mx1.emailprofi.seznam.cz"]
+    "MX": [
+        { "target": "d9025d2074984e72.mx2.emailprofi.seznam.cz", "priority": 10 },
+        { "target": "d9025d2074984e72.mx1.emailprofi.seznam.cz", "priority": 20 }
+    ]
   }
 }

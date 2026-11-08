@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "LeonardoVS30",
-        "email": "verdesotoleonardo@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "LeonardoVS30",
+    "email": "verdesotoleonardo@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
