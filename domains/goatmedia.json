@@ -1,0 +1,10 @@
+{
+  "description": "GoatMedia - a video community for goats",
+  "owner": {
+    "username": "toastedbread02",
+    "email": "dominikkoba22@gmail.com"
+  },
+  "records": {
+    "CNAME": "toastedbread02.github.io"
+  }
+}
