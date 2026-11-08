@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "leonelb2840-design"
-    },
-    "records": {
-        "CNAME": "leonelb2840-design.github.io"
-    }
+  "owner": {
+    "username": "leonelb2840-design",
+    "email": "leonelb2840@protonmail.com"
+  },
+  "record": {
+    "CNAME": "leonelb2840-design.github.io"
+  }
 }
