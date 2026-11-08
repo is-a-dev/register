@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "Anshul-Anuragi",
+        "email": "kabeer87088@gmail.com"
+    },
+    "record": {
+        "TXT": [
+            "v=DKIM1; k=rsa; p=b1.aqvonx-is-a-dev.dkim.brevo.com"
+        ]
+    }
+}
