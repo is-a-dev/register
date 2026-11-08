@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "wilsonmwiti",
+    "email": "mwiti86@gmail.com"
+  },
+  "records": {
+    "CNAME": "your-tunnel-uuid.cfargotunnel.com"
+  },
+  "proxied": true
+}
