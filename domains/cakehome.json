@@ -1,0 +1,11 @@
+{
+  "description": "My Website",
+  "repo": "https://github.com/Hiru-stack/Cake-Home",
+  "owner": {
+    "username": "Hiru-stack",
+    "email": "hirushajayasundara03@gmail.com"
+  },
+  "record": {
+    "CNAME": "hiru-stack.github.io"
+  }
+}
