@@ -1,0 +1,8 @@
+{
+  "owner": {
+   "username": "tejamurthy-m"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCISdNgcFnW1ia+yEZZ5d/9gZf+qAoLVhHBwse0RWVFIGV46dXP8KKeYJQgyZhahpgQq/Ly02KetbttKBpp092FiTYZvhCOUXoRDPunO8DYTOYpEmjZ1/5LS4dF9NJG0OuEMpA7BUigN+GUt/3XJPN2ZeeGjX9IF9jx0Agz+Z5k0QIDAQAB"
+  }
+}

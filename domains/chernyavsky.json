@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "pprometey",
-        "email": "pprometey@gmail.com"
-    },
-    "records": {
-        "CNAME": "chernyavsky.pages.dev"
-    }
+  "owner": {
+    "username": "pprometey",
+    "email": "pprometey@gmail.com"
+  },
+  "records": {
+    "CNAME": "chernyavsky.pages.dev"
+  }
 }

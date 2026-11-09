@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "voda0461",
+    "email": "sesenkumardalai@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=quarantine; rua=mailto:voda@voda.is-a.dev; ruf=mailto:voda@voda.is-a.dev; sp=quarantine; adkim=r; aspf=r; pct=100"
+  }
+}

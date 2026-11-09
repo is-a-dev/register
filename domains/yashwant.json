@@ -1,0 +1,12 @@
+{
+  "description": "Personal Portfolio Website",
+  "repo": "https://github.com/Yashwant176/Portfolio",
+  "owner": {
+    "username": "Yashwant176",
+    "email": "kumarkyashwant@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "portfolio2-kappa-flame.vercel.app"
+  }
+}

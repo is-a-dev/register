@@ -1,10 +1,10 @@
 {
   "owner": {
-    "username": "ShadowPlayzDev",
+    "username": "steve-the-great",
     "email": "shadowplayzdev@gmail.com",
-    "discord": ["shadowplayzdev", "ratonetrick"]
+    "discord": "shadowplayzdev"
   },
   "records": {
-    "TXT": "vc-domain-verify=steve.is-a.dev,9159efeed4da5ca914e3"
+    "TXT": "vc-domain-verify=steve.is-a.dev,5123b07944c2eadffb1e"
   }
 }

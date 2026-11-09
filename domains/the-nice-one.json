@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "The-Nice-One",
-        "email": "nicedude618@gmail.com"
-    },
-    "records": {
-        "CNAME": "the-nice-one.github.io"
-    }
+  "owner": {
+    "username": "The-Nice-One",
+    "email": "nicedude618@gmail.com"
+  },
+  "records": {
+    "CNAME": "the-nice-one.github.io"
+  }
 }

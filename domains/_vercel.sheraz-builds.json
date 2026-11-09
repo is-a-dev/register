@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "sheraz-builds",
+    "email": "comms@sheraz.me"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sheraz-builds.is-a.dev,c57fe27c6a59aeaeaa01"
+  }
+}

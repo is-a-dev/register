@@ -1,0 +1,11 @@
+{
+  "description": "Vercel domain ownership verification for malavgajera.is-a.dev",
+  "repo": "https://github.com/malav-250/portfolio",
+  "owner": {
+    "username": "malav-250",
+    "email": "gajera.ma@northeastern.edu"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=malavgajera.is-a.dev,c4551a9af19c58334bf6"
+  }
+}

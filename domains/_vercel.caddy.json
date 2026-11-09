@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "matrix05-c",
+    "email": "caddyrasolonjatovo@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=caddy.is-a.dev,4cc1f404b3b427a6c26e"
+  }
+}

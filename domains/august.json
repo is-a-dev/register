@@ -1,0 +1,32 @@
+{
+  "owner": {
+    "username": "zoyxf",
+    "email": "mr.august.im@gmail.com"
+  },
+
+  "records": {
+    "CNAME": "zoyxf.github.io",
+
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ],
+
+    "TXT": [
+      "zoho-verification=zb38963083.zmverify.zoho.in",
+      "v=spf1 include:zoho.in include:zohomail.in ~all"
+    ]
+  },
+
+  "proxied": true
+}

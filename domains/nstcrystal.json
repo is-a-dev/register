@@ -1,0 +1,10 @@
+{
+  "description": "Personal website hosted on Vercel",
+  "owner": {
+    "username": "nstcrystal",
+    "email": "nstcrystal@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

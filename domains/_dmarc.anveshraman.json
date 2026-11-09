@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "SA-Army",
+    "email": "anveshraman.ae@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none; rua=mailto:anveshraman.ae@gmail.com; ruf=mailto:anveshraman.ae@gmail.com; sp=none; adkim=r; aspf=r; pct=100"
+  },
+  "proxied": false
+}

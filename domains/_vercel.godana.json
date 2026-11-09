@@ -1,0 +1,13 @@
+{
+  "description": "Vercel verification for godana.is-a.dev",
+  "owner": {
+    "username": "godanaemiru",
+    "repo": "https://github.com/godanaemiru/luminaos",
+    "email": "godanaemiru@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=godana.is-a.dev,50a1f3bc072484ac6117"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "aethelyn",
+    "email": "pub.aethelyn@gmail.com"
+  },
+  "records": {
+    "CNAME": "cdn-arasea.pages.dev"
+  },
+  "proxied": true
+}

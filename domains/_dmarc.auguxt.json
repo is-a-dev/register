@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "auguxt",
+    "email": "syedsameer.sbecse@gmail.com"
+  },
+
+  "records": {
+    "TXT": "v=DMARC1; p=quarantine; rua=mailto:sameer@auguxt.is-a.dev; ruf=mailto:sameer@auguxt.is-a.dev; sp=none; adkim=r; aspf=r; pct=100"
+  }
+}

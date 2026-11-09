@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "minenwerfer",
+    "email": "joaosan177@gmail.com"
+  },
+  "records": {
+    "URL": "https://github.com/aeria-org"
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/discord": "https://discord.gg/BxnpFbghET"
+    },
+    "redirect_paths": true
+  }
+}

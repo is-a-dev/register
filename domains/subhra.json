@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "subhrachakraborti",
+    "email": "subhra@linuxmail.org"
+  },
+  "records": {
+    "CNAME": "dev-bym.pages.dev"
+  },
+  "proxied": true
+}

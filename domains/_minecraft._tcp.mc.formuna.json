@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "FormunaGit",
+    "discord": "754657845563097108"
+  },
+  "records": {
+    "SRV": [
+      {
+        "priority": 0,
+        "weight": 5,
+        "port": 25565,
+        "target": "mc.formuna.is-a.dev"
+      }
+    ]
+  }
+}
