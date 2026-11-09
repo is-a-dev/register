@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "jsonalove"
+  },
+  "records": {
+    "CNAME": "nodejs-production-b831.up.railway.app"
+  },
+  "proxied": true
+}
