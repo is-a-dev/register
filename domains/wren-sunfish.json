@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "wren-sunfish",
+    "email": "sage.sunfish@proton.me"
+  },
+  "records": {
+    "CNAME": "wren-sunfish.github.io",
+    "TXT": ["v=spf1 include:spf.mailjet.com ?all"]
+  },
+  "proxied": true
+}
