@@ -1,9 +1,9 @@
 ﻿{
-  "owner": {
-    "username": "kashaakash",
-    "email": "aakashdhawan619@gmail.com"
-  },
-  "records": {
-    "CNAME": "aakash-pm.netlify.app"
-  }
+    "records":  {
+                    "CNAME":  "aakash-pm.netlify.app"
+                },
+    "owner":  {
+                  "email":  "aakashdhawan619@gmail.com",
+                  "username":  "kashaakash"
+              }
 }
