@@ -4,6 +4,9 @@
     "email": "cleverai001@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=carbon.is-a.dev,083d8c13361cdcf5ff79"
+    "TXT": [
+      "vc-domain-verify=carbon.is-a.dev,083d8c13361cdcf5ff79",
+      "vc-domain-verify=banners.carbon.is-a.dev,cc2aee199bf42ce361e7"
+    ]
   }
 }
