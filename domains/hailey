@@ -1,0 +1,11 @@
+{
+  "description": "site",
+  "repo": "github.com/sophiah/my-react-app",
+  "owner": {
+    "username": "sohee703",
+    "email": "sohee703@gmail.com"
+  },
+  "record": {
+    "CNAME": "main.hailey.amplifyapp.com"
+  }
+}
