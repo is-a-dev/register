@@ -3,8 +3,6 @@
         "username": "dyotamo"
     },
     "records": {
-        "A": [
-            "216.24.57.1"
-        ]
+        "CNAME": "dyotamo.github.io"
     }
 }
