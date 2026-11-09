@@ -4,6 +4,8 @@
     "email": "darylfung96@gmail.com"
   },
   "records": {
-    "CNAME": "langtime.duckdns.org"
+    "A": [
+      "140.238.157.227"
+    ]
   }
 }
