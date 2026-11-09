@@ -1,8 +1,11 @@
 {
   "owner": {
-    "username": "shahadutx8"
+    "username": "shahadutx8",
+    "email": "mdshahaduthossain282@gmail.com"
   },
   "records": {
-    "A": ["216.24.57.1"]
+    "A": [
+      "216.24.57.1"
+    ]
   }
 }
