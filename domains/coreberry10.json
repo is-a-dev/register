@@ -1,10 +1,11 @@
 {
   "owner": {
-    "username": "Orecone44"
+    "username": "Orecone44",
+    "email": "orecone44@gmail.com"
   },
+  "description": "Portfolio for core.berry.10 - Tuzanesha, developer from Rwanda,Uganda",
+  "repo": "https://github.com/Orecone44/Final-port",
   "records": {
-    "CNAME": "orecore44.github.io"
-  },
-  "description": "Portfolio for core.berry.10",
-  "repo": "https://github.com/orecore44/Final-port"
+    "URL": "https://orecone44.github.io/Final-port/"
+  }
 }
