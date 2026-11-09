@@ -1,8 +1,11 @@
 {
   "owner": {
-    "username": "Rahat-cmd"
+    "username": "Rahat-cmd",
+    "email": "rahatfarehin@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
