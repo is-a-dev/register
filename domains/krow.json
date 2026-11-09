@@ -1,9 +1,8 @@
 {
-    "description": "Krow",
-    "owner": {
-        "username": "kovarshy-wq"
-    },
-    "record": {
-        "A": ["1.2.3.4"]
-    }
+  "owner": {
+    "username": "kovarshy-wq"
+  },
+  "records": {
+    "A": ["1.2.3.4"]
+  }
 }
