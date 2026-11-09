@@ -1,0 +1,11 @@
+{
+  "description": "Matroxx — AI & Integration Software Startup, Colombo, Sri Lanka. Product #1: SL Tech Radar.",
+  "owner": {
+    "username": "Sujanthan242"
+  },
+  "records": {
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+    "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"],
+    "TXT": ["v=spf1 include:zoho.com ~all"]
+  }
+}
