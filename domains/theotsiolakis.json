@@ -1,8 +1,8 @@
 {
-  "owner": {
-    "username": "TheoTsio"
-  },
-  "records": {
-    "CNAME": "its-time-for-a-site-lqaiwa.fly.dev"
-  }
+    "owner": {
+        "username": "TheoTsio"
+    },
+    "records": {
+        "TXT": "598298a26b50ca7b306bc2622b7101"
+    }
 }
