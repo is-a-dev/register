@@ -4,6 +4,9 @@
     "username": "Rahat-cmd"
   },
   "records": {
-    "TXT": "vc-domain-verify=estobewwy.is-a.dev,4351227807b561226479"
+    "TXT": [
+      "vc-domain-verify=estobewwy.is-a.dev,4351227807b561226479",
+      "vc-domain-verify=www.estobewwy.is-a.dev,a06b088d565d2ba4274a"
+    ]
   }
 }
