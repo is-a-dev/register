@@ -6,6 +6,10 @@
     "email": "derrickgacheru95@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=gacheru.is-a.dev,a22a7f6e71d0525aab2a",
+      "vc-domain-verify=www.gacheru.is-a.dev,e4ea660670681e0e6604"
+    ]
   }
 }
