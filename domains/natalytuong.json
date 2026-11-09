@@ -3,6 +3,6 @@
         "username": "nataly-tuong"
     },
     "records": {
-        "CNAME": "nataly-tuong.vercel.app"
+        "A": "nataly-tuong.vercel.app"
     }
 }
