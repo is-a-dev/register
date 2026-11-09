@@ -1,11 +1,9 @@
 {
-  "description": "ResumePilot - AI Resume Builder and ATS Checker",
-  "repo": "https://github.com/jaminprince30-oss/Resume_Pilot",
   "owner": {
     "username": "jaminprince30-oss",
     "email": "jaminprince30@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "resume-pilot.jaminprince30.workers.dev"
   }
 }
