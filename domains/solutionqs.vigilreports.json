@@ -1,0 +1,11 @@
+{
+  "description": "SolutionQs - QS Procurement (RFQ) Package Tool for Design & Build projects",
+  "owner": {
+    "email": "vigil.reports@gmail.com",
+    "username": "vigilreports"
+  },
+  "records": {
+    "CNAME": "vigilreports.github.io"
+  },
+  "repo": "https://github.com/vigilreports/solutionqs"
+}
