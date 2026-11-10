@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "JoshWilhelm"
+        "username": "JoshWilhelm",
+        "email": "Wilhelm.Josh@gmail.com"
     },
     "records": {
         "CNAME": "josh-wilhelm.com"
