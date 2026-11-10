@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "upshedchiodza-ai",
+    "email": "upshychiolly106@gmail.com"
+  },
+  "record": {
+    "A": ["76.76.21.21"],
+    "TXT": ["v=spf1 include:_spf.resend.com ~all"]
+  }
+}
