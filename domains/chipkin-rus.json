@@ -2,9 +2,10 @@
   "owner": {
     "username": "CHIPkin-rus"
   },
-  "record": {
+  "records": {
     "A": [
-      "132.243.165.132"
+      "192.0.2.1"
     ]
-  }
+  },
+  "proxied": true
 }
