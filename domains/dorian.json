@@ -1,0 +1,11 @@
+{
+  "description": "Dorian's personal portfolio",
+  "repo": "https://github.com/Dorian-EAI/Dorian-EAI.github.io",
+  "owner": {
+    "username": "Dorian-EAI",
+    "email": "Dorian-EAI@users.noreply.github.com"
+  },
+  "record": {
+    "CNAME": "dorian-eai.github.io"
+  }
+}
