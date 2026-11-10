@@ -1,7 +1,7 @@
-{
-  "owner": {
-    "username": "al-azeem"
-  },
+"owner": {
+  "username": "al-azeem",
+  "email": "al.azeem002@gmail.com"
+},
   "records": {
     "CNAME": "al-azeem.pages.dev"
   }
