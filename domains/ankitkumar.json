@@ -3,6 +3,8 @@
     "username": "ankitkumar2006official-design"
   },
   "records": {
-    "CNAME": "portfolioankit9.netlify.app"
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }
