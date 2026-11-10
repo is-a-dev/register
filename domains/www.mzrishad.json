@@ -3,6 +3,7 @@
     "username": "Solved-Overnight"
   },
   "records": {
-    "CNAME": "mzrishad.netlify.app"
+    "CNAME": "mzrishad.netlify.app",
+    "TXT": ["zoho-verification=zb17292793.zmverify.zoho.com"]
   }
 }
