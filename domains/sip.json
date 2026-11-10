@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "foxweb2609",
+    "email": "foxwebads@gmail.com"
+  },
+  "description": "SIP demo web app",
+  "records": {
+    "NS": ["iris.ns.cloudflare.com", "piers.ns.cloudflare.com"]
+  }
+}
