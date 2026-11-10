@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Vardhan-IMMIDI",
+    "email": "vardhangupthaimmidi@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3b1YT/7dwxSYuh0leZK7uliHlfrrMtkJErpO8c9Xz/nZxvk8Pk0C489k5m6QU8drhOawzP7Qqiaz01GvmzT2uAtqpQexo0jLXOAuxCgVv3X0wrqqh8vTi7wCRgBSIR0wz2PyIU4d/I4GtYhRktCgxznKunnAbsdjGp1MIBF9SJwIDAQAB"
+  }
+}

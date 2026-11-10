@@ -1,0 +1,11 @@
+{
+  "description": "Fav's personal website",
+  "repo": "https://github.com/git-keysh/page",
+  "owner": {
+    "username": "git-keysh",
+    "email": "favnc@proton.me"
+  },
+  "records": {
+    "CNAME": "git-keysh.github.io"
+  }
+}

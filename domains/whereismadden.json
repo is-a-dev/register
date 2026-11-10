@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "maddenmehrizi",
-        "email": "maxmehrizi@gmail.com"
-    },
-    "records": {
-        "CNAME": "maddenmehrizi.github.io"
-    },
-    "proxied": true
+  "owner": {
+    "username": "maddenmehrizi",
+    "email": "maxmehrizi@gmail.com"
+  },
+  "records": {
+    "CNAME": "maddenmehrizi.github.io"
+  },
+  "proxied": true
 }

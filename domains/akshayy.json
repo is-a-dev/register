@@ -1,9 +1,9 @@
 {
-    "records":  {
-                    "CNAME":  "cname.vercel-dns.com"
-                },
-    "owner":  {
-                  "email":  "akshay.dunny08@gmail.com",
-                  "username":  "VUPPALA-AKSHAY"
-              }
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "owner": {
+    "email": "akshay.dunny08@gmail.com",
+    "username": "VUPPALA-AKSHAY"
+  }
 }

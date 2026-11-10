@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Krisanth-21"
+    "username": "Krisanth-21",
+    "email": "krisanthkris@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=krisanth.is-a.dev,6ebd024d062704a060c6"
+    "TXT": "vc-domain-verify=krisanth.is-a.dev,df19e36afb49e3282945"
   }
 }
