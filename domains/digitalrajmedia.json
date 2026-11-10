@@ -5,7 +5,7 @@
   },
   "domain": "digitalrajmedia.is-a.dev",
   "subdomain": "digitalrajmedia",
-  "record": {
+  "records": {
     "CNAME": "rajanthony07.【entity-github¦canonical_name=GitHub】.io"
   }
 }
