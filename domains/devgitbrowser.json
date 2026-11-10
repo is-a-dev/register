@@ -1,4 +1,7 @@
 {
-  "owner": { "username": "hempreur" },
+  "owner": {
+    "username": "hempreur",
+    "email": "2Ts.studiomusic@gmail.com"
+  },
   "records": { "CNAME": "hempreur.github.io" }
 }
