@@ -1,12 +1,8 @@
 {
-  "name": "guarddog98",
-  "description": "Personal portfolio of GuardDog98 - Software Developer, Android and Python projects",
-  "repo": "https://github.com/GuardDog98/GuardDog98.github.io",
   "owner": {
-    "username": "GuardDog98",
-    "email": "a.sweep150@passinbox.com"
+    "username": "GuardDog98"
   },
-  "record": {
+  "records": {
     "CNAME": "guarddog98.github.io"
   }
 }
