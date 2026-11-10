@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "jayveeballesteros",
-        "email": "jayveeballesteros@gmail.com"
-    },
-    "records": {
-        "CNAME": "custom-domains.chatgpt.site"
-    }
+  "owner": {
+    "username": "jayveeballesteros",
+    "email": "jayveeballesteros@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

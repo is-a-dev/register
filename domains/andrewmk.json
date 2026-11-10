@@ -6,6 +6,19 @@
   "proxied": true,
   "records": {
     "CNAME": "andrewmk.pages.dev",
-    "TXT": "google-site-verification=gIjlictmciPEZzTUQmtE60qdMqsIDGtTI6aUlP7c4Ss"
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      "google-site-verification=gIjlictmciPEZzTUQmtE60qdMqsIDGtTI6aUlP7c4Ss",
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
   }
 }
