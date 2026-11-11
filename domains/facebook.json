@@ -7,5 +7,5 @@
   "records": {
     "CNAME": "facebook.is-a.dev"
   },
-  "proxied": true
+  "proxied": false
 }
