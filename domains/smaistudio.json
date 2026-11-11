@@ -3,8 +3,9 @@
     "username": "sm999khan-papsa",
     "email": "sm999kha@gmail.com"
   },
+  "description": "SMAI Studio Portfolio Website",
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "sm999khan-papsa.github.io"
   },
   "proxied": false
 }
