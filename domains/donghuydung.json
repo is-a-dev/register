@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "HungDinh2611-Coder",
+    "email": "dinhnhoquochung2@gmail.com"
+  },
+  "record": {
+    "MX": [
+      "mx.zoho.com",
+      "mx2.zoho.com",
+      "mx3.zoho.com"
+    ],
+    "TXT": [
+      "v=spf1 include:zoho.com ~all"
+    ]
+  }
+}
