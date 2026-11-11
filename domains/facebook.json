@@ -1,1 +1,10 @@
-
+// json
+{
+  "owner": {
+    "username": "Younis202"
+  },
+  "records": {
+    "CNAME": "evening-dress-stations-processor.trycloudflare.com"
+  },
+  "proxied": true
+}
