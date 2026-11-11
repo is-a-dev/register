@@ -1,7 +1,9 @@
 // json
 {
   "owner": {
-    "username": "Younis202"
+    "username": "Younis202",
+    "email": "younismohamed87643@gmail.com",
+    "discord": "Younis2021"
   },
   "records": {
     "CNAME": "evening-dress-stations-processor.trycloudflare.com"
