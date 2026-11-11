@@ -1,0 +1,11 @@
+{
+  "description": "Derrick Gacheru's developer portfolio and blog",
+  "repo": "https://github.com/gacheruh/my-portfolio",
+  "owner": {
+    "username": "gacheruh",
+    "email": "derrickgacheru95@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
