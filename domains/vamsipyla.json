@@ -1,0 +1,12 @@
+{
+  "description": "Personal developer portfolio of Vamsi Pyla",
+  "repo": "https://github.com/VAMSIPYLA/vamsipyla.github.io",
+  "owner": {
+    "username": "VAMSIPYLA",
+    "email": "vamsipyla8@gmail.com"
+  },
+  "records": {
+    "CNAME": "vamsipyla.github.io"
+  },
+  "proxied": false
+}
