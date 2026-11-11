@@ -3,7 +3,9 @@
         "username": "Phil230"
     },
     "records": {
-        "CNAME": "portfolio-two-swart-qkte3rttj7.vercel.app",
+        "A": [
+            "216.198.79.1"
+        ],
         "TXT": {
             "_vercel": "vc-domain-verify=philip.is-a.dev,1a2d7da2b28edbcfee60"
         }
