@@ -4,6 +4,6 @@
     "email": "ggabrielifh@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=imhexo.is-a.dev,e166b708927f6ca471c5"
+    "TXT": ["vc-domain-verify=imhexo.is-a.dev,e166b708927f6ca471c5", "vc-domain-verify=maxpillars.imhexo.is-a.dev,d908a4ee7fe0ae4529d4", "vc-domain-verify=blog.imhexo.is-a.dev,0d320b1b4204ad999dce"]
   }
 }
