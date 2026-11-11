@@ -1,8 +1,6 @@
 {
-  "owner": {
-    "username": "abolfazlyousefi5"
-  },
+  "owner": { "username": "abolfazlyousefi5" },
   "records": {
-    "CNAME": "abolfazlyousefi5.github.io"
+    "CNAME": "cname.vercel-dns.com"
   }
 }
