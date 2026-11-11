@@ -1,0 +1,11 @@
+{
+  "description": "Vercel verification for iki.is-a.dev",
+  "repo": "https://github.com/Timmy2005fy/iki-design",
+  "owner": {
+    "username": "Timmy2005fy",
+    "email": "fiyetimiehin2005@gmail.com"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=iki.is-a.dev,a3005468ad410b4da566"
+  }
+}
