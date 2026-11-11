@@ -4,6 +4,9 @@
     "email": "vicienna@proton.me"
   },
   "records": {
-    "CNAME": "vicienna.github.io"
+    "CNAME": "vicienna.github.io",
+    "TXT": {
+      "_github-pages-challenge-Vicienna": "5d0255dcbab0438d27f1e3d7e2ef3b"
+    }
   }
 }
