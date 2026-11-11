@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "JuggernautJf"
+    },
+    "records": {
+        "A": ["216.198.79.1"],
+        "NS": ["megan.ns.cloudflare.com", "trey.ns.cloudflare.com"]
+    }
+}
