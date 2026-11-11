@@ -6,9 +6,7 @@
     "record": {
         "CNAME": "portfolio-two-swart-qkte3rttj7.vercel.app"
     },
-    "subdomains": {
-        "_vercel": {
+    "_vercel": {
             "TXT": "vc-domain-verify=philip.is-a.dev,1a2d7da2b28edbcfee60"
-        }
     }
 }
