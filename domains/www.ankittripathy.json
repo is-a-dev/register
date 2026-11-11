@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "x2ankit"
+    "username": "x2ankit",
+    "email": "ankittripathy06@gmail.com"
   },
   "records": {
-    "CNAME": "168f2df4eb4e2fad.vercel-dns-017.com"
+    "CNAME": "168f2df4eb4e2fad.vercel-dns-017.com."
   }
 }
