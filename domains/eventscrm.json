@@ -4,6 +4,7 @@
     "email": "itay.shimshon26@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": ["216.198.79.1"],
+    "TXT": ["google-site-verification=AM0GnxFvMBw9b2XKyGi2OK1PtxO-M12Ced-LdEJM128"]
   }
 }
