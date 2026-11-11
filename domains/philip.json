@@ -1,12 +1,11 @@
 {
     "owner": {
-        "username": "Phil230",
-        "email": "your-email@example.com"
+        "username": "Phil230"
     },
-        "records": {
+    "records": {
         "CNAME": "portfolio-two-swart-qkte3rttj7.vercel.app",
         "TXT": {
             "_vercel": "vc-domain-verify=philip.is-a.dev,1a2d7da2b28edbcfee60"
         }
     }
-    
+}
