@@ -1,0 +1,10 @@
+{
+  "description": "Arasaka QR ticket generator",
+  "repo": "https://github.com/bitonub/poc-server",
+  "owner": {
+    "username": "bitonub"
+  },
+  "record": {
+    "CNAME": "generadorqr-oryh.onrender.com"
+  }
+}
