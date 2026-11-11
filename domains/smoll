@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "plexab",
+    "email": "arbuzov_vasya@bk.ru"
+  },
+  "records": {
+    "NS": [
+      "bethany.ns.cloudflare.com",
+      "henry.ns.cloudflare.com"
+    ]
+  }
+}
