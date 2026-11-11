@@ -1,0 +1,12 @@
+{
+  "name": "_vercel.arpitsingh",
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "singharpitt"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=arpitsingh.is-a.dev,ab7cfe932e3258f638d7"
+    ]
+  }
+}

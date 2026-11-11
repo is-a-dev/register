@@ -4,6 +4,7 @@
     "email": "is-a.dev@sivothajan.me"
   },
   "records": {
-    "CNAME": "cf87c7fd35b6ec8f.vercel-dns-017.com"
-  }
+    "CNAME": "cafc8326315e2d7f.vercel-dns-017.com"
+  },
+  "proxied": false
 }

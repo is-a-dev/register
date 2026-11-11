@@ -1,12 +1,8 @@
 {
-    "description": "AKCord's Portfolio",
-    "repo": "https://github.com/AKCord/akcord.is-a.dev",
     "owner": {
-        "username": "AKCord",
-        "email": "shrestha.aeniv@gmail.com",
-        "discord": "AKCord"
+        "username": "AKCord"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "A": ["216.198.79.1"]
     }
 }

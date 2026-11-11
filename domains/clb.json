@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "calebephrem",
+    "email": "calebephrem@proton.me"
+  },
+  "records": {
+    "URL": "https://caleb.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}

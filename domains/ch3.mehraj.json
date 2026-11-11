@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "krazyguy",
-        "email": "mehraj.hossain@gmail.com"
-    },
-    "records": {
-        "CNAME": "ghs.googlehosted.com"
-    }
+  "owner": {
+    "username": "krazyguy",
+    "email": "mehraj.hossain@gmail.com"
+  },
+  "records": {
+    "CNAME": "ghs.googlehosted.com"
+  }
 }

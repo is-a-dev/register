@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tonythomasndm",
-        "email": "ttonythomasndm@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=tonythomas.is-a.dev,135faf4754962f029ac9"
-    }
+  "owner": {
+    "username": "tonythomasndm",
+    "email": "ttonythomasndm@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tonythomas.is-a.dev,1fb9c1ffd3b97a8a338b"
+  }
 }

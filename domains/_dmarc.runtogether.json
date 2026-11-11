@@ -1,0 +1,10 @@
+{
+  "description": "DMARC policy for Run Together email sending",
+  "owner": {
+    "username": "swiftjamesr",
+    "email": "swiftjamesr@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}

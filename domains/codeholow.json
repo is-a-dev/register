@@ -1,0 +1,10 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "owner": {
+    "username": "codeholow",
+    "email": "codeholow@gmail.com"
+  },
+  "records": {
+    "CNAME": "portifolio-mu-bay.vercel.app"
+  }
+}

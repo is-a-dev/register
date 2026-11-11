@@ -1,9 +1,11 @@
 {
+    "description": "TarunCodes, My internet book",
+    "repo": "https://github.com/TarunCodesFr/taruncodes-portfolio",
     "owner": {
-        "username": "quanta-naut",
-        "x": "Quantum_Naut"
+        "username": "TarunCodesFr",
+        "email": "taruncodesfr@gmail.com"
     },
     "records": {
-        "CNAME": "quanta-naut.github.io"
+        "CNAME": "taruncodesfr.github.io"
     }
 }

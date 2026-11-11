@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "imanhamka",
-        "email": "mnurimanhamka@gmail.com"
-    },
-    "records": {
-        "CNAME": "imanhamka.pages.dev"
-    }
+  "owner": {
+    "username": "imanhamka",
+    "email": "mnurimanhamka@gmail.com"
+  },
+  "records": {
+    "CNAME": "imanhamka.pages.dev"
+  }
 }
