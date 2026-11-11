@@ -1,8 +1,12 @@
 {
   "owner": {
-    "username": "x2ankit"
+    "username": "x2ankit",
+    "email": "ankittripathy06@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=ankittripathy.is-a.dev,ef36bd8cf3c710b31fef"
+    "TXT": [
+      "vc-domain-verify=ankittripathy.is-a.dev,ef36bd8cf3c710b31fef",
+      "vc-domain-verify=www.ankittripathy.is-a.dev,4214959e6da9d49c564a"
+    ]
   }
 }
