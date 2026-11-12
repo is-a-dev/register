@@ -1,12 +1,12 @@
 {
-    "owner": {
-        "username": "Ehaan-Dadarkar",
-        "email": "dadarkarehaan@gmail.com"
-    },
-    "records": {
-        "TXT": [
-            "vc-domain-verify=ehaan.is-a.dev,20db4252db90c1aed789",
-            "vc-domain-verify=www.ehaan.is-a.dev,56ff943178e2e072916c"
-        ]
-    }
+  "owner": {
+    "username": "Ehaan-Dadarkar",
+    "email": "dadarkarehaan@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=ehaan.is-a.dev,20db4252db90c1aed789",
+      "vc-domain-verify=www.ehaan.is-a.dev,56ff943178e2e072916c"
+    ]
+  }
 }

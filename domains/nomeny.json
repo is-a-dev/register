@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ydiboras04",
-        "email": "nomenymitia.andria@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "ydiboras04",
+    "email": "nomenymitia.andria@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

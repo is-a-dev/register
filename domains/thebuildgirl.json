@@ -1,9 +1,11 @@
 {
-   "owner": {
+  "owner": {
     "username": "tanishkasharmaaa",
-    "email":"anjanasharma8448766174@gmail.com"
+    "email": "anjanasharma8448766174@gmail.com"
   },
   "records": {
-    "A":["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

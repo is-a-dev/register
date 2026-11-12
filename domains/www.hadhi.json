@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "haaaddhiii",
-        "email": "haaaddhiii@gmail.com"
-    },
-    "records": {
-        "CNAME": "hadhi.netlify.app"
-    }
+  "owner": {
+    "username": "haaaddhiii",
+    "email": "haaaddhiii@gmail.com"
+  },
+  "records": {
+    "CNAME": "hadhi.netlify.app"
+  }
 }

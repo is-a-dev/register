@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Sparsh712",
-        "email": "sparshgoel861@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=sparsh-goel.is-a.dev,2f4cea3e9735365823da"
-    }
+  "owner": {
+    "username": "Sparsh712",
+    "email": "sparshgoel861@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sparsh-goel.is-a.dev,2f4cea3e9735365823da"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": { 
-        "username": "aysh-mzmdr", 
-        "email": "ayush.mazumdar111@gmail.com" 
-    }, 
-    "records": { 
-        "CNAME": "aysh-mzmdr.github.io" 
-    } 
+  "owner": {
+    "username": "aysh-mzmdr",
+    "email": "ayush.mazumdar111@gmail.com"
+  },
+  "records": {
+    "CNAME": "aysh-mzmdr.github.io"
+  }
 }

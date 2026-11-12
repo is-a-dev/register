@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "bernarmillan",
-        "email": "bernarmillan@gmail.com"
-    },
-    "records": {
-        "CNAME": "bernarmillan.github.io"
-    }
+  "owner": {
+    "username": "bernarmillan",
+    "email": "bernarmillan@gmail.com"
+  },
+  "records": {
+    "CNAME": "bernarmillan.github.io"
+  }
 }

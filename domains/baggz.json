@@ -1,12 +1,12 @@
 {
-    "owner": {
-        "username": "baggZ-idk",
-        "discord": {
-            "user-id": "960705314464874516",
-            "username": "baggz.idk"
-        }
-    },
-    "records": {
-        "CNAME": "baggz-idk.github.io"
+  "owner": {
+    "username": "baggZ-idk",
+    "discord": {
+      "user-id": "960705314464874516",
+      "username": "baggz.idk"
     }
+  },
+  "records": {
+    "CNAME": "baggz-idk.github.io"
+  }
 }

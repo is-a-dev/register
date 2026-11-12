@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "xHertx",
-        "email": "papputechwala@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=hertx.is-a.dev,e5253268b10e7872a236"
-    }
+  "owner": {
+    "username": "xHertx",
+    "email": "papputechwala@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=hertx.is-a.dev,e5253268b10e7872a236"
+  }
 }

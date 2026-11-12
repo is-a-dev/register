@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Slibertius"
-    },
-    "records": {
-        "TXT": "did=did:plc:6qp7frzhzgh37epaoezthfbj"
-    }
+  "owner": {
+    "username": "Slibertius"
+  },
+  "records": {
+    "TXT": "did=did:plc:6qp7frzhzgh37epaoezthfbj"
+  }
 }

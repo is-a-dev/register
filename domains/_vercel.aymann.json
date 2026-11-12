@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ado1d",
-        "email": "2021831024@student.sust.edu"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aymann.is-a.dev,fed34c0e7b8a4b614bfc"
-    }
+  "owner": {
+    "username": "ado1d",
+    "email": "2021831024@student.sust.edu"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aymann.is-a.dev,fed34c0e7b8a4b614bfc"
+  }
 }

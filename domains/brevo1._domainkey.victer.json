@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "VicterHong",
+    "email": "victerphanjaya@gmail.com"
+  },
+  "description": "Brevo DKIM record 1 for victer.is-a.dev",
+  "records": {
+    "CNAME": "b1.victer-is-a-dev.dkim.brevo.com"
+  }
+}

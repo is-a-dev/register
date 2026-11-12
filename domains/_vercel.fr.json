@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "FaiRefriandi",
-        "email": "fairefriandi665@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=fr.is-a.dev,eb8f51523258743b7500"
-    }
+  "owner": {
+    "username": "FaiRefriandi",
+    "email": "fairefriandi665@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=fr.is-a.dev,eb8f51523258743b7500"
+  }
 }

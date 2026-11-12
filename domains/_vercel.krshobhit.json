@@ -1,12 +1,12 @@
 {
-    "owner": {
-        "username": "kr-shobhit",
-        "email": "shobhit80604kr@gmail.com"
-    },
-    "records": {
-        "TXT": [
-                    "vc-domain-verify=krshobhit.is-a.dev,e11f5491f1818436da76",
-                    "vc-domain-verify=www.krshobhit.is-a.dev,477ca6a142ea3860f0b5"
-        ]
-    }
+  "owner": {
+    "username": "kr-shobhit",
+    "email": "shobhit80604kr@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=krshobhit.is-a.dev,e11f5491f1818436da76",
+      "vc-domain-verify=www.krshobhit.is-a.dev,477ca6a142ea3860f0b5"
+    ]
+  }
 }

@@ -4,6 +4,9 @@
     "email": "demtjackbtw@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=xtsy.is-a.dev,a14ebce41521dac9b680"
+    "TXT": [
+      "vc-domain-verify=xtsy.is-a.dev,a14ebce41521dac9b680",
+      "vc-domain-verify=trace.xtsy.is-a.dev,6236e44930f93eba9afd"
+    ]
   }
 }

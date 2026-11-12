@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "xHertx",
-        "email": "papputechwala@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "xHertx",
+    "email": "papputechwala@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "deneyy",
-        "email": "deneyy@proton.me"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=deney.is-a.dev,1ec21c9fc6f8161cda9f"
-    }
+  "owner": {
+    "username": "deneyy",
+    "email": "deneyy@proton.me"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=deney.is-a.dev,1ec21c9fc6f8161cda9f"
+  }
 }

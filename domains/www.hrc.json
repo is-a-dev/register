@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ahorisaac",
-        "email": "codeness@duck.com"
-    },
-    "records": {
-        "CNAME": "ahorisaac.netlify.app"
-    }
+  "owner": {
+    "username": "ahorisaac",
+    "email": "codeness@duck.com"
+  },
+  "records": {
+    "CNAME": "ahorisaac.netlify.app"
+  }
 }

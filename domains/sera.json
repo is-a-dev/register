@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "icefishii",
-    "email": "sera@icefish.dev"
+    "username": "Seraph1nity",
+    "email": "Seraphinity@national.shitposting.agency"
   },
   "records": {
-    "CNAME": "lilfoxy.pet"
-  }
+    "CNAME": "seraph1nity.github.io"
+  },
+  "proxied": true
 }
