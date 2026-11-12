@@ -5,7 +5,7 @@
     "username": "KomailMK",
     "email": "workingmale2@gmail.com"
   },
-  "record": {
-    "CNAME": "https://komail-dev.vercel.app/"
+  "records": {
+    "CNAME": "komail-dev.vercel.app"
   }
 }
