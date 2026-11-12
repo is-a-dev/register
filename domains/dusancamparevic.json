@@ -4,6 +4,7 @@
     "email": "duleknicanin@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "vc-domain-verify=dusancamparevic.is-a.dev,4cbd5b009c94660da8f8"
   }
 }
