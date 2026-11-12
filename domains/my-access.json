@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "shapovaloffsv-spec",
+    "email": "shapovaloffsv@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
