@@ -1,0 +1,12 @@
+{
+  "description": "DevCadence - Developer Journal & Timesheet Studio",
+  "domain": "is-a.dev",
+  "subdomain": "devcadence",
+  "owner": {
+    "repo": "https://github.com/vigneshwar-k-s",
+    "email": "vigneshwar.k.s@gmail.com"
+  },
+  "record": {
+    "CNAME": "ghs.googlehosted.com"
+  }
+}
