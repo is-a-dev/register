@@ -1,0 +1,11 @@
+{
+  "description": "Vercel domain verification for GCO Student Portal",
+  "repo": "https://github.com/leeebisreal616/gco-portal",
+  "owner": {
+    "username": "leeebisreal616",
+    "email": "leeebisreal616@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=gcoimus.is-a.dev,39149d6d2b85eea4a93d"
+  }
+}
