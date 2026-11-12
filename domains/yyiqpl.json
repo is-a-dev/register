@@ -1,0 +1,10 @@
+{
+"owner": {
+"username": "9365558fangh"
+},
+"description": "个人服务器，Cloudflare Tunnel",
+"records": {
+"CNAME": ["donna-estimates-helping-brand.trycloudflare.com"]
+},
+"proxied": true
+}
