@@ -4,6 +4,6 @@
     "email": "danielbarrasaperezz@gmail.com"
   },
   "records": {
-    "CNAME": "cosknot.onrender.com"
+    "A": ["216.24.57.1"]
   }
 }
