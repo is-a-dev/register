@@ -4,6 +4,6 @@
     "email": "kimsekwon1995@gmail.com"
   },
   "records": {
-    "CNAME": "kimsekwon1995.github.io"
+    "NS": ["alaric.ns.cloudflare.com", "poppy.ns.cloudflare.com"]
   }
 }
