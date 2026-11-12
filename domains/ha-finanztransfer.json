@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "m6w4z8tnz2-sketch"
-        "contact": "verlangen-bach0e@icloud.com"
-    },
-    "records": {
-        "CNAME": "m6w4z8tnz2-sketch.github.io"
-    }
+  "owner": {
+    "username": "m6w4z8tnz2-sketch",
+    "email": "verlangen-bach0e@icloud.com"
+  },
+  "records": {
+    "CNAME": "m6w4z8tnz2-sketch.github.io"
+  }
 }
