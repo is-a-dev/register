@@ -5,6 +5,6 @@
     "email": "support@sandeeptech.dev"
   },
   "records": {
-    "CNAME": "sandeeptech.dev"
+    "A": ["27.100.38.228"]
   }
 }
