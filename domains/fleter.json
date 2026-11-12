@@ -3,9 +3,7 @@
     "username": "fleter-here"
   },
   "records": {
-    "CNAME": [
-      "fleter.my.id"
-    ]
+    "CNAME": "fleter.my.id"
   },
   "proxied": true
 }
