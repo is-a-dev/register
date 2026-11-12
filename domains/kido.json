@@ -3,6 +3,6 @@
     "username": "kido-ai"
   },
   "records": {
-    "CNAME": "https://jasondev2.vercel.app"
+    "A": "216.198.79.1"
   }
 }   
