@@ -1,0 +1,14 @@
+{
+    "description": "Cloudflare Tunnel for Duplexcity",
+    "repo": "https://github.com/d4ms36/is-a-dev-register",
+    "owner": {
+        "username": "d4ms36",
+        "email": "dams360@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "ada.ns.cloudflare.com",
+            "bob.ns.cloudflare.com"
+        ]
+    }
+}
