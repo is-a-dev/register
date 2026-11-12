@@ -1,0 +1,11 @@
+{
+  "description": "Personal portfolio website showcasing my full-stack software engineering projects and research.",
+  "repo": "https://github.com/KomailMK/portfolio-website",
+  "owner": {
+    "username": "KomailMK",
+    "email": "workingmale2@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://komail-dev.vercel.app/"
+  }
+}
