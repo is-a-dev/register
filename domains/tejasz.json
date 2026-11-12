@@ -1,9 +1,11 @@
 {
     "owner": {
         "username": "Tejs2005",
-        "email": "Tejs2005@users.noreply.github.com"
+        "email": "tejaslowanshi@gmail.com"
     },
     "records": {
-        "CNAME": ["Tejs2005.github.io"]
+        "CNAME": [
+            "Tejs2005.github.io"
+        ]
     }
 }
