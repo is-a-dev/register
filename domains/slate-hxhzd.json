@@ -1,0 +1,20 @@
+{
+    "records": {
+        "A": [
+            "220.160.32.142"
+        ],
+        "MX": [
+            {
+                "target": "mx.ice5980.cn",
+                "priority": 10
+            }
+        ],
+        "TXT": [
+            "v=spf1 ip4:220.160.32.142 ~all"
+        ]
+    },
+    "owner": {
+        "username": "priyakova8577",
+        "email": "priyakova8577@ice5980.cn"
+    }
+}
