@@ -1,1 +1,10 @@
-
+{
+  "owner": {
+    "username": "20yush09"
+  },
+  "records": {
+    "TXT": [
+      "t-verify=your_tuta_verification_code_here"
+    ]
+  }
+}
