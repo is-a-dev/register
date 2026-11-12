@@ -1,14 +1,11 @@
 {
+  "description": "GCO Student Portal - CvSU Imus Campus Capstone Project",
+  "repo": "https://github.com/leeebisreal616/gco-portal",
   "owner": {
     "username": "leeebisreal616",
     "email": "leeebisreal616@gmail.com"
   },
-  "subdomain": "gcoimus",
-  "record": {
-    "NS": [
-      "lovisa.ns.cloudflare.com",
-      "terin.ns.cloudflare.com"
-    ]
-  },
-  "description": "GCO Student Portal - CvSU Imus Campus Capstone Project"
+  "records": {
+    "CNAME": "gco-portal.vercel.app"
+  }
 }
