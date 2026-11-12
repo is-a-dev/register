@@ -1,1 +1,8 @@
-vc-domain-verify=arshad.is-a.dev,c3ef5c12f14314e6ee94
+{
+  "owner": {
+    "username": "mohammedarshad05"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=arshad.is-a.dev,c3ef5c12f14314e6ee94"
+  }
+}
