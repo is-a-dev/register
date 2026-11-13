@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "sankura-san"
+    "username": "sankura-san",
+    "email": "YOUR_EMAIL_HERE"
   },
   "records": {
     "A": ["75.2.60.5"]
