@@ -2,7 +2,8 @@
   "name": "zmail._domainkey.clbnodse",
   "description": "Zoho DKIM for clbnodse",
   "owner": {
-    "username": "Clbnodse"
+    "username": "Clbnodse",
+    "email": "clbnodse@gmail.com"
   },
   "records": {
     "TXT": [
