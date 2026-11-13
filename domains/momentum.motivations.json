@@ -4,7 +4,6 @@
     "username": "helenalhy"
   },
   "records": {
-    "A": [ "34.111.179.208" ],
-    "TXT": "replit-verify=618d14b0-a603-4ece-99a1-db327560834c"
+    "CNAME": "helenalhy.github.io"
   }
 }
