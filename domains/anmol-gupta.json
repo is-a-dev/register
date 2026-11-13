@@ -6,6 +6,6 @@
     "email": "anmolgupta2k05@gmail.com"
   },
   "records": {
-    "CNAME": "anmolgupta22-portfolio.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
