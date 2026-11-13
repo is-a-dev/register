@@ -7,6 +7,7 @@ on:
             - "domains/*"
             - ".github/workflows/raw-api.yml"
             - "util/raw-api.js"
+            - "util/internal.json"
             - "util/reserved.json"
 
     workflow_dispatch:

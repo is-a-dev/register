@@ -1,9 +1,12 @@
 {
   "owner": {
-    "username": "SAIFFFFFFFFFFFF5",
+    "username": "asaifsojib",
     "email": "asaifsojib@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=abdullahsaif.is-a.dev,75aeff9c9d7870cd94cc"
+    "TXT": [
+        "vc-domain-verify=abdullahsaif.is-a.dev,090bb194386d2590ac8a",
+        "vc-domain-verify=www.abdullahsaif.is-a.dev,87bb8d3738d47fe6086e"
+    ]
   }
 }

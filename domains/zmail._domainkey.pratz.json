@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "prathamesh-patil-5090",
+    "email": "prathampatil7798@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsrE6Q+HQBHo9jDbF0gsD4MBKiX3N9pwUz88F19bxD3Pdsx/RrWdLxgKQOjVQDE//XfnDTminKCCb/QTDfLJoUsRsEswsoPfTVeKSxPFGVnno5I7w2ADUbnMeCEY6NA76fUJK89B8qiUTNu7HsgnzRXWN03W/78e3Ba0aAG9PSWQIDAQAB"
+  }
+}

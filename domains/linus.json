@@ -7,7 +7,7 @@
     "URL": "https://linuskang.au",
     "MX": [
       {
-        "target": "inbound-smtp.ap-northeast-1.amazonaws.com",
+        "target": "receive-apne1.forge.rmta.net",
         "priority": 10
       }
     ]
