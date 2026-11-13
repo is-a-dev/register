@@ -4,6 +4,9 @@
     "email": "froxbi.dev@gmail.com"
   },
   "records": {
-    "CNAME": "froxbi-site.pages.dev"
+    "URL": "https://froxbi.com"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

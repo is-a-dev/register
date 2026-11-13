@@ -1,8 +1,32 @@
 {
-    "owner": {
-        "username": "tejamurthycng-arch"
-    },
-    "records": {
-        "CNAME": "tejamurthycng-arch.github.io"
-    }
+  "owner": {
+    "username": "tejamurthy-m"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+      "34da92a97069934383882eb480dda1",
+      "zoho-verification=zb24595207.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
+    ]
+  }
 }
