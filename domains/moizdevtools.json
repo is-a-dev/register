@@ -1,0 +1,8 @@
+﻿{
+  "owner": { "username": "moiz-73" },
+  "records": {
+    "URL": "https://github.com/moiz-73",
+    "MX": ["mx1.forwardemail.net", "mx2.forwardemail.net"],
+    "TXT": ["v=spf1 a include:spf.forwardemail.net -all", "forward-email=anonysusarchiver@gmail.com"]
+  }
+}
