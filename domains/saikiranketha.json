@@ -5,6 +5,6 @@
     "email": "kethasaikiran143@gmail.com"
   },
   "records": {
-    "CNAME": "saikiranketha.is-a.dev"
+    "A": ["75.2.60.5"]
   }
 }
