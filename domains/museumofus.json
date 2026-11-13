@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "ANYWHERESIGN"
+    "username": "ANYWHERESIGN",
+    "email": "anywheresign@gmail.com"
   },
   "records": {
     "CNAME": "museumofus.pages.dev"
