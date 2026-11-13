@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "LORDUSecurity",
+    "email": "mohamed-amine.chafik@esi.ac.ma"
+  },
+  "records": {
+    "NS": [
+      "beth.ns.cloudflare.com",
+      "quincy.ns.cloudflare.com"
+    ]
+  }
+}
