@@ -3,6 +3,9 @@
         "username": "Sus69"
     },
     "records": {
-        "TXT": "vc-domain-verify=manaal.is-a.dev,c8959df177db300c9e61"
+        "TXT": [
+            "vc-domain-verify=manaal.is-a.dev,c8959df177db300c9e61",
+            "vc-domain-verify=www.manaal.is-a.dev,2da3fd0dca8508c67d61"
+        ]
     }
 }
