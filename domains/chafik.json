@@ -4,9 +4,6 @@
     "email": "mohamed-amine.chafik@esi.ac.ma"
   },
   "records": {
-    "NS": [
-      "beth.ns.cloudflare.com",
-      "quincy.ns.cloudflare.com"
-    ]
+    "CNAME": "lordusecurity.github.io"
   }
 }
