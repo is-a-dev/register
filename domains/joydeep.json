@@ -1,6 +1,9 @@
 {
-  "owner": { "username": "JustJoyful" },
+  "owner": {
+    "username": "JustJoyful",
+    "email": "joydeepdas217@gmail.com"
+  },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=joydeep.is-a.dev,aade6ac115ceecfcb4b7"
   }
 }
