@@ -1,0 +1,12 @@
+{
+  "name": "zmail._domainkey.clbnodse",
+  "description": "Zoho DKIM for clbnodse",
+  "owner": {
+    "username": "Clbnodse"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKDAnGaXIb7EYok748DHrIgt3Gh/68PU/jhXfd8ZVnYfXHJENIgOwMml02rEC4jk2p7FiEyeOcYu1CvUI9KTipJrw2k9B8ejgdN2/tI3AZDWkyutzmRWeeJOWtNj7m6nCGtWh6wFQI+HmmgQjvZJZKRo+q1JEog8ofpZY/oRFGWwIDAQAB"
+    ]
+  }
+}
