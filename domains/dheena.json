@@ -4,6 +4,7 @@
     "email": "dheenatrackers@gmail.com"
   },
   "records": {
-    "URL": "https://sunny-commonly-whippet.ngrok-free.app"
-  }
+    "CNAME": "dheena.duckdns.org"
+  },
+  "proxied": true
 }
