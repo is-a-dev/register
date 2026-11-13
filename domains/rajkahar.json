@@ -1,8 +1,9 @@
+
 {
   "owner": {
     "username": "Rajkahar-12"
   },
   "records": {
-    "CNAME": "rajkahar-12.github.io"
+    "A": ["216.198.79.1"]
   }
 }
