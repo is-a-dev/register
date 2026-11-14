@@ -4,6 +4,6 @@
     "email": "pradhankaran058@gmail.com"
   },
   "records": {
-    "CNAME": "Pradhan-07.github.io"
+    "A": ["216.198.79.1"]
   }
 }
