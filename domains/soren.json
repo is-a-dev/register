@@ -4,6 +4,9 @@
     "email": "developer51709@proton.me"
   },
   "records": {
-    "CNAME": "developer51709.github.io"
+    "NS": [
+      "cameron.ns.cloudflare.com", 
+      "megan.ns.cloudflare.com"
+    ]
   }
 }
