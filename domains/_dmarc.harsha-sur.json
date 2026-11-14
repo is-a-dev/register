@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "JuggernautJf"
+  },
+  "records": {
+    "TXT": ["v=DMARC1; p=quarantine; rua=mailto:harsha.sur@proton.me; ruf=mailto:harsha.sur@proton.me; sp=quarantine; adkim=r; aspf=r; pct=100"]
+  }
+}
