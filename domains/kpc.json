@@ -4,11 +4,11 @@
   },
   "records": {
     "MX": [
-      "10 mx1.cloudflare.com",
-      "20 mx2.cloudflare.com"
+      "10 mx1.forwardemail.net",
+      "20 mx2.forwardemail.net"
     ],
     "TXT": [
-      "v=spf1 include:_spf.mx.cloudflare.net ~all"
+      "v=spf1 include:forwardemail.net ~all"
     ]
   }
 }
