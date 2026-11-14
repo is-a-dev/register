@@ -1,5 +1,8 @@
 {
-  "owner": { "username": "darshanuniversity17", "email": "darshanuniversity792@gmail.com" },
+  "owner": {
+    "username": "darshanuniversity17",
+    "email": "darshanuniversity792@gmail.com"
+  },
   "records": {
     "TXT": "v=DMARC1; p=none;"
   }

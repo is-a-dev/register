@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "SYS-0xA7",
-        "email": "ktme156@gmail.com"
-    },
-    "records": {
-        "TXT": "dh=0a93eb94465126e3ed8ead41bd84a77c20c3e042"
-    }
+  "owner": {
+    "username": "SYS-0xA7",
+    "email": "ktme156@gmail.com"
+  },
+  "records": {
+    "TXT": "dh=0a93eb94465126e3ed8ead41bd84a77c20c3e042"
+  }
 }

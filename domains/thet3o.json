@@ -4,6 +4,8 @@
     "email": "thet3o@yahoo.com"
   },
   "records": {
-    "MX": ["mx.mailtie.com"]
+    "MX": [
+      "mx.mailtie.com"
+    ]
   }
 }

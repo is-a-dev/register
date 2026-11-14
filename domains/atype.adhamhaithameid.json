@@ -4,7 +4,9 @@
     "email": "adhamhaithameid@gmail.com"
   },
   "records": {
-    "A": ["129.151.233.229"]
+    "A": [
+      "129.151.233.229"
+    ]
   },
   "proxied": false
 }

@@ -1,0 +1,11 @@
+{
+  "description": "Shibil Mohammed's personal portfolio",
+  "repo": "https://github.com/heyshibil/shibil-portfolio",
+  "owner": {
+    "username": "heyshibil",
+    "email": "shibzzmohd@gmail.com"
+  },
+  "records": {
+    "CNAME": "shibil-portfolio-vercel-ickl.vercel.app"
+  }
+}

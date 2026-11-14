@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "bismareza81",
-        "email": "bismareza@outlook.com"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "bismareza81",
+    "email": "bismareza@outlook.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

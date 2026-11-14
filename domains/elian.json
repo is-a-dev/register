@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "ellyaisaurus",
-        "email": "elian.mejiag@gmail.com"
-    },
-    "records": {
-        "A": ["152.53.169.226"]
-    }
+  "owner": {
+    "username": "ellyaisaurus",
+    "email": "elian.mejiag@gmail.com"
+  },
+  "records": {
+    "A": [
+      "152.53.169.226"
+    ]
+  }
 }

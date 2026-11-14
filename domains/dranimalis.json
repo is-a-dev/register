@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "dranimalis"
-    },
-    "records": {
-        "CNAME": "dranimalis.github.io"
-    }
+  "owner": {
+    "username": "dranimalis"
+  },
+  "records": {
+    "CNAME": "dranimalis.github.io"
+  }
 }

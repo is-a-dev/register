@@ -1,9 +1,8 @@
 {
-    "owner": {
-        "username": "developeradhi",
-        "email": "contact@adhi.is-a.dev"
-    },
-    "records": {
-        "TXT": "v=DMARC1; p=none;"
-    }
+  "owner": {
+    "username": "developeradhi"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
 }

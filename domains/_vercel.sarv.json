@@ -4,6 +4,8 @@
     "email": "sarvagna.nandyala@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=sarv.is-a.dev,318ac41af65c06602260"]
+    "TXT": [
+      "vc-domain-verify=sarv.is-a.dev,318ac41af65c06602260"
+    ]
   }
 }

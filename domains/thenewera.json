@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "drogontargaryen299-debug",
-        "email": "drogontargaryen299@gmail.com"
-    },
-    "records": {
-        "A": ["178.104.1.183"]
-    }
+  "owner": {
+    "username": "drogontargaryen299-debug",
+    "email": "drogontargaryen299@gmail.com"
+  },
+  "records": {
+    "A": [
+      "178.104.1.183"
+    ]
+  }
 }

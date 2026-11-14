@@ -1,0 +1,13 @@
+{
+  "name": "_vercel.nevil",
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "nevil-sanish",
+    "email": "nevilsanish@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=nevil.is-a.dev,bedf0f4fde560003ee45"
+    ]
+  }
+}

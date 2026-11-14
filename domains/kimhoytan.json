@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "kimhoytan"
-    },
-    "records": {
-        "CNAME": "vibe.ludicrous.cloud"
-    }
+  "owner": {
+    "username": "kimhoytan"
+  },
+  "records": {
+    "CNAME": "vibe.ludicrous.cloud"
+  }
 }

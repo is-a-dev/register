@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "jakewalklate",
+    "email": "jakewalklate@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmiNpOjNKjubtb+QB59bveJYAxMq2XcbjFzPvSe9neA6w7PvBTNJf5T8vcDuotN8foaGbq7Rbzu9xbJQtLooINd3cGlj1h+IaBc10BxzcY8Ax5gvqFNxdSAbu7efp8ZdCK9AbCpY7M40sMgd78EH+4Y1IApAOV1I6pI3fPfu9/4wIDAQAB"
+  }
+}
