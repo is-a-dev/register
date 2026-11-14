@@ -1,0 +1,12 @@
+{
+    "description": "REINA Studio - independent animation studio. Website hosted on GitHub Pages, email via ImprovMX.",
+    "owner": {
+        "username": "jafarimojtaba557",
+        "email": "jafarimojtaba557@gmail.com"
+    },
+    "records": {
+        "CNAME": "jafarimojtaba557.github.io",
+        "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+        "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    }
+}
