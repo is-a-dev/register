@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "fanomdev", "email": "fanomdev@gmail.com" },
-  "records": { "TXT": ["36b28780ab67bdd7.vercel-dns-017.com"] }
+  "owner": {
+    "username": "fanomdev",
+    "email": "fanomdev@gmail.com"
+  },
+  "records": {
+    "TXT": ["36b28780ab67bdd7.vercel-dns-017.com."]
+  }
 }
