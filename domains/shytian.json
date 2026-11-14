@@ -1,0 +1,11 @@
+
+{
+  "description": "Personal self-hosted services and homelab projects",
+  "owner": {
+    "username": "shytian",
+    "email": "shytian@hotmail.com"
+  },
+  "record": {
+    "A": ["129.225.201.165"]
+  }
+}
