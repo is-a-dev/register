@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "JuggernautJf"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpU1xtbjuTW870gYnewZQL33qmlBPjRKTXVu35x2y1x8sIdRj2IUuVdUgonTLrNeZnqOZK7XJtSI3wLnFVzy/AFGawZ8YmKHDfjFSsrnPuQlyferiLmtAa3CAjAcKhcKWmX9PQxn0yZbIpMZIUz7g/XidG67YegOjFMh6PnhytjwIDAQAB"
+  }
+}
