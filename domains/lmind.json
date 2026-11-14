@@ -5,7 +5,12 @@
     "email": "kyungdoe@gmail.com"
   },
   "records": {
-    "CNAME": "lmind0179.github.io",
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
     "TXT": [
       "MS=ms25756109",
       "v=spf1 include:spf.improvmx.com ~all"
