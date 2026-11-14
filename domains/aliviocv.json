@@ -1,13 +1,9 @@
 {
-  "name": "aliviocv",
-  "description": "Free multilingual CV builder and career tracker",
-  "repo": "https://github.com/aliallamofficial/aliviocv",
   "owner": {
     "username": "aliallamofficial",
     "email": "prof.ali.hatem.cairo@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
-  },
-  "proxied": false
+  }
 }
