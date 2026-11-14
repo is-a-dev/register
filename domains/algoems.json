@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "ontitaner"
+    "username": "ontitaner",
+    "email": "729585510@qq.com"
   },
-  "records": {
-    "CNAME": [
-      "ontitaner.github.io"
-    ]
+  "record": {
+    "CNAME": "ontitaner.github.io"
   }
 }
