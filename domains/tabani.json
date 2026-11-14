@@ -4,6 +4,7 @@
     "email": "tabaniakmal@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "google-site-verification=A6y0Pj_EV5Fpiu4H9h_S8PEcsaOv83hdgdvFBxzADeo"
   }
 }
