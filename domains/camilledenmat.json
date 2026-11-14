@@ -1,9 +1,1 @@
-{
-  "owner": {
-    "username": "PerigLck",
-    "email": "perigdu29@gmail.com"
-  },
-  "record": {
-    "CNAME": "cname.vercel-dns.com"
-  }
-}
+{"owner":{"username":"PerigLck","email":"perigdu29@gmail.com"},"record":{"CNAME":"cname.vercel-dns.com","TXT":["vc-domain-verify=camilledenmat.is-a.dev,9ad0ad29087a31d72238"]}}
