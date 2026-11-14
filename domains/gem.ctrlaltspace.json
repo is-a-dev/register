@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "ctrlaltspace"
+    },
+    "records": {
+        "URL": "https://gem.is-a.bot"
+    },
+    "redirect_config": {
+      "redirect_paths": true
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "carlers"
+    },
+    "records": {
+        "A": ["216.198.79.1", "64.29.17.1"],
+        "TXT": ["brevo-code:f339c1522ea2b86a071186aad13ea834"]
+    }
+}

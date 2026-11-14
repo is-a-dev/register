@@ -6,9 +6,18 @@
   "records": {
     "URL": "https://github.com/varma1221",
     "MX": [
-      { "target": "mx.zoho.in", "priority": 10 },
-      { "target": "mx2.zoho.in", "priority": 20 },
-      { "target": "mx3.zoho.in", "priority": 50 }
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
     ],
     "TXT": [
       "zoho-verification=zb88605348.zmverify.zoho.in",

@@ -1,0 +1,6 @@
+{
+  "owner": { "username": "mshkh-dev" },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9nsdgY2/6SbBiMb7sUYqLJEwfHymJjii87VaDnmOpddmah1wnLr1e6deGVCK8thUXh7AmWVTBmcDp8N7V/b5IA3JO686MAiiRHXKl9Ac8zflEmUqsr7l4bVSlS+KbRTPz0dhS7C2AaouGVybGc0FqsO9TOTqeYIUEXNj7vGtTQQIDAQAB"
+  }
+}

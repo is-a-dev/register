@@ -1,0 +1,12 @@
+{
+  "name": "_vercel.oswaldorodriguez",
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "OswaldoRodriguez123"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=oswaldorodriguez.is-a.dev,899ae89036840a492ccc"
+    ]
+  }
+}

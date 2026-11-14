@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "exf1L",
-        "email": "teodormina2@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=exf1l.is-a.dev,0b2417b2542782004ba3"
-    }
+  "owner": {
+    "username": "exf1L",
+    "email": "teodormina2@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=exf1l.is-a.dev,0b2417b2542782004ba3"
+  }
 }

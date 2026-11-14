@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "mshkh-dev",
+    "email": "mshaikh@astermail.org"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      { "target": "mx.astermail.org", "priority": 10 }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.astermail.org -all"
+    ]
+  }
+}

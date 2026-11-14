@@ -1,9 +1,9 @@
-   {
-     "owner": {
-       "username": "bhagyeshkoli40-create",
-       "email": "Bhagyeshkoli40@gmail.com"
-     },
-     "records": {
-       "TXT": "vc-domain-verify=bhagyeshkoli.is-a.dev,300b9ace1bc73d549031"
-     }
-   }
+{
+  "owner": {
+    "username": "bhagyeshkoli40-create",
+    "email": "Bhagyeshkoli40@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=bhagyeshkoli.is-a.dev,33e3281d7eab6c4c531a"
+  }
+}
