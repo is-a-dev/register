@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "username": "你的GitHub用户名"
+  },
+  "records": {
+    "MX": [
+      "10 mx1.cloudflare.com",
+      "20 mx2.cloudflare.com"
+    ],
+    "TXT": [
+      "v=spf1 include:_spf.mx.cloudflare.net ~all"
+    ]
+  }
+}
