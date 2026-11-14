@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "lmind0179",
+    "email": "kyungdoe@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "MS=ms25756109",
+      "v=spf1 include:spf.improvmx.com ~all"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  }
+}
