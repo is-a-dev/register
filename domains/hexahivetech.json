@@ -1,11 +1,8 @@
 {
-  "name": "hexahivetech",
-  "description": "Personal portfolio of Syeda Farzana Shah - AI Developer",
   "owner": {
-    "username": "fajshah",
-    "email": "fajjibarbie@gmail.com"
+    "username": "fajshah"
   },
-  "record": {
+  "records": {
     "CNAME": "fajshah.github.io"
   }
 }
