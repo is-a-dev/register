@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "princebloma4-ctrl",
+    "email": "princebloma4@gmail.com"
+  },
+  "domain": "knowledgecamp",
+  "subdomain": "knowledgecamp",
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": false
+}
