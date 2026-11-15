@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "jinxware00"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=j7nx.is-a.dev,f2ee3c37800f2d20cd53"
-    }
+  "owner": {
+    "username": "jinxware00"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=j7nx.is-a.dev,f2ee3c37800f2d20cd53"
+  }
 }

@@ -1,1 +1,9 @@
-{"owner":{"username":"Adri-shikhar","email":"adrishikharbarua77452@gmail.com"},"records":{"TXT":"vc-domain-verify=adrishikhar.is-a.dev,9e721b76d58adbf47b7c"}}
+{
+  "owner": {
+    "username": "Adri-shikhar",
+    "email": "adrishikharbarua77452@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=adrishikhar.is-a.dev,9e721b76d58adbf47b7c"
+  }
+}

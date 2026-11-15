@@ -1,4 +1,11 @@
 {
-  "owner": { "username": "m4mans", "email": "a4anas1@gmail.com" },
-  "records": { "A": ["216.198.79.1"] }
+  "owner": {
+    "username": "m4mans",
+    "email": "a4anas1@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

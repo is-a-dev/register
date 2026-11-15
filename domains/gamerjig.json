@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "gamerjig"
-    },
-    "records": {
-        "CNAME": "gamerjig.github.io"
-    }
+  "owner": {
+    "username": "gamerjig"
+  },
+  "records": {
+    "CNAME": "gamerjig.github.io"
+  }
 }

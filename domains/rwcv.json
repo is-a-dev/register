@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "R1dlay",
-        "email": "robbie.carneal@gmail.com",
-        "discord": "ridlay_"
-    },
-    "records": {
-        "CNAME": "r1dlay.github.io"
-    }
+  "owner": {
+    "username": "R1dlay",
+    "email": "robbie.carneal@gmail.com",
+    "discord": "ridlay_"
+  },
+  "records": {
+    "CNAME": "r1dlay.github.io"
+  }
 }
