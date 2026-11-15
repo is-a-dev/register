@@ -1,5 +1,7 @@
 {
-  "owner": { "username": "MeetInCode" },
+  "owner": {
+    "username": "MeetInCode"
+  },
   "records": {
     "TXT": [
       "vc-domain-verify=mehtameet.is-a.dev,8c50cc8da9638aee86d5",

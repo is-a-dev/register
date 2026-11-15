@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "Irfankhan257"
-    },
-    "records": {
-        "TXT": [
-                "vc-domain-verify=irfankhan.is-a.dev,472fe73fe0cc84b7ba40",
-                "vc-domain-verify=www.irfankhan.is-a.dev,e5942e18b2aa1899056"
-            ]
-    }
+  "owner": {
+    "username": "Irfankhan257"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=irfankhan.is-a.dev,472fe73fe0cc84b7ba40",
+      "vc-domain-verify=www.irfankhan.is-a.dev,e5942e18b2aa1899056"
+    ]
+  }
 }

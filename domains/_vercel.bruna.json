@@ -4,6 +4,8 @@
     "email": "dev.bruna.magalhaes@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=bruna.is-a.dev,59cfbc6fe65dfde1086e"]
+    "TXT": [
+      "vc-domain-verify=bruna.is-a.dev,59cfbc6fe65dfde1086e"
+    ]
   }
 }

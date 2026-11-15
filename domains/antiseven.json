@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "enot-v-palto"
-    },
-    "records": {
-        "CNAME": "antiseven.pages.dev"
-    }
+  "owner": {
+    "username": "enot-v-palto"
+  },
+  "records": {
+    "CNAME": "antiseven.pages.dev"
+  }
 }

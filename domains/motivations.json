@@ -4,7 +4,9 @@
     "username": "helenalhy"
   },
   "records": {
-    "A": [ "34.111.179.208" ],
+    "A": [
+      "34.111.179.208"
+    ],
     "TXT": "replit-verify=fa926340-8f7d-4bf8-be27-c06af16a4276"
   }
 }
