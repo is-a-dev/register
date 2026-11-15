@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "QuaThePianist",
-        "discord": "thenaturalorderofallthings"
-    },
-    "records": {
-        "CNAME": "quathepianist.github.io"
-    }
+  "owner": {
+    "username": "QuaThePianist",
+    "discord": "thenaturalorderofallthings"
+  },
+  "records": {
+    "CNAME": "quathepianist.github.io"
+  }
 }

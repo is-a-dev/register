@@ -1,8 +1,8 @@
-  {
-    "owner": {
-      "username": "walter0456"
-    },
-    "records": {
-      "CNAME": "walterportfolio.pages.dev"
-    }
+{
+  "owner": {
+    "username": "walter0456"
+  },
+  "records": {
+    "CNAME": "walterportfolio.pages.dev"
   }
+}

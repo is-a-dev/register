@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Afnankazi"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=afnan.is-a.dev,ae7dcdc2d08243e15da7"
-    }
+  "owner": {
+    "username": "Afnankazi"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=afnan.is-a.dev,ae7dcdc2d08243e15da7"
+  }
 }

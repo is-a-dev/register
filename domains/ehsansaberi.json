@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "ehsadev"
-    },
-    "records": {
-        "CNAME": "ehsadev.github.io"
-    }
+  "owner": {
+    "username": "ehsadev"
+  },
+  "records": {
+    "CNAME": "ehsadev.github.io"
+  }
 }

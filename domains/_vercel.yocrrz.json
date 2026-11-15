@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "YOCRRZ224"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=cdn.yocrrz.is-a.dev,68d8974003c0bbe80b51"
-    }
+  "owner": {
+    "username": "YOCRRZ224"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=cdn.yocrrz.is-a.dev,68d8974003c0bbe80b51"
+  }
 }
