@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "mhmadhfz",
-        "email": "apiss2272@gmail.com"
-    },
-    "records": {
-        "A": ["216.24.57.1"]
-    }
+  "owner": {
+    "username": "mhmadhfz",
+    "email": "apiss2272@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.24.57.1"
+    ]
+  }
 }

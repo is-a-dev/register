@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "madamm91", "email": "adam.mokcsay@gmail.com" },
-  "records": { "CNAME": "madamm91.github.io" }
+  "owner": {
+    "username": "madamm91",
+    "email": "adam.mokcsay@gmail.com"
+  },
+  "records": {
+    "CNAME": "madamm91.github.io"
+  }
 }
