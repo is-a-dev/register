@@ -1,12 +1,10 @@
 {
   "description": "Personal developer portfolio and open-source project showcase for mrccorps",
-  "domain": "is-a.dev",
-  "subdomain": "mrccorps",
   "owner": {
     "username": "lepotane",
     "email": "smtmrc@gmail.com"
   },
   "records": {
-    "CNAME": "mrccorps.smtmrc.workers.dev"
+    "CNAME": "lepotane.github.io"
   }
 }
