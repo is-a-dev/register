@@ -4,6 +4,6 @@
     "email": "sief4136@gmail.com"
   },
   "record": {
-    "CNAME": "sief-ali.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
