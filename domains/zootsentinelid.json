@@ -3,9 +3,6 @@
     "username": "hokiGank"
   },
   "records": {
-    "NS": [
-      "karsyn.ns.cloudflare.com",
-      "sid.ns.cloudflare.com"
-    ]
+    "CNAME": "6da32c4c-c189-452d-8bf4-60fc77c4a345.cfargotunnel.com"
   }
 }
