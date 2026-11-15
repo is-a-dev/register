@@ -4,6 +4,8 @@
     "email": "sage.sunfish@proton.me"
   },
   "records": {
-    "TXT": ["v=DMARC1; p=reject; rua=mailto:dmarc@agentmail.to"]
+    "TXT": [
+      "v=DMARC1; p=reject; rua=mailto:dmarc@agentmail.to"
+    ]
   }
 }

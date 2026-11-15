@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "kinglylam",
-     "email": "olaoluafolami@gmail.com"
+    "email": "olaoluafolami@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
