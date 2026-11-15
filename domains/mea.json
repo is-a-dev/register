@@ -1,1 +1,8 @@
-
+{
+  "owner": {
+    "username": "purmea"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
