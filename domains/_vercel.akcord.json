@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "AKCord"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=akcord.is-a.dev,42d1ae4bf5525777b347"
-    }
+  "owner": {
+    "username": "AKCord"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=akcord.is-a.dev,42d1ae4bf5525777b347"
+  }
 }

@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "viridiancitrus"
-    },
-    "records": {
-        "CNAME": "viridiancitrus.github.io"
-    }
+  "owner": {
+    "username": "viridiancitrus"
+  },
+  "records": {
+    "CNAME": "viridiancitrus.github.io"
+  }
 }

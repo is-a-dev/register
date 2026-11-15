@@ -11,7 +11,10 @@
       "185.199.111.153"
     ],
     "MX": [
-      { "target": "mx.astermail.org", "priority": 10 }
+      {
+        "target": "mx.astermail.org",
+        "priority": 10
+      }
     ],
     "TXT": [
       "v=spf1 include:spf.astermail.org -all"
