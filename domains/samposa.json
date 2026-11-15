@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "slowlomaster",
-        "email": "cagotgot@gmail.com"
-    },
-    "records": {
-        "CNAME": "codeberg.page"
-    }
+  "owner": {
+    "username": "slowlomaster",
+    "email": "cagotgot@gmail.com"
+  },
+  "records": {
+    "CNAME": "codeberg.page"
+  }
 }

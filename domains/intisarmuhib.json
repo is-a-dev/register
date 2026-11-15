@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "imuhib25",
-        "email": "muhibvai007@gmail.com"
-    },
-    "records": {
-        "A": ["75.2.60.5"]
-    }
+  "owner": {
+    "username": "imuhib25",
+    "email": "muhibvai007@gmail.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ]
+  }
 }

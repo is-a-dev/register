@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "AndreaPolazzo",
-        "email": "andrea.polazzo2@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aplx.is-a.dev,f16ed0c806fe23490be0"
-    }
+  "owner": {
+    "username": "AndreaPolazzo",
+    "email": "andrea.polazzo2@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aplx.is-a.dev,f16ed0c806fe23490be0"
+  }
 }
