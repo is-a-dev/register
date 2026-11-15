@@ -4,6 +4,8 @@
     "email": "jesalbhetariya327@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=jesal-dev.is-a.dev,5a2ae6392703753ed85a"]
+    "TXT": [
+      "vc-domain-verify=jesal-dev.is-a.dev,5a2ae6392703753ed85a"
+    ]
   }
 }

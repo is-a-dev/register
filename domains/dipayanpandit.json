@@ -4,7 +4,9 @@
     "email": "panditdipayan05@gmail.com"
   },
   "records": {
-    "A": ["80.225.225.120"]
+    "A": [
+      "80.225.225.120"
+    ]
   },
   "proxied": false
 }
