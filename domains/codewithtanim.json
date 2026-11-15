@@ -1,9 +1,18 @@
 {
   "owner": {
     "username": "CodeWithTanim",
-    "email": "codewithtanim+support@gmail.com"
+    "email": "codewithtanim@gmail.com"
   },
-  "records": {
-    "CNAME": "codewithtanim.github.io"
+  "record": {
+    "A": [
+      "216.198.79.1"
+    ]
+  },
+  "subdomain": {
+    "_vercel": {
+      "record": {
+        "TXT": "vc-domain-verify=codewithtanim.is-a.dev,1b7baa517c9283bea396"
+      }
+    }
   }
 }
