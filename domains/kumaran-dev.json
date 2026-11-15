@@ -4,6 +4,9 @@
     "email": "akumaran120@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": "216.198.79.1",
+    "TXT": [
+      "vc-domain-verify=kumaran-dev.is-a.dev,a5afe49500fff49c84a4"
+    ]
   }
 }
