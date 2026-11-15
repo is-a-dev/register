@@ -4,8 +4,14 @@
   },
   "records": {
     "MX": [
-        { "target": "d9025d2074984e72.mx2.emailprofi.seznam.cz", "priority": 10 },
-        { "target": "d9025d2074984e72.mx1.emailprofi.seznam.cz", "priority": 20 }
+      {
+        "target": "d9025d2074984e72.mx2.emailprofi.seznam.cz",
+        "priority": 10
+      },
+      {
+        "target": "d9025d2074984e72.mx1.emailprofi.seznam.cz",
+        "priority": 20
+      }
     ]
   }
 }

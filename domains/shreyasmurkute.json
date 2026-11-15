@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "overclockedboi",
-        "email": "shreyashmurkute@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com",
-        "TXT": "google-site-verification=tnXjXwGZha93jyq7va4kTNFIFGRvXIZvz49DH8ak4BQ"
-    },
-    "proxied": true
+  "owner": {
+    "username": "overclockedboi",
+    "email": "shreyashmurkute@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": "google-site-verification=tnXjXwGZha93jyq7va4kTNFIFGRvXIZvz49DH8ak4BQ"
+  },
+  "proxied": true
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "harshchaudhary04",
-        "email": "harshchikara408@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=harshchaudhary.is-a.dev,23c170a66739bc7c1e18"
-    }
+  "owner": {
+    "username": "harshchaudhary04",
+    "email": "harshchikara408@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=harshchaudhary.is-a.dev,23c170a66739bc7c1e18"
+  }
 }

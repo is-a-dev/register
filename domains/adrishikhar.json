@@ -1,9 +1,9 @@
-  {
-    "owner": {
-      "username": "Adri-shikhar",
-      "email": "adrishikharbarua77452@gmail.com"
-    },
-    "records": {
-      "CNAME": "cname.vercel-dns.com"
-    }
+{
+  "owner": {
+    "username": "Adri-shikhar",
+    "email": "adrishikharbarua77452@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
   }
+}

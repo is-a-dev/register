@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Volt-ops"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aaryajith.is-a.dev,6449efd655983704f16e"
-    }
-}   
+  "owner": {
+    "username": "Volt-ops"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aaryajith.is-a.dev,6449efd655983704f16e"
+  }
+}
