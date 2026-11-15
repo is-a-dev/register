@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "pasak-dev",
-    "email": "pasak.dev@gmail.com"
+    "username": "robyajo",
+    "email": "robyfull.dev@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
