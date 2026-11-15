@@ -1,5 +1,7 @@
- "owner": {
-    "username": "powercore649"
+{
+  "owner": {
+    "username": "powercore649",
+    "email": "raphwieczorek@gmail.com"
   },
   "records": {
     "URL": "https://site-2264845135ec4c48b243947e6fe6de36.freebuff.page"
@@ -8,5 +10,3 @@
     "redirect_paths": true
   }
 }
-{
- 
