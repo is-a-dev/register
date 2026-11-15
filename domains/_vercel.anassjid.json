@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "ajxdevx"
+    "username": "ajxdevx",
+    "email": "Ajxfuture@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=anassjid.is-a.dev,852ef3ee273889edfee6"
+    "TXT": "vc-domain-verify=anassjid.is-a.dev,40b34ea9a0c4c4670dab"
   }
 }

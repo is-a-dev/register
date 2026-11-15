@@ -3,9 +3,11 @@
   "repo": "https://github.com/darshan-dhameliya/my-portfolio-v2-main",
   "owner": {
     "username": "darshan-dhameliya",
-    "email": "iamdhameliya@gmail.com" 
+    "email": "iamdhameliya@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "vallagenakisu",
-        "email": "tanzirmannanturzo@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=turzo.is-a.dev,cde2e57247c255526b0a"
-    }
+  "owner": {
+    "username": "vallagenakisu",
+    "email": "tanzirmannanturzo@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=turzo.is-a.dev,cde2e57247c255526b0a"
+  }
 }

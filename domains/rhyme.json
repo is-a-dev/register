@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "IstiakAR",
-        "email": "istiakrhyme840@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "IstiakAR",
+    "email": "istiakrhyme840@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

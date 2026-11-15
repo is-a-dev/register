@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "IstiakAR",
-        "email": "istiakrhyme840@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=rhyme.is-a.dev,f0779dca1731588e2241"
-    }
+  "owner": {
+    "username": "IstiakAR",
+    "email": "istiakrhyme840@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=rhyme.is-a.dev,f0779dca1731588e2241"
+  }
 }

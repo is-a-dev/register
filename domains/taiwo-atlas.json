@@ -4,7 +4,6 @@
     "email": "taiwoatlas.dev@gmail.com"
   },
   "records": {
-  "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
-}
-

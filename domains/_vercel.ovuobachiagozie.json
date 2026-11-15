@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Ovuoba-Chiagozie",
-        "email": "ovubskhalid@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=ovuobachiagozie.is-a.dev,60a76d9d204afebf29c0"
-    }
+  "owner": {
+    "username": "Ovuoba-Chiagozie",
+    "email": "ovubskhalid@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ovuobachiagozie.is-a.dev,60a76d9d204afebf29c0"
+  }
 }
