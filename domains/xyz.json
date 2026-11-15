@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "BLCXD",
-    "email": "blctoblc223@gmail.com"
+    "username": "ctrlaltspace"
   },
   "records": {
-    "CNAME": "blcpage.github.io"
+    "URL": "https://ctrlaltspace.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

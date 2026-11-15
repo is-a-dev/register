@@ -1,9 +1,0 @@
-{
-  "owner": {
-   "username": "jirka086",
-     "email": "adamec08@seznam.cz"
-  },
- "records": {
-   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCXnIMyUVFiOSAv/hajh6ZzX7Q3lUWOT1ibaQn0Ik9WHaJYiuaG+XGlKWoQ0h7zPc1G8Jmhs0Q/WnVID8IGl9/g+dAz5kLER7HHKR5j6uffot9ZeDt/z1A8l3mQAT0ALEwnCd+Z2AtLiyX7QiT+iAnj1untjQ6BisrwENY9xvnKtwIDAQAB"
-  }
-}

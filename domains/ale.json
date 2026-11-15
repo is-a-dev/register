@@ -5,6 +5,8 @@
   },
   "records": {
     "URL": "https://alekitopi.es",
-    "MX": ["mail.alekitopi.es"]
+    "MX": [
+      "mail.alekitopi.es"
+    ]
   }
 }

@@ -1,0 +1,19 @@
+{
+  "owner": {
+    "username": "wren-sunfish",
+    "email": "sage.sunfish@proton.me"
+  },
+  "records": {
+    "CNAME": "wren-sunfish.github.io",
+    "TXT": [
+      "v=spf1 include:spf.mailjet.com ?all"
+    ],
+    "MX": [
+      {
+        "target": "inbound-smtp.us-east-1.amazonaws.com",
+        "priority": 10
+      }
+    ]
+  },
+  "proxied": true
+}

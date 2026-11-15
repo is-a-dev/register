@@ -1,0 +1,24 @@
+{
+  "owner": {
+    "username": "andrewmkbuilds",
+    "email": "myidandy17@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "andrewmk.pages.dev",
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      "google-site-verification=gIjlictmciPEZzTUQmtE60qdMqsIDGtTI6aUlP7c4Ss",
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
+}

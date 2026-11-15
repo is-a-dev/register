@@ -4,6 +4,12 @@
     "email": "shardendumishrabrave@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ],
+    "TXT": [
+      "google-site-verification=EOOJe5pw7oz1_6IiwBHkI0eS88ysBH69KAAx-afYdU0",
+      "google-site-verification=C4tPILHGVZhrEPxax9DjvnzrQqro9LZV61UECUB_AME"
+    ]
   }
 }
