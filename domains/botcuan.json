@@ -4,9 +4,6 @@
     "email": "iphone14mania@gmail.com"
   },
   "records": {
-    "NS": [
-      "connie.ns.cloudflare.com",
-      "logan.ns.cloudflare.com"
-    ]
+    "CNAME": "3000-agq5swqthubwyhpptv3schsqy4.instabox.tech"
   }
 }
