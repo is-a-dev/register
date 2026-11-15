@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "KaderRiyaz"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=riyazkader.is-a.dev,6bd28a21aa0e87c5e4ad"
-    }
+  "owner": {
+    "username": "KaderRiyaz"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=riyazkader.is-a.dev,6bd28a21aa0e87c5e4ad"
+  }
 }

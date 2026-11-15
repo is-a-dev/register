@@ -4,8 +4,9 @@
     "email": "parthsinghshaurya@example.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=shaurya-singh.is-a.dev,03c06ce7e9d6fe1aeba1",
-            "vc-domain-verify=flipbook-maker.shaurya-singh.is-a.dev,3c5542bf351fe9bcbc5d" 
+    "TXT": [
+      "vc-domain-verify=shaurya-singh.is-a.dev,03c06ce7e9d6fe1aeba1",
+      "vc-domain-verify=flipbook-maker.shaurya-singh.is-a.dev,3c5542bf351fe9bcbc5d"
     ]
   }
 }

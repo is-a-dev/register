@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "dyotamo"
-    },
-    "records": {
-        "CNAME": "dyotamo.github.io"
-    }
+  "owner": {
+    "username": "dyotamo"
+  },
+  "records": {
+    "CNAME": "dyotamo.github.io"
+  }
 }

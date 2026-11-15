@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "duynguyen38",
-        "email": "duynguyen38.dev@gmail.com"
-    },
-    "records": {
-        "CNAME": "nguyenduy.pages.dev"
-    }
+  "owner": {
+    "username": "duynguyen38",
+    "email": "duynguyen38.dev@gmail.com"
+  },
+  "records": {
+    "CNAME": "nguyenduy.pages.dev"
+  }
 }

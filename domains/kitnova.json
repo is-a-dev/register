@@ -1,7 +1,9 @@
-{  
-  "owner": {    
-    "username": "mdtamimhossainafif",    
+{
+  "owner": {
+    "username": "mdtamimhossainafif",
     "email": "mdtamimhossainafif@gmail.com"
   },
-  "records": { "CNAME": "mdtamimhossainafif.github.io" }
+  "records": {
+    "CNAME": "mdtamimhossainafif.github.io"
+  }
 }

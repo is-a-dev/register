@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Phantom8420"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=phantom-842.is-a.dev,74d168adb65c69662dac"
-    }
+  "owner": {
+    "username": "Phantom8420"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=phantom-842.is-a.dev,74d168adb65c69662dac"
+  }
 }
