@@ -1,5 +1,5 @@
 {
-  "description": "Personal developer portfolio and self-hosted project gateway for mrccorps",
+  "description": "Personal developer portfolio and open-source project showcase for mrccorps",
   "domain": "is-a.dev",
   "subdomain": "mrccorps",
   "owner": {
@@ -7,9 +7,6 @@
     "email": "smtmrc@gmail.com"
   },
   "records": {
-    "NS": [
-      "angela.ns.cloudflare.com",
-      "bill.ns.cloudflare.com"
-    ]
+    "CNAME": "mrccorps.smtmrc.workers.dev"
   }
 }
