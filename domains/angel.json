@@ -3,10 +3,19 @@
     "username": "angelvs18",
     "email": "angel.maamx@gmail.com"
   },
-    "records": {
-    "A": ["199.36.158.100"],
-    "AAAA": ["2620:0:890::100"],
-    "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
-    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+  "records": {
+    "A": [
+      "199.36.158.100"
+    ],
+    "AAAA": [
+      "2620:0:890::100"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
   }
 }

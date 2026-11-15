@@ -1,9 +1,9 @@
 {
-    "owner": {
-      "username": "HarryMtv",
-      "discord": "breaking_brain"
-    },
-    "records": {
-      "CNAME": "personal-website-b8y.pages.dev"
-    }
+  "owner": {
+    "username": "HarryMtv",
+    "discord": "breaking_brain"
+  },
+  "records": {
+    "CNAME": "personal-website-b8y.pages.dev"
   }
+}

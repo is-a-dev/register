@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "zydric"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=zydric.is-a.dev,ebbc070a1ae43deb1219"
-    }
+  "owner": {
+    "username": "zydric"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=zydric.is-a.dev,ebbc070a1ae43deb1219"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ceebug",
-        "email": "caseydegan@outlook.com"
-    },
-    "records": {
-        "CNAME": "ceebug.github.io"
-    }
+  "owner": {
+    "username": "ceebug",
+    "email": "caseydegan@outlook.com"
+  },
+  "records": {
+    "CNAME": "ceebug.github.io"
+  }
 }

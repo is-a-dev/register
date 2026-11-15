@@ -1,9 +1,9 @@
 {
-    "owner": {
+  "owner": {
     "username": "pradiptadolaii",
     "email": "ipradiptadolai@gmail.com"
-},
-    "records": {
-        "CNAME": "pradiptadolaii.github.io"
-    }
+  },
+  "records": {
+    "CNAME": "pradiptadolaii.github.io"
+  }
 }
