@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "JINANOTC",
-        "email": "jinanotc@ccxv.ccwu.cc"
-    },
-    "records": {
-        "CNAME": "jinanotc.github.io"
-    }
+  "owner": {
+    "username": "JINANOTC",
+    "email": "jinanotc@ccxv.ccwu.cc"
+  },
+  "records": {
+    "CNAME": "jinanotc.github.io"
+  }
 }

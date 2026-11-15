@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "DelMellomida",
-        "email": "delmellomida@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=delmellomida.is-a.dev,72f64387ddb8dace0a1d"
-    }
+  "owner": {
+    "username": "DelMellomida",
+    "email": "delmellomida@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=delmellomida.is-a.dev,72f64387ddb8dace0a1d"
+  }
 }

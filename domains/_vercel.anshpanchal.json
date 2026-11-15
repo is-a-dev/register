@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "4nshhh",
-        "email": "anshpanchal1886@gmail.com"
-    },
-    "records": {
-        "TXT": ["vc-domain-verify=anshpanchal.is-a.dev,0f307b555277beb63d98"]
-    }
+  "owner": {
+    "username": "4nshhh",
+    "email": "anshpanchal1886@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=anshpanchal.is-a.dev,0f307b555277beb63d98"
+    ]
+  }
 }

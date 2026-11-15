@@ -4,5 +4,8 @@
   },
   "records": {
     "URL": "https://zurai02.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

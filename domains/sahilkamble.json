@@ -1,11 +1,11 @@
 {
-    "description": "Sahil Kamble - Product Builder & Design Engineer Portfolio",
-    "repo": "https://github.com/sahilkamble22387-ux",
-    "owner": {
-        "username": "sahilkamble22387-ux",
-        "email": "sahilkamble22387@gmail.com"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "description": "Sahil Kamble - Product Builder & Design Engineer Portfolio",
+  "repo": "https://github.com/sahilkamble22387-ux",
+  "owner": {
+    "username": "sahilkamble22387-ux",
+    "email": "sahilkamble22387@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

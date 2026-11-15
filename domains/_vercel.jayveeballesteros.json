@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "jayveeballesteros",
-        "email": "jayveeballesteros@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=jayveeballesteros.is-a.dev,bb7f9a5210448759ab90"
-    }
+  "owner": {
+    "username": "jayveeballesteros",
+    "email": "jayveeballesteros@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=jayveeballesteros.is-a.dev,bb7f9a5210448759ab90"
+  }
 }

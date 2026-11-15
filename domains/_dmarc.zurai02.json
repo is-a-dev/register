@@ -3,6 +3,8 @@
     "username": "zurai02"
   },
   "records": {
-    "TXT": "v=DMARC1; p=reject; sp=reject; rua=mailto:contact@zurai02.is-a.dev; fo=1; adkim=r; aspf=r; pct=100"
+    "TXT": [
+      "v=DMARC1; p=reject; sp=reject; adkim=r; aspf=r; pct=100"
+    ]
   }
 }

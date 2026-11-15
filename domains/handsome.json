@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "handsome-guy-here",
-        "email": "neverhandsome@duck.com"
-    },
-    "records": {
-        "CNAME": "handsome-guy-here.github.io"
-    }
+  "owner": {
+    "username": "handsome-guy-here",
+    "email": "neverhandsome@duck.com"
+  },
+  "records": {
+    "CNAME": "handsome-guy-here.github.io"
+  }
 }

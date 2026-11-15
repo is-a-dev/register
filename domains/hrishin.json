@@ -1,9 +1,9 @@
-   {
-       "owner": {
-           "username": "hrishinthecoder",
-           "email": "i.am.hrishin@gmail.com"
-       },
-       "records": {
-           "CNAME": "hrishinthecoder.github.io"
-       }
-   }
+{
+  "owner": {
+    "username": "hrishinthecoder",
+    "email": "i.am.hrishin@gmail.com"
+  },
+  "records": {
+    "CNAME": "hrishinthecoder.github.io"
+  }
+}
