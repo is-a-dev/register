@@ -1,0 +1,15 @@
+{
+  "description": "Personal developer portfolio and self-hosted project gateway for mrccorps",
+  "domain": "is-a.dev",
+  "subdomain": "mrccorps",
+  "owner": {
+    "username": "lepotane",
+    "email": "smtmrc@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "angela.ns.cloudflare.com",
+      "bill.ns.cloudflare.com"
+    ]
+  }
+}
