@@ -1,10 +1,12 @@
 {
   "owner": {
-    "username": "Terabyte0171"
+    "username": "Terabyte0171",
+    "email": "danielolanrewaju2007@gmail.com"
   },
   "records": {
     "CNAME": {
       "value": "teal-squirrel-04dcf8.netlify.app"
     }
   }
-}
+}}
+
