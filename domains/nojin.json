@@ -1,4 +1,12 @@
 {
-  "owner": { "username": "NojinNojs", "email": "muhammadraffiaqsan@gmail.com" },
-  "records": { "A": ["216.198.79.1", "64.29.17.1"] }
+  "owner": {
+    "username": "NojinNojs",
+    "email": "muhammadraffiaqsan@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1",
+      "64.29.17.1"
+    ]
+  }
 }

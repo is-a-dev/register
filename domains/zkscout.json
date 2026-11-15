@@ -5,8 +5,14 @@
   },
   "records": {
     "MX": [
-      { "priority": 0, "target": "mx1.forwardemail.net" },
-      { "priority": 0, "target": "mx2.forwardemail.net" }
+      {
+        "priority": 0,
+        "target": "mx1.forwardemail.net"
+      },
+      {
+        "priority": 0,
+        "target": "mx2.forwardemail.net"
+      }
     ],
     "TXT": [
       "v=spf1 a include:spf.forwardemail.net -all",

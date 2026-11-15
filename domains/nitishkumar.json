@@ -1,4 +1,4 @@
- {
+{
   "name": "nitishkumar",
   "description": "My personal project website hosted on Vercel",
   "owner": {
@@ -9,4 +9,3 @@
     "CNAME": "cname.vercel-dns.com"
   }
 }
-
