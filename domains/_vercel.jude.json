@@ -1,12 +1,12 @@
 {
-    "owner": {
-        "username": "judemusyoki",
-        "email": "judemusyoki@gmail.com"
-    },
-    "records": {
-        "TXT": [
-            "vc-domain-verify=jude.is-a.dev,f38cd24c988ed9c200ff",
-            "vc-domain-verify=www.jude.is-a.dev,72fc8df149ad71cef389"
-        ]
-    }
+  "owner": {
+    "username": "judemusyoki",
+    "email": "judemusyoki@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=jude.is-a.dev,f38cd24c988ed9c200ff",
+      "vc-domain-verify=www.jude.is-a.dev,72fc8df149ad71cef389"
+    ]
+  }
 }

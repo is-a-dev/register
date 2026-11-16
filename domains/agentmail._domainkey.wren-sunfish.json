@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "wren-sunfish",
+    "email": "sage.sunfish@proton.me"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzQ8cW5zW3eUYRnj+pcU1RKJvuwYGotNPIRcMpEofpNNpTTGJDsulcRHVWeD1NQsltS75AkYEsd353kbdDjwxwesgwrybpUzFIDEKFx+T7GCmk9jkC+4nipwrgSUd31fOYocg00YFtZ9DkqR3S+Cu0U7hgGe7O99vwzsdkRw+6ywIDAQAB"
+    ]
+  }
+}

@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "mahadhassanshire-svg", "email": "mahadhassanshire@gmail.com" },
-  "records": { "CNAME": "mahadhassanportfolio.netlify.app" }
+  "owner": {
+    "username": "mahadhassanshire-svg",
+    "email": "mahadhassanshire@gmail.com"
+  },
+  "records": {
+    "CNAME": "mahadhassanportfolio.netlify.app"
+  }
 }

@@ -1,10 +1,10 @@
 {
   "owner": {
-   "username": "hase0278"
+    "username": "hase0278"
   },
- "records": {
-   "CNAME": "developer-portfolio-2qp.pages.dev",
-   "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCglmt+40r10m5uxqhfWLBx6KhPWrS880LzxQle2VPyrrlhinO9LmxotjyfG0U1g2MhhXGWr6cqExr1mwErqkHw5fhaVRWHoVvrlU4mRAaFRPDT9gE9gyzs5EGnlf0NaM0zfRgO99JUKXKP7Qi6sTjAwZiHRL16tCrH4QJUtU4gcwIDAQAB"
+  "records": {
+    "CNAME": "developer-portfolio-2qp.pages.dev",
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCglmt+40r10m5uxqhfWLBx6KhPWrS880LzxQle2VPyrrlhinO9LmxotjyfG0U1g2MhhXGWr6cqExr1mwErqkHw5fhaVRWHoVvrlU4mRAaFRPDT9gE9gyzs5EGnlf0NaM0zfRgO99JUKXKP7Qi6sTjAwZiHRL16tCrH4QJUtU4gcwIDAQAB"
   },
-  "proxied":true
+  "proxied": true
 }
