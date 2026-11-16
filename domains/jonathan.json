@@ -8,6 +8,14 @@
     "NS": [
       "maria.ns.cloudflare.com",
       "plato.ns.cloudflare.com"
+    ],
+    "DS": [
+      {
+        "key_tag": 2371,
+        "algorithm": 13,
+        "digest_type": 2,
+        "digest": "FD9A0FA41C84A549DCA601EBFFA47EF9FBCB8CDB1430D569BBCCC49A07822A4A"
+      }
     ]
   }
 }
