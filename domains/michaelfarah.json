@@ -1,0 +1,29 @@
+{
+  "owner": {
+    "username": "michael-farah"
+  },
+  "records": {
+    "A": [
+      "199.36.158.100"
+    ],
+    "MX": [
+      {
+        "target": "mx1.larksuite.com",
+        "priority": 1
+      },
+      {
+        "target": "mx2.larksuite.com",
+        "priority": 5
+      },
+      {
+        "target": "mx3.larksuite.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "verification-code-site-App_lark=Gk8WRLvRgOIbHPJc9wZI",
+      "v=spf1 +include:spf.onlarksuite.com -all",
+      "hosting-site=portfolio-mfarah"
+    ]
+  }
+}

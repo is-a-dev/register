@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "satindar31"
+  },
+  "records": {
+    "URL": "https://printer.satindar.is-a.dev"
+  },
+  "proxied": false,
+  "redirect_config": {
+    "custom_paths": {
+      "/u": "https://printer.satindar.is-a.dev/app?service=page/UserSummary",
+      "/a": "https://printer.satindar.is-a.dev/app?service=page/Dashboard"
+    },
+    "redirect_paths": true
+  }
+}

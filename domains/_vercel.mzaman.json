@@ -4,6 +4,9 @@
     "email": "mirzazaman828@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=mzaman.is-a.dev,23ba156f3878cfc860f7"
+    "TXT": [
+      "vc-domain-verify=mzaman.is-a.dev,077b1189407060cb67b0",
+      "vc-domain-verify=www.mzaman.is-a.dev,8e506d0c2f036f07acfd"
+    ]
   }
 }

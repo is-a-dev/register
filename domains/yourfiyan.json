@@ -1,0 +1,32 @@
+{
+  "owner": {
+    "username": "Yourfiyan",
+    "email": "yourfiyan@proton.me"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+      "google-site-verification=Osw72MYr4ZOgV7xqjyvYzzBg4dLBiPM9GVdZ9DiS3Eo",
+      "v=spf1 include:zoho.in ~all"
+    ]
+  }
+}

@@ -6,6 +6,9 @@
     "discord": "naviheylisten"
   },
   "records": {
-    "NS": ["gloria.ns.cloudflare.com", "mustafa.ns.cloudflare.com"]
+    "NS": [
+      "gloria.ns.cloudflare.com",
+      "mustafa.ns.cloudflare.com"
+    ]
   }
 }
