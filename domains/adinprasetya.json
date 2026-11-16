@@ -6,9 +6,6 @@
   "records": {
     "A": [
       "216.198.79.1"
-    ],
-    "TXT": {
-      "_vercel": "vc-domain-verify=adinprasetya.is-a.dev,a7da50deb59ccfeb4da6"
-    }
+    ]
   }
 }
