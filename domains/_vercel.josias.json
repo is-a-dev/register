@@ -4,6 +4,9 @@
     "email": "jjosias00@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=josias.is-a.dev,0612a19ab4b22c08b68a"
+    "TXT": [
+      "vc-domain-verify=josias.is-a.dev,978fa4797c89aa22e3f0",
+      "vc-domain-verify=www.josias.is-a.dev,04dca736ba97dddbfe94"
+    ]
   }
 }

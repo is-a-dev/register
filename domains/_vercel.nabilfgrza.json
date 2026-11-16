@@ -3,6 +3,8 @@
     "username": "Xskyis"
   },
   "records": {
-    "TXT": "vc-domain-verify=nabilfgrza.is-a.dev,7a4faffc69f419eb34cd"
+    "TXT": [
+      "vc-domain-verify=nabilfgrza.is-a.dev,19f565a155d012cd441b"
+    ]
   }
 }
