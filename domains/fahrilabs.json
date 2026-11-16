@@ -3,6 +3,7 @@
     "username": "fahriftrhmn14",
     "email": "fahri.faturrahman14@gmail.com"
   },
+  "proxy": true,
   "records": {
     "CNAME": "fahriftrhmn14.github.io",
     "MX": [
