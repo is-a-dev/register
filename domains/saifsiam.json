@@ -1,12 +1,9 @@
 {
-  "name": "saifsiam",
-  "description": "Personal portfolio of Saif Siam, CSE student and aspiring AI engineer",
-  "repo": "https://github.com/Siam007-ayuno/portfolio",
   "owner": {
     "username": "Siam007-ayuno",
     "email": "saifayuno@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "siam007-ayuno.github.io"
   }
 }
