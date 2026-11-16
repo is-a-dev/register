@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "jaydux67",
+    "email": "packetracer.dev@proton.me"
+  },
+  "records": {
+    "CNAME": "packetracer.github.io"
+  }
+}
