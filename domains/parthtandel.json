@@ -4,7 +4,6 @@
     "email": "rthmdx@gmail.com"
   },
   "records": {
-    "CNAME": "4b81254070728435.vercel-dns-017.com.",
-    "TXT": "vc-domain-verify=www.parthtandel.is-a.dev,92a59ec3eaeb941dbec0"
+    "A": ["216.198.79.1"]
   }
 }
