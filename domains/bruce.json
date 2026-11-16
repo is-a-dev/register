@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "codereserves"
+    "username": "codereserves",
+    "email": "brucejongwe6@gmail.com"
   },
   "records": {
-    "CNAME": "6863ddef387a3bd2.vercel-dns-017.com"
+    "TXT": "vc-domain-verify=bruce.is-a.dev,951b973f3fa758e1f8f0"
   }
 }
