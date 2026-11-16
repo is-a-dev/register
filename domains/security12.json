@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "newaprxsd"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 0
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 0
+      }
+    ],
+    "TXT": "forward-email=apexsupport2@gmail.com"
+  }
+}
