@@ -1,0 +1,10 @@
+{
+  "description": "Personal portfolio of Chris Okoth",
+  "owner": {
+    "username": "chrisokoth",
+    "email": "chrisokoth17@gmail.com"
+  },
+  "records": {
+    "CNAME": "chrisokothinfo.netlify.app"
+  }
+}

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "MarcD25",
-        "email": "doria.marcjacob@gmail.com"
-    },
-    "records": {
-        "CNAME": "marcd25-portfolio.netlify.app"
-    }
+  "owner": {
+    "username": "MarcD25",
+    "email": "doria.marcjacob@gmail.com"
+  },
+  "records": {
+    "CNAME": "marcd25-portfolio.netlify.app"
+  }
 }

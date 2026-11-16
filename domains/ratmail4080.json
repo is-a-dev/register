@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "username": "magmashice",
+    "email": "aissalabandaseize@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=spf1 include:_spf.google.com ~all",
+      "brevo-code:1b0bc0e3e13185befeaf3d6c24b07e74"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  }
+}

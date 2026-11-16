@@ -4,6 +4,8 @@
     "email": "moshiur.ra01@gmail.com"
   },
   "records": {
-    "CNAME": "moshiur-rahman-akash.vercel.app"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ShinigameBR",
-        "email": "contatoexpeditosc@gmail.com"
-    },
-    "records": {
-        "CNAME": "expeditodev.netlify.app"
-    }
+  "owner": {
+    "username": "ShinigameBR",
+    "email": "contatoexpeditosc@gmail.com"
+  },
+  "records": {
+    "CNAME": "expeditodev.netlify.app"
+  }
 }

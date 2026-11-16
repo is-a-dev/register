@@ -1,9 +1,9 @@
- {
-    "owner": {
-      "username": "Khyme667",
-      "email": "tsitanakhyme@gmail.com"
-    },
-    "records": {
-      "CNAME": "portfolio-tsitana-khyme.netlify.app"
-    }
+{
+  "owner": {
+    "username": "Khyme667",
+    "email": "tsitanakhyme@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-tsitana-khyme.netlify.app"
   }
+}

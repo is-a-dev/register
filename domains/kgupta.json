@@ -6,6 +6,37 @@
     "email": "hg497kg@gmail.com"
   },
   "records": {
-    "CNAME": "kgupta171025.github.io"
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      {
+        "target": "aspmx.l.google.com",
+        "priority": 1
+      },
+      {
+        "target": "alt1.aspmx.l.google.com",
+        "priority": 5
+      },
+      {
+        "target": "alt2.aspmx.l.google.com",
+        "priority": 5
+      },
+      {
+        "target": "alt3.aspmx.l.google.com",
+        "priority": 10
+      },
+      {
+        "target": "alt4.aspmx.l.google.com",
+        "priority": 10
+      }
+    ],
+    "TXT": [
+      "google-site-verification=-J_lFQ4sWduK1v_i2ZHvx-c-1QMfpStsZVl7GrqhkedSrus",
+      "v=spf1 include:_spf.google.com ~all"
+    ]
   }
 }
