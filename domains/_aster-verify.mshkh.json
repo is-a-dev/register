@@ -1,5 +1,7 @@
 {
-  "owner": { "username": "mshkh-dev" },
+  "owner": {
+    "username": "mshkh-dev"
+  },
   "records": {
     "TXT": "aster-verify=hYOSNiJRwk6GZbMecrJM7Xg+U2cAxCfHQo6qho/tju4="
   }

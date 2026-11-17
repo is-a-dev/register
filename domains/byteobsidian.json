@@ -1,8 +1,8 @@
 {
-"owner": {
-"username": "ByteObsidian"
-},
-"records": {
-"CNAME": "ByteObsidian.github.io"
-}
+  "owner": {
+    "username": "ByteObsidian"
+  },
+  "records": {
+    "CNAME": "ByteObsidian.github.io"
+  }
 }

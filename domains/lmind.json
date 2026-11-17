@@ -1,0 +1,23 @@
+{
+  "description": "LMind software development and developer email",
+  "owner": {
+    "username": "lmind0179",
+    "email": "kyungdoe@gmail.com"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "TXT": [
+      "MS=ms25756109",
+      "v=spf1 include:spf.improvmx.com ~all"
+    ],
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ]
+  }
+}

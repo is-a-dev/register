@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "aude-mian",
-     "email": "mianaude3@gmail.com"
+    "email": "mianaude3@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

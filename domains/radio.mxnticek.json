@@ -4,7 +4,9 @@
     "email": "male@cyn.cz"
   },
   "records": {
-    "A": ["38.242.156.120"]
+    "A": [
+      "38.242.156.120"
+    ]
   },
   "proxied": false
 }

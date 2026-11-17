@@ -4,6 +4,9 @@
         "email": "qwert292417@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=perkrador.is-a.dev,4706319f5ca30b9a4b5e"
+        "TXT": [
+            "vc-domain-verify=perkrador.is-a.dev,4706319f5ca30b9a4b5e",
+            "vc-domain-verify=www.perkrador.is-a.dev,5bb7296f81835c08a942"
+        ]
     }
 }

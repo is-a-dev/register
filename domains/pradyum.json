@@ -3,5 +3,7 @@
     "username": "altf4-games",
     "email": "pradyum_mistry@protonmail.com"
   },
-  "records": { "CNAME": "cname.vercel-dns.com" }
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
