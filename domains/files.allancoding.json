@@ -6,7 +6,9 @@
     "discord": "allancoding"
   },
   "records": {
-    "A": ["75.2.60.5"]
+    "A": [
+      "75.2.60.5"
+    ]
   },
   "proxied": true
 }

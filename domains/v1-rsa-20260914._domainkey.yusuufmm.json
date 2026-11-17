@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "yusuuf-mm",
+    "email": "yusuf2000mm@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx3EW2Bh6qShHfxQyFJcVl8Sp/IL5RlyhqBXKT8tFBbn3HmXEMLkRR6u7G1rNworWSSCw0pa7sv/k3XMzcQGEFvW6lyo637CY64aNUwszwPzhDxt3WuckMi5SMRs3hFB058mqvpBNCZfnAFZB0tQ6SY9xtoMT/wlSDPN4oJNrkTF5rzw/QsPpGMnY+ULpZBAZR1kfu4i0lXsu5sp21ZKNlFZy26rGFeBV+OwZJhZ2ziSIYXT4Qg8oIwtysMLbdW/tMpY0TIl9rEeC/D3MKHVCDNOEi6WuvUiQJl31lIf2G1pVjR+5KlX+raR+MtfL/L24CVl++JJ0vG6NwgkncAXmYQIDAQAB"
+  }
+}

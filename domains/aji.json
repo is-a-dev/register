@@ -4,7 +4,9 @@
     "email": "semlakune@gmail.com"
   },
   "records": {
-    "A": ["75.2.60.5"],
+    "A": [
+      "75.2.60.5"
+    ],
     "TXT": [
       "zoho-verification=zb76000441.zmverify.zoho.com",
       "v=spf1 include:zohomail.com ~all"

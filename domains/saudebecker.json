@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "DaniloBecker",
+    "email": "danilobecker@hotmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "danilobecker.github.io",
+    "TXT": "google-site-verification=sKGPQeCleoe8wd5hXzhW53846LvFuORtEPjFqKO2BK0"
+  }
+}

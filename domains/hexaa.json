@@ -6,6 +6,9 @@
     "twitter": "Scoooolzs"
   },
   "records": {
-    "NS": ["arch.ns.cloudflare.com", "perla.ns.cloudflare.com"]
+    "NS": [
+      "arch.ns.cloudflare.com",
+      "perla.ns.cloudflare.com"
+    ]
   }
 }

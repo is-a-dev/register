@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "pvrosendo",
-        "email": "paulovitor.rsd@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "pvrosendo",
+    "email": "paulovitor.rsd@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  },
+  "proxied": true
 }

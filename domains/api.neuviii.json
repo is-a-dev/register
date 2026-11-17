@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "Neuvillette-dc"
-    },
-    "records": {
-        "A": ["103.75.189.94"]
-    }
+  "owner": {
+    "username": "Neuvillette-dc"
+  },
+  "records": {
+    "A": [
+      "103.75.189.94"
+    ]
+  }
 }
