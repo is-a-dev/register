@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "hisnbr008-cloud",
+    "email": "hisnbr008@gmail.com"
+  },
+  "records": {
+    "CNAME": "hex-relay.hisnbr008.workers.dev"
+  }
+}
