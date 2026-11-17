@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "llu4iksolncaa"
+  },
+  "record": {
+    "CNAME": {
+      "target": "my-telegram-proxy.isip-i-s.lukyanchenko.workers.dev"
+    }
+  }
+}
