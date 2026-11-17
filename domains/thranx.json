@@ -1,9 +1,10 @@
 {
-    "owner": {
-        "username": "thranx98",
-        "discord": "sleeper7426"
-    },
-    "records": {
-        "CNAME": "thranx.dedyn.io"
-    }
+  "owner": {
+    "username": "thranx98",
+    "discord": "sleeper7426"
+  },
+  "records": {
+    "CNAME": "portfolio.08222022.xyz"
+  },
+  "proxied": true
 }

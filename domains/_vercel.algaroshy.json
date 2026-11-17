@@ -4,6 +4,8 @@
     "email": "malgaroshy@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=algaroshy.is-a.dev,53b87b61cbe849d1ea6f"]
+    "TXT": [
+      "vc-domain-verify=algaroshy.is-a.dev,9444b8058cf8d1f184f2"
+    ]
   }
 }

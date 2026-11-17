@@ -3,7 +3,9 @@
     "username": "matkultra"
   },
   "records": {
-    "A": ["220.244.37.232"],
+    "A": [
+      "220.244.37.232"
+    ],
     "SRV": [
       {
         "priority": 0,

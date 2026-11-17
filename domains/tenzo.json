@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Tenzo-Sax",
-        "email": "hvmmahi306@gmail.com"
-    },
-    "records": {
-        "A": ["216.24.57.1"]
-    }
+  "owner": {
+    "username": "Tenzo-Sax",
+    "email": "hvmmahi306@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.24.57.1"
+    ]
+  }
 }

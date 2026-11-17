@@ -1,0 +1,28 @@
+{
+  "owner": {
+    "username": "azanbroib-hash",
+    "email": "piko98631@gmail.com"
+  },
+  "records": {
+    "CNAME": "azanbroib-hash.github.io",
+    "TXT": [
+      "zoho-verification=zb65283090.zmverify.zoho.eu",
+      "v=spf1 include:zohomail.eu ~all"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.eu",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.eu",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.eu",
+        "priority": 50
+      }
+    ]
+  },
+  "proxied": true
+}

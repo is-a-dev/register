@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "defiect",
-        "email": "sean.demerss@gmail.com"
-    },
-    "records": {
-        "CNAME": "defiect.github.io"
-    }
+  "owner": {
+    "username": "defiect",
+    "email": "sean.demerss@gmail.com"
+  },
+  "records": {
+    "CNAME": "defiect.github.io"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "owner": { "username": "metazebiya" },
+  "owner": {
+    "username": "metazebiya"
+  },
   "description": "Email setup for Resend",
   "records": {
     "TXT": [
