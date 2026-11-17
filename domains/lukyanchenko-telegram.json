@@ -3,9 +3,6 @@
     "username": "llu4iksolincaa"
   },
   "record": {
-    "NS": [
-      "fish.ns.cloudflare.com",
-      "yew.ns.cloudflare.com"
-    ]
+    "CNAME": "my-telegram-proxy.isip-i-s.lukyanchenko.workers.dev"
   }
 }
