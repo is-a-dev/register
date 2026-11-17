@@ -1,10 +1,11 @@
 {
   "owner": {
-    "username": "llu4iksolncaa"
+    "username": "llu4iksolincaa"
   },
   "record": {
-    "CNAME": {
-      "target": "my-telegram-proxy.isip-i-s.lukyanchenko.workers.dev"
-    }
+    "NS": [
+      "fish.ns.cloudflare.com",
+      "yew.ns.cloudflare.com"
+    ]
   }
 }
