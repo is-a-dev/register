@@ -15,5 +15,6 @@
       "apple-domain=TLFvGcooOOaMmrDg",
       "v=spf1 include:icloud.com ~all"
     ]
-  }
+  },
+  "proxied": false
 }

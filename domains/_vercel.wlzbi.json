@@ -4,6 +4,8 @@
     "email": "alenanto82@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=wlzbi.is-a.dev,c4e409f4a30b3684bae4"]
+    "TXT": [
+      "vc-domain-verify=wlzbi.is-a.dev,c4e409f4a30b3684bae4"
+    ]
   }
 }

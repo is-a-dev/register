@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "blessingkeyz",
-        "email": "umukoroblessing@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=www.kome.is-a.dev,5fb0d6e12acf423ce1fe"
-    }
+  "owner": {
+    "username": "blessingkeyz",
+    "email": "umukoroblessing@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=kome.is-a.dev,d64ad526587125e58c52",
+      "vc-domain-verify=www.kome.is-a.dev,6b086739239e2cec1c7e"
+    ]
+  }
 }
