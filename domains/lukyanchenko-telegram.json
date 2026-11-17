@@ -1,8 +1,8 @@
 {
   "owner": {
-    "username": "llu4iksolincaa"
+    "username": "llu4iksolncea"
   },
-  "record": {
-    "CNAME": "my-telegram-proxy-pages.isip-i-s.lukyanchenko.workers.dev"
+  "records": {
+    "CNAME": "lukyanchenko-telegram.pages.dev"
   }
 }
