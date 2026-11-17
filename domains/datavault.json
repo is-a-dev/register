@@ -1,0 +1,10 @@
+{
+  "name": "datavault",
+  "description": "DataVault",
+  "records": {
+    "NS": [
+      "kehlani.ns.cloudflare.com",
+      "roan.ns.cloudflare.com"
+    ]
+  }
+}
