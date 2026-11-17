@@ -1,0 +1,10 @@
+{
+    "records":  {
+                    "CNAME":  "hackerai-nexus.vercel.app"
+                },
+    "owner":  {
+                  "email":  "admin@mistico.dev",
+                  "username":  "mito-pro"
+              },
+    "proxied":  true
+}
