@@ -4,6 +4,8 @@
     "email": "dhanunjay905@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=djportfolio.is-a.dev,bea4dfd8c82409420a66"]
+    "TXT": [
+      "vc-domain-verify=djportfolio.is-a.dev,bea4dfd8c82409420a66"
+    ]
   }
 }

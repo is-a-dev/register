@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "sameerdumne"
-    },
-    "records": {
-        "CNAME": "sameerisadev.netlify.app"
-    }
+  "owner": {
+    "username": "sameerdumne"
+  },
+  "records": {
+    "CNAME": "sameerisadev.netlify.app"
+  }
 }

@@ -1,1 +1,9 @@
-{"owner":{"username":"zheliya","email": "zheliyasalam@gmail.com"},"records":{"CNAME":"zhilya.netlify.app"}}
+{
+  "owner": {
+    "username": "zheliya",
+    "email": "zheliyasalam@gmail.com"
+  },
+  "records": {
+    "CNAME": "zhilya.netlify.app"
+  }
+}
