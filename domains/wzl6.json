@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "hibyezero"
+    "username": "hibyezero",
+    "email": "xquant2020@gmail.com"
   },
   "records": {
-    "NS": ["nesh.ns.cloudflare.com", "peris.ns.cloudflare.com"]
+    "CNAME": "temp-email-pages-csl.pages.dev"
   }
 }
