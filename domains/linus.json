@@ -4,6 +4,12 @@
     "email": "linus@linus.my"
   },
   "records": {
-    "URL": "https://linuskang.au"
+    "URL": "https://linuskang.au",
+    "MX": [
+      {
+        "target": "receive-apne1.forge.rmta.net",
+        "priority": 10
+      }
+    ]
   }
 }
