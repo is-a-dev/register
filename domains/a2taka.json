@@ -4,6 +4,7 @@
     "email": "egaharuhi@gmail.com"
   },
   "records": {
+    "URL": "https://github.com/a2taka-sourse",
     "MX": [
       { "target": "mx1.improvmx.com", "priority": 10 },
       { "target": "mx2.improvmx.com", "priority": 20 }
