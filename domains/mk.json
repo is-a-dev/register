@@ -4,6 +4,6 @@
     "discord": "728092815397224478"
   },
   "records": {
-    "TXT": "vc-domain-verify=mk.is-a.dev,5371bca37dfac6ce5dc4"
+    "A": ["216.198.79.1"]
   }
 }
