@@ -4,7 +4,6 @@
     "email": "sief4136@gmail.com"
   },
   "records": {
-    "CNAME": "sief-ali.netlify.app"
-  },
-  "proxied": true
+      "TXT": "vc-domain-verify=sief.is-a.dev,7a75e2fe262218c15e66"
+  }
 }
