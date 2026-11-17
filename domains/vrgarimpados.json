@@ -3,9 +3,6 @@
     "username": "akashifxp"
   },
   "records": {
-    "NS": [
-      "nash.ns.cloudflare.com",
-      "sharon.ns.cloudflare.com"
-    ]
+    "CNAME": "c7e13d30-d5a1-4d34-a1e5-ef1bdcc953d7.cfargotunnel.com"
   }
 }
