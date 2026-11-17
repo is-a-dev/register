@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "wangba5467-ctrl"
+    "username": "wangba5467-ctrl",
+    "email": "wangba5467@gmail.com"
   },
   "records": {
-    "A": ["23.151.104.236"],
-    "MX": ["mx1.cloudns.net"]
+    "CNAME": "wangba5467-ctrl.github.io"
   }
 }
