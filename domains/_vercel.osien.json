@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kabirprokk",
-        "email": "kabirsayed.k@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=osien.is-a.dev,12219d07039756b41879"
-    }
+  "owner": {
+    "username": "kabirprokk",
+    "email": "kabirsayed.k@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=osien.is-a.dev,12219d07039756b41879"
+  }
 }

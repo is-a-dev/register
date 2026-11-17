@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Tuccim4n"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=tucci.is-a.dev,b20cf54cdcd007b9ac5d"
-    }
+  "owner": {
+    "username": "Tuccim4n"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=tucci.is-a.dev,b20cf54cdcd007b9ac5d"
+  }
 }

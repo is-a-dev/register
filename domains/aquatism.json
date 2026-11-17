@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "aquaisadev",
-    "email": "noahlunartistic@gmail.com"
+    "username": "aquaisadev"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": [
+      "76.76.21.21"
+    ]
   }
 }

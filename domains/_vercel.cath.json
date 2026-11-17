@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "cathxb"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=cath.is-a.dev,d7a2406715fc13f748a3"
-    }
+  "owner": {
+    "username": "cathxb"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=cath.is-a.dev,d7a2406715fc13f748a3"
+  }
 }
