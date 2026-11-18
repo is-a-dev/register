@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "BioHazard786",
-        "email": "message@zaid.qzz.io"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "BioHazard786",
+    "email": "message@zaid.qzz.io"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

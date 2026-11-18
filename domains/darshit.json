@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "darshithedpara",
-        "email": "darshithedpara@gmail.com"
-    },
-    "records": {
-        "CNAME": "darshit.pages.dev"
-    }
+  "owner": {
+    "username": "darshithedpara",
+    "email": "darshithedpara@gmail.com"
+  },
+  "records": {
+    "CNAME": "darshit.pages.dev"
+  }
 }

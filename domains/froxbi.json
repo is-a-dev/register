@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "froxbi",
+    "email": "froxbi.dev@gmail.com"
+  },
+  "records": {
+    "URL": "https://froxbi.com"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}

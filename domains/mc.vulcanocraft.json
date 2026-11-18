@@ -4,6 +4,13 @@
     "discord": "814891541205876767"
   },
   "records": {
-    "CNAME": "5b9aabc1-9bb4-41e3-a63c-f6a2cc09f00a.shield.neoprotect.ovh"
+    "SRV": [
+      {
+        "priority": 1,
+        "weight": 1,
+        "port": 50304,
+        "target": "mcsrv.vulcanocraft.is-a.dev"
+      }
+    ]
   }
 }

@@ -1,0 +1,11 @@
+{
+  "description": "Personal portfolio for Pranav Palutla",
+  "repo": "https://github.com/Pranav593/personal-website",
+  "owner": {
+    "username": "Pranav593",
+    "email": "pranavpalutla@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

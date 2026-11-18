@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "b4rbarroja",
+    "email": "mhmdm0@proton.me"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=corvus.is-a.dev,384fd3a3d46f3dcad0a5",
+      "vc-domain-verify=www.corvus.is-a.dev,e4e9f6e8fa7e5a525c0e"
+    ]
+  }
+}

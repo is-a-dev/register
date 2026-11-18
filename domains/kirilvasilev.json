@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "kirilvasilev",
-        "email": "contacts@kirilvasilev.com"
-    },
-    "records": {
-        "CNAME": "kirilvasilev.github.io"
-    }
+  "owner": {
+    "username": "kirilvasilev",
+    "email": "contacts@kirilvasilev.com"
+  },
+  "records": {
+    "CNAME": "kirilvasilev.github.io"
+  }
 }

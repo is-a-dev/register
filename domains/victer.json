@@ -1,0 +1,15 @@
+{
+  "description": "Portfolio Victer — Full-stack Developer",
+  "repo": "https://github.com/victerhong/portfolio-victer",
+  "owner": {
+    "username": "VicterHong",
+    "email": "victerphanjaya@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-victer.pages.dev",
+    "TXT": [
+      "brevo-code:739779c7f373936de9f1a1ad3fa4ea27"
+    ]
+  },
+  "proxied": true
+}

@@ -1,0 +1,11 @@
+{
+  "description": "My online CV",
+  "owner": {
+    "username": "lorbus",
+    "email": "lorbush@gmail.com",
+    "repo": "https://lorbus.github.io/cv/"
+  },
+  "records": {
+    "CNAME": "lorbus.github.io"
+  }
+}
