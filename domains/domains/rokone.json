@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "alanisd046-hash",
+    "email": "YOUR_EMAIL"
+  },
+  "records": {
+    "CNAME": "YOUR_TUNNEL_://cfargotunnel.com"
+  },
+  "proxied": true
+}
