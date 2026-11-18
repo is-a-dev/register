@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "wietyy"
-    },
-    "records": {
-        "A": ["216.198.79.1"],
-        "TXT": "google-site-verification=pBcviYALMdzKnGEGWVwT58PxbLbGE6wXvFsaFoGtEKo"
-    }
+  "owner": {
+    "username": "wietyy"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "TXT": "google-site-verification=pBcviYALMdzKnGEGWVwT58PxbLbGE6wXvFsaFoGtEKo"
+  }
 }
