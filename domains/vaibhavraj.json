@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "VeerVaibhav",
+    "email": "virvaibhav2007@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "TXT": ["vc-domain-verify=vaibhavraj.is-a.dev,ae9a5624126614aaf58d"]
+  }
+}
