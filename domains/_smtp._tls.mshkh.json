@@ -1,5 +1,7 @@
 {
-  "owner": { "username": "mshkh-dev" },
+  "owner": {
+    "username": "mshkh-dev"
+  },
   "records": {
     "TXT": "v=TLSRPTv1; rua=mailto:tlsrpt@astermail.org"
   }

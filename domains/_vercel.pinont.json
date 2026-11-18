@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "pinont"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=pinont.is-a.dev,4a8b9546cb18791ffb07"
-    }
+  "owner": {
+    "username": "pinont"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=pinont.is-a.dev,4a8b9546cb18791ffb07"
+  }
 }
