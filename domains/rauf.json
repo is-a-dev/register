@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Rauf74",
-        "email": "alfarras74@gmail.com"
-    },
-    "records": {
-        "A": ["76.76.21.21"]
-    }
+  "owner": {
+    "username": "Rauf74",
+    "email": "alfarras74@gmail.com"
+  },
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ]
+  }
 }

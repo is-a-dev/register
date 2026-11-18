@@ -1,0 +1,14 @@
+{
+  "description": "Vercel Domain Verification for ting.is-a.dev",
+  "repo": "https://github.com/hpliStartAgain/my-brain",
+  "owner": {
+    "username": "hpliStartAgain",
+    "email": "lhp1968263451@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=ting.is-a.dev,250b3de6eb42ddbe4ee0",
+      "vc-domain-verify=www.ting.is-a.dev,f92b7685804c3162611a"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "description": "Clerk DKIM key 2 for ABAP Studio",
+  "owner": {
+    "username": "akashgupta221"
+  },
+  "records": {
+    "CNAME": "dkim2.nefqx6afwufx.clerk.services"
+  }
+}

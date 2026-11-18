@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "varma1221",
+    "email": "pavansvarma888@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBg/EXiQPvnilft5WhTzZL23pRr7EI8ayfzQH06Yy5WxGEzS3jasJEeEUt8ufhHODtPMXNi15BxyQ8fIg+1526uJlkhkMPT8/YV1uLwspcykYdsjYBhw/V8HAoxbuxSmyesXR1SALScSyAw3SZgfI6MRRi8mlHF+dBKwFP4z0NUQIDAQAB"
+  }
+}

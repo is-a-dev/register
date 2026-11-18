@@ -1,8 +1,11 @@
 {
-    "owner": {
-        "username": "ThunderE75"
-    },
-    "records": {
-        "CNAME": "thundere75.github.io"
-    }
+  "owner": {
+    "username": "UtkarshKumarJha",
+    "email": "utk.kumarjha@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
