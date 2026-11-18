@@ -4,8 +4,7 @@
     "email": "azmi00121@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "A": ["216.198.79.1"],
+    "TXT": ["zoho-verification=zb89960004.zmverify.zoho.com"]
   }
 }

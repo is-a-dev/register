@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "zurai02",
-    "email": "contact@zurai02.is-a.dev"
+    "username": "zurai02"
   },
   "records": {
     "URL": "https://zurai02.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }
