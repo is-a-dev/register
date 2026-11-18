@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Workvable",
+    "email": "murciagarciamiguel@gmail.com"
+  },
+  "domain": "workvable",
+  "subdomain": "",
+  "records": {
+    "A": ["1.1.1.1"]
+  }
+}
