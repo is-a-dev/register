@@ -1,10 +1,10 @@
 {
-  "description": " ",
-  "repo": "https://github.com/xrompf/xrompf",
+  "description": "Personal website",
+  "repo": "https://github.com",
   "owner": {
     "username": "xrompf"
   },
   "records": {
-    "CNAME": "xrompf.github.io"
+    "A": ["216.198.79.1"]
   }
 }
