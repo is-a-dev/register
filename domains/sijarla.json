@@ -1,11 +1,15 @@
-{
-  "description": "Portal edukasi karhutla Indonesia - SIJARLA",
-  "repo": "https://github.com/shxxdel/SIJARLA",
-  "owner": {
-    "username": "ririhdyt08-jp",
-    "email": "ririhdyt8@gmail.com"
-  },
-  "record": {
-    "CNAME": "sijarla.vercel.app"
-  }
-}
+### Requirements
+
+- [x] I agree to the Terms of Service
+- [x] My file is following the domain structure
+- [x] My website is reachable and completed
+- [ ] My website is software development related
+- [x] My website is not for commercial use
+- [x] I have provided sufficient contact information in the `owner` key
+- [x] I have provided a link to my website below
+
+### Website Preview
+https://sijarla.vercel.app
+
+### Website Purpose
+SIJARLA (Sistem Informasi Jaringan Laporan Karhutla) adalah portal edukasi dan informasi kebakaran hutan dan lahan (karhutla) di Indonesia. Website ini menyajikan data laporan insiden, peta sebaran, dan artikel informatif seputar karhutla untuk meningkatkan kesadaran masyarakat terhadap isu lingkungan.
