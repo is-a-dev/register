@@ -4,6 +4,11 @@
   },
   "records": {
     "A": ["83.217.210.218"],
-    "MX": ["respawn2-mail.is-a.dev."]
+    "MX": [
+      {
+        "target": "respawn2.github.io.",
+        "priority": 10
+      }
+    ]
   }
 }
