@@ -1,0 +1,15 @@
+{
+  "name": "phjuanflorez",
+  "owner": {
+    "username": "inkalabs01",
+    "email": "juestebanflorezarcila@gmail.com"
+  },
+  "record": {
+    "CNAME": {
+      "www": "3091ed4db40f4b7e.vercel-dns-017.com"
+    },
+    "TXT": {
+      "_vercel": "vc-domain-verify=www.phjuanflorez.is-a.dev,ae236cccef9a1dd5116a"
+    }
+  }
+}
