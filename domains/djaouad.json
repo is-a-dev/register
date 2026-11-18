@@ -10,7 +10,8 @@
       "mx2.improvmx.com"
     ],
     "TXT": [
-      "v=spf1 include:_spf.google.com include:spf.improvmx.com -all"
+      "v=spf1 include:_spf.google.com include:spf.improvmx.com -all",
+      "mail._domainkey v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuZJW1K5zdxGGSlMbCaSJubzpPnJPYy6MzOQDJO3EW4h287QWvvJ9nJ1+dH+wKL9wYlPH5P97e183OHcG3Gw7tsrFocwJf90CuU4xU9C39iLREm1Z7HMSZ7cWbsQkMBeLWvzzgXPjbn/bdiKvmaAoMGbireeBMajNrcv1iVXavOQJfa1VC0wfbNZYMrHyeyjTaum+BclBvd4pru61uIVQm7+j1BmtiGcty0p9JA8BjxzEmnwOPqFZeCZwdxVx8gJ18Y4ViJ5RwtfisBm3aGXxS3zsZpOzors2AswVc0mHIqdeA0Vo1gAK5sBFW7jKwtUahyRPbb6SEeDi1/wfmkViaQIDAQAB"
     ]
   },
   "proxied": true
