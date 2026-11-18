@@ -4,8 +4,9 @@
     "email": "urstarkz@proton.me"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
+    "NS": [ 
+      "blakely.ns.cloudflare.com",
+      "robert.ns.cloudflare.com"
     ]
   }
 }
