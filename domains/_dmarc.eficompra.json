@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "esperanzatome",
+    "email": "espetomeiglesias@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}
