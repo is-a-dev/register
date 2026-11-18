@@ -5,8 +5,12 @@
     "email": "juestebanflorezarcila@gmail.com"
   },
   "record": {
-    "CNAME": {
-      "www": "3091ed4db40f4b7e.vercel-dns-017.com"
+    "CNAME": "3091ed4db40f4b7e.vercel-dns-017.com.",
+      "www": "",
+      "@": "phjuanflorez.vercel.app"
+    },
+    "A": {
+      "@": "216.198.79.1"
     },
     "TXT": {
       "_vercel": "vc-domain-verify=www.phjuanflorez.is-a.dev,ae236cccef9a1dd5116a"
