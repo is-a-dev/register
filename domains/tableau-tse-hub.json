@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "dgunani-sudo"
+        "username": "dgunani-sudo",
+        "email": "dgunani+sfemu@salesforce.com"
     },
     "records": {
         "CNAME": "bookish-disco-vom923w.pages.github.io"
