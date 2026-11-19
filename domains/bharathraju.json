@@ -1,9 +1,11 @@
 {
     "owner": {
         "username": "bharathraju-sec",
-        "email": "bharathrarazu14396@gmail.com"
+        "discord": "latenightlegend_"
     },
     "records": {
-        "A": ["216.198.79.1"]
+        "A": [
+            "216.198.79.1"
+        ]
     }
 }
