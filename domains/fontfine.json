@@ -1,6 +1,8 @@
 {
     "owner": {
-        "username": "kevvj"
+        "username": "kevvj",
+        "email": "kevinjvillalba774@gmail.com",
+        "discord": "kev_vj"
     },
     "records": {
         "CNAME": "cname.vercel-dns.com"
