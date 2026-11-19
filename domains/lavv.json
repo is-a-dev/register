@@ -1,0 +1,13 @@
+{
+  "description": "Personal self-hosted music scrobbler instance",
+  "owner": {
+    "username": "lavvonder",
+    "email": "krivoruckovlad12@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "collins.ns.cloudflare.com",
+      "nile.ns.cloudflare.com"
+    ]
+  }
+}
