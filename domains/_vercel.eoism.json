@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "eoism",
+        "email": "f4h1m@tuta.io"
+    },
+    "records": {
+        "TXT": ["vc-domain-verify=eoism.is-a.dev,5cfa5bfacf4bba6888f7"]
+    }
+}
