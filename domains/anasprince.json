@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "HifenR",
-        "email": "anasbinshazada@gmail.com"
-    },
-    "records": {
-        "A": ["172.236.145.237"]
-    }
+  "owner": {
+    "username": "HifenR",
+    "email": "anasbinshazada@gmail.com"
+  },
+  "records": {
+    "A": [
+      "172.236.145.237"
+    ]
+  }
 }

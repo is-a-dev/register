@@ -4,6 +4,8 @@
     "email": "raexera@gmail.com"
   },
   "records": {
-    "CNAME": "raexera.github.io"
+    "A": [
+      "43.157.240.6"
+    ]
   }
 }

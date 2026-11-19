@@ -1,9 +1,11 @@
 {
-  "owner":{
-    "username":"cch291254",
-    "email":"2912541168@qq.com"
+  "owner": {
+    "username": "cch291254",
+    "email": "2912541168@qq.com"
   },
-  "records":{
-    "A":["43.129.240.198"]
+  "records": {
+    "A": [
+      "43.129.240.198"
+    ]
   }
 }
