@@ -1,11 +1,11 @@
 {
-  "description": "Trang cá nhân của tôi",
+  "description": "Personal website",
   "repo": "https://github.com/dodt1306/to-do-list-app",
   "owner": {
     "username": "dodt1306",
     "email": "dodt1306@gmail.com"
   },
-  "record": {
+  "records": {
     "A": ["27.76.180.168"]
   }
 }
