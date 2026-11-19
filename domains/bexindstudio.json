@@ -1,0 +1,15 @@
+{
+  "description": "Bexind Studio - Digital development, custom Minecraft infrastructure, and web applications",
+  "domain": "is-a.dev",
+  "subdomain": "bexindstudio",
+  "owner": {
+    "username": "flytruth",
+    "email": "bexindstudio@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "your-first-assigned.ns.cloudflare.com",
+      "your-second-assigned.ns.cloudflare.com"
+    ]
+  }
+}
