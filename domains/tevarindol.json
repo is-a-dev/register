@@ -1,0 +1,21 @@
+{
+  "owner": {
+    "username": "tevarindol"
+  },
+  "records": {
+    "URL": "https://github.com/tevarindol",
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ],
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ]
+  }
+}

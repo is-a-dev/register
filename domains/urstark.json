@@ -4,8 +4,6 @@
     "email": "urstarkz@proton.me"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "CNAME": "stark-v2.pages.dev"
   }
 }

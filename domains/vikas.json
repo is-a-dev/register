@@ -1,0 +1,32 @@
+{
+  "owner": {
+    "username": "vikki-k-s"
+  },
+  "records": {
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ],
+    "TXT": [
+      "a7f49a87d1377abd3a39adcd784305",
+      "zoho-verification=zb60958690.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
+    ]
+  }
+}

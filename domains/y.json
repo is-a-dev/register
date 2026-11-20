@@ -4,6 +4,9 @@
     "discord": "1040303561847881729"
   },
   "records": {
-    "CNAME": "yunexiz.github.io"
+    "NS": [
+      "daniella.ns.cloudflare.com",
+      "noah.ns.cloudflare.com"
+    ]
   }
 }

@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "cjdenio",
-    "twitter": "CalebDenio"
+    "username": "calebephrem",
+    "email": "calebephrem@proton.me"
   },
-  "repo": "https://github.com/cjdenio/site-frontend",
   "records": {
-    "URL": "https://calebden.io"
+    "CNAME": "calev.pages.dev"
   }
 }

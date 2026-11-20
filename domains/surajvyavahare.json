@@ -4,7 +4,9 @@
     "email": "vyavaharesuraj07@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
+    "A": [
+      "216.198.79.1"
+    ],
     "TXT": "google-site-verification=issM8maL2ux7BK3erlt7sNsZDHxBQRKOBls9r0BwsNo"
   }
 }
