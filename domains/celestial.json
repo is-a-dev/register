@@ -1,9 +1,12 @@
 {
-  "owner": {
-    "username": "CelestialApps"
-  },
-  "records": {
-    "A": ["150.230.20.208"]
-  },
-  "proxied": true
+    "records":  {
+                    "A":  [
+                              "150.230.20.208"
+                          ]
+                },
+    "owner":  {
+                  "email":  "celestialappstutanota@gmail.com",
+                  "username":  "CelestialApps"
+              },
+    "proxied":  true
 }
