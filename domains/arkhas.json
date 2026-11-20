@@ -1,11 +1,9 @@
+
 {
-  "name": "arkhas",
-  "description": "Arkhas Shop",
   "owner": {
-    "username": "ahmedismaeel589-cmyk",
-    "email": "ahmedismaeel589@gmail.com"
+    "username": "ahmedismaeel589-cmyk"
   },
-  "record": {
+  "records": {
     "CNAME": "arkhas-ly-shop.netlify.app."
   }
 }
