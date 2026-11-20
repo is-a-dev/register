@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "zurai02"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=reject; sp=reject; adkim=r; aspf=r; pct=100"
+    ]
+  }
+}
