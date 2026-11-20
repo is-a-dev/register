@@ -3,7 +3,6 @@
     "username": "kingleeqon"
   },
   "records": {
-    "CNAME": ["crc-verify-server.kingleeqon.workers.dev"]
-  },
-  "proxied": true
+    "CNAME": "crc-verify-server.kingleeqon.workers.dev"
+  }
 }
