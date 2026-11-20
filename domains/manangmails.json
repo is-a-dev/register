@@ -5,6 +5,19 @@
   },
   "description": "Private email platform",
   "record": {
-    "CNAME": "manangmails.netlify.app"
+    "A": [
+      "75.2.60.5"
+    ],
+    "MX": [
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 0
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 0
+      }
+    ],
+    "TXT": "forward-email=amananuiy@gmail.com,https://manangmails.netlify.app/api/inbound-email/forwardemail?token=c678d55eead7e4888128ec7801e6c3e81c015d061341d7248e1cb2041fe453a6"
   }
 }
