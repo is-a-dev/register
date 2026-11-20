@@ -4,6 +4,7 @@
       "email":"ankomahgerald1@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=www.gerald.is-a.dev,3690aa4b12959a9a0229"
+        "TXT": ["vc-domain-verify=www.gerald.is-a.dev,3690aa4b12959a9a0229",
+        "vc-domain-verify=www.gerald.is-a.dev,e28cf66bd33be7ef66f9"]
     }
 }
