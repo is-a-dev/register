@@ -1,0 +1,11 @@
+{
+  "description": "Sandy - Real-Time AI Posture Detection & Ergonomic Spine Telemetry",
+  "repo": "https://github.com/QUINTEX-productio/sandy.io",
+  "owner": {
+    "username": "QUINTEX-productio",
+    "email": "quintex9111@gmail.com"
+  },
+  "records": {
+    "CNAME": "quintex-productio.github.io"
+  }
+}
