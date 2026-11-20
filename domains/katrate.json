@@ -5,6 +5,14 @@
   },
   "records": {
     "A": ["216.198.79.1"],
-    "TXT": ["zoho-verification=zb04865892.zmverify.zoho.in"]
+    "MX": [
+      { "target": "mx.zoho.in", "priority": 10 },
+      { "target": "mx2.zoho.in", "priority": 20 },
+      { "target": "mx3.zoho.in", "priority": 50 }
+    ],
+    "TXT": [
+      "zoho-verification=zb04865892.zmverify.zoho.in",
+      "v=spf1 include:zoho.in ~all"
+    ]
   }
 }
