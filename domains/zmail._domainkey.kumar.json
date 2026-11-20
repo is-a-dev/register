@@ -1,0 +1,10 @@
+{
+  "description": "DKIM record for Zoho Mail on kumar.is-a.dev",
+  "owner": {
+    "username": "kumar-new-dev",
+    "email": "kumarwebinar1219@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDP3LbfEl6X7yaXdp76sfo/d/xYz1b/1TIQjojHJ7wC637RflWdAYDZG6ZQR43QkV4kMcx1R/CWoYW8YP4UZxtWhCHA/f7X+rWlD+DaqRltvf+LsOxvJG9FCNeDhK5+MX3bVu64LGNWeKK/lcECpZRe0p/My64HcuqIyKyB0Y6QGQIDAQAB"
+  }
+}
