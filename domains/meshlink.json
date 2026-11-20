@@ -1,0 +1,11 @@
+{
+  "description": "MeshLink - private messenger with web and Android linked devices",
+  "owner": {
+    "username": "Iamhasaanzahid",
+    "email": "mhzcyb@gmail.com"
+  },
+  "records": {
+    "CNAME": "meshlink-app.pages.dev"
+  },
+  "proxied": true
+}
