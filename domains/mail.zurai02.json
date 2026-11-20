@@ -17,7 +17,7 @@
     ],
     "TXT": [
       "brevo-code:0bf95265fb4f32859ce9c1f95e7a8b71",
-      "v=spf1 include:spf.brevo.com include:spf.improvmx.com -all"
+      "v=spf1 include:_spf.mail.zurai02.is-a.dev -all",
     ],
     "CNAME": [
       {
