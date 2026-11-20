@@ -4,6 +4,7 @@
       "email":"ankomahgerald1@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=www.gerald.is-a.dev,3690aa4b12959a9a0229"
+        "TXT": "vc-domain-verify=www.gerald.is-a.dev,3690aa4b12959a9a0229",
+        "CNAME": "e5740f69b38ae660.vercel-dns-017.com."
     }
 }
