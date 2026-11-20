@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "abdulmananuiy",
+    "email": "abdulmananuiy@gmail.com"
+  },
+  "description": "Private email platform",
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
