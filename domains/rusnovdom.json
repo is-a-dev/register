@@ -1,0 +1,15 @@
+{
+  "name": "rusnovdom",
+  "description": "RusNovDom",
+  "repo": "https://github.com/rvrublevsky-cell/rusnovdom",
+  "owner": {
+    "username": "rvrublevsky-cell",
+    "email": "rvrublevsky@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "imani.ns.cloudflare.com",
+      "seamus.ns.cloudflare.com"
+    ]
+  }
+}
