@@ -6,11 +6,13 @@
     "MX": [
       {
         "target": "mx1.improvmx.com",
-        "priority": 10
+        "priority": 10,
+        "type": "MX"
       },
       {
         "target": "mx2.improvmx.com",
-        "priority": 20
+        "priority": 20,
+        "type": "MX"
       }
     ],
     "TXT": [
