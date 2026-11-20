@@ -1,10 +1,11 @@
 {
-  "description": "Kumaran S portfolio website",
+  "description": "Kumar portfolio website",
   "owner": {
     "username": "kumar-new-dev",
     "email": "kumarwebinar1219@gmail.com"
   },
   "records": {
-    "CNAME": "d1qve55z2fr1yd.cloudfront.net"
+    "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+    "TXT": ["zoho-verification=zb89043424.zmverify.zoho.com"]
   }
 }
