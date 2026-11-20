@@ -1,0 +1,10 @@
+{
+  "description": "Vercel domain verification for boscohabarugira.is-a.dev",
+  "owner": {
+    "username": "boscohabarugira30-droid",
+    "email": "boscohabarugira30@gmail.com"
+  },
+  "records": {
+    "TXT": ["vc-domain-verify=boscohabarugira.is-a.dev,56f6c85d863b8131e005"]
+  }
+}
