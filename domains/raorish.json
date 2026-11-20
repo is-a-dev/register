@@ -4,6 +4,7 @@
     "email": "ri5354bh@gmail.com"
   },
   "record": {
-    "CNAME": "://onrender.com"
-  }
+    "CNAME": "raorish-air-app.onrender.com"
+  },
+  "proxied": false
 }
