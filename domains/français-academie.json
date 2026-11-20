@@ -1,9 +1,16 @@
 {
+  "name": "francais-academie",
+  "description": "Site pour apprendre le français",
+  "repo": "https://github.com/steeven-hub/francais-academie",
   "owner": {
     "username": "steeven-hub",
-    "email": "wilsonbienvenusogbossi@gmail.com"
+    "email": "steeven-hub@gmail.com"
   },
   "record": {
-    "CNAME": "cname.vercel-dns.com"
+    "A": ["216.198.79.1"],
+    "TXT": [
+      "vc-domain-verify=francais-academie.is-a.dev,5a7c5a582cf20206610a",
+      "vc-domain-verify=www.francais-academie.is-a.dev,92c82a7123ecfb77bdf3"
+    ]
   }
 }
