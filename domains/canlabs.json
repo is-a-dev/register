@@ -4,5 +4,6 @@
     },
     "records": {
         "CNAME": "canlabs.is-a.dev"
-    }
+    },
+  "proxied": true
 }
