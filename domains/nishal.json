@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "nishal-nm"
+    "username": "nishal-nm",
+    "email": "nishal.narimadakkal@gmail.com"
   },
   "records": {
-    "CNAME": "nishal-nm.github.io"
+    "CNAME": "nishal-nm-github-io.pages.dev"
   }
 }
