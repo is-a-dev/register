@@ -4,6 +4,7 @@
     "email": "henrychia90@yahoo.com.my"
   },
   "records": {
-    "A": ["145.79.25.60"]
+    "A": ["145.79.25.60"],
+    "TXT": ["2de7335f5180ec0dbab598208cf6dc30"]
   }
 }
