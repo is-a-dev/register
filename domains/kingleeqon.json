@@ -1,10 +1,9 @@
 {
-    "owner": {
-        "username": "kingleeqon",
-        "email": "kingleeqon@163.com"
-    },
-    "records": {
-        "CNAME": "crc-verify-server.kingleeqon.workers.dev"
-    },
+  "owner": {
+    "username": "kingleeqon"
+  },
+  "records": {
+    "CLOUDFLARE": "crc-verify-server.kingleeqon.workers.dev"
+  },
   "proxied": true
 }
