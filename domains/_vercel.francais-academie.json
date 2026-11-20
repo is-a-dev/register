@@ -4,8 +4,9 @@
     "email": "wilsonbienvenusogbossi@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
+    "TXT": [
+      "vc-domain-verify=francais-academie.is-a.dev,5a7c5a582cf20206610a",
+      "vc-domain-verify=www.francais-academie.is-a.dev,92c82a7123ecfb77bdf3"
     ]
   }
 }
