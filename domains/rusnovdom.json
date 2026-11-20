@@ -1,3 +1,4 @@
+
 {
   "name": "rusnovdom",
   "description": "RusNovDom",
@@ -7,9 +8,6 @@
     "email": "rvrublevsky@gmail.com"
   },
   "record": {
-    "NS": [
-      "imani.ns.cloudflare.com",
-      "seamus.ns.cloudflare.com"
-    ]
+    "CNAME": "rvrublevsky-cell.github.io"
   }
 }
