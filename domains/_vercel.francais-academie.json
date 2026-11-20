@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "steeven-hub",
+    "email": "steeven-hub@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=francais-academie.is-a.dev,5a7c5a582cf20206610a",
+      "vc-domain-verify=www.francais-academie.is-a.dev,92c82a7123ecfb77bdf3"
+    ]
+  }
+}
