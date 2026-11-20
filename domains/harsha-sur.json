@@ -8,7 +8,8 @@
     ],
     "TXT": [
       "zoho-verification=zb28975596.zmverify.zoho.in",
-      "v=spf1 include:zohomail.in ~all"
+      "v=spf1 include:zohomail.in ~all",
+      "google-gws-recovery-domain-verification=77768473"
     ],
     "MX": [
       {

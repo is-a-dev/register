@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "azizulabedinazmi",
+    "email": "azmi00121@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcGxyCgwaXQ+PhyLs2tItLCWjE4w6PNpEORy4B3KglGzh0sdnWrzjURniRWIv+DPGwNAZ4GKcAaSGie28jSHJQnchZ5clDJFv4Gy5ukDdEnJlTL8wI8OfVA5/8KiC/V2zzPlu3mD6HlLzDfkNzSPUy5irjR5cjpXQn/q3yn3lzzwIDAQAB"
+  }
+}
