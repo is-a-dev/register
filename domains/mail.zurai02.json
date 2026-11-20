@@ -6,28 +6,16 @@
     "MX": [
       {
         "target": "mx1.improvmx.com",
-        "priority": 10,
-        "type": "MX"
+        "priority": 10
       },
       {
         "target": "mx2.improvmx.com",
-        "priority": 20,
-        "type": "MX"
+        "priority": 20
       }
     ],
     "TXT": [
       "brevo-code:0bf95265fb4f32859ce9c1f95e7a8b71",
-      "v=spf1 include:_spf.mail.zurai02.is-a.dev -all"
-    ],
-    "CNAME": [
-      {
-        "host": "mail._domainkey",
-        "target": "b1.mail-zurai02-is-a-dev.dkim.brevo.com"
-      },
-      {
-        "host": "mail2._domainkey",
-        "target": "b2.mail-zurai02-is-a-dev.dkim.brevo.com"
-      }
+      "v=spf1 include:_spf.zurai02.is-a.dev -all"
     ]
   }
 }
