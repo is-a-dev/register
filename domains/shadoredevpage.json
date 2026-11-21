@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "dangkerpakku",
+    "email": "dangkerpakku@gmail.com"
+  },
+  "domain": "shadoredevpage",
+  "subdomain": "shadoredevpage",
+  "record": {
+    "A": ["103.150.123.45"]
+  }
+}
