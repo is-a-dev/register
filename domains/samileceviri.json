@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "felafus",
+    "email": "github-epostan@gmail.com"
+  },
+  "records": {
+    "NS": [
+      "ace.ns.cloudflare.com",
+      "deb.ns.cloudflare.com"
+    ]
+  }
+}
