@@ -1,11 +1,13 @@
 
 {
   "owner": {
-    "username": "rkblazeofficial-pixel"
-  },
+  "username": "rkblazeofficial-pixel",
+  "email": "rkblaze.official@gmail.com"
+},
   "records": {
     "A": [
       "75.2.60.5"
     ]
   }
 }
+
