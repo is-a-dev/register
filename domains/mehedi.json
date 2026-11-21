@@ -4,6 +4,8 @@
     },
     "records": {
         "CNAME": "mdmehedihasan1.pages.dev",
-        "TXT": "[zoho-verification=zb77657603.zmverify.zoho.com]"
+        "zb77657603": {
+        "CNAME": "zmverify.zoho.com"
+        }
     }
 }
