@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Kuroshinz"
-    },
-    "records": {
-        "CNAME": "zenoxyz.vercel.app"
-    }
+  "owner": {
+    "username": "Kuroshinz"
+  },
+  "records": {
+    "CNAME": "zenoxyz.vercel.app"
+  }
 }
