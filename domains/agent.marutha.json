@@ -1,9 +1,1 @@
-{
-  "owner": {
-    "username": "maruthalabs",
-    "email": "angel.moonshot@gmail.com"
-  },
-  "records": {
-    "CNAME": "cname.vercel-dns.com"
-  }
-}
+{"owner":{"email":"angel.moonshot@gmail.com","username":"maruthalabs"},"records":{"CNAME":"0b5738c8d1cb2fc6.vercel-dns-017.com"}}
