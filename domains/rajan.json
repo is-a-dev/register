@@ -3,6 +3,6 @@
     "username": "RajanKumar5665"
   },
   "records": {
-    "A": ["YOUR_EC2_PUBLIC_IP"]
+    "CNAME": "cname.vercel-dns.com"
   }
 }
