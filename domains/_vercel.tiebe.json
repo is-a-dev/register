@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "Tiebe-Vaes"
+    "username": "Tiebe-Vaes",
+    "email": "tiebevaes@gmail.com"
   },
   "records": {
     "TXT": "vc-domain-verify=tiebe.is-a.dev,b808228e2a54cce0a699"
