@@ -1,13 +1,12 @@
-
 {
   "owner": {
     "username": "tirthbhanderi2006",
     "email": "bhanderitirth94@gmail.com"
   },
   "records": {
-    "TXT": 
-      ["vc-domain-verify=www.tirthbhanderi.is-a.dev,e86affc40a8e2293df8a",
-        "vc-domain-verify=tirthbhanderi.is-a.dev,583637c671d4440e765f"
-      ]  
+    "TXT": [
+      "vc-domain-verify=www.tirthbhanderi.is-a.dev,e86affc40a8e2293df8a",
+      "vc-domain-verify=tirthbhanderi.is-a.dev,583637c671d4440e765f"
+    ]
   }
 }

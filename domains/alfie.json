@@ -1,10 +1,9 @@
-
 {
-    "owner": {
-        "username": "rdmilkshakelab",
-        "email": "alfernado@outlook.com"
-    },
-    "records": {
-        "CNAME": "rdmilkshakelab.github.io"
-    }
+  "owner": {
+    "username": "rdmilkshakelab",
+    "email": "alfernado@outlook.com"
+  },
+  "records": {
+    "CNAME": "rdmilkshakelab.github.io"
+  }
 }

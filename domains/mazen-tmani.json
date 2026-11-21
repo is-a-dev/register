@@ -4,7 +4,9 @@
     "email": "tmanimazen@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
+    "A": [
+      "216.198.79.1"
+    ],
     "TXT": "google-site-verification=BnNVChNsFk21kxvCGgLs3slOXY1cHEtIroV0N7x8Ok8"
   }
 }
