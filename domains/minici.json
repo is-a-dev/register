@@ -1,11 +1,9 @@
 {
-  "description": "MiniCI — Open-Source CI/CD Cost Breakdown, PR Diff & Quota Receipt Engine",
-  "repo": "https://github.com/Aamir-raza-1/minici-cost-action",
   "owner": {
     "username": "Aamir-raza-1",
     "email": "raza.aamir01@gmail.com"
   },
   "records": {
-    "CNAME": "minici-cost-action.raza-aamir01.workers.dev"
+    "CNAME": "minici-dev.github.io"
   }
 }
