@@ -4,8 +4,6 @@
     "email": "erfankqz@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": "vc-domain-verify=loomdev.is-a.dev,de81519d261a869dc3d2"
-  },
-  "proxied": true
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
