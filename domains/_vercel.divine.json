@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "divinesaun"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=divine.is-a.dev,4e4bfc41ec8e57a1e0c4"
-    }
+  "owner": {
+    "username": "divinesaun"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=divine.is-a.dev,4e4bfc41ec8e57a1e0c4"
+  }
 }
