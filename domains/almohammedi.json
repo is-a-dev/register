@@ -3,6 +3,10 @@
     "username": "dralmohammediqutb-droid"
   },
   "records": {
-    "CNAME": "kh-helper.dr-almohammediqutb.workers.dev"
-  }
+    "A": [
+      "188.114.96.2",
+      "188.114.97.2"
+    ]
+  },
+  "proxied": true
 }
