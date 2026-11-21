@@ -3,6 +3,8 @@
     "username": "idcare19"
   },
   "records": {
-    "TXT": ["vc-domain-verify=idcare19.is-a.dev,31ae8d5653926ef1fe53"]
+    "TXT": [
+      "vc-domain-verify=idcare19.is-a.dev,31ae8d5653926ef1fe53"
+    ]
   }
 }

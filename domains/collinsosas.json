@@ -1,9 +1,11 @@
 {
   "owner": {
-  "username": "SKD-W",
-  "email": "user.collins.add@gmail.com"
-},
+    "username": "SKD-W",
+    "email": "user.collins.add@gmail.com"
+  },
   "records": {
-  "A": ["216.198.79.1"]
-}
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

@@ -1,9 +1,11 @@
 {
   "owner": {
     "username": "datt-patel2909",
-    "email":"dattp1243@gmail.com"
+    "email": "dattp1243@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
