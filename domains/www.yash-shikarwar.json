@@ -1,8 +1,9 @@
 
 {
   "owner": {
-    "username": "rkblazeofficial-pixel"
-  },
+  "username": "rkblazeofficial-pixel",
+  "email": "rkblaze.official@gmail.com"
+},
   "records": {
     "CNAME": "yash-shikarwar.netlify.app"
   }
