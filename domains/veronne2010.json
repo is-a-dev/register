@@ -1,9 +1,8 @@
 {
     "owner": {
-        "username": "veronne2010",
-        "discord-username": "veronne2010"
+        "username": "veronne2010"
     },
     "records": {
-        "CNAME": "veronne2010.github.io"
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
     }
 }
