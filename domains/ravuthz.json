@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ravuthz",
-        "email": "ravuthz@gmail.com"
-    },
-    "records": {
-        "CNAME": "ravuthz.github.io"
-    }
+  "owner": {
+    "username": "ravuthz",
+    "email": "ravuthz@gmail.com"
+  },
+  "records": {
+    "CNAME": "ravuthz.github.io"
+  }
 }
