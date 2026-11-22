@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "yutosuda", "email": "yuto.suda1024@gmail.com" },
-  "records": { "TXT": "vc-domain-verify=yutosuda.is-a.dev,87a735c13479b66479c1" }
+  "owner": {
+    "username": "yutosuda",
+    "email": "yuto.suda1024@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=yutosuda.is-a.dev,87a735c13479b66479c1"
+  }
 }
