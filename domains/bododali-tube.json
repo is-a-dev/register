@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "izacsotero-bit",
+    "email": "izacsotero@gmail.com"
+  },
+  "domain": "bododali-tube",
+  "subdomain": "bododali-tube",
+  "record": {
+    "CNAME": "bododali-tube.is-a.dev"
+  },
+  "proxied": true
+}
