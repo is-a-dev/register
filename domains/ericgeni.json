@@ -6,6 +6,6 @@
   "domain": "is-a.dev",
   "subdomain": "ericgeni",
   "records": {
-    "A": ["1.1.1.1"]
+    "CNAME": "ericgeni.github.io"
   }
 }
