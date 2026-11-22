@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "redera-source",
+    "email": "ericgabrielyas11@gmail.com"
+  },
+  "domain": "is-a.dev",
+  "subdomain": "ericgeni.json",
+  "records": {
+    "A": ["1.1.1.1"]
+  }
+}
