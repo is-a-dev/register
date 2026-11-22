@@ -1,8 +1,11 @@
 {
+  "description": "Personal Portfolio of Md Jehad",
   "owner": {
-    "username": "Jihad109"
+    "username": "Jihad109",
+    "email": "mdjehad9025@gmail.com"
   },
   "records": {
-    "CNAME": "myprotfolio.xxxxxx.workers.dev"
-  }
+    "CNAME": "myprotfolio.mdjehad9025.workers.dev"
+  },
+  "proxied": true
 }
