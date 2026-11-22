@@ -15,6 +15,7 @@ permissions:
 
 jobs:
     label:
+        if: github.event.repository.fork == false
         name: Label
         runs-on: ubuntu-latest
 
@@ -215,6 +216,7 @@ jobs:
                       }
 
     template:
+        if: github.event.repository.fork == false
         name: Template
         runs-on: ubuntu-latest
 

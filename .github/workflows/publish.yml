@@ -16,6 +16,7 @@ concurrency:
 
 jobs:
     dns:
+        if: github.event.repository.fork == false
         name: DNS
         runs-on: ubuntu-latest
         steps:
