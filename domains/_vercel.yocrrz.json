@@ -3,6 +3,9 @@
     "username": "YOCRRZ224"
   },
   "records": {
-    "TXT": "vc-domain-verify=cdn.yocrrz.is-a.dev,68d8974003c0bbe80b51"
+    "TXT": [
+      "vc-domain-verify=cdn.yocrrz.is-a.dev,68d8974003c0bbe80b51",
+      "vc-domain-verify=api.yocrrz.is-a.dev,92b65d1508083e1d75d9"
+    ]
   }
 }
