@@ -3,10 +3,8 @@
     "username": "izacsotero-bit",
     "email": "izacsotero@gmail.com"
   },
-  "domain": "bododali-tube",
-  "subdomain": "bododali-tube",
-  "record": {
-    "CNAME": "bododali-tube.is-a.dev"
+  "records": {
+    "CNAME": "b715bcc7-1448-4e86-839a-2ee5a18431db.cfargotunnel.com"
   },
   "proxied": true
 }
