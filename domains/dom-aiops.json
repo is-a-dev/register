@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "dominik-poz"
+    "username": "dominik-poz",
+    "email": "dominik.poz.aiops@gmail.com"
   },
-
-  "description": "MES AI Ops Assistant by Dom",
-
+  "description": "MES AI Ops Assistant - personal AIOps portfolio project",
   "record": {
     "A": ["89.168.126.166"]
   }
