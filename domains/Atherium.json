@@ -1,0 +1,11 @@
+{
+  "description": "Atherium - A website with info for my coding language",
+  "repo": "https://github.com/Deadstillplays/AtheriumWeb",
+  "owner": {
+    "username": "Deadstillplays",
+    "email": "deadstillplays@proton.me"
+  },
+  "records": {
+    "CNAME": "deadstillplays.github.io"
+  }
+}
