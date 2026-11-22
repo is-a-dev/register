@@ -4,7 +4,7 @@
     "email": "ericgabrielyas11@gmail.com"
   },
   "domain": "is-a.dev",
-  "subdomain": "ericgeni.json",
+  "subdomain": "ericgeni",
   "records": {
     "A": ["1.1.1.1"]
   }
