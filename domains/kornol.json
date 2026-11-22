@@ -6,7 +6,10 @@
   },
   "records": {
     "URL": "https://github.com/Talya1412",
-    "TXT": "v=spf1 include:zoho.com ~all",
+    "TXT": [
+      "v=spf1 include:zoho.com ~all",
+      "zoho-verification=zb47828926.zmverify.zoho.com"
+    ],
     "MX": [
       { "target": "mx.zoho.com", "priority": 10 },
       { "target": "mx2.zoho.com", "priority": 20 },
