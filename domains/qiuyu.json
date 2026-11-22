@@ -4,6 +4,9 @@
     "email": "qynb6666m@gmail.com"
   },
   "records": {
-    "URL": "https://github.com/qynb6666m-ops"
+    "NS": [
+      "amalia.ns.cloudflare.com",
+      "boyd.ns.cloudflare.com"
+    ]
   }
 }
