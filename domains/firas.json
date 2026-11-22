@@ -5,7 +5,7 @@
     "username": "Firas-by",
     "email": "firasby2002@gmail.com"
   },
-  "record": {
-    "CNAME": "firas-portfolio.firasby2002.workers.dev"
+  "records": {
+    "URL": "https://firas-portfolio.firasby2002.workers.dev"
   }
 }
