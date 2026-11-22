@@ -1,0 +1,6 @@
+{
+  "description": "My website",
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
