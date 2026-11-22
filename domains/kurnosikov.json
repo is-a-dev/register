@@ -4,6 +4,8 @@
         "telegram": "kirillkuki"
     },
     "records": {
-        "CNAME": "custom-domains.chatgpt.site"
+        "A": [
+            "217.65.79.33"
+        ]
     }
 }
