@@ -13,6 +13,6 @@
         "priority": 10
       }
     ],
-    "TXT": ["v=spf1 include:spf.astermail.org -all"]
+    "TXT": "v=spf1 include:spf.astermail.org -all"
   }
 }
