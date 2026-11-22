@@ -3,6 +3,9 @@
         "username": "hostdomain708-sudo"
     },
     "records": {
-        "CNAME": "mdmehedihasan1.pages.dev"
+        "CNAME": "mdmehedihasan1.pages.dev",
+        "zb77657603": {
+            "CNAME": "zmverify.zoho.com"
+        }
     }
 }
