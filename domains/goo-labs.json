@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "ed89-ai"
-    },
-    "records": {
-        "A": ["216.24.57.1"]
-    }
+  "owner": {
+    "username": "ed89-ai"
+  },
+  "records": {
+    "A": [
+      "216.24.57.1"
+    ]
+  }
 }

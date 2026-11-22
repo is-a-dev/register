@@ -1,4 +1,8 @@
 {
-  "owner": { "username": "vedantdas312-cell" },
-  "records": { "CNAME": "flz8b4jg.up.railway.app" }
+  "owner": {
+    "username": "vedantdas312-cell"
+  },
+  "records": {
+    "CNAME": "flz8b4jg.up.railway.app"
+  }
 }

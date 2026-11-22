@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "zsocrates"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=socrates.is-a.dev,b9c49e17b601a5e69d41"
-    }
+  "owner": {
+    "username": "zsocrates"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=socrates.is-a.dev,b9c49e17b601a5e69d41"
+  }
 }

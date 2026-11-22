@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "sanszerif",
-        "email": "nipyantha@gmail.com"
-    },
-    "records": {
-        "CNAME": "sanszerif.github.io"
-    }
+  "owner": {
+    "username": "sanszerif",
+    "email": "nipyantha@gmail.com"
+  },
+  "records": {
+    "CNAME": "sanszerif.github.io"
+  }
 }

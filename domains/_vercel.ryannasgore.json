@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "shuu-arch"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=ryannasgore.is-a.dev,6d5b32b331c18f3c0c27"
-    }
+  "owner": {
+    "username": "shuu-arch"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=ryannasgore.is-a.dev,6d5b32b331c18f3c0c27"
+  }
 }

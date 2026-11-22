@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "salswebsite"
-    },
-    "records": {
-        "CNAME": "salswebsite.github.io"
-    }
+  "owner": {
+    "username": "salswebsite"
+  },
+  "records": {
+    "CNAME": "salswebsite.github.io"
+  }
 }

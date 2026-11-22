@@ -1,1 +1,11 @@
-{"owner":{"discord":"ikilledfms","twitter":"ikilledfmsai","username":"ikilledfms"},"proxied":true,"records":{"CNAME":"ikilledfms.github.io"}}
+{
+  "owner": {
+    "discord": "ikilledfms",
+    "twitter": "ikilledfmsai",
+    "username": "ikilledfms"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "ikilledfms.github.io"
+  }
+}

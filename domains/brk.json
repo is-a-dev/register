@@ -1,9 +1,9 @@
-    {
-      "owner": {
-        "username": "BilginBurak",
-        "email": "burakbilgin2207@gmail.com"
-      },
-      "records": {
-        "CNAME": "cname.vercel-dns.com"
-      }
-    }
+{
+  "owner": {
+    "username": "BilginBurak",
+    "email": "burakbilgin2207@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

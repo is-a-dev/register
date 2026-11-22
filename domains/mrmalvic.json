@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "MrMalvic",
-        "email": "malvicbeats@gmail.com"
-    },
-    "records": {
-        "A": ["216.24.57.1"]
-    }
+  "owner": {
+    "username": "MrMalvic",
+    "email": "malvicbeats@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.24.57.1"
+    ]
+  }
 }

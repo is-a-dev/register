@@ -3,5 +3,7 @@
     "username": "simonews",
     "email": "simonegoffredows@gmail.com"
   },
-  "records": { "CNAME": "vitosimonegoffredo.netlify.app" }
+  "records": {
+    "CNAME": "vitosimonegoffredo.netlify.app"
+  }
 }

@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "JAN-tech404"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=jan27.is-a.dev,0034f3a7497183632091"
-    }
+  "owner": {
+    "username": "JAN-tech404"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=jan27.is-a.dev,0034f3a7497183632091"
+  }
 }

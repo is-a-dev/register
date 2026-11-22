@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "PrashanthLM10",
-        "email": "prashanth.sunny0236@gmail.com"
-    },
-    "records": {
-        "A": ["129.225.91.171"]
-    }
+  "owner": {
+    "username": "PrashanthLM10",
+    "email": "prashanth.sunny0236@gmail.com"
+  },
+  "records": {
+    "A": [
+      "129.225.91.171"
+    ]
+  }
 }

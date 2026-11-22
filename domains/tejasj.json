@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "TejasJore33", "email": "tejasjore33@gmail.com" },
-  "records": { "CNAME": "tejasjore33.github.io" }
+  "owner": {
+    "username": "TejasJore33",
+    "email": "tejasjore33@gmail.com"
+  },
+  "records": {
+    "CNAME": "tejasjore33.github.io"
+  }
 }

@@ -1,1 +1,8 @@
-{"owner":{"username":"uzairzeb"},"records":{"CNAME":"uzair-zeb.netlify.app"}}
+{
+  "owner": {
+    "username": "uzairzeb"
+  },
+  "records": {
+    "CNAME": "uzair-zeb.netlify.app"
+  }
+}

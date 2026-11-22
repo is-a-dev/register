@@ -1,1 +1,8 @@
-{"owner":{"username":"JosiahSteveSam"},"records":{"TXT":"vc-domain-verify=josiahh.is-a.dev,8acfd9388f1b322046ce"}}
+{
+  "owner": {
+    "username": "JosiahSteveSam"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=josiahh.is-a.dev,8acfd9388f1b322046ce"
+  }
+}

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Harrison4tech",
-        "email": "leef33005@gmail.com"
-    },
-    "records": {
-        "CNAME": "myportfolio-2h5.pages.dev"
-    }
+  "owner": {
+    "username": "Harrison4tech",
+    "email": "leef33005@gmail.com"
+  },
+  "records": {
+    "CNAME": "myportfolio-2h5.pages.dev"
+  }
 }
