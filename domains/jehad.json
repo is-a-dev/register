@@ -1,10 +1,9 @@
 {
-  "description": "Personal Portfolio of Md Jehad",
   "owner": {
     "username": "Jihad109",
     "email": "mdjehad9025@gmail.com"
   },
   "records": {
-    "CNAME": "myprotfolio.mdjehad9025.workers.dev"
+    "URL": "https://myprotfolio.mdjehad9025.workers.dev"
   }
 }
