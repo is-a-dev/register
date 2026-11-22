@@ -5,6 +5,9 @@
     "email": "smtmrc@gmail.com"
   },
   "records": {
-    "CNAME": "lepotane.github.io"
+    "NS": [
+      "angela.ns.cloudflare.com",
+      "bill.ns.cloudflare.com"
+    ]
   }
 }
