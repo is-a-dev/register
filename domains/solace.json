@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "j5tv9nfzhn-hue"
+        "username": "j5tv9nfzhn-hue",
+        "email": "j5tv9nfzhn@privaterelay.appleid.com"
     },
     "records": {
         "CNAME": "solace-doc.pages.dev"
