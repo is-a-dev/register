@@ -1,1 +1,12 @@
-
+{
+  "owner": {
+    "username": "Gunstan",
+    "email": "snake0102@gmail.com"
+  },
+  "record": {
+    "NS": [
+      "kip.ns.cloudflare.com",
+      "ruth.ns.cloudflare.com"
+    ]
+  }
+}
