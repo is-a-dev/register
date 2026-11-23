@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "aditya4232"
+  },
+  "records": {
+    "URL": "https://cizard-api.adxoc.workers.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}
