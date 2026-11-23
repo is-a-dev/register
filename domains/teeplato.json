@@ -1,15 +1,10 @@
 {
   "description": "Project page + privacy policy for PLATO, a self-hosted personal automation suite (developer portfolio-style documentation site)",
   "owner": {
-    "github": "TBean007",
+    "username": "TBean007",
     "email": "tee.bean007@gmail.com"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "name": "teeplato",
-      "content": "tbean007.github.io",
-      "ttl": 300
-    }
-  ]
+  "records": {
+    "CNAME": "tbean007.github.io"
+  }
 }
