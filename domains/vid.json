@@ -6,6 +6,13 @@
   "records": {
     "A": [
       "75.2.60.5"
-    ]
+    ],
+    "MX": [
+      {
+        "target": "mx.astermail.org",
+        "priority": 10
+      }
+    ],
+    "TXT": "v=spf1 include:spf.astermail.org -all"
   }
 }

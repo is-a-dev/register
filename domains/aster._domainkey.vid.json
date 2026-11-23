@@ -1,0 +1,8 @@
+{
+  "owner": {
+   "username": "condshu"
+  },
+ "records": {
+   "TXT": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA/P1ZGqLbOXfb4Zi7b53b06plCWQQJerruyeY5eXw0VA5rq5FwxKlJCAXdmDL48y3QUhKZ82FHY/tNJ11j86Gezbos6wr7egau9O/gch7TUhKFJPKvuD0dqKN6dEaau94pWO3IDZl9tWYnqIrUQW8MjlKv6O8eTmLEAdpa3g+poXp8nuQQG2uUVEVbx91zOcA41XVrLUGYK0Akwc7cHiZcyX4JhL5x5VDXhvMfIyw/Cnpa/g9vnLuncAGrHcKwLDjKZ+U2umCnnrSxMJ8QIk0hlDTwqeDSMnYso7JyKj0rE3zB0Zv2lnJAOEdIWrNQw+l0dwwFPRpmVbeWunxo++9nwIDAQAB"
+  }
+}
