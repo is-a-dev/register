@@ -6,10 +6,6 @@
   "records": {
     "CNAME": "maris-adev.vercel.app",
     "TXT": [
-      {
-        "name": "_discord",
-        "value": "dh=554659b0da27c187a09e8b76a1a93ab088673d23"
-      }
     ]
   }
 }
