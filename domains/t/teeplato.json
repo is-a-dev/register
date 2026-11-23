@@ -1,0 +1,15 @@
+{
+  "description": "PLATO - personal-use automation dashboard (homepage + privacy policy)",
+  "owner": {
+    "github": "TBean007",
+    "email": "tee.bean007@gmail.com"
+  },
+  "record": [
+    {
+      "type": "CNAME",
+      "name": "teeplato",
+      "content": "tbean007.github.io",
+      "ttl": 300
+    }
+  ]
+}
