@@ -1,10 +1,10 @@
 {
-  "description": "PLATO - personal-use automation dashboard (homepage + privacy policy)",
+  "description": "Project page + privacy policy for PLATO, a self-hosted personal automation suite (developer portfolio-style documentation site)",
   "owner": {
     "github": "TBean007",
     "email": "tee.bean007@gmail.com"
   },
-  "record": [
+  "records": [
     {
       "type": "CNAME",
       "name": "teeplato",
