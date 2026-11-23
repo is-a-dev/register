@@ -4,6 +4,7 @@
     "username": "TBean007",
     "email": "tee.bean007@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "tbean007.github.io",
     "TXT": [
