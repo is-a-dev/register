@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "tryklim601-dotcom",
+    "email": "tryklim601@gmail.com"
+  },
+  "records": {
+    "CNAME": "wap-sublease.tun.ply.gg",
+    "SRV": [
+      {
+        "service": "_minecraft",
+        "proto": "_tcp",
+        "name": "play",
+        "priority": 0,
+        "weight": 5,
+        "port": 25565,
+        "target": "wap-sublease.tun.ply.gg"
+      }
+    ]
+  }
+}
