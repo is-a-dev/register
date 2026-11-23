@@ -6,7 +6,12 @@
   "description": "Read-only Gateway attestation validator (SPF/DKIM/DMARC enabled)",
   "repo": "https://github.com/firsthandmacr/gateway-attestation-validator",
   "records": {
-    "CNAME": "firsthandmacr.github.io",
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
     "TXT": [
       "v=spf1 ip4:161.248.87.10 -all",
       "_dmarc v=DMARC1; p=none; rua=mailto:utx30377@euploading.com",
