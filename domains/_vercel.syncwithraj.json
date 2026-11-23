@@ -4,6 +4,9 @@
     "email": "ribadiyaraj18@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=syncwithraj.is-a.dev,35cff8ddbb06f1449ac7"
+    "TXT": [
+      "vc-domain-verify=syncwithraj.is-a.dev,35cff8ddbb06f1449ac7",
+      "vc-domain-verify=www.syncwithraj.is-a.dev,75a8923281f6602bd40a"
+    ]
   }
 }
