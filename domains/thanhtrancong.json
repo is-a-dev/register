@@ -1,0 +1,11 @@
+{
+  "description": "Cloud Lab Template - Personal Portfolio",
+  "repo": "https://github.com",
+  "owner": {
+    "username": "thanhtrancong",
+    "email": "thanh.tc@vlu.edu.vn"
+  },
+  "records": {
+    "CNAME": "vlsc-cloud-app-2001100123.onrender.com"
+  }
+}
