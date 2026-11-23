@@ -1,15 +1,8 @@
 {
-  "name": "cmwvoxy",
-  "description": "C.M.W Voxy Portfolio Website",
   "owner": {
-    "username": "Muhammad-Wasib-Voxy",
-    "email": "wasibnwasiq@gmail.com"
+    "username": "Muhammad-Wasib-Voxy"
   },
-  "records": [
-    {
-      "type": "CNAME",
-      "to": "cmwvoxy.pages.dev",
-      "proxied": false
-    }
-  ]
+  "records": {
+    "CNAME": "cmwvoxy.pages.dev"
+  }
 }
