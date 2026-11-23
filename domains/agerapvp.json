@@ -1,0 +1,20 @@
+{
+  "owner": {
+    "username": "tryklim601-dotcom",
+    "email": "tryklim601@gmail.com"
+  },
+  "records": {
+    "A": ["37.212.57.120"],
+    "SRV": [
+      {
+        "service": "_minecraft",
+        "proto": "_tcp",
+        "name": "play",
+        "priority": 0,
+        "weight": 5,
+        "port": 25577,
+        "target": "agerapvp.is-a.dev"
+      }
+    ]
+  }
+}
