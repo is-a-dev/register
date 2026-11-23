@@ -1,0 +1,25 @@
+{
+  "owner": {
+    "username": "azizgroks",
+    "email": "azizgroks@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 50
+      }
+    ]
+  }
+}
