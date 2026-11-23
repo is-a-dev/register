@@ -1,9 +1,8 @@
 {
-  "owner": {
-    "username": "henneth-annun",
-    "email": "haikalfibraayirprasta7@gmail.com"
-  },
-  "records": {
-    "CNAME": "maris-adev.vercel.app",
-  }
+    "owner": {
+        "username": "your-github-username"
+    },
+    "records": {
+      "A": ["216.198.79.1"]
+    }
 }
