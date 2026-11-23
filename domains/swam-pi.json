@@ -1,11 +1,11 @@
 {
   "description": "Psersonal developer portfolio of Swam PI",
-  "repo": "https://github.com/TyrisStuid/TyrisStuid.github.io",
+  "repo": "https://github.com/TyrisStuid/cloud-lab-template",
   "owner": {
     "username": "TyrisStuid",
     "email": "mrstarkismyidol@gmail.com"
   }
   "records": {
-    "CNAME": "TyrisStuid.github.io"
+    "CNAME": "https://cloud-lab-template-yccy.onrender.com"
   }
 }
