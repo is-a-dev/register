@@ -13,7 +13,7 @@
       "185.199.111.153"
     ],
     "TXT": [
-      "v=spf1 ip4:161.248.87.10 -all",
+      "v=spf1 ip4:161.248.87.10 ~all",
       "_dmarc v=DMARC1; p=none; rua=mailto:utx30377@euploading.com",
       "default._domainkey v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlgHbQq6BFw7jRfQNtcOeA1k61kE0lXeau93SOB2+PvoIgHqjtA9/6vuxRcTyUcsMt927qxbMYXs1ONsHoVMIpKsN7pPXcsFihaGoU2lVexS/ZtsxyKBIBI8rHmEoOJY/Ul4rTl1/21Yoh57zmaPIeFVB4jt+g/dD1I1Si+x94F1E1JR5yL4TR4QlsAoaZLoweRA5wK0xm9nZyLJvTduGWBkTfc6Rop0KJZMaH7y9zdHxZzE9UOX9Q4t9a/CjeGrXOSpRTOoB1j8fACuY+79nhWBETqDIVS7igVFirKo4BMKTQUVbpF7VjVt/SVH5g078xbKe1HL1z9zgoFqO7YxtRwIDAQAB"
     ]
