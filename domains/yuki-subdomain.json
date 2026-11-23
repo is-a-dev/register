@@ -1,0 +1,15 @@
+{
+"description": "Personal web project hosted on a dedicated server",
+"owner": {
+"username": "yuki-subdomain",
+"email": "yukisubdomain@example.com"
+ },
+"records": {
+"A": [
+"185.199.108.153",
+"185.199.109.153",
+"185.199.110.153",
+"185.199.111.153"
+ ]
+ }
+}
