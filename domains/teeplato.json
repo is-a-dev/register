@@ -5,6 +5,9 @@
     "email": "tee.bean007@gmail.com"
   },
   "records": {
-    "CNAME": "tbean007.github.io"
+    "CNAME": "tbean007.github.io",
+    "TXT": [
+      "google-site-verification=DwXP7-bKqvdMWFk9enBxlQ33x_p1_WT6MYwCq5b4kkE"
+    ]
   }
 }
