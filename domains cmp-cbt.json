@@ -1,0 +1,11 @@
+{
+  "name": "cmp-cbt",
+  "description": "CMP CBT website",
+  "owner": {
+    "username": "marvelcodeai",
+    "email": "marvellousodutola@gmail.com"
+  },
+  "record": {
+    "CNAME": "cmp-cbt.netlify.app"
+  }
+}
