@@ -1,6 +1,6 @@
 var domainName = "is-a.dev";
 var registrar = NewRegistrar("none");
-var dnsProvider = DnsProvider(NewDnsProvider("cloudflare"));
+var dnsProvider = DnsProvider(NewDnsProvider("cloudflare"), 0);
 
 function getDomainsList(filesPath) {
     var result = [];
@@ -135,14 +135,6 @@ for (var subdomain in domains) {
     }
 }
 
-var reserved = require("./util/reserved.json");
-
-// Handle reserved domains
-for (var i = 0; i < reserved.length; i++) {
-    var subdomainName = reserved[i];
-    records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
-}
-
 // Zone last updated TXT record
 records.push(TXT("_zone-updated", "\"" + Date.now().toString() + "\""));
 
@@ -156,9 +148,12 @@ var ignored = [
     IGNORE("_gh-iad-team-o", "TXT"),
     IGNORE("_gh-is-a-dev-o", "TXT"),
     IGNORE("_gh-is-a-dev-o.**", "TXT"),
+    IGNORE("_github-pages-challenge-iad-team", "TXT"),
+    IGNORE("_github-pages-challenge-iad-team.**", "TXT"),
     IGNORE("_github-pages-challenge-is-a-dev", "TXT"),
     IGNORE("_github-pages-challenge-is-a-dev.**", "TXT"),
-    IGNORE("_psl", "TXT")
+    IGNORE("_psl", "TXT"),
+    IGNORE("cf-bounce", "MX,TXT")
 ];
 
 var internal = require("./util/internal.json");

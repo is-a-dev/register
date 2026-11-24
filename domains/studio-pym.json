@@ -1,0 +1,23 @@
+{
+  "owner": {
+    "username": "mrpat4"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com",
+    "MX": [
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 0
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 0
+      }
+    ],
+    "TXT": [
+      "v=spf1 include:spf.forwardemail.net ~all",
+      "forward-email=mr.pat4@gmail.com"
+    ]
+  },
+  "proxied": true
+}

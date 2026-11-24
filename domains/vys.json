@@ -1,0 +1,23 @@
+{
+  "owner": {
+    "email": "boyvys@gmail.com",
+    "username": "masboy-vys"
+  },
+  "records": {
+    "CNAME": "masboy-vys.github.io",
+    "MX": [
+      {
+        "priority": 10,
+        "target": "mx1.forwardemail.net"
+      },
+      {
+        "priority": 20,
+        "target": "mx2.forwardemail.net"
+      }
+    ],
+    "TXT": [
+      "forward-email=boyvys@gmail.com"
+    ]
+  },
+  "proxied": true
+}

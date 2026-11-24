@@ -4,6 +4,8 @@
     "email": "pmdnawaz1@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=pmdnawaz1.is-a.dev,f7852b93a9e99f15a534"
+    "TXT": [
+      "vc-domain-verify=pmdnawaz1.is-a.dev,0eae6364d3a9cb39fde6"
+    ]
   }
 }
