@@ -4,6 +4,10 @@
     "email": "2906680271@qq.com"
   },
   "records": {
-    "URL": "https://heruixii.github.io"
+    "URL": "https://heruixii.github.io",
+    "NS": [
+      "nolan.ns.cloudflare.com",
+      "simone.ns.cloudflare.com"
+    ]
   }
 }
