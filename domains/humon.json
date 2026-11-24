@@ -4,6 +4,7 @@
     "email": "aryan.chaudhary.akb@gmail.com"
   },
   "records": {
-    "CNAME": "humon.pages.dev"
+    "CNAME": "humon.pages.dev",
+    "TXT": "google-site-verification=rvuDFMkSHK7jUVYPXjWL7zVg3IIiUY2IMsQj9eBQGFQ"
   }
 }
