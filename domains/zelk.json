@@ -1,10 +1,10 @@
 {
-"owner": {
+  "owner": {
     "username": "zelktheone",
     "email": "zelktheone@gmail.com"
-},
+  },
 
-    "records": {
-        "CNAME": "zelk1.netlify.app"
-    }
+  "records": {
+    "CNAME": "zelk1.netlify.app"
+  }
 }

@@ -1,1 +1,28 @@
-{"owner":{"email":"lyh15597771770@gmail.com","username":"15597771770-cpu"},"records":{"CNAME":"15597771770-cpu.github.io","TXT":["zoho-verification=zb92647550.zmverify.zoho.com","v=spf1 include:zoho.com ~all"],"MX":[{"target":"mx.zoho.com","priority":10},{"target":"mx2.zoho.com","priority":20},{"target":"mx3.zoho.com","priority":50}]},"proxied":true}
+{
+  "owner": {
+    "email": "lyh15597771770@gmail.com",
+    "username": "15597771770-cpu"
+  },
+  "records": {
+    "CNAME": "15597771770-cpu.github.io",
+    "TXT": [
+      "zoho-verification=zb92647550.zmverify.zoho.com",
+      "v=spf1 include:zoho.com ~all"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.com",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.com",
+        "priority": 50
+      }
+    ]
+  },
+  "proxied": true
+}

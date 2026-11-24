@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "only-keanu"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=kei.is-a.dev,31e9db1765b455b79fc0"
-    }
+  "owner": {
+    "username": "only-keanu"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=kei.is-a.dev,31e9db1765b455b79fc0"
+  }
 }

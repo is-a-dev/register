@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "xfrightfull",
-        "discord": "xfrightfull"
-    },
-    "records": {
-        "A": ["216.198.79.1"] 
-    }
+  "owner": {
+    "username": "xfrightfull",
+    "discord": "xfrightfull"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

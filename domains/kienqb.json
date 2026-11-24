@@ -1,10 +1,10 @@
 {
-  "description" : "Personal page of Kien Nguyen - a collection of my small projects.",
-  "owner" : {
-    "email" : "taxiquangbinhqbh@gmail.com",
-    "username" : "kienqb"
+  "description": "Personal page of Kien Nguyen - a collection of my small projects.",
+  "owner": {
+    "email": "taxiquangbinhqbh@gmail.com",
+    "username": "kienqb"
   },
-  "records" : {
-    "CNAME" : "kienqb.github.io"
+  "records": {
+    "CNAME": "kienqb.github.io"
   }
 }

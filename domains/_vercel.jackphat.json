@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "PhatJack"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=jackphat.is-a.dev,9d9d98c01fe413eaf5a4"
-    }
+  "owner": {
+    "username": "PhatJack"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=jackphat.is-a.dev,9d9d98c01fe413eaf5a4"
+  }
 }

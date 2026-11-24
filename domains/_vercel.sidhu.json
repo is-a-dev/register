@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Im-Siddhant"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=sidhu.is-a.dev,553d8c94211cac764331"
-    }
+  "owner": {
+    "username": "Im-Siddhant"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sidhu.is-a.dev,553d8c94211cac764331"
+  }
 }

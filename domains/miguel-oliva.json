@@ -1,1 +1,9 @@
-{"owner":{"username":"Raiderstor","email":"olivapalazonmiguel@gmail.com"},"records":{"CNAME":"cname.vercel-dns.com"}}
+{
+  "owner": {
+    "username": "Raiderstor",
+    "email": "olivapalazonmiguel@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
