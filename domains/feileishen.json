@@ -1,1 +1,10 @@
-{"owner":{"username":"msm1985"},"records":{"A":["38.190.226.82"]}}
+{
+  "owner": {
+    "username": "msm1985"
+  },
+  "records": {
+    "A": [
+      "38.190.226.82"
+    ]
+  }
+}

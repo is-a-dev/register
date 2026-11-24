@@ -1,9 +1,9 @@
-   {
-     "owner": {
-       "username": "kmuskan89-debug",
-       "email": "muskank14019@gmail.com"
-     },
-     "records": {
-       "TXT": "vc-domain-verify=muskan.is-a.dev,58871d7a6f5e5c70db8a"
-     }
-   }
+{
+  "owner": {
+    "username": "kmuskan89-debug",
+    "email": "muskank14019@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=muskan.is-a.dev,58871d7a6f5e5c70db8a"
+  }
+}

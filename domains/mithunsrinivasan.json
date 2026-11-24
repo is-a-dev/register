@@ -1,1 +1,9 @@
-{"owner":{"username":"mithun-srinivasan","email":"omsaimithun@gmail.com"},"records":{"CNAME":"mithun-srinivasan.github.io"}}
+{
+  "owner": {
+    "username": "mithun-srinivasan",
+    "email": "omsaimithun@gmail.com"
+  },
+  "records": {
+    "CNAME": "mithun-srinivasan.github.io"
+  }
+}

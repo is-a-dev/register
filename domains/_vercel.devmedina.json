@@ -1,1 +1,9 @@
-{"owner":{"username":"urieldomingezm","email":"angeluriel12medina@gmail.com"},"records":{"TXT":"vc-domain-verify=devmedina.is-a.dev,00c2e3d4d8562fb0e74c"}}
+{
+  "owner": {
+    "username": "urieldomingezm",
+    "email": "angeluriel12medina@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=devmedina.is-a.dev,00c2e3d4d8562fb0e74c"
+  }
+}

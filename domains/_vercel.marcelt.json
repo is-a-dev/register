@@ -1,0 +1,10 @@
+{
+  "description": "Vercel verification for marcelt.is-a.dev",
+  "owner": {
+    "username": "Marcel-mux",
+    "email": "marcelturangan2@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=marcelt.is-a.dev,2860333aef44a466c9c8"
+  }
+}

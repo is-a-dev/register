@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "facich"
-    },
-    "records": {
-        "CNAME": "facich.github.io"
-    }
+  "owner": {
+    "username": "facich"
+  },
+  "records": {
+    "CNAME": "facich.github.io"
+  }
 }

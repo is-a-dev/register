@@ -1,4 +1,8 @@
 {
-  "owner": { "username": "TirthaJas" },
-  "records": { "CNAME": "tirthajas.github.io" }
+  "owner": {
+    "username": "TirthaJas"
+  },
+  "records": {
+    "CNAME": "tirthajas.github.io"
+  }
 }

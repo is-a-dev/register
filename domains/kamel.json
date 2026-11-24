@@ -1,4 +1,11 @@
 {
-  "owner": { "username": "kameldhakwani90", "twitter": "KDhakwani" },
-  "records": { "A": ["207.180.219.180"] }
+  "owner": {
+    "username": "kameldhakwani90",
+    "twitter": "KDhakwani"
+  },
+  "records": {
+    "A": [
+      "207.180.219.180"
+    ]
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "arthcc",
-        "email": "arthurdaconceicaocunha@gmail.com"
-    },
-    "records": {
-        "CNAME": "portifolio-arthur-site.fly.dev"
-    }
+  "owner": {
+    "username": "arthcc",
+    "email": "arthurdaconceicaocunha@gmail.com"
+  },
+  "records": {
+    "CNAME": "portifolio-arthur-site.fly.dev"
+  }
 }

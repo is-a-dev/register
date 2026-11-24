@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "pyxeled-dev",
+    "discord": "pyxeled_"
+  },
+  "records": {
+    "URL": "https://pyxel.is-a.dev/?from=trans-pyxeler"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
+}

@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "estebannoemr"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=estebanmr.is-a.dev,5e2b02f4ea672d5bc5bb"
-    }
+  "owner": {
+    "username": "estebannoemr"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=estebanmr.is-a.dev,5e2b02f4ea672d5bc5bb"
+  }
 }

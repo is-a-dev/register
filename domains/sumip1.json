@@ -1,10 +1,10 @@
 {
-    "owner": {
-        "username": "zer0vox",
-        "email": "sumip780@gmail.com"
-    },
-    "records": {
-        "CNAME": "portfolio-minima.pages.dev"
-    },
-    "proxied": false
+  "owner": {
+    "username": "zer0vox",
+    "email": "sumip780@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-minima.pages.dev"
+  },
+  "proxied": false
 }

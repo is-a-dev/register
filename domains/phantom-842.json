@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Phantom8420"
-    },
-    "records": {
-        "CNAME": "phantom-842.vercel.app"
-    }
+  "owner": {
+    "username": "Phantom8420"
+  },
+  "records": {
+    "CNAME": "phantom-842.vercel.app"
+  }
 }

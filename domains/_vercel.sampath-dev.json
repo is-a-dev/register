@@ -1,1 +1,8 @@
-{"owner":{"username":"Sampath0411"},"records":{"TXT":"vc-domain-verify=sampath-dev.is-a.dev,fd3f15a7bed9ff3c6929"}}
+{
+  "owner": {
+    "username": "Sampath0411"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=sampath-dev.is-a.dev,fd3f15a7bed9ff3c6929"
+  }
+}

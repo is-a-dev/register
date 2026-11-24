@@ -1,1 +1,9 @@
-{"owner":{"username":"sharriffajar","email":"sharrifff880@gmail.com"},"records":{"CNAME":"sharriffajar.pages.dev"}}
+{
+  "owner": {
+    "username": "sharriffajar",
+    "email": "sharrifff880@gmail.com"
+  },
+  "records": {
+    "CNAME": "sharriffajar.pages.dev"
+  }
+}

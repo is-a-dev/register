@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "mdabdullahr"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=abdullahwp.is-a.dev,b158178b7eeb5e05ff28"
-    }
+  "owner": {
+    "username": "mdabdullahr"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=abdullahwp.is-a.dev,b158178b7eeb5e05ff28"
+  }
 }

@@ -1,1 +1,9 @@
-{ "owner": { "username": "skm1995", "email": "szymonkozlowski1995@gmail.com" }, "records": { "CNAME": "skm1995.github.io" } }
+{
+  "owner": {
+    "username": "skm1995",
+    "email": "szymonkozlowski1995@gmail.com"
+  },
+  "records": {
+    "CNAME": "skm1995.github.io"
+  }
+}
