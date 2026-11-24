@@ -4,6 +4,7 @@
     "email": "vladstrydex@gmail.com"
   },
   "records": {
-    "URL": "https://d5dnch61t5eed1vqfi8h.pdkwbi1w.apigw.yandexcloud.net"
-  }
+    "CNAME": "bba7mdi2100imdimcmd4.containers.yandexcloud.net"
+  },
+  "proxied": true
 }

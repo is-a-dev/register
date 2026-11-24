@@ -1,6 +1,6 @@
 var domainName = "is-a.dev";
 var registrar = NewRegistrar("none");
-var dnsProvider = DnsProvider(NewDnsProvider("cloudflare"));
+var dnsProvider = DnsProvider(NewDnsProvider("cloudflare"), 0);
 
 function getDomainsList(filesPath) {
     var result = [];
@@ -133,14 +133,6 @@ for (var subdomain in domains) {
     if (data.records.URL) {
         records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
     }
-}
-
-var reserved = require("./util/reserved.json");
-
-// Handle reserved domains
-for (var i = 0; i < reserved.length; i++) {
-    var subdomainName = reserved[i];
-    records.push(A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON));
 }
 
 // Zone last updated TXT record
