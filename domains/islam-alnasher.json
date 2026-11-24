@@ -4,7 +4,6 @@
     "email": "aslamalkarywka@gmail.com"
   },
   "records": {
-    "A": ["216.198.79.1"],
-    "TXT": "vc-domain-verify=islam-alnasher.is-a.dev,3a3a66bd631d5eef9fb7"
+    "A": ["216.198.79.1"]
   }
 }
