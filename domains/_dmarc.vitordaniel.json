@@ -4,6 +4,8 @@
     "email": "vitor036daniel@gmail.com"
   },
   "records": {
-    "TXT": ["v=DMARC1; p=none;"]
+    "TXT": [
+      "v=DMARC1; p=none;"
+    ]
   }
 }

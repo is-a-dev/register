@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "chuyto"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGRcU3SbZl6qMkiKF3W4fC6gBA4gdpPsJf1ZpqEisNcy1dv6so02VW9lwf0BE65yOcKFePymEeqeW88+EfRURSCZ99a7Dwx1mfvbGwoS0pvvycKHXWZxcLGv1PLEon9uS6vzDm6xM0PP5P7DmtcaaslOB1AFRu/6szeEmwK23GjwIDAQAB"
+  }
+}

@@ -4,6 +4,9 @@
     "email": "isadev@ukriu.com"
   },
   "records": {
-    "NS": ["love.ns.cloudflare.com", "pete.ns.cloudflare.com"]
+    "NS": [
+      "love.ns.cloudflare.com",
+      "pete.ns.cloudflare.com"
+    ]
   }
 }

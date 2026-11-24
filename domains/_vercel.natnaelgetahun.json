@@ -6,6 +6,8 @@
     "email": "nathanielfeatherson@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=natnaelgetahun.is-a.dev,d5c2543f0d495d72fb7b"]
+    "TXT": [
+      "vc-domain-verify=natnaelgetahun.is-a.dev,d5c2543f0d495d72fb7b"
+    ]
   }
 }

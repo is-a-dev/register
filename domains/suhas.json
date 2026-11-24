@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "vsuhas9",
-        "email": "suhas@vaddhiparthy.com"
-    },
-    "records": {
-        "CNAME": "vsuhas9.github.io"
-    }
+  "owner": {
+    "username": "suhas-hoskere",
+    "email": "suhashoskere@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

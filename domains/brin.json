@@ -4,6 +4,8 @@
     "email": "trin.n2848@gmail.com"
   },
   "records": {
-    "CNAME": "brinterwastaken.github.io"
-  }
+    "CNAME": "brinterwastaken.github.io",
+    "TXT": "google-site-verification=WlrRT6o98BXmoLOWGiapXwLCWiUS33jl8cNuKV76fgw"
+  },
+  "proxied": true
 }

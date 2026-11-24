@@ -1,0 +1,10 @@
+{
+  "description": "Personal money management app",
+  "owner": {
+    "username": "jorgeaguadero",
+    "email": "jorgeaguaderodev@gmail.com"
+  },
+  "records": {
+    "CNAME": "money-manager.is-a.dev.jorg-xwzb.dns.northflank.app"
+  }
+}

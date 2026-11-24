@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "Eric031"
-    },
-    "records": {
-        "CNAME": "eric031.github.io"
-    }
+  "owner": {
+    "username": "Eric031",
+    "email": "dule.eric98@gmail.com"
+  },
+  "records": {
+    "CNAME": "eric031.github.io"
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "Martin-Bernard",
+    "email": "martin.bernard780@gmail.com"
+  },
+  "description": "StageFlow — choreography planner. Web app deployed at workers.dev.",
+  "repo": "https://github.com/Martin-Bernard/stageflow-web",
+  "records": {
+    "URL": "https://stageflow-web.martin-bernard780.workers.dev"
+  },
+  "proxied": false
+}

@@ -1,0 +1,9 @@
+{
+  "description": "Clerk account portal for ABAP Studio",
+  "owner": {
+    "username": "akashgupta221"
+  },
+  "records": {
+    "CNAME": "accounts.clerk.services"
+  }
+}

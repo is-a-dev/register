@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "the-X-alien",
-        "email": "dhiaandave@outlook.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "the-X-alien",
+    "email": "dhiaandave@outlook.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
