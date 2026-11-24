@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "robyajo",
-        "email": "robyfull.dev@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=pasak.is-a.dev,0cc519c3ac5d1b997af5"
-    }
+  "owner": {
+    "username": "robyajo",
+    "email": "robyfull.dev@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=pasak.is-a.dev,0cc519c3ac5d1b997af5"
+  }
 }

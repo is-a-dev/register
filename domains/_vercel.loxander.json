@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "xuwenshi",
-        "email": "2027358278@qq.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=loxander.is-a.dev,1f6037886ce01255db04"
-    }
+  "owner": {
+    "username": "xuwenshi",
+    "email": "2027358278@qq.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=loxander.is-a.dev,1f6037886ce01255db04"
+  }
 }

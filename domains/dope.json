@@ -1,11 +1,13 @@
 {
-  "description": "DOPE \u2014 Developer Portfolio",
+  "description": "DOPE — Developer Portfolio",
   "repo": "https://github.com/dopevibex/portfolio",
   "owner": {
     "username": "dopevibex",
     "email": "dopevibex@gmail.com"
   },
   "records": {
-    "CNAME": "dopevibex.github.io"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

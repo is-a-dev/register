@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "warchambault5",
-        "email": "warchambault5@gmail.com"
-    },
-    "records": {
-        "TXT": ["vc-domain-verify=warchambault.is-a.dev,b9eab04895a8facdc022", "vc-domain-verify=www.warchambault.is-a.dev,3846c0832b60d1b437f7"]
-    }
+  "owner": {
+    "username": "warchambault5",
+    "email": "warchambault5@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=warchambault.is-a.dev,b9eab04895a8facdc022",
+      "vc-domain-verify=www.warchambault.is-a.dev,3846c0832b60d1b437f7"
+    ]
+  }
 }

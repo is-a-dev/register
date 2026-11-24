@@ -4,8 +4,6 @@
     "email": "info.cclaas@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
-    ]
+    "CNAME": "portfolio-7gc.pages.dev"
   }
 }

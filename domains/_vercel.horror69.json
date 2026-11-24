@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "horror69dev",
-        "email": "contact.horror69@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=horror69.is-a.dev,e1d23d5c83a01972c9d7"
-    }
+  "owner": {
+    "username": "horror69dev",
+    "email": "contact.horror69@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=horror69.is-a.dev,e1d23d5c83a01972c9d7"
+  }
 }

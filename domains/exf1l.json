@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "exf1L",
-        "email": "teodormina2@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "exf1L",
+    "email": "teodormina2@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

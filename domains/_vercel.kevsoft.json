@@ -4,6 +4,8 @@
     "email": "linux.user.tools@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=kevsoft.is-a.dev,24a094f73c937fcacb01"]
+    "TXT": [
+      "vc-domain-verify=kevsoft.is-a.dev,24a094f73c937fcacb01"
+    ]
   }
 }
