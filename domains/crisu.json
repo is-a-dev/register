@@ -3,7 +3,9 @@
     "username": "crisutf"
   },
   "records": {
-    "CNAME": "crisu.qzz.io"
-  },
-  "proxied": true
+    "NS": [
+      "faye.ns.cloudflare.com",
+      "noah.ns.cloudflare.com"
+    ]
+  }
 }
