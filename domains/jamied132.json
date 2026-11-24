@@ -5,6 +5,9 @@
     "email": "jamied132.email@gmail.com"
   },
   "records": {
-    "NS": ["kevin.ns.cloudflare.com", "megan.ns.cloudflare.com"]
+    "NS": [
+      "kevin.ns.cloudflare.com",
+      "megan.ns.cloudflare.com"
+    ]
   }
 }

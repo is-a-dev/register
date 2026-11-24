@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "djbadboyvip"
-    },
-    "records": {
-        "CNAME": "djbadboyvip.github.io"
-    }
+  "owner": {
+    "username": "djbadboyvip"
+  },
+  "records": {
+    "CNAME": "djbadboyvip.github.io"
+  }
 }

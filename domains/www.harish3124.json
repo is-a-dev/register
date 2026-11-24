@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "zro404",
-        "email": "dev.harish3124@gmail.com"
-    },
-    "records": {
-        "CNAME": "harish3124.netlify.app"
-    }
+  "owner": {
+    "username": "zro404",
+    "email": "dev.harish3124@gmail.com"
+  },
+  "records": {
+    "CNAME": "harish3124.netlify.app"
+  }
 }

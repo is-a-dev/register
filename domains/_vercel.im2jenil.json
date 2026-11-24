@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "iam2jenil-dev",
+    "email": "iam2jenil.dev@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=im2jenil.is-a.dev,79cea2520fbc9bc704d1",
+      "vc-domain-verify=www.im2jenil.is-a.dev,10db3f6ab9f321d09bfd"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "username": "m1st4ck",
+    "email": "m1st4ck@proton.me"
+  },
+  "records": {
+    "CNAME": "m1st4ck.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all",
+      "brevo-code:966d01c3b7e14ad563ce182fab8fb1a5"
+    ]
+  },
+  "proxied": true
+}

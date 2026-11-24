@@ -1,0 +1,21 @@
+{
+  "owner": {
+    "username": "zurai02"
+  },
+  "records": {
+    "MX": [
+      {
+        "target": "mx1.improvmx.com",
+        "priority": 10
+      },
+      {
+        "target": "mx2.improvmx.com",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      "brevo-code:0bf95265fb4f32859ce9c1f95e7a8b71",
+      "v=spf1 include:spf.improvmx.com include:spf.brevo.com ~all"
+    ]
+  }
+}

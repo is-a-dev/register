@@ -1,0 +1,9 @@
+{
+  "description": "Cloudflare custom hostname verification for OpenAI Sites",
+  "owner": {
+    "username": "Mohammed91Ayman"
+  },
+  "records": {
+    "TXT": "65e4de7b-ce94-4478-bc84-1bc00c28a1d2"
+  }
+}

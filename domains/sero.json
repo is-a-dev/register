@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "serotonincrash"
-    },
-    "records": {
-        "CNAME": "serotonincrash.github.io"
-    }
+  "owner": {
+    "username": "serotonincrash"
+  },
+  "records": {
+    "CNAME": "serotonincrash.github.io"
+  }
 }
