@@ -5,8 +5,8 @@
   },
   "records": {
     "NS": [
-      "://cloudflare.com",
-      "://cloudflare.com"
+      "adrian.ns.cloudflare.com",
+      "edward.ns.cloudflare.com"
     ]
   }
 }
