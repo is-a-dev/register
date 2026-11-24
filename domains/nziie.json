@@ -1,9 +1,11 @@
 {
+  "description": "Nziie's Portfolio Website",
+  "repo": "https://github.com/Nzii3/website",
   "owner": {
     "username": "Nzii3",
     "email": "exeyst@gmail.com"
   },
-  "records": {
-    "CNAME": "edge.redirect.pizza"
+  "record": {
+    "TXT": "vc-domain-verify=nziie.is-a.dev,1bdfd438eb51207426ae"
   }
 }
