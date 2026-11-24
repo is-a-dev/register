@@ -1,0 +1,18 @@
+{
+  "description": "Personal developer portfolio and software projects by Zaid HMI",
+  "repo": "https://github.com/HAMI22-DVL/HAMI22-DVL.github.io",
+  "owner": {
+    "username": "HAMI22-DVL",
+    "email": "hmizaid660@gmail.com"
+  },
+  "records": {
+    "CNAME": "HAMI22-DVL.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": [
+      "v=spf1 include:spf.improvmx.com ~all"
+    ]
+  }
+}
