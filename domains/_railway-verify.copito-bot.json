@@ -1,0 +1,11 @@
+{
+  "description": "Verificacion DNS de Railway para copito-bot.is-a.dev",
+  "repo": "https://github.com/Alonsobc95/copito-bot-releases",
+  "owner": {
+    "username": "Alonsobc95",
+    "email": "ryner9514@gmail.com"
+  },
+  "records": {
+    "TXT": "6g5h56t4.up.railway.app"
+  }
+}
