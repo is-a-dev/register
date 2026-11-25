@@ -1,12 +1,10 @@
+
 {
   "owner": {
     "username": "Tanishq-JM",
     "email": "tanishqurmi@gmail.com"
   },
   "records": {
-    "NS": [
-      "adrian.ns.cloudflare.com",
-      "edward.ns.cloudflare.com"
-    ]
+    "CNAME": "tanishq-jm.github.io"
   }
 }
