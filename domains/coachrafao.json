@@ -1,0 +1,12 @@
+{
+    "domain": "is-a.dev",
+    "subdomain": "coachrafao",
+    "owner": {
+        "repo": "https://github.com/carlossaldanha/coach-rafao",
+        "email": "carlossaldanha@outlook.com"
+    },
+    "record": {
+        "CNAME": "carlossaldanha.github.io"
+    },
+    "proxied": false
+}
