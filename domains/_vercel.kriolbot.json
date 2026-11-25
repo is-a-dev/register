@@ -1,9 +1,10 @@
 
 {
   "owner": {
-    "username": "mohamedxz3"
+    "username": "mohamedxz3",
+    "email": "mohamedxz3.2021@gmail.com"
   },
-  "record": {
+  "records": {
     "TXT": "vc-domain-verify=www.kriolbot.is-a.dev,b97549c6a2fecc6cd1e4"
   }
 }
