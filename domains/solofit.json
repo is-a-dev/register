@@ -3,7 +3,7 @@
     "username": "ctepan684",
     "email": "naive444kai@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "ctepan684.github.io"
   },
   "description": "SoloFit — open-source web fitness and nutrition tracker built with vanilla JS and Supabase"
