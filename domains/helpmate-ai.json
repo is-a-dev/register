@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "emailnehal123-cloud",
+    "email": "emailnehal123@gmail.com"
+  },
+  "subdomain": "helpmate-ai",
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": false
+}
