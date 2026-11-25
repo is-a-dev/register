@@ -6,6 +6,6 @@
     "email": "exeyst@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=nziie.is-a.dev,1bdfd438eb51207426ae"
+    "A": "216.198.79.1"
   }
 }
