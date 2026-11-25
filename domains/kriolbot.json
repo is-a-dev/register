@@ -1,9 +1,10 @@
 
 {
   "owner": {
-    "username": "mohamedxz3"
+    "username": "mohamedxz3",
+    "email": "mohamedxz3.2021@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "34c01f0fd84f95d6.vercel-dns-017.com"
   }
 }
