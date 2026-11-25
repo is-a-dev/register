@@ -1,0 +1,12 @@
+{
+  "description": "Open-source classroom assignment and task management web application built with HTML, CSS, JavaScript, and Cloudflare Pages/D1. This is a platform where we can store our project assignments online.",
+  "repo": "https://github.com/Aras1669/okul-odevlerim",
+  "owner": {
+    "username": "Aras1669",
+    "email": "bbproyes@gmail.com"
+  },
+  "record": {
+    "CNAME": "okul-odevlerim.pages.dev"
+  },
+  "proxied": false
+}
