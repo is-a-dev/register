@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "igormaraujo"
+        "username": "igormaraujo",
+        "email": "dev.igormaraujo@gmail.com"
     },
     "records": {
         "MX": ["mx.smtp.dev"]
