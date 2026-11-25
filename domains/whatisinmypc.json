@@ -1,8 +1,9 @@
 {
-    "owner": {
-        "username": "yariricci2-png"
-    },
-    "records": {
-        "CNAME": "yariricci2-png.github.io"
-    }
+  "owner": {
+    "username": "yariricci2-png",
+    "email": "yariricci1@gmail.com"
+  },
+  "records": {
+    "CNAME": "yariricci2-png.github.io"
+  }
 }
