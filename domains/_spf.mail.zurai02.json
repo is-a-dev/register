@@ -3,6 +3,6 @@
     "username": "zurai02"
   },
   "records": {
-    "TXT": "v=spf1 include:spf.improvmx.com include:spf.brevo.com ~all"
+    "TXT": "v=spf1 include:spf.improvmx.com include:spf.brevo.com -all"
   }
 }
