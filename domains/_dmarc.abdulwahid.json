@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "abduIwahid",
+    "email": "wahidkingyt10@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none; rua=mailto:contact@abdulwahid.is-a.dev"
+  }
+}

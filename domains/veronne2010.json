@@ -3,6 +3,12 @@
         "username": "veronne2010"
     },
     "records": {
-        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"]
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+        "TXT": ["verification-code-site-App_lark=CjU6Y0kFAts6JHfrZyJD", "v=spf1 +include:spf.onlarksuite.com -all"],
+        "MX": [
+          { "target": "mx1.larksuite.com", "priority": 1 },
+          { "target": "mx2.larksuite.com", "priority": 5 },
+          { "target": "mx3.larksuite.com", "priority": 10 }
+        ]
     }
 }
