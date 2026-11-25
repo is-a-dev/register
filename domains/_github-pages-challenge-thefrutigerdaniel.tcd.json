@@ -1,4 +1,9 @@
 {
-    "owner": { "username": "TheFrutigerDaniel", "email": "teeceedee09@gmail.com" },
-    "records": { "CNAME": "thefrutigerdaniel.github.io" }
+    "owner": {
+        "username": "TheFrutigerDaniel",
+        "email": "teeceedee09@gmail.com"
+    },
+    "records": {
+        "TXT": "thefrutigerdaniel.github.io"
+    }
 }
