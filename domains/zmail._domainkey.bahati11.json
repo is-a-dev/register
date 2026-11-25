@@ -1,0 +1,8 @@
+{
+  "owner": {
+    "username": "bahati11-web"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVxF76RAaVu0zgRUqphM+W6ZmaEGWLAo7wpoyM9D0OwrUyE3vfR/IwydKzhHnVSszpHg8V6LCNez/VYSFsHa1KP6WxxBJdlTg0tDhrwzALvyag6SqrYZjzF8H7LUG6h333XtxcUIa1AWkh0qVxpY0ELRr4l7m32xNtFDWuU8M19QIDAQAB"
+  }
+}
