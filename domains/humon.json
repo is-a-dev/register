@@ -3,7 +3,9 @@
     "username": "ARYAN007H",
     "email": "aryan.chaudhary.akb@gmail.com"
   },
+  "proxied": true,
   "records": {
-    "CNAME": "humon.pages.dev"
+    "CNAME": "humon.pages.dev",
+    "TXT": "google-site-verification=rvuDFMkSHK7jUVYPXjWL7zVg3IIiUY2IMsQj9eBQGFQ"
   }
 }
