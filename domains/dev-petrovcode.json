@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "dev-petrovcode"
+    "username": "dev-petrovcode",
+    "email": "is-a-dev.nemeses336@passinbox.com"
   },
   "records": {
     "CNAME": "cloudflare-personalweb.mspk.workers.dev"
