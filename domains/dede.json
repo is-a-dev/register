@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "dieudonne261",
-        "email": "ddieu0970@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "dieudonne261",
+    "email": "ddieu0970@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

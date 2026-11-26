@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "ctrlaltspace"
-    },
-    "records": {
-        "URL": "https://curiospacelabs.github.io"
-    },
-    "redirect_config": {
-      "redirect_paths": true
-    }
+  "owner": {
+    "username": "ctrlaltspace"
+  },
+  "records": {
+    "URL": "https://curiospacelabs.github.io"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
 }

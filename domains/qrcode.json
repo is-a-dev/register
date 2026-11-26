@@ -1,11 +1,11 @@
 {
   "owner": {
-    "username": "isobarsmustang0g",
-    "email": "isobars.mustang_0g@icloud.com"
+    "username": "zurai02"
   },
   "records": {
-    "A": [
-      "103.97.126.29"
-    ]
+    "URL": "https://zurai02.is-a.dev"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

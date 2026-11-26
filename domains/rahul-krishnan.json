@@ -4,6 +4,9 @@
     "email": "rahul.krishnan27@gmail.com"
   },
   "records": {
-    "CNAME": "rahulk98.github.io"
+    "URL": "https://rahulkrishnan.me"
+  },
+  "redirect_config": {
+    "redirect_paths": true
   }
 }

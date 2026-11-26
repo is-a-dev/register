@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "jaspherb",
-        "email": "japbaldera@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=jaspher.is-a.dev,4004f56a71d88279f1f4"
-    }
+  "owner": {
+    "username": "jaspherb",
+    "email": "japbaldera@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=jaspher.is-a.dev,4004f56a71d88279f1f4"
+  }
 }

@@ -4,6 +4,9 @@
     "email": "justkoder@duck.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=vlad.is-a.dev,5b0ce8d281321c3eff79"
+    "TXT": [
+      "vc-domain-verify=vlad.is-a.dev,314033f514abbab7e620",
+      "vc-domain-verify=koito.vlad.is-a.dev,5a3b6834daf1e10be4db"
+    ]
   }
 }

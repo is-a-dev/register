@@ -1,11 +1,11 @@
 {
-    "owner": {
-        "username": "Miots",
-        "email": "miotsrandriamihaja@gmail.com"
-    },
-    "records": {
-        "TXT": [
-            "vc-domain-verify=miots.is-a.dev,a1b0ed34b292edaa1e1a"
-        ]
-    }
+  "owner": {
+    "username": "Miots",
+    "email": "miotsrandriamihaja@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=miots.is-a.dev,a1b0ed34b292edaa1e1a"
+    ]
+  }
 }

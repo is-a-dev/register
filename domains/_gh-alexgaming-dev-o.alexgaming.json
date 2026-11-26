@@ -1,9 +1,12 @@
 {
   "owner": {
-    "username": "alexgamingstudio"
+    "username": "alexgamingdev",
+    "email": "alexgaming.padh@gmail.com"
   },
   "description": "GitHub Organization Verification",
   "records": {
-    "TXT": ["4eca742694"]
+    "TXT": [
+      "4eca742694"
+    ]
   }
 }

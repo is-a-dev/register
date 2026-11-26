@@ -116,6 +116,7 @@ async function validateFileName(t, file) {
 
     const rootSubdomain = subdomain.split(".").pop();
     t.false(rootSubdomain.startsWith("_"), `${file}: Root subdomains should not start with an underscore`);
+    t.false(rootSubdomain.includes("is-a-dev"), `${file}: Root subdomains should not contain is-a-dev`);
 }
 
 async function processFile(file, t) {
