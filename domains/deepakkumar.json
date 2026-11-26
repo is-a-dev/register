@@ -4,6 +4,6 @@
     "email": "dkyadava02@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=deepakkumar.is-a.dev,95a33e4ecb216b6a1ebf"
+    "A": ["216.198.79.1"]
   }
 }
