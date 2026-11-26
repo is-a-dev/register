@@ -1,11 +1,22 @@
 {
-    "owner":  {
-                  "username":  "agnelfranciso",
-                  "email":  "agnelfrancis2007@hotmail.com"
-              },
-    "records":  {
-                    "A":  [
-                              "75.2.60.5"
-                          ]
-                }
+  "owner": {
+    "username": "agnelfranciso",
+    "email": "agnelfrancis2007@hotmail.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ],
+    "MX": [
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 0
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 0
+      }
+    ],
+    "TXT": "forward-email=agnelfrancis2007@gmail.com"
+  }
 }
