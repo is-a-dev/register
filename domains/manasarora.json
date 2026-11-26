@@ -1,6 +1,8 @@
 {
     "owner": {
-        "username": "your-github-username"
+        "username": "your-github-username",
+        "email": "",
+        "twitter": "manasarora002"
     },
     "records": {
         "A": ["216.198.79.1"]
