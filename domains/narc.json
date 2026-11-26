@@ -3,8 +3,8 @@
     "username": "livysurf",
     "email": "curzefull@gmail.com"
   },
-  "record": {
-    "CNAME": "yknarc.netlify.app"
-  },
-  "TXT": "subdomain-owner-verification=5843f6958257f5dfb7494ce4e15b9a5c"
+  "records": {
+    "CNAME": "yknarc.netlify.app",
+    "TXT": "subdomain-owner-verification=5843f6958257f5dfb7494ce4e15b9a5c"
+  }
 }
