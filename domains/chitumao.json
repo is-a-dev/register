@@ -4,7 +4,7 @@
     "email": "TrancecvRo@gmail.com"
   },
   "records": {
-    "A": ["18.216.4.208"],
+    "A": ["35.95.61.22"],
     "MX": [
       { "target": "mx1.improvmx.com", "priority": 10 },
       { "target": "mx2.improvmx.com", "priority": 20 }
