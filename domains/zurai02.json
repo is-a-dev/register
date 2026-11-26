@@ -68,7 +68,7 @@
       {
         "flags": 0,
         "tag": "iodef",
-        "value": "info.domainguard.workers.dev",
+        "value": "info.domainguard.workers.dev/report",
         "type": "CAA",
         "ttl": 3600
       }
