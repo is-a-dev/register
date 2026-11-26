@@ -1,8 +1,10 @@
 {
   "owner": {
-    "username": "livysurf"
+    "username": "livysurf",
+    "email": "curzefull@gmail.com"
   },
-  "records": {
+  "record": {
     "CNAME": "yknarc.netlify.app"
-  }
+  },
+  "TXT": "subdomain-owner-verification=5843f6958257f5dfb7494ce4e15b9a5c"
 }
