@@ -4,6 +4,9 @@
     "email": "cyberrvault@gmail.com"
   },
   "records": {
-    "CNAME": "mamunvault.netlify.app"
+    "NS": [
+      "jeff.ns.cloudflare.com",
+      "nina.ns.cloudflare.com"
+    ]
   }
 }
