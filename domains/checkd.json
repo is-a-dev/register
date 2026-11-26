@@ -4,7 +4,12 @@
     "email": "kumararaja.kt@gmail.com"
   },
   "records": {
-    "CNAME": "kumararajakt.github.io",
+    "A": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
     "TXT": "google-site-verification=8kuXH1KyUX-Y-E629KoIsrjL8oP7Bu-nUosZaJlzdQ4"
   }
 }
