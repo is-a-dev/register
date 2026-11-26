@@ -1,4 +1,9 @@
 {
-  "owner": { "username": "emanueledri" },
-  "records": { "CNAME": "emanueledri.github.io" }
+  "owner": {
+    "username": "emanueledri",
+    "email": "LA-TUA-EMAIL"
+  },
+  "records": {
+    "CNAME": "emanueledri.github.io"
+  }
 }
