@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "dieudonne261",
-        "email": "ddieu0970@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=dede.is-a.dev,1bd9fde095cde30a071e"
-    }
+  "owner": {
+    "username": "dieudonne261",
+    "email": "ddieu0970@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=dede.is-a.dev,1bd9fde095cde30a071e"
+  }
 }

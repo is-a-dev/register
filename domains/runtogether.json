@@ -1,0 +1,10 @@
+{
+  "description": "Run Together - a personal, non-commercial live GPS run-tracking app for two friends",
+  "owner": {
+    "username": "swiftjamesr",
+    "email": "swiftjamesr@gmail.com"
+  },
+  "records": {
+    "CNAME": "swiftjamesr.github.io"
+  }
+}

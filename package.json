@@ -1,7 +1,9 @@
 {
   "type": "module",
   "scripts": {
-    "test": "npx ava tests/*.test.js"
+    "test": "npx ava tests/*.test.js",
+    "check:reserved-order": "node util/check-reserved-order.cjs",
+    "add:reserved": "node util/add-reserved-subdomain.cjs"
   },
   "devDependencies": {
     "ava": "^8.0.1",

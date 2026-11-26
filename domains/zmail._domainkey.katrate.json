@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "katrate",
+    "email": "my494stry@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClUAKgV00zqY3qF/d8OmKUQdWhB/4cXZzQLlbYA7HIZEB6qZ4b9AnXmWbnF0FibWE+xCqq/C/WND6wro+s0ZWIcu0BBCmJ8aWHauRUarX54xGo1riF+tchQp7BmFcofHNnzPaNeEXiT9ShT43D+d9mHBTrQbde19fohOtnuOxrywIDAQAB"
+    ]
+  }
+}

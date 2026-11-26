@@ -1,0 +1,10 @@
+{
+  "description": "Vercel domain verification for azkahasyyati.is-a.dev",
+  "owner": {
+    "username": "AzkaHasyyatiBayan",
+    "email": "bazkahasyyati@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=azkahasyyati.is-a.dev,512f5a05ede2245459ec"
+  }
+}

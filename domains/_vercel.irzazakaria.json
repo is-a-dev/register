@@ -1,0 +1,13 @@
+{
+  "name": "_vercel.irzazakaria",
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "Seronz",
+    "email": "irza.zakaria021@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=irzazakaria.is-a.dev,1f9c9c69f50870bf6c4f"
+    ]
+  }
+}

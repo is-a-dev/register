@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "berthosefin",
-        "email": "berthosefin@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "berthosefin",
+    "email": "berthosefin@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }
