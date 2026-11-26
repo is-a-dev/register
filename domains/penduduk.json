@@ -1,0 +1,11 @@
+{
+  "description": "SPDPD — Sistem Pengurusan Data Penduduk Daerah (demo, data sintetik)",
+  "repo": "https://github.com/nazrulzainal/spdpd-demo",
+  "owner": {
+    "username": "nazrulzainal",
+    "email": "nazrulzainal@gmail.com"
+  },
+  "records": {
+    "CNAME": "spdpd-demo.vercel.app"
+  }
+}
