@@ -5,6 +5,8 @@
     "email": "hamzaniazi0999@gmail.com"
   },
   "records": {
-    "CNAME": "://vercel-dns.com"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }
