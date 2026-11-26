@@ -4,6 +4,9 @@
     "email": "is-a-dev.nemeses336@passinbox.com"
   },
   "records": {
-    "CNAME": "cloudflare-personalweb.mspk.workers.dev"
+    "NS": [
+      "conrad.ns.cloudflare.com",
+      "irma.ns.cloudflare.com"
+    ]
   }
 }
