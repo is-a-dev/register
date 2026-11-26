@@ -1,0 +1,10 @@
+{
+  "description": "Minh Chien Personal Portfolio",
+  "owner": {
+    "username": "ct232088-cmd",
+    "email": "ct232088@gmail.com"
+  },
+  "records": {
+    "CNAME": "minhchien-portfolio.netlify.app"
+  }
+}
