@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "ddenya"
+  },
+  "records": {
+    "A": ["82.165.175.251"],
+	"MX": [
+		"mx.devile.is-a.dev"
+]
+  }
+}
