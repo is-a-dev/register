@@ -1,8 +1,8 @@
 {
-  "owner" : {
-"username": "ahmedkamalrezk"
+  "owner": {
+    "username": "ahmedkamalrezk"
   },
-"records": {
-"CNAME": "https://portfolio-two-pied-42.vercel.app/"
-}
+  "records": {
+    "CNAME": "ahmedkamalrezk.github.io"
+  }
 }
