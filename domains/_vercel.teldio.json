@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "teldio",
+    "email": "teldiocalbe@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=teldio.is-a.dev,7a82d99371b32be1a4eb",
+      "vc-domain-verify=www.teldio.is-a.dev,25c21ce8fcc53a299211"
+    ]
+  }
+}
