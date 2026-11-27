@@ -1,8 +1,11 @@
 {
-    "owner": {
-        "username": "ittzspsv"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=varshree.is-a.dev,287094b8fa00f266058f"
-    }
+  "owner": {
+    "username": "ittzspsv"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=varshree.is-a.dev,287094b8fa00f266058f",
+      "vc-domain-verify=faq.varshree.is-a.dev,0aa579dd4a18907215b9"
+    ]
+  }
 }
