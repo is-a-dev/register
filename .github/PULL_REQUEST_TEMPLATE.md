@@ -1,11 +1,3 @@
-<!--
-YOU MUST FILL OUT THIS ENTIRE TEMPLATE FOR YOUR PR TO BE APPROVED!
-
-DO NOT MODIFY OR REMOVE THIS TEMPLATE (INCLUDING REMOVING COMMENTS) OR YOUR PR WILL FAIL VALIDATION!
--->
-
-# Requirements
-<!-- Your domain MUST pass ALL the requirements below, otherwise it WILL BE DENIED. -->
 <!-- Change each checkbox to [x] (all lowercase, with no spaces between the brackets) to mark it as completed. -->
 <!-- Do not modify anything in this section other than the checkboxes, or your PR will fail validation. -->
 
