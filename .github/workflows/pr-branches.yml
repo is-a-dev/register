@@ -5,6 +5,7 @@ on:
 
 jobs:
     update:
+        if: github.event.repository.fork == false
         name: Update
         runs-on: ubuntu-latest
 
