@@ -1,0 +1,19 @@
+{
+  "description": "Personal developer project: personal email and homepage for Kornol tools",
+  "owner": {
+    "username": "Talya1412",
+    "email": "kornol1412@proton.me"
+  },
+  "records": {
+    "URL": "https://github.com/Talya1412",
+    "TXT": [
+      "v=spf1 include:zoho.com ~all",
+      "zoho-verification=zb47828926.zmverify.zoho.com"
+    ],
+    "MX": [
+      { "target": "mx.zoho.com", "priority": 10 },
+      { "target": "mx2.zoho.com", "priority": 20 },
+      { "target": "mx3.zoho.com", "priority": 50 }
+    ]
+  }
+}
