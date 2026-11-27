@@ -1,10 +1,12 @@
 {
   "owner": {
-    "username": "mirzahmohammed2",
+    "username": "mirzahmohammed2-ai",
     "email": "mirzahmohammed2@gmail.com"
   },
-  "record": {
-    "CNAME": "mirzahmohammed2-ai.github.io"
-  },
-  "proxied": false
+  "records": [
+    {
+      "type": "CNAME",
+      "value": "mirzahmohammed2-ai.github.io."
+    }
+  ]
 }
