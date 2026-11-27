@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "rdhimancoder",
-    "email": "rdhimancoder@gmail.com"
+    "email": "your-email@gmail.com"
   },
-  "record": {
-    "A": ["76.76.21.21"]
+  "records": {
+    "CNAME": "rdhimancoder.github.io"
   }
 }
