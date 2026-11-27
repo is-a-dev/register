@@ -4,6 +4,8 @@
     "email": "khatkarsidhant@gmail.com"
   },
   "records": {
-    "CNAME": "sidhant947.github.io"
+    "A": [
+      "75.2.60.5"
+    ]
   }
 }

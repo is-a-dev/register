@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "mmuizahmed",
-        "telegram-username": "@techscoder"
-    },
-    "records": {
-        "CNAME": "muizportfolio.pages.dev"
-    }
+  "owner": {
+    "username": "mmuizahmed",
+    "telegram-username": "@techscoder"
+  },
+  "records": {
+    "CNAME": "muizportfolio.pages.dev"
+  }
 }

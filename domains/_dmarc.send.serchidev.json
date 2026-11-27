@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "serchidev",
+    "email": "serchidev@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none;"
+  }
+}

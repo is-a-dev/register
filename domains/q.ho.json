@@ -1,0 +1,11 @@
+{
+  "description": "for using short share URL for thisquizismine.ho.is-a.dev",
+  "repo": "https://github.com/hiJiwho/M2U",
+  "owner": {
+    "username": "hiJiwho",
+    "email": "hi.jiwho@gmail.com"
+  },
+  "records": {
+    "CNAME": "tqim.web.app"
+  }
+}

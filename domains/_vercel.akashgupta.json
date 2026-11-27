@@ -1,0 +1,9 @@
+{
+  "description": "Vercel domain ownership verification for ABAP Studio",
+  "owner": {
+    "username": "akashgupta221"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=abap-studio.akashgupta.is-a.dev,7c86e8bdcf66173704fd"
+  }
+}

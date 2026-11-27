@@ -1,9 +1,11 @@
 {
   "owner": {
-    "username": "fuad49",
-    "email": "fuadalfiroj@gmail.com"
+    "username": "Rafi-netizen",
+    "email": "fuadmahmudrafi.official@gmail.com"
   },
   "records": {
-    "CNAME": "fuad49.github.io"
+    "A": [
+      "216.198.79.1"
+    ]
   }
 }

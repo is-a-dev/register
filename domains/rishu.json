@@ -1,9 +1,9 @@
-{ 
-   "owner": { 
-     "username": "DevlopRishi", 
-     "email": "gavelrishu@gmail.com" 
-   }, 
-   "records": { 
-     "CNAME": "devloprishi.github.io" 
-   }
- }
+{
+  "owner": {
+    "username": "rishu685",
+    "email": "rishabh45628@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

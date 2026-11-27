@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "iamanupsutar",
+    "email": "anup@librecion.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWa9A3DlDe8luUv4kkWYs2s//XGfFPV609MGKFtJS9OZCVnihZh16BdJAihCMPvhOq5/2iOHmWB5B83aiFry0mppzhuQyZyoVvtjEXQ6GkZV8GDQn+M16VyXYKOpxnXYg+Zebt+u7+AjEMxw39yzKU9+nmmntNNUWFMHM9m9yTpwIDAQAB"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "agsid",
+    "email": "agsid502@gmail.com"
+  },
+  "proxied": true,
+  "records": {
+    "CNAME": "agsid.github.io"
+  }
+}

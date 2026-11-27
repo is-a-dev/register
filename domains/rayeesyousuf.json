@@ -1,0 +1,31 @@
+{
+  "description": "Personal portfolio website",
+  "repo": "https://github.com/RayeesYousufGenAi",
+  "owner": {
+    "username": "RayeesYousufGenAi",
+    "email": "ryousuf31@gmail.com"
+  },
+  "records": {
+    "A": [
+      "75.2.60.5"
+    ],
+    "TXT": [
+      "zoho-verification=zb80347961.zmverify.zoho.in",
+      "v=spf1 include:zohomail.in ~all"
+    ],
+    "MX": [
+      {
+        "target": "mx.zoho.in",
+        "priority": 10
+      },
+      {
+        "target": "mx2.zoho.in",
+        "priority": 20
+      },
+      {
+        "target": "mx3.zoho.in",
+        "priority": 50
+      }
+    ]
+  }
+}

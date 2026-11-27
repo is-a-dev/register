@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "jeffcleds"
-    },
-    "records": {
-        "CNAME": "jeffcleds.github.io"
-    }
+  "owner": {
+    "username": "jeffcleds"
+  },
+  "records": {
+    "CNAME": "jeffcleds.github.io"
+  }
 }

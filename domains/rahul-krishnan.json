@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "rahulk98",
-        "email": "rahul.krishnan27@gmail.com"
-    },
-    "records": {
-        "CNAME": "rahulk98.github.io"
-    }
+  "owner": {
+    "username": "rahulk98",
+    "email": "rahul.krishnan27@gmail.com"
+  },
+  "records": {
+    "URL": "https://rahulkrishnan.me"
+  },
+  "redirect_config": {
+    "redirect_paths": true
+  }
 }

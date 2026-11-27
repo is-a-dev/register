@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Franklin-hyriol",
-        "email": "franklinrazafy@gmail.com"
-    },
-    "records": {
-        "CNAME": "hyriol.pages.dev"
-    }
+  "owner": {
+    "username": "Franklin-hyriol",
+    "email": "franklinrazafy@gmail.com"
+  },
+  "records": {
+    "CNAME": "hyriol.pages.dev"
+  }
 }
