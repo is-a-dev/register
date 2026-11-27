@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "Krisanth-21"
+    "username": "Krisanth-21",
+    "email": "krisanthkris@gmail.com"
   },
   "records": {
-    "CNAME": "krisanth.vercel.app"
+    "CNAME": "cname.vercel-dns.com"
   }
 }

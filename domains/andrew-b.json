@@ -13,7 +13,8 @@
     ],
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all",
-      "brevo-code:44509a702548750266b8ccf8141d68da"
+      "brevo-code:44509a702548750266b8ccf8141d68da",
+      "google-site-verification=lNTnyrmFe2vIyIsapvn0sfTnnV9VWq7Zzj1UKBQEcKQ"
     ]
   }
 }

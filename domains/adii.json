@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "sourdragon",
-        "email": "idkdawgTwT@proton.me"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "sourdragon",
+    "email": "idkdawgTwT@proton.me"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

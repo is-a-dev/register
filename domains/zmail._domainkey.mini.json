@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "15597771770-cpu",
+    "email": "lyh15597771770@gmail.com"
+  },
+  "proxied": false,
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKYaKEXRruqxnlMSSs8DOfLtogu4By269MV8qUpuGodIhxqlreq5TkT74wbNMuWf5T+6gOdwSWqGbB5RMUaC5R7xe/uazkfeqJ/HgQUmnG64bNB4bkSVgYEQZu+RhVi4zIDe+dJgK6YbBvPlBDh/meYKtpKMPh08f4O6LVsK9aFwIDAQAB"
+    ]
+  }
+}

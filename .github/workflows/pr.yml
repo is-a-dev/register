@@ -34,8 +34,10 @@ jobs:
                       domain:
                           - "domains/*"
                       documentation:
+                          - ".github/ISSUE_TEMPLATE/*"
                           - ".github/PULL_REQUEST_TEMPLATE.md"
                           - ".github/copilot-instructions.md"
+                          - "AGENTS.md"
                           - "README.md"
                       r-william:
                           - ".github/CODEOWNERS"
@@ -286,7 +288,7 @@ jobs:
                               marker,
                               "## ❌ Incomplete PR template",
                               "",
-                              "This pull request is missing required information from the PR template.",
+                              "This pull request is missing required information from the [PR template](https://github.com/is-a-dev/register/blob/main/.github/PULL_REQUEST_TEMPLATE.md).",
                               "",
                               "***Your PR will not be approved without the template being properly filled out!***",
                               "",

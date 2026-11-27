@@ -6,7 +6,10 @@
   },
   "records": {
     "A": [
-      "35.185.44.232"
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
     ],
     "MX": [
       {
@@ -23,7 +26,6 @@
       }
     ],
     "TXT": [
-      "gitlab-pages-verification-code=5e1c9ca3187ea9c0a88d142348af2bbe",
       "zoho-verification=zb30101126.zmverify.zoho.in",
       "v=spf1 include:zoho.in ~all"
     ]

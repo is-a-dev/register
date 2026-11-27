@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "wren-sunfish",
+    "email": "sage.sunfish@proton.me"
+  },
+  "records": {
+    "TXT": [
+      "v=DMARC1; p=reject; rua=mailto:dmarc@agentmail.to"
+    ]
+  }
+}

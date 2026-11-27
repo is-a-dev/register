@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Sifr-Dev"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=sifr.is-a.dev,5f25d7176ab048cde319",
+      "vc-domain-verify=www.sifr.is-a.dev,bad01628b118be284491"
+    ]
+  }
+}
