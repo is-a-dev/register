@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "troq-crypto"
+    "username": "troq-crypto",
+    "email": "thomas.roquetti@gmail.com"
   },
   "records": {
     "CNAME": "troq-crypto.github.io"
