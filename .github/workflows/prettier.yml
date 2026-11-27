@@ -19,6 +19,7 @@ permissions:
 
 jobs:
     prettify:
+        if: github.event.repository.fork == false
         name: Prettify JSON files
         runs-on: ubuntu-latest
         steps:
