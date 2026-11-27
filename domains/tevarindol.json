@@ -17,5 +17,11 @@
         "priority": 20
       }
     ]
+  },
+  "redirect_config": {
+    "custom_paths": {
+      "/bookstore": "https://bookstore.tevarindol.is-a.dev"
+    },
+    "redirect_paths": true
   }
 }
