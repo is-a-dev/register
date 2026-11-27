@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "vyrn-dev"
+        "username": "vyrn-dev",
+        "email": "vyrndev@gmail.com"
     },
     "records": {
         "CNAME": "vyrndev.netlify.app"
