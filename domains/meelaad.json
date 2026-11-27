@@ -1,0 +1,9 @@
+{
+ "owner": {
+  "username": "Meelaad",
+  "email": "noreply@example.com"
+ },
+ "records": {
+  "CNAME": "cname.vercel-dns.com"
+ }
+}
