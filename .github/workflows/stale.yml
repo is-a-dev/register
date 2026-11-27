@@ -8,6 +8,7 @@ on:
 
 jobs:
     label:
+        if: github.event.repository.fork == false
         name: Label
         runs-on: ubuntu-latest
         steps:
