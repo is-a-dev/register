@@ -1,9 +1,8 @@
 {
-  "owner": {
-    "username": "ghazigh",
-    "email": "gharsallahghazi@gmail.com"
-  },
-  "records": {
-    "CNAME": "ghazigh.github.io"
-  }
+    "owner": {
+        "username": "GauravG2512"
+    },
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    }
 }

@@ -1,11 +1,10 @@
 {
   "owner": {
-    "username": "hanjungwoo3",
-    "email": "jwhan@cafe24corpai.com"
+    "username": "SELMANI-Lyna"
   },
-  "description": "Official demo for portfolio-web — open-source Korean stock portfolio tracker",
-  "repo": "https://github.com/hanjungwoo3/portfolio-web",
   "records": {
-    "CNAME": "hanjungwoo3.github.io"
+    "A": [
+      "216.24.57.1"
+    ]
   }
 }

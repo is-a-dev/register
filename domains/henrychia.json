@@ -1,0 +1,25 @@
+{
+  "owner": {
+    "username": "henrychiacarerangers-boop",
+    "email": "henrychia90@yahoo.com.my"
+  },
+  "records": {
+    "A": [
+      "145.79.25.60"
+    ],
+    "TXT": [
+      "2de7335f5180ec0dbab598208cf6dc30",
+      "v=spf1 include:_spf.mail.hostinger.com ~all"
+    ],
+    "MX": [
+      {
+        "target": "mx1.hostinger.com",
+        "priority": 5
+      },
+      {
+        "target": "mx2.hostinger.com",
+        "priority": 10
+      }
+    ]
+  }
+}

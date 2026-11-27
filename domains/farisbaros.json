@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "onetech-project"
-    },
-    "records": {
-        "CNAME": "onetech-project.github.io"
-    }
+  "owner": {
+    "username": "onetech-project"
+  },
+  "records": {
+    "CNAME": "onetech-project.github.io"
+  }
 }

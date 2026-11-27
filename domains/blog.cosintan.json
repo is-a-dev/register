@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "cosintan-tg",
-        "email": "cosintan.tg@gmail.com"
-    },
-    "records": {
-        "CNAME": "hashnode.network"
-    }
+  "owner": {
+    "username": "cosintan-tg",
+    "email": "cosintan.tg@gmail.com"
+  },
+  "records": {
+    "CNAME": "hashnode.network"
+  }
 }

@@ -4,6 +4,8 @@
     "email": "sophareth.hao@uni.minerva.edu"
   },
   "records": {
-    "TXT": ["vc-domain-verify=phareth.is-a.dev,adf3c9e7a47b32a31dd6"]
+    "TXT": [
+      "vc-domain-verify=phareth.is-a.dev,adf3c9e7a47b32a31dd6"
+    ]
   }
 }

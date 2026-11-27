@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "snowman-scott",
+    "email": "rose@killallchickens.org"
+  },
+  "records": {
+    "CNAME": "snowman-scott.github.io"
+  },
+  "proxied": true
+}

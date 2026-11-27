@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "ivopatty",
-        "email": "github@ivopatty.app"
-    },
-    "records": {
-        "CNAME": "ivopatty-nl.pages.dev"
-    }
+  "owner": {
+    "username": "ivopatty",
+    "email": "github@ivopatty.app"
+  },
+  "records": {
+    "CNAME": "ivopatty-nl.pages.dev"
+  }
 }

@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "username": "dxbdxb416",
+    "email": "dxbdxb416@gmail.com"
+  },
+  "records": {
+    "CNAME": "dxbdxb416.github.io",
+    "MX": [
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
+    ],
+    "TXT": "v=spf1 include:spf.improvmx.com ~all"
+  },
+  "proxied": true
+}

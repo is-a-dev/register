@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "kamrullab",
+    "email": "engr.kamrul45@gmail.com"
+  },
+  "records": {
+    "TXT": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCOdYh2Aii0cMQnSmLOfk349eFVsBgtT5XjBUWJWaUpfN2OWLbfkGVmKhRP2oHIKU3u0n4rwENUExR7YB2IgqqPnGpyjm/JCs9N38jiZ6Oy6vfip6JJ1y1bdQQcpJSy6QSFtemWY5sfzJ5NCacxaVF6RbI2zdCDG7+Apb5qNg2jwQIDAQAB"
+  }
+}

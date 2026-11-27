@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "itsshunya",
-        "email": "luque.viictor@gmail.com"
-    },
-    "records": {
-        "CNAME": "itsshunya.github.io"
-    }
+  "owner": {
+    "username": "itsshunya",
+    "email": "luque.viictor@gmail.com"
+  },
+  "records": {
+    "CNAME": "itsshunya.github.io"
+  }
 }

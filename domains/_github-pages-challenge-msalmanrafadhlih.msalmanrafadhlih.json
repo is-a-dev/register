@@ -1,10 +1,9 @@
 {
-  "description": "github domain verify",
   "owner": {
     "username": "msalmanrafadhlih",
     "email": "tquilla@proton.me"
   },
   "records": {
-    "TXT": "222bc28fae85eec5d2841054d5b01a"
+    "TXT": "76ebebf423e475aa144e4ec831c62e"
   }
 }

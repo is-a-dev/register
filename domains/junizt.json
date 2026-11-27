@@ -4,6 +4,9 @@
     "email": "junior.cahyow@gmail.com"
   },
   "records": {
-    "NS": ["arya.ns.cloudflare.com", "langston.ns.cloudflare.com"]
+    "NS": [
+      "arya.ns.cloudflare.com",
+      "langston.ns.cloudflare.com"
+    ]
   }
 }
