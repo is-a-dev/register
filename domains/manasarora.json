@@ -1,10 +1,12 @@
 {
-    "owner": {
-        "username": "manasarora02",
-        "email": "",
-        "twitter": "manasarora002"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "manasarora02",
+    "email": "",
+    "twitter": "manasarora002"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

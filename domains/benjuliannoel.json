@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "benjuliann",
-        "email": "benjulian.noel@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "benjuliann",
+    "email": "benjulian.noel@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

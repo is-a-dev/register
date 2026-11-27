@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "mariosmart1532-ctrl"
-    },
-    "records": {
-        "CNAME": "rhemystudios.netlify.app"
-    }
+  "owner": {
+    "username": "mariosmart1532-ctrl"
+  },
+  "records": {
+    "CNAME": "rhemystudios.netlify.app"
+  }
 }

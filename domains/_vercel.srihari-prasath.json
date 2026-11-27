@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "Srihari-Prasath",
-        "email": "hari54stark@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=srihari-prasath.is-a.dev,016acffe8e319870578c"
-    }
+  "owner": {
+    "username": "Srihari-Prasath",
+    "email": "hari54stark@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=srihari-prasath.is-a.dev,016acffe8e319870578c"
+  }
 }

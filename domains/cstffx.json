@@ -1,9 +1,9 @@
 {
-    "owner": {
-      "username": "cstffx",
-      "email": "cstffx@gmail.com"
-    },
-    "records": {
-      "CNAME": "cstffx.pages.dev"
-    }
+  "owner": {
+    "username": "cstffx",
+    "email": "cstffx@gmail.com"
+  },
+  "records": {
+    "CNAME": "cstffx.pages.dev"
+  }
 }

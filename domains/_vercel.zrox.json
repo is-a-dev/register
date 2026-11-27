@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "androdotdev"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=zrox.is-a.dev,9fb9b2d8bc1cec6060ce"
-    }
+  "owner": {
+    "username": "androdotdev"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=zrox.is-a.dev,9fb9b2d8bc1cec6060ce"
+  }
 }

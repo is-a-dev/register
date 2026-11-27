@@ -1,1 +1,9 @@
-{"owner":{"username":"TejasKakani","email":"tejaskakani.official@gmail.com"},"records":{"CNAME":"tejaskakani.github.io"}}
+{
+  "owner": {
+    "username": "TejasKakani",
+    "email": "tejaskakani.official@gmail.com"
+  },
+  "records": {
+    "CNAME": "tejaskakani.github.io"
+  }
+}

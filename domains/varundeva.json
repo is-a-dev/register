@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "varundeva",
-        "email": "hello@varundeva.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "varundeva",
+    "email": "hello@varundeva.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

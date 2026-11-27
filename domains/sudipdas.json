@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "sudipdasin"
-    },
-    "records": {
-        "CNAME": "sudip-das-frontend.pages.dev"
-    }
+  "owner": {
+    "username": "sudipdasin"
+  },
+  "records": {
+    "CNAME": "sudip-das-frontend.pages.dev"
+  }
 }

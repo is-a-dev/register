@@ -1,4 +1,8 @@
 {
-  "owner": { "username": "haddagart" },
-  "records": { "CNAME": "haddagart.github.io" }
+  "owner": {
+    "username": "haddagart"
+  },
+  "records": {
+    "CNAME": "haddagart.github.io"
+  }
 }

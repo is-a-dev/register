@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "xaadali0087",
-        "email": "saadali0087@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "xaadali0087",
+    "email": "saadali0087@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

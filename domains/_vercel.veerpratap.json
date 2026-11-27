@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "veer714"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=veerpratap.is-a.dev,824e9b79e17f562276aa"
-    }
+  "owner": {
+    "username": "veer714"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=veerpratap.is-a.dev,824e9b79e17f562276aa"
+  }
 }

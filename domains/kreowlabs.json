@@ -1,11 +1,14 @@
 {
-    "owner": {
-        "username": "Djalil-Kreow",
-        "email": "djalil.dev@gmail.com",
-        "discord": "226300562612813827",
-        "twitter": "abdeldjalil158"
-    },
-    "records": {
-        "A": ["216.198.79.1", "64.29.17.1"]
-    }
+  "owner": {
+    "username": "Djalil-Kreow",
+    "email": "djalil.dev@gmail.com",
+    "discord": "226300562612813827",
+    "twitter": "abdeldjalil158"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1",
+      "64.29.17.1"
+    ]
+  }
 }

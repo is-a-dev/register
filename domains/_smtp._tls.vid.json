@@ -1,8 +1,8 @@
 {
   "owner": {
-   "username": "condshu"
+    "username": "condshu"
   },
- "records": {
-   "TXT": "v=TLSRPTv1; rua=mailto:tlsrpt@astermail.org"
+  "records": {
+    "TXT": "v=TLSRPTv1; rua=mailto:tlsrpt@astermail.org"
   }
 }

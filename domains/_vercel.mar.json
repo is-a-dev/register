@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "vault-goy",
-        "email": "haikalfibraayirprasta7@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=mar.is-a.dev,d91498b7860762760869"
-    }
+  "owner": {
+    "username": "vault-goy",
+    "email": "haikalfibraayirprasta7@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=mar.is-a.dev,d91498b7860762760869"
+  }
 }

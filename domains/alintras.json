@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "alintras"
-    },
-    "records": {
-        "CNAME": "alintras.github.io"
-    }
+  "owner": {
+    "username": "alintras"
+  },
+  "records": {
+    "CNAME": "alintras.github.io"
+  }
 }

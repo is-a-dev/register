@@ -1,1 +1,11 @@
-{"owner": {"username": "LaughingDragon", "email": "liampward@gmail.com"}, "records": {"A": ["34.85.199.232"]}}
+{
+  "owner": {
+    "username": "LaughingDragon",
+    "email": "liampward@gmail.com"
+  },
+  "records": {
+    "A": [
+      "34.85.199.232"
+    ]
+  }
+}

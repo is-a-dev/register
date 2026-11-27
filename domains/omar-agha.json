@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "omar-agha"
-    },
-    "records": {
-        "CNAME": "omar-agha.github.io"
-    }
+  "owner": {
+    "username": "omar-agha"
+  },
+  "records": {
+    "CNAME": "omar-agha.github.io"
+  }
 }

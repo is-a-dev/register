@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "GauravG2512"
-    },
-    "records": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "GauravG2512"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }

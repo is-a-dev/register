@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "shubhranka"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=shubhranka.is-a.dev,ded5eb27426c61d1ae3e"
-    }
+  "owner": {
+    "username": "shubhranka"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=shubhranka.is-a.dev,ded5eb27426c61d1ae3e"
+  }
 }
