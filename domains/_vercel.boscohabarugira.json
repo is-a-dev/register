@@ -5,6 +5,8 @@
     "email": "boscohabarugira30@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=boscohabarugira.is-a.dev,56f6c85d863b8131e005"]
+    "TXT": [
+      "vc-domain-verify=boscohabarugira.is-a.dev,56f6c85d863b8131e005"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "UMESHRATHOD16",
-        "email": "umeshhhhhrathod@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=rathodumesh.is-a.dev,807b80b18bb4d126becb"
-    }
+  "owner": {
+    "username": "UMESHRATHOD16",
+    "email": "umeshhhhhrathod@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=rathodumesh.is-a.dev,807b80b18bb4d126becb"
+  }
 }

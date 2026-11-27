@@ -4,6 +4,9 @@
     "twitter": "_ankur_dahiya"
   },
   "records": {
-    "TXT": ["vc-domain-verify=ankur.is-a.dev,3a1f025cb79e7e9e72cd","vc-domain-verify=www.ankur.is-a.dev,ba46e82be8719816dff7"]
+    "TXT": [
+      "vc-domain-verify=ankur.is-a.dev,3a1f025cb79e7e9e72cd",
+      "vc-domain-verify=www.ankur.is-a.dev,ba46e82be8719816dff7"
+    ]
   }
 }

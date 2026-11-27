@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "hossamelsahafy"
-    },
-    "records": {
-        "CNAME": "hossam-portfolio-ruby.vercel.app"
-    }
+  "owner": {
+    "username": "hossamelsahafy"
+  },
+  "records": {
+    "CNAME": "hossam-portfolio-ruby.vercel.app"
+  }
 }

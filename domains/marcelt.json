@@ -1,10 +1,9 @@
-   {
-     "owner": {
-       "username": "Marcel-mux",
-       "email": "marcelturangan2@gmail.com"
-     },
-     "records": {
-       "CNAME": "cname.vercel-dns.com"
-     }
-   }
-   
+{
+  "owner": {
+    "username": "Marcel-mux",
+    "email": "marcelturangan2@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}

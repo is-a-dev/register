@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "Srihari-Prasath",
-        "email": "hari54stark@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "Srihari-Prasath",
+    "email": "hari54stark@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

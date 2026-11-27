@@ -1,4 +1,9 @@
 {
-     "owner": { "username": "ExlentyEzz", "email": "exlentys@gmail.com" },
-     "records": { "TXT": "vc-domain-verify=exlenty.is-a.dev,3aab5cf77502e3b8b24b" }
+  "owner": {
+    "username": "ExlentyEzz",
+    "email": "exlentys@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=exlenty.is-a.dev,3aab5cf77502e3b8b24b"
+  }
 }

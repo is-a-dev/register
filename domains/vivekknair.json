@@ -1,10 +1,11 @@
-
 {
   "owner": {
     "username": "vkn-can-code",
     "email": "vivek.k.nair03@gmail.com"
   },
   "records": {
-    "A": ["200.141.2.204"]
+    "A": [
+      "200.141.2.204"
+    ]
   }
 }

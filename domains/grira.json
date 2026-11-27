@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "r3xdec-bit",
-        "email": "r3xdec@gmail.com"
-    },
-    "records": {
-        "CNAME": "r3xdec-bit.github.io"
-    }
+  "owner": {
+    "username": "r3xdec-bit",
+    "email": "r3xdec@gmail.com"
+  },
+  "records": {
+    "CNAME": "r3xdec-bit.github.io"
+  }
 }

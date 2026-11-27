@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "Aritra203"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=aritrakonar.is-a.dev,c136d5776251b559840b"
-    }
+  "owner": {
+    "username": "Aritra203"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=aritrakonar.is-a.dev,c136d5776251b559840b"
+  }
 }

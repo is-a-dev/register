@@ -1,10 +1,10 @@
 {
-    "description": "Personal portfolio of Umutcan Alanyali",
-    "repo": "https://github.com/umalanyali/umalanyali.github.io",
-    "owner": {
-        "username": "umalanyali"
-    },
-    "records": {
-        "CNAME": "umalanyali.github.io"
-    }
+  "description": "Personal portfolio of Umutcan Alanyali",
+  "repo": "https://github.com/umalanyali/umalanyali.github.io",
+  "owner": {
+    "username": "umalanyali"
+  },
+  "records": {
+    "CNAME": "umalanyali.github.io"
+  }
 }

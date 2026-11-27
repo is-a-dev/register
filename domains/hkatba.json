@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "hkatba",
-		"email": "hvkatba@gmail.com"
-    },
-    "records": {
-        "CNAME": "hkatba.github.io"
-    }
+  "owner": {
+    "username": "hkatba",
+    "email": "hvkatba@gmail.com"
+  },
+  "records": {
+    "CNAME": "hkatba.github.io"
+  }
 }

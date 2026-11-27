@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "guptavernit2-afk",
-        "email": "guptavernit2@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=vernit.is-a.dev,5b979fcbf0c52abd1896"
-    }
+  "owner": {
+    "username": "guptavernit2-afk",
+    "email": "guptavernit2@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=vernit.is-a.dev,5b979fcbf0c52abd1896"
+  }
 }

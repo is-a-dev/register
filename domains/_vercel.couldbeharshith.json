@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "couldbeharshith",
-        "email": "dev.harshith09@gmail.com"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=couldbeharshith.is-a.dev,5f0b98694c3923a32d17"
-    }
+  "owner": {
+    "username": "couldbeharshith",
+    "email": "dev.harshith09@gmail.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=couldbeharshith.is-a.dev,5f0b98694c3923a32d17"
+  }
 }

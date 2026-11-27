@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "ayyub-humeid",
-        "email": "ayoubhumeid@gmail.com"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "ayyub-humeid",
+    "email": "ayoubhumeid@gmail.com"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

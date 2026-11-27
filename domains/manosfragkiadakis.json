@@ -1,1 +1,11 @@
-{"owner": {"username": "manosfragkiadakis", "email": "manosfragkiadakis@hotmail.com"}, "records": {"A": ["92.113.22.52"]}}
+{
+  "owner": {
+    "username": "manosfragkiadakis",
+    "email": "manosfragkiadakis@hotmail.com"
+  },
+  "records": {
+    "A": [
+      "92.113.22.52"
+    ]
+  }
+}

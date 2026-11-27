@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "paras9498"
-    },
-    "records": {
-        "TXT": "vc-domain-verify=paras-chheda.is-a.dev,25fabb8b58bde8e93d90"
-    }
+  "owner": {
+    "username": "paras9498"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=paras-chheda.is-a.dev,25fabb8b58bde8e93d90"
+  }
 }

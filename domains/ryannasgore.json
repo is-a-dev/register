@@ -1,8 +1,10 @@
 {
-    "owner": {
-        "username": "shuu-arch"
-    },
-    "records": {
-        "A": ["216.198.79.1"]
-    }
+  "owner": {
+    "username": "shuu-arch"
+  },
+  "records": {
+    "A": [
+      "216.198.79.1"
+    ]
+  }
 }

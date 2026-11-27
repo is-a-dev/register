@@ -1,9 +1,9 @@
 {
-    "owner":  {
-                  "username":  "agnelfranciso",
-                  "email":  "agnelfrancis2007@hotmail.com"
-              },
-    "records":  {
-                    "CNAME":  "agnel-francis.netlify.app"
-                }
+  "owner": {
+    "username": "agnelfranciso",
+    "email": "agnelfrancis2007@hotmail.com"
+  },
+  "records": {
+    "CNAME": "agnel-francis.netlify.app"
+  }
 }
