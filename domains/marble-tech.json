@@ -1,0 +1,14 @@
+{
+  "name": "marble-tech",
+  "description": "this is my company website for development",
+  "repo": "https://github.com/Lil-Vert/marble-tech",
+  "owner": {
+    "username": "Lil-Vert",
+    "email": "victormatthew626@gmail.com"
+  },
+  "records":[
+    { "type":"A",
+    "value":"13.50.126.225"
+    }
+  ]
+}
