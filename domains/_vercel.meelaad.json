@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Meelaad",
+    "email": "noreply@example.com"
+  },
+  "records": {
+    "TXT": "vc-domain-verify=meelaad.is-a.dev,736a39a5e56444d55212"
+  }
+}
