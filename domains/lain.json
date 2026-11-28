@@ -1,0 +1,9 @@
+{
+  "description": "lain - personal site",
+  "owner": {
+    "username": "lainnno"
+  },
+  "records": {
+    "CNAME": "lain-25913.wasmer.app"
+  }
+}
