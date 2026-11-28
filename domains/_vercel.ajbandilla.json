@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "YOUR-GITHUB-USERNAME",
+    "email": "bandillaaj9@gmail.com"
+  },
+  "records": {
+    "TXT": "PASTE-THE-VERCEL-TXT-VALUE-HERE"
+  }
+}
