@@ -22,10 +22,10 @@ DO NOT MODIFY OR REMOVE THIS TEMPLATE (INCLUDING REMOVING COMMENTS) OR YOUR PR W
 <!-- This should be a LINK to the existing domain your website is on, NOT the is-a.dev domain you're applying for. (e.g. https://abc.vercel.app, https://abc.github.io) -->
 
 <!-- WEBSITE_PREVIEW_START -->
+https://selct.vercel.app
 <!-- WEBSITE_PREVIEW_END -->
-
 # Website Purpose
 <!-- Please tell us the purpose or motive behind your website in between the start/end markers. For example, it is a portfolio website, etc. -->
-
 <!-- WEBSITE_PURPOSE_START -->
+Landing page for SELCT, a pre-launch software product demo.
 <!-- WEBSITE_PURPOSE_END -->
