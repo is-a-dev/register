@@ -3,7 +3,9 @@
     "username": "Sakula-Yuzu"
   },
   "records": {
-    "CNAME":"qinqian.creeperforbilibili-com.workers.dev"
+    "NS": [
+      "mcgrory.ns.cloudflare.com",
+      "tessa.ns.cloudflare.com"
+    ]
   }
-  "NS": ["mcgrory.ns.cloudflare.com", "tessa.ns.cloudflare.com"]
 }
