@@ -1,8 +1,10 @@
+
 {
   "owner": {
-    "username": "Kevin-Mickael"
+    "username": "Kevin-Mickael",
+    "email": "anriatsilavokevin@gmail.com"
   },
   "records": {
-    "CNAME": "https://kevin-rakotonindrina-story.pages.dev/"
+    "CNAME": "kevin-rakotonindrina-story.pages.dev"
   }
 }
