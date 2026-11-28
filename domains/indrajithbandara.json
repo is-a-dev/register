@@ -4,25 +4,7 @@
     "email": "indrajithbandarasl@gmail.com"
   },
   "records": {
-    "A": [
-      "185.199.108.153",
-      "185.199.109.153",
-      "185.199.110.153",
-      "185.199.111.153"
-    ],
-    "MX": [
-      {
-        "target": "mx1.improvmx.com",
-        "priority": 10
-      },
-      {
-        "target": "mx2.improvmx.com",
-        "priority": 20
-      }
-    ],
-    "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
-    ]
+    "CNAME": "indrajithbandara.github.io"
   },
   "description": "Personal portfolio website - Cybersecurity Advisor, Cisco Instructor Trainer, Cloud Computing Trainer and Open Source Developer based in Sri Lanka.",
   "repo": "https://github.com/indrajithbandara/indrajith-portfolio"
