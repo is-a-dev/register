@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "YOUR-GITHUB-USERNAME",
-    "email": "bandillaaj9@gmail.com"
+    "username": "AjBandilla",
+    "email": "arieljohnbandilla@gmail.com"
   },
   "records": {
-    "TXT": "PASTE-THE-VERCEL-TXT-VALUE-HERE"
+    "TXT": "vc-domain-verify=aj.is-a.dev,0528aff7b24ad8f6179f"
   }
 }
