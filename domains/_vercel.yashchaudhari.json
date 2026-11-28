@@ -4,6 +4,9 @@
     "email": "yashchaudhari500@gmail.com"
   },
   "records": {
-    "TXT": "vc-domain-verify=research.yashchaudhari.is-a.dev,a2829f519d4573b955c7"
+    "TXT": [
+      "vc-domain-verify=research.yashchaudhari.is-a.dev,a2829f519d4573b955c7",
+      "vc-domain-verify=s-recorder.yashchaudhari.is-a.dev,1907207e2d18199bd8277"
+    ]
   }
 }
