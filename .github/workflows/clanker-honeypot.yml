@@ -14,6 +14,7 @@ permissions:
 
 jobs:
     label:
+        if: github.event.repository.fork == false
         name: Filter out AI-generated PRs
         runs-on: ubuntu-latest
 
