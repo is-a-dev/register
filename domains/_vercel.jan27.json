@@ -3,6 +3,9 @@
         "username": "JAN-tech404"
     },
     "records": {
-        "TXT": "vc-domain-verify=www.jan27.is-a.dev,0fc9772fcf3c706257b6"
+        "TXT": [
+            "vc-domain-verify=jan27.is-a.dev,ad6f98dd2546d3b6ccf2",
+            "vc-domain-verify=www.jan27.is-a.dev,b16cbfd061143e362acc"
+        ]
     }
 }
