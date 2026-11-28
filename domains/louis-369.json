@@ -4,6 +4,9 @@
     "email": "9313louis@gmail.com"
   },
   "records": {
-    "CNAME": "louis-369.github.io"
+    "NS": [
+      "eva.ns.cloudflare.com",
+      "tom.ns.cloudflare.com"
+    ]
   }
 }
