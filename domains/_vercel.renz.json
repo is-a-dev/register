@@ -3,6 +3,6 @@
         "username": "renzymigz"
     },
     "records": {
-        "TXT": "paste-the-vc-domain-verify-string-here"
+        "TXT": "vc-domain-verify=renz.is-a.dev,980f228530476e4a33e4"
     }
 }
