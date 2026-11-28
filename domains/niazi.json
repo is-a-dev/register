@@ -1,12 +1,11 @@
 {
-  "description": "Personal full-stack developer portfolio of Hamza Niazi",
   "owner": {
     "username": "NIAZI77",
     "email": "hamzaniazi0999@gmail.com"
   },
   "records": {
-    "A": [
-      "216.198.79.1"
+    "CNAME": [
+      "0acf0402d4361dd1.vercel-dns-017.com"
     ]
   }
 }
