@@ -1,8 +1,11 @@
 {
   "owner": {
-    "username": "kodexse"
+    "username": "kodexse",
+    "email": "kodexse@users.noreply.github.com"
   },
   "records": {
-    "A": ["156.241.0.21"]
+    "A": [
+      "156.241.0.21"
+    ]
   }
 }
