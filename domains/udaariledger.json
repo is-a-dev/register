@@ -6,5 +6,6 @@
   "records": {
     "CNAME": "dipesh1997.github.io",
     "TXT": "google-site-verification=w5HvtVIguma9-CthjY1DYxY65gMgnWO3avkZkbLsYPo"
-  }
+  },
+  "proxied": true
 }
