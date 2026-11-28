@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "Yourfiyan",
+    "email": "yourfiyan@proton.me"
+  },
+  "records": {
+    "TXT": "v=DMARC1; p=none; rua=mailto:yourfiyan@yourfiyan.is-a.dev; adkim=s; aspf=s"
+  }
+}

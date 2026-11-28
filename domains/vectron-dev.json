@@ -1,0 +1,11 @@
+{
+  "description": "An open-source developer dashboard and 3D geospatial telemetry tool built with React and CesiumJS",
+  "repo": "https://gitlab.com/Bittu02/vectron",
+  "owner": {
+    "username": "pranayj954-commits",
+    "email": "pranayj954@gmail.com"
+  },
+  "records": {
+    "CNAME": "vectron-fx06.onrender.com"
+  }
+}

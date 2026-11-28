@@ -4,7 +4,7 @@
     "email": "arthursantossousa05@gmail.com"
   },
   "records": {
-    "CNAME": "p1-host.triniumhost.com"
+    "CNAME": "ip-01.triniumhost.com"
   },
-  "proxied": true
+  "proxied": false
 }

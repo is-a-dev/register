@@ -1,0 +1,25 @@
+{
+  "owner": {
+    "username": "abduIwahid",
+    "email": "wahidkingyt10@gmail.com"
+  },
+  "records": {
+    "A": [
+      "76.76.21.21"
+    ],
+    "MX": [
+      {
+        "target": "mx1.forwardemail.net",
+        "priority": 10
+      },
+      {
+        "target": "mx2.forwardemail.net",
+        "priority": 20
+      }
+    ],
+    "TXT": [
+      "forward-email=contact:wahidkingyt10@gmail.com",
+      "v=spf1 include:spf.forwardemail.net ~all"
+    ]
+  }
+}

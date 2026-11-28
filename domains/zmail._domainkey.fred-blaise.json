@@ -1,0 +1,13 @@
+{
+  "name": "zmail._domainkey.fred-blaise",
+  "description": "Zoho DKIM for fred-blaise",
+  "owner": {
+    "username": "westindies86-DeV",
+    "email": "westindies86@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/wOXnJZHLGbaGxSco/E1MrY4jlYXeniyOPyKnSWYMfywT/bG/JkzZyOIecXTYbH8ksBtGVqI5X3ayHuLx4AisIg2/qZVE7UVGXDXGQv++SrEY5m6WOEV/FlzxAaGLP64WkF1x2D7Jm6VXwEBLxU5JkVeutPpQ/yQZtVjtjynUQQIDAQAB"
+    ]
+  }
+}

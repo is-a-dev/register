@@ -1,9 +1,11 @@
 {
-    "owner": {
-        "username": "NehemiahAndrew",
-        "email": "nehemiahandrew78@gmail.com"
-    },
-    "records": {
-        "CNAME": "nehemiahandrew.github.io"
-}
+  "owner": {
+    "username": "NehemiahAndrew",
+    "email": "nehemiahandrew78@gmail.com"
+  },
+  "records": {
+    "CNAME": "nehemiahandrew.github.io",
+    "TXT": "zoho-verification=zb13506217.zmverify.zoho.com"
+  },
+  "proxied": true
 }

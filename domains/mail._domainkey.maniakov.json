@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "Maniakov132414",
+    "email": "work@maniakov.bond"
+  },
+  "records": {
+    "TXT": [
+      "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8qIYnY8lROiTPFE4QweeLVTlUT+yj6wrYrfy7UBk+wb5D951Y+Ywj7GbkaINl5cTjXzSjRoY+QUDZbH/5m6QOcT2+T8ZE7Hhtc15hXY99xamZEYFU4ArsKwhB35wSqKqFtRn41qOOjmR3tDjXdOKsxsY4ewjP4q+u56ZV+Xju69r6Al+PmBIOFWtmMGAx8HihXxoeGsWt09+44DPgeANEbu/y00gYKnFKfVlFz4b5qdO0DCuWN6kukLVBMJfn+DLyCmeR1VKVeC8XfjyEfycwPuoM6PJ8JygTCMO5CwjFiLK47omWPplA8a3gfQzJyhw1aENpoTpzSFolum9Kh45ZQIDAQAB"
+    ]
+  }
+}

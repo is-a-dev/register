@@ -1,0 +1,13 @@
+{
+  "name": "_vercel.thisismonta",
+  "description": "Vercel TXT ownership verification",
+  "owner": {
+    "username": "ThisIsMonta",
+    "email": "monta.sghaier19@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "vc-domain-verify=thisismonta.is-a.dev,a36861a1a992cadb1dda"
+    ]
+  }
+}

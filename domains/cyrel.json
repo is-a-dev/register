@@ -1,0 +1,10 @@
+{
+  "description": "My personal portfolio",
+  "owner": {
+    "email": "dalinacyrel@gmail.com",
+    "username": "Cyrel91"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
