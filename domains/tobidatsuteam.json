@@ -4,5 +4,6 @@
     },
     "records": {
         "CNAME": "thecrazyescapegamedevelopmentteam.github.io"
-    }
+    },
+    "proxied": true
 }
