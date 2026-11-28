@@ -1,22 +1,12 @@
 {
-  "repo": "",
   "owner": {
-    "username": "WanCai8908",
-    "email": "d45767541@gmail.com"
+    "username": "WanCai8908"
   },
-  "target": {
-    "CNAME": {
-      "name": "wancai",
-      "value": "wancai-portfolio.pages.dev"
-    }
+  "records": {
+    "CNAME": "wancai-portfolio.pages.dev"
   },
-  "proxied": false
+  "proxied": true
 }
-
-
-
-
-
 
 
 
