@@ -1,0 +1,11 @@
+{
+    "domain": "is-a.dev",
+    "subdomain": "tripchina",
+    "owner": {
+        "username": "tripchina-cn",
+        "email": "vgyu2148@agent.qq.com"
+    },
+    "records": {
+        "CNAME": "tripchina-cn.netlify.app"
+    }
+}
